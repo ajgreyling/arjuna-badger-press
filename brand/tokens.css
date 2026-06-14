@@ -36,7 +36,7 @@
   --abp-font-display: "Archivo Black", "Saira Condensed", "Bitter", system-ui, sans-serif;
   --abp-font-heading: "Space Grotesk", "Inter", system-ui, sans-serif;
   --abp-font-body:    Inter, system-ui, -apple-system, sans-serif;
-  --abp-font-reading: "Source Serif 4", Georgia, serif;
+  --abp-font-reading: "Atkinson Hyperlegible", system-ui, -apple-system, sans-serif;
   --abp-font-mono:    "JetBrains Mono", ui-monospace, monospace;
 
   --abp-text-xs:   0.75rem;
@@ -83,6 +83,12 @@ body {
   letter-spacing: var(--abp-track-eyebrow);
   color: var(--abp-ochre);
   font-size: var(--abp-text-sm);
+}
+
+.abp-reading {           /* long-form: novels, read-online, sample chapters */
+  font-family: var(--abp-font-reading);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a { color: var(--abp-link); }
