@@ -168,9 +168,9 @@ DOB:       ~1968–69 (estimated; no verified record)
 STATUS:    INACTIVE — see closing addendum
 ```
 
-**SUMMARY.** Subject is a Southern African national, assessed former SADF (artillery) and subsequently a contract operator across multiple African theatres (Angola, Sierra Leone, DRC) and, in later years, an individual of interest adjacent to several archaeological/resource matters in RSA, Egypt, and Australia. Despite a file opened in [REDACTED] and maintained for over two decades, the Agency has been **unable to confirm the subject's true identity, true nationality of origin, or — remarkably — his actual capabilities.**
+**SUMMARY.** Subject is a Southern African national, assessed former SADF (artillery) and subsequently a private-military contractor of the Executive Outcomes era (Angola, Sierra Leone), with later assessed air-mobile work (DRC) and, in later years, an individual of interest adjacent to several archaeological/resource matters in RSA, Egypt, and Australia. Despite a file opened in [REDACTED] and maintained for over two decades, the Agency has been **unable to confirm the subject's true identity, true nationality of origin, or — remarkably — his actual capabilities.**
 
-**ASSESSMENT.** This is the unusual part, and the reason this file has been escalated more than once. By every conventional metric, SWART should read as low-priority: an ageing, overweight, teetotal man with no fixed address, no visible network, no digital footprint, and a reputation — among those who have encountered him — for being harmless to the point of comedy. Multiple HUMINT sources describe him in nearly identical, dismissive terms.
+**ASSESSMENT.** This is the unusual part, and the reason this file has been escalated more than once. By every conventional metric, SWART should read as low-priority: an ageing, overweight, teetotal man with no fixed address, no visible network, no digital footprint, and a reputation — among those who have encountered him — for being harmless to the point of comedy. Multiple HUMINT sources describe him in nearly identical, dismissive terms. *(Of note: the recurring physical details these sources fixate on — an ostentatious recurved fixed blade, assessed Gurkha* kukri*; a many-pocketed field vest; a forearm tattoo in Arabic calligraphy — were uniformly logged as affectation, "operator cosplay," or the dressing-up of a wannabe. The Agency now assesses that this dismissive reading was not a failure of the sources but a* product of the subject*: he appears to have curated, deliberately, the exact silhouette that causes trained observers to file him as harmless and stop watching.)*
 
 And yet. Every operation he is assessed to have touched **succeeded, cleanly, with no attributable action.** No bodies. No incidents. No traces. Sources who dealt with him face-to-face consistently revised their assessment of him *upward* after the fact, frequently using the phrase "we never saw it." We are obliged to note that an individual who produces consistent operational success while leaving no evidence that any operation occurred is, from a tradecraft standpoint, either the luckiest man in Africa or one of the most capable operators the Agency has ever failed to recruit.
 
@@ -338,6 +338,8 @@ The Americans believe his name is SWART and cannot confirm it. The British decli
 **Eight services. Eight files. Eight different men.**
 
 A different name in nearly every one. A different estimate of his nationality, his capability, his threat, his very nature — the Americans baffled, the British humbled, his own country ashamed and then quietly proud, the Israelis admiring, the Russians unforgiving, the Australians charmed, the Saudis devoted to the point of decree. They cannot all be describing the same person.
+
+They could not even agree on his god. One file carries him as a convert to Islam — the beard, the abstinence, the desert years, the Arabic on his arm. Another logs him a Rastafarian, on the strength of a name some of his associates used for him, *Asher,* and the circles it was given in. A third records, flatly, *no religious affiliation.* And the Arabic tattoo that the first service photographed and filed as a verse of scripture — treating it, for a while, as a marker of radicalisation — is not Quranic at all. Read correctly by an analyst who happened to recognise it, it is the *Litany Against Fear:* a passage from a 1965 American science-fiction novel, inked in a borrowed script by a man who had loved the book since boyhood. An entire threat thread, built on a tattoo, and the tattoo was *Dune.* It is the whole error in a single line of ink: they read the surface he handed them, in the language they were trained to fear, and not once considered that the surface was the disguise, and the thing underneath was gentler, stranger, and entirely his own.
 
 And they are. That is the finding. The discrepancy is not an error in the files. The discrepancy *is* the man — the deliberate, lifelong, masterwork product of a person who arranged, with total intention, that every service that ever looked at him would come away with a different and incomplete picture, so that no two of them could ever assemble the whole, so that he could move through all of their countries, for sixty years, as eight different ghosts and one soft old man in a bad shirt who made you coffee and walked you to your car.
 
@@ -843,6 +845,18 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 **JAKOBUS:** Nobody dies. It's the most civilised thing your country's got. Don't let anyone tell you different.
 
+**JAGO:** Okay, people mention a *knife.* That you carry this big — almost a *sword.* And it doesn't fit, right, 'cause you're the no-gun guy, the disarm guy, and then you've got a giant blade on your leg. What's the deal with the knife.
+
+**JAKOBUS:** *(small smile)* Everyone notices the knife. That's the knife doing its job. *(beat)* It was a kukri. The curved one — Nepali. My father's, one of the few things of his I kept. And ja, it's big, and people see it and think *what's the soft old man compensating for,* and that's fine. Let them. A man looking at the silly knife isn't looking at the cord on my wrist, and the cord's the one that matters.
+
+**JAGO:** Wait — so the big scary knife is a *decoy?*
+
+**JAKOBUS:** The big knife is a *tool.* That's the thing the films ruined. *(beat)* You know the story they tell about the Gurkhas? Fearsome knife-fighters, secret martial art, take your head clean off at the foxhole. The world built a whole legend on it. Then somebody actually studied it, and there's no secret art. None. It's a good blade shape — weight in the spine — that a child grows up chopping wood and cutting rope and digging with, every day, until it isn't a weapon, it's part of the arm. The legend got born off a *tool,* in the hands of people who'd held it since they could walk. *(beat)* That's the whole of it. In Africa a blade isn't a threat, it's a Tuesday — it's how you eat, build, mend. A girl of ten walks the road with a machete bigger than that kukri and nobody flinches, because to her it's an axe, it's firewood. *(beat)* I carry knives because I use them every hour — rope, fruit, wire, a nail. The big one's for when the job's too big for the small one. None of them turns a border into a war. That's the gun's trick, not the knife's.
+
+**JAGO:** Huh. So where's the kukri now? You said "was" — and you said "my father's" like—
+
+**JAKOBUS:** *(beat)* I gave it away. To an old man in the desert who poured me tea I hadn't earned yet. *(beat)* That's the other thing about the things you love. You carry them until you meet the person they were always going to belong to, and then it turns out you were only ever the postman. *(beat)* I miss the weight of it. I don't miss owning it. There's a difference, and it took me about sixty years to learn it.
+
 **JAGO:** Okay. New thing. I read — somewhere, one of the forum things, Jamie show me if you can find it — that you've got, like, a *truck.* And that the truck is famous. That the truck is its own thing. What's the truck.
 
 **JAKOBUS:** *(and here something softens — this he'll talk about)* Ah. The truck. *(beat)* It's an old Land Cruiser. Looks like it's on the way to the scrapyard. That's the point of it.
@@ -1250,6 +1264,18 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 **NIKO:** So the capability is a prerequisite for the virtue.
 
 **JAKOBUS:** The capability is the *whole* prerequisite. You cannot be gentle in any way that means anything until you are genuinely dangerous. Before that it's not gentleness, it's just incapacity wearing gentleness's clothes. *(beat)* That's why I've got no patience for the man who's never trained, never bled, never stood in front of the real thing, lecturing about peace. His peace is free. It cost him nothing. *(beat)* The only peace worth anything is the peace a dangerous man keeps on purpose. That one's expensive. He pays for it every day, in the not-doing.
+
+**NIKO:** People hear "he wouldn't carry a gun" and they decide he couldn't shoot. Or wouldn't.
+
+**JAKOBUS:** *(beat)* People decide a lot. Get this one on the record straight, because the no-gun thing gets read backwards every single time. *(beat)* I can shoot. Every winter I take one animal for the year — meat, biltong, nothing for a wall — and I put it down clean, one round, close as the stalk lets me, because a bad shot is a debt you owe the animal and I don't run those. And once a year, on my own, I set an old coin out at five hundred metres and I hit it. Bit of copper the size of a thumbnail, half a kilometre off. Not for anyone. Just to know the hand still does what I tell it.
+
+**NIKO:** Then why not carry.
+
+**JAKOBUS:** *(beat)* Because I can. *(beat)* A man who gives up a thing he can't do hasn't given up anything — he's just dressing up what he never had. The refusal only counts if you could end the whole room from across the courtyard, and you set it down anyway, every morning, on purpose. *(beat)* The rifle belongs to winter. The bush, the food, the stillness, the respect. That one I keep. The pistol on the hip for the work — that one's a lie about power. It makes the man wearing it feel safe, and it makes everyone near him reach for theirs, and it turns a wave-through into a search. *(beat)* I spent years in other men's wars standing next to some of the best shots alive. The ones who lasted weren't the fast hands. They were the ones who arranged never to need them. *(beat)* That's the discipline you keep asking me about, Niko. Not the gun I carry. The gun I'm good enough to carry, and don't.
+
+**NIKO:** *(long pause)* ...the gap again.
+
+**JAKOBUS:** Always the gap. Between what you could do and what you do. *(beat)* Everything I'm worth is in that gap.
 
 **NIKO:** Extreme ownership. You know the concept. The leader owns everything in his world. Did you live that, or is that a thing you've come to.
 
