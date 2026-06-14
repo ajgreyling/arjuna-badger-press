@@ -26,6 +26,8 @@ studied Classics can finish it and know what the poem actually is — the quarre
 embassy, Patroclus, the killing of Hector, Priam in the hut — and what each of its twenty-four books
 asks of a human life.
 
+**The names.** Butler's English uses Roman forms for the gods — **Jove** (Zeus), **Juno** (Hera), **Minerva** (Athena), **Neptune** (Poseidon), **Mars** (Ares), **Venus** (Aphrodite), **Diana** (Artemis), **Mercury** (Hermes) — and **Ulysses** for Odysseus, **Diomed** for Diomedes. This book uses Greek names in the teaching voice where it helps a modern reader, and Butler's names in quoted passages. Both are honest to the translation quoted.
+
 **A word on reverence and honesty.** The *Iliad* is one of the foundation stones of Western literature
 and was sacred song to the ancient Greeks. This book is written by an outsider who loves the text and
 claims no authority over it — *a guest at someone else's fire.* It keeps three things visibly separate:
