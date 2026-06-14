@@ -6,7 +6,7 @@ Andries J. Greyling
 
 ---
 
-![Map: the journey of REVELATION across the real ancient sites of Africa.](/Users/ajgreyling/code/africangold/design/revelation/REVELATION_route_map.jpg)
+![Map: the journey of REVELATION across the real ancient sites of Africa.](assets/REVELATION_route_map.jpg)
 
 ---
 

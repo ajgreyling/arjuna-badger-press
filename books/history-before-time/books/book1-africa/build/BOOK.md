@@ -2619,3 +2619,38 @@ Jakobus's playlist is invented, but the kinds of music in it are real, and one d
 So two peoples who fought each other, bitterly, for that exact stretch of country both came to love the same little box of reeds, and made of it two musics that are, underneath, cousins. There is a whole history in that, and a whole man — Afrikaner and of the Free State at once — and the book leaves it where it found it: in the squeeze of an accordion on a long gold road, saying *home* in two languages at the same time.
 
 — A.J.G.
+
+---
+
+# The Honey Badger
+
+![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+
+*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
+below is true. Most of it sounds made up.*
+
+The honey badger has been listed by *Guinness World Records* as the most fearless animal on
+Earth. It did not apply for the title and would not have attended the ceremony.
+
+It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
+knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
+later, and **finish the snake it was already eating.**
+
+Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
+scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
+porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
+
+It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
+doing business. This is, in fact, how it got its name.
+
+It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
+Because the alternative — *caring* — has never occurred to it.
+
+The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
+Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
+climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
+learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
+that a thing cannot be done.
+
+Honey badger don't care.
+
