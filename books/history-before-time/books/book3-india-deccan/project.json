@@ -1,0 +1,17 @@
+{
+  "id": "hbt-deccan",
+  "title": "The Temple in the Rock",
+  "working_title": "History Before Time: The Temple in the Rock",
+  "protagonist": "Arjun Desai",
+  "logline": "A Marathi conservation architect whose expertise has become paralysis must act without grasping at certainty when the makers' chord strikes its next note in the carved cliffs of the Deccan.",
+  "blueprint": "quest-relay / site-to-site key-chain",
+  "market": "ancient-mystery adventure (Dan Brown / James Rollins) — the wonder, not the conspiracy",
+  "status": "drafting",
+  "seq": 3,
+  "graph_color": "#8b4513",
+  "canon_order": [
+    "SEED_STORY.md", "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
+    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md", "EPIGRAPHS.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

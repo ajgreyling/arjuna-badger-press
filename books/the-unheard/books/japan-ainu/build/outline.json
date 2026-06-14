@@ -1,0 +1,371 @@
+{
+  "working_title": "The Way That Was Invented",
+  "logline": "A crew arrives to film the soul-of-the-samurai postcard and meets the people Japan's perfect picture was built to bury — an Ainu woman done performing a country that won't claim her, and a man whose family skinned its war-drums.",
+  "cast": {
+    "crew": [
+      {
+        "name": "Frik (Frederik Basson)",
+        "layer": "reads THE LIE",
+        "neurology_or_margin": "Tourette's — involuntary, exquisitely-timed truth",
+        "want": "to stop apologising for the body that keeps blurting what the room is hiding",
+        "one_line": "In a country fluent in the polite face, his throat is the one mouth that can't keep tatemae."
+      },
+      {
+        "name": "Naila Okonkwo-Sato",
+        "layer": "reads THE SYSTEM",
+        "neurology_or_margin": "autistic pattern-reader",
+        "want": "to be trusted with the machinery, not managed around it",
+        "one_line": "Hand her the glossy brief and the 1899 statute and she sees they're the same document, painting in opposite directions."
+      },
+      {
+        "name": "Mira Vos",
+        "layer": "reads THE UNSPOKEN",
+        "neurology_or_margin": "profoundly deaf, lip- and face-reader",
+        "want": "to be the one who decides when her own face is read",
+        "one_line": "She watches the honne under the bowing mouth and knows the smile that means no before the no arrives."
+      },
+      {
+        "name": "Sandile 'Sandi' Dube",
+        "layer": "reads TONGUES",
+        "neurology_or_margin": "polyglot; learner's Japanese + Ainu phrases",
+        "want": "to reach people in their own words without mistaking translation for permission",
+        "one_line": "He can half-disarm a room in its mother tongue — and is learning that some words aren't his to say first."
+      },
+      {
+        "name": "Yael Brandt",
+        "layer": "reads THE GRIFT",
+        "neurology_or_margin": "reformed ad-money fixer",
+        "want": "to atone for years selling exactly this kind of postcard",
+        "one_line": "She knows precisely why the buyer wants THIS Japan, because she used to be the one who sold it to him."
+      }
+    ],
+    "local_leads": [
+      {
+        "name": "Rera Kawamura",
+        "people": "Ainu",
+        "role": "Hokkaidō tour-guide and tonkori player who quit the heritage-park circuit",
+        "want": "to be a living Ainu woman, not a curated exhibit or a tragic footnote",
+        "wound": "raised to pass as plain Japanese by a mother who hid the language to protect her",
+        "done_being": "done performing 'we Japanese' for cameras that need her to be either invisible or a costume",
+        "one_line": "She'll give the crew tea, jokes, and her grandmother's songs — but not the timeless-noble-savage shot, and not on their schedule."
+      },
+      {
+        "name": "Tōru Maeda",
+        "people": "buraku(fictionalised)",
+        "role": "third-generation taiko-skin craftsman in a fictional western-Kansai workshop, now plays in a reclamation drum ensemble",
+        "want": "to drum loud and named, in the open, the way his grandfather never could",
+        "wound": "a marriage that collapsed when the other family ran his koseki; a leaked online 'area list'",
+        "done_being": "done with the proverb 'don't wake the sleeping child' — but on HIS terms, not an outsider's exposé",
+        "one_line": "He'll teach you how a drum is born from a hide and a life — and he decides who hears that, and what gets filmed."
+      },
+      {
+        "name": "Sayaka Ishii",
+        "people": "keeper",
+        "role": "Bushido-as-construction historian; granddaughter of a war-drum maker, married into Maeda's community",
+        "want": "to make people love the real, plural Edo before they grieve the myth",
+        "wound": "watched a beloved uncle weaponise the invented 'code' to justify cruelty",
+        "done_being": "done letting the 1900 postcard pass as ancient law",
+        "one_line": "She'll show you the most beloved ancient code on earth was written in English, in 1900, for foreigners — and love the real thing more for it."
+      }
+    ],
+    "keepers": [
+      {
+        "name": "Genzō Aoki",
+        "craft": "swordsmith",
+        "one_line": "His family forged swords until 1876; now he makes knives, the shokunin who outlasted the bushi, and he gives blades, never sells the good ones."
+      },
+      {
+        "name": "Hori-Umi (Umeko Tanabe)",
+        "craft": "horishi",
+        "one_line": "An old hand-poke master who reads the man across the tea before she reads the skin, and chooses the design herself."
+      }
+    ],
+    "antagonist": {
+      "name": "Daniel Reyes / 'KOKORO' (the commission)",
+      "kind": "media/postcard-seller",
+      "wants": "a flawless luxury-streaming film — 'Soul of the Samurai: Timeless Japan' — sold on the most beloved, best-selling version of the lie",
+      "why_not_a_cartoon": "Reyes genuinely loves Japan, treats the crew well, pays beautifully, and believes reverence is honour; he is the polite, well-meaning face of erasure, not a villain — the postcard sells because it's beautiful",
+      "how_they_lose": "not outgunned: the leads simply will not be spoken for; every postcard frame the commission needs requires erasing the actual person standing in it, so the only honest film is the one the brief forbids — and the crew chooses to hand back the mic instead of deliver the gloss"
+    }
+  },
+  "chapters": [
+    {
+      "id": "ch-00",
+      "title": "Clay and Water",
+      "pov": "Genzō Aoki, then a quick cut wide",
+      "setting": "a swordsmith's forge before dawn; then Ishi-no-Hōden at noon",
+      "relay_node": "cold-open",
+      "summary": "In the blue dark Genzō paints clay along a blade's spine and plunges the steel into the quench; the metal curves itself in the fire — real metallurgy, the one thing the postcard gets right. At noon the camera cuts to a ~500-ton stone that appears to float on water at a Hyōgo shrine. A single line lands the inversion: the leather that wrapped the warrior's armour and the skin stretched over the drum that called him to war were tanned by hands this country still will not name.",
+      "beat": "arrive",
+      "unheard_thread": "inversion",
+      "jakobus_beat": "none",
+      "wonder_or_place": "Genzō Aoki's forge; Ishi-no-Hōden, Takasago, Hyōgo",
+      "continuity_notes": "Genzō's family made swords until 1876 then knives; the float is an engineered effect (hidden central pedestal over a water basin), purpose genuinely unsolved by the 2005 laser survey; stone is welded tuff, NOT granite; establishes the braid (blade aesthetic / hidden hands / wonder)",
+      "target_words": 700
+    },
+    {
+      "id": "ch-01",
+      "title": "The Easiest Shoot on the Slate",
+      "pov": "Yael",
+      "setting": "Tokyo, a glass hotel suite; the commission pitch",
+      "relay_node": "arrive",
+      "summary": "Reyes pitches 'Soul of the Samurai: Timeless Japan' — serene craftsmen, cherry blossom, the silent honourable warrior, 'we Japanese' — and it's gorgeous and it pays. Yael recognises the build because she used to sell exactly this; Naila, handed the brief and a stack of history, goes very still and says the word homogeneous is a verb here. Jakobus is handed the keys to a borrowed top-of-the-line Lexus LX and a host's courtesy; he signs for it and his hands come away empty.",
+      "beat": "arrive",
+      "unheard_thread": "inversion",
+      "jakobus_beat": "lexus",
+      "wonder_or_place": "Tokyo",
+      "continuity_notes": "the Lexus LX is BORROWED (host/fixer courtesy car), Cruiser bones under luxury skin, engineered silent — the opposite of his loud favour-built Beast; the commission/brand is KOKORO; Reyes is warm and well-meaning, not a cartoon",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-02",
+      "title": "The Customs Drawer",
+      "pov": "Jakobus (seen from outside) via Mira",
+      "setting": "airport / police koban; later a kitchen-supply street in Tokyo",
+      "relay_node": "flattening force",
+      "summary": "Jakobus learns his belt knives are genuinely illegal to carry; a courteous officer logs them away and the blade-man is disarmed by the most blade-revering country on earth. Mira watches his face do the small arithmetic of it and says nothing. The crew realises the postcard's promise of a country that wants to be filmed is already a half-truth — Japan shows you exactly what it wants you to see.",
+      "beat": "obstacle",
+      "unheard_thread": "inversion",
+      "jakobus_beat": "carry-law",
+      "wonder_or_place": "Tokyo",
+      "continuity_notes": "the knife-carry law disarms Jakobus all book; establishes omotenashi/tatemae as the register the crew must learn to read; Mira reads honne under tatemae faster than the crew",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-03",
+      "title": "She Will Not Give You the Postcard",
+      "pov": "Rera",
+      "setting": "Hokkaidō; a roadside, a real river, a parked van",
+      "relay_node": "arrive (the local who is DONE)",
+      "summary": "The crew flies north for the 'Indigenous wonder' segment and meets Rera, hired as a guide. She's funny, modern, irritated by their schedule, and she flatly refuses to stand in the elm-bast robe by the river for golden hour. When Sandi tries an Ainu greeting he half-learned, she corrects his vowel, laughs, and tells him a museum is not a person. The crew's whole shimmering reverent brief, she points out, is the erasure: to film 'timeless homogeneous Japan' is to paint over her.",
+      "beat": "read",
+      "unheard_thread": "ainu",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "Hokkaidō",
+      "continuity_notes": "Rera quit the heritage-park circuit; her mother hid the language to let her pass; Ainu = language isolate, animist (kamuy), recognised as Indigenous only 2019 (shallow, tourism-shaped); Rera plays tonkori; NO fresh traditional Ainu facial tattoos depicted",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-04",
+      "title": "The Word the Prime Minister Said",
+      "pov": "Naila",
+      "setting": "Upopoy National Ainu Museum and Park, Shiraoi",
+      "relay_node": "flattening force (institution)",
+      "summary": "Reyes wants the gleaming national museum as the Ainu segment — clean, state-blessed, photogenic. Inside, Naila maps the architecture of the framing: how the memorial hall holds ancestral remains, how the oppression history is sanded soft, how 'preserved in glass' is the exoticising the book exists to reject. Rera walks them through it deadpan, points at a placard, and quotes a 1986 prime minister calling Japan a nation with no minorities. The crew's instinct — to film the beautiful museum as the answer — is wrong, and Rera says so.",
+      "beat": "obstacle",
+      "unheard_thread": "ainu",
+      "jakobus_beat": "none",
+      "wonder_or_place": "Upopoy, Shiraoi, Hokkaidō",
+      "continuity_notes": "museum ≠ living people; 1899 assimilation law (banned language/customs) stood until repealed 1997; the 2019 Act gave recognition but NO land/self-determination/apology; ancestral-remains repatriation is live and painful; population contested (~11,450 self-ID 2023 vs far higher real number)",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-05",
+      "title": "The Humility Beat",
+      "pov": "Mira",
+      "setting": "Rera's grandmother's house; a kitchen, a tonkori",
+      "relay_node": "the crew's instinct is WRONG",
+      "summary": "The crew, trying to 'help', drafts a tender segment about a vanishing people and a dying language — grief porn with good lighting. Rera lets them finish, then quietly dismantles it: she is not vanishing, she is annoyed; her language is being relearned, not buried; their elegy is just the museum with violins. Mira watches Rera's grandmother's face as she plays an upopo round-song and understands the crew's job was never to tell — it was to put the camera down and listen. Jakobus is the first to lower his.",
+      "beat": "cost",
+      "unheard_thread": "ainu",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "Hokkaidō",
+      "continuity_notes": "the humility beat: crew's 'help/tell/fix' instinct is the wrong move; speaker numbers are contested — never a flat figure; revival is real (lessons, broadcasts); Jakobus first to put his camera away",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-06",
+      "title": "Changing to Remain Unchanged",
+      "pov": "Sandi",
+      "setting": "Ise Jingū, Mie; a miyadaiku workyard nearby",
+      "relay_node": "arrive (keeper)",
+      "summary": "South again for the 'craft' segment. At Ise — rebuilt from scratch every 20 years for 1,300 years — a miyadaiku temple-carpenter joins wood without a nail and explains, dry as sawdust, that nothing here is ancient: it's all new, on purpose, to keep the craft alive. Sandi reaches him in careful Japanese and the man lets the crew film the joinery but not the inner rite. The crew's idea of 'timeless Japan' starts coming apart: the wonder survives only by being remade.",
+      "beat": "key",
+      "unheard_thread": "keeper",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "Ise Jingū & a miyadaiku workyard",
+      "continuity_notes": "Ise = 'changing to remain unchanged'; non-photography rules at Ise (verify/respect); craft handed body-to-body, not graved; sets up the keepers as proof against erasure",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-07",
+      "title": "Without Leather, No Drum",
+      "pov": "Tōru",
+      "setting": "a fictional western-Kansai workshop; hides drying, a half-skinned taiko",
+      "relay_node": "arrive (the buraku lead, on HIS terms)",
+      "summary": "Sayaka introduces the crew to Tōru, a taiko-skin craftsman who agrees to be filmed making a drum — and only that, framed exactly how he says. He shows how a hide becomes a head, the months of it, the lineage of hands. Yael's grift-radar clocks the gentleness of the gatekeeping: he is testing whether they'll lunge for the story under the story. Naila notices he never names the trade's history, and understands she must not ask first; the door is his to open.",
+      "beat": "arrive",
+      "unheard_thread": "buraku",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "fictionalised western-Kansai workshop",
+      "continuity_notes": "the buraku community/place is FICTIONALISED and NEVER mapped or geolocated; NO slurs in narration; documented hidden-hands link = armour-leather + taiko drum-skins, NOT swords; Tōru controls what is filmed; Sayaka married into his community",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-08",
+      "title": "The Code Written in English",
+      "pov": "Sayaka",
+      "setting": "a university seminar room and a teahouse, Kyoto",
+      "relay_node": "the inversion lands",
+      "summary": "Sayaka walks the crew through the central inversion as a real, alive scene, not a lecture: Bushido — the world's most beloved ancient code — was largely synthesised by Nitobe in 1900, written in English, abroad, for Westerners, shaped like European chivalry, then weaponised by WWII militarism. Most Edo samurai were bureaucrats, not duellists. She doesn't sneer; she loves the plural real thing more than the myth, and tells the crew their whole brief is selling a draft as scripture. Frik's throat, mid-tea, lands the truth no one will say about the commission.",
+      "beat": "key",
+      "unheard_thread": "inversion",
+      "jakobus_beat": "none",
+      "wonder_or_place": "Kyoto",
+      "continuity_notes": "Bushido = real-but-CONSTRUCTED tradition (Nitobe 1900, English, for the West; WWII weaponisation; plural Edo reality); narrative voice NEVER adopts the homogeneity/timeless-code framing; the book loves the real, never sneers",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-09",
+      "title": "The Floating Stone",
+      "pov": "Naila",
+      "setting": "Ōshiko Shrine, Takasago, Hyōgo — Ishi-no-Hōden by day",
+      "relay_node": "the wonder, grounded",
+      "summary": "At the floating stone Naila reads the engineering: the basin, the hidden central pedestal, the welded tuff, the absence of woo. The 2005 laser survey found no tool marks and left who/when/why genuinely unsolved — a real mystery with no aliens in it. Rera and Tōru both come; standing at the rail, the leads and the crew feel the rhyme — a wonder whose makers are unknown, in a country that knows exactly whose names to leave off the plaque. Reyes wants it as the film's mystical centrepiece; Naila says the honest caption is 'we don't know,' and that's the part he can't sell.",
+      "beat": "read",
+      "unheard_thread": "wonder",
+      "jakobus_beat": "none",
+      "wonder_or_place": "Ishi-no-Hōden, Takasago, Hyōgo",
+      "continuity_notes": "~500-ton worked tuff, engineered float via hidden pedestal over water basin, NOT granite; purpose UNSOLVED (2005 laser survey, Harima Fudoki c.713 mention); NO Ancient-Aliens framing; the wonder rhymes with unnamed makers",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-10",
+      "title": "Tea First",
+      "pov": "Mira (watching Jakobus from outside)",
+      "setting": "Hori-Umi's small studio",
+      "relay_node": "jakobus beat (peripheral)",
+      "summary": "An old horishi, Hori-Umi, takes tea with Jakobus and spends the hour reading the man, not the skin. She watches the heaviest, most dangerous thing in the room sit very still and very gentle, and she chooses the design herself — refusing his suggestions. Mira reads the whole negotiation off two faces and understands the master is doing to Jakobus exactly what the country has done all book: deciding what he gets to control. He agrees to let a stranger mark him forever, on her terms.",
+      "beat": "cost",
+      "unheard_thread": "keeper",
+      "jakobus_beat": "tattoo",
+      "wonder_or_place": "Hori-Umi's studio",
+      "continuity_notes": "the ink is from a Japanese HORISHI, NOT an Ainu hand (firewall — Ainu women's tattooing is sacred/near-erased, no fresh traditional Ainu facial tattoos on any character); horishi chooses the design; this is his 5th tattoo; surrendering control = the humility lever",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-11",
+      "title": "The Wave That Does Not Fall",
+      "pov": "Mira / Jakobus from outside",
+      "setting": "Hori-Umi's studio, one long sitting; later, an onsen door",
+      "relay_node": "jakobus beat (peripheral)",
+      "summary": "In one hand-poked sitting with the nomi, Hori-Umi inks a great wave caught at the instant of its full weight — all crushing power, the moment before it breaks — and it does not fall. Power held soft, low where it'll never show above a collar. That evening the onsen door is shut to him: the most ink-revering country won't let the inked into its water. One quiet, earned line — the heaviest thing in the room, set down soft — carries the whole moment and reads as pure character to everyone in it.",
+      "beat": "cost",
+      "unheard_thread": "keeper",
+      "jakobus_beat": "onsen",
+      "wonder_or_place": "Hori-Umi's studio; an onsen",
+      "continuity_notes": "motif LOCKED = the great wave held at full weight that does not break (power held soft); inked low/hidden; onsen tattoo-ban shuts the bath to him all book; the single double-duty line must be earned, plain, embodied, once — never glossed; G-nod stays PURE story (no symbols/equation)",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-12",
+      "title": "The List That Won't Die",
+      "pov": "Naila",
+      "setting": "the crew's edit room; an online forum, a leaked directory",
+      "relay_node": "flattening force (the machinery)",
+      "summary": "Building the film, Naila stumbles on the mechanism of the harm: an old 'Comprehensive List of area names,' exposed in 1975, sold to major firms to screen marriages and hires — and copies still resurfacing online with no real remedy. She sees instantly that the system the postcard hides and the system that lists Tōru's people are the same machine. The crew's reflex — to put it in the film, to expose it, to lift the lid — is the second failure mode, and the most dangerous one. Yael names it: a gawking foreigner 'revealing' this reproduces the exact weapon.",
+      "beat": "obstacle",
+      "unheard_thread": "buraku",
+      "jakobus_beat": "none",
+      "wonder_or_place": "edit room",
+      "continuity_notes": "the 1975 Buraku Chimei Sōkan list scandal (sold to 200+ firms, still resurfaces) — referenced, NEVER mapping a real place; 'outing'/mapping = the cardinal harm; the crew must NOT expose; don't flatten to 'Japan's untouchables' (buraku are ethnically Japanese)",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-13",
+      "title": "Don't Wake the Sleeping Child",
+      "pov": "Tōru",
+      "setting": "the workshop at night; Tōru's kitchen",
+      "relay_node": "the crew's instinct is WRONG (cardinal danger)",
+      "summary": "Tōru clocks that the crew has found the list, and the air changes. He tells them the proverb — don't wake the sleeping child — and the cost of his own waking: the marriage that ended when the other family ran his koseki. He is furious not at the history but at being made a 'reveal' for someone else's brave film. Frik's involuntary truth lands the apology the crew owes before they've found the words. Tōru sets the terms: if he speaks, he speaks; no one outs him for him.",
+      "beat": "cost",
+      "unheard_thread": "buraku",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "fictionalised western-Kansai workshop",
+      "continuity_notes": "NO buraku 'reveal' for thrill — it's the violence it depicts; the koseki family-registry keeps ancestry traceable; the strand must resolve WITHOUT an outsider exposé; Jakobus stands guard, doesn't fix",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-14",
+      "title": "A Thousand Fires",
+      "pov": "Tōru",
+      "setting": "a reclamation taiko ensemble's practice hall and a festival ground",
+      "relay_node": "the local takes the telling back",
+      "summary": "Tōru takes the crew — by his choice, on his frame — to his drum ensemble, descendants of the unnamed hands now playing the war-drums openly and named, taking taiko back as their own. The skins he stretched, played by the people the country never claimed. Jakobus, the bass-as-metronome man, feels the low end in his sternum before he hears it; he does not play it (not his to play) — he receives it, and the borrowed silent Lexus outside is the exact opposite of this. Tōru, not the crew, decides what the camera sees.",
+      "beat": "handoff",
+      "unheard_thread": "buraku",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "a reclamation taiko hall / festival",
+      "continuity_notes": "the §7b taiko fire = the Naniwa/Ikari-style open reclamation (drum-skin hands named at last); dignity-affirming, NOT pity; Jakobus feels bass via deafness, receives, does not play; this is the local taking the telling back",
+      "target_words": 3200
+    },
+    {
+      "id": "ch-15",
+      "title": "The Blade Made for His Hand",
+      "pov": "Genzō (Jakobus from outside)",
+      "setting": "Genzō Aoki's forge, full circle from the cold open",
+      "relay_node": "jakobus beat (peripheral); keeper",
+      "summary": "Genzō — the smith whose family made swords until 1876 and now makes knives, the shokunin who outlasted the bushi — has watched the giver-of-blades give all book and refuse to receive. He forges a knife to Jakobus's hand: legal, honest, a kitchen/field blade, his to carry home, the man so often the giver seen in return. The camera stays on Genzō and his fire. Jakobus, reverent in the doorway, lets himself receive — the one beat where the disarmed knife-man is handed a blade the law allows.",
+      "beat": "key",
+      "unheard_thread": "keeper",
+      "jakobus_beat": "forge",
+      "wonder_or_place": "Genzō Aoki's forge",
+      "continuity_notes": "the gifted blade is LEGAL (kitchen/field knife, his to carry home), NOT a sword/carry-blade; Genzō's family stopped at the 1876 Haitōrei and switched to knives — theme in one man; camera stays on the keeper; rhymes with the cold open",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-16",
+      "title": "What the Brief Forbids",
+      "pov": "Yael",
+      "setting": "video call with Reyes; the edit room",
+      "relay_node": "the postcard demands the erasure",
+      "summary": "Reyes loves the rough cut's beauty and asks for the deliverable: lose the messy history, lose the 'we don't know' on the stone, frame Bushido as ancient, frame Rera as the timeless Indigenous grace-note, never mention the list or the drum-makers' origins. Yael realises every frame the postcard needs requires erasing the actual person standing in it. He is not a monster; he is the beautiful lie at its most well-meaning. The crew has the easiest, best-paid sell on the slate — and it is the erasure, fully formed.",
+      "beat": "obstacle",
+      "unheard_thread": "inversion",
+      "jakobus_beat": "lexus",
+      "wonder_or_place": "edit room",
+      "continuity_notes": "the antagonist loses NOT by being outgunned but because a people cannot be spoken for; every postcard frame requires erasing the person in it; Reyes stays warm/well-meaning; the Lexus = the country in miniature (flawless, controlled, hands empty)",
+      "target_words": 3000
+    },
+    {
+      "id": "ch-17",
+      "title": "Hand Back the Mic",
+      "pov": "Rera",
+      "setting": "the workshop, the forge, and a final cut — the leads in the room",
+      "relay_node": "climax — the one choice",
+      "summary": "The crew makes the choice: they refuse to deliver the postcard, and instead hand the cut to the people who own it. Rera decides what of her grandmother's songs the world gets and what it doesn't; Tōru decides his community is named on his terms, not mapped, not outed; Sayaka frames Bushido as the real, plural, invented thing it is; the floating stone keeps its honest caption, 'we don't know.' Reyes loses not because he's beaten but because there is no honest version of his film — the leads simply will not be spoken for. Frik says the one true thing; Mira reads every face agreeing before a word is signed.",
+      "beat": "climax",
+      "unheard_thread": "multiple",
+      "jakobus_beat": "guard",
+      "wonder_or_place": "the workshop / forge / edit",
+      "continuity_notes": "climax = refuse to sell the postcard + HAND BACK THE MIC; the leads are self-determining, not saved; buraku strand resolves with NO outsider reveal (named on Tōru's terms, never mapped); Bushido framed as constructed; the wonder keeps its unsolved honesty",
+      "target_words": 3400
+    },
+    {
+      "id": "ch-18",
+      "title": "Who Isn't in the Brochure",
+      "pov": "Mira, closing wide",
+      "setting": "Hokkaidō river, then the floating stone, then a festival drum",
+      "relay_node": "resolution / the thread pulls on",
+      "summary": "The film that ships is truer and stranger than the myth: a living, plural, contradictory country, some of whom it still won't name. Jakobus carries his legal knife and his hidden wave home; the onsen door stayed shut and he never minded. The crew leaves with the slate's subtlest discipline learned — not to expose Japan but to witness with consent. The book closes on the urge to go and stand where it happened, and the quiet instruction for when you get there: look at who isn't in the brochure.",
+      "beat": "resolution",
+      "unheard_thread": "multiple",
+      "jakobus_beat": "none",
+      "wonder_or_place": "Hokkaidō / Ishi-no-Hōden / festival",
+      "continuity_notes": "end on the urge to GO (bucket-list payoff = the tourism-to-locals mechanism) + who isn't in the brochure; Ainu, buraku, and keepers all self-determining; love the real plural country more than the perfect picture",
+      "target_words": 2600
+    }
+  ],
+  "continuity_spine": [
+    "Crew working names LOCKED: Frik (Tourette's/the lie), Naila (autistic/the system), Mira (deaf/the unspoken), Sandi (polyglot/tongues), Yael (money-fixer/the grift); Jakobus = the road, NO POV, seen only from outside.",
+    "Local leads LOCKED: Rera Kawamura (Ainu lead), Tōru Maeda (buraku-heritage lead, taiko-skin craftsman), Sayaka Ishii (keeper/historian, Bushido-as-constructed); keepers Genzō Aoki (swordsmith) and Hori-Umi/Umeko Tanabe (horishi).",
+    "Ishi-no-Hōden = ~500-ton WORKED WELDED TUFF (not granite), float is an ENGINEERED effect (hidden central pedestal over a water basin), purpose GENUINELY UNSOLVED by the 2005 laser survey — NO Ancient-Aliens/woo framing ever.",
+    "Jakobus's tattoo = his 5TH, a GREAT WAVE held at full weight that does NOT break (power held soft), hand-poked by a JAPANESE HORISHI (NOT an Ainu hand — firewall), inked low/hidden; the single double-duty line earned/plain/once; G-nod stays pure story, no symbols/equation.",
+    "The gifted blade is a LEGAL kitchen/field knife (his to carry home), from Genzō; Jakobus's belt knives are confiscated under Japanese carry law (disarmed all book); onsen tattoo-ban shuts the bath to him all book.",
+    "The Lexus LX is BORROWED (host/fixer courtesy car) — Cruiser bones under luxury skin, engineered silent, the opposite of his loud favour-built Beast; a light recurring grace-note, never a gear segment.",
+    "The buraku community and its location are FICTIONALISED and NEVER named/mapped/geolocated; the slurs NEVER appear in narration; the hidden-hands link runs ONLY through the documented armour-leather + taiko drum-skin trades, NOT the unsupported sword-craft myth.",
+    "The buraku strand resolves WITHOUT an outsider 'reveal'/exposé — Tōru is named on his own terms; the 1975 area-list scandal is referenced as mechanism, never used to map a real place; a 'reveal' is never a thrill, it's the violence it depicts.",
+    "Ainu = language isolate, animist (kamuy), assimilation law 1899 (repealed 1997), recognised as Indigenous only 2019 (shallow/tourism-shaped); population/speaker numbers CONTESTED, never flat figures; museum ≠ living people; NO fresh traditional Ainu facial tattoos on any character; no inu slur in narrative voice.",
+    "Bushido is presented as a REAL-but-CONSTRUCTED tradition (Nitobe 1900, English, for the West, shaped like European chivalry, WWII-weaponised; plural Edo reality, most samurai bureaucrats); the narrative voice NEVER adopts the homogeneity/'we Japanese'/timeless-code framing; the book loves the real thing, never sneers; antagonist Reyes/KOKORO stays warm and well-meaning and loses because a people cannot be spoken for."
+  ]
+}

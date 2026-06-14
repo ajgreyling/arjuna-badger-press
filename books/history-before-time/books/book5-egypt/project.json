@@ -1,0 +1,17 @@
+{
+  "id": "hbt-egypt",
+  "title": "The Engineer of the Gods",
+  "working_title": "History Before Time: The Engineer of the Gods",
+  "protagonist": "Layla Hassan / Ben van Kerk",
+  "logline": "A South African engineer who was right about the impossible and an Egyptian woman the stones answer to race a billionaire down the Nile and into the drowned dark to keep the gods' machinery for everyone.",
+  "blueprint": "quest-relay / site-to-site key-chain",
+  "market": "ancient-mystery adventure (Dan Brown / James Rollins) — the wonder, not the conspiracy",
+  "status": "drafting",
+  "seq": 5,
+  "graph_color": "#c9a227",
+  "canon_order": [
+    "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
+    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md", "EPIGRAPHS.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

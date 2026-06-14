@@ -1,0 +1,38 @@
+{
+  "id": "unheard-mongolia",
+  "title": "The Felt and the Sky",
+  "working_title": "The Unheard: Mongolia / the steppe herders",
+  "series": "The Unheard",
+  "strand": "land-peoples (the fear of loss)",
+  "protagonist": "Tuyaa (provisional) — the herder's daughter who left for Ulaanbaatar and is sent back as the survey's face; the crew is secondary POV",
+  "unheard_people": "the nomadic ger (yurt) herders of the Mongolian steppe (Khalkha — NOT the Kazakh eagle-hunters)",
+  "painted_over_word": "empty steppe / Genghis cliche / backward herders / underused frontier",
+  "fear_of_loss": "the herd, the migration, the ger life (mining + dzud + urban drift); the daughter who already lost it once by leaving",
+  "antagonist": "a composited Gobi copper-and-water mine + its 'empty frontier' fixer; the real weapon is the LAW (herders hold use-right, not title)",
+  "jakobus_fire": "the long-song (urtiin duu); ALSO the yak/mare-butter-tea + the WRESTLING-HUMBLING + the horse-he-won't-trust beats land here (the humility-engine showcase book)",
+  "logline": "A herder's daughter who fled a killing winter is sent back as the friendly face of the survey that will fence her father's pasture — and the travelling crew who came for 'the empty land of Genghis' learns the emptiest-looking country on earth is the most precisely known and the most quietly owned.",
+  "blueprint": "travel-thriller / the unheard place (the relay of attention); single present-day thread, no fantastical layer",
+  "market": "dignity-first travel-thriller — the unheard, not the cliche",
+  "status": "DRAFT COMPLETE (23 ch + backmatter, ~44k, 2026-06-14) — sensitivity read before pub",
+  "series_title": "The Unheard",
+  "seq": 6,
+  "graph_color": "#0e7490",
+  "canon_order": [
+    "PLACE_RESEARCH.md",
+    "STORY_BIBLE.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS_RULES.md",
+    "THEMES.md",
+    "PLOT.md",
+    "JAKOBUS_SPINOFF.md",
+    "EPIGRAPHS.md"
+  ],
+  "jakobus_payoffs": "the wrestling humbling + the tea that beats him + the horse he won't trust + the long-song fire (the humility-engine showcase)",
+  "sensitivity_read": "REQUIRED before publication — distinguish Khalkha Mongol from the Kazakh eagle-hunters of Bayan-Olgii; the wrestling champion is an expert not a foil; no sacred content (ovoo/Tengri/shaman withheld); herder + long-song/wrestling tradition-holder + scholar consultants with veto; all names provisional",
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  }
+}

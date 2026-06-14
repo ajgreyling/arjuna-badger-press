@@ -1,0 +1,20 @@
+{
+  "id": "sheltering-desert",
+  "title": "The Sheltering Desert",
+  "working_title": "The Sheltering Desert (working — a DISTINCT title recommended; Martin's memoir holds this one)",
+  "title_alts": ["The Kuiseb Years", "Carp Cliff", "The Indifferent Country", "If There's a War"],
+  "series_title": "A Standalone Novel",
+  "based_on": "the true story of Henno Martin & Hermann Korn (orig. memoir 'The Sheltering Desert', 1956) — ORIGINAL RETELLING of the EVENTS, not a derivative of the in-copyright text",
+  "protagonist": "Henno Martin (close-third) + Hermann Korn (co-lead, seen from outside) + Otto the dog",
+  "setting": "the Namib / the Kuiseb River canyon, South-West Africa, 1940-1942 (+ a 1946/post coda)",
+  "logline": "Two German geologists who read rock and water for a living walk away from a war that would cage them and into the one place that might kill them faster — and learn that the desert they thought they understood as scientists will only let them live if they let it teach them how, one hunger and one waterhole at a time.",
+  "blueprint": "survival-and-friendship literary novel (refuses to be an adventure) — descent → building a life → the diet crisis (midpoint) → attrition → Korn's beriberi → surrender → the strange anticlimax",
+  "market": "unsentimental survival/desert literature (the Sheltering Desert itself, honoured not copied; van der Post; Endurance) + the project's grounded-Africa eye",
+  "status": "DRAFT COMPLETE (16 ch + backmatter, ~24k, 2026-06-14)",
+  "tone": "great real bushcraft; not always a fun read; real story; real respect",
+  "canon_order": ["STORY_BIBLE.md", "PLACE_RESEARCH.md"],
+  "clearances": "both men long deceased (Korn 1946, Martin 1998) → depictable; the BOOK is in copyright (EU life+70 → 2068) → original retelling of facts only, never a derivative of Martin's prose",
+  "sensitivity_read": "REQUIRED before publication — Namibian/German-Namibian history; Namib natural history (Gobabeb); the Topnaar (ǂAonin) representation; restraint on Korn's ambiguous 1946 death",
+  "cover_credit": "Cover photograph: Kuiseb Canyon, Namib-Naukluft National Park, Namibia © Zairon, licensed under CC BY-SA 4.0.",
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

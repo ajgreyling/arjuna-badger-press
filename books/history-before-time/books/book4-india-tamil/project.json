@@ -1,0 +1,17 @@
+{
+  "id": "hbt-tamil",
+  "title": "The Shore That Remembers",
+  "working_title": "History Before Time: The Shore That Remembers",
+  "protagonist": "Meenakshi Sthapati",
+  "logline": "A Tamil marine archaeologist from a hereditary temple-builder family must act without attachment when the drowned city off Mahabalipuram turns out to be the coupling-chamber that points across the ocean to Egypt.",
+  "blueprint": "quest-relay / site-to-site key-chain",
+  "market": "ancient-mystery adventure (Dan Brown / James Rollins) — the wonder, not the conspiracy",
+  "status": "drafting",
+  "seq": 4,
+  "graph_color": "#1e6b8c",
+  "canon_order": [
+    "SEED_STORY.md", "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
+    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

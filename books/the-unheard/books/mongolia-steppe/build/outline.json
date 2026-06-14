@@ -1,0 +1,390 @@
+{
+  "title": "The Felt and the Sky",
+  "target_words": 88000,
+  "chapters": [
+    {
+      "id": "ch-01",
+      "act": "Act 1",
+      "title": "The Home That Moves",
+      "pov": "Tuyaa",
+      "setting": "the steppe-to-Gobi edge, a herding camp at dawn; present day",
+      "beats": [
+        "Cold open keystone image: a herding family strikes the ger at dawn to follow the grass — the whole felt home folded onto a few animals in under an hour, a thousand-year choreography",
+        "On the ridge, a new mining-lease fence cuts the migration route the grandfather rode — the home that moves meeting a line that doesn't",
+        "Establish Tuyaa watching from a survey vehicle, notebook of the consultancy's language in her lap, the steppe she fled pulling at her",
+        "Plant her two worlds: the city smoke she came from, the grass sea she left; the shame under the cynicism"
+      ],
+      "turn": "Tuyaa realises the camp being struck is her own father's — she has been sent home and didn't know it would be HOME",
+      "threads": "NODE: arrival / the empty story. Tuyaa lead established; the fence (threat) and the migration (wonder) in one picture.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-02",
+      "act": "Act 1",
+      "title": "The Acceptable Face",
+      "pov": "Tuyaa",
+      "setting": "the survey camp; the district sum centre; present day",
+      "beats": [
+        "Tuyaa's brief made explicit: she is the Mongolian, daughter-of-herders face for a copper-and-water survey meant to reframe the steppe as 'underused frontier' and grease the lease",
+        "She tells herself it's the humane version — better her than a stranger",
+        "Introduce the mine's fixer: reasonable, Mongolian, sincere about development, frames the herders as the past",
+        "The visiting crew arrives for a parallel commission — a 'timeless Genghis-land' travelogue — the soft version of the same erasure"
+      ],
+      "turn": "Tuyaa sees that her survey and the crew's travelogue are the same erasure wearing two faces; she says nothing",
+      "threads": "NODE: the flattening force shows its face. The fixer + the crew introduced; both commissions are the lie.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-03",
+      "act": "Act 1",
+      "title": "The Crew",
+      "pov": "Naila",
+      "setting": "the road in; the survey camp; present day",
+      "beats": [
+        "Introduce the crew from the inside (Naila's close third): the band of the world's written-off, gathered by the older man, Jakobus",
+        "Each reads a different layer — Naila the documents/system, Frik the lie in the room, the polyglot the tongue, the face-reader the body",
+        "Naila clocks that the lease documents don't add up — a too-clean ledger, a survey with a predetermined conclusion",
+        "Establish Jakobus from outside: the man who sees people, who gathered them when no one else did; warm, watchful, off his own ground"
+      ],
+      "turn": "Naila finds the survey's conclusion was written before the survey began — the data is theatre",
+      "threads": "NODE: the crew (series constant) established as secondary POV; the lie in the documents planted; Jakobus seen from outside.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-04",
+      "act": "Act 1",
+      "title": "The Welcome Cup",
+      "pov": "Tuyaa",
+      "setting": "Batu's ger; present day",
+      "beats": [
+        "The ger welcome: Tuyaa brings the crew to her father Batu's ger; the hospitality of the felt home",
+        "PAYOFF #2 — the tea that beats him: süütei tsai, the welcome cup; Jakobus, who eats and drinks everything, is undone by the salt where his body wants sweet and the butter turning on his tongue; he owns it as HIS limit, laughing, never insulting the host — and the failing earns him the fire",
+        "The airag by the door he gently declines (no alcohol) — handled with grace, distinct from the tea that beats him",
+        "Batu reads Tuyaa: the daughter who left, come back wearing the city's clothes and the mine's brief; the ache between them, unspoken"
+      ],
+      "turn": "Jakobus's honest failure at the cup makes Batu trust him in a way the survey's smoothness never could — the first crack in the visiting master",
+      "threads": "PAYOFF #2 (tea). Batu (elder) established; the father-daughter wound opened; Jakobus's first humbling.",
+      "target_words": 3800
+    },
+    {
+      "id": "ch-05",
+      "act": "Act 1",
+      "title": "What the Survey Can't See",
+      "pov": "Tuyaa",
+      "setting": "the open pasture; present day",
+      "beats": [
+        "Batu reads the sky, the grass, the water — judging when and where to move — in a way the survey's instruments and the consultancy's 'empty' map cannot",
+        "Tuyaa, the trained scientist, watches her father's read beat her data and feels the old knowledge reclaim her",
+        "The crew is let a little way in: the migration timed to grass and water (2-4 moves a year; the otor); the five snouts as wealth-and-kin",
+        "First mention of the spring — the only year-round water for the district — and that the drilling has started near it"
+      ],
+      "turn": "Tuyaa's instruments agree with her father's sky-read to the hour — the 'empty frontier' is the most precisely known land she's ever stood on, and she helped call it empty",
+      "threads": "NODE: first sight of the wonder. The wonder (sky/migration/water) grounded; the spring planted as the coming wound.",
+      "target_words": 3700
+    },
+    {
+      "id": "ch-06",
+      "act": "Act 1",
+      "title": "The Blurted Truth",
+      "pov": "Naila",
+      "setting": "the fixer's presentation at the sum centre; present day",
+      "beats": [
+        "The fixer makes his case to the district: jobs, GDP, a poor nation that needs the copper; the steppe as frontier; the herders as a past that must make way",
+        "His argument has teeth — the herders ARE poor, the law IS on his side — the book refuses to make him stupid",
+        "Frik's Tourette's blurt names the polite lie out loud at the exact moment it can't be taken back (the anti-paintover made flesh) — rendered with full dignity, never for comedy",
+        "The room's reaction; Tuyaa's flinch of recognition; the fixer's smooth recovery"
+      ],
+      "turn": "Frik's blurt cracks the fixer's frame open in public — and the crew sees the herders are being read out of their own country by a map and a law",
+      "threads": "NODE: the flattening force, full-faced. The fixer's real argument; Frik's gift; the law named as the true antagonist.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-07",
+      "act": "Act 2",
+      "title": "A Man Who Can Handle Himself",
+      "pov": "Tuyaa",
+      "setting": "a local Naadam / district gathering; present day",
+      "beats": [
+        "A local Naadam / district celebration: wrestling, the long-song, airag, the deel — the living culture, not the postcard",
+        "The herders quietly check the visitors out — watch them eat, take a joke, carry themselves — and clock Jakobus as a man who can handle himself (true)",
+        "The young regional bokh champion introduced with full dignity — half Jakobus's fuss and twice his craft, a title earned at Naadam",
+        "The eagle-dance (devekh) ritual before the bouts; the open contest on bare grass; build the anticipation"
+      ],
+      "turn": "A friendly bout is offered to Jakobus in the spirit of welcome and testing — and, off his own ground and a half-step too sure, he accepts like he's the dangerous one in the ring",
+      "threads": "NODE: the contest (setup). The champion established; the Naadam wonder; the stage set for the humbling.",
+      "target_words": 3700
+    },
+    {
+      "id": "ch-08",
+      "act": "Act 2",
+      "title": "His Ground",
+      "pov": "Tuyaa",
+      "setting": "the wrestling ground; present day",
+      "beats": [
+        "PAYOFF #1 — the wrestling humbling: Jakobus, who forgot his own creed (defer; you are the student here), is comprehensively, almost gently destroyed by the champion — the champion's grammar, not his; no SF combative saves him",
+        "He lands on his back in the dust in front of everyone, the breath gone, the legend briefly nothing",
+        "The grace: he laughs at himself, gets up, bows to the better man, makes NO excuses — the locked line: 'On my ground I'd have given him a game. This is his ground. He gave me a lesson.'",
+        "The district trusts and loves him MORE for the loss; the champion's quiet respect; Tuyaa watches the master made a student"
+      ],
+      "turn": "The loss, owned without excuse, buys Jakobus and the crew a place at the district's fire that no survey or travelogue ever could",
+      "threads": "PAYOFF #1 (wrestling) — the strand's sharpest beat. Champion rendered with dignity; the humility engine at full.",
+      "target_words": 3800
+    },
+    {
+      "id": "ch-09",
+      "act": "Act 2",
+      "title": "No Brakes",
+      "pov": "Naila",
+      "setting": "the camp; the horse lines; present day",
+      "beats": [
+        "PAYOFF #3 — the horse he won't trust: on the most horse-defined ground on earth, the wheel-man's flat distrust of a thing with no brakes that bites; he says so deadpan, drives anything with wheels but won't sit a horse for himself",
+        "His own dry telling (once): the open gate, the cattle gone walkabout, 'I'll drive anything you've got with wheels; I don't trust a thing without brakes, and this one bites'",
+        "The generous flip side: he won't ride for himself but is first to catch and saddle a horse for whoever's joy it is — the children — 'go on, ride'",
+        "The horsed herders find the wheel-man's distrust quietly funny and like him MORE for owning it; keep it distinct from the wrestling, light"
+      ],
+      "turn": "The thing Jakobus won't do for himself, he does gladly for the children — the man who reads a delight that isn't his and gives it away",
+      "threads": "PAYOFF #3 (horse / machine creed). Distinct from the wrestling; the Sawubona + giving doctrine in one beat.",
+      "target_words": 3400
+    },
+    {
+      "id": "ch-10",
+      "act": "Act 2",
+      "title": "The Stone on the Cairn",
+      "pov": "Tuyaa",
+      "setting": "the ovoo at the pass; the migration country; present day",
+      "beats": [
+        "The crew let further in: a companion taught to circle the ovoo three times clockwise, add a stone, leave an offering — the threshold shown, the sacred content withheld (MYTHOS Rule 1)",
+        "Batu's relationship to the land as obligation, not ownership — he asks before he takes",
+        "Jakobus models the withholding: he'd circle the cairn correctly and ASK, not perform — the one place his instinct ports cleanly",
+        "Tuyaa feels the gap between the consultancy's 'land as asset' and her father's 'land as kin' — the two ledgers describing the same ground"
+      ],
+      "turn": "Tuyaa understands the survey isn't measuring the land wrong — it's measuring the wrong thing entirely, and she's the one holding the tape",
+      "threads": "NODE: the sacred (withheld) + the relay deepens. The two-ledgers theme dramatised; Jakobus's deference as competence.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-11",
+      "act": "Act 2",
+      "title": "The Drying Spring",
+      "pov": "Tuyaa",
+      "setting": "the sacred spring near the drill site; present day",
+      "beats": [
+        "The discovery: the year-round spring — the only water for the district, and sacred — is going dry where the drilling started (the real Bor Ovoo / Undai pattern)",
+        "Naila's documents and Tuyaa's hydrology converge: the mine's water draw is killing the spring, and the survey was built to not see it",
+        "Batu's grief, held: the water his grandfather drank, the water the herd needs, the water the ovoo marks — all on the mine's meter",
+        "The crew's first wrong instinct stirs: expose it, file it, tell the world FOR them"
+      ],
+      "turn": "The spring is dying on the mine's meter, the survey was designed to miss it, and the crew wants to charge in and save the day — exactly the wrong move",
+      "threads": "NODE: the wound revealed (water). The grounded antagonist mechanism; the humility beat set up.",
+      "target_words": 3700
+    },
+    {
+      "id": "ch-12",
+      "act": "Act 2",
+      "title": "Not Ours to Tell",
+      "pov": "Naila",
+      "setting": "the survey camp; a tense crew council; present day",
+      "beats": [
+        "The humility beat (the crew's): their instinct to help/tell/fix proves wrong — going public on the herders' behalf would put words in their mouths, trip the 'outsiders stirring up the natives' frame, and cost the locals control",
+        "Jakobus, who sees it first, doesn't lecture — he sits with it, gives something away, lets them arrive at it",
+        "The hardest lesson named in action: get out of the way; the unheard are the experts; the telling can only be GIVEN, never taken",
+        "Tuyaa caught between: the only one who can translate the herders' undefendable knowledge into the law's language — if she chooses to, and at THEIR direction"
+      ],
+      "turn": "The crew swallows the urge to save the day and learns the real job is to witness and stand guard — and Tuyaa realises the choice is hers alone",
+      "threads": "NODE: the humility beat (crew + Tuyaa). The keel dramatised; sets up Act III's hand-back.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-13",
+      "act": "Act 2",
+      "title": "The Ones Already Gone",
+      "pov": "Tuyaa",
+      "setting": "a neighbour's abandoned winter camp; the road toward the city; present day",
+      "beats": [
+        "The fear of loss, shown: a neighbour family already broken by the last dzud, half-gone to Ulaanbaatar; the empty winter shelter, the sold-off herd",
+        "Tuyaa's own wound opens fully: this is why SHE left; she didn't escape the loss, she carried it differently",
+        "The city glimpsed through her memory: the ger districts, the smoke, the felt home become a smoke trap — the same dwelling, the life gone out of it",
+        "Jakobus rhymes — present, unhurried, not fixing the grief; a quiet thing given away; the man who lost his own world and still carries it"
+      ],
+      "turn": "Tuyaa sees that the city she fled to is where the steppe goes to die, and that her father is being pushed down the same road — and she can't stay neutral",
+      "threads": "NODE: the loss (fear-of-loss heart). Tuyaa's wound; the city/dzud as the slow and fast versions of loss; Jakobus's rhyme.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-14",
+      "act": "Act 2",
+      "title": "A Thousand Fires",
+      "pov": "Tuyaa",
+      "setting": "a long-song night at the camp; present day",
+      "beats": [
+        "THE FIRE — the dance grace-note (§7b): a long-song (urtiin duu) night, the grandmother carrying the song, the morin khuur; the celebration that empties the fear out so people can rest",
+        "Jakobus joins the grandmother's circle — WITH them, on their ground, one quiet earned grace-note; never performing AT them; never re-staging the Egypt aria",
+        "The cumulative retro-proof: the man who really has been at a thousand fires; joy as resistance, danced one more night against everything taking the steppe",
+        "A completed Sawubona/Sikhona-style recognition seeded if earned — a companion who's absorbed the ethos meeting his eye"
+      ],
+      "turn": "For one night the loss is bearable, and Jakobus is, again, the proof that you can lose your world and still dance in someone else's — the grace before the storm",
+      "threads": "THE FIRE (dance payoff, §7b). The sacred withheld (fictional long-song). Tonal high point before the midpoint turn.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-15",
+      "act": "Act 2",
+      "title": "Strategic Site",
+      "pov": "Tuyaa",
+      "setting": "the sum centre; the survey office; present day",
+      "beats": [
+        "Midpoint turn: the mine moves — a 'strategic site' designation / a fence extension / the spring diversion accelerates",
+        "The law becomes the real antagonist: pastureland is state-owned, herders hold use-right not title, they cannot refuse, the state can exclude them (the lock the book turns)",
+        "The travelogue and the survey Tuyaa was hired for are about to be the instruments that grease it — her name on the report",
+        "The fixer offers Tuyaa a way up and out: deliver the clean report, name your price, leave the steppe behind for good"
+      ],
+      "turn": "Tuyaa is handed the pen that will sign her father's pasture away — and a future in the city if she uses it — and has to choose which language she speaks",
+      "threads": "NODE: midpoint — the law as antagonist; Tuyaa's choice forced. Act II→III hinge.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-16",
+      "act": "Act 3",
+      "title": "Which Tongue",
+      "pov": "Tuyaa",
+      "setting": "Batu's ger; the steppe at night; present day",
+      "beats": [
+        "Tuyaa chooses her father's country: she turns her city-fluency on the mine — but FOR the herders and at their direction",
+        "The scene with Batu: not a speech, a choice shown; the daughter who left, choosing; the father who won't ask her to stay, seeing her",
+        "She does not save them — she gives them the megaphone and steps back; the plan is the district's, the voice is the district's",
+        "The crew falls in behind her and the herders: witnesses and guards, not leaders"
+      ],
+      "turn": "Tuyaa refuses to sign and commits to translating the herders' knowledge into the law's language — on their terms, with the camera in their hands",
+      "threads": "NODE: the choice / hand-back begins. Tuyaa's arc turns; the keel (locals lead) enacted.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-17",
+      "act": "Act 3",
+      "title": "The District Decides",
+      "pov": "Tuyaa",
+      "setting": "a gathering of the herder families; present day",
+      "beats": [
+        "The locals take the telling back: Batu and the district lead the defence — the ovoo, the spring, the migration route as the ground they will not yield",
+        "The young champion becomes the district's spine — the one who stays and fights with his body and his standing",
+        "The grandmother and the song: the future being handed on (a grandchild learning the long-song) even as the fight is joined",
+        "The strategy is theirs; the crew's role defined — Naila's document-read, the polyglot's bridge, Jakobus's guard — all SERVING the herders' own move"
+      ],
+      "turn": "The herders commit to a plan of their own making to defend the spring and the route — and the outsiders take their places at the edges, not the centre",
+      "threads": "NODE: the locals lead (the relay's point). The win is being built by the experts; the crew witnesses and guards.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-18",
+      "act": "Act 3",
+      "title": "The Fence and the Herd",
+      "pov": "Naila",
+      "setting": "the contested migration route; the fence line; present day",
+      "beats": [
+        "Rising action: the mine moves to close the route ahead of the herd's seasonal migration; the fence vs. the animals that must reach winter pasture",
+        "A dzud is forecast closing in — the killing winter as the clock; if the herd can't reach shelter, it dies",
+        "The herders' counter-move, led by the champion and Batu; the crew standing guard; the fixer's muscle on the line",
+        "Naila races the paperwork: the document-trail that proves the survey was rigged and the spring is dying on the mine's meter"
+      ],
+      "turn": "The herd must cross the fenced route before the dzud hits, the mine means to stop them, and the proof Naila needs is about to be buried",
+      "threads": "NODE: rising action (the route/the dzud clock). The grounded set-piece building; stakes physical and real.",
+      "target_words": 3700
+    },
+    {
+      "id": "ch-19",
+      "act": "Act 3",
+      "title": "The Wheels He Trusts",
+      "pov": "Tuyaa",
+      "setting": "a night drive across the steppe; present day",
+      "beats": [
+        "Jakobus's transferable competence pays off: a hard night drive to get the herders' testimony and Naila's evidence to where it can't be buried — the wheels he trusts, the one machine that obeys him",
+        "Contrast with the horse he won't trust: here the wheel-man is in his element, calm under load, the field discipline that ports",
+        "The cold is HIS element (SSOT inversion): unlike the desert that beats him, the steppe winter is the one place his mastery holds — banked-fire body-heat, calm in the freeze",
+        "But it's the herders' testimony and the herders' voice in the recording — he's the driver, not the hero; the win stays theirs"
+      ],
+      "turn": "The evidence and the herders' own testimony get through — carried, not led, by the outsider — just as the dzud's first wind hits",
+      "threads": "NODE: Jakobus's real value (the road). His competence serves, never leads; the cold-ports-here contrast paid off.",
+      "target_words": 3600
+    },
+    {
+      "id": "ch-20",
+      "act": "Act 3",
+      "title": "The Killing Wind",
+      "pov": "Tuyaa",
+      "setting": "the steppe in the dzud; the herd on the route; present day",
+      "beats": [
+        "The dzud hits — white/iron dzud, -40s, the herd strung out on the contested route; the arithmetic of loss made real and immediate",
+        "The herders fight to bring the animals through; the champion's strength and standing; Batu's read of the storm; the crew guarding the line",
+        "The mine's muscle forced to choose between the fence and human lives in the storm; the fixer's frame cracking against the reality",
+        "Loss is real — not everything is saved (the honest record); but the herders' knowledge of the land is what carries the bulk of the herd through where no instrument could"
+      ],
+      "turn": "The herd is brought through — at a cost — by the herders reading the killing land the way no survey ever could; the steppe itself indicts the 'empty frontier' lie",
+      "threads": "NODE: the set-piece climax (grounded). The dzud as the proof of the wonder; loss real; the herders' expertise the win.",
+      "target_words": 4000
+    },
+    {
+      "id": "ch-21",
+      "act": "Act 3",
+      "title": "On the Record",
+      "pov": "Naila",
+      "setting": "the determination / the press / the sum centre; present day",
+      "beats": [
+        "The herders' voice on the record: Tuyaa's translation of their knowledge into the law's and the press's language lands — at their direction, in their words",
+        "The rigged survey exposed; the dying spring documented; the fixer's frame fails in public — beaten on dignity and truth, not by being made stupid",
+        "The legal reality stays hard: use-right, not title; the win is partial, contested, real — a route kept open / the spring defended / the determination held, not a clean rescue",
+        "Frik's truth and Naila's documents and the polyglot's bridge all in service of the herders' own win"
+      ],
+      "turn": "The herders win the thing they fought for — modest, partial, theirs — and the outsiders' only credit is having handed back the megaphone",
+      "threads": "NODE: the win (culture handed on, not saved). Honest/partial per the real record; hope not triumph.",
+      "target_words": 3700
+    },
+    {
+      "id": "ch-22",
+      "act": "Act 3",
+      "title": "The Daughter Who Chose",
+      "pov": "Tuyaa",
+      "setting": "Batu's ger; the steppe; present day",
+      "beats": [
+        "The father-daughter resolution, shown not spoken: Batu and Tuyaa, the leaving and the choosing reconciled; she belongs again to a country and a father",
+        "Tuyaa's vindication is not the city's approval — it's the thing she was taught to leave behind; she will use both her tongues for the steppe",
+        "The grandchild and the long-song; the herd carried through; the future handed on, not mourned — the grip, not the grave",
+        "The cost acknowledged: the dzud and the city and the law don't vanish; the people are still fighting, still here, still expert"
+      ],
+      "turn": "Tuyaa stays — or leaves changed — the daughter who chose her father's country; the loss carried, not erased",
+      "threads": "NODE: Tuyaa's resolution (the heart). The fear-of-loss discipline: hope not certainty; culture handed on.",
+      "target_words": 3500
+    },
+    {
+      "id": "ch-23",
+      "act": "Act 3",
+      "title": "The Road On",
+      "pov": "Naila",
+      "setting": "the camp at dawn; the road out; present day",
+      "beats": [
+        "Jakobus and the crew leave — the Sawubona lesson carried, the next unheard place ahead; the road, never the lead",
+        "A completed Sawubona/Sikhona-style recognition lands if earned: a companion who's absorbed the ethos answering his eye — without ever explaining it",
+        "The crew changed: the band of the written-off who learned, place by place, not to do to anyone what was done to them",
+        "The camera last on the herders and the steppe, not the visitors — the felt and the sky, the home that moves, going on"
+      ],
+      "turn": "The visitors go, carrying the lesson; the steppe stays, expert and alive and still under threat — the unheard, heard for once",
+      "threads": "NODE: the road pulls onward (series spine). The camera stays with the unheard; the crew's arc; Jakobus the road.",
+      "target_words": 3300
+    },
+    {
+      "id": "ch-24",
+      "act": "Back Matter",
+      "title": "The Felt and the Sky — A Note on the Real Places",
+      "pov": "author's note",
+      "setting": "n/a",
+      "beats": [
+        "Author's note + gazetteer: separate real/visitable (Naadam; Mongolian-owned herder-stay tourism; urtiin duu & khoomei as UNESCO heritage; the real dzud record; the documented Oyu Tolgoi/Khanbogd water-and-pasture case) from contested (Genghis historiography; the figures flagged in PLACE_RESEARCH) from invented/composited (the district, the mine, all characters, the spring/route)",
+        "Binding sensitivity-reader note: read by Mongolian cultural advisors before publication; no sacred content depicted; the Khalkha Mongol steppe-herders are distinct from the Kazakh eagle-hunters of Bayan-Olgii — named, not conflated",
+        "Pointer to Mongolian-owned herder-stay tourism and the herders' own organisations (the series' tourism-dignity payoff)",
+        "The dedication and the series keel: the unheard are the experts; their story can only be given, never spoken for"
+      ],
+      "turn": "The candour that makes the wonder trustworthy and the respect real",
+      "threads": "Back matter (binding — STORY_BIBLE/PLOT). The tourism-dignity payoff; the sensitivity gate stated in the book itself.",
+      "target_words": 1200
+    }
+  ]
+}
