@@ -1,4 +1,11 @@
-# Arjuna Badger Press — the library
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="brand/assets/logo-master.png">
+    <img src="brand/assets/logo-on-light.png" width="340" alt="Arjuna Badger Press">
+  </picture>
+</p>
+
+<h1 align="center">Arjuna Badger Press — the library</h1>
 
 > A free, open reading library. Every book is free to **download** as EPUB or PDF, or to **read
 > online**. No paywall, no account, no catch.
@@ -46,3 +53,10 @@ Weir / Crichton / Brown-grade historical and factual accuracy, *core*, not a nic
 All works © Andries J. Greyling. **Free to read and download for personal use; all rights reserved.**
 Not licensed for redistribution, resale, adaptation, audio production, or machine-learning training
 without written permission. See [`LICENSE`](LICENSE).
+
+---
+
+<p align="center">
+  <img src="brand/assets/house-of-greyling-crest.png" width="260" alt="The House of Greyling crest — a honey badger between a griffin and a wolf, beneath a sword in sun">
+  <br><sub><em>House of Greyling · Per Ardua Ad Magnum</em></sub>
+</p>
