@@ -4622,3 +4622,67 @@ above are a courtesy, not a correction.*
 
 ---
 
+# The Honey Badger
+
+![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+
+*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
+below is true. Most of it sounds made up.*
+
+The honey badger has been listed by *Guinness World Records* as the most fearless animal on
+Earth. It did not apply for the title and would not have attended the ceremony.
+
+It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
+knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
+later, and **finish the snake it was already eating.**
+
+Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
+scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
+porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
+
+It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
+doing business. This is, in fact, how it got its name.
+
+It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
+Because the alternative — *caring* — has never occurred to it.
+
+The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
+Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
+climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
+learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
+that a thing cannot be done.
+
+Honey badger don't care.
+
+---
+
+# The Giant Pangolin
+
+![A giant pangolin, *Smutsia gigantea* — a museum specimen; the living animal is almost never seen.](assets/giant-pangolin.jpg)
+
+*If the honey badger is what fearlessness looks like, the pangolin is what fearlessness is
+**for**. Everything below is also true.*
+
+The pangolin is the only mammal on Earth covered in scales. The scales are keratin — the same
+material as your fingernails — and that is the whole tragedy of it, which we will come to.
+
+The giant pangolin (*Smutsia gigantea*) is the largest of the eight species, up to about a metre
+and a half from nose to tail. It has no teeth. It eats with a tongue that anchors down near its
+pelvis and, fully extended, can be longer than its own body — enough to lap up tens of thousands
+of ants and termites in a single night.
+
+Its only defence is to roll into a ball. The name comes from the Malay *pengguling* — "the one
+who rolls up." Curled tight, its scales overlap into armour that even a lion will usually give up
+on, eventually, and walk away from. It does not bite back. It does not chase. It waits, rolled
+up, until the danger gets bored.
+
+That gentleness is why it is the most trafficked wild mammal on the planet — taken in the millions
+for its scales and its meat. All eight species are now protected; several are critically
+endangered. The ball that saves it from the leopard is exactly what makes it easy for a human to
+simply pick up.
+
+A shy, armoured, nocturnal anteater that asks the world for nothing but ants and to be left alone.
+It is worth being the kind of fearless that protects creatures like this.
+
+---
+

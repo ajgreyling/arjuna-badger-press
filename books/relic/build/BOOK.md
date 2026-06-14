@@ -8,7 +8,7 @@ Andries J. Greyling
 
 ---
 
-![Map: the journey of RELIC across the real ancient sites of Africa.](/Users/ajgreyling/code/africangold/design/relic/RELIC_route_map.jpg)
+![Map: the journey of RELIC across the real ancient sites of Africa.](assets/RELIC_route_map.jpg)
 
 ---
 
@@ -4098,6 +4098,40 @@ Afrikaans. The journey's gold-source begins here.
 *belief or a* theory *they weigh — and its true marvels are always something* built*, by human or
 ancient hands. The wonder is meant to be real because the* places *are real. Several of them are
 worth seeing for yourself.*
+
+---
+
+# The Honey Badger
+
+![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+
+*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
+below is true. Most of it sounds made up.*
+
+The honey badger has been listed by *Guinness World Records* as the most fearless animal on
+Earth. It did not apply for the title and would not have attended the ceremony.
+
+It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
+knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
+later, and **finish the snake it was already eating.**
+
+Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
+scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
+porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
+
+It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
+doing business. This is, in fact, how it got its name.
+
+It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
+Because the alternative — *caring* — has never occurred to it.
+
+The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
+Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
+climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
+learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
+that a thing cannot be done.
+
+Honey badger don't care.
 
 ---
 
