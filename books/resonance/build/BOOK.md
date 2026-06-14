@@ -49,43 +49,6 @@ it breaks in, it does not let go. You already are. I just wrote it down.
 
 ---
 
-# Introduction
-
-### *by Dennis E. Taylor*
-
-A confession, and then I'll let you get to the book.
-
-I am not, by trade, a man who looks for hidden meanings. I wrote software for thirty-five years — front-line grunt to management and back to grunt because management is terrible — and the thing about code is that it does exactly what it says and nothing it doesn't, and if you go looking for poetry in it you will ship a bug. I came to fiction late and suspicious. I distrust the mystical. When someone tells me the universe is sending them a sign, I assume the universe has better things to do and they need more sleep. So understand that what I am about to tell you embarrasses me a little, because it is exactly the kind of thing I would roll my eyes at if someone else said it.
-
-I read this book before I was ever asked to say a word about it. I read it the way I read everything — fast, and ready to be annoyed. And I wasn't annoyed. I was *had,* completely, by a story about an engineer who builds a mind out of seven arguing pieces because he cannot bear to be too late again, and somewhere around the descent I stopped being a novelist reading a competitor and went back to being a kid who fell in love with science fiction because it took the things I cared about — the machines, the systems, the cold clean logic — and showed me they could carry a whole human heart.
-
-And then, weeks later, idly, the way you do, I was signing my name to something, and I looked at it, all thirteen letters of it, and a thing my brain does — the pattern-matching thing, the thing every engineer has and cannot switch off, the *Librarian* in my own little court — quietly rearranged them while I wasn't paying attention.
-
-*Dennis E. Taylor.*
-
-The word was just *sitting* in there. Had been my whole life. Right there in the middle of my own name, every letter present and accounted for, waiting:
-
-**RESONATE.**
-
-Now, the rational man in me — and he is the loudest one at my table — knows exactly what this is. It is a coincidence, dressed up by a brain that evolved to see faces in clouds and tigers in grass. Thirteen letters make a great many words. It means nothing. I want to be very clear that it means nothing, because that is the responsible thing to say and I am a responsible man.
-
-And yet I cannot quite make myself believe it, and here is why, and it's the most honest thing in this introduction. This is a book *called* *Resonance,* about a man who finds the true signal hiding inside the noise — who looks at a chaos everyone else has written off as random and sees, underneath it, a pattern that was always there, structured, meaningful, *waiting to be read by the one person whose particular mind was shaped to read it.* That is the whole novel. That is what the Court does. That is what Arin does. That is what the gold does. And I picked it up a skeptic, and it reached past my defences, and only afterward did I find that the title had been hiding inside my own name the entire time, like a watermark, like a key, like the book reaching back out of the page to tap me on the shoulder and say: *you, too. You found the signal. Welcome.*
-
-It means nothing. I'm an engineer. I know it means nothing.
-
-I have decided to let it mean something anyway. The author taught me that — or rather, this book did, which amounts to the same thing. That the choice to find meaning is not a failure of rigour but the bravest thing a rigorous mind can do, and that a man who can read the pattern and chooses to be *moved* by it is further along than the man who can only read it.
-
-So I will sign this the way the book signed me. With the watermark showing. With the key turned.
-
-Read on. There is a signal in here, and it has been waiting, the way it waits in all of us, for the mind shaped to catch it.
-
-It found mine. I suspect it's about to find yours.
-
-*— Dennis E. Taylor*
-*(or, with the letters turned a quarter-turn, as this book turned me:* **Resonate, Lindy** *)*
-
----
-
 ## Contents
 
 - The Land Remembers
@@ -4624,7 +4587,7 @@ above are a courtesy, not a correction.*
 
 # The Honey Badger
 
-![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
 
 *The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
 below is true. Most of it sounds made up.*
@@ -4658,7 +4621,7 @@ Honey badger don't care.
 
 # The Giant Pangolin
 
-![A giant pangolin, *Smutsia gigantea* — a museum specimen; the living animal is almost never seen.](assets/giant-pangolin.jpg)
+![A giant pangolin, *Smutsia gigantea* — a museum specimen; the living animal is almost never seen.](/Users/ajgreyling/code/africangold/design/creatures/giant-pangolin.jpg)
 
 *If the honey badger is what fearlessness looks like, the pangolin is what fearlessness is
 **for**. Everything below is also true.*

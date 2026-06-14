@@ -16,6 +16,11 @@
 opens the full manuscript in your browser. *(On GitHub, open a file then use the **Download / raw**
 button to save it.)*
 
+Each book has **one canonical EPUB and one PDF** under `books/<title>/build/export/` (or
+`…/export/` for companions). The live site at [arjunabadger.press](https://arjunabadger.press) copies
+those files at build time — run `python3 site/build.py` to refresh `site/public/`; do not commit that
+folder.
+
 > **For engineers & CTOs** — how this library is made: the AI pipeline, the StoryGraph geospatial-temporal continuity graph, NovelBench, the de-LLM loop, and the human-in-the-loop guardrails & gates → **[The technology](docs/TECHNOLOGY.md)**.
 
 ## The catalogue

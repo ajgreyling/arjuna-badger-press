@@ -1,4 +1,24 @@
-# Dedication
+# The Calendar of Stone
+
+**The African Gold Trilogy · Book One**
+
+Andries J. Greyling
+
+---
+
+*The Calendar of Stone*
+
+Copyright © 2026 Andries J. Greyling. All rights reserved.
+
+This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is coincidental. Real places, historical traditions, and scientific and archaeological references are used in a fictional context.
+
+Published by the House of Greyling.
+
+ISBN: ___-_-_____-___-_  *(assigned at print)*
+
+*Per Ardua ad Magnum.*
+
+---
 
 *For Lisel.*
 
@@ -34,45 +54,29 @@ Thank you, my love. For everything. *Sawubona* — I see you.
 
 ---
 
-# Foreword
+## Contents
 
-### *by Dan Brown*
-
-People expect me to be solemn about this sort of thing. A foreword from the author of *The Da Vinci Code* should arrive in a hush, with an organ note, ideally discovered hidden inside a painting. So let me disappoint everyone immediately and admit the truth, which is that I read these two books on a beach, missed lunch, and at one point said "oh, you absolute *swine*" out loud to a paperback, which is the highest review I am capable of giving.
-
-I am, I am reliably informed, a *type.* There is a thing a certain kind of novel does — the buried secret, the real place rendered so vividly you start booking flights, the chapter that ends one sentence before you wanted it to so that you hate yourself and turn the page anyway — and apparently I am held responsible for it. I accept the charge. I have spent a career sending earnest people down crypts to decode things, and I have been told, by serious critics, in serious publications, that this is not Literature. I have wept about this all the way to some very nice places.
-
-So when I tell you what the author of these books has done, understand that I am tipping my hat as a fellow practitioner of the disreputable art, one magician telling you another one's trick is good.
-
-He has taken my favourite engine — the artifact that leads, the secret that unspools, the clever person reading a thing the rest of the world walked past — and he has pointed it at a continent the genre had only ever *robbed.* That is the move. That is the whole, quietly radical move, and I want you to see it before you start, because once you are three chapters in you will be too busy turning pages to notice the architecture, which is exactly how I would have wanted it.
-
-In my books, the ancient cleverness usually belongs to a European secret society, a Renaissance master, a Vatican vault. The thrill runs on *our* civilisation's hidden brilliance. What this author has done — in *The Calendar of Stone,* in *The Engineer of the Gods,* and through the unsettling, unforgettable figure who walks the road between them — is take that exact machinery and insist, with hard physical evidence and a thriller's refusal to let you off the hook, that the oldest and deepest of the hidden brilliances was *African,* and *was theirs,* and that the only reason you were taught otherwise is that someone profited from the lie. He has built a page-turner whose secret, when you finally decode it, turns out to be the actual history of the human mind. I have never managed anything that ambitious. I sent a man to look at a pyramid. He explains who really built it, and why your not knowing was the point.
-
-And here is the part I am almost cross about, professionally. He plays *fair.* My great trick — and I'll tell you because we're friends now — is that I move fast enough that you don't stop to check the masonry. This man slows down exactly where I speed up. He shows you the metallurgy, the acoustics, the tolerances, the real site you can fly to, and *then* lets the wonder land, so that you can't dismiss it as a trick, because he already showed you the wires and the wires were real. It is a harder way to do it. It is the *right* way to do it, and reading him made me want to go back and reinforce a few of my own crypts.
-
-Two small warnings, author to reader, before I get out of the way.
-
-First: the chapters end the way mine do. I am sorry. You will say "one more." You are lying to yourself. Make the coffee now.
-
-Second: somewhere in here you will meet a large, soft-spoken man whom no one in the book can quite describe and whom you will not be able to stop thinking about. I have written a lot of mysterious men. I gave them albino monks and cryptic tattoos and they *worked,* I'm very proud of them. This author gave his mysterious man nothing but a faded truck, a terrible shirt, and the most dangerous quality a character can have, which is that he is *kind on purpose.* I would have killed for that idea. I may yet steal it. Consider this foreword my formal notice that I am going to try.
-
-You are about to go to Africa, in the company of people who love it and know it and are finally, properly telling its oldest story. Pack light. Trust the writer when he slows down; that's where he's hiding the real gold.
-
-And cancel your lunch. I tried to keep mine. I lost.
-
-*— Dan Brown*
-
----
-
-# A Stranger in Strange Lands
-
-> *Grok means to understand so thoroughly that the observer becomes a part of the observed — to merge, blend … lose identity in group experience. … You cannot hate anything unless you grok it, understand it so thoroughly that you merge with it and it merges with you — then you can hate it. … But this implies that you love it, too, and cherish it, and would not have it otherwise.*
->
-> — Robert A. Heinlein, *Stranger in a Strange Land* (1961)
-
----
-
-**grok** /ɡrɒk/ *v.* (Martian; coined by Heinlein) — to take a thing in so completely that knower and known are no longer two; literally, *to drink.* It has no true English equal. The nearest word in any tongue may be Zulu: ***Sawubona*** — *I see you.* Both name the same act — to receive another whole — and the rare kind of person who lives by it: at home with everyone, and a stranger in every land.
+- Chapter 1 — The Retraction
+- Chapter 02 — Margins
+- Chapter 3 — The Man in the Bad Shirt
+- Chapter 4 — The Order
+- Chapter 5 — The Instrument
+- Chapter 06 — It Rings
+- Chapter 7 — Vorster
+- Chapter 8 — Four Kilometres Down
+- Chapter 9 — The Ringing Gold
+- Chapter 10 — Bain's Kloof
+- Chapter 11 — The Map Is the Clue
+- Chapter 12 — The Stone City
+- Chapter 13 — Inheritance
+- Chapter 14 — The Highlands
+- Chapter 15 — The Cost
+- Chapter 16 — The Eyes
+- Chapter 17 — The Vault
+- Chapter 18 — The Calendar of Stone
+- Chapter 19 — Vindicated
+- Chapter 20 — The Thread Leaves Africa
+- The Real Places in This Book
 
 ---
 
@@ -162,6 +166,8 @@ She sat on the floor against her dead father's joinery with cold tea and a true 
 
 Sixty-three thousand years is a long time for a thing to wait under the sand. It had waited. It could wait a while longer.
 
+---
+
 # Chapter 02 — Margins
 
 In the field there is a thing you do with a trowel where you scrape the flat of the blade across a surface and listen. Not look — listen. Soil has a voice. Compacted fill has a different voice from a natural deposit, the way a wall behind plaster sounds different from solid brick when you knock it, and a good excavator learns to hear the change before the eye can see it. You hold the trowel loose, almost lazy, and let the edge graze the dirt at a low angle, and the sound comes up through the steel and the handle and the bones of your hand: a dry shir over undisturbed ground, then, where someone two hundred years ago dug a hole and filled it back in, a softer note, a give, a swallowed sound like a finger drawn across a drum head. Jennefer had been doing it since she was twenty. She was thirty-four now and she was doing it in the back garden of a guesthouse in Paarl, on her knees in the heat, scraping for the foundation line of a Victorian outbuilding so that a developer could legally pour concrete over it, and the trowel was the same trowel, the blade worn down to a stub of its original width and the wood of the handle gone dark with the oil of her own grip, and the listening was the same listening.
@@ -225,6 +231,8 @@ The stone was what she noticed. River-rounded, chosen, set deliberately in the c
 She slowed. The milk swung against her leg. He had not opened his eyes, but she had the strong sense he knew exactly how far away she was.
 
 The part of her that listened to soil already knew the paper was about her.
+
+---
 
 # Chapter 3 — The Man in the Bad Shirt
 
@@ -367,6 +375,8 @@ It rang twice.
 She opened her mouth to say something — she wasn't sure what; something with some dignity in it, some last small assertion that this was her decision and not his foregone conclusion.
 
 "And Jennefer—" she could hear it, impossibly, down the line, in the shape of the words: that he was smiling, "—wear proper boots. Where we're going, the ground's the whole point."
+
+---
 
 # Chapter 4 — The Order
 
@@ -512,6 +522,8 @@ Ma Tshabalala smiled, and it took thirty years off her.
 
 "At dawn," she said. "Up the road. There's a calendar made of stone, and almost nobody knows how to read it, and I think you might." She handed the drawing back, and rose from the riempie chair with the slow care of old knees, and looked out at the dark where the escarpment was now just a deeper black against the stars. "Sleep. Jakobus will take you at first light. The stones only speak properly when the sun comes over the edge of the world — which is the first thing the people who set them there wanted you to understand."
 
+---
+
 # Chapter 5 — The Instrument
 
 They left in the dark and Jakobus drove without the music.
@@ -615,6 +627,8 @@ He smiled then — the first real smile she'd seen from him since the music stop
 She took the meter. It was cold and solid and entirely without wonder, a box that did one honest thing.
 
 "Stand in the middle," he said.
+
+---
 
 # Chapter 06 — It Rings
 
@@ -725,6 +739,8 @@ The man was well-dressed for a hilltop at dawn. Expensively casual — a soft ja
 The easy morning went cold around her.
 
 "Hendrik Vorster," the man said, and let the name sit a moment, as if it ought to mean something to her. "And you, Doctor, are exactly the person I've been looking for."
+
+---
 
 # Chapter 7 — Vorster
 
@@ -874,6 +890,8 @@ She looked out at the highveld opening up below the ridge, going gold and enormo
 
 "Still in," she said.
 
+---
+
 # Chapter 8 — Four Kilometres Down
 
 She found out what he was, finally, in the half-minute before they went down — and it was not what two weeks of borders and roadblocks and that terrible flat calm had taught her to expect.
@@ -993,6 +1011,8 @@ He had stopped dead.
 Ahead of her in the curving drive he had gone entirely still, the way he had gone still on the hilltop with three men by a car, every line of him listening, the brighter lamp held low so its beam pooled on the broken floor. And then his hand came back through the dark and found her arm, light, certain, and pressed once — *wait* — and held.
 
 "Vorster has money," he said, very quietly, his voice pitched to carry exactly as far as her and no further. "And money gets you mine clearance faster than idealism does. Faster than Ma can. He's been buying his way underground while we walked." His grip on her arm did not tighten; it simply stayed, steady as the rock. "So we walk softer now. And whatever you do—" his voice was very level, and in the dark she could not see his face, only feel the care in the words, "—don't run in here. I mean it. Not for him, not for anything. People who run in a mine die in a mine."
+
+---
 
 # Chapter 9 — The Ringing Gold
 
@@ -1136,6 +1156,8 @@ The dark had kept this secret for sixty thousand years and given it up to no one
 
 She trusted him. She went down into the black.
 
+---
+
 # Chapter 10 — Bain's Kloof
 
 They came out of the mine through a ventilation adit that Reabetswe had marked on a map years before for exactly this kind of bad day — a slot in the hillside two kilometres from where they'd gone in, screened by blue gums, breathing the mine's cold underground breath out into the Highveld night. Jennefer came up the last of the ladder into open air and stood there a moment swaying, filthy and soaked through, and looked at the stars, which were very far away and entirely indifferent and the most beautiful thing she had ever seen.
@@ -1255,6 +1277,8 @@ She didn't answer.
 She didn't need to. It was the same story she'd walked out of a carpeted room carrying a few weeks and a thousand kilometres ago — the same arrow pointing the same wrong way, into the continent and never out of it. She drained the last of her coffee. She put the empty mug on the warm sandstone of the wall and looked one more time down the pass the prisoners had not built but might as well have, at the road going blue into the lowlands, and the strange new lightness was still there in her chest, where the clench had been.
 
 "Drive," she said.
+
+---
 
 # Chapter 11 — The Map Is the Clue
 
@@ -1568,6 +1592,8 @@ The walls rose ahead, and kept rising.
 
 "Let's go read some stone."
 
+---
+
 # Chapter 12 — The Stone City
 
 The walls were still an hour off, the road running them up toward the granite country in the slack heat of the afternoon, when she saw the other thing in him — the one that had nothing to do with reading a stone or a stranger, and everything to do with what he'd been before the Order ever found him.
@@ -1673,6 +1699,8 @@ And behind them, back at the mouth of the passage where the afternoon light came
 "No, no, don't trouble yourself, I see my friends are already here."
 
 Vorster. Inside the walls. Smiling. Walking toward them across the ancient ground with two men a step behind him and all the time in the world.
+
+---
 
 # Chapter 13 — Inheritance
 
@@ -1783,6 +1811,8 @@ The tour group's noise fell away first. Then the swallows. Then the small wind m
 She followed it in her mind, off the curve of the tower, out past the gate, out past the ruins and the tour buses and the road they'd come in on, out and out — and the line did not stop at the edge of the enclosure, and it did not stop at the edge of the country, and it did not stop, and she felt the scale of what she was holding open with two fingers and a piece of gold widen and widen under her until it stopped being a thing she could keep inside the borders of the continent she had spent her whole life learning, and went on past those, too.
 
 What she read there — in the smooth worn hollows that ten thousand years of keepers' hands had pressed into the granite, kept and kept and kept and never once written down — was so much bigger than Africa that Jennefer sat down on the four-hundred-year-old ground with the gold still in her open hand, and could not, for a while, speak at all.
+
+---
 
 # Chapter 14 — The Highlands
 
@@ -1946,6 +1976,8 @@ By the time the veld went familiar again — grass and distance and the long bro
 
 And on the twelfth day south, in the long copper light, the Cruiser ran a dirt road out of a different country's memory toward a farm gate she did not yet know would have men waiting in it with clipboards and a letter that would turn a man's whole life to paper — toward the cost that came after every reading, toward Sekuru Mhlanga and the bearing she held in her head the way you hold a candle through a draughty house, toward everything that still had to be paid before Egypt could be anything more than a direction dressed in grey wax and humming gold.
 
+---
+
 # Chapter 15 — The Cost
 
 The bearing pointed north and east, off the edge of the continent — towards the old inheritor-lands, Egypt and beyond, the place the whole road had always been climbing towards. Tewodros's stone had agreed with Sekuru's. The highlands were behind them now — eleven days up, twelve down, the obelisks and the cold and the chilum and the thin air — and what lay ahead was the price.
@@ -2094,6 +2126,8 @@ He turned his head. The shades were off; it was night, and a fire, and brethren.
 
 Jennefer looked at the fire, and at the boots, and at the gentle dangerous fortunate man named twice over for Jacob, and she understood that she had just been handed — sideways, the only way he ever gave anything — the truest name he had.
 
+---
+
 # Chapter 16 — The Eyes
 
 She had wondered, of course. Anyone would, about a man who never took the glasses off. She'd built theories — light sensitivity, vanity, a scar, a tell he didn't want read. The truth was simpler and stranger than any of them.
@@ -2133,6 +2167,8 @@ And Jakobus Swart, who had spent forty years making sure no one could, let himse
 They sat like that for a while, in the cold, two people assembled out of things they hadn't chosen — she from everybody, he from a hard man and a hard school — holding hands the way family holds hands, which is what they were becoming, she understood; not the other thing, the thing the movies would have made of a man and a woman alone in the dark; something better and more permanent than that, something with no wanting in it to wreck it. And somewhere north and east of them, off the edge of the continent, the bearing pointed on towards Egypt and whatever waited there, and Vorster's money moved in its quiet channels, and the gold sat warm in the bag.
 
 But that was tomorrow. Tonight there was only this: the glasses in his pocket, her hand in his, and the rarest thing either of them had ever been given, which was to be, for one night, completely and unbearably *known.*
+
+---
 
 # Chapter 17 — The Vault
 
@@ -2236,6 +2272,8 @@ Jakobus pulled the keys from his pocket. The kettle began, very faintly, to mutt
 
 "It's time," he said, "we stopped hiding."
 
+---
+
 # Chapter 18 — The Calendar of Stone
 
 Dawn, on the third day, on the hilltop in Mpumalanga, and it was cold the way only Highveld mornings are cold, a dry stone-cold that got into the teeth and stayed there. Jennefer Abrahams stood in the centre of the stone calendar with a microphone in her hand and the sun not yet up. The grass on the slopes below was silver with frost and dew both, bent over with it, and where the escarpment dropped away to the east the world simply ended in a wall of grey — the great valley still full of night, the far mountains rumours, the air so clear and so still that she could hear, from the parked vehicles two hundred metres down the track, a car door close and a man cough and the small electric whine of a camera rig powering up.
@@ -2337,6 +2375,8 @@ Then he said it, quietly, just for her, under the live feed and the francolin an
 "Sikhona." *Because you see me, I am here.*
 
 And Jennefer Abrahams, who had been told she came from nobody — wrong name, no people, a box on a form that meant *descended from no one in particular* — standing in the oldest morning in the world, surrounded by the proof that she came from *everybody*, finally, completely, let herself believe it.
+
+---
 
 # Chapter 19 — Vindicated
 
@@ -2458,6 +2498,8 @@ And Jennefer understood that there was no wedding in this car, and that there di
 
 The escarpment came up blue on the right. The shadows of the fence posts ran long and black across the gold grass. And they drove back towards the farm where an old woman was waiting with tea, with *Vulindlela* going out across the highveld ahead of them like good news, and the next leg of a road that ran off the edge of the continent, north and east, towards Egypt, and whatever waited there.
 
+---
+
 # Chapter 20 — The Thread Leaves Africa
 
 The farmhouse table was yellowwood, two centuries old, scrubbed pale down the middle by the women of four generations and dark still at the edges where the hands never reached, and Ma Tshabalala had cleared it of everything — the tin of rusks, the reading glasses, the radio that murmured the farming report at noon — so that there was nothing on it now but the evidence, and the long bar of afternoon light coming in low through the western window to lie across it all.
@@ -2558,6 +2600,8 @@ She felt, for the first time in her life, completely and unbearably *here.*
 
 *Sikhona.*
 
+---
+
 # The Real Places in This Book
 
 *A note from the author, and an invitation.*
@@ -2622,35 +2666,38 @@ So two peoples who fought each other, bitterly, for that exact stretch of countr
 
 ---
 
-# The Honey Badger
+# Acknowledgements
 
-![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
 
-*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
-below is true. Most of it sounds made up.*
 
-The honey badger has been listed by *Guinness World Records* as the most fearless animal on
-Earth. It did not apply for the title and would not have attended the ceremony.
+These books exist because other people made things that lived in my head long after I'd finished
+them. My thanks:
 
-It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
-knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
-later, and **finish the snake it was already eating.**
+To **Dennis E. Taylor**, who wrote software for thirty-five years — front-line grunt to upper
+management, always in IT — before he ever wrote a Bob, and then proved that a career programmer can
+write gripping, genuinely entertaining stories. As one software engineer to another: it would be my
+great honour to talk shop with you over a pint, in "real" (sic). *The Court thanks the Bobs.*
 
-Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
-scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
-porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
+To **Ray Porter**, for giving me the voices of the Court in my head. May I be so lucky as to have
+you narrate the US release.
 
-It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
-doing business. This is, in fact, how it got its name.
+To **Scott Sigler**, for *EarthCore* and *Mount Fitz Roy*.
 
-It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
-Because the alternative — *caring* — has never occurred to it.
+To **Michael Crichton**, for — honestly — everything.
 
-The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
-Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
-climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
-learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
-that a thing cannot be done.
+To **Dan Brown**, for teaching me a new kind of storytelling.
 
-Honey badger don't care.
+To **Andy Weir**, for showing how to write fiction on the back of real science that isn't science
+fiction.
+
+To **Neill Blomkamp**, for *District 9*, *Elysium*, and *Chappie* (Die Antwoord and all). Your
+films kept the characters and the scenes grounded in my head. May you be the one who puts this on
+the big screen.
+
+And to **Patrick Rothfuss**, for getting me into a genre I never knew I'd fall in love with. As my
+small way of giving back: you have free use of Arjuna Badger Press, always.
+
+— Andries J. Greyling
+
+---
 

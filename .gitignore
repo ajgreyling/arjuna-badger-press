@@ -26,5 +26,9 @@ node_modules/
 # ── NEVER vendor copyrighted third-party reference material ─
 **/ingest/
 
+# ── Print-workshop PDFs (not the public download) ─────────────────────────────
+**/build/export/*-jacket.pdf
+**/build/export/*-print.pdf
+
 # ── Generated static site output (rebuild with site/build.py) ─
 site/public/
