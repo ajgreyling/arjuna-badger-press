@@ -29,6 +29,8 @@ TAGLINE = "Your story, told true."
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
+    ("The Why Files", "#9A8B6B"),
+    ("The Unheard", "#6B8C9A"),
     ("Standalones", "#B49A6A"),
     ("Companions", "#8C7BA8"),
 ]
@@ -67,6 +69,18 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
+
+    ("crop-circles", "The Field of Doors", "The Why Files · Book I", "The Why Files",
+     "history-before-time/books/crop-circles", "build/export",
+     "The official story played straight — the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open."),
+
+    ("unheard-japan", "The Way That Was Invented", "The Unheard · Japan", "The Unheard",
+     "the-unheard/books/japan-ainu", "build/export",
+     "Japan — Ainu, burakumin, and the living hands the brochure paints over. Jakobus on the road, never the lead."),
+
+    ("sheltering-desert", "The Sheltering Desert", "A standalone novel · true story", "Standalones",
+     "the-sheltering-desert", "build/export",
+     "In May 1940 two German geologists drove into the Namib rather than be interned — and survived two and a half years by real bushcraft against a desert that did not care whether they lived."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
@@ -324,9 +338,10 @@ section.series{padding:46px 0 8px}
 .back{font-family:"Space Grotesk";font-size:13px;color:var(--bonedim)}
 
 /* reader */
-.reader{max-width:720px;margin:0 auto;padding:50px 24px 90px;font-family:"Source Serif 4",Georgia,serif;font-size:19px}
-.reader h1{font-family:"Cormorant Garamond",serif;font-size:42px;text-align:center}
-.reader h2{font-family:"Cormorant Garamond",serif;font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold)}
+.reader{max-width:720px;margin:0 auto;padding:50px 24px 90px;
+  font-family:"Atkinson Hyperlegible",system-ui,-apple-system,sans-serif;font-size:18px;line-height:1.65}
+.reader h1{font-family:"Space Grotesk",Inter,sans-serif;font-size:42px;text-align:center;font-weight:600}
+.reader h2{font-family:"Space Grotesk",Inter,sans-serif;font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:600}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
@@ -343,7 +358,8 @@ section.series{padding:46px 0 8px}
 .house h1{font-family:"Cormorant Garamond",serif;font-size:clamp(34px,6vw,58px);margin:28px 0 .06em}
 .house .motto{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:clamp(19px,3vw,28px)}
 .house .gloss{color:var(--bonedim);font-family:"Space Grotesk";letter-spacing:.08em;font-size:13px;margin-top:6px;text-transform:uppercase}
-.blazon{text-align:left;max-width:680px;margin:30px auto 0;font-family:"Source Serif 4",Georgia,serif;font-size:18px}
+.blazon{text-align:left;max-width:680px;margin:30px auto 0;
+  font-family:"Atkinson Hyperlegible",system-ui,sans-serif;font-size:18px;line-height:1.65}
 .blazon p.intro{color:var(--bone);font-size:19px;margin:0 0 1.2em}
 .blazon h2{font-family:"Cormorant Garamond",serif;color:var(--gold);font-size:27px;text-align:center;margin:2em 0 .8em}
 .blazon .entry{margin:0 0 1.25em;padding-left:16px;border-left:2px solid var(--line)}
@@ -360,9 +376,9 @@ footer .badgerline{font-family:"Cormorant Garamond",serif;font-style:italic;colo
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&'
-         'family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&'
-         'family=Source+Serif+4:ital,wght@0,400;1,400&display=swap" rel="stylesheet">')
+         '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&'
+         'family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&'
+         'family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">')
 
 
 def head(title: str, desc: str, rel: str = "") -> str:
