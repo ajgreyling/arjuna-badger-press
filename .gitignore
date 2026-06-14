@@ -1,0 +1,30 @@
+# ── OS / editor ────────────────────────────────────────────
+.DS_Store
+
+# ── Python ─────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+
+# ── Node ───────────────────────────────────────────────────
+node_modules/
+
+# ── Heavy audio renders (these live with the audio pipeline, never here) ──
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.aac
+*.ogg
+
+# ── Regenerable build telemetry / dashboards ───────────────
+**/build/log/
+**/build/history/
+**/build/viz/
+*.log
+
+# ── NEVER vendor copyrighted third-party reference material ─
+**/ingest/
+
+# ── Generated static site output (rebuild with site/build.py) ─
+site/public/

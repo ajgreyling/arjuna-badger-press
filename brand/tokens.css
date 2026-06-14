@@ -1,0 +1,103 @@
+/* Arjuna Badger Press — design tokens v3.0.0 (2026-06-14)
+ * The archer-and-badger palette. See brand/BRAND.md + brand/BRAND_BRIEF_ARJUNA_BADGER.md for usage
+ * rules. Contrast ratios noted in BRAND.md §3. Lineage: Piezo Pangolin (--pp-*) → Fearless Badger
+ * (--fbp-*) → Arjuna Badger Press (--abp-*). Import once, then reference the variables — do not
+ * hard-code hexes in components. */
+
+:root {
+  /* ── Core palette ─────────────────────────────────────────── */
+  --abp-black:          #161513;  /* primary dark surface (warm near-black / the body) */
+  --abp-iron-earth:     #3A332B;  /* raised dark surface / cards               */
+  --abp-bone:           #EDE9E0;  /* primary light text on dark / stripe-arrow */
+  --abp-ochre:          #B07A3C;  /* primary accent — honey/earth / CTA / link */
+  --abp-dust:           #C8A86B;  /* lighter ochre — highlights / hover / fills*/
+  --abp-sting:          #C2401E;  /* bee-sting / loosed-arrow charge / danger  */
+
+  /* ── Veld ramp ────────────────────────────────────────────── */
+  --abp-grass:          #7E7A5A;  /* muted secondary text / veld mid-tone      */
+  --abp-earth-700:      #2A241D;  /* deep shadow / borders on dark             */
+  --abp-earth-500:      #5A5043;  /* mid-shadow / muted dividers               */
+  --abp-bone-dim:       #BDB6A6;  /* preferred muted body text on dark         */
+  --abp-cloud:          #F6F4EF;  /* warm light-mode page background           */
+  --abp-paper:          #FFFFFF;
+
+  /* ── Semantic (default: DARK is home) ─────────────────────── */
+  --abp-bg:             var(--abp-black);
+  --abp-bg-raised:      var(--abp-iron-earth);
+  --abp-text:           var(--abp-bone);
+  --abp-text-muted:     var(--abp-bone-dim);
+  --abp-link:           var(--abp-ochre);
+  --abp-link-hover:     var(--abp-dust);
+  --abp-border:         var(--abp-earth-700);
+  --abp-focus-ring:     var(--abp-ochre);
+  --abp-accent:         var(--abp-ochre);
+  --abp-danger:         var(--abp-sting);
+
+  /* ── Typography ───────────────────────────────────────────── */
+  --abp-font-display: "Archivo Black", "Saira Condensed", "Bitter", system-ui, sans-serif;
+  --abp-font-heading: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --abp-font-body:    Inter, system-ui, -apple-system, sans-serif;
+  --abp-font-reading: "Source Serif 4", Georgia, serif;
+  --abp-font-mono:    "JetBrains Mono", ui-monospace, monospace;
+
+  --abp-text-xs:   0.75rem;
+  --abp-text-sm:   0.875rem;
+  --abp-text-base: 1rem;
+  --abp-text-lg:   1.125rem;
+  --abp-text-xl:   1.375rem;
+  --abp-text-2xl:  1.75rem;
+  --abp-text-3xl:  2.25rem;
+  --abp-text-4xl:  3rem;
+  --abp-text-5xl:  4rem;
+
+  --abp-track-display: 0.04em;
+  --abp-track-eyebrow: 0.12em;
+
+  /* ── Effects ──────────────────────────────────────────────── */
+  --abp-glow-ochre: 0 0 12px rgba(176, 122, 60, 0.40);
+  --abp-radius:     10px;
+}
+
+/* Light mode: the alternate surface (long-form reading / print-like pages). */
+[data-theme="light"] {
+  --abp-bg:         var(--abp-cloud);
+  --abp-bg-raised:  var(--abp-paper);
+  --abp-text:       var(--abp-black);
+  --abp-text-muted: var(--abp-earth-500);
+  --abp-border:     #E2DCD0;
+  /* Ochre/red TEXT is weak on light — keep them for fills/icons only here,
+     and set link text to black with an ochre underline. */
+  --abp-link:       var(--abp-black);
+}
+
+/* House conventions ------------------------------------------------------- */
+body {
+  background: var(--abp-bg);
+  color: var(--abp-text);
+  font-family: var(--abp-font-body);
+  font-size: var(--abp-text-base);
+}
+
+.abp-eyebrow {           /* all-caps label / section kicker */
+  font-family: var(--abp-font-display);
+  text-transform: uppercase;
+  letter-spacing: var(--abp-track-eyebrow);
+  color: var(--abp-ochre);
+  font-size: var(--abp-text-sm);
+}
+
+a { color: var(--abp-link); }
+a:hover { color: var(--abp-link-hover); }
+
+:focus-visible {
+  outline: 2px solid var(--abp-focus-ring);
+  outline-offset: 2px;
+}
+
+/* The house divider: the bone dorsal-stripe / arrow-line — a short warm bar. */
+.abp-stripe {
+  height: 3px;
+  width: 4rem;
+  background: var(--abp-bone);
+  border-radius: 2px;
+}
