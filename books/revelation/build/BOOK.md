@@ -6,7 +6,7 @@ Andries J. Greyling
 
 ---
 
-![Map: the journey of REVELATION across the real ancient sites of Africa.](assets/REVELATION_route_map.jpg)
+![Map: the journey of REVELATION across the real ancient sites of Africa.](/Users/ajgreyling/code/africangold/design/revelation/REVELATION_route_map.jpg)
 
 ---
 
@@ -309,36 +309,6 @@ than you know, which is its own quiet proof of character. This is the book about
 will not let anyone else decide what the truth is allowed to mean. I think you'll understand her.
 
 Stand your ground. Love what you love, loudly. *One love.*
-
----
-
-# Foreword
-
-### *by Dan Brown*
-
-I should recuse myself from this one.
-
-I am, after all, the man who put a murderous conspiracy inside the Catholic Church, sold rather a lot of copies, and got myself denounced from pulpits on three continents. So when I tell you that the book you are holding involves a secret brotherhood, a suppressed manuscript, a re-translation that could rewrite what a billion people believe, and a conspiracy with a Vatican thread running through it — you are entitled to assume I am simply applauding a man for doing my act in my coat.
-
-And I am. Partly. I would be lying if I said it wasn't a joy to watch someone sprint down a corridor I built. But that is not why I agreed to write this, and I want to be careful here, more careful than I usually bother to be, because this book earns the care.
-
-Here is the difference, and it is the whole reason I set my cocktail down and paid attention.
-
-When I send a hero into the hidden chambers under a church, the secret at the bottom is a *scandal.* A bloodline, a cover-up, a thing the institution would kill to hide because it would *embarrass* them. It is great fun and I regret none of it. But the secret at the bottom of *this* book is not a scandal. It is the opposite of a scandal. The author has built the entire machinery of the conspiracy thriller — the codes, the chase, the hunted scholar, the closing shadows, the chamber beneath the ancient churches — and aimed it, with enormous nerve, at a secret that turns out to be *that the three great faiths were never really enemies, and that someone profited, for centuries, from teaching them that they were.*
-
-Do you see what a strange and difficult thing that is to pull off? It is easy to write a thriller that tears a religion down; I am told I made it look easy, which is unkind but not entirely wrong. It is *brutally* hard to write a thriller — a real one, with a body in the first act and a villain and a ticking clock — whose final revelation *builds something up,* whose buried treasure is reconciliation, whose payoff is not "look how rotten they are" but "look how much they share, and look who worked to hide it." He kept every gear of the genre and reversed its polarity, and it should not work, and it absolutely does, because he never once cheats you of the thriller while he's doing it.
-
-I want to say a careful word about the faith of it, because I have learned, the hard way, in very large rooms, that this is holy ground and a clumsy boot does real harm. The author handles three living religions in these pages — Islam, Judaism, Christianity — and he handles them, every one, with a respect I did not always manage and have come to admire. He does not mock anyone's God. He locates the rot exactly where it belongs, in the human institutions that have always found it profitable to keep the faithful afraid of each other, and he leaves the faith itself standing, and dignified, and worth a person's life. That is a harder balance than any cliffhanger, and he holds it for an entire novel. A thriller about scripture that the devout could read without insult, and the skeptic without condescension, is something I am not sure I have seen done before. I have certainly never done it.
-
-Now, the practical warnings, because I am still me.
-
-The protagonist is a linguist, which means the codes are *real* codes, real languages, real scripts, and the author has done the unforgivable thing of getting them right, so you will learn something against your will. The chapters end where mine end — mid-fall, one beat early — and I extend my standard apology to your sleep schedule. And somewhere in this book you will pass a quiet, watchful man who reads symbols the way the heroine reads languages, and who is connected to a larger story than this one; pay attention to him, in the way you pay attention to a door left slightly open.
-
-I have spent my career being told that what I do is a guilty pleasure. Fine. Guilty I'll take. But every so often someone uses these disreputable tools — the chase, the code, the gasp — to build something that is quietly, genuinely *good,* in the old sense, the moral sense, and when that happens the guilty pleasure turns out to have been a Trojan horse for something true.
-
-This is one of those. Read it fast, the way it's built to be read. Then sit a while with what it actually said. I did. I'm still sitting.
-
-*— Dan Brown*
 
 ---
 
