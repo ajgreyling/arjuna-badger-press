@@ -93,6 +93,10 @@ CURATED = [
     ("the-song-of-the-self", "The Song of the Self", "A companion", "Companions",
      "history-before-time/companions/the-song-of-the-self", "export",
      "A companion piece — the Gita's quiet question carried into the History Before Time world."),
+
+    ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad · companion", "Companions",
+     "history-before-time/companions/the-wrath-of-achilles", "export",
+     "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
 ]
 
 
@@ -229,6 +233,18 @@ def cover_svg(title: str, eyebrow: str, accent: str) -> str:
 
 
 # ── scan ───────────────────────────────────────────────────────────────────────
+def companion_manuscript(root: Path) -> str | None:
+    """Merge companion book/*.md into one markdown string for read-online."""
+    book_dir = root / "book"
+    front = book_dir / "_front.md"
+    if not front.is_file():
+        return None
+    parts = [front.read_text(encoding="utf-8").rstrip()]
+    for f in sorted(book_dir.glob("[0-9]*.md")):
+        parts.append(f.read_text(encoding="utf-8").rstrip())
+    return "\n\n".join(parts) + "\n"
+
+
 def scan() -> list[dict]:
     entries = []
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
@@ -249,10 +265,17 @@ def scan() -> list[dict]:
                 cover = cand
                 break
         book_md = root / "build" / "BOOK.md"
+        reader_md = None
+        if book_md.is_file():
+            reader_src = book_md
+        else:
+            reader_md = companion_manuscript(root)
+            reader_src = None
         entries.append({
             "id": cid, "title": title, "subtitle": subtitle, "series": series,
             "blurb": blurb, "downloads": downloads, "cover": cover,
-            "book_md": book_md if book_md.is_file() else None,
+            "book_md": reader_src,
+            "reader_md": reader_md,
             "available": bool(downloads),
         })
     return entries
@@ -528,7 +551,7 @@ def render_book(e: dict) -> str:
             parts.append(f'<a class="dl{solid}" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>{label}</a>')
         dls = f'<div class="dls" style="margin-top:20px">{"".join(parts)}</div>'
     read = ""
-    if e["book_md"]:
+    if e["book_md"] or e.get("reader_md"):
         read = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../read/{e["id"]}.html">Read online →</a></div>'
     soon = "" if e["available"] else '<p style="color:var(--ochre);margin-top:18px">In the workshop — drafting now. Check back soon.</p>'
     full = html.escape(e["blurb"]) if e["blurb"] else ""
@@ -631,7 +654,12 @@ the road, not the obstacle, and that the work at the end of it is meant to be <e
 
 
 def render_reader(e: dict) -> str:
-    body = md_to_html(e["book_md"].read_text(encoding="utf-8", errors="ignore"))
+    if e.get("reader_md"):
+        body = md_to_html(e["reader_md"])
+    elif e.get("book_md"):
+        body = md_to_html(e["book_md"].read_text(encoding="utf-8", errors="ignore"))
+    else:
+        body = ""
     dl = ""
     for f in e["downloads"]:
         if f.suffix.lower() == ".epub":
@@ -689,7 +717,7 @@ def main() -> None:
                 shutil.copy2(f, d / f.name)
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
-        if e["book_md"]:
+        if e["book_md"] or e.get("reader_md"):
             (OUT / "read" / f'{e["id"]}.html').write_text(render_reader(e), encoding="utf-8")
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
@@ -700,7 +728,7 @@ def main() -> None:
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
 
     avail = sum(1 for e in entries if e["available"])
-    readers = sum(1 for e in entries if e["book_md"])
+    readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online) -> {OUT}")
 
 
