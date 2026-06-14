@@ -383,7 +383,7 @@ def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
 <nav><a href="{rel}index.html#library">Library</a><a href="{rel}index.html#mission">Mission</a>
-<a href="{rel}index.html#press">The Press</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
+<a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
 </div></div>"""
 
 
@@ -471,6 +471,19 @@ and sound the alarm; they never write your voice for you. {avail} finished books
 above, free to read and download. <a href="letter.html">Why this house exists — a letter &rarr;</a></p>
 <div class="cta" id="write"><a class="btn" href="mailto:hello@arjunabadger.press">Write with us</a>
 <a class="btn ghost" href="mailto:hello@arjunabadger.press">Publish with us</a></div>
+</div></section>""")
+
+    parts.append(f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
+<div class="eyebrow">The other half</div>
+<h2 style="font-size:28px;margin:.3em 0">A sister proof</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Across the table from these stories sits a
+different kind of book — a unified theory that derives the fundamental constants from a single axiom and
+one measured input, with zero fitted parameters. Its author is a man this library will name only as
+<em>the author of the unified theory</em>. Part of what is on the shelf above is that theory turned into
+people and places: the other half of one idea. I did not believe it could be true, so I built a machine
+to check — offline, deterministic, no fitted parameters. The theory is his. The proof is mine.</p>
+<div class="cta"><a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory &rarr;</a>
+<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof &rarr;</a></div>
 </div></section>""")
     parts.append(footer())
     return "\n".join(parts)
