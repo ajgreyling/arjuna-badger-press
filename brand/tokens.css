@@ -1,7 +1,6 @@
 /* Arjuna Badger Press — design tokens v3.0.0 (2026-06-14)
  * The archer-and-badger palette. See brand/BRAND.md + brand/BRAND_BRIEF_ARJUNA_BADGER.md for usage
- * rules. Contrast ratios noted in BRAND.md §3. Lineage: Piezo Pangolin (--pp-*) → Fearless Badger
- * (--fbp-*) → Arjuna Badger Press (--abp-*). Import once, then reference the variables — do not
+ * rules. Contrast ratios noted in BRAND.md §3. Import once, then reference the variables — do not
  * hard-code hexes in components. */
 
 :root {

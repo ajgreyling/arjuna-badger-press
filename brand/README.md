@@ -20,7 +20,7 @@ The consumer brand for the publishing & editorial studio built on this repo's to
 |---|---|
 | `logo-master.png` | Source art (archive). |
 | `logo-transparent.png` | Default logo, transparent bg. |
-| `mark-only.png` | Pangolin glyph alone — icons, avatars, watermark. |
+| `mark-only.png` | Brand mark alone — icons, avatars, watermark. |
 | `logo-on-dark.png` / `logo-on-light.png` | Pre-padded on brand-ink / white. |
 | `favicon.ico`, `favicon-{16,32,180,512}.png` | Browser / Apple-touch / PWA. |
 | `social-og-1200x630.png` | Open Graph share card. |
