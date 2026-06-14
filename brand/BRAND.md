@@ -141,7 +141,7 @@ disciplined. Strong on dark (Badger Black) surfaces.
 | **Display / wordmark** | A bold, gritty grotesk or characterful slab (e.g. **Archivo Black**, **Saira Condensed**, or a slab like **Bitter** at heavy weight) — it should look like it would win a fight, and aim straight. | Logo, big numerals, section eyebrows. ALL CAPS, letter-spacing `+0.04em`. |
 | **Headings** | **Space Grotesk** (Google Fonts) | H1–H4. Tight, modern, confident. |
 | **Body** | **Inter** (Google Fonts) | Paragraphs, UI, forms. 16px min on web. |
-| **Long-form / book pages** | **Source Serif 4** or the book's own face | Sample chapters, blog — echoes that we are a books company. |
+| **Long-form / book pages** | **Atkinson Hyperlegible** (same as [the420code.org](https://the420code.org/)) | Novel body text — EPUB, PDF, read-online. Modern sans, maximum legibility. Non-Latin scripts keep their own faces. |
 | **Mono (optional)** | **JetBrains Mono** | Code, the "tooling" story. |
 
 **Type rules**
