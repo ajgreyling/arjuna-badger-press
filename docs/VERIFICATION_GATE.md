@@ -5,8 +5,7 @@
 > the story** — the historical and factual accuracy of **Andy Weir, Michael Crichton, and Dan Brown**
 > is *core* to Arjuna Badger Press, not a nice-to-have.
 >
-> Governed by [`ARJUNA_BADGER_PRESS.md`](ARJUNA_BADGER_PRESS.md) (the hub) and bound by the
-> measure-don't-generate invariant in [`MASTER_PLAN.md`](MASTER_PLAN.md) §0/§4.
+> Bound by the measure-don't-generate invariant: the tooling verifies and flags; the author writes.
 
 ---
 

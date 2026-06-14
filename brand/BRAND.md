@@ -5,14 +5,11 @@
 > and **printed through the cheapest idle capacity on earth so the artist keeps most of the money.**
 > The brand is the consumer face of the autonomous manuscript-craft tooling in this repository.
 
-**Status:** v3 — renamed to *Arjuna Badger Press* 2026-06-14 (see
+**Status:** Arjuna Badger Press (see
 [`BRAND_BRIEF_ARJUNA_BADGER.md`](BRAND_BRIEF_ARJUNA_BADGER.md), the binding brief this implements).
-Lineage: *Piezo Pangolin* (v1) → *Fearless Badger Press* (v2, internal) → **Arjuna Badger Press** (v3).
 **Owner:** Andries J. Greyling.
 
-> **Master art LOCKED 2026-06-14** — the house crest (§2). Produced assets are in `brand/assets/`; the
-> earlier *Piezo Pangolin* art is archived under `brand/assets/_piezo-pangolin-archive/`. Still verify
-> domain + trademark availability for "Arjuna Badger Press" before any public/legal use.
+> **Master art LOCKED 2026-06-14** — the house crest (§2). Produced assets are in `brand/assets/`.
 
 ---
 
@@ -79,7 +76,6 @@ badger's nerve — in African gold light. Dark is home: the master sits on Badge
 | `logo-alt-archer.png` | ✅ | Alternate "fierce" emblem — the badger *drawing* the bow (action variant). |
 | `favicon.ico` | ⬜ | TODO — needs ImageMagick (sips can't write `.ico`). |
 | `logo-transparent.png` | ⬜ | TODO — background knockout needs ImageMagick. |
-| `_piezo-pangolin-archive/` | — | The retired Piezo Pangolin art (kept for the tech-brand option). |
 
 ### Construction & clear space
 - **Clear space:** keep padding equal to the wordmark's cap-height on all sides.

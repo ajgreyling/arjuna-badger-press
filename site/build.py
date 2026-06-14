@@ -64,6 +64,9 @@ CURATED = [
      "Before the saga, the soldier. The years between the Border War and the man we later meet — how an unkillable gentleness was forged, and what it cost. The grounded, human origin of Jakobus Swart."),
     ("jakobus-the-recitation", "The Recitation", "A Jakobus Swart story", "History Before Time",
      "history-before-time/books/jakobus-the-recitation", "build/export", ""),
+    ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
+     "history-before-time/books/the-jakobus-file", "build/export",
+     "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
