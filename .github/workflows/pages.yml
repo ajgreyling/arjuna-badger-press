@@ -36,6 +36,9 @@ jobs:
       - name: Disable Jekyll processing
         run: touch site/public/.nojekyll
 
+      - name: Set custom domain
+        run: echo "arjunabadger.press" > site/public/CNAME
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
