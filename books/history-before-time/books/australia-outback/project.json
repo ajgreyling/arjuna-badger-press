@@ -1,0 +1,17 @@
+{
+  "id": "songlines",
+  "title": "The Songlines of Stone",
+  "working_title": "The Songlines of Stone",
+  "protagonist": "Daniel Mercer / Nyaani",
+  "logline": "A ruined geologist dying of thirst in country his instruments read as empty is saved by an Aboriginal woman who finds water where there is none — and drawn into the oldest continuous knowledge on Earth.",
+  "blueprint": "dual-thread / country-as-character",
+  "market": "Wilbur Smith sweep — landscape adventure with deep-time reverence",
+  "status": "drafting",
+  "seq": 1,
+  "graph_color": "#b7410e",
+  "canon_order": [
+    "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
+    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

@@ -8,7 +8,7 @@ Andries J. Greyling
 
 ---
 
-![Map: the journey of RELIC across the real ancient sites of Africa.](assets/RELIC_route_map.jpg)
+![Map: the journey of RELIC across the real ancient sites of Africa.](/Users/ajgreyling/code/africangold/design/relic/RELIC_route_map.jpg)
 
 ---
 
@@ -4103,7 +4103,7 @@ worth seeing for yourself.*
 
 # The Honey Badger
 
-![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
 
 *The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
 below is true. Most of it sounds made up.*

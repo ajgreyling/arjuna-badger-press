@@ -2177,7 +2177,7 @@ Neither of these will start a secret order or open a drowned chamber. They'll ju
 
 # The Honey Badger
 
-![A honey badger, *Mellivora capensis*, photographed at night.](assets/honey-badger.jpg)
+![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
 
 *The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
 below is true. Most of it sounds made up.*

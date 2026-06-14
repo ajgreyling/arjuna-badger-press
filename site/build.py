@@ -78,6 +78,10 @@ CURATED = [
      "the-unheard/books/japan-ainu", "build/export",
      "Japan — Ainu, burakumin, and the living hands the brochure paints over. Jakobus on the road, never the lead."),
 
+    ("unheard-mongolia", "The Felt and the Sky", "The Unheard · Mongolia", "The Unheard",
+     "the-unheard/books/mongolia-steppe", "build/export",
+     "A herder's daughter sent back as the friendly face of the survey that will fence her father's pasture — and a crew who came for the empty land of Genghis learns the emptiest-looking country on earth is the most precisely known."),
+
     ("sheltering-desert", "The Sheltering Desert", "A standalone novel · true story", "Standalones",
      "the-sheltering-desert", "build/export",
      "In May 1940 two German geologists drove into the Namib rather than be interned — and survived two and a half years by real bushcraft against a desert that did not care whether they lived."),
@@ -259,6 +263,7 @@ CSS = """
 :root{
   --black:#161513; --iron:#221f1b; --card:#1d1a16; --bone:#EDE9E0; --bonedim:#BDB6A6;
   --ochre:#C8A86B; --gold:#E5B567; --grass:#7E7A5A; --line:#2A241D; --sting:#C2401E;
+  --reading:"Atkinson Hyperlegible",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
 body{margin:0;background:var(--black);color:var(--bone);
@@ -337,16 +342,19 @@ section.series{padding:46px 0 8px}
 .bookhero .syn{font-size:18px;color:var(--bone);margin-top:18px;max-width:60ch}
 .back{font-family:"Space Grotesk";font-size:13px;color:var(--bonedim)}
 
-/* reader */
+/* reader — house long-form face: Atkinson Hyperlegible (EPUB/PDF parity) */
 .reader{max-width:720px;margin:0 auto;padding:50px 24px 90px;
-  font-family:"Atkinson Hyperlegible",system-ui,-apple-system,sans-serif;font-size:18px;line-height:1.65}
-.reader h1{font-family:"Space Grotesk",Inter,sans-serif;font-size:42px;text-align:center;font-weight:600}
-.reader h2{font-family:"Space Grotesk",Inter,sans-serif;font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:600}
+  font-family:var(--reading);font-size:18px;line-height:1.65;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+.reader h1,.reader h2,.reader h3,.reader h4,.reader p,.reader li,.reader blockquote,.reader td,.reader th{
+  font-family:var(--reading)}
+.reader h1{font-size:42px;text-align:center;font-weight:700;letter-spacing:-.01em}
+.reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
 .reader.letter h1{margin-bottom:.1em}
-.reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em}
+.reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
 .reader.letter em{color:var(--bone)}
 .readbar{position:sticky;top:0;background:rgba(22,21,19,.85);backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line);padding:12px 0}
@@ -359,9 +367,9 @@ section.series{padding:46px 0 8px}
 .house .motto{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:clamp(19px,3vw,28px)}
 .house .gloss{color:var(--bonedim);font-family:"Space Grotesk";letter-spacing:.08em;font-size:13px;margin-top:6px;text-transform:uppercase}
 .blazon{text-align:left;max-width:680px;margin:30px auto 0;
-  font-family:"Atkinson Hyperlegible",system-ui,sans-serif;font-size:18px;line-height:1.65}
+  font-family:var(--reading);font-size:18px;line-height:1.65}
 .blazon p.intro{color:var(--bone);font-size:19px;margin:0 0 1.2em}
-.blazon h2{font-family:"Cormorant Garamond",serif;color:var(--gold);font-size:27px;text-align:center;margin:2em 0 .8em}
+.blazon h2{font-family:var(--reading);color:var(--gold);font-size:27px;text-align:center;margin:2em 0 .8em;font-weight:700}
 .blazon .entry{margin:0 0 1.25em;padding-left:16px;border-left:2px solid var(--line)}
 .blazon .charge{font-family:"Space Grotesk";font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);display:block;margin-bottom:3px}
 .blazon .entry p{margin:0;color:var(--bone)}
