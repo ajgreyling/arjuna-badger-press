@@ -58,7 +58,7 @@ What it produces is a report, not an edit:
 ## 3. The fact/fiction boundary (already solved — reuse it)
 
 The hardest part of fact-checking grounded fiction is **not fact-checking the fiction**. That boundary
-is already specified and working in [`../prompts/factcheck-extract.md`](../prompts/factcheck-extract.md):
+is already specified and working in `../prompts/factcheck-extract.md`:
 extract only the **real-world layer** (real places, geology, history, dates, attributed quotations);
 **ignore** the deliberate in-world invention (per each book's `MYTHOS_RULES.md`). The Verification Gate
 **builds on that prompt** — it is the extract step; this spec adds the *verify-against-live-sources* and
@@ -163,8 +163,8 @@ the method is principled, not hype. It belongs in the L6 explainer.
 
 ## 9. Cross-links
 
-- The hub: [`ARJUNA_BADGER_PRESS.md`](ARJUNA_BADGER_PRESS.md) (this is L1's accuracy invariant + part of L6)
-- The boundary prompt: [`../prompts/factcheck-extract.md`](../prompts/factcheck-extract.md)
-- The proven manual pass: [`../academic/final-report/plausibility/REPORT.md`](../academic/final-report/plausibility/REPORT.md)
-- The invariant: [`MASTER_PLAN.md`](MASTER_PLAN.md) §0/§4 (measure & alarm, never generate)
+- The hub: `ARJUNA_BADGER_PRESS.md` (this is L1's accuracy invariant + part of L6)
+- The boundary prompt: `../prompts/factcheck-extract.md`
+- The proven manual pass: `../academic/final-report/plausibility/REPORT.md`
+- The invariant: `MASTER_PLAN.md` §0/§4 (measure & alarm, never generate)
 - The IP proof it pairs with: `guardrail-register-thesis` (separate repo)

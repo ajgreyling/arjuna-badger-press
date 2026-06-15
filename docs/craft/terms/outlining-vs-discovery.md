@@ -11,7 +11,7 @@ can afford more discovery. Whatever the route, the *revision* is where the book 
 made.
 **Fail:** Treating the outline as a cage (killing a better idea the draft surfaces) or
 treating "pantsing" as a license to skip structural revision.
-**See:** [`CLAUDE.md`](../CLAUDE.md) (pipeline stage 1) · [Outline](outline.md)
+**See:** `CLAUDE.md` (pipeline stage 1) · [Outline](outline.md)
 
 ---
 

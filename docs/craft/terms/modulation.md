@@ -7,7 +7,7 @@ loud vs. quiet. Without modulation everything reads at the same pitch and the re
 numb. "Less polish everywhere, more contrast in the right places."
 **In this project:** A structural-audit dimension; the opposite is "evenness of register"
 (see below).
-**See:** [`.claude/skills/de-llm-loop/SKILL.md`](../.claude/skills/de-llm-loop/SKILL.md) · [`CLAUDE.md`](../CLAUDE.md) (polish mantra)
+**See:** `.claude/skills/de-llm-loop/SKILL.md` · `CLAUDE.md` (polish mantra)
 
 ---
 

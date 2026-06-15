@@ -10,7 +10,7 @@ specificity. The art-level pass.
 **de-llm-loop** and **cold read** operate on.
 **Fail:** Over-sanding to a uniform "correct" smoothness — which is itself the evenness machine-
 tell. A line edit can *create* AI-flavor if it homogenizes.
-**See:** *The Craft of the Sentence* (whole section) · *Cold read* · [`.claude/skills/de-llm-loop/SKILL.md`](../.claude/skills/de-llm-loop/SKILL.md)
+**See:** *The Craft of the Sentence* (whole section) · *Cold read* · `.claude/skills/de-llm-loop/SKILL.md`
 
 ---
 

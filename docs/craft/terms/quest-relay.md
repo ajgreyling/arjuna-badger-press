@@ -8,7 +8,7 @@ node, hits an **OBSTACLE**, **READS** the puzzle, pays a **COST**, gets a **KEY*
 each scene must hand the next one something it needs, so the story can't stall.
 **In this project:** The spine of RELIC. The continuity gate hard-fails if the key-chain is
 broken (a scene that takes a key it was never handed, or hands off nothing).
-**See:** [`CLAUDE.md`](../CLAUDE.md) (pipeline gate) · `books/relic/canon/SET_PIECE_LEDGER.md` · `storygraph/setpieces.py`
+**See:** `CLAUDE.md` (pipeline gate) · `books/relic/canon/SET_PIECE_LEDGER.md` · `storygraph/setpieces.py`
 
 ---
 

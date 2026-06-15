@@ -185,4 +185,4 @@ Bring the pile. Answer twenty questions. Click Go.
 
 ---
 
-*Companion docs:* [The technology](TECHNOLOGY.md) (engineering) · [Craft Library](craft/README.md) (free craft reference) · [Verification Gate](VERIFICATION_GATE.md) (accuracy standard)
+*Companion docs:* [The Press Thesis](THE_PRESS_THESIS.md) (unifying argument) · [The technology](TECHNOLOGY.md) (engineering) · [Craft Library](craft/README.md) (free craft reference) · [Verification Gate](VERIFICATION_GATE.md) (accuracy standard)
