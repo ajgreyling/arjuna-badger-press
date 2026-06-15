@@ -432,7 +432,7 @@ def head(title: str, desc: str, rel: str = "") -> str:
 def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}index.html#mission">Mission</a>
+<nav><a href="{rel}index.html#library">Library</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
 </div></div>"""
 
@@ -500,6 +500,16 @@ and <em>all</em> the rights. We Uber the press for short runs.</p></div>
 <p>Every book is fact-checked against live sources and tells contested stories from both sides —
 Weir / Crichton / Brown-grade accuracy, not a nice-to-have.</p></div>
 </div></div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="writers"><div class="wrap">
+<div class="eyebrow">For writers</div>
+<h2 style="font-size:28px;margin:.3em 0">Free craft — degree-level skills, no gatekeeping</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The studio mined an MFA-scale body of
+knowledge from finishing a million words of published fiction — structure, character, sentence craft,
+the editorial ladder, twenty-nine named anti-patterns, and a machine-tell self-audit. Plain English.
+Free for every writer who has a story and has never been shown how to begin.</p>
+<div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a></div>
+</div></section>""")
 
     parts.append('<div class="wrap" id="library"></div>')
     for sname, accent in SERIES:
@@ -576,6 +586,67 @@ LETTERS = [
     ("letter-to-lisel.md", "for-lisel.html", "For Lisel — Arjuna Badger Press",
      "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
 ]
+
+CRAFT_DIR = REPO / "docs" / "craft"
+# md filename, html slug, page title, meta description
+CRAFT_PAGES = [
+    ("README.md", "index", "Craft Library — free creative writing resources",
+     "Degree-level creative writing craft for writers who are not (yet) in an MFA — glossary, doctrine, and anti-patterns."),
+    ("CRAFT_GLOSSARY.md", "glossary", "Craft Glossary — Arjuna Badger Press",
+     "Structure, character, sentence, POV, editorial ladder, pitfalls and machine-tells — the full craft body of knowledge."),
+    ("CRAFT_DOCTRINE.md", "doctrine", "Craft Doctrine — Arjuna Badger Press",
+     "The studio standard: non-negotiables, what good prose feels like, and the revision mantra."),
+    ("ANTI_PATTERNS.md", "anti-patterns", "Craft Anti-Patterns — Arjuna Badger Press",
+     "Twenty-nine named literary smells with BAD→GOOD fixes — the generative layer above line editing."),
+]
+
+
+CRAFT_NAV = {
+    "index": "Overview",
+    "glossary": "Glossary",
+    "doctrine": "Doctrine",
+    "anti-patterns": "Anti-patterns",
+}
+
+
+def craft_rewrite_links(md: str) -> str:
+    """Turn in-repo markdown links into site-local craft/*.html links."""
+    reps = {
+        "CRAFT_GLOSSARY.md": "glossary.html",
+        "CRAFT_DOCTRINE.md": "doctrine.html",
+        "ANTI_PATTERNS.md": "anti-patterns.html",
+        "README.md": "index.html",
+        "../TECHNOLOGY.md": "../index.html#press",
+        "docs/CRAFT_GLOSSARY.md": "glossary.html",
+        "craft/CRAFT_DOCTRINE.md": "doctrine.html",
+    }
+    out = md
+    for old, new in reps.items():
+        out = out.replace(old, new)
+    return out
+
+
+def render_craft_page(src_name: str, slug: str, title: str, desc: str) -> str | None:
+    src = CRAFT_DIR / src_name
+    if not src.is_file():
+        return None
+    body = md_to_html(craft_rewrite_links(src.read_text(encoding="utf-8", errors="ignore")))
+    nav_links = " · ".join(
+        f'<a href="{html.escape(s)}.html">{CRAFT_NAV.get(s, s)}</a>'
+        for _, s, _, _ in CRAFT_PAGES
+        if s != slug
+    )
+    return "\n".join([
+        head(title, desc, rel="../"),
+        nav(rel="../"),
+        '<article class="reader letter">',
+        f'<p class="eyebrow" style="text-align:center">Craft Library</p>',
+        body,
+        f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
+        '<p style="text-align:center;margin-top:24px"><a class="back" href="../index.html#writers">&larr; Back to the library</a></p>',
+        '</article>',
+        footer(),
+    ])
 
 
 def render_letter(src_name: str, title: str, desc: str) -> str | None:
@@ -727,9 +798,20 @@ def main() -> None:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
 
+    craft_out = OUT / "craft"
+    craft_out.mkdir(exist_ok=True)
+    craft_n = 0
+    for src_name, slug, title, desc in CRAFT_PAGES:
+        page = render_craft_page(src_name, slug, title, desc)
+        if page:
+            out_name = "index.html" if slug == "index" else f"{slug}.html"
+            (craft_out / out_name).write_text(page, encoding="utf-8")
+            craft_n += 1
+
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
-    print(f"built {len(entries)} books ({avail} available, {readers} read-online) -> {OUT}")
+    print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
+          f"{craft_n} craft pages -> {OUT}")
 
 
 if __name__ == "__main__":

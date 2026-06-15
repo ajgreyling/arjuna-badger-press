@@ -23,6 +23,8 @@ folder.
 
 > **For engineers & CTOs** — how this library is made: the AI pipeline, the StoryGraph geospatial-temporal continuity graph, NovelBench, the de-LLM loop, and the human-in-the-loop guardrails & gates → **[The technology](docs/TECHNOLOGY.md)**.
 
+> **For writers** — free degree-level creative-writing craft (structure, character, sentence, anti-patterns, machine-tell audit) mined from finishing this catalogue → **[Craft Library](docs/craft/README.md)** · read online at [arjunabadger.press/craft/](https://arjunabadger.press/craft/index.html).
+
 ## The catalogue
 
 | Book | What it is — and who it's for | EPUB | PDF | Read |
