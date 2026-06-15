@@ -33,6 +33,11 @@ TAGLINE = "Your story, told true."
 # auto-tracks every EPUB/PDF download (links carry `download` + `class="dl"`) with NO per-link code.
 # Leave empty to disable (no snippet emitted). Env var ABP_PLAUSIBLE_DOMAIN overrides.
 PLAUSIBLE_DOMAIN = os.environ.get("ABP_PLAUSIBLE_DOMAIN", "arjunabadger.press")
+
+# ── The Honey Badger Bounty report form ───────────────────────────────────────────────────────
+# Paste the Google Form URL here (or set env ABP_BOUNTY_FORM_URL) once it exists. While empty, the
+# "Report a find" links fall back to the bounty page itself, so there is never a dead link.
+BOUNTY_FORM_URL = os.environ.get("ABP_BOUNTY_FORM_URL", "")
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -522,6 +527,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .brandlink img{height:40px;width:40px;border-radius:50%}
 .nav nav{margin-left:auto;display:flex;gap:24px;font-size:14px}
 .nav nav a{color:var(--bonedim)} .nav nav a:hover{color:var(--gold)}
+.nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
 
 /* site-wide audiobook notice */
 .audiobook-notice{border-bottom:1px solid rgba(200,168,107,.35);
@@ -699,7 +705,7 @@ def audiobook_notice() -> str:
 def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a><a href="{rel}index.html#mission">Mission</a>
+<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a><a class="navhot" href="{rel}bounty.html">Bounty</a><a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
 </div></div>{audiobook_notice()}"""
 
@@ -751,7 +757,8 @@ def render_index(entries: list[dict]) -> str:
 <p class="lead">A publishing house with the archer's eye and the badger's nerve. We finish books to a
 studio standard, give the door away free to the unheard, and route most of the money back to the artist.</p>
 <div class="cta"><a class="btn" href="#library">Browse the library</a>
-<a class="btn ghost" href="#mission">Read the mission</a></div>
+<a class="btn ghost" href="#mission">Read the mission</a>
+<a class="btn ghost" href="bounty.html">Prove us wrong — get paid →</a></div>
 </div></header><hr class="hr">""")
 
     parts.append(f"""<section class="mission" id="mission"><div class="wrap">
@@ -1015,10 +1022,15 @@ def docs_rewrite_links(md: str) -> str:
         "craft/TRIPTYCH_FORM.md": "craft/triptych-form.html",
         "craft/CRAFT_DOCTRINE.md": "craft/doctrine.html",
         "craft/ANTI_PATTERNS.md": "craft/anti-patterns.html",
+        "BOUNTY.md": "bounty.html",
+        "FINDERS.md": "finders.html",
     }
     out = md
     for old, new in reps.items():
         out = out.replace(f"]({old})", f"]({new})")
+    # The bounty report form — set BOUNTY_FORM_URL once the Google Form exists; until then links
+    # point at the bounty page itself (no dead end). Replaces the BOUNTY_FORM_URL placeholder token.
+    out = out.replace("(BOUNTY_FORM_URL)", f"({BOUNTY_FORM_URL or 'bounty.html'})")
     return out
 
 
@@ -1029,6 +1041,10 @@ DOC_PAGES = [
      "Ingest published work and notes, answer twenty wizard questions, click Go — return to a proofread-ready manuscript. Not just for beginners."),
     ("TECHNOLOGY.md", "technology", "The technology behind the library",
      "A plain-English, diagram-led tour of the manuscript-craft studio: the architecture, the guardrails, and the one invariant — tools measure and sound the alarm; they do not generate, and they do not drive."),
+    ("BOUNTY.md", "bounty", "The Honey Badger Bounty — prove us wrong, get paid",
+     "We pay readers who catch our mistakes. Find a factual error, a cultural misstep, or a continuity fault — get paid, and get your name on the fix. South Africa first."),
+    ("FINDERS.md", "finders", "Fixes & Finders — The Honey Badger Bounty",
+     "Every accepted find from the bounty, in the open: what was caught, what we fixed, and who caught it."),
 ]
 
 
