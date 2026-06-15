@@ -32,7 +32,7 @@ All photographs are **public domain / CC** via [Wikimedia Commons](https://commo
 | **The Recitation** | [Real places & people](jakobus-the-recitation.md) |
 | **A Man They All Read Wrong** | [Real places & people](the-jakobus-file.md) |
 
-## The Why Files · The Unheard · Standalones · Companions
+## Not a Potato · The Unheard · Standalones · Companions
 
 | Book | Wiki |
 |---|---|

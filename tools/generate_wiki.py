@@ -46,7 +46,7 @@ CATALOG = [
     ("jakobus-the-recitation", "The Recitation", "A Jakobus Swart story",
      "history-before-time/books/jakobus-the-recitation",
      "books/history-before-time/books/jakobus-the-recitation/build/BOOK.md"),
-    ("crop-circles", "The Field of Doors", "The Why Files · I",
+    ("crop-circles", "The Field of Doors", "Not a Potato",
      "history-before-time/books/crop-circles",
      "books/history-before-time/books/crop-circles/build/BOOK.md"),
     ("unheard-japan", "The Way That Was Invented", "The Unheard · Japan",

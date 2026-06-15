@@ -58,7 +58,7 @@ AUDIOBOOK_NOTICE = (
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
-    ("The Why Files", "#9A8B6B"),
+    ("Not a Potato", "#9A8B6B"),
     ("The Unheard", "#6B8C9A"),
     ("Standalones", "#B49A6A"),
     ("Non-fiction", "#7BA88C"),
@@ -103,9 +103,9 @@ CURATED = [
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
 
-    ("crop-circles", "The Field of Doors", "The Why Files · Book I", "The Why Files",
-     "history-before-time/books/crop-circles", "build/export",
-     "The official story played straight — the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open."),
+    ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
+     "_comingsoon/crop-circles", "build/export",
+     "The official story played straight — the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open. Coming soon."),
 
     ("unheard-japan", "The Way That Was Invented", "The Unheard · Japan", "The Unheard",
      "the-unheard/books/japan-ainu", "build/export",
@@ -164,6 +164,16 @@ CURATED = [
     ("jakobus-the-long-dark", "The Long Dark", "A Jakobus Swart story", "History Before Time",
      "_comingsoon/jakobus-the-long-dark", "build/export",
      "Home — South Africa — in the year the grid does not come back. The fixer at the end of the road, and the gift he spent a whole life learning how to give: making sure that when the lights go out for good, nobody's night dies. A grounded collapse-survival story — real bushcraft, told straight — and the one that carries Jakobus Swart's last chapter. For readers of Cormac McCarthy & Lewis Dartnell. Coming soon."),
+
+    ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
+     "_comingsoon/gobekli-tepe", "build/export",
+     "Göbekli Tepe — the temple older than the plough, raised by hunter-gatherers a textbook said could not have raised it. The official story, played straight; the one accepted shock it can't explain away; the maybe left open for you to decide. Coming soon."),
+    ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato", "Not a Potato",
+     "_comingsoon/voynich-manuscript", "build/export",
+     "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. The story of the object, played straight — and the one hole the explanations never close. Coming soon."),
+    ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
+     "_comingsoon/suppressed-tech", "build/export",
+     "The inventors who said they had something the world wasn't allowed to keep — read as a careful descent from the documented to the purely believed, holding each man's dignity even where his machine never ran. The official story, the human shock beneath it, the maybe left open. Coming soon."),
 ]
 
 
@@ -1663,13 +1673,15 @@ def rewrite_wiki_links(md: str, *, slug: str | None) -> str:
       • any sibling `.md` link with no path → `<stem>.html`, EXCEPT `README.md` → `index.html`
         (the wiki landing page is index.html, not README.html).
     """
-    # 1) the "Read the book" BOOK.md link → the deployed read page
+    # 1) the "Read the book" BOOK.md link → the deployed read page IF it exists (coming-soon books
+    #    have a wiki page but no read page; in that case drop the link to plain text, no dead link).
     if slug:
-        md = re.sub(
-            r"\]\(\.\./\.\./books/[^)]*?/build/BOOK\.md\)",
-            f"](../read/{slug}.html)",
-            md,
-        )
+        read_exists = (OUT / "read" / f"{slug}.html").is_file()
+        if read_exists:
+            md = re.sub(r"\]\(\.\./\.\./books/[^)]*?/build/BOOK\.md\)", f"](../read/{slug}.html)", md)
+        else:
+            # strip the whole "[Read the book](...)" link to just its label
+            md = re.sub(r"\[([^\]]*)\]\(\.\./\.\./books/[^)]*?/build/BOOK\.md\)", r"\1 _(coming soon)_", md)
     # 2) sibling .md links (no slash) → .html, with README.md → index.html
     def _md_to_html(m: "re.Match[str]") -> str:
         name = m.group(1)
