@@ -94,24 +94,32 @@ CURATED = [
      "An engineer reads an ancient machine and must decide who may switch it on. The cinematic capstone of the trilogy."),
 
     ("book1-africa", "The Calendar of Stone", "History Before Time · Book I", "History Before Time",
-     "history-before-time/books/book1-africa", "build/export", ""),
+     "history-before-time/books/book1-africa", "build/export",
+     "At Adam's Calendar in South Africa — a ring of stone older than the pyramids — the case for a forgotten African deep past stops being a fringe theory. For readers of Graham Hancock & Dan Brown."),
     ("book2-india", "The Indian One", "History Before Time · Book II", "History Before Time",
-     "history-before-time/books/book2-india", "build/export", ""),
+     "history-before-time/books/book2-india", "build/export",
+     "The Kailasa temple at Ellora — carved top-down from a single mountain — and the shore temples of Mahabalipuram: India's impossible stone. For readers of Graham Hancock & James Rollins."),
     ("book3-india-deccan", "The Temple in the Rock — Deccan", "History Before Time · Book III", "History Before Time",
-     "history-before-time/books/book3-india-deccan", "build/export", ""),
+     "history-before-time/books/book3-india-deccan", "build/export",
+     "Deeper into the Deccan's rock-cut wonders — how Ellora and Kailasa were really hewn from living stone, and by whom. For readers of Graham Hancock & Douglas Preston."),
     ("book4-india-tamil", "The Shore That Remembers", "History Before Time · Book IV", "History Before Time",
-     "history-before-time/books/book4-india-tamil", "build/export", ""),
+     "history-before-time/books/book4-india-tamil", "build/export",
+     "Mahabalipuram and sunken Poompuhar — a Tamil coast that still remembers the shoreline the sea took. For readers of Graham Hancock & Clive Cussler."),
     ("book5-egypt", "The Engineer of the Gods", "History Before Time · Book V", "History Before Time",
-     "history-before-time/books/book5-egypt", "build/export", ""),
+     "history-before-time/books/book5-egypt", "build/export",
+     "Giza and the Great Pyramid — the engineering mind that could have raised them, read from the stone itself. For readers of Graham Hancock & Michael Crichton."),
     ("australia-outback", "The Songlines of Stone", "History Before Time · Book VI", "History Before Time",
-     "history-before-time/books/australia-outback", "build/export", ""),
+     "history-before-time/books/australia-outback", "build/export",
+     "Murujuga's million rock engravings and the songlines of Aboriginal Australia — the oldest continuous human memory on Earth. For readers of Graham Hancock & Bruce Chatwin."),
     ("project-stargate", "The Men Who Opened the Door", "History Before Time · Book VII", "History Before Time",
-     "history-before-time/books/project-stargate", "build/export", ""),
+     "history-before-time/books/project-stargate", "build/export",
+     "The true story of the CIA's Project Stargate — the men who tried to weaponise the mind, and what they found at the edge of it. For readers of Annie Jacobsen & Jon Ronson."),
     ("jakobus-silver-thread", "The Silver Thread", "A Jakobus Swart story", "History Before Time",
      "history-before-time/books/jakobus-silver-thread", "build/export",
      "Before the saga, the soldier. The years between the Border War and the man we later meet — how an unkillable gentleness was forged, and what it cost. The grounded, human origin of Jakobus Swart."),
     ("jakobus-the-recitation", "The Recitation", "A Jakobus Swart story", "History Before Time",
-     "history-before-time/books/jakobus-the-recitation", "build/export", ""),
+     "history-before-time/books/jakobus-the-recitation", "build/export",
+     "Jakobus among the San — a story of the Kalahari, of debt and grace, and of the oldest way there is of telling. For readers of Wilbur Smith & Laurens van der Post."),
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
@@ -595,9 +603,37 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .brandlink{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:600;
   letter-spacing:.02em;color:var(--bone)}
 .brandlink img{height:40px;width:40px;border-radius:50%}
-.nav nav{margin-left:auto;display:flex;gap:24px;font-size:14px}
-.nav nav a{color:var(--bonedim)} .nav nav a:hover{color:var(--gold)}
+.nav nav.navinline{margin-left:auto;display:flex;gap:24px;font-size:14px}
+.nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
 .nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
+
+/* ── Hamburger + slide-out drawer (pure-CSS toggle via #navtoggle checkbox) ─────────────────── */
+.hamburger{margin-left:auto;display:flex;flex-direction:column;justify-content:center;gap:5px;
+  width:42px;height:42px;padding:9px;cursor:pointer;border-radius:8px}
+.hamburger:hover{background:rgba(229,181,103,.1)}
+.hamburger span{display:block;height:2px;width:100%;background:var(--bone);border-radius:2px;
+  transition:transform .25s,opacity .2s}
+.navtoggle:checked ~ .nav .hamburger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.navtoggle:checked ~ .nav .hamburger span:nth-child(2){opacity:0}
+.navtoggle:checked ~ .nav .hamburger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.navdrawer{position:fixed;top:0;left:0;bottom:0;z-index:60;width:min(80vw,300px);
+  transform:translateX(-100%);transition:transform .28s cubic-bezier(.4,0,.2,1);
+  background:#161513;border-right:1px solid var(--line);box-shadow:6px 0 40px rgba(0,0,0,.5);
+  display:flex;flex-direction:column;gap:2px;padding:74px 14px 24px;overflow-y:auto}
+.navdrawer a{color:var(--bone);font-family:"Space Grotesk";font-size:16px;padding:11px 14px;
+  border-radius:8px;text-decoration:none}
+.navdrawer a:hover{background:rgba(229,181,103,.1);color:var(--gold)}
+.navdrawer a.navhot{color:var(--sting)}
+.navclose{position:absolute;top:16px;right:16px;font-size:30px;line-height:1;color:var(--bonedim);
+  cursor:pointer;padding:4px 10px;border-radius:8px}
+.navclose:hover{color:var(--bone);background:rgba(229,181,103,.1)}
+.navscrim{position:fixed;inset:0;z-index:55;background:rgba(0,0,0,.5);opacity:0;visibility:hidden;
+  transition:opacity .28s;cursor:pointer}
+.navtoggle:checked ~ .navdrawer{transform:translateX(0)}
+.navtoggle:checked ~ .navscrim{opacity:1;visibility:visible}
+/* Wide screens: show the inline nav, hide the hamburger. Narrow: flip it. */
+@media(min-width:1100px){ .hamburger{display:none} }
+@media(max-width:1099px){ .nav nav.navinline{display:none} }
 
 /* site-wide audiobook notice */
 .audiobook-notice{border-bottom:1px solid rgba(200,168,107,.35);
@@ -765,7 +801,7 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding:40px 0;color:var
 footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
 footer .badgerline{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--bonedim)}
 @media(max-width:720px){.pillars{grid-template-columns:1fr}.bookhero{grid-template-columns:1fr;text-align:center}
-  .bookhero .cover{max-width:260px;margin:0 auto}.nav nav{display:none}}
+  .bookhero .cover{max-width:260px;margin:0 auto}}
 """
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
@@ -832,11 +868,31 @@ def trust_banner(rel: str = "") -> str:
 
 def nav(rel: str = "") -> str:
     bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
-    return f"""<div class="nav"><div class="wrap">
+    links = (
+        f'<a href="{rel}index.html#library">Library</a>'
+        f'<a href="{rel}wiki/index.html">Places</a>'
+        f'<a href="{rel}craft/index.html">For writers</a>'
+        f'<a href="{rel}technology.html">Technology</a>'
+        f'{bounty_link}'
+        f'<a href="{rel}index.html#mission">Mission</a>'
+        f'<a href="{rel}index.html#press">The Press</a>'
+        f'<a href="{rel}index.html#thread">The Proof</a>'
+        f'<a href="{rel}house.html">The House</a>'
+        f'<a href="{rel}letter.html">A letter</a>'
+        f'<a href="{rel}for-lisel.html">For Lisel</a>'
+        f'<a href="{rel}index.html#write">Write with us</a>'
+    )
+    # Pure-CSS toggle (checkbox hack) — no JS needed. The hamburger opens a slide-out drawer with
+    # every link; an inline nav still shows on wide screens (where there's room).
+    return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
+<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a>{bounty_link}<a href="{rel}index.html#mission">Mission</a>
-<a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
-</div></div>{trust_banner(rel)}{audiobook_notice()}"""
+<nav class="navinline">{links}</nav>
+<label for="navtoggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
+</div></div>
+<label for="navtoggle" class="navscrim" aria-hidden="true"></label>
+<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{links}</nav>
+{trust_banner(rel)}{audiobook_notice()}"""
 
 
 def footer() -> str:
