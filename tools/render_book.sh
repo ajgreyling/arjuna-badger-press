@@ -80,6 +80,8 @@ pandoc "$EPUB_SRC" \
   --epub-embed-font="$FONT_DIR/CourierPrime-Italic.ttf" \
   --epub-embed-font="$FONT_DIR/CourierPrime-Bold.ttf" \
   --epub-embed-font="$FONT_DIR/CourierPrime-BoldItalic.ttf" \
+  --epub-embed-font="$FONT_DIR/Kalam-Regular.ttf" \
+  --epub-embed-font="$FONT_DIR/Kalam-Bold.ttf" \
   ${COVER:+--epub-cover-image="$COVER"} \
   ${TITLE:+--metadata title="$TITLE"} \
   --metadata author="$AUTHOR"

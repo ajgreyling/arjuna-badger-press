@@ -95,13 +95,21 @@ naming it poses no risk; "full send"):
   heavy fictional-firewall caveat was softened per "full send" but the real-teachers guard remains.
 - **Same real schooling also grounds the crop-circle book's back matter** (the cadet/.22 + one-shot-
   father material) — see [[crop-circles-book]] / its `THE_CHALK_AND_THE_CAMPS.md` §5.
-- **Photos:** 7 yearbook pages exist (Verrykingsonderwys ×2, Std 6 Presteerders, Std 6 Merit, Std 9
-  Merit, Half Colours, Seunsdrilpeloton, + a newspaper clipping naming the school & a Free State science
-  olympiad top-50). NOT yet embedded — awaiting proper scans + blur of the ~100 OTHER real children's
-  names/faces (AJ: blur others, keep his). Build text now, photos after scans.
+- **Photos:** 8 yearbook/newspaper scans redacted → `design/images/yearbook/*-redacted.png`
+  (others blurred + name captions blacked; author face kept where named). Re-run:
+  `books/the-loneliest/.venv/bin/python books/the-loneliest/scripts/blur_yearbook_faces.py`.
+  Empty re-exports (IMG_6187–6197) still need a proper Photos export for the 2nd VO page.
+
+## Backmatter (after the fiction)
+| File | Title | Role |
+|---|---|---|
+| `ch-50.md` | **The File** | Fictional dossier on the real author — nursery through Std 9, built from school reports, yearbook facts, enrichment records; ROOY margin notes; the "subject lost / gladly" close. **Ship with the book.** |
+| `ch-98.md` | **A Note on the Real Thing Underneath** | Author's non-fiction note — Verrykingsonderwys, VO klas, Bethlehem Voortrekker, cadets/.22, Bloemfontein *sentrum*, time-capsule call. |
+
+Merge order: `ch-01`…`ch-09` → `ch-50` → `ch-98`. Re-merge + sync to `arjuna-badger-press` + `site/build.py` before deploy.
 
 ## Status
-**FULL DRAFT + real-soil note done.** Standalone, top-level `books/the-loneliest/`. Builds via a
+**FULL DRAFT + backmatter done.** Standalone, top-level `books/the-loneliest/`. Builds via a
 self-contained merge+export (no dependency on HBT tooling, no registry surgery — total firewall on the
 FICTION; the author's note deliberately names the real programme/school per AJ's call). PDF (6×9,
 Palatino, via pandoc+tectonic) + EPUB both build clean. Polished once (de-repetition pass: stone-in-

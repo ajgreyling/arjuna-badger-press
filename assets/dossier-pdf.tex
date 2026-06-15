@@ -1,12 +1,16 @@
 % Arjuna Badger Press — PDF header for "The File" dossier styling.
-% Defines a `dossier` environment that switches body text to Courier Prime (a real typewriter face),
-% so the pandoc fenced div `::: dossier` renders as a typed intelligence document in the PDF.
+% The pandoc fenced div `::: dossier` renders as a hand-annotated typed intelligence document:
+%   - body text in Courier Prime (a real typewriter face)
+%   - the margin notes (blockquotes) in Kalam (a pen/handwriting face) — so they read as written
+%   - [[redact]]…[[/redact]] spans drawn as solid black marker bars
 % Included via tools/render_book.sh (-H assets/dossier-pdf.tex). Requires a Unicode engine
 % (xelatex/tectonic) + fontspec, which the gate already uses.
 
 \usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{etoolbox}    % \AtBeginEnvironment, to restyle quote inside dossier
 
-% Courier Prime as a named font family (vendored in assets/fonts/, OFL).
+% Courier Prime — the typed body of the file (vendored in assets/fonts/, OFL).
 \newfontfamily\dossierfont[
   Path = \ABPFONTDIR/ ,
   UprightFont = CourierPrime-Regular.ttf ,
@@ -15,8 +19,35 @@
   BoldItalicFont = CourierPrime-BoldItalic.ttf ,
 ]{Courier Prime}
 
-% The environment pandoc emits for `::: dossier`. Switch to the typewriter face,
-% ragged-right (typewriters don't justify), slightly looser leading.
+% Kalam — the case officer's pen hand, for the margin notes (vendored, OFL).
+\newfontfamily\handfont[
+  Path = \ABPFONTDIR/ ,
+  UprightFont = Kalam-Regular.ttf ,
+  BoldFont = Kalam-Bold.ttf ,
+  ItalicFont = Kalam-Light.ttf ,        % Kalam has no italic; Light reads as a lighter pen pass
+]{Kalam}
+
+% A black-marker redaction bar: a solid black box the width of the hidden text, slightly raised and
+% padded so it reads as a felt-pen strike-out over the page. Usage in markdown: \redact{withheld}
+% (the argument is the text being hidden — its WIDTH sets the bar; the text itself never shows).
+\newcommand{\redact}[1]{%
+  \begingroup
+  \setlength{\fboxsep}{1pt}%
+  \colorbox{black}{\textcolor{black}{\rule{0pt}{1.6ex}#1}}%
+  \endgroup
+}
+
+% The environment pandoc emits for `::: dossier`. Typewriter face, ragged-right, looser leading.
 \newenvironment{dossier}
   {\par\dossierfont\raggedright\setlength{\parindent}{0pt}\linespread{1.05}\selectfont}
   {\par}
+
+% Inside a dossier, pandoc wraps each `>` blockquote in a `quote` environment. Re-define `quote`
+% LOCALLY within dossier so the margin notes switch to the Kalam pen hand, indented and slightly
+% smaller, like annotations written down the side of the page.
+\AtBeginEnvironment{dossier}{%
+  \renewenvironment{quote}%
+    {\par\addvspace{0.4\baselineskip}\leftskip=1.2em \rightskip=0.5em
+     \handfont\fontsize{11.5}{15}\selectfont\itshape}%
+    {\par\addvspace{0.4\baselineskip}}%
+}

@@ -12,3 +12,19 @@ function Div(el)
   end
   return el
 end
+
+-- A black-marker redaction: `[withheld]{.redact}` → \redact{withheld} for the PDF (a solid black
+-- bar, defined in assets/dossier-pdf.tex). For EPUB/HTML the span keeps class="redact" and the CSS
+-- draws the bar — so nothing to do there. The hidden text stays in the source either way, so a
+-- screen reader can still announce it; the eye only sees the strike.
+function Span(el)
+  if el.classes:includes("redact") and FORMAT:match("latex") then
+    local txt = pandoc.utils.stringify(el)
+    return {
+      pandoc.RawInline("latex", "\\redact{"),
+      pandoc.Str(txt),
+      pandoc.RawInline("latex", "}"),
+    }
+  end
+  return el
+end
