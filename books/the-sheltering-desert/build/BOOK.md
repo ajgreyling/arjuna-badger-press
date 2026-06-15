@@ -85,14 +85,6 @@ in it and the people it comes from earned nothing less.
 
 ---
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
-⁂
-
 For **Dr Ferdie Lochner** —
 
 who grew up in **Okahandja** and knows the **Namib** the way some people know a prayer:
