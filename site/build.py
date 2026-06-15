@@ -608,6 +608,20 @@ section.series{padding:46px 0 8px}
 .qopt[aria-pressed="true"]{border-color:var(--gold);background:rgba(229,181,103,.12);color:var(--gold);font-weight:600}
 .qactions{display:flex;gap:12px;justify-content:center;margin-top:26px;flex-wrap:wrap}
 .qactions .btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
+/* visual Rorschach tile grid */
+.tilegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0 6px}
+@media(max-width:640px){.tilegrid{grid-template-columns:repeat(2,1fr);gap:10px}}
+.tile{position:relative;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  cursor:pointer;background:var(--card);aspect-ratio:1/1;transition:transform .15s,border-color .15s,box-shadow .15s}
+.tile:hover,.tile:focus-visible{transform:translateY(-3px);border-color:var(--gold);
+  box-shadow:0 14px 34px rgba(0,0,0,.45);outline:none}
+.tile img{width:100%;height:100%;object-fit:cover;display:block}
+.tile .tilecap{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 9px;font-family:"Space Grotesk";
+  font-size:12.5px;font-weight:600;color:#fff;text-align:center;line-height:1.25;
+  background:linear-gradient(transparent,rgba(0,0,0,.78))}
+.tilehint{text-align:center;color:var(--bonedim);font-size:14px;margin-top:14px}
+.linkbtn{background:none;border:none;color:var(--gold);cursor:pointer;font:inherit;text-decoration:underline;padding:0}
+.linkbtn:hover{color:var(--bone)}
 #result{margin-top:18px}
 .reccard{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:start;
   border:1px solid var(--line);border-left:3px solid var(--accent,var(--ochre));border-radius:12px;
@@ -796,12 +810,40 @@ START_JS = r"""
 (function(){
   var D = JSON.parse(document.getElementById('startdata').textContent);
   var Q = D.quiz, BOOKS = D.books, PRIORITY = D.priority;
+  var TILES = D.tiles || [], TILES_READY = !!D.tilesReady;
   var order = ['q1','q2','q3'];
   var picks = {};        // qid -> chosen option index
   var quizEl = document.getElementById('quiz');
+  var pickerEl = document.getElementById('picker');
   var resEl = document.getElementById('result');
 
   function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+
+  // ── Visual "Rorschach" tile picker (preferred when all tile art is present) ──────────────
+  function renderPicker(){
+    if(!pickerEl) return;
+    var html = '<div class="tilegrid">';
+    TILES.forEach(function(t){
+      html += '<button type="button" class="tile" data-key="'+esc(t.key)+'" aria-label="'+esc(t.label)+'">'
+            + '<img loading="lazy" src="'+esc(t.img)+'" alt="'+esc(t.label)+'">'
+            + '<span class="tilecap">'+esc(t.label)+'</span></button>';
+    });
+    html += '</div>';
+    html += '<p class="tilehint">Pick the one you\'re drawn to. <button type="button" id="useWords" class="linkbtn">Prefer to answer in words?</button></p>';
+    pickerEl.innerHTML = html;
+    pickerEl.querySelectorAll('.tile').forEach(function(b){
+      b.addEventListener('click', function(){ resultFromTile(b.getAttribute('data-key')); });
+    });
+    var uw = document.getElementById('useWords');
+    if(uw) uw.addEventListener('click', function(){ pickerEl.hidden=true; render(); window.scrollTo({top:0,behavior:'smooth'}); });
+  }
+
+  function resultFromTile(key){
+    var t = null; for(var i=0;i<TILES.length;i++){ if(TILES[i].key===key){t=TILES[i];break;} }
+    if(!t) return;
+    var ids = [t.primary].concat(t.runners).filter(function(id){return BOOKS[id];});
+    showRanked(ids);
+  }
 
   function render(){
     var html = '';
@@ -866,9 +908,8 @@ START_JS = r"""
       + links + '</div></div>';
   }
 
-  function showResult(){
-    var ids = score();
-    if(!ids.length){ return; }
+  function showRanked(ids){
+    if(!ids || !ids.length){ return; }
     var top = ids[0], runners = ids.slice(1,3);
     var html = '<p class="eyebrow" style="text-align:center;margin-top:8px">Start here</p>';
     html += '<h2 style="text-align:center;margin:.2em 0 .6em">'+esc(BOOKS[top].title)+'</h2>';
@@ -877,13 +918,28 @@ START_JS = r"""
       html += '<p class="eyebrow" style="text-align:center;margin-top:28px">If that\'s not your thing, try</p>';
       html += '<div class="recrunners">'+runners.map(function(id){return cardHTML(id,false);}).join('')+'</div>';
     }
-    html += '<p style="text-align:center;margin-top:22px;font-size:14px;color:var(--grass)">Same answers always give the same book — it\'s a simple, transparent match, not a black box.</p>';
+    html += '<p style="text-align:center;margin-top:22px;font-size:14px;color:var(--grass)">Same choice always gives the same book — it\'s a simple, transparent match, not a black box.</p>';
+    html += '<p style="text-align:center;margin-top:6px"><button type="button" id="againBtn" class="btn ghost">Pick again</button></p>';
     resEl.innerHTML = html;
     resEl.hidden = false;
+    var ab = document.getElementById('againBtn');
+    if(ab) ab.addEventListener('click', function(){ picks={}; resEl.hidden=true; boot(); window.scrollTo({top:0,behavior:'smooth'}); });
     resEl.scrollIntoView({behavior:'smooth', block:'start'});
   }
 
-  render();
+  function showResult(){ showRanked(score()); }   // word-quiz path
+
+  function boot(){
+    if(TILES_READY){
+      if(pickerEl){ pickerEl.hidden=false; renderPicker(); }
+      if(quizEl) quizEl.innerHTML='';
+    } else {
+      if(pickerEl) pickerEl.hidden=true;
+      render();
+    }
+  }
+
+  boot();
 })();
 """
 
@@ -941,6 +997,23 @@ START_PRIORITY = [
     "the-jakobus-file",
 ]
 
+# Visual "Rorschach" picker — 9 motif tiles, each mapping to a primary book + runners-up.
+# Art is generated separately (design/PICKER_TILE_ART_PROMPTS.md) and dropped at
+# design/picker/<key>.jpg; the build copies present tiles to assets/picker/. The picker shows the
+# visual grid only when ALL tiles exist, else it falls back to the word quiz. (key, label, primary,
+# [runners]) — label is the alt text / caption; deterministic, no scoring needed for tiles.
+PICKER_TILES = [
+    ("mine",    "Deep, science-real wonder",      "resonance",            ["relic", "revelation"]),
+    ("cipher",  "Hidden meaning, cracked open",   "revelation",           ["book1-africa", "relic"]),
+    ("stones",  "Ancient stone, deep time",       "book1-africa",         ["book5-egypt", "book2-india"]),
+    ("anomaly", "The unexplained, played straight","project-stargate",    ["crop-circles"]),
+    ("veld",    "The open African road",          "jakobus-silver-thread",["jakobus-the-recitation", "relic"]),
+    ("desert",  "Survival country",               "sheltering-desert",    ["jakobus-silver-thread"]),
+    ("road",    "Far places, living peoples",     "unheard-mongolia",     ["australia-outback"]),
+    ("window",  "Quiet, intimate, human",         "the-loneliest",        ["unheard-japan"]),
+    ("myth",    "The old stories, retold",        "wrath-of-achilles",    ["the-song-of-the-self"]),
+]
+
 
 def render_start(entries: list[dict]) -> str:
     import json
@@ -964,16 +1037,43 @@ def render_start(entries: list[dict]) -> str:
         }
     # only keep priority ids that actually exist
     priority = [i for i in START_PRIORITY if i in by_id]
-    data = {"quiz": START_QUIZ, "books": books, "priority": priority}
+
+    # Visual picker tiles: copy any present art to assets/picker/; the grid shows only when ALL
+    # tiles exist (otherwise the word quiz is the experience). Tiles whose primary book is missing
+    # are dropped.
+    picker_src = REPO / "design" / "picker"
+    picker_out = OUT / "assets" / "picker"
+    tiles = []
+    for key, label, primary, runners in PICKER_TILES:
+        if primary not in by_id:
+            continue
+        img = None
+        for ext in ("jpg", "png", "webp"):
+            cand = picker_src / f"{key}.{ext}"
+            if cand.exists():
+                picker_out.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(cand, picker_out / f"{key}.{ext}")
+                img = f"assets/picker/{key}.{ext}"
+                break
+        tiles.append({"key": key, "label": label, "img": img,
+                      "primary": primary, "runners": [r for r in runners if r in by_id]})
+    tiles_ready = all(t["img"] for t in tiles) and len(tiles) >= 6
+
+    data = {"quiz": START_QUIZ, "books": books, "priority": priority,
+            "tiles": tiles, "tilesReady": tiles_ready}
     blob = json.dumps(data, ensure_ascii=False)
 
+    lede = ("Twenty books is a lot to choose from. Pick the image you're drawn to — go with your gut "
+            "— and we'll point you at the one to start with, free to read, right now."
+            if tiles_ready else
+            "Twenty books is a lot to choose from. Answer three quick questions and we'll point you "
+            "at the one to start with — free to read, right now.")
     body = f"""<article class="reader letter start">
 <p class="eyebrow" style="text-align:center">Find your way in</p>
 <h1 style="text-align:center">Which book should you read first?</h1>
-<p style="text-align:center;max-width:60ch;margin:0 auto 8px;color:var(--bonedim)">
-Twenty books is a lot to choose from. Answer three quick questions and we'll point you at the one to
-start with — free to read, right now. It's a simple, transparent match on the kind of stories you
-already love; no sign-up, no catch.</p>
+<p style="text-align:center;max-width:62ch;margin:0 auto 8px;color:var(--bonedim)">{lede}
+It's a simple, transparent match on the kind of stories you already love; no sign-up, no catch.</p>
+<div id="picker"></div>
 <div id="quiz"></div>
 <div id="result" hidden></div>
 <p style="text-align:center;margin-top:28px"><a class="back" href="index.html#library">Or just browse the whole library &rarr;</a></p>
@@ -987,6 +1087,93 @@ already love; no sign-up, no catch.</p>
         body,
         footer(),
     ])
+
+
+def render_flyer() -> str:
+    """A self-contained, print-ready A4 flyer (one page). QR is a placeholder box — generate a QR
+    pointing at arjunabadger.press/start (any free generator) and drop the image in, or print and
+    stick a printed QR. Open /flyer.html in a browser and Print → Save as PDF (A4, no margins,
+    'Background graphics' ON). Anti-scam line included because it advertises money."""
+    return f"""<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><title>Arjuna Badger Press — flyer</title>
+{FONTS}
+<style>
+@page {{ size: A4; margin: 0; }}
+* {{ box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
+html,body {{ margin:0; padding:0; background:#ece7dd; }}
+body {{ font-family:"Atkinson Hyperlegible","Inter",sans-serif; color:#161513; }}
+.sheet {{ width:210mm; min-height:297mm; margin:0 auto; background:#fbf8f2;
+  padding:20mm 18mm; display:flex; flex-direction:column; position:relative; }}
+.screen-only {{ background:#161513; padding:18px; text-align:center; color:#ede9e0; font-size:14px; }}
+@media print {{ .screen-only {{ display:none; }} html,body{{background:#fff;}} }}
+.eyebrow {{ font-family:"Space Grotesk",sans-serif; letter-spacing:.22em; text-transform:uppercase;
+  font-size:12px; color:#b07a3c; font-weight:600; }}
+h1 {{ font-family:"Cormorant Garamond",Georgia,serif; font-weight:700; font-size:52px; line-height:1.02;
+  margin:6mm 0 4mm; }}
+h1 .hot {{ color:#c2401e; }}
+.lead {{ font-size:19px; line-height:1.5; max-width:150mm; color:#2a241d; }}
+.big {{ font-size:23px; font-weight:700; margin:6mm 0 2mm; }}
+.row {{ display:flex; gap:14mm; align-items:center; margin-top:auto; }}
+.qr {{ width:62mm; height:62mm; flex:0 0 auto; border:2px dashed #161513; border-radius:8px;
+  display:flex; align-items:center; justify-content:center; text-align:center; font-size:12px;
+  color:#6a635a; padding:8px; background:#fff; }}
+.qr img {{ width:100%; height:100%; object-fit:contain; }}
+.scan h2 {{ font-family:"Space Grotesk",sans-serif; font-size:22px; margin:0 0 4px; }}
+.scan p {{ font-size:16px; line-height:1.45; margin:.2em 0; color:#2a241d; }}
+.scan .url {{ font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:18px; color:#b07a3c; }}
+.tiers {{ display:flex; gap:8mm; margin:5mm 0; flex-wrap:wrap; }}
+.tier {{ flex:1; min-width:42mm; border:1px solid #d8cfbe; border-radius:8px; padding:10px 12px; background:#fff; }}
+.tier b {{ display:block; font-family:"Space Grotesk",sans-serif; font-size:14px; }}
+.tier .amt {{ font-size:20px; font-weight:700; color:#161513; }}
+.tier.f .amt {{ color:#c2401e; }}
+.trust {{ margin-top:6mm; border-top:1px solid #d8cfbe; padding-top:4mm; font-size:13.5px; color:#5a534a; line-height:1.5; }}
+.trust strong {{ color:#161513; }}
+.foot {{ margin-top:5mm; display:flex; justify-content:space-between; align-items:flex-end; }}
+.foot img {{ height:16mm; }}
+.foot .when {{ text-align:right; font-family:"Space Grotesk",sans-serif; font-size:13px; color:#5a534a; }}
+.foot .when b {{ display:block; font-size:16px; color:#161513; }}
+</style></head><body>
+<div class="screen-only">Print preview — use your browser's <strong>Print → Save as PDF</strong>
+(A4, margins “None”, “Background graphics” ON). Replace the dashed box with a QR code pointing to
+arjunabadger.press/start before printing.</div>
+<div class="sheet">
+  <div class="eyebrow">Arjuna Badger Press · free to read</div>
+  <h1>Read a great book free.<br><span class="hot">Get paid to spot our mistakes.</span></h1>
+  <p class="lead">We're a small South African press giving away twenty finished books — thrillers,
+  ancient-mystery adventures, true stories, quiet novels. Read them free. And if you catch a real
+  mistake, we pay you for it.</p>
+
+  <div class="big">What we pay for a verified find:</div>
+  <div class="tiers">
+    <div class="tier f"><b>Factual error</b><span class="amt">R750</span><br>a real-world claim that's wrong</div>
+    <div class="tier"><b>Cultural / sensitivity</b><span class="amt">R400</span><br>a people or custom gotten wrong</div>
+    <div class="tier"><b>Continuity slip</b><span class="amt">R150</span><br>an internal contradiction</div>
+  </div>
+  <p style="font-size:14px;color:#5a534a;margin:0">Early finders earn the most — rewards step down as the books get cleaner.</p>
+
+  <div class="row">
+    <div class="qr"><span>Place a QR code here<br>→ arjunabadger.press/start</span></div>
+    <div class="scan">
+      <h2>Not sure which to read? Scan this.</h2>
+      <p>Pick the picture you're drawn to and we'll point you at the book to start with — instantly,
+      free, no sign-up.</p>
+      <p class="url">arjunabadger.press/start</p>
+    </div>
+  </div>
+
+  <div class="trust">
+    🛡️ <strong>This is not a scam.</strong> We will <strong>never</strong> ask you for money, a fee,
+    or your bank PIN/OTP — we only ever <strong>pay</strong> you. We never message you privately;
+    everything happens on our website. If anyone DMs you asking for anything in our name, it's fake.
+    Verify it all at <strong>arjunabadger.press</strong>.
+  </div>
+
+  <div class="foot">
+    <img src="assets/brand/logo-on-light.png" alt="Arjuna Badger Press">
+    <div class="when">The books are free now.<br><b>Bug hunt opens 25 June 2026</b></div>
+  </div>
+</div>
+</body></html>"""
 
 
 def render_index(entries: list[dict]) -> str:
@@ -1615,6 +1802,7 @@ def main() -> None:
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
+    (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     for src_name, out_name, title, desc in LETTERS:
         page = render_letter(src_name, title, desc)
         if page:
