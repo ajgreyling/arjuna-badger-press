@@ -53,6 +53,18 @@ AUDIOBOOK_NOTICE = (
     "Read and download the text editions free here until then."
 )
 
+# ── Workshop hold ─────────────────────────────────────────────────────────────────────────────
+# Book ids here are FORCED to "In the workshop" (no download buttons, the drafting-now line) even
+# when finished EPUB/PDF deliverables exist on disk. Use this to hold a drafted-but-not-yet-cleared
+# book back from the public shelf — e.g. prose is done but the audiobook hasn't been listened through.
+# Remove an id to release the book. Env ABP_WORKSHOP_HOLD (comma-separated) overrides this default.
+WORKSHOP_HOLD = set(
+    s.strip() for s in os.environ.get(
+        "ABP_WORKSHOP_HOLD",
+        "unheard-japan,unheard-mongolia",
+    ).split(",") if s.strip()
+)
+
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
 SERIES = [
@@ -479,7 +491,7 @@ def scan() -> list[dict]:
             "book_md": reader_src,
             "reader_md": reader_md,
             "root": root,
-            "available": bool(downloads),
+            "available": bool(downloads) and cid not in WORKSHOP_HOLD,
         })
     return entries
 
@@ -1336,7 +1348,7 @@ def render_book(e: dict) -> str:
             parts.append(f'<a class="dl{solid}" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>{label}</a>')
         dls = f'<div class="dls" style="margin-top:20px">{"".join(parts)}</div>'
     read = ""
-    if e["book_md"] or e.get("reader_md"):
+    if e["available"] and (e["book_md"] or e.get("reader_md")):
         read = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../read/{e["id"]}.html">Read online →</a></div>'
     wiki = ""
     if (WIKI_DIR / f"{e['id']}.md").is_file():
@@ -1840,14 +1852,16 @@ def main() -> None:
                 cover_svg(e["title"], e["subtitle"] or e["series"], accent), encoding="utf-8")
             e["real_cover"] = False
         # downloads
-        if e["downloads"]:
+        # A workshop-held book ships NO download files and NO read-online page (it is announced as
+        # drafting, not published) — so its un-vetted EPUB/PDF is never reachable by direct URL.
+        if e["downloads"] and e["available"]:
             d = OUT / "downloads" / e["id"]
             d.mkdir(parents=True, exist_ok=True)
             for f in e["downloads"]:
                 shutil.copy2(f, d / f.name)
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
-        if e["book_md"] or e.get("reader_md"):
+        if e["available"] and (e["book_md"] or e.get("reader_md")):
             raw_md = (
                 e["reader_md"]
                 if e.get("reader_md")
