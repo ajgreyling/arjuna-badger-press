@@ -1,3 +1,4 @@
+<!-- NO_LIBRARY_DEDICATION -->
 *For the loneliest person in the world —*
 *whoever you are, wherever you are.*
 
