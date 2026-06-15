@@ -1,24 +1,14 @@
 #!/usr/bin/env python3
 """Cover for *A Man They All Read Wrong* — The Jakobus Swart File.
 
-⚠️ SUPERSEDED (2026-06-15): the live cover is now the owner's bespoke POSTER artwork (a finished,
-fully-titled illustration installed directly into the cover slots). This procedural generator is
-RETIRED so it can't silently overwrite that poster. It is kept for reference only. To deliberately
-regenerate the OLD procedural cover, run with the explicit flag:  python3 design/make_cover.py --force
-
 Procedural house cover (Pillow-only, deterministic seed, 6×9in @ 300dpi) — same method as the
 HBT Companions. Visual thesis: five offset silhouettes (everyone read a different man), a hollow
 centre (the negative space / the man-shaped hole), wraparound shades where the face should be,
 and deposition lines radiating outward. No photo plate; no Hollywood bush poster.
+
+    python3 design/make_cover.py     # -> design/cover.{png,jpg} + build/export/cover.{png,jpg}
 """
 from __future__ import annotations
-
-import sys as _sys
-if "--force" not in _sys.argv:
-    raise SystemExit(
-        "make_cover.py is RETIRED — the live cover is the owner's bespoke poster artwork.\n"
-        "Re-run with --force only if you intentionally want to regenerate the old procedural cover."
-    )
 
 import math
 import random

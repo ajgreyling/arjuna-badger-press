@@ -22,6 +22,4 @@ I do not know if I have been right about everything. No honest man my age could.
 
 ---
 
-*† An anagram of the man who taught the whole world to ask whether the ancients had help — set down in
-homage, and with a fondness that survives every disagreement. The author of this book wrote these
-words; the borrowed name is a salute, not a claim.*
+*† **“Hindrance Invoke” is an anagram of ERICH VON DÄNIKEN** — who asked whether the ancients had help — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Erich von Däniken did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
