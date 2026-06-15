@@ -654,16 +654,21 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
 
 
 def plausible_snippet() -> str:
-    """Plausible analytics — no-cookie, privacy-first. Emitted only when PLAUSIBLE_DOMAIN is set.
-    The `file-downloads.outbound-links` script variant auto-tracks every EPUB/PDF download (links
-    carry the `download` attribute) and every outbound link — no per-link tagging needed. The inline
-    shim queues events before the async script loads."""
+    """Plausible analytics — no-cookie, privacy-first. This is the EXACT site-specific snippet that
+    plausible.io issued for arjunabadger.press (new hashed `pa-<id>.js` format + plausible.init()).
+    File-download and outbound-link tracking are toggled in the Plausible dashboard (Site Settings),
+    not in the script URL, in this format. Emitted only when PLAUSIBLE_DOMAIN is set (toggle off by
+    clearing PLAUSIBLE_DOMAIN / ABP_PLAUSIBLE_DOMAIN)."""
     if not PLAUSIBLE_DOMAIN:
         return ""
     return (
-        f'<script defer data-domain="{html.escape(PLAUSIBLE_DOMAIN, quote=True)}" '
-        f'src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>\n'
-        '<script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>'
+        '<!-- Privacy-friendly analytics by Plausible -->\n'
+        '<script async src="https://plausible.io/js/pa-bZ3dDPJ3dcobFZqIerX-E.js"></script>\n'
+        '<script>\n'
+        '  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},'
+        'plausible.init=plausible.init||function(i){plausible.o=i||{}};\n'
+        '  plausible.init()\n'
+        '</script>'
     )
 
 
