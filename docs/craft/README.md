@@ -23,6 +23,7 @@ Read it whether or not you ever work with the press.
 | Audience | Doc |
 |---|---|
 | **Authors & editors** (finish a book, any career stage) | [**The workshop**](../FOR_AUTHORS.md) |
+| **The unifying thesis** (grounded fiction, human proof) | [**The Press Thesis**](../THE_PRESS_THESIS.md) |
 | **Engineers & CTOs** (how the library is made) | [**The technology**](../TECHNOLOGY.md) |
 
 ## How to use it
