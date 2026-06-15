@@ -58,6 +58,9 @@ SERIES = [
     ("Standalones", "#B49A6A"),
     ("Non-fiction", "#7BA88C"),
     ("Companions", "#8C7BA8"),
+    ("Modern Sherlock", "#4a5568"),
+    ("The No-Fear Cycle", "#1e3a8a"),
+    ("The Salt Veil", "#B0814A"),
 ]
 
 CURATED = [
@@ -122,6 +125,40 @@ CURATED = [
     ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad, plainly told", "Non-fiction",
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
+
+    ("modern-sherlock", "The Scarlet Thread", "Modern Sherlock · Book One", "Modern Sherlock",
+     "modern-sherlock", "build/export",
+     "Present-day London. Invalided home from Afghanistan, an army doctor meets a consulting detective who reads a life from its digital exhaust — and a message from the one mind clever enough to build puzzles just for him. A modern transposition of Doyle's A Study in Scarlet — original prose, canon-true, public-domain derivation."),
+
+    # ── Coming soon (other threads building these now) ──────────────────────────────────────────
+    ("modern-sherlock-2", "The Poisoned Fortune", "Modern Sherlock · Book Two", "Modern Sherlock",
+     "_comingsoon/modern-sherlock-2", "build/export",
+     "Book Two of Modern Sherlock — the consulting detective and his doctor take a case where an inheritance is the murder weapon. A canon-true transposition of Doyle. Coming soon."),
+    ("modern-sherlock-3", "The Viral Haunting", "Modern Sherlock · Book Three", "Modern Sherlock",
+     "_comingsoon/modern-sherlock-3", "build/export",
+     "Book Three of Modern Sherlock — a haunting that spreads like a contagion, and a rational mind that refuses to flinch. Coming soon."),
+    ("modern-sherlock-4", "The Woman Who Beat Him", "Modern Sherlock · Book Four", "Modern Sherlock",
+     "_comingsoon/modern-sherlock-4", "build/export",
+     "Book Four of Modern Sherlock — the one adversary who is his equal, and the case he cannot reason his way out of. The Irene Adler beat, modernised. Coming soon."),
+    ("modern-sherlock-5", "The Reichenbach Protocol", "Modern Sherlock · Book Five", "Modern Sherlock",
+     "_comingsoon/modern-sherlock-5", "build/export",
+     "Book Five of Modern Sherlock — the detective and his nemesis to the edge of the fall. The Reichenbach reckoning, rebuilt for now. Coming soon."),
+
+    ("no-fear-cycle", "Ordinance Pending", "The No-Fear Cycle · Book One", "The No-Fear Cycle",
+     "_comingsoon/no-fear-cycle", "build/export",
+     "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. For readers of Gaunt's Ghosts and the Astartes. Coming soon."),
+
+    ("the-salt-veil", "The Salt Veil", "A desert epic-fantasy series · Book One", "The Salt Veil",
+     "_comingsoon/the-salt-veil", "build/export",
+     "In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. A desert epic-fantasy. Coming soon."),
+
+    ("house-of-bread", "House of Bread", "The Unheard · Holy Land", "The Unheard",
+     "_comingsoon/house-of-bread", "build/export",
+     "A neurodiverse crew traces the covenant road backward — from Bethlehem in the Free State to Bethlehem in the West Bank — along a chain of checkable stones and living guardians, and learns the Holy Land is not a puzzle to solve but a presence to witness, for believers of every religion and none. Coming soon."),
+
+    ("jakobus-the-long-dark", "The Long Dark", "A Jakobus Swart story", "History Before Time",
+     "_comingsoon/jakobus-the-long-dark", "build/export",
+     "Home — South Africa — in the year the grid does not come back. The fixer at the end of the road, and the gift he spent a whole life learning how to give: making sure that when the lights go out for good, nobody's night dies. A grounded collapse-survival story — real bushcraft, told straight — and the one that carries Jakobus Swart's last chapter. For readers of Cormac McCarthy & Lewis Dartnell. Coming soon."),
 ]
 
 
