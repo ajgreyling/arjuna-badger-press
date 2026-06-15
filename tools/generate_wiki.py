@@ -55,7 +55,7 @@ CATALOG = [
     ("unheard-mongolia", "The Felt and the Sky", "The Unheard · Mongolia",
      "the-unheard/books/mongolia-steppe",
      "books/the-unheard/books/mongolia-steppe/build/BOOK.md"),
-    ("sheltering-desert", "The Sheltering Desert", "A standalone novel · true story",
+    ("sheltering-desert", "The Indifferent Desert", "A standalone novel · true story",
      "the-sheltering-desert",
      "books/the-sheltering-desert/build/BOOK.md"),
 ]

@@ -1,4 +1,4 @@
-# PLOT — *The Sheltering Desert* (working) — chapter plan
+# PLOT — *The Indifferent Desert* — chapter plan
 
 > Close-third on **Henno Martin** throughout. The shape (Story Bible §2/§7): **descent → the building of
 > a life → the diet crisis (midpoint that nearly ends them) → the long attrition → Korn's beriberi → the

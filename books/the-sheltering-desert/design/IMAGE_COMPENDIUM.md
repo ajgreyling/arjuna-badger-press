@@ -1,4 +1,4 @@
-# Image Compendium — The Sheltering Desert (the Namib — Henno Martin & Hermann Korn)
+# Image Compendium — The Indifferent Desert (the Namib — Henno Martin & Hermann Korn)
 
 > Freely-licensed images sourced from Wikimedia Commons for the ebook & PDF editions.
 > Every image below is **public domain / CC0 / CC BY / CC BY-SA** — usable with attribution only.

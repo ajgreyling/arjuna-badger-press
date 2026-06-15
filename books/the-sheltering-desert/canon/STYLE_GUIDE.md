@@ -1,4 +1,4 @@
-# Style Guide — *The Sheltering Desert* (standalone)
+# Style Guide — *The Indifferent Desert* (standalone)
 
 > **Binding contract for the de-LLM loop.** This book shares the **project house voice** but has its
 > own register, its own tiny cast, and its own failure modes. The craft audit

@@ -1,4 +1,4 @@
-# Cover & Jacket Copy — *The Sheltering Desert* (standalone)
+# Cover & Jacket Copy — *The Indifferent Desert* (standalone)
 
 > The binding source of truth for the cover/jacket TEXT. A standalone historical novel — **not**
 > part of The African Gold Trilogy, so it carries **no trilogy series line** and no triptych glyph.

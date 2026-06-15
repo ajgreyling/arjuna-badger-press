@@ -76,7 +76,7 @@ The author dedicates **two** volumes in this library to **Dr Ferdie Lochner**. T
 is shared; each book draws on a **different slice** of the same life. Nothing here makes him a
 character on-page — it explains **why the same real man** belongs on **both** spines.
 
-| Ferdi — accomplishment or lane | *The Sheltering Desert* (this book) | *House of Bread* (Holy Land) |
+| Ferdi — accomplishment or lane | *The Indifferent Desert* (this book) | *House of Bread* (Holy Land) |
 |---|---|---|
 | **Geography / GIS / reading the ground** | **Primary** — Namib, Kuiseb, rock-and-water survival grammar | **Primary** — sacred geography, road, Jordan/Jerusalem **layers** |
 | **Okahandja childhood / Namibian landscapes** | **Primary** — the country the novel **is** | **Secondary** — Chobe meeting; southern African **home soil** under Jakobus |
