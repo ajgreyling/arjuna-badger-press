@@ -12,6 +12,37 @@ books get cleaner.*
 
 ---
 
+## ⚠️ Is this a scam? No — and here's exactly how to know
+
+Times are hard, WhatsApp scams are everywhere, and "get paid from your phone" is the oldest hook
+there is. You are right to be careful. So here is how a real offer is different from a scam — check
+every one of these against us:
+
+- **We will NEVER ask you for money.** No "registration fee", no "activation", no "unlock your
+  reward". **Money only ever flows ONE way — from us to you.** If anyone asks *you* to pay, send
+  money, or buy a voucher, it is **not us** — it's a scam using our name. Walk away.
+- **We will NEVER ask for your bank login, PIN, OTP, or card number.** To pay you, we need only the
+  details *you choose to give* for receiving money (e.g. your PayShap / cellphone number or account
+  number). We never need your password or a one-time PIN. **Anyone asking for your OTP is a
+  criminal.**
+- **We will NEVER message you privately first.** We do not slide into your DMs. We **broadcast** on
+  our official channel and on this website — *you* come to *us*. **If someone WhatsApps you
+  privately claiming to be Arjuna Badger Press, offering you money or "a position", it is FAKE.**
+  Real us never starts a private chat.
+- **There are no "agents", no "managers", no fees, no upfront anything.** You read a free book, you
+  find a real mistake, you submit it on the public form, we judge it in the open, and if it's good
+  we pay you. That's the whole thing.
+- **Everything is public and checkable.** Real books with our real author's name, a real website you
+  can inspect, and a public [Fixes &amp; Finders](FINDERS.md) ledger of who we've actually paid. A
+  scam has none of that.
+
+> **The one test that never fails:** a scam wants to *take* something from you (money, a fee, your
+> bank OTP) or get you into a *private* chat. We only ever *give* (a cash prize for a real find), and
+> we only ever speak in *public*. **If a message about this bounty asks you for anything, or comes as
+> a private DM, it is not us.** Verify everything here: **[arjunabadger.press/bounty](https://arjunabadger.press/bounty.html)**.
+
+---
+
 ## Why the reward shrinks (read this first)
 
 When a book is fresh to new eyes, the mistakes are dense — so the **first** people to dig get paid
@@ -125,6 +156,23 @@ We can only run a prize we can actually **pay**. So:
 
 If you're unsure whether we can pay you, ask in your submission — we'll tell you before you spend
 hours hunting.
+
+---
+
+## Follow on WhatsApp — broadcast only, we never DM
+
+We post bounty news on our **official WhatsApp Channel** (a one-way broadcast — like a notice board).
+Follow it to hear when the bounty opens, when rewards step down, and when finds are paid.
+
+**[→ Follow the Arjuna Badger Press channel](WHATSAPP_CHANNEL_URL)**
+
+Two things that keep you safe:
+
+- **The channel is broadcast-only.** We talk; you read. We can't see your number, and **no one can
+  reply or DM you through it.** That's on purpose — there's no private chat for anyone to abuse.
+- **We will never private-message you.** Anything you ever need to do — read a book, report a find —
+  happens **on this public website and the public form**, never in a private WhatsApp. If a "private
+  message" claims to be us, it is fake. Report it and move on.
 
 ---
 

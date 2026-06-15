@@ -74,3 +74,44 @@ Fields — keep "what's wrong + why" required (it's what makes a find adjudicabl
 - Consent: "I understand submissions are public and rewards follow the declining scale."
 
 Then paste the Form URL into `BOUNTY_FORM_URL` in `site/build.py` (or env `ABP_BOUNTY_FORM_URL`).
+
+## WhatsApp — the SA channel, and the anti-scam discipline
+
+WhatsApp is the dominant channel in SA, and educated people are genuinely hard up — so "earn real
+money proofreading from your phone" is *attractive*, which is exactly why scammers use those words.
+The campaign's #1 conversion barrier is **"is this a scam?"** We answer it by design, not by
+protesting.
+
+**Channel-only, zero DM surface (AJ's decision):**
+- Official **WhatsApp Channel** (broadcast-only) for announcements. Nobody can impersonate us in it;
+  nobody can reply or be DM'd through it. Create it, then paste the invite link into
+  `WHATSAPP_CHANNEL_URL` (`site/build.py` / env `ABP_WHATSAPP_CHANNEL_URL`).
+- **We never private-message anyone.** All action (read a book, report a find) happens on the public
+  site + form. This is stated on the bounty page and the site-wide trust banner.
+
+**The trust architecture (why we can't be confused with a scam):**
+- **Direction of money:** we only ever *send* money; we never ask for any (no fee, no "activation",
+  no voucher, never an OTP/PIN/bank login). Scams take; we give.
+- **Direction of contact:** we only *broadcast in public*; we never *DM first*. Scams need the
+  private chat; we have none.
+- **Public proof:** real books, real author name, a real website, a public Fixes & Finders ledger of
+  who we actually paid. Scams have none of that.
+- The site-wide banner + the bold "Is this a scam? No —" section on /bounty carry this everywhere.
+
+**Ready-to-send WhatsApp Channel posts** (verify line in every one):
+
+> 🛡️ *Arjuna Badger Press — The Honey Badger Bounty (opens 25 June)*
+> We pay you to find mistakes in our books. Real money, real books, free to read.
+> ⚠️ We will NEVER ask you for money, a fee, or your OTP/PIN — we only ever PAY you, and we never
+> DM you privately. Verify everything here 👉 arjunabadger.press/bounty
+> Read free. Find a real error. Get paid. Early finders earn the most.
+
+> 🛡️ *How to know it's really us (and not a scam using our name):*
+> 1) We only ever SEND money — never ask for it. 2) We never message you in private — we post here
+> and on our website. 3) Everything is public: see who we've paid at arjunabadger.press/bounty.
+> If a "private message" asks you for anything, it's fake. Block and report it.
+
+**Anti-scam rule for AJ (operational):** never DM a reader first; never accept a "report" via DM;
+never ask a finder for anything except the payout detail *they* choose to share to receive money.
+All adjudication and payment is logged publicly. If you break the public-only pattern even once, you
+hand scammers cover.
