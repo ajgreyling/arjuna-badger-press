@@ -15,6 +15,7 @@ import html
 import os
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -1914,6 +1915,35 @@ def main() -> None:
     readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
           f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages -> {OUT}")
+
+    # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
+    # The trap: a book's real cover sits ON DISK but is UNTRACKED in git. Every LOCAL build looks
+    # fine (scan() finds the file → real_cover=True), but GitHub Pages deploys only committed files,
+    # so on the live site the cover never checks out and the book falls back to the generated
+    # cover_svg() placeholder. Because the failure is invisible locally, we cannot detect it by
+    # asking "did we use the placeholder?" — we must ask git directly whether the resolved cover is
+    # tracked. Books under _comingsoon/ are MEANT to have no cover yet, so they are exempt.
+    def _untracked(p: Path) -> bool:
+        return subprocess.run(["git", "ls-files", "--error-unmatch", str(p)],
+                              capture_output=True).returncode != 0
+
+    cover_warnings = []
+    for e in entries:
+        if "_comingsoon" in e["root"].parts:
+            continue                                   # placeholder is correct for coming-soon books
+        if e["cover"] is not None:
+            if _untracked(e["cover"]):                 # the trap: on disk, not committed
+                cover_warnings.append(
+                    (e["id"], f"cover ON DISK but UNTRACKED — will deploy as a placeholder. "
+                              f"Fix: git add {e['cover']}"))
+        else:                                          # no cover anywhere for a shelf book
+            cover_warnings.append(
+                (e["id"], f"no cover found (add {e['root']}/design/cover.png, "
+                          f"or move under books/_comingsoon/ if not ready)"))
+    if cover_warnings:
+        print("\n  ⚠️  COVER WARNING — these books will NOT show a real cover on the live site:")
+        for cid, msg in cover_warnings:
+            print(f"      • {cid}: {msg}")
 
 
 if __name__ == "__main__":
