@@ -81,6 +81,21 @@ SERIES = [
     ("The Salt Veil", "#B0814A"),
 ]
 
+# Per-shelf tagline shown under each series heading on the library. One evocative line in
+# the house voice; keyed by the SERIES name. Absent name => no tagline (heading only).
+SHELF_TAGLINE = {
+    "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
+    "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
+    "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
+    "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road.",
+    "Standalones": "Self-contained stories that need no shelf-mate.",
+    "Non-fiction": "True things, plainly told.",
+    "Companions": "Reverent retellings and guides that sit beside the novels.",
+    "The Reichenbach Files": "Sherlock Holmes for now — modern retellings, true to the original.",
+    "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
+    "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
+}
+
 # Per-book descriptive tagline shown on the shelf card + book page (under the title).
 # The Reichenbach Files are present-day transpositions of Doyle — canon-true, not loose
 # adaptation; the tagline says so up front. Keyed by book id; absent id => no tagline.
@@ -682,9 +697,12 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 
 /* sections */
 section.series{padding:46px 0 8px}
-.sechead{display:flex;align-items:baseline;gap:16px;margin-bottom:22px}
+.sechead{margin-bottom:22px}
+.sechead-row{display:flex;align-items:baseline;gap:16px}
 .sechead h2{font-size:26px;margin:0}
 .sechead .count{color:var(--grass);font-size:14px;font-family:"Space Grotesk"}
+.sechead .shelftag{margin:.35em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;
+  font-size:17px;line-height:1.4;color:var(--accent,var(--ochre));opacity:.95;max-width:64ch}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
 
 /* card */
@@ -1373,8 +1391,10 @@ Free for every writer who has a story and has never been shown how to begin.</p>
         if not group:
             continue
         cards = "".join(card(e, accent) for e in group)
+        tag = SHELF_TAGLINE.get(sname)
+        tagline = f'<p class="shelftag">{html.escape(tag)}</p>' if tag else ""
         parts.append(f"""<section class="series"><div class="wrap">
-<div class="sechead"><h2>{html.escape(sname)}</h2><span class="count">{len(group)} {"book" if len(group)==1 else "books"}</span></div>
+<div class="sechead" style="--accent:{accent}"><div class="sechead-row"><h2>{html.escape(sname)}</h2><span class="count">{len(group)} {"book" if len(group)==1 else "books"}</span></div>{tagline}</div>
 <div class="grid">{cards}</div></div></section>""")
 
     parts.append(f"""<hr class="hr"><section class="mission" id="press"><div class="wrap">
