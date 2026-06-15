@@ -30,6 +30,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Regenerate Place Wiki from image compendiums
+        run: python3 tools/generate_wiki.py
+
       - name: Build the static site
         run: python3 site/build.py
 
