@@ -171,40 +171,98 @@ def wrap_words(s: str, width: int) -> list[str]:
 
 
 def md_to_html(md: str) -> str:
-    out, buf = [], []
-
-    def flush():
-        if buf:
-            text = " ".join(buf).strip()
-            if text:
-                out.append(f"<p>{inline(html.escape(text))}</p>")
-            buf.clear()
+    out, buf, bq_buf, list_tag = [], [], [], None
 
     def inline(t: str) -> str:
+        t = html.escape(t)
         t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
         t = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", t)
         t = re.sub(r"_(.+?)_", r"<em>\1</em>", t)
         t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
+        t = re.sub(
+            r"\[([^\]]+)\]\(([^)]+)\)",
+            lambda m: f'<a href="{html.escape(m.group(2), quote=True)}">{m.group(1)}</a>',
+            t,
+        )
         return t
+
+    def close_list():
+        nonlocal list_tag
+        if list_tag:
+            out.append(f"</{list_tag}>")
+            list_tag = None
+
+    def flush_bq():
+        nonlocal bq_buf
+        if bq_buf:
+            text = " ".join(bq_buf).strip()
+            if text:
+                out.append(f"<blockquote><p>{inline(text)}</p></blockquote>")
+            bq_buf.clear()
+
+    def flush_para():
+        nonlocal buf
+        if buf:
+            text = " ".join(buf).strip()
+            if text:
+                out.append(f"<p>{inline(text)}</p>")
+            buf.clear()
+
+    def flush_all():
+        close_list()
+        flush_bq()
+        flush_para()
 
     for raw in md.splitlines():
         line = raw.rstrip()
         s = line.strip()
         if not s:
-            flush()
+            flush_all()
             continue
         if re.match(r"^(---|\*\*\*|___)$", s):
-            flush()
+            flush_all()
             out.append('<hr class="rule">')
             continue
         m = re.match(r"^(#{1,6})\s+(.*)$", s)
         if m:
-            flush()
+            flush_all()
             lvl = len(m.group(1))
-            out.append(f"<h{lvl}>{inline(html.escape(m.group(2)))}</h{lvl}>")
+            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
             continue
+        bqm = re.match(r"^>\s?(.*)$", s)
+        if bqm:
+            close_list()
+            flush_para()
+            bq_buf.append(bqm.group(1))
+            continue
+        if bq_buf:
+            flush_bq()
+        olm = re.match(r"^\d+\.\s+(.*)$", s)
+        if olm:
+            flush_para()
+            if list_tag != "ol":
+                close_list()
+                out.append("<ol>")
+                list_tag = "ol"
+            out.append(f"<li>{inline(olm.group(1))}</li>")
+            continue
+        ulm = re.match(r"^[-*]\s+(.*)$", s)
+        if ulm:
+            flush_para()
+            if list_tag != "ul":
+                close_list()
+                out.append("<ul>")
+                list_tag = "ul"
+            out.append(f"<li>{inline(ulm.group(1))}</li>")
+            continue
+        if re.match(r"^\*\*[^*]+:\*\*", s):
+            close_list()
+            flush_para()
+            buf.append(s)
+            continue
+        close_list()
         buf.append(s)
-    flush()
+    flush_all()
     return "\n".join(out)
 
 
@@ -508,7 +566,8 @@ Weir / Crichton / Brown-grade accuracy, not a nice-to-have.</p></div>
 knowledge from finishing a million words of published fiction — structure, character, sentence craft,
 the editorial ladder, twenty-nine named anti-patterns, and a machine-tell self-audit. Plain English.
 Free for every writer who has a story and has never been shown how to begin.</p>
-<div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a></div>
+<div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a>
+<a class="btn ghost" href="for-authors.html">The workshop — for authors &amp; editors</a></div>
 </div></section>""")
 
     parts.append('<div class="wrap" id="library"></div>')
@@ -588,45 +647,83 @@ LETTERS = [
 ]
 
 CRAFT_DIR = REPO / "docs" / "craft"
+CRAFT_TERMS_DIR = CRAFT_DIR / "terms"
 # md filename, html slug, page title, meta description
 CRAFT_PAGES = [
     ("README.md", "index", "Craft Library — free creative writing resources",
      "Degree-level creative writing craft for writers who are not (yet) in an MFA — glossary, doctrine, and anti-patterns."),
     ("CRAFT_GLOSSARY.md", "glossary", "Craft Glossary — Arjuna Badger Press",
-     "Structure, character, sentence, POV, editorial ladder, pitfalls and machine-tells — the full craft body of knowledge."),
+     "Dictionary index of 90+ craft terms — click through for full degree-level explainers on structure, character, sentence, and editorial craft."),
     ("CRAFT_DOCTRINE.md", "doctrine", "Craft Doctrine — Arjuna Badger Press",
      "The studio standard: non-negotiables, what good prose feels like, and the revision mantra."),
     ("ANTI_PATTERNS.md", "anti-patterns", "Craft Anti-Patterns — Arjuna Badger Press",
      "Twenty-nine named literary smells with BAD→GOOD fixes — the generative layer above line editing."),
+    ("TRIPTYCH_FORM.md", "triptych-form", "The Triptych Trilogy — thesis-level explainer",
+     "Panel-completeness, weave-closure, and any-order readability — the full theory of the Tryptych form."),
+    ("LLM_TELLS.md", "llm-tells", "LLM tics & tells — de-LLM catalog",
+     "Not X/Y reframes, em-dash addiction, the way similes, even cadence, AI vocabulary — BAD→GOOD examples and self-audit."),
 ]
 
 
 CRAFT_NAV = {
     "index": "Overview",
     "glossary": "Glossary",
+    "llm-tells": "LLM tells",
+    "triptych-form": "Triptych form",
     "doctrine": "Doctrine",
     "anti-patterns": "Anti-patterns",
 }
 
 
-def craft_rewrite_links(md: str) -> str:
+def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
     """Turn in-repo markdown links into site-local craft/*.html links."""
     reps = {
-        "CRAFT_GLOSSARY.md": "glossary.html",
-        "CRAFT_DOCTRINE.md": "doctrine.html",
+        "../CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
+        "CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
+        "../CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
+        "CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
+        "../ANTI_PATTERNS.md": "../anti-patterns.html" if in_terms else "anti-patterns.html",
         "ANTI_PATTERNS.md": "anti-patterns.html",
+        "../TRIPTYCH_FORM.md": "../triptych-form.html" if in_terms else "triptych-form.html",
+        "TRIPTYCH_FORM.md": "triptych-form.html",
+        "LLM_TELLS.md": "llm-tells.html",
+        "../README.md": "../index.html" if in_terms else "index.html",
         "README.md": "index.html",
-        "../TECHNOLOGY.md": "../index.html#press",
-        "docs/CRAFT_GLOSSARY.md": "glossary.html",
+        "../TECHNOLOGY.md": "../../index.html#press" if in_terms else "../index.html#press",
+        "../craft/CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
+        "docs/CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
         "craft/CRAFT_DOCTRINE.md": "doctrine.html",
+        "academic/TRIPTYCH_FORM.md": "../triptych-form.html" if in_terms else "triptych-form.html",
+        "../FOR_AUTHORS.md": "../../for-authors.html" if in_terms else "../for-authors.html",
+        "FOR_AUTHORS.md": "../for-authors.html",
+        "craft/README.md": "index.html",
     }
     out = md
     for old, new in reps.items():
+        out = out.replace(f"]({old})", f"]({new})")
         out = out.replace(old, new)
+    out = re.sub(r"terms/([a-z0-9-]+)\.md", r"terms/\1.html", out)
+    if in_terms:
+        out = re.sub(r"\]\(([a-z0-9-]+)\.md\)", r"](\1.html)", out)
     return out
 
 
-def render_craft_page(src_name: str, slug: str, title: str, desc: str) -> str | None:
+def craft_term_title(md: str) -> str:
+    for line in md.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return "Craft term"
+
+
+def craft_term_desc(md: str) -> str:
+    for line in md.splitlines():
+        s = line.strip()
+        if s.startswith("**Plain English:**"):
+            return truncate(s.removeprefix("**Plain English:**").strip(), 180)
+    return "Degree-level creative writing craft — full explainer from the Arjuna Badger Press Craft Library."
+
+
+def render_craft_page(src_name: str, slug: str, title: str, desc: str, *, rel: str = "../") -> str | None:
     src = CRAFT_DIR / src_name
     if not src.is_file():
         return None
@@ -637,13 +734,83 @@ def render_craft_page(src_name: str, slug: str, title: str, desc: str) -> str | 
         if s != slug
     )
     return "\n".join([
-        head(title, desc, rel="../"),
-        nav(rel="../"),
+        head(title, desc, rel=rel),
+        nav(rel=rel),
         '<article class="reader letter">',
         f'<p class="eyebrow" style="text-align:center">Craft Library</p>',
         body,
         f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
-        '<p style="text-align:center;margin-top:24px"><a class="back" href="../index.html#writers">&larr; Back to the library</a></p>',
+        f'<p style="text-align:center;margin-top:24px"><a class="back" href="{rel}index.html#writers">&larr; Back to the library</a></p>',
+        '</article>',
+        footer(),
+    ])
+
+
+def render_craft_term(src: Path) -> str | None:
+    md = src.read_text(encoding="utf-8", errors="ignore")
+    slug = src.stem
+    title = f"{craft_term_title(md)} — Craft Glossary"
+    desc = craft_term_desc(md)
+    body = md_to_html(craft_rewrite_links(md, in_terms=True))
+    nav_links = (
+        f'<a href="../glossary.html">Glossary</a> · '
+        + " · ".join(
+            f'<a href="../{html.escape(s)}.html">{CRAFT_NAV.get(s, s)}</a>'
+            for _, s, _, _ in CRAFT_PAGES
+            if s not in ("index", "glossary")
+        )
+    )
+    return "\n".join([
+        head(title, desc, rel="../../"),
+        nav(rel="../../"),
+        '<article class="reader letter">',
+        f'<p class="eyebrow" style="text-align:center">Craft Glossary · term</p>',
+        body,
+        f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
+        '<p style="text-align:center;margin-top:24px"><a class="back" href="../glossary.html">&larr; Back to glossary</a></p>',
+        '</article>',
+        footer(),
+    ])
+
+
+def docs_rewrite_links(md: str) -> str:
+    """Turn docs/*.md cross-links into site-local HTML paths (root-level pages)."""
+    reps = {
+        "FOR_AUTHORS.md": "for-authors.html",
+        "TECHNOLOGY.md": "index.html#press",
+        "VERIFICATION_GATE.md": "index.html#press",
+        "craft/README.md": "craft/index.html",
+        "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
+        "craft/LLM_TELLS.md": "craft/llm-tells.html",
+    }
+    out = md
+    for old, new in reps.items():
+        out = out.replace(f"]({old})", f"]({new})")
+    return out
+
+
+DOC_PAGES = [
+    ("FOR_AUTHORS.md", "for-authors", "The workshop — for authors & editors",
+     "Ingest published work and notes, answer twenty wizard questions, click Go — return to a proofread-ready manuscript. Not just for beginners."),
+]
+
+
+def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | None:
+    src = REPO / "docs" / src_name
+    if not src.is_file():
+        return None
+    body = md_to_html(docs_rewrite_links(src.read_text(encoding="utf-8", errors="ignore")))
+    return "\n".join([
+        head(title, desc),
+        nav(),
+        '<article class="reader letter">',
+        f'<p class="eyebrow" style="text-align:center">Arjuna Badger Press</p>',
+        body,
+        '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
+        '<a href="craft/index.html">Craft Library</a> · '
+        '<a href="index.html#press">The technology</a> · '
+        '<a href="index.html#write">Write with us</a></p>',
+        '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#writers">&larr; Back to the library</a></p>',
         '</article>',
         footer(),
     ])
@@ -797,6 +964,10 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+    for src_name, slug, title, desc in DOC_PAGES:
+        page = render_doc_page(src_name, slug, title, desc)
+        if page:
+            (OUT / f"{slug}.html").write_text(page, encoding="utf-8")
 
     craft_out = OUT / "craft"
     craft_out.mkdir(exist_ok=True)
@@ -808,10 +979,20 @@ def main() -> None:
             (craft_out / out_name).write_text(page, encoding="utf-8")
             craft_n += 1
 
+    terms_out = craft_out / "terms"
+    terms_out.mkdir(exist_ok=True)
+    term_n = 0
+    if CRAFT_TERMS_DIR.is_dir():
+        for src in sorted(CRAFT_TERMS_DIR.glob("*.md")):
+            page = render_craft_term(src)
+            if page:
+                (terms_out / f"{src.stem}.html").write_text(page, encoding="utf-8")
+                term_n += 1
+
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
-          f"{craft_n} craft pages -> {OUT}")
+          f"{craft_n} craft pages, {term_n} glossary terms -> {OUT}")
 
 
 if __name__ == "__main__":

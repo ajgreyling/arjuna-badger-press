@@ -7,6 +7,9 @@
 > those are private IP. This is the blueprint a CTO can read in ten minutes.
 >
 > *The author of these tools is available for consulting.* — [arjunabadger.press](https://arjunabadger.press)
+>
+> **For authors & editors** — what the workshop offers, who it is for (including established
+> authors), and the upload → wizard → Go → proofread flow → **[The workshop](FOR_AUTHORS.md)**.
 
 ---
 
