@@ -22,7 +22,12 @@ BRAND = REPO / "brand" / "assets"
 OUT = REPO / "site" / "public"
 
 DOMAIN = "https://arjunabadger.press"
+PUBLIC_EMAIL = "info@arjunabadger.press"
 TAGLINE = "Your story, told true."
+AUDIOBOOK_NOTICE = (
+    "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
+    "Read and download the text editions free here until then."
+)
 
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
@@ -171,19 +176,26 @@ def wrap_words(s: str, width: int) -> list[str]:
 
 
 def md_to_html(md: str) -> str:
-    out, buf, bq_buf, list_tag = [], [], [], None
+    out, buf, bq_buf, list_tag, table_buf = [], [], [], None, []
 
     def inline(t: str) -> str:
+        def fmt_label(label: str) -> str:
+            label = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", label)
+            label = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", label)
+            label = re.sub(r"_(.+?)_", r"<em>\1</em>", label)
+            label = re.sub(r"`(.+?)`", r"<code>\1</code>", label)
+            return label
+
+        def link_repl(m: re.Match[str]) -> str:
+            href = html.escape(m.group(2), quote=True)
+            return f'<a href="{href}">{fmt_label(m.group(1))}</a>'
+
         t = html.escape(t)
+        t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link_repl, t)
         t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
         t = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", t)
         t = re.sub(r"_(.+?)_", r"<em>\1</em>", t)
         t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
-        t = re.sub(
-            r"\[([^\]]+)\]\(([^)]+)\)",
-            lambda m: f'<a href="{html.escape(m.group(2), quote=True)}">{m.group(1)}</a>',
-            t,
-        )
         return t
 
     def close_list():
@@ -208,9 +220,42 @@ def md_to_html(md: str) -> str:
                 out.append(f"<p>{inline(text)}</p>")
             buf.clear()
 
+    def is_table_line(s: str) -> bool:
+        return s.startswith("|") and s.endswith("|") and "|" in s[1:-1]
+
+    def is_table_separator(s: str) -> bool:
+        return bool(re.match(r"^\|[\s\-:|]+\|$", s))
+
+    def parse_table_row(s: str) -> list[str]:
+        inner = s.strip()[1:-1]
+        return [cell.strip() for cell in inner.split("|")]
+
+    def flush_table():
+        nonlocal table_buf
+        if not table_buf:
+            return
+        rows: list[list[str]] = []
+        for line in table_buf:
+            if is_table_separator(line):
+                continue
+            rows.append(parse_table_row(line))
+        table_buf.clear()
+        if not rows:
+            return
+        header, body = rows[0], rows[1:]
+        out.append('<table class="md-table">')
+        out.append("<thead><tr>" + "".join(f"<th>{inline(c)}</th>" for c in header) + "</tr></thead>")
+        if body:
+            out.append("<tbody>")
+            for row in body:
+                out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in row) + "</tr>")
+            out.append("</tbody>")
+        out.append("</table>")
+
     def flush_all():
         close_list()
         flush_bq()
+        flush_table()
         flush_para()
 
     for raw in md.splitlines():
@@ -218,6 +263,23 @@ def md_to_html(md: str) -> str:
         s = line.strip()
         if not s:
             flush_all()
+            continue
+        if is_table_line(s):
+            close_list()
+            flush_bq()
+            flush_para()
+            table_buf.append(s)
+            continue
+        if table_buf:
+            flush_table()
+        imgm = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?$", s)
+        if imgm:
+            flush_all()
+            alt, src = imgm.group(1), imgm.group(2)
+            out.append(
+                f'<figure class="wiki-photo"><img loading="lazy" src="{html.escape(src, quote=True)}" '
+                f'alt="{html.escape(alt)}"><figcaption>{inline(alt)}</figcaption></figure>'
+            )
             continue
         if re.match(r"^(---|\*\*\*|___)$", s):
             flush_all()
@@ -334,9 +396,82 @@ def scan() -> list[dict]:
             "blurb": blurb, "downloads": downloads, "cover": cover,
             "book_md": reader_src,
             "reader_md": reader_md,
+            "root": root,
             "available": bool(downloads),
         })
     return entries
+
+
+_READER_IMG_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
+
+
+def _strip_pandoc_attrs(path: str) -> str:
+    return re.sub(r"\{[^}]*\}$", "", path.strip())
+
+
+def resolve_reader_image(src: str, book_root: Path) -> Path | None:
+    """Map BOOK.md image paths (often machine-local) to files in this repo."""
+    src = _strip_pandoc_attrs(src)
+    if src.startswith(("http://", "https://")):
+        return None
+
+    p = Path(src)
+    candidates: list[Path] = []
+
+    if p.is_absolute():
+        parts = p.parts
+        for marker in ("books", "design"):
+            if marker in parts:
+                idx = parts.index(marker)
+                candidates.append(BOOKS / Path(*parts[idx:]))
+        candidates.append(book_root / "build" / "assets" / p.name)
+        candidates.append(book_root / "design" / p.name)
+    elif src.startswith("books/"):
+        rel = src.removeprefix("books/")
+        slug, _, tail = rel.partition("/")
+        if tail:
+            rest = Path(tail)
+            candidates.append(BOOKS / "history-before-time" / "books" / slug / rest)
+            candidates.append(BOOKS / "the-unheard" / "books" / slug / rest)
+            candidates.append(BOOKS / slug / rest)
+    else:
+        candidates.append(book_root / src)
+        candidates.append(book_root / "build" / "assets" / p.name)
+        if not src.startswith("design/"):
+            candidates.append(book_root / "design" / "images" / p.name)
+
+    seen: set[Path] = set()
+    for c in candidates:
+        try:
+            c = c.resolve()
+        except OSError:
+            continue
+        if c in seen:
+            continue
+        seen.add(c)
+        if c.is_file():
+            return c
+    return None
+
+
+def prepare_reader_images(md: str, book_id: str, book_root: Path, assets_out: Path) -> str:
+    """Copy inline images for read-online and rewrite paths to site-local URLs."""
+    assets_out.mkdir(parents=True, exist_ok=True)
+
+    def repl(m: re.Match[str]) -> str:
+        alt, raw_src = m.group(1), m.group(2)
+        src = _strip_pandoc_attrs(raw_src)
+        if src.startswith(("http://", "https://")):
+            return f"![{alt}]({src})"
+        resolved = resolve_reader_image(src, book_root)
+        if not resolved:
+            return m.group(0)
+        dst = assets_out / resolved.name
+        if not dst.exists() or resolved.stat().st_mtime > dst.stat().st_mtime:
+            shutil.copy2(resolved, dst)
+        return f"![{alt}](assets/{book_id}/{resolved.name})"
+
+    return _READER_IMG_RE.sub(repl, md)
 
 
 # ── render ───────────────────────────────────────────────────────────────────────
@@ -367,6 +502,14 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .brandlink img{height:40px;width:40px;border-radius:50%}
 .nav nav{margin-left:auto;display:flex;gap:24px;font-size:14px}
 .nav nav a{color:var(--bonedim)} .nav nav a:hover{color:var(--gold)}
+
+/* site-wide audiobook notice */
+.audiobook-notice{border-bottom:1px solid rgba(200,168,107,.35);
+  background:linear-gradient(90deg,rgba(200,168,107,.12),rgba(229,181,103,.08),rgba(200,168,107,.12));
+  color:var(--bone);font-size:14px;line-height:1.5}
+.audiobook-notice .wrap{padding:11px 24px;display:flex;gap:12px;align-items:flex-start;justify-content:center;text-align:center}
+.audiobook-notice strong{font-family:"Space Grotesk";font-weight:600;color:var(--gold);white-space:nowrap}
+.audiobook-notice span{max-width:72ch;color:var(--bonedim)}
 
 /* hero */
 .hero{text-align:center;padding:80px 0 56px}
@@ -439,6 +582,15 @@ section.series{padding:46px 0 8px}
 .reader.letter em{color:var(--bone)}
 .readbar{position:sticky;top:0;background:rgba(22,21,19,.85);backdrop-filter:blur(8px);
   border-bottom:1px solid var(--line);padding:12px 0}
+.reader figure.wiki-photo{margin:1.8em 0 2.2em;text-align:center}
+.reader figure.wiki-photo img{max-width:100%;height:auto;border-radius:8px;border:1px solid var(--line);
+  box-shadow:0 12px 36px rgba(0,0,0,.4)}
+.reader figure.wiki-photo figcaption{font-size:15px;color:var(--gold);margin-top:10px}
+.reader table.md-table{width:100%;border-collapse:collapse;margin:1.4em 0 1.8em;font-size:16px}
+.reader table.md-table th,.reader table.md-table td{padding:12px 14px;border:1px solid var(--line);text-align:left;vertical-align:top}
+.reader table.md-table th{background:rgba(200,168,107,.12);color:var(--gold);font-weight:700}
+.reader table.md-table td{color:var(--bone)}
+.reader table.md-table tr:nth-child(even) td{background:rgba(255,255,255,.02)}
 
 /* house of greyling */
 .house{max-width:900px;margin:0 auto;padding:54px 24px 80px;text-align:center}
@@ -454,6 +606,17 @@ section.series{padding:46px 0 8px}
 .blazon .entry{margin:0 0 1.25em;padding-left:16px;border-left:2px solid var(--line)}
 .blazon .charge{font-family:"Space Grotesk";font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);display:block;margin-bottom:3px}
 .blazon .entry p{margin:0;color:var(--bone)}
+
+/* place wiki — photo galleries */
+.reader.wiki h3{font-size:22px;text-align:left;color:var(--bone);margin:2em 0 .5em;font-weight:700}
+.reader.wiki figure.wiki-photo{margin:0 0 2em;text-align:center}
+.reader.wiki figure.wiki-photo img{max-width:100%;width:min(920px,100%);height:auto;border-radius:10px;
+  box-shadow:0 16px 44px rgba(0,0,0,.45);border:1px solid var(--line)}
+.reader.wiki figure.wiki-photo figcaption{font-size:15px;color:var(--gold);margin-top:12px;max-width:60ch;margin-left:auto;margin-right:auto}
+.reader.wiki p em{font-size:13px;color:var(--grass);font-style:normal;display:block;text-align:center;margin:-1.2em 0 1.8em}
+.wiki-index table{width:100%;border-collapse:collapse;margin:1.5em 0;font-size:16px}
+.wiki-index th,.wiki-index td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left}
+.wiki-index th{color:var(--ochre);font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase}
 
 /* footer */
 footer{border-top:1px solid var(--line);margin-top:60px;padding:40px 0;color:var(--grass);font-size:14px}
@@ -487,17 +650,23 @@ def head(title: str, desc: str, rel: str = "") -> str:
 </head><body>"""
 
 
+def audiobook_notice() -> str:
+    return (f"""<div class="audiobook-notice" role="status"><div class="wrap">
+<strong>Audiobooks coming</strong><span>{html.escape(AUDIOBOOK_NOTICE)}</span>
+</div></div>""")
+
+
 def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}index.html#mission">Mission</a>
+<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
-</div></div>"""
+</div></div>{audiobook_notice()}"""
 
 
 def footer() -> str:
     return f"""<footer><div class="wrap">
-<span>© Andries J. Greyling · Arjuna Badger Press · arjunabadger.press</span>
+<span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a></span>
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
 </div></footer></body></html>"""
 
@@ -559,6 +728,15 @@ and <em>all</em> the rights. We Uber the press for short runs.</p></div>
 Weir / Crichton / Brown-grade accuracy, not a nice-to-have.</p></div>
 </div></div></section>""")
 
+    parts.append("""<hr class="hr"><section class="mission" id="places"><div class="wrap">
+<div class="eyebrow">Real ground</div>
+<h2 style="font-size:28px;margin:.3em 0">The Place Wiki — real people &amp; places</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Every book is anchored in real geography — standing stones,
+deserts, temples, reefs, and the living people who keep them. Photo wikis for travellers and curious readers: awe first,
+attribution always.</p>
+<div class="cta"><a class="btn" href="wiki/index.html">Explore the Place Wiki</a></div>
+</div></section>""")
+
     parts.append("""<hr class="hr"><section class="mission" id="writers"><div class="wrap">
 <div class="eyebrow">For writers</div>
 <h2 style="font-size:28px;margin:.3em 0">Free craft — degree-level skills, no gatekeeping</h2>
@@ -567,6 +745,7 @@ knowledge from finishing a million words of published fiction — structure, cha
 the editorial ladder, twenty-nine named anti-patterns, and a machine-tell self-audit. Plain English.
 Free for every writer who has a story and has never been shown how to begin.</p>
 <div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a>
+<a class="btn ghost" href="the-press-thesis.html">The Press Thesis</a>
 <a class="btn ghost" href="for-authors.html">The workshop — for authors &amp; editors</a></div>
 </div></section>""")
 
@@ -588,8 +767,8 @@ of an autonomous manuscript-craft studio — a continuity engine, a manuscript s
 fact-and-balance gate that stand guard while a human writes the soul of the thing. The tools measure
 and sound the alarm; they never write your voice for you. {avail} finished books are on the shelf
 above, free to read and download. <a href="letter.html">Why this house exists — a letter &rarr;</a></p>
-<div class="cta" id="write"><a class="btn" href="mailto:hello@arjunabadger.press">Write with us</a>
-<a class="btn ghost" href="mailto:hello@arjunabadger.press">Publish with us</a></div>
+<div class="cta" id="write"><a class="btn" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
+<a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Publish with us</a></div>
 </div></section>""")
 
     parts.append(f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
@@ -622,6 +801,9 @@ def render_book(e: dict) -> str:
     read = ""
     if e["book_md"] or e.get("reader_md"):
         read = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../read/{e["id"]}.html">Read online →</a></div>'
+    wiki = ""
+    if (WIKI_DIR / f"{e['id']}.md").is_file():
+        wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
     soon = "" if e["available"] else '<p style="color:var(--ochre);margin-top:18px">In the workshop — drafting now. Check back soon.</p>'
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
@@ -631,7 +813,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>
-<p class="syn">{full}</p>{dls}{read}{soon}
+<p class="syn">{full}</p>{dls}{read}{wiki}{soon}
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(),
@@ -647,6 +829,7 @@ LETTERS = [
 ]
 
 CRAFT_DIR = REPO / "docs" / "craft"
+WIKI_DIR = REPO / "docs" / "wiki"
 CRAFT_TERMS_DIR = CRAFT_DIR / "terms"
 # md filename, html slug, page title, meta description
 CRAFT_PAGES = [
@@ -696,6 +879,8 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
         "academic/TRIPTYCH_FORM.md": "../triptych-form.html" if in_terms else "triptych-form.html",
         "../FOR_AUTHORS.md": "../../for-authors.html" if in_terms else "../for-authors.html",
         "FOR_AUTHORS.md": "../for-authors.html",
+        "../THE_PRESS_THESIS.md": "../../the-press-thesis.html" if in_terms else "../the-press-thesis.html",
+        "THE_PRESS_THESIS.md": "../the-press-thesis.html",
         "craft/README.md": "index.html",
     }
     out = md
@@ -777,6 +962,7 @@ def docs_rewrite_links(md: str) -> str:
     """Turn docs/*.md cross-links into site-local HTML paths (root-level pages)."""
     reps = {
         "FOR_AUTHORS.md": "for-authors.html",
+        "THE_PRESS_THESIS.md": "the-press-thesis.html",
         "TECHNOLOGY.md": "index.html#press",
         "VERIFICATION_GATE.md": "index.html#press",
         "craft/README.md": "craft/index.html",
@@ -790,6 +976,8 @@ def docs_rewrite_links(md: str) -> str:
 
 
 DOC_PAGES = [
+    ("THE_PRESS_THESIS.md", "the-press-thesis", "The Press Thesis",
+     "Grounded fiction, guarded intention — proof to be determined by the qualitative judgment of human readers."),
     ("FOR_AUTHORS.md", "for-authors", "The workshop — for authors & editors",
      "Ingest published work and notes, answer twenty wizard questions, click Go — return to a proofread-ready manuscript. Not just for beginners."),
 ]
@@ -808,12 +996,109 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
         body,
         '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
         '<a href="craft/index.html">Craft Library</a> · '
+        '<a href="wiki/index.html">Place Wiki</a> · '
         '<a href="index.html#press">The technology</a> · '
         '<a href="index.html#write">Write with us</a></p>',
         '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#writers">&larr; Back to the library</a></p>',
         '</article>',
         footer(),
     ])
+
+
+_IMG_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+
+
+def prepare_wiki_images(md: str, slug: str, assets_out: Path) -> str:
+    """Copy local book images into wiki/assets/{slug}/ and rewrite paths for the static site."""
+    assets_out.mkdir(parents=True, exist_ok=True)
+
+    def repl(m: re.Match[str]) -> str:
+        src = m.group(1)
+        if src.startswith(("http://", "https://")):
+            return m.group(0)
+        path = (WIKI_DIR / src).resolve()
+        try:
+            path.relative_to(REPO.resolve())
+        except ValueError:
+            return m.group(0)
+        if not path.is_file():
+            return m.group(0)
+        dst = assets_out / path.name
+        if not dst.exists() or path.stat().st_mtime > dst.stat().st_mtime:
+            shutil.copy2(path, dst)
+        return m.group(0).replace(src, f"assets/{slug}/{path.name}")
+
+    return _IMG_RE.sub(repl, md)
+
+
+def wiki_page_title(md: str) -> str:
+    for line in md.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return "Place Wiki"
+
+
+def wiki_page_desc(md: str) -> str:
+    for line in md.splitlines():
+        s = line.strip()
+        if s.startswith("> ") and "photo wiki" in s.lower():
+            return truncate(s.removeprefix("> ").strip(), 180)
+    return "Real places and people behind the fiction — photo wiki from Arjuna Badger Press."
+
+
+def render_wiki_page(slug: str, md: str, *, index: bool = False) -> str:
+    title = wiki_page_title(md) if not index else "The Place Wiki — real people & places"
+    desc = wiki_page_desc(md) if not index else (
+        "Photo wikis for every book — real geography, living people, freely licensed photographs."
+    )
+    article_class = "reader letter wiki-index" if index else "reader wiki"
+    eyebrow = "Place Wiki · index" if index else "Place Wiki"
+    rel = "../" if not index else ""
+    body = md_to_html(md)
+    back = (
+        '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html">&larr; All place wikis</a></p>'
+        if not index
+        else '<p style="text-align:center;margin-top:24px"><a class="back" href="../index.html#places">&larr; Back to the library</a></p>'
+    )
+    return "\n".join([
+        head(f"{title} — Arjuna Badger Press", desc, rel="../" if not index else ""),
+        nav(rel="../" if not index else ""),
+        f'<article class="{article_class}">',
+        f'<p class="eyebrow" style="text-align:center">{eyebrow}</p>',
+        body,
+        '<p style="margin-top:36px;font-size:14px;color:var(--grass);text-align:center">'
+        '<a href="index.html">All wikis</a> · '
+        '<a href="../index.html#library">Library</a> · '
+        '<a href="../craft/index.html">Craft Library</a></p>',
+        back,
+        '</article>',
+        footer(),
+    ])
+
+
+def build_wiki(out: Path) -> int:
+    wiki_out = out / "wiki"
+    assets_root = wiki_out / "assets"
+    wiki_out.mkdir(parents=True, exist_ok=True)
+    n = 0
+    if not WIKI_DIR.is_dir():
+        return 0
+    index_src = WIKI_DIR / "README.md"
+    if index_src.is_file():
+        md = index_src.read_text(encoding="utf-8", errors="ignore")
+        md = re.sub(r"\]\(([^)/#]+\.md)\)", lambda m: f"]({Path(m.group(1)).stem}.html)", md)
+        (wiki_out / "index.html").write_text(render_wiki_page("index", md, index=True), encoding="utf-8")
+        n += 1
+    for src in sorted(WIKI_DIR.glob("*.md")):
+        if src.name == "README.md":
+            continue
+        slug = src.stem
+        md = prepare_wiki_images(src.read_text(encoding="utf-8", errors="ignore"), slug, assets_root / slug)
+        md = re.sub(r"\]\(([^)/#]+\.md)\)", lambda m: f"]({Path(m.group(1)).stem}.html)", md)
+        md = md.replace("../../books/", "../books/")
+        (wiki_out / f"{slug}.html").write_text(render_wiki_page(slug, md), encoding="utf-8")
+        n += 1
+    return n
 
 
 def render_letter(src_name: str, title: str, desc: str) -> str | None:
@@ -892,7 +1177,9 @@ the road, not the obstacle, and that the work at the end of it is meant to be <e
 
 
 def render_reader(e: dict) -> str:
-    if e.get("reader_md"):
+    if e.get("prepared_reader_md"):
+        body = md_to_html(e["prepared_reader_md"])
+    elif e.get("reader_md"):
         body = md_to_html(e["reader_md"])
     elif e.get("book_md"):
         body = md_to_html(e["book_md"].read_text(encoding="utf-8", errors="ignore"))
@@ -905,6 +1192,7 @@ def render_reader(e: dict) -> str:
             break
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
         f'<article class="reader">{body}</article>',
@@ -956,6 +1244,14 @@ def main() -> None:
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
         if e["book_md"] or e.get("reader_md"):
+            raw_md = (
+                e["reader_md"]
+                if e.get("reader_md")
+                else e["book_md"].read_text(encoding="utf-8", errors="ignore")
+            )
+            e["prepared_reader_md"] = prepare_reader_images(
+                raw_md, e["id"], e["root"], OUT / "read" / "assets" / e["id"]
+            )
             (OUT / "read" / f'{e["id"]}.html').write_text(render_reader(e), encoding="utf-8")
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
@@ -989,10 +1285,12 @@ def main() -> None:
                 (terms_out / f"{src.stem}.html").write_text(page, encoding="utf-8")
                 term_n += 1
 
+    wiki_n = build_wiki(OUT)
+
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
-          f"{craft_n} craft pages, {term_n} glossary terms -> {OUT}")
+          f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages -> {OUT}")
 
 
 if __name__ == "__main__":
