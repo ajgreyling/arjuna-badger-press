@@ -1,4 +1,238 @@
-# Chapter 2 — The Attic and the Algorithm
+# The Scarlet Thread
+
+**The Reichenbach Files · Book One**
+
+*A Modern Retelling, True to the Original*
+
+*After Doyle's A Study in Scarlet · original prose, public-domain derivation.*
+
+Andries J. Greyling
+
+---
+
+*The Scarlet Thread*
+
+Copyright © 2026 Andries J. Greyling. All rights reserved.
+
+Characters created by Sir Arthur Conan Doyle (public domain). This modern adaptation is an original work by the author.
+
+ISBN: pending
+
+---
+
+*For the public-domain detective — and everyone who learned to look.*
+
+---
+
+## Chapter 1 — The Returned
+
+---
+
+Stamford had said the man was difficult and the rent was cheap for a reason. John had stopped
+expecting much from either category some time ago.
+
+The building was a Victorian terrace that had learned to survive by pretending it was still 1890 —
+narrow stairs, a smell of damp plaster, Mrs Hudson on the landing with a set of keys and the
+expression of a woman who had seen worse tenants and worse wars. "Second floor," she said. "You'll
+want the back room. The front one's his laboratory, more or less. Don't touch the fridge without
+asking."
+
+"Is he—" John began.
+
+"In," she said, and knocked once.
+
+The flat smelled of cold coffee and solder, and the man at the bench did not look up.
+
+"You can take the second bedroom," he said. "It's the quieter one. You'll want quiet—you don't sleep
+much, and you've stopped pretending you will."
+
+John stood in the doorway with his bag still on his shoulder. "Stamford said you'd want a flatmate.
+He didn't say you'd want a—" He stopped. "We haven't met."
+
+"We've met now." The man turned, finally, and the attention that came with it was a physical thing,
+a scanner passing over him once, head to shoe. "Army doctor. Recently out—weeks, not months, you've
+still got the posture and not yet the slouch. Wounded; left shoulder, the way you took the bag off it
+just now and thought no one saw. The tan stops at your collar and mid-forearm, so somewhere with sun
+and a uniform that covered the rest. Somewhere hard, because you read the exits when you came in and
+you're standing where you can see the door." A small pause, almost courteous. "Afghanistan. Or
+somewhere that asks the same of a man. Welcome home."
+
+For a moment John could not find any words at all. "How did you—"
+
+"I noticed. People think it's magic because they've never bothered to *look*." He set down the
+soldering iron. "Sherlock Holmes. The kettle's descaled; everything else in this kitchen is a crime
+scene. There's a head in the fridge, it's mine, don't move it."
+
+"John Watson." He heard himself say it. "There's a *head*—"
+
+"For an experiment. You'll get used to me or you won't; most people manage the second one faster."
+
+Holmes was already moving—not away from John, but through him, the way a search algorithm ignores
+everything that isn't the query. He plucked John's phone from the outer pocket of the bag without
+asking, turned it over once, and set it back.
+
+"Android. Three years old. Charging port worn on the left side—you're right-handed but you dock it
+with your left when the shoulder's bad. Last transit tap: Victoria, forty minutes ago. Medical
+bag," he said, nodding at the case John had not unpacked, "Army issue, relabelled NHS. You still
+carry the field kit because the civilian one feels like a costume. Stamford texted you from the
+coffee shop on the corner; you didn't reply because you were deciding whether to walk back out."
+Holmes glanced at the screen, which had lit when he'd handled the phone. "You didn't walk back out.
+You're still deciding, but slower."
+
+John took the phone back. His hands were steady—the old training—but his pulse was not. "You read my
+*phone*."
+
+"I read what you leave on it. Everyone does; they just call it advertising." Holmes shrugged into
+his coat. "The shoulder: shrapnel or a ricochet, not a blade—the scar pattern on your collar line
+when you turned. You favour the right side on stairs but not on level ground, so the joint's
+recovering, not frozen. You won't talk about it to civilians. You won't talk about the other thing at
+all, the one that doesn't show on skin." He said it without cruelty, the way a meteorologist mentions
+rain. "I don't need you to. I need you to come with me."
+
+"Come where?"
+
+"Somewhere with a body. Lestrade's been patient, which means he's frightened." Holmes was at the
+door. "You haven't unpacked. Good. Bring your service revolver if you still have it—you do—and your
+medical bag. The shoulder will hold."
+
+"You don't know that."
+
+"I know you'll come," Holmes said. "You've been bored since they sent you home. I'm the most
+interesting thing that's happened to you in months, and we both noticed *that* the moment I started
+talking." He glanced back. "Coming, doctor?"
+
+The phone buzzed in John's pocket before he could answer.
+
+Holmes stopped. Not startled—*interested*, the way John's instructors used to look when a
+contact report came in hot. "Show me."
+
+John held out the screen. One line, no sender, no header, routed through a number that wasn't a
+number:
+
+*You'll like the next one, Mr Holmes. I built it just for you.*
+
+"Who's that?" John asked.
+
+"I don't know yet." Holmes said it the way another man might say *I haven't opened the present yet*.
+For the first time he smiled, and it was not entirely a comfortable thing to be near. "But he's
+clever. Properly clever. Do you know how rare that is?" He pocketed his own phone and reached for
+the door again. "Someone is staging a scene for me. Lestrade thinks it's a killing. I think it's an
+invitation."
+
+"And me?"
+
+"You're the witness who still knows what arterial spray looks like when it's real." Holmes held the
+door. "And the man who will write it down afterwards, so the public can follow without drowning in
+the details. Stamford said you used to keep a journal. You'll do it again—online, I expect. The
+attention economy loves a doctor who looks like a hero and writes like a human being."
+
+"I haven't agreed to any of this."
+
+"No," Holmes said. "But you will."
+
+John Watson looked at the bag he had not put down, and put it down.
+
+"Yes," he said. "Alright. Yes."
+
+---
+
+They took the Tube because Holmes despised traffic cameras and loved the frictionless lie of an
+Oyster card that wasn't in his name. John sat across from him and watched the detective read the
+carriage the way other men read a paper: the woman's wedding ring turned inward, the teenager's
+bootlaces double-knotted for running, the courier who never looked at his phone because he already
+knew what it would say.
+
+"You're staring," Holmes said without looking up.
+
+"I'm trying to decide if you're mad."
+
+"Useful skill. Hold the verdict until we get to Braganza Court." The train slowed. "And Watson—when we
+arrive, you will see something unpleasant. Don't narrate it for me. Fix what's fixable. Watch what
+I watch. The rest is mine."
+
+The rest, John would learn, was a room that smelled of bleach failing to cover copper, a body
+arranged with too much patience, and a word written on the wall in a paint that fluoresced only
+under the UV lamp Lestrade's SOCO had brought—letters that meant nothing to the DI and everything
+to Holmes, who stood very still and said nothing at all for a long moment.
+
+Lestrade looked relieved to see him and furious that relief was possible. "Consultant," he said.
+"Tell me this is coincidence."
+
+Holmes crouched by the wall, not touching. His first read was quick—the way a man speaks before
+the chain catches up with his mouth. "Strangulation," he said. "Recent. The ligature—"
+
+John looked, because he was asked, and because the old habit of obeying a competent voice in a bad
+room had not left him with the uniform. The bruising was wrong for strangulation. "Post-mortem," he
+said. "Or close to it. They posed him after."
+
+Holmes went still again. The correction cost him something visible—a tightening at the jaw, the
+briefest pause of a man who had walked in expecting one crime and found another species of mind.
+"Yes," he said quietly. "Thank you. I was wrong about the ligature. That is—" He exhaled. "That is
+the point."
+
+Lestrade had already turned to his SOCO with the relief of a man whose headline was intact. "Serial
+killer. German word on the wall. You heard him."
+
+"Wait." Holmes did not raise his voice. He rarely needed to. "Inspector—wait. Watson is right.
+The bruising is post-mortem. The bleach is theatre. This is not your killer's first murder. This
+is a room built for an audience." He stood, slower than John expected. "Male, tall, left-handed,
+recent dental work—the silhouette was chosen, not discovered. Morphology for the tabloids tomorrow
+morning. The victim is incidental."
+
+"You said strangulation thirty seconds ago."
+
+"I said what the room wanted me to say first." Holmes's eyes were bright in a way John had seen
+only on men walking into fire because the alternative was sitting still—and underneath the brightness,
+something else: appetite mixed with irritation, the particular hunger of a mind that had been
+outpaced at the door and was catching up with bad grace. "The architect timed the text to my phone
+for the Tube ride. He timed the neighbour's cigarette hour. He chose RACHE knowing your SOCO would
+bring UV and your press office would misprint it by breakfast. *Revenge*, in the old stories—not a
+name, a German word for idiots and a wink for anyone literate in the canon. He is literate. He was
+ahead of me at the threshold. That does not happen often."
+
+Lestrade blinked. "So—not a killing?"
+
+"A killing," Holmes said, "but not a murder in the sense you mean. A handshake. I need the CCTV from
+the corner shop, the bus lane, and the church opposite. I need the victim's phone records—not his
+phone; he wasn't the author. And I need you to stop telling the press you have a serial killer until
+you have a second body that wasn't built for an audience."
+
+"You've got one body."
+
+"I've got one *letter*." Holmes nodded at the wall. "The text on the way here was the first line.
+This room is the second. Our architect writes in sequence. I should have read sequence before
+mechanism." He glanced at John. "You'll do. The cascade isn't finished until the chain is *shown*.
+You wanted to know how I knew Afghanistan? Watch how I recover when the architect chooses my first
+inference for me."
+
+Lestrade swore. "I'll get the warrants."
+
+"Do. Watson and I will take the stairs. The neighbour on three smokes indoors and opens her window
+on the hour; she saw someone who didn't belong in this building carrying a case that wasn't medical."
+Holmes was already moving.
+
+John followed him up the stairs, medical bag in his left hand, the shoulder complaining in the dry,
+honest way pain always did when there was no one shooting at you and therefore no excuse to ignore
+it. On the landing Holmes paused, listened once, and knocked on a door that shook like it had been
+knocked on too many times by men with warrants.
+
+The woman who opened it was seventy if she was a day, with a cigarette still burning in an ashtray
+behind her and eyes that had outlived three husbands and one housing authority.
+
+"He wasn't a doctor," she said, before Holmes could speak. "Carried like one. Wrong shoes."
+
+"Thank you," Holmes said. "I know."
+
+John wrote that down later—the first line of the blog, though he did not know it yet—*He wasn't a
+doctor. Wrong shoes.* It would be the beginning of everything that followed: the partnership, the
+readers, the enemies who learned his name from the comments section, and the man who built puzzles
+in blood and light because Sherlock Holmes was the only audience worth the trouble.
+
+For now he only climbed the stairs, and watched, and tried to keep up.
+
+---
+
+## Chapter 2 — The Attic and the Algorithm
 
 I slept badly, which was not new, but the quality of the badness was. Usually the ceiling at three
 in the morning was a blank screen and my thoughts were static. Last night they were a crime scene
@@ -250,7 +484,9 @@ difference before the Yard merges them."
 
 I put my phone away and watched London pass.
 
-# Chapter 3 — The Second Room
+---
+
+## Chapter 3 — The Second Room
 
 The Aldgate Crown advertised itself as *business-friendly*, which meant thin walls, thicker carpets,
 and a lobby that smelled of lemon disinfectant applied over last night's cigarettes. The City
@@ -445,7 +681,9 @@ He nodded like a man clinging to a life raft. Holmes called from the table. "Wat
 
 I went.
 
-# Chapter 4 — The Statement
+---
+
+## Chapter 4 — The Statement
 
 New Scotland Yard sits on the Thames like a ship that decided land was safer and regretted the
 compromise. The interview room they gave us smelled of coffee, recycled air, and the particular
@@ -672,7 +910,9 @@ is trace and error—and error, for once, won't be ours if Lestrade listens."
 
 He was wrong about tomorrow being error-free. He was right about trace.
 
-# Chapter 5 — The Capsule
+---
+
+## Chapter 5 — The Capsule
 
 The toxicology report arrived on a Thursday morning with the understated violence of a bureaucratic
 document that could end a career. I read it at the kitchen table while Holmes dismantled a toaster
@@ -916,7 +1156,9 @@ Holmes looked up from his maps. "Everything is. Conjunction tells you which one 
 Friday would be trace. Tonight was capsule and consequence. I slept one hour and dreamt of cherry
 flavour and almond ghost and a word I couldn't yet spell in any language but revenge.
 
-# Chapter 6 — The Trace
+---
+
+## Chapter 6 — The Trace
 
 Holmes loved the exhaust of other people's lives and despised the fact that he had to ask
 permission to breathe it in.
@@ -1148,7 +1390,9 @@ second. Whatever waited inside belonged to blood and to the bag in my left hand�
 notebook where Harper and Mbeki still lived in ink, proof that the chain was never magic, only
 work. Holmes went first. I went after. The trace was complete now. So be it.
 
-# Chapter 7 — The Hotel
+---
+
+## Chapter 7 — The Hotel
 
 Room 418 had been a fight.
 
@@ -1402,7 +1646,9 @@ The hotel manager wept in the lobby about occupancy. Lestrade told him to buy be
 Holmes told me to remember the manager's tears for the blog—not as cruelty, as context. London
 always bills twice for tragedy.
 
-# Chapter 8 — The Net
+---
+
+## Chapter 8 — The Net
 
 The Yard caught their man at dawn on a council estate in Peckham—a twenty-two-year-old with
 prior for burglary, found asleep in a stolen Passat that wasn't the Passat, with a burner phone
@@ -1661,7 +1907,9 @@ The Afghanistan file said Mercer deserved more than one honest reader. Lucy dese
 Bow hostel at six a.m. tomorrow. Arrest. Divide. Tonight we slept in shifts, one eye on the
 burner log, one on the door, photographers still camped below like seagulls at a landfill.
 
-# Chapter 9 — The Feed
+---
+
+## Chapter 9 — The Feed
 
 By Friday my blog had a name in the papers—not mine at first, then mine in bold beneath *The
 Returned Doctor*, *Army medic who chronicled Aldgate murders*, *Watson: truth or stunt?*
@@ -1809,7 +2057,9 @@ rest. Braganza was morphology. This is velocity—and for one night, he won."
 I wrote in the notebook: *Moriarty did not lie. He accelerated.* Holmes read it over my shoulder
 and did not correct the name.
 
-# Chapter 10 — The Divide
+---
+
+## Chapter 10 — The Divide
 
 Lestrade's conference room at seven a.m. was a machine for turning exhaustion into policy. Coffee,
 pastries no one ate, a screen showing looping news footage of the Aldgate Crown with the faces
@@ -1955,7 +2205,9 @@ why. Then we finish the reckoning."
 
 I wrote *gone* in the notebook and underlined it twice. The hunt wasn't over. The story was.
 
-# Chapter 11 — The Convoy
+---
+
+## Chapter 11 — The Convoy
 
 The heat in Helmand did not announce itself. It simply was — a weight on the skin, a taste at the back of the throat, the constant low hum of generators and distant rotors that made silence feel like a thing you had to earn. Jonah Mercer had learned to stop waiting for it.
 
@@ -2053,7 +2305,9 @@ Victor Kane did not want his fuel, or his cargo, or his five per cent.
 
 Victor Kane wanted something Mercer had never sold and would not know how to price until it was already gone.
 
-# Chapter 12 — The Garrison
+---
+
+## Chapter 12 — The Garrison
 
 The Kestrel compound sat three kilometres off the main supply route, behind a berm that had been pushed up by bulldozers and blessed by no official survey. From the outside it looked like every other forward operating base in the province — Hesco walls, guard towers, satellite dishes, the grey geometry of temporary permanence. From the inside, it was something else entirely.
 
@@ -2173,7 +2427,9 @@ Mercer reassembled the pistol and loaded it and placed it under his pillow next 
 
 He did not sleep. He listened to the compound breathe its managed silence, and understood that in Victor Kane's country, even silence was a form of collection.
 
-# Chapter 13 — The Choice
+---
+
+## Chapter 13 — The Choice
 
 Mercer did not sleep. He lay on the cot and listened to the compound breathe — generators, footsteps, the occasional burst of laughter from the mess hall where Kestrel men drank with the freedom of people who owned the night. Lucy slept fitfully in the bunk above him, one hand dangling over the edge as if she had learned to rest lightly and wake quickly, a skill Mercer had taught her and now wished he had not.
 
@@ -2357,7 +2613,9 @@ Mercer thought of Davies on the road — *same arithmetic* — and of the girl h
 
 At dusk, when they chose the motor pool over the south wire, he told himself it was because vehicles were faster, not because Kane had predicted the south wire and wanted them predictable. He told himself many things in the last hour of his freedom. Freedom, he would learn on the night road, was also a story Kestrel wrote in advance.
 
-# Chapter 14 — The Night Road
+---
+
+## Chapter 14 — The Night Road
 
 They took Mercer alive, which surprised him more than the shooting.
 
@@ -2497,7 +2755,9 @@ Mercer's compass remained in the bag Stangerson's men collected and logged as ev
 
 Lucy, in Block C, did not know her father was dead yet. They told her he had run — the story required it — and she believed the part that mattered: he had chosen her over the signature. In the dark she held the blue dress and counted her breaths the way he had taught her on roads where counting was the only clock that did not belong to someone else.
 
-# Chapter 15 — The Witness
+---
+
+## Chapter 15 — The Witness
 
 James Hope wrote the report in a prefab office that smelled of toner and coffee gone cold, because writing was what interpreters did when the shooting finished and the language of violence needed translating into the language of liability.
 
@@ -2651,7 +2911,9 @@ At Lucy's memorial, Kane spoke of fever and fragility and the cost of frontier l
 
 That night he added a line to the journal: *Lucy Mercer, nineteen. Did not agree. Remember.* It was the shortest translation he had ever written, and the only one that did not feel like betrayal.
 
-# Chapter 16 — The Vow
+---
+
+## Chapter 16 — The Vow
 
 They invalided Hope out in March — not honourably, not dishonourably, with the quiet administrative violence of a contract terminated for "operational suitability concerns." He had asked one question too many at a Kabul liaison meeting about Mercer’s death. He had copied one file too many from a shared drive. He had looked at Crowe across a conference table with an expression that forgot to pretend ignorance.
 
@@ -2705,7 +2967,9 @@ By the sixth year he could predict Crowe's Tube carriage and Stangerson's hotel 
 
 When he booked the Aldgate Crown under Harper's name, he paid a week in advance and chose the corridor sightline Stangerson used on Tuesdays.
 
-# Chapter 17 — The Thread
+---
+
+## Chapter 17 — The Thread
 
 Hope had booked The Aldgate Crown under a name that was not his own — corporate habit, the hotel
 that swallowed Kestrel men whole — and waited in the service corridor until room 412 was empty of
@@ -2836,7 +3100,9 @@ relic, gift for a detective who collected trifles the way other men collected de
 
 Ahead, the net.
 
-# Chapter 18 — The Reckoning
+---
+
+## Chapter 18 — The Reckoning
 
 The ride-hail account had been opened forty-one hours before Damian Crowe died, with a prepaid card bought at a newsagent in Peckham and a burner phone that never made a voice call. Holmes had the warrant by nine that morning and the data by half past, laid out on our kitchen table in a fan of printouts because he still did not trust screens to keep their shape when a man needed to think.
 
@@ -3067,7 +3333,9 @@ I sat at the laptop before I slept. Not the post the comments wanted. I wrote wh
 
 Holmes read the draft and said nothing, which was approval enough. The case was closed in the files before breakfast. The case, I suspected, was not closed at all.
 
-# Epilogue
+---
+
+## Epilogue
 
 A fortnight after Camberwell the flat had learned its old rhythms again—cold coffee on the bench,
 chemical quiet from the front room, Mrs Hudson's tread on the stairs at nine and six.
@@ -3136,3 +3404,5 @@ that go quiet after a case closes.*
 Holmes read the draft, handed it back, and went to the violin. A scale until the windows trembled.
 
 The case was closed. We were not.
+
+---
