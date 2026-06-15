@@ -81,6 +81,17 @@ SERIES = [
     ("The Salt Veil", "#B0814A"),
 ]
 
+# Per-book descriptive tagline shown on the shelf card + book page (under the title).
+# The Reichenbach Files are present-day transpositions of Doyle — canon-true, not loose
+# adaptation; the tagline says so up front. Keyed by book id; absent id => no tagline.
+TAGLINE = {
+    "modern-sherlock":   "A Modern Retelling, True to the Original",
+    "modern-sherlock-2": "A Modern Retelling, True to the Original",
+    "modern-sherlock-3": "A Modern Retelling, True to the Original",
+    "modern-sherlock-4": "A Modern Retelling, True to the Original",
+    "modern-sherlock-5": "A Modern Retelling, True to the Original",
+}
+
 CURATED = [
     # id, title, subtitle, series, root(relative), export_subdir, fallback_blurb
     ("resonance", "RESONANCE", "The African Gold Trilogy · Book I", "The African Gold Trilogy",
@@ -688,6 +699,8 @@ section.series{padding:46px 0 8px}
 .card .titlelink:hover h3{color:var(--accent,var(--gold))}
 .card .ser{font-family:"Space Grotesk";font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent,var(--ochre))}
 .card h3{margin:.2em 0 0;font-size:19px;font-family:"Cormorant Garamond",serif;font-weight:600}
+.card p.tagline{flex:0;margin:.1em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;
+  font-size:14.5px;color:var(--accent,var(--ochre));opacity:.92}
 .card p{margin:0;color:var(--bonedim);font-size:14px;flex:1}
 .badge{align-self:flex-start;font-size:11px;font-family:"Space Grotesk";letter-spacing:.08em;
   padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--grass)}
@@ -741,6 +754,7 @@ section.series{padding:46px 0 8px}
 .bookhero .cover{aspect-ratio:400/620;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.5)}
 .bookhero h1{font-family:"Cormorant Garamond",serif;font-size:46px;margin:.1em 0 .1em}
 .bookhero .sub{color:var(--ochre);font-family:"Space Grotesk";letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+.bookhero .tagline{margin:.2em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:20px;color:var(--ochre)}
 .bookhero .syn{font-size:18px;color:var(--bone);margin-top:18px;max-width:60ch}
 .back{font-family:"Space Grotesk";font-size:13px;color:var(--bonedim)}
 
@@ -924,7 +938,7 @@ def card(e: dict, accent: str) -> str:
 <a class="coverlink" href="{href}">{cover}</a>
 <div class="body">
 <a class="titlelink" href="{href}"><span class="ser">{html.escape(e['subtitle'] or e['series'])}</span>
-<h3>{html.escape(e['title'])}</h3></a>
+<h3>{html.escape(e['title'])}</h3></a>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(TAGLINE.get(e['id']))}
 <p>{html.escape(truncate(e['blurb'], 150))}</p>
 {badge}{dls}</div></div>"""
 
@@ -1418,7 +1432,7 @@ def render_book(e: dict) -> str:
         f"""<div class="wrap"><div class="bookhero">
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
-<h1>{html.escape(e['title'])}</h1>
+<h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{wiki}{soon}
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
