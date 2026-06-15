@@ -1,5 +1,7 @@
 # The Sheltering Desert
 
+### *The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII*
+
 **A Standalone Novel**
 
 Andries J. Greyling
