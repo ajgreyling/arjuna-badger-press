@@ -12,6 +12,7 @@ Deploy: serve site/public/ with Caddy (see site/README.md).
 from __future__ import annotations
 
 import html
+import os
 import re
 import shutil
 from pathlib import Path
@@ -24,6 +25,14 @@ OUT = REPO / "site" / "public"
 DOMAIN = "https://arjunabadger.press"
 PUBLIC_EMAIL = "info@arjunabadger.press"
 TAGLINE = "Your story, told true."
+
+# ── Analytics (Plausible Cloud) ───────────────────────────────────────────────────────────────
+# Privacy-first, no-cookie analytics. Set PLAUSIBLE_DOMAIN to the site domain registered in your
+# plausible.io account (almost always "arjunabadger.press" — the bare host, no scheme). When set,
+# head() emits the Plausible script with the file-downloads + outbound-links extension, which
+# auto-tracks every EPUB/PDF download (links carry `download` + `class="dl"`) with NO per-link code.
+# Leave empty to disable (no snippet emitted). Env var ABP_PLAUSIBLE_DOMAIN overrides.
+PLAUSIBLE_DOMAIN = os.environ.get("ABP_PLAUSIBLE_DOMAIN", "arjunabadger.press")
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -644,6 +653,20 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          'family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">')
 
 
+def plausible_snippet() -> str:
+    """Plausible analytics — no-cookie, privacy-first. Emitted only when PLAUSIBLE_DOMAIN is set.
+    The `file-downloads.outbound-links` script variant auto-tracks every EPUB/PDF download (links
+    carry the `download` attribute) and every outbound link — no per-link tagging needed. The inline
+    shim queues events before the async script loads."""
+    if not PLAUSIBLE_DOMAIN:
+        return ""
+    return (
+        f'<script defer data-domain="{html.escape(PLAUSIBLE_DOMAIN, quote=True)}" '
+        f'src="https://plausible.io/js/script.file-downloads.outbound-links.js"></script>\n'
+        '<script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>'
+    )
+
+
 def head(title: str, desc: str, rel: str = "") -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -658,6 +681,7 @@ def head(title: str, desc: str, rel: str = "") -> str:
 <link rel="apple-touch-icon" href="{rel}assets/brand/favicon-180.png">
 {FONTS}
 <link rel="stylesheet" href="{rel}assets/site.css">
+{plausible_snippet()}
 </head><body>"""
 
 
