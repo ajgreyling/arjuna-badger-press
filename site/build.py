@@ -596,6 +596,31 @@ section.series{padding:46px 0 8px}
   border:1px solid var(--ochre);color:var(--ochre)} .dl:hover{background:rgba(229,181,103,.1);color:var(--gold)}
 .dl.solid{background:var(--ochre);color:var(--black)} .dl.solid:hover{background:var(--gold);color:var(--black)}
 
+/* "which book first?" recommender */
+.start{max-width:760px}
+.qblock{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:22px 0;background:var(--card)}
+.qblock legend{font-family:"Space Grotesk";font-weight:600;color:var(--gold);font-size:15px;padding:0 8px}
+.qopts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.qopt{font-family:"Inter",sans-serif;font-size:14.5px;text-align:left;cursor:pointer;
+  padding:10px 14px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--bone);
+  transition:all .15s}
+.qopt:hover{border-color:var(--ochre);color:var(--gold)}
+.qopt[aria-pressed="true"]{border-color:var(--gold);background:rgba(229,181,103,.12);color:var(--gold);font-weight:600}
+.qactions{display:flex;gap:12px;justify-content:center;margin-top:26px;flex-wrap:wrap}
+.qactions .btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
+#result{margin-top:18px}
+.reccard{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:start;
+  border:1px solid var(--line);border-left:3px solid var(--accent,var(--ochre));border-radius:12px;
+  padding:18px;background:var(--card);margin:14px 0}
+.reccard.lead{grid-template-columns:160px 1fr;padding:22px}
+.reccard .cover{width:100%;aspect-ratio:400/620;border-radius:8px;box-shadow:0 10px 28px rgba(0,0,0,.45)}
+.reccard .ser{font-family:"Space Grotesk";font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent,var(--ochre))}
+.reccard h3{margin:.2em 0 .3em;font-size:21px} .reccard.lead h3{font-size:26px}
+.reccard h3 a{color:var(--bone)} .reccard h3 a:hover{color:var(--gold)}
+.reccard .blurb{color:var(--bonedim);font-size:15px;line-height:1.55;margin:.3em 0}
+.recrunners{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:640px){.recrunners{grid-template-columns:1fr}.reccard,.reccard.lead{grid-template-columns:90px 1fr;gap:14px}}
+
 /* book page */
 .bookhero{display:grid;grid-template-columns:300px 1fr;gap:42px;padding:48px 0}
 .bookhero .cover{aspect-ratio:400/620;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.5)}
@@ -765,6 +790,205 @@ def card(e: dict, accent: str) -> str:
 {badge}{dls}</div></div>"""
 
 
+# Client-side engine for the recommender. Pure, deterministic: sums answer weights, picks the max,
+# breaks ties by the server-provided priority order. No randomness anywhere.
+START_JS = r"""
+(function(){
+  var D = JSON.parse(document.getElementById('startdata').textContent);
+  var Q = D.quiz, BOOKS = D.books, PRIORITY = D.priority;
+  var order = ['q1','q2','q3'];
+  var picks = {};        // qid -> chosen option index
+  var quizEl = document.getElementById('quiz');
+  var resEl = document.getElementById('result');
+
+  function esc(s){var d=document.createElement('div');d.textContent=s==null?'':s;return d.innerHTML;}
+
+  function render(){
+    var html = '';
+    order.forEach(function(qid){
+      var q = Q[qid];
+      html += '<fieldset class="qblock"><legend>'+esc(q.prompt)+'</legend><div class="qopts">';
+      q.options.forEach(function(opt, i){
+        var on = picks[qid]===i ? ' aria-pressed="true"' : ' aria-pressed="false"';
+        html += '<button type="button" class="qopt" data-q="'+qid+'" data-i="'+i+'"'+on+'>'+esc(opt[0])+'</button>';
+      });
+      html += '</div></fieldset>';
+    });
+    html += '<div class="qactions"><button type="button" id="seeResult" class="btn" disabled>Show my book</button>';
+    html += '<button type="button" id="resetQuiz" class="btn ghost" hidden>Start over</button></div>';
+    quizEl.innerHTML = html;
+    quizEl.querySelectorAll('.qopt').forEach(function(b){
+      b.addEventListener('click', function(){
+        var qid=b.getAttribute('data-q'), i=+b.getAttribute('data-i');
+        picks[qid]=i; render();
+      });
+    });
+    var done = order.every(function(qid){return picks[qid]!=null;});
+    var see = document.getElementById('seeResult');
+    see.disabled = !done;
+    see.addEventListener('click', showResult);
+    var rs = document.getElementById('resetQuiz');
+    if(Object.keys(picks).length){ rs.hidden=false; rs.addEventListener('click', function(){picks={};resEl.hidden=true;render();window.scrollTo({top:0,behavior:'smooth'});}); }
+  }
+
+  function score(){
+    var s = {};
+    order.forEach(function(qid){
+      var i = picks[qid]; if(i==null) return;
+      var w = Q[qid].options[i][1];
+      for(var id in w){ s[id]=(s[id]||0)+w[id]; }
+    });
+    // rank: by score desc, then by priority order (deterministic tie-break)
+    var prank = {}; PRIORITY.forEach(function(id,idx){prank[id]=idx;});
+    var ids = Object.keys(s).filter(function(id){return BOOKS[id];});
+    ids.sort(function(a,b){
+      if(s[b]!==s[a]) return s[b]-s[a];
+      return (prank[a]==null?999:prank[a]) - (prank[b]==null?999:prank[b]);
+    });
+    return ids;
+  }
+
+  function cardHTML(id, lead){
+    var b = BOOKS[id];
+    var links = '<div class="dls" style="margin-top:12px">';
+    if(b.available){
+      links += '<a class="dl solid" href="'+b.read+'">Read free online</a>';
+      links += '<a class="dl" href="'+b.book+'">About this book</a>';
+    } else {
+      links += '<a class="dl" href="'+b.book+'">About this book</a>';
+    }
+    links += '</div>';
+    return '<div class="reccard'+(lead?' lead':'')+'" style="--accent:'+b.accent+'">'
+      + '<a class="coverlink" href="'+b.book+'"><img class="cover" loading="lazy" src="'+b.cover+'" alt="'+esc(b.title)+' cover"></a>'
+      + '<div class="recbody"><span class="ser">'+esc(b.sub)+'</span>'
+      + '<h3><a href="'+b.book+'">'+esc(b.title)+'</a></h3>'
+      + (lead? '<p class="blurb">'+esc(b.blurb)+'</p>' : '')
+      + links + '</div></div>';
+  }
+
+  function showResult(){
+    var ids = score();
+    if(!ids.length){ return; }
+    var top = ids[0], runners = ids.slice(1,3);
+    var html = '<p class="eyebrow" style="text-align:center;margin-top:8px">Start here</p>';
+    html += '<h2 style="text-align:center;margin:.2em 0 .6em">'+esc(BOOKS[top].title)+'</h2>';
+    html += cardHTML(top, true);
+    if(runners.length){
+      html += '<p class="eyebrow" style="text-align:center;margin-top:28px">If that\'s not your thing, try</p>';
+      html += '<div class="recrunners">'+runners.map(function(id){return cardHTML(id,false);}).join('')+'</div>';
+    }
+    html += '<p style="text-align:center;margin-top:22px;font-size:14px;color:var(--grass)">Same answers always give the same book — it\'s a simple, transparent match, not a black box.</p>';
+    resEl.innerHTML = html;
+    resEl.hidden = false;
+    resEl.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+
+  render();
+})();
+"""
+
+# ── "Which book should I read first?" — a DETERMINISTIC recommender ────────────────────────────
+# Built from the catalogue's own "For readers of X & Y" comp-authors. Each quiz answer adds integer
+# weights to book ids; the highest total wins; ties break by START_PRIORITY (a fixed order, so the
+# result is 100% reproducible — same answers always give the same book). No randomness, no runtime
+# model: tools measure, they don't generate.
+#
+# Q1 flavour (series clusters) · Q2 an author/story you love (the strongest signal, direct comp) ·
+# Q3 mood. Weights are deliberately small ints; Q2 carries the most because taste is the best signal.
+
+START_QUIZ = {
+    "q1": {
+        "prompt": "What are you in the mood for?",
+        "options": [
+            ("A grounded, science-real thriller", {"resonance": 5, "relic": 4, "revelation": 4, "book5-egypt": 2}),
+            ("An ancient-mystery adventure", {"book1-africa": 5, "relic": 4, "book2-india": 3, "book5-egypt": 3, "crop-circles": 3}),
+            ("A true story of real people", {"sheltering-desert": 5, "project-stargate": 4, "jakobus-silver-thread": 3, "wrath-of-achilles": 2}),
+            ("Something quiet, literary and human", {"the-loneliest": 5, "unheard-japan": 4, "jakobus-the-recitation": 3, "the-song-of-the-self": 3}),
+            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4}),
+        ],
+    },
+    "q2": {
+        "prompt": "Pick the writer or story closest to your taste",
+        "options": [
+            ("Dan Brown · James Rollins", {"revelation": 6, "book1-africa": 3, "book2-india": 3, "relic": 2}),
+            ("Andy Weir · hard sci-fi", {"resonance": 6, "relic": 2}),
+            ("Michael Crichton · Clive Cussler", {"relic": 6, "book5-egypt": 3, "book4-india-tamil": 2, "resonance": 2}),
+            ("Graham Hancock · ancient mysteries", {"book1-africa": 6, "book2-india": 4, "book3-india-deccan": 4, "book5-egypt": 4, "crop-circles": 3}),
+            ("Wilbur Smith · Deon Meyer (Africa)", {"jakobus-silver-thread": 6, "jakobus-the-recitation": 4, "relic": 3, "sheltering-desert": 3}),
+            ("Kazuo Ishiguro · Patricia Highsmith", {"the-loneliest": 6, "unheard-japan": 4}),
+            ("Bruce Chatwin · travel & peoples", {"unheard-mongolia": 6, "australia-outback": 4, "unheard-japan": 2}),
+            ("Annie Jacobsen · Jon Ronson (the strange-but-true)", {"project-stargate": 6, "crop-circles": 4}),
+            ("Homer · Madeline Miller (myth)", {"wrath-of-achilles": 6, "the-song-of-the-self": 3}),
+            ("Hermann Hesse · Paulo Coelho (the inward journey)", {"the-song-of-the-self": 6, "the-loneliest": 2}),
+        ],
+    },
+    "q3": {
+        "prompt": "And the pace?",
+        "options": [
+            ("Propulsive — I want to turn pages", {"relic": 3, "revelation": 3, "resonance": 2, "book2-india": 2}),
+            ("A slow burn I can sink into", {"the-loneliest": 3, "unheard-japan": 3, "jakobus-the-recitation": 2, "unheard-mongolia": 2}),
+            ("Teach me something real", {"book1-africa": 3, "project-stargate": 3, "wrath-of-achilles": 2, "sheltering-desert": 2}),
+        ],
+    },
+}
+
+# Tie-break / natural entry order — the front door of the library when scores are equal.
+START_PRIORITY = [
+    "resonance", "book1-africa", "relic", "revelation", "the-loneliest", "wrath-of-achilles",
+    "sheltering-desert", "unheard-japan", "project-stargate", "book5-egypt", "jakobus-silver-thread",
+    "book2-india", "unheard-mongolia", "crop-circles", "the-song-of-the-self",
+    "jakobus-the-recitation", "book3-india-deccan", "book4-india-tamil", "australia-outback",
+    "the-jakobus-file",
+]
+
+
+def render_start(entries: list[dict]) -> str:
+    import json
+    by_id = {e["id"]: e for e in entries}
+    accents = dict(SERIES)
+    # compact book data the result cards need (client-side render)
+    books = {}
+    for e in entries:
+        ext = "png" if e.get("real_cover") else "svg"
+        # first epub / pdf download names
+        dl = {}
+        for f in e["downloads"]:
+            x = f.suffix.lower().lstrip(".")
+            dl.setdefault(x, f.name)
+        books[e["id"]] = {
+            "title": e["title"], "sub": e["subtitle"] or e["series"], "series": e["series"],
+            "blurb": e["blurb"] or "", "cover": f"assets/covers/{e['id']}.{ext}",
+            "book": f"book/{e['id']}.html", "read": f"read/{e['id']}.html",
+            "accent": accents.get(e["series"], "#C8A86B"),
+            "available": e["available"], "epub": dl.get("epub", ""), "pdf": dl.get("pdf", ""),
+        }
+    # only keep priority ids that actually exist
+    priority = [i for i in START_PRIORITY if i in by_id]
+    data = {"quiz": START_QUIZ, "books": books, "priority": priority}
+    blob = json.dumps(data, ensure_ascii=False)
+
+    body = f"""<article class="reader letter start">
+<p class="eyebrow" style="text-align:center">Find your way in</p>
+<h1 style="text-align:center">Which book should you read first?</h1>
+<p style="text-align:center;max-width:60ch;margin:0 auto 8px;color:var(--bonedim)">
+Twenty books is a lot to choose from. Answer three quick questions and we'll point you at the one to
+start with — free to read, right now. It's a simple, transparent match on the kind of stories you
+already love; no sign-up, no catch.</p>
+<div id="quiz"></div>
+<div id="result" hidden></div>
+<p style="text-align:center;margin-top:28px"><a class="back" href="index.html#library">Or just browse the whole library &rarr;</a></p>
+</article>
+<script id="startdata" type="application/json">{blob}</script>
+<script>{START_JS}</script>"""
+    return "\n".join([
+        head("Which book should you read first? — Arjuna Badger Press",
+             "Answer three quick questions and we'll recommend the Arjuna Badger Press book to start with — free to read."),
+        nav(),
+        body,
+        footer(),
+    ])
+
+
 def render_index(entries: list[dict]) -> str:
     accents = dict(SERIES)
     avail = sum(1 for e in entries if e["available"])
@@ -777,9 +1001,9 @@ def render_index(entries: list[dict]) -> str:
 <div class="tag serif">{TAGLINE}</div>
 <p class="lead">A publishing house with the archer's eye and the badger's nerve. We finish books to a
 studio standard, give the door away free to the unheard, and route most of the money back to the artist.</p>
-<div class="cta"><a class="btn" href="#library">Browse the library</a>
-<a class="btn ghost" href="#mission">Read the mission</a>
-<a class="btn ghost" href="bounty.html">Prove us wrong — get paid →</a></div>
+<div class="cta"><a class="btn" href="start.html">Not sure where to start? →</a>
+<a class="btn ghost" href="#library">Browse the library</a>
+<a class="btn ghost" href="#mission">Read the mission</a></div>
 </div></header><hr class="hr">""")
 
     parts.append(f"""<section class="mission" id="mission"><div class="wrap">
@@ -1390,6 +1614,7 @@ def main() -> None:
             (OUT / "read" / f'{e["id"]}.html').write_text(render_reader(e), encoding="utf-8")
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
+    (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
     for src_name, out_name, title, desc in LETTERS:
         page = render_letter(src_name, title, desc)
         if page:
