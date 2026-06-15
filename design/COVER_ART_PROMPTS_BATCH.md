@@ -91,5 +91,30 @@
 > long shadows across the salt. The men hold the thrones; the women hold everything else. Bone-white
 > salt, ochre stone, gold light, indigo veils. Mythic, austere, female power. No text. --ar 2:3 --style raw --v 6
 
+---
+
+## Companions (reverent retellings — dignified & iconic, not action covers)
+
+### `the-song-of-the-self` — *The Song of the Self*  (a reverent retelling of the Bhagavad Gita)
+> A cinematic matte-painting cover, portrait. The still moment before the great battle of the
+> Bhagavad Gita: a war chariot halted between two vast armies on the dusty plain of Kurukshetra at
+> dawn. The warrior Arjuna sits with his bow lowered, head bowed in doubt; beside him the calm,
+> luminous figure of his charioteer Krishna, turned to counsel him — radiant but never gaudy. The
+> armies are a hazy suggestion on either horizon, conches and banners catching the first light. The
+> mood is reverent, interior, the hush of a soul deciding — not the clash. Warm dawn gold, dust-rose,
+> deep blue shadow, a soft sacred light around the two figures. Respectful, timeless, no kitsch, no
+> deity clichés. No text. --ar 2:3 --style raw --v 6
+
+### `the-wrath-of-achilles` — *The Wrath of Achilles*  (the Iliad, plainly told)
+> A cinematic matte-painting cover, portrait. The Iliad in one image: a lone Greek warrior in bronze
+> armour stands on the windswept shore below the walls of Troy at dusk, his back to us, looking up at
+> the distant burning city across the plain. Black ships are drawn up on the dark beach behind him;
+> his shield rests at his side, his grief and rage held in his stillness. Far off, the high towers of
+> Ilium glow against a bruised sky. Elegiac, monumental, the weight of fate and a single man's anger —
+> the cost of glory. Bronze and ember, wine-dark sea, ash-grey sky, one shaft of failing gold light.
+> Homeric, austere, no fantasy armour. No text. --ar 2:3 --style raw --v 6
+
+---
+
 > **The Reichenbach Files 2–5** — also coming-soon; can stay on the simple placeholder covers for now, or
 > I can write prompts for these too when you want to push them up.
