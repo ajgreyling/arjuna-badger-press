@@ -1,0 +1,22 @@
+% Arjuna Badger Press — PDF header for "The File" dossier styling.
+% Defines a `dossier` environment that switches body text to Courier Prime (a real typewriter face),
+% so the pandoc fenced div `::: dossier` renders as a typed intelligence document in the PDF.
+% Included via tools/render_book.sh (-H assets/dossier-pdf.tex). Requires a Unicode engine
+% (xelatex/tectonic) + fontspec, which the gate already uses.
+
+\usepackage{fontspec}
+
+% Courier Prime as a named font family (vendored in assets/fonts/, OFL).
+\newfontfamily\dossierfont[
+  Path = \ABPFONTDIR/ ,
+  UprightFont = CourierPrime-Regular.ttf ,
+  BoldFont = CourierPrime-Bold.ttf ,
+  ItalicFont = CourierPrime-Italic.ttf ,
+  BoldItalicFont = CourierPrime-BoldItalic.ttf ,
+]{Courier Prime}
+
+% The environment pandoc emits for `::: dossier`. Switch to the typewriter face,
+% ragged-right (typewriters don't justify), slightly looser leading.
+\newenvironment{dossier}
+  {\par\dossierfont\raggedright\setlength{\parindent}{0pt}\linespread{1.05}\selectfont}
+  {\par}

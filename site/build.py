@@ -37,6 +37,7 @@ SERIES = [
     ("The Why Files", "#9A8B6B"),
     ("The Unheard", "#6B8C9A"),
     ("Standalones", "#B49A6A"),
+    ("Non-fiction", "#7BA88C"),
     ("Companions", "#8C7BA8"),
 ]
 
@@ -87,7 +88,7 @@ CURATED = [
      "the-unheard/books/mongolia-steppe", "build/export",
      "A herder's daughter sent back as the friendly face of the survey that will fence her father's pasture — and a crew who came for the empty land of Genghis learns the emptiest-looking country on earth is the most precisely known."),
 
-    ("sheltering-desert", "The Sheltering Desert", "A standalone novel · true story", "Standalones",
+    ("sheltering-desert", "The Sheltering Desert", "A true story", "Non-fiction",
      "the-sheltering-desert", "build/export",
      "In May 1940 two German geologists drove into the Namib rather than be interned — and survived two and a half years by real bushcraft against a desert that did not care whether they lived."),
 
@@ -95,11 +96,11 @@ CURATED = [
      "the-loneliest", "build/export",
      "A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man — the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant."),
 
-    ("the-song-of-the-self", "The Song of the Self", "A companion", "Companions",
+    ("the-song-of-the-self", "The Song of the Self", "A reverent retelling of the Bhagavad Gita", "Non-fiction",
      "history-before-time/companions/the-song-of-the-self", "export",
-     "A companion piece — the Gita's quiet question carried into the History Before Time world."),
+     "A reverent retelling of the Bhagavad Gita — its quiet question, who acts and for whom, carried with care into the History Before Time world."),
 
-    ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad · companion", "Companions",
+    ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad, plainly told", "Non-fiction",
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
 ]
@@ -191,11 +192,21 @@ def md_to_html(md: str) -> str:
             return f'<a href="{href}">{fmt_label(m.group(1))}</a>'
 
         t = html.escape(t)
-        t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link_repl, t)
+        # Replace links first, then SHIELD the finished <a …>…</a> tags from the emphasis/code
+        # passes below — otherwise an underscore inside a URL (e.g. CREATIVE_THESIS.md) gets
+        # mangled into href="CREATIVE<em>THESIS.md". Stash anchors, transform, restore.
+        _anchors: list[str] = []
+
+        def _stash(m: "re.Match[str]") -> str:
+            _anchors.append(link_repl(m))
+            return f"\x00A{len(_anchors) - 1}\x00"
+
+        t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _stash, t)
         t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
         t = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", t)
         t = re.sub(r"_(.+?)_", r"<em>\1</em>", t)
         t = re.sub(r"`(.+?)`", r"<code>\1</code>", t)
+        t = re.sub(r"\x00A(\d+)\x00", lambda m: _anchors[int(m.group(1))], t)
         return t
 
     def close_list():
@@ -659,7 +670,7 @@ def audiobook_notice() -> str:
 def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}index.html#mission">Mission</a>
+<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a><a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
 </div></div>{audiobook_notice()}"""
 
@@ -766,8 +777,10 @@ Free for every writer who has a story and has never been shown how to begin.</p>
 of an autonomous manuscript-craft studio — a continuity engine, a manuscript scorer, and a
 fact-and-balance gate that stand guard while a human writes the soul of the thing. The tools measure
 and sound the alarm; they never write your voice for you. {avail} finished books are on the shelf
-above, free to read and download. <a href="letter.html">Why this house exists — a letter &rarr;</a></p>
-<div class="cta" id="write"><a class="btn" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
+above, free to read and download. <a href="technology.html">See how the technology works &rarr;</a> ·
+<a href="letter.html">Why this house exists — a letter &rarr;</a></p>
+<div class="cta" id="write"><a class="btn" href="technology.html">How the technology works</a>
+<a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Publish with us</a></div>
 </div></section>""")
 
@@ -877,6 +890,8 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
         "docs/CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
         "craft/CRAFT_DOCTRINE.md": "doctrine.html",
         "academic/TRIPTYCH_FORM.md": "../triptych-form.html" if in_terms else "triptych-form.html",
+        # the thesis (at site root) links `craft/TRIPTYCH_FORM.md` → the generated craft page
+        "craft/TRIPTYCH_FORM.md": "craft/triptych-form.html",
         "../FOR_AUTHORS.md": "../../for-authors.html" if in_terms else "../for-authors.html",
         "FOR_AUTHORS.md": "../for-authors.html",
         "../THE_PRESS_THESIS.md": "../../the-press-thesis.html" if in_terms else "../the-press-thesis.html",
@@ -968,6 +983,9 @@ def docs_rewrite_links(md: str) -> str:
         "craft/README.md": "craft/index.html",
         "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
         "craft/LLM_TELLS.md": "craft/llm-tells.html",
+        "craft/TRIPTYCH_FORM.md": "craft/triptych-form.html",
+        "craft/CRAFT_DOCTRINE.md": "craft/doctrine.html",
+        "craft/ANTI_PATTERNS.md": "craft/anti-patterns.html",
     }
     out = md
     for old, new in reps.items():
@@ -980,7 +998,12 @@ DOC_PAGES = [
      "Grounded fiction, guarded intention — proof to be determined by the qualitative judgment of human readers."),
     ("FOR_AUTHORS.md", "for-authors", "The workshop — for authors & editors",
      "Ingest published work and notes, answer twenty wizard questions, click Go — return to a proofread-ready manuscript. Not just for beginners."),
+    ("TECHNOLOGY.md", "technology", "The technology behind the library",
+     "A plain-English, diagram-led tour of the manuscript-craft studio: the architecture, the guardrails, and the one invariant — tools measure and sound the alarm; they do not generate, and they do not drive."),
 ]
+
+
+GITHUB_REPO = "https://github.com/ajgreyling/arjuna-badger-press/blob/master"
 
 
 def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | None:
@@ -988,6 +1011,7 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
     if not src.is_file():
         return None
     body = md_to_html(docs_rewrite_links(src.read_text(encoding="utf-8", errors="ignore")))
+    gh = f'{GITHUB_REPO}/docs/{src_name}'
     return "\n".join([
         head(title, desc),
         nav(),
@@ -997,7 +1021,8 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
         '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
         '<a href="craft/index.html">Craft Library</a> · '
         '<a href="wiki/index.html">Place Wiki</a> · '
-        '<a href="index.html#press">The technology</a> · '
+        '<a href="index.html#press">The Press</a> · '
+        f'<a href="{gh}">View this document on GitHub</a> · '
         '<a href="index.html#write">Write with us</a></p>',
         '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#writers">&larr; Back to the library</a></p>',
         '</article>',
@@ -1060,9 +1085,12 @@ def render_wiki_page(slug: str, md: str, *, index: bool = False) -> str:
         if not index
         else '<p style="text-align:center;margin-top:24px"><a class="back" href="../index.html#places">&larr; Back to the library</a></p>'
     )
+    # The wiki INDEX lives at wiki/index.html — one level deep, same as every other wiki page —
+    # so it needs rel="../" too (earlier code wrongly used "" here, breaking the landing page's
+    # CSS / logo / nav). All wiki pages are at wiki/<x>.html → rel is always "../".
     return "\n".join([
-        head(f"{title} — Arjuna Badger Press", desc, rel="../" if not index else ""),
-        nav(rel="../" if not index else ""),
+        head(f"{title} — Arjuna Badger Press", desc, rel="../"),
+        nav(rel="../"),
         f'<article class="{article_class}">',
         f'<p class="eyebrow" style="text-align:center">{eyebrow}</p>',
         body,
@@ -1086,7 +1114,7 @@ def build_wiki(out: Path) -> int:
     index_src = WIKI_DIR / "README.md"
     if index_src.is_file():
         md = index_src.read_text(encoding="utf-8", errors="ignore")
-        md = re.sub(r"\]\(([^)/#]+\.md)\)", lambda m: f"]({Path(m.group(1)).stem}.html)", md)
+        md = rewrite_wiki_links(md, slug=None)
         (wiki_out / "index.html").write_text(render_wiki_page("index", md, index=True), encoding="utf-8")
         n += 1
     for src in sorted(WIKI_DIR.glob("*.md")):
@@ -1094,11 +1122,36 @@ def build_wiki(out: Path) -> int:
             continue
         slug = src.stem
         md = prepare_wiki_images(src.read_text(encoding="utf-8", errors="ignore"), slug, assets_root / slug)
-        md = re.sub(r"\]\(([^)/#]+\.md)\)", lambda m: f"]({Path(m.group(1)).stem}.html)", md)
-        md = md.replace("../../books/", "../books/")
+        md = rewrite_wiki_links(md, slug=slug)
         (wiki_out / f"{slug}.html").write_text(render_wiki_page(slug, md), encoding="utf-8")
         n += 1
     return n
+
+
+def rewrite_wiki_links(md: str, *, slug: str | None) -> str:
+    """Rewrite the GitHub-correct links in a wiki .md so they resolve inside the deployed site.
+
+    The wiki .md files double as GitHub-readable source (where `README.md` and `../../books/.../
+    BOOK.md` are correct) and as site input. For the deploy tree:
+      • the "Read the book" link `](../../books/<...>/build/BOOK.md)` → the deployed reader
+        `](../read/<slug>.html)` (the wiki slug == the book id);
+      • any sibling `.md` link with no path → `<stem>.html`, EXCEPT `README.md` → `index.html`
+        (the wiki landing page is index.html, not README.html).
+    """
+    # 1) the "Read the book" BOOK.md link → the deployed read page
+    if slug:
+        md = re.sub(
+            r"\]\(\.\./\.\./books/[^)]*?/build/BOOK\.md\)",
+            f"](../read/{slug}.html)",
+            md,
+        )
+    # 2) sibling .md links (no slash) → .html, with README.md → index.html
+    def _md_to_html(m: "re.Match[str]") -> str:
+        name = m.group(1)
+        stem = "index" if name.lower() == "readme.md" else Path(name).stem
+        return f"]({stem}.html)"
+    md = re.sub(r"\]\(([^)/#]+\.md)\)", _md_to_html, md)
+    return md
 
 
 def render_letter(src_name: str, title: str, desc: str) -> str | None:
@@ -1176,13 +1229,26 @@ the road, not the obstacle, and that the work at the end of it is meant to be <e
     ])
 
 
+def reader_rewrite_links(md: str) -> str:
+    """Neutralize links in book back-matter that point at repo files NOT shipped to the deploy
+    tree (e.g. `[`design/IMAGE_COMPENDIUM.md`](../../design/IMAGE_COMPENDIUM.md)`). On GitHub those
+    relative links resolve to real files; on the static site they escape site/public, so we keep
+    the label and drop the dead href."""
+    # any link whose target climbs out of the book dir into design/ academic/ prompts/ etc. (.md)
+    return re.sub(
+        r"\[([^\]]+)\]\((?:\.\./)+(?:design|academic|prompts|\.claude|canon)/[^)]*\.md\)",
+        r"\1",
+        md,
+    )
+
+
 def render_reader(e: dict) -> str:
     if e.get("prepared_reader_md"):
-        body = md_to_html(e["prepared_reader_md"])
+        body = md_to_html(reader_rewrite_links(e["prepared_reader_md"]))
     elif e.get("reader_md"):
-        body = md_to_html(e["reader_md"])
+        body = md_to_html(reader_rewrite_links(e["reader_md"]))
     elif e.get("book_md"):
-        body = md_to_html(e["book_md"].read_text(encoding="utf-8", errors="ignore"))
+        body = md_to_html(reader_rewrite_links(e["book_md"].read_text(encoding="utf-8", errors="ignore")))
     else:
         body = ""
     dl = ""
