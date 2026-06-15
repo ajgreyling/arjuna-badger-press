@@ -146,7 +146,7 @@ CURATED = [
      "Before the saga, the soldier. The years between the Border War and the man we later meet — how an unkillable gentleness was forged, and what it cost. The grounded, human origin of Jakobus Swart."),
     ("jakobus-the-recitation", "The Recitation", "A Jakobus Swart story", "History Before Time",
      "history-before-time/books/jakobus-the-recitation", "build/export",
-     "Jakobus among the San — a story of the Kalahari, of debt and grace, and of the oldest way there is of telling. For readers of Wilbur Smith & Laurens van der Post."),
+     "Jakobus among the Bidhan of the Sahara — the desert years when a wandering South African learned the language, sat at the edge of the Quran, and carried out of it the setting-down of fear, without ever converting. A story of patience, water, and a recited Book. For readers of Wilbur Smith & Laurens van der Post."),
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
