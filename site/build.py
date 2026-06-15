@@ -34,7 +34,12 @@ TAGLINE = "Your story, told true."
 # Leave empty to disable (no snippet emitted). Env var ABP_PLAUSIBLE_DOMAIN overrides.
 PLAUSIBLE_DOMAIN = os.environ.get("ABP_PLAUSIBLE_DOMAIN", "arjunabadger.press")
 
-# ── The Honey Badger Bounty report form ───────────────────────────────────────────────────────
+# ── The Honey Badger Bounty — GATED (opens 25 June 2026) ──────────────────────────────────────
+# The bounty is NOT live yet. While BOUNTY_LIVE is False the site emits NO bounty surface at all:
+# no /bounty or /finders pages, no nav "Bounty" link, no site-wide anti-scam trust banner. Flip it
+# on for launch by setting env ABP_BOUNTY_LIVE=1 (or change the default here), then rebuild/deploy.
+BOUNTY_LIVE = os.environ.get("ABP_BOUNTY_LIVE", "") not in ("", "0", "false", "no")
+
 # Paste the Google Form URL here (or set env ABP_BOUNTY_FORM_URL) once it exists. While empty, the
 # "Report a find" links fall back to the bounty page itself, so there is never a dead link.
 BOUNTY_FORM_URL = os.environ.get("ABP_BOUNTY_FORM_URL", "")
@@ -791,8 +796,11 @@ def audiobook_notice() -> str:
 
 
 def trust_banner(rel: str = "") -> str:
-    """Site-wide anti-scam one-liner. SA WhatsApp scams prey on 'get paid' offers; we make the
-    boundary unmissable on every page: we never ask for money/OTP, we never DM you, we only pay."""
+    """Site-wide anti-scam one-liner — part of the bounty surface, so gated by BOUNTY_LIVE.
+    SA WhatsApp scams prey on 'get paid' offers; when the bounty is live we make the boundary
+    unmissable on every page: we never ask for money/OTP, we never DM you, we only pay."""
+    if not BOUNTY_LIVE:
+        return ""
     return (f"""<div class="trust-banner" role="note"><div class="wrap">
 🛡️ <strong>We never ask you for money or an OTP — we only ever pay you, and we never DM you first.</strong>
 <a href="{rel}bounty.html">How to know it's really us →</a>
@@ -800,9 +808,10 @@ def trust_banner(rel: str = "") -> str:
 
 
 def nav(rel: str = "") -> str:
+    bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a><a class="navhot" href="{rel}bounty.html">Bounty</a><a href="{rel}index.html#mission">Mission</a>
+<nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a>{bounty_link}<a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
 </div></div>{trust_banner(rel)}{audiobook_notice()}"""
 
@@ -1839,13 +1848,16 @@ def main() -> None:
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
-    (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
+    if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
+        (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     for src_name, out_name, title, desc in LETTERS:
         page = render_letter(src_name, title, desc)
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
+        if slug in ("bounty", "finders") and not BOUNTY_LIVE:
+            continue   # bounty surface is gated until launch (25 June 2026)
         page = render_doc_page(src_name, slug, title, desc)
         if page:
             (OUT / f"{slug}.html").write_text(page, encoding="utf-8")
