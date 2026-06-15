@@ -46,10 +46,7 @@ The kids in my old stories grew up and grew old, as kids do. The one in the titl
 
 ---
 
-*† An anagram of a beloved and gentle chronicler of India's hills, offered in homage and warm affection.
-The author of this book wrote these words; the borrowed name is a fond bow, not a claim — and its
-accidental rearrangement, for once, tells the truth.*
-
+*† **“Unborn Kids” is an anagram of RUSKIN BOND** — the gentle chronicler of India's hills — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Ruskin Bond did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 ---
 
 # A Stranger in Strange Lands

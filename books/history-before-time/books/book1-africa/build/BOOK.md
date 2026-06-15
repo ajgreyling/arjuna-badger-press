@@ -1,24 +1,4 @@
-# The Calendar of Stone
-
-**The African Gold Trilogy · Book One**
-
-Andries J. Greyling
-
----
-
-*The Calendar of Stone*
-
-Copyright © 2026 Andries J. Greyling. All rights reserved.
-
-This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is coincidental. Real places, historical traditions, and scientific and archaeological references are used in a fictional context.
-
-Published by the House of Greyling.
-
-ISBN: ___-_-_____-___-_  *(assigned at print)*
-
-*Per Ardua ad Magnum.*
-
----
+# Dedication
 
 *For Lisel.*
 
@@ -51,32 +31,6 @@ to what she actually is.
 She is the one I want beside me in any emergency. The bravest, truest person I know.
 
 Thank you, my love. For everything. *Sawubona* — I see you.
-
----
-
-## Contents
-
-- Chapter 1 — The Retraction
-- Chapter 02 — Margins
-- Chapter 3 — The Man in the Bad Shirt
-- Chapter 4 — The Order
-- Chapter 5 — The Instrument
-- Chapter 06 — It Rings
-- Chapter 7 — Vorster
-- Chapter 8 — Four Kilometres Down
-- Chapter 9 — The Ringing Gold
-- Chapter 10 — Bain's Kloof
-- Chapter 11 — The Map Is the Clue
-- Chapter 12 — The Stone City
-- Chapter 13 — Inheritance
-- Chapter 14 — The Highlands
-- Chapter 15 — The Cost
-- Chapter 16 — The Eyes
-- Chapter 17 — The Vault
-- Chapter 18 — The Calendar of Stone
-- Chapter 19 — Vindicated
-- Chapter 20 — The Thread Leaves Africa
-- The Real Places in This Book
 
 ---
 
@@ -166,8 +120,6 @@ She sat on the floor against her dead father's joinery with cold tea and a true 
 
 Sixty-three thousand years is a long time for a thing to wait under the sand. It had waited. It could wait a while longer.
 
----
-
 # Chapter 02 — Margins
 
 In the field there is a thing you do with a trowel where you scrape the flat of the blade across a surface and listen. Not look — listen. Soil has a voice. Compacted fill has a different voice from a natural deposit, the way a wall behind plaster sounds different from solid brick when you knock it, and a good excavator learns to hear the change before the eye can see it. You hold the trowel loose, almost lazy, and let the edge graze the dirt at a low angle, and the sound comes up through the steel and the handle and the bones of your hand: a dry shir over undisturbed ground, then, where someone two hundred years ago dug a hole and filled it back in, a softer note, a give, a swallowed sound like a finger drawn across a drum head. Jennefer had been doing it since she was twenty. She was thirty-four now and she was doing it in the back garden of a guesthouse in Paarl, on her knees in the heat, scraping for the foundation line of a Victorian outbuilding so that a developer could legally pour concrete over it, and the trowel was the same trowel, the blade worn down to a stub of its original width and the wood of the handle gone dark with the oil of her own grip, and the listening was the same listening.
@@ -220,9 +172,11 @@ That was the Saturday.
 
 ---
 
-On the Monday a man was sitting on the low wall outside her flat in Paarl.
+Four months she could account for, and some she couldn't. The Paarl guesthouse dig had been her last paid trench — late February, the lavender heat, the tar soft underfoot — and Klipgatrant had been the Saturday she shouldn't have taken; the panel had done the rest. Autumn had come and gone with contracts cancelled and the Cruiser eating diesel on trips she told herself were research. By July she'd had to leave the Boland cottage — the train at night, the cold off Paarl Mountain — for a back room in Observatory on Lower Main, cheaper, closer to the university labs she still couldn't get into. Winter now: bread-and-milk weather, the thin sun, Table's flat bulk with the southeaster pouring cloud over it instead of the granite domes of the valley. The flat had a low garden wall and a bare jacaranda and corrugated iron roofs climbing the lower slopes.
 
-She came up Lower Main in the thin winter sun with bread and a litre of milk in a packet cutting into her fingers, her mind on the rent and the lab debt and the nothing, and she saw him from forty metres off and her step did not break but something in her went still and attentive, the way it did over a fresh-cut trench. He was sitting on the wall the way a man sits who has decided to be exactly where he is, settled, his weight easy, his face turned half into the sun with his eyes closed behind a pair of cheap wraparound sunglasses. He wore a faded olive shirt gone soft and pale at the shoulders from a great deal of sun, and boots that had walked, and he had the air of a man who had all the time in the world and had decided, for reasons of his own, to spend some of it here, on this wall, outside her door.
+On a Monday in late July a man was sitting on that wall.
+
+She came up Lower Main with bread and a litre of milk in a packet cutting into her fingers, her mind on the rent and the lab debt and the nothing, and she saw him from forty metres off and her step did not break but something in her went still and attentive, the way it did over a fresh-cut trench. He was sitting on the wall the way a man sits who has decided to be exactly where he is, settled, his weight easy, his face turned half into the sun with his eyes closed behind a pair of cheap wraparound sunglasses. He wore a faded olive shirt gone soft and pale at the shoulders from a great deal of sun, and boots that had walked, and he had the air of a man who had all the time in the world and had decided, for reasons of his own, to spend some of it here, on this wall, outside her door.
 
 On his knee, flat, weighted against the wind with a single smooth stone the size of a fist, was one sheet of paper.
 
@@ -232,11 +186,9 @@ She slowed. The milk swung against her leg. He had not opened his eyes, but she 
 
 The part of her that listened to soil already knew the paper was about her.
 
----
-
 # Chapter 3 — The Man in the Bad Shirt
 
-The shirt was the kind of olive that had started life some braver colour and given up on it over a thousand washes, and it hung open over a field vest heavy with gear, the sleeves rolled back on bare forearms darker than his face, and the man wearing all of it had arranged himself on her low garden wall the way a cat arranges itself on a warm bonnet — completely, with no apparent intention of ever moving again. Paarl in July got a particular light in the late morning, thin and gold and slantwise, coming in low over the corrugated roofs and the telephone wires and the bare jacaranda that had no flowers on it in winter, with the great granite domes of the mountain standing pale behind the town, and the man sat in the middle of it with his face tipped up to take the warmth, and the smooth river stone on his knee held a single sheet of paper flat against the small mean wind that came down the street off the Berg River.
+The shirt was the kind of olive that had started life some braver colour and given up on it over a thousand washes, and it hung open over a field vest heavy with gear, the sleeves rolled back on bare forearms darker than his face, and the man wearing all of it had arranged himself on her low garden wall the way a cat arranges itself on a warm bonnet — completely, with no apparent intention of ever moving again. Observatory in July got a particular light in the late morning, thin and gold and slantwise, coming in low over the corrugated roofs and the telephone wires and the bare jacaranda that had no flowers on it in winter, with Table Mountain standing flat and pale-grey behind the town and the southeaster pouring cloud over the summit, and the man sat in the middle of it with his face tipped up to take the warmth, and the smooth river stone on his knee held a single sheet of paper flat against the small mean wind that came down Lower Main off the mountain.
 
 "You're a hard woman to bring good news to," he said, without getting up. "I've been to three wrong addresses and a deli that used to be your address. The koeksisters were good. I forgive you."
 
@@ -375,8 +327,6 @@ It rang twice.
 She opened her mouth to say something — she wasn't sure what; something with some dignity in it, some last small assertion that this was her decision and not his foregone conclusion.
 
 "And Jennefer—" she could hear it, impossibly, down the line, in the shape of the words: that he was smiling, "—wear proper boots. Where we're going, the ground's the whole point."
-
----
 
 # Chapter 4 — The Order
 
@@ -522,8 +472,6 @@ Ma Tshabalala smiled, and it took thirty years off her.
 
 "At dawn," she said. "Up the road. There's a calendar made of stone, and almost nobody knows how to read it, and I think you might." She handed the drawing back, and rose from the riempie chair with the slow care of old knees, and looked out at the dark where the escarpment was now just a deeper black against the stars. "Sleep. Jakobus will take you at first light. The stones only speak properly when the sun comes over the edge of the world — which is the first thing the people who set them there wanted you to understand."
 
----
-
 # Chapter 5 — The Instrument
 
 They left in the dark and Jakobus drove without the music.
@@ -627,8 +575,6 @@ He smiled then — the first real smile she'd seen from him since the music stop
 She took the meter. It was cold and solid and entirely without wonder, a box that did one honest thing.
 
 "Stand in the middle," he said.
-
----
 
 # Chapter 06 — It Rings
 
@@ -739,8 +685,6 @@ The man was well-dressed for a hilltop at dawn. Expensively casual — a soft ja
 The easy morning went cold around her.
 
 "Hendrik Vorster," the man said, and let the name sit a moment, as if it ought to mean something to her. "And you, Doctor, are exactly the person I've been looking for."
-
----
 
 # Chapter 7 — Vorster
 
@@ -890,8 +834,6 @@ She looked out at the highveld opening up below the ridge, going gold and enormo
 
 "Still in," she said.
 
----
-
 # Chapter 8 — Four Kilometres Down
 
 She found out what he was, finally, in the half-minute before they went down — and it was not what two weeks of borders and roadblocks and that terrible flat calm had taught her to expect.
@@ -1011,8 +953,6 @@ He had stopped dead.
 Ahead of her in the curving drive he had gone entirely still, the way he had gone still on the hilltop with three men by a car, every line of him listening, the brighter lamp held low so its beam pooled on the broken floor. And then his hand came back through the dark and found her arm, light, certain, and pressed once — *wait* — and held.
 
 "Vorster has money," he said, very quietly, his voice pitched to carry exactly as far as her and no further. "And money gets you mine clearance faster than idealism does. Faster than Ma can. He's been buying his way underground while we walked." His grip on her arm did not tighten; it simply stayed, steady as the rock. "So we walk softer now. And whatever you do—" his voice was very level, and in the dark she could not see his face, only feel the care in the words, "—don't run in here. I mean it. Not for him, not for anything. People who run in a mine die in a mine."
-
----
 
 # Chapter 9 — The Ringing Gold
 
@@ -1156,8 +1096,6 @@ The dark had kept this secret for sixty thousand years and given it up to no one
 
 She trusted him. She went down into the black.
 
----
-
 # Chapter 10 — Bain's Kloof
 
 They came out of the mine through a ventilation adit that Reabetswe had marked on a map years before for exactly this kind of bad day — a slot in the hillside two kilometres from where they'd gone in, screened by blue gums, breathing the mine's cold underground breath out into the Highveld night. Jennefer came up the last of the ladder into open air and stood there a moment swaying, filthy and soaked through, and looked at the stars, which were very far away and entirely indifferent and the most beautiful thing she had ever seen.
@@ -1277,8 +1215,6 @@ She didn't answer.
 She didn't need to. It was the same story she'd walked out of a carpeted room carrying a few weeks and a thousand kilometres ago — the same arrow pointing the same wrong way, into the continent and never out of it. She drained the last of her coffee. She put the empty mug on the warm sandstone of the wall and looked one more time down the pass the prisoners had not built but might as well have, at the road going blue into the lowlands, and the strange new lightness was still there in her chest, where the clench had been.
 
 "Drive," she said.
-
----
 
 # Chapter 11 — The Map Is the Clue
 
@@ -1494,7 +1430,7 @@ He didn't answer straight away. He tilted the coffee toward the shoe-shine boy w
 
 He looked at her — bare eyes, because there was no uniform, no performance required, only a woman and a bush road and a question that deserved an answer.
 
-"That little boy's father — someone walked into a garage one day and decided the boots were done. Threw them at a bin or gave them to someone who could still walk them. Instead, the boot-boy's got what? A whole other life in them? That's where they went." He set his coffee down. "Everything on me — the knife, the cord, the belt, the lot — is made to be carried, and carried until it breaks down to something better. I don't own things. I *keep* things. And I keep them because the alternative is to let a true thing quietly die, and I've built my life around not doing that."
+"That little boy's father — someone walked into a garage one day and decided the boots were done. Threw them at a bin or gave them to someone who could still walk them. Instead, the boot-boy's got what? A whole other life in them? That's where they went." He set his coffee down. "Everything on me — the **kukri**, the cord, the belt, the lot — is made to be carried, and carried until it breaks down to something better. I don't own things. I *keep* things. And I keep them because the alternative is to let a true thing quietly die, and I've built my life around not doing that."
 
 He did not look defensive. He never did when the question was honest.
 
@@ -1510,7 +1446,7 @@ A girl — ten, twelve, hard to tell in the diesel shimmer — was walking the v
 
 "The ninja," she said, because she had read books too.
 
-"Same family of story. Not the movies. Farmers. People with the tools they already had, the cover of night, and the willingness to forget honour when being effective mattered more." He straightened. "I carry knives because I **use** them every day. Wire, rope, fruit, nail, wood. The big one is for when the job exceeds a pocket. None of them turn a checkpoint into a war. That's the gun's job."
+"Same family of story. Not the movies. Farmers. People with the tools they already had, the cover of night, and the willingness to forget honour when being effective mattered more." He straightened. "I carry knives because I **use** them every day. Wire, rope, fruit, nail, wood. The **kukri** is for when the job exceeds a pocket. None of them turn a checkpoint into a war. That's the gun's job."
 
 The girl walked on without glancing up.
 
@@ -1592,15 +1528,13 @@ The walls rose ahead, and kept rising.
 
 "Let's go read some stone."
 
----
-
 # Chapter 12 — The Stone City
 
 The walls were still an hour off, the road running them up toward the granite country in the slack heat of the afternoon, when she saw the other thing in him — the one that had nothing to do with reading a stone or a stranger, and everything to do with what he'd been before the Order ever found him.
 
 It happened in the time it takes to drop a cup. Where the road crossed a dry drift below a cluster of huts, a woman half Jennefer's size was trying to get four goats and a toddler across the open ground at the same time, and from the shade of a fig tree a dog came off its belly and at them — a big rangy yellow thing, ridge up, no collar, no owner anywhere giving it a single thought, the kind of dog that has learned that nobody is going to stop it. It wasn't going for the goats. It had read the smallest, slowest thing in the open, which was the child, and it came low and fast and certain across the dust with that horrible silent economy, and the woman screamed and could not let go of the goat-rope, and Jennefer's whole body went to water, because there was nothing, *nothing,* between the dog and the child but ten metres of open ground.
 
-She did not see Jakobus move. She only knew, the way you know a shadow has crossed the sun, that he was already out of the truck and *there,* between, dropped into the line of the charge, and she had the time to think *he has no weapon*—
+She did not see Jakobus move. She only knew, the way you know a shadow has crossed the sun, that he was already out of the truck and *there,* between, dropped into the line of the charge — and **pointed**, not at the dog but at the **fig shade behind it**, the place the run had started, the decision made three strides before anyone screamed — and she had the time to think *he has no weapon*—
 
 He did not need one.
 
@@ -1618,7 +1552,7 @@ He put the shades back on. He picked the toddler up off the dust where the mothe
 
 "How," she said, when they were moving again, and found her own voice unsteady. "How do you *do* that."
 
-He drove for a moment. "You don't do anything," he said, eventually, which was what he always said, and was never the whole truth. "You just have to mean it more than they do. All the way down. They can hear the gap, if there's a gap." A beat, the road unspooling. "There isn't, with me. That's the only trick. There's no gap." And something went across the side of his face, there and gone, that she filed beside the shut room and the closed border and the door he kept courteous — because she understood, suddenly and coldly, that what she had just watched him do to a dog he had once, in some country he would never name, done to *men,* and been very, very good at it, and that the quiet was not the absence of the loud thing. It was the loud thing, held down so hard it had become its opposite.
+He drove for a moment. "You don't do anything," he said, eventually, which was what he always said, and was never the whole truth. "You don't *hope.* Hope leaves a hole — room for the thing to collapse the wrong way, to zero instead of one." A beat. "You speak like there is no other option. That second. Your whole heart. Not wishing. *Knowing.* They can hear the gap, if there's a gap." Another beat, the road unspooling. "There isn't, with me. That's the only trick. There's no gap." And something went across the side of his face, there and gone, that she filed beside the shut room and the closed border and the door he kept courteous — because she understood, suddenly and coldly, that what she had just watched him do to a dog he had once, in some country he would never name, done to *men,* and been very, very good at it, and that the quiet was not the absence of the loud thing. It was the loud thing, held down so hard it had become its opposite.
 
 She thought of the half-feral camp dog she'd watch, a week on, lean its whole filthy weight into him at a keeper's fire and fall asleep against his shin while he did nothing about it for an hour but keep his hand still on its ribs. The voice that had stopped a hundred kilos of murder at ten metres he kept folded away like the knife and the rest of it; with the things he loved he never used it once. That was the whole man, she thought. The command was real. It was just never, ever for them.
 
@@ -1699,8 +1633,6 @@ And behind them, back at the mouth of the passage where the afternoon light came
 "No, no, don't trouble yourself, I see my friends are already here."
 
 Vorster. Inside the walls. Smiling. Walking toward them across the ancient ground with two men a step behind him and all the time in the world.
-
----
 
 # Chapter 13 — Inheritance
 
@@ -1811,8 +1743,6 @@ The tour group's noise fell away first. Then the swallows. Then the small wind m
 She followed it in her mind, off the curve of the tower, out past the gate, out past the ruins and the tour buses and the road they'd come in on, out and out — and the line did not stop at the edge of the enclosure, and it did not stop at the edge of the country, and it did not stop, and she felt the scale of what she was holding open with two fingers and a piece of gold widen and widen under her until it stopped being a thing she could keep inside the borders of the continent she had spent her whole life learning, and went on past those, too.
 
 What she read there — in the smooth worn hollows that ten thousand years of keepers' hands had pressed into the granite, kept and kept and kept and never once written down — was so much bigger than Africa that Jennefer sat down on the four-hundred-year-old ground with the gold still in her open hand, and could not, for a while, speak at all.
-
----
 
 # Chapter 14 — The Highlands
 
@@ -1976,8 +1906,6 @@ By the time the veld went familiar again — grass and distance and the long bro
 
 And on the twelfth day south, in the long copper light, the Cruiser ran a dirt road out of a different country's memory toward a farm gate she did not yet know would have men waiting in it with clipboards and a letter that would turn a man's whole life to paper — toward the cost that came after every reading, toward Sekuru Mhlanga and the bearing she held in her head the way you hold a candle through a draughty house, toward everything that still had to be paid before Egypt could be anything more than a direction dressed in grey wax and humming gold.
 
----
-
 # Chapter 15 — The Cost
 
 The bearing pointed north and east, off the edge of the continent — towards the old inheritor-lands, Egypt and beyond, the place the whole road had always been climbing towards. Tewodros's stone had agreed with Sekuru's. The highlands were behind them now — eleven days up, twelve down, the obelisks and the cold and the chilum and the thin air — and what lay ahead was the price.
@@ -2126,8 +2054,6 @@ He turned his head. The shades were off; it was night, and a fire, and brethren.
 
 Jennefer looked at the fire, and at the boots, and at the gentle dangerous fortunate man named twice over for Jacob, and she understood that she had just been handed — sideways, the only way he ever gave anything — the truest name he had.
 
----
-
 # Chapter 16 — The Eyes
 
 She had wondered, of course. Anyone would, about a man who never took the glasses off. She'd built theories — light sensitivity, vanity, a scar, a tell he didn't want read. The truth was simpler and stranger than any of them.
@@ -2142,7 +2068,7 @@ She had meant to ask him how he grew up — had the gentle question ready, the o
 
 She felt it land. Not a flinch — he was built too well for flinching — but a stillness that came down over the whole of him, the stillness of a hunted thing the moment the hunter stops moving. The bare eyes fixed on her, telling everything, and there was nowhere left for either of them to hide.
 
-"Ma told me," she said, before he could ask, because the asking would have cost him more than the knowing. "Not the way you're thinking. She didn't *talk.* She gave it to me like a key — said if I was going to walk beside you I should know what I was walking beside, and that I was the one who could carry it." She kept her voice level, the way she kept it level over a thing in the ground that mattered too much to let her hands shake. "The rest I worked out myself. The eyes. The drinking you don't do, and why. That you can't be told you can't *go.* That you forgave a man most people would have hated their whole lives, and that it cost you everything, and you did it anyway." A breath. "There was a night. You were small. Your father was the worst you'd ever seen him, and he said a thing — about not going alone — and you understood it the way you understand everything, all at once, no working it out. And you did the one thing a child could do to stop it. Alone. At an age when the worst thing in your life should have been a soccer match." She had to stop. "And you've carried it ever since like it was a thing to be ashamed of. When what you actually did was *save* — "
+"Ma told me," she said, before he could ask, because the asking would have cost him more than the knowing. "Not the way you're thinking. She didn't *talk.* She gave it to me like a key — said if I was going to walk beside you I should know what I was walking beside, and that I was the one who could carry it." She kept her voice level, the way she kept it level over a thing in the ground that mattered too much to let her hands shake. "The rest I worked out myself. The eyes. The drinking you don't do, and why. That you can't be told you can't *go.* That you forgave a man most people would have hated their whole lives, and that it cost you everything, and you did it anyway." A breath. "There was a night. You were small. Your father was the worst you'd ever seen him, and he said a thing — about not going alone — and you understood it the way you understand everything, all at once, no working it out. And you did the one thing a child could do to stop it. Alone. At an age when the worst thing in your life should have been field hockey trials — or not catching a cricket ball in the yard — not a safe key and a loaded house." She had to stop. "And you've carried it ever since like it was a thing to be ashamed of. When what you actually did was *save* — "
 
 "The key," he said.
 
@@ -2167,8 +2093,6 @@ And Jakobus Swart, who had spent forty years making sure no one could, let himse
 They sat like that for a while, in the cold, two people assembled out of things they hadn't chosen — she from everybody, he from a hard man and a hard school — holding hands the way family holds hands, which is what they were becoming, she understood; not the other thing, the thing the movies would have made of a man and a woman alone in the dark; something better and more permanent than that, something with no wanting in it to wreck it. And somewhere north and east of them, off the edge of the continent, the bearing pointed on towards Egypt and whatever waited there, and Vorster's money moved in its quiet channels, and the gold sat warm in the bag.
 
 But that was tomorrow. Tonight there was only this: the glasses in his pocket, her hand in his, and the rarest thing either of them had ever been given, which was to be, for one night, completely and unbearably *known.*
-
----
 
 # Chapter 17 — The Vault
 
@@ -2272,8 +2196,6 @@ Jakobus pulled the keys from his pocket. The kettle began, very faintly, to mutt
 
 "It's time," he said, "we stopped hiding."
 
----
-
 # Chapter 18 — The Calendar of Stone
 
 Dawn, on the third day, on the hilltop in Mpumalanga, and it was cold the way only Highveld mornings are cold, a dry stone-cold that got into the teeth and stayed there. Jennefer Abrahams stood in the centre of the stone calendar with a microphone in her hand and the sun not yet up. The grass on the slopes below was silver with frost and dew both, bent over with it, and where the escarpment dropped away to the east the world simply ended in a wall of grey — the great valley still full of night, the far mountains rumours, the air so clear and so still that she could hear, from the parked vehicles two hundred metres down the track, a car door close and a man cough and the small electric whine of a camera rig powering up.
@@ -2375,8 +2297,6 @@ Then he said it, quietly, just for her, under the live feed and the francolin an
 "Sikhona." *Because you see me, I am here.*
 
 And Jennefer Abrahams, who had been told she came from nobody — wrong name, no people, a box on a form that meant *descended from no one in particular* — standing in the oldest morning in the world, surrounded by the proof that she came from *everybody*, finally, completely, let herself believe it.
-
----
 
 # Chapter 19 — Vindicated
 
@@ -2498,8 +2418,6 @@ And Jennefer understood that there was no wedding in this car, and that there di
 
 The escarpment came up blue on the right. The shadows of the fence posts ran long and black across the gold grass. And they drove back towards the farm where an old woman was waiting with tea, with *Vulindlela* going out across the highveld ahead of them like good news, and the next leg of a road that ran off the edge of the continent, north and east, towards Egypt, and whatever waited there.
 
----
-
 # Chapter 20 — The Thread Leaves Africa
 
 The farmhouse table was yellowwood, two centuries old, scrubbed pale down the middle by the women of four generations and dark still at the edges where the hands never reached, and Ma Tshabalala had cleared it of everything — the tin of rusks, the reading glasses, the radio that murmured the farming report at noon — so that there was nothing on it now but the evidence, and the long bar of afternoon light coming in low through the western window to lie across it all.
@@ -2600,8 +2518,6 @@ She felt, for the first time in her life, completely and unbearably *here.*
 
 *Sikhona.*
 
----
-
 # The Real Places in This Book
 
 *A note from the author, and an invitation.*
@@ -2629,6 +2545,32 @@ Here is what is real, what is genuinely debated, and what I made up. You deserve
 So: go. Stand in the calendar at dawn. Drive Bain's Kloof with the windows down. Put your hand on the wall at Great Zimbabwe and feel where ten thousand hands went before yours. You don't need a secret order or a piece of impossible gold.
 
 You just need to go and see.
+
+---
+
+# Places in Photographs
+
+These images are freely licensed via [Wikimedia Commons](https://commons.wikimedia.org/). Each file is embedded in the ebook from `books/book1-africa/design/images/`; the link below is the canonical source and credit line. Full compendium: `books/book1-africa/design/IMAGE_COMPENDIUM.md`.
+
+![Adam's Calendar — standing stones on the Mpumalanga escarpment.](books/book1-africa/design/images/bauwboschkraal-stone-ruins-30-april-2023.jpg)
+
+*[File:Bauwboschkraal Stone Ruins 30-April 2023.jpg](https://commons.wikimedia.org/wiki/File:Bauwboschkraal_Stone_Ruins_30-April_2023.jpg) — Sháron Viljoen, CC BY-SA 4.0*
+
+![The Vredefort impact structure — the oldest scar on Earth.](books/book1-africa/design/images/vredefort-dome-in-venterskroon-near-parys.jpg)
+
+*[File:Vredefort Dome in Venterskroon near Parys.jpg](https://commons.wikimedia.org/wiki/File:Vredefort_Dome_in_Venterskroon_near_Parys.jpg) — via Wikimedia Commons*
+
+![Great Zimbabwe — drystone walls without mortar.](books/book1-africa/design/images/great-zimbabwe-ruins-outer-walls-3-1200.jpg)
+
+*[File:Great Zimbabwe ruins outer walls 3-1200.jpg](https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_ruins_outer_walls_3-1200.jpg) — via Wikimedia Commons*
+
+![Witwatersrand carbon-leader gold ore — why the reef is so rich.](books/book1-africa/design/images/carbon-leader-gold-ore-witwatersrand-south-africa-4.jpg)
+
+*[File:Carbon Leader Gold Ore, Witwatersrand South Africa 4.jpg](https://commons.wikimedia.org/wiki/File:Carbon_Leader_Gold_Ore,_Witwatersrand_South_Africa_4.jpg) — James St. John, CC BY 2.0*
+
+![The Golden Rhinoceros of Mapungubwe — worked African gold.](books/book1-africa/design/images/up-rhino.jpg)
+
+*[File:UP rhino.JPG](https://commons.wikimedia.org/wiki/File:UP_rhino.JPG) — Sian Tiley-Nel, CC BY-SA 4.0*
 
 ---
 
@@ -2666,38 +2608,35 @@ So two peoples who fought each other, bitterly, for that exact stretch of countr
 
 ---
 
-# Acknowledgements
+# The Honey Badger
 
+![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
 
+*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
+below is true. Most of it sounds made up.*
 
-These books exist because other people made things that lived in my head long after I'd finished
-them. My thanks:
+The honey badger has been listed by *Guinness World Records* as the most fearless animal on
+Earth. It did not apply for the title and would not have attended the ceremony.
 
-To **Dennis E. Taylor**, who wrote software for thirty-five years — front-line grunt to upper
-management, always in IT — before he ever wrote a Bob, and then proved that a career programmer can
-write gripping, genuinely entertaining stories. As one software engineer to another: it would be my
-great honour to talk shop with you over a pint, in "real" (sic). *The Court thanks the Bobs.*
+It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
+knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
+later, and **finish the snake it was already eating.**
 
-To **Ray Porter**, for giving me the voices of the Court in my head. May I be so lucky as to have
-you narrate the US release.
+Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
+scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
+porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
 
-To **Scott Sigler**, for *EarthCore* and *Mount Fitz Roy*.
+It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
+doing business. This is, in fact, how it got its name.
 
-To **Michael Crichton**, for — honestly — everything.
+It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
+Because the alternative — *caring* — has never occurred to it.
 
-To **Dan Brown**, for teaching me a new kind of storytelling.
+The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
+Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
+climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
+learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
+that a thing cannot be done.
 
-To **Andy Weir**, for showing how to write fiction on the back of real science that isn't science
-fiction.
-
-To **Neill Blomkamp**, for *District 9*, *Elysium*, and *Chappie* (Die Antwoord and all). Your
-films kept the characters and the scenes grounded in my head. May you be the one who puts this on
-the big screen.
-
-And to **Patrick Rothfuss**, for getting me into a genre I never knew I'd fall in love with. As my
-small way of giving back: you have free use of Arjuna Badger Press, always.
-
-— Andries J. Greyling
-
----
+Honey badger don't care.
 

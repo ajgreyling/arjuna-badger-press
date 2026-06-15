@@ -314,6 +314,279 @@ And that was the whole of it. A boy who read weather, and a girl who won every g
 whether, somewhere, she remembered him true.
 
 
+# The File
+
+> *What follows was not in the novel. It was found afterward — a compendium assembled, it appears,
+> over many years, by an organisation that does not put its name on its paperwork. We reproduce it as
+> it was received: the documents in the order they were gathered, and the margin notes in the hand of
+> whoever was assigned to watch. The subject is real. The documents are real. Read them, and decide
+> for yourself which parts of the story you have just finished were ever fiction at all.*
+
+::::: dossier
+
+```
+================================================================
+   FILE COPY · PHOTOSTAT · DO NOT REMOVE FROM REGISTRY
+   REPRODUCED FROM ORIGINAL · [REDACTED] PAGES WITHHELD
+================================================================
+```
+
+### SUBJECT FILE — OPENED [ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]{.redact} · CLASSIFICATION: ROOY
+
+**SUBJECT:** GREYLING, Andries Jakobus.
+**DOB:** [21 December]{.redact} 1979. **POB:** Bethlehem, Orange Free State.
+**PATERNAL:** A.J. Greyling (subject carries the father's initials — note the pattern; sons who carry
+the father's name carry the father's expectations, and we have found this useful). Occupation:
+**farmer and hunter.** A good shot, by district reputation; the marksmanship of his generation and
+people was not a hobby but a competence the land required. *(See the operational note appended to the
+family file: the rifle, the one shot, the empty deep-freeze. We do not reproduce it here. We only
+record that the boy grew up in a house where a gun was an instrument of provision and discipline, and
+where, we have reason to believe, it was also — quietly, illegally, and to our considerable interest
+— an instrument of mercy.)*
+**ASSESSMENT BASIS:** academic record, instructor remarks, activity enrolment, paternal lineage,
+direct observation of habit. The subject's school keeps excellent files. So do we.
+
+> *Margin, undated:* A talent-spotting service does not begin with the talent. It begins with the
+> paperwork around the talent, because the paperwork is written by people who do not know they are
+> describing a tool. We began here.
+
+---
+
+### STANDING OBSERVATIONS — THE SUBJECT'S PERSON.
+
+*Not drawn from the school file. Drawn from watching. Habits a man keeps without knowing he is
+watched are worth more than anything he writes on a form, because they are the things he cannot help.*
+
+**THE BLADE.** The subject has, from boyhood, an affinity for knives and edged weapons that is
+neither violent nor for show — it is the steady, appraising relationship of a person who understands a
+made tool. He **carries, at all times, at least one folding knife.** Not as a weapon. As an
+extension. A man does not arm himself against the world with a pocket-knife; he keeps one because, in
+his hands, an unsolved thing wants a tool, and the tool wants to be near.
+
+> *Margin:* We have learned to read the man by what he always carries. The one who always has a blade
+> is the one who has decided, without drama, that he will be the one in the room who can do the thing
+> that needs doing. It is not aggression. It is *readiness* — and readiness, in a gentle man, is the
+> exact quality we spend careers trying to manufacture and almost never find pre-installed.
+
+**THE HANDKERCHIEF.** The subject also carries, always, a **clean handkerchief.** We note the pairing
+because it is the whole of him in two objects: **the blade and the clean cloth.** The capacity to cut,
+and the readiness to bind. The thing that opens a wound and the thing that dresses one, carried in the
+same pockets, by the same hands, every day, without contradiction.
+
+> *Margin — flag for the psychological file:* This is the contradiction we look for last and trust
+> most. Most men carry one or the other — the hard ones carry the knife and despise the cloth; the
+> soft ones carry the cloth and fear the knife. The rare and dangerous ones carry **both, and see no
+> tension in it,** because they have understood the thing it takes most men a lifetime to learn or
+> never learn at all: that capability and gentleness are not opposites, and that the man who can hurt
+> and chooses to mend is the only safe man there is. We do not recruit for this trait. We cannot. It
+> recruits against us.
+
+**THE MARKSMANSHIP.** The subject is, by every account, an **excellent shot** — and we underline
+this, because in a civilian child with no military background it is *anomalous.* The competence
+descends from the father (q.v.) and the wider culture of his people, but the subject's accuracy
+exceeds what enrolment or hobby explains. He shoots, as he reads a room, better than he was taught.
+
+> *Margin:* This is the entry that, properly, should have closed the recommendation. A gentle,
+> conscience-bound, pattern-reading boy who is *also* a natural marksman is, on paper, the most
+> complete instrument we assess — the rarest convergence in the file. We flagged it as our strongest
+> asset. **We should have flagged it as the warning.** The man who can read people perfectly *and*
+> shoot straight, and who has a conscience that reads as a wall — that is not a tool. That is the one
+> thing in the world a tool-maker should be afraid of: a weapon that decides for itself, correctly,
+> when not to be one.
+
+---
+
+### DOCUMENT 1 — NURSERY ASSESSMENT. Rinkinkel Kleuterskool. Age 3.
+
+*Vorderingsverslag aan ouers.* Physical development: good. Coordination: good. **Sensory development:
+good.** Language ability: good across pronunciation, vocabulary, narrative. Instructor's closing
+remark, verbatim: **"Andries is 'n liefdevolle seuntjie"** — *a loving little boy.*
+
+> *Margin:* We note "sensory development: good" at age three and we underline it. The faculty we
+> select for is not intelligence. It is *reception* — the child who takes in more of the room than
+> the room intends to give. The instructor saw a loving boy. We saw an instrument with the sensors
+> already installed. Both were correct. **FLAG: open. Re-assess in ten years.**
+
+---
+
+### DOCUMENT 2 — Laerskool Davel. Grade 2. 1987.
+
+**Sertifikaat van Verdienstelikheid** — Certificate of Merit. *Akademiese prestasie, Graad Twee.*
+**Gemiddeld 80–100%.** 30 November 1987.
+
+> *Margin:* Age seven. Already top of the band. Unremarkable in isolation — many children test high
+> young and regress to the mean. We do not act on Grade 2. We *file* Grade 2. The file is the thing.
+
+---
+
+### DOCUMENT 3 — Truida Kestell, Bethlehem. Std 3. 1990.
+
+Report cards: marks sustained in the 80s and 90s, every term, every subject — Afrikaans, English,
+Mathematics, Geography, History. **Diploma, Std 3:** joint third in Health Education; **a book-voucher
+for the highest marks in SCIENCE.**
+
+> *Margin:* The mean did not reclaim him. Note the science prize at age ten. We track scientific
+> aptitude with particular interest, because the child who wants to know *how the thing works* can,
+> with handling, be turned into the adult who wants to know *how the man works.* It is the same
+> appetite. We only redirect the object.
+
+---
+
+### DOCUMENT 4 — ENRICHMENT. Truida Kestell. *Verrykingsonderwys.* Std 4–5. 1991–1992.
+
+The subject is withdrawn from the ordinary timetable into the gifted-enrichment stream. Assessed not
+on syllabus but on **computer handling** (grade C rising to A), **creativity** (straight A),
+**problem-solving and research skills**, and **reading development**: reading speed **280 to 400 words
+per minute**, comprehension **at or near 100%.** File note from the programme: *the difficulty of the
+lessons is continually accelerated.*
+
+> *Margin — this is the entry that moved the file from PASSIVE to ACTIVE:* Here it is. A state
+> programme, in the late-apartheid Free State, pulls the cleverest children out of the singing and the
+> Bible study and the drill, and teaches them — at eleven — to **operate machines, to solve open
+> problems, to research, and to consume information at four hundred words a minute with total
+> retention.** They believed they were enriching the gifted. They were *building our supply chain.* We
+> did not have to construct the talent-identification apparatus. The education department had already
+> built it and was running it at public expense. We simply read its output. **A note for the
+> committee:** the most efficient recruitment instrument we have ever encountered was a curriculum
+> designed by idealists who would have been appalled to learn what it was for. They always are.
+
+> *Second margin, smaller hand:* He read four hundred words a minute and understood all of them, at
+> eleven, in a small town. Somewhere a child like that is always being found. It is the loneliest
+> thing in the world, to be the one the curriculum was secretly about. We know. We are the ones who
+> read the report.
+
+---
+
+### DOCUMENT 5 — Bethlehem Voortrekker Hoërskool. Std 6. 1993.
+
+Aggregate ~82–85%. **Distinctions in seven subjects:** Afrikaans, English, **German**, Woodwork,
+Mathematics, **General Science**, History. **BIOLOGY OLYMPIAD, Standard 6: third place in the entire
+Orange Free State.** Concurrently enrolled in the high-school enrichment stream
+(*Verrykingsonderwys*, instructor: Mev. A. Blignault).
+
+> *Margin:* Third in the *province*, in the sciences, at thirteen. The German is noted and welcomed —
+> a second working language is an asset we do not have to pay to install. The biology placing confirms
+> the appetite of Document 3 has not faded; it has *sharpened.* **RECOMMENDATION: advance the file.
+> Begin proximity planning. Identify the summer-programme vector.**
+
+---
+
+### DOCUMENT 6 — FILE NOTE: THE WOODWORK ANOMALY.
+
+Cross-referencing the Std 6 and Std 7 records, the analyst flags a minor behavioural data point of
+disproportionate interest. The subject, offered the standard practical elective (**Woodwork**),
+elected at the next opportunity to take **Typing** instead. Source interview indicates the choice was
+not vocational. The woodwork instructor was, in the subject's own later assessment, *"a tool."* The
+subject and several peers transferred to Typing **as an act of spite** — a fourteen-year-old's
+revenge, taken as a joke.
+
+> *Margin:* We log this because it is the single most instructive entry in the file, and we got it
+> exactly wrong at the time. We assessed: *immature, emotionally reactive, elects on grievance rather
+> than utility — a flaw.* **We were mistaken.** The subject, acting purely out of adolescent spite,
+> acquired the one manual skill that would prove, across a thirty-year career at the keyboard, the
+> single most-used competency of his professional life. He out-planned us by accident, at fourteen,
+> while trying only to annoy a man he disliked. *The Institute did not anticipate this.* The Institute
+> rarely does. The committee should understand: the subjects who are most useful to us are precisely
+> the ones whose spite, vanity, and private jokes keep producing outcomes our planning cannot. We
+> select for the readable child and then are surprised, every time, by the unreadable margin in him.
+> That margin is the whole of what cannot be owned. Keep the woodwork note. Read it before every
+> operation.
+
+---
+
+### DOCUMENT 7 — Bethlehem Voortrekker Hoërskool. Std 7. 1994.
+
+Distinctions in English, Mathematics, German, Geography, General Science. The subject adds **Typing**
+to the timetable (see Document 6). Class teacher's closing remark, verbatim: **"Andries slaag
+standerd suiwer. Mooi geluk!"** — *passes the standard cleanly. Well done.* Listed among the standard's
+merit achievers; **absent from the photograph on both occasions.**
+
+> *Margin:* "Absent from the photograph." We have, by now, several years of this. The high achiever
+> who is named on the merit list and missing from the merit picture. We do not believe it is
+> coincidence and we do not believe it is yet deliberate. It is the early, untaught form of the thing
+> we look for last and value most: **the one who is present in the record and absent from the
+> image.** A man who is in the file but not in the photograph is a man who can be sent anywhere. We
+> began, here, to want him.
+
+---
+
+### DOCUMENT 8 — Std 9. The Olympiad. The Descent.
+
+Approximately four hundred top pupils from forty schools across the Orange Free State sit the regional
+science olympiad. **Five from this school place in the top fifty** — four in their final year, and one
+in Standard 11. The Standard 11 pupil is the subject. As a reward, the placing pupils are taken **down
+a working gold mine** — lowered in the cage into the deep heat and the dark, a kilometre of rock
+overhead, into the place where men spend their lives so the gold comes up.
+
+> *Margin:* The state took its cleverest science children and **lowered them into the earth** as a
+> prize. We could not have designed a more perfect formative exposure if we had run it ourselves. The
+> subject went down a boy who read machines and came up a boy who had *felt the weight of the world
+> held off him by engineering and nothing else.* Note, for the psychological file, that he never
+> stopped writing about that heat. A man will spend a career, and a shelf of books, trying to climb
+> back down to the one place that made him. We find such men reliable. They are already haunted; we
+> need only point the haunting.
+
+---
+
+### APPENDED — NON-ACADEMIC. Flagged for the physical-readiness file.
+
+- **Tenshinkan Karate Association:** the subject is graded (kyu). *Margin:* the readable, gentle child
+  is, separately and quietly, learning to make his own body into a weapon. We note this with the
+  particular attention we reserve for the contradiction we most often see in our best people: the soft
+  one who, unobserved, trains. **FLAG: the gentle ones who arm themselves are the dangerous ones.**
+- **NG Kerk Junior Catechism, "faithfulness" diploma**, multiple consecutive years. *Margin:* the
+  conscience was installed early and thoroughly. This is not, as the committee sometimes assumes, an
+  obstacle to recruitment. A strong conscience makes a strong operator — *and* a strong refusal. We
+  did not, in the end, account for the second half of that sentence. See the operational record. See
+  what he would not do.
+
+---
+
+### CASE OFFICER'S CLOSING ASSESSMENT — *(handwritten, undated, unsigned)*
+
+The file recommended him. The file was right about everything except the only thing that mattered.
+
+We selected, correctly, the boy with the sensors installed at three, the appetite for the workings of
+things at ten, the four hundred words a minute at eleven, the province-third in the sciences at
+thirteen, the gold mine at sixteen, the gentle conscience and the quiet trained hands. We built a
+profile so accurate I could have written his school reports myself. We knew exactly what he was.
+
+We did not know what he would *do* with it. We never do. That is the unreadable margin — the woodwork
+spite, the empty space where his face should have been in the merit photograph, the conscience that
+read, in the end, not as a control surface but as a wall. The file is a perfect portrait of a man we
+could describe completely and could not, in the place it counted, own.
+
+He passed through us and out the other side and became — the record is unclear; the record is always
+unclear on the ones who get away clean — a man who writes books. In them, by every account, a quiet
+unplaceable figure keeps appearing: a man no camera can hold, present in every story and absent from
+the photograph, dangerous and gentle, who reads the people in the room better than anyone and uses it,
+always, to protect rather than to take.
+
+We taught him none of that. We only found him early, and read his file, and wanted him, and were —
+correctly, and forever — refused.
+
+> *Final margin, in the second, smaller hand:* The thorns are part of the rose. We pruned for the
+> bloom and were cut by the stem, which is the only honest thing in this entire file, and the only
+> thing the committee will not let me put in the official assessment. So I am putting it here, in the
+> margin, where the true things go.
+>
+> *Subject status: lost. Permanently. Gladly, I think, on his side. And — though it is not mine to
+> file — on ours.*
+
+---
+
+*[The compendium continues. The subject has indicated further documents will be supplied.]*
+
+```
+================================================================
+   END OF REPRODUCED MATERIAL · [REDACTED]
+   FILE COPY · PHOTOSTAT · RETURN TO REGISTRY
+================================================================
+```
+
+:::::
+
+
 # A Note on the Real Thing Underneath
 
 This story grew, the way stories do, from a small real soil, and the real soil deserves a few honest words — partly because it was the best thing in my own childhood, and partly because it is quietly vanishing from the record, and a thing that is not written down is a thing that gets to be forgotten.

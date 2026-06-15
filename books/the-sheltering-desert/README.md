@@ -26,6 +26,10 @@ is the story told again, from the documented facts, in this project's voice.
 Start here: [`canon/STORY_BIBLE.md`](canon/STORY_BIBLE.md). The verified true story + sourcing:
 [`canon/PLACE_RESEARCH.md`](canon/PLACE_RESEARCH.md).
 
+**Dedicated to Dr Ferdie Lochner** — [`canon/DEDICATION_BOOK.md`](canon/DEDICATION_BOOK.md). Full profile
++ **cross-book overlap** with *House of Bread* (verified credentials, LinkedIn-backed, polymath — **not a crank**):
+[`canon/APPENDIX.md`](canon/APPENDIX.md).
+
 > **Working title caution:** *The Sheltering Desert* is the title of Martin's own (in-copyright) memoir —
 > a **distinct title is recommended** for this original retelling (e.g. *The Kuiseb Years*, *Carp Cliff*,
 > *The Indifferent Country*). Author's call.
