@@ -91,5 +91,5 @@
 > long shadows across the salt. The men hold the thrones; the women hold everything else. Bone-white
 > salt, ochre stone, gold light, indigo veils. Mythic, austere, female power. No text. --ar 2:3 --style raw --v 6
 
-> **Modern Sherlock 2–5** — also coming-soon; can stay on the simple placeholder covers for now, or
+> **The Reichenbach Files 2–5** — also coming-soon; can stay on the simple placeholder covers for now, or
 > I can write prompts for these too when you want to push them up.
