@@ -81,10 +81,7 @@ I can see *wonderful things.* So will you. And this time, someone has found the 
 
 ---
 
-*† An anagram of the man who opened the most famous door in Egypt, set down in homage and with a
-colleague's affection. The author of this book wrote these words; the borrowed name is a salute across
-the sand, not a claim.*
-
+*† **“Carter Howard” is an anagram of HOWARD CARTER** — the archaeologist who opened Tutankhamun's tomb — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Howard Carter did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 ---
 
 # A Stranger in Strange Lands

@@ -8,17 +8,25 @@
 
 ⁂
 
-For Mark Harpur —
+For **Mark Harpur** — the real one.
 
-who draws with light for a living,
-and has photographed the most beautiful surfaces of half a turning world
-from the deck of a boat that drinks nothing and asks nothing and simply takes the wind.
+A nice and gentle man who has taken nomadic life as far as it can honestly go: gypsy photographer,
+windsurfer, van-life veteran, early freedom-seeker, now living aboard a self-converted electric
+sailboat and still moving when the wind says move. He draws with light for a living. Some of his
+surfing photographs — the ones that hold a whole wave in one frame — have been downloaded millions
+of times on Unsplash (**[@luckybeanz](https://unsplash.com/@luckybeanz)**); strangers in grey offices
+on five continents have stopped scrolling for half a second and felt, because of him, *free.*
+
+His coast essays for **Happy Campers** — especially *Scratching the Southern Coast* and *The Garden
+Route: A Cultural Journey* — are the real maps this fiction stole from: the Overberg light, the
+Garden Route deep-time spine, the voice of a man who photographs beautiful surfaces for a living and
+means every word of the adventure. Find them at **[happycampers.co.za](https://happycampers.co.za)**.
 
 You taught me that you can see a whole earth and skate clean over it,
 and that the rarest thing is not the next place —
 it is the one that finally makes you stay.
 
-*This coast is yours. So is the eye. Thank you for both.*
+*This coast is yours. So is the eye. Thank you for both — for the blogs, the boat, the frames, and the friendship.*
 
 ---
 
@@ -46,8 +54,7 @@ I tip my old hat. I have walked this coast my whole life. I never once saw it th
 
 ---
 
-*† An anagram of a beloved chronicler of Africa, offered in homage and with great affection. The real
-author of these words is the author of this book; the borrowed name is a bow, not a claim.*
+*† **“Submit Whirl” is an anagram of WILBUR SMITH** — the beloved chronicler of Africa — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Wilbur Smith did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 ---
 
@@ -228,3 +235,83 @@ Auntie Sara handed the camera back to Mark, carefully, with two hands, the way y
 She walked back to her rusted bakkie to make her calls, and Mark stood with the camera in his hands and the weight of the thing settling into him, and realised that in twenty years of skating the surfaces of the world he had never once, not for a single frame, been part of something that *mattered* — and that he was now, and that he did not, for the first time he could remember, want to be anywhere else on earth.
 
 Out past the harbour wall, the sea was beginning to chop, the first of the swell the storm was pushing ahead of itself. The light was going flat and silver. And somewhere down in the dark old layer of the dune, under the shells, where it had lain through the whole of human history with its useless beautiful lines and its one fleck of impossible gold, the stone waited, as it had always waited, for the few short days it had left in the air before the water came.
+
+# The Real Places in This Book
+
+*A note from the author, and an invitation.*
+
+Everything in this novel is made up. And almost none of it is.
+
+That is the strange, true heart of *History Before Time*, and it is the reason for these closing pages. Mark Harpur in these chapters is the real Mark — named openly, with his blessing — but he is still a *character* on the page: I have invented scenes, dialogue, and a find he never photographed. Jakobus is invented (inspired-by, not a portrait). The Order, the adversary, the gold-key thread, and the Khoisan custodian who leads the dig are fiction. But the *coast* is real — every mile of it — and the *science* underneath it is among the most astonishing on Earth, and you can go and stand in much of it, and I hope you do.
+
+Here is what is real, what is genuinely debated, and what I made up. You deserve to know the difference — that honesty is the whole point.
+
+**A real person — Mark Harpur.** If you have never heard his name, that is because he has spent his adult life moving, not promoting. Mark is a South African-born gypsy photographer — windsurfer, van-life veteran, early freedom-seeker — who now lives aboard a **self-converted electric sailboat** and documents the world in the one frame that holds a whole place. His surfing and travel photographs on Unsplash (**[@luckybeanz](https://unsplash.com/@luckybeanz)**) have been downloaded millions of times; strangers on five continents have stopped scrolling because of his eye. He is a photographer of note in the only sense that matters: he makes people *see.* His coast essays for **Happy Campers** — especially [*Scratching the Southern Coast*](https://happycampers.co.za/2022/09/29/scratching-the-southern-coast/) and [*The Garden Route: A Cultural Journey*](https://happycampers.co.za/2022/12/13/the-garden-route-a-cultural-journey/) — are the real maps this fiction stole from: the Overberg light, the Garden Route deep-time spine, the voice of a nice and gentle man who has taken nomadic life as far as it can honestly go. *What's real:* the man, his work, his boat, his blogs, his friendship. *What I invented:* the text to *J.*, the storm race, the placed ochre in the dune, and every scene where plot needs him to stay when the real Mark might sensibly have sailed on — though I suspect, reading him, that the real man would have stayed too, once he saw what was in the frame.
+
+**Blombos Cave (near Stilbaai, Western Cape).** Real — a limestone cave in the cliffs a few kilometres from Still Bay, excavated for decades by Christopher Henshilwood and colleagues. *What's real and genuinely world-changing:* engraved ochre pieces and a **~73,000-year-old ochre cross-hatch** — widely cited as among the oldest known deliberate *drawings* made by human hands — and a long record of symbolic behaviour from this coast. *What I invented:* the portable scored stone Mark finds washed out beneath a midden seam; the gold fleck in the deepest line; any suggestion that the famous Blombos pieces were "placed" in a dune by someone in the story's present. The wonder needed no invention from me; it only needed to be pointed at. Visit through the **Blombos Museum of Archaeology** in Stilbaai and the public literature — do not treat this novel as a field guide.
+
+**Stilbaai, the Goukou River mouth, and the shell middens.** Real. Still Bay is a real town; the dunes east of the river mouth carry **San/Khoisan shell middens** — dense bands of mussel and limpet shell built up over generations, ordinary and beautiful and very old in the human sense, even when the band you can see is Holocene. *What I invented:* the specific midden Mark shoots at golden hour, the ochre turned up in its face, and the storm eating the site on the book's clock. Go walk the coast Mark walked — at low light, with your eyes, not only your phone.
+
+**Pinnacle Point (Mossel Bay).** Real — a series of caves on the cliffs above the Indian Ocean, with evidence of **~164,000-year-old** ochre use, heat-treated tools, and shellfish diet among the earliest signatures of *modern human behaviour* we can point to in the archaeological record. *What I invented:* any specific relay beat or gold-bearing that ties this site to the series mythos. The science is public; the drama is mine.
+
+**Klasies River Caves (Tsitsikamma) and Nelson Bay Cave (Plettenberg Bay).** Real — further east along the Garden Route Mark's own blog names, carrying the same deep-time spine. UNESCO-listed Klasies River is part of the longer human story of this coast. *What I invented:* how and when Mark and Jakobus reach them in this draft.
+
+**The worked ochre cross-hatch — real science, fictional find.** The geometry Mark sees on the back of his camera rhymes with real Blombos material held in museums and described in peer-reviewed work. *The portable stone in the dune, set or washed out beneath a shell band, with a fleck of impossible gold pressed into the scored lines — that is story.* The mystery the book builds on is deliberate: not *whether* humans first scratched a mark into a surface on purpose on this coast (they did), but *why this one was carried and placed* — a question fiction is allowed to ask because the real record is still being read.
+
+**Jakobus Swart.** Invented — inspired-by, deliberately not a flattering self-portrait. He reads stone in the story because Mark reads light; their friendship on the page is real in spirit. The **Beast** (his Land Cruiser) and his home-ground wound on the Cape are fiction built from real places.
+
+**The Khoisan custodian and community in this book.** Invented — a placeholder expert who *leads*, because that is the law of this series: locals are the authorities; the find is theirs; Jakobus witnesses and Mark serves the eye. Before publication this manuscript **must** be read and guided by Khoisan and broader San heritage advisors and sensitivity readers; no character here speaks for any real community. Authority over knowledge and heritage on this coast belongs to the people who carry it.
+
+**On the bigger ideas.** This novel plays, for the joy of it, with a deep-time wonder that mainstream archaeology *does* increasingly honour on this coast — that the human symbolic mind woke early here, in Africa, long before the cold museums of the north pretended art was their invention. I also want to be honest that fringe "lost civilisation" thinking has an ugly history of denying African genius to Africans. This book is written in flat refusal of that ugliness. **The wonder is real, and it is theirs, and it belongs — now — to all of us** who go and look with respect.
+
+So: go. Walk the Stilbaai dunes at the hour the light rakes them. Stand at Pinnacle Point and feel how old the view is. Drive the Garden Route slow enough to read the cliffs. You don't need a secret order or a piece of impossible gold.
+
+You just need to go and see.
+
+— A.J.G.
+
+---
+
+# Places in Photographs
+
+These images are freely licensed via [Wikimedia Commons](https://commons.wikimedia.org/). Each file is embedded in the ebook from `books/southern-coast/design/images/`; the link below is the canonical source and credit line. Full compendium: `books/southern-coast/design/IMAGE_COMPENDIUM.md`.
+
+![Blombos country — home of the ~73,000-year-old ochre cross-hatch, the oldest known drawing on this coast.](books/southern-coast/design/images/blombos-cave-location.jpg)
+
+*[File:Blombos Cave location.jpg](https://commons.wikimedia.org/wiki/File:Blombos_Cave_location.jpg) — Turid Hillestad Nel, Christopher Stuart Henshilwood, CC BY 4.0*
+
+![Pinnacle Point, Mossel Bay — among the earliest evidence of the modern human mind.](books/southern-coast/design/images/a-view-from-pinnacle-point-mossel-bay-south-africa.jpg)
+
+*[File:A view from Pinnacle Point, Mossel Bay, South Africa.jpg](https://commons.wikimedia.org/wiki/File:A_view_from_Pinnacle_Point,_Mossel_Bay,_South_Africa.jpg) — Satdeep Gill, CC BY-SA 4.0*
+
+![A shell midden in the dunes — the ordinary heap beneath which fiction placed its find.](books/southern-coast/design/images/annals-of-the-south-african-museum-annale-van-die-suid-afrikaanse-muse.jpg)
+
+*[File:Annals of the South African Museum (1979)](https://commons.wikimedia.org/wiki/File:Annals_of_the_South_African_Museum_%3D_Annale_van_die_Suid-Afrikaanse_Museum_(1979)_(17794384204).jpg) — Internet Archive Book Images, Public domain*
+
+![Worked ochre — the red earth the first marks were made in.](books/southern-coast/design/images/fragment-of-red-pigment-ochre-museo-egizio-turin-s-9927-p03.jpg)
+
+*[File:Fragment of red pigment Ochre — Museo Egizio, Turin](https://commons.wikimedia.org/wiki/File:Fragment_of_red_pigment_Ochre_-_Museo_Egizio,_Turin_S_9927_p03.jpg) — Unknown author, CC0*
+
+![Cape Agulhas — the true southern tip of Africa, where the bearing runs off the map.](books/southern-coast/design/images/cape-agulhas-p1040396.jpg)
+
+*[File:Cape Agulhas P1040396.JPG](https://commons.wikimedia.org/wiki/File:Cape_Agulhas_P1040396.JPG) — Winfried Bruenken (Amrum), CC BY-SA 2.5*
+
+![San rock art of the Cape — the long continuous habit of making a mark.](books/southern-coast/design/images/hand-prints-rock-art-diepkloof-rock-shelter-elands-bay-western-cape-so.jpg)
+
+*[File:Hand prints, Diepkloof Rock Shelter, Elands Bay](https://commons.wikimedia.org/wiki/File:Hand_prints,_Rock_Art,_Diepkloof_Rock_Shelter,_Elands_Bay,_Western_Cape_South_Africa.jpg) — Andrew Hall, CC BY-SA 4.0*
+
+---
+
+# When the Money Comes — A Promise
+
+*From the author, to Mark, on the record.*
+
+This book began in his blogs and his Unsplash catalogue — in a life lived lightly and honestly on the water and the road. I borrowed his eye for fiction because no invented photographer could do what he does: hold a whole coast in one frame and make a stranger feel *free.*
+
+When these books begin to earn properly — when the relay pays for more than ink and servers — I intend to take Mark with me in **the Beast**, Jakobus's old Land Cruiser, and go and **document the real places** behind this series: the calendars and caves and coasts and deserts, with the man who draws with light for a living behind the lens and the man who reads old stone beside him. Not for the fiction. For the record. For the children. For the joy of finally *not* skating the surface.
+
+**He agreed.** That is the part I am proudest of.
+
+Until then, read his work. Follow the coast he already scratched. And know that the photographer in this novel is not a tribute from a distance — he is a friend, and the road is waiting.
+
+— A.J.G.

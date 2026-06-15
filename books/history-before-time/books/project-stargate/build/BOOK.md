@@ -1,13 +1,3 @@
-# Dedication
-
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
----
-
 # Foreword
 
 ### *by Hindrance Invoke* †
@@ -32,9 +22,7 @@ I do not know if I have been right about everything. No honest man my age could.
 
 ---
 
-*† An anagram of the man who taught the whole world to ask whether the ancients had help — set down in
-homage, and with a fondness that survives every disagreement. The author of this book wrote these
-words; the borrowed name is a salute, not a claim.*
+*† **“Hindrance Invoke” is an anagram of ERICH VON DÄNIKEN** — who asked whether the ancients had help — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Erich von Däniken did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 ---
 
@@ -2617,3 +2605,22 @@ She had not become a woman who believed easily. She'd become a woman who'd seen 
 *The submarine McMoneagle drew before there was a submarine is in the record. So is the board of doctors in Rome whose job is to disprove miracles and who publish when they fail. The ice door is mine. Where the line runs between them is in the Source Notes, and it is worth your two a.m.*
 
 The window was open. Nine days. She put her eyes on the horizon and kept them there.
+
+---
+
+# Acknowledgements
+
+To **Graham Hancock**, for making history interesting.
+
+To **Joe Rogan**, for exposing me to amazing people and stories — and for a long-form room where a listener can hear them properly.
+
+To **Joe McMoneagle**, **Ingo Swann**, and every viewer who sat in the chair and signed the page.
+
+To the doctors of the **Consulta Medica**, who investigate the impossible under oath whether or not you believe in saints.
+
+To **Roald Dahl**, for the card turning over.
+
+---
+
+*The programs, protocols, and case files described in the Preface are on the record. The fiction is mine. The rabbit hole is yours.*
+

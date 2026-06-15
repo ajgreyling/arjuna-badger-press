@@ -61,8 +61,7 @@ Go and watch the tape. Decide for yourself. The answer is allowed to stay a mayb
 
 ---
 
-*† An anagram of a tireless explorer of the unexplained, set down here in homage and affection. These
-words were written by the author of this book; the borrowed name is a tip of the hat, not a claim.*
+*† **“Wilson Nicol” is an anagram of COLIN WILSON** — the writer on the outsider and the unexplained — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Colin Wilson did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 ---
 

@@ -43,9 +43,7 @@ I did. It changed my life. I suspect, if you let it, it will rearrange something
 
 ---
 
-*† An anagram of a woman who crossed that desert on foot and never quite returned, offered in homage
-and deep affection. The author of this book wrote these words; the borrowed name is a bow to a fellow
-traveller, not a claim.*
+*† **“Ivory Bond Sand” is an anagram of ROBYN DAVIDSON** — who crossed the Australian desert on foot — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Robyn Davidson did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 ---
 
