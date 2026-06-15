@@ -63,6 +63,8 @@ Caddy provisions and renews the TLS certificate automatically on first request.
 
 - **Privacy:** the source repo is private. The *site* is public, but it serves only finished,
   rights-clean books — no canon, no prompts, no engine, no reference material.
-- **Mailto:** the "Write / Publish with us" buttons point at `hello@arjunabadger.press` — wire that
-  inbox (or swap the address in `build.py`) before launch.
+- **Public contact:** `info@arjunabadger.press` — site mailto buttons, footer, and README. Wire the
+  mailbox in Namecheap (Private Email or forwarding) before launch.
+- **WHOIS:** set all four Domain Contact emails to `info@arjunabadger.press`; enable **Domain
+  Privacy / Withheld for Privacy** on the domain so street address and personal phone are not public.
 - Re-run `build.py` whenever a book's chapters, synopsis, cover, or export changes.
