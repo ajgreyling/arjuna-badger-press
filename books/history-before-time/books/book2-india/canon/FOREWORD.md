@@ -22,10 +22,7 @@ Read it. Let it teach you the way it would have had to teach me, against my trai
 
 ---
 
-*† An anagram of the great, flawed bard of British India — summoned here in homage, and in the spirit of
-a man allowed to correct his own record. The author of this book wrote these words; the borrowed name
-(which rearranges, with some comedy, into a far grander one) is a bow, not a claim.*
-
+*† **“Parking Ruddily” is an anagram of RUDYARD KIPLING** — the bard of British India — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Rudyard Kipling did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 ---
 
 # A Stranger in Strange Lands

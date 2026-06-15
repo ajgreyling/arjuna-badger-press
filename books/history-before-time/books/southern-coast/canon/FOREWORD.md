@@ -22,5 +22,4 @@ I tip my old hat. I have walked this coast my whole life. I never once saw it th
 
 ---
 
-*† An anagram of a beloved chronicler of Africa, offered in homage and with great affection. The real
-author of these words is the author of this book; the borrowed name is a bow, not a claim.*
+*† **“Submit Whirl” is an anagram of WILBUR SMITH** — the beloved chronicler of Africa — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Wilbur Smith did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
