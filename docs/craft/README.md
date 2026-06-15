@@ -11,7 +11,7 @@ Read it whether or not you ever work with the press.
 
 | Guide | What it teaches |
 |---|---|
-| [**Craft Glossary**](CRAFT_GLOSSARY.md) | The full body of knowledge — structure, character, sentence, POV, the editorial ladder, pitfalls & machine-tells. **Start here if you want one reference.** |
+| [**Craft Glossary**](CRAFT_GLOSSARY.md) | The full body of knowledge — structure, character, sentence, POV, the editorial ladder, pitfalls & machine-tells, and the **Triptych / Tryptych form** (any-order three-novel weave). **Start here if you want one reference.** |
 | [**Craft Doctrine**](CRAFT_DOCTRINE.md) | The living standard: non-negotiables, what good prose *feels* like here, and the revision mantra (*embody, don't state*). |
 | [**Anti-Patterns**](ANTI_PATTERNS.md) | Twenty-nine named literary smells (competence porn, reveal stacking, voice homogenization…) with BAD→GOOD fixes — the generative layer above line-editing. |
 
