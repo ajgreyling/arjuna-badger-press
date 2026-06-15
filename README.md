@@ -23,6 +23,8 @@ folder.
 
 > **For engineers & CTOs** — how this library is made: the AI pipeline, the StoryGraph geospatial-temporal continuity graph, NovelBench, the de-LLM loop, and the human-in-the-loop guardrails & gates → **[The technology](docs/TECHNOLOGY.md)**.
 
+> **For authors & editors** — why the press is not just for beginners: dump your manuscripts and notes, answer ~20 wizard questions, click Go, come back to a proofread-ready book → **[The workshop](docs/FOR_AUTHORS.md)**.
+
 > **For writers** — free degree-level creative-writing craft (structure, character, sentence, anti-patterns, machine-tell audit) mined from finishing this catalogue → **[Craft Library](docs/craft/README.md)** · read online at [arjunabadger.press/craft/](https://arjunabadger.press/craft/index.html).
 
 ## The catalogue
