@@ -1,6 +1,6 @@
 # The Field of Doors — real places & people
 
-> The Why Files · I · A photo wiki for travellers and curious readers.
+> Not a Potato · A photo wiki for travellers and curious readers.
 > The novel is fiction; these grounds are real — go stand in them.
 > **[Read the book](../../books/history-before-time/books/crop-circles/build/BOOK.md)** · [All place wikis](README.md)
 
