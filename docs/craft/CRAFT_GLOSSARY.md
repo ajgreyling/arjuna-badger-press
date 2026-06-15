@@ -11,6 +11,7 @@ for writers — not a private canon spec.
 > **project-specifics fenced** into the `In this project:` / `See:` lines so the craft lifts out
 > clean. Write each entry to survive being read by someone who has never seen this repo.
 
+
 **How to read this file (for Claude, drafting or editing):** every entry states the concept,
 then — where it earns it — a **Rule** (what to do) and a **Fail** (the failure-mode to detect
 and avoid). When drafting, the Rules are your priors; when editing or cold-reading, the Fails
@@ -19,7 +20,7 @@ are your checklist. The single most load-bearing section for AI-authored prose i
 
 **Sections:** **The Craft of Making a Novel** *(the process / the steps)* · **Structure &
 Story** · **Character & Dialogue** · **The Craft of the Sentence** · **Point of View, Setting
-& World** · **Series & Trilogy Architecture** · **The Editorial Ladder** · **Pitfalls &
+& World** · **Series & Trilogy Architecture** *(incl. the **Triptych / Tryptych form**)* · **The Editorial Ladder** · **Pitfalls &
 Machine-Tells** *(the self-audit)* · **The Machinery (this repo's tools)** · **Book
 Furniture** · **Sources**.
 
@@ -693,6 +694,49 @@ reader is invested; explaining what the scene already implied (the over-explanat
 > Lie established), book 2 ≈ Act II (the deepening, the false victory/defeat), book 3 ≈ Act III
 > (the Truth claimed). The acts don't divide cleanly at the book seams — the overarching Act II
 > typically opens ~¾ through book 1 and closes ~¼ into book 3.
+>
+> **Named form in this house:** the **Triptych Trilogy** (*Tryptych form*) — three panel-complete
+> novels, weave-closed, readable in any order. Distinct from a serial trilogy (must read 1→2→3)
+> and from a loose shared universe. See the dedicated entry below.
+
+### Triptych Trilogy · *Tryptych form*
+**Plain English:** A named three-novel form AJ Greyling claims and demonstrated in *The African Gold
+Trilogy*: three **panels** (each a complete novel), hinged by **weave motifs** (recurring objects,
+characters, ideas, images) into one closed work — and readable in **any order**. Like a painted
+triptych altarpiece: each wing is a finished image; together they mean more; the eye may begin at
+any panel. The house sometimes spells it **Tryptych** (the D-006 coinage: the *try* of any-order
+reading + the art-historical *triptych*).
+
+**The three proof obligations (falsifiable):**
+1. **Panel-completeness (standalone-intact)** — each volume satisfies alone; a newcomer to any one
+   book is never confused and reaches a satisfying close. No weave appearance is *load-bearing* for
+   its own panel's plot.
+2. **Weave-closure** — motifs span ≥2 panels and resolve across the set; **spine motifs** span all
+   three and carry the load-bearing braid. The whole exceeds the sum of its panels.
+3. **Order-independence (any-order readability)** — every reading permutation is valid, complete,
+   and enriched. There is no privileged "book 1."
+
+**Rule:** Design **mutual** appearances — a panel both *seeds* forward and *lands* something seeded
+elsewhere — so no panel is pure setup or pure payoff. That is what frees reading order. Track every
+weave motif; enforce standalone-intactness as a hard constraint, not a hope. Order-independence is
+**not** order-invariance: each order produces a *distinct* trajectory (e.g. enter through the
+cinematic capstone → pure reverse-payoff afterward). Differences must be **enrichments, never
+requirements**.
+
+**Fail:** A **serial trilogy** masquerading as a triptych (volume 3 requires 1→2); a **loose shared
+universe** with no closed weave; **load-bearing crumbs** (newcomer lost); claiming all orders feel
+*identical* (weaker and false); a middle panel that is only connective tissue with no arc of its own.
+
+**Vocabulary:** *panel* · *hinge* · *weave motif / crumb* · *seed / landing / mutual* · *spine motif*
+· *reverse-payoff* · *standalone-intactness*.
+
+**In this project:** exemplified by *The African Gold Trilogy* (RESONANCE · REVELATION · RELIC) —
+three distinct genres as deliberate **contrast** (low cross-book structural resemblance is the
+design, not a defect). Five spine motifs: resonance-gold, the-court, stewardship, all-the-same,
+builders-deep-history.
+
+**See:** *Standalone-completeness rule* · *Reverse-payoff / crumb* · *Capstone / finale form* (this
+file)
 
 ### Overarching arc vs. per-book arc
 **Plain English:** A series runs *two* structures at once: each book is a **complete arc**
@@ -736,13 +780,12 @@ with no satisfaction of its own.
 deliver the series-arc Truth and the accumulated reverse-payoffs — without collapsing into a
 checklist of callbacks.
 **Rule:** Pay off the series promises through the *same* climactic action that resolves the
-finale's own plot; let the Truth be *demonstrated*, not narrated. (This repo's **triptych-
-form** judge tests exactly this: do the panels stand alone, do the spine motifs all resolve,
-does the capstone land?)
+finale's own plot; let the Truth be *demonstrated*, not narrated. (The **Triptych Trilogy / Tryptych
+form** judge tests exactly this at series scale: do the panels stand alone, do the spine motifs all
+resolve, does the capstone land?)
 **Fail:** A finale that becomes a museum tour of earlier books; or one that resolves the series
 theme by *saying it aloud* in a closing coda (the theme-said-aloud tell, at series scale).
-**See:** *Coda* · *Thesis* (this file) · `academic/TRIPTYCH_FORM.md` · *Triptych-FORM judge
-verdict* (memory)
+**See:** *Triptych Trilogy · Tryptych form* · *Coda* · *Thesis* (this file)
 
 ### Adaptation — transposition vs. reskinning *(deep-structure fidelity)*
 **Plain English:** Adapting or modernising a story *well* means carrying its **deep structure** — the
