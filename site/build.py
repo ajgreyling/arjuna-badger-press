@@ -38,6 +38,11 @@ PLAUSIBLE_DOMAIN = os.environ.get("ABP_PLAUSIBLE_DOMAIN", "arjunabadger.press")
 # Paste the Google Form URL here (or set env ABP_BOUNTY_FORM_URL) once it exists. While empty, the
 # "Report a find" links fall back to the bounty page itself, so there is never a dead link.
 BOUNTY_FORM_URL = os.environ.get("ABP_BOUNTY_FORM_URL", "")
+
+# Official WhatsApp Channel (broadcast-only). Paste the channel invite URL (or set env
+# ABP_WHATSAPP_CHANNEL_URL) once created. While empty, "Follow the channel" falls back to the
+# bounty page (no dead link). WhatsApp is the announce megaphone; all reporting stays on the form.
+WHATSAPP_CHANNEL_URL = os.environ.get("ABP_WHATSAPP_CHANNEL_URL", "")
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -536,6 +541,13 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .audiobook-notice .wrap{padding:11px 24px;display:flex;gap:12px;align-items:flex-start;justify-content:center;text-align:center}
 .audiobook-notice strong{font-family:"Space Grotesk";font-weight:600;color:var(--gold);white-space:nowrap}
 .audiobook-notice span{max-width:72ch;color:var(--bonedim)}
+/* Anti-scam trust strip — calm, not alarmist (red would look scammier). */
+.trust-banner{border-bottom:1px solid rgba(126,122,90,.4);background:rgba(20,18,15,.6);
+  font-size:13.5px;line-height:1.5}
+.trust-banner .wrap{padding:9px 24px;display:flex;gap:10px;align-items:center;justify-content:center;
+  flex-wrap:wrap;text-align:center}
+.trust-banner strong{color:var(--bone);font-weight:600}
+.trust-banner a{color:var(--gold);white-space:nowrap} .trust-banner a:hover{color:var(--bone)}
 
 /* hero */
 .hero{text-align:center;padding:80px 0 56px}
@@ -702,12 +714,21 @@ def audiobook_notice() -> str:
 </div></div>""")
 
 
+def trust_banner(rel: str = "") -> str:
+    """Site-wide anti-scam one-liner. SA WhatsApp scams prey on 'get paid' offers; we make the
+    boundary unmissable on every page: we never ask for money/OTP, we never DM you, we only pay."""
+    return (f"""<div class="trust-banner" role="note"><div class="wrap">
+🛡️ <strong>We never ask you for money or an OTP — we only ever pay you, and we never DM you first.</strong>
+<a href="{rel}bounty.html">How to know it's really us →</a>
+</div></div>""")
+
+
 def nav(rel: str = "") -> str:
     return f"""<div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
 <nav><a href="{rel}index.html#library">Library</a><a href="{rel}wiki/index.html">Places</a><a href="{rel}craft/index.html">For writers</a><a href="{rel}technology.html">Technology</a><a class="navhot" href="{rel}bounty.html">Bounty</a><a href="{rel}index.html#mission">Mission</a>
 <a href="{rel}index.html#press">The Press</a><a href="{rel}index.html#thread">The Proof</a><a href="{rel}house.html">The House</a><a href="{rel}letter.html">A letter</a><a href="{rel}for-lisel.html">For Lisel</a><a href="{rel}index.html#write">Write with us</a></nav>
-</div></div>{audiobook_notice()}"""
+</div></div>{trust_banner(rel)}{audiobook_notice()}"""
 
 
 def footer() -> str:
@@ -1031,6 +1052,8 @@ def docs_rewrite_links(md: str) -> str:
     # The bounty report form — set BOUNTY_FORM_URL once the Google Form exists; until then links
     # point at the bounty page itself (no dead end). Replaces the BOUNTY_FORM_URL placeholder token.
     out = out.replace("(BOUNTY_FORM_URL)", f"({BOUNTY_FORM_URL or 'bounty.html'})")
+    # The WhatsApp Channel invite — same fallback pattern.
+    out = out.replace("(WHATSAPP_CHANNEL_URL)", f"({WHATSAPP_CHANNEL_URL or 'bounty.html'})")
     return out
 
 
@@ -1303,6 +1326,7 @@ def render_reader(e: dict) -> str:
             break
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        trust_banner(rel="../"),
         audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
