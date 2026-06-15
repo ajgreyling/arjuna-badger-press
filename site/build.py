@@ -163,7 +163,7 @@ CURATED = [
      "the-unheard/books/mongolia-steppe", "build/export",
      "A herder's daughter sent back as the friendly face of the survey that will fence her father's pasture — and a crew who came for the empty land of Genghis learns the emptiest-looking country on earth is the most precisely known."),
 
-    ("sheltering-desert", "The Sheltering Desert", "A true story · Non-fiction", "Non-fiction",
+    ("sheltering-desert", "The Indifferent Desert", "A true story · Non-fiction", "Non-fiction",
      "the-sheltering-desert", "build/export",
      "In May 1940 two German geologists drove into the Namib rather than be interned — and survived two and a half years by real bushcraft against a desert that did not care whether they lived."),
 

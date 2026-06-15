@@ -1,4 +1,4 @@
-# The Sheltering Desert
+# The Indifferent Desert
 
 ### *The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII*
 
@@ -8,7 +8,7 @@ Andries J. Greyling
 
 ---
 
-*The Sheltering Desert*
+*The Indifferent Desert*
 
 Copyright © 2026 Andries J. Greyling. All rights reserved.
 
@@ -660,7 +660,7 @@ What I invented: scene connective tissue, interior monologue, dialogue where the
 | **Status** | In copyright (EU life+70 → 2068) | Original retelling of **events** |
 | **Sentences** | His | Mine |
 | **Facts** | His frame | Same documented frame, independently researched |
-| **Title** | *The Sheltering Desert* | Working title — **a distinct published title is recommended** |
+| **Title** | *The Indifferent Desert* | Chosen — distinct from Martin's in-copyright *The Sheltering Desert* |
 
 ---
 
@@ -776,7 +776,7 @@ The author dedicates **two** volumes in this library to **Dr Ferdie Lochner**. T
 is shared; each book draws on a **different slice** of the same life. Nothing here makes him a
 character on-page — it explains **why the same real man** belongs on **both** spines.
 
-| Ferdi — accomplishment or lane | *The Sheltering Desert* (this book) | *House of Bread* (Holy Land) |
+| Ferdi — accomplishment or lane | *The Indifferent Desert* (this book) | *House of Bread* (Holy Land) |
 |---|---|---|
 | **Geography / GIS / reading the ground** | **Primary** — Namib, Kuiseb, rock-and-water survival grammar | **Primary** — sacred geography, road, Jordan/Jerusalem **layers** |
 | **Okahandja childhood / Namibian landscapes** | **Primary** — the country the novel **is** | **Secondary** — Chobe meeting; southern African **home soil** under Jakobus |

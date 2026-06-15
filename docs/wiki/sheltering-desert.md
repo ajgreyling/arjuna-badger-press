@@ -1,4 +1,4 @@
-# The Sheltering Desert — real places & people
+# The Indifferent Desert — real places & people
 
 > A standalone novel · true story · A photo wiki for travellers and curious readers.
 > The novel is fiction; these grounds are real — go stand in them.

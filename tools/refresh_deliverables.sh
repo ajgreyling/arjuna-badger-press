@@ -35,7 +35,7 @@ BOOKS = {
  "The Field of Doors": "books/history-before-time/books/crop-circles/build/export/The Field of Doors",
  "The Way That Was Invented": "books/the-unheard/books/japan-ainu/build/export/The Way That Was Invented",
  "The Felt and the Sky": "books/the-unheard/books/mongolia-steppe/build/export/The Felt and the Sky",
- "The Sheltering Desert": "books/the-sheltering-desert/build/export/The Sheltering Desert",
+ "The Indifferent Desert": "books/the-sheltering-desert/build/export/The Indifferent Desert",
  "The Loneliest People in the World": "books/the-loneliest/build/export/The Loneliest People in the World",
  "The Song of the Self": "books/history-before-time/companions/the-song-of-the-self/export/The Song of the Self",
  "The Wrath of Achilles": "books/history-before-time/companions/the-wrath-of-achilles/export/The Wrath of Achilles",

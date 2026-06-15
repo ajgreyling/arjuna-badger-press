@@ -1,4 +1,4 @@
-# *The Sheltering Desert* (working title) — a standalone historical novel
+# *The Indifferent Desert* — a standalone historical novel
 
 An **original retelling of a true story.** In **May 1940**, two German geologists in South-West Africa —
 **Henno Martin** and **Hermann Korn**, anti-Nazi émigrés who fled Hitler in 1935 — refused to be interned
