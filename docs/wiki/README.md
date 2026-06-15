@@ -3,11 +3,9 @@
 > Every book in the library is anchored in **real geography** — standing stones, deserts, temples,
 > reefs, and the living people who keep them. These pages are photo wikis for travellers and curious
 > readers: awe first, attribution always, fiction labelled as fiction.
->
-> Read online at **[arjunabadger.press/wiki/](https://arjunabadger.press/wiki/index.html)** ·
-> regenerate from image compendiums with `python3 tools/generate_wiki.py`
 
 All photographs are **public domain / CC** via [Wikimedia Commons](https://commons.wikimedia.org/).
+
 
 ## The African Gold Trilogy
 
