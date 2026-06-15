@@ -74,5 +74,22 @@
 > Holy Land as a lived presence not a postcard; dignity for believers of every faith and none. Warm
 > stone-gold, dusk indigo, one steady light. No text. --ar 2:3 --style raw --v 6
 
-> **Modern Sherlock 2–5, No-Fear Cycle, Salt Veil** — also coming-soon; can stay on the simple
-> placeholder covers for now, or I can write prompts for these too when you want to push them up.
+### `no-fear-cycle` — *Ordnance Pending* (The No-Fear Cycle · Book One)
+> A cinematic matte-painting cover, portrait. Grimdark military science fiction. A vast, war-scarred
+> alien battlefield at dusk — a burning city on the horizon under a bruised orange-black sky thick
+> with smoke and falling ash. In the foreground a lone armoured soldier (battered powered armour,
+> not a hero pose — exhausted, resolute) holds a heavy ordnance key/control rune that glows cold
+> blue, the one calm light in the chaos. Distant artillery flashes; a sense of holding the line as
+> the world burns. Ember-orange + ash-black + a single cold-blue glow. Epic, oppressive, heroic in
+> the face of doom. No text. --ar 2:3 --style raw --v 6
+
+### `the-salt-veil` — *The Salt Veil* (a desert epic-fantasy · Book One)
+> A cinematic matte-painting cover, portrait. A desert epic-fantasy. A blinding white salt flat
+> stretching to a canyon-city carved into ochre cliffs on the horizon, under a vast pale sky at low
+> sun. In the foreground, three veiled women stand with their backs to us, robes moving in the wind
+> — one holds a slim curved blade, the others still and watchful; power held quietly. Heat-shimmer,
+> long shadows across the salt. The men hold the thrones; the women hold everything else. Bone-white
+> salt, ochre stone, gold light, indigo veils. Mythic, austere, female power. No text. --ar 2:3 --style raw --v 6
+
+> **Modern Sherlock 2–5** — also coming-soon; can stay on the simple placeholder covers for now, or
+> I can write prompts for these too when you want to push them up.
