@@ -99,7 +99,9 @@ SHELF_TAGLINE = {
 # Per-book descriptive tagline shown on the shelf card + book page (under the title).
 # The Reichenbach Files are present-day transpositions of Doyle — canon-true, not loose
 # adaptation; the tagline says so up front. Keyed by book id; absent id => no tagline.
-TAGLINE = {
+# NB: distinct from the house TAGLINE string near the top. This is the per-book dict; do not
+# collapse the two names — the hero (render_index) needs the string, cards/book pages need this.
+BOOK_TAGLINE = {
     "sheltering-desert": "The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII.",
     "modern-sherlock":   "A Modern Retelling, True to the Original",
     "modern-sherlock-2": "A Modern Retelling, True to the Original",
@@ -957,7 +959,7 @@ def card(e: dict, accent: str) -> str:
 <a class="coverlink" href="{href}">{cover}</a>
 <div class="body">
 <a class="titlelink" href="{href}"><span class="ser">{html.escape(e['subtitle'] or e['series'])}</span>
-<h3>{html.escape(e['title'])}</h3></a>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(TAGLINE.get(e['id']))}
+<h3>{html.escape(e['title'])}</h3></a>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p>{html.escape(truncate(e['blurb'], 150))}</p>
 {badge}{dls}</div></div>"""
 
@@ -1453,7 +1455,7 @@ def render_book(e: dict) -> str:
         f"""<div class="wrap"><div class="bookhero">
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
-<h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(TAGLINE.get(e['id']))}
+<h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{wiki}{soon}
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
