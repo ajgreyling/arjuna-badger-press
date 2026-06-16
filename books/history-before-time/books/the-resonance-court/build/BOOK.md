@@ -393,3 +393,440 @@ Today, for the first time since a man sat down in a camp chair with a rusk and a
 
 The small man was already three sentences into a story that could not possibly be true. Two of the greatest fighters who had ever lived were leaning in to hear how it ended.
 
+
+# The Keys
+
+The suit-room was the brightest place in the House. Nine days in, Jakobus had learned to read the building by its light — the lounge kept low and amber to take the edge off men who carried edges, the corridors neutral, the gym deliberately cold-blue to make you want to work. This room was white and even, no shadow to hide a flinch, the light of a place that wanted to see exactly what your body did. He stood inside the door and let his eyes adjust and watched the man before him trip the wire.
+
+Not literally. There was no wire. But the floor read your gait the moment you stood inside the racked suits, and the racked suits read you back, and the big striker — the one with the loud hands and the louder reputation, three days arrived — had stood up too fast and snapped a kick at nothing and the suit had snapped it for him, fully, instantly, the way it had been told to, and put him a meter past where he meant to go and onto the mat with a slap and a Dutch-accented bark of laughter from the doorway. The day before, the wrestler had done a quieter version of the same thing and said nothing and got up and stood very still for a long time, learning.
+
+So Jakobus knew, watching, that the suit did exactly what you told it. That was the whole danger of it. A body lies to itself constantly — *I am stronger than this, I am younger than this, I will not feel that tomorrow* — and the suit believed the lie and made it true, and the bill came due on the mat.
+
+The technician was a small precise woman with a tablet and no awe in her at all, which he liked. She walked him to a rack and put her hand flat on the suit hanging there, the way you touch a horse to tell it you are coming.
+
+"This is not Guardian," she said, before he'd asked. "Everyone's first question. They've seen the other thing in the bay." She didn't look up from the tablet. "Guardian is the rescue shell. Industrial. Scarred. Built to walk into a collapsed building and walk out carrying the building. It makes you strong enough to be stupid." A small flat pride. "This is the Assist line. Eleven generations on. It doesn't make you strong. It makes you young." She did look up then. "It just agrees with you."
+
+He looked at the thing on the rack. It was not armour. It was hardly anything — a dark dense fabric over a skeleton thinner than his own bones felt, joints he couldn't name, a collar that sat open like a question. Nothing about it said *war*. It looked like the inside of a glove.
+
+"Agrees with me how."
+
+"Reads intent off the nerve before the muscle hears it. Fills the gap. Whatever you meant to do, to the spec of a body that doesn't hurt." She tapped the collar. "The others trip the wire because they tell it lies. They tell it they're explosive when they're being careful. It's very honest." She finally registered something about him she hadn't bothered to before — the stillness, maybe, the not-asking. "You won't trip it."
+
+"How do you know."
+
+"You've been standing there ten minutes and you haven't moved your feet."
+
+He let the corner of his mouth go. *Sien jou,* he thought, in the old reflex, and put it away.
+
+They dressed him. It went on like a wetsuit and then it didn't go on like anything — at the collar it found him, a cold crawl up the spine that was the system mapping his nerves, and then the cold stopped and there was simply the suit, weightless, the open collar settling closed with a sound like a held breath let out. Somewhere above, behind the even white light, the red eye watched. The Court ran all of it — the floor, the suit, the eye, the whole patient nervous system of the House — and it ran it the way a good operator runs a room, present and silent and offering no opinion. He had decided on the second day that he trusted the silence of it more than he'd ever trusted a voice.
+
+"Stand up slow," the technician said. "Let it learn your gait. Don't help it."
+
+He stood up slow.
+
+He had stood up off camp chairs and out of trucks and off the cold ground ten thousand times and there was always a list, run too fast to be a thought: the right knee that ticked at the top of the arc, the shoulder set wrong by a fall in a country he no longer named, the low deep ache across the back that wasn't an injury, just the tax, the accumulated rent of a body that had been spent hard for forty years. The list was so old he didn't read it anymore. It was just the weather of being him.
+
+He stood up and the list wasn't there.
+
+Not numbed. Not braced. Gone. The knee came up through the arc and there was no tick at the top, only the clean travel of a joint that had never been asked to do anything it couldn't. The shoulder sat where a shoulder should sit. The back held him up the way the back of a young man holds him up — for free, an unnoticed gift, no rent. He stood at his full height in a body that owed nothing, and forty years of weather lifted off him all at once, between one breath and the next, and he had no instruction for what that did to his chest.
+
+"So that's what it was like," he said. Quiet. To no one. The technician had the grace to look back at her tablet.
+
+It came out almost like grief. He had not understood, until the second it was lifted, how much of him had been holding. You carry the tax so long it stops being a weight and becomes the floor, and you build everything else on top of it, and you forget there was ever a floor under the floor. He stood in the white room and felt the man he used to be standing up inside the man he was, and it was not joy, exactly, and it was not loss. It was both, with no name between them, and he let it move through and didn't chase it.
+
+"Take a walk," the technician said. "Find your stride. I'll be in the bay — call out if the calibration feels off." She left him with it. She had read him right: he wanted no audience for this except the one that couldn't judge.
+
+So he walked. And then he didn't walk.
+
+He stopped thinking like an operator. This was the thing no one in his life had seen him do, because in his life there had been no room with no stakes in it, and a man with his trade never gives away the one thing he keeps, which is that under the read and the camouflage and the trained economy there is a boy who likes the feel of a good machine doing exactly what it's told. He dropped his weight, low and wide, and rolled it side to side — the *ginga*, capoeira's back-and-forth, the question you ask a floor before you trust it. The suit poured into the motion and agreed. He went lower. He swept a leg through the empty air and the suit gave him the full reach of it, and he came up onto his hands and kicked over backwards, a cartwheel-kick, the *meia-lua de compasso* he'd loved at thirty and lost to the knee at forty-five, and his heel cut a clean arc through the white air and his hands took the floor without a complaint anywhere in him and he came up the other side laughing.
+
+He poured it across the room. He had no opponent. That was the point. Capoeira was the most fun way ever invented to ask a body what it could still do, because it was a fight that was a dance that was a conversation, and you could run it solo and the floor and the air were partner enough. He cartwheeled, he dropped to the *negativa* and slid under a blow no one threw, he came up into a kick and let the suit carry it past where his hip would have stopped him and didn't stop. It said yes to all of it. Yes-and. He threw something stupid and it built on the stupid thing and made it land. He laughed out loud, alone, in a white room, in a body the years had given back, and the red eye watched and the Court said nothing and did not judge, which was the only condition under which the most withheld man any of them had cast would ever have done this at all.
+
+He was upside down again, balanced on one hand, the world inverted and clean, when the door said: "*Hééééy.*"
+
+He came down soft. The Fool stood in the doorway with both hands up like a man surrendering to a joy he'd discovered in progress, his whole face delighted, ancient and young at once.
+
+"No, no, no," the Fool said. "Don't stop. But also." He pointed a finger at Jakobus, then jabbed it sideways at the wall behind him, toward the courtyard. "The running thing. They said you do the running thing. Steve from accounting. The quiet one. *He* does the running thing?" He was already walking backwards out the door, beckoning. "Show me."
+
+"There is no running thing," Jakobus said.
+
+"There is now," said the Fool. "I am inventing it. Come."
+
+The courtyard was a square of real sky over fake everything, and along its far side the House had built what it called a conditioning course and what the cast called the wall, a long staggered run of obstacles in honest concrete and steel — a low wall, a high wall, a gap, a tower at the end with a clean drop off the back. Two of the others were there in the cold afternoon, a striker stretching and the wrestler sitting on the low wall watching nothing, and the Fool stationed himself at the start and gestured grandly, a ringmaster, and said "the running thing" again, and Jakobus, in a body that owed nothing, ran.
+
+He hit the low wall and vaulted it without breaking stride and the suit ate the landing clean. He took three steps and ran *up* the high wall, two strides vertical, the way he had watched young men do in cities and never once been young enough or whole enough to try, and at the top of the run his hand found the lip and he was over it and the suit caught him going down the far side with no jar at all. There was a gap and he didn't slow for it, he read it on the approach and committed — a precision jump, a thing you cannot half-do, the punishment for fear being the fall — and he landed it dead, both feet on the steel rail, balanced, the suit holding the line his intent had drawn before his muscle could doubt it. He grinned so wide it hurt his face. He had not used those muscles in years.
+
+He came to the tower and went up it hand over hand and stood at the top in the cold real air, and behind it was the drop, four meters of nothing onto the pad, and he didn't think about it. He stepped off. The fall was long enough to feel and the suit gathered itself in the last half meter and put him down on the pad with the impact spread across the whole skeleton of the thing, a deep clean compression and no pain, none, his knees folding and rising and carrying him three running steps out onto the fake grass, and he came up off the drop with his blood loud in his ears and his face split open with the most undefended grin of his life —
+
+— and there was a tall young man standing at the edge of the grass, watching him, with an expression he could not read.
+
+That stopped him. Faces did not stop Jakobus Swart. He read faces the way other men read weather, automatically, before he'd decided to. This one he could not place and could not parse — a closed thing, jaw set, eyes steady, holding something so hard it had gone flat, a stillness that wasn't calm. New arrival. The day's casting, then; the gate had fired again. Tall, lean, hard-used in the way of a man who'd worked outdoors and slept poorly, late twenties, maybe thirty. Pale eyes. There was a familiarity to the set of him that snagged and wouldn't come loose, the way a word sits behind your teeth.
+
+He was still grinning. He could feel the grin on his face and could not get it off, the body's joy lagging a beat behind the alarm.
+
+He reached up and pushed the shades onto his forehead, to see the man with bare eyes, because the read wasn't landing and you fix a bad read by removing what's between you and the thing.
+
+And his chest did something it had no instructions for.
+
+He was looking at his own face. Younger than his — no. The same age, near enough. The same age as the body they'd given him back. The pale eyes were Makda's eyes, the high line of the cheek was hers, but the jaw and the set of the shoulders and the way the weight sat, ready, hostile, defended — that was his. He was looking at a man he had never met and had known the whole length of him, a man whose existence he carried like the tax in the back, the floor under the floor. The grin sat on his face, obscene there now, and he couldn't move it.
+
+The young man watched him work it out. Watched the recognition arrive and land and do its damage, and his flat closed face did not change, except that the jaw tightened by a degree, and he said, in a voice that was Jakobus's own voice come back to him across a gap that should not have been crossable:
+
+"They told me you were here. Didn't believe them."
+
+There was no kindness in it. There was no cruelty either. There was a wall, built brick by brick over a life, and a man standing behind it deciding nothing.
+
+The Fool, at the start of the course, had gone very quiet.
+
+Jakobus came toward him slow, the way you come toward a man who might bolt or might swing, except this was not a tactical read, the tactical part of him had stopped working entirely and he was just walking toward his son. He stopped at a careful distance and pushed the shades back down and then took them off, full off, held them in his hand, because the man deserved his bare eyes and there was no version of this where Jakobus hid behind anything.
+
+"Sit," Jakobus said. It came out wrong, an order, and he heard it and amended. "If you want."
+
+They sat on the fake grass. The cold real sky over the fake everything. The wrestler had melted off the low wall and gone, the striker too; the courtyard had emptied the way a room empties around a private thing without anyone deciding to leave. The red eye watched. The Court said nothing.
+
+For a long time neither of them spoke. Jakobus was running the arithmetic and the arithmetic was a knife. He was twenty-eight in this body and twenty-eight in this borrowed time, and on his side of it there was no estrangement, there was nothing, there was a child he had not yet failed to be there for. This man across the grass had grown up in the hole where Jakobus would one day not be. One of them remembered everything. The other hadn't done it yet. He had cast a man who carried the entire cold history of him and brought him to a green square under a fake sky and sat him down beside the version of his father who was still innocent of all of it, and there was no mercy in that arrangement and there was no way to refuse it either.
+
+"I know what I am to you," Jakobus said. The Afrikaans came up under it; he let some of it through. "What I'll be. Most of it's on you. I won't pretend it isn't."
+
+"You don't know anything," the young man said. Flat.
+
+"No." Jakobus turned the shades over in his hands. "I don't. You're right. Haven't done it yet." He looked up. "And I'm not going to sit here and tell you I'm sorry for a thing I haven't done. You'd know it was cheap. You'd be right." He held the pale eyes that were Makda's. "But I'm not looking away from it either."
+
+The young man's jaw worked. He looked out across the empty course, at the wall, at the tower, anywhere but at the face that was his own face made calm.
+
+"You saw everybody," he said at last. Not loud. The wall had a crack in it and the words came through the crack, low and rough, a thing carried a long way. "Whole life. *Sawubona.* You saw the whole bloody — every stranger, every — " His hand made a small flat motion. He didn't finish it. He didn't have to. *And not me.* It hung in the cold air, unsaid, the whole indictment, and Jakobus took it without defending, because there was no defence, because the man was not wrong about a future Jakobus had no right to argue against.
+
+"Ja," Jakobus said. Quiet. Just the one word, agreeing.
+
+The young man's eyes came back to him, surprised at the agreement, braced for the fight that didn't come. And for a finger's width — no more — the wall opened. Jakobus saw it, saw the thing behind it look out, a boy's whole hunger to be seen by exactly this man, naked for half a second before the man slammed it shut and turned his head and reached for the only safe ground there was.
+
+"That's the new one," the young man said, hard, nodding at the suit. Retreating into the machine. "MK-eleven. Assist line." He knew the designation. Of course he knew it; the machine-world was his, the counterfeit trade, the love of a thing that obeyed — that was the part of his father he'd kept. "Twenty minutes and you're going off a tower like a *poephol* who wants to die in someone else's body."
+
+"It eats the landing clean," Jakobus said. "Best thing I've ever worn."
+
+"It's a tuned interface, not a toy. You don't lie to it. You went up that wall lying to it the whole way."
+
+"I know."
+
+"You don't know. You don't know the first thing." The anger came up plain, the safe clean kind, the kind that wasn't about the green grass and the closed throat. "You'll trip the calibration, put the knee they gave you back through the kneecap, and then there's two of you broken and I have to — " He stopped. Heard where the sentence was going. Closed his mouth.
+
+Jakobus looked at him for a long moment. At the hands, his mother's long hands, that knew machines. At the anger that was the nearest thing to *I don't want you broken* the man had on offer, and was a great deal more honest, coming through the only door he had.
+
+He reached up and unseated the collar.
+
+It opened with that same held-breath sound, and the weightlessness was suddenly a weight again, the suit going inert around him, and underneath it his own body waiting with all its years — except not yet, because he was still in the borrowed prime, and the only tax that came back was the one he'd been born to carry, the floor he'd always stood on. He peeled it off the shoulders, the arms, stepped out of it the way the technician had shown him in reverse, and stood there in the cold in the under-layer, holding the dark dense weightless thing across both arms like a coat.
+
+The under-layer was already cooling against his skin where the suit had been. The dead fabric weighed nothing and felt like nothing.
+
+He held it out. Not a gesture. A fact.
+
+"Then teach me," Jakobus said. "Take the keys, Ulfberht."
+
+The name came out before he'd vetted it. It came out before the operator in him could weigh whether it was earned, whether it was too soon, whether a thing that precious should be spent this fast — the operator was still offline, had been offline since the shades came up, and so the true name just got out, the name Makda had chosen, the name of the steel that doesn't break, the one nobody had called this man in years because the man had buried it and gone by the other thing.
+
+Ulfberht.
+
+The young man went very still.
+
+He looked at the suit held out across his father's arms, and he looked at the man holding it out, the man who dealt only in true things and had just handed him two of them at once — the real machine, and the real name. And whatever the wall had been built to keep out, it was not built to survive being handed the truest things by the right hands, twenty minutes in, on the fake grass, under the fake sky.
+
+He took the suit. His hands were not steady. He clamped them down on the dense fabric to stop them and didn't quite manage it and didn't look up while he failed to manage it, and Jakobus did him the courtesy of looking out at the wall while the hands shook.
+
+"You'll kill it," Ulfberht said, low, gruff, into the suit, not into his father's face — because some things can only be said sideways. "The body those idiots gave you back. Going off a tower lying to a tuned interface. You'll wreck it the first week." He cleared his throat. He folded the collar closed with the competence of a man who had taken apart harder machines than this in worse light. "I'll teach you to drive it. Before you kill it."
+
+"Ja," said Jakobus. "Good."
+
+He didn't say anything else. Neither did the boy. They sat with it, the two of them and the suit and the cold real air, the door propped a finger's width where there had been a wall, and that was all of it, that was the whole of what could be done today, and it was enough and they both knew not to touch it again.
+
+In the doorway behind them the Fool had not made a sound the entire time, which had never once happened since the day he arrived. He stood with one hand on the frame and watched the back of the quiet South African's head and the tall hard boy beside him, and he wiped his face with the heel of his hand, twice, businesslike, and then turned and went back inside to find the others.
+
+He found them in the lounge, the wrestler and the negotiator and the loud-handed striker and the man who never stopped grinding, and he didn't do any of the usual noise, none of the entrance, none of the bit. He just stood there until they looked up.
+
+"Steve from accounting," the Fool said. "The quiet one." He had to stop and start again. "He has a son."
+
+Somebody asked something. He shook his head.
+
+"They came in nine days apart," he said. "And the boy hates him. You can see it from across the yard." He looked back toward the courtyard, where the door stood propped against the cold. "And they're out there on the grass right now. And against every single piece of evidence I have ever seen in my life." He spread his hands, helpless, delighted, undone. "They get on. Very fine."
+
+
+# The Path Up the Rock
+
+The house was loud with the suit.
+
+Out in the courtyard the others were wearing the MK-XI like men who had been handed a fast car with the keys still warm. The striker — McGregor — was throwing combinations into the air and watching the suit feed his hips into them, laughing at how clean it came back. Goggins was doing some violence to the obstacle course that would have torn an unaided man's hamstring off the bone, and the suit was simply *agreeing* with him, which from where Jakobus stood looked less like a machine helping than a machine getting out of the way. Someone had set music going. The Fool was on top of the wall around the herb beds doing a thing that was either a stunt or a fall he had decided to finish well, and the others were watching him the way you watch weather.
+
+Jakobus stood in the colonnade with his shades down against the flat eastern light and let it be loud without him.
+
+He was learning, slowly and against his grain, to do that. To stand back. Yesterday he had not stood back — he had handed his son the keys, which had cost him more than the years had, and the cost was still settling somewhere under his ribs. So this morning he kept his hands in his pockets and his mouth shut and let the house be a house.
+
+Which is how he came to notice the one man who was not playing.
+
+Arin Ndlela came out of the suit-room door at the far corner, alone, in his own MK-XI, and he did not go to the course. He did not go to the music. He turned the other way — past the herb beds, past the Fool, past the noise — toward the eastern edge where the Court had grown a wall up out of the ground.
+
+Forty feet of it, maybe more. Real rock, or the Court's exact patient lie of it: granite-grain, the small honest cruelties of an actual face — a crimp here, a flared pocket there, the long mean blank section a third of the way up that any climber's eye snagged on the way an engineer's eye snags on a load it doesn't trust. It stood at the place where the courtyard stopped and the world seemed to stop with it, the morning behind it going on forever and pale.
+
+Arin walked toward it slow and certain, closing distance on something he'd been turning over for a long while.
+
+Jakobus took his hands out of his pockets and followed. Not to help. There was nothing here to help with, and the lesson of this week — the lesson the mat had beaten into him and the suit had finished — was that the help nobody asked for was just a man making the moment about himself. He followed to see. That much he was still allowed.
+
+He stopped at the foot of the slope, in the grass, far enough back that he was furniture.
+
+---
+
+Arin stood at the base and looked up the line the way you'd read a page, top to bottom and then again. He flexed his hands once inside the suit. He chalked them out of long habit, though Jakobus doubted the suit cared about sweat. Then he put his right hand on the first hold and his right foot on the first edge and he went up.
+
+Jakobus had watched a great many men move. It was, by his own accounting, the thing he did instead of the things the others did — he read bodies the way the engineers read the suit's logs. He knew the grammar of effort. He knew the difference between a man who was strong and a man who was *coordinated*, which were not the same animal and which most people never learned to tell apart. He had spent a career telling them apart, because the second one would get you killed faster than the first.
+
+What he watched Arin do was not strength.
+
+The man's hand left a hold and went up through empty air and arrived at the next hold *exactly* — not near it, not at it-and-then-adjusting, but *at* it, fingers closing as the hand landed, no correction, no second guess, no small ugly scrabble for purchase that every human hand makes a hundred times a day without its owner ever noticing. The foot followed and set down on a smear no wider than two fingers, and it stayed, and it bore weight, and the hip came over the top of it in one piece.
+
+Jakobus stood very still in the grass.
+
+He knew, distantly, what the suit did. He had read it on his own body two days ago: it did not make you young, it did not make you strong, it read what you *meant* and let your body do it. For him that had been a homecoming and a small grief — the homecoming of a body that obeyed, the grief of knowing his own had stopped obeying long before age had any right to take it. He had thought that was the whole of the thing. He had worn it like the fast car. He had done capoeira in it grinning like a boy and a parkour line off the storeroom roof and felt twenty-eight again and clean.
+
+He had not understood, until exactly now, watching Arin, that for some men there had never been a fast car to get back.
+
+The way Arin's hand arrived where it meant to — that was not the suit giving a man back his youth. That was the suit giving a man, for the first time in his life, the gap closed between *where his hand went* and *where he sent it.* Somewhere under all that competence Jakobus could read the old wound the way you read the limp in a man who has hidden it well: the body that had spent its whole life refusing, the cup that arrived an inch left of the table, the door handle missed, the thousand daily small humiliations of intent and outcome never quite agreeing — and a mind, a good mind, a builder's mind, trapped behind it.
+
+The suit did not fix Arin's body. The suit made it *match.*
+
+Halfway up, on a rest above the mean blank section, Arin hung off one straight arm and shook the other out, and he laughed.
+
+It was a short laugh, low, surprised out of him — the laugh a man makes alone in a workshop when a thing he has bled over for two years finally turns over and runs. He had forgotten the courtyard. He had forgotten the music and the Fool and the suit-room and the whole house. He had forgotten, plainly and entirely, that anyone was standing in the grass below him, and he hung there off one arm forty feet up with the pale forever behind him and laughed at his own hand, at the simple impossible fact of it being exactly where he'd sent it.
+
+Jakobus looked at his own boots in the grass and was, briefly and thoroughly, ashamed of the parkour line off the storeroom roof.
+
+He had worn the man's life's work like a toy. For its maker it had been a man let out of a hole.
+
+---
+
+Arin topped out. He didn't whoop, didn't throw his arms up. He stood on the flat top of the wall for a moment with the morning behind him and looked at his hands, both of them, turning them over once. Then he found the descent line and came down careful — and he was careful, Jakobus noted, careful the way a man is careful with something he does not entirely believe he gets to keep.
+
+Halfway down his eye caught the grass, and the furniture in it, and Jakobus watched the door close.
+
+You could see it go. Not dramatically. The face went smooth, the shoulders came back into their working set, the private thing folded itself away and the public man came back out front, and Arin finished the climb-down as someone who had merely been doing maintenance on a piece of equipment that happened to be forty feet tall.
+
+The kind thing — and Jakobus knew the kind thing the way some men know which wire — was to not have seen it. So he did the kindness of not noticing. He didn't soften his face into warmth at the man; warmth would have told Arin he'd been watched at the open part, and a man who'd just closed over did not need to know how late you'd looked away. Jakobus kept his shades down and looked at the rock, not the man, the long mean blank section a third of the way up, and gave it a moment of honest engineering consideration.
+
+"On my best day," he said, to the rock, "best body — I'd have bled all the way up that."
+
+Arin came off the last holds onto the grass. He didn't answer.
+
+"Every hold," Jakobus said. "Knuckles. That slab, I'd have left skin on it." He let that sit, still looking at the wall and not the man. "You went up it like a thought."
+
+For a while there was only the music from the courtyard, gone tinny with distance, and the wind off the pale eastern edge.
+
+Then Arin Ndlela gave Jakobus the longest run of words he had given anyone in the house.
+
+"Built it so a man at the bottom of a hole would never have to be only his own body." He said it plainly, to the rock too, the two of them standing side by side considering forty feet of granite-grain neither of them was looking away from. "That was the brief. Body fails — under load, under fire, under the years, under the thing it was born with — and the man's still in there. Still whole. Still wanting. And the gap between the wanting and the doing kills him slow." A breath. "So you shrink the gap. Don't make him strong. Don't make him young. You let his hand land where he sent it. That's the whole machine."
+
+He flexed his right hand once.
+
+"Build a thing like that for the man in the hole. The diver pinned under the deck. The kid in the chair. The old operator on the mat." A breath. "Then you put it on one quiet morning and go up a rock you'd never have touched, and —" He turned his hand over, didn't finish it. "I knew the spec. Didn't know the *spec.* Not until just now. Halfway up."
+
+"I heard you," Jakobus said.
+
+"I know." Arin didn't bristle at it. He let it stand, which was its own kind of door.
+
+Jakobus said nothing else.
+
+The portcullis was still down on Arin Ndlela. Jakobus could feel it sitting there, the man's working face out front, the private thing folded away. But there was, where there had not been an hour ago, a door cut into it. Small. Closed for now. But cut.
+
+---
+
+A noise came up from the grass to the south — not the courtyard music, something lower and physical — and both men turned to it together.
+
+Down where the lawn ran flat before the herb beds, two men had found each other.
+
+One Jakobus knew by sight only: the quiet wrestler, the one who moved through the house like water finding level, who watched everything and said almost nothing and gave the eye nothing at all. The cold-mountain man, Jakobus had been calling him privately, for the stillness of him — a stillness Jakobus recognized because it was a cousin of his own. He didn't know the man's name. He had decided, days ago and on purpose, not to learn it from anyone else, because the others spoke of him in a hush that meant *reputation,* and reputation got in the way of the read. Jakobus wanted to read him cold. So the cold-mountain man stayed nameless and clean.
+
+The other man Jakobus had watched arrive that morning through the gate. Bandy-legged, barrel-chested, a horseman's bow to his legs that you only got from a saddle taken before you could walk — lifted out of some century so far back that the house's translators were still building him a register to speak in. He had spent the day looking at the world the way a man looks at a dream he is fairly sure is a dream and has decided to enjoy regardless. He spoke no language anyone in the house spoke. He had a face like weathered tack and small bright eyes that missed nothing.
+
+The two of them had ended up near each other in the grass, the way men do, and neither had a single word the other could use.
+
+The horseman did the thing his trade did.
+
+He reached out, idly, almost absently — the way another man might offer a handshake — and took the cold-mountain man's forearm in a grip. Not aggressive. A grip with a question in it. The grip of a man whose whole inherited art lived in the reading of a forearm: the bone of it, the set of the wrist, where the strength banked, how the other man received being held.
+
+Jakobus, forty feet from it and an expert in nothing if not this, watched the cold-mountain man's face.
+
+For one beat — one — the stillness moved. Something in the eyes opened. And then the cold-mountain man took the grip *back.* Took the horseman's forearm in his own answer, found the bone, found the set of the wrist, and the two of them stood there in the grass holding each other's arms and reading, and Jakobus watched a thing pass between them that did not need any language he or the Court could supply.
+
+*You too,* the grip said. *You know.*
+
+He couldn't have rendered it in words because it wasn't words. It was older than words. Two men who had each spent a lifetime climbing the same impossible face from two different sides — one off the cold modern mountain, one off a steppe a thousand years gone — and they had reached the top and turned and found, of all the impossible things, *each other up there,* a man who'd bled for the same summit by a road that had never once touched their own.
+
+Then the horseman grinned, and tightened the grip, and pulled.
+
+They went into the grass together.
+
+It was not a fight. Jakobus saw that at once and so, he was fairly sure, did the cold-mountain man, who fought back without any of the seriousness a man brings to a fight. It was a *conversation.* A throw centuries old met a modern base and the base held and answered with a level-change that hadn't existed in the horseman's world, and the horseman, flat on his back, laughed up at the sky and rolled and tried something his great-grandfather had taught him, and it nearly worked, and the cold-mountain man's eyes went wide and delighted and he scrambled and reversed it and they were laughing, both of them, two men laughing in the grass like brothers who had been separated at birth across a thousand years and had just now, this morning, on this lawn, found their way home.
+
+They went two or three more rounds. Throws answered throws. The grammar was different and the grammar was identical. When they finally came apart, sitting in the trampled grass breathing hard and still laughing, the horseman reached up and tapped behind his own ear — the place the house's bone-conduction sat — and looked a question at the cold-mountain man, and the cold-mountain man tapped his own, and only *then,* only after, did they begin to learn each other's names.
+
+The craft first. The grip first. The machine second.
+
+Jakobus stood in the grass beside Arin and felt the morning's second lesson land on him, heavier than the first.
+
+---
+
+He had come into this house with one thing he was sure of. The mat had taken the rest of it. He had assumed, this week, with a quiet pride he would not have called pride if you'd asked him, that whatever the specialists did to him on their own ground, there was one summit that was his — the seeing. The man under the legend. The thing that bound impossible people into something that survived. He had been beaten at wrestling and beaten at suffering and beaten, this week, by his own son at the use of a machine, and he had taken each one and got up and bowed and meant it, because every one of those was someone else's mountain.
+
+But the seeing was his. He had been sure of that the way he was sure of his own hands.
+
+And just now, in the grass, two men who shared no word, no century, no tongue the Court could even build for them yet — two men had seen each other to the bone. No *Sawubona.* No courtesy phrase reached for by hand. No language at all. Just a grip, just a forearm, just the craft, and they had read each other all the way down, faster and more completely than Jakobus had read anyone in this house in nine days of trying.
+
+He had thought the seeing was a gift only a few people carried.
+
+It was just another summit. Every master who got to the top of his own mountain could see who else had made it. The grip was a kind of seeing. The blade would be. The negotiator's room would be. Arin's hand landing exactly where he meant it forty feet up was a kind of seeing, of the body by itself.
+
+It should have hollowed him out. It didn't. What came instead was closer to relief — a man who'd been carrying a weight alone for a long time, learning the whole world had been carrying it too, by other names, up other faces.
+
+He walked down toward the two wrestlers in the grass.
+
+The horseman saw him coming and went still, courteous, the way a man does for a stranger whose place in the order he doesn't yet know. Jakobus had asked the Fool, the night before, with the door of his room half shut and his pride entirely set aside, to teach him three words of the dead tongue the house had built for this man — the Fool, who collected languages the way other men collected scars, had taught him by hand, mouth-to-mouth, the way it had been done before there were books, and had not once made a joke of it, which was its own quiet mark of how seriously the Fool took the things he pretended not to.
+
+Jakobus reached up and turned off the bone-conduction behind his own ear. Switched it dead.
+
+Then he stopped in front of the horseman, and he said the three careful words himself, out of his own mouth, in the man's own dead tongue, badly, with a Boland weight on the vowels that no steppe had ever heard.
+
+The machine would have done it perfectly. The machine could have done it without his asking.
+
+The horseman's weathered-tack face split open like the morning behind the rock. He came up off the grass and took Jakobus's forearm in the grip of his trade, hard, both hands, and said something fast and warm and entirely lost — Jakobus's bone-ear was dead, he caught none of it, he didn't need to. He understood it the way the cold-mountain man had understood the grip.
+
+*You bothered. The machine was right there. And you bothered.*
+
+Jakobus took the forearm back, found the bone, and held on.
+
+
+# Each Other's Mountains
+
+The big floor-room had been a lounge for three weeks. On the morning of the third week it became a school, and the man who turned it into one did it the way he did everything, which was sideways and grinning, with his hands.
+
+"Okay," Jackie said. He had pulled the long low tables back against the walls overnight, alone, so that nobody saw him do it and everybody arrived to find it done. The floor was bare. The light came down flat and white from a ceiling that did not look like it had lamps in it. "Big idea. Serious idea. You'll think it's a joke. Because of the face. Not the face's fault."
+
+Khabib was sitting cross-legged with a cup of tea he had made himself. The horseman stood near the wall with the stillness of a man who has spent more of his life on a horse than off one. Goggins was on the floor in a forward fold that looked like punishment. Twelve of them, give or take, and the room had the loose hum of people waiting to find out what the day was.
+
+"Everybody teaches. Everybody learns. One a day, two a day — we'll see." He pointed at the horseman without ceremony. "You. Your wrestling." He found Bruce in the crowd, and his voice changed by a hair, the way a man's voice changes when he points at a thing he's loved his whole life. "You teach whatever that is. Everybody gets up here, shows the rest of us how he climbed his hill. And everybody else gets to be a beginner."
+
+The word landed in the room and sat there.
+
+"That's the part you'll hate," Jackie said, happily. "You don't remember how. Best in the room since you were children, all of you. You forgot what it feels like to be the worst." He spread his hands. "Feels like dying. Very funny to watch. It'll make us human. And the serious ones falling over — best television in the history of the species."
+
+He said it light. Jakobus, against the wall with his shades pushed up into his hair, heard the weight under it and did not say so.
+
+It was the right idea and it was dressed as the wrong one, which was the only way a room of summits would ever have agreed to walk down off them. He watched the proposal go around the circle and find purchase in the people he'd have guessed and a few he wouldn't. Goggins came up out of the fold and said *good* in a voice that meant something colder than agreement. Khabib looked at the horseman and the horseman looked back, and a thing passed between them that did not need the earpieces.
+
+"You first, old man," Jackie said to the horseman, and somebody translated *old man* badly, and the horseman laughed, which settled it.
+
+---
+
+The mat was not really a mat. The Court had grown the floor soft in a circle the night Jackie moved the tables, or it had always been soft there and nobody noticed; either way there was give under the foot now, a packed-earth give, and the horseman walked onto it and shed his outer coat and stood there in a way that made the give look like the whole world.
+
+Jakobus stepped onto it after him without being asked twice.
+
+He knew this. That was the thing the body told him as he loosened his shoulders and felt the floor through his soles. He had taught grappling in a hot room in another life, to younger men who needed to learn it fast and dirty because the alternative was worse. He had taken bigger men down and held them there until they stopped trying. He came onto the mat with his weight low and his hands loose and the quiet confidence of a man walking into a language he speaks.
+
+The horseman bowed. Jakobus bowed. They closed.
+
+He went for the tie-up he trusted, the inside control, the thing that started every clean takedown he'd ever owned — and the horseman was not there, or was there and made of water, and Jakobus's grip closed on a forearm that turned itself into a lever and the lever turned the floor up into the ceiling.
+
+White ceiling. Flat light. No lamps.
+
+He did not remember the trip. That was the part that arrived first, before the impact even finished landing through his back: the absence of the move. He had not felt himself thrown. There had been a hand on his sleeve and a hip that was not where a hip should be and then he was looking at the ceiling, and the grammar of how he had gotten here was simply not in him.
+
+He got up. He came in again, lower, careful, the way you come at a thing you've decided to respect. The horseman let him close, let him think he had the angle — and Jakobus felt his own weight committed a half-inch too far forward, felt the horseman *take* that half-inch, just take it, the way you take a coin off a table, and the floor came up again.
+
+White ceiling.
+
+The fourth time he did not even chase the takedown, he played for position, for the patient strangling game he was good at, and the horseman read it the way Jakobus read a room and let him build the position and then dismantled it from inside with his hips, no hurry, no spite, folding Jakobus down onto his side and across his own arm and there was the floor.
+
+White ceiling. Five.
+
+There was no violence in any of it. That was the thing that got under his skin and into the meat of him. A man could lose to power and keep his dignity intact, because power is just a bigger number. This was not a bigger number. This was a grammar his legs did not speak. The horseman was not stronger and he was not faster; he was *fluent*, in a language Jakobus had taught himself to speak well enough to fool people who didn't, and now he was on his back in front of a man who had been raised inside it, for whom the throw was not a technique but a sentence said without thinking.
+
+On his back, looking at the ceiling, the old reflex came up.
+
+It came up like it always came up, smooth and reasonable and ancient, the voice that had kept him alive in worse rooms than this: *in a real fight I'd never have closed like that, in a real fight there's a knife, in a real fight I take the eye, the throat, I don't play your game, I end it before you—*
+
+He caught it.
+
+He lay there a half-second with the excuse fully formed in his mouth and he caught it by the back of the neck the way you catch a dog going for a thing it shouldn't, and he held it, and he put it down. *No.* Not that. The house could have anything. It could have the body, the pride, the five trips to the ceiling. It could not have the one thing that had ever made him worth a damn, which was that he did not look away from losing to a better man. The day he started building escape hatches out of *real fights* and *rules*, he was done. He'd watched men do it. They got smaller every time and never knew it.
+
+So he laughed.
+
+Flat on his back, at the white ceiling, a short dry sound that came up out of him before he decided to make it. He got to his feet. His back told him about the floor. He turned to the horseman and bowed, and the bow was bad — too deep, too Western, the wrong shape entirely, a man bowing in a grammar he didn't have either — and the horseman's mouth went up at one corner because the bow was bad, and Jakobus let it be bad, because the badness of it was the truest thing in it.
+
+"On my ground," he said, and the earpiece carried it across the room and into the horseman's skull in the steppe tongue, "I'd have given you a game." He straightened. "This is your ground. You gave me a lesson."
+
+The horseman put a hand flat on Jakobus's shoulder, and the hand was the size and warmth of a saddle, and that was the whole reply.
+
+---
+
+He'd thought wushu would be the one he owned.
+
+It was the closest thing he had to a home style — not a style, his teachers would have said, a magpie's nest, a thing he'd built out of everything that worked and nothing that didn't. The flowing footwork he'd learned proper, in a real school from a real teacher, the only formal training in the whole tangle. He could move. He knew he could move. When Bruce got up to teach it Jakobus came onto the mat with something that wasn't quite the certainty he'd brought to the wrestling, because he'd learned that lesson an hour ago, but it wasn't far off either. He knew this language. He'd built half his fighting life out of its bones.
+
+Bruce did not throw him.
+
+That was the difference and Jakobus felt the difference before he understood it. Bruce watched. Jakobus ran the footwork, the linking, the flow from one shape into the next, the trapping hands, the broken rhythm — all of it clean, all of it real, a man demonstrating a vocabulary he genuinely possessed. He felt good doing it. He felt, for the first time that morning, like himself.
+
+Bruce let him go for a minute. Maybe ninety seconds. Then he stepped in and stopped Jakobus with one hand laid flat against his sternum, not a strike, just a full stop, and the speed of the hand arriving was the only violence in it.
+
+"Good pieces," Bruce said.
+
+He had a face that did three things a second, all of them electric, and right now it was doing the specific thing a craftsman's face does when he's about to tell you something true and isn't going to soften it.
+
+"You stole them well. I mean that. You stole better than most men who steal." The hand stayed flat against Jakobus's chest, a light pressure, holding him in place for the sentence. "But you stole *pieces*. You took the moves. You never took the idea." His head tilted. "You are translating. Every time. I watch you do it — you have a thing in your own head, in your own language, and you reach for the Chinese move that fits, and you put it on. Good translator. The room can't tell." The hand came off Jakobus's chest. "I can. Because I don't translate. I think in it."
+
+Cold water. The phrase went through Jakobus exactly like cold water, down the back of the neck and into the gut, because it was true with the specific completeness of a thing you've half-known about yourself for twenty years and never had said to your face. He *was* a translator. He was the most fluent translator in the room — he could pick up a grammar faster than men who'd grown up in it, he'd done it his whole life, languages and fighting and the way people held their hands — and Bruce had just told him the exact ceiling of that gift in one sentence. A translator can say anything. A poet thinks in the thing. No suit was going to close that gap. No read. No years. He could get faster and he could get cleaner and he would, until he died, be putting on moves that fit a thought he'd had in another language first.
+
+The reflex came up.
+
+It came up the way it had come up on the wrestling mat, the same animal at the back of the neck, *but it works, it's effective, ask the men I used it on, who cares if I'm translating if the translation lands—*
+
+He caught it. He put it down. It was easier the second time, the way a thing is easier the second time and worse, because now he knew he was going to have to do it on every mat in the building.
+
+"Teach me the idea," Jakobus said.
+
+Bruce looked at him.
+
+"Not the moves." Jakobus's voice was flat and even, the iceberg holding, but he heard the want in it himself and didn't bother to hide it. It was the hardest sentence in his language, the one a proud man has to take apart his own ribs to say. "I've got moves. More than I'll ever use. Teach me how you *think* in it."
+
+The electric face changed. It went, for a second, completely still — and the stillness was the respect, the specific respect of a master watching a dangerous proud man choose, on camera, in front of his peers, to be a beginner. Bruce had probably seen a hundred men want his moves. Jakobus could see it on him that he'd seen very few want the other thing.
+
+"That," Bruce said, "wanting it *like that*—" he touched his own temple "—is the one piece I can't give you. You come asking for it, or you come asking for tricks." He nodded, once, decision made. "You came asking right." Then he stepped back and dropped his weight and said, "So. Forget everything you stole. We start from nothing. Stand like you've never stood before in your life. You're going to be terrible."
+
+He was terrible.
+
+It was the best hour Jakobus had had since the white room. Bruce stripped him down to a posture and a single principle about water and a structure and would not let him add a move, would not let him reach for the nest of stolen things, made him stay in the one true sentence until it was his and not borrowed, and Jakobus was clumsy and slow and wrong and happy in a way he had not let himself be happy in front of other people in twenty years. Somewhere up in the flat ceiling the Court was recording it, he knew, the whole planet would eventually watch the quiet South African be made a fool of by a dead man, and he found he did not care at all. He was learning. There is a particular freedom in being the worst person in the room and choosing to stay there until you're not.
+
+---
+
+The comedy of the day, the real one, the one that put the whole house on the floor weeping, was capoeira.
+
+The teacher was a lean Brazilian whose body was a conversation, who could not stand still if you paid him, who moved through the *ginga* like a man who'd been rocked to sleep in it as a baby — and he looked around the school for someone to demonstrate the basic sway on, the find-the-rhythm-find-the-water of it, and his eye landed on the largest man in the building.
+
+The largest man in the building was a Springbok. He had played in the front row. He had a neck that had no clear border with his shoulders and a chest like the front of a truck and he had been cast, presumably, because somewhere in the threat's logic there was a faculty called *moving something that does not want to be moved*, and he was the planet's living answer to it.
+
+"You," the Brazilian said, delighted, doom in his voice already. "Come. Sway. Like the sea."
+
+The mountain came onto the mat to be water.
+
+What happened next was a seismic event. The prop set his feet — wide, planted, the stance of a man about to take a scrum — and the Brazilian said no, no, loose, *loose,* let the hips go, and the prop let the hips go, and a hundred and twenty kilos of front-row forward attempted the *ginga*, attempted to flow, attempted to be the sea, and produced instead the precise spectacle of a rugby prop attempting a pirouette. He was magnificent. That was the thing that killed everyone — there was nothing wrong with him, he was a king, the power coming off him as he swayed could have moved a vehicle, and it had nowhere graceful to go. He rocked side to side like a wardrobe being walked across a kitchen floor by two removal men. He put his arms out for balance and the arms were the size of the Brazilian's legs. He tried the little ducking step and the floor reported it to the building's foundations.
+
+Goggins lost it first, which nobody expected, a great bark of laughter out of a man who treated joy like contraband. Then it went around the room like a grass fire. Khabib had to put his tea down. The horseman was laughing the open helpless laugh of a man who has been on a horse too long to remember the last time something this funny happened on foot. Jakobus, on the side, felt it come up out of him and let it, doubled over, his abused back protesting and not caring.
+
+And the prop — this was the thing, this was why it was never cruel, why it stayed warm — the prop was laughing hardest of all. He kept going. He swayed and stumbled and the building shook and he threw his head back and roared with laughter at himself and *kept trying*, kept reaching for the water with a body that was carved out of granite, and the Brazilian was crying laughing too and still teaching, still saying *yes, yes, more, loose,* and the two of them were a comedy and a kindness at once, the lightest and the heaviest man in the house, each terrible at the other's whole life.
+
+The lesson landed the next day, and it landed in a dozen keys.
+
+The Brazilian, light on his feet, water all the way through, was running a little balance drill and the prop walked up behind him and asked, very politely through the earpiece, if he could show him something. The Brazilian, generous, said of course. The prop bound onto him the way you bind onto a man in the front row — head, shoulder, arms locking him in — and dropped his hips, and drove.
+
+He drove the laughing capoeira master across the entire floor of the room like a shopping trolley with a bad wheel. The Brazilian's feet were doing everything they knew how to do, all that water, all that rhythm, and none of it touched the simple geological fact of being pushed by a mountain. He went backward into the cushioned wall and bounced off it laughing, and the prop let him go and stood there grinning like a boy, and the room went up again, the same way, the warm way.
+
+Every one of them was a king on his own mountain. Every one of them was a fool on everyone else's. Jakobus, watching the Brazilian get walked into the wall, watching the prop have his hour after yesterday's, felt the thing his ouma used to say stop being a saying. *Elke pad loop teen dieselfde bult op.* Every path runs up the same hill. He'd carried it around his whole life as a sentence, a thing you said, a comfort. Now it was sitting in his back where the horseman had put him on the floor, and in his clumsy new wushu posture, and in the helpless laughter at a prop trying to be the sea.
+
+He stood at the edge of the mat and watched his school full of kings be fools for each other, and the watching was clean and good, and he did not yet know — none of them did — that the hill they were all so busy proving converged at the top had a far side, and that something was already standing on it, waiting to see whether anything they'd ever learned would matter at all.
+
