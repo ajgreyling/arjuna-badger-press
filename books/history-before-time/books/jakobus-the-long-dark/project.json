@@ -1,0 +1,17 @@
+{
+  "id": "hbt-long-dark",
+  "title": "The Long Dark",
+  "working_title": "History Before Time: The Long Dark",
+  "protagonist": "Jakobus Swart",
+  "logline": "When the load-shedding South Africa learned to live with finally stops coming back on — petrol going to gum, diesel on a one-year clock, the taps drying behind dead pumps — a sixty-year-old fixer who spent his whole life ready for exactly this leads a handful of strangers out of a dying city and into the high country, to prove, in the year he will die, the thing the world keeps forgetting: that when the lights go out, most people reach for each other, not each other's throats.",
+  "blueprint": "grounded present-day collapse-survival — the 4th Jakobus-Book; The Knowledge (accurate-collapse) × Humankind (anti-Lord-of-the-Flies thesis) × the Sheltering-Desert real-bushcraft register; carries Jakobus's locked 2030 death + claims the Wake at the Beast as coda",
+  "market": "grounded survival / book-club literary thriller — the South African load-shedding present taken one honest step further; the propulsive, broad-appeal sibling of the quiet Jakobus backstory volumes",
+  "status": "bible",
+  "seq": 3,
+  "graph_color": "#6a7b8c",
+  "canon_order": [
+    "STORY_BIBLE.md",
+    "THE_FORGER.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}
