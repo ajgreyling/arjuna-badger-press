@@ -1486,6 +1486,32 @@ def render_book(e: dict) -> str:
         serial_note = ('<p style="color:var(--ochre);margin-top:18px">A daily serial — released chapter by '
                        'chapter. The Prologue and Day One are live now; a new instalment goes up each day. '
                        'Free to read on the site; no download.</p>')
+    # Court-only "character witness": the tribute posture + the free-forever nature, with the rest of
+    # the reverent catalogue one click away. This is the project's best context for anyone who arrives
+    # to judge it (a named figure, a lawyer, a curious reader) — the whole shelf is free, careful with
+    # other people's sacred things, and made for the joy of it. The Court is one more tribute, louder.
+    if e["id"] == "the-resonance-court":
+        serial_note += (
+            '<div style="margin-top:22px;padding:18px 20px;border:1px solid var(--line);'
+            'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
+            '<p style="margin:0 0 .6em"><strong>A fictional tribute — and free, forever.</strong> '
+            'The real people in this story wear their real names with admiration, not endorsement: '
+            'no one named here has any part in it, nothing here is a claim about them, and it is offered '
+            'as a celebration of their craft. There is no paywall, no merchandise, no advertising — '
+            'nothing here is for sale, and nothing on this whole shelf ever will be. It is made for the '
+            'pure joy of storytelling.</p>'
+            '<p style="margin:.4em 0 0;color:var(--bonedim)">If you came to find out who made this, read '
+            'the rest — all free, all in the same spirit: '
+            '<a href="../book/jakobus-the-recitation.html">The Recitation</a> (a man at the edge of the '
+            'Qur’an, in reverence, who never converts), '
+            '<a href="../book/the-song-of-the-self.html">The Song of the Self</a> (a guest-at-the-fire '
+            'retelling of the Bhagavad Gita), '
+            '<a href="../book/house-of-bread.html">House of Bread</a> (the covenant road, for believers '
+            'of every religion and none), '
+            '<a href="../book/jakobus-silver-thread.html">The Silver Thread</a>, and '
+            '<a href="../book/australia-outback.html">The Songlines of Stone</a>. '
+            'That is the nature of the hand behind this one.</p>'
+            '</div>')
     wiki = ""
     if (WIKI_DIR / f"{e['id']}.md").is_file():
         wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
