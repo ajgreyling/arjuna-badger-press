@@ -102,6 +102,33 @@ SERIAL = set(
     ).split(",") if s.strip()
 )
 
+# ── Procedural-cover hide ─────────────────────────────────────────────────────────────────────
+# Books whose cover is Pillow-generated (no cover-plate.png, file < RICH_COVER_MIN_BYTES) are
+# withheld from the public shelf until a cinematic plate exists. Exempt: SERIAL ids (daily serial
+# must stay visible), the whole "Not a Potato" line (dossier sub-style is intentional), and
+# PROCEDURAL_SHOW (published flagships whose current cover is good enough for the shelf).
+# Env ABP_SHOW_PROCEDURAL=1 overrides (show everything — dev/preview only).
+RICH_COVER_MIN_BYTES = 500_000
+SHOW_PROCEDURAL = os.environ.get("ABP_SHOW_PROCEDURAL", "") in ("1", "true", "yes")
+PROCEDURAL_SHOW = set(
+    s.strip() for s in os.environ.get(
+        "ABP_PROCEDURAL_SHOW",
+        "the-loneliest,the-jakobus-file",
+    ).split(",") if s.strip()
+)
+
+
+def cover_is_procedural(cover: Path | None, root: Path) -> bool:
+    """True when the resolved cover is a small generated placeholder, not a cinematic plate."""
+    if cover is None:
+        return True
+    if (root / "design" / "cover-plate.png").is_file():
+        return False
+    try:
+        return cover.stat().st_size < RICH_COVER_MIN_BYTES
+    except OSError:
+        return True
+
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
 SERIES = [
@@ -614,6 +641,7 @@ def companion_manuscript(root: Path) -> str | None:
 
 def scan() -> list[dict]:
     entries = []
+    hidden_proc: list[str] = []
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
         root = BOOKS / rootrel
         exp = root / expsub
@@ -631,6 +659,12 @@ def scan() -> list[dict]:
             if cand.is_file():
                 cover = cand
                 break
+        if (not SHOW_PROCEDURAL and cid not in SERIAL
+                and cid not in PROCEDURAL_SHOW
+                and series != "Not a Potato"
+                and cover_is_procedural(cover, root)):
+            hidden_proc.append(cid)
+            continue
         book_md = root / "build" / "BOOK.md"
         reader_md = None
         reader_src = None
@@ -649,6 +683,9 @@ def scan() -> list[dict]:
             "serial": cid in SERIAL,
             "available": can_read and (cid in SERIAL or bool(downloads)),
         })
+    if hidden_proc:
+        print(f"  (procedural covers hidden from shelf: {len(hidden_proc)} — "
+              f"{', '.join(hidden_proc[:8])}{'…' if len(hidden_proc) > 8 else ''})")
     return entries
 
 
