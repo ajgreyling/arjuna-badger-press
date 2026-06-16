@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Lay the title + author typography onto the clean cover plate for *The Long Dark*.
 
-Reads design/cover-plate.png (the text-free image), adds soft legibility scrims and elegant
+Reads design/cover-plate.png (the text-free image; plate = Toyota Land Cruiser 70-series
+double-cab pickup / bakkie — snorkel, tray jerry cans, canvas water-bag), adds soft legibility scrims and elegant
 serif typography, and writes the typeset cover to design/cover.{png,jpg} +
 build/export/cover.{png,jpg}. Same HBT house method as *The Silver Thread*.
 
