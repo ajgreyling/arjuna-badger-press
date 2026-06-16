@@ -1,32 +1,4 @@
-# The Felt and the Sky
-
-**The Unheard**
-
-Andries J. Greyling
-
----
-
-*The Felt and the Sky*
-
-Copyright © 2026 Andries J. Greyling. All rights reserved.
-
-This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is coincidental. Real places, historical traditions, and scientific and archaeological references are used in a fictional context.
-
-Published by the House of Greyling.
-
-ISBN: ___-_-_____-___-_  *(assigned at print)*
-
-*Per Ardua ad Magnum.*
-
----
-
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
-⁂
+# Dedication
 
 For the people the map calls empty —
 
@@ -60,36 +32,31 @@ You were here the whole time.
 
 *Go and let the people who hold it show you how full it is.*
 
----
+# Foreword
 
-## Contents
+### *by Hubert Wancic* †
 
-- Chapter 1 — The Home That Moves
-- Chapter 2 — The Acceptable Face
-- Chapter 3 — The Crew
-- Chapter 4 — The Welcome Cup
-- Chapter 5 — What the Survey Can't See
-- Chapter 6 — The Blurted Truth
-- Chapter 7 — A Man Who Can Handle Himself
-- Chapter 8 — His Ground
-- Chapter 9 — No Brakes
-- Chapter 10 — The Stone on the Cairn
-- Chapter 11 — The Drying Spring
-- Chapter 12 — Not Ours to Tell
-- Chapter 13 — The Ones Already Gone
-- Chapter 14 — A Thousand Fires
-- Chapter 15 — Strategic Site
-- Chapter 16 — Which Tongue
-- Chapter 17 — The District Decides
-- Chapter 18 — The Fence and the Herd
-- Chapter 19 — The Wheels He Trusts
-- Chapter 20 — The Killing Wind
-- Chapter 21 — On the Record
-- Chapter 22 — The Daughter Who Chose
-- Chapter 23 — The Road On
-- What Is Real in This Book
+I spent my life chasing a single idea across several deserts: that human beings were not made to settle, that the truest map of a people is not their borders but their *routes*, and that the land a settled person calls empty is, to the people who move across it, the most densely written text on earth. I was often accused of romanticising the nomad. I probably did. But I was right about the central thing, and this book proves it better than I ever managed, set in the one country that has always known it in its bones.
+
+Mongolia. The great misunderstood emptiness. The land everyone arrives to "develop" because they have mistaken *unmarked* for *unknown* — and that is the engine of this book, and the author has seized it with both hands. He has understood that the steppe only looks empty to the eye that cannot read it; that to the herder it is a library, a genealogy, a calendar, a law; that every fold of it has a name and a use and a story, and that the people who carry those stories carry them, like all true nomads, not on paper but in the body and the mouth and the moving.
+
+His heroine is the daughter who left and is sent back — sent back as the friendly local face of the very survey that means to fence her father's grass — and through her the book performs the exact reversal I spent my career arguing for. The clever outsiders arrive certain that they have come to a blank place to bring it knowledge, and the land, patiently, through her, teaches them that it was *they* who arrived ignorant; that the most precisely known ground on earth is the ground they had written off as nothing. I cheered. I have waited a long time for a novel to land that blow so cleanly.
+
+What moved me past argument, though, is that the author loves the *movement* itself the way I did — the felt and the horse and the season and the going. He knows that a way of life is not a museum exhibit to be preserved behind glass but a verb, a thing that must keep moving to stay alive, and that the tragedy of the survey, the mine, the fence, is not that it is ugly but that it makes the verb impossible. To still a nomad is to kill him slowly and call it progress. The book knows this, and grieves it, and never once preaches it, which is the only way grief survives translation onto a page.
+
+And there is a stranger in it — there is always a stranger in the books I love — a quiet man from another southern grassland who turns out to belong, against all logic, more easily on this steppe than the experts do, because he travels the way the herders travel: lightly, attentively, as a guest. The scenes of him learning to be still inside this enormous moving country are the truest thing in the book, and I read them with the particular ache of a settled old man remembering the road.
+
+A word on the prose: it moves. It does not sit and describe; it *travels*, the way the people in it travel, covering ground, trusting the reader to keep up, pausing only where a thing is worth the pause. This is the right music for the subject. The form is itself nomadic, and I do not think the author could have told this story any other way and kept it alive.
+
+So: go out onto the felt and the sky. Let the empty place fill, line by line, with the names and uses and stories it was always full of. The people who move across it have been trying to tell us, for a very long time, that nothing here was ever empty. This book finally listens, and writes it down — lightly, on the move, as a song and not a survey.
+
+Begin, and travel well.
+
+*— Hubert Wancic*
 
 ---
+
+*† **“Hubert Wancic” is an anagram of BRUCE CHATWIN** — the great writer of nomads, songlines, and the road — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Bruce Chatwin did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 # Chapter 1 — The Home That Moves
 
@@ -195,8 +162,6 @@ And he went inside, and left her standing in the cold with the dogs and the ligh
 
 She felt seen.
 
----
-
 # Chapter 2 — The Acceptable Face
 
 The inside of the main cabin smelled of vinyl and diesel and burnt coffee, and it was warm, and there were four people in it who stopped talking when she came in, which told her they had been talking about her.
@@ -281,8 +246,6 @@ Nobody said anything for a moment. The generator droned its one flat note. The t
 
 "His name's Jakobus," the lean one said, into the silence, as if that explained the man, the van, the dogs, all of it. "Don't try to read him. He'll have read you first."
 
----
-
 # Chapter 3 — The Crew
 
 Naila had read the lease schedule four times, and the fourth time was when she stopped being angry and started being afraid.
@@ -358,8 +321,6 @@ Outside, through the smeared rear glass, the slight one, Frik, was standing apar
 The heater roared. The ninth number sat there in the blue light of the tablet, disagreeing with the lie, patient as the steppe.
 
 She waited.
-
----
 
 # Chapter 4 — The Welcome Cup
 
@@ -459,8 +420,6 @@ The light was going. The early dark of the high latitudes came down fast and the
 
 "No." He sounded amused. "God, no. If I could have drunk it I'd have drunk it. I'd give a finger to be able to drink it—it's a kindness in a bowl, that, in a country that can kill you by Tuesday, and I can't take it, and it's a real grief to me, not a performance." He looked out at the steppe, going violet now as the early dark came down, a man considering a thing he respected and knew he didn't own. "But I'll tell you what's true. You can't fake the failing. That's the whole secret and it's not a secret. People know. Your father knew in half a second whether the German with the funeral face was lying, and he knew in half a second that I wasn't, and the only difference between us is that I lost in front of him and let him see it." He walked a few paces, his breath smoking. "Everyone who comes here comes to win something. The mine. The film crews. Me too, God help me, before I learned better. You arrive somewhere new and some old animal part of you wants to be the one who's good at it. And the people who actually live there can smell it on you from the next valley." He glanced at her, mild, and the thing he said next he said lightly, on his way to the truck, the way she would learn he dropped the truest things so they didn't have to be a conversation, so you could pick them up later or leave them, no weight put on you to answer. "You should try it sometime. Losing where they can see. You'd be surprised what people give a person who'll do that." And he got in the *furgon* and pulled the door, and the engine turned over and caught, and he was gone, the tail lights swinging away across the dark ground toward the rig, toward the polygon, toward the firm—and Tuyaa stood in the violet cold with her father's banked warmth behind her and the firm's card on her chest, and did not, for the life of her, know how to file herself either.
 
----
-
 # Chapter 5 — What the Survey Can't See
 
 The hydrologists wanted three days of her, and Tuyaa gave them to her father instead, and told herself it was the same thing.
@@ -553,8 +512,6 @@ Tuyaa walked back to the trucks in the dark behind the crew, her chest aching, t
 
 It was in her own ribs, and it had her father's voice.
 
----
-
 # Chapter 6 — The Blurted Truth
 
 The meeting was held in the *sum* centre, in the hall with the basketball hoop and the portrait of the wrestling champion of forty years ago, and Naila knew within ninety seconds that it had been designed by someone who understood exactly what it was doing, which meant it had probably been designed by her, six years and three countries ago, when she had still done this for the people who built the hall.
@@ -613,8 +570,6 @@ Jakobus came and stood beside Naila for a moment, looking at the empty screen, t
 
 "I know." Jakobus didn't argue it and didn't soften it, which was the only thing she could have stood. He picked up his eternal mug from the table where he'd set it. "That's why you're the one who can take it apart. A man who never made the cut would have to guess where the seams are. You don't have to guess." And he went to find Frik, and the dog that had somehow got into the hall got up from under the firm's own table, where it had been lying the whole time, where it had heard the whole pitch and the blurt and the slow three claps from the warmest spot in the room, and went with him.
 
----
-
 # Chapter 7 — A Man Who Can Handle Himself
 
 The weather her father had read came on the third day and blew for two, a hard dry ground-blizzard that kept everyone in their boxes and their gers and killed nothing only because it was early and the animals still had condition on them, and when it cleared the *sum* did the thing the steppe had always done after a hard blow: it gathered.
@@ -669,8 +624,6 @@ The gathering ringed close. The cold light lay flat and clear across the swept g
 
 And Jakobus, God help him, smiled back, and spread his own arms, and stepped in.
 
----
-
 # Chapter 8 — His Ground
 
 It was over so fast, and so gently, that for a moment nobody was sure it had happened.
@@ -718,8 +671,6 @@ Naila, who had been silent, said in her flat way: "You let them see you lose. Ag
 "I didn't *let* them," Jakobus said, amused. "I genuinely lost. Both times. You can't fake the losing, I told the woman that—" a glance at Tuyaa—"it only works because it's real. But yes." He looked out at the gathering, the families ringed in the cold, the wrestling, the airag, the whole living unvanished thing that the man with the drone had filmed as empty. "On their ground, a man who loses and owns it clean is worth ten who win and crow. They'll take a beaten man into the fire before they'll take a proud one. It's the same everywhere there are still people who live close to the bone—Africa, the desert, here. The proud man they watch. The man who'll lose in front of them and laugh and thank you—" he shrugged his sore shoulder—"him they'll let stand between them and the thing that's coming. Which, God knows, something is."
 
 He nodded across the ground, and Tuyaa followed his look, past the wrestling, past the gers, to the north-east, to the long low rise where, even here, even from the heart of the gathering, you could see it if you knew to look: the new fence, the line of small steel suns, marching over the saddle and out of sight, waiting, while the *sum* gathered in the cold and laughed and wrestled and lived, on the land a drone had filmed as empty, behind a line that did not move.
-
----
 
 # Chapter 9 — No Brakes
 
@@ -773,8 +724,6 @@ Then she added, underneath it, the way she added the thing she couldn't prove bu
 
 Outside, the camp was scattering into the deep cold, cart after cart pulling away across the immense horse-coloured ground, and somewhere among them was a girl with a runny nose who would tell her grandchildren, probably, about the funny foreign uncle who wrestled the Elephant and wouldn't ride a horse and lifted every child in the *sum* up onto one anyway, *go on, ride,* and stood guard, and never once got on himself.
 
----
-
 # Chapter 10 — The Stone on the Cairn
 
 Her father took them to the ovoo because Jakobus asked to be shown how to behave at it, which was, Tuyaa understood, exactly the right way to ask, and exactly why her father said yes.
@@ -819,8 +768,6 @@ Tuyaa didn't answer. There was nothing to answer. He'd said, plainly, walking do
 
 It was going to have to be chosen.
 
----
-
 # Chapter 11 — The Drying Spring
 
 The spring was dying, and it was Tuyaa's own training that proved it, which was the cruelty she had not seen coming.
@@ -864,8 +811,6 @@ He stopped the truck by the ger. He didn't get out right away.
 "Your foreign uncle," he said. "The one who can't drink the tea and won't ride the horse. He understands this, I think. He's a man who's lost his own ground—you can see it on him, he's a long way from wherever he's from and he's not going back, something's closed behind him. And he didn't get clever about it and walk away clean. He carries it. He came all the way here, to the other side of the world, to stand at other people's fires and lose at their wrestling and put their children on horses, carrying a country he can't go home to." Batu opened his door into the cold. "That's the other way to be a person who sees how things end. Not walk away clean. Carry it. Stand on the ground." He got out. "I'm not telling you which. I'm telling you those are the two, and you're old enough now to know you have to pick one, and the spring's going to be dry whether you pick or not, so you might as well pick."
 
 And he went into the ger, and left his daughter in the truck with a notebook full of honest numbers that proved the dying of the water, and the two ways of being a person who sees how things end, and no more time left to not choose between them.
-
----
 
 # Chapter 12 — Not Ours to Tell
 
@@ -919,8 +864,6 @@ She built it. And she waited, and was bad at it, and did not call London.
 
 And across the camp Frik stood in the cold looking south, and his shoulder jerked, and the word that came up out of him this time, low, to no one, was not a swearword and not a blurt but a name—*Bor Ovoo*—said the way you'd say a thing you were keeping safe, and Mira stood near him and read his face and signed something small that Naila didn't catch, and the dog lay against Jakobus's boot in the open van door, and they all of them, the band of the world's written-off, did the hardest thing the road had ever asked of them, which was nothing. They waited, and they held the tool ready, and they let the choosing belong to the woman with the card, whose ground it was.
 
----
-
 # Chapter 13 — The Ones Already Gone
 
 There was an empty camp four valleys north, and Tuyaa took the crew there because Jakobus asked, gently, to be shown what the leaving looked like, and because she had not been able to say no to him about anything since the tea.
@@ -956,8 +899,6 @@ She looked north, the way the Dorjsuren family had gone, toward the city and the
 Then she looked south, toward her father's camp, and the spring that was dying, and the fence of small steel suns, and the ground.
 
 She put the small boot down in the lee of the wall where it belonged, and she walked back to the trucks, and she did not yet say the thing she had decided, because she had not finished deciding it, but she could feel it now, the shape of it, the way she'd always been able to feel how a thing would end—except this time the thing whose ending she could feel was herself, and for once the ending she saw was not the one where the clever girl walked away clean.
-
----
 
 # Chapter 14 — A Thousand Fires
 
@@ -1004,8 +945,6 @@ Later, much later, the fire low, the families bedding down, Jakobus came and sat
 "Eleven years." He nodded, slow. "Welcome back to the fire." And he went to find his bedroll among the sleeping crew, and left her by the embers under the solid wheeling stars, on her father's ground, having danced, having wept, having come back—and ready, now, finally, after eleven years and three weeks, to choose.
 
 She did not know yet that she had until morning. That in the morning Sukhbat's truck would come over the rise with the papers that would force her hand, and the fence would stop being a line on a ridge and become a thing with a date on it. She only knew, lying down at last among the warm sleeping families with the fire ticking low, that whatever the morning brought, she had danced on her father's ground again, and the clever girl who walked away clean was gone, danced out into the cold with all the rest of the fear, and would not be coming back.
-
----
 
 # Chapter 15 — Strategic Site
 
@@ -1057,8 +996,6 @@ And she walked back across the gold ground toward the camp, leaving him standing
 
 It was an arrival.
 
----
-
 # Chapter 16 — Which Tongue
 
 She told her father in the ger, with the stove between them, and she did not make a speech, because her father had no use for speeches and she had finally learned it.
@@ -1099,8 +1036,6 @@ She watched Naila take it in. She watched the flat exact face do something it ra
 
 Jakobus stood a little apart, by the van, with his mug, and he didn't say anything, and he didn't need to. He just looked at Tuyaa with the unhurried directness that had unnerved her on the first morning and didn't anymore, and he gave her a small nod, the nod you give an equal, the nod that said *I see you,* and Tuyaa, who had felt seen by this man against her will on the first morning and had spent three weeks resenting it, found that she could finally bear it, because there was, at last, something real to see.
 
----
-
 # Chapter 17 — The District Decides
 
 The families gathered to decide, and it was not Tuyaa's meeting, and not the crew's, and not Sukhbat's, and that was the whole point of it, and the thing that made it the most important room she had ever been in.
@@ -1135,8 +1070,6 @@ And the ger murmured its assent, family by family, the ones who would stand and 
 
 And Jakobus sat by the door in the humblest place and held his mug and said nothing at all, the road, not the lead, exactly where he had always meant to be, while the people whose ground it was decided, in their own words, to refuse to vanish.
 
----
-
 # Chapter 18 — The Fence and the Herd
 
 The mine moved first, because the mine could read a calendar too, and the calendar said the herd had to cross the fenced ground in the next four days or die, and a thing that has to happen in four days is a thing you can stop by waiting three.
@@ -1167,8 +1100,6 @@ Jakobus stood last, and unfolded to his full height in the low ger, and said the
 
 And they went out into the deep cold under the hard stars, the herders and the band of the world's written-off, to move a thousand-year-old migration through a three-day-old fence ahead of a killing winter, while in the roaring heat of the *furgon* a woman who had once built machines like the one trying to kill this herd bent to the work of taking it apart, and was, for the first time in six years, exactly where she was supposed to be.
 
----
-
 # Chapter 19 — The Wheels He Trusts
 
 They moved the herd through the night, and the night was where Tuyaa finally saw what the big foreign man was for.
@@ -1198,8 +1129,6 @@ They made the town at the grey edge of dawn, the dzud an hour behind them and cl
 "Aren't you coming in?"
 
 "No." He almost smiled—and she caught herself reaching for the easy word and made herself see the real thing, which was that the corner of his beard moved and his tired eyes warmed, a man who'd driven all night and was content. "This part's yours and his. Mongolians, telling Mongolians, in front of the country. A big foreign man in the room is the last thing it needs." He nodded at the office, the town waking, the journalist's headlights turning in. "Go on. Tell it true and not pretty. I'll be here with the heater on for when you're done. And Tuyaa—" she stopped, half out of the van, in the killing wind. "Whatever happens in there. You already did the thing. You stood on the ground. The rest is weather." And he settled back in the driver's seat, the engine running, the heater on, the road behind him and his one piece of the impossible night done, and let her go to do hers, and Tuyaa walked into the waking town with her people's proof in her hands and her people's voice beside her, to make the country look—while a hundred and forty kilometres behind her, on the ground she'd come home to, her father and a young champion and a thousand-year-old herd raced a black wall of weather toward a gate the law had closed.
-
----
 
 # Chapter 20 — The Killing Wind
 
@@ -1233,8 +1162,6 @@ But the herd lived. The bulk of it. The breeding stock, the heart of it, the thi
 
 And somewhere in the white howling middle of it, Bashir saw the big foreign man—Jakobus had driven back from town through the front edge of the storm, because of course he had, the cold was his one element and he was not going to leave them in it—moving along the sheltering herd in the whiteout, not herding, he couldn't herd, but doing the thing he was for: a large calm presence between the exhausted families and the edge of panic, carrying a child here, steadying a frightened horse-holder there, putting his own body and his own banked warmth and his own unhurried calm into the worst hours, and once—Bashir saw it and never forgot it—standing for a long moment beside Otgon in the whiteout, the man who'd lost the wrestling and the man who'd won it, shoulder to shoulder in the killing wind, holding a panicked knot of the herd together with nothing but their two steady presences, not a word passing between them, the foreigner and the champion, both of them doing the one thing they were for, on the ground, in the storm, until it passed.
 
----
-
 # Chapter 21 — On the Record
 
 The story broke in Mongolian first, which was the whole point, and which was the only reason it could not be killed.
@@ -1258,8 +1185,6 @@ Naila closed the tablet. Her work was done—the brief fired, by the right hands
 But she let herself, this once, sitting in the roaring heat of the *furgon* with her work done and the herders' voices on the country's front page and not her name anywhere near it, feel something close to it.
 
 Close enough.
-
----
 
 # Chapter 22 — The Daughter Who Chose
 
@@ -1286,8 +1211,6 @@ Tuyaa held her tea, the open lock, the warmth, and looked at the small old knife
 It was choosing. Which her father had told her, by the spring, was the only thing cleverness couldn't do for you, and the only thing that mattered, and the thing he could not teach her, and the thing she had, in the end, after eleven years and a dead spring and a foreigner who couldn't drink the tea, taught herself.
 
 She drank the welcome cup, in her father's ger, on her father's ground, home.
-
----
 
 # Chapter 23 — The Road On
 
@@ -1316,8 +1239,6 @@ They drove on, the band of the world's written-off and the man who'd gathered th
 Behind them, on the steppe, an old man and his daughter walked out to the herd in the hard clear cold, and the daughter read the sky, and got it wrong, and the father corrected her, and the smoke went up straight from the ger that could be folded onto three camels in an hour and set down again wherever the grass was, on the oldest grazing ground on earth, that a survey had once called empty, and that was not empty, and never had been, and—for one more winter, at least, with the route kept open and the spring watched and the song still being learned by a girl of ten—would not be emptied yet.
 
 The felt, and the sky, and the people between them, going on.
-
----
 
 # What Is Real in This Book
 
@@ -1431,38 +1352,77 @@ Look at who isn't in the brochure.
 
 ---
 
-# Acknowledgements
+<!-- BEGIN image-compendium-appendix (generated by tools/inject_image_appendix.py) -->
 
+## Image Compendium — Dedication
 
+The places, peoples, and wonders in this book are real. These freely-licensed photographs (public domain or Creative Commons, via Wikimedia Commons) are gathered here so you can see them — go stand in them. Each image carries its photographer and licence.
 
-These books exist because other people made things that lived in my head long after I'd finished
-them. My thanks:
+### Places of awe
 
-To **Dennis E. Taylor**, who wrote software for thirty-five years — front-line grunt to upper
-management, always in IT — before he ever wrote a Bob, and then proved that a career programmer can
-write gripping, genuinely entertaining stories. As one software engineer to another: it would be my
-great honour to talk shop with you over a pint, in "real" (sic). *The Court thanks the Bobs.*
+![The open steppe — land that reads as empty and is the most precisely known ground they walk.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/grasslands-menggu.jpg)
 
-To **Ray Porter**, for giving me the voices of the Court in my head. May I be so lucky as to have
-you narrate the US release.
+*The open steppe — land that reads as empty and is the most precisely known ground they walk.*
+<small>Shizhao, CC BY-SA 3.0, via Wikimedia Commons</small>
 
-To **Scott Sigler**, for *EarthCore* and *Mount Fitz Roy*.
+![The Orkhon Valley — a thousand years of nomadic pastoral civilisation, UNESCO-listed.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/goats-in-orkhon-valley-02.jpg)
 
-To **Michael Crichton**, for — honestly — everything.
+*The Orkhon Valley — a thousand years of nomadic pastoral civilisation, UNESCO-listed.*
+<small>Bernard Gagnon, CC0, via Wikimedia Commons</small>
 
-To **Dan Brown**, for teaching me a new kind of storytelling.
+![The Gobi — from +45°C to −40°C, the country the herders' judgement crosses.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/gobi-kompleks-szambala-22.jpg)
 
-To **Andy Weir**, for showing how to write fiction on the back of real science that isn't science
-fiction.
+*The Gobi — from +45°C to −40°C, the country the herders' judgement crosses.*
+<small>Marcin Konsek, CC BY-SA 4.0, via Wikimedia Commons</small>
 
-To **Neill Blomkamp**, for *District 9*, *Elysium*, and *Chappie* (Die Antwoord and all). Your
-films kept the characters and the scenes grounded in my head. May you be the one who puts this on
-the big screen.
+![Lake Khövsgöl — the northern water of the steppe.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/lake-kh-vsg-l-mongolia.jpg)
 
-And to **Patrick Rothfuss**, for getting me into a genre I never knew I'd fall in love with. As my
-small way of giving back: you have free use of Arjuna Badger Press, always.
+*Lake Khövsgöl — the northern water of the steppe.*
+<small>Bernard Gagnon, CC0, via Wikimedia Commons</small>
 
-— Andries J. Greyling
+![Erdene Zuu at Kharkhorin — the old capital ground, where stone meets felt.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/z-ota-stupa-w-klasztorze-erdene-dzuu-01.jpg)
 
----
+*Erdene Zuu at Kharkhorin — the old capital ground, where stone meets felt.*
+<small>Marcin Konsek, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+### Things of wonder (made by hand)
+
+![The ger — felt from the herders' own sheep; the sheep are the house, raised in three hours.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/mongolian-traditional-home-ger-yurt.jpg)
+
+*The ger — felt from the herders' own sheep; the sheep are the house, raised in three hours.*
+<small>Gary Todd, CC0, via Wikimedia Commons</small>
+
+![The morin khuur (horse-head fiddle) — the steppe's two-string voice at the fire.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/morin-khuur-solo-with-orchestra.jpg)
+
+*The morin khuur (horse-head fiddle) — the steppe's two-string voice at the fire.*
+<small>ClipperDB, CC0, via Wikimedia Commons</small>
+
+![Deer stones — Bronze Age standing stones carved across the steppe.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/deer-stones-at-uushgiin-uvur-01.jpg)
+
+*Deer stones — Bronze Age standing stones carved across the steppe.*
+<small>Bernard Gagnon, CC0, via Wikimedia Commons</small>
+
+![An ovoo cairn — circled three times clockwise; the book shows the threshold and looks away.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/ovoos-in-gorkhi-terelj-national-park-5.jpg)
+
+*An ovoo cairn — circled three times clockwise; the book shows the threshold and looks away.*
+<small>Pierre André Leclercq, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+### Peoples, in their own dress
+
+![A herder in the deel — the expert fighting to hand the life on, not a vanishing relic.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/nomads-day-festival-1.jpg)
+
+*A herder in the deel — the expert fighting to hand the life on, not a vanishing relic.*
+<small>Gabideen, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+![Bökh wrestlers at Naadam — title earned by craft, the Eagle Dance before the bout.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/b-kh.jpg)
+
+*Bökh wrestlers at Naadam — title earned by craft, the Eagle Dance before the bout.*
+<small>Paulo Fassina, CC BY-SA 2.0, via Wikimedia Commons</small>
+
+![A horseman on the steppe — horses the cultural backbone of the five snouts.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/build/appendix-images/herders-in-khustain-nuruu-national-park-mongolia-2.jpg)
+
+*A horseman on the steppe — horses the cultural backbone of the five snouts.*
+<small>Pierre André Leclercq, CC BY 4.0, via Wikimedia Commons</small>
+
+<!-- END image-compendium-appendix -->
 

@@ -8,7 +8,7 @@ the same* (and usually like an articulate narrator). The test: swap a name on a 
 dialogue — if you can't tell who said it, the voices have collapsed.
 **In this project:** Priya's voice (clipped, dry, engineering nouns) is "the spine." The
 craft audit runs the noun-swap test.
-**See:** `books/relic/canon/STYLE_GUIDE.md` (voice laws) · `craft/CRAFT_DOCTRINE.md` · `.claude/skills/de-llm-loop/SKILL.md`
+**See:** `books/relic/canon/STYLE_GUIDE.md` (voice laws) · [`craft/CRAFT_DOCTRINE.md`](../craft/CRAFT_DOCTRINE.md) · [`.claude/skills/de-llm-loop/SKILL.md`](../.claude/skills/de-llm-loop/SKILL.md)
 
 ---
 

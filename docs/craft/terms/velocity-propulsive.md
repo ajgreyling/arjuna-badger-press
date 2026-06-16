@@ -6,7 +6,7 @@
 book never lets you set it down. In a cinematic adventure, velocity is sacred.
 **In this project:** Protected even by the editorial gatekeeper — it will *reject* an edit
 that made the prose "better" but smothered the momentum.
-**See:** `ARCHITECTURE.md` (D3, D21) · `craft/CRAFT_DOCTRINE.md` ("velocity is sacred")
+**See:** [`ARCHITECTURE.md`](../ARCHITECTURE.md) (D3, D21) · [`craft/CRAFT_DOCTRINE.md`](../craft/CRAFT_DOCTRINE.md) ("velocity is sacred")
 
 ---
 

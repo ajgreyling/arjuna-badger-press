@@ -8,7 +8,7 @@ colour the walls are, it says where the load-bearing walls go.
 **In this project:** RELIC's blueprint is the **quest-relay / set-piece chain** (deliberately
 unlike book 1's crisis-loop or book 2's chain-of-proof). The blueprint decides the rules
 everything else obeys.
-**See:** `ARCHITECTURE.md` (decision D3) · `craft/CRAFT_DOCTRINE.md` · `storygraph/blueprint_tags.py` (tooling that checks scenes against the blueprint)
+**See:** [`ARCHITECTURE.md`](../ARCHITECTURE.md) (decision D3) · [`craft/CRAFT_DOCTRINE.md`](../craft/CRAFT_DOCTRINE.md) · `storygraph/blueprint_tags.py` (tooling that checks scenes against the blueprint)
 
 ---
 

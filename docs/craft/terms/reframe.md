@@ -7,7 +7,7 @@ thing, assert another. Powerful once — a tic when overused, because it becomes
 default way of sounding deep.
 **In this project:** Capped deliberately (target ~8–10 across the whole trilogy); whole skills
 exist to hunt and thin them.
-**See:** `prompts/de-llm-pass.md` · `relic-climax-protected-lines` (memory) · `.claude/skills/de-llm-final-sweep/SKILL.md`
+**See:** `prompts/de-llm-pass.md` · `relic-climax-protected-lines` (memory) · [`.claude/skills/de-llm-final-sweep/SKILL.md`](../.claude/skills/de-llm-final-sweep/SKILL.md)
 
 ---
 

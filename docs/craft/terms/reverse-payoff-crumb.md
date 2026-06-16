@@ -7,7 +7,7 @@ planted detail that rewards a reader who's read books 1–2 — but must never b
 understand book 3. The rule: crumbs **reward, never require**.
 **In this project:** Tracked so none dangles (planted but never paid off) and none is
 load-bearing for a newcomer.
-**See:** `books/relic/canon/CROSSBOOK_CRUMBS.md` · `storygraph/crumbs.py` · `CLAUDE.md`
+**See:** `books/relic/canon/CROSSBOOK_CRUMBS.md` · `storygraph/crumbs.py` · [`CLAUDE.md`](../CLAUDE.md)
 
 ---
 

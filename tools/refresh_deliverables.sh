@@ -12,7 +12,7 @@ PY="${PYTHON:-/opt/homebrew/bin/python3}"
 import sys
 from pathlib import Path
 CODE, DEST = Path(sys.argv[1]), Path(sys.argv[2])
-for sub in ("ebooks", "pdfs", "narrator-briefs"):
+for sub in ("ebooks", "pdfs", "narrator-briefs", "covers"):
     (DEST / sub).mkdir(parents=True, exist_ok=True)
     for old in (DEST / sub).glob("*"):
         if old.is_symlink():
@@ -39,7 +39,6 @@ BOOKS = {
  "The Loneliest People in the World": "books/the-loneliest/build/export/The Loneliest People in the World",
  "The Song of the Self": "books/history-before-time/companions/the-song-of-the-self/export/The Song of the Self",
  "The Wrath of Achilles": "books/history-before-time/companions/the-wrath-of-achilles/export/The Wrath of Achilles",
- "The Scarlet Thread": "books/modern-sherlock/build/export/The Scarlet Thread",
 }
 REPOS = ["africangold", "arjuna-badger-press"]
 
@@ -48,7 +47,20 @@ def newest(relbase, ext):
     cands = [p for p in cands if p.exists()]
     return max(cands, key=lambda p: p.stat().st_mtime) if cands else None
 
-n_e = n_p = 0
+def newest_cover(relbase):
+    """The cover lives at <book-root>/design/cover.png, not build/export. Walk up from the
+    export base to the book root (the dir holding 'design/') and pick the newest across both repos."""
+    out = []
+    for r in REPOS:
+        p = (CODE / r / relbase).parent          # .../build/export  (or .../export for companions)
+        for up in (p.parent, p.parent.parent, p.parent.parent.parent):
+            cov = up / "design" / "cover.png"
+            if cov.exists():
+                out.append(cov)
+                break
+    return max(out, key=lambda p: p.stat().st_mtime) if out else None
+
+n_e = n_p = n_c = 0
 missing = []
 for name, rel in BOOKS.items():
     for ext, sub in (("epub", "ebooks"), ("pdf", "pdfs")):
@@ -59,6 +71,32 @@ for name, rel in BOOKS.items():
             else: n_p += 1
         else:
             missing.append(f"{name}.{ext}")
+    cov = newest_cover(rel)
+    if cov:
+        (DEST / "covers" / f"{name}.png").symlink_to(cov)
+        n_c += 1
+    else:
+        missing.append(f"{name}.png")
+
+# Cover-only titles: books that have a house-style cover but no built EPUB/PDF yet (e.g. the Why
+# Files drafts). Keyed title -> the book ROOT (the dir holding design/cover.png). These add to
+# covers/ only; they are not expected in ebooks/ or pdfs/ until built.
+COVERS_ONLY = {
+ "The Princely Offspring": "books/the-why-files/books/anunnaki-mesopotamia",
+ "The Belly Hill": "books/the-why-files/books/gobekli-tepe",
+ "The Hand That Wrote It": "books/the-why-files/books/voynich-manuscript",
+ "The Quiet Men": "books/the-why-files/books/suppressed-tech",
+}
+for name, root in COVERS_ONLY.items():
+    if (DEST / "covers" / f"{name}.png").exists():
+        continue  # already linked via BOOKS above
+    cands = [CODE / r / root / "design" / "cover.png" for r in REPOS]
+    cands = [p for p in cands if p.exists()]
+    if cands:
+        (DEST / "covers" / f"{name}.png").symlink_to(max(cands, key=lambda p: p.stat().st_mtime))
+        n_c += 1
+    else:
+        missing.append(f"{name}.png")
 
 BRIEFS = {
  "The Calendar of Stone — Narrator Brief": "africangold/books/history-before-time/books/book1-africa/build/NARRATOR_BRIEF",
@@ -70,7 +108,7 @@ for name, base in BRIEFS.items():
         if src.exists():
             (DEST / "narrator-briefs" / f"{name}.{ext}").symlink_to(src)
 
-print(f"  ebooks: {n_e}  pdfs: {n_p}  briefs: linked")
+print(f"  ebooks: {n_e}  pdfs: {n_p}  covers: {n_c}  briefs: linked")
 if missing:
     print("  MISSING (book not yet built?):", ", ".join(missing))
 PYEOF

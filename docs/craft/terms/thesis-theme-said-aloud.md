@@ -8,7 +8,7 @@ character or narrator *say the theme out loud*. Theme should be **embodied** in 
 announced.
 **In this project:** A named failure mode the engine hunts — "the climax is a forty-page
 thesis." There's a tool that ranks thesis-like sentences for cutting.
-**See:** `craft/CRAFT_DOCTRINE.md` ("embody, don't state") · `storygraph/prose_thesis.py` · `academic/craft/relic-20260602T1157.md`
+**See:** [`craft/CRAFT_DOCTRINE.md`](../craft/CRAFT_DOCTRINE.md) ("embody, don't state") · `storygraph/prose_thesis.py` · `academic/craft/relic-20260602T1157.md`
 
 ---
 

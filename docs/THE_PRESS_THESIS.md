@@ -36,10 +36,10 @@ from twenty-plus finished manuscripts, an engine that finishes books in an autho
 machine-tells, not replacing voice), and a public shelf where the proof is **to be determined by
 whether people read, re-read, and recommend** — not by whether a scorecard said pass.
 
-Companion documents: `THESIS.md` (engineering) · `CREATIVE_THESIS.md`
+Companion documents: [`THESIS.md`](../THESIS.md) (engineering) · [`CREATIVE_THESIS.md`](CREATIVE_THESIS.md)
 (creative intentions) · [`FOR_AUTHORS.md`](FOR_AUTHORS.md) (the workshop) ·
-`academic/CRITICAL_COMMENTARY.md` (submission spine) ·
-`academic/TRIPTYCH_FORM.md` (literary theory) ·
+[`academic/CRITICAL_COMMENTARY.md`](../academic/CRITICAL_COMMENTARY.md) (submission spine) ·
+[`academic/TRIPTYCH_FORM.md`](../academic/TRIPTYCH_FORM.md) (literary theory) ·
 [`craft/LLM_TELLS.md`](craft/LLM_TELLS.md) (de-LLM catalog) ·
 [`guardrail-register-thesis`](https://github.com/ajgreyling/guardrail-register-thesis) (empirical register study, sibling repo)
 
@@ -189,7 +189,7 @@ with **falsifiable proof obligations** — and enforces them over the actual man
 **continuity gate** is the form's executable definition: violations block merge; crumbs, relay nodes,
 timeline braids, and mythos rules are checked as graph constraints, not editorial vibes.
 
-Full theory: `academic/TRIPTYCH_FORM.md` · public edition:
+Full theory: [`academic/TRIPTYCH_FORM.md`](../academic/TRIPTYCH_FORM.md) · public edition:
 [`craft/TRIPTYCH_FORM.md`](craft/TRIPTYCH_FORM.md)
 
 **Literary proof still rests with readers:** order-independence is a structural promise; whether each
@@ -218,7 +218,7 @@ Multi-provider routing separates **expensive prose** from **cheap analysis**. Ch
 resume across days. Twenty-plus books in one monorepo share a unified trilogy gate and cross-series
 continuity auditors — the method scales because **constraints are code**, not hope.
 
-Engineering detail: `THESIS.md` · `docs/MASTER_PLAN.md` ·
+Engineering detail: [`THESIS.md`](../THESIS.md) · [`docs/MASTER_PLAN.md`](MASTER_PLAN.md) ·
 [`docs/TECHNOLOGY.md`](TECHNOLOGY.md)
 
 ---
@@ -303,7 +303,7 @@ Where does authorship live when generation is cheap?
 4. **Surgical edits** — the de-LLM loop and line pass: human thins where scanners point.
 5. **Signature** — the proofread, the cut only the author would make, the willingness to publish.
 
-The collaboration record (`docs/COLLABORATION.md`) documents where the agent was
+The collaboration record ([`docs/COLLABORATION.md`](COLLABORATION.md)) documents where the agent was
 wrong and where tooling caught what no human would — not to boast about automation, but to show
 **directed autonomy**: the human remains architect; the machine is labour; the gate is conscience.
 
@@ -319,7 +319,7 @@ deeply enough to know where they fail.
 The vow is kept. The proof of *literary* success, however, remains **open** — decided by readers over
 time, not by the month's output count alone.
 
-Record: `docs/MISOGI.md` · `docs/ORIGINS.md`
+Record: [`docs/MISOGI.md`](MISOGI.md) · [`docs/ORIGINS.md`](ORIGINS.md)
 
 ---
 
@@ -347,12 +347,12 @@ opened to authors who need finish, not permission.
 
 | Reader need | Document |
 |---|---|
-| Engineering / CTO | `THESIS.md` · [`TECHNOLOGY.md`](TECHNOLOGY.md) |
-| Creative intentions | `CREATIVE_THESIS.md` |
+| Engineering / CTO | [`THESIS.md`](../THESIS.md) · [`TECHNOLOGY.md`](TECHNOLOGY.md) |
+| Creative intentions | [`CREATIVE_THESIS.md`](CREATIVE_THESIS.md) |
 | Workshop / authors | [`FOR_AUTHORS.md`](FOR_AUTHORS.md) |
-| Degree submission spine | `academic/CRITICAL_COMMENTARY.md` |
-| Triptych theory | `academic/TRIPTYCH_FORM.md` |
+| Degree submission spine | [`academic/CRITICAL_COMMENTARY.md`](../academic/CRITICAL_COMMENTARY.md) |
+| Triptych theory | [`academic/TRIPTYCH_FORM.md`](../academic/TRIPTYCH_FORM.md) |
 | de-LLM catalog | [`craft/LLM_TELLS.md`](craft/LLM_TELLS.md) |
 | Register / guardrails (empirical) | [guardrail-register-thesis](https://github.com/ajgreyling/guardrail-register-thesis) |
-| Origin & collaboration | `MISOGI.md` · `ORIGINS.md` · `COLLABORATION.md` |
+| Origin & collaboration | [`MISOGI.md`](MISOGI.md) · [`ORIGINS.md`](ORIGINS.md) · [`COLLABORATION.md`](COLLABORATION.md) |
 | Free craft index | [`craft/README.md`](craft/README.md) |

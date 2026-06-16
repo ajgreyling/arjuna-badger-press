@@ -6,7 +6,7 @@
 broken (continuity, key-chain, timeline, mythos). A **gatekeeper** here also means the final
 *editorial* judge that can reject a polish pass for hurting the book (e.g. killing velocity).
 **In this project:** A hard pre-commit check; `./run.sh gate`.
-**See:** `CLAUDE.md` (pipeline stage 2c′) · `.claude/skills/novel-engine/SKILL.md`
+**See:** [`CLAUDE.md`](../CLAUDE.md) (pipeline stage 2c′) · [`.claude/skills/novel-engine/SKILL.md`](../.claude/skills/novel-engine/SKILL.md)
 
 ---
 

@@ -1,0 +1,17 @@
+{
+  "id": "hbt-longyou",
+  "title": "The Straight Darkness",
+  "working_title": "History Before Time: The Straight Darkness",
+  "protagonist": "Jakobus Swart",
+  "logline": "Twenty-four chambers carved straight out of solid rock with no quarry debris and no paper trail — and Jakobus, who always asks what a made thing is for, finds a wonder that refuses even its maker.",
+  "blueprint": "Jakobus-led wonder-of-place — the Longyou Grottoes anomaly (Crichton-grade engineering, zero historical record); grounded not woo; Jakobus's made-thing read load-bearing",
+  "market": "literary travel-adventure — the China site the brochure hasn't learned to sell yet",
+  "status": "seed",
+  "seq": 6,
+  "graph_color": "#4a5568",
+  "canon_order": [
+    "SEED_STORY.md",
+    "PLACE_RESEARCH.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}
