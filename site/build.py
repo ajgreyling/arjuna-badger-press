@@ -247,6 +247,10 @@ CURATED = [
      "history-before-time/books/jakobus-the-long-dark", "build/export",
      "Home — South Africa — in the year the grid does not come back. The fixer at the end of the road, and the gift he spent a whole life learning how to give: making sure that when the lights go out for good, nobody's night dies. A grounded collapse-survival story — real bushcraft, told straight — and the one that carries Jakobus Swart's last chapter. For readers of Cormac McCarthy & Lewis Dartnell. Coming soon."),
 
+    ("southern-coast", "The Southern Coast", "History Before Time · Novella", "History Before Time",
+     "history-before-time/books/southern-coast", "build/export",
+     "Stilbaai and the southern Cape — a photographer finds a shell midden older than the brochure admits, and a stone that shouldn't be there. Coming soon."),
+
     ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
      "_comingsoon/gobekli-tepe", "build/export",
      "Göbekli Tepe — the temple older than the plough, raised by hunter-gatherers a textbook said could not have raised it. The official story, played straight; the one accepted shock it can't explain away; the maybe left open for you to decide. Coming soon."),
