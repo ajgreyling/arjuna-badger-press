@@ -20,7 +20,6 @@ real thing. It is better than any fiction. Links below.
 
 **The fighters & the grapplers — discipline, calm, and execution under pressure**
 - **Khabib Nurmagomedov** — for authenticity, the still centre, and a record that spoke so loudly he never had to. → [Wikipedia](https://en.wikipedia.org/wiki/Khabib_Nurmagomedov)
-- **Bas Rutten** — for the craft *and* the joy of it, in the cage and at the desk. → [Wikipedia](https://en.wikipedia.org/wiki/Bas_Rutten)
 - **Conor McGregor** — for the craft under the spectacle; the work that earned the noise. → [Wikipedia](https://en.wikipedia.org/wiki/Conor_McGregor)
 - **Bruce Lee** — for refusing every tradition and building his own; the idea, not just the moves. → [Wikipedia](https://en.wikipedia.org/wiki/Bruce_Lee)
 - **Miyamoto Musashi** — for the strategy mind across four centuries; *The Book of Five Rings* as a life. → [Wikipedia](https://en.wikipedia.org/wiki/Miyamoto_Musashi)
@@ -39,8 +38,10 @@ real thing. It is better than any fiction. Links below.
 - **Andrew Bustamante** & **Jihi Bustamante** — for the tradecraft of seeing what others miss. → [*EverydaySpy*](https://everydayspy.com/)
 - **Shawn Ryan** — for getting hard, closed people to finally say the true thing. → [*Shawn Ryan Show*](https://www.shawnryanshow.com/)
 
-**The world's window — long-form, in good faith**
+**The booth — the world's window, and the registers a frightened planet watches in**
 - **Joe Rogan** — for the long, curious, un-spun conversation; for asking the dumb question until it became the smart one. → [*The Joe Rogan Experience*](https://www.joerogan.com/)
+- **Sam Harris** — for thinking out loud, without flinching, about what things *mean*; for keeping the examined life secular and honest. → [*Making Sense*](https://www.samharris.org/)
+- **Theo Von** — for the naked, self-implicating honesty that says the true thing nobody else will, and for asking, with no armour on, the question all of us were actually thinking. → [*This Past Weekend*](https://theovon.com/)
 
 *(And the unnamed ones the story leans on — the Mongolian* bökh *wrestlers, the keepers of every
 tradition the masters carry — whose mastery is older than any podcast and belongs to their peoples,
