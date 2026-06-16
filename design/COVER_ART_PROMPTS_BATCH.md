@@ -116,5 +116,47 @@
 
 ---
 
-> **The Reichenbach Files 2–5** — also coming-soon; can stay on the simple placeholder covers for now, or
-> I can write prompts for these too when you want to push them up.
+## The Reichenbach Files (present-day Sherlock — modern London noir, NOT Victorian)
+
+> Shared look for the series: contemporary London, cinematic crime-thriller, moody and rain-slick;
+> a recurring cold-blue / amber palette and a recurring lone-figure-in-the-city motif so the five
+> read as a set. Realistic and grounded — no deerstalker, no gaslamp pastiche, no fantasy. Leave a
+> darker band top and bottom for the eyebrow + title. End each with `--ar 2:3 --style raw --v 6`.
+
+### `modern-sherlock` — *The Scarlet Thread*  (Book One · after *A Study in Scarlet*)
+> A cinematic crime-thriller cover, portrait. Present-day London at night in the rain. A lone tall
+> figure in a long dark coat stands at the mouth of a wet, neon-lit alley, seen from behind, phone
+> light in hand; on the dripping brick wall ahead, a single word is scrawled large in blood-red —
+> the only colour in a desaturated blue-black scene. Reflections on the slick tarmac, distant city
+> glow, a sense of a mind reading the whole street at once. Noir, electric, modern Holmes. Deep
+> blue-black, one bleed of scarlet. No text. --ar 2:3 --style raw --v 6
+
+### `modern-sherlock-2` — *The Poisoned Fortune*  (Book Two · after *The Sign of the Four*)
+> A cinematic crime-thriller cover, portrait. Present-day London, dusk. A grand inherited townhouse
+> or a glass private-bank office glows cold from within; in the foreground, on a polished table, a
+> single crystal tumbler of amber spirits catches the light — beautiful and wrong, a faint oily
+> sheen on its surface. A lone silhouette is reflected in the dark window beyond. Wealth, betrayal,
+> a death dressed as a gift. Cold blues and one warm poisoned amber, deep shadow. No text. --ar 2:3 --style raw --v 6
+
+### `modern-sherlock-3` — *The Viral Haunting*  (Book Three · after *The Hound of the Baskervilles*)
+> A cinematic crime-thriller cover, portrait. A lonely modern moor at night under a sick green-grey
+> fog; a single figure stands small on a wet path, phone-torch beam cutting the murk, looking toward
+> a low shape half-seen in the mist — could be a huge hound, could be nothing, deliberately ambiguous.
+> Pixels/static bleed faintly at the edges of the fog as if the dread is spreading like a signal. The
+> rational mind against a contagion of fear. Desaturated, eerie green-grey, one cold torch-white beam.
+> No text. --ar 2:3 --style raw --v 6
+
+### `modern-sherlock-4` — *The Woman Who Beat Him*  (Book Four · after *A Scandal in Bohemia*)
+> A cinematic crime-thriller cover, portrait. Present-day London, night. A poised woman in a sharp
+> dark coat walks away from camera into the lit city, unhurried, utterly in control, glancing back
+> over one shoulder with a faint knowing half-smile — she is the one who got away clean. Behind her,
+> blurred, a tall male figure stands still, outplayed. Elegant, electric, the equal-and-opposite.
+> Cold city blue, one stroke of warm gold from a streetlight on her face. No text. --ar 2:3 --style raw --v 6
+
+### `modern-sherlock-5` — *The Reichenbach Protocol*  (Book Five · after *The Final Problem* / *The Empty House*)
+> A cinematic crime-thriller cover, portrait. The rain-lashed rooftop of a tall modern London tower
+> at night, the city a vast glittering grid far below. Two figures face each other at the very edge
+> in the downpour — one tall in a long coat, one the adversary — locked, the end of everything between
+> them. Lightning-lit clouds, vertiginous drop, a waterfall of rain off the parapet echoing the
+> Reichenbach fall. The reckoning the whole series is named for. Storm-blue and black, one cold flash
+> of white. No text. --ar 2:3 --style raw --v 6
