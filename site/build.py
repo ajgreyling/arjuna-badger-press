@@ -66,6 +66,19 @@ WORKSHOP_HOLD = set(
     ).split(",") if s.strip()
 )
 
+# ── Daily serials ─────────────────────────────────────────────────────────────────────────────
+# Book ids here are READ-ONLY-ON-SITE serials: they ship NO EPUB/PDF downloads but ARE published
+# (readable now), released chapter-by-chapter from their build/BOOK.md. A serial is treated as
+# "available" (so its read-online page renders and its card shows as live) even with zero downloads,
+# and it shows the "New chapters daily" badge instead of "Available now". It is NOT in the workshop.
+# Env ABP_SERIAL (comma-separated) overrides this default.
+SERIAL = set(
+    s.strip() for s in os.environ.get(
+        "ABP_SERIAL",
+        "the-resonance-court",
+    ).split(",") if s.strip()
+)
+
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
 SERIES = [
@@ -152,6 +165,9 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
+    ("the-resonance-court", "The Resonance Court", "A daily serial · Book One", "History Before Time",
+     "history-before-time/books/the-resonance-court", "build/export",
+     "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
      "_comingsoon/crop-circles", "build/export",
@@ -542,7 +558,10 @@ def scan() -> list[dict]:
             "book_md": reader_src,
             "reader_md": reader_md,
             "root": root,
-            "available": bool(downloads) and cid not in WORKSHOP_HOLD,
+            "serial": cid in SERIAL,
+            # A serial is published (readable) with no downloads; otherwise availability needs a
+            # built EPUB/PDF and a clear of the workshop hold. Serials are never workshop-held.
+            "available": (cid in SERIAL) or (bool(downloads) and cid not in WORKSHOP_HOLD),
         })
     return entries
 
@@ -965,7 +984,10 @@ def card(e: dict, accent: str) -> str:
             parts.append(f'<a class="dl{solid}" href="downloads/{e["id"]}/{html.escape(f.name)}" download>{ext.upper()}</a>')
         dls = f'<div class="dls">{"".join(parts)}</div>'
         badge = '<span class="badge">Available now</span>'
-    else:
+    if e.get("serial"):
+        badge = '<span class="badge">New chapters daily</span>'
+        dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the serial →</a></div>'
+    elif not e["available"]:
         badge = '<span class="badge soon">In the workshop</span>'
     href = f"book/{e['id']}.html"
     return f"""<div class="card" style="--accent:{accent}">
@@ -1456,7 +1478,14 @@ def render_book(e: dict) -> str:
         dls = f'<div class="dls" style="margin-top:20px">{"".join(parts)}</div>'
     read = ""
     if e["available"] and (e["book_md"] or e.get("reader_md")):
-        read = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../read/{e["id"]}.html">Read online →</a></div>'
+        read_label = "Read the serial →" if e.get("serial") else "Read online →"
+        solid = " solid" if e.get("serial") else ""
+        read = f'<div class="dls" style="margin-top:14px"><a class="dl{solid}" href="../read/{e["id"]}.html">{read_label}</a></div>'
+    serial_note = ""
+    if e.get("serial"):
+        serial_note = ('<p style="color:var(--ochre);margin-top:18px">A daily serial — released chapter by '
+                       'chapter. The Prologue and Day One are live now; a new instalment goes up each day. '
+                       'Free to read on the site; no download.</p>')
     wiki = ""
     if (WIKI_DIR / f"{e['id']}.md").is_file():
         wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
@@ -1469,7 +1498,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{wiki}{soon}
+<p class="syn">{full}</p>{dls}{read}{serial_note}{wiki}{soon}
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(),
