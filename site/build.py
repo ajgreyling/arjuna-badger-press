@@ -63,9 +63,29 @@ WORKSHOP_HOLD = set(
     s.strip() for s in os.environ.get(
         "ABP_WORKSHOP_HOLD",
         # Drafted/export exists but not cleared for public download — sensitivity, polish, or
-        # series sequencing. Everything else with EPUB/PDF on disk is on the public shelf.
+        # series sequencing. Must also be in PUBLISHED to ever show downloads.
         "unheard-japan,unheard-mongolia,"
-        "modern-sherlock,no-fear-cycle,the-salt-veil",
+        "modern-sherlock,no-fear-cycle,the-salt-veil,"
+        "southern-coast",
+    ).split(",") if s.strip()
+)
+
+# ── Published shelf (allowlist) ───────────────────────────────────────────────────────────────
+# ONLY ids listed here may ship EPUB/PDF downloads and read-online (unless SERIAL). Everything
+# else is catalogue-only — card + blurb + cover, badge "Coming soon" or "In progress", zero
+# artifacts on the deployed site regardless of what sits on disk in the library repo.
+# Env ABP_PUBLISHED (comma-separated) overrides this default.
+PUBLISHED = set(
+    s.strip() for s in os.environ.get(
+        "ABP_PUBLISHED",
+        "resonance,revelation,relic,"
+        "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
+        "australia-outback,project-stargate,"
+        "jakobus-silver-thread,jakobus-the-recitation,the-jakobus-file,"
+        "crop-circles,"
+        "unheard-japan,unheard-mongolia,"
+        "sheltering-desert,the-loneliest,"
+        "the-song-of-the-self,wrath-of-achilles",
     ).split(",") if s.strip()
 )
 
@@ -173,8 +193,8 @@ CURATED = [
      "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
-     "_comingsoon/crop-circles", "build/export",
-     "The official story played straight — the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open. Coming soon."),
+     "history-before-time/books/crop-circles", "build/export",
+     "The official story played straight — the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open. For readers of Graham Hancock & Jon Ronson."),
 
     ("unheard-japan", "The Way That Was Invented", "The Unheard · Japan", "The Unheard",
      "the-unheard/books/japan-ainu", "build/export",
@@ -598,7 +618,7 @@ def scan() -> list[dict]:
         root = BOOKS / rootrel
         exp = root / expsub
         downloads = []
-        if exp.is_dir():
+        if cid in PUBLISHED and exp.is_dir():
             for f in sorted(exp.iterdir()):
                 if f.suffix.lower() in (".epub", ".pdf"):
                     downloads.append(f)
@@ -613,11 +633,13 @@ def scan() -> list[dict]:
                 break
         book_md = root / "build" / "BOOK.md"
         reader_md = None
-        if book_md.is_file():
-            reader_src = book_md
-        else:
-            reader_md = companion_manuscript(root)
-            reader_src = None
+        reader_src = None
+        can_read = cid in SERIAL or (cid in PUBLISHED and cid not in WORKSHOP_HOLD)
+        if can_read:
+            if book_md.is_file():
+                reader_src = book_md
+            else:
+                reader_md = companion_manuscript(root)
         entries.append({
             "id": cid, "title": title, "subtitle": subtitle, "series": series,
             "blurb": blurb, "downloads": downloads, "cover": cover,
@@ -625,9 +647,7 @@ def scan() -> list[dict]:
             "reader_md": reader_md,
             "root": root,
             "serial": cid in SERIAL,
-            # A serial is published (readable) with no downloads; otherwise availability needs a
-            # built EPUB/PDF and a clear of the workshop hold. Serials are never workshop-held.
-            "available": (cid in SERIAL) or (bool(downloads) and cid not in WORKSHOP_HOLD),
+            "available": can_read and (cid in SERIAL or bool(downloads)),
         })
     return entries
 
@@ -1055,7 +1075,7 @@ def card(e: dict, accent: str) -> str:
         dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the serial →</a></div>'
     elif not e["available"]:
         soon_lbl = ("Coming soon" if "_comingsoon" in e["root"].parts
-                    else "In the workshop")
+                    else "In progress")
         badge = f'<span class="badge soon">{soon_lbl}</span>'
     href = f"book/{e['id']}.html"
     return f"""<div class="card" style="--accent:{accent}">
@@ -1586,9 +1606,9 @@ def render_book(e: dict) -> str:
     if e["available"]:
         soon = ""
     elif "_comingsoon" in e["root"].parts:
-        soon = '<p style="color:var(--ochre);margin-top:18px">Coming soon — on the shelf, not released yet.</p>'
+        soon = '<p style="color:var(--ochre);margin-top:18px">Coming soon — on the shelf, in progress.</p>'
     else:
-        soon = '<p style="color:var(--ochre);margin-top:18px">In the workshop — drafting now. Check back soon.</p>'
+        soon = '<p style="color:var(--ochre);margin-top:18px">In progress — not released yet. Check back soon.</p>'
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
@@ -2096,7 +2116,7 @@ def main() -> None:
                 shutil.copy2(f, d / f.name)
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
-        if e["available"] and (e["book_md"] or e.get("reader_md")):
+        if (e["available"] or e.get("serial")) and (e["book_md"] or e.get("reader_md")):
             raw_md = (
                 e["reader_md"]
                 if e.get("reader_md")
@@ -2146,7 +2166,7 @@ def main() -> None:
     wiki_n = build_wiki(OUT)
 
     avail = sum(1 for e in entries if e["available"])
-    readers = sum(1 for e in entries if e["book_md"] or e.get("reader_md"))
+    readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
           f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages -> {OUT}")
 
