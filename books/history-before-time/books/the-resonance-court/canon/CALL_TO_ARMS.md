@@ -60,13 +60,14 @@ That is the point. Mastery here is not undefeated. It is *humbled, and still sta
 **Shawn Ryan.** The debrief. The faculty of opening men who have spent a lifetime sealing shut — which
 is how a house full of people who give nothing away comes, slowly, to be known.
 
-**To call what the eye cannot follow, and let the planet watch —**
-**Bas Rutten**, fight craft and the technical voice; and **Joe Rogan**, the world's window — the single
-sanctioned channel between the house and eight billion people who need to be told the truth plainly, at
-length, by someone they trust. The threat is a weapon against *attention and meaning;* the counter is
-un-spun, human, credible talk. Casting the most trusted long-form voice alive as the narrator of the
-defence is *itself part of the defence.* They are not here as a brand. They are here doing a job only
-they can do, with the time of their lives in their hands.
+**To let a frightened planet gather, and watch, and feel less alone —**
+**Joe Rogan**, the crowd's voice and the world's window — the single sanctioned channel between the
+house and eight billion people, the most trusted long-form voice alive, telling it plainly, at length;
+**Sam Harris**, the philosopher in the stands, who says not what happened but what it *means;* and
+**Theo Von**, the everyman in the booth, who asks the question all of us are really asking. The threat is
+a weapon against *attention and meaning and belonging;* every civilisation under dread has needed a place
+to assemble and a rite to share — Rome had its arena, and you have this. They are not here as a brand.
+They are here doing a job only they can do, with the time of their lives in their hands.
 
 And the masters lifted from across the centuries — the fighters, the swordsman, the performers, the
 dancer, the clown who broke every bone making strangers feel something — whom I will not list here,
