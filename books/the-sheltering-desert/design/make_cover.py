@@ -82,10 +82,12 @@ def main() -> None:
     draw_tracked(draw, cx, ty + 108, "INDIFFERENT", f_title, 3, INK)
     draw_tracked(draw, cx, ty + 108 + 134, "DESERT", f_title, 9, INK)
 
-    # --- subtitle (short, dignified; the full true-story line lives on the card/title page) ---
-    f_sub = font(DIDOT, 42, index=1)  # italic face
-    draw_tracked(draw, cx, ty + 108 + 134 + 150,
-                 "two men, the Namib, and the war they hid from", f_sub, 1, INK)
+    # --- subtitle: the evocative line, then the two real men it is about ---
+    sub_y = ty + 108 + 134 + 150
+    f_sub = font(DIDOT, 40, index=1)  # italic face
+    draw_tracked(draw, cx, sub_y, "the Namib, and the war they hid from", f_sub, 1, INK)
+    f_names = font(COCHIN, 36)
+    draw_tracked(draw, cx, sub_y + 64, "HENNO MARTIN  &  HERMANN KORN", f_names, 6, INK)
 
     # --- author at the foot ---
     f_auth = font(COCHIN, 46)
