@@ -7,7 +7,7 @@ detail, rather than being *told* it. "She was furious" (telling) vs. the scene t
 feel it (showing/embodiment).
 **In this project:** A non-negotiable. Editorial pass: *"is there a line that states what was
 already dramatised? Cut it."*
-**See:** `craft/CRAFT_DOCTRINE.md`
+**See:** [`craft/CRAFT_DOCTRINE.md`](../craft/CRAFT_DOCTRINE.md)
 
 ---
 

@@ -162,7 +162,7 @@ Series architecture · Editorial ladder · Pitfalls & machine-tells · Book furn
 
 ## Series & Trilogy Architecture
 
-- **Triptych Trilogy · *Tryptych form*** — A named three-novel form AJ Greyling claims and demonstrated in *The African Gold Trilogy*: three **panels** (each a complete novel), hinged by **weave… → full thesis explainer
+- **Triptych Trilogy · *Tryptych form*** — A named three-novel form AJ Greyling claims and demonstrated in *The African Gold Trilogy*: three **panels** (each a complete novel), hinged by **weave… → [full thesis explainer](../TRIPTYCH_FORM.md)
 
 - **[Overarching arc vs. per-book arc](terms/overarching-arc-vs-per-book-arc.md)** — A series runs *two* structures at once: each book is a **complete arc** (its own incite, midpoint, climax, resolution), *and* every book advances a **series…
 
@@ -284,10 +284,10 @@ resources. Primary anchors:
 
 **Worked-example banks (few-shot, this project's own)**
 - [`craft/ANTI_PATTERNS.md`](../craft/ANTI_PATTERNS.md) — the book-agnostic **anti-pattern catalog**: 20 named craft smells (the habit above the sentence-tell), BAD→GOOD demos, each tagged to the engine layer (outline/draft/edit) and its scanner that prevents/measures it, + the **three-book convergence table** (the root smells all three independent reviews flagged — the engine's top-priority fixes) + the 5-pass revision protocol. Synthesized from all three external reads; binds all books.
-- `academic/craft-examples/RESONANCE_BADGOOD.md` — 15 BAD→GOOD line-level fixes in RESONANCE's voice + 7 named errors + the one revision rule.
-- `academic/craft-examples/RELIC_BADGOOD.md` — 10 named anti-patterns with a BAD→BETTER→BEST ladder, each tied to its existing `prose_tics` scanner band, + 8 runnable revision rules. (REVELATION's worked pairs live in the catalog itself.) Each book's bank keeps BAD exact and GOOD in *that book's* voice; grows per book.
-- `academic/EXTERNAL_EDITORIAL_FEEDBACK.md` — the three external professional developmental edits and where each note is encoded in the engine.
-- `academic/LINE_EDIT_DIRECTIVES.md` — the canonical internal line-edit, source of the tic target bands.
+- [`academic/craft-examples/RESONANCE_BADGOOD.md`](../academic/craft-examples/RESONANCE_BADGOOD.md) — 15 BAD→GOOD line-level fixes in RESONANCE's voice + 7 named errors + the one revision rule.
+- [`academic/craft-examples/RELIC_BADGOOD.md`](../academic/craft-examples/RELIC_BADGOOD.md) — 10 named anti-patterns with a BAD→BETTER→BEST ladder, each tied to its existing `prose_tics` scanner band, + 8 runnable revision rules. (REVELATION's worked pairs live in the catalog itself.) Each book's bank keeps BAD exact and GOOD in *that book's* voice; grows per book.
+- [`academic/EXTERNAL_EDITORIAL_FEEDBACK.md`](../academic/EXTERNAL_EDITORIAL_FEEDBACK.md) — the three external professional developmental edits and where each note is encoded in the engine.
+- [`academic/LINE_EDIT_DIRECTIVES.md`](../academic/LINE_EDIT_DIRECTIVES.md) — the canonical internal line-edit, source of the tic target bands.
 
 > These are *starting points*, not authorities — the binding craft for this project is in
 > `craft/CRAFT_DOCTRINE.md`, each book's `STYLE_GUIDE.md`, and the external professional edits

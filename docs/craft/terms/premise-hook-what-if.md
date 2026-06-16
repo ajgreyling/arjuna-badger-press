@@ -10,7 +10,7 @@
 myth"). If the one-liner is generic, the book underneath usually is too.
 **Fail:** The "average Tuesday" premise — a situation, not a question; nothing is *about to
 change*. Most novels start a chapter or two before the real premise ignites.
-**See:** `books/relic/canon/SEED_STORY.md` · `CLAUDE.md` (locked creative DNA)
+**See:** `books/relic/canon/SEED_STORY.md` · [`CLAUDE.md`](../CLAUDE.md) (locked creative DNA)
 
 ---
 

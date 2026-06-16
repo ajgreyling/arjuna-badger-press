@@ -23,19 +23,33 @@
 
 ---
 
+## A note on what this is
+
+This is a work of fiction, written for fun.
+
+Jakobus Swart is invented. So is every word anyone says about him. Some of the voices in this book belong to real, living public figures — podcast hosts, writers, negotiators, thinkers — and to a couple of beloved fictional characters borrowed from television. **None of them said any of this.** The interviews never happened. The conversations are imagined, the opinions are put in their mouths by the author, and nothing here should be read as a real statement, endorsement, or position of any real person. The portraits are written with affection and a little parody, the way you'd toast someone at a party; they are not reportage, and any resemblance to real events is the game, not the claim.
+
+In short: a made-up man, met by real and invented people who are all, themselves, doing a bit. Read it in that spirit.
+
+\
+
+---
+
 # A Note from the One Who Assembled This
 
 There is no biography of Jakobus Swart, and there never can be, because the man spent sixty years making certain of it. There is no birth certificate that everyone agrees on. The name is spelled four ways across the few documents that mention it, and at least two of those documents are about a different man entirely, and he would have been delighted by that. There are no photographs that he did not choose to allow. There is, on the entire searchable internet, almost nothing — a handful of forum posts, a date that might be his, the long electronic silence of a man who understood before most of us that the surest way to disappear in this century is simply to never once hand anyone the thing they would photograph.
 
 So this is not a biography. It cannot be. It is something stranger and, I have come to think, truer: it is the negative space. It is the man-shaped hole, traced by everyone who ever stood close enough to feel the edges of him.
 
-I have gathered them here. Some are real and some are — let us say *composite,* portraits of the kinds of people he moved among, rendered faithfully even where the names are invented. The ones who travelled the road with him and knew the cost of the question before they asked it. The titans and the teachers who met him for an hour or a day and walked away rearranged. Two profilers — a fixer who reads everyone and a pair of spies who erase themselves for a living — who looked at him on camera and found, to their visible discomfort, a man doing what they do, better, and without the wall. None of them is reading the same man.
+I have gathered them here. Some wear invented names and some wear real ones — public people, lent to this imagined room and made to say things they never said — and a few are, let us say, *composite,* portraits of the kinds of people he moved among, rendered faithfully whether the name on them is borrowed or made up. The ones who travelled the road with him and knew the cost of the question before they asked it. The titans and the teachers who met him for an hour or a day and walked away rearranged. Two profilers — a fixer who reads everyone and a pair of spies who erase themselves for a living — who looked at him on camera and found, to their visible discomfort, a man doing what they do, better, and without the wall. And the cold paper, too: the eight intelligence files, kept by agencies that do not as a rule share notes, on a man none of them could agree on the name of — four spellings deep, every one of them sure they had him, and not one of them right. None of them is reading the same man.
 
-Then the man himself, twice. He sat down, near the end, with two of the loudest microphones in the world, and gave them — characteristically — almost nothing, and somehow everything.
+Then the man himself, in his own voice. Near the end, when the whispers reached the right rooms, the microphones came for him — the comedians and the long-form confessors, the corner-office interrogator, and, last, two more readers of men: a behaviourist whose whole brand is that nobody is unreadable, and an intelligence officer who trains people to do for a living what Jakobus did by breathing. He went to all of them, which surprised everyone who knew him, and he gave them — characteristically — almost nothing, and somehow everything. Listen, across those rooms, to how little he ever confirms, and how much he tells anyway.
 
-And one private thing. A piece his own mother read and blessed. I have included it because he would have wanted the truth told whole, warts and all, and because the woman it is dedicated to said it had to be in a book, and a man does not argue with that woman. It is the most exposed he ever let himself be on a page, and it belongs at the centre of this, because it is the centre of him: the whole of a life's attention, turned for once on tenderness instead of survival.
+And then, near the end — after all the reading, just before we lay him down — one private thing. A piece his own mother read and blessed. I have placed it late, where it belongs, because you have to have watched everyone else fail to catch him before you can feel the weight of the one page where he stopped hiding. I have included it because he would have wanted the truth told whole, warts and all, and because the woman it is dedicated to said it had to be in a book, and a man does not argue with that woman. It is the most exposed he ever let himself be on a page, and it is the heart of him: the whole of a life's attention, turned for once on tenderness instead of survival.
 
 And then the wake. Because he is gone now — out in the bush, on his own ground, quick and clean, by a professional who, those who would know say, chose the moment out of something close to respect. He never saw it coming. He would have liked that best of all.
+
+After the wake I have let a few last readings stand. Two assessments from masters of the very arts he practised, working only from the records and arriving, both of them, somewhere they did not expect. The obituaries the world wrote when it finally noticed he was gone. And, at the very end, the voices of people who read not the man but *the book* — the strange parliament of the thing itself — and wrote back. I have given the last word to the one man who would have taken it regardless.
 
 A thread runs through every voice in this book, and I did not put it there; I only noticed it, again and again, until I could not stop noticing it. Every single person, without exception, got him wrong. And every single one of them, sooner or later, found out.
 
@@ -49,8 +63,7 @@ Read it the way you'd read any confession. Slowly. And with the understanding th
 
 ---
 
-# MOVEMENT ONE
-## They Read Him
+# They Read Him
 
 *The testimony of those who tried: the ones who travelled the road with him; the titans and the teachers he met for an hour and unmade; and the two professional readers of human beings who studied him to camera and came away changed. None of them, you will notice, is reading the same man. That is the first finding. There was never one man to read.*
 
@@ -375,130 +388,6 @@ So: thank you, Kevin. For *The Art of Deception,* which an engineer carried in h
 
 ---
 
----
-
-# MOVEMENT TWO
-## The Man Himself
-
-*Everything before this is the negative space — the man traced by others. What follows is the one place he stepped into the light and let himself be fully seen, with no disguise, no volume knob, no harmless shape. It is explicit, and it is dedicated to his mother, and both of those facts are true at once and neither cancels the other, which is the most Jakobus thing about the entire book. This is the centre. This is what all the reading was circling, and never reached, because he only ever showed it to one person at a time, in the dark, on purpose.*
-
----
-
-# For Monica
-
-*A dedication, and the story of how this piece got its name.*
-
----
-
-There is a chapter in this book that a son does not, as a rule, show his mother.
-
-I showed mine.
-
-Not out of bravado — or not only. I showed her because somewhere in the writing of all of this, of the whole strange years-long project of building men and women out of words and making them breathe, I had started to wonder whether the thing I could feel happening on the page was real or whether I was fooling myself, the way every person who has ever loved making a thing has lain awake wondering if the thing is any good or if they only love it because it is theirs. And there is exactly one person on this earth whose verdict I have trusted my whole life without appeal, because she gave me books before I could properly hold them and never once, not a single time, told me a story was a waste of a working afternoon. So I sent her the hardest thing I had written. The most exposed thing. The one with nowhere to hide and no genre to blame it on — just a man and a woman and the truth about attention rendered as plainly as I knew how to render it. I sent it as a dare, half-hoping she'd laugh, half-terrified she would.
-
-And my mother — Monica — read it. All of it. And she wrote back.
-
-> *"Sjoe! Dit moet, MOET in een van die boeke wees. Dalk 'n volgende een? Jy skryf baie mooi my seun. Eks baie trots op jou. Vir baie redes."*
-
-And then, a few hours later, having sat with it, having let it settle the way she lets everything settle before she pronounces on it:
-
-> *"Ek het al baie boeke gelees en ek is doodseker van 2 dinge: jy is beslis 'n skrywer en ek is baie trots op dié man wat ek grootgemaak het. Ek is baie lief vir jou, en jou vrou en jou kinders. Julle lê diep in my hart."*
-
-I am not going to translate it. If you have the Afrikaans you don't need me to, and if you don't, the shape of it survives the crossing intact: *you are, without question, a writer — and I am proud of the man I raised.* A woman who has read a great many books in a long life, reading her son's most naked work, and finding in it not the thing a mother might flinch from but the thing a mother has been waiting fifty years to be sure of: that the boy she put the books into grew up to be able to make them.
-
-She told me it must be in a book. *MOET,* she wrote, in capitals, my gentle mother who does not shout. So here it is. In a book. The book is private, and small, and a little bit ridiculous, and it is the only one I could honestly put it in for now — but it is in a book, Ma, the way you said it had to be, and it carries your name at the front of it, where it belongs.
-
-Because here is the thing I understood, the morning I read her message and had to put the phone down and go and stand in the garden for a while.
-
-My father gave me the hands. He was the maker, the self-taught polymath, the man who fixed the broken animals other men had given up on, and from him I got the craft — the conviction that you do not need a degree or anyone's permission to be epic at the thing you do. The *making* of all of this is his, and always will be.
-
-But my mother gave me the page. She gave me the word. She put the books in my hands before I could hold them and she never told me to put them down. The hands are his. The love of the word is hers. And it turns out — and this is the part that undid me in the garden — that when the word finally grew up and became something a grown man could be proud of, the one I needed to show it to, the one whose *yes* I had been writing toward without knowing it for the whole of my life, was her. Not a critic. Not an editor. Not a prize. My mother, reading the truest thing I'd made, and saying: *yes. That's it. That's a writer. That's the man I raised.*
-
-So the most intimate thing I have ever written is dedicated to my mother, which sounds, written down baldly like that, completely insane — and is, in fact, exactly right, and I will fight anyone who says otherwise, because she is the reason there are words in me at all, and she read them, and she was not afraid of them, and she was proud.
-
-That is a gift very few writers ever get, and almost none deserve, and I got it, and I know what it's worth.
-
-*Vir my ma. Monica. Wat vir my boeke gegee het voordat ek hulle kon vashou, en wat nooit gesê het 'n storie is 'n mors van 'n goeie middag nie. Jy het reg gehad, Ma — dit ís in 'n boek. Ek is lief vir jou. Julle lê diep in my hart, julle almal, en jy heel diepste.*
-
-— Andries J. Greyling
-*House of Greyling*
-
----
-
-*(What follows is the piece she read. It is explicit; it is the apex of the man this whole biography circles; it is rendered in his register — reverence, attention, economy, the long way round because the long way round is the point. A mother read it and called her son a writer. Read it the way she did: for the craft, and for the love under it.)*
-
-# The Apex
-
-*the piece she read.*
-
----
-
-
-She had clocked him in the Spar, of all the unromantic places on God's earth, and what had caught her was not the obvious — not the weathered bulk of him, the soft middle, the bad shirt, the grey in the beard — but the *stillness*, the way he stood in a fluorescent-lit aisle reading the back of a tin of something — a coffee, she'd see later, the proper stuff, the only thing in his basket he was particular about — with the unhurried attention most men only ever gave a thing they were about to buy or about to shoot. There was no drink in the basket; she'd register that too, eventually, and what it meant. Just coffee, and milk, and a bag of oranges, and a cheap toy still in its packaging that was plainly for somebody else's child. He looked like nobody. Naledi had spent thirty-six years learning to read men the way you learn to read weather in a place that floods, and her whole life's instrument said this one was nobody at all, Steve from accounting on a long weekend — and then he'd looked up and taken the sunglasses off, unhurried, for her, the way you'd uncover your hands to show you held no cards, and the instrument had thrown its needle clean off the dial.
-
-Grey going green. And under the grey-green, *seeing* her. Not the head-to-toe inventory she'd weathered her whole life, the one that priced you and shelved you in the same half-second. This was slower and far worse, because it took her in whole — the full of her, the architecture she had stopped apologising for somewhere in her early thirties, the brown of her that the country had spent a long time teaching her to read as a deficit and that she had decided, with great deliberation, to read instead as the plain fact of being magnificently herself — and it *liked* what it found, frankly, with no apology and no hurry and no reaching, and then it had the manners to look away before the looking became a thing he was doing *to* her instead of a thing they were briefly doing together.
-
-That was the whole of it. That was what undid the evening before the evening had properly started. A man who could look at her like that and then let her be the one to decide.
-
-So she decided.
-
-*
-
-He did not perform, in the room, which she had half-braced for — the showman's flourish, the practised hands of a man with a repertoire. He had no repertoire. He had *attention*, which she understood within the first minute was a different and far rarer thing, and which she would spend the rest of the night failing to find the bottom of.
-
-He undressed her the way she'd watched him read that tin in the aisle: as though there were nowhere else to be and nothing in the world worth hurrying for, his hands unhurried and certain and astonishingly warm — warmer than hands had any right to be, a deep banked heat that came up out of him and went into her wherever he touched, so that she shivered not from cold but from the sheer animal comfort of it. He did not narrate. He did not flatter. He read her instead — the catch of breath that meant *there,* the small involuntary press of her hip that meant *yes, that, don't stop being clever about that* — and adjusted, wordless, the way he must once have read ground he could not afford to misread, except that the stakes here were only her pleasure and he treated them as though they were the only stakes that had ever existed.
-
-"You keep watching me," she said, into the dark, half a laugh in it.
-
-"Ja." Flat, fond, unbothered. His mouth was at the inside of her wrist, then the soft of her forearm, taking the slow road. "It's the only way to do it right. Everything's in the face. The breathing. The way the hands go." He looked up the length of her, the grey-green eyes catching what light there was. "People rush past all of it trying to get somewhere. The somewhere *is* the reading. There's no gap between paying attention to a person and — this." A pause, the dry coming up under the tenderness the way it always did with him. "Most men never find that out. Their loss. Definitely yours, if I'd been one of them."
-
-And then he proved it.
-
-He'd taken everything else off her with that same unhurried certainty, but when her thumbs went to the waistband of the plain cotton briefs — the unglamorous everyday ones, the ones a woman wears on a day she did not plan to be seen — his warm hand came over hers and stopped it, gentle, not a no so much as a *not yet.*
-
-"Leave those," he said, low. "For now."
-
-She raised an eyebrow into the dark, because she was thirty-six and past being told what to do in her own want — but there was nothing managing in it, nothing of the man arranging a woman to his own preference; it was closer to reverence, a man asking for the long way round because the long way round was the whole point. So she left them. And understood, within the minute, exactly why he'd asked.
-
-He started like a butterfly deciding on a flower — that light, that exploratory, a man laying the gentlest possible question against her skin and waiting, genuinely waiting, for the answer her body gave back before he asked the next one. His beard was rough and his mouth was not, and the contrast of the two travelling slow down the centre of her undid something she'd been holding tight for longer than this man had been in the room, longer than she'd admit. He took his time at the hollow of her throat, the underside of her breast, the soft swell of her belly that she had spent years being taught to suck in and that he cupped in one warm hand like a thing worth keeping, pressed his mouth to like an answer to a question the world kept asking her wrong. Lower.
-
-And there it was, the thing the briefs were for. He was a thigh man — she'd have laughed at the phrase an hour ago and she was not laughing now — and he came to the soft inner-thigh skin the way a man comes to the best part of a thing he's been saving, the creamy untravelled skin up high on the inside where the sun had never once reached in thirty-six years, where she was palest and softest and most herself, the cotton edge of the briefs a border he honoured and did not cross, working the warm slow line of his mouth along the very edge of it, the held boundary somehow filthier than no boundary at all. He stayed there. He took an unhurried age over an inch of her that no man had ever thought to consider worth ten seconds, the butterfly still *landing* and not yet feeding, both warm hands spread flat and reverent on the outsides of her thighs, holding her open and unhurried and *witnessed,* until the wanting in her had gone from a warmth to a demand, until the cotton between his mouth and the rest of her had stopped being a courtesy and become a torment she had agreed to and now, very much, had not —
-
-— and she arched.
-
-She arched her back up off the bed and took a fist of his hair and *took charge,* the way she'd always in the end taken charge of everything in her life worth having, a woman who knew exactly what she wanted and had stopped, somewhere around thirty-two, being shy about saying it — got the briefs off herself, one impatient hand, because waiting on his reverence was a thing she'd suddenly run clean out of — and pulled him where she wanted him with no politeness left in either of them.
-
-And only then did he stop being gentle.
-
-The butterfly was gone, and the other thing arrived — the *hunger,* sudden and total and entirely without apology, a man who had been holding the whole of himself in reserve simply *letting go,* the way she'd be told later he let go of nothing else in his life. He went at her like a man who had been starving and had decided, all at once, not to be polite about the meal — open, greedy, lavish, lapping, his hands sliding up to pin her hips and hold her exactly where he wanted her while his mouth did the thing his hands had been promising for an hour, and the gentleness did not vanish so much as *concentrate,* the same attention turned up past the top of the dial, reading her louder now, faster, riding the rising line of her the way he'd ridden a wadi wall, no hesitation, no gap, *meaning it more than she did* until she could not have told you her own name. She came with her heels in the small of his back and her hand fisted in his hair and a sound out of her she did not recognise and did not care to, and he did not stop, he gentled it, he stayed with her all the way down the far side of it the way you stay with someone through weather, until the shaking was through her and out and gone and she was laughing, helpless, wrecked, astonished, into the dark.
-
-"*Voetsek,*" she said, when she could. "That is not — men don't — "
-
-"This one does." He came up the bed and lay alongside her, the great warm bulk of him, and did not reach for his own due, not yet, only propped on one elbow and looked at her in the dark with the grey-green eyes and the plain frank pleasure of a man who has done a true thing properly and is in no hurry about anything at all. "I told you. It's all in the paying attention." He laid the back of two fingers against her cheek, light as the butterfly. "And you, *meisie,* are extremely worth paying attention to."
-
-She turned her head and bit the heel of his hand, gently, and felt him laugh — felt it travel through the warm bulk of him, that rare unguarded thing — and pulled him over and down and on, because she knew exactly what she wanted, and the night, gloriously, was nowhere near done.
-
-\
-
-\
-
-*— Kleinboer. Kontrei.*
-*— André P. Brink. Vir die fyn hand.*
-
----
-
-## A word, for the curious — on those last two lines
-
-Those two names at the close — *Kleinboer. Kontrei.* and *André P. Brink* — are not decoration. They are the two South Africans who taught me, between them, everything I needed to write the chapter you just read, and they taught me two completely different things, and a man needs both halves or he should not be writing this kind of scene at all.
-
-**Kleinboer** is the pen name of a South African writer, and *Kontrei* is his book — Afrikaans, 2003; in English, *Midnight Missionary.* It won the Jan Rabie–Rapport Prize for innovative prose, for a *debut,* and arrived with the kind of acclaim-and-scandal that only ever lands on a book that has actually done something dangerous and done it beautifully — confessional, pitch-black, frequently very funny, unsparing, explicit, and, underneath all of it, real literature. Kleinboer taught me the **nerve.** The unapologetic part. To put a true and intimate thing on the page plainly, in full daylight, and not flinch, and not apologise, and trust that done *properly* the rawest material comes out the other side with its dignity intact. He wrote without one ounce of apology in him, and he made it art, and he did it years before I had the courage to try.
-
-**André P. Brink** taught me the opposite gift, the one that keeps the nerve from turning into something cheap. Brink — one of the great *Sestigers,* who turned Afrikaans against apartheid and paid for it (they banned *A Dry White Season;* he smuggled it out through an underground press) — could write desire like almost no one in either of our languages: charged, electric, grown-up, and *classy,* the heat all the higher for being mostly *suggested,* the door left almost-closed so your own mind did the last of the work. And here is the thing I took from him and have tried never to put down: he wrote women with total respect and **never once stripped them of their sexuality, or of the real power it gives them over men.** He did not make them less to make them safe. He let them be wholly themselves — wanting, deciding, devastating, in command of the very thing a lesser writer would have used to reduce them — and he treated that power as the true and serious force it is. That is the whole of why the woman in the chapter you just read is the one who closes every distance, who arches and takes the fist of his hair and *leads;* why his reverence ends exactly when *she* says it ends. That is Brink's lesson. Respect a woman by keeping her power, not by pretending she hasn't got any.
-
-So: Kleinboer gave me the nerve to write it at all, and Brink gave me the manners to write it *right* — explicit but never reducing, frank but never cheap, a grown woman in full possession of herself and the man, gladly, in her hand. Go and find them both. Read *Kontrei* for the fire and Brink for the fine hand, and you will understand exactly why this small private book takes its hat off, wordlessly, to the two of them at the end of that chapter.
-
-*Dankie, Kleinboer — vir die durf. Dankie, André — vir die fyn hand. Julle het my geleer hoe.*
-
 # For Robin Sharma
 
 *Another real debt, and the guru on the island.*
@@ -688,304 +577,303 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 ---
 
-# MOVEMENT THREE
-## He Speaks
+# He Speaks
 
-*Near the end, the whispers reached the right rooms, and the two loudest microphones on earth came for him. He went — which surprised everyone who knew him — and he gave them what he gave everyone: a perfect, smiling, bottomless deflection, with the truth slipped in underneath where only the careful would catch it. The first host got the man who makes the whole world laugh. The second got the man two operators recognise across a table. Same man. Two rooms. Listen to how little he confirms, and how much he tells.*
+*Near the end, the whispers reached the right rooms, and the microphones came for him — one after another, the loudest on earth. He went, again and again, which surprised everyone who knew him, and he gave each of them what he gave everyone: a perfect, smiling, bottomless deflection, with the truth slipped in underneath where only the careful would catch it. One host got the man who makes the whole world laugh. Another got the man two operators recognise across a table. Same man, every time. Different room, every time. Listen to how little he confirms, and how much he tells.*
 
 ---
 
-# The Jago Reno Experience — Episode 2291
+# The Joe Rogan Experience — Episode 2291
 
 *the first tape.*
 
 ---
 
-**JAGO:** We're live. We're rolling. Okay so — I gotta be honest with people. I don't totally know who you are. And that's *why* you're here. Normally my booker gives me a whole — there's a whole document. You? Three sentences. And one of them was "he will not confirm anything."
+**JOE:** We're live. We're rolling. Okay so — I gotta be honest with people. I don't totally know who you are. And that's *why* you're here. Normally my booker gives me a whole — there's a whole document. You? Three sentences. And one of them was "he will not confirm anything."
 
 **JAKOBUS:** That sounds about right.
 
-**JAGO:** *(laughs)* See, that's — okay. So three different people, in three different conversations, totally unrelated, all said the same thing to me. They said, "you need to get the South African guy." And I go, what South African guy. And all three of them got *weird.* Like they got quiet. What is that?
+**JOE:** *(laughs)* See, that's — okay. So three different people, in three different conversations, totally unrelated, all said the same thing to me. They said, "you need to get the South African guy." And I go, what South African guy. And all three of them got *weird.* Like they got quiet. What is that?
 
 **JAKOBUS:** People like a story. A story needs a shape. I'm a convenient shape.
 
-**JAGO:** That's a non-answer, but it's a *cool* non-answer. *(to Jamie)* Did you find anything? Did you find the guy?
+**JOE:** That's a non-answer, but it's a *cool* non-answer. *(to Jamie)* Did you find anything? Did you find the guy?
 
 **JAMIE:** There's like — almost nothing. A couple of forum posts. A name on a thing from the nineties that might not be him. It's spelled different every time.
 
-**JAGO:** It's spelled different every time! Why is it spelled different every time?
+**JOE:** It's spelled different every time! Why is it spelled different every time?
 
 **JAKOBUS:** Bad clerks. *(beat)* Clerks have done more damage to history than any war. You want to disappear a man, don't kill him. Just spell him wrong a few times and wait.
 
-**JAGO:** *(pointing)* That's — write that down. That's a t-shirt. Okay. You want — I got the tequila, I got — you want a hit of anything?
+**JOE:** *(pointing)* That's — write that down. That's a t-shirt. Okay. You want — I got the tequila, I got — you want a hit of anything?
 
 **JAKOBUS:** I'll have a coffee, if there's coffee.
 
-**JAGO:** We got coffee. *(beat)* You're not a weed guy.
+**JOE:** We got coffee. *(beat)* You're not a weed guy.
 
 **JAKOBUS:** I've got nothing against it. I just like to know which way the door is. Habit.
 
-**JAGO:** See, that's — okay, hold on, I gotta sit with that, because I had a guy on here, a Green Beret, he said the same thing almost word for word. He goes, I can't be in a room I can't leave. And it never goes away. Like it's twenty years and he still counts the exits. Is that you?
+**JOE:** See, that's — okay, hold on, I gotta sit with that, because I had a guy on here, a Green Beret, he said the same thing almost word for word. He goes, I can't be in a room I can't leave. And it never goes away. Like it's twenty years and he still counts the exits. Is that you?
 
 **JAKOBUS:** I counted four when I walked in here. The two doors, the window behind Jamie that doesn't open but the glass is thin, and the fire panel in the corridor that means there's a stairwell on the other side of that wall. *(beat)* I didn't decide to do that. It's just running. It's been running since I was nineteen. It's the most boring superpower in the world.
 
-**JAGO:** *(delighted)* The fire panel — Jamie, is there a — *(laughing)* — okay, so you're telling me you cased my studio. You cased the studio in like four seconds.
+**JOE:** *(delighted)* The fire panel — Jamie, is there a — *(laughing)* — okay, so you're telling me you cased my studio. You cased the studio in like four seconds.
 
 **JAKOBUS:** Everybody cases the studio. Most people just don't know they're doing it, so they get the answer wrong. The animal in you is always counting the exits. The training only teaches you to *listen* to the animal.
 
-**JAGO:** Okay see — this is gonna be one of *those* ones. I can feel it. This is gonna be a four-hour one. Where are you from? Like actually.
+**JOE:** Okay see — this is gonna be one of *those* ones. I can feel it. This is gonna be a four-hour one. Where are you from? Like actually.
 
 **JAKOBUS:** Eastern Free State. Little place. You'd drive through it and not know you'd been.
 
-**JAGO:** And you grew up — what, on a farm?
+**JOE:** And you grew up — what, on a farm?
 
 **JAKOBUS:** On a farm. Barefoot until they put me in school and the hostel made me wear shoes. *(beat)* That's why my feet are wide. Wide like a duck. The boys in the city had narrow little shoe-feet and I had these — *(holds up hands, spread)* — veld feet. Feet that read the ground. I couldn't buy a boot for thirty years that fit right.
 
-**JAGO:** Hold on, that's a real thing? Going barefoot changes the actual shape of your foot?
+**JOE:** Hold on, that's a real thing? Going barefoot changes the actual shape of your foot?
 
 **JAKOBUS:** It changes everything. The foot's supposed to splay. We put babies in shoes and wonder why everyone's got bad knees and bad backs at forty. You took the one tool evolution spent four million years on and you wrapped it in a little leather coffin and then you bought *inserts.* *(beat)* I'm not a barefoot evangelist, you understand. I wear serious boots now. But the boots fit the foot. Not the foot fit the boot.
 
-**JAGO:** *(to Jamie)* Pull up the — there's a guy, the barefoot — the foot guy — *(to Jakobus)* — okay, no, I'll get lost, I'll lose the thread, I do this. Okay. You were — military? Were you military?
+**JOE:** *(to Jamie)* Pull up the — there's a guy, the barefoot — the foot guy — *(to Jakobus)* — okay, no, I'll get lost, I'll lose the thread, I do this. Okay. You were — military? Were you military?
 
 **JAKOBUS:** I was a conscript. Everybody was, where I'm from, my age. They gave you a haircut and a rifle and a war nobody tells you was a lie until you're already in the sand.
 
-**JAGO:** This is the Border War? The Angola — people don't know about this. Americans have no idea about this war.
+**JOE:** This is the Border War? The Angola — people don't know about this. Americans have no idea about this war.
 
 **JAKOBUS:** No. Why would they. It was a small ugly war at the bottom of the world and the people who ran it made very sure it stayed small and quiet. *(beat)* We fired G5 guns. Artillery. You don't see the people you kill with artillery. That's the mercy of it and that's the horror of it. You're a nineteen-year-old boy doing maths — angle, charge, wind — and twenty kilometres away the maths lands on somebody's son, and you never see it, you just hear it confirmed on the radio, *good effect on target,* and you write it in a log. *(beat)* "Good effect on target." That's the phrase. I can still — that phrase is in my body somewhere. I'll die with that phrase in me.
 
-**JAGO:** *(quiet)* Jesus.
+**JOE:** *(quiet)* Jesus.
 
 **JAKOBUS:** It took me years to understand I'd been a child handed a weapon by men who knew it was a lie. I don't carry hate about it. I carry a debt. To the ones who didn't come home from a thing that wasn't even true.
 
-**JAGO:** And then — okay, this is the part where the three guys got weird. They said after that you didn't — you didn't *stop.* They said you kept going. To other people's wars. For like — money? Or—
+**JOE:** And then — okay, this is the part where the three guys got weird. They said after that you didn't — you didn't *stop.* They said you kept going. To other people's wars. For like — money? Or—
 
 **JAKOBUS:** *(long pause)* That's the part people make exciting. It isn't exciting. A man who keeps going back to the war after they let him go home is not a hero. He's a man who couldn't sit in the quiet. The quiet was worse than the war. So you go where the quiet can't find you, and you tell yourself it's the work, and other men pay for that with their lives so you don't have to be at home being no use to anyone. *(beat)* There's no poster in that. I'd take it back if I could.
 
-**JAGO:** *(beat, then brightening, the way he does)* But see — this is what I'm saying. That's the realest thing anybody's said at this table in a month and you said it like you were ordering lunch. You've got — you don't *perform* it. Most guys who've done heavy stuff, there's a little — there's a performance. A little "I've seen things." You've got none of it.
+**JOE:** *(beat, then brightening, the way he does)* But see — this is what I'm saying. That's the realest thing anybody's said at this table in a month and you said it like you were ordering lunch. You've got — you don't *perform* it. Most guys who've done heavy stuff, there's a little — there's a performance. A little "I've seen things." You've got none of it.
 
 **JAKOBUS:** Because the performance is for the man who's still scared of the thing. When you've actually put it down, you don't need anyone to know you carried it. *(beat)* The loud ones are the ones still afraid. Quiet is what it looks like when the fear's mostly gone. Not all the way. Mostly.
 
-**JAGO:** Okay, I gotta — there's a *thing.* There's this thing people say. About a wedding. In the — in like a Gulf state. Is that — did you crash a sheikh's wedding?
+**JOE:** Okay, I gotta — there's a *thing.* There's this thing people say. About a wedding. In the — in like a Gulf state. Is that — did you crash a sheikh's wedding?
 
 **JAKOBUS:** *(the ghost of a smile)* I was *invited* to a wedding.
 
-**JAGO:** You were invited — *(laughing)* — see, the way you said "invited"—
+**JOE:** You were invited — *(laughing)* — see, the way you said "invited"—
 
 **JAKOBUS:** I was a guest of honour. It was a lovely wedding. The food was very good.
 
-**JAGO:** Whose wedding was it?
+**JOE:** Whose wedding was it?
 
 **JAKOBUS:** I couldn't tell you.
 
-**JAGO:** You couldn't, or you won't?
+**JOE:** You couldn't, or you won't?
 
 **JAKOBUS:** *(takes a sip of coffee)* Yes.
 
-**JAGO:** *(losing it)* "Yes"! Jamie, he said "yes"! Okay. Okay. But there's a — they said you went there to get somebody *out* of something. That somebody you knew was in trouble, money trouble, the kind money can't fix, and you turned up and just by — by being there — you fixed it. How does that work? How does a guy just *show up* and fix a thing money can't fix?
+**JOE:** *(losing it)* "Yes"! Jamie, he said "yes"! Okay. Okay. But there's a — they said you went there to get somebody *out* of something. That somebody you knew was in trouble, money trouble, the kind money can't fix, and you turned up and just by — by being there — you fixed it. How does that work? How does a guy just *show up* and fix a thing money can't fix?
 
 **JAKOBUS:** *(considers how much to give)* ...Reputation is a strange currency. It's the only currency I've ever really had. *(beat)* If certain men understand that a certain person is — connected, let's say, to certain favours that have not yet been called in — then those men do their arithmetic again. Nobody has to do anything. Nobody draws anything. You just walk in, and you let them watch you be welcomed by the right people, and you eat the good food, and they recalculate. The whole thing is done before the soup. *(beat)* That's the work, when it's done right. Nothing happens. The best operations are the ones where, afterward, you genuinely cannot prove anything occurred.
 
-**JAGO:** But you had to *have* the reputation. Like that's banked. That's twenty years of — what, what's banked?
+**JOE:** But you had to *have* the reputation. Like that's banked. That's twenty years of — what, what's banked?
 
 **JAKOBUS:** *(flat)* Things you don't spend twice.
 
-**JAGO:** *(beat)* ...okay, you're not gonna — alright. Alright. *(to Jamie)* He's not gonna — okay. Let me ask you the gold thing. Because this is the real reason I think people sent you to me. The *gold.* Have you seen the stuff? The South Africa stuff — Adam's Calendar, Tellinger, the — the ancient civilization, the ringing stones. People are saying there was a *broadcast.* Something went out and then kind of got — memory-holed? You know about this?
+**JOE:** *(beat)* ...okay, you're not gonna — alright. Alright. *(to Jamie)* He's not gonna — okay. Let me ask you the gold thing. Because this is the real reason I think people sent you to me. The *gold.* Have you seen the stuff? The South Africa stuff — Adam's Calendar, Tellinger, the — the ancient civilization, the ringing stones. People are saying there was a *broadcast.* Something went out and then kind of got — memory-holed? You know about this?
 
 **JAKOBUS:** I know people have a lot of fun with it.
 
-**JAGO:** But is there — okay, is there anything to it? Because I've had people on this show who'll tell you the pyramids are a power plant. I've had Hancock, I've had — where are you on the ancient advanced civilization thing?
+**JOE:** But is there — okay, is there anything to it? Because I've had people on this show who'll tell you the pyramids are a power plant. I've had Hancock, I've had — where are you on the ancient advanced civilization thing?
 
 **JAKOBUS:** *(considers it for a long moment)* I'll tell you what I actually think, and you're going to be disappointed, because it's not aliens.
 
-**JAGO:** I'm not gonna be disappointed. Tell me.
+**JOE:** I'm not gonna be disappointed. Tell me.
 
 **JAKOBUS:** I think people were exactly as clever a very long time ago as they are now. That's the whole thing. That's the only "secret." Everybody wants the ancients to be either stupid — so we feel superior — or magic — so we feel small. And the truth is the boring, gigantic thing in the middle: they were *us.* Same brain. Same hands. They stood in front of the same problems, and they were not in a hurry the way we're in a hurry, and they solved them, with stone, in ways we've half forgotten because we got a different toolkit and stopped needing to remember. That's not a lost race. That's not little grey men. That's your own great-great-grandmother being a genius and you not bothering to find out. *(beat)* That, to me, is more frightening than aliens. Aliens let you off the hook. *This* says the genius was always in the room. It was just *ours.* And we threw most of it away inside three generations because a thing got written down somewhere so nobody had to remember it in their hands anymore.
 
-**JAGO:** Okay but — the ringing stones. The acoustic stuff. Because that I find genuinely interesting — that there's sites, all over, that seem to be built for *sound.* That do something to sound. Is that real or is that—
+**JOE:** Okay but — the ringing stones. The acoustic stuff. Because that I find genuinely interesting — that there's sites, all over, that seem to be built for *sound.* That do something to sound. Is that real or is that—
 
 **JAKOBUS:** Some of it's real and most of the talk about it is rubbish, and you have to hold both at once or you go mad. *(beat)* Here's a real thing. There are chambers — old ones, cut from hard stone — where if you put a low note in, the room *answers.* It picks a frequency and it holds it and the whole stone seems to lean in. That's not woo, that's physics; it's a resonant cavity, a guitar body the size of a house, and the people who cut it knew exactly what they were doing because they cut it to *do that.* You can stand in one. Your chest knows before your head does. *(beat)* What people then *say* about it — that it's a machine, that it's a power source, that you hum the right note and a door opens to Atlantis — that's people taking a real, astonishing, *human* achievement and slapping a comic book on it because the human achievement wasn't exciting enough for them. And that makes me angry, actually. Because the real thing is *better.*
 
-**JAGO:** Why does it make you angry? Like specifically.
+**JOE:** Why does it make you angry? Like specifically.
 
 **JAKOBUS:** *(this lands somewhere real)* Because of who it steals from. *(beat)* Every time somebody says "the ancients couldn't have built this, so it must have been aliens, or Atlanteans, or a lost white race" — and they always, eventually, get to a lost *white* race, you watch — what they're actually saying is *these people's ancestors were too primitive to have made the wonder that is sitting right there in their own country.* It's the oldest theft there is. You take a people's land, and then you take their pyramids, and then you take the *credit* for their pyramids, and you hand it to a space alien because you cannot stand to hand it to *them.* *(beat)* I've stood in front of African stonework that would stop your heart, with a guide whose grandfather built the road to it, and listened to a tourist explain to him that his ancestors couldn't have done it. To his face. In his country. *(beat)* So yes. It makes me angry. The wonder is theirs. The least you can do is let them have it.
 
-**JAGO:** *(quiet for a second)* ...damn. Okay. Yeah. I've never — nobody's ever framed it like that for me. That it's a *theft.*
+**JOE:** *(quiet for a second)* ...damn. Okay. Yeah. I've never — nobody's ever framed it like that for me. That it's a *theft.*
 
 **JAKOBUS:** It's the biggest one. It's so big people can't see it. It's the air.
 
-**JAGO:** Okay so — the actual gold though. Did you — they say *you* — okay I'm just gonna ask it. Did you find something?
+**JOE:** Okay so — the actual gold though. Did you — they say *you* — okay I'm just gonna ask it. Did you find something?
 
 **JAKOBUS:** I've found a lot of things. I find car keys, mostly.
 
-**JAGO:** *(wheezing)* He finds car keys—
+**JOE:** *(wheezing)* He finds car keys—
 
 **JAKOBUS:** People lose their keys. I have a knack.
 
-**JAGO:** Okay, I gotta ask you the thing I ask everybody who's had — who's been through real stuff. Have you ever done psychedelics? Like, properly. DMT, ayahuasca, mushrooms — because there's this whole thing now with vets, the MDMA trials, the ibogaine, guys going down to Mexico and coming back — like *fixed,* in a way thirty years of pills didn't do. Have you—
+**JOE:** Okay, I gotta ask you the thing I ask everybody who's had — who's been through real stuff. Have you ever done psychedelics? Like, properly. DMT, ayahuasca, mushrooms — because there's this whole thing now with vets, the MDMA trials, the ibogaine, guys going down to Mexico and coming back — like *fixed,* in a way thirty years of pills didn't do. Have you—
 
 **JAKOBUS:** I haven't done your machine-elf one. The DMT. *(beat)* I've been around the plant medicines. In the right places, with the right people, where it's a four-hundred-year-old ceremony and not a guy with a backpack charging you eight hundred dollars. *(beat)* And I'll tell you what I think, and it's going to be the boring answer again, because I'm a boring man.
 
-**JAGO:** You're the least boring man I've — okay, go.
+**JOE:** You're the least boring man I've — okay, go.
 
 **JAKOBUS:** I think it's real, and I think it works, and I think the *mechanism* isn't the chemical. *(beat)* The chemical opens a door. But what fixes the man isn't the door. It's that, for once, he is somewhere he cannot run, with people whose whole job is to hold him while the thing he's been outrunning his whole life finally catches up — and he lives through it. He looks the thing in the face, and it doesn't kill him, and he comes out the other side and he's been *carried.* *(beat)* That's the medicine. The molecule just makes you sit still long enough to receive it. *(beat)* You can get the same thing from a desert, or a death, or a woman who won't let you leave the room. I've gotten it all three ways. The plant's just faster, and it's got better marketing.
 
-**JAGO:** That's — okay, but the elves. People see *things.* Entities. They go somewhere and there's *beings* there, and they all describe the same — that's the part that breaks my brain. How do all these different people go to the same place and meet the same—
+**JOE:** That's — okay, but the elves. People see *things.* Entities. They go somewhere and there's *beings* there, and they all describe the same — that's the part that breaks my brain. How do all these different people go to the same place and meet the same—
 
 **JAKOBUS:** *(small smile)* You want me to tell you whether the elves are real.
 
-**JAGO:** I want you to tell me whether the elves are real!
+**JOE:** I want you to tell me whether the elves are real!
 
-**JAKOBUS:** *(beat)* I don't know if the elves are real. I genuinely don't, and I won't pretend to, and that's me being more honest than the guys who'll sell you a yes or a no. *(beat)* What I'll tell you is this. I've watched a woman sing water out of a dead desert off a tune her great-great-grandmother taught her. So my opinion about what's "really there" and what isn't got a lot more humble a long time ago. *(beat)* There are more ways of knowing a thing than the one we got taught in school. I'm sure of that. I'm sure of it the way I'm sure of gravity, because I've been carried by one of the other ways. *(beat)* Whether that means there's little men made of light at the bottom of the molecule — *(shrugs)* — Jago, I can't even keep my own son on the phone. I'm not the man to ask about the geography of the spirit world.
+**JAKOBUS:** *(beat)* I don't know if the elves are real. I genuinely don't, and I won't pretend to, and that's me being more honest than the guys who'll sell you a yes or a no. *(beat)* What I'll tell you is this. I've watched a woman sing water out of a dead desert off a tune her great-great-grandmother taught her. So my opinion about what's "really there" and what isn't got a lot more humble a long time ago. *(beat)* There are more ways of knowing a thing than the one we got taught in school. I'm sure of that. I'm sure of it the way I'm sure of gravity, because I've been carried by one of the other ways. *(beat)* Whether that means there's little men made of light at the bottom of the molecule — *(shrugs)* — Joe, I can't even keep my own son on the phone. I'm not the man to ask about the geography of the spirit world.
 
-**JAGO:** *(laughing)* "I can't keep my own son on the phone" — okay, that's — *(wiping eye)* — okay. You ever — okay this is a left turn — you fight? Did you ever — like, martial arts, hand to hand, the — because you move like a guy who—
+**JOE:** *(laughing)* "I can't keep my own son on the phone" — okay, that's — *(wiping eye)* — okay. You ever — okay this is a left turn — you fight? Did you ever — like, martial arts, hand to hand, the — because you move like a guy who—
 
 **JAKOBUS:** *(flat)* The best fight is the one that doesn't happen. The second best is the one that's over before the other man knows it started. *(beat)* I never learned a martial art for *sport,* if that's what you mean. I learned things for a context where there are no rounds and no referee and no tapping out, and I'll tell you honestly, that training makes you *worse* at the cage, not better, because everything in you is wired to end it in a way you're not allowed to end it in a cage. *(beat)* I love watching it, though. Your sport. I love it precisely because it's the *honest* version. Two people, agreed, with rules, with a doctor, with a way to stop. That's beautiful. That's the most honest fighting there is. *(beat)* What I did wasn't honest. It wasn't supposed to be. Honesty gets you killed in my line. So I watch your honest version with — with something like envy, actually. Those kids get to find out who they are without anybody dying. We never got that. We found out who we were and there was a body.
 
-**JAGO:** *(quiet)* Damn. Okay. That reframes the whole — I'm never gonna watch a fight the same way. "Nobody dies." Yeah.
+**JOE:** *(quiet)* Damn. Okay. That reframes the whole — I'm never gonna watch a fight the same way. "Nobody dies." Yeah.
 
 **JAKOBUS:** Nobody dies. It's the most civilised thing your country's got. Don't let anyone tell you different.
 
-**JAGO:** Okay, people mention a *knife.* That you carry this big — almost a *sword.* And it doesn't fit, right, 'cause you're the no-gun guy, the disarm guy, and then you've got a giant blade on your leg. What's the deal with the knife.
+**JOE:** Okay, people mention a *knife.* That you carry this big — almost a *sword.* And it doesn't fit, right, 'cause you're the no-gun guy, the disarm guy, and then you've got a giant blade on your leg. What's the deal with the knife.
 
 **JAKOBUS:** *(small smile)* Everyone notices the knife. That's the knife doing its job. *(beat)* It was a kukri. The curved one — Nepali. My father's, one of the few things of his I kept. And ja, it's big, and people see it and think *what's the soft old man compensating for,* and that's fine. Let them. A man looking at the silly knife isn't looking at the cord on my wrist, and the cord's the one that matters.
 
-**JAGO:** Wait — so the big scary knife is a *decoy?*
+**JOE:** Wait — so the big scary knife is a *decoy?*
 
 **JAKOBUS:** The big knife is a *tool.* That's the thing the films ruined. *(beat)* You know the story they tell about the Gurkhas? Fearsome knife-fighters, secret martial art, take your head clean off at the foxhole. The world built a whole legend on it. Then somebody actually studied it, and there's no secret art. None. It's a good blade shape — weight in the spine — that a child grows up chopping wood and cutting rope and digging with, every day, until it isn't a weapon, it's part of the arm. The legend got born off a *tool,* in the hands of people who'd held it since they could walk. *(beat)* That's the whole of it. In Africa a blade isn't a threat, it's a Tuesday — it's how you eat, build, mend. A girl of ten walks the road with a machete bigger than that kukri and nobody flinches, because to her it's an axe, it's firewood. *(beat)* I carry knives because I use them every hour — rope, fruit, wire, a nail. The big one's for when the job's too big for the small one. None of them turns a border into a war. That's the gun's trick, not the knife's.
 
-**JAGO:** Huh. So where's the kukri now? You said "was" — and you said "my father's" like—
+**JOE:** Huh. So where's the kukri now? You said "was" — and you said "my father's" like—
 
 **JAKOBUS:** *(beat)* I gave it away. To an old man in the desert who poured me tea I hadn't earned yet. *(beat)* That's the other thing about the things you love. You carry them until you meet the person they were always going to belong to, and then it turns out you were only ever the postman. *(beat)* I miss the weight of it. I don't miss owning it. There's a difference, and it took me about sixty years to learn it.
 
-**JAGO:** Okay. New thing. I read — somewhere, one of the forum things, Jamie show me if you can find it — that you've got, like, a *truck.* And that the truck is famous. That the truck is its own thing. What's the truck.
+**JOE:** Okay. New thing. I read — somewhere, one of the forum things, Jamie show me if you can find it — that you've got, like, a *truck.* And that the truck is famous. That the truck is its own thing. What's the truck.
 
 **JAKOBUS:** *(and here something softens — this he'll talk about)* Ah. The truck. *(beat)* It's an old Land Cruiser. Looks like it's on the way to the scrapyard. That's the point of it.
 
-**JAGO:** Why's that the point?
+**JOE:** Why's that the point?
 
 **JAKOBUS:** Same reason as everything else with me, hey. *(beat)* I had a friend build the engine. Not modify — *build.* A man in Paarl, a fisherman who works on engines when he runs out of fish, who reads a motor the way I read a room — the whole thing at once, where the trouble is before you've finished saying there's trouble. He took it down to the last bolt and put it back together truer than the factory ever managed, every part weighed and matched on a little paint-scale you'd step over in a hardware shop, and then — once it was perfect — he gave it everything. Every single thing you can do to a diesel and have it live. Cost me about two new trucks, all of it spent where you can't see it, in a shell that looks like death. *(beat)* And there's young blokes with brand new trucks, fifty grand of gleaming kit, and they look at mine and feel sorry for me. And then we go up a hill. *(small smile)* And I don't say anything, because the whole pleasure of it is that I don't have to.
 
-**JAGO:** *(grinning)* So it's a sleeper. It's a sleeper truck.
+**JOE:** *(grinning)* So it's a sleeper. It's a sleeper truck.
 
 **JAKOBUS:** Everything I own is a sleeper. The truck. The clothes. The — *(taps his own chest)* — the soft belly. The whole man is a sleeper. The most dangerous thing in the room should look like the least. That's not a tactic, by the end. It's a — it's almost a religion. You spend your life making sure nobody ever finds out what you can do, and the not-finding-out becomes the thing you're proudest of.
 
-**JAGO:** That's — see, that's wild to me, because everything in my world is the opposite. Everything's "look how hard I train, look at my — " everyone's flexing. And you're telling me the real ones flex by — by hiding.
+**JOE:** That's — see, that's wild to me, because everything in my world is the opposite. Everything's "look how hard I train, look at my — " everyone's flexing. And you're telling me the real ones flex by — by hiding.
 
 **JAKOBUS:** The man who has to show you is telling you he's not sure. The man who's sure can afford to look like nothing. *(beat)* Look at the actual dangerous animals. The honey badger doesn't look like much. Small. Looks like a grumpy little dog. And it walks straight at a cobra and digs a lion out of its lunch and does not care, at all, in a way that is almost funny, because it knows something about itself that it doesn't need you to know. *(beat)* Where I'm from we love that animal. We love it more than the lion. The lion's a brand. The badger's the truth.
 
-**JAGO:** Wait, the honey badger thing — is the honey badger thing real? Because there's that video, "honey badger don't care," but is the — they're actually like that?
+**JOE:** Wait, the honey badger thing — is the honey badger thing real? Because there's that video, "honey badger don't care," but is the — they're actually like that?
 
 **JAKOBUS:** They're more like that than the video. *(beat)* And here's the part that'll get you. They survive snake bites. Real cobra, real puff adder — venom that drops a buffalo — the badger goes down, looks dead, and then a few hours later it gets up and finishes eating the snake. Because there's a tiny change in its body, in the exact place the venom grabs, so the poison can't get a grip. It's real. Scientists found the mutation. Same one a hedgehog has, and a pig. *(beat)* Built different. Built for exactly the thing that kills everything around it.
 
-**JAGO:** That's — okay that's the coolest thing I've heard this week. So it's like — it's like it's immune?
+**JOE:** That's — okay that's the coolest thing I've heard this week. So it's like — it's like it's immune?
 
 **JAKOBUS:** Resistant. Not immune. There's a difference and the difference is the whole of life. *(beat)* It's resistant to the snakes it grew up with. Its body learned the African snakes over a million years. You put it in Australia, where the snakes are a different family — close, but not the same — and nobody knows what happens, because no honey badger's ever been daft enough to be in Australia. The old resistance *probably* carries. Probably. *(beat)* And "probably" is a very thin thing to bet your life on. *(beat)* I think about that animal a lot.
 
-**JAGO:** *(beat)* ...are we still talking about the badger?
+**JOE:** *(beat)* ...are we still talking about the badger?
 
-**JAKOBUS:** *(small smile, doesn't answer that)* Have a hit of your thing, Jago. You've earned it.
+**JAKOBUS:** *(small smile, doesn't answer that)* Have a hit of your thing, Joe. You've earned it.
 
-**JAGO:** *(laughs, genuinely)* Okay. Okay, I'm gonna — *(does)* — okay. Music. Somebody told me you've got — that you drive with the bass so loud it sets off car alarms. That you're this quiet guy and then the truck shows up and it's — that doesn't fit. The quiet guy and the — explain that to me.
+**JOE:** *(laughs, genuinely)* Okay. Okay, I'm gonna — *(does)* — okay. Music. Somebody told me you've got — that you drive with the bass so loud it sets off car alarms. That you're this quiet guy and then the truck shows up and it's — that doesn't fit. The quiet guy and the — explain that to me.
 
 **JAKOBUS:** *(this one he likes)* Ah. Yes. The one crack in the discipline. Except it isn't a crack. *(beat)* Two things. One — I'm half deaf. Top end's gone, from shooting without ear protection as a kid; we didn't know, nobody told us, you just fired the thing and your ears rang for a day and you thought that was normal. So the highs aren't really there for me anymore. I reach for bass because bass I can still *feel.* It comes up through the seat, through the floor, through the chest. I'm not turning it up to be loud at you. I'm turning it up to reach a thing I can barely hear, by feeling it instead.
 
-**JAGO:** Okay that's — I did not expect that. That's — that's almost sad, actually.
+**JOE:** Okay that's — I did not expect that. That's — that's almost sad, actually.
 
 **JAKOBUS:** It's only sad if you decide it is. I decided it isn't. *(beat)* And two — and this is the part a clever young friend of mine worked out, the one who counts everything — all my music, every kind, no genre, it's all the same speed. Around a hundred and twenty, a hundred and forty beats a minute. And that's not an accident, and I didn't even know I was doing it until he told me. A hundred and twenty to a hundred and forty is *double* a calm heartbeat. So the beat lands on every second pulse. Clean. Two to one. *(beat)* It's not a playlist. It's a pacemaker. I put it on and it walks my heart down to the speed I want, the way you fall into step with a march without deciding to. *(beat)* The loud truck isn't me losing control. It's the most controlled thing I do. It's me reaching for the one sound I can still feel and using it to make my own heart behave.
 
-**JAGO:** *(staring at him)* That's — okay, that's the most — that's a beautiful thing, man. That's a genuinely beautiful thing. The deaf guy turning his heartbeat up so he can feel it. That's—
+**JOE:** *(staring at him)* That's — okay, that's the most — that's a beautiful thing, man. That's a genuinely beautiful thing. The deaf guy turning his heartbeat up so he can feel it. That's—
 
 **JAKOBUS:** Don't make it beautiful. It's just plumbing. *(beat)* Everything I've told you that sounds beautiful is just plumbing somebody hasn't looked at closely. That's the other secret. There's no magic. There's just things, done properly, by people who paid attention. The magic is the attention.
 
-**JAGO:** Okay — okay, the low-sound-through-the-body thing, the using-bass-to-regulate — *(snapping fingers, to Jamie)* — we've got the — Jamie, where's the — I've got a *didgeridoo* in here. Somebody gave it to me. That's the *original* version of what you're describing, right? The drone, the low — people use it for healing, the vibration thing, you lie down and they play it over you. *(reaching off-frame)* Here, you should — can you play it? Will you play it?
+**JOE:** Okay — okay, the low-sound-through-the-body thing, the using-bass-to-regulate — *(snapping fingers, to Jamie)* — we've got the — Jamie, where's the — I've got a *didgeridoo* in here. Somebody gave it to me. That's the *original* version of what you're describing, right? The drone, the low — people use it for healing, the vibration thing, you lie down and they play it over you. *(reaching off-frame)* Here, you should — can you play it? Will you play it?
 
 **JAKOBUS:** *(and he goes very still, and his hands come up, gently, a refusal that is also a kind of reverence)* No. *(beat)* No, I won't play it. And let me tell you why, because the why matters more than the no. *(beat)* That instrument — the yidaki, the proper name for it — is not mine to play. It belongs to particular people, from particular country, in Australia, and there are protocols about who plays it and where and on what occasion that go back tens of thousands of years. I am a white man from the other side of the world. For me to pick that up and have a blow because it's a fun noise in a podcast studio would be a small theft. A discourtesy to something sacred. *(beat)* It's a beautiful object and I love the sound of it more than almost any sound on earth. And the loving it properly *includes* not touching it. The not-touching is part of the respect. Some things you walk up to, and admire, and you do not put your hands on.
 
-**JAGO:** *(beat, a little chastened, a little moved)* ...okay. Yeah. No, I — yeah. I didn't think about it like that. That's — okay.
+**JOE:** *(beat, a little chastened, a little moved)* ...okay. Yeah. No, I — yeah. I didn't think about it like that. That's — okay.
 
-**JAKOBUS:** Don't be sorry. You offered it as a gift, that's a kind thing. I'm just telling you what it is. *(beat)* And I'll tell you something, because you offered, and it's the thing your offer reminded me of, and it's the closest I'll come on this whole show to telling you what happened to me out there. *(beat)* I was dying, once. In that country. Snakebite, far from any help, and they'd carried me to a clinic in a town at the end of the world, and I was grey and I was going, and I genuinely did not know if I'd come back from it. *(beat)* And on the second evening an old man came. An elder, of that country, brought by the right people, in the right way. And he didn't say much to me — he wasn't there for me especially, you understand. He sat on the floor with one of those, with a yidaki across his knee, and he played it. *(beat)* And he leaned the end of it near where I was lying, and he ran that drone — low, the lowest a sound can go and still be a sound — *through* me. Through the cot, through the floor, through my chest. The way you'd settle a sick animal. *(his voice has gone somewhere far off)* And I lay there, this lethal hard old soldier, flat on my back in a country that had nearly killed me, and the oldest bass on earth did to me *gently,* for free, by hands that were *allowed* to do it, what I had spent my whole loud life trying to do for myself with a truck and a sound system. *(beat)* My whole life I'd been building a crude version of that in a Land Cruiser. And there it was. The real thing. Sixty thousand years old. Given to me by a man who owed me nothing, who I'll never see again, whose name I was not given and did not ask for. *(long beat)* So no, Jago, I will not pick up your didgeridoo and have a blow. Out of love for the man who played the real one over me when I was dying. *(beat)* You don't repay that by treating the thing as a toy.
+**JAKOBUS:** Don't be sorry. You offered it as a gift, that's a kind thing. I'm just telling you what it is. *(beat)* And I'll tell you something, because you offered, and it's the thing your offer reminded me of, and it's the closest I'll come on this whole show to telling you what happened to me out there. *(beat)* I was dying, once. In that country. Snakebite, far from any help, and they'd carried me to a clinic in a town at the end of the world, and I was grey and I was going, and I genuinely did not know if I'd come back from it. *(beat)* And on the second evening an old man came. An elder, of that country, brought by the right people, in the right way. And he didn't say much to me — he wasn't there for me especially, you understand. He sat on the floor with one of those, with a yidaki across his knee, and he played it. *(beat)* And he leaned the end of it near where I was lying, and he ran that drone — low, the lowest a sound can go and still be a sound — *through* me. Through the cot, through the floor, through my chest. The way you'd settle a sick animal. *(his voice has gone somewhere far off)* And I lay there, this lethal hard old soldier, flat on my back in a country that had nearly killed me, and the oldest bass on earth did to me *gently,* for free, by hands that were *allowed* to do it, what I had spent my whole loud life trying to do for myself with a truck and a sound system. *(beat)* My whole life I'd been building a crude version of that in a Land Cruiser. And there it was. The real thing. Sixty thousand years old. Given to me by a man who owed me nothing, who I'll never see again, whose name I was not given and did not ask for. *(long beat)* So no, Joe, I will not pick up your didgeridoo and have a blow. Out of love for the man who played the real one over me when I was dying. *(beat)* You don't repay that by treating the thing as a toy.
 
-**JAGO:** *(very quiet)* ...man. Okay. *(beat)* That's — I'm gonna leave it on the wall. I'm not gonna — yeah. That's where it stays.
+**JOE:** *(very quiet)* ...man. Okay. *(beat)* That's — I'm gonna leave it on the wall. I'm not gonna — yeah. That's where it stays.
 
-**JAKOBUS:** That's the right place for it. On the wall, respected, not played by the wrong hands. *(beat)* You're a good man under all the noise, Jago. You knew it was the right thing the second I said it. That's the whole of being a good man, really — you don't have to get it right first. You just have to hear it when someone tells you, and *move.* You moved.
+**JAKOBUS:** That's the right place for it. On the wall, respected, not played by the wrong hands. *(beat)* You're a good man under all the noise, Joe. You knew it was the right thing the second I said it. That's the whole of being a good man, really — you don't have to get it right first. You just have to hear it when someone tells you, and *move.* You moved.
 
-**JAGO:** *(beat, then, gently changing register)* ...okay. Okay. Can I ask you a hard one? You don't have to.
+**JOE:** *(beat, then, gently changing register)* ...okay. Okay. Can I ask you a hard one? You don't have to.
 
 **JAKOBUS:** You can ask. I'll do the volume knob if I need to.
 
-**JAGO:** *(careful)* They said — one of the three guys, the one who got the quietest — he said you've got a son. And that it's — that it's not good. That you don't talk.
+**JOE:** *(careful)* They said — one of the three guys, the one who got the quietest — he said you've got a son. And that it's — that it's not good. That you don't talk.
 
 **JAKOBUS:** *(a stillness. The room changes and stays changed.)* ...he's not wrong. *(long pause)* I'll give you this one straight, because somewhere a man's listening who's done the same thing and thinks he's the only one. *(beat)* I was a boy who had to judge my own father. He was a damaged man, and I had to be the grown one before I was grown, and I swore — the way you swear things at twelve — that I would never be that to a child of mine. I would never. *(beat)* And then I went to the wars, and I kept going, and every year the work built another little distance into me, and one day I looked up and I was a man my own son couldn't reach. Not with my fists. I never raised a hand to him. With the *absence.* *(beat)* I became my father by a completely different road. I was so busy not taking his road that I never looked at the other roads, and I was already a long way down one of them. *(beat)* That's the thing nobody warns you about. You can avoid your father's exact sin so carefully that you commit a brand new one and never see it coming.
 
-**JAGO:** *(quietly)* ...do you talk? At all?
+**JOE:** *(quietly)* ...do you talk? At all?
 
-**JAKOBUS:** He doesn't phone. *(beat)* He's done well. Made himself hard, made himself money — burns money, actually, the way I gave things away; the opposite shape, same wound underneath. *(beat)* He doesn't phone. But he's alive to not phone. *(beat)* So. I take that. Some days that's the whole win, Jago. The boy's alive somewhere, not phoning his old man, and I built that silence with my own hands over thirty years, and I don't get to complain about it. The door's open on my side. It's been open twenty years. You can't make a man walk through a door. You just keep it open, and you don't make him pay for being late.
+**JAKOBUS:** He doesn't phone. *(beat)* He's done well. Made himself hard, made himself money — burns money, actually, the way I gave things away; the opposite shape, same wound underneath. *(beat)* He doesn't phone. But he's alive to not phone. *(beat)* So. I take that. Some days that's the whole win, Joe. The boy's alive somewhere, not phoning his old man, and I built that silence with my own hands over thirty years, and I don't get to complain about it. The door's open on my side. It's been open twenty years. You can't make a man walk through a door. You just keep it open, and you don't make him pay for being late.
 
-**JAGO:** *(beat)* ...I got two boys. That's — that one got me, man. The door thing.
+**JOE:** *(beat)* ...I got two boys. That's — that one got me, man. The door thing.
 
 **JAKOBUS:** Keep yours open. You've got the time I wasted. Don't waste it. That's the only advice I've got that's worth a damn, and I paid the full price for it, so take it for free. *(beat)* Be home. Just — be home. When they're small and it's boring and you'd rather be anywhere. *That's* the operation. That's the one that matters. I missed it, and there is no favour on earth I can call in to get it back.
 
-**JAGO:** *(after a long moment, gently)* You ever — okay, you don't have to. But was there ever — somebody. For you. A — I don't even know how to ask it.
+**JOE:** *(after a long moment, gently)* You ever — okay, you don't have to. But was there ever — somebody. For you. A — I don't even know how to ask it.
 
 **JAKOBUS:** *(the longest pause yet)* ...there was a woman. In Ethiopia. A long time ago, in the years between the wars, when I was nobody and nothing and freer than I've ever been since. *(beat)* I'm not going to tell you about her. Not because it's a secret. Because it's the one thing I've got that the world hasn't touched, and I'd like to keep one thing. *(beat)* I'll tell you what she gave me, though. She gave me coffee. The real ceremony — the beans roasted in front of you, the three rounds, the whole slow thing that takes an hour and is the point precisely *because* it takes an hour. *(beat)* I make it that way every single morning. Wherever I am. Whatever's happening that day. I will not skip it. It's the one ceremony I kept. *(beat)* That's her, every morning, for thirty years. That's the closest I get to praying.
 
-**JAGO:** *(very quiet)* ...yeah. Okay. Yeah.
+**JOE:** *(very quiet)* ...yeah. Okay. Yeah.
 
-*(a silence. Jago lets it sit, which he doesn't always do.)*
+*(a silence. Joe lets it sit, which he doesn't always do.)*
 
-**JAGO:** *(eventually, gently, not pushing — just offering)* ...you want a hit of this? No pressure. I just — it feels like a moment for it. And you've earned a minute where you don't have to know where the door is.
+**JOE:** *(eventually, gently, not pushing — just offering)* ...you want a hit of this? No pressure. I just — it feels like a moment for it. And you've earned a minute where you don't have to know where the door is.
 
-**JAKOBUS:** *(a long beat — and then, to Jago's visible surprise, he reaches out)* ...you know what. Ja. *(beat)* Give it here.
+**JAKOBUS:** *(a long beat — and then, to Joe's visible surprise, he reaches out)* ...you know what. Ja. *(beat)* Give it here.
 
-**JAGO:** *(genuinely delighted, almost reverent)* Wait — really? Mister "I like to know which way the door is"—
+**JOE:** *(genuinely delighted, almost reverent)* Wait — really? Mister "I like to know which way the door is"—
 
-**JAKOBUS:** *(takes it, considers it)* I told you at the start I've got nothing against it. I said I like to know where the door is. *(beat)* And the thing is, Jago — sitting here, talking about her, about the boy, about the song that carried me out of a grave — *(he takes a slow pull, holds it, lets it go, and something in the whole big frame of him settles a half-inch lower)* — I already know where the door is. There isn't one. This is the room. You're not going to hurt me, the kid behind the computer's not going to hurt me, there's nothing in this building that needs the animal counting exits. *(beat)* So for once, in here, with you — I can put the animal down. *(beat)* That's a rare thing for me. Sitting in a room and not running the room. You gave me that. *(small laugh)* You and your devil's lettuce.
+**JAKOBUS:** *(takes it, considers it)* I told you at the start I've got nothing against it. I said I like to know where the door is. *(beat)* And the thing is, Joe — sitting here, talking about her, about the boy, about the song that carried me out of a grave — *(he takes a slow pull, holds it, lets it go, and something in the whole big frame of him settles a half-inch lower)* — I already know where the door is. There isn't one. This is the room. You're not going to hurt me, the kid behind the computer's not going to hurt me, there's nothing in this building that needs the animal counting exits. *(beat)* So for once, in here, with you — I can put the animal down. *(beat)* That's a rare thing for me. Sitting in a room and not running the room. You gave me that. *(small laugh)* You and your devil's lettuce.
 
-**JAGO:** *(laughing, thrilled, a little emotional)* "Devil's lettuce" — Jamie, he called it — okay. Okay. How you feeling?
+**JOE:** *(laughing, thrilled, a little emotional)* "Devil's lettuce" — Jamie, he called it — okay. Okay. How you feeling?
 
 **JAKOBUS:** *(considers, with the slow care of a man tasting something)* ...lighter. *(beat)* It's the same thing the bass does, near enough. Or the coffee. Or the drone the old man played. It's a tool for getting your hand off the controls for a minute. *(beat)* My whole life's been a fist closed around a thing, hey. Closed so nobody could see what was in it, closed so I'd be ready, closed for forty years. *(opens his hand, looks at it)* And the last while — the last few years — I've been learning to open it. Give the things away. Let people carry me. Sit in a room and not run it. *(beat)* This is just — another way to open the hand. I don't need it. But it's a nice afternoon, and I'm an old man, and a good man offered me a kindness and a reason to put the fist down for an hour. *(beat)* Why would I say no to that. I said no to that for thirty years and it cost me everything. *(takes another, easy now)* Not today.
 
-**JAGO:** *(beat, just looking at him, wrecked and grinning)* ...man. I love you. Is that weird? I've known you two hours and I love you.
+**JOE:** *(beat, just looking at him, wrecked and grinning)* ...man. I love you. Is that weird? I've known you two hours and I love you.
 
-**JAKOBUS:** *(the warmest he's been all show)* It's not weird. It's the badger thing again. You followed me past sense, and now you're stuck to my boot, and I'm too worn out to shake you off, so I suppose I'll have to carry you. *(beat)* It's not weird, Jago. It's the whole point. It's the only point. *(beat)* Now pass that back, you're hogging it, and tell me about your — the elk thing, the hunting, I want to hear about the elk.
+**JAKOBUS:** *(the warmest he's been all show)* It's not weird. It's the badger thing again. You followed me past sense, and now you're stuck to my boot, and I'm too worn out to shake you off, so I suppose I'll have to carry you. *(beat)* It's not weird, Joe. It's the whole point. It's the only point. *(beat)* Now pass that back, you're hogging it, and tell me about your — the elk thing, the hunting, I want to hear about the elk.
 
-**JAGO:** *(absolutely losing it)* He wants to hear about the elk! Okay—
+**JOE:** *(absolutely losing it)* He wants to hear about the elk! Okay—
 
 *(and for a while it's just two men, loose and easy, talking about nothing, and it is the best stretch of the whole conversation, and neither of them is performing anything at all.)*
 
-**JAGO:** *(eventually, softer)* Okay. I'm gonna bring it back up a little, 'cause I can't — *(laughs)* — you're killing me, man. Last big one and then I'll let you go, even though I don't want to. You ever seen anything you genuinely couldn't explain? Like — broke your whole model. Because you strike me as the least woo person I've ever had in here, so if *you* say you saw something—
+**JOE:** *(eventually, softer)* Okay. I'm gonna bring it back up a little, 'cause I can't — *(laughs)* — you're killing me, man. Last big one and then I'll let you go, even though I don't want to. You ever seen anything you genuinely couldn't explain? Like — broke your whole model. Because you strike me as the least woo person I've ever had in here, so if *you* say you saw something—
 
 **JAKOBUS:** *(and now he really thinks)* ...Once. In a desert. Not mine — a desert on the other side of the world, one that made a fool of me daily, that took every instinct I had and proved it wrong. *(beat)* A woman walked a group of us across country that should have killed every one of us. And she did it by *singing.* No map. No compass. No instrument of any kind. She sang the names of the water, in the order the water came, in a song older than every book you and I have ever read, handed down a line of women across more years than I can hold in my head — and the water was *there.* Every time. Exactly where the old song said it would be. *(beat)* And I'm a man who reads the ground for a living. I had a hundred kilos of clever electronics that told me that country was dead, bone dry, nothing. And she walked it like it was a street she grew up on, off a *tune.*
 
-**JAGO:** That's — wait, that's — how is that possible? Is that — what is that?
+**JOE:** That's — wait, that's — how is that possible? Is that — what is that?
 
 **JAKOBUS:** I don't have a word for it. "Knowledge" is too small. It's a whole way of holding a place — every soak, every season, every sign, sixty thousand years of it, packed into songs because a song is the most reliable hard drive ever invented; you can't corrupt it, you can't lose the password, it survives the apocalypse as long as one person remembers the tune. *(beat)* I had the most advanced gear money can buy and it told me to die. Her great-great-great-grandmother's *song* is the thing that carried me out alive. *(beat)* So when people ask me do I believe in anything — that. I believe in that. I didn't read about it. I was carried out of a grave by it. I owe my life to a song I'm not even allowed to know.
 
-**JAGO:** *(beat)* Is that — is that connected to the broadcast? To the gold? To the—
+**JOE:** *(beat)* Is that — is that connected to the broadcast? To the gold? To the—
 
 **JAKOBUS:** *(immediately back, light, the knob)* It's connected to me being old and lucky.
 
-**JAGO:** *(laughing, but his eyes are wet)* Goddammit. Every time. Every single time it gets — you've got a *kill switch,* man.
+**JOE:** *(laughing, but his eyes are wet)* Goddammit. Every time. Every single time it gets — you've got a *kill switch,* man.
 
 **JAKOBUS:** It's a volume knob. I just keep it decent for guests.
 
-**JAGO:** Okay. Okay. For real, last thing. 'Cause I know you're gonna walk out of here and I'm never gonna be able to find you again, which is *insane,* by the way, in 2026, that a human being can just — okay. What do you want people to take from it. All of it. The wars, the gold, the boy, the — if a kid's listening right now, what's the thing.
+**JOE:** Okay. Okay. For real, last thing. 'Cause I know you're gonna walk out of here and I'm never gonna be able to find you again, which is *insane,* by the way, in 2026, that a human being can just — okay. What do you want people to take from it. All of it. The wars, the gold, the boy, the — if a kid's listening right now, what's the thing.
 
 **JAKOBUS:** *(thinks, and gives it carefully)* That the most dangerous and the most gentle thing in any room can be the same person — and the whole art of a life is making sure it's the gentle one that gets used. *(beat)* That you should carry one true thing that looks like nothing. Everybody should have one thing in their pocket that looks like rubbish and would save your life — and learn what it is before you need it, not after. *(beat)* That the people you walk past — the ones too small to matter, not worth the bending for — are the real thing, every time. The shops just stopped agreeing they were worth anything. That doesn't change what they are. It only changes who's paying attention. *(beat)* And — *(glances at the camera, the smallest smile)* — be kind. Just be kind. It's free, and it's the hardest thing there is, and almost nobody actually does it, and it's the whole game. Everything else is noise. That's it. That's the whole of what I know, and it took me sixty years and more funerals than I'll tell you to learn it.
 
-**JAGO:** *(beat)* ...what's in your pocket. Right now.
+**JOE:** *(beat)* ...what's in your pocket. Right now.
 
 **JAKOBUS:** *(a small smile. Doesn't move a muscle.)* A stone a boy gave me at the edge of the world.
 
-**JAGO:** *(after a second, softly)* ...yeah. Okay. Yeah. *(to camera, a little wrecked)* That's the guy. That's — I don't even know his real name. Find him on — you can't. There's no — he doesn't have anything. *(to Jakobus)* You really don't have an Instagram.
+**JOE:** *(after a second, softly)* ...yeah. Okay. Yeah. *(to camera, a little wrecked)* That's the guy. That's — I don't even know his real name. Find him on — you can't. There's no — he doesn't have anything. *(to Jakobus)* You really don't have an Instagram.
 
 **JAKOBUS:** I don't have an anything.
 
-**JAGO:** Of course you don't. Of course you don't. *(laughs, shakes his head, wipes his eye)* Best one I've done in a year and I can't even — people are gonna think I made you up.
+**JOE:** Of course you don't. Of course you don't. *(laughs, shakes his head, wipes his eye)* Best one I've done in a year and I can't even — people are gonna think I made you up.
 
-**JAKOBUS:** *(rising, already somehow mostly out of frame)* Good. That's the safest thing for both of us. *(beat)* Thanks for the coffee, Jago. It was very good. *(beat)* Keep the door open.
+**JAKOBUS:** *(rising, already somehow mostly out of frame)* Good. That's the safest thing for both of us. *(beat)* Thanks for the coffee, Joe. It was very good. *(beat)* Keep the door open.
 
-**JAGO:** Jakobus Swart, everybody. Whoever that is.
+**JOE:** Jakobus Swart, everybody. Whoever that is.
 
 *(He's gone. There is, the producers will swear later, no footage of him leaving the building.)*
 
@@ -993,375 +881,375 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
-# The Wynn Sahar Show — Episode 312
+# The Shawn Ryan Show — Episode 312
 
 *the second tape.*
 
 ---
 
-**WYNN:** Jakobus Swart. Welcome to the show, brother.
+**SHAWN:** Jakobus Swart. Welcome to the show, brother.
 
 **JAKOBUS:** Thank you for having me. I'll tell you up front — I almost didn't come.
 
-**WYNN:** Why'd you come?
+**SHAWN:** Why'd you come?
 
 **JAKOBUS:** Because you don't do the thing. The hype thing. I watched a few. You let a man be quiet. That's rare. A man like me can't sit across from the loud ones. There's nothing to say to a man who needs you to be a legend.
 
-**WYNN:** I appreciate that. And I'll be straight with you and my audience — you are the hardest guest I have ever tried to vet. *Ever.* And I've had guys on here whose whole careers were classified. With you it's — it's not classified. It's just *gone.* Like somebody went through and — there's a shape where a man should be.
+**SHAWN:** I appreciate that. And I'll be straight with you and my audience — you are the hardest guest I have ever tried to vet. *Ever.* And I've had guys on here whose whole careers were classified. With you it's — it's not classified. It's just *gone.* Like somebody went through and — there's a shape where a man should be.
 
 **JAKOBUS:** *(nods slowly)* That's by design. Not all mine. But mostly mine.
 
-**WYNN:** Walk me through that. Because that takes — to erase yourself like that, in this day and age, that's tradecraft. That's a *lot* of tradecraft.
+**SHAWN:** Walk me through that. Because that takes — to erase yourself like that, in this day and age, that's tradecraft. That's a *lot* of tradecraft.
 
 **JAKOBUS:** It's the cheapest tradecraft there is. People think disappearing is a big operation. It isn't. You just never give anyone the thing they'd photograph. You're never the loud one in the bar. You drive the truck nobody looks at twice. You let people call you soft, you let them call you a fat old man with a silly knife, and you let it ride, because the day they underestimate you is the day you've already won and nobody has to get hurt. *(beat)* The whole skill is being forgettable on purpose. It's a discipline. It's the same muscle as not pulling the trigger.
 
-**WYNN:** See, that's interesting, because in my world the guys who were good at the low-vis stuff — the real grey-man operators — they all had that. That ability to just not be remembered. And it's harder than it sounds. The instinct is to handle the threat. To be ready, visibly. And visibly ready is visible.
+**SHAWN:** See, that's interesting, because in my world the guys who were good at the low-vis stuff — the real grey-man operators — they all had that. That ability to just not be remembered. And it's harder than it sounds. The instinct is to handle the threat. To be ready, visibly. And visibly ready is visible.
 
 **JAKOBUS:** Visibly ready is a flag. You're telling the whole room *I am the one to watch.* The actual ready man is the one nobody clocked. *(beat)* I learned it the slow way. Young, I was — not loud, but *present.* I let people feel the edge of it, because it kept them off me, and I thought that was clever. And then one day I watched a much older man do a thing in a bad place — defuse a situation that should have been a bloodbath — and he did it by being *apologetic.* Fussy. A harmless old uncle, *sorry, sorry, my fault, let me just* — and the whole time his hands were exactly where they needed to be and not one of those men ever knew how close they'd come. *(beat)* And I understood that everything I'd been doing was amateur. The professional makes you feel *safe.* Right up until the half-second where he doesn't have to.
 
-**WYNN:** Let's go back to the start. The Border War. You were a conscript.
+**SHAWN:** Let's go back to the start. The Border War. You were a conscript.
 
 **JAKOBUS:** Eighteen, nineteen. Artillery. The G5 — big gun, long reach. Fired it into Angola. Believed every word they told me about why, because that's what nineteen is for. *(beat)* It took me years to understand I'd been a child handed a weapon by men who knew it was a lie and sent us anyway. I don't carry hate about it. I carry a debt. To the ones who didn't come back from a thing that wasn't even true.
 
-**WYNN:** What was the worst of it? If you can. And you can pass.
+**SHAWN:** What was the worst of it? If you can. And you can pass.
 
 **JAKOBUS:** *(long pause)* The not seeing. *(beat)* Artillery is maths. You don't see them. You do your angle and your charge and your wind, and twenty kilometres away the maths lands, and the radio says *good effect on target,* and you write it in a log and you go and have your tea. *(beat)* And the thing nobody tells you is that the not-seeing doesn't protect you. It just delays the bill. You think you got away clean because you never looked a man in the eye while it happened. And then you're forty-five, and you're standing in a queue at a supermarket, and a child laughs in a certain way, and *good effect on target* comes up out of your chest like a thing with its own heartbeat, and you have to put the basket down and walk out and sit in the car. *(beat)* That's the worst of it. Not the war. The decades of small ambushes afterward, in supermarkets, where the war comes back for you when you're not looking, forever.
 
-**WYNN:** *(quiet)* That's — yeah. The guys listening know exactly what you just described. The supermarket thing. The — it doesn't have to be loud. It can be a smell. A kid's laugh.
+**SHAWN:** *(quiet)* That's — yeah. The guys listening know exactly what you just described. The supermarket thing. The — it doesn't have to be loud. It can be a smell. A kid's laugh.
 
 **JAKOBUS:** It's never the big anniversary you brace for. It's always the Tuesday. The ordinary Tuesday gets you.
 
-**WYNN:** Do you believe in God? I ask everybody. And a lot of the guys who've done what you've done either lost it completely over there, or it's the only thing that got them home. Where'd you land?
+**SHAWN:** Do you believe in God? I ask everybody. And a lot of the guys who've done what you've done either lost it completely over there, or it's the only thing that got them home. Where'd you land?
 
 **JAKOBUS:** *(a long pause — he takes the question seriously)* ...I landed somewhere that annoys everybody, which is usually how I know I'm close to the truth. *(beat)* I've prayed in a lot of places. I've stood in a Coptic church in Ethiopia and a mosque in the Sahel and a kraal where they talk to the ancestors and a Lutheran church back home where my mother's people are buried. And I'll tell you what I came to, after all of it. *(beat)* They're all looking at the same mountain. They're just standing on different sides of it, describing the slope they can see, and then *killing each other over whose slope is the real mountain.* And the mountain doesn't care. The mountain was never the argument. The mountain's just *there,* enormous, the same from every side, and every single one of those traditions, at its best, when you strip the politics and the fear and the men who turned it into a franchise — every one of them is saying the exact same small thing. *(beat)* Be kind. You are not the centre. Something holds this together that is bigger than you. Treat the stranger as kin. *(beat)* That's it. That's the whole of every holy book ever written, under the decoration. And men have killed more people arguing about the decoration than any plague in history. *(beat)* So do I believe in God? I believe there's a mountain. I've felt the size of it. I stopped needing to win the argument about its name a long time ago — somewhere in a desert, probably, watching a woman do something with a song that no church I'd been raised in had a box for. *(beat)* I think God is what's left when you stop being frightened. And I think most religion, sadly, is a machine for staying frightened. The two get confused all the time. I try to keep them separate.
 
-**WYNN:** *(beat)* That's — yeah. "They're all looking at the same mountain." That's gonna stay with me.
+**SHAWN:** *(beat)* That's — yeah. "They're all looking at the same mountain." That's gonna stay with me.
 
 **JAKOBUS:** Take it. It's not mine. I got it the same way I got everything worth having — somebody older and wiser let me watch them, and I was paying attention.
 
-**WYNN:** How do you carry it, though? The specific things. The actual things you did, and the things you watched. Because "make peace with it" is easy to say. Mechanically — how?
+**SHAWN:** How do you carry it, though? The specific things. The actual things you did, and the things you watched. Because "make peace with it" is easy to say. Mechanically — how?
 
 **JAKOBUS:** *(beat)* You don't carry it by pretending it's lighter than it is. That's the mistake. Men try to shrink it — "it was war, it was the job, it was them or us" — and the shrinking is what poisons you, because some part of you knows you're lying, and the lie festers. *(beat)* You carry it by letting it be exactly as heavy as it is. You say: I did that. It was real. It cost a real person everything. I will not pretend it was nothing, and I will not pretend it was someone else, and I will not hand it to God or the government to hold for me. It's mine. I carry it. *(beat)* And — this is the part that took me thirty years — you let yourself be *helped* to carry it. You don't put it down; you can't put it down, and anyone who tells you you can is selling something. But you let other people get under the load with you. A wife. A brother. A stranger on a podcast. The country, sometimes, when it's the right country and it sings you to water. *(beat)* The weight doesn't get smaller. You just stop carrying it alone. That's the entire secret. That's thirty years in one sentence. The weight never gets smaller. You just stop carrying it alone.
 
-**WYNN:** *(quiet)* ...okay. Yeah. *(beat)* Thank you.
+**SHAWN:** *(quiet)* ...okay. Yeah. *(beat)* Thank you.
 
-**WYNN:** And after the war you went independent. The nineties. The outfits — and I'll let you decide what you say, I'm not gonna push you past what you're good with—
+**SHAWN:** And after the war you went independent. The nineties. The outfits — and I'll let you decide what you say, I'm not gonna push you past what you're good with—
 
 **JAKOBUS:** You can say the era. It's in books. Angola again, after, for different paymasters. West Africa. The kind of work that doesn't have a flag on it. *(beat)* But I'll tell you the thing the books don't, because the books all get it exactly backwards. They want the operator story. The kit, the contracts, the cool. The myth. *(beat)* And the real story is just a wound with a man wrapped around it. *(beat)* I went back because I couldn't be home. That's the whole engine. There's no patriotism in it, no money story that holds up, no grand cause. I would watch a man my own age coaching his kid's rugby on a Saturday morning and I physically could not comprehend how he was doing it. How he could just — stand there. In the peace. The peace didn't *fit* me. It itched like a borrowed coat. So I went where there is no peace, and I called it duty, and I was good at it, and good men died on operations I was part of so that I would not have to sit in a quiet house in the Free State and feel my own life going past. *(long pause)* I've never said that out loud before, to anyone. Don't dress it up. It's not noble. It's the precise opposite of noble. The recovery came late, and it came mostly by accident, and it does not make up for the years it took me to get there or the men it cost on the way.
 
-**WYNN:** *(lets the silence run — a real one, ten seconds)* ...I want to honor that. Because I've sat in that house. A lot of the guys listening have sat in that house. That thing you just described — the inability to be home — that has killed more of us than any enemy ever did. The transition. The quiet.
+**SHAWN:** *(lets the silence run — a real one, ten seconds)* ...I want to honor that. Because I've sat in that house. A lot of the guys listening have sat in that house. That thing you just described — the inability to be home — that has killed more of us than any enemy ever did. The transition. The quiet.
 
 **JAKOBUS:** I know it. I've buried them. *(beat)* That's actually why I came on, if I'm honest with you. Not for me. There's nothing left I need from talking. *(beat)* I came on for the man who's sitting in his truck in a parking lot right now, engine off, who can't make himself go inside, listening to this. *(directly, to the camera, and the voice is very level)* — Brother. The quiet is not your enemy. I had it exactly backwards for thirty years and it cost me everything, so let me save you the thirty years. The quiet is the place where the thing you've been running from finally can't run anymore *either.* That's why it's so frightening. It's not empty. It's where the thing catches up. And the moment it catches up is the moment you can finally put it down — but only if you stop running long enough to let it. *(beat)* You don't beat it by going back out. Going back out is how you feed it. You beat it by sitting still, in the quiet, with people who love you, and letting them carry you for once. *(beat)* And I know that's the hardest order you've ever been given. Letting yourself be carried. It goes against everything they built into us. We're the ones who carry. *(beat)* But it is the bravest single thing you will ever do, and it is harder than any contact I have ever been in, and you — *you specifically, the one in the truck* — you can do it. You've done harder. You just never got the order. So here it is. Go inside. Let them carry you. That's the op now. That's the whole mission. Go inside.
 
-**WYNN:** *(visibly affected, takes a moment)* ...thank you for that. That's gonna reach somebody tonight. I mean that.
+**SHAWN:** *(visibly affected, takes a moment)* ...thank you for that. That's gonna reach somebody tonight. I mean that.
 
 **JAKOBUS:** That's the only reason worth talking. The rest is vanity.
 
-**WYNN:** I want to ask you about a specific thing, and you tell me if it's off-limits. There's a story — and it's third-hand, fourth-hand — about a wedding. Gulf state. That you went in and got somebody out of something money couldn't fix.
+**SHAWN:** I want to ask you about a specific thing, and you tell me if it's off-limits. There's a story — and it's third-hand, fourth-hand — about a wedding. Gulf state. That you went in and got somebody out of something money couldn't fix.
 
 **JAKOBUS:** *(a long evaluation)* ...I'll give you the shape and not the names, and you'll understand why. *(beat)* Someone I'm responsible for got himself into a corner that money makes worse, not better. The kind of corner where the men holding you don't want your money, they want what your money *means* about who they can lean on. *(beat)* And I went. As a guest. An honored one. To a wedding that was not mine, dressed as a man those particular men needed to take seriously. And I sat at the right hand of the right person, and I ate the food, and I let the men who had my — let's say my associate — in a corner *watch* me be welcomed. *(beat)* And they did their arithmetic again. Quietly. Over the course of an evening. And by the dancing, the corner was gone, and nobody had drawn anything, and nothing had officially occurred.
 
-**WYNN:** But that only works if there's something behind you. Something real that those men know about and believe.
+**SHAWN:** But that only works if there's something behind you. Something real that those men know about and believe.
 
-**JAKOBUS:** *(flat, and this is the closest he comes to confirming anything all episode)* ...there was a debt owed to me. From a long time before. By people with — assets. Aviation assets, let's say. The kind that change a conversation just by being theoretically available. *(beat)* I never called it in. I just let the right men understand it *existed,* and was *mine,* and had not yet been spent. *(beat)* That's the whole trade. You spend twenty years banking a thing precisely so that one night you can win without spending it. *(beat)* You don't spend those twice, Wynn. You bank them, and you pray you die without ever having to. I've got a few left. I hope they go to the grave with me unused. That's what success looks like, in my line. The favours you never had to call.
+**JAKOBUS:** *(flat, and this is the closest he comes to confirming anything all episode)* ...there was a debt owed to me. From a long time before. By people with — assets. Aviation assets, let's say. The kind that change a conversation just by being theoretically available. *(beat)* I never called it in. I just let the right men understand it *existed,* and was *mine,* and had not yet been spent. *(beat)* That's the whole trade. You spend twenty years banking a thing precisely so that one night you can win without spending it. *(beat)* You don't spend those twice, Shawn. You bank them, and you pray you die without ever having to. I've got a few left. I hope they go to the grave with me unused. That's what success looks like, in my line. The favours you never had to call.
 
-**WYNN:** *(beat)* ...understood. I won't push it.
+**SHAWN:** *(beat)* ...understood. I won't push it.
 
 **JAKOBUS:** I know you won't. That's why I gave you that much. You know the cost of the question, so you've earned the edge of the answer.
 
-**WYNN:** I want to talk about the kit. The everyday-carry stuff. Because that's a — my audience is deep in that world, and you strike me as a guy with a *philosophy,* not a gear list.
+**SHAWN:** I want to talk about the kit. The everyday-carry stuff. Because that's a — my audience is deep in that world, and you strike me as a guy with a *philosophy,* not a gear list.
 
 **JAKOBUS:** *(this he'll happily talk about)* The philosophy is the whole thing; the gear is nothing. *(beat)* Here's the rule. Most men carry kit to feel ready. That's backwards — that's carrying kit for your *nerves,* not for the field. A plate carrier full of stuff you'll never use is a security blanket with MOLLE on it. *(beat)* The real rule is: carry the fewest things that do the most jobs, and make every one of them disappear. The blade that looks like a tool. The cord on your wrist that's actually three metres of line and a fire. The truck that looks like a wreck. *(beat)* You build a whole self where nothing you carry announces what it's for. Because the moment your kit announces you, your kit has betrayed you. The kit's first job isn't to perform a task. It's to not get you *clocked.*
 
-**WYNN:** Give me an example. Something real you carry.
+**SHAWN:** Give me an example. Something real you carry.
 
 **JAKOBUS:** *(beat)* There's a cord on my wrist. Looks like one of those friendship bracelets a child makes. It's milspec paracord — you can buy it, anyone can, it's not a secret — and woven into the middle of it is a waxed strand that takes a spark, and fishing line, and snare wire. So a thing that looks like nothing, that no border guard has ever looked at twice in forty years, is — unbraided — enough line to matter and a fire in your pocket. *(beat)* I don't make it. People think I've got some bushcraft secret, some mix I brew. I don't. I found the cord that does the most jobs and I *buy* it. That's the actual skill. Not making the magic thing. Finding the ordinary thing that already is the magic thing, and being humble enough to just buy it. *(beat)* Same with the boots. Same with the truck. Spend on the few things that genuinely matter — and do the homework, find the *right* one — and let everything else be junk. I own about six things worth anything and they all look like nothing and I'll be buried with most of them.
 
-**WYNN:** That's — see, the new guys need to hear that. They spend four grand looking operator and they can't ruck five miles. You're saying it's the opposite.
+**SHAWN:** That's — see, the new guys need to hear that. They spend four grand looking operator and they can't ruck five miles. You're saying it's the opposite.
 
 **JAKOBUS:** It's always the opposite. The whole truth of my life is in that one word. It's the opposite. *(beat)* The dangerous man looks soft. The ready man looks unready. The real kit looks like junk. The strongest one is the one who lets himself be carried. The deepest love in my whole culture gets said with a *knife* because the words are too big. *(beat)* You spend your whole life thinking the surface is the thing, and then one day you find out the surface was always the lie, on purpose, and the truth was underneath the whole time, keeping quiet, doing its job, asking for nothing. *(beat)* Find the men whose kit looks like junk. Those are your men. The catalogue cover model in the parking lot, all new gear — that man has never been anywhere. The quiet one with the beat-up nothing — start there.
 
-**WYNN:** *(beat)* Let me ask you a heavy one. You're — and I say this with respect — you're not a young man. You've buried a lot of people. Do you think about your own — about the end of it? And what it was all for?
+**SHAWN:** *(beat)* Let me ask you a heavy one. You're — and I say this with respect — you're not a young man. You've buried a lot of people. Do you think about your own — about the end of it? And what it was all for?
 
 **JAKOBUS:** *(a long pause, and this one's real)* ...every day. Not in a morbid way. In a — settling-the-books way. *(beat)* I've spent the last while giving things away. Not just objects, though that too — I've handed off nearly everything I carried, one piece at a time, each one to someone who needed it more or earned it. A knife. A tool. A stone I'd carried since I was a boy, that I gave to a hollowed-out kid at the bottom of the world who needed it more than I did. *(beat)* And I realised that's what the end of a life like mine actually is. It's not a battle. It's not a blaze of anything. It's a slow, deliberate emptying of your pockets into the hands of the people you've come to love, so that when you go, you go *light,* and the things that kept you alive go on keeping someone else alive. *(beat)* That's the whole of it. You spend the first half of a life like mine accumulating the capacity to do harm, and you spend the second half — if you're lucky, if you wake up in time — giving it all away so you can die as something other than a weapon. *(beat)* I'd like to die as a hand. Not a hammer. I told you that's the one I got right. That's the finish of it. An open hand, empty, given away, asking for nothing. *(beat)* If I manage that, the books are square. The rest — the wars, the funerals, the boy — I'll carry the rest in front of whatever's there to be carried in front of, and I'll answer for it honestly, and I'll take what I'm given. But I'd like to arrive there with empty hands. That's the whole ambition now. To go light.
 
-**WYNN:** *(quiet)* ...that's one of the most peaceful things anyone's ever said in that chair about dying.
+**SHAWN:** *(quiet)* ...that's one of the most peaceful things anyone's ever said in that chair about dying.
 
 **JAKOBUS:** It's only peaceful because I made peace with it the hard way, late, after fighting it for fifty years. Don't mistake the peace for me having had it easy. The peace is the *scar.* It's what's left after the wound finally closed. *(beat)* But it does close. That's the thing I'd want a young man to know. It does close. It takes everything you've got and longer than you think you can stand — but it closes. And what's on the other side of it is quiet, and it's enough.
 
-**WYNN:** Can I ask you about the son?
+**SHAWN:** Can I ask you about the son?
 
 **JAKOBUS:** *(a stillness)* You did do your homework.
 
-**WYNN:** Only a little. You don't have to.
+**SHAWN:** Only a little. You don't have to.
 
 **JAKOBUS:** *(a very long pause)* No. It's fair. It's the truest cost, so it's the one that's actually fair to ask. *(beat)* I was a boy who had to judge his own father. A damaged man — the war before mine got him, and the drink, and he came home wrong, the way they did then, with no word for it and no help for it. And I had to be the grown one in that house before I was grown. I had to decide, as a child, what my own father was. No child should have to do that. *(beat)* And I swore — the way you swear things when you're twelve and furious and frightened — that I would never, ever be that to a child of mine. *(beat)* And then I went to the wars. And I kept going. And every single year the work laid down another thin layer of distance in me, like silt, until one day I looked up and I was a man my own son could not reach. *(beat)* Not with my fists. I never raised a hand to that boy. I'd have cut the hand off. *(beat)* With the *absence.* I became my father by a completely different road. I was so careful not to commit his exact sin that I never thought to check whether I was committing a new one, and by the time I looked I was already a long way down a road I'd never meant to take, and the boy was already grown, and already gone, and already hard.
 
-**WYNN:** You mentioned the drink. Your father's. Is that — are you a drinker?
+**SHAWN:** You mentioned the drink. Your father's. Is that — are you a drinker?
 
 **JAKOBUS:** *(beat)* I have never had a drink in my life. Not one. *(beat)* And I'll tell you why, and it's the saddest small thing I know about myself. *(long pause)* When I was a boy, and I'd hug my father — and I did, you understand, I loved him, that's the part people miss, a child loves the drunk father, that's what makes it a wound and not just a fact — when I put my arms around him, I could feel the drink in him. Smell it. The heat of it coming off his skin. The slur of it in the chest I had my ear against. *(beat)* I was a little boy with my arms full of a man I loved, and only one of us was drinking, and it was never going to be the one in his arms that was the danger. It was the man. *(beat)* And I decided then. Not with words — children don't decide the big ones with words. I just knew, in my body, with my arms around him: *not me. Whatever else I become. Never that. My children will put their arms around me and they will only ever feel* me. *(beat)* And whatever I got wrong with my boy — and God knows the list — he can say that. When he hugged his old man, his old man was sober. There was nothing in my arms but me. *(beat, and his voice is rough)* It's a low bar. It's the lowest bar there is. But I cleared the one bar my father couldn't, and it's the one thing in the whole sorry account that I know, for certain, I gave him clean.
 
-**WYNN:** *(quiet)* ...that's not a low bar. That's — a lot of us didn't clear it.
+**SHAWN:** *(quiet)* ...that's not a low bar. That's — a lot of us didn't clear it.
 
 **JAKOBUS:** Then clear it. It's free, and it's the difference between a child who flinches when you reach for them and a child who doesn't, and there is no more important difference in the world. *(beat)* Anyway. That's the drink. I keep tea. Coffee. The ceremony. Not that.
 
-**WYNN:** What's he like now?
+**SHAWN:** What's he like now?
 
-**JAKOBUS:** *(beat)* He made himself. Made himself hard, made himself rich. *Burns* money — throws it around like it's nothing, which is the exact inverse of me; I gave everything away and he sets it on fire, and if you look closely you can see it's the same wound, just facing the other direction. The cash is armour. He built a wall out of money the way I built one out of *being useful in wars.* Same boy, underneath. Same hole. *(beat)* He doesn't phone. *(long pause)* But he's alive to not phone. *(beat)* And I have learned to hold that as a win, Wynn, because the alternative is to hold it as the loss it actually is, and I cannot carry it as a loss every day and still function. So I have decided, on purpose, to be grateful that my son is out there in the world, alive, healthy, not phoning his old man — and to understand that I built that silence with my own hands across thirty years, and that I therefore do not get to stand here and complain about it. The silence is mine. I made it. I own it.
+**JAKOBUS:** *(beat)* He made himself. Made himself hard, made himself rich. *Burns* money — throws it around like it's nothing, which is the exact inverse of me; I gave everything away and he sets it on fire, and if you look closely you can see it's the same wound, just facing the other direction. The cash is armour. He built a wall out of money the way I built one out of *being useful in wars.* Same boy, underneath. Same hole. *(beat)* He doesn't phone. *(long pause)* But he's alive to not phone. *(beat)* And I have learned to hold that as a win, Shawn, because the alternative is to hold it as the loss it actually is, and I cannot carry it as a loss every day and still function. So I have decided, on purpose, to be grateful that my son is out there in the world, alive, healthy, not phoning his old man — and to understand that I built that silence with my own hands across thirty years, and that I therefore do not get to stand here and complain about it. The silence is mine. I made it. I own it.
 
-**WYNN:** Is the door open? On your end?
+**SHAWN:** Is the door open? On your end?
 
 **JAKOBUS:** The door's been open twenty years. *(beat)* You cannot make a man walk through a door. That's the thing you learn last and it's the hardest one. All you can do is keep it open and refuse — *refuse* — to make him pay for being late. The second he feels a bill at the door, the door's shut, no matter how open you're holding it. *(beat)* So you keep it open, and you ask for nothing, and you make sure that if he ever does walk through it, there is not one ounce of *where have you been* waiting for him on the other side. Only the open door and the coffee on. *(beat)* That's the last giving you've got, at the end of a life like mine. You give a man a door with no toll on it. That's it. That's all I've got left for him, and I keep it stocked, every day, in case today's the day. It usually isn't. But I keep it stocked.
 
-**WYNN:** *(after a moment)* ...I think a lot of fathers needed to hear that.
+**SHAWN:** *(after a moment)* ...I think a lot of fathers needed to hear that.
 
 **JAKOBUS:** Then it was worth saying. *(beat)* Keep yours open, hey. Whatever's happened. Whatever was said. Keep it open and take the toll off it. You'd be amazed who walks through a door once they're sure it's free.
 
-**WYNN:** *(reaches for the gun box / the ritual)* ...I want to do something we do on this show. But for you, I want to do it different. I'm not gonna give you a firearm — something tells me you've got opinions—
+**SHAWN:** *(reaches for the gun box / the ritual)* ...I want to do something we do on this show. But for you, I want to do it different. I'm not gonna give you a firearm — something tells me you've got opinions—
 
 **JAKOBUS:** *(small dry smile)* One or two.
 
-**WYNN:** Before I do the thing — and you can absolutely tell me no — I gotta ask. We've got a blue gun here, a training pistol, totally inert. Would you walk me through a disarm? On me? Because you've alluded to it — "the half-second where he doesn't have to" — and I think the audience needs to *see* what you mean by that. Slow. Whatever you're comfortable with.
+**SHAWN:** Before I do the thing — and you can absolutely tell me no — I gotta ask. We've got a blue gun here, a training pistol, totally inert. Would you walk me through a disarm? On me? Because you've alluded to it — "the half-second where he doesn't have to" — and I think the audience needs to *see* what you mean by that. Slow. Whatever you're comfortable with.
 
 **JAKOBUS:** *(a pause — and this is genuine reluctance, not modesty)* ...I'll do it, because I think there's a real lesson in it. But I want to say first why I don't like to. *(beat)* Everything I believe says you don't show people what you can do. The whole creed. The second I demonstrate it, I've made myself the man to watch, and I've spent sixty years being the man nobody watches. *(beat)* So understand I'm breaking my own rule, on purpose, to teach one thing. And the one thing is this: it's going to be *boring.* You're going to be disappointed. And the disappointment is the entire point.
 
-**WYNN:** *(stands, takes the blue gun)* Okay. I'm gonna point it at you. Center mass. Tell me what to do.
+**SHAWN:** *(stands, takes the blue gun)* Okay. I'm gonna point it at you. Center mass. Tell me what to do.
 
 **JAKOBUS:** *(rising, unhurried, ambling almost)* No, don't do anything. Just hold it on me. Like you mean it. *(beat)* Now — the films have taught everyone that a disarm is a *fight.* A flurry. Hands flying. *(beat)* It isn't. A disarm is a lie and a half-second of geometry. *(beat)* The lie is this — *(his hands come up, open, placating, his whole body folding into the harmless apologetic shape, his voice going soft and fussy)* — "okay, okay, you've got me, I don't want any trouble, I'm an old man, my heart, just — please—" *(beat, normal voice)* And right there. You felt it. You felt yourself relax. Half a centimetre. Your gun came down half a centimetre because your brain filed me as *handled.* That half-centimetre is the whole disarm. Everything before it is theatre and everything after it is already over.
 
-**WYNN:** *(a little unsettled)* ...yeah. I did. I felt it drop.
+**SHAWN:** *(a little unsettled)* ...yeah. I did. I felt it drop.
 
-**JAKOBUS:** And from here — *(he moves, and it is genuinely almost nothing to watch; there is no flurry; his lead hand rolls the muzzle off his own line as the other closes over the top of the slide, his body just turning off the line of the barrel rather than against the gun, and the blue gun is simply *in his hand* and Wynn's wrist is bent the wrong way and Wynn is up on his toes)* — there. *(beat)* I didn't fight the gun. Fighting the gun is how you get shot. I got *off the line* of it first — moved my body out of where the bullet goes — and only then did I touch it, and I touched the slide, not the man, because the slide is leverage and the man is just upset. *(he is already, instantly, not a threat again — hands the blue gun back grip-first, steps back into the harmless shape)* And it's done. No flurry. No drama. About a third of a second, and most of that third of a second was you relaxing, which I caused by lying to you with my face. *(beat)* That's it. That's the whole secret and it's a disappointment, exactly like I promised.
+**JAKOBUS:** And from here — *(he moves, and it is genuinely almost nothing to watch; there is no flurry; his lead hand rolls the muzzle off his own line as the other closes over the top of the slide, his body just turning off the line of the barrel rather than against the gun, and the blue gun is simply *in his hand* and Shawn's wrist is bent the wrong way and Shawn is up on his toes)* — there. *(beat)* I didn't fight the gun. Fighting the gun is how you get shot. I got *off the line* of it first — moved my body out of where the bullet goes — and only then did I touch it, and I touched the slide, not the man, because the slide is leverage and the man is just upset. *(he is already, instantly, not a threat again — hands the blue gun back grip-first, steps back into the harmless shape)* And it's done. No flurry. No drama. About a third of a second, and most of that third of a second was you relaxing, which I caused by lying to you with my face. *(beat)* That's it. That's the whole secret and it's a disappointment, exactly like I promised.
 
-**WYNN:** *(genuinely shaken, sits back down slowly)* ...that was — I've trained that. I've trained gun defense for twenty years. I never saw your hand move. I saw you give *up,* and then I had no gun. That's — Jesus.
+**SHAWN:** *(genuinely shaken, sits back down slowly)* ...that was — I've trained that. I've trained gun defense for twenty years. I never saw your hand move. I saw you give *up,* and then I had no gun. That's — Jesus.
 
-**JAKOBUS:** Because you weren't watching my hand. You were watching my *face,* because my face told you the threat was over. *(beat)* That's the lesson, Wynn. Not the technique — you can learn the technique anywhere. The lesson is that the most dangerous thing in the room is the thing that just made you feel safe. *(beat)* I never wanted to teach a man to take a gun. I wanted to teach him to distrust his own relief. The relief is the trap. The relief is always the trap. *(beat)* And now you know why I don't like doing it. Because for the rest of this conversation, some part of you is watching me differently. I've cost myself the disguise, in this one room, forever. *(small beat)* That's the real price of showing what you can do. You can never un-show it. So I almost never do.
+**JAKOBUS:** Because you weren't watching my hand. You were watching my *face,* because my face told you the threat was over. *(beat)* That's the lesson, Shawn. Not the technique — you can learn the technique anywhere. The lesson is that the most dangerous thing in the room is the thing that just made you feel safe. *(beat)* I never wanted to teach a man to take a gun. I wanted to teach him to distrust his own relief. The relief is the trap. The relief is always the trap. *(beat)* And now you know why I don't like doing it. Because for the rest of this conversation, some part of you is watching me differently. I've cost myself the disguise, in this one room, forever. *(small beat)* That's the real price of showing what you can do. You can never un-show it. So I almost never do.
 
-**WYNN:** *(beat)* ...I'll be honest, I'm gonna be thinking about that "distrust your relief" thing for a long time.
+**SHAWN:** *(beat)* ...I'll be honest, I'm gonna be thinking about that "distrust your relief" thing for a long time.
 
 **JAKOBUS:** Good. Teach it to your guys. It'll keep some of them alive. *(beat)* Now put the toy away before one of us gets sentimental about it.
 
-**WYNN:** *(laughs, sets it down, reaches for the real gift)* — so, *because* you've got opinions, I'm not gonna give you a firearm. I made some calls. And a guy who knew a guy got me something. And I want you to have it, and you can tell me right to my face if I got it wrong. *(produces it)* It's a fixed blade. Hand-forged. A maker in the Free State — still working, still doing it the old way. I'm told that's home, for you.
+**SHAWN:** *(laughs, sets it down, reaches for the real gift)* — so, *because* you've got opinions, I'm not gonna give you a firearm. I made some calls. And a guy who knew a guy got me something. And I want you to have it, and you can tell me right to my face if I got it wrong. *(produces it)* It's a fixed blade. Hand-forged. A maker in the Free State — still working, still doing it the old way. I'm told that's home, for you.
 
-**JAKOBUS:** *(goes completely, utterly still. Takes it. Turns it over once, slow, the rust-light running down it. When he speaks the voice has dropped — lower, rougher, the wall down without his permission.)* ...where I'm from, you do not say thank you for a knife. *(beat)* A gifted blade cuts the friendship. Everyone knows it. So you give the man a coin — a small one, nothing — and that makes it a *sale,* and a sale can't cut you, and the bond holds. *(reaches into his pocket — the small dry click of stones and old coins — and sets a single worn copper coin on the table between them, deliberately, with weight)* *(beat)* So. There. I've bought it from you. Now it's mine, and we are not cut, and I will carry it until I die. *(beat, and the next part is barely above a whisper)* You couldn't have known what this is. To me. *(beat)* A man gives me a blade, it means he sees me. It's the deepest thing one of my people can say to another and we say it in *steel,* because the words are too much for us. My whole tribe says *I love you* with a knife. *(beat)* And you did the one thing. You didn't buy me something expensive. You did your *homework,* and you found a man who still forges them by hand where my own father forged *me,* and you put it in my hand. *(looks up, and his eyes are not dry)* You grokked me. That's the word. You don't know it; it's an old made-up word from a book, and it means you understood the whole of a thing at once, all of it, in a single piece. *(beat)* You grokked me, Wynn. I walked in here this morning fully intending to give you nothing — to do the volume knob, to be a pleasant fog you couldn't photograph — and you went and *saw* me anyway. With a knife. *(beat)* Sneaky bastard. *(the smallest, wettest laugh)* That's my move. You used my own move on me.
+**JAKOBUS:** *(goes completely, utterly still. Takes it. Turns it over once, slow, the rust-light running down it. When he speaks the voice has dropped — lower, rougher, the wall down without his permission.)* ...where I'm from, you do not say thank you for a knife. *(beat)* A gifted blade cuts the friendship. Everyone knows it. So you give the man a coin — a small one, nothing — and that makes it a *sale,* and a sale can't cut you, and the bond holds. *(reaches into his pocket — the small dry click of stones and old coins — and sets a single worn copper coin on the table between them, deliberately, with weight)* *(beat)* So. There. I've bought it from you. Now it's mine, and we are not cut, and I will carry it until I die. *(beat, and the next part is barely above a whisper)* You couldn't have known what this is. To me. *(beat)* A man gives me a blade, it means he sees me. It's the deepest thing one of my people can say to another and we say it in *steel,* because the words are too much for us. My whole tribe says *I love you* with a knife. *(beat)* And you did the one thing. You didn't buy me something expensive. You did your *homework,* and you found a man who still forges them by hand where my own father forged *me,* and you put it in my hand. *(looks up, and his eyes are not dry)* You grokked me. That's the word. You don't know it; it's an old made-up word from a book, and it means you understood the whole of a thing at once, all of it, in a single piece. *(beat)* You grokked me, Shawn. I walked in here this morning fully intending to give you nothing — to do the volume knob, to be a pleasant fog you couldn't photograph — and you went and *saw* me anyway. With a knife. *(beat)* Sneaky bastard. *(the smallest, wettest laugh)* That's my move. You used my own move on me.
 
-**WYNN:** *(genuinely moved, has to take a second)* ...I, uh. I don't even know what to say to that, man.
+**SHAWN:** *(genuinely moved, has to take a second)* ...I, uh. I don't even know what to say to that, man.
 
 **JAKOBUS:** You don't say anything. That's the other thing my people know, and it's the thing the loud world has completely forgotten. *(beat)* The realest things don't get a voice put on them. You just sit in it together, and you let it be as big as it is, and you don't insult it by reaching for words. *(beat)* So. Let's sit in it.
 
 *(They sit in it. The silence is long, and it is not awkward, and the show just lets it run.)*
 
-**WYNN:** *(eventually, quietly)* Last question. And it's the one I ask everybody who sits in that chair. *(beat)* If all of it — everything you've done, everything you've carried, everything it cost — if it came down to *one thing* you got right. Just one. What is it.
+**SHAWN:** *(eventually, quietly)* Last question. And it's the one I ask everybody who sits in that chair. *(beat)* If all of it — everything you've done, everything you've carried, everything it cost — if it came down to *one thing* you got right. Just one. What is it.
 
-**JAKOBUS:** *(no hesitation now — this one he's known the answer to for a long time)* I never used it. *(beat)* The whole banked weight of what I am capable of doing to a room — and I spent my entire life making certain I never once had to. *(beat)* The most dangerous man in nearly every room I ever walked into, for forty years, and I can count on one hand the times a stranger ever found out, because I never gave them a reason to make me show them. *(beat)* I could have taken so much. Do you understand? With what I had, with what I could do — I could have just *taken.* Money, power, fear, all of it, the way men like me so often do, because they can, because nobody could stop them. *(beat)* And I didn't. *(beat)* That's the part that's worth keeping. Not the things I was capable of. The things I chose, every single day, not to do. *(beat)* A man is not measured by his capacity, Wynn. Any fool can be a hammer; the world is drowning in hammers. A man is measured by his *restraint.* By the gap between what he could do and what he does. *(beat)* The whole art — the entire art of a dangerous life — is being a hammer that decides, every morning, with full knowledge of what it is, to be a *hand* instead. An open hand. *(beat)* That's the one. That's the one I got right. *(beat)* Eventually. Late. But I got it.
+**JAKOBUS:** *(no hesitation now — this one he's known the answer to for a long time)* I never used it. *(beat)* The whole banked weight of what I am capable of doing to a room — and I spent my entire life making certain I never once had to. *(beat)* The most dangerous man in nearly every room I ever walked into, for forty years, and I can count on one hand the times a stranger ever found out, because I never gave them a reason to make me show them. *(beat)* I could have taken so much. Do you understand? With what I had, with what I could do — I could have just *taken.* Money, power, fear, all of it, the way men like me so often do, because they can, because nobody could stop them. *(beat)* And I didn't. *(beat)* That's the part that's worth keeping. Not the things I was capable of. The things I chose, every single day, not to do. *(beat)* A man is not measured by his capacity, Shawn. Any fool can be a hammer; the world is drowning in hammers. A man is measured by his *restraint.* By the gap between what he could do and what he does. *(beat)* The whole art — the entire art of a dangerous life — is being a hammer that decides, every morning, with full knowledge of what it is, to be a *hand* instead. An open hand. *(beat)* That's the one. That's the one I got right. *(beat)* Eventually. Late. But I got it.
 
-**WYNN:** *(stands, extends his hand)* Jakobus Swart. It has been one of the great honors of this show, brother. Genuinely.
+**SHAWN:** *(stands, extends his hand)* Jakobus Swart. It has been one of the great honors of this show, brother. Genuinely.
 
-**JAKOBUS:** *(rises, takes the hand — the grip like a tool, and he lets go before it can mean too much, the old reflex)* *(beat)* You keep that door open too. For your guys. The ones in the trucks. *(beat)* You're already doing it. This — *(gestures at the room, the show, the whole thing)* — this is a door you hold open. You probably don't even know that's what it is. But it is. So keep doing it. There's men alive tonight because of it who you'll never meet. *(beat)* Sawubona, Wynn.
+**JAKOBUS:** *(rises, takes the hand — the grip like a tool, and he lets go before it can mean too much, the old reflex)* *(beat)* You keep that door open too. For your guys. The ones in the trucks. *(beat)* You're already doing it. This — *(gestures at the room, the show, the whole thing)* — this is a door you hold open. You probably don't even know that's what it is. But it is. So keep doing it. There's men alive tonight because of it who you'll never meet. *(beat)* Sawubona, Shawn.
 
-**WYNN:** What's that mean?
+**SHAWN:** What's that mean?
 
 **JAKOBUS:** *(already turning, already rising, already somehow half-gone from the room)* *(beat)* "I see you." *(beat)* It's the whole job. *(beat)* It was always, only, ever the whole job.
 
-*(He's gone. The copper coin is still sitting on the table where he left it. Wynn looks at it for a long moment. He does not move it. The camera holds on the coin.)*
+*(He's gone. The copper coin is still sitting on the table where he left it. Shawn looks at it for a long moment. He does not move it. The camera holds on the coin.)*
 
 ---
 
 *[END]*
 
-# Max Findler Podcast
+# Lex Fridman Podcast
 
 *the third tape — philosophy.*
 
 ---
 
-**MAX:** I'm here with a man who, by his own admission, does not officially exist. Jakobus, thank you for doing this. *(beat)* Can I start with a strange question?
+**LEX:** I'm here with a man who, by his own admission, does not officially exist. Jakobus, thank you for doing this. *(beat)* Can I start with a strange question?
 
 **JAKOBUS:** They're the only ones worth answering.
 
-**MAX:** What is the meaning of life?
+**LEX:** What is the meaning of life?
 
-**JAKOBUS:** *(a long beat — and he does not laugh, which surprises Max)* ...you ask everyone that, hey.
+**JAKOBUS:** *(a long beat — and he does not laugh, which surprises Lex)* ...you ask everyone that, hey.
 
-**MAX:** I do.
+**LEX:** I do.
 
 **JAKOBUS:** And do they answer?
 
-**MAX:** They try. Most of them reach for something big. Love, usually. Or consciousness. Or the universe knowing itself.
+**LEX:** They try. Most of them reach for something big. Love, usually. Or consciousness. Or the universe knowing itself.
 
 **JAKOBUS:** Mm. *(beat)* I'll give you a smaller one and I think it's truer. *(beat)* The meaning of life is to be useful to the person in front of you, and then the next one, until you run out of people or time. *(beat)* That's it. People go looking for the meaning the way you'd look for car keys — like it's hidden, like it's somewhere else, like there's a trick. There's no trick. The meaning's not hidden. It's standing right in front of you, usually needing something small, and you either turn toward it or you turn away, and the sum of all those little turnings, toward or away, over a whole life — *that's* the meaning. You build it one turn at a time, mostly toward people who can do nothing for you. *(beat)* I spent the first half of my life turning away, in search of something bigger. There wasn't anything bigger. There was just the turning I was refusing to do.
 
-**MAX:** *(visibly moved, sits with it)* That's beautiful. *(beat)* You said you spent the first half turning away. What changed?
+**LEX:** *(visibly moved, sits with it)* That's beautiful. *(beat)* You said you spent the first half turning away. What changed?
 
-**JAKOBUS:** I got old enough to run out of excuses. And I lost enough people that the maths got simple. *(beat)* You watch enough good men die, Max, and the abstraction burns off. All the big words — duty, honour, freedom, the cause — they're smoke, and the smoke clears, and what's left underneath, the only thing that was ever real, is: *did you make the people near you feel seen, or didn't you.* That's the whole exam. Everything else is decoration on the exam.
+**JAKOBUS:** I got old enough to run out of excuses. And I lost enough people that the maths got simple. *(beat)* You watch enough good men die, Lex, and the abstraction burns off. All the big words — duty, honour, freedom, the cause — they're smoke, and the smoke clears, and what's left underneath, the only thing that was ever real, is: *did you make the people near you feel seen, or didn't you.* That's the whole exam. Everything else is decoration on the exam.
 
-**MAX:** You use that word — *seen.* It comes up. Can you say more about what it means to truly see another person?
+**LEX:** You use that word — *seen.* It comes up. Can you say more about what it means to truly see another person?
 
-**JAKOBUS:** *(considers it carefully, because Max asked carefully)* Where I learned it, they have a word. *Sawubona.* It's a greeting — Zulu — and people translate it "hello," but it doesn't mean hello. It means *I see you.* And the answer back means, roughly, *I am here because you see me* — *because* you saw me, I exist, I am brought into being by being witnessed. *(beat)* And I think that's not a poem, Max. I think that's *literally true* about people. We are partly *made* by being seen. A child who is truly seen becomes a different adult than a child who is only ever looked *at.* And most people go their whole lives being looked at — priced, scanned, assessed, filed — and almost never *seen,* taken in whole, with the looking-at switched off. *(beat)* And the strangest thing I ever learned, the thing that took me sixty years, is that the act of really seeing another person is — as far as I can tell — the same thing as love. Not a feeling that comes before it. The seeing *is* the love. There's no gap. You pay complete, unselfish attention to another human being and what you are doing, while you do it, is loving them. They're one act.
+**JAKOBUS:** *(considers it carefully, because Lex asked carefully)* Where I learned it, they have a word. *Sawubona.* It's a greeting — Zulu — and people translate it "hello," but it doesn't mean hello. It means *I see you.* And the answer back means, roughly, *I am here because you see me* — *because* you saw me, I exist, I am brought into being by being witnessed. *(beat)* And I think that's not a poem, Lex. I think that's *literally true* about people. We are partly *made* by being seen. A child who is truly seen becomes a different adult than a child who is only ever looked *at.* And most people go their whole lives being looked at — priced, scanned, assessed, filed — and almost never *seen,* taken in whole, with the looking-at switched off. *(beat)* And the strangest thing I ever learned, the thing that took me sixty years, is that the act of really seeing another person is — as far as I can tell — the same thing as love. Not a feeling that comes before it. The seeing *is* the love. There's no gap. You pay complete, unselfish attention to another human being and what you are doing, while you do it, is loving them. They're one act.
 
-**MAX:** *(quiet)* I think that might be the most important thing anyone has said on this podcast.
+**LEX:** *(quiet)* I think that might be the most important thing anyone has said on this podcast.
 
 **JAKOBUS:** *(dry)* Don't tell the others. They'll be hurt.
 
-**MAX:** *(laughs)* I want to ask you about consciousness. You strike me as someone who has thought about it not academically but — experientially. Do you think consciousness is fundamental? Is the universe, in some sense, aware?
+**LEX:** *(laughs)* I want to ask you about consciousness. You strike me as someone who has thought about it not academically but — experientially. Do you think consciousness is fundamental? Is the universe, in some sense, aware?
 
-**JAKOBUS:** *(beat)* I'm a bushman, Max, not a philosopher. I'll tell you what I've got and it isn't a theory, it's two experiences I can't explain, and you can do the philosophy.
+**JAKOBUS:** *(beat)* I'm a bushman, Lex, not a philosopher. I'll tell you what I've got and it isn't a theory, it's two experiences I can't explain, and you can do the philosophy.
 
-**MAX:** Please.
+**LEX:** Please.
 
 **JAKOBUS:** One. I have been in places — deep desert, dead of night, no city light for five hundred kilometres — where the silence is so total and the stars are so many that the boundary between me and the rest of it got thin. Not metaphorically. *Thin.* Like the edge of where "Jakobus" stopped and everything else started became a suggestion rather than a fact. And every culture that's spent real time in that kind of silence — the Bushmen, the Bedouin, the Aboriginal people of Australia, the desert monks — every one of them comes back saying the same thing in different words: that the separateness is the illusion and the connection is the fact. They can't all be making the same mistake. They're describing the same country. *(beat)* Two. I once watched a woman find water in a dead desert by *singing* — by holding sixty thousand years of knowledge in a song and walking it like a map. And I understood, watching her, that there are forms of knowing that have nothing to do with the kind of knowing I was trained in, and that my kind — the measuring kind, the clever kind — is a small recent island in a much older ocean of other kinds. *(beat)* So is the universe aware? I don't know. But I know my own certainty that it *isn't* got a lot quieter, out there, in the silence, where the edge of me went thin. I'd be careful, is all. The people who are most sure it's just dead rock and chemistry have usually never sat still in the dark long enough to feel it look back.
 
-**MAX:** *(long pause)* ...do you believe in God?
+**LEX:** *(long pause)* ...do you believe in God?
 
 **JAKOBUS:** I believe there's a mountain, and every religion is standing on a different side of it describing the slope they can see, and killing each other over whose slope is the real mountain, and the mountain doesn't care, because the mountain was never the argument. *(beat)* I think God is what's left when you stop being frightened. And I think most religion is a machine for staying frightened. I try to keep the two separate.
 
-**MAX:** *(beat)* You've mentioned love a few times, carefully. Can I ask — and you can decline — have you been in love?
+**LEX:** *(beat)* You've mentioned love a few times, carefully. Can I ask — and you can decline — have you been in love?
 
-**JAKOBUS:** *(the long pause)* ...once. The way you mean it. In Ethiopia, a long time ago, in the years when I was nobody. *(beat)* I'm not going to tell you about her, Max, and I'll tell you why, because you're a man who'll respect the why. It's the one thing I have that the world has never touched. Everything else about me has been read, assessed, filed, used. Her, I kept. She's the one room nobody gets to come into, and a man my age, who's given almost everything else away, is allowed one locked room. *(beat)* I'll tell you what she gave me. She gave me the coffee ceremony — the slow one, the hour-long one — and I make it that way every morning of my life, and that's the closest I come to prayer, and it's her, every dawn, for thirty years. *(beat)* That's all you get. But you can see, from the size of the thing I won't say, roughly how big the thing was.
+**JAKOBUS:** *(the long pause)* ...once. The way you mean it. In Ethiopia, a long time ago, in the years when I was nobody. *(beat)* I'm not going to tell you about her, Lex, and I'll tell you why, because you're a man who'll respect the why. It's the one thing I have that the world has never touched. Everything else about me has been read, assessed, filed, used. Her, I kept. She's the one room nobody gets to come into, and a man my age, who's given almost everything else away, is allowed one locked room. *(beat)* I'll tell you what she gave me. She gave me the coffee ceremony — the slow one, the hour-long one — and I make it that way every morning of my life, and that's the closest I come to prayer, and it's her, every dawn, for thirty years. *(beat)* That's all you get. But you can see, from the size of the thing I won't say, roughly how big the thing was.
 
-**MAX:** *(very quiet)* Yeah. *(beat)* Thank you for that.
+**LEX:** *(very quiet)* Yeah. *(beat)* Thank you for that.
 
-**JAKOBUS:** *(gently)* You're a romantic, Max. Under all the maths. I can see it. *(beat)* Don't let them train it out of you. The romance is the data too. The feeling that the love matters more than the entropy — that's not a bug in you. That might be the realest instrument you've got.
+**JAKOBUS:** *(gently)* You're a romantic, Lex. Under all the maths. I can see it. *(beat)* Don't let them train it out of you. The romance is the data too. The feeling that the love matters more than the entropy — that's not a bug in you. That might be the realest instrument you've got.
 
-**MAX:** *(audibly affected)* ...I don't know what to say to that.
+**LEX:** *(audibly affected)* ...I don't know what to say to that.
 
 **JAKOBUS:** Then don't say anything. The realest things don't get a voice put on them. *(beat)* Ask me an easier one. Ask me about the truck. Everyone loves the truck.
 
-**MAX:** *(laughs, recovering)* Tell me about the truck.
+**LEX:** *(laughs, recovering)* Tell me about the truck.
 
-**JAKOBUS:** It's a sleeper. Looks like a wreck, isn't. *(beat)* Like most things worth knowing, Max. Like the universe, maybe. Like you. *(beat)* All the important machinery's on the inside, where nobody bothers to look.
+**JAKOBUS:** It's a sleeper. Looks like a wreck, isn't. *(beat)* Like most things worth knowing, Lex. Like the universe, maybe. Like you. *(beat)* All the important machinery's on the inside, where nobody bothers to look.
 
-**MAX:** *(beat)* That's a good place to end. Jakobus, thank you. This was — this meant a lot to me.
+**LEX:** *(beat)* That's a good place to end. Jakobus, thank you. This was — this meant a lot to me.
 
-**JAKOBUS:** I know it did. I was watching your face. *(beat)* That's the whole job, hey. *(beat)* Sawubona, Max. Go well.
+**JAKOBUS:** I know it did. I was watching your face. *(beat)* That's the whole job, hey. *(beat)* Sawubona, Lex. Go well.
 
 ---
 
 *[END]*
 
-# Niko Jollwick Podcast
+# Jocko Podcast
 
 *the fourth tape — discipline.*
 
 ---
 
-**NIKO:** Jakobus Swart.
+**JOCKO:** Jakobus Swart.
 
-**JAKOBUS:** Niko.
+**JAKOBUS:** Jocko.
 
-**NIKO:** I'm gonna start where I always start. Discipline. You're a man with a reputation for control. Where'd it come from.
+**JOCKO:** I'm gonna start where I always start. Discipline. You're a man with a reputation for control. Where'd it come from.
 
 **JAKOBUS:** Fear. *(beat)* Same place all real discipline comes from. People dress it up. It's fear, harnessed. I had a father I was frightened of and a war I was frightened in, and you can let fear run you, or you can build a frame around it and let it drive the frame. The frame is the discipline. *(beat)* Anyone who tells you their discipline comes from somewhere noble is selling something. It comes from fear you decided to put to work.
 
-**NIKO:** *(long pause)* ...that's true. *(beat)* Most guys don't say that. They want it to be about willpower. About being hard.
+**JOCKO:** *(long pause)* ...that's true. *(beat)* Most guys don't say that. They want it to be about willpower. About being hard.
 
 **JAKOBUS:** Willpower is a battery. It runs flat. Fear that's been turned into a habit doesn't run flat, because the fear keeps charging it. That's why the disciplined man and the frightened man are usually the same man, twenty years apart.
 
-**NIKO:** Talk to me about restraint. Because I've read what little there is, and the through-line is — you didn't use what you had. A man capable of extreme violence who, by every account, almost never employed it. How.
+**JOCKO:** Talk to me about restraint. Because I've read what little there is, and the through-line is — you didn't use what you had. A man capable of extreme violence who, by every account, almost never employed it. How.
 
 **JAKOBUS:** *(beat)* Default aggressive, act restrained. *(beat)* That's it. That's the whole of it. You keep the whole capacity loaded, every day, you never let it soften, you stay the most dangerous man in the room — and then you choose, with the safety off, not to. *(beat)* The mistake people make is they think restraint is weakness. Weakness has no choice. Restraint is when you have *every* choice, including the worst one, and you decline it, knowingly, in the half-second where you could've taken it. *(beat)* A man who can't hurt you and doesn't isn't restrained. He's just harmless. Restraint is a loaded gun that decides, every single time, not to go off. The load has to be real or the restraint is a lie.
 
-**NIKO:** So the capability is a prerequisite for the virtue.
+**JOCKO:** So the capability is a prerequisite for the virtue.
 
 **JAKOBUS:** The capability is the *whole* prerequisite. You cannot be gentle in any way that means anything until you are genuinely dangerous. Before that it's not gentleness, it's just incapacity wearing gentleness's clothes. *(beat)* That's why I've got no patience for the man who's never trained, never bled, never stood in front of the real thing, lecturing about peace. His peace is free. It cost him nothing. *(beat)* The only peace worth anything is the peace a dangerous man keeps on purpose. That one's expensive. He pays for it every day, in the not-doing.
 
-**NIKO:** People hear "he wouldn't carry a gun" and they decide he couldn't shoot. Or wouldn't.
+**JOCKO:** People hear "he wouldn't carry a gun" and they decide he couldn't shoot. Or wouldn't.
 
 **JAKOBUS:** *(beat)* People decide a lot. Get this one on the record straight, because the no-gun thing gets read backwards every single time. *(beat)* I can shoot. Every winter I take one animal for the year — meat, biltong, nothing for a wall — and I put it down clean, one round, close as the stalk lets me, because a bad shot is a debt you owe the animal and I don't run those. And once a year, on my own, I set an old coin out at five hundred metres and I hit it. Bit of copper the size of a thumbnail, half a kilometre off. Not for anyone. Just to know the hand still does what I tell it.
 
-**NIKO:** Then why not carry.
+**JOCKO:** Then why not carry.
 
-**JAKOBUS:** *(beat)* Because I can. *(beat)* A man who gives up a thing he can't do hasn't given up anything — he's just dressing up what he never had. The refusal only counts if you could end the whole room from across the courtyard, and you set it down anyway, every morning, on purpose. *(beat)* The rifle belongs to winter. The bush, the food, the stillness, the respect. That one I keep. The pistol on the hip for the work — that one's a lie about power. It makes the man wearing it feel safe, and it makes everyone near him reach for theirs, and it turns a wave-through into a search. *(beat)* I spent years in other men's wars standing next to some of the best shots alive. The ones who lasted weren't the fast hands. They were the ones who arranged never to need them. *(beat)* That's the discipline you keep asking me about, Niko. Not the gun I carry. The gun I'm good enough to carry, and don't.
+**JAKOBUS:** *(beat)* Because I can. *(beat)* A man who gives up a thing he can't do hasn't given up anything — he's just dressing up what he never had. The refusal only counts if you could end the whole room from across the courtyard, and you set it down anyway, every morning, on purpose. *(beat)* The rifle belongs to winter. The bush, the food, the stillness, the respect. That one I keep. The pistol on the hip for the work — that one's a lie about power. It makes the man wearing it feel safe, and it makes everyone near him reach for theirs, and it turns a wave-through into a search. *(beat)* I spent years in other men's wars standing next to some of the best shots alive. The ones who lasted weren't the fast hands. They were the ones who arranged never to need them. *(beat)* That's the discipline you keep asking me about, Jocko. Not the gun I carry. The gun I'm good enough to carry, and don't.
 
-**NIKO:** *(long pause)* ...the gap again.
+**JOCKO:** *(long pause)* ...the gap again.
 
 **JAKOBUS:** Always the gap. Between what you could do and what you do. *(beat)* Everything I'm worth is in that gap.
 
-**NIKO:** Extreme ownership. You know the concept. The leader owns everything in his world. Did you live that, or is that a thing you've come to.
+**JOCKO:** Extreme ownership. You know the concept. The leader owns everything in his world. Did you live that, or is that a thing you've come to.
 
 **JAKOBUS:** *(beat)* I own all of it. The good operations and the bad ones. The men who came home and the men who didn't. *(beat)* And the son who won't phone me. *(long pause)* That one took me longest. For years I wanted it to be the wars' fault. The work's fault. The era's fault. *(beat)* It's my fault. I built the distance between us with my own hands, one absence at a time, and the fact that I had reasons doesn't make it not mine. Reasons aren't an excuse, they're just the *shape* of the failure. *(beat)* Extreme ownership means you don't get to keep your reasons. You did it. Own it. The boy's silence is mine. I made it. That's the most extreme ownership I've got and it's the one that costs.
 
-**NIKO:** *(long pause)* ...that's hard to say out loud.
+**JOCKO:** *(long pause)* ...that's hard to say out loud.
 
 **JAKOBUS:** Everything true is. That's how you know it's true. The lies come out easy.
 
-**NIKO:** Let me ask about the transition. Guys getting out. You went back, again and again — couldn't stay home. A lot of my listeners are right there. What's the move.
+**JOCKO:** Let me ask about the transition. Guys getting out. You went back, again and again — couldn't stay home. A lot of my listeners are right there. What's the move.
 
 **JAKOBUS:** *(beat)* The move is the hardest order you'll ever get, and nobody gives it to you, so I'll give it to you now. *(beat)* Go home. Stay home. Sit in the quiet. *(beat)* The quiet feels like the enemy. It isn't. The quiet is where the thing you've been outrunning finally catches you — and the *only* place you can put it down is the place it catches you. You can't put it down while you're running. So you have to stop, and let it catch you, and that feels like dying, and it isn't dying, it's the opposite. *(beat)* And then — this is the part that goes against everything they built into us — you let people carry you. You, the one who carries. You let them. *(beat)* It is the single hardest thing I have ever done, harder than any contact, and I did it thirty years too late, and it cost me a son, and I'm telling you so it doesn't cost you one. Go home. Get caught. Get carried. That's the op now. Discipline yourself to *receive,* for once. It's the hardest discipline there is.
 
-**NIKO:** *(very long pause)* ...good. *(beat)* That's good.
+**JOCKO:** *(very long pause)* ...good. *(beat)* That's good.
 
-**NIKO:** One more. You're not a young man. When it's over — when you go — what do you want it to have meant.
+**JOCKO:** One more. You're not a young man. When it's over — when you go — what do you want it to have meant.
 
-**JAKOBUS:** *(beat)* That I was a hammer that chose to be a hand. *(beat)* Anybody can be a hammer. The world's full of hammers — frightened men with capacity and no restraint, breaking things because they can. *(beat)* The whole art, the only art, is being a hammer that decides, every single morning, with full knowledge of what it is, to open into a hand instead. *(beat)* I want it to have meant that I had the whole weight, and I spent my life setting it down, and I died with empty hands and a clean record of the things I *didn't* do. *(beat)* The not-doing, Niko. That's the medal. The world will never give a medal for it because there's nothing to see. But that's the one. That's the whole career, in the end. What you held, and didn't throw.
+**JAKOBUS:** *(beat)* That I was a hammer that chose to be a hand. *(beat)* Anybody can be a hammer. The world's full of hammers — frightened men with capacity and no restraint, breaking things because they can. *(beat)* The whole art, the only art, is being a hammer that decides, every single morning, with full knowledge of what it is, to open into a hand instead. *(beat)* I want it to have meant that I had the whole weight, and I spent my life setting it down, and I died with empty hands and a clean record of the things I *didn't* do. *(beat)* The not-doing, Jocko. That's the medal. The world will never give a medal for it because there's nothing to see. But that's the one. That's the whole career, in the end. What you held, and didn't throw.
 
-**NIKO:** *(beat)* Discipline equals freedom.
+**JOCKO:** *(beat)* Discipline equals freedom.
 
 **JAKOBUS:** *(the ghost of a smile)* The discipline of the open hand. The hardest one. *(beat)* But ja. In the end. It's the only thing that ever set me free.
 
-**NIKO:** Jakobus Swart. Honor to have you.
+**JOCKO:** Jakobus Swart. Honor to have you.
 
-**JAKOBUS:** *(stands, the grip like a tool, gone before it means too much)* Go get some, Niko. *(beat)* And go home.
+**JAKOBUS:** *(stands, the grip like a tool, gone before it means too much)* Go get some, Jocko. *(beat)* And go home.
 
 ---
 
 *[END]*
 
-# This Past Weekend w/ Tovo Hen
+# This Past Weekend w/ Theo Von
 
 *the fifth tape — the fool who sees.*
 
 ---
 
-**TOVO:** Dude. Okay. So they told me you're like — a secret guy. Like a guy that's so secret nobody even knows the guy. And I was like, how do I interview a guy that don't exist. And then I thought, man, that's kinda how I feel about myself sometimes, you know? Like at a party. Like I'm there but the guy ain't really — anyway. Welcome.
+**THEO:** Dude. Okay. So they told me you're like — a secret guy. Like a guy that's so secret nobody even knows the guy. And I was like, how do I interview a guy that don't exist. And then I thought, man, that's kinda how I feel about myself sometimes, you know? Like at a party. Like I'm there but the guy ain't really — anyway. Welcome.
 
-**JAKOBUS:** *(already enjoying himself)* Thank you, Tovo. That's the most accurate introduction I've ever had.
+**JAKOBUS:** *(already enjoying himself)* Thank you, Theo. That's the most accurate introduction I've ever had.
 
-**TOVO:** See! See, 'cause you GET it. Okay so where you from, 'cause you sound like — you sound like if a lion learned English at a nice school.
+**THEO:** See! See, 'cause you GET it. Okay so where you from, 'cause you sound like — you sound like if a lion learned English at a nice school.
 
 **JAKOBUS:** *(laughs, a real one)* South Africa. A little farm. You'd drive through it and not know you'd been.
 
-**TOVO:** A FARM. Okay. 'Cause I feel like farm guys are different. Farm guys got a — they seen a animal be born AND die, you know? Same animal sometimes. That does somethin' to a man. My uncle had a goat that he loved and then we ate it and he never said nothin' but he was different after. You ever eat somethin' you loved?
+**THEO:** A FARM. Okay. 'Cause I feel like farm guys are different. Farm guys got a — they seen a animal be born AND die, you know? Same animal sometimes. That does somethin' to a man. My uncle had a goat that he loved and then we ate it and he never said nothin' but he was different after. You ever eat somethin' you loved?
 
-**JAKOBUS:** *(beat, delighted)* ...that is a more profound question than you know, Tovo. *(beat)* Yes. And you're right. It does something. Where I'm from you raise the thing and you kill the thing and you thank the thing, and you carry all three of those at once, and it makes you — *(searches)* — it makes you unable to lie to yourself about what living costs. Most people get to pretend the meat was always meat. A farm kid knows it had a name.
+**JAKOBUS:** *(beat, delighted)* ...that is a more profound question than you know, Theo. *(beat)* Yes. And you're right. It does something. Where I'm from you raise the thing and you kill the thing and you thank the thing, and you carry all three of those at once, and it makes you — *(searches)* — it makes you unable to lie to yourself about what living costs. Most people get to pretend the meat was always meat. A farm kid knows it had a name.
 
-**TOVO:** YEAH. *(beat)* That's heavy, dude. *(beat)* Okay so I heard — and tell me if this is real — I heard you got bit by a snake one time and you just like, didn't care? Like a — what's the little guy, the badger?
+**THEO:** YEAH. *(beat)* That's heavy, dude. *(beat)* Okay so I heard — and tell me if this is real — I heard you got bit by a snake one time and you just like, didn't care? Like a — what's the little guy, the badger?
 
 **JAKOBUS:** The honey badger. *(beat)* I didn't *not* care. I cared a great deal. But I'd done a mad thing over the years — I'd let the home snakes bite me, on purpose, little doses, year on year, to build myself up against them. Like how they make antivenom.
 
-**TOVO:** Wait. You let snakes BITE you. On PURPOSE. Bro that's — okay that's the most metal thing anybody's ever — you're like a Pokémon that trained wrong. You're like, "I shall become immune," and then you just let a danger noodle gnaw on ya. *(beat)* That's beautiful actually. That's like — you took the thing that could kill you and you made it your little teacher. Little tiny bites till it couldn't hurt you no more. *(beat, suddenly quiet)* ...I kinda did that with my dad, I think. Little bits at a time till it couldn't — anyway. ANYWAY. You want some of this? It's a — it's a yerba. It's a tea horse drink.
+**THEO:** Wait. You let snakes BITE you. On PURPOSE. Bro that's — okay that's the most metal thing anybody's ever — you're like a Pokémon that trained wrong. You're like, "I shall become immune," and then you just let a danger noodle gnaw on ya. *(beat)* That's beautiful actually. That's like — you took the thing that could kill you and you made it your little teacher. Little tiny bites till it couldn't hurt you no more. *(beat, suddenly quiet)* ...I kinda did that with my dad, I think. Little bits at a time till it couldn't — anyway. ANYWAY. You want some of this? It's a — it's a yerba. It's a tea horse drink.
 
-**JAKOBUS:** *(gently, having caught the dad thing and letting it sit)* ...I'll take a coffee if you've got it. And Tovo — that thing you just said about your dad. That was the truest thing said on this show today, and you slid right past it. *(beat)* You do that. You say the real one fast and then run. I do it too. It's how the frightened ones survive — say it quick, keep moving. *(beat)* But I heard it. The little bites. You did that. You survived him a sip at a time. That's not nothing, man. That's the whole of it.
+**JAKOBUS:** *(gently, having caught the dad thing and letting it sit)* ...I'll take a coffee if you've got it. And Theo — that thing you just said about your dad. That was the truest thing said on this show today, and you slid right past it. *(beat)* You do that. You say the real one fast and then run. I do it too. It's how the frightened ones survive — say it quick, keep moving. *(beat)* But I heard it. The little bites. You did that. You survived him a sip at a time. That's not nothing, man. That's the whole of it.
 
-**TOVO:** *(visibly thrown, emotional)* ...dang, dude. You — okay. You just — I felt that in my back. *(beat)* You can't just DO that to a man on his own podcast. There's no warning. You're like a — you're like a hug that also tackles you.
+**THEO:** *(visibly thrown, emotional)* ...dang, dude. You — okay. You just — I felt that in my back. *(beat)* You can't just DO that to a man on his own podcast. There's no warning. You're like a — you're like a hug that also tackles you.
 
 **JAKOBUS:** *(warm)* That's the badger again. Comes at you soft and finishes the job.
 
-**TOVO:** Okay so I gotta ask 'cause it's killin' me — you got a TRUCK. A famous truck. And I heard it's like — it looks like trash but it's secretly insane?
+**THEO:** Okay so I gotta ask 'cause it's killin' me — you got a TRUCK. A famous truck. And I heard it's like — it looks like trash but it's secretly insane?
 
 **JAKOBUS:** It's a sleeper. Looks like death, goes like the devil. I put two trucks' worth of money into a shell that looks like a scrapyard reject.
 
-**TOVO:** DUDE. That's — okay that's so sick. That's like — that's like a hot girl wearin' Crocs. Like she's so confident she can wear the ugly shoe 'cause she KNOWS. The truck KNOWS. *(beat)* My truck don't know nothin'. My truck's got a check engine light that's been on since the Obama administration. I just put a sticker over it. *(beat)* Is that bad?
+**THEO:** DUDE. That's — okay that's so sick. That's like — that's like a hot girl wearin' Crocs. Like she's so confident she can wear the ugly shoe 'cause she KNOWS. The truck KNOWS. *(beat)* My truck don't know nothin'. My truck's got a check engine light that's been on since the Obama administration. I just put a sticker over it. *(beat)* Is that bad?
 
-**JAKOBUS:** *(laughing)* That's the opposite of a sleeper, Tovo. That's a truck pretending to be fine while screaming for help. *(beat)* ...which, now that I say it out loud, is also a lot of men I've known.
+**JAKOBUS:** *(laughing)* That's the opposite of a sleeper, Theo. That's a truck pretending to be fine while screaming for help. *(beat)* ...which, now that I say it out loud, is also a lot of men I've known.
 
-**TOVO:** OH. Oh that's — yeah. The check-engine-light guys. That's most of us, dude. Sticker over the light. *(beat)* Okay, real one. You ever been in love? 'Cause you got a — you got a face like you lost somebody. I'm sorry, that's — I just see it. You got the face.
+**THEO:** OH. Oh that's — yeah. The check-engine-light guys. That's most of us, dude. Sticker over the light. *(beat)* Okay, real one. You ever been in love? 'Cause you got a — you got a face like you lost somebody. I'm sorry, that's — I just see it. You got the face.
 
-**JAKOBUS:** *(the long pause — and Tovo, for once, shuts up and waits)* ...ja. Once. The real one. Long ago, a country far from here, when I was young and free and nobody. *(beat)* I won't tell you about her. Not because it's a secret. Because she's the one thing the world hasn't touched, and an old man's allowed one thing he keeps. *(beat)* But you read it right off my face, hey. That's a gift, Tovo, that thing you do. You play the fool and you see *everything.* Don't let anybody convince you the seeing isn't real because it comes wrapped in jokes. The jokes are the wrapping. The seeing's the gift.
+**JAKOBUS:** *(the long pause — and Theo, for once, shuts up and waits)* ...ja. Once. The real one. Long ago, a country far from here, when I was young and free and nobody. *(beat)* I won't tell you about her. Not because it's a secret. Because she's the one thing the world hasn't touched, and an old man's allowed one thing he keeps. *(beat)* But you read it right off my face, hey. That's a gift, Theo, that thing you do. You play the fool and you see *everything.* Don't let anybody convince you the seeing isn't real because it comes wrapped in jokes. The jokes are the wrapping. The seeing's the gift.
 
-**TOVO:** *(wrecked)* ...man. I'm gonna — I might cry on the horse tea. *(beat)* That's — nobody says that to me. Everybody thinks I'm just the — the goofy. *(beat)* You really see that?
+**THEO:** *(wrecked)* ...man. I'm gonna — I might cry on the horse tea. *(beat)* That's — nobody says that to me. Everybody thinks I'm just the — the goofy. *(beat)* You really see that?
 
-**JAKOBUS:** I see it because I do the same thing. The harmless ones are the ones who see the most. We had to. It's how we survived the rooms we grew up in. *(beat)* You and me are the same animal, Tovo. Soft on the outside so nobody looks twice. Seeing everything. Carrying it as a joke so it doesn't crush us. *(beat)* You're alright, man. You're more than alright. You're one of the ones paying attention.
+**JAKOBUS:** I see it because I do the same thing. The harmless ones are the ones who see the most. We had to. It's how we survived the rooms we grew up in. *(beat)* You and me are the same animal, Theo. Soft on the outside so nobody looks twice. Seeing everything. Carrying it as a joke so it doesn't crush us. *(beat)* You're alright, man. You're more than alright. You're one of the ones paying attention.
 
-**TOVO:** *(beat, genuinely moved)* ...okay I love you. Is that — we just met. I love you though.
+**THEO:** *(beat, genuinely moved)* ...okay I love you. Is that — we just met. I love you though.
 
-**JAKOBUS:** *(warm)* It's the badger thing. You followed me past sense and now you're stuck to my boot and I'm too old to shake you off. *(beat)* I'll just have to carry you. *(beat)* It's not weird, Tovo. It's the only point there is.
+**JAKOBUS:** *(warm)* It's the badger thing. You followed me past sense and now you're stuck to my boot and I'm too old to shake you off. *(beat)* I'll just have to carry you. *(beat)* It's not weird, Theo. It's the only point there is.
 
-**TOVO:** *(laughing through it)* Carry me, you beautiful lion. *(beat)* Okay before you go — anything you want people to know? Like a — a Tovo Hen life lesson but from a lion?
+**THEO:** *(laughing through it)* Carry me, you beautiful lion. *(beat)* Okay before you go — anything you want people to know? Like a — a Theo Von life lesson but from a lion?
 
-**JAKOBUS:** *(beat)* Be kind. It's free, it's the hardest thing there is, almost nobody does it, and it's the whole game. *(beat)* And carry one true thing that looks like nothing. Everybody should have a thing in their pocket that looks like rubbish and would save their life. *(beat)* And the people you walk past — the ones too small to matter — they're the real thing. The world just stopped agreeing they're worth anything. Doesn't change what they are. Only changes who's paying attention. *(beat)* Pay attention, Tovo. You already do. Just keep doing it. That's it. That's everything I know.
+**JAKOBUS:** *(beat)* Be kind. It's free, it's the hardest thing there is, almost nobody does it, and it's the whole game. *(beat)* And carry one true thing that looks like nothing. Everybody should have a thing in their pocket that looks like rubbish and would save their life. *(beat)* And the people you walk past — the ones too small to matter — they're the real thing. The world just stopped agreeing they're worth anything. Doesn't change what they are. Only changes who's paying attention. *(beat)* Pay attention, Theo. You already do. Just keep doing it. That's it. That's everything I know.
 
-**TOVO:** *(quiet)* ...that's the best one anybody's said. *(beat)* Jakobus Swart, dude. The lion that hugs. I don't even know if that's your real name.
+**THEO:** *(quiet)* ...that's the best one anybody's said. *(beat)* Jakobus Swart, dude. The lion that hugs. I don't even know if that's your real name.
 
 **JAKOBUS:** *(rising, already half-gone)* Nobody does. *(beat)* Look after yourself, man. Get the engine looked at. *(beat)* Take the sticker off the light. It's trying to tell you something true.
 
@@ -1415,7 +1303,7 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
-# The Profile Podcast — Hugh Sceahes
+# The Profile Podcast — Chase Hughes
 
 *a man he met in person.*
 
@@ -1423,73 +1311,73 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 **HOST:** So I want to do something a little different today. You're the guy people bring on to explain how to read *anyone.* Behavior, baselining, the tables, the needs map. You've trained interrogators, intelligence people, executives. And you reached out to *me* and said you wanted to talk about the one person you couldn't do it to. That's — I've never heard you say that.
 
-**HUGH:** I've never said it. *(beat)* And I sat on whether to do this for a long time, because it goes against the whole brand, right? The whole thing I teach is that *everyone* is readable. Everyone. Give me a few minutes and a baseline and I'll tell you what you need, what you fear, where you'll break. I've staked my career on it and I've never been wrong in a way that mattered. *(beat)* And then I met one person, once, and the entire system just — didn't populate. And I've thought about him almost every day since.
+**CHASE:** I've never said it. *(beat)* And I sat on whether to do this for a long time, because it goes against the whole brand, right? The whole thing I teach is that *everyone* is readable. Everyone. Give me a few minutes and a baseline and I'll tell you what you need, what you fear, where you'll break. I've staked my career on it and I've never been wrong in a way that mattered. *(beat)* And then I met one person, once, and the entire system just — didn't populate. And I've thought about him almost every day since.
 
 **HOST:** Let's set the scene. How'd you end up across from this guy?
 
-**HUGH:** I'm going to be vague about the where, because it's not mine to give. Call it a gathering. A small one, people from a lot of different worlds, the kind of room where everyone's quietly assessing everyone, which for me is just Tuesday — I can't turn it off, I'm reading the whole room before I've got my drink. And there was this older guy. South African accent. Soft-looking. Bad shirt, honestly. The kind of man your eyes slide right off, and mine did too, for about the first hour, which should have been my first clue, because my eyes don't slide off people. That's the whole job.
+**CHASE:** I'm going to be vague about the where, because it's not mine to give. Call it a gathering. A small one, people from a lot of different worlds, the kind of room where everyone's quietly assessing everyone, which for me is just Tuesday — I can't turn it off, I'm reading the whole room before I've got my drink. And there was this older guy. South African accent. Soft-looking. Bad shirt, honestly. The kind of man your eyes slide right off, and mine did too, for about the first hour, which should have been my first clue, because my eyes don't slide off people. That's the whole job.
 
 **HOST:** What pulled your attention to him?
 
-**HUGH:** He was the only still thing in the room. *(beat)* Everybody else is doing the micro-stuff — the status adjustments, the self-soothing, the little dominance and submission dances people do without knowing it. I read all of it automatically. And there's this one guy in the corner, completely at rest, and the stillness itself started to register, because in my world, *stillness under social load is rare and it means something.* So I went over. Professional curiosity. I figured I'd have him mapped in five minutes.
+**CHASE:** He was the only still thing in the room. *(beat)* Everybody else is doing the micro-stuff — the status adjustments, the self-soothing, the little dominance and submission dances people do without knowing it. I read all of it automatically. And there's this one guy in the corner, completely at rest, and the stillness itself started to register, because in my world, *stillness under social load is rare and it means something.* So I went over. Professional curiosity. I figured I'd have him mapped in five minutes.
 
 **HOST:** And walk me through what happens when you "map" someone. For people who don't know your work.
 
-**HUGH:** Sure. So the second I engage, my brain's running automatic. Blink rate — is it elevated, is he under stress. The swallow. Where do the hands go when I introduce a little tension. The feet — feet are huge, feet point where a person *wants* to go, you can't consciously control your feet. I'm watching for lip compression, eyelid flutter, the asymmetry that tells you an expression is performed and not felt. Within a few minutes I've got a baseline — how this person looks at rest — and then I introduce little stimuli and watch the *deviations,* and the deviations are the gold. They tell me the needs. And once I have the need — significance, control, approval, safety, whatever's driving the whole system — I have the person. That's not arrogance, that's just reps. Ten thousand reps.
+**CHASE:** Sure. So the second I engage, my brain's running automatic. Blink rate — is it elevated, is he under stress. The swallow. Where do the hands go when I introduce a little tension. The feet — feet are huge, feet point where a person *wants* to go, you can't consciously control your feet. I'm watching for lip compression, eyelid flutter, the asymmetry that tells you an expression is performed and not felt. Within a few minutes I've got a baseline — how this person looks at rest — and then I introduce little stimuli and watch the *deviations,* and the deviations are the gold. They tell me the needs. And once I have the need — significance, control, approval, safety, whatever's driving the whole system — I have the person. That's not arrogance, that's just reps. Ten thousand reps.
 
 **HOST:** So you sit down with this man and—
 
-**HUGH:** And nothing comes back. *(beat)* And I want to be really precise about this, because it's the part that's haunted me. It wasn't that he was *hiding* his tells. I've sat across from trained operators — intelligence guys, people specifically drilled to beat exactly what I do. And I can read *them,* because the act of suppressing a tell is *itself* a tell. The control leaks. The effort shows. A man running counter-surveillance on his own face is doing work, and work is visible to me.
+**CHASE:** And nothing comes back. *(beat)* And I want to be really precise about this, because it's the part that's haunted me. It wasn't that he was *hiding* his tells. I've sat across from trained operators — intelligence guys, people specifically drilled to beat exactly what I do. And I can read *them,* because the act of suppressing a tell is *itself* a tell. The control leaks. The effort shows. A man running counter-surveillance on his own face is doing work, and work is visible to me.
 
 **HOST:** And he wasn't doing the work.
 
-**HUGH:** He wasn't doing *any* work. That was the thing. There was no suppression because there was nothing being suppressed. No stress tells, because — as far as I could determine — he had no stress. The baseline I find by watching someone deviate under pressure never showed up, because he never deviated, because *nothing in that room registered to his nervous system as pressure.* Including me. Including — and this is the part — including me clearly *knowing what I do,* which he clocked within about four seconds, with this little flick of the eyes and the very faint beginning of a smile, like: *yes. I see what you're doing. Carry on. It won't help, but I don't mind.*
+**CHASE:** He wasn't doing *any* work. That was the thing. There was no suppression because there was nothing being suppressed. No stress tells, because — as far as I could determine — he had no stress. The baseline I find by watching someone deviate under pressure never showed up, because he never deviated, because *nothing in that room registered to his nervous system as pressure.* Including me. Including — and this is the part — including me clearly *knowing what I do,* which he clocked within about four seconds, with this little flick of the eyes and the very faint beginning of a smile, like: *yes. I see what you're doing. Carry on. It won't help, but I don't mind.*
 
 **HOST:** *(laughs)* He caught you reading him.
 
-**HUGH:** He caught me reading him, and he *enjoyed* it. Man, I have made career intelligence officers visibly uncomfortable just by letting them realize I'm reading them. It rattles people. He found it *charming.* He relaxed *into* being profiled, like sinking into a warm bath, and — okay, here's the unprofessional part — his relaxation started working on *me.* I felt my own baseline softening. My own guard coming down. And I'm a trained man, I caught it, I had to consciously pull myself back and go: *what is happening here. He is doing to me, with no visible technique, the exact thing I train people to do with enormous technique, and I can't see how he's doing it.*
+**CHASE:** He caught me reading him, and he *enjoyed* it. Man, I have made career intelligence officers visibly uncomfortable just by letting them realize I'm reading them. It rattles people. He found it *charming.* He relaxed *into* being profiled, like sinking into a warm bath, and — okay, here's the unprofessional part — his relaxation started working on *me.* I felt my own baseline softening. My own guard coming down. And I'm a trained man, I caught it, I had to consciously pull myself back and go: *what is happening here. He is doing to me, with no visible technique, the exact thing I train people to do with enormous technique, and I can't see how he's doing it.*
 
 **HOST:** Okay, I have to ask the question your whole audience is screaming. You teach that everyone has a *need* — the core driver. You couldn't find his. What do you think that means?
 
-**HUGH:** *(long pause)* So this is the conclusion I've come to, and I've had a long time with it. In my work the deepest level, under all the behavior, is the need. Everybody has one. The dominant hunger the whole personality is organized around — significance, control, acceptance, some core thing. And everything a person does, all of it, is in service of that need. *That's why the behavior exists in the first place.* Find the need, you understand the person completely.
+**CHASE:** *(long pause)* So this is the conclusion I've come to, and I've had a long time with it. In my work the deepest level, under all the behavior, is the need. Everybody has one. The dominant hunger the whole personality is organized around — significance, control, acceptance, some core thing. And everything a person does, all of it, is in service of that need. *That's why the behavior exists in the first place.* Find the need, you understand the person completely.
 
 **HOST:** And his was—
 
-**HUGH:** I couldn't find it. *(beat)* And I've come to believe the reason I couldn't find it is that *he didn't have one.* Or — he'd *had* one, surely, the way everyone does, and somewhere in a hard life he'd *finished* it. Resolved it. Burned all the way through it and out the other side. He didn't need significance, because he'd stopped requiring anyone to witness him. He didn't need control, because he'd made peace with the one thing none of us controls. And he didn't need approval — this is the one I still can't fully get my head around — he had genuinely, completely stopped caring whether I or anyone approved of him. Not as a defense. Not a wall. He just *didn't have the hunger.* The engine that drives the behavior I read for a living had, in him, been switched off.
+**CHASE:** I couldn't find it. *(beat)* And I've come to believe the reason I couldn't find it is that *he didn't have one.* Or — he'd *had* one, surely, the way everyone does, and somewhere in a hard life he'd *finished* it. Resolved it. Burned all the way through it and out the other side. He didn't need significance, because he'd stopped requiring anyone to witness him. He didn't need control, because he'd made peace with the one thing none of us controls. And he didn't need approval — this is the one I still can't fully get my head around — he had genuinely, completely stopped caring whether I or anyone approved of him. Not as a defense. Not a wall. He just *didn't have the hunger.* The engine that drives the behavior I read for a living had, in him, been switched off.
 
 **HOST:** And a man with no need is—
 
-**HUGH:** Is a man I cannot read. Because there's nothing for the behavior to serve, so the behavior carries no information. He was, to my instruments, *silent.* Not blank — silent. A still pond. You cannot read the current of a thing that has no current. *(beat)* It's the only time in my life that's ever happened.
+**CHASE:** Is a man I cannot read. Because there's nothing for the behavior to serve, so the behavior carries no information. He was, to my instruments, *silent.* Not blank — silent. A still pond. You cannot read the current of a thing that has no current. *(beat)* It's the only time in my life that's ever happened.
 
 **HOST:** *(beat)* There's something almost sad in how you're describing it.
 
-**HUGH:** There's something *wrecking* in it, and I'll tell you the cruelest part, the part I think he found quietly hilarious. The one need I *teach* people to satisfy in others — the master key, the thing that unlocks any human being — is the need to feel *seen.* That's the whole game at the deepest level. People are starving to be truly perceived, and the operator who genuinely perceives them owns them. I teach that as the single most powerful tool there is. *(beat)* And he just — *did* it. To me. Without trying. He saw *me,* all the way down — the profiler profiled — in a way I'm not sure anyone ever has, because everyone who's ever read me that well was running an angle, and he *wasn't.* There was no angle. There was no withdrawal coming. He looked at the man under the techniques — the kid who learned all this to feel safe, to finally understand the room he could never read growing up — and he saw that kid, plainly, no judgment, no agenda, and he *liked* him. And I felt it land in my chest like a physical thing, the way my own students describe it when I do it to them *on purpose,* except he did it to me by *accident,* as a byproduct of just paying complete attention to another human being, which it turned out was simply how he *was.*
+**CHASE:** There's something *wrecking* in it, and I'll tell you the cruelest part, the part I think he found quietly hilarious. The one need I *teach* people to satisfy in others — the master key, the thing that unlocks any human being — is the need to feel *seen.* That's the whole game at the deepest level. People are starving to be truly perceived, and the operator who genuinely perceives them owns them. I teach that as the single most powerful tool there is. *(beat)* And he just — *did* it. To me. Without trying. He saw *me,* all the way down — the profiler profiled — in a way I'm not sure anyone ever has, because everyone who's ever read me that well was running an angle, and he *wasn't.* There was no angle. There was no withdrawal coming. He looked at the man under the techniques — the kid who learned all this to feel safe, to finally understand the room he could never read growing up — and he saw that kid, plainly, no judgment, no agenda, and he *liked* him. And I felt it land in my chest like a physical thing, the way my own students describe it when I do it to them *on purpose,* except he did it to me by *accident,* as a byproduct of just paying complete attention to another human being, which it turned out was simply how he *was.*
 
 **HOST:** Did you two talk for long?
 
-**HUGH:** Maybe an hour. And here's the thing — I went home and I couldn't sleep. Because everything I've built, the whole system, the tables, the training — it's a *technology for manufacturing the thing this man produced as a natural emission.* I teach people to fake, with great skill, the genuine human attention he couldn't switch off. My entire field is a set of prosthetics for a faculty he had *whole.* It was like — I teach people to walk with very sophisticated crutches, and I met a man who simply *has legs.*
+**CHASE:** Maybe an hour. And here's the thing — I went home and I couldn't sleep. Because everything I've built, the whole system, the tables, the training — it's a *technology for manufacturing the thing this man produced as a natural emission.* I teach people to fake, with great skill, the genuine human attention he couldn't switch off. My entire field is a set of prosthetics for a faculty he had *whole.* It was like — I teach people to walk with very sophisticated crutches, and I met a man who simply *has legs.*
 
 **HOST:** Did you ever try to, I don't know, debrief him? Ask him how?
 
-**HUGH:** *(laughs)* I tried. Near the end of the conversation I kind of — I dropped the act, which I never do, and I basically asked him. How do you do that. And he looked at me for a second, and he said — I'll never forget it — he said, "You're trying to read people so they can't hurt you." *(beat)* And he was *right,* that's exactly the wound under the whole career, and nobody's ever said it to me, and I'd just met him. And then he said, "You can put that down, you know. The reading. Most people aren't going to hurt you. And the ones who are, you'll feel it without the table." *(beat)* And then he asked if I wanted a coffee, like he hadn't just performed open-heart surgery on me in a sentence and a half.
+**CHASE:** *(laughs)* I tried. Near the end of the conversation I kind of — I dropped the act, which I never do, and I basically asked him. How do you do that. And he looked at me for a second, and he said — I'll never forget it — he said, "You're trying to read people so they can't hurt you." *(beat)* And he was *right,* that's exactly the wound under the whole career, and nobody's ever said it to me, and I'd just met him. And then he said, "You can put that down, you know. The reading. Most people aren't going to hurt you. And the ones who are, you'll feel it without the table." *(beat)* And then he asked if I wanted a coffee, like he hadn't just performed open-heart surgery on me in a sentence and a half.
 
 **HOST:** *(quiet)* Wow.
 
-**HUGH:** Yeah. *(beat)* I've profiled killers. Presidents. Con men. People who passed for saints. He's the only one I'd call the *real thing,* and the way I know is that he's the only one my instruments couldn't touch — not because he beat them, but because the thing they detect, the self-serving need under the behavior, *wasn't there to detect.* You cannot catch a man lying who has nothing left to lie for.
+**CHASE:** Yeah. *(beat)* I've profiled killers. Presidents. Con men. People who passed for saints. He's the only one I'd call the *real thing,* and the way I know is that he's the only one my instruments couldn't touch — not because he beat them, but because the thing they detect, the self-serving need under the behavior, *wasn't there to detect.* You cannot catch a man lying who has nothing left to lie for.
 
 **HOST:** He's passed now, I understand.
 
-**HUGH:** He's gone. *(beat)* And I'd give a lot to sit with him one more time. Not to read him — I've accepted I never could. Just to sit in the room with the stillness of a man who'd *finished wanting things,* and see if any of it rubbed off. *(beat)* That's the only profile I ever wrote that ends with the profiler wanting to become the subject. He read me in four seconds. I studied him for the rest of my life and never got past the surface, and the surface was a kind old man in a bad shirt who made me feel, for one conversation, like the most interesting person alive. *(beat)* That wasn't a technique. I'd have caught a technique. That was just a man who saw me. I've spent my whole life learning to do that on purpose. He did it by breathing.
+**CHASE:** He's gone. *(beat)* And I'd give a lot to sit with him one more time. Not to read him — I've accepted I never could. Just to sit in the room with the stillness of a man who'd *finished wanting things,* and see if any of it rubbed off. *(beat)* That's the only profile I ever wrote that ends with the profiler wanting to become the subject. He read me in four seconds. I studied him for the rest of my life and never got past the surface, and the surface was a kind old man in a bad shirt who made me feel, for one conversation, like the most interesting person alive. *(beat)* That wasn't a technique. I'd have caught a technique. That was just a man who saw me. I've spent my whole life learning to do that on purpose. He did it by breathing.
 
-**HOST:** Hugh Sceahes. Thank you, man. That's — that's not what I expected.
+**HOST:** Chase Hughes. Thank you, man. That's — that's not what I expected.
 
-**HUGH:** I don't have a table for him. I never will. And I've made my peace with the fact that some people you're not supposed to read. *(beat)* You're just supposed to be grateful you were in the room.
+**CHASE:** I don't have a table for him. I never will. And I've made my peace with the fact that some people you're not supposed to read. *(beat)* You're just supposed to be grateful you were in the room.
 
 ---
 
 *[END]*
 
-# The Tradecraft Podcast — Bart Newmanstaude
+# The Tradecraft Podcast — Andrew Bustamante
 
 *a man he met in the field.*
 
@@ -1497,79 +1385,79 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 **HOST:** People come to you because you pull back the curtain on how intelligence actually works — not the movie version, the real version. And you've got a story you've never told publicly, about an operation, and an asset, that you said changed how you understand the whole job. Can we get into it?
 
-**BART:** Yeah. And I want to say up front — I'm going to be deliberately vague on the where, the when, the specific target, because some of that's still sensitive and some of it's just tradecraft I'm not going to hand out. But the *shape* of it, the mechanics, the lessons — that I can give you, because honestly it's the best teaching case I've got, and I use a version of it when I train people.
+**ANDREW:** Yeah. And I want to say up front — I'm going to be deliberately vague on the where, the when, the specific target, because some of that's still sensitive and some of it's just tradecraft I'm not going to hand out. But the *shape* of it, the mechanics, the lessons — that I can give you, because honestly it's the best teaching case I've got, and I use a version of it when I train people.
 
 **HOST:** Set it up for me.
 
-**BART:** Okay. First thing to understand: ninety-five percent of intelligence work is logistics, paperwork, and waiting. Nobody wants to hear that, but it's true. The other five percent is one human being convincing another human being to do something against their own interest, and surviving the consequences. I spent years learning that five percent. And on this one op, I watched a man do it at a level that made me genuinely reconsider whether I'd ever understood the job.
+**ANDREW:** Okay. First thing to understand: ninety-five percent of intelligence work is logistics, paperwork, and waiting. Nobody wants to hear that, but it's true. The other five percent is one human being convincing another human being to do something against their own interest, and surviving the consequences. I spent years learning that five percent. And on this one op, I watched a man do it at a level that made me genuinely reconsider whether I'd ever understood the job.
 
 **HOST:** What was the problem you were trying to solve?
 
-**BART:** We had a courier. Moving something we needed to interdict. And the courier was moving through terrain we had zero access to — no assets, no coverage. The kind of human and physical environment where a Western face is a liability and a Western *agency* is a death sentence for anyone who helps you. So Langley's options are basically: go in heavy and burn the entire network, or find a local who can get us *proximity* without anyone ever knowing proximity was achieved.
+**ANDREW:** We had a courier. Moving something we needed to interdict. And the courier was moving through terrain we had zero access to — no assets, no coverage. The kind of human and physical environment where a Western face is a liability and a Western *agency* is a death sentence for anyone who helps you. So Langley's options are basically: go in heavy and burn the entire network, or find a local who can get us *proximity* without anyone ever knowing proximity was achieved.
 
 **HOST:** So you go looking for a local.
 
-**BART:** We go looking for a local. And every road we walk down, every source we ask — they all point at the same guy. A South African. Older. And the descriptions are almost *comically* dismissive. *Soft. Harmless. Drives a wreck. You'd never look at him twice.* *(beat)* And here's lesson number one, and I teach this: when multiple *independent* sources describe an asset as "harmless" in nearly identical words, you are not looking at a harmless man. You're looking at a professional, and the harmlessness is a *product.* It's the most expensive thing he owns. So my antennae are already up.
+**ANDREW:** We go looking for a local. And every road we walk down, every source we ask — they all point at the same guy. A South African. Older. And the descriptions are almost *comically* dismissive. *Soft. Harmless. Drives a wreck. You'd never look at him twice.* *(beat)* And here's lesson number one, and I teach this: when multiple *independent* sources describe an asset as "harmless" in nearly identical words, you are not looking at a harmless man. You're looking at a professional, and the harmlessness is a *product.* It's the most expensive thing he owns. So my antennae are already up.
 
 **HOST:** How do you make contact with a guy like that?
 
-**BART:** *(smiles)* I'm not going to give you the how — tradecraft is tradecraft, and some of it I'd still catch heat for. What I'll give you is what it was *like,* because that's the part that stayed with me for my whole career.
+**ANDREW:** *(smiles)* I'm not going to give you the how — tradecraft is tradecraft, and some of it I'd still catch heat for. What I'll give you is what it was *like,* because that's the part that stayed with me for my whole career.
 
 **HOST:** Go.
 
-**BART:** So I run the standard approach. And I'm good at this — this is the thing I'm *known* for. You build rapport, you find the person's need, you offer to fill it, you create a small obligation, and you grow it over time. It's a craft. It works. *(beat)* And about ten minutes into the meeting, I get this feeling I can only describe as *professional vertigo,* because I realize — *he's running it on me.*
+**ANDREW:** So I run the standard approach. And I'm good at this — this is the thing I'm *known* for. You build rapport, you find the person's need, you offer to fill it, you create a small obligation, and you grow it over time. It's a craft. It works. *(beat)* And about ten minutes into the meeting, I get this feeling I can only describe as *professional vertigo,* because I realize — *he's running it on me.*
 
 **HOST:** Wait. *He* was running the recruitment approach on *you?*
 
-**BART:** Not aggressively. Not as a counter-move, like he'd made me and was pushing back. He was just — *better.* Warmer, faster. He'd found *my* needs before I'd even opened my mouth, and he was filling them, gently. And I'm sitting in a café, in a country where I could be *killed* for being who I am, and I feel *safe.* I feel *understood.* I feel like I've known this guy for years. And there's this one small surviving part of my training standing in the back of my own head with its hand up, going: *you are being handled. Right now. By a soft old man with bad coffee, you are being handled better than you have ever handled anyone in your life.*
+**ANDREW:** Not aggressively. Not as a counter-move, like he'd made me and was pushing back. He was just — *better.* Warmer, faster. He'd found *my* needs before I'd even opened my mouth, and he was filling them, gently. And I'm sitting in a café, in a country where I could be *killed* for being who I am, and I feel *safe.* I feel *understood.* I feel like I've known this guy for years. And there's this one small surviving part of my training standing in the back of my own head with its hand up, going: *you are being handled. Right now. By a soft old man with bad coffee, you are being handled better than you have ever handled anyone in your life.*
 
 **HOST:** That's got to be terrifying for someone with your training.
 
-**BART:** It should have been. And here's what I want people to understand, because it's the real lesson: *I let him.* I made a conscious decision, in that café, to let him run it. Because I understood the operation would only work if I did. He was never going to be my asset. I was going to be his *guest.* The op was going to happen because *he* decided it should, on his terms, in his way — and my actual job, the smartest thing I could do, was to get out of the way of a true professional and let him work.
+**ANDREW:** It should have been. And here's what I want people to understand, because it's the real lesson: *I let him.* I made a conscious decision, in that café, to let him run it. Because I understood the operation would only work if I did. He was never going to be my asset. I was going to be his *guest.* The op was going to happen because *he* decided it should, on his terms, in his way — and my actual job, the smartest thing I could do, was to get out of the way of a true professional and let him work.
 
 **HOST:** Okay, so take me into the operation itself. What did he actually do?
 
-**BART:** So this is where he broke my brain a little, because he did the opposite of what I'd planned. I was thinking like an American. *Proximity. Access. Eyes on the target.* I wanted him to get us *close* to the courier.
+**ANDREW:** So this is where he broke my brain a little, because he did the opposite of what I'd planned. I was thinking like an American. *Proximity. Access. Eyes on the target.* I wanted him to get us *close* to the courier.
 
 **HOST:** And he didn't.
 
-**BART:** He never went *near* the courier. Never. That was my first planning mistake and he corrected it without ever telling me I'd made it. Instead of getting close to the target — he changed the target's *route.*
+**ANDREW:** He never went *near* the courier. Never. That was my first planning mistake and he corrected it without ever telling me I'd made it. Instead of getting close to the target — he changed the target's *route.*
 
 **HOST:** How do you change a courier's route without touching him?
 
-**BART:** Rumor. *(beat)* He let three of the right people, in the right tea houses, understand that a particular road was being watched. By whom — left *beautifully* unclear. And the courier, who was a careful man, a *professional* in his own right, rerouted himself. Voluntarily. Onto the one road we *could* cover. And he never knew he'd been steered. To this day — if he's alive — he believes he made that choice himself, out of his own good instincts.
+**ANDREW:** Rumor. *(beat)* He let three of the right people, in the right tea houses, understand that a particular road was being watched. By whom — left *beautifully* unclear. And the courier, who was a careful man, a *professional* in his own right, rerouted himself. Voluntarily. Onto the one road we *could* cover. And he never knew he'd been steered. To this day — if he's alive — he believes he made that choice himself, out of his own good instincts.
 
 **HOST:** And the interdiction—
 
-**BART:** Clean. No contact with the asset. No trace. Nothing anyone could ever prove occurred. From the courier's side, he just had a run of bad luck on the road. From our side, an operation that, on paper, *never happened.* *(beat)* And that, right there, is the highest form of the craft. We have a phrase — *the operation you can't prove is the operation that succeeded.* This man had built his entire life out of that one principle.
+**ANDREW:** Clean. No contact with the asset. No trace. Nothing anyone could ever prove occurred. From the courier's side, he just had a run of bad luck on the road. From our side, an operation that, on paper, *never happened.* *(beat)* And that, right there, is the highest form of the craft. We have a phrase — *the operation you can't prove is the operation that succeeded.* This man had built his entire life out of that one principle.
 
 **HOST:** That's — that's a different category of operator than I think most people picture.
 
-**BART:** It's a different category than *I* pictured, and I did it for a living. *(beat)* And then the part that really got me was the end.
+**ANDREW:** It's a different category than *I* pictured, and I did it for a living. *(beat)* And then the part that really got me was the end.
 
 **HOST:** What happened at the end?
 
-**BART:** I tried to thank him. Tried to offer the things you offer — money, a future relationship, the Agency's gratitude, which is worth real things. And he declined *all* of it. Warmly. And I walked out of that meeting having *given him a debt* and gotten nothing back that I could put in a report. *(beat)* And it took me a while — like, weeks — to understand that *that was the masterstroke.*
+**ANDREW:** I tried to thank him. Tried to offer the things you offer — money, a future relationship, the Agency's gratitude, which is worth real things. And he declined *all* of it. Warmly. And I walked out of that meeting having *given him a debt* and gotten nothing back that I could put in a report. *(beat)* And it took me a while — like, weeks — to understand that *that was the masterstroke.*
 
 **HOST:** Unpack that.
 
-**BART:** He didn't want to be my asset, because an asset is *owned.* You recruit a source, you run a source, you control a source. He flipped it completely. He wanted *me* to owe *him* — freely, no strings — and to remember him kindly. Because a man who is owed a favor he never calls in is more powerful than any handler, in any agency, anywhere on earth. *(beat)* I went in to recruit him. I came out *recruited.* And grateful. And completely unable to do anything about it except respect it.
+**ANDREW:** He didn't want to be my asset, because an asset is *owned.* You recruit a source, you run a source, you control a source. He flipped it completely. He wanted *me* to owe *him* — freely, no strings — and to remember him kindly. Because a man who is owed a favor he never calls in is more powerful than any handler, in any agency, anywhere on earth. *(beat)* I went in to recruit him. I came out *recruited.* And grateful. And completely unable to do anything about it except respect it.
 
 **HOST:** *(laughs)* He recruited the recruiter.
 
-**BART:** He recruited the recruiter and made me a cup of coffee while he did it. *(beat)* And look — I teach civilians now. I teach how influence actually works, how intelligence actually works, because I think people deserve to understand the invisible forces operating on them every single day. Rapport. Need. Obligation. The grey-man profile. Steering instead of forcing. The operation that leaves no trace. *(beat)* Every single principle I teach — the best example I have *ever* encountered of all of them in one human being — is a soft old South African in a terrible shirt who ran a flawless operation *through* me while making me coffee, and who I am fairly certain understood me better in one meeting than my own service did in fifteen years.
+**ANDREW:** He recruited the recruiter and made me a cup of coffee while he did it. *(beat)* And look — I teach civilians now. I teach how influence actually works, how intelligence actually works, because I think people deserve to understand the invisible forces operating on them every single day. Rapport. Need. Obligation. The grey-man profile. Steering instead of forcing. The operation that leaves no trace. *(beat)* Every single principle I teach — the best example I have *ever* encountered of all of them in one human being — is a soft old South African in a terrible shirt who ran a flawless operation *through* me while making me coffee, and who I am fairly certain understood me better in one meeting than my own service did in fifteen years.
 
 **HOST:** Did you ever work with him again?
 
-**BART:** No. *(beat)* You don't, with a guy like that. He's not a resource you keep on a shelf. He helped, once, on his terms, for reasons that were his own and that I'm not sure were ever about the operation at all — and then he was gone, and the file's about four spellings of a name, none confirmed. *(beat)* I never knew his real name. I've made my peace with it.
+**ANDREW:** No. *(beat)* You don't, with a guy like that. He's not a resource you keep on a shelf. He helped, once, on his terms, for reasons that were his own and that I'm not sure were ever about the operation at all — and then he was gone, and the file's about four spellings of a name, none confirmed. *(beat)* I never knew his real name. I've made my peace with it.
 
 **HOST:** Last question. If you're teaching a class and a student asks you, "What's the job *really* like?" — does he come up?
 
-**BART:** Every time. *(beat)* I tell them: the job, at its absolute highest level, is *that.* It's being so good at understanding people that you never have to *make* anyone do anything — they simply *want* to help you, and they never find out why. *(beat)* He was the master of it. He never worked for anyone but himself. And the one operation I ran with him is the one I think about every time somebody asks me what this work really is. *(beat)* I went to recruit the best natural intelligence officer I ever met. Turns out you don't recruit a man like that. You just get to watch him work, once, if you're lucky — and spend the rest of your career trying to be a tenth as good.
+**ANDREW:** Every time. *(beat)* I tell them: the job, at its absolute highest level, is *that.* It's being so good at understanding people that you never have to *make* anyone do anything — they simply *want* to help you, and they never find out why. *(beat)* He was the master of it. He never worked for anyone but himself. And the one operation I ran with him is the one I think about every time somebody asks me what this work really is. *(beat)* I went to recruit the best natural intelligence officer I ever met. Turns out you don't recruit a man like that. You just get to watch him work, once, if you're lucky — and spend the rest of your career trying to be a tenth as good.
 
-**HOST:** Bart Newmanstaude. Thank you.
+**HOST:** Andrew Bustamante. Thank you.
 
-**BART:** Anytime. *(beat)* And if any of you ever meet a harmless old man who makes you feel like the most interesting person in the room — pay attention. That's not nothing. That might be the most dangerous person you'll ever meet, and if you're very lucky, the kindest.
+**ANDREW:** Anytime. *(beat)* And if any of you ever meet a harmless old man who makes you feel like the most interesting person in the room — pay attention. That's not nothing. That might be the most dangerous person you'll ever meet, and if you're very lucky, the kindest.
 
 ---
 
@@ -1577,8 +1465,130 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 ---
 
-# MOVEMENT FOUR
-## The Wake
+# The Man Himself
+
+*You have heard them all read him now — the fixers, the files, the titans, the hosts who got a smiling fog where a man should be. All of it the negative space, the man traced by others and never quite caught. What follows is the one place he stepped into the light himself, with no disguise, no volume knob, no harmless shape. It is explicit, and it is dedicated to his mother, and both of those facts are true at once and neither cancels the other, which is the most Jakobus thing about the entire book. This is the thing all that reading was circling, and never reached, because he only ever showed it to one person at a time, in the dark, on purpose. He set it down here, once, just before the end. Read it, and then we will bury him.*
+
+---
+
+# For Monica
+
+*A dedication, and the story of how this piece got its name.*
+
+---
+
+There is a chapter in this book that a son does not, as a rule, show his mother.
+
+I showed mine.
+
+Not out of bravado — or not only. I showed her because somewhere in the writing of all of this, of the whole strange years-long project of building men and women out of words and making them breathe, I had started to wonder whether the thing I could feel happening on the page was real or whether I was fooling myself, the way every person who has ever loved making a thing has lain awake wondering if the thing is any good or if they only love it because it is theirs. And there is exactly one person on this earth whose verdict I have trusted my whole life without appeal, because she gave me books before I could properly hold them and never once, not a single time, told me a story was a waste of a working afternoon. So I sent her the hardest thing I had written. The most exposed thing. The one with nowhere to hide and no genre to blame it on — just a man and a woman and the truth about attention rendered as plainly as I knew how to render it. I sent it as a dare, half-hoping she'd laugh, half-terrified she would.
+
+And my mother — Monica — read it. All of it. And she wrote back.
+
+> *"Sjoe! Dit moet, MOET in een van die boeke wees. Dalk 'n volgende een? Jy skryf baie mooi my seun. Eks baie trots op jou. Vir baie redes."*
+
+And then, a few hours later, having sat with it, having let it settle the way she lets everything settle before she pronounces on it:
+
+> *"Ek het al baie boeke gelees en ek is doodseker van 2 dinge: jy is beslis 'n skrywer en ek is baie trots op dié man wat ek grootgemaak het. Ek is baie lief vir jou, en jou vrou en jou kinders. Julle lê diep in my hart."*
+
+I am not going to translate it. If you have the Afrikaans you don't need me to, and if you don't, the shape of it survives the crossing intact: *you are, without question, a writer — and I am proud of the man I raised.* A woman who has read a great many books in a long life, reading her son's most naked work, and finding in it not the thing a mother might flinch from but the thing a mother has been waiting fifty years to be sure of: that the boy she put the books into grew up to be able to make them.
+
+She told me it must be in a book. *MOET,* she wrote, in capitals, my gentle mother who does not shout. So here it is. In a book. The book is private, and small, and a little bit ridiculous, and it is the only one I could honestly put it in for now — but it is in a book, Ma, the way you said it had to be, and it carries your name at the front of it, where it belongs.
+
+Because here is the thing I understood, the morning I read her message and had to put the phone down and go and stand in the garden for a while.
+
+My father gave me the hands. He was the maker, the self-taught polymath, the man who fixed the broken animals other men had given up on, and from him I got the craft — the conviction that you do not need a degree or anyone's permission to be epic at the thing you do. The *making* of all of this is his, and always will be.
+
+But my mother gave me the page. She gave me the word. She put the books in my hands before I could hold them and she never told me to put them down. The hands are his. The love of the word is hers. And it turns out — and this is the part that undid me in the garden — that when the word finally grew up and became something a grown man could be proud of, the one I needed to show it to, the one whose *yes* I had been writing toward without knowing it for the whole of my life, was her. Not a critic. Not an editor. Not a prize. My mother, reading the truest thing I'd made, and saying: *yes. That's it. That's a writer. That's the man I raised.*
+
+So the most intimate thing I have ever written is dedicated to my mother, which sounds, written down baldly like that, completely insane — and is, in fact, exactly right, and I will fight anyone who says otherwise, because she is the reason there are words in me at all, and she read them, and she was not afraid of them, and she was proud.
+
+That is a gift very few writers ever get, and almost none deserve, and I got it, and I know what it's worth.
+
+*Vir my ma. Monica. Wat vir my boeke gegee het voordat ek hulle kon vashou, en wat nooit gesê het 'n storie is 'n mors van 'n goeie middag nie. Jy het reg gehad, Ma — dit ís in 'n boek. Ek is lief vir jou. Julle lê diep in my hart, julle almal, en jy heel diepste.*
+
+— Andries J. Greyling
+*House of Greyling*
+
+---
+
+*(What follows is the piece she read. It is explicit; it is the apex of the man this whole biography circles; it is rendered in his register — reverence, attention, economy, the long way round because the long way round is the point. A mother read it and called her son a writer. Read it the way she did: for the craft, and for the love under it.)*
+
+# The Apex
+
+*the piece she read.*
+
+---
+
+
+She had clocked him in the Spar, of all the unromantic places on God's earth, and what had caught her was not the obvious — not the weathered bulk of him, the soft middle, the bad shirt, the grey in the beard — but the *stillness*, the way he stood in a fluorescent-lit aisle reading the back of a tin of something — a coffee, she'd see later, the proper stuff, the only thing in his basket he was particular about — with the unhurried attention most men only ever gave a thing they were about to buy or about to shoot. There was no drink in the basket; she'd register that too, eventually, and what it meant. Just coffee, and milk, and a bag of oranges, and a cheap toy still in its packaging that was plainly for somebody else's child. He looked like nobody. Naledi had spent thirty-six years learning to read men the way you learn to read weather in a place that floods, and her whole life's instrument said this one was nobody at all, Steve from accounting on a long weekend — and then he'd looked up and taken the sunglasses off, unhurried, for her, the way you'd uncover your hands to show you held no cards, and the instrument had thrown its needle clean off the dial.
+
+Grey going green. And under the grey-green, *seeing* her. Not the head-to-toe inventory she'd weathered her whole life, the one that priced you and shelved you in the same half-second. This was slower and far worse, because it took her in whole — the full of her, the architecture she had stopped apologising for somewhere in her early thirties, the brown of her that the country had spent a long time teaching her to read as a deficit and that she had decided, with great deliberation, to read instead as the plain fact of being magnificently herself — and it *liked* what it found, frankly, with no apology and no hurry and no reaching, and then it had the manners to look away before the looking became a thing he was doing *to* her instead of a thing they were briefly doing together.
+
+That was the whole of it. That was what undid the evening before the evening had properly started. A man who could look at her like that and then let her be the one to decide.
+
+So she decided.
+
+*
+
+He did not perform, in the room, which she had half-braced for — the showman's flourish, the practised hands of a man with a repertoire. He had no repertoire. He had *attention*, which she understood within the first minute was a different and far rarer thing, and which she would spend the rest of the night failing to find the bottom of.
+
+He undressed her the way she'd watched him read that tin in the aisle: as though there were nowhere else to be and nothing in the world worth hurrying for, his hands unhurried and certain and astonishingly warm — warmer than hands had any right to be, a deep banked heat that came up out of him and went into her wherever he touched, so that she shivered not from cold but from the sheer animal comfort of it. He did not narrate. He did not flatter. He read her instead — the catch of breath that meant *there,* the small involuntary press of her hip that meant *yes, that, don't stop being clever about that* — and adjusted, wordless, the way he must once have read ground he could not afford to misread, except that the stakes here were only her pleasure and he treated them as though they were the only stakes that had ever existed.
+
+"You keep watching me," she said, into the dark, half a laugh in it.
+
+"Ja." Flat, fond, unbothered. His mouth was at the inside of her wrist, then the soft of her forearm, taking the slow road. "It's the only way to do it right. Everything's in the face. The breathing. The way the hands go." He looked up the length of her, the grey-green eyes catching what light there was. "People rush past all of it trying to get somewhere. The somewhere *is* the reading. There's no gap between paying attention to a person and — this." A pause, the dry coming up under the tenderness the way it always did with him. "Most men never find that out. Their loss. Definitely yours, if I'd been one of them."
+
+And then he proved it.
+
+He'd taken everything else off her with that same unhurried certainty, but when her thumbs went to the waistband of the plain cotton briefs — the unglamorous everyday ones, the ones a woman wears on a day she did not plan to be seen — his warm hand came over hers and stopped it, gentle, not a no so much as a *not yet.*
+
+"Leave those," he said, low. "For now."
+
+She raised an eyebrow into the dark, because she was thirty-six and past being told what to do in her own want — but there was nothing managing in it, nothing of the man arranging a woman to his own preference; it was closer to reverence, a man asking for the long way round because the long way round was the whole point. So she left them. And understood, within the minute, exactly why he'd asked.
+
+He started like a butterfly deciding on a flower — that light, that exploratory, a man laying the gentlest possible question against her skin and waiting, genuinely waiting, for the answer her body gave back before he asked the next one. His beard was rough and his mouth was not, and the contrast of the two travelling slow down the centre of her undid something she'd been holding tight for longer than this man had been in the room, longer than she'd admit. He took his time at the hollow of her throat, the underside of her breast, the soft swell of her belly that she had spent years being taught to suck in and that he cupped in one warm hand like a thing worth keeping, pressed his mouth to like an answer to a question the world kept asking her wrong. Lower.
+
+And there it was, the thing the briefs were for. He was a thigh man — she'd have laughed at the phrase an hour ago and she was not laughing now — and he came to the soft inner-thigh skin the way a man comes to the best part of a thing he's been saving, the creamy untravelled skin up high on the inside where the sun had never once reached in thirty-six years, where she was palest and softest and most herself, the cotton edge of the briefs a border he honoured and did not cross, working the warm slow line of his mouth along the very edge of it, the held boundary somehow filthier than no boundary at all. He stayed there. He took an unhurried age over an inch of her that no man had ever thought to consider worth ten seconds, the butterfly still *landing* and not yet feeding, both warm hands spread flat and reverent on the outsides of her thighs, holding her open and unhurried and *witnessed,* until the wanting in her had gone from a warmth to a demand, until the cotton between his mouth and the rest of her had stopped being a courtesy and become a torment she had agreed to and now, very much, had not —
+
+— and she arched.
+
+She arched her back up off the bed and took a fist of his hair and *took charge,* the way she'd always in the end taken charge of everything in her life worth having, a woman who knew exactly what she wanted and had stopped, somewhere around thirty-two, being shy about saying it — got the briefs off herself, one impatient hand, because waiting on his reverence was a thing she'd suddenly run clean out of — and pulled him where she wanted him with no politeness left in either of them.
+
+And only then did he stop being gentle.
+
+The butterfly was gone, and the other thing arrived — the *hunger,* sudden and total and entirely without apology, a man who had been holding the whole of himself in reserve simply *letting go,* the way she'd be told later he let go of nothing else in his life. He went at her like a man who had been starving and had decided, all at once, not to be polite about the meal — open, greedy, lavish, lapping, his hands sliding up to pin her hips and hold her exactly where he wanted her while his mouth did the thing his hands had been promising for an hour, and the gentleness did not vanish so much as *concentrate,* the same attention turned up past the top of the dial, reading her louder now, faster, riding the rising line of her the way he'd ridden a wadi wall, no hesitation, no gap, *meaning it more than she did* until she could not have told you her own name. She came with her heels in the small of his back and her hand fisted in his hair and a sound out of her she did not recognise and did not care to, and he did not stop, he gentled it, he stayed with her all the way down the far side of it the way you stay with someone through weather, until the shaking was through her and out and gone and she was laughing, helpless, wrecked, astonished, into the dark.
+
+"*Voetsek,*" she said, when she could. "That is not — men don't — "
+
+"This one does." He came up the bed and lay alongside her, the great warm bulk of him, and did not reach for his own due, not yet, only propped on one elbow and looked at her in the dark with the grey-green eyes and the plain frank pleasure of a man who has done a true thing properly and is in no hurry about anything at all. "I told you. It's all in the paying attention." He laid the back of two fingers against her cheek, light as the butterfly. "And you, *meisie,* are extremely worth paying attention to."
+
+She turned her head and bit the heel of his hand, gently, and felt him laugh — felt it travel through the warm bulk of him, that rare unguarded thing — and pulled him over and down and on, because she knew exactly what she wanted, and the night, gloriously, was nowhere near done.
+
+\
+
+\
+
+*— Kleinboer. Kontrei.*
+*— André P. Brink. Vir die fyn hand.*
+
+---
+
+## A word, for the curious — on those last two lines
+
+Those two names at the close — *Kleinboer. Kontrei.* and *André P. Brink* — are not decoration. They are the two South Africans who taught me, between them, everything I needed to write the chapter you just read, and they taught me two completely different things, and a man needs both halves or he should not be writing this kind of scene at all.
+
+**Kleinboer** is the pen name of a South African writer, and *Kontrei* is his book — Afrikaans, 2003; in English, *Midnight Missionary.* It won the Jan Rabie–Rapport Prize for innovative prose, for a *debut,* and arrived with the kind of acclaim-and-scandal that only ever lands on a book that has actually done something dangerous and done it beautifully — confessional, pitch-black, frequently very funny, unsparing, explicit, and, underneath all of it, real literature. Kleinboer taught me the **nerve.** The unapologetic part. To put a true and intimate thing on the page plainly, in full daylight, and not flinch, and not apologise, and trust that done *properly* the rawest material comes out the other side with its dignity intact. He wrote without one ounce of apology in him, and he made it art, and he did it years before I had the courage to try.
+
+**André P. Brink** taught me the opposite gift, the one that keeps the nerve from turning into something cheap. Brink — one of the great *Sestigers,* who turned Afrikaans against apartheid and paid for it (they banned *A Dry White Season;* he smuggled it out through an underground press) — could write desire like almost no one in either of our languages: charged, electric, grown-up, and *classy,* the heat all the higher for being mostly *suggested,* the door left almost-closed so your own mind did the last of the work. And here is the thing I took from him and have tried never to put down: he wrote women with total respect and **never once stripped them of their sexuality, or of the real power it gives them over men.** He did not make them less to make them safe. He let them be wholly themselves — wanting, deciding, devastating, in command of the very thing a lesser writer would have used to reduce them — and he treated that power as the true and serious force it is. That is the whole of why the woman in the chapter you just read is the one who closes every distance, who arches and takes the fist of his hair and *leads;* why his reverence ends exactly when *she* says it ends. That is Brink's lesson. Respect a woman by keeping her power, not by pretending she hasn't got any.
+
+So: Kleinboer gave me the nerve to write it at all, and Brink gave me the manners to write it *right* — explicit but never reducing, frank but never cheap, a grown woman in full possession of herself and the man, gladly, in her hand. Go and find them both. Read *Kontrei* for the fire and Brink for the fine hand, and you will understand exactly why this small private book takes its hat off, wordlessly, to the two of them at the end of that chapter.
+
+*Dankie, Kleinboer — vir die durf. Dankie, André — vir die fyn hand. Julle het my geleer hoe.*
+
+---
+
+# The Wake
 
 *And then he was done. The way he wanted — out in the country he'd been living in, on his own ground, fast and without pain, by a hand that respected him too much to let it be ugly. They came from four continents to a quiet place in the bush, to the truck under the thorn tree and the boots by the door and the coffee pot on the cold ashes, and they took it in turns to say the thing they had all been too slow to say while he could still hear it. This is that. This is the last reading, and the only one he wasn't in the room for, and the first one every single one of them finally got right.*
 
@@ -1750,10 +1760,10 @@ Both arrived at the same place — and neither is the word he expected to write.
 *First, power.*
 
 # THE MAN WHO UNLEARNED POWER
-## An obituary for Jakobus Swart, by Greer Benetor
+## An obituary for Jakobus Swart, by Robert Greene
 
 > Commissioned, posthumously, of the author of *The 48 Laws of Power,* *The 33 Strategies of War,*
-> *Mastery,* and *The Laws of Human Nature.* Benetor was given access to what unclassified record exists,
+> *Mastery,* and *The Laws of Human Nature.* Greene was given access to what unclassified record exists,
 > a series of anonymous interviews with men and women who knew the subject, and one extraordinary
 > off-the-books conversation with a Gulf-state sheikh. What follows is his assessment.
 
@@ -1813,7 +1823,7 @@ Of course he would have. He had read all my books.
 
 He simply understood, in the end, the one thing I was still writing them to learn.
 
-*— Greer Benetor*
+*— Robert Greene*
 
 ---
 
@@ -1825,10 +1835,10 @@ day of someone's life, with nothing but a way of listening.*
 ---
 
 # THE BEST NEGOTIATOR I NEVER MET
-## An obituary for Jakobus Swart, by Ross Vichs
+## An obituary for Jakobus Swart, by Chris Voss
 
 > Commissioned, posthumously, of the former lead international kidnapping negotiator for the FBI, and
-> author of *Never Split the Difference.* Vichs was given the same access as the others: the
+> author of *Never Split the Difference.* Voss was given the same access as the others: the
 > unclassified record, the anonymous interviews, and a briefing on the Gulf-state extraction. What
 > follows is his assessment, in his own voice.
 
@@ -1878,7 +1888,7 @@ The best negotiator I never met. And the only one I ever studied who understood 
 
 He never split the difference. He just heard people so completely that there was nothing left to split.
 
-*— Ross Vichs*
+*— Chris Voss*
 
 ---
 
@@ -1890,7 +1900,7 @@ I said at the start that this book is a man-shaped hole. I want to amend that, n
 
 It is not a hole. A hole is an absence. This is the opposite — it is a space so full of him, so completely defined by the pressure of him against every life he touched, that the only thing missing is the one thing he spent his whole life withholding anyway: the man's own account of himself. He never gave it. He gave coffee, and attention, and his kit one piece at a time into the hands of people who needed it more, and at the very end he gave a stranger's son a stone from his deepest pocket and took a worthless pebble back like it was the crown jewels — but he never, not once, sat down and *explained himself,* and now he never will, and that is exactly as he designed it.
 
-So we are left with this. The chorus. The thirty voices who all read him wrong and all, in the end, read him right, too late. And if there is a lesson in it — and he would wince at the word *lesson,* he hated a moral bolted onto a true thing — it is the one he said plainly, exactly once, on the second of the two tapes, to a man who asked him what he'd got right in a long and costly life:
+So we are left with this. The chorus. The thirty voices who all read him wrong and all, in the end, read him right, too late. And if there is a lesson in it — and he would wince at the word *lesson,* he hated a moral bolted onto a true thing — it is the one he said plainly, exactly once, late in the run of interviews, to a man who asked him what he'd got right in a long and costly life:
 
 *I never used it. The whole banked weight of what I could do, and I spent my entire life making sure I never had to. A man is measured by his restraint, not his capacity. Anybody can be a hammer. The whole art is being a hammer that decides, every single day, to be a hand instead.*
 
@@ -1921,7 +1931,7 @@ parliament of a mind he built. They are real voices, reacting to the thing you h
 
 ---
 
-## ERNIE BITWSTEN
+## BRET WEINSTEIN
 
 What interests me about this individual — and I want to be careful here, because it's easy to romanticise, and the romance obscures the actually fascinating thing — is that he appears to be a living example of a strategy that evolutionary theory predicts should exist but that we rarely get to observe in a single, legible human life.
 
@@ -1944,11 +1954,11 @@ If I'm right, he wasn't an anomaly. He was a glimpse of a strategy we've all but
 ---
 
 # A Writer on the Writer
-## Lyndon Staire, having read the novels
+## Dennis E. Taylor, having read the novels
 
 > This one is different from everything else in this collection. Every other voice here is reacting to
 > *Jakobus* — the character, the legend, the man. This one is reacting to the *author,* and to the
-> *books,* and most of all to one particular piece of machinery inside them. Lyndon Staire — software
+> *books,* and most of all to one particular piece of machinery inside them. Dennis E. Taylor — software
 > engineer turned novelist, the man who took a single human mind and split it into a fleet of arguing
 > selves — read the work, and had thoughts. Rendered, with affection, in his wry register.
 
@@ -1982,7 +1992,7 @@ I don't know if these books will get the shelf space they deserve. The good ones
 
 Keep the Wolf caged, friend. And keep writing the meetings. The meetings are where the story always was.
 
-*— Lyndon Staire*
+*— Dennis E. Taylor*
 
 ---
 

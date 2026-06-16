@@ -1,0 +1,17 @@
+{
+  "id": "hbt-broken-crescent",
+  "title": "The Broken Crescent",
+  "working_title": "History Before Time: The Broken Crescent",
+  "protagonist": "Jakobus Swart",
+  "logline": "The cradle-of-civilisation wonders the package tour will never sell — Ur, Babylon, Bamiyan, Palmyra, the sites behind checkpoints and headlines — and a man who has walked worse roads goes in anyway, not to conquer them but to witness what remains before the next war takes the rest.",
+  "blueprint": "Jakobus-led wonder-of-place — the unvisitables belt (Iraq · Afghanistan · Syria · adjacent); grounded not woo; witness-not-saviour; local custodians out-read him; the tourism the world can't have",
+  "market": "literary travel-adventure — forbidden archaeology with documentary honesty and the dignity firewall",
+  "status": "seed",
+  "seq": 7,
+  "graph_color": "#8b6914",
+  "canon_order": [
+    "SEED_STORY.md",
+    "PLACE_RESEARCH.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

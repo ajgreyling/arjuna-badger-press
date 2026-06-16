@@ -1,4 +1,4 @@
-# Deliverables — latest EPUB / PDF / narrator briefs
+# Deliverables — latest EPUB / PDF / cover / narrator briefs
 
 > **Symlinks, not copies.** Every file here is a symbolic link to the **newest** build of that title
 > across both repos (`africangold` = engine/source, `arjuna-badger-press` = library/site). When a
@@ -10,6 +10,7 @@
 |---|---|
 | `ebooks/` | The latest **EPUB** of each of the 20 published titles. |
 | `pdfs/` | The latest **PDF** of each of the 20 published titles. |
+| `covers/` | The latest **cover image** (`.png`) of each title — including books that have a house-style cover but aren't built to EPUB/PDF yet (e.g. the unbuilt *Why Files* drafts). |
 | `narrator-briefs/` | The audiobook narrator briefs (`.pdf` + `.md`) for *The Calendar of Stone* and *The Engineer of the Gods*. |
 
 ## How it was built / to refresh
@@ -21,6 +22,6 @@ modification time). Safe to re-run anytime; it only rewrites the links, never th
 
 - These are **symlinks** — copying this folder elsewhere may not carry the targets. To get real
   copies (e.g. to email or upload), use `cp -L` (follow links): `cp -L _deliverables/pdfs/*.pdf /dest/`.
-- The source files live in each book's `build/export/` (or companions' `export/`). The links resolve
-  to whichever repo holds the freshest build — e.g. *The Loneliest People in the World* points at the
-  copy with the restored "The File" dossier styling.
+- The source files live in each book's `build/export/` (or companions' `export/`); **cover images** live
+  in each book's `design/cover.png`. The links resolve to whichever repo holds the freshest copy — e.g.
+  *The Loneliest People in the World* points at the copy with the restored "The File" dossier styling.

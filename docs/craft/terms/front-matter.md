@@ -6,7 +6,7 @@
 epigraph. "Back matter" is the stuff after the last chapter.
 **In this project:** Built by `merge()`; the dedication/crest live in repo front matter, not
 inside the story.
-**See:** `ARCHITECTURE.md` (D9) · `print-frontmatter` (memory)
+**See:** [`ARCHITECTURE.md`](../ARCHITECTURE.md) (D9) · `print-frontmatter` (memory)
 
 ---
 

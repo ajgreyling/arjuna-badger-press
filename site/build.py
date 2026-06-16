@@ -62,7 +62,10 @@ AUDIOBOOK_NOTICE = (
 WORKSHOP_HOLD = set(
     s.strip() for s in os.environ.get(
         "ABP_WORKSHOP_HOLD",
-        "unheard-japan,unheard-mongolia",
+        # Drafted/export exists but not cleared for public download — sensitivity, polish, or
+        # series sequencing. Everything else with EPUB/PDF on disk is on the public shelf.
+        "unheard-japan,unheard-mongolia,"
+        "modern-sherlock,no-fear-cycle,the-salt-veil",
     ).split(",") if s.strip()
 )
 
@@ -253,6 +256,65 @@ CURATED = [
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
      "_comingsoon/suppressed-tech", "build/export",
      "The inventors who said they had something the world wasn't allowed to keep — read as a careful descent from the documented to the purely believed, holding each man's dignity even where his machine never ran. The official story, the human shock beneath it, the maybe left open. Coming soon."),
+
+    # ── Jakobus spinoffs (drafting — in the workshop) ───────────────────────────────────────────
+    ("jakobus-petra", "The Rose in the Rock", "A Jakobus Swart story", "History Before Time",
+     "history-before-time/books/jakobus-petra", "build/export",
+     "Petra — a city eaten out of rose sandstone. The wonder is what a people built when they owned the trade road, the rain, and the patience to cut a tomb like a promise. Coming soon."),
+    ("jakobus-longyou", "The Straight Darkness", "A Jakobus Swart story", "History Before Time",
+     "history-before-time/books/jakobus-longyou", "build/export",
+     "Twenty-four chambers carved straight from solid rock — no quarry debris, no paper trail — and a fixer who always asks what a made thing is for. Coming soon."),
+    ("jakobus-broken-crescent", "The Broken Crescent", "A Jakobus Swart story", "History Before Time",
+     "history-before-time/books/jakobus-broken-crescent", "build/export",
+     "Ur, Babylon, Bamiyan, Palmyra — the cradle-of-civilisation wonders the package tour will never sell. A witness walk, not a conquest. Coming soon."),
+
+    # ── HBT novellas (draft complete — sensitivity gate) ────────────────────────────────────────
+    ("hbt-caves", "The Deepest Floor", "History Before Time · Novella", "History Before Time",
+     "_comingsoon/hbt-caves", "build/export",
+     "A record-deep descent under the Klein Karoo — and a dolomite floor the ancients tuned for a purpose the cave will only reveal if it doesn't kill her first. Coming soon."),
+    ("hbt-sudwala", "The Breathing Dark", "History Before Time · Novella", "History Before Time",
+     "_comingsoon/hbt-sudwala", "build/export",
+     "Sudwala breathes — six hundred metres of show cave and a wind no survey has ever traced to its source. Coming soon."),
+
+    # ── Standalone (drafting) ───────────────────────────────────────────────────────────────────
+    ("the-first-unplugged", "The First Unplugged", "A standalone novel", "Standalones",
+     "_comingsoon/the-first-unplugged", "build/export",
+     "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment. Coming soon."),
+
+    # ── Not a Potato — Why Files slate (draft/scaffold — in the workshop) ───────────────────────
+    ("anunnaki-mesopotamia", "The Princely Offspring", "Not a Potato", "Not a Potato",
+     "_comingsoon/anunnaki-mesopotamia", "build/export",
+     "Ancient Mesopotamia — the ancient-aliens founding myth played straight, then killed in the cuneiform; the real hole is the Bible's Mesopotamian sources. Coming soon."),
+    ("nazca-lines", "From the Air", "Not a Potato", "Not a Potato",
+     "_comingsoon/nazca-lines", "build/export",
+     "The Nazca Lines — geoglyphs only visible from above, cut centuries before anyone here could fly. The official story, the one hole, the maybe left open. Coming soon."),
+    ("atacama-paracas", "Aimed at the Sea", "Not a Potato", "Not a Potato",
+     "_comingsoon/atacama-paracas", "build/export",
+     "The Atacama Giant and the Paracas Candelabra — two coastal geoglyphs aimed at the Pacific. Coming soon."),
+    ("nan-madol", "The Spaces Between", "Not a Potato", "Not a Potato",
+     "_comingsoon/nan-madol", "build/export",
+     "Nan Madol — a city of basalt logs on a Micronesian reef, raised when the textbook says no one here could have raised it. Coming soon."),
+    ("newark-earthworks", "The Eighteen-Year Almanac", "Not a Potato", "Not a Potato",
+     "_comingsoon/newark-earthworks", "build/export",
+     "The Newark Earthworks — an Ohio geometry aligned to an eighteen-year lunar cycle. Coming soon."),
+    ("serpent-mound", "The Serpent's Age", "Not a Potato", "Not a Potato",
+     "_comingsoon/serpent-mound", "build/export",
+     "The Great Serpent Mound — a serpent swallowing an egg, older than the peoples the brochure assigns it to. Coming soon."),
+    ("poverty-point", "Ninety Days", "Not a Potato", "Not a Potato",
+     "_comingsoon/poverty-point", "build/export",
+     "Poverty Point — a Louisiana earthwork raised in ninety days by a culture with no wheels and no beasts of burden. Coming soon."),
+    ("puma-punku", "The Unknown Corner", "Not a Potato", "Not a Potato",
+     "_comingsoon/puma-punku", "build/export",
+     "Puma Punku — precision-cut andesite at altitude, the corner the official story can't quite account for. Coming soon."),
+    ("sajama-lines", "The Long Straight", "Not a Potato", "Not a Potato",
+     "_comingsoon/sajama-lines", "build/export",
+     "The Sajama Lines — thousands of straight furrows in the Bolivian altiplano, visible only from the air. Coming soon."),
+    ("uffington", "The Scouring", "Not a Potato", "Not a Potato",
+     "_comingsoon/uffington", "build/export",
+     "The Uffington White Horse — scoured into the chalk for three thousand years; the oldest hill figure in Britain. Coming soon."),
+    ("yonaguni", "Made or Not", "Not a Potato", "Not a Potato",
+     "_comingsoon/yonaguni", "build/export",
+     "The Yonaguni Monument — a submerged terrace off Japan; natural fracture or cut stone, and Jakobus's gift meets its limit. Coming soon."),
 ]
 
 
@@ -988,7 +1050,9 @@ def card(e: dict, accent: str) -> str:
         badge = '<span class="badge">New chapters daily</span>'
         dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the serial →</a></div>'
     elif not e["available"]:
-        badge = '<span class="badge soon">In the workshop</span>'
+        soon_lbl = ("Coming soon" if "_comingsoon" in e["root"].parts
+                    else "In the workshop")
+        badge = f'<span class="badge soon">{soon_lbl}</span>'
     href = f"book/{e['id']}.html"
     return f"""<div class="card" style="--accent:{accent}">
 <a class="coverlink" href="{href}">{cover}</a>
@@ -1515,7 +1579,12 @@ def render_book(e: dict) -> str:
     wiki = ""
     if (WIKI_DIR / f"{e['id']}.md").is_file():
         wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
-    soon = "" if e["available"] else '<p style="color:var(--ochre);margin-top:18px">In the workshop — drafting now. Check back soon.</p>'
+    if e["available"]:
+        soon = ""
+    elif "_comingsoon" in e["root"].parts:
+        soon = '<p style="color:var(--ochre);margin-top:18px">Coming soon — on the shelf, not released yet.</p>'
+    else:
+        soon = '<p style="color:var(--ochre);margin-top:18px">In the workshop — drafting now. Check back soon.</p>'
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),

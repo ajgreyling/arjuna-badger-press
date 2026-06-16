@@ -6,7 +6,7 @@
 setting, and POV — written before drafting.
 **In this project:** Stage 1 of the pipeline; an AI "structure brain" produces it, blueprint-
 aware. Output is machine-readable.
-**See:** `CLAUDE.md` (pipeline stage 1) · `books/relic/build/log/outline.raw.md`
+**See:** [`CLAUDE.md`](../CLAUDE.md) (pipeline stage 1) · `books/relic/build/log/outline.raw.md`
 
 ---
 
