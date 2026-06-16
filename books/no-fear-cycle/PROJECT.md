@@ -78,8 +78,8 @@ See [`canon/SERIES_SPINE.md`](canon/SERIES_SPINE.md).
 | [`manuscript/FOREWORD--syama-pedersen.md`](manuscript/FOREWORD--syama-pedersen.md) | Foreword (homage voice) |
 | [`manuscript/PROLOGUE.md`](manuscript/PROLOGUE.md) | Metaurus HUD — the strike lands |
 | [`manuscript/ch-01--ordnance-pending.md`](manuscript/ch-01--ordnance-pending.md) | Book I opening — the cultists come |
-| [`canon/DEDICATION_BOOK.md`](canon/DEDICATION_BOOK.md) | **For Daniel** — platform demo dedication |
-| [`design/cover.jpg`](design/cover.jpg) | **Selected cover A — *Ordinance*** (6×9 full bleed) |
+| [`canon/DEDICATION_BOOK.md`](canon/DEDICATION_BOOK.md) | **For Daniel** — WH40K fan dedication |
+| [`design/cover.jpg`](design/cover.jpg) | **Selected cover E — *Ordinance* enhanced** (6×9 portrait full bleed) |
 | [`design/IMAGE_COMPENDIUM.md`](design/IMAGE_COMPENDIUM.md) | All four cover explorations + credits |
 | [`build/export/Ordinance Pending.pdf`](build/export/Ordinance%20Pending.pdf) | Demo PDF — cover + prose + compendium |
 | [`build/export/Ordinance Pending.epub`](build/export/Ordinance%20Pending.epub) | Demo EPUB — read on device |
@@ -89,5 +89,6 @@ See [`canon/SERIES_SPINE.md`](canon/SERIES_SPINE.md).
 ```bash
 ./scripts/merge_book.py              # assemble build/BOOK.md
 ./scripts/build_demo_pdf.sh          # 6×9 PDF with cover + alternate covers appendix
-./scripts/build_demo_epub.sh         # EPUB (pandoc-free; cover embedded)
+./scripts/build_demo_epub.sh         # EPUB (cover embedded)
+python3 design/make_cover.py         # regenerate Cover E composite
 ```
