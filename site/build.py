@@ -201,7 +201,7 @@ CURATED = [
 
     ("no-fear-cycle", "Ordinance Pending", "The No-Fear Cycle · Book One", "The No-Fear Cycle",
      "no-fear-cycle", "build/export",
-     "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. For readers of Gaunt's Ghosts and the Astartes. Demo edition — for Daniel."),
+     "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. Book One of a finite five-novel cycle. For readers of Gaunt's Ghosts and the Astartes."),
 
     ("the-salt-veil", "The Salt Veil", "A desert epic-fantasy series · Book One", "The Salt Veil",
      "the-salt-veil", "build/export",

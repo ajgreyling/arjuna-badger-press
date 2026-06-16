@@ -1,0 +1,1 @@
+Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. Book One of a finite five-novel cycle. For readers of Gaunt's Ghosts and the Astartes.

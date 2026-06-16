@@ -4,17 +4,19 @@
 > generated art** (2026) — not Games Workshop official artwork. Unauthorised fan-fiction setting;
 > covers are platform demo only.
 
-## Selected cover (front of PDF)
+## Selected cover (front of PDF / EPUB)
 
-**Cover A — *Ordinance*** — lone blue-armoured soldier on the ridge under orbital fire. Matches the
-Prologue strike and reads at thumbnail size.
+**Cover E — *Ordinance* (enhanced)** — portrait 6×9″ @ 300 dpi composite of the Cover A illustration
+with Atkinson Hyperlegible typography, contrast boost, and Arjuna Badger Press imprint. Lone
+blue-armoured soldier on the ridge under orbital fire — matches the Prologue strike and reads at
+thumbnail size.
 
-![Selected cover — Ordinance Pending, Cover A](covers/cover-a-ordinance.png)
+![Selected cover — Ordinance Pending, Cover E](covers/cover-e-ordinance-enhanced.png)
 
 - **File:** `design/cover.jpg` (also `design/cover.png`)
-- **Source:** Arjuna Badger Press platform demo — original generated art
+- **Source:** Cover A art + `design/make_cover.py` (Arjuna Badger Press house composite)
 - **Credit:** Arjuna Badger Press / Andries J. Greyling, 2026
-- **Use:** Front cover · PDF page 1 full bleed
+- **Use:** Front cover · PDF page 1 full bleed · EPUB cover image
 
 ---
 
@@ -58,10 +60,11 @@ Blue eye in bolter reflection — Titus ontology; literary minimal.
 
 | Cover | Role | File |
 |---|---|---|
-| **A — Ordinance** | **Selected** | `design/cover.jpg` |
+| A — Ordinance | Source art | `design/covers/cover-a-ordinance.png` |
 | B — HUD | Alternate | `design/covers/cover-b-hud.png` |
 | C — The Ridge | Alternate | `design/covers/cover-c-ridge.png` |
 | D — No Fear | Alternate | `design/covers/cover-d-eye.png` |
+| **E — Ordinance (enhanced)** | **Selected** | `design/cover.jpg` |
 
 All art © 2026 Andries J. Greyling / Arjuna Badger Press. Demo only; not for commercial use with
 Games Workshop trademarks.

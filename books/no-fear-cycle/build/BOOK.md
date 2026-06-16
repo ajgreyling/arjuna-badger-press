@@ -10,7 +10,7 @@ Andries J. Greyling
 
 Copyright © 2026 Andries J. Greyling. All rights reserved.
 
-Unauthorised fan fiction. *Warhammer 40,000* is the intellectual property of Games Workshop Limited. This demo is an Arjuna Badger Press platform exercise only — not a licensed product.
+Unauthorised fan fiction. *Warhammer 40,000* is the intellectual property of Games Workshop Limited. This work is not a licensed Games Workshop product.
 
 ISBN: pending
 
