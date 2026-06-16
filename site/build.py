@@ -225,7 +225,7 @@ CURATED = [
      "A neurodiverse crew traces the covenant road backward — from Bethlehem in the Free State to Bethlehem in the West Bank — along a chain of checkable stones and living guardians, and learns the Holy Land is not a puzzle to solve but a presence to witness, for believers of every religion and none. Coming soon."),
 
     ("jakobus-the-long-dark", "The Long Dark", "A Jakobus Swart story", "History Before Time",
-     "_comingsoon/jakobus-the-long-dark", "build/export",
+     "history-before-time/books/jakobus-the-long-dark", "build/export",
      "Home — South Africa — in the year the grid does not come back. The fixer at the end of the road, and the gift he spent a whole life learning how to give: making sure that when the lights go out for good, nobody's night dies. A grounded collapse-survival story — real bushcraft, told straight — and the one that carries Jakobus Swart's last chapter. For readers of Cormac McCarthy & Lewis Dartnell. Coming soon."),
 
     ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
