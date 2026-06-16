@@ -204,8 +204,8 @@ CURATED = [
      "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. For readers of Gaunt's Ghosts and the Astartes. Demo edition — for Daniel."),
 
     ("the-salt-veil", "The Salt Veil", "A desert epic-fantasy series · Book One", "The Salt Veil",
-     "_comingsoon/the-salt-veil", "build/export",
-     "In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. A desert epic-fantasy. Coming soon."),
+     "the-salt-veil", "build/export",
+     "In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy — Book One."),
 
     ("house-of-bread", "House of Bread", "The Unheard · Holy Land", "The Unheard",
      "_comingsoon/house-of-bread", "build/export",
