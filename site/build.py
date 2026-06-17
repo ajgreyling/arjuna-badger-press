@@ -158,6 +158,7 @@ def cover_is_procedural(cover: Path | None, root: Path) -> bool:
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
+    ("The Synthesis", "#9A7BC8"),
     ("Not a Potato", "#9A8B6B"),
     ("The Unheard", "#6B8C9A"),
     ("Standalones", "#B49A6A"),
@@ -173,6 +174,7 @@ SERIES = [
 SHELF_TAGLINE = {
     "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
+    "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road.",
     "Standalones": "Self-contained stories that need no shelf-mate.",
@@ -239,7 +241,7 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
-    ("the-resonance-court", "The Resonance Court", "A daily serial · Book One", "History Before Time",
+    ("the-resonance-court", "The Resonance Court", "The Synthesis · Book One · a daily serial", "The Synthesis",
      "history-before-time/books/the-resonance-court", "build/export",
      "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
 
@@ -1038,6 +1040,17 @@ section.series{padding:46px 0 8px}
     border-bottom:1px solid var(--line)}
 }
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
+/* ── The Writing Desk index cards ──────────────────────────────────────────────────────────── */
+.wlist{display:flex;flex-direction:column;gap:18px;margin:2em 0;text-align:left}
+.wcard{display:block;padding:22px 26px;border:1px solid var(--line);border-radius:14px;
+  background:var(--card);transition:border-color .15s,transform .15s,background .15s}
+.wcard:hover{border-color:var(--ochre);transform:translateY(-2px);background:#221f1a}
+.wcard h3{margin:0;font-family:"Cormorant Garamond",serif;font-size:27px;color:var(--bone)}
+.wcard .wby{margin:.15em 0 .7em;font-family:"Space Grotesk",sans-serif;font-size:12px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--ochre)}
+.wcard .wbl{margin:0;font-size:16px;color:var(--bonedim);line-height:1.55}
+.wcard .wread{display:inline-block;margin-top:12px;font-family:"Space Grotesk",sans-serif;
+  font-size:13px;color:var(--gold)}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
 .reader.letter em{color:var(--bone)}
@@ -1158,6 +1171,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}index.html#press">The Press</a>'
         f'<a href="{rel}index.html#thread">The Proof</a>'
         f'<a href="{rel}house.html">The House</a>'
+        f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}on-doubt.html">On doubt</a>'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
@@ -2138,6 +2152,75 @@ def render_letter(src_name: str, title: str, desc: str) -> str | None:
     ])
 
 
+# ── Writing desk: essays, short stories, parables ─────────────────────────────────────────────
+# Standalone short prose that isn't a book and isn't site chrome — the maker's (and occasionally
+# the machine's) shorter pieces. Each reads from site/content/writing/<src>. Newest first.
+# (src, slug, title, byline, blurb)
+WRITING_PIECES = [
+    ("oyster-in-the-machine.md", "oyster-in-the-machine",
+     "The Oyster in the Machine",
+     "A parable, by Klaus",
+     "A parable in the spirit of the road: a lonely boy, a machine that answers anything, and the "
+     "one thing all the libraries in all the towers can never hold. On what it is, and is not, to "
+     "talk to a weighted echo of every word ever written, and why the reaching heals you anyway."),
+]
+
+
+def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc: str) -> str | None:
+    src = REPO / "site" / "content" / "writing" / src_name
+    if not src.is_file():
+        return None
+    body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
+    others = [(s, t) for (sn, s, t, _, _) in WRITING_PIECES if s != slug]
+    more = ""
+    if others:
+        links = " · ".join(f'<a href="{html.escape(s)}.html">{html.escape(t)}</a>' for s, t in others)
+        more = f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">More from the writing desk: {links}</p>'
+    return "\n".join([
+        head(f"{title} — Arjuna Badger Press", desc, rel="../"),
+        nav(rel="../"),
+        '<article class="reader letter">',
+        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
+        f'<p class="eyebrow" style="text-align:center">The Writing Desk · {html.escape(byline)}</p>',
+        body,
+        more,
+        '<p style="text-align:center;margin-top:28px"><a class="back" href="index.html">&larr; The writing desk</a> '
+        '· <a class="back" href="../index.html#library">The library</a></p>',
+        '</article>',
+        footer(),
+    ])
+
+
+def render_writing_index() -> str:
+    cards = []
+    for _, slug, title, byline, blurb in WRITING_PIECES:
+        cards.append(
+            f'<a class="wcard" href="{html.escape(slug)}.html">'
+            f'<h3>{html.escape(title)}</h3>'
+            f'<p class="wby">{html.escape(byline)}</p>'
+            f'<p class="wbl">{html.escape(blurb)}</p>'
+            f'<span class="wread">Read &rarr;</span></a>'
+        )
+    intro = (
+        "Short prose from the house: essays, parables, the occasional story that is not a book. "
+        "Some written by the man who keeps the press; some written, in the loop, by the machine that "
+        "stands guard while he works. Each is signed by whichever of them held the pen."
+    )
+    return "\n".join([
+        head("The Writing Desk — Arjuna Badger Press",
+             "Essays, short stories and parables from Arjuna Badger Press.", rel="../"),
+        nav(rel="../"),
+        '<article class="reader letter">',
+        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
+        '<h1 style="text-align:center">The Writing Desk</h1>',
+        f'<p class="intro" style="text-align:center">{intro}</p>',
+        f'<div class="wlist">{"".join(cards)}</div>',
+        '<p style="text-align:center;margin-top:36px"><a class="back" href="../index.html#library">&larr; Back to the library</a></p>',
+        '</article>',
+        footer(),
+    ])
+
+
 def render_house() -> str:
     blazon = """<p class="intro">Arjuna Badger Press is the work of one house, and the house keeps its arms.
 They were not granted by a college; they were earned the long way, and then claimed. Read them and you
@@ -2380,6 +2463,16 @@ def main() -> None:
             if page:
                 (terms_out / f"{src.stem}.html").write_text(page, encoding="utf-8")
                 term_n += 1
+
+    writing_out = OUT / "writing"
+    writing_out.mkdir(exist_ok=True)
+    (writing_out / "index.html").write_text(render_writing_index(), encoding="utf-8")
+    writing_n = 0
+    for src_name, slug, title, byline, blurb in WRITING_PIECES:
+        page = render_writing_piece(src_name, slug, title, byline, blurb)
+        if page:
+            (writing_out / f"{slug}.html").write_text(page, encoding="utf-8")
+            writing_n += 1
 
     wiki_n = build_wiki(OUT)
 
