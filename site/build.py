@@ -150,7 +150,10 @@ HIDE_SERIES = set(
 HIDE_BOOKS = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_BOOKS",
-        "the-resonance-court",
+        "the-resonance-court,"
+        # The First Unplugged: drafted + EPUB vendored, but held off the site entirely
+        # (no card/page/download) until cleared to surface.
+        "the-first-unplugged",
     ).split(",") if s.strip()
 )
 
