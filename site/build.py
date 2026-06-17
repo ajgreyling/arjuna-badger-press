@@ -1802,6 +1802,11 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
     out = re.sub(r"terms/([a-z0-9-]+)\.md", r"terms/\1.html", out)
     if in_terms:
         out = re.sub(r"\]\(([a-z0-9-]+)\.md\)", r"](\1.html)", out)
+    # Any markdown link still pointing at a .md after the rewrites above targets a PRIVATE source
+    # doc with no public page (CLAUDE.md, ARCHITECTURE.md, .claude/skills/*/SKILL.md, academic/*).
+    # Those 404 on the public site and signpost repo internals — unlink them to plain text rather
+    # than ship a dead link. (Real craft cross-links became .html above and are unaffected.)
+    out = re.sub(r"\[([^\]]+)\]\((?:\.{0,2}/)?[^)\s]*\.md(?:#[^)\s]*)?\)", r"\1", out)
     return out
 
 
