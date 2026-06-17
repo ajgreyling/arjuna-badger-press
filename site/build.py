@@ -139,8 +139,9 @@ HIDE_SERIES = set(
 HIDE_BOOKS = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_BOOKS",
-        # the-first-unplugged: the Stranger in a Strange Land retelling stays PRIVATE — dropped
-        # entirely from the site (no card, page, download, read-online), by explicit request.
+        # the-first-unplugged: the Stranger in a Strange Land retelling stays PRIVATE — EPUB is
+        # vendored into the repo but the book is dropped from the site entirely (no card, page,
+        # download, read-online), by explicit request, until cleared to surface.
         "the-resonance-court,the-first-unplugged",
     ).split(",") if s.strip()
 )
