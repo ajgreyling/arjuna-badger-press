@@ -78,7 +78,7 @@ WORKSHOP_HOLD = set(
         # Drafted/export exists but not cleared for public download — sensitivity, polish, or
         # series sequencing. Must also be in PUBLISHED to ever show downloads.
         "unheard-japan,unheard-mongolia,"
-        "modern-sherlock,no-fear-cycle,the-salt-veil,"
+        "modern-sherlock,no-fear-cycle,"
         "southern-coast",
     ).split(",") if s.strip()
 )
@@ -98,7 +98,8 @@ PUBLISHED = set(
         "crop-circles,"
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
-        "the-song-of-the-self,wrath-of-achilles",
+        "the-song-of-the-self,wrath-of-achilles,"
+        "the-salt-veil",
     ).split(",") if s.strip()
 )
 
@@ -111,7 +112,8 @@ PUBLISHED = set(
 SERIAL = set(
     s.strip() for s in os.environ.get(
         "ABP_SERIAL",
-        "the-resonance-court",
+        "apex-alphas,"
+        "the-salt-veil",
     ).split(",") if s.strip()
 )
 
@@ -139,7 +141,7 @@ PROCEDURAL_SHOW = set(
 HIDE_SERIES = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_SERIES",
-        "Not a Potato,The Unheard,The Salt Veil",
+        "Not a Potato,The Unheard",
     ).split(",") if s.strip()
 )
 
@@ -150,7 +152,7 @@ HIDE_SERIES = set(
 HIDE_BOOKS = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_BOOKS",
-        "the-resonance-court,"
+        "apex-alphas,"
         # The First Unplugged: drafted + EPUB vendored, but held off the site entirely
         # (no card/page/download) until cleared to surface.
         "the-first-unplugged",
@@ -257,8 +259,8 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
-    ("the-resonance-court", "The Resonance Court", "The Synthesis · Book One · a daily serial", "The Synthesis",
-     "history-before-time/books/the-resonance-court", "build/export",
+    ("apex-alphas", "Apex Alphas", "The Synthesis · Book One · a daily serial", "The Synthesis",
+     "history-before-time/books/apex-alphas", "build/export",
      "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
@@ -311,9 +313,9 @@ CURATED = [
      "no-fear-cycle", "build/export",
      "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. Book One of a finite five-novel cycle. For readers of Gaunt's Ghosts and the Astartes."),
 
-    ("the-salt-veil", "The Salt Veil", "A desert epic-fantasy series · Book One", "The Salt Veil",
+    ("the-salt-veil", "Daughters of the Dust Throne", "A desert epic-fantasy series · Book One", "The Salt Veil",
      "the-salt-veil", "build/export",
-     "In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy — Book One."),
+     "A girl is born carrying a gift the whole desert fears, and tells the story of it years later, knowing how it ends. In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy — Book One. (Opening chapters; new chapters in progress.)"),
 
     ("the-salt-veil-2", "The First Key", "A desert epic-fantasy series · Book Two", "The Salt Veil",
      "_comingsoon/the-salt-veil-2", "build/export",
@@ -1838,7 +1840,7 @@ def render_book(e: dict) -> str:
     # the reverent catalogue one click away. This is the project's best context for anyone who arrives
     # to judge it (a named figure, a lawyer, a curious reader) — the whole shelf is free, careful with
     # other people's sacred things, and made for the joy of it. The Court is one more tribute, louder.
-    if e["id"] == "the-resonance-court":
+    if e["id"] == "apex-alphas":
         serial_note += (
             '<div style="margin-top:22px;padding:18px 20px;border:1px solid var(--line);'
             'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
