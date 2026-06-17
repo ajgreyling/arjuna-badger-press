@@ -130,6 +130,17 @@ HIDE_SERIES = set(
     ).split(",") if s.strip()
 )
 
+# Book IDS here are dropped from the site ENTIRELY, same as HIDE_SERIES but for a single title on a
+# shelf you want to keep — no card, page, downloads, or read-online (and a serial is de-listed too).
+# Use when a shelf-wide hide is too broad (e.g. one serial on the busy History Before Time shelf).
+# Env ABP_HIDE_BOOKS (comma-separated) overrides this default.
+HIDE_BOOKS = set(
+    s.strip() for s in os.environ.get(
+        "ABP_HIDE_BOOKS",
+        "the-resonance-court",
+    ).split(",") if s.strip()
+)
+
 
 def cover_is_procedural(cover: Path | None, root: Path) -> bool:
     """True when the resolved cover is a small generated placeholder, not a cinematic plate."""
@@ -670,6 +681,8 @@ def scan() -> list[dict]:
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
         if series in HIDE_SERIES:
             continue  # whole shelf hidden — no card, no page, no downloads
+        if cid in HIDE_BOOKS:
+            continue  # single title hidden by id — no card, page, downloads, or read-online
         root = BOOKS / rootrel
         exp = root / expsub
         downloads = []
