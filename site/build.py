@@ -87,7 +87,8 @@ PUBLISHED = set(
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
         "dust-throne,apex-alphas,"
-        "the-salt-veil",
+        "the-salt-veil,"
+        "voynich-manuscript",
     ).split(",") if s.strip()
 )
 
@@ -337,9 +338,9 @@ CURATED = [
     ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
      "_comingsoon/gobekli-tepe", "build/export",
      "Göbekli Tepe — the temple older than the plough, raised by hunter-gatherers a textbook said could not have raised it. The official story, played straight; the one accepted shock it can't explain away; the maybe left open for you to decide. Coming soon."),
-    ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato", "Not a Potato",
-     "_comingsoon/voynich-manuscript", "build/export",
-     "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. The story of the object, played straight — and the one hole the explanations never close. Coming soon."),
+    ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato · Book One", "Not a Potato",
+     "voynich-manuscript", "build/export",
+     "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions — not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close."),
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
      "_comingsoon/suppressed-tech", "build/export",
      "The inventors who said they had something the world wasn't allowed to keep — read as a careful descent from the documented to the purely believed, holding each man's dignity even where his machine never ran. The official story, the human shock beneath it, the maybe left open. Coming soon."),
@@ -1759,6 +1760,10 @@ BOOK_KEYWORDS = {
                         "Madeline Miller readers, Trojan War, free ebook",
     "the-loneliest": "literary fiction, Kazuo Ishiguro readers, quiet literary novel, loneliness, "
                      "book club fiction, free literary ebook",
+    # Voynich — for the unsolved-mystery / cryptography / archaeology-mystery crowd.
+    "voynich-manuscript": "Voynich Manuscript, Beinecke MS 408, unsolved mystery, undeciphered "
+                         "manuscript, cryptography, unbroken code, medieval manuscript, lost language, "
+                         "Graham Hancock readers, ancient mystery, archaeology mystery, free mystery ebook",
 }
 
 
