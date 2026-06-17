@@ -86,7 +86,8 @@ PUBLISHED = set(
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
-        "dust-throne,apex-alphas",
+        "dust-throne,apex-alphas,"
+        "the-salt-veil",
     ).split(",") if s.strip()
 )
 
