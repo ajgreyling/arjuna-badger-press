@@ -126,7 +126,7 @@ PROCEDURAL_SHOW = set(
 HIDE_SERIES = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_SERIES",
-        "Not a Potato,The Unheard",
+        "Not a Potato,The Unheard,The Salt Veil",
     ).split(",") if s.strip()
 )
 
