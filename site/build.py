@@ -2025,6 +2025,10 @@ def docs_rewrite_links(md: str) -> str:
     out = out.replace("(BOUNTY_FORM_URL)", f"({BOUNTY_FORM_URL or 'bounty.html'})")
     # The WhatsApp Channel invite — same fallback pattern.
     out = out.replace("(WHATSAPP_CHANNEL_URL)", f"({WHATSAPP_CHANNEL_URL or 'bounty.html'})")
+    # Any link still pointing at a .md targets a PRIVATE source doc with no public page
+    # (THESIS.md, MISOGI.md, ORIGINS.md, academic/*, …). Those 404 on the site and signpost repo
+    # internals — unlink to plain text rather than ship a dead link. (Same rule as craft pages.)
+    out = re.sub(r"\[([^\]]+)\]\((?:\.{0,2}/)?[^)\s]*\.md(?:#[^)\s]*)?\)", r"\1", out)
     return out
 
 
