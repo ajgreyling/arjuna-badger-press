@@ -2,7 +2,7 @@
   <rect width="400" height="620" fill="#161513"/>
   <rect x="16" y="16" width="368" height="588" fill="none" stroke="#9A8B6B" stroke-width="1.5" rx="6" opacity="0.8"/>
   <rect x="24" y="24" width="352" height="572" fill="none" stroke="#9A8B6B" stroke-width="0.6" rx="4" opacity="0.4"/>
-  <text x="200" y="92" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#9A8B6B">THE WHY FILES · BOOK I</text>
+  <text x="200" y="92" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#9A8B6B">NOT A POTATO</text>
   <line x1="150" y1="110" x2="250" y2="110" stroke="#9A8B6B" stroke-width="1" opacity="0.7"/>
   <circle cx="200" cy="250" r="52" fill="none" stroke="#9A8B6B" stroke-width="0.8" opacity="0.18"/>
   <text x="200" y="302" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="600" font-size="38" fill="#EDE9E0">The Field of</text><text x="200" y="348" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-weight="600" font-size="38" fill="#EDE9E0">Doors</text>
