@@ -160,17 +160,18 @@ def cover_is_procedural(cover: Path | None, root: Path) -> bool:
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
 SERIES = [
+    ("Non-fiction", "#7BA88C"),
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
-    ("Not a Potato", "#9A8B6B"),
-    ("The Unheard", "#6B8C9A"),
-    ("Standalones", "#B49A6A"),
-    ("Non-fiction", "#7BA88C"),
     ("Companions", "#8C7BA8"),
-    ("The Reichenbach Files", "#4a5568"),
-    ("The No-Fear Cycle", "#1e3a8a"),
+    ("The Synthesis", "#9A7BC8"),
     ("The Salt Veil", "#B0814A"),
     ("The Dust Throne", "#8A5A2C"),
+    ("The Unheard", "#6B8C9A"),
+    ("Not a Potato", "#9A8B6B"),
+    ("The No-Fear Cycle", "#1e3a8a"),
+    ("The Reichenbach Files", "#4a5568"),
+    ("Standalones", "#B49A6A"),
 ]
 
 # Per-shelf tagline shown under each series heading on the library. One evocative line in
@@ -183,6 +184,7 @@ SHELF_TAGLINE = {
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
+    "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
     "The Reichenbach Files": "Sherlock Holmes for now — modern retellings, true to the original.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
