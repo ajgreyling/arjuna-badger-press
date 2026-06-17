@@ -1117,22 +1117,31 @@ def plausible_snippet() -> str:
     )
 
 
-def head(title: str, desc: str, rel: str = "", keywords: str = "") -> str:
+def head(title: str, desc: str, rel: str = "", keywords: str = "",
+         canonical: str = "", og_image: str = "", og_type: str = "website",
+         ld_json: str = "") -> str:
     kw = f'\n<meta name="keywords" content="{html.escape(keywords)}">' if keywords else ""
+    # Canonical URL — collapses duplicate-content signals; every page should declare its one true URL.
+    canon = f'\n<link rel="canonical" href="{html.escape(canonical)}">' if canonical else ""
+    og_url = canonical or DOMAIN
+    img = og_image or f"{DOMAIN}/assets/brand/social-og-1200x630.png"
+    ld = f'\n<script type="application/ld+json">{ld_json}</script>' if ld_json else ""
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
-<meta name="description" content="{html.escape(desc)}">{kw}
+<meta name="description" content="{html.escape(desc)}">{kw}{canon}
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
-<meta property="og:type" content="website"><meta property="og:url" content="{DOMAIN}">
-<meta property="og:image" content="{DOMAIN}/assets/brand/social-og-1200x630.png">
+<meta property="og:type" content="{og_type}"><meta property="og:url" content="{html.escape(og_url)}">
+<meta property="og:image" content="{html.escape(img)}">
+<meta property="og:site_name" content="Arjuna Badger Press">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{html.escape(img)}">
 <link rel="icon" type="image/png" sizes="32x32" href="{rel}assets/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="{rel}assets/brand/favicon-180.png">
 {FONTS}
 <link rel="stylesheet" href="{rel}assets/site.css">
-{plausible_snippet()}
+{plausible_snippet()}{ld}
 </head><body>"""
 
 
@@ -1753,6 +1762,36 @@ BOOK_KEYWORDS = {
 }
 
 
+def book_ld_json(e: dict) -> str:
+    """schema.org/Book structured data — Google rich results (author, title, free-to-read, format)."""
+    import json as _json
+    ext = "png" if e["real_cover"] else "svg"
+    data = {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": e["title"],
+        "author": {"@type": "Person", "name": "Andries J. Greyling"},
+        "publisher": {"@type": "Organization", "name": "Arjuna Badger Press"},
+        "url": f'{DOMAIN}/book/{e["id"]}.html',
+        "image": f'{DOMAIN}/assets/covers/{e["id"]}.{ext}',
+        "inLanguage": "en",
+    }
+    if e["series"]:
+        data["isPartOf"] = {"@type": "BookSeries", "name": e["series"]}
+    blurb = (e.get("blurb") or "").strip()
+    if blurb:
+        data["description"] = truncate(blurb, 300)
+    # Free-to-read offer (the whole library is free) — eligible for the price=0 rich-result badge.
+    if e["available"]:
+        data["offers"] = {"@type": "Offer", "price": "0", "priceCurrency": "USD",
+                          "availability": "https://schema.org/InStock"}
+        data["isAccessibleForFree"] = True
+        if e.get("book_md") or e.get("reader_md"):
+            data["workExample"] = {"@type": "Book", "bookFormat": "https://schema.org/EBook",
+                                   "url": f'{DOMAIN}/read/{e["id"]}.html', "isAccessibleForFree": True}
+    return _json.dumps(data, ensure_ascii=False)
+
+
 def render_book(e: dict) -> str:
     cover = f'assets/covers/{e["id"]}.png' if e["real_cover"] else f'assets/covers/{e["id"]}.svg'
     dls = ""
@@ -1812,7 +1851,11 @@ def render_book(e: dict) -> str:
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
-             keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS)),
+             keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS),
+             canonical=f'{DOMAIN}/book/{e["id"]}.html',
+             og_image=f'{DOMAIN}/assets/covers/{e["id"]}.{"png" if e["real_cover"] else "svg"}',
+             og_type="book",
+             ld_json=book_ld_json(e)),
         nav(rel="../"),
         f"""<div class="wrap"><div class="bookhero">
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
@@ -2274,6 +2317,51 @@ def render_reader(e: dict) -> str:
     ])
 
 
+def write_sitemap_and_robots(out: Path) -> int:
+    """Walk every emitted .html and write a complete sitemap.xml + a crawl-friendly robots.txt.
+    Walking real files (not a hand-list) keeps the sitemap accurate as pages come and go."""
+    urls = []
+    for p in sorted(out.rglob("*.html")):
+        rel = p.relative_to(out).as_posix()
+        if rel == "index.html":
+            loc = f"{DOMAIN}/"
+            prio, freq = "1.0", "weekly"
+        else:
+            loc = f"{DOMAIN}/{rel}"
+            # books, read pages, and the learn/landing surfaces rank higher than deep term pages
+            if rel.startswith(("book/", "read/")):
+                prio, freq = "0.8", "weekly"
+            elif rel in ("learn.html", "start.html") or rel in ("wiki/index.html", "craft/index.html"):
+                prio, freq = "0.7", "weekly"
+            elif rel.startswith("craft/terms/"):
+                prio, freq = "0.4", "monthly"
+            else:
+                prio, freq = "0.6", "monthly"
+        urls.append((loc, prio, freq))
+
+    body = "\n".join(
+        f'  <url><loc>{html.escape(u)}</loc>'
+        f'<changefreq>{f}</changefreq><priority>{p}</priority></url>'
+        for u, p, f in urls
+    )
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"{body}\n</urlset>\n"
+    )
+    (out / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+
+    robots = (
+        "# arjunabadger.press — free library; crawl freely.\n"
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        f"Sitemap: {DOMAIN}/sitemap.xml\n"
+    )
+    (out / "robots.txt").write_text(robots, encoding="utf-8")
+    return len(urls)
+
+
 def main() -> None:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -2368,10 +2456,14 @@ def main() -> None:
 
     wiki_n = build_wiki(OUT)
 
+    # ── SEO: sitemap.xml (every emitted page) + robots.txt ──────────────────────────────────────
+    sm_n = write_sitemap_and_robots(OUT)
+
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
-          f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages -> {OUT}")
+          f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages, "
+          f"{sm_n} urls in sitemap -> {OUT}")
 
     # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
     # The trap: a book's real cover sits ON DISK but is UNTRACKED in git. Every LOCAL build looks
