@@ -12,4 +12,4 @@ When I was doubting myself, I asked a friend and mentor for some honest feedback
 
 Thanks for a wild ride, Brother. One day I'll figure out how to get us around a fire under the Kalahari stars.
 
-- Andries
+*- Andries*
