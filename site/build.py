@@ -390,6 +390,13 @@ def strip_md(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def slugify(text: str) -> str:
+    """A stable, URL-safe anchor id from heading text (markdown stripped first)."""
+    s = strip_md(text).lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s or "section"
+
+
 def looks_prose(p: str) -> bool:
     """Reject internal dev-notes (file paths, section refs, status lines) as reader blurbs."""
     if any(t in p for t in ("](", "../", "/canon", ".md", "§", "project.json")):
@@ -454,6 +461,7 @@ def wrap_words(s: str, width: int) -> list[str]:
 
 def md_to_html(md: str) -> str:
     out, buf, bq_buf, list_tag, table_buf = [], [], [], None, []
+    seen_ids: dict[str, int] = {}  # heading-anchor dedup within this document
 
     def inline(t: str) -> str:
         def fmt_label(label: str) -> str:
@@ -576,7 +584,11 @@ def md_to_html(md: str) -> str:
         if m:
             flush_all()
             lvl = len(m.group(1))
-            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
+            base = slugify(m.group(2))
+            n = seen_ids.get(base, 0)
+            seen_ids[base] = n + 1
+            hid = base if n == 0 else f"{base}-{n}"
+            out.append(f'<h{lvl} id="{hid}">{inline(m.group(2))}</h{lvl}>')
             continue
         bqm = re.match(r"^>\s?(.*)$", s)
         if bqm:
@@ -988,6 +1000,30 @@ section.series{padding:46px 0 8px}
 .reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
+/* ── Online-reader chapter list / TOC (left rail on wide screens) ───────────────────────────── */
+.readlayout{display:grid;grid-template-columns:266px minmax(0,1fr);gap:8px;
+  max-width:1040px;margin:0 auto;align-items:start}
+.readlayout .reader{max-width:720px;margin:0}           /* article keeps its measure; grid centres it */
+.readtoc{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 84px);
+  overflow-y:auto;padding:34px 8px 40px 24px;font-family:"Space Grotesk",sans-serif;
+  scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.readtoc::-webkit-scrollbar{width:8px} .readtoc::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre)}
+.readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
+.readtoc li{margin:0}
+.readtoc a{display:block;padding:6px 10px;border-left:2px solid transparent;
+  color:var(--bonedim);font-size:13.5px;line-height:1.4;text-decoration:none;
+  border-radius:0 5px 5px 0;transition:color .15s,background .15s,border-color .15s}
+.readtoc a:hover{color:var(--bone);background:rgba(229,181,103,.07)}
+.readtoc a.active{color:var(--gold);border-left-color:var(--gold);background:rgba(229,181,103,.10);font-weight:600}
+/* Narrow screens: the rail folds into a collapsible bar above the prose (pure-CSS toggle). */
+.readtoc-toggle{display:none}
+@media (max-width:900px){
+  .readlayout{grid-template-columns:1fr;gap:0}
+  .readlayout .reader{margin:0 auto}
+  .readtoc{position:static;max-height:340px;padding:14px 20px;margin:0 auto;max-width:720px;
+    border-bottom:1px solid var(--line)}
+}
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
@@ -2157,6 +2193,55 @@ def reader_rewrite_links(md: str) -> str:
     )
 
 
+# Highlights the TOC entry for the section currently in view. Progressive enhancement: if JS is
+# off the links still jump correctly; this only adds the .active styling as you scroll/click.
+TOC_SCROLLSPY_JS = """<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.readtoc a[data-toc]'));
+  if(!links.length || !('IntersectionObserver' in window)) return;
+  var byId = {}; links.forEach(function(a){ byId[a.getAttribute('data-toc')] = a; });
+  var heads = links.map(function(a){ return document.getElementById(a.getAttribute('data-toc')); }).filter(Boolean);
+  var current = null;
+  function setActive(a){ if(a===current) return; if(current) current.classList.remove('active');
+    current = a; if(a){ a.classList.add('active');
+      a.scrollIntoView({block:'nearest'}); } }
+  var visible = {};
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){ var id = en.target.id;
+      if(en.isIntersecting) visible[id] = en.intersectionRatio; else delete visible[id]; });
+    var best = null, bestTop = Infinity;
+    heads.forEach(function(h){ if(h.id in visible){ var t = h.getBoundingClientRect().top;
+      if(t < bestTop){ bestTop = t; best = h.id; } } });
+    if(best) setActive(byId[best]);
+  }, {rootMargin:'-15% 0px -70% 0px', threshold:[0,1]});
+  heads.forEach(function(h){ obs.observe(h); });
+  links.forEach(function(a){ a.addEventListener('click', function(){ setActive(a); }); });
+})();
+</script>"""
+
+
+def reader_toc(body: str) -> str:
+    """Build the chapter-list sidebar from the <h1> anchors in a rendered reader body.
+
+    Chapters (and front/back-matter sections like Dedication, Foreword, Appendix) are <h1> in the
+    manuscript, each carrying an id from md_to_html. We list them in document order; the active one
+    is tracked by a tiny IntersectionObserver (progressive enhancement — links work without JS)."""
+    items = re.findall(r'<h1 id="([^"]+)">(.*?)</h1>', body, re.S)
+    if len(items) < 2:                      # nothing worth a TOC (e.g. a single-section letter)
+        return ""
+    links = []
+    for hid, inner in items:
+        label = html.escape(strip_md(re.sub(r"<[^>]+>", "", inner)))
+        links.append(f'<li><a href="#{hid}" data-toc="{hid}">{label}</a></li>')
+    return (
+        '<nav class="readtoc" aria-label="Chapters">'
+        '<div class="readtoc-inner">'
+        '<p class="readtoc-h">Contents</p>'
+        f'<ol>{"".join(links)}</ol>'
+        '</div></nav>'
+    )
+
+
 def render_reader(e: dict) -> str:
     if e.get("prepared_reader_md"):
         body = md_to_html(reader_rewrite_links(e["prepared_reader_md"]))
@@ -2171,13 +2256,19 @@ def render_reader(e: dict) -> str:
         if f.suffix.lower() == ".epub":
             dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
             break
+    toc = reader_toc(body)
+    layout = (
+        f'<div class="readlayout">{toc}<article class="reader">{body}</article></div>'
+        if toc else f'<article class="reader">{body}</article>'
+    )
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
         trust_banner(rel="../"),
         audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
-        f'<article class="reader">{body}</article>',
+        layout,
+        TOC_SCROLLSPY_JS if toc else "",
         footer(),
     ])
 
