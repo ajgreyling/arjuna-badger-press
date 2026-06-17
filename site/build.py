@@ -727,11 +727,20 @@ def resolve_reader_image(src: str, book_root: Path) -> Path | None:
         # when the manuscript was authored on a different machine / the file moved into this repo.
         candidates.append(p)
         parts = p.parts
+        # Re-root an absolute path that points into ANOTHER checkout of the library (commonly
+        # /…/africangold/books/…) onto this repo. BOOKS already ends in "books/", so slice from the
+        # segment AFTER the LAST "books" marker — slicing from "books" itself doubled it
+        # (…/press/books/books/…) and never matched. "design" handles design/images/… likewise.
         for marker in ("books", "design"):
             if marker in parts:
-                idx = parts.index(marker)
-                candidates.append(BOOKS / Path(*parts[idx:]))
+                idx = len(parts) - 1 - parts[::-1].index(marker)  # last occurrence
+                tail = Path(*parts[idx + 1:]) if marker == "books" else Path(*parts[idx:])
+                candidates.append(BOOKS / tail)
+        # Final fallbacks keyed on the bare filename — covers the case where the manuscript points
+        # at build/appendix-images/<f> (not vendored here) but the same image exists under the
+        # book's design/images/ (which is). Try book_root, then the design image dirs.
         candidates.append(book_root / "build" / "assets" / p.name)
+        candidates.append(book_root / "design" / "images" / p.name)
         candidates.append(book_root / "design" / p.name)
     elif src.startswith("books/"):
         rel = src.removeprefix("books/")
