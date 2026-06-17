@@ -11,7 +11,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
@@ -88,8 +88,23 @@ def main() -> None:
     for i, ln in enumerate(lines):
         draw_tracked(draw, cx, ty + i * lh, ln, f_title, 4, INK)
 
+    # Subtitle crosses the bright sunset glow behind the figure on this plate, so lay a soft
+    # local scrim band under it for legibility before drawing the italic.
     f_sub = font(DIDOT, 36, index=1)
-    draw_tracked(draw, cx, ty + 3 * lh + 10, "assembled, after his death", f_sub, 1, INK)
+    sub = "assembled, after his death"
+    sub_y = ty + 3 * lh + 10
+    sub_w = text_width(draw, sub, f_sub, 1)
+    band = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    bd = ImageDraw.Draw(band)
+    pad_x, pad_y = 60, 14
+    bd.rounded_rectangle(
+        [cx - sub_w / 2 - pad_x, sub_y - pad_y, cx + sub_w / 2 + pad_x, sub_y + 48 + pad_y],
+        radius=26, fill=(18, 11, 6, 120),
+    )
+    band = band.filter(ImageFilter.GaussianBlur(18))
+    img = Image.alpha_composite(img, band)
+    draw = ImageDraw.Draw(img)
+    draw_tracked(draw, cx, sub_y, sub, f_sub, 1, INK)
 
     f_auth = font(COCHIN, 44)
     draw_tracked(draw, cx, int(H * 0.93), "ANDRIES J. GREYLING", f_auth, 7, INK)
