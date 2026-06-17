@@ -65,7 +65,7 @@ WORKSHOP_HOLD = set(
         # Drafted/export exists but not cleared for public download — sensitivity, polish, or
         # series sequencing. Must also be in PUBLISHED to ever show downloads.
         "unheard-japan,unheard-mongolia,"
-        "modern-sherlock,no-fear-cycle,the-salt-veil,"
+        "modern-sherlock,no-fear-cycle,"
         "southern-coast",
     ).split(",") if s.strip()
 )
@@ -128,7 +128,7 @@ PROCEDURAL_SHOW = set(
 HIDE_SERIES = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_SERIES",
-        "Not a Potato,The Unheard,The Salt Veil",
+        "Not a Potato,The Unheard",
     ).split(",") if s.strip()
 )
 
@@ -139,7 +139,9 @@ HIDE_SERIES = set(
 HIDE_BOOKS = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_BOOKS",
-        "the-resonance-court",
+        # the-first-unplugged: the Stranger in a Strange Land retelling stays PRIVATE — dropped
+        # entirely from the site (no card, page, download, read-online), by explicit request.
+        "the-resonance-court,the-first-unplugged",
     ).split(",") if s.strip()
 )
 
