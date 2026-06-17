@@ -117,6 +117,19 @@ PROCEDURAL_SHOW = set(
     ).split(",") if s.strip()
 )
 
+# ── Hidden shelves ────────────────────────────────────────────────────────────────────────────
+# Series names here are dropped from the site ENTIRELY: no cards, no blurbs, no covers, no
+# downloads, no book pages — and the shelf heading/tagline disappear too (the empty-group guard
+# in render_index suppresses them). Stronger than catalogue-only: the line vanishes as if it isn't
+# in the library yet. Curated entries stay in CURATED for when the shelf is ready to surface; just
+# remove the name here to reveal it. Env ABP_HIDE_SERIES (comma-separated) overrides this default.
+HIDE_SERIES = set(
+    s.strip() for s in os.environ.get(
+        "ABP_HIDE_SERIES",
+        "Not a Potato,The Unheard",
+    ).split(",") if s.strip()
+)
+
 
 def cover_is_procedural(cover: Path | None, root: Path) -> bool:
     """True when the resolved cover is a small generated placeholder, not a cinematic plate."""
@@ -643,6 +656,8 @@ def scan() -> list[dict]:
     entries = []
     hidden_proc: list[str] = []
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
+        if series in HIDE_SERIES:
+            continue  # whole shelf hidden — no card, no page, no downloads
         root = BOOKS / rootrel
         exp = root / expsub
         downloads = []
@@ -706,6 +721,11 @@ def resolve_reader_image(src: str, book_root: Path) -> Path | None:
     candidates: list[Path] = []
 
     if p.is_absolute():
+        # The path is machine-local but BOOK.md is generated on this same build machine, so the
+        # absolute file is usually right there — try it first (covers build/appendix-images/ and any
+        # other dir the marker-reroot below doesn't know about). The reroots remain as fallbacks for
+        # when the manuscript was authored on a different machine / the file moved into this repo.
+        candidates.append(p)
         parts = p.parts
         for marker in ("books", "design"):
             if marker in parts:
@@ -790,6 +810,21 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .nav nav.navinline{margin-left:auto;display:flex;gap:24px;font-size:14px}
 .nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
 .nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
+/* ── "About" dropdown (pure CSS: hover + keyboard focus, no JS) ──────────────────────────────── */
+.navdrop{position:relative;display:inline-flex;align-items:center}
+.navdropbtn{font:inherit;color:var(--bonedim);background:none;border:0;padding:0;cursor:pointer;
+  white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
+.navdropbtn:hover,.navdrop:hover .navdropbtn,.navdrop:focus-within .navdropbtn{color:var(--gold)}
+.navdropbtn .caret{font-size:10px;transition:transform .18s ease}
+.navdrop:hover .navdropbtn .caret,.navdrop:focus-within .navdropbtn .caret{transform:rotate(180deg)}
+.navdropmenu{position:absolute;top:100%;right:0;margin-top:10px;min-width:180px;
+  display:flex;flex-direction:column;padding:8px 0;
+  background:rgba(28,26,23,.98);border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 14px 34px rgba(0,0,0,.5);backdrop-filter:blur(10px);
+  opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .16s ease,transform .16s ease,visibility 0s linear .16s;z-index:30}
+.navdrop:hover .navdropmenu,.navdrop:focus-within .navdropmenu{opacity:1;visibility:visible;transform:translateY(0);transition-delay:0s}
+.navdropmenu a{padding:9px 16px;white-space:nowrap}
+.navdropmenu a:hover{background:rgba(229,181,103,.1)}
 
 /* ── Hamburger + slide-out drawer (pure-CSS toggle via #navtoggle checkbox) ─────────────────── */
 .hamburger{margin-left:auto;display:flex;flex-direction:column;justify-content:center;gap:5px;
@@ -1058,12 +1093,9 @@ def trust_banner(rel: str = "") -> str:
 
 def nav(rel: str = "") -> str:
     bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
-    links = (
-        f'<a href="{rel}index.html#library">Library</a>'
-        f'<a href="{rel}wiki/index.html">Places</a>'
-        f'<a href="{rel}craft/index.html">For writers</a>'
-        f'<a href="{rel}technology.html">Technology</a>'
-        f'{bounty_link}'
+    # Primary destinations stay inline; the "About the press" set collapses into one dropdown so the
+    # bar isn't 11 equally-weighted items. The mobile drawer keeps the full flat list (below).
+    about_items = (
         f'<a href="{rel}index.html#mission">Mission</a>'
         f'<a href="{rel}index.html#press">The Press</a>'
         f'<a href="{rel}index.html#thread">The Proof</a>'
@@ -1072,16 +1104,37 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
+    inline = (
+        f'<a href="{rel}index.html#library">Library</a>'
+        f'<a href="{rel}wiki/index.html">Places</a>'
+        f'<a href="{rel}craft/index.html">For writers</a>'
+        f'<a href="{rel}technology.html">Technology</a>'
+        f'{bounty_link}'
+        # Pure-CSS dropdown: a focusable button reveals the panel on hover OR keyboard focus.
+        f'<span class="navdrop">'
+        f'<button type="button" class="navdropbtn" aria-haspopup="true" aria-expanded="false">About <span class="caret">&#9662;</span></button>'
+        f'<span class="navdropmenu">{about_items}</span>'
+        f'</span>'
+    )
+    # The drawer (narrow screens) keeps every link flat — no nested dropdown to fat-finger.
+    drawer_links = (
+        f'<a href="{rel}index.html#library">Library</a>'
+        f'<a href="{rel}wiki/index.html">Places</a>'
+        f'<a href="{rel}craft/index.html">For writers</a>'
+        f'<a href="{rel}technology.html">Technology</a>'
+        f'{bounty_link}'
+        f'{about_items}'
+    )
     # Pure-CSS toggle (checkbox hack) — no JS needed. The hamburger opens a slide-out drawer with
     # every link; an inline nav still shows on wide screens (where there's room).
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav class="navinline">{links}</nav>
+<nav class="navinline">{inline}</nav>
 <label for="navtoggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
-<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{links}</nav>
+<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{drawer_links}</nav>
 {trust_banner(rel)}{audiobook_notice()}"""
 
 
@@ -1098,12 +1151,19 @@ def card(e: dict, accent: str) -> str:
     dls = ""
     if e["available"]:
         seen, parts = set(), []
+        # Read-online is the primary action when a reader page exists (same gate as the per-book
+        # page and the read/<id>.html generator). Lead with it as the solid chip, then the
+        # downloads as plain chips — so every readable card offers Read · EPUB · PDF.
+        can_read_online = bool(e["book_md"] or e.get("reader_md"))
+        if can_read_online:
+            parts.append(f'<a class="dl solid" href="read/{e["id"]}.html">Read</a>')
         for f in e["downloads"]:
             ext = f.suffix.lower().lstrip(".")
             if ext in seen:
                 continue
             seen.add(ext)
-            solid = " solid" if ext == "epub" else ""
+            # If Read is present it owns the solid emphasis; otherwise EPUB keeps it.
+            solid = " solid" if (ext == "epub" and not can_read_online) else ""
             parts.append(f'<a class="dl{solid}" href="downloads/{e["id"]}/{html.escape(f.name)}" download>{ext.upper()}</a>')
         dls = f'<div class="dls">{"".join(parts)}</div>'
         badge = '<span class="badge">Available now</span>'
