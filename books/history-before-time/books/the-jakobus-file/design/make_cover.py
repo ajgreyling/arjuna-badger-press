@@ -102,10 +102,12 @@ def main() -> None:
     rd = ImageDraw.Draw(img)
     rd.line([(cx - rw, rule_y), (cx + rw, rule_y)], fill=INK, width=3)
 
-    f_title = font(DIDOT, 158)
+    # Title raised into the dark sky band and tightened so it clears the figure's head/face
+    # (was ty=0.120 / lh=172 / 158pt, which dropped "READ WRONG" + the subtitle over his face).
+    f_title = font(DIDOT, 138)
     lines = ["A MAN", "THEY ALL", "READ WRONG"]
-    ty = int(H * 0.120)
-    lh = 172
+    ty = int(H * 0.082)
+    lh = 150
     for i, ln in enumerate(lines):
         img = draw_tracked(img, cx, ty + i * lh, ln, f_title, 4, INK)
 
