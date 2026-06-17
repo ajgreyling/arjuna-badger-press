@@ -113,7 +113,7 @@ SHOW_PROCEDURAL = os.environ.get("ABP_SHOW_PROCEDURAL", "") in ("1", "true", "ye
 PROCEDURAL_SHOW = set(
     s.strip() for s in os.environ.get(
         "ABP_PROCEDURAL_SHOW",
-        "the-loneliest,the-jakobus-file",
+        "the-loneliest,the-jakobus-file,the-song-of-the-self,wrath-of-achilles",
     ).split(",") if s.strip()
 )
 
