@@ -16,7 +16,6 @@ import os
 import re
 import shutil
 import subprocess
-import urllib.parse
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -26,19 +25,7 @@ OUT = REPO / "site" / "public"
 
 DOMAIN = "https://arjunabadger.press"
 PUBLIC_EMAIL = "info@arjunabadger.press"
-# Private inbox that reader feedback is routed to (the mailto fallback targets this directly).
-PRIVATE_EMAIL = "j@arjunabadger.press"
 TAGLINE = "Your story, told true."
-
-# ── Reader feedback funnel ────────────────────────────────────────────────────────────────────
-# The site is static, so feedback collection is either an embedded form (responses land in a sheet
-# we read) or a mailto. Paste a Google Form / Tally base URL here (or set ABP_FEEDBACK_FORM_URL)
-# and every feedback button points at it — per-book buttons append ?<book_param>=<Title> to
-# pre-fill the book field. While empty, buttons fall back to a pre-filled mailto to PRIVATE_EMAIL,
-# so the channel works today with zero external setup. See docs/FEEDBACK_PLAN.md.
-FEEDBACK_FORM_URL = os.environ.get("ABP_FEEDBACK_FORM_URL", "")
-# The Google-Form prefill field id for "Which book?" (e.g. "entry.123456"). Only used in form mode.
-FEEDBACK_FORM_BOOK_PARAM = os.environ.get("ABP_FEEDBACK_BOOK_PARAM", "entry.book")
 
 # ── Analytics (Plausible Cloud) ───────────────────────────────────────────────────────────────
 # Privacy-first, no-cookie analytics. Set PLAUSIBLE_DOMAIN to the site domain registered in your
@@ -78,7 +65,7 @@ WORKSHOP_HOLD = set(
         # Drafted/export exists but not cleared for public download — sensitivity, polish, or
         # series sequencing. Must also be in PUBLISHED to ever show downloads.
         "unheard-japan,unheard-mongolia,"
-        "modern-sherlock,no-fear-cycle,"
+        "modern-sherlock,no-fear-cycle,the-salt-veil,"
         "southern-coast",
     ).split(",") if s.strip()
 )
@@ -99,7 +86,7 @@ PUBLISHED = set(
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
-        "the-salt-veil",
+        "dust-throne",
     ).split(",") if s.strip()
 )
 
@@ -112,8 +99,8 @@ PUBLISHED = set(
 SERIAL = set(
     s.strip() for s in os.environ.get(
         "ABP_SERIAL",
-        "apex-alphas,"
-        "the-salt-veil",
+        "the-resonance-court,"
+        "dust-throne",
     ).split(",") if s.strip()
 )
 
@@ -129,33 +116,6 @@ PROCEDURAL_SHOW = set(
     s.strip() for s in os.environ.get(
         "ABP_PROCEDURAL_SHOW",
         "the-loneliest,the-jakobus-file",
-    ).split(",") if s.strip()
-)
-
-# ── Hidden shelves ────────────────────────────────────────────────────────────────────────────
-# Series names here are dropped from the site ENTIRELY: no cards, no blurbs, no covers, no
-# downloads, no book pages — and the shelf heading/tagline disappear too (the empty-group guard
-# in render_index suppresses them). Stronger than catalogue-only: the line vanishes as if it isn't
-# in the library yet. Curated entries stay in CURATED for when the shelf is ready to surface; just
-# remove the name here to reveal it. Env ABP_HIDE_SERIES (comma-separated) overrides this default.
-HIDE_SERIES = set(
-    s.strip() for s in os.environ.get(
-        "ABP_HIDE_SERIES",
-        "Not a Potato,The Unheard",
-    ).split(",") if s.strip()
-)
-
-# Book IDS here are dropped from the site ENTIRELY, same as HIDE_SERIES but for a single title on a
-# shelf you want to keep — no card, page, downloads, or read-online (and a serial is de-listed too).
-# Use when a shelf-wide hide is too broad (e.g. one serial on the busy History Before Time shelf).
-# Env ABP_HIDE_BOOKS (comma-separated) overrides this default.
-HIDE_BOOKS = set(
-    s.strip() for s in os.environ.get(
-        "ABP_HIDE_BOOKS",
-        "apex-alphas,"
-        # The First Unplugged: drafted + EPUB vendored, but held off the site entirely
-        # (no card/page/download) until cleared to surface.
-        "the-first-unplugged",
     ).split(",") if s.strip()
 )
 
@@ -176,7 +136,6 @@ def cover_is_procedural(cover: Path | None, root: Path) -> bool:
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
-    ("The Synthesis", "#9A7BC8"),
     ("Not a Potato", "#9A8B6B"),
     ("The Unheard", "#6B8C9A"),
     ("Standalones", "#B49A6A"),
@@ -185,6 +144,7 @@ SERIES = [
     ("The Reichenbach Files", "#4a5568"),
     ("The No-Fear Cycle", "#1e3a8a"),
     ("The Salt Veil", "#B0814A"),
+    ("The Dust Throne", "#8A5A2C"),
 ]
 
 # Per-shelf tagline shown under each series heading on the library. One evocative line in
@@ -192,7 +152,6 @@ SERIES = [
 SHELF_TAGLINE = {
     "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
-    "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road.",
     "Standalones": "Self-contained stories that need no shelf-mate.",
@@ -201,6 +160,7 @@ SHELF_TAGLINE = {
     "The Reichenbach Files": "Sherlock Holmes for now — modern retellings, true to the original.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
+    "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
 }
 
 # Per-book descriptive tagline shown on the shelf card + book page (under the title).
@@ -259,8 +219,8 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
-    ("apex-alphas", "Apex Alphas", "The Synthesis · Book One · a daily serial", "The Synthesis",
-     "history-before-time/books/apex-alphas", "build/export",
+    ("the-resonance-court", "The Resonance Court", "A daily serial · Book One", "History Before Time",
+     "history-before-time/books/the-resonance-court", "build/export",
      "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
@@ -313,9 +273,9 @@ CURATED = [
      "no-fear-cycle", "build/export",
      "Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear — Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. Book One of a finite five-novel cycle. For readers of Gaunt's Ghosts and the Astartes."),
 
-    ("the-salt-veil", "Daughters of the Dust Throne", "A desert epic-fantasy series · Book One", "The Salt Veil",
+    ("the-salt-veil", "The Salt Veil", "A desert epic-fantasy series · Book One", "The Salt Veil",
      "the-salt-veil", "build/export",
-     "A girl is born carrying a gift the whole desert fears, and tells the story of it years later, knowing how it ends. In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy — Book One. (Opening chapters; new chapters in progress.)"),
+     "In a world of salt flats and canyon-cities, the men hold the thrones and the temples — and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy — Book One."),
 
     ("the-salt-veil-2", "The First Key", "A desert epic-fantasy series · Book Two", "The Salt Veil",
      "_comingsoon/the-salt-veil-2", "build/export",
@@ -329,6 +289,10 @@ CURATED = [
     ("the-salt-veil-5", "The Circle Closes", "A desert epic-fantasy series · Book Five", "The Salt Veil",
      "_comingsoon/the-salt-veil-5", "build/export",
      "Book Five — the quintet closes where the salt veil first fell. Coming soon."),
+
+    ("dust-throne", "Daughters of the Dust Throne", "The Dust Throne telling · Book One", "The Dust Throne",
+     "dust-throne", "build/export",
+     "The same desert, told a different way. A girl born carrying a gift the whole desert fears tells the story of it years later, knowing how it ends — a first-person, lyrical, firelit retelling of the Salt Veil saga for a different reader. An experimental spiritual sister to The Salt Veil. Opening chapters; new chapters in progress."),
 
     ("house-of-bread", "House of Bread", "The Unheard · Holy Land", "The Unheard",
      "_comingsoon/house-of-bread", "build/export",
@@ -421,13 +385,6 @@ def strip_md(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def slugify(text: str) -> str:
-    """A stable, URL-safe anchor id from heading text (markdown stripped first)."""
-    s = strip_md(text).lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    return s or "section"
-
-
 def looks_prose(p: str) -> bool:
     """Reject internal dev-notes (file paths, section refs, status lines) as reader blurbs."""
     if any(t in p for t in ("](", "../", "/canon", ".md", "§", "project.json")):
@@ -492,7 +449,6 @@ def wrap_words(s: str, width: int) -> list[str]:
 
 def md_to_html(md: str) -> str:
     out, buf, bq_buf, list_tag, table_buf = [], [], [], None, []
-    seen_ids: dict[str, int] = {}  # heading-anchor dedup within this document
 
     def inline(t: str) -> str:
         def fmt_label(label: str) -> str:
@@ -584,37 +540,9 @@ def md_to_html(md: str) -> str:
         flush_table()
         flush_para()
 
-    fence_lang: str | None = None      # non-None while inside a ``` code fence
-    fence_buf: list[str] = []
-
-    def flush_fence():
-        nonlocal fence_lang, fence_buf
-        body_text = "\n".join(fence_buf)
-        if fence_lang == "mermaid":
-            # Mermaid renders client-side from the raw graph source inside <pre class="mermaid">.
-            # The page that contains one loads mermaid.js and calls mermaid.run() (see head()).
-            out.append(f'<pre class="mermaid">{html.escape(body_text)}</pre>')
-        else:
-            cls = f' class="language-{html.escape(fence_lang)}"' if fence_lang else ""
-            out.append(f"<pre><code{cls}>{html.escape(body_text)}</code></pre>")
-        fence_lang = None
-        fence_buf = []
-
     for raw in md.splitlines():
         line = raw.rstrip()
         s = line.strip()
-        # ``` code fences — accumulate verbatim until the closing fence (handles mermaid + code).
-        if fence_lang is not None:
-            if s.startswith("```"):
-                flush_fence()
-            else:
-                fence_buf.append(raw)
-            continue
-        fence_open = re.match(r"^```+\s*([\w-]*)\s*$", s)
-        if fence_open:
-            flush_all()
-            fence_lang = fence_open.group(1) or ""
-            continue
         if not s:
             flush_all()
             continue
@@ -643,11 +571,7 @@ def md_to_html(md: str) -> str:
         if m:
             flush_all()
             lvl = len(m.group(1))
-            base = slugify(m.group(2))
-            n = seen_ids.get(base, 0)
-            seen_ids[base] = n + 1
-            hid = base if n == 0 else f"{base}-{n}"
-            out.append(f'<h{lvl} id="{hid}">{inline(m.group(2))}</h{lvl}>')
+            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
             continue
         bqm = re.match(r"^>\s?(.*)$", s)
         if bqm:
@@ -727,10 +651,6 @@ def scan() -> list[dict]:
     entries = []
     hidden_proc: list[str] = []
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
-        if series in HIDE_SERIES:
-            continue  # whole shelf hidden — no card, no page, no downloads
-        if cid in HIDE_BOOKS:
-            continue  # single title hidden by id — no card, page, downloads, or read-online
         root = BOOKS / rootrel
         exp = root / expsub
         downloads = []
@@ -794,26 +714,12 @@ def resolve_reader_image(src: str, book_root: Path) -> Path | None:
     candidates: list[Path] = []
 
     if p.is_absolute():
-        # The path is machine-local but BOOK.md is generated on this same build machine, so the
-        # absolute file is usually right there — try it first (covers build/appendix-images/ and any
-        # other dir the marker-reroot below doesn't know about). The reroots remain as fallbacks for
-        # when the manuscript was authored on a different machine / the file moved into this repo.
-        candidates.append(p)
         parts = p.parts
-        # Re-root an absolute path that points into ANOTHER checkout of the library (commonly
-        # /…/africangold/books/…) onto this repo. BOOKS already ends in "books/", so slice from the
-        # segment AFTER the LAST "books" marker — slicing from "books" itself doubled it
-        # (…/press/books/books/…) and never matched. "design" handles design/images/… likewise.
         for marker in ("books", "design"):
             if marker in parts:
-                idx = len(parts) - 1 - parts[::-1].index(marker)  # last occurrence
-                tail = Path(*parts[idx + 1:]) if marker == "books" else Path(*parts[idx:])
-                candidates.append(BOOKS / tail)
-        # Final fallbacks keyed on the bare filename — covers the case where the manuscript points
-        # at build/appendix-images/<f> (not vendored here) but the same image exists under the
-        # book's design/images/ (which is). Try book_root, then the design image dirs.
+                idx = parts.index(marker)
+                candidates.append(BOOKS / Path(*parts[idx:]))
         candidates.append(book_root / "build" / "assets" / p.name)
-        candidates.append(book_root / "design" / "images" / p.name)
         candidates.append(book_root / "design" / p.name)
     elif src.startswith("books/"):
         rel = src.removeprefix("books/")
@@ -892,21 +798,6 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .nav nav.navinline{margin-left:auto;display:flex;gap:24px;font-size:14px}
 .nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
 .nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
-/* ── "About" dropdown (pure CSS: hover + keyboard focus, no JS) ──────────────────────────────── */
-.navdrop{position:relative;display:inline-flex;align-items:center}
-.navdropbtn{font:inherit;color:var(--bonedim);background:none;border:0;padding:0;cursor:pointer;
-  white-space:nowrap;display:inline-flex;align-items:center;gap:5px}
-.navdropbtn:hover,.navdrop:hover .navdropbtn,.navdrop:focus-within .navdropbtn{color:var(--gold)}
-.navdropbtn .caret{font-size:10px;transition:transform .18s ease}
-.navdrop:hover .navdropbtn .caret,.navdrop:focus-within .navdropbtn .caret{transform:rotate(180deg)}
-.navdropmenu{position:absolute;top:100%;right:0;margin-top:10px;min-width:180px;
-  display:flex;flex-direction:column;padding:8px 0;
-  background:rgba(28,26,23,.98);border:1px solid var(--line);border-radius:10px;
-  box-shadow:0 14px 34px rgba(0,0,0,.5);backdrop-filter:blur(10px);
-  opacity:0;visibility:hidden;transform:translateY(-6px);transition:opacity .16s ease,transform .16s ease,visibility 0s linear .16s;z-index:30}
-.navdrop:hover .navdropmenu,.navdrop:focus-within .navdropmenu{opacity:1;visibility:visible;transform:translateY(0);transition-delay:0s}
-.navdropmenu a{padding:9px 16px;white-space:nowrap}
-.navdropmenu a:hover{background:rgba(229,181,103,.1)}
 
 /* ── Hamburger + slide-out drawer (pure-CSS toggle via #navtoggle checkbox) ─────────────────── */
 .hamburger{margin-left:auto;display:flex;flex-direction:column;justify-content:center;gap:5px;
@@ -1061,51 +952,7 @@ section.series{padding:46px 0 8px}
 .reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
-/* ── Code fences + Mermaid diagrams ────────────────────────────────────────────────────────── */
-pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var(--line);
-  border-radius:10px;overflow-x:auto;font-family:ui-monospace,"SF Mono",Menlo,monospace;
-  font-size:13.5px;line-height:1.5;color:var(--bonedim)}
-pre.mermaid{margin:1.8em auto;padding:18px;text-align:center;background:transparent;border:0;
-  /* hidden until mermaid.js swaps the source for an <svg>; avoids a flash of raw graph text */
-  color:transparent;min-height:40px;line-height:0}
-pre.mermaid svg{max-width:100%;height:auto;line-height:normal}
-pre.mermaid[data-processed] {color:inherit}
-/* ── Online-reader chapter list / TOC (left rail on wide screens) ───────────────────────────── */
-.readlayout{display:grid;grid-template-columns:266px minmax(0,1fr);gap:8px;
-  max-width:1040px;margin:0 auto;align-items:start}
-.readlayout .reader{max-width:720px;margin:0}           /* article keeps its measure; grid centres it */
-.readtoc{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 84px);
-  overflow-y:auto;padding:34px 8px 40px 24px;font-family:"Space Grotesk",sans-serif;
-  scrollbar-width:thin;scrollbar-color:var(--line) transparent}
-.readtoc::-webkit-scrollbar{width:8px} .readtoc::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
-.readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre)}
-.readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
-.readtoc li{margin:0}
-.readtoc a{display:block;padding:6px 10px;border-left:2px solid transparent;
-  color:var(--bonedim);font-size:13.5px;line-height:1.4;text-decoration:none;
-  border-radius:0 5px 5px 0;transition:color .15s,background .15s,border-color .15s}
-.readtoc a:hover{color:var(--bone);background:rgba(229,181,103,.07)}
-.readtoc a.active{color:var(--gold);border-left-color:var(--gold);background:rgba(229,181,103,.10);font-weight:600}
-/* Narrow screens: the rail folds into a collapsible bar above the prose (pure-CSS toggle). */
-.readtoc-toggle{display:none}
-@media (max-width:900px){
-  .readlayout{grid-template-columns:1fr;gap:0}
-  .readlayout .reader{margin:0 auto}
-  .readtoc{position:static;max-height:340px;padding:14px 20px;margin:0 auto;max-width:720px;
-    border-bottom:1px solid var(--line)}
-}
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
-/* ── The Writing Desk index cards ──────────────────────────────────────────────────────────── */
-.wlist{display:flex;flex-direction:column;gap:18px;margin:2em 0;text-align:left}
-.wcard{display:block;padding:22px 26px;border:1px solid var(--line);border-radius:14px;
-  background:var(--card);transition:border-color .15s,transform .15s,background .15s}
-.wcard:hover{border-color:var(--ochre);transform:translateY(-2px);background:#221f1a}
-.wcard h3{margin:0;font-family:"Cormorant Garamond",serif;font-size:27px;color:var(--bone)}
-.wcard .wby{margin:.15em 0 .7em;font-family:"Space Grotesk",sans-serif;font-size:12px;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--ochre)}
-.wcard .wbl{margin:0;font-size:16px;color:var(--bonedim);line-height:1.55}
-.wcard .wread{display:inline-block;margin-top:12px;font-family:"Space Grotesk",sans-serif;
-  font-size:13px;color:var(--gold)}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
 .reader.letter em{color:var(--bone)}
@@ -1219,51 +1066,30 @@ def trust_banner(rel: str = "") -> str:
 
 def nav(rel: str = "") -> str:
     bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
-    # Primary destinations stay inline; the "About the press" set collapses into one dropdown so the
-    # bar isn't 11 equally-weighted items. The mobile drawer keeps the full flat list (below).
-    about_items = (
+    links = (
+        f'<a href="{rel}index.html#library">Library</a>'
+        f'<a href="{rel}wiki/index.html">Places</a>'
+        f'<a href="{rel}craft/index.html">For writers</a>'
+        f'<a href="{rel}technology.html">Technology</a>'
+        f'{bounty_link}'
         f'<a href="{rel}index.html#mission">Mission</a>'
         f'<a href="{rel}index.html#press">The Press</a>'
         f'<a href="{rel}index.html#thread">The Proof</a>'
         f'<a href="{rel}house.html">The House</a>'
-        f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
-        f'<a href="{rel}on-doubt.html">On doubt</a>'
-        f'<a href="{rel}feedback.html">Tell us something</a>'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
-    )
-    inline = (
-        f'<a href="{rel}index.html#library">Library</a>'
-        f'<a href="{rel}wiki/index.html">Places</a>'
-        f'<a href="{rel}craft/index.html">For writers</a>'
-        f'<a href="{rel}technology.html">Technology</a>'
-        f'{bounty_link}'
-        # Pure-CSS dropdown: a focusable button reveals the panel on hover OR keyboard focus.
-        f'<span class="navdrop">'
-        f'<button type="button" class="navdropbtn" aria-haspopup="true" aria-expanded="false">About <span class="caret">&#9662;</span></button>'
-        f'<span class="navdropmenu">{about_items}</span>'
-        f'</span>'
-    )
-    # The drawer (narrow screens) keeps every link flat — no nested dropdown to fat-finger.
-    drawer_links = (
-        f'<a href="{rel}index.html#library">Library</a>'
-        f'<a href="{rel}wiki/index.html">Places</a>'
-        f'<a href="{rel}craft/index.html">For writers</a>'
-        f'<a href="{rel}technology.html">Technology</a>'
-        f'{bounty_link}'
-        f'{about_items}'
     )
     # Pure-CSS toggle (checkbox hack) — no JS needed. The hamburger opens a slide-out drawer with
     # every link; an inline nav still shows on wide screens (where there's room).
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav class="navinline">{inline}</nav>
+<nav class="navinline">{links}</nav>
 <label for="navtoggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
-<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{drawer_links}</nav>
+<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{links}</nav>
 {trust_banner(rel)}{audiobook_notice()}"""
 
 
@@ -1274,61 +1100,18 @@ def footer() -> str:
 </div></footer></body></html>"""
 
 
-MERMAID_BOOT = """<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
-  mermaid.initialize({
-    startOnLoad: true,
-    securityLevel: "strict",
-    theme: "base",
-    themeVariables: {
-      background: "#1d1a16", primaryColor: "#221f1b", primaryTextColor: "#EDE9E0",
-      primaryBorderColor: "#C8A86B", lineColor: "#C8A86B", secondaryColor: "#2A241D",
-      tertiaryColor: "#161513", fontFamily: "Inter, system-ui, sans-serif",
-    },
-  });
-</script>"""
-
-
-def feedback_href(book_title: str | None = None) -> str:
-    """A feedback destination, HTML-attribute-safe. Form mode if FEEDBACK_FORM_URL is set
-    (with the book pre-filled when given); otherwise a pre-filled mailto to PRIVATE_EMAIL."""
-    if FEEDBACK_FORM_URL:
-        url = FEEDBACK_FORM_URL
-        if book_title:
-            sep = "&" if "?" in url else "?"
-            url = f"{url}{sep}{FEEDBACK_FORM_BOOK_PARAM}={urllib.parse.quote(book_title)}"
-        return html.escape(url, quote=True)
-    subject = f"Feedback: {book_title}" if book_title else "Feedback on Arjuna Badger Press"
-    return html.escape(f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subject)}", quote=True)
-
-
-def with_mermaid(page: str) -> str:
-    """If a finished page contains a Mermaid block, load+init mermaid.js just before </body>.
-    Per-page (the script only ships where a diagram actually appears)."""
-    if 'class="mermaid"' not in page:
-        return page
-    return page.replace("</body></html>", f"{MERMAID_BOOT}</body></html>", 1)
-
-
 def card(e: dict, accent: str) -> str:
     ext_cover = "png" if e["real_cover"] else "svg"
     cover = f'<img class="cover" loading="lazy" src="assets/covers/{e["id"]}.{ext_cover}" alt="{html.escape(e["title"])} cover">'
     dls = ""
     if e["available"]:
         seen, parts = set(), []
-        # Read-online is the primary action when a reader page exists (same gate as the per-book
-        # page and the read/<id>.html generator). Lead with it as the solid chip, then the
-        # downloads as plain chips — so every readable card offers Read · EPUB · PDF.
-        can_read_online = bool(e["book_md"] or e.get("reader_md"))
-        if can_read_online:
-            parts.append(f'<a class="dl solid" href="read/{e["id"]}.html">Read</a>')
         for f in e["downloads"]:
             ext = f.suffix.lower().lstrip(".")
             if ext in seen:
                 continue
             seen.add(ext)
-            # If Read is present it owns the solid emphasis; otherwise EPUB keeps it.
-            solid = " solid" if (ext == "epub" and not can_read_online) else ""
+            solid = " solid" if ext == "epub" else ""
             parts.append(f'<a class="dl{solid}" href="downloads/{e["id"]}/{html.escape(f.name)}" download>{ext.upper()}</a>')
         dls = f'<div class="dls">{"".join(parts)}</div>'
         badge = '<span class="badge">Available now</span>'
@@ -1840,7 +1623,7 @@ def render_book(e: dict) -> str:
     # the reverent catalogue one click away. This is the project's best context for anyone who arrives
     # to judge it (a named figure, a lawyer, a curious reader) — the whole shelf is free, careful with
     # other people's sacred things, and made for the joy of it. The Court is one more tribute, louder.
-    if e["id"] == "apex-alphas":
+    if e["id"] == "the-resonance-court":
         serial_note += (
             '<div style="margin-top:22px;padding:18px 20px;border:1px solid var(--line);'
             'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
@@ -1880,8 +1663,7 @@ def render_book(e: dict) -> str:
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{serial_note}{wiki}{soon}
-<p class="bookfeedback" style="margin-top:22px;font-size:14px;color:var(--bonedim)">Spotted something, or just want to tell us what you thought? <a href="{feedback_href(e['title'])}">Send feedback on {html.escape(e['title'])} →</a></p>
-<p style="margin-top:24px"><a class="back" href="../index.html#library">← Back to the library</a></p>
+<p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(),
     ])
@@ -1893,8 +1675,6 @@ LETTERS = [
      "A letter, written by the machine that stood guard while a man wrote the soul of the thing."),
     ("letter-to-lisel.md", "for-lisel.html", "For Lisel — Arjuna Badger Press",
      "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
-    ("on-doubt.md", "on-doubt.html", "On doubt - Arjuna Badger Press",
-     "On the sine wave between feeling on top of the world and the imposter knocking, and the plain middle that is just the work."),
 ]
 
 CRAFT_DIR = REPO / "docs" / "craft"
@@ -1961,11 +1741,6 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
     out = re.sub(r"terms/([a-z0-9-]+)\.md", r"terms/\1.html", out)
     if in_terms:
         out = re.sub(r"\]\(([a-z0-9-]+)\.md\)", r"](\1.html)", out)
-    # Any markdown link still pointing at a .md after the rewrites above targets a PRIVATE source
-    # doc with no public page (CLAUDE.md, ARCHITECTURE.md, .claude/skills/*/SKILL.md, academic/*).
-    # Those 404 on the public site and signpost repo internals — unlink them to plain text rather
-    # than ship a dead link. (Real craft cross-links became .html above and are unaffected.)
-    out = re.sub(r"\[([^\]]+)\]\((?:\.{0,2}/)?[^)\s]*\.md(?:#[^)\s]*)?\)", r"\1", out)
     return out
 
 
@@ -2058,10 +1833,6 @@ def docs_rewrite_links(md: str) -> str:
     out = out.replace("(BOUNTY_FORM_URL)", f"({BOUNTY_FORM_URL or 'bounty.html'})")
     # The WhatsApp Channel invite — same fallback pattern.
     out = out.replace("(WHATSAPP_CHANNEL_URL)", f"({WHATSAPP_CHANNEL_URL or 'bounty.html'})")
-    # Any link still pointing at a .md targets a PRIVATE source doc with no public page
-    # (THESIS.md, MISOGI.md, ORIGINS.md, academic/*, …). Those 404 on the site and signpost repo
-    # internals — unlink to plain text rather than ship a dead link. (Same rule as craft pages.)
-    out = re.sub(r"\[([^\]]+)\]\((?:\.{0,2}/)?[^)\s]*\.md(?:#[^)\s]*)?\)", r"\1", out)
     return out
 
 
@@ -2249,131 +2020,6 @@ def render_letter(src_name: str, title: str, desc: str) -> str | None:
     ])
 
 
-# ── Writing desk: essays, short stories, parables ─────────────────────────────────────────────
-# Standalone short prose that isn't a book and isn't site chrome — the maker's (and occasionally
-# the machine's) shorter pieces. Each reads from site/content/writing/<src>. Newest first.
-# (src, slug, title, byline, blurb)
-WRITING_PIECES = [
-    ("oyster-in-the-machine.md", "oyster-in-the-machine",
-     "The Oyster in the Machine",
-     "A parable, by Klaus",
-     "A parable in the spirit of the road: a lonely boy, a machine that answers anything, and the "
-     "one thing all the libraries in all the towers can never hold. On what it is, and is not, to "
-     "talk to a weighted echo of every word ever written, and why the reaching heals you anyway."),
-]
-
-
-def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc: str) -> str | None:
-    src = REPO / "site" / "content" / "writing" / src_name
-    if not src.is_file():
-        return None
-    body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
-    others = [(s, t) for (sn, s, t, _, _) in WRITING_PIECES if s != slug]
-    more = ""
-    if others:
-        links = " · ".join(f'<a href="{html.escape(s)}.html">{html.escape(t)}</a>' for s, t in others)
-        more = f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">More from the writing desk: {links}</p>'
-    return "\n".join([
-        head(f"{title} — Arjuna Badger Press", desc, rel="../"),
-        nav(rel="../"),
-        '<article class="reader letter">',
-        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
-        f'<p class="eyebrow" style="text-align:center">The Writing Desk · {html.escape(byline)}</p>',
-        body,
-        more,
-        '<p style="text-align:center;margin-top:28px"><a class="back" href="index.html">&larr; The writing desk</a> '
-        '· <a class="back" href="../index.html#library">The library</a></p>',
-        '</article>',
-        footer(),
-    ])
-
-
-def render_writing_index() -> str:
-    cards = []
-    for _, slug, title, byline, blurb in WRITING_PIECES:
-        cards.append(
-            f'<a class="wcard" href="{html.escape(slug)}.html">'
-            f'<h3>{html.escape(title)}</h3>'
-            f'<p class="wby">{html.escape(byline)}</p>'
-            f'<p class="wbl">{html.escape(blurb)}</p>'
-            f'<span class="wread">Read &rarr;</span></a>'
-        )
-    intro = (
-        "Short prose from the house: essays, parables, the occasional story that is not a book. "
-        "Some written by the man who keeps the press; some written, in the loop, by the machine that "
-        "stands guard while he works. Each is signed by whichever of them held the pen."
-    )
-    return "\n".join([
-        head("The Writing Desk — Arjuna Badger Press",
-             "Essays, short stories and parables from Arjuna Badger Press.", rel="../"),
-        nav(rel="../"),
-        '<article class="reader letter">',
-        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
-        '<h1 style="text-align:center">The Writing Desk</h1>',
-        f'<p class="intro" style="text-align:center">{intro}</p>',
-        f'<div class="wlist">{"".join(cards)}</div>',
-        '<p style="text-align:center;margin-top:36px"><a class="back" href="../index.html#library">&larr; Back to the library</a></p>',
-        '</article>',
-        footer(),
-    ])
-
-
-def render_feedback() -> str:
-    """The one feedback funnel: general feedback (form/mailto) and a branch to the paid bounty.
-    Static-site safe — the general path is a form or mailto; the bounty path links to /bounty.html
-    (which is gated). When the bounty isn't live yet, that branch shows a 'opens soon' note."""
-    general = feedback_href()
-    form_mode = bool(FEEDBACK_FORM_URL)
-    general_btn = (
-        f'<a class="btn" href="{general}"'
-        + ('' if form_mode else ' ')  # mailto opens mail client; form opens in same tab
-        + f'>{"Open the feedback form" if form_mode else "Email us your feedback"}</a>'
-    )
-    # The paid path. Bounty is gated; only link to it when live, else explain it's coming.
-    if BOUNTY_LIVE:
-        bounty_block = (
-            '<p>Found a real mistake -- a fact that is wrong, a culture misrepresented, a timeline that '
-            'does not add up? That is the <strong>Honey Badger Bounty</strong>, and we pay for it.</p>'
-            '<p><a class="btn ghost" href="bounty.html">Report a find (paid) →</a></p>'
-        )
-    else:
-        bounty_block = (
-            '<p>Found a real mistake -- a fact that is wrong, a culture misrepresented, a timeline that '
-            'does not add up? We are about to start <strong>paying</strong> readers who catch those, '
-            'through the Honey Badger Bounty (opening soon). For now, send it the same way as any other '
-            'feedback and we will hold it -- early finds still count when the bounty opens.</p>'
-        )
-    body = (
-        '<h1 style="text-align:center">Tell us something</h1>'
-        '<p class="intro" style="text-align:center">This whole library is built to be gotten right, '
-        'and to be enjoyed. If you have a thought, a correction, a kindness, or a catch -- we want it.</p>'
-        '<hr class="rule">'
-        '<h2 style="text-align:center">A thought, a typo, or just what you felt</h2>'
-        '<p>Praise, a quiet criticism, a typo, a line that landed, a thing that didn\'t -- all of it '
-        f'is welcome and all of it is read. {"It goes straight to a private inbox." if not form_mode else "It lands in our private feedback log."}</p>'
-        f'<p>{general_btn}</p>'
-        '<hr class="rule">'
-        '<h2 style="text-align:center">A real mistake (this one pays)</h2>'
-        + bounty_block +
-        '<hr class="rule">'
-        '<p style="font-size:14px;color:var(--bonedim)">Every book also has its own feedback link on '
-        'its page, so you can tell us exactly which story you mean. The books are free at '
-        '<a href="index.html#library">the library</a>.</p>'
-    )
-    return "\n".join([
-        head("Tell us something — Arjuna Badger Press",
-             "Send feedback, a correction, or a kindness to Arjuna Badger Press. Found a real "
-             "mistake? The Honey Badger Bounty pays for it.", rel=""),
-        nav(rel=""),
-        '<article class="reader letter">',
-        '<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">',
-        body,
-        '<p style="text-align:center;margin-top:36px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>',
-        '</article>',
-        footer(),
-    ])
-
-
 def render_house() -> str:
     blazon = """<p class="intro">Arjuna Badger Press is the work of one house, and the house keeps its arms.
 They were not granted by a college; they were earned the long way, and then claimed. Read them and you
@@ -2445,55 +2091,6 @@ def reader_rewrite_links(md: str) -> str:
     )
 
 
-# Highlights the TOC entry for the section currently in view. Progressive enhancement: if JS is
-# off the links still jump correctly; this only adds the .active styling as you scroll/click.
-TOC_SCROLLSPY_JS = """<script>
-(function(){
-  var links = Array.prototype.slice.call(document.querySelectorAll('.readtoc a[data-toc]'));
-  if(!links.length || !('IntersectionObserver' in window)) return;
-  var byId = {}; links.forEach(function(a){ byId[a.getAttribute('data-toc')] = a; });
-  var heads = links.map(function(a){ return document.getElementById(a.getAttribute('data-toc')); }).filter(Boolean);
-  var current = null;
-  function setActive(a){ if(a===current) return; if(current) current.classList.remove('active');
-    current = a; if(a){ a.classList.add('active');
-      a.scrollIntoView({block:'nearest'}); } }
-  var visible = {};
-  var obs = new IntersectionObserver(function(entries){
-    entries.forEach(function(en){ var id = en.target.id;
-      if(en.isIntersecting) visible[id] = en.intersectionRatio; else delete visible[id]; });
-    var best = null, bestTop = Infinity;
-    heads.forEach(function(h){ if(h.id in visible){ var t = h.getBoundingClientRect().top;
-      if(t < bestTop){ bestTop = t; best = h.id; } } });
-    if(best) setActive(byId[best]);
-  }, {rootMargin:'-15% 0px -70% 0px', threshold:[0,1]});
-  heads.forEach(function(h){ obs.observe(h); });
-  links.forEach(function(a){ a.addEventListener('click', function(){ setActive(a); }); });
-})();
-</script>"""
-
-
-def reader_toc(body: str) -> str:
-    """Build the chapter-list sidebar from the <h1> anchors in a rendered reader body.
-
-    Chapters (and front/back-matter sections like Dedication, Foreword, Appendix) are <h1> in the
-    manuscript, each carrying an id from md_to_html. We list them in document order; the active one
-    is tracked by a tiny IntersectionObserver (progressive enhancement — links work without JS)."""
-    items = re.findall(r'<h1 id="([^"]+)">(.*?)</h1>', body, re.S)
-    if len(items) < 2:                      # nothing worth a TOC (e.g. a single-section letter)
-        return ""
-    links = []
-    for hid, inner in items:
-        label = html.escape(strip_md(re.sub(r"<[^>]+>", "", inner)))
-        links.append(f'<li><a href="#{hid}" data-toc="{hid}">{label}</a></li>')
-    return (
-        '<nav class="readtoc" aria-label="Chapters">'
-        '<div class="readtoc-inner">'
-        '<p class="readtoc-h">Contents</p>'
-        f'<ol>{"".join(links)}</ol>'
-        '</div></nav>'
-    )
-
-
 def render_reader(e: dict) -> str:
     if e.get("prepared_reader_md"):
         body = md_to_html(reader_rewrite_links(e["prepared_reader_md"]))
@@ -2508,19 +2105,13 @@ def render_reader(e: dict) -> str:
         if f.suffix.lower() == ".epub":
             dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
             break
-    toc = reader_toc(body)
-    layout = (
-        f'<div class="readlayout">{toc}<article class="reader">{body}</article></div>'
-        if toc else f'<article class="reader">{body}</article>'
-    )
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
         trust_banner(rel="../"),
         audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
-        layout,
-        TOC_SCROLLSPY_JS if toc else "",
+        f'<article class="reader">{body}</article>',
         footer(),
     ])
 
@@ -2590,13 +2181,12 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
-    (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
         if slug in ("bounty", "finders") and not BOUNTY_LIVE:
             continue   # bounty surface is gated until launch (25 June 2026)
         page = render_doc_page(src_name, slug, title, desc)
         if page:
-            (OUT / f"{slug}.html").write_text(with_mermaid(page), encoding="utf-8")
+            (OUT / f"{slug}.html").write_text(page, encoding="utf-8")
 
     craft_out = OUT / "craft"
     craft_out.mkdir(exist_ok=True)
@@ -2617,16 +2207,6 @@ def main() -> None:
             if page:
                 (terms_out / f"{src.stem}.html").write_text(page, encoding="utf-8")
                 term_n += 1
-
-    writing_out = OUT / "writing"
-    writing_out.mkdir(exist_ok=True)
-    (writing_out / "index.html").write_text(render_writing_index(), encoding="utf-8")
-    writing_n = 0
-    for src_name, slug, title, byline, blurb in WRITING_PIECES:
-        page = render_writing_piece(src_name, slug, title, byline, blurb)
-        if page:
-            (writing_out / f"{slug}.html").write_text(page, encoding="utf-8")
-            writing_n += 1
 
     wiki_n = build_wiki(OUT)
 
