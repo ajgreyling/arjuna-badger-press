@@ -16,6 +16,7 @@ import os
 import re
 import shutil
 import subprocess
+import urllib.parse
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -25,7 +26,19 @@ OUT = REPO / "site" / "public"
 
 DOMAIN = "https://arjunabadger.press"
 PUBLIC_EMAIL = "info@arjunabadger.press"
+# Private inbox that reader feedback is routed to (the mailto fallback targets this directly).
+PRIVATE_EMAIL = "j@arjunabadger.press"
 TAGLINE = "Your story, told true."
+
+# ── Reader feedback funnel ────────────────────────────────────────────────────────────────────
+# The site is static, so feedback collection is either an embedded form (responses land in a sheet
+# we read) or a mailto. Paste a Google Form / Tally base URL here (or set ABP_FEEDBACK_FORM_URL)
+# and every feedback button points at it — per-book buttons append ?<book_param>=<Title> to
+# pre-fill the book field. While empty, buttons fall back to a pre-filled mailto to PRIVATE_EMAIL,
+# so the channel works today with zero external setup. See docs/FEEDBACK_PLAN.md.
+FEEDBACK_FORM_URL = os.environ.get("ABP_FEEDBACK_FORM_URL", "")
+# The Google-Form prefill field id for "Which book?" (e.g. "entry.123456"). Only used in form mode.
+FEEDBACK_FORM_BOOK_PARAM = os.environ.get("ABP_FEEDBACK_BOOK_PARAM", "entry.book")
 
 # ── Analytics (Plausible Cloud) ───────────────────────────────────────────────────────────────
 # Privacy-first, no-cookie analytics. Set PLAUSIBLE_DOMAIN to the site domain registered in your
@@ -1211,6 +1224,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}on-doubt.html">On doubt</a>'
+        f'<a href="{rel}feedback.html">Tell us something</a>'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
@@ -1268,6 +1282,19 @@ MERMAID_BOOT = """<script type="module">
     },
   });
 </script>"""
+
+
+def feedback_href(book_title: str | None = None) -> str:
+    """A feedback destination, HTML-attribute-safe. Form mode if FEEDBACK_FORM_URL is set
+    (with the book pre-filled when given); otherwise a pre-filled mailto to PRIVATE_EMAIL."""
+    if FEEDBACK_FORM_URL:
+        url = FEEDBACK_FORM_URL
+        if book_title:
+            sep = "&" if "?" in url else "?"
+            url = f"{url}{sep}{FEEDBACK_FORM_BOOK_PARAM}={urllib.parse.quote(book_title)}"
+        return html.escape(url, quote=True)
+    subject = f"Feedback: {book_title}" if book_title else "Feedback on Arjuna Badger Press"
+    return html.escape(f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subject)}", quote=True)
 
 
 def with_mermaid(page: str) -> str:
@@ -1848,7 +1875,8 @@ def render_book(e: dict) -> str:
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{serial_note}{wiki}{soon}
-<p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
+<p class="bookfeedback" style="margin-top:22px;font-size:14px;color:var(--bonedim)">Spotted something, or just want to tell us what you thought? <a href="{feedback_href(e['title'])}">Send feedback on {html.escape(e['title'])} →</a></p>
+<p style="margin-top:24px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(),
     ])
@@ -2285,6 +2313,62 @@ def render_writing_index() -> str:
     ])
 
 
+def render_feedback() -> str:
+    """The one feedback funnel: general feedback (form/mailto) and a branch to the paid bounty.
+    Static-site safe — the general path is a form or mailto; the bounty path links to /bounty.html
+    (which is gated). When the bounty isn't live yet, that branch shows a 'opens soon' note."""
+    general = feedback_href()
+    form_mode = bool(FEEDBACK_FORM_URL)
+    general_btn = (
+        f'<a class="btn" href="{general}"'
+        + ('' if form_mode else ' ')  # mailto opens mail client; form opens in same tab
+        + f'>{"Open the feedback form" if form_mode else "Email us your feedback"}</a>'
+    )
+    # The paid path. Bounty is gated; only link to it when live, else explain it's coming.
+    if BOUNTY_LIVE:
+        bounty_block = (
+            '<p>Found a real mistake -- a fact that is wrong, a culture misrepresented, a timeline that '
+            'does not add up? That is the <strong>Honey Badger Bounty</strong>, and we pay for it.</p>'
+            '<p><a class="btn ghost" href="bounty.html">Report a find (paid) →</a></p>'
+        )
+    else:
+        bounty_block = (
+            '<p>Found a real mistake -- a fact that is wrong, a culture misrepresented, a timeline that '
+            'does not add up? We are about to start <strong>paying</strong> readers who catch those, '
+            'through the Honey Badger Bounty (opening soon). For now, send it the same way as any other '
+            'feedback and we will hold it -- early finds still count when the bounty opens.</p>'
+        )
+    body = (
+        '<h1 style="text-align:center">Tell us something</h1>'
+        '<p class="intro" style="text-align:center">This whole library is built to be gotten right, '
+        'and to be enjoyed. If you have a thought, a correction, a kindness, or a catch -- we want it.</p>'
+        '<hr class="rule">'
+        '<h2 style="text-align:center">A thought, a typo, or just what you felt</h2>'
+        '<p>Praise, a quiet criticism, a typo, a line that landed, a thing that didn\'t -- all of it '
+        f'is welcome and all of it is read. {"It goes straight to a private inbox." if not form_mode else "It lands in our private feedback log."}</p>'
+        f'<p>{general_btn}</p>'
+        '<hr class="rule">'
+        '<h2 style="text-align:center">A real mistake (this one pays)</h2>'
+        + bounty_block +
+        '<hr class="rule">'
+        '<p style="font-size:14px;color:var(--bonedim)">Every book also has its own feedback link on '
+        'its page, so you can tell us exactly which story you mean. The books are free at '
+        '<a href="index.html#library">the library</a>.</p>'
+    )
+    return "\n".join([
+        head("Tell us something — Arjuna Badger Press",
+             "Send feedback, a correction, or a kindness to Arjuna Badger Press. Found a real "
+             "mistake? The Honey Badger Bounty pays for it.", rel=""),
+        nav(rel=""),
+        '<article class="reader letter">',
+        '<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">',
+        body,
+        '<p style="text-align:center;margin-top:36px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>',
+        '</article>',
+        footer(),
+    ])
+
+
 def render_house() -> str:
     blazon = """<p class="intro">Arjuna Badger Press is the work of one house, and the house keeps its arms.
 They were not granted by a college; they were earned the long way, and then claimed. Read them and you
@@ -2501,6 +2585,7 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+    (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
         if slug in ("bounty", "finders") and not BOUNTY_LIVE:
             continue   # bounty surface is gated until launch (25 June 2026)
