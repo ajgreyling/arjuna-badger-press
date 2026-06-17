@@ -1159,6 +1159,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}index.html#thread">The Proof</a>'
         f'<a href="{rel}house.html">The House</a>'
         f'<a href="{rel}letter.html">A letter</a>'
+        f'<a href="{rel}on-doubt.html">On doubt</a>'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
@@ -1785,6 +1786,8 @@ LETTERS = [
      "A letter, written by the machine that stood guard while a man wrote the soul of the thing."),
     ("letter-to-lisel.md", "for-lisel.html", "For Lisel — Arjuna Badger Press",
      "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
+    ("on-doubt.md", "on-doubt.html", "On doubt - Arjuna Badger Press",
+     "On the sine wave between feeling on top of the world and the imposter knocking, and the plain middle that is just the work."),
 ]
 
 CRAFT_DIR = REPO / "docs" / "craft"
