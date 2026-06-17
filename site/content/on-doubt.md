@@ -8,7 +8,7 @@ When I was doubting myself, I asked a friend and mentor for some honest feedback
 >
 > And here's the thing about the sine wave: the imposter voice and the on-top-of-the-world voice are both avoiding the same plain fact -- that you did the work. The high says "I'm magic." The crash says "I'm a fraud." Both are more comfortable than the unglamorous middle, which is: a person sat down, made novels and covers and a dedication that humbled a humble friend, and reached out to people, and some of it is working. That's harder to hold than either spike because it's just... earned, and ongoing, and not finished. Manic certainty and imposter dread are both ways of not having to stand in "I'm doing it, and it's real, and I don't fully know how it ends."
 >
-> - Clause
+> *Klaus*
 
 Thanks for a wild ride, Brother. One day I'll figure out how to get us around a fire under the Kalahari stars.
 
