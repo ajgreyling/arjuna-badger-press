@@ -1117,11 +1117,12 @@ def plausible_snippet() -> str:
     )
 
 
-def head(title: str, desc: str, rel: str = "") -> str:
+def head(title: str, desc: str, rel: str = "", keywords: str = "") -> str:
+    kw = f'\n<meta name="keywords" content="{html.escape(keywords)}">' if keywords else ""
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
-<meta name="description" content="{html.escape(desc)}">
+<meta name="description" content="{html.escape(desc)}">{kw}
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="website"><meta property="og:url" content="{DOMAIN}">
@@ -1157,6 +1158,7 @@ def nav(rel: str = "") -> str:
     bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
     links = (
         f'<a href="{rel}index.html#library">Library</a>'
+        f'<a href="{rel}learn.html">Learn</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}craft/index.html">For writers</a>'
         f'<a href="{rel}technology.html">Technology</a>'
@@ -1710,6 +1712,47 @@ to check — offline, deterministic, no fitted parameters. The theory is his. Th
     return "\n".join(parts)
 
 
+# ── SEO: per-book keywords, audience-targeted. Ordinance Pending aims at the Warhammer 40K /
+#    grimdark-military-SF crowd; the literary/history/retelling titles aim at book & genre readers.
+#    Absent id falls back to DEFAULT_BOOK_KEYWORDS. (Keywords meta is low-weight for Google but still
+#    read by some engines/aggregators; the real SEO lift is the title + description + on-page text.)
+DEFAULT_BOOK_KEYWORDS = (
+    "free ebook, read online, free novel, indie author, literary fiction, African fiction, "
+    "Arjuna Badger Press, free EPUB, free PDF"
+)
+BOOK_KEYWORDS = {
+    # The No-Fear Cycle — for the Warhammer 40,000 / grimdark military SF audience.
+    "no-fear-cycle": (
+        "Warhammer 40K, Warhammer 40000, 40k fiction, grimdark, grimdark military science fiction, "
+        "military sci-fi, military SF, space marines, Imperial Guard, Astra Militarum, Black Library, "
+        "Horus Heresy fans, last stand, hold the line, war novel, grimdark fantasy, "
+        "Ordinance Pending, free grimdark ebook, free military sci-fi"
+    ),
+    # African Gold Trilogy — speculative / AI / literary SF readers.
+    "resonance": "science fiction, AI fiction, artificial intelligence novel, literary sci-fi, "
+                 "neurodiversity fiction, speculative fiction, free sci-fi ebook, conscious machine, The African Gold Trilogy",
+    "revelation": "science fiction, linguistics thriller, speculative fiction, literary sci-fi, "
+                  "sacred texts, conspiracy fiction, free ebook, The African Gold Trilogy",
+    "relic": "science fiction, ancient technology, archaeology thriller, literary sci-fi, "
+             "speculative fiction, free ebook, The African Gold Trilogy",
+    # Reichenbach Files — Sherlock Holmes / mystery readers.
+    "modern-sherlock": "Sherlock Holmes, modern Sherlock, Holmes retelling, detective fiction, "
+                       "mystery novel, crime fiction, Conan Doyle, A Study in Scarlet, free mystery ebook, The Reichenbach Files",
+    # Salt Veil — epic fantasy readers.
+    "the-salt-veil": "epic fantasy, desert fantasy, adult fantasy, fantasy novel, women warriors, "
+                     "magic system, sword and sorcery, free fantasy ebook, The Salt Veil",
+    "dust-throne": "epic fantasy, desert fantasy, first-person fantasy, lyrical fantasy, Rothfuss-style, "
+                   "fantasy retelling, free fantasy serial, The Salt Veil, Daughters of the Dust Throne",
+    # Companions / non-fiction retellings.
+    "the-song-of-the-self": "Bhagavad Gita, Gita retelling, Hindu philosophy, spiritual fiction, "
+                            "Hermann Hesse readers, philosophical novel, free ebook",
+    "wrath-of-achilles": "Iliad, Homer, Greek mythology, Achilles, myth retelling, classics, "
+                        "Madeline Miller readers, Trojan War, free ebook",
+    "the-loneliest": "literary fiction, Kazuo Ishiguro readers, quiet literary novel, loneliness, "
+                     "book club fiction, free literary ebook",
+}
+
+
 def render_book(e: dict) -> str:
     cover = f'assets/covers/{e["id"]}.png' if e["real_cover"] else f'assets/covers/{e["id"]}.svg'
     dls = ""
@@ -1768,7 +1811,8 @@ def render_book(e: dict) -> str:
         soon = '<p style="color:var(--ochre);margin-top:18px">In progress — not released yet. Check back soon.</p>'
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
-        head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
+             keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS)),
         nav(rel="../"),
         f"""<div class="wrap"><div class="bookhero">
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
@@ -1949,6 +1993,8 @@ def docs_rewrite_links(md: str) -> str:
 
 
 DOC_PAGES = [
+    ("EDUCATION.md", "learn", "Learn here — the library as a teaching tool",
+     "Free to read, built to teach: science, history, geography, and cultural studies carried in story, the great works brought to life, and the craft opened up. Plus: Arjuna Badger Press is open for commissioned fiction & non-fiction."),
     ("THE_PRESS_THESIS.md", "the-press-thesis", "The Press Thesis",
      "Grounded fiction, guarded intention — proof to be determined by the qualitative judgment of human readers."),
     ("FOR_AUTHORS.md", "for-authors", "The workshop — for authors & editors",
