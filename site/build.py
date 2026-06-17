@@ -540,9 +540,37 @@ def md_to_html(md: str) -> str:
         flush_table()
         flush_para()
 
+    fence_lang: str | None = None      # non-None while inside a ``` code fence
+    fence_buf: list[str] = []
+
+    def flush_fence():
+        nonlocal fence_lang, fence_buf
+        body_text = "\n".join(fence_buf)
+        if fence_lang == "mermaid":
+            # Mermaid renders client-side from the raw graph source inside <pre class="mermaid">.
+            # The page that contains one loads mermaid.js and calls mermaid.run() (see head()).
+            out.append(f'<pre class="mermaid">{html.escape(body_text)}</pre>')
+        else:
+            cls = f' class="language-{html.escape(fence_lang)}"' if fence_lang else ""
+            out.append(f"<pre><code{cls}>{html.escape(body_text)}</code></pre>")
+        fence_lang = None
+        fence_buf = []
+
     for raw in md.splitlines():
         line = raw.rstrip()
         s = line.strip()
+        # ``` code fences — accumulate verbatim until the closing fence (handles mermaid + code).
+        if fence_lang is not None:
+            if s.startswith("```"):
+                flush_fence()
+            else:
+                fence_buf.append(raw)
+            continue
+        fence_open = re.match(r"^```+\s*([\w-]*)\s*$", s)
+        if fence_open:
+            flush_all()
+            fence_lang = fence_open.group(1) or ""
+            continue
         if not s:
             flush_all()
             continue
@@ -952,6 +980,39 @@ section.series{padding:46px 0 8px}
 .reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
+/* ── Code fences + Mermaid diagrams ────────────────────────────────────────────────────────── */
+pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var(--line);
+  border-radius:10px;overflow-x:auto;font-family:ui-monospace,"SF Mono",Menlo,monospace;
+  font-size:13.5px;line-height:1.5;color:var(--bonedim)}
+pre.mermaid{margin:1.8em auto;padding:18px;text-align:center;background:transparent;border:0;
+  /* hidden until mermaid.js swaps the source for an <svg>; avoids a flash of raw graph text */
+  color:transparent;min-height:40px;line-height:0}
+pre.mermaid svg{max-width:100%;height:auto;line-height:normal}
+pre.mermaid[data-processed] {color:inherit}
+/* ── Online-reader chapter list / TOC (left rail on wide screens) ───────────────────────────── */
+.readlayout{display:grid;grid-template-columns:266px minmax(0,1fr);gap:8px;
+  max-width:1040px;margin:0 auto;align-items:start}
+.readlayout .reader{max-width:720px;margin:0}           /* article keeps its measure; grid centres it */
+.readtoc{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 84px);
+  overflow-y:auto;padding:34px 8px 40px 24px;font-family:"Space Grotesk",sans-serif;
+  scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.readtoc::-webkit-scrollbar{width:8px} .readtoc::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
+.readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre)}
+.readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
+.readtoc li{margin:0}
+.readtoc a{display:block;padding:6px 10px;border-left:2px solid transparent;
+  color:var(--bonedim);font-size:13.5px;line-height:1.4;text-decoration:none;
+  border-radius:0 5px 5px 0;transition:color .15s,background .15s,border-color .15s}
+.readtoc a:hover{color:var(--bone);background:rgba(229,181,103,.07)}
+.readtoc a.active{color:var(--gold);border-left-color:var(--gold);background:rgba(229,181,103,.10);font-weight:600}
+/* Narrow screens: the rail folds into a collapsible bar above the prose (pure-CSS toggle). */
+.readtoc-toggle{display:none}
+@media (max-width:900px){
+  .readlayout{grid-template-columns:1fr;gap:0}
+  .readlayout .reader{margin:0 auto}
+  .readtoc{position:static;max-height:340px;padding:14px 20px;margin:0 auto;max-width:720px;
+    border-bottom:1px solid var(--line)}
+}
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
@@ -1098,6 +1159,29 @@ def footer() -> str:
 <span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a></span>
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
 </div></footer></body></html>"""
+
+
+MERMAID_BOOT = """<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({
+    startOnLoad: true,
+    securityLevel: "strict",
+    theme: "base",
+    themeVariables: {
+      background: "#1d1a16", primaryColor: "#221f1b", primaryTextColor: "#EDE9E0",
+      primaryBorderColor: "#C8A86B", lineColor: "#C8A86B", secondaryColor: "#2A241D",
+      tertiaryColor: "#161513", fontFamily: "Inter, system-ui, sans-serif",
+    },
+  });
+</script>"""
+
+
+def with_mermaid(page: str) -> str:
+    """If a finished page contains a Mermaid block, load+init mermaid.js just before </body>.
+    Per-page (the script only ships where a diagram actually appears)."""
+    if 'class="mermaid"' not in page:
+        return page
+    return page.replace("</body></html>", f"{MERMAID_BOOT}</body></html>", 1)
 
 
 def card(e: dict, accent: str) -> str:
@@ -2186,7 +2270,7 @@ def main() -> None:
             continue   # bounty surface is gated until launch (25 June 2026)
         page = render_doc_page(src_name, slug, title, desc)
         if page:
-            (OUT / f"{slug}.html").write_text(page, encoding="utf-8")
+            (OUT / f"{slug}.html").write_text(with_mermaid(page), encoding="utf-8")
 
     craft_out = OUT / "craft"
     craft_out.mkdir(exist_ok=True)
