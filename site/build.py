@@ -368,7 +368,7 @@ CURATED = [
      "_comingsoon/the-first-unplugged", "build/export",
      "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment. Coming soon."),
 
-    # ── Not a Potato — Why Files slate (draft/scaffold — in the workshop) ───────────────────────
+    # ── Not a Potato — anomaly slate (draft/scaffold — in the workshop) ─────────────────────────
     ("anunnaki-mesopotamia", "The Princely Offspring", "Not a Potato", "Not a Potato",
      "_comingsoon/anunnaki-mesopotamia", "build/export",
      "Ancient Mesopotamia — the ancient-aliens founding myth played straight, then killed in the cuneiform; the real hole is the Bible's Mesopotamian sources. Coming soon."),
