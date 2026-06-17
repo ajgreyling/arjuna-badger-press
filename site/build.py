@@ -86,7 +86,7 @@ PUBLISHED = set(
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
-        "dust-throne",
+        "dust-throne,apex-alphas",
     ).split(",") if s.strip()
 )
 
@@ -99,7 +99,6 @@ PUBLISHED = set(
 SERIAL = set(
     s.strip() for s in os.environ.get(
         "ABP_SERIAL",
-        "the-resonance-court,"
         "dust-throne",
     ).split(",") if s.strip()
 )
@@ -142,7 +141,7 @@ HIDE_BOOKS = set(
         # the-first-unplugged: the Stranger in a Strange Land retelling stays PRIVATE — EPUB is
         # vendored into the repo but the book is dropped from the site entirely (no card, page,
         # download, read-online), by explicit request, until cleared to surface.
-        "the-resonance-court,the-first-unplugged",
+        "the-first-unplugged",
     ).split(",") if s.strip()
 )
 
@@ -245,9 +244,9 @@ CURATED = [
     ("the-jakobus-file", "A Man They All Read Wrong", "The Jakobus Swart File", "History Before Time",
      "history-before-time/books/the-jakobus-file", "build/export",
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
-    ("the-resonance-court", "The Resonance Court", "The Synthesis · Book One · a daily serial", "The Synthesis",
-     "history-before-time/books/the-resonance-court", "build/export",
-     "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute, released day by day: the Prologue and Day One are live now, with a new chapter every day."),
+    ("apex-alphas", "Apex Alphas", "The Synthesis · Book One", "The Synthesis",
+     "history-before-time/books/apex-alphas", "build/export",
+     "A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch — and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute. Opening chapters available now."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
      "history-before-time/books/crop-circles", "build/export",
@@ -1733,7 +1732,7 @@ def render_book(e: dict) -> str:
     # the reverent catalogue one click away. This is the project's best context for anyone who arrives
     # to judge it (a named figure, a lawyer, a curious reader) — the whole shelf is free, careful with
     # other people's sacred things, and made for the joy of it. The Court is one more tribute, louder.
-    if e["id"] == "the-resonance-court":
+    if e["id"] == "apex-alphas":
         serial_note += (
             '<div style="margin-top:22px;padding:18px 20px;border:1px solid var(--line);'
             'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
