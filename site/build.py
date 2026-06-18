@@ -129,7 +129,7 @@ PROCEDURAL_SHOW = set(
 HIDE_SERIES = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_SERIES",
-        "Not a Potato,The Unheard",
+        "The Unheard",
     ).split(",") if s.strip()
 )
 
@@ -1712,6 +1712,9 @@ Free for every writer who has a story and has never been shown how to begin.</p>
         group = [e for e in entries if e["series"] == sname]
         if not group:
             continue
+        # Published work appears BEFORE in-progress/coming-soon titles on the same shelf.
+        # Stable sort: available (downloadable or serial) first, CURATED order kept within each.
+        group.sort(key=lambda e: 0 if e["available"] else 1)
         cards = "".join(card(e, accent) for e in group)
         tag = SHELF_TAGLINE.get(sname)
         tagline = f'<p class="shelftag">{html.escape(tag)}</p>' if tag else ""
