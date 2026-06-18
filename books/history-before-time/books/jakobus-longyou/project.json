@@ -9,9 +9,17 @@
   "status": "seed",
   "seq": 6,
   "graph_color": "#4a5568",
+  "target_words": 28000,
   "canon_order": [
     "SEED_STORY.md",
-    "PLACE_RESEARCH.md"
+    "PLACE_RESEARCH.md",
+    "STORY_BIBLE.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS_RULES.md",
+    "PLOT.md",
+    "THEMES.md",
+    "STYLE_GUIDE.md"
   ],
   "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
 }

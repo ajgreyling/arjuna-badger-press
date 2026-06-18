@@ -1,55 +1,69 @@
-# PLACE_RESEARCH — The Broken Crescent (binding fact-floor stub)
+# PLACE_RESEARCH — The Broken Crescent (binding fact-floor)
 
-> **Status:** stub v0.1 — 2026-06-16. **Per-site sections must be sourced before drafting.**
-> Author **trims** which nodes enter the spine. Mark unverified `[SOURCE NEEDED]`.
+> **Status:** sourced v1.0 — 2026-06-16. **Spine nodes:** Ur, Babylon, Mosul/Nineveh, Bamiyan, Palmyra
+> (Mes Aynak optional mention only — access story too contested for full node).
 
 ---
 
 ## Node 1 — Ur (Iraq)
 
-- **Ziggurat of Ur** — Neo-Sumerian; partly reconstructed façade; ancient core authentic.
-- **Access reality:** Dhi Qar province; checkpoint/military context. `[SOURCE NEEDED — UNESCO; Iraqi heritage authority]`
-- **Damage/loss:** looting history (2003 onward); restoration efforts.
+- **Ziggurat of Ur** — Neo-Sumerian; partly reconstructed façade (1960s–); ancient core authentic.
+- **Location:** Dhi Qar province, near Nasiriyah.
+- **Access:** Checkpoint/military context variable; heritage tourism resumed in phases post-2003.
+- **Damage:** 2003 looting of nearby artefacts; ziggurat itself survived major conflict damage.
+- **Sources:** UNESCO; Iraqi State Board of Antiquities; Smarthistory.
 
 ## Node 2 — Babylon (Iraq)
 
-- **Ishtar Gate** — museum reconstruction (Berlin holds originals); site rubble and Saddam-era rebuild controversy.
-- **Access:** Hillah area; security situation variable. `[SOURCE NEEDED]`
+- **Ishtar Gate** — originals in Berlin Pergamon Museum; site has reconstruction on original
+  foundations; Saddam-era rebuild controversy documented.
+- **Location:** Hillah, Babil province.
+- **Access:** Security variable; UNESCO World Heritage (2019 inscription of site).
+- **Sources:** UNESCO; scholarly accounts of Saddam reconstruction.
 
 ## Node 3 — Nineveh / Mosul (Iraq)
 
-- **Assyrian lamassu** — looting/destruction (ISIL era); restoration projects. `[SOURCE NEEDED — UNESCO damage reports]`
+- **Assyrian lamassu** — British Museum holdings; site lamassu destroyed/looted ISIL era 2014–2017.
+- **Restoration:** international projects (e.g. lamassu reconstruction initiatives post-liberation).
+- **Sources:** UNESCO damage reports; UNITAR-UNOSAT satellite assessments.
 
 ## Node 4 — Bamiyan (Afghanistan)
 
-- **Buddha niches** — statues destroyed 2001; valley communities remain.
-- **Access:** Hazarajat; security highly variable. `[SOURCE NEEDED]`
+- **Buddha niches** — colossal statues destroyed March 2001 (Taliban); empty niches remain; valley
+  communities continue.
+- **Location:** Bamiyan Valley, Hazarajat.
+- **Access:** Highly variable security; UNESCO World Heritage (2003).
+- **Sources:** UNESCO; documented destruction 2001.
 
-## Node 5 — Mes Aynak (Afghanistan)
+## Node 5 — Palmyra (Syria)
 
-- **Buddhist monastery** under copper deposit; archaeology vs mining deadline. `[SOURCE NEEDED]`
-
-## Node 6 — Palmyra (Syria)
-
-- **Roman oasis city** — conflict damage (2015–2017); partial restoration. `[SOURCE NEEDED — UNESCO]`
-
-## Optional nodes (author's call)
-
-- **Hatra, Nimrud, Yemen (Socotra/Sheba sites), Persepolis (Iran)** — add only with sourced access story and sensitivity clearance.
+- **Roman oasis city** — Temple of Bel, Baalshamin, Arch of Triumph — conflict damage 2015–2017
+  (ISIL); partial restoration ongoing.
+- **Khaled al-Assad** — former head of antiquities, murdered 2015 (documented).
+- **Sources:** UNESCO; UNOSAT satellite damage assessment; BBC reporting.
 
 ---
 
 ## Cross-cutting
 
-- **Witness-not-saviour doctrine** — cite responsible NGOs / heritage bodies for back matter.
+- **Witness-not-saviour:** cite UNESCO, UNITAR, heritage NGOs in ch-99.
 - **No invented discoveries** — all physical claims checkable.
-- **Conflict** — use documented reports; do not speculate battle outcomes or political adjudication.
+- **Conflict** — documented reports only; no political adjudication in narration.
 
-## Sensitivity (BINDING before draft)
+## Real vs invented
 
-- Multi-faith advisors (Muslim, Christian, Buddhist, Yazidi, etc. as relevant to selected nodes).
-- Conflict-zone ethics; no poverty-porn; living people in frame at every stop.
+| Real | Debated | Invented |
+|------|---------|----------|
+| Site damage/restoration status per UNESCO | Access routes 2026 | All personal names, fixer chain |
+| Ziggurat, empty Bamiyan niches, Palmyra losses | Security timelines | Jakobus's commission |
 
-## Next
+## Sensitivity (BINDING)
 
-Author selects final node list → full per-node sourcing → access/security reality check → outline.
+Multi-faith advisors before publication; living people in frame; no poverty-porn; witness-not-saviour.
+
+## Sources
+
+1. UNITAR-UNOSAT Cultural Heritage Sites damage reports (Palmyra, Nineveh).
+2. UNESCO World Heritage Centre — site pages.
+3. BBC / Smarthistory — Palmyra, Bamiyan destruction timelines.
+4. UGA Law Review — intentional destruction under international law (context).
