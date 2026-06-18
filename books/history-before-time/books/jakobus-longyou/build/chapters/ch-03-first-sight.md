@@ -1,0 +1,49 @@
+# Chapter 3 — The Hill with No Story
+
+The bus to Longyou left from a corner of the Quzhou station forecourt that no sign pointed to, which Jakobus took as a good omen. He found it the way he found most things — by watching where the people who plainly knew the route went, then following a half-minute behind, a man with a folder under his arm and a vest full of small useful things, drawing no more attention than a fence post. A woman with two live chickens in a mesh bag took the seat across the aisle. The chickens regarded him. He regarded them back, and they came to an understanding.
+
+The country between the towns was green and worked, every flat hand of land planted, the hills rising soft and forested where the plough gave up. He liked it. It was the opposite of the desert in every way that mattered and exactly the same in the one that counted: a place that got on with its own life and did not lay itself out for a stranger to admire. Rice. A river the colour of weak tea. A man on a moped with a sheet of glass roped to his back. Then the conductor said a name with Longyou in it somewhere, and Jakobus was up while the bus was still rolling and out the door before it had finished its sigh down onto its springs.
+
+He walked the last part. Three or four kilometres, by the directions a teenager had drawn for him with a finger in the air, and walking was how he met ground. The road narrowed into a lane, the lane into a track between low hills, and the hills here were the ones from the printouts — Fenghuang, Phoenix Hill — though the photographs had not prepared him for how *small* it was. Sixty-something metres. A koppie. At home you would not name a hill that size; you would call it *that rise over there* and use it to point a man toward the dam.
+
+The boots had broken to him properly by now and the kilometres went under them easy. Clean hands, dust to the knee, the day warming. He was in no hurry. A man who hurried at the start was a man who had already decided what he would find, and Jakobus had decided nothing. That was the point of coming.
+
+The ponds were the first true thing.
+
+They were exactly where the maps said, and they looked like nothing — a scatter of small flat waters caught between the foot of the hill and the fields, some green with weed, some clear, two of them now ringed with a low chain-link fence gone orange with rust. A sign on the wire carried characters he could not read and a graphic he could: a stick figure falling, a slash through it. *Do not.* The fenced ponds were darker than the others. He stood at the wire of the nearest and looked down, and the water gave him back the white sky and then nothing — no bottom he could find, the green going to black going to a depth the eye refused.
+
+He understood, standing there, why the villagers had let them be for two thousand years. You did not have to believe in a dragon to leave that water alone. A pond with no floor was a thing that asked you, quietly, to mind your own business, and most people, sensibly, did. It had taken a man with a pump and seventeen days of stubbornness to call its bluff, and what the pump had found under the bluff was not a dragon. It was worse, in its way. It was a room.
+
+He crouched at the fence a while. No chickens here to witness it. He picked a small flat stone off the verge — pale, water-smoothed, a faint banding through it like a held breath — and turned it in his fingers and read nothing off it except that it was a pretty stone, which was enough, and it went into the vest with the others. Then he walked on around the foot of the hill to where the printouts said the visitors went in, and found out what a million cubic metres of missing rock looked like from the outside.
+
+It looked like a car park.
+
+Not even a full one. A flat apron of cracked concrete, a steel-pipe gate painted the dull official red of every gate everywhere, a ticket booth the size of a phone box with its shutter half down and a kettle steaming inside it. A board on a frame had once held photographs and a map; the sun had eaten most of it to a uniform sepia, so that the great chambers in the pictures had faded to the same nothing-colour as the sky behind the board. Two banners hung limp between poles. A bin. A bench with a man asleep on it, a straw hat over his face, who was not — Jakobus revised on a second look — asleep, because the hat tipped a quarter-inch and an eye took him in and the hat tipped back.
+
+That was the whole of it. That was the front door.
+
+He had been to the staged ones. He knew the grammar of the marvel that wanted you — the avenue of flags, the loudspeaker, the entrance carved or cast or floodlit so that you arrived already small, the architecture of awe scaffolded up over the actual thing so you could not get at the wonder without first paying the wonder's tax. The pyramids had it now, God knew. Petra had it. And here was a place that had moved more stone out of a hill than any pyramid ever put up, and it had a faded board and a kettle and a man pretending to sleep.
+
+Something in him went quiet and a little ashamed of itself. He had come expecting — he realised it now — not a show, he was too old for that, but *some* announcement, some acknowledgement from the surface that the surface was lying. There was none. The hill had no story and no manners about not having one. It sat in the morning sun being a small green hill, the way it had sat being a small green hill while twenty-four cathedral-sized rooms stood in the dark beneath it, holding up nothing but their own ceilings, for two thousand years that no one wrote down. The marvel was not staged because the marvel did not need you. He had been, for a kilometre or two, the tourist after all, and the hill had cured him of it without a word, the way the best places did.
+
+The booth shutter ratcheted up and a young man came out unfolding himself, a guide by the lanyard and the very slightly performed straightening of his collar, and Jakobus took the shades off before the man had finished standing.
+
+It was reflex by now, older than the reason — the eyes bare for anyone whose job was a gate. But it did its work. The guide had been arranging a face for a foreigner; the bare eyes rearranged it, the way they did. He came across the concrete with his hand half out, decided against the handshake, made it a small bow instead, and Jakobus met him in the middle of the gesture — neither bow nor handshake but the thing between, two men deciding at once not to perform at each other.
+
+"Chen," the guide said, and tapped the lanyard.
+
+"Jakobus." He let the name sit flat and odd in the air and did not help it along.
+
+Chen's English was careful and entirely sufficient. One cave, he explained, with a hand at the red gate and a concrete path running back beyond it into the hillside, gently down. Cave One. Open. The others — and here the hand swept the whole green flank of the hill, taking in a great deal of nothing, grass and a few pines and a goat track — closed. *Conservation.* He gave the word its full four syllables, a word handed to him by someone above him to hand on to people like Jakobus, and he gave it cleanly and did not pretend it meant more than it meant. The water in some of them, he added, was still in them. The rock was studied. Engineers came. He said *engineers* with a small respect, and Jakobus heard it and filed it.
+
+"Just the one," Jakobus said. Not a complaint. A man establishing the shape of the ground.
+
+"Cave One," Chen agreed. "Is enough." A pause, and then the first flicker of something off the script: "You will see."
+
+Jakobus paid for the ticket. He found the right note — and then, because there had been a kettle and the morning was cool and a man who took your money should be allowed to put down a cup beside it, he held up two fingers and pointed at the steam still rising from the booth and asked, in the dozen words of Mandarin he had assembled on the train and the goodwill that filled the gaps, whether there was tea, and whether Chen would have one with him before they went down. There was, and Chen would. The man on the bench, consulted by a glance, would also; the hat came off a face that turned out to be sixty and creased and amused. The tea came in three glasses that did not match. They drank it standing in the cracked car park with the hill at their backs.
+
+He looked up the green slope while he drank, over the rim of the glass. There was nothing to see. Grass, a pine, the goat track, the soft round shoulder of a hill you would walk over without a thought. Under his boots — under the concrete, under the apron, under the bench and the bin and the faded board — twenty-four straight-walled rooms stood in the black, and not one tonne of the rock that had come out of them had ever been found. He had walked the whole way around the foot of the hill that morning and seen no slag, no spoil, no quarry scar, no ridge of dumped stone gone soft under grass. A million cubic metres of siltstone had been carried out of this small hill, and the hill did not show it, and the country did not remember it, and the surface — this whole quiet ordinary surface — lay over all of it like a hat over a face that was not asleep.
+
+He finished the tea. He handed the glass back and thanked the man for it twice, once badly in Mandarin and once with his eyes. Then he turned to Chen, who was waiting at the red gate with the patience of a man who had watched this happen to people before, and he put the shades into the vest, where they were no use to him in the dark, and he said, "Right. Let's go and see what it's for."
+
+Chen smiled the smile of a man who knew a thing the foreigner did not yet, and pushed the gate, and the concrete path ran down ahead of them into the hill, and the cool came up out of the ground to meet them.

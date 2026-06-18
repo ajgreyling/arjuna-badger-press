@@ -6,12 +6,20 @@
   "logline": "A fixer who reads made things walks the Siq to a city entirely eaten out of rose sandstone — and learns the wonder is not who carved it but what a people built when they owned the trade road, the rain, and the patience to cut a tomb like a promise.",
   "blueprint": "Jakobus-led wonder-of-place — man-made site, grounded not woo; the Nabataean engineering marvel as living heritage (anti-poison pillar); sibling to the quiet backstory volumes but propulsive like the File",
   "market": "literary travel-adventure — bucket-list Petra with documentary honesty and the iceberg fixer as guide",
-  "status": "seed",
+  "status": "drafting",
   "seq": 5,
   "graph_color": "#c76b4a",
+  "target_words": 28000,
   "canon_order": [
     "SEED_STORY.md",
-    "PLACE_RESEARCH.md"
+    "PLACE_RESEARCH.md",
+    "STORY_BIBLE.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS_RULES.md",
+    "PLOT.md",
+    "THEMES.md",
+    "STYLE_GUIDE.md"
   ],
   "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
 }

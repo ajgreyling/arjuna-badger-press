@@ -4,6 +4,12 @@ A self-contained **static** site for **arjunabadger.press**: the library of fini
 "completed projects" any visitor can browse, read online, and download (EPUB/PDF). Pure stdlib
 generator — no build dependencies, no framework, no JS bundler.
 
+> **The book deliverables under `../books/` are GENERATED** — synced in from the private
+> `africangold` platform repo by its `publish-library` workflow. Do not hand-edit them; edit a
+> book's prose in africangold and let the pipeline rebuild. The `CURATED` list in
+> [`build.py`](build.py) is the single catalogue contract the sync reads. Site chrome
+> (this generator, templates, covers, `_comingsoon/` placeholders) IS owned here.
+
 ## Build
 
 ```bash

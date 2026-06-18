@@ -1,39 +1,64 @@
-# PLACE_RESEARCH — Longyou Grottoes (binding fact-floor stub)
+# PLACE_RESEARCH — Longyou Grottoes (binding fact-floor)
 
-> **Status:** stub v0.1 — 2026-06-16. **Must be sourced before drafting.** Mark unverified `[SOURCE NEEDED]`.
+> **Status:** sourced v1.0 — 2026-06-16.
 
 ## Site
 
-**Longyou Grottoes** (龙游石窟) — Quzhou prefecture, Zhejiang, China. **24+** large man-made underground
-chambers in siltstone. **Discovered 1992** when local farmers drained a fish pond / raised water level
-story — verify exact account. `[SOURCE NEEDED — Yangtze River Civilizations Research Institute; official tourism materials]`
+**Longyou Grottoes** (龙游石窟) — Fenghuang Hill, Shiyan Beicun, Longyou County, Quzhou, Zhejiang,
+China. **24+** large man-made underground chambers in **argillaceous siltstone** (Quxian Formation,
+Upper Cretaceous).
+
+## Discovery (1992 — binding narrative)
+
+- June 1992: local farmers (Wu Anai and neighbours) pumped water from fish ponds on the hill for
+  **17 days** — revealed man-made caverns, not "bottomless" natural pools.
+- First five caverns (1–5) drained this way; more chambers located subsequently (24+ catalogued).
+- News reached Prof. Mao Zhaoxi / Hangzhou and international teams by 1998.
 
 ## Engineering (the grounded marvel)
 
-- Estimated **>1,000,000 m³** rock removed across complex. `[SOURCE NEEDED]`
-- **Straight, parallel wall marks** — tool-mark regularity; chamber heights (~30 m in Cave 1 — verify).
-- **Absent spoil heap** — no matching quarry debris field; central anomaly of the site.
-- Cave 1 floor area ~2,800 m² (verify). `[SOURCE NEEDED]`
+- Estimated **>1,000,000 m³** rock removed across complex (academic estimates; Transcend/showcaves
+  synthesis).
+- **Cave 1:** floor ~2,800 m²; height ~30 m (verify per chamber — dimensions vary).
+- **Parallel chisel marks** on walls and pillars — high regularity; straight walls.
+- **Absent spoil heap:** no matching quarry debris field at surface — central anomaly (documented in
+  academic literature; not fringe-only).
+- **Age:** pottery shards suggest **≥2,000 years**; Han-era clay in silt (Wikipedia cites 206 BC–23 AD
+  range for some finds); **no contemporaneous historical document** names construction.
+- Pillars left in place as roof support; some caverns still water-filled (6–8, 16–17).
 
 ## History
 
-- **No contemporaneous historical record** naming construction — the core "hole."
-- Hypotheses in literature: quarry, storage, shelter, ritual, military — **none proven** in authoritative consensus. `[SOURCE NEEDED]`
+| Settled | Open / debated |
+|---------|------------------|
+| Man-made; discovered 1992 | Exact construction date |
+| Siltstone geology; chamber count | Primary function (quarry / storage / shelter / ritual / military) |
+| Tourism at Cave 1 | Full extent of complex |
+| Academic study since 1990s | Where spoil went |
+
+**Hypotheses in literature:** quarry, storage, shelter, ritual, military — **none proven** in consensus.
 
 ## Access / custody today
 
-- Tourism development (Cave 1 open to public path); other caves gated/restricted. `[SOURCE NEEDED]`
+- **Cave 1** open to tourist path; decorative carvings (horse, fish, bird) in one chamber.
+- Other caves gated/restricted for conservation (engineering geology studies ongoing).
+- Longyou County tourism development.
 
-## Real vs invented (for back matter)
+## Real vs invented
 
-| Real (to confirm) | Debated | Invented in novel |
-|---|---|---|
-| 1992 discovery, cave count, dimensions, absent spoil | function/purpose | all personal names, commission plot |
+| Real | Debated | Invented |
+|------|---------|----------|
+| 1992 discovery, dimensions, absent spoil, parallel marks | Function/purpose | All personal names, commission |
+| Cave 1 tourism | Builder identity | Jakobus's China business cover |
+
+## Sources
+
+1. Yang et al. / ScienceDirect — Design, construction and mechanical behavior of Longyou caverns.
+2. Engineering Geology 2008 — geological characteristics, 2000+ year age claim.
+3. Wikipedia: Longyou Grottoes (cross-check with academic).
+4. showcaves.com — discovery account (cross-check).
 
 ## Sensitivity
 
-- Local archaeologists/tourism authorities; avoid fringe-as-narrator-verdict.
-
-## Next
-
-Cite Yangtze River Civilizations Research Institute papers; verify dimensions per cave; confirm tourism access 2026.
+Local archaeologists/tourism authorities; **maybe stays open in narration** — no authorial verdict on
+function; no ancient-alien narrator.
