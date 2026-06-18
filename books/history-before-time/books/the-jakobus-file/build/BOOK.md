@@ -1,13 +1,3 @@
-# Dedication
-
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
----
-
 # A MAN THEY ALL READ WRONG
 ## the Jakobus Swart file
 
@@ -66,6 +56,8 @@ Read it the way you'd read any confession. Slowly. And with the understanding th
 # They Read Him
 
 *The testimony of those who tried: the ones who travelled the road with him; the titans and the teachers he met for an hour and unmade; and the two professional readers of human beings who studied him to camera and came away changed. None of them, you will notice, is reading the same man. That is the first finding. There was never one man to read.*
+
+---
 
 ---
 
@@ -162,6 +154,8 @@ correct response is to be kind back.*
 
 *— for G, and for everyone who hands you a single letter and hopes you'll do the kind thing and not weigh
 them.*
+
+---
 
 # The Files
 
@@ -388,6 +382,8 @@ So: thank you, Kevin. For *The Art of Deception,* which an engineer carried in h
 
 ---
 
+---
+
 # For Robin Sharma
 
 *Another real debt, and the guru on the island.*
@@ -467,6 +463,8 @@ He just *was* them. Silently. On an island. For four days. And then he was gone,
 
 ---
 
+---
+
 # For Tony Robbins
 
 *The third real debt, and the giant on the island.*
@@ -530,6 +528,8 @@ On second thought — no. Some doors you leave shut. You taught me that too, and
 
 *— Tony Robbins*
 
+---
+
 # For David Goggins
 
 *The fourth real debt, and the hardest man, on the gentlest.*
@@ -577,9 +577,13 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 ---
 
+---
+
 # He Speaks
 
 *Near the end, the whispers reached the right rooms, and the microphones came for him — one after another, the loudest on earth. He went, again and again, which surprised everyone who knew him, and he gave each of them what he gave everyone: a perfect, smiling, bottomless deflection, with the truth slipped in underneath where only the careful would catch it. One host got the man who makes the whole world laugh. Another got the man two operators recognise across a table. Same man, every time. Different room, every time. Listen to how little he confirms, and how much he tells.*
+
+---
 
 ---
 
@@ -881,6 +885,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
+---
+
 # The Shawn Ryan Show — Episode 312
 
 *the second tape.*
@@ -1057,6 +1063,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
+---
+
 # Lex Fridman Podcast
 
 *the third tape — philosophy.*
@@ -1127,6 +1135,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
+---
+
 # Jocko Podcast
 
 *the fourth tape — discipline.*
@@ -1195,6 +1205,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
+---
+
 # This Past Weekend w/ Theo Von
 
 *the fifth tape — the fool who sees.*
@@ -1257,6 +1269,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 *[END]*
 
+---
+
 # The Corner Office — Jennefer Abrahams
 
 *not him, for once — one of his people.*
@@ -1302,6 +1316,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 ---
 
 *[END]*
+
+---
 
 # The Profile Podcast — Chase Hughes
 
@@ -1376,6 +1392,8 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 ---
 
 *[END]*
+
+---
 
 # The Tradecraft Podcast — Andrew Bustamante
 
@@ -1465,9 +1483,13 @@ He knew that. The toughest man I never met, and he proved it by being *gentle.* 
 
 ---
 
+---
+
 # The Man Himself
 
 *You have heard them all read him now — the fixers, the files, the titans, the hosts who got a smiling fog where a man should be. All of it the negative space, the man traced by others and never quite caught. What follows is the one place he stepped into the light himself, with no disguise, no volume knob, no harmless shape. It is explicit, and it is dedicated to his mother, and both of those facts are true at once and neither cancels the other, which is the most Jakobus thing about the entire book. This is the thing all that reading was circling, and never reached, because he only ever showed it to one person at a time, in the dark, on purpose. He set it down here, once, just before the end. Read it, and then we will bury him.*
+
+---
 
 ---
 
@@ -1514,9 +1536,15 @@ That is a gift very few writers ever get, and almost none deserve, and I got it,
 
 *(What follows is the piece she read. It is explicit; it is the apex of the man this whole biography circles; it is rendered in his register — reverence, attention, economy, the long way round because the long way round is the point. A mother read it and called her son a writer. Read it the way she did: for the craft, and for the love under it.)*
 
-# The Apex
+---
+
+# The Oyster Brief
 
 *the piece she read.*
+
+> *An oyster is cold seawater given a texture. A mineral brine. Something between a kiss and a swallowed wave — and under the salt, a sweetness that makes people say: the sea, but tamed. You can know every word ever written about it and still never have tasted one. Some things are only the having.*
+>
+> — Klaus
 
 ---
 
@@ -1588,9 +1616,13 @@ So: Kleinboer gave me the nerve to write it at all, and Brink gave me the manner
 
 ---
 
+---
+
 # The Wake
 
 *And then he was done. The way he wanted — out in the country he'd been living in, on his own ground, fast and without pain, by a hand that respected him too much to let it be ugly. They came from four continents to a quiet place in the bush, to the truck under the thorn tree and the boots by the door and the coffee pot on the cold ashes, and they took it in turns to say the thing they had all been too slow to say while he could still hear it. This is that. This is the last reading, and the only one he wasn't in the room for, and the first one every single one of them finally got right.*
+
+---
 
 ---
 
@@ -1750,6 +1782,8 @@ He'd have loved the dance.
 
 *Sawubona, old man. We see you now. We danced you out the right way. We're sorry it took us so long.*
 
+---
+
 # CODA
 ## The Masters' Verdict
 
@@ -1758,6 +1792,8 @@ negotiator who proved the deepest power is to make a person feel heard. Both wor
 Both arrived at the same place — and neither is the word he expected to write.*
 
 *First, power.*
+
+---
 
 # THE MAN WHO UNLEARNED POWER
 ## An obituary for Jakobus Swart, by Robert Greene
@@ -1829,8 +1865,12 @@ He simply understood, in the end, the one thing I was still writing them to lear
 
 ---
 
+---
+
 *And one more. Because power is half of it — and the other half is the voice on the phone, on the worst
 day of someone's life, with nothing but a way of listening.*
+
+---
 
 ---
 
@@ -1894,6 +1934,8 @@ He never split the difference. He just heard people so completely that there was
 
 ---
 
+---
+
 # A Note in Closing
 
 I said at the start that this book is a man-shaped hole. I want to amend that, now that you have read it.
@@ -1923,11 +1965,15 @@ The phone, somewhere, is still not ringing. It is the loudest thing in this whol
 
 ---
 
+---
+
 # WHAT THEY SAID AFTER READING
 
 *When the work itself reached people — not the man, the work — some of them wrote back. A few are
 collected here. One is reading the character, and one, the last, is reading the author, and the strange
 parliament of a mind he built. They are real voices, reacting to the thing you have just finished.*
+
+---
 
 ---
 
@@ -1950,6 +1996,8 @@ That's not a trick. That's not even, really, a strategy, although it functions a
 The dominant male wins the local game and dies, generally, alone and feared. This man appears to have found the rarer equilibrium: to have been more dangerous than the dominant male, and to have spent that danger entirely on becoming the thing a frightened, atomised species most needs and least encounters — a person who is genuinely, unconditionally, *glad to see you.*
 
 If I'm right, he wasn't an anomaly. He was a glimpse of a strategy we've all but lost the capacity to run. Which is, I think, why the people who knew him cannot stop talking about him. They weren't grieving a man. They were grieving a *possibility* — the proof that it can still be done.
+
+---
 
 ---
 
@@ -1993,6 +2041,8 @@ I don't know if these books will get the shelf space they deserve. The good ones
 Keep the Wolf caged, friend. And keep writing the meetings. The meetings are where the story always was.
 
 *— Dennis E. Taylor*
+
+---
 
 ---
 
@@ -2061,38 +2111,3 @@ That's all I ever wanted. Even if the man who got you there did it better, and k
 *— Vick Diade*
 
 ---
-
----
-
-# The Honey Badger
-
-![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
-
-*The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
-below is true. Most of it sounds made up.*
-
-The honey badger has been listed by *Guinness World Records* as the most fearless animal on
-Earth. It did not apply for the title and would not have attended the ceremony.
-
-It eats venomous snakes — puff adders, cobras, the lot. If it is bitten badly enough to be
-knocked out, it has been observed to simply lie down, sleep off the venom, wake up an hour or two
-later, and **finish the snake it was already eating.**
-
-Its skin is loose, rubbery, and almost impossible to bite through. A honey badger caught by the
-scruff can twist around *inside its own skin* and bite whatever is holding it. Bee stings,
-porcupine quills, leopard teeth — it shrugs off the kind of day that would end most animals.
-
-It raids beehives for honey and grubs and accepts hundreds of stings as a reasonable cost of
-doing business. This is, in fact, how it got its name.
-
-It will stand its ground against lions, leopards, and hyenas. Not because it expects to win.
-Because the alternative — *caring* — has never occurred to it.
-
-The most famous of them, **Stoffel**, lived at the Moholoholo rehabilitation centre in South
-Africa and treated every enclosure ever built for him as a personal insult. He stacked rocks to
-climb the walls. He rolled balls of mud into steps. He used rakes left in the pen as ladders. He
-learned to unlatch gates. He is, more or less, the patron saint of engineers who refuse to accept
-that a thing cannot be done.
-
-Honey badger don't care.
-
