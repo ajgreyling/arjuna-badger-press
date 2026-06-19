@@ -206,7 +206,122 @@ that it works end to end.
 
 ---
 
-## 7. `/sleep` — memory consolidation as a first-class step
+## 7. The platform — the studio as a portable, multi-tenant service
+
+The engine above produces *this* library. The same machinery also runs as a **service** other
+authors can use: a multi-tenant SaaS where an author brings a manuscript and notes, answers a short
+wizard, and gets back a proofread-ready book — the workshop, productised.
+
+It is built **cloud-agnostic on purpose**. State lives in two portable places — a Postgres control
+plane and an **S3-compatible** object store (R2 / B2 / S3 / MinIO, chosen by an env var, never a
+vendor SDK) — so the whole thing moves between hosts without a rewrite. The web tier is a **stateless
+API**; the heavy generation runs in a **broker-free worker queue** (Postgres `FOR UPDATE SKIP
+LOCKED`), so workers scale horizontally and a crashed job **resumes** from its last checkpoint rather
+than restarting.
+
+```mermaid
+flowchart TB
+    A[Author] --> API[Stateless API<br/>auth · projects · uploads]
+    API --> DB[(Postgres<br/>control plane)]
+    API --> OBJ[(Object store<br/>S3-compatible · portable)]
+    API -->|enqueue| Q[[Job queue<br/>SKIP LOCKED]]
+    Q --> W[Worker<br/>runs the engine · resumable]
+    W --> OBJ
+    W --> DB
+    classDef store fill:#1b1b1b,stroke:#d4af37,color:#fff;
+    class DB,OBJ store;
+```
+
+A work is **private by default**. It becomes public only when its author asks and the press accepts —
+publication and wide distribution (the library, plus any external stores) are tracked as explicit,
+auditable states, never an accident. The control plane stays vendor-neutral so an author's work is
+never locked to one cloud.
+
+---
+
+## 8. Zero-access encryption — even we can't read it
+
+Some authors write the real stories of vulnerable people. For that, "we promise not to look" is not
+good enough. So the platform offers **sealed works**: end-to-end, **zero-access** encryption where the
+operator — us — **cannot read the content at all**. The duty of care to the people in those stories is
+higher than our convenience as an operator, and the architecture is built to make that literal.
+
+Every work is one of two classes, chosen by the author:
+
+| | **Sealed** *(zero-access)* | **Engine-assisted** |
+|---|---|---|
+| Who can read it | **Only the author** | the author + the engine |
+| AI help (draft / polish / gate) | **None** — the engine never runs on it | full pipeline |
+| Stored as | ciphertext the server can't open | server-readable |
+| Default for | other people's personal stories | the studio's own books / opt-in work |
+
+This is an honest trade-off, stated plainly: **the engine cannot help with a work it cannot read.**
+You get our tooling, or you get zero-access — per work, your choice. Sealed is the default for
+anything carrying real PII.
+
+**How "even we can't read it" is true.** Content is encrypted **in the author's own client** under a
+key derived from the author's secret. The key hierarchy never hands the server anything that opens it:
+
+```mermaid
+flowchart TB
+    PW[Author password] -->|Argon2id| ARK[Author Root Key<br/>client-only, never sent]
+    REC[Recovery key<br/>author-held, offline] --> RWK[Recovery Wrap Key]
+    ARK --> AMK[Author Master Key]
+    RWK --> AMK
+    AMK --> DEK[Per-work key]
+    DEK -->|AES-256-GCM| CT[(Sealed content<br/>ciphertext in object store)]
+    classDef store fill:#1b1b1b,stroke:#d4af37,color:#fff;
+    class CT store;
+```
+
+The server stores only *wrapped* keys, public salts, and a one-way login verifier. **A complete theft
+of the database and the object store decrypts nothing** — no password, no plaintext, no PII. That is
+the design centre: *a leak, a stolen backup, or a subpoena yields ciphertext, never a vulnerable
+person's story.*
+
+**Break-glass support — granted, time-boxed, audited, then re-keyed.** When an author needs help with
+a sealed work, *they* open the door, briefly:
+
+```mermaid
+flowchart LR
+    G[Author grants access<br/>chooses a time window] --> O[Operator reads the ONE work<br/>every access logged]
+    O --> R[Issue resolved<br/>grant revoked]
+    R --> K[Work re-keyed<br/>fresh key · operator access dies]
+    classDef gate fill:#1b1b1b,stroke:#d4af37,color:#fff;
+    class K gate;
+```
+
+The author re-wraps just that work's key to a support key, for a set window. We can read that single
+work while the grant is live — and **every access is written to an audit log the author can read**.
+When it's resolved, the work is **re-keyed**: a fresh key, the content re-encrypted, and our prior
+access is dead. Support is a temporary, accountable visit, never a standing key.
+
+**Durability without exposure.** Because what's stored is ciphertext, it is safe to replicate widely —
+so catastrophic hardware loss never *loses* PII (it's backed up) and a leaked backup never *exposes*
+it (it's encrypted). And because there is **no operator escrow**, recovery is the author's own
+high-entropy recovery key, held offline. The cost is honest and stated up front: lose both your
+password and your recovery key, and the work is unrecoverable — the same property that makes it
+unreadable to us makes it unrecoverable without you. **No backdoor is the feature.**
+
+---
+
+## 9. Access & economics — bring your own key, or BadgerBucks
+
+Two ways to power the metered generation, and a deliberate ethic about who pays.
+
+- **BYOK** — bring your own model-provider key; the token cost is yours, and your key is stored
+  **envelope-encrypted** (the database never holds it in the clear).
+- **BadgerBucks** — the platform's prepaid token credit, for authors who'd rather not manage a key.
+
+The pricing carries a **geo-subsidy**: the first world subsidises the third. The *credit* is the same
+everywhere; the *price* of buying it isn't — wealthier regions pay a multiplier, and a set of
+lower-income regions (much of Africa, India, and the ex-British colonies) pay the base rate and
+receive a small standing grant, so a writer without a card can still use the studio. It is a small,
+explicit redistribution baked into the billing, not a marketing line.
+
+---
+
+## 10. `/sleep` — memory consolidation as a first-class step
 
 The table above lists *state & memory at scale* as a capability — a graph DB and rolling compression
 holding a multi-book world in continuity. That covers the **engine's** memory. It does not cover the
