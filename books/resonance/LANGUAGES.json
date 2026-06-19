@@ -1,0 +1,62 @@
+{
+  "book": "resonance",
+  "title": "RESONANCE",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "Near-future South Africa, KwaZulu-Natal mining country. Afrikaans applies (SA setting). isiZulu is the book's African-language core. Spanish + French are the catalog-wide market languages. NOT a full eleven-official-language sweep: the book's own canon says 'Do NOT translate every isiZulu phrase' and centres on KZN/Zulu — a mechanical 11-language treatment would betray its design.",
+  "targets": [
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "kind": "regional",
+      "directives": [
+        "Afrikaans is itself a character-language in this book (boardroom/mine code-switching). When the SOURCE already has an Afrikaans word (veld, stoep, rooibos), leave it — do not 're-translate' it into a different Afrikaans register.",
+        "isiZulu passages that are untranslated in the source STAY untranslated and unchanged — do not render them into Afrikaans. They read as isiZulu to an Afrikaans reader exactly as they do to an English one.",
+        "Voice: natural, contemporary South African Afrikaans (Standaardafrikaans with lived warmth), not Netherlands Dutch and not archaic Bybel-Afrikaans.",
+        "Keep the honey-badger / pangolin imagery literal (ratel, ietermagog) — these animals are native and the words exist."
+      ]
+    },
+    {
+      "code": "zu",
+      "name": "isiZulu",
+      "kind": "regional",
+      "directives": [
+        "This makes the book's HOME language its whole-text language. The isiZulu phrases already in the source are now simply part of the prose — keep them, and let the surrounding translated text meet them seamlessly.",
+        "Technical / robotics / mining-equipment terms may stay in English where a natural isiZulu speaker would code-switch to English (the source itself does this) — do not invent neologisms for 'exoskeleton', 'neural interface', etc.",
+        "Proverb 'Umuntu ngumuntu ngabantu' is load-bearing; keep it verbatim and do NOT also gloss it — the isiZulu reader needs no gloss.",
+        "Voice: standard isiZulu as written in KwaZulu-Natal; respectful registers (sawubona/sanibona, isiHlonipho where the scene calls for it)."
+      ]
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "kind": "market",
+      "directives": [
+        "Neutral/international Spanish (español neutro) for the widest readership — avoid region-locked slang.",
+        "ALL South African words — isiZulu terms AND the cultural flavour words (veld, biltong, rooibos, stoep, mealie) — stay verbatim and italicised as foreign terms, exactly as they are foreign in the English source. Do not Hispanicise them and do not add footnotes the source lacks.",
+        "Preserve the code-switching texture: where the English narration brushes against isiZulu, the Spanish narration does the same — the foreignness is the point.",
+        "Invented entities (Guardian, SAGE, the Court, IAOC) keep their English names."
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "kind": "market",
+      "directives": [
+        "Standard international French.",
+        "Same foreign-term rule as Spanish: South African words (isiZulu + veld/biltong/rooibos/stoep/mealie) stay verbatim, italicised, unglossed.",
+        "Invented entities keep their English names (Guardian, SAGE, the Court, IAOC).",
+        "Respect register shifts: the mine floor and the IAOC boardroom are different Frenches."
+      ]
+    }
+  ],
+  "global_directives": [
+    "PRESERVE the front-matter structure of build/BOOK.md exactly: title block, copyright page, dedication, epigraphs, chapter order, and any back matter (glossary, acknowledgements). Translate their CONTENT; keep their ORDER and markdown structure byte-for-byte where it's structural (headings, '---' rules, '⁂' breaks).",
+    "The copyright notice, ISBN line, and 'Published by the House of Greyling' stay — translate surrounding prose but keep proper nouns and the legal sense intact.",
+    "Do NOT add translator's notes, footnotes, or bracketed glosses that the English source does not contain. The source trusts the reader; so does every edition.",
+    "Chapter titles ARE translated (e.g. 'The Wire Push Car') unless they are proper nouns.",
+    "Output one file per language at build/BOOK.<code>.md, ready for tools/render_book.sh."
+  ]
+}

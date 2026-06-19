@@ -1,0 +1,68 @@
+{
+  "book": "resonance",
+  "preserve_verbatim_all_languages": {
+    "in_language_terms": {
+      "isizulu": [
+        "Ngikhona",
+        "Ngiyabonga",
+        "Umuntu ngumuntu ngabantu",
+        "Yebo"
+      ]
+    },
+    "cultural_terms": [
+      "Biltong",
+      "Mealie / mealie porridge",
+      "Rooibos",
+      "Stoep",
+      "Veld"
+    ],
+    "invented_entities": [
+      "Assist Suit (AT-AS)",
+      "Guardian (GMRP-01)",
+      "IAOC (International Artificial Oversight Council)",
+      "SAGE / the Court"
+    ],
+    "proper_names": [
+      "ATLAS",
+      "Arin",
+      "Arin Ndlela",
+      "Assist Suit (AT-AS)",
+      "AugmenTech Johannesburg",
+      "Bongani",
+      "Dlamini",
+      "Dr. Helen Okonkwo",
+      "FOOL/JOKER",
+      "Friend/Rival",
+      "Guardian (GMRP-01)",
+      "IAOC (International Artificial Oversight Council)",
+      "Iron Ridge Mine",
+      "Kobayashi Maru",
+      "KwaZulu-Natal",
+      "LIBRARIAN",
+      "Lerato",
+      "MERCURY",
+      "Ndlela",
+      "Neural Tech",
+      "Nkosi",
+      "Nomsa",
+      "Nomsa Ndlela",
+      "Nomvula",
+      "Priya",
+      "Prof. Mikhail Volkov",
+      "Raj Walsh",
+      "SAGE / the Court",
+      "Siyanda",
+      "Siyanda Nkosi",
+      "Sizwe",
+      "Thabo",
+      "Thabo Dlamini",
+      "Themba",
+      "Themba Ndlela",
+      "Theo Price",
+      "Venter",
+      "WOLF",
+      "Zanele"
+    ]
+  },
+  "note": "Every token above MUST appear UNCHANGED in every translated edition. in_language_terms are deliberately-untranslated source words (keep verbatim); invented_entities and proper_names are story-constant nouns. Do NOT add footnotes or inline glosses the source doesn't have."
+}
