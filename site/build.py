@@ -98,8 +98,10 @@ WORKSHOP_HOLD = set(
         #     Warhammer 40K fan-canon IP exposure (Games Workshop derivative-work risk noted).
         #   - unheard-japan / unheard-mongolia: released by explicit author decision, OVERRIDING the
         #     `sensitivity_read: REQUIRED` flag in their own project.json (Ainu / Khalkha herders).
-        # southern-coast stays held: ~9.7k-word fragment, not a finished book.
-        "southern-coast",
+        #   - southern-coast (Scratching the Surface): complete 4-ch novella; released by explicit
+        #     author decision, OVERRIDING its in-text Khoisan/San sensitivity-read notice.
+        # (empty: nothing currently held — add an id here to pull a drafted book off the shelf.)
+        "",
     ).split(",") if s.strip()
 )
 
@@ -118,6 +120,7 @@ PUBLISHED = set(
         "crop-circles,"
         # Released 2026-06-19 (author-authorized — see WORKSHOP_HOLD note):
         "modern-sherlock,no-fear-cycle,"
+        "southern-coast,"
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
@@ -366,9 +369,9 @@ CURATED = [
      "history-before-time/books/jakobus-the-long-dark", "build/export",
      "Home — South Africa — in the year the grid does not come back. The fixer at the end of the road, and the gift he spent a whole life learning how to give: making sure that when the lights go out for good, nobody's night dies. A grounded collapse-survival story — real bushcraft, told straight — and the one that carries Jakobus Swart's last chapter. For readers of Cormac McCarthy & Lewis Dartnell. Coming soon."),
 
-    ("southern-coast", "The Southern Coast", "History Before Time · Novella", "History Before Time",
+    ("southern-coast", "Scratching the Surface", "History Before Time · Novella", "History Before Time",
      "history-before-time/books/southern-coast", "build/export",
-     "Stilbaai and the southern Cape — a photographer finds a shell midden older than the brochure admits, and a stone that shouldn't be there. Coming soon."),
+     "Stilbaai and the southern Cape — a photographer finds a shell midden older than the brochure admits, and a stone that shouldn't be there."),
 
     ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
      "_comingsoon/gobekli-tepe", "build/export",
