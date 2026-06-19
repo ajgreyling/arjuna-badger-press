@@ -75,27 +75,24 @@ def main():
     warm = Image.new("RGB", (sw, sh), (38, 33, 24))
     canvas = Image.composite(warm, canvas, vig)
 
-    # ── The hero: Engineer of the Gods, large + centered-right ──
-    # Scale it up to fill most of the height, tight to the right edge.
-    hero_h = int(sh * 0.95)                  # nearly full height
-    hero = _cover_shadowed(HERO, hero_h)
-    hero_x = int(sw * 0.45)                  # positioned so it extends to the right edge
-    hero_y = (sh - hero.height) // 2
-    canvas.paste(hero, (hero_x, hero_y), hero)
-
-    # ── The supporting 5 covers: tighter overlap, densely packed on the left ──
-    cover_h = int(sh * 0.82)                 # larger (match more of the height)
-    overlap = int(cover_h * 0.65)            # aggressive overlap → more visible at once
+    # ── The supporting 5 covers: densely packed on the left ──
+    cover_h = int(sh * 0.82)
+    overlap = int(cover_h * 0.65)            # aggressive overlap
     tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in COVERS]
     step = [t.width - overlap for t in tiles]
     total_w = sum(step[:-1]) + tiles[-1].width
-    # Position the fan tight to the left edge, flowing into the hero.
-    fan_right = hero_x - int(tiles[0].width * 0.04)
-    x = max(int(-tiles[0].width * 0.15), fan_right - total_w)  # allow some bleed left for drama
+    x = int(-tiles[0].width * 0.15)          # start slightly off-left for drama
     y = (sh - tiles[0].height) // 2
     for i, t in enumerate(tiles):
         canvas.paste(t, (x, y), t)
         x += step[i] if i < len(tiles) - 1 else 0
+
+    # ── The hero: Engineer of the Gods, pasted LAST so it's on top ──
+    hero_h = int(sh * 0.92)
+    hero = _cover_shadowed(HERO, hero_h)
+    hero_x = int(sw * 0.52)                  # right side, positioned to overlap slightly but stay visible
+    hero_y = (sh - hero.height) // 2
+    canvas.paste(hero, (hero_x, hero_y), hero)
 
     canvas.save(out_2x)
     canvas.resize((W, H), Image.LANCZOS).save(out, optimize=True)
