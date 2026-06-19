@@ -1725,6 +1725,18 @@ Free for every writer who has a story and has never been shown how to begin.</p>
 <a class="btn ghost" href="for-authors.html">The workshop — for authors &amp; editors</a></div>
 </div></section>""")
 
+    parts.append("""<hr class="hr"><section class="mission" id="tools"><div class="wrap">
+<div class="eyebrow">Built with the machine</div>
+<h2 style="font-size:28px;margin:.3em 0">/sleep — an open-source skill for AI coding agents</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">This whole library was built with an AI
+co-worker. Along the way we found a missing piece: how an agent should <em>remember</em>. <code>/sleep</code>
+consolidates a working session the way a person sleeps — keep the lesson, lose the dream. It's the humane
+counterpart to <code>/clear</code>. Free, MIT-licensed, and it works in any repo.</p>
+<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
+<a class="btn ghost" href="writing/the-kettle-and-the-blink.html">Read the story</a>
+<a class="btn ghost" href="technology.html">The technology</a></div>
+</div></section>""")
+
     parts.append('<div class="wrap" id="library"></div>')
     for sname, accent in SERIES:
         group = [e for e in entries if e["series"] == sname]
