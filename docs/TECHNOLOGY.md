@@ -237,6 +237,10 @@ publication and wide distribution (the library, plus any external stores) are tr
 auditable states, never an accident. The control plane stays vendor-neutral so an author's work is
 never locked to one cloud.
 
+**This library runs on that platform.** The catalogue, the read-online view, and the EPUB/PDF
+downloads you see here are served by the platform's own public reader — the same engine, hosting its
+own shop window. There is no separate stack to keep in sync.
+
 ---
 
 ## 8. Encryption, transparency, and the right to leave
