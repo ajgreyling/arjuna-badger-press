@@ -3046,30 +3046,43 @@ def render_cv() -> str:
             "https://www.linkedin.com/in/ajgreyling",
             "https://github.com/ajgreyling",
         ],
-        "jobTitle": "Founder, author, and AI product/SaaS consultant",
+        "jobTitle": "Independent AI product & SaaS consultant, founder, and author",
+        "email": "mailto:j@arjunabadger.press",
         "worksFor": {
             "@type": "Organization",
-            "name": "Mezzanine",
+            "name": "Arjuna Badger Press",
+            "url": DOMAIN,
         },
+        "knowsAbout": [
+            "Enterprise software architecture",
+            "AI adoption in software delivery",
+            "Production SaaS systems",
+            "Technical leadership",
+            "APIs, automation, and integration",
+            "GIS and data-enabled systems",
+        ],
     })
     return "\n".join([
         head("Andries J. Greyling — CV",
-             "Self-owned CV and profile for Andries J. Greyling: founder of Arjuna Badger Press, "
-             "author, and AI product/SaaS consultant with enterprise software depth.",
+             "The single source of truth for Andries J. Greyling: 27 years of enterprise software "
+             "development, now an independent AI product & SaaS consultant and founder of Arjuna "
+             "Badger Press, building toward a life of travel and writing.",
              canonical=f"{DOMAIN}/cv.html",
              ld_json=person_ld),
         nav(),
         """<article class="reader letter cv-page">
 <section class="cv-hero">
 <img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
-<p class="eyebrow">Self-owned profile</p>
+<p class="eyebrow">The single source of truth · always current here</p>
 <h1>Andries J. Greyling</h1>
-<p class="cv-title">Founder · Author · AI Product / SaaS Consultant</p>
-<p class="intro">I am building Arjuna Badger Press into a real publishing platform for authors,
-readers, narrators, and printers. I also consult for teams that need pragmatic AI adoption,
-production SaaS delivery, APIs, automation, and technical leadership without theatre.</p>
+<p class="cv-title">27 years of enterprise software · Independent AI &amp; SaaS consultant · Founder, Arjuna Badger Press</p>
+<p class="intro">Twenty-seven years building enterprise software: banking, SaaS, architecture, technical
+leadership, all banked into one thing I now do for myself and for the teams I choose. I am opening a new
+chapter as an independent consultant working with a small number of companies on pragmatic AI adoption
+and production SaaS delivery, while building Arjuna Badger Press into a real publishing platform. The
+direction of travel is exactly that: to write, to build, and to do it from the road.</p>
 <div class="cv-links">
-<a class="btn" href="mailto:info@arjunabadger.press">Contact</a>
+<a class="btn" href="mailto:j@arjunabadger.press">Work with me</a>
 <a class="btn ghost" href="https://www.linkedin.com/in/ajgreyling" rel="me noopener" target="_blank">LinkedIn</a>
 <a class="btn ghost" href="https://github.com/ajgreyling" rel="me noopener" target="_blank">GitHub</a>
 </div>
@@ -3079,12 +3092,13 @@ production SaaS delivery, APIs, automation, and technical leadership without the
 <aside class="cv-side">
 <section class="cv-block">
 <h2>Profile</h2>
-<p>I am moving deliberately from employee profile to founder, author, and consultant. The platform I am
-building is Arjuna Badger Press: a free reader, AI authoring workflow, ACX-style audio marketplace
-outside the usual gates, direct distribution, and small-batch print marketplace.</p>
-<p>The consulting offer is grounded in banked experience: more than two decades of enterprise software
-delivery across architecture, technical leadership, SaaS products, high-volume banking systems,
-GIS-enabled systems, APIs, automation, and practical AI adoption.</p>
+<p>A new chapter, deliberately chosen. After 27 years inside enterprise software, I now work
+independently: consulting with a small number of companies on AI adoption and production SaaS
+delivery, and building Arjuna Badger Press as a founder and author.</p>
+<p>The consulting is grounded in banked experience: 27 years across architecture, technical leadership,
+SaaS products, high-volume banking systems, GIS-enabled systems, APIs, automation, and practical AI
+adoption. The press is where I build something of my own. Together they point one way, toward writing
+and travel as the life, not the reward at the end of it.</p>
 </section>
 
 <section class="cv-block">
@@ -3132,19 +3146,23 @@ GIS-enabled systems, APIs, automation, and practical AI adoption.</p>
 <main class="cv-main">
 <section class="cv-block">
 <h2>Summary</h2>
-<p>I build useful systems, not demos. My current work is Arjuna Badger Press: a publishing platform
-that keeps creators in control while solving real distribution gaps in ebooks, audiobooks, and
-small-batch print.</p>
-<p>I am available for consulting where my background is directly useful: AI product adoption, SaaS
-architecture, API and automation design, technical rescue work, delivery-system diagnosis, and
-developer workflows that combine human judgement with AI capability.</p>
-<p>The thread through my career is constraint-driven delivery. I have worked inside banking,
-enterprise SaaS, product portfolios, technical leadership, architecture, and hands-on development.
-That means I can talk strategy, but I can also read the code, find the bottleneck, and ship.</p>
+<p>I build useful systems, not demos. Twenty-seven years of enterprise software development (banking,
+enterprise SaaS, product portfolios, technical leadership, architecture, and hands-on code) sit
+behind everything here. That depth is the point: I can talk strategy, but I can also read the code,
+find the bottleneck, and ship.</p>
+<p>I am now independent, taking on a small number of consulting engagements where that background is
+directly useful: AI product adoption, SaaS architecture, API and automation design, technical rescue
+work, delivery-system diagnosis, and developer workflows that combine human judgement with AI
+capability. I work with a handful of companies at a time, on purpose. Depth over volume.</p>
+<p>Alongside the consulting I am building Arjuna Badger Press: a publishing platform that keeps
+creators in control while solving real distribution gaps in ebooks, audiobooks, and small-batch print.
+The long arc is simple and deliberate: to make a living from work I choose, and to spend the rest of
+it writing and travelling.</p>
 </section>
 
 <section class="cv-block">
 <h2>Consulting Offer</h2>
+<p>Available now for a small number of engagements. The work I take on:</p>
 <ul>
 <li>Turn AI interest into production workflows that developers will actually use.</li>
 <li>Design API, automation, and integration layers around existing systems.</li>
@@ -3153,10 +3171,18 @@ That means I can talk strategy, but I can also read the code, find the bottlenec
 <li>Help technical leaders diagnose delivery constraints, team friction, and process theatre.</li>
 <li>Advise founders who need a working product, not a slide deck.</li>
 </ul>
+<p>To talk about working together: <a href="mailto:j@arjunabadger.press">j@arjunabadger.press</a>.</p>
 </section>
 
 <section class="cv-block">
-<h2>Current Independent Work</h2>
+<h2>Now: Independent Work</h2>
+<div class="cv-item">
+<div class="cv-meta">2026 · Independent</div>
+<h3>AI &amp; SaaS consultant</h3>
+<p>Working independently with a small number of companies on pragmatic AI adoption, production SaaS
+delivery, architecture review, and technical leadership. Depth over volume, judgement over theatre.
+Engagements via <a href="mailto:j@arjunabadger.press">j@arjunabadger.press</a>.</p>
+</div>
 <div class="cv-item">
 <div class="cv-meta">2026 · Arjuna Badger Press</div>
 <h3>Founder and publisher</h3>
@@ -3180,7 +3206,9 @@ files without an account or upload, then optionally buy ebooks, audiobooks, or p
 </section>
 
 <section class="cv-block">
-<h2>Professional Experience</h2>
+<h2>The 27 Years Behind It</h2>
+<p>The full record of enterprise software delivery the consulting is built on: banking, SaaS,
+architecture, and technical leadership, from 1999 to today.</p>
 <div class="cv-item">
 <div class="cv-meta">August 2022 - Present · Mezzanine · Stellenbosch</div>
 <h3>Senior Software Developer</h3>
@@ -3318,9 +3346,10 @@ non-fiction reading, chickens, and practical self-sufficiency projects.</p>
 </section>
 
 <section class="cv-block">
-<h2>Privacy Note</h2>
-<p>The LinkedIn PDF export includes private contact details. This public CV intentionally uses the
-press contact address and does not publish home address or personal phone number.</p>
+<h2>Why this lives here, not on LinkedIn</h2>
+<p>This page is the single source of truth, and it stays current. LinkedIn is kept deliberately sparse
+— the real story is here, on infrastructure I own. For the same reason, this public CV uses my
+consulting address and does not publish home address or personal phone number.</p>
 </section>
 </main>
 </div>
@@ -4430,6 +4459,19 @@ def main() -> None:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
     (OUT / "cv.html").write_text(render_cv(), encoding="utf-8")
+    # Clean URL: arjunabadger.press/cv → cv.html. GitHub Pages runs with .nojekyll
+    # (no automatic extensionless serving), so serve a real directory index that
+    # redirects to the canonical cv.html. Keeps one rendered source of truth.
+    (OUT / "cv").mkdir(exist_ok=True)
+    (OUT / "cv" / "index.html").write_text(
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        f'<link rel="canonical" href="{DOMAIN}/cv.html">'
+        '<meta http-equiv="refresh" content="0; url=../cv.html">'
+        '<title>Andries J. Greyling — CV</title>'
+        '<script>location.replace("../cv.html"+location.hash)</script>'
+        '</head><body>Redirecting to <a href="../cv.html">the CV</a>…</body></html>',
+        encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
     (OUT / "narrators.html").write_text(render_narrators(), encoding="utf-8")
     (OUT / "distribution.html").write_text(render_distribution(), encoding="utf-8")
