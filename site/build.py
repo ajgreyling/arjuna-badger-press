@@ -12,11 +12,13 @@ Deploy: serve site/public/ with Caddy (see site/README.md).
 from __future__ import annotations
 
 import html
+import json
 import os
 import re
 import shutil
 import subprocess
 import urllib.parse
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -35,6 +37,17 @@ TAGLINE = "Your story, told true."
 # auto-tracks every EPUB/PDF download (links carry `download` + `class="dl"`) with NO per-link code.
 # Leave empty to disable (no snippet emitted). Env var ABP_PLAUSIBLE_DOMAIN overrides.
 PLAUSIBLE_DOMAIN = os.environ.get("ABP_PLAUSIBLE_DOMAIN", "arjunabadger.press")
+
+# ── Search-console ownership verification ─────────────────────────────────────────────────────
+# Google Search Console and Bing Webmaster Tools each offer a one-time HTML-meta proof of ownership.
+# Paste ONLY the token (the `content="..."` value, not the whole tag) into the matching env var and
+# rebuild; head() emits the meta on every page. Both consoles ALSO support DNS-TXT verification at
+# your registrar, which needs no code at all — prefer that if you'd rather not redeploy. While these
+# are empty no tag is emitted, so the site is unaffected until you actually have a token.
+#   Google: Search Console → Settings → Ownership verification → "HTML tag" → copy the content value.
+#   Bing:   Webmaster Tools → Add site → "HTML Meta Tag" option (or just "Import from GSC").
+GOOGLE_SITE_VERIFY = os.environ.get("ABP_GOOGLE_VERIFY", "").strip()
+BING_SITE_VERIFY = os.environ.get("ABP_BING_VERIFY", "").strip()
 
 # ── The Honey Badger Bounty — GATED (opens 25 June 2026) ──────────────────────────────────────
 # The bounty is NOT live yet. While BOUNTY_LIVE is False the site emits NO bounty surface at all:
@@ -76,6 +89,35 @@ FOREWORD_CONTEST_LIVE = os.environ.get("ABP_FOREWORD_CONTEST_LIVE", "1") not in 
 FOREWORD_FORM_URL = os.environ.get("ABP_FOREWORD_FORM_URL", "")
 # Optional closing date shown on the page (free text, e.g. "31 August 2026"). Empty = "rolling".
 FOREWORD_DEADLINE = os.environ.get("ABP_FOREWORD_DEADLINE", "")
+
+# ── Arjuna Audio narrator intake ──────────────────────────────────────────────────────────────
+# First marketplace wedge: collect narrators before building dashboards. If a hosted form exists,
+# set ABP_NARRATOR_FORM_URL and the page points there. Otherwise it falls back to a mailto form
+# with a voice-sample link field, so intake works on a static site today.
+NARRATOR_FORM_URL = os.environ.get("ABP_NARRATOR_FORM_URL", "")
+
+# ── Direct distribution / payment rails interest ──────────────────────────────────────────────
+# Kobo/Google-style bank-detail gates are exactly what direct distribution should avoid for free
+# books. This page is a static declaration today, with an optional hosted form later for readers,
+# authors, and payment partners.
+DISTRIBUTION_FORM_URL = os.environ.get("ABP_DISTRIBUTION_FORM_URL", "")
+
+# ── Reader app / PWA interest ─────────────────────────────────────────────────────────────────
+# The app is the reader layer: free import/read/listen forever, plus optional purchases and print
+# orders later. Static page first; Webdock-backed API when accounts, libraries, carts, and orders land.
+APP_FORM_URL = os.environ.get("ABP_APP_FORM_URL", "")
+
+# ── Mobile authoring + narrator auditions ─────────────────────────────────────────────────────
+# Writers should be able to build a book through a phone-first AI chat. Narrators should be able to
+# audition with what they already own, plus science-grounded room and mic technique.
+AUTHORING_FORM_URL = os.environ.get("ABP_AUTHORING_FORM_URL", "")
+AUDITION_FORM_URL = os.environ.get("ABP_AUDITION_FORM_URL", "")
+
+# ── Audio + print marketplace intake ─────────────────────────────────────────────────────────
+# Marketplace MVP is supply/demand discovery, not bidding software: collect narrators, authors,
+# printers, and short-run print jobs manually before building dashboards.
+MARKETPLACE_FORM_URL = os.environ.get("ABP_MARKETPLACE_FORM_URL", "")
+PRINT_FORM_URL = os.environ.get("ABP_PRINT_FORM_URL", "")
 
 # ── Patronage (quiet, reader-initiated; NEVER an ask) ───────────────────────────────────────────
 # The books are free. This is a door, not a price — pure-patronage tone, no justifying copy. Kept
@@ -574,8 +616,17 @@ def md_to_html(md: str) -> str:
             return label
 
         def link_repl(m: re.Match[str]) -> str:
-            href = html.escape(m.group(2), quote=True)
-            return f'<a href="{href}">{fmt_label(m.group(1))}</a>'
+            label = fmt_label(m.group(1))
+            raw_href = m.group(2).strip()
+            parsed = urllib.parse.urlparse(raw_href)
+            # Source manuscripts sometimes contain repo-only Markdown cross-references or
+            # machine-local file paths. Do not publish those as broken/leaky public links.
+            if raw_href.startswith(("/Users/", "file:")):
+                return label
+            if not parsed.scheme and raw_href.split("#", 1)[0].lower().endswith(".md"):
+                return label
+            href = html.escape(raw_href, quote=True)
+            return f'<a href="{href}">{label}</a>'
 
         t = html.escape(t)
         # Replace links first, then SHIELD the finished <a …>…</a> tags from the emphasis/code
@@ -797,6 +848,36 @@ def companion_manuscript(root: Path) -> str | None:
     return "\n\n".join(parts) + "\n"
 
 
+_ISBN_CLEAN_RE = re.compile(r"[^0-9Xx]")
+
+
+def book_isbn(root: Path) -> str:
+    """Return a book's e-book ISBN from its project.json, or "" if unset/absent.
+
+    The per-book project.json already carries an `isbn` block ({paperback, hardcover, ebook});
+    for the free EPUB catalogue the `ebook` value is the one that matters. We read it here so the
+    number lives next to the book it belongs to (not in a central list that drifts), and flows from
+    one source into the page, the JSON-LD, and the Wikidata export. Returns the digits-only form
+    (hyphens/spaces stripped) so downstream consumers can format consistently; blank or placeholder
+    values (e.g. the "___-_-..." print stub) collapse to "" and emit nothing."""
+    pj = root / "project.json"
+    if not pj.is_file():
+        return ""
+    try:
+        data = json.loads(pj.read_text(encoding="utf-8"))
+    except (ValueError, OSError):
+        return ""
+    raw = ((data.get("isbn") or {}).get("ebook") or "").strip()
+    cleaned = _ISBN_CLEAN_RE.sub("", raw).upper()
+    # A real ISBN-13 is 13 digits; ISBN-10 is 9 digits + (digit or X). Anything else (empty, the
+    # "___" placeholder, a partial) is treated as "not yet assigned".
+    if len(cleaned) == 13 and cleaned.isdigit():
+        return cleaned
+    if len(cleaned) == 10 and cleaned[:9].isdigit() and cleaned[9] in "0123456789X":
+        return cleaned
+    return ""
+
+
 def scan() -> list[dict]:
     entries = []
     hidden_proc: list[str] = []
@@ -848,6 +929,7 @@ def scan() -> list[dict]:
             "root": root,
             "serial": cid in SERIAL,
             "available": can_read and (cid in SERIAL or bool(downloads)),
+            "isbn": book_isbn(root),
         })
     if hidden_proc:
         print(f"  (procedural covers hidden from shelf: {len(hidden_proc)} — "
@@ -873,12 +955,13 @@ def resolve_reader_image(src: str, book_root: Path) -> Path | None:
 
     if p.is_absolute():
         parts = p.parts
-        for marker in ("books", "design"):
-            if marker in parts:
-                idx = parts.index(marker)
-                candidates.append(BOOKS / Path(*parts[idx:]))
+        if "books" in parts:
+            idx = parts.index("books")
+            candidates.append(BOOKS / Path(*parts[idx + 1:]))
         candidates.append(book_root / "build" / "assets" / p.name)
+        candidates.append(book_root / "build" / "appendix-images" / p.name)
         candidates.append(book_root / "design" / p.name)
+        candidates.append(book_root / "design" / "images" / p.name)
     elif src.startswith("books/"):
         rel = src.removeprefix("books/")
         slug, _, tail = rel.partition("/")
@@ -918,7 +1001,7 @@ def prepare_reader_images(md: str, book_id: str, book_root: Path, assets_out: Pa
             return f"![{alt}]({src})"
         resolved = resolve_reader_image(src, book_root)
         if not resolved:
-            return m.group(0)
+            return ""
         dst = assets_out / resolved.name
         if not dst.exists() or resolved.stat().st_mtime > dst.stat().st_mtime:
             shutil.copy2(resolved, dst)
@@ -954,7 +1037,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .brandlink{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:600;
   letter-spacing:.02em;color:var(--bone)}
 .brandlink img{height:40px;width:40px;border-radius:50%}
-.nav nav.navinline{margin-left:auto;display:flex;gap:24px;font-size:14px}
+.nav nav.navinline{display:none}
 .nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
 .nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
 
@@ -982,9 +1065,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
   transition:opacity .28s;cursor:pointer}
 .navtoggle:checked ~ .navdrawer{transform:translateX(0)}
 .navtoggle:checked ~ .navscrim{opacity:1;visibility:visible}
-/* Wide screens: show the inline nav, hide the hamburger. Narrow: flip it. */
-@media(min-width:1100px){ .hamburger{display:none} }
-@media(max-width:1099px){ .nav nav.navinline{display:none} }
+/* The site has a broad information architecture; the drawer avoids fragile wrapped nav bars. */
 
 /* site-wide audiobook notice */
 .audiobook-notice{border-bottom:1px solid rgba(200,168,107,.35);
@@ -1102,7 +1183,7 @@ section.series{padding:46px 0 8px}
 .back{font-family:"Space Grotesk";font-size:13px;color:var(--bonedim)}
 
 /* reader — house long-form face: Atkinson Hyperlegible (EPUB/PDF parity) */
-.reader{max-width:720px;margin:0 auto;padding:50px 24px 90px;
+.reader{width:100%;max-width:720px;margin:0 auto;padding:50px 24px 90px;
   font-family:var(--reading);font-size:18px;line-height:1.65;
   -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .reader h1,.reader h2,.reader h3,.reader h4,.reader p,.reader li,.reader blockquote,.reader td,.reader th{
@@ -1115,6 +1196,7 @@ section.series{padding:46px 0 8px}
 pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var(--line);
   border-radius:10px;overflow-x:auto;font-family:ui-monospace,"SF Mono",Menlo,monospace;
   font-size:13.5px;line-height:1.5;color:var(--bonedim)}
+.reader code{overflow-wrap:anywhere;word-break:break-word}
 pre.mermaid{margin:1.8em auto;padding:18px;text-align:center;background:transparent;border:0;
   /* hidden until mermaid.js swaps the source for an <svg>; avoids a flash of raw graph text */
   color:transparent;min-height:40px;line-height:0}
@@ -1142,7 +1224,7 @@ pre.mermaid[data-processed] {color:inherit}
 @media (max-width:900px){
   .readlayout{grid-template-columns:1fr;gap:0}
   .readlayout .reader{margin:0 auto}
-  .readtoc{position:static;max-height:340px;padding:14px 20px;margin:0 auto;max-width:720px;
+  .readtoc{position:static;max-height:340px;padding:14px 20px;margin:0 auto;width:100%;max-width:720px;
     border-bottom:1px solid var(--line)}
 }
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
@@ -1160,6 +1242,13 @@ pre.mermaid[data-processed] {color:inherit}
 .reader table.md-table th{background:rgba(200,168,107,.12);color:var(--gold);font-weight:700}
 .reader table.md-table td{color:var(--bone)}
 .reader table.md-table tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+@media(max-width:720px){
+  .reader{padding:42px 16px 78px;font-size:17px}
+  .reader h1{font-size:34px}
+  .reader h2{font-size:25px}
+  .reader table.md-table{display:block;max-width:100%;overflow-x:auto;font-size:14px}
+  .reader table.md-table th,.reader table.md-table td{padding:9px 10px}
+}
 
 /* house of greyling */
 .house{max-width:900px;margin:0 auto;padding:54px 24px 80px;text-align:center}
@@ -1234,6 +1323,65 @@ a.support-rail:hover{border-color:var(--ochre)}
 .support-rail .rail-name{font-family:"Space Grotesk";font-weight:600;font-size:16px;color:var(--gold)}
 .support-rail .rail-sub{font-size:12.5px;color:var(--grass)}
 .support-foot{max-width:54ch;margin:20px auto 0;font-size:13.5px;color:var(--grass)}
+/* ── Arjuna Audio narrator intake ──────────────────────────────────────────────── */
+.narrator-page{max-width:820px}
+.intake-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:30px 0 34px}
+.intake-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:17px 18px}
+.intake-card strong{display:block;font-family:"Space Grotesk";font-size:19px;line-height:1.25;color:var(--gold);margin:4px 0 7px}
+.intake-card p{margin:0;color:var(--bonedim);font-size:14px;line-height:1.45}
+.intake-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:34px 0 0;padding:22px;
+  background:var(--card);border:1px solid var(--line);border-radius:12px}
+.intake-form label{display:flex;flex-direction:column;gap:6px;font-family:"Space Grotesk";font-size:12px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ochre)}
+.intake-form input,.intake-form select,.intake-form textarea{width:100%;border:1px solid var(--line);
+  border-radius:8px;background:#161513;color:var(--bone);padding:11px 12px;font:15px Inter,system-ui,sans-serif;
+  line-height:1.35}
+.intake-form input:focus,.intake-form select:focus,.intake-form textarea:focus{outline:0;border-color:var(--gold);
+  box-shadow:0 0 0 3px rgba(229,181,103,.11)}
+.intake-form textarea,.intake-form .intake-note,.intake-form button{grid-column:1/-1}
+.intake-note{margin:0;color:var(--grass);font-size:13.5px;line-height:1.45}
+.intake-form button{justify-self:start;border:0;cursor:pointer}
+/* ── local reader PWA shell ───────────────────────────────────────────────────── */
+.app-shell{max-width:1180px;margin:0 auto;padding:28px 24px 70px}
+.app-top{display:flex;gap:18px;align-items:end;justify-content:space-between;flex-wrap:wrap;margin-bottom:22px}
+.app-top h1{margin:.1em 0 0;font-size:clamp(30px,5vw,48px)}
+.app-top p{max-width:64ch;margin:.4em 0 0;color:var(--bonedim)}
+.app-actions{display:flex;gap:10px;flex-wrap:wrap}
+.file-btn{position:relative;overflow:hidden}.file-btn input{position:absolute;inset:0;opacity:0;cursor:pointer}
+.reader-workbench{display:grid;grid-template-columns:minmax(240px,330px) minmax(0,1fr);gap:18px;align-items:start}
+.library-panel,.reading-panel{background:var(--card);border:1px solid var(--line);border-radius:12px;min-height:360px}
+.library-panel{padding:14px}.reading-panel{padding:0;overflow:hidden}
+.library-list{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.library-item{width:100%;text-align:left;background:#161513;border:1px solid var(--line);border-radius:9px;
+  color:var(--bone);padding:10px 11px;cursor:pointer}
+.library-item:hover,.library-item.active{border-color:var(--gold);background:rgba(229,181,103,.08)}
+.library-item strong{display:block;font-family:"Space Grotesk";font-size:14px;line-height:1.25}
+.library-item span{display:block;color:var(--grass);font-size:12.5px;margin-top:2px}
+.reader-empty{padding:42px 28px;text-align:center;color:var(--bonedim)}
+.reader-content{max-width:760px;margin:0 auto;padding:34px 28px 60px;font-family:var(--reading);font-size:18px;line-height:1.7}
+.reader-content h2{font-family:var(--reading);font-size:28px;color:var(--gold);margin:0 0 18px}
+.reader-content pre{white-space:pre-wrap;font:inherit;margin:0;color:var(--bone)}
+.media-frame{width:100%;min-height:68vh;border:0;background:#111}
+.audio-player{width:100%;margin:16px 0}.reader-note{color:var(--grass);font-size:13.5px}
+@media(max-width:820px){.reader-workbench{grid-template-columns:1fr}.library-panel,.reading-panel{min-height:auto}}
+/* ── CV page ─────────────────────────────────────────────────────────────────── */
+.cv-page{max-width:980px}
+.cv-hero{text-align:center;margin-bottom:34px}
+.cv-hero h1{font-size:clamp(34px,6vw,58px);margin:.15em 0 .1em}
+.cv-title{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:22px;margin:0}
+.cv-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:20px}
+.cv-grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px;align-items:start}
+.cv-side,.cv-main{display:flex;flex-direction:column;gap:18px}
+.cv-block{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.cv-block h2{font-size:18px;margin:0 0 10px;color:var(--gold)}
+.cv-block h3{font-size:17px;margin:0 0 3px}
+.cv-block p,.cv-block li{color:var(--bonedim);font-size:14.5px;line-height:1.55}
+.cv-block ul{margin:8px 0 0;padding-left:18px}
+.cv-item{padding:0 0 16px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.cv-item:last-child{padding-bottom:0;border-bottom:0;margin-bottom:0}
+.cv-meta{font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grass)}
+@media(max-width:820px){.cv-grid{grid-template-columns:1fr}}
+@media(max-width:760px){.intake-grid,.intake-form{grid-template-columns:1fr}.intake-form{padding:18px}}
 @media(max-width:720px){.pillars{grid-template-columns:1fr}.bookhero{grid-template-columns:1fr;text-align:center}
   .bookhero .cover{max-width:260px;margin:0 auto}}
 """
@@ -1287,6 +1435,49 @@ def plausible_snippet() -> str:
     )
 
 
+def plausible_events_script() -> str:
+    """Site-wide Plausible custom events for launch learning.
+
+    Event payloads stay deliberately coarse: public href paths, form names, page path, file type, and
+    counts. The local reader never sends imported private filenames.
+    """
+    if not PLAUSIBLE_DOMAIN:
+        return ""
+    return (
+        "<script>\n"
+        "(function(){\n"
+        "  function clean(value){return String(value||'').replace(/\\s+/g,' ').trim().slice(0,120);}\n"
+        "  function hrefPath(href){try{var u=new URL(href,location.href);return u.origin===location.origin?u.pathname:clean(u.hostname+u.pathname);}catch(e){return clean(href);}}\n"
+        "  function fileType(href){var path=String(href||'').split('#')[0].split('?')[0];var ext=path.split('.').pop();return ext&&ext!==path?ext.toLowerCase():'unknown';}\n"
+        "  function track(name, props){try{if(window.plausible)window.plausible(name,{props:props||{}});}catch(e){}}\n"
+        "  document.addEventListener('click',function(event){\n"
+        "    var link=event.target.closest&&event.target.closest('a');\n"
+        "    if(!link)return;\n"
+        "    var href=link.getAttribute('href')||'';\n"
+        "    var label=clean(link.textContent)||clean(link.getAttribute('aria-label'))||hrefPath(href);\n"
+        "    if(link.hasAttribute('download')){\n"
+        "      track('Download',{file:hrefPath(href),type:fileType(href),label:label,location:location.pathname});\n"
+        "      return;\n"
+        "    }\n"
+        "    if(href.indexOf('mailto:')===0){\n"
+        "      track('Contact',{label:label,location:location.pathname});\n"
+        "      return;\n"
+        "    }\n"
+        "    if(link.classList.contains('btn')||link.classList.contains('dl')||link.classList.contains('feedback-link')||link.classList.contains('rate-fallback')||link.classList.contains('support-rail')){\n"
+        "      track('CTA',{label:label,href:hrefPath(href),location:location.pathname});\n"
+        "    }\n"
+        "  },true);\n"
+        "  document.addEventListener('submit',function(event){\n"
+        "    var form=event.target;\n"
+        "    if(!form||!form.matches||!form.matches('form'))return;\n"
+        "    var action=form.getAttribute('action')||'';\n"
+        "    track('Lead',{form:form.getAttribute('data-form-name')||'form',action:action.indexOf('mailto:')===0?'mailto':'hosted',location:location.pathname});\n"
+        "  },true);\n"
+        "})();\n"
+        "</script>"
+    )
+
+
 def head(title: str, desc: str, rel: str = "", keywords: str = "",
          canonical: str = "", og_image: str = "", og_type: str = "website",
          ld_json: str = "", noindex: bool = False) -> str:
@@ -1297,11 +1488,17 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
     canon = f'\n<link rel="canonical" href="{html.escape(canonical)}">' if canonical else ""
     og_url = canonical or DOMAIN
     img = og_image or f"{DOMAIN}/assets/brand/social-og-1200x630.png"
+    # Search-console ownership proofs — emitted only when a token is configured (see globals above).
+    verify = ""
+    if GOOGLE_SITE_VERIFY:
+        verify += f'\n<meta name="google-site-verification" content="{html.escape(GOOGLE_SITE_VERIFY)}">'
+    if BING_SITE_VERIFY:
+        verify += f'\n<meta name="msvalidate.01" content="{html.escape(BING_SITE_VERIFY)}">'
     ld = f'\n<script type="application/ld+json">{ld_json}</script>' if ld_json else ""
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
-<meta name="description" content="{html.escape(desc)}">{kw}{canon}
+<meta name="description" content="{html.escape(desc)}">{kw}{canon}{verify}
 <meta property="og:title" content="{html.escape(title)}">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="{og_type}"><meta property="og:url" content="{html.escape(og_url)}">
@@ -1309,11 +1506,15 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
 <meta property="og:site_name" content="Arjuna Badger Press">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{html.escape(img)}">
+<link rel="alternate" type="application/rss+xml" title="Arjuna Badger Press" href="{DOMAIN}/feed.xml">
+<link rel="manifest" href="{rel}manifest.webmanifest">
+<meta name="theme-color" content="#161513">
 <link rel="icon" type="image/png" sizes="32x32" href="{rel}assets/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="{rel}assets/brand/favicon-180.png">
 {FONTS}
 <link rel="stylesheet" href="{rel}assets/site.css">
-{plausible_snippet()}{ld}
+<script>if("serviceWorker" in navigator){{window.addEventListener("load",function(){{navigator.serviceWorker.register("{rel}sw.js").catch(function(){{}});}});}}</script>
+{plausible_snippet()}{plausible_events_script()}{ld}
 {console_egg()}
 </head><body>"""
 
@@ -1343,12 +1544,20 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}learn.html">Learn</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}craft/index.html">For writers</a>'
+        f'<a href="{rel}authoring.html">Authoring</a>'
+        f'<a class="navhot" href="{rel}narrators.html">Narrators</a>'
+        f'<a href="{rel}audition.html">Audition</a>'
+        f'<a href="{rel}marketplace.html">Marketplace</a>'
+        f'<a href="{rel}printing.html">Printing</a>'
+        f'<a href="{rel}distribution.html">Direct</a>'
+        f'<a href="{rel}app.html">App</a>'
         f'<a href="{rel}technology.html">Technology</a>'
         f'{bounty_link}'
         f'<a href="{rel}index.html#mission">Mission</a>'
         f'<a href="{rel}index.html#press">The Press</a>'
         f'<a href="{rel}index.html#thread">The Proof</a>'
         f'<a href="{rel}house.html">The House</a>'
+        f'<a href="{rel}cv.html">CV</a>'
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}feedback.html">Feedback</a>'
@@ -1487,6 +1696,7 @@ def footer(rel: str = "") -> str:
     if patronage_enabled():
         extra.append(f'<a href="{rel}support.html">Support</a>')
     extra.append(f'<a href="{rel}feedback.html">Feedback</a>')
+    extra.append(f'<a href="{rel}feed.xml">RSS</a>')
     extra_html = (" · " + " · ".join(extra)) if extra else ""
     return f"""<footer><div class="wrap">
 <span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a>{extra_html}</span>
@@ -1973,6 +2183,60 @@ Free for every writer who has a story and has never been shown how to begin.</p>
 <a class="btn ghost" href="for-authors.html">The workshop — for authors &amp; editors</a></div>
 </div></section>""")
 
+    parts.append("""<hr class="hr"><section class="mission" id="authoring"><div class="wrap">
+<div class="eyebrow">Phone authoring</div>
+<h2 style="font-size:28px;margin:.3em 0">An AI editor in the author's pocket</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Authors should be able to build a book
+through a chat interface on the phone they already own: voice notes, guided canon questions,
+chapter drafting, continuity checks, editing, and export into ebook, print, and audiobook workflows.</p>
+<div class="cta"><a class="btn" href="authoring.html">Open phone authoring</a>
+<a class="btn ghost" href="for-authors.html">The full workshop</a></div>
+</div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="audio"><div class="wrap">
+<div class="eyebrow">Arjuna Audio</div>
+<h2 style="font-size:28px;margin:.3em 0">Audiobooks for the countries ACX leaves out</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The next leg is human narration:
+authors keep their rights, narrators get credited work and a non-negotiable royalty floor, and the
+press handles the match before it builds the marketplace. Minimum 5% of net profit for at least five
+years on qualifying audiobook projects.</p>
+<div class="cta"><a class="btn" href="narrators.html">Become a narrator</a>
+<a class="btn ghost" href="audition.html">DIY audition guide</a>
+<a class="btn ghost" href="mailto:info@arjunabadger.press">Bring a book for audio</a></div>
+</div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="marketplace"><div class="wrap">
+<div class="eyebrow">Marketplace</div>
+<h2 style="font-size:28px;margin:.3em 0">ACX-style audio plus dead-press-time printing</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The platform starts as a manually
+matched marketplace: authors, narrators, and printers. Audio handles royalty-participating narration
+outside the usual gates. Printing connects small-batch demand with printers who have paid staff,
+idle machines, and capacity that would otherwise earn nothing.</p>
+<div class="cta"><a class="btn" href="marketplace.html">Open the marketplace</a>
+<a class="btn ghost" href="printing.html">Small-batch printing</a></div>
+</div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="direct"><div class="wrap">
+<div class="eyebrow">Direct distribution</div>
+<h2 style="font-size:28px;margin:.3em 0">Free books should not need banking details</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Kobo and Google-style store rails can
+block authors before a free book ever reaches a reader. Arjuna Badger Press keeps the direct route
+open: free downloads without a checkout wall, and paid editions later through M-Pesa, Mukuru, PayPal,
+and blockchain rails where they actually reduce friction.</p>
+<div class="cta"><a class="btn" href="distribution.html">Open direct distribution</a>
+<a class="btn ghost" href="index.html#library">Read free now</a></div>
+</div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="app"><div class="wrap">
+<div class="eyebrow">Reader app</div>
+<h2 style="font-size:28px;margin:.3em 0">A free-forever reader for any book</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The app layer starts as a universal
+reader: import your own EPUB, PDF, or audiobook, read PDFs with mobile-friendly reflow, cache books
+offline, and only use the store when you choose to buy ebooks, audiobooks, or print copies.</p>
+<div class="cta"><a class="btn" href="app.html">Open the app plan</a>
+<a class="btn ghost" href="index.html#library">Read in the browser</a></div>
+</div></section>""")
+
     parts.append("""<hr class="hr"><section class="mission" id="tools"><div class="wrap">
 <div class="eyebrow">Built with the machine</div>
 <h2 style="font-size:28px;margin:.3em 0">/sleep — an open-source skill for AI coding agents</h2>
@@ -2015,6 +2279,16 @@ want to.</p>''' if patronage_enabled() else ""}
 <div class="cta" id="write"><a class="btn" href="technology.html">How the technology works</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Publish with us</a></div>
+</div></section>""")
+
+    parts.append("""<hr class="hr"><section class="mission" id="founder"><div class="wrap">
+<div class="eyebrow">Founder profile</div>
+<h2 style="font-size:28px;margin:.3em 0">Andries J. Greyling</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Founder of Arjuna Badger Press, author,
+and builder of AI-assisted publishing systems: the static library, the reader PWA, the marketplace
+surface, the authoring workflow, and the agent-memory tool <code>/sleep</code>.</p>
+<div class="cta"><a class="btn" href="cv.html">Open the self-owned CV</a>
+<a class="btn ghost" href="technology.html">Read the technology</a></div>
 </div></section>""")
 
     parts.append(f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
@@ -2094,6 +2368,8 @@ def book_ld_json(e: dict) -> str:
     }
     if e["series"]:
         data["isPartOf"] = {"@type": "BookSeries", "name": e["series"]}
+    if e.get("isbn"):
+        data["isbn"] = e["isbn"]          # schema.org/Book property — feeds Google rich results
     blurb = (e.get("blurb") or "").strip()
     if blurb:
         data["description"] = truncate(blurb, 300)
@@ -2196,6 +2472,12 @@ def render_book(e: dict) -> str:
         soon = '<p style="color:var(--ochre);margin-top:18px">Coming soon — on the shelf, in progress.</p>'
     else:
         soon = '<p style="color:var(--ochre);margin-top:18px">In progress — not released yet. Check back soon.</p>'
+    # ISBN — shown quietly only when assigned; a small muted line, the trade identifier for the
+    # e-book edition. Absent until a real number lands in project.json, so this stays invisible now.
+    isbn_html = ""
+    if e.get("isbn"):
+        isbn_html = (f'<p class="isbn" style="margin-top:18px;color:var(--bonedim);'
+                     f'font-size:.85em">ISBN {html.escape(e["isbn"])} · e-book</p>')
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
@@ -2209,7 +2491,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}
+<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}</div>
@@ -2274,6 +2556,7 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
         "README.md": "index.html",
         "../TECHNOLOGY.md": "../../index.html#press" if in_terms else "../index.html#press",
         "../craft/CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
+        "../craft/../CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
         "docs/CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
         "craft/CRAFT_DOCTRINE.md": "doctrine.html",
         "academic/TRIPTYCH_FORM.md": "../triptych-form.html" if in_terms else "triptych-form.html",
@@ -2289,6 +2572,8 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
     for old, new in reps.items():
         out = out.replace(f"]({old})", f"]({new})")
         out = out.replace(old, new)
+    out = out.replace("../craft/../doctrine.html", "../doctrine.html" if in_terms else "doctrine.html")
+    out = out.replace("craft/../doctrine.html", "../doctrine.html" if in_terms else "doctrine.html")
     out = re.sub(r"terms/([a-z0-9-]+)\.md", r"terms/\1.html", out)
     if in_terms:
         out = re.sub(r"\]\(([a-z0-9-]+)\.md\)", r"](\1.html)", out)
@@ -2502,7 +2787,7 @@ def render_wiki_page(slug: str, md: str, *, index: bool = False) -> str:
     )
     article_class = "reader letter wiki-index" if index else "reader wiki"
     eyebrow = "Place Wiki · index" if index else "Place Wiki"
-    rel = "../" if not index else ""
+    rel = "../"
     body = md_to_html(md)
     back = (
         '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html">&larr; All place wikis</a></p>'
@@ -2749,6 +3034,301 @@ the road, not the obstacle, and that the work at the end of it is meant to be <e
     ])
 
 
+def render_cv() -> str:
+    """Self-owned CV/profile page from the exported LinkedIn profile PDF."""
+    person_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Andries J. Greyling",
+        "alternateName": ["AJ Greyling", "Andries Jakobus Greyling"],
+        "url": f"{DOMAIN}/cv.html",
+        "sameAs": [
+            "https://www.linkedin.com/in/ajgreyling",
+            "https://github.com/ajgreyling",
+        ],
+        "jobTitle": "Founder, author, and AI product/SaaS consultant",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Mezzanine",
+        },
+    })
+    return "\n".join([
+        head("Andries J. Greyling — CV",
+             "Self-owned CV and profile for Andries J. Greyling: founder of Arjuna Badger Press, "
+             "author, and AI product/SaaS consultant with enterprise software depth.",
+             canonical=f"{DOMAIN}/cv.html",
+             ld_json=person_ld),
+        nav(),
+        """<article class="reader letter cv-page">
+<section class="cv-hero">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow">Self-owned profile</p>
+<h1>Andries J. Greyling</h1>
+<p class="cv-title">Founder · Author · AI Product / SaaS Consultant</p>
+<p class="intro">I am building Arjuna Badger Press into a real publishing platform for authors,
+readers, narrators, and printers. I also consult for teams that need pragmatic AI adoption,
+production SaaS delivery, APIs, automation, and technical leadership without theatre.</p>
+<div class="cv-links">
+<a class="btn" href="mailto:info@arjunabadger.press">Contact</a>
+<a class="btn ghost" href="https://www.linkedin.com/in/ajgreyling" rel="me noopener" target="_blank">LinkedIn</a>
+<a class="btn ghost" href="https://github.com/ajgreyling" rel="me noopener" target="_blank">GitHub</a>
+</div>
+</section>
+
+<div class="cv-grid">
+<aside class="cv-side">
+<section class="cv-block">
+<h2>Profile</h2>
+<p>I am moving deliberately from employee profile to founder, author, and consultant. The platform I am
+building is Arjuna Badger Press: a free reader, AI authoring workflow, ACX-style audio marketplace
+outside the usual gates, direct distribution, and small-batch print marketplace.</p>
+<p>The consulting offer is grounded in banked experience: more than two decades of enterprise software
+delivery across architecture, technical leadership, SaaS products, high-volume banking systems,
+GIS-enabled systems, APIs, automation, and practical AI adoption.</p>
+</section>
+
+<section class="cv-block">
+<h2>Banked Skills</h2>
+<ul>
+<li>Enterprise software architecture</li>
+<li>Technical leadership and team mentoring</li>
+<li>Production SaaS systems</li>
+<li>APIs, automation, and integration</li>
+<li>GIS and data-enabled systems</li>
+<li>AI adoption in real delivery teams</li>
+<li>Data analytics</li>
+<li>MCP server patterns</li>
+<li>ANTLR and DSL tooling</li>
+<li>C#, Java, T-SQL, PL/SQL, VB.NET, VBA, Delphi</li>
+</ul>
+</section>
+
+<section class="cv-block">
+<h2>Languages</h2>
+<ul>
+<li>English — native or bilingual</li>
+<li>Afrikaans — native or bilingual</li>
+</ul>
+</section>
+
+<section class="cv-block">
+<h2>Certifications</h2>
+<ul>
+<li>NCC International Diploma in Computer Studies (IDCS)</li>
+</ul>
+</section>
+
+<section class="cv-block">
+<h2>Public Links</h2>
+<ul>
+<li><a href="technology.html">Technology behind the library</a></li>
+<li><a href="marketplace.html">Marketplace thesis</a></li>
+<li><a href="app.html">Reader app plan</a></li>
+<li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">/sleep on GitHub</a></li>
+</ul>
+</section>
+</aside>
+
+<main class="cv-main">
+<section class="cv-block">
+<h2>Summary</h2>
+<p>I build useful systems, not demos. My current work is Arjuna Badger Press: a publishing platform
+that keeps creators in control while solving real distribution gaps in ebooks, audiobooks, and
+small-batch print.</p>
+<p>I am available for consulting where my background is directly useful: AI product adoption, SaaS
+architecture, API and automation design, technical rescue work, delivery-system diagnosis, and
+developer workflows that combine human judgement with AI capability.</p>
+<p>The thread through my career is constraint-driven delivery. I have worked inside banking,
+enterprise SaaS, product portfolios, technical leadership, architecture, and hands-on development.
+That means I can talk strategy, but I can also read the code, find the bottleneck, and ship.</p>
+</section>
+
+<section class="cv-block">
+<h2>Consulting Offer</h2>
+<ul>
+<li>Turn AI interest into production workflows that developers will actually use.</li>
+<li>Design API, automation, and integration layers around existing systems.</li>
+<li>Review SaaS architecture for maintainability, scalability, security, and operational risk.</li>
+<li>Build prototypes that are honest about the path to production.</li>
+<li>Help technical leaders diagnose delivery constraints, team friction, and process theatre.</li>
+<li>Advise founders who need a working product, not a slide deck.</li>
+</ul>
+</section>
+
+<section class="cv-block">
+<h2>Current Independent Work</h2>
+<div class="cv-item">
+<div class="cv-meta">2026 · Arjuna Badger Press</div>
+<h3>Founder and publisher</h3>
+<p>Built and operate a self-owned publishing catalogue at arjunabadger.press: generated static site,
+book pages, read-online editions, EPUB/PDF downloads, place wiki, craft library, public feedback,
+PWA shell, and direct marketplace intake pages.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">2026 · Publishing marketplace</div>
+<h3>ACX-style audio plus dead-press-time printing</h3>
+<p>Designing a marketplace for countries outside the usual audiobook royalty rails and for small-batch
+print runs matched to idle printing capacity. Narrator participation floor: at least 5% of net profit
+for at least five years.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">2026 · Reader app</div>
+<h3>Free-forever local reader PWA</h3>
+<p>Building a static-first reader shell where users can import their own EPUB, PDF, and audiobook
+files without an account or upload, then optionally buy ebooks, audiobooks, or print copies later.</p>
+</div>
+</section>
+
+<section class="cv-block">
+<h2>Professional Experience</h2>
+<div class="cv-item">
+<div class="cv-meta">August 2022 - Present · Mezzanine · Stellenbosch</div>
+<h3>Senior Software Developer</h3>
+<p>Architect and develop GIS and AI-enabled software solutions.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">April 2022 - July 2022 · Sabbatical · Somerset West</div>
+<h3>Sabbatical - Homesteading</h3>
+<p>Researched and started small-scale homesteading projects including microgreens, medicinal and
+culinary mushroom cultivation, chickens, coop building, and future hydroponic/aquaponic vegetable
+gardening, while teaching homeschooled children entrepreneurship and farm-to-fork living.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">August 2021 - March 2022 · Worth Internet Systems · Somerset West</div>
+<h3>Technical Lead</h3>
+<p>Reported to the Head of Software Engineering, led the development team, defined technical vision,
+aligned stakeholders, mentored developers, managed delivery risks, and maintained regular
+communication with clients, third parties, and internal teams.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">January 2018 - August 2021 · Mezzanine Ware · Stellenbosch</div>
+<h3>Solutions Architect</h3>
+<p>Focused on quality, cross-cutting, and non-functional concerns including security, scalability, and
+maintainability, while identifying and reporting delivery and architectural risks.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">May 2017 - January 2018 · Mezzanine Ware · Stellenbosch</div>
+<h3>Product Development Manager</h3>
+<p>Managed three Product Owners and eleven Developers responsible for the portfolio of Mezzanine SaaS
+products.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">May 2011 - April 2017 · Capitec Bank · Stellenbosch</div>
+<h3>Team Lead / Technical Lead</h3>
+<p>Managed and provided technical leadership for three teams of architects, analyst developers,
+developers, and programmers using C#, Java, and T-SQL. Worked on solutions architecture for
+high-volume, high-performance online and batch processing systems, coached team leaders, interviewed
+and hired across teams, and drove DevOps and automation evangelism.</p>
+<p>Designed and developed a JSON command-line driven test data provisioning and automation framework in
+C#, including middleware for command-line execution of core banking transactions to simulate
+client-triggered interactions.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">August 2009 - April 2011 · Capitec Bank · Stellenbosch</div>
+<h3>Systems Architect</h3>
+<p>Completed design, development, and implementation of an automated credit rules engine using C#,
+T-SQL, SQL Server, and Java.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">January 2007 - July 2009 · Mercer</div>
+<h3>Senior Software Developer</h3>
+<p>Software design and development in C# and T-SQL / PL-SQL for WinForms and ASP.NET applications.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">July 2005 - December 2006 · Mercer · Croydon, United Kingdom</div>
+<h3>Technical Analyst</h3>
+<p>Development in VB6, VBA, T-SQL, and C#.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">2002 - 2005 · Capitec Bank · Stellenbosch</div>
+<h3>Analyst Developer</h3>
+<p>Software design and development in VB.NET, T-SQL, and VBA.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">1999 - 2002 · Boland PKS / Boland Bank · Paarl</div>
+<h3>Analyst Developer</h3>
+<p>Software development and design in Delphi 5, VB.NET, and T-SQL.</p>
+</div>
+</section>
+
+<section class="cv-block">
+<h2>Selected Projects</h2>
+<div class="cv-item">
+<div class="cv-meta">Open source</div>
+<h3>/sleep</h3>
+<p>An agent-memory skill for coding assistants: keep the lesson, lose the dream. The tool consolidates
+long working sessions into durable project memory instead of forcing a choice between context bloat
+and total reset.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">Arjuna Badger Press</div>
+<h3>AI manuscript and continuity pipeline</h3>
+<p>A book-production system using canon contracts, chapter workflows, multi-role editorial passes,
+continuity checks, StoryGraph-style structure gates, and de-LLM scanners to protect authorial voice.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">Static publishing</div>
+<h3>Generated public library</h3>
+<p>A pure-stdlib static generator that builds the public catalogue, book pages, read-online pages,
+downloads, RSS, sitemap, PWA metadata, and self-owned author/platform pages.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">Mezzanine</div>
+<h3>Helium Rapid DSL tooling</h3>
+<p>Created a VS Code/Cursor extension for the Mezzanine Helium Rapid DSL.</p>
+</div>
+</section>
+
+<section class="cv-block">
+<h2>Education</h2>
+<div class="cv-item">
+<div class="cv-meta">2016 - 2017 · Gordon Institute of Business Science</div>
+<h3>Capitec Bank Leadership Programme for Managers</h3>
+<p>Leadership and Management.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">1998 - 1999 · NCC Education</div>
+<h3>International Diploma in Computer Studies</h3>
+<p>Computer Studies.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">1998 · NCC Education</div>
+<h3>International Diploma in Computer Programming</h3>
+<p>Computer Programming.</p>
+</div>
+<div class="cv-item">
+<div class="cv-meta">1993 - 1997 · Voortrekker Hoërskool</div>
+<h3>Senior Certificate</h3>
+</div>
+</section>
+
+<section class="cv-block">
+<h2>Books and Publishing</h2>
+<p>Author and publisher of the Arjuna Badger Press catalogue, including speculative fiction,
+novelised ancient mysteries, companions, non-fiction, and experimental series work. The catalogue is
+free to read and download for personal use from the public library.</p>
+<p><a href="index.html#library">Browse the library &rarr;</a></p>
+</section>
+
+<section class="cv-block">
+<h2>Interests and Technical Hobbies</h2>
+<p>Virtualisation, Raspberry Pi, Linux distributions, locally hosted LLMs, Qwen Coder, GPT-OSS, GLM
+Flash, self-hosted model evaluation, overland travel, camping, 4x4 journeys in Africa, fiction and
+non-fiction reading, chickens, and practical self-sufficiency projects.</p>
+</section>
+
+<section class="cv-block">
+<h2>Privacy Note</h2>
+<p>The LinkedIn PDF export includes private contact details. This public CV intentionally uses the
+press contact address and does not publish home address or personal phone number.</p>
+</section>
+</main>
+</div>
+</article>""",
+        footer(),
+    ])
+
+
 def render_feedback() -> str:
     """The single 'Tell us something' funnel (docs/FEEDBACK_PLAN.md): general feedback → form/mailto;
     a confirmed factual/cultural/continuity issue → the gated Honey Badger Bounty (its own rules)."""
@@ -2879,6 +3459,729 @@ wall. This is only for those who want to.</p>
     ])
 
 
+def render_narrators() -> str:
+    """Arjuna Audio intake page. This is deliberately a working waitlist, not a marketplace UI."""
+    form_target = (
+        html.escape(NARRATOR_FORM_URL)
+        if NARRATOR_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Narrator application - Arjuna Audio')}"
+    )
+    form_method = "post"
+    form_enctype = "" if NARRATOR_FORM_URL else ' enctype="text/plain"'
+    fallback_note = (
+        '<p class="intake-note">Voice files do not travel reliably through email forms. Upload a '
+        'sample anywhere you control, then paste the private or public link below.</p>'
+        if not NARRATOR_FORM_URL else ""
+    )
+    return "\n".join([
+        head("Become a narrator — Arjuna Badger Press",
+             "Join Arjuna Audio: audiobook narration for countries and creators left outside ACX, "
+             "with a minimum royalty participation for voice actors.",
+             canonical=f"{DOMAIN}/narrators.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Arjuna Audio</p>
+<h1 style="text-align:center">Become a narrator</h1>
+<p class="intro" style="text-align:center">Audiobook production for the countries ACX leaves out.
+Authors keep their rights. Voice actors share in the upside.</p>
+
+<div class="intake-grid" aria-label="Arjuna Audio terms">
+<div class="intake-card"><span class="charge">Minimum royalty</span>
+<strong>5% of net profit</strong><p>Non-negotiable floor for the narrator on qualifying audiobook projects.</p></div>
+<div class="intake-card"><span class="charge">Minimum term</span>
+<strong>5 years</strong><p>Royalty participation survives the initial production window.</p></div>
+<div class="intake-card"><span class="charge">Rights posture</span>
+<strong>No exclusivity grab</strong><p>The author keeps book rights. The narrator is credited and paid transparently.</p></div>
+</div>
+
+<div class="entry"><span class="charge">What we are building first</span>
+<p>The first version is manual: authors submit books, narrators submit voice samples, and the press
+matches projects one by one. No bidding dashboard yet. The goal is ten finished South African
+audiobooks before the marketplace gets more machinery.</p></div>
+
+<div class="entry"><span class="charge">Royalty options</span>
+<p>The floor is fixed: at least 5% of net profit for at least five years. A project may offer more:
+hybrid work can move toward 10%, and royalty-only work can move higher when both sides choose that
+risk knowingly. The floor never moves downward.</p></div>
+
+<form class="intake-form" data-form-name="narrator" action="{form_target}" method="{form_method}"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>Languages<input name="languages" placeholder="English, isiZulu, Afrikaans, Swahili..." required></label>
+<label>Accent / voice notes<input name="accent" placeholder="South African English, warm baritone, character voices..."></label>
+<label>Preferred genres<input name="genres" placeholder="Fiction, non-fiction, children's, thriller, memoir..."></label>
+<label>Commercial preference
+<select name="commercial_preference" required>
+<option value="">Choose one</option>
+<option>Cash upfront plus 5% royalty floor</option>
+<option>Reduced upfront plus higher royalty</option>
+<option>Royalty-only for the right book</option>
+</select></label>
+<label>Voice sample link<input name="voice_sample_link" type="url" placeholder="https://..." required></label>
+<label>Anything we should know<textarea name="notes" rows="5" placeholder="Home studio setup, rates, availability, books you love, languages you can perform naturally..."></textarea></label>
+{fallback_note}
+<button class="btn" type="submit">Send narrator profile &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_distribution() -> str:
+    """Direct distribution page: free books without bank gates, paid books through local rails."""
+    form_target = (
+        html.escape(DISTRIBUTION_FORM_URL)
+        if DISTRIBUTION_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Direct distribution interest')}"
+    )
+    form_enctype = "" if DISTRIBUTION_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Direct distribution — Arjuna Badger Press",
+             "Free books without banking-detail gates, and future paid editions through rails readers "
+             "actually use: M-Pesa, Mukuru, PayPal, and blockchain payments.",
+             canonical=f"{DOMAIN}/distribution.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Direct distribution</p>
+<h1 style="text-align:center">No bank gate for free books</h1>
+<p class="intro" style="text-align:center">If a book is free, a reader should not need banking details
+to get it, and an author should not be blocked by a payout rail they do not use.</p>
+
+<div class="intake-grid" aria-label="Direct distribution principles">
+<div class="intake-card"><span class="charge">Free means free</span>
+<strong>No checkout wall</strong><p>EPUB, PDF, and read-online access stay available directly from the press.</p></div>
+<div class="intake-card"><span class="charge">Local rails</span>
+<strong>M-Pesa and Mukuru</strong><p>Readers should be able to pay through rails common in their country, not only cards.</p></div>
+<div class="intake-card"><span class="charge">Global rails</span>
+<strong>PayPal and blockchain</strong><p>Where local rails fail, use global settlement without forcing exclusivity.</p></div>
+</div>
+
+<div class="entry"><span class="charge">The publishing problem</span>
+<p>Some stores ask for banking and tax details even when the author wants to publish a free book.
+That makes sense for their accounting system, not for a reader in a country the system was not built
+around. Arjuna Badger Press will keep a direct route open: download, read, share, and later pay the
+author through the rail that works where you live.</p></div>
+
+<div class="entry"><span class="charge">The operating rule</span>
+<p>Free editions must never require a bank account. Paid editions should support multiple rails:
+mobile money where it exists, remittance rails where families already move money, PayPal where it
+works, and blockchain only where it reduces friction instead of adding theatre.</p></div>
+
+<form class="intake-form" data-form-name="distribution" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>I am
+<select name="role" required>
+<option value="">Choose one</option>
+<option>Reader</option>
+<option>Author</option>
+<option>Publisher / press</option>
+<option>Payment or distribution partner</option>
+</select></label>
+<label>Rails you can use<input name="payment_rails" placeholder="M-Pesa, Mukuru, PayPal, card, USDC, bank transfer..."></label>
+<label>What blocked you<textarea name="blocker" rows="5" placeholder="Kobo, Google Play Books, banking details, tax forms, payout country, payment method, store availability..."></textarea></label>
+<button class="btn" type="submit">Send distribution note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_app_page() -> str:
+    """Reader app/PWA page: free universal reader first, transactional layer later."""
+    form_target = (
+        html.escape(APP_FORM_URL)
+        if APP_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Arjuna Badger app interest')}"
+    )
+    form_enctype = "" if APP_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Reader app — Arjuna Badger Press",
+             "A free-forever eReader and audiobook PWA: import any EPUB, PDF, or audiobook, read "
+             "with PDF reflow, buy editions, and order print copies directly from the press.",
+             canonical=f"{DOMAIN}/app.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Reader app</p>
+<h1 style="text-align:center">A free reader, forever</h1>
+<p class="intro" style="text-align:center">Import any EPUB, PDF, or audiobook. Read and listen
+without a store account. Buying from the press is optional.</p>
+
+<div class="intake-grid" aria-label="Reader app capabilities">
+<div class="intake-card"><span class="charge">Import</span>
+<strong>Any book</strong><p>EPUB, PDF, and audiobook import stays free forever, including your own files.</p></div>
+<div class="intake-card"><span class="charge">Read</span>
+<strong>PDF reflow</strong><p>Comfortable mobile reading, bookmarks, progress, offline cache, and readable PDF text.</p></div>
+<div class="intake-card"><span class="charge">Buy</span>
+<strong>Optional store</strong><p>Ebooks and audiobooks through local and global rails, without locking readers in.</p></div>
+<div class="intake-card"><span class="charge">Print</span>
+<strong>Order copies</strong><p>Authors and readers can order small-batch paperbacks or hardcovers through the press.</p></div>
+</div>
+
+<div class="entry"><span class="charge">Minimum viable app</span>
+<p>Version one should be a PWA: installable from the browser, works on cheap Android phones, imports
+local EPUB/PDF/audio files, caches books offline, and keeps the public website as the source of
+truth. No app store approval required for the first release.</p></div>
+
+<div class="entry"><span class="charge">Transactional layer</span>
+<p>When the reader app proves usage, Webdock can host the API: optional accounts, owned purchases,
+audiobook streaming/downloads, payment webhooks, print quotes, order status, and author royalty
+reporting. Imported personal books stay local unless the reader chooses to sync them.</p></div>
+
+<p style="text-align:center;margin:28px 0"><a class="btn" href="reader.html">Launch the local reader &rarr;</a></p>
+
+<form class="intake-form" data-form-name="reader-app" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>I want to
+<select name="intent" required>
+<option value="">Choose one</option>
+<option>Import my own EPUB/PDF/audiobook</option>
+<option>Read free books in the app</option>
+<option>Buy ebooks</option>
+<option>Buy audiobooks</option>
+<option>Order print copies</option>
+<option>Sell my book through the press</option>
+</select></label>
+<label>Preferred payment rail<input name="payment_rail" placeholder="M-Pesa, Mukuru, PayPal, card, USDC, bank transfer..."></label>
+<label>What device do you read on<input name="device" placeholder="Android phone, iPhone, tablet, laptop, e-ink reader..."></label>
+<label>What would make this useful<textarea name="notes" rows="5" placeholder="Offline reading, local payments, audio downloads, family sharing, print delivery, author dashboard..."></textarea></label>
+<button class="btn" type="submit">Send app note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_reader_app() -> str:
+    """Local-first reader shell. No accounts, no upload: selected files stay in the browser session."""
+    return "\n".join([
+        head("Local reader — Arjuna Badger Press",
+             "A local-first reader shell for imported books and audiobooks. Files stay on your device.",
+             canonical=f"{DOMAIN}/reader.html"),
+        nav(),
+        """<main class="app-shell">
+<div class="app-top">
+<div>
+<p class="eyebrow">Local reader</p>
+<h1>Read and listen locally</h1>
+<p>Import files from this device. This prototype does not upload them or require an account. Text and
+HTML render directly, audio plays locally, and PDFs open in a local preview while true text reflow is
+being built.</p>
+</div>
+<div class="app-actions">
+<label class="btn file-btn">Import files<input id="fileInput" type="file" multiple accept=".txt,.md,.html,.htm,.pdf,.epub,audio/*,application/pdf,text/*"></label>
+<button class="btn ghost" id="clearLibrary" type="button">Clear session</button>
+</div>
+</div>
+<div class="reader-workbench">
+<aside class="library-panel" aria-label="Imported files">
+<div class="eyebrow">Session library</div>
+<div id="libraryList" class="library-list"></div>
+</aside>
+<section class="reading-panel" id="readingPanel" aria-live="polite">
+<div class="reader-empty">Import an EPUB, PDF, audiobook, HTML, Markdown, or text file to begin.</div>
+</section>
+</div>
+</main>
+<script>
+(function(){
+  const input = document.getElementById("fileInput");
+  const list = document.getElementById("libraryList");
+  const panel = document.getElementById("readingPanel");
+  const clear = document.getElementById("clearLibrary");
+  let items = [];
+  let activeUrl = null;
+
+  function typeOf(file){
+    const name = file.name.toLowerCase();
+    if (file.type.startsWith("audio/")) return "audio";
+    if (file.type === "application/pdf" || name.endsWith(".pdf")) return "pdf";
+    if (name.endsWith(".epub")) return "epub";
+    if (file.type === "text/html" || name.endsWith(".html") || name.endsWith(".htm")) return "html";
+    if (file.type.startsWith("text/") || name.endsWith(".txt") || name.endsWith(".md")) return "text";
+    return "unknown";
+  }
+
+  function escapeHtml(value){
+    return value.replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;","\\\"":"&quot;","'":"&#39;"}[ch]));
+  }
+
+  function sizeLabel(bytes){
+    if (bytes < 1024) return bytes + " B";
+    if (bytes < 1024 * 1024) return Math.round(bytes / 1024) + " KB";
+    return (bytes / 1024 / 1024).toFixed(1) + " MB";
+  }
+
+  function renderList(activeId){
+    list.innerHTML = "";
+    if (!items.length) {
+      list.innerHTML = '<p class="reader-note">No files imported in this session.</p>';
+      return;
+    }
+    items.forEach(item => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "library-item" + (item.id === activeId ? " active" : "");
+      button.innerHTML = "<strong>" + escapeHtml(item.file.name) + "</strong><span>" + item.kind.toUpperCase() + " · " + sizeLabel(item.file.size) + "</span>";
+      button.addEventListener("click", () => openItem(item.id));
+      list.appendChild(button);
+    });
+  }
+
+  function setPanel(html){
+    panel.innerHTML = html;
+  }
+
+  function objectUrl(file){
+    if (activeUrl) URL.revokeObjectURL(activeUrl);
+    activeUrl = URL.createObjectURL(file);
+    return activeUrl;
+  }
+
+  function track(name, props){
+    try {
+      if (window.plausible) window.plausible(name, { props: props || {} });
+    } catch (error) {}
+  }
+
+  function openItem(id){
+    const item = items.find(entry => entry.id === id);
+    if (!item) return;
+    renderList(id);
+    track("Reader Open", { kind: item.kind, location: location.pathname });
+    const file = item.file;
+    if (item.kind === "audio") {
+      const url = objectUrl(file);
+      setPanel('<div class="reader-content"><h2>' + escapeHtml(file.name) + '</h2><audio class="audio-player" controls src="' + url + '"></audio><p class="reader-note">Audio is playing from this device. It has not been uploaded.</p></div>');
+      return;
+    }
+    if (item.kind === "pdf") {
+      const url = objectUrl(file);
+      setPanel('<iframe class="media-frame" title="' + escapeHtml(file.name) + '" src="' + url + '"></iframe><div class="reader-content"><p class="reader-note">PDF preview is local. True mobile text reflow needs the next PDF text-extraction layer.</p></div>');
+      return;
+    }
+    if (item.kind === "epub") {
+      setPanel('<div class="reader-content"><h2>' + escapeHtml(file.name) + '</h2><p>EPUB import is queued for the next reader engine layer. The file stays on your device; no upload happened.</p><p class="reader-note">The production version will unpack EPUB chapters in-browser and store them locally for offline reading.</p></div>');
+      return;
+    }
+    if (item.kind === "html" || item.kind === "text") {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const text = String(reader.result || "");
+        if (item.kind === "html") {
+          setPanel('<article class="reader-content"><h2>' + escapeHtml(file.name) + '</h2>' + text + '</article>');
+        } else {
+          setPanel('<article class="reader-content"><h2>' + escapeHtml(file.name) + '</h2><pre>' + escapeHtml(text) + '</pre></article>');
+        }
+      };
+      reader.readAsText(file);
+      return;
+    }
+    setPanel('<div class="reader-content"><h2>' + escapeHtml(file.name) + '</h2><p>This file type is not supported yet.</p></div>');
+  }
+
+  input.addEventListener("change", event => {
+    const files = Array.from(event.target.files || []);
+    const start = items.length;
+    const counts = {};
+    files.forEach((file, index) => {
+      const kind = typeOf(file);
+      counts[kind] = (counts[kind] || 0) + 1;
+      items.push({ id: Date.now() + "-" + index + "-" + start, file: file, kind: kind });
+    });
+    Object.keys(counts).forEach(kind => {
+      track("Reader Import", { kind: kind, count: counts[kind], location: location.pathname });
+    });
+    renderList();
+    if (files.length) openItem(items[items.length - files.length].id);
+    input.value = "";
+  });
+
+  clear.addEventListener("click", () => {
+    if (activeUrl) URL.revokeObjectURL(activeUrl);
+    activeUrl = null;
+    items = [];
+    track("Reader Clear", { location: location.pathname });
+    renderList();
+    setPanel('<div class="reader-empty">Import an EPUB, PDF, audiobook, HTML, Markdown, or text file to begin.</div>');
+  });
+
+  renderList();
+})();
+</script>""",
+        footer(),
+    ])
+
+
+def render_authoring_page() -> str:
+    """Phone-first authoring page: AI chat as the entry point for authors."""
+    form_target = (
+        html.escape(AUTHORING_FORM_URL)
+        if AUTHORING_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Phone authoring interest')}"
+    )
+    form_enctype = "" if AUTHORING_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Phone authoring — Arjuna Badger Press",
+             "A phone-first AI chat interface for authors: capture a book idea, build canon, draft, "
+             "revise, and publish from the device already in your hand.",
+             canonical=f"{DOMAIN}/authoring.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Phone authoring</p>
+<h1 style="text-align:center">Write the book by talking to it</h1>
+<p class="intro" style="text-align:center">Authors should be able to build a book through an AI chat
+on a phone: voice notes, questions, chapters, edits, and publishing steps in one guided thread.</p>
+
+<div class="intake-grid" aria-label="Phone authoring flow">
+<div class="intake-card"><span class="charge">Capture</span>
+<strong>Voice or text</strong><p>Speak scenes, memories, lore, characters, and chapter ideas into the phone.</p></div>
+<div class="intake-card"><span class="charge">Shape</span>
+<strong>Guided canon</strong><p>The chat asks the hard questions and turns answers into a story bible.</p></div>
+<div class="intake-card"><span class="charge">Draft</span>
+<strong>Chapter workflow</strong><p>Outline, draft, revise, continuity-check, and export without a desktop.</p></div>
+<div class="intake-card"><span class="charge">Publish</span>
+<strong>One door</strong><p>Ebook, print, audiobook, ISBN, metadata, and direct distribution from the same project.</p></div>
+</div>
+
+<div class="entry"><span class="charge">The product rule</span>
+<p>The interface should feel like a serious editor in your pocket, not a blank prompt box. The author
+answers human questions; the system maintains canon, checks continuity, flags weak structure, and
+keeps the author's voice intact.</p></div>
+
+<div class="entry"><span class="charge">Why phone-first</span>
+<p>Many authors outside the usual publishing rails do not begin on a laptop. They begin with a phone,
+WhatsApp habits, voice notes, and fragments of lived experience. The app should meet that reality:
+offline drafts, low-data mode, resumable chats, and export at every stage.</p></div>
+
+<form class="intake-form" data-form-name="authoring" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>I am
+<select name="role" required>
+<option value="">Choose one</option>
+<option>First-time author</option>
+<option>Published author</option>
+<option>Editor</option>
+<option>Publisher / press</option>
+</select></label>
+<label>Device<input name="device" placeholder="Android phone, iPhone, tablet, laptop..."></label>
+<label>Book stage<input name="book_stage" placeholder="Idea, notes, partial draft, finished manuscript..."></label>
+<label>What would help most<textarea name="notes" rows="5" placeholder="Voice notes, structure, chapter drafting, editing, translation, audiobook, print, distribution..."></textarea></label>
+<button class="btn" type="submit">Send authoring note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_audition_page() -> str:
+    """Narrator audition guide: phone/laptop recording that respects physics and budget."""
+    form_target = (
+        html.escape(AUDITION_FORM_URL)
+        if AUDITION_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Narrator audition note')}"
+    )
+    form_enctype = "" if AUDITION_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Narrator audition guide — Arjuna Badger Press",
+             "Audition for audiobook work with a MacBook, iPhone, or decent Android phone: quiet-room "
+             "setup, soft treatment, mic placement, levels, and practical recording tips.",
+             canonical=f"{DOMAIN}/audition.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Narrator auditions</p>
+<h1 style="text-align:center">Use what you have well</h1>
+<p class="intro" style="text-align:center">A MacBook, iPhone, or decent Android phone can produce a
+usable audition when the room is quiet, the surfaces are soft, and the levels are controlled.</p>
+
+<div class="intake-grid" aria-label="Audition setup principles">
+<div class="intake-card"><span class="charge">Room</span>
+<strong>Quiet first</strong><p>Choose the quietest room or outside space before buying anything.</p></div>
+<div class="intake-card"><span class="charge">Treatment</span>
+<strong>Soft close surfaces</strong><p>Heavy curtains, blankets, wardrobes, rugs, and cushions reduce early reflections.</p></div>
+<div class="intake-card"><span class="charge">Technique</span>
+<strong>Consistent distance</strong><p>Keep the mic stable, speak past it slightly, and avoid clipping.</p></div>
+<div class="intake-card"><span class="charge">Delivery</span>
+<strong>Clean sample</strong><p>Submit raw voice plus a lightly cleaned version so the press can judge both.</p></div>
+</div>
+
+<div class="entry"><span class="charge">Start with the room</span>
+<p>Turn off fans, fridges nearby, fluorescent lights, notifications, and anything that hums. Record a
+ten-second silence test and listen on headphones. If you hear traffic, dogs, room ring, or computer
+fan noise, move before you process. A quiet untreated room beats a noisy room with plugins.</p></div>
+
+<div class="entry"><span class="charge">Make a small dead zone</span>
+<p>Hang heavy curtains or blankets behind and beside the narrator, put a rug underfoot, and face into
+clothes or soft furniture rather than a bare wall. The goal is not a perfect studio. It is fewer
+early reflections, less flutter echo, and less standing-wave build-up. "Square wave blocking" is not
+the room problem; in rooms, the practical target is reflection and standing-wave control.</p></div>
+
+<div class="entry"><span class="charge">Phone and laptop technique</span>
+<p>Put the device on a stable surface, not in your hand. Keep a steady distance of roughly a handspan
+to two handspans, speak slightly across the mic instead of directly into it, and do one full-volume
+test line before the real take. If loud words distort, move back or lower input gain. Record WAV or
+the highest-quality format your app allows; avoid aggressive noise suppression while recording.</p></div>
+
+<div class="entry"><span class="charge">Audition file</span>
+<p>Read sixty to ninety seconds from a clean excerpt. Send one raw file, one lightly cleaned file, and
+one note describing the room and device. Do not over-process: no heavy reverb, fake radio voice,
+music bed, or extreme noise reduction. A truthful clean voice is easier to cast than a polished lie.</p></div>
+
+<form class="intake-form" data-form-name="audition" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>Device<input name="device" placeholder="MacBook Air, iPhone 13, Samsung A-series, USB mic..."></label>
+<label>Recording space<input name="recording_space" placeholder="Bedroom, closet, parked car, quiet garden room..."></label>
+<label>Voice sample link<input name="voice_sample_link" type="url" placeholder="https://..."></label>
+<label>What gear or room problem do you have<textarea name="notes" rows="5" placeholder="Echo, traffic, fan noise, plosives, low volume, hiss, no mic stand, no headphones..."></textarea></label>
+<button class="btn" type="submit">Send audition note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="narrators.html">&larr; Back to narrator intake</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_marketplace_page() -> str:
+    """Combined audio + print marketplace positioning page."""
+    form_target = (
+        html.escape(MARKETPLACE_FORM_URL)
+        if MARKETPLACE_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('ABP marketplace interest')}"
+    )
+    form_enctype = "" if MARKETPLACE_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Marketplace — Arjuna Badger Press",
+             "Arjuna Badger Press marketplace: ACX-style audiobook production outside ACX rails, plus "
+             "small-batch print jobs matched with idle printing press capacity.",
+             canonical=f"{DOMAIN}/marketplace.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Marketplace</p>
+<h1 style="text-align:center">Audio and print, without the old gates</h1>
+<p class="intro" style="text-align:center">The first marketplace is manual: match authors to narrators,
+and short-run print buyers to printers with idle capacity. Software comes after liquidity.</p>
+
+<div class="intake-grid" aria-label="Marketplace legs">
+<div class="intake-card"><span class="charge">Audio</span>
+<strong>ACX-style, wider reach</strong><p>For authors and voice actors outside the usual audiobook royalty rails.</p></div>
+<div class="intake-card"><span class="charge">Royalty floor</span>
+<strong>5% for 5 years</strong><p>Narrators get a non-negotiable minimum participation in net profit.</p></div>
+<div class="intake-card"><span class="charge">Print</span>
+<strong>Dead press time</strong><p>Small batches matched to printers who can monetize idle capacity.</p></div>
+<div class="intake-card"><span class="charge">Rights</span>
+<strong>No lock-in</strong><p>Authors keep rights. Suppliers get paid. The press coordinates the deal.</p></div>
+</div>
+
+<div class="entry"><span class="charge">MVP rule</span>
+<p>Do not build bidding dashboards first. For the first projects, collect authors, narrators, printers,
+and print requests, then match them manually. The marketplace software should encode what already
+works by hand.</p></div>
+
+<div class="entry"><span class="charge">Where Webdock fits</span>
+<p>GitHub Pages can host the public marketplace pages for free. Webdock becomes useful for private
+files, quotes, account login, payment webhooks, royalty ledgers, print-order status, and eventually
+automated matching.</p></div>
+
+<form class="intake-form" data-form-name="marketplace" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country<input name="country" autocomplete="country-name" required></label>
+<label>I am
+<select name="role" required>
+<option value="">Choose one</option>
+<option>Author with audiobook project</option>
+<option>Voice actor / narrator</option>
+<option>Author needing print copies</option>
+<option>Printer with spare capacity</option>
+<option>Publisher / partner</option>
+</select></label>
+<label>Project size<input name="project_size" placeholder="Audiobook hours, print quantity, trim size, deadline..."></label>
+<label>Payment rails<input name="payment_rails" placeholder="M-Pesa, Mukuru, PayPal, card, bank transfer, crypto..."></label>
+<label>What do you need or offer<textarea name="notes" rows="5" placeholder="Book genre, voice/language, printer equipment, paper types, location, turnaround, budget, royalty preference..."></textarea></label>
+<button class="btn" type="submit">Send marketplace note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_print_page() -> str:
+    """Dead-press-time print marketplace intake page."""
+    form_target = (
+        html.escape(PRINT_FORM_URL)
+        if PRINT_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('Print marketplace intake')}"
+    )
+    form_enctype = "" if PRINT_FORM_URL else ' enctype="text/plain"'
+    return "\n".join([
+        head("Small-batch printing — Arjuna Badger Press",
+             "Small-batch book printing matched with dead printing press time: affordable short runs "
+             "for authors, extra revenue for printers.",
+             canonical=f"{DOMAIN}/printing.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Print marketplace</p>
+<h1 style="text-align:center">Dead press time becomes short-run books</h1>
+<p class="intro" style="text-align:center">A 25, 50, or 100 copy run should not be punished by an
+industrial system built for thousands. Match the job to idle capacity.</p>
+
+<div class="intake-grid" aria-label="Print marketplace workflow">
+<div class="intake-card"><span class="charge">Author</span>
+<strong>Small batch</strong><p>Upload print-ready interior, cover, trim size, binding, quantity, and deadline.</p></div>
+<div class="intake-card"><span class="charge">Printer</span>
+<strong>Idle capacity</strong><p>Offer spare time, paper stock, binding options, location, and turnaround.</p></div>
+<div class="intake-card"><span class="charge">Press</span>
+<strong>Match and QA</strong><p>Coordinate quote, proof, payment, delivery, and quality expectations.</p></div>
+<div class="intake-card"><span class="charge">Outcome</span>
+<strong>Sub-market price</strong><p>The printer earns from dead time; the author gets copies without warehouse economics.</p></div>
+</div>
+
+<div class="entry"><span class="charge">What to collect first</span>
+<p>For authors: PDF interior, cover file, page count, trim size, paper, binding, colour/black-and-white,
+quantity, city, deadline, and delivery needs. For printers: equipment, minimum viable run, idle windows,
+paper options, finishing, pickup/delivery radius, and proofing process.</p></div>
+
+<div class="entry"><span class="charge">Marketplace discipline</span>
+<p>Start with quotes by hand. Once enough jobs repeat, automate only the stable pieces: quote request,
+printer availability, proof approval, order status, invoice, and payout. Keep quality control human
+until the supplier network is proven.</p></div>
+
+<form class="intake-form" data-form-name="printing" action="{form_target}" method="post"{form_enctype}>
+<label>Name / company<input name="name" autocomplete="organization" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country / city<input name="location" required></label>
+<label>I am
+<select name="role" required>
+<option value="">Choose one</option>
+<option>Author needing print copies</option>
+<option>Printer with idle capacity</option>
+<option>Publisher / bookshop / school</option>
+</select></label>
+<label>Quantity / capacity<input name="quantity_or_capacity" placeholder="50 copies, 200 copies, spare 2-hour slot, monthly capacity..."></label>
+<label>Specs / equipment<input name="specs" placeholder="A5 paperback, hardcover, colour cover, B/W interior, digital press, perfect binder..."></label>
+<label>Details<textarea name="notes" rows="5" placeholder="Page count, trim size, paper, binding, delivery city, deadline, budget, proofing, idle windows..."></textarea></label>
+<button class="btn" type="submit">Send print note &rarr;</button>
+</form>
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="marketplace.html">&larr; Back to marketplace</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_manifest() -> str:
+    """Web app manifest for installing the public reader/catalogue PWA."""
+    data = {
+        "name": "Arjuna Badger Press",
+        "short_name": "AB Press",
+        "description": "A free reader and direct publishing app for Arjuna Badger Press.",
+        "id": "/reader.html",
+        "start_url": "/reader.html",
+        "scope": "/",
+        "display": "standalone",
+        "background_color": "#161513",
+        "theme_color": "#161513",
+        "orientation": "any",
+        "categories": ["books", "education", "entertainment"],
+        "icons": [
+            {
+                "src": "/assets/brand/favicon-180.png",
+                "sizes": "180x180",
+                "type": "image/png",
+                "purpose": "any",
+            },
+            {
+                "src": "/assets/brand/favicon-512.png",
+                "sizes": "512x512",
+                "type": "image/png",
+                "purpose": "any maskable",
+            },
+        ],
+    }
+    return json.dumps(data, indent=2) + "\n"
+
+
+def render_service_worker() -> str:
+    """Small static-site service worker: install shell offline, runtime-cache same-origin pages/assets."""
+    core = [
+        "/",
+        "/index.html",
+        "/app.html",
+        "/reader.html",
+        "/start.html",
+        "/assets/site.css",
+        "/assets/brand/mark-only.png",
+        "/assets/brand/favicon-180.png",
+        "/assets/brand/favicon-512.png",
+        "/manifest.webmanifest",
+    ]
+    core_js = json.dumps(core, indent=2)
+    return f"""const CACHE_NAME = "abp-pwa-v1";
+const CORE_ASSETS = {core_js};
+
+self.addEventListener("install", event => {{
+  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_ASSETS)));
+  self.skipWaiting();
+}});
+
+self.addEventListener("activate", event => {{
+  event.waitUntil(
+    caches.keys().then(keys => Promise.all(
+      keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
+    ))
+  );
+  self.clients.claim();
+}});
+
+self.addEventListener("fetch", event => {{
+  const request = event.request;
+  if (request.method !== "GET") return;
+
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
+  if (url.pathname.startsWith("/downloads/")) return;
+
+  event.respondWith(
+    caches.match(request).then(cached => {{
+      if (cached) return cached;
+      return fetch(request).then(response => {{
+        if (!response || response.status !== 200 || response.type !== "basic") return response;
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+        return response;
+      }}).catch(() => caches.match("/app.html").then(fallback => fallback || caches.match("/index.html")));
+    }})
+  );
+}});
+"""
+
+
 def reader_rewrite_links(md: str) -> str:
     """Neutralize links in book back-matter that point at repo files NOT shipped to the deploy
     tree (e.g. `[`design/IMAGE_COMPENDIUM.md`](../../design/IMAGE_COMPENDIUM.md)`). On GitHub those
@@ -2960,6 +4263,52 @@ def render_reader(e: dict) -> str:
     ])
 
 
+def write_feed(out: Path, entries: list[dict]) -> int:
+    """Emit an RSS 2.0 feed.xml of the available catalogue at the site root.
+
+    A feed gives the library a discovery surface for Feedly/Inoreader and is a mild freshness
+    signal for crawlers. There is no per-book publish date in the source, so items are listed in
+    the curated shelf order (newest-first reads naturally) and share the build time as pubDate —
+    honest for a catalogue feed, where the news is 'this book is on the shelf', not a timestamp."""
+    items_src = [e for e in entries if e["available"]]
+    now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    items = []
+    for e in items_src:
+        link = f'{DOMAIN}/book/{e["id"]}.html'
+        desc = truncate((e.get("blurb") or "").strip() or e["title"], 500)
+        title = e["title"]
+        if e["series"]:
+            title = f'{title} — {e["series"]}'
+        items.append(
+            "    <item>\n"
+            f"      <title>{html.escape(title)}</title>\n"
+            f"      <link>{html.escape(link)}</link>\n"
+            f'      <guid isPermaLink="true">{html.escape(link)}</guid>\n'
+            f"      <description>{html.escape(desc)}</description>\n"
+            f"      <pubDate>{now}</pubDate>\n"
+            "    </item>"
+        )
+
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        "    <title>Arjuna Badger Press</title>\n"
+        f"    <link>{DOMAIN}/</link>\n"
+        f'    <atom:link href="{DOMAIN}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+        "    <description>Free novels from Arjuna Badger Press — new books and translated "
+        "editions as they land.</description>\n"
+        "    <language>en</language>\n"
+        f"    <lastBuildDate>{now}</lastBuildDate>\n"
+        f"{chr(10).join(items)}\n"
+        "  </channel>\n"
+        "</rss>\n"
+    )
+    (out / "feed.xml").write_text(feed, encoding="utf-8")
+    return len(items)
+
+
 def write_sitemap_and_robots(out: Path) -> int:
     """Walk every emitted .html and write a complete sitemap.xml + a crawl-friendly robots.txt.
     Walking real files (not a hand-list) keeps the sitemap accurate as pages come and go."""
@@ -3020,12 +4369,14 @@ def main() -> None:
 
     # brand assets
     for name in ("logo-master.png", "mark-only.png", "social-og-1200x630.png",
-                 "favicon-32.png", "favicon-180.png", "logo-on-light.png",
+                 "favicon-32.png", "favicon-180.png", "favicon-512.png", "logo-on-light.png",
                  "house-of-greyling-crest.png"):
         src = BRAND / name
         if src.is_file():
             shutil.copy2(src, OUT / "assets" / "brand" / name)
     (OUT / "assets" / "site.css").write_text(CSS, encoding="utf-8")
+    (OUT / "manifest.webmanifest").write_text(render_manifest(), encoding="utf-8")
+    (OUT / "sw.js").write_text(render_service_worker(), encoding="utf-8")
 
     entries = scan()
     accents = dict(SERIES)
@@ -3078,7 +4429,16 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+    (OUT / "cv.html").write_text(render_cv(), encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
+    (OUT / "narrators.html").write_text(render_narrators(), encoding="utf-8")
+    (OUT / "distribution.html").write_text(render_distribution(), encoding="utf-8")
+    (OUT / "app.html").write_text(render_app_page(), encoding="utf-8")
+    (OUT / "reader.html").write_text(render_reader_app(), encoding="utf-8")
+    (OUT / "authoring.html").write_text(render_authoring_page(), encoding="utf-8")
+    (OUT / "audition.html").write_text(render_audition_page(), encoding="utf-8")
+    (OUT / "marketplace.html").write_text(render_marketplace_page(), encoding="utf-8")
+    (OUT / "printing.html").write_text(render_print_page(), encoding="utf-8")
     if FOREWORD_CONTEST_LIVE:                        # foreword competition page
         (OUT / "forewords.html").write_text(render_forewords(), encoding="utf-8")
     if patronage_enabled():                         # Support page only when a giving rail is set
@@ -3125,12 +4485,13 @@ def main() -> None:
 
     # ── SEO: sitemap.xml (every emitted page) + robots.txt ──────────────────────────────────────
     sm_n = write_sitemap_and_robots(OUT)
+    feed_n = write_feed(OUT, entries)
 
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
           f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages, "
-          f"{sm_n} urls in sitemap -> {OUT}")
+          f"{sm_n} urls in sitemap, {feed_n} items in feed -> {OUT}")
 
     # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
     # The trap: a book's real cover sits ON DISK but is UNTRACKED in git. Every LOCAL build looks
