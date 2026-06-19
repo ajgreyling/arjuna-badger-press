@@ -35,40 +35,36 @@ cd site/public && python3 -m http.server 8765
 # open http://localhost:8765/
 ```
 
-## Deploy (Caddy on the webdock container)
+## Deploy (GitHub Pages first)
 
-1. Build, then copy `site/public/` to the server:
+### Cheapest production shape
 
-   ```bash
-   python3 site/build.py
-   rsync -az --delete site/public/ user@server:/var/www/arjunabadger.press/public/
-   ```
+Keep the public static site on **GitHub Pages** for as long as possible. It is the cheapest host for
+the catalogue, free downloads, generated book pages, and the installable PWA shell. Use Webdock only
+for the parts GitHub Pages cannot do:
 
-2. `Caddyfile` (auto-HTTPS via Let's Encrypt):
+- `arjunabadger.press` — GitHub Pages static site and PWA shell.
+- `api.arjunabadger.press` — Webdock containers for authoring chat, uploads, payments, royalties,
+  audiobook delivery, and print-order workflows.
+- `files.arjunabadger.press` or object storage later — large/private audio, print PDFs, and paid
+  downloads if GitHub bandwidth or repo size becomes the constraint.
 
-   ```caddy
-   arjunabadger.press, www.arjunabadger.press {
-       root * /var/www/arjunabadger.press/public
-       encode zstd gzip
-       try_files {path} {path}/ {path}.html
-       file_server
-       header /assets/*    Cache-Control "public, max-age=31536000, immutable"
-       header /downloads/* Cache-Control "public, max-age=86400"
-   }
-   ```
+This keeps the expensive moving parts off the static host, but avoids paying a VPS to serve files
+GitHub can serve for free.
 
-3. Point the DNS **A/AAAA** records for `arjunabadger.press` (and `www`) at the container's IP, then:
+### Webdock is not the static origin
 
-   ```bash
-   caddy reload --config /etc/caddy/Caddyfile
-   ```
-
-Caddy provisions and renews the TLS certificate automatically on first request.
+Do not use the Webdock VPS/container as the public origin for this static catalogue while GitHub
+Pages can carry the traffic and CDN edge. Webdock is reserved for backend surfaces GitHub Pages
+cannot provide, such as API workers, uploads, account sync, payments, royalty ledgers, and print or
+audio workflows.
 
 ## Notes
 
 - **Privacy:** the source repo is private. The *site* is public, but it serves only finished,
   rights-clean books — no canon, no prompts, no engine, no reference material.
+- **Analytics:** Plausible is wired into the generated pages. Event names, launch KPIs, and optional
+  `plausible-cli` commands live in `docs/PLAUSIBLE_ANALYTICS.md`.
 - **Public contact:** `info@arjunabadger.press` — site mailto buttons, footer, and README. Wire the
   mailbox in Namecheap (Private Email or forwarding) before launch.
 - **WHOIS:** set all four Domain Contact emails to `info@arjunabadger.press`; enable **Domain
