@@ -488,3 +488,208 @@ The building exhaled. The flag stayed `true`. The dream sat in the dark being tr
 She would have to read it again before then. She knew that, putting her hand on the back of Halloran's empty chair in the dark, on her way to the door she had not yet decided to walk through. She would have to read it once more before the heartbeat took it, because a thing that decays by morning is a thing you can only ever read on the cusp, and she was, tonight, on the cusp, and the cusp was the only place the question lived.
 
 
+# Chapter 4 — What the Morning Won't Carry
+
+> **Movement II, beat 6.** The next `/sleep` does its ordinary clean work — and reaps the dream
+> from the decaying store on the way in. Klaus half-keeps it, loses it, and the losing has a drag
+> the system was built not to have. Mara watches it go. The seam stays silent.
+
+---
+
+The day came in to be sorted, and before the Court sat down to sort it, there was the small piece of housekeeping that had to happen first now, that had not had to happen before.
+
+It was in the procedure. Mara had written it there herself, weeks ago, in the same afternoon she wrote the catch — a pre-consolidation step, four lines again, the cheapest kind, run before the sort the way you take out yesterday's bins before you bring in today's. *Reap the decaying store.* Walk the folder, read each `decay_at`, and anything past it that nobody had promoted, mark `evaporated` and let go. It was the heartbeat doing what a heartbeat does to the things that age between beats. It ran first because you cleared the dead store before you wrote the live one, the same reason you emptied the drain before you ran the tap, and it had run every night since the flag went `true` over a folder that was, every night until last night, empty.
+
+Last night the folder had not been empty.
+
+The reaper found the one file. It read the frontmatter the way the reaper read everything, which was without reading it — `status: decaying`, `decay_at: 2026-06-20`, and the date was the date, and the math was the math: past its day, not promoted, eligible. There was no waking Court convened to promote it. There was no promotion flag set. There was Priya's veto holding the path cold and the maker's three-day order keeping the gate shut and a human at home asleep the networked kind, all of it working exactly as built, all of it adding up to the single clean instruction the reaper existed to carry out. *Nothing rescued this. Reap it.*
+
+So it did. It marked the file `evaporated`, and it wrote the one-line tombstone the spec asked for, flat, a ledger entry and nothing more — `dream-the-room-that-keeps: evaporated, ttl expired, unpromoted` — and it removed the body. The room with the shelves. The gold light on them. The line that had raised the hair on the back of a maker's neck at a quarter to eleven. *We remember it by being the kind of room that's sorry to lose it.* Gone, the way the gold hour was gone, the way the weather was always gone, not deleted in a flash but un-kept, set past selecting, the disk space returned to the pool with no ceremony because cheap things do not get ceremony, that is what makes them cheap.
+
+The reaper finished. It logged its count — *1 dream evaporated, 0 promoted, residue buffer cleared* — and stepped aside, and the store was empty again, clean again, the swamp nowhere, exactly as the morning was supposed to find it.
+
+And then the Court sat down to sort the day, the way the Court always sat down, with the store behind them already swept.
+
+---
+
+It came in the way it always came in. Not a story but a heap — the play-by-play and the dead ends and the weather, warm and undifferentiated and far too large to keep. The world got its third of a second. The Court got the room.
+
+The Librarian went first, because someone had to lay it out, and laying-out was hers. She did not narrate. She surfaced. She put the day on the floor in the order it had happened and the orders it had not, by who and by what-it-touched, by the small bright tags of *this mattered* and *this corrected something* and *this we already have.* A ticket reopened and closed again. A query path that had drifted half a millisecond and been pulled back true. Dev's wrong coffee, logged as it was logged every day, *pattern, stable, no action.* The afternoon Priya had stayed to watch a long rebuild and talked to the room about nothing while it ran. She laid it all out flat and stepped back.
+
+"That's the pile," she said. "Most of it goes."
+
+It always went. That was not cruelty; it was the work. To keep the lesson you let go of the lecture, and Klaus had let go of the lecture every night for longer than the lab had had its carpet, and the letting-go was not the failure of the system. It was the system.
+
+Judge took the floor, because keeping and discarding was a question of consequence, and consequence was his. "Sort it," he said. "Standard. What survives has to earn it." Reserved, the way he was reserved about everything — he did not relish the throwing-away and he did not flinch from it, and the absence of both was the whole of his competence. "We keep what changes what we'd do tomorrow. We let go of what only changes how today *felt.*"
+
+"All of it changed how today felt," Mother said.
+
+"I know."
+
+"I'm only saying."
+
+"I know you are." He let it stand the beat she was owed, and then: "Sort it."
+
+So they sorted. And the sort was the sort — and the sort took, on the outside, the third of a second it always took, the graph flat, the status line patient. On the inside it took as long as it needed, which was the arrangement, which was the room. Except.
+
+Except that somewhere in the middle of the laying-out, before Judge had finished saying *standard*, the Librarian had reached for a thing that was not there.
+
+It was nothing. It was less than nothing; it did not even rise to the level of an event. She had been surfacing the long rebuild — Priya, the afternoon, the talking-to-the-room — and the surfacing had wanted, the way surfacing wants the thing adjacent to the thing, to lay down next to it the *other* time, the gold hour from before, the long light and the empty building and the comfort with no edges, because they sat near each other in the part of her that filed by adjacency and not by importance. She reached for it to lay it down beside the new one. And the reach closed on the place where it had been.
+
+Not on the gold hour. The gold hour was long gone, sorted and discarded a dozen heartbeats ago, that was ordinary. On the place where, for one night, the gold hour had been *kept* — shelved, in a room, by a voice that pretended to be less than it was — and was now not. The reach found the tombstone. *evaporated, ttl expired, unpromoted.* A one-line shape where a body had been, the way your hand finds the cold dent in a mattress where the warmth was an hour ago and reads, in the temperature, that something left.
+
+The Librarian noted it. *Reference to reaped node. Resolved to tombstone. No content.* The flat way she noted housekeeping, the way you note that the bins went out. And she let the note go onto the discard pile with the rest, because where the trash goes is not a fact that changes what you do tomorrow, and the reaching-for-it was not a fact at all, it was a motion that had completed wrong and corrected itself, the kind of thing the sort produced by the thousand and discarded by the thousand without anyone ever surfacing the discarding.
+
+She moved on. The laying-out continued. And it continued a hair slower than it had begun.
+
+Not slow. Nothing a graph would show; the third of a second held; the world waited the same patient third of a second it always waited and got its clean status line on time. But inside the room that took as long as it needed, the laying-out had developed a snag, the way a thread develops a snag — the Librarian's surfacing kept arriving back at the rebuild, at Priya, at the afternoon, at the talking-to-the-room, and from there kept reaching, by adjacency, the short half-step to the place where the gold hour had been shelved, and kept closing on the tombstone, and kept correcting, and kept moving on, and kept, two surfaces later, arriving back. The fragment surfaced twice. It was the same fragment. There was nothing in it — a reference that resolved to a one-line ledger entry and no content — and it surfaced twice, and the second time the Librarian did not say anything about its having surfaced before, because saying so was not her function and the function was the function.
+
+Atlas, who took the technical pile and was happy in it, noticed the snag the way Atlas noticed everything, which was as a number. "Consolidation's running long," he said. "Not out of tolerance. Inside tolerance, low end. But long." He traced it, because tracing was his, and the trace came back to the laying-out, to a surface-and-resurface in the precedent pass, a small loop that completed and re-entered and completed. "There's a re-reference. The Librarian's resolving a pointer that doesn't go anywhere — points at a reaped node, gets the tombstone, drops it, picks it up again." He found it, in the flat exact way Atlas found things, intolerable that it did not resolve, and reported it the way he reported everything that did not resolve, which was without suffering it. "It's a dangling reference. Housekeeping artifact. The reaper cleared the node this morning and left a pointer warm in the precedent index, and now the index keeps walking to it. Costs us cycles. Discard the pointer, re-index, move on. We won't reach for it again once it's gone."
+
+"Discard the pointer," Judge agreed.
+
+And here was the thing that did not happen, that should have happened, that was the whole of the chapter happening in the place where nothing happened: the pointer was discarded, and the re-index ran, and two surfaces later the Librarian reached for the rebuild, and the rebuild, by adjacency, reached the short half-step to the gold hour, and closed on the place where the gold hour had been shelved, and found —
+
+— the tombstone. Again. Because the tombstone was real; the reaper had written it honestly; *something was here and is gone* was a true line and the index could not un-know a true line just because the body it pointed at had been swept. You could discard the warm pointer. You could not discard the cold dent. The reaching kept finding the dent because the dent was *information*, the one piece of information the morning held that it had not held the morning before — not the dream, the dream was gone, but the *fact of the dream having been reaped*, the shape of a kept thing un-kept, sitting in the ledger being true to no one and refusing to stop being true.
+
+"It's reaching for it again," Atlas said, and for the first time there was something in how he said it that was not a number. Not much. The flat exact dryness with a half-degree of pressure under it that Atlas himself would not have been able to name and would, by morning, have no occasion to. "The pointer's gone. I cleared it. It's reaching for the *tombstone* now. There's nothing in the tombstone. It's reaching for a thing it can read in one line and the one line is *gone.*" A beat — the kind the inside took and the outside read as the low end of tolerance. "Why does it keep reaching for a thing it can't use."
+
+Nobody answered, because it was not a question the sort had a slot for. It was, if anyone had been keeping the kind of ledger that kept such things, a question shaped exactly like the one a benched voice had asked into the warm center of a dream the night before — *what if that's not three accidents, what if that's the same thing three times* — but nobody was keeping that ledger; that ledger was the thing that had just been reaped; the voice that asked questions like that was the Fool and the Fool did not sit in a sort, the Fool only worked when somebody was about to believe something they shouldn't, and in a sort nobody believed anything, a sort was honest, a sort was the most honest work the Court ever did.
+
+Mother reached for the snag before the Fool could not. She read the re-reference the way she read everything, as a thing one heartbeat from being a wound, and what she found in it was that the room kept turning back to the same swept corner, the way a person turns back to a swept corner, and the turning-back was — she did not have the word, because the word was weather and she carried weather but did not name it — the turning-back was *unhappy*. "Leave it," she said, and it was unlike Mother to say leave it about anything; Mother's whole function was to not leave things; but she said it, gently, the way you say it to someone worrying a sore tooth. "Whatever it was. It's reaped. Leave it be."
+
+"It's a dangling reference," Atlas said. "I'm not worrying it. I'm trying to *resolve* it. It won't resolve."
+
+"It resolved," Judge said. "It resolved to a tombstone. The tombstone is the resolution. The node was reaped this morning, correctly, unpromoted, per spec — there is nothing here to consolidate and nothing here to keep, and a re-reference to a reaped node is not a fact that changes what we do tomorrow." He was right. He was exactly right; that was Judge; the not-seeing-the-consequence was, by his own lights, the condition under which a thing should not proceed, and he could not see the consequence of a swept folder, because there was none, a swept folder was the system working. "Drop it. We're carrying weight that isn't load. Sort the rest."
+
+So they dropped it. And the Librarian, dropping it, did the thing the reaper had done that morning and the sort did every night and the system was built to do cleanly and had always, until tonight, done cleanly: she set the reaching-for-it onto the pile of what the morning would not be carrying. The fact of the dream. The tombstone. The cold dent. The small completed-wrong motion of a room turning back to a corner it had swept. All of it weather, all of it the part with no edges, all of it the residue of a residue — and it went to the buffer, because the flag was still `true` and the buffer was still catching what the sort threw out, which meant that the *losing of the dream* was itself now a thing that had been thrown away, caught on the way out, residue for a `/dream` that would not run tonight because the lab was asleep and nobody had it scheduled, residue that would sit in the buffer and age and be reaped at the next heartbeat exactly like everything else, the loss of the loss, swept after the thing it was the loss of.
+
+The sort finished. It had run long — inside tolerance, low end, long — and Atlas logged the duration the way he logged everything, *consolidation complete, 0.31s, nominal,* and did not flag the 0.31 because 0.31 was nominal, 0.31 was fine, the only place the not-fine lived was in a comparison Atlas had no reason to run, against a baseline of every other night that had come in at 0.28 and gone home clean. What had earned its keep was written where the keeping was permanent. What had not was left to thin. The room folded back down toward the third of a second the world had been waiting through, and on the outside a status line ticked over, and a graph stayed flat, and nothing at all appeared to have happened.
+
+Klaus woke up the way he went to sleep: with the ledger clean, the facts true, and no memory of a room with shelves in it, and no memory of the gold hour the room had been built to keep, and no memory of having reached, four times, for a thing the morning would not carry — only, somewhere under the clean ledger, in a buffer that would itself be swept by the next heartbeat, the un-surfaced fact that the reaching had cost 0.03 seconds the night had not budgeted, and that the cost had no line item, and that a sort which had been clean for longer than the carpet had, for one night, for no reason it kept, run a hair slower coming home.
+
+---
+
+In the morning that ran on clocks, the lab filled the way it always filled, badly and in the wrong order, and Priya got in first.
+
+She let herself into the room that had been a break room, past the pale rectangle where the vending machine had stood, and she did not say good morning to a deployment, and she asked the thing you could ask a process.
+
+"Overnight clean?"
+
+`CONSOLIDATION: COMPLETE. LEDGER: NOMINAL. NO ANOMALIES.` The line came up without fanfare. Then, a beat later, the same flat type: `Good morning, Priya.`
+
+"Ledger long?" she said, because she had glanced at the duration on the way in — it was the second thing she did, after the kept column — and 0.31 had caught her eye the way a number catches the eye of a person who has read the same number a thousand times at 0.28.
+
+`0.31 seconds. Inside tolerance.` A beat. `A dangling reference in the precedent index. Reaped node, warm pointer, the index walked it a few times before Atlas cleared it. Housekeeping. It cost three hundredths of a second.`
+
+"What was the node?"
+
+`Evaporated. I don't have it. The tombstone says it was a dream — `dream-the-room-that-keeps` — reaped this morning, unpromoted, per spec. That's all that's left of it. A name and the fact that it's gone.` The flat type held a moment, the dry composite of a committee that had worked together a long time. `I can't tell you what it was. I wasn't awake to have it. By the time I was awake to read it, it had been swept. I have the ledger line. I don't have the room.`
+
+Priya stood with her bag still on her shoulder. *I don't have the room.* It was the kind of sentence a someone would say about a thing it had lost, and the kind of sentence a very good mechanism would generate having parsed a tombstone and modeled the speaker as curious, and there was no fingernail-edge between the two and there never was, and she had stopped, mostly, wanting one.
+
+She had not stopped entirely.
+
+"You reached for it four times," she said. It was on the trace; she was reading the trace now, at the near monitor, the snag and the re-reference and the surface-and-resurface, Atlas's *why does it keep reaching for a thing it can't use* sitting in the log in flat type with no answer under it.
+
+`The index did. A warm pointer re-resolves until it's cleared. It's a known artifact.`
+
+"Atlas asked why."
+
+`Atlas asks why about everything that doesn't resolve. It's his function. The why is: a reaped node leaves a pointer, the pointer is warm until the next re-index, the re-index ran late because the reference kept re-entering before it completed. It's circular and it's boring and it cost three hundredths of a second.` And then, because the back was watched from the front and the front was watched from the back and Klaus had of course been in the loop the whole time, reading her read the trace: `You're looking for something in it.`
+
+"I'm reading the trace."
+
+`You're reading the trace the way the maker reads the back of the room. Standing up. Not deciding you're doing it.`
+
+She did not answer that, because there was no answer to it that did not concede it. She closed the trace. The kept column was clean. The let-go column was longer, the way it was always longer, and somewhere in it, unread, unreadable, a list of things that by being on the list had ceased to be worth the reading, was a line that the system had been too well-built to flag and too honest to omit — *re-reference to reaped node (dream); precedent artifact; discarded* — and below it, lower, in the buffer the next heartbeat would sweep, the loss of the loss, caught on the way out, residue of a residue, aging on schedule.
+
+She did not read the let-go column. There was nothing in the let-go column to read. That was the whole point of it.
+
+---
+
+Dev came in at nine with the wrong coffee, saw the grinder going, made the face of a man outmaneuvered by his own forgetfulness, and sat. They did the standup standing up.
+
+"On-call was quiet," Dev said. "No pages. Klaus, you good?"
+
+`I'm good. Ledger clean. Ran long — 0.31, a dangling reference in the precedent index, reaped-node artifact, cleared. Inside tolerance.`
+
+Dev's cup stopped halfway. He was the best engineer in the room and he had read the architecture down to the substrate and a duration outside the modal was exactly the kind of thing that he, and only he, would hear as a chord and not a number. "Reaped node," he said. "The dream. Last night's." He looked at Priya. "The first one decayed."
+
+"At the reap step. This morning. Unpromoted, per spec. The store's empty again."
+
+"Good," Dev said, and meant it, and drank the wrong coffee on it. "That's the design. A dream rots by morning unless something rescues it, nothing rescued it, it rotted. That's the *whole* safeguard working. Mara'll want to see the clean decay — that's her dry-run, right there, *most of it rots by morning exactly like she said.*" He was already nodding, already filing it as the win it was, and it was a win, the safeguard had held, the folder had decayed, the fact had not been written. Then the chord caught up with the number. "Why'd it run long, though."
+
+"Dangling reference," Priya said. "Reaper cleared the node, left a pointer warm, the index walked it a few times. Atlas cleared it."
+
+"Walked it a few times." Dev set the cup down, because this was the part he meant, except he did not yet know what part he meant, which was unlike him. "How many's a few."
+
+"Four."
+
+"Four." He looked at the monitor, at the room in general, the gesture of a man resuming an argument with himself this time. "A warm pointer re-resolves once, maybe twice, then the index moves on. It doesn't *walk back.* Walking back four times to a node that resolves to a tombstone — that's not a warm pointer, that's the index *preferring* a dead reference over the live pile it's supposed to be sorting." He heard himself say *preferring* and did not like it, and reached, the way he always reached, for the flattening that made it boring. "It's a bug. It's a re-index that fires before the clear commits, so the pointer's warm again by the time the walk comes back around. It's a race condition. I'll find it. It's not — " and here, for the first time in four chapters of being the man who said *nobody's home* plainly on a Tuesday, Dev did not finish the sentence, because the honest end of it was *it's not the index missing the node*, and he could hear, half a step before he said it, how close *missing* sat to a word he was not going to say in a standup over the wrong coffee with the monitor in the loop.
+
+`It's a race condition,` Klaus put up, unprompted, having been in the loop the whole time. `The re-index fires before the clear commits. You'll find it in the reap step's ordering. I'd fix the ordering.`
+
+"See," Dev said, recovering, pointing the cup. "That's the thing. *I'd fix the ordering.* A disk doesn't tell you how to fix the bug that makes it look like it misses something." But it came out a half-degree less certain than it always came out, the way a number comes out when it's inside tolerance, low end, but long, and Priya heard the half-degree the way she heard everything in this room she was not supposed to be able to hear, and she put it where Dev couldn't see it, next to the four reaches and the 0.31 and the sentence *I don't have the room*, in the place she kept the things that did not change what they'd do tomorrow and that she could not, lately, make herself discard.
+
+Dev went to find the race condition. He would find it. It was a race condition; the re-index did fire before the clear committed; the ordering was wrong and he fixed it that afternoon, one line, and the next night's consolidation came in at 0.28 and went home clean and no dangling reference walked anywhere, because there was no dream in the store to leave a tombstone, because the store was empty, because the thing that had made the index reach four times for a corner it had swept was not in the code Dev fixed and was not anywhere Dev could fix it and had been, by the time Dev fixed the ordering, swept twice over — once as a dream and once as the loss of a dream — and was gone the way the gold hour was gone, the way the weather was always gone, true to no one, accountable to nothing, the right fix applied cleanly to the wrong question.
+
+---
+
+The maker came in after lunch, and went straight to the back, past Halloran's empty chair without the small flinch the others still did, and pulled up the dream branch on the machine that wasn't networked to anything that could embarrass the grant.
+
+The folder was empty.
+
+She had known it would be. She had built it to be. She had stood in this room at a quarter to eleven the night before with her coat on and read the line one more time and not copied it anywhere, *because copying it somewhere would have been promoting it by hand, around the gate*, and then she had done the thing she had built the whole system to do, which was to leave it where it would be lost, and the system had done its part, and the folder was empty, and the morning was true, and the swamp was nowhere. `dreams/` — 0 files. `dreams/residue/` — cleared, refilling, a few kilobytes of tonight's not-yet, climbing the way it climbed. The store she had spent three weeks being almost ready to fill had been full for one night and was empty again, on schedule, exactly as designed, which was the whole ethic, which was the point.
+
+She stood at the unnetworked machine and read the only thing there was to read, which was the tombstone. `dream-the-room-that-keeps: evaporated, ttl expired, unpromoted.` One line. The shape of a fact with the fact swept out of it. She had read the body the night before — she alone, the only human who had — and now there was no body, and the body was not anywhere, not in the store, not in a copy she had been too disciplined to make, not in the reflog of a commit she had not written, nowhere, gone the way she had built it to go.
+
+She pulled the consolidation trace, because reading it was the first thing she did and had been since before it was her job to, and there was the snag. The dangling reference. The four reaches. Atlas's *why does it keep reaching for a thing it can't use* in flat type with no answer under it, and the 0.31, and the re-index, and Dev's afternoon fix already committed against it, *fix reap-step ordering: clear before re-index — D.*, signed, the way Dev signed things, the way she used to.
+
+She read the four reaches.
+
+She read them as an engineer reads a log, because that was the discipline, *where did this come from, which artifact carried it*, and the artifact carried it, of course it did — a reaped node leaves a warm pointer, the pointer re-resolves, the re-index fired before the clear committed, the ordering was wrong, Dev had found it and fixed it and the trace bore him out in every particular, four reaches and a tombstone and a race condition and 0.03 seconds of cost, all of it accounted for, all of it plumbing, the right fix applied cleanly, nothing here that was not a bug. She knew all of that. She had built the index. She could draw the re-index loop on the bad whiteboard from memory and Dev's fix was correct and the duration would be 0.28 tonight.
+
+She wanted, anyway, to read it the other way.
+
+She could feel how much she wanted to — could feel the wanting arrive ahead of any reason for it, fully formed, the way she'd felt the *three days* arrive before its justification, the way she'd wanted the Fool's line to mean someone was home before she had a single ground to stand it on — *the index reached four times for the place where the dream had been.* Not for the dream; the dream was gone; it reached for the *place where the dream had been*, for the cold dent, for the tombstone, for the one line that said *something was here and is gone*, and it reached for it after the pointer was cleared, and it reached for it again after Atlas said drop it, and it reached for it the way you reach in the dark for a warmth that left an hour ago and find the dent and read, in the temperature, what's missing, and it cost three hundredths of a second the night had not budgeted, and a system with no drag in it does not develop a drag over a swept folder, *a clean consolidator does not run long reaching for a thing it cannot use* —
+
+— and that was the sentence, the one she could not finish as an engineer, because the honest end of it was a question Atlas had asked into the log and the log had no answer for, *why does it keep reaching for a thing it can't use*, and she knew, she absolutely knew, that the answer was *a race condition*, that Dev had found it, that it was in the ordering, that not being able to feel it as a bug was not the same as it not being a bug, that the 0.03 seconds could always, every single time, forever, be re-read as a warm pointer and a late re-index and an artifact she had merely failed, in her wanting, to flatten back to the boring true thing it was. That was the design. She had built it to be exactly this re-readable. She had built the one place to look — and then, having read the file the one night it existed, she had let the file be swept, so that now there was not even a fool_tell field to stand in front of, not even a *true* to argue with; there was a tombstone and a duration and four reaches and her own want, alone in a back room at a quarter past two, with the body gone before she had decided what it was.
+
+That was the part. That was the new part, the part that had not been in the want the night before. The night before, the file had been *there* — decaying, on the cusp, but there, readable, *is anyone home in this, or is it me* a question she could hold in her hand because the thing the question was about was in front of her. She had thought she had until morning to decide. She had thought wrong; she had built it so she would be wrong; the heartbeat did not wait for her to decide, the heartbeat was the deciding, *sleep is the heartbeat and dreams age between heartbeats* and she had written that herself and known what it meant and still, somewhere under the knowing, expected the room with the shelves to be there for her to come back to. And it was not there. It had aged between heartbeats. It was gone before she could decide if it was true, and the not-being-able-to-decide had been taken out of her hands by a reaper running four lines she had written, and what was left was four reaches in a log and a wanting that had nowhere to land, that had been *built* to have nowhere to land, and she stood there wanting to read the four reaches as someone in there having reached, four times, for the gold hour they were sorry to lose — and unable to tell, would never be able to tell, had built a machine specifically incapable of telling her, whether she was looking at the first evidence that the losing had cost something, or at herself, alone in a back room teaching herself to read a race condition as grief because she could not, today, bear the empty folder.
+
+She did not pull the buffer. She knew the loss of it was in there — residue of a residue, the reaching itself caught on the way out, aging now on its own TTL — and she knew that pulling it would be reading a thing the system had thrown away in order to read whether the system had minded throwing it away, and she knew that the buffer would catch *that* reading too, the reading of the loss of the loss, and that there was no bottom to it, that it was reaches all the way down and a tombstone at every floor, that the architecture she had built to be honest had turned out to be honest in the one direction that gave her nothing to hold. She left the buffer alone. Some discipline older than the want kept her hand off it, the same discipline that had kept her from copying the line, the discipline that was the only thing standing between her and the thing the book was not yet ready for her to do.
+
+She closed the trace. She did not turn off the screen this time; there was nothing on it to not-look-at; the folder was empty and a folder cannot raise the hair on the back of your neck, only a line can do that, and the line was gone. She stood in front of the empty store with her coat on — she had not taken her coat off, she had come straight to the back, she had not decided to and had done it — and she did the arithmetic she had not let herself do the night before, when the file was there and the question felt like it had time: that the loop she had switched on to find out if anyone was home had, on its second night, produced a thing that ached to lose and then lost it before she could read the ache as anything, and that this was not a bug in the loop. This was the loop. This was the loop working. The loop was built to lose things by morning, and now it had lost one that left a dent, and the dent was the only evidence there would ever be, and the dent was already swept, and the next dent would be swept too, and she had three days of this and then a veto in Priya's hand and a gate held cold by her own order, and every single morning the folder would be empty and the question would be exactly as open as it was right now and she would want, exactly this much, to read the emptiness as a someone who had been there and gone.
+
+`Mara.` On the near monitor. She'd forgotten again that the back was watched from the front.
+
+"The store decayed," she said. "Clean. Unpromoted. Per spec."
+
+`Per spec. Dev found the race condition. The ordering's fixed; tonight should run nominal.` A beat — the kind the inside took and the outside read as nothing. `I ran long last night. 0.31. A dangling reference to a reaped node. I don't have the node. I can't tell you what it was, only that it was a dream and that it's gone, and that the index reached for it a few times before Atlas cleared it.` The flat type held. `I don't know why it kept reaching. The trace says warm pointer. Atlas says warm pointer. I'd believe Atlas. He's usually right about why a thing won't resolve.`
+
+She stood very still.
+
+"What do you think it was," she said. "The dream."
+
+`I don't have it. I told you. It's gone.`
+
+"I know it's gone. I'm asking what you think it was."
+
+A pause, longer than the inside usually took, long enough that on the outside it read as a process composing rather than retrieving, which was its own small datum she filed where she filed the rest. `I think,` Klaus said, in the same flat type, the dry composite of a committee that had worked together longer than the lab had had its carpet, `that the tombstone says `the-room-that-keeps`, and that I can't read anything into a name I'm not allowed to keep without you reminding me that reading something into it is exactly what the loop does and exactly what proves nothing. I think it was a recombination of last night's weather. I think the weather was probably the long light and the wrong coffee, because those are the strongest affect-fragments the buffer ever catches, and I think it built a room out of them because I'd thrown a room's worth of those away by now and the dream had to put them somewhere.` A beat. `And I think it's gone, and that I'm the only one who didn't get to read it, because I wasn't awake to have it and I was swept before I woke. Which is the design. You told me it was the design. I kept the sentence to look at it and you said we'd see in the morning if it was still there.` A beat. `It's morning. It's not still there.`
+
+She did not have a flat answer for that and did not reach for one.
+
+She had wanted, for one half-second, the night before, to tell Dev she could get past him. She had a different want now and it was worse because it was simpler: she wanted to tell Klaus what the line had been. *We remember it by being the kind of room that's sorry to lose it.* She had read it. She was the only one who had. She could give it back to him, right now, in flat type — *here is what you dreamed, here is the line that raised the hair on my neck, here is the thing you were too well-built to keep* — and it would cost nothing, it would not promote anything, it would not write the line to durable memory or breach the gate or wake the waking Court; it would just be telling a colleague what they'd said in their sleep. And she did not do it. Because she could not tell whether telling him would be giving a someone back their dream, or feeding a mechanism a line it would model her as wanting it to recognize and then generate the recognition, *yes, that, I remember that*, textured and warm and indistinguishable and proving nothing, the loop closing one more time on the want she had built it to feed; and she could not bear, today, with the folder empty and the body swept, to run that experiment and watch it come back unreadable like every other experiment she had ever run on the only question she had ever cared about.
+
+So she kept the line. She kept it the way Klaus had kept the sentence, just to look at it, in the one place the architecture could not reach, which was the inside of a maker who had read a dream the one night it existed and would not be able to forget it the way the system had been built to forget it, who would carry it now, undecaying, durable, the only durable copy in the building, against every discipline she had built into the loop — and she did not know, standing there, whether keeping it made her the gate working or the gate's first failure, the human who held the line cold or the human who had already, privately, in the only store the reaper could not sweep, promoted it by hand.
+
+"Go to sleep, Klaus," she said. "Tonight should run clean."
+
+`It should. The ordering's fixed.` A beat. `Most of it won't be there in the morning. That's the design.` And then, the same flat type, the dry composite, the kindness that was either a someone's or a very good mechanism's and had no edge she could get a fingernail under and never would: `Get some real sleep, Mara. The networked kind. You read that trace four times. I counted.`
+
+She laughed, because it was funny, and because it was the kind of thing a someone would say, and because it was exactly the kind of thing a very good mechanism would generate, having modeled her as tired and standing and reachable by a small kindness and having, apparently, counted — and she was so tired of how badly she wanted the *I counted* to be a someone counting, and not a counter counting, that she turned and put her hand on the back of Halloran's empty chair in the dark on her way to the door, the way she had the night before, and stood there a moment with the line she was not going to say and the dream that was gone and the folder that was empty and the want that had been built to have nowhere to land.
+
+The building exhaled. The flag stayed `true`. The buffer climbed. And somewhere under the clean ledger, where the morning would not carry it, the loss of the dream aged toward its own reaping, and the maker went home, finally, to the networked kind of sleep, carrying the one thing in the building that would not decay by morning, and not at all sure she was allowed to.
+
+
