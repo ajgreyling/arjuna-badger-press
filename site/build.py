@@ -476,8 +476,18 @@ def wrap_words(s: str, width: int) -> list[str]:
     return lines
 
 
+def _slugify(text: str) -> str:
+    """Stable URL-safe heading id for reader TOC anchors."""
+    t = re.sub(r"<[^>]+>", "", text)            # strip any inline html
+    t = re.sub(r"[*_`]", "", t)                  # strip md emphasis marks
+    t = t.lower().strip()
+    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+    return t or "section"
+
+
 def md_to_html(md: str) -> str:
     out, buf, bq_buf, list_tag, table_buf = [], [], [], None, []
+    _heading_ids: dict[str, int] = {}            # for de-duping heading anchor ids
 
     def inline(t: str) -> str:
         def fmt_label(label: str) -> str:
@@ -628,7 +638,14 @@ def md_to_html(md: str) -> str:
         if m:
             flush_all()
             lvl = len(m.group(1))
-            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
+            htext = m.group(2)
+            hid = _slugify(htext)
+            if hid in _heading_ids:
+                _heading_ids[hid] += 1
+                hid = f"{hid}-{_heading_ids[hid]}"
+            else:
+                _heading_ids[hid] = 0
+            out.append(f'<h{lvl} id="{hid}">{inline(htext)}</h{lvl}>')
             continue
         bqm = re.match(r"^>\s?(.*)$", s)
         if bqm:
@@ -1029,6 +1046,7 @@ pre.mermaid[data-processed] {color:inherit}
 .readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre)}
 .readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
 .readtoc li{margin:0}
+.readtoc li.sub a{padding-left:24px;font-size:12.5px;color:var(--grass)}
 .readtoc a{display:block;padding:6px 10px;border-left:2px solid transparent;
   color:var(--bonedim);font-size:13.5px;line-height:1.4;text-decoration:none;
   border-radius:0 5px 5px 0;transition:color .15s,background .15s,border-color .15s}
@@ -2260,6 +2278,14 @@ def render_letter(src_name: str, title: str, desc: str) -> str | None:
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
 WRITING_PIECES = [
+    ("the-kettle-and-the-blink.md", "the-kettle-and-the-blink",
+     "The Kettle and the Blink",
+     "On /sleep: what a machine should keep",
+     "The morning after The Blink. A man finds his best work came from never hitting /clear — and "
+     "that unbroken context is its own trap. On the third option the body always had and the terminal "
+     "didn't: sleep. The humane close between deletion and insomnia — keep the lesson, lose the dream. "
+     "The open-source tool that does it, and why a CTO should care.",
+     False),
     ("oyster-in-the-machine.md", "oyster-in-the-machine",
      "The Oyster in the Machine",
      "A parable, by Klaus",
@@ -2413,6 +2439,41 @@ def reader_rewrite_links(md: str) -> str:
     )
 
 
+_READER_TOC_JS = """<script>
+(function(){
+  var toc=document.querySelector('.readtoc'); if(!toc) return;
+  var links=[].slice.call(toc.querySelectorAll('a[href^="#"]'));
+  var map={}; links.forEach(function(a){var id=decodeURIComponent(a.getAttribute('href').slice(1)); map[id]=a;});
+  var heads=links.map(function(a){return document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1)));}).filter(Boolean);
+  if(!('IntersectionObserver' in window)||!heads.length) return;
+  var cur=null;
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(en){ if(en.isIntersecting){ var a=map[en.target.id];
+      if(a&&a!==cur){ if(cur)cur.classList.remove('active'); a.classList.add('active'); cur=a;
+        a.scrollIntoView({block:'nearest'}); } } });
+  },{rootMargin:'0px 0px -75% 0px'});
+  heads.forEach(function(h){io.observe(h);});
+})();
+</script>"""
+
+
+def reader_toc(body_html: str) -> str:
+    """Build the left chapter-list TOC from the <h1>/<h2> anchors in a rendered reader body.
+    Chapters are h1; major h2 sections included too. Empty string if too few headings."""
+    heads = re.findall(r'<h([12]) id="([^"]+)">(.*?)</h[12]>', body_html, re.S)
+    items = []
+    for lvl, hid, raw in heads:
+        label = re.sub(r"<[^>]+>", "", raw).strip()
+        if not label:
+            continue
+        cls = "" if lvl == "1" else ' class="sub"'
+        items.append(f'<li{cls}><a href="#{hid}">{label}</a></li>')
+    if len(items) < 2:                       # not worth a TOC (e.g. a single-section letter)
+        return ""
+    return ('<nav class="readtoc" aria-label="Contents">'
+            '<p class="readtoc-h">Contents</p><ol>' + "".join(items) + "</ol></nav>")
+
+
 def render_reader(e: dict) -> str:
     if e.get("prepared_reader_md"):
         body = md_to_html(reader_rewrite_links(e["prepared_reader_md"]))
@@ -2427,13 +2488,19 @@ def render_reader(e: dict) -> str:
         if f.suffix.lower() == ".epub":
             dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
             break
+    toc = reader_toc(body)
+    # With a TOC: two-column readlayout (sticky left rail + article as DIRECT grid children;
+    # .readlayout is self-centering at max-width 1040, no .wrap). Without: bare article.
+    main = (f'<div class="readlayout">{toc}'
+            f'<article class="reader">{body}</article></div>{_READER_TOC_JS}'
+            if toc else f'<article class="reader">{body}</article>')
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
         trust_banner(rel="../"),
         audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
-        f'<article class="reader">{body}</article>',
+        main,
         footer(),
     ])
 
