@@ -275,6 +275,13 @@ BOOK_TAGLINE = {
     "modern-sherlock-5": "A Modern Retelling, True to the Original",
 }
 
+# Optional companion soundtrack — a link to a public playlist that grows over time. Keyed by book id.
+# The page links to the live playlist, so tracks added later need no rebuild.
+SOUNDTRACK = {
+    "the-jakobus-file": ("https://music.youtube.com/playlist?list=PLF4jiM2UaNuP2FhAomyc6LzlnBqGyi1Qe",
+                         "Jakobus — the soundtrack"),
+}
+
 CURATED = [
     # id, title, subtitle, series, root(relative), export_subdir, fallback_blurb
     ("resonance", "RESONANCE", "The African Gold Trilogy · Book I", "The African Gold Trilogy",
@@ -2178,6 +2185,11 @@ def render_book(e: dict) -> str:
     wiki = ""
     if (WIKI_DIR / f"{e['id']}.md").is_file():
         wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
+    soundtrack = ""
+    if e["id"] in SOUNDTRACK:
+        st_url, st_label = SOUNDTRACK[e["id"]]
+        soundtrack = (f'<div class="dls" style="margin-top:14px"><a class="dl" href="{html.escape(st_url)}" '
+                      f'target="_blank" rel="noopener">{html.escape(st_label)} →</a></div>')
     if e["available"]:
         soon = ""
     elif "_comingsoon" in e["root"].parts:
@@ -2197,7 +2209,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soon}
+<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}</div>
