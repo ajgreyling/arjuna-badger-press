@@ -76,21 +76,22 @@ def main():
     canvas = Image.composite(warm, canvas, vig)
 
     # ── The hero: Engineer of the Gods, large + centered-right ──
-    hero_h = int(sh * 0.88)
+    # Scale it up to fill most of the height, tight to the right edge.
+    hero_h = int(sh * 0.95)                  # nearly full height
     hero = _cover_shadowed(HERO, hero_h)
-    hero_x = int(sw * 0.52)                  # right of center
+    hero_x = int(sw * 0.45)                  # positioned so it extends to the right edge
     hero_y = (sh - hero.height) // 2
     canvas.paste(hero, (hero_x, hero_y), hero)
 
-    # ── The supporting 5 covers: smaller, fanned left of the hero ──
-    cover_h = int(sh * 0.72)
-    overlap = int(cover_h * 0.50)
+    # ── The supporting 5 covers: tighter overlap, densely packed on the left ──
+    cover_h = int(sh * 0.82)                 # larger (match more of the height)
+    overlap = int(cover_h * 0.65)            # aggressive overlap → more visible at once
     tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in COVERS]
     step = [t.width - overlap for t in tiles]
     total_w = sum(step[:-1]) + tiles[-1].width
-    # Position the fan so it ends just before the hero starts.
-    fan_right = hero_x - int(tiles[0].width * 0.08)
-    x = fan_right - total_w
+    # Position the fan tight to the left edge, flowing into the hero.
+    fan_right = hero_x - int(tiles[0].width * 0.04)
+    x = max(int(-tiles[0].width * 0.15), fan_right - total_w)  # allow some bleed left for drama
     y = (sh - tiles[0].height) // 2
     for i, t in enumerate(tiles):
         canvas.paste(t, (x, y), t)
