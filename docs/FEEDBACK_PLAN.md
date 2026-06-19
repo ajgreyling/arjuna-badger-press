@@ -82,8 +82,23 @@ The button on that page carries the title, so:
 This makes per-book response effectively free once the general funnel exists: it is the same funnel
 with the book carried in.
 
+## Shipped (2026-06-19)
+
+- `feedback_href(book_title, rating)`, `/feedback.html` (general vs gated bounty), per-book feedback
+  button on `book/<id>.html`, and a "Feedback" nav link — all in `site/build.py`. mailto:j@ fallback
+  active until `ABP_FEEDBACK_FORM_URL` is set.
+- **Per-book star ratings** (the "Future" item below, now built): a 1–5 star control on every
+  `book/<id>.html` and at the end of every `read/<id>.html`. No backend — a click fires a Plausible
+  custom event `Rating` with props `{book, score}` (aggregate lives in the Plausible dashboard you
+  already own), and opens the feedback form pre-scored for optional written context. Set
+  `ABP_FEEDBACK_RATING_PARAM` to the form's rating-field id to pre-fill it.
+- **Quiet patronage** — `/support.html` + a sitewide footer "Support" link + a one-line "if you want
+  to" note at the end of the reader. Pure-patronage tone (no ask). Rails via `ABP_PAYPAL_URL` /
+  `ABP_PAYSHAP_ID`; the whole surface hides when both are empty. Kept deliberately distinct from the
+  bounty's "money only flows to you" promise. (See also the donations note in this repo's TODO.)
+
 ## Future (not now)
 
-- Per-book *structured* feedback (ratings, "favourite chapter") — only worth it if volume justifies;
-  the Google Sheet can hold extra columns when needed.
 - A public "what readers said" wall — only with explicit opt-in consent on the form; privacy first.
+- Plausible event goals/dashboard for `Rating` (group by `book`, average `score`) — config in the
+  Plausible UI, not code.
