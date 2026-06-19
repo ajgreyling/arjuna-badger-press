@@ -67,6 +67,16 @@ FEEDBACK_FORM_BOOK_PARAM = os.environ.get("ABP_FEEDBACK_BOOK_PARAM", "entry.book
 # custom event ("Rating", props {book, score}) so an aggregate exists with no backend.
 FEEDBACK_FORM_RATING_PARAM = os.environ.get("ABP_FEEDBACK_RATING_PARAM", "")
 
+# ── Foreword competition ────────────────────────────────────────────────────────────────────────
+# The AI vanity forewords were stripped from every book; this campaign invites READERS to write a
+# real one. The winning foreword is published in the book and the writer gets a printed hardcover.
+# Toggle the whole surface (page + nav link + per-book invite) with FOREWORD_CONTEST_LIVE.
+FOREWORD_CONTEST_LIVE = os.environ.get("ABP_FOREWORD_CONTEST_LIVE", "1") not in ("", "0", "false", "no")
+# Submission form URL (or env). While empty, the submit button falls back to a pre-filled mailto:j@.
+FOREWORD_FORM_URL = os.environ.get("ABP_FOREWORD_FORM_URL", "")
+# Optional closing date shown on the page (free text, e.g. "31 August 2026"). Empty = "rolling".
+FOREWORD_DEADLINE = os.environ.get("ABP_FOREWORD_DEADLINE", "")
+
 # ── Patronage (quiet, reader-initiated; NEVER an ask) ───────────────────────────────────────────
 # The books are free. This is a door, not a price — pure-patronage tone, no justifying copy. Kept
 # deliberately distinct from the Honey Badger Bounty (which promises money only ever flows FROM the
@@ -1335,6 +1345,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}feedback.html">Feedback</a>'
+        f'{f"""<a class="navhot" href="{rel}forewords.html">Write a foreword</a>""" if FOREWORD_CONTEST_LIVE else ""}'
         f'{f"""<a href="{rel}support.html">Support</a>""" if patronage_enabled() else ""}'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
@@ -1399,6 +1410,17 @@ def patronage_enabled() -> bool:
     """True when at least one giving rail is configured. The whole Support surface hides otherwise,
     so an unconfigured build never shows an empty or broken 'donate' affordance."""
     return bool(PAYPAL_URL or PAYSHAP_ID)
+
+
+def foreword_href(book_title: str | None = None) -> str:
+    """Submit-a-foreword target: hosted form (book pre-tagged) or a pre-filled mailto:j@ fallback."""
+    if FOREWORD_FORM_URL:
+        if book_title:
+            sep = "&" if "?" in FOREWORD_FORM_URL else "?"
+            return FOREWORD_FORM_URL + sep + urllib.parse.urlencode({FEEDBACK_FORM_BOOK_PARAM: book_title})
+        return FOREWORD_FORM_URL
+    subj = f"Foreword submission: {book_title}" if book_title else "Foreword submission"
+    return f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subj)}"
 
 
 def star_rating(book_title: str, rel: str = "", context: str = "book") -> str:
@@ -2177,7 +2199,8 @@ def render_book(e: dict) -> str:
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soon}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
-<a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a></div>
+<a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
+{f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}</div>
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(rel="../"),
@@ -2758,6 +2781,54 @@ and nothing about you is stored or tracked to send it.</p></div>
     ])
 
 
+def render_forewords() -> str:
+    """The foreword competition: readers write a real foreword; the winner is published in the book
+    and receives a printed hardcover. The inversion of the stripped AI vanity forewords."""
+    submit = html.escape(foreword_href())
+    deadline = (f"Entries close <strong>{html.escape(FOREWORD_DEADLINE)}</strong>."
+                if FOREWORD_DEADLINE else "Entries are open on a rolling basis.")
+    intro = (
+        "Every book in this house used to open with a foreword. I wrote them — or rather, the machine "
+        "and I did, in borrowed voices — and on listening back I found them hollow: clever, and false. "
+        "So I pulled every one. The first page of each book is bare now, and it should belong to a "
+        "reader, not to a ghost."
+    )
+    return "\n".join([
+        head("Write a foreword — Arjuna Badger Press",
+             "Write the foreword to one of our books. The winning foreword is published in the book, "
+             "and the writer receives a printed hardcover.",
+             canonical=f"{DOMAIN}/forewords.html"),
+        nav(),
+        f"""<article class="reader letter">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">An invitation</p>
+<h1 style="text-align:center">Write the foreword</h1>
+<p class="intro" style="text-align:center">{intro}</p>
+
+<div class="entry"><span class="charge">The prize</span>
+<p>Write a foreword to any Arjuna Badger Press book. The one we choose is <strong>published inside the
+book</strong> — your name on the first page, where the ghost used to be — and you receive a
+<strong>printed hardcover</strong> of that edition, sent to you. The books stay free for everyone;
+this is the one page that gets a name on it.</p></div>
+
+<div class="entry"><span class="charge">How to enter</span>
+<p>Read a book — they're all <a href="index.html#library">free, right here</a>. Then write its
+foreword: what the book did to you, what it's really about, why a stranger should begin it. Aim for
+roughly 300–800 words — short enough to be the door, not the house. {deadline}</p>
+<p style="margin-top:14px"><a class="btn" href="{submit}">Submit a foreword &rarr;</a></p></div>
+
+<div class="entry"><span class="charge">The rules, plainly</span>
+<p>Your words, written by you — not by an AI (we've had enough of those). One person, one voice. By
+entering you allow us to print your foreword in the book, with credit, if it wins; you keep the
+copyright. We will never ask you for a fee or for money — entry is free and always will be, and the
+only thing that ever changes hands is a book going <em>to</em> you.</p></div>
+
+<p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
 def render_support() -> str:
     """The quiet patronage door — pure-patronage tone, no justifying copy, shown only when a giving
     rail is configured. Deliberately distinct from the bounty (money flows press→reader there); here
@@ -2996,6 +3067,8 @@ def main() -> None:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
+    if FOREWORD_CONTEST_LIVE:                        # foreword competition page
+        (OUT / "forewords.html").write_text(render_forewords(), encoding="utf-8")
     if patronage_enabled():                         # Support page only when a giving rail is set
         (OUT / "support.html").write_text(render_support(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
