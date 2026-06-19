@@ -19,9 +19,9 @@ W, H = 851, 315
 SCALE = 2
 BG = (22, 21, 19)
 
-# The six non-hero covers: Calendar of Stone, Temple in the Rock (India ×2), Shore That Remembers,
-# Songlines of Stone. Ordered left to right in the fan (smallest to largest).
-COVERS = [
+# Left-side covers: the 5 core HBT novels (Calendar of Stone, Temple in the Rock ×2,
+# Shore That Remembers, Songlines of Stone).
+LEFT_COVERS = [
     "book1-africa",           # Calendar of Stone
     "book2-india",            # Temple in the Rock
     "book3-india-deccan",     # Temple in the Rock (Deccan)
@@ -29,7 +29,14 @@ COVERS = [
     "australia-outback",      # Songlines of Stone
 ]
 
-# The hero: Engineer of the Gods (book5-egypt), rendered larger/fuller
+# Right-side covers: striking Jakobus + other cinematic covers
+RIGHT_COVERS = [
+    "crop-circles",           # striking desert/sky imagery
+    "jakobus-petra",          # cinematic rose-city
+    "the-jakobus-file",       # epic, dark
+]
+
+# The hero: Engineer of the Gods (book5-egypt), rendered larger/fuller, centered
 HERO = BOOKS / "book5-egypt" / "design" / "cover.png"
 
 out = HERE / "facebook-cover.png"
@@ -75,22 +82,35 @@ def main():
     warm = Image.new("RGB", (sw, sh), (38, 33, 24))
     canvas = Image.composite(warm, canvas, vig)
 
-    # ── The supporting 5 covers: densely packed on the left ──
+    # ── Left fan: the 5 core HBT novels, densely packed ──
     cover_h = int(sh * 0.82)
-    overlap = int(cover_h * 0.65)            # aggressive overlap
-    tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in COVERS]
-    step = [t.width - overlap for t in tiles]
-    total_w = sum(step[:-1]) + tiles[-1].width
-    x = int(-tiles[0].width * 0.15)          # start slightly off-left for drama
-    y = (sh - tiles[0].height) // 2
-    for i, t in enumerate(tiles):
+    overlap = int(cover_h * 0.65)
+    left_tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in LEFT_COVERS]
+    left_step = [t.width - overlap for t in left_tiles]
+    left_total_w = sum(left_step[:-1]) + left_tiles[-1].width
+    x = int(-left_tiles[0].width * 0.15)
+    y = (sh - left_tiles[0].height) // 2
+    for i, t in enumerate(left_tiles):
         canvas.paste(t, (x, y), t)
-        x += step[i] if i < len(tiles) - 1 else 0
+        x += left_step[i] if i < len(left_tiles) - 1 else 0
+
+    # ── Right fan: striking Jakobus + other covers, mirrored from the right edge ──
+    right_h = int(sh * 0.78)                 # slightly smaller than left
+    right_overlap = int(right_h * 0.60)
+    right_tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", right_h) for c in RIGHT_COVERS]
+    right_step = [t.width - right_overlap for t in right_tiles]
+    right_total_w = sum(right_step[:-1]) + right_tiles[-1].width
+    # Position from the right edge, flowing right-to-left
+    x = sw + int(right_tiles[-1].width * 0.15)  # start off-right for drama
+    y = (sh - right_tiles[0].height) // 2
+    for i, t in enumerate(right_tiles):
+        x -= right_step[i] if i > 0 else 0
+        canvas.paste(t, (x - t.width, y), t)
 
     # ── The hero: Engineer of the Gods, pasted LAST so it's on top ──
     hero_h = int(sh * 0.92)
     hero = _cover_shadowed(HERO, hero_h)
-    hero_x = int(sw * 0.52)                  # right side, positioned to overlap slightly but stay visible
+    hero_x = int(sw * 0.48)                  # center-right, overlaps both sides
     hero_y = (sh - hero.height) // 2
     canvas.paste(hero, (hero_x, hero_y), hero)
 
