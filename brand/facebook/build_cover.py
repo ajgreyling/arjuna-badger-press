@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Facebook cover: the Engineer of the Gods cover, full-frame and epic. Just the cover.
+"""Facebook cover: collage of the 7 History Before Time covers with Engineer of the Gods full-frame.
 
-A Facebook cover is a wide landscape (851x315) and the book cover is a tall portrait, so we can't
-simply crop a thin slice without losing the art. Instead we fill the banner with the cover's OWN
-image: the cover is scaled to the full banner height and centred, and its background is extended to
-the wide sides by a mirrored, blurred, darkened bleed — so the whole thing reads as one cinematic
-full-frame image with the real cover intact and dominant in the mobile-safe centre.
+The seven full HBT novels (Calendar of Stone, Temple in the Rock ×2, Shore That Remembers,
+Engineer of the Gods, Songlines of Stone) fanned across the right side of the banner, with
+Engineer of the Gods rendered at a larger scale as the hero. Warm near-black house ground.
 
 Writes the exact 851x315 cover plus a 2x master.
 """
 from pathlib import Path
 
-from PIL import Image, ImageEnhance, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter
 
 HERE = Path(__file__).resolve().parent
 BRAND = HERE.parent
@@ -19,58 +17,84 @@ BOOKS = BRAND.parent / "books" / "history-before-time" / "books"
 
 W, H = 851, 315
 SCALE = 2
+BG = (22, 21, 19)
 
-# The hero cover — Engineer of the Gods (the most striking cover).
-COVER = BOOKS / "book5-egypt" / "design" / "cover.png"
+# The six non-hero covers: Calendar of Stone, Temple in the Rock (India ×2), Shore That Remembers,
+# Songlines of Stone. Ordered left to right in the fan (smallest to largest).
+COVERS = [
+    "book1-africa",           # Calendar of Stone
+    "book2-india",            # Temple in the Rock
+    "book3-india-deccan",     # Temple in the Rock (Deccan)
+    "book4-india-tamil",      # Shore That Remembers
+    "australia-outback",      # Songlines of Stone
+]
+
+# The hero: Engineer of the Gods (book5-egypt), rendered larger/fuller
+HERO = BOOKS / "book5-egypt" / "design" / "cover.png"
 
 out = HERE / "facebook-cover.png"
 out_2x = HERE / "facebook-cover@2x.png"
 
 
+def _cover_shadowed(path: Path, target_h: int) -> Image.Image:
+    """Load a cover, scale to target height, add a soft drop shadow + thin gold edge."""
+    img = Image.open(path).convert("RGB")
+    cw, ch = img.size
+    scale = target_h / ch
+    img = img.resize((int(cw * scale), target_h), Image.LANCZOS)
+    cw, ch = img.size
+    # Thin gold keyline.
+    GOLD = (229, 181, 103)
+    edge = Image.new("RGB", (cw, ch), GOLD)
+    border = max(2, int(target_h * 0.006))
+    inner = img.crop((0, 0, cw, ch)).resize((cw - 2 * border, ch - 2 * border), Image.LANCZOS)
+    edge.paste(inner, (border, border))
+    img = edge
+    # Compose onto a transparent tile with a drop shadow.
+    pad = int(target_h * 0.12)
+    tile = Image.new("RGBA", (cw + pad * 2, ch + pad * 2), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", tile.size, (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shadow)
+    sd.rectangle([pad, pad + int(pad * 0.4), pad + cw, pad + ch + int(pad * 0.4)],
+                 fill=(0, 0, 0, 170))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(pad * 0.5))
+    tile.alpha_composite(shadow)
+    tile.alpha_composite(Image.merge("RGBA", (*img.split(), Image.new("L", img.size, 255))), (pad, pad))
+    return tile
+
+
 def main():
     sw, sh = W * SCALE, H * SCALE
-    cover = Image.open(COVER).convert("RGB")
+    canvas = Image.new("RGB", (sw, sh), BG)
 
-    # 1) Background bleed: scale the cover to COVER the whole wide banner (crop overflow), then blur
-    #    + darken it so it fills the sides without competing with the sharp cover on top.
-    cw, ch = cover.size
-    cover_ar = cw / ch
-    banner_ar = sw / sh
-    if cover_ar < banner_ar:                 # cover narrower than banner → match width, crop height
-        bw = sw
-        bh = int(sw / cover_ar)
-    else:
-        bh = sh
-        bw = int(sh * cover_ar)
-    bg = cover.resize((bw, bh), Image.LANCZOS)
-    bg = bg.crop(((bw - sw) // 2, (bh - sh) // 2, (bw - sw) // 2 + sw, (bh - sh) // 2 + sh))
-    bg = bg.filter(ImageFilter.GaussianBlur(sw * 0.03))
-    bg = ImageEnhance.Brightness(bg).enhance(0.45)
-    bg = ImageEnhance.Color(bg).enhance(0.9)
+    # Subtle vignette (warm center, darker edges).
+    vig = Image.new("L", (sw, sh), 0)
+    vd = ImageDraw.Draw(vig)
+    vd.ellipse([-sw * 0.2, -sh * 0.6, sw * 1.2, sh * 1.6], fill=60)
+    vig = vig.filter(ImageFilter.GaussianBlur(sw * 0.12))
+    warm = Image.new("RGB", (sw, sh), (38, 33, 24))
+    canvas = Image.composite(warm, canvas, vig)
 
-    # 2) The sharp full cover, scaled to the banner height, centred. (Slight inset so a sliver of
-    #    the cinematic bleed frames it top & bottom — feels intentional, not letterboxed.)
-    target_h = int(sh * 0.995)
-    scale = target_h / ch
-    fg = cover.resize((int(cw * scale), target_h), Image.LANCZOS)
-    fw, fh = fg.size
+    # ── The hero: Engineer of the Gods, large + centered-right ──
+    hero_h = int(sh * 0.88)
+    hero = _cover_shadowed(HERO, hero_h)
+    hero_x = int(sw * 0.52)                  # right of center
+    hero_y = (sh - hero.height) // 2
+    canvas.paste(hero, (hero_x, hero_y), hero)
 
-    canvas = bg.copy()
-    pos = ((sw - fw) // 2, (sh - fh) // 2)
-    canvas.paste(fg, pos)
-
-    # 3) Feather the vertical seams where the sharp cover meets the bleed, so there's no hard line.
-    seam = Image.new("L", (sw, sh), 0)
-    left = pos[0]
-    right = pos[0] + fw
-    feather = int(fw * 0.04)
-    from PIL import ImageDraw
-    sd = ImageDraw.Draw(seam)
-    sd.rectangle([left + feather, 0, right - feather, sh], fill=255)
-    seam = seam.filter(ImageFilter.GaussianBlur(feather * 0.7))
-    sharp_full = bg.copy()
-    sharp_full.paste(fg, pos)
-    canvas = Image.composite(sharp_full, bg, seam)
+    # ── The supporting 5 covers: smaller, fanned left of the hero ──
+    cover_h = int(sh * 0.72)
+    overlap = int(cover_h * 0.50)
+    tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in COVERS]
+    step = [t.width - overlap for t in tiles]
+    total_w = sum(step[:-1]) + tiles[-1].width
+    # Position the fan so it ends just before the hero starts.
+    fan_right = hero_x - int(tiles[0].width * 0.08)
+    x = fan_right - total_w
+    y = (sh - tiles[0].height) // 2
+    for i, t in enumerate(tiles):
+        canvas.paste(t, (x, y), t)
+        x += step[i] if i < len(tiles) - 1 else 0
 
     canvas.save(out_2x)
     canvas.resize((W, H), Image.LANCZOS).save(out, optimize=True)
