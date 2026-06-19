@@ -848,6 +848,7 @@ CSS = """
 :root{
   --black:#161513; --iron:#221f1b; --card:#1d1a16; --bone:#EDE9E0; --bonedim:#BDB6A6;
   --ochre:#C8A86B; --gold:#E5B567; --grass:#7E7A5A; --line:#2A241D; --sting:#C2401E;
+  --violet:#A78BFA; --violet-deep:#7C5CFF; --violet-glow:rgba(124,92,255,.16);
   --reading:"Atkinson Hyperlegible",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
@@ -2125,11 +2126,35 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
         return None
     body = md_to_html(docs_rewrite_links(src.read_text(encoding="utf-8", errors="ignore")))
     gh = f'{GITHUB_REPO}/docs/{src_name}'
+    # Prominent /sleep callout — only on the Technology page. Purple, to pull the eye
+    # against the gold-on-dark house palette (the cool complement of the warm theme).
+    sleep_banner = ""
+    if slug == "technology":
+        sleep_banner = (
+            '<aside style="margin:0 0 34px;padding:22px 26px;border:1px solid var(--violet);'
+            'border-left:4px solid var(--violet-deep);border-radius:14px;'
+            'background:linear-gradient(180deg,var(--violet-glow),transparent 85%);'
+            'box-shadow:0 0 0 1px var(--violet-glow),0 14px 40px -22px var(--violet-deep)">'
+            '<div style="font-family:\'Space Grotesk\',sans-serif;text-transform:uppercase;'
+            'letter-spacing:.24em;font-size:12px;color:var(--violet)">Free &amp; open source</div>'
+            '<h2 style="margin:.32em 0 .2em;color:var(--bone);font-size:24px">'
+            '<span style="color:var(--violet)">/sleep</span> — give your AI coding agent a memory</h2>'
+            '<p style="margin:0 0 16px;color:var(--bonedim);max-width:68ch">The skill that came out of building '
+            'this whole library with an AI co-worker: it consolidates a session the way a person sleeps — '
+            'keep the lesson, lose the dream. The humane counterpart to <code>/clear</code>. MIT-licensed, '
+            'works in any repo.</p>'
+            '<a href="https://github.com/ajgreyling/claude-sleep-skill" '
+            'style="display:inline-block;padding:11px 22px;border-radius:10px;font-weight:600;'
+            'background:var(--violet-deep);color:#fff;border:1px solid var(--violet)">'
+            'Get /sleep on GitHub &rarr;</a>'
+            '</aside>'
+        )
     return "\n".join([
         head(title, desc),
         nav(),
         '<article class="reader letter">',
         f'<p class="eyebrow" style="text-align:center">Arjuna Badger Press</p>',
+        sleep_banner,
         body,
         '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
         '<a href="craft/index.html">Craft Library</a> · '
