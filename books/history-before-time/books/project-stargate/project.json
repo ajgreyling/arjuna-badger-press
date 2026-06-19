@@ -6,7 +6,7 @@
   "logline": "A burned-out government records officer who found proof of bases beneath the ice is hunted through the Stargate archives, the Rogan-sphere, and a dying remote-viewer's last coordinates — until she learns the observer effect isn't metaphor: when the chakras resonate, reality edits itself.",
   "blueprint": "whistleblower-thriller / podcast-gospel / psychic-set-pieces",
   "market": "Men Who Stare at Goats × The X-Files × Joe Rogan as epistemology — conspiracy as feature, not bug",
-  "status": "seed",
+  "status": "complete",
   "series": "men-who-opened-the-door",
   "series_title": "The Men Who Opened the Door",
   "series_seq": 1,
@@ -15,9 +15,23 @@
   "seq": 1,
   "graph_color": "#4a0080",
   "canon_order": [
-    "SEED_STORY.md", "STORY_BIBLE.md", "READER_MISSION.md", "REAL_CASE_FILES.md",
-    "WORLD.md", "CHARACTERS.md", "MYTHOS_RULES.md", "STYLE_GUIDE.md",
-    "THEMES.md", "PLOT.md", "EPIGRAPHS.md", "PREFACE.md", "ACKNOWLEDGEMENTS.md"
+    "SEED_STORY.md",
+    "STORY_BIBLE.md",
+    "READER_MISSION.md",
+    "REAL_CASE_FILES.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS_RULES.md",
+    "STYLE_GUIDE.md",
+    "THEMES.md",
+    "PLOT.md",
+    "EPIGRAPHS.md",
+    "PREFACE.md",
+    "ACKNOWLEDGEMENTS.md"
   ],
-  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  }
 }

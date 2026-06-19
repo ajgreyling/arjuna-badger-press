@@ -6,12 +6,22 @@
   "logline": "A disgraced Cape archaeologist, recruited by a secret order who know her impossible date was real, is led up the spine of Africa to prove the deep past belongs to everyone.",
   "blueprint": "quest-relay / site-to-site key-chain",
   "market": "ancient-mystery adventure (Dan Brown / James Rollins) — the wonder, not the conspiracy",
-  "status": "drafting",
+  "status": "complete",
   "seq": 1,
   "graph_color": "#d4a017",
   "canon_order": [
-    "SEED_STORY.md", "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
-    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md", "STYLE_GUIDE.md"
+    "SEED_STORY.md",
+    "STORY_BIBLE.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS_RULES.md",
+    "THEMES.md",
+    "PLOT.md",
+    "STYLE_GUIDE.md"
   ],
-  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  }
 }
