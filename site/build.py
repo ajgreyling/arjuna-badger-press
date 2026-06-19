@@ -76,6 +76,27 @@ FEEDBACK_FORM_RATING_PARAM = os.environ.get("ABP_FEEDBACK_RATING_PARAM", "")
 PAYPAL_URL = os.environ.get("ABP_PAYPAL_URL", "https://paypal.me/ajgreyling")  # live; env overrides
 PAYSHAP_ID = os.environ.get("ABP_PAYSHAP_ID", "")        # e.g. a PayShap proxy: 0XX-XXX-XXXX or handle (unset → PayPal-only)
 
+# ── Translated editions ─────────────────────────────────────────────────────────────────────────
+# A book's primary (English) deliverable is plain: "<Title>.epub". A TRANSLATED edition carries a
+# language-code suffix BEFORE the extension: "<Title>.af.epub", "<Title>.zu.pdf", etc. scan() splits
+# these out so the book page can show an "Other languages" section without inventing per-language
+# cards. Code → (English name, endonym) for the label. Extend as the catalogue adds languages.
+EDITION_LANGS = {
+    "af": ("Afrikaans", "Afrikaans"),
+    "zu": ("isiZulu", "isiZulu"),
+    "es": ("Spanish", "Español"),
+    "fr": ("French", "Français"),
+    "am": ("Amharic", "አማርኛ"),
+    "ar": ("Arabic", "العربية"),
+    "hi": ("Hindi", "हिन्दी"),
+    "mr": ("Marathi", "मराठी"),
+    "ta": ("Tamil", "தமிழ்"),
+    "zh": ("Mandarin", "中文"),
+    "mn": ("Mongolian", "Монгол"),
+    "ja": ("Japanese", "日本語"),
+    "de": ("German", "Deutsch"),
+}
+
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -765,10 +786,17 @@ def scan() -> list[dict]:
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
         root = BOOKS / rootrel
         exp = root / expsub
-        downloads = []
+        downloads = []          # primary (English) EPUB/PDF
+        editions = {}           # lang code -> {"epub": Path, "pdf": Path} for translated editions
         if cid in PUBLISHED and exp.is_dir():
             for f in sorted(exp.iterdir()):
-                if f.suffix.lower() in (".epub", ".pdf"):
+                if f.suffix.lower() not in (".epub", ".pdf"):
+                    continue
+                # A translated edition's stem ends ".<code>" (e.g. "Resonance.af"); split it off.
+                stem_suffix = f.stem.rsplit(".", 1)[-1].lower() if "." in f.stem else ""
+                if stem_suffix in EDITION_LANGS:
+                    editions.setdefault(stem_suffix, {})[f.suffix.lower().lstrip(".")] = f
+                else:
                     downloads.append(f)
         # blurb precedence: clean SYNOPSIS -> curated fallback -> README (dev-facing, last resort)
         blurb = first_paragraph(root / "SYNOPSIS.md") or fb or first_paragraph(root / "README.md")
@@ -797,6 +825,7 @@ def scan() -> list[dict]:
         entries.append({
             "id": cid, "title": title, "subtitle": subtitle, "series": series,
             "blurb": blurb, "downloads": downloads, "cover": cover,
+            "editions": editions,
             "book_md": reader_src,
             "reader_md": reader_md,
             "root": root,
@@ -1157,6 +1186,18 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .star.on{color:var(--gold)}                            /* chosen score persists in gold */
 .rate-fallback{font-size:12.5px;color:var(--grass);text-decoration:underline}
 .rate-thanks{font-size:13px;color:var(--gold)}
+/* ── translated editions ───────────────────────────────────────────────────────── */
+.editions{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.editions-h{font-family:"Space Grotesk";font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--ochre);margin:0 0 4px}
+.editions-note{font-size:13px;color:var(--grass);margin:0 0 12px;max-width:54ch}
+.edlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.edlist li{display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding:8px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.edlang{color:var(--bone);font-size:14px}
+.edlinks{display:inline-flex;gap:6px}
+.dl-lang{font-family:"Space Grotesk";font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;
+  border:1px solid var(--ochre);color:var(--ochre)}
+.dl-lang:hover{background:var(--ochre);color:var(--black)}
 .bookrespond{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
 .feedback-link,.endnote-feedback a{font-size:13.5px;color:var(--ochre)}
 .feedback-link{display:inline-block;margin-top:2px}
@@ -2045,6 +2086,33 @@ def render_book(e: dict) -> str:
             label = "Download EPUB" if ext == "epub" else ("Download PDF" if ext == "pdf" else ext.upper())
             parts.append(f'<a class="dl{solid}" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>{label}</a>')
         dls = f'<div class="dls" style="margin-top:20px">{"".join(parts)}</div>'
+    # Translated editions — an "Other languages" section, only when at least one exists.
+    editions_html = ""
+    eds = e.get("editions") or {}
+    if e["available"] and eds:
+        rows = []
+        for code in sorted(eds, key=lambda c: EDITION_LANGS.get(c, (c, c))[0]):
+            name, endonym = EDITION_LANGS.get(code, (code.upper(), code.upper()))
+            fmts = eds[code]
+            label = name if name == endonym else f"{name} · {endonym}"
+            links = []
+            for ext in ("epub", "pdf"):
+                f = fmts.get(ext)
+                if f:
+                    links.append(
+                        f'<a class="dl-lang" href="../downloads/{e["id"]}/{html.escape(f.name)}" '
+                        f'download>{ext.upper()}</a>'
+                    )
+            rows.append(
+                f'<li><span class="edlang">{html.escape(label)}</span>'
+                f'<span class="edlinks">{"".join(links)}</span></li>'
+            )
+        editions_html = (
+            '<div class="editions"><h2 class="editions-h">Other languages</h2>'
+            '<p class="editions-note">AI-translated editions, in the same free spirit. '
+            'Original South African and other in-culture words are kept as written.</p>'
+            f'<ul class="edlist">{"".join(rows)}</ul></div>'
+        )
     read = ""
     if e["available"] and (e["book_md"] or e.get("reader_md")):
         read_label = "Read the serial →" if e.get("serial") else "Read online →"
@@ -2103,7 +2171,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{serial_note}{wiki}{soon}
+<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soon}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a></div>
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
@@ -2897,6 +2965,10 @@ def main() -> None:
             d.mkdir(parents=True, exist_ok=True)
             for f in e["downloads"]:
                 shutil.copy2(f, d / f.name)
+            # translated editions ride alongside the primary download (same dir)
+            for fmts in e.get("editions", {}).values():
+                for f in fmts.values():
+                    shutil.copy2(f, d / f.name)
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
         if (e["available"] or e.get("serial")) and (e["book_md"] or e.get("reader_md")):
