@@ -239,69 +239,49 @@ never locked to one cloud.
 
 ---
 
-## 8. Zero-access encryption — even we can't read it
+## 8. Encryption, transparency, and the right to leave
 
-Some authors write the real stories of vulnerable people. For that, "we promise not to look" is not
-good enough. So the platform offers **sealed works**: end-to-end, **zero-access** encryption where the
-operator — us — **cannot read the content at all**. The duty of care to the people in those stories is
-higher than our convenience as an operator, and the architecture is built to make that literal.
+Author work is private and protected — and we are **honest about exactly what that means**. We do not
+claim a "we literally cannot read it" guarantee, because the things authors actually want — an AI
+engine that works on the prose, a one-click export of everything they own, human support — all
+require that the platform *can* read content. Instead the promise is **operational and accountable**,
+and stated plainly.
 
-Every work is one of two classes, chosen by the author:
-
-| | **Sealed** *(zero-access)* | **Engine-assisted** |
-|---|---|---|
-| Who can read it | **Only the author** | the author + the engine |
-| AI help (draft / polish / gate) | **None** — the engine never runs on it | full pipeline |
-| Stored as | ciphertext the server can't open | server-readable |
-| Default for | other people's personal stories | the studio's own books / opt-in work |
-
-This is an honest trade-off, stated plainly: **the engine cannot help with a work it cannot read.**
-You get our tooling, or you get zero-access — per work, your choice. Sealed is the default for
-anything carrying real PII.
-
-**How "even we can't read it" is true.** Content is encrypted **in the author's own client** under a
-key derived from the author's secret. The key hierarchy never hands the server anything that opens it:
+**Encrypted at rest.** Every author's content is encrypted at rest under a key held only in the
+running service's environment, never in the database. A stolen database — or a stolen backup — is
+ciphertext: without the environment key it decrypts to nothing.
 
 ```mermaid
 flowchart TB
-    PW[Author password] -->|Argon2id| ARK[Author Root Key<br/>client-only, never sent]
-    REC[Recovery key<br/>author-held, offline] --> RWK[Recovery Wrap Key]
-    ARK --> AMK[Author Master Key]
-    RWK --> AMK
-    AMK --> DEK[Per-work key]
-    DEK -->|AES-256-GCM| CT[(Sealed content<br/>ciphertext in object store)]
+    KEK[Master key<br/>in the environment, never the DB] -->|wraps| WK[Per-work content key]
+    WK -->|AES-256-GCM| CT[(Content at rest<br/>ciphertext in object store)]
+    DUMP[Stolen DB / backup] -.->|no env key| NIL[decrypts to nothing]
     classDef store fill:#1b1b1b,stroke:#d4af37,color:#fff;
     class CT store;
 ```
 
-The server stores only *wrapped* keys, public salts, and a one-way login verifier. **A complete theft
-of the database and the object store decrypts nothing** — no password, no plaintext, no PII. That is
-the design centre: *a leak, a stolen backup, or a subpoena yields ciphertext, never a vulnerable
-person's story.*
+**Accountable, not unable.** The platform can read content when it must — to run the engine, to build
+your export, to help with a support issue — and **every such read is written to an access log you can
+see**. The honest substitute for "we can't look" is "we can, we record it, and you can check." We
+don't pretend to a guarantee the product contradicts.
 
-**Break-glass support — granted, time-boxed, audited, then re-keyed.** When an author needs help with
-a sealed work, *they* open the door, briefly:
+**The right to leave — no lock-in.** At any time you can download **everything you own** in a single
+password-protected ZIP: every work and its built files (manuscript, EPUB, PDF, cover) as plaintext, a
+manifest of what we hold (with integrity hashes), your billing ledger, and your access log — plus a
+plain-English README. Leaving is a button, not a support ticket.
 
 ```mermaid
 flowchart LR
-    G[Author grants access<br/>chooses a time window] --> O[Operator reads the ONE work<br/>every access logged]
-    O --> R[Issue resolved<br/>grant revoked]
-    R --> K[Work re-keyed<br/>fresh key · operator access dies]
+    U[Author clicks Export] --> Z[One password-protected ZIP]
+    Z --> W[Works · EPUB · PDF · cover<br/>plaintext]
+    Z --> M[Manifest + hashes · ledger · access log]
+    Z --> R[Plain-English README]
     classDef gate fill:#1b1b1b,stroke:#d4af37,color:#fff;
-    class K gate;
+    class Z gate;
 ```
 
-The author re-wraps just that work's key to a support key, for a set window. We can read that single
-work while the grant is live — and **every access is written to an audit log the author can read**.
-When it's resolved, the work is **re-keyed**: a fresh key, the content re-encrypted, and our prior
-access is dead. Support is a temporary, accountable visit, never a standing key.
-
-**Durability without exposure.** Because what's stored is ciphertext, it is safe to replicate widely —
-so catastrophic hardware loss never *loses* PII (it's backed up) and a leaked backup never *exposes*
-it (it's encrypted). And because there is **no operator escrow**, recovery is the author's own
-high-entropy recovery key, held offline. The cost is honest and stated up front: lose both your
-password and your recovery key, and the work is unrecoverable — the same property that makes it
-unreadable to us makes it unrecoverable without you. **No backdoor is the feature.**
+The stance in one line: **private, encrypted at rest, every read logged, and yours to take and leave
+whenever you want.** What you do with your data after you export it is yours to protect.
 
 ---
 
