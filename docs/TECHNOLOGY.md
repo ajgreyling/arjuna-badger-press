@@ -203,3 +203,60 @@ that it works end to end.
 
 > **Want this in your stack?** The author of this system consults on AI pipelines, human-in-the-loop
 > design, and guardrail/eval architecture. → [arjunabadger.press](https://arjunabadger.press)
+
+---
+
+## 7. `/sleep` — memory consolidation as a first-class step
+
+The table above lists *state & memory at scale* as a capability — a graph DB and rolling compression
+holding a multi-book world in continuity. That covers the **engine's** memory. It does not cover the
+**agent's** memory: the question of what an AI co-worker should carry from one working session into
+the next. That turned out to have a missing primitive, and closing it produced a small, portable tool
+that ships on its own.
+
+**The problem.** A coding agent has two memories and, by default, no bridge between them:
+
+- **working memory** — the live session, everything said this turn; and
+- **a long-term store** — the durable facts a future session needs (`CLAUDE.md`, a `memory/`
+  directory, a Cursor `lessons-learnt.mdc`, an `AGENTS.md`, a docs-of-record table).
+
+The two controls you're handed are both wrong for real work. **`/clear` is death** — it doesn't close
+the eye, it deletes the *person*; the next session inherits nothing. **Never clearing is insomnia** —
+the context grows without bound (cost, latency) and the durable facts stay trapped in a transcript no
+future session will ever read. Biology already solved this with the third option: **sleep** — the
+nightly, lossy, *intentional* move that keeps what the day taught and discards the lived texture of
+it. You don't keep the dream; you keep the lesson.
+
+```mermaid
+flowchart LR
+    S[Working session<br/>the lived experience] --> Q{{/sleep<br/>one filter}}
+    Q -->|FACT· decisions+why · gotchas<br/>· user prefs · project state| M[(Long-term store<br/>memory/ · lessons-learnt · AGENTS.md)]
+    Q -->|EXPERIENCE· play-by-play · dead ends<br/>· emotional weather · already-in-repo| X[evaporates]
+    M --> N[Next session<br/>wakes carrying only what mattered]
+    classDef gate fill:#1b1b1b,stroke:#d4af37,color:#fff;
+    class Q gate;
+```
+
+**The mechanism.** `/sleep` runs the whole session through one question — *what must survive the
+session ending, and what was only the texture of getting there?* — sorts every item into **FACT**
+(persists) or **EXPERIENCE** (evaporates), **auto-detects the repo's own store** and writes in *that*
+store's format, **shows the consolidation envelope before writing** (memory is hard to un-write), and
+**dedups and prunes** rather than piling up. It is the same human-in-the-loop, measure-don't-sprawl
+discipline as the rest of this system, pointed at the agent's memory instead of the manuscript.
+
+| Design choice | Why it matters to an engineering leader |
+|---|---|
+| **Lossy on purpose** | the value of a memory store is everything it *didn't* write; a store that swallows everything is noise. Signal beats volume — the same reason evals gate regressions instead of logging everything. |
+| **Store-agnostic** | one ritual across a polyglot estate — a Cursor repo's `lessons-learnt.mdc` and a Claude-native `memory/` dir are written in their own idioms, no new format imposed. |
+| **Envelope before write** | the human approves what their future self inherits; nothing outward-facing or durable is persisted blind. |
+| **Reflex via hooks, not magic** | a `PreCompact` / `SessionEnd` hook *reminds*; it never silently writes — the human keeps the brake. |
+
+**It is open source.** The skill, the reminder hook, and the install steps are public, MIT-licensed:
+**[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. The
+longer-form story of where it came from — and the conversation about what it means for a machine to
+"remember" at all — is in [The kettle and the blink](../site/content/writing/the-kettle-and-the-blink.md)
+on the press site.
+
+> The discipline is the same one this whole document argues for: **the human authors; the machine
+> measures, filters, and asks before it commits.** `/sleep` just applies it one layer up — to memory
+> itself.
