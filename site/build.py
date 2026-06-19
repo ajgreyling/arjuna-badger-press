@@ -16,6 +16,7 @@ import os
 import re
 import shutil
 import subprocess
+import urllib.parse
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
@@ -49,6 +50,32 @@ BOUNTY_FORM_URL = os.environ.get("ABP_BOUNTY_FORM_URL", "")
 # ABP_WHATSAPP_CHANNEL_URL) once created. While empty, "Follow the channel" falls back to the
 # bounty page (no dead link). WhatsApp is the announce megaphone; all reporting stays on the form.
 WHATSAPP_CHANNEL_URL = os.environ.get("ABP_WHATSAPP_CHANNEL_URL", "")
+
+# ── Reader feedback & ratings (static-site funnel; see docs/FEEDBACK_PLAN.md) ───────────────────
+# A static site can't store submissions, so feedback resolves to a hosted form (responses land in a
+# sheet the press reads) with a mailto: fallback so the channel works TODAY with zero setup.
+# Private inbox the fallback targets directly:
+PRIVATE_EMAIL = "j@arjunabadger.press"
+# Paste the Google Form base URL (or set env ABP_FEEDBACK_FORM_URL). While empty, every feedback
+# button falls back to a pre-filled mailto:j@ — never a dead end.
+FEEDBACK_FORM_URL = os.environ.get("ABP_FEEDBACK_FORM_URL", "")
+# The form field id that pre-fills "Which book?" (copy from the form's pre-fill link, e.g.
+# "entry.123456"). Per-book buttons append ?<param>=<Book Title>.
+FEEDBACK_FORM_BOOK_PARAM = os.environ.get("ABP_FEEDBACK_BOOK_PARAM", "entry.book")
+# The form field id that pre-fills a 1–5 star rating, if the form has a rating field. When set, a
+# clicked star opens the form pre-scored; ratings are ALSO counted client-side via a Plausible
+# custom event ("Rating", props {book, score}) so an aggregate exists with no backend.
+FEEDBACK_FORM_RATING_PARAM = os.environ.get("ABP_FEEDBACK_RATING_PARAM", "")
+
+# ── Patronage (quiet, reader-initiated; NEVER an ask) ───────────────────────────────────────────
+# The books are free. This is a door, not a price — pure-patronage tone, no justifying copy. Kept
+# deliberately distinct from the Honey Badger Bounty (which promises money only ever flows FROM the
+# press TO readers); patronage is the reader CHOOSING to give, so the two never blur.
+# PayPal.me for global reach; PayShap (SA instant-pay) for South African readers. Either may be
+# empty; the Support surface only shows the rails that are set, and hides entirely if both are empty.
+PAYPAL_URL = os.environ.get("ABP_PAYPAL_URL", "https://paypal.me/ajgreyling")  # live; env overrides
+PAYSHAP_ID = os.environ.get("ABP_PAYSHAP_ID", "")        # e.g. a PayShap proxy: 0XX-XXX-XXXX or handle (unset → PayPal-only)
+
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -1107,6 +1134,37 @@ pre.mermaid[data-processed] {color:inherit}
 footer{border-top:1px solid var(--line);margin-top:60px;padding:40px 0;color:var(--grass);font-size:14px}
 footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
 footer .badgerline{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--bonedim)}
+footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
+/* ── rating + feedback (quiet) ───────────────────────────────────────────────── */
+.rate{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0 4px}
+.rate-label{font-size:13px;color:var(--grass);letter-spacing:.04em}
+.stars{display:inline-flex;gap:2px}
+.star{background:none;border:0;padding:0 1px;cursor:pointer;font-size:22px;line-height:1;
+  color:var(--line);transition:color .12s} /* unlit = faint */
+.star:hover,.star:hover~.star{color:var(--ochre)}      /* hover lights up to the hovered star (LTR) */
+.stars:hover .star{color:var(--ochre)} .stars .star:hover~.star{color:var(--line)}
+.star.on{color:var(--gold)}                            /* chosen score persists in gold */
+.rate-fallback{font-size:12.5px;color:var(--grass);text-decoration:underline}
+.rate-thanks{font-size:13px;color:var(--gold)}
+.bookrespond{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.feedback-link,.endnote-feedback a{font-size:13.5px;color:var(--ochre)}
+.feedback-link{display:inline-block;margin-top:2px}
+/* ── reader end-note (after the last page) ──────────────────────────────────────── */
+.readerend{max-width:720px;margin:48px auto 0;text-align:center}
+.readerend .rule{margin:0 0 22px}
+.readerend .rate{justify-content:center}
+.endnote-line{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:19px;color:var(--bonedim);margin:0 0 8px}
+.endnote-feedback{margin:10px 0 0} .endnote-support{margin:14px 0 0;font-size:14px;color:var(--grass)}
+.endnote-support a{color:var(--ochre)}
+/* ── support page (pure patronage) ──────────────────────────────────────────────── */
+article.support{text-align:center}
+.support-rails{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:34px 0 8px}
+.support-rail{display:flex;flex-direction:column;gap:3px;min-width:180px;padding:18px 24px;
+  background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--bone)}
+a.support-rail:hover{border-color:var(--ochre)}
+.support-rail .rail-name{font-family:"Space Grotesk";font-weight:600;font-size:16px;color:var(--gold)}
+.support-rail .rail-sub{font-size:12.5px;color:var(--grass)}
+.support-foot{max-width:54ch;margin:20px auto 0;font-size:13.5px;color:var(--grass)}
 @media(max-width:720px){.pillars{grid-template-columns:1fr}.bookhero{grid-template-columns:1fr;text-align:center}
   .bookhero .cover{max-width:260px;margin:0 auto}}
 """
@@ -1224,6 +1282,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}house.html">The House</a>'
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
+        f'<a href="{rel}feedback.html">Feedback</a>'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
@@ -1240,9 +1299,115 @@ def nav(rel: str = "") -> str:
 {trust_banner(rel)}{audiobook_notice()}"""
 
 
-def footer() -> str:
+def feedback_href(book_title: str | None = None, rating: int | None = None) -> str:
+    """Form-or-mailto target for 'tell us something'. When FEEDBACK_FORM_URL is set, returns the
+    hosted form pre-filled with the book (and rating, if the form has a rating field); otherwise a
+    pre-addressed, pre-subjected mailto:j@ so the channel works today with zero external setup.
+    See docs/FEEDBACK_PLAN.md."""
+    if FEEDBACK_FORM_URL:
+        params = {}
+        if book_title:
+            params[FEEDBACK_FORM_BOOK_PARAM] = book_title
+        if rating is not None and FEEDBACK_FORM_RATING_PARAM:
+            params[FEEDBACK_FORM_RATING_PARAM] = str(rating)
+        sep = "&" if "?" in FEEDBACK_FORM_URL else "?"
+        return FEEDBACK_FORM_URL + (sep + urllib.parse.urlencode(params) if params else "")
+    # mailto fallback — always works, no backend.
+    subj = f"Feedback: {book_title}" if book_title else "Feedback"
+    if rating is not None:
+        subj += f" ({rating}/5)"
+    return f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subj)}"
+
+
+def reader_endnote(e: dict) -> str:
+    """The block at the END of read/<id>.html — the highest-goodwill moment, after the reader has
+    finished the book. Offers a quiet rating + feedback, and (only if a giving rail is set) a single
+    understated patronage line. NEVER an ask: the books are free; this is a door, left ajar."""
+    rate = star_rating(e["title"], rel="../", context="reader")
+    fb = html.escape(feedback_href(e["title"]))
+    support = ""
+    if patronage_enabled():
+        support = (
+            f'<p class="endnote-support">The books are free. '
+            f'If you want to, you can <a href="../support.html">support the press</a>.</p>'
+        )
+    return (
+        '<aside class="readerend" aria-label="After the book">'
+        '<hr class="rule">'
+        f'<p class="endnote-line">You reached the end of <em>{html.escape(e["title"])}</em>.</p>'
+        f'{rate}'
+        f'<p class="endnote-feedback"><a href="{fb}">Tell the press what you thought</a></p>'
+        f'{support}'
+        '</aside>'
+    )
+
+
+def patronage_enabled() -> bool:
+    """True when at least one giving rail is configured. The whole Support surface hides otherwise,
+    so an unconfigured build never shows an empty or broken 'donate' affordance."""
+    return bool(PAYPAL_URL or PAYSHAP_ID)
+
+
+def star_rating(book_title: str, rel: str = "", context: str = "book") -> str:
+    """A quiet 1–5 star control. No backend: a click fires a Plausible custom event
+    ("Rating", props {book, score}) so an aggregate exists in the dashboard you already own, and —
+    if the feedback form has a rating field — opens it pre-scored for optional written context.
+    Degrades to a plain link to the feedback form if JS/Plausible is unavailable."""
+    fb = html.escape(feedback_href(book_title))
+    bt = html.escape(book_title, quote=True)
+    # Stars are buttons inside a <noscript>-friendly wrapper; the <a> fallback is always present.
+    stars = "".join(
+        f'<button type="button" class="star" data-score="{i}" '
+        f'aria-label="Rate {i} of 5">★</button>'
+        for i in range(1, 6)
+    )
+    return (
+        f'<div class="rate" data-book="{bt}" data-formbase="{fb}">'
+        f'<span class="rate-label">Rate this book</span>'
+        f'<span class="stars" role="group" aria-label="Rate {bt} from 1 to 5 stars">{stars}</span>'
+        f'<a class="rate-fallback" href="{fb}">leave a note</a>'
+        f'<span class="rate-thanks" hidden>Thank you.</span>'
+        f'</div>'
+    )
+
+
+def rating_script() -> str:
+    """Tiny vanilla handler for star clicks. Loaded once per page that has a .rate widget.
+    Privacy-first: sends only an anonymous count event to Plausible (book + score), stores nothing,
+    sets no cookie. Opens the pre-scored feedback form in a new tab as the 'written context' path."""
+    return (
+        '<script>\n'
+        '(function(){\n'
+        '  document.querySelectorAll(".rate").forEach(function(box){\n'
+        '    var book=box.getAttribute("data-book"), base=box.getAttribute("data-formbase");\n'
+        '    box.querySelectorAll(".star").forEach(function(btn){\n'
+        '      btn.addEventListener("click",function(){\n'
+        '        var score=parseInt(btn.getAttribute("data-score"),10);\n'
+        '        var ss=box.querySelectorAll(".star");\n'
+        '        ss.forEach(function(s,i){s.classList.toggle("on",i<score);});\n'
+        '        try{if(window.plausible)window.plausible("Rating",{props:{book:book,score:score}});}catch(e){}\n'
+        '        var t=box.querySelector(".rate-thanks"); if(t)t.hidden=false;\n'
+        '        var sep=base.indexOf("?")>-1?"&":"?";\n'
+        '        var url=base.indexOf("mailto:")===0?base:base+sep+"r="+score;\n'
+        '        window.open(url,"_blank","noopener");\n'
+        '      });\n'
+        '    });\n'
+        '  });\n'
+        '})();\n'
+        '</script>'
+    )
+
+
+def footer(rel: str = "") -> str:
+    # Quiet patronage + feedback links — shown only when their surfaces exist. Deliberately
+    # understated: a "·"-separated line in the existing footer, never a button, never an ask.
+    extra = []
+    if patronage_enabled():
+        extra.append(f'<a href="{rel}support.html">Support</a>')
+    extra.append(f'<a href="{rel}feedback.html">Feedback</a>')
+    extra_html = (" · " + " · ".join(extra)) if extra else ""
     return f"""<footer><div class="wrap">
-<span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a></span>
+<span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a>{extra_html}</span>
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
 </div></footer></body></html>"""
 
@@ -1928,9 +2093,12 @@ def render_book(e: dict) -> str:
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{read}{serial_note}{wiki}{soon}
+<div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
+<a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a></div>
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
-        footer(),
+        footer(rel="../"),
+        rating_script(),
     ])
 
 
@@ -2043,7 +2211,7 @@ def render_craft_page(src_name: str, slug: str, title: str, desc: str, *, rel: s
         f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
         f'<p style="text-align:center;margin-top:24px"><a class="back" href="{rel}index.html#writers">&larr; Back to the library</a></p>',
         '</article>',
-        footer(),
+        footer(rel=rel),
     ])
 
 
@@ -2070,7 +2238,7 @@ def render_craft_term(src: Path) -> str | None:
         f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
         '<p style="text-align:center;margin-top:24px"><a class="back" href="../glossary.html">&larr; Back to glossary</a></p>',
         '</article>',
-        footer(),
+        footer(rel="../../"),
     ])
 
 
@@ -2238,7 +2406,7 @@ def render_wiki_page(slug: str, md: str, *, index: bool = False) -> str:
         '<a href="../craft/index.html">Craft Library</a></p>',
         back,
         '</article>',
-        footer(),
+        footer(rel=rel),
     ])
 
 
@@ -2362,7 +2530,7 @@ def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc
         '<p style="text-align:center;margin-top:28px"><a class="back" href="index.html">&larr; The writing desk</a> '
         '· <a class="back" href="../index.html#library">The library</a></p>',
         '</article>',
-        footer(),
+        footer(rel="../"),
     ])
 
 
@@ -2401,7 +2569,7 @@ def render_writing_index() -> str:
         f'<div class="wlist">{"".join(cards)}</div>',
         '<p style="text-align:center;margin-top:36px"><a class="back" href="../index.html#library">&larr; Back to the library</a></p>',
         '</article>',
-        footer(),
+        footer(rel="../"),
     ])
 
 
@@ -2458,6 +2626,88 @@ the road, not the obstacle, and that the work at the end of it is meant to be <e
 <div class="gloss">Through adversity — to the great work</div>
 <div class="blazon">{blazon}</div>
 <p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_feedback() -> str:
+    """The single 'Tell us something' funnel (docs/FEEDBACK_PLAN.md): general feedback → form/mailto;
+    a confirmed factual/cultural/continuity issue → the gated Honey Badger Bounty (its own rules)."""
+    general = html.escape(feedback_href())
+    # The paid path only advertises itself when the bounty is live; otherwise it's a quiet 'coming'.
+    if BOUNTY_LIVE:
+        bounty_block = (
+            '<div class="entry"><span class="charge">Found a real mistake?</span>'
+            '<p>A confirmed factual, cultural, or continuity error may be eligible for the '
+            '<a href="bounty.html">Honey Badger Bounty</a> — we pay readers who catch our mistakes. '
+            'That path has its own form and its own rules; it is kept separate so real finds don\'t '
+            'get lost in the post, and so the bounty\'s anti-scam promise stays clear.</p></div>'
+        )
+    else:
+        bounty_block = (
+            '<div class="entry"><span class="charge">Found a real mistake?</span>'
+            '<p>A reward programme for confirmed factual or cultural errors — the Honey Badger Bounty '
+            '— opens soon. Until then, send it the same way; if it\'s a real catch, we\'ll tell you.</p></div>'
+        )
+    intro = (
+        "The books are free, and so is telling us what you think of them. A line of praise, a typo, "
+        "a thought that stayed with you, a place we got wrong — all of it is welcome, and all of it "
+        "is read."
+    )
+    return "\n".join([
+        head("Tell the press something — Arjuna Badger Press",
+             "Send feedback, praise, a typo, or a thought on any Arjuna Badger Press book.",
+             canonical=f"{DOMAIN}/feedback.html"),
+        nav(),
+        f"""<article class="reader letter">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">Tell us something</p>
+<h1 style="text-align:center">Say it to the house</h1>
+<p class="intro" style="text-align:center">{intro}</p>
+<div class="entry"><span class="charge">A thought, a typo, a kindness</span>
+<p>Anything at all about any book — <a href="{general}">tell the press</a>. It reaches a real person,
+and nothing about you is stored or tracked to send it.</p></div>
+{bounty_block}
+<p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def render_support() -> str:
+    """The quiet patronage door — pure-patronage tone, no justifying copy, shown only when a giving
+    rail is configured. Deliberately distinct from the bounty (money flows press→reader there); here
+    it's the reader choosing to give. No 'donate' button, no reason offered, no pressure."""
+    rails = []
+    if PAYPAL_URL:
+        rails.append(
+            f'<a class="support-rail" href="{html.escape(PAYPAL_URL)}" rel="noopener" target="_blank">'
+            f'<span class="rail-name">PayPal</span>'
+            f'<span class="rail-sub">anywhere in the world</span></a>'
+        )
+    if PAYSHAP_ID:
+        rails.append(
+            f'<div class="support-rail">'
+            f'<span class="rail-name">PayShap</span>'
+            f'<span class="rail-sub">South Africa · {html.escape(PAYSHAP_ID)}</span></div>'
+        )
+    rails_html = '<div class="support-rails">' + "".join(rails) + '</div>'
+    # The whole copy. One line. The books being free is the only context given.
+    return "\n".join([
+        head("Support — Arjuna Badger Press",
+             "If a book mattered to you, you can support the press. The library stays free either way.",
+             canonical=f"{DOMAIN}/support.html"),
+        nav(),
+        f"""<article class="reader letter support">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<h1 style="text-align:center">Support the press</h1>
+<p class="intro" style="text-align:center">The library is free, and stays free. If you'd like to
+give something back, the door is here.</p>
+{rails_html}
+<p class="support-foot">No account, no sign-up, no reward to claim — and the books never go behind a
+wall. This is only for those who want to.</p>
+<p style="text-align:center;margin-top:40px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
 </article>""",
         footer(),
     ])
@@ -2538,7 +2788,9 @@ def render_reader(e: dict) -> str:
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
         main,
-        footer(),
+        reader_endnote(e),
+        footer(rel="../"),
+        rating_script(),
     ])
 
 
@@ -2656,6 +2908,9 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+    (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
+    if patronage_enabled():                         # Support page only when a giving rail is set
+        (OUT / "support.html").write_text(render_support(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
         if slug in ("bounty", "finders") and not BOUNTY_LIVE:
             continue   # bounty surface is gated until launch (25 June 2026)
