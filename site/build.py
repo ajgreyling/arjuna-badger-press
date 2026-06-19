@@ -1335,6 +1335,7 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}feedback.html">Feedback</a>'
+        f'{f"""<a href="{rel}support.html">Support</a>""" if patronage_enabled() else ""}'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
@@ -1979,6 +1980,9 @@ fact-and-balance gate that stand guard while a human writes the soul of the thin
 and sound the alarm; they never write your voice for you. {avail} finished books are on the shelf
 above, free to read and download. <a href="technology.html">See how the technology works &rarr;</a> ·
 <a href="letter.html">Why this house exists — a letter &rarr;</a></p>
+{f'''<p style="max-width:70ch;color:var(--grass);font-size:15px;margin-top:14px">The library is free, and
+always will be. If a book moved you, you can <a href="support.html">support the press</a> — only if you
+want to.</p>''' if patronage_enabled() else ""}
 <div class="cta" id="write"><a class="btn" href="technology.html">How the technology works</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Publish with us</a></div>
