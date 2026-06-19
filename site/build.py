@@ -91,8 +91,14 @@ WORKSHOP_HOLD = set(
         "ABP_WORKSHOP_HOLD",
         # Drafted/export exists but not cleared for public download — sensitivity, polish, or
         # series sequencing. Must also be in PUBLISHED to ever show downloads.
-        "unheard-japan,unheard-mongolia,"
-        "modern-sherlock,no-fear-cycle,"
+        #
+        # 2026-06-19 release (author-authorized):
+        #   - modern-sherlock (The Scarlet Thread): finished, parked by accident; rendered + released.
+        #   - no-fear-cycle (Ordinance Pending): released by explicit author decision, ACCEPTING the
+        #     Warhammer 40K fan-canon IP exposure (Games Workshop derivative-work risk noted).
+        #   - unheard-japan / unheard-mongolia: released by explicit author decision, OVERRIDING the
+        #     `sensitivity_read: REQUIRED` flag in their own project.json (Ainu / Khalkha herders).
+        # southern-coast stays held: ~9.7k-word fragment, not a finished book.
         "southern-coast",
     ).split(",") if s.strip()
 )
@@ -110,6 +116,8 @@ PUBLISHED = set(
         "australia-outback,project-stargate,"
         "jakobus-silver-thread,jakobus-the-recitation,the-jakobus-file,"
         "crop-circles,"
+        # Released 2026-06-19 (author-authorized — see WORKSHOP_HOLD note):
+        "modern-sherlock,no-fear-cycle,"
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
         "the-song-of-the-self,wrath-of-achilles,"
