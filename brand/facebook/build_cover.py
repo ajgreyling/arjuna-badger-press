@@ -1,161 +1,77 @@
 #!/usr/bin/env python3
-"""Compose the Facebook cover: a collage of the History Before Time covers + house typography.
+"""Facebook cover: the Engineer of the Gods cover, full-frame and epic. Just the cover.
 
-Same house language as the LinkedIn banner (warm near-black ground #161513, gold eyebrow, the
-crest) but the scene is the seven full HISTORY BEFORE TIME novel covers, fanned across the right as
-a cinematic shelf, with the series title + press wordmark on the left.
+A Facebook cover is a wide landscape (851x315) and the book cover is a tall portrait, so we can't
+simply crop a thin slice without losing the art. Instead we fill the banner with the cover's OWN
+image: the cover is scaled to the full banner height and centred, and its background is extended to
+the wide sides by a mirrored, blurred, darkened bleed — so the whole thing reads as one cinematic
+full-frame image with the real cover intact and dominant in the mobile-safe centre.
 
-Facebook's cover crops differently per device. We compose on the recommended 851x315 upload size
-and keep all type inside a centre-safe band (~640px wide) so nothing important is cropped on mobile.
 Writes the exact 851x315 cover plus a 2x master.
 """
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageEnhance, ImageFilter
 
 HERE = Path(__file__).resolve().parent
 BRAND = HERE.parent
-ASSETS = BRAND / "assets"
 BOOKS = BRAND.parent / "books" / "history-before-time" / "books"
 
 W, H = 851, 315
 SCALE = 2
-BG = (22, 21, 19)            # #161513 warm near-black
-GOLD = (229, 181, 103)       # #E5B567
-BONE = (237, 233, 224)       # #EDE9E0
-MUT = (138, 132, 120)        # #8a8478
 
-# The seven full HISTORY BEFORE TIME novels (registry HBT order, novellas excluded), by cover folder.
-COVERS = [
-    "book1-africa", "book2-india", "book3-india-deccan",
-    "book4-india-tamil", "book5-egypt", "australia-outback", "project-stargate",
-]
+# The hero cover — Engineer of the Gods (the most striking cover).
+COVER = BOOKS / "book5-egypt" / "design" / "cover.png"
 
 out = HERE / "facebook-cover.png"
 out_2x = HERE / "facebook-cover@2x.png"
 
 
-def _font(names, size):
-    for n in names:
-        try:
-            return ImageFont.truetype(n, size)
-        except Exception:
-            continue
-    return ImageFont.load_default()
-
-
-def _try_fonts(size, *, bold=False):
-    # Prefer the house faces; fall back to common macOS fonts so the script runs anywhere.
-    if bold:
-        return _font([
-            "/System/Library/Fonts/Supplemental/Futura.ttc",
-            "/System/Library/Fonts/HelveticaNeue.ttc",
-            "/Library/Fonts/Arial Bold.ttf",
-            "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-        ], size)
-    return _font([
-        "/System/Library/Fonts/Supplemental/Futura.ttc",
-        "/System/Library/Fonts/HelveticaNeue.ttc",
-        "/Library/Fonts/Arial.ttf",
-        "/System/Library/Fonts/Supplemental/Arial.ttf",
-    ], size)
-
-
-def _serif(size):
-    return _font([
-        "/System/Library/Fonts/Supplemental/Cochin.ttc",
-        "/System/Library/Fonts/Supplemental/Georgia.ttf",
-        "/System/Library/Fonts/Times.ttc",
-    ], size)
-
-
-def _tracked(draw, xy, text, font, fill, tracking):
-    """Draw letter-spaced text (Pillow has no native tracking)."""
-    x, y = xy
-    for ch in text:
-        draw.text((x, y), ch, font=font, fill=fill)
-        x += draw.textlength(ch, font=font) + tracking
-    return x
-
-
-def _cover_shadowed(path: Path, target_h: int) -> Image.Image:
-    """Load a cover, scale to target height, add a soft drop shadow + thin gold edge."""
-    img = Image.open(path).convert("RGB")
-    cw, ch = img.size
-    scale = target_h / ch
-    img = img.resize((int(cw * scale), target_h), Image.LANCZOS)
-    cw, ch = img.size
-    # Thin gold keyline.
-    edge = Image.new("RGB", (cw, ch), GOLD)
-    border = max(2, int(target_h * 0.006))
-    inner = img.crop((0, 0, cw, ch)).resize((cw - 2 * border, ch - 2 * border), Image.LANCZOS)
-    edge.paste(inner, (border, border))
-    img = edge
-    # Compose onto a transparent tile with a drop shadow.
-    pad = int(target_h * 0.12)
-    tile = Image.new("RGBA", (cw + pad * 2, ch + pad * 2), (0, 0, 0, 0))
-    shadow = Image.new("RGBA", tile.size, (0, 0, 0, 0))
-    sd = ImageDraw.Draw(shadow)
-    sd.rectangle([pad, pad + int(pad * 0.4), pad + cw, pad + ch + int(pad * 0.4)],
-                 fill=(0, 0, 0, 170))
-    shadow = shadow.filter(ImageFilter.GaussianBlur(pad * 0.5))
-    tile.alpha_composite(shadow)
-    tile.alpha_composite(Image.merge("RGBA", (*img.split(), Image.new("L", img.size, 255))), (pad, pad))
-    return tile
-
-
 def main():
     sw, sh = W * SCALE, H * SCALE
-    canvas = Image.new("RGB", (sw, sh), BG)
+    cover = Image.open(COVER).convert("RGB")
 
-    # Subtle vignette so the centre reads warmer than the edges (matches the brand banners).
-    vig = Image.new("L", (sw, sh), 0)
-    vd = ImageDraw.Draw(vig)
-    vd.ellipse([-sw * 0.2, -sh * 0.6, sw * 1.2, sh * 1.6], fill=60)
-    vig = vig.filter(ImageFilter.GaussianBlur(sw * 0.12))
-    warm = Image.new("RGB", (sw, sh), (38, 33, 24))
-    canvas = Image.composite(warm, canvas, vig)
+    # 1) Background bleed: scale the cover to COVER the whole wide banner (crop overflow), then blur
+    #    + darken it so it fills the sides without competing with the sharp cover on top.
+    cw, ch = cover.size
+    cover_ar = cw / ch
+    banner_ar = sw / sh
+    if cover_ar < banner_ar:                 # cover narrower than banner → match width, crop height
+        bw = sw
+        bh = int(sw / cover_ar)
+    else:
+        bh = sh
+        bw = int(sh * cover_ar)
+    bg = cover.resize((bw, bh), Image.LANCZOS)
+    bg = bg.crop(((bw - sw) // 2, (bh - sh) // 2, (bw - sw) // 2 + sw, (bh - sh) // 2 + sh))
+    bg = bg.filter(ImageFilter.GaussianBlur(sw * 0.03))
+    bg = ImageEnhance.Brightness(bg).enhance(0.45)
+    bg = ImageEnhance.Color(bg).enhance(0.9)
 
-    # ── The collage: seven covers fanned across the right, with top/bottom breathing room ──
-    cover_h = int(sh * 0.74)             # leaves margin top & bottom (covers + their shadow tile)
-    overlap = int(cover_h * 0.52)        # tighter step so all 7 fit; each still clearly reads
-    tiles = [_cover_shadowed(BOOKS / c / "design" / "cover.png", cover_h) for c in COVERS]
-    step = [t.width - overlap for t in tiles]
-    total_w = sum(step[:-1]) + tiles[-1].width
-    # The fan occupies the right ~62%; keep the last cover fully inside the right edge.
-    right_pad = int(tiles[-1].width * 0.10)
-    x = sw - total_w - right_pad
-    y = (sh - tiles[0].height) // 2
-    for i, t in enumerate(tiles):
-        canvas.paste(t, (x, y), t)
-        x += step[i] if i < len(tiles) - 1 else 0
+    # 2) The sharp full cover, scaled to the banner height, centred. (Slight inset so a sliver of
+    #    the cinematic bleed frames it top & bottom — feels intentional, not letterboxed.)
+    target_h = int(sh * 0.995)
+    scale = target_h / ch
+    fg = cover.resize((int(cw * scale), target_h), Image.LANCZOS)
+    fw, fh = fg.size
 
-    # ── Left-side gradient scrim so the type stays legible over any cover bleed ──
-    scrim = Image.new("RGBA", (sw, sh), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(scrim)
-    scrim_w = int(sw * 0.52)
-    for i in range(scrim_w):
-        a = int(235 * (1 - i / scrim_w) ** 1.4)
-        sd.line([(i, 0), (i, sh)], fill=(22, 21, 19, a))
-    canvas = Image.alpha_composite(canvas.convert("RGBA"), scrim).convert("RGB")
+    canvas = bg.copy()
+    pos = ((sw - fw) // 2, (sh - fh) // 2)
+    canvas.paste(fg, pos)
 
-    # ── House typography (left, inside the mobile-safe band) ──
-    d = ImageDraw.Draw(canvas)
-    lx = int(54 * SCALE)
-    eyebrow = _try_fonts(int(15 * SCALE), bold=True)
-    title = _try_fonts(int(40 * SCALE), bold=True)
-    sub = _try_fonts(int(17 * SCALE))
-    tagline = _serif(int(17 * SCALE))
+    # 3) Feather the vertical seams where the sharp cover meets the bleed, so there's no hard line.
+    seam = Image.new("L", (sw, sh), 0)
+    left = pos[0]
+    right = pos[0] + fw
+    feather = int(fw * 0.04)
+    from PIL import ImageDraw
+    sd = ImageDraw.Draw(seam)
+    sd.rectangle([left + feather, 0, right - feather, sh], fill=255)
+    seam = seam.filter(ImageFilter.GaussianBlur(feather * 0.7))
+    sharp_full = bg.copy()
+    sharp_full.paste(fg, pos)
+    canvas = Image.composite(sharp_full, bg, seam)
 
-    _tracked(d, (lx, int(70 * SCALE)), "ARJUNA BADGER PRESS", eyebrow, GOLD, int(4 * SCALE))
-    d.text((lx, int(96 * SCALE)), "History Before Time", font=title, fill=BONE)
-    # gold rule
-    d.rectangle([lx, int(152 * SCALE), lx + int(60 * SCALE), int(155 * SCALE)], fill=GOLD)
-    d.text((lx, int(166 * SCALE)), "A novelised ancient-mysteries saga.", font=sub, fill=BONE)
-    d.text((lx, int(192 * SCALE)), "Seven books. Grounded in the evidence.", font=sub, fill=MUT)
-    _tracked(d, (lx, int(232 * SCALE)), "arjunabadger.press", tagline, MUT, int(1 * SCALE))
-
-    # Save 2x master + the exact Facebook size.
     canvas.save(out_2x)
     canvas.resize((W, H), Image.LANCZOS).save(out, optimize=True)
     print(f"wrote {out.name} ({out.stat().st_size // 1024} KB) and {out_2x.name}")
