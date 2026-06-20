@@ -1140,6 +1140,28 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .navdrawer a:focus-visible{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a.navhot{color:var(--sting)}
 .navdrawer a.navhot:hover{color:#e0552e}
+.navdrawer .navgroup{font-family:"Space Grotesk";font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--grass);padding:18px 14px 4px;margin:0}
+.navdrawer .navgroup:first-child{padding-top:8px}
+
+/* library-first index */
+.library-intro{margin:8px 0 28px;max-width:62ch}
+.library-intro h2{font-size:28px;margin:.2em 0 .35em}
+.library-intro p{margin:0;color:var(--bonedim);font-size:17px;line-height:1.55}
+.explore-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin-top:18px}
+.explore-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+  transition:border-color .15s,transform .15s}
+.explore-card:hover{border-color:var(--ochre);transform:translateY(-2px);color:inherit}
+.explore-card h3{margin:0 0 .35em;font-size:17px;color:var(--bone)}
+.explore-card p{margin:0;color:var(--bonedim);font-size:14px;line-height:1.45}
+.mission-compact{padding:36px 0 12px}
+.mission-compact .pillars{margin-top:12px}
+.index-foot{padding:36px 0 48px}
+.index-foot p{max-width:62ch;color:var(--bonedim);font-size:16px;line-height:1.55;margin:0}
+.pipeline-list{columns:2;gap:28px;margin:16px 0 0;padding:0;list-style:none}
+.pipeline-list li{break-inside:avoid;margin:0 0 10px;color:var(--bonedim);font-size:15px}
+.pipeline-list em{color:var(--ochre);font-style:normal;font-size:13px}
+@media(max-width:640px){.pipeline-list{columns:1}}
 .navclose{position:absolute;top:16px;right:16px;font-size:30px;line-height:1;color:var(--bonedim);
   cursor:pointer;padding:4px 10px;border-radius:8px}
 .navclose:hover{color:var(--bone);background:rgba(229,181,103,.1)}
@@ -1634,37 +1656,52 @@ def trust_banner(rel: str = "") -> str:
 </div></div>""")
 
 
-def nav(rel: str = "") -> str:
-    bounty_link = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
-    links = (
+def nav_drawer_links(rel: str = "") -> str:
+    """Grouped drawer links — library-first IA. Do not flatten back into a top bar."""
+    bounty = f'<a class="navhot" href="{rel}bounty.html">Bounty</a>' if BOUNTY_LIVE else ""
+    foreword = (
+        f'<a class="navhot" href="{rel}forewords.html">Write a foreword</a>'
+        if FOREWORD_CONTEST_LIVE else ""
+    )
+    fix_tr = (
+        f'<a href="{rel}fix-translation.html">Fix a translation</a>'
+        if TRANSLATION_FIX_LIVE else ""
+    )
+    real_lang = f'<a href="/real-language">Real Language</a>' if REAL_LANGUAGE_LIVE else ""
+    support = f'<a href="{rel}support.html">Support</a>' if patronage_enabled() else ""
+    return (
+        f'<p class="navgroup">Read</p>'
         f'<a href="{rel}index.html#library">Library</a>'
-        f'<a href="{rel}learn.html">Learn</a>'
+        f'<a href="{rel}start.html">Where to start</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
-        f'<a href="{rel}craft/index.html">For writers</a>'
-        f'<a href="{rel}authoring.html">Authoring</a>'
+        f'<a href="{rel}learn.html">Learn</a>'
+        f'<p class="navgroup">Write &amp; publish</p>'
+        f'<a href="{rel}craft/index.html">Craft library</a>'
+        f'<a href="{rel}for-authors.html">Workshop</a>'
+        f'<a href="{rel}authoring.html">Phone authoring</a>'
         f'<a class="navhot" href="{rel}narrators.html">Narrators</a>'
-        f'<a href="{rel}audition.html">Audition</a>'
+        f'<a href="{rel}audition.html">Audition guide</a>'
         f'<a href="{rel}marketplace.html">Marketplace</a>'
         f'<a href="{rel}printing.html">Printing</a>'
-        f'<a href="{rel}distribution.html">Direct</a>'
-        f'<a href="{rel}app.html">App</a>'
-        f'<a href="{rel}technology.html">Technology</a>'
-        f'{bounty_link}'
-        f'<a href="{rel}index.html#mission">Mission</a>'
-        f'<a href="{rel}index.html#press">The Press</a>'
-        f'<a href="{rel}index.html#thread">The Proof</a>'
+        f'<a href="{rel}distribution.html">Direct distribution</a>'
+        f'<a href="{rel}app.html">Reader app</a>'
+        f'<p class="navgroup">The house</p>'
+        f'<a href="{rel}press.html">About the press</a>'
+        f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}house.html">The House</a>'
+        f'<a href="{rel}technology.html">Technology</a>'
         f'<a href="{rel}cv.html">CV</a>'
         f'<a href="{rel}writing/index.html">The Writing Desk</a>'
-        f'<a href="{rel}letter.html">A letter</a>'
+        f'<p class="navgroup">Connect</p>'
         f'<a href="{rel}feedback.html">Feedback</a>'
-        f'{f"""<a class="navhot" href="{rel}forewords.html">Write a foreword</a>""" if FOREWORD_CONTEST_LIVE else ""}'
-        f'{f"""<a href="{rel}fix-translation.html">Fix a translation</a>""" if TRANSLATION_FIX_LIVE else ""}'
-        f'{f"""<a href="/real-language">Real Language</a>""" if REAL_LANGUAGE_LIVE else ""}'
-        f'{f"""<a href="{rel}support.html">Support</a>""" if patronage_enabled() else ""}'
+        f'{foreword}{fix_tr}{real_lang}{support}{bounty}'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
-        f'<a href="{rel}index.html#write">Write with us</a>'
+        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a>'
     )
+
+
+def nav(rel: str = "") -> str:
+    links = nav_drawer_links(rel)
     # Pure-CSS toggle (checkbox hack) — drawer-only at all breakpoints; no inline top nav.
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
@@ -2269,131 +2306,16 @@ arjunabadger.press/start before printing.</div>
 </body></html>"""
 
 
-def render_index(entries: list[dict]) -> str:
+def render_library_shelves(entries: list[dict], *, available_only: bool = False) -> str:
+    """Series grid for the library. Index shows available titles only; press hub can show all."""
     accents = dict(SERIES)
-    avail = sum(1 for e in entries if e["available"])
-    parts = [head("Arjuna Badger Press — the library",
-                  "A publishing house for authors: finished books, free for the unheard, with most of the money kept by the artist."),
-             nav()]
-    parts.append(f"""<header class="hero"><div class="wrap">
-<img class="crest" src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest">
-<h1>Arjuna Badger Press</h1>
-<div class="tag serif">{TAGLINE}</div>
-<p class="lead">A publishing house with the archer's eye and the badger's nerve. We finish books to a
-studio standard, give the door away free to the unheard, and route most of the money back to the artist.</p>
-<div class="cta"><a class="btn" href="start.html">Not sure where to start? →</a>
-<a class="btn ghost" href="#library">Browse the library</a>
-<a class="btn ghost" href="#mission">Read the mission</a></div>
-</div></header><hr class="hr">""")
-
-    parts.append(f"""<section class="mission" id="mission"><div class="wrap">
-<div class="eyebrow">Why this house exists</div>
-<div class="pillars">
-<div class="pillar"><div class="n">01</div><h2>Free for the unheard</h2>
-<p>A free writing-and-narration workshop for African storytellers. Putting your life into your own
-voice heals. Your work stays yours — keep it private or publish it.</p></div>
-<div class="pillar"><div class="n">02</div><h2>Most of the money is yours</h2>
-<p>We disrupt the publisher's cut and the standing-press waste. The artist keeps most of the money
-and <em>all</em> the rights. We Uber the press for short runs.</p></div>
-<div class="pillar"><div class="n">03</div><h2>True, and both sides</h2>
-<p>Every book is fact-checked against live sources and tells contested stories from both sides —
-Weir / Crichton / Brown-grade accuracy, not a nice-to-have.</p></div>
-</div></div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="places"><div class="wrap">
-<div class="eyebrow">Real ground</div>
-<h2 style="font-size:28px;margin:.3em 0">The Place Wiki — real people &amp; places</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Every book is anchored in real geography — standing stones,
-deserts, temples, reefs, and the living people who keep them. Photo wikis for travellers and curious readers: awe first,
-attribution always.</p>
-<div class="cta"><a class="btn" href="wiki/index.html">Explore the Place Wiki</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="writers"><div class="wrap">
-<div class="eyebrow">For writers</div>
-<h2 style="font-size:28px;margin:.3em 0">Free craft — degree-level skills, no gatekeeping</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The studio mined an MFA-scale body of
-knowledge from finishing a million words of published fiction — structure, character, sentence craft,
-the editorial ladder, twenty-nine named anti-patterns, and a machine-tell self-audit. Plain English.
-Free for every writer who has a story and has never been shown how to begin.</p>
-<div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a>
-<a class="btn ghost" href="the-press-thesis.html">The Press Thesis</a>
-<a class="btn ghost" href="for-authors.html">The workshop — for authors &amp; editors</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="authoring"><div class="wrap">
-<div class="eyebrow">Phone authoring</div>
-<h2 style="font-size:28px;margin:.3em 0">An AI editor in the author's pocket</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Authors should be able to build a book
-through a chat interface on the phone they already own: voice notes, guided canon questions,
-chapter drafting, continuity checks, editing, and export into ebook, print, and audiobook workflows.</p>
-<div class="cta"><a class="btn" href="authoring.html">Open phone authoring</a>
-<a class="btn ghost" href="for-authors.html">The full workshop</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="audio"><div class="wrap">
-<div class="eyebrow">Arjuna Audio</div>
-<h2 style="font-size:28px;margin:.3em 0">Audiobooks for the countries ACX leaves out</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The next leg is human narration:
-authors keep their rights, narrators get credited work and a non-negotiable royalty floor, and the
-press handles the match before it builds the marketplace. Minimum 5% of net profit for at least five
-years on qualifying audiobook projects.</p>
-<div class="cta"><a class="btn" href="narrators.html">Become a narrator</a>
-<a class="btn ghost" href="audition.html">DIY audition guide</a>
-<a class="btn ghost" href="mailto:info@arjunabadger.press">Bring a book for audio</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="marketplace"><div class="wrap">
-<div class="eyebrow">Marketplace</div>
-<h2 style="font-size:28px;margin:.3em 0">ACX-style audio plus dead-press-time printing</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The platform starts as a manually
-matched marketplace: authors, narrators, and printers. Audio handles royalty-participating narration
-outside the usual gates. Printing connects small-batch demand with printers who have paid staff,
-idle machines, and capacity that would otherwise earn nothing.</p>
-<div class="cta"><a class="btn" href="marketplace.html">Open the marketplace</a>
-<a class="btn ghost" href="printing.html">Small-batch printing</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="direct"><div class="wrap">
-<div class="eyebrow">Direct distribution</div>
-<h2 style="font-size:28px;margin:.3em 0">Free books should not need banking details</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Kobo and Google-style store rails can
-block authors before a free book ever reaches a reader. Arjuna Badger Press keeps the direct route
-open: free downloads without a checkout wall, and paid editions later through M-Pesa, Mukuru, PayPal,
-and blockchain rails where they actually reduce friction.</p>
-<div class="cta"><a class="btn" href="distribution.html">Open direct distribution</a>
-<a class="btn ghost" href="index.html#library">Read free now</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="app"><div class="wrap">
-<div class="eyebrow">Reader app</div>
-<h2 style="font-size:28px;margin:.3em 0">A free-forever reader for any book</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The app layer starts as a universal
-reader: import your own EPUB, PDF, or audiobook, read PDFs with mobile-friendly reflow, cache books
-offline, and only use the store when you choose to buy ebooks, audiobooks, or print copies.</p>
-<div class="cta"><a class="btn" href="app.html">Open the app plan</a>
-<a class="btn ghost" href="index.html#library">Read in the browser</a></div>
-</div></section>""")
-
-    parts.append("""<hr class="hr"><section class="mission" id="tools"><div class="wrap">
-<div class="eyebrow">Built with the machine</div>
-<h2 style="font-size:28px;margin:.3em 0">/sleep — an open-source skill for AI coding agents</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">This whole library was built with an AI
-co-worker. Along the way we found a missing piece: how an agent should <em>remember</em>. <code>/sleep</code>
-consolidates a working session the way a person sleeps — keep the lesson, lose the dream. It's the humane
-counterpart to <code>/clear</code>. Free, MIT-licensed, and it works in any repo.</p>
-<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
-<a class="btn ghost" href="writing/the-kettle-and-the-blink.html">Read the story</a>
-<a class="btn ghost" href="technology.html">The technology</a></div>
-</div></section>""")
-
-    parts.append('<div class="wrap" id="library"></div>')
+    parts: list[str] = []
     for sname, accent in SERIES:
         group = [e for e in entries if e["series"] == sname]
+        if available_only:
+            group = [e for e in group if e["available"] or e.get("serial")]
         if not group:
             continue
-        # Published work appears BEFORE in-progress/coming-soon titles on the same shelf.
-        # Stable sort: available (downloadable or serial) first, CURATED order kept within each.
         group.sort(key=lambda e: 0 if e["available"] else 1)
         cards = "".join(card(e, accent) for e in group)
         tag = SHELF_TAGLINE.get(sname)
@@ -2401,45 +2323,205 @@ counterpart to <code>/clear</code>. Free, MIT-licensed, and it works in any repo
         parts.append(f"""<section class="series"><div class="wrap">
 <div class="sechead" style="--accent:{accent}"><div class="sechead-row"><h2>{html.escape(sname)}</h2><span class="count">{len(group)} {"book" if len(group)==1 else "books"}</span></div>{tagline}</div>
 <div class="grid">{cards}</div></div></section>""")
+    return "\n".join(parts)
 
-    parts.append(f"""<hr class="hr"><section class="mission" id="press"><div class="wrap">
-<div class="eyebrow">The Press</div>
-<h2 style="font-size:28px;margin:.3em 0">A small house taking on a 90% racket</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Arjuna Badger Press is the consumer face
-of an autonomous manuscript-craft studio — a continuity engine, a manuscript scorer, and a
-fact-and-balance gate that stand guard while a human writes the soul of the thing. The tools measure
-and sound the alarm; they never write your voice for you. {avail} finished books are on the shelf
-above, free to read and download. <a href="technology.html">See how the technology works &rarr;</a> ·
-<a href="letter.html">Why this house exists — a letter &rarr;</a></p>
-{f'''<p style="max-width:70ch;color:var(--grass);font-size:15px;margin-top:14px">The library is free, and
-always will be. If a book moved you, you can <a href="support.html">support the press</a> — only if you
-want to.</p>''' if patronage_enabled() else ""}
-<div class="cta" id="write"><a class="btn" href="technology.html">How the technology works</a>
-<a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a>
-<a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Publish with us</a></div>
-</div></section>""")
 
-    parts.append("""<hr class="hr"><section class="mission" id="founder"><div class="wrap">
-<div class="eyebrow">Founder profile</div>
+def render_index_explore() -> str:
+    """Compact doors off the shelf — everything that used to carnival the homepage."""
+    tiles = [
+        ("press.html", "About the press", "Mission, studio, distribution, audiobooks, and the roadmap."),
+        ("wiki/index.html", "Place Wiki", "Real geography behind the books — photos, attribution, awe first."),
+        ("craft/index.html", "Craft library", "Structure, character, sentence craft, and the editorial ladder — free."),
+        ("for-authors.html", "Workshop", "For authors and editors building the next manuscript."),
+        ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
+        ("writing/index.html", "The Writing Desk", "Essays and parables from the house."),
+    ]
+    cards = "".join(
+        f'<a class="explore-card" href="{href}"><h3>{html.escape(title)}</h3>'
+        f'<p>{html.escape(blurb)}</p></a>'
+        for href, title, blurb in tiles
+    )
+    return f"""<section class="mission" id="explore"><div class="wrap">
+<div class="eyebrow">Beyond the shelf</div>
+<h2 style="font-size:28px;margin:.3em 0">Explore the house</h2>
+<p style="max-width:62ch;color:var(--bonedim);font-size:17px;margin:0">The library is the front door. Craft, places, technology, and publishing live here — not in the way of the books.</p>
+<div class="explore-grid">{cards}</div>
+</div></section>"""
+
+
+def render_mission_compact() -> str:
+    return """<section class="mission-compact" id="mission"><div class="wrap">
+<div class="eyebrow">Why this house exists</div>
+<div class="pillars">
+<div class="pillar"><div class="n">01</div><h2>Free for the unheard</h2>
+<p>A writing-and-narration workshop for African storytellers. Your life in your own voice; your work stays yours.</p></div>
+<div class="pillar"><div class="n">02</div><h2>Most of the money is yours</h2>
+<p>The artist keeps most of the money and <em>all</em> the rights. Short runs use idle press time — not standing-press waste.</p></div>
+<div class="pillar"><div class="n">03</div><h2>True, and both sides</h2>
+<p>Every book is fact-checked against live sources and tells contested stories from both sides — accuracy as standard.</p></div>
+</div></div></section>"""
+
+
+def render_pipeline_section(entries: list[dict]) -> str:
+    pending = [e for e in entries if not e["available"] and not e.get("serial")]
+    if not pending:
+        return ""
+    items = "".join(
+        f'<li><strong>{html.escape(e["title"])}</strong> — {html.escape(e["series"])} '
+        f'<em>{"Coming soon" if "_comingsoon" in e["root"].parts else "In progress"}</em></li>'
+        for e in pending
+    )
+    return f"""<section class="mission" id="pipeline"><div class="wrap">
+<div class="eyebrow">In the studio</div>
+<h2 style="font-size:28px;margin:.3em 0">Titles in progress</h2>
+<p style="max-width:62ch;color:var(--bonedim);font-size:17px">Finished books sit on the shelf above. These are being written, fact-checked, or prepared — listed here so the library stays honest.</p>
+<ul class="pipeline-list">{items}</ul>
+</div></section>"""
+
+
+def render_press_hub(entries: list[dict], avail: int) -> str:
+    """About-the-press hub — platform, mission detail, founder, proof. Not the library front door."""
+    patron = (
+        f'<p style="max-width:70ch;color:var(--grass);font-size:15px;margin-top:14px">The library is free, and '
+        f'always will be. If a book moved you, you can <a href="support.html">support the press</a> — only if you want to.</p>'
+        if patronage_enabled() else ""
+    )
+    return "\n".join([
+        head("About the press — Arjuna Badger Press",
+             "Mission, studio, distribution, audiobooks, and how Arjuna Badger Press publishes.",
+             canonical=f"{DOMAIN}/press.html"),
+        nav(),
+        f"""<article class="reader letter">
+<p class="eyebrow" style="text-align:center">Arjuna Badger Press</p>
+<h1 style="text-align:center">About the press</h1>
+<p class="intro" style="text-align:center">The library is the work. This page is how the house is built — mission, tools, distribution, and what comes next.</p>
+</article>""",
+        render_mission_compact(),
+        """<hr class="hr"><section class="mission" id="places"><div class="wrap">
+<div class="eyebrow">Real ground</div>
+<h2 style="font-size:28px;margin:.3em 0">The Place Wiki</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Every book is anchored in real geography — standing stones,
+deserts, temples, reefs, and the living people who keep them. Photo wikis for travellers and curious readers.</p>
+<div class="cta"><a class="btn" href="wiki/index.html">Explore the Place Wiki</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="writers"><div class="wrap">
+<div class="eyebrow">For writers</div>
+<h2 style="font-size:28px;margin:.3em 0">Free craft — degree-level skills, no gatekeeping</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Structure, character, sentence craft, the editorial ladder,
+twenty-nine named anti-patterns, and a machine-tell self-audit — mined from finishing a million words of published fiction.</p>
+<div class="cta"><a class="btn" href="craft/index.html">Open the Craft Library</a>
+<a class="btn ghost" href="the-press-thesis.html">The Press Thesis</a>
+<a class="btn ghost" href="for-authors.html">The workshop</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="authoring"><div class="wrap">
+<div class="eyebrow">Phone authoring</div>
+<h2 style="font-size:28px;margin:.3em 0">An AI editor in the author's pocket</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Build a book through the phone you already own: voice notes, canon questions,
+chapter drafting, continuity checks, editing, and export into ebook, print, and audiobook workflows.</p>
+<div class="cta"><a class="btn" href="authoring.html">Open phone authoring</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="audio"><div class="wrap">
+<div class="eyebrow">Arjuna Audio</div>
+<h2 style="font-size:28px;margin:.3em 0">Audiobooks for the countries ACX leaves out</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Human narration with credited work, a royalty floor, and authors keeping their rights.
+Minimum 5% of net profit for at least five years on qualifying projects.</p>
+<div class="cta"><a class="btn" href="narrators.html">Become a narrator</a>
+<a class="btn ghost" href="audition.html">DIY audition guide</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="marketplace"><div class="wrap">
+<div class="eyebrow">Marketplace</div>
+<h2 style="font-size:28px;margin:.3em 0">Audio matching and dead-press-time printing</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">A manually matched marketplace for authors, narrators, and printers —
+royalty-participating narration outside the usual gates; small-batch print on idle capacity.</p>
+<div class="cta"><a class="btn" href="marketplace.html">Open the marketplace</a>
+<a class="btn ghost" href="printing.html">Small-batch printing</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="direct"><div class="wrap">
+<div class="eyebrow">Direct distribution</div>
+<h2 style="font-size:28px;margin:.3em 0">Free books should not need banking details</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Free downloads without a checkout wall; paid editions later through M-Pesa, Mukuru, PayPal,
+and other rails where they reduce friction.</p>
+<div class="cta"><a class="btn" href="distribution.html">Direct distribution</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="app"><div class="wrap">
+<div class="eyebrow">Reader app</div>
+<h2 style="font-size:28px;margin:.3em 0">A free-forever reader for any book</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Import EPUB, PDF, or audiobook; read offline; buy only when you choose.</p>
+<div class="cta"><a class="btn" href="app.html">Open the app plan</a>
+<a class="btn ghost" href="reader.html">Read in the browser</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="tools"><div class="wrap">
+<div class="eyebrow">Built with the machine</div>
+<h2 style="font-size:28px;margin:.3em 0">/sleep — open-source agent memory</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <code>/sleep</code> consolidates a session the way a person sleeps —
+keep the lesson, lose the dream. MIT-licensed; works in any repo.</p>
+<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
+<a class="btn ghost" href="writing/the-kettle-and-the-blink.html">Read the story</a></div>
+</div></section>""",
+        render_pipeline_section(entries),
+        f"""<hr class="hr"><section class="mission" id="studio"><div class="wrap">
+<div class="eyebrow">The studio</div>
+<h2 style="font-size:28px;margin:.3em 0">Manuscript craft, human voice</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Arjuna Badger Press is the consumer face of an autonomous manuscript-craft studio — continuity engine,
+manuscript scorer, and fact-and-balance gate while a human writes the soul of the thing. The tools measure and sound the alarm;
+they never write your voice for you. {avail} finished books are on the shelf, free to read and download.</p>
+{patron}
+<div class="cta"><a class="btn" href="technology.html">How the technology works</a>
+<a class="btn ghost" href="letter.html">Why this house exists</a>
+<a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a></div>
+</div></section>""",
+        """<hr class="hr"><section class="mission" id="founder"><div class="wrap">
+<div class="eyebrow">Founder</div>
 <h2 style="font-size:28px;margin:.3em 0">Andries J. Greyling</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Founder of Arjuna Badger Press, author,
-and builder of AI-assisted publishing systems: the static library, the reader PWA, the marketplace
-surface, the authoring workflow, and the agent-memory tool <code>/sleep</code>.</p>
-<div class="cta"><a class="btn" href="cv.html">Open the self-owned CV</a>
-<a class="btn ghost" href="technology.html">Read the technology</a></div>
-</div></section>""")
-
-    parts.append(f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Author and builder of the library, reader PWA, marketplace surface, authoring workflow, and <code>/sleep</code>.</p>
+<div class="cta"><a class="btn" href="cv.html">Open the CV</a></div>
+</div></section>""",
+        f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
 <div class="eyebrow">The other half</div>
 <h2 style="font-size:28px;margin:.3em 0">A sister proof</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Across the table from these stories sits a
-different kind of book — a unified theory that derives the fundamental constants from a single axiom and
-one measured input, with zero fitted parameters. Its author is a man this library will name only as
-<em>the author of the unified theory</em>. Part of what is on the shelf above is that theory turned into
-people and places: the other half of one idea. I did not believe it could be true, so I built a machine
-to check — offline, deterministic, no fitted parameters. The theory is his. The proof is mine.</p>
-<div class="cta"><a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory &rarr;</a>
-<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof &rarr;</a></div>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic,
+no fitted parameters. The theory is his. The proof is mine.</p>
+<div class="cta"><a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory →</a>
+<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof →</a></div>
+</div></section>
+<p style="text-align:center;margin:36px 0 12px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>""",
+        footer(),
+    ])
+
+
+def render_index(entries: list[dict]) -> str:
+    avail = sum(1 for e in entries if e["available"])
+    read_now = sum(1 for e in entries if e["available"] or e.get("serial"))
+    pending = sum(1 for e in entries if not e["available"] and not e.get("serial"))
+    parts = [head("Arjuna Badger Press — the library",
+                  "Free books, finished to a studio standard — read online or download EPUB and PDF."),
+             nav()]
+    parts.append(f"""<header class="hero"><div class="wrap">
+<img class="crest" src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest">
+<h1>Arjuna Badger Press</h1>
+<div class="tag serif">{TAGLINE}</div>
+<p class="lead">Finished books, free to read. Fact-checked, both sides told, the door left open.</p>
+<div class="cta"><a class="btn" href="#library">Browse the library</a>
+<a class="btn ghost" href="start.html">Not sure where to start?</a></div>
+</div></header><hr class="hr">""")
+
+    parts.append(f"""<section id="library"><div class="wrap library-intro">
+<div class="eyebrow">The library</div>
+<h2>{read_now} books to read now</h2>
+<p>{avail} available to download · read online · EPUB &amp; PDF free.{" "+str(pending)+" more in the studio — see About the press." if pending else ""}</p>
+</div></section>""")
+    parts.append(render_library_shelves(entries, available_only=True))
+    parts.append('<hr class="hr">')
+    parts.append(render_index_explore())
+    parts.append('<hr class="hr">')
+    parts.append(render_mission_compact())
+    patron = (
+        f' If a book moved you, you can <a href="support.html">support the press</a> — only if you want to.'
+        if patronage_enabled() else ""
+    )
+    parts.append(f"""<section class="index-foot"><div class="wrap">
+<p>Arjuna Badger Press — the archer's eye, the badger's nerve. <a href="press.html">About the press</a> ·
+<a href="letter.html">A letter</a> · <a href="house.html">The House</a> · <a href="cv.html">CV</a>.{patron}</p>
 </div></section>""")
     parts.append(footer())
     return "\n".join(parts)
@@ -2707,7 +2789,7 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
         "LLM_TELLS.md": "llm-tells.html",
         "../README.md": "../index.html" if in_terms else "index.html",
         "README.md": "index.html",
-        "../TECHNOLOGY.md": "../../index.html#press" if in_terms else "../index.html#press",
+        "../TECHNOLOGY.md": "../../press.html" if in_terms else "../press.html",
         "../craft/CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
         "../craft/../CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
         "docs/CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
@@ -2765,7 +2847,7 @@ def render_craft_page(src_name: str, slug: str, title: str, desc: str, *, rel: s
         f'<p class="eyebrow" style="text-align:center">Craft Library</p>',
         body,
         f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">{nav_links}</p>',
-        f'<p style="text-align:center;margin-top:24px"><a class="back" href="{rel}index.html#writers">&larr; Back to the library</a></p>',
+        f'<p style="text-align:center;margin-top:24px"><a class="back" href="{rel}index.html#library">&larr; Back to the library</a></p>',
         '</article>',
         footer(rel=rel),
     ])
@@ -2803,8 +2885,8 @@ def docs_rewrite_links(md: str) -> str:
     reps = {
         "FOR_AUTHORS.md": "for-authors.html",
         "THE_PRESS_THESIS.md": "the-press-thesis.html",
-        "TECHNOLOGY.md": "index.html#press",
-        "VERIFICATION_GATE.md": "index.html#press",
+        "TECHNOLOGY.md": "press.html",
+        "VERIFICATION_GATE.md": "press.html",
         "craft/README.md": "craft/index.html",
         "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
         "craft/LLM_TELLS.md": "craft/llm-tells.html",
@@ -2883,10 +2965,10 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
         '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
         '<a href="craft/index.html">Craft Library</a> · '
         '<a href="wiki/index.html">Place Wiki</a> · '
-        '<a href="index.html#press">The Press</a> · '
+        '<a href="press.html">About the press</a> · '
         f'<a href="{gh}">View this document on GitHub</a> · '
-        '<a href="index.html#write">Write with us</a></p>',
-        '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#writers">&larr; Back to the library</a></p>',
+        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>',
+        '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>',
         '</article>',
         footer(),
     ])
@@ -4792,6 +4874,7 @@ def main() -> None:
         if page:
             (OUT / out_name).write_text(page, encoding="utf-8")
     (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+    (OUT / "press.html").write_text(render_press_hub(entries, sum(1 for e in entries if e["available"])), encoding="utf-8")
     (OUT / "cv.html").write_text(render_cv(), encoding="utf-8")
     # Clean URL: arjunabadger.press/cv → cv.html. GitHub Pages runs with .nojekyll
     # (no automatic extensionless serving), so serve a real directory index that
