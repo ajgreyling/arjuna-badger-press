@@ -12,8 +12,7 @@
 *what he copied,*
 *because the files were never shown in court.*
 
-*Hamba kahle is wrong language for Glasgow.*
-*Rest well anyway.*
+*Sawubona.* *I see you.*
 
 ***
 
@@ -1494,9 +1493,8 @@ The screen goes dark.
 
 **For Gary McKinnon.**
 
-Hamba kahle is wrong language for Glasgow.
+*Sawubona.* *I see you.*
 
-Rest well anyway.
 
 The back matter begins.
 

@@ -12,8 +12,7 @@
 *what he copied,*
 *because the files were never shown in court.*
 
-*Hamba kahle is wrong language for Glasgow.*
-*Rest well anyway.*
+*Sawubona.* *I see you.*
 
 ***
 
@@ -40,13 +39,13 @@
 
 Gary learned systems the way other children learned football: by repetition until the body forgot it was learning.
 
-Glasgow in the seventies was rain and bus timetables and the public library on a Saturday with the heating on too high. He was not popular. He was the boy who could make the school's wretched computer behave when the teacher could not, and who went home to a mother who worried in silence and a stepfather who did not always know what to do with a quiet son who flinched at slammed doors. Gary did not name that flinch until much later. He only arranged his life around it.
+Gary McKinnon was born in Glasgow in February 1966 and was raised in London from about age six — rain and bus timetables and a public library on a Saturday with the heating on too high. He was not popular. He was the boy who could make the school's wretched computer behave when the teacher could not, and who went home to a mother who worried in silence and a stepfather who did not always know what to do with a quiet son who flinched at slammed doors — reconstructed detail, not interview-sourced; see ch-99. Gary did not name that flinch until much later. He only arranged his life around it.
 
-By twenty he was in London, living hand to mouth, fixing other people's machines, reading everything he could find about UFOs without saying so out loud at job interviews. Not little green men. Not as a joke. The serious kind: declassified corners, witness statements, the stubborn residue after the debunkers had their turn. And underneath it, the thing that kept him up, the thing he could almost admit to Janis on the good nights: if the stories were true even once, then somewhere in the official world there would be **evidence**. Files. Lists. A drawer that had not been emptied properly.
+He had grown up in London; by his thirties he was living hand to mouth, fixing other people's machines, reading everything he could find about UFOs without saying so out loud at job interviews. Not little green men. Not as a joke. The serious kind: declassified corners, witness statements, the stubborn residue after the debunkers had their turn. And underneath it, the thing that kept him up, the thing he could almost admit to his girlfriend on the good nights: if the stories were true even once, then somewhere in the official world there would be **evidence**. Files. Lists. A drawer that had not been emptied properly.
 
-Janis lived in Crouch End. Her flat was small and warm and full of other people's furniture, including a PC her nephew had abandoned because it was slow and grey and honest about being slow. Gary sat at it after midnight when the house was quiet, dial-up muttering in the corner like a patient animal, cup of tea going cold, screen throwing green light on his face.
+The aunt's house in Crouch End was small and warm — his girlfriend lived there; Gary stayed often, full of other people's furniture, including a PC her nephew had abandoned because it was slow and grey and honest about being slow. Gary sat at it after midnight when the house was quiet, dial-up muttering in the corner like a patient animal, cup of tea going cold, screen throwing green light on his face.
 
-He had told himself he was looking for proof of suppressed technology. Free energy. Antigravity. The patents they buried when the number got too good. That was the version a magistrate might understand. The other version was simpler: *They know. They have pictures. They have names.*
+He had told himself he was looking for proof of suppressed technology. Free energy. Antigravity. The stories they buried when the number got too good. That was the version a magistrate might understand. The other version was simpler: *They know. They have pictures. They have names.*
 
 He started with America because America was where the sky stories went to be filed.
 
@@ -66,11 +65,11 @@ The radiator ticked. London went on sleeping.
 
 The first folder was not dramatic. It was named **Q1_hull_manifest_archive**, the way a tired IT man names things at four p.m. on a Friday. Inside: fiscal years, spreadsheets, readme files written for people who already worked there. Gary read about backup schedules and felt his heart rate drop a fraction — the drop you get when myth turns out to be maintained by humans. Humans made mistakes. Humans left passwords blank.
 
-Janis had gone to bed hours ago. The flat held the silence of a building where everyone sleeps except one person who has found a door. Gary's tea had formed a skin. He peeled it with a thumbnail and drank anyway.
+His girlfriend had gone to bed hours ago. The flat held the silence of a building where everyone sleeps except one person who has found a door. Gary's tea had formed a skin. He peeled it with a thumbnail and drank anyway.
 
 He opened **Q1_hull_manifest_archive/1998/NTO** and the night became a country he would live in for a decade without a passport.
 
-He did not call himself **Solo** yet. He did not know **extradition** would attach to his name like a second surname. He knew only that the cursor blinked — the heartbeat of the machine — and the machine was showing him a drawer the public world insisted did not exist.
+He did not sign it **Solo** yet — the handle the press would later attach to the case. He would use it in places where handles mattered. He did not know **extradition** would attach to his name like a second surname. He knew only that the cursor blinked — the heartbeat of the machine — and the machine was showing him a drawer the public world insisted did not exist.
 
 He began to copy, because seeing without keeping had started to feel like cowardice, and Gary McKinnon was many things, but he was not built for cowardice once a pattern compiled.
 
@@ -94,19 +93,19 @@ You did not have to perform a body in a room. You did not have to interpret face
 
 He used what was available: admin tools meant for IT staff who never thought a man in North London would reach for them with a cup of tea and a moral panic he could not name. The lag was terrible. The connection dropped and came back and dropped again. Each time it returned he felt the same small shock of relief, as if the far side had chosen to keep speaking to him.
 
-He was in Army directories. Navy paths. Air Force shares with names that sounded like exercises until you opened them and found they were not. NASA nodes sat in the map like another country, and Gary went there last because NASA was the word Janis knew, the word that would sound mad if he said it aloud at breakfast.
+He was in Army directories. Navy paths. Air Force shares with names that sounded like exercises until you opened them and found they were not. NASA nodes sat in the map like another country, and Gary went there last because NASA was the word she knew, the word that would sound mad if he said it aloud at breakfast.
 
 He was not mad. That was the problem. The directories compiled. The timestamps were sequential. The metadata on the image folders was not random noise. Someone had built this the way you built any bureaucracy: with columns, with headers, with clerks in the machine.
 
-At two in the morning he realised he had stopped breathing and made himself breathe, in through the nose, out slow, a technique he would learn had a name only later when the word **Asperger's** arrived in a report he did not ask for but needed.
+At two in the morning he realised he had stopped breathing and made himself breathe, in through the nose, out slow, a technique he would learn had a name only years later, when the word **Asperger's** arrived in a report he did not ask for but needed.
 
-He was not thinking about prison. He was thinking that the world's largest military had left a door open, and the door led somewhere that was not in any book he had checked out of Glasgow Library with the good stamp on the inside cover.
+He was not thinking about prison. He was thinking that the world's largest military had left a door open, and the door led somewhere that was not in any book he had checked out of a north London library with the good stamp on the inside cover.
 
 ---
 
 > **ARCHIVE—BBC News Online (excerpt, 2006)**
 >
-> *A British man accused of carrying out the biggest military hack of all time is fighting extradition to the United States. Gary McKinnon, 40, from north London, is alleged to have hacked into 97 US military and NASA computers from his girlfriend's aunt's home in Crouch End… Prosecutors say he caused damage estimated at $700,000. Mr McKinnon has said he was searching for evidence of UFOs and suppressed free energy technology…*
+> *A British man accused of carrying out the biggest military hack of all time is fighting extradition to the United States. Gary McKinnon, 40, from north London, is alleged to have hacked into 97 US military and NASA computers from his girlfriend's aunt's home in Crouch End… Prosecutors say he caused damage estimated at up to $900,000 (figures vary by filing — see ch-99). Mr McKinnon has said he was searching for evidence of UFOs and suppressed free energy technology…*
 >
 > *(Full article in ch-99 sources.)*
 
@@ -134,7 +133,7 @@ Then he kept looking.
 
 That was the part articles always shortened. The extradition papers would call it obsession. His supporters would call it courage. Gary, on the night, called it the next folder. The next sort. The next window where a filter had been left off and the truth, if truth was the word, sat in rows like payroll.
 
-He copied what he could onto Janis's nephew's machine and then onto disks because disks were tangible, because you could put them under a bed and know they existed when the connection died, because the far side of America could vanish with a modem squeal and leave you wondering if you had imagined the whole thing.
+He copied what he could onto disks at the aunt's house because disks were tangible, because you could put them under a bed and know they existed when the connection died, because the far side of America could vanish with a modem squeal and leave you wondering if you had imagined the whole thing.
 
 He did not imagine it.
 
@@ -154,7 +153,7 @@ The connection died at four fourteen a.m. and came back at four twenty-two and d
 
 ---
 
-When the sun came up over Crouch End, Gary closed the laptop and made Janis tea and did not tell her what he had seen, because the words **Non-Terrestrial** had not yet appeared on the screen, only the abbreviation, only **NTO**, only the shape of a branch that was not Navy and not Air Force and not anything the textbooks had prepared him for.
+When the sun came up over Crouch End, Gary closed the laptop and made tea and did not tell his girlfriend what he had seen, because the words **Non-Terrestrial** had not yet appeared on the screen, only the abbreviation, only **NTO**, only the shape of a branch that was not Navy and not Air Force and not anything the textbooks had prepared him for.
 
 He washed the mug. He went to a job interview he would fail for unrelated reasons. He came home. He opened the laptop again.
 
@@ -166,7 +165,7 @@ The door, he would think later, had been open for months. He was simply the firs
 
 The password field was empty again.
 
-Gary sat in Janis's spare chair with the greasy mouse under two fingers and watched the roster load row by row as if the machine were reading aloud in a voice only he could hear.
+Gary sat in a spare chair at his girlfriend's aunt's house in Crouch End, the greasy mouse under two fingers, and watched the roster load row by row as if the machine were reading aloud in a voice only he could hear.
 
 Column headers. Last name. First name. Rank. **Service branch.**
 
@@ -192,19 +191,17 @@ Gary copied until the lag spiked and the window greyed and the connection droppe
 
 When it came back, the roster was still there.
 
-He sorted by commission date and watched the list tell a story the textbooks did not tell. **Vance** to hull **KT—** (non-public). **Ortiz** to the same prefix family. **Nguyen** to **LR—**, transfer note: **F2F terminal — Serpo class routing**.
+He sorted by commission date and watched the list tell a story the textbooks did not tell. **Vance** to hull **KT—** (non-public). **Ortiz** to the same prefix family. **Nguyen** to **LR—**, transfer note: **F2F terminal — off-books routing**.
 
-Serpo looked like a project code. Project codes were how the mundane world hid the extraordinary inside acronyms that bored everyone at parties.
+Project codes were how the mundane world hid the extraordinary inside acronyms that bored everyone at parties. He did not yet have a name for this one — only the branch column and the transfer class compiling like payroll.
 
-He searched the share for **Serpo** and got twelve hits across five years.
+He opened a linked sheet on the yellow-highlighted row. The duration cell was yellow.
 
-He opened a linked sheet. The duration cell was yellow.
-
-The integer in the cell was **4680**.
+The duration field held a day-count he would not trust to memory until he had copied the sheet twice.
 
 He did not do the arithmetic yet. He was not ready for thirteen years to enter his body as a fact. He was ready for **Non-Terrestrial Officers** to enter his body as a fact, because the branch column was still **NTO**, and the names were still names, and Gary McKinnon was still the first civilian who had opened the drawer without asking.
 
-Janis's clock ticked in the hallway.
+A clock ticked in the hallway.
 
 Gary copied the roster to disk, then copied it again because redundancy was the only religion he trusted.
 
@@ -248,7 +245,7 @@ He opened **NTO_roster.xls** in the same session and matched names to hull desig
 
 ---
 
-Gary read the memo twice in his head and went back to the live log, because the live log was what he had. Not the memo, not the article, not the court statement. The rows on the screen at two in the morning with Janis asleep and London outside pretending nothing was happening.
+Gary read the memo twice in his head and went back to the live log, because the live log was what he had. Not the memo, not the article, not the court statement. The rows on the screen at two in the morning with his girlfriend asleep in the next room and London outside pretending nothing was happening.
 
 He did not understand everything he saw.
 
@@ -280,15 +277,11 @@ One row on **Transfers** was highlighted in yellow, as if a clerk had meant to c
 
 **Transfer ID: F2F-1965-0412**
 
-He clicked it. The linked sheet opened and the duration field sat in the cell like an integer with nothing to prove:
-
-**4680**
-
-Gary stared at the number. He opened Calculator because his mind had gone slippery and typed **4680 / 360** and got **13**.
+He clicked it. The linked sheet opened and the duration field sat in the cell as a number of **days** — long enough that when he divided by the year the spreadsheet assumed, the answer was **thirteen**.
 
 Thirteen years.
 
-He did not know the word **Serpo**. He did not know **Zeta Reticuli** yet, though the destination field on the linked row would send him there on a lookup table he should not have been able to reach. He knew only that a spreadsheet maintained like scripture had a row with a duration of thirteen years and a transfer class of fleet to fleet and a branch column that said Non-Terrestrial Officers as if that were a normal way to serve.
+He did not know the destination string yet — it sat in a linked lookup table he had not opened. He knew only that a spreadsheet maintained like scripture had a row with a duration of thirteen years and a transfer class of fleet to fleet and a branch column that said Non-Terrestrial Officers as if that were a normal way to serve.
 
 ---
 
@@ -302,59 +295,59 @@ He did not know the word **Serpo**. He did not know **Zeta Reticuli** yet, thoug
 
 The workbook went to three disks because redundancy was the only religion he trusted.
 
-He said nothing to Janis that night.
+He said nothing to his girlfriend that night.
 
-The next morning he reported illness, and she pressed her palm to his forehead and announced he was burning up, and he was, but not from fever.
+The next morning he called in sick and stayed at the screen.
 
-The integer **4680** sat behind his eyes like an afterimage from a screen he could not close.
+**Thirteen years** sat behind his eyes like an afterimage from a screen he could not close.
 
 ***
 
-# Chapter 7 — 4,680 Days
+# Chapter 7 — Thirteen Years
 
 The destination string did not name a country.
 
 Gary clicked the cell until the full value showed in the formula bar, truncated in the grid, complete in the line above, the way Excel hid horrors in plain sight.
 
-**DEST: ZETA RETICULI SYSTEM — SERPO CLASS — F2F TERMINAL**
+**DEST: NON-PUBLIC — F2F TERMINAL — RT ELIG: N**
 
 He read it twice because the brain does that when it refuses to believe the eye.
 
-Zeta Reticuli he knew from a poster in a bookshop window — two small stars close together, the kind of thing you pointed at in a planetarium and forgot. **Serpo** meant nothing to him yet. **F2F terminal** meant fleet to fleet, end point, the place the transfer ended when duration ran out.
+**F2F terminal** meant fleet to fleet, end point, the place the transfer ended when duration ran out. **RT ELIG: N** meant no round trip on the row — one way, or stay, or something the public vocabulary did not have.
 
-**4680** days.
+**Thirteen years** on site.
 
-Thirteen years.
+Not thirteen months.
 
-He opened the lookup table the string referenced, nested three directories deep in a NASA subtree that should not have talked to a Navy roster without a human hand joining them. Coordinates. Transit durations. Life-support mass allowances in the flat language of logistics. Not myth. Not scripture. **Payload kg. Crew count. Round-trip eligibility: N.**
+He opened the lookup table the string referenced, nested three directories deep in a NASA subtree that should not have talked to a Navy roster without a human hand joining them. Coordinates in a coded form he did not recognise. Transit durations. Life-support mass allowances in the flat language of logistics. Not myth. Not scripture. **Payload kg. Crew count. Round-trip eligibility: N.**
 
 Round-trip eligibility **N**.
 
 Gary sat back from the CRT and the room tilted slightly, the way a room tilts when you realise the documentary you watched last week was not entertainment but a blurred photograph of something real.
 
-He thought of Janis in the other room. He thought of his mother in Glasgow who would cry when the newspapers used his name. He thought of the free-energy patents he had told himself were the point, and knew with a clarity that hurt that the patents had been the excuse his conscience could afford and the roster was the thing he had come for all along.
+He thought of his girlfriend in the other room. He thought of his mother, **Janis Sharp**, in north London — already campaigning before the newspapers had finished with his name. He thought of the suppressed free-energy stories he had told himself were the point, and knew with a clarity that hurt that those stories had been the excuse his conscience could afford and the roster was the thing he had come for all along.
 
 The lookup table columns:
 
 **DEST ID. GRAVITY CLASS. ATM CLASS. CREW MAX. LIFE SUPPORT KG/DAY. TRANSIT DAYS. ROUND-TRIP ELIGIBLE.**
 
-Row for **SERPO CLASS**:
+Row for the linked **DEST ID** (admin code, not a place name on the grid):
 
 **0.92g. FILTER REQUIRED. 12. 41.2. [var]. N.**
 
 Twelve crew max.
 
-Gary stared at **12** because twelve was a number that appeared in church stories and now appeared in a lookup table next to **Zeta Reticuli** like a clerk had copied it from a briefing he was not supposed to see.
+Gary stared at **12** because twelve was a number that appeared in church stories and now appeared in a lookup table next to a destination field that refused to spell itself out in English.
 
-**4680** was not transit time. It was **mission elapsed** — thirteen years on site. Not thirteen months. The spreadsheet treated it the way it treated fuel transfers: as a row that balanced.
+The duration was **mission elapsed** — thirteen years on site. The spreadsheet treated it the way it treated fuel transfers: as a row that balanced.
 
 He wrote in a notebook:
 
-**4680 = elapsed. 12 crew. RT=N. Zeta Reticuli.**
+**13 years elapsed. 12 crew. RT=N. DEST=???**
 
 The handwriting looked like a shopping list. The end of the world often looked like admin.
 
-He whispered **4680** aloud once, not to make it magic, to make it **real** in the air of the flat.
+He whispered *thirteen years* aloud once, not to make it magic, to make it **real** in the air of the flat.
 
 He copied until the connection stuttered.
 
@@ -364,11 +357,11 @@ He opened it again.
 
 Leaving it closed felt like agreeing he had never seen it.
 
-He slept forty minutes and dreamed two suns without knowing why.
+He slept forty minutes and dreamed a progress bar that never reached one hundred percent.
 
 Outside, Crouch End went on being Crouch End.
 
-Inside, the integer sat behind his eyes like an afterimage that would not fade.
+Inside, the duration sat behind his eyes like an afterimage that would not fade.
 
 Building 8 was next.
 
@@ -400,11 +393,11 @@ He did not download everything. He did not have time. He searched by keyword bec
 
 Hits.
 
-Thumbnails in a preview pane, low-res, enough to see shape: a structured object above the limb of Earth, not debris, not ice, not a booster stage caught at the wrong angle unless boosters had learned symmetry.
+Thumbnails in a preview pane, low-res — enough to see shape in the index, not the master McKinnon would later describe rendering line by line on the remote NASA machine, too large for dial-up to pull home: a structured object above the limb of Earth, not debris, not ice, not a booster stage caught at the wrong angle unless boosters had learned symmetry.
 
 His hands shook on the mouse.
 
-He started a download and watched the progress bar crawl because dial-up did not care about revelation.
+He opened the master on the remote side and watched it draw, because dial-up did not care about revelation and could not carry the file anyway.
 
 ---
 
@@ -422,7 +415,7 @@ On this night he read filenames and timestamps and the internal note field on on
 
 Fleet to fleet reference.
 
-He copied what he could before the progress bar stalled at sixty-two percent and the connection died and did not come back for eleven minutes, each of which was its own small duration.
+He copied what he could from the remote session — filenames, timestamps, whatever the connection would carry — before the line died, because dial-up did not care about revelation and could not carry the master anyway.
 
 When it returned, the directory was still there.
 
@@ -442,21 +435,19 @@ That would become the refrain of the decade.
 
 ***
 
-# Chapter 9 — The Download
+# Chapter 9 — The Image
 
-The image was three megabytes.
+The image was too large for dial-up to pull home.
 
-On dial-up in 2001 that was not a file. That was a commitment. That was a relationship.
+On a NASA machine in 2001 that was not a file transfer. That was a vigil. That was watching a remote screen render line by line while the modem sang its thin song in the corner and the CRT threw the partial picture back at him in green. He did not leave the chair because leaving felt like disrespect, like walking away from a door that had opened once and might not open again.
 
-Gary watched the progress bar the way other men watched football — inch by inch, percent by percent, the modem singing its thin song in the corner, the CRT throwing the bar back at him in green. He did not leave the chair because leaving felt like disrespect, like walking away from a door that had opened once and might not open again.
+The first lines showed a curve of Earth and a hard edge above it.
 
-Six percent. The preview pane showed a curve of Earth and a hard edge above it.
+More lines. Shadow side consistent with one light source.
 
-Eleven percent. Shadow side consistent with one light source.
+More. Not a booster, not a satellite dish — unless scratches had learned geometry.
 
-Nineteen percent. Not a booster, not a satellite dish — unless scratches had learned geometry.
-
-Forty-one percent. Gary opened the file properties because systems men trusted metadata; metadata was the clerk's confession.
+Gary opened the file properties on the remote side because systems men trusted metadata; metadata was the clerk's confession.
 
 **Camera: JSC-8—**
 
@@ -468,23 +459,17 @@ Forty-one percent. Gary opened the file properties because systems men trusted m
 
 There was the bridge again — the same string on the roster row, waiting to rhyme with a forum post he had not read yet.
 
-The preview resolved enough to be dangerous: a cigar-shaped structure above the curved limb of Earth, hard edges, shadow agreeing with a single sun and a planet that agreed with ephemeris. Not the smear of a processing artefact unless artefacts had learned to cast shadows.
+The picture resolved enough to be dangerous: a cigar-shaped structure above the curved limb of Earth, hard edges, shadow agreeing with a single sun and a planet that agreed with ephemeris. Not the smear of a processing artefact unless artefacts had learned to cast shadows.
 
-Sixty-two percent.
+The connection dropped mid-render.
 
-The connection dropped.
+Gary made a sound he would be ashamed of later — a small animal sound — and sat with his hands on the desk in the particular silence of dial-up when the world holds its breath. Eleven minutes. He counted them. He did not stand. He did not make tea. He watched the dead screen as if willpower could resume pixels.
 
-Gary made a sound he would be ashamed of later — a small animal sound — and sat with his hands on the desk in the particular silence of dial-up when the world holds its breath. Eleven minutes. He counted them. He did not stand. He did not make tea. He watched the dead bar as if willpower could resume bytes.
-
-The bar returned at sixty-two.
+The session returned.
 
 He breathed like a man surfacing.
 
-Eighty-nine.
-
-One hundred.
-
-The file landed in **COPY/JSC_B8_LIMB_CRAFT_001.TIF**. He opened it full screen.
+The image finished drawing on the remote side — too large to copy whole, but seen.
 
 The craft hung above Earth the way ships hung in library books about futures that had not arrived for everyone but had apparently arrived for someone with a camera and a filing system.
 
@@ -494,9 +479,9 @@ He was not cheering. He was not triumphant. He was the quiet after a diagnosis �
 
 He zoomed until the CRT went soft. He zoomed out because soft was limitation, not truth.
 
-He copied the file to two disks.
+He saved what the connection would carry — roster notes, filenames, spreadsheet fragments — to disks at the aunt's house. The craft image itself he had seen render on the remote side and lost when the line died; he did not keep it.
 
-He started a bundle download of lower-res companions and lost it at thirty percent when the connection died for good at four forty-one a.m.
+He tried for lower-res companions and lost the session for good at four forty-one a.m.
 
 What he had, he had.
 
@@ -504,17 +489,9 @@ What he did not have would haunt the extradition papers — the word **if** pres
 
 But on the screen, in the green light, the image was real.
 
-He sat until the sun came up and the preview pane faded to desktop grey. In the black glass, for a moment, he thought he saw two faint circles of glare — reflection, surely. He would dream them anyway.
+He sat until the preview pane faded to desktop grey. In the black glass, for a moment, he thought he saw two faint circles of glare — reflection, surely. He would dream them anyway.
 
-Janis made breakfast.
-
-"Did you sleep?"
-
-"Yes."
-
-She looked at his face and did not push.
-
-Gary ate toast while the photograph lived on disks under the bed and behind his eyes, heavier than three megabytes, lighter than a decade — both wrong, both true.
+Gary closed the laptop and made tea alone at the aunt's house. He did not tell his girlfriend what he had seen — how could he — with the connection dead and the image still compiling in his head.
 
 The receipt was pixels.
 
@@ -536,13 +513,13 @@ Gary learned the difference between seeing and keeping.
 
 Seeing was the adrenaline, the cursor, the open directory. Keeping was disks labelled badly, files hashed twice, printouts in a folder under a bed, the physical world insisting that the digital world had happened. He was a systems man. He trusted redundancy more than he trusted courts.
 
-He copied until the birds started and Janis stirred and the connection thinned with morning traffic on the line.
+He copied until the birds started and the house at the aunt's place stayed quiet and the connection thinned with morning traffic on the line.
 
-He copied the roster, the transfer log, the lookup table with **ZETA RETICULI** in the destination string, the image that had finished at one hundred percent, the partial bundle that had not.
+He copied the roster, the transfer log, the lookup table with the opaque destination codes — and the memory of an image he had seen render remotely but could not bring home whole.
 
 He wrote himself a note in plain text because plain text outlasted moods:
 
-**F2F-1965-0412—4680 days—NTO—Building 8 HOLD**
+**F2F-1965-0412—13 years—NTO—Building 8 HOLD**
 
 He did not post it anywhere yet.
 
@@ -565,7 +542,7 @@ ships with names that dont match anything public
 if this is exercise data why is it in live admin share
 why blank password on production box
 
-4680 days on one row—someone check my arithmetic—gary
+13 years on one row—someone check my arithmetic—gary
 ```
 
 ---
@@ -596,9 +573,9 @@ When he woke, London was ordinary, and the world under London was not, and he wa
 
 # Chapter 11 — Knock
 
-They came on an ordinary Tuesday.
+They came on an ordinary Tuesday — March 2002, at his flat in **Wood Green**, north London, not the Crouch End aunt's house where most of the looking had happened.
 
-Gary would remember the ordinariness more than the knock itself: Janis's radio in the kitchen, an advert for car insurance, rain on the window that had not decided whether to be winter yet, his own socks mismatched — the kind of detail life gives you when it is about to change shape.
+Gary would remember the ordinariness more than the knock itself: a radio in the kitchen, an advert for car insurance, rain on the window that had not decided whether to be winter yet, his own socks mismatched — the kind of detail life gives you when it is about to change shape.
 
 The knock was polite.
 
@@ -624,7 +601,7 @@ They did not find all the disks.
 
 That would matter later and not enough.
 
-Janis cried in the kitchen — quiet fury, the sound of a woman who had not signed up for a decade but would sign anyway because love was not a contract you renegotiated when the world got strange.
+In the kitchen, someone cried — briefly, turned away. Gary did not ask.
 
 Gary watched the green glow go into a plastic bag and felt grief absurd and precise, like mourning a pet that had been a portal.
 
@@ -644,7 +621,7 @@ They asked if he understood the caution. He understood better than they did.
 
 They asked if he had acted alone. He had. Alone was his native country.
 
-They asked if he had deleted files. He had not.
+They asked if he had deleted files. Prosecutors would later allege he had; he would insist he had not.
 
 They asked what he had been looking for.
 
@@ -652,11 +629,11 @@ Gary said evidence.
 
 They wrote **UFOs** in their notes because that was the word that fit the box.
 
-They did not ask about **Non-Terrestrial Officers**. They did not ask about fleet to fleet. They did not ask about Building 8. They asked about damage. They asked about dates. They asked about a man who had left **your security is crap** in a log as if rudeness were the crime.
+They did not ask about **Non-Terrestrial Officers**. They did not ask about fleet to fleet. They did not ask about Building 8. They asked about damage. They asked about dates. They asked about the message prosecutors said **he** had left in a log — **your security is crap** — as if rudeness were the crime.
 
 Gary learned the first grief of his public life: not disbelief — **omission**. The files were not invited to the interview. The files lived on disks the police did not find or did not understand or did not admit.
 
-He thought of the image at sixty-two percent that had come back to one hundred.
+He thought of the image that had finished rendering on the remote side before the connection died — seen, not kept.
 
 He thought of the roster.
 
@@ -682,13 +659,13 @@ America wanted him.
 
 Gary absorbed that phrase across months of rooms with bad coffee and fluorescent light that turned every complexion the same institutional grey. The United States submitted papers. The United Kingdom read them. Solicitors used words like **forum bar** and **human rights** and **disproportionality** while Gary sat with his hands flat on the table because moving them felt like guilt.
 
-The US indictment catalogued damage figures. Seven hundred thousand dollars. Critical systems. Military networks. NASA computers. Its language assumed malice because malice was the only story that travelled well across an ocean; nuance required translators nobody had budgeted for.
+The US indictment catalogued damage figures — prosecutors and press cited costs from about **$566,000** to **$900,000** depending on the filing and the outlet. Its language assumed malice because malice was the only story that travelled well across an ocean; nuance required translators nobody had budgeted for.
 
-Gary had not deleted. He had looked and left a note about security because he could not not leave it.
+Prosecutors alleged he had deleted files and logs. Gary would maintain he had looked, copied where he could, and left the message about security because he could not not leave it.
 
 The papers did not care about nuance. The papers cared about jurisdiction and examples and the weight of an alliance that needed to show it could punish a man who had walked through open doors in the world's most defended networks.
 
-In the medical room they probed childhood, routine, whether he understood consequences. A psychiatrist used the word **Asperger's** without cruelty, as a lens, not a joke, and Gary felt his chest loosen and tighten in the same breath. A word could be a headline weapon and a clinic relief simultaneously.
+In the medical room they probed childhood, routine, whether he understood consequences. In **2008–2009**, during the extradition battle, psychiatrists would use the word **Asperger's** without cruelty, as a lens, not a joke, and Gary would feel his chest loosen and tighten in the same breath. A word could be a headline weapon and a clinic relief simultaneously.
 
 He was not excusing himself. He was explaining the architecture of his mind.
 
@@ -708,15 +685,15 @@ The extradition hearing room was full of people who would never encounter **NTO*
 
 Gary listened to the excerpt read aloud and heard his life reduced to compatibility with articles he had never studied in school.
 
-He thought of **4680**, of Building 8, of the image above Earth that journalists would call a blur and believers would call proof and sceptics would call artefact and he would call **what I saw**.
+He thought of **thirteen years**, of Building 8, of the image above Earth that journalists would call a blur and believers would call proof and sceptics would call artefact and he would call **what I saw**.
 
 They never showed the files in the hearings. They argued about computers, about damage, about the man.
 
 The files sat in evidence rooms or did not sit, were destroyed or were not destroyed, were mislabelled or lost, and Gary encountered the second grief of his public life: not that people disbelieved him, but that the thing they disbelieved was never allowed to stand up in the light beside the disbelief.
 
-He went back to Crouch End when bail allowed.
+He went back to his flat in north London when bail allowed.
 
-He sat in Janis's flat without the green CRT glow and felt the pattern still compiling behind his eyes.
+He sat there without the green CRT glow and felt the pattern still compiling behind his eyes.
 
 The decade continued.
 
@@ -730,15 +707,15 @@ America still wanted him.
 
 # Chapter 13 — May
 
-Theresa May blocked extradition on a Tuesday in October and Gary learned that history sometimes arrives as a sentence spoken by a woman who had not read his spreadsheet aloud.
+Theresa May blocked extradition on **Tuesday 16 October 2012** and Gary learned that history sometimes arrives as a sentence spoken by a woman who had not read his spreadsheet aloud.
 
 **Human rights**, she said — and meant **Article 3**, and meant **health**, and meant a life that would not be shipped across an ocean to become an example in a story about doors everyone agreed were impossible to walk through.
 
-Gary watched the clip on Janis's TV with the sound low because loud felt indecent.
+Gary watched the clip on the TV with the sound low because loud felt indecent.
 
 He did not cheer. Cheering was for football. This was the quiet after a diagnosis: not cured, not condemned, suspended.
 
-Karen called. Janis cried again, different tears. Gary sat very still and felt something behind his eyes that was not only an integer — relief, maybe, or the strange lightness of a man who had been braced for impact for a decade and discovered the car had missed him without fixing the road.
+His mother, **Janis Sharp**, called. Gary sat very still and felt something behind his eyes that was not only a duration counted in years — relief, maybe, or the strange lightness of a man who had been braced for impact for a decade and discovered the car had missed him without fixing the road.
 
 They had fought ten years about computers. They had fought ten years about damage. They had fought ten years about the man.
 
@@ -758,7 +735,7 @@ The argument was larger than courts.
 
 ---
 
-The UK prosecution dropped later like a shoe falling after the other shoe.
+On **14 December 2012** the CPS announced he would face no UK charges — a separate decision, two months after May's block, not an automatic drop.
 
 People recognised him sometimes. They said **UFO hacker** because it fit the box.
 
@@ -770,7 +747,7 @@ The items matched as compilation.
 
 He made tea and drank it hot.
 
-Janis said, "What now?"
+She said, "What now?"
 
 "Homework," Gary said.
 
@@ -806,7 +783,7 @@ Gary washed the cup.
 
 He slept four hours.
 
-He dreamed the progress bar stuck at sixty-two.
+He dreamed the remote image stuck mid-render, line by line, never finishing.
 
 He woke and checked the disks were still there.
 
@@ -830,9 +807,9 @@ The roster was not produced.
 
 The image was not invited.
 
-**4680** was not invited.
+**Thirteen years** on the spreadsheet row was not invited — the invented duration from Movement I, not the decade of courts.
 
-He learned to live with the gap between what he knew and what the room would hold. Janis left eventually; love and a decade of court dates were different weights on the same scale. Gary moved. He took medication for anxiety when doctors offered it without making a theatre of it. He gave interviews to people who treated him as a curiosity and to people who treated him as a witness and to people who treated him as a joke.
+He learned to live with the gap between what he knew and what the room would hold. The relationship did not survive the decade — the public record says less than novels do; this book does not claim to know why. Gary moved. He took medication for anxiety when doctors offered it without making a theatre of it. He gave interviews to people who treated him as a curiosity and to people who treated him as a witness and to people who treated him as a joke.
 
 He talked about free energy because that was the hook that let the sentence finish.
 
@@ -842,11 +819,9 @@ He did not talk about everything.
 
 Some things lived on disks in boxes he did not open often. The boxes were doors he was not allowed to walk through twice.
 
-The world called him **Solo** in headlines.
-
 The world called him **UFO hacker** in shorter headlines.
 
-The world rarely called him **systems administrator**, the truest title and the least useful for selling newspapers.
+The press also knew him as **Solo**, the handle from the case files, and as a **systems administrator** when a paragraph had room — the truest title and the least useful for selling newspapers.
 
 He aged into a man whose name appeared in footnotes.
 
@@ -878,15 +853,13 @@ He paid bills.
 
 He waited for the world to leak what the world had already filed poorly enough for a man in North London to find it with an empty password field.
 
-In 2005, something would leak on a forum under a name called **Anonymous**.
+In 2005, the **Serpo** serial would begin on Victor Martinez's UFO Updates list — **Anonymous** among the handles.
 
-Gary would read it in 2006 with cold tea and a printout under his bed and an integer behind his eyes.
+Gary would read it in 2006 with cold tea and a printout under his bed and **thirteen years** behind his eyes.
 
-Movement I ended where it had to end: with the man still standing, still unserved by courts, still holding the arithmetic.
+Movement I ended where it had to end: with the man still standing after **ten years** of extradition fight, still unserved on the merits of his files, still holding the arithmetic the forum would soon name in days.
 
-**4680.**
-
-Thirteen years.
+**Thirteen years.**
 
 Fleet to fleet.
 
@@ -1070,7 +1043,7 @@ Henderson said the geology looked taught. Luis said geology was always taught; i
 
 Chaplain Reyes held a service because humans needed ritual the way systems needed logs. The Ebens attended at a distance — not disrespect, professionalism.
 
-Gary McKinnon, seven years old in Glasgow, checked out a library book with stamps.
+Gary McKinnon, seven years old and still in Glasgow before the family moved south, checked out a library book with stamps.
 
 The transfer log on Earth incremented days in a cell no one in this camp could see.
 
@@ -1282,13 +1255,15 @@ That is why the reader believes this chapter, and why ch-99 will audit it withou
 
 Gary read the Serpo thread in order because order was how he compiled cases.
 
+The place-names — **Serpo**, **Zeta Reticuli** — were new here. They had not appeared on his 2001 screens. They appeared in a 2005 serial, and his mind did the only thing a pattern-matcher's mind could do: compare.
+
 Post #1: team selected, 1965, twelve military, two Ebens.
 
 Post #7: planet Serpo, Zeta Reticuli, binary suns.
 
 Post #19: one death on Serpo — Henderson in Gary's body when he read, because believing prose had already taught him geology and grief.
 
-Post #31: duration **4680** days, thirteen years, internal coding **F2F**.
+Post #31: duration **4680** days — the integer spelled out for the first time in anything Gary had read since the spreadsheet — thirteen years, internal coding **F2F**.
 
 Post #47: branch coding on rosters **NTO**.
 
@@ -1296,9 +1271,11 @@ The forum thread was ugly in the way forums were ugly before threads learned des
 
 Gary's hand found the printout under the bed — yellow row reconstructed in pencil because the original highlight had not survived photocopying — and held paper beside screen.
 
-**4680** on disk.
+**Thirteen years** on disk — his own pencil, his own arithmetic from 2001.
 
 **4680** in the post.
+
+The forum had done what Excel had refused: given the duration an integer in plain sight.
 
 Not vindication. Not relief. The sound a man makes when he discovers the world is **consistent** in a direction he cannot unsee.
 
@@ -1330,9 +1307,9 @@ He wrote **F2F-1965-0412** on the margin in pencil.
 
 The extradition clock still ran in 2006. The knock had already happened. May had not yet happened.
 
-Janis came in and looked at his face and did not ask because love had learned the second sun behind his eyes.
+His girlfriend came in and looked at his face and did not ask because love had learned the second sun behind his eyes.
 
-"They leaked it," he said — not to her, to the room, to the boy in Glasgow, to the clerks who typed integers into cells thinking poets were not reading.
+"They leaked it," he said — not to her, to the room, to the boy he had been in London, to the clerks who typed durations into cells thinking poets were not reading.
 
 Poets were reading.
 
@@ -1376,7 +1353,7 @@ The items did not match as values.
 
 They matched as **shape**.
 
-Transfer ID **F2F-1965-0412** on the spreadsheet. Same string on the redaction header. Same duration. Same branch column: **NTO**. Same destination family: **Zeta Reticuli — Serpo class**.
+Transfer ID **F2F-1965-0412** on the spreadsheet — destination codes only on the 2001 disk, no place name spelled out. The forum post named **Zeta Reticuli — Serpo class**; Gary did not treat that as proof. He treated it as rhyme.
 
 Coincidence is a word people use when they have not yet admitted the ledger compiles.
 
@@ -1436,11 +1413,13 @@ That was something the fight had taught him too.
 
 # Chapter 22 — Coda
 
+*The scene below is authorial imagining — not sourced from Gary McKinnon. It is invention in the Invented bin (ch-99).*
+
 They never showed his files in court.
 
 That is the fact the novel does not need to invent.
 
-Gary, older, on a modern screen — not hacking, not hunting — watches a documentary he did not authorise and hears a presenter say **debunked** in the same breath as **McKinnon**.
+In this imagining, Gary — older, on a modern screen, not hacking, not hunting — watches a documentary he did not authorise and hears a presenter say **debunked** in the same breath as **McKinnon**.
 
 He does not throw the remote.
 
@@ -1458,13 +1437,9 @@ Not triumph. Not grief. The face of a man who looked when looking was expensive,
 
 ---
 
-Janis asks if he wants to change the channel.
+The author imagines him leaving the channel on — not masochism, calibration.
 
-"Leave it," he says.
-
-Not masochism. Calibration.
-
-He knows what he copied. He knows the connection dropped before the last directory. He knows what the progress bar taught him at sixty-two percent.
+He knows what he copied. He knows the connection dropped before the last directory. He knows what the remote image taught him when it stopped mid-render.
 
 Debunked is a genre. Genres have adjectives. They do not have hashes.
 
@@ -1494,9 +1469,7 @@ The screen goes dark.
 
 **For Gary McKinnon.**
 
-Hamba kahle is wrong language for Glasgow.
-
-Rest well anyway.
+*Sawubona.* *I see you.*
 
 The back matter begins.
 
@@ -1512,6 +1485,8 @@ The novel **believes on the page** in Gary McKinnon's discoveries and in the Ser
 
 ## I. What Gary McKinnon said he found
 
+**Biography (public record):** Born **10 February 1966, Glasgow**; **raised in London from about age six**. Hacking period **February 2001–March 2002** from his **girlfriend's aunt's house, Crouch End**. Arrest **March 2002** at his flat in **Wood Green**, north London. Handle **Solo**.
+
 | Claim | McKinnon in media | Bin |
 |---|---|---|
 | Hacked US military / NASA systems (2001–2002) from North London | Admitted; CPS/US indictment | **Real** |
@@ -1523,7 +1498,9 @@ The novel **believes on the page** in Gary McKinnon's discoveries and in the Ser
 | **Cigar-shaped craft** image above Earth | Interview descriptions | **Debated** |
 | **Building 8**, Johnson Space Center: sanitised UFO imagery | Interview descriptions | **Debated**; NASA **denies** |
 | Handle **Solo** | Reported | **Real** |
-| **4680 days / thirteen years** on a transfer row | Invented for novel bridge (rhymes Serpo legend) | **Invented** |
+| **Thirteen years** on a transfer row (Movement I) | **Invented** duration — not a quoted McKinnon interview claim; Gary reads it as years/days in Excel, not the integer **4680** | **Invented** |
+| **4680 days** as explicit integer | **Invented** — first appears in **2005 Serpo forum** text (ch 20+), not on Gary's 2001 screens; rhymes Serpo legend | **Invented** / **Legend** (forum) |
+| **Zeta Reticuli / Serpo** destination strings | **Not** in McKinnon's public interview claims; enter the novel via **2005 forum legend** (ch 20+) and Movement II fiction | **Legend** (on-page in Movement II only) |
 
 Primary sources: McKinnon interviews (RichPlanet TV, Project Camelot, various 2006–2012); Guardian/BBC extradition coverage; US indictment (unsealed); UK CPS statements. Verify dates against the public record before citing.
 
@@ -1533,7 +1510,7 @@ Primary sources: McKinnon interviews (RichPlanet TV, Project Camelot, various 20
 
 | Date | Event | Bin |
 |---|---|---|
-| 2001–2002 | Unauthorised access to US military / NASA systems (widely reported as **97** computers; US indictments itemise **93** named systems) | **Real** |
+| 2001–2002 | Unauthorised access to US military / NASA systems — widely reported as **97** government computers; US indictment cites **92** US government systems plus **6** private-business systems (exact scope disputed in filings) | **Real** |
 | 2002 | Arrest; UK investigation begins | **Real** |
 | 2005–2012 | Extradition litigation (UK courts + House of Lords) | **Real** |
 | 2012-10-16 | Home Secretary **Theresa May** blocks extradition — human rights / health (Asperger's; suicide risk) | **Real** |
@@ -1551,11 +1528,11 @@ Public FOIA releases do not confirm McKinnon's specific Building 8 narrative. Th
 
 ---
 
-## IV. Sceptic & mundane readings (fair summary)
+## IV. Mundane vs exotic readings (fair summary)
 
-Mainstream sceptic position: McKinnon misread mundane military metadata — personnel titles, naval logistics, exercise labels — as something exotic; the image files were misidentified or artefact; no corroborating public evidence exists.
+Some readers treat McKinnon's spreadsheet and imagery claims as misread military metadata — personnel titles, naval logistics, exercise labels — or misidentified image files. Others treat them as evidence of something off-books. **This audit does not choose.** The legal record documents **access**; **meaning** is open.
 
-This is a legitimate reading. The novel dramatises the other reading as **true in-world**; both readings co-exist in the audit. Separate *what he accessed* (documented legal record) from *what he believes it means* (interpretation). You are entitled to your own bin.
+The novel dramatises one reading as **true in-world** in Movement I–II; sceptic and believer readings both belong in your homework. Separate *what he accessed* (documented) from *what he believes it means* (interpretation). You are entitled to your own bin — including bins this chapter does not list.
 
 ---
 
@@ -1581,10 +1558,14 @@ Primary source: Victor Martinez UFO Updates list archive (2005–2006). Read wit
 - Dialogue inside remote sessions, unless directly sourced from interviews
 - Character names: Luis, Carter, Henderson (team members on Serpo); the Eben spokespersons
 - **F2F-1965-0412** — the transfer ID string (bridge device linking McKinnon to Serpo)
-- **4680** as an explicit spreadsheet cell tying McKinnon's discovery to the Serpo duration
+- **Thirteen years** duration on Gary's 2001 spreadsheet row (Movement I) — **not** a quoted McKinnon claim; he reads years/days, not the cell **4680**
+- **4680** as explicit integer — **not** on Gary's 2001 screen; first appears in **2005 forum legend** (ch 20+) and Movement II fiction
+- **Zeta Reticuli / Serpo** strings on Gary's 2001 screen — **removed**; those names enter via 2005 forum legend (Movement II), not his documented hack sessions
 - Archive facsimiles: the debrief redaction page, the selection memo, the crew journal fragment
 - The 2003 forum email (reconstructed tone; verify against primary if recovered)
-- Gary's 2026 coda and the Janis reconciliation detail
+- Gary's 2026 coda (authorial imagining — not sourced) and any present-day dialogue attributed to him
+- Glasgow childhood interiority (stepfather, flinch-at-doors) — reconstructed, not interview-sourced
+- Partner / relationship scenes beyond public record — anonymised; no invented breakup causation
 
 ---
 
@@ -1598,7 +1579,8 @@ Primary source: Victor Martinez UFO Updates list archive (2005–2006). Read wit
 | Building 8 imagery | **Debated** |
 | Extradition blocked 2012 | **Real** |
 | Serpo exchange narrative | **Legend** — fiction: **true in-world** |
-| **4680** bridge integer | **Invented** (rhymes legend) |
+| **Thirteen years** (Movement I duration) | **Invented** |
+| **4680** integer | **Invented** — forum/Serpo (ch 20+); not on 2001 screen |
 
 ---
 

@@ -11,13 +11,16 @@
 | Field | Record |
 |---|---|
 | Full name | Gary **McKinnon** |
-| Birth | 10 Feb 1966, Glasgow |
+| Birth | 10 Feb 1966, **Glasgow** |
+| Raised | **London from about age 6** |
 | Handle | **Solo** |
-| Location at offence | North London (Crouch End) |
+| Location at offence | **Girlfriend's aunt's house**, Crouch End, north London |
+| Arrest (Mar 2002) | Flat in **Wood Green**, north London |
 | Period of access | Feb 2001 – Mar 2002 (widely reported) |
-| Systems | US military / NASA networks (Army, Navy, Air Force, NASA — as per his interviews & CPS) |
+| Systems | US military / NASA networks (Army, Navy, Air Force, NASA — as per his interviews & CPS); **97** computers in press / **92+6** in US indictment |
 | Stated motivation | Evidence of **UFO cover-up**; **suppressed free energy / antigravity** (his words in media) |
-| Legal outcome | UK prosecution dropped 2012; **extradition blocked** by Home Secretary **Theresa May** (human rights / health) |
+| Damage alleged | Prosecutors and press cited **~$566,000–$900,000** (figures vary by filing/outlet; disputed) |
+| Legal outcome | UK prosecution dropped 2012; **extradition blocked** by Home Secretary **Theresa May** **16 Oct 2012** (human rights / health); **CPS no UK charges 14 Dec 2012** |
 | Medical context | **Asperger's syndrome** / autism spectrum — cited in extradition & medical reports (press record) |
 
 ---
