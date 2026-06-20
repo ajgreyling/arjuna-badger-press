@@ -1,4 +1,4 @@
-# SEED STORY — *The Non-Terrestrial Officers*
+# SEED STORY — *NULL HORIZON*
 
 > **The Altas Resonance Engine · sister standalone** · slate id `are-mckinnon`
 > **Status:** full-send — ch 1–22 + ch-99 · wonder + surgical line pass · believing register locked
@@ -35,7 +35,7 @@ sorts the bins themselves.
 
 ## 1. Placement — why this exists beside *The Altas Resonance Engine*
 
-| | *The Altas Resonance Engine* (main saga) | ***The Non-Terrestrial Officers*** (this book) |
+| | *The Altas Resonance Engine* (main saga) | ***NULL HORIZON*** (this book) |
 |---|---|---|
 | **Scale** | planetary pattern · many sites | **one man · one keyboard · one hole in the firewall** |
 | **Claim** | competing hypotheses; no final answer | **believes on the page** in what McKinnon saw |
@@ -101,7 +101,7 @@ Chronological + terminal-session braid:
 2. **The walk-in** — `SOLARIS` / military networks; weak passwords; the moral panic of realising you're
    *in*; leaving the message ("your security is crap").
 3. **The finds** — sequenced for slow burn, each beat a chapter cliff:
-   - **`Non-Terrestrial Officers`** — the phrase that names the book.
+   - **`Non-Terrestrial Officers`** — the phrase that names the find.
    - **Fleet-to-fleet transfers** — logistics language in a human military system.
    - **The spreadsheet** — ship names, off-books craft, registry that shouldn't compile.
    - **The image** — structured craft above the atmosphere; the download that takes too long; the copy
@@ -193,7 +193,7 @@ Per-book binding dossier: [`MCKINNON_SERPO_DOSSIERS.md`](MCKINNON_SERPO_DOSSIERS
 
 | Priority | Title | Note |
 |---|---|---|
-| 1 | ***The Non-Terrestrial Officers*** | McKinnon's phrase — names the find |
+| 1 | ***NULL HORIZON*** | McKinnon's phrase — names the find |
 | 2 | ***Solo*** | His handle; intimate |
 | 3 | ***Fleet to Fleet*** | The log line that won't go away |
 | 4 | ***Building 8*** | NASA-specific; narrower |

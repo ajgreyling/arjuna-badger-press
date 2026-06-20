@@ -479,7 +479,7 @@ CURATED = [
     ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato · Book One", "Not a Potato",
      "voynich-manuscript", "build/export",
      "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions — not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close."),
-    ("non-terrestrial-officers", "The Non-Terrestrial Officers", "A true story · Non-fiction", "Non-fiction",
+    ("non-terrestrial-officers", "NULL HORIZON", "A true story · Non-fiction", "Non-fiction",
      "non-terrestrial-officers", "build/export",
      "Gary McKinnon broke into 97 US military and NASA computers from a flat in Crouch End. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field."),
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
