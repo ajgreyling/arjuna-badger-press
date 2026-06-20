@@ -1852,16 +1852,22 @@ def nav_drawer_links(rel: str = "") -> str:
     real_lang = f'<a href="/real-language">People\'s Language</a>' if REAL_LANGUAGE_LIVE else ""
     support = f'<a href="{rel}support.html">Support</a>' if patronage_enabled() else ""
     return (
+        # The three products, first and unmistakable: Library (here) · Studio (the tool) · Safari (the author).
+        f'<p class="navgroup">Arjuna Badger Press</p>'
+        f'<a href="{rel}index.html#library">The Library — read free</a>'
+        f'<a class="navhot" href="/studio">Studio — start writing</a>'
+        f'<a href="{rel}safari/index.html">Safari — meet the man</a>'
         f'<p class="navgroup">Read</p>'
         f'<a href="{rel}index.html#library">Library</a>'
         f'<a href="{rel}start.html">Where to start</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}learn.html">Learn</a>'
         f'<p class="navgroup">Write &amp; publish</p>'
+        f'<a class="navhot" href="/studio">Studio (the writers’ tool)</a>'
         f'<a href="{rel}craft/index.html">Craft library</a>'
         f'<a href="{rel}for-authors.html">Workshop</a>'
         f'<a href="{rel}authoring.html">Phone authoring</a>'
-        f'<a class="navhot" href="{rel}narrators.html">Narrators</a>'
+        f'<a href="{rel}narrators.html">Narrators</a>'
         f'<a href="{rel}audition.html">Audition guide</a>'
         f'<a href="{rel}marketplace.html">Marketplace</a>'
         f'<a href="{rel}printing.html">Printing</a>'
@@ -2737,7 +2743,8 @@ def render_index(entries: list[dict]) -> str:
 <div class="tag serif">{TAGLINE}</div>
 <p class="lead">Finished books, free to read. Fact-checked, both sides told, the door left open.</p>
 <div class="cta"><a class="btn" href="#library">Browse the library</a>
-<a class="btn ghost" href="start.html">Not sure where to start?</a></div>
+<a class="btn ghost" href="start.html">Not sure where to start?</a>
+<a class="btn ghost" href="/studio">Writers → the Studio</a></div>
 </div></header><hr class="hr">""")
 
     parts.append(f"""<section id="library"><div class="wrap library-intro">
@@ -5223,7 +5230,9 @@ def main() -> None:
     # brand assets
     for name in ("logo-master.png", "mark-only.png", "social-og-1200x630.png",
                  "favicon-32.png", "favicon-180.png", "favicon-512.png", "logo-on-light.png",
-                 "house-of-greyling-crest.png", SAFARI_LOGO):
+                 "house-of-greyling-crest.png", SAFARI_LOGO,
+                 # Studio (SaaS) brand — used by the /studio, /write and /login app shell
+                 "logo-saas.png", "mark-saas.png", "favicon-saas-32.png", "favicon-saas-180.png"):
         src = BRAND / name
         if src.is_file():
             shutil.copy2(src, OUT / "assets" / "brand" / name)
