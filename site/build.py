@@ -219,7 +219,7 @@ PUBLISHED = set(
         "the-salt-veil,"
         "voynich-manuscript,"
         # Released 2026-06-20:
-        "non-terrestrial-officers",
+        "null-horizon",
     ).split(",") if s.strip()
 )
 
@@ -237,12 +237,13 @@ SERIAL = set(
 )
 
 # ── Procedural-cover hide ─────────────────────────────────────────────────────────────────────
-# Books whose cover is Pillow-generated (no cover-plate.png, file < RICH_COVER_MIN_BYTES) are
-# withheld from the public shelf until a cinematic plate exists. Exempt: SERIAL ids (daily serial
-# must stay visible), the whole "Not a Potato" line (dossier sub-style is intentional), and
-# PROCEDURAL_SHOW (published flagships whose current cover is good enough for the shelf).
+# Covers under RICH_COVER_MIN_BYTES are typography-only stubs — withheld from the public shelf
+# unless procedural_cover_allowed() says otherwise (SERIAL, Not a Potato, PROCEDURAL_SHOW).
+# No SVG typographic fallback: a book without a rich cover does not ship.
 # Env ABP_SHOW_PROCEDURAL=1 overrides (show everything — dev/preview only).
 RICH_COVER_MIN_BYTES = 500_000
+# When design/cover-plate.png exists, a composed cover below this size is a failed compose run.
+PLATE_COMPOSE_MIN_BYTES = 200_000
 SHOW_PROCEDURAL = os.environ.get("ABP_SHOW_PROCEDURAL", "") in ("1", "true", "yes")
 PROCEDURAL_SHOW = set(
     s.strip() for s in os.environ.get(
@@ -278,16 +279,62 @@ HIDE_BOOKS = set(
     ).split(",") if s.strip()
 )
 
+def cover_candidates(root: Path, exp: Path) -> list[Path]:
+    """All known cover paths for a book, in the usual search order."""
+    return [
+        root / "design" / "cover.png",
+        root / "design" / "cover.jpg",
+        exp / "cover.png",
+        exp / "cover.jpg",
+    ]
+
+
+def resolve_cover(root: Path, exp: Path) -> Path | None:
+    """Pick the richest cover on disk — never prefer a stale small file over export."""
+    found = [c for c in cover_candidates(root, exp) if c.is_file()]
+    if not found:
+        return None
+    return max(found, key=lambda p: p.stat().st_size)
+
+
 def cover_is_procedural(cover: Path | None, root: Path) -> bool:
-    """True when the resolved cover is a small generated placeholder, not a cinematic plate."""
+    """True when the cover is a typography stub, not a composed cinematic plate."""
     if cover is None:
         return True
-    if (root / "design" / "cover-plate.png").is_file():
-        return False
     try:
-        return cover.stat().st_size < RICH_COVER_MIN_BYTES
+        size = cover.stat().st_size
     except OSError:
         return True
+    if size >= RICH_COVER_MIN_BYTES:
+        return False
+    if (root / "design" / "cover-plate.png").is_file():
+        return size < PLATE_COMPOSE_MIN_BYTES
+    return True
+
+
+def procedural_cover_allowed(cid: str, series: str) -> bool:
+    """Series/ids where a small Pillow cover is intentional, not a regression."""
+    return (
+        SHOW_PROCEDURAL
+        or cid in SERIAL
+        or cid in PROCEDURAL_SHOW
+        or series == "Not a Potato"
+    )
+
+
+def purge_stale_procedural_covers(candidates: list[Path], keep: Path | None, root: Path) -> list[Path]:
+    """Hard-delete superseded procedural stubs only when a rich cover is kept."""
+    if keep is None or cover_is_procedural(keep, root):
+        return []
+    deleted: list[Path] = []
+    for cand in candidates:
+        if cand.resolve() == keep.resolve():
+            continue
+        if not cand.is_file() or not cover_is_procedural(cand, root):
+            continue
+        cand.unlink()
+        deleted.append(cand)
+    return deleted
 
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
@@ -479,7 +526,7 @@ CURATED = [
     ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato · Book One", "Not a Potato",
      "voynich-manuscript", "build/export",
      "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions — not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close."),
-    ("non-terrestrial-officers", "NULL HORIZON", "A true story · Non-fiction", "Non-fiction",
+    ("null-horizon", "NULL HORIZON", "A true story · Non-fiction", "Non-fiction",
      "non-terrestrial-officers", "build/export",
      "Gary McKinnon broke into 97 US military and NASA computers from a flat in Crouch End. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field."),
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
@@ -545,6 +592,12 @@ CURATED = [
      "_comingsoon/yonaguni", "build/export",
      "The Yonaguni Monument — a submerged terrace off Japan; natural fracture or cut stone, and Jakobus's gift meets its limit. Coming soon."),
 ]
+
+
+# Former book ids → canonical id (301-style HTML redirect pages at deploy).
+BOOK_REDIRECTS = {
+    "non-terrestrial-officers": "null-horizon",
+}
 
 
 # ── helpers ────────────────────────────────────────────────────────────────────
@@ -778,7 +831,9 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
         imgm = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?$", s)
         if imgm:
             flush_all()
-            alt, src = imgm.group(1), imgm.group(2)
+            alt, src = imgm.group(1).strip(), imgm.group(2)
+            if not alt:
+                alt = "Illustration"
             out.append(
                 f'<figure class="wiki-photo"><img loading="lazy" src="{html.escape(src, quote=True)}" '
                 f'alt="{html.escape(alt)}"><figcaption>{inline(alt)}</figcaption></figure>'
@@ -838,30 +893,6 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
         buf.append(s)
     flush_all()
     return "\n".join(out)
-
-
-def cover_svg(title: str, eyebrow: str, accent: str) -> str:
-    lines = wrap_words(title, 15)[:4]
-    fs = 46 if max((len(x) for x in lines), default=0) <= 11 else (38 if len(lines) <= 3 else 32)
-    total_h = len(lines) * (fs + 8)
-    y0 = 310 - total_h / 2 + fs
-    tspans = "".join(
-        f'<text x="200" y="{y0 + i * (fs + 8):.0f}" text-anchor="middle" '
-        f'font-family="Cormorant Garamond, Georgia, serif" font-weight="600" '
-        f'font-size="{fs}" fill="#EDE9E0">{html.escape(ln)}</text>'
-        for i, ln in enumerate(lines)
-    )
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 620" width="400" height="620">
-  <rect width="400" height="620" fill="#161513"/>
-  <rect x="16" y="16" width="368" height="588" fill="none" stroke="{accent}" stroke-width="1.5" rx="6" opacity="0.8"/>
-  <rect x="24" y="24" width="352" height="572" fill="none" stroke="{accent}" stroke-width="0.6" rx="4" opacity="0.4"/>
-  <text x="200" y="92" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="13" letter-spacing="3" fill="{accent}">{html.escape(eyebrow.upper())}</text>
-  <line x1="150" y1="110" x2="250" y2="110" stroke="{accent}" stroke-width="1" opacity="0.7"/>
-  <circle cx="200" cy="250" r="52" fill="none" stroke="{accent}" stroke-width="0.8" opacity="0.18"/>
-  {tspans}
-  <path d="M170 500 q30 -16 60 0" fill="none" stroke="{accent}" stroke-width="1" opacity="0.6"/>
-  <text x="200" y="556" text-anchor="middle" font-family="Space Grotesk, Arial, sans-serif" font-size="11" letter-spacing="2.5" fill="#BDB6A6">ARJUNA BADGER PRESS</text>
-</svg>"""
 
 
 # ── scan ───────────────────────────────────────────────────────────────────────
@@ -927,17 +958,15 @@ def scan() -> list[dict]:
                     downloads.append(f)
         # blurb precedence: clean SYNOPSIS -> curated fallback -> README (dev-facing, last resort)
         blurb = first_paragraph(root / "SYNOPSIS.md") or fb or first_paragraph(root / "README.md")
-        # cover: real -> none(generated later)
-        cover = None
-        for cand in (root / "design" / "cover.png", root / "design" / "cover.jpg",
-                     exp / "cover.png", exp / "cover.jpg"):
-            if cand.is_file():
-                cover = cand
-                break
-        if (not SHOW_PROCEDURAL and cid not in SERIAL
-                and cid not in PROCEDURAL_SHOW
-                and series != "Not a Potato"
-                and cover_is_procedural(cover, root)):
+        # cover: richest file wins; stale procedural stubs are deleted on sight
+        cands = cover_candidates(root, exp)
+        cover = resolve_cover(root, exp)
+        purged = purge_stale_procedural_covers(cands, cover, root)
+        if purged:
+            print(f"  (deleted stale procedural cover(s) for {cid}: "
+                  f"{', '.join(p.name for p in purged)})")
+        if cover is None or (
+                cover_is_procedural(cover, root) and not procedural_cover_allowed(cid, series)):
             hidden_proc.append(cid)
             continue
         book_md = root / "build" / "BOOK.md"
@@ -1841,8 +1870,7 @@ def with_mermaid(page: str) -> str:
 
 
 def card(e: dict, accent: str) -> str:
-    ext_cover = "png" if e["real_cover"] else "svg"
-    cover = f'<img class="cover" loading="lazy" src="assets/covers/{e["id"]}.{ext_cover}" alt="{html.escape(e["title"])} cover">'
+    cover = f'<img class="cover" loading="lazy" src="assets/covers/{e["id"]}.png" alt="{html.escape(e["title"])} cover">'
     dls = ""
     if e["available"]:
         seen, parts = set(), []
@@ -2090,7 +2118,6 @@ def render_start(entries: list[dict]) -> str:
     # compact book data the result cards need (client-side render)
     books = {}
     for e in entries:
-        ext = "png" if e.get("real_cover") else "svg"
         # first epub / pdf download names
         dl = {}
         for f in e["downloads"]:
@@ -2098,7 +2125,7 @@ def render_start(entries: list[dict]) -> str:
             dl.setdefault(x, f.name)
         books[e["id"]] = {
             "title": e["title"], "sub": e["subtitle"] or e["series"], "series": e["series"],
-            "blurb": e["blurb"] or "", "cover": f"assets/covers/{e['id']}.{ext}",
+            "blurb": e["blurb"] or "", "cover": f"assets/covers/{e['id']}.png",
             "book": f"book/{e['id']}.html", "read": f"read/{e['id']}.html",
             "accent": accents.get(e["series"], "#C8A86B"),
             "available": e["available"], "epub": dl.get("epub", ""), "pdf": dl.get("pdf", ""),
@@ -2468,7 +2495,6 @@ BOOK_KEYWORDS = {
 def book_ld_json(e: dict) -> str:
     """schema.org/Book structured data — Google rich results (author, title, free-to-read, format)."""
     import json as _json
-    ext = "png" if e["real_cover"] else "svg"
     data = {
         "@context": "https://schema.org",
         "@type": "Book",
@@ -2476,7 +2502,7 @@ def book_ld_json(e: dict) -> str:
         "author": {"@type": "Person", "name": "Andries J. Greyling"},
         "publisher": {"@type": "Organization", "name": "Arjuna Badger Press"},
         "url": f'{DOMAIN}/book/{e["id"]}.html',
-        "image": f'{DOMAIN}/assets/covers/{e["id"]}.{ext}',
+        "image": f'{DOMAIN}/assets/covers/{e["id"]}.png',
         "inLanguage": "en",
     }
     if e["series"]:
@@ -2498,7 +2524,7 @@ def book_ld_json(e: dict) -> str:
 
 
 def render_book(e: dict) -> str:
-    cover = f'assets/covers/{e["id"]}.png' if e["real_cover"] else f'assets/covers/{e["id"]}.svg'
+    cover = f'assets/covers/{e["id"]}.png'
     dls = ""
     if e["available"]:
         parts = []
@@ -2609,7 +2635,7 @@ def render_book(e: dict) -> str:
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
              keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS),
              canonical=f'{DOMAIN}/book/{e["id"]}.html',
-             og_image=f'{DOMAIN}/assets/covers/{e["id"]}.{"png" if e["real_cover"] else "svg"}',
+             og_image=f'{DOMAIN}/assets/covers/{e["id"]}.png',
              og_type="book",
              ld_json=book_ld_json(e)),
         nav(rel="../"),
@@ -4530,8 +4556,8 @@ def render_reader(e: dict) -> str:
     # With a TOC: two-column readlayout (sticky left rail + article as DIRECT grid children;
     # .readlayout is self-centering at max-width 1040, no .wrap). Without: bare article.
     main = (f'<div class="readlayout">{toc}'
-            f'<article class="reader">{body}</article></div>{_READER_TOC_JS}'
-            if toc else f'<article class="reader">{body}</article>')
+            f'<article class="reader" lang="en-ZA">{body}</article></div>{_READER_TOC_JS}'
+            if toc else f'<article class="reader" lang="en-ZA">{body}</article>')
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
         trust_banner(rel="../"),
@@ -4640,6 +4666,22 @@ def write_sitemap_and_robots(out: Path) -> int:
     return len(urls)
 
 
+def _write_book_redirect(old_id: str, new_id: str, *, subdir: str) -> None:
+    """Emit a redirect from a retired book/read slug to the canonical page."""
+    target = f"{new_id}.html"
+    canon = f"{DOMAIN}/{subdir}/{target}"
+    page = (
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        f'<link rel="canonical" href="{canon}">'
+        f'<meta http-equiv="refresh" content="0; url={target}">'
+        f'<title>Redirecting…</title>'
+        f'<script>location.replace("{target}"+location.hash)</script>'
+        f'</head><body>Redirecting to <a href="{target}">{html.escape(new_id)}</a>…</body></html>'
+    )
+    (OUT / subdir / f"{old_id}.html").write_text(page, encoding="utf-8")
+
+
 def main() -> None:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -4663,20 +4705,14 @@ def main() -> None:
     entries = scan()
     accents = dict(SERIES)
     for e in entries:
-        accent = accents.get(e["series"], "#C8A86B")
-        # cover
-        if e["cover"]:
-            dst = OUT / "assets" / "covers" / f'{e["id"]}{e["cover"].suffix.lower()}'
-            shutil.copy2(e["cover"], dst)
-            # normalise to .png name used by templates
-            png = OUT / "assets" / "covers" / f'{e["id"]}.png'
-            if dst != png:
-                shutil.copy2(e["cover"], png)
-            e["real_cover"] = True
-        else:
-            (OUT / "assets" / "covers" / f'{e["id"]}.svg').write_text(
-                cover_svg(e["title"], e["subtitle"] or e["series"], accent), encoding="utf-8")
-            e["real_cover"] = False
+        if not e.get("cover"):
+            raise SystemExit(f"build aborted: {e['id']} has no rich cover (procedural SVG fallback removed)")
+        dst = OUT / "assets" / "covers" / f'{e["id"]}{e["cover"].suffix.lower()}'
+        shutil.copy2(e["cover"], dst)
+        # normalise to .png name used by templates
+        png = OUT / "assets" / "covers" / f'{e["id"]}.png'
+        if dst != png:
+            shutil.copy2(e["cover"], png)
         # downloads
         # A workshop-held book ships NO download files and NO read-online page (it is announced as
         # drafting, not published) — so its un-vetted EPUB/PDF is never reachable by direct URL.
@@ -4701,6 +4737,11 @@ def main() -> None:
                 raw_md, e["id"], e["root"], OUT / "read" / "assets" / e["id"]
             )
             (OUT / "read" / f'{e["id"]}.html').write_text(render_reader(e), encoding="utf-8")
+
+    for old_id, new_id in BOOK_REDIRECTS.items():
+        _write_book_redirect(old_id, new_id, subdir="book")
+        if (OUT / "read" / f"{new_id}.html").is_file():
+            _write_book_redirect(old_id, new_id, subdir="read")
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
@@ -4792,11 +4833,11 @@ def main() -> None:
 
     # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
     # The trap: a book's real cover sits ON DISK but is UNTRACKED in git. Every LOCAL build looks
-    # fine (scan() finds the file → real_cover=True), but GitHub Pages deploys only committed files,
-    # so on the live site the cover never checks out and the book falls back to the generated
-    # cover_svg() placeholder. Because the failure is invisible locally, we cannot detect it by
-    # asking "did we use the placeholder?" — we must ask git directly whether the resolved cover is
-    # tracked. Books under _comingsoon/ are MEANT to have no cover yet, so they are exempt.
+    # fine (scan() finds the file), but deploy copies only committed files, so on the live site
+    # the cover never checks out and the book vanishes from the shelf. Because the failure is
+    # invisible locally, we cannot detect it by asking "did we use the placeholder?" — we must ask
+    # git directly whether the resolved cover is tracked. Books under _comingsoon/ are MEANT to
+    # have no cover yet, so they are exempt (and are hidden from the shelf until one exists).
     def _untracked(p: Path) -> bool:
         return subprocess.run(["git", "ls-files", "--error-unmatch", str(p)],
                               capture_output=True).returncode != 0
@@ -4808,11 +4849,11 @@ def main() -> None:
         if e["cover"] is not None:
             if _untracked(e["cover"]):                 # the trap: on disk, not committed
                 cover_warnings.append(
-                    (e["id"], f"cover ON DISK but UNTRACKED — will deploy as a placeholder. "
+                    (e["id"], f"cover ON DISK but UNTRACKED — will vanish on deploy. "
                               f"Fix: git add {e['cover']}"))
-        else:                                          # no cover anywhere for a shelf book
+        elif "_comingsoon" not in e["root"].parts:
             cover_warnings.append(
-                (e["id"], f"no cover found (add {e['root']}/design/cover.png, "
+                (e["id"], f"no rich cover (add {e['root']}/design/cover.png ≥ {RICH_COVER_MIN_BYTES // 1000} KB, "
                           f"or move under books/_comingsoon/ if not ready)"))
     if cover_warnings:
         print("\n  ⚠️  COVER WARNING — these books will NOT show a real cover on the live site:")
