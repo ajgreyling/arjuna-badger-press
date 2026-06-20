@@ -31,14 +31,20 @@ What it does:
 
 ## Navigation (do not regress)
 
-Site nav is **drawer-only at all breakpoints**: brand + hamburger in the sticky bar; links live in
-the left `#navdrawer`. There is **no** wide-screen inline top link bar (`.navinline` was removed
-because the IA has too many links).
+Site nav is **drawer-only at all breakpoints**: brand + hamburger; links grouped in the left `#navdrawer`.
 
-- Source of truth: `nav()` + nav CSS in [`build.py`](build.py)
+**Information architecture**
+
+| Zone | Where |
+|---|---|
+| **Front door** | `index.html` — hero, available library, compact mission, explore grid |
+| **Everything else about the house** | `press.html` — platform, pipeline, founder, proof |
+| **Heraldry** | `house.html` |
+
+- Source of truth: `nav_drawer_links()` + `nav()` + CSS in [`build.py`](build.py)
 - `assert_nav_drawer_contract()` runs on every build and **exits non-zero** if inline nav returns
 - Do not add `@media (min-width:…)` rules that show `.navinline` or hide `.hamburger`
-- Hand-maintained pages under `site/*.html` must use the same drawer markup (see `bounty.html`)
+- Homepage shows **available** titles only; pipeline titles live on `press.html#pipeline`
 
 ## Preview locally
 
