@@ -382,6 +382,7 @@ BOOK_TAGLINE = {
     "modern-sherlock-3": "A Modern Retelling, True to the Original",
     "modern-sherlock-4": "A Modern Retelling, True to the Original",
     "modern-sherlock-5": "A Modern Retelling, True to the Original",
+    "henry-sugar":       "A Faithful Retelling for Adults, True to Dahl",
 }
 
 # Optional companion soundtrack — a link to a public playlist that grows over time. Keyed by book id.
@@ -556,6 +557,10 @@ CURATED = [
     ("the-first-unplugged", "The First Unplugged", "A standalone novel", "Standalones",
      "_comingsoon/the-first-unplugged", "build/export",
      "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment. Coming soon."),
+
+    ("henry-sugar", "Henry Sugar", "A standalone novel", "Standalones",
+     "henry-sugar", "build/export",
+     "A bored, wealthy gambler reads a nested account of a man who taught himself to see — and spends years in the boring work of learning, until the card turns over. Roald Dahl's Henry Sugar engine, retold faithfully for adults: original prose, wonder without irony, with Dispenza, Radin, and Sheldrake taken as gospel inside the world. Coming soon."),
 
     # ── Not a Potato — anomaly slate (draft/scaffold — in the workshop) ─────────────────────────
     ("anunnaki-mesopotamia", "The Princely Offspring", "Not a Potato", "Not a Potato",
@@ -1113,14 +1118,8 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .brandlink{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:600;
   letter-spacing:.02em;color:var(--bone)}
 .brandlink img{height:40px;width:40px;border-radius:50%}
-.nav nav.navinline{display:none}
-@media (min-width:1100px){
-  .nav nav.navinline{display:flex;gap:12px 14px;flex-wrap:wrap;align-items:center;margin-left:auto;margin-right:8px}
-  .hamburger{display:none}
-  .navdrawer,.navscrim{display:none!important}
-}
-.nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
-.nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
+/* Drawer-only nav — do NOT reintroduce .navinline or a wide-screen top link bar. */
+.nav nav.navinline{display:none!important}
 
 /* ── Hamburger + slide-out drawer (pure-CSS toggle via #navtoggle checkbox) ─────────────────── */
 .hamburger{margin-left:auto;display:flex;flex-direction:column;justify-content:center;gap:5px;
@@ -1140,6 +1139,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .navdrawer a:hover{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a:focus-visible{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a.navhot{color:var(--sting)}
+.navdrawer a.navhot:hover{color:#e0552e}
 .navclose{position:absolute;top:16px;right:16px;font-size:30px;line-height:1;color:var(--bonedim);
   cursor:pointer;padding:4px 10px;border-radius:8px}
 .navclose:hover{color:var(--bone);background:rgba(229,181,103,.1)}
@@ -1665,12 +1665,10 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
     )
-    # Pure-CSS toggle (checkbox hack) — no JS needed. The hamburger opens a slide-out drawer with
-    # every link; an inline nav still shows on wide screens (where there's room).
+    # Pure-CSS toggle (checkbox hack) — drawer-only at all breakpoints; no inline top nav.
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<nav class="navinline">{links}</nav>
 <label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
@@ -2056,7 +2054,7 @@ START_QUIZ = {
             ("An ancient-mystery adventure", {"book1-africa": 5, "relic": 4, "book2-india": 3, "book5-egypt": 3, "crop-circles": 3}),
             ("A true story of real people", {"sheltering-desert": 5, "project-stargate": 4, "jakobus-silver-thread": 3, "wrath-of-achilles": 2}),
             ("Something quiet, literary and human", {"the-loneliest": 5, "unheard-japan": 4, "jakobus-the-recitation": 3, "the-song-of-the-self": 3}),
-            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4}),
+            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4, "henry-sugar": 4}),
         ],
     },
     "q2": {
@@ -2483,6 +2481,8 @@ BOOK_KEYWORDS = {
                             "Hermann Hesse readers, philosophical novel, free ebook",
     "wrath-of-achilles": "Iliad, Homer, Greek mythology, Achilles, myth retelling, classics, "
                         "Madeline Miller readers, Trojan War, free ebook",
+    "henry-sugar": "Roald Dahl, Henry Sugar, consciousness fiction, Joe Dispenza, Dean Radin, "
+                   "Rupert Sheldrake, meditation fiction, wonder, faithful retelling, free ebook",
     "the-loneliest": "literary fiction, Kazuo Ishiguro readers, quiet literary novel, loneliness, "
                      "book club fiction, free literary ebook",
     # Voynich — for the unsolved-mystery / cryptography / archaeology-mystery crowd.
@@ -4449,7 +4449,7 @@ def render_service_worker() -> str:
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v1";
+    return f"""const CACHE_NAME = "abp-pwa-v2";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -4682,6 +4682,46 @@ def _write_book_redirect(old_id: str, new_id: str, *, subdir: str) -> None:
     (OUT / subdir / f"{old_id}.html").write_text(page, encoding="utf-8")
 
 
+def assert_nav_drawer_contract(out: Path) -> None:
+    """Fail the build if the cluttered inline top nav regresses.
+
+    Policy: hamburger + left drawer at ALL breakpoints. No .navinline bar at ≥1100px.
+    """
+    css = (out / "assets" / "site.css").read_text(encoding="utf-8")
+    for bad in ("navinline{display:flex", "@media (min-width:1100px)"):
+        if bad in css:
+            raise SystemExit(f"nav guard: forbidden CSS {bad!r} in assets/site.css")
+    for need in (
+        ".nav nav.navinline{display:none!important}",
+        ".navdrawer{position:fixed",
+        ".hamburger{margin-left:auto",
+    ):
+        if need not in css:
+            raise SystemExit(f"nav guard: missing CSS {need!r} in assets/site.css")
+
+    samples: list[Path] = [
+        out / "index.html",
+        out / "learn.html",
+        out / "narrators.html",
+        out / "app.html",
+    ]
+    for sub in ("book", "craft"):
+        pages = sorted((out / sub).glob("*.html"))
+        if pages:
+            samples.append(pages[0])
+    # read/*.html uses readbar (back link), not site nav — excluded
+
+    for path in samples:
+        if not path.is_file():
+            continue
+        page = path.read_text(encoding="utf-8", errors="ignore")
+        if 'class="navinline"' in page:
+            raise SystemExit(f"nav guard: inline nav markup in {path.relative_to(out)}")
+        for need in ('id="navtoggle"', 'class="navdrawer"', 'class="hamburger"'):
+            if need not in page:
+                raise SystemExit(f"nav guard: missing {need} in {path.relative_to(out)}")
+
+
 def main() -> None:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -4824,6 +4864,7 @@ def main() -> None:
     # ── SEO: sitemap.xml (every emitted page) + robots.txt ──────────────────────────────────────
     sm_n = write_sitemap_and_robots(OUT)
     feed_n = write_feed(OUT, entries)
+    assert_nav_drawer_contract(OUT)
 
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))

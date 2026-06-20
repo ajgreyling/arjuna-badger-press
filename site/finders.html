@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finders — The Bounty Ledger</title>
+<meta name="description" content="Every submission to the Honey Badger Bounty, in the open: accepted, rejected, pending. See who found what and who got paid.">
+<link rel="canonical" href="https://arjunabadger.press/finders.html">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.finders-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.finders-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.finders-header h1 {
+  font-size: 32px;
+  color: #EDE9E0;
+  margin-bottom: 8px;
+}
+.finders-header p {
+  color: #8a8478;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.finders-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 40px 0;
+}
+.stat-box {
+  background: #1d1a16;
+  border: 1px solid #2a2622;
+  padding: 20px;
+  text-align: center;
+}
+.stat-number {
+  font-size: 28px;
+  color: #E5B567;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.stat-label {
+  color: #8a8478;
+  font-size: 13px;
+}
+.finders-filter {
+  margin: 40px 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.filter-btn {
+  padding: 8px 16px;
+  border: 1px solid #2a2622;
+  background: #161513;
+  color: #EDE9E0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.2s;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: #E5B567;
+  background: #1d1a16;
+  color: #E5B567;
+}
+.finders-list {
+  display: grid;
+  gap: 16px;
+}
+.finder-entry {
+  background: #1d1a16;
+  border-left: 4px solid #2a2622;
+  padding: 20px;
+  border-radius: 2px;
+}
+.finder-entry.accepted {
+  border-left-color: #4caf50;
+}
+.finder-entry.rejected {
+  border-left-color: #ff6b6b;
+}
+.finder-entry.pending {
+  border-left-color: #ffa500;
+}
+.finder-status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.finder-status.accepted {
+  background: rgba(76, 175, 80, 0.2);
+  color: #4caf50;
+}
+.finder-status.rejected {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+}
+.finder-status.pending {
+  background: rgba(255, 165, 0, 0.2);
+  color: #ffa500;
+}
+.finder-header {
+  margin-bottom: 12px;
+}
+.finder-name {
+  color: #E5B567;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 12px;
+}
+.finder-date {
+  color: #8a8478;
+  font-size: 13px;
+}
+.finder-book {
+  color: #EDE9E0;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.finder-category {
+  display: inline-block;
+  padding: 2px 6px;
+  background: #161513;
+  border: 1px solid #2a2622;
+  border-radius: 2px;
+  color: #8a8478;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.finder-finding {
+  color: #8a8478;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 12px 0;
+}
+.finder-prize {
+  color: #E5B567;
+  font-weight: 600;
+  font-size: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #2a2622;
+  margin-top: 12px;
+}
+.finders-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #8a8478;
+}
+.finders-empty p {
+  font-size: 15px;
+  margin: 0;
+}
+.finders-note {
+  background: #161513;
+  border: 1px solid #E5B567;
+  padding: 20px;
+  margin: 40px 0;
+  border-radius: 4px;
+}
+.finders-note p {
+  color: #EDE9E0;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}
+.finders-note strong {
+  color: #E5B567;
+}
+</style>
+</head>
+<body>
+<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
+<div class="nav"><div class="wrap">
+<a class="brandlink" href="index.html"><img src="assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
+<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
+</div></div>
+<label for="navtoggle" class="navscrim" aria-hidden="true"></label>
+<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label><a href="index.html">Home</a><a href="bounty.html">Bounty</a><a href="index.html#library">Library</a></nav>
+
+<article class="finders-container">
+<div class="finders-header">
+<h1>Finders</h1>
+<p>Every submission to the Honey Badger Bounty, in the open. Accepted, rejected, pending. Transparency is the trust contract.</p>
+</div>
+
+<div class="finders-stats">
+<div class="stat-box">
+<div class="stat-number" id="total-count">0</div>
+<div class="stat-label">Total submissions</div>
+</div>
+<div class="stat-box">
+<div class="stat-number" id="accepted-count">0</div>
+<div class="stat-label">Accepted finds</div>
+</div>
+<div class="stat-box">
+<div class="stat-number" id="paid-total">R0</div>
+<div class="stat-label">Total paid out</div>
+</div>
+</div>
+
+<div class="finders-filter">
+<button class="filter-btn active" onclick="filterEntries('all')">All</button>
+<button class="filter-btn" onclick="filterEntries('accepted')">✓ Accepted</button>
+<button class="filter-btn" onclick="filterEntries('rejected')">✗ Rejected</button>
+<button class="filter-btn" onclick="filterEntries('pending')">⏳ Pending</button>
+</div>
+
+<div id="finders-list" class="finders-list">
+<div class="finders-empty">
+<p>The bounty opens <strong>25 June 2026</strong>. Submissions will appear here.</p>
+</div>
+</div>
+
+<div class="finders-note">
+<p><strong>How moderation works:</strong> Every submission is scanned for spam and explicit content. We remove submissions that are off-topic, abusive, or clearly AI-generated spam. Real findings — even if we disagree with them — stay public with our reasoning. Transparency first.</p>
+</div>
+
+</article>
+
+<script>
+// Sample data structure (will be replaced with real data from backend)
+const submissions = [
+  // Placeholder — real submissions will come from the server
+];
+
+let currentFilter = 'all';
+
+function filterEntries(filter) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  event.target.classList.add('active');
+  renderEntries();
+}
+
+function renderEntries() {
+  const container = document.getElementById('finders-list');
+
+  if (submissions.length === 0) {
+    container.innerHTML = `<div class="finders-empty"><p>The bounty opens <strong>25 June 2026</strong>. Submissions will appear here.</p></div>`;
+    updateStats();
+    return;
+  }
+
+  const filtered = currentFilter === 'all'
+    ? submissions
+    : submissions.filter(s => s.status === currentFilter);
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div class="finders-empty"><p>No submissions in this category yet.</p></div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(entry => `
+    <div class="finder-entry ${entry.status}">
+      <div class="finder-status ${entry.status}">${entry.status}</div>
+      <div class="finder-header">
+        <span class="finder-name">${entry.finderName || 'Anonymous'}</span>
+        <span class="finder-date">${new Date(entry.submittedAt).toLocaleDateString('en-ZA')}</span>
+      </div>
+      <div class="finder-book"><strong>${entry.book}</strong></div>
+      <span class="finder-category">${entry.category}</span>
+      <div class="finder-finding">${entry.finding}</div>
+      ${entry.status === 'accepted' ? `<div class="finder-prize">Prize: ${entry.prize}</div>` : ''}
+      ${entry.status === 'rejected' ? `<div style="color: #8a8478; font-size: 13px; padding-top: 12px; border-top: 1px solid #2a2622; margin-top: 12px;">Reason: ${entry.rejectionReason}</div>` : ''}
+    </div>
+  `).join('');
+
+  updateStats();
+}
+
+function updateStats() {
+  const accepted = submissions.filter(s => s.status === 'accepted');
+  const total = submissions.length;
+  const paid = accepted.reduce((sum, s) => {
+    const amount = s.prize.replace(/[^0-9]/g, '');
+    return sum + parseInt(amount);
+  }, 0);
+
+  document.getElementById('total-count').textContent = total;
+  document.getElementById('accepted-count').textContent = accepted.length;
+  document.getElementById('paid-total').textContent = `R${paid.toLocaleString('en-ZA')}`;
+}
+
+// Initial render
+renderEntries();
+</script>
+<script>
+(function(){
+  var cb=document.getElementById("navtoggle");
+  var btn=document.querySelector(".hamburger");
+  if(!cb||!btn)return;
+  function sync(){btn.setAttribute("aria-expanded",cb.checked?"true":"false");}
+  cb.addEventListener("change",sync);
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&cb.checked){cb.checked=false;sync();btn.focus();}
+  });
+  sync();
+})();
+</script>
+</body>
+</html>

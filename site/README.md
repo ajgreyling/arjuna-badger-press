@@ -20,13 +20,25 @@ What it does:
 
 - Curates the catalogue into series (`build.py` → `CURATED`), pulling **real synopses** from each
   book's `SYNOPSIS.md` (curated fallbacks where a book has none).
-- Uses real cover art where it exists (`design/cover.png|jpg`); otherwise renders an elegant
-  **typographic cover** (gold-on-black, in the house style) so every book looks intentional.
+- Uses real cover art where it exists (`design/cover.png|jpg`, or `build/export/cover.png`).
+  **No typographic SVG fallback** — books without a rich cover (≥ 500 KB) are withheld from the
+  shelf until art ships; stale procedural stubs are deleted on build.
 - Copies EPUB/PDF into `public/downloads/<id>/` and links them.
 - Generates a **Read-online** page from each book's merged `build/BOOK.md` where present.
 - Emits `index.html`, `book/<id>.html`, `read/<id>.html`, and the brand assets.
 
 `site/public/` is a **generated artifact** (git-ignored). Rebuild it; never hand-edit it.
+
+## Navigation (do not regress)
+
+Site nav is **drawer-only at all breakpoints**: brand + hamburger in the sticky bar; links live in
+the left `#navdrawer`. There is **no** wide-screen inline top link bar (`.navinline` was removed
+because the IA has too many links).
+
+- Source of truth: `nav()` + nav CSS in [`build.py`](build.py)
+- `assert_nav_drawer_contract()` runs on every build and **exits non-zero** if inline nav returns
+- Do not add `@media (min-width:…)` rules that show `.navinline` or hide `.hamburger`
+- Hand-maintained pages under `site/*.html` must use the same drawer markup (see `bounty.html`)
 
 ## Preview locally
 
