@@ -1,0 +1,70 @@
+{
+  "book": "book1-africa",
+  "title": "THE CALENDAR OF STONE",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "HBT Book 1 — ancient-mystery thriller moving from Cape Town up through sub-Saharan Africa. isiZulu applies (KZN/Zulu country, Adam's Calendar in Mpumalanga). Afrikaans applies for SA setting and Cape-origin protagonist milieu. Spanish + French are catalog-wide market languages.",
+  "targets": [
+    {
+      "code": "zu",
+      "name": "isiZulu",
+      "kind": "regional",
+      "directives": [
+        "Voice: everyday isiZulu as spoken in KwaZulu-Natal — warm, direct, alive. NOT formal SABC/broadcast register, NOT academic-paper Zulu, NOT government-document stiffness.",
+        "Do NOT invent pseudo-Zulu transliterations of English words (e.g. ithri-loji, i-derrick). Use established Zulu words or leave English as a natural code-switch — without prefixing every English noun with i-.",
+        "Translate into standard isiZulu as written in KwaZulu-Natal, respectful registers throughout.",
+        "South African English or Afrikaans words the source uses (bakkie, stoep, veld, kopje, biltong, braai, rooibos, donga, drift) may stay as natural code-switches.",
+        "Archaeological / geological / academic terminology (stratigraphy, lithic, assemblage, radiocarbon, artefact) may stay in English where a Zulu academic would use the English term.",
+        "Proper names, character names, and invented entities stay verbatim.",
+        "Do NOT translate or paraphrase any isiZulu phrases already in the source."
+      ]
+    },
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "kind": "regional",
+      "directives": [
+        "Voice: the people's Afrikaans — contemporary, lived-in, how South Africans actually speak. NOT Hoog-Afrikaans, NOT Netherlands Dutch, NOT archaic Bybel-Afrikaans, NOT newsreader or sermon register. Cape scenes may lean Kaaps where natural; Highveld scenes may lean mine-country speech — always readable, never stiff.",
+        "Dialogue and informal narration: natural spoken rhythm, idiomatic turns. Avoid textbook phrases unless a character is deliberately formal.",
+        "Natural, contemporary South African Afrikaans (Standaardafrikaans with lived warmth), not Netherlands Dutch and not archaic Bybel-Afrikaans.",
+        "South African cultural words already in the source (bakkie, stoep, veld, kopje, biltong, braai, rooibos, donga, drift, highveld) are also Afrikaans — keep them verbatim.",
+        "isiZulu or other African-language phrases in the source stay verbatim.",
+        "Archaeological / scientific terms may stay in English where that is standard in Afrikaans academic usage.",
+        "Proper names, place names, and invented entities stay verbatim."
+      ]
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "kind": "market",
+      "directives": [
+        "Neutral/international Spanish (español neutro) for the widest readership.",
+        "ALL South African words stay verbatim and italicised as foreign terms — do not Hispanicise or gloss them.",
+        "African-language phrases in the source stay verbatim.",
+        "Invented entities and proper names keep their English/source-language form.",
+        "Preserve the adventure / discovery pacing — do not over-explain."
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "kind": "market",
+      "directives": [
+        "Standard international French.",
+        "South African / African-language words stay verbatim, italicised, unglossed.",
+        "Invented entities and proper names keep their English/source-language form.",
+        "Respect register: field-work scenes vs academic debriefs vs action sequences have different registers."
+      ]
+    }
+  ],
+  "global_directives": [
+    "REGISTER: These are novels for real readers, not textbooks or news broadcasts. Regional editions (Afrikaans, isiZulu) must sound like people actually talk — stoep, mine floor, taxi rank — not bulletin or sermon register.",
+    "PRESERVE the front-matter structure of build/BOOK.md exactly: title block, copyright page, dedication, epigraphs, chapter order, any back matter. Translate content; keep ORDER and markdown structure byte-for-byte where structural.",
+    "The copyright notice, ISBN line, and 'Published by the House of Greyling' stay verbatim — only translate surrounding prose.",
+    "Do NOT add translator's notes, footnotes, or bracketed glosses the English source does not contain.",
+    "Chapter titles ARE translated unless they are proper nouns.",
+    "Output one file per language at build/BOOK.<code>.md, ready for tools/render_book.sh."
+  ]
+}

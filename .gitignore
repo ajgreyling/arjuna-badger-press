@@ -32,3 +32,20 @@ node_modules/
 
 # ── Generated static site output (rebuild with site/build.py) ─
 site/public/
+
+# ── Wikidata export (regenerate with tools/wikidata_export.py) ─
+wikidata-export/
+
+# ── ISBN tracker (regenerate with tools/isbn_tracker.py export) ─
+isbn-tracker.csv
+isbn-tracker.md
+
+# ── Distribution upload sheet (regenerate: tools/distribution_sheet.py) ─
+distribution-sheet.csv
+distribution-sheet.md
+
+# ── Translation A/B work trees (run tools/translate_ab.py) ─
+**/build/.translate/
+**/build/BOOK.*.anthropic.md
+**/build/BOOK.*.openai.md
+**/build/BOOK.*.aya.md

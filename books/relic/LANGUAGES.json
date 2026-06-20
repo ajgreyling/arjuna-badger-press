@@ -1,0 +1,69 @@
+{
+  "book": "relic",
+  "title": "AFRICAN GOLD",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "South African adventure novel (KwaZulu-Natal, Witwatersrand, Mpumalanga). isiZulu is the primary regional language (KZN/Zulu setting). Afrikaans applies for SA/Namibia rule. Spanish + French are catalog-wide market languages.",
+  "targets": [
+    {
+      "code": "zu",
+      "name": "isiZulu",
+      "kind": "regional",
+      "directives": [
+        "Voice: everyday isiZulu as spoken in KwaZulu-Natal (Durban, Pietermaritzburg, rural KZN) — warm, direct, alive. NOT formal SABC/broadcast register, NOT academic-paper Zulu, NOT the stiff isiZulu of government documents or textbooks.",
+        "Do NOT invent pseudo-Zulu transliterations of English words (e.g. ithri-loji for 'trilogy', i-derrick for 'derrick', i-handset for 'handset'). Either use the established Zulu word, or leave the English term as a natural code-switch exactly as a KZN speaker would — without prefixing every English noun with i-.",
+        "Translate into standard isiZulu as written in KwaZulu-Natal, with respectful registers (sawubona/sanibona, isiHlonipho where scenes call for it).",
+        "South African English words the source code-switches into — bakkie, biltong, stoep, veld, kopje, donga, drift, highveld, rooibos — may stay as code-switches where a natural isiZulu speaker would use the English or Afrikaans form; do not invent neologisms for mining / engineering equipment.",
+        "Proper names, invented entities (the Court, SAGE), and place names stay verbatim.",
+        "Technical / mining / geological terms (stope, reef, shaft, grade, carat, diff) may stay in English where that is natural in KZN technical speech.",
+        "Do NOT translate or paraphrase any isiZulu phrases already present in the source — they are home language and read naturally to the target reader."
+      ]
+    },
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "kind": "regional",
+      "directives": [
+        "Voice: the people's Afrikaans — contemporary, lived-in, how South Africans actually speak at the braai, on the mine, in the bakkie. NOT Hoog-Afrikaans, NOT Netherlands Dutch, NOT archaic Bybel-Afrikaans, NOT newsreader or sermon register.",
+        "Dialogue and informal narration should use natural spoken rhythm: contractions where English has them, direct address, idiomatic turns. Avoid textbook phrases (ten opsigte van, dit is van die grootste belang, derhalwe) unless a character is deliberately formal.",
+        "Natural, contemporary South African Afrikaans (Standaardafrikaans with lived warmth), not Netherlands Dutch and not archaic Bybel-Afrikaans.",
+        "South African English words the source uses (bakkie, donga, kopje, drift, highveld, rooibos, biltong, stoep, veld) are also natural Afrikaans words — keep them verbatim where they are already in the source.",
+        "isiZulu phrases that appear in the source stay verbatim and untranslated into Afrikaans — they read as isiZulu to an Afrikaans reader exactly as they do to an English one.",
+        "Mining / geological / engineering terms may stay in English where an Afrikaans speaker would naturally code-switch.",
+        "Invented entities (the Court, SAGE, Brotherhood) and proper names stay verbatim."
+      ]
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "kind": "market",
+      "directives": [
+        "Neutral/international Spanish (español neutro) for the widest readership.",
+        "ALL South African words — isiZulu terms AND cultural flavour words (bakkie, biltong, stoep, veld, kopje, donga, drift, highveld, rooibos, biltong) — stay verbatim and italicised as foreign terms. Do not Hispanicise them and do not add footnotes the source lacks.",
+        "Invented entities (the Court, SAGE, Brotherhood) keep their English names.",
+        "Preserve the code-switching texture: the foreignness is the point."
+      ]
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "kind": "market",
+      "directives": [
+        "Standard international French.",
+        "Same foreign-term rule as Spanish: South African words (bakkie, biltong, stoep, veld, kopje, donga, drift, highveld, rooibos) stay verbatim, italicised, unglossed.",
+        "Invented entities (the Court, SAGE, Brotherhood) keep their English names.",
+        "Respect register shifts: the mine floor and the clandestine meetings are different Frenches."
+      ]
+    }
+  ],
+  "global_directives": [
+    "REGISTER: These are novels for real readers, not textbooks or news broadcasts. Regional editions (Afrikaans, isiZulu) must sound like people actually talk — stoep, mine floor, taxi rank — not bulletin or sermon register.",
+    "PRESERVE the front-matter structure of build/BOOK.md exactly: title block, copyright page, dedication, epigraphs, chapter order, and any back matter. Translate their CONTENT; keep their ORDER and markdown structure byte-for-byte where structural (headings, '---' rules, '⁂' breaks).",
+    "The copyright notice, ISBN line, and 'Published by the House of Greyling' stay — translate surrounding prose but keep proper nouns and legal sense intact.",
+    "Do NOT add translator's notes, footnotes, or bracketed glosses the English source does not contain.",
+    "Chapter titles ARE translated unless they are proper nouns.",
+    "Output one file per language at build/BOOK.<code>.md, ready for tools/render_book.sh."
+  ]
+}
