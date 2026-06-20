@@ -1,6 +1,6 @@
 # SYNOPSIS — *NULL HORIZON*
 
-Gary McKinnon broke into 97 US military and NASA computers from a flat in Crouch End. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field.
+From a flat in Crouch End, Gary McKinnon reached 97 US military and NASA computers — not by breaking in, but by walking through open doors marked No Entry that someone had left unlocked. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field.
 
 From a Crouch End flat on dial-up, he walks into US military and NASA networks through empty password fields and finds what no court would later let him show: a roster branch coded **NTO — Non-Terrestrial Officers**, fleet-to-fleet transfer logs, Building 8 imagery, and a spreadsheet row that reads **4680 days** — thirteen years — pointing at **Zeta Reticuli**.
 
