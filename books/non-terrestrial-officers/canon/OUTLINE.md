@@ -1,4 +1,4 @@
-# OUTLINE — *The Non-Terrestrial Officers*
+# OUTLINE — *NULL HORIZON*
 
 > **Slate:** `are-mckinnon` · **Form:** two movements + ch-99 back matter
 > **Driver:** joy and wonder — length follows the story (see `SEED_STORY.md` §2b)

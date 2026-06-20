@@ -1,4 +1,4 @@
-# The Non-Terrestrial Officers
+# NULL HORIZON
 
 **Andries J. Greyling**
 
@@ -1533,11 +1533,11 @@ Primary sources: McKinnon interviews (RichPlanet TV, Project Camelot, various 20
 
 | Date | Event | Bin |
 |---|---|---|
-| 2001–2002 | Unauthorised access to 97 US military / NASA systems | **Real** |
+| 2001–2002 | Unauthorised access to US military / NASA systems (widely reported as **97** computers; US indictments itemise **93** named systems) | **Real** |
 | 2002 | Arrest; UK investigation begins | **Real** |
 | 2005–2012 | Extradition litigation (UK courts + House of Lords) | **Real** |
-| 2012 | Home Secretary **Theresa May** blocks extradition — human rights / health grounds | **Real** |
-| 2012+ | UK prosecution dropped | **Real** |
+| 2012-10-16 | Home Secretary **Theresa May** blocks extradition — human rights / health (Asperger's; suicide risk) | **Real** |
+| 2012-12-14 | **CPS** announces McKinnon will face **no UK charges** (separate decision after extradition block) | **Real** |
 
 Medical reports citing **Asperger's syndrome** / autism spectrum in extradition context: **Real** (press and legal record). The novel treats this with dignity; the diagnosis is a lens, not a headline.
 
@@ -1545,7 +1545,7 @@ Medical reports citing **Asperger's syndrome** / autism spectrum in extradition 
 
 ## III. NASA & DoD responses
 
-NASA and US authorities **denied** that McKinnon found evidence of extraterrestrial craft or covert UFO files. The damage and unauthorised-access allegations are **Real** as charges; their precise scope is disputed in detail.
+NASA and US authorities **did not confirm** McKinnon's UFO or extraterrestrial-craft claims; public statements focused on unauthorised access and damage. The damage and unauthorised-access allegations are **Real** as charges; their precise scope is disputed in detail.
 
 Public FOIA releases do not confirm McKinnon's specific Building 8 narrative. The NASA FOIA reading room and primary denial statements are the correct first port of call; do not rely on secondary summaries.
 
