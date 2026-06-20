@@ -243,6 +243,97 @@ own shop window. There is no separate stack to keep in sync.
 
 ---
 
+## 7a. The named stack — and why each piece earns its place
+
+The abstractions above (Postgres control plane, S3-compatible store, stateless API) are deliberately
+vendor-neutral. Here is what *actually* runs in production today, and the defensible reason each was
+chosen. The throughline is the same two values that shape the whole platform: **privacy** and
+**portability — no vendor lock-in.** Every component below was picked so it can be *swapped or
+self-hosted*, not because a vendor captured us.
+
+| Layer | Today | Why this one | Exit cost if we leave |
+|---|---|---|---|
+| **Compute** | [**Render**](https://render.com) | Plain container running `uvicorn saas.api:app` from a public `render.yaml` — no proprietary runtime, no Render-only SDK in the code. It runs the same `docker compose up` locally. | **Low** — any container host (Fly, Railway, a VPS, your laptop) runs the identical image. |
+| **Database** | [**Neon**](https://neon.tech) | **Postgres, full stop** — chosen because Postgres is known, trusted, and standard; Neon is just managed Postgres with branching, reachable by a plain `DATABASE_URL`. No Neon-specific extensions in the schema. | **Low** — `pg_dump` → restore into any Postgres (RDS, Supabase, self-hosted). The connection string is the only thing that changes. |
+| **Object store** | [**Cloudflare R2**](https://www.cloudflare.com/developer-platform/r2/) | Manuscripts, EPUB/PDF, covers — addressed through the **S3 API via an env var (`BLOB_BACKEND`/`BLOB_ENDPOINT`), never a vendor SDK.** R2 adds zero egress fees, which matters for a free public library. | **Low** — point the endpoint at B2, MinIO, or AWS S3; the code does not change. |
+| **Auth** | [**Auth0**](https://auth0.com) | Identity is the one thing you must not roll yourself. Auth0 speaks **standard OIDC/OAuth2**, so the app holds tokens, not an Auth0 lock-in; **local email/password auth still works with Auth0 switched off** (`ALLOW_LOCAL_AUTH`), so the platform is never *hostage* to the identity provider. | **Medium** — any OIDC provider (Keycloak self-hosted, Cognito, Clerk) drops in behind the same `/auth/*` routes; local auth is the always-available fallback. |
+| **Analytics** | [**Plausible**](https://plausible.io) | **Privacy-first by design** — no cookies, no cross-site tracking, no personal data, GDPR/PECR-clean, and **open-source/self-hostable**. Readers are counted, never surveilled. Chosen *because* it refuses to do what Google Analytics does. | **Low** — it's a single script tag against a domain; self-host the open-source version or drop it entirely with no app changes. |
+| **CDN / TLS** | [**Cloudflare**](https://www.cloudflare.com) | Edge cache + free TLS in front of Render. Standard HTTP semantics; nothing in the app depends on it. | **Low** — remove it and Render serves directly, or front it with any CDN. |
+| **DNS** | [**Namecheap**](https://www.namecheap.com) | Registrar only. | **Trivial** — transfer the domain. |
+
+**Postgres, specifically, because it is trusted — not novel.** The control plane runs on Postgres
+for the least glamorous and most defensible reason: it is the database the author already knows and
+trusts. A publishing platform's job is to *not lose people's work*; that calls for the boring,
+battle-tested, decades-proven engine with the deepest operational knowledge behind it, not the
+newest one. Postgres also doubles as the **broker-free job queue** (`FOR UPDATE SKIP LOCKED`), which
+removes an entire vendor dependency — there is no Redis, no SQS, no proprietary message bus to be
+locked into.
+
+**Extra privacy: bring your own GitHub repo.** Beyond the platform's own encrypted store, an author
+who wants maximum control can keep their manuscript in **their own private GitHub repository** and
+have the engine work against that — the prose lives in a repo *they* own and can make private,
+revoke, or delete, entirely outside the platform's database. (This mirrors how the press itself runs:
+the engine repo is private, and prose never lives inside the tooling tree.) For a life-story or a
+sensitive manuscript, "the source of truth is a repo only I control" is a stronger privacy posture
+than any hosted store can offer.
+
+**The honest test of "no lock-in" is the Exit-cost column.** Every row is **Low** or **Trivial**
+except identity, which is **Medium** and even then has a local fallback that needs no third party at
+all. That is the difference between *using* a managed service and being *captured* by one: we use the
+convenient hosted version today, and the day any of them stops serving us, the move is a config
+change and a data copy — not a rewrite.
+
+---
+
+## 7b. Why Python + FastAPI — the honest answer
+
+Most "tech stack rationale" sections are reverse-engineered: a choice gets made, then a tidy
+justification gets written around it. Here is the truth instead, because the truth is the stronger
+argument.
+
+**The language and the framework were never the point. Shipping books was.** The first version of
+this didn't have a backend at all — it was **GitHub Pages**, flat static HTML, because the only
+goal that mattered was getting finished books in front of readers without asking anyone's permission.
+You don't need a web framework to publish a book; you need a published book. Everything else is
+yak-shaving until that's done.
+
+So when a backend *did* become necessary — auth, a job queue, an engine that runs per-author — the
+framework wasn't agonised over. **It was delegated.** The constraint I actually cared about was not
+"FastAPI vs Django vs Node"; it was a pair of values that *do* matter and that the named-stack table
+above already enforces:
+
+1. **Don't get locked into a cloud provider.** The whole reason I'm here is that locked doors are
+   what this house was built to route around (see [the origin story](/)). A stack that traded the big
+   ebook stores' lock-in for a cloud vendor's lock-in would have missed the entire point. So the test
+   was *portability* — a plain container, a plain Postgres URL, an S3 API behind an env var — not the
+   brand of the web framework.
+2. **Play well with LLMs.** This is an AI-native system: the engine is models, the tooling is built
+   *with* a model in the loop, and the codebase has to be one an LLM can read, extend, and reason
+   about quickly. Python is the lingua franca of that world — the AI SDKs, the data tooling, the
+   examples a model has seen a million of — and **FastAPI is about as legible as a Python web layer
+   gets**: typed, declarative, one obvious way to do things, trivially explainable to a model and to
+   a human. The framework being *boring and conventional* is a feature, not a confession.
+
+Given those two real constraints, the specific framework genuinely didn't warrant a research project,
+so **I let the model pick the conventional default and moved on to the work that mattered.** That is
+not a gap in the reasoning — it *is* the reasoning. Spending a week comparing web frameworks to
+publish books that were already written would have been exactly the kind of permission-seeking
+detour this whole project rejects.
+
+**And the choice is defensible precisely because it's reversible.** The business logic lives in
+`service.py`, framework-agnostic and offline-testable; `api.py` is a thin routing shell over it.
+Swapping FastAPI for something else would touch the shell, not the engine. A stack you can walk away
+from cheaply (the Exit-cost table) is one you're allowed to choose quickly. The discipline went into
+the parts that are expensive to get wrong — continuity gates, the verification gate, portability,
+privacy — and *not* into the parts that are cheap to change. **Knowing which is which is the skill.**
+
+> The one-line version: **the framework was the least important decision, so it got the least
+> deliberation — on purpose. Python and FastAPI win here for being boring, portable, and
+> LLM-legible, and the architecture is built so that if they ever stop winning, replacing them is a
+> shell swap, not a rewrite.**
+
+---
+
 ## 8. Encryption, transparency, and the right to leave
 
 Author work is private and protected — and we are **honest about exactly what that means**. We do not
@@ -305,7 +396,61 @@ explicit redistribution baked into the billing, not a marketing line.
 
 ---
 
-## 10. `/sleep` — memory consolidation as a first-class step
+## 10. People's Language — corpus-first translation
+
+Parallel editions must read like **people talking**, not textbook flatness. **People's Language**
+(*die mense se taal*) is the product name for a stack that routes translation **corpus-first** —
+human corrections outrank any model, the way eval gates outrank raw generation elsewhere in this
+studio.
+
+```mermaid
+flowchart TB
+    subgraph corpus["Human corpus (SSOT)"]
+        TF[translation_fixes.json<br/>Fix a translation programme]
+        SA[sa_urban_*.json<br/>~1,748 urban slang seeds]
+    end
+    CC[correction_corpus.py<br/>load · route · overlay_all]
+    TF --> CC
+    SA --> CC
+    CC --> RL[real_language.py<br/>corpus-first routing + LLM fallback]
+    RL --> API[api.py<br/>POST /api/real-language]
+    RL --> BATCH[translate_ab.py<br/>batch regional pass]
+    API --> UI[real_language.html<br/>live demo UI]
+    BATCH --> FIX[car-handbook-test outputs<br/>test_translate_corpus_offline.py]
+    TF --> PRESS[fix-translation.html<br/>press build · community log]
+    classDef gate fill:#1b1b1b,stroke:#d4af37,color:#fff;
+    class CC,RL gate;
+```
+
+### Routing (three steps, one invariant)
+
+| Step | Route | What happens |
+|---:|---|---|
+| **1** | `corpus` | Exact match on accepted human fix → return immediately, **no LLM** |
+| **2** | `ai_guided` | LLM called with **BINDING CORPUS** block — human entries are law, not hints |
+| **3** | `corpus_overlay` | Post-AI pass replaces any wrong `original` still in output with human `fix` |
+
+Response field `source` tells you which path ran. Human entries default to **weight 100** — always
+outrank model knowledge. Register dial **`temp`**: 0 = formal / scripture, 1 = street slang; each
+book's `LANGUAGES.json` sets the edition default for regional langs (`af`, `zu`, `xh`, `st`, `tn`, `sw`).
+
+### Surfaces
+
+| Surface | Path | Role |
+|---|---|---|
+| **Live demo** | [arjunabadger.press/real-language](https://arjunabadger.press/real-language) | Translate-style UI on the platform |
+| **Fix a translation** | [fix-translation.html](https://arjunabadger.press/fix-translation.html) | Community submissions → `translation_fixes.json` → rebuild |
+| **Batch pipeline** | `tools/translate_ab.py` · `tools/translate_real.sh` | Same router as API; BINDING CORPUS in system prompt |
+| **Offline gate** | `tools/test_translate_corpus_offline.py` | Car-handbook fixture — register guards across six langs |
+| **Feature doc** | [`docs/PEOPLES_LANGUAGE.md`](PEOPLES_LANGUAGE.md) | Product brief · taglines · rollout gates |
+| **API doc** | [`docs/REAL_LANGUAGE.md`](../arjuna-badger-platform/docs/REAL_LANGUAGE.md) | Endpoints · schema · env vars |
+
+> Same invariant as the rest of this document: **the human phrase is binding; the model fills gaps
+> only under corpus law.** Measure and overlay — do not let flat machine register pass as people's speech.
+
+---
+
+## 11. `/sleep` — memory consolidation as a first-class step
 
 The table above lists *state & memory at scale* as a capability — a graph DB and rolling compression
 holding a multi-book world in continuity. That covers the **engine's** memory. It does not cover the

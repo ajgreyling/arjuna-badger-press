@@ -2730,6 +2730,74 @@ they never write your voice for you. {avail} finished books are on the shelf, fr
     ])
 
 
+def render_landing() -> str:
+    """The www / apex front door — the origin story, then a door into each of the three products.
+
+    Served at www.arjunabadger.press (and apex → www). Product cards point at the subdomains, but
+    fall back gracefully to paths when subdomains aren't live yet (the path targets still resolve)."""
+    return "\n".join([
+        head("Arjuna Badger Press — free to read, free to publish",
+             "A publishing house built because the gatekeepers said no. Read finished books free, "
+             "write your own in the Studio, and meet the man who built it.",
+             canonical=f"{DOMAIN}/"),
+        nav(),
+        f"""<header class="hero"><div class="wrap">
+<img class="crest" src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest">
+<h1>Arjuna Badger Press</h1>
+<div class="tag serif">{TAGLINE}</div>
+<p class="lead">A publishing house that exists because the front door was locked — so we built our own, and left it open for everyone.</p>
+<div class="cta"><a class="btn" href="https://library.{DOMAIN.split('//')[1]}/">Read the library — free</a>
+<a class="btn ghost" href="https://studio.{DOMAIN.split('//')[1]}/">Writers → the Studio</a></div>
+</div></header><hr class="hr">""",
+        # ── The origin story ──────────────────────────────────────────────
+        f"""<section class="mission"><div class="wrap" style="max-width:760px">
+<div class="eyebrow">Why this exists</div>
+<h2 style="font-size:30px;margin:.3em 0 .5em">The front door was locked. So I built my own.</h2>
+<div style="color:var(--bonedim);font-size:18px;line-height:1.65">
+<p>I wrote a book. Then I tried to do the obvious thing: publish it, for free, where readers are.</p>
+<p>I couldn't. Not because the work wasn't ready — because the gates were shut. The big stores
+make "free" surprisingly hard: some <strong>won't let you price a book at zero at all.</strong>
+Several demand <strong>ISBNs I can't get</strong> — South Africa issues them free through the
+National Library, but the application site is broken and there is no working alternative, and
+buying commercial ISBNs for a whole catalogue is absurdly expensive. Some platforms
+<strong>don't properly support South Africa</strong> in the first place. Refusing to let a writer
+give a book away — in the age of AI-assisted literature, when the cost of making and shipping a
+clean book has collapsed — is, frankly, insane.</p>
+<p>So I did what Elon Musk did when he wanted to drive an electric car and nobody would sell him a
+good one: <strong>I stopped waiting for permission and built the thing myself.</strong> A whole
+publishing house — the press, the library, the craft, the engine — and I self-published my own work
+on it, free to read, no paywall, no gatekeeper.</p>
+<p>Then the obvious next thought: <strong>why keep it to myself?</strong> Every wall I hit, every
+other writer hits too. So the house became a <strong>platform — a Studio any writer can use</strong>
+to finish a book in their own voice and put it somewhere readers can actually find it. Free to read.
+Free, where it should be, to publish.</p>
+<p class="serif" style="font-style:italic;color:var(--gold);font-size:19px;margin-top:1.2em">The door
+that was locked to me is the one I'm holding open for you.</p>
+</div>
+</div></section><hr class="hr">""",
+        # ── The three products ────────────────────────────────────────────
+        f"""<section class="mission"><div class="wrap">
+<div class="eyebrow">Three ways in</div>
+<h2 style="font-size:28px;margin:.3em 0 .8em">One house, three doors</h2>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+<a class="card" style="--accent:#C8A86B;text-decoration:none" href="https://library.{DOMAIN.split('//')[1]}/">
+<div class="body"><span class="ser">Read</span><h3>The Library</h3>
+<p>Finished books, free to read — online, EPUB, and PDF. Fact-checked, both sides told. A free
+Amazon, only better, with no paywall.</p><span class="badge">library.arjunabadger.press</span></div></a>
+<a class="card" style="--accent:#7C5CFF;text-decoration:none" href="https://studio.{DOMAIN.split('//')[1]}/">
+<div class="body"><span class="ser">Write</span><h3>The Studio</h3>
+<p>The writers' tool. Bring a draft, get a prioritised finish map in your own words, publish straight
+to the library. Simpler than the rest.</p><span class="badge">studio.arjunabadger.press</span></div></a>
+<a class="card" style="--accent:#7BA88C;text-decoration:none" href="https://ajgreyling.{DOMAIN.split('//')[1]}/">
+<div class="body"><span class="ser">The maker</span><h3>Meet the man</h3>
+<p>The person behind the press — the CV, the letters, the House, and the why. The Misogi that started
+all of this.</p><span class="badge">ajgreyling.arjunabadger.press</span></div></a>
+</div>
+</div></section>""",
+        footer(),
+    ])
+
+
 def render_index(entries: list[dict]) -> str:
     avail = sum(1 for e in entries if e["available"])
     read_now = sum(1 for e in entries if e["available"] or e.get("serial"))
@@ -5290,6 +5358,9 @@ def main() -> None:
 
     (OUT / "index.html").write_text(render_index(entries), encoding="utf-8")
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
+    # www / apex generic landing — the origin story + a door into each of the three products.
+    # The app serves this at www.arjunabadger.press (Host-based routing); also reachable at /landing.html.
+    (OUT / "landing.html").write_text(render_landing(), encoding="utf-8")
     if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
         (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     # ── Safari — personal annex (CV, letters, arms, essays) ─────────────────────────────────────
