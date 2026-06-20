@@ -1,0 +1,39 @@
+{
+  "book": "relic",
+  "preserve_verbatim_all_languages": {
+    "in_language_terms": {},
+    "cultural_terms": [
+      "Bakkie",
+      "Biltong",
+      "Donga",
+      "Kopje (also koppie / kopje)",
+      "Rooibos",
+      "Stoep",
+      "Veld"
+    ],
+    "invented_entities": [
+      "The Brotherhood",
+      "The Builders",
+      "The Court"
+    ],
+    "proper_names": [
+      "Abebe Aziz Institute",
+      "Adam's Calendar",
+      "Aksum / Ethiopia",
+      "Arin Ndlela",
+      "AugmenTech",
+      "Brotherhood",
+      "Durban / KwaZulu-Natal",
+      "Great Zimbabwe",
+      "Leila Aziz",
+      "Ndlela",
+      "Priya Ellis",
+      "The Brotherhood",
+      "The Builders",
+      "The Court",
+      "The Witwatersrand",
+      "Theo Price"
+    ]
+  },
+  "note": "Every token above MUST appear UNCHANGED in every translated edition. in_language_terms are deliberately-untranslated source words (keep verbatim); invented_entities and proper_names are story-constant nouns. Do NOT add footnotes or inline glosses the source doesn't have."
+}

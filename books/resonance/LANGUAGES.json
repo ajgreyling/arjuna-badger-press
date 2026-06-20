@@ -12,9 +12,11 @@
       "name": "Afrikaans",
       "kind": "regional",
       "directives": [
+        "Voice: the people's Afrikaans — contemporary, lived-in, how South Africans actually speak at the braai, on the mine, in the bakkie. NOT Hoog-Afrikaans, NOT Netherlands Dutch, NOT archaic Bybel-Afrikaans, NOT newsreader or sermon register.",
+        "Dialogue and informal narration: natural spoken rhythm, idiomatic turns. Avoid textbook phrases unless a character is deliberately formal.",
         "Afrikaans is itself a character-language in this book (boardroom/mine code-switching). When the SOURCE already has an Afrikaans word (veld, stoep, rooibos), leave it — do not 're-translate' it into a different Afrikaans register.",
         "isiZulu passages that are untranslated in the source STAY untranslated and unchanged — do not render them into Afrikaans. They read as isiZulu to an Afrikaans reader exactly as they do to an English one.",
-        "Voice: natural, contemporary South African Afrikaans (Standaardafrikaans with lived warmth), not Netherlands Dutch and not archaic Bybel-Afrikaans.",
+        "Natural, contemporary South African Afrikaans (Standaardafrikaans with lived warmth), not Netherlands Dutch and not archaic Bybel-Afrikaans.",
         "Keep the honey-badger / pangolin imagery literal (ratel, ietermagog) — these animals are native and the words exist."
       ]
     },
@@ -23,6 +25,8 @@
       "name": "isiZulu",
       "kind": "regional",
       "directives": [
+        "Voice: everyday isiZulu as spoken in KwaZulu-Natal — warm, direct, alive. NOT formal SABC/broadcast register, NOT academic-paper Zulu, NOT government-document stiffness.",
+        "Do NOT invent pseudo-Zulu transliterations of English words (e.g. ithri-loji, i-derrick). Use established Zulu words or leave English as a natural code-switch — without prefixing every English noun with i-.",
         "This makes the book's HOME language its whole-text language. The isiZulu phrases already in the source are now simply part of the prose — keep them, and let the surrounding translated text meet them seamlessly.",
         "Technical / robotics / mining-equipment terms may stay in English where a natural isiZulu speaker would code-switch to English (the source itself does this) — do not invent neologisms for 'exoskeleton', 'neural interface', etc.",
         "Proverb 'Umuntu ngumuntu ngabantu' is load-bearing; keep it verbatim and do NOT also gloss it — the isiZulu reader needs no gloss.",
@@ -53,6 +57,7 @@
     }
   ],
   "global_directives": [
+    "REGISTER: These are novels for real readers, not textbooks or news broadcasts. Regional editions (Afrikaans, isiZulu) must sound like people actually talk — stoep, mine floor, taxi rank — not bulletin or sermon register.",
     "PRESERVE the front-matter structure of build/BOOK.md exactly: title block, copyright page, dedication, epigraphs, chapter order, and any back matter (glossary, acknowledgements). Translate their CONTENT; keep their ORDER and markdown structure byte-for-byte where it's structural (headings, '---' rules, '⁂' breaks).",
     "The copyright notice, ISBN line, and 'Published by the House of Greyling' stay — translate surrounding prose but keep proper nouns and the legal sense intact.",
     "Do NOT add translator's notes, footnotes, or bracketed glosses that the English source does not contain. The source trusts the reader; so does every edition.",
