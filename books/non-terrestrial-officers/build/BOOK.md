@@ -1,7 +1,5 @@
 # The Non-Terrestrial Officers
 
-*An Altas Resonance Engine Novel*
-
 **Andries J. Greyling**
 
 ***
