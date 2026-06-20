@@ -90,6 +90,20 @@ FOREWORD_FORM_URL = os.environ.get("ABP_FOREWORD_FORM_URL", "")
 # Optional closing date shown on the page (free text, e.g. "31 August 2026"). Empty = "rolling".
 FOREWORD_DEADLINE = os.environ.get("ABP_FOREWORD_DEADLINE", "")
 
+# ── Fix a translation (first-language colloquialism corrections) ───────────────────────────────
+# AI parallel editions need human ears for idiom and register. First-language speakers submit
+# fixes; accepted ones are listed on the site and credited in the book. Top contributors per
+# language are named and receive a free printed copy of a book of their choice in that language.
+# Toggle the whole surface with TRANSLATION_FIX_LIVE. Data file: docs/translation_fixes.json.
+TRANSLATION_FIX_LIVE = os.environ.get("ABP_TRANSLATION_FIX_LIVE", "1") not in ("", "0", "false", "no")
+TRANSLATION_FIX_FORM_URL = os.environ.get("ABP_TRANSLATION_FIX_FORM_URL", "")
+TRANSLATION_FIX_FORM_BOOK_PARAM = os.environ.get("ABP_TRANSLATION_FIX_BOOK_PARAM", "entry.book")
+TRANSLATION_FIX_FORM_LANG_PARAM = os.environ.get("ABP_TRANSLATION_FIX_LANG_PARAM", "entry.lang")
+TRANSLATION_FIXES_JSON = REPO / "docs" / "translation_fixes.json"
+
+# ── Real Language API (translate-style register control; served by FastAPI at /real-language) ─
+REAL_LANGUAGE_LIVE = os.environ.get("ABP_REAL_LANGUAGE_LIVE", "1") not in ("", "0", "false", "no")
+
 # ── Arjuna Audio narrator intake ──────────────────────────────────────────────────────────────
 # First marketplace wedge: collect narrators before building dashboards. If a hosted form exists,
 # set ABP_NARRATOR_FORM_URL and the page points there. Otherwise it falls back to a mailto form
@@ -146,6 +160,10 @@ EDITION_LANGS = {
     "zh": ("Mandarin", "中文"),
     "mn": ("Mongolian", "Монгол"),
     "ja": ("Japanese", "日本語"),
+    "xh": ("isiXhosa", "isiXhosa"),
+    "st": ("Sesotho", "Sesotho"),
+    "tn": ("Setswana", "Setswana"),
+    "sw": ("Swahili", "Kiswahili"),
     "de": ("German", "Deutsch"),
 }
 
@@ -199,7 +217,9 @@ PUBLISHED = set(
         "the-song-of-the-self,wrath-of-achilles,"
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
-        "voynich-manuscript",
+        "voynich-manuscript,"
+        # Released 2026-06-20:
+        "non-terrestrial-officers",
     ).split(",") if s.strip()
 )
 
@@ -459,6 +479,9 @@ CURATED = [
     ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato · Book One", "Not a Potato",
      "voynich-manuscript", "build/export",
      "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions — not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close."),
+    ("non-terrestrial-officers", "The Non-Terrestrial Officers", "Not a Potato · A Novella", "Not a Potato",
+     "non-terrestrial-officers", "build/export",
+     "Gary McKinnon broke into 97 US military and NASA computers from a flat in Crouch End. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field."),
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
      "_comingsoon/suppressed-tech", "build/export",
      "The inventors who said they had something the world wasn't allowed to keep — read as a careful descent from the documented to the purely believed, holding each man's dignity even where his machine never ran. The official story, the human shock beneath it, the maybe left open. Coming soon."),
@@ -603,7 +626,7 @@ def _slugify(text: str) -> str:
     return t or "section"
 
 
-def md_to_html(md: str) -> str:
+def md_to_html(md: str, *, reader: bool = False) -> str:
     out, buf, bq_buf, list_tag, table_buf = [], [], [], None, []
     _heading_ids: dict[str, int] = {}            # for de-duping heading anchor ids
 
@@ -692,7 +715,7 @@ def md_to_html(md: str) -> str:
             return
         header, body = rows[0], rows[1:]
         out.append('<table class="md-table">')
-        out.append("<thead><tr>" + "".join(f"<th>{inline(c)}</th>" for c in header) + "</tr></thead>")
+        out.append("<thead><tr>" + "".join(f'<th scope="col">{inline(c)}</th>' for c in header) + "</tr></thead>")
         if body:
             out.append("<tbody>")
             for row in body:
@@ -765,6 +788,8 @@ def md_to_html(md: str) -> str:
         if m:
             flush_all()
             lvl = len(m.group(1))
+            if reader:
+                lvl = min(lvl + 1, 6)
             htext = m.group(2)
             hid = _slugify(htext)
             if hid in _heading_ids:
@@ -1014,11 +1039,29 @@ def prepare_reader_images(md: str, book_id: str, book_root: Path, assets_out: Pa
 CSS = """
 :root{
   --black:#161513; --iron:#221f1b; --card:#1d1a16; --bone:#EDE9E0; --bonedim:#BDB6A6;
-  --ochre:#C8A86B; --gold:#E5B567; --grass:#7E7A5A; --line:#2A241D; --sting:#C2401E;
+  --ochre:#C8A86B; --gold:#E5B567; --grass:#9B9684; --line:#2A241D; --sting:#C2401E;
   --violet:#A78BFA; --violet-deep:#7C5CFF; --violet-glow:rgba(124,92,255,.16);
   --reading:"Atkinson Hyperlegible",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;
+    transition-duration:.01ms!important}
+}
+.skip-link{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);
+  white-space:nowrap;border:0}
+.skip-link:focus{position:fixed;left:16px;top:16px;width:auto;height:auto;margin:0;padding:12px 18px;
+  overflow:visible;clip:auto;white-space:normal;z-index:100;background:var(--gold);color:var(--black);
+  font-weight:600;border-radius:8px;box-shadow:0 4px 20px rgba(0,0,0,.5)}
+:focus{outline:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+a:focus-visible,button:focus-visible,.btn:focus-visible,.dl:focus-visible,.qopt:focus-visible,
+.star:focus-visible,.hamburger:focus-visible,.navclose:focus-visible,.navdrawer a:focus-visible,
+.readtoc a:focus-visible,.library-item:focus-visible,.linkbtn:focus-visible{
+  outline:2px solid var(--gold);outline-offset:2px}
+[id]{scroll-margin-top:88px}
+.readbar ~ .readlayout [id],.readbar ~ .reader [id]{scroll-margin-top:120px}
 body{margin:0;background:var(--black);color:var(--bone);
   font-family:Inter,system-ui,-apple-system,sans-serif;line-height:1.65;
   background-image:radial-gradient(1200px 600px at 50% -10%,rgba(200,168,107,.10),transparent 60%);}
@@ -1038,6 +1081,11 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
   letter-spacing:.02em;color:var(--bone)}
 .brandlink img{height:40px;width:40px;border-radius:50%}
 .nav nav.navinline{display:none}
+@media (min-width:1100px){
+  .nav nav.navinline{display:flex;gap:12px 14px;flex-wrap:wrap;align-items:center;margin-left:auto;margin-right:8px}
+  .hamburger{display:none}
+  .navdrawer,.navscrim{display:none!important}
+}
 .nav nav a{color:var(--bonedim);white-space:nowrap} .nav nav a:hover{color:var(--gold)}
 .nav nav a.navhot{color:var(--sting);font-weight:600} .nav nav a.navhot:hover{color:#e0552e}
 
@@ -1057,6 +1105,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .navdrawer a{color:var(--bone);font-family:"Space Grotesk";font-size:16px;padding:11px 14px;
   border-radius:8px;text-decoration:none}
 .navdrawer a:hover{background:rgba(229,181,103,.1);color:var(--gold)}
+.navdrawer a:focus-visible{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a.navhot{color:var(--sting)}
 .navclose{position:absolute;top:16px;right:16px;font-size:30px;line-height:1;color:var(--bonedim);
   cursor:pointer;padding:4px 10px;border-radius:8px}
@@ -1098,7 +1147,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .mission{padding:40px 0}
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
 .pillar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
-.pillar h3{margin:.2em 0 .4em;font-size:18px} .pillar p{margin:0;color:var(--bonedim);font-size:15px}
+.pillar h2,.pillar h3{margin:.2em 0 .4em;font-size:18px} .pillar p{margin:0;color:var(--bonedim);font-size:15px}
 .pillar .n{font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--ochre)}
 
 /* sections */
@@ -1143,6 +1192,7 @@ section.series{padding:46px 0 8px}
   padding:10px 14px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--bone);
   transition:all .15s}
 .qopt:hover{border-color:var(--ochre);color:var(--gold)}
+.qopt:focus-visible{border-color:var(--gold);color:var(--gold)}
 .qopt[aria-pressed="true"]{border-color:var(--gold);background:rgba(229,181,103,.12);color:var(--gold);font-weight:600}
 .qactions{display:flex;gap:12px;justify-content:center;margin-top:26px;flex-wrap:wrap}
 .qactions .btn:disabled{opacity:.4;cursor:not-allowed;pointer-events:none}
@@ -1210,7 +1260,8 @@ pre.mermaid[data-processed] {color:inherit}
   overflow-y:auto;padding:34px 8px 40px 24px;font-family:"Space Grotesk",sans-serif;
   scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 .readtoc::-webkit-scrollbar{width:8px} .readtoc::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
-.readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre)}
+.readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre);
+  font-family:"Space Grotesk",sans-serif;font-weight:600}
 .readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
 .readtoc li{margin:0}
 .readtoc li.sub a{padding-left:24px;font-size:12.5px;color:var(--grass)}
@@ -1304,6 +1355,18 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .dl-lang{font-family:"Space Grotesk";font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;
   border:1px solid var(--ochre);color:var(--ochre)}
 .dl-lang:hover{background:var(--ochre);color:var(--black)}
+.editions-fix{margin:10px 0 0;font-size:13px;color:var(--grass)}
+.editions-fix a{color:var(--ochre)}
+.fixlog{margin:18px 0 0}
+.fixlog table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
+.fixlog th,.fixlog td{padding:10px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}
+.fixlog th{background:rgba(200,168,107,.12);color:var(--gold);font-weight:700}
+.fixlog td{color:var(--bone)}
+.fixlog-empty{font-size:14px;color:var(--grass);font-style:italic;margin:8px 0 0}
+.fixtops{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+.fixtop{flex:1 1 200px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.fixtop h3{font-family:"Space Grotesk";font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);margin:0 0 8px}
+.fixtop li{font-size:14px;color:var(--bone);margin:4px 0}
 .bookrespond{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
 .feedback-link,.endnote-feedback a{font-size:13.5px;color:var(--ochre)}
 .feedback-link{display:inline-block;margin-top:2px}
@@ -1516,7 +1579,8 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
 <script>if("serviceWorker" in navigator){{window.addEventListener("load",function(){{navigator.serviceWorker.register("{rel}sw.js").catch(function(){{}});}});}}</script>
 {plausible_snippet()}{plausible_events_script()}{ld}
 {console_egg()}
-</head><body>"""
+</head><body>
+<a class="skip-link" href="#main">Skip to main content</a>"""
 
 
 def audiobook_notice() -> str:
@@ -1532,7 +1596,7 @@ def trust_banner(rel: str = "") -> str:
     if not BOUNTY_LIVE:
         return ""
     return (f"""<div class="trust-banner" role="note"><div class="wrap">
-🛡️ <strong>We never ask you for money or an OTP — we only ever pay you, and we never DM you first.</strong>
+<span aria-hidden="true">🛡️</span> <strong>We never ask you for money or an OTP — we only ever pay you, and we never DM you first.</strong>
 <a href="{rel}bounty.html">How to know it's really us →</a>
 </div></div>""")
 
@@ -1562,6 +1626,8 @@ def nav(rel: str = "") -> str:
         f'<a href="{rel}letter.html">A letter</a>'
         f'<a href="{rel}feedback.html">Feedback</a>'
         f'{f"""<a class="navhot" href="{rel}forewords.html">Write a foreword</a>""" if FOREWORD_CONTEST_LIVE else ""}'
+        f'{f"""<a href="{rel}fix-translation.html">Fix a translation</a>""" if TRANSLATION_FIX_LIVE else ""}'
+        f'{f"""<a href="/real-language">Real Language</a>""" if REAL_LANGUAGE_LIVE else ""}'
         f'{f"""<a href="{rel}support.html">Support</a>""" if patronage_enabled() else ""}'
         f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="{rel}index.html#write">Write with us</a>'
@@ -1572,11 +1638,11 @@ def nav(rel: str = "") -> str:
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
 <nav class="navinline">{links}</nav>
-<label for="navtoggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
+<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
-<nav class="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close">&times;</label>{links}</nav>
-{trust_banner(rel)}{audiobook_notice()}"""
+<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
+{trust_banner(rel)}{audiobook_notice()}<main id="main">"""
 
 
 def feedback_href(book_title: str | None = None, rating: int | None = None) -> str:
@@ -1639,6 +1705,36 @@ def foreword_href(book_title: str | None = None) -> str:
     return f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subj)}"
 
 
+def translation_fix_href(book_title: str | None = None, lang_code: str | None = None) -> str:
+    """Fix-a-translation target: hosted form (book + language pre-tagged) or mailto:j@ fallback."""
+    if TRANSLATION_FIX_FORM_URL:
+        params = {}
+        if book_title:
+            params[TRANSLATION_FIX_FORM_BOOK_PARAM] = book_title
+        if lang_code:
+            name, endonym = EDITION_LANGS.get(lang_code, (lang_code.upper(), lang_code.upper()))
+            params[TRANSLATION_FIX_FORM_LANG_PARAM] = endonym if endonym != name else name
+        sep = "&" if "?" in TRANSLATION_FIX_FORM_URL else "?"
+        return TRANSLATION_FIX_FORM_URL + (sep + urllib.parse.urlencode(params) if params else "")
+    subj = "Translation fix"
+    if book_title:
+        subj += f": {book_title}"
+    if lang_code:
+        name, _ = EDITION_LANGS.get(lang_code, (lang_code.upper(), lang_code.upper()))
+        subj += f" ({name})"
+    return f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote(subj)}"
+
+
+def load_translation_fixes() -> dict:
+    """Accepted fixes + top contributors — hand-edited JSON, rendered on rebuild."""
+    try:
+        if TRANSLATION_FIXES_JSON.is_file():
+            return json.loads(TRANSLATION_FIXES_JSON.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        pass
+    return {"accepted": [], "top_contributors": {}}
+
+
 def star_rating(book_title: str, rel: str = "", context: str = "book") -> str:
     """A quiet 1–5 star control. No backend: a click fires a Plausible custom event
     ("Rating", props {book, score}) so an aggregate exists in the dashboard you already own, and —
@@ -1698,10 +1794,23 @@ def footer(rel: str = "") -> str:
     extra.append(f'<a href="{rel}feedback.html">Feedback</a>')
     extra.append(f'<a href="{rel}feed.xml">RSS</a>')
     extra_html = (" · " + " · ".join(extra)) if extra else ""
-    return f"""<footer><div class="wrap">
+    return f"""</main><footer><div class="wrap">
 <span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a>{extra_html}</span>
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
-</div></footer></body></html>"""
+</div></footer>
+<script>
+(function(){{
+  var cb=document.getElementById("navtoggle");
+  var btn=document.querySelector(".hamburger");
+  if(!cb||!btn)return;
+  function sync(){{btn.setAttribute("aria-expanded",cb.checked?"true":"false");}}
+  cb.addEventListener("change",sync);
+  document.addEventListener("keydown",function(e){{
+    if(e.key==="Escape"&&cb.checked){{cb.checked=false;sync();btn.focus();}}
+  }});
+  sync();
+}})();
+</script></body></html>"""
 
 
 MERMAID_BOOT = """<script type="module">
@@ -2151,13 +2260,13 @@ studio standard, give the door away free to the unheard, and route most of the m
     parts.append(f"""<section class="mission" id="mission"><div class="wrap">
 <div class="eyebrow">Why this house exists</div>
 <div class="pillars">
-<div class="pillar"><div class="n">01</div><h3>Free for the unheard</h3>
+<div class="pillar"><div class="n">01</div><h2>Free for the unheard</h2>
 <p>A free writing-and-narration workshop for African storytellers. Putting your life into your own
 voice heals. Your work stays yours — keep it private or publish it.</p></div>
-<div class="pillar"><div class="n">02</div><h3>Most of the money is yours</h3>
+<div class="pillar"><div class="n">02</div><h2>Most of the money is yours</h2>
 <p>We disrupt the publisher's cut and the standing-press waste. The artist keeps most of the money
 and <em>all</em> the rights. We Uber the press for short runs.</p></div>
-<div class="pillar"><div class="n">03</div><h3>True, and both sides</h3>
+<div class="pillar"><div class="n">03</div><h2>True, and both sides</h2>
 <p>Every book is fact-checked against live sources and tells contested stories from both sides —
 Weir / Crichton / Brown-grade accuracy, not a nice-to-have.</p></div>
 </div></div></section>""")
@@ -2416,11 +2525,18 @@ def render_book(e: dict) -> str:
                 f'<li><span class="edlang">{html.escape(label)}</span>'
                 f'<span class="edlinks">{"".join(links)}</span></li>'
             )
+        fix_note = ""
+        if TRANSLATION_FIX_LIVE:
+            fix_href = html.escape(translation_fix_href(e["title"]))
+            fix_note = (
+                f'<p class="editions-fix">A first-language speaker? '
+                f'<a href="{fix_href}">Fix a colloquialism</a> in these editions.</p>'
+            )
         editions_html = (
             '<div class="editions"><h2 class="editions-h">Other languages</h2>'
             '<p class="editions-note">AI-translated editions, in the same free spirit. '
             'Original South African and other in-culture words are kept as written.</p>'
-            f'<ul class="edlist">{"".join(rows)}</ul></div>'
+            f'<ul class="edlist">{"".join(rows)}</ul>{fix_note}</div>'
         )
     read = ""
     if e["available"] and (e["book_md"] or e.get("reader_md")):
@@ -2479,6 +2595,12 @@ def render_book(e: dict) -> str:
         isbn_html = (f'<p class="isbn" style="margin-top:18px;color:var(--bonedim);'
                      f'font-size:.85em">ISBN {html.escape(e["isbn"])} · e-book</p>')
     full = html.escape(e["blurb"]) if e["blurb"] else ""
+    fix_link = ""
+    if TRANSLATION_FIX_LIVE and eds:
+        fix_link = (
+            f'<a class="feedback-link" href="{html.escape(translation_fix_href(e["title"]))}">'
+            f'Fix a translation &rarr;</a>'
+        )
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
              keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS),
@@ -2494,7 +2616,8 @@ def render_book(e: dict) -> str:
 <p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
-{f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}</div>
+{f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
+{fix_link}</div>
 <p style="margin-top:30px"><a class="back" href="../index.html#library">← Back to the library</a></p>
 </div></div></div>""",
         footer(rel="../"),
@@ -3143,7 +3266,7 @@ and travel as the life, not the reward at the end of it.</p>
 </section>
 </aside>
 
-<main class="cv-main">
+<div class="cv-main">
 <section class="cv-block">
 <h2>Summary</h2>
 <p>I build useful systems, not demos. Twenty-seven years of enterprise software development (banking,
@@ -3351,7 +3474,7 @@ non-fiction reading, chickens, and practical self-sufficiency projects.</p>
 — the real story is here, on infrastructure I own. For the same reason, this public CV uses my
 consulting address and does not publish home address or personal phone number.</p>
 </section>
-</main>
+</div>
 </div>
 </article>""",
         footer(),
@@ -3396,6 +3519,12 @@ def render_feedback() -> str:
 <p>Anything at all about any book — <a href="{general}">tell the press</a>. It reaches a real person,
 and nothing about you is stored or tracked to send it.</p></div>
 {bounty_block}
+{f'''<div class="entry"><span class="charge">A colloquialism sounds wrong?</span>
+<p>Our parallel editions are machine-translated first passes. If you are a <strong>first-language speaker</strong>
+and a phrase, idiom, or register feels off, you can help —
+<a href="fix-translation.html">fix a translation</a>. Accepted fixes are credited in the book and on the site;
+top contributors in each language are named and receive a free printed copy of a book of their choice
+in that language.</p></div>''' if TRANSLATION_FIX_LIVE else ""}
 <p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
 </article>""",
         footer(),
@@ -3443,6 +3572,125 @@ roughly 300–800 words — short enough to be the door, not the house. {deadlin
 entering you allow us to print your foreword in the book, with credit, if it wins; you keep the
 copyright. We will never ask you for a fee or for money — entry is free and always will be, and the
 only thing that ever changes hands is a book going <em>to</em> you.</p></div>
+
+<p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
+def _render_translation_fix_log(data: dict) -> str:
+    """Accepted fixes table + top contributors — from docs/translation_fixes.json."""
+    accepted = data.get("accepted") or []
+    tops = data.get("top_contributors") or {}
+
+    if accepted:
+        rows = []
+        for item in accepted:
+            lang = item.get("lang") or item.get("lang_code") or ""
+            if lang and lang in EDITION_LANGS:
+                lang_label = EDITION_LANGS[lang][1]
+            else:
+                lang_label = item.get("lang_label") or lang or "—"
+            rows.append(
+                "<tr>"
+                f"<td>{html.escape(str(item.get('book', '—')))}</td>"
+                f"<td>{html.escape(str(lang_label))}</td>"
+                f"<td>{html.escape(str(item.get('original', '—')))}</td>"
+                f"<td>{html.escape(str(item.get('fix', item.get('suggested', '—'))))}</td>"
+                f"<td>{html.escape(str(item.get('contributor', '—')))}</td>"
+                "</tr>"
+            )
+        log_html = (
+            '<div class="fixlog"><table>'
+            "<thead><tr><th>Book</th><th>Language</th><th>Was</th><th>Now</th><th>Credit</th></tr></thead>"
+            f"<tbody>{''.join(rows)}</tbody></table></div>"
+        )
+    else:
+        log_html = '<p class="fixlog-empty">No accepted fixes published yet — the log fills as first-language review lands.</p>'
+
+    top_blocks = []
+    for code in sorted(tops, key=lambda c: EDITION_LANGS.get(c, (c, c))[0]):
+        people = tops[code]
+        if not people:
+            continue
+        name, endonym = EDITION_LANGS.get(code, (code.upper(), code.upper()))
+        label = endonym if endonym != name else name
+        items = []
+        for p in people:
+            if isinstance(p, dict):
+                nm = p.get("name") or p.get("contributor") or "—"
+                cnt = p.get("count") or p.get("fixes")
+                suffix = f" · {cnt} accepted" if cnt else ""
+                items.append(f"<li>{html.escape(str(nm))}{html.escape(suffix)}</li>")
+            else:
+                items.append(f"<li>{html.escape(str(p))}</li>")
+        if items:
+            top_blocks.append(
+                f'<div class="fixtop"><h3>{html.escape(label)}</h3><ul>{"".join(items)}</ul></div>'
+            )
+    tops_html = ""
+    if top_blocks:
+        tops_html = (
+            '<div class="entry"><span class="charge">Top contributors</span>'
+            "<p>The leading voices in each language — named here, and sent a free printed copy of "
+            "any Arjuna Badger Press book they choose in the language they helped.</p>"
+            f'<div class="fixtops">{"".join(top_blocks)}</div></div>'
+        )
+
+    return tops_html + (
+        '<div class="entry"><span class="charge">Accepted fixes</span>'
+        "<p>Corrections we have taken into the edition, credited in the book and listed here in the open.</p>"
+        f"{log_html}</div>"
+    )
+
+
+def render_translation_fix() -> str:
+    """First-language colloquialism corrections for AI parallel editions."""
+    submit = html.escape(translation_fix_href())
+    intro = (
+        "These books ship in parallel editions — Afrikaans, isiZulu, Spanish, French, and the regional "
+        "languages of each story's setting. The first pass is machine translation, guarded by faithfulness "
+        "rules but still blind to the living speech of the street, the kitchen, and the prayer room. "
+        "If that is your language, you can hear what we cannot."
+    )
+    data = load_translation_fixes()
+    log_section = _render_translation_fix_log(data)
+    return "\n".join([
+        head("Fix a translation — Arjuna Badger Press",
+             "First-language speakers: submit corrected colloquialisms for our AI-translated editions. "
+             "Accepted fixes are credited in the book and listed on the site.",
+             canonical=f"{DOMAIN}/fix-translation.html"),
+        nav(),
+        f"""<article class="reader letter">
+<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">For first-language speakers</p>
+<h1 style="text-align:center">Fix a translation</h1>
+<p class="intro" style="text-align:center">{intro}</p>
+
+<div class="entry"><span class="charge">What to send</span>
+<p>Read a translated edition — every book with <strong>Other languages</strong> on its page. When a
+colloquialism, idiom, or register feels wrong, tell us: which book, which language, the passage as it
+stands, and how you would say it. A sentence is enough; a paragraph is fine. We are not asking for a
+full retranslation — only the places where the machine missed the living language.</p>
+<p style="margin-top:14px"><a class="btn" href="{submit}">Submit a fix &rarr;</a></p>
+<p style="margin-top:12px;font-size:14px;color:var(--grass)">Want an instant rewrite at a chosen register?
+<a href="/real-language">Try Real Language</a> — temp&nbsp;0 is textbook/scripture, temp&nbsp;1 is slang.</p></div>
+
+<div class="entry"><span class="charge">What happens next</span>
+<p>Every submission is read. Accepted fixes are folded into the next edition export, <strong>credited
+in the book</strong>, and listed below. Top contributors in each language are <strong>named on this
+page</strong> and receive a <strong>printed copy, free</strong>, of any Arjuna Badger Press book they
+choose — in the language they helped fix.</p></div>
+
+<div class="entry"><span class="charge">The terms, plainly</span>
+<p>By submitting you agree that your suggested wording may be <strong>published in the book and on
+this site</strong>, with credit, if we accept it — and that accepted wording may be
+<strong>licensed for income</strong> like any other part of the edition (print, digital, audio).
+<strong>Not every submission will be accepted.</strong> Editorial judgement applies; we may use your
+fix without taking every suggestion you send. Entry is free; we will never ask you for money.</p></div>
+
+{log_section}
 
 <p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
 </article>""",
@@ -3701,7 +3949,7 @@ def render_reader_app() -> str:
              "A local-first reader shell for imported books and audiobooks. Files stay on your device.",
              canonical=f"{DOMAIN}/reader.html"),
         nav(),
-        """<main class="app-shell">
+        """<div class="app-shell">
 <div class="app-top">
 <div>
 <p class="eyebrow">Local reader</p>
@@ -3724,7 +3972,7 @@ being built.</p>
 <div class="reader-empty">Import an EPUB, PDF, audiobook, HTML, Markdown, or text file to begin.</div>
 </section>
 </div>
-</main>
+</div>
 <script>
 (function(){
   const input = document.getElementById("fileInput");
@@ -4245,27 +4493,28 @@ _READER_TOC_JS = """<script>
 def reader_toc(body_html: str) -> str:
     """Build the left chapter-list TOC from the <h1>/<h2> anchors in a rendered reader body.
     Chapters are h1; major h2 sections included too. Empty string if too few headings."""
-    heads = re.findall(r'<h([12]) id="([^"]+)">(.*?)</h[12]>', body_html, re.S)
+    heads = re.findall(r'<h([23]) id="([^"]+)">(.*?)</h[23]>', body_html, re.S)
     items = []
     for lvl, hid, raw in heads:
         label = re.sub(r"<[^>]+>", "", raw).strip()
         if not label:
             continue
-        cls = "" if lvl == "1" else ' class="sub"'
+        cls = "" if lvl == "2" else ' class="sub"'
         items.append(f'<li{cls}><a href="#{hid}">{label}</a></li>')
     if len(items) < 2:                       # not worth a TOC (e.g. a single-section letter)
         return ""
     return ('<nav class="readtoc" aria-label="Contents">'
-            '<p class="readtoc-h">Contents</p><ol>' + "".join(items) + "</ol></nav>")
+            '<h2 class="readtoc-h">Contents</h2><ol>' + "".join(items) + "</ol></nav>")
 
 
 def render_reader(e: dict) -> str:
+    rw = reader_rewrite_links
     if e.get("prepared_reader_md"):
-        body = md_to_html(reader_rewrite_links(e["prepared_reader_md"]))
+        body = md_to_html(rw(e["prepared_reader_md"]), reader=True)
     elif e.get("reader_md"):
-        body = md_to_html(reader_rewrite_links(e["reader_md"]))
+        body = md_to_html(rw(e["reader_md"]), reader=True)
     elif e.get("book_md"):
-        body = md_to_html(reader_rewrite_links(e["book_md"].read_text(encoding="utf-8", errors="ignore")))
+        body = md_to_html(rw(e["book_md"].read_text(encoding="utf-8", errors="ignore")), reader=True)
     else:
         body = ""
     dl = ""
@@ -4285,7 +4534,7 @@ def render_reader(e: dict) -> str:
         audiobook_notice(),
         f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
 <a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
-        main,
+        f'<main id="main">{main}',
         reader_endnote(e),
         footer(rel="../"),
         rating_script(),
@@ -4483,6 +4732,8 @@ def main() -> None:
     (OUT / "printing.html").write_text(render_print_page(), encoding="utf-8")
     if FOREWORD_CONTEST_LIVE:                        # foreword competition page
         (OUT / "forewords.html").write_text(render_forewords(), encoding="utf-8")
+    if TRANSLATION_FIX_LIVE:                         # first-language translation fixes
+        (OUT / "fix-translation.html").write_text(render_translation_fix(), encoding="utf-8")
     if patronage_enabled():                         # Support page only when a giving rail is set
         (OUT / "support.html").write_text(render_support(), encoding="utf-8")
     for src_name, slug, title, desc in DOC_PAGES:
