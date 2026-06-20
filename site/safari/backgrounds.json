@@ -1,0 +1,160 @@
+{
+  "_default": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Duna_45%2C_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_008.jpg/1920px-Duna_45%2C_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_008.jpg",
+    "position": "center 35%",
+    "credit": {
+      "label": "Sossusvlei dunes, Namibia",
+      "author": "Diego Delso",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Poco_a_poco",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_008.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "index": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_del_Okavango%2C_Botsuana%2C_2018-07-31%2C_DD_01.jpg/1920px-Delta_del_Okavango%2C_Botsuana%2C_2018-07-31%2C_DD_01.jpg",
+    "position": "center 40%",
+    "hero_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "hero_position": "center",
+    "credit": {
+      "label": "Serengeti sunset, Tanzania",
+      "author": "Giles Laurent",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Giles_Laurent",
+      "source_url": "https://commons.wikimedia.org/wiki/File:017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "cv": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Karoo_Landscape%2C_Eastern_Cape%2C_South_Africa_%2820324327638%29.jpg/1920px-Karoo_Landscape%2C_Eastern_Cape%2C_South_Africa_%2820324327638%29.jpg",
+    "position": "center 45%",
+    "credit": {
+      "label": "Karoo landscape, Eastern Cape",
+      "author": "South African Tourism",
+      "author_url": "https://commons.wikimedia.org/wiki/User:South_African_Tourism",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Karoo_Landscape,_Eastern_Cape,_South_Africa_(20324327638).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "house": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Valley_of_Desolation%2C_Graaff-Reinet%2C_Eastern_Cape%2C_South_Africa_%2820323165110%29.jpg/1920px-Valley_of_Desolation%2C_Graaff-Reinet%2C_Eastern_Cape%2C_South_Africa_%2820323165110%29.jpg",
+    "position": "center 30%",
+    "credit": {
+      "label": "Valley of Desolation, Karoo",
+      "author": "South African Tourism",
+      "author_url": "https://commons.wikimedia.org/wiki/User:South_African_Tourism",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Valley_of_Desolation,_Graaff-Reinet,_Eastern_Cape,_South_Africa_(20323165110).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "proof": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bushmanland.jpg",
+    "position": "center",
+    "credit": {
+      "label": "Bushmanland, Northern Cape",
+      "author": "Oggmus",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Oggmus",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bushmanland.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "how-it-started": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Serengeti_sunset%2C_Tanzania.JPG",
+    "position": "center",
+    "credit": {
+      "label": "Serengeti savanna sunset",
+      "author": "Vincent van Zeijst",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Vincent_van_Zeijst",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Serengeti_sunset,_Tanzania.JPG",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/"
+    }
+  },
+  "technology": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Delta_del_Okavango%2C_Botsuana%2C_2018-07-31%2C_DD_01.jpg/1920px-Delta_del_Okavango%2C_Botsuana%2C_2018-07-31%2C_DD_01.jpg",
+    "position": "center 35%",
+    "credit": {
+      "label": "Okavango Delta, Botswana",
+      "author": "Diego Delso",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Poco_a_poco",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Delta_del_Okavango,_Botsuana,_2018-07-31,_DD_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "letter": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Orange_sunset_behind_a_veil_of_clouds.jpg/1920px-Orange_sunset_behind_a_veil_of_clouds.jpg",
+    "position": "center",
+    "credit": {
+      "label": "Kruger bushveld sunset",
+      "author": "DJM Photos",
+      "author_url": "https://commons.wikimedia.org/wiki/User:DJM_Photos",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Orange_sunset_behind_a_veil_of_clouds.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "for-lisel": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Karoo_Landscape%2C_Nqweba%2C_Eastern_Cape%2C_South_Africa_%2820324198338%29.jpg/1920px-Karoo_Landscape%2C_Nqweba%2C_Eastern_Cape%2C_South_Africa_%2820324198338%29.jpg",
+    "position": "center 40%",
+    "credit": {
+      "label": "Karoo at Nqweba, Eastern Cape",
+      "author": "South African Tourism",
+      "author_url": "https://commons.wikimedia.org/wiki/User:South_African_Tourism",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Karoo_Landscape,_Nqweba,_Eastern_Cape,_South_Africa_(20324198338).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "writing/index": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Karoo_National_Park_2014_17.jpg/1920px-Karoo_National_Park_2014_17.jpg",
+    "position": "center",
+    "credit": {
+      "label": "Karoo National Park",
+      "author": "Mike Peel",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Mike_Peel",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Karoo_National_Park_2014_17.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "writing/the-kettle-and-the-blink": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Duna_45%2C_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_008.jpg/1920px-Duna_45%2C_Sossusvlei%2C_Namibia%2C_2018-08-06%2C_DD_008.jpg",
+    "position": "center 25%",
+    "credit": {
+      "label": "Red dunes, Sossusvlei",
+      "author": "Diego Delso",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Poco_a_poco",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Duna_45,_Sossusvlei,_Namibia,_2018-08-06,_DD_008.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "writing/oyster-in-the-machine": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "position": "center",
+    "credit": {
+      "label": "Serengeti sunset",
+      "author": "Giles Laurent",
+      "author_url": "https://commons.wikimedia.org/wiki/User:Giles_Laurent",
+      "source_url": "https://commons.wikimedia.org/wiki/File:017_Sunset_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  },
+  "writing/the-blink": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Karoo_Landscape%2C_Eastern_Cape%2C_South_Africa_%2820324327638%29.jpg/1920px-Karoo_Landscape%2C_Eastern_Cape%2C_South_Africa_%2820324327638%29.jpg",
+    "position": "center 50%",
+    "credit": {
+      "label": "Karoo landscape, Eastern Cape",
+      "author": "South African Tourism",
+      "author_url": "https://commons.wikimedia.org/wiki/User:South_African_Tourism",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Karoo_Landscape,_Eastern_Cape,_South_Africa_(20324327638).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  }
+}

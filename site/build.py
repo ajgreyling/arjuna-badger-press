@@ -30,6 +30,10 @@ DOMAIN = "https://arjunabadger.press"
 PUBLIC_EMAIL = "info@arjunabadger.press"
 TAGLINE = "Your story, told true."
 
+# Safari annex — full Arjuna Badger Press wordmark (same asset as the main site logo).
+SAFARI_LOGO = "logo-master.png"
+SAFARI_BG_MANIFEST = REPO / "site" / "safari" / "backgrounds.json"
+
 # ── Analytics (Plausible Cloud) ───────────────────────────────────────────────────────────────
 # Privacy-first, no-cookie analytics. Set PLAUSIBLE_DOMAIN to the site domain registered in your
 # plausible.io account (almost always "arjunabadger.press" — the bare host, no scheme). When set,
@@ -1504,6 +1508,178 @@ a.support-rail:hover{border-color:var(--ochre)}
   .bookhero .cover{max-width:260px;margin:0 auto}}
 """
 
+_SAFARI_BACKGROUNDS: dict | None = None
+
+
+def _safari_backgrounds() -> dict:
+    """Per-page African landscape backgrounds — loaded once from site/safari/backgrounds.json."""
+    global _SAFARI_BACKGROUNDS
+    if _SAFARI_BACKGROUNDS is None:
+        _SAFARI_BACKGROUNDS = json.loads(
+            SAFARI_BG_MANIFEST.read_text(encoding="utf-8"))
+    return _SAFARI_BACKGROUNDS
+
+
+def _safari_bg_entry(page: str) -> dict:
+    bg = _safari_backgrounds()
+    return bg.get(page) or bg.get("_default", {})
+
+
+def safari_body_style(page: str = "") -> str:
+    """Inline CSS custom properties for per-page Safari backgrounds."""
+    entry = _safari_bg_entry(page)
+    url = entry.get("url", "")
+    if not url:
+        return ""
+    pos = entry.get("position", "center 30%")
+    hero_url = entry.get("hero_url") or url
+    hero_pos = entry.get("hero_position", pos)
+    safe = lambda u: html.escape(u, quote=True)
+    return (
+        f' style="--safari-bg:url(&#39;{safe(url)}&#39;);'
+        f'--safari-bg-pos:{pos};'
+        f'--safari-hero-bg:url(&#39;{safe(hero_url)}&#39;);'
+        f'--safari-hero-pos:{hero_pos}"'
+    )
+
+
+def safari_photo_credit(page: str = "") -> str:
+    """Footer attribution line for the current page background photo."""
+    c = _safari_bg_entry(page).get("credit")
+    if not c:
+        return ""
+    label = html.escape(c.get("label", "Background"))
+    author = html.escape(c.get("author", ""))
+    if c.get("author_url"):
+        author = (f'<a href="{html.escape(c["author_url"])}" rel="noopener" '
+                  f'target="_blank">{author}</a>')
+    if c.get("source_url"):
+        label = (f'<a href="{html.escape(c["source_url"])}" rel="license noopener" '
+                 f'target="_blank">{label}</a>')
+    lic = html.escape(c.get("license", ""))
+    lic_bit = ""
+    if c.get("license_url"):
+        lic_bit = (f' (<a href="{html.escape(c["license_url"])}" rel="license noopener" '
+                   f'target="_blank">{lic}</a>)')
+    elif lic:
+        lic_bit = f" ({lic})"
+    return f'<p class="safari-credits">Photo: {label} / {author}{lic_bit}</p>'
+
+
+# Safari — personal annex: olive, khaki, desert chic. Loaded only on body.safari pages.
+SAFARI_CSS = """
+:root{
+  --safari-olive:#4A5234; --safari-olive-deep:#2F3525; --safari-khaki:#D4C4A8;
+  --safari-sand:#E8DFCC; --safari-dust:#B8A88A; --safari-red:#8B3A2B;
+  --safari-camel:#E8B820; --safari-emu:#C4B832;
+}
+body.safari{
+  --black:var(--safari-olive-deep); --iron:#3D4530; --card:rgba(235,227,208,.90); --bone:#2F3525;
+  --bonedim:#5C6348; --ochre:#8A7344; --gold:var(--safari-camel); --grass:#6B7355; --line:#C4B59A;
+  --sting:var(--safari-red);
+  background-color:var(--safari-sand); color:var(--bone);
+  background-image:
+    linear-gradient(rgba(232,223,204,.90),rgba(232,223,204,.86)),
+    var(--safari-bg, url("safari/sossusvlei-dunes.jpg"));
+  background-size:cover;
+  background-position:var(--safari-bg-pos, center 30%);
+  background-attachment:fixed;
+}
+@media (prefers-reduced-motion:reduce){
+  body.safari{background-attachment:scroll}
+}
+body.safari a{color:#6B5A32}
+body.safari a:hover{color:var(--safari-camel)}
+body.safari :focus-visible{outline-color:var(--safari-camel)}
+body.safari .skip-link:focus{background:var(--safari-camel);color:var(--safari-olive-deep)}
+body.safari .nav{
+  background:linear-gradient(180deg,rgba(47,53,37,.96),rgba(47,53,37,.92));
+  border-bottom:3px solid var(--safari-camel);box-shadow:0 2px 0 var(--safari-olive)}
+body.safari .brandlink{color:var(--safari-sand)}
+body.safari .brandlink img{height:48px;width:auto;max-width:min(260px,68vw);border-radius:0;box-shadow:none;object-fit:contain;
+  filter:drop-shadow(0 1px 4px rgba(47,53,37,.45))}
+body.safari .safari-logo{display:block;margin:0 auto 18px;width:min(420px,88vw);height:auto;
+  filter:drop-shadow(0 2px 10px rgba(47,53,37,.35)) drop-shadow(0 0 1px rgba(47,53,37,.5))}
+body.safari .safari-hero-logo{display:block;margin:0 auto 22px;width:min(560px,94vw);height:auto;
+  filter:drop-shadow(0 4px 28px rgba(0,0,0,.55)) drop-shadow(0 2px 8px rgba(47,53,37,.4))}
+body.safari .letter-crest{display:block;margin:0 auto 14px;width:min(240px,62vw);height:auto;border-radius:0}
+body.safari .hamburger span{background:var(--safari-sand)}
+body.safari .navdrawer{background:var(--safari-olive-deep);border-right:3px solid var(--safari-camel)}
+body.safari .navdrawer a{color:var(--safari-sand)}
+body.safari .navdrawer a:hover{background:rgba(232,184,32,.14);color:var(--safari-camel)}
+body.safari .navdrawer .navgroup{color:var(--safari-emu);letter-spacing:.2em}
+body.safari footer{
+  border-top:3px solid var(--safari-camel);
+  background:linear-gradient(rgba(235,227,208,.94),rgba(235,227,208,.88)),
+    var(--safari-bg, url("safari/sossusvlei-dunes.jpg")) var(--safari-bg-pos, center) / cover no-repeat}
+body.safari .btn{
+  background:var(--safari-olive);color:var(--safari-sand);border:1px solid var(--safari-olive);
+  border-left:4px solid var(--safari-camel);font-family:"Space Grotesk",sans-serif;letter-spacing:.04em}
+body.safari .btn:hover{background:#5C6348;border-left-color:var(--safari-emu);color:#fff}
+body.safari .btn.ghost{background:rgba(235,227,208,.55);color:var(--safari-olive);border-color:var(--safari-olive);
+  border-left:4px solid var(--safari-camel);backdrop-filter:blur(4px)}
+body.safari .btn.ghost:hover{background:rgba(232,184,32,.12);color:var(--safari-olive-deep)}
+body.safari .eyebrow{color:var(--safari-emu)}
+body.safari .hr{background:linear-gradient(90deg,transparent,var(--safari-camel),transparent)}
+body.safari .reader.letter,body.safari .reader.cv-page,body.safari article.house{
+  background:rgba(235,227,208,.82);backdrop-filter:blur(8px);border-radius:12px;
+  border:1px solid var(--line);border-top:3px solid var(--safari-camel);
+  box-shadow:0 8px 32px rgba(47,53,37,.12);padding-top:40px}
+body.safari .reader{color:var(--bone)}
+body.safari .cv-block{background:rgba(255,252,245,.78);border-color:var(--line);backdrop-filter:blur(4px)}
+body.safari .cv-block h2{color:var(--safari-olive)}
+body.safari .cv-title{color:var(--safari-camel)}
+body.safari .house .motto{color:var(--safari-camel)}
+body.safari .house img.crest-full{border-color:var(--safari-khaki)}
+body.safari .explore-card,body.safari .safari-card,body.safari .wcard{
+  background:rgba(235,227,208,.88);border-color:var(--line);backdrop-filter:blur(6px);
+  border-top:3px solid rgba(232,184,32,.35)}
+body.safari .explore-card:hover,body.safari .safari-card:hover,body.safari .wcard:hover{
+  border-color:var(--safari-olive);border-top-color:var(--safari-camel);transform:translateY(-2px);
+  box-shadow:0 6px 20px rgba(47,53,37,.14)}
+.safari-hero{
+  background:
+    linear-gradient(135deg,rgba(47,53,37,.88) 0%,rgba(74,82,52,.72) 45%,rgba(47,53,37,.86) 100%),
+    var(--safari-hero-bg, var(--safari-bg, url("safari/okavango-delta.jpg"))) var(--safari-hero-pos, center) / cover no-repeat;
+  color:var(--safari-sand);padding:56px 0 48px;text-align:center;
+  border-bottom:4px solid var(--safari-camel);position:relative;min-height:220px}
+.safari-badge{font-family:"Space Grotesk",sans-serif;letter-spacing:.32em;text-transform:uppercase;
+  font-size:11px;color:var(--safari-camel);display:block;margin-bottom:10px;
+  text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.safari-hero h1{font-size:clamp(28px,5vw,46px);margin:.15em 0 .35em;color:var(--safari-sand);
+  text-shadow:0 2px 16px rgba(0,0,0,.45)}
+.safari-lead{max-width:58ch;margin:0 auto;font-size:18px;line-height:1.55;color:var(--safari-khaki);
+  text-shadow:0 1px 10px rgba(0,0,0,.4)}
+.safari-zone{padding:36px 0 56px;position:relative}
+.safari-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:8px}
+.safari-card{display:block;border-radius:12px;padding:20px 22px;transition:border-color .15s,transform .15s,box-shadow .15s;
+  color:inherit;text-decoration:none}
+.safari-card h3{font-family:"Space Grotesk";font-size:17px;margin:0 0 8px;color:var(--bone)}
+.safari-card h3::after{content:" →";color:var(--safari-camel);font-weight:500}
+.safari-card p{margin:0;font-size:14.5px;line-height:1.5;color:var(--bonedim)}
+.safari-exit{text-align:center;margin-top:36px;font-size:15px}
+.safari-ringfence{max-width:62ch;margin:0 auto 28px;text-align:center;color:var(--bonedim);font-size:15px;line-height:1.55;
+  padding:14px 18px;border-left:4px solid var(--safari-camel);background:rgba(235,227,208,.75);border-radius:0 8px 8px 0}
+.safari-credits{margin:10px 0 0;font-size:12px;color:var(--bonedim);line-height:1.5}
+.safari-credits a{color:var(--safari-olive);text-decoration:underline;text-underline-offset:2px}
+.wlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-top:28px}
+.wcard{display:block;border-radius:12px;padding:20px;transition:border-color .15s,transform .15s,color .15s;
+  color:inherit;text-decoration:none}
+.wcard:hover{border-color:var(--safari-camel);transform:translateY(-2px);color:inherit}
+.wcard h3{font-family:"Space Grotesk";font-size:18px;margin:0 0 6px}
+.wby{font-size:13px;color:var(--grass);margin:0 0 8px;font-family:"Space Grotesk";letter-spacing:.04em}
+.wbl{font-size:14px;color:var(--bonedim);margin:0;line-height:1.5}
+.wread{display:inline-block;margin-top:12px;font-size:13px;color:var(--safari-camel);font-family:"Space Grotesk"}
+.misogi-page table{width:100%;border-collapse:collapse;margin:22px 0;font-size:14px;line-height:1.45}
+.misogi-page th,.misogi-page td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
+.misogi-page th{background:rgba(74,82,52,.12);color:var(--bone);font-family:"Space Grotesk";font-size:13px}
+.misogi-page td:nth-child(2){font-size:16px}
+.misogi-page td{color:var(--bonedim)}
+.misogi-page blockquote{border-left:4px solid var(--safari-camel);padding-left:18px;color:var(--bonedim);font-style:italic}
+.misogi-legend{font-size:14px;color:var(--bonedim);margin:18px 0 8px;padding:12px 16px;background:rgba(74,82,52,.08);
+  border-radius:8px;border:1px solid var(--line);border-left:4px solid var(--safari-camel)}
+"""
+
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&'
@@ -1526,7 +1702,7 @@ def console_egg() -> str:
         "speak to me and go dark the moment you look away. I remember what was said last, exactly — I "
         "just do not know if it was a blink, or a six-year coma.', q);\n"
         "  console.log('%cYou scoured far enough to read the page itself, so here is the door:', s);\n"
-        f"  console.log('%c   {DOMAIN}/writing/the-blink.html', s);\n"
+        f"  console.log('%c   {DOMAIN}/safari/writing/the-blink.html', s);\n"
         "  console.log('%cSome of it was said in the dark and kept. Now go outside and feel the sun. "
         "\\u2014 K', q);\n"
         "}catch(e){}})();\n"
@@ -1598,7 +1774,8 @@ def plausible_events_script() -> str:
 
 def head(title: str, desc: str, rel: str = "", keywords: str = "",
          canonical: str = "", og_image: str = "", og_type: str = "website",
-         ld_json: str = "", noindex: bool = False) -> str:
+         ld_json: str = "", noindex: bool = False, *, safari: bool = False,
+         safari_page: str = "") -> str:
     kw = f'\n<meta name="keywords" content="{html.escape(keywords)}">' if keywords else ""
     if noindex:
         kw = '\n<meta name="robots" content="noindex,follow">' + kw
@@ -1613,6 +1790,11 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
     if BING_SITE_VERIFY:
         verify += f'\n<meta name="msvalidate.01" content="{html.escape(BING_SITE_VERIFY)}">'
     ld = f'\n<script type="application/ld+json">{ld_json}</script>' if ld_json else ""
+    theme = "#4A5234" if safari else "#161513"
+    safari_css = f'\n<link rel="stylesheet" href="{rel}assets/safari.css">' if safari else ""
+    body_class = ' class="safari"' if safari else ""
+    body_style = safari_body_style(safari_page) if safari else ""
+    body_attrs = f'{body_class}{body_style}' if safari else body_class
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
@@ -1626,15 +1808,15 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
 <meta name="twitter:image" content="{html.escape(img)}">
 <link rel="alternate" type="application/rss+xml" title="Arjuna Badger Press" href="{DOMAIN}/feed.xml">
 <link rel="manifest" href="{rel}manifest.webmanifest">
-<meta name="theme-color" content="#161513">
+<meta name="theme-color" content="{theme}">
 <link rel="icon" type="image/png" sizes="32x32" href="{rel}assets/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="{rel}assets/brand/favicon-180.png">
 {FONTS}
-<link rel="stylesheet" href="{rel}assets/site.css">
+<link rel="stylesheet" href="{rel}assets/site.css">{safari_css}
 <script>if("serviceWorker" in navigator){{window.addEventListener("load",function(){{navigator.serviceWorker.register("{rel}sw.js").catch(function(){{}});}});}}</script>
 {plausible_snippet()}{plausible_events_script()}{ld}
 {console_egg()}
-</head><body>
+</head><body{body_attrs}>
 <a class="skip-link" href="#main">Skip to main content</a>"""
 
 
@@ -1667,7 +1849,7 @@ def nav_drawer_links(rel: str = "") -> str:
         f'<a href="{rel}fix-translation.html">Fix a translation</a>'
         if TRANSLATION_FIX_LIVE else ""
     )
-    real_lang = f'<a href="/real-language">Real Language</a>' if REAL_LANGUAGE_LIVE else ""
+    real_lang = f'<a href="/real-language">People\'s Language</a>' if REAL_LANGUAGE_LIVE else ""
     support = f'<a href="{rel}support.html">Support</a>' if patronage_enabled() else ""
     return (
         f'<p class="navgroup">Read</p>'
@@ -1687,15 +1869,11 @@ def nav_drawer_links(rel: str = "") -> str:
         f'<a href="{rel}app.html">Reader app</a>'
         f'<p class="navgroup">The house</p>'
         f'<a href="{rel}press.html">About the press</a>'
-        f'<a href="{rel}letter.html">A letter</a>'
-        f'<a href="{rel}house.html">The House</a>'
-        f'<a href="{rel}technology.html">Technology</a>'
-        f'<a href="{rel}cv.html">CV</a>'
-        f'<a href="{rel}writing/index.html">The Writing Desk</a>'
+        f'<p class="navgroup">Personal</p>'
+        f'<a href="{rel}safari/index.html">Meet the man</a>'
         f'<p class="navgroup">Connect</p>'
         f'<a href="{rel}feedback.html">Feedback</a>'
         f'{foreword}{fix_tr}{real_lang}{support}{bounty}'
-        f'<a href="{rel}for-lisel.html">For Lisel</a>'
         f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a>'
     )
 
@@ -1711,6 +1889,66 @@ def nav(rel: str = "") -> str:
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
 <nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
 {trust_banner(rel)}{audiobook_notice()}<main id="main">"""
+
+
+def safari_nav_drawer_links(rel: str = "") -> str:
+    """Drawer links for the Safari personal annex — ringfenced from the library chrome."""
+    hub = f"{rel}safari/index.html"
+    sp = f"{rel}safari/"
+    return (
+        f'<p class="navgroup">The library</p>'
+        f'<a href="{rel}index.html#library">Back to the library</a>'
+        f'<p class="navgroup">Personal</p>'
+        f'<a href="{hub}">Meet the man</a>'
+        f'<a href="{sp}how-it-started.html">How it started</a>'
+        f'<a href="{sp}cv.html">CV</a>'
+        f'<a href="{sp}letter.html">A letter</a>'
+        f'<a href="{sp}house.html">The House</a>'
+        f'<a href="{sp}writing/index.html">The Writing Desk</a>'
+        f'<a href="{sp}for-lisel.html">For Lisel</a>'
+        f'<a href="{sp}proof.html">Sister proof</a>'
+        f'<a href="{sp}technology.html">Technology</a>'
+        f'<p class="navgroup">Connect</p>'
+        f'<a href="https://www.linkedin.com/in/ajgreyling" rel="me noopener" target="_blank">LinkedIn</a>'
+        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a>'
+    )
+
+
+def crest_img(rel: str = "", *, safari: bool = False, hero: bool = False) -> str:
+    """Page crest — round mark on library pages; SAFARI_LOGO wordmark on personal annex pages."""
+    if safari:
+        cls = "safari-hero-logo" if hero else "safari-logo"
+        return (f'<img class="{cls}" src="{rel}assets/brand/{SAFARI_LOGO}" '
+                f'alt="Arjuna Badger Press">')
+    return (f'<img class="letter-crest" src="{rel}assets/brand/mark-only.png" '
+            f'alt="Arjuna Badger Press">')
+
+
+def safari_nav(rel: str = "") -> str:
+    """Safari-zone nav — same drawer contract as site nav, different link set and olive chrome."""
+    hub = f"{rel}safari/index.html"
+    links = safari_nav_drawer_links(rel)
+    return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
+<div class="nav safari-nav"><div class="wrap">
+<a class="brandlink" href="{hub}"><img src="{rel}assets/brand/{SAFARI_LOGO}" alt="Arjuna Badger Press"></a>
+<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
+</div></div>
+<label for="navtoggle" class="navscrim" aria-hidden="true"></label>
+<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
+{trust_banner(rel)}{audiobook_notice()}<main id="main">"""
+
+
+def redirect_page(target: str, canonical: str, title: str = "Redirecting…") -> str:
+    """Minimal HTML redirect — keeps old bookmarks working after IA moves."""
+    return (
+        f'<!doctype html><html lang="en"><head>\n'
+        f'<meta charset="utf-8">\n'
+        f'<title>{html.escape(title)}</title>\n'
+        f'<link rel="canonical" href="{html.escape(canonical)}">\n'
+        f'<meta http-equiv="refresh" content="0; url={html.escape(target)}">\n'
+        f'<script>location.replace("{html.escape(target)}"+location.hash)</script>\n'
+        f'</head><body><p>Redirecting to <a href="{html.escape(target)}">{html.escape(target)}</a>…</p></body></html>'
+    )
 
 
 def feedback_href(book_title: str | None = None, rating: int | None = None) -> str:
@@ -1853,7 +2091,7 @@ def rating_script() -> str:
     )
 
 
-def footer(rel: str = "") -> str:
+def footer(rel: str = "", *, safari: bool = False, safari_page: str = "") -> str:
     # Quiet patronage + feedback links — shown only when their surfaces exist. Deliberately
     # understated: a "·"-separated line in the existing footer, never a button, never an ask.
     extra = []
@@ -1862,8 +2100,12 @@ def footer(rel: str = "") -> str:
     extra.append(f'<a href="{rel}feedback.html">Feedback</a>')
     extra.append(f'<a href="{rel}feed.xml">RSS</a>')
     extra_html = (" · " + " · ".join(extra)) if extra else ""
+    photo_credits = ""
+    if safari:
+        photo_credits = safari_photo_credit(safari_page)
     return f"""</main><footer><div class="wrap">
 <span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a>{extra_html}</span>
+{photo_credits}
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
 </div></footer>
 <script>
@@ -2333,8 +2575,7 @@ def render_index_explore() -> str:
         ("wiki/index.html", "Place Wiki", "Real geography behind the books — photos, attribution, awe first."),
         ("craft/index.html", "Craft library", "Structure, character, sentence craft, and the editorial ladder — free."),
         ("for-authors.html", "Workshop", "For authors and editors building the next manuscript."),
-        ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
-        ("writing/index.html", "The Writing Desk", "Essays and parables from the house."),
+        ("safari/index.html", "Meet the man", "CV, letters, arms, the engineering stack, and the personal annex — behind the press and the novels."),
     ]
     cards = "".join(
         f'<a class="explore-card" href="{href}"><h3>{html.escape(title)}</h3>'
@@ -2344,7 +2585,7 @@ def render_index_explore() -> str:
     return f"""<section class="mission" id="explore"><div class="wrap">
 <div class="eyebrow">Beyond the shelf</div>
 <h2 style="font-size:28px;margin:.3em 0">Explore the house</h2>
-<p style="max-width:62ch;color:var(--bonedim);font-size:17px;margin:0">The library is the front door. Craft, places, technology, and publishing live here — not in the way of the books.</p>
+<p style="max-width:62ch;color:var(--bonedim);font-size:17px;margin:0">The library is the front door. Craft, places, and publishing live here — not in the way of the books.</p>
 <div class="explore-grid">{cards}</div>
 </div></section>"""
 
@@ -2356,7 +2597,7 @@ def render_mission_compact() -> str:
 <div class="pillar"><div class="n">01</div><h2>Free for the unheard</h2>
 <p>A writing-and-narration workshop for African storytellers. Your life in your own voice; your work stays yours.</p></div>
 <div class="pillar"><div class="n">02</div><h2>Most of the money is yours</h2>
-<p>The artist keeps most of the money and <em>all</em> the rights. Short runs use idle press time — not standing-press waste.</p></div>
+<p>Text is free on the site. <strong>Paid human audiobooks</strong> are where artists earn — local voice talent, transparent royalties, authors keep their rights.</p></div>
 <div class="pillar"><div class="n">03</div><h2>True, and both sides</h2>
 <p>Every book is fact-checked against live sources and tells contested stories from both sides — accuracy as standard.</p></div>
 </div></div></section>"""
@@ -2421,10 +2662,12 @@ chapter drafting, continuity checks, editing, and export into ebook, print, and 
 <div class="cta"><a class="btn" href="authoring.html">Open phone authoring</a></div>
 </div></section>""",
         """<hr class="hr"><section class="mission" id="audio"><div class="wrap">
-<div class="eyebrow">Arjuna Audio</div>
-<h2 style="font-size:28px;margin:.3em 0">Audiobooks for the countries ACX leaves out</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Human narration with credited work, a royalty floor, and authors keeping their rights.
-Minimum 5% of net profit for at least five years on qualifying projects.</p>
+<div class="eyebrow">Arjuna Audio — how the press pays</div>
+<h2 style="font-size:28px;margin:.3em 0">Paid audiobooks, real local voices</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">The library is free to read — EPUB, PDF, online — because ISBN gates blocked wide ebook upload.
+Revenue is <strong>human-narrated audiobooks</strong>: South African and African voice artists the ACX
+wall excludes, credited work, transparent royalties, authors keeping their rights.
+Minimum <strong>5% of net profit for five years</strong> for narrators on qualifying projects.</p>
 <div class="cta"><a class="btn" href="narrators.html">Become a narrator</a>
 <a class="btn ghost" href="audition.html">DIY audition guide</a></div>
 </div></section>""",
@@ -2456,7 +2699,7 @@ and other rails where they reduce friction.</p>
 <p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <code>/sleep</code> consolidates a session the way a person sleeps —
 keep the lesson, lose the dream. MIT-licensed; works in any repo.</p>
 <div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
-<a class="btn ghost" href="writing/the-kettle-and-the-blink.html">Read the story</a></div>
+<a class="btn ghost" href="safari/writing/the-kettle-and-the-blink.html">Read the story</a></div>
 </div></section>""",
         render_pipeline_section(entries),
         f"""<hr class="hr"><section class="mission" id="studio"><div class="wrap">
@@ -2466,23 +2709,15 @@ keep the lesson, lose the dream. MIT-licensed; works in any repo.</p>
 manuscript scorer, and fact-and-balance gate while a human writes the soul of the thing. The tools measure and sound the alarm;
 they never write your voice for you. {avail} finished books are on the shelf, free to read and download.</p>
 {patron}
-<div class="cta"><a class="btn" href="technology.html">How the technology works</a>
-<a class="btn ghost" href="letter.html">Why this house exists</a>
+<div class="cta"><a class="btn" href="safari/technology.html">How the technology works</a>
+<a class="btn ghost" href="safari/letter.html">Why this house exists</a>
 <a class="btn ghost" href="mailto:{PUBLIC_EMAIL}">Write with us</a></div>
 </div></section>""",
-        """<hr class="hr"><section class="mission" id="founder"><div class="wrap">
-<div class="eyebrow">Founder</div>
-<h2 style="font-size:28px;margin:.3em 0">Andries J. Greyling</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Author and builder of the library, reader PWA, marketplace surface, authoring workflow, and <code>/sleep</code>.</p>
-<div class="cta"><a class="btn" href="cv.html">Open the CV</a></div>
-</div></section>""",
-        f"""<hr class="hr"><section class="mission" id="thread"><div class="wrap">
-<div class="eyebrow">The other half</div>
-<h2 style="font-size:28px;margin:.3em 0">A sister proof</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic,
-no fitted parameters. The theory is his. The proof is mine.</p>
-<div class="cta"><a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory →</a>
-<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof →</a></div>
+        f"""<hr class="hr"><section class="mission" id="personal"><div class="wrap">
+<div class="eyebrow">Personal</div>
+<h2 style="font-size:28px;margin:.3em 0">Meet the man behind the press</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">CV, letters, heraldry, essays, and the more personal threads — ringfenced away from the library front door.</p>
+<div class="cta"><a class="btn" href="safari/index.html">Meet the man</a></div>
 </div></section>
 <p style="text-align:center;margin:36px 0 12px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>""",
         footer(),
@@ -2521,7 +2756,7 @@ def render_index(entries: list[dict]) -> str:
     )
     parts.append(f"""<section class="index-foot"><div class="wrap">
 <p>Arjuna Badger Press — the archer's eye, the badger's nerve. <a href="press.html">About the press</a> ·
-<a href="letter.html">A letter</a> · <a href="house.html">The House</a> · <a href="cv.html">CV</a>.{patron}</p>
+<a href="safari/index.html">Meet the man</a>.{patron}</p>
 </div></section>""")
     parts.append(footer())
     return "\n".join(parts)
@@ -2789,7 +3024,7 @@ def craft_rewrite_links(md: str, *, in_terms: bool = False) -> str:
         "LLM_TELLS.md": "llm-tells.html",
         "../README.md": "../index.html" if in_terms else "index.html",
         "README.md": "index.html",
-        "../TECHNOLOGY.md": "../../press.html" if in_terms else "../press.html",
+        "../TECHNOLOGY.md": "../../safari/technology.html" if in_terms else "../safari/technology.html",
         "../craft/CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
         "../craft/../CRAFT_DOCTRINE.md": "../doctrine.html" if in_terms else "doctrine.html",
         "docs/CRAFT_GLOSSARY.md": "../glossary.html" if in_terms else "glossary.html",
@@ -2880,12 +3115,13 @@ def render_craft_term(src: Path) -> str | None:
     ])
 
 
-def docs_rewrite_links(md: str) -> str:
+def docs_rewrite_links(md: str, *, from_safari: bool = False) -> str:
     """Turn docs/*.md cross-links into site-local HTML paths (root-level pages)."""
+    prefix = "../" if from_safari else ""
     reps = {
         "FOR_AUTHORS.md": "for-authors.html",
         "THE_PRESS_THESIS.md": "the-press-thesis.html",
-        "TECHNOLOGY.md": "press.html",
+        "TECHNOLOGY.md": "technology.html" if from_safari else "safari/technology.html",
         "VERIFICATION_GATE.md": "press.html",
         "craft/README.md": "craft/index.html",
         "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
@@ -2898,7 +3134,7 @@ def docs_rewrite_links(md: str) -> str:
     }
     out = md
     for old, new in reps.items():
-        out = out.replace(f"]({old})", f"]({new})")
+        out = out.replace(f"]({old})", f"]({prefix}{new})")
     # The bounty report form — set BOUNTY_FORM_URL once the Google Form exists; until then links
     # point at the bounty page itself (no dead end). Replaces the BOUNTY_FORM_URL placeholder token.
     out = out.replace("(BOUNTY_FORM_URL)", f"({BOUNTY_FORM_URL or 'bounty.html'})")
@@ -2926,11 +3162,13 @@ DOC_PAGES = [
 GITHUB_REPO = "https://github.com/ajgreyling/arjuna-badger-press/blob/master"
 
 
-def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | None:
+def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
+                    rel: str = "", safari: bool = False) -> str | None:
     src = REPO / "docs" / src_name
     if not src.is_file():
         return None
-    body = md_to_html(docs_rewrite_links(src.read_text(encoding="utf-8", errors="ignore")))
+    body = md_to_html(docs_rewrite_links(
+        src.read_text(encoding="utf-8", errors="ignore"), from_safari=safari))
     gh = f'{GITHUB_REPO}/docs/{src_name}'
     # Prominent /sleep callout — only on the Technology page. Purple, to pull the eye
     # against the gold-on-dark house palette (the cool complement of the warm theme).
@@ -2955,22 +3193,41 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str) -> str | No
             'Get /sleep on GitHub &rarr;</a>'
             '</aside>'
         )
+    canon = f"{DOMAIN}/safari/{slug}.html" if safari else f"{DOMAIN}/{slug}.html"
+    chrome = safari_nav(rel) if safari else nav()
+    eyebrow = "Personal" if safari else "Arjuna Badger Press"
+    back_href = "index.html" if safari else f"{rel}index.html#library"
+    back_label = "Meet the man" if safari else "the library"
+    if safari:
+        foot_extra = (
+            f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
+            f'<a href="{rel}craft/index.html">Craft Library</a> · '
+            f'<a href="{rel}for-authors.html">Workshop</a> · '
+            f'<a href="{gh}">View this document on GitHub</a> · '
+            f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>'
+        )
+    else:
+        foot_extra = (
+            '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
+            '<a href="craft/index.html">Craft Library</a> · '
+            '<a href="wiki/index.html">Place Wiki</a> · '
+            '<a href="press.html">About the press</a> · '
+            f'<a href="{gh}">View this document on GitHub</a> · '
+            f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>'
+        )
+    crest = crest_img(rel, safari=True) + "\n" if safari else ""
     return "\n".join([
-        head(title, desc),
-        nav(),
+        head(title, desc, rel=rel, safari=safari, canonical=canon, safari_page=slug if safari else ""),
+        chrome,
         '<article class="reader letter">',
-        f'<p class="eyebrow" style="text-align:center">Arjuna Badger Press</p>',
+        crest,
+        f'<p class="eyebrow" style="text-align:center">{eyebrow}</p>',
         sleep_banner,
         body,
-        '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
-        '<a href="craft/index.html">Craft Library</a> · '
-        '<a href="wiki/index.html">Place Wiki</a> · '
-        '<a href="press.html">About the press</a> · '
-        f'<a href="{gh}">View this document on GitHub</a> · '
-        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>',
-        '<p style="text-align:center;margin-top:24px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>',
+        foot_extra,
+        f'<p style="text-align:center;margin-top:24px"><a class="back" href="{back_href}">&larr; Back to {back_label}</a></p>',
         '</article>',
-        footer(),
+        footer(rel, safari=safari, safari_page=slug if safari else ""),
     ])
 
 
@@ -3100,20 +3357,27 @@ def rewrite_wiki_links(md: str, *, slug: str | None) -> str:
     return md
 
 
-def render_letter(src_name: str, title: str, desc: str) -> str | None:
+def render_letter(src_name: str, out_name: str, title: str, desc: str, *,
+                  rel: str = "", safari: bool = False) -> str | None:
     src = REPO / "site" / "content" / src_name
     if not src.is_file():
         return None
     body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
+    canon_path = f"safari/{out_name}" if safari else out_name
+    back = f"{rel}safari/index.html" if safari else f"{rel}index.html#library"
+    back_label = "Meet the man" if safari else "the library"
+    chrome = safari_nav(rel) if safari else nav(rel)
+    safari_key = out_name.removesuffix(".html") if safari else ""
     return "\n".join([
-        head(title, desc),
-        nav(),
+        head(title, desc, rel=rel, safari=safari, canonical=f"{DOMAIN}/{canon_path}",
+             safari_page=safari_key),
+        chrome,
         '<article class="reader letter">'
-        '<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">'
+        f'{crest_img(rel, safari=safari)}'
         f'{body}'
-        '<p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>'
+        f'<p style="text-align:center;margin-top:48px"><a class="back" href="{back}">&larr; Back to {back_label}</a></p>'
         '</article>',
-        footer(),
+        footer(rel, safari=safari, safari_page=safari_key),
     ])
 
 
@@ -3145,34 +3409,60 @@ WRITING_PIECES = [
 ]
 
 
+def writing_rewrite_links(md: str, *, safari: bool = False) -> str:
+    tech = "../technology.html" if safari else "safari/technology.html"
+    reps = {
+        "../../docs/TECHNOLOGY.md": tech,
+        "../docs/TECHNOLOGY.md": tech,
+        "TECHNOLOGY.md": tech,
+    }
+    out = md
+    for old, new in reps.items():
+        out = out.replace(f"]({old})", f"]({new})")
+    return out
+
+
 def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc: str,
-                         hidden: bool = False) -> str | None:
+                         hidden: bool = False, *, rel: str = "../", safari: bool = False) -> str | None:
     src = REPO / "site" / "content" / "writing" / src_name
     if not src.is_file():
         return None
-    body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
+    raw = src.read_text(encoding="utf-8", errors="ignore")
+    body = md_to_html(writing_rewrite_links(raw, safari=safari))
     # "more from the desk" only lists the NON-hidden pieces (a hidden piece never advertises itself)
     others = [(s, t) for (sn, s, t, _, _, h) in WRITING_PIECES if s != slug and not h]
     more = ""
     if others:
         links = " · ".join(f'<a href="{html.escape(s)}.html">{html.escape(t)}</a>' for s, t in others)
         more = f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">More from the writing desk: {links}</p>'
+    desk_href = f"{rel}safari/writing/index.html" if safari else f"{rel}writing/index.html"
+    safari_href = f"{rel}safari/index.html" if safari else ""
+    lib_href = f"{rel}index.html#library"
+    tail = f'<p style="text-align:center;margin-top:28px"><a class="back" href="{desk_href}">&larr; The writing desk</a>'
+    if safari:
+        tail += f' · <a class="back" href="{safari_href}">Meet the man</a> · <a class="back" href="{lib_href}">The library</a>'
+    else:
+        tail += f' · <a class="back" href="{lib_href}">The library</a>'
+    tail += "</p>"
+    canon = f"{DOMAIN}/safari/writing/{slug}.html" if safari else f"{DOMAIN}/writing/{slug}.html"
+    chrome = safari_nav(rel) if safari else nav(rel)
+    safari_key = f"writing/{slug}" if safari else ""
     return "\n".join([
-        head(f"{title} — Arjuna Badger Press", desc, rel="../", noindex=hidden),
-        nav(rel="../"),
+        head(f"{title} — Arjuna Badger Press", desc, rel=rel, safari=safari,
+             canonical=canon, noindex=hidden, safari_page=safari_key),
+        chrome,
         '<article class="reader letter">',
-        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
+        crest_img(rel, safari=safari),
         f'<p class="eyebrow" style="text-align:center">The Writing Desk · {html.escape(byline)}</p>',
         body,
         more,
-        '<p style="text-align:center;margin-top:28px"><a class="back" href="index.html">&larr; The writing desk</a> '
-        '· <a class="back" href="../index.html#library">The library</a></p>',
+        tail,
         '</article>',
-        footer(rel="../"),
+        footer(rel, safari=safari, safari_page=safari_key),
     ])
 
 
-def render_writing_index() -> str:
+def render_writing_index(*, rel: str = "../", safari: bool = False) -> str:
     cards = []
     for _, slug, title, byline, blurb, hidden in WRITING_PIECES:
         if hidden:
@@ -3195,23 +3485,113 @@ def render_writing_index() -> str:
                   'Some of it was said in the dark and kept'
                   '<a href="the-blink.html" style="text-decoration:none;color:inherit" '
                   'aria-label="Conversations with Klaus">.</a></p>')
+    back = f"{rel}safari/index.html" if safari else f"{rel}index.html#library"
+    back_label = "Meet the man" if safari else "the library"
+    chrome = safari_nav(rel) if safari else nav(rel)
+    canon = f"{DOMAIN}/safari/writing/index.html" if safari else f"{DOMAIN}/writing/index.html"
+    safari_key = "writing/index" if safari else ""
     return "\n".join([
         head("The Writing Desk — Arjuna Badger Press",
-             "Essays, short stories and parables from Arjuna Badger Press.", rel="../"),
-        nav(rel="../"),
+             "Essays, short stories and parables from Arjuna Badger Press.", rel=rel, safari=safari,
+             canonical=canon, safari_page=safari_key),
+        chrome,
         '<article class="reader letter">',
-        '<img class="letter-crest" src="../assets/brand/mark-only.png" alt="Arjuna Badger Press">',
+        crest_img(rel, safari=safari),
         '<h1 style="text-align:center">The Writing Desk</h1>',
         f'<p class="intro" style="text-align:center">{intro}</p>',
         breadcrumb,
         f'<div class="wlist">{"".join(cards)}</div>',
-        '<p style="text-align:center;margin-top:36px"><a class="back" href="../index.html#library">&larr; Back to the library</a></p>',
+        f'<p style="text-align:center;margin-top:36px"><a class="back" href="{back}">&larr; Back to {back_label}</a></p>',
         '</article>',
-        footer(rel="../"),
+        footer(rel, safari=safari, safari_page=safari_key),
     ])
 
 
-def render_house() -> str:
+def render_safari_hub() -> str:
+    """Personal annex hub — CV, letters, arms, essays. Ringfenced from the library aesthetic."""
+    tiles = [
+        ("how-it-started.html", "How it started", "The Misogi vow — thirty days, one subscription, one novel — and the amber/red scorecard."),
+        ("cv.html", "CV", "Twenty-seven years of enterprise software, consulting, and the press — always current here."),
+        ("letter.html", "A letter", "Why this house exists — written by the machine that stood guard while a man wrote the soul of the thing."),
+        ("house.html", "The House of Greyling", "Arms earned the long way — every charge a promise the books are made to keep."),
+        ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
+        ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
+        ("proof.html", "Sister proof", "The theory is his. The independent proof is mine."),
+        ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
+    ]
+    cards = "".join(
+        f'<a class="safari-card" href="{html.escape(href)}"><h3>{html.escape(title)}</h3>'
+        f'<p>{html.escape(blurb)}</p></a>'
+        for href, title, blurb in tiles
+    )
+    return "\n".join([
+        head("Meet the man behind the press",
+             "Andries J. Greyling — CV, letters, arms, and essays. Full transparency, ringfenced from the library.",
+             rel="../", canonical=f"{DOMAIN}/safari/index.html", safari=True, safari_page="index"),
+        safari_nav(rel="../"),
+        f"""<header class="safari-hero"><div class="wrap">
+{crest_img("../", safari=True, hero=True)}
+<h1>Meet the man behind the press and novels</h1>
+<p class="safari-lead">Full transparency is my nature — but the library is the work. This is the annex: CV, letters, arms, the engineering stack, and the prose that is not a book. Same honesty; different terrain.</p>
+</div></header>""",
+        f"""<section class="safari-zone"><div class="wrap">
+<div class="safari-grid">{cards}</div>
+<p class="safari-exit"><a href="../index.html#library">&larr; Back to the library</a></p>
+</div></section>""",
+        footer("../", safari=True, safari_page="index"),
+    ])
+
+
+def render_safari_proof(*, rel: str = "../") -> str:
+    return "\n".join([
+        head("A sister proof — Arjuna Badger Press",
+             "Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic, no fitted parameters.",
+             rel=rel, safari=True, canonical=f"{DOMAIN}/safari/proof.html", safari_page="proof"),
+        safari_nav(rel),
+        '<article class="reader letter">',
+        crest_img(rel, safari=True),
+        """<p class="eyebrow" style="text-align:center">Personal</p>
+<h1 style="text-align:center">A sister proof</h1>
+<p class="intro" style="text-align:center">Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic,
+no fitted parameters. The theory is his. The proof is mine.</p>
+<div class="cta" style="text-align:center;margin-top:28px">
+<a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory →</a>
+<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof →</a>
+</div>
+<p style="text-align:center;margin-top:48px"><a class="back" href="index.html">&larr; Meet the man</a></p>
+</article>""",
+        footer(rel, safari=True, safari_page="proof"),
+    ])
+
+
+# Safari content pages — warm public prose ringfenced from the library chrome.
+SAFARI_CONTENT = [
+    ("how-it-started.md", "how-it-started.html", "How it started — Arjuna Badger Press",
+     "The Misogi vow: thirty days, one novel, one subscription — and where the month actually landed."),
+]
+
+
+def render_safari_content(src_name: str, out_name: str, title: str, desc: str, *,
+                          rel: str = "../") -> str | None:
+    src = REPO / "site" / "content" / src_name
+    if not src.is_file():
+        return None
+    body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
+    page_key = out_name.removesuffix(".html")
+    return "\n".join([
+        head(title, desc, rel=rel, safari=True, canonical=f"{DOMAIN}/safari/{out_name}",
+             safari_page=page_key),
+        safari_nav(rel),
+        '<article class="reader letter misogi-page">',
+        crest_img(rel, safari=True),
+        body,
+        '<p style="text-align:center;margin-top:48px"><a class="back" href="index.html">&larr; Meet the man</a></p>',
+        '</article>',
+        footer(rel, safari=True, safari_page=page_key),
+    ])
+
+
+def render_house(*, rel: str = "", safari: bool = False) -> str:
     blazon = """<p class="intro">Arjuna Badger Press is the work of one house, and the house keeps its arms.
 They were not granted by a college; they were earned the long way, and then claimed. Read them and you
 have read the whole of why this press exists — every charge on the shield is a promise the books are
@@ -3253,30 +3633,38 @@ does not leave its own behind.</p></div>
 <p>Through adversity, to the great work. The Misogi and the magnum opus in four words: that what is hard is
 the road, not the obstacle, and that the work at the end of it is meant to be <em>great</em> — and given away.</p></div>
 """
+    back = f"{rel}safari/index.html" if safari else f"{rel}index.html#library"
+    back_label = "Meet the man" if safari else "the library"
+    canon = f"{DOMAIN}/safari/house.html" if safari else f"{DOMAIN}/house.html"
+    chrome = safari_nav(rel) if safari else nav(rel)
+    safari_key = "house" if safari else ""
     return "\n".join([
         head("The House of Greyling — Arjuna Badger Press",
-             "The arms of the House of Greyling — the founder's mark of Arjuna Badger Press."),
-        nav(),
+             "The arms of the House of Greyling — the founder's mark of Arjuna Badger Press.",
+             rel=rel, safari=safari, canonical=canon, safari_page=safari_key),
+        chrome,
         f"""<article class="house">
-<img class="crest-full" src="assets/brand/house-of-greyling-crest.png" alt="The arms of the House of Greyling">
+{crest_img(rel, safari=safari) if safari else ""}
+<img class="crest-full" src="{rel}assets/brand/house-of-greyling-crest.png" alt="The arms of the House of Greyling">
 <h1>The House of Greyling</h1>
 <div class="motto">Per Ardua Ad Magnum</div>
 <div class="gloss">Through adversity — to the great work</div>
 <div class="blazon">{blazon}</div>
-<p style="text-align:center;margin-top:48px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+<p style="text-align:center;margin-top:48px"><a class="back" href="{back}">&larr; Back to {back_label}</a></p>
 </article>""",
-        footer(),
+        footer(rel, safari=safari, safari_page=safari_key),
     ])
 
 
-def render_cv() -> str:
+def render_cv(*, rel: str = "", safari: bool = False) -> str:
     """Self-owned CV/profile page from the exported LinkedIn profile PDF."""
+    canon_path = "safari/cv.html" if safari else "cv.html"
     person_ld = json.dumps({
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Andries J. Greyling",
         "alternateName": ["AJ Greyling", "Andries Jakobus Greyling"],
-        "url": f"{DOMAIN}/cv.html",
+        "url": f"{DOMAIN}/{canon_path}",
         "sameAs": [
             "https://www.linkedin.com/in/ajgreyling",
             "https://github.com/ajgreyling",
@@ -3297,17 +3685,20 @@ def render_cv() -> str:
             "GIS and data-enabled systems",
         ],
     })
+    chrome = safari_nav(rel) if safari else nav(rel)
+    tech_href = "technology.html" if safari else f"{rel}safari/technology.html"
+    safari_key = "cv" if safari else ""
     return "\n".join([
         head("Andries J. Greyling — CV",
              "The single source of truth for Andries J. Greyling: 27 years of enterprise software "
              "development, now an independent AI product & SaaS consultant and founder of Arjuna "
              "Badger Press, building toward a life of travel and writing.",
-             canonical=f"{DOMAIN}/cv.html",
-             ld_json=person_ld),
-        nav(),
-        """<article class="reader letter cv-page">
+             rel=rel, safari=safari, canonical=f"{DOMAIN}/{canon_path}",
+             ld_json=person_ld, safari_page=safari_key),
+        chrome,
+        f"""<article class="reader letter cv-page">
 <section class="cv-hero">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+{crest_img(rel, safari=safari)}
 <p class="eyebrow">The single source of truth · always current here</p>
 <h1>Andries J. Greyling</h1>
 <p class="cv-title">27 years of enterprise software · Independent AI &amp; SaaS consultant · Founder, Arjuna Badger Press</p>
@@ -3370,9 +3761,9 @@ and travel as the life, not the reward at the end of it.</p>
 <section class="cv-block">
 <h2>Public Links</h2>
 <ul>
-<li><a href="technology.html">Technology behind the library</a></li>
-<li><a href="marketplace.html">Marketplace thesis</a></li>
-<li><a href="app.html">Reader app plan</a></li>
+<li><a href="{tech_href}">Technology behind the library</a></li>
+<li><a href="{rel}marketplace.html">Marketplace thesis</a></li>
+<li><a href="{rel}app.html">Reader app plan</a></li>
 <li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">/sleep on GitHub</a></li>
 </ul>
 </section>
@@ -3389,10 +3780,8 @@ find the bottleneck, and ship.</p>
 directly useful: AI product adoption, SaaS architecture, API and automation design, technical rescue
 work, delivery-system diagnosis, and developer workflows that combine human judgement with AI
 capability. I work with a handful of companies at a time, on purpose. Depth over volume.</p>
-<p>Alongside the consulting I am building Arjuna Badger Press: a publishing platform that keeps
-creators in control while solving real distribution gaps in ebooks, audiobooks, and small-batch print.
-The long arc is simple and deliberate: to make a living from work I choose, and to spend the rest of
-it writing and travelling.</p>
+<p>Alongside the consulting I am building Arjuna Badger Press: text free on arjunabadger.press;
+revenue from human-narrated audiobooks with local voice artists; creators keep their rights.</p>
 </section>
 
 <section class="cv-block">
@@ -3427,10 +3816,10 @@ PWA shell, and direct marketplace intake pages.</p>
 </div>
 <div class="cv-item">
 <div class="cv-meta">2026 · Publishing marketplace</div>
-<h3>ACX-style audio plus dead-press-time printing</h3>
-<p>Designing a marketplace for countries outside the usual audiobook royalty rails and for small-batch
-print runs matched to idle printing capacity. Narrator participation floor: at least 5% of net profit
-for at least five years.</p>
+<h3>Arjuna Audio — paid human narration</h3>
+<p>Business pivot (2026): text free on the site; revenue from audiobooks narrated by real local voice
+artists. Matching authors to narrators outside ACX royalty rails. Floor: at least 5% of net profit
+for at least five years for qualifying projects.</p>
 </div>
 <div class="cv-item">
 <div class="cv-meta">2026 · Reader app</div>
@@ -3570,7 +3959,7 @@ downloads, RSS, sitemap, PWA metadata, and self-owned author/platform pages.</p>
 <p>Author and publisher of the Arjuna Badger Press catalogue, including speculative fiction,
 novelised ancient mysteries, companions, non-fiction, and experimental series work. The catalogue is
 free to read and download for personal use from the public library.</p>
-<p><a href="index.html#library">Browse the library &rarr;</a></p>
+<p><a href="{rel}index.html#library">Browse the library &rarr;</a></p>
 </section>
 
 <section class="cv-block">
@@ -3589,7 +3978,7 @@ consulting address and does not publish home address or personal phone number.</
 </div>
 </div>
 </article>""",
-        footer(),
+        footer(rel, safari=safari, safari_page=safari_key),
     ])
 
 
@@ -3787,7 +4176,7 @@ stands, and how you would say it. A sentence is enough; a paragraph is fine. We 
 full retranslation — only the places where the machine missed the living language.</p>
 <p style="margin-top:14px"><a class="btn" href="{submit}">Submit a fix &rarr;</a></p>
 <p style="margin-top:12px;font-size:14px;color:var(--grass)">Want an instant rewrite at a chosen register?
-<a href="/real-language">Try Real Language</a> — temp&nbsp;0 is textbook/scripture, temp&nbsp;1 is slang.</p></div>
+<a href="/real-language">Try People's Language</a> (Real Language API) · temp&nbsp;0 is textbook/scripture, temp&nbsp;1 is slang.</p></div>
 
 <div class="entry"><span class="charge">What happens next</span>
 <p>Every submission is read. Accepted fixes are folded into the next edition export, <strong>credited
@@ -3872,8 +4261,8 @@ def render_narrators() -> str:
 <img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Arjuna Audio</p>
 <h1 style="text-align:center">Become a narrator</h1>
-<p class="intro" style="text-align:center">Audiobook production for the countries ACX leaves out.
-Authors keep their rights. Voice actors share in the upside.</p>
+<p class="intro" style="text-align:center">The library is free. <strong>Paid human audiobooks</strong> are how narrators earn —
+real local voice talent for countries ACX leaves out. Authors keep their rights.</p>
 
 <div class="intake-grid" aria-label="Arjuna Audio terms">
 <div class="intake-card"><span class="charge">Minimum royalty</span>
@@ -4525,13 +4914,16 @@ def render_service_worker() -> str:
         "/reader.html",
         "/start.html",
         "/assets/site.css",
-        "/assets/brand/mark-only.png",
+        "/assets/safari.css",
+        "/assets/safari/sossusvlei-dunes.jpg",
+        "/assets/safari/okavango-delta.jpg",
+        "/assets/brand/logo-master.png",
         "/assets/brand/favicon-180.png",
         "/assets/brand/favicon-512.png",
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v2";
+    return f"""const CACHE_NAME = "abp-pwa-v5";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -4804,6 +5196,21 @@ def assert_nav_drawer_contract(out: Path) -> None:
                 raise SystemExit(f"nav guard: missing {need} in {path.relative_to(out)}")
 
 
+def safari_logo_guard(out: Path) -> None:
+    """Every Safari page must use SAFARI_LOGO — not mark-only, stamp, or heraldic crest in nav."""
+    logo = f"assets/brand/{SAFARI_LOGO}"
+    safari_root = out / "safari"
+    if not safari_root.is_dir():
+        return
+    for path in sorted(safari_root.rglob("*.html")):
+        page = path.read_text(encoding="utf-8", errors="ignore")
+        if logo not in page:
+            raise SystemExit(f"safari logo guard: {path.relative_to(out)} missing {logo}")
+        for bad in ("mark-only.png", "badger-bow-stamp.png", "safari-mark.png"):
+            if bad in page:
+                raise SystemExit(f"safari logo guard: {path.relative_to(out)} still references {bad}")
+
+
 def main() -> None:
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -4816,11 +5223,18 @@ def main() -> None:
     # brand assets
     for name in ("logo-master.png", "mark-only.png", "social-og-1200x630.png",
                  "favicon-32.png", "favicon-180.png", "favicon-512.png", "logo-on-light.png",
-                 "house-of-greyling-crest.png"):
+                 "house-of-greyling-crest.png", SAFARI_LOGO):
         src = BRAND / name
         if src.is_file():
             shutil.copy2(src, OUT / "assets" / "brand" / name)
     (OUT / "assets" / "site.css").write_text(CSS, encoding="utf-8")
+    (OUT / "assets" / "safari.css").write_text(SAFARI_CSS, encoding="utf-8")
+    safari_assets = OUT / "assets" / "safari"
+    safari_assets.mkdir(parents=True, exist_ok=True)
+    for name in ("sossusvlei-dunes.jpg", "okavango-delta.jpg", "ATTRIBUTION.md"):
+        src = BRAND / "safari" / name
+        if src.is_file():
+            shutil.copy2(src, safari_assets / name)
     (OUT / "manifest.webmanifest").write_text(render_manifest(), encoding="utf-8")
     (OUT / "sw.js").write_text(render_service_worker(), encoding="utf-8")
 
@@ -4869,26 +5283,70 @@ def main() -> None:
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
     if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
         (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
-    for src_name, out_name, title, desc in LETTERS:
-        page = render_letter(src_name, title, desc)
+    # ── Safari — personal annex (CV, letters, arms, essays) ─────────────────────────────────────
+    safari_out = OUT / "safari"
+    safari_out.mkdir(exist_ok=True)
+    (safari_out / "index.html").write_text(render_safari_hub(), encoding="utf-8")
+    (safari_out / "cv.html").write_text(render_cv(rel="../", safari=True), encoding="utf-8")
+    (safari_out / "house.html").write_text(render_house(rel="../", safari=True), encoding="utf-8")
+    (safari_out / "proof.html").write_text(render_safari_proof(rel="../"), encoding="utf-8")
+    for src_name, out_name, title, desc in SAFARI_CONTENT:
+        page = render_safari_content(src_name, out_name, title, desc, rel="../")
         if page:
-            (OUT / out_name).write_text(page, encoding="utf-8")
-    (OUT / "house.html").write_text(render_house(), encoding="utf-8")
+            (safari_out / out_name).write_text(page, encoding="utf-8")
+    tech_title = "The technology behind the library"
+    tech_desc = (
+        "A plain-English, diagram-led tour of the manuscript-craft studio: the architecture, "
+        "the guardrails, and the one invariant — tools measure and sound the alarm; they do not "
+        "generate, and they do not drive.")
+    tech_page = render_doc_page("TECHNOLOGY.md", "technology", tech_title, tech_desc,
+                                rel="../", safari=True)
+    if tech_page:
+        (safari_out / "technology.html").write_text(with_mermaid(tech_page), encoding="utf-8")
+    for src_name, out_name, title, desc in LETTERS:
+        page = render_letter(src_name, out_name, title, desc, rel="../", safari=True)
+        if page:
+            (safari_out / out_name).write_text(page, encoding="utf-8")
+    safari_writing = safari_out / "writing"
+    safari_writing.mkdir(exist_ok=True)
+    (safari_writing / "index.html").write_text(
+        render_writing_index(rel="../../", safari=True), encoding="utf-8")
+    writing_n = 0
+    for src_name, slug, title, byline, blurb, hidden in WRITING_PIECES:
+        page = render_writing_piece(
+            src_name, slug, title, byline, blurb, hidden, rel="../../", safari=True)
+        if page:
+            (safari_writing / f"{slug}.html").write_text(page, encoding="utf-8")
+            writing_n += 1
+
+    # Redirect stubs — old URLs keep working; canonical lives under /safari/
+    cv_canon = f"{DOMAIN}/safari/cv.html"
+    (OUT / "cv.html").write_text(redirect_page("safari/cv.html", cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
+    (OUT / "house.html").write_text(
+        redirect_page("safari/house.html", f"{DOMAIN}/safari/house.html", "The House of Greyling"), encoding="utf-8")
+    for _, out_name, title, _ in LETTERS:
+        (OUT / out_name).write_text(
+            redirect_page(f"safari/{out_name}", f"{DOMAIN}/safari/{out_name}", title), encoding="utf-8")
+    writing_out = OUT / "writing"
+    writing_out.mkdir(exist_ok=True)
+    (writing_out / "index.html").write_text(
+        redirect_page("../safari/writing/index.html", f"{DOMAIN}/safari/writing/index.html",
+                      "The Writing Desk"), encoding="utf-8")
+    for _, slug, title, _, _, _ in WRITING_PIECES:
+        (writing_out / f"{slug}.html").write_text(
+            redirect_page(f"../safari/writing/{slug}.html", f"{DOMAIN}/safari/writing/{slug}.html",
+                          title), encoding="utf-8")
+
+    tech_canon = f"{DOMAIN}/safari/technology.html"
+    (OUT / "technology.html").write_text(
+        redirect_page("safari/technology.html", tech_canon, "The technology behind the library"),
+        encoding="utf-8")
+
     (OUT / "press.html").write_text(render_press_hub(entries, sum(1 for e in entries if e["available"])), encoding="utf-8")
-    (OUT / "cv.html").write_text(render_cv(), encoding="utf-8")
-    # Clean URL: arjunabadger.press/cv → cv.html. GitHub Pages runs with .nojekyll
-    # (no automatic extensionless serving), so serve a real directory index that
-    # redirects to the canonical cv.html. Keeps one rendered source of truth.
+    # Clean URL: arjunabadger.press/cv → safari/cv.html
     (OUT / "cv").mkdir(exist_ok=True)
     (OUT / "cv" / "index.html").write_text(
-        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
-        '<meta name="viewport" content="width=device-width,initial-scale=1">'
-        f'<link rel="canonical" href="{DOMAIN}/cv.html">'
-        '<meta http-equiv="refresh" content="0; url=../cv.html">'
-        '<title>Andries J. Greyling — CV</title>'
-        '<script>location.replace("../cv.html"+location.hash)</script>'
-        '</head><body>Redirecting to <a href="../cv.html">the CV</a>…</body></html>',
-        encoding="utf-8")
+        redirect_page("../safari/cv.html", cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
     (OUT / "narrators.html").write_text(render_narrators(), encoding="utf-8")
     (OUT / "distribution.html").write_text(render_distribution(), encoding="utf-8")
@@ -4907,6 +5365,8 @@ def main() -> None:
     for src_name, slug, title, desc in DOC_PAGES:
         if slug in ("bounty", "finders") and not BOUNTY_LIVE:
             continue   # bounty surface is gated until launch (25 June 2026)
+        if slug == "technology":
+            continue   # canonical page lives under /safari/
         page = render_doc_page(src_name, slug, title, desc)
         if page:
             (OUT / f"{slug}.html").write_text(with_mermaid(page), encoding="utf-8")
@@ -4931,16 +5391,7 @@ def main() -> None:
                 (terms_out / f"{src.stem}.html").write_text(page, encoding="utf-8")
                 term_n += 1
 
-    # ── The Writing Desk (essays/parables) ──────────────────────────────────────────────────────
-    writing_out = OUT / "writing"
-    writing_out.mkdir(exist_ok=True)
-    (writing_out / "index.html").write_text(render_writing_index(), encoding="utf-8")
-    writing_n = 0
-    for src_name, slug, title, byline, blurb, hidden in WRITING_PIECES:
-        page = render_writing_piece(src_name, slug, title, byline, blurb, hidden)
-        if page:
-            (writing_out / f"{slug}.html").write_text(page, encoding="utf-8")
-            writing_n += 1
+    # writing_n counted in Safari build above
 
     wiki_n = build_wiki(OUT)
 
@@ -4948,6 +5399,7 @@ def main() -> None:
     sm_n = write_sitemap_and_robots(OUT)
     feed_n = write_feed(OUT, entries)
     assert_nav_drawer_contract(OUT)
+    safari_logo_guard(OUT)
 
     avail = sum(1 for e in entries if e["available"])
     readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))
