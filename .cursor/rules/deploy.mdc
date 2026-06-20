@@ -1,0 +1,25 @@
+---
+description: Deploy arjunabadger.press — follow the platform deploy skill; Render is the live origin.
+globs:
+alwaysApply: false
+---
+
+# Deploy — arjunabadger.press
+
+This repo generates the library site; **Render serves the live custom domain**.
+
+When asked to deploy, release, publish, or ship — read and follow the full runbook in the
+companion repo:
+
+`../arjuna-badger-platform/.claude/skills/deploy/SKILL.md`
+
+Minimum loop from this repo:
+
+1. `python3 site/build.py`
+2. Rsync `site/public/` → `../arjuna-badger-platform/saas/web/public/`
+3. Push `master` (this repo) + `main` (platform)
+4. **Render redeploy** (`RENDER_DEPLOY_HOOK_URL` or Manual Deploy) — required for live site
+
+Engine manuscript sync (before step 1 when prose changed in platform):
+
+`../arjuna-badger-platform/tools/sync_library.sh`

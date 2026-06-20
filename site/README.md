@@ -35,29 +35,34 @@ cd site/public && python3 -m http.server 8765
 # open http://localhost:8765/
 ```
 
-## Deploy (GitHub Pages first)
+## Deploy (Render — live origin)
 
-### Cheapest production shape
+**`https://arjunabadger.press` is served by Render**, not GitHub Pages. GitHub Pages CI
+(`.github/workflows/pages.yml`) rebuilds this site on every `master` push as a parallel artifact;
+the custom domain hits Render via Namecheap DNS → Cloudflare → FastAPI/Uvicorn serving
+`arjuna-badger-platform/saas/web/public/`.
 
-Keep the public static site on **GitHub Pages** for as long as possible. It is the cheapest host for
-the catalogue, free downloads, generated book pages, and the installable PWA shell. Use Webdock only
-for the parts GitHub Pages cannot do:
+Full runbook: `arjuna-badger-platform/.claude/skills/deploy/SKILL.md`
 
-- `arjunabadger.press` — GitHub Pages static site and PWA shell.
-- `api.arjunabadger.press` — Webdock containers for authoring chat, uploads, payments, royalties,
-  audiobook delivery, and print-order workflows.
-- `files.arjunabadger.press` or object storage later — large/private audio, print PDFs, and paid
-  downloads if GitHub bandwidth or repo size becomes the constraint.
+```
+0. (platform) ./tools/sync_library.sh     engine → books/ here
+1. python3 site/build.py                  → site/public/
+2. rsync site/public/ → platform/saas/web/public/
+3. git push master (this repo) + git push main (platform)
+4. Render redeploy — RENDER_DEPLOY_HOOK_URL or Manual Deploy on Render dashboard
+5. Verify: curl -sL https://arjunabadger.press/ | grep <book-id>
+```
 
-This keeps the expensive moving parts off the static host, but avoids paying a VPS to serve files
-GitHub can serve for free.
+### Infrastructure
 
-### Webdock is not the static origin
-
-Do not use the Webdock VPS/container as the public origin for this static catalogue while GitHub
-Pages can carry the traffic and CDN edge. Webdock is reserved for backend surfaces GitHub Pages
-cannot provide, such as API workers, uploads, account sync, payments, royalty ledgers, and print or
-audio workflows.
+| Layer | Role |
+|---|---|
+| Namecheap | DNS registrar |
+| Cloudflare | CDN + TLS in front of Render |
+| Render | Live library + SaaS API |
+| Neon | Postgres (platform workshop) |
+| R2 | Workshop blobs only — shelf EPUB/PDF on Render disk |
+| GitHub Pages | CI mirror on push to `master` |
 
 ## Notes
 
