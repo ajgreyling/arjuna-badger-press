@@ -561,6 +561,10 @@ def looks_prose(p: str) -> bool:
         return False
     if p.lower().startswith(("read with", "seed canon", "status:", "note —", "nb:", "binding")):
         return False
+    if re.search(r"\bslate\s*:", p, re.I):
+        return False
+    if re.search(r"\bfull-send\b|wonder \+ line|line pass", p, re.I):
+        return False
     if p.count("/") >= 2:
         return False
     return len(p) > 40
