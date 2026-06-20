@@ -1,0 +1,45 @@
+# Chapter 6 — The Spreadsheet
+
+Excel was where bureaucracies went to tell the truth by accident.
+
+Gary had always believed that. Budgets did not lie in PowerPoint. Budgets lied in cells with formulas you could unpack if you were patient and rude enough. The **NTO_roster** workbook had three sheets: **Active**, **Reserve**, **Transfers**. The tabs were colour-coded in a way that suggested a human had maintained this, not a script. Someone had typed column headers and left comments in cells, little notes only clerks see.
+
+**Last name. First name. Rank. Branch. Hull assignment. Commission date. Notes.**
+
+Branch always **NTO**.
+
+Notes sometimes said things like **F2F qualified** or **return pending** in plain language that made Gary's chest tight because **return pending** implied a place you returned **from**.
+
+He sorted by hull assignment and watched designators cluster that did not match anything on the public Navy registry. He sorted by commission date and saw names that predated hulls those names were assigned to, which was impossible in the ordinary world and ordinary in the world he was being shown.
+
+One row on **Transfers** was highlighted in yellow, as if a clerk had meant to come back to it and never did.
+
+**Transfer ID: F2F-1965-0412**
+
+He clicked it and the linked sheet opened and the duration field sat in the cell like an integer with nothing to prove:
+
+**4680**
+
+Gary stared at the number. He opened Calculator because his mind had gone slippery and typed **4680 / 360** and got **13**.
+
+Thirteen years.
+
+He did not know the word **Serpo**. He did not know **Zeta Reticuli** yet, though the destination field on the linked row would send him there on a lookup table he should not have been able to reach. He knew only that a spreadsheet maintained like scripture had a row with a duration of thirteen years and a transfer class of fleet to fleet and a branch column that said Non-Terrestrial Officers as if that were a normal way to serve.
+
+---
+
+> **ARCHIVE — Reconstructed `.xls` column headers (from McKinnon interviews + in-world session)**
+>
+> `LAST_NAME | FIRST_NAME | RANK | BRANCH | HULL_ID | COMM_DATE | F2F_FLAG | DURATION_DAYS | DEST_STRING`
+>
+> *(Header reconstruction **Debated**; structure **Invented** for clarity; McKinnon consistently described Excel ship/officer lists.)*
+
+---
+
+He copied the workbook to three disks because redundancy was the only religion he trusted.
+
+He did not tell Janis.
+
+He told her the next morning that he felt ill, and she touched his forehead and said he was burning up, and he was, but not from fever.
+
+From the integer **4680** sitting behind his eyes like a afterimage.
