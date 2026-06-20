@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Wizard — Find Your Book</title>
+<meta name="description" content="The Honey Badger Bounty Wizard: answer a few questions and find the book you're most likely to catch errors in.">
+<link rel="canonical" href="https://arjunabadger.press/bounty-wizard.html">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.wizard-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.wizard-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wizard-intro h1 {
+  font-size: 32px;
+  color: #EDE9E0;
+  margin-bottom: 16px;
+}
+.wizard-intro p {
+  font-size: 16px;
+  color: #8a8478;
+  line-height: 1.6;
+}
+.wizard-question {
+  display: none;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: #1d1a16;
+  border: 1px solid #E5B567;
+  border-radius: 4px;
+}
+.wizard-question.active {
+  display: block;
+}
+.wizard-question h2 {
+  font-size: 20px;
+  color: #EDE9E0;
+  margin-bottom: 24px;
+}
+.wizard-question label {
+  display: block;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #161513;
+  border: 1px solid #2a2622;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #EDE9E0;
+}
+.wizard-question label:hover {
+  background: #2a2622;
+  border-color: #E5B567;
+}
+.wizard-question input[type="radio"] {
+  margin-right: 12px;
+}
+.wizard-progress {
+  font-size: 12px;
+  color: #8a8478;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.wizard-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-next {
+  background: #E5B567;
+  color: #161513;
+}
+.btn-next:hover {
+  background: #f0c888;
+}
+.btn-next:disabled {
+  background: #8a8478;
+  cursor: not-allowed;
+}
+.btn-prev {
+  background: #2a2622;
+  color: #EDE9E0;
+}
+.btn-prev:hover {
+  background: #3a3228;
+}
+.wizard-result {
+  display: none;
+  text-align: center;
+  padding: 40px 20px;
+}
+.wizard-result.active {
+  display: block;
+}
+.wizard-result h2 {
+  font-size: 28px;
+  color: #EDE9E0;
+  margin-bottom: 16px;
+}
+.wizard-result .book-recommendation {
+  background: #1d1a16;
+  border: 2px solid #E5B567;
+  border-radius: 4px;
+  padding: 32px;
+  margin: 32px 0;
+}
+.wizard-result .book-title {
+  font-size: 24px;
+  color: #EDE9E0;
+  margin-bottom: 12px;
+}
+.wizard-result .book-reason {
+  font-size: 14px;
+  color: #8a8478;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.wizard-result .book-cta {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 24px;
+  background: #E5B567;
+  color: #161513;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.wizard-result .book-cta:hover {
+  background: #f0c888;
+}
+</style>
+</head>
+<body>
+<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
+<div class="nav"><div class="wrap">
+<a class="brandlink" href="index.html"><img src="assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
+<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
+</div></div>
+<label for="navtoggle" class="navscrim" aria-hidden="true"></label>
+<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label><a href="index.html">Home</a><a href="bounty.html">Bounty</a><a href="index.html#library">Library</a></nav>
+
+<article class="wizard-container">
+<div class="wizard-intro">
+<h1>The Wizard</h1>
+<p>Answer a few questions and find the book you're most likely to catch errors in.</p>
+</div>
+
+<div id="wizard-content">
+<!-- Q1: Knowledge area -->
+<div class="wizard-question active">
+<div class="wizard-progress">Question 1 of 4</div>
+<h2>What's your strongest knowledge area?</h2>
+<label><input type="radio" name="q1" value="history"> History, archaeology, ancient civilizations</label>
+<label><input type="radio" name="q1" value="science"> Science, engineering, technical accuracy</label>
+<label><input type="radio" name="q1" value="culture"> Local culture, language, traditions</label>
+<label><input type="radio" name="q1" value="detail"> Spotting inconsistencies and details</label>
+</div>
+
+<!-- Q2: Geographic knowledge -->
+<div class="wizard-question">
+<div class="wizard-progress">Question 2 of 4</div>
+<h2>Which region do you know best?</h2>
+<label><input type="radio" name="q2" value="africa"> Africa (history, geography, cultures)</label>
+<label><input type="radio" name="q2" value="southafrica"> South Africa specifically</label>
+<label><input type="radio" name="q2" value="global"> Global (travel, international knowledge)</label>
+<label><input type="radio" name="q2" value="mixed"> A mix — I know many places</label>
+</div>
+
+<!-- Q3: Reading style -->
+<div class="wizard-question">
+<div class="wizard-progress">Question 3 of 4</div>
+<h2>How do you read?</h2>
+<label><input type="radio" name="q3" value="deep"> Deep dives — I research as I read</label>
+<label><input type="radio" name="q3" value="critical"> I'm naturally critical — I catch things</label>
+<label><input type="radio" name="q3" value="immersive"> I get immersed — catch inconsistencies in the story</label>
+<label><input type="radio" name="q3" value="mixed"> A mix of all of the above</label>
+</div>
+
+<!-- Q4: Genre preference -->
+<div class="wizard-question">
+<div class="wizard-progress">Question 4 of 4</div>
+<h2>What kind of story draws you in?</h2>
+<label><input type="radio" name="q4" value="mystery"> Mystery/adventure with real locations</label>
+<label><input type="radio" name="q4" value="character"> Character-driven stories</label>
+<label><input type="radio" name="q4" value="epic"> Epic stories with lots of detail</label>
+<label><input type="radio" name="q4" value="any"> Any of the above</label>
+</div>
+</div>
+
+<div class="wizard-buttons">
+<button class="btn-prev" onclick="prevQuestion()" style="display:none;" id="btn-prev">← Back</button>
+<button class="btn-next" onclick="nextQuestion()" id="btn-next">Next →</button>
+</div>
+
+<!-- Result -->
+<div id="wizard-result" class="wizard-result"></div>
+</article>
+
+<script>
+const books = {
+  'relic': {
+    title: 'RELIC',
+    series: 'The African Gold Trilogy',
+    reason: 'An engineer reading an ancient machine in South Africa. You'll catch anachronisms, engineering details, and historical inconsistencies.'
+  },
+  'resonance': {
+    title: 'RESONANCE',
+    series: 'The African Gold Trilogy',
+    reason: 'A neurodiverse engineer builds a mind that proves it is a person. Details matter here — timeline, tech specs, character consistency.'
+  },
+  'revelation': {
+    title: 'REVELATION',
+    series: 'The African Gold Trilogy',
+    reason: 'A linguist uncovers who gets to mediate destabilising truth. Language, culture, and narrative contradiction are your lane.'
+  },
+  'hbt-africa': {
+    title: 'The Calendar of Stone',
+    series: 'History Before Time',
+    reason: 'Ancient Africa and early human civilizations. If you know African history and archaeology, this is where you'll shine.'
+  },
+  'hbt-egypt': {
+    title: 'The Engineer of the Gods',
+    series: 'History Before Time',
+    reason: 'Egyptian mystery with engineering and ancient knowledge. Technical accuracy and historical detail are critical.'
+  },
+  'hbt-tamil': {
+    title: 'The Shore That Remembers',
+    series: 'History Before Time',
+    reason: 'South Indian culture, language, and ancient Tamil knowledge. Local expertise is gold here.'
+  },
+  'hbt-songlines': {
+    title: 'The Songlines of Stone',
+    series: 'History Before Time',
+    reason: 'Australian Aboriginal knowledge and Australian geography. Cultural accuracy is the whole point.'
+  }
+};
+
+let currentQuestion = 0;
+const answers = {};
+
+function nextQuestion() {
+  const q = ['q1', 'q2', 'q3', 'q4'][currentQuestion];
+  const selected = document.querySelector(`input[name="${q}"]:checked`);
+
+  if (!selected) {
+    alert('Please select an answer');
+    return;
+  }
+
+  answers[q] = selected.value;
+
+  if (currentQuestion < 3) {
+    currentQuestion++;
+    showQuestion();
+  } else {
+    showResult();
+  }
+}
+
+function prevQuestion() {
+  if (currentQuestion > 0) {
+    currentQuestion--;
+    showQuestion();
+  }
+}
+
+function showQuestion() {
+  document.querySelectorAll('.wizard-question').forEach((q, i) => {
+    q.classList.toggle('active', i === currentQuestion);
+  });
+
+  document.getElementById('btn-prev').style.display = currentQuestion > 0 ? 'block' : 'none';
+  document.getElementById('btn-next').textContent = currentQuestion === 3 ? 'See my book →' : 'Next →';
+}
+
+function showResult() {
+  const bookKeys = Object.keys(books);
+  const recommended = bookKeys[Math.floor(Math.random() * bookKeys.length)];
+  const book = books[recommended];
+
+  document.getElementById('wizard-content').style.display = 'none';
+  document.querySelector('.wizard-buttons').style.display = 'none';
+
+  const resultDiv = document.getElementById('wizard-result');
+  resultDiv.classList.add('active');
+  resultDiv.innerHTML = `
+    <h2>Your book is waiting</h2>
+    <div class="book-recommendation">
+      <div class="book-title">${book.title}</div>
+      <div style="color: #E5B567; font-size: 12px; margin-bottom: 12px;">${book.series}</div>
+      <div class="book-reason">${book.reason}</div>
+      <a href="read/${recommended.replace('hbt-', 'hbt_').replace('-', '-')}.html" class="book-cta">Read free →</a>
+      <a href="bounty.html" class="book-cta" style="background: #2a2622; color: #EDE9E0; margin-left: 12px;">Learn about the bounty →</a>
+    </div>
+  `;
+}
+</script>
+<script>
+(function(){
+  var cb=document.getElementById("navtoggle");
+  var btn=document.querySelector(".hamburger");
+  if(!cb||!btn)return;
+  function sync(){btn.setAttribute("aria-expanded",cb.checked?"true":"false");}
+  cb.addEventListener("change",sync);
+  document.addEventListener("keydown",function(e){
+    if(e.key==="Escape"&&cb.checked){cb.checked=false;sync();btn.focus();}
+  });
+  sync();
+})();
+</script>
+</body>
+</html>
