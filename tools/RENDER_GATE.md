@@ -28,6 +28,10 @@
 - **The font is vendored in the repo** (`assets/fonts/`, SIL Open Font License — free to embed and
   redistribute), so renders are self-contained and the EPUBs display Atkinson on devices that don't
   have the font installed.
+- **EPUB accessibility metadata (added 2026-06-20):** every render sets `lang=en-ZA`, `publisher`,
+  `rights`, and `date` in the OPF; the illustrated-PDF notice is a `role="note"` region; PDFs set
+  `lang=en-ZA`. Read-online pages mark the prose `<article>` as `lang="en-ZA"` and fall back to
+  `"Illustration"` when an inline image has no alt text.
 
 ## Usage
 ```sh
