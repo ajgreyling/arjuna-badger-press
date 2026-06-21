@@ -19,6 +19,21 @@ time — and to every specialist named in the Source Notes who put their name on
 
 ---
 
+# A Note on the Original
+
+This book is a faithful modern retelling of **Roald Dahl's *The Wonderful Story of Henry Sugar***
+(1977), **published in honor of the original**. Every name, scene, and sentence here is original; what
+it carries forward is the *engine* of Dahl's story — its nested telling, its greedy man, its boring
+years of practice, its card that turns over — not his text.
+
+It is **not endorsed by, authorized by, or affiliated with** Roald Dahl, the Roald Dahl Story Company,
+his estate, or his publishers. *The Wonderful Story of Henry Sugar*, its characters, and its text
+remain their intellectual property. The author has reached out, through the Dahl estate's
+representatives (the agency of Eleanor Wood), regarding rights and licensing; this edition is offered
+in tribute and is **not for commercial release** unless and until such permission is granted. Any
+error or liberty is the present author's alone, and the debt to Dahl is disclosed here plainly and
+gladly.
+
 ---
 
 # The Sort of Person He Was
@@ -50,8 +65,6 @@ That, then, is the sort of person he was. Greedy. Vain. Idle. Dishonest in the s
 I have been honest with you about him because I have to be. If I make him better than he was, then the thing that happened to him means nothing, and the thing that happened to him is the only reason I am writing at all. A man who is already good and then becomes good is not a story. Henry was not good. Henry would have laughed at the very idea of becoming good, and offered you his motto, and signalled to a waiter.
 
 And now that you have a rough idea of the sort of person Henry Sugar was, I can begin my story.
-
----
 
 # The Blue Folder
 
@@ -97,8 +110,6 @@ The Moleskine, it turned out, was a fair copy — Voss's own neat hand had trans
 *I am a surgeon,* it said, *and I do not believe in miracles. I write this account precisely because I cannot make it stop being true.*
 
 The rain came on. Down the corridor, faintly, a man laughed and chips clicked into a pot Henry was not in. He did not hear them. He had gone somewhere else — down into the dead man's careful blue handwriting, into a hospital lounge in Bombay in the hot season of 1934, where a tired surgeon named Cartwright was about to be interrupted by a stranger with an impossible request.
-
----
 
 # The Man Who Asked for Witnesses
 
@@ -158,8 +169,6 @@ I rose and told the orderly to bring me dough from the kitchen, soft enough to m
 
 Khan sat down in the cane chair we offered him and folded his bare feet beneath it and waited, perfectly still, while we assembled the means of catching him. He looked, in that moment, less like a man about to be examined than like a man who had walked a very long way to find people serious enough to do it properly, and had, at last, found them.
 
----
-
 # Dough and Bandages
 
 I had assisted at a hundred small deceptions in my years of practice — the malingerer with his borrowed limp, the hysteric whose paralysis dissolved the moment she believed herself unobserved — and I confess that I went into the matter expecting to expose one more. Imhrat Khan had told us he could see without his eyes. Very well. The only honest answer to such a claim is not argument but procedure. You do not debate a man who says he can see through dough. You seal his eyes with dough and watch what he does next.
@@ -210,8 +219,6 @@ We unwound the bandages. Mitra peeled the dough from his eyes, and Khan blinked 
 
 He named the hour for dinner. I wrote it in my notebook, beneath the count of the bandages and the page he had read, and I found that my hand, which had been steady all through the dough and the needle, was no longer quite steady at all.
 
----
-
 # We Must Not Let Him Go
 
 That night I could not sleep, and I do not say it to dramatise myself. I am a surgeon. I have stood over open chests in the small hours and felt nothing but the clean focus of the work. But the dinner with Imhrat Khan had unmade something in me, and the unmaking would not settle.
@@ -249,8 +256,6 @@ I have thought since that this is the shape such things always take. The miracle
 I wrote the report you are reading over the following weeks, because writing it was the only thing left to do, and because a witness who keeps silent is no witness at all. I wrote down the dough and the bandages and the bicycle and the needle and the dinner, and then I wrote down everything Khan had told me across the table that last night — his whole life, from the magician's stage to the candle in the locked room, as nearly in his own words as I could hold them. I have set it out below, in the first person, as he gave it to me, and I have changed nothing.
 
 This is how Imhrat Khan began.
-
----
 
 # All Trickery
 
@@ -298,8 +303,6 @@ There would be no more middle ground. No more travelling from fakir to fakir col
 
 I did not know, when I made that vow on the road, that I was three days' walk from a man sitting under a tree by the river — and that what I would see him do would settle the question forever.
 
----
-
 # The Yogi in the Tree
 
 I had been to Hardwar before, but not like this — not with a question in me sharp enough to draw blood. The pilgrims came down to the river in their thousands, and the bathing ghats steamed in the morning, and the priests sang the Ganga down out of the mountains as they had sung her for a thousand years. I walked among them and did not bathe. I was looking for a man, and the man I was looking for did not want to be found.
@@ -343,8 +346,6 @@ He said: *It will take you three years. Not three years if you are clever. Three
 I thanked him. He waved me off into the trees as he had waved me off the first day, but it was a different gesture now, the kind you make to send a man toward a thing rather than away from yourself.
 
 I went north. I found the teaching yogi where Banerjee had said he would be. And on a morning much like the morning I had hidden in the peepal and seen an old man set the ground aside, I sat down in front of my teacher with my back straight and my hands open and my breath drawn long and even, and the three years began.
-
----
 
 # The Fire They Said Would Burn
 
@@ -403,8 +404,6 @@ He did not ask whether I had walked the fire. He could see that I had — not on
 "Now," he said, "you will believe me about the candle."
 
 And he was right. I did.
-
----
 
 # Two Senses of Sight
 
@@ -468,8 +467,6 @@ When the flame was nearly out, the teacher rose. He took from a shelf a thing Im
 
 He set the cards on the brass dish where the candle had been, and went out into the dark, and Imhrat sat looking at them — with his eyes, only his eyes, for now — and felt the low coal at the base of his spine, banked and warm and waiting, ready at last to be turned upon a deliberate thing.
 
----
-
 # The Hand That Read Alice
 
 It was three years and some months after Banerjee first chased him through the trees that Imhrat Khan sat down on the floor of a closed room in Calcutta and let a stranger bind his eyes.
@@ -527,8 +524,6 @@ Henry looked at the door. Then he looked back down at the page, at the place whe
 He did not think about the blind. He did not think about surgery, or charity, or the long memory of any profession. He thought about a table downstairs, and the painted backs of cards, and how very much could be made to lie behind them.
 
 He picked the folder up off his knees and held it, the way a man holds a thing he has already decided to keep.
-
----
 
 # Mild Rebuke
 
@@ -589,8 +584,6 @@ He sat with the nothing for what felt like a great while and was, when he looked
 He had expected — he was honest enough, even now, to admit he had expected — that being a one-in-a-million sort of man, the kind of man things came easy to, it would simply begin. That he would sit down and feel the gift recognise him.
 
 He blew the candle out, and the smoke went up in its thread, and he sat in the dark and felt the precise size of the task he had agreed to.
-
----
 
 # Nothing, Nothing
 
@@ -666,8 +659,6 @@ He wrote one word in the notebook, in the column that had said *nil* for the bet
 
 Then he blew out the candle and lit it again, and began.
 
----
-
 # The Face in the Flame
 
 There is a thing the books do not tell you, which is that the boredom has a shape. It is not flat. It rises and falls. There are weeks in which the candle is a wall, and weeks in which it is a door that will not quite open, and the difference between them is invisible from the outside and absolute from the inside. Henry learned to read these tides the way a sailor reads a barometer he does not trust but cannot ignore.
@@ -720,8 +711,6 @@ He gathered the cards. His hands were quite steady. He found that he was already
 
 He stood up. He went to find a clean shirt.
 
----
-
 # The Card Turns Over
 
 He had stopped counting the days some time in the third year. There was no virtue in the counting; it only made the work into a sentence, and the work was not a sentence. The work was sitting on the floor of his flat at the hour when Mayfair went quiet, with the pillar candle burned down to a soft column of its own wax, breathing the way the dossier described — in for the count, hold the empty space, out for the count, hold again — until the small heat gathered behind his eyes and the ache settled into his sacrum like a coal pressed against the bone.
@@ -773,8 +762,6 @@ He sat back on his heels. Outside, very far down, a single car went along Curzon
 He blew out the candle.
 
 Then he stood — his knees cracked; he was not a young man and the floor was hard — and he went to the wardrobe and took down the soft leather holdall he had not used in over a year, and he laid it open on the bed. The dinner jacket. Two shirts. The good shoes. He moved without hurry, folding each thing as carefully as a man packing for a journey he has waited a long time to take, and when the bag was full he set it by the door and stood looking at it in the dark, and he thought of a private room he had been a member of for years and had not entered in three, and of the men who would be at the table there, and of how very long it had been since anything in the world had been worth the bother of getting dressed for.
-
----
 
 # The Private Room
 
@@ -842,8 +829,6 @@ He left the money where it was, on the dresser, and he did not count it, and he 
 
 He went to bed and lay in the dark with his eyes open, seeing the ceiling perfectly well in the ordinary way, and underneath the ordinary way, very faintly, the other way too — the room giving up its back as well as its front, the dark not quite dark to him anymore — and he waited for sleep the way he had waited on the pavement for joy, and it took its time about coming.
 
----
-
 # What a Novelist Would Do
 
 Let me step out from behind the curtain for a moment, because here is where I am tempted to lie to you.
@@ -887,8 +872,6 @@ So there was no death. There was a rich man at a window with eight hundred and f
 I could have killed him. The craft is sitting right here in my hands, asking me to. But the man was real, and what was happening to him that morning was real, and it was better than the ending the trade wanted — because the ending the trade wanted was clean, and what actually came next was not clean at all. It was a grown man learning, far too late and at enormous cost, what he was for.
 
 He put his coat on. He picked up one of the banded bricks, and then, after a moment, the second.
-
----
 
 # Curzon Street
 
@@ -970,8 +953,6 @@ It was, by any honest reckoning, an onerous task. The most onerous he had ever c
 
 Henry Sugar sat on the wet balcony above the emptying street and, for the first time in his forty-one years, chose the onerous task over the mild rebuke. He stood up. He went inside to find Max Engleman's number.
 
----
-
 # Twenty Years
 
 What followed I can tell you only in the shape of an arc, because that is how Henry himself came to see it — not as nights but as a single long curve, the way you remember a journey by its bends and not its yards.
@@ -1001,8 +982,6 @@ The disguises grew more elaborate. The sums grew larger. Winston's trust acquire
 He died in his flat, of an embolism, on a winter afternoon, alone, with no drama and no mirror and nothing seen through his own chest — quietly, the way the body sometimes simply stops. The cleaner found him. The doctor came and wrote the ordinary word on the ordinary form. There was no scandal because there had never been anything to find. A wealthy bachelor, no children, a clean estate, a charitable trust in Switzerland administered by a Mr Winston of Geneva.
 
 And it was Mr Winston, when the news reached him, who sat for a long time at his desk above the lake, and then drew the telephone toward him, and lifted the receiver, and began — very deliberately, with the care of a man who has kept a secret for two decades and has decided, at last, that the time has come to give it away properly — to dial.
-
----
 
 # The Only Untrue Things
 
@@ -1065,8 +1044,6 @@ And one thing more, which is not a lie but a confession: the document Henry foun
 I don't recommend it. It ruins you for the advertised size of things.
 
 But the kettle's boiled, and there it is, and now you know.
-
----
 
 # Chapter 98 — Source Notes, Reading List, and Where the Line Runs
 
@@ -1474,6 +1451,3 @@ Start with *Mind Trek*. Grade it the way Henry would grade a marked deck: **afte
 *Full tagged ledger for writers and curious readers:* [`canon/SOURCE_NOTES.md`](../../canon/SOURCE_NOTES.md)
 
 — Andries J. Greyling
-
----
-
