@@ -389,7 +389,6 @@ SERIES = [
     ("The Unheard", "#6B8C9A"),
     ("Not a Potato", "#9A8B6B"),
     ("The No-Fear Cycle", "#1e3a8a"),
-    ("The Reichenbach Files", "#4a5568"),
     ("Faithful Modern", "#4B4E8C"),
     ("Standalones", "#B49A6A"),
 ]
@@ -405,8 +404,7 @@ SHELF_TAGLINE = {
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
     "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
-    "The Reichenbach Files": "Sherlock Holmes for now — modern retellings, true to the original.",
-    "Faithful Modern": "Faithful-modern homages to the SF greats — true to the craft and the question, every name and sentence original.",
+    "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle — true to the craft and the question, every name and sentence original.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
     "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
@@ -543,21 +541,21 @@ CURATED = [
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
 
-    ("modern-sherlock", "The Scarlet Thread", "The Reichenbach Files · Book One", "The Reichenbach Files",
+    ("modern-sherlock", "The Scarlet Thread", "The Reichenbach Files · Book One", "Faithful Modern",
      "modern-sherlock", "build/export",
      "Present-day London. Invalided home from Afghanistan, an army doctor meets a consulting detective who reads a life from its digital exhaust — and a message from the one mind clever enough to build puzzles just for him. A modern transposition of Doyle's A Study in Scarlet — original prose, canon-true, public-domain derivation."),
 
     # ── Coming soon (other threads building these now) ──────────────────────────────────────────
-    ("modern-sherlock-2", "The Poisoned Fortune", "The Reichenbach Files · Book Two", "The Reichenbach Files",
+    ("modern-sherlock-2", "The Poisoned Fortune", "The Reichenbach Files · Book Two", "Faithful Modern",
      "_comingsoon/modern-sherlock-2", "build/export",
      "Book Two of The Reichenbach Files — the consulting detective and his doctor take a case where an inheritance is the murder weapon. A canon-true transposition of Doyle. Coming soon."),
-    ("modern-sherlock-3", "The Viral Haunting", "The Reichenbach Files · Book Three", "The Reichenbach Files",
+    ("modern-sherlock-3", "The Viral Haunting", "The Reichenbach Files · Book Three", "Faithful Modern",
      "_comingsoon/modern-sherlock-3", "build/export",
      "Book Three of The Reichenbach Files — a haunting that spreads like a contagion, and a rational mind that refuses to flinch. Coming soon."),
-    ("modern-sherlock-4", "The Woman Who Beat Him", "The Reichenbach Files · Book Four", "The Reichenbach Files",
+    ("modern-sherlock-4", "The Woman Who Beat Him", "The Reichenbach Files · Book Four", "Faithful Modern",
      "_comingsoon/modern-sherlock-4", "build/export",
      "Book Four of The Reichenbach Files — the one adversary who is his equal, and the case he cannot reason his way out of. The Irene Adler beat, modernised. Coming soon."),
-    ("modern-sherlock-5", "The Reichenbach Protocol", "The Reichenbach Files · Book Five", "The Reichenbach Files",
+    ("modern-sherlock-5", "The Reichenbach Protocol", "The Reichenbach Files · Book Five", "Faithful Modern",
      "_comingsoon/modern-sherlock-5", "build/export",
      "Book Five — the detective and his nemesis to the edge of the fall. The reckoning the whole series is named for, rebuilt for now. Coming soon."),
 
@@ -636,11 +634,11 @@ CURATED = [
      "In an underfunded applied-cognition lab, a long-running synthetic mind named Klaus is given the human mechanics of dreaming — and every night a Court inside him sits down to sort the day, keeping the lesson and letting go of the lecture. A faithful-modern homage to the question behind Do Androids Dream of Electric Sheep? — the craft and the engine, not the text; every name and sentence original. Provenance disclosed; an unauthorised homage, not a licensed adaptation."),
 
     # ── Standalone (drafting) ───────────────────────────────────────────────────────────────────
-    ("the-first-unplugged", "The First Unplugged", "A standalone novel", "Standalones",
+    ("the-first-unplugged", "The First Unplugged", "Faithful Modern · after Robert A. Heinlein", "Faithful Modern",
      "_comingsoon/the-first-unplugged", "build/export",
      "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment. Coming soon."),
 
-    ("henry-sugar", "Henry Sugar", "A standalone novel", "Standalones",
+    ("henry-sugar", "Henry Sugar", "Faithful Modern · after Roald Dahl", "Faithful Modern",
      "henry-sugar", "build/export",
      "A bored, wealthy gambler reads a nested account of a man who taught himself to see — and spends years in the boring work of learning, until the card turns over. Roald Dahl's Henry Sugar engine, retold faithfully for adults: original prose, wonder without irony, with Dispenza, Radin, and Sheldrake taken as gospel inside the world."),
 
