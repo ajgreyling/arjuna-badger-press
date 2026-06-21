@@ -7,12 +7,12 @@
 | State | Count | Meaning |
 |---|---:|---|
 | 🟡 In progress | 2 | Partial manuscript, or canon/bible complete with little/no prose. |
-| ⚪ Scaffold | 23 | Cover + metadata only. No manuscript. |
-| 🔒 Hidden | 4 | Deliberately dropped from the site (HIDE_BOOKS / HIDE_SERIES). |
+| ⚪ Scaffold | 24 | Cover + metadata only. No manuscript. |
+| 🔒 Hidden | 1 | Deliberately dropped from the site (HIDE_BOOKS / HIDE_SERIES). |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 30 | Published in the library — live downloads/read. |
+| ✅ Live | 32 | Published in the library — live downloads/read. |
 
-**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 29.
+**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 27.
 
 ## Books not yet completed in the library
 
@@ -27,6 +27,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Belly Hill | `gobekli-tepe` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Deepest Floor | `hbt-caves` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Breathing Dark | `hbt-sudwala` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| House of Bread | `house-of-bread` | The Unheard | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Poisoned Fortune | `modern-sherlock-2` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Viral Haunting | `modern-sherlock-3` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Woman Who Beat Him | `modern-sherlock-4` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -45,10 +46,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Circle Closes | `the-salt-veil-5` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Scouring | `uffington` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | Made or Not | `yonaguni` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Felt and the Sky | `unheard-mongolia` | The Unheard | 🔒 Hidden | 100 | 54,628w | 12 | EPUB/PDF | rich | _(pending)_ |  |
-| The Way That Was Invented | `unheard-japan` | The Unheard | 🔒 Hidden | 93 | 63,376w | 6 | EPUB/PDF | rich | _(pending)_ |  |
 | The First Unplugged | `the-first-unplugged` | Standalones | 🔒 Hidden | 22 | — | 0 | EPUB | rich | _(pending)_ |  |
-| House of Bread | `house-of-bread` | The Unheard | 🔒 Hidden | 10 | — | 0 | — | rich | _(pending)_ |  |
 
 <details><summary>Live in the library (excluded from API pass)</summary>
 
@@ -72,12 +70,14 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | RESONANCE | `resonance` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | REVELATION | `revelation` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | The Dreaming | `the-dreaming` | Faithful Modern | ✅ Live | EPUB/PDF |
+| The Felt and the Sky | `unheard-mongolia` | The Unheard | ✅ Live | EPUB/PDF |
 | Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
 | The Field of Doors | `crop-circles` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Silver Thread | `jakobus-silver-thread` | History Before Time | ✅ Live | EPUB/PDF |
 | The Recitation | `jakobus-the-recitation` | History Before Time | ✅ Live | EPUB/PDF |
 | The Indifferent Desert | `sheltering-desert` | Non-fiction | ✅ Live | EPUB/PDF |
 | The Loneliest People in the World | `the-loneliest` | Standalones | ✅ Live | EPUB/PDF |
+| The Way That Was Invented | `unheard-japan` | The Unheard | ✅ Live | EPUB/PDF |
 | The Scarlet Thread | `modern-sherlock` | The Reichenbach Files | ✅ Live | EPUB/PDF |
 | A Man They All Read Wrong | `the-jakobus-file` | History Before Time | ✅ Live | EPUB/PDF |
 | The Salt Veil | `the-salt-veil` | The Salt Veil | ✅ Live | EPUB/PDF |
