@@ -1,0 +1,64 @@
+{
+  "book": "bloedrivier",
+  "title": "Brave and Scared",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "An all-sides South African historical novel of the year around the Battle of Blood River (1838) — Voortrekker, Zulu, and British. The four target languages are the home languages of the peoples the book is about and the readers it most wants: isiZulu (the Zulu kingdom at the heart of it), isiXhosa, Sesotho, and Setswana. These are AI-FIRST-DRAFT translations, published in the open and clearly marked, with mother-tongue and sensitivity readers warmly invited to correct them — the same open-draft honesty the English edition carries (the Zulu CHARACTER's interiority remains a deliberately empty seat pending a co-created sensitivity read; translating the English narration does not fill that seat).",
+  "targets": [
+    {
+      "code": "zu",
+      "name": "isiZulu",
+      "kind": "regional",
+      "directives": [
+        "Voice: everyday isiZulu as spoken in KwaZulu-Natal — warm, direct, alive, dignified. NOT stiff SABC/broadcast or textbook isiZulu.",
+        "This is the home language of the Zulu people whose history this book tells. Handle the 1838 material — Dingane, the amabutho, uMgungundlovu, the killing of Retief's party, the Ncome — with the gravity and respect it carries for isiZulu readers. Render the divergence of accounts faithfully; never editorialise a verdict the source withholds.",
+        "Do NOT invent pseudo-Zulu transliterations of English words. Use the established isiZulu word, or keep the source's own term as a natural code-switch.",
+        "Proper names and place names stay verbatim (see GLOSSARY_PRESERVE): Marretjie Pretorius, Hendrik, George Biggar, Dingane, Piet Retief, Drakensberg, Weenen, Port Natal.",
+        "isiZulu / Zulu-origin terms already in the source (Ncome, amabutho, impi, kraal, Sawubona, uMgungundlovu) stay verbatim — do not paraphrase home-language words.",
+        "Afrikaans/trek terms the source uses (Voortrekker, laager, roer, veld, kopje, donga, disselboom, roer) may stay as code-switches where natural, exactly as a KZN speaker would leave them.",
+        "Do NOT add translator's notes, footnotes, or inline glosses the source does not have. Preserve all markdown structure and headings."
+      ]
+    },
+    {
+      "code": "xh",
+      "name": "isiXhosa",
+      "kind": "regional",
+      "directives": [
+        "Voice: natural, contemporary isiXhosa — warm and direct, the language as actually spoken, not stiff broadcast or academic register.",
+        "Handle the historical material (the Great Trek, the Zulu kingdom, the Battle of the Ncome/Blood River) with respect and exactness; render contested accounts as honest divergence, never a verdict.",
+        "Do NOT invent pseudo-Xhosa transliterations of English words; use the established isiXhosa word or keep the source term as a natural code-switch.",
+        "Proper names and place names stay verbatim (see GLOSSARY_PRESERVE).",
+        "Zulu-origin and Afrikaans terms already in the source (Ncome, amabutho, impi, kraal, Sawubona, Voortrekker, laager, veld, donga) stay verbatim — they read as foreign/home terms to a Xhosa reader exactly as they do in the source.",
+        "No translator's notes or added glosses. Preserve markdown structure and headings."
+      ]
+    },
+    {
+      "code": "st",
+      "name": "Sesotho",
+      "kind": "regional",
+      "directives": [
+        "Voice: natural, lived Sesotho as spoken in the Free State / Lesotho region — warm and direct, not stiff textbook or broadcast register. (The Caledon-valley Sotho were neighbours to these very events.)",
+        "Handle the 1838 history with respect and exactness; render divergent accounts faithfully, never a verdict.",
+        "Do NOT invent pseudo-Sesotho transliterations of English words; use the established Sesotho word or keep the source term as a natural code-switch.",
+        "Proper names and place names stay verbatim (see GLOSSARY_PRESERVE).",
+        "Zulu-origin and Afrikaans terms in the source (Ncome, amabutho, impi, kraal, Sawubona, Voortrekker, laager, veld, kopje, donga) stay verbatim.",
+        "No translator's notes or added glosses. Preserve markdown structure and headings."
+      ]
+    },
+    {
+      "code": "tn",
+      "name": "Setswana",
+      "kind": "regional",
+      "directives": [
+        "Voice: natural, contemporary Setswana as actually spoken — warm and direct, not stiff broadcast or academic register.",
+        "Handle the historical material with respect and exactness; render contested accounts as honest divergence, never a verdict.",
+        "Do NOT invent pseudo-Tswana transliterations of English words; use the established Setswana word or keep the source term as a natural code-switch.",
+        "Proper names and place names stay verbatim (see GLOSSARY_PRESERVE).",
+        "Zulu-origin and Afrikaans terms in the source (Ncome, amabutho, impi, kraal, Sawubona, Voortrekker, laager, veld, kopje, donga) stay verbatim.",
+        "No translator's notes or added glosses. Preserve markdown structure and headings."
+      ]
+    }
+  ]
+}

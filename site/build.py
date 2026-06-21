@@ -180,9 +180,10 @@ EDITION_LANGS = {
 # The nav carries a global language selector on EVERY page. English is always present; a
 # translated-edition language only appears once at least one book on disk ships an edition in it.
 # Picking a language is a SITE-WIDE preference (persisted to localStorage as `abp_lang`): on any
-# book page that has an edition in the chosen language, the primary download/read controls default
-# to that language. Books without the chosen edition fall back to English with a quiet note. The
-# site chrome itself stays in English — this is edition defaulting, not a full UI translation.
+# book page that has an edition in the chosen language, the primary DOWNLOAD buttons default to
+# that language's EPUB/PDF. Books without the chosen edition fall back to English with a quiet note.
+# (Read-online stays English — there are no per-language reader pages yet.) The site chrome itself
+# stays in English — this is edition defaulting, not a full UI translation.
 # AVAILABLE_LANGS is the ordered list of codes (excluding "en") with ≥1 edition anywhere in the
 # catalogue; it is populated in main() from scan() before any page is rendered.
 AVAILABLE_LANGS: list[str] = []
@@ -1073,15 +1074,18 @@ def scan() -> list[dict]:
         exp = root / expsub
         downloads = []          # primary (English) EPUB/PDF
         editions = {}           # lang code -> {"epub": Path, "pdf": Path} for translated editions
-        if cid in PUBLISHED and exp.is_dir():
+        if exp.is_dir():
             for f in sorted(exp.iterdir()):
                 if f.suffix.lower() not in (".epub", ".pdf"):
                     continue
                 # A translated edition's stem ends ".<code>" (e.g. "Resonance.af"); split it off.
                 stem_suffix = f.stem.rsplit(".", 1)[-1].lower() if "." in f.stem else ""
                 if stem_suffix in EDITION_LANGS:
+                    # Translated editions surface even for SERIAL/open-draft books (they are the
+                    # whole point of translating); the primary English DOWNLOAD stays gated to
+                    # PUBLISHED so a serial/open draft still ships no English download.
                     editions.setdefault(stem_suffix, {})[f.suffix.lower().lstrip(".")] = f
-                else:
+                elif cid in PUBLISHED:
                     downloads.append(f)
         # blurb precedence: clean SYNOPSIS -> curated fallback -> README (dev-facing, last resort)
         blurb = first_paragraph(root / "SYNOPSIS.md") or fb or first_paragraph(root / "README.md")
@@ -3219,10 +3223,18 @@ def render_book(e: dict) -> str:
                 f'<p class="editions-fix">A first-language speaker? '
                 f'<a href="{fix_href}">Fix a colloquialism</a> in these editions.</p>'
             )
+        if e["id"] == "bloedrivier":
+            ed_note = ('<strong>AI-translated first drafts</strong> of an already-unfinished book — '
+                       'offered so isiZulu, isiXhosa, Sesotho, and Setswana readers can meet it in '
+                       'their own language now. Names and in-culture words are kept as written. These '
+                       'have NOT yet had a mother-tongue editor; first-language and sensitivity '
+                       'readers are warmly invited to correct them.')
+        else:
+            ed_note = ('AI-translated editions, in the same free spirit. '
+                       'Original South African and other in-culture words are kept as written.')
         editions_html = (
             '<div class="editions"><h2 class="editions-h">Other languages</h2>'
-            '<p class="editions-note">AI-translated editions, in the same free spirit. '
-            'Original South African and other in-culture words are kept as written.</p>'
+            f'<p class="editions-note">{ed_note}</p>'
             f'<ul class="edlist">{"".join(rows)}</ul>{fix_note}</div>'
         )
     read = ""
@@ -5634,11 +5646,15 @@ def main() -> None:
         # downloads
         # A workshop-held book ships NO download files and NO read-online page (it is announced as
         # drafting, not published) — so its un-vetted EPUB/PDF is never reachable by direct URL.
-        if e["downloads"] and e["available"]:
+        # Copy primary downloads (PUBLISHED + available) AND any translated editions. A SERIAL /
+        # open-draft book ships no English download but MAY ship translated-edition EPUBs (e.g.
+        # bloedrivier's isiZulu/isiXhosa/Sesotho/Setswana drafts), so editions copy independently.
+        if (e["downloads"] and e["available"]) or e.get("editions"):
             d = OUT / "downloads" / e["id"]
             d.mkdir(parents=True, exist_ok=True)
-            for f in e["downloads"]:
-                shutil.copy2(f, d / f.name)
+            if e["available"]:
+                for f in e["downloads"]:
+                    shutil.copy2(f, d / f.name)
             # translated editions ride alongside the primary download (same dir)
             for fmts in e.get("editions", {}).values():
                 for f in fmts.values():
