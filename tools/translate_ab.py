@@ -23,22 +23,47 @@ Usage:
 and build/.translate/segments/ (run translate_book.sh split first).
 
 Environment:
-    ANTHROPIC_API_KEY   required for Anthropic provider
-    OPENAI_API_KEY      required for OpenAI provider
-    AYA_BASE_URL        ai-stb vLLM endpoint (default: https://ai.mezzanineapps.com/v1)
-    AYA_API_KEY         Bearer token for ai-stb (alias: AI_STB_API_KEY)
-    AI_STB_MODEL        Served model name on ai-stb (default: aya-expanse-32b)
+    OPENROUTER_API_KEY   preferred — routes anthropic/openai via OpenRouter (see platform .env)
+    OPENROUTER_MODEL_ANTHROPIC / OPENROUTER_PROSE_MODEL   OpenRouter slug for --provider anthropic
+    OPENROUTER_MODEL_OPENAI / OPENROUTER_STRUCTURE_MODEL   OpenRouter slug for --provider openai
+    LLM_BACKEND=direct     force legacy direct keys (deprecated)
+
+    ANTHROPIC_API_KEY   legacy direct Anthropic (when LLM_BACKEND=direct, no OpenRouter key)
+    OPENAI_API_KEY      legacy direct OpenAI (when LLM_BACKEND=direct, no OpenRouter key)
+    AYA_BASE_URL        OpenAI-compatible chat endpoint (alias: AI_STB_BASE_URL)
+    AYA_API_KEY         Bearer token (aliases: AI_STB_API_KEY, COHERE_API_KEY)
+    AI_STB_MODEL        Model slug on the endpoint (alias: AYA_MODEL)
+
+    Public Cohere (no ai-stb access):
+        AYA_BASE_URL=https://api.cohere.ai/compatibility/v1
+        AYA_API_KEY=<COHERE_API_KEY>
+        AI_STB_MODEL=c4ai-aya-expanse-32b
+
+    Private ai-stb (Mezzanine vLLM):
+        AYA_BASE_URL=https://ai.mezzanineapps.com/v1
+        AI_STB_MODEL=aya-expanse-32b
 """
 from __future__ import annotations
 import argparse, json, os, re, sys, time, textwrap, difflib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+# Share correction_corpus with the Real Language API (arjuna-badger-platform).
+_PLATFORM = Path(__file__).resolve().parents[2] / "arjuna-badger-platform"
+if _PLATFORM.is_dir() and str(_PLATFORM) not in sys.path:
+    sys.path.insert(0, str(_PLATFORM))
+
+from saas.correction_corpus import get_corpus  # noqa: E402
+from saas.llm_routing import openrouter_mode, provider_llm_ready  # noqa: E402
+from saas.real_language import clamp_temp, register_directive  # noqa: E402
+
 ANTHROPIC_MODEL = "claude-opus-4-8"
 OPENAI_MODEL = "gpt-4o"
 AYA_MODEL = os.environ.get("AI_STB_MODEL", os.environ.get("AYA_MODEL", "aya-expanse-32b"))
 AYA_DEFAULT_URL = "https://ai.mezzanineapps.com/v1"
-MAX_TOKENS = 8192
+MAX_TOKENS = int(os.environ.get("TRANSLATE_MAX_TOKENS", "4096"))
+# ai-stb Aya serves 8192 total context; reserve headroom for system + segment input.
+AYA_MAX_TOKENS = int(os.environ.get("AYA_MAX_TOKENS", "1536"))
 
 
 def ai_stb_base_url() -> str:
@@ -46,16 +71,38 @@ def ai_stb_base_url() -> str:
 
 
 def ai_stb_api_key() -> str:
-    return os.environ.get("AI_STB_API_KEY", os.environ.get("AYA_API_KEY", "ignored"))
+    return os.environ.get(
+        "AI_STB_API_KEY",
+        os.environ.get("AYA_API_KEY", os.environ.get("COHERE_API_KEY", "ignored")),
+    )
 
 
 def load_json(p: Path) -> dict:
     return json.loads(p.read_text(encoding="utf-8"))
 
 
-def build_system(lang_obj: dict, glossary: dict, global_directives: list[str], provider: str) -> str:
+def target_temp(lang_obj: dict, override: float | None = None) -> float:
+    if override is not None:
+        return clamp_temp(override)
+    if "temp" in lang_obj:
+        return clamp_temp(lang_obj["temp"])
+    kind = lang_obj.get("kind", "regional")
+    return clamp_temp(0.5 if kind == "market" else 0.75)
+
+
+def build_system(
+    lang_obj: dict,
+    glossary: dict,
+    global_directives: list[str],
+    provider: str,
+    *,
+    temp: float,
+    corpus_block: str = "",
+) -> str:
     directives = lang_obj.get("directives", [])
     preserve = glossary["preserve_verbatim_all_languages"]
+    reg = register_directive(temp)
+    t = clamp_temp(temp)
 
     in_lang = preserve.get("in_language_terms", {})
     invented = preserve.get("invented_entities", [])
@@ -68,6 +115,10 @@ def build_system(lang_obj: dict, glossary: dict, global_directives: list[str], p
     system = textwrap.dedent(f"""
     You are a professional literary translator. Your task is to translate a segment of a
     novel into {lang_obj['name']} (language code: {lang_obj['code']}).
+
+    ## Register (temp={t:.2f})
+
+    {reg}
 
     ## Translation directives for {lang_obj['name']}
 
@@ -86,8 +137,8 @@ def build_system(lang_obj: dict, glossary: dict, global_directives: list[str], p
     {', '.join(repr(e) for e in invented) if invented else '(none)'}
 
     Proper names (keep verbatim):
-    {', '.join(repr(n) for n in names[:40]) if names else '(none)'}
-    {'... and more — see full glossary' if len(names) > 40 else ''}
+    {', '.join(repr(n) for n in names[:20]) if names else '(none)'}
+    {'... and more — see full glossary' if len(names) > 20 else ''}
 
     ## Output format
 
@@ -95,34 +146,34 @@ def build_system(lang_obj: dict, glossary: dict, global_directives: list[str], p
     or explanation. Do not add translator's notes. Preserve all markdown structure:
     headings (#, ##, ###), horizontal rules (---), scene breaks (⁂), bold (**text**),
     italics (*text*), em dashes (—), and ellipses (…) exactly as in the source.
+
+    When a BINDING CORPUS section is present below, those human corrections ALWAYS win.
+    {corpus_block if corpus_block else ''}
     """).strip()
     return system
 
 
 def call_anthropic(system: str, segment_text: str) -> str:
-    import anthropic
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    msg = client.messages.create(
+    from engine.llm_client import call_anthropic as _call
+
+    return _call(
+        f"Translate this segment:\n\n{segment_text}",
+        system=system,
         model=ANTHROPIC_MODEL,
         max_tokens=MAX_TOKENS,
-        system=system,
-        messages=[{"role": "user", "content": f"Translate this segment:\n\n{segment_text}"}],
     )
-    return msg.content[0].text
 
 
 def call_openai(system: str, segment_text: str) -> str:
-    from openai import OpenAI
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-    resp = client.chat.completions.create(
+    from engine.llm_client import call_openai as _call
+
+    return _call(
+        f"Translate this segment:\n\n{segment_text}",
+        system=system,
         model=OPENAI_MODEL,
         max_tokens=MAX_TOKENS,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": f"Translate this segment:\n\n{segment_text}"},
-        ],
+        temperature=0.6,
     )
-    return resp.choices[0].message.content
 
 
 def call_aya(system: str, segment_text: str) -> str:
@@ -130,7 +181,7 @@ def call_aya(system: str, segment_text: str) -> str:
     client = OpenAI(api_key=ai_stb_api_key(), base_url=ai_stb_base_url())
     resp = client.chat.completions.create(
         model=AYA_MODEL,
-        max_tokens=MAX_TOKENS,
+        max_tokens=AYA_MAX_TOKENS,
         messages=[
             {"role": "system", "content": system},
             {"role": "user", "content": f"Translate this segment:\n\n{segment_text}"},
@@ -141,31 +192,52 @@ def call_aya(system: str, segment_text: str) -> str:
 
 def translate_segment(
     provider: str,
-    system: str,
+    base_system: str,
     segment_path: Path,
     out_path: Path,
     resume: bool,
-) -> tuple[str, str, str | None]:
-    """Translate one segment. Returns (provider, seg_name, error_or_None)."""
+    source_lang: str,
+    target_lang: str,
+    temp: float,
+) -> tuple[str, str, str | None, str]:
+    """Translate one segment. Returns (provider, seg_name, error_or_None, corpus_note)."""
     if resume and out_path.exists():
-        return provider, segment_path.name, None  # cached
+        return provider, segment_path.name, None, ""
 
     text = segment_path.read_text(encoding="utf-8")
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    corpus = get_corpus()
+    route = corpus.route(text, source_lang, target_lang, temp)
+    corpus_note = ""
 
     try:
-        if provider == "anthropic":
-            translated = call_anthropic(system, text)
-        elif provider == "openai":
-            translated = call_openai(system, text)
-        elif provider == "aya":
-            translated = call_aya(system, text)
+        if route.decision == "corpus_exact":
+            translated = route.text or ""
+            corpus_note = f"corpus_exact:{route.entries_used[0].id}"
         else:
-            raise ValueError(f"Unknown provider: {provider}")
+            system = base_system
+            if route.prompt_block:
+                system = base_system + "\n\n" + route.prompt_block
+            if provider == "anthropic":
+                translated = call_anthropic(system, text)
+            elif provider == "openai":
+                translated = call_openai(system, text)
+            elif provider == "aya":
+                translated = call_aya(system, text)
+            else:
+                raise ValueError(f"Unknown provider: {provider}")
+            if route.entries_used:
+                corpus_note = f"ai_guided:{len(route.entries_used)}"
+
+        translated, applied = corpus.overlay_all(translated, source_lang, target_lang, temp)
+        if applied:
+            ids = ",".join(e.id for e in applied)
+            corpus_note = (corpus_note + f" overlay:{ids}").strip()
+
         out_path.write_text(translated, encoding="utf-8")
-        return provider, segment_path.name, None
+        return provider, segment_path.name, None, corpus_note
     except Exception as e:
-        return provider, segment_path.name, str(e)
+        return provider, segment_path.name, str(e), ""
 
 
 def reassemble(seg_dir: Path, provider_dir: Path, out_path: Path) -> bool:
@@ -245,19 +317,19 @@ def ab_report(
 
 
 def provider_ready(provider: str) -> bool:
-    if provider == "anthropic":
-        return "ANTHROPIC_API_KEY" in os.environ
-    if provider == "openai":
-        return "OPENAI_API_KEY" in os.environ
     if provider == "aya":
         return True  # local vLLM; AYA_API_KEY optional
+    if provider in ("anthropic", "openai"):
+        return provider_llm_ready(provider)
     return False
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="A/B translation runner for Arjuna Badger Press")
     ap.add_argument("book_dir", type=Path)
-    ap.add_argument("--codes", default="zu,af,es,fr", help="comma-separated language codes")
+    ap.add_argument("--codes", default="zu,af,xh,st,tn", help="comma-separated language codes")
+    ap.add_argument("--temp", type=float, default=None,
+                    help="override register temp (0–1) for all targets; default from LANGUAGES.json")
     ap.add_argument("--segments", default="", help="comma-separated segment indices to run (default: all)")
     ap.add_argument("--workers", type=int, default=4, help="parallel workers per provider")
     ap.add_argument("--provider", default="all",
@@ -298,6 +370,11 @@ def main() -> None:
 
     target_map = {t["code"]: t for t in manifest["targets"]}
     global_directives = manifest.get("global_directives", [])
+    source_lang = manifest.get("source_language", "en")
+
+    corpus = get_corpus()
+    cstats = corpus.stats()
+    print(f"Corpus: {cstats['entries']} entries ({cstats['by_lang']})")
 
     print(f"\nBook: {manifest['title']}")
     print(f"Languages: {', '.join(codes)}")
@@ -312,20 +389,26 @@ def main() -> None:
             continue
 
         lang_obj = target_map[code]
+        temp = target_temp(lang_obj, args.temp)
         print(f"\n{'='*60}")
-        print(f"Language: {lang_obj['name']} ({code})")
+        print(f"Language: {lang_obj['name']} ({code})  temp={temp:.2f}")
         print(f"{'='*60}")
 
         if not args.report_only:
             for provider in providers:
                 if not provider_ready(provider):
-                    key = "ANTHROPIC_API_KEY" if provider == "anthropic" else "OPENAI_API_KEY"
-                    print(f"  SKIP {provider}: {key} not set")
+                    if openrouter_mode():
+                        print(f"  SKIP {provider}: OPENROUTER_API_KEY not set")
+                    else:
+                        key = "ANTHROPIC_API_KEY" if provider == "anthropic" else "OPENAI_API_KEY"
+                        print(f"  SKIP {provider}: {key} not set (or set OPENROUTER_API_KEY)")
                     continue
 
                 provider_dir = book_dir / "build" / ".translate" / f"{code}.{provider}"
                 provider_dir.mkdir(parents=True, exist_ok=True)
-                system = build_system(lang_obj, glossary, global_directives, provider)
+                system = build_system(
+                    lang_obj, glossary, global_directives, provider, temp=temp,
+                )
 
                 segs_to_run = [s for s in segments
                                if not filter_segs or s.name in filter_segs]
@@ -336,22 +419,29 @@ def main() -> None:
                 with ThreadPoolExecutor(max_workers=args.workers) as pool:
                     for seg in segs_to_run:
                         out = provider_dir / seg.name
-                        f = pool.submit(translate_segment, provider, system, seg, out, args.resume)
+                        f = pool.submit(
+                            translate_segment, provider, system, seg, out, args.resume,
+                            source_lang, code, temp,
+                        )
                         futures[f] = seg.name
 
                     done = 0
                     errors = 0
+                    corpus_hits = 0
                     for f in as_completed(futures):
-                        prov, seg_name, err = f.result()
+                        prov, seg_name, err, corpus_note = f.result()
                         done += 1
                         if err:
                             errors += 1
                             print(f"  ✗ {seg_name}: {err}")
                         else:
+                            if corpus_note:
+                                corpus_hits += 1
                             cached = "(cached)" if args.resume and (provider_dir / seg_name).exists() else ""
-                            print(f"  ✓ {seg_name} {cached}", end="\r")
+                            note = f" [{corpus_note}]" if corpus_note else ""
+                            print(f"  ✓ {seg_name}{note} {cached}", end="\r")
 
-                print(f"\n  {done} segments done, {errors} errors")
+                print(f"\n  {done} segments done, {errors} errors, {corpus_hits} corpus hits")
 
         # Reassemble
         work_dir = book_dir / "build" / ".translate"

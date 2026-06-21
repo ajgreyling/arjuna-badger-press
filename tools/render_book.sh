@@ -24,6 +24,9 @@ OUT_BASE="${2:?need output basename (no extension)}"
 TITLE="${3:-}"
 AUTHOR="${4:-Andries J. Greyling}"
 COVER="${5:-}"   # optional cover image; else auto-detected next to BOOK.md (build/export/cover.*)
+PUBLISHER="House of Greyling"
+YEAR=2026
+RIGHTS="Copyright © ${YEAR} ${AUTHOR}. All rights reserved."
 
 [ -f "$BOOK_MD" ] || { echo "render_book: BOOK.md not found: $BOOK_MD" >&2; exit 1; }
 [ -f "$EPUB_CSS" ] || { echo "render_book: gate CSS missing: $EPUB_CSS" >&2; exit 1; }
@@ -60,7 +63,7 @@ fi
 # leads with the note, and render the PDF from the untouched BOOK.md.
 EPUB_SRC="$(mktemp -t abp-epub-src).md"
 {
-  printf '::: {.pdf-availability}\n'
+  printf '::: {.pdf-availability role="note"}\n'
   printf '**Reading this as an e-book?** A free, fully-illustrated **PDF** of this book — with the\n'
   printf 'cover and all images — is available to read or download at **arjunabadger.press**.\n'
   printf ':::\n\n'
@@ -70,6 +73,7 @@ EPUB_SRC="$(mktemp -t abp-epub-src).md"
 # ---- EPUB: embed Atkinson (body) + Courier Prime (dossier) + inject the gate CSS ----------------
 pandoc "$EPUB_SRC" \
   -o "$OUT_BASE.epub" \
+  --to=epub3 \
   --top-level-division=chapter \
   --css "$EPUB_CSS" \
   --epub-embed-font="$FONT_DIR/AtkinsonHyperlegible-Regular.otf" \
@@ -84,7 +88,11 @@ pandoc "$EPUB_SRC" \
   --epub-embed-font="$FONT_DIR/Kalam-Bold.ttf" \
   ${COVER:+--epub-cover-image="$COVER"} \
   ${TITLE:+--metadata title="$TITLE"} \
-  --metadata author="$AUTHOR"
+  --metadata author="$AUTHOR" \
+  --metadata lang=en-ZA \
+  --metadata publisher="$PUBLISHER" \
+  --metadata rights="$RIGHTS" \
+  --metadata date="$YEAR"
 
 rm -f "$EPUB_SRC"
 
@@ -119,6 +127,12 @@ else
   PDF_TITLE_ARGS+=(-V author="$AUTHOR")
 fi
 
+# Optional per-book class options (e.g. "oneside,openany" for slim/single-sided books so the
+# `book` class does not insert blank verso pages or force recto-only section starts). Default: none
+# (book class default = twoside,openright — correct for thick novels). Opt in via BOOK_CLASSOPTION.
+PDF_CLASSOPT=()
+[ -n "${BOOK_CLASSOPTION:-}" ] && PDF_CLASSOPT=(-V classoption="$BOOK_CLASSOPTION")
+
 pandoc "$BOOK_MD" \
   -o "$OUT_BASE.pdf" \
   --pdf-engine=tectonic \
@@ -127,9 +141,11 @@ pandoc "$BOOK_MD" \
   -H "$PDF_HEADER" \
   ${PDF_BEFORE[@]+"${PDF_BEFORE[@]}"} \
   -V documentclass=book \
+  ${PDF_CLASSOPT[@]+"${PDF_CLASSOPT[@]}"} \
   -V geometry:paperwidth=6in -V geometry:paperheight=9in -V geometry:margin=0.75in \
   -V fontsize=11pt \
   -V mainfont="$FONT_NAME" \
+  -V lang=en-ZA \
   -V linkcolor=black \
   ${PDF_TITLE_ARGS[@]+"${PDF_TITLE_ARGS[@]}"}
 
