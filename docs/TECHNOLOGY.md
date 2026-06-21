@@ -254,6 +254,7 @@ self-hosted*, not because a vendor captured us.
 | Layer | Today | Why this one | Exit cost if we leave |
 |---|---|---|---|
 | **Compute** | [**Render**](https://render.com) | Plain container running `uvicorn saas.api:app` from a public `render.yaml` — no proprietary runtime, no Render-only SDK in the code. It runs the same `docker compose up` locally. | **Low** — any container host (Fly, Railway, a VPS, your laptop) runs the identical image. |
+| **LLM access** | [**OpenRouter**](https://openrouter.ai) (one aggregator) + [**Perplexity**](https://www.perplexity.ai) Sonar (the factual layer) | **One key, one bill, logical roles.** Instead of wiring each vendor SDK, the app routes every call through OpenRouter by a *role* (`prose`/`structure`/`grounding`/`judge`) that maps to a model slug in `render.yaml`. Swap any model by editing a slug — no code change. **Perplexity Sonar is the grounding/factual role** (cited answers). For a one-off niche model, a single call passes the slug straight through. | **Low** — `LLM_BACKEND=direct` falls back to vendor keys; the role abstraction means any provider OpenRouter exposes is reachable without an integration. |
 | **Database** | [**Neon**](https://neon.tech) | **Postgres, full stop** — chosen because Postgres is known, trusted, and standard; Neon is just managed Postgres with branching, reachable by a plain `DATABASE_URL`. No Neon-specific extensions in the schema. | **Low** — `pg_dump` → restore into any Postgres (RDS, Supabase, self-hosted). The connection string is the only thing that changes. |
 | **Object store** | [**Cloudflare R2**](https://www.cloudflare.com/developer-platform/r2/) | Manuscripts, EPUB/PDF, covers — addressed through the **S3 API via an env var (`BLOB_BACKEND`/`BLOB_ENDPOINT`), never a vendor SDK.** R2 adds zero egress fees, which matters for a free public library. | **Low** — point the endpoint at B2, MinIO, or AWS S3; the code does not change. |
 | **Auth** | [**Auth0**](https://auth0.com) | Identity is the one thing you must not roll yourself. Auth0 speaks **standard OIDC/OAuth2**, so the app holds tokens, not an Auth0 lock-in; **local email/password auth still works with Auth0 switched off** (`ALLOW_LOCAL_AUTH`), so the platform is never *hostage* to the identity provider. | **Medium** — any OIDC provider (Keycloak self-hosted, Cognito, Clerk) drops in behind the same `/auth/*` routes; local auth is the always-available fallback. |
@@ -268,6 +269,19 @@ battle-tested, decades-proven engine with the deepest operational knowledge behi
 newest one. Postgres also doubles as the **broker-free job queue** (`FOR UPDATE SKIP LOCKED`), which
 removes an entire vendor dependency — there is no Redis, no SQS, no proprietary message bus to be
 locked into.
+
+**One aggregator, a factual layer, and a flexibility hatch.** LLM access follows the same
+no-lock-in instinct as everything else: rather than couple the code to Anthropic's and OpenAI's
+SDKs, **all model traffic goes through OpenRouter as a single aggregator**, and the app talks in
+*roles* — a *prose* engine, a *structure* brain, a *grounding* fact-checker, a *judge* — each role
+bound to a model slug in `render.yaml`. Three consequences: (1) **the factual layer is explicit** —
+the grounding role is **Perplexity Sonar**, so anywhere the platform needs *checked, cited* facts it
+calls one entrypoint that returns an answer **with its sources**, not a confident guess; (2) **niche
+models are one call away** — an experimental small or regional model is reachable by passing its slug
+straight through, no new integration; (3) **swapping a model is a config edit**, not a deploy of new
+code. OpenRouter routes *to* Anthropic and OpenAI rather than trying to defeat them — the same
+aggregator posture the press's own language product ([Buabantu](#7c-buabantu--the-real-language-router-api))
+takes one level up.
 
 **Extra privacy: bring your own GitHub repo.** Beyond the platform's own encrypted store, an author
 who wants maximum control can keep their manuscript in **their own private GitHub repository** and
@@ -447,6 +461,66 @@ book's `LANGUAGES.json` sets the edition default for regional langs (`af`, `zu`,
 
 > Same invariant as the rest of this document: **the human phrase is binding; the model fills gaps
 > only under corpus law.** Measure and overlay — do not let flat machine register pass as people's speech.
+
+---
+
+## 10a. Buabantu — the Real-Language Router API (spinoff, closed beta)
+
+People's Language is being promoted into a **standalone product: Buabantu** — *OpenRouter, but for
+register and dialect.* Send text and a target (language + how colloquial), get it back in the language
+people actually speak. Arjuna Badger Press becomes just **one consumer** of the API, not its owner.
+
+It runs **both directions**: **translate** (outbound, corp → street — localized, register-tuned) and
+**decode** (inbound, street → corp — meaning + sentiment, with the speaker's register *inferred* and
+used to resolve polarity, because *"this is the shit"* from a low-formality speaker is **positive**).
+The base routing is a commodity; the defensible value is the **VAS bundle** layered on every byte —
+*never a dumb pipe.*
+
+```mermaid
+flowchart LR
+    DEV[Developer app] -->|bua_live_ key| GATE
+    subgraph BETA[Buabantu beta · /api/buabantu/*]
+      GATE[Auth + rate-limit + quota<br/>ABP account mandatory]
+      subgraph VAS[The VAS bundle — never a dumb pipe]
+        COR[Corpus-first correction<br/>human fixes weight 100]
+        REG[Register dial · temp 0→1<br/>inferred on inbound]
+        FAI[Faithfulness rules<br/>names · notes · length-ratio]
+        POL[Police + Judge guardrail<br/>Layer 1 regex · Layer 2 small model · fail-closed]
+      end
+    end
+    GATE --> COR --> REG --> FAI --> POL --> ROUTE
+    subgraph ROUTE[Neutral routing — pay the best engine gladly]
+      OR[(OpenRouter aggregator)]
+      PX[Perplexity Sonar<br/>factual / grounding role]
+      PARTNERS[Lelapa · GhanaNLP · frontier models]
+    end
+    POL --> OUT[meaning + sentiment / localized text]
+    ABP[Arjuna Badger Press] -.just another consumer.-> GATE
+```
+
+**The beta is real and gated.** A working API is mounted on the platform today —
+`POST /api/buabantu/translate`, `POST /api/buabantu/decode`, key management, and a landing page at
+[`/buabantu`](https://arjunabadger.press/buabantu). Access is **limited and ABP-account-mandatory**:
+
+- **Signing up with Arjuna Badger Press is required** before any key — minting a beta key needs a
+  verified ABP login, enforced server-side. There is no path to a key without an ABP account.
+- Keys are **sha256-hashed at rest** (shown once), **rate-limited** and **monthly-quota-capped** —
+  that's the "limited" in the closed beta. Every call is metered for the caps and future billing.
+
+**The police + judge guardrail (the safety VAS), in two layers, fail-closed:**
+
+| Layer | What | Cost |
+|---|---|---|
+| **1 · Policeman** | Deterministic regex/patterns for high-confidence violations (self-harm, jailbreak, prompt-injection, egress) | Free — no model call |
+| **2 · Judge** | A small, cheap, swappable classifier model over OpenRouter (`GUARDRAIL_JUDGE_MODEL`, default `gpt-4o-mini`) decides the ambiguous cases | Cheap |
+
+If the judge is unreachable or unsure on a flagged item, the request is **blocked, not allowed
+through** — safety defaults to deny. It runs on **both directions** and is the *same* engine the
+press's own pipeline uses (`saas/guardrails.py` + `judge_client.py`) — reused, not rebuilt.
+
+> Full product spec, competitive landscape, and rollout gates: `docs/MISOGI.md` (Buabantu section).
+> Rollout follows **corpus depth** — South Africa first, then Swahili, then the rest of Africa as each
+> language's corpus clears review. A trademark clearance on the name is still owed before commercial launch.
 
 ---
 

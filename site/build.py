@@ -1329,11 +1329,25 @@ pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var
   border-radius:10px;overflow-x:auto;font-family:ui-monospace,"SF Mono",Menlo,monospace;
   font-size:13.5px;line-height:1.5;color:var(--bonedim)}
 .reader code{overflow-wrap:anywhere;word-break:break-word}
-pre.mermaid{margin:1.8em auto;padding:18px;text-align:center;background:transparent;border:0;
+/* ── Mermaid diagrams — break OUT of the reading column to full viewport width ──────────────────
+   A doc page's prose sits in a ~720-760px measure; an architecture diagram squeezed into that
+   renders tiny. These rules full-bleed the diagram to (almost) the whole viewport so it renders
+   big and legible, then a click toggles a fuller zoom. The breakout is the standard
+   margin-left:50% + translateX(-50%) trick with a viewport-relative width. */
+pre.mermaid{
+  position:relative;left:50%;transform:translateX(-50%);
+  width:96vw;max-width:1500px;            /* big on wide screens, never absurd on ultrawide */
+  margin:2.2em 0;padding:22px;text-align:center;background:transparent;border:0;
   /* hidden until mermaid.js swaps the source for an <svg>; avoids a flash of raw graph text */
-  color:transparent;min-height:40px;line-height:0}
-pre.mermaid svg{max-width:100%;height:auto;line-height:normal}
-pre.mermaid[data-processed] {color:inherit}
+  color:transparent;min-height:40px;line-height:0;cursor:zoom-in}
+pre.mermaid svg{width:100%;max-width:100%;height:auto;line-height:normal}
+pre.mermaid[data-processed]{color:inherit}
+/* click-to-zoom: a processed diagram with .zoomed fills the screen and scrolls if needed */
+pre.mermaid.zoomed{position:fixed;inset:0;left:0;transform:none;width:100vw;max-width:none;
+  height:100vh;margin:0;padding:32px;background:rgba(8,8,12,.94);z-index:9999;cursor:zoom-out;
+  overflow:auto;display:flex;align-items:center;justify-content:center}
+pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
+@media(max-width:760px){pre.mermaid{width:100vw}}
 /* ── Online-reader chapter list / TOC (left rail on wide screens) ───────────────────────────── */
 .readlayout{display:grid;grid-template-columns:266px minmax(0,1fr);gap:8px;
   max-width:1040px;margin:0 auto;align-items:start}
@@ -2155,14 +2169,23 @@ def footer(rel: str = "", *, safari: bool = False, safari_page: str = "") -> str
 MERMAID_BOOT = """<script type="module">
   import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
   mermaid.initialize({
-    startOnLoad: true,
+    startOnLoad: false,
     securityLevel: "strict",
     theme: "base",
+    maxTextSize: 90000,                 // allow large architecture graphs without truncation
+    flowchart: { useMaxWidth: false, htmlLabels: true, nodeSpacing: 50, rankSpacing: 60 },
     themeVariables: {
       background: "#1d1a16", primaryColor: "#221f1b", primaryTextColor: "#EDE9E0",
       primaryBorderColor: "#C8A86B", lineColor: "#C8A86B", secondaryColor: "#2A241D",
       tertiaryColor: "#161513", fontFamily: "Inter, system-ui, sans-serif",
     },
+  });
+  // Render, then wire click-to-zoom: a diagram fills the screen on click, restores on click/Esc.
+  await mermaid.run({ querySelector: "pre.mermaid" });
+  const diagrams = document.querySelectorAll("pre.mermaid");
+  diagrams.forEach((d) => d.addEventListener("click", () => d.classList.toggle("zoomed")));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") document.querySelectorAll("pre.mermaid.zoomed").forEach((d) => d.classList.remove("zoomed"));
   });
 </script>"""
 
