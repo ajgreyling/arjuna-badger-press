@@ -6,14 +6,13 @@
 
 | State | Count | Meaning |
 |---|---:|---|
-| 🟠 Built, unwired | 1 | Manuscript + EPUB/PDF exist but the book is **not in CURATED** — invisible to the library. |
 | 🟡 In progress | 2 | Partial manuscript, or canon/bible complete with little/no prose. |
 | ⚪ Scaffold | 23 | Cover + metadata only. No manuscript. |
 | 🔒 Hidden | 4 | Deliberately dropped from the site (HIDE_BOOKS / HIDE_SERIES). |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 29 | Published in the library — live downloads/read. |
+| ✅ Live | 30 | Published in the library — live downloads/read. |
 
-**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 30.
+**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 29.
 
 ## Books not yet completed in the library
 
@@ -21,7 +20,6 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 
 | Book | id | Series | State | Score | Manuscript | Canon | EPUB/PDF | Cover | API verdict | Notes |
 |---|---|---|---|---:|---|---:|---|---|---|---|
-| The Dreaming | `the-dreaming` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 49,405w | 10 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
 | The Scramble | `the-scramble` | (unwired — not in CURATED) | 🟡 In progress | 19 | 2,066w | 12 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Long Dark | `jakobus-the-long-dark` | History Before Time | 🟡 In progress | 14 | — | 2 | — | rich | _(pending)_ |  |
 | The Princely Offspring | `anunnaki-mesopotamia` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -73,6 +71,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | RELIC | `relic` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | RESONANCE | `resonance` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | REVELATION | `revelation` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
+| The Dreaming | `the-dreaming` | Faithful Modern | ✅ Live | EPUB/PDF |
 | Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
 | The Field of Doors | `crop-circles` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Silver Thread | `jakobus-silver-thread` | History Before Time | ✅ Live | EPUB/PDF |
