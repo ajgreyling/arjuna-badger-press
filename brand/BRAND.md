@@ -70,9 +70,16 @@ badger's nerve — in African gold light. Dark is home: the master sits on Badge
 | `logo-master.png` | ✅ | Full crest, 1254². Archive/source. |
 | `logo-on-dark.png` | ✅ | Crest on Badger Black — the default surface. |
 | `logo-on-light.png` | ✅ | Ink + bronze on Cloud — documents / print on white. |
-| `mark-only.png` | ✅ | The circular badger+bow medallion, 1024². App icon, avatar, watermark. |
+| `mark-only.png` | ✅ | Badger Bow stamp (black on transparent). Nav · favicon · avatar · watermark. |
+| `badger-bow-master.png` | ✅ | Gold Badger Bow on black — source art (1254²). |
+| `badger-bow-imprint.png` | ✅ | Gold mark, black keyed transparent — **cover colophon on dark/busy art**. |
+| `badger-bow-stamp-light.png` | ✅ | Black mark on white — source for light backgrounds. |
+| `badger-bow-stamp.png` | ✅ | Black mark, white keyed transparent — cover colophon on light corners. |
 | `favicon-16/32/180/512.png` | ✅ | Browser tab / Apple touch / PWA (derived from the mark). |
 | `social-og-1200x630.png` | ✅ | OG / share card (crest + wordmark + tagline). |
+| `mark-saas.png` | ✅ | Studio mark — violet Badger Bow on transparent (`build_saas_assets.py`). |
+| `logo-saas.png` | ✅ | Studio crest + scenery on indigo-black (`#0E0B14`). |
+| `favicon-saas-32/180.png` | ✅ | Studio tab / Apple touch icons. |
 | `logo-alt-archer.png` | ✅ | Alternate "fierce" emblem — the badger *drawing* the bow (action variant). |
 | `favicon.ico` | ⬜ | TODO — needs ImageMagick (sips can't write `.ico`). |
 | `logo-transparent.png` | ⬜ | TODO — background knockout needs ImageMagick. |
@@ -211,6 +218,29 @@ sparingly and never as empty boast.)*
   supporting that conservation is on-brand: *the fearless thing fighting for the gentle thing.* Never
   a gimmick. (The pangolin remains a *cause the house fights for* — a knowing nod to where the brand
   began.)
+
+---
+
+## 6b. Cover colophon (Badger Bow — every book)
+
+Every Arjuna Badger Press cover carries the **Badger Bow** mark as a small colophon — never over
+title, author, or the hero art.
+
+| Surface | Asset |
+|---|---|
+| Dark / busy corners | `badger-bow-imprint.png` (gold, transparent) |
+| Light corners | `badger-bow-stamp.png` (black, transparent) |
+
+**Placement:** bottom-right by default (~4.5% of cover width, 3% inset). The tooling skips the lower
+title band and top series line. Regenerate or batch-apply:
+
+```bash
+python3 brand/cover_imprint.py path/to/design/cover.png
+python3 brand/cover_imprint.py --all    # entire library
+```
+
+In `make_cover.py` scripts, call `apply_imprint()` from `brand/cover_imprint.py` as the final step
+before writing `design/cover.*`.
 
 ---
 

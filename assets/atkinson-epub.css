@@ -54,6 +54,12 @@ em, strong, i, b, a, figcaption {
 body { line-height: 1.5; }
 p { text-align: justify; }
 
+/* Reflow + link discoverability (low-vision / small screens). */
+img { max-width: 100%; height: auto; }
+figure { margin: 1.4em 0; }
+figcaption { font-size: 0.92em; line-height: 1.45; }
+a { text-decoration: underline; text-underline-offset: 0.15em; }
+
 /* ── THE DOSSIER (the ONE deliberate exception to the Atkinson body rule) ───────────────
  * "The File" renders as a typed intelligence document: Courier Prime (a real typewriter face),
  * embedded. Still selectable + accessible (a screen reader reads it as text). A typed file SHOULD

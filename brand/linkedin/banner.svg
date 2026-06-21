@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1584" height="396" viewBox="0 0 1584 396">
+  <defs>
+    <!-- Warm-black veld ground -->
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#1c1a16"/>
+      <stop offset="0.55" stop-color="#161513"/>
+      <stop offset="1"   stop-color="#100f0d"/>
+    </linearGradient>
+    <!-- Low ochre sun glow, centred behind the crest on the right -->
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0"    stop-color="#C8A86B" stop-opacity="0.55"/>
+      <stop offset="0.35" stop-color="#B07A3C" stop-opacity="0.30"/>
+      <stop offset="0.75" stop-color="#7a5226" stop-opacity="0.08"/>
+      <stop offset="1"    stop-color="#161513" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Faint horizon wash so the veld reads as land under sky -->
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#B07A3C" stop-opacity="0.10"/>
+      <stop offset="1"   stop-color="#B07A3C" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Left vignette to keep the profile-photo zone calm and dark -->
+    <linearGradient id="leftveil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#0e0d0b" stop-opacity="0.92"/>
+      <stop offset="0.18" stop-color="#0e0d0b" stop-opacity="0.55"/>
+      <stop offset="0.34" stop-color="#0e0d0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1584" height="396" fill="url(#ground)"/>
+
+  <!-- Sun glow centred where the crest will sit (~x=1360) -->
+  <ellipse cx="1360" cy="205" rx="540" ry="430" fill="url(#sun)"/>
+
+  <!-- Horizon band -->
+  <rect x="0" y="232" width="1584" height="120" fill="url(#horizon)"/>
+
+  <!-- Distant low mountains, barely there -->
+  <path d="M0 300 L150 268 L320 296 L470 262 L640 300 L820 270 L1010 300 L1230 266 L1450 300 L1584 280 L1584 396 L0 396 Z"
+        fill="#13110e" opacity="0.85"/>
+
+  <!-- Acacia silhouette, lone tree to the right of centre, echoing the crest scene -->
+  <g fill="#0d0c0a" opacity="0.95">
+    <!-- trunk -->
+    <path d="M905 352 C911 320 909 300 906 286 C904 276 905 270 908 262 L915 262 C917 270 918 276 917 286 C915 302 916 322 921 352 Z"/>
+    <!-- main limbs -->
+    <path d="M911 286 C895 276 876 272 858 274 C878 270 898 272 911 280 Z"/>
+    <path d="M912 282 C930 270 952 264 974 266 C952 260 930 262 912 276 Z"/>
+    <path d="M911 292 C892 288 872 288 856 294 C876 282 898 282 912 288 Z"/>
+    <!-- flat umbrella canopy -->
+    <path d="M820 268 C856 244 904 236 944 240 C984 244 1010 256 1016 266 C996 258 968 254 940 256 C900 258 860 260 820 272 Z"/>
+    <ellipse cx="918" cy="258" rx="108" ry="14"/>
+  </g>
+
+  <!-- A second, smaller acacia far right for depth -->
+  <g fill="#100f0c" opacity="0.7">
+    <path d="M1070 352 C1074 330 1073 316 1071 306 L1077 306 C1079 316 1080 330 1084 352 Z"/>
+    <ellipse cx="1077" cy="304" rx="56" ry="8"/>
+  </g>
+
+  <!-- House stripe: the bone dorsal-stripe / arrow-line divider, under the name -->
+  <rect x="430" y="206" width="86" height="5" rx="2.5" fill="#EDE9E0"/>
+
+  <!-- ===== Typography (left-cleared; lives x=430..1040) ===== -->
+  <!-- Eyebrow -->
+  <text x="430" y="116" font-family="'Archivo Black','Saira Condensed','Arial Black',sans-serif"
+        font-size="26" letter-spacing="7" fill="#B07A3C">ARJUNA BADGER PRESS</text>
+
+  <!-- Name -->
+  <text x="428" y="190" font-family="'Archivo Black','Arial Black',sans-serif"
+        font-size="74" letter-spacing="1" fill="#EDE9E0">AJ Greyling</text>
+
+  <!-- Consultant line -->
+  <text x="432" y="256" font-family="'Space Grotesk','Inter',sans-serif" font-weight="600"
+        font-size="30" letter-spacing="0.5" fill="#EDE9E0">27 years of enterprise software.</text>
+  <text x="432" y="298" font-family="'Space Grotesk','Inter',sans-serif" font-weight="500"
+        font-size="26" letter-spacing="0.3" fill="#C8A86B">Now independent. AI &amp; SaaS consultant.</text>
+
+  <!-- Press tagline (italic, the house line) -->
+  <text x="432" y="346" font-family="'Cormorant Garamond','Georgia',serif" font-style="italic"
+        font-size="29" fill="#BDB6A6">The archer&#8217;s eye. The badger&#8217;s nerve.</text>
+
+  <!-- CV URL, quiet but present, bottom edge -->
+  <text x="432" y="382" font-family="'JetBrains Mono','Courier New',monospace"
+        font-size="18" letter-spacing="1.5" fill="#7E7A5A">arjunabadger.press/cv</text>
+
+  <!-- Left veil drawn last so it sits over the ground but the crest (composited later) stays clear -->
+  <rect width="700" height="396" fill="url(#leftveil)"/>
+</svg>
