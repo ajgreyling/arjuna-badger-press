@@ -1,0 +1,29 @@
+{
+  "book": "bloedrivier",
+  "preserve_verbatim_all_languages": {
+    "in_language_terms": {
+      "isiZulu / Zulu-origin home terms": [
+        "Ncome", "amabutho", "ibutho", "impi", "kraal", "Sawubona", "uMgungundlovu"
+      ],
+      "Afrikaans / trek terms": [
+        "Voortrekker", "Voortrekkers", "laager", "roer", "veld", "highveld",
+        "kopje", "koppie", "donga", "disselboom", "drostdy", "smous",
+        "skiet-kompetisie", "vastrap", "kappie"
+      ],
+      "cultural terms (keep as in source)": [
+        "the Great Trek", "the Vrouemonument", "Day of the Vow"
+      ]
+    },
+    "invented_entities": [
+      "Marretjie Pretorius", "Marretjie", "Hendrik", "Gerrit",
+      "George Biggar", "Alexander Biggar", "Dick King"
+    ],
+    "proper_names": [
+      "Dingane", "Shaka", "Piet Retief", "Retief", "Emily Hobhouse",
+      "Bloedrivier", "Blood River", "Ncome", "Drakensberg", "Weenen",
+      "Bloukrans", "Blaauwekrans", "Port Natal", "Natal", "the Cape",
+      "Cape Colony", "the Tarka", "Winterberg", "the Tugela"
+    ]
+  },
+  "note": "Every token above MUST appear UNCHANGED in every translated edition. in_language_terms are deliberately-untranslated source words (isiZulu/Afrikaans home terms) — do not paraphrase. Character names, historical figures, and place names are story/history constants. The historical place-name 'Bloedrivier/Blood River/Ncome' stays verbatim wherever it names the river/battle. Do NOT add footnotes or inline glosses the source does not have."
+}

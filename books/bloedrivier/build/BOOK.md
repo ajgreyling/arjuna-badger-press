@@ -12,9 +12,7 @@ Andries J. Greyling
 
 Copyright © 2026 Andries J. Greyling. All rights reserved.
 
-This novel is an **original retelling of documented events**. The historical persons named in the preface lived; the hardships described are attested. Every sentence here is the author's own — nowhere borrowed from Henno Martin's in-copyright memoir *The Sheltering Desert* (1956).
-
-Scene connective tissue, interior monologue, and dialogue are invented where the record is silent, kept true to the documented frame.
+This novel is an **original retelling of documented history** — the Great Trek, the killing of Piet Retief's party, the killings at Weenen, and the Battle of Blood River / Slag van Bloedrivier (the Ncome), 1838. These events are in the public record and belong to no one; every sentence here is the author's own. The story is told from all sides, and where the record forks it is rendered as honest divergence, never a verdict. Scene connective tissue, interior monologue, and dialogue are invented where the record is silent, kept true to the documented frame. This is an open draft (Movement I): one voice — the Zulu youth's — is a deliberately empty seat, to be co-created with a Zulu reader rather than imagined for him.
 
 Published by the House of Greyling.
 
