@@ -1,0 +1,46 @@
+{
+  "title": "The Scramble",
+  "subtitle": "Craft homage — original prose",
+  "target_words": 70000,
+  "source": "Philip K. Dick, A Scanner Darkly (1977) — SSOT in canon/SOURCE_NOTES.md",
+  "chapters": [
+    {
+      "id": "prologue",
+      "act": "Act I",
+      "part": "The house that works",
+      "title": "Prologue",
+      "pov": "Vance (LIVED), then WATCHED on Subject M",
+      "setting": "Dealing house, late night",
+      "beats": [
+        "Dog barking; Vance on couch, shoes on — peace (PP-031)",
+        "Hutch too many eggs; small domestic warmth (PP-009)",
+        "Vance: this is the part I'd keep — unexamined contentment",
+        "WATCHED: same hour, timestamps, UNIDENT-2 kitchen, no interiority in log (PP-013)",
+        "End log: no actionable activity; subject at rest — reader holds both columns"
+      ],
+      "turn": "Split-feed established; seam silent",
+      "threads": "PP-002 (rig ambient), PP-009, PP-013, PP-031",
+      "target_words": 450
+    },
+    {
+      "id": "ch-01",
+      "act": "Act I",
+      "part": "The house that works",
+      "title": "Chapter One",
+      "pov": "Vance (LIVED), one WATCHED insert optional at end",
+      "setting": "House morning; field office (ex-dental)",
+      "beats": [
+        "Renko toaster / water heater vigilance comedy (PP-016)",
+        "Hutch stove; Dora might come — eggs ritual (PP-009)",
+        "Interior: Vance two lives, seam shut, Tilt competence, swept-clean memory gaps (PP-004, PP-012, PP-010)",
+        "Dora visit: toast joke on Renko; look Vance misreads; sleep warning oblique (PP-007)",
+        "Field office: rig on, mirror smear (PP-002, PP-011)",
+        "Stark stretched unit; Subject M board — Vance's own house (PP-003, PP-043, PP-041)",
+        "Vance takes board; swept-clean alarm thought; goes to watch the house (PP-015)"
+      ],
+      "turn": "The order lands; reader sees trap Vance does not",
+      "threads": "PP-003, PP-004, PP-006, PP-007, PP-009, PP-010, PP-011, PP-012, PP-015, PP-016, PP-037, PP-041, PP-043",
+      "target_words": 1800
+    }
+  ]
+}

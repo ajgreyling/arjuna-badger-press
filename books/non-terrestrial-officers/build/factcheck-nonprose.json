@@ -1,0 +1,367 @@
+{
+  "model": "sonar-pro",
+  "claims": [
+    {
+      "id": "bio-01",
+      "bin": "Real",
+      "claim": "Gary McKinnon was born 10 February 1966 in Glasgow, Scotland.",
+      "source": "ch-99 / dossier A",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Multiple biographical references state that **Gary McKinnon was born on 10 February 1966 in Glasgow, Scotland**.[2] IMDb explicitly gives the full date and place, while major news and reference sources (BBC-linked profiles via Wikipedia/Wikidata, ITV) agree he was born in Glasgow in February 1966, with no conflicting dates reported.[1][2][3][7] These are standard secondary biographical sources (IMDb, Wikipedia/Wikidata, UK press profiles), adequate for a precise birth date/place in a non-fiction context.",
+      "correction": null,
+      "citations": [
+        "https://www.itv.com/news/update/2012-10-16/who-is-gary-mckinnon/",
+        "https://www.imdb.com/name/nm8801080/",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.bbc.com/news/uk-19946902",
+        "https://www.telegraph.co.uk/news/worldnews/northamerica/usa/5945693/Gary-McKinnon-timeline-of-the-computer-hackers-case.html",
+        "https://find-and-update.company-information.service.gov.uk/officers/kjn5viIIplwuyBG2cDDZkWCb0nc/appointments",
+        "https://www.wikidata.org/wiki/Q380929"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: Multiple biographical references state that **Gary McKinnon was born on 10 February 1966 in Glasgow, Scotland**.[2] IMDb explicitly gives the full date and place, while major news and reference sources (BBC-linked profiles via Wikipedia/Wikidata, ITV) agree he was born in Glasgow in February 1966, with no conflicting dates reported.[1][2][3][7] These are standard secondary biographical sources (IMDb, Wikipedia/Wikidata, UK press profiles), adequate for a precise birth date/place in a non-fiction context."
+    },
+    {
+      "id": "bio-02",
+      "bin": "Real",
+      "claim": "McKinnon used the online handle 'Solo' during his hacking activity.",
+      "source": "ch-99 I",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Multiple secondary sources identify Gary McKinnon\u2019s hacking handle as **\u201cSolo\u201d**, including summaries that explicitly say he used that name during the 2001\u20132002 intrusions into U.S. military and NASA systems.[1][2][3] The U.S. government\u2019s charging documents identify McKinnon as the accused hacker and date the intrusions to February 2001\u2013March 2002, though they do not need to restate the nickname to support the identity claim.[4]",
+      "correction": null,
+      "citations": [
+        "https://www.vps.net/blog/historic-hacks-gary-mckinnon/",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.cybereason.com/blog/malicious-life-podcast-the-u.s-vs.-gary-mckinnon",
+        "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict2.htm",
+        "https://www.instagram.com/reel/DTveyiaANbn/",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://www.reddit.com/r/UFOs/comments/t0imdw/hi_im_gary_mckinnon_i_was_in_the_news_for_a/",
+        "https://www.instagram.com/reel/C0eyzDEpMsW/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \nEXPLANATION: Multiple secondary sources identify Gary McKinnon\u2019s hacking handle as **\u201cSolo\u201d**, including summaries that explicitly say he used that name during the 2001\u20132002 intrusions into U.S. military and NASA systems.[1][2][3] The U.S. government\u2019s charging documents identify McKinnon as the accused hacker and date the intrusions to February 2001\u2013March 2002, though they do not need to restate the nickname to support the identity claim.[4]  \nCORRECTION: N/A"
+    },
+    {
+      "id": "hack-01",
+      "bin": "Real",
+      "claim": "Between February 2001 and March 2002, Gary McKinnon accessed US military and NASA computer systems without authorisation from North London (Crouch End area).",
+      "source": "ch-99 I\u2013II",
+      "verdict": "PARTIALLY CORRECT",
+      "bin_ok": "YES",
+      "explanation": "U.S. prosecutors and media consistently state that McKinnon was accused of hacking into dozens of U.S. Army, Navy, Air Force, Department of Defense, and **NASA** computers over a **13\u2011month period between February 2001 and March 2002**.[1][2][5] A U.S. indictment narrows one charged conspiracy period to **September 2001\u201319 March 2002**, but this does not contradict the broader February 2001 start date described in other U.S. allegations.[1][2][9] These intrusions were alleged (and repeatedly described) as **unauthorised**, and McKinnon has publicly admitted obtaining unauthorised access to these systems.[2] The commonly cited location is that he acted from a house in **London**, specifically his **girlfriend\u2019s aunt\u2019s house**, but mainstream legal and news sources do not specify *Crouch End* by name and the finer-grained neighbourhood detail is not documented in official records.[2][4]",
+      "correction": null,
+      "citations": [
+        "https://www.bbc.com/news/uk-19946902",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.reddit.com/r/UFOs/comments/16r2dmr/does_anyone_remember_gary_mckinnon_a_british/",
+        "https://www.cybereason.com/blog/malicious-life-podcast-the-u.s-vs.-gary-mckinnon",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://www.facebook.com/BroBible/posts/gary-mckinnon-who-prosecutors-said-committed-the-biggest-military-computer-hack-/1390572326443225/",
+        "https://www.reddit.com/r/AlternativeHistory/comments/1p5vtfu/a_hacker_called_solo_allegedly_hacked_nasa_and/",
+        "https://www.instagram.com/reel/DTveyiaANbn/",
+        "https://www.justice.gov/archive/usao/nj/Press/files/pdffiles/Older/edva_mckinnon_indictment.pdf"
+      ],
+      "raw": "VERDICT: PARTIALLY CORRECT  \nBIN_OK: YES  \n\nEXPLANATION: U.S. prosecutors and media consistently state that McKinnon was accused of hacking into dozens of U.S. Army, Navy, Air Force, Department of Defense, and **NASA** computers over a **13\u2011month period between February 2001 and March 2002**.[1][2][5] A U.S. indictment narrows one charged conspiracy period to **September 2001\u201319 March 2002**, but this does not contradict the broader February 2001 start date described in other U.S. allegations.[1][2][9] These intrusions were alleged (and repeatedly described) as **unauthorised**, and McKinnon has publicly admitted obtaining unauthorised access to these systems.[2] The commonly cited location is that he acted from a house in **London**, specifically his **girlfriend\u2019s aunt\u2019s house**, but mai"
+    },
+    {
+      "id": "hack-02",
+      "bin": "Real",
+      "claim": "US authorities alleged McKinnon accessed 97 US military and NASA computers.",
+      "source": "ch-99 II",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "A 2002 U.S. Department of Justice press release on McKinnon\u2019s indictments states that one Virginia indictment charged him with intrusions into **92** military and NASA systems, while a separate New Jersey indictment covered an additional system at Earle Naval Weapons Station, totaling **93** identified systems.[1] Wikipedia, summarizing U.S. government accusations, gives the commonly cited figure that the U.S. government accused McKinnon of hacking into **97** U.S. military and NASA computers over a 13\u2011month period between February 2001 and March 2002.[2] The 97\u2011computer figure is widely repeated in secondary sources and media based on those U.S. accusations, even though the DOJ press release itself itemizes a slightly lower count.[1][2] Since the claim is explicitly about what U.S. authorities *alleged*, and that allegation is well-documented in reputable secondary sources, labeling this as Real is fair to a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict2.htm",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.pinsentmasons.com/out-law/news/pentagon-hacker-mckinnon-fights-extradition",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://tv.apple.com/us/episode/the-alien-wars/umc.cmc.6radovdvta3c43b9v6j10h05s?showId=umc.cmc.2eppjm9jx5oi7vaa2jolmuct6",
+        "https://www.facebook.com/BroBible/posts/gary-mckinnon-who-prosecutors-said-committed-the-biggest-military-computer-hack-/1390572326443225/",
+        "https://www.instagram.com/reel/DTveyiaANbn/",
+        "https://www.cnn.com/2009/WORLD/europe/07/14/british.hacker.mckinnon/",
+        "https://www.reddit.com/r/hacking/comments/1etqs6b/how_gary_mckinnon_did_what_he_did/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: A 2002 U.S. Department of Justice press release on McKinnon\u2019s indictments states that one Virginia indictment charged him with intrusions into **92** military and NASA systems, while a separate New Jersey indictment covered an additional system at Earle Naval Weapons Station, totaling **93** identified systems.[1] Wikipedia, summarizing U.S. government accusations, gives the commonly cited figure that the U.S. government accused McKinnon of hacking into **97** U.S. military and NASA computers over a 13\u2011month period between February 2001 and March 2002.[2] The 97\u2011computer figure is widely repeated in secondary sources and media based on those U.S. accusations, even though the DOJ press release itself itemizes a slightly lower count.[1][2] Sin"
+    },
+    {
+      "id": "hack-03",
+      "bin": "Real",
+      "claim": "McKinnon left a message on a US Army computer criticising security (widely reported as variants of 'your security is crap').",
+      "source": "ch-99 I",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Multiple secondary sources reporting on Gary McKinnon\u2019s case state that he left a message on a U.S. Army computer reading essentially **\u201cYour security is crap/your security system is crap.\u201d**[1][2][7] A detailed article on his UFO-motivated hacking notes that McKinnon himself admitted leaving a message on a Pentagon computer: \u201cYour Security is Crap.\u201d[5] A cyber\u2011security podcast likewise quotes the message as \u201cYour security system is crap,\u201d explicitly identifying it as written on a U.S. Army computer by \u201cSolo,\u201d McKinnon\u2019s handle.[7] These are journalistic and commentary sources (Wikipedia citing case coverage, tech/cybersecurity articles, podcasts), but they are consistent and long\u2011standing, so treating the claim as Real is reasonable for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.redhotcyber.com/en/post/famous-hackers-the-story-of-gary-mckinnon/",
+        "https://www.guinnessworldrecords.com/world-records/90133-biggest-military-computer-hack",
+        "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict.htm",
+        "https://verticalvertical.com/hacking-the-pentagon-in-search-of-ufos",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://www.cybereason.com/blog/malicious-life-podcast-the-u.s-vs.-gary-mckinnon",
+        "https://tv.apple.com/ca/episode/the-computer-hack-that-shocked-the-us-military/umc.cmc.67xbep3arbedeb8ee5141znlj?showId=umc.cmc.6y8mubh2z0q1h040okjh8raui",
+        "https://www.instagram.com/reel/DTveyiaANbn/",
+        "https://www.reddit.com/r/hacking/comments/1etqs6b/how_gary_mckinnon_did_what_he_did/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: Multiple secondary sources reporting on Gary McKinnon\u2019s case state that he left a message on a U.S. Army computer reading essentially **\u201cYour security is crap/your security system is crap.\u201d**[1][2][7] A detailed article on his UFO-motivated hacking notes that McKinnon himself admitted leaving a message on a Pentagon computer: \u201cYour Security is Crap.\u201d[5] A cyber\u2011security podcast likewise quotes the message as \u201cYour security system is crap,\u201d explicitly identifying it as written on a U.S. Army computer by \u201cSolo,\u201d McKinnon\u2019s handle.[7] These are journalistic and commentary sources (Wikipedia citing case coverage, tech/cybersecurity articles, podcasts), but they are consistent and long\u2011standing, so treating the claim as Real is reasonable for a c"
+    },
+    {
+      "id": "legal-01",
+      "bin": "Real",
+      "claim": "McKinnon was arrested in 2002 and a UK investigation began.",
+      "source": "ch-99 II",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Multiple contemporaneous accounts state that **Gary McKinnon was arrested in March 2002 in north London by UK police / the National Hi\u2011Tech Crime Unit**, acting on U.S. hacking allegations.[2][7][9] UK authorities were involved from the start: he was arrested and interviewed by British police at U.S. request, and the case subsequently proceeded through UK legal and prosecutorial channels, including later extradition proceedings.[1][3][7] In this context, describing that he was arrested in 2002 and that a UK investigation began is consistent with BBC reporting and legal/prosecutorial documents.[1][3][7]",
+      "correction": null,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://malicious.life/episode/us_vs_gary_mckinnon/",
+        "https://www.justice.gov/archive/criminal/cybercrime/press-releases/2002/mckinnonIndict.htm",
+        "https://journals.law.unc.edu/ncjolt/blogs/u-k-ends-10-year-extradition-battle-of-hacker-gary-mckinnon/",
+        "https://www.instagram.com/reel/DTveyiaANbn/",
+        "https://www.reddit.com/r/UFOs/comments/1bmekj3/the_man_who_hacked_the_us_government_looking_for/",
+        "https://www.bbc.com/news/uk-19946902",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://www.reddit.com/r/worldnews/comments/14uf38/computer_hacker_gary_mckinnon_who_is_wanted_in/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: Multiple contemporaneous accounts state that **Gary McKinnon was arrested in March 2002 in north London by UK police / the National Hi\u2011Tech Crime Unit**, acting on U.S. hacking allegations.[2][7][9] UK authorities were involved from the start: he was arrested and interviewed by British police at U.S. request, and the case subsequently proceeded through UK legal and prosecutorial channels, including later extradition proceedings.[1][3][7] In this context, describing that he was arrested in 2002 and that a UK investigation began is consistent with BBC reporting and legal/prosecutorial documents.[1][3][7]"
+    },
+    {
+      "id": "legal-02",
+      "bin": "Real",
+      "claim": "Extradition proceedings against McKinnon ran from roughly 2005 through 2012, including UK House of Lords stages.",
+      "source": "ch-99 II",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "UK extradition proceedings against Gary McKinnon began in 2005, with his extradition hearing starting in July 2005 after his arrest and bail that year.[2][5] The case went through multiple UK courts, including the **House of Lords**, which dismissed his appeal in July 2008, ending the formal proceedings under the Extradition Act 2003.[1][4] Human-rights\u2011based challenges and Home Secretary decisions continued until Theresa May formally blocked extradition on 16 October 2012, which contemporaneous timelines and UK government statements describe as the end of a roughly ten\u2011year extradition battle.[2][4][5][8] Major outlets (BBC, Telegraph, GOV.UK) and legal commentary all frame 2005\u20132012 as the span of the extradition fight, so calling it \u201croughly 2005 through 2012, including UK House of Lords stages\u201d is accurate for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://www.telegraph.co.uk/news/politics/6666021/Gary-McKinnon-extradition-timeline-on-how-the-fight-unfolded.html",
+        "https://www.bbc.com/news/19959726",
+        "https://uk.news.yahoo.com/gary-mckinnon-extradition--timeline-of-hacker-s-life.html",
+        "https://www.gov.uk/government/news/latest-on-gary-mckinnon-case",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://journals.law.unc.edu/ncjolt/blogs/u-k-ends-10-year-extradition-battle-of-hacker-gary-mckinnon/",
+        "https://www.youtube.com/watch?v=ND0zQX1rGdg",
+        "https://www.wired.com/2012/10/mckinnon-extradition-win/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: UK extradition proceedings against Gary McKinnon began in 2005, with his extradition hearing starting in July 2005 after his arrest and bail that year.[2][5] The case went through multiple UK courts, including the **House of Lords**, which dismissed his appeal in July 2008, ending the formal proceedings under the Extradition Act 2003.[1][4] Human-rights\u2011based challenges and Home Secretary decisions continued until Theresa May formally blocked extradition on 16 October 2012, which contemporaneous timelines and UK government statements describe as the end of a roughly ten\u2011year extradition battle.[2][4][5][8] Major outlets (BBC, Telegraph, GOV.UK) and legal commentary all frame 2005\u20132012 as the span of the extradition fight, so calling it \u201croug"
+    },
+    {
+      "id": "legal-03",
+      "bin": "Real",
+      "claim": "UK Home Secretary Theresa May blocked McKinnon's extradition to the US in October 2012 on human rights / health grounds.",
+      "source": "ch-99 II",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Then\u2013Home Secretary **Theresa May** announced to Parliament on **16 October 2012** that she was blocking Gary McKinnon's extradition to the United States, stating that extradition would be incompatible with his **human rights** because his Asperger\u2019s syndrome and depressive illness created a very high risk of suicide if he were sent to the US.[1][3][6] Her official statement explicitly grounds the decision in human rights law and medical evidence regarding his mental health.[1][6] Major outlets such as the BBC and Al Jazeera likewise report that the extradition was blocked on **human rights** grounds linked to his health.[1][4][8]",
+      "correction": null,
+      "citations": [
+        "https://www.bbc.com/news/uk-19957138",
+        "https://theweek.com/politics/49577/mckinnon-extradition-blocked-may-invokes-human-rights",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://journals.law.unc.edu/ncjolt/blogs/u-k-ends-10-year-extradition-battle-of-hacker-gary-mckinnon/",
+        "https://www.youtube.com/watch?v=5MEQVo8ENC8",
+        "https://www.gov.uk/government/speeches/gary-mckinnon-extradition-case-home-secretarys-statement",
+        "https://ukhumanrightsblog.com/2012/10/22/gary-mckinnon-price-charles-letters-and-free-speech-the-human-rights-roundup/",
+        "https://www.aljazeera.com/news/2012/10/16/uk-hackers-extradition-to-us-blocked"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: Then\u2013Home Secretary **Theresa May** announced to Parliament on **16 October 2012** that she was blocking Gary McKinnon's extradition to the United States, stating that extradition would be incompatible with his **human rights** because his Asperger\u2019s syndrome and depressive illness created a very high risk of suicide if he were sent to the US.[1][3][6] Her official statement explicitly grounds the decision in human rights law and medical evidence regarding his mental health.[1][6] Major outlets such as the BBC and Al Jazeera likewise report that the extradition was blocked on **human rights** grounds linked to his health.[1][4][8]  \n\n"
+    },
+    {
+      "id": "legal-04",
+      "bin": "Real",
+      "claim": "UK prosecution against McKinnon was dropped after the extradition block (2012 onward).",
+      "source": "ch-99 II",
+      "verdict": "PARTIALLY CORRECT",
+      "bin_ok": "NO",
+      "explanation": "Theresa May **blocked extradition on 16 October 2012** and explicitly left it to the Director of Public Prosecutions to decide on any UK case, stating that it would be for the DPP \u201cto decide whether Mr McKinnon has a case to answer in a UK court.\u201d[3] UK prosecutors then **formally announced on 14 December 2012** that McKinnon would face **no charges in the UK**, effectively dropping any potential prosecution.[5][4] The claim skips this two\u2011step process (extradition decision, then separate CPS decision) and implies an automatic or immediate dropping of a prosecution \u201cafter the extradition block,\u201d which is legally imprecise.[3][5] Calling the whole sequence simply \u201cprosecution was dropped after the extradition block\u201d under a \u201cReal\u201d label glosses over the CPS\u2019s independent December decision and is not ideal for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://journals.law.unc.edu/ncjolt/blogs/u-k-ends-10-year-extradition-battle-of-hacker-gary-mckinnon/",
+        "https://www.bbc.com/news/uk-19957138",
+        "https://www.gov.uk/government/speeches/gary-mckinnon-extradition-case-home-secretarys-statement",
+        "https://www.youtube.com/watch?v=viLcoe_xPMU",
+        "https://www.cnn.com/2012/12/14/world/europe/uk-us-hacker",
+        "https://www.abc.net.au/worldtoday/archive/articles/2012/10/17/s3612398.htm",
+        "https://www.aljazeera.com/news/2012/10/16/uk-hackers-extradition-to-us-blocked"
+      ],
+      "raw": "VERDICT: PARTIALLY CORRECT  \nBIN_OK: NO  \n\nEXPLANATION: Theresa May **blocked extradition on 16 October 2012** and explicitly left it to the Director of Public Prosecutions to decide on any UK case, stating that it would be for the DPP \u201cto decide whether Mr McKinnon has a case to answer in a UK court.\u201d[3] UK prosecutors then **formally announced on 14 December 2012** that McKinnon would face **no charges in the UK**, effectively dropping any potential prosecution.[5][4] The claim skips this two\u2011step process (extradition decision, then separate CPS decision) and implies an automatic or immediate dropping of a prosecution \u201cafter the extradition block,\u201d which is legally imprecise.[3][5] Calling the whole sequence simply \u201cprosecution was dropped after the extradition block\u201d under a \u201cReal\u201d labe"
+    },
+    {
+      "id": "legal-05",
+      "bin": "Real",
+      "claim": "Medical reports citing Asperger's syndrome / autism spectrum were used in McKinnon's extradition case (public legal/press record).",
+      "source": "ch-99 II",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "UK media and legal reporting on Gary McKinnon\u2019s case consistently state that *medical reports diagnosing him with Asperger\u2019s syndrome / autism spectrum conditions were central evidence in the extradition proceedings*.[1][2] The BBC in 2012 explicitly notes that the High Court adjourned the case to obtain a further medical report and that experts warned of a high suicide risk linked to his Asperger\u2019s syndrome if extradited.[1] Al Jazeera likewise reports that the home secretary\u2019s decision on extradition turned on medical evaluations stating McKinnon \u201chas Asperger\u2019s syndrome and falls on the autism spectrum\u201d and could be a danger to himself if sent to the US.[2] These reports show the condition and related medical evidence were part of the public legal and press record, so classifying the claim as Real is fair for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://www.bbc.com/news/uk-18722053",
+        "https://www.aljazeera.com/news/2012/10/14/uk-hacker-to-learn-extradition-fate",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://news.sky.com/story/hacker-gary-mckinnon-faces-no-further-action-10460721",
+        "https://www.facebook.com/AmnestyUK/photos/gary-mckinnon-is-a-british-man-who-has-aspergers-syndrome-he-and-his-mum-fought-/10154720345934395/",
+        "https://www.thetransmitter.org/spectrum/autism-as-alibi/",
+        "https://www.reddit.com/r/worldnews/comments/wtabz/computer_hacker_gary_mckinnon_has_no_choice_but/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: UK media and legal reporting on Gary McKinnon\u2019s case consistently state that *medical reports diagnosing him with Asperger\u2019s syndrome / autism spectrum conditions were central evidence in the extradition proceedings*.[1][2] The BBC in 2012 explicitly notes that the High Court adjourned the case to obtain a further medical report and that experts warned of a high suicide risk linked to his Asperger\u2019s syndrome if extradited.[1] Al Jazeera likewise reports that the home secretary\u2019s decision on extradition turned on medical evaluations stating McKinnon \u201chas Asperger\u2019s syndrome and falls on the autism spectrum\u201d and could be a danger to himself if sent to the US.[2] These reports show the condition and related medical evidence were part of the pub"
+    },
+    {
+      "id": "inst-01",
+      "bin": "Real",
+      "claim": "NASA and US authorities publicly denied that McKinnon found evidence of extraterrestrial craft or covert UFO files.",
+      "source": "ch-99 III",
+      "verdict": "PARTIALLY CORRECT",
+      "bin_ok": "YES",
+      "explanation": "US and UK officials publicly disputed McKinnon\u2019s UFO-related claims but mostly by implication, focusing on calling his hacking a serious crime and never confirming his alleged \u201cextraterrestrial craft\u201d or \u201cnon-terrestrial officers.\u201d[1][5] McKinnon has repeatedly said he personally saw high\u2011resolution images of what looked like extraterrestrial spacecraft on NASA systems, but he admits he took no screenshots or copies, so there is no corroboration beyond his testimony.[1][5] News and commentary (e.g., Wired, BBC-derived summaries) consistently frame his UFO claims as unproven allegations that authorities did not substantiate, while US prosecutors and agencies stuck to computer crime and security damage in their public statements.[1][3][5] For a careful reader, classing the statement as \u201cReal\u201d (i.e., that authorities *denied or declined to endorse* his UFO findings) is fair, since there is no official acknowledgment of extraterrestrial craft or covert UFO files in the McKinnon case.[1][5]",
+      "correction": null,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.youtube.com/watch?v=WFd7XzTf6_k",
+        "https://www.cybereason.com/blog/malicious-life-podcast-the-u.s-vs.-gary-mckinnon",
+        "https://www.facebook.com/groups/FlatEarthGlobeDiscussion/posts/2505468386561711/",
+        "https://www.wired.com/2006/06/ufo-hacker-tells-what-he-found/",
+        "https://www.instagram.com/reel/DXovHApCeTE/",
+        "https://open.spotify.com/episode/6Ghk5R8l6hM0MZFMeVTzGg",
+        "https://www.reddit.com/r/aliens/comments/1kt5v1j/gary_mckinnon_ufos_and_the_classified_space/",
+        "https://podmust.com/ep/?podcast=the-daily-conspiracy&epis=R2FyeSBNY0tpbm5vbjogVGhlIEhhY2tlciBXaG8gRm91bmQgTkFTQSdzIFVGTyAmIE5vbi1UZXJyZXN0cmlhbCBPZmZpY2Vycw%3D%3D"
+      ],
+      "raw": "VERDICT: PARTIALLY CORRECT  \nBIN_OK: YES  \n\nEXPLANATION: US and UK officials publicly disputed McKinnon\u2019s UFO-related claims but mostly by implication, focusing on calling his hacking a serious crime and never confirming his alleged \u201cextraterrestrial craft\u201d or \u201cnon-terrestrial officers.\u201d[1][5] McKinnon has repeatedly said he personally saw high\u2011resolution images of what looked like extraterrestrial spacecraft on NASA systems, but he admits he took no screenshots or copies, so there is no corroboration beyond his testimony.[1][5] News and commentary (e.g., Wired, BBC-derived summaries) consistently frame his UFO claims as unproven allegations that authorities did not substantiate, while US prosecutors and agencies stuck to computer crime and security damage in their public statements.[1][3]"
+    },
+    {
+      "id": "deb-01",
+      "bin": "Debated",
+      "claim": "McKinnon claimed he found a roster or branch labelled 'Non-Terrestrial Officers' (NTO) in US systems.",
+      "source": "ch-99 I",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Scottish hacker **Gary McKinnon** has repeatedly stated in interviews that, during his 2001\u20132002 intrusions into U.S. military and NASA systems, he saw an Excel spreadsheet or document titled **\u201cNon-Terrestrial Officers\u201d** listing names and ranks, along with another sheet about \u201cship-to-ship\u201d or \u201cfleet-to-fleet\u201d transfers.[1][2][3] These details are reported in security press coverage (ESET/WeLiveSecurity), summarized on Wikipedia, and echoed in later commentary, all clearly attributing them as *McKinnon\u2019s own claims* rather than verified findings.[1][2][3] There is no independent documentary or governmental corroboration of such a roster, but the specific claim that \u201cMcKinnon claimed he found\u201d such a list is accurate. Labeling this as **Debated** is responsible, since the underlying assertion rests solely on McKinnon\u2019s testimony without primary-source evidence.",
+      "correction": null,
+      "citations": [
+        "https://www.welivesecurity.com/2015/12/08/gary-mckinnon-reveals-detail-on-nasa-data-breach-and-extraterrestrial-life/",
+        "https://www.reddit.com/r/UFOs/comments/16r2dmr/does_anyone_remember_gary_mckinnon_a_british/",
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.facebook.com/BroBible/posts/gary-mckinnon-who-prosecutors-said-committed-the-biggest-military-computer-hack-/1390572326443225/",
+        "https://www.youtube.com/shorts/OFfQo4HkGp0",
+        "https://podmust.com/ep/?podcast=the-daily-conspiracy&epis=R2FyeSBNY0tpbm5vbjogVGhlIEhhY2tlciBXaG8gRm91bmQgTkFTQSdzIFVGTyAmIE5vbi1UZXJyZXN0cmlhbCBPZmZpY2Vycw%3D%3D"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: Scottish hacker **Gary McKinnon** has repeatedly stated in interviews that, during his 2001\u20132002 intrusions into U.S. military and NASA systems, he saw an Excel spreadsheet or document titled **\u201cNon-Terrestrial Officers\u201d** listing names and ranks, along with another sheet about \u201cship-to-ship\u201d or \u201cfleet-to-fleet\u201d transfers.[1][2][3] These details are reported in security press coverage (ESET/WeLiveSecurity), summarized on Wikipedia, and echoed in later commentary, all clearly attributing them as *McKinnon\u2019s own claims* rather than verified findings.[1][2][3] There is no independent documentary or governmental corroboration of such a roster, but the specific claim that \u201cMcKinnon claimed he found\u201d such a list is accurate. Labeling this as **Deb"
+    },
+    {
+      "id": "deb-02",
+      "bin": "Debated",
+      "claim": "McKinnon claimed he found fleet-to-fleet (F2F) transfer logs in spreadsheets.",
+      "source": "ch-99 I",
+      "verdict": "**PARTIALLY CORRECT**",
+      "bin_ok": "**YES**",
+      "explanation": "Gary McKinnon did claim that he saw or saved Excel spreadsheets on a U.S. Navy system that included \u201cfleet-to-fleet transfers,\u201d alongside other alleged files such as \u201cnon-terrestrial officers.\u201d That part is supported by later reporting and interviews, but there is no public primary-source confirmation from NASA or the U.S. Navy that such logs existed on the systems he accessed; his claims remained uncorroborated and were treated as allegations in coverage of the case.[6] The book\u2019s **Debated** bin is therefore responsible journalism, because it flags a claim made by McKinnon without independent verification rather than presenting it as established fact.[6]",
+      "correction": null,
+      "citations": [
+        "https://www.fleetio.com/blog/fleet-metrics-track-data",
+        "https://www.youtube.com/watch?v=GbmbBiKBTvY",
+        "https://autosist.com/blog/fleet-management-documents-every-fleet-must-track/",
+        "https://www.youtube.com/watch?v=JCab38s_HRY&vl=en",
+        "https://www.verizonconnect.com/resources/article/fleet-maintenance-documentation/",
+        "https://www.reddit.com/r/UFOs/comments/16r2dmr/does_anyone_remember_gary_mckinnon_a_british/",
+        "https://www.facebook.com/groups/TypewriterCollectors/posts/10155993134494678/",
+        "https://buscmms.com/blog/bus-fleet-maintenance-log-template",
+        "https://www.jotform.com/form-templates/vehicle-fleet-transfer-log-form",
+        "https://www.instagram.com/reel/DVRZBgLAo6r/"
+      ],
+      "raw": "VERDICT: **PARTIALLY CORRECT**  \nBIN_OK: **YES**  \nEXPLANATION: Gary McKinnon did claim that he saw or saved Excel spreadsheets on a U.S. Navy system that included \u201cfleet-to-fleet transfers,\u201d alongside other alleged files such as \u201cnon-terrestrial officers.\u201d That part is supported by later reporting and interviews, but there is no public primary-source confirmation from NASA or the U.S. Navy that such logs existed on the systems he accessed; his claims remained uncorroborated and were treated as allegations in coverage of the case.[6] The book\u2019s **Debated** bin is therefore responsible journalism, because it flags a claim made by McKinnon without independent verification rather than presenting it as established fact.[6]  \nCORRECTION: McKinnon **claimed** he found spreadsheets referencing \u201cf"
+    },
+    {
+      "id": "deb-03",
+      "bin": "Debated",
+      "claim": "McKinnon claimed he saw sanitised UFO imagery at NASA Building 8, Johnson Space Center.",
+      "source": "ch-99 I\u2013III",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "In multiple interviews, Gary **McKinnon** has said that while accessing NASA systems he found \u201craw\u201d space imagery which he believed was being edited to remove UFOs, and that this was done in **Building 8 at Johnson Space Center**.[1][5] A 2006 Wired interview reports him describing a high\u2011resolution image of a cigar\u2011shaped craft being slowly downloaded from a NASA system that he associated with this alleged image-sanitising process.[5] These descriptions come solely from McKinnon\u2019s own accounts in media interviews (e.g. Wired, BBC-linked coverage), with no independent confirmation from NASA or official investigations.[1][4][5] Courts and UK government statements confirm only that he accessed NASA and other US government computers looking for UFO evidence, not that such sanitised imagery existed.[1][4]",
+      "correction": null,
+      "citations": [
+        "https://en.wikipedia.org/wiki/Gary_McKinnon",
+        "https://www.cybereason.com/blog/malicious-life-podcast-the-u.s-vs.-gary-mckinnon",
+        "https://www.welivesecurity.com/2015/12/08/gary-mckinnon-reveals-detail-on-nasa-data-breach-and-extraterrestrial-life/",
+        "https://www.bbc.com/news/uk-19957138",
+        "https://www.wired.com/2006/06/ufo-hacker-tells-what-he-found/",
+        "https://www.nbcnews.com/tech/tech-news/ufo-hacker-wont-be-tried-britain-pentagon-nasa-crimes-flna1c7615010",
+        "https://www.reddit.com/r/UFOs/comments/t3ehpf/gary_mckinnons_drawing_of_what_he_saw_on_a_nasa/",
+        "https://podmust.com/ep/?podcast=the-daily-conspiracy&epis=R2FyeSBNY0tpbm5vbjogVGhlIEhhY2tlciBXaG8gRm91bmQgTkFTQSdzIFVGTyAmIE5vbi1UZXJyZXN0cmlhbCBPZmZpY2Vycw%3D%3D"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: In multiple interviews, Gary **McKinnon** has said that while accessing NASA systems he found \u201craw\u201d space imagery which he believed was being edited to remove UFOs, and that this was done in **Building 8 at Johnson Space Center**.[1][5] A 2006 Wired interview reports him describing a high\u2011resolution image of a cigar\u2011shaped craft being slowly downloaded from a NASA system that he associated with this alleged image-sanitising process.[5] These descriptions come solely from McKinnon\u2019s own accounts in media interviews (e.g. Wired, BBC-linked coverage), with no independent confirmation from NASA or official investigations.[1][4][5] Courts and UK government statements confirm only that he accessed NASA and other US government computers looking for"
+    },
+    {
+      "id": "leg-01",
+      "bin": "Legend",
+      "claim": "The 'Project Serpo' story (12 US personnel, planet Serpo in Zeta Reticuli, ~13 years) originated as a 2005 serial on Victor Martinez's UFO Updates email list and has not been authenticated.",
+      "source": "ch-99 V",
+      "verdict": "CONFIRMED  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "The modern **\u201cProject Serpo\u201d narrative**\u2014an alleged 12\u2011person US exchange to a planet called Serpo in the **Zeta Reticuli** system lasting roughly **1965\u20131978 (~13 years)**\u2014was first widely circulated in **2005** via a series of anonymous emails sent to a UFO discussion list moderated by former US government employee **Victor Martinez**.[1][4][7] The story\u2019s core elements (12 US military personnel, planet Serpo, Zeta Reticuli, exchange program) match the claim in the book.[1][2][4] Mainstream sources and UFO researchers note that no physical evidence or official documentation has emerged to authenticate the program, and it is widely treated as a hoax or unverified conspiracy story rather than an established historical event.[1][3][5] Classifying this as **Legend** is responsible, since it reports an oft\u2011repeated UFO lore item without endorsing it as fact and accurately notes its lack of authentication.[1][3][5]",
+      "correction": null,
+      "citations": [
+        "https://alessandragemmo.com/the-mystery-of-project-serpo/",
+        "https://www.oocities.org/maurice_osborn/Serpo.htm",
+        "https://wordpresscom507.wordpress.com/2017/09/13/the-truth-hidden-on-serpo/",
+        "https://globalwarming-arclein.blogspot.com/2015/09/the-planet-serpo-exchange-program-update.html",
+        "https://en.wikipedia.org/wiki/Planetary_objects_proposed_in_religion,_astrology,_ufology_and_pseudoscience",
+        "https://www.reddit.com/r/ufo/comments/exbtoc/the_ttsa_and_project_serpo_connection/",
+        "https://edominations.com/en/article/692/Project%20Serpo%20%C3%A2%E2%82%AC%E2%80%9C%20The%20Exchange%20Program%20Between%20Humans%20and%20Aliens",
+        "https://www.bibliotecapleyades.net/sociopolitica/serpo/index_serpo.htm",
+        "https://nostradamus.fandom.com/wiki/Project_Serpo",
+        "https://www.facebook.com/groups/1290436912689433/posts/1556289122770876/"
+      ],
+      "raw": "VERDICT: CONFIRMED  \nBIN_OK: YES  \n\nEXPLANATION: The modern **\u201cProject Serpo\u201d narrative**\u2014an alleged 12\u2011person US exchange to a planet called Serpo in the **Zeta Reticuli** system lasting roughly **1965\u20131978 (~13 years)**\u2014was first widely circulated in **2005** via a series of anonymous emails sent to a UFO discussion list moderated by former US government employee **Victor Martinez**.[1][4][7] The story\u2019s core elements (12 US military personnel, planet Serpo, Zeta Reticuli, exchange program) match the claim in the book.[1][2][4] Mainstream sources and UFO researchers note that no physical evidence or official documentation has emerged to authenticate the program, and it is widely treated as a hoax or unverified conspiracy story rather than an established historical event.[1][3][5] Classif"
+    },
+    {
+      "id": "leg-02",
+      "bin": "Legend",
+      "claim": "Serpo posters used handles such as Anonymous and Listman on the UFO Updates list (forum history documented; claims unauthenticated).",
+      "source": "ch-99 V / dossier D",
+      "verdict": "UNVERIFIABLE  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "Public documentation of the **Project Serpo** email/post history focuses on the core pseudonyms (e.g., \"Anonymous\", \"Request Anonymous\", and Victor Martinez as list owner) but does not provide a definitive, archived roster of all handles used on the UFO UpDates list, nor a clear primary-source tie to the specific handle **\u201cListman\u201d** in relation to Serpo.[2][3] Existing reconstructions of the Serpo saga are largely based on secondary commentary, broken link archives, and forum reposts rather than preserved, searchable originals of the entire UFO UpDates traffic, so confirming every individual handle is not currently possible. Given that the claim is about *forum lore* around Serpo and explicitly says the \u201cclaims [are] unauthenticated,\u201d treating it as **Legend** is responsible labeling for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://www.youtube.com/watch?v=bEUU5mTltp4",
+        "https://www.reddit.com/r/aliens/comments/1flh06i/missing_evidence_no_dark_web_leaks/",
+        "https://en.wikipedia.org/wiki/Pentagon_UFO_videos",
+        "https://docs.house.gov/meetings/GO/GO12/20241113/117721/HHRG-118-GO12-Wstate-ShellenbergerM-20241113.pdf",
+        "https://nuforc.org/databank/",
+        "https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings",
+        "https://www.nsa.gov/Helpful-Links/NSA-FOIA/Frequently-Requested-Information/UFO-and-Other-Paranormal-Information/"
+      ],
+      "raw": "VERDICT: UNVERIFIABLE  \nBIN_OK: YES  \n\nEXPLANATION: Public documentation of the **Project Serpo** email/post history focuses on the core pseudonyms (e.g., \"Anonymous\", \"Request Anonymous\", and Victor Martinez as list owner) but does not provide a definitive, archived roster of all handles used on the UFO UpDates list, nor a clear primary-source tie to the specific handle **\u201cListman\u201d** in relation to Serpo.[2][3] Existing reconstructions of the Serpo saga are largely based on secondary commentary, broken link archives, and forum reposts rather than preserved, searchable originals of the entire UFO UpDates traffic, so confirming every individual handle is not currently possible. Given that the claim is about *forum lore* around Serpo and explicitly says the \u201cclaims [are] unauthenticated,\u201d tr"
+    },
+    {
+      "id": "inv-01",
+      "bin": "Invented",
+      "claim": "The integer 4680 days (thirteen years) appeared as a specific spreadsheet cell in McKinnon's copied files linking to Serpo.",
+      "source": "ch-99 I, VI",
+      "verdict": "UNVERIFIABLE  \nBIN_OK:",
+      "bin_ok": "YES",
+      "explanation": "There is no publicly available primary-source evidence (court exhibits, leaked file archives, or verified screenshots) of any spreadsheet from Gary McKinnon\u2019s NASA/DoD intrusions containing a cell with the integer **4680** explicitly linked to the alleged *Serpo* exchange program. Public documentation about McKinnon\u2019s case (UK court judgments, extradition filings, major press coverage in outlets such as the BBC and Guardian) describes his access to spreadsheets and documents but does not reproduce or detail any \u201c4680 days / thirteen years\u201d Serpo-related cell. In UFO/Serpo discussion circles, references to specific numbers and spreadsheet cells appear only as uncorroborated anecdotes, not traceable to verifiable case documents or authenticated files. Given the absence of accessible primary evidence, treating this as **Invented** is responsible labeling for a careful reader.",
+      "correction": null,
+      "citations": [
+        "https://www.facebook.com/groups/757286231781547/posts/1926574301519395/",
+        "https://www.bogleheads.org/forum/viewtopic.php?t=93849&start=100",
+        "https://www.reddit.com/r/EliteMiners/comments/jmfj1e/revised_opportunity_cost_calculation_spreadsheet/",
+        "https://sprchrgr.com/insights/spreadsheets-dont-scale-how-to-streamline-your-ops-by-eliminating-data-silos",
+        "https://learn.microsoft.com/en-us/answers/questions/5315394/how-to-use-excel-for-snowbird-tracking-days-spent",
+        "https://www.youtube.com/watch?v=SLepDLEJEPw",
+        "https://www.youtube.com/shorts/RUx2RjfJT_o",
+        "https://www.tiktok.com/@metric_maven/video/7651693721540431117",
+        "https://www.linkedin.com/posts/logan-burchett-35196276_8-hours-a-week-on-spreadsheets-for-what-activity-7463246551067475968-FRWF"
+      ],
+      "raw": "VERDICT: UNVERIFIABLE  \nBIN_OK: YES  \n\nEXPLANATION: There is no publicly available primary-source evidence (court exhibits, leaked file archives, or verified screenshots) of any spreadsheet from Gary McKinnon\u2019s NASA/DoD intrusions containing a cell with the integer **4680** explicitly linked to the alleged *Serpo* exchange program. Public documentation about McKinnon\u2019s case (UK court judgments, extradition filings, major press coverage in outlets such as the BBC and Guardian) describes his access to spreadsheets and documents but does not reproduce or detail any \u201c4680 days / thirteen years\u201d Serpo-related cell. In UFO/Serpo discussion circles, references to specific numbers and spreadsheet cells appear only as uncorroborated anecdotes, not traceable to verifiable case documents or authentic"
+    }
+  ]
+}

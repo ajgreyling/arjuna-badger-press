@@ -1,3 +1,13 @@
+# Dedication
+
+*For Lisel.*
+
+*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
+
+*Sawubona.*
+
+⁂
+
 *For my wife.*
 
 *This is the book I wrote on far ground, a long way from home — a man crossing an ocean to stand
@@ -13,13 +23,45 @@ home to. You are my country, and the borders have never moved.*
 
 ---
 
+*And for AJ — from The Why Files.*
+
 *Watch the official story all the way to the end. Then find the one loose thread, give it a little
 tug, and grin. Take the debunk seriously, take the wonder seriously, and live in the gap between them
 where it's actually interesting.*
 
 *The brightest minds, in daylight, with laser sights and good rope, made a potato.*
 
+*So. Roll the tape.*
+
 ---
+
+---
+
+# Foreword
+
+### *by Wilson Nicol* †
+
+I have spent my working life in the disreputable borderland — the country between what science has settled and what people insist on still seeing — and I have learned one hard rule about it that almost nobody, believer or debunker, is willing to obey: *you have to hold two things at once, and most minds can only hold one.*
+
+The believer holds the wonder and drops the rigour. The debunker holds the rigour and drops the wonder. Both feel, to themselves, like the sober one. Both are half-blind. And the rarest thing in the whole field — rarer than any light in any field — is the person who can keep the rigour *and* the wonder in the same hand, who can say, with total seriousness, *most of this is exactly what the skeptics say, and there remains a residue they have not honestly explained, and I am going to sit in the discomfort of that residue rather than flee it in either direction.*
+
+That person is almost mythical. I have met perhaps a handful in fifty years. And the author of this book is one of them, and has written the only crop-circle novel I have ever read that I did not want to throw across the room within a chapter — from either direction.
+
+He gives the hoaxers their full due, and more — he loves them, names them, calls their work an art, and he is *right.* Most of it is two clever men and a plank, and he revels in that, and so should you. But then he does the thing the debunkers never quite do honestly: he stays in the field after the laughter dies, with a theodolite and a cold eye, and he measures the handful that the plank cannot account for, and he does not blink, and he does not reach for aliens to fill the gap, and he does not reach for a sneer either. He just shows you the gap, and shows you it is real, and leaves you standing in the draught of it, which is the bravest and most honest place a mind can stand.
+
+I should tell you that he has put, in his closing pages, a few seconds of real footage I have argued about for half my life — filmed beneath a hillfort on a down above Devizes, balls of light, a formation forming under them while the tape runs — and he handles it *exactly* as it should be handled: he tells you the official verdict is hoax, that the verdict is sensible and may be true, and that it was nevertheless never satisfactorily *closed,* and that the difference between *proven false* and *not proven false* is the whole of the matter. I have spent decades trying to teach people that distinction. He teaches it in a paragraph, inside a thriller, and makes you feel it in your spine.
+
+For there is a thriller here too — a real one, with a buried thing and a clean-handed company racing to dig it out, and a quiet, unplaceable man who reads a made thing the way I have spent my life trying to read the unexplained, and reads it *better,* because he asks the one question I learned too late to ask: not *who made it,* not *is it real,* but *what is it for.* That question is the master key to the entire borderland, and this book turns it, and a door opens that I did not know was there.
+
+You may finish it a believer. You may finish it a skeptic. If the author has done his work — and he has — you will finish it something better and harder than either: a person willing to say *I don't know,* and to find, in those three words, not a defeat but the beginning of wonder.
+
+Go and watch the tape. Decide for yourself. The answer is allowed to stay a maybe. That it is allowed to is the whole gift of this book, and the whole labour of my life, and I am grateful, at the end of it, to have been handed both by a younger and a clearer hand.
+
+*— Wilson Nicol*
+
+---
+
+*† **“Wilson Nicol” is an anagram of COLIN WILSON** — the writer on the outsider and the unexplained — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Colin Wilson did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
 
 ---
 
@@ -76,8 +118,6 @@ Edie Vane stopped, with the whole green Vale of Pewsey laid out below her in the
 "The rest," she said, "are not a potato."
 
 And she got in her car, and she drove to the office, and she opened the June file, the one she had closed eleven months ago and told herself she was finished with, and she began, for the second time in her life, to read it as though she did not already know the answer.
-
----
 
 # Chapter 2 — The One That Wasn't
 
@@ -143,8 +183,6 @@ She attached the photograph — the sign and the thing it pointed at — and und
 
 And she sent it into the dark, and put the kettle back on, and waited, with no real expectation of an answer, for the man who read made things.
 
----
-
 # Chapter 3 — The Man Who Read the Frame
 
 He did not text back.
@@ -194,8 +232,6 @@ He looked back at her.
 "Show me the others," he said. "All of them. The potatoes too — *especially* the potatoes, because I need to learn the joke before I can find the thing hiding in it. And then we're going to have to be quick and we're going to have to be careful, because you sent me a photograph down a phone before you knew better, and that means we're probably not the only ones who can see what we can see." He started back toward the impossible faded truck at the gate. "And the others who can see it," he said, over his shoulder, "don't want to *protect* what's in the ground, Miss Vane. They want to dig it up and sell it before your people even know it's there. I've met them before. On three continents. They always get there fast."
 
 He opened the door of the Beast, and the morning light caught the gold rims of the glasses still pushed up on his cap, and Edie Vane stood in the wet tramline of a field she had known her whole life and understood that it had just become a different field, and that she had, after eleven careful years of saying *no,* finally, recklessly, with her whole chest, said *maybe.*
-
----
 
 # Chapter 4 — The Forest of Fakes
 
@@ -247,8 +283,6 @@ The engine turned over — a deep, unhurried, oversquare sound that belonged to 
 
 Behind them, on the table at the Barge, under Gully's twenty proud years of beautiful lies, the one photograph nobody would own lay face-up in the lamplight, its clean impossible geometry pointing, as it had always pointed, patiently down.
 
----
-
 # Chapter 5 — The White Horse
 
 They did not reach the next field that night. The next field had a farmer with a shotgun and a grudge against trespassers and three news vans already parked at his gate, because Whitchalk Geophysical had filed for a *survey access notice* that afternoon — a legal instrument Edie had not known existed until the man in the truck explained it to her, mildly, as the kind of thing that lets a company with money walk onto land a county archaeologist has to beg a year for. So they pulled off the road and slept — Edie in a B&B in Devizes, Jakobus, as far as she could tell, in the Beast, though when she came out at first light he was already gone up onto the down on foot, and she found him an hour later by the simple method of driving to the highest white thing in the landscape and walking up to it.
@@ -292,8 +326,6 @@ Edie Vane stood on the down in the hard wind under the three-thousand-year-old h
 He went down the hill.
 
 Edie stood a moment longer under the white horse, the oldest deliberate mark in her county, that she had driven past a thousand times and never seen, and then she followed the man no camera could hold down off the chalk of the people who had never said sorry, toward the field where the money was already waiting.
-
----
 
 # Chapter 6 — One Shot
 
@@ -345,8 +377,6 @@ The wind moved over Aldous Pyne's field, over the buried thing nobody but the pa
 
 And Edie Vane got into the Beast beside the son of the man with the empty freezer, and understood, at last and completely, what kind of man had got on a boat to help her, and why.
 
----
-
 # Chapter 7 — The Water Under the Wheat
 
 The next field was at Honeystreet, hard by the Kennet and Avon canal, and they got there first — barely. They got there because Jakobus did not drive like a man in a hurry and yet arrived everywhere before people who were, a trick Edie had stopped trying to understand, and because Whitchalk Geophysical, for all its money, moved like a company: with meetings, and a logistics van, and a site manager who had to wait for a permit window. The patient and the local got there first. That was the whole gospel according to the man in the Beast, and so far it had held.
@@ -384,8 +414,6 @@ The two men looked at each other in the half-cut field, the one with the lanyard
 "Thursday," Jakobus said, watching him go. "That gives us three days." He looked west, toward the long green country and the unseen city beyond it where the only hot spring in Britain came up out of the deep dark rock. "Three days to understand the whole shape of the thing before he does. Because he's got the same maps we have, and more money, and no scruples — but he doesn't understand what he's looking at. He thinks it's graves. He thinks it's gold and provenance and a thing you can dig up and sell." He turned back to Edie. "He doesn't know it's *water.* He doesn't know it's a body. And if we understand the body before he does, we can protect the part that matters, the heart of it, the place all the rest of it points to — before he gets there with a digger and a lawyer and turns the oldest living thing in England into a line item." He started for the Beast. "Come. We're going west. There's a city built on the deep water, and a goddess the Romans stole, and I think the whole map has been pointing at it the entire time."
 
 Edie Vane looked once more at the ghost-river glowing under the wheat, the living water the old people had followed to make a sacred country, and then she followed the man no camera could hold toward Bath, and the heart of the thing, and the three days they had to reach it first.
-
----
 
 # Chapter 8 — The Stolen Goddess
 
@@ -426,8 +454,6 @@ She hadn't said it to him. She'd thought it, that morning under the white horse,
 "No," Jakobus agreed, and the grim humour was gone and something gentler was in its place. "You didn't have to. I watched your face when we came in past the abbey. I read it." He almost smiled, and this time, faintly, it reached. "It's the one thing I'm actually good at. Reading what a person won't say." He started up the worn flags toward the city and the evening. "Hold onto that, the best day. You're going to need it. Because tomorrow we go to war for the water under it, and wars for sacred things are the only ones worth fighting and the easiest ones to lose."
 
 And Edie Vane took one last look at the steaming green spring, the stolen heart of a vanished country, where for two thousand years the wronged had thrown their demands for justice into the deep — and then she followed the man who read made things, and unmade ones, and the things people would not say, up into the golden city, toward the last sign in the wheat and the three days that were now two.
-
----
 
 # Chapter 9 — The Tradesmen
 
@@ -481,8 +507,6 @@ And once — only once, on the long straight drop toward the Bath road where the
 
 And the Beast came down into Bath, ahead of the helicopter, ahead of the money, carrying the county's serious skeptic and the man no camera could hold, toward the stolen goddess and her stolen water and the keystone arrow of bent wheat pointing, across ten years and three hundred feet and the whole hidden body of England, at the exact spot where it all came, hot and alive, to the surface.
 
----
-
 # Chapter 10 — The Woman in the Long Field
 
 She was waiting for them at the spring.
@@ -521,8 +545,6 @@ The old woman picked up her flask, and poured herself another cup of tea, and se
 
 "I've been getting here first," she said comfortably, "for ninety-one years. Send the man with the lanyard up. I'll keep the kettle warm."
 
----
-
 # Chapter 11 — On Camera
 
 Giles Harmon arrived at the right spring an hour and ten minutes later, and by then there were forty people on the green.
@@ -560,8 +582,6 @@ She turned to say something of this to Jakobus, and found him crouched again by 
 "You wanted to catch the man behind it," he said, without looking up. "I know. You're new. You think the win is the villain in handcuffs." He stood, slowly. "It almost never is. The win is the spring still running. The win is that woman's grandchildren getting to keep the map a little longer, even if the secret's gone. The win is one sacred thing protected, on a day when it would have been so easy to lose it, by people who cared enough to be slow." He looked at the old woman, who was packing up her thermos with the unhurried satisfaction of a job a thousand years in the doing and well done. "She spent the secret. That's the cost. A real one. But she got the water for it, and the water was always the thing. The secret was only ever the wrapping." He put his cap back on. "You don't get to save the wrapping and the gift, Miss Vane. Not in this work. You learn to save the gift, and let the wrapping go, and not break your heart over it." He looked at her sidelong, dry. "Most of the time you don't even save the gift. Today we did. Today was a good day. Mark it."
 
 And Edie Vane stood on the green by the forgotten spring, in the city of her best day, with the cameras packing up and the press already filing and a thousand-year secret spent and one sacred spring still running, and understood that he was right, and that this was what winning looked like in the only war worth fighting, and that she would take it.
-
----
 
 # Chapter 12 — The Potato, Left In
 
@@ -611,8 +631,6 @@ Far to the east, in a field by the river, the great loop of the keystone formati
 
 *We were here. We knew. Don't let them tell you we didn't.*
 
----
-
 # A Note, On Record
 
 This is a novel, and most of it is invented. The crop formations, the survey company, Edie Vane, the man who reads made things — invented. The hoaxers are a composite tribute to real artists I admire; the geometry, the bent-not-broken stalks, the disputed node studies, the drought crop-marks that reveal buried archaeology from the air, the white horses cut into the chalk since the Bronze Age, the Roman baths built over an older Celtic goddess at Bath — all real, and worth your own afternoon down the rabbit hole. I lived in Wessex for four years. I loved it. The white horse and the city of Bath gave me the single best day I have ever spent on British soil, and I mean that without a shadow of irony.
@@ -655,4 +673,73 @@ That is the blood. A people the empire could not break, who wrote their own peac
 
 I am saying it here, so that it is said.
 
+And one debt, before I go, because debts should be named and this one is glad. A great deal of the *spirit* of these books — the wonder held in one hand and the honesty held in the other, the willingness to walk all the way out to the edge of the strange and then have the good grace to say *maybe* instead of *therefore* — I owe in no small part to a YouTube channel called **The Why Files,** and to its host, **AJ,** who has spent years doing exactly that, week after week, with more rigour and more heart than most things that call themselves journalism. I have watched almost every episode. I have watched the show *grow* — the production climbing season on season from a man and a green screen into something genuinely beautiful to look at, earned the hard way, on the audience's terms, which is the only honest way anything good ever grows. *Follow the facts to the edge of the map; the rest of the map is the fun part.* That is his line and it could be the epigraph for everything I write. And yes — fine — **Hecklefish** grew on me. I did not expect the sarcastic blue fish to be the thing that got under my skin, and he got under my skin, and I suspect that was the plan all along. Thank you, AJ. Thank you, fish. This book is partly your fault, in the best way.
+
 *— Andries J. Greyling*
+
+---
+
+<!-- BEGIN image-compendium-appendix (generated by tools/inject_image_appendix.py) -->
+
+## Image Compendium — Dedication
+
+The places, peoples, and wonders in this book are real. These freely-licensed photographs (public domain or Creative Commons, via Wikimedia Commons) are gathered here so you can see them — go stand in them. Each image carries its photographer and licence.
+
+### Front cover
+
+### Places of awe
+
+![Stonehenge — the most-looked-at stones on Earth; the decoy the world mistook for the door.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/stonehenge-heel-stone.jpg)
+
+*Stonehenge — the most-looked-at stones on Earth; the decoy the world mistook for the door.*
+<small>DeFacto, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+![Avebury — the great henge the village grew up inside.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/avebury-stone-circles.jpg)
+
+*Avebury — the great henge the village grew up inside.*
+<small>Rxfelix, CC BY 3.0, via Wikimedia Commons</small>
+
+![Silbury Hill — the largest prehistoric mound in Europe, raised for a reason we still don't have.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/silbury-hill-db.jpg)
+
+*Silbury Hill — the largest prehistoric mound in Europe, raised for a reason we still don't have.*
+<small>Dickbauch, Public domain, via Wikimedia Commons</small>
+
+![West Kennet Long Barrow — the chalk holding its dead five thousand years.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/west-kennet-long-barrow-summer-2004-02.jpg)
+
+*West Kennet Long Barrow — the chalk holding its dead five thousand years.*
+<small>Simon Burchell, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+![The Wiltshire chalk downland — the canvas the patterns appear on.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/pewsey-vale-coaches-coach-church-street-pewsey-geograph-org-uk-6430355.jpg)
+
+*The Wiltshire chalk downland — the canvas the patterns appear on.*
+<small>Jaggery, CC BY-SA 2.0, via Wikimedia Commons</small>
+
+![A Wiltshire chalk hill-figure — the land already written on by hand.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/cherhill-white-horse-juli-2015-3.jpg)
+
+*A Wiltshire chalk hill-figure — the land already written on by hand.*
+<small>Schildiecom, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+### Things of wonder (made by hand)
+
+![A crop formation in the Wessex wheat — craft, hoax, or the few that aren't either.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/crop-circle-2022-05-22.jpg)
+
+*A crop formation in the Wessex wheat — craft, hoax, or the few that aren't either.*
+<small>Croppy Peace Sign, CC0, via Wikimedia Commons</small>
+
+![Durrington Walls — a buried super-henge most eyes walk straight past.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/western-wall-of-durrington-walls.jpg)
+
+*Durrington Walls — a buried super-henge most eyes walk straight past.*
+<small>Ethan Doyle White, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+![Barbury Castle — an Iron Age hillfort over the same chalk.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/barbury-castle-geograph-org-uk-4902497.jpg)
+
+*Barbury Castle — an Iron Age hillfort over the same chalk.*
+<small>Michael Graham, CC BY-SA 2.0, via Wikimedia Commons</small>
+
+![Crop-marks — the land writing its buried history in the wheat when the drought comes.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/build/appendix-images/123-barzan-les-thermes-1771a1.jpg)
+
+*Crop-marks — the land writing its buried history in the wheat when the drought comes.*
+<small>Jacques DASSIÉ, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+<!-- END image-compendium-appendix -->
+

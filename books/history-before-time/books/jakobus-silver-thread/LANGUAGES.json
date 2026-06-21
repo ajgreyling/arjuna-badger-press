@@ -1,0 +1,32 @@
+{
+  "book": "jakobus-silver-thread",
+  "title": "THE SILVER THREAD",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "Jakobus volume — SA/Border War setting. Afrikaans only for this pass. San languages excluded (Indigenous). Spanish + French deferred.",
+  "targets": [
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "kind": "regional",
+      "temp": 0.75,
+      "directives": [
+        "Voice: the people's Afrikaans — contemporary, lived-in, how South Africans actually speak. NOT Hoog-Afrikaans, NOT Netherlands Dutch, NOT archaic Bybel-Afrikaans.",
+        "Border War / military scenes may lean period-appropriate SA Afrikaans without stiff textbook register.",
+        "Proper names, invented entities, and deliberately untranslated phrases in the source stay verbatim.",
+        "Do NOT translate into San or other Indigenous languages — excluded per TRANSLATIONS.md.",
+        "BINDING CORPUS entries in the system prompt are law — use them exactly when they match."
+      ]
+    }
+  ],
+  "global_directives": [
+    "REGISTER: These are novels for real readers, not textbooks or news broadcasts.",
+    "CORPUS-FIRST: Human corrections in the BINDING CORPUS block outrank all model knowledge. Never contradict them.",
+    "PRESERVE the front-matter structure of build/BOOK.md exactly.",
+    "Do NOT add translator's notes, footnotes, or bracketed glosses the English source does not contain.",
+    "Chapter titles ARE translated unless they are proper nouns.",
+    "Output one file per language at build/BOOK.<code>.md, ready for tools/render_book.sh."
+  ]
+}

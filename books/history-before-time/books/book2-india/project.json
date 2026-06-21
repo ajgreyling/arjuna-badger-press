@@ -6,21 +6,12 @@
   "logline": "A South-African-Indian engineer who has never set foot in the land her ancestors were shipped from follows the inheritance road to India, where reading an ancient machine means reading the oldest question her ancestors ever asked.",
   "blueprint": "quest-relay / site-to-site key-chain",
   "market": "ancient-mystery adventure (Dan Brown / James Rollins) — the wonder, not the conspiracy",
-  "status": "complete",
+  "status": "drafting",
   "seq": 2,
   "graph_color": "#e07a2f",
   "canon_order": [
-    "SEED_STORY.md",
-    "STORY_BIBLE.md",
-    "WORLD.md",
-    "CHARACTERS.md",
-    "MYTHOS_RULES.md",
-    "THEMES.md",
-    "PLOT.md"
+    "SEED_STORY.md", "STORY_BIBLE.md", "WORLD.md", "CHARACTERS.md",
+    "MYTHOS_RULES.md", "THEMES.md", "PLOT.md"
   ],
-  "isbn": {
-    "paperback": "",
-    "hardcover": "",
-    "ebook": ""
-  }
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
 }

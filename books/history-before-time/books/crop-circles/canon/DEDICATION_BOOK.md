@@ -13,10 +13,14 @@ home to. You are my country, and the borders have never moved.*
 
 ---
 
+*And for AJ — from The Why Files.*
+
 *Watch the official story all the way to the end. Then find the one loose thread, give it a little
 tug, and grin. Take the debunk seriously, take the wonder seriously, and live in the gap between them
 where it's actually interesting.*
 
 *The brightest minds, in daylight, with laser sights and good rope, made a potato.*
+
+*So. Roll the tape.*
 
 ---
