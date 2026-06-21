@@ -381,6 +381,7 @@ SERIES = [
     ("Non-fiction", "#7BA88C"),
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
+    ("History Like You've Never Heard It", "#A8443C"),  # ember-red — the all-sides SA history shelf
     ("Companions", "#8C7BA8"),
     ("The Synthesis", "#9A7BC8"),
     ("The Salt Veil", "#B0814A"),
