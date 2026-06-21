@@ -1,9 +1,9 @@
-# Project — *The Dreaming* *(working title)*
+# Project — *The Dreaming*
 
 > **Type:** original novel / faithful-modern homage · **Lineage:** Philip K. Dick, *Do Androids Dream of
 > Electric Sheep?* (1968) — the **question** only, made structural; craft and engine, not text ·
 > **Shelf:** Faithful Modern (faithful-modern retellings of SF classics — fidelity to craft & engine,
-> every name/scene/sentence original) · **Status:** scaffolding · **Length:** one novel · **Substrate:**
+> every name/scene/sentence original) · **Status:** published 2026-06-21 (public; IP risk accepted) · **Length:** one novel · **Substrate:**
 > near-now realist (an applied-cognition lab; `/sleep` and `/dream` as real software; a synthetic mind
 > given the human mechanics of dreaming)
 

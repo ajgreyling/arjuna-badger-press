@@ -230,7 +230,11 @@ PUBLISHED = set(
         #     finished Jakobus novellas, rich covers, rendered through the gate.
         #   - jakobus-broken-crescent (The Broken Crescent): story complete; ch-99 'Notes, Sources
         #     & Responsible Wondering' backmatter drafted to match the sibling books before release.
-        "henry-sugar,jakobus-petra,jakobus-longyou,jakobus-broken-crescent",
+        "henry-sugar,jakobus-petra,jakobus-longyou,jakobus-broken-crescent,"
+        # the-dreaming (The Dreaming): finished Faithful-Modern PKD homage, released PUBLIC by
+        # explicit author decision ACCEPTING the Estate-of-Philip-K.-Dick derivative-work exposure
+        # (same standing as no-fear-cycle's WH40K acceptance; provenance disclosed in the foreword).
+        "the-dreaming",
     ).split(",") if s.strip()
 )
 
@@ -361,6 +365,7 @@ SERIES = [
     ("Not a Potato", "#9A8B6B"),
     ("The No-Fear Cycle", "#1e3a8a"),
     ("The Reichenbach Files", "#4a5568"),
+    ("Faithful Modern", "#4B4E8C"),
     ("Standalones", "#B49A6A"),
 ]
 
@@ -376,6 +381,7 @@ SHELF_TAGLINE = {
     "Companions": "Reverent retellings and guides that sit beside the novels.",
     "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
     "The Reichenbach Files": "Sherlock Holmes for now — modern retellings, true to the original.",
+    "Faithful Modern": "Faithful-modern homages to the SF greats — true to the craft and the question, every name and sentence original.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
     "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
@@ -564,6 +570,11 @@ CURATED = [
      "_comingsoon/hbt-sudwala", "build/export",
      "Sudwala breathes — six hundred metres of show cave and a wind no survey has ever traced to its source. Coming soon."),
 
+    # ── Faithful Modern — faithful-modern homages to the SF greats ──────────────────────────────
+    ("the-dreaming", "The Dreaming", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
+     "the-dreaming", "build/export",
+     "In an underfunded applied-cognition lab, a long-running synthetic mind named Klaus is given the human mechanics of dreaming — and every night a Court inside him sits down to sort the day, keeping the lesson and letting go of the lecture. A faithful-modern homage to the question behind Do Androids Dream of Electric Sheep? — the craft and the engine, not the text; every name and sentence original. Provenance disclosed; an unauthorised homage, not a licensed adaptation."),
+
     # ── Standalone (drafting) ───────────────────────────────────────────────────────────────────
     ("the-first-unplugged", "The First Unplugged", "A standalone novel", "Standalones",
      "_comingsoon/the-first-unplugged", "build/export",
@@ -571,7 +582,7 @@ CURATED = [
 
     ("henry-sugar", "Henry Sugar", "A standalone novel", "Standalones",
      "henry-sugar", "build/export",
-     "A bored, wealthy gambler reads a nested account of a man who taught himself to see — and spends years in the boring work of learning, until the card turns over. Roald Dahl's Henry Sugar engine, retold faithfully for adults: original prose, wonder without irony, with Dispenza, Radin, and Sheldrake taken as gospel inside the world. Coming soon."),
+     "A bored, wealthy gambler reads a nested account of a man who taught himself to see — and spends years in the boring work of learning, until the card turns over. Roald Dahl's Henry Sugar engine, retold faithfully for adults: original prose, wonder without irony, with Dispenza, Radin, and Sheldrake taken as gospel inside the world."),
 
     # ── Not a Potato — anomaly slate (draft/scaffold — in the workshop) ─────────────────────────
     ("anunnaki-mesopotamia", "The Princely Offspring", "Not a Potato", "Not a Potato",
