@@ -276,7 +276,12 @@ PROCEDURAL_SHOW = set(
 HIDE_SERIES = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_SERIES",
-        "The Unheard",
+        # The Unheard surfaced 2026-06-21: both books (unheard-japan, unheard-mongolia) are finished
+        # and already in PUBLISHED; a metered sensitivity read returned LOW risk / non-blocking /
+        # SURFACE_WITH_NOTE for each (Khalkha-not-Kazakh held, sacred matter kept at the threshold,
+        # experts written as experts). The shelf tagline now carries the disclosure + an open
+        # invitation to community sensitivity readers. (Set to "The Unheard" to re-hide the shelf.)
+        "",
     ).split(",") if s.strip()
 )
 
@@ -375,7 +380,7 @@ SHELF_TAGLINE = {
     "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
-    "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road.",
+    "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
