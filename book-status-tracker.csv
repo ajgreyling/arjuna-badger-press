@@ -1,5 +1,4 @@
 cid,title,series,state,score,manuscript_words,book_md_lines,chapter_files,canon_files,has_epub,has_pdf,has_rich_cover,project_status,published,in_curated,root_rel,notes
-the-dreaming,The Dreaming,(unwired — not in CURATED),BUILT_UNWIRED,90,49405,1435,10,10,1,1,0,,0,0,the-dreaming,built (manuscript+export) but absent from CURATED — invisible to library
 the-scramble,The Scramble,(unwired — not in CURATED),IN_PROGRESS,19,2066,0,2,12,0,0,0,scaffold,0,0,the-scramble,on disk but not in CURATED
 jakobus-the-long-dark,The Long Dark,History Before Time,IN_PROGRESS,14,0,0,0,2,0,0,1,bible,0,1,history-before-time/books/jakobus-the-long-dark,
 anunnaki-mesopotamia,The Princely Offspring,Not a Potato,SCAFFOLD,10,0,0,0,0,0,0,1,,0,1,_comingsoon/anunnaki-mesopotamia,
@@ -45,6 +44,7 @@ project-stargate,The Men Who Opened the Door,History Before Time,LIVE,100,50461,
 relic,RELIC,The African Gold Trilogy,LIVE,100,88142,4158,26,21,1,1,1,,1,1,relic,
 resonance,RESONANCE,The African Gold Trilogy,LIVE,100,70640,4672,17,18,1,1,1,,1,1,resonance,
 revelation,REVELATION,The African Gold Trilogy,LIVE,100,49128,2105,18,16,1,1,1,,1,1,revelation,
+the-dreaming,The Dreaming,Faithful Modern,LIVE,100,49405,1435,10,10,1,1,1,,1,1,the-dreaming,
 apex-alphas,Apex Alphas,The Synthesis,LIVE,93,20529,833,6,3,1,1,1,,1,1,history-before-time/books/apex-alphas,
 crop-circles,The Field of Doors,Not a Potato,LIVE,93,25544,746,13,5,1,1,1,,1,1,history-before-time/books/crop-circles,
 jakobus-silver-thread,The Silver Thread,History Before Time,LIVE,93,24767,652,18,3,1,1,1,drafting,1,1,history-before-time/books/jakobus-silver-thread,
