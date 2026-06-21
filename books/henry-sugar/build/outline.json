@@ -1,0 +1,362 @@
+{
+  "title": "Henry Sugar",
+  "subtitle": "A faithful retelling for adults",
+  "target_words": 28000,
+  "source": "Roald Dahl, The Wonderful Story of Henry Sugar (1977) \u2014 structural fidelity, original prose",
+  "spine_doc": "canon/SPINE.md",
+  "chapters": [
+    {
+      "id": "ch-00",
+      "act": "Front matter",
+      "part": "Dedication",
+      "title": "Dedication",
+      "pov": "Author",
+      "setting": "Front matter",
+      "beats": [
+        "To Roald Dahl — engine",
+        "To Dispenza, Radin, Sheldrake — reported physics",
+        "McMoneagle gratitude; specialists named in Source Notes"
+      ],
+      "turn": "—",
+      "threads": "DEDICATION",
+      "target_words": 150
+    },
+    {
+      "id": "ch-01",
+      "act": "Act 1",
+      "part": "I \u2014 The idle man",
+      "title": "The Sort of Person He Was",
+      "pov": "Author",
+      "setting": "Cotswolds / authorial",
+      "beats": [
+        "Author: true story; names protected (PP-048)",
+        "Indictment: greedy, proud, slothful, 41, unmarried (PP-008)",
+        "Vanity catalogue; family-office wealth (PP-009-010)",
+        "Motto: mild rebuke vs onerous task (PP-006)",
+        "Cheat vignette: marked deck, Monte Carlo charity (PP-007)"
+      ],
+      "turn": "Singulative switch \u2014 I can begin my story",
+      "threads": "PP-006\u2013010",
+      "target_words": 1400
+    },
+    {
+      "id": "ch-02",
+      "act": "Act 1",
+      "part": "I \u2014 The idle man",
+      "title": "The Blue Folder",
+      "pov": "Henry",
+      "setting": "Cotswolds retreat; library",
+      "beats": [
+        "Storm weekend; fund-retreat boredom (PP-011)",
+        "Private poker six seats \u2014 Henry seventh (PP-012)",
+        "Dead godfather library; blue Moleskine + 1934 PDF (PP-002, PP-013)",
+        "Title page: Report on Imhrat Khan",
+        "Henry reads; Cartwright voice begins"
+      ],
+      "turn": "Henry enters the dossier \u2014 nest 2 opens",
+      "threads": "PP-011\u2013013, LD-001",
+      "target_words": 1600
+    },
+    {
+      "id": "ch-03",
+      "act": "Act 2",
+      "part": "II \u2014 The report",
+      "title": "The Man Who Asked for Witnesses",
+      "pov": "Cartwright",
+      "setting": "1934 Mumbai hospital",
+      "beats": [
+        "Hospital lounge; Khan asks doctors (PP-015)",
+        "Claim: see without eyes",
+        "Scepticism \u2192 authentication protocol (PP-016)"
+      ],
+      "turn": "Doctors agree to bandage him properly",
+      "threads": "PP-015\u2013016",
+      "target_words": 1500
+    },
+    {
+      "id": "ch-04",
+      "act": "Act 2",
+      "part": "II \u2014 The report",
+      "title": "Dough and Bandages",
+      "pov": "Cartwright",
+      "setting": "Mumbai; theatre",
+      "beats": [
+        "Authentication ritual \u2014 dough, glue, bandages (SP-001, PP-016)",
+        "Bicycle through traffic (PP-017)",
+        "Theatre; thread needle (PP-018)",
+        "Dinner invitation"
+      ],
+      "turn": "Khan agrees to tell how he learned",
+      "threads": "PP-017\u2013018",
+      "target_words": 1700
+    },
+    {
+      "id": "ch-05",
+      "act": "Act 2",
+      "part": "II \u2014 The report",
+      "title": "We Must Not Let Him Go",
+      "pov": "Cartwright",
+      "setting": "Mumbai; morning after",
+      "beats": [
+        "Parallel we must chain (PP-019)",
+        "Publish ambition \u2014 help blind/deaf (MG-002)",
+        "Gatekeeper: Khan died in sleep (PP-020, PP-029)",
+        "Return hand-off to Imhrat nest"
+      ],
+      "turn": "Khan dead \u2014 science loses miracle; page turns to Imhrat",
+      "threads": "PP-019\u2013020, PP-029",
+      "target_words": 1500
+    },
+    {
+      "id": "ch-06",
+      "act": "Act 2",
+      "part": "III \u2014 The yogi's student",
+      "title": "All Trickery",
+      "pov": "Imhrat",
+      "setting": "India; youth",
+      "beats": [
+        "Magician assistant; all sleight of hand (PP-021)",
+        "Disillusion; hunger for real power",
+        "Yoga for fame; teachers forbidden public display (PP-022)"
+      ],
+      "turn": "Will find real teacher or quit",
+      "threads": "PP-021\u2013022",
+      "target_words": 1400
+    },
+    {
+      "id": "ch-07",
+      "act": "Act 2",
+      "part": "III \u2014 The yogi's student",
+      "title": "The Yogi in the Tree",
+      "pov": "Imhrat",
+      "setting": "Hardwar / jungle",
+      "beats": [
+        "Banerjee levitation witnessed (PP-023)",
+        "Rumpelstiltskin rage; chase",
+        "Daily return; referral earned (PP-024\u2013025)",
+        "Three years training stated"
+      ],
+      "turn": "Training begins under teaching yogi",
+      "threads": "PP-023\u2013025",
+      "target_words": 1600
+    },
+    {
+      "id": "ch-08",
+      "act": "Act 2",
+      "part": "III \u2014 The yogi's student",
+      "title": "The Fire They Said Would Burn",
+      "pov": "Imhrat",
+      "setting": "Fire-walking show",
+      "beats": [
+        "Volunteers at fire-walk; bare feet unscathed (PP-026)",
+        "Minor proof before major"
+      ],
+      "turn": "Body survives \u2014 mind believes",
+      "threads": "PP-026",
+      "target_words": 1300
+    },
+    {
+      "id": "ch-09",
+      "act": "Act 2",
+      "part": "III \u2014 The yogi's student",
+      "title": "Two Senses of Sight",
+      "pov": "Imhrat",
+      "setting": "Ashram / training room",
+      "beats": [
+        "Documentary hush; candle gazing (PP-004)",
+        "Outer vs inner sight doctrine",
+        "Somatic sequence \u2014 Dispenza texture (PP-A03)",
+        "Field/habit language \u2014 Sheldrake (PP-A02)",
+        "Seven centres as sensation only (PP-028)"
+      ],
+      "turn": "Ready for deliberate proof",
+      "threads": "PP-004, PP-028, PP-A02\u201303",
+      "target_words": 2000
+    },
+    {
+      "id": "ch-10",
+      "act": "Act 2",
+      "part": "III \u2014 The yogi's student",
+      "title": "The Hand That Read Alice",
+      "pov": "Imhrat",
+      "setting": "Proof chamber",
+      "beats": [
+        "Alice read-aloud; hand-as-sensor (PP-027, nest 4)",
+        "Sees through playing cards (PP-001 plant)",
+        "Cartwright awe \u2014 publish hope"
+      ],
+      "turn": "Henry lifts eyes \u2014 casino application obvious",
+      "threads": "PP-027, PP-001",
+      "target_words": 1700
+    },
+    {
+      "id": "ch-11",
+      "act": "Act 3",
+      "part": "IV \u2014 The boring years",
+      "title": "Mild Rebuke",
+      "pov": "Henry",
+      "setting": "Cotswolds \u2192 London flat",
+      "beats": [
+        "Finishes dossier; greed motor (PP-030, MG-001)",
+        "Keeps dossier; locked master suite (PP-002)",
+        "Pillar candle; first session \u2014 nothing (LD-005)"
+      ],
+      "turn": "Practice begun \u2014 no result yet",
+      "threads": "PP-002, PP-030, LD-005",
+      "target_words": 1400
+    },
+    {
+      "id": "ch-12",
+      "act": "Act 3",
+      "part": "IV \u2014 The boring years",
+      "title": "Nothing, Nothing",
+      "pov": "Henry",
+      "setting": "London flat; months",
+      "beats": [
+        "Montage: failure, heat, migraine (PP-031)",
+        "Radin half-memory \u2014 blind protocol trust (PP-A01)",
+        "Ten months \u2014 first outline with eyes shut"
+      ],
+      "turn": "Proof of progress \u2014 not yet cards",
+      "threads": "PP-031, PP-A01",
+      "target_words": 1600
+    },
+    {
+      "id": "ch-13",
+      "act": "Act 3",
+      "part": "IV \u2014 The boring years",
+      "title": "The Face in the Flame",
+      "pov": "Henry",
+      "setting": "London flat; years 2-3",
+      "beats": [
+        "Visualises own face \u2014 vanity fuel (PP-009)",
+        "One-in-a-million speed (PP-031)",
+        "Card drills; three years compress (PP-032)",
+        "Field click \u2014 Sheldrake (PP-A02)"
+      ],
+      "turn": "Under four seconds \u2014 ready for the room",
+      "threads": "PP-009, PP-031\u2013032",
+      "target_words": 1600
+    },
+    {
+      "id": "ch-14",
+      "act": "Act 3",
+      "part": "IV \u2014 The boring years",
+      "title": "The Card Turns Over",
+      "pov": "Henry",
+      "setting": "London flat",
+      "beats": [
+        "WONDER BEAT \u2014 card reverses; prose quiet (PP-001, PP-059)",
+        "No wink; no debunk (PP-004)",
+        "Body knew before mind"
+      ],
+      "turn": "Packs for private club",
+      "threads": "PP-001, PP-004, PP-059\u2013060",
+      "target_words": 1800
+    },
+    {
+      "id": "ch-15",
+      "act": "Act 3",
+      "part": "V \u2014 Hollow prize",
+      "title": "The Private Room",
+      "pov": "Henry",
+      "setting": "Private London club",
+      "beats": [
+        "Members-only room (PP-034); blackjack/baccarat (PP-036)",
+        "Win ~\u00a3850k (PP-035); MG-001",
+        "Rich-room satire (PP-038)",
+        "Hollow victory \u2014 no joy (PP-037)"
+      ],
+      "turn": "Morning \u2014 money on dresser; flat wrong",
+      "threads": "PP-033\u2013038, MG-001",
+      "target_words": 2000
+    },
+    {
+      "id": "ch-16",
+      "act": "Act 3",
+      "part": "V \u2014 Hollow prize",
+      "title": "What a Novelist Would Do",
+      "pov": "Author/Henry",
+      "setting": "Mayfair flat",
+      "beats": [
+        "Side-shadow: yogi-code death; mirror X-ray (PP-051, PP-005)",
+        "Blood-clot counterfactual",
+        "This story is not fiction \u2014 denied (PP-052)",
+        "True path: still alive; charity stirs"
+      ],
+      "turn": "Shadow ending rejected \u2014 Break Good resumes",
+      "threads": "PP-051\u2013052, PP-005",
+      "target_words": 1700
+    },
+    {
+      "id": "ch-17",
+      "act": "Act 3",
+      "part": "VI \u2014 Gift outward",
+      "title": "Curzon Street",
+      "pov": "Henry",
+      "setting": "Curzon Street balcony",
+      "beats": [
+        "\u00a320 note feels good (PP-039)",
+        "Balcony scramble one note then all (PP-040, SP-009)",
+        "Policeman \u2014 orphanages not pavement (PP-041)",
+        "Plan: Winston, Max, twenty years (PP-043\u2013044)"
+      ],
+      "turn": "Accepts the onerous task",
+      "threads": "PP-039\u2013041, PP-043\u2013044",
+      "target_words": 1900
+    },
+    {
+      "id": "ch-18",
+      "act": "Act 3",
+      "part": "VI \u2014 Gift outward",
+      "title": "Twenty Years",
+      "pov": "Author/Henry",
+      "setting": "World / montage",
+      "beats": [
+        "World casinos; Max disguise (PP-044)",
+        "Winston Swiss pipeline (PP-043)",
+        "\u00a3144m; 20 orphanages (PP-045)",
+        "Henry dies (PP-046)"
+      ],
+      "turn": "Winston picks up phone",
+      "threads": "PP-043\u2013046",
+      "target_words": 1500
+    },
+    {
+      "id": "ch-19",
+      "act": "Act 3",
+      "part": "VII \u2014 The written life",
+      "title": "The Only Untrue Things",
+      "pov": "Author",
+      "setting": "Frame / Geneva",
+      "beats": [
+        "Winston calls author (PP-049, LD-006)",
+        "Pseudonym; casino anonymised (PP-048)",
+        "Max: I loved him (PP-047)",
+        "Reader inside written artefact (PP-050)"
+      ],
+      "turn": "Close \u2014 enlarged",
+      "threads": "PP-047\u2013050, FRAME",
+      "target_words": 1200
+    },
+    {
+      "id": "ch-98",
+      "act": "Backmatter",
+      "part": "VIII \u2014 Source notes",
+      "title": "Source Notes, Reading List, and Where the Line Runs",
+      "pov": "Author",
+      "setting": "Non-fiction / reader address",
+      "beats": [
+        "McMoneagle Mind Trek \u2014 second look after childhood wonder",
+        "Kuda Bux / Dahl 1952 Argosy lineage",
+        "Radin presentiment \u00b7 Sheldrake extended mind \u00b7 Dispenza somatics",
+        "STAR GATE \u00b7 Utts/Hyman \u00b7 Typhoon session",
+        "Consciousness-first vs materialism \u2014 no mid-wonder footnotes",
+        "Reading list \u00b7 fiction boundary \u00b7 SOURCE_NOTES pointer"
+      ],
+      "turn": "Honest wink after wonder \u2014 start with Mind Trek",
+      "threads": "PP-A01\u2013A03, BACKMATTER",
+      "target_words": 2500
+    }
+  ]
+}
