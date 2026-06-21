@@ -3,18 +3,14 @@
   "title": "The Silver Thread",
   "working_title": "History Before Time: The Silver Thread",
   "protagonist": "Jakobus Swart",
-  "logline": "A young Afrikaner soldier, hollowed out by the Border War, is taken in by the San trackers he served beside and then watched his country discard — and over years in the bush is unmade, by people who own almost nothing, into the calmest man in any room.",
-  "blueprint": "character origin — grounded, not woo (the human prequel to the Jakobus arc)",
-  "market": "literary historical — the quiet, true sibling of the series joyride",
-  "status": "complete",
+  "logline": "A young Afrikaner soldier, hollowed out by the Border War, is taken in by the San trackers he served beside and then watched his country discard \u2014 and over years in the bush is unmade, by people who own almost nothing, into the calmest man in any room.",
+  "blueprint": "character origin \u2014 grounded, not woo (the human prequel to the Jakobus arc)",
+  "market": "literary historical \u2014 the quiet, true sibling of the series joyride",
+  "status": "drafting",
   "seq": 0,
   "graph_color": "#9c7a4d",
   "canon_order": [
     "OUTLINE.md"
   ],
-  "isbn": {
-    "paperback": "",
-    "hardcover": "",
-    "ebook": ""
-  }
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
 }

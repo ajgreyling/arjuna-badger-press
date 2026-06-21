@@ -1,0 +1,10 @@
+{
+  "book": "southern-coast",
+  "preserve_verbatim_all_languages": {
+    "in_language_terms": {},
+    "cultural_terms": [],
+    "invented_entities": [],
+    "proper_names": []
+  },
+  "note": "Every token above MUST appear UNCHANGED in every translated edition. in_language_terms are deliberately-untranslated source words (keep verbatim); invented_entities and proper_names are story-constant nouns. Do NOT add footnotes or inline glosses the source doesn't have."
+}

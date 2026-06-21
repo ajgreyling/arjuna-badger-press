@@ -1,0 +1,31 @@
+{
+  "id": "the-scramble",
+  "title": "The Scramble",
+  "working_title": "The Scramble",
+  "seq": 1,
+  "folder": "the-scramble",
+  "protagonist": "Vance Roan",
+  "logline": "An undercover narc coded Subject M is ordered to surveil his own house through the shroud rig, while Tilt eats the part of him that could have noticed: and the only net left is Northway.",
+  "blueprint": "PKD A Scanner Darkly engine: faithful craft homage; split-feed; original cast and scenes",
+  "market": "literary dystopia / surveillance / addiction: craft exercise, not for commercial release",
+  "status": "scaffold",
+  "target_words": 70000,
+  "lineage": "Philip K. Dick, A Scanner Darkly (1977): SSOT: Archive.org PDF",
+  "ssot_url": "https://ia902907.us.archive.org/16/items/lesatkins_epubs/A%20Scanner%20Darkly%20-%20Philip%20K_.pdf",
+  "graph_color": "#4a5568",
+  "canon_order": [
+    "SOURCE_NOTES.md",
+    "SEED_STORY.md",
+    "CRAFT_MAP.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "NARRATIVE_ENGINES.md",
+    "ADAPTATION_DOCTRINE.md",
+    "CANON_CHOICES.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS.md",
+    "STYLE_GUIDE.md",
+    "PLOT.md"
+  ],
+  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+}

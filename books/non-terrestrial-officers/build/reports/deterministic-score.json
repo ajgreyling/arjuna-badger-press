@@ -1,0 +1,431 @@
+{
+  "book": "non-terrestrial-officers",
+  "title": "NULL HORIZON",
+  "words": 12179,
+  "deterministic_only": true,
+  "prose_quality": {
+    "book_score": 7.5,
+    "chapter_weighted_score": 6.0,
+    "sub_scores": {
+      "sentence_variety": 7.1,
+      "lexical_diversity": 5.6,
+      "repetition": 7.1,
+      "passive_voice": 8.0,
+      "exposition_density": 6.0,
+      "dialogue_ratio": 0.002,
+      "register_evenness": 10.0,
+      "scene_cadence": 8.7
+    },
+    "raw": {
+      "words": 11828,
+      "sentences": 969,
+      "avg_sentence_len": 12.1,
+      "sentence_len_cv": 1.15,
+      "mattr": 0.651,
+      "repetition_ratio": 0.082,
+      "passive_count": 39,
+      "passive_per_1k": 3.3,
+      "dialogue_lines": 9,
+      "dialogue_ratio": 0.002,
+      "filter_word_hits": 53,
+      "filter_per_1k": 4.5,
+      "burstiness": -0.047,
+      "short_line_frac": 0.15,
+      "para_entropy": 0.449,
+      "mic_drop_frac": 0.258
+    }
+  },
+  "machine_tells": {
+    "over_target": 5,
+    "total_tells_tracked": 30,
+    "rows": [
+      {
+        "tell": "spaced em-dash ` \u2014 ` (typographic machine fingerprint + cross-book inconsistency)",
+        "key": "spaced_dash",
+        "count": 79,
+        "target": 1,
+        "status": "OVER"
+      },
+      {
+        "tell": "tight em-dash `word\u2014word` (density \u2014 the dash doing a comma/period's job)",
+        "key": "tight_dash",
+        "count": 39,
+        "target": 28,
+        "status": "OVER"
+      },
+      {
+        "tell": "\"the way\u2026\" (the single most over-used construction; carries characterization)",
+        "key": "the_way",
+        "count": 19,
+        "target": 18,
+        "status": "OVER"
+      },
+      {
+        "tell": "\"Not X. Y.\" reframe-fragment (the trilogy's #1 over-used device \u2014 cold read FIX-1)",
+        "key": "reframe_fragment",
+        "count": 9,
+        "target": 3,
+        "status": "OVER"
+      },
+      {
+        "tell": "\"something in his face / something moved\" (placeholder for an unnamed feeling)",
+        "key": "something_hedge",
+        "count": 2,
+        "target": 1,
+        "status": "OVER"
+      },
+      {
+        "tell": "hedge \"seemed/appeared to \u00b7 perhaps \u00b7 somewhat \u00b7 sort of\" (narrator softening a claim)",
+        "key": "fm_hedge",
+        "count": 5,
+        "target": 6,
+        "status": "ok"
+      },
+      {
+        "tell": "\"very/really [word]\" intensifier-padding (a weak word propped up)",
+        "key": "fm_very_pad",
+        "count": 4,
+        "target": 5,
+        "status": "ok"
+      },
+      {
+        "tell": "caption density \"which meant / that was / the difference between\" (airlessness \u2014 FIX-4)",
+        "key": "caption_gloss",
+        "count": 3,
+        "target": 4,
+        "status": "ok"
+      },
+      {
+        "tell": "sentence-initial reframe \"It wasn't X / It was not \u2026\" (a thinking-shape)",
+        "key": "reframe",
+        "count": 1,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "stacked trailing \"which\" clauses (your most identifiable rhythm)",
+        "key": "stacked_which",
+        "count": 1,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "superlative-inflation \"the only/most/truest X\" (every beat granted ultimate weight)",
+        "key": "superlative",
+        "count": 1,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "weasel \"obviously/clearly/literally/basically/actually\" (emphasis without evidence)",
+        "key": "fm_weasel",
+        "count": 1,
+        "target": 2,
+        "status": "ok"
+      },
+      {
+        "tell": "wordy connective \"the fact that / in order to / in terms of\" (padding a tight line)",
+        "key": "fm_wordy",
+        "count": 1,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"almost [emotion]\" (almost smiled/laughed/gentle)",
+        "key": "almost_emotion",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "same-sentence reframe \"X, it was/but Y\" (the manufactured turn \u2014 kill first)",
+        "key": "reframe_cheap",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "prophecy / stone-tablet foreshadowing (\"the land was not finished\", \"would claim more\", \"not yet born\", \"one day \u2026 would \u2026\")",
+        "key": "prophecy",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"Not a question.\" + fragment family (authorial throat-clearing)",
+        "key": "not_a_fragment",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"which from [Name] meant/was \u2026\" (the in-group-translation move)",
+        "key": "which_from",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"filed it / filed it under \u2026\" (Priya's cognition-verb, run into the ground)",
+        "key": "filed_it",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "the \"set it down / put it down\" thesis-refrain (the meaning hammered as a catchphrase)",
+        "key": "set_down",
+        "count": 0,
+        "target": 2,
+        "status": "ok"
+      },
+      {
+        "tell": "\"(exact/negative) shape of [a person/thing]\" (one metaphor in AI, interior, narration)",
+        "key": "shape_of",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"two [facts/impossibilities] of the same shape\" (pattern-recognition performed on demand)",
+        "key": "two_same_shape",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"the string, not the gong\" / violin-string metaphor re-taught past its first landing",
+        "key": "string_gong",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "the AI's self-narrating meta-commentary (\"I want you to know I know\")",
+        "key": "ai_meta",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "\"the cold went up her neck/spine\" (pre-fab thriller-dread clich\u00e9)",
+        "key": "cold_dread",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "RELIC: Arin's \"buried alive \u2192 under-dramatic\" temperament macro (re-explained, not shown)",
+        "key": "arin_macro",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "inline prebuttal reframe \"that's not X, that's Y\" (REVELATION's antithetical cadence)",
+        "key": "reframe_inline",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "the withhold/cognition template \"she didn't say X / said the defensible Y\" (FIX-2 ~29\u00d7 RELIC)",
+        "key": "withhold_template",
+        "count": 0,
+        "target": 2,
+        "status": "ok"
+      },
+      {
+        "tell": "RELIC: the watcher-at-every-node scene-opening beat (\"wrong kind\" \u2192 confirmed \u2192 run) \u2014 FIX-6",
+        "key": "watcher_template",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      },
+      {
+        "tell": "classic clich\u00e9 (proselint list) \u2014 REGRESSION GUARD, currently 0 across the trilogy",
+        "key": "fm_cliche",
+        "count": 0,
+        "target": 1,
+        "status": "ok"
+      }
+    ],
+    "reframe_density": {
+      "pages": 49,
+      "over_pages": 0,
+      "max_on_a_page": 1,
+      "worst_pages": []
+    }
+  },
+  "chapters": [
+    {
+      "id": "ch-01",
+      "words": 732,
+      "prose_quality_det": 5.26
+    },
+    {
+      "id": "ch-02",
+      "words": 478,
+      "prose_quality_det": 5.89
+    },
+    {
+      "id": "ch-03",
+      "words": 487,
+      "prose_quality_det": 7.04
+    },
+    {
+      "id": "ch-04",
+      "words": 543,
+      "prose_quality_det": 6.16
+    },
+    {
+      "id": "ch-05",
+      "words": 507,
+      "prose_quality_det": 6.17
+    },
+    {
+      "id": "ch-06",
+      "words": 434,
+      "prose_quality_det": 5.57
+    },
+    {
+      "id": "ch-07",
+      "words": 502,
+      "prose_quality_det": 5.6
+    },
+    {
+      "id": "ch-08",
+      "words": 465,
+      "prose_quality_det": 7.36
+    },
+    {
+      "id": "ch-09",
+      "words": 607,
+      "prose_quality_det": 7.16
+    },
+    {
+      "id": "ch-10",
+      "words": 423,
+      "prose_quality_det": 6.69
+    },
+    {
+      "id": "ch-11",
+      "words": 593,
+      "prose_quality_det": 5.0
+    },
+    {
+      "id": "ch-12",
+      "words": 523,
+      "prose_quality_det": 4.69
+    },
+    {
+      "id": "ch-13",
+      "words": 492,
+      "prose_quality_det": 6.06
+    },
+    {
+      "id": "ch-14",
+      "words": 583,
+      "prose_quality_det": 4.34
+    },
+    {
+      "id": "ch-15",
+      "words": 473,
+      "prose_quality_det": 6.93
+    },
+    {
+      "id": "ch-16",
+      "words": 376,
+      "prose_quality_det": 5.84
+    },
+    {
+      "id": "ch-17",
+      "words": 528,
+      "prose_quality_det": 4.7
+    },
+    {
+      "id": "ch-18",
+      "words": 509,
+      "prose_quality_det": 5.79
+    },
+    {
+      "id": "ch-19",
+      "words": 500,
+      "prose_quality_det": 6.46
+    },
+    {
+      "id": "ch-20",
+      "words": 557,
+      "prose_quality_det": 6.51
+    },
+    {
+      "id": "ch-21",
+      "words": 423,
+      "prose_quality_det": 7.06
+    },
+    {
+      "id": "ch-22",
+      "words": 312,
+      "prose_quality_det": 7.07
+    }
+  ],
+  "weakest_chapters": [
+    {
+      "id": "ch-14",
+      "words": 583,
+      "prose_quality_det": 4.34
+    },
+    {
+      "id": "ch-12",
+      "words": 523,
+      "prose_quality_det": 4.69
+    },
+    {
+      "id": "ch-17",
+      "words": 528,
+      "prose_quality_det": 4.7
+    },
+    {
+      "id": "ch-11",
+      "words": 593,
+      "prose_quality_det": 5.0
+    },
+    {
+      "id": "ch-01",
+      "words": 732,
+      "prose_quality_det": 5.26
+    }
+  ],
+  "strongest_chapters": [
+    {
+      "id": "ch-08",
+      "words": 465,
+      "prose_quality_det": 7.36
+    },
+    {
+      "id": "ch-09",
+      "words": 607,
+      "prose_quality_det": 7.16
+    },
+    {
+      "id": "ch-22",
+      "words": 312,
+      "prose_quality_det": 7.07
+    },
+    {
+      "id": "ch-21",
+      "words": 423,
+      "prose_quality_det": 7.06
+    },
+    {
+      "id": "ch-03",
+      "words": 487,
+      "prose_quality_det": 7.04
+    }
+  ],
+  "quality_bar_note": {
+    "prose_quality_floor": 7.5,
+    "pass_prose_det": true,
+    "pass_tics": false
+  }
+}

@@ -1,3 +1,99 @@
+# The Men Who Opened the Door
+
+**The African Gold Trilogy**
+
+Andries J. Greyling
+
+---
+
+*The Men Who Opened the Door*
+
+Copyright © 2026 Andries J. Greyling. All rights reserved.
+
+This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is coincidental. Real places, historical traditions, and scientific and archaeological references are used in a fictional context.
+
+Published by the House of Greyling.
+
+ISBN: ___-_-_____-___-_  *(assigned at print)*
+
+*Per Ardua ad Magnum.*
+
+---
+
+# Prefaces — factual front matter (all three volumes)
+
+> Publication drafts. Merge into each book's `BOOK.md` **before** the epigraph. Spec:
+> [`../canon/PREFACE.md`](../canon/PREFACE.md).
+
+| Volume | File | Focus |
+|--------|------|--------|
+| **Book I** | [`PREFACE.book1.md`](PREFACE.book1.md) | STAR GATE, McMoneagle/Typhoon, Vatican Consulta Medica, PEAR/Duke, Emoto (line) |
+| **Book II** | [`PREFACE.book2.md`](PREFACE.book2.md) | Programme after 1995, First Earth Battalion, PEAR, **Emoto water crystals**, Mars session, podcast gospel, Serpo as legend |
+| **Book III** | [`PREFACE.book3.md`](PREFACE.book3.md) | Antarctica documented layer, observer effect, **Emoto/ice bridge**, invented vs record, trilogy close |
+
+**Merge order per book:** `PREFACE.bookN.md` → epigraph (`canon/EPIGRAPHS.md`) → Chapter 1.
+
+---
+
+*For Lisel.*
+
+*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
+
+*Sawubona.*
+
+---
+
+# Foreword
+
+### *by Hindrance Invoke* †
+
+They have laughed at me for sixty years, and I have outlived a great deal of the laughter, and I have learned that being laughed at is not the same as being wrong, though it is also, I must be honest, not the same as being right. It is its own thing. It is what happens to a man who points at a door before the world is ready to admit there is a wall.
+
+So when I tell you that this book moved me, understand that I am not an easy man to move on this subject. I have been to the sites. I have stood under the impossible stones and run my hands over the impossible cuts and asked the impossible questions, and I have been answered, more often than not, with a sneer and a press release. I know the texture of official denial the way a sailor knows weather. And what I admired in this book — what made me, an old man who has been certain of so much, go quiet and *uncertain* in the best way — is that it does not ask you to believe me, or anyone. It asks you to look at what was actually declassified, what was actually filmed, what was actually funded by serious governments with serious money for serious decades, and to sit with the fact that the official story has holes in it you could walk a person through.
+
+Because here is the thing the laughers never grapple with. Governments are not whimsical with money. And serious governments spent serious years and serious fortunes on men who claimed to see across the world with their minds, on doors under the ice, on transit manifests to a continent no tourist visits, on things they then buried under a mountain of redaction and a snicker. You do not bury what is merely silly. You do not redact a joke. The *snicker itself is the tell* — and this author understands that better than any writer I have read, that the most effective way to hide a real thing is not to deny it but to make it *ridiculous,* so that no serious person will be caught looking.
+
+I have spent my life being the man caught looking. This author has written a heroine who gets caught looking — a records officer who cannot stop pulling the thread, who loses her clearance for the crime of *noticing* — and through her he does the thing I was never quite able to do in all my books: he makes you feel, in your own nervous system, the vertigo of standing at a door that should not exist and being asked whether you are willing to open it.
+
+And the door, in this book, opens the way I have always suspected the real ones do — not with a key, not with a code, but with *resonance.* With a human being tuned, somehow, to the frequency of the thing. I will not spoil it. I will only say that when I read it, something very old in me, the boy who first looked up at a stone he was told his ancestors were too primitive to have raised, said quietly: *yes. That is how it would work. That is how it always would have worked.*
+
+They will call this book what they have always called my life's work. Let them. The author knows, as I know, that *not yet proven* and *disproven* are different countries, and that the whole of the interesting territory lies between them, and that the people who refuse to enter that territory — in either direction, the zealot and the debunker alike — are the only ones guaranteed to learn nothing.
+
+Open the door. I have spent sixty years pointing at it. Here, at last, is a storyteller who will walk you through.
+
+I do not know if I have been right about everything. No honest man my age could. But I know I was right to *look,* and this book is the proof that the looking was never the foolish thing. The foolish thing was always the snicker.
+
+*— Hindrance Invoke*
+
+---
+
+*† **“Hindrance Invoke” is an anagram of ERICH VON DÄNIKEN** — who asked whether the ancients had help — borrowed here in homage and affection. **This foreword is a work of fiction. It was written by the author of this book. Erich von Däniken did not write it, was not involved in it, and is not associated with or endorsing this book in any way.** The name is rearranged precisely so that the tribute can never be mistaken for a real attribution; it is a salute, not a claim.*
+
+---
+
+## Contents
+
+- The Voice on the Tape
+- The Retraction
+- Strip Mall Oracle
+- Blind Coordinate
+- Reinstatement
+- Ghost Access
+- The Typhoon
+- Consulta Medica
+- Tightening
+- Desert Frequency
+- Cloud Buster
+- The Next Session
+- Hunt
+- Second Sit
+- Classified Hinge
+- The Card Turns
+- Exfil
+- Ice on the Horizon
+
+---
+
 # The Voice on the Tape
 
 The package had no return address, which was the first thing wrong with it.
@@ -115,6 +211,8 @@ Then she wrote, at the bottom of the pad, in the small neat hand she used for th
 *Find who sent it.*
 
 The boombox clicked as the last of the tape ran off the spool and the leader slapped around and around, and she did not stop it, and the slap of it filled the kitchen, and she sat in her cardigan in Arlington at two in the morning and let the world she had crawled out of reach back up through the floor and take her by the wrist.
+
+---
 
 # The Retraction
 
@@ -242,6 +340,8 @@ She went and found the legal pad. It was where it always was. She turned to the 
 
 Then she sat down to find out whether any of the eleven was the coordinate on the tape.
 
+---
+
 # Strip Mall Oracle
 
 The address resolved to a defunct tanning salon between a payday lender and a place that fixed phones. Mara had run the registration on the way over: the LLC behind the lease was named Cool Down Consulting, and the agent of record was a man whose Virginia driver's license had not been renewed since 2011. She had expected a dead drop. She got a glass storefront with a hand-lettered sign in the window that said BY APPOINTMENT, and under it, smaller, ASK ABOUT THE WALL.
@@ -345,6 +445,8 @@ Mac McAllister looked up at her from the sheepskin chair, in the burned-coffee l
 She stood holding the bag. Outside, through the glass and the lettering, a man was walking a phone across the parking lot to the place that fixed phones, ordinary as weather, and inside the dead salon the air smelled of old paper, and the count was forty days, and somewhere a long way south the sun was getting quieter on a schedule she could, she already knew, check.
 
 She said, "Show me the cache."
+
+---
 
 # Blind Coordinate
 
@@ -512,6 +614,8 @@ He stood, both hands on the rail, and let the chair take none of him this time.
 
 "Get your coat," he said. "We're losing the window."
 
+---
+
 # Reinstatement
 
 The coffee shop was the kind that put its menu in chalk to look unplanned. Mara took a corner table with her back to brick and the door in her sightline, because old habits filed themselves under *useful* whether or not she invited them. She'd left Mac arguing with a space heater. She'd driven nine minutes and parked two blocks away and walked, because the badge in her bag felt like contraband now and she didn't want it photographed near the salon's address.
@@ -617,6 +721,8 @@ She came down the ramp into daylight and pointed the car toward a defunct tannin
 She didn't check the mirror again. She didn't need to know whether he followed. She knew the answer the way she'd known the weight didn't match the fuel.
 
 The books don't close. Now there was a man whose whole job was to keep them open just enough for her to climb back inside, and she had refused, and the refusing had cost her the last thing she'd brought into the coffee shop without knowing it: the idea that she could still walk away clean.
+
+---
 
 # Ghost Access
 
@@ -733,6 +839,8 @@ On the drive back to the strip mall she ran the geomagnetic record forward inste
 She had been given thirty days of badge. She had, it appeared, considerably fewer than that of sky.
 
 She put the heel of her hand against the wheel and drove toward the only lit window in a dark row of shops, the manifests warm against her ribs, and did not turn on the radio.
+
+---
 
 # The Typhoon
 
@@ -855,6 +963,8 @@ Mac picked up the cold cup, looked into it, set it down without drinking.
 "No," he said. "We don't."
 
 Through the wall, the dryer turned and turned, and somewhere out in the dry country, in a story she would check by morning because she could not not check it, a pen of healthy animals stood in the dark and made no sound at all.
+
+---
 
 # Consulta Medica
 
@@ -983,6 +1093,8 @@ Mara held the bridge of her nose and watched the blood slow into the third tissu
 Lena didn't answer that. She handed her the next tissue instead, and reached over and turned the laptop so Mara could see the green lines, frozen now where Lena had stopped the trace — five of them flat and ordinary and one of them, in the last few seconds before the stop, climbing a staircase that had no business being there, step, step, step, toward something off the top of the screen.
 
 Mara pressed the bone harder. The ringing in her ears had thinned to a single high wire, faint now, fading, but not yet — not quite yet — gone.
+
+---
 
 # Tightening
 
@@ -1146,6 +1258,8 @@ She put the tissue with its brown thread of blood into her pocket instead of the
 
 Then she got down on the cold kitchen floor, in the dark, where the surveillance could see her do nothing at all, and she began to count to four.
 
+---
+
 # Desert Frequency
 
 The road had no name on the map, only a number, and the number was wrong by one digit on the sign where the asphalt gave out. Mac had spotted it before Mara did. He didn't say anything. He just took his thumb off the window glass and let it hover over the page in her lap, the printout of an old satellite tile she'd pulled before the badge cache locked her out, and tapped the place where a square of nothing sat between two dry washes.
@@ -1286,6 +1400,8 @@ She drove. The horizon withdrew, gave back its mile, withdrew again. The salt bl
 
 She put both hands on the wheel and drove the nameless road back toward the number that was wrong by one digit, and somewhere behind her a man in a gray polo wrote a frown into a log, and the chair sat empty in the long building, pointed at a blank wall, waiting for a body the protocol said it would have.
 
+---
+
 # Cloud Buster
 
 The motel coffee was burnt and Mac drank it anyway, both hands around the cup like a man warming himself at a fire that had gone out years ago. They'd taken the room at the edge of the desert town because it was cheap and faced the highway and you could see anyone who pulled in. Mara had the curtains cracked two inches. Outside, the asphalt threw heat in visible sheets.
@@ -1425,6 +1541,8 @@ Mac looked at her for a moment, and whatever he'd been carrying about the kid sh
 "I want somebody whose job is to tell me when it's over." She picked the satellite tile back up, squared it against the rest, and slid the stack into the folder. "I'm not getting in the chair so they can write success in the column."
 
 She zipped the bag. Out on the highway the sedan was already gone, a dark dot folding into the heat, and she could not have said, watching it, whether it had been nothing at all or the first slow turn of the institution's patient head.
+
+---
 
 # The Next Session
 
@@ -1577,6 +1695,8 @@ It went in with the small dry sound of a thing being decided, and her sheet hung
 Mara pulled out the second chair, the viewer's chair, the one she'd refused to sit in the first night, and turned it to face the wall instead of the table, so the doors looked back at her while she waited. She sat down in it. The room was warm and smelled of old coffee, and somewhere across town a phone was about to ring in a sleeping woman's house, and the offer in her coat was going to die at midnight without anyone watching it go.
 
 She put her hands flat on her thighs and started counting her breath.
+
+---
 
 # Hunt
 
@@ -1745,6 +1865,8 @@ In the east, over the trees on the far bank, the sky had begun the first thin gr
 "First light," he said. "Now we're just a truck."
 
 She put the lid back on the box. The drawings she kept on her knees, where she could feel the weight of them, and where the wind from the vent couldn't take them, and that was how they drove north—a farm truck on a farm road, an old man and a woman who only trusted ledgers, with all their luggage gone except paper and pencil and the slow new rhythm of people who would not be sleeping in the same place twice.
+
+---
 
 # Second Sit
 
@@ -1952,6 +2074,8 @@ Mac didn't write it down. He looked at the door she'd drawn—the frame around n
 
 The ice machine kicked on down the breezeway and began, patiently, to make more ice than anyone in this motel would ever need.
 
+---
+
 # Classified Hinge
 
 The basement smelled of cold solder and mildew, the particular damp of a Pennsylvania foundation that had never once been dry. Mac's cousin had finished half of it sometime in the nineties — drop ceiling, brown carpet squares, a workbench bolted to the cinderblock — then stopped, the way men stop, and left the other half raw. A water heater ticked in the dark. Above them, through the joists, the cousin moved around his kitchen, doing the loud, deliberate things a man does to convince a house he is alone in it.
@@ -2109,6 +2233,8 @@ She looked at the hole one more time. The spiral that turned toward an absence. 
 Then she folded the photograph along Mac's crease, because the crease was already there and her hands wanted the small correct task, and she put it in the steel box with the thirty-one sketches and the one that was hers, and she closed the lid, and the latch caught with the flat institutional click of a thing that locks from the outside.
 
 "Pack the printer," she said. "We'll need it on the ice."
+
+---
 
 # The Card Turns
 
@@ -2273,6 +2399,8 @@ She zipped the folder shut and tucked it under Lena's arm and put her hand flat 
 "Out the hatch," she said. "Now."
 
 Upstairs, a car door opened.
+
+---
 
 # Exfil
 
@@ -2466,6 +2594,8 @@ Mara looked south. The water went under the bridge and kept going, the way water
 
 She shouldered the bag.
 
+---
+
 # Ice on the Horizon
 
 The departures board flickered the way old split-flap boards did—a stutter of letters tumbling, a soft chatter like cards shuffled by a machine that didn't care who won. Mara stood under it in the regional terminal at the edge of nowhere, Pennsylvania bleeding into the morning, and read the rows out of habit. Pittsburgh. Charlotte. A delayed hop to Newark that had been delayed since before she got here.
@@ -2597,41 +2727,4 @@ To **Roald Dahl**, for the card turning over.
 *The programs, protocols, and case files described in the Preface are on the record. The fiction is mine. The rabbit hole is yours.*
 
 ---
-
-<!-- BEGIN image-compendium-appendix (generated by tools/inject_image_appendix.py) -->
-
-## Image Compendium — Foreword
-
-The places, peoples, and wonders in this book are real. These freely-licensed photographs (public domain or Creative Commons, via Wikimedia Commons) are gathered here so you can see them — go stand in them. Each image carries its photographer and licence.
-
-### Places of awe
-
-![Antarctica — the ice the records say has something beneath it.](/Users/ajgreyling/code/africangold/books/history-before-time/books/project-stargate/build/appendix-images/ice-and-mountains.jpg)
-
-*Antarctica — the ice the records say has something beneath it.*
-<small>Robert L. Dale, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The Transantarctic range — the edge of the unmapped.](/Users/ajgreyling/code/africangold/books/history-before-time/books/project-stargate/build/appendix-images/mt-herschel-antarctica-jan-2006.jpg)
-
-*The Transantarctic range — the edge of the unmapped.*
-<small>Andrew Mandemaker, CC BY-SA 2.5, via Wikimedia Commons</small>
-
-![A polar station — the official face of the unofficial story.](/Users/ajgreyling/code/africangold/books/history-before-time/books/project-stargate/build/appendix-images/antarctica-research-station.jpg)
-
-*A polar station — the official face of the unofficial story.*
-<small>U.S. Central Intelligence Agency Uploaded by This map has been uploaded by Electionworld from en.wikipedia.org to enable the Wikimedia Atlas of the World . Original uploader to en.wikipedia.org was Pdytwong, known as Pdytwong at en.wikipedia.org. Electionworld is not the creator of this map. Licensing information is below., Public domain, via Wikimedia Commons</small>
-
-![Aurora australis — the sky as a tuning signal.](/Users/ajgreyling/code/africangold/books/history-before-time/books/project-stargate/build/appendix-images/aurora-australis-dancing-over-an-led-illuminated-igloo.jpg)
-
-*Aurora australis — the sky as a tuning signal.*
-<small>Ross Burgener, Public domain, via Wikimedia Commons</small>
-
-### Things of wonder (made by hand)
-
-![An ice cave — the dark the remote-viewer's coordinates point to.](/Users/ajgreyling/code/africangold/books/history-before-time/books/project-stargate/build/appendix-images/erebus-glacier-cave-noaa-1978.jpg)
-
-*An ice cave — the dark the remote-viewer's coordinates point to.*
-<small>Fishdecoy, Public domain, via Wikimedia Commons</small>
-
-<!-- END image-compendium-appendix -->
 

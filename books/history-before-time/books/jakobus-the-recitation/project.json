@@ -3,18 +3,14 @@
   "title": "The Recitation",
   "working_title": "History Before Time: The Recitation",
   "protagonist": "Jakobus Swart",
-  "logline": "A man the war made dangerous and the bush made calm goes deeper still — into the Sahara, half-chasing a desert romance he got from a novel — and is taken in by Arabic-speaking desert people who owe him nothing; over seasons of listening to the Quran recited at every prayer, the outsider who will never convert learns the one thing the bush only began: to set fear down.",
-  "blueprint": "character origin — grounded, not woo (the desert/Quran companion to the Jakobus arc; sibling to The Silver Thread)",
-  "market": "literary historical — the quiet, respectful sibling of the series joyride; a Western reader's door into the Quran",
-  "status": "complete",
+  "logline": "A man the war made dangerous and the bush made calm goes deeper still \u2014 into the Sahara, half-chasing a desert romance he got from a novel \u2014 and is taken in by Arabic-speaking desert people who owe him nothing; over seasons of listening to the Quran recited at every prayer, the outsider who will never convert learns the one thing the bush only began: to set fear down.",
+  "blueprint": "character origin \u2014 grounded, not woo (the desert/Quran companion to the Jakobus arc; sibling to The Silver Thread)",
+  "market": "literary historical \u2014 the quiet, respectful sibling of the series joyride; a Western reader's door into the Quran",
+  "status": "drafting",
   "seq": 0,
   "graph_color": "#c2924a",
   "canon_order": [
     "OUTLINE.md"
   ],
-  "isbn": {
-    "paperback": "",
-    "hardcover": "",
-    "ebook": ""
-  }
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
 }
