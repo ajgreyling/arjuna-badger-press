@@ -1,0 +1,114 @@
+{
+  "languages": {
+    "en": [
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_source",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "af": [
+      {
+        "tier": 5050,
+        "file": "af_frequency.txt",
+        "mode": "native",
+        "source_url": "https://github.com/frekwencja/most-common-words-multilingual/blob/main/data/wordfrequency.info/af.txt"
+      },
+      {
+        "tier": 2532,
+        "file": "af_frequency_dohliam.txt",
+        "mode": "native",
+        "source_url": "https://github.com/dohliam/more-stoplists/blob/master/af/af_frequency_list.txt"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "zu": [
+      {
+        "tier": 5050,
+        "file": "zu_frequency.txt",
+        "mode": "native",
+        "source_url": "https://github.com/frekwencja/most-common-words-multilingual/blob/main/data/wordfrequency.info/zu.txt"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "xh": [
+      {
+        "tier": 5050,
+        "file": "xh_frequency.txt",
+        "mode": "native",
+        "source_url": "https://github.com/frekwencja/most-common-words-multilingual/blob/main/data/wordfrequency.info/xh.txt"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "tn": [
+      {
+        "tier": 3000,
+        "file": "tn_frequency.txt",
+        "mode": "native",
+        "source_url": "https://aclanthology.org/2024.rail-1.5/"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "st": [
+      {
+        "tier": 5050,
+        "file": "st_frequency.txt",
+        "mode": "native",
+        "source_url": "https://github.com/frekwencja/most-common-words-multilingual/blob/main/data/wordfrequency.info/st.txt"
+      },
+      {
+        "tier": 975,
+        "file": "st_frequency_dohliam.txt",
+        "mode": "native",
+        "source_url": "https://github.com/dohliam/more-stoplists/blob/master/st/st_frequency_list.txt"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ],
+    "sw": [
+      {
+        "tier": 5050,
+        "file": "sw_frequency.txt",
+        "mode": "native",
+        "source_url": "https://github.com/frekwencja/most-common-words-multilingual/blob/main/data/wordfrequency.info/sw.txt"
+      },
+      {
+        "tier": 60000,
+        "file": "sw_frequency_wiki.txt",
+        "mode": "native",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Swahili/Wikipedia_2011"
+      },
+      {
+        "tier": 10000,
+        "file": "en_frequency.txt",
+        "mode": "en_translate",
+        "source_url": "https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/English/Wikipedia_(2016)"
+      }
+    ]
+  }
+}

@@ -38,10 +38,10 @@ Site nav is **drawer-only at all breakpoints**: brand + hamburger; links grouped
 | Zone | Where |
 |---|---|
 | **Front door** | `index.html` — hero, available library, compact mission, explore grid |
-| **Everything else about the house** | `press.html` — platform, pipeline, founder, proof |
-| **Heraldry** | `house.html` |
+| **Everything else about the house** | `press.html` — platform, pipeline, studio |
+| **Personal annex** | `safari/` — CV, letters, heraldry, writing desk, [How it started](https://arjunabadger.press/safari/how-it-started.html) (Misogi scorecard) |
 
-- Source of truth: `nav_drawer_links()` + `nav()` + CSS in [`build.py`](build.py)
+- Source of truth: `nav_drawer_links()` + `safari_nav_drawer_links()` + CSS in [`build.py`](build.py)
 - `assert_nav_drawer_contract()` runs on every build and **exits non-zero** if inline nav returns
 - Do not add `@media (min-width:…)` rules that show `.navinline` or hide `.hamburger`
 - Homepage shows **available** titles only; pipeline titles live on `press.html#pipeline`

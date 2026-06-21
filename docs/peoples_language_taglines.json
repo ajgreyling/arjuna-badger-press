@@ -1,0 +1,42 @@
+{
+  "feature": "People's Language",
+  "status": "in_progress",
+  "taglines": [
+    {
+      "code": "af",
+      "language": "Afrikaans",
+      "phrase": "die mense se taal",
+      "review": "confirmed"
+    },
+    {
+      "code": "zu",
+      "language": "isiZulu",
+      "phrase": "ulimi lwabantu",
+      "review": "attested; native speaker review welcome"
+    },
+    {
+      "code": "xh",
+      "language": "isiXhosa",
+      "phrase": "ulwimi lwabantu",
+      "review": "attested; native speaker review welcome"
+    },
+    {
+      "code": "tn",
+      "language": "Setswana",
+      "phrase": "puo ya batho",
+      "review": "attested; native speaker review welcome"
+    },
+    {
+      "code": "st",
+      "language": "Sesotho",
+      "phrase": "puo ea batho",
+      "review": "attested; native speaker review welcome"
+    },
+    {
+      "code": "sw",
+      "language": "Swahili",
+      "phrase": "lugha ya watu",
+      "review": "attested; native speaker review welcome"
+    }
+  ]
+}

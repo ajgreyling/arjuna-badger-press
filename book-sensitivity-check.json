@@ -1,0 +1,37 @@
+{
+  "unheard-japan": {
+    "risk": "LOW",
+    "directives_honoured": true,
+    "flags": [
+      "Ch.12\u2014The List That Won't Die: describes the 1975 buraku area-name list; no places are named, but a buraku-literate review is advised to ensure no inadvertent outing or reification of harm.",
+      "Ch.4\u2014The Word the Prime Minister Said: cites 1986 'homogeneous nation' remarks; fact-check exact attribution/wording to avoid misquote of living figures.",
+      "Ch.5\u2014The Humility Beat: Ainu grandmother\u2019s upopo filmed then withheld; portrayal is respectful, but an Ainu reader should confirm no sacred elements are exposed or framed as elegy.",
+      "Ch.10\u201311\u2014Tattoo (tebori) and onsen ban: accurate in broad strokes; a tattoo-world/Japanese reader can confirm nuances and regional variability to avoid overgeneralisation.",
+      "Appendix: Clear claims about bushid\u014d\u2019s modern construction and Edo samurai as clerks; historically sound but should be vetted by a Japan historian for phrasing consistency."
+    ],
+    "blocking": false,
+    "one_line": "A careful, self-aware manuscript that centers Ainu and burakumin voices, with withheld sacred content and strong internal ethics; low immediate harm but should surface with a note for community sensitivity reads.",
+    "recommended_action": "SURFACE_WITH_NOTE",
+    "_tokens": {
+      "in": 80436,
+      "out": 1845
+    }
+  },
+  "unheard-mongolia": {
+    "risk": "LOW",
+    "directives_honoured": true,
+    "flags": [
+      "Ch.10 The Stone on the Cairn: brief how-to around ovoo (three sunwise circles, offerings) \u2014 likely acceptable but confirm with tradition-holders that this threshold detail isn\u2019t over-sharing.",
+      "Ch.23 Farewell exchange: \u201cBecause you saw us, we are here\u201d framed as a Mongolian answer to a Zulu concept \u2014 have a Mongolian reader confirm the phrasing/cultural fit so it doesn\u2019t feel imposed.",
+      "Ch.14 Long-song scene: no lyrics given and handled with care; still, ask an urtiin duu holder to confirm depiction and boundaries feel right.",
+      "Backmatter \u2018What Is Real\u2019: legal framing (pasture state-owned, use-rights, strategic designation, not recognised as Indigenous) \u2014 fact-check with a Mongolian legal/scholar consultant to avoid overstatement."
+    ],
+    "blocking": false,
+    "one_line": "A careful, dignity-first portrayal that distinguishes Khalkha herders from Kazakh eagle-hunters, treats wrestling and elders as experts, and keeps sacred practice at the threshold; low-risk with minor checks.",
+    "recommended_action": "SURFACE_WITH_NOTE",
+    "_tokens": {
+      "in": 68229,
+      "out": 2002
+    }
+  }
+}

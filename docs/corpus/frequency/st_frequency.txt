@@ -1,0 +1,5028 @@
+1	le
+2	ea
+3	ho
+4	ho
+5	ke
+6	uena
+7	eona
+8	na le
+9	ho
+10	hore
+11	bakeng sa
+12	etsa
+13	eena
+14	ka
+15	ho
+16	sena
+17	eseng
+18	rona
+19	hore
+20	eseng
+21	empa
+22	bona
+23	bolela
+24	ho
+25	eng
+26	hae
+27	ho tloha
+28	tsamaea
+29	kapa
+30	ka
+31	fumana
+32	eena
+33	ea ka
+34	ka khona
+35	joalo ka
+36	tseba
+37	haeba
+38	'na
+39	hao
+40	kaofela
+41	ka
+42	tsa bona
+43	thato
+44	joalo
+45	e ka
+46	etsa
+47	feela
+48	holimo
+49	nahana
+50	nako
+51	Mono
+52	bona
+53	hae
+54	joalo ka
+55	tsoa
+56	ngoe
+57	tloho
+58	batho
+59	nka
+60	selemo
+61	eena
+62	bona
+63	ba bang
+64	batla
+65	Joang
+66	neng
+67	eo
+68	jwale
+69	joalo ka
+70	tse ding
+71	ka khona
+72	tsa rona
+73	ho kena
+74	Mona
+75	ebe
+76	ho feta
+77	sheba
+78	tsela
+79	Hape
+80	tsena
+81	che
+82	ntho
+83	hantle
+84	hobane
+85	hape
+86	tse pedi
+87	tshebediso
+88	bolella
+89	molemo
+90	pele
+91	motho
+92	letsatsi
+93	fumana
+94	fa
+95	Hape
+96	e ncha
+97	ngoe
+98	rona
+99	leha e le efe
+100	tseo
+101	haholo
+102	hae
+103	tlhokeho
+104	morao
+105	Mono
+106	lokela
+107	esita le
+108	feela
+109	tse ngata
+110	ruri
+111	sebetsa
+112	bophelo
+113	hobaneng
+114	hantle
+115	fatshe
+116	ho
+117	leka
+118	tlohella
+119	ntho e itseng
+120	hape
+121	letsa
+122	mosadi
+123	mohlomong
+124	ntse
+125	ka
+126	bolela
+127	kamora
+128	ha ho mohla
+129	che
+130	lefatshe
+131	ho
+132	ikutloa
+133	ee
+134	e kgolo
+135	ho qetela
+136	ngoana
+137	oh
+138	fedile
+139	botsa
+140	neng
+141	joalo ka
+142	sekolo
+143	naha
+144	haholo
+145	bua
+146	tsoa
+147	boloka
+148	tloha
+149	beha
+150	joalo ka
+151	Thusa
+152	e kgolo
+153	moo
+154	tshoanang
+155	kaofela
+156	mong
+157	nakong eo
+158	qala
+159	boraro
+160	hodimo
+161	mang le mang
+162	enngwe
+163	eba
+164	haholo
+165	pakeng tsa
+166	etsahala
+167	lelapa
+168	fedile
+169	mopresidente
+170	khale
+171	ho joalo
+172	ntlo
+173	bontsha
+174	hape
+175	moithuti
+176	joalo
+177	bonahala
+178	matla
+179	karolo
+180	utloa
+181	eona
+182	sebaka
+183	bothata
+184	moo
+185	dumela
+186	naha
+187	ka mehla
+188	beke
+189	ntlha
+190	letsoho
+191	tima
+192	bapala
+193	reteleha
+194	tse fokolang
+195	sehlopha
+196	joalo
+197	kgahlanong le
+198	matha
+199	mohlankana
+200	ka
+201	nyeoe
+202	potso
+203	sebetsa
+204	bosiu
+205	phela
+206	papali
+207	palo
+208	ngola
+209	tlisa
+210	ntle le
+211	chelete
+212	ngata
+213	haholo
+214	buka
+215	tsamaiso
+216	mmuso
+217	E 'ngoe
+218	motse
+219	khampani
+220	pale
+221	kajeno
+222	mosebetsi
+223	suthisa
+224	tlameha
+225	mpe
+226	motsoalle
+227	nakong
+228	qala
+229	lerato
+230	enngwe le enngwe
+231	tshoarela
+232	fapaneng
+233	tsa Amerika
+234	nyane
+235	pele
+236	kamehla
+237	lentsoe
+238	nnete
+239	hantle
+240	bala
+241	eng kapa eng
+242	letho
+243	bonnete
+244	nyane
+245	khoeli
+246	lenaneo
+247	mohlomong
+248	hantle
+249	tlasa
+250	khoebo
+251	hae
+252	mosa
+253	Ema
+254	lefa
+255	boithuto
+256	ho tloha
+257	hlahisa
+258	lebitso
+259	mohopolo
+260	kamore
+261	peresente
+262	hole
+263	hole
+264	molao
+265	ka sebele
+266	e kgolo
+267	leha ho le joalo
+268	fana
+269	lahleheloa
+270	matla
+271	ngoana
+272	ntoa
+273	utloisisa
+274	hlooho
+275	mme
+276	ea sebele
+277	molemo ka ho fetisisa
+278	sehlopha
+279	leihlo
+280	telele
+281	telele
+282	lehlakore
+283	metsi
+284	mocha
+285	ema
+286	Ho lokile
+287	bobeli
+288	leha ho le joalo
+289	kamora
+290	kopana
+291	tshebeletso
+292	sebaka
+293	bohlokoa
+294	motho
+295	hey
+296	leboha
+297	haholo
+298	motho
+299	qeta
+300	phetoho
+301	leha ho le joalo
+302	feela
+303	pota-potileng
+304	hora
+305	tsohle
+306	naha
+307	nne
+308	mola
+309	ngoanana
+310	pota-potileng
+311	shebella
+312	ho fihlela
+313	ntate
+314	dula
+315	bopa
+316	tlhahisoleseding
+317	koloi
+318	ithute
+319	bonyane
+320	se ntse
+321	bolaea
+322	motsotso
+323	mokete
+324	kenyeletsa
+325	ema
+326	mmoho
+327	morao
+328	latela
+329	bophelo bo botle
+330	hopola
+331	hangata
+332	lebaka
+333	bua
+334	fetileng
+335	beha
+336	ntsho
+337	setho
+338	sechaba
+339	hang
+340	sechabeng
+341	ditaba
+342	lumella
+343	hlola
+344	mmele
+345	etella pele
+346	tswela pele
+347	hore na
+348	ho lekane
+349	qeta
+350	boemo
+351	khonahala
+352	lipolotiki
+353	hoo e ka bang
+354	moshanyana
+355	univesithi
+356	pele
+357	lula
+358	eketsa
+359	hamorao
+360	phetoho
+361	hlano
+362	mohlomong
+363	setsi
+364	hara
+365	sefahleho
+366	setjhaba
+367	shoa
+368	dijo
+369	tse ling
+370	histori
+371	reka
+372	sephetho
+373	hoseng
+374	tima
+375	motsoadi
+376	ofisi
+377	nete hore
+378	romeletsa
+379	lipatlisiso
+380	tsamaya
+381	monyako
+382	tšoeu
+383	tse ngatanyana
+384	lekhotla
+385	hae
+386	hola
+387	betere
+388	bula
+389	motsotsoana
+390	ho kenyeletsa
+391	nahanela
+392	bobeli
+393	joalo
+394	nyane
+395	ka hare
+396	ea bobeli
+397	morao
+398	seterateng
+399	mahala
+400	betere
+401	bohle
+402	leano
+403	tafole
+404	masoabi
+405	tlhokomelo
+406	tlase
+407	motho
+408	Ka kopo
+409	tshepo
+410	'Nete
+411	tshebetso
+412	tichere
+413	nyehelo
+414	lefu
+415	kaofela
+416	phihlelo
+417	rera
+418	bonolo
+419	thuto
+420	haha
+421	lebella
+422	wela
+423	ka boyena
+424	lilemo
+425	ka thata
+426	kutloisiso
+427	ka nqane
+428	bontsha
+429	pele ho nako
+430	koleche
+431	mmino
+432	hlaha
+433	kelello
+434	sehlopha
+435	sepolesa
+436	tshebediso
+437	phello
+438	sehla
+439	lekhetho
+440	pelo
+441	mora
+442	bonono
+443	ho khoneha
+444	sebeletsa
+445	senya
+446	leha
+447	qeta
+448	mmaraka
+449	esita le
+450	moea
+451	matla
+452	hloka
+453	leoto
+454	holimo
+455	mamela
+456	dumelana
+457	ho latela
+458	mang kapa mang
+459	lesea
+460	phoso
+461	lerato
+462	kgaola
+463	etsa qeto
+464	rephabliki
+465	tletseng
+466	ka morao
+467	fetisa
+468	thahasello
+469	ka nako e 'ngoe
+470	tshireletso
+471	ja
+472	tlaleha
+473	taolo
+474	sekhahla
+475	sebakeng
+476	sisinya
+477	tlaleha
+478	sechaba
+479	rekisa
+480	ketso
+481	tshehetso
+482	mosadi
+483	qeto
+484	amohela
+485	boleng
+486	motheo
+487	khetha
+488	mohala
+489	leboha
+490	ketsahalo
+491	kganna
+492	e matla
+493	fihla
+494	sala
+495	hlalosa
+496	sebaka
+497	otla
+498	Hula
+499	kereke
+500	mohlala
+501	mohlomong
+502	kamano
+503	tshelela
+504	hantle
+505	filimi
+506	lebala
+507	phahamisa
+508	Nyane
+509	sebapali
+510	banyalani
+511	milione
+512	bona
+513	tlaleho
+514	haholoholo
+515	phapang
+516	kganya
+517	ntshetsopele
+518	mmuso
+519	ea pele
+520	karolo
+521	ntle
+522	ka bonna
+523	pono
+524	theko
+525	matsapa
+526	ntle
+527	hantle
+528	hammoho
+529	lentsoe
+530	qetellong
+531	lefapha
+532	kapa
+533	ho leba
+534	moetapele
+535	hobane
+536	senepe
+537	apara
+538	sebaka
+539	morero
+540	khutla
+541	boemo
+542	khethehileng
+543	milione
+544	filimi
+545	tlhokeho
+546	e kgolo
+547	mofuta
+548	toropo
+549	sehloho
+550	tsela
+551	sebopeho
+552	monyetla
+553	lithethefatsi
+554	moruo
+555	boemo
+556	khetha
+557	itloaetsa
+558	sesosa
+559	thabileng
+560	mahlale
+561	kopanya
+562	ruta
+563	pele ho nako
+564	ntshetsa pele
+565	arolelana
+566	uena
+567	jara
+568	hlakileng
+569	moena
+570	taba
+571	shoeleng
+572	setšoantšo
+573	naledi
+574	litšenyehelo
+575	bonolo
+576	poso
+577	sechaba
+578	setšoantšo
+579	sengoathoana
+580	pampiri
+581	matla
+582	botho
+583	moaho
+584	sesoleng
+585	bula
+586	ngaka
+587	mosebetsi
+588	hantle
+589	tsa Amerika
+590	mecha ea litaba
+591	hloloheloa
+592	bopaki
+593	sehlahisoa
+594	hlokomela
+595	boloka
+596	letsoho
+597	thekenoloji
+598	tšoasa
+599	hlahisa maikutlo
+600	sheba
+601	nako
+602	mmala
+603	sekoahelo
+604	hlalosa
+605	khakanyo
+606	kgetho
+607	mohlodi
+608	mme
+609	haufinyane
+610	motsamaisi
+611	machaba
+612	busa
+613	letsholo
+614	fatshe
+615	likhetho
+616	sefahleho
+617	uh
+618	hlahloba
+619	leqephe
+620	ntoa
+621	ka boyona
+622	teko
+623	mokuli
+624	lihlahisoa
+625	tse itseng
+626	eng kapa eng
+627	halofo
+628	tshehetso
+629	lahlela
+630	boraro
+631	tlhokomelo
+632	phomola
+633	haufinyane
+634	fumaneha
+635	mohato
+636	lokile
+637	monyetla
+638	ofisiri
+639	oli
+640	letsa
+641	mokgatlo
+642	sebopeho
+643	lesoha
+644	jwale
+645	mohlomong
+646	setereke
+647	bokamoso
+648	ntate
+649	eo
+650	Nyane
+651	thunya
+652	indasteri
+653	ea bobeli
+654	lethathamo
+655	kakaretso
+656	lintho
+657	setšoantšo
+658	tlhokomelo
+659	lebala
+660	kotsi
+661	che
+662	tsepamisa maikutlo
+663	kgutshoanyane
+664	mollo
+665	ntja
+666	khubelu
+667	moriri
+668	ntlha
+669	boemo
+670	lebota
+671	morali
+672	pele
+673	sebetsana
+674	sengoli
+675	nnete
+676	holim'a
+677	monna
+678	nako
+679	letoto
+680	taelo
+681	ofisiri
+682	koala
+683	naha
+684	Hlokomela
+685	khomphuta
+686	monahano
+687	moruo
+688	sepheo
+689	banka
+690	boitšoaro
+691	molumo
+692	sebetsana
+693	ka sebele
+694	hoo e ka bang
+695	nyollelo
+696	ketso
+697	leboea
+698	hantle
+699	madi
+700	setso
+701	tsa bongaka
+702	OK
+703	bohle
+704	holimo
+705	boima
+706	koala
+707	puo
+708	fensetere
+709	karabo
+710	baahi
+711	leshano
+712	sefate
+713	paka
+714	mosebeletsi
+715	hula
+716	rera
+717	rothela
+718	Sututsa
+719	lefatshe
+720	sesosa
+721	ka
+722	lekunutung
+723	bosiung bona
+724	morabe
+725	ho feta
+726	lengolo
+727	tse ding
+728	sethunya
+729	bonolo
+730	nete hore
+731	hlolla
+732	kenyeletsa
+733	lihele
+734	mafutsana
+735	enngwe le enngwe
+736	karabo
+737	tlhaho
+738	tsamaiso
+739	tloaelehileng
+740	che
+741	ka thata
+742	molaetsa
+743	pina
+744	thabela
+745	tshoanang
+746	congress
+747	hlasela
+748	fetileng
+749	chesang
+750	batla
+751	chelete
+752	tlhatlhobo
+753	lebenkeleng
+754	tshireletso
+755	molato
+756	joalo ka
+757	sele
+758	hole
+759	tshebetso
+760	sepetlele
+761	bethe
+762	boto
+763	sireletsa
+764	lekholo la lilemo
+765	lehlabula
+766	thepa
+767	motho ka mong
+768	haufinyane
+769	mohlala
+770	emela
+771	tlatsa
+772	naha
+773	sebaka
+774	phoofolo
+775	hloleha
+776	ntlha
+777	tlhaho
+778	monghadi
+779	mokhatlo
+780	hangata
+781	bohlokoa
+782	Thusa
+783	bokgoni
+784	maele
+785	polelo
+786	ka botlalo
+787	demokrasi
+788	fatshe
+789	tse tebileng
+790	mosebetsi
+791	dollar
+792	khetha
+793	thobalano
+794	bapisa
+795	boroa
+796	pele
+797	sehlooho
+798	tsa lichelete
+799	tsebahatsa
+800	e ntle
+801	lilemo tse leshome
+802	hanyane
+803	fokotsa
+804	kgaitsedi
+805	boleng
+806	kapelenyana
+807	ketso
+808	tobetsa
+809	tšoenyeha
+810	amohela
+811	kena
+812	bolela
+813	molumo
+814	joalo
+815	semela
+816	motsamao
+817	ketsahalo
+818	karolo
+819	phekolo
+820	takatso
+821	molemo
+822	kgahlisa
+823	bophirima
+824	mokhethoa
+825	atamela
+826	etsa qeto
+827	mohlodi
+828	Kleima
+829	karabo
+830	paka
+831	hlopha
+832	ho lekane
+833	boholo
+834	motho
+835	tsebo
+836	ho ena le hoo
+837	fanyeha
+838	papadi
+839	tahlehelo
+840	tsekisana
+841	letsetsoa
+842	Hlokomela
+843	kopano
+844	bokgoni
+845	karete
+846	maikutlo
+847	ho sa tsotellehe
+848	tekanyo
+849	botlokotsebe
+850	hore
+851	seka
+852	etsahala
+853	nahana
+854	khetha
+855	haufi
+856	morena
+857	lebokose
+858	teng
+859	setšoantšo
+860	Supa
+861	kantle ho naha
+862	tsheha
+863	lefu
+864	mofumahadi
+865	ka nqane
+866	buisana
+867	qeta
+868	moralo
+869	ho tšoenyeha
+870	bolo
+871	bochabela
+872	hlokomela
+873	sebetsa
+874	lokisetsa
+875	marangrang
+876	e kgolohadi
+877	katleho
+878	setereke
+879	senoelo
+880	lebitso
+881	mmeleng
+882	kgolo
+883	tsoha
+884	dumela
+885	maemo
+886	matla
+887	seka
+888	fan
+889	khopolo-taba
+890	basebetsi
+891	bohloko
+892	molao
+893	beha
+894	kantle
+895	le
+896	leano
+897	ka ho hlaka
+898	thepa
+899	lay
+900	qetela
+901	bolaoli
+902	phethahetseng
+903	mokhoa
+904	sebaka
+905	ho tloha
+906	tshusumetso
+907	bontsha
+908	bolokehileng
+909	komiti
+910	beoa
+911	lora
+912	koetliso
+913	shiti
+914	bohareng
+915	kgetho
+916	robedi
+917	haholoholo
+918	ka botlalo
+919	maikutlo
+920	ka sehloohong
+921	leshome
+922	puisano
+923	teng
+924	tlosa
+925	lefifi
+926	bapala
+927	kopano
+928	moprofesa
+929	khatello
+930	morero
+931	sethala
+932	putsoa
+933	ka boyena
+934	letsatsi
+935	bohloko
+936	moetsi oa litšoantšo
+937	mosebeletsi
+938	qoba
+939	akhaonte
+940	lokolla
+941	letlole
+942	tikoloho
+943	tshoaroa
+944	itseng
+945	phetolelo
+946	thunya
+947	hloea
+948	nnete
+949	etela
+950	sehlopha
+951	toka
+952	noka
+953	boko
+954	mohopolo
+955	lefika
+956	bua
+957	khamera
+958	lefatshe ka bophara
+959	tse fapa-fapaneng
+960	fihla
+961	hlokomela
+962	hanyane
+963	dintlha
+964	phephetso
+965	khang
+966	ngata
+967	haho motho
+968	sebetsa
+969	molemo ka ho fetisisa
+970	seteishene
+971	sehlekehleke
+972	ka botlalo
+973	ho e-na le hoo
+974	puisano
+975	ho e-na le hoo
+976	ama
+977	moralo
+978	nyane
+979	leha ho le joalo
+980	araba
+981	taolo
+982	bothata
+983	puisano
+984	laola
+985	koala
+986	letsatsi
+987	setjhaba
+988	sesole
+989	holimo
+990	poso
+991	tefiso
+992	setulo
+993	nahana
+994	sengoli
+995	phethahatsa
+996	mokitlane
+997	botala
+998	lenyalo
+999	ts'ebetso
+1000	ka 'nete
+1001	robala
+1002	hlokahala
+1003	senola
+1004	moemeli
+1005	phihlello
+1006	bar
+1007	ngangisano
+1008	leoto
+1009	phuthela
+1010	otla
+1011	phodileng
+1012	demokrasi
+1013	hatsela
+1014	khalase
+1015	ntlafatsa
+1016	motho e moholo
+1017	khoebo
+1018	bolumeli
+1019	hlooho
+1020	tlhahlobo
+1021	mosa
+1022	aterese
+1023	mokhatlo
+1024	lekanya
+1025	setokong
+1026	khase
+1027	tebile
+1028	ramolao
+1029	tlhahiso
+1030	amana
+1031	bohareng
+1032	tsamaiso
+1033	ea mantlha
+1034	phofu
+1035	mofetshe
+1036	puo
+1037	ka ho khetheha
+1038	teko
+1039	ha ho letho
+1040	ntho
+1041	boima
+1042	hosane
+1043	mohato
+1044	ntle
+1045	sebopeho
+1046	moahi
+1047	boithuto
+1048	leetong
+1049	theha
+1050	molaodi
+1051	lipolotiki
+1052	thupa
+1053	moreki
+1054	mookameli
+1055	ho ena le hoo
+1056	phatlalatsa
+1057	tummeng
+1058	bina
+1059	pele
+1060	seboka
+1061	kakaretso
+1062	sibolla
+1063	ka potlako
+1064	motheo
+1065	tataiso
+1066	Sontaha
+1067	boloka
+1068	fetileng
+1069	bongata
+1070	kgotso
+1071	lijo tsa mantsiboea
+1072	molekane
+1073	mosebedisi
+1074	hodimo
+1075	fofa
+1076	mokotla
+1077	ka hona
+1078	morui
+1079	motho ka mong
+1080	thata
+1081	mong'a
+1082	tla
+1083	ka hare
+1084	mokhethi
+1085	sesebelisoa
+1086	hole
+1087	mohlomong
+1088	thaba
+1089	mefuta-futa
+1090	mokoetlisi
+1091	tshabo
+1092	labohlano
+1093	ramolao
+1094	ntle le haeba
+1095	leha e le
+1096	setsebi
+1097	sebopeho
+1098	tekanyetsokabo
+1099	inshorense
+1100	mongolo
+1101	tokoloho
+1102	hlanya
+1103	mmadi
+1104	setaele
+1105	ka
+1106	gwanta
+1107	mochini
+1108	moloko
+1109	chelete e kenang
+1110	tsoaloa
+1111	dumela
+1112	Lumela
+1113	kena
+1114	leoatle
+1115	Ho lokile
+1116	molomo
+1117	hohle
+1118	mong
+1119	teko
+1120	tepo
+1121	sisinya
+1122	tshoso
+1123	tharollo
+1124	koala
+1125	fatshe
+1126	leetong
+1127	rasaense
+1128	pata
+1129	ka ho hlaka
+1130	lebisa
+1131	a le mong
+1132	seno
+1133	lipatlisiso
+1134	senator
+1135	unit
+1136	senepe
+1137	Phupu
+1138	thelevishene
+1139	senotlolo
+1140	thobalano
+1141	seea-le-moea
+1142	thibela
+1143	hang
+1144	mehleng ena
+1145	senate
+1146	pefo
+1147	thetsa
+1148	tšobotsi
+1149	bamameli
+1150	mantsiboea
+1151	mang
+1152	ka pele
+1153	holo
+1154	mosebetsi
+1155	Laduma
+1156	letlalo
+1157	sotleha
+1158	bophara
+1159	selemo
+1160	phihlelo
+1161	lehae
+1162	polokeho
+1163	mafelo a beke
+1164	nakong eo
+1165	bohlokoa
+1166	sehlooho
+1167	mocheso
+1168	tloaelehileng
+1169	tshepo
+1170	jarete
+1171	monoana
+1172	rata
+1173	thomo
+1174	qetellong
+1175	morupeluoa
+1176	hotele
+1177	moahlodi
+1178	mohlala
+1179	senya
+1180	setheo
+1181	tumelo
+1182	setsebi
+1183	nahanela
+1184	batho
+1185	bokahodimo
+1186	wela
+1187	moreki
+1188	bohale
+1189	setso
+1190	lekhotla
+1191	sesebelisoa
+1192	tiileng
+1193	tikoloho
+1194	boikarabelo
+1195	setulo
+1196	inthanete
+1197	ka
+1198	qabola
+1199	hanghang
+1200	letsete
+1201	sekepe
+1202	e sebetsang hantle
+1203	e fetileng
+1204	dikahare
+1205	moreki
+1206	element
+1207	nuclear
+1208	moya
+1209	ka kotloloho
+1210	tshoha
+1211	hlalosa
+1212	tshoaro
+1213	pina
+1214	matha
+1215	moea
+1216	tlhokeho
+1217	litšenyehelo
+1218	phatlalatsa
+1219	koranta
+1220	boima
+1221	leqhoa
+1222	pokello
+1223	fepa
+1224	lesole
+1225	feela
+1226	'musisi
+1227	tlhapi
+1228	mahetla
+1229	setso
+1230	atlehile
+1231	tokafatsa
+1232	tshepo
+1233	ka tshohanyetso
+1234	bokamoso
+1235	thahasella
+1236	nehelana ka
+1237	moqebelo
+1238	mohlophisi
+1239	e ncha
+1240	mang kapa mang
+1241	senya
+1242	Kleima
+1243	nyatsa
+1244	tumellano
+1245	e matla
+1246	mofuputsi
+1247	mohopolo
+1248	ratang
+1249	sehlopha
+1250	nyala
+1251	tshepiso
+1252	ha bonolo
+1253	resturante
+1254	ligi
+1255	moholo
+1256	motse-moholo
+1257	hape
+1258	April
+1259	bokhoni
+1260	etc
+1261	kapele
+1262	makasine
+1263	boemo
+1264	ba teng
+1265	nkela sebaka
+1266	ka lebaka
+1267	thabana
+1268	kichineng
+1269	finyella
+1270	skrineng
+1271	ka kakaretso
+1272	phoso
+1273	hammoho
+1274	otla
+1275	ntoa
+1276	letheba
+1277	tsa motheo
+1278	haholo
+1279	hukung
+1280	tebelo
+1281	mokhanni
+1282	qalo
+1283	bolumeli
+1284	tsietsi
+1285	bala
+1286	musiamo
+1287	kopanela
+1288	puisano
+1289	polao
+1290	phatlola
+1291	ntho
+1292	hlalosa
+1293	huh
+1294	khothatsa
+1295	taba
+1296	blog
+1297	pososelo
+1298	khutla
+1299	tumelo
+1300	thibela
+1301	molato
+1302	mollo
+1303	mosebetsi o boima
+1304	kutloisiso
+1305	Tikoloho
+1306	konteraka
+1307	bohareng
+1308	mefuta
+1309	tlatsetso
+1310	mohlala
+1311	amehang
+1312	ka hare
+1313	haholo
+1314	tsela
+1315	ngongorehile
+1316	apole
+1317	boitšoaro
+1318	modimo
+1319	babatsehang
+1320	laeborari
+1321	chankana
+1322	lesoba
+1323	teko
+1324	felletse
+1325	khoutu
+1326	thekiso
+1327	mpho
+1328	hana
+1329	nyollelo
+1330	serapana
+1331	tsebisa
+1332	rola
+1333	Mokreste
+1334	ka sebele
+1335	joalo ka
+1336	letsha
+1337	reteleha
+1338	bonnete
+1339	fumana chelete
+1340	sefofane
+1341	koloi
+1342	hlahloba
+1343	kopo
+1344	sekete
+1345	kofi
+1346	fumana
+1347	sephetho
+1348	faele
+1349	limilione tse likete
+1350	phetoho
+1351	iphapanyetsa
+1352	amohela
+1353	khauta
+1354	qhoma
+1355	polanete
+1356	sebaka
+1357	nonyana
+1358	hlollang
+1359	molao-motheo
+1360	phahamisa
+1361	batla
+1362	robong
+1363	phela
+1364	kgoneha
+1365	leholimo
+1366	ho seng joalo
+1367	hopotsa
+1368	bophelo bo botle
+1369	lekana
+1370	pere
+1371	molemo
+1372	khoebo
+1373	utsoa
+1374	motheo
+1375	moelelo oa taba
+1376	haholo
+1377	keresemese
+1378	matla
+1379	suthisa
+1380	Mantaha
+1381	bolela
+1382	a le mong
+1383	lebopo la lewatle
+1384	boithuto
+1385	ho ngola
+1386	monghadi
+1387	lla
+1388	sekala
+1389	moahi
+1390	bolo ea maoto
+1391	monate
+1392	ho hloleha
+1393	moqolotsi oa litaba
+1394	itlama
+1395	ntoa
+1396	ngoe
+1397	motsoalle
+1398	pono
+1399	tshebetso
+1400	ka nnete
+1401	kula
+1402	karolelano
+1403	motho
+1404	sethoto
+1405	thato
+1406	chaena
+1407	kgokelo
+1408	kampo
+1409	lejoe
+1410	lekholo
+1411	senotlolo
+1412	teraka
+1413	thapama
+1414	boikarabelo
+1415	mongodi
+1416	kamoo ho bonahalang kateng
+1417	bohlale
+1418	boroa
+1419	ka botlalo
+1420	bophirimela
+1421	bokella
+1422	khohlano
+1423	chesa
+1424	ho ithuta
+1425	tsoha
+1426	kenya letsoho
+1427	palama
+1428	Brithani
+1429	latelang
+1430	taelo
+1431	arolelana
+1432	koranta
+1433	motheo
+1434	mefuta-futa
+1435	tebelelo
+1436	tokomane
+1437	boteng
+1438	qamaka
+1439	thuto
+1440	moeli
+1441	ananela
+1442	felletse
+1443	hlokomela
+1444	hajoale
+1445	lekholo
+1446	monate
+1447	bongata
+1448	hlasela
+1449	folete
+1450	phela
+1451	moeti
+1452	moya
+1453	tshireletso
+1454	bohlale
+1455	maobane
+1456	kaekae
+1457	moeling
+1458	ho bala
+1459	dipehelo
+1460	boetapele
+1461	teng
+1462	hlooho
+1463	boikutlo
+1464	qala
+1465	um
+1466	latola
+1467	websaeteng
+1468	ka botebo
+1469	ea sebele
+1470	hopola
+1471	lokisa
+1472	mpe
+1473	hokela
+1474	bohole
+1475	kamehla
+1476	boemo ba leholimo
+1477	kamano
+1478	sefofane
+1479	kotsi
+1480	sekepe
+1481	karolo
+1482	phamola
+1483	ho fihlela
+1484	thatohatsi
+1485	joalo ka
+1486	ikemetseng
+1487	bophahamo ba modumo
+1488	ke
+1489	ngata
+1490	ka pele
+1491	inthaneteng
+1492	theatre
+1493	lebelo
+1494	hlokomela
+1495	boitsebiso
+1496	tlhokeho
+1497	tlatsetso
+1498	tefiso
+1499	molebeli
+1500	bontsha
+1501	ka botlalo
+1502	Labobeli
+1503	setsing
+1504	polasi
+1505	kelello
+1506	monate
+1507	sekete
+1508	August
+1509	hira
+1510	kganya
+1511	sehokelo
+1512	seeta
+1513	setsi
+1514	ka tlase
+1515	phelang
+1516	ea Europe
+1517	kotara
+1518	hantlentle
+1519	moru
+1520	ngatafatsi
+1521	khetho
+1522	hlaha
+1523	lekanya
+1524	habeli
+1525	sefapano
+1526	bokamorao
+1527	rarolla
+1528	mariha
+1529	tsepamisa maikutlo
+1530	mopresidente
+1531	sebetsa
+1532	Masepa
+1533	pono
+1534	letsatsi le letsatsi
+1535	lebenkele
+1536	hodimo
+1537	karohano
+1538	butle butle
+1539	keletso
+1540	karabelo
+1541	kotsi
+1542	eona
+1543	tekete
+1544	mophato
+1545	Wow
+1546	tsoalo
+1547	ho penta
+1548	sephetho
+1549	sera
+1550	tshenyo
+1551	ho ba
+1552	sefefo
+1553	sebopeho
+1554	sekotlolo
+1555	thomo
+1556	mokaptene
+1557	tsebe
+1558	lebotho
+1559	e motshehadi
+1560	lehong
+1561	mofuthu
+1562	hloekile
+1563	etella pele
+1564	mosebeletsi
+1565	moahisani
+1566	nyane
+1567	kelello
+1568	thabang
+1569	ho fumana
+1570	morena
+1571	kganna
+1572	mocheso
+1573	khutsitseng
+1574	ho jaleha
+1575	e kganyang
+1576	kgaola
+1577	tshusumetso
+1578	raha
+1579	selemo le selemo
+1580	mokhoa
+1581	tlhompho
+1582	leqhubu
+1583	moetlo
+1584	tshosa
+1585	tsa mathomo
+1586	makatsang
+1587	sebapadi
+1588	molato
+1589	mafolofolo
+1590	katse
+1591	itshetlehile
+1592	bese
+1593	liaparo
+1594	taba
+1595	tshoanya
+1596	sehlopha
+1597	sehlooho
+1598	tlholo
+1599	otloloha
+1600	ho leba
+1601	'mapa
+1602	lehe
+1603	netefatsa
+1604	kakaretso
+1605	poleloana
+1606	fetileng
+1607	kopano
+1608	tlholisano
+1609	mohlomong
+1610	thekniki
+1611	ea ka
+1612	karolelano
+1613	rera
+1614	e sa kgoneheng
+1615	boitšoaro
+1616	thuto
+1617	veini
+1618	atamela
+1619	ka tsela e itseng
+1620	bokella
+1621	saense
+1622	Moafrika
+1623	pheha
+1624	kenya letsoho
+1625	mosodoma
+1626	loketseng
+1627	bacha
+1628	moaparo
+1629	Setereiti
+1630	boemo ba leholimo
+1631	khothaletsa
+1632	moriana
+1633	padi
+1634	pepeneneng
+1635	labone
+1636	phapanyetsano
+1637	hlahloba
+1638	atolosa
+1639	koung
+1640	mema
+1641	tlama
+1642	ah
+1643	kena
+1644	fumana
+1645	bophara
+1646	pheletso
+1647	tsoelopele
+1648	makatsa
+1649	tekolo
+1650	pososelo
+1651	tšobotsi
+1652	chelete
+1653	sireletsa
+1654	ponto
+1655	e nepahetseng
+1656	nyetsoe
+1657	para
+1658	hanyenyane
+1659	kalimo
+1660	motse
+1661	halofo
+1662	sutu
+1663	tlhokeho
+1664	historing
+1665	moelelo
+1666	teko
+1667	phepelo
+1668	phahamisa
+1669	ka borona
+1670	mahe a linotsi
+1671	lesapo
+1672	sephetho
+1673	e ikhethang
+1674	E 'ngoe
+1675	taolo
+1676	khau
+1677	tlase
+1678	tshoarelo
+1679	tloaelane
+1680	tlelaseng
+1681	batla
+1682	sesupo
+1683	hlahella
+1684	telele
+1685	dijo tsa motsheare
+1686	moahlodi
+1687	papatso
+1688	takatso
+1689	taelo
+1690	tshohanyetso
+1691	ho nahana
+1692	leetong
+1693	sefora
+1694	kopanya
+1695	khoeli
+1696	hlomohile
+1697	aterese
+1698	kae kapa kae
+1699	khoho
+1700	mafura
+1701	terene
+1702	tlhekefetso
+1703	kaho
+1704	Laboraro
+1705	sehokelo
+1706	tšoaneloa
+1707	tummeng
+1708	kena lipakeng
+1709	moholo
+1710	etela
+1711	tiisa
+1712	lehlohonolo
+1713	tsitlella
+1714	lebopong la lewatle
+1715	motlotlo
+1716	sekoahelo
+1717	bone
+1718	sepolesa
+1719	bohale
+1720	letsoalloa
+1721	phahameng ka ho fetisisa
+1722	baseball
+1723	empa
+1724	imeile
+1725	kotsi
+1726	ka pele
+1727	mosebetsi
+1728	hola
+1729	ntoa
+1730	chelete e kenang
+1731	atolosa
+1732	hlooho
+1733	qala
+1734	mokhoa
+1735	selikalikoe
+1736	pheta
+1737	phefumoloho
+1738	intshi
+1739	molala
+1740	mantlha
+1741	tshabeha
+1742	limilione tse likete
+1743	ka tsela e batlang
+1744	rarahaneng
+1745	tobetsa
+1746	hloloheloa
+1747	butle
+1748	bonolo
+1749	hlahisa
+1750	haholo
+1751	ho qetela
+1752	seno
+1753	ka ho sa feleng
+1754	khamphani
+1755	tebile
+1756	khetha
+1757	ntle le
+1758	theko e tlase
+1759	lingoliloeng
+1760	otloloha
+1761	ramotse
+1762	e motona
+1763	bohlokoa
+1764	tlaleho
+1765	Kotsi
+1766	maikutlo
+1767	lengole
+1768	esele
+1769	tshoaroa
+1770	sephethephethe
+1771	qhekella
+1772	kantle
+1773	jwale
+1774	terene
+1775	poleiti
+1776	thepa
+1777	khetha
+1778	faele
+1779	studio
+1780	theko e boima
+1781	lekunutu
+1782	enjene
+1783	amohela
+1784	lehlohonolo
+1785	ka
+1786	phanele
+1787	mohale
+1788	selikalikoe
+1789	mohlahlobisisi
+1790	rarolla
+1791	phathahane
+1792	ketsahalo
+1793	morao
+1794	hlahloba
+1795	tlhokeho
+1796	ralipolotiki
+1797	pula
+1798	mosebetsi-'moho
+1799	nyamela
+1800	biri
+1801	bolela esale pele
+1802	boikoetliso
+1803	kgathetse
+1804	demokrasi
+1805	qetellong
+1806	tlhophiso
+1807	tlotla
+1808	mesebetsi
+1809	ka bomalimabe
+1810	tema
+1811	hlahisa
+1812	e motona
+1813	hloekile
+1814	kopanetsoe
+1815	letamo
+1816	thuto
+1817	se nang letho
+1818	boiketlo
+1819	batlisisa
+1820	molemo
+1821	pokothong
+1822	tsa digital
+1823	ngatata
+1824	ka botlalo
+1825	tshabo
+1826	khona
+1827	tsoekere
+1828	ho ruta
+1829	conservative
+1830	molulasetulo
+1831	phoso
+1832	borokho
+1833	molelele
+1834	ka ho toba
+1835	palesa
+1836	leha ho le joalo
+1837	bokahohle
+1838	phela
+1839	amohela
+1840	moeli
+1841	kgaso
+1842	basebetsi
+1843	fumana
+1844	tekatekano
+1845	lekana
+1846	molomo
+1847	tšetlehile
+1848	sebaka
+1849	lenyalo
+1850	kopitsa
+1851	Laduma
+1852	motlae
+1853	sebedisoa
+1854	hlakileng
+1855	bere
+1856	sejo
+1857	tlhahlobo
+1858	bonyane
+1859	pono
+1860	robala
+1861	Serussia
+1862	moaparo
+1863	lokolla
+1864	soviet
+1865	phaello
+1866	phephetso
+1867	hlokolosi
+1868	bong
+1869	tepi
+1870	leoatle
+1871	sa tsejoe
+1872	moamoheli
+1873	fana
+1874	boemo
+1875	morao
+1876	mookameli
+1877	phatlalatsa
+1878	malapeng
+1879	tee
+1880	hlophisa
+1881	senyesemane
+1882	leha ho le joalo
+1883	kapa
+1884	ofisiri
+1885	pota-pota
+1886	mokgoa
+1887	makalla
+1888	peresente
+1889	e kgolohadi
+1890	leru
+1891	mohlodi
+1892	tšepahalang
+1893	maemo
+1894	sisinya
+1895	itshetleha
+1896	mmoho
+1897	polelo
+1898	kopo
+1899	ponahalo
+1900	mabapi le
+1901	e kgabane
+1902	senokoane
+1903	letsoai
+1904	botle
+1905	botlolo
+1906	karolo
+1907	tlasa
+1908	tefello
+1909	Bajuda
+1910	hao
+1911	omme
+1912	motjeko
+1913	hempe
+1914	keletso
+1915	polasetiki
+1916	Indian
+1917	seka
+1918	leino
+1919	nama
+1920	khatello ea maikutlo
+1921	e seng molaong
+1922	haholo
+1923	Hlakola
+1924	molaotheo
+1925	tlhaloso
+1926	malome
+1927	tšepe
+1928	alebamo
+1929	boithati
+1930	nahana
+1931	motseteli
+1932	tholoana
+1933	halalela
+1934	deske
+1935	bochabela
+1936	phula
+1937	haholo
+1938	ho ntša mpa
+1939	khaolo
+1940	boitlamo
+1941	keteka
+1942	tshoaroa
+1943	motjeko
+1944	ea pele
+1945	teropong
+1946	ka hare
+1947	tšoenya
+1948	tshisinyo
+1949	suthela
+1950	bokhoni
+1951	molato
+1952	lemosa
+1953	tshusumetso
+1954	fokolang
+1955	ntle le
+1956	katoliki
+1957	nko
+1958	feto-fetoha
+1959	kopano
+1960	lekhotla
+1961	motso
+1962	ketsahalo
+1963	hloa
+1964	kutlo
+1965	hohle
+1966	tefo
+1967	bere
+1968	qetella
+1969	hoeletsa
+1970	ho buuoa
+1971	moriti
+1972	paki
+1973	ka ho eketseha
+1974	sefuba
+1975	tokiso
+1976	penta
+1977	lekunutu
+1978	tletleba
+1979	tekanyo
+1980	monyaka
+1981	hlooho ka hlooho
+1982	matsatsi a phomolo
+1983	kahohle
+1984	talenta
+1985	ka nepo
+1986	tokoloho
+1987	tebello
+1988	palama
+1989	qosa
+1990	kokota
+1991	pejana
+1992	lepheo
+1993	mokhatlo
+1994	lefapha
+1995	mafura
+1996	teko
+1997	bapisa
+1998	tšesaane
+1999	sehoai
+2000	e sa tloaelehang
+2001	senyesemane
+2002	tshepo
+2003	sehlopha
+2004	betsa
+2005	qotsa
+2006	leboea
+2007	sebui
+2008	sefuba
+2009	tlatsetso
+2010	lehlaku
+2011	boiqapelo
+2012	tshebeletsano
+2013	katiba
+2014	pelaelo
+2015	tshepiso
+2016	phehella
+2017	ka kakaretso
+2018	mooki
+2019	potso
+2020	nako e telele
+2021	lefutso
+2022	sephutheloana
+2023	makatsa
+2024	bothata
+2025	hanyane
+2026	ntate
+2027	khakanyo
+2028	lethathamo
+2029	nako
+2030	hlahisa maikutlo
+2031	thuso
+2032	khahlano le
+2033	tsetela
+2034	ka bowena
+2035	maikutlo
+2036	tlhaloso
+2037	boema-fofane
+2038	ketane
+2039	pepesa
+2040	notlela
+2041	kgodisa
+2042	mocha
+2043	ka hloko
+2044	tabohile
+2045	lefa
+2046	qalo
+2047	nyehelo
+2048	reka
+2049	tataisa
+2050	pele
+2051	hae
+2052	tlamahano
+2053	letsatsi la tsoalo
+2054	leetong
+2055	rapela
+2056	ntlafatso
+2057	khale-khale
+2058	lokela
+2059	phonyoha
+2060	tselaneng
+2061	sootho
+2062	feshene
+2063	bolelele
+2064	letlapa
+2065	lichelete
+2066	khabareng
+2067	phoso
+2068	hang feela
+2069	felisa
+2070	tshisinyo
+2071	bohlokoa
+2072	ka thoko
+2073	motsoako
+2074	lekanyetsoa
+2075	tlhaloso
+2076	kopanya
+2077	lehloa
+2078	kenya tshebetsong
+2079	ntle
+2080	e loketseng
+2081	karolo
+2082	mebaraka
+2083	amohela
+2084	tse ding
+2085	bomo
+2086	thella
+2087	lebatowa
+2088	tlhokeho
+2089	mesifa
+2090	tshoanya
+2091	tsoha
+2092	Bohata
+2093	mohlomong
+2094	popo
+2095	ka tlwaelo
+2096	tšebeliso ea chelete
+2097	sesebedisoa
+2098	boima
+2099	hole
+2100	tenya
+2101	aka
+2102	eketseha
+2103	susumetsa
+2104	arola
+2105	lerata
+2106	mosehla
+2107	sepheo
+2108	lengolo-tsoibila
+2109	potoloho
+2110	sesupo
+2111	app
+2112	khauta
+2113	hana
+2114	tsebisa
+2115	temoho
+2116	moeti
+2117	lahla
+2118	kgahlanong le
+2119	kahlolo
+2120	bolela
+2121	phomola
+2122	moemeli
+2123	fetisa
+2124	puso
+2125	feela
+2126	mohlahisi
+2127	whoa
+2128	tsela
+2129	leshano
+2130	tloaelehileng
+2131	mohlahlobi
+2132	akhaonte
+2133	khethang
+2134	monko
+2135	e motshehadi
+2136	phelang
+2137	bokooa
+2138	papiso
+2139	letsoho
+2140	tekanyetso
+2141	khamphaseng
+2142	lekola
+2143	tiileng
+2144	lekala
+2145	hlanya
+2146	hanyane
+2147	mohlomphehi
+2148	khanyetso
+2149	ka potlako
+2150	belaela
+2151	naha
+2152	otla
+2153	ka thoko
+2154	moatlelete
+2155	bula
+2156	thapelo
+2157	kgafetsa
+2158	hira
+2159	basketball
+2160	e teng
+2161	phetohelo
+2162	tobetsa
+2163	maikutlo
+2164	Masepa
+2165	sethala
+2166	ka morao
+2167	foreimi
+2168	boipiletso
+2169	qotsa
+2170	bokhoni
+2171	ntoa
+2172	letšoao
+2173	nolofalletsa
+2174	molao
+2175	tlatsetso
+2176	lab
+2177	hanyetsa
+2178	mola
+2179	bojaki
+2180	letlotlo
+2181	tebello
+2182	inthaneteng
+2183	tatso
+2184	fokotseha
+2185	hohela
+2186	ha
+2187	bakeng sa
+2188	lelapa
+2189	arola
+2190	phefumoloha
+2191	boteng
+2192	seipone
+2193	mofofisi wa sefofane
+2194	ema
+2195	phomolo
+2196	lebese
+2197	temoso
+2198	lehodimong
+2199	phalla
+2200	ka ho toba
+2201	tlohela
+2202	khalori
+2203	peo
+2204	e kgolo
+2205	baesekele
+2206	Sejeremane
+2207	mohiri
+2208	hulanya
+2209	tekheniki
+2210	tlokotsi
+2211	pontsho
+2212	thekiso
+2213	ntloana
+2214	atleha
+2215	tsitsang
+2216	lenaneo
+2217	phethahatso
+2218	dijo
+2219	seka
+2220	ho thola
+2221	moqolotsi oa litaba
+2222	bibele
+2223	mofumahadi
+2224	arola
+2225	litšenyehelo
+2226	tranelate
+2227	kgahlamelo
+2228	pele
+2229	mobu
+2230	lengeloi
+2231	leetong
+2232	tshepo
+2233	bohlokoa
+2234	tanka
+2235	chisi
+2236	kemiso
+2237	kamore ya ho robala
+2238	molumo
+2239	khetho
+2240	letsatsi
+2241	ka ho phethahala
+2242	lebili
+2243	lekhalo
+2244	mokaubere
+2245	ka tlase
+2246	hanana
+2247	tšobotsi
+2248	protheine
+2249	qeto
+2250	kaofela
+2251	tlhompho
+2252	tse fokolang
+2253	moenjiniere
+2254	tsamaya
+2255	sejana
+2256	senya
+2257	hatisa
+2258	khatello ea maikutlo
+2259	mothaka
+2260	mafura
+2261	teng
+2262	hodimo
+2263	thatela
+2264	CEO
+2265	ponong
+2266	boiketsiso
+2267	potlakile
+2268	Keiti
+2269	butle
+2270	neng kapa neng
+2271	ho kena
+2272	Sejapane
+2273	bohlooho
+2274	thuso
+2275	bophahamo
+2276	phehisana
+2277	busa
+2278	ka lebaka
+2279	hantlentle
+2280	molemo
+2281	mohato
+2282	conservative
+2283	fola
+2284	nyatso
+2285	fakalthi
+2286	phihlello
+2287	joala
+2288	phekolo
+2289	khopiso
+2290	thetsa
+2291	'molai
+2292	botho
+2293	naha
+2294	ka botebo
+2295	utloahalang
+2296	haufinyane
+2297	monya
+2298	phetoho
+2299	ka toka
+2300	kholomo
+2301	hlapa
+2302	konopo
+2303	mohanyetsi
+2304	tshela
+2305	mofalli
+2306	pele
+2307	kabo
+2308	kolofo
+2309	moimana
+2310	e sa kgoneng
+2311	mofuta o mong
+2312	thatohatsi
+2313	Ema
+2314	mabifi
+2315	karolo
+2316	fumana
+2317	ho ipolaea
+2318	otlolla
+2319	khaello
+2320	seka
+2321	letsatsi
+2322	tletlebo
+2323	e nang le bokhoni
+2324	sekaseka
+2325	tshohile
+2326	motshehetsi
+2327	cheka
+2328	mashome a mabeli
+2329	boiketsiso
+2330	filosofi
+2331	bongoana
+2332	tlase
+2333	hantle
+2334	kantle
+2335	lefifi
+2336	leruo
+2337	boiketlo
+2338	bofutsana
+2339	mochochisi
+2340	tsa moya
+2341	habeli
+2342	lekola
+2343	boima
+2344	Iseraele
+2345	suthela
+2346	araba
+2347	chelete
+2348	pontsho
+2349	thipa
+2350	chitja
+2351	theknoloji
+2352	lefokisi
+2353	phuthela
+2354	pherekano
+2355	sebupuoa
+2356	tabohile
+2357	haufi-ufi
+2358	indasteri
+2359	matlo
+2360	shebella
+2361	chip
+2362	ho sa tsotellehe
+2363	bongata
+2364	tlama
+2365	mefuta-futa
+2366	laela
+2367	ho thunya
+2368	leshome le metso e mmedi
+2369	pop
+2370	lera
+2371	bohobe
+2372	mokgelo
+2373	tjantjello
+2374	thibela
+2375	tsela e kgolo
+2376	hloekileng
+2377	molaoli
+2378	feteletseng
+2379	phatlalatso
+2380	manyala
+2381	molekane
+2382	hlola
+2383	sephiri
+2384	'mampoli
+2385	kenya
+2386	pale
+2387	tokoloho
+2388	moamoheli
+2389	tlase
+2390	mopalami
+2391	ngaka
+2392	ea phethileng lithuto tse holimo
+2393	bohale
+2394	ntho
+2395	sepakapaka
+2396	hlohlelletsa
+2397	Muslim
+2398	temana
+2399	pepere
+2400	hatisa
+2401	thapo
+2402	sekwere
+2403	risepe
+2404	morwalo
+2405	ka thoko
+2406	marulelo
+2407	moroho
+2408	finyella
+2409	khutsitseng
+2410	tloaelo
+2411	sibollo
+2412	kakaretso
+2413	ho hlaphoheloa
+2414	dna
+2415	fumana
+2416	sebaka
+2417	kharebe
+2418	kopanyelletsa
+2419	Setereiti
+2420	ka 'nete
+2421	bopaki
+2422	tšohile
+2423	hanghang
+2424	ho paka
+2425	sebe
+2426	sa tloaelehang
+2427	raese
+2428	boenjiniere
+2429	tsoelo-pele
+2430	puisano
+2431	pata
+2432	ntse
+2433	kuku
+2434	ea sa tsejoeng
+2435	folakha
+2436	mehleng ena
+2437	molemo
+2438	chankana
+2439	mahaeng
+2440	bapisa
+2441	mokoetlisi
+2442	tlhaloso
+2443	moputso
+2444	lijo tsa hoseng
+2445	e matla
+2446	boemo
+2447	ho boloka
+2448	e kgutshwane
+2449	lokisa
+2450	phokotso
+2451	ka mehla
+2452	thusa
+2453	tjee
+2454	kamehla
+2455	tumello
+2456	haholo-holo
+2457	boithabiso
+2458	hoeletsa
+2459	akatemi
+2460	teaspoon
+2461	lora
+2462	phetiso
+2463	tloaelehileng
+2464	motsoalle
+2465	tleleniki
+2466	bala
+2467	rohaka
+2468	tsela
+2469	moprista
+2470	mosebetsi
+2471	senya
+2472	Khatholoha
+2473	molato
+2474	fetola
+2475	joang
+2476	tšesaane
+2477	morabe
+2478	morutehi
+2479	khatiso
+2480	lahla
+2481	e sebetsang
+2482	tšoaetso
+2483	tsa mmino
+2484	tlhahiso
+2485	khanyetso
+2486	tsuba
+2487	khosana
+2488	bokudi
+2489	akareletsa
+2490	khoebo
+2491	rephaboliki
+2492	moithaopi
+2493	tebelo
+2494	kakaretso
+2495	tlhatlhobo
+2496	ea ka
+2497	kgahlanong le
+2498	hlollang
+2499	switjha
+2500	ntsho
+2501	iraki
+2502	tšepe
+2503	lemoha
+2504	motheo
+2505	poleloana
+2506	monahano
+2507	lehlabathe
+2508	moqapi
+2509	thero
+2510	etellang pele
+2511	mokgoa
+2512	pina
+2513	tlhompho
+2514	ka bophara
+2515	ketsahalo
+2516	poketso
+2517	hoo e ka bang
+2518	tlohela mosebetsi
+2519	sebakeng se seng
+2520	mokete
+2521	kepisi
+2522	sireletsehileng
+2523	khomaretsa
+2524	mochine
+2525	maikemisetso
+2526	boemo
+2527	lla
+2528	tse makatsang
+2529	sepanish
+2530	ka matla
+2531	morabe
+2532	sepalangoang
+2533	pitsa
+2534	mohlankana
+2535	ho nahanela
+2536	pele
+2537	ho tlohela mosebetsi
+2538	ka seoelo
+2539	kopanetsoe
+2540	pelaelo
+2541	boloka
+2542	e kgolohadi
+2543	koae
+2544	fektheri
+2545	bohlokoa
+2546	sekotwana
+2547	motlakase
+2548	senatla
+2549	lekgoba
+2550	kenya
+2551	ka katleho
+2552	Mokreste
+2553	hlokomela
+2554	hlolla
+2555	qeto
+2556	setseng
+2557	ho kenya letsoho
+2558	molapo
+2559	tlosa
+2560	tšimoloho
+2561	mocha
+2562	ka ho khetheha
+2563	tsa congress
+2564	tlama
+2565	jase
+2566	tora
+2567	laesense
+2568	twitter
+2569	qobella
+2570	hlokang molato
+2571	kharikhulamo
+2572	poso
+2573	khakanyo
+2574	temohisiso
+2575	mofuputsi
+2576	vaerase
+2577	leholiotsoana
+2578	e nepahetseng
+2579	phano
+2580	otla
+2581	buisana
+2582	sefapano
+2583	fapana
+2584	baki
+2585	eketseha
+2586	botala
+2587	ka ho lekana
+2588	lefa
+2589	ho
+2590	kganya
+2591	tlhaloso
+2592	boiqapelo
+2593	boipelaetso
+2594	mama
+2595	bolela
+2596	lefahla
+2597	bofutsana
+2598	enngwe
+2599	pele
+2600	kobeha
+2601	tshoso
+2602	boikoetliso
+2603	litekanyetso
+2604	moarabe
+2605	ditshila
+2606	selikalikoe
+2607	sebapadiswa
+2608	ka kgonehang
+2609	tlhaselo
+2610	tlhoro
+2611	khalefo
+2612	boot
+2613	dramatic
+2614	thaka
+2615	matlafatsa
+2616	lipalo
+2617	thella
+2618	mohau
+2619	pinki
+2620	lerole
+2621	rakgadi
+2622	lahlehileng
+2623	tebello
+2624	maikutlo
+2625	mm-hmm
+2626	settlement
+2627	ho ena le hoo
+2628	lokafatsa
+2629	botebo
+2630	lero
+2631	semmuso
+2632	hoo e ka bang
+2633	pokello ea lintho
+2634	tsitsipano
+2635	mmetso
+2636	raloa
+2637	botumo
+2638	ka tlwaelo
+2639	bohlasoa
+2640	thabo
+2641	tshepe
+2642	koloi
+2643	khoebo
+2644	moputso
+2645	ho feta moo
+2646	senatla
+2647	motsoala
+2648	tloaelehileng
+2649	ea phethileng lithuto tse holimo
+2650	leshome le metso e mmedi
+2651	tlhaboloho
+2652	seo ho thoeng ke
+2653	thusa
+2654	tlhodisano
+2655	ratehang
+2656	ho tšoasa litlhapi
+2657	matšoenyeho
+2658	setsebi
+2659	khabone
+2660	tlhamo
+2661	boislamo
+2662	tlotla
+2663	tšoantšiso
+2664	e makatsang
+2665	bobe
+2666	motho osele
+2667	lebanta
+2668	hlohlelletsa
+2669	lahla
+2670	ea bohlano
+2671	foromo
+2672	tapole
+2673	setshosa
+2674	tsuba
+2675	mohala
+2676	peto
+2677	palema
+2678	jete
+2679	sesole sa metsing
+2680	nyakalletse
+2681	morero
+2682	angle
+2683	nyatsa
+2684	motshwaruwa
+2685	taeo
+2686	therisano
+2687	Yerrrrrrr
+2688	botoro
+2689	lehoatata
+2690	rarahane
+2691	moputso
+2692	foufetseng
+2693	abela
+2694	kulo
+2695	tlhokomeliso
+2696	tatelano
+2697	hlakisa
+2698	rothela
+2699	phuthela
+2700	mofani wa thepa
+2701	qhekella
+2702	nyane
+2703	moitseki
+2704	thothokiso
+2705	phomolo
+2706	lekanya
+2707	sehlopha sa ditlokotsebe
+2708	lekunutu
+2709	oache
+2710	hlophisa
+2711	kotlo
+2712	mala
+2713	konsarete
+2714	qalong
+2715	lipalo-palo
+2716	elektronike
+2717	hantle
+2718	ofising
+2719	phiri
+2720	le/kapa
+2721	classic
+2722	khothaletso
+2723	e thabisang
+2724	moetsi
+2725	ratehang
+2726	maikutlo
+2727	robehile
+2728	betri
+2729	tlaleho
+2730	tshebetso
+2731	tsoha
+2732	ngoana
+2733	lebaka
+2734	phano
+2735	tshoarela
+2736	bonahalang
+2737	haholo
+2738	e monyane
+2739	rep
+2740	mefuta-futa
+2741	khoele
+2742	qoso
+2743	morao
+2744	e ntle
+2745	motlatsi
+2746	tsosolosa
+2747	motsoalle
+2748	tsa kelello
+2749	ntle le
+2750	e matla
+2751	botsoalle
+2752	bobe
+2753	lane
+2754	lapile
+2755	linaoa
+2756	sauce
+2757	hatisa
+2758	busa
+2759	tekolo
+2760	leqheka
+2761	boikgopotso
+2762	bosieo
+2763	khopisa
+2764	seka
+2765	temoho
+2766	lemoha
+2767	khaba
+2768	haha
+2769	hmm
+2770	tshoaroa
+2771	tumello
+2772	lithuso
+2773	athe
+2774	tshireletso
+2775	boikemelo
+2776	kopa tshwarelo
+2777	holimo
+2778	asian
+2779	rosa
+2780	moea
+2781	ho kenya letsoho
+2782	sa feleng
+2783	terata
+2784	tsheshetsa
+2785	toeba
+2786	sefofane
+2787	mothehi
+2788	sepheo
+2789	kae kapa kae
+2790	mofuta o mong
+2791	ketsahalo
+2792	fetoha
+2793	eseng
+2794	ehlile
+2795	silevera
+2796	sente
+2797	bokahohle
+2798	motjha
+2799	bohlokoa
+2800	sebohi
+2801	kemiso
+2802	bohlanya
+2803	chokolete
+2804	nahanela
+2805	tlase
+2806	nkhono
+2807	misaele
+2808	hoo e ka bang
+2809	molaotheo
+2810	leetong
+2811	lefutso
+2812	tsoelo-pele
+2813	amanang
+2814	swing
+2815	qetellong
+2816	moetsi
+2817	tse sa tsejoeng
+2818	hlakola
+2819	lijalo
+2820	pholoho
+2821	mola
+2822	tekanyo
+2823	hanyetsa
+2824	kopo
+2825	rola
+2826	sebopeho
+2827	lefifi
+2828	tiisetso
+2829	ea nalane
+2830	morupelli
+2831	mahoashe
+2832	basebetsi
+2833	morabe
+2834	thulana
+2835	sekhukhuni
+2836	borena
+2837	phahameng
+2838	dula
+2839	khatiso
+2840	metsi
+2841	timetso
+2842	e tala
+2843	ka hare
+2844	tswela pele
+2845	tlola
+2846	chate
+2847	lebelo
+2848	lichelete
+2849	mmampodi
+2850	phanyeha
+2851	belaela
+2852	eletsa
+2853	qalong
+2854	e tsoetseng pele
+2855	ho ka etsahala
+2856	mokoallo
+2857	buella
+2858	label
+2859	phihlello
+2860	tshosang
+2861	moroalo
+2862	tlolo
+2863	fapaneng
+2864	sethoto
+2865	bophelong
+2866	sebetsa
+2867	letlole
+2868	e tsoelang pele
+2869	itšoara
+2870	tloaelo
+2871	nehelano
+2872	phepelo
+2873	lisebelisoa
+2874	senepe
+2875	Mexico
+2876	lebala la lipapali
+2877	fetolela
+2878	sekoloto sa ntlo
+2879	sheriff
+2880	tleliniki
+2881	ohla
+2882	kopanelo
+2883	ka tlhaho
+2884	ka tshepo
+2885	kopanya
+2886	menu
+2887	boreledi
+2888	papatso
+2889	toloka
+2890	semela
+2891	qhala
+2892	Muslim
+2893	bonahalang
+2894	tlhophiso
+2895	kenyeletsa
+2896	Arohane
+2897	kganya
+2898	polokelo
+2899	moralo
+2900	ka botshepehi
+2901	lelekisa
+2902	feheloa
+2903	tiisetsa
+2904	thuso
+2905	tatso
+2906	e mabifi
+2907	kuku
+2908	tshoso
+2909	mahala
+2910	bohlokoa
+2911	morui
+2912	nchafatsa
+2913	selekane
+2914	rua
+2915	mmuso
+2916	bohelehele
+2917	poone
+2918	leha ho le joalo
+2919	bala
+2920	potlaka
+2921	bopaki
+2922	tsa mathomo
+2923	phetiso
+2924	thupa
+2925	hantle
+2926	loma
+2927	fuoa
+2928	e kgolo
+2929	ho itshetlehile ka
+2930	tadima
+2931	lesela
+2932	ho tsepamisa maikutlo
+2933	mohlahisi
+2934	fumanehile
+2935	khetho
+2936	senya
+2937	hlola
+2938	baeloji
+2939	chamber
+2940	ka ho tshoana
+2941	thupa
+2942	sebete
+2943	ntshetsopele
+2944	nkwe
+2945	karolelano
+2946	morati
+2947	katoloso
+2948	kopana
+2949	nako le nako
+2950	ho hloka mosebetsi
+2951	phoofolo ea lapeng
+2952	tšabeha
+2953	laboratori
+2954	motsamaisi
+2955	moea
+2956	kotara
+2957	rokete
+2958	tokisetso
+2959	mong ka
+2960	itshepa
+2961	strategic
+2962	tsa metsing
+2963	qotsa
+2964	mohatisi
+2965	popontshwa
+2966	totobatsa
+2967	nate
+2968	mohlabani
+2969	boemo
+2970	motlakase
+2971	mohlala
+2972	lehlohonolo
+2973	qhoqhoa
+2974	phapang
+2975	hlometse
+2976	buisana
+2977	ditsheho
+2978	bohlale
+2979	moqolotsi wa ditaba
+2980	motsoako
+2981	polao
+2982	mothusi
+2983	boloka
+2984	tamati
+2985	Indian
+2986	paka
+2987	motsoako
+2988	ho tloha
+2989	sehlopha sa linaleli
+2990	tšoaneleha
+2991	leano
+2992	gop
+2993	lihlong
+2994	tsepamisa maikutlo
+2995	tlholisano
+2996	selelekela
+2997	moeli
+2998	tube
+2999	khahlano
+3000	moapehi
+3001	kgafetsa
+3002	mobe
+3003	screw
+3004	morwalo
+3005	leleme
+3006	palestina
+3007	tsa lichelete
+3008	molatsoana
+3009	letheka
+3010	felehetsa
+3011	fokotseha
+3012	bokhukhuni
+3013	moqosi
+3014	moqolotsi
+3015	ho vouta
+3016	mophaphathehi
+3017	kopano
+3018	bomenemene
+3019	moedi
+3020	ntlo
+3021	kopanelo
+3022	lebenkeleng
+3023	senyehile
+3024	makatsa
+3025	boemedi
+3026	tshoarela
+3027	bosebeletsi
+3028	sephara
+3029	bohlale
+3030	paki
+3031	tshoarelo
+3032	ngodisa
+3033	metlae
+3034	reka
+3035	tlanya
+3036	mafaratlhatlha
+3037	manyolo
+3038	islam
+3039	mefuta-futa
+3040	mohau
+3041	hlalefo
+3042	e tiileng
+3043	boemakepe
+3044	qetello
+3045	mmaraka
+3046	feletseng
+3047	puisano
+3048	mmoho
+3049	makhetlo a mangata
+3050	morabe
+3051	kantle
+3052	kopano
+3053	fetola
+3054	makatsa
+3055	selefouno
+3056	ho theoa
+3057	tšoenyehile
+3058	sala hantle
+3059	ho reka
+3060	motho ea tummeng
+3061	congressman
+3062	khahlisa
+3063	molefi
+3064	ikamahanya le maemo
+3065	phatlalatsa
+3066	boikgohomoso
+3067	liaparo
+3068	ka potlako
+3069	domain/
+3070	haholoholo
+3071	siling
+3072	fetola
+3073	bodulo
+3074	ka tšohanyetso
+3075	boitlamo
+3076	shaoara
+3077	kopa
+3078	robetseng
+3079	sebini
+3080	e makatsang
+3081	ditshila
+3082	pc
+3083	tšepe
+3084	monko
+3085	tshenyo
+3086	mokete
+3087	leseli
+3088	tataiso
+3089	matšeliso
+3090	haufi
+3091	boimana
+3092	alima
+3093	tloaelehileng
+3094	mohahlaudi
+3095	khothatso
+3096	tloaelo
+3097	lerama
+3098	tlholisano
+3099	habeli
+3100	sathelaete
+3101	haufi
+3102	kakaretso
+3103	tsitsitseng
+3104	moriana
+3105	mongolo
+3106	ruta
+3107	e sebetsang hantle
+3108	kotsi
+3109	amohela
+3110	tshosa
+3111	psychology
+3112	logic
+3113	moruo
+3114	nchafatsa
+3115	leha ho le joalo
+3116	diabolose
+3117	mashome a mararo
+3118	otla
+3119	liphallelo
+3120	fiber
+3121	leqhubu
+3122	e loketseng
+3123	botsoalle
+3124	nete
+3125	thotloetso
+3126	ka tsela e fapaneng
+3127	boloka
+3128	moshebelli
+3129	botho
+3130	mophonyohi
+3131	terata
+3132	kgutsitse
+3133	metlae
+3134	e kgolo
+3135	lepato
+3136	mmuelli
+3137	katoloso
+3138	hlephileng
+3139	tebela
+3140	rahistori
+3141	tshenyeho
+3142	tekatekano
+3143	khemikhale
+3144	sebini
+3145	tahiloe
+3146	sesa
+3147	Anyanese
+3148	setsebi
+3149	e hlokang
+3150	tšoeu
+3151	pan
+3152	aba
+3153	sethoto
+3154	mokato
+3155	ho thuisa
+3156	haufinyane
+3157	database
+3158	phalla
+3159	hole
+3160	tumello
+3161	tsotehang
+3162	letsatsi le letsatsi
+3163	mokgoa wa bophelo
+3164	fiela
+3165	hlobotse
+3166	lekaneng
+3167	tau
+3168	tshebediso
+3169	bokgoni
+3170	itloaetsa
+3171	tlhahiso
+3172	barathoko
+3173	crap
+3174	morekisi
+3175	tekanyo
+3176	bohlokoa
+3177	tsotehang
+3178	baka
+3179	fantastic
+3180	moeletsi
+3181	Khefutsa
+3182	feela
+3183	monahano
+3184	radical
+3185	tlokotsi
+3186	tshosa
+3187	moeletsi
+3188	e nepahetseng
+3189	molefothenente
+3190	koatile
+3191	khahla
+3192	acre
+3193	ho taka
+3194	hloloa
+3195	bocha
+3196	sekgobo
+3197	lenqosa
+3198	ooh
+3199	letheba
+3200	dikahare
+3201	chitja
+3202	benche
+3203	tataisa
+3204	khaoletsa
+3205	khemikhale
+3206	mathata
+3207	rat
+3208	tshoso
+3209	boipiletso
+3210	tlokotsing
+3211	thibelo
+3212	sekwere
+3213	karolo
+3214	thibelo
+3215	mohatla
+3216	theha
+3217	hampe
+3218	hlohonolofatsa
+3219	bongodi
+3220	boselamose
+3221	phethahatso
+3222	molaong
+3223	hanyane
+3224	senyehile
+3225	hlobolisa
+3226	tsielehile
+3227	hole
+3228	kgetho
+3229	lipolotiking
+3230	maikutlo
+3231	tlhokomelo ea bophelo
+3232	senokoane
+3233	ka khona
+3234	italian
+3235	qaqisitsoe
+3236	moreki
+3237	phoso
+3238	tšebelisano
+3239	mosebetsi
+3240	ka tsela e makatsang
+3241	namunu
+3242	ho bolaea
+3243	qosa
+3244	motšea difoto
+3245	mathang
+3246	boikopanyo
+3247	fapana
+3248	penta
+3249	sekontiri
+3250	e pharaletseng
+3251	salate
+3252	litepisi
+3253	hlokomela
+3254	mohau
+3255	tlhalo
+3256	sekepe
+3257	kolobe
+3258	kabelo
+3259	kgethollo
+3260	lekana
+3261	potoloho
+3262	asiti
+3263	baleha
+3264	bokgabane
+3265	sehopotso
+3266	sisintsweng
+3267	putsoa
+3268	mokhatlo
+3269	iphone
+3270	kotlo
+3271	kgefutsa
+3272	pilisi
+3273	rutla
+3274	tsa lerato
+3275	tshomo
+3276	setsebi sa moruo
+3277	Selatine
+3278	hlomphehang
+3279	mothusi
+3280	mosebetsi oa matsoho
+3281	poko
+3282	sekhukhuni
+3283	khoele
+3284	lehong
+3285	ferekanya
+3286	sehlooho
+3287	tokelo
+3288	mashala
+3289	sethoto
+3290	khomo
+3291	khetholla
+3292	pie
+3293	fokotseha
+3294	phomolo
+3295	lefa
+3296	khatello ea maikutlo
+3297	ka botshepehi
+3298	taba
+3299	hlakola
+3300	fumana
+3301	semumu
+3302	bophara
+3303	popeho
+3304	ntate-moholo
+3305	ka hona
+3306	takatso
+3307	moeling
+3308	leqeba
+3309	pontsho
+3310	lekgotla la ketsamolao
+3311	ho feta moo
+3312	setšoantšo
+3313	katoliki
+3314	tshehetsa
+3315	junifomo
+3316	bohloko
+3317	lerata
+3318	mohlolo
+3319	kotsi
+3320	zero
+3321	leqheka
+3322	maske
+3323	khutsitseng
+3324	tlhokeho ya ditjhelete
+3325	ho tsoma
+3326	mmeleng
+3327	qetela
+3328	nama
+3329	nakoana
+3330	molekane
+3331	methapo
+3332	matšoafo
+3333	tsitsitseng
+3334	sehlooho sa litaba
+3335	tshohanyetso
+3336	ka katleho
+3337	moqosuoa
+3338	palo
+3339	kgotsofatsa
+3340	Monyako
+3341	sefofane
+3342	ntsha
+3343	khabinete
+3344	mong ka
+3345	kgafetsa
+3346	thabo
+3347	kamohelo
+3348	kamano
+3349	tekanyo
+3350	khang
+3351	pompong
+3352	moputso
+3353	moeletsi
+3354	ho rekota
+3355	qubu
+3356	ho qhoma
+3357	khetha
+3358	bethe
+3359	kelello
+3360	thepa ea ka tlung
+3361	bohlokoa
+3362	lebohang
+3363	boselamose
+3364	sutu
+3365	khomishenara
+3366	raka
+3367	e kgolohadi
+3368	mohlabani
+3369	fisiks
+3370	karatjhe
+3371	tatso
+3372	petetsa
+3373	hlahelletseng
+3374	mashome a mahlano
+3375	fade
+3376	ontong
+3377	kgotsofalo
+3378	kgethollo
+3379	ho putlama ha moruo
+3380	qoso
+3381	boom
+3382	beke le beke
+3383	morao tjena
+3384	thibelo
+3385	taemane
+3386	tokomane
+3387	petsoha
+3388	kholiseho
+3389	serethe
+3390	fake
+3391	botumo
+3392	kganya
+3393	swing
+3394	makhaola-khang
+3395	setšoantšisi
+3396	qhekella
+3397	sebopeho
+3398	khang
+3399	koloi
+3400	fana
+3401	korosari
+3402	ntlo-khōlō
+3403	Robala Ka Khotso
+3404	boemo
+3405	moriti
+3406	laola
+3407	metara
+3408	liolimpiki
+3409	phala
+3410	mokuli
+3411	mokete
+3412	e tletseng letsoho
+3413	itshetlehile
+3414	tekeno
+3415	mobishopo
+3416	matlafatsa
+3417	sopho
+3418	tokelo
+3419	mang kapa mang
+3420	mojari
+3421	sehopotso
+3422	pizza
+3423	boitšoaro
+3424	tšōmo
+3425	ntsu
+3426	boithuto
+3427	petsoha
+3428	lipatlisiso
+3429	setho
+3430	emeng
+3431	thuo
+3432	selekane
+3433	karolo e itseng
+3434	kelello
+3435	tlhahiso
+3436	phatlalatso
+3437	thaere
+3438	che
+3439	boelana
+3440	pop
+3441	ho bolela esale pele
+3442	botsitso
+3443	qaqisa
+3444	tloaelo
+3445	irish
+3446	masene
+3447	ka bonolo
+3448	mosebeletsi
+3449	mabenkele
+3450	menyenyetsi
+3451	seroki
+3452	tšekamelo
+3453	latelang
+3454	mojaki
+3455	qhoma
+3456	phodileng
+3457	qabang
+3458	tlhokomelo
+3459	sebete
+3460	feteletsa
+3461	e tiileng
+3462	mosuoe-hlooho
+3463	ente
+3464	boitsebiso
+3465	sandwich
+3466	poho
+3467	lense
+3468	leshome le metso e mmedi
+3469	mainstream
+3470	bopresidente
+3471	botshepehi
+3472	ikhethang
+3473	bohlale
+3474	bobeli
+3475	leeme
+3476	khopolo-taba
+3477	leshome le metso e mehlano
+3478	kgetho
+3479	tieho
+3480	tokiso
+3481	kotlo
+3482	fana
+3483	lebenkele
+3484	amohelehile
+3485	kopanelo
+3486	hodimo
+3487	tlhatlhobo
+3488	e nang le moelelo
+3489	bokomonisi
+3490	hodimo
+3491	chelete
+3492	kopanelo
+3493	keletso
+3494	lelakabe
+3495	katara
+3496	thuto
+3497	palestina
+3498	phaphametse
+3499	khoebo
+3500	qapa
+3501	roboto
+3502	ka potlako
+3503	hlaka
+3504	ka ho latellana
+3505	karoloana
+3506	ka nqane
+3507	tlelafo
+3508	ho fihlela
+3509	edita
+3510	e leka-lekaneng
+3511	jazz
+3512	lesea
+3513	kakaretso
+3514	seva
+3515	letlalo
+3516	mahlaseli
+3517	potlakisa
+3518	tshebetso
+3519	tlhamo
+3520	ho sebetsa
+3521	tiisa
+3522	nyeoe
+3523	puo
+3524	lerata
+3525	lahla
+3526	nete
+3527	liphoofolo tse hlaha
+3528	bolo ea maoto
+3529	rarahaneng
+3530	taelo
+3531	hlokomela
+3532	teropong
+3533	toro ya bosiu
+3534	moqomo
+3535	hlokang bolulo
+3536	lefatshe
+3537	sa phutholoha
+3538	phethisa
+3539	ikutloa
+3540	leraba
+3541	boitšisinyo
+3542	palesa
+3543	tente
+3544	moamoheli
+3545	pono
+3546	tlhatlhoba
+3547	e kgolo
+3548	evangeli
+3549	ka tsela e iketsang
+3550	ho loana
+3551	setorouku
+3552	lelera
+3553	letata
+3554	lijo-thollo
+3555	sebata
+3556	ho tšoenyeha
+3557	qolla
+3558	lesela
+3559	tlhabologo
+3560	mofuthu
+3561	bobolu
+3562	putlama
+3563	mofumahadi
+3564	haholo
+3565	workshop
+3566	patlisiso
+3567	hlolloa
+3568	ntsha
+3569	sethunya
+3570	sekoahelo
+3571	tlaleho
+3572	kobeha
+3573	patch
+3574	theolelo
+3575	tekolo
+3576	meputso
+3577	setsomi
+3578	fofa
+3579	kotopo
+3580	litopo
+3581	itšoara
+3582	renta
+3583	Sejeremane
+3584	hlohlelletsa
+3585	tšobotsi
+3586	maqheku
+3587	e bonahalang
+3588	bonyane
+3589	bofokodi
+3590	tsoelopele
+3591	ngaka
+3592	mahareng
+3593	bokgabane
+3594	ounce
+3595	putlama
+3596	tieho
+3597	diatleletiki
+3598	pherekano
+3599	molaodi
+3600	nolofatsa
+3601	khitla
+3602	kgama
+3603	tsela
+3604	kena
+3605	lefa
+3606	tlhoro
+3607	sabole
+3608	telescope
+3609	nehela
+3610	lehare
+3611	monoana
+3612	temothuo
+3613	paka
+3614	qobella
+3615	hira
+3616	mohau
+3617	tekanyetso
+3618	mabapi le
+3619	kopanya
+3620	sekhahla
+3621	sekontiri
+3622	lengolo la ngaka
+3623	Thekiso
+3624	ho nkeloa ka lapeng
+3625	khoeli le khoeli
+3626	bolaeang
+3627	lebitla
+3628	thapo
+3629	e ka tšeptjoang
+3630	label
+3631	kgwebisano
+3632	mohloa
+3633	ka mokhoa o tsitsitseng
+3634	thaba
+3635	bubble
+3636	ka bokhutšoanyane
+3637	monyela
+3638	mofumahadi
+3639	log
+3640	kobo
+3641	tsheha
+3642	borena
+3643	lebella
+3644	kokoanyana
+3645	tsa mathomo
+3646	nehela
+3647	mokhethoa
+3648	phetoho
+3649	tempele
+3650	kutloisiso
+3651	fihla
+3652	tsieleha
+3653	ho fetoha
+3654	pontsho
+3655	tshilafatso
+3656	poso
+3657	sepekere
+3658	e sa etseng phaello
+3659	lla
+3660	tataiso
+3661	bonts'a
+3662	pene
+3663	sitisa
+3664	sirilamunu
+3665	ho putlama
+3666	itokolla mosebetsing
+3667	e laolang
+3668	tlhaselo
+3669	halalelang
+3670	phetoho
+3671	hlahisa
+3672	tsoma
+3673	khetholla
+3674	qhibilihisa
+3675	tumellano
+3676	aka
+3677	sefora
+3678	hardware
+3679	seporo
+3680	hatsela
+3681	molekane
+3682	omme
+3683	korea
+3684	ntloana
+3685	jela
+3686	tokoloho
+3687	noha
+3688	koae
+3689	tjantjello
+3690	qhoqhoa
+3691	kae kapa kae
+3692	phamola
+3693	tlhekefetso
+3694	bohlasoa
+3695	otla
+3696	bohlasoa
+3697	hlalosa
+3698	kenya letsoho
+3699	ka tsela e bonahalang
+3700	atileng
+3701	mohlodisani
+3702	phephisa
+3703	motho e mocha
+3704	monehelo
+3705	tsamaiso
+3706	mofani
+3707	butle-butle
+3708	hlokomoloha
+3709	ntloana
+3710	thabile
+3711	tshoana
+3712	monahano
+3713	kganya
+3714	boholo
+3715	setho sa mmele
+3716	tlola
+3717	ho qala
+3718	borashe
+3719	setene
+3720	mala
+3721	peeletso
+3722	marabele
+3723	soetsehile
+3724	oak
+3725	e nepahetseng
+3726	morupelli
+3727	pholoso
+3728	khethollo ea morabe
+3729	penchene
+3730	lefu la tsoekere
+3731	ka kakaretso
+3732	sehlopha
+3733	chesehela
+3734	matekoane
+3735	ntoa
+3736	thoriso
+3737	moaparo
+3738	ea botšelela
+3739	kgafetsa
+3740	pululelo
+3741	namunu
+3742	konkreite
+3743	ho pheha
+3744	morero oa bolotsana
+3745	tshobotsi
+3746	van
+3747	tsa setheo
+3748	konofole
+3749	ho noa joala
+3750	karabo
+3751	kristale
+3752	otlolla
+3753	pro
+3754	motsoalle
+3755	helikopta
+3756	keletso
+3757	tekano
+3758	roman
+3759	rarahane
+3760	nako
+3761	mopapa
+3762	opera
+3763	tsa boitšoaro
+3764	thaba
+3765	pontsho
+3766	sepheo
+3767	mathule
+3768	matlafatsa
+3769	tadima
+3770	tsa rona
+3771	serope
+3772	ngotsoe
+3773	furalla
+3774	qalisa
+3775	ntša kotsi
+3776	e sa foleng
+3777	tsoela pele
+3778	ikhethang
+3779	kolonele
+3780	kopitsa
+3781	nama ea khomo
+3782	kantle ho naha
+3783	teboho
+3784	matla
+3785	takatso
+3786	lehaha
+3787	mokato o ka tlase
+3788	amanang
+3789	fapaneng
+3790	kgahlang
+3791	sebelisana
+3792	papiso
+3793	letsatsi le letsatsi
+3794	moelelo
+3795	setshelo
+3796	ho kganna
+3797	lintho
+3798	mahlahahlaha
+3799	Boikoitliso
+3800	bat
+3801	kopa
+3802	phahamiso
+3803	ho se tsebe hantle
+3804	borui
+3805	semmuso
+3806	tag
+3807	documentary
+3808	kutu
+3809	morwallo
+3810	molato
+3811	ka hare
+3812	alamo
+3813	kalakuni
+3814	boitšoaro
+3815	hlahloba
+3816	ea bohlokoa
+3817	koenya
+3818	qala
+3819	ho phela hantle
+3820	thibela
+3821	kou
+3822	buella
+3823	mme
+3824	tse sa lebelloang
+3825	honyela
+3826	temothuo
+3827	sehlabelo
+3828	spectrum
+3829	drakone
+3830	libaktheria
+3831	lebopong
+3832	moruti
+3833	lefika
+3834	sekepe
+3835	lekaneng
+3836	peto
+3837	tlatsetso
+3838	tackle
+3839	mosebetsi
+3840	qapa
+3841	selae
+3842	sebete
+3843	sesoleng
+3844	hlohlelletsa
+3845	patent
+3846	phofo
+3847	e thata
+3848	pherekano
+3849	kit
+3850	sena
+3851	piano
+3852	ka tsela e makatsang
+3853	alima
+3854	ka nepo
+3855	morero
+3856	busa
+3857	boitlhompho
+3858	arolelanoa
+3859	setsebi sa kelello
+3860	mosebeletsi
+3861	bohlasoa
+3862	lifti
+3863	hispanic
+3864	bomodimo
+3865	phetiso
+3866	butt
+3867	ka tloaelo
+3868	moshanyana oa likhomo
+3869	boiketlo
+3870	maikemisetso
+3871	tlhabollo
+3872	bonolo
+3873	morethetho
+3874	kgutshoanyane
+3875	ho rarahana
+3876	leha ho le joalo
+3877	katleho
+3878	bodutu
+3879	lipalo-palo
+3880	nako e telele
+3881	hlaba
+3882	tiileng
+3883	litšila
+3884	inehela
+3885	lebelo
+3886	boitlamo
+3887	notlela
+3888	mothusi
+3889	poteletseng
+3890	thupa
+3891	holimo
+3892	moahi
+3893	sekipa
+3894	mamella
+3895	moahi
+3896	seroto
+3897	ka thata
+3898	ea hlotsoeng
+3899	franchise
+3900	mohalaledi
+3901	sepheo
+3902	qoso
+3903	loma
+3904	mantsoe a pina
+3905	motsoako
+3906	kaho
+3907	fihla
+3908	moo sebaka se fellang teng
+3909	sebetsana
+3910	profinse
+3911	kakaretso
+3912	thuto
+3913	qhalla
+3914	ea sebele
+3915	hodimo
+3916	boipelaetso
+3917	khoebo
+3918	Ka kopo
+3919	kamohelo
+3920	tshenolo
+3921	gwanta
+3922	sesupo
+3923	tshebedisano
+3924	rhetoric
+3925	pina
+3926	slam
+3927	e ke keng ea qojoa
+3928	tšoene
+3929	ho fihlela
+3930	protocol
+3931	e behang
+3932	mosuoe-hlooho
+3933	qeta
+3934	jeans
+3935	molekane
+3936	moahlodi
+3937	matlafatsa
+3938	moamoheli
+3939	ka sebele
+3940	array
+3941	qekisa
+3942	nyenyefatsa
+3943	ee
+3944	polasi
+3945	sehloela
+3946	khau
+3947	sa feleng
+3948	phetolelo
+3949	ski
+3950	paballo
+3951	bodulo
+3952	rakonteraka
+3953	kolotsana
+3954	moqomo
+3955	thaole
+3956	Sala hantle
+3957	kotsi
+3958	bonase
+3959	ka tsela e makatsang
+3960	mofuta
+3961	moletsi
+3962	Etsoa
+3963	hoka
+3964	boitšoaro
+3965	tlola
+3966	sekoti
+3967	moithaopi
+3968	borang
+3969	hoka
+3970	fanyeha
+3971	k'holeseterole
+3972	koaloa
+3973	papatso
+3974	ho qhomisa ka libomo
+3975	rerisana
+3976	kopana
+3977	botsebi
+3978	mmopi
+3979	kgotsong
+3980	koatile
+3981	faneng ka
+3982	letlapa
+3983	phatlola
+3984	busang
+3985	qala
+3986	ho futhumala
+3987	tekano
+3988	bohlale
+3989	classic
+3990	sebelisa
+3991	phaene
+3992	fetileng
+3993	babang
+3994	molebeli
+3995	ngaka e buoang
+3996	theko e tlaase
+3997	tenese
+3998	bonono
+3999	mahlomola
+4000	nepahalo
+4001	ho tseba ho bala le ho ngola
+4002	letlotlo
+4003	talente
+4004	moqhaka
+4005	bohlokoa
+4006	hlobotse
+4007	sa bonahaleng
+4008	sajene
+4009	taolo
+4010	monoana o motona
+4011	kolone
+4012	ho tsamaya
+4013	fihlella
+4014	Yerrrrrrr
+4015	kopanyo
+4016	molekane
+4017	khau
+4018	nyakallo
+4019	bodulo
+4020	sebete
+4021	mocha
+4022	segerike
+4023	popi
+4024	oksijene
+4025	lichelete
+4026	matla a khoheli
+4027	tshebetso
+4028	ntlo ea borena
+4029	echo
+4030	k’hothone
+4031	pholoso
+4032	khakanyo
+4033	lenaneo
+4034	tshehetsa
+4035	moetsi oa molao
+4036	boikemisetso
+4037	kganya
+4038	ka nako e le nngwe
+4039	dynamics
+4040	kgetla
+4041	temoso
+4042	foreimi
+4043	tsamaisa
+4044	potlakile
+4045	bokreste
+4046	sitisa
+4047	thibelo
+4048	qosoa
+4049	molao-taelo
+4050	boleng
+4051	baeloji
+4052	rephabliki
+4053	molateli
+4054	tse mpe
+4055	hlakile
+4056	pele
+4057	ipolela
+4058	tšoanelehang
+4059	setšoantšo
+4060	lefika
+4061	leraba
+4062	tumello
+4063	pompa
+4064	fatshe
+4065	madi
+4066	hloea
+4067	nako le nako
+4068	kutu
+4069	thibela
+4070	tsitsitseng
+4071	mpa
+4072	banka
+4073	Sebono
+4074	boralitaba
+4075	kganya
+4076	karolelano
+4077	tšitiso
+4078	lepotlapotla
+4079	fodisa
+4080	Bastat
+4081	thabang
+4082	tšoarelo
+4083	hlahala
+4084	setsebi sa meralo
+4085	letsoho
+4086	boemakepe
+4087	e ntle
+4088	poho
+4089	sebaka
+4090	betsa
+4091	sotha
+4092	mohlahlobi
+4093	tebelo
+4094	tsietsi
+4095	haha bocha
+4096	marato
+4097	gross
+4098	letsatsi la pheletso
+4099	lilemo
+4100	classical
+4101	fetisa
+4102	matšeliso
+4103	kokoanyana
+4104	ngangisano
+4105	tlhahiso
+4106	palamente
+4107	suite
+4108	hanyetsoa
+4109	menahane
+4110	karohano
+4111	modemona
+4112	ho ja
+4113	sebopeho
+4114	ntle le
+4115	tekano
+4116	e utloahalang
+4117	kgonego
+4118	lebella
+4119	seatla se bulehileng
+4120	phumano
+4121	litlamong
+4122	tenyetseha
+4123	lumelisa
+4124	matlakala
+4125	tsa boahlodi
+4126	tshisinyeho ya lefatshe
+4127	bohlanya
+4128	ya sebele
+4129	tsoha
+4130	bokellana
+4131	tlhokahalo
+4132	lenaka
+4133	paramethara
+4134	tshoara
+4135	fetola
+4136	sesupo
+4137	motšehetsi
+4138	lipalo
+4139	phasejeng
+4140	moafrika-amerika
+4141	leha e le efe
+4142	boikarabelo
+4143	khasa
+4144	teori
+4145	nyatsa
+4146	mokelikeli
+4147	naha ea habo
+4148	thekenoloji
+4149	tlhatlhobo
+4150	ankora
+4151	bolota
+4152	ho nahanela
+4153	hlokolosi
+4154	vithamine
+4155	tsejoa
+4156	motshwaruwa
+4157	boloka
+4158	ka mafolofolo
+4159	leloala
+4160	motjha
+4161	tlhompho
+4162	fumana
+4163	ho sebetsa
+4164	maikutlo
+4165	nyehelo
+4166	molomo
+4167	khodisehile
+4168	ho nka lifoto
+4169	chelete ea tšepe
+4170	laptop
+4171	qhoma
+4172	molemo
+4173	kamano
+4174	phunya
+4175	qhoma
+4176	notsi
+4177	tlhohonolofatso
+4178	laela
+4179	tswelang pele
+4180	hodimo
+4181	ho kolla
+4182	lokisa
+4183	tšoenyeha
+4184	moetlo
+4185	hlapa
+4186	nyenyelepa
+4187	ka nalane
+4188	seretse
+4189	scan
+4190	khopotso
+4191	hae
+4192	bokhoba
+4193	mookamedi
+4194	bongata
+4195	liolimpiki
+4196	monate
+4197	letsoapo
+4198	mosehla
+4199	phalliso
+4200	lesira
+4201	phatlalatso
+4202	tiiso
+4203	ho itšireletsa
+4204	switjha
+4205	khalendara
+4206	serapana
+4207	tshoanang
+4208	mokitlane
+4209	soabile
+4210	batla
+4211	sephara
+4212	rakhoebo
+4213	hlakisa
+4214	khoptjoa
+4215	letsopa
+4216	mots'ehare
+4217	ho qetela
+4218	hlobolisa
+4219	setsoe
+4220	e hlahelletseng
+4221	uh-huh
+4222	bonngoe
+4223	renta
+4224	qhekella
+4225	sefofane
+4226	potefolio
+4227	mohlolo
+4228	monate
+4229	leboea-bophirimela
+4230	mofufutso
+4231	tebile
+4232	sehlabelo
+4233	letlotlo
+4234	phofo
+4235	habobebe
+4236	rally
+4237	ya kamehla
+4238	pela
+4239	hlaka
+4240	ho haka
+4241	arola
+4242	boithuto
+4243	sireletsehileng
+4244	setho
+4245	ngolisa
+4246	kantle
+4247	charter/
+4248	boroa-bophirima
+4249	phonyoha
+4250	lebala la lipapali
+4251	moloi
+4252	tlang
+4253	mashome a mane
+4254	ka tsatsi le leng
+4255	kopanya
+4256	tlhompho
+4257	seemahale
+4258	setebele
+4259	qhobosheane
+4260	nepahalotse
+4261	sehlopha
+4262	cruise
+4263	motlae
+4264	ka molao
+4265	boemeli
+4266	mamello
+4267	mahareng
+4268	ka hona
+4269	sehlahla
+4270	pherese
+4271	thaka
+4272	motlakase
+4273	seaparo
+4274	lesaka
+4275	tlohetse mosebetsi
+4276	shaka
+4277	lobby
+4278	tselana ya tsela
+4279	haufi
+4280	semathi
+4281	leqaqailana
+4282	kgahleho
+4283	sethoto
+4284	maiketsetso
+4285	mohau
+4286	matsoalloa
+4287	otla
+4288	pina
+4289	setantshi
+4290	kerese
+4291	ka thobalano
+4292	nale
+4293	patiloeng
+4294	histori
+4295	motse-toropo
+4296	chefo
+4297	bokatlase
+4298	kutlo
+4299	tsamaisa
+4300	qalo
+4301	naledi
+4302	boholo
+4303	pelaelo
+4304	pro
+4305	bokolone
+4306	letšoao
+4307	Nkhono
+4308	lintlha
+4309	bolaodi
+4310	Iranian
+4311	moholo
+4312	parade
+4313	tiiso
+4314	polokelong
+4315	nang le dimpho
+4316	khalefo
+4317	kantle
+4318	pheletso
+4319	loop
+4320	ka botlalo
+4321	lelekisa
+4322	tukang
+4323	kamohelo
+4324	sebakeng
+4325	silakanya
+4326	motheo
+4327	nka
+4328	boiketsetso
+4329	leruarua
+4330	mochine
+4331	botshepehi
+4332	khalla
+4333	hoholehile
+4334	botshepehi
+4335	tshepisa
+4336	leqhubu
+4337	motsamai
+4338	mesarelo
+4339	papiso
+4340	lehata
+4341	ho lelekisa
+4342	mophekodi
+4343	bekapo
+4344	sebaka sa mosebetsi
+4345	tlhaho ya tlhaho
+4346	thomelontle
+4347	tsoa mali
+4348	tshoso
+4349	ea bosupa
+4350	tsitsitseng
+4351	kgaso
+4352	senola
+4353	phethahatso
+4354	motsoalle
+4355	tsheha
+4356	pompa
+4357	tekano
+4358	tokiso
+4359	moemeli
+4360	qhoma
+4361	lokisa
+4362	mofuta
+4363	hlabolla
+4364	molekane oa sehlopha
+4365	borashe
+4366	phasejeng
+4367	Serussia
+4368	tjantjello
+4369	atolositsoe
+4370	motso
+4371	ho lokile
+4372	tshabo
+4373	pad
+4374	bid
+4375	bonolo
+4376	tlhahiso
+4377	khakanyo
+4378	tuketsa
+4379	hloloa
+4380	seporo
+4381	Qhamiseditse
+4382	fokotsa
+4383	hara
+4384	tlhahlobo
+4385	tekesi
+4386	lebelletsoe
+4387	bohlanya
+4388	tlola
+4389	raloa
+4390	mokalli
+4391	thutabomodimo
+4392	e tshabehang
+4393	puo ya puo
+4394	memo
+4395	araba
+4396	Iseraele
+4397	ya leshano
+4398	okamela
+4399	bohlasoa
+4400	ngodiso
+4401	motse-toropo
+4402	tshoaro
+4403	lebelo
+4404	hanghang
+4405	tlelereke
+4406	seledu
+4407	hockey
+4408	laser
+4409	tshisinyo
+4410	tlatlapa
+4411	hlaka
+4412	moholoholo
+4413	boiqapelo
+4414	temana
+4415	e kgethehileng
+4416	khanyetso
+4417	bohlale
+4418	fuoa
+4419	sututsa
+4420	phetohelo
+4421	khabohaetereite
+4422	mouoane
+4423	ka tlaleho
+4424	tadima
+4425	phatla
+4426	Lethathamo LA tsebo tsa hau
+4427	thella
+4428	linku
+4429	molemo
+4430	k'hapete
+4431	lesela
+4432	bokahare
+4433	nako eohle
+4434	mathang
+4435	lethathamo la lipotso
+4436	tenyetseha
+4437	ho tloha
+4438	molemong oa
+4439	kerafo
+4440	diplomatic
+4441	leshodu
+4442	setlamatlama
+4443	thuso
+4444	lahla
+4445	mesaletsa ea lintho tsa khale
+4446	paterola
+4447	ho otla ha pelo
+4448	mak'henike
+4449	likhomo
+4450	tlhatlhobo
+4451	tsoela pele
+4452	likhetho
+4453	ka tsela e nahanang
+4454	seriti
+4455	moporofeta
+4456	tlhaloso
+4457	hlopha
+4458	ho jaleha
+4459	ho sebeletsa
+4460	ka polokeho
+4461	mosebetsi oa sekolo o etsoang hae
+4462	ho thwe
+4463	android
+4464	alpha
+4465	kenya
+4466	ho shoa
+4467	tsekisana
+4468	tlou
+4469	feela
+4470	bohloko
+4471	kontinente
+4472	tšobotsi
+4473	tikoloho
+4474	tloha
+4475	haufi
+4476	mohloaare
+4477	lefu la tsoekere
+4478	bonyane
+4479	tšoasa
+4480	abstract
+4481	qoso
+4482	tlang
+4483	sock
+4484	nka
+4485	sekepele
+4486	ntlafatsoa
+4487	palo
+4488	boiqapelo
+4489	palo ea batho
+4490	amohela
+4491	mohlahare
+4492	e hlokang toka
+4493	bohloko
+4494	kopanyelletsa
+4495	Kapele
+4496	phepo e nepahetseng
+4497	motataisi
+4498	boemo
+4499	Mutlanyana
+4500	kgefutsa
+4501	letheba
+4502	motlatsi
+4503	sebelisana
+4504	disk
+4505	qeaqea
+4506	tlhompho
+4507	khopisa
+4508	qhekella
+4509	qobella
+4510	monyetla
+4511	ngoaneso
+4512	boroa-bochabela
+4513	e ntle
+4514	itlama
+4515	motaki
+4516	Motseng
+4517	molekane
+4518	molumeli
+4519	lebone
+4520	motšoaruoa
+4521	ka botlalo
+4522	qaqisa
+4523	fokeha
+4524	sefepi
+4525	mosamo
+4526	orbit/
+4527	sepache
+4528	ka mokhoa o ts'oanang
+4529	kgaotsa
+4530	feta
+4531	fepa
+4532	nyamela
+4533	taeo
+4534	poleloana
+4535	kelellong
+4536	mohlala
+4537	letsetsoa
+4538	letamo
+4539	ho se nke lehlakore
+4540	thebe
+4541	botumo
+4542	setsoantso
+4543	lumella
+4544	kopanetsoe
+4545	bonts'a
+4546	tebela
+4547	setšoantšo
+4548	moratuoa
+4549	ka moetlo
+4550	morekisi
+4551	hampe
+4552	ima
+4553	khethang
+4554	theoha
+4555	ka tieo
+4556	ratehang
+4557	pepeneneng
+4558	pokeletso
+4559	mojaki
+4560	kutu
+4561	feberu
+4562	rera
+4563	sitisa
+4564	motsu
+4565	hlokahala
+4566	bokapitale
+4567	raha
+4568	fereko
+4569	boithuto
+4570	khabareng
+4571	mohlomong
+4572	boemo
+4573	racise
+4574	lula
+4575	thetso
+4576	ho tlosa
+4577	tšoenyehile
+4578	moarabe
+4579	setho
+4580	tsohile
+4581	setšoantšo se betliloeng
+4582	qenehela
+4583	tsa metsing
+4584	hlekefetsa
+4585	moropa
+4586	fokotsa
+4587	helmete
+4588	boemo
+4589	setifikeiti
+4590	morabe
+4591	mpe
+4592	mm
+4593	ka masoabi
+4594	kariki
+4595	hloela
+4596	khanya ea letsatsi
+4597	hlakola
+4598	rookie
+4599	hlakisa
+4600	tlala
+4601	setsebi
+4602	moetsi
+4603	sireletsang
+4604	nkho
+4605	mananeo
+4606	mafube
+4607	salemone
+4608	palo ea batho
+4609	khetha
+4610	phihlello
+4611	letsoalo
+4612	ka lehlohonolo
+4613	bonyane
+4614	molek'hule
+4615	tshehetsang
+4616	serethe
+4617	monyako
+4618	lethathamo la lintho
+4619	mamela
+4620	chelete
+4621	sepalangoang
+4622	dihlong
+4623	phunya
+4624	e nang le tšusumetso
+4625	ka molomo
+4626	moputso
+4627	boemo
+4628	gram
+4629	tšoara
+4630	pherekano
+4631	enfelopo
+4632	mocheso
+4633	hlopha
+4634	etsa joalo
+4635	madimabe
+4636	hasanya
+4637	pheko
+4638	nako
+4639	ratehang
+4640	selae
+4641	ka potlako
+4642	Yerrrrrrr
+4643	theolelo
+4644	bokhoba ba tahi
+4645	hlaha
+4646	tšoanelehang
+4647	lesupa
+4648	juror
+4649	bolela
+4650	kopanya
+4651	rakhoebo
+4652	tefiso
+4653	morekisi
+4654	tefiso
+4655	sebete
+4656	pirate
+4657	moipelaetsi
+4658	pono
+4659	moholo
+4660	galone
+4661	ho phaella moo
+4662	ho hloka tsebo
+4663	k'hemistri
+4664	nako enngwe
+4665	lehola
+4666	ngoana
+4667	karoloana
+4668	pheha
+4669	tshokoloho
+4670	ntho
+4671	mamella
+4672	tselaneng
+4673	khangoa ke metsi
+4674	boleng
+4675	boahi
+4676	mohokahanyi
+4677	bonnete
+4678	ea Europe
+4679	lehalima
+4680	sekolopata
+4681	tjantjello
+4682	lefatshe ka bophara
+4683	seila
+4684	eketsoe
+4685	tiea
+4686	metlae
+4687	sesepa
+4688	bora
+4689	laela
+4690	khaello
+4691	hlokang thuso
+4692	lephephe
+4693	bukana ya ditaba
+4694	phefumoloha
+4695	belaetsang
+4696	mopalangoang
+4697	hlasimolla
+4698	khatiso
+4699	bohelehele
+4700	keriti
+4701	thetheha
+4702	inama
+4703	sehlōhō
+4704	phatlalatso
+4705	qothisana lehlokoa
+4706	hana
+4707	ya lefatshe
+4708	morwallo
+4709	monahano
+4710	kutloelo bohloko
+4711	hamonate
+4712	e sa lokelang
+4713	hora
+4714	sodium
+4715	tlhalo
+4716	selemo
+4717	bang
+4718	e phepetsang
+4719	ipad
+4720	mokotla
+4721	molikong
+4722	tsepahala
+4723	hormone
+4724	litšoantšo
+4725	betla
+4726	tsela
+4727	boiketlo
+4728	lebopong la lewatle
+4729	khefi
+4730	karohano
+4731	tenyetsehang
+4732	boiphihlelo
+4733	kopanetsoe
+4734	vampire
+4735	tshepile
+4736	lijo tse tsoekere
+4737	boiketlo
+4738	leboea-bochabela
+4739	specialize
+4740	likepe
+4741	ho fumaneha
+4742	tumellano
+4743	pin
+4744	fariki
+4745	setsebi sa linaleli
+4746	joalo ka
+4747	thibela
+4748	tlhomamiso
+4749	bela
+4750	sehlaha
+4751	ka ho khetheha
+4752	podi
+4753	sa tebang
+4754	hlomella
+4755	lekanang
+4756	eka
+4757	boikemisetso
+4758	rabanka
+4759	karohano
+4760	peterole
+4761	khothatsang
+4762	pula
+4763	phapanyetsano
+4764	nkho
+4765	boshodu
+4766	hlatsoetsoa
+4767	thitelo
+4768	ho shoa
+4769	lehloyo
+4770	mabenyane
+4771	ho falla
+4772	qapa
+4773	lerato
+4774	boiphetetso
+4775	e sa lebelloang
+4776	kemiso
+4777	sheer
+4778	halloween
+4779	moratuwa
+4780	tshwela ka mathe
+4781	botsoa
+4782	haufi-ufi
+4783	mosireletsi
+4784	ka botekgeniki
+4785	ntoa
+4786	pheko
+4787	peanut
+4788	e sa hlakang
+4789	piss
+4790	boikoetliso
+4791	lefeella
+4792	qophella
+4793	leshome le motso o mong
+4794	letsoho
+4795	jareteng
+4796	ka ho tshoana
+4797	ka mokhoa o sa fellang
+4798	sepalangoang
+4799	mohlokomedi
+4800	tjantjello
+4801	mangolo
+4802	mahareng
+4803	maikutlo
+4804	ka thoko
+4805	atleha
+4806	kutloelo-bohloko
+4807	qhoqhoa
+4808	maikutlong
+4809	hloka tsebo
+4810	ka ho hlaka
+4811	phutholla
+4812	hlooho e opang
+4813	bosafeleng
+4814	chop
+4815	ego
+4816	tsotehang
+4817	depositi
+4818	kahlolo
+4819	tlhompho
+4820	boikarabello
+4821	khetha
+4822	sechaba
+4823	apola
+4824	nyatsa
+4825	tsela
+4826	tropike
+4827	selemo le selemo
+4828	ea borobeli
+4829	qhoma
+4830	senyehile
+4831	qenehelo
+4832	ngoapa
+4833	netefatsa
+4834	mofosi
+4835	lefa
+4836	katanela
+4837	teropong
+4838	karoloana
+4839	kananelo
+4840	seile
+4841	phunya
+4842	nako e khutšoane
+4843	ditsamaiso
+4844	boselamose
+4845	tšepahalang
+4846	aah
+4847	tsielehile
+4848	terone
+4849	sehlōhō
+4850	tshoarelo
+4851	phatlalatsoa
+4852	tshoaro
+4853	soda
+4854	khakanyo
+4855	Dutch/
+4856	tsatsoadi
+4857	bokooa
+4858	mmokelli
+4859	tlhopho bocha
+4860	soabisoa
+4861	metlae
+4862	thuso
+4863	ka thabo
+4864	moepa
+4865	fancy
+4866	khaoletsa
+4867	momamedi
+4868	shapa
+4869	setjhaba
+4870	thala
+4871	heck
+4872	ntshetsopele
+4873	e loketseng
+4874	molora
+4875	sechabeng
+4876	lekhotla
+4877	setempe
+4878	a le mong
+4879	mokoetlisi
+4880	hlohlelletsa
+4881	neng kapa neng
+4882	boitšoaro
+4883	mosyria
+4884	phaephe
+4885	monyaduwa
+4886	hanghang
+4887	tlhase
+4888	monyako
+4889	segokahanyi
+4890	moithuti
+4891	casino
+4892	ho beha
+4893	khoele
+4894	fan
+4895	kemolo
+4896	tenyetseha
+4897	uena
+4898	lekhetho
+4899	elegantne
+4900	sekodi
+4901	lokhara
+4902	ebola
+4903	letsholo
+4904	sotha
+4905	bolota
+4906	sepheo
+4907	kopo
+4908	modimo
+4909	kenya
+4910	stack
+4911	tseko
+4912	filosofi
+4913	litšila
+4914	baesekele
+4915	mantsoe
+4916	hlafuna
+4917	pheletso
+4918	tjantjello
+4919	tse sa kgolweheng
+4920	manyala
+4921	bohareng
+4922	mohono
+4923	pherekano
+4924	hlasela
+4925	motšehetsi
+4926	feteletseng
+4927	tse se nang palo
+4928	letsatsi le likela
+4929	bokahare
+4930	accounting
+4931	e tshepehang
+4932	ka bolokolohi
+4933	ntsha
+4934	ho ikamahanya le maemo
+4935	mahlaseli
+4936	tepelletse maikutlong
+4937	moemphera
+4938	koloi
+4939	moqolotsi oa litaba
+4940	morung
+4941	hlajoa ke lihlong
+4942	libilione
+4943	moea o fokang
+4944	molato
+4945	mohlokomedi
+4946	sebaka
+4947	nyahamisa
+4948	tšoenyang
+4949	moferefere
+4950	ho behwa ka thoko
+4951	pepenene
+4952	thepa
+4953	ho ba teng
+4954	tab ya
+4955	ka lebaka leo
+4956	hlama
+4957	padi
+4958	streak
+4959	silika
+4960	ho tshoana
+4961	steak
+4962	ho tjeka
+4963	kopo
+4964	e sebetsang
+4965	phefumoloho
+4966	mm
+4967	balune
+4968	sefika
+4969	leka
+4970	qoelisoa
+4971	sleeve
+4972	Tholo
+4973	tsilatsila
+4974	warrant
+4975	e thatafetse
+4976	tattoo
+4977	ka bonolo
+4978	tshohanyetso
+4979	kabo ea mangolo
+4980	Sejapane
+4981	ka boomo
+4982	hlahlamanang
+4983	ntlafatsa
+4984	motsoalle
+4985	ka nepo
+4986	ka tieo
+4987	dutla
+4988	kotsi
+4989	kotsi
+4990	banana
+4991	e se nang letho
+4992	molemo
+4993	honyela
+4994	qoqa
+4995	raka
+4996	ya kgopo
+4997	tshebediso
+4998	testamente
+4999	sebatli
+5000	processor
+5001	serope
+5002	lemohile
+5003	Khefutsa
+5004	ho bua
+5005	mohoebi
+5006	quantum
+5007	mahlo a mahlo
+5008	pota-potileng
+5009	tlotlontswe
+5010	lihlong
+5011	eh
+5012	radar
+5013	e makatsang
+5014	mmolai
+5015	burger
+5016	molala
+5017	ikamahanya
+5018	buka ea thuto
+5019	maikutlo
+5020	kamora moo
+5021	khahleho
+5022	letsatsi
+5023	hamore
+5024	keyboard
+5025	pheella
+5026	koro
+5027	sebatana
+5028	makatsang

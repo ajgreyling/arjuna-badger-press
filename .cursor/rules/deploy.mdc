@@ -20,6 +20,8 @@ Minimum loop from this repo:
 3. Push `master` (this repo) + `main` (platform)
 4. **Render redeploy** (`RENDER_DEPLOY_HOOK_URL` or Manual Deploy) — required for live site
 
+**Render LLM:** `OPENROUTER_API_KEY` only (see platform `render.yaml`). Remove legacy vendor keys from Render if present.
+
 Engine manuscript sync (before step 1 when prose changed in platform):
 
 `../arjuna-badger-platform/tools/sync_library.sh`
