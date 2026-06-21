@@ -49,3 +49,6 @@ distribution-sheet.md
 **/build/BOOK.*.anthropic.md
 **/build/BOOK.*.openai.md
 **/build/BOOK.*.aya.md
+
+# book status audit intermediate (regenerate with tools/book_status_audit.py --json)
+book-status-audit.json
