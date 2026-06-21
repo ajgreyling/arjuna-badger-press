@@ -176,6 +176,48 @@ EDITION_LANGS = {
     "de": ("German", "Deutsch"),
 }
 
+# ── Site-wide language bar (i18n) ─────────────────────────────────────────────────────────────
+# The nav carries a global language selector on EVERY page. English is always present; a
+# translated-edition language only appears once at least one book on disk ships an edition in it.
+# Picking a language is a SITE-WIDE preference (persisted to localStorage as `abp_lang`): on any
+# book page that has an edition in the chosen language, the primary download/read controls default
+# to that language. Books without the chosen edition fall back to English with a quiet note. The
+# site chrome itself stays in English — this is edition defaulting, not a full UI translation.
+# AVAILABLE_LANGS is the ordered list of codes (excluding "en") with ≥1 edition anywhere in the
+# catalogue; it is populated in main() from scan() before any page is rendered.
+AVAILABLE_LANGS: list[str] = []
+
+
+def compute_available_langs(entries: list[dict]) -> list[str]:
+    """Every edition language that exists on disk somewhere in the catalogue, in EDITION_LANGS order."""
+    present = set()
+    for e in entries:
+        present.update((e.get("editions") or {}).keys())
+    return [c for c in EDITION_LANGS if c in present]
+
+
+def lang_bar(rel: str = "") -> str:
+    """Global language selector for the nav. No-ops (renders nothing) until an edition language
+    exists. Pure-progressive-enhancement: it is a styled <select>; the swap logic lives in the
+    site-wide footer script, which reads/writes localStorage.abp_lang. Initial value is set by JS
+    so a returning reader sees their language pre-selected on first paint."""
+    if not AVAILABLE_LANGS:
+        return ""
+    opts = ['<option value="en">English</option>']
+    for code in AVAILABLE_LANGS:
+        name, endonym = EDITION_LANGS.get(code, (code.upper(), code.upper()))
+        label = endonym if name == endonym else f"{endonym} · {name}"
+        opts.append(f'<option value="{code}">{html.escape(label)}</option>')
+    return (
+        '<label class="langbar" title="Choose your reading language — '
+        'downloads default to this language where available">'
+        '<span class="langbar-icon" aria-hidden="true">🌐</span>'
+        '<span class="vh">Reading language</span>'
+        f'<select class="langbar-sel" aria-label="Reading language">{"".join(opts)}</select>'
+        '</label>'
+    )
+
+
 AUDIOBOOK_NOTICE = (
     "Real voice narration is in production — full audiobook editions for Audible and wide release are on the way. "
     "Read and download the text editions free here until then."
@@ -1201,6 +1243,22 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 /* Drawer-only nav — do NOT reintroduce .navinline or a wide-screen top link bar. */
 .nav nav.navinline{display:none!important}
 
+/* ── Site-wide language bar (i18n edition selector) ─────────────────────────────────────────── */
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);
+  white-space:nowrap;border:0}
+.langbar{margin-left:auto;display:inline-flex;align-items:center;gap:7px;cursor:pointer}
+.langbar-icon{font-size:15px;line-height:1;opacity:.85}
+.langbar-sel{font-family:"Space Grotesk",sans-serif;font-size:13px;color:var(--bone);
+  background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 28px 6px 10px;
+  cursor:pointer;-webkit-appearance:none;appearance:none;max-width:46vw;text-overflow:ellipsis;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23C8A86B' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 10px center}
+.langbar-sel:hover{border-color:var(--ochre)}
+.langbar-sel:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+/* When the lang bar sits next to the hamburger, the hamburger no longer needs the auto push. */
+.langbar + .hamburger{margin-left:8px}
+@media(max-width:480px){.langbar-sel{font-size:12px;padding:5px 24px 5px 8px;max-width:38vw}}
+
 /* ── Hamburger + slide-out drawer (pure-CSS toggle via #navtoggle checkbox) ─────────────────── */
 .hamburger{margin-left:auto;display:flex;flex-direction:column;justify-content:center;gap:5px;
   width:42px;height:42px;padding:9px;cursor:pointer;border-radius:8px}
@@ -1506,6 +1564,12 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .dl-lang:hover{background:var(--ochre);color:var(--black)}
 .editions-fix{margin:10px 0 0;font-size:13px;color:var(--grass)}
 .editions-fix a{color:var(--ochre)}
+/* Language-default note: appears (via JS) under the primary download buttons when the reader's
+   chosen language has an edition here, or to explain an English fallback. */
+.edition-active{margin:10px 0 0;font-size:13px;color:var(--ochre);display:flex;align-items:center;
+  gap:8px;flex-wrap:wrap}
+.edition-active.is-fallback{color:var(--grass)}
+.edition-active a{color:var(--ochre);text-decoration:underline}
 .fixlog{margin:18px 0 0}
 .fixlog table{width:100%;border-collapse:collapse;font-size:14px;margin-top:10px}
 .fixlog th,.fixlog td{padding:10px 12px;border:1px solid var(--line);text-align:left;vertical-align:top}
@@ -1980,7 +2044,7 @@ def nav(rel: str = "") -> str:
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/{CORNER_MARK}" alt="Arjuna Badger Press">Arjuna Badger Press</a>
-<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
+{lang_bar(rel)}<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
 <nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
@@ -2027,7 +2091,7 @@ def safari_nav(rel: str = "") -> str:
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav safari-nav"><div class="wrap">
 <a class="brandlink" href="{hub}"><img src="{rel}assets/brand/{SAFARI_LOGO}" alt="Arjuna Badger Press"></a>
-<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
+{lang_bar(rel)}<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
 <nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
@@ -2187,6 +2251,90 @@ def rating_script() -> str:
     )
 
 
+def lang_script() -> str:
+    """Site-wide language preference + edition defaulting. Loaded once per page via footer().
+
+    Behaviour:
+      • Reads/writes localStorage.abp_lang (default "en"); syncs the nav <select.langbar-sel>.
+      • On any book page (a .bookhero[data-editions]), when the chosen language has an edition,
+        the primary Download buttons point at that edition and relabel ("Download Afrikaans EPUB");
+        a quiet note announces it. Books without the chosen edition restore the English download
+        and show a one-line fallback note. English selection restores everything to base.
+      • Pure progressive enhancement — with JS off, every English download still works.
+    No cookies, no network. Endonyms come from a server-rendered map so labels match the picker."""
+    if not AVAILABLE_LANGS:
+        return ""
+    # code -> endonym (what the reader sees), for "en" + every available edition language.
+    names = {"en": "English"}
+    for code in AVAILABLE_LANGS:
+        nm, endonym = EDITION_LANGS.get(code, (code.upper(), code.upper()))
+        names[code] = endonym
+    names_json = json.dumps(names, ensure_ascii=False)
+    js = """
+<script>
+(function(){
+  var KEY="abp_lang";
+  var NAMES=__NAMES__;
+  function get(){try{var v=localStorage.getItem(KEY);return (v&&NAMES[v])?v:"en";}catch(e){return "en";}}
+  function set(v){try{localStorage.setItem(KEY,v);}catch(e){}}
+  var lang=get();
+
+  // Apply the chosen language to a book page's primary download buttons + note.
+  function applyBook(code){
+    var hero=document.querySelector(".bookhero[data-editions]");
+    if(!hero)return;
+    var map;
+    try{map=JSON.parse(hero.getAttribute("data-editions"))||{};}catch(e){map={};}
+    var eds=map[code]||null;                 // {epub:"file", pdf:"file"} or null
+    var btns=hero.querySelectorAll(".dl-primary");
+    var swapped=0, total=btns.length;
+    btns.forEach(function(a){
+      var fmt=a.getAttribute("data-fmt");
+      var baseHref=a.getAttribute("data-base-href");
+      var baseLabel=a.getAttribute("data-base-label");
+      if(code!=="en"&&eds&&eds[fmt]){
+        var dir=baseHref.slice(0,baseHref.lastIndexOf("/")+1);
+        a.setAttribute("href",dir+eds[fmt]);
+        a.textContent="Download "+NAMES[code]+" "+baseLabel;
+        a.setAttribute("hreflang",code);
+        swapped++;
+      }else{
+        a.setAttribute("href",baseHref);
+        a.textContent="Download "+baseLabel;
+        a.removeAttribute("hreflang");
+      }
+    });
+    var note=hero.querySelector(".edition-active");
+    if(note){
+      if(code==="en"){
+        note.hidden=true;note.textContent="";note.classList.remove("is-fallback");
+      }else if(swapped>0){
+        note.hidden=false;note.classList.remove("is-fallback");
+        note.innerHTML="🌐 Showing the <strong>"+NAMES[code]+"</strong> edition.";
+      }else{
+        note.hidden=false;note.classList.add("is-fallback");
+        note.textContent="No "+NAMES[code]+" edition of this book yet — showing English.";
+      }
+    }
+  }
+
+  function apply(code){lang=code;applyBook(code);}
+
+  // Wire the nav selector(s) and reflect the stored choice on load.
+  var sels=document.querySelectorAll(".langbar-sel");
+  sels.forEach(function(sel){
+    if(sel.querySelector('option[value="'+lang+'"]')) sel.value=lang;
+    sel.addEventListener("change",function(){
+      var v=sel.value; set(v); apply(v);
+      sels.forEach(function(s){if(s!==sel)s.value=v;});
+    });
+  });
+  apply(lang);
+})();
+</script>"""
+    return js.replace("__NAMES__", names_json)
+
+
 def footer(rel: str = "", *, safari: bool = False, safari_page: str = "") -> str:
     # Quiet patronage + feedback links — shown only when their surfaces exist. Deliberately
     # understated: a "·"-separated line in the existing footer, never a button, never an ask.
@@ -2216,7 +2364,7 @@ def footer(rel: str = "", *, safari: bool = False, safari_page: str = "") -> str
   }});
   sync();
 }})();
-</script></body></html>"""
+</script>{lang_script()}</body></html>"""
 
 
 MERMAID_BOOT = """<script type="module">
@@ -2266,8 +2414,12 @@ def card(e: dict, accent: str) -> str:
         dls = f'<div class="dls">{"".join(parts)}</div>'
         badge = '<span class="badge">Available now</span>'
     if e.get("serial"):
-        badge = '<span class="badge">New chapters daily</span>'
-        dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the serial →</a></div>'
+        if e["id"] == "bloedrivier":
+            badge = '<span class="badge">Open draft</span>'
+            dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the draft →</a></div>'
+        else:
+            badge = '<span class="badge">New chapters daily</span>'
+            dls = f'<div class="dls"><a class="dl solid" href="read/{e["id"]}.html">Read the serial →</a></div>'
     elif not e["available"]:
         soon_lbl = ("Coming soon" if "_comingsoon" in e["root"].parts
                     else "In progress")
@@ -3016,18 +3168,32 @@ def book_ld_json(e: dict) -> str:
 
 def render_book(e: dict) -> str:
     cover = f'assets/covers/{e["id"]}.png'
+    eds = e.get("editions") or {}
+    # Edition map handed to the site-wide language script (data-editions on the hero). Per code:
+    # the download filenames per format, so JS can default the primary buttons to the chosen
+    # language. English ("en") is the implicit base; only translated codes go in the map.
+    editions_data = {
+        code: {ext: f.name for ext, f in fmts.items()}
+        for code, fmts in eds.items()
+    }
     dls = ""
     if e["available"]:
         parts = []
         for f in e["downloads"]:
             ext = f.suffix.lower().lstrip(".")
             solid = " solid" if ext == "epub" else ""
-            label = "Download EPUB" if ext == "epub" else ("Download PDF" if ext == "pdf" else ext.upper())
-            parts.append(f'<a class="dl{solid}" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>{label}</a>')
+            base = "EPUB" if ext == "epub" else ("PDF" if ext == "pdf" else ext.upper())
+            href = f'../downloads/{e["id"]}/{html.escape(f.name)}'
+            # data-* attrs let the language script swap href/label to the chosen edition and
+            # restore the English base. data-fmt keys the swap; data-base-label is the noun
+            # ("EPUB"/"PDF") the script reuses when prefixing the language name.
+            parts.append(
+                f'<a class="dl{solid} dl-primary" data-fmt="{ext}" data-base-label="{base}" '
+                f'data-base-href="{href}" href="{href}" download>Download {base}</a>'
+            )
         dls = f'<div class="dls" style="margin-top:20px">{"".join(parts)}</div>'
     # Translated editions — an "Other languages" section, only when at least one exists.
     editions_html = ""
-    eds = e.get("editions") or {}
     if e["available"] and eds:
         rows = []
         for code in sorted(eds, key=lambda c: EDITION_LANGS.get(c, (c, c))[0]):
@@ -3061,7 +3227,12 @@ def render_book(e: dict) -> str:
         )
     read = ""
     if e["available"] and (e["book_md"] or e.get("reader_md")):
-        read_label = "Read the serial →" if e.get("serial") else "Read online →"
+        if e["id"] == "bloedrivier":
+            read_label = "Read the draft →"
+        elif e.get("serial"):
+            read_label = "Read the serial →"
+        else:
+            read_label = "Read online →"
         solid = " solid" if e.get("serial") else ""
         read = f'<div class="dls" style="margin-top:14px"><a class="dl{solid}" href="../read/{e["id"]}.html">{read_label}</a></div>'
     serial_note = ""
@@ -3138,6 +3309,17 @@ def render_book(e: dict) -> str:
             f'<a class="feedback-link" href="{html.escape(translation_fix_href(e["title"]))}">'
             f'Fix a translation &rarr;</a>'
         )
+    # Hero data for the language script: the edition map (escaped JSON in an attribute) and a
+    # quiet, JS-shown note announcing which language the downloads currently default to. The note
+    # is empty/hidden in plain HTML — it only appears when JS swaps an edition or reports a fallback.
+    editions_attr = (
+        f' data-editions="{html.escape(json.dumps(editions_data, ensure_ascii=False))}"'
+        if (e["available"] and editions_data) else ""
+    )
+    edition_note = (
+        '<p class="edition-active" hidden></p>'
+        if (e["available"] and editions_data) else ""
+    )
     return "\n".join([
         head(f'{e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../",
              keywords=BOOK_KEYWORDS.get(e["id"], DEFAULT_BOOK_KEYWORDS),
@@ -3146,11 +3328,11 @@ def render_book(e: dict) -> str:
              og_type="book",
              ld_json=book_ld_json(e)),
         nav(rel="../"),
-        f"""<div class="wrap"><div class="bookhero">
+        f"""<div class="wrap"><div class="bookhero"{editions_attr}>
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
+<p class="syn">{full}</p>{dls}{edition_note}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
@@ -5433,6 +5615,12 @@ def main() -> None:
     (OUT / "sw.js").write_text(render_service_worker(), encoding="utf-8")
 
     entries = scan()
+    # Site-wide language bar: which edition languages exist anywhere in the catalogue. Set BEFORE
+    # any page renders, since nav()/footer() on every page read AVAILABLE_LANGS.
+    global AVAILABLE_LANGS
+    AVAILABLE_LANGS = compute_available_langs(entries)
+    if AVAILABLE_LANGS:
+        print(f"  (language bar: {', '.join(['en'] + AVAILABLE_LANGS)})")
     accents = dict(SERIES)
     for e in entries:
         if not e.get("cover"):
