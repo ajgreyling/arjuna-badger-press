@@ -1,28 +1,14 @@
-# Ordinance Pending
+# A Note on the Original
 
-**The No-Fear Cycle · Book One**
+This is an original work of fiction set in the universe of **Warhammer 40,000**, **published in honor
+of the original** — a fan homage written in tribute to the world Games Workshop built, and to the
+writers and artists who gave it its grim, devoted voice.
 
-Andries J. Greyling
-
----
-
-*Ordinance Pending*
-
-Copyright © 2026 Andries J. Greyling. All rights reserved.
-
-Unauthorised fan fiction. *Warhammer 40,000* is the intellectual property of Games Workshop Limited. This work is not a licensed Games Workshop product.
-
-ISBN: pending
-
----
-
-# Dedication
-
-For **Daniel** — who has been there so consistently when needed that I make the unconscious mistake of just accepting he will be there when needed, like he was manifested.
-
-You have all the books — the games, the fiction, the lore. You're the real fan; this one is for you. I know almost nothing about Warhammer, apart from what you've shown me and what it took to build a demo. The actual series and spin-off novels will be yours.
-
-— Andries J. Greyling
+It is **not endorsed by, authorized by, or affiliated with Games Workshop Limited.** *Warhammer 40,000*,
+the Adeptus Astartes, and all associated names, marks, places, and characters are trademarks and the
+intellectual property of Games Workshop. No challenge to their ownership is intended. This book uses
+that setting without licence, claims none of it, and is **not for commercial release**. The debt is
+disclosed here plainly; any error or liberty is the author's alone.
 
 ---
 
@@ -147,8 +133,6 @@ Metaurus fired once.
 Then silence took the world again: gunfire, breath, HUD, nothing more.
 
 The ridge smelled of wet cordite where rain found strike glass.
-
----
 
 # The Ridge Holds
 
@@ -320,8 +304,6 @@ He braced Metaurus against his shoulder, knife on his thigh, four minutes become
 He raised his bolt pistol.
 
 "For the coordinate," he said, mostly to himself.
-
----
 
 # After the Push
 
@@ -586,8 +568,6 @@ He had never learned how to sleep on assignment.
 
 Brother Haldor's vox asked for ammo count at hour six. Titus gave numbers.
 
----
-
 # The Box and the Rain
 
 The rain started wrong.
@@ -774,8 +754,6 @@ Metaurus through the status strip—sus-an stable, grey, breathing once per minu
 Scout traces at the pit lip. Non-mass. Cumulative hold time climbing on the HUD edge.
 
 The generator hum dropped one register when the wind shifted downslope.
-
----
 
 # Brother Orte
 
@@ -988,8 +966,6 @@ Archive stratum on the HUD: Node One—undercroft—await survey.
 The sarcophagus hummed at eighty-nine percent—Pryss-7's gift already fading with the probe gone but
 enough for now. Metaurus's sus-an pulse continued its slow beat inside the lid.
 
----
-
 # The Red Field
 
 **SUS-AN MEMBRANE: ENGAGED**
@@ -1124,8 +1100,6 @@ Metaurus sank.
 Thought became litany became nothing.
 
 Outside, rain thinned. Titus's footfalls crossed the ridge—measured, patient—while Metaurus could not help him now.
-
----
 
 # Librarian Speaks
 
@@ -1389,8 +1363,6 @@ Titus held. The third rating ran coil cable to the probe's auxiliary port while 
 They mag-lined back to the probe. The thunderhawk rose without landing. Titus logged the assist and returned his eyes to the pit overlay.
 
 Brother Haldor's vox checked in once more before dark—perimeter quiet, plasma scorch stable, ammo count logged. Titus gave numbers. Haldor closed the channel.
-
----
 
 # The Undercroft Mouth
 
@@ -1670,8 +1642,6 @@ Titus took the passage.
 The war continued downward—eggshell grit, broken vox, the thin veil pressing close—and orbit's
 provisional lock waited above like a blade that would not fall until ground truth became certified.
 
----
-
 # Mercury Silent
 
 The parchment started before they reached the second descent.
@@ -1912,8 +1882,6 @@ Corvus was bleeding.
 
 The coordinate was still pending.
 
----
-
 # The Second Psyker
 
 The thunderhawk did not land.
@@ -2151,8 +2119,6 @@ where the fragment waited.
 The passage toward the fragment chamber felt shorter because the squad had. Fewer boots. Fewer skull icons. More weight on each remaining body. Corvus limped beside him without complaint. Kael's sled wheels whispered on eggshell mud. Metaurus slept through the reduction of his Chapter's presence to one lieutenant and a tech-adept and the doctrine carried in a knife and a failing field.
 
 Titus did not mourn in motion. He kept work.
-
----
 
 # Fragment Idol
 
@@ -2434,8 +2400,6 @@ Above them, strike ash still filtered through cracks in the ceiling in thin grey
 
 The enginseer clicked acknowledgment and returned to the generator countdown in a language only machines spoke fluently. Finishing was what came next—field integrity at sixty-two percent, secondary generator decay accelerating, certification still pending, and ninety seconds of channel bleed and wrong-way seal they would not get back.
 
----
-
 # Hold Without Voice
 
 Corvus died on the way back to the idol.
@@ -2714,8 +2678,6 @@ He released.
 
 The fragment idol's closed eyes did not open again. The chamber stayed quiet except for Kael logging serial numbers and Haldor's footsteps in the passage, checking Corvus because that was what brothers did when the anchor no longer needed a holder.
 
----
-
 # Fool's Weight
 
 Dark first. Then the armouring chamber. Guilliman's statue watching from the wall with marble patience. Recycled sus-an fluid and the ozone of a field generator dying in a woman's hands. The chamber was a lie the membrane told to keep the mind from tearing. Metaurus knew it was a lie. He let it hold him anyway.
@@ -2892,8 +2854,6 @@ Titus pressed the auspex to the idol's beak-mouth and held until the machine spi
 The cultists above fired wild—las-lock into dust, bird cries without formation. Wolf logged marginal mass. Titus kept both gauntlets on the anchor until the packet status read SENT.
 
 The chamber smelled of ink and eggshell and burnt machine oil from Kael's housing. Stone sweat beaded on the spiral pillars.
-
----
 
 # Ground Truth
 
@@ -3177,8 +3137,6 @@ The sergeant would sleep through the lance.
 
 Titus hauled.
 
----
-
 # The Lie Returns
 
 They did not reach the shaft before the veil reached them.
@@ -3356,8 +3314,6 @@ A las-lock burst stitched the ridge crest—one shot, wide, grief not mass. Titu
 At the pod ring lip the ferrocrete was warm under his boots—extraction geometry holding yesterday's heat. Strike pylons hummed at a frequency his auto-senses logged and ignored. Ridge weather honest: bruised sky, fast clouds, bird cries absent, cordite and cooked stone in every third breath.
 
 Kael's vox, when she used it, stayed numbers. Metaurus's sus-an hum through the chains stayed grey.
-
----
 
 # Lance for Node One
 
@@ -3540,8 +3496,6 @@ The ferrocrete under his boots was still warm from the day's second lance. Conce
 Wind off the ridge carried the last chemical bite of the day's fire. Ash settled in the ring grooves. The shrine pit behind him smoked. The undercroft below was collapsed and certified and forgotten.
 
 Metaurus slept through the crossing.
-
----
 
 # Certified
 
@@ -3738,8 +3692,6 @@ The ramp rose.
 In the bay darkness, red lighting, chain restraints, cold metal under magnetised boots. Metaurus's sus-an hum filled the spaces where five brothers' breath should have been. Voren secured the auspex shock case in a wall locker—stencil NOVAHISTORIUM—PRIORITY, lid seal clicking like a vault door.
 
 Titus watched the case until the locker light went green.
-
----
 
 # Extraction
 
@@ -4098,8 +4050,6 @@ He checked the knife. Checked the bolt pistol. Checked the HUD where five red ic
 
 He walked toward the dome.
 
----
-
 # Honour's Edge
 
 Fourteen minutes in *Gothic Spear*'s belly: ash tapping hull plates until void took the sound. Titus stood at the port bulkhead watching Zsah'uj shrink—ridge line, pod ring, pit mouth, then particulate and black. Metaurus's sus-an line on the HUD stayed grey.
@@ -4333,8 +4283,6 @@ Node II pulsed amber on the HUD.
 
 *"Convoy staging active. Node Two pending."*
 
----
-
 # Ordinance Pending
 
 Eighteen minutes before the window, astropathic choir sent a body.
@@ -4436,6 +4384,3 @@ FOOL CHANNEL: ARMED
 The generator housing hummed through the deck plates. Kael watched the diagnostic slate without speaking. Metaurus was grey three decks up and three hundred kilometres behind.
 
 *The Sarcophagus Road* had a name in his mouth now.
-
----
-

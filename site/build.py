@@ -234,7 +234,12 @@ PUBLISHED = set(
         # the-dreaming (The Dreaming): finished Faithful-Modern PKD homage, released PUBLIC by
         # explicit author decision ACCEPTING the Estate-of-Philip-K.-Dick derivative-work exposure
         # (same standing as no-fear-cycle's WH40K acceptance; provenance disclosed in the foreword).
-        "the-dreaming",
+        "the-dreaming,"
+        # the-first-unplugged (The First Unplugged): Heinlein 'Stranger in a Strange Land' retelling,
+        # surfaced 2026-06-21 by explicit author decision. EPUB-only (no read-online); honor/attribution
+        # notice on the book page (BOOK_NOTICE); Eleanor Wood licensing contact attempted; not for
+        # commercial release pending permission.
+        "the-first-unplugged",
     ).split(",") if s.strip()
 )
 
@@ -292,10 +297,12 @@ HIDE_SERIES = set(
 HIDE_BOOKS = set(
     s.strip() for s in os.environ.get(
         "ABP_HIDE_BOOKS",
-        # the-first-unplugged: the Stranger in a Strange Land retelling stays PRIVATE — EPUB is
-        # vendored into the repo but the book is dropped from the site entirely (no card, page,
-        # download, read-online), by explicit request, until cleared to surface.
-        "the-first-unplugged",
+        # the-first-unplugged SURFACED 2026-06-21: the Stranger in a Strange Land retelling now ships
+        # its EPUB. It's EPUB-only (no editable manuscript), so its honor/attribution notice (Heinlein;
+        # published in honor of the original; not endorsed or affiliated; Eleanor Wood licensing
+        # contact attempted) lives in BOOK_NOTICE and renders on the book page. Released by explicit
+        # author decision; not for commercial release pending licensing.
+        "",
     ).split(",") if s.strip()
 )
 
@@ -405,6 +412,23 @@ BOOK_TAGLINE = {
     "modern-sherlock-4": "A Modern Retelling, True to the Original",
     "modern-sherlock-5": "A Modern Retelling, True to the Original",
     "henry-sugar":       "A Faithful Retelling for Adults, True to Dahl",
+}
+
+# Per-book attribution / honor notice shown as a bordered block on the book page. For modern
+# retellings whose notice can't live in the manuscript (e.g. the-first-unplugged ships an EPUB with
+# no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
+# own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
+BOOK_NOTICE = {
+    "the-first-unplugged": (
+        "A faithful modern retelling, <strong>published in honor of the original</strong>: Robert A. "
+        "Heinlein’s <em>Stranger in a Strange Land</em> (1961). Every name, scene, and sentence here is "
+        "original; what it carries forward is the question and the engine of Heinlein’s story, not his "
+        "text. It is <strong>not endorsed by, authorized by, or affiliated with</strong> Robert A. "
+        "Heinlein, the Heinlein Prize Trust, his estate, or his publishers, whose intellectual property "
+        "the original remains. The author has reached out, through the rights holders’ representatives "
+        "(the agency of Eleanor Wood), regarding licensing; this edition is offered in tribute and is "
+        "<strong>not for commercial release</strong> unless and until such permission is granted."
+    ),
 }
 
 # Optional companion soundtrack — a link to a public playlist that grows over time. Keyed by book id.
@@ -3062,6 +3086,17 @@ def render_book(e: dict) -> str:
     if e.get("isbn"):
         isbn_html = (f'<p class="isbn" style="margin-top:18px;color:var(--bonedim);'
                      f'font-size:.85em">ISBN {html.escape(e["isbn"])} · e-book</p>')
+    # Per-book attribution / honor notice (a bordered block), for retellings whose notice can't live
+    # in an editable manuscript. Rendered as trusted HTML from BOOK_NOTICE (curated, no user input).
+    notice_html = ""
+    if e["id"] in BOOK_NOTICE:
+        notice_html = (
+            '<div style="margin-top:22px;padding:16px 18px;border:1px solid var(--line);'
+            'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
+            '<p style="margin:0 0 .4em;font-size:.8em;letter-spacing:.08em;text-transform:uppercase;'
+            'color:var(--ochre)">A note on the original</p>'
+            f'<p style="margin:0;color:var(--bonedim);font-size:.95em;line-height:1.6">{BOOK_NOTICE[e["id"]]}</p>'
+            '</div>')
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     fix_link = ""
     if TRANSLATION_FIX_LIVE and eds:
@@ -3081,7 +3116,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{isbn_html}
+<p class="syn">{full}</p>{dls}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
