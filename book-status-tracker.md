@@ -8,11 +8,10 @@
 |---|---:|---|
 | 🟡 In progress | 2 | Partial manuscript, or canon/bible complete with little/no prose. |
 | ⚪ Scaffold | 24 | Cover + metadata only. No manuscript. |
-| 🔒 Hidden | 1 | Deliberately dropped from the site (HIDE_BOOKS / HIDE_SERIES). |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 32 | Published in the library — live downloads/read. |
+| ✅ Live | 33 | Published in the library — live downloads/read. |
 
-**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 27.
+**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 26.
 
 ## Books not yet completed in the library
 
@@ -46,7 +45,6 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Circle Closes | `the-salt-veil-5` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Scouring | `uffington` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | Made or Not | `yonaguni` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The First Unplugged | `the-first-unplugged` | Standalones | 🔒 Hidden | 22 | — | 0 | EPUB | rich | _(pending)_ |  |
 
 <details><summary>Live in the library (excluded from API pass)</summary>
 
@@ -86,6 +84,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Wrath of Achilles | `wrath-of-achilles` | Non-fiction | ✅ Live | EPUB/PDF |
 | NULL HORIZON | `null-horizon` | Non-fiction | ✅ Live | EPUB/PDF |
 | Scratching the Surface | `southern-coast` | History Before Time | ✅ Live | EPUB/PDF |
+| The First Unplugged | `the-first-unplugged` | Standalones | ✅ Live | EPUB |
 
 </details>
 
