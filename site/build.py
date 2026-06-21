@@ -223,7 +223,14 @@ PUBLISHED = set(
         "the-salt-veil,"
         "voynich-manuscript,"
         # Released 2026-06-20:
-        "null-horizon",
+        "null-horizon,"
+        # Released 2026-06-21 (the four finished-but-gated drafts the status audit surfaced):
+        #   - henry-sugar (Henry Sugar): full draft + new cover; faithful adult Dahl retelling.
+        #   - jakobus-petra (The Rose in the Rock), jakobus-longyou (The Straight Darkness):
+        #     finished Jakobus novellas, rich covers, rendered through the gate.
+        #   - jakobus-broken-crescent (The Broken Crescent): story complete; ch-99 'Notes, Sources
+        #     & Responsible Wondering' backmatter drafted to match the sibling books before release.
+        "henry-sugar,jakobus-petra,jakobus-longyou,jakobus-broken-crescent",
     ).split(",") if s.strip()
 )
 

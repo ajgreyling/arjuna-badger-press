@@ -1,0 +1,28 @@
+{
+  "id": "henry-sugar",
+  "title": "Henry Sugar",
+  "working_title": "Henry Sugar",
+  "seq": 1,
+  "folder": "henry-sugar",
+  "protagonist": "Henry Sugar",
+  "logline": "A bored, wealthy gambler reads a nested account of a man who taught himself to see — and spends years in the boring work of learning, until the card turns over and the world is much larger than advertised.",
+  "blueprint": "Dahl Henry Sugar engine — faithful structural retelling for adults; Dispenza / Radin / Sheldrake as in-world physics",
+  "market": "literary wonder / consciousness-curious readers (Dahl · Dispenza · Radin · Sheldrake) — the card-turn moment, played straight",
+  "status": "seed",
+  "target_words": 25000,
+  "graph_color": "#c4a35a",
+  "lineage": "Roald Dahl, The Wonderful Story of Henry Sugar (1977) — structural fidelity, original prose",
+  "canon_order": [
+    "SEED_STORY.md",
+    "CRAFT_MAP.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "NARRATIVE_ENGINES.md",
+    "ADAPTATION_DOCTRINE.md",
+    "STORY_BIBLE.md",
+    "STYLE_GUIDE.md",
+    "PLOT.md",
+    "THEMES.md",
+    "CANON_CHOICES.md"
+  ],
+  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+}
