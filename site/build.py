@@ -30,8 +30,13 @@ DOMAIN = "https://arjunabadger.press"
 PUBLIC_EMAIL = "info@arjunabadger.press"
 TAGLINE = "Your story, told true."
 
-# Safari annex — full Arjuna Badger Press wordmark (same asset as the main site logo).
-SAFARI_LOGO = "logo-master.png"
+# ── Universal brand mark — SINGLE SOURCE OF TRUTH ──────────────────────────────────────────────
+# The gold bow+badger mark (no skyline, transparent). Used in EVERY top-left corner site-wide AND
+# on Safari. Change this ONE value to swap the universal mark everywhere — do not hardcode the
+# filename elsewhere; reference CORNER_MARK so a change can never regress in the wrong place.
+CORNER_MARK = "safari-mark.png"
+# Safari annex logo — now the same universal gold mark (was the skyline crest logo-master.png).
+SAFARI_LOGO = CORNER_MARK
 SAFARI_BG_MANIFEST = REPO / "site" / "safari" / "backgrounds.json"
 
 # ── Analytics (Plausible Cloud) ───────────────────────────────────────────────────────────────
@@ -252,7 +257,14 @@ PUBLISHED = set(
 SERIAL = set(
     s.strip() for s in os.environ.get(
         "ABP_SERIAL",
-        "dust-throne",
+        # dust-throne: daily serial.
+        # bloedrivier (Brave and Scared): OPEN DRAFT — read-online only, NO downloads, "in progress"
+        #   badge. Published mid-write by explicit author decision (2026-06-21). The Zulu POV is a
+        #   deliberately empty, visible seat pending a co-created sensitivity read; the open-draft note
+        #   is in the manuscript front matter and the disclosure/invitation is in BOOK_NOTICE + the
+        #   shelf tagline. Kept OUT of PUBLISHED so no EPUB/PDF ships (no "finished book" can be
+        #   mistaken for complete with one side missing).
+        "dust-throne,bloedrivier",
     ).split(",") if s.strip()
 )
 
@@ -397,6 +409,7 @@ SHELF_TAGLINE = {
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
     "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
+    "History Like You've Never Heard It": "South Africa's own history, told from every side at once — no monsters, no monument, just frightened children inside the machines that made them. Published in the open while it is still being written; community and sensitivity readers are warmly invited to help finish it true.",
 }
 
 # Per-book descriptive tagline shown on the shelf card + book page (under the title).
@@ -419,6 +432,19 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "bloedrivier": (
+        "<strong>This is an open, unfinished draft</strong> — published mid-write on purpose. "
+        "<em>Brave and Scared</em> tells the year around the Battle of Blood River (1838) from three "
+        "sides at once, and its whole moral claim is that all three voices must be equally true and "
+        "that none may be one people’s imagining of another’s inner life. The author is Afrikaner; the "
+        "Voortrekker girl and the narrated history are his to write, and the English boy is grounded in "
+        "the documented record. The <strong>Zulu youth’s chapter is deliberately left empty</strong> — "
+        "a visible open seat — because it will be <strong>co-created with a Zulu reader and co-author</strong>, "
+        "not written for him. What you can read now is Movement I, the beginning. "
+        "<strong>If you can help write the empty seat true</strong> — a Zulu reader, a historian, a "
+        "descendant of any side, or anyone who can say where this rings false — you are warmly invited "
+        "to write to the press. Every hand that shapes it will be named in the acknowledgements."
+    ),
     "the-first-unplugged": (
         "A faithful modern retelling, <strong>published in honor of the original</strong>: Robert A. "
         "Heinlein’s <em>Stranger in a Strange Land</em> (1961). Every name, scene, and sentence here is "
@@ -503,6 +529,10 @@ CURATED = [
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
      "A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man — the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant."),
+
+    ("bloedrivier", "Brave and Scared", "A novel of Blood River, 1838 · An open draft", "History Like You've Never Heard It",
+     "bloedrivier", "build/export",
+     "The year around the Battle of Blood River — 1838 — told from three sides at once: a Voortrekker girl, a Zulu youth, and an English boy, all about seventeen, all frightened, none of them the monster the others were told to expect. The villain is never one of the children; it is the machine that turns frightened children into enemies. Published here as an open, in-progress draft (Movement I): the Zulu voice is deliberately left open, to be co-created with a Zulu reader rather than imagined for him — and you are invited to help write it true."),
 
     ("the-song-of-the-self", "The Song of the Self", "A reverent retelling of the Bhagavad Gita", "Non-fiction",
      "history-before-time/companions/the-song-of-the-self", "export",
@@ -1950,7 +1980,7 @@ def nav(rel: str = "") -> str:
     # Pure-CSS toggle (checkbox hack) — drawer-only at all breakpoints; no inline top nav.
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
-<a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/mark-only.png" alt="Arjuna Badger Press">Arjuna Badger Press</a>
+<a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/{CORNER_MARK}" alt="Arjuna Badger Press">Arjuna Badger Press</a>
 <label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
@@ -1987,7 +2017,7 @@ def crest_img(rel: str = "", *, safari: bool = False, hero: bool = False) -> str
         cls = "safari-hero-logo" if hero else "safari-logo"
         return (f'<img class="{cls}" src="{rel}assets/brand/{SAFARI_LOGO}" '
                 f'alt="Arjuna Badger Press">')
-    return (f'<img class="letter-crest" src="{rel}assets/brand/mark-only.png" '
+    return (f'<img class="letter-crest" src="{rel}assets/brand/{CORNER_MARK}" '
             f'alt="Arjuna Badger Press">')
 
 
@@ -3037,9 +3067,14 @@ def render_book(e: dict) -> str:
         read = f'<div class="dls" style="margin-top:14px"><a class="dl{solid}" href="../read/{e["id"]}.html">{read_label}</a></div>'
     serial_note = ""
     if e.get("serial"):
-        serial_note = ('<p style="color:var(--ochre);margin-top:18px">A daily serial — released chapter by '
-                       'chapter. The Prologue and Day One are live now; a new instalment goes up each day. '
-                       'Free to read on the site; no download.</p>')
+        if e["id"] == "bloedrivier":
+            serial_note = ('<p style="color:var(--ochre);margin-top:18px">An open, in-progress draft — '
+                           'Movement I is live to read now, free on the site; no download while it is still '
+                           'being written. One voice is a deliberately empty seat (see the note below).</p>')
+        else:
+            serial_note = ('<p style="color:var(--ochre);margin-top:18px">A daily serial — released chapter by '
+                           'chapter. The Prologue and Day One are live now; a new instalment goes up each day. '
+                           'Free to read on the site; no download.</p>')
     # Court-only "character witness": the tribute posture + the free-forever nature, with the rest of
     # the reverent catalogue one click away. This is the project's best context for anyone who arrives
     # to judge it (a named figure, a lawyer, a curious reader) — the whole shelf is free, careful with
@@ -4168,7 +4203,7 @@ def render_feedback() -> str:
              canonical=f"{DOMAIN}/feedback.html"),
         nav(),
         f"""<article class="reader letter">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Tell us something</p>
 <h1 style="text-align:center">Say it to the house</h1>
 <p class="intro" style="text-align:center">{intro}</p>
@@ -4207,7 +4242,7 @@ def render_forewords() -> str:
              canonical=f"{DOMAIN}/forewords.html"),
         nav(),
         f"""<article class="reader letter">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">An invitation</p>
 <h1 style="text-align:center">Write the foreword</h1>
 <p class="intro" style="text-align:center">{intro}</p>
@@ -4320,7 +4355,7 @@ def render_translation_fix() -> str:
              canonical=f"{DOMAIN}/fix-translation.html"),
         nav(),
         f"""<article class="reader letter">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">For first-language speakers</p>
 <h1 style="text-align:center">Fix a translation</h1>
 <p class="intro" style="text-align:center">{intro}</p>
@@ -4380,7 +4415,7 @@ def render_support() -> str:
              canonical=f"{DOMAIN}/support.html"),
         nav(),
         f"""<article class="reader letter support">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <h1 style="text-align:center">Support the press</h1>
 <p class="intro" style="text-align:center">The library is free, and stays free. If you'd like to
 give something back, the door is here.</p>
@@ -4414,7 +4449,7 @@ def render_narrators() -> str:
              canonical=f"{DOMAIN}/narrators.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Arjuna Audio</p>
 <h1 style="text-align:center">Become a narrator</h1>
 <p class="intro" style="text-align:center">The library is free. <strong>Paid human audiobooks</strong> are how narrators earn —
@@ -4480,7 +4515,7 @@ def render_distribution() -> str:
              canonical=f"{DOMAIN}/distribution.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Direct distribution</p>
 <h1 style="text-align:center">No bank gate for free books</h1>
 <p class="intro" style="text-align:center">If a book is free, a reader should not need banking details
@@ -4544,7 +4579,7 @@ def render_app_page() -> str:
              canonical=f"{DOMAIN}/app.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Reader app</p>
 <h1 style="text-align:center">A free reader, forever</h1>
 <p class="intro" style="text-align:center">Import any EPUB, PDF, or audiobook. Read and listen
@@ -4775,7 +4810,7 @@ def render_authoring_page() -> str:
              canonical=f"{DOMAIN}/authoring.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Phone authoring</p>
 <h1 style="text-align:center">Write the book by talking to it</h1>
 <p class="intro" style="text-align:center">Authors should be able to build a book through an AI chat
@@ -4841,7 +4876,7 @@ def render_audition_page() -> str:
              canonical=f"{DOMAIN}/audition.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Narrator auditions</p>
 <h1 style="text-align:center">Use what you have well</h1>
 <p class="intro" style="text-align:center">A MacBook, iPhone, or decent Android phone can produce a
@@ -4912,7 +4947,7 @@ def render_marketplace_page() -> str:
              canonical=f"{DOMAIN}/marketplace.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Marketplace</p>
 <h1 style="text-align:center">Audio and print, without the old gates</h1>
 <p class="intro" style="text-align:center">The first marketplace is manual: match authors to narrators,
@@ -4979,7 +5014,7 @@ def render_print_page() -> str:
              canonical=f"{DOMAIN}/printing.html"),
         nav(),
         f"""<article class="reader letter narrator-page">
-<img class="letter-crest" src="assets/brand/mark-only.png" alt="Arjuna Badger Press">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
 <p class="eyebrow" style="text-align:center">Print marketplace</p>
 <h1 style="text-align:center">Dead press time becomes short-run books</h1>
 <p class="intro" style="text-align:center">A 25, 50, or 100 copy run should not be punished by an
@@ -5362,7 +5397,9 @@ def safari_logo_guard(out: Path) -> None:
         page = path.read_text(encoding="utf-8", errors="ignore")
         if logo not in page:
             raise SystemExit(f"safari logo guard: {path.relative_to(out)} missing {logo}")
-        for bad in ("mark-only.png", "badger-bow-stamp.png", "safari-mark.png"):
+        # "bad" = any OTHER brand mark than the current SAFARI_LOGO — derived, so this never
+        # rejects the configured mark even when SAFARI_LOGO changes.
+        for bad in {"mark-only.png", "badger-bow-stamp.png", "safari-mark.png", "logo-master.png"} - {SAFARI_LOGO}:
             if bad in page:
                 raise SystemExit(f"safari logo guard: {path.relative_to(out)} still references {bad}")
 
