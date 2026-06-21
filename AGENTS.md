@@ -40,6 +40,12 @@ Summary:
 
 Never tell the user the book is live until step 6–7 succeed.
 
+## Render LLM (platform)
+
+Production SaaS uses **OpenRouter only** (`OPENROUTER_API_KEY` secret on Render). Do not set
+`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, or `PERPLEXITY_API_KEY` on Render. Full env list:
+`arjuna-badger-platform/render.yaml` and `AGENTS.md` in the platform repo.
+
 ## Publishing a book
 
 1. Sync from engine or add `books/<id>/build/export/`, `build/BOOK.md`, `design/cover.png` (> 500 KB)

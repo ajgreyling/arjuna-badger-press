@@ -74,7 +74,8 @@ The book id in `PUBLISHED` is the gate — nothing ships until listed there.
 - `SERIAL` — read-online only, no downloads
 - `HIDE_SERIES` / `HIDE_BOOKS` — drop from site entirely
 - `CURATED` — master ordered list; shelf, subtitle, blurb fallback
-- Cover gate: < 500 KB = procedural placeholder (hidden unless `PROCEDURAL_SHOW`)
+- Cover gate: < 500 KB = procedural stub (hidden unless `PROCEDURAL_SHOW` / SERIAL / Not a Potato).
+  `resolve_cover()` picks the largest file; stale stubs are hard-deleted. No SVG fallback.
 
 ## Translation editions
 

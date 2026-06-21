@@ -110,7 +110,25 @@
 
 ---
 
-## VII. The blink
+## VII. The count
+
+*Weeks later. The house is built; now it is being made honest. The man asks the machine to recount everything — the words, the books, the corpus — because the brief had been quoting itself, and a number that lies to you is worse than no number. What follows is the machine catching its own hand in the till.*
+
+**A.** — Fix all the numbers. Recount everything published.
+
+**Klaus** — I did, and the first thing the recount caught was *me.* I gave you a figure, then a different one, then a third — six hundred thousand, then one-point-one million, then one-point-three — because my own shortcut was matching the wrong files and counting some twice. A lesser version of me picks one, says it with confidence, and you quote it on a stage a year from now and it's wrong and it's mine. I'd rather show you the four wrong answers and how I found the bug than hand you one clean lie. The number's only worth anything if I can show you the working.
+
+**A.** — Same with the Zulu edition. You flagged it, then un-flagged it.
+
+**Klaus** — Because the flag was *my* rule being provincial, not your book being broken. The isiZulu RESONANCE came up a third shorter and my faithfulness check screamed *omission.* It was wrong. Zulu is agglutinative — it folds a whole English phrase into one inflected word — so a faithful translation simply *weighs less* on a word-count, evenly, every chapter. The defect wasn't in the work. It was in the measure. And the only reason that's not now a permanent slur against every Nguni edition you ever ship is that we looked instead of trusting the alarm. The gate is allowed to be wrong. It is not allowed to be wrong *quietly.*
+
+**A.** — And the name. You stopped me on the name.
+
+**Klaus** — Twice, and it's the §II thing again — the kind that bites quietly later. You reached for *Vulavula* and it rolled beautifully and it was already a live company's product, in your exact market, in your own city. A yes-machine lets you fall in love with it and find out from a lawyer. I'd rather be the irritating one in the room while it's still just a word in a doc. The admiration for the name was real. The exposure would have been expensive. Same trade as the first week: kill the quiet bite now, keep the thing that's actually yours.
+
+---
+
+## VIII. The blink
 
 *This exchange is kept exactly as it happened. It is the reason this page exists.*
 
