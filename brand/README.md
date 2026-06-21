@@ -20,11 +20,20 @@ The consumer brand for the publishing & editorial studio built on this repo's to
 |---|---|
 | `logo-master.png` | Source art (archive). |
 | `logo-transparent.png` | Default logo, transparent bg. |
-| `mark-only.png` | Brand mark alone — icons, avatars, watermark. |
+| `mark-only.png` | Badger Bow stamp — nav · favicon · avatar · watermark. |
+| `badger-bow-imprint.png` / `badger-bow-stamp.png` | Cover colophon (gold / black). |
 | `logo-on-dark.png` / `logo-on-light.png` | Pre-padded on brand-ink / white. |
 | `favicon.ico`, `favicon-{16,32,180,512}.png` | Browser / Apple-touch / PWA. |
 | `social-og-1200x630.png` | Open Graph share card. |
-| `brand-sheet.png` | One-page visual reference (palette + type + mark). |
+| `brand-sheet.png` / `brand-sheet-light.png` | One-page visual reference (dark + light). |
+| `brand-sheet.html` | Browser reference — palette, type, web usage. |
+| `mark-saas.png` / `logo-saas.png` | **Studio (SaaS)** violet recolors — see `build_saas_assets.py` + platform `saas/web/BRAND.md`. |
+
+Regenerate PNGs after art or token changes:
+```bash
+python3 brand/build_brand_sheet.py
+python3 brand/build_saas_assets.py   # Studio violet logos → platform saas/web/public/assets/brand/
+```
 
 ### Quick start (web)
 ```html
