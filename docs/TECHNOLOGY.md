@@ -421,7 +421,7 @@ studio.
 flowchart TB
     subgraph corpus["Human corpus (SSOT)"]
         TF[translation_fixes.json<br/>Fix a translation programme]
-        SA[sa_urban_*.json<br/>~1,748 urban slang seeds]
+        SA[sa_urban_*.json<br/>13,703 urban corpus entries]
     end
     CC[correction_corpus.py<br/>load · route · overlay_all]
     TF --> CC
@@ -517,6 +517,20 @@ flowchart LR
 If the judge is unreachable or unsure on a flagged item, the request is **blocked, not allowed
 through** — safety defaults to deny. It runs on **both directions** and is the *same* engine the
 press's own pipeline uses (`saas/guardrails.py` + `judge_client.py`) — reused, not rebuilt.
+
+**First faithfulness scan — and what it taught the engine (2026-06-21).** The mechanical faithfulness
+VAS was run over the four shipped *RESONANCE* parallel editions (Afrikaans · French · Spanish · isiZulu,
+~282k translated words). Proper names preserved, no translator's-note leakage, all 24 chapters aligned —
+clean. **But the length-ratio check flagged isiZulu at 0.66** (a third "shorter" than the English). On
+inspection the shortfall was **flat across every chapter** — the signature of a language property, not an
+omission: **isiZulu is agglutinative** (it folds articles, prepositions, and pronouns into single
+inflected words), so a *faithful* Zulu translation genuinely carries ~30–35% fewer whitespace words.
+
+The flag was a **false alarm — and catching that is the point.** The lesson folded straight back into the
+spec: a length-ratio check needs **per-language-family baselines** (Bantu ≈0.6–0.7, European ≈0.9–1.15),
+or it cries wolf on every Nguni/Sotho edition forever. This is *never-a-dumb-pipe* working exactly as
+designed — the VAS surfaced the one edition worth a look, a human resolved it, and the engine got smarter.
+(Recorded in [`TRANSLATIONS.md`](TRANSLATIONS.md) and `docs/MISOGI.md`.)
 
 > Full product spec, competitive landscape, and rollout gates: `docs/MISOGI.md` (Buabantu section).
 > Rollout follows **corpus depth** — South Africa first, then Swahili, then the rest of Africa as each
