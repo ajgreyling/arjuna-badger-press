@@ -71,6 +71,7 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 | **The Unheard (Japan · Mongolia)** | 🔴 | Drafts exported · **shelf hidden** until in-culture sensitivity reads clear |
 | **Henry Sugar** | 🔴 | Manuscript in workshop · **no rich cover** · withheld from public shelf until art ships |
 | **Translation editions** | 🟡 | *Resonance* pilot live (af · zu · es · fr); catalog rollout per edition map |
+| **Contributed to Wikipedia** | 🟡 | The press's unflinching glossary entry on *poes* — the affectionate register no encyclopedia documents — offered as a citable reference; submitted, awaiting the editors |
 | **"Done-done" on prose** | 🟡 | de-LLM loop to green on at least the trilogy before calling any volume finished |
 | **The Felt and the Sky (Mongolia)** | 🟡 | Draft-complete · exported · sensitivity read binding before pub-done |
 | **Wrath of Achilles (companion)** | 🟡 | On shelf · classicist spot-read still open |
