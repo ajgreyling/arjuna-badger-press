@@ -450,7 +450,7 @@ He was quiet for a moment, long enough that she thought she'd offended him, the 
 
 "It's hello. Zulu."
 
-"It's not hello." He said it without heat, correcting a thing he clearly cared about. "*Hello* is what you say so you don't have to see somebody. *Sawubona* means *I see you.* Not *I notice you're there.* I *see* you — the whole of you, the day you're having, where you come from. And the answer—" he glanced at her, the dark lenses catching the flat grey light, "—the answer is *Sikhona.* *Because you see me, I am here.* You make each other real. That's the whole transaction." A beat, the tractor crawling ahead of them. "It comes out of a bigger thing. *Umuntu ngumuntu ngabantu* — a person is a person through other people. You're not a person on your own, in a room, being right. You're a person because other people see you and you see them back. The whole of who you are is owed to everybody who ever made you real." He said it lightly, eyes on the road, and had no idea — could not have had any idea — that he had just described the exact hole in the middle of her, the one a panel of careful people had spent eighteen months widening.
+"It's not hello." He said it without heat, correcting a thing he clearly cared about. "*Hello* is what you say so you don't have to see somebody. *Sawubona* means *I see you.* Not *I notice you're there.* I *see* you — the whole of you, the day you're having, where you come from. And the answer—" he glanced at her, the dark lenses catching the flat grey light, "—the answer is *Ngikhona.* *Because you see me, I am here.* You make each other real. That's the whole transaction." A beat, the tractor crawling ahead of them. "It comes out of a bigger thing. *Umuntu ngumuntu ngabantu* — a person is a person through other people. You're not a person on your own, in a room, being right. You're a person because other people see you and you see them back. The whole of who you are is owed to everybody who ever made you real." He said it lightly, eyes on the road, and had no idea — could not have had any idea — that he had just described the exact hole in the middle of her, the one a panel of careful people had spent eighteen months widening.
 
 "So you mirror people to make them feel seen."
 
@@ -1228,7 +1228,7 @@ The clouds dragged their shadows across the ranges. The river roared its steady 
 
 That night — the worst of them, after the dark four kilometres down, after three days of running and the constant weight of being hunted — she sat shaking by a small fire somewhere in the foothills and could not get the shaking to stop. Not fear, not anymore; she'd burned through fear on the third day. This was the shape it left behind: her hands wouldn't work, her breath wouldn't settle, something in her had come unpinned and she couldn't seem to get it hammered back down.
 
-Jakobus didn't tell her it would be fine. He didn't offer wisdom. He came round behind her and folded his arms across her front, his chin near her shoulder, the whole warm bulk of him at her back, and she felt it start: not the borrowed warmth of another body, which fades, but something *active,* a heat that came up out of him and *went into her*, steady and deep, the thing she'd later understand he'd learned from monks on the far side of the world and had been carrying around ever since like a banked fire. The shaking stopped. He held on until it did, and a while after, and said, against her hair, the only thing he said: "*Sikhona.* You're here. Stay here."
+Jakobus didn't tell her it would be fine. He didn't offer wisdom. He came round behind her and folded his arms across her front, his chin near her shoulder, the whole warm bulk of him at her back, and she felt it start: not the borrowed warmth of another body, which fades, but something *active,* a heat that came up out of him and *went into her*, steady and deep, the thing she'd later understand he'd learned from monks on the far side of the world and had been carrying around ever since like a banked fire. The shaking stopped. He held on until it did, and a while after, and said, against her hair, the only thing he said: "*Ukhona.* You're here. Stay here."
 
 She had grown up in a house of handshakes. She put her cold hands over his warm forearms and let herself be, for once, completely held, and understood that this — not the knife, not the truck, not the eyes — was the most dangerous thing about Jakobus Swart, and the safest: that he had decided, somewhere, to be a man who would simply *hold on.*
 
@@ -2322,7 +2322,7 @@ Jakobus came across the circle and stood beside her in the centre of the stones.
 
 Then he said it, quietly, just for her, under the live feed and the francolin and the diesel mutter of the generator, in the ringing morning:
 
-"Sikhona." *Because you see me, I am here.*
+"Ngikhona." *Because you see me, I am here.*
 
 And Jennefer Abrahams, who had been told she came from nobody — wrong name, no people, a box on a form that meant *descended from no one in particular* — standing in the oldest morning in the world, surrounded by the proof that she came from *everybody*, finally, completely, let herself believe it.
 
@@ -2544,7 +2544,7 @@ She did not feel like a fraud.
 
 She felt, for the first time in her life, completely and unbearably *here.*
 
-*Sikhona.*
+*Ngikhona.*
 
 # The Real Places in This Book
 
@@ -2638,7 +2638,7 @@ So two peoples who fought each other, bitterly, for that exact stretch of countr
 
 # The Honey Badger
 
-![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/africangold/design/creatures/honey-badger.jpg)
+![A honey badger, *Mellivora capensis*, photographed at night.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/design/creatures/honey-badger.jpg)
 
 *The honey badger (*Mellivora capensis*) is the house animal of Arjuna Badger Press. Everything
 below is true. Most of it sounds made up.*
@@ -2667,87 +2667,4 @@ learned to unlatch gates. He is, more or less, the patron saint of engineers who
 that a thing cannot be done.
 
 Honey badger don't care.
-
----
-
----
-
-<!-- BEGIN image-compendium-appendix (generated by tools/inject_image_appendix.py) -->
-
-## Image Compendium — Dedication
-
-The places, peoples, and wonders in this book are real. These freely-licensed photographs (public domain or Creative Commons, via Wikimedia Commons) are gathered here so you can see them — go stand in them. Each image carries its photographer and licence.
-
-### Places of awe
-
-![Adam's Calendar, Mpumalanga — the standing-stone instrument that opens the book.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/design/images/bauwboschkraal-stone-ruins-30-april-2023.jpg)
-
-*Adam's Calendar, Mpumalanga — the standing-stone instrument that opens the book.*
-<small>Sháron Viljoen, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The Mpumalanga highveld escarpment — the land the Order crosses.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/blyde-river-canyon-nature-reserve-za-blyde-river-bourke-s-luck-pothole.jpg)
-
-*The Mpumalanga highveld escarpment — the land the Order crosses.*
-<small>Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The Vredefort impact structure — the oldest scar on Earth.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/vredefort-dome-in-venterskroon-near-parys.jpg)
-
-*The Vredefort impact structure — the oldest scar on Earth.*
-<small>Phillip778899, CC0, via Wikimedia Commons</small>
-
-![Highveld dawn — mist over standing stone.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/black-wildebeest-connochaetes-gnu-in-mountain-grassland-47036505641.jpg)
-
-*Highveld dawn — mist over standing stone.*
-<small>Bernard DUPONT from FRANCE, CC BY-SA 2.0, via Wikimedia Commons</small>
-
-### Things of wonder (made by hand)
-
-![Great Zimbabwe — the stone city of the gold-trade cultures.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/design/images/great-zimbabwe-ruins-outer-walls-3-1200.jpg)
-
-*Great Zimbabwe — the stone city of the gold-trade cultures.*
-<small>Edwin Smith and Andrew Dale, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The Conical Tower, Great Zimbabwe — mortarless masonry.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/huge-conical-tower-now-7-meters-shorter-destroyed-by-treasure-hunters-.jpg)
-
-*The Conical Tower, Great Zimbabwe — mortarless masonry.*
-<small>amanderson2, CC BY 2.0, via Wikimedia Commons</small>
-
-![The Golden Rhinoceros of Mapungubwe — worked African gold.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/design/images/up-rhino.jpg)
-
-*The Golden Rhinoceros of Mapungubwe — worked African gold.*
-<small>Sian Tiley-Nel, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The Lydenburg Heads — early southern-African sculpture.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/iziko-lydenburg-heads-2.jpg)
-
-*The Lydenburg Heads — early southern-African sculpture.*
-<small>Nkansahrexford, CC BY 3.0, via Wikimedia Commons</small>
-
-![Witwatersrand deep-gold country — why the visitors came.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/carbon-leader-gold-ore-witwatersrand-south-africa-4.jpg)
-
-*Witwatersrand deep-gold country — why the visitors came.*
-<small>James St. John, CC BY 2.0, via Wikimedia Commons</small>
-
-### Peoples, in their own dress
-
-![Xhosa dress — one of Jennefer's living tongues made visible.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/design/images/xhosa-traditionally-dressed-women.jpg)
-
-*Xhosa dress — one of Jennefer's living tongues made visible.*
-<small>mike barwood from port elizabeth, nelson mandela bay, south africa, CC BY-SA 2.0, via Wikimedia Commons</small>
-
-![Zulu ceremonial dress.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/zulu-traditional-attire-lindani-sikhakhane-mpumalanga-emerlo.jpg)
-
-*Zulu ceremonial dress.*
-<small>LindaniShaka, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![Venda people of the far north — keepers of stone-walled sites.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/venda-divination-bowl-british-museum.jpg)
-
-*Venda people of the far north — keepers of stone-walled sites.*
-<small>Ji-Elle, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![Ndebele dress and wall-painting — geometry as inheritance.](/Users/ajgreyling/code/africangold/books/history-before-time/books/book1-africa/build/appendix-images/woman-of-ndebele-village-mpumalanga-south-africa-20522178041.jpg)
-
-*Ndebele dress and wall-painting — geometry as inheritance.*
-<small>South African Tourism from South Africa, CC BY 2.0, via Wikimedia Commons</small>
-
-<!-- END image-compendium-appendix -->
 

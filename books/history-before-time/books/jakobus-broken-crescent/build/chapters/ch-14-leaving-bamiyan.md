@@ -78,9 +78,9 @@ She got out at the through-road. There was no ceremony to it. She stood by the c
 
 "I won't lie."
 
-"I know." She stepped back. "*Sawubona,*" she said, and it was so wrong in her mouth, so completely unowned, a sound she had heard him use once at the meal and kept, that it stopped his breath. She had no idea what it meant. She had reached for the foreigner's own strange word the way he reached for theirs, badly, to honour him in the only currency he'd shown her — and that was the whole of it, that was *Sikhona,* the answer come from a tongue that did not have the answer.
+"I know." She stepped back. "*Sawubona,*" she said, and it was so wrong in her mouth, so completely unowned, a sound she had heard him use once at the meal and kept, that it stopped his breath. She had no idea what it meant. She had reached for the foreigner's own strange word the way he reached for theirs, badly, to honour him in the only currency he'd shown her — and that was the whole of it, that was *Ngikhona,* the answer come from a tongue that did not have the answer.
 
-"Sikhona," he said, very quietly, so she would not ask. And the pickup pulled out onto the long road, and she stood smaller and smaller in the wing mirror until the dust took her.
+"Ngikhona," he said, very quietly, so she would not ask. And the pickup pulled out onto the long road, and she stood smaller and smaller in the wing mirror until the dust took her.
 
 ---
 

@@ -321,6 +321,34 @@
       "weight": 100,
       "contributor": "Balthazar Afrikaans panel (AJG-approved)",
       "note": "Vir 'n lewelose meervoudige antesedent (die reëls) is die voornaamwoordelike bywoord 'daaraan' natuurliker formele Afrikaans as 'aan hulle'."
+    },
+    {
+      "id": "isizulu-greeting-001",
+      "book": "(catalogue-wide)",
+      "source_lang": "en",
+      "lang": "zu",
+      "kind": "fact",
+      "original": "Sawubona — Sikhona",
+      "fix": "Sawubona — Ngikhona",
+      "temp_min": 0.0,
+      "temp_max": 1.0,
+      "weight": 100,
+      "contributor": "Incomo (first-language flag, AJG-approved)",
+      "note": "The singular greeting Sawubona ('I see you', to one person) is answered Ngikhona ('I am here'), NOT Sikhona. Sikhona ('we are here') answers the PLURAL Sanibonani ('I see you all'). Earlier corpus/prose wrongly paired Sawubona→Sikhona."
+    },
+    {
+      "id": "isizulu-greeting-002",
+      "book": "(catalogue-wide)",
+      "source_lang": "en",
+      "lang": "zu",
+      "kind": "fact",
+      "original": "Sanibonani — Ngikhona",
+      "fix": "Sanibonani — Sikhona",
+      "temp_min": 0.0,
+      "temp_max": 1.0,
+      "weight": 100,
+      "contributor": "Incomo (first-language flag, AJG-approved)",
+      "note": "Plural greeting Sanibonani (to a group) is answered Sikhona ('we are here'). Use the plural pair only when the answerer speaks for a group; one-to-one beats use Sawubona→Ngikhona."
     }
   ],
   "top_contributors": {},

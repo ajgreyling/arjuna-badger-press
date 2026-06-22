@@ -58,7 +58,7 @@ A stone. Small, flat, the rose-red sandstone of the place, but with a vein of wh
 
 Jakobus held it. The weight of it. He did not say it was beautiful and he did not say thank you twice, because a man who knows what a gift costs the giver does not paper over it with noise. He closed his hand on it once, slow, and put it in the stone pocket with the others, and it went in among them like it had always been short one.
 
-"*Sikhona*," he said. Quiet. The wrong language for this country and exactly the right word.
+"*Ngikhona*," he said. Quiet. The wrong language for this country and exactly the right word.
 
 Sami didn't know it. But he heard what was under it — he was a man who heard what was under things, it was half of why he was good — and he nodded once, gravely, the way you answer a thing you've understood without translating.
 

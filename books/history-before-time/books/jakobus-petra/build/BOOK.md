@@ -1,45 +1,10 @@
-# The Rose in the Rock
+# Dedication
 
-*(History Before Time: The Rose in the Rock)*
+*For Lisel.*
 
-**The African Gold Trilogy**
+*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
 
-Andries J. Greyling
-
----
-
-*The Rose in the Rock*
-
-Copyright © 2026 Andries J. Greyling. All rights reserved.
-
-This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously. Any resemblance to actual persons, living or dead, events, or locales is coincidental. Real places, historical traditions, and scientific and archaeological references are used in a fictional context.
-
-Published by the House of Greyling.
-
-ISBN: ___-_-_____-___-_  *(assigned at print)*
-
-*Per Ardua ad Magnum.*
-
----
-
-## Contents
-
-- Chapter 1 — The Job in Amman
-- Chapter 2 — The Siq: Stone and Shadow
-- Chapter 3 — The Treasury: Face, Not Fortune
-- Chapter 4 — The Cistern and the Pipe
-- Chapter 5 — The Royal Tombs: Promises in Stone
-- Chapter 6 — The Monastery Climb
-- Chapter 7 — The Largest Façade: Emptiness Inside
-- Chapter 8 — Down to Wadi Musa
-- Chapter 9 — Wadi Musa: Still Lived In
-- Chapter 10 — Packing the Road
-- Chapter 11 — The King's Highway South
-- Chapter 12 — The Cistern in His Head
-- Chapter 13 — Parting Ways
-- Chapter 14 — The Road Out
-- Chapter 15 — Stone and Water
-- Chapter 99 — Notes, Sources, and Responsible Travel
+*Sawubona.*
 
 ---
 
@@ -120,8 +85,6 @@ Sami didn't smile, but the dryness in him shifted a degree, the way a man's face
 He stood, and was gone up the switchback into the white town, and Jakobus sat a moment longer in the shade with the heat pressing on the awning and the gorge somewhere below them, full of the thing the whole world came to see, and felt the small click of a job that was not going to be small after all — the friction of three rhythms finding they had to become one, his and hers and the place's, and the place's winning, as it should.
 
 He paid for a second round of tea Lena didn't want, and drank it, and watched the light go long and amber on the stone.
-
----
 
 # Chapter 2 — The Siq: Stone and Shadow
 
@@ -221,8 +184,6 @@ He went toward it with the rest. But the thing he carried out of the dark wasn't
 
 It was the cold channel, and the marks of the iron, and a man on his knees making a city possible one careful stroke at a time.
 
----
-
 # Chapter 3 — The Treasury: Face, Not Fortune
 
 The Siq ends the way a held breath ends. One moment the gorge had them in its narrow dark, the rose walls leaning close enough to touch on both sides at once, the air cool and old; the next the rock split and let in a slot of furious morning light, and at the bottom of that slot, framed like a thing you were meant to find, stood the Khazneh.
@@ -282,8 +243,6 @@ It was the first time Jakobus had looked at Sami and seen, plainly, the same thi
 "Come," Sami said. "The dead are this way. And then—" the ghost of something, almost a smile, "—then I show you where the rain was kept. That, nobody photographs."
 
 Jakobus settled the shades down against the climbing sun, and followed him out of the gold and into the work.
-
----
 
 # Chapter 4 — The Cistern and the Pipe
 
@@ -381,8 +340,6 @@ Lena was on her feet. She had the camera in her hands now, looking at the pump, 
 
 He turned and started up the slope toward the next thing, the one nobody photographed, and Jakobus stood a second longer at the lip of the dry cistern with the clean pump running behind him and the groove going downhill in his head, and then he put the shades back on against the climbing sun and went after him.
 
----
-
 # Chapter 5 — The Royal Tombs: Promises in Stone
 
 The pump held. Jakobus wiped his hands on the back of his trousers, left the staff house with the small clean ache of a thing put right behind him, and followed Sami back along the cliff base where the morning was burning off the cool.
@@ -472,8 +429,6 @@ She lifted her head off her arms. Cooked, but steady. She'd be all right.
 Jakobus looked at the steps going up into the white glare, and felt his own knee, quietly, take note.
 
 "Right," he said. "Then we don't sit."
-
----
 
 # Chapter 6 — The Monastery Climb
 
@@ -575,8 +530,6 @@ Jakobus said nothing. He set Lena's bag down against the cool wall, carefully, a
 
 He drank the last of the woman's water and looked at the long way down he had not yet paid for, and he was glad, in the gone-quiet, aching way of a man who has nothing left to prove and proved it anyway, that he had come up.
 
----
-
 # Chapter 7 — The Largest Façade: Emptiness Inside
 
 The plateau levelled and the wind found them.
@@ -677,8 +630,6 @@ He went down in front of her after that, one slow step at a time, a rail she cou
 
 He kept his eyes on the next step, and the next, and carried what he was carrying, and did not say a single one of the things the room had told him.
 
----
-
 # Chapter 8 — Down to Wadi Musa
 
 The Monastery did not let go of you quickly. That was the trick of it, Jakobus thought, going down — the stone held its grip on a body long after the body had turned to leave. Eight hundred and fifty steps, give or take. He'd counted on the way up the way you count anything to keep the lid on. He was not counting now. Now he was watching Lena's feet.
@@ -734,8 +685,6 @@ Lena hesitated. He watched her do the calculation a tired professional does — 
 "We'd be honoured," Jakobus said, before she could choose for both of them. He felt her glance at him. "You can shoot the wedding food in the morning if your hands won't sit still. Tonight you eat it." He shifted the bags higher on his shoulder and ducked his head under the lintel. "Come on. They'll think we're rude, and then I'll have to fix something to make up for it."
 
 He stepped into the warmth and the noise, and the door of the living town closed the dead one behind him, and for the length of one breath, going in, he was not a man reading the room. He was just a guest, hungry, let inside.
-
----
 
 # Chapter 9 — Wadi Musa: Still Lived In
 
@@ -821,8 +770,6 @@ The road would be there in the morning. It always was.
 
 He stayed in the warm a while longer, and let it.
 
----
-
 # Chapter 10 — Packing the Road
 
 He woke the way he always did before a leaving — before the alarm, before the light, in the grey hour when the muezzin's call had not yet come and the town held its breath. The room was cool. The blanket Sami's aunt had pressed on him last night lay folded at the foot of the bed, where he had put it back the moment his eyes opened, because a man leaves a room the way he found it or he has no business sleeping in it.
@@ -883,7 +830,7 @@ A stone. Small, flat, the rose-red sandstone of the place, but with a vein of wh
 
 Jakobus held it. The weight of it. He did not say it was beautiful and he did not say thank you twice, because a man who knows what a gift costs the giver does not paper over it with noise. He closed his hand on it once, slow, and put it in the stone pocket with the others, and it went in among them like it had always been short one.
 
-"*Sikhona*," he said. Quiet. The wrong language for this country and exactly the right word.
+"*Ngikhona*," he said. Quiet. The wrong language for this country and exactly the right word.
 
 Sami didn't know it. But he heard what was under it — he was a man who heard what was under things, it was half of why he was good — and he nodded once, gravely, the way you answer a thing you've understood without translating.
 
@@ -906,8 +853,6 @@ Sami stood in the doorway with his arms folded. Lena came out with her bag and h
 "They'll get them," Jakobus said. He patted the top of the dash, twice, soft. "That'll do, pig," he told the truck, to no one, and put it in gear.
 
 The town slid back in the mirror, gold going to white as the sun cleared the ridge. He had a stone in his pocket the rock had remembered him by, an envelope he'd won an argument over, and a long flat road ahead with new boys and old papers at the far end of it. He drove out the way he'd come in, slow through the lane, then faster as the houses thinned, the bass left off and the engine doing all the talking, alone again and steady with it, the way he was built.
-
----
 
 # Chapter 11 — The King's Highway South
 
@@ -965,8 +910,6 @@ Jakobus eased the truck up to a hundred-and-twenty and let it sit, the inline-si
 
 He just drove south, into the open, with the cistern in his head.
 
----
-
 # Chapter 12 — The Cistern in His Head
 
 The overlook was nothing — a gravel apron where a culvert crossed, a flat place where trucks pulled off to let their engines cool. Jakobus took it because the light was right, the road ahead empty for fifteen kilometres in either direction, and there was a man in the rear-view who needed to stop being on the road for ten minutes before the road took the whole of him.
@@ -1018,8 +961,6 @@ Sami turned at last, the empty mug held loose in his fingers, and looked at Jako
 He rinsed the pot with a swallow of water and packed the burner and the grinder and the beans back under the seat where they lived, and put the rose stone with its milk-vein deep in the waistcoat pocket where his thumb would find it on a bad night, and got back behind the wheel. The engine caught and held — Mark's work, two countries and a rebuild ago, faithful as the slow pipe.
 
 He looked once more at the ridges running down toward the Hejaz, then checked the mirror for traffic that wasn't there, and pulled the Beast back onto the King's Highway, southbound, the cistern cool and complete in his head and the Treasury already going, going, gone behind him with the bird.
-
----
 
 # Chapter 13 — Parting Ways
 
@@ -1103,8 +1044,6 @@ He thumbed the shades up his nose, reached for the key, and the old straight-six
 
 He put it in gear and chose the south fork, the one neither of them had taken, and drove off alone into a country he didn't know, which was the only direction that had ever fit him.
 
----
-
 # Chapter 14 — The Road Out
 
 The south fork ran nine kilometres before he saw another made thing, and that was a culvert.
@@ -1159,8 +1098,6 @@ The road ran out ahead of him into the shimmer, and behind the shimmer there'd b
 
 He drove south, full of bass and quiet at once, and let the heat come.
 
----
-
 # Chapter 15 — Stone and Water
 
 He stopped a second time when the light started to go.
@@ -1211,8 +1148,6 @@ He got in. The knee complained. He let it.
 
 He pulled the door shut and the desert went away behind the glass, and he put the truck in gear and let it roll back onto the road, the headlights opening a narrow lit room ahead of him in all that dark. He didn't turn the music up. He drove south, slow at first and then settling into the long even pull of a man with somewhere to be and time to get there, the cistern alive in his head, and the pipe, and the boy, and the patience of stone, going on.
 
----
-
 # Chapter 99 — Notes, Sources, and Responsible Travel
 
 This is a novel, and a novel lies for a living. But it lies about people. It does not get to lie about the ground.
@@ -1261,41 +1196,3 @@ Ortloff, C. R., *The Water Supply and Distribution System of the Nabataean City 
 Everything right in here, I owe to them. Everything invented, I owe to you, and have tried to label.
 
 — *for the people who kept the rain.*
-
----
-
-# Acknowledgements
-
-
-
-These books exist because other people made things that lived in my head long after I'd finished
-them. My thanks:
-
-To **Dennis E. Taylor**, who wrote software for thirty-five years — front-line grunt to upper
-management, always in IT — before he ever wrote a Bob, and then proved that a career programmer can
-write gripping, genuinely entertaining stories. As one software engineer to another: it would be my
-great honour to talk shop with you over a pint, in "real" (sic). *The Court thanks the Bobs.*
-
-To **Ray Porter**, for giving me the voices of the Court in my head. May I be so lucky as to have
-you narrate the US release.
-
-To **Scott Sigler**, for *EarthCore* and *Mount Fitz Roy*.
-
-To **Michael Crichton**, for — honestly — everything.
-
-To **Dan Brown**, for teaching me a new kind of storytelling.
-
-To **Andy Weir**, for showing how to write fiction on the back of real science that isn't science
-fiction.
-
-To **Neill Blomkamp**, for *District 9*, *Elysium*, and *Chappie* (Die Antwoord and all). Your
-films kept the characters and the scenes grounded in my head. May you be the one who puts this on
-the big screen.
-
-And to **Patrick Rothfuss**, for getting me into a genre I never knew I'd fall in love with. As my
-small way of giving back: you have free use of Arjuna Badger Press, always.
-
-— Andries J. Greyling
-
----
-
