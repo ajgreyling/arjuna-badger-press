@@ -4102,6 +4102,10 @@ SAFARI_CONTENT = [
      "Poes (Afrikaans): literally the crudest word for the vulva, but it inverts by register — a grave "
      "insult to a stranger, pure affection to a friend ('jou lucky poes'). The rudest word in the "
      "language, kept for the people we love most. An unflinching, sourced glossary entry."),
+    ("sky-penis.md", "sky-penis.html", "The Sky-Penis Files — military aviators' phallic flight paths · Arjuna Badger Press",
+     "The documented (and the merely reported) history of military aircraft drawing phallic shapes "
+     "in contrails and on GPS flight-trackers — the Whidbey Island Growler (2017), the Finnish cadets "
+     "(2026), and more. A sourced companion to the poes entry: the same human impulse, in the sky."),
 ]
 
 # Per-page SEO for Safari content (keywords + JSON-LD). Keyed by out_name. The poes entry is built
@@ -4158,6 +4162,30 @@ SAFARI_SEO = {
                     "isAccessibleForFree": True,
                 },
             ],
+        }, ensure_ascii=False),
+    },
+    "sky-penis.html": {
+        "keywords": ("sky penis, sky penis Navy, Whidbey Island sky penis, EA-18G Growler penis, "
+                     "VAQ-130 Zappers, contrail penis, Flightradar24 penis, military penis flight path, "
+                     "Finnish Air Force penis, phallic flight pattern, sky penis incidents, "
+                     "penis shaped flight path, military aviation pranks"),
+        "ld_json": json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "The Sky-Penis Files — military aviators' phallic flight paths",
+            "description": (
+                "A sourced history of military aircraft drawing phallic shapes in contrails and on "
+                "GPS flight-trackers — the documented (Whidbey Island Growler 2017, Finnish cadets "
+                "2026) separated honestly from the merely reported."),
+            "inLanguage": "en",
+            "author": {"@type": "Person", "name": "Andries J. Greyling"},
+            "publisher": {
+                "@type": "Organization", "name": "Arjuna Badger Press", "url": DOMAIN,
+                "logo": {"@type": "ImageObject",
+                         "url": f"{DOMAIN}/assets/brand/social-og-1200x630.png"}},
+            "dateModified": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "mainEntityOfPage": f"{DOMAIN}/safari/sky-penis.html",
+            "isAccessibleForFree": True,
         }, ensure_ascii=False),
     },
 }
