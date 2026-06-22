@@ -92,6 +92,24 @@ prose human are never edited out.
 
 ---
 
+## The exposé — one page per tool
+
+Each part of the studio has its own deep-dive. The sections below are the short version; follow the link
+for the full page with its own diagrams.
+
+| Tool | What it does | Kind |
+|---|---|---|
+| **[StoryGraph — the continuity gate](tech-storygraph.html)** | hard-gates the world's internal logic across a whole book (and across books) | deterministic |
+| **[NovelBench](tech-novelbench.html)** | read-only craft scorer — turns "feels off" into "number moved" | deterministic + AI |
+| **[The de-LLM loop](tech-de-llm-loop.html)** | finds and permanently kills duplicate machine-tells | AI + deterministic |
+| **[The editorial pipeline](tech-editorial-pipeline.html)** | outline → draft → polish → gatekeeper → gate → merge | AI + deterministic |
+| **[The verification gate](tech-verification-gate.html)** | fact-checks every claim; both sides on contested history | AI (cited) |
+| **[The police + judge guardrail](tech-guardrails.html)** | two-layer, fail-closed safety on both directions | deterministic + AI |
+| **[People's Language](tech-peoples-language.html)** | corpus-first, register-aware translation | AI + corpus |
+| **[Buabantu](tech-buabantu.html)** | the translation engine, spun off as a closed-beta API | product |
+
+---
+
 ## 2. StoryGraph — a geospatial-temporal continuity graph
 
 The spine of the system. Every chapter is parsed into a graph DB whose nodes are **characters,
@@ -131,6 +149,8 @@ flowchart LR
     BLOCK --> FIX[Targeted fix] --> C
 ```
 
+→ **[Full page: StoryGraph — the continuity gate](tech-storygraph.html)**
+
 ---
 
 ## 3. NovelBench — a read-only manuscript scorer
@@ -142,6 +162,8 @@ moved*, so a revision can be judged by whether it actually improved the book or 
 
 It runs in two tiers: a free **local/deterministic** pass (sentence-layer metrics) on every build,
 and a metered **LLM scorecard** for a deeper read when it's worth the spend.
+
+→ **[Full page: NovelBench — the read-only manuscript scorer](tech-novelbench.html)**
 
 ---
 
@@ -168,6 +190,8 @@ flowchart LR
 
 The point: the system **learns from its own failures**. A tell found once becomes a guardrail that
 catches it forever after — the prose quality ratchets, it doesn't drift.
+
+→ **[Full page: the de-LLM loop — and the duplicate-tell eliminators](tech-de-llm-loop.html)**
 
 ---
 
