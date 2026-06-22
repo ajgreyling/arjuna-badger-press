@@ -538,9 +538,9 @@ People felt it on him immediately, everywhere, for the rest of his life, and cou
 
 He found the words for it, years later, and far from the Kalahari, and they were not San words at all.
 
-He was in the east of the country, in the green hills, the Zulu country, and someone greeted him in the old way — *Sawubona* — and he learned, asking, easily, sideways, the way the bush had taught him to learn, what it carried. *Sawubona:* I see you. And the answer, *Sikhona:* I am here — because until you are seen, the old idea ran, you are not yet wholly here; a person is brought into being by being beheld. And under both of them the deepest one, the one that stopped him in the road the way Be's elephant had stopped him by the fire: *umuntu ngumuntu ngabantu* — a person is a person through other people.
+He was in the east of the country, in the green hills, the Zulu country, and someone greeted him in the old way — *Sawubona* — and he learned, asking, easily, sideways, the way the bush had taught him to learn, what it carried. *Sawubona:* I see you. And the answer, *Ngikhona:* I am here — because until you are seen, the old idea ran, you are not yet wholly here; a person is brought into being by being beheld. And under both of them the deepest one, the one that stopped him in the road the way Be's elephant had stopped him by the fire: *umuntu ngumuntu ngabantu* — a person is a person through other people.
 
-He stood in the green hills and felt the whole of his life arrange itself around the three Zulu words like iron filings around a magnet, because they were the exact words — the only words he ever found in any tongue — for the wordless thing the San had done to him in the sand. He had been a man who was not wholly there. The army had not seen him; his country had not seen him; his own father, who loved him, had not been able to see him; he had performed for human beings for thirty years precisely so that no one would see him, and the not-being-seen had nearly killed him, twice, in two sheds, his father's and the one he had carried inside. And then a small man behind a tree had said *I read the man* — had seen him, all the way down, the first human being ever to — and a band of the most reduced and unseen people on earth had taken the unseen soldier into their firelight and *beheld* him, night after night, year after year, until, beheld, he had at last become wholly here. *Sawubona. Sikhona.* They had not fixed him. They had seen him. It was the same thing. It was the only thing. A person is a person through other people, and he had been made a person, late, at great cost, by the very people his whole world had decided were not quite persons at all.
+He stood in the green hills and felt the whole of his life arrange itself around the three Zulu words like iron filings around a magnet, because they were the exact words — the only words he ever found in any tongue — for the wordless thing the San had done to him in the sand. He had been a man who was not wholly there. The army had not seen him; his country had not seen him; his own father, who loved him, had not been able to see him; he had performed for human beings for thirty years precisely so that no one would see him, and the not-being-seen had nearly killed him, twice, in two sheds, his father's and the one he had carried inside. And then a small man behind a tree had said *I read the man* — had seen him, all the way down, the first human being ever to — and a band of the most reduced and unseen people on earth had taken the unseen soldier into their firelight and *beheld* him, night after night, year after year, until, beheld, he had at last become wholly here. *Sawubona. Ngikhona.* They had not fixed him. They had seen him. It was the same thing. It was the only thing. A person is a person through other people, and he had been made a person, late, at great cost, by the very people his whole world had decided were not quite persons at all.
 
 He never preached it. That was the last thing the bush had taught him and the one he held most faithfully: you do not make a speech of the thing that matters. You embody it. So he carried *Sawubona* the way he carried the box's open lid and the courtesy to the mantis and the vow against the screaming and the stillness that filled a room — wordlessly, in the body, in the way he greeted a frightened stranger, in the way he gave things away, in the way he could sit with another human being's pain and not try to fix it, only refuse, gently, to let them be alone in it. The people who met him in the years that came — the ones who would walk beside him into things stranger and larger than this quiet beginning, the ones who would call him by all his different names — knew only that there was something about Jakobus Swart, some deep unhurried peace, some way he had of seeing all the way to the bottom of you and not looking away, that made you feel, in his presence, more real than you usually managed to be.
 
@@ -552,7 +552,7 @@ And he meant it all the way down, the way it had once, against every odd, been m
 
 *Sawubona.*
 
-*Sikhona.*
+*Ngikhona.*
 
 *A person is a person through other people.*
 
@@ -587,65 +587,3 @@ Most San languages have no single fixed word for *thank you*, because among many
 *Sawubona.*
 
 — A.J.G.
-
----
-
-<!-- BEGIN image-compendium-appendix (generated by tools/inject_image_appendix.py) -->
-
-## Image Compendium — Dedication
-
-The places, peoples, and wonders in this book are real. These freely-licensed photographs (public domain or Creative Commons, via Wikimedia Commons) are gathered here so you can see them — go stand in them. Each image carries its photographer and licence.
-
-### Places of awe
-
-![The Kalahari — the place they just call home.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/africa-mabuasehube-kgalagadi.jpg)
-
-*The Kalahari — the place they just call home.*
-<small>NeilMoll, CC0, via Wikimedia Commons</small>
-
-![The Nyae Nyae pans — water, grass and distance.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/nyae-nyae-see.jpg)
-
-*The Nyae Nyae pans — water, grass and distance.*
-<small>Hp.Baumeler, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![Camelthorn and red sand — the bush that unmakes a soldier.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/design/images/auob-matamata2.jpg)
-
-*Camelthorn and red sand — the bush that unmakes a soldier.*
-<small>Dr. Thomas Wagner, CC BY-SA 3.0, via Wikimedia Commons</small>
-
-### Things of wonder (made by hand)
-
-![San rock art — the oldest continuous storytelling on Earth.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/southern-san-eland-main-panel-google-art-project.jpg)
-
-*San rock art — the oldest continuous storytelling on Earth.*
-<small>Southern San Details on Google Art Project, Public domain, via Wikimedia Commons</small>
-
-![Ostrich-eggshell beadwork — wealth that is given away.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/iziko-necklace-of-ostrich-eggshells-beads.jpg)
-
-*Ostrich-eggshell beadwork — wealth that is given away.*
-<small>Nkansah Rexford, CC BY 3.0, via Wikimedia Commons</small>
-
-![The hunter's bow — patience as the deepest gift.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/naro-bushmen-hunting-in-the-central-kalahari-game-reserve-botswana-200.jpg)
-
-*The hunter's bow — patience as the deepest gift.*
-<small>DVL2, CC BY-SA 3.0, via Wikimedia Commons</small>
-
-### Peoples, in their own dress
-
-![The San — people who own almost nothing and are calm in any room.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/bushmen-in-the-kalahari.jpg)
-
-*The San — people who own almost nothing and are calm in any room.*
-<small>sjorford, CC BY-SA 2.0, via Wikimedia Commons</small>
-
-![The healing dance — the silver thread itself.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/the-shaman-healing-dance-of-the-san-bushmen.jpg)
-
-*The healing dance — the silver thread itself.*
-<small>Kgara Kevin Rack, CC BY-SA 4.0, via Wikimedia Commons</small>
-
-![The tracker who reads the ground — Kxao's craft.](/Users/ajgreyling/code/africangold/books/history-before-time/books/jakobus-silver-thread/build/appendix-images/naro-bushmen-drinking-water-from-the-bi-bulb-plant-botswana-2008.jpg)
-
-*The tracker who reads the ground — Kxao's craft.*
-<small>DVL2, CC BY-SA 3.0, via Wikimedia Commons</small>
-
-<!-- END image-compendium-appendix -->
-
