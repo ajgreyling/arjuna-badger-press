@@ -1490,6 +1490,12 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
     border-bottom:1px solid var(--line)}
 }
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
+.reader.poem{max-width:40rem}
+.reader.poem .poem-title{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:34px;
+  text-align:center;letter-spacing:0;margin:0 0 .15em;color:var(--bone)}
+.reader.poem .poem-sub{text-align:center;font-style:italic;color:var(--ochre);margin:0 0 2.6em;font-size:18px}
+.reader.poem .stanza{font-family:"Cormorant Garamond",Georgia,serif;font-size:21px;line-height:1.55;
+  color:var(--bone);margin:0 0 2.1em;text-align:left}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
 .reader.letter em{color:var(--bone)}
@@ -3765,6 +3771,56 @@ def render_letter(src_name: str, out_name: str, title: str, desc: str, *,
     ])
 
 
+# ── Poems: verse pages where line breaks are sacred ───────────────────────────────────────────
+# A poem is NOT prose — md_to_html() collapses single newlines, which destroys verse. render_poem()
+# reads site/content/<src>, treats the FIRST line as the title and the SECOND as a subtitle (both
+# optional), and renders every remaining blank-line-separated block as a <div class="stanza"> with
+# one <br> per line — so the poem lands exactly as written. No blurb, no chrome, no explanation;
+# just the verse and a single quiet way back. (src, out, page-title, meta-desc)
+POEMS = [
+    ("die-sleutel.md", "die-sleutel.html", "die sleutel — Arjuna Badger Press",
+     "'n gedig."),
+]
+
+
+def render_poem(src_name: str, out_name: str, title: str, desc: str, *,
+                rel: str = "", safari: bool = False) -> str | None:
+    src = REPO / "site" / "content" / src_name
+    if not src.is_file():
+        return None
+    raw = src.read_text(encoding="utf-8", errors="ignore").strip("\n")
+    lines = raw.split("\n")
+    poem_title = lines[0].strip() if lines else ""
+    poem_sub = lines[1].strip() if len(lines) > 1 and lines[1].strip() else ""
+    rest = "\n".join(lines[(2 if poem_sub else 1):]).strip("\n")
+    stanzas = [s for s in re.split(r"\n\s*\n", rest) if s.strip()]
+    blocks = []
+    for st in stanzas:
+        vlines = [html.escape(ln.rstrip()) for ln in st.split("\n")]
+        blocks.append('<p class="stanza">' + "<br>\n".join(vlines) + "</p>")
+    head_html = ""
+    if poem_title:
+        head_html += f'<h1 class="poem-title">{html.escape(poem_title)}</h1>'
+    if poem_sub:
+        head_html += f'<p class="poem-sub">{html.escape(poem_sub)}</p>'
+    canon_path = f"safari/{out_name}" if safari else out_name
+    back = f"{rel}safari/index.html" if safari else f"{rel}index.html"
+    back_label = "Meet the man" if safari else "the library"
+    chrome = safari_nav(rel) if safari else nav(rel)
+    safari_key = out_name.removesuffix(".html") if safari else ""
+    return "\n".join([
+        head(title, desc, rel=rel, safari=safari, canonical=f"{DOMAIN}/{canon_path}",
+             safari_page=safari_key),
+        chrome,
+        '<article class="reader poem">'
+        f'{head_html}'
+        f'{"".join(blocks)}'
+        f'<p style="text-align:center;margin-top:48px"><a class="back" href="{back}">&larr; Back to {back_label}</a></p>'
+        '</article>',
+        footer(rel, safari=safari, safari_page=safari_key),
+    ])
+
+
 # ── Writing desk: essays, short stories, parables (restored) ──────────────────────────────────
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
@@ -5706,6 +5762,10 @@ def main() -> None:
         (safari_out / "technology.html").write_text(with_mermaid(tech_page), encoding="utf-8")
     for src_name, out_name, title, desc in LETTERS:
         page = render_letter(src_name, out_name, title, desc, rel="../", safari=True)
+        if page:
+            (safari_out / out_name).write_text(page, encoding="utf-8")
+    for src_name, out_name, title, desc in POEMS:
+        page = render_poem(src_name, out_name, title, desc, rel="../", safari=True)
         if page:
             (safari_out / out_name).write_text(page, encoding="utf-8")
     safari_writing = safari_out / "writing"
