@@ -107,7 +107,7 @@ Tuyaa is the hinge: which language she chooses decides the book.
   hope-not-triumph.)*
 - **The road pulls onward.** Jakobus and the crew leave — the **Sawubona** lesson carried, the next unheard
   place ahead. **Tuyaa stays** (or leaves *changed*, the daughter who chose) — the camera last on the
-  **herders and the steppe**, not the visitors. A **completed Sawubona/Sikhona pair** seeded here if earned
+  **herders and the steppe**, not the visitors. A **completed Sawubona/Ngikhona pair** seeded here if earned
   (series §3 SSOT) — a companion who's absorbed the ethos answering him — without ever explaining it.
 
 ---
@@ -145,4 +145,4 @@ tourism-dignity payoff).
   rhyme).
 - Which **crew member** is the secondary POV "eyes" (Naila vs. the polyglot).
 - The **mine/fixer** names; the precise water/legal mechanism the climax turns on.
-- Whether a **completed Sawubona/Sikhona** pair lands here (series candidate — only if earned).
+- Whether a **completed Sawubona/Ngikhona** pair lands here (series candidate — only if earned).

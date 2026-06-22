@@ -99,11 +99,18 @@ rm -f "$EPUB_SRC"
 # ---- PDF: tectonic, Atkinson body + a `dossier` (Courier Prime) environment for The File --------
 # Pass the absolute font dir to LaTeX, then include the dossier header (defines \begin{dossier}).
 PDF_HEADER="$(mktemp -t abp-pdf-header).tex"
+# House colophon: the black ABP crest on the final page of EVERY book (logo only).
+# Opt out per book with NO_COLOPHON=1. Asset lives in brand/assets (canonical).
+COLOPHON_LOGO="$REPO/brand/assets/logo-black.png"
+
 {
   printf '\\def\\ABPFONTDIR{%s}\n' "$FONT_DIR"
   cat "$DOSSIER_TEX"
-  # packages for the full-bleed cover page (graphicx = \includegraphics, eso-pic = shipout bg)
-  [ -n "$COVER" ] && printf '\\usepackage{graphicx}\n\\usepackage{eso-pic}\n'
+  # graphicx needed for the cover AND the colophon; load it whenever either is present
+  if [ -n "$COVER" ] || { [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; }; then
+    printf '\\usepackage{graphicx}\n'
+  fi
+  [ -n "$COVER" ] && printf '\\usepackage{eso-pic}\n'
 } > "$PDF_HEADER"
 
 # Full-bleed cover page as the FIRST page of the PDF (same mechanism as the HBT pipeline:
@@ -133,6 +140,20 @@ fi
 PDF_CLASSOPT=()
 [ -n "${BOOK_CLASSOPTION:-}" ] && PDF_CLASSOPT=(-V classoption="$BOOK_CLASSOPTION")
 
+# House colophon as the final page (logo only, centred). Every book, unless NO_COLOPHON=1.
+PDF_AFTER=()
+if [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; then
+  PDF_COLOPHON_TEX="$(mktemp -t abp-pdf-colophon).tex"
+  {
+    # Optical centring: anchor top glue with \null, weight the lower glue heavier so the mark
+    # sits at the optical centre (slightly above mathematical middle), the classic colophon position.
+    printf '\\clearpage\n\\thispagestyle{empty}\n\\null\\vskip 0pt plus 1fil\n\\begin{center}\n'
+    printf '\\includegraphics[width=0.40\\textwidth]{%s}\n' "$COLOPHON_LOGO"
+    printf '\\end{center}\n\\vskip 0pt plus 1.6fil\n'
+  } > "$PDF_COLOPHON_TEX"
+  PDF_AFTER=(--include-after-body "$PDF_COLOPHON_TEX")
+fi
+
 pandoc "$BOOK_MD" \
   -o "$OUT_BASE.pdf" \
   --pdf-engine=tectonic \
@@ -140,6 +161,7 @@ pandoc "$BOOK_MD" \
   --lua-filter "$REPO/assets/dossier-div.lua" \
   -H "$PDF_HEADER" \
   ${PDF_BEFORE[@]+"${PDF_BEFORE[@]}"} \
+  ${PDF_AFTER[@]+"${PDF_AFTER[@]}"} \
   -V documentclass=book \
   ${PDF_CLASSOPT[@]+"${PDF_CLASSOPT[@]}"} \
   -V geometry:paperwidth=6in -V geometry:paperheight=9in -V geometry:margin=0.75in \
@@ -151,5 +173,6 @@ pandoc "$BOOK_MD" \
 
 rm -f "$PDF_HEADER"
 [ -n "${PDF_COVER_TEX:-}" ] && rm -f "$PDF_COVER_TEX"
+[ -n "${PDF_COLOPHON_TEX:-}" ] && rm -f "$PDF_COLOPHON_TEX"
 
 echo "  [gate ok] $(basename "$OUT_BASE") — EPUB + PDF (Atkinson body; Courier Prime for The File)"

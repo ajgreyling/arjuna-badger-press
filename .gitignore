@@ -55,3 +55,6 @@ book-status-audit.json
 
 # Buabantu per-chunk translation working dirs (intermediates; the assembled BOOK.<lang>-<tag>.md is the artifact)
 books/**/build/.buabantu/
+
+# Buabantu page-translation scratch (segment workdir; final poes.<lang>.md is the kept output)
+site/content/.buabantu-page/
