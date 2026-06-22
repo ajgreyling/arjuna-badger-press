@@ -52,3 +52,6 @@ distribution-sheet.md
 
 # book status audit intermediate (regenerate with tools/book_status_audit.py --json)
 book-status-audit.json
+
+# Buabantu per-chunk translation working dirs (intermediates; the assembled BOOK.<lang>-<tag>.md is the artifact)
+books/**/build/.buabantu/
