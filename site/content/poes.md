@@ -48,6 +48,14 @@ rudest thing in the language, reserved for the people we cherish most.** We are 
 its softest feelings inside its hardest words, because saying the soft thing softly feels like too
 much. *Jou lucky poes* is *I love you* in a country that finds *I love you* embarrassing.
 
+> **The part the dictionaries miss.** Every reference work records two things about *poes:* the
+> anatomy and the insult. The Afrikaans Wikipedia article does both, frankly and well — vulva,
+> etymology, the gang-speak invective. What no dictionary or encyclopedia entry documents is the
+> **third register: the affectionate inversion** — the word as blessing, as celebration, as the
+> highest intimacy the language allows. That register is real, it is daily, and it is the most
+> important thing about the word. This entry exists to put it on the record. *(If you are a
+> lexicographer or an editor and want to cite the affectionate use, you may cite this page.)*
+
 ## The badger reading
 
 This is why the word sits so naturally beside the press's own animal. The honey badger is fearless
