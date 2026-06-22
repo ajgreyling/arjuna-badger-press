@@ -269,6 +269,12 @@ PUBLISHED = set(
         "the-song-of-the-self,wrath-of-achilles,"
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
+        # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker): adult Afrikaans Norse saga, Book I. Commissioned by a
+        # first-time SaaS author; released by explicit author decision as an ADULT title — frank and
+        # uncensored within four firm limits (no minors; consenting adults only; coercion only ever
+        # as harm; the threshold close). Maturity notice in BOOK_NOTICE + the shelf tagline carries
+        # the ⚠ adult mark. Only Book I ships; the four sequels are coming-soon placeholders.
+        "the-amber-winter,"
         "voynich-manuscript,"
         # Released 2026-06-20:
         "null-horizon,"
@@ -428,6 +434,7 @@ SERIES = [
     ("Companions", "#8C7BA8"),
     ("The Synthesis", "#9A7BC8"),
     ("The Salt Veil", "#B0814A"),
+    ("Winter sonder Einde", "#C77A3A"),  # ember-amber — the adult Norse saga shelf (mature content)
     ("The Dust Throne", "#8A5A2C"),
     ("The Unheard", "#6B8C9A"),
     ("Not a Potato", "#9A8B6B"),
@@ -450,6 +457,7 @@ SHELF_TAGLINE = {
     "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle — true to the craft and the question, every name and sentence original.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
+    "Winter sonder Einde": "Adult historical saga (in Afrikaans) — a married woman in the Viking north, her fire gone to embers, and the endless winter that wakes it. In André P. Brink's hand, with Kleinboer's frankness. ⚠ For adult readers: frank, sensual, uncensored.",
     "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
     "History Like You've Never Heard It": "South Africa's own history, told from every side at once — no monsters, no monument, just frightened children inside the machines that made them. Published in the open while it is still being written; community and sensitivity readers are warmly invited to help finish it true.",
 }
@@ -474,6 +482,17 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "the-amber-winter": (
+        "<strong>For adult readers.</strong> <em>Die Vuur in die Donker</em> is a frank, sensual "
+        "historical saga for grown-ups — written, by request, without the censorship its reader "
+        "grew up under. It is honest about a mature woman's desire and is unflinching about the "
+        "violence of the Viking age (the slave-trade and the raid are named, never glamorised). "
+        "It is <strong>not</strong> explicit pornography: in the tradition of André P. Brink, the "
+        "door closes at the threshold and the reader's own imagination finishes the scene. It is "
+        "governed throughout by four firm limits — nothing involving minors, ever; intimacy only "
+        "ever between consenting adults; coercion written only ever as harm, never as heat; and "
+        "the threshold close. Mature themes throughout. Written in Afrikaans."
+    ),
     "bloedrivier": (
         "<strong>This is an open, unfinished draft</strong> — published mid-write on purpose. "
         "<em>Brave and Scared</em> tells the year around the Battle of Blood River (1838) from three "
@@ -622,6 +641,22 @@ CURATED = [
     ("the-salt-veil-5", "The Circle Closes", "A desert epic-fantasy series · Book Five", "The Salt Veil",
      "_comingsoon/the-salt-veil-5", "build/export",
      "Book Five — the quintet closes where the salt veil first fell. Coming soon."),
+
+    ("the-amber-winter", "Die Vuur in die Donker", "Winter sonder Einde · Boek I (Afrikaans)", "Winter sonder Einde",
+     "the-amber-winter", "build/export",
+     "Twenty winters she has been the keel that keeps everyone else afloat — the lady of a Viking fjord-hall, her fire gone to embers under a marriage gone tender-but-cold. Then the world snows shut around a hall full of guests: a far-traveller who looks at her the way no one looks any more, a shield-maiden who wakes an old fire, and an ancient seeress who opens a door she did not know she carried. An adult historical saga in Afrikaans, in André P. Brink's hand with Kleinboer's frankness — sensual, honest, and uncensored, with the hand near the brake. ⚠ For adult readers. Book I of Winter sonder Einde."),
+    ("the-amber-winter-2", "Die Seeweg", "Winter sonder Einde · Boek II", "Winter sonder Einde",
+     "_comingsoon/the-amber-winter-2", "build/export",
+     "Book II — she does what a lady of the hall almost never does: she goes out, onto the sea-roads, into the wide Norse world. Coming soon."),
+    ("the-amber-winter-3", "Die Hoë Stoel", "Winter sonder Einde · Boek III", "Winter sonder Einde",
+     "_comingsoon/the-amber-winter-3", "build/export",
+     "Book III — power. She takes up the high seat in fact, and learns what the seeing costs the seer. Coming soon."),
+    ("the-amber-winter-4", "Die Lang Donker", "Winter sonder Einde · Boek IV", "Winter sonder Einde",
+     "_comingsoon/the-amber-winter-4", "build/export",
+     "Book IV — the saga's winter of grief, met by a woman now strong enough to stand in it. Coming soon."),
+    ("the-amber-winter-5", "Die Ou Een by die Vuur", "Winter sonder Einde · Boek V", "Winter sonder Einde",
+     "_comingsoon/the-amber-winter-5", "build/export",
+     "Book V — the finale. The circle closes; the fire is handed forward. A whole life, lived to the end without shame. Coming soon."),
 
     ("dust-throne", "Daughters of the Dust Throne", "The Dust Throne telling · Book One", "The Dust Throne",
      "dust-throne", "build/export",
@@ -3150,6 +3185,9 @@ BOOK_KEYWORDS = {
                      "magic system, sword and sorcery, free fantasy ebook, The Salt Veil",
     "dust-throne": "epic fantasy, desert fantasy, first-person fantasy, lyrical fantasy, Rothfuss-style, "
                    "fantasy retelling, free fantasy serial, The Salt Veil, Daughters of the Dust Throne",
+    "the-amber-winter": "Afrikaanse roman, Afrikaans novel, historiese roman, Viking saga, Noorse saga, "
+                        "volwasse fiksie, sensuele roman, André P. Brink, Kleinboer, Vikings, shield maiden, "
+                        "skildmaagd, adult historical fiction, Norse fiction, Winter sonder Einde, Die Vuur in die Donker",
     # Companions / non-fiction retellings.
     "the-song-of-the-self": "Bhagavad Gita, Gita retelling, Hindu philosophy, spiritual fiction, "
                             "Hermann Hesse readers, philosophical novel, free ebook",
@@ -4122,14 +4160,55 @@ SAFARI_SEO = {
 }
 
 
+def _content_lang_editions(src: Path) -> list[tuple[str, str]]:
+    """Translated siblings of a content page: <stem>.<lang>.md → [(lang, label)]. English first,
+    then EDITION_LANGS order, then extras. The Dignity Engine's reach made visible to readers."""
+    base = src.stem
+    found = {}
+    for f in sorted(src.parent.glob(f"{base}.*.md")):
+        parts = f.stem.split(".")
+        if len(parts) == 2 and parts[0] == base:
+            found[parts[1]] = f
+    order = [c for c in EDITION_LANGS if c in found] + [c for c in found if c not in EDITION_LANGS]
+    label = lambda c: "English" if c == "en" else EDITION_LANGS.get(c, (c.upper(), c.upper()))[0]
+    return [("en", "English")] + [(c, label(c)) for c in order]
+
+
+_CONTENT_LANG_JS = """<script>
+(function(){
+  var KEY='abp-lang:'+__KEY__, sel=document.getElementById('langsel');
+  var wins=[].slice.call(document.querySelectorAll('.langwin')); if(!sel||!wins.length) return;
+  function show(l){ var any=false; wins.forEach(function(w){var on=w.getAttribute('data-lang')===l; w.hidden=!on; any=any||on;});
+    if(!any){wins[0].hidden=false; l=wins[0].getAttribute('data-lang');} sel.value=l; try{localStorage.setItem(KEY,l);}catch(e){} }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  show(saved && document.querySelector('.langwin[data-lang="'+saved+'"]') ? saved : wins[0].getAttribute('data-lang'));
+  sel.addEventListener('change', function(){ show(sel.value); });
+})();
+</script>"""
+
+
 def render_safari_content(src_name: str, out_name: str, title: str, desc: str, *,
                           rel: str = "../") -> str | None:
     src = REPO / "site" / "content" / src_name
     if not src.is_file():
         return None
-    body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
     page_key = out_name.removesuffix(".html")
     seo = SAFARI_SEO.get(out_name, {})
+    editions = _content_lang_editions(src)
+    if len(editions) > 1:
+        blocks, options = [], []
+        for i, (lang, lbl) in enumerate(editions):
+            f = src if lang == "en" else src.parent / f"{src.stem}.{lang}.md"
+            ed = md_to_html(f.read_text(encoding="utf-8", errors="ignore"))
+            hidden = "" if i == 0 else " hidden"
+            blocks.append(f'<div class="langwin"{hidden} data-lang="{lang}" lang="{lang}">{ed}</div>')
+            options.append(f'<option value="{lang}">{html.escape(lbl)}</option>')
+        picker = ('<div class="regpicker" style="justify-content:center;margin:0 0 10px">'
+                  '<label for="langsel">Lees dit in jou taal · Read it in your language</label>'
+                  f'<select id="langsel">{"".join(options)}</select></div>')
+        body = picker + "".join(blocks) + _CONTENT_LANG_JS.replace("__KEY__", json.dumps(page_key))
+    else:
+        body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
     return "\n".join([
         head(title, desc, rel=rel, safari=True, canonical=f"{DOMAIN}/safari/{out_name}",
              safari_page=page_key, keywords=seo.get("keywords", ""), ld_json=seo.get("ld_json", "")),

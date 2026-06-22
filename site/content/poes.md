@@ -149,6 +149,30 @@ Two writers are said to have looked the word, and its cousins, dead in the eye:
 We flag both honestly because an entry that prides itself on telling the truth about a word cannot
 print hearsay as fact about living writers. The memory is real; the citation is owed. Send it.
 
+## *Mamparra* — the same coin, flipped: a warm word that wounds
+
+If *poes* is a hard word that can carry love, here is its mirror: a soft word that can cut, and a true
+story about why this whole project exists.
+
+Afrikaans is full of warm loanwords from the other languages of this country — *fundi*, *kierie*,
+*pantoffel*, and *mamparra*. In Afrikaans, *mamparra* is gentle, fond teasing: *"nee jou mamparra,
+jou skoene is aan die verkeerde voete"* — *no you silly thing, your shoes are on the wrong feet.* You
+say it to someone you like. It is almost affectionate.
+
+A white Afrikaans friend of mine once called a grown Xhosa man *mamparra* — in **our** way, meaning it
+warmly, the way he'd say it to a mate. But it was received in **his** way, in a register where being
+called that, by a stranger, was no joke at all but a hit to the dignity of a grown man. The situation
+escalated, fast, the way these things do — until my friend saw the gap, understood what had happened,
+and defused it the only honest way there was: *"I am the mamparra,"* he said. Taking the word back onto
+himself. Owning the mistake that the word, not the man, had made.
+
+Nobody in that moment was wrong on purpose. The intent was warm; the wound was real; the gap between
+them was a **register gap across two language-worlds** — the exact thing that has no universal answer,
+only a local one. That is the inverse of *jou lucky poes*: there, a vulgar word arrives as a blessing;
+here, a fond word arrives as an insult. Same mechanism, opposite direction. And it is, precisely, the
+reason **[Buabantu](../buabantu)** exists — a system that reads *who is speaking, from what standing,
+to whom*, so that the warmth makes it across the gap instead of the wound.
+
 ## *Poes* as a national sport
 
 There is, finally, the matter of what South Africans do to machines with this word. It has become a
