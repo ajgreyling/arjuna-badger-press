@@ -25,6 +25,69 @@ But a word is not its dictionary entry. A word is what a people *do* with it, an
 Afrikaans-speakers especially — do something with this one that outsiders find almost impossible to
 believe until they have stood in the room and felt it.
 
+## *Hy praat poes* — the word for a lie
+
+Before the warmth, one more register the reference works tend to skip: *poes* as a verdict on
+**talk.** ***Hy praat poes, man*** — "he's talking poes" — does not mean he is being crude. It means
+he is **talking rubbish, spreading gossip, or deliberately lying** — that what is coming out of his
+mouth is worthless and probably dishonest. The word stops being anatomy or abuse and becomes a
+*measure of truth:* to "praat poes" is to fill the air with nonsense, and to say it of someone is to
+call them, flatly, a liar or a gossip not worth listening to. It is the bullshit-detector of the
+language, and it is devastating precisely because it is so coarse — you do not dignify a lie with a
+polite word for it.
+
+## *In sy poes* — the threat that is about standing, not anatomy
+
+There is a register that sounds, to an outsider, like the most violent and crude of all, and is in
+fact the least anatomical. ***Ek gaan hom in sy poes skop*** — and the related ***hy is binne in sy
+poes*** — read literally as something brutal and bodily. They are not. The word here has nothing to
+do with a body part. It is a **measure of a man's standing among men.** To put a man "*in sy poes*"
+is to **defeat him utterly, to unman him, to knock him all the way down the ranking** — *binne in sy
+poes* is the reduced, beaten state you are making him imagine himself occupying. The threat is not
+"I will hurt this part of you"; it is "I will reduce you to nothing in the eyes of other men." It is
+a **dominance and ranking word,** and that is why it lands the way it does between men who understand
+it: it threatens the one thing that register cares about — *where you stand.*
+
+## The mark of the man — the one line you do not cross
+
+Here is the thing that holds all of this together, and the thing no dictionary will tell you, because
+it is a matter of honour and not of definition:
+
+**The mark of a gentleman — of a real man — is that he uses *poes* freely, in context, around adult
+ears: as a blessing, as a verdict on a lie, as a threat to another man's standing, as banter between
+intimates — and yet *never, ever* uses it to mean, or even to hint at, the female genitalia.**
+
+That literal use — the word pointed at a woman's body — is the one register that is *genuinely*
+obscene and vulgar, and the man worth the name will not go there. He has internalised, without ever
+being taught it as a rule, that **the taboo is not the word. The taboo is aiming it at her.** A man
+can swear the air blue with this word all night and remain a gentleman; the instant he uses it of a
+woman's body, he has stopped being one. That line — invisible to the outsider, absolute to the
+insider — is the whole moral grammar of the word, and the surest tell of who was raised right.
+
+## The exception that proves it is about *standing*, not the word
+
+And then a woman, in her own fight, blows the whole tidy rule open — and proves what it was really
+about. Overheard, true, from a Benoni woman built like a rugby prop, on hearing another woman tell
+lies about her man:
+
+> ***"Ek gaan daai girl se poes 'n plus skop."***
+> *(I am going to kick that girl's cunt into the shape of a plus sign.)*
+
+Here the word *is* anatomical and *is* aimed at a woman — the very thing the gentleman's rule
+forbids — and yet no one who heard it would call it obscene. It is **ferocious, specific, and
+entirely self-possessed:** a woman, from her own standing, in defence of her man, threatening another
+woman in the most physically exact terms the language owns. The "plus sign" is what makes it
+unforgettable — geometric, deadpan, anatomically precise menace. It does not read as a man degrading
+a body; it reads as a woman who will not be lied about, drawing the line in the one dialect that
+leaves no doubt she means it.
+
+Which tells you the real grammar underneath the gentleman's rule: the taboo was never the syllables,
+and never even the body part on its own. It is **who is speaking, from what standing, at whom.** A
+man pointing the word at a woman's body to diminish her is obscene. A woman wielding it from her own
+power, in her own quarrel, is something else entirely — and South Africans hear the difference
+instantly, the way you hear a key change. The word is a knife everyone in the room knows how to read;
+what matters is the hand on the handle.
+
 ## *Jou lucky poes* — the inversion
 
 Your closest friend, the one you have known since the army or the rugby club or the bad year, walks
