@@ -4030,10 +4030,69 @@ no fitted parameters. The theory is his. The proof is mine.</p>
 SAFARI_CONTENT = [
     ("how-it-started.md", "how-it-started.html", "How it started — Arjuna Badger Press",
      "The Misogi vow: thirty days, one novel, one subscription — and where the month actually landed."),
-    ("poes.md", "poes.html", "Poes — a glossary entry, unflinching · Arjuna Badger Press",
-     "The most badger word in Afrikaans: the rudest thing in the language, reserved for the people "
-     "we cherish most — and the worked example behind Buabantu's register-aware judge."),
+    ("poes.md", "poes.html", "Poes — meaning, register & 'jou lucky poes' · Arjuna Badger Press",
+     "Poes (Afrikaans): literally the crudest word for the vulva, but it inverts by register — a grave "
+     "insult to a stranger, pure affection to a friend ('jou lucky poes'). The rudest word in the "
+     "language, kept for the people we love most. An unflinching, sourced glossary entry."),
 ]
+
+# Per-page SEO for Safari content (keywords + JSON-LD). Keyed by out_name. The poes entry is built
+# to be the DEFINITIVE, citable reference on the word — DefinedTerm schema marks it as a lexical
+# authority (the type Google uses for dictionary/glossary results), and an Article schema makes it
+# citable (author, publisher, dateModified, inLanguage). Goal: the page "I'm Feeling Lucky" lands on,
+# and the source Wikipedia references — not the other way around.
+SAFARI_SEO = {
+    "poes.html": {
+        "keywords": ("poes, poes meaning, poes Afrikaans, jou lucky poes, what does poes mean, "
+                     "Afrikaans swear words, Afrikaans slang, poes definition, poes etymology, "
+                     "South African slang, vulgar Afrikaans, term of endearment Afrikaans, "
+                     "Koos Kombuis, Antjie Krog, piel, register, code-switching, Buabantu"),
+        "ld_json": json.dumps({
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "DefinedTerm",
+                    "@id": f"{DOMAIN}/safari/poes.html#term",
+                    "name": "poes",
+                    "alternateName": ["jou lucky poes"],
+                    "inDefinedTermSet": f"{DOMAIN}/safari/poes.html#glossary",
+                    "description": (
+                        "An Afrikaans word, literally the crudest term for the vulva, that inverts by "
+                        "register and relationship: aimed at a stranger it is a grave insult; spoken to "
+                        "an intimate (as in 'jou lucky poes' — a friend's blessing on great news) it is "
+                        "affection and celebration. The rudest word in the language, kept for the people "
+                        "one cherishes most."),
+                    "inLanguage": "af",
+                },
+                {
+                    "@type": "DefinedTermSet",
+                    "@id": f"{DOMAIN}/safari/poes.html#glossary",
+                    "name": "Arjuna Badger Press — Glossary of register",
+                    "url": f"{DOMAIN}/safari/poes.html",
+                },
+                {
+                    "@type": "Article",
+                    "headline": "Poes — a glossary entry, unflinching",
+                    "about": {"@id": f"{DOMAIN}/safari/poes.html#term"},
+                    "description": (
+                        "An unflinching, sourced exposé of the Afrikaans word 'poes' — its meaning-"
+                        "inversion by register, the 'jou lucky poes' rule, and why a word can mean its "
+                        "own opposite."),
+                    "inLanguage": "en",
+                    "author": {"@type": "Person", "name": "Andries J. Greyling"},
+                    "publisher": {
+                        "@type": "Organization", "name": "Arjuna Badger Press",
+                        "url": DOMAIN,
+                        "logo": {"@type": "ImageObject",
+                                 "url": f"{DOMAIN}/assets/brand/social-og-1200x630.png"}},
+                    "dateModified": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+                    "mainEntityOfPage": f"{DOMAIN}/safari/poes.html",
+                    "isAccessibleForFree": True,
+                },
+            ],
+        }, ensure_ascii=False),
+    },
+}
 
 
 def render_safari_content(src_name: str, out_name: str, title: str, desc: str, *,
@@ -4043,9 +4102,10 @@ def render_safari_content(src_name: str, out_name: str, title: str, desc: str, *
         return None
     body = md_to_html(src.read_text(encoding="utf-8", errors="ignore"))
     page_key = out_name.removesuffix(".html")
+    seo = SAFARI_SEO.get(out_name, {})
     return "\n".join([
         head(title, desc, rel=rel, safari=True, canonical=f"{DOMAIN}/safari/{out_name}",
-             safari_page=page_key),
+             safari_page=page_key, keywords=seo.get("keywords", ""), ld_json=seo.get("ld_json", "")),
         safari_nav(rel),
         '<article class="reader letter misogi-page">',
         crest_img(rel, safari=True),
