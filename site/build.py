@@ -1647,6 +1647,27 @@ a.support-rail:hover{border-color:var(--ochre)}
 .reader-content{max-width:760px;margin:0 auto;padding:34px 28px 60px;font-family:var(--reading);font-size:18px;line-height:1.7}
 .reader-content h2{font-family:var(--reading);font-size:28px;color:var(--gold);margin:0 0 18px}
 .reader-content pre{white-space:pre-wrap;font:inherit;margin:0;color:var(--bone)}
+/* ── Register picker + inline correction ("read it in your register") ─────────────────────────── */
+.regpicker{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px}
+.regpicker label{color:var(--gold);font-weight:600}
+.regpicker select{background:var(--card,#1d1a16);color:var(--bone);border:1px solid var(--line);
+  border-radius:8px;padding:6px 10px;font:inherit;font-size:14px;cursor:pointer}
+.regpicker .reghint{color:var(--bonedim);font-size:12px}
+.readlayout-wide{max-width:760px;margin:0 auto;padding:0 24px}
+.regwin[hidden]{display:none}
+.regwin ::selection{background:rgba(200,168,107,.35)}
+.corrbox{position:fixed;left:0;right:0;bottom:0;z-index:9998;display:flex;justify-content:center;padding:0 14px 14px}
+.corrbox[hidden]{display:none}
+.corrcard{background:var(--card,#1d1a16);border:1px solid var(--gold);border-radius:14px;
+  padding:16px 18px;max-width:560px;width:100%;box-shadow:0 8px 40px rgba(0,0,0,.5)}
+.corrh{margin:0 0 8px;color:var(--gold);font-weight:600;font-size:15px}
+.corrh span{color:var(--bonedim);font-weight:400;font-size:12px}
+.corrorig{margin:0 0 10px;color:var(--bonedim);font-style:italic;font-size:14px}
+.corrcard textarea,.corrcard input{width:100%;background:var(--bg,#161310);color:var(--bone);
+  border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:inherit;font-size:15px}
+.corrrow{display:flex;gap:8px;align-items:center;margin-top:8px}
+.corrrow input{flex:1}
+.corrmsg{margin:8px 0 0;color:var(--gold);font-size:13px;min-height:1.1em}
 .media-frame{width:100%;min-height:68vh;border:0;background:#111}
 .audio-player{width:100%;margin:16px 0}.reader-note{color:var(--grass);font-size:13.5px}
 @media(max-width:820px){.reader-workbench{grid-template-columns:1fr}.library-panel,.reading-panel{min-height:auto}}
@@ -3955,6 +3976,7 @@ def render_safari_hub() -> str:
         ("letter.html", "A letter", "Why this house exists — written by the machine that stood guard while a man wrote the soul of the thing."),
         ("house.html", "The House of Greyling", "Arms earned the long way — every charge a promise the books are made to keep."),
         ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
+        ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
         ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
         ("proof.html", "Sister proof", "The theory is his. The independent proof is mine."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
@@ -4008,6 +4030,9 @@ no fitted parameters. The theory is his. The proof is mine.</p>
 SAFARI_CONTENT = [
     ("how-it-started.md", "how-it-started.html", "How it started — Arjuna Badger Press",
      "The Misogi vow: thirty days, one novel, one subscription — and where the month actually landed."),
+    ("poes.md", "poes.html", "Poes — a glossary entry, unflinching · Arjuna Badger Press",
+     "The most badger word in Afrikaans: the rudest thing in the language, reserved for the people "
+     "we cherish most — and the worked example behind Buabantu's register-aware judge."),
 ]
 
 
@@ -5434,6 +5459,65 @@ _READER_TOC_JS = """<script>
 </script>"""
 
 
+# Register picker + select-to-suggest inline correction. __API__ and __BOOK__ are JSON-injected.
+_READER_REGISTER_JS = """<script>
+(function(){
+  var API=__API__, BOOK=__BOOK__, KEY='abp-reg:'+BOOK;
+  var sel=document.getElementById('regsel');
+  var wins=[].slice.call(document.querySelectorAll('.regwin'));
+  if(!sel||!wins.length) return;
+  function show(id){
+    var any=false;
+    wins.forEach(function(w){var on=w.getAttribute('data-edition')===id; w.hidden=!on; any=any||on;});
+    if(!any){ wins[0].hidden=false; id=wins[0].getAttribute('data-edition'); }
+    sel.value=id; try{localStorage.setItem(KEY,id);}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  show(saved && document.querySelector('.regwin[data-edition="'+saved+'"]') ? saved : wins[0].getAttribute('data-edition'));
+  sel.addEventListener('change', function(){ show(sel.value); });
+
+  // ── select any line → suggest a better version (judged register-aware, queued for a human) ──
+  var box=document.getElementById('corrbox');
+  function activeWin(){ return wins.filter(function(w){return !w.hidden;})[0]; }
+  function closeBox(){ if(box){box.hidden=true; box.innerHTML='';} }
+  document.addEventListener('mouseup', function(){
+    var s=window.getSelection(); var t=(s&&s.toString()||'').trim();
+    if(t.length<3||t.length>600){ return; }
+    var w=activeWin(); if(!w||!w.contains(s.anchorNode)) return;
+    openBox(t, w);
+  });
+  function openBox(orig, w){
+    if(!box) return;
+    box.innerHTML='<div class="corrcard">'
+      +'<p class="corrh">Suggest a better line <span>('+w.getAttribute('data-register')+' · '+w.getAttribute('data-lang')+')</span></p>'
+      +'<p class="corrorig"></p>'
+      +'<textarea id="corrsug" rows="3" placeholder="How would you say it?"></textarea>'
+      +'<div class="corrrow"><input id="corrwho" placeholder="your name (optional)">'
+      +'<button id="corrsend" class="dl solid">Send</button>'
+      +'<button id="corrcancel" class="dl">Cancel</button></div>'
+      +'<p class="corrmsg" id="corrmsg"></p></div>';
+    box.querySelector('.corrorig').textContent='“'+orig+'”';
+    box.hidden=false;
+    document.getElementById('corrsug').focus();
+    document.getElementById('corrcancel').onclick=closeBox;
+    document.getElementById('corrsend').onclick=function(){
+      var sug=document.getElementById('corrsug').value.trim();
+      if(!sug){ document.getElementById('corrmsg').textContent='Type a suggestion first.'; return; }
+      var msg=document.getElementById('corrmsg'); msg.textContent='Sending…';
+      fetch(API,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({
+        book:BOOK, lang:w.getAttribute('data-lang'), register_band:w.getAttribute('data-register'),
+        original:orig, suggestion:sug, context:'', contributor:document.getElementById('corrwho').value.trim()||null
+      })}).then(function(r){return r.json();}).then(function(d){
+        msg.textContent=(d&&d.message)||'Thank you — a person will look at this.';
+        setTimeout(closeBox, 2600);
+      }).catch(function(){ msg.textContent='Could not send right now — please try again later.'; });
+    };
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeBox(); });
+})();
+</script>"""
+
+
 def reader_toc(body_html: str) -> str:
     """Build the left chapter-list TOC from the <h1>/<h2> anchors in a rendered reader body.
     Chapters are h1; major h2 sections included too. Empty string if too few headings."""
@@ -5451,8 +5535,92 @@ def reader_toc(body_html: str) -> str:
             '<h2 class="readtoc-h">Contents</h2><ol>' + "".join(items) + "</ol></nav>")
 
 
+# ── "Read it in your register" — Buabantu register windows on the read page ─────────────────────
+# A book may ship register editions as build/BOOK.<lang>-<register>.md (e.g. zu-everyday). When any
+# exist, the read page offers a picker (language × register) that swaps the rendered text client-side,
+# remembers the choice, and lets a reader suggest a better line (→ /api/buabantu/corrections, judged
+# register-aware, queued for a human). English "formal" is always the original BOOK.md.
+REGISTER_ORDER = ["formal", "professional", "everyday", "street"]
+REGISTER_LABEL = {"formal": "Formal", "professional": "Professional",
+                  "everyday": "Everyday", "street": "Street"}
+# books that opt into the register picker (debut: resonance). Others render as before.
+REGISTER_BOOKS = set(
+    s.strip() for s in os.environ.get("ABP_REGISTER_BOOKS", "resonance").split(",") if s.strip())
+BUABANTU_API = os.environ.get("ABP_BUABANTU_API", "/api/buabantu/corrections")
+
+
+def register_editions(e: dict) -> list[dict]:
+    """Discover register windows on disk for a book: the English original (en-formal) plus any
+    build/BOOK.<lang>-<register>.md. Returns [{lang, register, label, md}] in a sensible order."""
+    if e["id"] not in REGISTER_BOOKS or not e.get("book_md"):
+        return []
+    build = e["book_md"].parent
+    eds = [{"lang": "en", "register": "formal", "label": "English · Original",
+            "md": e["book_md"].read_text(encoding="utf-8", errors="ignore")}]
+    found = []
+    for f in sorted(build.glob("BOOK.*-*.md")):
+        stem = f.stem[len("BOOK."):]                       # e.g. "zu-everyday" / "zu-pro"
+        if "-" not in stem:
+            continue
+        lang, reg = stem.split("-", 1)
+        reg = {"pro": "professional"}.get(reg, reg)
+        if reg not in REGISTER_ORDER:
+            continue
+        langname = EDITION_LANGS.get(lang, (lang.upper(), lang.upper()))[0]
+        found.append({"lang": lang, "register": reg,
+                      "label": f"{langname} · {REGISTER_LABEL[reg]}",
+                      "md": f.read_text(encoding="utf-8", errors="ignore"),
+                      "_sort": (lang != "en", lang, REGISTER_ORDER.index(reg))})
+    found.sort(key=lambda d: d["_sort"])
+    return eds + found
+
+
+def _render_reader_registers(e: dict, editions: list[dict]) -> str:
+    """Read page with a register picker: one edition shown at a time, swap client-side, remembered,
+    plus select-to-suggest inline corrections (judged register-aware, queued for a human)."""
+    rw = reader_rewrite_links
+    # render each edition's HTML into a hidden block; first is shown by default
+    blocks, options = [], []
+    for i, ed in enumerate(editions):
+        body = md_to_html(rw(ed["md"]), reader=True)
+        eid = f'{ed["lang"]}-{ed["register"]}'
+        shown = "" if i == 0 else ' hidden'
+        blocks.append(
+            f'<article class="reader regwin" lang="{ed["lang"]}-ZA" data-edition="{eid}" '
+            f'data-lang="{ed["lang"]}" data-register="{ed["register"]}"{shown}>{body}</article>')
+        options.append(f'<option value="{eid}">{html.escape(ed["label"])}</option>')
+    dl = ""
+    for f in e["downloads"]:
+        if f.suffix.lower() == ".epub":
+            dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
+            break
+    picker = (
+        '<div class="regpicker"><label for="regsel">Read it in your register</label>'
+        f'<select id="regsel">{"".join(options)}</select>'
+        '<span class="reghint">pick how it should sound · select any line to suggest a better one</span>'
+        '</div>')
+    body_js = _READER_REGISTER_JS.replace("__API__", json.dumps(BUABANTU_API)).replace(
+        "__BOOK__", json.dumps(e["id"]))
+    main = f'<main id="main"><div class="readlayout-wide">{"".join(blocks)}</div></main>'
+    return "\n".join([
+        head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        trust_banner(rel="../"),
+        f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap">
+<a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a>{picker}<div class="dls">{dl}</div></div></div>""",
+        main,
+        '<div id="corrbox" class="corrbox" hidden></div>',
+        reader_endnote(e),
+        footer(rel="../"),
+        body_js,
+        rating_script(),
+    ])
+
+
 def render_reader(e: dict) -> str:
     rw = reader_rewrite_links
+    editions = register_editions(e)
+    if len(editions) > 1:
+        return _render_reader_registers(e, editions)
     if e.get("prepared_reader_md"):
         body = md_to_html(rw(e["prepared_reader_md"]), reader=True)
     elif e.get("reader_md"):
