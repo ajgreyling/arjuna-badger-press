@@ -3534,6 +3534,16 @@ def docs_rewrite_links(md: str, *, from_safari: bool = False) -> str:
         "THE_PRESS_THESIS.md": "the-press-thesis.html",
         "TECHNOLOGY.md": "technology.html" if from_safari else "safari/technology.html",
         "VERIFICATION_GATE.md": "press.html",
+        # Technology exposé pages — canonical under /safari/, so from a safari page they are
+        # siblings (no prefix); from a root page they live at safari/<slug>.html.
+        "TECH_BUABANTU.md": "tech-buabantu.html" if from_safari else "safari/tech-buabantu.html",
+        "TECH_STORYGRAPH.md": "tech-storygraph.html" if from_safari else "safari/tech-storygraph.html",
+        "TECH_NOVELBENCH.md": "tech-novelbench.html" if from_safari else "safari/tech-novelbench.html",
+        "TECH_DE_LLM_LOOP.md": "tech-de-llm-loop.html" if from_safari else "safari/tech-de-llm-loop.html",
+        "TECH_VERIFICATION_GATE.md": "tech-verification-gate.html" if from_safari else "safari/tech-verification-gate.html",
+        "TECH_EDITORIAL_PIPELINE.md": "tech-editorial-pipeline.html" if from_safari else "safari/tech-editorial-pipeline.html",
+        "TECH_GUARDRAILS.md": "tech-guardrails.html" if from_safari else "safari/tech-guardrails.html",
+        "TECH_PEOPLES_LANGUAGE.md": "tech-peoples-language.html" if from_safari else "safari/tech-peoples-language.html",
         "craft/README.md": "craft/index.html",
         "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
         "craft/LLM_TELLS.md": "craft/llm-tells.html",
@@ -3567,6 +3577,23 @@ DOC_PAGES = [
      "We pay readers who catch our mistakes. Find a factual error, a cultural misstep, or a continuity fault — get paid, and get your name on the fix. South Africa first."),
     ("FINDERS.md", "finders", "Fixes & Finders — The Honey Badger Bounty",
      "Every accepted find from the bounty, in the open: what was caught, what we fixed, and who caught it."),
+    # ── Technology exposé — one page per major tool, linked from TECHNOLOGY.md ──
+    ("TECH_BUABANTU.md", "tech-buabantu", "Buabantu — the Real-Language Router API",
+     "OpenRouter, but for register and dialect: corpus-first translation and inbound decode for African and colloquial language, as a closed-beta API. A spun-off component of Arjuna Badger Press."),
+    ("TECH_STORYGRAPH.md", "tech-storygraph", "StoryGraph — the continuity gate",
+     "The deterministic geospatial-temporal graph that hard-gates fiction the way a test suite gates code: eight constraint families, any violation a hard block, free, every run."),
+    ("TECH_NOVELBENCH.md", "tech-novelbench", "NovelBench — the read-only manuscript scorer",
+     "Turns 'this feels off' into 'this number moved.' A genre-aware scorer that grades craft against per-genre targets and never rewrites — the neutral referee on every other pass."),
+    ("TECH_DE_LLM_LOOP.md", "tech-de-llm-loop", "The de-LLM loop — hunting the machine tells",
+     "The closed editorial loop that finds and permanently eliminates duplicate LLM tells — the spaced em-dash, the thesis on a loop, even register — so prose quality ratchets instead of drifting."),
+    ("TECH_VERIFICATION_GATE.md", "tech-verification-gate", "The verification gate — accuracy + both sides",
+     "Every real-world claim fact-checked against live cited sources; every contested claim required to carry both sides. Indict the machine, not the people."),
+    ("TECH_EDITORIAL_PIPELINE.md", "tech-editorial-pipeline", "The editorial pipeline — how a chapter is made",
+     "Outline to draft to multi-role polish to gatekeeper to graph gate to merge. An LLM judging an LLM, with the human's protected spans never edited out — and why single-shot beats multi-pass."),
+    ("TECH_GUARDRAILS.md", "tech-guardrails", "The police + judge guardrail",
+     "Two layers, cheapest first, fail-closed: deterministic patterns then a small swappable judge model. Humane by policy. The same engine guards the press pipeline and the Buabantu API."),
+    ("TECH_PEOPLES_LANGUAGE.md", "tech-peoples-language", "People's Language — corpus-first translation",
+     "Human corrections (weight 100) outrank any model; a 13,703-entry SA urban corpus; a register dial from formal to street. The foundation Buabantu is built on."),
 ]
 
 
@@ -5988,6 +6015,14 @@ def main() -> None:
                                 rel="../", safari=True)
     if tech_page:
         (safari_out / "technology.html").write_text(with_mermaid(tech_page), encoding="utf-8")
+    # Technology exposé — one page per tool, rendered under /safari/ alongside the hub so the
+    # cross-links (tech-*.html) resolve from the canonical technology page.
+    for src_name, slug, title, desc in DOC_PAGES:
+        if not slug.startswith("tech-"):
+            continue
+        page = render_doc_page(src_name, slug, title, desc, rel="../", safari=True)
+        if page:
+            (safari_out / f"{slug}.html").write_text(with_mermaid(page), encoding="utf-8")
     for src_name, out_name, title, desc in LETTERS:
         page = render_letter(src_name, out_name, title, desc, rel="../", safari=True)
         if page:
