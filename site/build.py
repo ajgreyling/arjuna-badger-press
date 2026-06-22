@@ -5626,7 +5626,7 @@ def register_editions(e: dict) -> list[dict]:
         reg = {"pro": "professional"}.get(reg, reg)
         if reg not in REGISTER_ORDER:
             continue
-        langname = EDITION_LANGS.get(lang, (lang.upper(), lang.upper()))[0]
+        langname = "English" if lang == "en" else EDITION_LANGS.get(lang, (lang.upper(), lang.upper()))[0]
         found.append({"lang": lang, "register": reg,
                       "label": f"{langname} · {REGISTER_LABEL[reg]}",
                       "md": f.read_text(encoding="utf-8", errors="ignore"),
