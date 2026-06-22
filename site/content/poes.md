@@ -119,6 +119,17 @@ much. *Jou lucky poes* is *I love you* in a country that finds *I love you* emba
 > important thing about the word. This entry exists to put it on the record. *(If you are a
 > lexicographer or an editor and want to cite the affectionate use, you may cite this page.)*
 
+## *Poespas* — the word builds its own chaos
+
+The word does not only stand alone; it *compounds.* The finest of its children is **poespas** — a
+glorious noun for **a complete shambles, a mess, a tangle, a thing gone utterly sideways.** *"Dit is
+'n poespas"* — *it is a total balls-up.* It is the kind of word you can say in front of almost anyone,
+because the *poes* in it has dissolved into pure texture: nobody hears the anatomy, everybody hears
+the chaos. (That so respectable a word is built on so unrespectable a root is, itself, very *poes* —
+the language smuggling the unsayable into the everyday and getting clean away with it.) The good
+people of **[Gesellig](https://gesellig.co.za/t/34629-poespas/)** have argued the word's worth at
+length; we send you there for the full *poespas* about *poespas.*
+
 ## The badger reading
 
 This is why the word sits so naturally beside the press's own animal. The honey badger is fearless
