@@ -130,9 +130,10 @@ other way: the man who can sit with another human being's pain and not look away
 mouth of a friend and *Sawubona* in the mouth of Jakobus are doing the same impossible job from
 opposite ends — refusing the distance the world keeps between people, and closing it.
 
-## In the literature *(remembered, not yet verified — help us source these)*
+## In the literature
 
-Two writers are said to have looked the word, and its cousins, dead in the eye:
+Two writers have looked the word, and its cousins, dead in the eye — one we can now point you to on
+the record, one still remembered and owed a citation:
 
 - **Koos Kombuis** — the Voëlvry-era bard of Afrikaans irreverence — is remembered (by the author of
   this press, from oral retelling, not from a text we can yet cite) as having said of his *Kontrei*
@@ -141,13 +142,15 @@ Two writers are said to have looked the word, and its cousins, dead in the eye:
   a reader. It is exactly the kind of line Kombuis would land. **We have not been able to verify the
   wording or its source** — if you know where it appears (a show, a liner note, a print piece),
   *please* [tell us](../feedback.html) and we will cite it properly.
-- **Antjie Krog** — one of the great living poets in the language — is remembered as having written
-  a piece on ***piel*** (the male equivalent), turning the same unflinching attention on the other
-  taboo word. Again: **recalled, not yet sourced.** If you can point us to it, the cross-reference
-  belongs here, named and dated.
+- **Antjie Krog** — one of the great living poets in the language — turns the same unflinching
+  attention on these words and their cousins. We can now point you to it: in
+  **[*Antjie Krog oor die digterlike waarde van poes en piel*](https://www.youtube.com/watch?v=k_QEq5-aB5A)**
+  she speaks, on the record, about the *poetic worth* of *poes* and *piel* — the very argument this
+  entry is built on, made by a Hertzog-Prize poet rather than a badger. Watch it; she says it better.
 
-We flag both honestly because an entry that prides itself on telling the truth about a word cannot
-print hearsay as fact about living writers. The memory is real; the citation is owed. Send it.
+We flag the Kombuis line honestly because an entry that prides itself on telling the truth about a
+word cannot print hearsay as fact about a living writer. The memory is real; the citation is owed.
+Send it.
 
 ## *Mamparra* — the same coin, flipped: a warm word that wounds
 
@@ -173,6 +176,24 @@ here, a fond word arrives as an insult. Same mechanism, opposite direction. And 
 reason **[Buabantu](../buabantu)** exists — a system that reads *who is speaking, from what standing,
 to whom*, so that the warmth makes it across the gap instead of the wound.
 
+## *Tjommie* — a friend that became a body part (and never stopped being a friend)
+
+One more, because it is the sweetest example in the whole language of a word that flipped its meaning
+and somehow kept its soul.
+
+*Tjommie* is an old, warm Afrikaans word for **a friend, a little mate** — *maatjie.* (The cooler,
+younger spelling, *tjomma*, is still pure affection: "my tjomma.") But *tjommie*, on its own, has been
+quietly repurposed in plat Afrikaans into something startlingly specific: it now means the little
+**strip of skin between a woman's *poes* and her anus** — the perineum.
+
+And here is the part that makes it perfect: the name is the reason. **Dit is jou tjommie** — *it is
+your little friend* — **want dit hou jou voël uit die kak uit:** because it is the bit that keeps your
+bird out of the muck. The perineum is, anatomically, the small buffer that stands between the two; so
+of course the language called it your *mate* — the friend that stands between you and the kak. It is a
+crude joke and a piece of folk-anatomy and, underneath, an oddly tender little truth: *a friend is the
+thing that stands between you and the worst of it.* The word never stopped meaning what it always
+meant. It just found a new place to stand guard.
+
 ## *Poes* as a national sport
 
 There is, finally, the matter of what South Africans do to machines with this word. It has become a
@@ -185,7 +206,7 @@ filed, in this house, somewhere just above a DDoS.)
 
 The press takes that seriously as an engineering problem and a cultural one at once, which is why the
 word is not only a glossary entry but a **worked example in the software.** Buabantu's "[read it in
-your register](../../read/resonance.html)" feature lets a reader suggest a better line, and the
+your register](../read/resonance.html)" feature lets a reader suggest a better line, and the
 moderation judge that weighs those suggestions runs on what we call **the *jou lucky poes* rule**:
 it judges a word by *relationship, register, and intent,* never by the letters alone. *Jou lucky
 poes* offered as a friend's blessing is accepted as warmth; the same word aimed at a stranger to
@@ -198,3 +219,45 @@ say it.
 
 *Cross-reference: Sawubona / Ngikhona (the isiZulu greeting that runs through the Jakobus books);
 and the Buabantu register engine, where this word taught the machine to read intent.*
+
+## *Poes-bombing* — a coined term, defined
+
+Since this page is meant to be the one a search engine sends you to, let us define the word of art we
+coined above, plainly, so it can be cited:
+
+> **poes-bomb** *(verb / noun, South African English & Afrikaans, coll.)* — to deliberately smuggle
+> the word *poes* (or coax it out) past the content filter of an automated system — a chatbot, a
+> voice assistant, a foreign-built LLM, a skywriting booking form, a crowd-sourced map label, a
+> comment box — so that the polite imported machine emits the unsayable in our accent. *The noun:*
+> a single such instance, or a coordinated flood of them. *Filed, in this house, somewhere just
+> above a DDoS* — because it is not really an attack on the system so much as a flag planted in it:
+> **this is our register, and your guardrail does not understand it.**
+
+It is mischief with a thesis. Every poes-bomb is a small, gleeful proof that a filter which reads
+*letters* instead of *intent* does not understand the people it filters — which is precisely the
+problem [Buabantu](../buabantu) and its register-aware judge exist to solve. The joke and the
+engineering are the same point, told twice.
+
+## This page is a wiki — help us get it right
+
+This entry belongs to everyone who speaks the word, not only to the badger who started it. **It is
+open for editing — moderated, not free-for-all.** If you can sharpen a definition, correct a usage,
+add a register we missed, supply a citation we owe (the Kombuis line, especially), or flag something
+that's just *wrong* — [**suggest an edit**](../buabantu#suggest). Your suggestion lands in a
+queue. The press acts as **moderator** — the same register-aware Dignity Engine judge that runs the
+correction box weighs every submission for intent, not just letters — and the author gives the final
+page its **last read** before anything goes live. Nothing changes silently; nothing worthy is lost.
+That is the whole bargain: *open enough that the language can correct us, gated enough that the page
+stays true.*
+
+## Sources & the wider web
+
+- **Antjie Krog — *[Oor die digterlike waarde van poes en piel](https://www.youtube.com/watch?v=k_QEq5-aB5A)*** (YouTube)
+  — a great living poet making, on the record, the case this whole entry is built on.
+- **[Watkykjy](https://www.watkykjy.co.za)** — the irreverent home of plat-Afrikaans internet culture;
+  the natural habitat of half the registers on this page.
+- **[LitNet](https://www.litnet.co.za)** — the serious literary forum where Afrikaans argues with
+  itself about exactly these words, in essays and reader debate.
+
+*(Outbound links open in a new tab and point off this site; we vouch for the relevance, not the
+contents — the wider web is the wider web.)*

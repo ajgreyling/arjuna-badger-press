@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$CLAUDE_PROJECT_DIR\" 2>/dev/null; AHEAD=$(git log origin/master..HEAD --oneline 2>/dev/null | wc -l | tr -d ' '); if [ \"$AHEAD\" -gt 0 ]; then jq -n --arg n \"$AHEAD\" '{hookSpecificOutput:{hookEventName:\"SessionStart\",additionalContext:(\"UNPUSHED COMMITS: \" + $n + \" commit(s) ahead of origin/master. Run /deploy when ready to go live.\")}}'; fi",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

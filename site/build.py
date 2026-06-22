@@ -869,6 +869,9 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
             if not parsed.scheme and raw_href.split("#", 1)[0].lower().endswith(".md"):
                 return label
             href = html.escape(raw_href, quote=True)
+            # External (off-site) links open in a new tab and disown the opener.
+            if parsed.scheme in ("http", "https"):
+                return f'<a href="{href}" target="_blank" rel="noopener noreferrer external">{label}</a>'
             return f'<a href="{href}">{label}</a>'
 
         t = html.escape(t)
