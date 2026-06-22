@@ -270,11 +270,11 @@ PUBLISHED = set(
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
         # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker): adult Afrikaans Norse saga, Book I. Commissioned by a
-        # first-time SaaS author; released by explicit author decision as an ADULT title — frank and
-        # uncensored within four firm limits (no minors; consenting adults only; coercion only ever
-        # as harm; the threshold close). Maturity notice in BOOK_NOTICE + the shelf tagline carries
-        # the ⚠ adult mark. Only Book I ships; the four sequels are coming-soon placeholders.
-        "the-amber-winter,"
+        # first-time SaaS author. Per author decision (2026-06-22) the series ships with Book I as an
+        # IN-PROGRESS open draft — moved to SERIAL (read-online preview, NO downloads, "in progress")
+        # rather than a finished PUBLISHED book; the four sequels remain coming-soon placeholders.
+        # Still an ADULT title (four firm limits: no minors; consenting adults only; coercion only
+        # ever as harm; the threshold close) — maturity notice in BOOK_NOTICE + ⚠ shelf tagline.
         "voynich-manuscript,"
         # Released 2026-06-20:
         "null-horizon,"
@@ -313,7 +313,10 @@ SERIAL = set(
         #   is in the manuscript front matter and the disclosure/invitation is in BOOK_NOTICE + the
         #   shelf tagline. Kept OUT of PUBLISHED so no EPUB/PDF ships (no "finished book" can be
         #   mistaken for complete with one side missing).
-        "dust-throne,bloedrivier",
+        # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker, Book I): ships as an
+        #   IN-PROGRESS open draft (author decision 2026-06-22) — read-online preview only, NO
+        #   downloads. Moved here out of PUBLISHED; the four sequels stay coming-soon placeholders.
+        "dust-throne,bloedrivier,the-amber-winter",
     ).split(",") if s.strip()
 )
 

@@ -1,0 +1,39 @@
+DIE VUUR IN DIE DONKER (Winter sonder Einde · Boek I) — Cover image prompt
+(image plate ONLY; title/author overlaid by make_cover.py)
+
+DESIGN INTENT: A LITERARY cover, not a genre/romance paperback. Think Penguin Modern Classics,
+Folio Society, or a serious literary-press jacket — a single strong, controlled GRAPHIC image with
+texture and restraint. NOT a smooth digital fantasy painting, NOT a romance clinch, NOT three
+figures posing, NOT a glowing sunset behind anyone's head. Deliberately UNLIKE a commercial
+Viking-romance cover.
+
+STYLE: A textured RELIEF-PRINT / LINOCUT / woodcut-and-gouache hybrid — bold carved lines, visible
+grain and tool-marks, flat planes of colour with hand-printed texture, slight mis-registration
+between colour layers, the matte ink-on-paper look of a fine-press print. Limited, confident
+palette. Strong negative space. Graphic and composed, the way a literary jacket is designed rather
+than illustrated.
+
+THE IMAGE (one controlled idea — fire held in the dark, the heart of the book):
+A single Norse longhouse hearth — the langeldr, a low line of fire — burning in a vast dark
+interior, OR a single woman's silhouette standing alone before that low fire, seen from behind,
+small against the dark, her braided hair and the line of her shoulders just caught in the firelight.
+Most of the frame is deep, textured darkness (the endless winter, the long hall at night); the only
+warmth is the carved, glowing line of the hearth-fire and its amber light pooling on the figure and
+the floor. The cold blue-black of the dark vs the single ember-amber of the fire. Restrained,
+haunting, adult, literary — the fire that never went out, alone in the dark.
+
+PALETTE: deep blue-black and charcoal for the dark; a single band of ember-amber, ochre and red for
+the fire and its glow; bone-white for the few carved highlights. Three or four inks at most, like a
+limited-run print.
+
+COMPOSITION: vertical portrait 2:3. Keep the UPPER THIRD calm/dark (for the title overlay) and a
+quieter band at the FOOT (for the author line). The fire and figure sit in the lower-middle.
+
+MOOD: solitude, banked heat, the long dark, dignity. A woman and a fire, and a great deal of
+winter. Sensual only by implication (warmth in cold), never explicit, no nudity, no romance pose.
+
+NEGATIVE: no smooth digital painting; no glowing sunset; no three figures; no romance clinch; no
+faces turned to camera; no horned helmets; no text/lettering in the image; not busy; no modern
+objects; no children.
+
+ASPECT: portrait, 2:3 (1024x1536).
