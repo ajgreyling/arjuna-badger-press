@@ -4,7 +4,7 @@
 > that bans the *letters* fails the *people.* Meaning lives in **who says it, to whom, and why** —
 > never in the spelling. Ban the word and you fail the language; pattern-match it and you fail the
 > speaker. The only honest filter reads *intent* — and we built one: **[meet Buabantu, the
-> register-aware engine that grew out of this very word →](tech-buabantu.html).**
+> register-aware engine that grew out of this very word →](../buabantu).**
 
 > A note before we begin: this entry discusses a vulgar Afrikaans word frankly, by name, because
 > you cannot tell the truth about it with the lights off. If that is not for you, the door is there
@@ -287,6 +287,6 @@ contents — the wider web is the wider web.)*
 > **Still wondering why a sane, thinking person builds a whole page around one coarse word?** Because
 > the truth of it lives in the *intent,* not the letters — and a machine that bans the spelling fails
 > every person who ever meant it as a blessing. This page is the worked example; **[Buabantu is the
-> engine →](tech-buabantu.html)** — a register-aware judge that reads *who is speaking, from what
+> engine →](../buabantu)** — a register-aware judge that reads *who is speaking, from what
 > standing, to whom,* so the warmth makes it across the gap instead of the wound. Bring it your own
 > words. *Jou lucky poes!*
