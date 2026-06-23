@@ -64,82 +64,48 @@ ACX_HEAD_S = 0.75
 ACX_TAIL_S = 2.5
 
 # Ordered chapter list: (filename_stem, display_title)
-# These stems match what render_emma_afrikaans_masters.py generates after the
-# frontmatter track was added (sections re-numbered; index 00 = kopiereg).
-# After a full re-render the new stems will exist; for the initial run the
-# packager also accepts the OLD stems (pre-frontmatter) as fallback so the
-# M4B can be built while the re-render is queued.
+# These stems match what render_emma_afrikaans_masters.py generates from the
+# current BOOK.md (19 sections): copyright + dedication + foreword, the 13
+# chapters, then the closing note + factual afterword. The display titles are
+# clean reader-facing labels (the slug keeps the Afrikaans ordinal).
 CHAPTERS: list[tuple[str, str]] = [
     ("00-kopiereg",                                   "Kopiereg"),
     ("01-opdrag",                                     "Opdrag"),
-    ("02-proloog-die-winternagte",                    "Proloog — Die Winternagte"),
-    ("03-hoofstuk-een-die-gaste",                     "Hoofstuk 1 — Die Gaste"),
-    ("04-hoofstuk-twee-die-toemaak-van-die-wereld",   "Hoofstuk 2 — Die Toemaak van die Wêreld"),
-    ("05-hoofstuk-drie-die-joelfees",                 "Hoofstuk 3 — Die Joelfees"),
-    ("06-hoofstuk-vier-die-more-daarna",              "Hoofstuk 4 — Die Môre Daarna"),
-    ("07-hoofstuk-vyf-solveig",                       "Hoofstuk 5 — Solveig"),
-    ("08-hoofstuk-ses-heir-op-die-hoe-stoel",         "Hoofstuk 6 — Heiðr op die Hoë Stoel"),
-    ("09-hoofstuk-sewe-die-sien",                     "Hoofstuk 7 — Die Sien"),
-    ("10-hoofstuk-agt-die-twee-vure",                 "Hoofstuk 8 — Die Twee Vure"),
-    ("11-hoofstuk-nege-die-harde-week",               "Hoofstuk 9 — Die Harde Week"),
-    ("12-hoofstuk-tien-die-redding-oor-die-ys",       "Hoofstuk 10 — Die Redding oor die Ys"),
-    ("13-hoofstuk-elf-die-prys",                      "Hoofstuk 11 — Die Prys"),
-    ("14-hoofstuk-twaalf-die-dooi",                   "Hoofstuk 12 — Die Dooi"),
-    ("15-hoofstuk-dertien-die-strand",                "Hoofstuk 13 — Die Strand"),
-    ("16-hoofstuk-99-nawoord-feit-en-verbeelding",    "Nawoord — Feit en Verbeelding"),
+    ("02-n-woord-voor",                               "'n Woord Voor"),
+    ("03-proloog-die-winternagte",                    "Proloog — Die Winternagte"),
+    ("04-hoofstuk-een-die-gaste",                     "Hoofstuk 1 — Die Gaste"),
+    ("05-hoofstuk-twee-die-toemaak-van-die-wereld",   "Hoofstuk 2 — Die Toemaak van die Wêreld"),
+    ("06-hoofstuk-drie-die-joelfees",                 "Hoofstuk 3 — Die Joelfees"),
+    ("07-hoofstuk-vier-die-more-daarna",              "Hoofstuk 4 — Die Môre Daarna"),
+    ("08-hoofstuk-vyf-solveig",                       "Hoofstuk 5 — Solveig"),
+    ("09-hoofstuk-ses-heir-op-die-hoe-stoel",         "Hoofstuk 6 — Heiðr op die Hoë Stoel"),
+    ("10-hoofstuk-sewe-die-sien",                     "Hoofstuk 7 — Die Sien"),
+    ("11-hoofstuk-agt-die-twee-vure",                 "Hoofstuk 8 — Die Twee Vure"),
+    ("12-hoofstuk-nege-die-harde-week",               "Hoofstuk 9 — Die Harde Week"),
+    ("13-hoofstuk-tien-die-redding-oor-die-ys",       "Hoofstuk 10 — Die Redding oor die Ys"),
+    ("14-hoofstuk-elf-die-prys",                      "Hoofstuk 11 — Die Prys"),
+    ("15-hoofstuk-twaalf-die-dooi",                   "Hoofstuk 12 — Die Dooi"),
+    ("16-hoofstuk-dertien-die-strand",                "Hoofstuk 13 — Die Strand"),
+    ("17-n-nota-oor-die-opgemaakte-en-die-werklike",  "'n Nota oor die Opgemaakte en die Werklike"),
+    ("18-hoofstuk-99-nawoord-feit-en-verbeelding",    "Nawoord — Feit en Verbeelding"),
 ]
-
-# Fallback stems for pre-frontmatter masters (old numbering, used if the new
-# stems don't exist yet — allows packaging while re-render is in progress).
-_FALLBACK: dict[str, str] = {
-    "01-opdrag":                                   "00-opdrag",
-    "02-proloog-die-winternagte":                  "01-proloog-die-winternagte",
-    "03-hoofstuk-een-die-gaste":                   "02-hoofstuk-een-die-gaste",
-    "04-hoofstuk-twee-die-toemaak-van-die-wereld": "03-hoofstuk-twee-die-toemaak-van-die-wereld",
-    "05-hoofstuk-drie-die-joelfees":               "04-hoofstuk-drie-die-joelfees",
-    "06-hoofstuk-vier-die-more-daarna":            "05-hoofstuk-vier-die-more-daarna",
-    "07-hoofstuk-vyf-solveig":                     "06-hoofstuk-vyf-solveig",
-    "08-hoofstuk-ses-heir-op-die-hoe-stoel":       "07-hoofstuk-ses-heir-op-die-hoe-stoel",
-    "09-hoofstuk-sewe-die-sien":                   "08-hoofstuk-sewe-die-sien",
-    "10-hoofstuk-agt-die-twee-vure":               "09-hoofstuk-agt-die-twee-vure",
-    "11-hoofstuk-nege-die-harde-week":             "10-hoofstuk-nege-die-harde-week",
-    "12-hoofstuk-tien-die-redding-oor-die-ys":     "11-hoofstuk-tien-die-redding-oor-die-ys",
-    "13-hoofstuk-elf-die-prys":                    "12-hoofstuk-elf-die-prys",
-    "14-hoofstuk-twaalf-die-dooi":                 "13-hoofstuk-twaalf-die-dooi",
-    "15-hoofstuk-dertien-die-strand":              "14-hoofstuk-dertien-die-strand",
-    "16-hoofstuk-99-nawoord-feit-en-verbeelding":  "15-hoofstuk-99-nawoord-feit-en-verbeelding",
-}
 
 
 def find_master(stem: str) -> Path | None:
-    """Find master by exact stem, then try fallback old stem."""
+    """Find master by exact stem."""
     exact = MASTERS_DIR / f"{stem}.mp3"
-    if exact.exists():
-        return exact
-    # try the pre-frontmatter fallback numbering
-    fallback_stem = _FALLBACK.get(stem)
-    if fallback_stem:
-        fb = MASTERS_DIR / f"{fallback_stem}.mp3"
-        if fb.exists():
-            return fb
-    return None
+    return exact if exact.exists() else None
 
 
 def resolve_chapters() -> list[tuple[Path, str]]:
     resolved: list[tuple[Path, str]] = []
     missing: list[str] = []
-    fallback_used: list[str] = []
     for stem, title in CHAPTERS:
         path = find_master(stem)
         if path is None:
             missing.append(f"  MISSING: {stem} ({title})")
         else:
-            if path.stem != stem:
-                fallback_used.append(f"  fallback: {stem} → {path.stem}")
             resolved.append((path, title))
-    if fallback_used:
-        print("[make_m4b] using pre-frontmatter fallback stems for some chapters:")
-        print("\n".join(fallback_used))
     if missing:
         print("!! Some chapter masters not found — render first:")
         print("\n".join(missing))
