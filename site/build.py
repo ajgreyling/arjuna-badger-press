@@ -224,6 +224,32 @@ AUDIOBOOK_NOTICE = (
     "Read and download the text editions free here until then."
 )
 
+# ── Audiobooks ──────────────────────────────────────────────────────────────────────────────────
+# Book ids here ship a full audiobook on their book page: a set of download formats (smallest-modern
+# → universal) plus an inline chapter web player. The source is the per-book audio pipeline's
+# publish/ dir (built by audio/make_audio_formats.py + make_m4b.py). Each entry points at:
+#   - "publish": dir of single-file download formats (.m4b/.opus/.m4a/.mp3/.zip)
+#   - "chapters": dir of per-chapter MP3 masters (for the inline <audio> player playlist)
+# Formats are surfaced in FORMAT_ORDER; a label/sublabel/extension table drives the buttons.
+# NARRATION carries the voice credit + the AI-narration disclosure shown under the player.
+AUDIOBOOKS = {
+    "the-amber-winter": {
+        "publish": BOOKS / "the-amber-winter/audio/emma-afrikaans-masters/publish",
+        "chapters": BOOKS / "the-amber-winter/audio/emma-afrikaans-masters/masters",
+        "narration": "Vertel deur Emma Lilliana · KI-stem (nie 'n menslike verteller nie).",
+    },
+}
+
+# Download-button ladder: (extension, label, sublabel). Order = display order. The player uses the
+# per-chapter MP3 masters; these are the single-file downloads.
+AUDIO_FORMATS = [
+    ("m4b",  "M4B",      "chaptered audiobook — Apple Books, iOS, VLC"),
+    ("opus", "Opus",     "smallest — modern phones & apps"),
+    ("m4a",  "AAC+",     "HE-AAC — iPhone / Apple-native, small"),
+    ("mp3",  "MP3",      "universal — plays everywhere"),
+    ("zip",  "MP3 zip",  "per-chapter tracks for sideloading"),
+]
+
 # ── Workshop hold ─────────────────────────────────────────────────────────────────────────────
 # Book ids here are FORCED to "In the workshop" (no download buttons, the drafting-now line) even
 # when finished EPUB/PDF deliverables exist on disk. Use this to hold a drafted-but-not-yet-cleared
@@ -1115,6 +1141,44 @@ def book_isbn(root: Path) -> str:
     return ""
 
 
+def scan_audiobook(cid: str) -> dict | None:
+    """Collect a book's audiobook: download-format files (from its publish/ dir, keyed by the
+    AUDIO_FORMATS ladder) plus the per-chapter MP3 masters for the inline web player. Returns
+    None unless the book is registered in AUDIOBOOKS and at least one download format exists.
+
+    Format files are matched by extension within publish/ (the pipeline names them after the book
+    title); the chapter player reads the numerically-sorted masters dir. The dict carries the source
+    Paths (copied into downloads/<id>/ at write time) and the relative hrefs the page will use."""
+    reg = AUDIOBOOKS.get(cid)
+    if not reg:
+        return None
+    publish = reg["publish"]
+    chapters_dir = reg["chapters"]
+    if not publish.is_dir():
+        return None
+    by_ext: dict[str, Path] = {}
+    for f in sorted(publish.iterdir()):
+        if not f.is_file():
+            continue
+        ext = f.suffix.lower().lstrip(".")
+        # the zip's "extension" is zip; everything else by suffix. First file of each ext wins.
+        by_ext.setdefault(ext, f)
+    # Ordered, labelled formats that actually exist on disk.
+    formats = []
+    for ext, label, sub in AUDIO_FORMATS:
+        f = by_ext.get(ext)
+        if f:
+            formats.append({"ext": ext, "label": label, "sub": sub, "path": f})
+    if not formats:
+        return None
+    chapters = sorted(chapters_dir.glob("*.mp3")) if chapters_dir.is_dir() else []
+    return {
+        "formats": formats,
+        "chapters": chapters,         # source Paths; copied + linked for the player
+        "narration": reg.get("narration", ""),
+    }
+
+
 def scan() -> list[dict]:
     entries = []
     hidden_proc: list[str] = []
@@ -1158,6 +1222,8 @@ def scan() -> list[dict]:
                 reader_src = book_md
             else:
                 reader_md = companion_manuscript(root)
+        # Audiobook: only for PUBLISHED books with an AUDIOBOOKS entry whose publish/ dir holds files.
+        audiobook = scan_audiobook(cid)
         entries.append({
             "id": cid, "title": title, "subtitle": subtitle, "series": series,
             "blurb": blurb, "downloads": downloads, "cover": cover,
@@ -1168,6 +1234,7 @@ def scan() -> list[dict]:
             "serial": cid in SERIAL,
             "available": can_read and (cid in SERIAL or bool(downloads)),
             "isbn": book_isbn(root),
+            "audiobook": audiobook if (cid in PUBLISHED and cid not in WORKSHOP_HOLD) else None,
         })
     if hidden_proc:
         print(f"  (procedural covers hidden from shelf: {len(hidden_proc)} — "
@@ -1719,6 +1786,21 @@ a.support-rail:hover{border-color:var(--ochre)}
 .corrmsg{margin:8px 0 0;color:var(--gold);font-size:13px;min-height:1.1em}
 .media-frame{width:100%;min-height:68vh;border:0;background:#111}
 .audio-player{width:100%;margin:16px 0}.reader-note{color:var(--grass);font-size:13.5px}
+/* ── Audiobook block (book page) ── */
+.audiobook{margin-top:30px;padding:20px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;background:var(--card)}
+.ab-h{margin:0 0 .3em;font-size:1.15em;color:var(--gold)}
+.ab-narration{margin:0 0 14px;color:var(--bonedim);font-size:.9em}
+.ab-player{margin:0 0 16px}
+.ab-audio{width:100%;margin-bottom:12px}
+.ab-playlist{list-style:none;margin:0;padding:0;max-height:340px;overflow-y:auto;border:1px solid var(--line);border-radius:9px}
+.ab-playlist li{border-bottom:1px solid var(--line)}.ab-playlist li:last-child{border-bottom:none}
+.ab-ch{width:100%;text-align:left;background:none;border:none;color:var(--bone);padding:10px 14px;cursor:pointer;font:inherit;font-size:.95em;display:flex;gap:10px;align-items:baseline}
+.ab-ch:hover{background:#1b1a17}.ab-ch.ab-active{background:#221f18;color:var(--gold)}
+.ab-ch-n{color:var(--bonedim);font-variant-numeric:tabular-nums;font-size:.85em}
+.ab-dl-label{margin:14px 0 8px;color:var(--bonedim);font-size:.85em;text-transform:uppercase;letter-spacing:.06em}
+.ab-downloads{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.ab-dl{display:flex;flex-direction:column;gap:2px;text-align:left;padding:10px 14px}
+.ab-fmt{font-weight:600}.ab-sub{font-size:.78em;color:var(--bonedim);text-decoration:none}
 @media(max-width:820px){.reader-workbench{grid-template-columns:1fr}.library-panel,.reading-panel{min-height:auto}}
 /* ── CV page ─────────────────────────────────────────────────────────────────── */
 .cv-page{max-width:980px}
@@ -3249,6 +3331,75 @@ def book_ld_json(e: dict) -> str:
     return _json.dumps(data, ensure_ascii=False)
 
 
+def _audio_chapter_label(stem: str) -> str:
+    """Turn a master stem like '03-proloog-die-winternagte' into a reader label
+    'Proloog — Die Winternagte'. Drops the leading NN-, title-cases words, and maps
+    the Afrikaans 'hoofstuk-<ordinal>' prefix to 'Hoofstuk N'."""
+    import re as _re
+    m = _re.match(r"\d+-(.+)$", stem)
+    rest = (m.group(1) if m else stem)
+    ORD = {"een": 1, "twee": 2, "drie": 3, "vier": 4, "vyf": 5, "ses": 6, "sewe": 7,
+           "agt": 8, "nege": 9, "tien": 10, "elf": 11, "twaalf": 12, "dertien": 13}
+    hm = _re.match(r"hoofstuk-([a-z]+)-(.+)$", rest)
+    if hm and hm.group(1) in ORD:
+        title = hm.group(2).replace("-", " ").title()
+        return f"Hoofstuk {ORD[hm.group(1)]} — {title}"
+    if rest.startswith("hoofstuk-99"):
+        return "Nawoord"
+    # strip a leading "n-" (the 'n Woord Voor / 'n Nota)
+    rest = _re.sub(r"^n-", "'n ", rest)
+    return rest.replace("-", " ").title().replace("'N ", "'n ")
+
+
+def render_audiobook(e: dict) -> str:
+    """The audiobook block for a book page: format download buttons + an inline chapter
+    player (HTML5 <audio> with a tappable chapter playlist). Returns '' when no audiobook."""
+    ab = e.get("audiobook")
+    if not ab or not e.get("available"):
+        return ""
+    base = f'../downloads/{e["id"]}/audio'
+    # Download buttons — one per format that exists, in ladder order.
+    btns = []
+    for fmt in ab["formats"]:
+        href = f'{base}/{html.escape(fmt["name"])}'
+        btns.append(
+            f'<a class="dl ab-dl" href="{href}" download>'
+            f'<span class="ab-fmt">{html.escape(fmt["label"])}</span>'
+            f'<span class="ab-sub">{html.escape(fmt["sub"])}</span></a>'
+        )
+    dl_html = f'<div class="ab-downloads">{"".join(btns)}</div>'
+    # Inline player — playlist of per-chapter MP3s. JS wires clicks; degrades to the first
+    # chapter in a plain <audio> if JS is off.
+    chapter_names = ab.get("chapter_names") or []
+    playlist = [
+        {"src": f'{base}/chapters/{html.escape(n)}',
+         "label": html.escape(_audio_chapter_label(Path(n).stem))}
+        for n in chapter_names
+    ]
+    first_src = playlist[0]["src"] if playlist else ""
+    items = "".join(
+        f'<li><button type="button" class="ab-ch" data-src="{p["src"]}">'
+        f'<span class="ab-ch-n">{i+1:02d}</span> {p["label"]}</button></li>'
+        for i, p in enumerate(playlist)
+    )
+    narration = (f'<p class="ab-narration">{html.escape(ab["narration"])}</p>'
+                 if ab.get("narration") else "")
+    player = (
+        '<div class="ab-player">'
+        f'<audio class="ab-audio" controls preload="none" src="{first_src}"></audio>'
+        f'<ol class="ab-playlist">{items}</ol>'
+        '</div>'
+    ) if playlist else ""
+    return (
+        '<div class="audiobook" id="audiobook">'
+        '<h2 class="ab-h">Luister — die volledige klankboek</h2>'
+        f'{narration}{player}'
+        '<p class="ab-dl-label">Laai af:</p>'
+        f'{dl_html}'
+        '</div>'
+    )
+
+
 def render_book(e: dict) -> str:
     cover = f'assets/covers/{e["id"]}.png'
     eds = e.get("editions") or {}
@@ -3423,7 +3574,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{edition_note}{read}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
+<p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
@@ -3432,7 +3583,31 @@ def render_book(e: dict) -> str:
 </div></div></div>""",
         footer(rel="../"),
         rating_script(),
+        audiobook_player_script() if e.get("audiobook") else "",
     ])
+
+
+def audiobook_player_script() -> str:
+    """Wire the chapter playlist to the single <audio> element: click a chapter → load + play,
+    highlight the active row, and auto-advance to the next chapter on end."""
+    return (
+        "<script>(function(){\n"
+        "  var audio=document.querySelector('.ab-audio');\n"
+        "  if(!audio)return;\n"
+        "  var btns=Array.prototype.slice.call(document.querySelectorAll('.ab-ch'));\n"
+        "  function play(i){\n"
+        "    if(i<0||i>=btns.length)return;\n"
+        "    var b=btns[i];\n"
+        "    audio.src=b.getAttribute('data-src');\n"
+        "    audio.play();\n"
+        "    btns.forEach(function(x){x.classList.remove('ab-active');});\n"
+        "    b.classList.add('ab-active');\n"
+        "    audio.dataset.idx=i;\n"
+        "  }\n"
+        "  btns.forEach(function(b,i){b.addEventListener('click',function(){play(i);});});\n"
+        "  audio.addEventListener('ended',function(){var n=parseInt(audio.dataset.idx||'0',10)+1;if(n<btns.length)play(n);});\n"
+        "})();</script>"
+    )
 
 
 # source filename, output filename, page title, meta description
@@ -4058,6 +4233,7 @@ def render_safari_hub() -> str:
         ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
         ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
         ("proof.html", "For G", "For the man who built the most intentional space I've ever walked into — and whose advice started this press."),
+        ("todd-kellett.html", "For Todd", "Hat off to Todd Kellett — the viral motorcycle clip that is badger energy made flesh. Hold the throttle till you see God or the checkered flag."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
     ]
     cards = "".join(
@@ -4233,6 +4409,10 @@ SAFARI_CONTENT = [
      "The documented (and the merely reported) history of military aircraft drawing phallic shapes "
      "in contrails and on GPS flight-trackers — the Whidbey Island Growler (2017), the Finnish cadets "
      "(2026), and more. A sourced companion to the poes entry: the same human impulse, in the sky."),
+    ("todd-kellett.md", "todd-kellett.html", "Todd Kellett — 'hold the throttle till I see God or the checkered flag' · Arjuna Badger Press",
+     "A small tribute to Todd Kellett, the viral motorcycle racer whose clip is Jakobus-on-nitrous "
+     "badger energy made flesh — and a standing open offer: if he ever wants to write a book, the "
+     "press is free for him, always."),
 ]
 
 # Per-page SEO for Safari content (keywords + JSON-LD). Keyed by out_name. The poes entry is built
@@ -4312,6 +4492,29 @@ SAFARI_SEO = {
                          "url": f"{DOMAIN}/assets/brand/social-og-1200x630.png"}},
             "dateModified": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
             "mainEntityOfPage": f"{DOMAIN}/safari/sky-penis.html",
+            "isAccessibleForFree": True,
+        }, ensure_ascii=False),
+    },
+    "todd-kellett.html": {
+        "keywords": ("Todd Kellett, Todd Kellett motorcycle, hold the throttle till I see God, "
+                     "checkered flag, viral motorcycle race, motorcycle racing video, badger energy, "
+                     "Jakobus, Arjuna Badger Press tribute"),
+        "ld_json": json.dumps({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Todd Kellett — hold the throttle till I see God or the checkered flag",
+            "description": (
+                "A tribute to motorcycle racer Todd Kellett, whose viral clip embodies the 'badger "
+                "energy' of the Jakobus books — and a standing open invitation: if he ever wants to "
+                "write a book, Arjuna Badger Press is free for him, always."),
+            "inLanguage": "en",
+            "author": {"@type": "Person", "name": "Andries J. Greyling"},
+            "publisher": {
+                "@type": "Organization", "name": "Arjuna Badger Press", "url": DOMAIN,
+                "logo": {"@type": "ImageObject",
+                         "url": f"{DOMAIN}/assets/brand/social-og-1200x630.png"}},
+            "dateModified": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+            "mainEntityOfPage": f"{DOMAIN}/safari/todd-kellett.html",
             "isAccessibleForFree": True,
         }, ensure_ascii=False),
     },
@@ -6207,6 +6410,20 @@ def main() -> None:
             for fmts in e.get("editions", {}).values():
                 for f in fmts.values():
                     shutil.copy2(f, d / f.name)
+        # audiobook: download formats + per-chapter MP3s for the inline player, under downloads/<id>/audio/
+        ab = e.get("audiobook")
+        if ab:
+            adir = OUT / "downloads" / e["id"] / "audio"
+            adir.mkdir(parents=True, exist_ok=True)
+            for fmt in ab["formats"]:
+                shutil.copy2(fmt["path"], adir / fmt["path"].name)
+                fmt["name"] = fmt["path"].name
+            cdir = adir / "chapters"
+            cdir.mkdir(parents=True, exist_ok=True)
+            ab["chapter_names"] = []
+            for cf in ab["chapters"]:
+                shutil.copy2(cf, cdir / cf.name)
+                ab["chapter_names"].append(cf.name)
         # book page + reader
         (OUT / "book" / f'{e["id"]}.html').write_text(render_book(e), encoding="utf-8")
         if (e["available"] or e.get("serial")) and (e["book_md"] or e.get("reader_md")):
