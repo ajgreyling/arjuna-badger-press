@@ -70,7 +70,7 @@ Akukho mntu kuloo mzuzu owayefuna ukwenza impazamo. Injongo yayishushu; inxeba l
 
 Enye kwakhona, ngoba le yeyona mzekelo mnandi kolu lwimi lonke lweli gama latshintsha intsingiselo yalo kodwa lwasala linomphefumlo ofanayo.
 
-*Tjommie* ligama elidala, elishushu lesiAfrikaans elithetha **umhlobo, umngane omncinci** — *maatjie.* (Uhlengahlengiso lwale mihla, oluphola ngakumbi, *tjomma*, lusahleli luthando olunyulu: "my tjomma.") Kodwa *tjommie*, lodwa nje, sele isetyenziswa ngolwimi lwasezantsi lwesiAfrikaans kuthetha into echane kakhulu: ngoku lithetha **iqhekeza elincinci lesikhumba phakathi kwe-*poes* yomfazi kunye ne-anus yakhe** — i-perineum.
+*Tjommie* ligama elidala, elishushu lesiAfrikaans elithetha **umhlobo, umngane omncinci** — *maatjie.* (Uhlengahlengiso lwale mihla, oluphola ngakumbi, *tjomma*, lusahleli luthando olunyulu: "my tjomma.") Kodwa *tjommie*, lodwa nje, sele isetyenziswa ngolwimi lwasezantsi lwesiAfrikaans kuthetha into echane kakhulu: ngoku lithetha **iqhekeza elincinci lesikhumba phakathi kwezitho zangasese kunye ne-anus** — i-perineum.
 
 Kwaye nantsi into eyenza le nto igqibelele: igama lona lizizathu. **Dit is jou tjommie** — *ngumhlobo wakho omncinci* — **want dit hou jou voël uit die kak uit:** kuba le yinxalenye egcina i-voël yakho ingangeni kwi-kak. I-perineum, ngokwe-anatomy, yindawo encinci ephakathi kwezi zinto zimbini; ke kusengqiqweni ukuba ulwimi luyibize *umngane wakho* — umhlobo omele phakathi kwakho ne-kak. Yihashe elingcolileyo, yinxalenye ye-folk-anatomy, kwaye phantsi koko, kukho inyaniso encinci ethambileyo: *umhlobo yinto emele phakathi kwakho nezona zinto zimbi.* Igama alizange liyeke ukuthetha into elalithetha yona. Lufumene nje indawo entsha yokuma likhusela.
 

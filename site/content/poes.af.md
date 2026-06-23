@@ -1,5 +1,11 @@
 # *Poes* — ’n woordeboekinskrywing, sonder doekies omdraai
 
+> **Hoekom hou ’n ernstige uitgewershuis ’n hele bladsy oor ’n "growwe" woord?** Want ’n filter wat
+> die *letters* verbied, faal die *mense.* Betekenis lê in **wie dit sê, vir wie, en hoekom** — nooit
+> in die spelling nie. Verbied die woord en jy faal die taal; pattern-match die woord en jy faal die
+> spreker. Die enigste eerlike filter lees *bedoeling* — en ons het een gebou: **[ontmoet Buabantu,
+> die register-slim enjin wat uit hierdie einste woord gegroei het →](../buabantu).**
+
 > Net ’n nota voor ons begin: hierdie inskrywing praat reguit oor ’n growwe Afrikaanse woord, sommer by die naam, want jy kan nie die waarheid daaroor sê as die ligte af is nie. As dit nie vir jou is nie, daar’s die deur en niemand vat dit persoonlik nie. Vir almal wat nog hier is — *kom ons maak die ding oop.*
 
 Daar’s ’n woord in hierdie huis se huistaal wat, afhangend van wie dit sê en vir wie en op watter manier, die heel slegste ding kan wees wat jy vir iemand kan sê, **en** een van die warmste. Dieselfde vier letters. Geen ander woord waarmee die pers werk doen dit so volledig nie, en dis presies hoekom dit ’n inskrywing verdien. Dis die mees **badger** woord in Afrikaans, en die mees **Jakobus** — vreesloos, nie maklik om te flous nie, min respek vir mooi maniere, en in die regte hande, kan dit ongelooflike sagtheid hê wat soos staal lyk aan die buitekant.
@@ -76,7 +82,10 @@ Niemand was daai oomblik met opset verkeerd nie. Die bedoeling was warm; die see
 
 Nog een, want dis seker die oulikste voorbeeld in die hele taal van ’n woord wat sy betekenis omgekeer het en op een of ander manier steeds sy siel behou het.
 
-*Tjommie* is ’n ou, warm Afrikaanse woord vir **’n vriend, ’n klein maat** — *maatjie.* (Die cooler, jonger spelling, *tjomma*, is nog net so vol liefde: "my tjomma.") Maar *tjommie*, op sy eie, het stil-stil in plat Afrikaans ’n heel nuwe betekenis gekry: dit verwys nou na die klein **stukkie vel tussen ’n vrou se *poes* en haar anus** — die perineum.
+*Tjommie* is ’n ou, warm Afrikaanse woord vir **’n vriend, ’n klein maat** — *maatjie.* (Die cooler, jonger spelling, *tjomma*, is nog net so vol liefde: "my tjomma.") Maar *tjommie*, op sy eie, het stil-stil in plat Afrikaans ’n heel nuwe betekenis gekry: dit verwys nou na die klein **stukkie vel tussen die geslagsdele en die anus** — die perineum. *(En
+let op wat hierdie blad nou nét geweier het om te doen: dit sou nie die woord op ’n vrou se liggaam mik
+om daai anatomie te benoem nie — want, soos die reël hierbo sê, dis die een register waar ’n gentleman
+nooit ingaan nie. Die taboe is nie die woord nie; dis om dit op háár te mik.)*
 
 En hier’s die deel wat dit perfek maak: die naam ís die rede. **Dit is jou tjommie** — *dit is jou klein vriend* — **want dit hou jou voël uit die kak uit:** dis die stukkie wat jou voël uit die gemors hou. Die perineum is, anatomies, daai klein buffer wat tussen die twee staan; so natuurlik het die taal dit jou *maat* genoem — die vriend wat tussen jou en die kak staan. Dis ’n growwe grap en ’n stukkie volks-anatomie en, daaronder, ’n snaaks sagmoedige waarheid: *’n vriend is die ding wat tussen jou en die ergste van alles staan.* Die woord het nooit opgehou om te beteken wat dit nog altyd beteken het nie. Dit het net ’n nuwe plek gekry om wag te hou.
 
@@ -112,3 +121,12 @@ Hierdie inskrywing behoort aan almal wat die woord gebruik, nie net aan die badg
   homself stry oor presies hierdie woorde, in essays en lesersdebatte.
 
 *(Uitgaande skakels maak in ’n nuwe tab oop en wys van hierdie webwerf af; ons staan in vir die relevansie, nie die inhoud nie — die breër web is die breër web.)*
+
+---
+
+> **Wonder jy nog hoekom ’n verstandige mens ’n hele bladsy om een growwe woord bou?** Want die
+> waarheid daarvan lê in die *bedoeling,* nie die letters nie — en ’n masjien wat die spelling verbied,
+> faal elke mens wat dit ooit as ’n seën bedoel het. Hierdie blad is die uitgewerkte voorbeeld;
+> **[Buabantu is die enjin →](../buabantu)** — ’n register-slim regter wat lees *wie praat, uit watter
+> staanplek, met wie,* sodat die warmte oor die gaping kom in plaas van die wond. Bring jou eie woorde.
+> *Jou lucky poes!*
