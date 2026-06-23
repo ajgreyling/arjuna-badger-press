@@ -4165,77 +4165,10 @@ body.safari.gpage .brandlink{color:#f0ede8}
 body.safari.gpage .navdrawer{background:#0a0a0a !important;border-right:3px solid #FF2D9C !important}
 body.safari.gpage .navdrawer a{color:#f0ede8 !important}
 body.safari.gpage .navdrawer a:hover{background:rgba(255,45,156,.18) !important;color:#FF2D9C !important}
-/* Graffiti wall */
-.graffiti-wall{
-  position:relative;width:100%;height:clamp(180px,28vw,320px);
-  overflow:hidden;margin:0 0 0;pointer-events:none;user-select:none;
-  background:transparent;
-}
-.graffiti-wall svg{width:100%;height:100%}
 .g-letter-crest{display:block;margin:0 auto 14px;width:min(200px,52vw);height:auto;border-radius:0;
   filter:drop-shadow(0 0 12px rgba(255,45,156,.55))}
 </style>
 """
-
-_GRAFFITI_SVG = """<div class="graffiti-wall" aria-hidden="true">
-<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <filter id="spray1"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G"/></filter>
-    <filter id="spray2"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/></filter>
-    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <!-- Background drips and splatters -->
-  <circle cx="80" cy="60" r="28" fill="#FF2D9C" opacity="0.18" filter="url(#spray1)"/>
-  <circle cx="820" cy="200" r="35" fill="#B4FF00" opacity="0.14" filter="url(#spray1)"/>
-  <circle cx="450" cy="30" r="20" fill="#FF2D9C" opacity="0.12" filter="url(#spray2)"/>
-  <circle cx="700" cy="80" r="18" fill="#ffffff" opacity="0.07" filter="url(#spray1)"/>
-  <!-- SAMPIOEN — big, rotated, pink, lower left -->
-  <text transform="translate(28,220) rotate(-14)"
-        font-family="Impact,Arial Black,sans-serif" font-size="68" font-weight="900"
-        fill="#FF2D9C" opacity="0.88" filter="url(#spray2)" letter-spacing="-2">SAMPIOEN</text>
-  <!-- poes — medium, upper right, lime -->
-  <text transform="translate(660,95) rotate(8)"
-        font-family="Impact,Arial Black,sans-serif" font-size="52" font-weight="900"
-        fill="#B4FF00" opacity="0.82" filter="url(#spray1)" letter-spacing="1">poes.</text>
-  <!-- WTF? — upper left, white, sharp -->
-  <text transform="translate(52,72) rotate(-7)"
-        font-family="Impact,Arial Black,sans-serif" font-size="44" font-weight="900"
-        fill="#ffffff" opacity="0.75" filter="url(#spray1)">WTF?</text>
-  <!-- lekker — mid right, pink, big tilt -->
-  <text transform="translate(620,185) rotate(-18)"
-        font-family="Impact,Arial Black,sans-serif" font-size="42" font-weight="900"
-        fill="#FF2D9C" opacity="0.65" filter="url(#spray2)">lekker</text>
-  <!-- aikona — centre top, lime, angled -->
-  <text transform="translate(310,55) rotate(5)"
-        font-family="Impact,Arial Black,sans-serif" font-size="36" font-weight="900"
-        fill="#B4FF00" opacity="0.7" filter="url(#spray1)">aikona</text>
-  <!-- tjommie — lower right, white, flat -->
-  <text transform="translate(710,250) rotate(-4)"
-        font-family="Impact,Arial Black,sans-serif" font-size="32" font-weight="900"
-        fill="#ffffff" opacity="0.55" filter="url(#spray2)">tjommie</text>
-  <!-- moer — centre, big, very faint pink (layer depth) -->
-  <text transform="translate(370,155) rotate(11)"
-        font-family="Impact,Arial Black,sans-serif" font-size="78" font-weight="900"
-        fill="#FF2D9C" opacity="0.10" letter-spacing="-3">MOER</text>
-  <!-- eina — small, upper centre right, lime -->
-  <text transform="translate(495,90) rotate(-9)"
-        font-family="Impact,Arial Black,sans-serif" font-size="28" font-weight="900"
-        fill="#B4FF00" opacity="0.68" filter="url(#spray1)">eina</text>
-  <!-- BOET — lower centre, white hint -->
-  <text transform="translate(340,265) rotate(3)"
-        font-family="Impact,Arial Black,sans-serif" font-size="30" font-weight="900"
-        fill="#ffffff" opacity="0.45" filter="url(#spray2)">BOET</text>
-  <!-- 420 — upper far right, pink accent -->
-  <text transform="translate(820,55) rotate(-12)"
-        font-family="Impact,Arial Black,sans-serif" font-size="38" font-weight="900"
-        fill="#FF2D9C" opacity="0.72" filter="url(#glow)">420</text>
-  <!-- sharp horizontal rule at bottom — like a line of spray at the wall base -->
-  <rect x="0" y="272" width="900" height="3" fill="#FF2D9C" opacity="0.35" filter="url(#spray2)"/>
-</svg>
-</div>"""
 
 
 def render_safari_proof(*, rel: str = "../") -> str:
@@ -4247,8 +4180,7 @@ def render_safari_proof(*, rel: str = "../") -> str:
         _PROOF_CSS,
         "<script>document.body.classList.add('gpage')</script>",
         safari_nav(rel),
-        _GRAFFITI_SVG,
-        '<article class="reader letter" style="margin-top:0;border-radius:0 0 12px 12px">',
+        '<article class="reader letter">',
         """<p class="eyebrow" style="text-align:center">Personal</p>
 <h1 style="text-align:center">For G</h1>
 <p style="text-align:center;font-family:Impact,'Arial Black',sans-serif;font-size:clamp(13px,2vw,17px);letter-spacing:.12em;text-transform:uppercase;color:#B4FF00;margin:.4em 0 .6em;opacity:.85">Nice man. Not a cunt.</p>
