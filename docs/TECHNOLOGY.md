@@ -625,7 +625,7 @@ discipline as the rest of this system, pointed at the agent's memory instead of 
 
 **It is open source.** The full Circadian suite — all four skills, the reminder hooks, and a
 one-command installer — is public and MIT-licensed:
-**[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. It
+**[github.com/ajgreyling/circadian](https://github.com/ajgreyling/circadian)**. It
 needs nothing but a Claude subscription and a free repo, which is the point: anyone, not just
 engineers, can have a co-worker that remembers them. The longer-form story of where it came from — and
 the conversation about what it means for a machine to "remember" at all — is in
