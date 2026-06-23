@@ -107,6 +107,7 @@ for the full page with its own diagrams.
 | **[The police + judge guardrail](tech-guardrails.html)** | two-layer, fail-closed safety on both directions | deterministic + AI |
 | **[People's Language](tech-peoples-language.html)** | corpus-first, register-aware translation | AI + corpus |
 | **[Buabantu](tech-buabantu.html)** | the translation engine, spun off as a closed-beta API | product |
+| **[Circadian — the agent's body clock](tech-circadian.html)** | gives the AI co-worker a name, a memory, and continuity across sessions (`/spark`·`/sleep`·`/dream`·`/wakeup`) | open source |
 
 ---
 
