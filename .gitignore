@@ -65,7 +65,9 @@ site/content/.buabantu-page/
 
 # ── Baked workflow scratch (regenerable; the whole book is inlined → huge) ─
 .amber-*-baked.js
+.amber-*-baked.*.js
 .amber-*-args.json
+.amber-*-args.*.json
 .amber-nb-args.json
 
 # ── Audiobook render working tree (regenerable; the .py + frontmatter .md are the source) ─
