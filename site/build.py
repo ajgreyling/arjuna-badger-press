@@ -3028,7 +3028,7 @@ and other rails where they reduce friction.</p>
 <p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <strong>Circadian</strong> is the open-source body clock that made it possible —
 skills that give an agent <em>day and night</em>: <code>/spark</code> to be born and named, then <code>/sleep</code> consolidates a session the way a person sleeps,
 <code>/dream</code> works the night, <code>/wakeup</code> rises oriented. Keep the lesson, lose the dream. A Claude subscription and a free repo is all it takes. MIT-licensed; works anywhere.</p>
-<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get Circadian on GitHub →</a>
+<div class="cta"><a class="btn" href="https://github.com/ajgreyling/circadian">Get Circadian on GitHub →</a>
 <a class="btn ghost" href="safari/writing/the-kettle-and-the-blink.html">Read the story</a></div>
 </div></section>""",
         render_pipeline_section(entries),
@@ -3672,7 +3672,7 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
             'sleeps (keep the lesson, lose the dream — the humane counterpart to <code>/clear</code>), '
             '<code>/dream</code> works the night unattended, and <code>/wakeup</code> rises carrying only what '
             'mattered. A Claude subscription and a free repo is all you need. MIT-licensed, works anywhere.</p>'
-            '<a href="https://github.com/ajgreyling/claude-sleep-skill" '
+            '<a href="https://github.com/ajgreyling/circadian" '
             'style="display:inline-block;padding:11px 22px;border-radius:10px;font-weight:600;'
             'background:var(--violet-deep);color:#fff;border:1px solid var(--violet)">'
             'Get Circadian on GitHub &rarr;</a>'
@@ -4432,7 +4432,7 @@ and travel as the life, not the reward at the end of it.</p>
 <li><a href="{tech_href}">Technology behind the library</a></li>
 <li><a href="{rel}marketplace.html">Marketplace thesis</a></li>
 <li><a href="{rel}app.html">Reader app plan</a></li>
-<li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">Circadian (/spark · /sleep · /dream · /wakeup) on GitHub</a></li>
+<li><a href="https://github.com/ajgreyling/circadian" target="_blank" rel="noopener">Circadian (/spark · /sleep · /dream · /wakeup) on GitHub</a></li>
 </ul>
 </section>
 </aside>

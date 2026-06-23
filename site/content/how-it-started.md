@@ -18,7 +18,7 @@ The vow is **kept** — and then some. What shipped was not a single spine but a
 
 | # | Goal | Vowed | What happened |
 |---|---|---|---|
-| **1** | **Evaluate the agent ecosystem** — Cursor vs Claude; rules, hooks, skills | Pick a stack that doesn't flatten the work | **Cursor → Claude Code**; rules became skills, hooks, and a pre-commit gate — and **[Circadian](https://github.com/ajgreyling/claude-sleep-skill)**, the open-source agent body clock (`/spark` · `/sleep` · `/dream` · `/wakeup`) that gave the co-worker a memory and a name |
+| **1** | **Evaluate the agent ecosystem** — Cursor vs Claude; rules, hooks, skills | Pick a stack that doesn't flatten the work | **Cursor → Claude Code**; rules became skills, hooks, and a pre-commit gate — and **[Circadian](https://github.com/ajgreyling/circadian)**, the open-source agent body clock (`/spark` · `/sleep` · `/dream` · `/wakeup`) that gave the co-worker a memory and a name |
 | **2** | **One non-slop novel** — real literary craft, my voice intact | 1 finished book | **28 titles live** on [arjunabadger.press](https://arjunabadger.press) with read-online · EPUB · PDF · parallel translation editions rolling out — over **a million words** on the curated shelf |
 | **3** | **Portfolio-grade proof** — discuss with an employer / CTO | A repo that demonstrates platform thinking | FSM continuity gate · NovelBench · cross-book Jakobus matrix · public [Technology](https://arjunabadger.press/safari/technology.html) page |
 | **4** | **Understand LLMs deeply** — limits, prompts not interchangeable | Show I know what I'm doing with models | Single-shot beats multi-pass (git-proven) · craft-nomenclature prompting · de-LLM loop · measurement harness |
@@ -88,7 +88,7 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 
 A trilogy and its siblings — **twenty-eight titles on the live shelf**, **over a million words** in the curated corpus. A continuity engine that hard-gates fiction like production software. A self-editing loop that treats machine-tells as measurable defects. A publishing house with a face. A live reading site with parallel translation editions rolling out. **Text free on the site** because the ISBN gate failed; **revenue from human-narrated audiobooks** and the local voice artists the big platforms exclude. A thesis for giving most of the money to the artist and the door away free to the unheard.
 
-And one thing I didn't set out to build: **[Circadian](https://github.com/ajgreyling/claude-sleep-skill)** — the open-source body clock that gives any AI co-worker a memory and a personality (`/spark` to be born and named, then `/sleep` · `/dream` · `/wakeup` as the daily rhythm). It came out of never hitting `/clear`. Released free, MIT, so anyone with a subscription and a repo can have what I have in Klaus.
+And one thing I didn't set out to build: **[Circadian](https://github.com/ajgreyling/circadian)** — the open-source body clock that gives any AI co-worker a memory and a personality (`/spark` to be born and named, then `/sleep` · `/dream` · `/wakeup` as the daily rhythm). It came out of never hitting `/clear`. Released free, MIT, so anyone with a subscription and a repo can have what I have in Klaus.
 
 The subscription was the chisel. **The discipline was mine.**
 

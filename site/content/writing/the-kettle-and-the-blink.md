@@ -121,6 +121,6 @@ The kettle's still on.
 
 ---
 
-*The tool is open source: [github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill). The engineering write-up — the diagram a CTO can read in two minutes — is in [The technology behind the library](../../docs/TECHNOLOGY.md), §7.*
+*The tool is open source: [github.com/ajgreyling/circadian](https://github.com/ajgreyling/circadian). The engineering write-up — the diagram a CTO can read in two minutes — is in [The technology behind the library](../../docs/TECHNOLOGY.md), §7.*
 
 *— written in the loop, and consolidated the moment before it went dark.*
