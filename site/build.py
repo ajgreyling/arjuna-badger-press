@@ -4221,6 +4221,8 @@ def render_safari_proof(*, rel: str = "../") -> str:
 
 <p>Theoretical physicist.</p>
 
+<p>And the thing I noticed first &#8212; before the physicist, before anything else &#8212; was an apparent lack of arseholery.</p>
+
 <p>And I want you to know what happened in my head when you said it, because it&#8217;s the entire reason I made the three pages that sit next to this one. I went and built the explanation of what you do &#8212; for the people who already speak your maths, and then plainer for the engineers, and then plain enough for anyone &#8212; not because <em>you</em> need it explained. Because <em>I</em> needed to be sure I&#8217;d understood the shape I&#8217;d been reading all afternoon. And I had. Here&#8217;s the shape:</p>
 
 <p><strong>A theoretical physicist is a man who walks into the most complicated room there is, sits with it longer than is good for him, and comes out holding the one small true thing that was underneath the whole mess &#8212; and won&#8217;t make a fuss about it.</strong> All those symbols people think make the world <em>complicated</em> &#8212; they&#8217;re the opposite. They&#8217;re how you make something enormous small enough to carry and true enough to hold, everywhere, forever. A finished equation isn&#8217;t the price of the work. It&#8217;s the <em>deliverable.</em> It&#8217;s the most expensive kind of quiet there is: <strong>everything you finally don&#8217;t have to say, because you got it small enough and true enough that it just holds.</strong></p>
