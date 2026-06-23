@@ -68,10 +68,10 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 | **Library-first homepage** | ✅ | Shelf front door · explore grid · press hub for platform detail |
 | **Cross-book continuity gate** | ✅ | Jakobus + the Beast matrix · 0 errors at last run |
 | **Auth0 / platform login** | ✅ | Live on arjunabadger.press — 5 social providers + email/passwordless |
-| **Audiobook pipeline (Die Vuur in die Donker)** | ✅ | Emma (ElevenLabs Afrikaans) · 19 sections · sha256-cached render · production-ready |
+| **Winter sonder Einde — audiobook (Die Vuur in die Donker)** | ✅ | Emma (ElevenLabs Afrikaans) · 19 sections · rendered and **published** 2026-06-23 |
 | **Audiobook cast (Resonance · Calendar · Engineer)** | 🟡 | Auditions in · cast pending · payday-gated |
 | **The Long Silence** | 🟡 | Scaffolded 2026-06-23 — full canon + prologue + ch-01 drafted · pipeline ready · nothing live yet |
-| **Winter sonder Einde (Die Vuur in die Donker)** | 🟡 | Book I: ~53k words, polished, all four gates passed · shipped as **SERIAL** (read-online, no downloads) · audiobook in production · Books II–V gated |
+| **Winter sonder Einde (Die Vuur in die Donker)** | ✅ | Book I: polished, all four gates passed · **fully published** 2026-06-23 (EPUB + PDF + audiobook) · Books II–V gated |
 | **Brave and Scared (Bloedrivier)** | 🟡 | Movement I drafted · shipped as **SERIAL** · Zulu POV = gated empty seat (not author's alone to write) |
 | **NULL HORIZON (McKinnon)** | 🔴 | Live to read — Movement I fact-checked — but **do not contact Gary** without fixes; Serpo-as-2001-discovery risk and living-portrait gates remain |
 | **The Unheard (Japan · Mongolia)** | 🟡 | Drafts exported and **now live on shelf** — sensitivity read still binding before calling done |
@@ -92,7 +92,7 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 
 ## What the $100 bought
 
-A trilogy and its siblings — **thirty-seven titles on the live shelf**, **over a million words** in the curated corpus. A continuity engine that hard-gates fiction like production software. A self-editing loop that treats machine-tells as measurable defects. A publishing house with a face. A live reading site with parallel translation editions rolling out. An audiobook pipeline with a full Afrikaans production live and three English cast auditions in. **Text free on the site** because the ISBN gate failed; **revenue from human-narrated audiobooks** and the local voice artists the big platforms exclude. A thesis for giving most of the money to the artist and the door away free to the unheard.
+A trilogy and its siblings — **thirty-seven titles on the live shelf**, **over a million words** in the curated corpus. A continuity engine that hard-gates fiction like production software. A self-editing loop that treats machine-tells as measurable defects. A publishing house with a face. A live reading site with parallel translation editions rolling out. An audiobook with a full Afrikaans production rendered and published, and three English cast auditions in. **Text free on the site** because the ISBN gate failed; **revenue from human-narrated audiobooks** and the local voice artists the big platforms exclude. A thesis for giving most of the money to the artist and the door away free to the unheard.
 
 The subscription was the chisel. **The discipline was mine.**
 
