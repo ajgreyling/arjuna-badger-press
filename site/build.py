@@ -316,7 +316,11 @@ SERIAL = set(
         # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker, Book I): ships as an
         #   IN-PROGRESS open draft (author decision 2026-06-22) — read-online preview only, NO
         #   downloads. Moved here out of PUBLISHED; the four sequels stay coming-soon placeholders.
-        "dust-throne,bloedrivier,the-amber-winter",
+        # the-antifragile-reader: OPEN DRAFT (2026-06-23) — guest-at-the-fire companion to Taleb's
+        #   Incerto. Proem + essays 01 & 05 are finished voice exemplars; essays 02–04, 06–11 are
+        #   being drafted. Read-online only, NO downloads, until the full eleven land + a ≥500KB cover
+        #   + author proofread, then promote to PUBLISHED. Same open-draft pattern as the-amber-winter.
+        "dust-throne,bloedrivier,the-amber-winter,the-antifragile-reader",
     ).split(",") if s.strip()
 )
 
@@ -605,6 +609,10 @@ CURATED = [
     ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad, plainly told", "Non-fiction",
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
+
+    ("the-antifragile-reader", "The Antifragile Reader", "Nassim Taleb's Incerto, plainly told · An open draft", "Non-fiction",
+     "history-before-time/companions/the-antifragile-reader", "build/export",
+     "Nassim Taleb's five-book Incerto — Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile, and Skin in the Game — carried in one warm read, for the reader who loved one volume and can't quite hold the rest. A reverent guest-at-the-fire companion in the house voice: his ideas attributed and his prose left to him, the author's own plain glosses always marked. Published here as an open, in-progress draft — the proem and two essays are the finished voice; the rest is being written. Independent and unaffiliated with the author."),
 
     ("modern-sherlock", "The Scarlet Thread", "The Reichenbach Files · Book One", "Faithful Modern",
      "modern-sherlock", "build/export",
@@ -4241,7 +4249,6 @@ def render_safari_proof(*, rel: str = "../") -> str:
         safari_nav(rel),
         _GRAFFITI_SVG,
         '<article class="reader letter" style="margin-top:0;border-radius:0 0 12px 12px">',
-        crest_img(rel, safari=True),
         """<p class="eyebrow" style="text-align:center">Personal</p>
 <h1 style="text-align:center">For G</h1>
 <p style="text-align:center;font-family:Impact,'Arial Black',sans-serif;font-size:clamp(13px,2vw,17px);letter-spacing:.12em;text-transform:uppercase;color:#B4FF00;margin:.4em 0 .6em;opacity:.85">Nice man. Not a cunt.</p>
