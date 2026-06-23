@@ -2164,7 +2164,7 @@ def crest_img(rel: str = "", *, safari: bool = False, hero: bool = False) -> str
             f'alt="Arjuna Badger Press">')
 
 
-def safari_nav(rel: str = "") -> str:
+def safari_nav(rel: str = "", *, audiobook: bool = True) -> str:
     """Safari-zone nav — same drawer contract as site nav, different link set and olive chrome."""
     hub = f"{rel}safari/index.html"
     links = safari_nav_drawer_links(rel)
@@ -2175,7 +2175,7 @@ def safari_nav(rel: str = "") -> str:
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
 <nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
-{trust_banner(rel)}{audiobook_notice()}<main id="main">"""
+{trust_banner(rel)}{audiobook_notice() if audiobook else ""}<main id="main">"""
 
 
 def redirect_page(target: str, canonical: str, title: str = "Redirecting…") -> str:
@@ -4179,7 +4179,7 @@ def render_safari_proof(*, rel: str = "../") -> str:
              rel=rel, safari=True, canonical=f"{DOMAIN}/safari/proof.html", safari_page="proof"),
         _PROOF_CSS,
         "<script>document.body.classList.add('gpage')</script>",
-        safari_nav(rel),
+        safari_nav(rel, audiobook=False),
         '<article class="reader letter">',
         """<p class="eyebrow" style="text-align:center">Personal</p>
 <h1 style="text-align:center">For G</h1>
