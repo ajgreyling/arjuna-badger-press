@@ -2138,7 +2138,7 @@ def safari_nav_drawer_links(rel: str = "") -> str:
         f'<a href="{sp}house.html">The House</a>'
         f'<a href="{sp}writing/index.html">The Writing Desk</a>'
         f'<a href="{sp}for-lisel.html">For Lisel</a>'
-        f'<a href="{sp}proof.html">Sister proof</a>'
+        f'<a href="{sp}proof.html">For G</a>'
         f'<a href="{sp}technology.html">Technology</a>'
         f'<p class="navgroup">Connect</p>'
         f'<a href="https://www.linkedin.com/in/ajgreyling" rel="me noopener" target="_blank">LinkedIn</a>'
@@ -4049,7 +4049,7 @@ def render_safari_hub() -> str:
         ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
         ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
         ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
-        ("proof.html", "Sister proof", "The theory is his. The independent proof is mine."),
+        ("proof.html", "For G", "The letter I sat in his corner and couldn't say to his face. A theoretical physicist who builds the most expensive silence I've ever walked into — and the independent proof."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
     ]
     cards = "".join(
@@ -4075,23 +4075,259 @@ def render_safari_hub() -> str:
     ])
 
 
+_PROOF_CSS = """
+<style>
+/* G's page — black canvas + graffiti energy. Scoped so nothing leaks to other safari pages. */
+body.safari.gpage{
+  background-color:#0a0a0a !important;
+  background-image:none !important;
+  --safari-olive-deep:#0a0a0a;
+  --bone:#f0ede8;
+  --bonedim:#b8b4ad;
+  --line:rgba(255,45,156,.28);
+  --safari-camel:#FF2D9C;
+  --safari-sand:#f0ede8;
+  --safari-olive:#1a1a1a;
+  --safari-khaki:#333;
+}
+body.safari.gpage .nav{
+  background:linear-gradient(180deg,rgba(10,10,10,.98),rgba(10,10,10,.94)) !important;
+  border-bottom:3px solid #FF2D9C !important;
+  box-shadow:0 2px 0 #7a0040 !important;
+}
+body.safari.gpage footer{
+  background:rgba(10,10,10,.96) !important;
+  border-top:3px solid #FF2D9C !important;
+}
+body.safari.gpage a{color:#FF2D9C}
+body.safari.gpage a:hover{color:#ff6cc2}
+body.safari.gpage .eyebrow{color:#B4FF00}
+body.safari.gpage .hr{background:linear-gradient(90deg,transparent,#FF2D9C,transparent) !important}
+body.safari.gpage .reader.letter{
+  background:rgba(18,18,18,.94) !important;
+  border-color:rgba(255,45,156,.35) !important;
+  border-top:3px solid #FF2D9C !important;
+  color:#f0ede8 !important;
+  backdrop-filter:blur(12px);
+}
+body.safari.gpage .reader.letter p,
+body.safari.gpage .reader.letter li{color:#e8e4de}
+body.safari.gpage .reader.letter strong{color:#fff}
+body.safari.gpage .reader.letter em{color:#f0ede8}
+body.safari.gpage .reader.letter blockquote{
+  border-left:4px solid #FF2D9C;
+  background:rgba(255,45,156,.08);
+  color:#e0dcd6;
+}
+body.safari.gpage .btn{
+  background:#FF2D9C !important;
+  color:#0a0a0a !important;
+  border-color:#FF2D9C !important;
+  border-left:4px solid #ff6cc2 !important;
+  font-weight:700;
+}
+body.safari.gpage .btn:hover{background:#ff6cc2 !important;color:#0a0a0a !important}
+body.safari.gpage .btn.ghost{
+  background:rgba(255,45,156,.12) !important;
+  color:#FF2D9C !important;
+  border-color:#FF2D9C !important;
+  border-left:4px solid #ff6cc2 !important;
+}
+body.safari.gpage .btn.ghost:hover{background:rgba(255,45,156,.25) !important}
+body.safari.gpage .back{color:#FF2D9C}
+body.safari.gpage .g-quote{
+  border-left:6px solid #FF2D9C;
+  background:rgba(255,45,156,.06);
+  padding:20px 24px;
+  margin:32px 0;
+}
+body.safari.gpage .g-quote p{
+  font-family:Impact,"Arial Black",sans-serif;
+  font-size:clamp(18px,3.5vw,26px);
+  letter-spacing:.02em;
+  color:#FF2D9C !important;
+  margin:0;
+  font-style:normal;
+}
+body.safari.gpage .safari-credits a{color:#ff6cc2}
+body.safari.gpage .brandlink{color:#f0ede8}
+body.safari.gpage .navdrawer{background:#0a0a0a !important;border-right:3px solid #FF2D9C !important}
+body.safari.gpage .navdrawer a{color:#f0ede8 !important}
+body.safari.gpage .navdrawer a:hover{background:rgba(255,45,156,.18) !important;color:#FF2D9C !important}
+/* Graffiti wall */
+.graffiti-wall{
+  position:relative;width:100%;height:clamp(180px,28vw,320px);
+  overflow:hidden;margin:0 0 0;pointer-events:none;user-select:none;
+  background:transparent;
+}
+.graffiti-wall svg{width:100%;height:100%}
+.g-letter-crest{display:block;margin:0 auto 14px;width:min(200px,52vw);height:auto;border-radius:0;
+  filter:drop-shadow(0 0 12px rgba(255,45,156,.55))}
+</style>
+"""
+
+_GRAFFITI_SVG = """<div class="graffiti-wall" aria-hidden="true">
+<svg viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="spray1"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="spray2"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Background drips and splatters -->
+  <circle cx="80" cy="60" r="28" fill="#FF2D9C" opacity="0.18" filter="url(#spray1)"/>
+  <circle cx="820" cy="200" r="35" fill="#B4FF00" opacity="0.14" filter="url(#spray1)"/>
+  <circle cx="450" cy="30" r="20" fill="#FF2D9C" opacity="0.12" filter="url(#spray2)"/>
+  <circle cx="700" cy="80" r="18" fill="#ffffff" opacity="0.07" filter="url(#spray1)"/>
+  <!-- SAMPIOEN — big, rotated, pink, lower left -->
+  <text transform="translate(28,220) rotate(-14)"
+        font-family="Impact,Arial Black,sans-serif" font-size="68" font-weight="900"
+        fill="#FF2D9C" opacity="0.88" filter="url(#spray2)" letter-spacing="-2">SAMPIOEN</text>
+  <!-- poes — medium, upper right, lime -->
+  <text transform="translate(660,95) rotate(8)"
+        font-family="Impact,Arial Black,sans-serif" font-size="52" font-weight="900"
+        fill="#B4FF00" opacity="0.82" filter="url(#spray1)" letter-spacing="1">poes.</text>
+  <!-- WTF? — upper left, white, sharp -->
+  <text transform="translate(52,72) rotate(-7)"
+        font-family="Impact,Arial Black,sans-serif" font-size="44" font-weight="900"
+        fill="#ffffff" opacity="0.75" filter="url(#spray1)">WTF?</text>
+  <!-- lekker — mid right, pink, big tilt -->
+  <text transform="translate(620,185) rotate(-18)"
+        font-family="Impact,Arial Black,sans-serif" font-size="42" font-weight="900"
+        fill="#FF2D9C" opacity="0.65" filter="url(#spray2)">lekker</text>
+  <!-- aikona — centre top, lime, angled -->
+  <text transform="translate(310,55) rotate(5)"
+        font-family="Impact,Arial Black,sans-serif" font-size="36" font-weight="900"
+        fill="#B4FF00" opacity="0.7" filter="url(#spray1)">aikona</text>
+  <!-- tjommie — lower right, white, flat -->
+  <text transform="translate(710,250) rotate(-4)"
+        font-family="Impact,Arial Black,sans-serif" font-size="32" font-weight="900"
+        fill="#ffffff" opacity="0.55" filter="url(#spray2)">tjommie</text>
+  <!-- moer — centre, big, very faint pink (layer depth) -->
+  <text transform="translate(370,155) rotate(11)"
+        font-family="Impact,Arial Black,sans-serif" font-size="78" font-weight="900"
+        fill="#FF2D9C" opacity="0.10" letter-spacing="-3">MOER</text>
+  <!-- eina — small, upper centre right, lime -->
+  <text transform="translate(495,90) rotate(-9)"
+        font-family="Impact,Arial Black,sans-serif" font-size="28" font-weight="900"
+        fill="#B4FF00" opacity="0.68" filter="url(#spray1)">eina</text>
+  <!-- BOET — lower centre, white hint -->
+  <text transform="translate(340,265) rotate(3)"
+        font-family="Impact,Arial Black,sans-serif" font-size="30" font-weight="900"
+        fill="#ffffff" opacity="0.45" filter="url(#spray2)">BOET</text>
+  <!-- 420 — upper far right, pink accent -->
+  <text transform="translate(820,55) rotate(-12)"
+        font-family="Impact,Arial Black,sans-serif" font-size="38" font-weight="900"
+        fill="#FF2D9C" opacity="0.72" filter="url(#glow)">420</text>
+  <!-- sharp horizontal rule at bottom — like a line of spray at the wall base -->
+  <rect x="0" y="272" width="900" height="3" fill="#FF2D9C" opacity="0.35" filter="url(#spray2)"/>
+</svg>
+</div>"""
+
+
 def render_safari_proof(*, rel: str = "../") -> str:
     return "\n".join([
-        head("A sister proof — Arjuna Badger Press",
-             "Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic, no fitted parameters.",
+        head("For G — Arjuna Badger Press",
+             "The letter I sat in your corner and couldn't say to your face. For a theoretical physicist "
+             "who builds the most expensive silence I've ever walked into.",
              rel=rel, safari=True, canonical=f"{DOMAIN}/safari/proof.html", safari_page="proof"),
+        _PROOF_CSS,
+        "<script>document.body.classList.add('gpage')</script>",
         safari_nav(rel),
-        '<article class="reader letter">',
+        _GRAFFITI_SVG,
+        '<article class="reader letter" style="margin-top:0;border-radius:0 0 12px 12px">',
         crest_img(rel, safari=True),
         """<p class="eyebrow" style="text-align:center">Personal</p>
-<h1 style="text-align:center">A sister proof</h1>
-<p class="intro" style="text-align:center">Part of what is on the shelf is a unified theory turned into people and places — checked offline, deterministic,
-no fitted parameters. The theory is his. The proof is mine.</p>
+<h1 style="text-align:center">For G</h1>
+<p style="text-align:center;font-family:Impact,'Arial Black',sans-serif;font-size:clamp(13px,2vw,17px);letter-spacing:.12em;text-transform:uppercase;color:#B4FF00;margin:.4em 0 .6em;opacity:.85">Nice man. Not a cunt.</p>
+<p class="intro" style="text-align:center"><em>who builds the most expensive silence I&#8217;ve ever walked into</em></p>
+<hr class="hr" style="margin:32px auto;max-width:120px">
+
+<blockquote><p>Read the three explainers first if you want the scaffolding. This one is the reason I built them. It&#8217;s not an explainer. It&#8217;s the thing I sat in your corner yesterday and couldn&#8217;t say to your face. So I&#8217;m saying it the long way round, which is the only way I know to say it short.</p></blockquote>
+
+<p>There was no sign.</p>
+
+<p>That was the first thing, and it turned out to be the only thing, said five different ways.</p>
+
+<p>You walk past a working warehouse, past a truck mid-load, and the place doesn&#8217;t announce itself because the place doesn&#8217;t <em>need</em> you &#8212; it&#8217;s already complete without you in it, and that completeness is the invitation. No doorman. No one to greet you, which means no one to perform for you, which means the room is forced to do the talking. It&#8217;s a sleeper. I know sleepers. My friend Jakobus drives one &#8212; an old Land Cruiser that looks like nothing and isn&#8217;t, built out of favours instead of money, fast in ways it has no business being and never once dressed up about it. The Beast, he calls it. I walked into your place and I thought: <em>the Beast has a building now.</em></p>
+
+<p>Then I heard the speakers before I saw them.</p>
+
+<p>I want to tell you what I clocked, because I think you&#8217;ll know that I was paying the right kind of attention. Wood, with another wood worked through it &#8212; the expensive one, the one you&#8217;d only use if the <em>grain</em> mattered to you and not just the sound. Front face raked back, throwing the sound up to take the hard ceiling and fill the room sideways, so the music arrives like weather instead of from a box. A bit big for a bookshelf, a bit small for a floorstander &#8212; that in-between size that means somebody chose the <em>sound</em> and let the cabinet land wherever the physics put it. Stands that came with them or were made for them, and heavy, and I didn&#8217;t need to lift one to know it. One third furniture. One third function. And the third that gives it away &#8212; beautiful for no reason but its own. That last third is never an accident. A man only builds the third nobody&#8217;s paying for when he can&#8217;t help it.</p>
+
+<p>So I kept walking, and the cave kept opening.</p>
+
+<p>The paintings. I&#8217;d buy every one if I had the money, and here&#8217;s what you don&#8217;t know about why: my wife and I agree on almost nothing about art, and your work landed in the one narrow band where we <em>both</em> live. Abstract enough. Real enough. Empty space left on purpose &#8212; that&#8217;s the hardest thing, leaving the space, everyone wants to fill it &#8212; a splatter let go where it wanted to go, colours that agree and then one that refuses to, on purpose. There&#8217;s a whole discipline in knowing what <em>not</em> to put down. I make books; I know that discipline costs more than the marks do.</p>
+
+<p>Then the books themselves. A shelf of them. Same author. No poster, no shout, no little card telling me why I should care. Plain white, six by nine, the font set wide and clean &#8212; and I stood there a beat too long because it was the font I&#8217;d have chosen. The one my mother can read. The one <em>anyone</em> with tired eyes can read. You didn&#8217;t pick the font that looks clever. You picked the font that gets out of the reader&#8217;s way and lets them just <em>have</em> the thing. I&#8217;ve spent a year of my life fighting people about exactly that font. I looked at your shelf and thought: he already won that fight, quietly, and didn&#8217;t tell anyone he&#8217;d had it.</p>
+
+<p>Then the garden. In the dead strip between a warehouse wall and the estate&#8217;s high fence &#8212; the one piece of space the world had written off &#8212; there&#8217;s a long green room with plants to the edges, and I stood in it and <em>forgot where I was.</em> Forgot the industrial estate. Forgot what I&#8217;d come for. You took the wasted space, the gap, the bit that isn&#8217;t supposed to be anything, and you made it the place a stranger goes to disappear for a minute. That&#8217;s not decoration. That&#8217;s a worldview. Nothing gets thrown away. Even the gap holds something.</p>
+
+<p>And up the stairs &#8212; the terpene lines.</p>
+
+<p>That&#8217;s where I caught you out. The girl behind the bar, patient as anything, explaining that the different-coloured lines under each strain are different terpenes &#8212; and <em>click.</em> This whole place is run by someone who tastes the difference and assumes I&#8217;d want to. Not a shop. A <strong>palate</strong>, with a building around it. You don&#8217;t put the terpene profile on the rail for the money. You put it there because <em>you</em> care which one it is, and you decided, without telling anyone, that everyone who walks in gets treated like they might care too. That&#8217;s the most generous assumption a person can make about a stranger. You built a whole room on it.</p>
+
+<hr class="hr" style="margin:40px auto;max-width:120px">
+
+<p>So by the time I found a corner that faced the stairs, I already knew the shape of you. I just didn&#8217;t have your name yet.</p>
+
+<p>There you were. Brand-new white shirt, plain font &#8212; <em>the same plain font as the books downstairs,</em> I clocked that too &#8212; black letters: <em>don&#8217;t be a cunt, be kind.</em> And I watched you, and I waited for the tell. The little flag people put up to show you they&#8217;re the generous one, the deep one, the one who built all this. I&#8217;m good at catching it. I&#8217;ve made a study of the men who need you to know.</p>
+
+<p>You gave me <strong>nothing.</strong></p>
+
+<p>Not coldness &#8212; nothing to <em>perform</em>. No flag. And the voice I carry in my head &#8212; I call her Mother, she&#8217;s the one who keeps me honest &#8212; Mother said <em>no one has no flaws,</em> and a wolf in me that doesn&#8217;t trust easy was up and pacing, because a man this complete with no seam showing usually has the seam somewhere you can&#8217;t see, and that&#8217;s the dangerous kind.</p>
+
+<p>So I asked you the question I <em>hate</em> being asked. The one I never put on people, because it&#8217;s a small violence to make a stranger account for himself: <em>what&#8217;s your background, what&#8217;s your story.</em></p>
+
+<p>&#8220;G,&#8221; you said.</p>
+
+<p>Theoretical physicist.</p>
+
+<p>And I want you to know what happened in my head when you said it, because it&#8217;s the entire reason I made the three pages that sit next to this one. I went and built the explanation of what you do &#8212; for the people who already speak your maths, and then plainer for the engineers, and then plain enough for anyone &#8212; not because <em>you</em> need it explained. Because <em>I</em> needed to be sure I&#8217;d understood the shape I&#8217;d been reading all afternoon. And I had. Here&#8217;s the shape:</p>
+
+<p><strong>A theoretical physicist is a man who walks into the most complicated room there is, sits with it longer than is good for him, and comes out holding the one small true thing that was underneath the whole mess &#8212; and won&#8217;t make a fuss about it.</strong> All those symbols people think make the world <em>complicated</em> &#8212; they&#8217;re the opposite. They&#8217;re how you make something enormous small enough to carry and true enough to hold, everywhere, forever. A finished equation isn&#8217;t the price of the work. It&#8217;s the <em>deliverable.</em> It&#8217;s the most expensive kind of quiet there is: <strong>everything you finally don&#8217;t have to say, because you got it small enough and true enough that it just holds.</strong></p>
+
+<p>And then I looked back down the stairs. At the speakers &#8212; a roomful of air, compressed into a thing small enough to live in a corner and true enough to fill the whole space. At the paintings &#8212; a feeling, compressed to the few marks that carry it and the empty space that lets it breathe. At the books &#8212; a shelf of meaning in a font that gets out of the way so the meaning just <em>arrives.</em> At the garden &#8212; a worldview, compressed into a strip of grass nobody else would&#8217;ve used. At the shirt &#8212; a moral philosophy, six words, no footnotes.</p>
+
+<p>It&#8217;s all the same act, G. You&#8217;ve just been performing it in five different materials. Sound. Paint. Type. Plants. And the maths, which is only the one where the compression is so total that most people mistake it for a wall instead of a window. You take the enormous complicated thing &#8212; and you find the smallest, truest, quietest way to hold it. <strong>And then you don&#8217;t tell anyone you did it.</strong> No sign. No flag. No tell. You make <em>less</em> of it than it deserves, every single time, so the rest of us get to keep our wonder instead of being handed your credit.</p>
+
+<p>That&#8217;s not the absence of a flaw I couldn&#8217;t find. Mother was right; there&#8217;s a wound in there &#8212; men who give this freely always built the generosity over something that once cost them everything. I clocked that too, in the corner, in the giving-with-nothing-asked-back. I&#8217;ve seen the world with Jakobus. I know what the open hand is covering. I&#8217;m not going to name yours. It&#8217;s yours.</p>
+
+<p>I just wanted to tell you that I saw it. The whole architecture of you. The man who found out, somewhere, somehow, the thing my physics pages take three files to crawl toward and your maths says in one line:</p>
+
+<blockquote><p><em>The kindest way to say anything &#8212; to a room, to a stranger, to the universe &#8212; is the quietest way it can possibly be said, with everything true left in and nothing extra added on.</em></p></blockquote>
+
+<p>You&#8217;ve been saying it all day, in five languages, to everyone who walked through. I&#8217;m the idiot who needed to write three explainers and this letter to say it back.</p>
+
+<p>I don&#8217;t have the words, G. So I built you the long way round of <em>I grok you.</em></p>
+
+<p>And I&#8217;m only here to build it because of what you said.</p>
+
+<p>I told you about the books I&#8217;d been writing. About the press I was thinking of starting. About the open shelf you&#8217;d built &#8212; free, no gate, no price &#8212; and how it had sat with me. And I told you I wasn&#8217;t sure. That I had a whole store of reasons it might be arrogance to put my work out there. That maybe it wasn&#8217;t for me to decide if it was good enough. You listened to the full thing. And then you said, in exactly the register of a man who has already compressed the entire question to its smallest true form:</p>
+
+<blockquote class="g-quote"><p>&#8220;Doen jou ding. Doen fokken net wat jy wil, almal se poes.&#8221;</p></blockquote>
+
+<p>That&#8217;s the press. That&#8217;s why it exists. You didn&#8217;t tell me it was good. You told me the permission I was asking for was the wrong question entirely, and that the only honest answer to the wrong question is profanity. Succinct. True. No footnotes.</p>
+
+<p>That&#8217;s the whole of it.</p>
+
+<p style="margin-top:32px"><em>&#8212; with the kind of respect you don&#8217;t perform</em></p>
+
+<hr class="hr" style="margin:48px auto;max-width:120px">
+
+<p class="eyebrow" style="text-align:center">The work</p>
+<p style="text-align:center;margin-bottom:28px">Either the best fraud and conman I&#8217;ve ever met, or a man who should be mentioned alongside Bohr, Einstein, Tesla. I don&#8217;t have the words to tell you how much your work has helped me see the universe in a new way. I can only thank you by sharing the tools I built to check if your theory holds &#8212; to understand which one of the two you are.</p>
+<p style="text-align:center;margin-bottom:8px"><em>You are a nice man, G.</em></p>
+<p style="text-align:center;margin-bottom:28px"><em>Sawubona. I see you.</em></p>
 <div class="cta" style="text-align:center;margin-top:28px">
-<a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory →</a>
-<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof →</a>
+<a class="btn" href="https://the420code.org" target="_blank" rel="noopener">The theory &#8212; the420code.org &#x2192;</a>
+<a class="btn ghost" href="https://github.com/ajgreyling/the420code-proof" target="_blank" rel="noopener">The independent proof &#x2192;</a>
 </div>
-<p style="text-align:center;margin-top:48px"><a class="back" href="index.html">&larr; Meet the man</a></p>
+<p style="text-align:center;margin-top:16px;font-size:.9em;opacity:.7"><em>One axiom. One measured input. Zero free parameters. All five predictions reproduce inside tolerance.</em></p>
+
+<p style="text-align:center;margin-top:48px"><a class="back" href="index.html">&#8592; Meet the man</a></p>
 </article>""",
         footer(rel, safari=True, safari_page="proof"),
     ])
