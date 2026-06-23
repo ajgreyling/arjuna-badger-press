@@ -3024,10 +3024,11 @@ and other rails where they reduce friction.</p>
 </div></section>""",
         """<hr class="hr"><section class="mission" id="tools"><div class="wrap">
 <div class="eyebrow">Built with the machine</div>
-<h2 style="font-size:28px;margin:.3em 0">/sleep — open-source agent memory</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <code>/sleep</code> consolidates a session the way a person sleeps —
-keep the lesson, lose the dream. MIT-licensed; works in any repo.</p>
-<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
+<h2 style="font-size:28px;margin:.3em 0">Circadian — give your AI a human memory</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <strong>Circadian</strong> is the open-source body clock that made it possible —
+skills that give an agent <em>day and night</em>: <code>/spark</code> to be born and named, then <code>/sleep</code> consolidates a session the way a person sleeps,
+<code>/dream</code> works the night, <code>/wakeup</code> rises oriented. Keep the lesson, lose the dream. A Claude subscription and a free repo is all it takes. MIT-licensed; works anywhere.</p>
+<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get Circadian on GitHub →</a>
 <a class="btn ghost" href="safari/writing/the-kettle-and-the-blink.html">Read the story</a></div>
 </div></section>""",
         render_pipeline_section(entries),
@@ -3664,15 +3665,17 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
             '<div style="font-family:\'Space Grotesk\',sans-serif;text-transform:uppercase;'
             'letter-spacing:.24em;font-size:12px;color:var(--violet)">Free &amp; open source</div>'
             '<h2 style="margin:.32em 0 .2em;color:var(--bone);font-size:24px">'
-            '<span style="color:var(--violet)">/sleep</span> — give your AI coding agent a memory</h2>'
-            '<p style="margin:0 0 16px;color:var(--bonedim);max-width:68ch">The skill that came out of building '
-            'this whole library with an AI co-worker: it consolidates a session the way a person sleeps — '
-            'keep the lesson, lose the dream. The humane counterpart to <code>/clear</code>. MIT-licensed, '
-            'works in any repo.</p>'
+            '<span style="color:var(--violet)">Circadian</span> — give your AI a human memory</h2>'
+            '<p style="margin:0 0 16px;color:var(--bonedim);max-width:68ch">The suite that came out of building '
+            'this whole library with an AI co-worker — a <em>body clock</em> for an agent: '
+            '<code>/spark</code> births and names it, <code>/sleep</code> consolidates a session the way a person '
+            'sleeps (keep the lesson, lose the dream — the humane counterpart to <code>/clear</code>), '
+            '<code>/dream</code> works the night unattended, and <code>/wakeup</code> rises carrying only what '
+            'mattered. A Claude subscription and a free repo is all you need. MIT-licensed, works anywhere.</p>'
             '<a href="https://github.com/ajgreyling/claude-sleep-skill" '
             'style="display:inline-block;padding:11px 22px;border-radius:10px;font-weight:600;'
             'background:var(--violet-deep);color:#fff;border:1px solid var(--violet)">'
-            'Get /sleep on GitHub &rarr;</a>'
+            'Get Circadian on GitHub &rarr;</a>'
             '</aside>'
         )
     canon = f"{DOMAIN}/safari/{slug}.html" if safari else f"{DOMAIN}/{slug}.html"
@@ -4429,7 +4432,7 @@ and travel as the life, not the reward at the end of it.</p>
 <li><a href="{tech_href}">Technology behind the library</a></li>
 <li><a href="{rel}marketplace.html">Marketplace thesis</a></li>
 <li><a href="{rel}app.html">Reader app plan</a></li>
-<li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">/sleep on GitHub</a></li>
+<li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">Circadian (/spark · /sleep · /dream · /wakeup) on GitHub</a></li>
 </ul>
 </section>
 </aside>
@@ -4572,10 +4575,13 @@ T-SQL, SQL Server, and Java.</p>
 <h2>Selected Projects</h2>
 <div class="cv-item">
 <div class="cv-meta">Open source</div>
-<h3>/sleep</h3>
-<p>An agent-memory skill for coding assistants: keep the lesson, lose the dream. The tool consolidates
-long working sessions into durable project memory instead of forcing a choice between context bloat
-and total reset.</p>
+<h3>Circadian (/spark · /sleep · /dream · /wakeup)</h3>
+<p>A portable agent-memory suite for coding assistants — a body clock in four skills. <code>/spark</code>
+births and names a persistent agent (mining the repo, memory, and transcripts); <code>/sleep</code>
+consolidates long sessions into durable project memory (keep the lesson, lose the dream) instead of
+forcing a choice between context bloat and total reset; <code>/dream</code> does autonomous overnight
+work; <code>/wakeup</code> restores voice and context at the start of the next session. A subscription
+and a free repo gives anyone a co-worker that remembers them.</p>
 </div>
 <div class="cv-item">
 <div class="cv-meta">Arjuna Badger Press</div>
