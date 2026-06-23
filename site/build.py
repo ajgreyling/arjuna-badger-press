@@ -4080,7 +4080,10 @@ _PROOF_CSS = """
 /* G's page — black canvas + graffiti energy. Scoped so nothing leaks to other safari pages. */
 body.safari.gpage{
   background-color:#0a0a0a !important;
-  background-image:none !important;
+  background-image:var(--safari-bg, none) !important;
+  background-size:cover !important;
+  background-position:center !important;
+  background-attachment:fixed !important;
   --safari-olive-deep:#0a0a0a;
   --bone:#f0ede8;
   --bonedim:#b8b4ad;
