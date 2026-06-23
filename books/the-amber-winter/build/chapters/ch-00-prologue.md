@@ -25,7 +25,7 @@ gode en die ou moeders en die dooies onder die grond behoort; en sy het die binn
 gesorteer, die hart en die lewer eenkant vir die fees, die derms vir die wors, die vet vir die
 lampe wat die saal deur die donker maande aan die brand sou hou; en sy het die karkas help ophang
 sodat dit kon afkoel voor die afslag, en haar asem het in wolke voor haar gehang, en oral om haar
-het die plaas die laaste groot werk van die jaar gedoen.
+het die plaasmense die laaste groot werk van die jaar gedoen.
 
 Dit was mooi. Dít is die ding wat niemand vir jou sê van die slag nie, dat dit mooi is: die
 opgaande rook, die mense wat saamwerk in die koue, die kinders wat met die opgeblaasde blase speel
@@ -120,13 +120,11 @@ reggetrek en ingegaan na haar saal, na haar mense, na haar werk, soos sy elke aa
 ingegaan het.
 
 Sy het nie geweet — hoe sou sy kon weet — dat twee van die gesigte wat dié nag om haar vure sou
-sit, voor die winter verby is, daardie hande sou vat asof hulle iets anders is as 'n werktuig.
-Een met die hele gewig van sy aandag, soos weer wat aankom. En een met 'n mond wat die ware woord
-ken vir die ding waarvoor Þórdís twintig jaar lank nie 'n woord toegelaat het nie.
+sit, voor die winter verby is, daardie hande sou vat asof hulle lewend is. Een met die hele
+gewig van sy aandag, soos weer wat aankom. En een met 'n mond wat die ware woord ken vir die ding
+waarvoor Þórdís twintig jaar lank nie 'n woord toegelaat het nie.
 
-Maar dít is die storie. Dié nag het sy net ingegaan en die eerste beker laat volmaak en die fees
-oopgemaak met die ou woorde, soos die vrou van die huis moet, en die mede het begin loop, en buite
-het die donker toegesak oor die Westfjord vir die lang reis deur die winter — die donker waaruit,
-as 'n mens die geluk en die durf het, 'n mens 'n ander mens kan terugvind.
-
-Ook jouself.
+Maar dié nag het sy net ingegaan en die eerste beker laat volmaak en die fees oopgemaak met die ou
+woorde, soos die vrou van die huis moet, en die mede het begin loop, en buite het die donker
+toegesak oor die Westfjord vir die lang reis deur die winter — die donker waaruit, as 'n mens die
+geluk en die durf het, 'n mens 'n ander mens kan terugvind. Ook jouself.

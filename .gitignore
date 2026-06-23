@@ -13,6 +13,7 @@ node_modules/
 *.mp3
 *.wav
 *.m4a
+*.m4b
 *.flac
 *.aac
 *.ogg
@@ -58,3 +59,24 @@ books/**/build/.buabantu/
 
 # Buabantu page-translation scratch (segment workdir; final poes.<lang>.md is the kept output)
 site/content/.buabantu-page/
+
+# ── Pre-polish chapter backups (git history already preserves the prior prose) ─
+**/build/chapters/.pre-polish/
+
+# ── Baked workflow scratch (regenerable; the whole book is inlined → huge) ─
+.amber-*-baked.js
+.amber-*-args.json
+.amber-nb-args.json
+
+# ── Audiobook render working tree (regenerable; the .py + frontmatter .md are the source) ─
+# Keep: audio/*.py and audio/*.md. Drop: the chunk cache, ffmpeg work dirs, manifest, exports.
+books/**/audio/**/chunks/
+books/**/audio/**/work/
+books/**/audio/**/_work_m4b/
+books/**/audio/**/_acx/
+books/**/audio/**/_stale_prepolish/
+books/**/audio/**/_archive/
+books/**/audio/**/manifest.json
+books/**/audio/**/*-concat.txt
+books/**/audio/**/concat-list.txt
+books/**/audio/**/scene.txt
