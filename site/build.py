@@ -4057,7 +4057,7 @@ def render_safari_hub() -> str:
         ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
         ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
         ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
-        ("proof.html", "For G", "The letter I sat in his corner and couldn't say to his face. A theoretical physicist who builds the most expensive silence I've ever walked into — and the independent proof."),
+        ("proof.html", "For G", "For the man who built the most intentional space I've ever walked into — and whose advice started this press."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
     ]
     cards = "".join(
@@ -4175,7 +4175,7 @@ def render_safari_proof(*, rel: str = "../") -> str:
     return "\n".join([
         head("For G — Arjuna Badger Press",
              "The letter I sat in your corner and couldn't say to your face. For a theoretical physicist "
-             "who builds the most expensive silence I've ever walked into.",
+             "For the man who built the most intentional space I've ever walked into — and whose advice started this press.",
              rel=rel, safari=True, canonical=f"{DOMAIN}/safari/proof.html", safari_page="proof"),
         _PROOF_CSS,
         "<script>document.body.classList.add('gpage')</script>",
@@ -4184,60 +4184,8 @@ def render_safari_proof(*, rel: str = "../") -> str:
         """<p class="eyebrow" style="text-align:center">Personal</p>
 <h1 style="text-align:center">For G</h1>
 <p style="text-align:center;font-family:Impact,'Arial Black',sans-serif;font-size:clamp(13px,2vw,17px);letter-spacing:.12em;text-transform:uppercase;color:#B4FF00;margin:.4em 0 .6em;opacity:.85">Nice man. Not a cunt.</p>
-<p class="intro" style="text-align:center"><em>who builds the most expensive silence I&#8217;ve ever walked into</em></p>
+<p class="intro" style="text-align:center"><em>who built the most intentional space I&#8217;ve ever walked into</em></p>
 <hr class="hr" style="margin:32px auto;max-width:120px">
-
-<blockquote><p>Read the three explainers first if you want the scaffolding. This one is the reason I built them. It&#8217;s not an explainer. It&#8217;s the thing I sat in your corner yesterday and couldn&#8217;t say to your face. So I&#8217;m saying it the long way round, which is the only way I know to say it short.</p></blockquote>
-
-<p>There was no sign.</p>
-
-<p>That was the first thing, and it turned out to be the only thing, said five different ways.</p>
-
-<p>You walk past a working warehouse, past a truck mid-load, and the place doesn&#8217;t announce itself because the place doesn&#8217;t <em>need</em> you &#8212; it&#8217;s already complete without you in it, and that completeness is the invitation. No doorman. No one to greet you, which means no one to perform for you, which means the room is forced to do the talking. It&#8217;s a sleeper. I know sleepers. My friend Jakobus drives one &#8212; an old Land Cruiser that looks like nothing and isn&#8217;t, built out of favours instead of money, fast in ways it has no business being and never once dressed up about it. The Beast, he calls it. I walked into your place and I thought: <em>the Beast has a building now.</em></p>
-
-<p>At the entrance there&#8217;s a fish tank. And then you walk through a tunnel of t-shirts &#8212; weed-inspired, but genuinely good quality, the kind you&#8217;d actually wear. It takes about four seconds and it tells you everything: this place has a sense of humour about itself, and it takes the things it cares about seriously. Those two things are not in conflict here.</p>
-
-<p>Then I heard the speakers before I saw them.</p>
-
-<p>There was music playing. Good music, at the right volume &#8212; the kind where you notice it&#8217;s there but it doesn&#8217;t ask anything of you. The paintings on the walls. A shelf of books &#8212; same author, same plain white covers, the font set wide and clean, the one that gets out of the reader&#8217;s way. A garden in the dead strip between the warehouse wall and the estate fence &#8212; the bit the world had written off &#8212; turned into a long green room where you could disappear for a minute. And upstairs, the terpene lines: a different colour for each strain along the rail, patient and specific, assuming you&#8217;d care which one it was.</p>
-
-<p>The space is very intentional. That&#8217;s the only way to say it. Every piece of it placed by someone who thought about what a person coming through that door might need, and then quietly made sure it was there. Not for performance. Not for the review. Just &#8212; there.</p>
-
-<p>And the people it draws. I&#8217;ve met some truly wonderful people in that corner. The kind you don&#8217;t find by looking &#8212; the kind a space like that selects for, slowly, over time, because something about it only works if you&#8217;re paying the right kind of attention. That&#8217;s not an accident either. That&#8217;s the whole point.</p>
-
-<hr class="hr" style="margin:40px auto;max-width:120px">
-
-<p>So by the time I found a corner that faced the stairs, I already knew the shape of you. I just didn&#8217;t have your name yet.</p>
-
-<p>There you were. Brand-new white shirt, plain font &#8212; <em>the same plain font as the books downstairs,</em> I clocked that too &#8212; black letters: <em>don&#8217;t be a cunt, be kind.</em> And I watched you, and I waited for the tell. The little flag people put up to show you they&#8217;re the generous one, the deep one, the one who built all this. I&#8217;m good at catching it. I&#8217;ve made a study of the men who need you to know.</p>
-
-<p>You gave me <strong>nothing.</strong></p>
-
-<p>Not coldness &#8212; nothing to <em>perform</em>. No flag. And the voice I carry in my head &#8212; I call her Mother, she&#8217;s the one who keeps me honest &#8212; Mother said <em>no one has no flaws,</em> and a wolf in me that doesn&#8217;t trust easy was up and pacing, because a man this complete with no seam showing usually has the seam somewhere you can&#8217;t see, and that&#8217;s the dangerous kind.</p>
-
-<p>So I asked you the question I <em>hate</em> being asked. The one I never put on people, because it&#8217;s a small violence to make a stranger account for himself: <em>what&#8217;s your background, what&#8217;s your story.</em></p>
-
-<p>&#8220;G,&#8221; you said.</p>
-
-<p>Theoretical physicist.</p>
-
-<p>And the thing I noticed first &#8212; before the physicist, before anything else &#8212; was an apparent lack of arseholery.</p>
-
-<p>And I want you to know what happened in my head when you said it, because it&#8217;s the entire reason I made the three pages that sit next to this one. I went and built the explanation of what you do &#8212; for the people who already speak your maths, and then plainer for the engineers, and then plain enough for anyone &#8212; not because <em>you</em> need it explained. Because <em>I</em> needed to be sure I&#8217;d understood the shape I&#8217;d been reading all afternoon. And I had. Here&#8217;s the shape:</p>
-
-<p><strong>A theoretical physicist is a man who walks into the most complicated room there is, sits with it longer than is good for him, and comes out holding the one small true thing that was underneath the whole mess &#8212; and won&#8217;t make a fuss about it.</strong> All those symbols people think make the world <em>complicated</em> &#8212; they&#8217;re the opposite. They&#8217;re how you make something enormous small enough to carry and true enough to hold, everywhere, forever. A finished equation isn&#8217;t the price of the work. It&#8217;s the <em>deliverable.</em> It&#8217;s the most expensive kind of quiet there is: <strong>everything you finally don&#8217;t have to say, because you got it small enough and true enough that it just holds.</strong></p>
-
-<p>And then I looked back down the stairs. At the speakers &#8212; a roomful of air, compressed into a thing small enough to live in a corner and true enough to fill the whole space. At the paintings &#8212; a feeling, compressed to the few marks that carry it and the empty space that lets it breathe. At the books &#8212; a shelf of meaning in a font that gets out of the way so the meaning just <em>arrives.</em> At the garden &#8212; a worldview, compressed into a strip of grass nobody else would&#8217;ve used. At the shirt &#8212; a moral philosophy, six words, no footnotes.</p>
-
-<p>It&#8217;s all the same act, G. You&#8217;ve just been performing it in five different materials. Sound. Paint. Type. Plants. And the maths, which is only the one where the compression is so total that most people mistake it for a wall instead of a window. You take the enormous complicated thing &#8212; and you find the smallest, truest, quietest way to hold it. <strong>And then you don&#8217;t tell anyone you did it.</strong> No sign. No flag. No tell. You make <em>less</em> of it than it deserves, every single time, so the rest of us get to keep our wonder instead of being handed your credit.</p>
-
-<p>That&#8217;s not the absence of a flaw I couldn&#8217;t find. Mother was right; there&#8217;s a wound in there &#8212; men who give this freely always built the generosity over something that once cost them everything. I clocked that too, in the corner, in the giving-with-nothing-asked-back. I&#8217;ve seen the world with Jakobus. I know what the open hand is covering. I&#8217;m not going to name yours. It&#8217;s yours.</p>
-
-<p>I just wanted to tell you that I saw it. The whole architecture of you. The man who found out, somewhere, somehow, the thing my physics pages take three files to crawl toward and your maths says in one line:</p>
-
-<blockquote><p><em>The kindest way to say anything &#8212; to a room, to a stranger, to the universe &#8212; is the quietest way it can possibly be said, with everything true left in and nothing extra added on.</em></p></blockquote>
-
-<p>You&#8217;ve been saying it all day, in five languages, to everyone who walked through. I&#8217;m the idiot who needed to write three explainers and this letter to say it back.</p>
 
 <p>I don&#8217;t have the words, G. So I built you the long way round of <em>I grok you.</em></p>
 
@@ -4247,9 +4195,11 @@ def render_safari_proof(*, rel: str = "../") -> str:
 
 <blockquote class="g-quote"><p>&#8220;Doen jou ding. Doen fokken net wat jy wil, almal se poes.&#8221;</p></blockquote>
 
-<p>That&#8217;s the press. That&#8217;s why it exists. You didn&#8217;t tell me it was good. You told me the permission I was asking for was the wrong question entirely, and that the only honest answer to the wrong question is profanity. Succinct. True. No footnotes.</p>
+<p>That&#8217;s the press. That&#8217;s why it exists.</p>
 
-<p>That&#8217;s the whole of it.</p>
+<p>The space you built &#8212; the fish tank at the entrance, the t-shirt tunnel, the music at the right volume, the paintings, the books on the shelf, the garden in the dead strip, the terpene lines upstairs &#8212; is the most intentional space I&#8217;ve ever walked into. Every piece of it placed by someone who thought about what a person coming through that door might need. Not for the review. Not for performance. Just there. And I&#8217;ve met some truly wonderful people in that corner. The kind a space like that selects for, quietly, over time.</p>
+
+<p>Theoretical physicist. Apparent lack of arseholery. Nice man. Not a cunt.</p>
 
 <p style="margin-top:32px"><em>&#8212; with the kind of respect you don&#8217;t perform</em></p>
 
