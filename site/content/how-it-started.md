@@ -10,7 +10,7 @@
 
 That was the whole vow: stop intending, do one hard thing properly, and prove the machine could be used without losing the soul of the thing.
 
-The vow is **kept** — and then some. What shipped was not a single spine but a **press**: a name, a library, a continuity engine, a craft body of knowledge, and **Jakobus Swart** — a man who turned out to be the answer to a question nobody had asked out loud.
+The vow is **kept** — and then some. What shipped was not a single spine but a **press**: a name, a library, a [continuity engine](https://arjunabadger.press/safari/tech-storygraph.html), a craft body of knowledge, and **Jakobus Swart** — a man who turned out to be the answer to a question nobody had asked out loud.
 
 ---
 
@@ -20,8 +20,8 @@ The vow is **kept** — and then some. What shipped was not a single spine but a
 |---|---|---|---|
 | **1** | **Evaluate the agent ecosystem** — Cursor vs Claude; rules, hooks, skills | Pick a stack that doesn't flatten the work | **Cursor → Claude Code**; rules became skills, hooks, and a pre-commit gate — and **[Circadian](https://github.com/ajgreyling/circadian)**, the open-source agent body clock (`/spark` · `/sleep` · `/dream` · `/wakeup`) that gave the co-worker a memory and a name |
 | **2** | **One non-slop novel** — real literary craft, my voice intact | 1 finished book | **28 titles live** on [arjunabadger.press](https://arjunabadger.press) with read-online · EPUB · PDF · parallel translation editions rolling out — over **a million words** on the curated shelf |
-| **3** | **Portfolio-grade proof** — discuss with an employer / CTO | A repo that demonstrates platform thinking | FSM continuity gate · NovelBench · cross-book Jakobus matrix · public [Technology](https://arjunabadger.press/safari/technology.html) page |
-| **4** | **Understand LLMs deeply** — limits, prompts not interchangeable | Show I know what I'm doing with models | Single-shot beats multi-pass (git-proven) · craft-nomenclature prompting · de-LLM loop · measurement harness |
+| **3** | **Portfolio-grade proof** — discuss with an employer / CTO | A repo that demonstrates platform thinking | [FSM continuity gate](https://arjunabadger.press/safari/tech-storygraph.html) · [NovelBench](https://arjunabadger.press/safari/tech-novelbench.html) · cross-book Jakobus matrix · public [Technology](https://arjunabadger.press/safari/technology.html) page |
+| **4** | **Understand LLMs deeply** — limits, prompts not interchangeable | Show I know what I'm doing with models | [Single-shot beats multi-pass](https://arjunabadger.press/safari/tech-editorial-pipeline.html) (git-proven) · craft-nomenclature prompting · [de-LLM loop](https://arjunabadger.press/safari/tech-de-llm-loop.html) · measurement harness |
 
 ---
 
@@ -67,12 +67,12 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 | **Personal annex** | ✅ | Ringfenced CV, letters, arms, essays |
 | **Library-first homepage** | ✅ | Shelf front door · explore grid · press hub for platform detail |
 | **Cross-book continuity gate** | ✅ | Jakobus + the Beast matrix · 0 errors at last run |
-| **NULL HORIZON (McKinnon)** | 🔴 | **Live to read** — Movement I fact-checked 2026-06-20 — but subject sensitivity read still says **do not contact Gary without fixes**; Serpo-as-2001-discovery risk and living-portrait gates remain |
+| **NULL HORIZON (McKinnon)** | 🔴 | **Live to read** — Movement I [fact-checked](https://arjunabadger.press/safari/tech-verification-gate.html) 2026-06-20 — but subject sensitivity read still says **do not contact Gary without fixes**; Serpo-as-2001-discovery risk and living-portrait gates remain |
 | **The Unheard (Japan · Mongolia)** | 🔴 | Drafts exported · **shelf hidden** until in-culture sensitivity reads clear |
 | **Henry Sugar** | 🔴 | Manuscript in workshop · **no rich cover** · withheld from public shelf until art ships |
-| **Translation editions** | 🟡 | *Resonance* pilot live (af · zu · es · fr); catalog rollout per edition map |
+| **[Translation editions](https://arjunabadger.press/safari/tech-peoples-language.html)** | 🟡 | *Resonance* pilot live (af · zu · es · fr); catalog rollout per edition map |
 | **Contributed to Wikipedia** | 🟡 | The press's unflinching glossary entry on *poes* — the affectionate register no encyclopedia documents — offered as a citable reference; submitted, awaiting the editors |
-| **"Done-done" on prose** | 🟡 | de-LLM loop to green on at least the trilogy before calling any volume finished |
+| **"Done-done" on prose** | 🟡 | [de-LLM loop](https://arjunabadger.press/safari/tech-de-llm-loop.html) to green on at least the trilogy before calling any volume finished |
 | **The Felt and the Sky (Mongolia)** | 🟡 | Draft-complete · exported · sensitivity read binding before pub-done |
 | **Wrath of Achilles (companion)** | 🟡 | On shelf · classicist spot-read still open |
 | **Göbekli / *The Belly Hill*** | 🟡 | Drafted (17 ch) · merge + backmatter pending |
@@ -86,9 +86,9 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 
 ## What the $100 bought
 
-A trilogy and its siblings — **twenty-eight titles on the live shelf**, **over a million words** in the curated corpus. A continuity engine that hard-gates fiction like production software. A self-editing loop that treats machine-tells as measurable defects. A publishing house with a face. A live reading site with parallel translation editions rolling out. **Text free on the site** because the ISBN gate failed; **revenue from human-narrated audiobooks** and the local voice artists the big platforms exclude. A thesis for giving most of the money to the artist and the door away free to the unheard.
+A trilogy and its siblings — **twenty-eight titles on the live shelf**, **over a million words** in the curated corpus. A [continuity engine](https://arjunabadger.press/safari/tech-storygraph.html) that hard-gates fiction like production software. A [self-editing loop](https://arjunabadger.press/safari/tech-de-llm-loop.html) that treats machine-tells as measurable defects. A publishing house with a face. A live reading site with parallel translation editions rolling out. **Text free on the site** because the ISBN gate failed; **revenue from human-narrated audiobooks** and the local voice artists the big platforms exclude. A thesis for giving most of the money to the artist and the door away free to the unheard.
 
-And one thing I didn't set out to build: **[Circadian](https://github.com/ajgreyling/circadian)** — the open-source body clock that gives any AI co-worker a memory and a personality (`/spark` to be born and named, then `/sleep` · `/dream` · `/wakeup` as the daily rhythm). It came out of never hitting `/clear`. Released free, MIT, so anyone with a subscription and a repo can have what I have in Klaus.
+And one thing I didn't set out to build: **[Circadian](https://arjunabadger.press/safari/tech-circadian.html)** — the open-source body clock that gives any AI co-worker a memory and a personality (`/spark` to be born and named, then `/sleep` · `/dream` · `/wakeup` as the daily rhythm). It came out of never hitting `/clear`. Released free, MIT, so anyone with a subscription and a repo can have what I have in Klaus — **[free on GitHub →](https://github.com/ajgreyling/circadian)**.
 
 The subscription was the chisel. **The discipline was mine.**
 

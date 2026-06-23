@@ -3589,6 +3589,7 @@ def docs_rewrite_links(md: str, *, from_safari: bool = False) -> str:
         "TECH_EDITORIAL_PIPELINE.md": "tech-editorial-pipeline.html" if from_safari else "safari/tech-editorial-pipeline.html",
         "TECH_GUARDRAILS.md": "tech-guardrails.html" if from_safari else "safari/tech-guardrails.html",
         "TECH_PEOPLES_LANGUAGE.md": "tech-peoples-language.html" if from_safari else "safari/tech-peoples-language.html",
+        "TECH_CIRCADIAN.md": "tech-circadian.html" if from_safari else "safari/tech-circadian.html",
         "craft/README.md": "craft/index.html",
         "craft/CRAFT_GLOSSARY.md": "craft/glossary.html",
         "craft/LLM_TELLS.md": "craft/llm-tells.html",
@@ -3639,6 +3640,8 @@ DOC_PAGES = [
      "Two layers, cheapest first, fail-closed: deterministic patterns then a small swappable judge model. Humane by policy. The same engine guards the press pipeline and the Buabantu API."),
     ("TECH_PEOPLES_LANGUAGE.md", "tech-peoples-language", "People's Language — corpus-first translation",
      "Human corrections (weight 100) outrank any model; a 13,703-entry SA urban corpus; a register dial from formal to street. The foundation Buabantu is built on."),
+    ("TECH_CIRCADIAN.md", "tech-circadian", "Circadian — the agent's body clock",
+     "The open-source memory cycle that gives an AI co-worker a name, a personality, and continuity across sessions: /spark to be born, then /sleep · /dream · /wakeup. Keep the lesson, lose the dream. A subscription and a free repo is all it needs."),
 ]
 
 

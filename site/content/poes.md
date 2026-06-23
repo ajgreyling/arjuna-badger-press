@@ -1,5 +1,11 @@
 # *Poes* — a glossary entry, unflinching
 
+> **Why would a serious publishing house keep a whole page about a "vulgar" word?** Because a filter
+> that bans the *letters* fails the *people.* Meaning lives in **who says it, to whom, and why** —
+> never in the spelling. Ban the word and you fail the language; pattern-match it and you fail the
+> speaker. The only honest filter reads *intent* — and we built one: **[meet Buabantu, the
+> register-aware engine that grew out of this very word →](tech-buabantu.html).**
+
 > A note before we begin: this entry discusses a vulgar Afrikaans word frankly, by name, because
 > you cannot tell the truth about it with the lights off. If that is not for you, the door is there
 > and no offence is taken. For everyone still here — *kom ons maak die ding oop.*
@@ -195,7 +201,10 @@ and somehow kept its soul.
 *Tjommie* is an old, warm Afrikaans word for **a friend, a little mate** — *maatjie.* (The cooler,
 younger spelling, *tjomma*, is still pure affection: "my tjomma.") But *tjommie*, on its own, has been
 quietly repurposed in plat Afrikaans into something startlingly specific: it now means the little
-**strip of skin between a woman's *poes* and her anus** — the perineum.
+**strip of skin between the genitals and the anus** — the perineum. *(And note what this very page
+just refused to do: it would not point the word at a woman's body to name that anatomy — because, per
+the rule above, that is the one register a gentleman never enters. The taboo is not the word; it is
+aiming it at her.)*
 
 And here is the part that makes it perfect: the name is the reason. **Dit is jou tjommie** — *it is
 your little friend* — **want dit hou jou voël uit die kak uit:** because it is the bit that keeps your
@@ -272,3 +281,12 @@ stays true.*
 
 *(Outbound links open in a new tab and point off this site; we vouch for the relevance, not the
 contents — the wider web is the wider web.)*
+
+---
+
+> **Still wondering why a sane, thinking person builds a whole page around one coarse word?** Because
+> the truth of it lives in the *intent,* not the letters — and a machine that bans the spelling fails
+> every person who ever meant it as a blessing. This page is the worked example; **[Buabantu is the
+> engine →](tech-buabantu.html)** — a register-aware judge that reads *who is speaking, from what
+> standing, to whom,* so the warmth makes it across the gap instead of the wound. Bring it your own
+> words. *Jou lucky poes!*
