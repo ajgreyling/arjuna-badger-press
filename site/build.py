@@ -6276,7 +6276,7 @@ def main() -> None:
     (OUT / "assets" / "safari.css").write_text(SAFARI_CSS, encoding="utf-8")
     safari_assets = OUT / "assets" / "safari"
     safari_assets.mkdir(parents=True, exist_ok=True)
-    for name in ("sossusvlei-dunes.jpg", "okavango-delta.jpg", "ATTRIBUTION.md"):
+    for name in ("sossusvlei-dunes.jpg", "okavango-delta.jpg", "g-wall.jpg", "ATTRIBUTION.md"):
         src = BRAND / "safari" / name
         if src.is_file():
             shutil.copy2(src, safari_assets / name)
