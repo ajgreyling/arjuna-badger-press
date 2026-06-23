@@ -562,13 +562,29 @@ designed — the VAS surfaced the one edition worth a look, a human resolved it,
 
 ---
 
-## 11. `/sleep` — memory consolidation as a first-class step
+## 11. Circadian — giving the agent a body clock (`/spark` · `/sleep` · `/dream` · `/wakeup`)
 
 The table above lists *state & memory at scale* as a capability — a graph DB and rolling compression
 holding a multi-book world in continuity. That covers the **engine's** memory. It does not cover the
 **agent's** memory: the question of what an AI co-worker should carry from one working session into
-the next. That turned out to have a missing primitive, and closing it produced a small, portable tool
-that ships on its own.
+the next. That turned out to have a missing primitive, and closing it produced a small, portable
+suite — **Circadian** — that ships on its own.
+
+**The body clock, in four commands.** An always-on context window has no day and no night. Circadian
+gives it both:
+
+- **`/spark`** — *genesis, run once per repo.* Mines the repo, scans memory and past transcripts (or,
+  if there's nothing yet, asks a few questions), then leaves the project with the tooling, a memory
+  store, and an agent that has a **name and a personality**. The birth before the first sleep.
+- **`/sleep`** — *dusk.* Consolidate the session into long-term memory (detailed below): keep the
+  lesson, lose the dream. The humane counterpart to `/clear`.
+- **`/dream`** — *the night.* Autonomous, unattended work: tidy the house, build the
+  scaffolded-but-unbuilt, and chase what-ifs — leaving a journal of what it did and what it got stuck
+  on (with options and blast radius).
+- **`/wakeup`** — *dawn.* Boot up carrying only what mattered: recover voice and identity, read back
+  what `/sleep` kept and what `/dream` did, and resume without a cold start.
+
+The rest of this section details `/sleep`, the keystone of the cycle.
 
 **The problem.** A coding agent has two memories and, by default, no bridge between them:
 
@@ -607,11 +623,13 @@ discipline as the rest of this system, pointed at the agent's memory instead of 
 | **Envelope before write** | the human approves what their future self inherits; nothing outward-facing or durable is persisted blind. |
 | **Reflex via hooks, not magic** | a `PreCompact` / `SessionEnd` hook *reminds*; it never silently writes — the human keeps the brake. |
 
-**It is open source.** The skill, the reminder hook, and the install steps are public, MIT-licensed:
-**[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. The
-longer-form story of where it came from — and the conversation about what it means for a machine to
-"remember" at all — is in [The kettle and the blink](../site/content/writing/the-kettle-and-the-blink.md)
-on the press site.
+**It is open source.** The full Circadian suite — all four skills, the reminder hooks, and a
+one-command installer — is public and MIT-licensed:
+**[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. It
+needs nothing but a Claude subscription and a free repo, which is the point: anyone, not just
+engineers, can have a co-worker that remembers them. The longer-form story of where it came from — and
+the conversation about what it means for a machine to "remember" at all — is in
+[The kettle and the blink](../site/content/writing/the-kettle-and-the-blink.md) on the press site.
 
 > The discipline is the same one this whole document argues for: **the human authors; the machine
 > measures, filters, and asks before it commits.** `/sleep` just applies it one layer up — to memory
