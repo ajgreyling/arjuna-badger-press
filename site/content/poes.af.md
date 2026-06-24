@@ -28,7 +28,7 @@ Daai letterlike gebruik — die woord direk op ’n vrou se lyf gemik — is die
 
 ## Die uitsondering wat wys dit gaan oor *staan*, nie die woord nie
 
-En toe kom daar ’n vrou, in haar eie fight, wat die hele netjiese reël oopkloof — en wys waaroor dit regtig gaan. Gehoor, regtig, van ’n Benoni-vrou gebou soos ’n rugby-prop, toe sy hoor nog ’n vrou vertel leuens oor haar man:
+En toe kom daar ’n vrou, in haar eie fight, wat die hele netjiese reël oopkloof — en wys waaroor dit regtig gaan. Gehoor, regtig, van ‘n Benoni-vrou gebou soos ‘n rugbystut, toe sy hoor nog ’n vrou vertel leuens oor haar man:
 
 > ***"Ek gaan daai girl se poes 'n plus skop."***
 > *(Ek gaan daai girl se poes in die vorm van ’n plus skop.)*
