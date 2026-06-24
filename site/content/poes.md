@@ -13,6 +13,8 @@ tenderness wearing a hard coat.
 
 The word is *poes.*
 
+*Why is this page on a literary press, next to a CV? Because this word is the hardest problem in African-language AI — a word that means its own opposite depending entirely on register, relationship, and intent. [Buabantu](../buabantu) is the engine built to read that gap. This entry is its worked example and its proof of concept.*
+
 ## What the dictionary says, and why the dictionary is not enough
 
 Literally it is the crudest term for the female genitalia — the kind of word a dictionary brackets
