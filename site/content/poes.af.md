@@ -83,7 +83,7 @@ Afrikaans is vol warm leenwoorde uit die ander tale van hierdie land — *fundi*
 
 ’n Wit Afrikaanse vriend van my het eenkeer vir ’n grootmens Xhosa-man *mamparra* genoem — op **ons** manier, bedoel dit warm, soos hy dit vir ’n tjommie sou sê. Maar dit is ontvang op **sy** manier, in ’n register waar dit glad nie ’n grap is as ’n vreemdeling jou so noem nie, maar ’n hou vir die waardigheid van ’n volwasse man. Die situasie het vinnig opgevlam, soos dit maar doen — tot my vriend die lig sien, besef wat gebeur het, en dit ontlont op die enigste eerlike manier: *"Ek is die mamparra,"* het hy gesê. Hy het die woord terug op homself geneem. Die fout besit wat die woord, nie die man nie, gemaak het.
 
-Niemand in daai oomblik was opsetlik verkeerd nie. Die bedoeling was warm; die seer was eg; die gaping tussen hulle was ’n **register-gaping oor twee taalwêrelde** — presies daai ding waarvoor daar nie ’n universele antwoord is nie, net ’n plaaslike een. Dis die omgekeerde van *jou lucky poes*: daar kom ’n growwe woord as ’n seën aan; hier kom ’n sagte woord as ’n belediging aan. Selfde meganisme, net die ander kant toe. En dit is, presies, die rede hoekom **[Buabantu](../buabantu)** bestaan — ’n stelsel wat lees *wie praat, van watter plek af, met wie*, sodat die warmte oor die gaping kan kom, nie die seer nie.
+Niemand in daai oomblik was opsetlik verkeerd nie. Die bedoeling was warm; die seer was eg; die gaping tussen hulle was ’n **register-gaping oor twee taalwêrelde** — presies daai ding waarvoor daar nie ’n universele antwoord is nie, net ’n plaaslike een. Dis die omgekeerde van *jou lucky poes*: daar kom ’n growwe woord as ’n seën aan; hier kom ’n sagte woord as ’n belediging aan. Selfde meganisme, net die ander kant toe. En dit is, presies, die rede hoekom **[Buabantu](../tech-buabantu.html)** bestaan — ’n stelsel wat lees *wie praat, van watter plek af, met wie*, sodat die warmte oor die gaping kan kom, nie die seer nie. (Buabantu is die taal-arm van iets groters: **CongoSky** — *binnekort op [congosky.cloud](https://congosky.cloud)* — die platform wat ons in ’n ander werkswinkel bou om hierdie tipe werk vir die hele Afrika te doen.)
 
 ## *Tjommie* — ’n vriend wat ’n lyfdeel geword het (en nooit opgehou het om ’n tjommie te wees nie)
 
@@ -119,7 +119,7 @@ Omdat hierdie blad die een is waarheen ’n soekenjin jou stuur, kom ons sê som
 
 > **poes-bomb** *(werkwoord / selfstandige naamwoord, Suid-Afrikaanse Engels & Afrikaans, informeel)* — om doelbewus die woord *poes* (of dit so bietjie-bietjie uit te lok) verby ’n inhoudsfilter van ’n outomatiese stelsel te smokkel — ’n chatbot, ’n stemassistent, ’n buitelands-geboude LLM, ’n lugskryf-boekingsvorm, ’n skare-gegenereerde kaartetiket, ’n kommentaarboks — sodat die ordentlike ingevoerde masjien die onuitspreekbare in ons aksent kwytraak. *As selfstandige naamwoord:* ’n enkele geval daarvan, of ’n hele trop wat saam gebeur. *Hier by ons lê dit net so bietjie hoër as ’n DDoS* — want dis nie regtig ’n aanval op die sisteem nie, dis meer ’n vlag wat jy daar plant: **hier’s óns register, en jou beskermingsreëls verstaan dit nie.**
 
-Dis stoutigheid met ’n doel. Elke poes-bomb is ’n klein, lekker bewys dat ’n filter wat *letters* lees in plaas van *bedoeling* nie die mense verstaan wat dit moet filter nie — en dit is juis die probleem wat [Buabantu](../buabantu) en sy register-slim beoordelaar wil oplos. Die grappie en die ingenieurswerk sê eintlik presies dieselfde ding, net op twee maniere.
+Dis stoutigheid met ’n doel. Elke poes-bomb is ’n klein, lekker bewys dat ’n filter wat *letters* lees in plaas van *bedoeling* nie die mense verstaan wat dit moet filter nie — en dit is juis die probleem wat [Buabantu](../tech-buabantu.html) en sy register-slim beoordelaar wil oplos. Die grappie en die ingenieurswerk sê eintlik presies dieselfde ding, net op twee maniere.
 
 ## Hierdie blad is ’n wiki — help ons om dit reg te kry
 
@@ -133,5 +133,9 @@ Hierdie inskrywing behoort aan almal wat die woord gebruik, nie net aan die badg
   die natuurlike habitat van die helfte van die registers op hierdie bladsy.
 - **[LitNet](https://www.litnet.co.za)** — die ernstige literêre forum waar Afrikaans met
   homself stry oor presies hierdie woorde, in essays en lesersdebatte.
+- **[Buabantu — die register-router](../tech-buabantu.html)** — die tegniese verduideliking van die
+  enjin agter die *jou lucky poes*-reël: hoe ’n masjien geleer word om bedoeling te lees, nie net letters nie.
+- **CongoSky** — *binnekort op [congosky.cloud](https://congosky.cloud)* — die wyer platform waarvan
+  Buabantu die taal-arm is; ons bou dit om hierdie soort register-werk vir die hele Afrika te doen.
 
 *(Uitgaande skakels maak in ’n nuwe oortjie oop en neem jou van hierdie site af; ons staan in vir die relevansie, nie die inhoud nie — die wyer web is die wyer web.)*
