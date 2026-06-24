@@ -6,6 +6,8 @@ Daar is ’n woord in hierdie huis se huistaal wat, afhangend van wie dit sê en
 
 Die woord is *poes.*
 
+*Hoekom is hierdie bladsy op 'n literêre pers, langs 'n CV? Omdat hierdie woord die moeilikste probleem in Afrika-taal-KI is — 'n woord wat sy eie teenoorgestelde beteken, bepaal uitsluitlik deur register, verhouding en bedoeling. [Buabantu](../buabantu) is die enjin gebou om daai gaping te lees. Hierdie inskrywing is sy gewerkte voorbeeld en sy bewys van konsep.*
+
 ## Wat die woordeboek sê, en hoekom die woordeboek nie genoeg is nie
 
 Letterlik is dit die grofste term vir die vroulike geslagsdele — daai tipe woord wat ’n woordeboek met *(plat)*, *(vulgêr)* toemaak en dan vinnig aanbeweeg. As jy dit op iemand mik, is dit ’n wapen: *jou poes* wat oor ’n kroeg uitgespoeg word, is die tipe lyn wat vriendskappe beëindig en bakleiery begin, ’n plat verklaring dat jy die ander een as waardeloos sien. Daai register is werklik, en hierdie inskrywing maak nie asof dit nie bestaan nie. As dit bedoel is om seer te maak, maak dit seer.
