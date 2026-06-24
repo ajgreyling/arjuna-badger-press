@@ -484,6 +484,17 @@ def cover_git_tracked(cover: Path) -> bool:
                           capture_output=True).returncode == 0
 
 
+def cover_public_src(book_id: str, cover: Path | None, *, rel: str = "") -> str:
+    """Public URL for a book cover PNG, with ?v=mtime cache-bust so shelf cards never stick on stale art."""
+    v = ""
+    if cover is not None:
+        try:
+            v = f"?v={int(cover.stat().st_mtime)}"
+        except OSError:
+            pass
+    return f"{rel}assets/covers/{book_id}.png{v}"
+
+
 def cover_candidates(root: Path, exp: Path) -> list[Path]:
     """All known cover paths for a book, in the usual search order."""
     return [
@@ -2890,7 +2901,9 @@ def with_mermaid(page: str) -> str:
 
 
 def card(e: dict, accent: str) -> str:
-    cover = f'<img class="cover" loading="lazy" src="assets/covers/{e["id"]}.png" alt="{html.escape(e["title"])} cover">'
+    cover = (f'<img class="cover" loading="eager" decoding="async" '
+             f'src="{cover_public_src(e["id"], e.get("cover"))}" '
+             f'alt="{html.escape(e["title"])} cover">')
     dls = ""
     if e["available"]:
         seen, parts = set(), []
@@ -3743,7 +3756,7 @@ def render_audiobook(e: dict) -> str:
 
 
 def render_book(e: dict) -> str:
-    cover = f'assets/covers/{e["id"]}.png'
+    cover = cover_public_src(e["id"], e.get("cover"), rel="../")
     eds = e.get("editions") or {}
     # Edition map handed to the site-wide language script (data-editions on the hero). Per code:
     # the download filenames per format, so JS can default the primary buttons to the chosen
@@ -6378,7 +6391,7 @@ def render_service_worker() -> str:
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v6";
+    return f"""const CACHE_NAME = "abp-pwa-v7";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -6390,7 +6403,12 @@ self.addEventListener("activate", event => {{
   event.waitUntil(
     caches.keys().then(keys => Promise.all(
       keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
-    ))
+    )).then(() => caches.open(CACHE_NAME).then(cache =>
+      cache.keys().then(reqs => Promise.all(
+        reqs.filter(r => new URL(r.url).pathname.startsWith("/assets/covers/"))
+            .map(r => cache.delete(r))
+      ))
+    )))
   );
   self.clients.claim();
 }});
