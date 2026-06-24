@@ -28,6 +28,29 @@ PUBLISHER="House of Greyling"
 YEAR=2026
 RIGHTS="Copyright © ${YEAR} ${AUTHOR}. All rights reserved."
 
+# ---- Trim size (env-overridable; default 6x9 for backward compatibility) ------------------------
+# Set BOOK_TRIM=a5 for A5 perfect-bind (148x210mm). Margin scales to the smaller page.
+case "${BOOK_TRIM:-6x9}" in
+  a5|A5)   TRIM_W="148mm"; TRIM_H="210mm"; PDF_MARGIN="${PDF_MARGIN:-16mm}"; TRIM_W_MM=148; TRIM_H_MM=210 ;;
+  6x9|*)   TRIM_W="6in";   TRIM_H="9in";   PDF_MARGIN="${PDF_MARGIN:-0.75in}"; TRIM_W_MM=152.4; TRIM_H_MM=228.6 ;;
+esac
+
+# ---- Optional bleed-PAGE variant: PAGE_BLEED_MM enlarges the PAPER by that bleed on every side and
+# bumps the margin to match, so the text block stays in the same place but the sheet is trim+2*bleed.
+# This produces the literal "page = trim + 3mm bleed" PDF some printers ask for (no crop marks).
+if [ -n "${PAGE_BLEED_MM:-}" ]; then
+  PW=$(python3 -c "print(f'{$TRIM_W_MM + 2*$PAGE_BLEED_MM}mm')")
+  PH=$(python3 -c "print(f'{$TRIM_H_MM + 2*$PAGE_BLEED_MM}mm')")
+  MG=$(python3 -c "print(f'{16 + $PAGE_BLEED_MM}mm')")   # keep text in the trim-safe area
+  TRIM_W="$PW"; TRIM_H="$PH"; PDF_MARGIN="$MG"
+fi
+
+# ---- House colophon assets (used by BOTH the EPUB and PDF builds, so define before either) ------
+# ABP mark on the final page of EVERY book, with the Klaus crest below it. Opt out: NO_COLOPHON=1.
+# Klaus is optional (NO_KLAUS=1, or absent asset) — colophon falls back to ABP-only with no breakage.
+COLOPHON_LOGO="$REPO/brand/assets/logo-black.png"
+COLOPHON_KLAUS="$REPO/brand/assets/klaus-black.png"
+
 [ -f "$BOOK_MD" ] || { echo "render_book: BOOK.md not found: $BOOK_MD" >&2; exit 1; }
 [ -f "$EPUB_CSS" ] || { echo "render_book: gate CSS missing: $EPUB_CSS" >&2; exit 1; }
 for f in Regular Italic Bold BoldItalic; do
@@ -68,6 +91,18 @@ EPUB_SRC="$(mktemp -t abp-epub-src).md"
   printf 'cover and all images — is available to read or download at **arjunabadger.press**.\n'
   printf ':::\n\n'
   cat "$BOOK_MD"
+  # House colophon for the EPUB (the gate's PDF colophon is PDF-only; this gives the EPUB the same
+  # ABP mark + Klaus crest on a final centred page). Centred via the .center class in atkinson-epub.css.
+  if [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; then
+    printf '\n\n::: {.center style="text-align:center"}\n\n'
+    printf '![](%s){width=40%%}\n\n' "$COLOPHON_LOGO"
+    if [ -z "${NO_KLAUS:-}" ] && [ -f "$COLOPHON_KLAUS" ]; then
+      printf '![](%s){width=24%%}\n\n' "$COLOPHON_KLAUS"
+      printf '*Klaus*\\\n'
+      printf 'Custos, non Conditor\n'
+    fi
+    printf '\n:::\n'
+  fi
 } > "$EPUB_SRC"
 
 # ---- EPUB: embed Atkinson (body) + Courier Prime (dossier) + inject the gate CSS ----------------
@@ -99,9 +134,6 @@ rm -f "$EPUB_SRC"
 # ---- PDF: tectonic, Atkinson body + a `dossier` (Courier Prime) environment for The File --------
 # Pass the absolute font dir to LaTeX, then include the dossier header (defines \begin{dossier}).
 PDF_HEADER="$(mktemp -t abp-pdf-header).tex"
-# House colophon: the black ABP crest on the final page of EVERY book (logo only).
-# Opt out per book with NO_COLOPHON=1. Asset lives in brand/assets (canonical).
-COLOPHON_LOGO="$REPO/brand/assets/logo-black.png"
 
 {
   printf '\\def\\ABPFONTDIR{%s}\n' "$FONT_DIR"
@@ -140,15 +172,22 @@ fi
 PDF_CLASSOPT=()
 [ -n "${BOOK_CLASSOPTION:-}" ] && PDF_CLASSOPT=(-V classoption="$BOOK_CLASSOPTION")
 
-# House colophon as the final page (logo only, centred). Every book, unless NO_COLOPHON=1.
+# House colophon as the final page (ABP mark + Klaus crest, centred). Every book, unless NO_COLOPHON=1.
 PDF_AFTER=()
 if [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; then
   PDF_COLOPHON_TEX="$(mktemp -t abp-pdf-colophon).tex"
   {
-    # Optical centring: anchor top glue with \null, weight the lower glue heavier so the mark
-    # sits at the optical centre (slightly above mathematical middle), the classic colophon position.
+    # Optical centring: anchor top glue with \null, weight the lower glue heavier so the marks
+    # sit at the optical centre (slightly above mathematical middle), the classic colophon position.
     printf '\\clearpage\n\\thispagestyle{empty}\n\\null\\vskip 0pt plus 1fil\n\\begin{center}\n'
     printf '\\includegraphics[width=0.40\\textwidth]{%s}\n' "$COLOPHON_LOGO"
+    # Klaus crest below the ABP mark — the Custos, non Conditor mark. Only if the asset exists and
+    # not opted out; falls back to ABP-only cleanly otherwise.
+    if [ -z "${NO_KLAUS:-}" ] && [ -f "$COLOPHON_KLAUS" ]; then
+      printf '\\\\[2.4em]\n'
+      printf '\\includegraphics[width=0.24\\textwidth]{%s}\n' "$COLOPHON_KLAUS"
+      printf '\\\\[0.6em]\n{\\itshape Klaus}\\\\\n{\\footnotesize Custos, non Conditor}\n'
+    fi
     printf '\\end{center}\n\\vskip 0pt plus 1.6fil\n'
   } > "$PDF_COLOPHON_TEX"
   PDF_AFTER=(--include-after-body "$PDF_COLOPHON_TEX")
@@ -164,7 +203,7 @@ pandoc "$BOOK_MD" \
   ${PDF_AFTER[@]+"${PDF_AFTER[@]}"} \
   -V documentclass=book \
   ${PDF_CLASSOPT[@]+"${PDF_CLASSOPT[@]}"} \
-  -V geometry:paperwidth=6in -V geometry:paperheight=9in -V geometry:margin=0.75in \
+  -V geometry:paperwidth="$TRIM_W" -V geometry:paperheight="$TRIM_H" -V geometry:margin="$PDF_MARGIN" \
   -V fontsize=11pt \
   -V mainfont="$FONT_NAME" \
   -V lang=en-ZA \

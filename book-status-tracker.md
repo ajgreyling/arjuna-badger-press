@@ -6,12 +6,14 @@
 
 | State | Count | Meaning |
 |---|---:|---|
-| 🟡 In progress | 2 | Partial manuscript, or canon/bible complete with little/no prose. |
+| 🟢 Drafted, gated | 1 | Full manuscript drafted; held out of `PUBLISHED` (catalogue-only / workshop hold). |
+| 🟡 In progress | 5 | Partial manuscript, or canon/bible complete with little/no prose. |
 | ⚪ Scaffold | 24 | Cover + metadata only. No manuscript. |
+| ❌ Missing | 4 | CURATED entry whose root dir isn't on disk. |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 33 | Published in the library — live downloads/read. |
+| ✅ Live | 40 | Published in the library — live downloads/read. |
 
-**Total: 60 books.** Not-yet-live (everything but LIVE/SERIAL): 26.
+**Total: 75 books.** Not-yet-live (everything but LIVE/SERIAL): 34.
 
 ## Books not yet completed in the library
 
@@ -19,6 +21,10 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 
 | Book | id | Series | State | Score | Manuscript | Canon | EPUB/PDF | Cover | API verdict | Notes |
 |---|---|---|---|---:|---|---:|---|---|---|---|
+| The Long Silence | `the-long-silence` | (unwired — not in CURATED) | 🟢 Drafted, gated | 70 | 18,626w | 12 | — | stub/— | _(pending)_ | STALE project.json status='scaffold' but manuscript/EPUB exists |
+| Palindrome | `palindrome` | Standalones | 🟡 In progress | 51 | 10,205w | 4 | EPUB/PDF | stub/— | _(pending)_ |  |
+| Brave and Scared | `bloedrivier` | History Like You've Never Heard It | 🟡 In progress | 43 | 5,596w | 7 | EPUB | rich | _(pending)_ |  |
+| The Antifragile Reader | `the-antifragile-reader` | Non-fiction | 🟡 In progress | 23 | 4,014w | 2 | — | rich | _(pending)_ |  |
 | The Scramble | `the-scramble` | (unwired — not in CURATED) | 🟡 In progress | 19 | 2,066w | 12 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Long Dark | `jakobus-the-long-dark` | History Before Time | 🟡 In progress | 14 | — | 2 | — | rich | _(pending)_ |  |
 | The Princely Offspring | `anunnaki-mesopotamia` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -27,10 +33,10 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Deepest Floor | `hbt-caves` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Breathing Dark | `hbt-sudwala` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | House of Bread | `house-of-bread` | The Unheard | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Poisoned Fortune | `modern-sherlock-2` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Viral Haunting | `modern-sherlock-3` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Woman Who Beat Him | `modern-sherlock-4` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Reichenbach Protocol | `modern-sherlock-5` | The Reichenbach Files | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| The Poisoned Fortune | `modern-sherlock-2` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| The Viral Haunting | `modern-sherlock-3` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| The Woman Who Beat Him | `modern-sherlock-4` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| The Reichenbach Protocol | `modern-sherlock-5` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Spaces Between | `nan-madol` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | From the Air | `nazca-lines` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Eighteen-Year Almanac | `newark-earthworks` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -45,6 +51,10 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Circle Closes | `the-salt-veil-5` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Scouring | `uffington` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | Made or Not | `yonaguni` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| Die Seeweg | `the-amber-winter-2` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
+| Die Hoë Stoel | `the-amber-winter-3` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
+| Die Lang Donker | `the-amber-winter-4` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
+| Die Ou Een by die Vuur | `the-amber-winter-5` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
 
 <details><summary>Live in the library (excluded from API pass)</summary>
 
@@ -58,7 +68,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Temple in the Rock — Deccan | `book3-india-deccan` | History Before Time | ✅ Live | EPUB/PDF |
 | The Shore That Remembers | `book4-india-tamil` | History Before Time | ✅ Live | EPUB/PDF |
 | The Engineer of the Gods | `book5-egypt` | History Before Time | ✅ Live | EPUB/PDF |
-| Henry Sugar | `henry-sugar` | Standalones | ✅ Live | EPUB/PDF |
+| Henry Sugar | `henry-sugar` | Faithful Modern | ✅ Live | EPUB/PDF |
 | The Broken Crescent | `jakobus-broken-crescent` | History Before Time | ✅ Live | EPUB/PDF |
 | The Straight Darkness | `jakobus-longyou` | History Before Time | ✅ Live | EPUB/PDF |
 | The Rose in the Rock | `jakobus-petra` | History Before Time | ✅ Live | EPUB/PDF |
@@ -67,6 +77,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | RELIC | `relic` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | RESONANCE | `resonance` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | REVELATION | `revelation` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
+| Die Vuur in die Donker | `the-amber-winter` | Winter sonder Einde | ✅ Live | EPUB/PDF |
 | The Dreaming | `the-dreaming` | Faithful Modern | ✅ Live | EPUB/PDF |
 | The Felt and the Sky | `unheard-mongolia` | The Unheard | ✅ Live | EPUB/PDF |
 | Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
@@ -76,7 +87,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Indifferent Desert | `sheltering-desert` | Non-fiction | ✅ Live | EPUB/PDF |
 | The Loneliest People in the World | `the-loneliest` | Standalones | ✅ Live | EPUB/PDF |
 | The Way That Was Invented | `unheard-japan` | The Unheard | ✅ Live | EPUB/PDF |
-| The Scarlet Thread | `modern-sherlock` | The Reichenbach Files | ✅ Live | EPUB/PDF |
+| The Scarlet Thread | `modern-sherlock` | Faithful Modern | ✅ Live | EPUB/PDF |
 | A Man They All Read Wrong | `the-jakobus-file` | History Before Time | ✅ Live | EPUB/PDF |
 | The Salt Veil | `the-salt-veil` | The Salt Veil | ✅ Live | EPUB/PDF |
 | The Song of the Self | `the-song-of-the-self` | Non-fiction | ✅ Live | EPUB/PDF |
@@ -84,7 +95,13 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Wrath of Achilles | `wrath-of-achilles` | Non-fiction | ✅ Live | EPUB/PDF |
 | NULL HORIZON | `null-horizon` | Non-fiction | ✅ Live | EPUB/PDF |
 | Scratching the Surface | `southern-coast` | History Before Time | ✅ Live | EPUB/PDF |
-| The First Unplugged | `the-first-unplugged` | Standalones | ✅ Live | EPUB |
+| The First Unplugged | `the-first-unplugged` | Faithful Modern | ✅ Live | EPUB |
+| The Flower That Watches the Sky | `bird-of-paradise-flower` | Children's Library | ✅ Live | — |
+| How Fire Came to the People | `how-fire-came` | Children's Library | ✅ Live | — |
+| King Lion and the Birds Who Stole the Sky | `how-king-lion` | Children's Library | ✅ Live | — |
+| How the Zebra Got Her Stripes | `how-zebra-got-stripes` | Children's Library | ✅ Live | — |
+| The Little Key | `the-little-key` | Children's Library | ✅ Live | — |
+| How the Elephant Got His Long Nose | `why-elephant-trunk` | Children's Library | ✅ Live | — |
 
 </details>
 

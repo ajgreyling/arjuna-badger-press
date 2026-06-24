@@ -118,3 +118,14 @@
 - **Source:** [File:11Z22665-Nama Woman cooking.jpg](https://commons.wikimedia.org/wiki/File:11Z22665-Nama_Woman_cooking.jpg)
 - **Licence:** CC BY-SA 4.0 ([terms](https://creativecommons.org/licenses/by-sa/4.0))
 - **Credit line (paste with image):** Shark studio, CC BY-SA 4.0, via Wikimedia Commons
+
+## The photographer's own frame
+
+### The southern coast, seen the way this book was dedicated — a sea cave by Mark Harpur himself.
+
+![The southern coast, seen the way this book was dedicated — a sea cave by Mark Harpur himself.](design/images/mark-harpur-sea-cave-southern-coast.jpg)
+
+- **File:** `design/images/mark-harpur-sea-cave-southern-coast.jpg`
+- **Source:** Donated to this book by the photographer · [@luckybeanz on Unsplash](https://unsplash.com/@luckybeanz)
+- **Licence:** © Mark Harpur. All rights reserved. Used by permission.
+- **Credit line (paste with image):** Photograph © Mark Harpur ([@luckybeanz](https://unsplash.com/@luckybeanz)), donated to this book — the one frame here shot by the man it is for.

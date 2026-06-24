@@ -28,6 +28,10 @@ it is the one that finally makes you stay.
 
 *This coast is yours. So is the eye. Thank you for both — for the blogs, the boat, the frames, and the friendship.*
 
+![A sea cave opening onto the southern coast — a frame by the man this book is for.](books/southern-coast/design/images/mark-harpur-sea-cave-southern-coast.jpg)
+
+*Photograph by Mark Harpur ([@luckybeanz](https://unsplash.com/@luckybeanz)), donated to this book.*
+
 ---
 
 # Foreword
@@ -302,6 +306,14 @@ These images are freely licensed via [Wikimedia Commons](https://commons.wikimed
 
 ---
 
+And one frame that is not borrowed from anyone. The photographs above are freely-licensed stand-ins — pointers to places you should go and see. This last one is the real thing: a frame from the coast, made by the photographer this whole book is dedicated to, and donated by him to these pages. It is the only image in the book shot by the man it is for.
+
+![A sea cave opening onto the southern coast — donated to this book by Mark Harpur.](books/southern-coast/design/images/mark-harpur-sea-cave-southern-coast.jpg)
+
+*Photograph © Mark Harpur ([@luckybeanz](https://unsplash.com/@luckybeanz)), donated to this book. All rights reserved.*
+
+---
+
 # When the Money Comes — A Promise
 
 *From the author, to Mark, on the record.*
@@ -326,69 +338,76 @@ The places, peoples, and wonders in this book are real. These freely-licensed ph
 
 ### Places of awe
 
-![Stilbaai — the dunes where the mark turned up in the raking light.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/satellite-image-of-cape-peninsula.jpg)
+![Stilbaai — the dunes where the mark turned up in the raking light.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/satellite-image-of-cape-peninsula.jpg)
 
 *Stilbaai — the dunes where the mark turned up in the raking light.*
 <small>NASA, Public domain, via Wikimedia Commons</small>
 
-![Pinnacle Point, Mossel Bay — the earliest evidence of the modern human mind.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/a-view-from-pinnacle-point-mossel-bay-south-africa.jpg)
+![Pinnacle Point, Mossel Bay — the earliest evidence of the modern human mind.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/a-view-from-pinnacle-point-mossel-bay-south-africa.jpg)
 
 *Pinnacle Point, Mossel Bay — the earliest evidence of the modern human mind.*
 <small>Satdeep Gill, CC BY-SA 4.0, via Wikimedia Commons</small>
 
-![The Tsitsikamma — the Klasies River caves' wild shore.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/tsitsikamma-national-park-za-kanus-an-der-k-ste-2024-1990.jpg)
+![The Tsitsikamma — the Klasies River caves' wild shore.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/tsitsikamma-national-park-za-kanus-an-der-k-ste-2024-1990.jpg)
 
 *The Tsitsikamma — the Klasies River caves' wild shore.*
 <small>Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons</small>
 
-![Cape Agulhas — the true southern tip of Africa, where the bearing runs off the map.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/cape-agulhas-p1040396.jpg)
+![Cape Agulhas — the true southern tip of Africa, where the bearing runs off the map.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/cape-agulhas-p1040396.jpg)
 
 *Cape Agulhas — the true southern tip of Africa, where the bearing runs off the map.*
 <small>Winfried Bruenken (Amrum), CC BY-SA 2.5, via Wikimedia Commons</small>
 
-![Arniston / Waenhuiskrans — the sea-cave coast of the Overberg.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/arniston-westcape.jpg)
+![Arniston / Waenhuiskrans — the sea-cave coast of the Overberg.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/arniston-westcape.jpg)
 
 *Arniston / Waenhuiskrans — the sea-cave coast of the Overberg.*
 <small>Bothar at English Wikipedia, Public domain, via Wikimedia Commons</small>
 
-![Hermanus and Walker Bay — the western leg of the photographer's coast.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/coastline-at-hermanus-walker-bay-south-africa.jpg)
+![Hermanus and Walker Bay — the western leg of the photographer's coast.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/coastline-at-hermanus-walker-bay-south-africa.jpg)
 
 *Hermanus and Walker Bay — the western leg of the photographer's coast.*
 <small>Olga Ernst, CC BY-SA 4.0, via Wikimedia Commons</small>
 
-![The Knysna Heads — the Garden Route's stone gateway.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/knysna-za-knysna-river-east-and-west-head-2024-2456.jpg)
+![The Knysna Heads — the Garden Route's stone gateway.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/knysna-za-knysna-river-east-and-west-head-2024-2456.jpg)
 
 *The Knysna Heads — the Garden Route's stone gateway.*
 <small>Dietmar Rabich, CC BY-SA 4.0, via Wikimedia Commons</small>
 
 ### Things of wonder (made by hand)
 
-![Blombos country — home of the ~73,000-year-old ochre cross-hatch, the oldest known drawing.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/blombos-cave-location.jpg)
+![Blombos country — home of the ~73,000-year-old ochre cross-hatch, the oldest known drawing.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/blombos-cave-location.jpg)
 
 *Blombos country — home of the ~73,000-year-old ochre cross-hatch, the oldest known drawing.*
 <small>Turid Hillestad Nel , Christopher Stuart Henshilwood, CC BY 4.0, via Wikimedia Commons</small>
 
-![Worked ochre — the red earth the first marks were made in.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/fragment-of-red-pigment-ochre-museo-egizio-turin-s-9927-p03.jpg)
+![Worked ochre — the red earth the first marks were made in.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/fragment-of-red-pigment-ochre-museo-egizio-turin-s-9927-p03.jpg)
 
 *Worked ochre — the red earth the first marks were made in.*
 <small>Unknown author, CC0, via Wikimedia Commons</small>
 
-![A shell midden in the dunes — the ordinary heap the find washed out beneath.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/annals-of-the-south-african-museum-annale-van-die-suid-afrikaanse-muse.jpg)
+![A shell midden in the dunes — the ordinary heap the find washed out beneath.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/annals-of-the-south-african-museum-annale-van-die-suid-afrikaanse-muse.jpg)
 
 *A shell midden in the dunes — the ordinary heap the find washed out beneath.*
 <small>Internet Archive Book Images, Public domain, via Wikimedia Commons</small>
 
-![San rock art of the Cape — the long continuous habit of making a mark.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/hand-prints-rock-art-diepkloof-rock-shelter-elands-bay-western-cape-so.jpg)
+![San rock art of the Cape — the long continuous habit of making a mark.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/hand-prints-rock-art-diepkloof-rock-shelter-elands-bay-western-cape-so.jpg)
 
 *San rock art of the Cape — the long continuous habit of making a mark.*
 <small>Andrew Hall, CC BY-SA 4.0, via Wikimedia Commons</small>
 
 ### Peoples, in their own dress
 
-![The Khoekhoe / San of this coast and country — the people whose ground and find it is.](/Users/ajgreyling/code/africangold/books/history-before-time/books/southern-coast/build/appendix-images/11z22665-nama-woman-cooking.jpg)
+![The Khoekhoe / San of this coast and country — the people whose ground and find it is.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/11z22665-nama-woman-cooking.jpg)
 
 *The Khoekhoe / San of this coast and country — the people whose ground and find it is.*
 <small>Shark studio, CC BY-SA 4.0, via Wikimedia Commons</small>
+
+### The photographer's own frame
+
+![The southern coast, seen the way this book was dedicated — a sea cave by Mark Harpur himself.](/Users/ajgreyling/code/arjuna-badger/arjuna-badger-platform/books/history-before-time/books/southern-coast/build/appendix-images/mark-harpur-sea-cave-southern-coast.jpg)
+
+*The southern coast, seen the way this book was dedicated — a sea cave by Mark Harpur himself.*
+<small>Photograph © Mark Harpur ([@luckybeanz](https://unsplash.com/@luckybeanz)), donated to this book — the one frame here shot by the man it is for.</small>
 
 <!-- END image-compendium-appendix -->
 
