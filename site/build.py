@@ -470,7 +470,12 @@ HIDE_BOOKS = set(
         # published in honor of the original; not endorsed or affiliated; Eleanor Wood licensing
         # contact attempted) lives in BOOK_NOTICE and renders on the book page. Released by explicit
         # author decision; not for commercial release pending licensing.
-        "",
+        #
+        # Children's Library — the 5 Classic African Stories are HIDDEN until each has REAL cover art
+        # (2026-06-24). They are fully written and wired; the shelf launches with The Little Key alone
+        # so it looks finished. Unhide a title (here or via ABP_HIDE_BOOKS) once its real cover lands.
+        "why-elephant-trunk,how-zebra-got-stripes,how-fire-came,"
+        "bird-of-paradise-flower,how-king-lion",
     ).split(",") if s.strip()
 )
 
@@ -1285,6 +1290,9 @@ def scan() -> list[dict]:
     entries = []
     hidden_proc: list[str] = []
     for cid, title, subtitle, series, rootrel, expsub, fb in CURATED:
+        # Drop hidden titles/series entirely — no card, no book page, no read page, not in feed.
+        if cid in HIDE_BOOKS or series in HIDE_SERIES:
+            continue
         root = BOOKS / rootrel
         exp = root / expsub
         downloads = []          # primary (English) EPUB/PDF
