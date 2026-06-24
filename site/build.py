@@ -119,6 +119,13 @@ REAL_LANGUAGE_LIVE = os.environ.get("ABP_REAL_LANGUAGE_LIVE", "1") not in ("", "
 # with a voice-sample link field, so intake works on a static site today.
 NARRATOR_FORM_URL = os.environ.get("ABP_NARRATOR_FORM_URL", "")
 
+# ── The call to arms: co-create / narrate / read-for-sensitivity / translate ──────────────────
+# A public invitation to South Africans (and the diaspora of each book's people) to help write the
+# books true: the deliberately-empty Zulu seat in Brave and Scared, heritage-matched narrators,
+# community sensitivity readers, and register/translation help. Set ABP_JOIN_FORM_URL for a hosted
+# form; otherwise the page links out via a pre-filled mailto so intake works on a static site today.
+JOIN_FORM_URL = os.environ.get("ABP_JOIN_FORM_URL", "")
+
 # ── Direct distribution / payment rails interest ──────────────────────────────────────────────
 # Kobo/Google-style bank-detail gates are exactly what direct distribution should avoid for free
 # books. This page is a static declaration today, with an optional hosted form later for readers,
@@ -174,6 +181,12 @@ EDITION_LANGS = {
     "tn": ("Setswana", "Setswana"),
     "sw": ("Swahili", "Kiswahili"),
     "de": ("German", "Deutsch"),
+    # Scandinavian — the living tongues of the Norse world (Winter sonder Einde). Icelandic stands
+    # closest to the Old Norse of the saga itself.
+    "is": ("Icelandic", "Íslenska"),
+    "no": ("Norwegian", "Norsk"),
+    "sv": ("Swedish", "Svenska"),
+    "da": ("Danish", "Dansk"),
 }
 
 # ── Site-wide language bar (i18n) ─────────────────────────────────────────────────────────────
@@ -341,7 +354,11 @@ SERIAL = set(
         #   Incerto. Proem + essays 01 & 05 are finished voice exemplars; essays 02–04, 06–11 are
         #   being drafted. Read-online only, NO downloads, until the full eleven land + a ≥500KB cover
         #   + author proofread, then promote to PUBLISHED.
-        "dust-throne,bloedrivier,the-antifragile-reader",
+        # palindrome: OPEN DRAFT (2026-06-23) — the chamber-piece novelisation written BEFORE its
+        #   screenplay (Man-from-Earth engine; four men, one room). Full first draft + one de-LLM
+        #   tooling pass; read-online only, NO downloads, until a craft/polish pass + a ≥500KB cover,
+        #   then promote to PUBLISHED.
+        "dust-throne,bloedrivier,the-antifragile-reader,palindrome",
     ).split(",") if s.strip()
 )
 
@@ -618,6 +635,10 @@ CURATED = [
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
      "A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man — the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant."),
+
+    ("palindrome", "Palindrome", "A chamber piece · An open draft", "Standalones",
+     "palindrome", "build/export",
+     "A dying man gathers the three people who mattered most and tells them, calmly, that he has lived this life eleven times — and that this time he changed one thing, so one of them should not be alive. One room, one night, four men, no special effects: only a premise interrogated by people who have something to lose by believing it. Written, deliberately, as a novel before it becomes a film. A palindrome reads the same forward and backward; you decide which way this one runs."),
 
     ("bloedrivier", "Brave and Scared", "A novel of Blood River, 1838 · An open draft", "History Like You've Never Heard It",
      "bloedrivier", "build/export",
@@ -1737,6 +1758,17 @@ a.support-rail:hover{border-color:var(--ochre)}
   box-shadow:0 0 0 3px rgba(229,181,103,.11)}
 .intake-form textarea,.intake-form .intake-note,.intake-form button{grid-column:1/-1}
 .intake-note{margin:0;color:var(--grass);font-size:13.5px;line-height:1.45}
+/* call to arms */
+.callarms{padding:30px 0}
+.callarms-inner{background:linear-gradient(135deg,rgba(194,64,30,.10),rgba(229,181,103,.07));border:1px solid var(--line);border-left:3px solid var(--sting,#c2401e);border-radius:14px;padding:30px 32px;max-width:880px;margin:0 auto;text-align:center}
+.callarms-inner h2{font-size:clamp(24px,3.4vw,34px);margin:.25em 0 .35em}
+.callarms-inner p{max-width:64ch;margin:0 auto 18px;color:var(--bone);font-size:17px;line-height:1.6}
+.callarms-inner .cta{margin-top:6px}
+.join-table{width:100%;border-collapse:collapse;margin:18px 0 6px;font-size:15px}
+.join-table th{text-align:left;font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);border-bottom:1px solid var(--line);padding:8px 10px}
+.join-table td{vertical-align:top;padding:11px 10px;border-bottom:1px solid var(--line);color:var(--bone);line-height:1.45}
+.join-table .dim{color:var(--bonedim);font-size:13px}
+@media(max-width:560px){.join-table,.join-table tbody,.join-table tr,.join-table td,.join-table th{display:block;width:100%}.join-table th{display:none}.join-table td{border-bottom:none;padding:4px 0}.join-table tr{border-bottom:1px solid var(--line);padding:10px 0}}
 .intake-form button{justify-self:start;border:0;cursor:pointer}
 /* ── local reader PWA shell ───────────────────────────────────────────────────── */
 .app-shell{max-width:1180px;margin:0 auto;padding:28px 24px 70px}
@@ -2170,6 +2202,7 @@ def nav_drawer_links(rel: str = "") -> str:
         f'<a href="{rel}safari/index.html">Safari — meet the man</a>'
         f'<p class="navgroup">Read</p>'
         f'<a href="{rel}index.html#library">Library</a>'
+        f'<a class="navhot" href="{rel}join.html">Help write them true</a>'
         f'<a href="{rel}start.html">Where to start</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}learn.html">Learn</a>'
@@ -2432,7 +2465,27 @@ def lang_script() -> str:
 (function(){
   var KEY="abp_lang";
   var NAMES=__NAMES__;
-  function get(){try{var v=localStorage.getItem(KEY);return (v&&NAMES[v])?v:"en";}catch(e){return "en";}}
+  // Auto-pick from the browser's preferred languages, but ONLY when the reader has not chosen one
+  // themselves. A saved choice always wins (someone on an Afrikaans browser who picked English stays
+  // on English). We match navigator.languages (e.g. ["af-ZA","en"]) to the editions we actually have,
+  // by primary subtag, in the browser's own priority order. No detection -> stays English.
+  function detect(){
+    try{
+      var prefs=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||""];
+      for(var i=0;i<prefs.length;i++){
+        var code=String(prefs[i]||"").toLowerCase().split("-")[0];
+        if(code&&NAMES[code])return code;
+      }
+    }catch(e){}
+    return "en";
+  }
+  function get(){
+    try{
+      var v=localStorage.getItem(KEY);
+      if(v&&NAMES[v])return v;          // a remembered manual choice always wins
+      return detect();                  // first visit / no choice -> the browser's language
+    }catch(e){return "en";}
+  }
   function set(v){try{localStorage.setItem(KEY,v);}catch(e){}}
   var lang=get();
 
@@ -3222,6 +3275,18 @@ def render_index(entries: list[dict]) -> str:
 <a class="btn ghost" href="start.html">Not sure where to start?</a>
 <a class="btn ghost" href="/studio">Writers → the Studio</a></div>
 </div></header><hr class="hr">""")
+
+    # ── Call to arms banner ───────────────────────────────────────────────
+    parts.append(f"""<section class="callarms"><div class="wrap">
+<div class="callarms-inner">
+<div class="eyebrow">Afrika Rising · a call to arms</div>
+<h2>These are your stories. Help us write them true.</h2>
+<p>A Zulu voice for the empty seat in <em>Brave and Scared</em>. A Coloured Capetonian to read South
+Africa's deep past. An SA Indian woman for the India books. Sensitivity readers, translators, and
+narrators for every people these books touch — paid, credited, and named.</p>
+<div class="cta"><a class="btn" href="join.html">Put your hand up &rarr;</a></div>
+</div>
+</div></section><hr class="hr">""")
 
     parts.append(f"""<section id="library"><div class="wrap library-intro">
 <div class="eyebrow">The library</div>
@@ -4534,10 +4599,22 @@ _CONTENT_LANG_JS = """<script>
 (function(){
   var KEY='abp-lang:'+__KEY__, sel=document.getElementById('langsel');
   var wins=[].slice.call(document.querySelectorAll('.langwin')); if(!sel||!wins.length) return;
+  function has(l){ return !!document.querySelector('.langwin[data-lang="'+l+'"]'); }
   function show(l){ var any=false; wins.forEach(function(w){var on=w.getAttribute('data-lang')===l; w.hidden=!on; any=any||on;});
     if(!any){wins[0].hidden=false; l=wins[0].getAttribute('data-lang');} sel.value=l; try{localStorage.setItem(KEY,l);}catch(e){} }
-  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
-  show(saved && document.querySelector('.langwin[data-lang="'+saved+'"]') ? saved : wins[0].getAttribute('data-lang'));
+  // Priority: this page's own remembered pick -> the site-wide reading-language choice -> the
+  // browser's preferred languages -> English. A manual pick (here or site-wide) always wins;
+  // browser-detect only fills the gap when the reader has chosen nothing.
+  function initial(){
+    try{
+      var mine=localStorage.getItem(KEY); if(mine&&has(mine))return mine;
+      var site=localStorage.getItem('abp_lang'); if(site&&has(site))return site;
+      var prefs=(navigator.languages&&navigator.languages.length)?navigator.languages:[navigator.language||""];
+      for(var i=0;i<prefs.length;i++){ var c=String(prefs[i]||"").toLowerCase().split("-")[0]; if(c&&has(c))return c; }
+    }catch(e){}
+    return wins[0].getAttribute('data-lang');
+  }
+  show(initial());
   sel.addEventListener('change', function(){ show(sel.value); });
 })();
 </script>"""
@@ -5224,6 +5301,113 @@ wall. This is only for those who want to.</p>
     ])
 
 
+def linkout_or_form(form_url: str, *, inline_form: str, button_label: str,
+                    lead: str) -> str:
+    """When a hosted form URL is set, render a bulletproof link-OUT button (works on every
+    device — no fragile mailto, no broken cross-origin POST to Google Forms). Otherwise fall
+    back to the inline mailto form. Used by the narrator + audition intakes."""
+    if form_url:
+        return (f'<div class="intake-linkout">\n<p>{lead}</p>\n'
+                f'<p><a class="btn" href="{html.escape(form_url)}" target="_blank" '
+                f'rel="noopener">{button_label} &rarr;</a></p>\n</div>')
+    return inline_form
+
+
+def render_call_to_arms() -> str:
+    """The call to arms: invite South Africans (and each book's people) to help write the books
+    true — co-create the empty Zulu seat, narrate in a heritage-matched voice, read for
+    sensitivity, and help with register/translation. Consistent with the bloedrivier open-seat
+    invitation: no people's inner life is any one author's to invent alone; every hand is named."""
+    form_target = (
+        html.escape(JOIN_FORM_URL)
+        if JOIN_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={urllib.parse.quote('I want to help — Arjuna Badger Press')}"
+    )
+    form_enctype = "" if JOIN_FORM_URL else ' enctype="text/plain"'
+    inline_form = f'''<form class="intake-form" data-form-name="join" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Where you are<input name="country" placeholder="Durban, Soweto, Cape Flats, Chatsworth, the diaspora..."></label>
+<label>How you want to help
+<select name="role" required>
+<option value="">Choose one or more</option>
+<option>Co-create the empty Zulu seat (Brave and Scared)</option>
+<option>Narrate a book in my own voice</option>
+<option>Read for sensitivity / cultural truth</option>
+<option>Help with translation or register</option>
+<option>Historian / descendant / "where it rings false"</option>
+<option>Something else — I'll explain below</option>
+</select></label>
+<label>Which book, people, or language<input name="book" placeholder="Brave and Scared · the India books · isiZulu · Calendar of Stone..." required></label>
+<label>Your heritage, languages, accent (in your words)<input name="languages" placeholder="isiZulu first language · Coloured Capetonian · SA Tamil · Afrikaans..."></label>
+<label>Voice sample link (narrators)<input name="voice_sample_link" type="url" placeholder="https://... a sample anywhere you control"></label>
+<label>Tell us anything<textarea name="notes" rows="5" placeholder="Why this book matters to you, what you can bring, where the current draft rings false to you..."></textarea></label>
+<button class="btn" type="submit">Put your hand up &rarr;</button>
+</form>'''
+    return "\n".join([
+        head("A call to arms — Arjuna Badger Press",
+             "Afrika Rising. A public invitation to South Africans and to each book's own people: "
+             "help us write these stories true — co-create the empty Zulu seat in Brave and Scared, "
+             "narrate in your own voice, read for sensitivity, and get the register right.",
+             canonical=f"{DOMAIN}/join.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center">A call to arms · Afrika Rising</p>
+<h1 style="text-align:center">Help us write these true</h1>
+<p class="intro" style="text-align:center">These are <strong>your</strong> stories — South Africa's, and the
+stories of every people these books touch. No one's inner life is any single author's to invent alone.
+So we are leaving the seats open, and inviting you in.</p>
+
+<div class="entry"><span class="charge">The promise that governs all of it</span>
+<p>The principle behind <em>Brave and Scared</em> governs this whole house: <strong>every voice must be
+equally true, and no voice may be one people's imagining of another's inner life.</strong> Where a story
+is not ours to tell alone, we leave a visible open seat and an explanation — not a ventriloquist's act.
+<strong>Every hand that shapes a book is named in the acknowledgements.</strong> This is not unpaid
+extraction: narration is paid work (a floor of 5% of net profit for five years), and co-creators are
+credited as what they are — co-authors.</p></div>
+
+<div class="intake-grid" aria-label="Four ways to help">
+<div class="intake-card"><span class="charge">Co-create</span>
+<strong>The empty Zulu seat</strong><p>In <em>Brave and Scared</em> (Blood River, 1838) the Zulu youth's chapter is deliberately left empty — to be written <em>with</em> a Zulu reader and co-author, never for him.</p></div>
+<div class="intake-card"><span class="charge">Narrate</span>
+<strong>In your own voice</strong><p>Paid human audiobooks, matched to the people of each book — a Coloured Capetonian for the South African deep past, an SA Indian woman for India, and on through the shelf.</p></div>
+<div class="intake-card"><span class="charge">Read for truth</span>
+<strong>Sensitivity readers</strong><p>For every book that touches a living people, a community reader who can keep the sacred at the threshold and tell us where it rings false.</p></div>
+<div class="intake-card"><span class="charge">Speak it right</span>
+<strong>Register &amp; translation</strong><p>Help us land isiZulu, isiXhosa, Sesotho, Setswana, Afrikaans, Tamil and more in the register people actually speak — not the formal, Bible-stiff version.</p></div>
+</div>
+
+<div class="entry"><span class="charge">The empty seat — Brave and Scared</span>
+<p>The book tells the year around the Battle of Blood River from three sides at once. The author is
+Afrikaner; the Voortrekker girl and the documented history are his to write. The <strong>Zulu youth's
+interiority — what it felt like to be made a weapon as a boy, his pride and fear and belonging and
+cost — is not his to invent alone.</strong> To write it solo would be the exact colonial move the book
+exists to refuse. <strong>If you are a Zulu reader, a historian, a descendant of any side, or simply
+someone who can say where this draft rings false — you are invited in.</strong></p></div>
+
+<div class="entry"><span class="charge">Lend your voice — books looking for their narrator</span>
+<p>The library is free; paid human audiobooks are how narrators earn. We are casting voices that belong
+to each book's people:</p>
+<table class="join-table">
+<tr><th>Book</th><th>The voice we are listening for</th></tr>
+<tr><td><strong>The Calendar of Stone</strong><br><span class="dim">South Africa's deep past · Adam's Calendar</span></td><td>A <strong>Coloured South African woman</strong> — this is the story of her own land.</td></tr>
+<tr><td><strong>The Engineer of the Gods</strong><br><span class="dim">Giza · the Great Pyramid</span></td><td>A <strong>North African or Egyptian woman</strong> — the land of the pyramids in its own accent.</td></tr>
+<tr><td><strong>The Indian One · Deccan · The Shore That Remembers</strong><br><span class="dim">Ellora · Mahabalipuram · the Tamil coast</span></td><td>An <strong>SA Indian woman</strong> (or Tamil / Deccan voice) — India's impossible stone, read by India's daughters.</td></tr>
+<tr><td><strong>Die Vuur in die Donker</strong><br><span class="dim">Winter sonder Einde · adult Norse saga</span></td><td>A <strong>South African Afrikaans woman</strong> — for grown-up readers, in Brink's frank register.</td></tr>
+<tr><td><strong>The Unheard</strong><br><span class="dim">Japan · Mongolia · and more</span></td><td>Voices from each people the series names — narration <em>and</em> sensitivity reading, hand in hand.</td></tr>
+</table>
+<p class="intake-note">Don't see your book or your people here? Put your hand up anyway — the shelf is
+long and growing, and the right voice for a book is one we'd rather find than guess.</p></div>
+
+{linkout_or_form(JOIN_FORM_URL, button_label="Put your hand up", lead="Tell us who you are and how you'd like to help. One short form for all of it — co-creators, narrators, sensitivity readers, and translators.", inline_form=inline_form)}
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
 def render_narrators() -> str:
     """Arjuna Audio intake page. This is deliberately a working waitlist, not a marketplace UI."""
     form_target = (
@@ -5270,7 +5454,7 @@ audiobooks before the marketplace gets more machinery.</p></div>
 hybrid work can move toward 10%, and royalty-only work can move higher when both sides choose that
 risk knowingly. The floor never moves downward.</p></div>
 
-<form class="intake-form" data-form-name="narrator" action="{form_target}" method="{form_method}"{form_enctype}>
+{linkout_or_form(NARRATOR_FORM_URL, button_label="Open the narrator form", lead="Tell us about your voice and how you would like to work. It takes a couple of minutes.", inline_form=f'''<form class="intake-form" data-form-name="narrator" action="{form_target}" method="{form_method}"{form_enctype}>
 <label>Name<input name="name" autocomplete="name" required></label>
 <label>Email<input name="email" type="email" autocomplete="email" required></label>
 <label>Country<input name="country" autocomplete="country-name" required></label>
@@ -5288,7 +5472,7 @@ risk knowingly. The floor never moves downward.</p></div>
 <label>Anything we should know<textarea name="notes" rows="5" placeholder="Home studio setup, rates, availability, books you love, languages you can perform naturally..."></textarea></label>
 {fallback_note}
 <button class="btn" type="submit">Send narrator profile &rarr;</button>
-</form>
+</form>''')}
 
 <p style="text-align:center;margin-top:44px"><a class="back" href="index.html#library">&larr; Back to the library</a></p>
 </article>""",
@@ -5711,7 +5895,7 @@ the highest-quality format your app allows; avoid aggressive noise suppression w
 one note describing the room and device. Do not over-process: no heavy reverb, fake radio voice,
 music bed, or extreme noise reduction. A truthful clean voice is easier to cast than a polished lie.</p></div>
 
-<form class="intake-form" data-form-name="audition" action="{form_target}" method="post"{form_enctype}>
+{linkout_or_form(AUDITION_FORM_URL, button_label="Open the audition form", lead="Send your audition note and sample link. Tell us your device and room so we can judge the voice, not the gear.", inline_form=f'''<form class="intake-form" data-form-name="audition" action="{form_target}" method="post"{form_enctype}>
 <label>Name<input name="name" autocomplete="name" required></label>
 <label>Email<input name="email" type="email" autocomplete="email" required></label>
 <label>Country<input name="country" autocomplete="country-name" required></label>
@@ -5720,7 +5904,7 @@ music bed, or extreme noise reduction. A truthful clean voice is easier to cast 
 <label>Voice sample link<input name="voice_sample_link" type="url" placeholder="https://..."></label>
 <label>What gear or room problem do you have<textarea name="notes" rows="5" placeholder="Echo, traffic, fan noise, plosives, low volume, hiss, no mic stand, no headphones..."></textarea></label>
 <button class="btn" type="submit">Send audition note &rarr;</button>
-</form>
+</form>''')}
 
 <p style="text-align:center;margin-top:44px"><a class="back" href="narrators.html">&larr; Back to narrator intake</a></p>
 </article>""",
@@ -6442,6 +6626,28 @@ def main() -> None:
     # www / apex generic landing — the origin story + a door into each of the three products.
     # The app serves this at www.arjunabadger.press (Host-based routing); also reachable at /landing.html.
     (OUT / "landing.html").write_text(render_landing(), encoding="utf-8")
+    # ── Buabantu product page — top-level /buabantu.html, linked from poes page ─────────────────
+    _buabantu_src = REPO / "site" / "content" / "buabantu.md"
+    if _buabantu_src.is_file():
+        _buabantu_body = md_to_html(_buabantu_src.read_text(encoding="utf-8"))
+        _buabantu_page = "\n".join([
+            head("Buabantu — Register-aware language routing for African languages",
+                 "OpenRouter, but for register and dialect. African and colloquial language "
+                 "decoded and spoken back in the voice people actually use. "
+                 "The jou-lucky-poes rule: judge by intent, never letters alone.",
+                 rel="./", safari=True,
+                 canonical=f"{DOMAIN}/buabantu.html",
+                 keywords="Buabantu, African language AI, register, dialect, South African slang, "
+                          "poes, jou lucky poes, language routing, OpenRouter Africa, "
+                          "code-switching, translation API, Afrikaans NLP"),
+            safari_nav("./"),
+            '<article class="reader letter misogi-page">',
+            crest_img("./", safari=True),
+            _buabantu_body,
+            '</article>',
+            footer("./", safari=True),
+        ])
+        (OUT / "buabantu.html").write_text(_buabantu_page, encoding="utf-8")
     if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
         (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     # ── Safari — personal annex (CV, letters, arms, essays) ─────────────────────────────────────
@@ -6521,6 +6727,7 @@ def main() -> None:
     (OUT / "cv" / "index.html").write_text(
         redirect_page("../safari/cv.html", cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
+    (OUT / "join.html").write_text(render_call_to_arms(), encoding="utf-8")
     (OUT / "narrators.html").write_text(render_narrators(), encoding="utf-8")
     (OUT / "distribution.html").write_text(render_distribution(), encoding="utf-8")
     (OUT / "app.html").write_text(render_app_page(), encoding="utf-8")
