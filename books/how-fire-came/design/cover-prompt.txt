@@ -1,0 +1,143 @@
+HOW FIRE CAME TO THE PEOPLE — ILLUSTRATION SPECIFICATION
+(Prompts for ChatGPT web image generator / OpenRouter image model. One book, one style.)
+Children's Library shelf — Arjuna Badger Press. Original retelling of a San / Khoi fire-origin tale.
+
+═══════════════════════════════════════════════════════════════════════════
+HOUSE STYLE — paste this STYLE BLOCK at the top of EVERY prompt so all 13
+spreads + the cover read as one book:
+═══════════════════════════════════════════════════════════════════════════
+
+STYLE: Warm, painterly children's-picture-book illustration in the tradition of
+hand-painted gouache and watercolour storybooks — soft visible brushwork, gentle
+edges, deeply tender, a little wondrous. FIRELIGHT PALETTE: glowing ember orange,
+honey gold and warm ochre as the light, set against the deep blue-grey of the
+"cold time" and the rich indigo of the African night. In almost every spread the
+single coal / flame is the one point of warm light, the thing the eye finds first.
+NOT digital-slick, NOT 3D-render, NOT photoreal. Picture-book art a tired parent
+and a small child read together by one lamp at bedtime.
+
+SETTING (keep consistent): the open southern-African VELD and bush — golden grass,
+stony kopjes, thorn trees, a shallow river, a great old mountain, an enormous sky.
+Specific, warm, dignified. NEVER generic "jungle," never caricature.
+
+CHARACTERS (keep consistent across every image):
+- THE CHILD: a small Black / San-descended African child of the veld, around six or
+  seven, short natural hair, an open steady kind face, simple soft skin-and-cloth
+  wrap suited to the cold time. More careful than fearless — gentle-brave. The human
+  hero who carries the fire. (This is a personalised keepsake; the child's NAME is
+  added on the page text, never drawn into the image — no text in any image.)
+- MANTIS: a real green praying mantis, twiggy and slender and characterful, riding on
+  the child's shoulder — wise and warm, NOT a cartoon bug, NOT goggle-eyed; he reads
+  as a gentle little elder.
+- THE FIRE-BIRD: a magnificent great bird made of ember and gold, wings like glowing
+  coals, eyes of quiet warm light. Glorious and awe-inspiring, NEVER frightening,
+  NEVER a villain — careful and kind, the way fire is careful.
+- THE PEOPLE: the cold-time veld village — grandmothers, fathers, mothers, babies,
+  wrapped in karosses and skins, warm and specific and dignified.
+
+THE OBJECTS: one small round CLAY POT with a soft nest of dry grass inside; one
+single living COAL the size of a thumb — a small bright orange ember (the heart of
+the whole book); later, soft GREY ASH.
+
+FORMAT: landscape 3:2 spread, full-bleed, NO text in the image (the verse sits beneath
+on the page). The FEELING must land with the sound off, before any words are read.
+
+═══════════════════════════════════════════════════════════════════════════
+PER-SPREAD PROMPTS (append each to the STYLE block above):
+═══════════════════════════════════════════════════════════════════════════
+
+COVER → file: design/cover.png   (also reused as a hero marketing image)
+The small veld child, seen warm and close, cupping both hands around a single glowing
+orange coal that lights the child's wondering face from below; the wise green mantis
+on the child's shoulder leaning toward the light; behind them the deep blue-grey
+cold-time veld and, far off, the old mountain with a faint warm glow on its peak.
+Cosy, brave, full of quiet promise — the whole book waiting in those cupped hands.
+Warm ember-gold light against deep blue. No text.
+
+SPREAD 01 → spread-01-fire.png
+The cold time, before fire. A southern-African veld village at dusk, the whole world
+washed in cold blue-grey shadow, the people wrapped in skins and karosses against the
+dark, huddled close. NO fire anywhere — not one warm light in the frame. Beautiful but
+cold; you can feel the chill. Wide, still, waiting.
+
+SPREAD 02 → spread-02-fire.png
+Night in the village. The people huddle close in the blue dark. The oldest grandmother
+points a thin arm toward the far horizon, where a single faint warm glow rests on the
+peak of a distant mountain. The small child sits listening, wide-eyed, lit just barely
+by that far-off promise of warmth. Hushed, hopeful.
+
+SPREAD 03 → spread-03-fire.png
+Dawn, cool gold light spreading over the veld. The small child sets out across the open
+grass with a little round clay pot, looking back once at the sleeping village. The
+green mantis hops up onto the child's shoulder and folds his twiggy arms, looking ahead
+down the long road. Beginning of an adventure; tender, brave.
+
+SPREAD 04 → spread-04-fire.png
+The long journey across the wide southern-African veld: the child and the mantis walk
+past a stony kopje and wade a cold shallow river with their few things held high, the
+great old fire-glowing mountain growing larger and closer ahead under an enormous sky.
+A sense of distance and of going on, slow and steady. Warm gold grass, cool blue
+distance.
+
+SPREAD 05 → spread-05-fire.png   ★ HERO SPREAD — generate this FIRST, the emotional centre
+HERO IMAGE. High on the old mountain, the magnificent FIRE-BIRD — wings like glowing
+coals, eyes of quiet warm light, glorious and awe-inspiring but kind, never scary —
+lowers her great warm head and gives ONE single living coal, a small bright orange
+ember the size of a thumb, down into the small child's carefully cupped hands. Extreme
+warm glow against deep mountain-blue. Wonder, trust, the moment the gift is given. This
+is the heart of the whole book.
+
+SPREAD 06 → spread-06-fire.png
+Close and warm. The green mantis shows the child how to make a soft nest of dry grass
+in the bottom of the little round clay pot, and settle the single glowing coal into it,
+cradled safe like a baby going to sleep. Tender, careful, intimate. The coal is the one
+bright light in the frame.
+
+SPREAD 07 → spread-07-fire.png
+Out on the open veld a hard wind blows, bending the gold grass flat and streaming the
+child's hair and cloth sideways. The child turns one shoulder into the wind and curls
+protectively around the little clay pot, sheltering the precious coal, breathing soft
+on it; the mantis clings on tight. The danger is the WIND, not a monster — movement,
+effort, gentleness winning. The coal still glows.
+
+SPREAD 08 → spread-08-fire.png
+The coldest, deepest part of the night. The dim cold land is lit only by a single thin
+THREAD of orange light rising from the clay pot — the glow has shrunk small and almost
+frightening. The child bends low and close, breathing softly to keep the tiny light
+alive. Deep indigo dark, one fragile warm point of light. Quiet, suspenseful, but never
+horror — just the cold and the dark wanting the little flame.
+
+SPREAD 09 → spread-09-fire.png
+Dawn breaking, the sky going from indigo to soft gold. The child stands on the last
+rise and looks down into the valley where the HOME village comes into view with its
+waiting people. In the child's hands the little clay pot still holds the tiny coal,
+alive and orange. Relief, homecoming, the long road nearly done.
+
+SPREAD 10 → spread-10-fire.png
+The whole village crowds joyfully round the child and the precious coal. The child
+touches the coal to a wisp of dry grass that bursts into flame, then lights one small
+fire, then another, then another — ONE coal becoming MANY warm gold fires spreading
+through the delighted, lit-up people. Generosity, abundance, warmth multiplying. The
+cold blue retreats; everything turns honey-gold.
+
+SPREAD 11 → spread-11-fire.png
+The first true night of fire. The village gathered close around a glowing fire, food
+cooking over it, faces lit warm and happy, the great dark pushed gently back. A
+grandmother leans in, beginning to tell a story to the wide-eyed children. Community,
+safety, the very first storytelling fire. Deep night-blue all around one big warm
+golden circle.
+
+SPREAD 12 → spread-12-fire.png
+Cold grey morning after. The fire is out — only a soft heap of pale grey ASH where it
+was, cold and quiet, looking like a little heap of nothing. The child looks down, sad,
+thinking the fire is lost. On a nearby stone the green mantis gently gestures: lean in,
+blow soft. Subdued cool light — but if you look, the faintest warm hint glows deep in
+the ash. The quiet turn before the secret is revealed.
+
+SPREAD 13 → spread-13-fire.png
+CLOSING IMAGE. Under a huge, deep, star-filled African night, the child gently banks
+soft grey ash over a single sleeping coal with cupped hands, tucking it in like a
+blanket; the mantis rides on the child's shoulder. At the edge of yesterday's old grey
+ash, fresh green grass is already pushing up. Tender, safe, complete, full of tomorrow.
+One warm coal-glow under the ash, silver starlight above, new green at the edge. The
+promise of morning made visible.

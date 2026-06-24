@@ -1,0 +1,125 @@
+THE LITTLE KEY — ILLUSTRATION SPECIFICATION
+(Prompts for ChatGPT web image generator / OpenRouter image model. One book, one style.)
+
+═══════════════════════════════════════════════════════════════════════════
+HOUSE STYLE — paste this STYLE BLOCK at the top of EVERY prompt so all 14
+spreads + the cover read as one book:
+═══════════════════════════════════════════════════════════════════════════
+
+STYLE: Warm, painterly children's-picture-book illustration in the tradition of
+hand-painted gouache and watercolour storybooks — soft visible brushwork, gentle
+edges, a little chaotic and a little funny, deeply tender. Lamplight palette:
+honey gold, warm ochre, soft cream, deep night-blue shadows. Cosy, intimate,
+storybook warmth. NOT digital-slick, NOT 3D-render, NOT photoreal. Picture-book
+art that a tired parent and a small child read together by one lamp at bedtime.
+
+CHARACTERS (keep consistent across every image):
+- THEMBI: a seven-year-old Black South African girl, short natural hair in little
+  twists or puffs, expressive warm face, wearing soft cotton pyjamas (pale yellow
+  with small stars). Curious, kind. She is the only big person in most scenes.
+- NKWE: a tiny hand-carved WOODEN honey badger, the size of a teaspoon — clearly
+  carved from warm old wood (visible grain, rounded tool-marks), but ALIVE: black
+  and white badger markings, a stubborn proud little face, bright dark eyes. Small
+  but never cute-helpless — stubborn and brave.
+- GOGO: Thembi's grandmother, older Black South African woman, grey hair, kind
+  lined face, soft morning gown. Appears near the end.
+- THE LITTLE ONES: a carved wooden bird (in flight), a carved wooden tortoise, and
+  a carved wooden girl no bigger than a thumb — each clearly carved wood, each alive.
+
+THE OBJECTS: an old wooden bathroom-style cupboard with a small mirror door, paint
+worn at the handle; a small brass key on a red thread.
+
+FORMAT: landscape 3:2 spread, full-bleed, no text in the image (text sits beneath
+on the page). Leave the composition readable with the sound off — the FEELING must
+land before any words.
+
+═══════════════════════════════════════════════════════════════════════════
+PER-SPREAD PROMPTS (append each to the STYLE block above):
+═══════════════════════════════════════════════════════════════════════════
+
+COVER → file: design/cover.png  (also reused as a hero marketing image)
+An old wooden cupboard with a little mirror door standing in the warm corner of a
+sunlit spare room, dust turning slowly in a golden sunbeam. On the cupboard handle
+hangs a small brass key on a red thread, catching the light. Tiny and easy to miss,
+sitting on the middle shelf inside, is a little carved wooden honey badger. Cosy,
+inviting, full of quiet promise. Warm honey-gold light. Room to feel the whole book
+is waiting inside this cupboard.
+
+SPREAD 01 → spread-01-cupboard.png
+The old wooden cupboard with its little mirror door, alone in the corner of Gogo's
+sunlit spare room, dust drifting down through a sunbeam slow as falling snow. Quiet,
+still, waiting. Nobody in frame yet.
+
+SPREAD 02 → spread-02-key.png
+Close, warm: Thembi's small brown hand reaching for the small brass key on its red
+thread hanging from the cupboard handle. Her face lit with curiosity. Golden light.
+
+SPREAD 03 → spread-03-carving.png
+Inside the open cupboard, on the middle shelf, the little carved wooden honey badger
+the size of a teaspoon, with a stubborn wooden face. Thembi's wondering face leaning
+in close beside it. The carving still looks like a toy here — not yet awake.
+
+SPREAD 04 → spread-04-turn.png
+Night. Thembi in her star pyjamas, lit by a bedside lamp, turning the small brass key
+in the cupboard's mirror door. The carved badger sits on the shelf inside. Hushed,
+secret, the rest of the room in deep night-blue shadow. NO creature awake yet.
+
+SPREAD 05 → spread-05-awake-HERO.png   ★ HERO SPREAD — generate this FIRST, main scene
+HERO IMAGE. Morning light floods in. The tiny wooden honey badger Nkwe is now ALIVE —
+standing on the shelf, breathing, blinking UP at an ENORMOUS wondering girl whose huge
+gentle face fills the other half of the spread. Extreme scale contrast: teaspoon-sized
+creature, sky-sized girl. He is small but not afraid. Wonder, tenderness, the moment
+the magic is real. This is the emotional centre of the whole book.
+
+SPREAD 06 → spread-06-toy.png
+Thembi, too happy to be careful, playing with tiny Nkwe like a toy soldier — pushing
+him along to "march", rolling a crumb for him to "fetch". His small wooden face has
+gone hard and unhappy: he is NOT a toy. A gentle wrongness in the air.
+
+SPREAD 07 → spread-07-runs.png
+The world seen at Nkwe's tiny scale: he runs across a vast tabletop that looks like a
+cliff-edge, the bedroom floor a deep canyon below. In the dark beneath the bed, two
+glowing green cat-eyes have opened. Dramatic scale, the cosy room turned huge and
+perilous, but still painterly and warm — danger of SCALE, not horror.
+
+SPREAD 08 → spread-08-composite-COMPOSITE.png   ★ COMPOSITE — main scene + the mini ones
+COMPOSITE SPREAD. The same bedroom seen small, and now the OTHER carved creatures are
+also awake and superimposed into the scene, each living its own life among the giant
+furniture: a little wooden BIRD in flight near the window, a little wooden TORTOISE
+crossing the rug, and a wooden GIRL no bigger than a thumb who looks not afraid but
+BUSY — she has her own whole life to live. Nkwe among them. Thembi's giant form in
+soft focus at the edge, realising they were never hers. Many small lives at once.
+
+SPREAD 09 → spread-09-longnight.png
+The long cold night. Tiny Nkwe, clever and stubborn, hiding behind a giant shoe,
+holding very still — a knot of wood — as the cat's enormous green eyes search past
+him in the dark. He survives by wit, not strength. Deep night-blue, one sliver of
+moonlight.
+
+SPREAD 10 → spread-10-cornered.png
+Morning. The cat has tiny Nkwe cornered against the skirting board. From above,
+Thembi's huge hand is coming down to snatch him to safety — to keep him, to own him
+again. Tension, the wrong rescue about to happen.
+
+SPREAD 11 → spread-11-asks.png
+Thembi lying flat on the floor, making her big self small, cheek almost to the carpet,
+the window open and the cupboard open behind her, her open empty palm resting on the
+carpet — NOT grabbing, OFFERING. Tender, humble, brave. The bravest thing a big person
+can do.
+
+SPREAD 12 → spread-12-stays.png
+Tiny Nkwe walking calmly across the warm carpet and climbing onto Thembi's open palm,
+choosing to stay. The cat has slunk away in the background. Warm forgiving morning
+light. He stays because he was asked.
+
+SPREAD 13 → spread-13-gogo.png
+Gogo standing in the bedroom doorway in her morning gown, smiling, completely
+unsurprised. On the moonlit-into-morning windowsill, the thumb-sized carved girl waves
+to Gogo, and Gogo waves back — two old friends. Warm, knowing, generational.
+
+SPREAD 14 → spread-14-closing.png
+CLOSING IMAGE. Night again. Thembi asleep in bed, peaceful, the small brass key on its
+red thread now tied around her neck. On the moonlit windowsill, four tiny carved
+creatures keep watch. On the pillow beside her face, wide awake, sits the little wooden
+badger Nkwe — free to go anywhere at all, and staying. Tender, safe, complete. Deep
+night-blue and silver moonlight with one warm note.

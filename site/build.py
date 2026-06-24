@@ -330,9 +330,71 @@ PUBLISHED = set(
         # surfaced 2026-06-21 by explicit author decision. EPUB-only (no read-online); honor/attribution
         # notice on the book page (BOOK_NOTICE); Eleanor Wood licensing contact attempted; not for
         # commercial release pending permission.
-        "the-first-unplugged",
+        "the-first-unplugged,"
+        # the-little-key (The Little Key): the first title on the Children's Library shelf — a
+        # read-aloud picture book carrying the medicine of *The Indian in the Cupboard* (original
+        # work, no borrowed text). Picture-book render path (full-bleed illustrated spreads); art
+        # generated via ChatGPT/OpenRouter; shipping in all 11 SA languages + Swahili.
+        "the-little-key,"
+        # Children's Library — Classic African Stories (pourquoi folktales), 2026-06-24:
+        "why-elephant-trunk,how-zebra-got-stripes,how-fire-came,"
+        "bird-of-paradise-flower,how-king-lion",
     ).split(",") if s.strip()
 )
+
+# ── Picture books ──────────────────────────────────────────────────────────────────────────────
+# Book ids that render as illustrated spreads (full-bleed art + verse caption) instead of prose.
+# Their reader source is build/chapters/PICTURE_BOOK.md, parsed by render_picture_book() on the
+# `<!-- spread:N image="…" alt="…" -->` markers between stanzas. Read-aloud children's titles.
+PICTURE_BOOKS = set(
+    s.strip() for s in os.environ.get(
+        "ABP_PICTURE_BOOKS",
+        "the-little-key,"
+        # Children's Library — Classic African Stories (pourquoi folktales):
+        "why-elephant-trunk,how-zebra-got-stripes,how-fire-came,"
+        "bird-of-paradise-flower,how-king-lion",
+    ).split(",") if s.strip()
+)
+
+# ── Picture-book personalisation (print keepsake editions) ───────────────────────────────────────
+# These books are sold as personalised print: the child-hero's name + a dedication woven in. The
+# manuscripts use {{CHILD}} for the protagonist name and {{DEDICATION}} for the dedication line.
+# The public read-online edition renders the HOUSE DEFAULTS below; a per-order print run substitutes
+# the buyer's child name + dedication. Keyed by book id; PB_DEFAULT covers anything unlisted.
+# Env ABP_CHILD / ABP_DEDICATION override globally (used by the per-order print renderer).
+PB_DEFAULT = {"child": "Thandi", "dedication": "For every child who reads this — you matter."}
+PB_PERSONALISATION = {
+    "the-little-key": {"child": "Thembi",
+                       "dedication": "For every child who was ever small, and turned out to matter."},
+    "why-elephant-trunk": {"child": "Thandi",
+                           "dedication": "For the child whose hardest day became their best gift."},
+    "how-zebra-got-stripes": {"child": "Thandi",
+                              "dedication": "For the child who is different — and exactly right."},
+    "how-fire-came": {"child": "Thandi",
+                      "dedication": "For the child brave enough to carry the light home."},
+    "bird-of-paradise-flower": {"child": "Thandi",
+                                "dedication": "For the child who can lift their face to the sky."},
+    "how-king-lion": {"child": "Thandi",
+                      "dedication": "For the child who chooses kindness, even when it is hard."},
+}
+
+
+def picture_book_tokens(book_id: str) -> dict:
+    """Resolve {{CHILD}} / {{DEDICATION}} for a book: env override → per-book → house default."""
+    d = dict(PB_DEFAULT)
+    d.update(PB_PERSONALISATION.get(book_id, {}))
+    if os.environ.get("ABP_CHILD"):
+        d["child"] = os.environ["ABP_CHILD"]
+    if os.environ.get("ABP_DEDICATION"):
+        d["dedication"] = os.environ["ABP_DEDICATION"]
+    return d
+
+
+def apply_picture_book_tokens(md: str, book_id: str) -> str:
+    """Substitute {{CHILD}} and {{DEDICATION}} tokens in a picture-book manuscript."""
+    t = picture_book_tokens(book_id)
+    return (md.replace("{{CHILD}}", t["child"])
+              .replace("{{DEDICATION}}", t["dedication"]))
 
 # ── Daily serials ─────────────────────────────────────────────────────────────────────────────
 # Book ids here are READ-ONLY-ON-SITE serials: they ship NO EPUB/PDF downloads but ARE published
@@ -485,6 +547,7 @@ SERIES = [
     ("Not a Potato", "#9A8B6B"),
     ("The No-Fear Cycle", "#1e3a8a"),
     ("Faithful Modern", "#4B4E8C"),
+    ("Children's Library", "#7FB069"),  # leaf-green — the read-aloud picture-book shelf
     ("Standalones", "#B49A6A"),
 ]
 
@@ -495,6 +558,7 @@ SHELF_TAGLINE = {
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
+    "Children's Library": "Picture books for reading out loud — one lamp, one child, one story. Painterly spreads that carry the feeling before a child can read the words, in every South African language and Swahili.",
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
@@ -807,6 +871,28 @@ CURATED = [
     ("yonaguni", "Made or Not", "Not a Potato", "Not a Potato",
      "_comingsoon/yonaguni", "build/export",
      "The Yonaguni Monument — a submerged terrace off Japan; natural fracture or cut stone, and Jakobus's gift meets its limit. Coming soon."),
+
+    # ── Children's Library (read-aloud picture books) ───────────────────────────────────────────
+    ("the-little-key", "The Little Key", "Children's Library", "Children's Library",
+     "the-little-key", "build/export",
+     "A girl finds an old brass key and an old cupboard, and wakes a tiny carved honey badger who is alive as you are — and learns that you can wake a thing, but you can never own it. A gentle, honest read-aloud picture book about power held kindly, and about being big enough to matter to someone smaller than you. Ages 4–8. In every South African language and Swahili."),
+    # Classic African Stories (pourquoi folktales), retold original in the house voice. Sold as
+    # personalised print keepsakes — the child-hero's name + a dedication woven in ({{CHILD}}/{{DEDICATION}}).
+    ("why-elephant-trunk", "How the Elephant Got His Long Nose", "Children's Library · Classic African Stories", "Children's Library",
+     "why-elephant-trunk", "build/export",
+     "Long ago the elephant had only a small stubby nose — until a crocodile clamped on at the river and everyone pulled, and pulled, and PULLED. A stretchy, funny, tender retelling of why the elephant's trunk is so long: the thing that felt like the worst day became the very gift that lets him help everyone. Ages 4–8."),
+    ("how-zebra-got-stripes", "How the Zebra Got Her Stripes", "Children's Library · Classic African Stories", "Children's Library",
+     "how-zebra-got-stripes", "build/export",
+     "Once the zebra was one plain colour, and a little lonely for it — until the animals gave her a gift of light and shadow so she could belong to the herd and never be lost again. A gentle retelling of how the zebra got her stripes: what makes you different is exactly what keeps you safe. Ages 4–8."),
+    ("how-fire-came", "How Fire Came to the People", "Children's Library · Classic African Stories", "Children's Library",
+     "how-fire-came", "build/export",
+     "In the cold time before people had fire, a small brave child and a clever helper went to carry a single ember home — and learned the hardest, kindest thing: carry it gently, and share it. A warm retelling of the gift of fire, and of ash, which keeps tomorrow's coal alive. Honours San and Khoi fire-lore with care. Ages 4–8."),
+    ("bird-of-paradise-flower", "The Flower That Watches the Sky", "Children's Library · Classic African Stories", "Children's Library",
+     "bird-of-paradise-flower", "build/export",
+     "In Gogo's garden grows a strange, bright flower shaped exactly like a little bird with its head tipped back, looking up. This is the tender story of how the crane-flower came to be — a bird that can no longer fly, still lifting its face to the sky, and the sweet drops it weeps. The companion to 'King Lion and the Birds Who Stole the Sky'. Ages 4–8."),
+    ("how-king-lion", "King Lion and the Birds Who Stole the Sky", "Children's Library · Classic African Stories", "Children's Library",
+     "how-king-lion", "build/export",
+     "Proud birds stole the farmers' maize until the frightened villagers turned on every creature — so King Lion passed his sorrowful judgement: the birds would never fly again, and their feet were planted in the ground, where they lift their faces to the sky forever and weep the nectar of looking up. An original tale of pride, fear, and just-but-sorrowful consequence — and where the bird-of-paradise flower came from. Ages 4–8 (the darker, braver edge of the shelf)."),
 ]
 
 
@@ -1234,7 +1320,13 @@ def scan() -> list[dict]:
         reader_src = None
         can_read = cid in SERIAL or (cid in PUBLISHED and cid not in WORKSHOP_HOLD)
         if can_read:
-            if book_md.is_file():
+            if cid in PICTURE_BOOKS:
+                # Picture books read from build/chapters/PICTURE_BOOK.md (illustrated spreads),
+                # never a merged prose BOOK.md.
+                pb = root / "build" / "chapters" / "PICTURE_BOOK.md"
+                if pb.is_file():
+                    reader_md = pb.read_text(encoding="utf-8", errors="ignore")
+            elif book_md.is_file():
                 reader_src = book_md
             else:
                 reader_md = companion_manuscript(root)
@@ -1248,7 +1340,9 @@ def scan() -> list[dict]:
             "reader_md": reader_md,
             "root": root,
             "serial": cid in SERIAL,
-            "available": can_read and (cid in SERIAL or bool(downloads)),
+            # Picture books are always readable online once published (the art IS the book); their
+            # EPUB/PDF ship as downloads when built, but the read-online page never waits on them.
+            "available": can_read and (cid in SERIAL or cid in PICTURE_BOOKS or bool(downloads)),
             "isbn": book_isbn(root),
             "audiobook": audiobook if (cid in PUBLISHED and cid not in WORKSHOP_HOLD) else None,
         })
@@ -1331,6 +1425,31 @@ def prepare_reader_images(md: str, book_id: str, book_root: Path, assets_out: Pa
     return _READER_IMG_RE.sub(repl, md)
 
 
+def prepare_picture_book_images(md: str, book_id: str, book_root: Path, assets_out: Path) -> str:
+    """Copy a picture book's spread images and rewrite each marker's image= to a site-local path.
+
+    Picture-book spreads carry the image in an HTML comment (image="…"), not markdown image
+    syntax, so the normal prepare_reader_images() pass misses them. This resolves each spread
+    image from the book's design/images (or build/chapters) and copies it into read/assets/<id>/,
+    rewriting image="file.png" → image="assets/<id>/file.png" so render_picture_book() can wire it.
+    """
+    assets_out.mkdir(parents=True, exist_ok=True)
+
+    def repl(m: re.Match[str]) -> str:
+        whole, src = m.group(0), m.group(1)
+        if src.startswith(("http://", "https://", "assets/")):
+            return whole
+        resolved = resolve_reader_image(src, book_root)
+        if not resolved:
+            return whole  # leave as-is; render shows a broken-image alt rather than vanishing
+        dst = assets_out / resolved.name
+        if not dst.exists() or resolved.stat().st_mtime > dst.stat().st_mtime:
+            shutil.copy2(resolved, dst)
+        return whole.replace(f'image="{src}"', f'image="assets/{book_id}/{resolved.name}"')
+
+    return re.sub(r'<!--\s*spread:\d+\s+image="([^"]+)"', repl, md)
+
+
 # ── render ───────────────────────────────────────────────────────────────────────
 CSS = """
 :root{
@@ -1359,7 +1478,9 @@ a:focus-visible,button:focus-visible,.btn:focus-visible,.dl:focus-visible,.qopt:
 [id]{scroll-margin-top:88px}
 .readbar ~ .readlayout [id],.readbar ~ .reader [id]{scroll-margin-top:120px}
 body{margin:0;background:var(--black);color:var(--bone);
-  font-family:Inter,system-ui,-apple-system,sans-serif;line-height:1.65;
+  /* House/platform default: Atkinson Hyperlegible for all running/UI text (a11y is the foundation).
+     Display headings (Space Grotesk) and decorative titles (Cormorant Garamond) opt out explicitly. */
+  font-family:var(--reading);line-height:1.65;
   background-image:radial-gradient(1200px 600px at 50% -10%,rgba(200,168,107,.10),transparent 60%);}
 a{color:var(--ochre);text-decoration:none} a:hover{color:var(--gold)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
@@ -1517,7 +1638,7 @@ section.series{padding:46px 0 8px}
 .qblock{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:22px 0;background:var(--card)}
 .qblock legend{font-family:"Space Grotesk";font-weight:600;color:var(--gold);font-size:15px;padding:0 8px}
 .qopts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
-.qopt{font-family:"Inter",sans-serif;font-size:14.5px;text-align:left;cursor:pointer;
+.qopt{font-family:var(--reading);font-size:14.5px;text-align:left;cursor:pointer;
   padding:10px 14px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--bone);
   transition:all .15s}
 .qopt:hover{border-color:var(--ochre);color:var(--gold)}
@@ -1571,6 +1692,32 @@ section.series{padding:46px 0 8px}
 .reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
+/* ── Picture book — full-bleed illustrated spreads, read-aloud verse caption ─────────────────────
+   A children's title is not a column of prose: each spread is one large painterly image with a
+   few lines of read-aloud text beneath it, sized to feel like turning a page. The art carries the
+   feeling before a child can read the words. Generous, warm, lots of air; the refrain set apart. */
+.picture-book{max-width:880px;margin:0 auto;padding:34px 20px 96px;font-family:var(--reading)}
+.picture-head{text-align:center;padding:24px 0 8px}
+.picture-head h1{font-family:"Cormorant Garamond",serif;font-size:48px;font-weight:700;margin:.1em 0}
+.picture-byline{color:var(--ochre);font-style:italic;font-size:19px;margin:.2em 0 0;
+  font-family:"Cormorant Garamond",serif}
+.spread{margin:0 0 64px;text-align:center}
+.spread img{display:block;width:100%;height:auto;border-radius:16px;
+  box-shadow:0 22px 60px rgba(0,0,0,.5);background:var(--card);
+  aspect-ratio:3/2;object-fit:cover}
+.spread-text{margin:26px auto 0;max-width:34ch;font-size:23px;line-height:1.6;
+  color:var(--bone);font-weight:500;text-wrap:balance}
+.spread-text .refrain{display:inline-block;margin:.5em 0;color:var(--ochre);font-style:italic;
+  font-family:"Cormorant Garamond",serif;font-size:25px;line-height:1.45}
+.spread-text .spread-gap{display:block;height:.55em}
+.picture-book .spread:last-of-type{margin-bottom:24px}
+@media(max-width:640px){
+  .picture-head h1{font-size:36px}
+  .spread{margin-bottom:48px}
+  .spread img{border-radius:12px}
+  .spread-text{font-size:20px;max-width:30ch}
+  .spread-text .refrain{font-size:21px}
+}
 /* ── Code fences + Mermaid diagrams ────────────────────────────────────────────────────────── */
 pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var(--line);
   border-radius:10px;overflow-x:auto;font-family:ui-monospace,"SF Mono",Menlo,monospace;
@@ -1680,6 +1827,9 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
 footer{border-top:1px solid var(--line);margin-top:60px;padding:40px 0;color:var(--grass);font-size:14px}
 footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
 footer .badgerline{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--bonedim)}
+footer .builton{color:var(--bonedim);font-size:13px;letter-spacing:.02em}
+footer .builton a{color:var(--bonedim);text-decoration:underline;text-underline-offset:2px}
+footer .builton a:hover{color:var(--gold)}
 footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 /* ── rating + feedback (quiet) ───────────────────────────────────────────────── */
 .rate{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0 4px}
@@ -2560,6 +2710,7 @@ def footer(rel: str = "", *, safari: bool = False, safari_page: str = "") -> str
     return f"""</main><footer><div class="wrap">
 <span>© Andries J. Greyling · Arjuna Badger Press · <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a>{extra_html}</span>
 {photo_credits}
+<span class="builton">Built on <a href="https://congosky.cloud" target="_blank" rel="noopener noreferrer external">congosky.cloud</a></span>
 <span class="badgerline">The archer's eye. The badger's nerve.</span>
 </div></footer>
 <script>
@@ -6359,6 +6510,125 @@ def render_reader(e: dict) -> str:
     ])
 
 
+# ── Picture-book reader ──────────────────────────────────────────────────────────────────────
+# A picture book is neither prose nor verse: it is a sequence of full-bleed illustrated spreads,
+# each one image + a few lines of read-aloud text. The source (build/chapters/PICTURE_BOOK.md)
+# marks each spread with an HTML comment carrying the image + alt, followed by the stanza text:
+#
+#   <!-- spread:5 image="spread-05-awake.png" alt="…" -->
+#   But in the morning —
+#   Nkwe was breathing.
+#
+# Lines wrapped in *asterisks* on their own are treated as the refrain (styled apart). The image
+# is resolved + copied by prepare_reader_images() exactly like a normal reader image, so art lands
+# in read/assets/<id>/ with no special asset plumbing.
+_SPREAD_RE = re.compile(
+    r'<!--\s*spread:(\d+)\s+image="([^"]+)"(?:\s+alt="([^"]*)")?\s*-->\s*\n(.*?)(?=\n<!--\s*spread:|\Z)',
+    re.DOTALL,
+)
+
+
+def _picture_book_spreads(md: str):
+    """Yield (number, image_src, alt, text) for each spread marker in the manuscript."""
+    for m in _SPREAD_RE.finditer(md):
+        num, img, alt, text = m.group(1), m.group(2), (m.group(3) or ""), m.group(4)
+        yield int(num), img, alt, text.strip("\n")
+
+
+def render_picture_book(e: dict) -> str:
+    """Render a children's picture book as a stack of full-bleed illustrated spreads."""
+    md = e.get("prepared_reader_md") or e.get("reader_md") or ""
+    # Personalise: substitute the {{CHILD}} / {{DEDICATION}} tokens (house defaults for the public
+    # read-online edition; a per-order print run sets ABP_CHILD / ABP_DEDICATION).
+    md = apply_picture_book_tokens(md, e["id"])
+    # Title + the italic line under it (a dedication or a byline — both render as the sub-line).
+    # Only an italic line that appears BEFORE the first spread marker counts (refrains inside the
+    # body are also *…*-wrapped and must not be mistaken for the byline).
+    title = e["title"]
+    byline = ""
+    for ln in md.splitlines():
+        s = ln.strip()
+        if s.startswith("<!-- spread:"):
+            break
+        if s.startswith("# "):
+            title = s[2:].strip()
+        elif s.startswith("*") and s.endswith("*") and len(s) > 2 and not byline:
+            byline = s.strip("*").strip()
+
+    spreads_html = []
+    for num, img, alt, text in _picture_book_spreads(md):
+        # prepare_reader_images already rewrote the image path to assets/<id>/<file>; if it left a
+        # raw filename (no copy happened), fall back to the same convention so the page still wires.
+        src = img if img.startswith(("http", "assets/")) else f"assets/{e['id']}/{img}"
+        # Split the stanza into verse lines. A *…* span — single OR multi-line — is the refrain,
+        # set apart in italic. (Manuscript wraps the refrain as e.g. "*You can wake a thing.\n
+        # That is the easy part.*", so opening and closing asterisks are on different lines.)
+        lines = []
+        in_refrain = False
+        for raw in text.split("\n"):
+            ln = raw.strip()
+            if not ln:
+                lines.append('<span class="spread-gap"></span>')
+                continue
+            opens = ln.startswith("*")
+            closes = ln.endswith("*") and not (ln == "*")
+            if opens and closes and len(ln) > 2 and not in_refrain:
+                # whole refrain on one line, e.g. *Click.*
+                lines.append(f'<em class="refrain">{html.escape(ln.strip("*").strip())}</em>')
+            elif opens and not in_refrain:
+                in_refrain = True
+                body = ln.lstrip("*").strip()
+                if closes:  # opens and closes but only the leading * stripped above caught it
+                    in_refrain = False
+                    body = body.rstrip("*").strip()
+                lines.append(f'<em class="refrain">{html.escape(body)}'
+                             + ('</em>' if not in_refrain else ''))
+            elif in_refrain:
+                if closes:
+                    in_refrain = False
+                    lines.append(f'{html.escape(ln.rstrip("*").strip())}</em>')
+                else:
+                    lines.append(html.escape(ln))
+            else:
+                lines.append(html.escape(ln))
+        if in_refrain:  # unbalanced *, close it defensively
+            lines.append('</em>')
+        verse = "<br>\n".join(lines)
+        spreads_html.append(
+            f'<figure class="spread" id="spread-{num}">'
+            f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" loading="lazy" decoding="async">'
+            f'<figcaption class="spread-text">{verse}</figcaption>'
+            f'</figure>'
+        )
+
+    dl = ""
+    for f in e["downloads"]:
+        if f.suffix.lower() == ".epub":
+            dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
+            break
+
+    head_block = (
+        f'<header class="picture-head"><h1>{html.escape(title)}</h1>'
+        + (f'<p class="picture-byline">{html.escape(byline)}</p>' if byline else "")
+        + "</header>"
+    )
+    article = (
+        f'<article class="picture-book" lang="en-ZA">{head_block}'
+        + "\n".join(spreads_html)
+        + "</article>"
+    )
+    return "\n".join([
+        head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        trust_banner(rel="../"),
+        f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
+<a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
+        f'<main id="main">{article}</main>',
+        reader_endnote(e),
+        footer(rel="../"),
+        rating_script(),
+    ])
+
+
 def write_feed(out: Path, entries: list[dict]) -> int:
     """Emit an RSS 2.0 feed.xml of the available catalogue at the site root.
 
@@ -6611,10 +6881,17 @@ def main() -> None:
                 if e.get("reader_md")
                 else e["book_md"].read_text(encoding="utf-8", errors="ignore")
             )
-            e["prepared_reader_md"] = prepare_reader_images(
-                raw_md, e["id"], e["root"], OUT / "read" / "assets" / e["id"]
-            )
-            (OUT / "read" / f'{e["id"]}.html').write_text(render_reader(e), encoding="utf-8")
+            if e["id"] in PICTURE_BOOKS:
+                e["prepared_reader_md"] = prepare_picture_book_images(
+                    raw_md, e["id"], e["root"], OUT / "read" / "assets" / e["id"]
+                )
+                reader_html = render_picture_book(e)
+            else:
+                e["prepared_reader_md"] = prepare_reader_images(
+                    raw_md, e["id"], e["root"], OUT / "read" / "assets" / e["id"]
+                )
+                reader_html = render_reader(e)
+            (OUT / "read" / f'{e["id"]}.html').write_text(reader_html, encoding="utf-8")
 
     for old_id, new_id in BOOK_REDIRECTS.items():
         _write_book_redirect(old_id, new_id, subdir="book")

@@ -70,6 +70,23 @@ site/content/.buabantu-page/
 .amber-*-args.*.json
 .amber-nb-args.json
 
+# ── Children's Library placeholder art (regenerate: python3 books/_childrens_placeholders.py) ─
+# The picture-book placeholders are heavy grain PNGs (~5–7MB each) made only to clear the cover
+# gate until real ChatGPT/OpenRouter art lands. They are disposable — keep them out of git history.
+# REAL generated art is force-added explicitly (git add -f) so it overrides this rule.
+books/the-little-key/design/images/*.png
+books/the-little-key/design/cover.png
+books/why-elephant-trunk/design/images/*.png
+books/why-elephant-trunk/design/cover.png
+books/how-zebra-got-stripes/design/images/*.png
+books/how-zebra-got-stripes/design/cover.png
+books/how-fire-came/design/images/*.png
+books/how-fire-came/design/cover.png
+books/bird-of-paradise-flower/design/images/*.png
+books/bird-of-paradise-flower/design/cover.png
+books/how-king-lion/design/images/*.png
+books/how-king-lion/design/cover.png
+
 # ── Audiobook render working tree (regenerable; the .py + frontmatter .md are the source) ─
 # Keep: audio/*.py and audio/*.md. Drop: the chunk cache, ffmpeg work dirs, manifest, exports.
 books/**/audio/**/chunks/
