@@ -6298,7 +6298,7 @@ def render_service_worker() -> str:
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v5";
+    return f"""const CACHE_NAME = "abp-pwa-v6";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -6322,6 +6322,14 @@ self.addEventListener("fetch", event => {{
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith("/downloads/")) return;
+
+  // Cover art must always revalidate — stale SW cache once hid updated Little Key art.
+  if (url.pathname.startsWith("/assets/covers/")) {{
+    event.respondWith(
+      fetch(request).then(response => response).catch(() => caches.match(request))
+    );
+    return;
+  }}
 
   event.respondWith(
     caches.match(request).then(cached => {{
