@@ -3928,7 +3928,7 @@ def render_book(e: dict) -> str:
              ld_json=book_ld_json(e)),
         nav(rel="../"),
         f"""<div class="wrap"><div class="bookhero"{editions_attr}>
-<img class="cover" src="../{cover}" alt="{html.escape(e['title'])} cover">
+<img class="cover" src="{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
