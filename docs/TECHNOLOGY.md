@@ -562,13 +562,15 @@ designed — the VAS surfaced the one edition worth a look, a human resolved it,
 
 ---
 
-## 11. `/sleep` — memory consolidation as a first-class step
+## 11. `/sleep` ⇄ `/wake` — memory consolidation and recall as first-class steps
 
 The table above lists *state & memory at scale* as a capability — a graph DB and rolling compression
 holding a multi-book world in continuity. That covers the **engine's** memory. It does not cover the
 **agent's** memory: the question of what an AI co-worker should carry from one working session into
-the next. That turned out to have a missing primitive, and closing it produced a small, portable tool
-that ships on its own.
+the next. That turned out to have a missing primitive — actually a *pair* of them — and closing it
+produced two small, portable tools that ship on their own: **`/sleep`** writes the day down at dusk,
+and **`/wake`** reads it back at dawn. One without the other is half a brain: consolidation that
+nothing re-opens, or recall with nothing to recall.
 
 **The problem.** A coding agent has two memories and, by default, no bridge between them:
 
@@ -579,40 +581,56 @@ that ships on its own.
 The two controls you're handed are both wrong for real work. **`/clear` is death** — it doesn't close
 the eye, it deletes the *person*; the next session inherits nothing. **Never clearing is insomnia** —
 the context grows without bound (cost, latency) and the durable facts stay trapped in a transcript no
-future session will ever read. Biology already solved this with the third option: **sleep** — the
-nightly, lossy, *intentional* move that keeps what the day taught and discards the lived texture of
-it. You don't keep the dream; you keep the lesson.
+future session will ever read. Biology already solved this with the third option: **sleep, then
+wake** — the nightly, lossy, *intentional* move that keeps what the day taught and discards the lived
+texture of it, followed by the morning that opens carrying exactly that. You don't keep the dream;
+you keep the lesson — and the next self picks it up.
 
 ```mermaid
 flowchart LR
     S[Working session<br/>the lived experience] --> Q{{/sleep<br/>one filter}}
     Q -->|FACT· decisions+why · gotchas<br/>· user prefs · project state| M[(Long-term store<br/>memory/ · lessons-learnt · AGENTS.md)]
     Q -->|EXPERIENCE· play-by-play · dead ends<br/>· emotional weather · already-in-repo| X[evaporates]
-    M --> N[Next session<br/>wakes carrying only what mattered]
+    Q --> C[/clear<br/>the eye closes/]
+    C --> W{{/wake<br/>auto-fired on the<br/>fresh session}}
+    M -.->|reads back only the FACTs| W
+    W --> N[Next session<br/>opens carrying only what mattered]
     classDef gate fill:#1b1b1b,stroke:#d4af37,color:#fff;
     class Q gate;
+    class W gate;
 ```
 
-**The mechanism.** `/sleep` runs the whole session through one question — *what must survive the
-session ending, and what was only the texture of getting there?* — sorts every item into **FACT**
-(persists) or **EXPERIENCE** (evaporates), **auto-detects the repo's own store** and writes in *that*
-store's format, **shows the consolidation envelope before writing** (memory is hard to un-write), and
-**dedups and prunes** rather than piling up. It is the same human-in-the-loop, measure-don't-sprawl
-discipline as the rest of this system, pointed at the agent's memory instead of the manuscript.
+**The mechanism — the dusk half.** `/sleep` runs the whole session through one question — *what must
+survive the session ending, and what was only the texture of getting there?* — sorts every item into
+**FACT** (persists) or **EXPERIENCE** (evaporates), **auto-detects the repo's own store** and writes
+in *that* store's format, **shows the consolidation envelope before writing** (memory is hard to
+un-write), and **dedups and prunes** rather than piling up. It ends by handing you a one-tap `/clear`:
+consolidation isn't finished until the eye actually closes, and the lived texture is *meant* to go.
+
+**The mechanism — the dawn half.** `/wake` is the deliberate mirror. On the fresh session it reads the
+*same* store `/sleep` wrote to, asks the inverse question — *what did the last self leave that this
+session must carry, and what here is now stale?* — loads the handful of facts that bear on the work
+ahead, and **verifies anything that names a concrete artifact** (a file, flag, or date a memory
+mentions may have rotted since it was written) before trusting it. It only reads; it never rewrites
+the store on the way in. A global `SessionStart` hook fires it automatically, so the loop closes
+itself: **`/sleep` writes → `/clear` → `/wake` recalls**, and the next session opens already knowing
+where it is instead of from amnesia.
 
 | Design choice | Why it matters to an engineering leader |
 |---|---|
 | **Lossy on purpose** | the value of a memory store is everything it *didn't* write; a store that swallows everything is noise. Signal beats volume — the same reason evals gate regressions instead of logging everything. |
-| **Store-agnostic** | one ritual across a polyglot estate — a Cursor repo's `lessons-learnt.mdc` and a Claude-native `memory/` dir are written in their own idioms, no new format imposed. |
+| **Store-agnostic** | one ritual across a polyglot estate — a Cursor repo's `lessons-learnt.mdc` and a Claude-native `memory/` dir are read and written in their own idioms, no new format imposed. `/wake` detects the same store `/sleep` wrote to. |
 | **Envelope before write** | the human approves what their future self inherits; nothing outward-facing or durable is persisted blind. |
-| **Reflex via hooks, not magic** | a `PreCompact` / `SessionEnd` hook *reminds*; it never silently writes — the human keeps the brake. |
+| **Recall verifies, never trusts blind** | `/wake` checks any remembered file/flag/date against the live repo before acting on it — a memory is what was true when written, not a standing instruction. |
+| **A full cycle, not a save button** | `/sleep` ends in a `/clear` and `/wake` opens the next session — sleep, clear, wake is one loop, the way a night ends in a morning, not a one-off export. |
+| **Reflex via hooks, not magic** | a `PreCompact` / `SessionEnd` hook reminds you to `/sleep`; a `SessionStart` hook fires `/wake`. Hooks *nudge and orient* — they never silently write to memory; the human keeps the brake on what persists. |
 
-**It is open source.** The skill, the reminder hook, and the install steps are public, MIT-licensed:
+**It is open source.** Both skills, the reminder hooks, and the install steps are public, MIT-licensed:
 **[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. The
 longer-form story of where it came from — and the conversation about what it means for a machine to
 "remember" at all — is in [The kettle and the blink](../site/content/writing/the-kettle-and-the-blink.md)
 on the press site.
 
 > The discipline is the same one this whole document argues for: **the human authors; the machine
-> measures, filters, and asks before it commits.** `/sleep` just applies it one layer up — to memory
-> itself.
+> measures, filters, and asks before it commits.** `/sleep` and `/wake` just apply it one layer up — to
+> memory itself: filter what's kept at dusk, verify what's recalled at dawn.
