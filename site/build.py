@@ -142,6 +142,7 @@ APP_FORM_URL = os.environ.get("ABP_APP_FORM_URL", "")
 # audition with what they already own, plus science-grounded room and mic technique.
 AUTHORING_FORM_URL = os.environ.get("ABP_AUTHORING_FORM_URL", "")
 AUDITION_FORM_URL = os.environ.get("ABP_AUDITION_FORM_URL", "")
+ILLUSTRATOR_AUDITION_FORM_URL = os.environ.get("ABP_ILLUSTRATOR_AUDITION_FORM_URL", "")
 
 # ── Audio + print marketplace intake ─────────────────────────────────────────────────────────
 # Marketplace MVP is supply/demand discovery, not bidding software: collect narrators, authors,
@@ -581,8 +582,8 @@ SHELF_TAGLINE = {
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
     "Children's Library": (
         "Picture books for reading out loud — one lamp, one child, one story. Only titles with "
-        "finished, committed cover art land here. Local illustrators and children's writers: the "
-        "press wants to print your work in hard copy, in any language — write to info@arjunabadger.press."
+        "finished, committed cover art land here. The shelf is marching toward 100% real human "
+        "illustration. South African and African illustrators: see Illustrator audition in the menu."
     ),
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
@@ -652,16 +653,11 @@ BOOK_NOTICE = {
         "<strong>not for commercial release</strong> unless and until such permission is granted."
     ),
     "the-little-key": (
-        "<strong>The illustrations in this book are AI-generated.</strong> Every spread was created "
-        "with AI image tools (ChatGPT/OpenRouter). That is stated plainly here because arjunabadger.press "
-        "does not hide how its books are made. Some spreads are still placeholder art while the final "
-        "paintings are finished; the story and the words are original throughout."
-        "<br><br>"
-        "In the spirit of this house (books free to read, craft shared in the open), the press would "
-        "love to <strong>collaborate with local illustrators and children's book writers</strong> to "
-        "bring their work to hard-copy print, in <strong>any language</strong>. If you make picture "
-        "books and want yours on this shelf, translated into every South African language and Swahili, "
-        'write to <a href="mailto:info@arjunabadger.press">info@arjunabadger.press</a>.'
+        "<strong>The illustrations in this book are AI-generated interim art.</strong> Every spread "
+        "was made with AI image tools while the press searches for a human illustrator. That is stated "
+        "plainly here because arjunabadger.press does not hide how its books are made. The story and "
+        "the words are original throughout. The paintings are not finished yet, and they are not meant "
+        "to stay machine-made."
     ),
 }
 
@@ -673,11 +669,35 @@ BOOK_NOTICE_HEAD = {
 # Book ids whose BOOK_NOTICE renders with a louder visual treatment (sting accent, not ochre).
 BOOK_NOTICE_LOUD = {"the-little-key"}
 
+# Optional loud recruitment / call-to-arms block on the book page (trusted HTML, keyed by book id).
+BOOK_CALLOUT = {
+    "the-little-key": (
+        '<div class="book-callout" style="margin-top:28px;padding:22px 24px;border:2px solid #7FB069;'
+        'border-radius:14px;background:linear-gradient(135deg,rgba(127,176,105,.14),rgba(22,21,19,.92))">'
+        '<p style="margin:0 0 .5em;font-size:.78em;letter-spacing:.12em;text-transform:uppercase;'
+        'color:#7FB069;font-family:&quot;Space Grotesk&quot;,sans-serif">Call to illustrators</p>'
+        "<h2 style=\"margin:0 0 .65em;font-family:&quot;Cormorant Garamond&quot;,serif;font-size:1.65em;"
+        'line-height:1.2;color:var(--bone)">South African and African illustrators: paint this shelf</h2>'
+        "<p style=\"margin:0 0 .9em;color:var(--bonedim);font-size:1.02em;line-height:1.65\">"
+        "Arjuna Badger Press is building a Children's Library on <strong>100% real human art and skill</strong>. "
+        "No permanent AI illustration. No hiding the machine phase while we hunt for the right hands. "
+        "<em>The Little Key</em> is the first open commission: we need an illustrator to replace every "
+        "AI spread with hand-made paintings, credited by name, ready for hard-copy print in "
+        "<strong>any language</strong> (every South African official language and Swahili).</p>"
+        "<p style=\"margin:0 0 1.1em;color:var(--bonedim);font-size:1.02em;line-height:1.65\">"
+        "If you illustrate for children, this is a call to arms. Show us your portfolio. Paint one "
+        "sample spread or character sheet. Help this house cross from interim machine art to work a "
+        "child can hold that was made by a person in their own country.</p>"
+        '<a class="btn" href="../illustrator-audition.html" style="margin-top:4px">'
+        "Audition as an illustrator &rarr;</a></div>"
+    ),
+}
+
 # Short disclosure on the library shelf card (under the blurb).
 BOOK_CARD_DISCLOSURE = {
     "the-little-key": (
-        '<p class="card-disclosure"><strong>AI-generated illustrations</strong> — declared openly on '
-        "the book page.</p>"
+        '<p class="card-disclosure"><strong>AI interim art</strong> — hunting a human illustrator. '
+        '<a href="illustrator-audition.html">Audition here</a>.</p>'
     ),
 }
 
@@ -2456,7 +2476,8 @@ def nav_drawer_links(rel: str = "") -> str:
         f'<a href="{rel}for-authors.html">Workshop</a>'
         f'<a href="{rel}authoring.html">Phone authoring</a>'
         f'<a href="{rel}narrators.html">Narrators</a>'
-        f'<a href="{rel}audition.html">Audition guide</a>'
+        f'<a href="{rel}audition.html">Narrator audition</a>'
+        f'<a class="navhot" href="{rel}illustrator-audition.html">Illustrator audition</a>'
         f'<a href="{rel}marketplace.html">Marketplace</a>'
         f'<a href="{rel}printing.html">Printing</a>'
         f'<a href="{rel}distribution.html">Direct distribution</a>'
@@ -3901,6 +3922,7 @@ def render_book(e: dict) -> str:
             f'color:{notice_accent}">{html.escape(notice_head)}</p>'
             f'<p style="margin:0;color:var(--bonedim);font-size:.95em;line-height:1.6">{BOOK_NOTICE[e["id"]]}</p>'
             '</div>')
+    callout_html = BOOK_CALLOUT.get(e["id"], "")
     full = html.escape(e["blurb"]) if e["blurb"] else ""
     fix_link = ""
     if TRANSLATION_FIX_LIVE and eds:
@@ -3931,7 +3953,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{notice_html}{isbn_html}
+<p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{callout_html}{notice_html}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
@@ -6209,6 +6231,102 @@ music bed, or extreme noise reduction. A truthful clean voice is easier to cast 
     ])
 
 
+def render_illustrator_audition_page() -> str:
+    """Open audition for South African and African children's book illustrators."""
+    illust_subject = urllib.parse.quote("Illustrator audition - Children's Library")
+    form_target = (
+        html.escape(ILLUSTRATOR_AUDITION_FORM_URL)
+        if ILLUSTRATOR_AUDITION_FORM_URL else
+        f"mailto:{PRIVATE_EMAIL}?subject={illust_subject}"
+    )
+    form_enctype = "" if ILLUSTRATOR_AUDITION_FORM_URL else ' enctype="text/plain"'
+    portfolio_note = (
+        '<p class="intake-note">Large image files do not travel reliably through email forms. Host your '
+        "portfolio and sample spreads anywhere you control (Google Drive, Behance, Instagram, a personal "
+        "site), then paste the links below.</p>"
+        if not ILLUSTRATOR_AUDITION_FORM_URL else ""
+    )
+    return "\n".join([
+        head("Illustrator audition — Arjuna Badger Press",
+             "Open audition for South African and African children's book illustrators. The Children's "
+             "Library is marching to 100% real human art: paint picture books for hard-copy print in "
+             "any language.",
+             canonical=f"{DOMAIN}/illustrator-audition.html"),
+        nav(),
+        f"""<article class="reader letter narrator-page">
+<img class="letter-crest" src="assets/brand/safari-mark.png" alt="Arjuna Badger Press">
+<p class="eyebrow" style="text-align:center;color:#7FB069">Children's Library · illustrator auditions</p>
+<h1 style="text-align:center">100% real human art</h1>
+<p class="intro" style="text-align:center">Arjuna Badger Press is building a picture-book shelf that runs on
+<strong>real human illustration and skill</strong>, not permanent machine art. <em>The Little Key</em> is the
+first open seat. South African and African illustrators are invited to audition.</p>
+
+<div class="intake-grid" aria-label="Illustrator audition principles">
+<div class="intake-card"><span class="charge" style="color:#7FB069">Honesty</span>
+<strong>AI is interim only</strong><p>Machine-made spreads are placeholders, declared openly, until a human painter replaces them.</p></div>
+<div class="intake-card"><span class="charge" style="color:#7FB069">Credit</span>
+<strong>Named on the book</strong><p>Illustrators are credited on the page, in print, and in the colophon.</p></div>
+<div class="intake-card"><span class="charge" style="color:#7FB069">Print</span>
+<strong>Hard copy in any language</strong><p>Picture books aim for real print runs in every South African language and Swahili.</p></div>
+<div class="intake-card"><span class="charge" style="color:#7FB069">Open door</span>
+<strong>Your book too</strong><p>Children's writers with finished manuscripts are welcome alongside illustrators.</p></div>
+</div>
+
+<div class="entry"><span class="charge">What we are looking for</span>
+<p>Picture-book illustrators based in South Africa or anywhere on the African continent. Watercolour,
+gouache, ink, collage, or careful digital work painted by a human hand. You should be able to hold a
+child's attention across fourteen landscape spreads, leave room for verse overlaid on the art, and
+paint places and people with respect. We are not asking for a mimic of the current AI look. We are
+asking for <strong>your</strong> eye.</p></div>
+
+<div class="entry"><span class="charge">The first commission: <em>The Little Key</em></span>
+<p>A girl named Thembi finds an old brass key and an old cupboard in her grandmother's house. The story
+is set in South Africa; the tone is warm, quiet, and read-aloud. Read it free at
+<a href="read/the-little-key.html">read/the-little-key.html</a>. The cover art is in place; the
+spread paintings are the audition brief. Replace the interim AI art spread by spread, or show us how
+you would paint Thembi, the cupboard, and the light in that room.</p></div>
+
+<div class="entry"><span class="charge">What to send</span>
+<p>Your portfolio link, city and country, languages you work in, and <strong>one</strong> of the
+following: two character sketches for <em>The Little Key</em>, one finished sample spread (landscape,
+3:2), or three spreads from a picture book you have already published. Tell us your medium, your
+turnaround, and whether you are open to royalty, fee, or a hybrid. Links only; do not attach huge
+files to the form.</p></div>
+
+<div class="entry"><span class="charge">Where this goes</span>
+<p>Accepted illustrators land on the Children's Library shelf with finished, credited cover and spread
+art. The press coordinates small-batch print through its
+<a href="printing.html">print marketplace</a>. The long aim: a shelf a child can hold that was painted
+by people from their own continent.</p></div>
+
+{linkout_or_form(ILLUSTRATOR_AUDITION_FORM_URL, button_label="Open the illustrator form", lead="Send your portfolio and sample links. Tell us where you are and what you paint.", inline_form=f'''<form class="intake-form" data-form-name="illustrator-audition" action="{form_target}" method="post"{form_enctype}>
+<label>Name<input name="name" autocomplete="name" required></label>
+<label>Email<input name="email" type="email" autocomplete="email" required></label>
+<label>Country / city<input name="location" autocomplete="address-level1" required></label>
+<label>Languages<input name="languages" placeholder="English, isiZulu, Afrikaans, Kiswahili..." required></label>
+<label>Medium<input name="medium" placeholder="Watercolour, gouache, ink, Procreate, mixed media..."></label>
+<label>Portfolio link<input name="portfolio_link" type="url" placeholder="https://..." required></label>
+<label>Sample work link<input name="sample_link" type="url" placeholder="Character sheet, spread, or published book — https://..." required></label>
+<label>Commercial preference
+<select name="commercial_preference" required>
+<option value="">Choose one</option>
+<option>Fee per spread / per book</option>
+<option>Reduced fee plus print royalty</option>
+<option>Royalty-only for the right project</option>
+<option>Open to discussion</option>
+</select></label>
+<label>Anything we should know<textarea name="notes" rows="5" placeholder="Published titles, turnaround, themes you love, whether you also write for children, links to more work..."></textarea></label>
+{portfolio_note}
+<button class="btn" type="submit">Send illustrator audition &rarr;</button>
+</form>''')}
+
+<p style="text-align:center;margin-top:44px"><a class="back" href="book/the-little-key.html">&larr; Back to <em>The Little Key</em></a>
+ · <a class="back" href="index.html#library">Library</a></p>
+</article>""",
+        footer(),
+    ])
+
+
 def render_marketplace_page() -> str:
     """Combined audio + print marketplace positioning page."""
     form_target = (
@@ -7240,6 +7358,7 @@ def main() -> None:
     (OUT / "reader.html").write_text(render_reader_app(), encoding="utf-8")
     (OUT / "authoring.html").write_text(render_authoring_page(), encoding="utf-8")
     (OUT / "audition.html").write_text(render_audition_page(), encoding="utf-8")
+    (OUT / "illustrator-audition.html").write_text(render_illustrator_audition_page(), encoding="utf-8")
     (OUT / "marketplace.html").write_text(render_marketplace_page(), encoding="utf-8")
     (OUT / "printing.html").write_text(render_print_page(), encoding="utf-8")
     if FOREWORD_CONTEST_LIVE:                        # foreword competition page
