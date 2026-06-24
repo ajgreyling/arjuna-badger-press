@@ -195,8 +195,8 @@ EDITION_LANGS = {
 # Picking a language is a SITE-WIDE preference (persisted to localStorage as `abp_lang`): on any
 # book page that has an edition in the chosen language, the primary DOWNLOAD buttons default to
 # that language's EPUB/PDF. Books without the chosen edition fall back to English with a quiet note.
-# (Read-online stays English — there are no per-language reader pages yet.) The site chrome itself
-# stays in English — this is edition defaulting, not a full UI translation.
+# Picture-book readers swap overlay verse from build/chapters/PICTURE_BOOK.<lang>.md when present.
+# The site chrome itself stays in English — this is edition defaulting, not a full UI translation.
 # AVAILABLE_LANGS is the ordered list of codes (excluding "en") with ≥1 edition anywhere in the
 # catalogue; it is populated in main() from scan() before any page is rendered.
 AVAILABLE_LANGS: list[str] = []
@@ -207,6 +207,7 @@ def compute_available_langs(entries: list[dict]) -> list[str]:
     present = set()
     for e in entries:
         present.update((e.get("editions") or {}).keys())
+        present.update(e.get("picture_langs") or ())
     return [c for c in EDITION_LANGS if c in present]
 
 
@@ -597,6 +598,7 @@ BOOK_TAGLINE = {
     "modern-sherlock-4": "A Modern Retelling, True to the Original",
     "modern-sherlock-5": "A Modern Retelling, True to the Original",
     "henry-sugar":       "A Faithful Retelling for Adults, True to Dahl",
+    "the-first-unplugged": "A Faithful Retelling for Adults, True to Heinlein",
 }
 
 # Per-book attribution / honor notice shown as a bordered block on the book page. For modern
@@ -864,15 +866,14 @@ CURATED = [
      "_comingsoon/hbt-sudwala", "build/export",
      "Sudwala breathes — six hundred metres of show cave and a wind no survey has ever traced to its source. Coming soon."),
 
-    # ── Faithful Modern — faithful-modern homages to the SF greats ──────────────────────────────
+    # ── Faithful Modern — faithful retellings / homages to the greats ───────────────────────────
     ("the-dreaming", "The Dreaming", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
      "the-dreaming", "build/export",
      "In an underfunded applied-cognition lab, a long-running synthetic mind named Klaus is given the human mechanics of dreaming — and every night a Court inside him sits down to sort the day, keeping the lesson and letting go of the lecture. A faithful-modern homage to the question behind Do Androids Dream of Electric Sheep? — the craft and the engine, not the text; every name and sentence original. Provenance disclosed; an unauthorised homage, not a licensed adaptation."),
 
-    # ── Standalone (drafting) ───────────────────────────────────────────────────────────────────
     ("the-first-unplugged", "The First Unplugged", "Faithful Modern · after Robert A. Heinlein", "Faithful Modern",
      "_comingsoon/the-first-unplugged", "build/export",
-     "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment. Coming soon."),
+     "A mind restored to a human body must re-learn what a person is — then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment."),
 
     ("henry-sugar", "Henry Sugar", "Faithful Modern · after Roald Dahl", "Faithful Modern",
      "henry-sugar", "build/export",
@@ -1367,6 +1368,7 @@ def scan() -> list[dict]:
         book_md = root / "build" / "BOOK.md"
         reader_md = None
         reader_src = None
+        picture_langs: list[str] = []
         can_read = cid in SERIAL or (cid in PUBLISHED and cid not in WORKSHOP_HOLD)
         if can_read:
             if cid in PICTURE_BOOKS:
@@ -1375,6 +1377,9 @@ def scan() -> list[dict]:
                 pb = root / "build" / "chapters" / "PICTURE_BOOK.md"
                 if pb.is_file():
                     reader_md = pb.read_text(encoding="utf-8", errors="ignore")
+                    picture_langs = [
+                        c for c in picture_book_manuscripts(root, cid) if c != "en"
+                    ]
             elif book_md.is_file():
                 reader_src = book_md
             else:
@@ -1394,6 +1399,7 @@ def scan() -> list[dict]:
             "available": can_read and (cid in SERIAL or cid in PICTURE_BOOKS or bool(downloads)),
             "isbn": book_isbn(root),
             "audiobook": audiobook if (cid in PUBLISHED and cid not in WORKSHOP_HOLD) else None,
+            "picture_langs": picture_langs,
         })
     if hidden_proc:
         print(f"  (procedural covers hidden from shelf: {len(hidden_proc)} — "
@@ -1742,31 +1748,58 @@ section.series{padding:46px 0 8px}
 .reader h2{font-size:30px;margin-top:2.2em;text-align:center;color:var(--gold);font-weight:700}
 .reader p{margin:0 0 1.1em} .reader .rule{border:0;text-align:center;margin:2em 0}
 .reader .rule:after{content:"\\2766";color:var(--ochre);font-size:20px}
-/* ── Picture book — full-bleed illustrated spreads, read-aloud verse caption ─────────────────────
-   A children's title is not a column of prose: each spread is one large painterly image with a
-   few lines of read-aloud text beneath it, sized to feel like turning a page. The art carries the
-   feeling before a child can read the words. Generous, warm, lots of air; the refrain set apart. */
-.picture-book{max-width:880px;margin:0 auto;padding:34px 20px 96px;font-family:var(--reading)}
-.picture-head{text-align:center;padding:24px 0 8px}
-.picture-head h1{font-family:"Cormorant Garamond",serif;font-size:48px;font-weight:700;margin:.1em 0}
-.picture-byline{color:var(--ochre);font-style:italic;font-size:19px;margin:.2em 0 0;
+/* ── Picture book — landscape spreads, verse overlaid on quieter image areas ───────────────────
+   Each spread is a full-bleed 3:2 landscape page; read-aloud text sits ON the art (not beneath
+   it) in a corner chosen per spread so it lands in the less busy area. A soft scrim keeps the
+   words legible. Scroll-snap gives a page-turn rhythm on wide screens. */
+body.pb-reader{background:#080706}
+body.pb-reader main#main{padding:0;max-width:none}
+.picture-book{max-width:none;width:100%;margin:0;padding:0 0 56px;font-family:var(--reading)}
+.picture-head{text-align:center;padding:20px 20px 12px;max-width:720px;margin:0 auto}
+.picture-head h1{font-family:"Cormorant Garamond",serif;font-size:clamp(32px,5vw,44px);font-weight:700;margin:.1em 0}
+.picture-byline{color:var(--ochre);font-style:italic;font-size:18px;margin:.2em 0 0;
   font-family:"Cormorant Garamond",serif}
-.spread{margin:0 0 64px;text-align:center}
-.spread img{display:block;width:100%;height:auto;border-radius:16px;
-  box-shadow:0 22px 60px rgba(0,0,0,.5);background:var(--card);
-  aspect-ratio:3/2;object-fit:cover}
-.spread-text{margin:26px auto 0;max-width:34ch;font-size:23px;line-height:1.6;
-  color:var(--bone);font-weight:500;text-wrap:balance}
-.spread-text .refrain{display:inline-block;margin:.5em 0;color:var(--ochre);font-style:italic;
-  font-family:"Cormorant Garamond",serif;font-size:25px;line-height:1.45}
-.spread-text .spread-gap{display:block;height:.55em}
-.picture-book .spread:last-of-type{margin-bottom:24px}
+.pb-lang-note{margin:0;font-size:13px;color:var(--grass);font-family:"Space Grotesk",sans-serif}
+.pb-lang-note.is-fallback{color:var(--bonedim)}
+.pb-readbar-inner{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.picture-spreads{display:flex;flex-direction:column;gap:clamp(10px,2vw,22px);padding:8px 0 0}
+.spread.landscape{position:relative;margin:0 auto;width:min(100%,1180px);
+  aspect-ratio:3/2;overflow:hidden;background:var(--card);
+  box-shadow:0 18px 50px rgba(0,0,0,.45);scroll-snap-align:center}
+.picture-spreads.snap{scroll-snap-type:y proximity}
+.spread.landscape img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.spread.landscape.scrim-bottom::before,.spread.landscape.scrim-top::before,.spread.landscape.scrim-full::before{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none}
+.spread.landscape.scrim-bottom::before{
+  background:linear-gradient(to top,rgba(6,5,4,.78) 0%,rgba(6,5,4,.28) 42%,transparent 68%)}
+.spread.landscape.scrim-top::before{
+  background:linear-gradient(to bottom,rgba(6,5,4,.78) 0%,rgba(6,5,4,.28) 42%,transparent 68%)}
+.spread.landscape.scrim-full::before{background:linear-gradient(180deg,rgba(6,5,4,.35),rgba(6,5,4,.35))}
+.spread-overlay{position:absolute;z-index:2;margin:0;padding:0;border:0;
+  color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.9),0 2px 16px rgba(0,0,0,.55);
+  font-size:clamp(16px,2.35vw,25px);line-height:1.48;font-weight:600;text-wrap:balance;
+  pointer-events:none}
+.spread-overlay.pos-bl{bottom:7%;left:5%;max-width:46%;text-align:left}
+.spread-overlay.pos-br{bottom:7%;right:5%;max-width:46%;text-align:right}
+.spread-overlay.pos-tl{top:7%;left:5%;max-width:46%;text-align:left}
+.spread-overlay.pos-tr{top:7%;right:5%;max-width:46%;text-align:right}
+.spread-overlay.pos-bc{bottom:6%;left:50%;transform:translateX(-50%);max-width:62%;text-align:center}
+.spread-overlay.pos-cc{top:50%;left:50%;transform:translate(-50%,-50%);max-width:54%;text-align:center}
+.spread-overlay .refrain{display:block;margin:.45em 0 0;color:#f0d9a8;font-style:italic;
+  font-family:"Cormorant Garamond",serif;font-size:1.08em;line-height:1.4;font-weight:600}
+.spread-overlay .spread-gap{display:block;height:.45em}
+.picture-book .spread.landscape:last-of-type{margin-bottom:8px}
+@media(min-width:900px){
+  body.pb-reader .picture-spreads{padding:12px 16px 0}
+  .spread.landscape{border-radius:4px}
+}
 @media(max-width:640px){
-  .picture-head h1{font-size:36px}
-  .spread{margin-bottom:48px}
-  .spread img{border-radius:12px}
-  .spread-text{font-size:20px;max-width:30ch}
-  .spread-text .refrain{font-size:21px}
+  .picture-head h1{font-size:30px}
+  .spread-overlay{font-size:15px;line-height:1.42}
+  .spread-overlay.pos-bl,.spread-overlay.pos-br,.spread-overlay.pos-tl,.spread-overlay.pos-tr,
+  .spread-overlay.pos-bc,.spread-overlay.pos-cc{max-width:88%;left:6%;right:6%;transform:none;text-align:left}
+  .spread-overlay.pos-br,.spread-overlay.pos-tr{text-align:right;left:auto}
+  .spread-overlay.pos-bc,.spread-overlay.pos-cc{left:6%;right:6%;text-align:center}
 }
 /* ── Code fences + Mermaid diagrams ────────────────────────────────────────────────────────── */
 pre code{display:block;padding:16px 18px;background:#161513;border:1px solid var(--line);
@@ -2428,17 +2461,21 @@ def nav_drawer_links(rel: str = "") -> str:
     )
 
 
-def nav(rel: str = "") -> str:
+def nav_bar(rel: str = "") -> str:
+    """Top nav + drawer only — for pages that open their own <main> (readers, etc.)."""
     links = nav_drawer_links(rel)
-    # Pure-CSS toggle (checkbox hack) — drawer-only at all breakpoints; no inline top nav.
     return f"""<input type="checkbox" id="navtoggle" class="navtoggle" hidden>
 <div class="nav"><div class="wrap">
 <a class="brandlink" href="{rel}index.html"><img src="{rel}assets/brand/{CORNER_MARK}" alt="Arjuna Badger Press">Arjuna Badger Press</a>
 {lang_bar(rel)}<label for="navtoggle" class="hamburger" aria-label="Open menu" aria-controls="navdrawer" aria-expanded="false"><span></span><span></span><span></span></label>
 </div></div>
 <label for="navtoggle" class="navscrim" aria-hidden="true"></label>
-<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>
-{trust_banner(rel)}{audiobook_notice()}<main id="main">"""
+<nav class="navdrawer" id="navdrawer"><label for="navtoggle" class="navclose" aria-label="Close menu">&times;</label>{links}</nav>"""
+
+
+def nav(rel: str = "") -> str:
+    # Pure-CSS toggle (checkbox hack) — drawer-only at all breakpoints; no inline top nav.
+    return nav_bar(rel) + f"{trust_banner(rel)}{audiobook_notice()}<main id=\"main\">"
 
 
 def safari_nav_drawer_links(rel: str = "") -> str:
@@ -2728,7 +2765,49 @@ def lang_script() -> str:
     }
   }
 
-  function apply(code){lang=code;applyBook(code);}
+  function applyPictureBook(code){
+    var article=document.querySelector(".picture-book[data-pb]");
+    var dataEl=document.getElementById("pb-data");
+    if(!article||!dataEl)return;
+    var langs;
+    try{langs=JSON.parse(dataEl.textContent);}catch(e){return;}
+    var pack=langs[code]||langs.en;
+    if(!pack)return;
+    var fallback=code!=="en"&&!langs[code];
+    var head=article.querySelector(".picture-head");
+    if(head){
+      var h1=head.querySelector("h1");
+      if(h1&&pack.title)h1.textContent=pack.title;
+      var by=head.querySelector(".picture-byline");
+      if(pack.byline){
+        if(by)by.textContent=pack.byline;
+        else{
+          by=document.createElement("p");
+          by.className="picture-byline";
+          by.textContent=pack.byline;
+          h1.after(by);
+        }
+      }else if(by){by.remove();}
+    }
+    (pack.spreads||[]).forEach(function(s){
+      var cap=article.querySelector('.spread-overlay[data-spread="'+s.n+'"]');
+      if(cap&&s.html!=null)cap.innerHTML=s.html;
+    });
+    article.setAttribute("lang",code==="en"?"en-ZA":code);
+    var note=document.querySelector(".pb-lang-note");
+    if(note){
+      if(code==="en"){note.hidden=true;note.textContent="";note.classList.remove("is-fallback");}
+      else if(fallback){
+        note.hidden=false;note.classList.add("is-fallback");
+        note.textContent="No "+NAMES[code]+" edition yet — showing English.";
+      }else{
+        note.hidden=false;note.classList.remove("is-fallback");
+        note.textContent="Reading in "+NAMES[code]+".";
+      }
+    }
+  }
+
+  function apply(code){lang=code;applyBook(code);applyPictureBook(code);}
 
   // Wire the nav selector(s) and reflect the stored choice on load.
   var sels=document.querySelectorAll(".langbar-sel");
@@ -3002,7 +3081,7 @@ START_QUIZ = {
             ("An ancient-mystery adventure", {"book1-africa": 5, "relic": 4, "book2-india": 3, "book5-egypt": 3, "crop-circles": 3}),
             ("A true story of real people", {"sheltering-desert": 5, "project-stargate": 4, "jakobus-silver-thread": 3, "wrath-of-achilles": 2}),
             ("Something quiet, literary and human", {"the-loneliest": 5, "unheard-japan": 4, "jakobus-the-recitation": 3, "the-song-of-the-self": 3}),
-            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4, "henry-sugar": 4}),
+            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4, "henry-sugar": 4, "the-first-unplugged": 4}),
         ],
     },
     "q2": {
@@ -3017,6 +3096,7 @@ START_QUIZ = {
             ("Bruce Chatwin · travel & peoples", {"unheard-mongolia": 6, "australia-outback": 4, "unheard-japan": 2}),
             ("Annie Jacobsen · Jon Ronson (the strange-but-true)", {"project-stargate": 6, "crop-circles": 4}),
             ("Homer · Madeline Miller (myth)", {"wrath-of-achilles": 6, "the-song-of-the-self": 3}),
+            ("Robert A. Heinlein · Stranger in a Strange Land", {"the-first-unplugged": 6, "resonance": 2}),
             ("Hermann Hesse · Paulo Coelho (the inward journey)", {"the-song-of-the-self": 6, "the-loneliest": 2}),
         ],
     },
@@ -6572,41 +6652,42 @@ def render_reader(e: dict) -> str:
 
 
 # ── Picture-book reader ──────────────────────────────────────────────────────────────────────
-# A picture book is neither prose nor verse: it is a sequence of full-bleed illustrated spreads,
-# each one image + a few lines of read-aloud text. The source (build/chapters/PICTURE_BOOK.md)
-# marks each spread with an HTML comment carrying the image + alt, followed by the stanza text:
+# Landscape spreads with verse overlaid on the art. Source: build/chapters/PICTURE_BOOK.md (and
+# PICTURE_BOOK.<lang>.md siblings for translated overlay text). Spread markers:
 #
-#   <!-- spread:5 image="spread-05-awake.png" alt="…" -->
-#   But in the morning —
-#   Nkwe was breathing.
+#   <!-- spread:5 image="spread-05-awake.png" alt="…" textPos="bc" scrim="bottom" -->
 #
-# Lines wrapped in *asterisks* on their own are treated as the refrain (styled apart). The image
-# is resolved + copied by prepare_reader_images() exactly like a normal reader image, so art lands
-# in read/assets/<id>/ with no special asset plumbing.
+# textPos: bl | br | tl | tr | bc | cc (where the verse sits on the quieter part of the art).
+_PB_TEXT_POS = frozenset({"bl", "br", "tl", "tr", "bc", "cc"})
+_PB_SCRIM_FOR_POS = {"bl": "bottom", "br": "bottom", "bc": "bottom", "cc": "full",
+                     "tl": "top", "tr": "top"}
 _SPREAD_RE = re.compile(
-    r'<!--\s*spread:(\d+)\s+image="([^"]+)"(?:\s+alt="([^"]*)")?\s*-->\s*\n(.*?)(?=\n<!--\s*spread:|\Z)',
+    r'<!--\s*spread:(\d+)\s+image="([^"]+)"(?:\s+alt="([^"]*)")?'
+    r'(?:\s+textPos="([^"]*)")?(?:\s+scrim="([^"]*)")?\s*-->\s*\n'
+    r'(.*?)(?=\n<!--\s*spread:|\Z)',
     re.DOTALL,
 )
 
 
-def _picture_book_spreads(md: str):
-    """Yield (number, image_src, alt, text) for each spread marker in the manuscript."""
-    for m in _SPREAD_RE.finditer(md):
-        num, img, alt, text = m.group(1), m.group(2), (m.group(3) or ""), m.group(4)
-        yield int(num), img, alt, text.strip("\n")
+def picture_book_manuscripts(root: Path, book_id: str) -> dict[str, str]:
+    """All picture-book manuscripts on disk: PICTURE_BOOK.md (en) + PICTURE_BOOK.<lang>.md."""
+    chap = root / "build" / "chapters"
+    out: dict[str, str] = {}
+    master = chap / "PICTURE_BOOK.md"
+    if master.is_file():
+        out["en"] = apply_picture_book_tokens(
+            master.read_text(encoding="utf-8", errors="ignore"), book_id)
+    for f in sorted(chap.glob("PICTURE_BOOK.*.md")):
+        code = f.stem.split(".", 1)[-1].lower()
+        if code in EDITION_LANGS and code not in out:
+            out[code] = apply_picture_book_tokens(
+                f.read_text(encoding="utf-8", errors="ignore"), book_id)
+    return out
 
 
-def render_picture_book(e: dict) -> str:
-    """Render a children's picture book as a stack of full-bleed illustrated spreads."""
-    md = e.get("prepared_reader_md") or e.get("reader_md") or ""
-    # Personalise: substitute the {{CHILD}} / {{DEDICATION}} tokens (house defaults for the public
-    # read-online edition; a per-order print run sets ABP_CHILD / ABP_DEDICATION).
-    md = apply_picture_book_tokens(md, e["id"])
-    # Title + the italic line under it (a dedication or a byline — both render as the sub-line).
-    # Only an italic line that appears BEFORE the first spread marker counts (refrains inside the
-    # body are also *…*-wrapped and must not be mistaken for the byline).
-    title = e["title"]
-    byline = ""
+def _picture_book_head(md: str) -> tuple[str, str]:
+    """Title + byline from the manuscript preamble (before the first spread marker)."""
+    title, byline = "", ""
     for ln in md.splitlines():
         s = ln.strip()
         if s.startswith("<!-- spread:"):
@@ -6615,50 +6696,110 @@ def render_picture_book(e: dict) -> str:
             title = s[2:].strip()
         elif s.startswith("*") and s.endswith("*") and len(s) > 2 and not byline:
             byline = s.strip("*").strip()
+    return title, byline
 
-    spreads_html = []
-    for num, img, alt, text in _picture_book_spreads(md):
-        # prepare_reader_images already rewrote the image path to assets/<id>/<file>; if it left a
-        # raw filename (no copy happened), fall back to the same convention so the page still wires.
-        src = img if img.startswith(("http", "assets/")) else f"assets/{e['id']}/{img}"
-        # Split the stanza into verse lines. A *…* span — single OR multi-line — is the refrain,
-        # set apart in italic. (Manuscript wraps the refrain as e.g. "*You can wake a thing.\n
-        # That is the easy part.*", so opening and closing asterisks are on different lines.)
-        lines = []
-        in_refrain = False
-        for raw in text.split("\n"):
-            ln = raw.strip()
-            if not ln:
-                lines.append('<span class="spread-gap"></span>')
-                continue
-            opens = ln.startswith("*")
-            closes = ln.endswith("*") and not (ln == "*")
-            if opens and closes and len(ln) > 2 and not in_refrain:
-                # whole refrain on one line, e.g. *Click.*
-                lines.append(f'<em class="refrain">{html.escape(ln.strip("*").strip())}</em>')
-            elif opens and not in_refrain:
-                in_refrain = True
-                body = ln.lstrip("*").strip()
-                if closes:  # opens and closes but only the leading * stripped above caught it
-                    in_refrain = False
-                    body = body.rstrip("*").strip()
-                lines.append(f'<em class="refrain">{html.escape(body)}'
-                             + ('</em>' if not in_refrain else ''))
-            elif in_refrain:
-                if closes:
-                    in_refrain = False
-                    lines.append(f'{html.escape(ln.rstrip("*").strip())}</em>')
-                else:
-                    lines.append(html.escape(ln))
+
+def picture_book_verse_html(text: str) -> str:
+    """Turn a spread stanza into overlay HTML (*…* refrains styled apart)."""
+    lines: list[str] = []
+    in_refrain = False
+    for raw in text.split("\n"):
+        ln = raw.strip()
+        if not ln:
+            lines.append('<span class="spread-gap"></span>')
+            continue
+        opens = ln.startswith("*")
+        closes = ln.endswith("*") and ln != "*"
+        if opens and closes and len(ln) > 2 and not in_refrain:
+            lines.append(f'<em class="refrain">{html.escape(ln.strip("*").strip())}</em>')
+        elif opens and not in_refrain:
+            in_refrain = True
+            body = ln.lstrip("*").strip()
+            if closes:
+                in_refrain = False
+                body = body.rstrip("*").strip()
+            lines.append(f'<em class="refrain">{html.escape(body)}'
+                         + ('</em>' if not in_refrain else ''))
+        elif in_refrain:
+            if closes:
+                in_refrain = False
+                lines.append(f'{html.escape(ln.rstrip("*").strip())}</em>')
             else:
                 lines.append(html.escape(ln))
-        if in_refrain:  # unbalanced *, close it defensively
-            lines.append('</em>')
-        verse = "<br>\n".join(lines)
+        else:
+            lines.append(html.escape(ln))
+    if in_refrain:
+        lines.append('</em>')
+    return "<br>\n".join(lines)
+
+
+def _picture_book_spreads(md: str):
+    """Yield (number, image_src, alt, text_pos, scrim, text) per spread marker."""
+    for m in _SPREAD_RE.finditer(md):
+        num, img, alt = m.group(1), m.group(2), (m.group(3) or "")
+        text_pos = (m.group(4) or "bl").strip().lower()
+        if text_pos not in _PB_TEXT_POS:
+            text_pos = "bl"
+        scrim = (m.group(5) or _PB_SCRIM_FOR_POS.get(text_pos, "bottom")).strip().lower()
+        yield int(num), img, alt, text_pos, scrim, m.group(6).strip("\n")
+
+
+def picture_book_lang_pack(md: str, *, title: str = "", byline: str = "") -> dict:
+    """One language's overlay text + spread positions parsed from a manuscript."""
+    t, b = _picture_book_head(md)
+    spreads = []
+    for num, _img, _alt, text_pos, scrim, text in _picture_book_spreads(md):
+        spreads.append({
+            "n": num,
+            "html": picture_book_verse_html(text),
+            "pos": text_pos,
+            "scrim": scrim,
+        })
+    return {
+        "title": t or title,
+        "byline": b or byline,
+        "spreads": spreads,
+    }
+
+
+def picture_book_lang_data(e: dict) -> dict:
+    """All overlay languages for a picture book, keyed by lang code (for client-side swap)."""
+    manuscripts = picture_book_manuscripts(e["root"], e["id"])
+    if not manuscripts and e.get("reader_md"):
+        manuscripts = {"en": apply_picture_book_tokens(e["reader_md"], e["id"])}
+    packs: dict[str, dict] = {}
+    fallback_title, fallback_byline = e["title"], ""
+    for code, md in manuscripts.items():
+        pack = picture_book_lang_pack(md, title=e["title"])
+        if code == "en":
+            fallback_title, fallback_byline = pack["title"], pack.get("byline", "")
+        packs[code] = pack
+    if "en" not in packs and e.get("prepared_reader_md"):
+        packs["en"] = picture_book_lang_pack(
+            e["prepared_reader_md"], title=fallback_title, byline=fallback_byline)
+    return packs
+
+
+def render_picture_book(e: dict) -> str:
+    """Render a children's picture book: landscape spreads, verse overlaid on the art."""
+    lang_data = picture_book_lang_data(e)
+    en = lang_data.get("en") or {"title": e["title"], "byline": "", "spreads": []}
+    overlay_by_n = {s["n"]: s for s in en.get("spreads", [])}
+    md = e.get("prepared_reader_md") or e.get("reader_md") or ""
+
+    spreads_html = []
+    for num, img, alt, text_pos, scrim, text in _picture_book_spreads(md):
+        src = img if img.startswith(("http", "assets/")) else f"assets/{e['id']}/{img}"
+        ov = overlay_by_n.get(num)
+        pos = (ov or {}).get("pos") or text_pos
+        scr = (ov or {}).get("scrim") or scrim
+        verse = (ov or {}).get("html") or picture_book_verse_html(text)
+        scrim_cls = {"bottom": "scrim-bottom", "top": "scrim-top", "full": "scrim-full"}.get(
+            scr, "scrim-bottom")
         spreads_html.append(
-            f'<figure class="spread" id="spread-{num}">'
+            f'<figure class="spread landscape {scrim_cls}" id="spread-{num}">'
             f'<img src="{html.escape(src)}" alt="{html.escape(alt)}" loading="lazy" decoding="async">'
-            f'<figcaption class="spread-text">{verse}</figcaption>'
+            f'<figcaption class="spread-overlay pos-{html.escape(pos)}" data-spread="{num}">{verse}</figcaption>'
             f'</figure>'
         )
 
@@ -6668,22 +6809,28 @@ def render_picture_book(e: dict) -> str:
             dl = f'<a class="dl solid" href="../downloads/{e["id"]}/{html.escape(f.name)}" download>Download EPUB</a>'
             break
 
+    lang_json = json.dumps(lang_data, ensure_ascii=False)
+    lang_note = '<p class="pb-lang-note" hidden aria-live="polite"></p>' if AVAILABLE_LANGS else ""
+
     head_block = (
-        f'<header class="picture-head"><h1>{html.escape(title)}</h1>'
-        + (f'<p class="picture-byline">{html.escape(byline)}</p>' if byline else "")
+        f'<header class="picture-head"><h1>{html.escape(en.get("title") or e["title"])}</h1>'
+        + (f'<p class="picture-byline">{html.escape(en["byline"])}</p>' if en.get("byline") else "")
         + "</header>"
     )
     article = (
-        f'<article class="picture-book" lang="en-ZA">{head_block}'
-        + "\n".join(spreads_html)
-        + "</article>"
+        f'<article class="picture-book" data-pb lang="en-ZA">{head_block}'
+        f'<script type="application/json" id="pb-data">{lang_json}</script>'
+        f'<div class="picture-spreads snap">{"".join(spreads_html)}</div>'
+        "</article>"
     )
     return "\n".join([
         head(f'Read: {e["title"]} — Arjuna Badger Press', truncate(e["blurb"] or e["title"], 180), rel="../"),
+        '<script>document.documentElement.classList.add("pb-reader");document.body.classList.add("pb-reader");</script>',
         trust_banner(rel="../"),
-        f"""<div class="readbar"><div class="wrap" style="display:flex;justify-content:space-between;align-items:center">
-<a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a><div class="dls">{dl}</div></div></div>""",
-        f'<main id="main">{article}</main>',
+        nav_bar(rel="../"),
+        f"""<div class="readbar pb-readbar"><div class="wrap pb-readbar-inner">
+<a class="back" href="../book/{e['id']}.html">← {html.escape(e['title'])}</a>{lang_note}<div class="dls">{dl}</div></div></div>""",
+        f'<main id="main">{article}',
         reader_endnote(e),
         footer(rel="../"),
         rating_script(),
