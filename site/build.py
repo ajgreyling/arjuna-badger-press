@@ -6391,7 +6391,7 @@ def render_service_worker() -> str:
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v7";
+    return f"""const CACHE_NAME = "abp-pwa-v8";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -6405,8 +6405,10 @@ self.addEventListener("activate", event => {{
       keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))
     )).then(() => caches.open(CACHE_NAME).then(cache =>
       cache.keys().then(reqs => Promise.all(
-        reqs.filter(r => new URL(r.url).pathname.startsWith("/assets/covers/"))
-            .map(r => cache.delete(r))
+        reqs.filter(r => {{
+          const p = new URL(r.url).pathname;
+          return p.startsWith("/assets/covers/") || p === "/" || p === "/index.html";
+        }}).map(r => cache.delete(r))
       ))
     )))
   );
@@ -6421,8 +6423,9 @@ self.addEventListener("fetch", event => {{
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith("/downloads/")) return;
 
-  // Cover art must always revalidate — stale SW cache once hid updated Little Key art.
-  if (url.pathname.startsWith("/assets/covers/")) {{
+  // Shelf HTML and cover art must always revalidate — stale SW cache hid Little Key cover.
+  const path = url.pathname;
+  if (path === "/" || path === "/index.html" || path.startsWith("/assets/covers/")) {{
     event.respondWith(
       fetch(request).then(response => response).catch(() => caches.match(request))
     );
