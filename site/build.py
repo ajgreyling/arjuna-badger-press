@@ -471,13 +471,17 @@ HIDE_BOOKS = set(
         # contact attempted) lives in BOOK_NOTICE and renders on the book page. Released by explicit
         # author decision; not for commercial release pending licensing.
         #
-        # Children's Library — the 5 Classic African Stories are HIDDEN until each has REAL cover art
-        # (2026-06-24). They are fully written and wired; the shelf launches with The Little Key alone
-        # so it looks finished. Unhide a title (here or via ABP_HIDE_BOOKS) once its real cover lands.
-        "why-elephant-trunk,how-zebra-got-stripes,how-fire-came,"
-        "bird-of-paradise-flower,how-king-lion",
+        # Children's Library picture books without a git-tracked cover are withheld automatically in
+        # scan() — only titles with committed cover art land on the shelf. Override here if needed.
+        "",
     ).split(",") if s.strip()
 )
+
+def cover_git_tracked(cover: Path) -> bool:
+    """True when the resolved cover file is committed in git (deploy-safe real art)."""
+    return subprocess.run(["git", "ls-files", "--error-unmatch", str(cover)],
+                          capture_output=True).returncode == 0
+
 
 def cover_candidates(root: Path, exp: Path) -> list[Path]:
     """All known cover paths for a book, in the usual search order."""
@@ -563,7 +567,11 @@ SHELF_TAGLINE = {
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
-    "Children's Library": "Picture books for reading out loud — one lamp, one child, one story. Painterly spreads that carry the feeling before a child can read the words, in every South African language and Swahili.",
+    "Children's Library": (
+        "Picture books for reading out loud — one lamp, one child, one story. Only titles with "
+        "finished, committed cover art land here. Local illustrators and children's writers: the "
+        "press wants to print your work in hard copy, in any language — write to info@arjunabadger.press."
+    ),
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
@@ -629,6 +637,34 @@ BOOK_NOTICE = {
         "the original remains. The author has reached out, through the rights holders’ representatives "
         "(the agency of Eleanor Wood), regarding licensing; this edition is offered in tribute and is "
         "<strong>not for commercial release</strong> unless and until such permission is granted."
+    ),
+    "the-little-key": (
+        "<strong>The illustrations in this book are AI-generated.</strong> Every spread was created "
+        "with AI image tools (ChatGPT/OpenRouter). That is stated plainly here because arjunabadger.press "
+        "does not hide how its books are made. Some spreads are still placeholder art while the final "
+        "paintings are finished; the story and the words are original throughout."
+        "<br><br>"
+        "In the spirit of this house (books free to read, craft shared in the open), the press would "
+        "love to <strong>collaborate with local illustrators and children's book writers</strong> to "
+        "bring their work to hard-copy print, in <strong>any language</strong>. If you make picture "
+        "books and want yours on this shelf, translated into every South African language and Swahili, "
+        'write to <a href="mailto:info@arjunabadger.press">info@arjunabadger.press</a>.'
+    ),
+}
+
+# Optional heading override for BOOK_NOTICE blocks (default: "A note on the original").
+BOOK_NOTICE_HEAD = {
+    "the-little-key": "Illustration disclosure",
+}
+
+# Book ids whose BOOK_NOTICE renders with a louder visual treatment (sting accent, not ochre).
+BOOK_NOTICE_LOUD = {"the-little-key"}
+
+# Short disclosure on the library shelf card (under the blurb).
+BOOK_CARD_DISCLOSURE = {
+    "the-little-key": (
+        '<p class="card-disclosure"><strong>AI-generated illustrations</strong> — declared openly on '
+        "the book page.</p>"
     ),
 }
 
@@ -1323,6 +1359,11 @@ def scan() -> list[dict]:
                 cover_is_procedural(cover, root) and not procedural_cover_allowed(cid, series)):
             hidden_proc.append(cid)
             continue
+        # Children's Library: only titles with a git-tracked cover land on the shelf (real art,
+        # not local placeholder PNGs that clear the size gate but are not committed for deploy).
+        if cid in PICTURE_BOOKS and not cover_git_tracked(cover):
+            hidden_proc.append(cid)
+            continue
         book_md = root / "build" / "BOOK.md"
         reader_md = None
         reader_src = None
@@ -1636,6 +1677,7 @@ section.series{padding:46px 0 8px}
 .badge{align-self:flex-start;font-size:11px;font-family:"Space Grotesk";letter-spacing:.08em;
   padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--grass)}
 .badge.soon{color:var(--ochre);border-color:rgba(200,168,107,.4)}
+.card-disclosure{margin:.55em 0 0;font-size:.82em;line-height:1.45;color:var(--sting)}
 .dls{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
 .dl{font-family:"Space Grotesk";font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:7px;
   border:1px solid var(--ochre);color:var(--ochre)} .dl:hover{background:rgba(229,181,103,.1);color:var(--gold)}
@@ -2800,6 +2842,7 @@ def card(e: dict, accent: str) -> str:
 <a class="titlelink" href="{href}"><span class="ser">{html.escape(e['subtitle'] or e['series'])}</span>
 <h3>{html.escape(e['title'])}</h3></a>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
 <p>{html.escape(truncate(e['blurb'], 150))}</p>
+{BOOK_CARD_DISCLOSURE.get(e['id'], '')}
 {badge}{dls}</div></div>"""
 
 
@@ -3756,11 +3799,13 @@ def render_book(e: dict) -> str:
     # in an editable manuscript. Rendered as trusted HTML from BOOK_NOTICE (curated, no user input).
     notice_html = ""
     if e["id"] in BOOK_NOTICE:
+        notice_head = BOOK_NOTICE_HEAD.get(e["id"], "A note on the original")
+        notice_accent = "var(--sting)" if e["id"] in BOOK_NOTICE_LOUD else "var(--ochre)"
         notice_html = (
             '<div style="margin-top:22px;padding:16px 18px;border:1px solid var(--line);'
-            'border-left:3px solid var(--ochre);border-radius:12px;background:var(--card)">'
+            f'border-left:3px solid {notice_accent};border-radius:12px;background:var(--card)">'
             '<p style="margin:0 0 .4em;font-size:.8em;letter-spacing:.08em;text-transform:uppercase;'
-            'color:var(--ochre)">A note on the original</p>'
+            f'color:{notice_accent}">{html.escape(notice_head)}</p>'
             f'<p style="margin:0;color:var(--bonedim);font-size:.95em;line-height:1.6">{BOOK_NOTICE[e["id"]]}</p>'
             '</div>')
     full = html.escape(e["blurb"]) if e["blurb"] else ""
@@ -7080,8 +7125,7 @@ def main() -> None:
     # git directly whether the resolved cover is tracked. Books under _comingsoon/ are MEANT to
     # have no cover yet, so they are exempt (and are hidden from the shelf until one exists).
     def _untracked(p: Path) -> bool:
-        return subprocess.run(["git", "ls-files", "--error-unmatch", str(p)],
-                              capture_output=True).returncode != 0
+        return not cover_git_tracked(p)
 
     cover_warnings = []
     for e in entries:
