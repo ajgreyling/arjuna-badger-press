@@ -19,3 +19,7 @@ and that the rarest thing is not the next place —
 it is the one that finally makes you stay.
 
 *This coast is yours. So is the eye. Thank you for both — for the blogs, the boat, the frames, and the friendship.*
+
+![A sea cave opening onto the southern coast — a frame by the man this book is for.](books/southern-coast/design/images/mark-harpur-sea-cave-southern-coast.jpg)
+
+*Photograph by Mark Harpur ([@luckybeanz](https://unsplash.com/@luckybeanz)), donated to this book.*

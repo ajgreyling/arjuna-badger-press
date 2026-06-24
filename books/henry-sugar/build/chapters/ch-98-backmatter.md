@@ -8,18 +8,6 @@ In one sentence: this novel is **real magik with a k** — Dean Radin's *Real Ma
 
 ---
 
-## Dedication
-
-To **Roald Dahl**, who built the engine.
-
-And to **Joe Dispenza**, **Dean Radin**, and **Rupert Sheldrake** — whose reported work taught this retelling what Henry's training is allowed to be.
-
-*With gratitude also to **Joseph McMoneagle**, whose *Mind Trek* made me read Dahl's Henry a second time — and to every specialist named below who put their name on the record.*
-
-*(Front matter: [`canon/DEDICATION_BOOK.md`](../../canon/DEDICATION_BOOK.md))*
-
----
-
 ## Reported physics only (binding commitment)
 
 This is a **novel**, not a research paper — but Henry Sugar's **training, proof beats, and inner-sight phenomenology** follow **only** what has been reported in:
