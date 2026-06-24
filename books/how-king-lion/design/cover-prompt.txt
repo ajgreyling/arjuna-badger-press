@@ -1,0 +1,119 @@
+================================================================================
+ART SPEC — King Lion and the Birds Who Stole the Sky  (slug: kinglion)
+Children's Library · ages 4–8 · warm painterly storybook tradition
+Landscape 3:2, full-bleed, NO TEXT in image. Keep characters consistent across spreads.
+================================================================================
+
+--------------------------------------------------------------------------------
+STYLE (apply to EVERY image — the house look + recurring characters)
+--------------------------------------------------------------------------------
+Soft painterly gouache-and-watercolour storybook illustration in the warm classic
+read-aloud tradition: visible brush texture, glowing golden-hour African light, big
+generous skies, gentle edges, rich but never garish colour. Setting is the southern
+African veld and small farmland — open grassland, tall ripe maize, marula and acacia
+trees, low rocky outcrops, round thatched homes and a kraal fence in the middle
+distance. Dignified and specific; never generic "jungle", never caricature.
+
+RECURRING CHARACTERS (keep identical across all spreads):
+• THE BIRDS — medium birds, brilliant and proud: a flame-orange crested crown, a
+  deep cobalt-blue throat and breast, slender dark beak, long elegant neck. They must
+  be drawn so their crest + throat visibly become the orange-and-blue form of a
+  bird-of-paradise / strelitzia flower at the reveal.
+• KING LION — an old, heavy, dignified lion with a warm tawny coat and a deep amber
+  mane going silver; slow kind eyes, grave not fierce; a tired just king.
+• {{CHILD}} (the watching child-hero) — a small brown-skinned African child, about
+  6, barefoot, simple warm-coloured clothes, soft curious face. Small in frame.
+• THE LAND — duiker, scrub hare, tortoise (the innocent small animals); tired farmer
+  villagers of the veld, working clothes, dignified.
+
+MOOD ARC: bright/joyful → busy/greedy → fearful/dim → grave → tender-sad reveal →
+quiet warm close. Sorrow rendered gently — sad, never frightening; no gore.
+
+--------------------------------------------------------------------------------
+PER-SPREAD PROMPTS
+--------------------------------------------------------------------------------
+
+spread-01-kinglion.png
+Wide veld at soft dawn. Rows of tall golden maize in the foreground; round thatched
+homes and a kraal fence in the far distance. The small barefoot child {{CHILD}}-figure
+stands among the stalks, face tilted up, watching a scatter of bright orange-crested
+blue-throated birds wheeling joyfully across an enormous pink-and-gold morning sky.
+Happy, spacious, full of air.
+
+spread-02-kinglion.png
+Closer painterly portrait: a small flock of the bright birds perched proud and loud
+along an acacia branch against a big open sky. Flame-orange crests raised, cobalt
+throats puffed, beaks open mid-song, posture haughty and self-satisfied. Dazzling,
+beautiful, a touch arrogant.
+
+spread-03-kinglion.png
+The birds swooping down in a noisy greedy crowd into the maize field, tearing golden
+cobs and kernels loose, husks and seed scattering through warm sunlight. Motion,
+mess, brilliance — beautiful birds doing a thoughtless, wasteful thing.
+
+spread-04-kinglion.png
+An emptied, harvested-bare field at dusk: broken maize stalks, stripped husks on the
+ground. A small group of tired farmer villagers standing with empty baskets and pots,
+worried faces, a worried child among them. Dimmer, cooler, anxious light.
+
+spread-05-kinglion.png
+Villagers at twilight, fearful and turning angry, peering out into the dark bush with
+lamps and spears, suspicion on their faces, looking at the whole wild veld as if it
+were the thief. Tense but not violent — fear, not bloodshed. Long shadows.
+
+spread-06-kinglion.png
+Soft sorrowful scene: a duiker, a scrub hare and a tortoise hiding low among long
+grass and rocks, wide frightened eyes, lamplight passing as distant shadows. The
+innocent animals afraid. No violence shown — only fear and hiding. Tender, hushed.
+
+spread-07-kinglion.png
+A great old spreading marula tree on the open veld in late-gold light. King Lion —
+old, heavy, silver-maned, kind-eyed — seated in judgement beneath it. Every bright
+bird summoned, perched throughout the branches above. The small {{CHILD}}-figure
+peeks from the long grass at the edge, watching. Grand and grave but warm.
+
+spread-08-kinglion.png
+King Lion lifting his great head to address the birds in the branches — mouth open in
+speech, not a roar; expression grave and pleading. The bright birds look down from the
+leaves. Serious, gentle, gold evening light. A warning given, not yet a punishment.
+
+spread-09-kinglion.png
+Next morning: the bright birds laughing and diving defiantly back into the maize,
+brilliant against a fresh dawn, ignoring the warning, mid-mischief. Energetic,
+beautiful, heedless.
+
+spread-10-kinglion.png
+King Lion standing tall and sorrowful beneath the marula at deep evening, head bowed,
+passing his judgement. The bright birds gone suddenly still and silent in the branches
+above. Deep, sad, glowing gold light. The weight of a fair, unhappy decision.
+
+spread-11-kinglion.png
+The gentle transformation: the birds' small clawed feet sinking and taking root into
+dark earth, wings stiffening into green leaves, bodies lengthening into upright stems.
+Soft painterly magic — sad and tender, NOT frightening or grotesque. The colours of
+bird and growing flower beginning to merge.
+
+spread-12-kinglion.png
+REVEAL spread: a whole field of strelitzia / bird-of-paradise flowers — each an
+orange-crested, blue-throated bird-head lifting on a tall green stem toward a vast open
+evening sky. At each flower's beak, a single shining bead of nectar like a tear. The
+{{CHILD}}-figure stands among them, gazing up with the flowers. Beautiful, aching,
+luminous — the heart of the book.
+
+spread-13-kinglion.png
+Evening close: the small {{CHILD}}-figure walking home across the cool veld toward the
+warm-lit round houses, glancing back once over a shoulder at the field of sky-gazing
+flowers beneath the first faint stars. Peaceful, warm, gently wistful.
+
+--------------------------------------------------------------------------------
+COVER (kinglion-cover.png)
+--------------------------------------------------------------------------------
+Landscape 3:2, full-bleed, NO TEXT. Hero composition: King Lion — old, dignified,
+silver-amber mane, kind grave eyes — seated beneath the great marula tree in glowing
+golden-hour veld light, with the brilliant orange-crested, blue-throated birds perched
+in the branches above him. In the foreground, just beginning to bloom, one or two
+strelitzia / bird-of-paradise flowers lift their bright bird-heads to the sky,
+quietly foreshadowing the turn. The small barefoot {{CHILD}}-figure stands to one side
+in the grass, looking up. Warm, painterly, inviting; a wide open African sky filling
+the top third. The whole story's promise in one image: pride, judgement, and the
+flower that remembers the sky.

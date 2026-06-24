@@ -1,0 +1,132 @@
+THE FLOWER THAT WATCHES THE SKY — ILLUSTRATION SPECIFICATION
+(Prompts for ChatGPT web image generator / OpenRouter image model. One book, one style.)
+Companion to "King Lion and the Birds Who Stole the Sky" — keep the bird + flower designs
+consistent between the two books.
+
+═══════════════════════════════════════════════════════════════════════════
+HOUSE STYLE — paste this STYLE BLOCK at the top of EVERY prompt so all 13
+spreads + the cover read as one book:
+═══════════════════════════════════════════════════════════════════════════
+
+STYLE: Warm, painterly children's-picture-book illustration in the tradition of
+hand-painted gouache and watercolour storybooks — soft visible brushwork, gentle
+edges, deeply tender, a little wistful. Golden-hour African veld palette: honey
+gold, warm ochre, soft cream, red earth, wide sky-blue — with the flower's own
+ORANGE-AND-BLUE burning bright at the centre of every key scene. Storybook warmth,
+big skies, lots of air. NOT digital-slick, NOT 3D-render, NOT photoreal. Picture-
+book art a tired parent and a small child read together by one lamp at bedtime.
+Sorrow handled gently — wistful, never frightening; no violence, no gore.
+
+CHARACTERS & SUBJECTS (keep consistent across every image):
+- {{CHILD}}: a young Black South African child, about six, short natural hair,
+  barefoot, in a simple soft cotton dress the colour of the veld. Curious, kind,
+  unhurried. (Where {{CHILD}} appears, the child-hero is shown; the literal token
+  is the personalised name in the text, not in the image — never letter the name.)
+- GOGO: the grandmother — older Black South African woman, grey hair often wrapped
+  in a soft headscarf, warm lined kind face, an apron or simple dress, a watering
+  can. Patient, sure of the world.
+- THE CRANE-FLOWER (Strelitzia reginae, true to life): a fan of bright ORANGE sepals
+  like a feathered crest, a vivid BLUE petal-tongue like a throat, rising from a long
+  grey-green beak-shaped sheath (spathe), beaded with small shining drops of nectar.
+  It genuinely looks like a small bright bird tipping its head back to look UP.
+- THE BIRD THAT WAS (memory spreads only): the SAME orange-crested, blue-throated
+  bird as in the companion "King Lion" book — its crest and throat are exactly the
+  orange-and-blue of the bloom. Slender, bright, glad of its wings.
+- THE LIVING VELD: a tiny iridescent sunbird, drifting bees, morning wind in the
+  grass, sometimes a duiker at the far fence.
+
+THE SETTING: Gogo's garden at the edge of open grassland — red earth, aloes, a low
+stone wall, marula and acacia beyond, round homes and a kraal fence in the far
+distance. Specific and dignified. NEVER generic "jungle", NEVER caricature.
+
+FORMAT: landscape 3:2 spread, full-bleed, no text in the image (text sits beneath
+on the page). Compose so the FEELING lands with the sound off — especially the small
+lifted face against the big sky.
+
+═══════════════════════════════════════════════════════════════════════════
+PER-SPREAD PROMPTS (append each to the STYLE block above):
+═══════════════════════════════════════════════════════════════════════════
+
+COVER → file: design/cover.png  (also reused as a hero marketing image)
+The single glowing crane-flower — orange crest, blue heart, rising from its green
+beak-shaped sheath — lifting its bright bird-face up toward a vast soft dawn sky over
+the golden African veld. Beaded with tiny shining drops of nectar that catch the
+light. At the lower edge, small and tender, a barefoot child and her grandmother
+look up at it together. Wistful, luminous, full of quiet wonder — the whole book
+waiting in this one upturned face. Room at top for a title overlay later (but NO
+text in the image itself).
+
+SPREAD 01 → spread-01-garden.png
+Early morning in Gogo's garden at the edge of the wide veld — red earth, aloes, a low
+stone wall, open grassland beyond, dew on everything in soft gold light. The barefoot
+child {{CHILD}} stands very still, mid-step, having just noticed one strange flower
+among the ordinary ones. Quiet, expectant.
+
+SPREAD 02 → spread-02-bloom.png
+Close and warm: the strelitzia bloom — orange crest of sepals, blue petal-tongue,
+long grey-green beak-shaped sheath, beaded with nectar — tipping its head back so it
+looks exactly like a small bright bird looking UP. The child leans in close beside it,
+wondering, lips parted to ask a question.
+
+SPREAD 03 → spread-03-gogo-tells.png
+Gogo has set down her watering can and lowered herself onto the low stone wall beside
+the flower, gathering the child in close against her, beginning a story. Warm, unhurried,
+generational. The crane-flower glowing beside them. Morning gold.
+
+SPREAD 04 → spread-04-the-bird.png
+MEMORY SPREAD. The bird that was — a bright orange-crested, blue-throated bird (the SAME
+bird as in the King Lion book) high over the golden veld, wings wide, the whole blue sky
+around it. Joyful, free, glad of its wings. Painted slightly softer / more luminous, like
+a remembered thing.
+
+SPREAD 05 → spread-05-cannot-rise.png
+MEMORY SPREAD, gentle and wistful. The same bird now on the ground at dusk, wings half-
+open but heavy, head tipped up toward the darkening sky it can no longer reach. Soft,
+sad, NOT frightening — no violence, no struggle shown, only stillness and longing. The
+veld quiet and blue-gold around it.
+
+SPREAD 06 → spread-06-rooting.png
+The rooting — the bird's feet becoming gentle roots that reach down into the warm red
+earth, the bird sinking softly into the ground, the veld grass closing around it like a
+kind hand holding it, NOT trapping it. Warm gold light, tender and safe, a transformation
+that feels like being caught, not punished.
+
+SPREAD 07 → spread-07-lifts-HERO.png   ★ HERO SPREAD — generate this FIRST, main image
+HERO IMAGE. The first morning rooted. The bird has fully become the crane-flower — the
+complete glowing strelitzia bloom — and it LIFTS its bright orange-and-blue face up toward
+an ENORMOUS soft dawn sky it can never reach again. Extreme scale: the small lifted face
+against the vast bottomless sky fills the spread. Longing made beautiful and luminous.
+This is the emotional centre of the whole book.
+
+SPREAD 08 → spread-08-tears.png
+Close on the lifted bloom: small bright drops of sweet nectar gathered at its tipped-back
+face, shining, catching the morning light like tears that are somehow lovely. The orange
+and blue glowing, the drops jewel-bright. Beautiful, tender — NOT grim.
+
+SPREAD 09 → spread-09-sunbird.png
+A tiny iridescent sunbird hovers at the lifted bloom and sips the shining nectar, then is
+shown lifting away into the high gold air carrying a little of the light with it. Bees
+drift nearby, the morning wind moves the grass. The rooted flower kept company by the
+whole living veld. Warm, busy with small life, hopeful.
+
+SPREAD 10 → spread-10-faithful.png
+A turn of seasons in one image: the same crane-flower standing tall and bright, faithfully
+lifting its face to the dawn, through subtly changing light/colour around it. Plainly the
+MOST beautiful thing in the whole garden — other flowers around it, none so striking. Its
+beauty clearly comes FROM its lifted, longing face.
+
+SPREAD 11 → spread-11-tends.png
+The child {{CHILD}} kneels at the flower in the dew — not pitying, simply TENDING: cupping
+the bright bird-face gently in two small hands, tipping a little water to its roots, sitting
+with it in the morning light. Quiet, loving, present. Tenderness toward a rooted thing.
+
+SPREAD 12 → spread-12-gogos-truth.png
+Gogo and the child together at the flower, foreheads almost touching, the child's face lit
+with understanding. The glowing bloom lifting its face between them. The wide gold veld
+behind. A passed-down truth landing softly.
+
+SPREAD 13 → spread-13-evening.png
+CLOSING IMAGE. Evening, the gold running low. The child and Gogo walk home hand in hand
+along the garden path, the child looking back over her shoulder. Behind them the crane-
+flower stands faithful in the last warm light, still lifting its bright face to the going-
+down sky. Peaceful, complete, wistful and warm. Deep gold and soft blue dusk.
