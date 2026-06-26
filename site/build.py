@@ -307,7 +307,7 @@ PUBLISHED = set(
         "southern-coast,"
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
-        "the-song-of-the-self,wrath-of-achilles,"
+        "the-song-of-the-self,wrath-of-achilles,the-antifragile-reader,"
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
         # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker): adult Afrikaans Norse saga, Book I.
@@ -414,15 +414,12 @@ SERIAL = set(
         #   is in the manuscript front matter and the disclosure/invitation is in BOOK_NOTICE + the
         #   shelf tagline. Kept OUT of PUBLISHED so no EPUB/PDF ships (no "finished book" can be
         #   mistaken for complete with one side missing).
-        # the-antifragile-reader: OPEN DRAFT (2026-06-23) — guest-at-the-fire companion to Taleb's
-        #   Incerto. Proem + essays 01 & 05 are finished voice exemplars; essays 02–04, 06–11 are
-        #   being drafted. Read-online only, NO downloads, until the full eleven land + a ≥500KB cover
-        #   + author proofread, then promote to PUBLISHED.
+        # the-antifragile-reader: PUBLISHED 2026-06-24 — full send (metered draft + de-LLM + EPUB/PDF).
         # palindrome: OPEN DRAFT (2026-06-23) — the chamber-piece novelisation written BEFORE its
         #   screenplay (Man-from-Earth engine; four men, one room). Full first draft + one de-LLM
         #   tooling pass; read-online only, NO downloads, until a craft/polish pass + a ≥500KB cover,
         #   then promote to PUBLISHED.
-        "dust-throne,bloedrivier,the-antifragile-reader,palindrome",
+        "dust-throne,bloedrivier,palindrome",
     ).split(",") if s.strip()
 )
 
@@ -790,9 +787,9 @@ CURATED = [
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
 
-    ("the-antifragile-reader", "The Antifragile Reader", "Nassim Taleb's Incerto, plainly told · An open draft", "Non-fiction",
+    ("the-antifragile-reader", "The Antifragile Reader", "Nassim Taleb's Incerto, plainly told", "Non-fiction",
      "history-before-time/companions/the-antifragile-reader", "build/export",
-     "Nassim Taleb's five-book Incerto — Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile, and Skin in the Game — carried in one warm read, for the reader who loved one volume and can't quite hold the rest. A reverent guest-at-the-fire companion in the house voice: his ideas attributed and his prose left to him, the author's own plain glosses always marked. Published here as an open, in-progress draft — the proem and two essays are the finished voice; the rest is being written. Independent and unaffiliated with the author."),
+     "Nassim Taleb's five-book Incerto — Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile, and Skin in the Game — carried in one warm read, for the reader who loved one volume and can't quite hold the rest. A reverent guest-at-the-fire companion in the house voice: his ideas attributed and his prose left to him, the author's own plain glosses always marked. Independent and unaffiliated with the author."),
 
     ("modern-sherlock", "The Scarlet Thread", "The Reichenbach Files · Book One", "Faithful Modern",
      "modern-sherlock", "build/export",
@@ -3244,6 +3241,47 @@ It's a simple, transparent match on the kind of stories you already love; no sig
     ])
 
 
+def _stage_misread_audio(manifest_path, audio_out) -> int:
+    """Copy the real MP3s into the player's /audio/<lane>/<slug>.mp3 tree, matching each
+    manifest track to its file on disk by normalized title + A/B variant. Returns the count
+    staged. Source = $MUSIC_DIR/downloads (defaults to ~/code/congosky-music/downloads). Silent
+    no-op if the workspace isn't present so the page still builds in CI without the music repo."""
+    import json as _json, re as _re, unicodedata as _ud, os as _os
+    downloads = Path(_os.environ.get("MUSIC_DIR", Path.home() / "code" / "congosky-music")) / "downloads"
+    if not downloads.is_dir():
+        return 0
+
+    def _norm(s):
+        s = _ud.normalize("NFKD", s).encode("ascii", "ignore").decode()
+        return _re.sub(r"[^a-z0-9]", "", s.lower())
+
+    # Index real mp3s by (normalized base title, variant)
+    real = {}
+    for f in downloads.glob("*.mp3"):
+        m = _re.match(r"^(.*?)\s*\(([AB])\)\s*$", f.stem)
+        base, variant = (m.group(1), m.group(2).lower()) if m else (f.stem, "a")
+        real[(_norm(base), variant)] = f
+
+    manifest = _json.loads(manifest_path.read_text(encoding="utf-8"))
+    staged = 0
+    for lane in manifest.get("lanes", []):
+        for t in (lane.get("tracks") or []):
+            url = t.get("audioUrl", "")
+            rel = url.replace("/audio/", "", 1)
+            mv = _re.search(r"-([ab])\.mp3$", rel)
+            variant = mv.group(1) if mv else "a"
+            src = real.get((_norm(t.get("title", "")), variant))
+            if not src:  # fall back to any variant of the same title
+                src = next((rf for (rb, _rv), rf in real.items() if rb == _norm(t.get("title", ""))), None)
+            if src:
+                dest = audio_out / rel
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                if not dest.exists():
+                    shutil.copy2(src, dest)
+                staged += 1
+    return staged
+
+
 def render_misread_player() -> str:
     """The Man They All Misread — the self-hosted companion player for AJ's
     Jakobus & Beast song catalogue.
@@ -3368,9 +3406,8 @@ def render_misread_player() -> str:
   AJ's own songs, on AJ's own rails: self-hosted, no streaming silo, no gatekeeper's permission.
   <em>Lay your own table in the firelight; don't ask for a seat at theirs.</em></p>
   <p class="mp-note" id="mp-status" role="status">
-    <strong>Heads-up:</strong> the player is fully wired, but the audio files are not yet hosted.
-    Track URLs point at where each song <em>will</em> live once the catalogue is uploaded to
-    self-hosted storage. Until then the controls work; the sound does not.
+    <strong>9 lanes · 65 songs.</strong> Self-hosted on our own rails — AJ's catalogue, served
+    from here, no streaming silo. Press play.
   </p>
 </div>
 
@@ -3659,12 +3696,10 @@ def render_misread_player() -> str:
   function boot(json){
     data = json;
     if(statusEl && data.stats){
-      // keep the honest pre-host note, but show the real counts
+      // real counts; audio is self-hosted and playing
       statusEl.innerHTML = '<strong>' + data.stats.lanes + ' lanes · ' +
-        data.stats.tracks + ' songs.</strong> The player is fully wired, but the audio ' +
-        'files are not yet hosted — track URLs point at where each song <em>will</em> live ' +
-        'once the catalogue is uploaded to self-hosted storage. Until then the controls work; ' +
-        'the sound does not.';
+        data.stats.tracks + ' songs.</strong> Self-hosted on our own rails — AJ\'s catalogue, ' +
+        'served from here, no streaming silo. Press play.';
     }
     renderLanes();
     renderList();
@@ -7743,9 +7778,13 @@ def main() -> None:
             render_misread_player(), encoding="utf-8")
         # The page fetches the manifest at runtime, so it must sit next to the HTML.
         shutil.copy2(_music_manifest, OUT / "music-manifest.json")
-        # Audio drop dir — the MP3s land here (or are served from R2 at /audio/...). Created so the
-        # path exists; populating it is "the flip" to make the player actually sound.
-        (OUT / "audio").mkdir(exist_ok=True)
+        # Stage real audio: copy the MP3s from the music workspace into /audio/<lane>/<slug>.mp3,
+        # matching each manifest track to its file on disk by normalized title + A/B variant. This
+        # self-hosts AJ's catalogue on our own rails (no R2 needed for the static path). Skips
+        # silently if the music workspace isn't present (e.g. CI without it) — page still builds.
+        _staged = _stage_misread_audio(_music_manifest, OUT / "audio")
+        if _staged:
+            print(f"  → staged {_staged} audio files into {(OUT / 'audio').relative_to(REPO)}")
     if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
         (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     # ── Safari — personal annex (CV, letters, arms, essays) ─────────────────────────────────────
