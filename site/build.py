@@ -701,8 +701,9 @@ BOOK_CARD_DISCLOSURE = {
 # Optional companion soundtrack — a link to a public playlist that grows over time. Keyed by book id.
 # The page links to the live playlist, so tracks added later need no rebuild.
 SOUNDTRACK = {
-    "the-jakobus-file": ("https://music.youtube.com/playlist?list=PLF4jiM2UaNuP2FhAomyc6LzlnBqGyi1Qe",
-                         "Jakobus — the soundtrack"),
+    # Self-hosted on our own rails (the badger thesis) — the companion player, not a YouTube silo.
+    "the-jakobus-file": ("../the-man-they-all-misread.html",
+                         "Listen — The Man They All Misread (the player)"),
 }
 
 CURATED = [
@@ -1845,7 +1846,10 @@ pre.mermaid{
   margin:2.2em 0;padding:22px;text-align:center;background:transparent;border:0;
   /* hidden until mermaid.js swaps the source for an <svg>; avoids a flash of raw graph text */
   color:transparent;min-height:40px;line-height:0;cursor:zoom-in}
-pre.mermaid svg{width:100%;max-width:100%;height:auto;line-height:normal}
+/* render each diagram at its NATURAL size, capped to the container width and a readable
+   max height — never stretch a small/narrow graph to fill the box (that was making tall
+   diagrams render grotesquely large). The container centres them; zoom for detail. */
+pre.mermaid svg{width:auto;height:auto;max-width:100%;max-height:640px;line-height:normal}
 pre.mermaid[data-processed]{color:inherit}
 /* click-to-zoom: a processed diagram with .zoomed fills the screen and scrolls if needed */
 pre.mermaid.zoomed{position:fixed;inset:0;left:0;transform:none;width:100vw;max-width:none;
@@ -4390,8 +4394,11 @@ def render_book(e: dict) -> str:
     soundtrack = ""
     if e["id"] in SOUNDTRACK:
         st_url, st_label = SOUNDTRACK[e["id"]]
-        soundtrack = (f'<div class="dls" style="margin-top:14px"><a class="dl" href="{html.escape(st_url)}" '
-                      f'target="_blank" rel="noopener">{html.escape(st_label)} →</a></div>')
+        # internal (our own player) opens in place; external links open a new tab
+        _ext = st_url.startswith("http")
+        _tab = ' target="_blank" rel="noopener"' if _ext else ''
+        soundtrack = (f'<div class="dls" style="margin-top:14px"><a class="dl" href="{html.escape(st_url)}"'
+                      f'{_tab}>{html.escape(st_label)} →</a></div>')
     if e["available"]:
         soon = ""
     elif "_comingsoon" in e["root"].parts:
