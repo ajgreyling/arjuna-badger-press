@@ -3244,6 +3244,466 @@ It's a simple, transparent match on the kind of stories you already love; no sig
     ])
 
 
+def render_misread_player() -> str:
+    """The Man They All Misread — the self-hosted companion player for AJ's
+    Jakobus & Beast song catalogue.
+
+    The badger thesis made real: AJ's own music on AJ's own rails — a plain
+    HTML/CSS/JS player off a JSON manifest, no streaming silo, no gatekeeper.
+    Lane/genre switcher + per-lane track list + an HTML5 <audio> transport
+    (play/pause/prev/next/seek). Vanilla, ES5-safe, mobile-first; degrades on
+    ancient devices (the whole project supports old phones).
+
+    Audio is served from /audio/<lane>/<slug>.mp3 once the MP3s are uploaded to
+    R2; until then the UI is fully live but no file streams (see
+    music-manifest.json's _comment and build_music_manifest.py).
+    """
+    rel = "./"
+    title = "The Man They All Misread — the companion player"
+    desc = ("Jakobus & Beast, made not curated — AJ's own song catalogue on his "
+            "own rails. Switch lanes (Brass'n'Bass, Banjos & Bass, the Still-Man "
+            "bangers, Die Dier, Wolf, Rasta and more) and play. Self-hosted, no "
+            "silo: the badger thesis made audible.")
+    canonical = f"{DOMAIN}/the-man-they-all-misread.html"
+
+    # ── Page-scoped styles. Reuses the house tokens (--gold/--ochre/--card/--line,
+    #    Space Grotesk / Cormorant Garamond / Atkinson Hyperlegible) so it sits
+    #    inside the press look without inventing a new one. All selectors are
+    #    prefixed .mp- so nothing leaks into the global stylesheet.
+    style = """
+<style>
+.mp-hero{padding:48px 0 8px}
+.mp-hero .eyebrow{margin:0 0 10px}
+.mp-hero h1{font-size:clamp(34px,6vw,60px);margin:0 0 .15em;
+  font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;letter-spacing:-.01em}
+.mp-hero .tag{font-family:"Cormorant Garamond",serif;font-style:italic;
+  font-size:clamp(18px,2.6vw,26px);color:var(--gold);margin:.1em 0 .6em}
+.mp-hero p.lede{max-width:62ch;color:var(--bonedim);margin:.2em 0 0}
+.mp-hero p.lede a{color:var(--gold)}
+.mp-note{margin:18px 0 0;padding:12px 16px;border:1px solid var(--line);border-radius:10px;
+  background:rgba(200,168,107,.06);color:var(--bonedim);font-size:14px;max-width:70ch}
+.mp-note strong{color:var(--gold);font-family:"Space Grotesk",sans-serif}
+
+/* lane switcher — horizontal scroll on narrow screens, wraps on wide */
+.mp-lanes{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 6px;
+  padding-bottom:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.mp-lane{flex:0 0 auto;cursor:pointer;border:1px solid var(--line);background:var(--card);
+  color:var(--bone);font-family:"Space Grotesk",sans-serif;font-size:14px;font-weight:500;
+  letter-spacing:.01em;padding:9px 15px;border-radius:999px;line-height:1.2;white-space:nowrap;
+  transition:border-color .15s,background .15s,color .15s}
+.mp-lane:hover{border-color:var(--ochre);color:var(--gold)}
+.mp-lane[aria-selected="true"]{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
+.mp-lane .n{opacity:.6;font-size:12px;margin-left:6px}
+
+.mp-laneblurb{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:18px;
+  line-height:1.45;color:var(--ochre);max-width:66ch;margin:14px 0 2px}
+
+/* track list */
+.mp-list{list-style:none;margin:18px 0 0;padding:0;border-top:1px solid var(--line)}
+.mp-track{display:flex;align-items:center;gap:14px;padding:13px 8px;border-bottom:1px solid var(--line);
+  cursor:pointer}
+.mp-track:hover{background:rgba(229,181,103,.05)}
+.mp-track[aria-current="true"]{background:rgba(229,181,103,.10)}
+.mp-track .ti{flex:0 0 auto;width:30px;text-align:right;color:var(--grass);
+  font-family:"Space Grotesk",sans-serif;font-size:13px;font-variant-numeric:tabular-nums}
+.mp-track .play{flex:0 0 auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);
+  background:transparent;color:var(--ochre);font-size:13px;line-height:1;display:flex;
+  align-items:center;justify-content:center;cursor:pointer}
+.mp-track[aria-current="true"] .play{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
+.mp-track .tt{flex:1 1 auto;min-width:0}
+.mp-track .tt b{display:block;font-weight:500;font-family:"Space Grotesk",sans-serif;font-size:15px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mp-track .vs{flex:0 0 auto;display:flex;gap:5px}
+.mp-track .vbtn{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.06em;
+  border:1px solid var(--line);background:transparent;color:var(--bonedim);border-radius:6px;
+  padding:3px 8px;cursor:pointer}
+.mp-track .vbtn[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
+.mp-track .nofile{flex:0 0 auto;font-size:11px;color:var(--sting);font-family:"Space Grotesk",sans-serif;
+  letter-spacing:.04em;opacity:.85}
+
+/* sticky transport bar */
+.mp-bar{position:sticky;bottom:0;z-index:15;margin-top:30px;background:rgba(22,21,19,.94);
+  backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:14px 16px;
+  box-shadow:0 -2px 30px rgba(0,0,0,.4)}
+.mp-now{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 10px}
+.mp-now .lbl{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--grass)}
+.mp-now .ttl{font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--bone)}
+.mp-now .lane{color:var(--ochre);font-size:13px;font-family:"Space Grotesk",sans-serif}
+.mp-seekrow{display:flex;align-items:center;gap:10px}
+.mp-time{font-family:"Space Grotesk",sans-serif;font-size:12px;color:var(--grass);
+  font-variant-numeric:tabular-nums;flex:0 0 auto;width:42px;text-align:center}
+.mp-seek{flex:1 1 auto;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;
+  background:var(--line);outline:none;cursor:pointer}
+.mp-seek::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:14px;height:14px;
+  border-radius:50%;background:var(--gold);cursor:pointer}
+.mp-seek::-moz-range-thumb{width:14px;height:14px;border:0;border-radius:50%;background:var(--gold);cursor:pointer}
+.mp-ctrls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px}
+.mp-btn{border:1px solid var(--line);background:var(--card);color:var(--bone);cursor:pointer;
+  border-radius:999px;font-family:"Space Grotesk",sans-serif;font-size:15px;padding:10px 16px;
+  min-width:46px;line-height:1}
+.mp-btn:hover{border-color:var(--ochre);color:var(--gold)}
+.mp-btn.primary{background:var(--ochre);border-color:var(--ochre);color:var(--black);
+  font-size:18px;padding:11px 22px}
+.mp-btn.primary:hover{background:var(--gold);border-color:var(--gold)}
+.mp-err{color:var(--sting);font-size:13px;font-family:"Space Grotesk",sans-serif;
+  text-align:center;margin:10px 0 0;min-height:1em}
+.mp-empty{color:var(--bonedim);padding:30px 0;text-align:center;font-style:italic}
+@media (max-width:540px){
+  .mp-track .vs{display:none}
+  .mp-now .ttl{font-size:17px}
+}
+</style>"""
+
+    # ── Page body. The JS fetches music-manifest.json and renders everything; the
+    #    server-rendered fallback below keeps the page meaningful without JS and
+    #    gives crawlers real content.
+    body = """
+<div class="wrap mp-hero">
+  <p class="eyebrow">Arjuna Sound · companion player</p>
+  <h1>The Man They All Misread</h1>
+  <p class="tag">Jakobus &amp; Beast — made, not curated.</p>
+  <p class="lede">The soundtrack to <a href="book/the-jakobus-file.html"><em>A Man They All
+  Read Wrong</em></a> — and the whole catalogue around it. Pick a lane, press play. These are
+  AJ's own songs, on AJ's own rails: self-hosted, no streaming silo, no gatekeeper's permission.
+  <em>Lay your own table in the firelight; don't ask for a seat at theirs.</em></p>
+  <p class="mp-note" id="mp-status" role="status">
+    <strong>Heads-up:</strong> the player is fully wired, but the audio files are not yet hosted.
+    Track URLs point at where each song <em>will</em> live once the catalogue is uploaded to
+    self-hosted storage. Until then the controls work; the sound does not.
+  </p>
+</div>
+
+<div class="wrap" id="mp-app">
+  <div class="mp-lanes" id="mp-lanes" role="tablist" aria-label="Genres / playlists"></div>
+  <p class="mp-laneblurb" id="mp-laneblurb"></p>
+  <ul class="mp-list" id="mp-list" aria-live="polite"></ul>
+
+  <div class="mp-bar" id="mp-bar" aria-label="Now playing">
+    <div class="mp-now">
+      <span class="lbl">Now playing</span>
+      <span class="ttl" id="mp-now-title">—</span>
+      <span class="lane" id="mp-now-lane"></span>
+    </div>
+    <div class="mp-seekrow">
+      <span class="mp-time" id="mp-cur">0:00</span>
+      <input type="range" class="mp-seek" id="mp-seek" min="0" max="100" value="0" step="0.1"
+             aria-label="Seek">
+      <span class="mp-time" id="mp-dur">0:00</span>
+    </div>
+    <div class="mp-ctrls">
+      <button class="mp-btn" id="mp-prev" type="button" aria-label="Previous track">&#9664;&#9664;</button>
+      <button class="mp-btn primary" id="mp-play" type="button" aria-label="Play">&#9654;</button>
+      <button class="mp-btn" id="mp-next" type="button" aria-label="Next track">&#9654;&#9654;</button>
+    </div>
+    <div class="mp-err" id="mp-err"></div>
+    <audio id="mp-audio" preload="none"></audio>
+  </div>
+</div>
+"""
+
+    # ── Player logic. Deliberately ES5: var, function expressions, no template
+    #    literals, no arrow functions, XHR (not fetch) for the manifest so it
+    #    runs on very old WebKit/Android browsers. No build step, no deps.
+    script = r"""
+<script>
+(function(){
+  "use strict";
+  var MANIFEST_URL = "music-manifest.json";
+
+  var lanesEl  = document.getElementById("mp-lanes");
+  var blurbEl  = document.getElementById("mp-laneblurb");
+  var listEl   = document.getElementById("mp-list");
+  var audio    = document.getElementById("mp-audio");
+  var playBtn  = document.getElementById("mp-play");
+  var prevBtn  = document.getElementById("mp-prev");
+  var nextBtn  = document.getElementById("mp-next");
+  var seekEl   = document.getElementById("mp-seek");
+  var curEl    = document.getElementById("mp-cur");
+  var durEl    = document.getElementById("mp-dur");
+  var nowTitle = document.getElementById("mp-now-title");
+  var nowLane  = document.getElementById("mp-now-lane");
+  var errEl    = document.getElementById("mp-err");
+  var statusEl = document.getElementById("mp-status");
+
+  if(!lanesEl || !audio){ return; } // page without the app block — nothing to do
+
+  var data = null;
+  var laneIdx = 0;
+  var trackIdx = -1;
+  var seeking = false;
+
+  function fmt(s){
+    if(!isFinite(s) || s < 0){ s = 0; }
+    var m = Math.floor(s / 60);
+    var r = Math.floor(s % 60);
+    return m + ":" + (r < 10 ? "0" : "") + r;
+  }
+
+  function currentLane(){ return data.lanes[laneIdx]; }
+  function currentTracks(){ return currentLane().tracks; }
+
+  function renderLanes(){
+    lanesEl.innerHTML = "";
+    for(var i = 0; i < data.lanes.length; i++){
+      (function(i){
+        var lane = data.lanes[i];
+        var b = document.createElement("button");
+        b.className = "mp-lane";
+        b.setAttribute("type", "button");
+        b.setAttribute("role", "tab");
+        b.setAttribute("aria-selected", i === laneIdx ? "true" : "false");
+        b.innerHTML = esc(lane.name) +
+          '<span class="n">' + lane.tracks.length + '</span>';
+        b.onclick = function(){ selectLane(i); };
+        lanesEl.appendChild(b);
+      })(i);
+    }
+  }
+
+  function renderList(){
+    var lane = currentLane();
+    blurbEl.textContent = lane.blurb || "";
+    listEl.innerHTML = "";
+    var tracks = lane.tracks;
+    if(!tracks.length){
+      var li = document.createElement("li");
+      li.className = "mp-empty";
+      li.textContent = "No tracks in this lane yet.";
+      listEl.appendChild(li);
+      return;
+    }
+    for(var i = 0; i < tracks.length; i++){
+      (function(i){
+        var t = tracks[i];
+        var li = document.createElement("li");
+        li.className = "mp-track";
+        li.setAttribute("aria-current", (i === trackIdx) ? "true" : "false");
+
+        var num = document.createElement("span");
+        num.className = "ti";
+        num.textContent = (i + 1);
+
+        var pb = document.createElement("button");
+        pb.className = "play";
+        pb.setAttribute("type", "button");
+        pb.setAttribute("aria-label", "Play " + t.title);
+        pb.innerHTML = (i === trackIdx && !audio.paused) ? "&#10074;&#10074;" : "&#9654;";
+
+        var tt = document.createElement("span");
+        tt.className = "tt";
+        var b = document.createElement("b");
+        b.textContent = t.title;
+        tt.appendChild(b);
+
+        li.appendChild(num);
+        li.appendChild(pb);
+        li.appendChild(tt);
+
+        // A/B variant chooser (Suno ships two renders per song)
+        if(t.variants && t.variants.length > 1){
+          var vs = document.createElement("span");
+          vs.className = "vs";
+          for(var v = 0; v < t.variants.length; v++){
+            (function(v){
+              var vb = document.createElement("button");
+              vb.className = "vbtn";
+              vb.setAttribute("type", "button");
+              vb.setAttribute("aria-pressed", (t._v || 0) === v ? "true" : "false");
+              vb.textContent = t.variants[v].label;
+              vb.onclick = function(e){
+                e.stopPropagation();
+                t._v = v;
+                if(i === trackIdx){ loadTrack(i, true); }
+                renderList();
+              };
+              vs.appendChild(vb);
+            })(v);
+          }
+          li.appendChild(vs);
+        }
+
+        // honesty flag: no audio bytes available for this track yet
+        var hasFile = t.variants ? t.variants[t._v || 0].onDisk : false;
+        if(!hasFile){
+          var nf = document.createElement("span");
+          nf.className = "nofile";
+          nf.textContent = "no file yet";
+          li.appendChild(nf);
+        }
+
+        var go = function(){ play(i); };
+        li.onclick = go;
+        pb.onclick = function(e){ e.stopPropagation(); play(i); };
+
+        listEl.appendChild(li);
+      })(i);
+    }
+  }
+
+  function urlFor(t){
+    if(t.variants && t.variants.length){
+      return t.variants[t._v || 0].audioUrl;
+    }
+    return t.audioUrl;
+  }
+
+  function loadTrack(i, keepPlaying){
+    var tracks = currentTracks();
+    if(i < 0 || i >= tracks.length){ return; }
+    trackIdx = i;
+    var t = tracks[i];
+    audio.src = urlFor(t);
+    nowTitle.textContent = t.title;
+    nowLane.textContent = "· " + currentLane().name;
+    errEl.textContent = "";
+    renderList();
+    if(keepPlaying){ audio.play().catch(noop); }
+  }
+
+  function play(i){
+    if(i === trackIdx){
+      // toggle the current track
+      if(audio.paused){ audio.play().catch(showErr); }
+      else { audio.pause(); }
+      syncPlayBtn();
+      return;
+    }
+    loadTrack(i, false);
+    audio.play().catch(showErr);
+    syncPlayBtn();
+  }
+
+  function selectLane(i){
+    if(i === laneIdx){ return; }
+    laneIdx = i;
+    trackIdx = -1;
+    renderLanes();
+    renderList();
+  }
+
+  function next(){
+    var tracks = currentTracks();
+    if(!tracks.length){ return; }
+    var i = (trackIdx + 1);
+    if(i >= tracks.length){ i = 0; }
+    play(i);
+  }
+  function prev(){
+    var tracks = currentTracks();
+    if(!tracks.length){ return; }
+    // restart if more than 3s in, else go to previous
+    if(audio.currentTime > 3){ audio.currentTime = 0; return; }
+    var i = (trackIdx - 1);
+    if(i < 0){ i = tracks.length - 1; }
+    play(i);
+  }
+
+  function syncPlayBtn(){
+    playBtn.innerHTML = audio.paused ? "&#9654;" : "&#10074;&#10074;";
+    playBtn.setAttribute("aria-label", audio.paused ? "Play" : "Pause");
+    renderList();
+  }
+
+  function showErr(){
+    // play() rejects when there is no hosted file yet (expected pre-R2).
+    errEl.textContent = "No audio file at " + (audio.currentSrc || audio.src) +
+      " yet — upload the catalogue to wire it up.";
+  }
+  function noop(){}
+  function esc(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+
+  // transport wiring
+  playBtn.onclick = function(){
+    if(trackIdx < 0){ play(0); return; }
+    if(audio.paused){ audio.play().catch(showErr); } else { audio.pause(); }
+    syncPlayBtn();
+  };
+  nextBtn.onclick = next;
+  prevBtn.onclick = prev;
+
+  audio.addEventListener("play", syncPlayBtn);
+  audio.addEventListener("pause", syncPlayBtn);
+  audio.addEventListener("ended", next);
+  audio.addEventListener("error", showErr);
+  audio.addEventListener("timeupdate", function(){
+    if(seeking){ return; }
+    curEl.textContent = fmt(audio.currentTime);
+    if(audio.duration && isFinite(audio.duration)){
+      seekEl.value = (audio.currentTime / audio.duration) * 100;
+    }
+  });
+  audio.addEventListener("loadedmetadata", function(){
+    durEl.textContent = fmt(audio.duration);
+  });
+
+  seekEl.addEventListener("input", function(){ seeking = true; });
+  seekEl.addEventListener("change", function(){
+    if(audio.duration && isFinite(audio.duration)){
+      audio.currentTime = (seekEl.value / 100) * audio.duration;
+    }
+    seeking = false;
+  });
+
+  // keyboard: space = play/pause, arrows = prev/next (when not typing)
+  document.addEventListener("keydown", function(e){
+    var tag = (e.target && e.target.tagName) ? e.target.tagName.toUpperCase() : "";
+    if(tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT"){ return; }
+    if(e.key === " " || e.keyCode === 32){ e.preventDefault(); playBtn.onclick(); }
+    else if(e.key === "ArrowRight"){ next(); }
+    else if(e.key === "ArrowLeft"){ prev(); }
+  });
+
+  function boot(json){
+    data = json;
+    if(statusEl && data.stats){
+      // keep the honest pre-host note, but show the real counts
+      statusEl.innerHTML = '<strong>' + data.stats.lanes + ' lanes · ' +
+        data.stats.tracks + ' songs.</strong> The player is fully wired, but the audio ' +
+        'files are not yet hosted — track URLs point at where each song <em>will</em> live ' +
+        'once the catalogue is uploaded to self-hosted storage. Until then the controls work; ' +
+        'the sound does not.';
+    }
+    renderLanes();
+    renderList();
+  }
+
+  // XHR (not fetch) — old-browser friendly, no polyfill needed.
+  function loadManifest(){
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", MANIFEST_URL, true);
+    xhr.onreadystatechange = function(){
+      if(xhr.readyState !== 4){ return; }
+      if(xhr.status >= 200 && xhr.status < 300){
+        try { boot(JSON.parse(xhr.responseText)); }
+        catch(err){ if(statusEl){ statusEl.textContent = "Could not read the music manifest."; } }
+      } else {
+        if(statusEl){ statusEl.textContent = "Could not load the music manifest (HTTP " + xhr.status + ")."; }
+      }
+    };
+    xhr.send();
+  }
+
+  loadManifest();
+})();
+</script>"""
+
+    return "\n".join([
+        head(title, desc, rel=rel, canonical=canonical,
+             keywords="Jakobus, Arjuna Sound, music player, self-hosted music, "
+                      "Banjos and Bass, Brass'n'Bass, Die Dier, Wolf, Rasta, "
+                      "AJ Greyling, A Man They All Read Wrong, badger thesis, "
+                      "open music, congosky"),
+        style,
+        nav(rel),
+        body,
+        script,
+        footer(rel),
+    ])
+
+
 def render_flyer() -> str:
     """A self-contained, print-ready A4 flyer (one page). QR is a placeholder box — generate a QR
     pointing at arjunabadger.press/start (any free generator) and drop the image in, or print and
@@ -7272,6 +7732,20 @@ def main() -> None:
             footer("./", safari=True),
         ])
         (OUT / "buabantu.html").write_text(_buabantu_page, encoding="utf-8")
+    # ── The Man They All Misread — self-hosted companion music player ────────────────────────────
+    # The badger thesis made audible: AJ's own catalogue on his own rails. The page reads
+    # music-manifest.json (real lanes + real titles); audio streams once the MP3s are uploaded to
+    # /audio/<lane>/<slug>.mp3 (R2). The manifest is committed at site/content/music-manifest.json
+    # and regenerated by site/build_music_manifest.py against ~/code/congosky-music.
+    _music_manifest = REPO / "site" / "content" / "music-manifest.json"
+    if _music_manifest.is_file():
+        (OUT / "the-man-they-all-misread.html").write_text(
+            render_misread_player(), encoding="utf-8")
+        # The page fetches the manifest at runtime, so it must sit next to the HTML.
+        shutil.copy2(_music_manifest, OUT / "music-manifest.json")
+        # Audio drop dir — the MP3s land here (or are served from R2 at /audio/...). Created so the
+        # path exists; populating it is "the flip" to make the player actually sound.
+        (OUT / "audio").mkdir(exist_ok=True)
     if BOUNTY_LIVE:                              # the QR flyer advertises the prize money — gated
         (OUT / "flyer.html").write_text(render_flyer(), encoding="utf-8")
     # ── Safari — personal annex (CV, letters, arms, essays) ─────────────────────────────────────
