@@ -1671,6 +1671,17 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .hero h1{font-size:clamp(34px,6vw,62px);margin:18px 0 6px}
 .hero .tag{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:clamp(20px,3vw,30px);color:var(--gold)}
 .hero p.lead{max-width:680px;margin:18px auto 0;color:var(--bonedim);font-size:18px}
+/* library header — compact + left-aligned (books-first, not a marketing hero).
+   Small crest beside the text so the shelves start high on the page. */
+.lib-head{padding:34px 0 18px;border-bottom:1px solid var(--line,rgba(229,181,103,.18))}
+.lib-head .wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.lib-head .lib-crest img{width:84px;height:84px;object-fit:contain;display:block;
+  filter:drop-shadow(0 6px 24px rgba(229,181,103,.16))}
+.lib-head-text{flex:1;min-width:260px}
+.lib-head h1{font-size:clamp(30px,5vw,46px);margin:0 0 8px}
+.lib-head p.lead{max-width:64ch;margin:0;color:var(--bonedim);font-size:17px;line-height:1.5}
+.lib-head .cta{justify-content:flex-start;margin-top:18px}
+@media(max-width:560px){.lib-head{padding:24px 0 14px}.lib-head .lib-crest img{width:60px;height:60px}}
 .cta{display:inline-flex;gap:14px;margin-top:30px;flex-wrap:wrap;justify-content:center}
 .btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;font-size:15px;
   font-family:"Space Grotesk";border:1px solid var(--ochre);color:var(--black);background:var(--ochre)}
@@ -2923,7 +2934,10 @@ def with_mermaid(page: str) -> str:
 
 
 def card(e: dict, accent: str) -> str:
-    cover = (f'<img class="cover" loading="eager" decoding="async" '
+    # lazy-load covers — the library shows ~38 of them; eager loading every cover on
+    # page open was the slowness (covers are 0.3–4MB each). loading="lazy" defers
+    # off-screen covers until scroll; decoding="async" keeps the main thread free.
+    cover = (f'<img class="cover" loading="lazy" decoding="async" '
              f'src="{cover_public_src(e["id"], e.get("cover"))}" '
              f'alt="{html.escape(e["title"])} cover">')
     dls = ""
@@ -4476,34 +4490,37 @@ def render_index(entries: list[dict]) -> str:
     parts = [head("Arjuna Badger Press — the library",
                   "Free books, finished to a studio standard — read online or download EPUB and PDF."),
              nav()]
-    parts.append(f"""<header class="hero"><div class="wrap">
-<img class="crest" src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest">
-<h1>Arjuna Badger Press</h1>
-<div class="tag serif">{TAGLINE}</div>
-<p class="lead">Finished books, free to read. Fact-checked, both sides told, the door left open.</p>
-<div class="cta"><a class="btn" href="#library">Browse the library</a>
-<a class="btn ghost" href="start.html">Not sure where to start?</a>
+    # ── Books-first: a compact library header, then the shelves. The page is the
+    #    LIBRARY (an e-reader shelf), not a marketing landing — the house/mission
+    #    content lives below the fold and on its own pages (press.html, join.html). ──
+    parts.append(f"""<header class="lib-head"><div class="wrap">
+<a class="lib-crest" href="#library" aria-label="Arjuna Badger Press"><img src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest"></a>
+<div class="lib-head-text">
+<h1>The Library</h1>
+<p class="lead"><strong>{read_now} books, free to read.</strong> {avail} ready to download — read online, or EPUB &amp; PDF. Finished to a studio standard; both sides told, the door left open.</p>
+<div class="cta"><a class="btn" href="start.html">Where to start?</a>
+<a class="btn ghost" href="press.html">About the press</a>
 <a class="btn ghost" href="/studio">Writers → the Studio</a></div>
-</div></header><hr class="hr">""")
+</div>
+</div></header>""")
 
-    # ── Call to arms banner ───────────────────────────────────────────────
+    parts.append('<section id="library">')
+    parts.append(render_library_shelves(entries, available_only=True))
+    parts.append('</section>')
+
+    # ── Below the fold: the house. Collapsed to a quiet strip + a "call to arms"
+    #    card, so the books own the page and the mission is one scroll away. ──
+    parts.append('<hr class="hr">')
     parts.append(f"""<section class="callarms"><div class="wrap">
 <div class="callarms-inner">
 <div class="eyebrow">Afrika Rising · a call to arms</div>
 <h2>These are your stories. Help us write them true.</h2>
-<p>A Zulu voice for the empty seat in <em>Brave and Scared</em>. A Coloured Capetonian to read South
+<p>A Zulu voice for the empty seat in <em>Brave and Scared</em>. A Coloured Capetonian for South
 Africa's deep past. An SA Indian woman for the India books. Sensitivity readers, translators, and
 narrators for every people these books touch — paid, credited, and named.</p>
 <div class="cta"><a class="btn" href="join.html">Put your hand up &rarr;</a></div>
 </div>
-</div></section><hr class="hr">""")
-
-    parts.append(f"""<section id="library"><div class="wrap library-intro">
-<div class="eyebrow">The library</div>
-<h2>{read_now} books to read now</h2>
-<p>{avail} available to download · read online · EPUB &amp; PDF free.{" "+str(pending)+" more in the studio — see About the press." if pending else ""}</p>
 </div></section>""")
-    parts.append(render_library_shelves(entries, available_only=True))
     parts.append('<hr class="hr">')
     parts.append(render_index_explore())
     parts.append('<hr class="hr">')
