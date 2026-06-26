@@ -1,0 +1,30 @@
+{
+  "raw": {
+    "words": 12018,
+    "sentences": 668,
+    "avg_sentence_len": 17.7,
+    "sentence_len_cv": 0.7,
+    "mattr": 0.644,
+    "repetition_ratio": 0.076,
+    "passive_count": 37,
+    "passive_per_1k": 3.1,
+    "dialogue_lines": 6,
+    "dialogue_ratio": 0.033,
+    "filter_word_hits": 14,
+    "filter_per_1k": 1.2,
+    "burstiness": -0.164,
+    "short_line_frac": 0.028,
+    "para_entropy": 0.86,
+    "mic_drop_frac": 0.123
+  },
+  "scores": {
+    "sentence_variety": 3.0,
+    "lexical_diversity": 5.4,
+    "repetition": 7.7,
+    "passive_voice": 8.2,
+    "exposition_density": 9.0,
+    "dialogue_ratio": 0.033,
+    "register_evenness": 7.2,
+    "scene_cadence": 10.0
+  }
+}

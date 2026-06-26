@@ -1,0 +1,88 @@
+{
+  "chapters": [
+    {
+      "id": "ch-00-proem",
+      "n": 0,
+      "title": "Proem \u2014 A Guest at His Fire",
+      "beat": "Essay 00 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-01-fooled-by-randomness",
+      "n": 1,
+      "title": "One \u2014 The Lucky Fool",
+      "beat": "Essay 01 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-02-the-black-swan",
+      "n": 2,
+      "title": "Two \u2014 The Bird We Didn't See",
+      "beat": "Essay 02 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-03-mediocristan",
+      "n": 3,
+      "title": "Three \u2014 Two Countries",
+      "beat": "Essay 03 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-04-the-ludic-fallacy",
+      "n": 4,
+      "title": "Four \u2014 The Game Is Not the World",
+      "beat": "Essay 04 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-05-the-bed-of-procrustes",
+      "n": 5,
+      "title": "Five \u2014 The Bed That Cuts",
+      "beat": "Essay 05 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-06-antifragile",
+      "n": 6,
+      "title": "Six \u2014 The Three States",
+      "beat": "Essay 06 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-07-via-negativa",
+      "n": 7,
+      "title": "Seven \u2014 Subtraction",
+      "beat": "Essay 07 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-08-the-barbell",
+      "n": 8,
+      "title": "Eight \u2014 Both Ends, Not the Middle",
+      "beat": "Essay 08 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-09-skin-in-the-game",
+      "n": 9,
+      "title": "Nine \u2014 The Cost of Being Wrong",
+      "beat": "Essay 09 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-10-the-fragilista",
+      "n": 10,
+      "title": "Ten \u2014 The Man Who Means Well",
+      "beat": "Essay 10 of The Antifragile Reader",
+      "target_words": 950
+    },
+    {
+      "id": "ch-11-coda",
+      "n": 11,
+      "title": "Coda \u2014 What I Carried Home",
+      "beat": "Essay 11 of The Antifragile Reader",
+      "target_words": 950
+    }
+  ]
+}

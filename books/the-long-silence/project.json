@@ -1,0 +1,31 @@
+{
+  "id": "the-long-silence",
+  "title": "The Long Silence",
+  "working_title": "The Long Silence",
+  "seq": 1,
+  "folder": "the-long-silence",
+  "protagonist": "ensemble (no single lead; the contact-generation cast)",
+  "logline": "A species clever enough to split the atom but foolish enough to broadcast its address learns, too late, the one law of a universe full of listeners: the wise stay silent, and the loud do not last.",
+  "blueprint": "Liu Cixin Remembrance of Earth's Past engine: Dark Forest as moral physics; the broadcast-folly thesis; droplet-grade set-pieces; native-English prose, no translation stiffness; original cast and scenes",
+  "market": "literary hard SF / first-contact / cosmic-scale tragedy: craft exercise, not for commercial release",
+  "status": "scaffold",
+  "target_words": 120000,
+  "lineage": "Liu Cixin, The Three-Body Problem / The Dark Forest / Death's End (2008-2010) — Remembrance of Earth's Past",
+  "ssot_url": "",
+  "graph_color": "#1a2740",
+  "canon_order": [
+    "SOURCE_NOTES.md",
+    "SEED_STORY.md",
+    "CRAFT_MAP.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "NARRATIVE_ENGINES.md",
+    "ADAPTATION_DOCTRINE.md",
+    "CANON_CHOICES.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS.md",
+    "STYLE_GUIDE.md",
+    "PLOT.md"
+  ],
+  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+}

@@ -39,7 +39,7 @@ time — and to every specialist named in the Source Notes who put their name on
 
 ## Contents
 
-- Dedication
+- A Note on the Original
 - The Sort of Person He Was
 - The Blue Folder
 - The Man Who Asked for Witnesses
@@ -60,23 +60,6 @@ time — and to every specialist named in the Source Notes who put their name on
 - Twenty Years
 - The Only Untrue Things
 - Chapter 98 — Source Notes, Reading List, and Where the Line Runs
-
----
-
-# Dedication
-
-To **Roald Dahl**, who built the engine — the nested document, the greedy man, the boring years,
-the card that turns over, the gift turned outward. Without *The Wonderful Story of Henry Sugar*
-(1977), this book does not exist.
-
-And to **Joe Dispenza**, **Dean Radin**, and **Rupert Sheldrake** — whose reported work on the
-body, the laboratory anomaly, and the mind not confined to the skull taught this retelling what
-Henry's training is allowed to be. Not sermon. **Physics on the page.**
-
-\
-
-*With gratitude also to **Joseph McMoneagle**, whose *Mind Trek* made me read Dahl's Henry a second
-time — and to every specialist named in the Source Notes who put their name on the record.*
 
 ---
 
@@ -1153,18 +1136,6 @@ This is a **novel** — a faithful structural retelling of Roald Dahl's *The Won
 What follows is **not fiction**. It is the reading that made the card turn over a second time for me — after childhood wonder, after scepticism, after Joe McMoneagle's account of learning to see without the apparatus we were told was mandatory.
 
 In one sentence: this novel is **real magik with a k** — Dean Radin's *Real Magic* (2018) told as Dahl fiction. Not stage trickery (Imhrat's first teacher). Not card-marking (Henry's Monte Carlo). **Magik**: mind-matter anomalies, extended perception, consciousness not confined to the skull — played straight on the page the way Radin maps the evidence in prose, the way McMoneagle maps it in session logs.
-
----
-
-## Dedication
-
-To **Roald Dahl**, who built the engine.
-
-And to **Joe Dispenza**, **Dean Radin**, and **Rupert Sheldrake** — whose reported work taught this retelling what Henry's training is allowed to be.
-
-*With gratitude also to **Joseph McMoneagle**, whose *Mind Trek* made me read Dahl's Henry a second time — and to every specialist named below who put their name on the record.*
-
-*(Front matter: [`canon/DEDICATION_BOOK.md`](../../canon/DEDICATION_BOOK.md))*
 
 ---
 
