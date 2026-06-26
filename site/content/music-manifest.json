@@ -1,0 +1,1117 @@
+{
+  "_comment": "Companion player manifest for 'The Man They All Misread' — AJ's Jakobus & Beast catalogue, self-hosted (the badger thesis). audioUrl paths are PLACEHOLDERS pointing at /audio/<lane>/<slug>.mp3 where the MP3s will live once uploaded to Cloudflare R2. Until then the UI is live but no audio streams. Regenerate with site/build_music_manifest.py against ~/code/congosky-music.",
+  "title": "The Man They All Misread",
+  "subtitle": "Jakobus & Beast — the companion player",
+  "artist": "Arjuna Sound",
+  "audioBase": "/audio",
+  "stats": {
+    "lanes": 9,
+    "tracks": 65,
+    "tracksWithAudioOnDisk": 65
+  },
+  "lanes": [
+    {
+      "name": "Jakobus Brass'n'Bass — The Misread Man",
+      "slug": "jakobus-brass-n-bass",
+      "blurb": "Black Betty at a boeredans. Bass-house under outlaw-country swing, horn stabs, a gospel-choir swell on the bridge, then a massive drop. The title lane — the soundtrack to A Man They All Read Wrong.",
+      "tracks": [
+        {
+          "title": "Stil Water, Diepe Grond",
+          "audioUrl": "/audio/jakobus-brass-n-bass/stil-water-diepe-grond-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/jakobus-brass-n-bass/stil-water-diepe-grond-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/jakobus-brass-n-bass/stil-water-diepe-grond-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "The Perfect Note (for Todd)",
+          "audioUrl": "/audio/jakobus-brass-n-bass/the-perfect-note-for-todd-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/jakobus-brass-n-bass/the-perfect-note-for-todd-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/jakobus-brass-n-bass/the-perfect-note-for-todd-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Turn It Up, Hennie",
+          "audioUrl": "/audio/jakobus-brass-n-bass/turn-it-up-hennie-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/jakobus-brass-n-bass/turn-it-up-hennie-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/jakobus-brass-n-bass/turn-it-up-hennie-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Two Is One and One Is None (Henni-Twee)",
+          "audioUrl": "/audio/jakobus-brass-n-bass/two-is-one-and-one-is-none-henni-twee-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/jakobus-brass-n-bass/two-is-one-and-one-is-none-henni-twee-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/jakobus-brass-n-bass/two-is-one-and-one-is-none-henni-twee-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Vat Hom, Jakobus",
+          "audioUrl": "/audio/jakobus-brass-n-bass/vat-hom-jakobus-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/jakobus-brass-n-bass/vat-hom-jakobus-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/jakobus-brass-n-bass/vat-hom-jakobus-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Banjos & Bass — Arjuna Sound",
+      "slug": "banjos-and-bass",
+      "blurb": "Bluegrass EDM. The full Steve'n'Seagulls redneck arsenal — banjo, fiddle, washboard — over a four-on-the-floor kick. Stomp the floor.",
+      "tracks": [
+        {
+          "title": "Banjos and Bass",
+          "audioUrl": "/audio/banjos-and-bass/banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Beat the Devil Down (Banjos and Bass)",
+          "audioUrl": "/audio/banjos-and-bass/beat-the-devil-down-banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/beat-the-devil-down-banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/beat-the-devil-down-banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Big Tractor",
+          "audioUrl": "/audio/banjos-and-bass/big-tractor-b.mp3",
+          "variants": [
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/big-tractor-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Diesel and Dust",
+          "audioUrl": "/audio/banjos-and-bass/diesel-and-dust-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/diesel-and-dust-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/diesel-and-dust-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Down the Grade (Banjos and Bass)",
+          "audioUrl": "/audio/banjos-and-bass/down-the-grade-banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/down-the-grade-banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/down-the-grade-banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Friday Night Lights",
+          "audioUrl": "/audio/banjos-and-bass/friday-night-lights-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/friday-night-lights-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/friday-night-lights-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Ghost in the Holler",
+          "audioUrl": "/audio/banjos-and-bass/ghost-in-the-holler-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/ghost-in-the-holler-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/ghost-in-the-holler-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Moonshine Mountain",
+          "audioUrl": "/audio/banjos-and-bass/moonshine-mountain-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/moonshine-mountain-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/moonshine-mountain-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Mud on the Tyres",
+          "audioUrl": "/audio/banjos-and-bass/mud-on-the-tyres-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/mud-on-the-tyres-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/mud-on-the-tyres-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Runaway Train (Banjos and Bass)",
+          "audioUrl": "/audio/banjos-and-bass/runaway-train-banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/runaway-train-banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/runaway-train-banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Stomp the Floor (Banjos and Bass)",
+          "audioUrl": "/audio/banjos-and-bass/stomp-the-floor-banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/stomp-the-floor-banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/stomp-the-floor-banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Tailgate",
+          "audioUrl": "/audio/banjos-and-bass/tailgate-b.mp3",
+          "variants": [
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/tailgate-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Tractor Pull",
+          "audioUrl": "/audio/banjos-and-bass/tractor-pull-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/tractor-pull-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/tractor-pull-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Two-Step in the Hayloft",
+          "audioUrl": "/audio/banjos-and-bass/two-step-in-the-hayloft-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/two-step-in-the-hayloft-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/two-step-in-the-hayloft-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Up on the Hill (Banjos and Bass)",
+          "audioUrl": "/audio/banjos-and-bass/up-on-the-hill-banjos-and-bass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/banjos-and-bass/up-on-the-hill-banjos-and-bass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/up-on-the-hill-banjos-and-bass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Whiskey River Baptism",
+          "audioUrl": "/audio/banjos-and-bass/whiskey-river-baptism-b.mp3",
+          "variants": [
+            {
+              "label": "B",
+              "audioUrl": "/audio/banjos-and-bass/whiskey-river-baptism-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Still Man Banger Series",
+      "slug": "still-man-bangers",
+      "blurb": "The quiet man finally opens the throttle on an absurdly slow vehicle — milk float, Zamboni, steamroller, hearse. Hick-hop bangers, every one.",
+      "tracks": [
+        {
+          "title": "Combine Harvester",
+          "audioUrl": "/audio/still-man-bangers/combine-harvester-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/combine-harvester-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/combine-harvester-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Crop Duster",
+          "audioUrl": "/audio/still-man-bangers/crop-duster-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/crop-duster-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/crop-duster-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Forklift Friday",
+          "audioUrl": "/audio/still-man-bangers/forklift-friday-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/forklift-friday-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/forklift-friday-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Hearse",
+          "audioUrl": "/audio/still-man-bangers/hearse-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/hearse-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/hearse-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Ice Cream Truck",
+          "audioUrl": "/audio/still-man-bangers/ice-cream-truck-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/ice-cream-truck-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/ice-cream-truck-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Last Train Out",
+          "audioUrl": "/audio/still-man-bangers/last-train-out-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/last-train-out-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/last-train-out-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Milk Float",
+          "audioUrl": "/audio/still-man-bangers/milk-float-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/milk-float-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/milk-float-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Open Her Up",
+          "audioUrl": "/audio/still-man-bangers/open-her-up-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/open-her-up-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/open-her-up-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Postie's Bike",
+          "audioUrl": "/audio/still-man-bangers/posties-bike-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/posties-bike-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/posties-bike-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Redline Prayer",
+          "audioUrl": "/audio/still-man-bangers/redline-prayer-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/redline-prayer-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/redline-prayer-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "School Bus",
+          "audioUrl": "/audio/still-man-bangers/school-bus-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/school-bus-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/school-bus-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Snow Plow",
+          "audioUrl": "/audio/still-man-bangers/snow-plow-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/snow-plow-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/snow-plow-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Speedboat Sunday",
+          "audioUrl": "/audio/still-man-bangers/speedboat-sunday-b.mp3",
+          "variants": [
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/speedboat-sunday-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Steamroller",
+          "audioUrl": "/audio/still-man-bangers/steamroller-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/steamroller-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/steamroller-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Sunday Driver",
+          "audioUrl": "/audio/still-man-bangers/sunday-driver-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/sunday-driver-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/sunday-driver-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "The Long Way Home",
+          "audioUrl": "/audio/still-man-bangers/the-long-way-home-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/the-long-way-home-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/the-long-way-home-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Zamboni",
+          "audioUrl": "/audio/still-man-bangers/zamboni-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/still-man-bangers/zamboni-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/still-man-bangers/zamboni-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Die Dier Saga — Afrikaans",
+      "slug": "die-dier-saga",
+      "blurb": "Die Dier — the Beast. The Afrikaans saga lane: gravel-baritone gothic and four-on-the-floor sub-bass, sung in the language of the veld.",
+      "tracks": [
+        {
+          "title": "Die Brug (The Bridge)",
+          "audioUrl": "/audio/die-dier-saga/die-brug-the-bridge-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-brug-the-bridge-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-brug-the-bridge-b.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "C",
+              "audioUrl": "/audio/die-dier-saga/die-brug-the-bridge-c.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "D",
+              "audioUrl": "/audio/die-dier-saga/die-brug-the-bridge-d.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Dier (Die Dansvloer) B",
+          "audioUrl": "/audio/die-dier-saga/die-dier-die-dansvloer-b-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-dier-die-dansvloer-b-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-dier-die-dansvloer-b-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Dier (Die Slaper) A",
+          "audioUrl": "/audio/die-dier-saga/die-dier-die-slaper-a-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-dier-die-slaper-a-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-dier-die-slaper-a-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Dier (The Beast)",
+          "audioUrl": "/audio/die-dier-saga/die-dier-the-beast-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-dier-the-beast-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-dier-the-beast-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Modder (The Mud)",
+          "audioUrl": "/audio/die-dier-saga/die-modder-the-mud-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-modder-the-mud-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-modder-the-mud-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Pas (The Pass)",
+          "audioUrl": "/audio/die-dier-saga/die-pas-the-pass-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-pas-the-pass-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-pas-the-pass-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Reen (The Rain)",
+          "audioUrl": "/audio/die-dier-saga/die-reen-the-rain-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-reen-the-rain-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-reen-the-rain-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Rivier (The River)",
+          "audioUrl": "/audio/die-dier-saga/die-rivier-the-river-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-rivier-the-river-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-rivier-the-river-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Sneeu (The Snow)",
+          "audioUrl": "/audio/die-dier-saga/die-sneeu-the-snow-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-sneeu-the-snow-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-sneeu-the-snow-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Sout (The Salt)",
+          "audioUrl": "/audio/die-dier-saga/die-sout-the-salt-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-sout-the-salt-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-sout-the-salt-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Stof (The Dust)",
+          "audioUrl": "/audio/die-dier-saga/die-stof-the-dust-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-stof-the-dust-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-stof-the-dust-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Vlakte (The Plains)",
+          "audioUrl": "/audio/die-dier-saga/die-vlakte-the-plains-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-vlakte-the-plains-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-vlakte-the-plains-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Vuur (The Fire)",
+          "audioUrl": "/audio/die-dier-saga/die-vuur-the-fire-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-vuur-the-fire-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-vuur-the-fire-b.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "C",
+              "audioUrl": "/audio/die-dier-saga/die-vuur-the-fire-c.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "D",
+              "audioUrl": "/audio/die-dier-saga/die-vuur-the-fire-d.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Die Wrak (The Wreck)",
+          "audioUrl": "/audio/die-dier-saga/die-wrak-the-wreck-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/die-wrak-the-wreck-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/die-wrak-the-wreck-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "The Beast",
+          "audioUrl": "/audio/die-dier-saga/the-beast-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/the-beast-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/the-beast-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "The Beast 3",
+          "audioUrl": "/audio/die-dier-saga/the-beast-3-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/die-dier-saga/the-beast-3-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/die-dier-saga/the-beast-3-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wolf / Hardekool — Afrikaans Gothic",
+      "slug": "wolf-hardekool",
+      "blurb": "Sisters of Mercy in Afrikaans. Weathered gravel baritone, war-cry gang chants, drum-machine four-on-the-floor, banging sub-bass.",
+      "tracks": [
+        {
+          "title": "Black Beauty",
+          "audioUrl": "/audio/wolf-hardekool/black-beauty-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/black-beauty-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/black-beauty-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Hardekool",
+          "audioUrl": "/audio/wolf-hardekool/hardekool-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/hardekool-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/hardekool-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Hitte en Ys",
+          "audioUrl": "/audio/wolf-hardekool/hitte-en-ys-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/hitte-en-ys-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/hitte-en-ys-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Old Yeller",
+          "audioUrl": "/audio/wolf-hardekool/old-yeller-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/old-yeller-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/old-yeller-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Run, Little Prince",
+          "audioUrl": "/audio/wolf-hardekool/run-little-prince-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/run-little-prince-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/run-little-prince-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "The Yearling",
+          "audioUrl": "/audio/wolf-hardekool/the-yearling-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/wolf-hardekool/the-yearling-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/wolf-hardekool/the-yearling-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rasta — Golden Hour",
+      "slug": "rasta-golden-hour",
+      "blurb": "The Pieter sound. Classic roots reggae meets modern California reggae — warm dub bass, offbeat skank, melodica, golden-hour cocktail groove.",
+      "tracks": [
+        {
+          "title": "The Whole Beautiful Mess (for Pieter)",
+          "audioUrl": "/audio/rasta-golden-hour/the-whole-beautiful-mess-for-pieter-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/rasta-golden-hour/the-whole-beautiful-mess-for-pieter-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/rasta-golden-hour/the-whole-beautiful-mess-for-pieter-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "O Brother — Old-Timey",
+      "slug": "o-brother",
+      "blurb": "Down to the river. Appalachian, sacred-harp, bluegrass-gospel — close harmony and long, lingering held notes.",
+      "tracks": [
+        {
+          "title": "Down to the Water",
+          "audioUrl": "/audio/o-brother/down-to-the-water-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/o-brother/down-to-the-water-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/o-brother/down-to-the-water-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prog Epic",
+      "slug": "prog-epic",
+      "blurb": "A track that is a journey. Multi-movement prog suite that changes gears seamlessly — synth pulse, ballad, operatic stack, hard-rock drive — all riding a deep bass spine.",
+      "tracks": [
+        {
+          "title": "The Still Man Rides (A Suite)",
+          "audioUrl": "/audio/prog-epic/the-still-man-rides-a-suite-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/prog-epic/the-still-man-rides-a-suite-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/prog-epic/the-still-man-rides-a-suite-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Red-Robot — Family Saga",
+      "slug": "red-robot",
+      "blurb": "The dedication. The family-saga lane — Andries & Monica, Kransfontein, the doors that were opened. Sung straight, sung true.",
+      "tracks": [
+        {
+          "title": "Red-Robot (Andries & Monica)",
+          "audioUrl": "/audio/red-robot/red-robot-andries-monica-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/red-robot/red-robot-andries-monica-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/red-robot/red-robot-andries-monica-b.mp3",
+              "onDisk": true
+            }
+          ]
+        },
+        {
+          "title": "Through the Doors (Kransfontein)",
+          "audioUrl": "/audio/red-robot/through-the-doors-kransfontein-a.mp3",
+          "variants": [
+            {
+              "label": "A",
+              "audioUrl": "/audio/red-robot/through-the-doors-kransfontein-a.mp3",
+              "onDisk": true
+            },
+            {
+              "label": "B",
+              "audioUrl": "/audio/red-robot/through-the-doors-kransfontein-b.mp3",
+              "onDisk": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
