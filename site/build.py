@@ -493,6 +493,68 @@ def cover_public_src(book_id: str, cover: Path | None, *, rel: str = "") -> str:
     return f"{rel}assets/covers/{book_id}.png{v}"
 
 
+# ── Shelf thumbnails ──────────────────────────────────────────────────────────────────────────
+# The library home page shows ~38 covers on a shelf grid; each only displays at ~150–200px wide,
+# yet the source PNGs run 0.3–7MB. Scrolling the shelf used to pull tens of MB of full-res art.
+# Fix: generate a small WebP thumbnail per cover (max width 2x the display = ~400px for retina,
+# quality 80) and serve THAT on the shelf. The book page + reader keep the full-res PNG.
+THUMB_MAX_W = 400          # 2x the ~200px shelf display, for retina sharpness
+THUMB_QUALITY = 80         # WebP quality — visually lossless at shelf scale
+# Book ids whose shelf thumbnail was generated this build. Populated by make_cover_thumb();
+# cover_thumb_src() reads it to decide whether to point the shelf card at the thumb or fall back
+# to the full cover (PIL missing / source missing / encode failed -> never a broken image).
+_THUMB_OK: set[str] = set()
+
+
+def make_cover_thumb(book_id: str, cover: Path | None) -> bool:
+    """Generate site/public/assets/covers/thumb/<id>.webp from the full cover.
+
+    Idempotent + fast: skips if the thumb exists and is newer than the source (mtime check).
+    No-op-safe: if Pillow is unavailable, the source is missing, or encoding fails, it logs and
+    returns False so the shelf card falls back to the full cover src — the build never crashes and
+    never renders a broken image. Records success in _THUMB_OK for cover_thumb_src()."""
+    if cover is None or not cover.is_file():
+        print(f"  [thumb] {book_id}: no source cover — shelf falls back to full cover")
+        return False
+    try:
+        from PIL import Image  # lazy import: keeps the rest of the build pure-stdlib
+    except ImportError:
+        print("  [thumb] Pillow (PIL) not installed — shelf falls back to full covers")
+        return False
+    thumb_dir = OUT / "assets" / "covers" / "thumb"
+    thumb_dir.mkdir(parents=True, exist_ok=True)
+    out = thumb_dir / f"{book_id}.webp"
+    try:
+        if out.is_file() and out.stat().st_mtime >= cover.stat().st_mtime:
+            _THUMB_OK.add(book_id)  # up-to-date thumb already on disk — reuse it
+            return True
+        with Image.open(cover) as im:
+            im = im.convert("RGB")
+            if im.width > THUMB_MAX_W:
+                h = round(im.height * THUMB_MAX_W / im.width)
+                im = im.resize((THUMB_MAX_W, h), Image.LANCZOS)
+            im.save(out, "WEBP", quality=THUMB_QUALITY, method=6)
+    except Exception as exc:  # noqa: BLE001 — any decode/encode failure must not break the build
+        print(f"  [thumb] {book_id}: thumbnail failed ({exc}) — shelf falls back to full cover")
+        return False
+    _THUMB_OK.add(book_id)
+    return True
+
+
+def cover_thumb_src(book_id: str, cover: Path | None, *, rel: str = "") -> str:
+    """Public URL for the SHELF thumbnail, with ?v=mtime cache-bust. Falls back to the full-res
+    cover src when no thumbnail was generated for this book (so cards never break)."""
+    if book_id not in _THUMB_OK:
+        return cover_public_src(book_id, cover, rel=rel)
+    v = ""
+    if cover is not None:
+        try:
+            v = f"?v={int(cover.stat().st_mtime)}"
+        except OSError:
+            pass
+    return f"{rel}assets/covers/thumb/{book_id}.webp{v}"
+
+
 def cover_candidates(root: Path, exp: Path) -> list[Path]:
     """All known cover paths for a book, in the usual search order."""
     return [
@@ -2935,10 +2997,15 @@ def with_mermaid(page: str) -> str:
 
 def card(e: dict, accent: str) -> str:
     # lazy-load covers — the library shows ~38 of them; eager loading every cover on
-    # page open was the slowness (covers are 0.3–4MB each). loading="lazy" defers
+    # page open was the slowness (covers are 0.3–7MB each). loading="lazy" defers
     # off-screen covers until scroll; decoding="async" keeps the main thread free.
-    cover = (f'<img class="cover" loading="lazy" decoding="async" '
-             f'src="{cover_public_src(e["id"], e.get("cover"))}" '
+    # SHELF thumbnail (small WebP, ~400px) instead of the full-res cover: a shelf cover
+    # only displays at ~200px wide, so the multi-MB PNG was pure waste. cover_thumb_src()
+    # falls back to the full cover if no thumb was generated (PIL/source missing), so cards
+    # never break. The book page + reader keep the full-res cover (see render_book). The
+    # width/height match the CSS aspect-ratio (400/620) to reserve space and avoid layout shift.
+    cover = (f'<img class="cover" loading="lazy" decoding="async" width="400" height="620" '
+             f'src="{cover_thumb_src(e["id"], e.get("cover"))}" '
              f'alt="{html.escape(e["title"])} cover">')
     dls = ""
     if e["available"]:
@@ -8115,6 +8182,10 @@ def main() -> None:
         png = OUT / "assets" / "covers" / f'{e["id"]}.png'
         if dst != png:
             shutil.copy2(e["cover"], png)
+        # SHELF thumbnail (small WebP) — the shelf card serves this instead of the multi-MB PNG.
+        # Idempotent + no-op-safe: on PIL/source failure the shelf card falls back to the full
+        # cover. Must run BEFORE render_index() so card() sees the thumb in _THUMB_OK.
+        make_cover_thumb(e["id"], e.get("cover"))
         # downloads
         # A workshop-held book ships NO download files and NO read-online page (it is announced as
         # drafting, not published) — so its un-vetted EPUB/PDF is never reachable by direct URL.
