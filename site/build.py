@@ -7218,10 +7218,16 @@ def _render_reader_registers(e: dict, editions: list[dict]) -> str:
     """Read page with a register picker: one edition shown at a time, swap client-side, remembered,
     plus select-to-suggest inline corrections (judged register-aware, queued for a human)."""
     rw = reader_rewrite_links
+    # Register editions are re-read raw from disk by register_editions(), so they bypass the
+    # prepare_reader_images() pass applied to single-edition readers. Resolve + copy each
+    # edition's inline images here too, otherwise machine-local BOOK.md image paths (e.g. the
+    # africangold/ migration leftovers) leak straight into the built page and 404 on the live site.
+    assets_out = OUT / "read" / "assets" / e["id"]
     # render each edition's HTML into a hidden block; first is shown by default
     blocks, options = [], []
     for i, ed in enumerate(editions):
-        body = md_to_html(rw(ed["md"]), reader=True)
+        prepared = prepare_reader_images(ed["md"], e["id"], e["root"], assets_out)
+        body = md_to_html(rw(prepared), reader=True)
         eid = f'{ed["lang"]}-{ed["register"]}'
         shown = "" if i == 0 else ' hidden'
         blocks.append(
