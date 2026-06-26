@@ -53,7 +53,7 @@ Force confirmed the incident and disciplined the cadets involved.
 These cases circulate widely in "sky-penis round-up" lists, but we could not independently confirm the
 specific details (date, aircraft, squadron, location) against primary or mainstream reporting. We
 print them as *claims*, plainly flagged, and we'd be glad of a solid source —
-[send us one](feedback.html) and we'll promote the case to the confirmed canon, named and dated.
+[send us one](/feedback.html) and we'll promote the case to the confirmed canon, named and dated.
 
 - **The Salton Sea Marine flight · October 2018** *(unverified — and doubtful).* Reported as a US
   Marine Corps **T-34C Turbo Mentor** of **VMFAT-101** out of **MCAS Miramar**, tracing a penis over
