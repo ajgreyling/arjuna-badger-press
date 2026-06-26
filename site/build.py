@@ -3743,6 +3743,401 @@ def render_misread_player() -> str:
     ])
 
 
+# Lanes surfaced by the embedded book-page player — the companion soundtrack to
+# "A Man They All Read Wrong". Matched by manifest lane name; anything not listed
+# stays on the full /the-man-they-all-misread.html page (all 9 lanes).
+JAKOBUS_EMBED_LANES = (
+    "Jakobus Brass'n'Bass — The Misread Man",
+    "The Still Man Banger Series",
+    "Banjos & Bass — Arjuna Sound",
+)
+
+
+def render_jakobus_player_embed(rel: str = "../") -> str:
+    """A compact, self-contained music player embedded directly on the Jakobus File book
+    page — no separate page, no iframe. It reads the same music-manifest.json the full
+    companion player uses, but scopes itself to the three soundtrack lanes (Brass'n'Bass,
+    the Still-Man bangers, Banjos & Bass) so the book page carries the music it belongs to.
+
+    Self-hosted on our own rails (the badger thesis): a plain HTML/CSS/JS <audio> player off
+    a JSON manifest, no streaming silo. Vanilla ES5 (var/XHR/no template literals), styles
+    prefixed .jpx- so nothing leaks into the global sheet, dark house tokens. Degrades on
+    ancient devices and works with JS off (a link to the full player is always shown).
+
+    `rel` is the path back to the site root from the page hosting this embed (book pages are
+    one level deep → "../"), used for the manifest fetch and the full-player link.
+    """
+    manifest_url = f"{rel}music-manifest.json"
+    full_url = f"{rel}the-man-they-all-misread.html"
+    lanes_json = html.escape(json.dumps(list(JAKOBUS_EMBED_LANES), ensure_ascii=False))
+
+    style = """
+<style>
+.jpx{margin:26px 0 0;border:1px solid var(--line);border-radius:14px;background:var(--card);
+  padding:18px 18px 16px;overflow:hidden}
+.jpx-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 4px}
+.jpx-head .eyebrow{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--grass);margin:0}
+.jpx-head h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:22px;
+  margin:0;color:var(--bone)}
+.jpx-sub{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--ochre);
+  font-size:15px;margin:2px 0 0;max-width:66ch}
+.jpx-sub a{color:var(--gold)}
+.jpx-lanes{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 2px}
+.jpx-lane{flex:0 0 auto;cursor:pointer;border:1px solid var(--line);background:transparent;
+  color:var(--bone);font-family:"Space Grotesk",sans-serif;font-size:13px;font-weight:500;
+  padding:7px 12px;border-radius:999px;line-height:1.2;white-space:nowrap;
+  transition:border-color .15s,background .15s,color .15s}
+.jpx-lane:hover{border-color:var(--ochre);color:var(--gold)}
+.jpx-lane[aria-selected="true"]{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
+.jpx-lane .n{opacity:.6;font-size:11px;margin-left:5px}
+.jpx-blurb{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:15px;line-height:1.4;
+  color:var(--ochre);max-width:66ch;margin:11px 0 0}
+.jpx-list{list-style:none;margin:12px 0 0;padding:0;max-height:300px;overflow-y:auto;
+  -webkit-overflow-scrolling:touch;border-top:1px solid var(--line)}
+.jpx-track{display:flex;align-items:center;gap:11px;padding:10px 6px;border-bottom:1px solid var(--line);
+  cursor:pointer}
+.jpx-track:hover{background:rgba(229,181,103,.05)}
+.jpx-track[aria-current="true"]{background:rgba(229,181,103,.10)}
+.jpx-track .ti{flex:0 0 auto;width:24px;text-align:right;color:var(--grass);
+  font-family:"Space Grotesk",sans-serif;font-size:12px;font-variant-numeric:tabular-nums}
+.jpx-track .play{flex:0 0 auto;width:27px;height:27px;border-radius:50%;border:1px solid var(--line);
+  background:transparent;color:var(--ochre);font-size:12px;line-height:1;display:flex;
+  align-items:center;justify-content:center;cursor:pointer}
+.jpx-track[aria-current="true"] .play{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
+.jpx-track .tt{flex:1 1 auto;min-width:0;font-family:"Space Grotesk",sans-serif;font-size:14px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.jpx-track .vs{flex:0 0 auto;display:flex;gap:5px}
+.jpx-track .vbtn{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.06em;
+  border:1px solid var(--line);background:transparent;color:var(--bonedim);border-radius:6px;
+  padding:2px 7px;cursor:pointer}
+.jpx-track .vbtn[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
+.jpx-bar{margin-top:14px;border-top:1px solid var(--line);padding-top:13px}
+.jpx-now{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin:0 0 9px}
+.jpx-now .lbl{font-family:"Space Grotesk",sans-serif;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--grass)}
+.jpx-now .ttl{font-family:"Cormorant Garamond",serif;font-size:18px;color:var(--bone)}
+.jpx-now .lane{color:var(--ochre);font-size:12px;font-family:"Space Grotesk",sans-serif}
+.jpx-seekrow{display:flex;align-items:center;gap:9px}
+.jpx-time{font-family:"Space Grotesk",sans-serif;font-size:11px;color:var(--grass);
+  font-variant-numeric:tabular-nums;flex:0 0 auto;width:40px;text-align:center}
+.jpx-seek{flex:1 1 auto;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;
+  background:var(--line);outline:none;cursor:pointer}
+.jpx-seek::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:13px;height:13px;
+  border-radius:50%;background:var(--gold);cursor:pointer}
+.jpx-seek::-moz-range-thumb{width:13px;height:13px;border:0;border-radius:50%;background:var(--gold);cursor:pointer}
+.jpx-ctrls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:11px}
+.jpx-btn{border:1px solid var(--line);background:transparent;color:var(--bone);cursor:pointer;
+  border-radius:999px;font-family:"Space Grotesk",sans-serif;font-size:14px;padding:8px 14px;
+  min-width:42px;line-height:1}
+.jpx-btn:hover{border-color:var(--ochre);color:var(--gold)}
+.jpx-btn.primary{background:var(--ochre);border-color:var(--ochre);color:var(--black);
+  font-size:16px;padding:9px 20px}
+.jpx-btn.primary:hover{background:var(--gold);border-color:var(--gold)}
+.jpx-err{color:var(--sting);font-size:12px;font-family:"Space Grotesk",sans-serif;
+  text-align:center;margin:8px 0 0;min-height:1em}
+.jpx-more{margin:13px 0 0;font-family:"Space Grotesk",sans-serif;font-size:13px}
+.jpx-more a{color:var(--gold)}
+.jpx-empty{color:var(--bonedim);padding:24px 0;text-align:center;font-style:italic}
+@media (max-width:540px){.jpx-track .vs{display:none}.jpx-now .ttl{font-size:16px}}
+.jpx-noscript a{color:var(--gold)}
+</style>"""
+
+    body = f"""
+<div class="jpx" id="jpx" data-manifest="{html.escape(manifest_url)}"
+     data-lanes="{lanes_json}" data-full="{html.escape(full_url)}">
+  <div class="jpx-head">
+    <p class="eyebrow">Arjuna Sound · the soundtrack</p>
+    <h3>Listen — The Man They All Misread</h3>
+  </div>
+  <p class="jpx-sub">Jakobus &amp; Beast, made not curated — AJ's own songs on his own rails,
+  self-hosted, no streaming silo. Pick a lane, press play.</p>
+  <noscript><p class="jpx-noscript"><a href="{html.escape(full_url)}">Open the full companion
+  player →</a></p></noscript>
+  <div class="jpx-lanes" id="jpx-lanes" role="tablist" aria-label="Soundtrack lanes"></div>
+  <p class="jpx-blurb" id="jpx-blurb"></p>
+  <ul class="jpx-list" id="jpx-list" aria-live="polite"></ul>
+  <div class="jpx-bar" id="jpx-bar" aria-label="Now playing">
+    <div class="jpx-now">
+      <span class="lbl">Now playing</span>
+      <span class="ttl" id="jpx-now-title">—</span>
+      <span class="lane" id="jpx-now-lane"></span>
+    </div>
+    <div class="jpx-seekrow">
+      <span class="jpx-time" id="jpx-cur">0:00</span>
+      <input type="range" class="jpx-seek" id="jpx-seek" min="0" max="100" value="0" step="0.1"
+             aria-label="Seek">
+      <span class="jpx-time" id="jpx-dur">0:00</span>
+    </div>
+    <div class="jpx-ctrls">
+      <button class="jpx-btn" id="jpx-prev" type="button" aria-label="Previous track">&#9664;&#9664;</button>
+      <button class="jpx-btn primary" id="jpx-play" type="button" aria-label="Play">&#9654;</button>
+      <button class="jpx-btn" id="jpx-next" type="button" aria-label="Next track">&#9654;&#9654;</button>
+    </div>
+    <div class="jpx-err" id="jpx-err"></div>
+    <audio id="jpx-audio" preload="none"></audio>
+  </div>
+  <p class="jpx-more"><a href="{html.escape(full_url)}">All 9 lanes &amp; 65 songs — the full
+  companion player →</a></p>
+</div>"""
+
+    # ES5: var / function expressions / XHR / no template literals — runs on old WebKit/Android.
+    script = r"""
+<script>
+(function(){
+  "use strict";
+  var root = document.getElementById("jpx");
+  if(!root){ return; }
+  var MANIFEST_URL = root.getAttribute("data-manifest");
+  var WANT = [];
+  try { WANT = JSON.parse(root.getAttribute("data-lanes")); } catch(e){ WANT = []; }
+
+  var lanesEl  = document.getElementById("jpx-lanes");
+  var blurbEl  = document.getElementById("jpx-blurb");
+  var listEl   = document.getElementById("jpx-list");
+  var audio    = document.getElementById("jpx-audio");
+  var playBtn  = document.getElementById("jpx-play");
+  var prevBtn  = document.getElementById("jpx-prev");
+  var nextBtn  = document.getElementById("jpx-next");
+  var seekEl   = document.getElementById("jpx-seek");
+  var curEl    = document.getElementById("jpx-cur");
+  var durEl    = document.getElementById("jpx-dur");
+  var nowTitle = document.getElementById("jpx-now-title");
+  var nowLane  = document.getElementById("jpx-now-lane");
+  var errEl    = document.getElementById("jpx-err");
+
+  if(!lanesEl || !audio){ return; }
+
+  var lanes = [];      // filtered, ordered to match WANT
+  var laneIdx = 0;
+  var trackIdx = -1;
+  var seeking = false;
+
+  function fmt(s){
+    if(!isFinite(s) || s < 0){ s = 0; }
+    var m = Math.floor(s / 60);
+    var r = Math.floor(s % 60);
+    return m + ":" + (r < 10 ? "0" : "") + r;
+  }
+  function esc(s){
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+  function noop(){}
+  function currentLane(){ return lanes[laneIdx]; }
+  function currentTracks(){ return currentLane().tracks; }
+
+  function renderLanes(){
+    lanesEl.innerHTML = "";
+    for(var i = 0; i < lanes.length; i++){
+      (function(i){
+        var lane = lanes[i];
+        var b = document.createElement("button");
+        b.className = "jpx-lane";
+        b.setAttribute("type", "button");
+        b.setAttribute("role", "tab");
+        b.setAttribute("aria-selected", i === laneIdx ? "true" : "false");
+        b.innerHTML = esc(lane.name) + '<span class="n">' + lane.tracks.length + '</span>';
+        b.onclick = function(){ selectLane(i); };
+        lanesEl.appendChild(b);
+      })(i);
+    }
+  }
+
+  function renderList(){
+    var lane = currentLane();
+    blurbEl.textContent = lane.blurb || "";
+    listEl.innerHTML = "";
+    var tracks = lane.tracks;
+    if(!tracks.length){
+      var li = document.createElement("li");
+      li.className = "jpx-empty";
+      li.textContent = "No tracks in this lane yet.";
+      listEl.appendChild(li);
+      return;
+    }
+    for(var i = 0; i < tracks.length; i++){
+      (function(i){
+        var t = tracks[i];
+        var li = document.createElement("li");
+        li.className = "jpx-track";
+        li.setAttribute("aria-current", (i === trackIdx) ? "true" : "false");
+
+        var num = document.createElement("span");
+        num.className = "ti";
+        num.textContent = (i + 1);
+
+        var pb = document.createElement("button");
+        pb.className = "play";
+        pb.setAttribute("type", "button");
+        pb.setAttribute("aria-label", "Play " + t.title);
+        pb.innerHTML = (i === trackIdx && !audio.paused) ? "&#10074;&#10074;" : "&#9654;";
+
+        var tt = document.createElement("span");
+        tt.className = "tt";
+        tt.textContent = t.title;
+
+        li.appendChild(num);
+        li.appendChild(pb);
+        li.appendChild(tt);
+
+        if(t.variants && t.variants.length > 1){
+          var vs = document.createElement("span");
+          vs.className = "vs";
+          for(var v = 0; v < t.variants.length; v++){
+            (function(v){
+              var vb = document.createElement("button");
+              vb.className = "vbtn";
+              vb.setAttribute("type", "button");
+              vb.setAttribute("aria-pressed", (t._v || 0) === v ? "true" : "false");
+              vb.textContent = t.variants[v].label;
+              vb.onclick = function(e){
+                e.stopPropagation();
+                t._v = v;
+                if(i === trackIdx){ loadTrack(i, true); }
+                renderList();
+              };
+              vs.appendChild(vb);
+            })(v);
+          }
+          li.appendChild(vs);
+        }
+
+        li.onclick = function(){ play(i); };
+        pb.onclick = function(e){ e.stopPropagation(); play(i); };
+        listEl.appendChild(li);
+      })(i);
+    }
+  }
+
+  function urlFor(t){
+    if(t.variants && t.variants.length){ return t.variants[t._v || 0].audioUrl; }
+    return t.audioUrl;
+  }
+
+  function loadTrack(i, keepPlaying){
+    var tracks = currentTracks();
+    if(i < 0 || i >= tracks.length){ return; }
+    trackIdx = i;
+    var t = tracks[i];
+    audio.src = urlFor(t);
+    nowTitle.textContent = t.title;
+    nowLane.textContent = "· " + currentLane().name;
+    errEl.textContent = "";
+    renderList();
+    if(keepPlaying){ audio.play().catch(noop); }
+  }
+
+  function play(i){
+    if(i === trackIdx){
+      if(audio.paused){ audio.play().catch(showErr); } else { audio.pause(); }
+      syncPlayBtn();
+      return;
+    }
+    loadTrack(i, false);
+    audio.play().catch(showErr);
+    syncPlayBtn();
+  }
+
+  function selectLane(i){
+    if(i === laneIdx){ return; }
+    laneIdx = i;
+    trackIdx = -1;
+    renderLanes();
+    renderList();
+  }
+
+  function next(){
+    var tracks = currentTracks();
+    if(!tracks.length){ return; }
+    var i = (trackIdx + 1);
+    if(i >= tracks.length){ i = 0; }
+    play(i);
+  }
+  function prev(){
+    var tracks = currentTracks();
+    if(!tracks.length){ return; }
+    if(audio.currentTime > 3){ audio.currentTime = 0; return; }
+    var i = (trackIdx - 1);
+    if(i < 0){ i = tracks.length - 1; }
+    play(i);
+  }
+
+  function syncPlayBtn(){
+    playBtn.innerHTML = audio.paused ? "&#9654;" : "&#10074;&#10074;";
+    playBtn.setAttribute("aria-label", audio.paused ? "Play" : "Pause");
+    renderList();
+  }
+  function showErr(){
+    errEl.textContent = "Could not play this track yet.";
+  }
+
+  playBtn.onclick = function(){
+    if(trackIdx < 0){ play(0); return; }
+    if(audio.paused){ audio.play().catch(showErr); } else { audio.pause(); }
+    syncPlayBtn();
+  };
+  nextBtn.onclick = next;
+  prevBtn.onclick = prev;
+
+  audio.addEventListener("play", syncPlayBtn);
+  audio.addEventListener("pause", syncPlayBtn);
+  audio.addEventListener("ended", next);
+  audio.addEventListener("error", showErr);
+  audio.addEventListener("timeupdate", function(){
+    if(seeking){ return; }
+    curEl.textContent = fmt(audio.currentTime);
+    if(audio.duration && isFinite(audio.duration)){
+      seekEl.value = (audio.currentTime / audio.duration) * 100;
+    }
+  });
+  audio.addEventListener("loadedmetadata", function(){ durEl.textContent = fmt(audio.duration); });
+  seekEl.addEventListener("input", function(){ seeking = true; });
+  seekEl.addEventListener("change", function(){
+    if(audio.duration && isFinite(audio.duration)){
+      audio.currentTime = (seekEl.value / 100) * audio.duration;
+    }
+    seeking = false;
+  });
+
+  function boot(json){
+    var all = (json && json.lanes) || [];
+    // keep only the wanted lanes, in WANT order
+    for(var w = 0; w < WANT.length; w++){
+      for(var k = 0; k < all.length; k++){
+        if(all[k].name === WANT[w]){ lanes.push(all[k]); break; }
+      }
+    }
+    if(!lanes.length){ lanes = all.slice(0, 1); } // fallback: never blank
+    if(!lanes.length){
+      listEl.innerHTML = '<li class="jpx-empty">No soundtrack lanes found.</li>';
+      return;
+    }
+    renderLanes();
+    renderList();
+  }
+
+  function loadManifest(){
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", MANIFEST_URL, true);
+    xhr.onreadystatechange = function(){
+      if(xhr.readyState !== 4){ return; }
+      if(xhr.status >= 200 && xhr.status < 300){
+        try { boot(JSON.parse(xhr.responseText)); }
+        catch(err){ listEl.innerHTML = '<li class="jpx-empty">Could not read the music manifest.</li>'; }
+      } else {
+        listEl.innerHTML = '<li class="jpx-empty">Could not load the music manifest (HTTP ' + xhr.status + ').</li>';
+      }
+    };
+    xhr.send();
+  }
+
+  loadManifest();
+})();
+</script>"""
+
+    return style + body + script
+
+
 def render_flyer() -> str:
     """A self-contained, print-ready A4 flyer (one page). QR is a placeholder box — generate a QR
     pointing at arjunabadger.press/start (any free generator) and drop the image in, or print and
@@ -4392,7 +4787,12 @@ def render_book(e: dict) -> str:
     if (WIKI_DIR / f"{e['id']}.md").is_file():
         wiki = f'<div class="dls" style="margin-top:14px"><a class="dl" href="../wiki/{e["id"]}.html">Real places &amp; people →</a></div>'
     soundtrack = ""
-    if e["id"] in SOUNDTRACK:
+    if e["id"] == "the-jakobus-file" and (REPO / "site" / "content" / "music-manifest.json").is_file():
+        # The companion soundtrack to "A Man They All Read Wrong" plays right here on the book
+        # page — a compact, self-hosted player (the badger thesis made audible), scoped to the
+        # three Jakobus & Beast lanes. Replaces the old text-only link to the full player page.
+        soundtrack = render_jakobus_player_embed(rel="../")
+    elif e["id"] in SOUNDTRACK:
         st_url, st_label = SOUNDTRACK[e["id"]]
         # internal (our own player) opens in place; external links open a new tab
         _ext = st_url.startswith("http")
