@@ -1,0 +1,237 @@
+{
+  "title": "The Long Silence",
+  "subtitle": "Faithful-modern homage — original prose",
+  "target_words": 120000,
+  "source": "Liu Cixin, Remembrance of Earth's Past (Three-Body trilogy, 2008-2010) — engine/theory in canon/SOURCE_NOTES.md",
+  "mandates": [
+    "#1 Native English, not translated-culture stiffness",
+    "#2 No sag — theory dramatised under pressure, velocity protected",
+    "Idea-as-detonation: one perfect-calibre set-piece per movement"
+  ],
+  "cast": {
+    "Ada Reyes": "the Analyst (Mvt I) — reads the loudness, writes the unread first-true-line, dies in I",
+    "Marcus Hale": "the Sender (Mvt I) — argues the Hail out of hope-into-hubris, not revenge",
+    "Cole Ridgeway": "the Strategist (Mvt II) — deduces the law, forges the Reckoners' deterrent",
+    "Nadia Brandt": "the Cop/ballast (Mvt II) — native-English tuning fork",
+    "Esme Calderon": "the Inheritor (Mvt III) — her mercy fails the deterrent"
+  },
+  "chapters": [
+    {
+      "id": "prologue",
+      "movement": "I — THE HAIL",
+      "title": "Prologue",
+      "pov": "Marcus Hale (the Sender) + a console woman (proto-Analyst seed)",
+      "setting": "The Deep Listening Array, the night of the Hail",
+      "beats": [
+        "A celebration for the loudest act in the species' history (PP-002)",
+        "Hale's sympathetic, arguable case: silence = loneliness, not danger (PP-002)",
+        "The console woman's quiet counter: 'they already know how alone they are — that's why it's quiet'",
+        "The Hail goes out — eleven minutes, silent on the lawn, light-fast toward the forest (PP-003)"
+      ],
+      "turn": "Humanity lights the match, celebrating; the dread is seeded in one mouth, unanswered",
+      "detonation": "no",
+      "threads": "PP-002, PP-003, PP-010",
+      "target_words": 750
+    },
+    {
+      "id": "ch-01",
+      "movement": "I — THE HAIL",
+      "title": "The Brightening",
+      "pov": "Ada Reyes (the Analyst), close-third",
+      "setting": "Correlation room at the DLA; weeks after the Hail",
+      "beats": [
+        "A calibration run; eighty years of folded sky that won't clean (discovery under pressure, anti-sag)",
+        "The noise IS the planet — the broadcast-folly recoded as DATA, a brightening dot (PP-001)",
+        "The funny thought then the cold one: we are the only light on in the street",
+        "The bubble of loudness; the catalogue of porches inside earshot; light is fast AND slow",
+        "The first true line written down, read by no one for nineteen years (PP-010)"
+      ],
+      "turn": "The folly becomes a thing that can be SEEN, and therefore aimed at",
+      "detonation": "no",
+      "threads": "PP-001, PP-003, PP-010",
+      "target_words": 1500
+    },
+    {
+      "id": "ch-02",
+      "movement": "I — THE HAIL",
+      "title": "The Reply",
+      "pov": "Ada Reyes (the Analyst), close-third; Marcus Hale present",
+      "setting": "The DLA; months later; first the data, then the closed briefing",
+      "beats": [
+        "The reply arrives — and it is not a message, it is a vector and a duration: a countdown (PP-001)",
+        "Ada is the one who realises it isn't a greeting; the room argues, Hale clings to hope",
+        "The math of the countdown: long enough that no one in this room survives it (relay seeded)",
+        "Hale's hope curdles privately into the first guilt; the species' optimism indicted, gently",
+        "Decision: tell the world or hold it — the politics of a planet that cannot un-broadcast"
+      ],
+      "turn": "First contact is revealed as a lit fuse; the countdown starts ticking and never stops",
+      "detonation": "no",
+      "threads": "PP-001, PP-002, PP-003",
+      "target_words": 2600
+    },
+    {
+      "id": "ch-03",
+      "movement": "I — THE HAIL",
+      "title": "The Quiet Sabotage",
+      "pov": "Ada Reyes (the Analyst), close-third; a physicist colleague",
+      "setting": "The DLA + a high-energy physics lab feeding it data; a year or two on",
+      "beats": [
+        "The Net's first effects: high-energy physics results stop making sense — subtly, maddeningly",
+        "Ada connects the corrupted detectors to the countdown: something is already here, watching, capping us",
+        "Grounded dread: the enemy fears our FUTURE; it is keeping us from the leap (technological explosion, dramatised)",
+        "A scientist breaks under the impossibility of trustworthy data — the human cost of the cap",
+        "Ada ages into the work; hands off to a successor; her warning still unread (PP-010, relay handoff begins)"
+      ],
+      "turn": "The abstract threat becomes a present, patient hand on the species' throat",
+      "detonation": "no",
+      "threads": "PP-004, PP-001, PP-010",
+      "target_words": 2800
+    },
+    {
+      "id": "ch-04",
+      "movement": "I — THE HAIL",
+      "title": "Meridian Reach",
+      "pov": "the relay watch at the DLA (Ada's successor); intercut crew of the Meridian Reach",
+      "setting": "The DLA deep-space relay + the crewed vessel Meridian Reach in transit",
+      "beats": [
+        "Establish the Meridian Reach and a few of its ~40 crew quickly, with real warmth (bond before we bury)",
+        "Routine transit through a known corridor near the relay; nothing seems wrong",
+        "Quiet seeding: weeks earlier, Net microprobes anchored something across the corridor (reader half-knows)",
+        "The watch at the DLA notices an anomaly too late to matter; the helplessness of watching a feed"
+      ],
+      "turn": "Everything is in place; the ship is on the line; the chapter ends a breath before the cut",
+      "detonation": "no",
+      "threads": "PP-007a, PP-004, PP-008",
+      "target_words": 2600
+    },
+    {
+      "id": "ch-05",
+      "movement": "I — THE HAIL",
+      "title": "The Cut",
+      "pov": "the relay watch at the DLA (external, on the feed) — NOT inside the ship",
+      "setting": "The DLA relay room, watching the Meridian Reach cross the Filament",
+      "beats": [
+        "DETONATION: the ship crosses the monomolecular filament at transit speed",
+        "For one or two seconds nothing appears wrong — the cut is too clean to see (the delay IS the horror)",
+        "The ship begins to come apart along parallel planes; lights still on in each separating slab; people in cross-section",
+        "The watchers understand a half-beat after the reader does; trust the image, never caption the awe",
+        "Aftermath, flat and small: a debris field of neat sheets; the countdown now physical, personal, proven"
+      ],
+      "turn": "Being found means death delivered by something that does not even hate you; Movement I closes on dread",
+      "detonation": "yes",
+      "threads": "PP-007a, PP-001, PP-007",
+      "target_words": 2400
+    },
+    {
+      "id": "ch-06",
+      "movement": "II — THE LONG CENTURY",
+      "title": "The Children of the Clock",
+      "pov": "Sgt. Nadia Brandt (ballast), close-third",
+      "setting": "A defended Earth, ~two generations after the Hail; a city under the countdown",
+      "beats": [
+        "Establish the world a century-ish on: born into certainty of an arriving end; the strange flourishing and despair of it",
+        "Brandt's job: she polices the Reckoners' compound (introduce the institution from the OUTSIDE, despised)",
+        "The cap still holds — no breakthrough physics in a hundred years; the human texture of stalled progress",
+        "Brandt's dry, profane-warm native idiom is the tuning fork; she thinks the Reckoners are ghouls",
+        "Seed Cole Ridgeway as the strange new analyst the Reckoners just pulled in — Brandt's first read of him"
+      ],
+      "turn": "The countdown is now the water everyone swims in; the deterrent's keepers are hated; Ridgeway arrives",
+      "detonation": "no",
+      "threads": "PP-006, PP-004, PP-009",
+      "target_words": 2700
+    },
+    {
+      "id": "ch-07",
+      "movement": "II — THE LONG CENTURY",
+      "title": "The Shape of the Forest",
+      "pov": "Cole Ridgeway (Strategist), close-third; Brandt present",
+      "setting": "The Reckoners' compound; the deep-archive of failed strategies",
+      "beats": [
+        "Ridgeway reads a century of failed defence ideas; deduces WHY none can work (the law, clause by clause, UNDER PRESSURE — anti-sag)",
+        "The two axioms + chain of suspicion + technological explosion DRAMATISED via his arguments with skeptics, not narrated",
+        "His one partial, contested near-statement of the law (PP-009) — the closest the book comes to saying it",
+        "Brandt watches him work; the ballast keeps it human; he frightens her more than the ghouls did",
+        "He sees the only card: we can't win, can't run, can't hide — but we can make ourselves not worth the risk"
+      ],
+      "turn": "Ridgeway grasps the law whole; the deterrent is conceivable but monstrous",
+      "detonation": "no",
+      "threads": "PP-009, PP-006, PP-005",
+      "target_words": 2900
+    },
+    {
+      "id": "ch-08",
+      "movement": "II — THE LONG CENTURY",
+      "title": "A Hand Offered in the Dark",
+      "pov": "Cole Ridgeway (Strategist), close-third",
+      "setting": "Earth + a small, secret, hopeful counter-effort to signal goodwill to a NEARER quiet listener",
+      "beats": [
+        "A faction tries the thing Hale tried in miniature: offer provable goodwill to a different, nearer silent star",
+        "Ridgeway argues it cannot work — goodwill is UNVERIFIABLE across the dark (the chain of suspicion, paid)",
+        "The gesture goes out anyway; the answer (or the silence) proves the law: distance = death (PP-005)",
+        "Human cost: the people who needed to believe in kindness; Brandt buries one of them",
+        "Ridgeway is now certain; the despised deterrent is the only morality the forest permits"
+      ],
+      "turn": "The last hope of a friendly universe dies; the deterrent stops being monstrous and becomes necessary",
+      "detonation": "no",
+      "threads": "PP-005, PP-006, PP-009",
+      "target_words": 2700
+    },
+    {
+      "id": "ch-09",
+      "movement": "II — THE LONG CENTURY",
+      "title": "The Reckoners",
+      "pov": "Cole Ridgeway (Strategist) + Sgt. Nadia Brandt",
+      "setting": "The forging of the dead-man deterrent; the politics of building a suicide system",
+      "beats": [
+        "Ridgeway forges the mutual-exposure deterrent: a dead-man system that broadcasts the ENEMY's address if Earth is struck (PP-006)",
+        "The cruelty: it only works if the keeper of the pin will actually doom everyone, including humanity",
+        "Brandt is recruited to GUARD the pin she despised; her arc turns — the ghouls were holding the line",
+        "The world hates the Reckoners precisely because they are the price of survival",
+        "Seed the next runner: Esme Calderón, young, here, the one who will one day hold the pin"
+      ],
+      "turn": "Humanity's one card is laid: be a suicide bomber holding everyone's coordinates; an uneasy peace begins",
+      "detonation": "no",
+      "threads": "PP-006, PP-008, PP-009",
+      "target_words": 2800
+    },
+    {
+      "id": "ch-10",
+      "movement": "II — THE LONG CENTURY",
+      "title": "One Pass",
+      "pov": "Sgt. Nadia Brandt (external witness) + the doomed fleet's edge",
+      "setting": "Near-Earth space; the species' assembled defensive fleet meets the single-object weapon",
+      "beats": [
+        "Before the deterrent fully arms, the enemy tests us: a single object enters the system at relativistic speed",
+        "Humanity's entire defensive fleet — a century of hope and steel — moves to meet it, confident",
+        "DETONATION: the single object makes ONE PASS and ends the fleet; unanswerable, indifferent, calibre-perfect (PP-007)",
+        "Echo the Filament: cleanness, scale, no malice; the Meridian Reach was the rehearsal, this is the recital",
+        "Brandt watches it the way Park watched the cut; the deterrent is now the ONLY thing left"
+      ],
+      "turn": "Brute defence is proven impossible forever; the deterrent is the species' last and only wall",
+      "detonation": "yes",
+      "threads": "PP-007, PP-007a, PP-006",
+      "target_words": 2600
+    },
+    {
+      "id": "ch-11",
+      "movement": "II — THE LONG CENTURY",
+      "title": "The Long Quiet",
+      "pov": "Sgt. Nadia Brandt (aging) + Esme Calderón (young)",
+      "setting": "The decades after the fleet; an uneasy stalemate held on the pin; Brandt hands off",
+      "beats": [
+        "The deterrent holds; a strange grim peace; the species learns, at last, to be QUIET (the title, dramatised)",
+        "Brandt ages out, like Ada did; trains Esme; the relay's human pulse passes again",
+        "What the long quiet costs the species' soul: living as a held breath, a finger on a doom",
+        "Brandt's last word — the ballast's plain truth about what they bought and what it cost",
+        "Baton to Esme + Movement III; the clock, much smaller now, ticks toward a zero someone alive will see"
+      ],
+      "turn": "Peace bought with a permanent threat to everyone; Brandt dies; Esme inherits the pin",
+      "detonation": "no",
+      "threads": "PP-006, PP-008, PP-010",
+      "target_words": 2500
+    }
+  ],
+  "movements_remaining": [
+    { "movement": "III — THE SILENCE KEPT", "remaining_beats": "III.1 Esme Calderon inherits the Reckoners' pin; III.2 her mercy fails the deterrent (PP-006); III.3 the Quietus — relativistic dust scours the inner system — DETONATION (PP-009, PP-010); III.4 deep-time coda, one small human act (PP-008); III.5 original dedication" }
+  ]
+}

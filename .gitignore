@@ -88,14 +88,22 @@ books/how-king-lion/design/images/*.png
 books/how-king-lion/design/cover.png
 
 # ── Audiobook render working tree (regenerable; the .py + frontmatter .md are the source) ─
-# Keep: audio/*.py and audio/*.md. Drop: the chunk cache, ffmpeg work dirs, manifest, exports.
+# Keep: audio/*.py and audio/*.md. Drop: the chunk cache, ffmpeg work dirs, manifest, exports,
+# AND the heavy master/publish render trees (mp3/m4a/m4b/txt/sha256 — multiple GB, belong on R2).
 books/**/audio/**/chunks/
 books/**/audio/**/work/
 books/**/audio/**/_work_m4b/
+books/**/audio/**/_work_formats/
 books/**/audio/**/_acx/
 books/**/audio/**/_stale_prepolish/
 books/**/audio/**/_archive/
+books/**/audio/**/masters/
+books/**/audio/**/publish/
 books/**/audio/**/manifest.json
 books/**/audio/**/*-concat.txt
 books/**/audio/**/concat-list.txt
 books/**/audio/**/scene.txt
+books/**/audio/**/*.txt
+books/**/audio/**/*.sha256
+books/**/audio/**/*.zip
+books/**/audio/**/*.opus

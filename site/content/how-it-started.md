@@ -38,6 +38,14 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 
 ---
 
+## Built on CongoSky
+
+This site — the library, the reader, the login, the language layer, all of it — is **built and run on [CongoSky](https://congosky.cloud), the sovereign cloud for Africa.** Same rails as the rest of the world's clouds, kept on the continent and owned by it. *Umuntu ngumuntu ngabantu.*
+
+Arjuna Badger Press is **tenant zero** of that platform: the first real thing that proved the engine, and now the proof that the platform carries real traffic, real readers, and real payments. The press came first; the cloud it seeded grew up around it. From here on the work itself happens **in the platform**, not in a chat window — the chisel built the workshop, and the workshop is open.
+
+---
+
 ## How the house pays for itself
 
 **Text is free.** Every finished book stays on [arjunabadger.press](https://arjunabadger.press) — read online, EPUB, PDF, no paywall. That is deliberate, not a placeholder.
@@ -68,6 +76,7 @@ The binding brief (for agents and future me) lives in the engine repo as `docs/M
 | **Library-first homepage** | ✅ | Shelf front door · explore grid · press hub for platform detail |
 | **Cross-book continuity gate** | ✅ | Jakobus + the Beast matrix · 0 errors at last run |
 | **Auth0 / platform login** | ✅ | Live on arjunabadger.press — 5 social providers + email/passwordless |
+| **Built on CongoSky** | ✅ | The press runs on [CongoSky](https://congosky.cloud), the sovereign cloud for Africa — tenant zero · the work now happens in-platform, not in a chat window |
 | **Winter sonder Einde — audiobook (Die Vuur in die Donker)** | ✅ | Emma (ElevenLabs Afrikaans) · 19 sections · rendered and **published** 2026-06-23 |
 | **Audiobook cast (Resonance · Calendar · Engineer)** | 🟡 | Auditions in · cast pending · payday-gated |
 | **The Long Silence** | 🟡 | Scaffolded 2026-06-23 — full canon + prologue + ch-01 drafted · pipeline ready · nothing live yet |

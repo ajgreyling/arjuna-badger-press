@@ -27,6 +27,27 @@ page one.)*
 
 ---
 
+## A0. DEDICATION (Opdrag) — the author's own people
+
+> Placed before the epigraph: a quiet family dedication. Honours the line by name; touches the era's
+> naming the way the book touches the era's history — without the grievance note, without claiming the
+> dead. Just names, handed down.
+
+> *Vir my mense — die Greylings en die Swarts.*
+>
+> *Vir Andries, Sybrand, Johannes, Abraham, Hendrik, Jakobus, Gerhard:*
+> *name uit dieselfde grond as hierdie boek, aangegee van geslag tot geslag,*
+> *sonder ophef, van hand tot hand.*
+>
+> *Ek dra dit met julle name in my eie — bang en dapper, soos ons almal was.*
+
+*(Framing-law safe: it names the family with love and ties the closing line to the book's own
+thesis — "brave and scared, as we all were" — placing the author's people INSIDE the human mercy the
+book extends to all sides, not above it. No "our-history-erased" note; the names are a private warmth,
+not a claim.)*
+
+---
+
 ## B. BACKMATTER — "The Machine and the Wire: An Author's Note"
 
 > Placed AFTER the novel. Sourced. Indicts the institution; counts every column of the dead; lets an

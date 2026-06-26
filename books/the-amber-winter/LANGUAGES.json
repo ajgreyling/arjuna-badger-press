@@ -1,0 +1,65 @@
+{
+  "book": "the-amber-winter",
+  "title": "Die Vuur in die Donker",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "af",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "An adult Afrikaans Norse saga (Winter sonder Einde · Book I), set in a Westfjord hall in the Viking age. The four target languages are the living tongues of the world the book inhabits — Norwegian (the fjord setting), Swedish, Danish, and Icelandic. Icelandic stands closest to the Old Norse of the saga itself and is the most resonant edition; it deserves the most careful native eye. These are AI-FIRST-DRAFT translations FROM THE AFRIKAANS, published in the open and clearly marked, with mother-tongue readers warmly invited to correct them (see the fix-a-translation invitation). THE FOUR HARD GATES travel into every language unchanged and override any translator instinct: (1) nothing involving minors, ever; (2) intimacy only ever between consenting adults; (3) coercion is written only ever as harm, never as heat; (4) the threshold close — the door shuts at the threshold and the reader's own imagination finishes the scene (André P. Brink's tradition). The book is frank and sensual for adults but is NOT explicit pornography; a translation must hold that exact line, never coarsen past it and never prude away from it.",
+  "global_directives": [
+    "REGISTER IS THE WHOLE POINT. Carry André P. Brink's fine hand (long, sensory, patient, rising clauses; the body written with dignity and without apology) and Kleinboer's frankness (the plain true thing named on its own name). Where Brink turns lyrical and Kleinboer looks straight at it, keep BOTH. No censorship, no prudishness, no euphemism ashamed of itself — but always inside the gates and the threshold below.",
+    "THE FOUR HARD GATES are absolute and non-negotiable in every language: no minors ever; consenting adults only; coercion only ever as harm never as heat; the threshold close (the door shuts; imagination finishes). If any rendering would breach a gate, render more closed, never more open.",
+    "Proper names stay verbatim with their Old Norse spelling and diacritics (Þórdís, Eivor, Solveig, Heiðr, Hákon, Védís, Yrsa, Ketill); keep ð, þ, ö. Do NOT 'normalise' them to the target language's modern forms.",
+    "Old Norse world-words the Afrikaans renders into plain prose (die lang huis / saal, die langvuur, die sien, die offerfees, die winternagte, die joelfees) should land in the target language's own natural words for the same things — and where the target tongue is itself Scandinavian, prefer its living cognate (e.g. Icelandic may use the near-original term where a modern reader still knows it).",
+    "Do NOT add translator's notes, footnotes, or inline glosses the source does not have — every foreign word is made clear by the scene itself, as the people themselves knew it. Preserve all markdown structure and headings.",
+    "The mature-content notice, the dedication, and the author's foreword/reader-note travel into the edition unchanged in meaning; the BOOK_NOTICE maturity warning must be present in every language."
+  ],
+  "targets": [
+    {
+      "code": "is",
+      "name": "Íslenska",
+      "english_name": "Icelandic",
+      "kind": "market",
+      "resonance": "primary",
+      "directives": [
+        "THE RESONANT EDITION. Icelandic is the living language closest to the Old Norse of the saga itself, and the saga literature is Iceland's own inheritance. Aim for prose that an Icelandic reader feels in the bone — the saga cadence under a modern, readable surface, never a museum pastiche.",
+        "Where the Afrikaans rendered an Old Norse term into plain prose, Icelandic may restore the near-original word when a modern Icelandic reader still knows it naturally (skáli, langeldur, seiður, blót, vetrnætur, jól) — but only where it reads living, never archaic for its own sake.",
+        "Hold the Brink/Kleinboer register: sensual and frank, dignified, the threshold close intact. The four hard gates are absolute.",
+        "This edition most needs a native Icelandic reader's eye — flag it as pending native proof until an Icelandic reader has passed it."
+      ]
+    },
+    {
+      "code": "no",
+      "name": "Norsk (Bokmål)",
+      "english_name": "Norwegian",
+      "kind": "market",
+      "directives": [
+        "The fjord setting's own tongue. Natural, contemporary Bokmål — warm and direct, the body written with dignity, never stiff or clinical.",
+        "Keep Old Norse proper names verbatim with diacritics; use Norwegian's living words for the hall, the long-fire, the seasons' feasts.",
+        "Brink/Kleinboer register and the four hard gates and the threshold close are absolute."
+      ]
+    },
+    {
+      "code": "sv",
+      "name": "Svenska",
+      "english_name": "Swedish",
+      "kind": "market",
+      "directives": [
+        "Natural, contemporary Swedish — sensual and frank within the gates, dignified, the threshold close intact.",
+        "Old Norse proper names verbatim with diacritics; Swedish's own living words for the world-things.",
+        "Brink/Kleinboer register and the four hard gates are absolute."
+      ]
+    },
+    {
+      "code": "da",
+      "name": "Dansk",
+      "english_name": "Danish",
+      "kind": "market",
+      "directives": [
+        "Natural, contemporary Danish — warm, frank within the gates, dignified, the threshold close intact.",
+        "Old Norse proper names verbatim with diacritics; Danish's own living words for the world-things.",
+        "Brink/Kleinboer register and the four hard gates are absolute."
+      ]
+    }
+  ]
+}

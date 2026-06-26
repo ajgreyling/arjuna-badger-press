@@ -39,6 +39,7 @@ BOOKS = {
  "The Loneliest People in the World": "books/the-loneliest/build/export/The Loneliest People in the World",
  "The Song of the Self": "books/history-before-time/companions/the-song-of-the-self/export/The Song of the Self",
  "The Wrath of Achilles": "books/history-before-time/companions/the-wrath-of-achilles/export/The Wrath of Achilles",
+ "The Antifragile Reader": "books/history-before-time/companions/the-antifragile-reader/build/export/The Antifragile Reader",
 }
 REPOS = ["africangold", "arjuna-badger-press"]
 
