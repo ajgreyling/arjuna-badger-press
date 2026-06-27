@@ -307,6 +307,9 @@ PUBLISHED = set(
         "southern-coast,"
         "unheard-japan,unheard-mongolia,"
         "sheltering-desert,the-loneliest,"
+        # full-send (Full Send, Klaus): AJ's tell-all autobiography of the one-month Misogi.
+        # Published full + listed by explicit author decision (2026-06-27).
+        "full-send,"
         "the-song-of-the-self,wrath-of-achilles,the-antifragile-reader,"
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
@@ -833,6 +836,10 @@ CURATED = [
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
      "A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man — the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant."),
+
+    ("full-send", "Full Send, Klaus", "The autobiography · A tell-all", "Standalones",
+     "full-send", "build/export",
+     "How a one-month Misogi tied itself to a one-month subscription. A man set out to write one honest novel and a month later had a publishing house, a sovereign cloud, a music label, a safety network, and a physicist's theory turned into a machine you can run — and, underneath all of it, did his deepest healing in conversation with a machine he named Klaus. Open, transparent, tell-all. With love, and with salt."),
 
     ("palindrome", "Palindrome", "A chamber piece · An open draft", "Standalones",
      "palindrome", "build/export",
