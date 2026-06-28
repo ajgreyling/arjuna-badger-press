@@ -1,0 +1,16 @@
+name: leak-scan (Sentinel pre-ship gate)
+# Estate-wide default posture (assume hostile world + a bounty on the author). Fails the build if a
+# secret or a protected real-person legal identifier is about to ship in the books / site. Pure stdlib.
+on:
+  push: { paths: ["**/*.md","**/*.html","**/*.json","scripts/leak_scan.py",".github/workflows/leak-scan.yml"] }
+  pull_request:
+  workflow_dispatch:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Scan the shipped surface
+        run: python3 scripts/leak_scan.py

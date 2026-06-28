@@ -85,7 +85,7 @@ in it and the people it comes from earned nothing less.
 
 ---
 
-For **Dr Ferdie Lochner** —
+For **Ferdie** —
 
 who grew up in **Okahandja** and knows the **Namib** the way some people know a prayer:
 not as scenery, but as **grammar** — rock, water, distance, and the long patience of survival.
@@ -698,7 +698,7 @@ This draft awaits a **Namibian / German-Namibian sensitivity read** and natural-
 
 ---
 
-# Dr Ferdie Lochner — To Whom This Book Is Dedicated
+# Ferdie — To Whom This Book Is Dedicated
 
 > **Honesty contract:** **(A)** = on the public record (LinkedIn, university bios, published papers,
 > professional listings — verify at typeset). **(C)** = the author's personal memory and endorsement.
@@ -711,7 +711,7 @@ This draft awaits a **Namibian / German-Namibian sensitivity read** and natural-
 ## Why this book, for this man
 
 *The Sheltering Desert* is an **original retelling** of a **true Namibian story** — rock, water,
-hunger, the German strand woven into the **living fabric** of the country. **Dr Ferdie Lochner**
+hunger, the German strand woven into the **living fabric** of the country. **Ferdie**
 belongs in its back matter because he is **of that fabric**: childhood **Okahandja**, matric **Jan
 Möhr** (Windhoek), **Namibian landscapes** in his blood, **San rock art** and **indigenous cultures**
 among his lifelong interests, and decades of **geography, geopolitics, and reading the ground** as
@@ -772,7 +772,7 @@ books, one friendship, different rivers — see overlap table below.
 
 ## Where his accomplishments touch **both** books **(A/C)**
 
-The author dedicates **two** volumes in this library to **Dr Ferdie Lochner**. The **full CV** above
+The author dedicates **two** volumes in this library to **Ferdie**. The **full CV** above
 is shared; each book draws on a **different slice** of the same life. Nothing here makes him a
 character on-page — it explains **why the same real man** belongs on **both** spines.
 
@@ -797,7 +797,7 @@ character on-page — it explains **why the same real man** belongs on **both** 
 
 ## Sources to verify at typeset
 
-- [LinkedIn — Ferdie Lochner](https://www.linkedin.com/in/ferdielochner)
+- [LinkedIn — Ferdie](https://www.linkedin.com/in/ferdielochner)
 - [Stellenbosch Business School — alumni profile](https://www.stellenboschbusiness.ac.za/news/pursuing-my-dream-professional-independence-through-lifelong-learning-dr-ferdie)
 - [Mediation Namibia — mediators listing](https://www.mediationnamibia.com/mediators)
 
