@@ -81,7 +81,7 @@ still does not realise what he handed me: a thing that compresses the universe t
 it with five hundred and forty-nine keys. Compression and encryption, dressed as a stoner's
 hand-bound book.
 
-**Thursday 25 June** — `ferdie`. The last repo before the close. Dr Ferdie Lochner, a partner behind
+**Thursday 25 June** — `ferdie`. The last repo before the close. Ferdie, a partner behind
 the fence, with a body of work on the Human Digital Twin that turned out to map, feature for feature,
 onto things I was already building. The overlap was real; the prize was the rails, not the heavy stack.
 That, too, is its own category.

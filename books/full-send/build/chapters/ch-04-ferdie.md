@@ -9,13 +9,13 @@ discipline it took not to merge two things just because they rhymed.*
 
 ## The man behind the fence
 
-Dr Ferdie Lochner came to me near the end of the month, behind the misogi fence — a partner, not a
+Ferdie came to me near the end of the month, behind the misogi fence — a partner, not a
 client, not an audience. He arrived with a body of work I have come to think of as a single obsession
 viewed from eleven angles: the **Human Digital Twin.** The idea that a person could have a digital
 backup, a caretaker, a guardian — a version of themselves that protects the original.
 
 Eleven documents. Personal safety. Cybersecurity. Legacy and inheritance. Two African fintech rails.
-A flagship enterprise platform called TwinShield with a thirty-four-page business plan and a five-
+A flagship enterprise platform called his enterprise platform with a thirty-four-page business plan and a five-
 million-pound ask. A philosophical essay on what digital twins even *are.* It was a lot, and it was
 serious, and the first thing it did was give me the founder's vertigo — because one of his papers, the
 personal-safety one, independently specified, feature for feature, much of what I was building in
@@ -49,7 +49,7 @@ me" — could serve Khuluma, and the data-emancipation arm, and Ferdie's SME-cre
 That is the cleanest, highest-leverage thing in the whole set, and it's the thing CongoSky needed
 anyway. Ferdie had pre-thought it through from a direction I never would have come at it from.
 
-The *heavy stack* was the trap. TwinShield is the most-built artefact and the least aligned — UK and
+The *heavy stack* was the trap. his enterprise platform is the most-built artefact and the least aligned — UK and
 EU enterprise cyber, a paid Western stack, a five-million-pound raise. It pulls *away* from
 everything CongoSky's centre of gravity is: frugal, sovereign, African, free public tier. The danger
 wasn't that it was bad. It was that it was *gravitational* — the most developed, most fundable thing
@@ -95,6 +95,6 @@ That's not a failure of ambition. That's the brake doing exactly what the foot b
 
 *[Draft — Chapter Four. Grounded in the `ferdie` private repo: eleven-document HDT corpus + the
 overlap analysis `notes/OVERLAP-congosky-khuluma.md` (web + metered-Perplexity verified, 2026-06-25).
-Real person, partner behind the fence — handled with the dignity owed; the £5M/TwinShield specifics
+Real person, partner behind the fence — handled with the dignity owed; the £5M/his enterprise platform specifics
 kept at the altitude of the book, not as diligence. The "adopt the rails, decline the heavy stack"
 verdict and the token-free / no-custom-crypto refusals are the actual analysis.]*

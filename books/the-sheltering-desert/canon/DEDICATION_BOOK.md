@@ -1,6 +1,6 @@
 # Dedication
 
-For **Dr Ferdie Lochner** —
+For **Ferdie** —
 
 who grew up in **Okahandja** and knows the **Namib** the way some people know a prayer:
 not as scenery, but as **grammar** — rock, water, distance, and the long patience of survival.

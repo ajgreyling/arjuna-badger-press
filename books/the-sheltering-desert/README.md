@@ -26,7 +26,7 @@ is the story told again, from the documented facts, in this project's voice.
 Start here: [`canon/STORY_BIBLE.md`](canon/STORY_BIBLE.md). The verified true story + sourcing:
 [`canon/PLACE_RESEARCH.md`](canon/PLACE_RESEARCH.md).
 
-**Dedicated to Dr Ferdie Lochner** — [`canon/DEDICATION_BOOK.md`](canon/DEDICATION_BOOK.md). Full profile
+**Dedicated to Ferdie** — [`canon/DEDICATION_BOOK.md`](canon/DEDICATION_BOOK.md). Full profile
 + **cross-book overlap** with *House of Bread* (verified credentials, LinkedIn-backed, polymath — **not a crank**):
 [`canon/APPENDIX.md`](canon/APPENDIX.md).
 
