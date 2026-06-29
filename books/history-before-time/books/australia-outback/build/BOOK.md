@@ -1,13 +1,5 @@
 # Dedication
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
-⁂
-
 For my brother Pieter —
 
 who made me a blade with our grandfather's ivory and our father's webbing,
