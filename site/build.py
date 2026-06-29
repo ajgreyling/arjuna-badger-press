@@ -2605,7 +2605,6 @@ def safari_nav_drawer_links(rel: str = "") -> str:
         f'<a href="{sp}letter.html">A letter</a>'
         f'<a href="{sp}house.html">The House</a>'
         f'<a href="{sp}writing/index.html">The Writing Desk</a>'
-        f'<a href="{sp}for-lisel.html">For Lisel</a>'
         f'<a href="{sp}proof.html">For G</a>'
         f'<a href="{sp}technology.html">Technology</a>'
         f'<p class="navgroup">Connect</p>'
@@ -4986,8 +4985,6 @@ def audiobook_player_script() -> str:
 LETTERS = [
     ("a-letter.md", "letter.html", "A letter — Arjuna Badger Press",
      "A letter, written by the machine that stood guard while a man wrote the soul of the thing."),
-    ("letter-to-lisel.md", "for-lisel.html", "For Lisel — Arjuna Badger Press",
-     "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
 ]
 
 CRAFT_DIR = REPO / "docs" / "craft"
@@ -5603,7 +5600,6 @@ def render_safari_hub() -> str:
         ("house.html", "The House of Greyling", "Arms earned the long way — every charge a promise the books are made to keep."),
         ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
         ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
-        ("for-lisel.html", "For Lisel", "A letter from Andries to his wife — the rope, the floor, and the month he is trying to give back."),
         ("proof.html", "For G", "For the man who built the most intentional space I've ever walked into — and whose advice started this press."),
         ("todd-kellett.html", "For Todd", "Hat off to Todd Kellett — the viral motorcycle clip that is badger energy made flesh. Hold the throttle till you see God or the checkered flag."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
