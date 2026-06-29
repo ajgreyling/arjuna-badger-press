@@ -1,13 +1,5 @@
 # Dedication
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
-⁂
-
 *For my wife.*
 
 *This is the book I wrote on far ground, a long way from home — a man crossing an ocean to stand
@@ -678,84 +670,57 @@ And one debt, before I go, because debts should be named and this one is glad. A
 
 *— Andries J. Greyling*
 
-
 # Illustrations
 
 *A gallery of the real places, peoples, and made wonders behind this book — the wider subject, not only the scenes in the prose. All images are freely licensed (public domain / CC0 / CC BY / CC BY-SA); credits follow.*
 
-
 ## Places of Awe
-
 
 ![Stonehenge — the most-looked-at stones on Earth; the decoy the world mistook for the door.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/stonehenge-heel-stone.jpg){width=4.4in}
 
-
 *DeFacto, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ![Avebury — the great henge the village grew up inside.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/avebury-stone-circles.jpg){width=4.4in}
 
-
 *Rxfelix, CC BY 3.0, via Wikimedia Commons*
-
 
 ![Silbury Hill — the largest prehistoric mound in Europe, raised for a reason we still don't have.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/silbury-hill-db.jpg){width=4.4in}
 
-
 *Dickbauch, Public domain, via Wikimedia Commons*
-
 
 ![West Kennet Long Barrow — the chalk holding its dead five thousand years.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/west-kennet-long-barrow-summer-2004-02.jpg){width=4.4in}
 
-
 *Simon Burchell, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ![The Wiltshire chalk downland — the canvas the patterns appear on.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/pewsey-vale-coaches-coach-church-street-pewsey-geograph-org-uk-6430355.jpg){width=4.4in}
 
-
 *Jaggery, CC BY-SA 2.0, via Wikimedia Commons*
-
 
 ![A Wiltshire chalk hill-figure — the land already written on by hand.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/cherhill-white-horse-juli-2015-3.jpg){width=4.4in}
 
-
 *Schildiecom, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ## Things of Wonder
 
-
 ![A crop formation in the Wessex wheat — craft, hoax, or the few that aren't either.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/crop-circle-2022-05-22.png){width=4.4in}
-
 
 *Croppy Peace Sign, CC0, via Wikimedia Commons*
 
-
 ![Durrington Walls — a buried super-henge most eyes walk straight past.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/western-wall-of-durrington-walls.jpg){width=4.4in}
-
 
 *Ethan Doyle White, CC BY-SA 4.0, via Wikimedia Commons*
 
-
 ![Barbury Castle — an Iron Age hillfort over the same chalk.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/barbury-castle-geograph-org-uk-4902497.jpg){width=4.4in}
-
 
 *Michael Graham, CC BY-SA 2.0, via Wikimedia Commons*
 
-
 ![Crop-marks — the land writing its buried history in the wheat when the drought comes.](/Users/ajgreyling/code/africangold/books/history-before-time/books/crop-circles/design/images/123-barzan-les-thermes-1771a1.jpg){width=4.4in}
-
 
 *Jacques DASSIÉ, CC BY-SA 4.0, via Wikimedia Commons*
 
-
-
 ## Image Credits
 
-
 All images sourced from Wikimedia Commons and reproduced under their respective free licences (public domain / CC0 / CC BY / CC BY-SA).
-
 
 - *Stonehenge — the most-looked-at stones on Earth; the decoy the world mistook for* — Stonehenge Heel Stone.jpg. DeFacto, CC BY-SA 4.0, via Wikimedia Commons.
 

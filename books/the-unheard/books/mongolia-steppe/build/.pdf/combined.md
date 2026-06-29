@@ -20,14 +20,6 @@ ISBN: ___-_-_____-___-_  *(assigned at print)*
 
 ---
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
-⁂
-
 For the people the map calls empty —
 
 the ones who read the grass and the wind and the sky
@@ -1433,8 +1425,6 @@ Look at who isn't in the brochure.
 
 # Acknowledgements
 
-
-
 These books exist because other people made things that lived in my head long after I'd finished
 them. My thanks:
 
@@ -1466,100 +1456,67 @@ small way of giving back: you have free use of Arjuna Badger Press, always.
 
 ---
 
-
-
 # Illustrations
 
 *A gallery of the real places, peoples, and made wonders behind this book — the wider subject, not only the scenes in the prose. All images are freely licensed (public domain / CC0 / CC BY / CC BY-SA); credits follow.*
 
-
 ## Places of Awe
-
 
 ![The open steppe — land that reads as empty and is the most precisely known ground they walk.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/grasslands-menggu.jpg){width=4.4in}
 
-
 *Shizhao, CC BY-SA 3.0, via Wikimedia Commons*
-
 
 ![The Orkhon Valley — a thousand years of nomadic pastoral civilisation, UNESCO-listed.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/goats-in-orkhon-valley-02.jpg){width=4.4in}
 
-
 *Bernard Gagnon, CC0, via Wikimedia Commons*
-
 
 ![The Gobi — from +45°C to −40°C, the country the herders' judgement crosses.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/gobi-kompleks-szambala-22.jpg){width=4.4in}
 
-
 *Marcin Konsek, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ![Lake Khövsgöl — the northern water of the steppe.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/lake-kh-vsg-l-mongolia.jpg){width=4.4in}
 
-
 *Bernard Gagnon, CC0, via Wikimedia Commons*
-
 
 ![Erdene Zuu at Kharkhorin — the old capital ground, where stone meets felt.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/z-ota-stupa-w-klasztorze-erdene-dzuu-01.jpg){width=4.4in}
 
-
 *Marcin Konsek, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ## Things of Wonder
 
-
 ![The ger — felt from the herders' own sheep; the sheep are the house, raised in three hours.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/mongolian-traditional-home-ger-yurt.jpg){width=4.4in}
-
 
 *Gary Todd, CC0, via Wikimedia Commons*
 
-
 ![The morin khuur (horse-head fiddle) — the steppe's two-string voice at the fire.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/morin-khuur-solo-with-orchestra.jpg){width=4.4in}
-
 
 *ClipperDB, CC0, via Wikimedia Commons*
 
-
 ![Deer stones — Bronze Age standing stones carved across the steppe.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/deer-stones-at-uushgiin-uvur-01.jpg){width=4.4in}
-
 
 *Bernard Gagnon, CC0, via Wikimedia Commons*
 
-
 ![An ovoo cairn — circled three times clockwise; the book shows the threshold and looks away.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/ovoos-in-gorkhi-terelj-national-park-5.jpg){width=4.4in}
-
 
 *Pierre André Leclercq, CC BY-SA 4.0, via Wikimedia Commons*
 
-
 ## The Peoples
-
 
 ![A herder in the deel — the expert fighting to hand the life on, not a vanishing relic.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/nomads-day-festival-1.jpg){width=4.4in}
 
-
 *Gabideen, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ![Bökh wrestlers at Naadam — title earned by craft, the Eagle Dance before the bout.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/b-kh.jpg){width=4.4in}
 
-
 *Paulo Fassina, CC BY-SA 2.0, via Wikimedia Commons*
-
 
 ![A horseman on the steppe — horses the cultural backbone of the five snouts.](/Users/ajgreyling/code/africangold/books/the-unheard/books/mongolia-steppe/design/images/herders-in-khustain-nuruu-national-park-mongolia-2.jpg){width=4.4in}
 
-
 *Pierre André Leclercq, CC BY 4.0, via Wikimedia Commons*
-
-
 
 ## Image Credits
 
-
 All images sourced from Wikimedia Commons and reproduced under their respective free licences (public domain / CC0 / CC BY / CC BY-SA).
-
 
 - *The open steppe — land that reads as empty and is the most precisely known groun* — Grasslands-menggu.jpg. Shizhao, CC BY-SA 3.0, via Wikimedia Commons.
 

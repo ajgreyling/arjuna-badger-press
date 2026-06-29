@@ -6,7 +6,7 @@ standalone pattern (books/the-loneliest/build.py): [canon/DEDICATION_BOOK.md if 
 [canon/READER_NOTE.md if present] + ch-*.md -> build/BOOK.md, then render through the binding
 RENDER GATE (tools/render_book.sh): Atkinson body embedded, cover, colophon, PDF + EPUB.
 
-PALINDROME is a STANDALONE — it is OUT of scope for the standing "For Lisel" library dedication
+PALINDROME is a STANDALONE — it is OUT of scope for the (now-retired) standing library dedication
 (that is dedicated to History Before Time + the Jakobus stories only). It carries only its own
 dedication; there is no library inscription to suppress, but the opt-out marker is honoured anyway
 for symmetry with the-loneliest.
@@ -59,7 +59,7 @@ def _section(path: Path) -> str:
 
 
 def _dedication_page() -> str:
-    """PALINDROME's own dedication only. (Standalone: the standing Lisel dedication does not apply.)
+    """PALINDROME's own dedication only. (Standalone: the standing dedication is retired.)
     Honours a leading <!-- NO_LIBRARY_DEDICATION --> marker for symmetry, though it is moot here."""
     own_raw = _section(CANON / "DEDICATION_BOOK.md")
     if not own_raw:

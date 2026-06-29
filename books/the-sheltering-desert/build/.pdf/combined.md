@@ -83,12 +83,6 @@ in it and the people it comes from earned nothing less.
 
 ---
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
 ---
 
 ## Contents
@@ -688,8 +682,6 @@ This draft awaits a **Namibian / German-Namibian sensitivity read** and natural-
 
 # Acknowledgements
 
-
-
 These books exist because other people made things that lived in my head long after I'd finished
 them. My thanks:
 
@@ -721,82 +713,55 @@ small way of giving back: you have free use of Arjuna Badger Press, always.
 
 ---
 
-
-
 # Illustrations
 
 *A gallery of the real places, peoples, and made wonders behind this book — the wider subject, not only the scenes in the prose. All images are freely licensed (public domain / CC0 / CC BY / CC BY-SA); credits follow.*
 
-
 ## Places of Awe
-
 
 ![The Kuiseb canyon — the schist gorge that hid two geologists for two and a half years.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/namibia-kuiseb-canyon-09.jpg){width=4.4in}
 
-
 *Zairon, CC BY-SA 4.0, via Wikimedia Commons*
-
 
 ![The Namib dunes — the oldest desert on Earth, the sheltering and the killing one.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/namib-naukluft-sand-dunes-2011.jpg){width=4.4in}
 
-
 *Yathin S Krishnappa, CC BY-SA 3.0, via Wikimedia Commons*
-
 
 ![The Namib gravel plains and fog-belt — water out of the air when there is none in the ground.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/dust-storms-off-namibia-modis-2016-07-18.jpg){width=4.4in}
 
-
 *Jeff Schmaltz, MODIS Land Rapid Response Team, NASA GSFC, Public domain, via Wikimedia Commons*
-
 
 ![Swakopmund and Walvis Bay — the coast they arrived on in 1935, fleeing one war into another.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/swakopmund-jetty-hdr.jpg){width=4.4in}
 
-
 *Daniel Kraft, CC BY-SA 3.0, via Wikimedia Commons*
-
 
 ## Things of Wonder
 
-
 ![Welwitschia mirabilis — a living fossil that drinks the fog and outlives empires.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/welwitschia-mirabilis-female.jpg){width=4.4in}
-
 
 *Hans Hillewaert, CC BY-SA 4.0, via Wikimedia Commons*
 
-
 ![The gemsbok — the desert game the two men hunted to stay alive, and kept observing as they starved.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/gemsbok-oryx-gazella-male.jpg){width=4.4in}
-
 
 *Charles J. Sharp, CC BY-SA 4.0, via Wikimedia Commons*
 
-
 ![The quiver tree (kokerboom) — the arid country's own architecture.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/quiver-trees-namib-desert.jpg){width=4.4in}
-
 
 *Olga Ernst, CC BY-SA 4.0, via Wikimedia Commons*
 
-
 ## The Peoples
-
 
 ![The Topnaar (ǂAonin) Nama of the lower Kuiseb — the people who belong to that river.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/desert-home-namibia-08-30-2016-33898718534.jpg){width=4.4in}
 
-
 *NASA Earth RIght Now, Public domain, via Wikimedia Commons*
-
 
 ![Nama dress — a living people of the Namib's edges.](/Users/ajgreyling/code/africangold/books/the-sheltering-desert/design/images/11z22665-nama-woman-cooking.jpg){width=4.4in}
 
-
 *Shark studio, CC BY-SA 4.0, via Wikimedia Commons*
-
-
 
 ## Image Credits
 
-
 All images sourced from Wikimedia Commons and reproduced under their respective free licences (public domain / CC0 / CC BY / CC BY-SA).
-
 
 - *The Kuiseb canyon — the schist gorge that hid two geologists for two and a half * — Namibia Kuiseb-Canyon 09.jpg. Zairon, CC BY-SA 4.0, via Wikimedia Commons.
 

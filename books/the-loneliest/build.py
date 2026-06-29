@@ -45,12 +45,12 @@ def _strip_h1(txt: str) -> str:
 
 
 def _dedication_page() -> str:
-    """The dedication PAGE: the standing library dedication (to Lisel, from the africangold-root
+    """The dedication PAGE: the standing library dedication (RETIRED 2026-06-29; from the africangold-root
     LIBRARY_DEDICATION.md) above this book's own dedication, joined by an asterism. A leading
     `# Dedication` heading is kept so the EPUB splitter gives it its own section.
 
     PER-BOOK OPT-OUT: if this book's DEDICATION_BOOK.md begins with the marker
-    `<!-- NO_LIBRARY_DEDICATION -->`, the standing library (Lisel) dedication is SUPPRESSED and the
+    `<!-- NO_LIBRARY_DEDICATION -->`, the standing library dedication (retired) is SUPPRESSED and the
     book carries ONLY its own dedication. (Used by books that pre-date / sit outside the library-as-
     Lisel's frame — e.g. THE LONELIEST PEOPLE IN THE WORLD, which is pre-Lisel and is For Carla.)"""
     own_path = CANON / "DEDICATION_BOOK.md"
