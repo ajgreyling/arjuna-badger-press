@@ -35,12 +35,6 @@ ISBN: ___-_-_____-___-_  *(assigned at print)*
 
 ---
 
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
-
 ---
 
 # Foreword
