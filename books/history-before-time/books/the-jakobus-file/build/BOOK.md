@@ -1,10 +1,3 @@
-# Dedication
-
-*For Lisel.*
-
-*The whole of this library — every book, every series, and the Jakobus Thread that runs through the heart of it — is hers. Each page that follows may carry another name; all of them together carry only one. She is the floor the entire house stands on.*
-
-*Sawubona.*
 
 ---
 
@@ -1520,7 +1513,6 @@ That is a gift very few writers ever get, and almost none deserve, and I got it,
 
 ---
 
-
 She had clocked him in the Spar, of all the unromantic places on God's earth, and what had caught her was not the obvious — not the weathered bulk of him, the soft middle, the bad shirt, the grey in the beard — but the *stillness*, the way he stood in a fluorescent-lit aisle reading the back of a tin of something — a coffee, she'd see later, the proper stuff, the only thing in his basket he was particular about — with the unhurried attention most men only ever gave a thing they were about to buy or about to shoot. There was no drink in the basket; she'd register that too, eventually, and what it meant. Just coffee, and milk, and a bag of oranges, and a cheap toy still in its packaging that was plainly for somebody else's child. He looked like nobody. Naledi had spent thirty-six years learning to read men the way you learn to read weather in a place that floods, and her whole life's instrument said this one was nobody at all, Steve from accounting on a long weekend — and then he'd looked up and taken the sunglasses off, unhurried, for her, the way you'd uncover your hands to show you held no cards, and the instrument had thrown its needle clean off the dial.
 
 Grey going green. And under the grey-green, *seeing* her. Not the head-to-toe inventory she'd weathered her whole life, the one that priced you and shelved you in the same half-second. This was slower and far worse, because it took her in whole — the full of her, the architecture she had stopped apologising for somewhere in her early thirties, the brown of her that the country had spent a long time teaching her to read as a deficit and that she had decided, with great deliberation, to read instead as the plain fact of being magnificently herself — and it *liked* what it found, frankly, with no apology and no hurry and no reaching, and then it had the manners to look away before the looking became a thing he was doing *to* her instead of a thing they were briefly doing together.
@@ -1704,7 +1696,6 @@ He asked to be shown. *(beat)* That's the whole of it, that's all I'll say of hi
 *But late in the afternoon a courier finds the place — which should not have been possible; nobody could find this place — and leaves a small flat parcel with no return address, addressed in a hand none of them know. Ben opens it, because Ben opens everything.*
 
 *Inside: a knife. Plain. Beautiful. The kind of blade that is all function and no show, made by someone who understood exactly what such a blade meant to such a man. And a single worn copper coin. And one line, in block capitals, on an unsigned card:)*
-
 
 *(Ben reads it twice, the way he reads everything twice. Then he sets the knife and the coin on the bonnet of the Beast, in the last of the gold light, next to Jennefer's copper and Eli's two-dollar bit and the boy's red stone, where the others have been laying their small true things all afternoon — a little hoard of nothing on the warm metal of the truck, every piece of it the most precious thing somebody owned.*
 
