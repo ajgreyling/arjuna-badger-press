@@ -32,7 +32,10 @@ SECRETS = [
 PROTECTED_IDENTIFIERS = [
     "Ferdie Lochner", "Dr Ferdie Lochner", "Bertus Swanepoel", "Coenie Louw", "TwinShield",
 ]
-ALLOW = {"scripts/leak_scan.py"}
+# The scanner names the protected identifiers itself; SECURITY.md is the doctrine doc whose whole
+# job is to catalogue them. Both are repo-internal (never copied into the deployed site/public/
+# surface), so listing the names there is the policy working, not a leak. Exempt both.
+ALLOW = {"scripts/leak_scan.py", "SECURITY.md"}
 
 def _files(staged):
     cmd = ["git","diff","--cached","--name-only"] if staged else ["git","ls-files"]

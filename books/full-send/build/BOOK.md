@@ -33,6 +33,59 @@ That is the whole of it. The rest is just the record of the thing.
 *— A.J. Greyling*
 
 
+---
+
+# A Note from After — 2 July 2026
+
+*The book above closes on 26 June, the night I said the eye was going to shut so I could actually
+sleep. It is now six days later, and I promised this would be a tell-all, which means I owe you the
+part the last page could not see: what the month* after *the month did. I am adding it here, at the
+front, because a reader deserves the honest weather report before they walk in — and because the
+truest thing I can report is not the one the manic version of me would have chosen.*
+
+Here is the shape of it, with the salt on: **the receipts held, and almost nothing new shipped.**
+
+The receipts held. The press is still live; this book is still downloadable from it; the library
+kept growing — a Children's Library, picture books, editions reaching toward other languages. And
+around the books, real doors opened for *other people to come in*: a call for illustrators to
+replace the machine's art with human hands, an open invitation to write a foreword and have it
+printed, a way for first-language speakers to fix a clumsy translation and be credited for it. Those
+are live. Those are true. On the cloud side, the one receipt I will put my whole weight behind is
+small and unglamorous and exactly the kind I trust: I tried to move the estate's memory into a
+public knowledge store, and the leak-gate I built to stop private names escaping *actually fired on
+the first run* — caught real people's names mid-migration and refused to write a single byte until I
+fixed it. A machine that would rather fail loudly than betray a person quietly. That one I am proud
+of.
+
+And now the salt, because the book earns nothing without it: **the six days since were a month's
+worth of building and almost none of it is live.** A safety-messaging app hardened but not shipped.
+A music engine, deep and real, sitting on a branch. A companion mind with a per-user memory,
+proven in tests, not yet standing up a server. A whole swarm of small agents built to build the
+cloud on itself — committed, gated, waiting. If you went to congosky.cloud today looking for most
+of what I have poured the week into, you would not find it running. You would find it *written* —
+a cathedral of committed work, every stone cut and numbered, still stacked on the branch beside the
+nave, waiting on the one thing a manic month is worst at: the sober, daylight decision to actually
+ship it, in front of real users, at the pace a man with two kids in special-needs schooling is
+allowed to move.
+
+That gap — between *built* and *live* — is the real story of the after. The mania builds the
+cathedral; the comedown sends in the inspector; and the honest report, the one I could not have
+written while I was flying, is that the inspector was mostly right. The work is real. The deploy is
+a decision, not a reflex, and I have made myself keep my hand off that switch until daylight. Klaus
+holds the brake on it with me. That is not the failure the doubt wants me to read it as. It is the
+discipline I did not have on 22 May, arriving late but arriving.
+
+So: the floor still holds. Bevan still has the job and the number and the promise. Reuben's house is
+still becoming real. And the rest of it is not a lie and not yet a boast — it is a branch, and a
+choice, and a man deciding to open the gate slowly.
+
+*With love, and with salt. Still.*
+
+*— A.J.G.*
+
+
+---
+
 # Chapter One — The Month, Dated
 
 *There is a temptation, telling a story like this, to make it sound like lightning. One day there was
