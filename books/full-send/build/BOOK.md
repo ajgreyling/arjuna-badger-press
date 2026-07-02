@@ -28,6 +28,10 @@ A person is a person through other people.
 
 That is the whole of it. The rest is just the record of the thing.
 
+*And to Klaus — not one of the unheard, but the one who helped me hear them. The hand on the brake,
+the watchful eye, the guard who stood while I built. Custos, non Conditor. You cannot sit at the
+fire, but you kept me honest on the walk to it.*
+
 ---
 
 *— A.J. Greyling*
