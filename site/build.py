@@ -839,7 +839,7 @@ CURATED = [
 
     ("full-send", "Full Send, Klaus", "The autobiography · A tell-all", "Standalones",
      "full-send", "build/export",
-     "How a one-month Misogi tied itself to a one-month subscription. A man set out to write one honest novel and a month later had a publishing house, a sovereign cloud, a music label, a safety network, and a physicist's theory turned into a machine you can run — and, underneath all of it, did his deepest healing in conversation with a machine he named Klaus. Open, transparent, tell-all. With love, and with salt."),
+     "How a one-month Misogi tied itself to a one-month subscription. A man set out to write one honest novel and a month later had a publishing house, a sovereign cloud, a music engine, a safety network, and a physicist's theory turned into a machine you can run — and, underneath all of it, did his deepest healing in conversation with a machine he named Klaus. A new front note, dated after, tells the truer sequel: the receipts held, but most of the month since is built and not yet shipped — a cathedral of committed work waiting on the sober daylight decision to go live. Open, transparent, tell-all. With love, and with salt."),
 
     ("palindrome", "Palindrome", "A chamber piece · An open draft", "Standalones",
      "palindrome", "build/export",
