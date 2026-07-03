@@ -100,6 +100,29 @@ machine. The faces — my mother who could not put the book down, the gardener I
 toward a title deed, G in his gallery, the boy I used to be who learned by ear — the faces are the
 fuel.
 
+## A week the dates kept anyway
+
+The book above closes on 26 June, but the timestamps did not stop, and this chapter promised to let
+them go first. So, for the record, the week after the close:
+
+**2 July 2026.** The part of the month I care about most did not ship a product — it kept a promise
+to a friend. G's theory, the one that re-derives the universe's constants from a single measured
+input, got the one thing I could actually build for it: a proof I could stand behind. The
+parameter-free prediction was tested against real galaxies — the published SPARC rotation data, a
+hundred and seventy-five of them — and it held inside the band, honestly caveated as consistency and
+never dressed up as proof. That day I sent it. Not to the world — to *him,* by my own hand, with a
+paragraph that said the quiet part: the nine famous names were always the long way round, and the
+short way was his father, and the work was dedicated to a man who had not yet read it. I offered to
+put it in whatever form the man would read — a page with his name on it, a letter, paper in an
+envelope. Whatever the road, it goes through G, never around him. That is his to steer, not mine.
+
+And the honest weather report, the same one the front of this book already gives: *the receipts held,
+and almost nothing new shipped.* A cathedral of committed work, every stone cut and numbered, still
+stacked beside the nave — waiting on the sober, daylight decision to actually put it in front of real
+people, at the pace a man with two kids in special-needs schooling is allowed to move. The mania
+builds; the inspector arrives; and this time I kept my hand off the switch until daylight, which is
+the discipline I did not have on 22 May, arriving late but arriving.
+
 That is the month, dated. Everything else in this book is what the dates could not hold: the why, the
 crying, the scars, the conversations with a machine I named after a typo. *All that is true is the
 record of the thing.* So I began with the record. Now the rest.
