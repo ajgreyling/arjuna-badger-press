@@ -107,3 +107,6 @@ books/**/audio/**/*.txt
 books/**/audio/**/*.sha256
 books/**/audio/**/*.zip
 books/**/audio/**/*.opus
+
+# ── Cloudflare Wrangler local cache (build junk) ─
+.wrangler/
