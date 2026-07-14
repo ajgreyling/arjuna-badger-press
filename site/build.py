@@ -27,6 +27,7 @@ BRAND = REPO / "brand" / "assets"
 OUT = REPO / "site" / "public"
 
 DOMAIN = "https://arjunabadger.press"
+CONGOSKY_CV = "https://congosky.cloud/cv/"   # CV moved to CongoSky; old Press URLs redirect here
 PUBLIC_EMAIL = "info@arjunabadger.press"
 TAGLINE = "Your story, told true."
 
@@ -8130,6 +8131,10 @@ def safari_logo_guard(out: Path) -> None:
         return
     for path in sorted(safari_root.rglob("*.html")):
         page = path.read_text(encoding="utf-8", errors="ignore")
+        # Redirect stubs (e.g. cv.html now points to congosky.cloud/cv) carry no
+        # chrome or logo — they exist only to bounce old bookmarks. Skip them.
+        if 'http-equiv="refresh"' in page:
+            continue
         if logo not in page:
             raise SystemExit(f"safari logo guard: {path.relative_to(out)} missing {logo}")
         # "bad" = any OTHER brand mark than the current SAFARI_LOGO — derived, so this never
@@ -8295,7 +8300,8 @@ def main() -> None:
     safari_out = OUT / "safari"
     safari_out.mkdir(exist_ok=True)
     (safari_out / "index.html").write_text(render_safari_hub(), encoding="utf-8")
-    (safari_out / "cv.html").write_text(render_cv(rel="../", safari=True), encoding="utf-8")
+    (safari_out / "cv.html").write_text(
+        redirect_page(CONGOSKY_CV, CONGOSKY_CV, "Andries J. Greyling — CV"), encoding="utf-8")
     (safari_out / "house.html").write_text(render_house(rel="../", safari=True), encoding="utf-8")
     (safari_out / "proof.html").write_text(render_safari_proof(rel="../"), encoding="utf-8")
     for src_name, out_name, title, desc in SAFARI_CONTENT:
@@ -8340,8 +8346,8 @@ def main() -> None:
             writing_n += 1
 
     # Redirect stubs — old URLs keep working; canonical lives under /safari/
-    cv_canon = f"{DOMAIN}/safari/cv.html"
-    (OUT / "cv.html").write_text(redirect_page("safari/cv.html", cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
+    cv_canon = CONGOSKY_CV
+    (OUT / "cv.html").write_text(redirect_page(CONGOSKY_CV, cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
     (OUT / "house.html").write_text(
         redirect_page("safari/house.html", f"{DOMAIN}/safari/house.html", "The House of Greyling"), encoding="utf-8")
     for _, out_name, title, _ in LETTERS:
@@ -8363,10 +8369,10 @@ def main() -> None:
         encoding="utf-8")
 
     (OUT / "press.html").write_text(render_press_hub(entries, sum(1 for e in entries if e["available"])), encoding="utf-8")
-    # Clean URL: arjunabadger.press/cv → safari/cv.html
+    # Clean URL: arjunabadger.press/cv → congosky.cloud/cv (CV moved to CongoSky)
     (OUT / "cv").mkdir(exist_ok=True)
     (OUT / "cv" / "index.html").write_text(
-        redirect_page("../safari/cv.html", cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
+        redirect_page(CONGOSKY_CV, cv_canon, "Andries J. Greyling — CV"), encoding="utf-8")
     (OUT / "feedback.html").write_text(render_feedback(), encoding="utf-8")
     (OUT / "join.html").write_text(render_call_to_arms(), encoding="utf-8")
     (OUT / "narrators.html").write_text(render_narrators(), encoding="utf-8")
