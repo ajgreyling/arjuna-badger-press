@@ -111,7 +111,9 @@ Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
 > *Also flag (cold-read):* Bk II chs 01–02 use church/institution-fossil idioms — "sit at the table like
 > a Christian" (authentic SA *soos 'n Christenmens*), "like the elements at a lighting", "like a
 > magistrate putting down a gavel", "like a saint in a shrine", "like a strange halo", "under his arm
-> like a writ" — where Book I scrupulously never names the real religion or old institutions. Kept as Kloof texture (their redaction was messier; their
+> like a writ", "like a relic", "as though introducing royalty", "order of battle", "pharmacopoeia",
+> "argues like a parliament" (Reuel — keep; governance vocabulary is his characterization) — where
+> Book I scrupulously never names the real religion or old institutions. Kept as Kloof texture (their redaction was messier; their
 > forgetting shallower). ONE author decision should cover all instances — AJ to confirm the
 > sequence-level rule.
 > *New soft canon (Bk II ch-02):* **Dawid's father** argued in the Kloof for the fuller book "at some
