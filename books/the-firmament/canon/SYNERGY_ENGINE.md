@@ -218,6 +218,22 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   seen her face. First bearing taken (bidirectional — unresolved); the fetch is now arithmetic-then-
   walking, per Elsabé.
 
+**After Bk II ch-04 ("Diesel and dirty oil", 2026-07-19) — the truck night:**
+- **Steve (POV debut):** the shed avoided two years because it smelled of the before-fathers — the
+  unnamed grief given its first geography. Tears permitted ONLY under cover of noise ("the only
+  condition on which he permitted them, ever") — armour intact; the vinyl grin-fail and the full break
+  remain unspent, ascending. His betting-book-behind-the-teeth is now the house's unofficial record.
+- **Ronel ⚡ Steyn (warming, denied):** Steyn cranks hardest when Ronel is in earshot; she is, that
+  week, generally in earshot. Noticed by Steve only. Nobody has said anything. Track the drift.
+- **Ivo ⇄ Dawid (debt paid):** BOREHOLE 2 delivered per contract, Dawid collecting "like rent" —
+  the arithmetic-trust between them is now proven both ways. Ivo's stock with the Order bloc is high.
+- **Dawid (visor up, publicly):** fists in the air at the truck-start — werf legend, never to be
+  forgotten by anyone; his restraint has a documented exception now, and the werf loves him for it.
+- **Hettie:** "Now the beans will make it" — grace over the borehole; her care now includes the lands.
+- **The werf → Neva (mobilized):** nobody held a meeting; everybody knows the trucks are for the
+  fetch. The second bearing is still a live war on Elsabé's slate — the fetch cannot roll until it
+  closes (open plot debt for ch-05's lead-in).
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
