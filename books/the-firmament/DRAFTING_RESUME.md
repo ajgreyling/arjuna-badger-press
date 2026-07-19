@@ -6,7 +6,7 @@ expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed a
 **Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~31.6k / ~220k words, ~14%)
+## State at pause (~33.9k / ~220k words, ~15%)
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.
@@ -14,9 +14,10 @@ for the measurable definition + live tracker.
   PP-ID, all three detonations (disappearance · breach · *upon nothing*), the call-sign hinge. The STORY
   is whole and readable end to end. **ch-01 (~4.6k) and ch-02 (~3.4k) are now at fuller length**;
   ch-03–16 remain at novella-compression (~0.9–1.4k each vs ~6–7k targets).
-- **Book II:** **ch-01 ✅ drafted** (~3.2k, `manuscript/book-ii/ch-01.md` — first contact from the
-  Kloof's side; G6 soft canon awaiting AJ) + vinyl-party keystone scene ▣ (~1.8k). Next: ch-02
-  "Roll call". SynergyEngine standings section now live — update it after every ensemble scene.
+- **Book II:** **ch-01 ✅ (~3.2k) + ch-02 ✅ (~2.3k) drafted** (`manuscript/book-ii/` — first contact
+  from the Kloof's side; the Court assembled; G6 soft canon awaiting AJ) + vinyl-party keystone scene ▣
+  (~1.8k). Next: ch-03 "The manuals" (Ivo in his element; PP-014; the fetch of Neva can run as
+  background). SynergyEngine CURRENT STANDINGS live through ch-02 — update after every ensemble scene.
 
 ## TWO honest next-work tracks (both are large, rested-day / `/dream` work — NOT one session):
 

@@ -108,10 +108,17 @@ Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
 - **Contact protocol** — Dawid's nightly rota on Ivo's frequency (the hinge Book II hangs from).
 > *Decision needed from AJ:* names (the Kloof / the werf), the cylinder cosmology, the communal exodus,
 > and the two-summers timeline. All are one-pass revisable in ch-01 if steered.
-> *Also flag (cold-read):* ch-01 uses two church-fossil idioms — "sit at the table like a Christian"
-> (authentic SA *soos 'n Christenmens*) and "like the elements at a lighting" — where Book I scrupulously
-> never names the real religion. Kept in the draft as Kloof texture (their redaction was messier); AJ to
-> confirm the sequence-level rule.
+> *Also flag (cold-read):* Bk II chs 01–02 use church/institution-fossil idioms — "sit at the table like
+> a Christian" (authentic SA *soos 'n Christenmens*), "like the elements at a lighting", "like a
+> magistrate putting down a gavel", "like a saint in a shrine" — where Book I scrupulously never names
+> the real religion or old institutions. Kept as Kloof texture (their redaction was messier; their
+> forgetting shallower). ONE author decision should cover all instances — AJ to confirm the
+> sequence-level rule.
+> *New soft canon (Bk II ch-02):* **Dawid's father** argued in the Kloof for the fuller book "at some
+> cost" and is still alive, old — enrichment orthogonal to his locked wound (the broken chain of
+> command), possibly unifiable with it later (the chain that broke = the elders over his father). AJ to
+> confirm. Also: Dawid's planning figure "call it four hundred kilometres" (explicitly a worst-case
+> guess, not a bearing) sets the distance scale for the fetch and the ch-04 trucks.
 
 ## Deferred to draft (let the prose find it)
 
