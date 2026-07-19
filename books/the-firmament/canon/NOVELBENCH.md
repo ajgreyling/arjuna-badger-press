@@ -43,10 +43,10 @@ A book is **complete (first draft)** when ALL hold:
 
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
-| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k, lean by design — the forms/PP-013 + the calling added; the Lighting spine already carried it) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~25,750 / ~110k | **arc ✅ · ~23% of word target** |
+| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean — the waiting days, the page-story, the name-tape) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,200 / ~110k | **arc ✅ · ~24% of word target** |
 | **II** | ✅ complete | ✅ complete | vinyl-party scene ▣ (of 18 ch) | ~1,830 / ~110k | **~1.7%** |
 
-**Combined draft progress toward the goal: ~27,600 / ~220,000 words (~13%).**
+**Combined draft progress toward the goal: ~28,000 / ~220,000 words (~13%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -96,8 +96,10 @@ faking it.
 2. ~~ch-02 expansion~~ ✅ DONE (2026-07-19 — ~3.4k, cold-read applied: the soft-closed doors, the
    returned frost-kit, the watcher at distance, the evening scripture).
 3. ~~ch-03 expansion~~ ✅ DONE (2026-07-19 — ~1.8k, deliberately lean: the forms drill-count/PP-013
-   seed + the child's catechism; cold-read passed the §5 lean test). Next: **ch-04 → ch-07** in
-   sequence (Movement I must accrete belief-then-dread cleanly).
-4. Expand Book II ch-05 (vinyl party) from scene to full chapter.
-5. Alternate books to keep parity, OR complete Book I then Book II (author's call).
-6. Update this tracker + the SynergyEngine after every session.
+   seed + the child's catechism; cold-read passed the §5 lean test).
+4. ~~ch-04 expansion~~ ✅ DONE (2026-07-19 — ~1.7k lean; the ignition chapter's single-scene
+   concentration preserved; cold-read called it the strongest of the expansions). Next: **ch-05 →
+   ch-07** in sequence (Movement I must accrete belief-then-dread cleanly).
+5. Expand Book II ch-05 (vinyl party) from scene to full chapter.
+6. Alternate books to keep parity, OR complete Book I then Book II (author's call).
+7. Update this tracker + the SynergyEngine after every session.
