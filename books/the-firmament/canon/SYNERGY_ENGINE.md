@@ -254,6 +254,31 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
 - **Neva's standing arc-objects:** the sealed vault ("Keep. I'll come back with hands") — the seeds
   and the mother both deferred, not abandoned; PP-010 is now a two-colony vocation with trucks.
 
+**After Bk II ch-06 (the vinyl party assembled) — the stay-behinds meet Neva; the bond sealed:**
+- **Neva ⁓ Hettie:** the feeding doctrine ("the faith had a body in front of it"); butter tears, met
+  with "Ja, it does that" — membership by appetite. **Neva ⁓ Elsabé:** the pages examined overnight;
+  trust extended on legible evidence only ("The rest of it drove in my gate by truck") — the
+  evidence/wire distinction that ch-07+ runs on. **Neva ⁓ Ronel:** the single nod ("a paragraph") and
+  the deniable rock-rabbit skin — veld-currency welcome; arm's length preserved.
+- **The party (spine beats, now in-sequence):** Steyn danced Ronel ("claws in for once — somebody
+  write it in the record") — the ⚡ dyad's first public data point; Elsabé conceded one shoulder and
+  spent one joke ("Typical Aquarius" — the astro-teasing register's on-page debut); Dawid stood
+  nearer the fire and named the whole book to Neva ("If they were bad it would be simpler"); Steve's
+  grin FAILED once, witnessed by Neva only, and came back chosen — the armour's first crack, the
+  reserve intact; Neva danced, taught by the man who laughs so he won't cry.
+
+**After Bk II ch-07 ("Efficient data over analog") — Act Two opens; the third station:**
+- **Elsabé (POV debut):** the graves speech public, the two-for-two hope private — the split is now
+  the engine of her chapters. Her slate is becoming the new world's first standards body ("Assume the
+  wire lies, and make the message confess" + "it cannot be made honest. It can be made to know when
+  it is lying"). **Elsabé ⁓ Ivo:** "two cold minds arriving at the same shelf" — current unspoken,
+  pace correct, nothing spent.
+- **The third station (new, remote, unnamed):** weak, fourth band, holds the founders' log,
+  machine-printed, habits over-ordered (exact minutes, no wasted words), asked HOW MANY ARE YOU
+  before any name. The Reuel-colony approach vector. **Neva put her bread down** — the one who lived
+  under a counting keeper heard it for what it might be. Court posture: "We answer. Slowly." —
+  committee method, whole-table consent, under the ONS LAG strip.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
