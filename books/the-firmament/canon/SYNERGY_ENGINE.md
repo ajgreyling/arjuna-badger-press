@@ -303,6 +303,24 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   careful"); her protocol held anyway. **Soft seed flagged (G-notes):** the old-Dawid confessor at
   the fire is Marika — confirm or steer before it hardens.
 
+**After Bk II ch-09 ("The resource cliff") — the fever; the Pressure trajectory executes:**
+- **Hettie (POV debut; wound tiered open):** the unwritten ledger — the count public ("I have four
+  names in me already"), the FIRST NAME still held (Marika knows there is a name, not the name — the
+  name stays banked). The detonation: "I will not lose another one to a principle." Her watch mirrors
+  Dawid's unrelieved post by design — the werf's two order-keepers each stand a post nobody can
+  relieve.
+- **Blocs re-hardened per trajectory:** Steyn ✕ Dawid public twice (the cordon; grievance live, "a
+  mended bone" being flexed); Ronel declined the cordon entirely ("Your line is for people who live
+  inside it") while provisioning the sick by window — defiance and care in one gesture, her dialect.
+- **Marika (ch-13 seeding):** one more candle-width down; now one place nearer the top of Hettie's
+  private watch-list — her burnout is being tracked by the family's own instrument.
+- **Dawid ⚡ Reuel (escalated):** the private lean answered with public doctrine — buy, never receive;
+  "the day the roster starts learning our names" adopts Neva's ch-08 frame into policy (her line
+  landed). He resists Reuel with Reuel's own tools: paper, prices, order. Tragic instrument noted.
+- **The crossroads meeting (open):** two days out, neutral ground, three souls a side, priced trade,
+  assay sheets. "Whose three?" / "Mine, to decide" — unresolved; ch-10's stage (the forms come alive
+  there per the outline). The fever holds until the medicine arrives — the clock is real.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
