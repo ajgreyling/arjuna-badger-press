@@ -358,6 +358,22 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
 - **Reuel's escalation ladder:** contact → gifts → priced trade → BROTHER → hands inside the werf.
   Each rung reasonable; the ladder is the plot. Next rung must top boots-in-the-lands.
 
+**After Bk II ch-12 ("Ronel gone") — the turn; the storm:**
+- **Ronel (POV debut; the turn BEGUN, not resolved):** the wound grounded (her father died in the
+  arguing year — "talk is the roof leaking upward"; the first buried promise at fourteen, her
+  father's only the last). The return in her own grammar ("a hand that can fix a thing and doesn't
+  is just a voice with fingers"); the new line in the arithmetic noted, not looked at. The name sat
+  down and stayed — unnamed. Fourteen stitches; she is werf-bound for weeks (a fact with plot uses).
+- **Ronel ⧻ Hettie (REMADE):** need-vs-self-reliance resolved per the map — care arrived with all
+  terms showing and none named *need* ("this one you feed and stitch and never ask"; "You held
+  still, for you"). The treaty is now a bond. Do not make them talk about it.
+- **Ronel ⚡ Steyn (aftermath, unspent):** the knock he never gave any door; the plate on the sill;
+  the crust; her currency spoken back. NOTHING SAID — keep it that way until the choosing act.
+- **The storm's ledger (the lever preserved):** most of the winter in, WET — the drying floors need
+  a fortnight of hands the werf does not have; the far field lost standing (the tithe). The Laer's
+  three-hands strip still lies on the adjourned table AND EVERYBODY CAN COUNT. Ch-13's pressure:
+  Marika holding a wet-grain werf with a cracked table — the candle burns fastest here.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
