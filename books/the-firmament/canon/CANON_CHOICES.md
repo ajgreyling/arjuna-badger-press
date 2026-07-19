@@ -108,6 +108,10 @@ Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
 - **Contact protocol** — Dawid's nightly rota on Ivo's frequency (the hinge Book II hangs from).
 > *Decision needed from AJ:* names (the Kloof / the werf), the cylinder cosmology, the communal exodus,
 > and the two-summers timeline. All are one-pass revisable in ch-01 if steered.
+> *Also flag (cold-read):* ch-01 uses two church-fossil idioms — "sit at the table like a Christian"
+> (authentic SA *soos 'n Christenmens*) and "like the elements at a lighting" — where Book I scrupulously
+> never names the real religion. Kept in the draft as Kloof texture (their redaction was messier); AJ to
+> confirm the sequence-level rule.
 
 ## Deferred to draft (let the prose find it)
 
