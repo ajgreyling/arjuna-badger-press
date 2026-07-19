@@ -321,6 +321,26 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   assay sheets. "Whose three?" / "Mine, to decide" — unresolved; ch-10's stage (the forms come alive
   there per the outline). The fever holds until the medicine arrives — the clock is real.
 
+**After Bk II ch-10 ("The crossroads") — PP-013 FIRES; first physical contact with the Laer:**
+- **The three:** Dawid · Ronel · Neva (bait, declared openly, her consent explicit). **Steyn passed
+  over a THIRD time** — grievance now structural; Steve measuring the fuse. The fracture act has its
+  charge laid.
+- **PP-013 fired through Neva:** the lioness night — the Bk I ch-03 forms answered a testing rush,
+  movement for movement, HAMA at the drill's dark centre; a check, not a victory (no blow landed —
+  the no-weapon-detonation law held). Three colonies, three fates of one kept thing now on the page:
+  thinned to a children's game (Kloof) · kept as prayer (Vault) · never surrendered (Laer). Ronel's
+  verdict: "Then your people kept the right things" — the Huntress's first extended respect to
+  anyone.
+- **The Laer in the flesh:** Brother Alwyn (grey-bearded, correct); the Laer's men stand in the
+  forms; trade correct to the gram; Reuel ABSENT by policy ("The Laer does not risk its head on
+  roads" — Dawid's read: an army that stands like that to trade salt does not fear the road).
+- **Reuel → Neva (escalated):** the sealed packet, her name in a clear even hand, "No answer is
+  looked for." She laid it on the table herself, unopened, in the Court's view — counter-move to
+  designed intimacy. THE PACKET IS LIVE, UNOPENED — a standing object; who opens it, and when, is a
+  fracture-act trigger to place deliberately.
+- **The fever broke Sunday** — the clock paid; the medicine chest verified; the Laer is now,
+  factually, the reason a Kloof child lives. That debt is real and Reuel knows it.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
