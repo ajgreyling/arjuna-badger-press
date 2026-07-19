@@ -374,6 +374,25 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   three-hands strip still lies on the adjourned table AND EVERYBODY CAN COUNT. Ch-13's pressure:
   Marika holding a wet-grain werf with a cracked table — the candle burns fastest here.
 
+**After Bk II ch-13 ("Marika at the end of her strength") — the darkest hour; three turns land:**
+- **Marika (near-death, survivable):** the heart striking, not broken — CAUSED by her own
+  constitutional "No" (the hands kept out → the werf short → she did the work of two → she folded;
+  the chain is on the page uncaptioned). Her turn CONDITIONAL: "She let them keep her... Show me
+  tomorrow" — daily verification, not surrender. Weeks of rest ahead; the Queen governs from the
+  sick-room for the Choosing act.
+- **STEVE'S RULE-2 PAGE IS SPENT (BINDING GUARD-RAIL):** the ladder completed ch-04 → ch-06 → ch-13
+  (the toast that was not there; the dam arriving at full; Neva — the vinyl pair — holding him).
+  **Steve must NEVER break on-page again.** Ch-18's final ache is carried with the armour on, worn
+  knowingly. The whole table answered "Want anders huil ons" together — the doctrine spoken aloud;
+  the Bregman floor the Choosing act stands on now exists.
+- **Tomas's turn:** love as labor — the yeast, the letters, the seating schemes, weeping as
+  lightning-rod service. He holds the Heart bloc's warmth-work while Marika rests. Not a second
+  Marika: triple the effort, half the grace, his own register throughout.
+- **Dawid:** "It keeps" — will not reconvene the adjourned table while she is lying down. The Laer
+  lever survives, frozen with honor. The fracture itself ran on her; both thrones now know it.
+- **The "Lighting" simile in Tomas's narration = INTENDED FUSION** (the two worlds' kept things
+  merging in werf-common story-language), not drift — recorded so future passes don't "fix" it.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be

@@ -44,9 +44,9 @@ A book is **complete (first draft)** when ALL hold:
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
 | **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,550 / ~110k | **arc ✅ · ~24% of word target** |
-| **II** | ✅ complete | ✅ complete | **ch-01–06 ✅ (ACT ONE) · ch-07–10 ✅ (ACT TWO) · ch-11–12 ✅ (the fracture: two thrones · Ronel gone/the storm) drafted** (of 19 ch per G7) | ~24,200 / ~110k | **~22%** |
+| **II** | ✅ complete | ✅ complete | **ch-01–06 ✅ (ACT ONE) · ch-07–10 ✅ (ACT TWO) · ch-11–13 ✅ (the fracture: two thrones · Ronel gone · the darkest hour) drafted** (of 19 ch per G7) | ~25,900 / ~110k | **~24%** |
 
-**Combined draft progress toward the goal: ~50,800 / ~220,000 words (~23%).**
+**Combined draft progress toward the goal: ~52,400 / ~220,000 words (~24%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
