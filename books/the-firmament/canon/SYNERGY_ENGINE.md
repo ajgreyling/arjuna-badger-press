@@ -279,6 +279,30 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   under a counting keeper heard it for what it might be. Court posture: "We answer. Slowly." —
   committee method, whole-table consent, under the ONS LAG strip.
 
+**After Bk II ch-08 ("Who's on the wire") — REUEL ENTERS; the Laer named:**
+- **The Laer (canon):** fortified farm-school in the mountains; 241 souls, ages banded; under
+  discipline; two vehicles; clinic stores + hard-country seed; visited and resealed two dead
+  stations; a choir that "argues like a parliament". Strategy: total compliance — answers everything
+  unasked, offers gifts, requests nothing. "THE LAER IS UNDER DISCIPLINE. IT HAS SERVED US."
+- **Dawid ⚡ Reuel (live, one-sided so far):** the wound surfaced (the unrelieved post, filed and
+  closed — the Laer reopened the file without a threat). "He proposed the hour. Of course he
+  proposed the hour." The lean happened under the ONS LAG strip; only the reader saw. His ration of
+  the enemy's truth: "the best answer he had ever heard to that question."
+- **Reuel's ration (BINDING going forward):** one aphorism per contact, only ever in answer to a
+  direct question. The day he philosophizes unprompted, the no-monologue law breaks. His menace is
+  causal smugness inside deniable ambiguity ("sealed the doors... out of respect") — never
+  confession.
+- **Neva ⚡ Reuel (opened):** he named her unprompted ("The walker... the best news on this band") —
+  he wants her; she read him in one hour ("The record had a voice like that. It just never needed a
+  body before" — said to DAWID, kindly, which is the chess opening of the whole soul-war).
+- **Tomas (the leak):** told the Laer the whole fetch story unasked in the first glad hour — "joy in
+  Tomas had no customs post." Established gently, no blame that stuck; Elsabé's chalk paused. The
+  trust problem is now made of family, not protocol.
+- **Hettie:** the medicine list made her sit down — the Laer now holds a lever shaped exactly like
+  her wound. **Elsabé:** outplayed and knows it ("a truth designed to make us ashamed of having been
+  careful"); her protocol held anyway. **Soft seed flagged (G-notes):** the old-Dawid confessor at
+  the fire is Marika — confirm or steer before it hardens.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
