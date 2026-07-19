@@ -141,3 +141,14 @@ outline chapter shifts one (18 → 19 chapters, or Act One runs 1–6). AJ to co
 - Tense discipline per scene (close-third throughout; present-leaning in the two detonations — breach
   and fulfilment — confirmed in draft).
 - How much *actual* verse text appears on the page vs. paraphrase/allusion (SCRIPTURE §6; STYLE_GUIDE).
+
+### G8 · The drowned vault's verse (Bk II ch-16 — derivation record, per SCRIPTURE §6)
+The round-book page in Reuel's packet — *"...and the waters are gathered under the bowl of the world,
+and the deep is His, and the dry land stands upon the deep, and it does not founder..."* — is a
+RECOMBINATION of real double-valued water-texts (the gathering of the waters, Gen 1:9–10; "the sea is
+his," Ps 95:5; "founded it upon the seas," Ps 24:2), presented in-world as another vault's differently
+redacted text (required to exist by SCRIPTURE §5). One verse, sparing, load-bearing — within the §6
+quotation-discipline whose target is pastiche-volume. Recorded so it stands as recombination of the
+real, not invention. Same ruling covers the Strand's bowl-cosmology ("the bowl is bigger than the
+bowl") and closes the three-shapes pattern: disc · valley · bowl — **the pattern is COMPLETE at three;
+no fourth shape in Book II** (cold-read guard-rail).
