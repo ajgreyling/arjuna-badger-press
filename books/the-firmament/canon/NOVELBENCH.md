@@ -43,10 +43,10 @@ A book is **complete (first draft)** when ALL hold:
 
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
-| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean — the waiting days, the page-story, the name-tape) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,200 / ~110k | **arc ✅ · ~24% of word target** |
+| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,550 / ~110k | **arc ✅ · ~24% of word target** |
 | **II** | ✅ complete | ✅ complete | vinyl-party scene ▣ (of 18 ch) | ~1,830 / ~110k | **~1.7%** |
 
-**Combined draft progress toward the goal: ~28,000 / ~220,000 words (~13%).**
+**Combined draft progress toward the goal: ~28,400 / ~220,000 words (~13%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -98,8 +98,12 @@ faking it.
 3. ~~ch-03 expansion~~ ✅ DONE (2026-07-19 — ~1.8k, deliberately lean: the forms drill-count/PP-013
    seed + the child's catechism; cold-read passed the §5 lean test).
 4. ~~ch-04 expansion~~ ✅ DONE (2026-07-19 — ~1.7k lean; the ignition chapter's single-scene
-   concentration preserved; cold-read called it the strongest of the expansions). Next: **ch-05 →
-   ch-07** in sequence (Movement I must accrete belief-then-dread cleanly).
-5. Expand Book II ch-05 (vinyl party) from scene to full chapter.
-6. Alternate books to keep parity, OR complete Book I then Book II (author's call).
-7. Update this tracker + the SynergyEngine after every session.
+   concentration preserved; cold-read called it the strongest of the expansions).
+5. ~~ch-05 expansion~~ ✅ DONE (2026-07-19 — ~1.6k lean; the house book read against the page
+   (curtain re-sourced to the page after a cold-read BLOCKER — the redacted book cannot contain it),
+   the ration beat restoring the outline's dropped soft-clock). Next: **ch-06 → ch-07** (both spines
+   are strong; expect minimal-or-no additions — do not gild the Aldous contact or the witnessed
+   correction).
+6. Expand Book II ch-05 (vinyl party) from scene to full chapter.
+7. Alternate books to keep parity, OR complete Book I then Book II (author's call).
+8. Update this tracker + the SynergyEngine after every session.
