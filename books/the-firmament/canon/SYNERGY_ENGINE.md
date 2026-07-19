@@ -178,6 +178,30 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   question ("we don't know what she is") is the live counterweight. The ch-07 trust/crypto arc starts
   here. Ronel, Steyn, Hettie: off-page (night-lines / asleep / kitchen) — no state change.
 
+**After Bk II ch-02 ("Roll call", 2026-07-19) — morning after; blocs form live:**
+- **Order committee formed:** Dawid ⧻ Elsabé became a working committee "without one word between them"
+  (rotas, bearings, lists). Staging locked: Dawid at the *head* of the table, Marika at the *end* where
+  she sees every face — two thrones rendered in furniture; neither has noticed it's a rivalry yet.
+- **Steyn (straining rope):** go-now argument made and lost to Elsabé's "one gallant idiot dead in the
+  veld"; took it like a fence — no grudge, undiminished pressure. **Steve self-stationed between Steyn
+  and the door, joke by joke** — the Fool guarding the Warrior from himself; track this as a standing
+  duty he'd deny having.
+- **Ronel:** debut per wound — "Wake me when it's a *distance*"; sat on the step with her back to the
+  room ("Ronel's way of staying"). **Ronel ✕/⁓ Hettie treaty confirmed in acts** (bowl kept warm, taken
+  unthanked). No bloc; a weather system.
+- **Hettie:** the provision sack begun for a stranger — her wound aimed at Neva before Neva exists on
+  any map. **Marika ⧻ Hettie** deepened (the yoke image; the running quarrel that is a courtship).
+- **Heart bloc:** Tomas + Jorik adopted Neva sight unseen (Tomas already planning what to warn her
+  about; "warn her about Steve at least"). Marika counted the far voice among her own — and counted the
+  Court "one short of a dozen, though she could not have said why" (the Reuel-shaped hole, planted).
+- **Dawid (private):** the wash-line confession — his father argued for the fuller book at some cost,
+  still alive; "I'd like to know it in his lifetime." First lit window into Dawid; Marika now holds it.
+  His stake in Neva's truth is now *personal*, which Reuel will later be able to work on.
+- **Elsabé (split widens):** public verify-voice; private last line on the slate ("how do you rebuild a
+  world? what with?") — she is the only one already thinking past the rescue. Marika read it upside
+  down; carries it. Neva: remote, unchanged. Reuel: still absent; his seat now has a shadow-shape at
+  the table (the short count).
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
