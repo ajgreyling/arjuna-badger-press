@@ -444,3 +444,22 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   other people danced, and fooled nobody" (unspent, warm); Marika spending rationed strength knowingly;
   Hettie provisioning everything twice; the spring expedition (the vault, the seeds, Neva's return)
   mapped for ch-17. Reuel remains a live seed for the series.
+
+**After Bk II ch-17 ("What we rebuild") — the reconstruction; three arcs pay:**
+- **Steyn's pass-overs PAID:** Dawid's sealed rota — "STEYN. UNTIL THE STRAND COMES. YOU HAVE STOOD
+  ENOUGH GATES FACING IN." — the farthest watch in the world, given as gift (Dawid's completed arc
+  practised). Steyn is AT THE NORTH STATION until the Strand's summer relief, with Gys of the lands
+  crew. Ronel⚡Steyn: separated by a season and a continent of veld — deliberately unspent; the
+  distance is material (letters? the wire?) for ch-18/series.
+- **The forms are net-doctrine now** (drilled at every fire on the named roads; stood at the wall's
+  own foot). The three-register triad complete: manuals→craft · forms→watch-craft · scripture→read
+  onto the commons AS WRITTEN (the fulfilment doctrine held: Neva reads the text unaltered, then
+  speaks her own message OFF the page, marked as hers — "It goes on, Ma.").
+- **The relay CLOSED:** the family-copied whole book left at the threshold in the between — Book I's
+  horror (one clear hand that was nobody's) answered by one book in everybody's hand. The
+  not-opening argued on-page (Jorik's "And your mother?"; "slower than grief and better than a
+  breach"). The north station lit; the seed-post founded (loan against planting); Jorik's named-roads
+  map = the slow antenna. NEW MINOR CANON: Gys and Hendrik of the lands crew (the werf is bigger
+  than the Court — first named non-Court werf souls).
+- **DRAFTING RULE (cold-read, third instance):** every stated head-count must be named on the page
+  before the chapter closes. No more uncounted souls.
