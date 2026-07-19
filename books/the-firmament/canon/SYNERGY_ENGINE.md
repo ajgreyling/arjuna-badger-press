@@ -393,6 +393,29 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
 - **The "Lighting" simile in Tomas's narration = INTENDED FUSION** (the two worlds' kept things
   merging in werf-common story-language), not drift — recorded so future passes don't "fix" it.
 
+**After Bk II ch-14 ("Dawid at the gate") — the pivot; the Shadow in the flesh:**
+- **Reuel came in person** (breaking his own road-policy — the flattery of the risked head). In the
+  flesh: ORDINARY — schoolmaster's build, laugh-lines, "the eyes of a man who... had never since met
+  a fact that talked back." His gladness real, no false coin; the horror confined to the arithmetic
+  (what stands, joins; what joins, is counted; what is counted, is kept). Two weighted lines only:
+  "Open the gate." and the exit edge "While it stands." — his single edge, deniable, delivered
+  AFTER being declined. Ration intact.
+- **The leak resolved systemically:** the werf told the Laer its whole life in joy (the choir
+  request in the first bad week; Jorik's bulletins). No spy; the file is made of family. Neva's
+  ch-08 line paid: the voice found its body, and the body stood at the gate.
+- **THE COUNT DISCREPANCY IS DELIBERATE AND FILED:** the strip said REUEL AND FOUR; the gate offer
+  is four hands + a physician (= five with Reuel makes six). Dawid "filed the arithmetic without
+  touching it, for the table" — ELSABÉ MUST CATCH IT AT THE CH-15 TABLE ("He wired four. I count
+  five."): the counting man's own instrument turned against him. Do not forget to fire this.
+- **Dawid's temptation at peak, played never foolish:** the wanting named (its sound is rest); the
+  wound's answer articulated once (the boy at the post; the exact price of never standing an
+  unrelieved post again). The gate stayed shut ON PROCEDURE — the refusal itself is UNSPENT, banked
+  for ch-15, and its shape is Marika's constitution ("Convene my table, Dawid. All of it.
+  Tonight."). The unrelieved-post motif now argues with ch-13's close by design: the family
+  relieves watches; the pen relieves watchers. Do not reconcile.
+- **The Laer party is camped at the fence line overnight** — five (or six) souls, water and fodder
+  extended, first light the deadline. Ch-15 opens on the night table.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
