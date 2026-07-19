@@ -6,7 +6,7 @@ expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed a
 **Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~33.9k / ~220k words, ~15%)
+## State at pause (~35.8k / ~220k words, ~16%)
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.

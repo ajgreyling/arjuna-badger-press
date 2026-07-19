@@ -202,6 +202,22 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   down; carries it. Neva: remote, unchanged. Reuel: still absent; his seat now has a shadow-shape at
   the table (the short count).
 
+**After Bk II ch-03 ("The manuals", 2026-07-19) — the loop night:**
+- **Ivo ⁓ Jorik (NEW dyad — the apprenticeship):** not in the baseline map; now load-bearing. Jorik is
+  Ivo's hands and log; Ivo routes teaching through craft ("Write that in your log. That's better than
+  the manual has it") — the first person Ivo has ever *taught*, which is intimacy by his own wiring.
+  Track: this dyad is how Ivo's arc (the wire is between people) gets its proof case, and it gives
+  Jorik a second protector for the ch-11 scapegoating (Marika, Neva — now Ivo).
+- **Ivo ⇄ Dawid:** the pump bargain ("Then the pump owns you") — a contract, freely made, kept. Dawid
+  now extends Ivo the specific respect he pays people who argue in arithmetic. Ivo owes three days on
+  BOREHOLE 2 — an open debt the drafting must pay (ch-04 fits: pump + diesel are one register).
+- **Tomas ✕ Ivo (standing):** the empty-chair grievance restated silently at the kitchen door ("some
+  quarrels on the werf were never about pumps") — unresolved by design; feel-vs-fix continues.
+- **Neva ⁓ the werf (remote, warming):** the nightly contact is now a hearth — the whole werf on the
+  speaker of an evening; Steve relays jokes and she laughs; she is becoming *theirs* before anyone has
+  seen her face. First bearing taken (bidirectional — unresolved); the fetch is now arithmetic-then-
+  walking, per Elsabé.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
