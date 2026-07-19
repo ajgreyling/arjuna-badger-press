@@ -1,12 +1,12 @@
 # ▶ RESUME HERE — The Firmament drafting
 
-**Last worked:** 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A underway: ch-01
-(~925w → ~4.6k), ch-02 (~1.3k → ~3.4k), ch-03 (~1.8k lean), ch-04 (~1.7k lean), ch-05 (~1.6k lean)
-expanded**, independent canon cold-read applied to each).
+**Last worked:** 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
+expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
+**Track B OPENED: Bk II ch-01 drafted (~3.2k)**, independent canon cold-read applied to every pass).
 **Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~28.4k / ~220k words, ~13%)
+## State at pause (~31.6k / ~220k words, ~14%)
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.
@@ -14,7 +14,9 @@ for the measurable definition + live tracker.
   PP-ID, all three detonations (disappearance · breach · *upon nothing*), the call-sign hinge. The STORY
   is whole and readable end to end. **ch-01 (~4.6k) and ch-02 (~3.4k) are now at fuller length**;
   ch-03–16 remain at novella-compression (~0.9–1.4k each vs ~6–7k targets).
-- **Book II:** vinyl-party keystone scene ▣ at `manuscript/book-ii/scene-vinyl-party.md` (~1.8k).
+- **Book II:** **ch-01 ✅ drafted** (~3.2k, `manuscript/book-ii/ch-01.md` — first contact from the
+  Kloof's side; G6 soft canon awaiting AJ) + vinyl-party keystone scene ▣ (~1.8k). Next: ch-02
+  "Roll call". SynergyEngine standings section now live — update it after every ensemble scene.
 
 ## TWO honest next-work tracks (both are large, rested-day / `/dream` work — NOT one session):
 

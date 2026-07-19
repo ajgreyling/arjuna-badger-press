@@ -155,6 +155,29 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
 - **Update rule:** after each drafted scene, revise the affected dyads' state here. This file is never
   "done"; it's the current standings.
 
+## CURRENT STANDINGS (update after every drafted ensemble scene)
+
+**After Bk II ch-01 ("The far end of the wire", 2026-07-19) — Assembly baseline, first contact night:**
+- Map unchanged; ch-01 *activates* the baseline rather than shifting it.
+- **Tomas ✕ Ivo** seeded live on the page (the supper plate at the bench; "come sit at the table like a
+  Christian") — warm, unresolved, exactly the standing friction.
+- **Ivo (isolate-by-choice)** — the crisis makes the house need the radio, and therefore him; his
+  isolation is now *load-bearing*, not tolerated (the §4 dynamic begins). His "Good watch" from Dawid is
+  the first public credit he's ever been given.
+- **Elsabé** — publicly the verify-voice ("A voice is not a colony"), privately invested (the frequency
+  written on the back of her hand; only Ivo saw). Track this split — it's her whole arc in miniature.
+- **Dawid** — the rota-as-tenderness beat ("That is not a hope, that is a rota") lands his register; the
+  room obeyed and was glad and would never say so. Formal authority intact, warmth smuggled.
+- **Marika** — "is she safe, is she fed?" — the Queen's wound aimed at a stranger half a night away; she
+  is already planning what can be *sent*. Her mothering now has a new, distant object: Neva.
+- **Jorik** — "It was never just us" entered in the good log verbatim: his hope is now *on record*, which
+  matters later when Reuel moves against him (the innocent's words are in the institution's memory).
+- **Steve** — pressure-bleed role performed (the universe run by a woman with a sense of humour); the
+  silent hand on Ivo's shoulder — armour with the visor up for one beat.
+- **Neva ⁓ the Kloof (new dyad, remote)** — trust extended across the wire on voice alone; Elsabé's
+  question ("we don't know what she is") is the live counterweight. The ch-07 trust/crypto arc starts
+  here. Ronel, Steyn, Hettie: off-page (night-lines / asleep / kitchen) — no state change.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
