@@ -39,14 +39,14 @@ A book is **complete (first draft)** when ALL hold:
 
 > Convention: ✅ done · ▣ partial · ◻ to draft. Update the counts + the date on every pass.
 
-**As of 2026-07-19 (scaffold + Movement I drafted):**
+**As of 2026-07-19 (second pass — Track A expansion begun, ch-01 extended):**
 
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
-| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) | ~19,650 / ~110k | **arc ✅ · ~18% of word target** |
+| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 EXPANDED to full length ✅** (~925w → ~5.1k, quality-bar pass) | ~23,600 / ~110k | **arc ✅ · ~21% of word target** |
 | **II** | ✅ complete | ✅ complete | vinyl-party scene ▣ (of 18 ch) | ~1,830 / ~110k | **~1.7%** |
 
-**Combined draft progress toward the goal: ~21,500 / ~220,000 words (~10%).**
+**Combined draft progress toward the goal: ~25,450 / ~220,000 words (~12%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -90,8 +90,8 @@ metered session or `/dream` overnight pass — updating this tracker each time. 
 faking it.
 
 ## Next actions (the drafting queue)
-1. Extend Book I ch-01 to full length (voice already proven).
-2. Expand Book II ch-05 (vinyl party) from scene to full chapter.
-3. Draft Book I Movement I (ch-02→07) — belief-then-dread.
+1. ~~Extend Book I ch-01 to full length~~ ✅ DONE (2026-07-19 second pass — ~5.1k at the quality bar).
+2. Expansion pass ch-02 → ch-07 in sequence (each ~1.1–1.3k → ~6k; Movement I must accrete belief-then-dread cleanly).
+3. Expand Book II ch-05 (vinyl party) from scene to full chapter.
 4. Alternate books to keep parity, OR complete Book I then Book II (author's call).
 5. Update this tracker + the SynergyEngine after every session.
