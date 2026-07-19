@@ -1,12 +1,12 @@
 # ▶ RESUME HERE — The Firmament drafting
 
 **Last worked:** 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A underway: ch-01
-(~925w → ~4.6k), ch-02 (~1.3k → ~3.4k), ch-03 (~1.3k → ~1.8k, lean by design) expanded**, independent
-canon cold-read applied to each).
+(~925w → ~4.6k), ch-02 (~1.3k → ~3.4k), ch-03 (~1.3k → ~1.8k lean), ch-04 (~1.2k → ~1.7k lean)
+expanded**, independent canon cold-read applied to each).
 **Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~27.6k / ~220k words, ~13%)
+## State at pause (~28k / ~220k words, ~13%)
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.
@@ -21,10 +21,11 @@ for the measurable definition + live tracker.
 ### Track A — Book I EXPANSION pass (arc → novel length, ~25k → ~110k) — IN PROGRESS
 The arc is complete; it needs DEEPENING, not more plot. Per chapter: more dwell-time, sensory texture,
 interiority, secondary-character breath, scene-level expansion. **ch-01 ✅ and ch-02 ✅ done (2026-07-19).
-ch-03 ✅ done lean (the forms/PP-013 + the calling; the Lighting spine already carried the chapter).
-Next: ch-04 ("The plant" / the page in the ration tin) — the ignition chapter; expand ~1.2k toward its
-brief** (the two days the page waits; the caste's stories about pages; the weight of the decision not to
-burn it), then ch-05→07 in sequence (Movement I must accrete belief-then-dread cleanly). Do NOT add thin
+ch-03 ✅ and ch-04 ✅ done lean.
+Next: ch-05 ("The verse that won't fit" / the watching) — expand ~1.2k toward its brief** (the record
+begins editing around her is ALREADY in the spine; expansion belongs to the watching-as-falling texture
+and the underground's edges — Ouma Renske's coin moment is there; do not add contact with the plant,
+that is ch-06's), then ch-06→07 in sequence (Movement I must accrete belief-then-dread cleanly). Do NOT add thin
 filler to hit a number — deepen at the quality bar (the load-bearing novelbench criterion). Update
 NOVELBENCH tracker after each pass. NOTE: PP-013's drill-count (*hei—sa—hama—kout*) now needs its
 original commands locked in canon before Book II drafts the re-earthing (see PLANTS_AND_PAYOFFS).
