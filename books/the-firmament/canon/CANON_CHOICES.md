@@ -95,6 +95,20 @@ BACKSTORY placeholders until locked. Note: ch-01 uses working name **Neva** for 
 > block above. G4 → flare struck during/just after sealing; G5 → the Book-I seed is the **HAM reveal**
 > (dark set + dead log + one answering call-sign), not an abstract signal.
 
+### G6 · Book II colony working canon (SOFT — drafted in Bk II ch-01, 2026-07-19; confirm or steer)
+Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
+- **The colony = "the Kloof"** — a buried **cylinder-vault**; taught cosmology: the world is a deep kept
+  valley, ground curving up both sides to a **light-line** along the roof — *"cupped in the maker's two
+  hands"* (fits PREMISE §7's other-efficient-truths menu; their fulfilment beat: the eldest on walking
+  out — *"He cupped His hands. We had only never seen the size of His hands."*).
+- **Communal walking-out** — their light-line failed; they argued for a year and walked out TOGETHER,
+  elders in front, **two summers before first contact** (deliberate contrast to Neva's lone heresy; their
+  redaction was messier — books disagreed, some pages unread aloud — so their taboo was softer).
+- **Settlement = "the werf"**; the opened Kloof stands on the hill behind, doors open, grass on its flank.
+- **Contact protocol** — Dawid's nightly rota on Ivo's frequency (the hinge Book II hangs from).
+> *Decision needed from AJ:* names (the Kloof / the werf), the cylinder cosmology, the communal exodus,
+> and the two-summers timeline. All are one-pass revisable in ch-01 if steered.
+
 ## Deferred to draft (let the prose find it)
 
 - Exact chapter granularity within movements.
