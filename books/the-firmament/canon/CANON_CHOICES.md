@@ -120,6 +120,19 @@ Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
 > confirm. Also: Dawid's planning figure "call it four hundred kilometres" (explicitly a worst-case
 > guess, not a bearing) sets the distance scale for the fetch and the ch-04 trucks.
 
+### G7 · Book II chapter insertion — "The road" (SOFT — drafted 2026-07-19; confirm or steer)
+The outline had no fetch chapter (ch-04 trucks → ch-05 vinyl party with Neva already present). Chapter
+granularity is deferred-to-draft, and the cold-read endorsed the insertion ("the outline's skip was a
+gap, not a design" — the meeting of the two worlds is the third beat of the series' hinge figure).
+**`book-ii/ch-05.md` is now "The road" (the fetch); the vinyl party becomes ch-06** and every later
+outline chapter shifts one (18 → 19 chapters, or Act One runs 1–6). AJ to confirm the renumber.
+> *Also carried on the fetch (now canon):* the fetch party was Tomas · Marika · Steve · Dawid · Ivo ·
+> Steyn · Jorik; the rota rode with the trucks; Neva's camp = the Bk I radio-room site; her farewell
+> promise ("I'll come back with hands") converts PP-010 into a two-colony vocation.
+> *Pre-expansion flag for the vinyl scene (from cold-read):* two design-doc leaks must not survive its
+> expansion into ch-06 — "this is what the SynergyEngine can never quite hold" and "She found the ache
+> where the canon said she would" are bible references in prose.
+
 ## Deferred to draft (let the prose find it)
 
 - Exact chapter granularity within movements.
