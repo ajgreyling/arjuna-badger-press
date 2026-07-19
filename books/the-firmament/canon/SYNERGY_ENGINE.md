@@ -234,6 +234,26 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   fetch. The second bearing is still a live war on Elsabé's slate — the fetch cannot roll until it
   closes (open plot debt for ch-05's lead-in).
 
+**After Bk II ch-05 ("The road", 2026-07-19) — NEVA JOINS THE COURT IN THE FLESH:**
+- **The fetch party (canon):** Tomas · Marika · Steve · Dawid · Ivo · Steyn (driving) · Jorik (+ the
+  good log) — two trucks; Hettie, Elsabé, Ronel held the werf. The rota rode with the trucks (Ivo
+  pulled the good valves; the shack ran dark behind them).
+- **Neva ⧻ Tomas:** he reached her first, unrationed; she broke and held on — her first embrace since
+  the flat world. The Lover claimed the bridge for the family before anyone else could think.
+- **Neva ⧻ Marika:** the face-read and "Skin and bone. We're fixing that tonight" — membership closed
+  permanently, no meeting. Marika's distant object is now at her table.
+- **Neva ⁓ Steve:** the handshake-and-grip ("one oom's worth, which she would learn was how he caught
+  people") — she has his number already, from the wire; he knows she knows.
+- **Neva ⁓ Dawid:** "You kept your fires regular. Good discipline" ⇄ "your rota held me together" —
+  mutual honours in Dawid's own currency; the words landed where his father's book lives.
+- **Neva ⁓ Jorik:** "You're in my log" — the recorder of the age has his first living legend.
+- **Neva ⧻ Ivo (the wire made flesh):** he could not leave the truck; she went to him and gave the
+  caste's pat-of-hands blessing — the Sarel/Aldous gesture crossing the world. "Nobody hunts the
+  quiet." / "Your people did. Twice." Their bond is the set; in person it is shy, formal, and deeper
+  than anyone else's with either of them. Do not rush it; it is not (yet) romantic on the page.
+- **Neva's standing arc-objects:** the sealed vault ("Keep. I'll come back with hands") — the seeds
+  and the mother both deferred, not abandoned; PP-010 is now a two-colony vocation with trucks.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
