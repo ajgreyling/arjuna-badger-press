@@ -341,6 +341,23 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
 - **The fever broke Sunday** — the clock paid; the medicine chest verified; the Laer is now,
   factually, the reason a Kloof child lives. That debt is real and Reuel knows it.
 
+**After Bk II ch-11 ("Two thrones") — the fracture opens; the ⚡ tie resolves:**
+- **The thrones divided IN PUBLIC:** Reuel's harvest-hands gambit (Dawid's doctrine quoted back,
+  WAGE: NIL) → Dawid's unilateral "We accept the hands" → Marika's constitution ("The head of the
+  table is yours. The *table* is mine... together, out loud, and slowly") → "The table stands
+  adjourned until it agrees." Retreat with dignity; the breach real; UNRESOLVED — no Laer boots have
+  entered, no answer has been sent. The strip is with Dawid.
+- **Ronel ⚡ Steyn RESOLVED (fade-to-black; aftermath is the politics):** wound-on-wound at the barn
+  wall, then the werf "decided formally to have seen nothing." Steve BANKED the material (rule 3 —
+  the joke withheld from the vulnerable). **Consequence: Ronel gone before first light** (kit,
+  rifle, four days' biltong, no note) — the intimacy detonated her wound; ch-12 is her chapter.
+  Steyn: on the werf, unexploded, three pass-overs + this. Handle with care.
+- **Marika (ch-13 track):** hands not quite steady, deferred ("a fact for later, someone else's
+  later") — the deferral IS the wound now. The dawn count came up short for the first time since
+  the fetch.
+- **Reuel's escalation ladder:** contact → gifts → priced trade → BROTHER → hands inside the werf.
+  Each rung reasonable; the ladder is the plot. Next rung must top boots-in-the-lands.
+
 ## 6. Binding notes
 
 - **Emergent, not assigned.** Every tie traces to a WOUND (THE_COURT_TWELVE). If a friction can't be
