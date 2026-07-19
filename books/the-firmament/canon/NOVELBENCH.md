@@ -44,9 +44,9 @@ A book is **complete (first draft)** when ALL hold:
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
 | **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,550 / ~110k | **arc ✅ · ~24% of word target** |
-| **II** | ✅ complete | ✅ complete | **ch-01–06 ✅ (ACT ONE / ASSEMBLY COMPLETE, ~14.3k) · ch-07 ✅ (~1.7k — Act Two opens: the teleprinter, the third station, HOW MANY ARE YOU) drafted** (of 19 ch per G7) | ~16,000 / ~110k | **~15%** |
+| **II** | ✅ complete | ✅ complete | **ch-01–06 ✅ (ACT ONE COMPLETE) · ch-07 ✅ · ch-08 ✅ (~1.7k — Reuel and the Laer enter; the soul-war opens) drafted** (of 19 ch per G7) | ~17,600 / ~110k | **~16%** |
 
-**Combined draft progress toward the goal: ~42,600 / ~220,000 words (~19%).**
+**Combined draft progress toward the goal: ~44,200 / ~220,000 words (~20%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -125,8 +125,7 @@ faking it.
    Ronel's wordless non-meeting). **ACT ONE (ASSEMBLY) IS FIRST-DRAFT COMPLETE, ch-01–06.**
 12. ~~Book II ch-07~~ ✅ DRAFTED (2026-07-19 — ~1.7k, Elsabé POV debut: Baudot/checksum craft verified
    sound, the regularity tell moved to schedule-and-diction (ordered humans, not autopilot), the
-   census question lands under the ONS LAG strip, 'We answer. Slowly.' Next: **ch-08 "Who's on the
-   wire"** — Reuel's colony makes voice contact; the Shadow enters the political field. NOTE (cold-read, campaign-wide): a global
+   census question lands under the ONS LAG strip, 'We answer. Slowly.' 13. ~~Book II ch-08~~ DONE (2026-07-19 -- ~1.7k, Dawid POV debut: the unrelieved-post wound (cold-read: 'the definitive canon-expansion'), the Laer's total-compliance entrance, Reuel held on the right side of cartoon (aphorism ration now BINDING in SynergyEngine), Tomas's leak dramatizes the trust problem, Neva binds the books. Next: **ch-09 "The resource cliff"** -- the pressure act begins. NOTE (cold-read, campaign-wide): a global
    "the way X" simile-density pass and a chapter-close-construction variation pass are queued for a
    rested session; the fossil-idiom list (G6) needs one AJ ruling.
 7. Draft Book II ch-02 ("Roll call") → ch-04, then expand ch-05 (vinyl party) from scene to full chapter.

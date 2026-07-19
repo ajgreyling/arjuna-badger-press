@@ -2,13 +2,12 @@
 
 **Last worked:** 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
-**Track B: Bk II ch-01–07 drafted (~16k) — Act One complete + Act Two opened** — first contact · roll
-call · the manuals · the trucks · the road · the vinyl party · the machine with the keys (G6/G7 soft
-canon); independent canon cold-read applied to every pass; SynergyEngine standings live through ch-04).
+**Track B: Bk II ch-01–08 drafted (~17.6k) — Act One complete; Act Two: the wire, then Reuel** (G6/G7
+soft canon; the Laer named; the aphorism ration binding); independent canon cold-read applied to every pass; SynergyEngine standings live through ch-04).
 **Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~42.6k / ~220k words, ~19%)
+## State at pause (~44.2k / ~220k words, ~20%)
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.
@@ -17,9 +16,8 @@ for the measurable definition + live tracker.
   is whole and readable end to end. **ch-01 (~4.6k) and ch-02 (~3.4k) are now at fuller length**;
   ch-03–16 remain at novella-compression (~0.9–1.4k each vs ~6–7k targets).
 - **Book II:** **ch-01–06 ✅ drafted (~14.3k) — ACT ONE (ASSEMBLY) FIRST-DRAFT COMPLETE**
-  (`manuscript/book-ii/`; G6/G7 soft canon awaiting AJ). Next: ch-08 "Who's on the wire" (Reuel's colony
-  makes contact; the Shadow enters). SynergyEngine CURRENT STANDINGS live through ch-07 — update
-  after every ensemble scene.
+  (`manuscript/book-ii/`; G6/G7 soft canon awaiting AJ). Next: ch-09 "The resource cliff" (the pressure
+  act). SynergyEngine CURRENT STANDINGS live through ch-08 — update after every ensemble scene.
 
 ## TWO honest next-work tracks (both are large, rested-day / `/dream` work — NOT one session):
 
