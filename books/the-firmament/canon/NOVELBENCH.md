@@ -44,9 +44,9 @@ A book is **complete (first draft)** when ALL hold:
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
 | **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,550 / ~110k | **arc ✅ · ~24% of word target** |
-| **II** | ✅ complete | ✅ complete | **ch-01 ✅ (~3.2k) · ch-02 ✅ (~2.3k) · ch-03 ✅ (~1.9k — "The manuals": PP-014 fires, the loop bearing, Ivo⁓Jorik) drafted** · vinyl-party scene ▣ (of 18 ch) | ~9,200 / ~110k | **~8.4%** |
+| **II** | ✅ complete | ✅ complete | **ch-01 ✅ (~3.2k) · ch-02 ✅ (~2.3k) · ch-03 ✅ (~1.9k) · ch-04 ✅ (~2.1k — "Diesel and dirty oil": the truck starts, the fetch drivable) drafted** · vinyl-party scene ▣ (of 18 ch) | ~11,300 / ~110k | **~10%** |
 
-**Combined draft progress toward the goal: ~35,800 / ~220,000 words (~16%).**
+**Combined draft progress toward the goal: ~37,900 / ~220,000 words (~17%).**
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -114,10 +114,13 @@ faking it.
 8. ~~Book II ch-03~~ ✅ DRAFTED (2026-07-19 — ~1.9k "The manuals": PP-014 fired correctly (plant Bk I /
    pay Bk II), the loop direction-finding verified technically sound, the work-refuses beat added per
    the Martian rule, first bearing held (bidirectional, unresolved), Ivo's three-day pump debt open.
-   Next: **Bk II ch-04 "Diesel and dirty oil"** (the trucks start; the pump debt pays; the fetch of
-   Neva becomes drivable). NOTE (cold-read, campaign-wide): a global "the way X" simile-density pass
-   and a chapter-close-construction variation pass are queued for a rested session; the fossil-idiom
-   list (G6) needs one AJ ruling.
+9. ~~Book II ch-04~~ ✅ DRAFTED (2026-07-19 — ~2.1k "Diesel and dirty oil": diesel craft verified
+   sound, the pump debt paid on-page, one failed crank per the Martian rule, the tyres and the losses
+   honestly costed, the second bearing kept live as an open debt. Next: **the fetch + Bk II ch-05
+   vinyl-party expansion** (the second bearing must close on-page first — the ridge-camp crossing or
+   the sense antenna). NOTE (cold-read, campaign-wide): a global "the way X" simile-density pass and a
+   chapter-close-construction variation pass are queued for a rested session; the fossil-idiom list
+   (G6) needs one AJ ruling.
 7. Draft Book II ch-02 ("Roll call") → ch-04, then expand ch-05 (vinyl party) from scene to full chapter.
 8. Alternate books to keep parity, OR complete Book I then Book II (author's call).
 9. Update this tracker + the SynergyEngine after every session.
