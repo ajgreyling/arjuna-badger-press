@@ -428,3 +428,19 @@ The SynergyEngine's whole point: the map *moves.* Rough arc for the drafting to 
   "whose Id has the conch today," the joke that defuses the knife. The politics are deadly *and* funny.
 - **This is a LAYER, referenced continuously** — like the Continuity Engine for facts, the SynergyEngine
   for relationships. Cite it in scene prep; update it in scene wake.
+
+**After Bk II ch-15–16 ("He refuses" · "The choosing") — the Choosing act's spine:**
+- **The refusal (ch-15):** every chair full; Elsabé's count fired (the physician is the graft, the
+  fifth soul); the scapegoat knife half-formed by Elsabé and blocked by Marika ("the shame belongs to
+  the man who filed it"); Dawid's arc COMPLETE in his own grammar ("Discipline is a thing I offer this
+  werf. It is not a thing I do to it."). Reuel: trade and schedule kept, unpersuaded, the long game
+  ("the gate I keep is never shut"). Steyn folded his own case at cost — witnessed, credited.
+- **The choosing (ch-16):** the Strand (fourth voice — fisher people, the bowl; pattern complete at
+  three shapes). The packet OPENED at the table; the war named (WHO HOLDS THE BOOKS); Neva⚡Reuel
+  RESOLVED — the lure real, the cost paid, the counter a gift: the page read onto the commons twice
+  ("Elsabé's twice" — her assent is the trust-arc hinge), the protocol published headless, the page
+  that came back (*upon nothing* in a fisher's mouth). The Laer: NOTED. ("He's *filing*. It's worse.")
+- **Matured standings:** Dawid⧻Elsabé = the net's scaffolding-builders; Steyn⚡Ronel = "argued the way
+  other people danced, and fooled nobody" (unspent, warm); Marika spending rationed strength knowingly;
+  Hettie provisioning everything twice; the spring expedition (the vault, the seeds, Neva's return)
+  mapped for ch-17. Reuel remains a live seed for the series.
