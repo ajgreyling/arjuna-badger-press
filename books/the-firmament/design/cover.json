@@ -1,0 +1,11 @@
+{
+  "book_id": "the-firmament",
+  "title": "The Firmament",
+  "working_title_alt": "Upon Nothing",
+  "cover_file": "cover.png",
+  "dimensions": "1024x1536",
+  "source": "OpenAI image (ChatGPT), 2026-07-19; house plate stage (see cover_generation_pipeline)",
+  "reading": "The image IS the reveal: a flat disc under a visible glass firmament/dome; the ice wall rings the rim with frozen cliffs falling into nothing beneath; an engineered low sun and a moon inside the dome; and constellations drawn above the firmament — the Court's star-signs written on the sky over the flat world. The whole disc hangs in space UPON NOTHING (the keystone verse, PP-004). Contains title candidate + reveal in one frame.",
+  "status": "plate — bespoke type + colophon pass pending (cover_generation_pipeline)",
+  "gate": "2.6MB — passes the >=500KB real-cover gate"
+}
