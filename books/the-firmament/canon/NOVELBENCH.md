@@ -44,9 +44,14 @@ A book is **complete (first draft)** when ALL hold:
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
 | **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~26,550 / ~110k | **arc ✅ · ~24% of word target** |
-| **II** | ✅ complete | ✅ complete | **ch-01–17 ✅ drafted — one chapter from the complete arc** (of 19 ch per G7... n.b. count: ch-01–17 files +ch-18 to come = 18 files ≈ the 19-slot plan with the scapegoat folded into ch-15 per cold-read endorsement) | ~33,100 / ~110k | **~30%** |
+| **II** | ✅ complete | ✅ complete | **ALL 18 ch ✅ drafted — COMPLETE FIRST-DRAFT ARC** (the scapegoat folded into ch-15 per cold-read endorsement; every chapter adversarially cold-read; the close judged 'worthy of the two books it ends — plainly, yes') | ~34,700 / ~110k | **arc ✅ · ~32% of word target** |
 
-**Combined draft progress toward the goal: ~59,600 / ~220,000 words (~27%).**
+**Combined draft progress toward the goal: ~61,200 / ~220,000 words (~28%).**
+
+**⚑ PARITY-OF-COMPLETION REACHED (2026-07-19, second session): BOTH BOOKS ARE COMPLETE FIRST-DRAFT ARCS.**
+The structural half of the novelbench is met; the word-target half (~110k each) remains weeks of
+expansion. Note the flip: Book II (~34.7k) now exceeds Book I (~26.6k) — future sessions rebalance by
+expanding Book I's Movements II–III (rested-day dwell-time drafting, per the standing note).
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
