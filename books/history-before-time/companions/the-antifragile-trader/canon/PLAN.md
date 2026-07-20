@@ -42,12 +42,11 @@ lucid.rodeo Incerto wing (https://lucid.rodeo/incerto/). Status: ✅ drafted · 
 - **Numbers law:** read the paired wing page *before* drafting; numbers in prose come only from that
   page's exact figures or from classroom-derivable arithmetic, sourced in the sentence that carries
   them. Never from memory.
-- **Braid law:** an essay ships only when its exhibit is live and verified. **Flag — ring three
-  (`/incerto/lindy/`, `/incerto/minority/`, `/incerto/barrier/`) is built locally in lucid-rodeo but
-  not yet committed or live.** Essays 07, 08 and 09 stay blocked until their instruments are
-  committed, pushed, and verified live at lucid.rodeo; the first eight exhibits (turkey, mean,
-  convexity, ergodicity, barbell, tails, war-tails, var-wars) are committed on
-  `feat/incerto-first-ring` and go live when that branch merges.
+- **Braid law:** an essay ships only when its exhibit is live and verified. **Flag — all eleven
+  exhibits (three rings) are committed and verified on lucid-rodeo branch `feat/incerto-first-ring`,
+  but NONE are live yet: the branch has not merged to master, and merging deploys.** Every essay's
+  Run-it link therefore points at a page that exists in the repo and nowhere on the web. Before the
+  book leaves draft: merge the wing branch, curl every /incerto/ URL, and only then promote.
 - Drafted this pass (2026-07-20): `_front.md`, `00-proem.md`, `01-the-turkey.md`,
   `04-the-two-averages.md`. Remaining essays follow the same cadence: wing page read → draft →
   cold-read → de-LLM polish → verify exhibit live → ship.
