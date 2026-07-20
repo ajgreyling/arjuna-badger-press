@@ -19,9 +19,14 @@ palm-width at a time); the between dwelt one paragraph longer, closing the missi
 sealed, symbol-marked side door, sighted not opened, echoing ch-16's outside door). Cold-read: no
 blockers, cleanest pass of the campaign (1SF/2N — one caption line cut, a ledger-phrase doubling fixed),
 all applied.
-**Next: ch-10 dwell assessment (may already be at strength — check before inserting), then ch-12 (the
-breach detonation — expect minimal or no additions, do not gild it). The "lie" motif is at high
-saturation across ch-08/09 now — do not extend it further in ch-10.**)
+ch-10 assessed: at strength, no insertion — the room-revelation meditation is a single concentrated idea,
+already trust-the-image clean; padding it would dilute, not deepen. ch-12 (the breach detonation) likewise
+left untouched per the outline's own caution ("expect minimal-or-no additions... do not gild it").
+**MOVEMENT II EXPANSION PASS CLOSED (ch-08–12): three chapters genuinely deepened (08/09/11), two
+correctly left alone (10/12) — not a mechanical sweep. Next front: Movement III (ch-13–16) dwell-time
+assessment, same discipline — expand only where there's real unclaimed room, never to hit a word count.
+Note ch-14/16 (non-detonation Mv III nodes) are the likelier growth spots; ch-13/15 are detonations,
+treat with the same caution as ch-12.**)
 Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
 **Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
