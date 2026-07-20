@@ -23,10 +23,22 @@ ch-10 assessed: at strength, no insertion — the room-revelation meditation is 
 already trust-the-image clean; padding it would dilute, not deepen. ch-12 (the breach detonation) likewise
 left untouched per the outline's own caution ("expect minimal-or-no additions... do not gild it").
 **MOVEMENT II EXPANSION PASS CLOSED (ch-08–12): three chapters genuinely deepened (08/09/11), two
-correctly left alone (10/12) — not a mechanical sweep. Next front: Movement III (ch-13–16) dwell-time
-assessment, same discipline — expand only where there's real unclaimed room, never to hit a word count.
-Note ch-14/16 (non-detonation Mv III nodes) are the likelier growth spots; ch-13/15 are detonations,
-treat with the same caution as ch-12.**)
+correctly left alone (10/12) — not a mechanical sweep.**
+
+**Movement III underway.** ch-13 and ch-14 read and assessed: both are central detonations (the curving-
+horizon fulfilment, the "upon nothing" keystone) — concentrated, present-leaning, trust-the-image prose;
+spared, same call as ch-10/12. ch-16 ✅ expanded (~1.4k → ~1.7k): the radio-restoration montage
+dramatized into an actual repair scene (corroded battery terminals, the dial chain walked link by link,
+a coat-lining wire splice) instead of being summarized — real unclaimed room, matching the book's analog-
+craft love-language (ch-01, ch-09). Cold-read: no blockers, 1SF/2N (a redundant recap sentence trimmed;
+two soft-canon NITs — an invented "Aldous used to curse" aside, flagged not fixed, low-risk enrichment —
+noted for author awareness, not changed).
+
+**Next: ch-15 dwell assessment** (the road, the ruined town, the deep-time ache, the vocation realization
+— more narrative ground than ch-13/14, likely real room the same way ch-16 had). Then Movement III closes
+and the campaign's honest next front is either Book I's still-thin middle chapters (ch-03/04/05/06/07 —
+already assessed lean-by-design or at-strength) vs. beginning Book II's own dwell-time pass, given Book II
+(~34.7k) already exceeds Book I (~29.4k) — rebalancing toward Book I remains the stated priority.
 Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
 **Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
