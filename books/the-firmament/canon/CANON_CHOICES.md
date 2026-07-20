@@ -152,3 +152,22 @@ quotation-discipline whose target is pastiche-volume. Recorded so it stands as r
 real, not invention. Same ruling covers the Strand's bowl-cosmology ("the bowl is bigger than the
 bowl") and closes the three-shapes pattern: disc · valley · bowl — **the pattern is COMPLETE at three;
 no fourth shape in Book II** (cold-read guard-rail).
+
+### G9 · The heliocentric ark (SERIES SEED — AJ, 2026-07-19; soft, for the books beyond Book II)
+From AJ's question ("would it hurt or enhance if their adjusted Bible was edited to be heliocentric"):
+- **RULING (chat, 2026-07-19): the Vault's redacted book stays exactly as cut.** Heliocentric redaction
+  inside the flat enclosure would break four locked things at once: the nobody-lied knife (the teaching
+  must be TRUE of the box), the redactors' close-the-sky motive, the cut-logic of the *upon nothing*
+  keystone (it fits a heliocentric book, so it would never have been cut — no samizdat, no relay), and
+  the fulfilment doctrine (the reveal must enlarge the word, not vindicate a lie about home). The
+  devotional sun-centrality the idea reaches for already exists as the Lighting.
+- **THE KEPT VERSION — a heliocentric ARK for the series:** a vault built radially around its light-core,
+  whose kept book honestly teaches *all things go around the light, and the light is the centre of the
+  world* — true of their box, per the multi-ark engine (disc · valley · bowl · **wheel**; n.b. this
+  extends the G8 three-shapes cap by ONE, for the series only, never inside Book II). Their fulfilment
+  beat is the series' sharpest irony: the open sky most literally confirms *their* cosmology — "We were
+  right. The world does go around the light. We had only never seen the size of the light." — proving
+  the anti-debunk thesis at full power: even the 'scientifically correct' cosmology was a box-truth,
+  held for box-reasons, equal in dignity to the disc. Candidate home for the unnamed fifth voice at the
+  end of Bk II ch-18.
+> *AJ to confirm the seed and its placement (Book III / the reconciliation arc).*
