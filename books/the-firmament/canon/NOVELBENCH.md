@@ -43,10 +43,10 @@ A book is **complete (first draft)** when ALL hold:
 
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
-| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) · ch-09 ✅ (~2.3k — Movement II opened: the record-room discovery/PP-012 turned personal + one-night clock, the east pump, the last lamp) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~27,800 / ~110k | **arc ✅ · ~25% of word target** |
+| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) · ch-09 ✅ (~2.3k — Movement II opened: the record-room discovery/PP-012 turned personal + one-night clock, the east pump, the last lamp) · ch-11 ✅ (~1.8k — the rim-search staged: the father's reading method, the wall lying twice, the doubt answered a palm-width at a time, the PP-011 side-door plant leg closed) EXPANDED** (quality-bar passes, canon cold-read applied to each) | ~28,500 / ~110k | **arc ✅ · ~26% of word target** |
 | **II** | ✅ complete | ✅ complete | **ALL 18 ch ✅ drafted — COMPLETE FIRST-DRAFT ARC** (the scapegoat folded into ch-15 per cold-read endorsement; every chapter adversarially cold-read; the close judged 'worthy of the two books it ends — plainly, yes') | ~34,700 / ~110k | **arc ✅ · ~32% of word target** |
 
-**Combined draft progress toward the goal: ~62,500 / ~220,000 words (~28%).**
+**Combined draft progress toward the goal: ~63,200 / ~220,000 words (~29%).**
 
 **⚑ PARITY-OF-COMPLETION REACHED (2026-07-19, second session): BOTH BOOKS ARE COMPLETE FIRST-DRAFT ARCS.**
 The structural half of the novelbench is met; the word-target half (~110k each) remains weeks of
