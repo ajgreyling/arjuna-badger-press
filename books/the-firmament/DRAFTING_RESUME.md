@@ -1,6 +1,11 @@
 # ▶ RESUME HERE — The Firmament drafting
 
-**Last worked:** 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
+**Last worked:** 2026-07-20 (**Movement II expansion opened — Bk I ch-09 ✅ expanded** ~1.1k → ~2.3k:
+the record-room scene staged (false intention carded; her own skipped ch-07 shift found filled in —
+PP-012 turned personal, the one-night clock, the alibi beat), the east pump answered (last work in the
+world; the working-record catalog kept as a deliberate Bk II doctrine seed), the last-lamp threshold.
+Cold-read verdict: no blockers, 1SF/5N all applied. **Next: ch-10 dwell assessment, then ch-11–12.**)
+Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
 **Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
 Sky** (G6/G7/G8 soft canon; every chapter cold-read; the close judged worthy). PARITY OF COMPLETION
