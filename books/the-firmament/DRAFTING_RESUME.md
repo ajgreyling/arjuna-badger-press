@@ -30,15 +30,23 @@ horizon fulfilment, the "upon nothing" keystone) — concentrated, present-leani
 spared, same call as ch-10/12. ch-16 ✅ expanded (~1.4k → ~1.7k): the radio-restoration montage
 dramatized into an actual repair scene (corroded battery terminals, the dial chain walked link by link,
 a coat-lining wire splice) instead of being summarized — real unclaimed room, matching the book's analog-
-craft love-language (ch-01, ch-09). Cold-read: no blockers, 1SF/2N (a redundant recap sentence trimmed;
-two soft-canon NITs — an invented "Aldous used to curse" aside, flagged not fixed, low-risk enrichment —
-noted for author awareness, not changed).
+craft love-language (ch-01, ch-09). Cold-read: no blockers, 1SF/2N, applied.
+ch-15 ✅ expanded (~1.25k → ~1.6k): a child's shoe found in the ruined town, untouched, knelt to, tied
+explicitly back to the Prologue's "woman at the last hatch with a small hand in hers" — PP-008 paid with
+new specificity, not restated. Deliberately the campaign's riskiest insertion (a genre-common image);
+cold-read judged it earned on two specific choices (she does not touch it; it routes through the Prologue
+rather than generic ruin-sentiment) but flagged 3SF: a double-captioned grief line trimmed, a bridging
+sentence added between the small/specific grief and the vast/deep-time grief that follows ("That grief
+was small and had a shape she could kneel to. The next one did not."), and the "ledger" metaphor — now a
+three-chapter-running motif (ch-09/ch-11/ch-15) — pulled out of ch-15 specifically as its weakest claim
+on the word (ledger = keeper's-craft instrument in ch-09/11; grief isn't ledger-shaped). All applied.
+**Do not reach for "ledger" again as a grief metaphor — it's spent.**
 
-**Next: ch-15 dwell assessment** (the road, the ruined town, the deep-time ache, the vocation realization
-— more narrative ground than ch-13/14, likely real room the same way ch-16 had). Then Movement III closes
-and the campaign's honest next front is either Book I's still-thin middle chapters (ch-03/04/05/06/07 —
-already assessed lean-by-design or at-strength) vs. beginning Book II's own dwell-time pass, given Book II
-(~34.7k) already exceeds Book I (~29.4k) — rebalancing toward Book I remains the stated priority.
+**Movement III effectively closed** (ch-13/14/15/16 all assessed or expanded; only ch-15/16 had real
+room, both taken). Next honest front: Book I's still-thin early chapters (ch-03/04/05/06/07 — already
+assessed lean-by-design or at-strength, re-check before assuming more room) vs. beginning Book II's own
+dwell-time pass, given Book II (~34.7k) still exceeds Book I (~29.8k) — rebalancing toward Book I remains
+the stated priority.
 Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
 **Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
