@@ -1,6 +1,14 @@
 # ▶ RESUME HERE — The Firmament drafting
 
-**Last worked:** 2026-07-20 (**Movement II expansion continues — Bk I ch-09 ✅ and ch-11 ✅ expanded.**
+**Last worked:** 2026-07-20 (**Movement II expansion continues — Bk I ch-08 ✅, ch-09 ✅, ch-11 ✅
+expanded, in that drafting order (08 last).**
+ch-08: ~1.3k → ~1.9k — a new childhood-room scene inserted between the mother goodbye and the low-store
+packing: the shelf her father built (a childhood stone, a kept note in Ines's hand, her mother's spare
+hairpin), the terror that any keepsake would lie to the room, her hand stopping an inch off the shelf and
+coming back empty, the father's doorframe habit noticed in herself. Cold-read: no blockers, 2SF/2N — the
+original pencil-torch object swapped out (it collided with ch-02's loaded Ines-kit imagery; replaced with
+a kept note in her hand) and the terror paragraph re-cut to dramatize through the stopped hand rather than
+naming itself, both applied.
 ch-09: ~1.1k → ~2.3k — the record-room scene staged (false intention carded; her own skipped ch-07 shift
 found filled in — PP-012 turned personal, the one-night clock, the alibi beat), the east pump answered
 (last work in the world; the working-record catalog kept as a deliberate Bk II doctrine seed), the
@@ -10,8 +18,10 @@ not minted; the wall lying twice — a working joint, a warm machinery stretch; 
 palm-width at a time); the between dwelt one paragraph longer, closing the missing PP-011 plant leg (a
 sealed, symbol-marked side door, sighted not opened, echoing ch-16's outside door). Cold-read: no
 blockers, cleanest pass of the campaign (1SF/2N — one caption line cut, a ledger-phrase doubling fixed),
-all applied. **Next: ch-08 and ch-10 dwell assessment (may already be at strength — check before
-inserting), then ch-12 (the breach detonation — expect minimal or no additions, do not gild it).**)
+all applied.
+**Next: ch-10 dwell assessment (may already be at strength — check before inserting), then ch-12 (the
+breach detonation — expect minimal or no additions, do not gild it). The "lie" motif is at high
+saturation across ch-08/09 now — do not extend it further in ch-10.**)
 Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
 expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
 **Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
