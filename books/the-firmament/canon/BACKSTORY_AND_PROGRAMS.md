@@ -85,3 +85,30 @@ founding history:
   true thing, meaning restored by contact with the world it was made for.)
 - Book I plants this lean (the walker's caste keeps such forms as ritual — one or two grounded beats,
   never a lecture). Book II fires it. (CHARACTERS; SERIES.)
+
+### 5a. The register of the forms (the tonal key — LOCKED 2026-07-21)
+
+**Governing simile: they do the forms with the gravity of Amish kin raising a barn.** Not sport, not
+display, not a dojo's crisp aggression — *communal sacrament.* The whole caste moving together in
+the same slow shapes at the same hour, wordless, grave, wholly absorbed, because the ancestors did
+and because doing it together is what makes them a people. A barn-raising is the exact note: hard
+physical work performed as worship, by everyone, in unison, with no one in charge and no one idle,
+and a quiet joy underneath the seriousness. The forms are *that.*
+
+Binding consequences for drafting:
+- **The killing purpose is fully forgotten, and this is the sleeper knife in the body.** A movement
+  that is, in its origin, a throw / a choke / a strike / a break is performed as a *blessing* — named
+  for a season, a gesture of thanks, a shape in a prayer. The reader raised on any grappling art will
+  *recognise the technique* under the liturgy (the hip that loads a judo throw; the frame that is a
+  krav-maga defence; the "way of no way" flow) exactly as the flat-earther recognises his proof-texts
+  — and feel the same floor drop later when Book II re-earths the prayer into a weapon. Same bait,
+  same UNTIL, in the flesh instead of the book.
+- **Reverence, never irony** (mirrors the scripture rule). The forms are beautiful and the devotion
+  real. We never wink that "it's really fighting." The recognition is the reader's to make; the
+  characters make it only in Book II, out in the world.
+- **Source arts stay off-page as *names*** — no character says "judo" or "krav maga." Those are the
+  founders' vanished vocabulary. On the page the caste has its own liturgical names for the shapes
+  (working: *the Standing, the Yielding, the Turning-away, the Way-of-No-Way*), and the founders'
+  hybrid origin (jiu-jitsu / judo / krav maga / wushu / the way of no way) lives only here in canon.
+- **Amish/Boer grit substrate** (THE_COURT_TWELVE) makes this consistent cast-wide: plain, hard-
+  handed, faith-shaped people to whom disciplined communal physical practice *is* devotion already.
