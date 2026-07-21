@@ -86,3 +86,18 @@
   tin-under-salt delivery stays the sole, full-weight arrival. Sarel voices it; the tin delivers it.
 - **Why:** the tin version is the stronger, more patient scene and was already committed to in
   drafting. Foreshadow-then-deliver beats deliver-then-deliver. Cleaner spine.
+
+### D-009 — Canon-consistency sweep for the orphaned Prologue references
+- **Call:** The Prologue cut (D-002) orphaned references across canon. Rather than rewrite every file
+  (scope-creep + risks corrupting outline word-math), I fixed the load-bearing ones and *flagged* the
+  rest as DEBT for the expansion pass:
+  - `PLOT.md` — Prologue beat struck through + a cut-notice block re-homing its cargo in-POV.
+  - `OUTLINE_BOOK_I.md` — "16 ch + Prologue" → "16 ch (Prologue cut)"; Prologue entry struck.
+  - `PLANTS_AND_PAYOFFS.md` — PP-008 (loved dead) & PP-011 (HAM seed) re-sourced off the Prologue;
+    PP-009 updated (Sarel voices / tin delivers); PP-013 marked FIRED in ch-05.
+- **Real debt surfaced (flagged, NOT fabricated over):** **PP-011's HAM radio-room *seed* lived in
+  the cut Prologue.** Verified the *payoff* still fires cleanly in ch-16 ("a voice answered") — only
+  the early plant is gone. Reveal lands slightly less set-up. Left as DEBT for AJ's expansion pass
+  rather than jamming a radio foreshadow into the tightened opening (would fight the sleeper economy).
+- **Why flag not fix:** honest-mirror call — a missing plant the author should decide on beats a
+  hasty plant I invent. The payoff works; the gap is named where it'll be seen.

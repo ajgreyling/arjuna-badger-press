@@ -7,11 +7,16 @@
 
 ---
 
-## PROLOGUE — *the last true daylight* (the loved dead seal the world)
-The founders, competent and grieving, seal the Vault as the flare comes. The final real daylight any
-human will see for twelve generations — kept afterward as the first verse of scripture. We *love* them
-here (PP-008); we plant that the "voyage" is through time (PREMISE §2). Ends on the seal closing and the
-day-track lighting for the first time — a made sun over a made world.
+## ~~PROLOGUE — *the last true daylight*~~ — **CUT 2026-07-21 (D-002). Book I now opens on ch-01.**
+> The founders'-POV prologue was cut to commit the *sealed-in-with-Neva* sleeper POV: the reader must
+> know only what Neva knows, or the flat cosmology can't bait the reader before the reveal springs it.
+> A founders'-POV opening spoils the machine on page one (the Dark-City theatrical-cut sin). Full text
+> preserved in `canon/CUT_PROLOGUE_founders_pov.md`. **Its cargo must be re-delivered from within
+> Neva's POV, not restored to the front:**
+> - *the loved dead / all-sides guard* (PP-008) → the mother's un-said goodbyes, Sarel, the midpoint reveal
+> - *the "voyage is through time"* plant (PREMISE §2) → the deep-time gut-punch at the breach (Mv III)
+> - *the first verse as the founders' literal last daylight* → pays at the reveal, not up front
+> **Book I opens on ch-01 at the wall.** (See NOVELBENCH / OUTLINE_BOOK_I for the corrected chapter count.)
 
 ---
 
