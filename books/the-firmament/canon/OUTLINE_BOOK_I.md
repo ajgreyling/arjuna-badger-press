@@ -1,7 +1,7 @@
 # OUTLINE — BOOK I (*The Firmament* / *Upon Nothing*)
 
 > Complete chapter-by-chapter drafting spine. Derived from PLOT · SEED_STORY · SCRIPTURE · PREMISE ·
-> WORLD · CHARACTERS. **Target: ~110k words · 16 chapters + Prologue.** Movement weighting I:40% (ch
+> WORLD · CHARACTERS. **Target: ~110k words · 16 chapters (Prologue CUT 2026-07-21, D-002).** Movement weighting I:40% (ch
 > 1–7) · II:35% (ch 8–12) · III:25% (ch 13–16). Close-third on Neva, present-leaning in the two
 > detonations (breach, fulfilment). Each chapter: **beat · function · PP-IDs fired · target words ·
 > status.**
@@ -9,7 +9,7 @@
 > Status legend: ✅ drafted · ◻ to draft · ▣ partially drafted.
 
 ## Novelbench (Book I completion definition)
-- **16 chapters + Prologue drafted** to first-draft quality (canon-true, voice-true).
+- **16 chapters drafted** to first-draft quality (canon-true, voice-true). *(Prologue cut — D-002.)*
 - **~110k words** (±10%).
 - **All PP-IDs fired** (PLANTS_AND_PAYOFFS) or explicitly marked deferred-to-series.
 - **The three detonations land** (I.5 disappearance · II.4 breach · III.3 *upon nothing*).
@@ -17,9 +17,12 @@
 
 ---
 
-## PROLOGUE — The Last True Daylight ✅ (~685w, drafted)
-The founders seal the world as the flare comes; the loved dead; the radio-room/log planted; the made sun
-lights. PP-008, PP-011 (seed). **Done.**
+## ~~PROLOGUE — The Last True Daylight~~ — **CUT 2026-07-21 (D-002)**
+Founders'-POV opening cut to commit sealed-in-with-Neva sleeper POV (it spoiled the machine on page one).
+Text preserved in `canon/CUT_PROLOGUE_founders_pov.md`. **Book I opens on ch-01.** Its cargo re-homed:
+PP-008 (loved dead) → mother/Sarel/midpoint; PP-011 (radio-log seed) → must now be re-planted *inside*
+Neva's POV in Movement I/II (flag: the HAM-room seed no longer has its Prologue plant — **DEBT**, see
+PLANTS_AND_PAYOFFS PP-011). ch-01/ch-03 already carry the "clear hand is a kind of love" + Sarel threads.
 
 ## MOVEMENT I — THE FLAT WORLD (dread by accretion) · ch 1–7 · ~44k
 
