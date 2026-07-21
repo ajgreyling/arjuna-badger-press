@@ -1,6 +1,19 @@
-# Prologue
+# CUT: Founders' Prologue ("The Last True Daylight")
 
-## The Last True Daylight
+> **Status: CUT from the manuscript 2026-07-21.** Reason: the sleeper redraft is committed to
+> *sealed-in-with-Neva* POV — the reader must know exactly, and only, what Neva knows, so the flat
+> cosmology reads as literally true on the surface and the machine-meaning is decoded only on reread.
+> This founders'-POV prologue arms the reader before page one (it shows the enclosure being built and
+> states "it was all true, only the size they got wrong"), which is precisely the Dark-City
+> theatrical-cut spoiler-voiceover the opening must NOT do. Preserved here in full because its content
+> is canon-load-bearing: the founder generation's competence-and-kindness, the mother's decision to
+> give the children "the world as it was for them," the seeded HAM-log/call-sign thread, and the
+> *firmament / light on its track / ice at the ends of the earth* first-scripture line. Mine this for
+> the Book I midpoint reveal and the Book II founder-flashbacks — but never restore it to the front.
+
+---
+
+## The Last True Daylight (original founders' prologue)
 
 They worked until the light failed, because the light was the thing they were losing.
 

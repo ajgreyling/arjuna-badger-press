@@ -5,18 +5,49 @@
 > reveal is FULFILMENT, not disproof.** This honours the house all-sides-framing law — indict the
 > machine (the redaction, the autopilot), never belief, never the believers, never the text itself.
 
-## 1. The two books
+## 1. The three strata of scripture (two mercies, one accident) — UPGRADED 2026-07-21
 
-- **The redacted scripture (official).** The Vault's authorised text has had every *seam-word* cut —
-  every line that implies a **structure inside a larger world** rather than a closed flat cosmos. The
-  result reads as a clean, sealed, flat creation with no outside and no edge but the ice. This is what
-  every child is taught. The censors' motive is not devilry; it is the machine's steady-state (§4 of
-  PREMISE_AND_PHYSICS) — *keep the world closed so the world keeps working.* An open sky is an
-  unmanageable variable.
-- **The un-redacted scripture (forbidden / restored).** The **original** text, older than the Vault
-  itself — carried in as cultural cargo by the founders and then quietly edited by later keepers. It is
-  full of the reveal, hiding in plain sight. The plants pass hand-copied pages of it. **It is not a new
-  heresy. It is the old, complete book.** Orthodoxy is the innovation; the "heresy" is the memory.
+The Vault's scripture is **not** a clean villain-and-victim redaction. It is a collision of *two
+well-meant acts of kindness*, laid over *one accident of language*. This is the sharpened mechanism
+(AJ, 2026-07-21) and it is load-bearing: **no one in the chain was a liar; the tragedy is that two
+kinds of mercy contradict each other, and a dead machine enforces the crueler one.**
+
+**Stratum 0 — the real proof-texts, read AS-IS (the accident).** The oldest verses the founders
+carried in were the *actual* verses real-world flat-earthers cite — *the firmament dividing the
+waters* (Gen 1:6–7); *the circle of the earth* (Isa 40:22); *the four corners / the ends of the
+earth* (Isa 11:12, Rev 7:1); *the foundations of the earth, that it should not be moved* (Ps 104:5,
+1 Sam 2:8, Job 9:6); *the sun runs his course, his going forth is from the end of the heaven* (Ps
+19:4–6); *the waters above the firmament* (Gen 1:7). **Inside the Vault these need no distortion —
+they are mechanically, literally accurate.** The firmament *is* a fitted roof; the foundations *are*
+foundations; the circle *is* the disc's rim; the sun *does* run a scheduled course on a track; the
+"waters above" *are* the coolant/condensate mass in the dome. The founders' engineering happened to
+match the ancient cosmology's own words, so **the plainest reading of the oldest text is a true
+description of their machine.** No one adapted these. They just fit. (This is the knife — keep it.)
+
+**Stratum 1 — the founders' adapted bibles (the FIRST mercy: geo/sol-centric redaction).** The people
+who *built* the place produced gently **geo- and sol-centric, flat-adapted scripture** — they pruned
+or reworded the lines that would have told the children the world was *bigger than the world* (the
+round-earth-compatible readings, the cosmic-scale "heavens declare" passages, anything implying a
+beyond-the-ice). **Motive: mercy, not malice** — *"give the children the world as it was for them, and
+not as it was for anyone else"* (the mother's decision, CUT_PROLOGUE). This is the tainted-but-kind
+authorised bible most of the Vault reads and every child is taught. Later, the autopilot/maintenance
+order (§4 PREMISE) keeps enforcing this cut as steady-state — an open sky is an unmanageable variable
+— so the *founders'* one-generation kindness hardens into a *machine's* permanent censorship. That
+hardening is the true indicted party, not the founders.
+
+**Stratum 2 — the plants' original firmament bibles (the SECOND mercy: un-redacted originals).** Other
+well-meaning workers — devout, close to the machinery, *"well-meaning dufuses"* in AJ's words — could
+not bear to hand their descendants a **doctored** book. Their mercy is the *exact opposite* of the
+founders': not *spare the children the bigger world*, but *don't leave them a tainted bible.* So they
+smuggled in and preserved the **complete, un-redacted originals** — the full firmament text including
+the verses the founders pruned — and passed them hand-to-hand as samizdat. **It is not a new heresy.
+It is the old, complete book.** Orthodoxy is the innovation; the "heresy" is the memory.
+
+**The collision (the soul).** Both acts are love. The founders cut the book *to protect*; the plants
+kept it whole *to protect*. Neither is wrong; they simply weigh the same child differently — *spare
+her the vertigo* vs. *never lie to her.* The reader must feel that both hands meant well and that the
+horror is a **dead automation** enforcing the first mercy as law and disappearing anyone who lives by
+the second. Indict the machine and the hardened redaction — never either set of well-meaning dead.
 
 ## 2. The load-bearing verses (real texts real readers have read both ways)
 
@@ -26,12 +57,21 @@ flat disc *and* true of a round world, so the *same verse* survives the reveal a
 bigger world.* (Use them sparingly and exactly; do not invent scripture-sounding pastiche to pad —
 the power is in the real double-meaning. Provenance/quotation handled per house rules; see §6.)
 
-| The verse (sense) | Reads inside (flat) | Comes true outside (round) | Redactor's problem |
+These are the *actual* proof-texts real flat-earth readers cite (Stratum 0). Used as-is, unaltered:
+inside the Vault each is *mechanically true of the machine*; outside, each *fulfils* at the scale of a
+round world. The founders left most in (they *confirm* the enclosure); the plants preserved the two the
+founders had to cut. **Left column = the founders kept it (true of the box). Bottom two = the founders
+cut it, the plants restored it (true only of the sky).**
+
+| The verse (sense · ref) | Reads inside (flat / the machine) | Comes true outside (round) | Redactor's problem |
 |---|---|---|---|
-| *the **firmament** dividing the waters* | the dome over the disc | real sky, cloud, the "waters above" as weather | names a *structure* → cut hardest |
-| *the **circle** of the earth* | the disc's rim | the globe's curved horizon | the word does double duty → left in, reinterpreted |
-| *the **ends of the earth** / **four corners*** | the ice wall, the edge | there are no ends — the horizon always recedes | implies an edge to walk to → dangerous |
-| *He hangeth the earth upon **nothing*** | (unexplainable inside — a disc sits on bedrock) | the round Earth hanging in space, on nothing | **the smoking gun** → cut deepest |
+| *the **firmament** dividing the waters* (Gen 1:6–7) | the fitted roof-dome over the disc | real sky; the "waters above" = weather | names a *structure* — but KEPT (it *proves* the roof) |
+| *the **waters above** the firmament* (Gen 1:7) | coolant/condensate mass in the dome | cloud, rain, the ocean of air | kept — reads as holy plumbing |
+| *the **circle** of the earth* (Isa 40:22) | the disc's rim / the ice ring | the globe's curved horizon | word does double duty → kept, reinterpreted |
+| *the **four corners** / **ends of the earth*** (Isa 11:12; Rev 7:1) | the ice wall, the wall's square-fitted seams | there are no ends — the horizon recedes | implies an edge to walk to → kept but *feared* |
+| *the **foundations** of the earth, that it be **not moved*** (Ps 104:5; 1 Sam 2:8; Job 9:6) | the disc literally sits on foundations; it never moved | the Earth *did* move — through deep time, not space | kept — the truest-sounding, most consoling lie-by-omission |
+| *the **sun** runs his course; his going forth is from the **end of the heaven*** (Ps 19:4–6) | the light-track: a scheduled arc, end to end | a real star the recovered Earth turns beneath | kept — the schedule *is* the psalm |
+| *He hangeth the earth upon **nothing*** (Job 26:7) | (cannot fit — a disc sits on bedrock) | the round Earth hanging in space, on nothing | **the smoking gun** → CUT deepest; the plants' keystone |
 
 **"Upon nothing" is the keystone.** A flat arcology sits on a floor, on rock — so a verse insisting the
 earth hangs on *nothing* cannot be made to fit the enclosure, and the redactors had to remove it
