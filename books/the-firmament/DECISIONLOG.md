@@ -64,7 +64,25 @@
   written as the governing key. Pin the key before playing the note so no future draft mistones it.
 - **Call within the call:** invented the liturgical form-names. Reversible; flagged for AJ.
 
-### D-007 — Planted the martial-liturgy beat in the manuscript (Book I, lean)
-- **Call:** [pending — writing now] Drafted the one grounded Book I scene of the forms, per outline's
-  "one or two grounded beats, never a lecture" (OUTLINE_BOOK_I:40). Slotted into the Lighting-feast
-  day so it rides existing communal warmth. One bait-line where a killing movement is a blessing.
+### D-007 — Planted the martial-liturgy beat in ch-05 (Book I, lean) ✅
+- **Call:** Drafted the forms scene as a new middle movement of ch-05 (the "watching is falling"
+  cascade), NOT the Lighting feast. The dawn Forms done barn-raising-style (whole caste, unison,
+  wordless, grave joy). Neva does *the Turning-away* — taught as a gesture of humility — and feels the
+  loaded hip and sweeping forearm reveal it as a **judo throw**: "the prayer had a fist in it." Mirrors
+  the scripture engine exactly ("the same as the words"). Reader recognises the technique; Neva feels
+  a wrongness she can't name; the source art (judo) never named on-page. Ends on her mother flowing
+  through the throw at peace — Neva newly, permanently alone from her.
+- **Why placement changed:** ch-05 is where her new sight lands on light→wall→record as *machine*;
+  the body belongs in that same cascade, not back at the feast. Stronger rhyme, no tonal whiplash.
+- **Per outline:** OUTLINE_BOOK_I:40 wants it *lean, one beat, never a lecture* — one scene, ~600w,
+  fires PP-013 seed. Book II ch-10 fires the payoff.
+
+### D-008 — Resolved a continuity collision I created (the leaf, twice)
+- **Problem:** my D-005 ch-03 addition had Sarel physically pass Neva the *upon nothing* leaf at the
+  feast — but ch-04 (pre-existing, full weight) is ALREADY the arrival of that exact verse, delivered
+  in a ration tin under the salt. The verse arrived twice.
+- **Call:** Reverted ch-03 to Sarel *speaking* the thread — "if the world ever puts a page in your
+  hand, read the whole of it before you call it mad" — a spoken foreshadow, no physical page. Ch-04's
+  tin-under-salt delivery stays the sole, full-weight arrival. Sarel voices it; the tin delivers it.
+- **Why:** the tin version is the stronger, more patient scene and was already committed to in
+  drafting. Foreshadow-then-deliver beats deliver-then-deliver. Cleaner spine.
