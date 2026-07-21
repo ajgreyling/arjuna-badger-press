@@ -52,3 +52,19 @@
   there's a world it's true of. Closed the chapter on Neva sitting between the two mercies.
 - **Why:** Canon §3 — the un-redacted page is the grit that starts the pearl. Sarel was already coded
   as the man who almost says the forbidden thing; making him the plant is the economical call.
+
+### D-006 — Pinned the martial-liturgy register: *Amish barn-raising* (canon key)
+- **Call:** Added `BACKSTORY_AND_PROGRAMS.md §5a` locking the tonal key for the forms: communal
+  sacrament, whole caste in unison, grave joy, killing purpose fully forgotten. Locked the sleeper-in-
+  the-body rule (a throw performed as a blessing; the reader recognises the technique, the characters
+  don't until Book II), reverence-never-irony, source arts off-page as names only, liturgical names
+  coined (*the Standing / the Yielding / the Turning-away / the Way-of-No-Way*).
+- **Why:** AJ's note — "do it with the seriousness of Amish kin raising a barn." The register was
+  consistent with locked canon (Boer/Amish grit substrate) but the barn-raising *simile* wasn't
+  written as the governing key. Pin the key before playing the note so no future draft mistones it.
+- **Call within the call:** invented the liturgical form-names. Reversible; flagged for AJ.
+
+### D-007 — Planted the martial-liturgy beat in the manuscript (Book I, lean)
+- **Call:** [pending — writing now] Drafted the one grounded Book I scene of the forms, per outline's
+  "one or two grounded beats, never a lecture" (OUTLINE_BOOK_I:40). Slotted into the Lighting-feast
+  day so it rides existing communal warmth. One bait-line where a killing movement is a blessing.
