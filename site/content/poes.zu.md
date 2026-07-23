@@ -70,7 +70,7 @@ Akekho lapho owayefuna ukulimaza ngamabomu. Inhloso yayifudumele; ukulimala kwak
 
 Nansi enye futhi, ngoba yisibonelo esimnandi kunazo zonke olimini lonke segama elaphenduka lasho okunye kodwa lagcina umphefumulo walo.
 
-*Tjommie* yigama elidala, elifudumele lesi-Afrikaans elisho **umngane, umfana omncane** — *maatjie.* (Le ndlela entsha, epholile yokulibhala, *tjomma*, iseyigcwele uthando: "my tjomma.") Kodwa *tjommie*, uma isisodwa, isiqalwe ukusetshenziswa kancane kancane ngesi-Afrikaans esilula lisho into ethile emangalisayo: manje isho **le ngxenye encane yesikhumba ephakathi kwe-*poes* yomfazi ne-anus yakhe** — i-perineum.
+*Tjommie* yigama elidala, elifudumele lesi-Afrikaans elisho **umngane, umfana omncane** — *maatjie.* (Le ndlela entsha, epholile yokulibhala, *tjomma*, iseyigcwele uthando: "my tjomma.") Kodwa *tjommie*, uma isisodwa, isiqalwe ukusetshenziswa kancane kancane ngesi-Afrikaans esilula lisho into ethile emangalisayo: manje isho **le ngxenye encane yesikhumba ephakathi kwezitho zangasese ne-anus** — i-perineum.
 
 Futhi nansi ingxenye eyenza kuphelele: igama lona yilo elenza konke. **Dit is jou tjommie** — *yilo mngane wakho omncane* — **want dit hou jou voël uit die kak uit:** ngoba yile ngxenye egcina i-voël yakho ingangeni ekakini. I-perineum, ngokomzimba, iyona ngxenye encane ephakathi kwalokhu okubili; ngakho-ke ulimi lwalubiza ngokuthi *umngane wakho* — umngane oma phakathi kwakho nekakini. Kuyihaba elingcolile, kuyindlela yabantu yokuchaza umzimba, kodwa ngaphansi kwalokho, kuyinto ethinta inhliziyo: *umngane uyilokho okuvimbela ukuthi ungawuboni umhlaba omubi kakhulu.* Leli gama alizange liyeke ukusho okwakusuke kusho khona. Lithe lazuza indawo entsha yokuma linakekela.
 
