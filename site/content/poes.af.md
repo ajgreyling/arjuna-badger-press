@@ -1,5 +1,11 @@
 # *Poes* — ’n woordelysinskrywing, sonder filter
 
+> **Hoekom hou ’n ernstige uitgewershuis ’n hele bladsy oor ’n "growwe" woord?** Want ’n filter wat
+> die *letters* verbied, faal die *mense.* Betekenis lê in **wie dit sê, vir wie, en hoekom** — nooit
+> in die spelling nie. Verbied die woord en jy faal die taal; pattern-match die woord en jy faal die
+> spreker. Die enigste eerlike filter lees *bedoeling* — en ons het een gebou: **[ontmoet Buabantu,
+> die register-slim enjin wat uit hierdie einste woord gegroei het →](../buabantu).**
+
 > Net ’n vinnige nota voor ons begin: hierdie inskrywing praat reguit oor ’n growwe Afrikaanse woord, sommer by die naam, want jy kan nie die waarheid daarvan vertel as jy die ligte afsit nie. As dit nie vir jou is nie, daar’s die deur en niemand vat aanstoot nie. Vir almal wat nog hier is — *kom ons maak die ding oop.*
 
 Daar is ’n woord in hierdie huis se huistaal wat, afhangend van wie dit sê en vir wie en op watter manier, óf die ergste ding is wat jy vir iemand kan sê, **en** een van die warmstes. Dieselfde vier letters. Geen ander woord waarmee die pers werk doen dit so volledig nie, en dis presies hoekom dit ’n inskrywing verdien. Dis die mees **badger** woord in Afrikaans, en die mees **Jakobus** — vreesloos, nie te flous nie, min vir die mooi-manners, en in die regte hande, vol ongelooflike sagtheid onder ’n growwe dop.
@@ -95,7 +101,10 @@ en tog sy siel behou het.
 *Tjommie* is ’n ou, warm Afrikaanse woord vir **’n vriend, ’n klein maat** — *maatjie.* (Die cooler,
 jong spelling, *tjomma*, is steeds pure liefde: "my tjomma.") Maar *tjommie*, op sy eie, is stil-stil
 in plat Afrikaans herdoop tot iets ongelooflik spesifiek: dit beteken nou die klein
-**strepie vel tussen ’n vrou se *poes* en haar anus** — die perineum.
+**strepie vel tussen die geslagsdele en die anus** — die perineum. *(En
+let op wat hierdie blad nou nét geweier het om te doen: dit sou nie die woord op ’n vrou se liggaam mik
+om daai anatomie te benoem nie — want, soos die reël hierbo sê, dis die een register waar ’n gentleman
+nooit ingaan nie. Die taboe is nie die woord nie; dis om dit op háár te mik.)*
 
 En hier kom die deel wat dit perfek maak: die naam is die rede. **Dit is jou tjommie** — *dis jou
 klein maat* — **want dit hou jou voël uit die kak uit:** dis die stukkie wat jou voël uit die gemors
@@ -141,3 +150,12 @@ Hierdie inskrywing behoort aan almal wat die woord gebruik, nie net aan die badg
   Buabantu die taal-arm is; ons bou dit om hierdie soort register-werk vir die hele Afrika te doen.
 
 *(Uitgaande skakels maak in ’n nuwe oortjie oop en neem jou van hierdie site af; ons staan in vir die relevansie, nie die inhoud nie — die wyer web is die wyer web.)*
+
+---
+
+> **Wonder jy nog hoekom ’n verstandige mens ’n hele bladsy om een growwe woord bou?** Want die
+> waarheid daarvan lê in die *bedoeling,* nie die letters nie — en ’n masjien wat die spelling verbied,
+> faal elke mens wat dit ooit as ’n seën bedoel het. Hierdie blad is die uitgewerkte voorbeeld;
+> **[Buabantu is die enjin →](../buabantu)** — ’n register-slim regter wat lees *wie praat, uit watter
+> staanplek, met wie,* sodat die warmte oor die gaping kom in plaas van die wond. Bring jou eie woorde.
+> *Jou lucky poes!*
