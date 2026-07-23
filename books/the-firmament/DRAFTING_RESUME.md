@@ -1,25 +1,85 @@
 # ▶ RESUME HERE — The Firmament drafting
 
-**Last worked:** 2026-07-19 (long Saturday session; goal set then **cleared by AJ** — not completed).
-**Goal was:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
+**Last worked:** 2026-07-20 (**Movement II expansion continues — Bk I ch-08 ✅, ch-09 ✅, ch-11 ✅
+expanded, in that drafting order (08 last).**
+ch-08: ~1.3k → ~1.9k — a new childhood-room scene inserted between the mother goodbye and the low-store
+packing: the shelf her father built (a childhood stone, a kept note in Ines's hand, her mother's spare
+hairpin), the terror that any keepsake would lie to the room, her hand stopping an inch off the shelf and
+coming back empty, the father's doorframe habit noticed in herself. Cold-read: no blockers, 2SF/2N — the
+original pencil-torch object swapped out (it collided with ch-02's loaded Ines-kit imagery; replaced with
+a kept note in her hand) and the terror paragraph re-cut to dramatize through the stopped hand rather than
+naming itself, both applied.
+ch-09: ~1.1k → ~2.3k — the record-room scene staged (false intention carded; her own skipped ch-07 shift
+found filled in — PP-012 turned personal, the one-night clock, the alibi beat), the east pump answered
+(last work in the world; the working-record catalog kept as a deliberate Bk II doctrine seed), the
+last-lamp threshold. Cold-read: no blockers, 1SF/5N, all applied.
+ch-11: ~1.1k → ~1.8k — the rim-search staged before the finding (the father's reading method extended,
+not minted; the wall lying twice — a working joint, a warm machinery stretch; the doubt answered a
+palm-width at a time); the between dwelt one paragraph longer, closing the missing PP-011 plant leg (a
+sealed, symbol-marked side door, sighted not opened, echoing ch-16's outside door). Cold-read: no
+blockers, cleanest pass of the campaign (1SF/2N — one caption line cut, a ledger-phrase doubling fixed),
+all applied.
+ch-10 assessed: at strength, no insertion — the room-revelation meditation is a single concentrated idea,
+already trust-the-image clean; padding it would dilute, not deepen. ch-12 (the breach detonation) likewise
+left untouched per the outline's own caution ("expect minimal-or-no additions... do not gild it").
+**MOVEMENT II EXPANSION PASS CLOSED (ch-08–12): three chapters genuinely deepened (08/09/11), two
+correctly left alone (10/12) — not a mechanical sweep.**
+
+**Movement III underway.** ch-13 and ch-14 read and assessed: both are central detonations (the curving-
+horizon fulfilment, the "upon nothing" keystone) — concentrated, present-leaning, trust-the-image prose;
+spared, same call as ch-10/12. ch-16 ✅ expanded (~1.4k → ~1.7k): the radio-restoration montage
+dramatized into an actual repair scene (corroded battery terminals, the dial chain walked link by link,
+a coat-lining wire splice) instead of being summarized — real unclaimed room, matching the book's analog-
+craft love-language (ch-01, ch-09). Cold-read: no blockers, 1SF/2N, applied.
+ch-15 ✅ expanded (~1.25k → ~1.6k): a child's shoe found in the ruined town, untouched, knelt to, tied
+explicitly back to the Prologue's "woman at the last hatch with a small hand in hers" — PP-008 paid with
+new specificity, not restated. Deliberately the campaign's riskiest insertion (a genre-common image);
+cold-read judged it earned on two specific choices (she does not touch it; it routes through the Prologue
+rather than generic ruin-sentiment) but flagged 3SF: a double-captioned grief line trimmed, a bridging
+sentence added between the small/specific grief and the vast/deep-time grief that follows ("That grief
+was small and had a shape she could kneel to. The next one did not."), and the "ledger" metaphor — now a
+three-chapter-running motif (ch-09/ch-11/ch-15) — pulled out of ch-15 specifically as its weakest claim
+on the word (ledger = keeper's-craft instrument in ch-09/11; grief isn't ledger-shaped). All applied.
+**Do not reach for "ledger" again as a grief metaphor — it's spent.**
+
+**Movement III effectively closed** (ch-13/14/15/16 all assessed or expanded; only ch-15/16 had real
+room, both taken). Next honest front: Book I's still-thin early chapters (ch-03/04/05/06/07 — already
+assessed lean-by-design or at-strength, re-check before assuming more room) vs. beginning Book II's own
+dwell-time pass, given Book II (~34.7k) still exceeds Book I (~29.8k) — rebalancing toward Book I remains
+the stated priority.
+Previous: 2026-07-19 (second pass, `/goal` session on Claude sub — **Track A: Bk I ch-01–05
+expanded** (ch-01 ~4.6k · ch-02 ~3.4k · ch-03–05 lean; ch-06–16 assessed at strength, no insertions) ·
+**Track B COMPLETE: Bk II ch-01–18 ALL DRAFTED (~34.7k) — the full arc, first contact to Under One
+Sky** (G6/G7/G8 soft canon; every chapter cold-read; the close judged worthy). PARITY OF COMPLETION
+REACHED — both books are whole arcs; word-parity (110k each) is the remaining work.
+**Standing goal:** two complete ~110k novels, "novelbench equals out" — see [`canon/NOVELBENCH.md`](canon/NOVELBENCH.md)
 for the measurable definition + live tracker.
 
-## State at pause (~21.5k / ~220k words, ~10%)
+## State at pause (~61.2k / ~220k words, ~28%) — ⚑ BOTH BOOKS ARE COMPLETE FIRST-DRAFT ARCS
 - **Bible:** ✅ complete (24 canon files).
 - **Outlines:** ✅ complete — [`OUTLINE_BOOK_I`](canon/OUTLINE_BOOK_I.md) · [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md).
 - **Cover:** ✅ plate at `design/cover.png`.
-- **Book I:** ✅ **COMPLETE FIRST-DRAFT ARC** — Prologue + ch-01–16, ~19,650 words. Every beat, every
+- **Book I:** ✅ **COMPLETE FIRST-DRAFT ARC** — Prologue + ch-01–16, ~25,250 words. Every beat, every
   PP-ID, all three detonations (disappearance · breach · *upon nothing*), the call-sign hinge. The STORY
-  is whole and readable end to end. BUT drafted at novella-compression (~20k, not ~110k target).
-- **Book II:** vinyl-party keystone scene ▣ at `manuscript/book-ii/scene-vinyl-party.md` (~1.8k).
+  is whole and readable end to end. **ch-01 (~4.6k) and ch-02 (~3.4k) are now at fuller length**;
+  ch-03–16 remain at novella-compression (~0.9–1.4k each vs ~6–7k targets).
+- **Book II:** **ch-01–06 ✅ drafted (~14.3k) — ACT ONE (ASSEMBLY) FIRST-DRAFT COMPLETE**
+  (`manuscript/book-ii/`; G6/G7 soft canon awaiting AJ). Next session: Bk I Movement II–III expansion
+  (rebalance toward word-parity); the global passes; the G1–G8 gates for AJ. Standings live through
+  ch-18.
 
 ## TWO honest next-work tracks (both are large, rested-day / `/dream` work — NOT one session):
 
-### Track A — Book I EXPANSION pass (arc → novel length, ~20k → ~110k)
+### Track A — Book I EXPANSION pass (arc → novel length, ~25k → ~110k) — IN PROGRESS
 The arc is complete; it needs DEEPENING, not more plot. Per chapter: more dwell-time, sensory texture,
-interiority, secondary-character breath, scene-level expansion. Start with **ch-01** (still only its
-~925w opening — extend to full length first). Do NOT add thin filler to hit a number — deepen at the
-quality bar (the load-bearing novelbench criterion). Update NOVELBENCH tracker after each pass.
+interiority, secondary-character breath, scene-level expansion. **ch-01 ✅ and ch-02 ✅ done (2026-07-19).
+ch-03 ✅, ch-04 ✅, ch-05 ✅ done lean.
+Next: ch-06 ("Aldous, the bundle") and ch-07 (the witnessed correction) — both spines are strong;
+expect minimal-or-no additions (do not gild the contact or the correction). Then Movement II (ch-08–12)
+— the biggest honest word-growth lives there and in Movement III + Book II. Do NOT add thin
+filler to hit a number — deepen at the quality bar (the load-bearing novelbench criterion). Update
+NOVELBENCH tracker after each pass. NOTE: PP-013's drill-count (*hei—sa—hama—kout*) now needs its
+original commands locked in canon before Book II drafts the re-earthing (see PLANTS_AND_PAYOFFS).
 
 ### Track B — Book II DRAFTING (0 → ~110k, 18 chapters)
 Per [`OUTLINE_BOOK_II`](canon/OUTLINE_BOOK_II.md). **Next chapter: Book II ch-01** ("the far end of the

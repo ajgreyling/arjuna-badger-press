@@ -95,9 +95,79 @@ BACKSTORY placeholders until locked. Note: ch-01 uses working name **Neva** for 
 > block above. G4 → flare struck during/just after sealing; G5 → the Book-I seed is the **HAM reveal**
 > (dark set + dead log + one answering call-sign), not an abstract signal.
 
+### G6 · Book II colony working canon (SOFT — drafted in Bk II ch-01, 2026-07-19; confirm or steer)
+Drafted to unblock Track B; deliberately revisable before Book II drafts deeper:
+- **The colony = "the Kloof"** — a buried **cylinder-vault**; taught cosmology: the world is a deep kept
+  valley, ground curving up both sides to a **light-line** along the roof — *"cupped in the maker's two
+  hands"* (fits PREMISE §7's other-efficient-truths menu; their fulfilment beat: the eldest on walking
+  out — *"He cupped His hands. We had only never seen the size of His hands."*).
+- **Communal walking-out** — their light-line failed; they argued for a year and walked out TOGETHER,
+  elders in front, **two summers before first contact** (deliberate contrast to Neva's lone heresy; their
+  redaction was messier — books disagreed, some pages unread aloud — so their taboo was softer).
+- **Settlement = "the werf"**; the opened Kloof stands on the hill behind, doors open, grass on its flank.
+- **Contact protocol** — Dawid's nightly rota on Ivo's frequency (the hinge Book II hangs from).
+> *Decision needed from AJ:* names (the Kloof / the werf), the cylinder cosmology, the communal exodus,
+> and the two-summers timeline. All are one-pass revisable in ch-01 if steered.
+> *Also flag (cold-read):* Bk II chs 01–02 use church/institution-fossil idioms — "sit at the table like
+> a Christian" (authentic SA *soos 'n Christenmens*), "like the elements at a lighting", "like a
+> magistrate putting down a gavel", "like a saint in a shrine", "like a strange halo", "under his arm
+> like a writ", "like a relic", "as though introducing royalty", "order of battle", "pharmacopoeia",
+> "argues like a parliament" (Reuel — keep; governance vocabulary is his characterization) — where
+> Book I scrupulously never names the real religion or old institutions. Kept as Kloof texture (their redaction was messier; their
+> forgetting shallower). ONE author decision should cover all instances — AJ to confirm the
+> sequence-level rule.
+> *New soft canon (Bk II ch-02):* **Dawid's father** argued in the Kloof for the fuller book "at some
+> cost" and is still alive, old — enrichment orthogonal to his locked wound (the broken chain of
+> command), possibly unifiable with it later (the chain that broke = the elders over his father). AJ to
+> confirm. Also: Dawid's planning figure "call it four hundred kilometres" (explicitly a worst-case
+> guess, not a bearing) sets the distance scale for the fetch and the ch-04 trucks.
+
+### G7 · Book II chapter insertion — "The road" (SOFT — drafted 2026-07-19; confirm or steer)
+The outline had no fetch chapter (ch-04 trucks → ch-05 vinyl party with Neva already present). Chapter
+granularity is deferred-to-draft, and the cold-read endorsed the insertion ("the outline's skip was a
+gap, not a design" — the meeting of the two worlds is the third beat of the series' hinge figure).
+**`book-ii/ch-05.md` is now "The road" (the fetch); the vinyl party becomes ch-06** and every later
+outline chapter shifts one (18 → 19 chapters, or Act One runs 1–6). AJ to confirm the renumber.
+> *Also carried on the fetch (now canon):* the fetch party was Tomas · Marika · Steve · Dawid · Ivo ·
+> Steyn · Jorik; the rota rode with the trucks; Neva's camp = the Bk I radio-room site; her farewell
+> promise ("I'll come back with hands") converts PP-010 into a two-colony vocation.
+> *Pre-expansion flag for the vinyl scene (from cold-read):* two design-doc leaks must not survive its
+> expansion into ch-06 — "this is what the SynergyEngine can never quite hold" and "She found the ache
+> where the canon said she would" are bible references in prose.
+
 ## Deferred to draft (let the prose find it)
 
 - Exact chapter granularity within movements.
 - Tense discipline per scene (close-third throughout; present-leaning in the two detonations — breach
   and fulfilment — confirmed in draft).
 - How much *actual* verse text appears on the page vs. paraphrase/allusion (SCRIPTURE §6; STYLE_GUIDE).
+
+### G8 · The drowned vault's verse (Bk II ch-16 — derivation record, per SCRIPTURE §6)
+The round-book page in Reuel's packet — *"...and the waters are gathered under the bowl of the world,
+and the deep is His, and the dry land stands upon the deep, and it does not founder..."* — is a
+RECOMBINATION of real double-valued water-texts (the gathering of the waters, Gen 1:9–10; "the sea is
+his," Ps 95:5; "founded it upon the seas," Ps 24:2), presented in-world as another vault's differently
+redacted text (required to exist by SCRIPTURE §5). One verse, sparing, load-bearing — within the §6
+quotation-discipline whose target is pastiche-volume. Recorded so it stands as recombination of the
+real, not invention. Same ruling covers the Strand's bowl-cosmology ("the bowl is bigger than the
+bowl") and closes the three-shapes pattern: disc · valley · bowl — **the pattern is COMPLETE at three;
+no fourth shape in Book II** (cold-read guard-rail).
+
+### G9 · The heliocentric ark (SERIES SEED — AJ, 2026-07-19; soft, for the books beyond Book II)
+From AJ's question ("would it hurt or enhance if their adjusted Bible was edited to be heliocentric"):
+- **RULING (chat, 2026-07-19): the Vault's redacted book stays exactly as cut.** Heliocentric redaction
+  inside the flat enclosure would break four locked things at once: the nobody-lied knife (the teaching
+  must be TRUE of the box), the redactors' close-the-sky motive, the cut-logic of the *upon nothing*
+  keystone (it fits a heliocentric book, so it would never have been cut — no samizdat, no relay), and
+  the fulfilment doctrine (the reveal must enlarge the word, not vindicate a lie about home). The
+  devotional sun-centrality the idea reaches for already exists as the Lighting.
+- **THE KEPT VERSION — a heliocentric ARK for the series:** a vault built radially around its light-core,
+  whose kept book honestly teaches *all things go around the light, and the light is the centre of the
+  world* — true of their box, per the multi-ark engine (disc · valley · bowl · **wheel**; n.b. this
+  extends the G8 three-shapes cap by ONE, for the series only, never inside Book II). Their fulfilment
+  beat is the series' sharpest irony: the open sky most literally confirms *their* cosmology — "We were
+  right. The world does go around the light. We had only never seen the size of the light." — proving
+  the anti-debunk thesis at full power: even the 'scientifically correct' cosmology was a box-truth,
+  held for box-reasons, equal in dignity to the disc. Candidate home for the unnamed fifth voice at the
+  end of Bk II ch-18.
+> *AJ to confirm the seed and its placement (Book III / the reconciliation arc).*

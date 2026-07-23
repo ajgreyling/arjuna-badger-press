@@ -39,14 +39,19 @@ A book is **complete (first draft)** when ALL hold:
 
 > Convention: ✅ done · ▣ partial · ◻ to draft. Update the counts + the date on every pass.
 
-**As of 2026-07-19 (scaffold + Movement I drafted):**
+**As of 2026-07-19 (second pass — Track A expansion begun, ch-01 extended):**
 
 | Book | Bible | Outline | Chapters drafted | Words drafted | Bench |
 |---|---|---|---|---|---|
-| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) | ~19,650 / ~110k | **arc ✅ · ~18% of word target** |
-| **II** | ✅ complete | ✅ complete | vinyl-party scene ▣ (of 18 ch) | ~1,830 / ~110k | **~1.7%** |
+| **I** | ✅ complete | ✅ complete | **ALL 16 ch + Prologue drafted — COMPLETE FIRST-DRAFT ARC** (every beat, every PP-ID, keystone + call-sign) · **ch-01 ✅ (~4.6k) · ch-02 ✅ (~3.4k) · ch-03 ✅ (~1.8k lean) · ch-04 ✅ (~1.7k lean) · ch-05 ✅ (~1.6k lean — the book read against the page, the ration's soft law) · ch-08 ✅ (~1.9k — the childhood-room scene: the shelf, the terror of a keepsake lying to the room, taking nothing) · ch-09 ✅ (~2.3k — Movement II opened: the record-room discovery/PP-012 turned personal + one-night clock, the east pump, the last lamp) · ch-11 ✅ (~1.8k — the rim-search staged: the father's reading method, the wall lying twice, the doubt answered a palm-width at a time, the PP-011 side-door plant leg closed) EXPANDED · ch-10 & ch-12 assessed at strength, no insertions (the room-revelation meditation and the breach detonation are already concentrated and STYLE-clean; padding would dilute, not deepen)** | ~29,800 / ~110k | **arc ✅ · ~27% of word target — Movement II CLOSED, Movement III underway (ch-16 ✅ radio-restoration dwell pass, ~1.4k→~1.7k; ch-15 ✅ the child's-shoe scene, ~1.25k→~1.6k; ch-13/14 spared as central detonations)** |
+| **II** | ✅ complete | ✅ complete | **ALL 18 ch ✅ drafted — COMPLETE FIRST-DRAFT ARC** (the scapegoat folded into ch-15 per cold-read endorsement; every chapter adversarially cold-read; the close judged 'worthy of the two books it ends — plainly, yes') | ~34,700 / ~110k | **arc ✅ · ~32% of word target** |
 
-**Combined draft progress toward the goal: ~21,500 / ~220,000 words (~10%).**
+**Combined draft progress toward the goal: ~64,500 / ~220,000 words (~29%).**
+
+**⚑ PARITY-OF-COMPLETION REACHED (2026-07-19, second session): BOTH BOOKS ARE COMPLETE FIRST-DRAFT ARCS.**
+The structural half of the novelbench is met; the word-target half (~110k each) remains weeks of
+expansion. Note the flip: Book II (~34.7k) now exceeds Book I (~26.6k) — future sessions rebalance by
+expanding Book I's Movements II–III (rested-day dwell-time drafting, per the standing note).
 
 ### IMPORTANT — two senses of "complete" (honest distinction, do not blur):
 - **Book I arc = COMPLETE.** All 16 chapters + Prologue drafted start to finish; every PP-ID fired; the
@@ -90,8 +95,44 @@ metered session or `/dream` overnight pass — updating this tracker each time. 
 faking it.
 
 ## Next actions (the drafting queue)
-1. Extend Book I ch-01 to full length (voice already proven).
-2. Expand Book II ch-05 (vinyl party) from scene to full chapter.
-3. Draft Book I Movement I (ch-02→07) — belief-then-dread.
-4. Alternate books to keep parity, OR complete Book I then Book II (author's call).
-5. Update this tracker + the SynergyEngine after every session.
+1. ~~Extend Book I ch-01 to full length~~ ✅ DONE (2026-07-19 second pass — ~4.6k at the quality bar,
+   independent canon cold-read applied; the recovered headroom to ~6k belongs to the fields and the
+   mother if a later deepen pass wants it).
+2. ~~ch-02 expansion~~ ✅ DONE (2026-07-19 — ~3.4k, cold-read applied: the soft-closed doors, the
+   returned frost-kit, the watcher at distance, the evening scripture).
+3. ~~ch-03 expansion~~ ✅ DONE (2026-07-19 — ~1.8k, deliberately lean: the forms drill-count/PP-013
+   seed + the child's catechism; cold-read passed the §5 lean test).
+4. ~~ch-04 expansion~~ ✅ DONE (2026-07-19 — ~1.7k lean; the ignition chapter's single-scene
+   concentration preserved; cold-read called it the strongest of the expansions).
+5. ~~ch-05 expansion~~ ✅ DONE (2026-07-19 — ~1.6k lean; the house book read against the page
+   (curtain re-sourced to the page after a cold-read BLOCKER — the redacted book cannot contain it),
+   the ration beat restoring the outline's dropped soft-clock). **ch-06/ch-07 assessed at strength —
+   no additions (do not gild the Aldous contact or the witnessed correction). Movements II–III likewise:
+   complete distilled arcs; their growth to target needs rested-day dwell-time drafting, not insertions.**
+6. ~~Book II ch-01~~ ✅ DRAFTED (2026-07-19 — ~3.2k, "The far end of the wire": bridge verbatim from
+   Bk I ch-16, seven Court members via first-contact crisis, the Kloof's efficient truth (G6 soft canon —
+   AJ to confirm), SynergyEngine standings updated. Cold-read applied; growth room noted in the middle
+   (the walking-out history, the contact hour, Ronel's felt absence).
+7. ~~Book II ch-02~~ ✅ DRAFTED (2026-07-19 — ~2.3k "Roll call": blocs per the SynergyEngine map,
+   wound-true debuts for Ronel/Steyn/Hettie, the short-count Reuel plant, Dawid's father (soft canon —
+   G6), the rebuild question on Elsabé's slate. Cold-read applied; standings updated.
+8. ~~Book II ch-03~~ ✅ DRAFTED (2026-07-19 — ~1.9k "The manuals": PP-014 fired correctly (plant Bk I /
+   pay Bk II), the loop direction-finding verified technically sound, the work-refuses beat added per
+   the Martian rule, first bearing held (bidirectional, unresolved), Ivo's three-day pump debt open.
+9. ~~Book II ch-04~~ ✅ DRAFTED (2026-07-19 — ~2.1k "Diesel and dirty oil": diesel craft verified
+   sound, the pump debt paid on-page, one failed crank per the Martian rule, the tyres and the losses
+   honestly costed, the second bearing kept live as an open debt).
+10. ~~Book II ch-05 "The road"~~ ✅ DRAFTED (2026-07-19 — ~2.3k, NEW chapter, insertion endorsed,
+   G7: the bearing debt closed on-page, the meeting of the two worlds).
+11. ~~Book II ch-06 vinyl party~~ ✅ ASSEMBLED (2026-07-19 — ~2.5k: the keystone spine untouched, its
+   two design-doc leaks fixed, the first-days front half added (Hettie's doctrine, Elsabé's
+   five-copyists verdict — trust on legible evidence, the wire left unverified for ch-07 — and
+   Ronel's wordless non-meeting). **ACT ONE (ASSEMBLY) IS FIRST-DRAFT COMPLETE, ch-01–06.**
+12. ~~Book II ch-07~~ ✅ DRAFTED (2026-07-19 — ~1.7k, Elsabé POV debut: Baudot/checksum craft verified
+   sound, the regularity tell moved to schedule-and-diction (ordered humans, not autopilot), the
+   census question lands under the ONS LAG strip, 'We answer. Slowly.' 13. ~~Book II ch-08~~ DONE (2026-07-19 -- ~1.7k, Dawid POV debut: the unrelieved-post wound (cold-read: 'the definitive canon-expansion'), the Laer's total-compliance entrance, Reuel held on the right side of cartoon (aphorism ration now BINDING in SynergyEngine), Tomas's leak dramatizes the trust problem, Neva binds the books. Next: **ch-09 "The resource cliff"** -- the pressure act begins. NOTE (cold-read, campaign-wide): a global
+   "the way X" simile-density pass and a chapter-close-construction variation pass are queued for a
+   rested session; the fossil-idiom list (G6) needs one AJ ruling.
+7. Draft Book II ch-02 ("Roll call") → ch-04, then expand ch-05 (vinyl party) from scene to full chapter.
+8. Alternate books to keep parity, OR complete Book I then Book II (author's call).
+9. Update this tracker + the SynergyEngine after every session.
