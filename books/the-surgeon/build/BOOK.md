@@ -1,7 +1,7 @@
 # A Note to the Reader
 
 This is a **workshop draft** of *The Surgeon*, a Cape crime novel in progress — chapters
-1–2 of a planned 24. The book you are holding is not finished; it grows with every build.
+1–4 of a planned 24. The book you are holding is not finished; it grows with every build.
 
 *The Surgeon* is the story of a brilliant final-year veterinary student in Stellenbosch who
 is secretly teaching himself human surgery — on people who never agreed to be his patients.
@@ -155,9 +155,147 @@ And the door, being a door, says nothing, and the light on the steps goes from C
 That is what I show everyone.
 
 
+# Three — The Lost Evening
+
+Margaux Theron woke at 11:40 on a Saturday morning with her shoes off, her dress on, and the sense — before she was awake enough to name anything — that her flat had been tidied by someone politer than her.
+
+The curtains were drawn. She never drew the curtains; the view was the point of the rent. On the nightstand stood a glass of water, full, dead centre on a coaster she normally left in the kitchen, and beside it two white pills in a torn-off strip of blister packaging, laid parallel, like a place setting.
+
+She lay still for a long time, doing the arithmetic of shame.
+
+One glass at Arlecchino with Roxy, who'd left early for a date. Then the man — Chris, he'd said, just Chris, in the way of men who are confident their surname would only slow things down — who had somehow already ordered the exact Chenin she'd been circling on the list, and who'd talked about maths of all things, the golden whatever, in a way that should have been insufferable and instead had made her feel like a cathedral being appraised by someone who knew about cathedrals. She remembered laughing her real laugh. She remembered him saying *perfection is irrational* and thinking, tipsily, that she'd put it on a client deck by Wednesday. She remembered the second glass arriving.
+
+She remembered nothing else.
+
+Not leaving, not the stairs, not a taxi, not her door. Eleven years of Cape Town nights out and she had never once lost the walk home; she was famous among her friends for being the one who ordered the waters, who got everyone into the Uber, who remembered in the morning what the others were grateful to forget. She lay in her drawn-curtained room with her heart going and did what women are trained to do with a hole in the night: she blamed herself into it. Wine on an empty stomach. That new pre-workout. The antihistamine she'd taken at lunch — you're not supposed to mix those, everyone said so. She built the bridge plank by plank until it more or less held her weight, and then, because the alternative was to keep standing on it, she got up.
+
+Her phone was charging. She never remembered to charge it. On the screen, a message from a number with no name:
+
+*Made sure you got home safe. You were great company. Drink the water. — C*
+
+She read it maybe thirty times over the course of the day. It was, depending on the hour, the sweetest thing a stranger had ever done for her, and proof that nothing bad could have happened, because bad men don't leave water; and then at 2 a.m., briefly, it was the most frightening sentence she had ever received, *drink the water*, an instruction from someone who had been in her bedroom while she was not, strictly speaking, anywhere. She typed *thank you so much for getting me back!! embarrassed 🙈* and deleted it. Typed *who is this?* and deleted it. In the end she replied with a thumbs-up, the emoji of surrender, and he never messaged again, and that, she told herself, settled it: a decent guy, a bad mix of wine and antihistamines, a story she would tell at her own expense until it went smooth from handling.
+
+She did not tell it to anyone for nine days. When she finally gave Roxy the trailer version — *I got SO wrecked, this random had to basically carry me home, I'm never drinking again* — Roxy laughed and said what everyone says, *babe you're such a lightweight*, and the story clicked into the shape stories go in the group chat, and after that it was true, more or less, because it had been witnessed.
+
+The paracetamol she didn't take. She didn't keep paracetamol in the flat — headaches went to her neck, and her physio had opinions — and she stood in the kitchen holding the torn strip for a moment, Panado, a brand like a nursery rhyme, thinking: he had these *on him*? Then she dropped them in the drawer where the takeaway chopsticks lived, and the drawer closed over them, the way drawers do.
+
+---
+
+The month that followed was full of very small wrong things, none of them worth a sentence out loud.
+
+Her spare key was under the mat but sideways, tucked at the wrong edge, and she stood on the landing one evening holding it and could not remember when she'd last used it, and decided the cleaner must have, though the cleaner had her own key, and the thought slid off the day like water off a new raincoat.
+
+There was a tenderness above her left eye, the kind of nothing you notice only in the shower, gone in a week.
+
+Her make-up sat differently. This is not a thing she could have said in words to a living person — *my concealer glides where it used to catch* — but the hand knows its own face the way a pianist knows a keyboard, and for eleven years, since she was old enough to want to, her ring finger had done a small extra tap-and-press at the outer third of her left eyebrow, where the skin puckered a hairsbreadth over the old scar, a private half-second of spackling that no tutorial had taught her. Her finger kept arriving at the spot and finding nothing to do. It confused her the way a missing stair confuses a foot. She put it down to the new primer.
+
+She was twenty-two days past the lost evening, running late for a client breakfast, when the light caught her.
+
+Winter light in Camps Bay comes in low and honest off the sea in the mornings, and her bathroom faced it, and she was leaning into the mirror doing her brows — and there is a magnifying side to that mirror, 5x, bought in a fit of self-improvement and used since to inventory her pores — when her hand stopped on its own, the little spoolie brush hanging there, because the comma was gone.
+
+Not faded. Not covered. Gone.
+
+She had carried that scar since she was nine years old. Handlebars, Bloubergstrand, the promenade, her father running the last twenty metres in his church clothes because she'd begged to try the big bike *now, tonight, before supper*, and he'd said one lap and run beside her and not caught her in time — and in the emergency room he'd held her hand while they cleaned it, pale as the wall, and told her, in the voice he used for true things and rugby, *dit gee jou karakter, my kind*. It gives you character. She had rolled her eyes at that sentence for twenty-two years. She had hated the scar at fourteen, warred with it at seventeen, learned the finger-tap at twenty, priced its removal at twenty-six in a Claremont clinic's waiting room and walked out before her number was called, not because of the money — she told herself it was the money — but because the surgeon in the consult had touched it with his thumb and said *easy, we'll have that gone in twenty minutes*, and something in her had recoiled from the word *gone* like a child yanked back from a road. Her father was four years dead now. It was the last mark on her body that he had ever touched.
+
+She hated it. She had planned to keep hating it for the rest of her life. That was the arrangement.
+
+Margaux stood in the winter light with the spoolie in her hand and leaned closer, and the magnifying mirror gave her its huge honest answer: smooth skin, fine hairs, no pucker, no comma, no seam. Her body, edited. She laughed — one short strange bark, because the first thing the mind reaches for is comedy, *I'm losing it, I'm actually losing it* — and then she put her fingertip on the place, the way her finger had been trying to tell her for three weeks, and pressed, and felt nothing but herself. And the vertigo that came then was not like fear of a burglar, which at least has a shape — a man, a window, a missing television. Everything was where she'd left it. The flat was fine. The door had been locked. Nothing had been taken.
+
+That was the thing she could not explain afterwards, to Roxy, to the GP with his kind stupid eyes, to the young policewoman years of training had not prepared for a sentence like *someone removed my scar*: that she stood in her own bathroom in the truthful light with her rent-a-view glittering behind her and understood, all at once and with her whole skin, that nothing had been taken, and that she had been robbed — that somewhere in the city was a person who had held her sleeping face in his hands like a form to be corrected, and corrected it, and put her back, and left water.
+
+She was late for the client breakfast. She went anyway. She was excellent in it; everyone said so. Under the table, the whole hour, her finger kept touching the smooth place where her father used to be.
+
+
+# Four — The Man Who Broke a Man
+
+There is a version of the video that runs eleven seconds and a version that runs four minutes and nineteen, and the country has only ever watched the eleven.
+
+Captain Gideon Loots has watched the four-nineteen more times than he could defend to a doctor. It lives on a phone he no longer uses, in a folder called ADMIN, and he does not watch it for the reason people would assume. He watches the first three minutes and fifty. He watches Ryan Adonis sitting on the bench in the holding cell at Bellville South with his ankles crossed, relaxed as a man waiting for a haircut, saying the thing he said. He watches himself standing very still by the door with his hands loose at his sides for what is, on the timestamp, a hundred and ninety seconds — a long time, three minutes plus, a man being reasonable in real time, longer than most people can hold a plank — and he watches the exact frame where whatever had been holding the door of him shut simply was not there any more.
+
+Then the eleven seconds. Then the part where Warrant Officer Petersen gets an arm around his neck and W/O Kruger takes the other side and they drag him out and he is not fighting them, has never once in the footage fought them, is only trying to get back to what was still on the floor.
+
+It went to the media in seventy-two hours. It went to the IPID and the union and a disciplinary tribunal and a civil claim that is still, eighteen months later, crawling through the system like something under a carpet, and it went — this is the piece Loots cannot leave alone — into the head of a nineteen-year-old girl in a residence room in Tygerberg who had to sit in a lecture the next morning while the boys behind her played it on a phone and laughed, not knowing, because why would they know, that the man in it was Ilse Loots's father.
+
+Four-year-old Deneo Mokoena. That is the name the eleven seconds never carries. Adonis put her in a wheelie bin behind the flats on a Thursday and went to a christening on the Saturday and wore a light blue shirt. In the cell he crossed his ankles and told Loots, in a friendly voice, as a professional courtesy between men who understand systems, exactly what the State could and could not prove now that the bin had been through the municipal truck. And then he said the sentence. There are men in the Service who believe they know what the sentence was; every one of them is wrong, because Loots has never repeated it, not to the tribunal, not to Elmarie, not to the psychologist with the tissues placed at the exact midpoint of the coffee table. It was not about the child. That's the thing. If it had been about the child he might have been forgiven.
+
+Adonis went down anyway, seventeen years, on evidence Loots had built before he ruined it and that a very good prosecutor carried across the line despite him. That is the arithmetic he lives inside. He did not lose the case. He only lost everything else.
+
+---
+
+He wakes at 4:40 on the Tuesday, as he does, in the duplex in Parow with the burglar bars and the two stoep chairs that were his mother's, and lies looking at the ceiling until the light comes grey. There is a bottle of Klipdrift on the counter with maybe four fingers gone from it since Sunday, which is, by the standards of last winter, close to sainthood, and there is a plate in the sink from Sunday too. On the fridge, held by a Kaizer Chiefs magnet from a man who does not follow soccer, a photograph of a girl of about eleven in a swimming costume holding up a certificate, grinning, missing a tooth.
+
+He phones her at 6:50, which is a good time, before her first block. It rings out. He does not leave a message, because the messages accumulate in a way that starts to look like something, and instead he types *Hoop dit gaan goed met die semester, Pappa* and looks at it for a while and sends it, and puts on yesterday's jacket, and drives to work with the window open because the car smells like a car that gets slept in occasionally.
+
+Bellville Sentraal now. Not the Provincial office, not the taskforce floor with its whiteboards and its cameras. A satellite unit in a building with a leaking parkade, where he is Captain (Under Supervision), a rank that does not exist in any regulation and is understood by everybody. His supervision is Colonel Rina Delport, who is forty-four and fireproof and who fought to keep him at all, which he knows and resents in roughly equal measure.
+
+She calls him in at ten past eight and does not offer coffee, which is her way of saying this won't take long.
+
+"Sit, Gidi."
+
+"I'm fine."
+
+"Sit."
+
+He sits. Delport turns a docket around on the desk and pushes it across with one finger, the way you'd slide something you didn't want the smell of.
+
+"Sea Point handed it up. Then Camps Bay handed it up. Then it went to Sexual Offences, who bounced it because there's no offence in it, and then it sat on the group commander's desk in Provincial for five weeks, and now it's here."
+
+He opens it. Two statements, thin as church attendance. A woman of thirty-one in Camps Bay, brand strategist, no priors, no drugs, no complaints against anyone, describing an evening she cannot account for and a scar she says has been surgically removed from her eyebrow without her knowledge or consent, three weeks after the fact. A GP's note in the same file, two lines, containing the words *no evidence of trauma* and the word *anxiety*, both of them doing a lot of work. A second statement, a woman of twenty-six in Bantry Bay, a mole gone from her shoulder blade, reported after she saw the first woman's post in a Facebook group.
+
+He reads it twice. He does the thing he does, which is nothing — sits with the pages the way a man sits in a hide.
+
+"They're calling it the Beauty Fairy," Delport says. "In Provincial. There's a WhatsApp."
+
+"Mm."
+
+"Two complainants who both feel *better*, no injuries, no assault, no theft, no penetration, nothing missing from either flat. One GP who thinks it's stress. The most likely scenario is two women had procedures they were embarrassed about and told themselves a story, or a boyfriend paid for something as a surprise, or it's nothing at all." She is watching him now. "The most likely scenario, Gidi."
+
+"You said that."
+
+"I'm saying it twice because you have a history of taking the second-most-likely scenario personally." She leans back. "This is a nothing docket. I'm giving it to you because it's a nothing docket, and because if you close a nothing docket properly, with a report I can put in front of a review board, I have something to show them in September that is not a video. Do you understand what I'm handing you?"
+
+"A leash."
+
+"A rope, Gidi. There's a difference, and it's mostly which end you're holding."
+
+He stands, tucks the folder under his arm, and gets as far as the door before she says his name in the other voice, the one from before all this, when she was a lieutenant on his group and he taught her how to walk a scene backwards.
+
+"Gideon. Eight weeks. Statements, a report, a filing. Do not turn it into a war."
+
+"Ja, Kolonel," he says, and means it, or means to mean it, and takes the thing everyone else has already laughed at down the corridor to a desk with a wobble he fixed himself with a folded incident form.
+
+---
+
+He does not open the docket again until half past four, when the office has thinned out. He clears the desk completely — this is a habit older than his marriage; Elmarie used to say he cleaned surfaces the way other men prayed — and lays the two statements side by side and reads them the way he reads everything, which is out loud, under his breath, in Afrikaans, translating as he goes, because a lie has a different rhythm in the mouth than in the eye.
+
+At six he gets up and makes bad coffee. At twenty past he sits down again.
+
+Here is what the rest of the Service saw: two silly complaints. Here is what Gideon Loots sees, and he sees it the way he has always seen these things, not as a deduction but as a smell, the way you know a house has a dog in it before you see the dog:
+
+Both women lost an evening in a licensed venue on the Atlantic Seaboard, three months apart, both of them people whose friends describe them as careful. Neither was robbed. Both were put to bed on their *side*. Both flats were locked afterwards. And both women — one in a formal statement, one in a WhatsApp screenshot her friend added because the officer taking it couldn't see the point — woke up to a glass of water on the nightstand and two paracetamol tablets beside it.
+
+Two. Not a strip. Not a box. Two tablets, set out.
+
+Loots sits back in a chair that squeaks and looks at that for a long, long time, and something in his chest that has not moved in eighteen months turns over slowly, like an animal changing sides in its sleep.
+
+Because a man who drugs a woman does not think about her headache. A man who drugs a woman and takes nothing and leaves nothing behind but two paracetamol is not a thief, is not — whatever Sexual Offences decided in four minutes on a Tuesday — an ordinary predator taking his ordinary thing. He is *tidying up after himself*. He is leaving a room in a better condition than he found it. That is not appetite. That is housekeeping. That is a man who believes he has done something considerate and wants the aftercare to reflect well on him.
+
+Loots knows a great deal about men who believe the thing they did was correct.
+
+He knows more than he would like about what such a man does next, which is never less. He has never once, in twenty-six years, met that shape and found it standing still.
+
+He pulls a blank sheet from the drawer and clicks his pen and writes the first sentence of a profile that will eventually run to eleven pages and be read, in September, by people who will not want to have laughed:
+
+*Hy dink hy is die dokter. Hy dink hy help.*
+
+He thinks he is the doctor. He thinks he is helping.
+
+Then he sits with the pen in his hand while the parkade lights come on outside the window, and he does not go home for another two hours, and when he does he pours one Klipdrift and Coke, and drinks half of it, and falls asleep in his mother's chair with the docket open on his knee and his phone on the armrest, screen up, in case.
+
+
 # About This Draft
 
 *The Surgeon* is in the workshop at Arjuna Badger Press. This edition contains chapters
-1–2. The full novel — five parts, from the kindnesses to the masterpiece — is in progress.
+1–4. The full novel — five parts, from the kindnesses to the masterpiece — is in progress.
 
 *Perfection is irrational.*
