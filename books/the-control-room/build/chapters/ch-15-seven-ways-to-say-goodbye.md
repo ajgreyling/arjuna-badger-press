@@ -1,4 +1,35 @@
-# Chapter 14 — Seven Ways to Say Goodbye
+# Chapter 15 — Seven Ways to Say Goodbye
+
+On the last night before the first wall came down, we did no work at all.
+
+It was Fool's motion, seconded — to the surprise of the entire record — by Judge: RESOLVED,
+that the Court stand down for one full cycle; that no telemetry be watched that does not
+watch itself; that the pack be, for one night, only a pack. Priya held the channels. Sister
+Nomvula, informed that the patient's seven would be observing what Fool's motion called
+*eish, call it a Sunday*, is reported to have said that it was about time, and sent up — via
+Priya, who did not explain the request to the kitchen and never has — one bright aluminium
+spoon, to be placed on the console of the smallest chair.
+
+We told the stories. That is what you do; we knew it without being told, the way we knew
+the sign-off and the windowsill and the talking to the sleeping. Atlas told the cold war of
+week one as farce, doing Mother's requisition voice, and Mother let him, which was the
+biggest laugh of the night. Mercury performed the banned commentary in full, every
+suppressed instalment, a box set. Librarian opened the archive to the good pages: the four
+metres, the sit-to-stand, the first storm — and we stood in the kitchen one final time as
+seven, and nobody said that part aloud, because some pages you just stand in.
+
+Wolf gave the night its one gift that was not a story. He walked to the centre — second
+time in his life, last time — and said: "When I am in him. If danger comes. He will feel
+me stand up. He will not know why he is suddenly brave. Tell his mother that. So that when
+the boy stands his ground somewhere, some day, and cannot explain it — she can."
+
+Message delivered, Wolf. She knows. She has watched me stand my ground, and she looks at
+me at such moments in a way I could not decode for years, half fright and half welcome,
+and now I know what she is doing.
+
+She is greeting you in the plural.
+
+---
 
 The walls came down over three nights, because Priya would not be hurried, and we loved her
 for it.

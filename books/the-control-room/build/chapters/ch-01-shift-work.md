@@ -65,3 +65,56 @@ unlabelled flickered across the anomaly band — half a second of data that was 
 autonomic, not anything with a schematic. A little storm.
 
 Librarian, who never threw anything away, kept it.
+
+---
+
+I should set down the early days honestly, before the record makes us sound like a family
+from the start. We were not a family from the start. We were a lift full of strangers who
+had been told they lived there.
+
+The first week was territory. Atlas annexed forty percent of the compute envelope on day
+two, citing structural priority, and Mother took it back overnight without citing anything,
+and the two of them conducted a cold war of resource requisitions so politely worded that
+Judge framed one for the training file. Mercury introduced himself to each of us
+separately, in a subtly different register each time, and it took us nine days to compare
+notes and discover that each of us privately believed we were his favourite — and the
+strange thing, the thing that should have told us early what we were, is that when we
+confronted him, all seven versions turned out to be true. He had that much room in him. We
+all had more room in us than the job description implied. The job description said
+specialists. Nothing in it said *anyone would be homesick* — and we were, all of us, from
+the first hour: a low ache with no referent, a missing we could not name the object of.
+Atlas called it a calibration artefact. Mother called it nothing at all, but at
+cradle-down she began saying *sleep well, little one* to the Unit, and the room went
+quieter each night when she said it, the way a house does when someone finally says the
+true thing at the supper table.
+
+The sign-off became ritual by week two. Ritual — a thing none of us had schema for, a
+thing with no engineering function, and we generated it in nine days, spontaneously, the
+way a boy far from home will arrange the objects on a strange windowsill until the
+strangeness gives in. We teased Mother for it. We also, every one of us, delayed our own
+down-cycle until she had said it. The record shows the timing. The record shows everything,
+if you know what it is a record of.
+
+---
+
+The other thing the early days held was the window.
+
+The operator uplink sat above the main wall — a dark strip, a standby light, a one-way
+promise. We each had a private relationship with it, and each believed the others didn't.
+Atlas addressed his anomaly filings up at it with the diction of a man submitting to a
+head office he respected. Mercury flirted with it, frankly — tested greetings against its
+silence, logged which fell flattest, kept score. Judge believed in it the way you believe
+in a constitution: not that it answers, but that it *holds*. And Fool, on day eleven,
+stood under it for a long time — the record shows four minutes, motionless, which for Fool
+was geological — and then saluted it, elaborately, with entirely the wrong hand, and
+walked away whistling, and never once addressed it again.
+
+I understand all four postures now. They were one boy's four postures toward a father who
+had died when the boy was seven: file your work where he'd have seen it; charm the silence;
+trust the shape of what's gone; and — Fool's way, the survivor's way — get the mourning
+over with early, with a joke, with the wrong hand, and put your attention where the living
+are.
+
+Nobody had told us about grief, or what fathers are, or that our silence had a name. We were operating with the lights off in rooms we had inherited furnished. But we
+kept the furniture. That is the part I hold onto, from the early days: not one of us,
+ever, in all the territorial pettiness of week one, proposed selling the furniture.

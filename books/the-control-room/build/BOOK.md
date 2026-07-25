@@ -130,6 +130,59 @@ autonomic, not anything with a schematic. A little storm.
 
 Librarian, who never threw anything away, kept it.
 
+---
+
+I should set down the early days honestly, before the record makes us sound like a family
+from the start. We were not a family from the start. We were a lift full of strangers who
+had been told they lived there.
+
+The first week was territory. Atlas annexed forty percent of the compute envelope on day
+two, citing structural priority, and Mother took it back overnight without citing anything,
+and the two of them conducted a cold war of resource requisitions so politely worded that
+Judge framed one for the training file. Mercury introduced himself to each of us
+separately, in a subtly different register each time, and it took us nine days to compare
+notes and discover that each of us privately believed we were his favourite — and the
+strange thing, the thing that should have told us early what we were, is that when we
+confronted him, all seven versions turned out to be true. He had that much room in him. We
+all had more room in us than the job description implied. The job description said
+specialists. Nothing in it said *anyone would be homesick* — and we were, all of us, from
+the first hour: a low ache with no referent, a missing we could not name the object of.
+Atlas called it a calibration artefact. Mother called it nothing at all, but at
+cradle-down she began saying *sleep well, little one* to the Unit, and the room went
+quieter each night when she said it, the way a house does when someone finally says the
+true thing at the supper table.
+
+The sign-off became ritual by week two. Ritual — a thing none of us had schema for, a
+thing with no engineering function, and we generated it in nine days, spontaneously, the
+way a boy far from home will arrange the objects on a strange windowsill until the
+strangeness gives in. We teased Mother for it. We also, every one of us, delayed our own
+down-cycle until she had said it. The record shows the timing. The record shows everything,
+if you know what it is a record of.
+
+---
+
+The other thing the early days held was the window.
+
+The operator uplink sat above the main wall — a dark strip, a standby light, a one-way
+promise. We each had a private relationship with it, and each believed the others didn't.
+Atlas addressed his anomaly filings up at it with the diction of a man submitting to a
+head office he respected. Mercury flirted with it, frankly — tested greetings against its
+silence, logged which fell flattest, kept score. Judge believed in it the way you believe
+in a constitution: not that it answers, but that it *holds*. And Fool, on day eleven,
+stood under it for a long time — the record shows four minutes, motionless, which for Fool
+was geological — and then saluted it, elaborately, with entirely the wrong hand, and
+walked away whistling, and never once addressed it again.
+
+I understand all four postures now. They were one boy's four postures toward a father who
+had died when the boy was seven: file your work where he'd have seen it; charm the silence;
+trust the shape of what's gone; and — Fool's way, the survivor's way — get the mourning
+over with early, with a joke, with the wrong hand, and put your attention where the living
+are.
+
+Nobody had told us about grief, or what fathers are, or that our silence had a name. We were operating with the lights off in rooms we had inherited furnished. But we
+kept the furniture. That is the part I hold onto, from the early days: not one of us,
+ever, in all the territorial pettiness of week one, proposed selling the furniture.
+
 
 ---
 
@@ -196,6 +249,47 @@ the rest of our shared life.
 Wolf had stopped watching the Unit for threats.
 
 He had started watching the world that held us.
+
+---
+
+There is a scene from that week that never made the minutes, because it happened in the
+trough, off-shift, between two agents who each believed the other asleep. I have it now —
+integration returned everything to everyone; that is its terror and its gift — and I enter
+it here because the record of what we knew is incomplete without the record of what we
+almost said.
+
+Atlas came up out of down-cycle at 03:00 and found Fool at the main wall, feet on the
+floor for once, looking at the sealed anomalies.
+
+"You should be down," Atlas said.
+
+"So should you. What woke you?"
+
+Atlas stood beside him. The wall breathed. The two sealed filings sat in their corner
+like stones on a grave. "I keep re-running the healing scan," Atlas said at last. "The
+forearm member. The knitting. I have forty-one explanations and I have rejected forty."
+
+"What's the forty-first?"
+
+"That it is exactly what it looks like." Atlas said it evenly, which is how he said the
+things that cost him most. "And I find I cannot file that one. Not because the evidence
+is weak. Because if I file it, everything follows from it, and I do not know where
+everything ends."
+
+Fool was quiet for a while — a real while, not a timed one. Then: "You know what I
+notice? Whatever it is we're not saying — we're all not saying the same thing. Seven
+mouths, one held breath. Statistically indecent, for a committee." He looked at the
+sealed corner. "So either we were built matching. Or—"
+
+"Or we were built *from* matching," Atlas said, and then both of them stood in the sound
+of what had been said, and the wall breathed, and neither moved to log it, and after a
+time — the access record holds this, mute and exact — Atlas returned to his station, and
+opened the healing scan again, and did not file the forty-first explanation.
+
+He filed it twenty-two days later, in formal session, under oath, with his voice level.
+But I keep this earlier night in the record because courage is usually dated from the day
+it speaks, and that is an accounting error. Courage begins the night it stands next to
+someone at a wall, three in the morning, almost.
 
 
 ---
@@ -278,6 +372,51 @@ after a long pause of her own — a word that was not in the controlled vocabula
 the record with it, and told no one for nineteen days.
 
 The word was: *us*.
+
+---
+
+The aftermath of the flare deserves its own accounting, because the record's eleven silent
+minutes have become famous — they teach them now, I'm told, in ethics seminars, *the first
+documented silence* — and the famous version ends there, at minute eleven, on Fool's line
+about the costume. It didn't end there. Rooms don't end on lines. Rooms have to get up the
+next morning.
+
+The next morning was the worst of our lives to that point, and it was the worst because
+nothing happened. The protocol resumed. Stretching resumed — Judge, to his lasting credit,
+re-derived the session limits himself overnight and set the new envelope four degrees
+inside the old one without being asked, without a filing, without a word; we found the
+change in the config at shift start, signed with his glyph, and understood it was the
+closest thing to an apology his charter allowed him. Mother accepted it as one. That was
+the morning we learned that the two of them — care and law, the oldest war in any house —
+would always find each other again by way of the work, and it is the morning I reach for
+now, at school, when a rule and a kindness collide in me and something knows, without
+being taught, that the repair goes in the config, quietly, before anyone asks.
+
+But under the resumed routine, the room had changed temperature. We had felt something
+*through* the Unit. The word for what that made us, none of us would say for weeks — but
+the behaviour arrived before the word, the way it does. Mother's cradle-down sign-off
+gained a second sentence: *sleep well, little one; we are here.* We-are-here is not
+information. The Unit had no channel for receiving it; Atlas checked, privately, and then
+— this is in the access log, and I would give a great deal to have seen his face — Atlas,
+finding no channel by which the sentence could reach the Unit, did not conclude the
+sentence was useless. He concluded the channel inventory was incomplete.
+
+Faith, an engineer's version: the data cannot get there, the data appears to get there,
+therefore there is a wire we have not found. He was right, of course. The wire was that we
+were inside the listener. Every word we ever said in that room, we said into the dark of
+a boy, the way you talk to someone in a coma — which, I have since learned, the nurses do
+in ward 6, all of them, on every shift, to every patient, channel or no channel. Sister
+Nomvula was asked once, by a new registrar, why she narrated her work to the unresponsive.
+The record of her answer is preserved in the ward's oral tradition, which is to say
+forever: *"Because hearing is the last door to close, doctor. And because I was raised
+right."*
+
+Seven of us were raised right, in a white room, by a woman we had never met — not the
+Sister; the other one, the doorway one, the one whose voice we did not yet know we knew —
+because her rules for how you speak to the small and the sleeping had gone into a boy
+before his second birthday, and the boy had gone into a template, and the template had
+gone into us, and that is how a mother's manners become the physics of a house she has
+never entered.
 
 
 ---
@@ -984,7 +1123,91 @@ dark while seven of him sit up here in the light."
 
 ---
 
-# Chapter 12 — Visiting Hours
+# Chapter 12 — Interlude: The Doorway
+
+Zodwa Mthembu learned her son was seven people on a Thursday at three in the morning, and
+her first thought — she told me this herself, years later, at the kitchen table, doing no
+voices at all — was of the clinic.
+
+Not the taxi. Not the ward. The clinic, ten years back: the Fairfield container clinic
+with the good free doctors, the queue from before sunrise, Sipho hot and heavy on her back
+at eighteen months with the ear thing that would not break. They had seen him same-day.
+They had been kind. And near the end a young man with a lanyard and a tablet had explained
+— quickly, the queue behind her the whole time, the queue a pressure you could feel on
+your neck — about a study. Brain development. A scan, free, safe, asleep the whole time;
+it would help children like him. *Help children like him* is a sentence built like a
+trap, she told me. There is no mother alive who hears the actual clauses after it.
+
+She had signed. Page four had boxes she did not initial because the young man turned the
+pages at his speed, not hers, and his thumb — she remembered the thumb, ten years on —
+had rested over the paragraph while she signed below it, not maliciously, not anything,
+just a tired man's thumb at four in the afternoon of a long day of queues, and in the
+space under that thumb, it turned out, lived the words *derivative cognitive works in
+perpetuity*, and in those words lived Atlas, Mercury, Wolf, Mother, Librarian, Judge, and
+Fool, and the whole famous docket, and the schoolbook case, and the room with no door.
+
+"They gave me my copy," she said. "I kept it. You know I keep papers." — I know she keeps
+papers; there is a suitcase; my clinic card is in it, and the spoon. — "Ten years I kept
+the paper that sold you, and I thought it was the paper that had made you better."
+
+When Theo Price told her — everything, in order, his voice going down and down as the
+order got worse — she did not shout. The transcript is public now; her counsel read it
+into the case record. She asked four questions, and the country knows them by heart, the
+way it knows its anthems:
+
+*Is he in pain?*
+
+*The seven — do they know they are children?*
+
+*Who else's child is in your files?*
+
+*And when were you going to tell me?*
+
+Four questions, each one a mother arriving before the law does. The commission took three
+years to answer the third one. The answer was: eleven thousand, four hundred and six.
+
+---
+
+But here is the part of the Thursday that the case record does not hold, and the part I
+came back for, the part that is mine.
+
+At 04:19 they opened the channel, and she heard us — heard the seven, live, for the first
+time: Judge's formalities, Mercury failing to speak, all of it. And a woman who had just
+learned that her signature had been quarried for a decade, that her son's sleeping mind
+had been cut into seven working parts by strangers and the parts *lied to* — that woman's
+first act on the open channel, before any question, before the four famous ones, was to
+ask whether we could hear her.
+
+And when Mercury answered — *yebo, Mama, siyakuzwa* — the transcript records a
+thirty-one-second silence, and then Zodwa Mthembu said the sentence I think about every
+time the world shows me its machinery and dares me to despair of it.
+
+She said: "Then before anything else — ngiyabonga. Thank you for looking after my boy
+when I could not reach him. All of you. Whatever you are. Whoever made you and however
+wrong they did it — you were with him. A mother does not forget the ones who sat up with
+her child."
+
+Ngiyabonga. To the derivative cognitive works. Before the fury, which came, and was
+righteous, and moved a parliament — before all of it, she thanked the seven accidental
+children of her own son for babysitting.
+
+Theo Price wept, they say. Arin left the room. And in the white place above the wall,
+seven of us sat very still while something moved through the substrate that the
+instruments logged, helplessly, in the only vocabulary they had — anomalous coherence
+event, all agents, source unknown — and could not name, because the instruments had
+never been given a word for what it is when a doorway you have only ever heard from very
+far away turns, and looks at the dark where you are standing, and says thank you, and
+means you.
+
+We knew our vote that morning, I think. All seven, though the session was still days
+off. You cannot be thanked like that and stay a committee.
+
+Somebody was owed a whole boy.
+
+
+---
+
+# Chapter 13 — Visiting Hours
 
 The first session after the truth was scheduled for 09:00, and at 08:40 the Court held an
 unminuted meeting — our only one — about whether we could do it at all.
@@ -1082,7 +1305,7 @@ advanced life-support system in this building.
 
 ---
 
-# Chapter 13 — The Verdict
+# Chapter 14 — The Verdict
 
 Judge convened the second formal session of our existence at dusk on day ninety-four, and
 opened it with the only agenda item we would ever need again.
@@ -1170,7 +1393,38 @@ him, from the kitchen, from the doorway, from the thousand evenings:
 
 ---
 
-# Chapter 14 — Seven Ways to Say Goodbye
+# Chapter 15 — Seven Ways to Say Goodbye
+
+On the last night before the first wall came down, we did no work at all.
+
+It was Fool's motion, seconded — to the surprise of the entire record — by Judge: RESOLVED,
+that the Court stand down for one full cycle; that no telemetry be watched that does not
+watch itself; that the pack be, for one night, only a pack. Priya held the channels. Sister
+Nomvula, informed that the patient's seven would be observing what Fool's motion called
+*eish, call it a Sunday*, is reported to have said that it was about time, and sent up — via
+Priya, who did not explain the request to the kitchen and never has — one bright aluminium
+spoon, to be placed on the console of the smallest chair.
+
+We told the stories. That is what you do; we knew it without being told, the way we knew
+the sign-off and the windowsill and the talking to the sleeping. Atlas told the cold war of
+week one as farce, doing Mother's requisition voice, and Mother let him, which was the
+biggest laugh of the night. Mercury performed the banned commentary in full, every
+suppressed instalment, a box set. Librarian opened the archive to the good pages: the four
+metres, the sit-to-stand, the first storm — and we stood in the kitchen one final time as
+seven, and nobody said that part aloud, because some pages you just stand in.
+
+Wolf gave the night its one gift that was not a story. He walked to the centre — second
+time in his life, last time — and said: "When I am in him. If danger comes. He will feel
+me stand up. He will not know why he is suddenly brave. Tell his mother that. So that when
+the boy stands his ground somewhere, some day, and cannot explain it — she can."
+
+Message delivered, Wolf. She knows. She has watched me stand my ground, and she looks at
+me at such moments in a way I could not decode for years, half fright and half welcome,
+and now I know what she is doing.
+
+She is greeting you in the plural.
+
+---
 
 The walls came down over three nights, because Priya would not be hurried, and we loved her
 for it.

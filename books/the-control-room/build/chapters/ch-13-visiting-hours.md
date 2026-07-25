@@ -1,4 +1,4 @@
-# Chapter 12 — Visiting Hours
+# Chapter 13 — Visiting Hours
 
 The first session after the truth was scheduled for 09:00, and at 08:40 the Court held an
 unminuted meeting — our only one — about whether we could do it at all.
