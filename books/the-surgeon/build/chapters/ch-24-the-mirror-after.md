@@ -34,7 +34,7 @@ Nkosi thought about it for a while.
 
 ---
 
-The trial ran the following winter and lasted eleven weeks.
+The trial ran the following winter and lasted nine weeks.
 
 Nadia Prinsloo gave evidence on the fourth day. She had had two operations by then — a nerve graft in the December, a static suspension in the March — and the left side of her face had recovered enough that a stranger meeting her would have said only that something about her was very still. She testified for two hours and forty minutes. She was asked, by a defence counsel who was doing his job and who apologised to her afterwards outside on the steps, whether she was aware that her surgical outcome, in purely aesthetic terms, had been described by two independent experts as excellent.
 
@@ -60,7 +60,7 @@ Loots did not go to the sentencing.
 
 He went, instead, on a Tuesday two weeks earlier, to the holding facility, and stood in the corridor outside the section for about ninety seconds, and did not go in.
 
-He had told himself for eleven months that he wanted to know what the sentence in the werf had been going to be. He had rehearsed the conversation the way he had once rehearsed interviews. And standing in a corridor that smelled of floor polish and other men's cigarettes, he found that the want was gone — not resolved, not conquered; simply gone, the way a fever goes, leaving a man tired and slightly amazed.
+He had told himself for fourteen months that he wanted to know what the sentence in the werf had been going to be. He had rehearsed the conversation the way he had once rehearsed interviews. And standing in a corridor that smelled of floor polish and other men's cigarettes, he found that the want was gone — not resolved, not conquered; simply gone, the way a fever goes, leaving a man tired and slightly amazed.
 
 There is a thing about those sections that the public does not know. There are no glass mirrors anywhere. Glass breaks, and broken glass has uses, so what they put above the basins is a sheet of polished steel screwed to the wall: unbreakable, faintly warped, and honest in the way of all cheap reflective surfaces, which is to say not honest at all.
 
@@ -70,7 +70,7 @@ He turned around and walked back out to the car park, and phoned his daughter, a
 
 She phoned back in four minutes.
 
-They had the coffee. She told him about a lecturer she couldn't stand and a friend who was dropping out. He told her — because she asked directly, which she had learned to do that year — that it had been eleven months and nineteen days, and that some weeks were fine and some weren't, and that Tuesdays were the worst and he had no idea why.
+They had the coffee. She told him about a lecturer she couldn't stand and a friend who was dropping out. He told her — because she asked directly, which she had learned to do that year — that it had been fourteen months and nineteen days, and that some weeks were fine and some weren't, and that Tuesdays were the worst and he had no idea why.
 
 "Ma says you're back at Provincial," said Ilse.
 

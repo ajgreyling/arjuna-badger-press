@@ -50,17 +50,17 @@ Nkosi found him at the desk with the negative result in his hand and, she said l
 
 Then the Chenin.
 
-It came from the second-least glamorous piece of police work in the province, which was Constable Ncube and two students on a learnership going through eleven bars' worth of card-machine settlement records for eleven specific nights across two and a half years — and finding nothing, because he paid cash, always, two-hundred-rand notes folded once.
+It came from the second-least glamorous piece of police work in the province, which was Constable Ncube and two students on a learnership going through fourteen bars' worth of card-machine settlement records for fourteen specific nights across two and a half years — and finding nothing, because he paid cash, always, two-hundred-rand notes folded once.
 
 What they found instead was the *order*.
 
-Bar staff turn over on the Seaboard every six months, but stock systems remember everything. And on nine of the eleven nights, in five different establishments, the same wine had been rung up on a table where a victim had been sitting: a 2019 Chenin from a small producer on the Pniel side of the Simonsberg, listed by three of those bars and, at two of them, not on the printed list at all — a bin-end, available if you knew to ask.
+Bar staff turn over on the Seaboard every six months, but stock systems remember everything. And on nine of the fourteen nights, in five different establishments, the same wine had been rung up on a table where a victim had been sitting: a 2019 Chenin from a small producer on the Pniel side of the Simonsberg, listed by three of those bars and, at two of them, not on the printed list at all — a bin-end, available if you knew to ask.
 
 "He's not ordering a wine he likes," said Nkosi, standing at the whiteboard. "He's ordering a wine from home."
 
 "Ja," said Loots.
 
-"That's a farm eleven kilometres from your black pin."
+"That's a farm nine kilometres from your black pin."
 
 "Ja," said Loots.
 
@@ -80,15 +80,15 @@ The marketing manager, who had followed them out, said cheerfully: "Ag, most of 
 
 The faculty came in on the Monday, eight weeks after the subpoena, in four boxes.
 
-Two hundred and eleven students. Sixty-eight staff. And the cross-match Nkosi had been running since April — everyone in that building who had applied to medicine and been refused — came back with a number Loots had not expected.
+Two hundred and six students. Sixty-eight staff. And the cross-match Nkosi had been running since April — everyone in that building who had applied to medicine and been refused — came back with a number Loots had not expected.
 
 Fourteen.
 
-"Fourteen out of two hundred and eleven?" said Delport, when he took it to her. "That's not a coincidence, that's an intake policy."
+"Fourteen out of two hundred and six?" said Delport, when he took it to her. "That's not a coincidence, that's an intake policy."
 
 "It's the whole faculty, Kolonel," said Loots. "It's a new school. Half of them are silver medallists."
 
-They worked the fourteen for nine days, quietly, without knocking on any doors — because Loots had said in the taskforce meeting, twice, that the first knock they got wrong was the last knock they'd ever get. Enrolment records, timetables, address histories, vehicle registrations, the outreach roster, and, because Nkosi thought of it, the faculty's own internal committee minutes, which nobody had asked for and which came in a single PDF of eleven hundred pages.
+They worked the fourteen for nine days, quietly, without knocking on any doors — because Loots had said in the taskforce meeting, twice, that the first knock they got wrong was the last knock they'd ever get. Enrolment records, timetables, address histories, vehicle registrations, the outreach roster, and, because Nkosi thought of it, the faculty's own internal committee minutes, which nobody had asked for and which came in a single PDF of nine hundred pages.
 
 She found it at 02:00 on a Thursday morning at her kitchen table.
 

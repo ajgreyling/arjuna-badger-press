@@ -1,12 +1,12 @@
 # Five — Subtraction
 
-Cherise Bekker has four hundred and eleven thousand followers and a mole on her left scapula that has been cropped out of every photograph she has posted since 2019.
+Cherise Bekker has two hundred and forty thousand followers and a mole on her left scapula that has been cropped out of every photograph she has posted since 2019.
 
 I know this because I looked. Not at her — at the archive. There is an argument I could make about how much easier my life has become since people started publishing longitudinal photographic records of their own bodies, cross-referenced by date, geotagged, with the flaws they hate helpfully identified by the exact angles they refuse to be seen from; but the argument is beneath both of us. Let us say only that her feed is a two-thousand-image dataset of a woman working around a single dark point eleven millimetres below and lateral to the spine of her scapula, and that she does not know she has told me this, and that she has told me for six years.
 
 Backless dress in Ibiza: turned so the shoulder blade is in shadow. Gym mirror series: right side only, always. A whole summer of one-piece swimsuits with a high back in a year when nobody wore high backs. And then, once — March 2021, a friend's camera, unposted for eight days and then posted in a grid of nine where it sits third from the left, small — the mole, plainly, in daylight, sitting there in the middle of her back like a full stop in the middle of a sentence.
 
-She kept the picture. That's the part that decides it for me. Somewhere in her, under the four hundred and eleven thousand, is a woman who thought: *that's a nice photo of me*, and posted it, and then spent the eight days afterwards, I'd wager, checking whether anyone had said anything.
+She kept the picture. That's the part that decides it for me. Somewhere in her, under the two hundred and forty thousand, is a woman who thought: *that's a nice photo of me*, and posted it, and then spent the eight days afterwards, I'd wager, checking whether anyone had said anything.
 
 Nobody said anything. Nobody ever says anything. That is the joke on which the whole industry of her life is built: the flaws we hide are invisible to everyone but the hider, which does not make the hiding cost less, it makes it cost *more*, because the tax is levied privately and paid in full and no one ever tells you the debt was imaginary.
 
@@ -14,7 +14,7 @@ Enough. She is a client, and I am, by any standard that matters, the best surgeo
 
 ---
 
-There is a bar on Regent Road with a wine list that runs to eleven pages, of which four matter, and a manager who has learned that I tip in cash. Cherise arrives at ten past eight with a friend who leaves at nine, which is neither luck nor design but the ordinary structure of the Seaboard's evenings: the friend is always the pilot fish, and the friend always has a 6 a.m. class.
+There is a bar on Regent Road with a wine list that runs to nine pages, of which four matter, and a manager who has learned that I tip in cash. Cherise arrives at ten past eight with a friend who leaves at nine, which is neither luck nor design but the ordinary structure of the Seaboard's evenings: the friend is always the pilot fish, and the friend always has a 6 a.m. class.
 
 The conversation is easy. I have made an art of easy. She talks about the algorithm the way farmers talk about rain — an indifferent god with a known temper — and I ask her the question nobody asks her, which is what she did before, and she says *actuarial science, two years, I hated it*, and I say *no you didn't*, and she stops, and looks at me properly for the first time.
 
@@ -34,11 +34,11 @@ And here is the moment I love, the small pure moment I would keep in a jar if I 
 
 "Surgeon."
 
-It is not a lie. Understand that I am telling her the truth in the only tense available to me. In eleven days I will spend four hours in a large-animal theatre closing a strangulating lipoma resection on a Friesian in a manner that would make any general surgeon in this province stand still and watch. The word is mine. It has always been mine; the paperwork is simply eleven years behind.
+It is not a lie. Understand that I am telling her the truth in the only tense available to me. In nine days I will spend four hours in a large-animal theatre closing a strangulating lipoma resection on a Friesian in a manner that would make any general surgeon in this province stand still and watch. The word is mine. It has always been mine; the paperwork is simply eleven years behind.
 
 "Of course you are," Cherise says, and rolls her eyes, and refills her own glass, and begins telling me about her back.
 
-Not the mole. She has never said the word *mole* out loud to a man in a bar in her life. She tells me about a swimsuit she saw in a shop in Kloof Street that she did not buy, and why, and the why is a lattice of reasons — the cut, the season, the price — with a hole in the middle of it exactly eleven millimetres across. And I listen to her walk around the hole for twenty minutes, courteously, the way you'd listen to a man describe every route he takes through a city that avoids one particular street, and I feel the old clean fury rise in me at whatever it was — a cousin at a pool party, a stylist, a boyfriend saying *ag it's cute* in the wrong tone — that first taught this intelligent woman to spend her one life engineering her body out of frame.
+Not the mole. She has never said the word *mole* out loud to a man in a bar in her life. She tells me about a swimsuit she saw in a shop in Kloof Street that she did not buy, and why, and the why is a lattice of reasons — the cut, the season, the price — with a hole in the middle of it exactly four millimetres across. And I listen to her walk around the hole for twenty minutes, courteously, the way you'd listen to a man describe every route he takes through a city that avoids one particular street, and I feel the old clean fury rise in me at whatever it was — a cousin at a pool party, a stylist, a boyfriend saying *ag it's cute* in the wrong tone — that first taught this intelligent woman to spend her one life engineering her body out of frame.
 
 I am going to take that street off her map.
 
@@ -46,7 +46,7 @@ I am going to take that street off her map.
 
 I will not describe the room.
 
-I have been reproached for this. Not aloud, obviously, and not by anyone living in the ordinary sense; reproached by the imagined reader I keep for company, the one who wants the tray, the lamp, the sequence, the tools by name — who thinks that if he can be told how, he will have been told something. He will not. What is done in that cellar is the least interesting thing about it. Any competent third-year could describe the steps. Not one of them could sit alone at three in the morning with a sleeping stranger's shoulder blade under a light and feel what I feel, which is the only part worth reporting:
+I have been reproached for this. Not aloud, obviously, and not by anyone living in the ordinary sense; reproached by the imagined reader I keep for company, the one who wants the tray, the lamp, the sequence, the tools by name — who thinks that if he can be told how, he will have been told something. He will not. What is done in that cellar is the least interesting thing about it. Any competent third-year could describe the steps. Not one of them could sit alone at two in the morning with a sleeping stranger's shoulder blade under a light and feel what I feel, which is the only part worth reporting:
 
 That her back, in that light, is beautiful. Not to be made beautiful. *Is.* The long muscle running under the skin like water under ice, the fine down at the nape, the freckles across the shoulder in a scatter as random and as inevitable as stars — a machine of astonishing sophistication that has kept this woman alive for twenty-six years and been repaid with a lifetime of angles. And there in the middle of it, benign, dull, meaningless, the full stop.
 

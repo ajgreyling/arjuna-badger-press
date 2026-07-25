@@ -8,7 +8,7 @@ Then there was a wedding — a cousin, in the Boland Anglican church at Pniel, f
 
 And I watched, over the course of about forty minutes, my entire extended family fail to see her.
 
-Not cruelty. That is the thing I want to be precise about, because cruelty would have been *easier*, cruelty is a signal, cruelty tells a child where the walls are. Nobody was cruel. My aunts were warm to Sarah. My uncle knew Elmien's name and used it. And every single one of them looked directly at the most extraordinary face in that building — and I mean that as a measurement, I have since taken the measurement, I know precisely what I am claiming — and their eyes went over her the way your eye goes over a chair.
+Not cruelty. That is the thing I need said exactly, because cruelty would have been *easier*, cruelty is a signal, cruelty tells a child where the walls are. Nobody was cruel. My aunts were warm to Sarah. My uncle knew Elmien's name and used it. And every single one of them looked directly at the most extraordinary face in that building — and I mean that as a measurement, I have since taken the measurement, I know precisely what I am claiming — and their eyes went over her the way your eye goes over a chair.
 
 Meanwhile, on the other side of the room, my cousin Marlien, aged nineteen, was being told she was beautiful, four times an hour, by everyone.
 
@@ -30,7 +30,7 @@ African beauty is the human template. Everything else on this planet is a variat
 
 The skin-lighteners on the shelf at the Shoprite in Kayamandi. The women in my own lecture theatre who will not wear their own hair. Eleven billion dollars a year, globally, to make people less like the sculpture that half the museums of Europe are still holding.
 
-I have never touched a Black woman's face. Not once, in four hundred and some procedures, and I never will. There is nothing to correct and I would not have the arrogance. My work is exclusively, deliberately, doctrinally performed on my own people: on the pale, moneyed, cut-and-filled women of that coastline — the ones who fly to Turkey for a jaw, who pay a man in Sandton eleven thousand rand a syringe to chase a proportion their own great-grandmothers took from a continent they refused to look at. I am not stealing from anyone. I am doing, for free, at three in the morning, in a cold room, what they are already paying strangers to do badly.
+I have never touched a Black woman's face. Not once, in four hundred and some procedures, and I never will. There is nothing to correct and I would not have the arrogance. My work is exclusively, deliberately, doctrinally performed on my own people: on the pale, moneyed, cut-and-filled women of that coastline — the ones who fly to Turkey for a jaw, who pay a man in Sandton nine thousand rand a syringe to chase a proportion their own great-grandmothers took from a continent they refused to look at. I am not stealing from anyone. I am doing, for free, at three in the morning, in a cold room, what they are already paying strangers to do badly.
 
 And I am doing it *toward the template*, instead of away from it, which is the only difference between me and the practice on Kloof Street with the reviews and the parking.
 
@@ -42,7 +42,7 @@ Bianca Steyn is thirty, sells wellness on the internet, has a face that runs one
 
 That is the detail that decided her. Not the face — the burning. I watched her at a table in Clifton in November scanning the awning line the way a lizard scans for shade, hunting the one seat where the sun would not reach her, and I watched a woman spend an entire lunch in physical anxiety about a star, and I thought: *this is a species that has been moved to the wrong latitude and has decided the latitude is correct.*
 
-Two hundred generations out of Africa and we are still, biologically, tourists here. We come to a coastline with an ultraviolet index that pushes eleven in January, and we peel, and we blister, and we grow the melanomas Dr Naidoo cuts out for a living, and then we lie on the sand to obtain, painfully and temporarily and with a permanent bill in DNA damage, four shades of the thing we spent four centuries despising in the people who actually live here.
+Two hundred generations out of Africa and we are still, biologically, tourists here. We come to a coastline with an ultraviolet index that pushes fourteen in January, and we peel, and we blister, and we grow the melanomas Dr Naidoo cuts out for a living, and then we lie on the sand to obtain, painfully and temporarily and with a permanent bill in DNA damage, four shades of the thing we spent four centuries despising in the people who actually live here.
 
 You cannot make this up. Nobody could make this up.
 
@@ -50,7 +50,7 @@ So: pigment.
 
 I will describe none of it. I have described none of my methods and I am not going to begin with this one, because this is the procedure that would be lifted, and I have no interest in adding to the supply of men in rented rooms doing to women what I do properly. What I will say is that I did not go near her face — the face was not the point, and the face is where a change is noticed and the change I intended was to be lived in, not looked at. Two sessions, seven weeks apart, on the dorsal surfaces where a woman looks first for the confirmation of a summer. It is not a dye. It is not a tattoo. It is an instruction, and the instruction is one her own cells knew how to follow.
 
-She noticed in the third week and told forty thousand people it was a new supplement. She has, at the time I write this, sold eleven thousand units of it.
+She noticed in the third week and told forty thousand people it was a new supplement. She has, at the time I write this, sold ninety thousand units of it.
 
 I would like to say I found that funny. I found it clarifying. I had given a woman four shades of the only genuine protection our species ever evolved against the sun she is terrified of, and she metabolised it, within twenty-one days, into a product.
 

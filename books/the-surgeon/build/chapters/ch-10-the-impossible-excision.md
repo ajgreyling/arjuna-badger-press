@@ -34,7 +34,7 @@ So she told him. A thirty-something woman, no dermatological history worth the n
 
 "And you said?"
 
-"I said what you'd say. Are you on anything, do you have any memory issues, are we perhaps talking about a procedure under sedation you've forgotten, did somebody do it while you were out for something else. And she got very quiet and very polite, which I have learned is what it looks like when a patient decides you're not safe." Naidoo's mouth tightened. "I lost her. She went home and I wrote *pt reports no recall of procedure* in the notes and moved on, because I had eleven more patients and a septic toe."
+"I said what you'd say. Are you on anything, do you have any memory issues, are we perhaps talking about a procedure under sedation you've forgotten, did somebody do it while you were out for something else. And she got very quiet and very polite, which I have learned is what it looks like when a patient decides you're not safe." Naidoo's mouth tightened. "I lost her. She went home and I wrote *pt reports no recall of procedure* in the notes and moved on, because I had nine more patients and a septic toe."
 
 "But you didn't move on."
 
@@ -74,7 +74,7 @@ Loots looked at the blue book for a long moment.
 
 Priya Naidoo laughed, one syllable, without any humour in it at all.
 
-"I did," she said. "In August I phoned the police station in Sea Point and a very nice young man told me that if my patient wanted to lay a charge my patient could come in. In September I wrote to the HPCSA, because my working theory then was that it was a doctor — a struck-off man, someone with a grudge — and they wrote back in eleven weeks to say there was no registered practitioner to investigate. In October I mentioned it at a congress in Durban, in a corridor, to three colleagues, and one of them called me *the ghost surgeon lady* for the rest of the weekend." She squared the file. "So no. I stopped taking it anywhere. I kept it, and I've been waiting eleven months for somebody to phone me, and you're the first person who has, and I need you to understand that in that eleven months I have had two more."
+"I did," she said. "In August I phoned the police station in Sea Point and a very nice young man told me that if my patient wanted to lay a charge my patient could come in. In September I wrote to the HPCSA, because my working theory then was that it was a doctor — a struck-off man, someone with a grudge — and they wrote back in fourteen weeks to say there was no registered practitioner to investigate. In October I mentioned it at a congress in Durban, in a corridor, to three colleagues, and one of them called me *the ghost surgeon lady* for the rest of the weekend." She squared the file. "So no. I stopped taking it anywhere. I kept it, and I've been waiting eleven months for somebody to phone me, and you're the first person who has, and I need you to understand that in that eleven months I have had two more."
 
 Loots's pen stopped.
 

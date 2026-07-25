@@ -138,7 +138,7 @@ Loots looked out at the cranes.
 
 The nineteenth of June: the day the docket stopped being a joke.
 
-By four that afternoon the taskforce had a real room, twelve people, and a case number that ran under a heading with the word GBH in it, because a facial nerve is grievous bodily harm and grievous bodily harm is a language every station commander in the province speaks fluently. The public appeal Steenkamp had refused in April went out on the Thursday evening news, in Loots's words, with the water and the two paracetamol in it, and by Sunday night the dedicated number had taken four hundred and eleven calls, of which eleven were real, and one of which was a woman in Green Point who had been telling people about her nose since 2024.
+By four that afternoon the taskforce had a real room, twelve people, and a case number that ran under a heading with the word GBH in it, because a facial nerve is grievous bodily harm and grievous bodily harm is a language every station commander in the province speaks fluently. The public appeal Steenkamp had refused in April went out on the Thursday evening news, in Loots's words, with the water and the two paracetamol in it, and by Sunday night the dedicated number had taken four hundred and fourteen calls, of which fourteen were real, and one of which was a woman in Green Point who had been telling people about her nose since 2024.
 
 And on the Friday, in the interview room with the two maps and the string, Nkosi took a black marker and wrote across the top of the second map, above the pin in the pass, the sentence that ran the rest of the winter:
 

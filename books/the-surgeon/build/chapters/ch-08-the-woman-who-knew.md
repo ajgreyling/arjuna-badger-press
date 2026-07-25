@@ -8,7 +8,7 @@ That was the thing that eventually got the file across a desk and up a chain and
 
 By then she had been to a GP, who said filler settles unevenly and are you sure you don't recall a treatment; to a second GP, who wrote *possible somatic preoccupation* and offered her something for sleep; to her mother, who said, on speakerphone from Bloemfontein, *maar jy lyk pragtig, my kind, wat is die probleem* — but you look beautiful, what is the problem — which is the sentence Demi would repeat to Loots in a shaking voice as the worst thing anybody said to her in the entire affair; and to the internet, where a woman with a ring light told six thousand people that "the girlies are now claiming they got free lip filler from a *ghost*," and where a man Demi had never met wrote, under a video that used her own photographs, *bru if this is a crime lock me up*.
 
-Her studio lost eleven students in a month. Not because of the mouth. Because of what the story did to her: because she brought it up, because she could not stop bringing it up, because there is nothing in the world less welcome in a wellness room in Sea Point than a beautiful woman with a grievance nobody can see.
+Her studio lost nineteen students in a month. Not because of the mouth. Because of what the story did to her: because she brought it up, because she could not stop bringing it up, because there is nothing in the world less welcome in a wellness room in Sea Point than a beautiful woman with a grievance nobody can see.
 
 By the time Loots met her she had stopped saying it out loud to anyone.
 
@@ -108,7 +108,7 @@ Loots asked for the file of photographs and the phone number and the voice note,
 
 "Do you want it undone?"
 
-Demi thought about it for a long time. It was, she said later, the only time anyone in eleven weeks had asked her what she wanted.
+Demi thought about it for a long time. It was, she said later, the only time anyone in fourteen weeks had asked her what she wanted.
 
 "No," she said. "That's what makes me want to be sick, Captain. He was right. I look at myself and I'm — " Her jaw went. "He was *right*, and I never said he could, and now I have to live in it. Both of those. Every day, both."
 
@@ -122,7 +122,7 @@ Because he had spent eighteen months believing he was the only man he'd ever met
 
 And now there were two of them.
 
-He started the car. He drove home the long way, past the sea. He poured nothing, and slept badly, and at 4:40 he got up and taped a sixth row onto the sheet on the back of his front door, and under *ESKALASIE*, in the column he had left empty for eleven days, he finally wrote:
+He started the car. He drove home the long way, past the sea. He poured nothing, and slept badly, and at 4:40 he got up and taped a sixth row onto the sheet on the back of his front door, and under *ESKALASIE*, in the column he had left empty for nine days, he finally wrote:
 
 *Hy vat nie meer weg nie. Hy sit by.*
 

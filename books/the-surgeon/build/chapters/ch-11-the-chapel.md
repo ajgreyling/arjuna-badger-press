@@ -4,7 +4,7 @@ The cellar was dug into the hill in 1798 by people whose names are not in any re
 
 Two hundred and twenty-eight years of cold. That is what you feel on the steps — not damp, not the ordinary chill of a room without sun, but a temperature that has been sitting in this hillside since before the Cape had a British governor, laid down by hands that hacked it out of the shale with iron tools and no drawings, so that a Vermeulen who was not yet a Vermeulen could keep his wine at a stable thirteen degrees. The walls are a metre thick where the barrel vault springs. My great-great-grandfather ran a hosepipe down here in 1911 and the mark of it is still on the wall like a tideline. Frik put in the steel door and the three-phase board in 1994 and then lost interest, as our family loses interest, and went to Hermanus to fish.
 
-I have been coming down these steps since I was six years old. And for twenty-three of those years the room behind the steel door was a room with things in it — a table, a lamp, a trolley, a sterilizer that I bought at an auction of a closed practice in Malmesbury for eleven thousand rand and rebuilt myself. A workshop. A very good workshop, in a very good hiding place, but a workshop, in the way a garage with a lift in it is a workshop.
+I have been coming down these steps since I was six years old. And for twenty-three of those years the room behind the steel door was a room with things in it — a table, a lamp, a trolley, a sterilizer that I bought at an auction of a closed practice in Malmesbury for nineteen thousand rand and rebuilt myself. A workshop. A very good workshop, in a very good hiding place, but a workshop, in the way a garage with a lift in it is a workshop.
 
 That is over now, and I want to set down honestly when it changed, because I have found that men in my position are always assumed to have been building the cathedral from the start, and I was not. I was fixing scratches in a garage.
 
@@ -34,7 +34,7 @@ The light is the thing I would show you if I could show you one thing. A proper 
 
 I sat on the stool the first night it worked and looked at that circle for an hour without any thought in my head at all, which has happened to me perhaps four times in my life.
 
-You will want to know what I call the room. I call it the cellar, because I am not a fool and one guards one's language the way one guards one's keys. But the word that arrives when I am tired, coming down the steps at three in the morning with the valley asleep above me and the light waiting, is the word my mother's family used for the little Dutch Reformed church at Pniel where the farm's people were christened: die kapel.
+You will want to know what I call the room. I call it the cellar, because I am not a fool and one guards one's language the way one guards one's keys. But the word that arrives when I am tired, coming down the steps in the small hours with the valley asleep above me and the light waiting, is the word my mother's family used for the little Dutch Reformed church at Pniel where the farm's people were christened: die kapel.
 
 The chapel. Ja. I know exactly how that sounds. I have read the same books you have.
 

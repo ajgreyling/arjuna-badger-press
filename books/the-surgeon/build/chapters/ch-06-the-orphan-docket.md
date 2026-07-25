@@ -1,6 +1,6 @@
 # Six — The Orphan Docket
 
-Margaux Theron agreed to meet him at a coffee place on Regent Road, in public, at eleven in the morning, and she chose the table.
+Margaux Theron agreed to meet him at a coffee place on Regent Road, in public, at ten in the morning, and she chose the table.
 
 Loots noticed all three of those things and said nothing about any of them. He came in his own clothes — the grey jacket, no tie, the shoes Elmarie bought him in 2016 that he'd had resoled twice — because a woman who has had a stranger inside her flat does not need a uniform sitting opposite her, and because half the job is deciding what you are going to look like to the person you need to tell you the truth.
 
@@ -80,9 +80,9 @@ Loots drove back over the Neck with that sentence sitting in the passenger seat 
 
 ---
 
-For the next eleven days he did the work nobody was paying him to do, in the hours that belonged to a docket about a stolen bakkie and a stabbing outside a shebeen in Ravensmead, and at night in the duplex at the kitchen table with the bottle at the far end of it, where he had started putting it deliberately, so that reaching became a decision instead of a movement.
+For the next nine days he did the work nobody was paying him to do, in the hours that belonged to a docket about a stolen bakkie and a stabbing outside a shebeen in Ravensmead, and at night in the duplex at the kitchen table with the bottle at the far end of it, where he had started putting it deliberately, so that reaching became a decision instead of a movement.
 
-He built a matrix. Not on a computer — on the back of a flip-chart sheet stuck to the inside of his own front door with masking tape, because the office had opinions and the front door did not. Columns: date, venue, suburb, drink, companion, time lost, entry method, what was done, what was left. Two rows to start. Then, on day four, a third: a woman in Green Point who had never reported anything to anyone but had written it out in a wellness forum in 2024 — *has anyone else woken up with a whole night missing and NOTHING happened, and now my nose bump is smaller, I feel insane typing this* — and had been answered by eleven people telling her about sleep apnoea and one telling her about demons.
+He built a matrix. Not on a computer — on the back of a flip-chart sheet stuck to the inside of his own front door with masking tape, because the office had opinions and the front door did not. Columns: date, venue, suburb, drink, companion, time lost, entry method, what was done, what was left. Two rows to start. Then, on day four, a third: a woman in Green Point who had never reported anything to anyone but had written it out in a wellness forum in 2024 — *has anyone else woken up with a whole night missing and NOTHING happened, and now my nose bump is smaller, I feel insane typing this* — and had been answered by fourteen people telling her about sleep apnoea and one telling her about demons.
 
 By day seven there were five rows, and Loots was no longer looking at victims. He was looking at a *practice*.
 
@@ -96,7 +96,7 @@ He is not choosing them because they are vulnerable. He is choosing them because
 
 That was the thing that made the hair on his arms stand up, alone in a rented duplex in Parow at midnight, and it was also — he would admit this to exactly one person, much later, in a car in the rain — the first time in eighteen months that he had felt entirely, unambiguously alive.
 
-He phoned Delport on the Monday and asked for three things: the Sexual Offences bounce reversed so he could pull toxicology retrospectively, a request to the Seaboard station commanders for any complaint containing the words *don't remember* and *procedure*, and an hour with someone at the FCS unit who could tell him what a sedative looks like eleven days after it's gone.
+He phoned Delport on the Monday and asked for three things: the Sexual Offences bounce reversed so he could pull toxicology retrospectively, a request to the Seaboard station commanders for any complaint containing the words *don't remember* and *procedure*, and an hour with someone at the FCS unit who could tell him what a sedative looks like nine days after it's gone.
 
 "You said statements and a report," Delport said.
 

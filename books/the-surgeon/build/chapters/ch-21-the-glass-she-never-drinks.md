@@ -1,12 +1,12 @@
 # Twenty-One — The Glass She Never Drinks
 
-The plan was eleven weeks old and it was a good plan and it had one flaw in it, which is that it had been designed by a man who had never once, in four hundred procedures, had to think about how to get a woman to drink something.
+The plan was ten weeks old and it was a good plan and it had one flaw in it, which is that it had been designed by a man who had never once, in four hundred procedures, had to think about how to get a woman to drink something.
 
 They drink. That is the entire premise on which my adult life has been constructed. You sit in a room where drinking is the point, with a woman who came there to drink, and the wine arrives because the wine always arrives, and the only skill involved is the timing and the hands, and I have hands.
 
 Anri Fourie has not had a drink in her life.
 
-I knew this in February. I have known it since second year. It is on the left-hand page of the ledger in my own writing. And still, for eleven weeks, some part of me had been running the old machinery underneath the new plan, the way you keep walking to where a wall used to be, and it was not until the Tuesday before the last Saturday in July — three days out, with the room prepared and the ledger ruled and the whole architecture of it standing there finished — that I sat down with a blank sheet and made myself write, at the top, the actual problem:
+I knew this in February. I have known it since second year. It is on the left-hand page of the ledger in my own writing. And still, for ten weeks, some part of me had been running the old machinery underneath the new plan, the way you keep walking to where a wall used to be, and it was not until the Tuesday before the last Saturday in July — three days out, with the room prepared and the ledger ruled and the whole architecture of it standing there finished — that I sat down with a blank sheet and made myself write, at the top, the actual problem:
 
 *She does not drink. She does not take anything. She lives with two other students. She drives her own car. She is never in a bar. And she counts everything twice.*
 
@@ -38,7 +38,7 @@ She arrived at 22:20 in the little Polo with the bald tyre I had told her about 
 
 Ahead of me. She went first, because she was the one with the drug box and there was an animal.
 
-I want to be precise about the next four minutes because they are the only four minutes of my life I have gone back into every single day since.
+I will set down the next four minutes exactly because they are the only four minutes of my life I have gone back into every single day since.
 
 The plan required her to be in the room. I had built the plan around the fact that she would go first, and she did. The plan required me to be behind her on the steps, and I was. And the plan required the improvisation — the thing I had solved in two hours on the Tuesday, which was pharmacological and fast and which I am not going to describe and which was, in its design, humane; I had chosen it precisely because it was the kindest of the available routes, and I would like some day to know whether that fact makes it better or worse, and I have never been able to work it out.
 
@@ -58,7 +58,7 @@ The door opened. The light in that room comes on with a switch at shoulder heigh
 
 I have imagined many times what a person sees in that first instant. I had always assumed it would be the table.
 
-It was not the table. She told them afterwards, and I have read it: it was the *floor*. The poured resin, coved at the walls, seamless, white — a floor with no join anywhere for anything to gather in, in a two-hundred-and-twenty-eight-year-old wine cellar on a farm where the ceilings are held up with yellowwood.
+It was not the table. She told them afterwards, and I have read it: it was the *floor*. The poured resin, coved at the walls, seamless, white — a floor with no join anywhere for anything to gather in, in a two-hundred-year-old wine cellar on a farm where the ceilings are held up with yellowwood.
 
 She saw the floor and she knew everything.
 
@@ -74,17 +74,17 @@ I have replayed it ten thousand times. I was reaching with my right. She swung e
 
 Two seconds. That is all it was.
 
-I have been asked since — in a room with a camera in the corner, by a woman with a file, in a voice of great patience — why I did not simply take her afterwards. I had size. I had the room. I had the door. She had a case with a broken lock and a bald tyre and eleven kilometres of farm road in the rain.
+I have been asked since — in a room with a camera in the corner, by a woman with a file, in a voice of great patience — why I did not simply take her afterwards. I had size. I had the room. I had the door. She had a case with a broken lock and a bald tyre and nine kilometres of farm road in the rain.
 
 The answer I gave was that my wrist was broken, which is true and is not the answer.
 
 The answer is this, and it is the last true thing in this document:
 
-I looked at her, in the doorway of the chapel, in the light of the room I had spent eleven months building for exactly this hour — and she was crouched on the floor with her arm up and her chin down and her eyes absolutely level, and she was not begging, and she was not screaming, and there was no going-away in her face, none, not a millimetre.
+I looked at her, in the doorway of the chapel, in the light of the room I had spent a year building for exactly this hour — and she was crouched on the floor with her arm up and her chin down and her eyes absolutely level, and she was not begging, and she was not screaming, and there was no going-away in her face, none, not a millimetre.
 
 She was *counting*. I could see her doing it. Distance to the steps, distance to me, the weight in her left hand, the tyre, the road, the rain.
 
-And I understood, in that doorway, with my wrist broken and the plan on the floor under the table, that I had spent my entire life measuring the wrong quantity — that I had built a mask and a mathematics and a doctrine and a room out of the belief that the distance between a person and perfection is two millimetres of tissue, and that here, one metre from me, on a cellar floor, was a face I had measured eleven times and had never once *seen*, and it was doing the only thing I have ever found genuinely beautiful in a human being, which is working properly under load.
+And I understood, in that doorway, with my wrist broken and the plan on the floor under the table, that I had spent my entire life measuring the wrong quantity — that I had built a mask and a mathematics and a doctrine and a room out of the belief that the distance between a person and perfection is two millimetres of tissue, and that here, one metre from me, on a cellar floor, was a face I had measured nine times and had never once *seen*, and it was doing the only thing I have ever found genuinely beautiful in a human being, which is working properly under load.
 
 Nothing living lands on it exactly.
 
@@ -96,9 +96,9 @@ That is all I did. I did not let her go, exactly; I have no appetite for that wo
 
 I stood there for a long time.
 
-Then I went into the chapel, and I picked the thing up off the floor and put it in the tray where it belonged, because I have never in my life left an instrument out. And I switched off the five-headed lamp that I rebuilt across four months with a soldering iron and a German service manual, and the darkness came back into that room after eleven months away, and I sat down on the stool in it.
+Then I went into the chapel, and I picked the thing up off the floor and put it in the tray where it belonged, because I have never in my life left an instrument out. And I switched off the five-headed lamp that I rebuilt across four months with a soldering iron and a German service manual, and the darkness came back into that room after a year away, and I sat down on the stool in it.
 
-She would be at the R310 in eleven minutes. Signal, at the top of the hill, by the co-op — maybe fourteen.
+She would be at the R310 in nine minutes. Signal, at the top of the hill, by the co-op — maybe fourteen.
 
 I had, at the outside, an hour.
 

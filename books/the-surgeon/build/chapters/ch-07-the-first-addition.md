@@ -40,7 +40,7 @@ On the Friday I stood in the cellar with the lights off and asked myself the onl
 
 I still say given. That is not remorse withheld. That is my honest report from inside the thing.
 
-And so on a Friday night in March, with the harvest trucks going up the Helshoogte pass all night and the whole valley smelling of crushed fruit, I crossed the line I had spent eleven years drawing, and I did not feel it happen. That is the part I would most like to explain to somebody one day. There was no thunder. There was no moment where the man I had been looked at the man I was becoming. There was a woman asleep on a table, and there was a syringe of nothing more sinister than a filler you could buy in any aesthetics practice in Green Point, warmed in my hand to body temperature because cold hurts even the unconscious, and there was a face I had measured eleven times.
+And so on a Friday night in March, with the harvest trucks going up the Helshoogte pass all night and the whole valley smelling of crushed fruit, I crossed the line I had spent eleven years drawing, and I did not feel it happen. That is the part I would most like to explain to somebody one day. There was no thunder. There was no moment where the man I had been looked at the man I was becoming. There was a woman asleep on a table, and there was a syringe of nothing more sinister than a filler you could buy in any aesthetics practice in Green Point, warmed in my hand to body temperature because cold hurts even the unconscious, and there was a face I had measured nine times.
 
 I remember one thought, and it was a small one. It was: *left first, because I always start left.*
 
@@ -50,7 +50,7 @@ Then I sat back on the stool and looked at what I had done, and the world went e
 
 I have tried since to find an honest comparison and there isn't one, so I will use a dishonest one and let you make the correction. Have you ever heard an orchestra tune? That long ugly fraying while everybody finds the A, and then the moment it lands and the sound stops being noise and becomes a plane, a surface, a thing you could stand on? Her face did that. Twenty minutes of my hands, and thirty-one years of *nearly* resolved, all at once, into a woman whose face — I measured it three times, I have the numbers in the ledger, they are the numbers — sat one one-hundredth from the peak of the distribution.
 
-Not perfect. Nothing living lands on it exactly. But closer than any face I have measured, closer than any face on any street in this city, closer than any of the four hundred and eleven thousand-follower faces that have been bought outright and rebuilt by men with far better paperwork and far worse hands.
+Not perfect. Nothing living lands on it exactly. But closer than any face I have measured, closer than any face on any street in this city, closer than any of the quarter-million-follower faces that have been bought outright and rebuilt by men with far better paperwork and far worse hands.
 
 And I had done it. Not accident. Not the genome's dice. Not a poet's God. Me, and a pair of hands the university of this country would not sell a degree to, in a two-hundred-year-old cellar, for nothing, in twenty minutes.
 

@@ -14,7 +14,7 @@ Adonis went down anyway, seventeen years, on evidence Loots had built before he 
 
 ---
 
-He wakes at 4:40 on the Tuesday, as he does, in the duplex in Parow with the burglar bars and the two stoep chairs that were his mother's, and lies looking at the ceiling until the light comes grey. There is a bottle of Klipdrift on the counter with maybe four fingers gone from it since Sunday, which is, by the standards of last winter, close to sainthood, and there is a plate in the sink from Sunday too. On the fridge, held by a Kaizer Chiefs magnet from a man who does not follow soccer, a photograph of a girl of about eleven in a swimming costume holding up a certificate, grinning, missing a tooth.
+He wakes at 4:40 on the Tuesday, as he does, in the duplex in Parow with the burglar bars and the two stoep chairs that were his mother's, and lies looking at the ceiling until the light comes grey. There is a bottle of Klipdrift on the counter with maybe four fingers gone from it since Sunday, which is, by the standards of last winter, close to sainthood, and there is a plate in the sink from Sunday too. On the fridge, held by a Kaizer Chiefs magnet from a man who does not follow soccer, a photograph of a girl of about twelve in a swimming costume holding up a certificate, grinning, missing a tooth.
 
 He phones her at 6:50, which is a good time, before her first block. It rings out. He does not leave a message, because the messages accumulate in a way that starts to look like something, and instead he types *Hoop dit gaan goed met die semester, Pappa* and looks at it for a while and sends it, and puts on yesterday's jacket, and drives to work with the window open because the car smells like a car that gets slept in occasionally.
 

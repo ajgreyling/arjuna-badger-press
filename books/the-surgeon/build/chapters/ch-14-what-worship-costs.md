@@ -34,7 +34,7 @@ She looked at the video. She looked at the four photographs Nkosi had pulled fro
 
 They interviewed Bianca Steyn on a Tuesday, in her flat above Clifton, with the whole blue enormity of the Atlantic in the window behind her. It was the worst interview of the case.
 
-She did not believe them. Then she believed them, and the belief arrived in stages, like weather coming over the mountain: first, a kind of hilarity — *no, but I would have felt something, I'd have known* — then the calculating look of a woman running back through eleven months of an online business built on a product that did not do what she had told forty-one thousand people it did, then the moment she understood she was going to have to give the money back, then, finally, at about the thirty-minute mark, in a silence that neither detective interrupted, the thing itself.
+She did not believe them. Then she believed them, and the belief arrived in stages, like weather coming over the mountain: first, a kind of hilarity — *no, but I would have felt something, I'd have known* — then the calculating look of a woman running back through two years of an online business built on a product that did not do what she had told forty-one thousand people it did, then the moment she understood she was going to have to give the money back, then, finally, at about the thirty-minute mark, in a silence that neither detective interrupted, the thing itself.
 
 "He was in here," she said.
 
@@ -116,7 +116,7 @@ He got home at half past ten. The bottle was where he had left it, at the far en
 
 Then he took it to the sink and poured it out, and stood there while it went, and it took much longer than he expected — you never think how long a bottle takes — and afterwards he rinsed the sink, because it was his mother's house's habit in his hands, and put the empty in the bin, and washed the plate that had been in the sink since Sunday.
 
-He phoned Ilse at twenty to eleven, which is too late, and she did not answer, and this time he left a message.
+He phoned Ilse at twenty to midnight, which is too late, and she did not answer, and this time he left a message.
 
 "Ilse. It's Pappa. Nee, alles's reg — nothing's wrong. I just wanted to say —" a long pause on the recording, eleven seconds of a man in a kitchen "— I'm on a case. It's a good one. And there's a thing I have to work out about it, about myself, and I think you know what it is, and I'm — " Another pause. "Ek's besig om dit uit te werk. That's all. Sleep lekker, my kind."
 

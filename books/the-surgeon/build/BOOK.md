@@ -218,7 +218,7 @@ Adonis went down anyway, seventeen years, on evidence Loots had built before he 
 
 ---
 
-He wakes at 4:40 on the Tuesday, as he does, in the duplex in Parow with the burglar bars and the two stoep chairs that were his mother's, and lies looking at the ceiling until the light comes grey. There is a bottle of Klipdrift on the counter with maybe four fingers gone from it since Sunday, which is, by the standards of last winter, close to sainthood, and there is a plate in the sink from Sunday too. On the fridge, held by a Kaizer Chiefs magnet from a man who does not follow soccer, a photograph of a girl of about eleven in a swimming costume holding up a certificate, grinning, missing a tooth.
+He wakes at 4:40 on the Tuesday, as he does, in the duplex in Parow with the burglar bars and the two stoep chairs that were his mother's, and lies looking at the ceiling until the light comes grey. There is a bottle of Klipdrift on the counter with maybe four fingers gone from it since Sunday, which is, by the standards of last winter, close to sainthood, and there is a plate in the sink from Sunday too. On the fridge, held by a Kaizer Chiefs magnet from a man who does not follow soccer, a photograph of a girl of about twelve in a swimming costume holding up a certificate, grinning, missing a tooth.
 
 He phones her at 6:50, which is a good time, before her first block. It rings out. He does not leave a message, because the messages accumulate in a way that starts to look like something, and instead he types *Hoop dit gaan goed met die semester, Pappa* and looks at it for a while and sends it, and puts on yesterday's jacket, and drives to work with the window open because the car smells like a car that gets slept in occasionally.
 
@@ -291,13 +291,13 @@ Then he sits with the pen in his hand while the parkade lights come on outside t
 
 # Five — Subtraction
 
-Cherise Bekker has four hundred and eleven thousand followers and a mole on her left scapula that has been cropped out of every photograph she has posted since 2019.
+Cherise Bekker has two hundred and forty thousand followers and a mole on her left scapula that has been cropped out of every photograph she has posted since 2019.
 
 I know this because I looked. Not at her — at the archive. There is an argument I could make about how much easier my life has become since people started publishing longitudinal photographic records of their own bodies, cross-referenced by date, geotagged, with the flaws they hate helpfully identified by the exact angles they refuse to be seen from; but the argument is beneath both of us. Let us say only that her feed is a two-thousand-image dataset of a woman working around a single dark point eleven millimetres below and lateral to the spine of her scapula, and that she does not know she has told me this, and that she has told me for six years.
 
 Backless dress in Ibiza: turned so the shoulder blade is in shadow. Gym mirror series: right side only, always. A whole summer of one-piece swimsuits with a high back in a year when nobody wore high backs. And then, once — March 2021, a friend's camera, unposted for eight days and then posted in a grid of nine where it sits third from the left, small — the mole, plainly, in daylight, sitting there in the middle of her back like a full stop in the middle of a sentence.
 
-She kept the picture. That's the part that decides it for me. Somewhere in her, under the four hundred and eleven thousand, is a woman who thought: *that's a nice photo of me*, and posted it, and then spent the eight days afterwards, I'd wager, checking whether anyone had said anything.
+She kept the picture. That's the part that decides it for me. Somewhere in her, under the two hundred and forty thousand, is a woman who thought: *that's a nice photo of me*, and posted it, and then spent the eight days afterwards, I'd wager, checking whether anyone had said anything.
 
 Nobody said anything. Nobody ever says anything. That is the joke on which the whole industry of her life is built: the flaws we hide are invisible to everyone but the hider, which does not make the hiding cost less, it makes it cost *more*, because the tax is levied privately and paid in full and no one ever tells you the debt was imaginary.
 
@@ -305,7 +305,7 @@ Enough. She is a client, and I am, by any standard that matters, the best surgeo
 
 ---
 
-There is a bar on Regent Road with a wine list that runs to eleven pages, of which four matter, and a manager who has learned that I tip in cash. Cherise arrives at ten past eight with a friend who leaves at nine, which is neither luck nor design but the ordinary structure of the Seaboard's evenings: the friend is always the pilot fish, and the friend always has a 6 a.m. class.
+There is a bar on Regent Road with a wine list that runs to nine pages, of which four matter, and a manager who has learned that I tip in cash. Cherise arrives at ten past eight with a friend who leaves at nine, which is neither luck nor design but the ordinary structure of the Seaboard's evenings: the friend is always the pilot fish, and the friend always has a 6 a.m. class.
 
 The conversation is easy. I have made an art of easy. She talks about the algorithm the way farmers talk about rain — an indifferent god with a known temper — and I ask her the question nobody asks her, which is what she did before, and she says *actuarial science, two years, I hated it*, and I say *no you didn't*, and she stops, and looks at me properly for the first time.
 
@@ -325,11 +325,11 @@ And here is the moment I love, the small pure moment I would keep in a jar if I 
 
 "Surgeon."
 
-It is not a lie. Understand that I am telling her the truth in the only tense available to me. In eleven days I will spend four hours in a large-animal theatre closing a strangulating lipoma resection on a Friesian in a manner that would make any general surgeon in this province stand still and watch. The word is mine. It has always been mine; the paperwork is simply eleven years behind.
+It is not a lie. Understand that I am telling her the truth in the only tense available to me. In nine days I will spend four hours in a large-animal theatre closing a strangulating lipoma resection on a Friesian in a manner that would make any general surgeon in this province stand still and watch. The word is mine. It has always been mine; the paperwork is simply eleven years behind.
 
 "Of course you are," Cherise says, and rolls her eyes, and refills her own glass, and begins telling me about her back.
 
-Not the mole. She has never said the word *mole* out loud to a man in a bar in her life. She tells me about a swimsuit she saw in a shop in Kloof Street that she did not buy, and why, and the why is a lattice of reasons — the cut, the season, the price — with a hole in the middle of it exactly eleven millimetres across. And I listen to her walk around the hole for twenty minutes, courteously, the way you'd listen to a man describe every route he takes through a city that avoids one particular street, and I feel the old clean fury rise in me at whatever it was — a cousin at a pool party, a stylist, a boyfriend saying *ag it's cute* in the wrong tone — that first taught this intelligent woman to spend her one life engineering her body out of frame.
+Not the mole. She has never said the word *mole* out loud to a man in a bar in her life. She tells me about a swimsuit she saw in a shop in Kloof Street that she did not buy, and why, and the why is a lattice of reasons — the cut, the season, the price — with a hole in the middle of it exactly four millimetres across. And I listen to her walk around the hole for twenty minutes, courteously, the way you'd listen to a man describe every route he takes through a city that avoids one particular street, and I feel the old clean fury rise in me at whatever it was — a cousin at a pool party, a stylist, a boyfriend saying *ag it's cute* in the wrong tone — that first taught this intelligent woman to spend her one life engineering her body out of frame.
 
 I am going to take that street off her map.
 
@@ -337,7 +337,7 @@ I am going to take that street off her map.
 
 I will not describe the room.
 
-I have been reproached for this. Not aloud, obviously, and not by anyone living in the ordinary sense; reproached by the imagined reader I keep for company, the one who wants the tray, the lamp, the sequence, the tools by name — who thinks that if he can be told how, he will have been told something. He will not. What is done in that cellar is the least interesting thing about it. Any competent third-year could describe the steps. Not one of them could sit alone at three in the morning with a sleeping stranger's shoulder blade under a light and feel what I feel, which is the only part worth reporting:
+I have been reproached for this. Not aloud, obviously, and not by anyone living in the ordinary sense; reproached by the imagined reader I keep for company, the one who wants the tray, the lamp, the sequence, the tools by name — who thinks that if he can be told how, he will have been told something. He will not. What is done in that cellar is the least interesting thing about it. Any competent third-year could describe the steps. Not one of them could sit alone at two in the morning with a sleeping stranger's shoulder blade under a light and feel what I feel, which is the only part worth reporting:
 
 That her back, in that light, is beautiful. Not to be made beautiful. *Is.* The long muscle running under the skin like water under ice, the fine down at the nape, the freckles across the shoulder in a scatter as random and as inevitable as stars — a machine of astonishing sophistication that has kept this woman alive for twenty-six years and been repaid with a lifetime of angles. And there in the middle of it, benign, dull, meaningless, the full stop.
 
@@ -376,7 +376,7 @@ And the empty place in me, which has been empty since the heifer, since before t
 
 # Six — The Orphan Docket
 
-Margaux Theron agreed to meet him at a coffee place on Regent Road, in public, at eleven in the morning, and she chose the table.
+Margaux Theron agreed to meet him at a coffee place on Regent Road, in public, at ten in the morning, and she chose the table.
 
 Loots noticed all three of those things and said nothing about any of them. He came in his own clothes — the grey jacket, no tie, the shoes Elmarie bought him in 2016 that he'd had resoled twice — because a woman who has had a stranger inside her flat does not need a uniform sitting opposite her, and because half the job is deciding what you are going to look like to the person you need to tell you the truth.
 
@@ -456,9 +456,9 @@ Loots drove back over the Neck with that sentence sitting in the passenger seat 
 
 ---
 
-For the next eleven days he did the work nobody was paying him to do, in the hours that belonged to a docket about a stolen bakkie and a stabbing outside a shebeen in Ravensmead, and at night in the duplex at the kitchen table with the bottle at the far end of it, where he had started putting it deliberately, so that reaching became a decision instead of a movement.
+For the next nine days he did the work nobody was paying him to do, in the hours that belonged to a docket about a stolen bakkie and a stabbing outside a shebeen in Ravensmead, and at night in the duplex at the kitchen table with the bottle at the far end of it, where he had started putting it deliberately, so that reaching became a decision instead of a movement.
 
-He built a matrix. Not on a computer — on the back of a flip-chart sheet stuck to the inside of his own front door with masking tape, because the office had opinions and the front door did not. Columns: date, venue, suburb, drink, companion, time lost, entry method, what was done, what was left. Two rows to start. Then, on day four, a third: a woman in Green Point who had never reported anything to anyone but had written it out in a wellness forum in 2024 — *has anyone else woken up with a whole night missing and NOTHING happened, and now my nose bump is smaller, I feel insane typing this* — and had been answered by eleven people telling her about sleep apnoea and one telling her about demons.
+He built a matrix. Not on a computer — on the back of a flip-chart sheet stuck to the inside of his own front door with masking tape, because the office had opinions and the front door did not. Columns: date, venue, suburb, drink, companion, time lost, entry method, what was done, what was left. Two rows to start. Then, on day four, a third: a woman in Green Point who had never reported anything to anyone but had written it out in a wellness forum in 2024 — *has anyone else woken up with a whole night missing and NOTHING happened, and now my nose bump is smaller, I feel insane typing this* — and had been answered by fourteen people telling her about sleep apnoea and one telling her about demons.
 
 By day seven there were five rows, and Loots was no longer looking at victims. He was looking at a *practice*.
 
@@ -472,7 +472,7 @@ He is not choosing them because they are vulnerable. He is choosing them because
 
 That was the thing that made the hair on his arms stand up, alone in a rented duplex in Parow at midnight, and it was also — he would admit this to exactly one person, much later, in a car in the rain — the first time in eighteen months that he had felt entirely, unambiguously alive.
 
-He phoned Delport on the Monday and asked for three things: the Sexual Offences bounce reversed so he could pull toxicology retrospectively, a request to the Seaboard station commanders for any complaint containing the words *don't remember* and *procedure*, and an hour with someone at the FCS unit who could tell him what a sedative looks like eleven days after it's gone.
+He phoned Delport on the Monday and asked for three things: the Sexual Offences bounce reversed so he could pull toxicology retrospectively, a request to the Seaboard station commanders for any complaint containing the words *don't remember* and *procedure*, and an hour with someone at the FCS unit who could tell him what a sedative looks like nine days after it's gone.
 
 "You said statements and a report," Delport said.
 
@@ -546,7 +546,7 @@ On the Friday I stood in the cellar with the lights off and asked myself the onl
 
 I still say given. That is not remorse withheld. That is my honest report from inside the thing.
 
-And so on a Friday night in March, with the harvest trucks going up the Helshoogte pass all night and the whole valley smelling of crushed fruit, I crossed the line I had spent eleven years drawing, and I did not feel it happen. That is the part I would most like to explain to somebody one day. There was no thunder. There was no moment where the man I had been looked at the man I was becoming. There was a woman asleep on a table, and there was a syringe of nothing more sinister than a filler you could buy in any aesthetics practice in Green Point, warmed in my hand to body temperature because cold hurts even the unconscious, and there was a face I had measured eleven times.
+And so on a Friday night in March, with the harvest trucks going up the Helshoogte pass all night and the whole valley smelling of crushed fruit, I crossed the line I had spent eleven years drawing, and I did not feel it happen. That is the part I would most like to explain to somebody one day. There was no thunder. There was no moment where the man I had been looked at the man I was becoming. There was a woman asleep on a table, and there was a syringe of nothing more sinister than a filler you could buy in any aesthetics practice in Green Point, warmed in my hand to body temperature because cold hurts even the unconscious, and there was a face I had measured nine times.
 
 I remember one thought, and it was a small one. It was: *left first, because I always start left.*
 
@@ -556,7 +556,7 @@ Then I sat back on the stool and looked at what I had done, and the world went e
 
 I have tried since to find an honest comparison and there isn't one, so I will use a dishonest one and let you make the correction. Have you ever heard an orchestra tune? That long ugly fraying while everybody finds the A, and then the moment it lands and the sound stops being noise and becomes a plane, a surface, a thing you could stand on? Her face did that. Twenty minutes of my hands, and thirty-one years of *nearly* resolved, all at once, into a woman whose face — I measured it three times, I have the numbers in the ledger, they are the numbers — sat one one-hundredth from the peak of the distribution.
 
-Not perfect. Nothing living lands on it exactly. But closer than any face I have measured, closer than any face on any street in this city, closer than any of the four hundred and eleven thousand-follower faces that have been bought outright and rebuilt by men with far better paperwork and far worse hands.
+Not perfect. Nothing living lands on it exactly. But closer than any face I have measured, closer than any face on any street in this city, closer than any of the quarter-million-follower faces that have been bought outright and rebuilt by men with far better paperwork and far worse hands.
 
 And I had done it. Not accident. Not the genome's dice. Not a poet's God. Me, and a pair of hands the university of this country would not sell a degree to, in a two-hundred-year-old cellar, for nothing, in twenty minutes.
 
@@ -589,7 +589,7 @@ That was the thing that eventually got the file across a desk and up a chain and
 
 By then she had been to a GP, who said filler settles unevenly and are you sure you don't recall a treatment; to a second GP, who wrote *possible somatic preoccupation* and offered her something for sleep; to her mother, who said, on speakerphone from Bloemfontein, *maar jy lyk pragtig, my kind, wat is die probleem* — but you look beautiful, what is the problem — which is the sentence Demi would repeat to Loots in a shaking voice as the worst thing anybody said to her in the entire affair; and to the internet, where a woman with a ring light told six thousand people that "the girlies are now claiming they got free lip filler from a *ghost*," and where a man Demi had never met wrote, under a video that used her own photographs, *bru if this is a crime lock me up*.
 
-Her studio lost eleven students in a month. Not because of the mouth. Because of what the story did to her: because she brought it up, because she could not stop bringing it up, because there is nothing in the world less welcome in a wellness room in Sea Point than a beautiful woman with a grievance nobody can see.
+Her studio lost nineteen students in a month. Not because of the mouth. Because of what the story did to her: because she brought it up, because she could not stop bringing it up, because there is nothing in the world less welcome in a wellness room in Sea Point than a beautiful woman with a grievance nobody can see.
 
 By the time Loots met her she had stopped saying it out loud to anyone.
 
@@ -689,7 +689,7 @@ Loots asked for the file of photographs and the phone number and the voice note,
 
 "Do you want it undone?"
 
-Demi thought about it for a long time. It was, she said later, the only time anyone in eleven weeks had asked her what she wanted.
+Demi thought about it for a long time. It was, she said later, the only time anyone in fourteen weeks had asked her what she wanted.
 
 "No," she said. "That's what makes me want to be sick, Captain. He was right. I look at myself and I'm — " Her jaw went. "He was *right*, and I never said he could, and now I have to live in it. Both of those. Every day, both."
 
@@ -703,7 +703,7 @@ Because he had spent eighteen months believing he was the only man he'd ever met
 
 And now there were two of them.
 
-He started the car. He drove home the long way, past the sea. He poured nothing, and slept badly, and at 4:40 he got up and taped a sixth row onto the sheet on the back of his front door, and under *ESKALASIE*, in the column he had left empty for eleven days, he finally wrote:
+He started the car. He drove home the long way, past the sea. He poured nothing, and slept badly, and at 4:40 he got up and taped a sixth row onto the sheet on the back of his front door, and under *ESKALASIE*, in the column he had left empty for nine days, he finally wrote:
 
 *Hy vat nie meer weg nie. Hy sit by.*
 
@@ -726,9 +726,9 @@ I know it is a printout before I see it. I know it from the way she is standing 
 
 "Môre. You've been busy."
 
-She hands it over without ceremony. Three months of ketamine and midazolam draws for the small-animal theatre, printed from the workbook — *my* workbook — with a column added on the right in her handwriting: the theoretical minimum for each procedure on the list, calculated from the anaesthetic record. Every row is fine. Eleven rows are more than fine; eleven rows are *slightly* fine, in a way that a person who was not looking would never see.
+She hands it over without ceremony. Three months of ketamine and midazolam draws for the small-animal theatre, printed from the workbook — *my* workbook — with a column added on the right in her handwriting: the theoretical minimum for each procedure on the list, calculated from the anaesthetic record. Every row is fine. Nine rows are more than fine; nine rows are *slightly* fine, in a way that a person who was not looking would never see.
 
-Eleven rows, out of four hundred and six. She has found eleven of my fourteen.
+Nine rows, out of four hundred and six. She has found nine of my fourteen.
 
 I feel — I want to be exact — a rush of something warm and entirely unfamiliar, and it takes me a full second to identify it as *delight*.
 
@@ -748,7 +748,7 @@ I have been managed by experts. I have never before been *held to a promise*.
 
 Let me tell you how a professional handles this, because everything you think you know about it is wrong.
 
-An amateur denies. An amateur explains. An amateur produces, on the spot, a plausible alternative account of the eleven rows, and the plausible alternative account is the rope. Every man I have ever watched get caught — the vet in Worcester who was selling ketamine into Cape Town, the lecturer who fabricated the culture results, my own father, over four generations of vineyard — got caught not because someone found the thing but because he *explained* the thing before he was asked to.
+An amateur denies. An amateur explains. An amateur produces, on the spot, a plausible alternative account of the nine rows, and the plausible alternative account is the rope. Every man I have ever watched get caught — the vet in Worcester who was selling ketamine into Cape Town, the lecturer who fabricated the culture results, my own father, over four generations of vineyard — got caught not because someone found the thing but because he *explained* the thing before he was asked to.
 
 What a professional does is agree.
 
@@ -784,9 +784,9 @@ We count. It takes ninety minutes. She counts left-handed, twice, initials in gr
 
 That night I go home and do the arithmetic that matters.
 
-Eleven of fourteen. In three months. From a printout and a calculator and thirty-one hours, by one final-year student with no suspicion in her head at all — because that is the point I must not lose sight of: Anri does not suspect me of anything. She suspects the *assumption*. She is a person who cannot walk past a soft joint in a system without pressing it, in exactly the way I cannot walk past two millimetres of upper vermilion.
+Nine of fourteen. In three months. From a printout and a calculator and thirty-one hours, by one final-year student with no suspicion in her head at all — because that is the point I must not lose sight of: Anri does not suspect me of anything. She suspects the *assumption*. She is a person who cannot walk past a soft joint in a system without pressing it, in exactly the way I cannot walk past two millimetres of upper vermilion.
 
-If I fight her, the joint becomes a hole with my name written next to it. If I help her close it, the system tightens by a factor of — I do it properly, on paper — about eleven, and my usable margin drops to something like a quarter of what it was, and every future draw has to be defended against a tolerance calculated by the one person in the building who does the work twice.
+If I fight her, the joint becomes a hole with my name written next to it. If I help her close it, the system tightens by a factor of — I do it properly, on paper — about three and a half, and my usable margin drops to something like a quarter of what it was, and every future draw has to be defended against a tolerance calculated by the one person in the building who does the work twice.
 
 Any reasonable man would find this a catastrophe.
 
@@ -841,7 +841,7 @@ So she told him. A thirty-something woman, no dermatological history worth the n
 
 "And you said?"
 
-"I said what you'd say. Are you on anything, do you have any memory issues, are we perhaps talking about a procedure under sedation you've forgotten, did somebody do it while you were out for something else. And she got very quiet and very polite, which I have learned is what it looks like when a patient decides you're not safe." Naidoo's mouth tightened. "I lost her. She went home and I wrote *pt reports no recall of procedure* in the notes and moved on, because I had eleven more patients and a septic toe."
+"I said what you'd say. Are you on anything, do you have any memory issues, are we perhaps talking about a procedure under sedation you've forgotten, did somebody do it while you were out for something else. And she got very quiet and very polite, which I have learned is what it looks like when a patient decides you're not safe." Naidoo's mouth tightened. "I lost her. She went home and I wrote *pt reports no recall of procedure* in the notes and moved on, because I had nine more patients and a septic toe."
 
 "But you didn't move on."
 
@@ -881,7 +881,7 @@ Loots looked at the blue book for a long moment.
 
 Priya Naidoo laughed, one syllable, without any humour in it at all.
 
-"I did," she said. "In August I phoned the police station in Sea Point and a very nice young man told me that if my patient wanted to lay a charge my patient could come in. In September I wrote to the HPCSA, because my working theory then was that it was a doctor — a struck-off man, someone with a grudge — and they wrote back in eleven weeks to say there was no registered practitioner to investigate. In October I mentioned it at a congress in Durban, in a corridor, to three colleagues, and one of them called me *the ghost surgeon lady* for the rest of the weekend." She squared the file. "So no. I stopped taking it anywhere. I kept it, and I've been waiting eleven months for somebody to phone me, and you're the first person who has, and I need you to understand that in that eleven months I have had two more."
+"I did," she said. "In August I phoned the police station in Sea Point and a very nice young man told me that if my patient wanted to lay a charge my patient could come in. In September I wrote to the HPCSA, because my working theory then was that it was a doctor — a struck-off man, someone with a grudge — and they wrote back in fourteen weeks to say there was no registered practitioner to investigate. In October I mentioned it at a congress in Durban, in a corridor, to three colleagues, and one of them called me *the ghost surgeon lady* for the rest of the weekend." She squared the file. "So no. I stopped taking it anywhere. I kept it, and I've been waiting eleven months for somebody to phone me, and you're the first person who has, and I need you to understand that in that eleven months I have had two more."
 
 Loots's pen stopped.
 
@@ -924,7 +924,7 @@ The cellar was dug into the hill in 1798 by people whose names are not in any re
 
 Two hundred and twenty-eight years of cold. That is what you feel on the steps — not damp, not the ordinary chill of a room without sun, but a temperature that has been sitting in this hillside since before the Cape had a British governor, laid down by hands that hacked it out of the shale with iron tools and no drawings, so that a Vermeulen who was not yet a Vermeulen could keep his wine at a stable thirteen degrees. The walls are a metre thick where the barrel vault springs. My great-great-grandfather ran a hosepipe down here in 1911 and the mark of it is still on the wall like a tideline. Frik put in the steel door and the three-phase board in 1994 and then lost interest, as our family loses interest, and went to Hermanus to fish.
 
-I have been coming down these steps since I was six years old. And for twenty-three of those years the room behind the steel door was a room with things in it — a table, a lamp, a trolley, a sterilizer that I bought at an auction of a closed practice in Malmesbury for eleven thousand rand and rebuilt myself. A workshop. A very good workshop, in a very good hiding place, but a workshop, in the way a garage with a lift in it is a workshop.
+I have been coming down these steps since I was six years old. And for twenty-three of those years the room behind the steel door was a room with things in it — a table, a lamp, a trolley, a sterilizer that I bought at an auction of a closed practice in Malmesbury for nineteen thousand rand and rebuilt myself. A workshop. A very good workshop, in a very good hiding place, but a workshop, in the way a garage with a lift in it is a workshop.
 
 That is over now, and I want to set down honestly when it changed, because I have found that men in my position are always assumed to have been building the cathedral from the start, and I was not. I was fixing scratches in a garage.
 
@@ -954,7 +954,7 @@ The light is the thing I would show you if I could show you one thing. A proper 
 
 I sat on the stool the first night it worked and looked at that circle for an hour without any thought in my head at all, which has happened to me perhaps four times in my life.
 
-You will want to know what I call the room. I call it the cellar, because I am not a fool and one guards one's language the way one guards one's keys. But the word that arrives when I am tired, coming down the steps at three in the morning with the valley asleep above me and the light waiting, is the word my mother's family used for the little Dutch Reformed church at Pniel where the farm's people were christened: die kapel.
+You will want to know what I call the room. I call it the cellar, because I am not a fool and one guards one's language the way one guards one's keys. But the word that arrives when I am tired, coming down the steps in the small hours with the valley asleep above me and the light waiting, is the word my mother's family used for the little Dutch Reformed church at Pniel where the farm's people were christened: die kapel.
 
 The chapel. Ja. I know exactly how that sounds. I have read the same books you have.
 
@@ -983,11 +983,11 @@ It was: *I should have a second aspirator. Never rely on one of anything.*
 
 # Twelve — The Sculptor
 
-The story broke on a Sunday, in a lifestyle supplement, under the headline THE MIDNIGHT SCULPTOR, next to a photograph of a woman's mouth that was not any of the victims' mouths but a stock image bought for eleven dollars.
+The story broke on a Sunday, in a lifestyle supplement, under the headline THE MIDNIGHT SCULPTOR, next to a photograph of a woman's mouth that was not any of the victims' mouths but a stock image bought for nine dollars.
 
 Loots read it standing up in a Woolworths in Panorama with the milk in his other hand.
 
-It was two thousand words long and it was not, in the technical sense, wrong. It had the Camps Bay woman (unnamed), the Sea Point yoga instructor (unnamed, but there were only so many yoga instructors in Sea Point and by Tuesday her studio's Instagram had eleven thousand new followers and one review that said *does the ghost do necks*), and a quote from a Green Point aesthetic practitioner who said, and Loots read this sentence four times in the dairy aisle, *"Look, obviously it's a crime, but from a purely technical standpoint the work I've seen is exquisite. Whoever this is, they're better than most people I trained with."*
+It was two thousand words long and it was not, in the technical sense, wrong. It had the Camps Bay woman (unnamed), the Sea Point yoga instructor (unnamed, but there were only so many yoga instructors in Sea Point and by Tuesday her studio's Instagram had nineteen thousand new followers and one review that said *does the ghost do necks*), and a quote from a Green Point aesthetic practitioner who said, and Loots read this sentence four times in the dairy aisle, *"Look, obviously it's a crime, but from a purely technical standpoint the work I've seen is exquisite. Whoever this is, they're better than most people I trained with."*
 
 There was a paragraph beginning *Whatever else he is, he appears to have excellent taste*.
 
@@ -1007,7 +1007,7 @@ The taskforce meeting was on the Wednesday, in the Provincial building, in the r
 
 He was not at the head of the table. He was two-thirds down, next to the projector cable, in the chair you sit in when your role in a meeting is to be available.
 
-Brigadier Steenkamp chaired it. There were fourteen people in the room, of whom eleven had been sent because the story had run in a Sunday paper and a DA member of the provincial legislature had said the words *public confidence* on television, and of those eleven, Loots reckoned, four were there to make sure nothing happened that could later be described as an overreaction to a case in which nobody had been robbed, injured, or killed.
+Brigadier Steenkamp chaired it. There were fourteen people in the room, of whom nine had been sent because the story had run in a Sunday paper and a DA member of the provincial legislature had said the words *public confidence* on television, and of those nine, Loots reckoned, four were there to make sure nothing happened that could later be described as an overreaction to a case in which nobody had been robbed, injured, or killed.
 
 "Right," said Steenkamp. "Captain Loots has been carrying this. Gideon — briefly, please. There's a lot on."
 
@@ -1017,7 +1017,7 @@ He did it in eight minutes. He did it well; he had been doing this since before 
 
 "So he's a vet," said a colonel from Provincial Crime Intelligence.
 
-"Or a student, or someone struck off, or someone who did three years and dropped out. There's Onderstepoort, there's the new faculty at Stellenbosch, there's about eleven hundred registered vets in this province and I don't need all of them. I need the ones with access to a theatre, a sterilizer and a schedule that leaves them free on weeknights on the Atlantic seaboard, and I need the ones who were rejected from medicine, because —"
+"Or a student, or someone struck off, or someone who did three years and dropped out. There's Onderstepoort, there's the new faculty at Stellenbosch, there's about three thousand registered vets in this province and I don't need all of them. I need the ones with access to a theatre, a sterilizer and a schedule that leaves them free on weeknights on the Atlantic seaboard, and I need the ones who were rejected from medicine, because —"
 
 "Because?" said Steenkamp.
 
@@ -1057,7 +1057,7 @@ Warrant Officer Zintle Nkosi was thirty-six, wore a jacket that fitted properly,
 
 Loots put his bag down slowly. "Ask."
 
-"One. You've got 'he thinks he's helping' as your organising principle. Everything hangs off that. If you're wrong, we're eleven months down the wrong road."
+"One. You've got 'he thinks he's helping' as your organising principle. Everything hangs off that. If you're wrong, we're a year down the wrong road."
 
 "I'm not wrong."
 
@@ -1113,7 +1113,7 @@ Then there was a wedding — a cousin, in the Boland Anglican church at Pniel, f
 
 And I watched, over the course of about forty minutes, my entire extended family fail to see her.
 
-Not cruelty. That is the thing I want to be precise about, because cruelty would have been *easier*, cruelty is a signal, cruelty tells a child where the walls are. Nobody was cruel. My aunts were warm to Sarah. My uncle knew Elmien's name and used it. And every single one of them looked directly at the most extraordinary face in that building — and I mean that as a measurement, I have since taken the measurement, I know precisely what I am claiming — and their eyes went over her the way your eye goes over a chair.
+Not cruelty. That is the thing I need said exactly, because cruelty would have been *easier*, cruelty is a signal, cruelty tells a child where the walls are. Nobody was cruel. My aunts were warm to Sarah. My uncle knew Elmien's name and used it. And every single one of them looked directly at the most extraordinary face in that building — and I mean that as a measurement, I have since taken the measurement, I know precisely what I am claiming — and their eyes went over her the way your eye goes over a chair.
 
 Meanwhile, on the other side of the room, my cousin Marlien, aged nineteen, was being told she was beautiful, four times an hour, by everyone.
 
@@ -1135,7 +1135,7 @@ African beauty is the human template. Everything else on this planet is a variat
 
 The skin-lighteners on the shelf at the Shoprite in Kayamandi. The women in my own lecture theatre who will not wear their own hair. Eleven billion dollars a year, globally, to make people less like the sculpture that half the museums of Europe are still holding.
 
-I have never touched a Black woman's face. Not once, in four hundred and some procedures, and I never will. There is nothing to correct and I would not have the arrogance. My work is exclusively, deliberately, doctrinally performed on my own people: on the pale, moneyed, cut-and-filled women of that coastline — the ones who fly to Turkey for a jaw, who pay a man in Sandton eleven thousand rand a syringe to chase a proportion their own great-grandmothers took from a continent they refused to look at. I am not stealing from anyone. I am doing, for free, at three in the morning, in a cold room, what they are already paying strangers to do badly.
+I have never touched a Black woman's face. Not once, in four hundred and some procedures, and I never will. There is nothing to correct and I would not have the arrogance. My work is exclusively, deliberately, doctrinally performed on my own people: on the pale, moneyed, cut-and-filled women of that coastline — the ones who fly to Turkey for a jaw, who pay a man in Sandton nine thousand rand a syringe to chase a proportion their own great-grandmothers took from a continent they refused to look at. I am not stealing from anyone. I am doing, for free, at three in the morning, in a cold room, what they are already paying strangers to do badly.
 
 And I am doing it *toward the template*, instead of away from it, which is the only difference between me and the practice on Kloof Street with the reviews and the parking.
 
@@ -1147,7 +1147,7 @@ Bianca Steyn is thirty, sells wellness on the internet, has a face that runs one
 
 That is the detail that decided her. Not the face — the burning. I watched her at a table in Clifton in November scanning the awning line the way a lizard scans for shade, hunting the one seat where the sun would not reach her, and I watched a woman spend an entire lunch in physical anxiety about a star, and I thought: *this is a species that has been moved to the wrong latitude and has decided the latitude is correct.*
 
-Two hundred generations out of Africa and we are still, biologically, tourists here. We come to a coastline with an ultraviolet index that pushes eleven in January, and we peel, and we blister, and we grow the melanomas Dr Naidoo cuts out for a living, and then we lie on the sand to obtain, painfully and temporarily and with a permanent bill in DNA damage, four shades of the thing we spent four centuries despising in the people who actually live here.
+Two hundred generations out of Africa and we are still, biologically, tourists here. We come to a coastline with an ultraviolet index that pushes fourteen in January, and we peel, and we blister, and we grow the melanomas Dr Naidoo cuts out for a living, and then we lie on the sand to obtain, painfully and temporarily and with a permanent bill in DNA damage, four shades of the thing we spent four centuries despising in the people who actually live here.
 
 You cannot make this up. Nobody could make this up.
 
@@ -1155,7 +1155,7 @@ So: pigment.
 
 I will describe none of it. I have described none of my methods and I am not going to begin with this one, because this is the procedure that would be lifted, and I have no interest in adding to the supply of men in rented rooms doing to women what I do properly. What I will say is that I did not go near her face — the face was not the point, and the face is where a change is noticed and the change I intended was to be lived in, not looked at. Two sessions, seven weeks apart, on the dorsal surfaces where a woman looks first for the confirmation of a summer. It is not a dye. It is not a tattoo. It is an instruction, and the instruction is one her own cells knew how to follow.
 
-She noticed in the third week and told forty thousand people it was a new supplement. She has, at the time I write this, sold eleven thousand units of it.
+She noticed in the third week and told forty thousand people it was a new supplement. She has, at the time I write this, sold ninety thousand units of it.
 
 I would like to say I found that funny. I found it clarifying. I had given a woman four shades of the only genuine protection our species ever evolved against the sun she is terrified of, and she metabolised it, within twenty-one days, into a product.
 
@@ -1217,7 +1217,7 @@ She looked at the video. She looked at the four photographs Nkosi had pulled fro
 
 They interviewed Bianca Steyn on a Tuesday, in her flat above Clifton, with the whole blue enormity of the Atlantic in the window behind her. It was the worst interview of the case.
 
-She did not believe them. Then she believed them, and the belief arrived in stages, like weather coming over the mountain: first, a kind of hilarity — *no, but I would have felt something, I'd have known* — then the calculating look of a woman running back through eleven months of an online business built on a product that did not do what she had told forty-one thousand people it did, then the moment she understood she was going to have to give the money back, then, finally, at about the thirty-minute mark, in a silence that neither detective interrupted, the thing itself.
+She did not believe them. Then she believed them, and the belief arrived in stages, like weather coming over the mountain: first, a kind of hilarity — *no, but I would have felt something, I'd have known* — then the calculating look of a woman running back through two years of an online business built on a product that did not do what she had told forty-one thousand people it did, then the moment she understood she was going to have to give the money back, then, finally, at about the thirty-minute mark, in a silence that neither detective interrupted, the thing itself.
 
 "He was in here," she said.
 
@@ -1299,7 +1299,7 @@ He got home at half past ten. The bottle was where he had left it, at the far en
 
 Then he took it to the sink and poured it out, and stood there while it went, and it took much longer than he expected — you never think how long a bottle takes — and afterwards he rinsed the sink, because it was his mother's house's habit in his hands, and put the empty in the bin, and washed the plate that had been in the sink since Sunday.
 
-He phoned Ilse at twenty to eleven, which is too late, and she did not answer, and this time he left a message.
+He phoned Ilse at twenty to midnight, which is too late, and she did not answer, and this time he left a message.
 
 "Ilse. It's Pappa. Nee, alles's reg — nothing's wrong. I just wanted to say —" a long pause on the recording, eleven seconds of a man in a kitchen "— I'm on a case. It's a good one. And there's a thing I have to work out about it, about myself, and I think you know what it is, and I'm — " Another pause. "Ek's besig om dit uit te werk. That's all. Sleep lekker, my kind."
 
@@ -1308,7 +1308,7 @@ He did not sleep. At 4:40 he got up, and made coffee, and at the kitchen table, 
 
 # Fifteen — The Variance
 
-The audit committee accepted our submission on the fourteenth of May, unanimously, in eleven minutes, and the faculty officer said the words "exemplary student initiative" into the minutes, and Prof Krige put his hand on the back of my neck afterwards in the corridor like a man cuffing a favourite dog and said we were a credit to the place.
+The audit committee accepted our submission on the fourteenth of May, unanimously, in nine minutes, and the faculty officer said the words "exemplary student initiative" into the minutes, and Prof Krige put his hand on the back of my neck afterwards in the corridor like a man cuffing a favourite dog and said we were a credit to the place.
 
 Anri's name is first on the minute. I put it there and I did not tell her I had.
 
@@ -1316,7 +1316,7 @@ The new tolerance is 0.6 per cent. Itemised wastage. Every draw above the theore
 
 My usable margin is now approximately nil.
 
-I did that. I want the record to show that I engineered, seconded, drafted and championed the system that closed my own supply, and that I did it in eleven minutes in a committee room while a woman I like watched me do it, and that I would do it again, because the alternative was a hole in the ground with my name beside it. The Florentine again: *the wise prince, when he has the opportunity, ought with craft to foster some enmity, so that by suppressing it he may augment his greatness.* I have never found a better description of what it is to be your own auditor.
+I did that. I want the record to show that I engineered, seconded, drafted and championed the system that closed my own supply, and that I did it in nine minutes in a committee room while a woman I like watched me do it, and that I would do it again, because the alternative was a hole in the ground with my name beside it. The Florentine again: *the wise prince, when he has the opportunity, ought with craft to foster some enmity, so that by suppressing it he may augment his greatness.* I have never found a better description of what it is to be your own auditor.
 
 But nil is nil, and I have four hours' work planned for the winter, and four hours' work does not run on nothing.
 
@@ -1328,7 +1328,7 @@ The faculty has an outreach programme. Four days a month, a bakkie and a trailer
 
 Field lists do not reconcile against theoretical minimums. They cannot. Nobody weighs a township dog to the gram; you estimate, you draw for the estimate, you use what you use, and the record says *est. 14 kg* and the record is honest and useless. The variance lives in the field, where it has always lived, where every vet in this country knows it lives, and where no committee will ever touch it because touching it means fewer dogs.
 
-Eleven months of my requirements, spread across a year of Saturdays, drawn honestly, recorded honestly, in a system that cannot know the difference.
+Nine months of my requirements, spread across a year of Saturdays, drawn honestly, recorded honestly, in a system that cannot know the difference.
 
 I am aware of what I am. I do the sterilisations. Forty-one Saturdays. The dogs are real.
 
@@ -1366,7 +1366,7 @@ We count. Ninety minutes. She counts left-handed, twice, initials in green.
 
 Near the end she says: "Did you see the Sunday paper thing? The Sculptor."
 
-The shelf in front of me contains eleven boxes of size 4-0 suture and I do not move my hand at all.
+The shelf in front of me contains nineteen boxes of size 4-0 suture and I do not move my hand at all.
 
 "I saw a bit of it."
 
@@ -1374,7 +1374,7 @@ The shelf in front of me contains eleven boxes of size 4-0 suture and I do not m
 
 "Somebody in our class says the moon landing was filmed in Namibia."
 
-"Ja, no, but the article said it," she says. "That the closing was — what did it say. That it looked like animal work." She squares the clipboard. "It's a stupid thing to write. There's like eleven hundred vets in this province."
+"Ja, no, but the article said it," she says. "That the closing was — what did it say. That it looked like animal work." She squares the clipboard. "It's a stupid thing to write. There's like three thousand vets in this province."
 
 "Twelve hundred and six," I say, "and about four thousand students and technicians, and the whole thing is probably two women who had work done and a journalist who needed a Sunday."
 
@@ -1402,7 +1402,7 @@ Because I have understood, standing there, three things in a sequence, and I wou
 
 One. She was not testing me. There was nothing in it. It was a woman thinking out loud on her way to her car about a newspaper story, and if I had said nothing she would have forgotten it by the robot at Merriman.
 
-Two. She got there in eleven seconds. A newspaper article, a fact about suture patterns, and one honest question — *where does a person put a theatre* — and Anri Fourie, who was not looking for me, who has never suspected me of anything, arrived in eleven seconds at the only load-bearing weakness in eleven years of my life. Not by suspicion. By *competence*. Because she cannot walk past a soft joint without pressing it.
+Two. She got there in nine seconds. A newspaper article, a fact about suture patterns, and one honest question — *where does a person put a theatre* — and Anri Fourie, who was not looking for me, who has never suspected me of anything, arrived in nine seconds at the only load-bearing weakness in eleven years of my life. Not by suspicion. By *competence*. Because she cannot walk past a soft joint without pressing it.
 
 Three, and I write this one down carefully, because it is the sentence on which everything after it turns:
 
@@ -1416,7 +1416,7 @@ Four hours. A winter list. A woman in the January of her own face.
 
 And on the left-hand page, where I keep the things that are not measurements, under the entry that reads *A. F. — 11/14. Thirty-one hours. Left-handed. Counts twice*, I did not write anything at all.
 
-I looked at it for a long time. That is all. Then I closed the ledger, and put out the light, and went up the steps, and the valley was doing what it does, and I remember thinking, with the door key cold in my hand and the whole night in front of me:
+I sat with it for a long time. That is all. Then I closed the ledger, and put out the light, and went up the steps, and the valley was doing what it does, and I remember thinking, with the door key cold in my hand and the whole night in front of me:
 
 *Not yet. Not her. There's still the winter's work.*
 
@@ -1431,7 +1431,7 @@ The map went up on the wall of the interview room on a Monday in June because th
 
 Nkosi did the pins. Loots did the string, which he had bought himself at a hardware in Parow, and which the two of them agreed made the whole thing look like something from a television programme, and which was nevertheless the only way either of them had ever managed to see a case in two dimensions.
 
-Red pins: the venues. Eleven of them now, all within four kilometres of the sea, from the Waterfront down through Green Point, Sea Point, Bantry Bay, Clifton, Camps Bay. White pins: the flats. Same corridor. Between them, a spread of string so tight it looked like one place.
+Red pins: the venues. Fourteen of them now, all within four kilometres of the sea, from the Waterfront down through Green Point, Sea Point, Bantry Bay, Clifton, Camps Bay. White pins: the flats. Same corridor. Between them, a spread of string so tight it looked like one place.
 
 "So he hunts in a shoebox," said Nkosi.
 
@@ -1439,13 +1439,13 @@ Red pins: the venues. Eleven of them now, all within four kilometres of the sea,
 
 That was the whole of it, and it had taken him four months to see it, and when he did see it he had to sit down on the corner of the table because it was so simple.
 
-Nine of the eleven approaches had happened on a weeknight. Every single victim had been returned to her own flat between two and four in the morning. In no case — not one, in two and a half years — had anybody seen a man walking to a car in the shoebox afterwards, and there was no CCTV of anyone leaving on foot, and the Seaboard at three in the morning is not a place where a man on foot goes unnoticed.
+Nine of the fourteen approaches had happened on a weeknight. Every single victim had been returned to her own flat between two and four in the morning. In no case — not one, in two and a half years — had anybody seen a man walking to a car in the shoebox afterwards, and there was no CCTV of anyone leaving on foot, and the Seaboard at three in the morning is not a place where a man on foot goes unnoticed.
 
 "He drives," said Loots. "Fine. Everyone drives. But where does he drive *to*?"
 
 He put his finger on the map, on the mountain, and drew it inland: over the Neck, or round through the city bowl, onto the N1 or the N2, past the airport, out.
 
-"If he lived in the shoebox he'd be walking. If he lived in the southern suburbs he'd be twenty minutes away and he'd have been seen by now, because that's a small world and everybody's got a Ring camera. So he's coming from far enough that nobody in Clifton has ever seen his face twice." He tapped the wall to the right of the map, where there was no map, only paint. "And there's nothing over here, Warrant. That's the thing that's been bothering me since March. We've got eleven approach venues and not one single sighting of this man anywhere else in this city. Ever. He doesn't shop. He doesn't go to a gym. He's got no restaurant. He's a man with no *life* in Cape Town."
+"If he lived in the shoebox he'd be walking. If he lived in the southern suburbs he'd be twenty minutes away and he'd have been seen by now, because that's a small world and everybody's got a Ring camera. So he's coming from far enough that nobody in Clifton has ever seen his face twice." He tapped the wall to the right of the map, where there was no map, only paint. "And there's nothing over here, Warrant. That's the thing that's been bothering me since March. We've got fourteen approach venues and not one single sighting of this man anywhere else in this city. Ever. He doesn't shop. He doesn't go to a gym. He's got no restaurant. He's a man with no *life* in Cape Town."
 
 "Because his life is somewhere else," said Nkosi.
 
@@ -1463,7 +1463,7 @@ Nkosi looked at him.
 
 ---
 
-The faculty list had come back in April: two hundred and eleven students, sixty-eight staff, plus the Onderstepoort alumni resident in the province, which took it to eleven hundred and eight names, which was — as Delport had pointed out, holding the printout at arm's length like a summons — not a suspect pool but a phone book.
+The faculty list had come back in April: two hundred and six students, sixty-eight staff, plus the Onderstepoort alumni resident in the province, which took it to three thousand and eight names, which was — as Delport had pointed out, holding the printout at arm's length like a summons — not a suspect pool but a phone book.
 
 So they cut it.
 
@@ -1481,7 +1481,7 @@ They cut it the way Loots had learned to cut things in the nineties, before the 
 
 That last one was not evidence and both of them knew it. Nkosi wrote it on the board anyway, in the corner, under a heading she made up on the spot and which survived into the eventual court file: WAT ONS DINK. What we think.
 
-The pool came down to two hundred and forty. Then, when Nkosi cross-matched against the two faculties' historical medical-school applications — which took a subpoena, three weeks, and a data-protection officer at Tygerberg who eventually gave in because Nkosi phoned her at 7:30 every single morning for eleven days — it came down to thirty-one.
+The pool came down to two hundred and forty. Then, when Nkosi cross-matched against the two faculties' historical medical-school applications — which took a subpoena, three weeks, and a data-protection officer at Tygerberg who eventually gave in because Nkosi phoned her at 7:30 every single morning for nine days — it came down to thirty-one.
 
 Thirty-one people in the Western Cape who had applied to study medicine, been refused, and become veterinarians or veterinary students instead.
 
@@ -1509,13 +1509,13 @@ Neither of them said anything for a moment. Somewhere behind her there was a cor
 
 "It's fine." A pause. "You sounded — you didn't sound drunk."
 
-"I wasn't," said Loots, and then, because there was no version of this in which anything except the truth would survive: "I haven't had a drink in eleven days."
+"I wasn't," said Loots, and then, because there was no version of this in which anything except the truth would survive: "I haven't had a drink in nine days."
 
 Another pause, longer.
 
 "Okay," said Ilse, carefully, in the voice of a girl who has been given this particular parcel before and has learned to check the weight of it. "That's good, Pa."
 
-"It's eleven days. I'm not — I know what eleven days is worth."
+"It's nine days. I'm not — I know what nine days is worth."
 
 "Ja."
 
@@ -1539,7 +1539,7 @@ And here it was: the first real question his daughter had asked him in eighteen 
 
 She laughed — properly, once — and it went into him like heat into cold hands.
 
-They talked for eleven minutes. She told him about a lecturer who read his slides out loud. He told her, in the flattened, sanded-down version he had used with her since she was small, that he was working on a case that mattered, that there was a woman on it with him who was better at the computer part than he'd ever be, and that he was going to be on the road a lot in the Boland.
+They talked for nineteen minutes. She told him about a lecturer who read his slides out loud. He told her, in the flattened, sanded-down version he had used with her since she was small, that he was working on a case that mattered, that there was a woman on it with him who was better at the computer part than he'd ever be, and that he was going to be on the road a lot in the Boland.
 
 "Stellenbosch?"
 
@@ -1559,7 +1559,7 @@ Loots looked out of the windscreen at the parkade wall.
 
 "Go. Go, my kind."
 
-"Bye. Um." A pause of about a second and a half. "Bel weer. Not at eleven at night."
+"Bye. Um." A pause of about a second and a half. "Bel weer. Not at midnight."
 
 She rang off. Loots sat with the phone in his hand for a while, and then he ate the cold boerie roll in about ninety seconds, standing up outside the car, in the wind, because he had discovered that he was extremely hungry.
 
@@ -1567,7 +1567,7 @@ She rang off. Loots sat with the phone in his hand for a while, and then he ate 
 
 That night he moved the string.
 
-He took the eleven red pins off the shoebox map, and he took a single new pin, black, and he put it on the second map, in the mountains, east of the city — not on a town, on the pass itself, in the gap between Stellenbosch and Franschhoek where the road goes over the shoulder of the Simonsberg and down through the vineyards.
+He took the fourteen red pins off the shoebox map, and he took a single new pin, black, and he put it on the second map, in the mountains, east of the city — not on a town, on the pass itself, in the gap between Stellenbosch and Franschhoek where the road goes over the shoulder of the Simonsberg and down through the vineyards.
 
 Nkosi found it there in the morning and stood looking at it with her coffee.
 
@@ -1579,7 +1579,7 @@ Nkosi found it there in the morning and stood looking at it with her coffee.
 
 "No," he agreed. "Put it under *wat ons dink*."
 
-She did. And underneath it, in her own handwriting, in English, she added the line that would be read out eleven weeks later in a review board hearing by a colonel who wanted to know at exactly what point this investigation had stopped being a joke:
+She did. And underneath it, in her own handwriting, in English, she added the line that would be read out five months later in a review board hearing by a colonel who wanted to know at exactly what point this investigation had stopped being a joke:
 
 *He isn't hiding in the city. He's commuting to it.*
 
@@ -1603,7 +1603,7 @@ Four degrees. On a woman who will be photographed at seventy.
 
 ---
 
-The winter list has three names on it, ruled in February, in the clean spread at the back of the ledger, and hers is the first because hers is the one I have been ready for longest and because the work is four hours and June has the longest nights of the year.
+The winter list has three names on it, ruled in February, on the last unused spread of the ledger, and hers is the first because hers is the one I have been ready for longest and because the work is four hours and June has the longest nights of the year.
 
 I want to say something about the four hours before I say anything else, because everything that has been written about that night since — and a great deal has been written, by people who were not there, in language that suggests the whole thing was a frenzy — misses the only fact that matters, which is that it was *slow*.
 
@@ -1834,7 +1834,7 @@ Loots looked out at the cranes.
 
 The nineteenth of June: the day the docket stopped being a joke.
 
-By four that afternoon the taskforce had a real room, twelve people, and a case number that ran under a heading with the word GBH in it, because a facial nerve is grievous bodily harm and grievous bodily harm is a language every station commander in the province speaks fluently. The public appeal Steenkamp had refused in April went out on the Thursday evening news, in Loots's words, with the water and the two paracetamol in it, and by Sunday night the dedicated number had taken four hundred and eleven calls, of which eleven were real, and one of which was a woman in Green Point who had been telling people about her nose since 2024.
+By four that afternoon the taskforce had a real room, twelve people, and a case number that ran under a heading with the word GBH in it, because a facial nerve is grievous bodily harm and grievous bodily harm is a language every station commander in the province speaks fluently. The public appeal Steenkamp had refused in April went out on the Thursday evening news, in Loots's words, with the water and the two paracetamol in it, and by Sunday night the dedicated number had taken four hundred and fourteen calls, of which fourteen were real, and one of which was a woman in Green Point who had been telling people about her nose since 2024.
 
 And on the Friday, in the interview room with the two maps and the string, Nkosi took a black marker and wrote across the top of the second map, above the pin in the pass, the sentence that ran the rest of the winter:
 
@@ -1853,15 +1853,15 @@ Nkosi capped the marker.
 
 # Nineteen — The Material Was Wrong
 
-For eleven days after Nadia Prinsloo I did not go down the cellar steps.
+For nine days after Nadia Prinsloo I did not go down the cellar steps.
 
 I have read a great deal about what men like me are supposed to do in the aftermath of what the literature calls a disorganised event, and it is all wrong, or at least it is all written by people who have only ever interviewed the ones who were caught early. They speak of a cooling-off period, as if there were heat. They speak of the offender revisiting the scene. There was no heat and there was nothing to revisit; the scene was a room I had built and it was still there and it was still clean.
 
-What there was, for eleven days, was *work*, of the kind nobody outside a professional discipline understands.
+What there was, for nine days, was *work*, of the kind nobody outside a professional discipline understands.
 
 I wrote it up.
 
-Forty-one pages, in the ledger and out of it, on loose sheets I burned afterwards in the drum behind the werf: the anaesthetic record minute by minute, the fluid balance, the timeline, the twenty-two steps against the clock, the point at 03:52 and everything before it. Morbidity and mortality, single author, single attendee. Every hospital in the world does this and calls it a meeting and eats sandwiches at it, and what they do in that meeting is what I did alone for eleven days, which is to ask, over and over, at every branch point: *what would I do differently.*
+Forty-one pages, in the ledger and out of it, on loose sheets I burned afterwards in the drum behind the werf: the anaesthetic record minute by minute, the fluid balance, the timeline, the twenty-two steps against the clock, the point at 03:52 and everything before it. Morbidity and mortality, single author, single attendee. Every hospital in the world does this and calls it a meeting and eats sandwiches at it, and what they do in that meeting is what I did alone for nine days, which is to ask, over and over, at every branch point: *what would I do differently.*
 
 And the answer, when I had done it honestly — and I did do it honestly; I have never had any use for lying to myself, it is the one vice I have never had the taste for — the answer came out the same every time.
 
@@ -1877,7 +1877,7 @@ Nadia Prinsloo's tissue did not do what tissue does. There was something there �
 
 I did not have those things. I have never had those things. The reason I have never had those things is written on a piece of paper in a drawer in my flat, eleven years old, the yellow of old teeth, and it regrets, and it is unable.
 
-So there is the sum, and I did it on the eleventh day, sitting on the floor of the cellar with my back against the cold of the wall:
+So there is the sum, and I did it on the ninth day, sitting on the floor of the cellar with my back against the cold of the wall:
 
 The doctrine is not wrong. The mathematics is not capable of being wrong. The plan was not wrong. The hands were not wrong.
 
@@ -1903,13 +1903,13 @@ My first reaction — and I have examined this, and it does not change however l
 
 ---
 
-They will get to the faculty. That is not a fear, it is a schedule. There are three roads in: the suture, which leads to a textbook, which leads to two schools; the wine bars, which lead to a face on a camera; and the drugs, which lead to a stores ledger. The first is already walking, and it moves at the speed of subpoenas, which is to say eleven weeks, perhaps eight. I know exactly what it will find when it arrives, because I have audited that building myself: it will find two hundred and eleven students and a workbook with my name on it that is the cleanest document in the province.
+They will get to the faculty. That is not a fear, it is a schedule. There are three roads in: the suture, which leads to a textbook, which leads to two schools; the wine bars, which lead to a face on a camera; and the drugs, which lead to a stores ledger. The first is already walking, and it moves at the speed of subpoenas, which is to say ten weeks, perhaps eight. I know exactly what it will find when it arrives, because I have audited that building myself: it will find two hundred and six students and a workbook with my name on it that is the cleanest document in the province.
 
 Eight weeks. Possibly ten. It is enough.
 
 Enough for what, though? That is the question I sat with, and it is the question that produced the only decision in this account that I still cannot entirely look at straight.
 
-Because here is what eleven days of honest morbidity review actually established, underneath the fluid balances and the timings:
+Because here is what nine days of honest morbidity review actually established, underneath the fluid balances and the timings:
 
 I have been building toward one piece of work my whole life. Not four hundred procedures — those were apprenticeship, I have said so, and I meant it. Not Demi Louw's mouth, which was a proof of concept, and not Nadia Prinsloo, which was a proof of the *conditions*. One piece. A single, complete, whole-face and whole-body work, planned over months instead of weeks, on a subject whose own architecture is close enough to the ratio that the entire distance can be closed — not corrected toward the peak, *landed on it*. The thing I have been describing since the first page of this document and have never once written down as a plan.
 
@@ -1927,7 +1927,7 @@ None of the three women on that list would land on it. Not one. I measured them 
 
 There is exactly one face I have ever measured in my life that would.
 
-I have known it since March. I have known it, if I am honest — and I am being honest, this is the only place I am — since a Thursday in February in a stores room, with a clipboard and thirty-one hours of her own time and eleven of my fourteen rows found, when I felt a thing I identified at the time as delight and wrote four words on the left-hand page of the ledger where I keep what is not a measurement.
+I have known it since March. I have known it, if I am honest — and I am being honest, this is the only place I am — since a Thursday in February in a stores room, with a clipboard and thirty-one hours of her own time and nine of my fourteen rows found, when I felt a thing I identified at the time as delight and wrote four words on the left-hand page of the ledger where I keep what is not a measurement.
 
 *The only one who might.*
 
@@ -1935,7 +1935,7 @@ I told myself that sentence meant: the only one who might catch me.
 
 It also meant the other thing. It meant it the day I wrote it. I have the ledger in front of me and the handwriting is completely steady.
 
-Anri Fourie's face is, and I have now measured it eleven times from photographs taken at the count and at the outreach clinics and at Krige's birthday in the marquee — one one-hundredth off the peak at three of the seven ratios and inside two millimetres at the rest. She is closer, untouched, at twenty-six, in fleeces, with her hair cut by her mother in Sutherland, than any woman I have ever seen or measured or corrected. She does not know it. Nobody has ever told her. She has spent her entire life being the sensible one, the competent one, the one who counts twice, in a world that has never once looked at her and gone quiet, because she is exactly two millimetres and a decade of never being asked away from a face that would stop a room.
+Anri Fourie's face is, and I have now measured it nine times from photographs taken at the count and at the outreach clinics and at Krige's birthday in the marquee — one one-hundredth off the peak at three of the seven ratios and inside two millimetres at the rest. She is closer, untouched, at twenty-six, in fleeces, with her hair cut by her mother in Sutherland, than any woman I have ever seen or measured or corrected. She does not know it. Nobody has ever told her. She has spent her entire life being the sensible one, the competent one, the one who counts twice, in a world that has never once looked at her and gone quiet, because she is exactly two millimetres and a decade of never being asked away from a face that would stop a room.
 
 And there she is. In the same building. Every Thursday. Holding the one thread that unravels me.
 
@@ -1951,7 +1951,7 @@ And the operational assessment — the cold one, the one that a policeman on tel
 
 Three answers. Three different questions. One name.
 
-I sat with that for four days. I want that noted too. Four days, in which I did not go to the cellar and did not sleep much, and on the fourth night I went and stood in the stores at eleven at night with the lights off, alone, with my hand flat on the shelf where she hangs her clipboard, and I said out loud, in the dark, to an empty room, the only prayer I have ever said in my life:
+I sat with that for four days. I want that noted too. Four days, in which I did not go to the cellar and did not sleep much, and on the fourth night I went and stood in the stores at midnight with the lights off, alone, with my hand flat on the shelf where she hangs her clipboard, and I said out loud, in the dark, to an empty room, the only prayer I have ever said in my life:
 
 "Give me another one."
 
@@ -1959,13 +1959,13 @@ Another face. Anywhere. One that lands on it, in a woman I do not know, in a cit
 
 Nothing. Of course nothing. The room was cold and smelled of disinfectant and there was nobody in it, as there has never been anybody in it, and after a while I switched the light on because standing in the dark is theatre, and I looked at the shelves, and I went home.
 
-And on the Sunday I opened the ledger to the clean spread at the back — the one I ruled in February and have never written on — and at the top of the left-hand page, in the column hand I have used since I was twenty, I wrote a name and a set of measurements, and under the measurements I wrote the date I intended, which was the last Saturday in July, and under that the two words I have used to head a plan since I was a student:
+And on the Sunday I opened the ledger to that last unused spread — the one I ruled in February and have never written on — and at the top of the left-hand page, in the column hand I have used since I was twenty, I wrote a name and a set of measurements, and under the measurements I wrote the date I intended, which was the last Saturday in July, and under that the two words I have used to head a plan since I was a student:
 
 *Enkel geval.*
 
 Single case.
 
-Then I sat back on the stool in the chapel with the light off, in the two-hundred-and-twenty-eight-year-old cold, and told myself the sentence I have told myself at every gate I have ever walked through — that this was the culmination, that it was owed to me, that I was being permitted at last to do the one thing I was built for.
+Then I sat back on the stool in the chapel with the light off, in that two-century cold, and told myself the sentence I have told myself at every gate I have ever walked through — that this was the culmination, that it was owed to me, that I was being permitted at last to do the one thing I was built for.
 
 I have had a long time to think about that sentence since.
 
@@ -2026,17 +2026,17 @@ Nkosi found him at the desk with the negative result in his hand and, she said l
 
 Then the Chenin.
 
-It came from the second-least glamorous piece of police work in the province, which was Constable Ncube and two students on a learnership going through eleven bars' worth of card-machine settlement records for eleven specific nights across two and a half years — and finding nothing, because he paid cash, always, two-hundred-rand notes folded once.
+It came from the second-least glamorous piece of police work in the province, which was Constable Ncube and two students on a learnership going through fourteen bars' worth of card-machine settlement records for fourteen specific nights across two and a half years — and finding nothing, because he paid cash, always, two-hundred-rand notes folded once.
 
 What they found instead was the *order*.
 
-Bar staff turn over on the Seaboard every six months, but stock systems remember everything. And on nine of the eleven nights, in five different establishments, the same wine had been rung up on a table where a victim had been sitting: a 2019 Chenin from a small producer on the Pniel side of the Simonsberg, listed by three of those bars and, at two of them, not on the printed list at all — a bin-end, available if you knew to ask.
+Bar staff turn over on the Seaboard every six months, but stock systems remember everything. And on nine of the fourteen nights, in five different establishments, the same wine had been rung up on a table where a victim had been sitting: a 2019 Chenin from a small producer on the Pniel side of the Simonsberg, listed by three of those bars and, at two of them, not on the printed list at all — a bin-end, available if you knew to ask.
 
 "He's not ordering a wine he likes," said Nkosi, standing at the whiteboard. "He's ordering a wine from home."
 
 "Ja," said Loots.
 
-"That's a farm eleven kilometres from your black pin."
+"That's a farm nine kilometres from your black pin."
 
 "Ja," said Loots.
 
@@ -2056,15 +2056,15 @@ The marketing manager, who had followed them out, said cheerfully: "Ag, most of 
 
 The faculty came in on the Monday, eight weeks after the subpoena, in four boxes.
 
-Two hundred and eleven students. Sixty-eight staff. And the cross-match Nkosi had been running since April — everyone in that building who had applied to medicine and been refused — came back with a number Loots had not expected.
+Two hundred and six students. Sixty-eight staff. And the cross-match Nkosi had been running since April — everyone in that building who had applied to medicine and been refused — came back with a number Loots had not expected.
 
 Fourteen.
 
-"Fourteen out of two hundred and eleven?" said Delport, when he took it to her. "That's not a coincidence, that's an intake policy."
+"Fourteen out of two hundred and six?" said Delport, when he took it to her. "That's not a coincidence, that's an intake policy."
 
 "It's the whole faculty, Kolonel," said Loots. "It's a new school. Half of them are silver medallists."
 
-They worked the fourteen for nine days, quietly, without knocking on any doors — because Loots had said in the taskforce meeting, twice, that the first knock they got wrong was the last knock they'd ever get. Enrolment records, timetables, address histories, vehicle registrations, the outreach roster, and, because Nkosi thought of it, the faculty's own internal committee minutes, which nobody had asked for and which came in a single PDF of eleven hundred pages.
+They worked the fourteen for nine days, quietly, without knocking on any doors — because Loots had said in the taskforce meeting, twice, that the first knock they got wrong was the last knock they'd ever get. Enrolment records, timetables, address histories, vehicle registrations, the outreach roster, and, because Nkosi thought of it, the faculty's own internal committee minutes, which nobody had asked for and which came in a single PDF of nine hundred pages.
 
 She found it at 02:00 on a Thursday morning at her kitchen table.
 
@@ -2146,13 +2146,13 @@ Loots looked at the sky and thought, with a coldness that surprised him:
 
 # Twenty-One — The Glass She Never Drinks
 
-The plan was eleven weeks old and it was a good plan and it had one flaw in it, which is that it had been designed by a man who had never once, in four hundred procedures, had to think about how to get a woman to drink something.
+The plan was ten weeks old and it was a good plan and it had one flaw in it, which is that it had been designed by a man who had never once, in four hundred procedures, had to think about how to get a woman to drink something.
 
 They drink. That is the entire premise on which my adult life has been constructed. You sit in a room where drinking is the point, with a woman who came there to drink, and the wine arrives because the wine always arrives, and the only skill involved is the timing and the hands, and I have hands.
 
 Anri Fourie has not had a drink in her life.
 
-I knew this in February. I have known it since second year. It is on the left-hand page of the ledger in my own writing. And still, for eleven weeks, some part of me had been running the old machinery underneath the new plan, the way you keep walking to where a wall used to be, and it was not until the Tuesday before the last Saturday in July — three days out, with the room prepared and the ledger ruled and the whole architecture of it standing there finished — that I sat down with a blank sheet and made myself write, at the top, the actual problem:
+I knew this in February. I have known it since second year. It is on the left-hand page of the ledger in my own writing. And still, for ten weeks, some part of me had been running the old machinery underneath the new plan, the way you keep walking to where a wall used to be, and it was not until the Tuesday before the last Saturday in July — three days out, with the room prepared and the ledger ruled and the whole architecture of it standing there finished — that I sat down with a blank sheet and made myself write, at the top, the actual problem:
 
 *She does not drink. She does not take anything. She lives with two other students. She drives her own car. She is never in a bar. And she counts everything twice.*
 
@@ -2184,7 +2184,7 @@ She arrived at 22:20 in the little Polo with the bald tyre I had told her about 
 
 Ahead of me. She went first, because she was the one with the drug box and there was an animal.
 
-I want to be precise about the next four minutes because they are the only four minutes of my life I have gone back into every single day since.
+I will set down the next four minutes exactly because they are the only four minutes of my life I have gone back into every single day since.
 
 The plan required her to be in the room. I had built the plan around the fact that she would go first, and she did. The plan required me to be behind her on the steps, and I was. And the plan required the improvisation — the thing I had solved in two hours on the Tuesday, which was pharmacological and fast and which I am not going to describe and which was, in its design, humane; I had chosen it precisely because it was the kindest of the available routes, and I would like some day to know whether that fact makes it better or worse, and I have never been able to work it out.
 
@@ -2204,7 +2204,7 @@ The door opened. The light in that room comes on with a switch at shoulder heigh
 
 I have imagined many times what a person sees in that first instant. I had always assumed it would be the table.
 
-It was not the table. She told them afterwards, and I have read it: it was the *floor*. The poured resin, coved at the walls, seamless, white — a floor with no join anywhere for anything to gather in, in a two-hundred-and-twenty-eight-year-old wine cellar on a farm where the ceilings are held up with yellowwood.
+It was not the table. She told them afterwards, and I have read it: it was the *floor*. The poured resin, coved at the walls, seamless, white — a floor with no join anywhere for anything to gather in, in a two-hundred-year-old wine cellar on a farm where the ceilings are held up with yellowwood.
 
 She saw the floor and she knew everything.
 
@@ -2220,17 +2220,17 @@ I have replayed it ten thousand times. I was reaching with my right. She swung e
 
 Two seconds. That is all it was.
 
-I have been asked since — in a room with a camera in the corner, by a woman with a file, in a voice of great patience — why I did not simply take her afterwards. I had size. I had the room. I had the door. She had a case with a broken lock and a bald tyre and eleven kilometres of farm road in the rain.
+I have been asked since — in a room with a camera in the corner, by a woman with a file, in a voice of great patience — why I did not simply take her afterwards. I had size. I had the room. I had the door. She had a case with a broken lock and a bald tyre and nine kilometres of farm road in the rain.
 
 The answer I gave was that my wrist was broken, which is true and is not the answer.
 
 The answer is this, and it is the last true thing in this document:
 
-I looked at her, in the doorway of the chapel, in the light of the room I had spent eleven months building for exactly this hour — and she was crouched on the floor with her arm up and her chin down and her eyes absolutely level, and she was not begging, and she was not screaming, and there was no going-away in her face, none, not a millimetre.
+I looked at her, in the doorway of the chapel, in the light of the room I had spent a year building for exactly this hour — and she was crouched on the floor with her arm up and her chin down and her eyes absolutely level, and she was not begging, and she was not screaming, and there was no going-away in her face, none, not a millimetre.
 
 She was *counting*. I could see her doing it. Distance to the steps, distance to me, the weight in her left hand, the tyre, the road, the rain.
 
-And I understood, in that doorway, with my wrist broken and the plan on the floor under the table, that I had spent my entire life measuring the wrong quantity — that I had built a mask and a mathematics and a doctrine and a room out of the belief that the distance between a person and perfection is two millimetres of tissue, and that here, one metre from me, on a cellar floor, was a face I had measured eleven times and had never once *seen*, and it was doing the only thing I have ever found genuinely beautiful in a human being, which is working properly under load.
+And I understood, in that doorway, with my wrist broken and the plan on the floor under the table, that I had spent my entire life measuring the wrong quantity — that I had built a mask and a mathematics and a doctrine and a room out of the belief that the distance between a person and perfection is two millimetres of tissue, and that here, one metre from me, on a cellar floor, was a face I had measured nine times and had never once *seen*, and it was doing the only thing I have ever found genuinely beautiful in a human being, which is working properly under load.
 
 Nothing living lands on it exactly.
 
@@ -2242,9 +2242,9 @@ That is all I did. I did not let her go, exactly; I have no appetite for that wo
 
 I stood there for a long time.
 
-Then I went into the chapel, and I picked the thing up off the floor and put it in the tray where it belonged, because I have never in my life left an instrument out. And I switched off the five-headed lamp that I rebuilt across four months with a soldering iron and a German service manual, and the darkness came back into that room after eleven months away, and I sat down on the stool in it.
+Then I went into the chapel, and I picked the thing up off the floor and put it in the tray where it belonged, because I have never in my life left an instrument out. And I switched off the five-headed lamp that I rebuilt across four months with a soldering iron and a German service manual, and the darkness came back into that room after a year away, and I sat down on the stool in it.
 
-She would be at the R310 in eleven minutes. Signal, at the top of the hill, by the co-op — maybe fourteen.
+She would be at the R310 in nine minutes. Signal, at the top of the hill, by the co-op — maybe fourteen.
 
 I had, at the outside, an hour.
 
@@ -2263,7 +2263,7 @@ A young woman on a bad line from the top of the hill by the Pniel co-op, with ra
 
 "There's a theatre in the cellar. It's a fully equipped theatre. There's a poured floor and a scrub sink and it smells like a hospital and he tried to inject me in the doorway and I hit him with the drug box and I think his arm's broken. Christiaan Vermeulen. V-E-R-M-E-U-L-E-N. He's a final-year vet student and he is the Sculptor and you need to send everybody."
 
-The constable who took it, twenty-three years old, eleven months in the Service, said afterwards that he had never in his life heard anybody sound so calm and so angry at the same time.
+The constable who took it, twenty-three years old, fourteen months in the Service, said afterwards that he had never in his life heard anybody sound so calm and so angry at the same time.
 
 He put it through as a possible assault, because that is what the system had a box for. It went up the line. At 22:52 somebody at the Stellenbosch station remembered the circular that had gone out to every station in the province in June, the one with the words *veterinary*, *procedure* and *Bellville — Capt. G. Loots (any hour)* on it, and at 23:00 Loots's phone lit up in the duplex in Parow.
 
@@ -2299,7 +2299,7 @@ Loots looked at the road for a while.
 
 Nkosi took the Simondium turn and the wind hit the car sideways and she corrected it without comment.
 
-"Captain, in eleven minutes you are going to be in a room with the man who did that to Nadia Prinsloo," she said. "You told Delport in June you didn't want to be. That was you being right about yourself. So I'm asking now, in the car, where there's a witness: are you going into that cellar?"
+"Captain, in nine minutes you are going to be in a room with the man who did that to Nadia Prinsloo," she said. "You told Delport in June you didn't want to be. That was you being right about yourself. So I'm asking now, in the car, where there's a witness: are you going into that cellar?"
 
 Loots was quiet for four seconds.
 
@@ -2315,13 +2315,13 @@ Loots was quiet for four seconds.
 
 There is a detail from that night that came out four months later, in a review board hearing, and it is the reason a colonel who had come prepared to end Gideon Loots's career in the Service instead wrote the words *judgement demonstrably restored* in a paragraph nobody expected.
 
-At 23:04, in the duplex in Parow, with the phone against his shoulder and the warrant in his hand and eleven things to do, Captain Loots had opened his gun safe.
+At 23:04, in the duplex in Parow, with the phone against his shoulder and the warrant in his hand and nine things to do, Captain Loots had opened his gun safe.
 
 His service pistol was in it. His father's Ruger — a .357 that had come down from a farm near Riversdal and that had no business being anywhere near a police operation and that he had, in eighteen months of very bad nights, taken out and put on the kitchen table more than once — was in it too.
 
 He took the service pistol.
 
-He locked the safe, and he checked it was locked, and then, and this is the part that went into the record, he drove eleven minutes out of his way to Bellville, in the storm, with a tactical team already rolling, to leave the key to that safe with the duty officer at the charge desk and to sign it into the register in his own handwriting at 23:19.
+He locked the safe, and he checked it was locked, and then, and this is the part that went into the record, he drove nineteen minutes out of his way to Bellville, in the storm, with a tactical team already rolling, to leave the key to that safe with the duty officer at the charge desk and to sign it into the register in his own handwriting at 23:19.
 
 Nkosi, who had been sitting in the car outside with the engine running, asked him what he'd been doing in there.
 
@@ -2359,11 +2359,11 @@ Somebody said, later, that it was the politest arrest they had ever been part of
 
 Loots stood in the werf in the rain.
 
-He heard it all on the radio. He heard "in custody" at 23:51 and he heard the TRT commander clearing the house and he heard Nkosi's voice, flat and controlled, calling for the LCRC and a photographer and a doctor for the suspect's arm, and he stood in eleven centimetres of water in his shoes with the rain going straight through his jacket and did not move.
+He heard it all on the radio. He heard "in custody" at 23:51 and he heard the TRT commander clearing the house and he heard Nkosi's voice, flat and controlled, calling for the LCRC and a photographer and a doctor for the suspect's arm, and he stood in ten centimetres of water in his shoes with the rain going straight through his jacket and did not move.
 
 They brought him up at four minutes past midnight.
 
-Two officers, one at each arm, the wet steps, the yellow torchlight — and Loots was standing eleven metres away by the vehicles with his hands in his pockets, and the young man came up out of the ground into the storm and stopped.
+Two officers, one at each arm, the wet steps, the yellow torchlight — and Loots was standing ten metres away by the vehicles with his hands in his pockets, and the young man came up out of the ground into the storm and stopped.
 
 Not to resist. He simply stopped, and looked around the werf at the vehicles and the lights and the people, and found the one man standing on his own who was not doing anything, and looked at him.
 
@@ -2396,7 +2396,7 @@ That is the whole of it, and it took me most of the first day to understand it. 
 
 Nkosi came into that room with a file and a bottle of water and nothing else. She did not want my confession — she had a floor with no join in it, an autoclave log in my handwriting, a ledger with four hundred women's measurements in it, a letter from a medical faculty, and a witness who had counted the whole thing in two seconds in a doorway. She did not need one word from me and she told me so, on the first morning, in the second minute.
 
-"You can talk or not talk, Mr Vermeulen," she said. "It doesn't change what I've got. I'm here because the law says you get the chance to give your side, and because I think you're going to want to, and I'd rather it was recorded than said to a psychiatrist in eleven years' time."
+"You can talk or not talk, Mr Vermeulen," she said. "It doesn't change what I've got. I'm here because the law says you get the chance to give your side, and because I think you're going to want to, and I'd rather it was recorded than said to a psychiatrist in twenty years' time."
 
 And then she waited, without any tension in her at all, and I found that I had nothing whatsoever to hold onto.
 
@@ -2444,7 +2444,7 @@ I have no answer to that. I have had a very long time and I have never once cons
 
 ---
 
-They let my lawyer's psychiatrist see me in September and she wrote eleven pages, most of which I could have written for her, and one paragraph of which I have thought about every day since.
+They let my lawyer's psychiatrist see me in September and she wrote fourteen pages, most of which I could have written for her, and one paragraph of which I have thought about every day since.
 
 She wrote that in four hundred and eleven procedures I had never completed the thing I claimed to be doing.
 
@@ -2474,7 +2474,7 @@ I gave her three answers over two days. The wrist. The time. The tyre.
 
 Here is the fourth one, which I did not give her, and which is the only one that is true.
 
-When the light came on in that room, Anri Fourie went sideways and down and got her weight behind eleven kilograms of drug box, and her face while she did it was the most beautiful thing I have seen in my life — and I had measured that face eleven times and written the numbers in a ledger and been *wrong about all of them*, because the numbers were of a face at rest, and what I saw in the doorway was a face at work: frightened and fast and completely unwilling, doing the arithmetic of its own survival at a speed no mask can measure.
+When the light came on in that room, Anri Fourie went sideways and down and got her weight behind eleven kilograms of drug box, and her face while she did it was the most beautiful thing I have seen in my life — and I had measured that face nine times and written the numbers in a ledger and been *wrong about all of them*, because the numbers were of a face at rest, and what I saw in the doorway was a face at work: frightened and fast and completely unwilling, doing the arithmetic of its own survival at a speed no mask can measure.
 
 Nothing living lands on it exactly. Everything living is *doing* something, all the time, and the doing is where the beauty is, and it cannot be entered in a column and it cannot be improved and it certainly cannot be improved by putting the person to sleep first.
 
@@ -2525,7 +2525,7 @@ Nkosi thought about it for a while.
 
 ---
 
-The trial ran the following winter and lasted eleven weeks.
+The trial ran the following winter and lasted nine weeks.
 
 Nadia Prinsloo gave evidence on the fourth day. She had had two operations by then — a nerve graft in the December, a static suspension in the March — and the left side of her face had recovered enough that a stranger meeting her would have said only that something about her was very still. She testified for two hours and forty minutes. She was asked, by a defence counsel who was doing his job and who apologised to her afterwards outside on the steps, whether she was aware that her surgical outcome, in purely aesthetic terms, had been described by two independent experts as excellent.
 
@@ -2551,7 +2551,7 @@ Loots did not go to the sentencing.
 
 He went, instead, on a Tuesday two weeks earlier, to the holding facility, and stood in the corridor outside the section for about ninety seconds, and did not go in.
 
-He had told himself for eleven months that he wanted to know what the sentence in the werf had been going to be. He had rehearsed the conversation the way he had once rehearsed interviews. And standing in a corridor that smelled of floor polish and other men's cigarettes, he found that the want was gone — not resolved, not conquered; simply gone, the way a fever goes, leaving a man tired and slightly amazed.
+He had told himself for fourteen months that he wanted to know what the sentence in the werf had been going to be. He had rehearsed the conversation the way he had once rehearsed interviews. And standing in a corridor that smelled of floor polish and other men's cigarettes, he found that the want was gone — not resolved, not conquered; simply gone, the way a fever goes, leaving a man tired and slightly amazed.
 
 There is a thing about those sections that the public does not know. There are no glass mirrors anywhere. Glass breaks, and broken glass has uses, so what they put above the basins is a sheet of polished steel screwed to the wall: unbreakable, faintly warped, and honest in the way of all cheap reflective surfaces, which is to say not honest at all.
 
@@ -2561,7 +2561,7 @@ He turned around and walked back out to the car park, and phoned his daughter, a
 
 She phoned back in four minutes.
 
-They had the coffee. She told him about a lecturer she couldn't stand and a friend who was dropping out. He told her — because she asked directly, which she had learned to do that year — that it had been eleven months and nineteen days, and that some weeks were fine and some weren't, and that Tuesdays were the worst and he had no idea why.
+They had the coffee. She told him about a lecturer she couldn't stand and a friend who was dropping out. He told her — because she asked directly, which she had learned to do that year — that it had been fourteen months and nineteen days, and that some weeks were fine and some weren't, and that Tuesdays were the worst and he had no idea why.
 
 "Ma says you're back at Provincial," said Ilse.
 

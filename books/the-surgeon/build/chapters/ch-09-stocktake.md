@@ -14,9 +14,9 @@ I know it is a printout before I see it. I know it from the way she is standing 
 
 "Môre. You've been busy."
 
-She hands it over without ceremony. Three months of ketamine and midazolam draws for the small-animal theatre, printed from the workbook — *my* workbook — with a column added on the right in her handwriting: the theoretical minimum for each procedure on the list, calculated from the anaesthetic record. Every row is fine. Eleven rows are more than fine; eleven rows are *slightly* fine, in a way that a person who was not looking would never see.
+She hands it over without ceremony. Three months of ketamine and midazolam draws for the small-animal theatre, printed from the workbook — *my* workbook — with a column added on the right in her handwriting: the theoretical minimum for each procedure on the list, calculated from the anaesthetic record. Every row is fine. Nine rows are more than fine; nine rows are *slightly* fine, in a way that a person who was not looking would never see.
 
-Eleven rows, out of four hundred and six. She has found eleven of my fourteen.
+Nine rows, out of four hundred and six. She has found nine of my fourteen.
 
 I feel — I want to be exact — a rush of something warm and entirely unfamiliar, and it takes me a full second to identify it as *delight*.
 
@@ -36,7 +36,7 @@ I have been managed by experts. I have never before been *held to a promise*.
 
 Let me tell you how a professional handles this, because everything you think you know about it is wrong.
 
-An amateur denies. An amateur explains. An amateur produces, on the spot, a plausible alternative account of the eleven rows, and the plausible alternative account is the rope. Every man I have ever watched get caught — the vet in Worcester who was selling ketamine into Cape Town, the lecturer who fabricated the culture results, my own father, over four generations of vineyard — got caught not because someone found the thing but because he *explained* the thing before he was asked to.
+An amateur denies. An amateur explains. An amateur produces, on the spot, a plausible alternative account of the nine rows, and the plausible alternative account is the rope. Every man I have ever watched get caught — the vet in Worcester who was selling ketamine into Cape Town, the lecturer who fabricated the culture results, my own father, over four generations of vineyard — got caught not because someone found the thing but because he *explained* the thing before he was asked to.
 
 What a professional does is agree.
 
@@ -72,9 +72,9 @@ We count. It takes ninety minutes. She counts left-handed, twice, initials in gr
 
 That night I go home and do the arithmetic that matters.
 
-Eleven of fourteen. In three months. From a printout and a calculator and thirty-one hours, by one final-year student with no suspicion in her head at all — because that is the point I must not lose sight of: Anri does not suspect me of anything. She suspects the *assumption*. She is a person who cannot walk past a soft joint in a system without pressing it, in exactly the way I cannot walk past two millimetres of upper vermilion.
+Nine of fourteen. In three months. From a printout and a calculator and thirty-one hours, by one final-year student with no suspicion in her head at all — because that is the point I must not lose sight of: Anri does not suspect me of anything. She suspects the *assumption*. She is a person who cannot walk past a soft joint in a system without pressing it, in exactly the way I cannot walk past two millimetres of upper vermilion.
 
-If I fight her, the joint becomes a hole with my name written next to it. If I help her close it, the system tightens by a factor of — I do it properly, on paper — about eleven, and my usable margin drops to something like a quarter of what it was, and every future draw has to be defended against a tolerance calculated by the one person in the building who does the work twice.
+If I fight her, the joint becomes a hole with my name written next to it. If I help her close it, the system tightens by a factor of — I do it properly, on paper — about three and a half, and my usable margin drops to something like a quarter of what it was, and every future draw has to be defended against a tolerance calculated by the one person in the building who does the work twice.
 
 Any reasonable man would find this a catastrophe.
 
