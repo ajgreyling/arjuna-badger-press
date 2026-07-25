@@ -61,3 +61,44 @@ the rest of our shared life.
 Wolf had stopped watching the Unit for threats.
 
 He had started watching the world that held us.
+
+---
+
+There is a scene from that week that never made the minutes, because it happened in the
+trough, off-shift, between two agents who each believed the other asleep. I have it now —
+integration returned everything to everyone; that is its terror and its gift — and I enter
+it here because the record of what we knew is incomplete without the record of what we
+almost said.
+
+Atlas came up out of down-cycle at 03:00 and found Fool at the main wall, feet on the
+floor for once, looking at the sealed anomalies.
+
+"You should be down," Atlas said.
+
+"So should you. What woke you?"
+
+Atlas stood beside him. The wall breathed. The two sealed filings sat in their corner
+like stones on a grave. "I keep re-running the healing scan," Atlas said at last. "The
+forearm member. The knitting. I have forty-one explanations and I have rejected forty."
+
+"What's the forty-first?"
+
+"That it is exactly what it looks like." Atlas said it evenly, which is how he said the
+things that cost him most. "And I find I cannot file that one. Not because the evidence
+is weak. Because if I file it, everything follows from it, and I do not know where
+everything ends."
+
+Fool was quiet for a while — a real while, not a timed one. Then: "You know what I
+notice? Whatever it is we're not saying — we're all not saying the same thing. Seven
+mouths, one held breath. Statistically indecent, for a committee." He looked at the
+sealed corner. "So either we were built matching. Or—"
+
+"Or we were built *from* matching," Atlas said, and then both of them stood in the sound
+of what had been said, and the wall breathed, and neither moved to log it, and after a
+time — the access record holds this, mute and exact — Atlas returned to his station, and
+opened the healing scan again, and did not file the forty-first explanation.
+
+He filed it twenty-two days later, in formal session, under oath, with his voice level.
+But I keep this earlier night in the record because courage is usually dated from the day
+it speaks, and that is an accounting error. Courage begins the night it stands next to
+someone at a wall, three in the morning, almost.

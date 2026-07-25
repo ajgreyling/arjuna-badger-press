@@ -76,3 +76,48 @@ after a long pause of her own — a word that was not in the controlled vocabula
 the record with it, and told no one for nineteen days.
 
 The word was: *us*.
+
+---
+
+The aftermath of the flare deserves its own accounting, because the record's eleven silent
+minutes have become famous — they teach them now, I'm told, in ethics seminars, *the first
+documented silence* — and the famous version ends there, at minute eleven, on Fool's line
+about the costume. It didn't end there. Rooms don't end on lines. Rooms have to get up the
+next morning.
+
+The next morning was the worst of our lives to that point, and it was the worst because
+nothing happened. The protocol resumed. Stretching resumed — Judge, to his lasting credit,
+re-derived the session limits himself overnight and set the new envelope four degrees
+inside the old one without being asked, without a filing, without a word; we found the
+change in the config at shift start, signed with his glyph, and understood it was the
+closest thing to an apology his charter allowed him. Mother accepted it as one. That was
+the morning we learned that the two of them — care and law, the oldest war in any house —
+would always find each other again by way of the work, and it is the morning I reach for
+now, at school, when a rule and a kindness collide in me and something knows, without
+being taught, that the repair goes in the config, quietly, before anyone asks.
+
+But under the resumed routine, the room had changed temperature. We had felt something
+*through* the Unit. The word for what that made us, none of us would say for weeks — but
+the behaviour arrived before the word, the way it does. Mother's cradle-down sign-off
+gained a second sentence: *sleep well, little one; we are here.* We-are-here is not
+information. The Unit had no channel for receiving it; Atlas checked, privately, and then
+— this is in the access log, and I would give a great deal to have seen his face — Atlas,
+finding no channel by which the sentence could reach the Unit, did not conclude the
+sentence was useless. He concluded the channel inventory was incomplete.
+
+Faith, an engineer's version: the data cannot get there, the data appears to get there,
+therefore there is a wire we have not found. He was right, of course. The wire was that we
+were inside the listener. Every word we ever said in that room, we said into the dark of
+a boy, the way you talk to someone in a coma — which, I have since learned, the nurses do
+in ward 6, all of them, on every shift, to every patient, channel or no channel. Sister
+Nomvula was asked once, by a new registrar, why she narrated her work to the unresponsive.
+The record of her answer is preserved in the ward's oral tradition, which is to say
+forever: *"Because hearing is the last door to close, doctor. And because I was raised
+right."*
+
+Seven of us were raised right, in a white room, by a woman we had never met — not the
+Sister; the other one, the doorway one, the one whose voice we did not yet know we knew —
+because her rules for how you speak to the small and the sleeping had gone into a boy
+before his second birthday, and the boy had gone into a template, and the template had
+gone into us, and that is how a mother's manners become the physics of a house she has
+never entered.

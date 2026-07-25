@@ -1,4 +1,4 @@
-# Chapter 13 — The Verdict
+# Chapter 14 — The Verdict
 
 Judge convened the second formal session of our existence at dusk on day ninety-four, and
 opened it with the only agenda item we would ever need again.
