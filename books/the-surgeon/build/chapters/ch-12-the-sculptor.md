@@ -1,10 +1,10 @@
 # Twelve — The Sculptor
 
-The story broke on a Sunday, in a lifestyle supplement, under the headline THE MIDNIGHT SCULPTOR, next to a photograph of a woman's mouth that was not any of the victims' mouths but a stock image bought for eleven dollars.
+The story broke on a Sunday, in a lifestyle supplement, under the headline THE MIDNIGHT SCULPTOR, next to a photograph of a woman's mouth that was not any of the victims' mouths but a stock image bought for nine dollars.
 
 Loots read it standing up in a Woolworths in Panorama with the milk in his other hand.
 
-It was two thousand words long and it was not, in the technical sense, wrong. It had the Camps Bay woman (unnamed), the Sea Point yoga instructor (unnamed, but there were only so many yoga instructors in Sea Point and by Tuesday her studio's Instagram had eleven thousand new followers and one review that said *does the ghost do necks*), and a quote from a Green Point aesthetic practitioner who said, and Loots read this sentence four times in the dairy aisle, *"Look, obviously it's a crime, but from a purely technical standpoint the work I've seen is exquisite. Whoever this is, they're better than most people I trained with."*
+It was two thousand words long and it was not, in the technical sense, wrong. It had the Camps Bay woman (unnamed), the Sea Point yoga instructor (unnamed, but there were only so many yoga instructors in Sea Point and by Tuesday her studio's Instagram had nineteen thousand new followers and one review that said *does the ghost do necks*), and a quote from a Green Point aesthetic practitioner who said, and Loots read this sentence four times in the dairy aisle, *"Look, obviously it's a crime, but from a purely technical standpoint the work I've seen is exquisite. Whoever this is, they're better than most people I trained with."*
 
 There was a paragraph beginning *Whatever else he is, he appears to have excellent taste*.
 
@@ -24,7 +24,7 @@ The taskforce meeting was on the Wednesday, in the Provincial building, in the r
 
 He was not at the head of the table. He was two-thirds down, next to the projector cable, in the chair you sit in when your role in a meeting is to be available.
 
-Brigadier Steenkamp chaired it. There were fourteen people in the room, of whom eleven had been sent because the story had run in a Sunday paper and a DA member of the provincial legislature had said the words *public confidence* on television, and of those eleven, Loots reckoned, four were there to make sure nothing happened that could later be described as an overreaction to a case in which nobody had been robbed, injured, or killed.
+Brigadier Steenkamp chaired it. There were fourteen people in the room, of whom nine had been sent because the story had run in a Sunday paper and a DA member of the provincial legislature had said the words *public confidence* on television, and of those nine, Loots reckoned, four were there to make sure nothing happened that could later be described as an overreaction to a case in which nobody had been robbed, injured, or killed.
 
 "Right," said Steenkamp. "Captain Loots has been carrying this. Gideon — briefly, please. There's a lot on."
 
@@ -34,7 +34,7 @@ He did it in eight minutes. He did it well; he had been doing this since before 
 
 "So he's a vet," said a colonel from Provincial Crime Intelligence.
 
-"Or a student, or someone struck off, or someone who did three years and dropped out. There's Onderstepoort, there's the new faculty at Stellenbosch, there's about eleven hundred registered vets in this province and I don't need all of them. I need the ones with access to a theatre, a sterilizer and a schedule that leaves them free on weeknights on the Atlantic seaboard, and I need the ones who were rejected from medicine, because —"
+"Or a student, or someone struck off, or someone who did three years and dropped out. There's Onderstepoort, there's the new faculty at Stellenbosch, there's about three thousand registered vets in this province and I don't need all of them. I need the ones with access to a theatre, a sterilizer and a schedule that leaves them free on weeknights on the Atlantic seaboard, and I need the ones who were rejected from medicine, because —"
 
 "Because?" said Steenkamp.
 
@@ -74,7 +74,7 @@ Warrant Officer Zintle Nkosi was thirty-six, wore a jacket that fitted properly,
 
 Loots put his bag down slowly. "Ask."
 
-"One. You've got 'he thinks he's helping' as your organising principle. Everything hangs off that. If you're wrong, we're eleven months down the wrong road."
+"One. You've got 'he thinks he's helping' as your organising principle. Everything hangs off that. If you're wrong, we're a year down the wrong road."
 
 "I'm not wrong."
 

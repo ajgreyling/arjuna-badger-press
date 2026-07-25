@@ -12,7 +12,7 @@ That is the whole of it, and it took me most of the first day to understand it. 
 
 Nkosi came into that room with a file and a bottle of water and nothing else. She did not want my confession — she had a floor with no join in it, an autoclave log in my handwriting, a ledger with four hundred women's measurements in it, a letter from a medical faculty, and a witness who had counted the whole thing in two seconds in a doorway. She did not need one word from me and she told me so, on the first morning, in the second minute.
 
-"You can talk or not talk, Mr Vermeulen," she said. "It doesn't change what I've got. I'm here because the law says you get the chance to give your side, and because I think you're going to want to, and I'd rather it was recorded than said to a psychiatrist in eleven years' time."
+"You can talk or not talk, Mr Vermeulen," she said. "It doesn't change what I've got. I'm here because the law says you get the chance to give your side, and because I think you're going to want to, and I'd rather it was recorded than said to a psychiatrist in twenty years' time."
 
 And then she waited, without any tension in her at all, and I found that I had nothing whatsoever to hold onto.
 
@@ -60,7 +60,7 @@ I have no answer to that. I have had a very long time and I have never once cons
 
 ---
 
-They let my lawyer's psychiatrist see me in September and she wrote eleven pages, most of which I could have written for her, and one paragraph of which I have thought about every day since.
+They let my lawyer's psychiatrist see me in September and she wrote fourteen pages, most of which I could have written for her, and one paragraph of which I have thought about every day since.
 
 She wrote that in four hundred and eleven procedures I had never completed the thing I claimed to be doing.
 
@@ -90,7 +90,7 @@ I gave her three answers over two days. The wrist. The time. The tyre.
 
 Here is the fourth one, which I did not give her, and which is the only one that is true.
 
-When the light came on in that room, Anri Fourie went sideways and down and got her weight behind eleven kilograms of drug box, and her face while she did it was the most beautiful thing I have seen in my life — and I had measured that face eleven times and written the numbers in a ledger and been *wrong about all of them*, because the numbers were of a face at rest, and what I saw in the doorway was a face at work: frightened and fast and completely unwilling, doing the arithmetic of its own survival at a speed no mask can measure.
+When the light came on in that room, Anri Fourie went sideways and down and got her weight behind eleven kilograms of drug box, and her face while she did it was the most beautiful thing I have seen in my life — and I had measured that face nine times and written the numbers in a ledger and been *wrong about all of them*, because the numbers were of a face at rest, and what I saw in the doorway was a face at work: frightened and fast and completely unwilling, doing the arithmetic of its own survival at a speed no mask can measure.
 
 Nothing living lands on it exactly. Everything living is *doing* something, all the time, and the doing is where the beauty is, and it cannot be entered in a column and it cannot be improved and it certainly cannot be improved by putting the person to sleep first.
 

@@ -1,6 +1,6 @@
 # Fifteen — The Variance
 
-The audit committee accepted our submission on the fourteenth of May, unanimously, in eleven minutes, and the faculty officer said the words "exemplary student initiative" into the minutes, and Prof Krige put his hand on the back of my neck afterwards in the corridor like a man cuffing a favourite dog and said we were a credit to the place.
+The audit committee accepted our submission on the fourteenth of May, unanimously, in nine minutes, and the faculty officer said the words "exemplary student initiative" into the minutes, and Prof Krige put his hand on the back of my neck afterwards in the corridor like a man cuffing a favourite dog and said we were a credit to the place.
 
 Anri's name is first on the minute. I put it there and I did not tell her I had.
 
@@ -8,7 +8,7 @@ The new tolerance is 0.6 per cent. Itemised wastage. Every draw above the theore
 
 My usable margin is now approximately nil.
 
-I did that. I want the record to show that I engineered, seconded, drafted and championed the system that closed my own supply, and that I did it in eleven minutes in a committee room while a woman I like watched me do it, and that I would do it again, because the alternative was a hole in the ground with my name beside it. The Florentine again: *the wise prince, when he has the opportunity, ought with craft to foster some enmity, so that by suppressing it he may augment his greatness.* I have never found a better description of what it is to be your own auditor.
+I did that. I want the record to show that I engineered, seconded, drafted and championed the system that closed my own supply, and that I did it in nine minutes in a committee room while a woman I like watched me do it, and that I would do it again, because the alternative was a hole in the ground with my name beside it. The Florentine again: *the wise prince, when he has the opportunity, ought with craft to foster some enmity, so that by suppressing it he may augment his greatness.* I have never found a better description of what it is to be your own auditor.
 
 But nil is nil, and I have four hours' work planned for the winter, and four hours' work does not run on nothing.
 
@@ -20,7 +20,7 @@ The faculty has an outreach programme. Four days a month, a bakkie and a trailer
 
 Field lists do not reconcile against theoretical minimums. They cannot. Nobody weighs a township dog to the gram; you estimate, you draw for the estimate, you use what you use, and the record says *est. 14 kg* and the record is honest and useless. The variance lives in the field, where it has always lived, where every vet in this country knows it lives, and where no committee will ever touch it because touching it means fewer dogs.
 
-Eleven months of my requirements, spread across a year of Saturdays, drawn honestly, recorded honestly, in a system that cannot know the difference.
+Nine months of my requirements, spread across a year of Saturdays, drawn honestly, recorded honestly, in a system that cannot know the difference.
 
 I am aware of what I am. I do the sterilisations. Forty-one Saturdays. The dogs are real.
 
@@ -58,7 +58,7 @@ We count. Ninety minutes. She counts left-handed, twice, initials in green.
 
 Near the end she says: "Did you see the Sunday paper thing? The Sculptor."
 
-The shelf in front of me contains eleven boxes of size 4-0 suture and I do not move my hand at all.
+The shelf in front of me contains nineteen boxes of size 4-0 suture and I do not move my hand at all.
 
 "I saw a bit of it."
 
@@ -66,7 +66,7 @@ The shelf in front of me contains eleven boxes of size 4-0 suture and I do not m
 
 "Somebody in our class says the moon landing was filmed in Namibia."
 
-"Ja, no, but the article said it," she says. "That the closing was — what did it say. That it looked like animal work." She squares the clipboard. "It's a stupid thing to write. There's like eleven hundred vets in this province."
+"Ja, no, but the article said it," she says. "That the closing was — what did it say. That it looked like animal work." She squares the clipboard. "It's a stupid thing to write. There's like three thousand vets in this province."
 
 "Twelve hundred and six," I say, "and about four thousand students and technicians, and the whole thing is probably two women who had work done and a journalist who needed a Sunday."
 
@@ -94,7 +94,7 @@ Because I have understood, standing there, three things in a sequence, and I wou
 
 One. She was not testing me. There was nothing in it. It was a woman thinking out loud on her way to her car about a newspaper story, and if I had said nothing she would have forgotten it by the robot at Merriman.
 
-Two. She got there in eleven seconds. A newspaper article, a fact about suture patterns, and one honest question — *where does a person put a theatre* — and Anri Fourie, who was not looking for me, who has never suspected me of anything, arrived in eleven seconds at the only load-bearing weakness in eleven years of my life. Not by suspicion. By *competence*. Because she cannot walk past a soft joint without pressing it.
+Two. She got there in nine seconds. A newspaper article, a fact about suture patterns, and one honest question — *where does a person put a theatre* — and Anri Fourie, who was not looking for me, who has never suspected me of anything, arrived in nine seconds at the only load-bearing weakness in eleven years of my life. Not by suspicion. By *competence*. Because she cannot walk past a soft joint without pressing it.
 
 Three, and I write this one down carefully, because it is the sentence on which everything after it turns:
 
@@ -108,7 +108,7 @@ Four hours. A winter list. A woman in the January of her own face.
 
 And on the left-hand page, where I keep the things that are not measurements, under the entry that reads *A. F. — 11/14. Thirty-one hours. Left-handed. Counts twice*, I did not write anything at all.
 
-I looked at it for a long time. That is all. Then I closed the ledger, and put out the light, and went up the steps, and the valley was doing what it does, and I remember thinking, with the door key cold in my hand and the whole night in front of me:
+I sat with it for a long time. That is all. Then I closed the ledger, and put out the light, and went up the steps, and the valley was doing what it does, and I remember thinking, with the door key cold in my hand and the whole night in front of me:
 
 *Not yet. Not her. There's still the winter's work.*
 

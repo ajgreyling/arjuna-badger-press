@@ -1,14 +1,14 @@
 # Nineteen — The Material Was Wrong
 
-For eleven days after Nadia Prinsloo I did not go down the cellar steps.
+For nine days after Nadia Prinsloo I did not go down the cellar steps.
 
 I have read a great deal about what men like me are supposed to do in the aftermath of what the literature calls a disorganised event, and it is all wrong, or at least it is all written by people who have only ever interviewed the ones who were caught early. They speak of a cooling-off period, as if there were heat. They speak of the offender revisiting the scene. There was no heat and there was nothing to revisit; the scene was a room I had built and it was still there and it was still clean.
 
-What there was, for eleven days, was *work*, of the kind nobody outside a professional discipline understands.
+What there was, for nine days, was *work*, of the kind nobody outside a professional discipline understands.
 
 I wrote it up.
 
-Forty-one pages, in the ledger and out of it, on loose sheets I burned afterwards in the drum behind the werf: the anaesthetic record minute by minute, the fluid balance, the timeline, the twenty-two steps against the clock, the point at 03:52 and everything before it. Morbidity and mortality, single author, single attendee. Every hospital in the world does this and calls it a meeting and eats sandwiches at it, and what they do in that meeting is what I did alone for eleven days, which is to ask, over and over, at every branch point: *what would I do differently.*
+Forty-one pages, in the ledger and out of it, on loose sheets I burned afterwards in the drum behind the werf: the anaesthetic record minute by minute, the fluid balance, the timeline, the twenty-two steps against the clock, the point at 03:52 and everything before it. Morbidity and mortality, single author, single attendee. Every hospital in the world does this and calls it a meeting and eats sandwiches at it, and what they do in that meeting is what I did alone for nine days, which is to ask, over and over, at every branch point: *what would I do differently.*
 
 And the answer, when I had done it honestly — and I did do it honestly; I have never had any use for lying to myself, it is the one vice I have never had the taste for — the answer came out the same every time.
 
@@ -24,7 +24,7 @@ Nadia Prinsloo's tissue did not do what tissue does. There was something there �
 
 I did not have those things. I have never had those things. The reason I have never had those things is written on a piece of paper in a drawer in my flat, eleven years old, the yellow of old teeth, and it regrets, and it is unable.
 
-So there is the sum, and I did it on the eleventh day, sitting on the floor of the cellar with my back against the cold of the wall:
+So there is the sum, and I did it on the ninth day, sitting on the floor of the cellar with my back against the cold of the wall:
 
 The doctrine is not wrong. The mathematics is not capable of being wrong. The plan was not wrong. The hands were not wrong.
 
@@ -50,13 +50,13 @@ My first reaction — and I have examined this, and it does not change however l
 
 ---
 
-They will get to the faculty. That is not a fear, it is a schedule. There are three roads in: the suture, which leads to a textbook, which leads to two schools; the wine bars, which lead to a face on a camera; and the drugs, which lead to a stores ledger. The first is already walking, and it moves at the speed of subpoenas, which is to say eleven weeks, perhaps eight. I know exactly what it will find when it arrives, because I have audited that building myself: it will find two hundred and eleven students and a workbook with my name on it that is the cleanest document in the province.
+They will get to the faculty. That is not a fear, it is a schedule. There are three roads in: the suture, which leads to a textbook, which leads to two schools; the wine bars, which lead to a face on a camera; and the drugs, which lead to a stores ledger. The first is already walking, and it moves at the speed of subpoenas, which is to say ten weeks, perhaps eight. I know exactly what it will find when it arrives, because I have audited that building myself: it will find two hundred and six students and a workbook with my name on it that is the cleanest document in the province.
 
 Eight weeks. Possibly ten. It is enough.
 
 Enough for what, though? That is the question I sat with, and it is the question that produced the only decision in this account that I still cannot entirely look at straight.
 
-Because here is what eleven days of honest morbidity review actually established, underneath the fluid balances and the timings:
+Because here is what nine days of honest morbidity review actually established, underneath the fluid balances and the timings:
 
 I have been building toward one piece of work my whole life. Not four hundred procedures — those were apprenticeship, I have said so, and I meant it. Not Demi Louw's mouth, which was a proof of concept, and not Nadia Prinsloo, which was a proof of the *conditions*. One piece. A single, complete, whole-face and whole-body work, planned over months instead of weeks, on a subject whose own architecture is close enough to the ratio that the entire distance can be closed — not corrected toward the peak, *landed on it*. The thing I have been describing since the first page of this document and have never once written down as a plan.
 
@@ -74,7 +74,7 @@ None of the three women on that list would land on it. Not one. I measured them 
 
 There is exactly one face I have ever measured in my life that would.
 
-I have known it since March. I have known it, if I am honest — and I am being honest, this is the only place I am — since a Thursday in February in a stores room, with a clipboard and thirty-one hours of her own time and eleven of my fourteen rows found, when I felt a thing I identified at the time as delight and wrote four words on the left-hand page of the ledger where I keep what is not a measurement.
+I have known it since March. I have known it, if I am honest — and I am being honest, this is the only place I am — since a Thursday in February in a stores room, with a clipboard and thirty-one hours of her own time and nine of my fourteen rows found, when I felt a thing I identified at the time as delight and wrote four words on the left-hand page of the ledger where I keep what is not a measurement.
 
 *The only one who might.*
 
@@ -82,7 +82,7 @@ I told myself that sentence meant: the only one who might catch me.
 
 It also meant the other thing. It meant it the day I wrote it. I have the ledger in front of me and the handwriting is completely steady.
 
-Anri Fourie's face is, and I have now measured it eleven times from photographs taken at the count and at the outreach clinics and at Krige's birthday in the marquee — one one-hundredth off the peak at three of the seven ratios and inside two millimetres at the rest. She is closer, untouched, at twenty-six, in fleeces, with her hair cut by her mother in Sutherland, than any woman I have ever seen or measured or corrected. She does not know it. Nobody has ever told her. She has spent her entire life being the sensible one, the competent one, the one who counts twice, in a world that has never once looked at her and gone quiet, because she is exactly two millimetres and a decade of never being asked away from a face that would stop a room.
+Anri Fourie's face is, and I have now measured it nine times from photographs taken at the count and at the outreach clinics and at Krige's birthday in the marquee — one one-hundredth off the peak at three of the seven ratios and inside two millimetres at the rest. She is closer, untouched, at twenty-six, in fleeces, with her hair cut by her mother in Sutherland, than any woman I have ever seen or measured or corrected. She does not know it. Nobody has ever told her. She has spent her entire life being the sensible one, the competent one, the one who counts twice, in a world that has never once looked at her and gone quiet, because she is exactly two millimetres and a decade of never being asked away from a face that would stop a room.
 
 And there she is. In the same building. Every Thursday. Holding the one thread that unravels me.
 
@@ -98,7 +98,7 @@ And the operational assessment — the cold one, the one that a policeman on tel
 
 Three answers. Three different questions. One name.
 
-I sat with that for four days. I want that noted too. Four days, in which I did not go to the cellar and did not sleep much, and on the fourth night I went and stood in the stores at eleven at night with the lights off, alone, with my hand flat on the shelf where she hangs her clipboard, and I said out loud, in the dark, to an empty room, the only prayer I have ever said in my life:
+I sat with that for four days. I want that noted too. Four days, in which I did not go to the cellar and did not sleep much, and on the fourth night I went and stood in the stores at midnight with the lights off, alone, with my hand flat on the shelf where she hangs her clipboard, and I said out loud, in the dark, to an empty room, the only prayer I have ever said in my life:
 
 "Give me another one."
 
@@ -106,13 +106,13 @@ Another face. Anywhere. One that lands on it, in a woman I do not know, in a cit
 
 Nothing. Of course nothing. The room was cold and smelled of disinfectant and there was nobody in it, as there has never been anybody in it, and after a while I switched the light on because standing in the dark is theatre, and I looked at the shelves, and I went home.
 
-And on the Sunday I opened the ledger to the clean spread at the back — the one I ruled in February and have never written on — and at the top of the left-hand page, in the column hand I have used since I was twenty, I wrote a name and a set of measurements, and under the measurements I wrote the date I intended, which was the last Saturday in July, and under that the two words I have used to head a plan since I was a student:
+And on the Sunday I opened the ledger to that last unused spread — the one I ruled in February and have never written on — and at the top of the left-hand page, in the column hand I have used since I was twenty, I wrote a name and a set of measurements, and under the measurements I wrote the date I intended, which was the last Saturday in July, and under that the two words I have used to head a plan since I was a student:
 
 *Enkel geval.*
 
 Single case.
 
-Then I sat back on the stool in the chapel with the light off, in the two-hundred-and-twenty-eight-year-old cold, and told myself the sentence I have told myself at every gate I have ever walked through — that this was the culmination, that it was owed to me, that I was being permitted at last to do the one thing I was built for.
+Then I sat back on the stool in the chapel with the light off, in that two-century cold, and told myself the sentence I have told myself at every gate I have ever walked through — that this was the culmination, that it was owed to me, that I was being permitted at last to do the one thing I was built for.
 
 I have had a long time to think about that sentence since.
 

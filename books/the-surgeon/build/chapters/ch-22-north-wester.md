@@ -6,7 +6,7 @@ A young woman on a bad line from the top of the hill by the Pniel co-op, with ra
 
 "There's a theatre in the cellar. It's a fully equipped theatre. There's a poured floor and a scrub sink and it smells like a hospital and he tried to inject me in the doorway and I hit him with the drug box and I think his arm's broken. Christiaan Vermeulen. V-E-R-M-E-U-L-E-N. He's a final-year vet student and he is the Sculptor and you need to send everybody."
 
-The constable who took it, twenty-three years old, eleven months in the Service, said afterwards that he had never in his life heard anybody sound so calm and so angry at the same time.
+The constable who took it, twenty-three years old, fourteen months in the Service, said afterwards that he had never in his life heard anybody sound so calm and so angry at the same time.
 
 He put it through as a possible assault, because that is what the system had a box for. It went up the line. At 22:52 somebody at the Stellenbosch station remembered the circular that had gone out to every station in the province in June, the one with the words *veterinary*, *procedure* and *Bellville — Capt. G. Loots (any hour)* on it, and at 23:00 Loots's phone lit up in the duplex in Parow.
 
@@ -42,7 +42,7 @@ Loots looked at the road for a while.
 
 Nkosi took the Simondium turn and the wind hit the car sideways and she corrected it without comment.
 
-"Captain, in eleven minutes you are going to be in a room with the man who did that to Nadia Prinsloo," she said. "You told Delport in June you didn't want to be. That was you being right about yourself. So I'm asking now, in the car, where there's a witness: are you going into that cellar?"
+"Captain, in nine minutes you are going to be in a room with the man who did that to Nadia Prinsloo," she said. "You told Delport in June you didn't want to be. That was you being right about yourself. So I'm asking now, in the car, where there's a witness: are you going into that cellar?"
 
 Loots was quiet for four seconds.
 
@@ -58,13 +58,13 @@ Loots was quiet for four seconds.
 
 There is a detail from that night that came out four months later, in a review board hearing, and it is the reason a colonel who had come prepared to end Gideon Loots's career in the Service instead wrote the words *judgement demonstrably restored* in a paragraph nobody expected.
 
-At 23:04, in the duplex in Parow, with the phone against his shoulder and the warrant in his hand and eleven things to do, Captain Loots had opened his gun safe.
+At 23:04, in the duplex in Parow, with the phone against his shoulder and the warrant in his hand and nine things to do, Captain Loots had opened his gun safe.
 
 His service pistol was in it. His father's Ruger — a .357 that had come down from a farm near Riversdal and that had no business being anywhere near a police operation and that he had, in eighteen months of very bad nights, taken out and put on the kitchen table more than once — was in it too.
 
 He took the service pistol.
 
-He locked the safe, and he checked it was locked, and then, and this is the part that went into the record, he drove eleven minutes out of his way to Bellville, in the storm, with a tactical team already rolling, to leave the key to that safe with the duty officer at the charge desk and to sign it into the register in his own handwriting at 23:19.
+He locked the safe, and he checked it was locked, and then, and this is the part that went into the record, he drove nineteen minutes out of his way to Bellville, in the storm, with a tactical team already rolling, to leave the key to that safe with the duty officer at the charge desk and to sign it into the register in his own handwriting at 23:19.
 
 Nkosi, who had been sitting in the car outside with the engine running, asked him what he'd been doing in there.
 
@@ -102,11 +102,11 @@ Somebody said, later, that it was the politest arrest they had ever been part of
 
 Loots stood in the werf in the rain.
 
-He heard it all on the radio. He heard "in custody" at 23:51 and he heard the TRT commander clearing the house and he heard Nkosi's voice, flat and controlled, calling for the LCRC and a photographer and a doctor for the suspect's arm, and he stood in eleven centimetres of water in his shoes with the rain going straight through his jacket and did not move.
+He heard it all on the radio. He heard "in custody" at 23:51 and he heard the TRT commander clearing the house and he heard Nkosi's voice, flat and controlled, calling for the LCRC and a photographer and a doctor for the suspect's arm, and he stood in ten centimetres of water in his shoes with the rain going straight through his jacket and did not move.
 
 They brought him up at four minutes past midnight.
 
-Two officers, one at each arm, the wet steps, the yellow torchlight — and Loots was standing eleven metres away by the vehicles with his hands in his pockets, and the young man came up out of the ground into the storm and stopped.
+Two officers, one at each arm, the wet steps, the yellow torchlight — and Loots was standing ten metres away by the vehicles with his hands in his pockets, and the young man came up out of the ground into the storm and stopped.
 
 Not to resist. He simply stopped, and looked around the werf at the vehicles and the lights and the people, and found the one man standing on his own who was not doing anything, and looked at him.
 

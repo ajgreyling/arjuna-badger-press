@@ -12,7 +12,7 @@ Four degrees. On a woman who will be photographed at seventy.
 
 ---
 
-The winter list has three names on it, ruled in February, in the clean spread at the back of the ledger, and hers is the first because hers is the one I have been ready for longest and because the work is four hours and June has the longest nights of the year.
+The winter list has three names on it, ruled in February, on the last unused spread of the ledger, and hers is the first because hers is the one I have been ready for longest and because the work is four hours and June has the longest nights of the year.
 
 I want to say something about the four hours before I say anything else, because everything that has been written about that night since — and a great deal has been written, by people who were not there, in language that suggests the whole thing was a frenzy — misses the only fact that matters, which is that it was *slow*.
 
