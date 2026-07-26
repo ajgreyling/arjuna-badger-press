@@ -1,0 +1,31 @@
+{
+  "id": "the-unnumbered",
+  "title": "The Unnumbered",
+  "working_title": "The Unnumbered",
+  "seq": 1,
+  "folder": "the-unnumbered",
+  "protagonist": "Pieter \"Piet\" Buys (autistic profiler, Stellenbosch) — narrated by Charmaine \"Charl\" Adonis",
+  "logline": "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border — women no one has reported missing, because they were already away for work.",
+  "blueprint": "Sherlock Holmes engine, deliberately unfaithful: the observation-machine and the two-hander kept; the savant-without-a-bill, the London, the Moriarty-as-man, and the deduction-as-magic thrown out. Autism written from the inside, with the cost attached.",
+  "market": "South African literary crime / procedural thriller — commercial release intended",
+  "status": "drafting — Movements I & II complete (ch. 1–16, ~24k); canon/FACTS.md sourced",
+  "target_words": 110000,
+  "lineage": "Arthur Conan Doyle, the Sherlock Holmes canon (public domain) — engine only, no canon fidelity. Real-world grounding: the SAPS Investigative Psychology Section and the 1990s South African serial-murder case files (see canon/SOURCE_NOTES.md).",
+  "series": "TBD — Piet Buys, Book One",
+  "ssot_url": "",
+  "graph_color": "#3a2a1c",
+  "canon_order": [
+    "SOURCE_NOTES.md",
+    "ADAPTATION_DOCTRINE.md",
+    "SEED_STORY.md",
+    "CHARACTERS.md",
+    "WORLD.md",
+    "STYLE_GUIDE.md",
+    "PLOT.md",
+    "CANON_CHOICES.md",
+    "NARRATIVE_ENGINES.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "CRAFT_MAP.md"
+  ],
+  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+}
