@@ -633,6 +633,8 @@ SERIES = [
     ("The No-Fear Cycle", "#1e3a8a"),
     ("Faithful Modern", "#4B4E8C"),
     ("Children's Library", "#7FB069"),  # leaf-green — the read-aloud picture-book shelf
+    ("The Firmament", "#1C3A5A"),  # sealed-arcology midnight — original dystopian duology
+    ("The Piet Buys Files", "#3A2A1C"),  # dark earth — SA literary crime procedural
     ("Standalones", "#B49A6A"),
 ]
 
@@ -652,7 +654,9 @@ SHELF_TAGLINE = {
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
     "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
-    "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle — true to the craft and the question, every name and sentence original.",
+    "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle, Liu Cixin, Conran — true to the craft and the question, every name and sentence original.",
+    "The Firmament": "Original dystopian sleeper — a sealed world the size of a lifeboat, twelve generations of faithful maintenance workers, and the one who walks through the ice wall.",
+    "The Piet Buys Files": "South African literary crime — an autistic profiler and the seasonal workers no one has reported missing, because they were already away.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
     "Winter sonder Einde": "Adult historical saga (in Afrikaans) — a married woman in the Viking north, her fire gone to embers, and the endless winter that wakes it. In André P. Brink's hand, with Kleinboer's frankness. ⚠ For adult readers: frank, sensual, uncensored.",
@@ -1034,6 +1038,39 @@ CURATED = [
     ("how-king-lion", "King Lion and the Birds Who Stole the Sky", "Children's Library · Classic African Stories", "Children's Library",
      "how-king-lion", "build/export",
      "Proud birds stole the farmers' maize until the frightened villagers turned on every creature — so King Lion passed his sorrowful judgement: the birds would never fly again, and their feet were planted in the ground, where they lift their faces to the sky forever and weep the nectar of looking up. An original tale of pride, fear, and just-but-sorrowful consequence — and where the bird-of-paradise flower came from. Ages 4–8 (the darker, braver edge of the shelf)."),
+
+    # ── The Control Room (Resonance companion novella) ──────────────────────────────────────────────
+    ("the-control-room", "The Control Room", "A Resonance Novella", "Standalones",
+     "the-control-room", "build/export",
+     "Seven operators run a rehabilitation unit — or so they have been told. The unit is a body, the body belongs to a comatose twelve-year-old boy, and the seven operators are extractions of his own childhood scan. A chamber novella set after Resonance: one reveal, one unanimous vote, a pronoun arc from we to I. Coming soon."),
+
+    # ── The Firmament (original dystopian duology) ──────────────────────────────────────────────────
+    ("the-firmament", "The Firmament", "The Firmament · Book One", "The Firmament",
+     "the-firmament", "build/export",
+     "For twelve generations they knew the truth: the world is a flat disc under a firmament, ringed by ice. They were right — about a world the size of a lifeboat. A sealed post-flare arcology, a redacted scripture passed hand to hand as samizdat, and the one who walks through the ice wall and onto the round Earth, where the forbidden verses come true one by one. Coming soon."),
+
+    # ── Verdigris (original eco-horror) ─────────────────────────────────────────────────────────────
+    ("verdigris", "Verdigris", "A standalone novel", "Standalones",
+     "verdigris", "build/export",
+     "As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader — it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could. Coming soon."),
+
+    # ── Faithful Modern additions ────────────────────────────────────────────────────────────────────
+    ("the-long-silence", "The Long Silence", "Faithful Modern · after Liu Cixin", "Faithful Modern",
+     "the-long-silence", "build/export",
+     "A species clever enough to split the atom but foolish enough to broadcast its address learns, too late, the one law of a universe full of listeners: the wise stay silent, and the loud do not last. A faithful-modern homage to the Dark Forest engine — original cast, deep-time relay, three movements, the aliens withheld. Coming soon."),
+
+    ("the-openwork", "The Openwork", "Faithful Modern · after Shirley Conran", "Faithful Modern",
+     "the-openwork", "build/export",
+     "Thirty years after four schoolgirls swore a pact to hide a pregnancy and share a child, the daughter — now the most famous woman on the continent — walks into a Cape Town hotel suite with the DNA result already in her pocket. She knows who her mother is. What she wants to know is which of them decided. A faithful-modern retelling of the engine behind Lace: the maternity mystery retired, the anatomy of the pact opened. Coming soon."),
+
+    ("the-sealed-finding", "The Sealed Finding", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
+     "the-sealed-finding", "build/export",
+     "The man who built a state that arrests people for murders they have not yet committed is named by his own machine — and the report that would clear him is sealed in a drawer, alongside the proof that both reports are true. Near-now South Africa, 2054: precognition replaced by inference, the named given Tuesdays, both truths always. A faithful-modern retelling after Philip K. Dick's The Minority Report. Coming soon."),
+
+    # ── The Piet Buys Files (SA literary crime series) ───────────────────────────────────────────────
+    ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
+     "the-unnumbered", "build/export",
+     "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Coming soon."),
 ]
 
 
