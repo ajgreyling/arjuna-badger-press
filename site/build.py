@@ -1812,6 +1812,43 @@ section.series{padding:46px 0 8px}
   font-size:17px;line-height:1.4;color:var(--accent,var(--ochre));opacity:.95;max-width:64ch}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
 
+/* ── Audible-style horizontal scroll shelves (index only) ────────────────────────────── */
+.shelf-track{display:flex;gap:14px;overflow-x:auto;padding:4px 0 18px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shelf-track::-webkit-scrollbar{height:4px}
+.shelf-track::-webkit-scrollbar-track{background:transparent}
+.shelf-track::-webkit-scrollbar-thumb{background:rgba(200,168,107,.3);border-radius:4px}
+.shelf-track::-webkit-scrollbar-thumb:hover{background:var(--ochre)}
+.scard{flex:0 0 158px;scroll-snap-align:start;border-radius:10px;overflow:hidden;
+  background:var(--card);border:1px solid var(--line);text-decoration:none;display:block;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s}
+.scard:hover{transform:translateY(-4px);border-color:var(--accent,var(--ochre));
+  box-shadow:0 12px 32px rgba(0,0,0,.55)}
+.scard .cover{width:100%;aspect-ratio:400/620;display:block;object-fit:cover;border-bottom:1px solid var(--line)}
+.scard-info{padding:8px 10px 10px}
+.scard-series{font-family:"Space Grotesk";font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent,var(--ochre));display:block;margin-bottom:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.scard-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:14px;
+  color:var(--bone);line-height:1.3;display:-webkit-box;
+  -webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.scard-badge{display:block;font-family:"Space Grotesk";font-size:10px;color:var(--grass);margin-top:5px}
+.scard-badge.soon{color:rgba(200,168,107,.65)}
+/* ── Cinematic hero with cover-mosaic backdrop ───────────────────────────────────────── */
+.lib-hero{position:relative;padding:44px 0 32px;overflow:hidden;border-bottom:1px solid var(--line)}
+.lib-hero-bg{position:absolute;inset:0;display:flex;pointer-events:none;
+  filter:brightness(.13) saturate(.5) blur(3px);transform:scale(1.06)}
+.lib-hero-bg img{flex:1;object-fit:cover;min-width:0;height:100%}
+.lib-hero .wrap{position:relative;z-index:1;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.lib-hero-crest img{width:76px;height:76px;object-fit:contain;
+  filter:drop-shadow(0 4px 20px rgba(229,181,103,.24))}
+.lib-hero-text{flex:1;min-width:240px}
+.lib-hero-text h1{font-size:clamp(28px,5vw,44px);margin:0 0 6px}
+.lib-hero-text .lead{color:var(--bonedim);font-size:16px;line-height:1.5;margin:0 0 16px;max-width:56ch}
+.lib-hero-text .cta{margin-top:0;justify-content:flex-start}
+@media(max-width:540px){.lib-hero{padding:28px 0 20px}.lib-hero-crest img{width:52px;height:52px}}
+section.series{padding:32px 0 4px}
+
 /* card */
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
   display:flex;flex-direction:column;transition:transform .18s ease,border-color .18s ease,box-shadow .18s}
@@ -3083,6 +3120,59 @@ def card(e: dict, accent: str) -> str:
 <p>{html.escape(truncate(e['blurb'], 150))}</p>
 {BOOK_CARD_DISCLOSURE.get(e['id'], '')}
 {badge}{dls}</div></div>"""
+
+
+def shelf_card(e: dict, accent: str) -> str:
+    """Compact Audible-style cover card for horizontal shelf rows on the landing page."""
+    cover = (f'<img class="cover" loading="lazy" decoding="async" width="158" height="245" '
+             f'src="{cover_thumb_src(e["id"], e.get("cover"))}" '
+             f'alt="{html.escape(e["title"])} cover">')
+    href = f"book/{e['id']}.html"
+    if e.get("serial"):
+        badge = '<span class="scard-badge">Serial</span>'
+    elif e["available"]:
+        badge = '<span class="scard-badge">Free</span>'
+    else:
+        soon_lbl = "Coming soon" if "_comingsoon" in e["root"].parts else "In progress"
+        badge = f'<span class="scard-badge soon">{soon_lbl}</span>'
+    series_label = html.escape(e.get("subtitle") or e.get("series") or "")
+    return (
+        f'<a class="scard" href="{href}" style="--accent:{accent}" '
+        f'aria-label="{html.escape(e["title"])}">'
+        f'{cover}'
+        f'<div class="scard-info">'
+        f'<span class="scard-series">{series_label}</span>'
+        f'<span class="scard-title">{html.escape(e["title"])}</span>'
+        f'{badge}'
+        f'</div></a>'
+    )
+
+
+def render_library_shelves_audible(entries: list[dict], *, available_only: bool = False) -> str:
+    """Horizontal Audible-style shelf rows for the landing page index."""
+    parts: list[str] = []
+    for sname, accent in SERIES:
+        group = [e for e in entries if e["series"] == sname]
+        if available_only:
+            group = [e for e in group if e["available"] or e.get("serial")]
+        if not group:
+            continue
+        group.sort(key=lambda e: 0 if e["available"] else 1)
+        cards = "".join(shelf_card(e, accent) for e in group)
+        tag = SHELF_TAGLINE.get(sname)
+        tagline = f'<p class="shelftag">{html.escape(tag)}</p>' if tag else ""
+        count = len(group)
+        parts.append(
+            f'<section class="series"><div class="wrap">'
+            f'<div class="sechead" style="--accent:{accent}">'
+            f'<div class="sechead-row">'
+            f'<h2>{html.escape(sname)}</h2>'
+            f'<span class="count">{count} {"book" if count == 1 else "books"}</span>'
+            f'</div>{tagline}</div>'
+            f'<div class="shelf-track">{cards}</div>'
+            f'</div></section>'
+        )
+    return "\n".join(parts)
 
 
 # Client-side engine for the recommender. Pure, deterministic: sums answer weights, picks the max,
@@ -4601,22 +4691,29 @@ def render_index(entries: list[dict]) -> str:
     parts = [head("Arjuna Badger Press — the library",
                   "Free books, finished to a studio standard — read online or download EPUB and PDF."),
              nav()]
-    # ── Books-first: a compact library header, then the shelves. The page is the
-    #    LIBRARY (an e-reader shelf), not a marketing landing — the house/mission
-    #    content lives below the fold and on its own pages (press.html, join.html). ──
-    parts.append(f"""<header class="lib-head"><div class="wrap">
-<a class="lib-crest" href="#library" aria-label="Arjuna Badger Press"><img src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest"></a>
-<div class="lib-head-text">
+    # ── Books-first: cinematic hero with cover-mosaic backdrop, then Audible-style
+    #    horizontal scroll shelves. The page is the LIBRARY — mission lives below the
+    #    fold and on its own pages (press.html, join.html). ──
+    backdrop = [e for e in entries if e["available"] and e.get("cover")][:9]
+    backdrop_imgs = "".join(
+        f'<img src="{cover_thumb_src(e["id"], e.get("cover"))}" '
+        f'alt="" aria-hidden="true" loading="eager" decoding="async">'
+        for e in backdrop
+    )
+    parts.append(f"""<header class="lib-hero"><div class="lib-hero-bg" aria-hidden="true">{backdrop_imgs}</div>
+<div class="wrap">
+<a class="lib-hero-crest" href="#library" aria-label="Arjuna Badger Press"><img src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest" width="76" height="76"></a>
+<div class="lib-hero-text">
 <h1>The Library</h1>
-<p class="lead"><strong>{read_now} books, free to read.</strong> {avail} ready to download — read online, or EPUB &amp; PDF. Finished to a studio standard; both sides told, the door left open.</p>
+<p class="lead"><strong>{read_now} books, free.</strong> {avail} ready to download — read online, EPUB &amp; PDF. Finished to a studio standard; both sides told.</p>
 <div class="cta"><a class="btn" href="start.html">Where to start?</a>
 <a class="btn ghost" href="press.html">About the press</a>
-<a class="btn ghost" href="/studio">Writers → the Studio</a></div>
+<a class="btn ghost" href="/studio">Writers → Studio</a></div>
 </div>
 </div></header>""")
 
     parts.append('<section id="library">')
-    parts.append(render_library_shelves(entries, available_only=True))
+    parts.append(render_library_shelves_audible(entries, available_only=True))
     parts.append('</section>')
 
     # ── Below the fold: the house. Collapsed to a quiet strip + a "call to arms"
