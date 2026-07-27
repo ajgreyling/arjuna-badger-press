@@ -301,6 +301,12 @@ PUBLISHED = set(
         # Released 2026-07-27 (two original/faithful-modern novels, covers + polished drafts done;
         # sensitivity read not yet performed on either — published by explicit author decision):
         "verdigris,the-openwork,"
+        # The Road Books (2026-07-27) — published as DRAFTS by explicit author decision. Complete
+        # manuscripts + gate-rendered EPUB/PDF; not copy-edited, no bespoke covers yet. Two are
+        # about real, recently-deceased people (Heinz Stücke d. 2026-07-22; Johan C. Bakkes
+        # d. 2025-06-24) and one profiles living travellers who were not contacted — each carries
+        # an Author's Note stating exactly what is documented and what is imagined.
+        "um-welt,kookie,the-long-road,"
         "resonance,revelation,relic,"
         "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
         "australia-outback,project-stargate,"
@@ -898,6 +904,21 @@ CURATED = [
     ("the-salt-veil-2", "The First Key", "A desert epic-fantasy series · Book Two", "The Salt Veil",
      "_comingsoon/the-salt-veil-2", "build/export",
      "Book Two of The Salt Veil — the circle tightens, and what was hidden in the salt begins to answer. Coming soon."),
+
+    # ── The Road Books (2026-07-27) — DRAFTS. Complete manuscripts, EPUB/PDF rendered through the
+    # gate, published as drafts by explicit author decision. Not yet copy-edited or cover-designed;
+    # Um Welt's title is provisional (Heinz Stücke's own memoir is *Mit dem Fahrrad um die Welt*).
+    ("um-welt", "Um Welt", "The Road Books · A life on a bicycle", "The Road Books",
+     "um-welt", "build/export",
+     "DRAFT. In November 1962 a 22-year-old tool-and-die maker rode out of a Westphalian village on a three-speed bicycle and did not stop for fifty years — 600,000 kilometres, 195 countries, shot in the foot in Zambia, beaten unconscious in Egypt, his bicycle stolen five times and recovered five times. A modern retelling of the real Heinz Stücke, who died on 22 July 2026, five days before this book was written."),
+
+    ("kookie", "Kookie", "The Road Books · A true desert story", "The Road Books",
+     "kookie", "build/export",
+     "DRAFT. John McCown was a butcher in Barstow six days a week and a desert racer on the seventh. For over three hundred races across the American Southwest, his dog Kookie rode the gas tank on a strapped-down mat — standing when the ground went soft, backing off before the bumps, reading the desert sometimes before McCown did. The true story of a man, a dog, and the sport that made them famous. For the dogs of the world."),
+
+    ("the-long-road", "The Long Road", "The Road Books · Journeys across Africa", "The Road Books",
+     "the-long-road", "build/export",
+     "DRAFT. A compendium of real African journeys, grouped by the roads that carried them — Sani Pass, the Skeleton Coast, the Cape-to-Cairo corridor, the Tanzam Highway, the Nile road north. Cyclists, hikers, motorcyclists and overlanders crossing the same ground at four different speeds: Riaan Manser's circumnavigation, Mario Rigby's walk, Kingsley Holgate's outline expeditions, and the 2015 record chain in which one man's Cairo-to-Cape record stood for ten weeks. Dedicated to Johan C. Bakkes."),
     ("the-salt-veil-3", "The Abyss", "A desert epic-fantasy series · Book Three", "The Salt Veil",
      "_comingsoon/the-salt-veil-3", "build/export",
      "Book Three — descent into the deep places where the Voice cannot follow. Coming soon."),
