@@ -369,6 +369,11 @@ PUBLISHED = set(
         # status tracker alike. Published as a DRAFT by explicit author decision, same standing as the
         # Road Books (um-welt/kookie/the-long-road): complete manuscript, not yet copy-edited.
         "the-firmament,"
+        # gobekli-tepe (2026-07-28): 13th Not-a-Potato title. Registry (platform books/registry.py)
+        # already marked it "DRAFT COMPLETE (17 ch, ~61k, 2026-06-14; merge/export pending)" — the
+        # merge/export step was the only thing missing. Chapters compiled to BOOK.md and exported
+        # via history-before-time/tools/export_epub.py --books-root ../the-why-files/books.
+        "gobekli-tepe,"
         # the-little-key (The Little Key): the first title on the Children's Library shelf — a
         # read-aloud picture book carrying the medicine of *The Indian in the Cupboard* (original
         # work, no borrowed text). Picture-book render path (full-bleed illustrated spreads); art
@@ -1004,8 +1009,8 @@ CURATED = [
      "Stilbaai and the southern Cape — a photographer finds a shell midden older than the brochure admits, and a stone that shouldn't be there."),
 
     ("gobekli-tepe", "The Belly Hill", "Not a Potato", "Not a Potato",
-     "_comingsoon/gobekli-tepe", "build/export",
-     "Göbekli Tepe — the temple older than the plough, raised by hunter-gatherers a textbook said could not have raised it. The official story, played straight; the one accepted shock it can't explain away; the maybe left open for you to decide. Coming soon."),
+     "gobekli-tepe", "build/export",
+     "Göbekli Tepe — the temple older than the plough, raised by hunter-gatherers a textbook said could not have raised it. The official story, played straight; the one accepted shock it can't explain away; the maybe left open for you to decide."),
     ("voynich-manuscript", "The Hand That Wrote It", "Not a Potato · Book One", "Not a Potato",
      "voynich-manuscript", "build/export",
      "The Voynich Manuscript — a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions — not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close."),
