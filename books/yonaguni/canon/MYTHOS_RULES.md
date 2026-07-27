@@ -1,0 +1,7 @@
+- The “hole” must be a real, checkable, unresolved fact—never invented, always cited.
+- The “potato” engine: each attempt to replicate or explain the monument’s geometry by hand (or by nature) comes out rough, incomplete, or ambiguous.
+- Wonder is held rigorously apart from conspiracy; the adversary is human-scale (bureaucratic, not omnipotent).
+- §3 in spirit: the local always out-reads the crew on what matters, and the “what is it for” is theirs to give or withhold; the place is not a puzzle-box for outsider enlightenment.
+- Mysteries stay open: the book never confirms or denies “made or not”; the maybe is protected.
+- Real places are rendered honestly; back matter separates measured fact, debated claim, and invention.
+- This book’s specifics: the two-credentialed-geologists split (Kimura vs. Schoch) is real, unresolved, and forms the book’s honest core; no tool marks or cultural layer confirmed; no other site matches Yonaguni’s blend of geometry and scale.

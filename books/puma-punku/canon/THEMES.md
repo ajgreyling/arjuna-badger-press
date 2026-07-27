@@ -1,0 +1,6 @@
+- The act of seeing: To see a marvel is to admit you don’t know, and that’s the start of wonder.
+- The dignity of the written-off: Neurodiverse, marginal people notice what others miss; their wiring is their lens, not a wound.
+- The gap between story and stone: The official story is hard to live up to, and the wonder isn’t killed by the craft — it’s deepened.
+- The gift of “maybe”: The reader is allowed, even invited, to dwell in uncertainty; the book’s gift is not an answer, but permission.
+- The place is alive: The site is not just an artifact, but a living ground with people who belong to it; their knowledge is not a puzzle for outsiders to solve.
+- Dignity contract: No “white saviour,” no “noble savage,” no caricature; the local’s authority is unchallenged on what matters.

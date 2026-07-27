@@ -1,0 +1,7 @@
+- The dignity of not knowing: the honest “maybe” is the gift, not a failure.
+- Outsiders see what others miss: neurodiversity and marginality are strengths, not deficits.
+- The cost and beauty of ambiguity: the world’s best mysteries are the ones no one can close.
+- The humanity law: the crew’s wiring is how they see, never a wound to heal; the local’s authority is inviolable.
+- The function of wonder: “what is it for” is a key that opens more questions, not fewer.
+- The dignity contract: the local’s right to ambiguity, the crew’s refusal to claim the last word.
+- These themes live in action—through the chase, the failed replications, the withheld answers—not in stated morals.

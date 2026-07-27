@@ -1,0 +1,7 @@
+- The checkable thing must be real: Every claim about the Horse's age, construction, and maintenance is sourced and documented. The OSL dating, the 1-metre trenches, the scouring tradition—all real.
+- The potato engine: The "easy" story (just keep chalking it!) is shown to be hard—demonstrated by failed modern attempts to maintain similar figures, the difficulty of keeping a shape sharp on a living hill, the physical labor, the communal effort, and the way tradition falters when not embodied.
+- Wonder, not conspiracy: No aliens, no secret societies, no "lost technology"—the wonder is in the unbroken act of care, not in a supernatural solution.
+- §3 in spirit: The local (Edie and the scourers) out-read the crew on what matters; the "what is it for" is theirs to give or withhold. The crew never "solve" the place; the telling is theirs, but the answer is the local's.
+- Mysteries stay open: The original meaning of the Horse is never resolved. The question of how an act can outlive its reason is left open for the reader.
+- Real places, honestly: Uffington, the figure, the festival, the community—all rendered with accuracy and respect. No composite locals, no invented monuments.
+- This book's specifics: The unbroken chain of scouring is inferred, not documented; the loss of meaning is real and attested; the continued act of care is observable.
