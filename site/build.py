@@ -337,6 +337,11 @@ PUBLISHED = set(
         # notice on the book page (BOOK_NOTICE); Eleanor Wood licensing contact attempted; not for
         # commercial release pending permission.
         "the-first-unplugged,"
+        # the-surgeon (The Surgeon): Cape crime novel, Book I of the Capt. Gideon Loots series.
+        # Adult title — maturity notice in BOOK_NOTICE + ⚠ shelf tagline (same standing as
+        # the-amber-winter). Complete first draft, 24 chapters, rendered through the gate with a
+        # rich cover. Non-procedural by binding house rule: no doses, routes, or technique on the page.
+        "the-surgeon,"
         # the-little-key (The Little Key): the first title on the Children's Library shelf — a
         # read-aloud picture book carrying the medicine of *The Indian in the Cupboard* (original
         # work, no borrowed text). Picture-book render path (full-bleed illustrated spreads); art
@@ -627,6 +632,7 @@ SERIES = [
     ("The Synthesis", "#9A7BC8"),
     ("The Salt Veil", "#B0814A"),
     ("Winter sonder Einde", "#C77A3A"),  # ember-amber — the adult Norse saga shelf (mature content)
+    ("Captain Gideon Loots", "#C9A227"),  # harvest gold — the Cape crime shelf (mature content)
     ("The Dust Throne", "#8A5A2C"),
     ("The Unheard", "#6B8C9A"),
     ("Not a Potato", "#9A8B6B"),
@@ -639,6 +645,7 @@ SERIES = [
 # Per-shelf tagline shown under each series heading on the library. One evocative line in
 # the house voice; keyed by the SERIES name. Absent name => no tagline (heading only).
 SHELF_TAGLINE = {
+    "Captain Gideon Loots": "⚠ For adult readers. Cape crime — a disgraced detective and the charming men he understands too well.",
     "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
@@ -681,6 +688,20 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "the-surgeon": (
+        "<strong>For adult readers.</strong> <em>The Surgeon</em> is a crime novel narrated, for "
+        "half its length, from inside a predator — a man who drugs women and operates on them "
+        "without their knowledge or consent. The book is deliberately seductive before it is "
+        "appalling: that is its argument, not its indulgence. It is <strong>not</strong> a manual "
+        "and not gore. By a binding rule of its own making it carries no drug doses, no routes, no "
+        "sourcing and no surgical technique anywhere on the page; the horror is consent, autonomy "
+        "and the self in the mirror, never procedure. There is no sexual violence in it, on the "
+        "page or as implication. Its victims are people, with names, interiority and an after — "
+        "the last word in the book belongs to one of them, not to him. The narrator's doctrine "
+        "about race and beauty is his pathology, is monstrous, and is dismantled on the page by "
+        "characters with the standing to do it. Mature themes throughout: non-consensual medical "
+        "violation, lasting bodily harm, addiction and police violence."
+    ),
     "the-amber-winter": (
         "<strong>For adult readers.</strong> <em>Die Vuur in die Donker</em> is a frank, sensual "
         "historical saga for grown-ups — written, by request, without the censorship its reader "
@@ -901,6 +922,9 @@ CURATED = [
      "_comingsoon/the-salt-veil-5", "build/export",
      "Book Five — the quintet closes where the salt veil first fell. Coming soon."),
 
+    ("the-surgeon", "THE SURGEON", "Captain Gideon Loots · Book I", "Captain Gideon Loots",
+     "the-surgeon", "build/export",
+     "He was refused a place at medical school by one mark. So he took the consolation prize — veterinary science — and stripped it for parts. Now he is the most charming man in any room on the Atlantic Seaboard, and the women he takes home wake up at noon with a lost evening, a glass of water beside the bed, and, weeks later, a scar that is no longer there. The detective who understands him is the one man in the Service who cannot afford to: a disgraced captain who once decided his own hands were the correction. A Cape crime novel about consent, perfection, and the compliment with a knife in it. ⚠ For adult readers. Book I of Captain Gideon Loots."),
     ("the-amber-winter", "Die Vuur in die Donker", "Winter sonder Einde · Boek I (Afrikaans)", "Winter sonder Einde",
      "the-amber-winter", "build/export",
      "Twenty winters she has been the keel that keeps everyone else afloat — the lady of a Viking fjord-hall, her fire gone to embers under a marriage gone tender-but-cold. Then the world snows shut around a hall full of guests: a far-traveller who looks at her the way no one looks any more, a shield-maiden who wakes an old fire, and an ancient seeress who opens a door she did not know she carried. An adult historical saga in Afrikaans, in André P. Brink's hand with Kleinboer's frankness — sensual, honest, and uncensored, with the hand near the brake. ⚠ For adult readers. Book I of Winter sonder Einde."),
