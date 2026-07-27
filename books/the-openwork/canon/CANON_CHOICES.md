@@ -1,4 +1,4 @@
-# CANON_CHOICES — *The Openwork* (LOCKED)
+# CANON_CHOICES — *Lacework* (LOCKED)
 
 > The decisions the whole book leans on. Change these only by conscious amendment, never by drift.
 

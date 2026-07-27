@@ -1,4 +1,4 @@
-# NARRATIVE_ENGINES — *The Openwork*
+# NARRATIVE_ENGINES — *Lacework*
 
 ## 1. The interlace (the irony engine)
 

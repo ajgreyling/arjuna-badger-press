@@ -1,4 +1,4 @@
-# MYTHOS — *The Openwork* (BINDING RULES)
+# MYTHOS — *Lacework* (BINDING RULES)
 
 1. **No maternity whodunit.** Lele knows before the book's present tense begins (CC-03). Any scene
    that plays "which of them is it?" as suspense for *her* is a violation. The reader's confirmation

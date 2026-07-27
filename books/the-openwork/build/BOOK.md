@@ -1,4 +1,4 @@
-% The Openwork
+% Lacework
 % Andries J. Greyling
 
 # Foreword

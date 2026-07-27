@@ -1,4 +1,4 @@
-# Project — *The Openwork* *(working title)*
+# Project — *Lacework*
 
 > **Type:** homage / craft exercise · **Lineage:** Shirley Conran, *Lace* (novel, 1982) — arcs, engine,
 > and craft only · **Status:** scaffolding · **Length:** one novel (~120k) · **Substrate:** realist
@@ -68,9 +68,9 @@ has built a statue of him.
 
 | Level | Maps to |
 |---|---|
-| **Project** | *The Openwork* (this) |
+| **Project** | *Lacework* (this) |
 | **Series** | standalone novel — Faithful Modern shelf |
-| **Novel** | *The Openwork* |
+| **Novel** | *Lacework* |
 | **Act / Chapter / Beat** | three parts (THE PATTERN · THE HOLES · THE THREAD), 1990s and 2026 timelines interlaced; beats as work / pact / reckoning atoms |
 
 ## The structural engine (what makes it *this* book)
@@ -88,7 +88,7 @@ central mystery converted from a reveal into a shape.
 |---|---|
 | [`canon/SOURCE_NOTES.md`](canon/SOURCE_NOTES.md) | **SSOT:** the novel's engine + the **arc ledger** (every original arc, ticked) |
 | [`canon/SEED_STORY.md`](canon/SEED_STORY.md) | One-sentence + structural spine |
-| [`canon/CRAFT_MAP.md`](canon/CRAFT_MAP.md) | Conran craft element → *Openwork* transposition |
+| [`canon/CRAFT_MAP.md`](canon/CRAFT_MAP.md) | Conran craft element → *Lacework* transposition |
 | [`canon/PLANTS_AND_PAYOFFS.md`](canon/PLANTS_AND_PAYOFFS.md) | Plants, guns, misfires (PP-IDs) |
 | [`canon/NARRATIVE_ENGINES.md`](canon/NARRATIVE_ENGINES.md) | The interlace, the envelope clock, the irony engine |
 | [`canon/CANON_CHOICES.md`](canon/CANON_CHOICES.md) | Locked choices — who the mother is, who decided, what Lele wants |
