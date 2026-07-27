@@ -357,6 +357,18 @@ PUBLISHED = set(
         # a drafting gap. Released by explicit author decision; EPUB-only (no PDF built yet).
         "anunnaki-mesopotamia,nazca-lines,atacama-paracas,nan-madol,newark-earthworks,"
         "serpent-mound,poverty-point,puma-punku,sajama-lines,uffington,yonaguni,suppressed-tech,"
+        # the-sealed-finding (2026-07-28): 90k-word, 28-chapter Minority Report homage (PKD lineage,
+        # same standing as the-dreaming/no-fear-cycle) found fully drafted + EPUB/PDF built but never
+        # published. Its own project.json flags market="craft exercise, not for commercial release" and
+        # sensitivity_read="RECOMMENDED" (SA preventive-detention history) — both knowingly overridden
+        # by explicit author decision. No cover exists yet; ships with the automatic procedural stub
+        # until real art is made.
+        "the-sealed-finding,"
+        # the-firmament (2026-07-28): ~63k-word two-book original dystopian sleeper, draft EPUB + real
+        # cover already built, but never wired into CURATED at all — invisible to the shelf and the
+        # status tracker alike. Published as a DRAFT by explicit author decision, same standing as the
+        # Road Books (um-welt/kookie/the-long-road): complete manuscript, not yet copy-edited.
+        "the-firmament,"
         # the-little-key (The Little Key): the first title on the Children's Library shelf — a
         # read-aloud picture book carrying the medicine of *The Indian in the Cupboard* (original
         # work, no borrowed text). Picture-book render path (full-bleed illustrated spreads); art
@@ -1101,7 +1113,7 @@ CURATED = [
     # ── The Firmament (original dystopian duology) ──────────────────────────────────────────────────
     ("the-firmament", "The Firmament", "The Firmament · Book One", "The Firmament",
      "the-firmament", "build/export",
-     "For twelve generations they knew the truth: the world is a flat disc under a firmament, ringed by ice. They were right — about a world the size of a lifeboat. A sealed post-flare arcology, a redacted scripture passed hand to hand as samizdat, and the one who walks through the ice wall and onto the round Earth, where the forbidden verses come true one by one. Coming soon."),
+     "DRAFT: For twelve generations they knew the truth: the world is a flat disc under a firmament, ringed by ice. They were right — about a world the size of a lifeboat. A sealed post-flare arcology, a redacted scripture passed hand to hand as samizdat, and the one who walks through the ice wall and onto the round Earth, where the forbidden verses come true one by one. Complete manuscript, not yet copy-edited."),
 
     # ── Verdigris (original eco-horror) ─────────────────────────────────────────────────────────────
     ("verdigris", "Verdigris", "A standalone novel", "Standalones",
@@ -1119,7 +1131,7 @@ CURATED = [
 
     ("the-sealed-finding", "The Sealed Finding", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
      "the-sealed-finding", "build/export",
-     "The man who built a state that arrests people for murders they have not yet committed is named by his own machine — and the report that would clear him is sealed in a drawer, alongside the proof that both reports are true. Near-now South Africa, 2054: precognition replaced by inference, the named given Tuesdays, both truths always. A faithful-modern retelling after Philip K. Dick's The Minority Report. Coming soon."),
+     "The man who built a state that arrests people for murders they have not yet committed is named by his own machine — and the report that would clear him is sealed in a drawer, alongside the proof that both reports are true. Near-now South Africa, 2054: precognition replaced by inference, the named given Tuesdays, both truths always. A faithful-modern retelling after Philip K. Dick's The Minority Report."),
 
     # ── The Piet Buys Files (SA literary crime series) ───────────────────────────────────────────────
     ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
