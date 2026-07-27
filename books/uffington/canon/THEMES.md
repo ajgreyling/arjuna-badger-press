@@ -1,0 +1,5 @@
+- *Care outlasting meaning*: The central theme, never stated, lives in the act of scouring—a tradition kept alive for its own sake, even when the reason is lost.
+- *The gift of maybe*: The book lets the reader dwell in the unanswered—how can something survive when its meaning is gone? What is it for, now?
+- *Humanity law*: The crew's neurodiversity is their sight, not their wound; they notice what others miss because they were never allowed to stop watching.
+- *Dignity contract*: The local community is never reduced to backdrop; the act of care is respected, the people are whole and complex, the crew do not "save" or "solve" but witness and learn.
+- *Tradition as action, not fossil*: What is kept alive is not a story but a doing; the act itself, not its meaning, is the inheritance.

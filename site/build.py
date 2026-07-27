@@ -351,6 +351,12 @@ PUBLISHED = set(
         # the-amber-winter). Complete first draft, 24 chapters, rendered through the gate with a
         # rich cover. Non-procedural by binding house rule: no doses, routes, or technique on the page.
         "the-surgeon,"
+        # Not a Potato — anomaly slate (2026-07-28): 12 titles found fully drafted (20-22 chapters
+        # each) and built to EPUB in the engine repo (arjuna-badger-platform/books/the-why-files/),
+        # but never synced across or flipped from _comingsoon — a publish-pipeline regression, not
+        # a drafting gap. Released by explicit author decision; EPUB-only (no PDF built yet).
+        "anunnaki-mesopotamia,nazca-lines,atacama-paracas,nan-madol,newark-earthworks,"
+        "serpent-mound,poverty-point,puma-punku,sajama-lines,uffington,yonaguni,suppressed-tech,"
         # the-little-key (The Little Key): the first title on the Children's Library shelf — a
         # read-aloud picture book carrying the medicine of *The Indian in the Cupboard* (original
         # work, no borrowed text). Picture-book render path (full-bleed illustrated spreads); art
@@ -995,7 +1001,7 @@ CURATED = [
      "non-terrestrial-officers", "build/export",
      "From a flat in Crouch End, Gary McKinnon reached 97 US military and NASA computers — not by breaking in, but by walking through open doors marked No Entry that someone had left unlocked. He took nothing and broke nothing; on the way out he even left a polite sticky note on the door reminding them to lock it. He did what any capable and curious person would do. He was looking for evidence of UFOs. What he found was a spreadsheet — column headers, branch codes, hull designators, transfer durations — and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field."),
     ("suppressed-tech", "The Quiet Men", "Not a Potato", "Not a Potato",
-     "_comingsoon/suppressed-tech", "build/export",
+     "suppressed-tech", "build/export",
      "The inventors who said they had something the world wasn't allowed to keep — read as a careful descent from the documented to the purely believed, holding each man's dignity even where his machine never ran. The official story, the human shock beneath it, the maybe left open. Coming soon."),
 
     # ── Jakobus spinoffs (drafting — in the workshop) ───────────────────────────────────────────
@@ -1032,37 +1038,37 @@ CURATED = [
 
     # ── Not a Potato — anomaly slate (draft/scaffold — in the workshop) ─────────────────────────
     ("anunnaki-mesopotamia", "The Princely Offspring", "Not a Potato", "Not a Potato",
-     "_comingsoon/anunnaki-mesopotamia", "build/export",
+     "anunnaki-mesopotamia", "build/export",
      "Ancient Mesopotamia — the ancient-aliens founding myth played straight, then killed in the cuneiform; the real hole is the Bible's Mesopotamian sources. Coming soon."),
     ("nazca-lines", "From the Air", "Not a Potato", "Not a Potato",
-     "_comingsoon/nazca-lines", "build/export",
+     "nazca-lines", "build/export",
      "The Nazca Lines — geoglyphs only visible from above, cut centuries before anyone here could fly. The official story, the one hole, the maybe left open. Coming soon."),
     ("atacama-paracas", "Aimed at the Sea", "Not a Potato", "Not a Potato",
-     "_comingsoon/atacama-paracas", "build/export",
+     "atacama-paracas", "build/export",
      "The Atacama Giant and the Paracas Candelabra — two coastal geoglyphs aimed at the Pacific. Coming soon."),
     ("nan-madol", "The Spaces Between", "Not a Potato", "Not a Potato",
-     "_comingsoon/nan-madol", "build/export",
+     "nan-madol", "build/export",
      "Nan Madol — a city of basalt logs on a Micronesian reef, raised when the textbook says no one here could have raised it. Coming soon."),
     ("newark-earthworks", "The Eighteen-Year Almanac", "Not a Potato", "Not a Potato",
-     "_comingsoon/newark-earthworks", "build/export",
+     "newark-earthworks", "build/export",
      "The Newark Earthworks — an Ohio geometry aligned to an eighteen-year lunar cycle. Coming soon."),
     ("serpent-mound", "The Serpent's Age", "Not a Potato", "Not a Potato",
-     "_comingsoon/serpent-mound", "build/export",
+     "serpent-mound", "build/export",
      "The Great Serpent Mound — a serpent swallowing an egg, older than the peoples the brochure assigns it to. Coming soon."),
     ("poverty-point", "Ninety Days", "Not a Potato", "Not a Potato",
-     "_comingsoon/poverty-point", "build/export",
+     "poverty-point", "build/export",
      "Poverty Point — a Louisiana earthwork raised in ninety days by a culture with no wheels and no beasts of burden. Coming soon."),
     ("puma-punku", "The Unknown Corner", "Not a Potato", "Not a Potato",
-     "_comingsoon/puma-punku", "build/export",
+     "puma-punku", "build/export",
      "Puma Punku — precision-cut andesite at altitude, the corner the official story can't quite account for. Coming soon."),
     ("sajama-lines", "The Long Straight", "Not a Potato", "Not a Potato",
-     "_comingsoon/sajama-lines", "build/export",
+     "sajama-lines", "build/export",
      "The Sajama Lines — thousands of straight furrows in the Bolivian altiplano, visible only from the air. Coming soon."),
     ("uffington", "The Scouring", "Not a Potato", "Not a Potato",
-     "_comingsoon/uffington", "build/export",
+     "uffington", "build/export",
      "The Uffington White Horse — scoured into the chalk for three thousand years; the oldest hill figure in Britain. Coming soon."),
     ("yonaguni", "Made or Not", "Not a Potato", "Not a Potato",
-     "_comingsoon/yonaguni", "build/export",
+     "yonaguni", "build/export",
      "The Yonaguni Monument — a submerged terrace off Japan; natural fracture or cut stone, and Jakobus's gift meets its limit. Coming soon."),
 
     # ── Children's Library (read-aloud picture books) ───────────────────────────────────────────

@@ -1,0 +1,7 @@
+- The checkable thing is real: the dating controversy (Adena vs. Fort Ancient) is unresolved in the academic literature as of 2024; the solstice alignment is physically observable.
+- The “potato engine”: every attempt to settle the age (radiocarbon, artifacts, morphology) yields a mess; both sides have strong evidence and glaring gaps.
+- Wonder, not conspiracy: no aliens, no lost giants; the adversary is a real institution with reasonable motives, not a hidden cabal.
+- §3 in spirit: The local/custodian (Dr. Tallchief) out-reads the crew on the thing that matters; the “what is it for” is hers to give or withhold. The crew never “solve” the place; they are guests, not conquerors.
+- Designated mysteries stay open: the age is never settled in narration; the solstice alignment is observed, not explained away; the function is offered as a grounded, physical answer but never closed.
+- Real places honestly: no invented geography; the real Serpent Mound, real surrounding communities, real debates.
+- This book’s specifics: the “hole” is the unresolved radiocarbon/archaeological dating; the “wink” is the function and the reason for the serpent’s form and placement; the “what is it for” is a physical, testable function (e.g., water mapping or horizon marker), never a mythic “meaning.”

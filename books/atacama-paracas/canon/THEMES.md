@@ -1,0 +1,6 @@
+- The right to say “maybe” is a gift — the refusal to close the question is an act of respect, not ignorance.
+- The best readers of a land are those the world tried to write off; neurodivergence is a lens, not a wound.
+- Meaning is not something to be fixed and owned, but something to be read and handed on.
+- The dignity contract: the locals’ knowledge is not a resource to be extracted, but a gift they choose when and how to give. The crew never “solve” the place.
+- The drive to map, to signal, to call across distance — infrastructure as wonder, not just utility.
+- The tension between preserving and freezing: fixing meaning can protect, but also kill the living question.

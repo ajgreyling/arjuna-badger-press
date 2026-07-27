@@ -1,0 +1,7 @@
+- Every “hole” is a cited, checkable, real-world unresolved fact (Briones’ lunar alignment; Candelabra’s undated origin).  
+- The “potato” engine: the official story is shown true or plausible, but the crew (or others) attempting to replicate the feat make pale imitations; the gap is real.  
+- Wonder, not conspiracy: no aliens, no cabals; fringe claims are labelled as such and never confirmed or denied in narration.  
+- §3 in spirit: the local/keeper always out-reads the crew on what matters; the answer (or its withholding) is theirs.  
+- The mysteries (alignment, attribution, function) are never closed in narration; the reader is left in the “maybe.”  
+- Real places are rendered honestly, with every measurement and debated claim footnoted in back matter.  
+- This book’s specifics: Atacama Giant’s rays as a possible lunar gnomon (peer-reviewed but unproven); Paracas Candelabra’s undated, unclaimed authorship and function as a maritime signal.

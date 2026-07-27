@@ -1,0 +1,7 @@
+- *The dignity of saying “maybe”*: The true gift is the right to leave a mystery open, to live in the space between certainty and credulity.
+- *Wiring as lens, not wound*: The crew’s neurodiversity is how they see what others miss; it is never something to be “fixed,” and never a caricature.
+- *Authority and humility*: The local/custodian owns the final reading; the outsider’s job is to listen, not to solve.
+- *The cost of certainty*: The adversary’s drive to “settle” the story threatens to flatten the wonder—and the living meaning—of the place.
+- *Function over myth*: The answer is not “who” or “when,” but “what is it for”—a function that can be physically checked, which re-opens the wonder.
+- Dignity contract: No appropriation, no “white savior” moment, no outsider “solves” the native mystery; the local’s agency is paramount, and the crew leaves changed by what they are given (and not given).
+- The wonder is in the unresolved, and the reader is *allowed* to say “I don’t know.”

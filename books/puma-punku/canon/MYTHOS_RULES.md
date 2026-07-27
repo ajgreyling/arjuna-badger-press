@@ -1,0 +1,7 @@
+- Checkable-thing-is-real: Every “hole” is a cited, unresolved real fact (e.g., bronze cramps’ full-scale replication at altitude is not published; the largest blocks’ transport logistics remain debated).
+- Potato engine: Crew’s best attempt to replicate the official story (casting cramps, fitting stones) produces a “potato,” not a marvel; the gap is dramatized, not declared.
+- Wonder-not-conspiracy: No aliens, no omnipotent cabals; the adversary is human, well-meaning, flawed.
+- §3 in spirit: The local out-reads the crew; the place is not “solved” by outsiders; answer is given or withheld by the custodian.
+- Designated mysteries stay open: The book never declares the “real” method or answer; “maybe” is protected.
+- Real-places-honestly: Every location, person, and claim is checked against the fact-floor; lived Aymara presence is real and ongoing.
+- Book specifics: The only “hole” is the unresolved craft of the bronze cramps; all fringe claims (aliens, concrete, 12,000+ years) are labelled as such and not endorsed.
