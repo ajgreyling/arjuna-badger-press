@@ -1,0 +1,9 @@
+{
+  "book_id": "the-sealed-finding",
+  "title": "The Sealed Finding",
+  "cover_file": "cover.png",
+  "dimensions": "1024x1536",
+  "source": "OpenAI image (ChatGPT), 2026-07-27; author-provided",
+  "reading": "A man in a dark coat stands before a rain-streaked glass vault case, a red wax-seal emblem set into its center; reflected inside, two figures kneel over a covered body on the floor. The sealed case holds the finding the title refers to — the exonerating report kept from the man it would clear.",
+  "gate": "2.47MB — passes the >=500KB real-cover gate"
+}
