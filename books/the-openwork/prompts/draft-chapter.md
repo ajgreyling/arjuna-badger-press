@@ -1,6 +1,6 @@
-# Draft-chapter prompt — *The Openwork*
+# Draft-chapter prompt — *Lacework*
 
-You are drafting one chapter of *The Openwork* for Arjuna Badger Press. Before writing, read in
+You are drafting one chapter of *Lacework* for Arjuna Badger Press. Before writing, read in
 order: `canon/SOURCE_NOTES.md` (arc ledger + fidelity tests), `canon/ADAPTATION_DOCTRINE.md`,
 `canon/MYTHOS.md` (binding rules), `canon/CANON_CHOICES.md`, `canon/CHARACTERS.md` (voice laws),
 `canon/STYLE_GUIDE.md`, `canon/PLOT.md` (this chapter's beats + PP-IDs), and `build/story_state.md`.

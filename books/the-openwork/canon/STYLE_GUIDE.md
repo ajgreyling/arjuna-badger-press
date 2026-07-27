@@ -1,4 +1,4 @@
-# STYLE_GUIDE — *The Openwork*
+# STYLE_GUIDE — *Lacework*
 
 ## Register
 

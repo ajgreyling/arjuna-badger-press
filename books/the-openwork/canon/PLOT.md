@@ -1,4 +1,4 @@
-# PLOT — *The Openwork* (beat sheet, scaffold)
+# PLOT — *Lacework* (beat sheet, scaffold)
 
 > Crosswalk: [A#] = arc-ledger row in SOURCE_NOTES · [PP-#] = PLANTS_AND_PAYOFFS. Chapter counts
 > provisional; target ~120k over ~40 chapters.

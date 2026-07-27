@@ -298,6 +298,9 @@ WORKSHOP_HOLD = set(
 PUBLISHED = set(
     s.strip() for s in os.environ.get(
         "ABP_PUBLISHED",
+        # Released 2026-07-27 (two original/faithful-modern novels, covers + polished drafts done;
+        # sensitivity read not yet performed on either — published by explicit author decision):
+        "verdigris,the-openwork,"
         "resonance,revelation,relic,"
         "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
         "australia-outback,project-stargate,"
@@ -1052,16 +1055,16 @@ CURATED = [
     # ── Verdigris (original eco-horror) ─────────────────────────────────────────────────────────────
     ("verdigris", "Verdigris", "A standalone novel", "Standalones",
      "verdigris", "build/export",
-     "As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader — it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could. Coming soon."),
+     "As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader — it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could."),
 
     # ── Faithful Modern additions ────────────────────────────────────────────────────────────────────
     ("the-long-silence", "The Long Silence", "Faithful Modern · after Liu Cixin", "Faithful Modern",
      "the-long-silence", "build/export",
      "A species clever enough to split the atom but foolish enough to broadcast its address learns, too late, the one law of a universe full of listeners: the wise stay silent, and the loud do not last. A faithful-modern homage to the Dark Forest engine — original cast, deep-time relay, three movements, the aliens withheld. Coming soon."),
 
-    ("the-openwork", "The Openwork", "Faithful Modern · after Shirley Conran", "Faithful Modern",
+    ("the-openwork", "Lacework", "Faithful Modern · after Shirley Conran", "Faithful Modern",
      "the-openwork", "build/export",
-     "Thirty years after four schoolgirls swore a pact to hide a pregnancy and share a child, the daughter — now the most famous woman on the continent — walks into a Cape Town hotel suite with the DNA result already in her pocket. She knows who her mother is. What she wants to know is which of them decided. A faithful-modern retelling of the engine behind Lace: the maternity mystery retired, the anatomy of the pact opened. Coming soon."),
+     "Thirty years after four schoolgirls swore a pact to hide a pregnancy and share a child, the daughter — now the most famous woman on the continent — walks into a Cape Town hotel suite with the DNA result already in her pocket. She knows who her mother is. What she wants to know is which of them decided. A faithful-modern retelling of the engine behind Lace: the maternity mystery retired, the anatomy of the pact opened."),
 
     ("the-sealed-finding", "The Sealed Finding", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
      "the-sealed-finding", "build/export",

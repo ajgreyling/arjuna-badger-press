@@ -1,4 +1,4 @@
-# PLANTS_AND_PAYOFFS — *The Openwork*
+# PLANTS_AND_PAYOFFS — *Lacework*
 
 > PP-IDs are referenced from PLOT.md and CANON_CHOICES.md. Plant chapter references are provisional
 > until the beat sheet is chapter-locked.

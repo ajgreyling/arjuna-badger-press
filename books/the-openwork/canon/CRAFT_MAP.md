@@ -1,4 +1,4 @@
-# CRAFT_MAP — *The Openwork*
+# CRAFT_MAP — *Lacework*
 
 > Conran craft element → transposition. Fidelity is to the craft move, never the material.
 

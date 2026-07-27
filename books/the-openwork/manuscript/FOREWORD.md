@@ -11,6 +11,8 @@ I could not ask that question again. A cheek swab answers it now in three weeks,
 that pretends otherwise is a costume drama. So the daughter in these pages arrives already knowing
 who her mother is. What she wants is the thing no laboratory can hand her: *which of you decided.*
 
+This book is called *Lacework*.
+
 Everything here is original — every name, every scene, every sentence, a South Africa that Conran
 never wrote, a first democratic school cohort she never met. Not one line of her book appears in
 mine, including the line everyone remembers; that one is hers, and I have left it where it belongs.

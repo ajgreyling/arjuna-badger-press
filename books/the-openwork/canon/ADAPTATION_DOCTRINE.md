@@ -1,4 +1,4 @@
-# Adaptation Doctrine — *The Openwork*
+# Adaptation Doctrine — *Lacework*
 
 > How this book is faithful to *Lace* without being a copy of it. The governing rule for every canon
 > and manuscript decision in this project.

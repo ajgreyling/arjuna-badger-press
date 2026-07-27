@@ -1,4 +1,4 @@
-# SOURCE_NOTES — *The Openwork*
+# SOURCE_NOTES — *Lacework*
 
 > **SSOT for fidelity.** What the source *is*, what we keep, what we retire, and the **arc ledger**:
 > every load-bearing arc of the original, listed, with the transposition that carries it. If a beat is
@@ -43,7 +43,7 @@ its own. We adapt the *novel's* engine: the working lives and the pact.
 
 ## The arc ledger (BINDING)
 
-Every arc below is honoured in *The Openwork* — as a **shape**, never as Conran's scene.
+Every arc below is honoured in *Lacework* — as a **shape**, never as Conran's scene.
 
 | # | Source arc (shape only) | Our carrying beat | Ticked |
 |---|---|---|---|

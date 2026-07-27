@@ -1,4 +1,4 @@
-# SEED_STORY — *The Openwork*
+# SEED_STORY — *Lacework*
 
 ## One sentence
 

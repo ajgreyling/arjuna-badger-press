@@ -1,4 +1,4 @@
-# *The Openwork* *(working title)*
+# *Lacework*
 
 An **unauthorised homage** to Shirley Conran's novel *Lace* (1982) — a craft exercise under the Arjuna
 Badger Press house tooling, on the **Faithful Modern** shelf. **Not licensed. Not for commercial

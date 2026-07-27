@@ -1,4 +1,4 @@
-# CHARACTERS — *The Openwork*
+# CHARACTERS — *Lacework*
 
 > Original cast. Each carries a *function* from the source engine; none shares a life, scene, or line
 > with Conran's people. Voice laws at the foot of each entry.

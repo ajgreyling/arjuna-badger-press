@@ -1,4 +1,4 @@
-# WORLD — *The Openwork*
+# WORLD — *Lacework*
 
 ## Weylandt House (1994–1996 strand)
 
