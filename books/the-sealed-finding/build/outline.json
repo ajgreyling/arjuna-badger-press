@@ -1,0 +1,568 @@
+{
+  "title": "The Sealed Finding",
+  "subtitle": "Faithful-modern homage — original prose",
+  "target_words": 110000,
+  "source": "Philip K. Dick, 'The Minority Report' (1956) — arcs/engine in canon/SOURCE_NOTES.md (arc ledger A-01..A-22)",
+  "mandates": [
+    "#1 Inference, not prophecy — no precognition, ever",
+    "#2 The named are people — bodies, Tuesdays, one wrong-sized detail",
+    "#3 Both truths, always — the machine is a horror AND it works"
+  ],
+  "clock": {
+    "day_one": "Wednesday 4 November 2054",
+    "day_six": "Monday 9 November 2054",
+    "window_expires": "24:00, 09 Nov 2054"
+  },
+  "cast": {
+    "Josiah Motaung": "Director, founder, 61 — named by his own instrument; reads competence as threat",
+    "Ayesha Cassim": "Deputy Director, 34 — loyal throughout; the red herring that never fires",
+    "Miriam Motaung": "Registrar of Findings, 57 — has copied 409 sealed findings since 2043",
+    "Cornelius Grobler": "Federation chairman, 68 — his case is correct, his motive is money",
+    "Dries Lombard": "W/O internal security, 49 — on the Federation payroll since 2051",
+    "Grace Sithole": "Reader A, 52 — filed Finding A; certain, because certainty cannot be checked",
+    "Wynand Loots": "Reader B, 41 — filed Finding B (sealed); his first dissent in fourteen months",
+    "Karabo Ntuli": "Reader C, 26 — filed Finding C and appended the Note; works out the recursion"
+  },
+  "chapters": [
+    {
+      "id": "prologue",
+      "part": "PROLOGUE",
+      "title": "Prologue",
+      "day": "Tuesday 3 November 2054",
+      "pov": "close-third on an uptake team / the named man",
+      "setting": "A flat in Kempton Park, 05:40, and the N12 afterwards",
+      "beats": [
+        "An uptake start to finish: two officers, no weapon drawn, the printed card read aloud",
+        "Twenty minutes to pack; a call permitted; the neighbour on the landing",
+        "The named man has done nothing and is entirely ordinary (PP-014)",
+        "Paragraph four, quoted by an officer with pride, in a car, over breakfast (PP-001)"
+      ],
+      "turn": "It is courteous, lawful, and irreversible; nobody will ever know whether it was right",
+      "detonation": "no",
+      "threads": "PP-001, PP-002, PP-014",
+      "target_words": 1300,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-01",
+      "part": "I — THE WARRANT",
+      "title": "Struben Street",
+      "day": "Day One — Wednesday 4 November 2054",
+      "pov": "Josiah Motaung, close-third",
+      "setting": "Directorate head office, Pretoria",
+      "beats": [
+        "The Director's ordinary morning; the building, the lift, the numbers he is proud of",
+        "The drawer: the Ngobese docket, 2027, never mentioned to anyone (PP-008)",
+        "Cassim, eleven weeks in, competent, and read as a knife (A-01, A-02)",
+        "The packet arrives; his own name; ANTICIPATED VICTIM: GROBLER, CORNELIUS JOHANNES",
+        "PRIOR CONTACT: None of record — the most damning line on the page (A-03, A-04, PP-003)"
+      ],
+      "turn": "He reads it as data for four seconds before he reads it as his life",
+      "detonation": "no",
+      "threads": "A-01, A-02, A-03, A-04, PP-001, PP-003, PP-008",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-02",
+      "part": "I — THE WARRANT",
+      "title": "Standing Items",
+      "day": "Day One — Wednesday 4 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "Executive meeting room; the registry corridor",
+      "beats": [
+        "He goes to the standing meeting because not going would be a fact about him",
+        "Cassim asks, politely, in front of staff, for a March review of s.14(6) — and he grants it (PP-004)",
+        "The Federation's founding affidavit: sealed findings are unconstitutional; Grobler's signature on all of it",
+        "Lesego reads the diary: the congress, Monday the 9th, a standing security note (PP-011)",
+        "'the sealed findings from 2049 going to long store' — said mid-list, thinking about lunch (PP-010, PP-007 whisper)",
+        "After: the record says Provisional — 1 of 3. Suite B refreshes at 08:00, Suite C at 12:30"
+      ],
+      "turn": "The machine has not finished making up its mind about him, and he knows its schedule",
+      "detonation": "no",
+      "threads": "A-02, PP-004, PP-007, PP-010, PP-011",
+      "target_words": 3000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-03",
+      "part": "I — THE WARRANT",
+      "title": "Verification",
+      "day": "Day One — Wednesday 4 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "The registry; Miriam's counter",
+      "beats": [
+        "The procedural man does the procedural thing, in order: the guidance note, the security summary, the diary",
+        "Monday 9 Nov, 09:00, nothing in his diary — and the congress is 'a public gathering'",
+        "The registry counter: Miriam is the Registrar for the length of the scene ('there are eleven people on this floor')",
+        "12:14 — Reader B: DISSENT, sealed at 12:00. His own request declined under a clause he drafted in 2035",
+        "14:02 — Reader C concurs. Warrant issues. A very small objection files itself in the back of his head",
+        "The phone rings: CASSIM, A. — DEP DIR"
+      ],
+      "turn": "The document that would save him is nine metres below him and lawful to withhold, and the warrant is live",
+      "detonation": "no",
+      "threads": "A-10 (seed), A-13 (whisper), PP-005 (seed), PP-010, PP-011",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-04",
+      "part": "I — THE WARRANT",
+      "title": "Authorisation",
+      "day": "Day One — Wednesday 4 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "Cassim's office; the fourth floor",
+      "beats": [
+        "Cassim tells him plainly that she must authorise his uptake, and that she has asked for a delay",
+        "She is straight with him; she offers to walk in with him herself",
+        "He hears a coup — because she is competent and eleven weeks old (A-05)",
+        "The uptake team is being assembled in the same building"
+      ],
+      "turn": "He decides she is behind it. She is not. Nothing in the scene supports him and he is certain",
+      "detonation": "no",
+      "threads": "A-02, A-05",
+      "target_words": 3000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-05",
+      "part": "I — THE WARRANT",
+      "title": "The Mesh He Specified",
+      "day": "Day One — Wednesday 4 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "Pretoria CBD to the R21",
+      "beats": [
+        "He runs, and the running is technical: he knows the refresh rates, the blind arcs, the escalation ladder",
+        "Case card #1 (an ordinary named person, half a page, never mentioned again) (PP-014)",
+        "Every skill that saves him is one he wrote into a manual"
+      ],
+      "turn": "The architect discovers his building is very good",
+      "detonation": "no",
+      "threads": "A-07, PP-014",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-06",
+      "part": "I — THE WARRANT",
+      "title": "Lombard",
+      "day": "Day Two — Thursday 5 November 2054, 05:10 onward",
+      "pov": "Josiah Motaung",
+      "setting": "A panel van; a Boksburg yard",
+      "beats": [
+        "Lombard finds him first, because Lombard always finds him first",
+        "Twenty-two years; the drive to Beauty Ngobese's funeral in 2027 (PP-006)",
+        "Warmth, jokes, first names; a place to sleep",
+        "One small wrong note the reader files and Motaung does not"
+      ],
+      "turn": "Bond before the betrayal; the reader is made to like him",
+      "detonation": "no",
+      "threads": "A-12 (plant), PP-006",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-07",
+      "part": "I — THE WARRANT",
+      "title": "Three Rooms",
+      "day": "Day Two — Thursday 5 November 2054 (while he sleeps)",
+      "pov": "Grace Sithole / Wynand Loots / Karabo Ntuli",
+      "setting": "The sealed suites, Struben Street basement",
+      "beats": [
+        "Three shift workers with a headache: a kettle, a lanyard, a chair with a broken height adjustment",
+        "Grace's private religion: she has been right every time, because it cannot be checked",
+        "Wynand files fewer dissents than he used to; his file records this as improvement (PP-012)",
+        "Karabo's hardcover notebook, a disciplinary offence under her contract (PP-009)"
+      ],
+      "turn": "Three people ended eleven thousand lives and are not permitted to know if they were right",
+      "detonation": "no",
+      "threads": "PP-009, PP-012",
+      "target_words": 3000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-08",
+      "part": "I — THE WARRANT",
+      "title": "Access Log",
+      "day": "Day Two — Thursday 5 November 2054, night",
+      "pov": "Josiah Motaung",
+      "setting": "A phone call; then the house in Waverley",
+      "beats": [
+        "Miriam's registry access, repeatedly, against Grobler's name (PP-005)",
+        "He confronts her badly, in the kitchen, in the register of a man being accurate instead of frightened",
+        "She does not explain, because explaining costs eleven years",
+        "Thirty-four years and one subject they have never raised"
+      ],
+      "turn": "The second wrong certainty; he leaves sure of the one person who is on his side",
+      "detonation": "no",
+      "threads": "A-06, PP-005",
+      "target_words": 3400,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-09",
+      "part": "I — THE WARRANT",
+      "title": "From the Other Side",
+      "day": "Day Three — Friday 6 November 2054, 06:10",
+      "pov": "Josiah Motaung",
+      "setting": "A street in Tembisa, 06:10",
+      "beats": [
+        "He watches an uptake from the pavement, as a fugitive, on someone else",
+        "It is done exactly as he specified: courteous, twenty minutes, a call permitted",
+        "The neighbour's face; the child; the packing",
+        "He can name every step before it happens and cannot stop one of them"
+      ],
+      "turn": "Mandate #2 paid in full: he sees his own decency from below and it is unbearable",
+      "detonation": "no",
+      "threads": "PP-002, PP-014",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-10",
+      "part": "I — THE WARRANT",
+      "title": "Change Control",
+      "day": "Day Three — Friday 6 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "A borrowed terminal in a shuttered municipal office",
+      "beats": [
+        "Looking for the frame, he finds housekeeping instead",
+        "A 2049 refresh-schedule change: two lines, signed by a systems manager who has since emigrated (PP-007)",
+        "It means nothing to him. He notes it because he notes things",
+        "The reader does not know it is a gun"
+      ],
+      "turn": "The book's largest fact goes by as an administrative detail",
+      "detonation": "no",
+      "threads": "PP-007",
+      "target_words": 2800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-11",
+      "part": "I — THE WARRANT",
+      "title": "Indemnity",
+      "day": "Day Three — Friday 6 November 2054, afternoon",
+      "pov": "Josiah Motaung",
+      "setting": "A parkade off Steve Biko Road",
+      "beats": [
+        "Four men in good suits and a clipboard",
+        "A signed indemnity form, because they are a compliance department",
+        "No violence; a bottle of water; a seatbelt fastened for him"
+      ],
+      "turn": "Part One ends with him taken by the wrong people, courteously (A-08)",
+      "detonation": "no",
+      "threads": "A-08",
+      "target_words": 2600,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-12",
+      "part": "II — THE DISSENT",
+      "title": "Shirtsleeves",
+      "day": "Day Three — Friday 6 November 2054, evening",
+      "pov": "Josiah Motaung",
+      "setting": "A lodge in the Magaliesberg",
+      "beats": [
+        "Grobler in shirtsleeves, unhurried, faintly amused; Afrikaans to relax the room",
+        "He buried eleven of his own people in the Brownouts and ran the East Rand competently",
+        "No gloating, no monologue; an argument"
+      ],
+      "turn": "The antagonist is a host, and likeable, which is worse",
+      "detonation": "no",
+      "threads": "A-09",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-13",
+      "part": "II — THE DISSENT",
+      "title": "The Case",
+      "day": "Day Four — Saturday 7 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "The lodge; a table of lever-arch files",
+      "beats": [
+        "Sealed findings are unconstitutional; the numbers; the advocates' opinions",
+        "It is correct, and Motaung knows it is correct within four minutes",
+        "And 240,000 jobs became 31,000, and Grobler says so without embarrassment (mandate #3)"
+      ],
+      "turn": "The reader's footing goes: the villain's case is the reader's case",
+      "detonation": "no",
+      "threads": "A-09, A-14",
+      "target_words": 4000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-14",
+      "part": "II — THE DISSENT",
+      "title": "How to Farm a Finding",
+      "day": "Day Four — Saturday 7 November 2054, after dark",
+      "pov": "Josiah Motaung",
+      "setting": "The lodge, after dark",
+      "beats": [
+        "The Federation arranged the proximity: a leaked file, a threat routed to him, a grievance manufactured",
+        "Not evidence planted — inputs planted (PP-003)",
+        "PRIOR CONTACT: None of record was the truest line in the packet and it convicted him",
+        "Case card #2 (PP-014)"
+      ],
+      "turn": "He was farmed; and the finding may still be right",
+      "detonation": "no",
+      "threads": "A-04, PP-003, PP-014",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-15",
+      "part": "II — THE DISSENT",
+      "title": "Fourteen Months",
+      "day": "RETROSPECT — Day One, Wednesday 4 November, 08:00-09:40 (placed here on purpose)",
+      "pov": "Wynand Loots",
+      "setting": "Suite B, Struben Street basement",
+      "beats": [
+        "The man who broke in 2050 and was kept on because recalibration takes four years",
+        "He files his first dissent in fourteen months, alone, with a headache, and tells nobody",
+        "He does not know whose name it is beyond the name (PP-012)"
+      ],
+      "turn": "The bravest act in the book is performed by the most damaged person in it, in private, and sealed within the hour",
+      "detonation": "no",
+      "threads": "PP-012",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-16",
+      "part": "II — THE DISSENT",
+      "title": "What Cassim Did on Wednesday",
+      "day": "Day Four — Saturday 7 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "The lodge road; a petrol station outside Hartbeespoort",
+      "beats": [
+        "Cassim reaches him — having spent three days filing an urgent application on his behalf",
+        "She argued against the Act in 2044 and has never hidden it; that is why the committee wanted her",
+        "There was no coup. There was never anything to find (A-05)"
+      ],
+      "turn": "The paranoia had no object; the reader's own suspicion is indicted with his",
+      "detonation": "no",
+      "threads": "A-05, PP-004",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-17",
+      "part": "II — THE DISSENT",
+      "title": "Four Hundred and Nine",
+      "day": "Day Four — Saturday 7 November 2054, late",
+      "pov": "Josiah Motaung",
+      "setting": "The house in Waverley, late",
+      "beats": [
+        "Miriam's ledger: every sealed finding since 2043, copied by hand",
+        "She never gave one to anyone. She simply could not stand that nobody was counting",
+        "She puts Finding B in his hand (A-10, A-11, PP-005)"
+      ],
+      "turn": "The wife is right first, and has been for eleven years",
+      "detonation": "no",
+      "threads": "A-06, A-10, A-11, PP-005",
+      "target_words": 4000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-18",
+      "part": "II — THE DISSENT",
+      "title": "The Count",
+      "day": "Day Four — Saturday 7 November 2054, late",
+      "pov": "Josiah Motaung",
+      "setting": "The kitchen; the ledger open between them",
+      "beats": [
+        "What publishing it does: the concurrence test voids, and with it every 2-1 warrant",
+        "Eleven thousand residents at Doringkop. She is the only person who has counted them",
+        "Both truths on one page, and neither of them arbitrates (A-21)"
+      ],
+      "turn": "The vise closes",
+      "detonation": "no",
+      "threads": "A-21, A-14",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-19",
+      "part": "II — THE DISSENT",
+      "title": "The Medical Aid",
+      "day": "Day Five — Sunday 8 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "A parkade, again",
+      "beats": [
+        "Lombard says it first, before he is asked, standing badly",
+        "A daughter; a medical aid that stopped covering it; a first payment he called a consulting fee",
+        "No speech, no sneer; the dignity of a reason (A-12, PP-006)"
+      ],
+      "turn": "He is loyal to Josiah and it is not the same thing, and now it matters",
+      "detonation": "no",
+      "threads": "A-12, PP-006",
+      "target_words": 3600,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-20",
+      "part": "II — THE DISSENT",
+      "title": "The Recursion",
+      "day": "Day Five — Sunday 8 November 2054",
+      "pov": "Karabo Ntuli",
+      "setting": "Suite C; then a corridor she is not permitted to be in",
+      "beats": [
+        "She has felt it for months in her own findings and been forbidden to know",
+        "The refresh schedule; the operational record; a distributed finding is an input (PP-007)",
+        "There was never a majority. There were three men. All three findings are correct",
+        "She writes the Reader's Note (PP-009)"
+      ],
+      "turn": "DETONATION — the concept of a verdict collapses",
+      "detonation": "YES — 1 of 2",
+      "threads": "A-13, PP-007, PP-009",
+      "target_words": 4200,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-21",
+      "part": "II — THE DISSENT",
+      "title": "The Man Who Read It",
+      "day": "Day Five — Sunday 8 November 2054",
+      "pov": "Josiah Motaung",
+      "setting": "Waverley; the study",
+      "beats": [
+        "He works out what Karabo has worked out, from the other end, with the two findings in front of him",
+        "Reading the dissent made him the man in the third finding",
+        "The self-negating prophecy, closed"
+      ],
+      "turn": "He is no longer arguing about whether the machine is right. He is deciding what to make true",
+      "detonation": "no",
+      "threads": "A-13",
+      "target_words": 3600,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-22",
+      "part": "III — THE PROOF",
+      "title": "Thirty-Four Years",
+      "day": "Day Five — Sunday 8 November 2054, night",
+      "pov": "Josiah Motaung",
+      "setting": "The house in Waverley",
+      "beats": [
+        "The subject they have never raised, finally raised",
+        "She does not tell him what to do; she tells him what she counted",
+        "The last ordinary human page before the machine takes the wheel"
+      ],
+      "turn": "She stops arguing, which is how he knows she has understood him",
+      "detonation": "no",
+      "threads": "A-11",
+      "target_words": 4000,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-23",
+      "part": "III — THE PROOF",
+      "title": "Doringkop",
+      "day": "Day Six — Monday 9 November 2054, 05:00",
+      "pov": "Josiah Motaung",
+      "setting": "The Highveld past Delmas; the fence line",
+      "beats": [
+        "He drives out and stands at a fence whose specification he signed",
+        "The soccer field; the second-weekend visitors' gate; the library window",
+        "Case card #3 (PP-014); the storm arriving on schedule"
+      ],
+      "turn": "The weighing, wordless. He gets back in the car",
+      "detonation": "no",
+      "threads": "PP-014, A-21",
+      "target_words": 3600,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-24",
+      "part": "III — THE PROOF",
+      "title": "Eleven Minutes",
+      "day": "Day Six — Monday 9 November 2054, 09:00",
+      "pov": "Josiah Motaung",
+      "setting": "A convention floor in Sandton",
+      "beats": [
+        "Four hundred delegates, three broadcast crews, a lanyard he did not have to forge",
+        "Grobler with the sealed finding in his hand and the country's attention",
+        "The clock arrives exactly where Finding A said it would on page one (PP-011)"
+      ],
+      "turn": "Everything the book has built is now in one room and there is nothing left to try",
+      "detonation": "no",
+      "threads": "A-14, PP-011",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-25",
+      "part": "III — THE PROOF",
+      "title": "The Proof",
+      "day": "Day Six — Monday 9 November 2054, 09:40",
+      "pov": "Josiah Motaung",
+      "setting": "The convention floor",
+      "beats": [
+        "No speech. He does not explain himself in the room",
+        "The reader understands a half-beat before the room that the shot is the only remaining argument",
+        "It works (A-15)"
+      ],
+      "turn": "DETONATION — the machine is made true by the man it named",
+      "detonation": "YES — 2 of 2",
+      "threads": "A-15",
+      "target_words": 3400,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-26",
+      "part": "III — THE PROOF",
+      "title": "By the Book",
+      "day": "Day Six and after",
+      "pov": "Josiah Motaung",
+      "setting": "A holding room; the road to Doringkop",
+      "beats": [
+        "No trial: a Director who has fulfilled a finding is the Directorate's best evidence",
+        "His own uptake, done exactly as the prologue's was, by people who admire him (PP-002)",
+        "The magistrate who has never declined a renewal signs the order (PP-013)"
+      ],
+      "turn": "The courtesy from the prologue comes back for him, and it is a mercy, and it is nothing",
+      "detonation": "no",
+      "threads": "A-16, PP-002, PP-013",
+      "target_words": 3600,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-27",
+      "part": "III — THE PROOF",
+      "title": "Resident",
+      "day": "December 2054 — March 2055",
+      "pov": "Josiah Motaung",
+      "setting": "Doringkop Preventive Estate",
+      "beats": [
+        "Miriam takes voluntary spousal residence — a regulation someone kind once inserted",
+        "The soccer league; the library; the second-weekend gate from the inside",
+        "Cassim in the chair; the Directorate does not miss him for a single day (A-17)"
+      ],
+      "turn": "The cruellest fact in the book, delivered flatly, in one line",
+      "detonation": "no",
+      "threads": "A-16, A-17",
+      "target_words": 3800,
+      "status": "DRAFTED"
+    },
+    {
+      "id": "ch-28",
+      "part": "III — THE PROOF",
+      "title": "The Seat",
+      "day": "April 2055",
+      "pov": "Josiah Motaung",
+      "setting": "The Estate lawn, visitors' hour",
+      "beats": [
+        "Cassim visits. She has renewed the seal, because she had to (PP-004)",
+        "The Ngobese docket changes hands (PP-008)",
+        "The plain warning: it will be you, because of where you sit (A-18)",
+        "Karabo Ntuli's Reader's Note, quoted once (PP-009)"
+      ],
+      "turn": "Smaller than the idea; no paragraph explains what it means",
+      "detonation": "no",
+      "threads": "A-18, A-17, PP-004, PP-008, PP-009",
+      "target_words": 3200,
+      "status": "DRAFTED"
+    }
+  ]
+}

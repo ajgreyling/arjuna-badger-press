@@ -1,0 +1,32 @@
+{
+  "id": "verdigris",
+  "title": "Verdigris",
+  "working_title": "Verdigris",
+  "seq": 1,
+  "folder": "verdigris",
+  "protagonist": "Dr. Ezra Mokwena, mycologist — and the mycelium that is arguably the book's second narrator",
+  "logline": "As the warming Earth turns fungal and the spores learn to ride human beings like puppets, the last weapon that works is copper — a colloidal mist that scours the growth clean. But the mycologist holding the sprayer comes to believe the bloom is not an invader: it is the planet's immune response to a species that stopped being human, and the mushrooms rising in every ruin are trying to give that humanity back before the copper kills the only thing that could.",
+  "blueprint": "Original sci-fi horror / eco-weird. Runaway warming past the wet-bulb threshold collapses the barrier between fungal and human biology; a heat-adapted Cordyceps-Aspergillus complex spreads aflatoxin-bearing spores that neurologically hijack ('zombify') hosts. Humanity's one reliable counter is copper — colloidal copper mist, oligodynamic, denatures the growth. Against this: a mycologist reading the psychedelic fungi (psilocybin, and a widening pharmacopeia of other entheogenic plants) as a message rather than a menace, and the terrible question of whether the cure and the disease are the same organism. No borrowed IP.",
+  "market": "literary sci-fi horror / eco-weird / climate-gothic — original IP, for the shelf",
+  "status": "scaffold",
+  "target_words": 110000,
+  "lineage": "original — no borrowed IP. Kinship of engine only (declared, never transcribed): the fungal-apocalypse tradition, the ambiguous-invader ecohorror, the entheogen-as-message strand. All world, cast, scenes and beats original.",
+  "ssot_url": "",
+  "graph_color": "#2e6b4f",
+  "canon_order": [
+    "SEED_STORY.md",
+    "PREMISE_AND_BIOLOGY.md",
+    "THE_COPPER_WEAPON.md",
+    "THE_TWO_READINGS.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "NARRATIVE_ENGINES.md",
+    "CANON_CHOICES.md",
+    "WORLD.md",
+    "CHARACTERS.md",
+    "MYTHOS.md",
+    "CONTENT_RATING.md",
+    "STYLE_GUIDE.md",
+    "PLOT.md"
+  ],
+  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+}

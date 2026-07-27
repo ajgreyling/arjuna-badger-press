@@ -298,6 +298,15 @@ WORKSHOP_HOLD = set(
 PUBLISHED = set(
     s.strip() for s in os.environ.get(
         "ABP_PUBLISHED",
+        # Released 2026-07-27 (two original/faithful-modern novels, covers + polished drafts done;
+        # sensitivity read not yet performed on either — published by explicit author decision):
+        "verdigris,the-openwork,"
+        # The Road Books (2026-07-27) — published as DRAFTS by explicit author decision. Complete
+        # manuscripts + gate-rendered EPUB/PDF; not copy-edited, no bespoke covers yet. Two are
+        # about real, recently-deceased people (Heinz Stücke d. 2026-07-22; Johan C. Bakkes
+        # d. 2025-06-24) and one profiles living travellers who were not contacted — each carries
+        # an Author's Note stating exactly what is documented and what is imagined.
+        "um-welt,kookie,the-long-road,"
         "resonance,revelation,relic,"
         "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
         "australia-outback,project-stargate,"
@@ -639,6 +648,8 @@ SERIES = [
     ("The No-Fear Cycle", "#1e3a8a"),
     ("Faithful Modern", "#4B4E8C"),
     ("Children's Library", "#7FB069"),  # leaf-green — the read-aloud picture-book shelf
+    ("The Firmament", "#1C3A5A"),  # sealed-arcology midnight — original dystopian duology
+    ("The Piet Buys Files", "#3A2A1C"),  # dark earth — SA literary crime procedural
     ("Standalones", "#B49A6A"),
 ]
 
@@ -659,7 +670,9 @@ SHELF_TAGLINE = {
     "Non-fiction": "True things, plainly told.",
     "Companions": "Reverent retellings and guides that sit beside the novels.",
     "The Synthesis": "The greatest who ever lived, gathered in one house and made sharper against each other — every mastery is the same climb.",
-    "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle — true to the craft and the question, every name and sentence original.",
+    "Faithful Modern": "Faithful-modern homages to the greats — Dick, Heinlein, Dahl, Doyle, Liu Cixin, Conran — true to the craft and the question, every name and sentence original.",
+    "The Firmament": "Original dystopian sleeper — a sealed world the size of a lifeboat, twelve generations of faithful maintenance workers, and the one who walks through the ice wall.",
+    "The Piet Buys Files": "South African literary crime — an autistic profiler and the seasonal workers no one has reported missing, because they were already away.",
     "The No-Fear Cycle": "Grimdark military SF: holding the line as the world burns.",
     "The Salt Veil": "Desert epic-fantasy — the men hold the thrones; the women hold everything else.",
     "Winter sonder Einde": "Adult historical saga (in Afrikaans) — a married woman in the Viking north, her fire gone to embers, and the endless winter that wakes it. In André P. Brink's hand, with Kleinboer's frankness. ⚠ For adult readers: frank, sensual, uncensored.",
@@ -912,6 +925,21 @@ CURATED = [
     ("the-salt-veil-2", "The First Key", "A desert epic-fantasy series · Book Two", "The Salt Veil",
      "_comingsoon/the-salt-veil-2", "build/export",
      "Book Two of The Salt Veil — the circle tightens, and what was hidden in the salt begins to answer. Coming soon."),
+
+    # ── The Road Books (2026-07-27) — DRAFTS. Complete manuscripts, EPUB/PDF rendered through the
+    # gate, published as drafts by explicit author decision. Not yet copy-edited or cover-designed;
+    # Um Welt's title is provisional (Heinz Stücke's own memoir is *Mit dem Fahrrad um die Welt*).
+    ("um-welt", "Um Welt", "The Road Books · A life on a bicycle", "The Road Books",
+     "um-welt", "build/export",
+     "DRAFT. In November 1962 a 22-year-old tool-and-die maker rode out of a Westphalian village on a three-speed bicycle and did not stop for fifty years — 600,000 kilometres, 195 countries, shot in the foot in Zambia, beaten unconscious in Egypt, his bicycle stolen five times and recovered five times. A modern retelling of the real Heinz Stücke, who died on 22 July 2026, five days before this book was written."),
+
+    ("kookie", "Kookie", "The Road Books · A true desert story", "The Road Books",
+     "kookie", "build/export",
+     "DRAFT. John McCown was a butcher in Barstow six days a week and a desert racer on the seventh. For over three hundred races across the American Southwest, his dog Kookie rode the gas tank on a strapped-down mat — standing when the ground went soft, backing off before the bumps, reading the desert sometimes before McCown did. The true story of a man, a dog, and the sport that made them famous. For the dogs of the world."),
+
+    ("the-long-road", "The Long Road", "The Road Books · Journeys across Africa", "The Road Books",
+     "the-long-road", "build/export",
+     "DRAFT. A compendium of real African journeys, grouped by the roads that carried them — Sani Pass, the Skeleton Coast, the Cape-to-Cairo corridor, the Tanzam Highway, the Nile road north. Cyclists, hikers, motorcyclists and overlanders crossing the same ground at four different speeds: Riaan Manser's circumnavigation, Mario Rigby's walk, Kingsley Holgate's outline expeditions, and the 2015 record chain in which one man's Cairo-to-Cape record stood for ten weeks. Dedicated to Johan C. Bakkes."),
     ("the-salt-veil-3", "The Abyss", "A desert epic-fantasy series · Book Three", "The Salt Veil",
      "_comingsoon/the-salt-veil-3", "build/export",
      "Book Three — descent into the deep places where the Voice cannot follow. Coming soon."),
@@ -1058,6 +1086,39 @@ CURATED = [
     ("how-king-lion", "King Lion and the Birds Who Stole the Sky", "Children's Library · Classic African Stories", "Children's Library",
      "how-king-lion", "build/export",
      "Proud birds stole the farmers' maize until the frightened villagers turned on every creature — so King Lion passed his sorrowful judgement: the birds would never fly again, and their feet were planted in the ground, where they lift their faces to the sky forever and weep the nectar of looking up. An original tale of pride, fear, and just-but-sorrowful consequence — and where the bird-of-paradise flower came from. Ages 4–8 (the darker, braver edge of the shelf)."),
+
+    # ── The Control Room (Resonance companion novella) ──────────────────────────────────────────────
+    ("the-control-room", "The Control Room", "A Resonance Novella", "Standalones",
+     "the-control-room", "build/export",
+     "Seven operators run a rehabilitation unit — or so they have been told. The unit is a body, the body belongs to a comatose twelve-year-old boy, and the seven operators are extractions of his own childhood scan. A chamber novella set after Resonance: one reveal, one unanimous vote, a pronoun arc from we to I. Coming soon."),
+
+    # ── The Firmament (original dystopian duology) ──────────────────────────────────────────────────
+    ("the-firmament", "The Firmament", "The Firmament · Book One", "The Firmament",
+     "the-firmament", "build/export",
+     "For twelve generations they knew the truth: the world is a flat disc under a firmament, ringed by ice. They were right — about a world the size of a lifeboat. A sealed post-flare arcology, a redacted scripture passed hand to hand as samizdat, and the one who walks through the ice wall and onto the round Earth, where the forbidden verses come true one by one. Coming soon."),
+
+    # ── Verdigris (original eco-horror) ─────────────────────────────────────────────────────────────
+    ("verdigris", "Verdigris", "A standalone novel", "Standalones",
+     "verdigris", "build/export",
+     "As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader — it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could."),
+
+    # ── Faithful Modern additions ────────────────────────────────────────────────────────────────────
+    ("the-long-silence", "The Long Silence", "Faithful Modern · after Liu Cixin", "Faithful Modern",
+     "the-long-silence", "build/export",
+     "A species clever enough to split the atom but foolish enough to broadcast its address learns, too late, the one law of a universe full of listeners: the wise stay silent, and the loud do not last. A faithful-modern homage to the Dark Forest engine — original cast, deep-time relay, three movements, the aliens withheld. Coming soon."),
+
+    ("the-openwork", "Lacework", "Faithful Modern · after Shirley Conran", "Faithful Modern",
+     "the-openwork", "build/export",
+     "Thirty years after four schoolgirls swore a pact to hide a pregnancy and share a child, the daughter — now the most famous woman on the continent — walks into a Cape Town hotel suite with the DNA result already in her pocket. She knows who her mother is. What she wants to know is which of them decided. A faithful-modern retelling of the engine behind Lace: the maternity mystery retired, the anatomy of the pact opened."),
+
+    ("the-sealed-finding", "The Sealed Finding", "Faithful Modern · after Philip K. Dick", "Faithful Modern",
+     "the-sealed-finding", "build/export",
+     "The man who built a state that arrests people for murders they have not yet committed is named by his own machine — and the report that would clear him is sealed in a drawer, alongside the proof that both reports are true. Near-now South Africa, 2054: precognition replaced by inference, the named given Tuesdays, both truths always. A faithful-modern retelling after Philip K. Dick's The Minority Report. Coming soon."),
+
+    # ── The Piet Buys Files (SA literary crime series) ───────────────────────────────────────────────
+    ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
+     "the-unnumbered", "build/export",
+     "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Coming soon."),
 ]
 
 
@@ -1798,6 +1859,43 @@ section.series{padding:46px 0 8px}
 .sechead .shelftag{margin:.35em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;
   font-size:17px;line-height:1.4;color:var(--accent,var(--ochre));opacity:.95;max-width:64ch}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
+
+/* ── Audible-style horizontal scroll shelves (index only) ────────────────────────────── */
+.shelf-track{display:flex;gap:14px;overflow-x:auto;padding:4px 0 18px;
+  scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.shelf-track::-webkit-scrollbar{height:4px}
+.shelf-track::-webkit-scrollbar-track{background:transparent}
+.shelf-track::-webkit-scrollbar-thumb{background:rgba(200,168,107,.3);border-radius:4px}
+.shelf-track::-webkit-scrollbar-thumb:hover{background:var(--ochre)}
+.scard{flex:0 0 158px;scroll-snap-align:start;border-radius:10px;overflow:hidden;
+  background:var(--card);border:1px solid var(--line);text-decoration:none;display:block;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s}
+.scard:hover{transform:translateY(-4px);border-color:var(--accent,var(--ochre));
+  box-shadow:0 12px 32px rgba(0,0,0,.55)}
+.scard .cover{width:100%;aspect-ratio:400/620;display:block;object-fit:cover;border-bottom:1px solid var(--line)}
+.scard-info{padding:8px 10px 10px}
+.scard-series{font-family:"Space Grotesk";font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent,var(--ochre));display:block;margin-bottom:3px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.scard-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:14px;
+  color:var(--bone);line-height:1.3;display:-webkit-box;
+  -webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.scard-badge{display:block;font-family:"Space Grotesk";font-size:10px;color:var(--grass);margin-top:5px}
+.scard-badge.soon{color:rgba(200,168,107,.65)}
+/* ── Cinematic hero with cover-mosaic backdrop ───────────────────────────────────────── */
+.lib-hero{position:relative;padding:44px 0 32px;overflow:hidden;border-bottom:1px solid var(--line)}
+.lib-hero-bg{position:absolute;inset:0;display:flex;pointer-events:none;
+  filter:brightness(.13) saturate(.5) blur(3px);transform:scale(1.06)}
+.lib-hero-bg img{flex:1;object-fit:cover;min-width:0;height:100%}
+.lib-hero .wrap{position:relative;z-index:1;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.lib-hero-crest img{width:76px;height:76px;object-fit:contain;
+  filter:drop-shadow(0 4px 20px rgba(229,181,103,.24))}
+.lib-hero-text{flex:1;min-width:240px}
+.lib-hero-text h1{font-size:clamp(28px,5vw,44px);margin:0 0 6px}
+.lib-hero-text .lead{color:var(--bonedim);font-size:16px;line-height:1.5;margin:0 0 16px;max-width:56ch}
+.lib-hero-text .cta{margin-top:0;justify-content:flex-start}
+@media(max-width:540px){.lib-hero{padding:28px 0 20px}.lib-hero-crest img{width:52px;height:52px}}
+section.series{padding:32px 0 4px}
 
 /* card */
 .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
@@ -3070,6 +3168,59 @@ def card(e: dict, accent: str) -> str:
 <p>{html.escape(truncate(e['blurb'], 150))}</p>
 {BOOK_CARD_DISCLOSURE.get(e['id'], '')}
 {badge}{dls}</div></div>"""
+
+
+def shelf_card(e: dict, accent: str) -> str:
+    """Compact Audible-style cover card for horizontal shelf rows on the landing page."""
+    cover = (f'<img class="cover" loading="lazy" decoding="async" width="158" height="245" '
+             f'src="{cover_thumb_src(e["id"], e.get("cover"))}" '
+             f'alt="{html.escape(e["title"])} cover">')
+    href = f"book/{e['id']}.html"
+    if e.get("serial"):
+        badge = '<span class="scard-badge">Serial</span>'
+    elif e["available"]:
+        badge = '<span class="scard-badge">Free</span>'
+    else:
+        soon_lbl = "Coming soon" if "_comingsoon" in e["root"].parts else "In progress"
+        badge = f'<span class="scard-badge soon">{soon_lbl}</span>'
+    series_label = html.escape(e.get("subtitle") or e.get("series") or "")
+    return (
+        f'<a class="scard" href="{href}" style="--accent:{accent}" '
+        f'aria-label="{html.escape(e["title"])}">'
+        f'{cover}'
+        f'<div class="scard-info">'
+        f'<span class="scard-series">{series_label}</span>'
+        f'<span class="scard-title">{html.escape(e["title"])}</span>'
+        f'{badge}'
+        f'</div></a>'
+    )
+
+
+def render_library_shelves_audible(entries: list[dict], *, available_only: bool = False) -> str:
+    """Horizontal Audible-style shelf rows for the landing page index."""
+    parts: list[str] = []
+    for sname, accent in SERIES:
+        group = [e for e in entries if e["series"] == sname]
+        if available_only:
+            group = [e for e in group if e["available"] or e.get("serial")]
+        if not group:
+            continue
+        group.sort(key=lambda e: 0 if e["available"] else 1)
+        cards = "".join(shelf_card(e, accent) for e in group)
+        tag = SHELF_TAGLINE.get(sname)
+        tagline = f'<p class="shelftag">{html.escape(tag)}</p>' if tag else ""
+        count = len(group)
+        parts.append(
+            f'<section class="series"><div class="wrap">'
+            f'<div class="sechead" style="--accent:{accent}">'
+            f'<div class="sechead-row">'
+            f'<h2>{html.escape(sname)}</h2>'
+            f'<span class="count">{count} {"book" if count == 1 else "books"}</span>'
+            f'</div>{tagline}</div>'
+            f'<div class="shelf-track">{cards}</div>'
+            f'</div></section>'
+        )
+    return "\n".join(parts)
 
 
 # Client-side engine for the recommender. Pure, deterministic: sums answer weights, picks the max,
@@ -4588,22 +4739,29 @@ def render_index(entries: list[dict]) -> str:
     parts = [head("Arjuna Badger Press — the library",
                   "Free books, finished to a studio standard — read online or download EPUB and PDF."),
              nav()]
-    # ── Books-first: a compact library header, then the shelves. The page is the
-    #    LIBRARY (an e-reader shelf), not a marketing landing — the house/mission
-    #    content lives below the fold and on its own pages (press.html, join.html). ──
-    parts.append(f"""<header class="lib-head"><div class="wrap">
-<a class="lib-crest" href="#library" aria-label="Arjuna Badger Press"><img src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest"></a>
-<div class="lib-head-text">
+    # ── Books-first: cinematic hero with cover-mosaic backdrop, then Audible-style
+    #    horizontal scroll shelves. The page is the LIBRARY — mission lives below the
+    #    fold and on its own pages (press.html, join.html). ──
+    backdrop = [e for e in entries if e["available"] and e.get("cover")][:9]
+    backdrop_imgs = "".join(
+        f'<img src="{cover_thumb_src(e["id"], e.get("cover"))}" '
+        f'alt="" aria-hidden="true" loading="eager" decoding="async">'
+        for e in backdrop
+    )
+    parts.append(f"""<header class="lib-hero"><div class="lib-hero-bg" aria-hidden="true">{backdrop_imgs}</div>
+<div class="wrap">
+<a class="lib-hero-crest" href="#library" aria-label="Arjuna Badger Press"><img src="assets/brand/logo-master.png" alt="Arjuna Badger Press crest" width="76" height="76"></a>
+<div class="lib-hero-text">
 <h1>The Library</h1>
-<p class="lead"><strong>{read_now} books, free to read.</strong> {avail} ready to download — read online, or EPUB &amp; PDF. Finished to a studio standard; both sides told, the door left open.</p>
+<p class="lead"><strong>{read_now} books, free.</strong> {avail} ready to download — read online, EPUB &amp; PDF. Finished to a studio standard; both sides told.</p>
 <div class="cta"><a class="btn" href="start.html">Where to start?</a>
 <a class="btn ghost" href="press.html">About the press</a>
-<a class="btn ghost" href="/studio">Writers → the Studio</a></div>
+<a class="btn ghost" href="/studio">Writers → Studio</a></div>
 </div>
 </div></header>""")
 
     parts.append('<section id="library">')
-    parts.append(render_library_shelves(entries, available_only=True))
+    parts.append(render_library_shelves_audible(entries, available_only=True))
     parts.append('</section>')
 
     # ── Below the fold: the house. Collapsed to a quiet strip + a "call to arms"
