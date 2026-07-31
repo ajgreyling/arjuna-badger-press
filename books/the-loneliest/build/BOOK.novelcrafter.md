@@ -908,546 +908,824 @@ On ours: the thorns were always the point. We should have filed that first.
 
 What the File cites, as received: labelled and ordered by date. School certificates and reports first, then adult credentials, then yearbook and press plates with names printed (including **S. Harts** in the Verrykingsonderwys class photos). The prose dossier still redacts what running text must not spell out; the plates are the paper trail.
 
+```{=latex}
+\newgeometry{margin=0.2in}
+\setlength{\parskip}{0.25em}
+\setlength{\parindent}{0pt}
+```
+
 ## School certificates and reports
 
-### 1983-11-18: Newspaper: Marionettes at Rinkinkel Kleuterskool (Bronkhorstspruit, Cullinan & Rayton Nuus)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-00.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1983-11-18: Newspaper: Marionettes at Rinkinkel Kleuterskool (Bronkhorstspruit, Cullinan \& Rayton Nuus)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-00.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1983-84: Rinkinkel Kleuterskool progress report to parents (Vorderingsverslag, Bylae F)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-1.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1983-11-18: Newspaper: Marionettes at Rinkinkel Kleuterskool (Bronkhorstspruit, Cullinan & Rayton Nuus)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-00.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1986: Laerskool Davel Grade 1 progress report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-2.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1983-84: Rinkinkel Kleuterskool progress report to parents (Vorderingsverslag, Bylae F)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-1.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1987-11-30: Laerskool Davel Certificate of Merit (academic, Grade 2, average 80-100 percent)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-3.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1983-84: Rinkinkel Kleuterskool progress report to parents (Vorderingsverslag, Bylae F)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-1.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1988-03: Bethlehem Landbougenootskap exhibition prize cards (2nd & 3rd, section H)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-5.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1986: Laerskool Davel Grade 1 progress report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-2.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1988: Truida Kestell Std 1 term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-4.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1986: Laerskool Davel Grade 1 progress report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-2.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1990: Truida Kestell Std 3 term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-6.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1987-11-30: Laerskool Davel Certificate of Merit (academic, Grade 2, average 80-100 percent)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-3.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1990-91: Truida Kestell term report (symbols sheet)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-7.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1987-11-30: Laerskool Davel Certificate of Merit (academic, Grade 2, average 80-100 percent)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-3.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1991: Truida Kestell term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-8.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1988-03: Bethlehem Landbougenootskap exhibition prize cards (2nd \& 3rd, section H)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-5.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1991: Truida Kestell Verrykingsonderwys sheet (Std 4)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-10.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1988-03: Bethlehem Landbougenootskap exhibition prize cards (2nd & 3rd, section H)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-5.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1991-11-29: Truida Kestell Model B admission notice for 1992
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-9.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1988: Truida Kestell Std 1 term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-4.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1992: Truida Kestell Verrykingsonderwys sheet (Std 5)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-11.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1988: Truida Kestell Std 1 term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-4.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1992: Truida Kestell term report (late primary)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-12.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1990: Truida Kestell Std 3 term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-6.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1992-12-11: Transfer of learner from Truida Kestell (Onderwysdepartement CE72)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-3.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1990: Truida Kestell Std 3 term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-6.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1993-94: Onderwyssentrum Bloemfontein: Verrykingsonderwys merit (Philosophy / Filosofie)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-2.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1990-91: Truida Kestell term report (symbols sheet)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-7.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1993-10-22: Newspaper: Free State Biology Olympiad (Bethlehem Voortrekker top-10 finishers)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-6.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1990-91: Truida Kestell term report (symbols sheet)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-7.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1993-10-22: Newspaper clipping (Biology Olympiad photo and caption, second scan)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-17.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1991: Truida Kestell term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-8.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1993: Bethlehem Voortrekker Hoërskool term report (Std 6)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-13.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1991: Truida Kestell term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-8.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1993-12-10: Bethlehem Voortrekker Hoërskool Std 6B year report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-14.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1991: Truida Kestell Verrykingsonderwys sheet (Std 4)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-10.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1994: Bethlehem Voortrekker Hoërskool term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-5.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1991: Truida Kestell Verrykingsonderwys sheet (Std 4)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-10.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1994-08: Tenshinkan Karate Association: 8th Kyu, 2nd Yellow (instructor Hans Haupt)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-4.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1991-11-29: Truida Kestell Model B admission notice for 1992}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-9.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1994-10-12: Bethlehem Voortrekker certificate of distinction
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-1.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1991-11-29: Truida Kestell Model B admission notice for 1992</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-9.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1995: Bethlehem Voortrekker Hoërskool Std 8 term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-8.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1992: Truida Kestell Verrykingsonderwys sheet (Std 5)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-11.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1995-10-12: Voortrekker merit certificate (half colours / academic distinctions)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-18.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1992: Truida Kestell Verrykingsonderwys sheet (Std 5)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-11.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1995-10-12: Voortrekker merit certificate (companion sheet)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-00.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1992: Truida Kestell term report (late primary)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-12.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1995: Voortrekker staff congratulatory certificate
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool1-15.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1992: Truida Kestell term report (late primary)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-12.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1996: Bethlehem Voortrekker Hoërskool Std 9 term report
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-7.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1992-12-11: Transfer of learner from Truida Kestell (Onderwysdepartement CE72)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-3.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1996-97: Voortrekker congratulatory / merit certificate
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-12.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1992-12-11: Transfer of learner from Truida Kestell (Onderwysdepartement CE72)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-3.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1997-07-31: Principal's testimonial (To Whom It May Concern), page 1
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-9.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993-94: Onderwyssentrum Bloemfontein: Verrykingsonderwys merit (Philosophy / Filosofie)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-2.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1997-07-31: Principal's testimonial, page 2 (recommendation)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-10.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993-94: Onderwyssentrum Bloemfontein: Verrykingsonderwys merit (Philosophy / Filosofie)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-2.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1997-08-15: Sasol / SA VONS Skeinat convention: top-50 Standard 10 Olympiad qualifier (Welkom)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-11.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1993-10-22: Newspaper: Free State Biology Olympiad (Bethlehem Voortrekker top-10 finishers)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-6.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1997-12-30: Senior Certificate statement of symbols (Matriculation Endorsement, November 1997)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-14.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1993-10-22: Newspaper: Free State Biology Olympiad (Bethlehem Voortrekker top-10 finishers)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-6.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1997: Senior Certificate / matric companion plate
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1993-10-22: Newspaper clipping (Biology Olympiad photo and caption, second scan)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-17.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
 
-![Photostat](books/the-loneliest/design/images/certificates/print/skool2-15.jpg){width=70%}
+```{=html}
+<p><strong>1993-10-22: Newspaper clipping (Biology Olympiad photo and caption, second scan)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-17.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
 
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Bethlehem Voortrekker Hoërskool term report (Std 6)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-13.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1993: Bethlehem Voortrekker Hoërskool term report (Std 6)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-13.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1993-12-10: Bethlehem Voortrekker Hoërskool Std 6B year report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-14.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1993-12-10: Bethlehem Voortrekker Hoërskool Std 6B year report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-14.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1994: Bethlehem Voortrekker Hoërskool term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-5.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1994: Bethlehem Voortrekker Hoërskool term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-5.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1994-08: Tenshinkan Karate Association: 8th Kyu, 2nd Yellow (instructor Hans Haupt)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-4.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1994-08: Tenshinkan Karate Association: 8th Kyu, 2nd Yellow (instructor Hans Haupt)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-4.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1994-10-12: Bethlehem Voortrekker certificate of distinction}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-1.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1994-10-12: Bethlehem Voortrekker certificate of distinction</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-1.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995: Bethlehem Voortrekker Hoërskool Std 8 term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-8.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995: Bethlehem Voortrekker Hoërskool Std 8 term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-8.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1995-10-12: Voortrekker merit certificate (half colours / academic distinctions)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-18.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1995-10-12: Voortrekker merit certificate (half colours / academic distinctions)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-18.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1995-10-12: Voortrekker merit certificate (companion sheet)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-00.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1995-10-12: Voortrekker merit certificate (companion sheet)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-00.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995: Voortrekker staff congratulatory certificate}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool1-15.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995: Voortrekker staff congratulatory certificate</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool1-15.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1996: Bethlehem Voortrekker Hoërskool Std 9 term report}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-7.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1996: Bethlehem Voortrekker Hoërskool Std 9 term report</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-7.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1996-97: Voortrekker congratulatory / merit certificate}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-12.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1996-97: Voortrekker congratulatory / merit certificate</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-12.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1997-07-31: Principal's testimonial (To Whom It May Concern), page 1}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-9.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1997-07-31: Principal's testimonial (To Whom It May Concern), page 1</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-9.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1997-07-31: Principal's testimonial, page 2 (recommendation)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-10.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1997-07-31: Principal's testimonial, page 2 (recommendation)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-10.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1997-08-15: Sasol / SA VONS Skeinat convention: top-50 Standard 10 Olympiad qualifier (Welkom)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-11.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1997-08-15: Sasol / SA VONS Skeinat convention: top-50 Standard 10 Olympiad qualifier (Welkom)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-11.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1997-12-30: Senior Certificate statement of symbols (Matriculation Endorsement, November 1997)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-14.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>1997-12-30: Senior Certificate statement of symbols (Matriculation Endorsement, November 1997)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-14.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1997: Senior Certificate / matric companion plate}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/skool2-15.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1997: Senior Certificate / matric companion plate</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/skool2-15.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
 ## Adult credentials
 
-### 1998-12-04: NCC International Diploma in Computer Programming (Credit; WS&L Training, Cape Town)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-02.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1998-12-04: NCC International Diploma in Computer Programming (Credit; WS\&L Training, Cape Town)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-02.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1999-01-08: Tandem Concepts & Facilities (High Availability Solutions)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-03.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1998-12-04: NCC International Diploma in Computer Programming (Credit; WS&L Training, Cape Town)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-02.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1999-01-13: Tandem TM/MP Operations & Management
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-14.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-01-08: Tandem Concepts \& Facilities (High Availability Solutions)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-03.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1999-01-15: Tandem Pathway System Management
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-15.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-01-08: Tandem Concepts & Facilities (High Availability Solutions)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-03.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1999-03-05: Tandem NonStop SQL/MP Special
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-13.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-01-13: Tandem TM/MP Operations \& Management}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-14.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1999-03-12: Tandem TACL Programming
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-12.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-01-13: Tandem TM/MP Operations & Management</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-14.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1999-03-13: NCC International Diploma in Computer Studies (Distinction, 79.3)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-01.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-01-15: Tandem Pathway System Management}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-15.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 1999-03-19: Advanced COBOL Programming with Tandem Extensions
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-11.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-01-15: Tandem Pathway System Management</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-15.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 1999-11: CO-ach Training certificate of completion
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-07.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-03-05: Tandem NonStop SQL/MP Special}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-13.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 2000: Object Oriented Analysis and Design Workshop (Radical Training)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-04.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-03-05: Tandem NonStop SQL/MP Special</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-13.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 2002-07-03: BoE Bank Certificate of Service (Analyst Programmer, 1 Jan 1999 - 31 Jul 2002)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-05.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-03-12: Tandem TACL Programming}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-12.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 2003-10-09: Microsoft: ADO.NET (Netscope / Microsoft Official Curriculum)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-10.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-03-12: Tandem TACL Programming</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-12.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 2003-10-29: Microsoft: Developing ASP.NET Web Applications using Visual Studio .NET
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-08.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-03-13: NCC International Diploma in Computer Studies (Distinction, 79.3)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-01.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 2004-10: TeamTrack Administrator Course (4th-8th October 2004)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-06.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-03-13: NCC International Diploma in Computer Studies (Distinction, 79.3)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-01.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### 2010-11-29: SAMSA Certificate of Competence: Day Skipper, Category C
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/samsa-day-skipper-2010.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-03-19: Advanced COBOL Programming with Tandem Extensions}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-11.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### 2013-06-03: Introduction to Windows Communication Foundation (Technology Skills Factory)
-
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-09.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1999-03-19: Advanced COBOL Programming with Tandem Extensions</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-11.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 2010s: Additional professional credential plate
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1999-11: CO-ach Training certificate of completion}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-07.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
 
-![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-16.jpg){width=70%}
+```{=html}
+<p><strong>1999-11: CO-ach Training certificate of completion</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-07.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
 
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 2000: Object Oriented Analysis and Design Workshop (Radical Training)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-04.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 2000: Object Oriented Analysis and Design Workshop (Radical Training)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-04.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2002-07-03: BoE Bank Certificate of Service (Analyst Programmer, 1 Jan 1999 - 31 Jul 2002)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-05.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2002-07-03: BoE Bank Certificate of Service (Analyst Programmer, 1 Jan 1999 - 31 Jul 2002)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-05.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2003-10-09: Microsoft: ADO.NET (Netscope / Microsoft Official Curriculum)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-10.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2003-10-09: Microsoft: ADO.NET (Netscope / Microsoft Official Curriculum)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-10.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2003-10-29: Microsoft: Developing ASP.NET Web Applications using Visual Studio .NET}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-08.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2003-10-29: Microsoft: Developing ASP.NET Web Applications using Visual Studio .NET</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-08.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2004-10: TeamTrack Administrator Course (4th-8th October 2004)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-06.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2004-10: TeamTrack Administrator Course (4th-8th October 2004)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-06.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2010-11-29: SAMSA Certificate of Competence: Day Skipper, Category C}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/samsa-day-skipper-2010.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2010-11-29: SAMSA Certificate of Competence: Day Skipper, Category C</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/samsa-day-skipper-2010.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{2013-06-03: Introduction to Windows Communication Foundation (Technology Skills Factory)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-09.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>2013-06-03: Introduction to Windows Communication Foundation (Technology Skills Factory)</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-09.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 2010s: Additional professional credential plate}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/certificates/print/werk/werk-16.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 2010s: Additional professional credential plate</strong></p>
+<p><img src="books/the-loneliest/design/images/certificates/print/werk/werk-16.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
 ## Yearbook and press plates
 
-### 1993: Yearbook: V.O.-Leerlinge (Voortrekker enrichment class; names printed)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6170.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{1993: Yearbook: V.O.-Leerlinge (Voortrekker enrichment class; names printed)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6170.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1993: Yearbook: Verrykingsonderwys page header
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6171.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>1993: Yearbook: V.O.-Leerlinge (Voortrekker enrichment class; names printed)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6170.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1993-94: Yearbook: Verrykingsonderwys class photo (S. Harts named, back row)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6172.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Yearbook: Verrykingsonderwys page header}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6171.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1993-94: Yearbook: Verrykingsonderwys class photo, alternate page (S. Harts named, back row)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6175.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993: Yearbook: Verrykingsonderwys page header</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6171.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1993: Yearbook: Vriende van Groep 25 / Cadets (beste junior)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6176.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993-94: Yearbook: Verrykingsonderwys class photo (S. Harts named, back row)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6172.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1993: Yearbook: Standerd 6 Standerdpresteerders
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6177.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993-94: Yearbook: Verrykingsonderwys class photo (S. Harts named, back row)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6172.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1993: Yearbook: Standerd 6 academic merit awards (A. Greyling named)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6178.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993-94: Yearbook: Verrykingsonderwys class photo, alternate page (S. Harts named, back row)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6175.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1993: Yearbook: Biology Olympiad note: Andries Greyling, 3rd in OVS (Std 6)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6198.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993-94: Yearbook: Verrykingsonderwys class photo, alternate page (S. Harts named, back row)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6175.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1994-97: Newspaper: Free State Skeinat Olympiad (top-50 Voortrekker learners)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6179.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Yearbook: Vriende van Groep 25 / Cadets (beste junior)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6176.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1994-97: Newspaper clipping (Skeinat Olympiad, second scan)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6199.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993: Yearbook: Vriende van Groep 25 / Cadets (beste junior)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6176.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1995: Yearbook: class / half-colours group (A. Greyling, second row)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6190.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Yearbook: Standerd 6 Standerdpresteerders}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6177.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1995: Yearbook: class group with printed English name list
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6191.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993: Yearbook: Standerd 6 Standerdpresteerders</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6177.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1995: Yearbook: academic points band 1500-1890 (A. Greyling named, middle row)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6194.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Yearbook: Standerd 6 academic merit awards (A. Greyling named)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6178.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1996: Yearbook: Std 7 Standerdpresteerders
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6196.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993: Yearbook: Standerd 6 academic merit awards (A. Greyling named)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6178.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1996: Yearbook: V.O. class with Mev. A. Blignault (A. Greyling, middle row)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6197.jpg){width=70%}
-
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1993: Yearbook: Biology Olympiad note: Andries Greyling, 3rd in OVS (Std 6)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6198.jpg}\par
+\end{minipage}\par\vspace{0.45em}
 ```
 
-### c. 1995-96: Yearbook: enrichment / class group (names printed)
-
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6193.jpg){width=70%}
-
-```{=latex}
-\clearpage
+```{=html}
+<p><strong>c. 1993: Yearbook: Biology Olympiad note: Andries Greyling, 3rd in OVS (Std 6)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6198.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
 ```
 
-### c. 1995-96: Yearbook: class group (back row names printed)
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1994-97: Newspaper: Free State Skeinat Olympiad (top-50 Voortrekker learners)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6179.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
 
-![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6195.jpg){width=70%}
+```{=html}
+<p><strong>c. 1994-97: Newspaper: Free State Skeinat Olympiad (top-50 Voortrekker learners)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6179.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
 
 ```{=latex}
-\clearpage
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1994-97: Newspaper clipping (Skeinat Olympiad, second scan)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6199.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1994-97: Newspaper clipping (Skeinat Olympiad, second scan)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6199.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995: Yearbook: class / half-colours group (A. Greyling, second row)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6190.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995: Yearbook: class / half-colours group (A. Greyling, second row)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6190.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995: Yearbook: class group with printed English name list}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6191.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995: Yearbook: class group with printed English name list</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6191.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995: Yearbook: academic points band 1500-1890 (A. Greyling named, middle row)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6194.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995: Yearbook: academic points band 1500-1890 (A. Greyling named, middle row)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6194.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1996: Yearbook: Std 7 Standerdpresteerders}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6196.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1996: Yearbook: Std 7 Standerdpresteerders</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6196.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1996: Yearbook: V.O. class with Mev. A. Blignault (A. Greyling, middle row)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6197.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1996: Yearbook: V.O. class with Mev. A. Blignault (A. Greyling, middle row)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6197.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995-96: Yearbook: enrichment / class group (names printed)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6193.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995-96: Yearbook: enrichment / class group (names printed)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6193.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\noindent\begin{minipage}{\linewidth}
+{\footnotesize\textbf{c. 1995-96: Yearbook: class group (back row names printed)}}\par\vspace{0.1em}
+\includegraphics[width=\linewidth,height=0.94\textheight,keepaspectratio]{books/the-loneliest/design/images/yearbook/print/IMG_6195.jpg}\par
+\end{minipage}\par\vspace{0.45em}
+```
+
+```{=html}
+<p><strong>c. 1995-96: Yearbook: class group (back row names printed)</strong></p>
+<p><img src="books/the-loneliest/design/images/yearbook/print/IMG_6195.jpg" alt="Photostat" style="width:100%;height:auto;margin:0;" /></p>
+```
+
+```{=latex}
+\restoregeometry
 ```
 
 
