@@ -1,0 +1,36 @@
+{
+  "section": "sa-herbs",
+  "plants": [
+    {
+      "slug": "lessertia-frutescens",
+      "scientific_name": "Lessertia frutescens",
+      "common_name": "cancer bush / sutherlandia",
+      "file": "design/images/lessertia-frutescens.jpg",
+      "commons_title": "File:Lessertia frutescens 1DS-II 7937.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Lessertia_frutescens_1DS-II_7937.jpg",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SAplants",
+      "credit_line": "Cancer bush (Lessertia frutescens; syn. Sutherlandia frutescens), flowers and developing pods, Pretoria National Botanical Garden. Photo: SAplants, Wikimedia Commons, CC BY-SA 4.0.",
+      "why": "Clear species photograph under the current name Lessertia frutescens, showing diagnostic scarlet flowers and inflated pods.",
+      "notes": "Curtis Botanical Magazine plate File:Lessertia frutescens.jpg is Public domain but only 561×999 px on Commons; unsuitable for print, so the SAplants field photo was preferred.",
+      "fallback_used": false
+    },
+    {
+      "slug": "artemisia-afra",
+      "scientific_name": "Artemisia afra",
+      "common_name": "African wormwood / wilde-als",
+      "file": "design/images/artemisia-afra.jpg",
+      "commons_title": "File:Artemisia afra.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Artemisia_afra.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "N. J. Jacquin (plate); scan by Oceancetaceen - Alice Chodura",
+      "credit_line": "Artemisia afra Jacq. Upper part of the plant. Plate (Tafel 467) from N. J. Jacquin, Plantarum rariorum Horti caesarei Schoenbrunnensis, vol. 4 (Vienna: C. F. Wappler, 1804). Scan: Oceancetaceen (Alice Chodura), Wikimedia Commons (public domain).",
+      "why": "Historic Schoenbrunn plate correctly identified as Artemisia afra, print-ready resolution, showing characteristic dissected foliage.",
+      "notes": null,
+      "fallback_used": false
+    }
+  ],
+  "failures": []
+}

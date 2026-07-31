@@ -1,0 +1,63 @@
+slug,scientific_name,vernacular_en,vernacular_other,use_categories,caution_band,plate_status,public_anchor,notes
+aspalathus-linearis,Aspalathus linearis,rooibos,Afrikaans: rooibos,beverages|tonic-plants,open,have,SANBI / commercial + clinical safety literature,Already plated
+agathosma-betulina,Agathosma betulina,round-leaf buchu,Afrikaans: boegoe,general-medicines|perfumes-repellents|beverages,caution,have,SANBI / Cape materia; substitution with A. crenulata,Already plated; anti-substitution drill
+aloe-ferox,Aloe ferox,Cape aloe / bitter aloe,Afrikaans: bitteraalwyn,general-medicines|wounds-skin|soaps-cosmetics,caution,have,SANBI / export & CITES-adjacent trade tension,Already plated
+lessertia-frutescens,Lessertia frutescens,cancer bush / sutherlandia,syn. Sutherlandia frutescens,tonic-plants|general-medicines,caution,have,SANBI / high claim density,Already plated; clinical evidence contested
+artemisia-afra,Artemisia afra,African wormwood,Afrikaans: wilde-als; isiZulu: umhlonyane,general-medicines|beverages,caution,have,SANBI / pandemic-era claim inflation,Already plated
+sclerocarya-birrea,Sclerocarya birrea,marula,Afrikaans: maroela; Tonga: canhi,fruits-berries|beverages|utility-timbers|soaps-cosmetics,open,have,SANBI / FAO NUS / commercial oil & fruit,Food + craft + oil; low prep risk in public food use
+adansonia-digitata,Adansonia digitata,baobab,Afrikaans: kremetart,fruits-berries|seeds-nuts|beverages|utility-timbers,open,have,SANBI / FAO / novel food dossiers,Fruit pulp widely documented as food
+harpagophytum-procumbens,Harpagophytum procumbens,devil's claw,Afrikaans: duiwelsklou,general-medicines|tonic-plants,caution,have,SANBI / EU herbal monograph lineage,Trade + wild-harvest pressure; no dose on page
+pelargonium-sidoides,Pelargonium sidoides,umckaloabo / African geranium,isiZulu: uvendle,general-medicines,caution,have,SANBI / commercial extract literature,Claim inflation risk; identity vs P. reniforme
+hypoxis-hemerocallidea,Hypoxis hemerocallidea,African potato,Afrikaans: Afrika-patat; isiZulu: inkomfe,tonic-plants|general-medicines,caution,have,SANBI / HIV-era claim inflation,High claim density; no dose
+siphonochilus-aethiopicus,Siphonochilus aethiopicus,African ginger,isiZulu: indungulo / isiphephetho,general-medicines|perfumes-repellents,caution,have,SANBI / threatened wild populations,Conservation gate before any harvest narrative
+warburgia-salutaris,Warburgia salutaris,pepper-bark tree,Afrikaans: peperbasboom; isiZulu: isibaha,general-medicines,caution,have,SANBI / Red List threatened,Conservation + bark overharvest risk
+prunus-africana,Prunus africana,African cherry / red stinkwood,Afrikaans: rooistinkhout,general-medicines|utility-timbers,caution,have,CITES Appendix II / SANBI,Bark trade regulated; international caution
+carpobrotus-edulis,Carpobrotus edulis,sour fig,Afrikaans: suurvy,fruits-berries|wounds-skin|vegetables,open,have,SANBI / coastal food & topical tradition,Also invasive outside native range; note ecology
+bulbine-frutescens,Bulbine frutescens,burn jelly plant,Afrikaans: waterblaar / geelkopieva,wounds-skin,open,have,SANBI / common garden medicinal,Topical tradition widely published
+leonotis-leonurus,Leonotis leonurus,wild dagga,Afrikaans: wilde-dagga,mind-mood|general-medicines|perfumes-repellents,hold,need,SANBI / intoxicant-adjacent tradition,HOLD: mind-mood / smoking tradition; metadata only
+sceletium-tortuosum,Sceletium tortuosum,kanna,Afrikaans: kougoed,mind-mood,hold,need,SANBI / commercial standardised extracts,HOLD: mind-mood; no prep/dose; consent + safety gate
+hoodia-gordonii,Hoodia gordonii,hoodia,Afrikaans: ghaap (regional),general-medicines|tonic-plants,hold,need,SANBI / San benefit-sharing landmark cases,HOLD: appetite-claim commerce + ABS politics; name only until review
+mentha-longifolia,Mentha longifolia,wild mint,Afrikaans: kruisement; isiZulu: ufuthana,beverages|general-medicines|perfumes-repellents,open,have,SANBI / widespread culinary-medicinal mint,Common open culinary use
+dodonaea-viscosa,Dodonaea viscosa,sand olive,Afrikaans: ysterhoutbos / sandolien,general-medicines|wounds-skin|utility-timbers,caution,need,SANBI / pantropical; local use reports vary,Identity broad; local provenance required
+aloe-arborescens,Aloe arborescens,krantz aloe,Afrikaans: kransaalwyn,wounds-skin|general-medicines|soaps-cosmetics,caution,have,SANBI / widely cultivated,Distinct from A. ferox; anti-substitution
+agathosma-crenulata,Agathosma crenulata,oval-leaf buchu,Afrikaans: anysboegoe,general-medicines|perfumes-repellents|beverages,caution,have,SANBI / trade substitute for betulina,Paired with betulina for anti-substitution drill
+cyclopia-intermedia,Cyclopia intermedia,honeybush,Afrikaans: heuningbos,beverages|tonic-plants,open,have,SANBI / commercial herbal tea,Food/beverage open band; Plate is *Cyclopia genistoides* fallback
+vigna-unguiculata,Vigna unguiculata,cowpea,Afrikaans: akkerboon; isiZulu: imbumba,vegetables|seeds-nuts|cereals,open,need,SANBI / FAO staple legume,Food staple; agricultural
+colocasia-esculenta,Colocasia esculenta,amadumbe / taro,isiZulu: amadumbe,roots-bulbs-tubers|vegetables,caution,need,SANBI / staple tuber; oxalate caution,Food with known prep hazards if raw; no wild-forage guide
+amaranthus-hybridus,Amaranthus hybridus,pigweed / thepe,Sesotho: thepe; Afrikaans: misbredie,vegetables,open,need,SANBI / leafy vegetable tradition,Food open band
+cleome-gynandra,Cleome gynandra,spider plant / African cabbage,Afrikaans: snotterbel; isiZulu: unzeke,vegetables,open,need,SANBI / FAO traditional leafy vegetable,Food open band
+dovyalis-caffra,Dovyalis caffra,kei apple,Afrikaans: kei-appel,fruits-berries|dyes-tans,open,need,SANBI / hedge + fruit,Food/craft
+englerophytum-magalismontanum,Englerophytum magalismontanum,stamvrug,Afrikaans: stamvrug,fruits-berries,open,need,SANBI / indigenous fruit,Food open band
+vangueria-infausta,Vangueria infausta,wild medlar,Afrikaans: wildemispel; isiZulu: umviyo,fruits-berries,open,need,SANBI / indigenous fruit,Food open band
+trichilia-emetica,Trichilia emetica,natal mahogany,Afrikaans: rooiessenhout; isiZulu: umkhuhlu,seeds-nuts|soaps-cosmetics|utility-timbers,caution,need,SANBI / oil seed + timber,Seed oil + soap tradition; watch toxicity notes on some parts
+ricinus-communis,Ricinus communis,castor oil plant,Afrikaans: kasterolieboom,soaps-cosmetics|general-medicines,hold,need,Naturalised; ricin in seeds,HOLD: high-toxicity seeds; name + hazard only
+boophone-disticha,Boophone disticha,century plant / sore-eye flower,Afrikaans: seeroogblom; isiZulu: incotho,mind-mood|general-medicines|wounds-skin,hold,need,SANBI / highly toxic bulb,HOLD: poison / ritual; metadata only
+acokanthera-oppositifolia,Acokanthera oppositifolia,bushman's poison,Afrikaans: boesmansgif; isiZulu: inhlungunyembe,hunting-fishing|general-medicines,hold,need,SANBI / arrow-poison tradition,HOLD: hunting poison; never prep detail
+strophanthus-speciosus,Strophanthus speciosus,common poison rope,Afrikaans: giftobbie,hunting-fishing,hold,need,SANBI / cardiac glycoside tradition,HOLD: hunting poison class
+eragrostis-tef,Eragrostis tef,teff,used regionally / Ethiopian staple also grown in SA,cereals,open,need,Agricultural literature,Cereal open band where cultivated
+sorghum-bicolor,Sorghum bicolor,sorghum / mabele,Sesotho: mabele; isiZulu: amabele,cereals|beverages,open,need,SANBI / staple cereal & beer,Food/beverage open
+pennisetum-glaucum,Cenchrus americanus,pearl millet,syn. Pennisetum glaucum; Afrikaans: babala,cereals,open,need,SANBI / FAO millet,Use current POWO name in monograph
+hyphaene-coriacea,Hyphaene coriacea,lala palm / ilala,isiZulu: ilala,basketry-weaving|fruits-berries|beverages,open,need,SANBI / palm craft + sap traditions,Craft + beverage; overharvest watch
+phoenix-reclinata,Phoenix reclinata,wild date palm,Afrikaans: wilde-dadelboom; isiZulu: isundu,fruits-berries|basketry-weaving|thatching-mats,open,need,SANBI / widespread palm uses,Craft + fruit
+juncus-kraussii,Juncus kraussii,dune cord-rush / ncema,isiZulu: incema,basketry-weaving|thatching-mats,open,have,SANBI / famous craft fibre,Craft open; cultural harvest protocols matter
+cyperus-textilis,Cyperus textilis,mat sedge / imizi,isiZulu: imizi,thatching-mats|basketry-weaving,open,need,SANBI / mat weaving,Craft open
+restio-species,Thamnochortus insignis,thatching reed / dekriet,Afrikaans: dekriet,thatching-mats,open,need,SANBI / Cape thatching industry,Use T. insignis as thatching type species
+combretum-imberbe,Combretum imberbe,leadwood,Afrikaans: hardekool; isiZulu: umbondwe,utility-timbers|fire-firewood|dyes-tans,open,need,SANBI / protected timber in places,Craft/timber; legal harvest status varies
+olea-europaea-cuspidata,Olea europaea subsp. cuspidata,wild olive,Afrikaans: olienhout,utility-timbers|fire-firewood|general-medicines,open,need,SANBI / hard utility wood,Timber + traditional medicine caution band on medicinal claims
+vachellia-karroo,Vachellia karroo,sweet thorn,syn. Acacia karroo; Afrikaans: soetdoring,utility-timbers|fire-firewood|dyes-tans|general-medicines,open,have,SANBI / POWO Vachellia,Use Vachellia karroo as accepted name; Slug renamed acacia-karroo to vachellia-karroo
+grewia-occidentalis,Grewia occidentalis,cross-berry,Afrikaans: kruisbessie,fruits-berries|basketry-weaving,open,need,SANBI / fruit + fibre,Food/craft
+ziziphus-mucronata,Ziziphus mucronata,buffalo thorn,Afrikaans: blinkblaar-wag-'n-bietjie; isiZulu: umphafa,fruits-berries|general-medicines|utility-timbers,caution,have,SANBI / cultural tree + medicine,Cultural sensitivity; medicine caution
+ximenia-caffra,Ximenia caffra,sourplum,Afrikaans: suurpruim; isiZulu: umthunduluka-obomvu,fruits-berries|soaps-cosmetics,open,need,SANBI / oil seed + fruit,Food + cosmetic oil
+schinziophyton-rautanenii,Schinziophyton rautanenii,manketti / mongongo,Afrikaans: manketti,seeds-nuts|utility-timbers,open,need,SANBI / Kalahari oil nut,Food oil staple in parts of region
+citrullus-lanatus,Citrullus lanatus,tsamma / wild melon,Afrikaans: tsamma,fruits-berries|seeds-nuts|beverages,open,have,SANBI / Kalahari water fruit,Food open
+aponogeton-distachyos,Aponogeton distachyos,waterblommetjie,Afrikaans: waterblommetjie,vegetables,open,have,SANBI / Cape culinary icon,Food open
+tulbaghia-violacea,Tulbaghia violacea,wild garlic,Afrikaans: wildeknoffel,vegetables|general-medicines|perfumes-repellents,open,need,SANBI / garden + culinary,Food/culinary open
+bidens-pilosa,Bidens pilosa,black jack,Afrikaans: knapsekêrel; isiZulu: ucucuza,vegetables|general-medicines,open,need,SANBI / leafy vegetable weed,Food open; pantropical
+xanthoxylum-capense,Zanthoxylum capense,small knobwood,Afrikaans: kleinperdepram; isiZulu: umnungumabele,dental-care|general-medicines|utility-timbers,caution,need,SANBI / toothache tradition,Dental tradition; no prep detail
+eucomis-autumnalis,Eucomis autumnalis,pineapple flower,Afrikaans: pynappelblom,general-medicines|womens-health,hold,need,SANBI / bulb medicine; conservation,HOLD: women's-health + bulb harvest pressure
+alepidea-amatymbica,Alepidea amatymbica,larger tinsel flower,isiXhosa: ikhathaza,general-medicines|womens-health,hold,need,SANBI / cold-flu + women's health traditions,HOLD: women's-health band; correct spelling row
+plumbago-auriculata,Plumbago auriculata,Cape leadwort,Afrikaans: blousuurstof,wounds-skin|general-medicines,caution,need,SANBI / common garden plant,Topical/medicinal claims vary
+kigelia-africana,Kigelia africana,sausage tree,Afrikaans: worsboom; isiZulu: umVunguta,soaps-cosmetics|general-medicines|utility-timbers,caution,have,SANBI / cosmetic fruit tradition,Cosmetic claims commercialised; caution
+catha-edulis,Catha edulis,khat / bushman's tea,Afrikaans: boesmanstee,mind-mood|beverages,hold,need,International control schedules vary,HOLD: stimulant; legal/status gate
+cannabis-sativa,Cannabis sativa,cannabis / dagga,Afrikaans: dagga,mind-mood|general-medicines|fibres,hold,need,SA legal landscape evolving,HOLD: intoxicant; estate no-alcohol-adjacent care; metadata only
+withania-somnifera,Withania somnifera,winter cherry / ashwagandha,Afrikaans: geneesblaarbossie,tonic-plants|mind-mood,caution,need,SANBI / pantropical; SA populations,Tonic tradition; mind-mood adjacent caution

@@ -1,0 +1,66 @@
+{
+  "section": "conifers",
+  "plants": [
+    {
+      "slug": "pinus-sabiniana",
+      "scientific_name": "Pinus sabiniana",
+      "common_name": "gray pine",
+      "file": "design/images/pinus-sabiniana.jpg",
+      "commons_title": "File:Silva of North America. Volume XI, Coniferæ (pinus), The - DPLA - 3f6e22ceec126c964f4707deece445ac (page 130).jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Silva_of_North_America._Volume_XI,_Conifer%C3%A6_(pinus),_The_-_DPLA_-_3f6e22ceec126c964f4707deece445ac_(page_130).jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "Charles Edward Faxon (artist); Charles Sprague Sargent (author)",
+      "credit_line": "Pinus sabiniana. Plate from Charles Sprague Sargent, The Silva of North America, Vol. XI (1897), drawn by Charles Edward Faxon. Colorado State University Libraries / DPLA via Wikimedia Commons (public domain).",
+      "why": "Historic Faxon botanical plate under Pinus sabiniana (illustrations); diagnostic cone and foliage for the California gray pine resin specimen.",
+      "notes": "Source dimensions 1579x2086; Special:FilePath width=1600 returned original size.",
+      "fallback_used": false
+    },
+    {
+      "slug": "picea-abies",
+      "scientific_name": "Picea abies",
+      "common_name": "Norway spruce",
+      "file": "design/images/picea-abies.jpg",
+      "commons_title": "File:Köhler's Medizinal-Pflanzen in naturgetreuen Abbildungen mit kurz erläuterndem Texte (Plate 8) BHL303576.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler%27s_Medizinal-Pflanzen_in_naturgetreuen_Abbildungen_mit_kurz_erl%C3%A4uterndem_Texte_(Plate_8)_BHL303576.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "F. E. Köhler / Köhler's Medizinal-Pflanzen (BHL Plate 8)",
+      "credit_line": "Picea abies (Norway spruce). Plate 8 from F. E. Köhler, Köhler's Medizinal-Pflanzen (1887). Biodiversity Heritage Library via Wikimedia Commons (public domain).",
+      "why": "High-resolution medicinal-atlas plate categorized as Picea abies (illustrations); flowering branch and cones at print-ready BHL scan quality.",
+      "notes": null,
+      "fallback_used": false
+    },
+    {
+      "slug": "pinus-nigra",
+      "scientific_name": "Pinus nigra",
+      "common_name": "black pine",
+      "file": "design/images/pinus-nigra.jpg",
+      "commons_title": "File:Dodel-Port Atlas Pinus laricio (Fol. C) XXVII.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Dodel-Port_Atlas_Pinus_laricio_(Fol._C)_XXVII.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "Carolina and Arnold Dodel-Port",
+      "credit_line": "Pinus laricio (= Pinus nigra subsp. laricio). Fol. C, Plate XXVII from Carolina and Arnold Dodel-Port, Atlas der Botanik. Wikimedia Commons (public domain).",
+      "why": "High-resolution historic atlas plate of Pinus laricio (now P. nigra subsp. laricio), filed under Pinus nigra (illustrations).",
+      "notes": "Preferred over the low-resolution Commons Koehler Medizinal-Pflanzen Pinus nigra plate (~459x597 px). Plate labels the synonym Pinus laricio.",
+      "fallback_used": false
+    },
+    {
+      "slug": "larix-decidua",
+      "scientific_name": "Larix decidua",
+      "common_name": "European larch",
+      "file": "design/images/larix-decidua.jpg",
+      "commons_title": "File:Köhler's Medizinal-Pflanzen in naturgetreuen Abbildungen mit kurz erläuterndem Texte (Plate 41) BHL303644.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6hler%27s_Medizinal-Pflanzen_in_naturgetreuen_Abbildungen_mit_kurz_erl%C3%A4uterndem_Texte_(Plate_41)_BHL303644.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "F. E. Köhler / Köhler's Medizinal-Pflanzen (BHL Plate 41)",
+      "credit_line": "Larix decidua (European larch). Plate 41 from F. E. Köhler, Köhler's Medizinal-Pflanzen (1887). Biodiversity Heritage Library via Wikimedia Commons (public domain).",
+      "why": "High-resolution medicinal-atlas plate categorized as Larix decidua (illustrations); flowering and fruiting shoots with dissected parts.",
+      "notes": null,
+      "fallback_used": false
+    }
+  ],
+  "failures": []
+}

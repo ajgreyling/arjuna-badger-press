@@ -1,0 +1,51 @@
+{
+  "section": "cape-staples",
+  "plants": [
+    {
+      "slug": "aspalathus-linearis",
+      "scientific_name": "Aspalathus linearis",
+      "common_name": "rooibos",
+      "file": "design/images/aspalathus-linearis.jpg",
+      "commons_title": "File:Rooibos (Aspalathus linearis)PICT2813.JPG",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Rooibos_(Aspalathus_linearis)PICT2813.JPG",
+      "licence": "CC BY-SA 2.5",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "artist": "Winfried Bruenken (Amrum)",
+      "credit_line": "Rooibos (Aspalathus linearis), Clanwilliam, Western Cape. Photo: Winfried Bruenken (Amrum), Wikimedia Commons, CC BY-SA 2.5.",
+      "why": "Clear Clanwilliam field photograph of flowering stems and needle-like leaves with explicit species identification.",
+      "notes": null,
+      "fallback_used": false
+    },
+    {
+      "slug": "agathosma-betulina",
+      "scientific_name": "Agathosma betulina",
+      "common_name": "buchu (round-leaf)",
+      "file": "design/images/agathosma-betulina.jpg",
+      "commons_title": "File:Agathosma betulina MargrietB 2.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Agathosma_betulina_MargrietB_2.jpg",
+      "licence": "CC BY-SA 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Margriet B., Kleinmond, South Africa",
+      "credit_line": "Round-leaved buchu (Agathosma betulina), Cederberg, Western Cape. Photo: Margriet B. (iNaturalist / Wikimedia Commons), CC BY-SA 4.0.",
+      "why": "Field photo labelled Agathosma betulina showing flower and leaves; not a product photo.",
+      "notes": "Koehler Medizinal-Pflanzen plate of Agathosma betulina on Commons is Public domain but only about 401x594 px (thumbsize); unsuitable for print, so the iNaturalist field photo was preferred.",
+      "fallback_used": false
+    },
+    {
+      "slug": "aloe-ferox",
+      "scientific_name": "Aloe ferox",
+      "common_name": "Cape aloe / bitter aloe",
+      "file": "design/images/aloe-ferox.jpg",
+      "commons_title": "File:Plantarum historia succulentarum = (Plate 32) BHL280780.jpg",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Plantarum_historia_succulentarum_%3D_(Plate_32)_BHL280780.jpg",
+      "licence": "Public domain",
+      "licence_url": null,
+      "artist": "Pierre-Joseph Redouté",
+      "credit_line": "Aloe ferox Mill. Plate 32 from A. P. de Candolle, Plantarum historia succulentarum (Histoire des plantes grasses), drawn by Pierre-Joseph Redouté, 1802. Biodiversity Heritage Library via Wikimedia Commons (public domain).",
+      "why": "Historic Redouté plate correctly identified as Aloe ferox Mill., BHL scan via Commons, print-ready resolution.",
+      "notes": null,
+      "fallback_used": false
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "codex-medica",
+  "title": "Codex Medica",
+  "working_title": "Codex Medica",
+  "subtitle": "An Ethnobotanical Cross-Cultural Study Bible",
+  "author": "Andries J. Greyling",
+  "logline": "A research constitution for a living ethnobotanical corpus: provenance without theft, evidence without contempt, and a hard line against mistaking documentation for a prescribing manual.",
+  "genre": "research constitution / ethnobotany",
+  "blueprint": "study-bible: charter, ethics, ontology, evidence architecture, templates, worked specimen, locked decisions",
+  "status": "atlas-seeding",
+  "edition": "0.3",
+  "series": "Non-fiction",
+  "shelf": "Non-fiction",
+  "target_words": 8000,
+  "canon_order": [
+    "DECISIONS.md",
+    "SOURCES_PEOPLES_PLANTS.md",
+    "STYLE_GUIDE.md",
+    "OUTLINE.md"
+  ],
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  },
+  "source": "canon/source/Codex_Medica_Research_Bible.docx"
+}

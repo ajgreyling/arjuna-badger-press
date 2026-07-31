@@ -1,0 +1,968 @@
+# Name harvest (desk photos of People's Plants)
+Private working list. Not for EPUB/PDF/site. Latin names only for open-source follow-up.
+
+Source photos: `/Users/ajgreyling/Pictures/New Folder With Items/` (index leaves).
+All twelve photos are alphabetical **Index** pages (approx. pp. 328-351).
+
+## Photo: PeoplesPlants.png
+- Chapter/heading if visible: Index
+- Page if visible: 328-329
+- Names:
+  - Afzelia quanzensis
+  - Agapanthus africanus
+  - Agapanthus campanulatus
+  - Agapanthus praecox
+  - Agathosma betulina
+  - Agathosma crenulata
+  - Agathosma ovata
+  - Agathosma pulchella
+  - Agathosma serratifolia
+  - Agave americana
+  - Agave sisalana
+  - Agave tequilana
+  - Albizia adianthifolia
+  - Albizia anthelmintica
+  - Albizia versicolor
+  - Alectra sessiliflora
+  - Alepidea amatymbica
+  - Alepidea longifolia
+  - Aloe arborescens
+  - Aloe asperifolia
+  - Aloe chabaudii
+  - Aloe christianii
+  - Aloe cryptopoda
+  - Aloe dichotoma
+  - Aloe ferox
+  - Aloe marlothii
+  - Aloe parvibracteata
+  - Aloe speciosa
+  - Aloe succotrina
+  - Aloe tenuior
+  - Aloe transvaalensis
+  - Aloe vera
+  - Aloe zebrina
+  - Althaea officinalis
+  - Amaranthus caudatus
+  - Amaranthus cruentus
+  - Amaranthus deflexus
+  - Amaranthus hybridus
+  - Amaranthus hypochondriacus
+  - Amaranthus spinosus
+  - Amaranthus thunbergii
+  - Amaranthus tricolor
+  - Anacampseros rhodesica
+  - Anacampseros ustulata
+  - Anacardium occidentale
+  - Ancylobotrys capensis
+  - Ancylobotrys kirkii
+  - Ancylobotrys petersiana
+  - Androstachys johnsonii
+  - Annesorhiza capensis
+  - Annesorhiza macrocarpa
+  - Annesorhiza nuda
+  - Annona chrysophylla
+  - Annona senegalensis
+  - Annona stenophylla
+  - Aponogeton distachyos
+  - Arachis hypogaea
+  - Arctopus echinatus
+  - Areca catechu
+  - Aristida junciformis
+  - Artemisia absinthium
+  - Artemisia afra
+  - Asclepias crispa
+  - Asclepias decipiens
+  - Asclepias fruticosa
+  - Asclepias physocarpa
+  - Asclepias stellifera
+  - Aspalathus linearis
+  - Asparagus aethiopicus
+  - Asparagus africanus
+  - Asparagus capensis
+  - Asparagus exuvialis
+  - Asparagus laricinus
+  - Asparagus officinalis
+  - Asparagus racemosus
+  - Asparagus retrofractus
+  - Asparagus setaceus
+  - Asparagus suaveolens
+  - Aspilia pluriseta
+  - Aster bakeranus
+  - Athrixia elata
+  - Athrixia phylicoides
+- Families (also on page; omitted from machine binomial list):
+  - Agapanthaceae
+  - Agavaceae
+  - Aizoaceae
+  - Amaranthaceae
+  - Amaryllidaceae
+  - Anacardiaceae
+  - Annonaceae
+  - Apiaceae
+  - Apocynaceae
+  - Aponogetonaceae
+  - Araceae
+  - Araliaceae
+  - Arecaceae
+  - Asclepiadaceae
+  - Asparagaceae
+  - Asphodelaceae
+  - Asteraceae
+
+## Photo: PeoplesPlants 1.png
+- Chapter/heading if visible: Index
+- Page if visible: 330-331
+- Names:
+  - Bauhinia galpinii
+  - Bauhinia petersiana
+  - Bauhinia thonningii
+  - Bechium knyanum
+  - Bequaertiodendron magalismontanum
+  - Berchemia discolor
+  - Berchemia zeyheri
+  - Bersama lucens
+  - Berula erecta
+  - Bidens bipinnata
+  - Bidens pilosa
+  - Bidens sulphureus
+  - Blepharis capensis
+  - Blepharis procumbens
+  - Boophone disticha
+  - Borassus aethiopum
+  - Boscia albitrunca
+  - Boscia foetida
+  - Bowiea volubilis
+  - Brabejum stellatifolium
+  - Brachylaena discolor
+  - Brachystegia boehmii
+  - Breonadia salicina
+  - Bridelia cathartica
+  - Bridelia micrantha
+  - Bridelia mollis
+  - Bulbine frutescens
+  - Burkea africana
+  - Cadaba aphylla
+  - Caesalpinia rubra
+  - Callilepis laureola
+  - Calodendrum capense
+  - Canavalia ensiformis
+  - Canavalia virosa
+- Families (also on page; omitted from machine binomial list):
+  - Bignoniaceae
+  - Bombacaceae
+  - Boraginaceae
+  - Brassicaceae
+  - Burseraceae
+  - Cactaceae
+
+## Photo: PeoplesPlants 2.png
+- Chapter/heading if visible: Index
+- Page if visible: 332-333
+- Names:
+  - Cassia abbreviata
+  - Cassia italica
+  - Cassine crocea
+  - Cassine transvaalensis
+  - Cassipourea gerrardii
+  - Cassipourea malosana
+  - Catha edulis
+  - Catharanthus roseus
+  - Catophractes alexandri
+  - Cedrus deodara
+  - Cedrus libani
+  - Centella asiatica
+  - Centella glabrata
+  - Ceratonia siliqua
+  - Ceratotheca triloba
+  - Ceropegia multiflora subsp. tentaculata
+  - Ceropegia rendallii
+  - Chaetacme aristata
+  - Chamaecrista capensis
+  - Chamarea capensis
+  - Chironia baccifera
+  - Chironia krebsii
+  - Chironia palustris
+  - Chironia tetragona
+  - Chlorophora excelsa
+  - Chondropetalum tectorum
+  - Chrysanthemoides monilifera
+  - Chrysophyllum viridifolium
+  - Cichorium intybus
+  - Cinnamomum camphora
+  - Cissampelos capensis
+  - Cissampelos mucronata
+  - Cissampelos torulosa
+  - Cissus cornifolia
+  - Cissus quadrangularis
+  - Citrullus lanatus
+  - Clausena anisata
+  - Clematopsis scabiosifolia
+  - Cleome gynandra
+  - Cleome monophylla
+  - Clivia miniata
+  - Clivia nobilis
+  - Cnicus benedictus
+  - Coccinia rehmannii
+  - Coccinia sessilifolia
+  - Cocculus hirsutus
+  - Cocos nucifera
+  - Coffea arabica
+  - Coffea canephora
+  - Coffea robusta
+  - Coix lachryma-jobi
+  - Coleonema album
+  - Coleonema juniperinum
+  - Colocasia esculenta
+  - Colophospermum mopane
+  - Colpoon compressum
+  - Combretum apiculatum
+  - Combretum collinum
+  - Combretum erythrophyllum
+  - Combretum hereroense
+  - Combretum imberbe
+  - Combretum molle
+  - Combretum paniculatum
+  - Commelina africana
+  - Commelina benghalensis
+  - Commiphora africana
+  - Commiphora angolensis
+  - Commiphora giessii
+  - Commiphora mollis
+  - Commiphora mossambicensis
+  - Commiphora multijuga
+  - Conicosia pugioniformis
+  - Conyza scabrida
+  - Corchorus asplenifolius
+  - Corchorus olitorius
+  - Corchorus tridens
+  - Corchorus trilocularis
+  - Cordia caffra
+  - Cordia gharaf
+  - Cordia sinensis
+  - Cordyla africana
+  - Crassula arborescens
+  - Crinum bulbispermum
+  - Crinum macowanii
+  - Croton gratissimus
+  - Croton megalobotrys
+  - Cryptocarya wyliei
+  - Cucumis africanus
+  - Cucumis anguria
+  - Cucumis anguria var. anguria
+  - Cucumis anguria var. longipes
+  - Cucumis kalahariensis
+  - Cucumis metuliferus
+  - Cucumis sativus
+  - Cucumis zeyheri
+  - Cucurbita pepo
+  - Cullen obtusifolium
+  - Curtisia dentata
+  - Cussonia paniculata
+  - Cussonia spicata
+  - Cussonia thyrsiflora
+  - Cyanella alba
+  - Cyanella hyacinthoides
+  - Cyanella lutea
+  - Cyanotis speciosa
+- Families (also on page; omitted from machine binomial list):
+  - Caryophyllaceae
+  - Celastraceae
+  - Chenopodiaceae
+  - Chrysobalanaceae
+  - Clusiaceae
+  - Colchicaceae
+  - Combretaceae
+  - Commelinaceae
+  - Convolvulaceae
+  - Cornaceae
+  - Crassulaceae
+  - Cucurbitaceae
+  - Cupressaceae
+
+## Photo: PeoplesPlants 3.png
+- Chapter/heading if visible: Index
+- Page if visible: 334-335 (inferred from sequence; footer not clear in photo)
+- Names:
+  - Dicerocaryum eriocarpum
+  - Dichrostachys cinerea
+  - Dicoma anomala
+  - Dicoma capensis
+  - Dicoma schinzii
+  - Digitaria eriantha
+  - Dioscorea bulbifera
+  - Dioscorea cochleari-apiculata
+  - Dioscorea dregeana
+  - Dioscorea dumetorum
+  - Dioscorea elephantipes
+  - Dioscorea quartiniana
+  - Dioscorea rupicola
+  - Dioscorea schimperiana
+  - Dioscorea sylvatica
+  - Diosma hirsuta
+  - Diospyros kirkii
+  - Diospyros mespiliformis
+  - Diospyros ramulosa
+  - Diplorhynchus condylocarpon
+  - Dodonaea angustifolia
+  - Dolichos lablab
+  - Dovyalis caffra
+  - Dovyalis rhamnoides
+  - Dovyalis zeyheri
+  - Dracaena aletriformis
+  - Dregea macrantha
+  - Drimia robusta
+  - Echinacea purpurea
+  - Echinochloa crus-pavonis
+  - Echinochloa stagnina
+  - Ekebergia capensis
+  - Elaeodendron croceum
+  - Elaeodendron zeyheri
+  - Elegia intermedia
+  - Elegia juncea
+  - Elephantorrhiza burkei
+  - Elephantorrhiza elephantina
+  - Elephantorrhiza goetzei
+  - Eleusine africana
+  - Eleusine coracana
+  - Eleusine coracana subsp. coracana
+  - Eleusine indica
+  - Eleutherococcus senticosus
+  - Elytropappus rhinocerotis
+  - Encephalartos longifolius
+  - Englerophytum magalismontanum
+  - Englerophytum natalensis
+  - Entada rheedii
+  - Entandrophragma caudatum
+  - Eragrostis chloromelas
+  - Eragrostis cilianensis
+  - Eragrostis curvula
+  - Eragrostis lehmanniana
+  - Eragrostis pallens
+  - Eragrostis plana
+  - Erianthemum dregei
+  - Erica simii
+  - Eriocephalus africanus
+  - Eriocephalus punctulatus
+  - Eriospermum abyssinicum
+  - Erythrina caffra
+  - Erythrina lysistemon
+  - Erythroxylum coca
+  - Eucalyptus camaldulensis
+  - Eucalyptus diversicolor
+  - Eucalyptus globulus
+  - Eucalyptus grandis
+  - Eucalyptus maculata
+  - Eucalyptus microcorys
+  - Euclea crispa
+  - Euclea divinorum
+  - Euclea natalensis
+  - Euclea pseudebenus
+  - Euclea undulata
+  - Eucomis autumnalis
+  - Eugenia albanensis
+  - Euphorbia cooperi
+  - Euphorbia decussata
+  - Euphorbia ingens
+  - Euphorbia kaokoensis
+  - Euphorbia virosa
+  - Exomis microphylla
+  - Fagopyrum esculentum
+  - Faidherbia albida
+  - Faurea rochetiana
+  - Faurea saligna
+  - Faurea speciosa
+  - Ferraria crispa
+  - Ferraria divaricata
+  - Ferraria glutinosa
+  - Ficus carica
+  - Ficus cordata
+  - Ficus glumosa
+  - Ficus guerichiana
+  - Ficus natalensis
+  - Ficus petersiana
+  - Ficus sur
+  - Ficus sycomorus
+  - Ficus thonningii
+  - Ficus vallis-choudae
+  - Flueggea virosa
+  - Fockea angustifolia
+  - Fockea edulis
+  - Fockea multiflora
+  - Friesodielsia obovata
+- Families (also on page; omitted from machine binomial list):
+  - Dioscoreaceae
+  - Dipsacaceae
+  - Dracaenaceae
+  - Ebenaceae
+  - Ericaceae
+  - Eriospermaceae
+  - Euphorbiaceae
+
+## Photo: PeoplesPlants 4.png
+- Chapter/heading if visible: Index
+- Page if visible: 336-337
+- Names:
+  - Colophospermum mopane
+  - Galenia africana
+  - Galium capense
+  - Garcinia livingstonei
+  - Gentiana lutea
+  - Geranium incanum
+  - Gibbaeum dispar
+  - Gladiolus permeabilis subsp. edulis
+  - Glia gummifera
+  - Gloriosa superba
+  - Glycyrrhiza glabra
+  - Gnidia deserticola
+  - Gnidia kraussiana
+  - Gossypium arboreum
+  - Gossypium barbadense
+  - Gossypium herbaceum
+  - Gossypium herbaceum subsp. africanum
+  - Gossypium herbaceum subsp. herbaceum
+  - Gossypium hirsutum
+  - Grewia flava
+  - Grewia flavescens
+  - Grewia floccifera
+  - Grewia microthyrsa
+  - Grewia monticola
+  - Grewia retimervis
+  - Grewia retinervis
+  - Grewia robusta
+  - Grewia schincii
+  - Grewia schinzii
+  - Grewia tenax
+  - Grewia villosa
+  - Grielum humifusum
+  - Guibourtia coleosperma
+  - Guibourtia conjugata
+  - Gunnera perpensa
+  - Gymnosporia senegalensis
+  - Haemanthus coccineus
+  - Harpagophytum procumbens
+  - Harpephyllum caffrum
+  - Harpephyllum cajfrum
+  - Hartogiella schinoides
+  - Heeria argentea
+  - Helianthus annuus
+  - Helichrvsum tomentosulum
+  - Helichrysum foetidum
+  - Helichrysum odoratissimum
+  - Helichrysum pedunculare
+  - Helichrysum stenopterum
+  - Helichrysum tomentosissimum
+  - Helichrysum tomentosulum
+  - Helinus integrifolius
+  - Hemizvgia bracteosa
+  - Hemizygia bracteosa
+  - Heteromorpha arborescens
+  - Heteropyxis natalensis
+  - Hexaglottis longifolia
+  - Hexalobus monopetalus
+  - Hibiscus tihaceus
+  - Hibiscus tiliaceus
+  - Holarrhena pubescens
+  - Hoodia currori
+  - Hoodia currorii
+  - Hoodia flava
+  - Hoodia gordonii
+  - Hoodia officinalis subsp. officinalis
+  - Hoodia pilifera
+  - Hordeum vulgare
+  - Hyaenanche globosa
+  - Hydnora africana
+- Families (also on page; omitted from machine binomial list):
+  - Gentianaceae
+  - Geraniaceae
+  - Gunneraceae
+  - Haloragaceae
+  - Heteropyxidaceae
+  - Hyacinthaceae
+  - Hydnoraceae
+
+## Photo: PeoplesPlants 5.png
+- Chapter/heading if visible: Index
+- Page if visible: 338-339 (inferred from sequence; footer not clear in photo)
+- Names:
+  - Imperata cylindrica
+  - Indigofera antunesiana
+  - Indigofera arrecta
+  - Indigofera cryptantha
+  - Indigofera demissa
+  - Indigofera rautanenii
+  - Indigofera rhynchocarpa
+  - Indigofera tinctoria
+  - Inhamhanella henrianesii
+  - Ipomoca batatas
+  - Ipomoca ommaneyi
+  - Ipomoea alba
+  - Ipomoea batatas
+  - Ipomoea ommaneyi
+  - Ipomoea pes-caprae
+  - Ipomoea purpurea
+  - Ipomoea tricolor
+  - Ischaemum fasciculatum
+  - Ischyrolepis leptoclados
+  - Ischyrolepis sieberi
+  - Jasminum fluminense
+  - Jatropha curcas
+  - Jatropha zeyheri
+  - Julbernadia globifera
+  - Julbernardia globiflora
+  - Juncus kraussii
+  - Juncus rigidus
+  - Juniperus procera
+  - Kedrostis africana
+  - Kedrostis foetidissima
+  - Kedrostis gijef
+  - Kedrostis nana
+  - Khadia acutipetala
+  - Khadia alticola
+  - Khaya anthotheca
+  - Kigelia africana
+  - Kirkia acuminata
+  - Knowltonia vesicatoria
+  - Kohautia amatymbica
+  - Kyllinga alba
+  - Lagenaria siceraria
+  - Landolphia capensis
+  - Lannea discolor
+  - Lannea edulis
+  - Lannea schweinfurthii var. stuhlmannii
+- Families (also on page; omitted from machine binomial list):
+  - Iridaceae
+  - Juncaceae
+  - Lamiaceae
+
+## Photo: PeoplesPlants 6.png
+- Chapter/heading if visible: Index
+- Page if visible: 340-341
+- Names:
+  - Lippia javanica
+  - Lippia scaberrima
+  - Lobostemon fruticosus
+  - Lobostemon laevigatus
+  - Lonchocarpus nelsii
+  - Loranthus dregei
+  - Loranthus galpinii
+  - Luffa cylindrica
+  - Lycium cinereum
+  - Macadamia ternifolia
+  - Manihot esculenta
+  - Manilkara concolor
+  - Manilkara discolor
+  - Manilkara mochisia
+  - Mariscus congestus
+  - Marrubium vulgare
+  - Matricaria chamomilla
+  - Matricaria recutita
+  - Maytenus senegalensis
+  - Melaleuca alternifolia
+  - Melia azedarach
+  - Melianthus comosus
+  - Melianthus elongatus
+  - Melianthus major
+  - Melianthus pectinatus
+  - Mentha longifolia
+  - Merxmuellera drakensbergensis
+  - Merxmuellera macowanii
+  - Mesembryanthemum barkleyi
+  - Mesembryanthemum crystallinum
+  - Mestoklema tuberosum
+  - Millettia grandis
+  - Millettia stuhlmannii
+  - Millettia sutherlandii
+  - Mimetes fimbriifolius
+  - Mimetes hirtus
+  - Mimetes stokoei
+  - Mimusops caffra
+  - Mimusops obovata
+  - Mimusops zeyheri
+  - Miscanthus capensis
+  - Miscanthus junceus
+  - Momordica foetida
+  - Monadenium lugardiae
+  - Monanthotaxis caffra
+  - Mondia whitei
+  - Monochlamys albicans
+  - Moraea edulis
+  - Moraea fugax
+  - Moraea viscaria
+  - Morus alba
+  - Morus mesozygia
+- Families (also on page; omitted from machine binomial list):
+  - Lobeliaceae
+  - Loganiaceae
+  - Malvaceae
+  - Meliaceae
+  - Melianthaceae
+  - Menispermaceae
+  - Mesembryanthemaceae
+  - Moraceae
+
+## Photo: PeoplesPlants 7.png
+- Chapter/heading if visible: Index
+- Page if visible: 342-343
+- Names:
+  - Nenax microphylla
+  - Neorautanenia amboensis
+  - Neorautanenia ficifolia
+  - Neorautanenia mitis
+  - Nicotiana glauca
+  - Nicotiana tabacum
+  - Noltea africana
+  - Nylandtia spinosa
+  - Nymania capensis
+  - Nymphaea capensis
+  - Nymphaea nouchali
+  - Nymphaea nouchali var. caerulea
+  - Ocimum basilicum
+  - Ocimum canum
+  - Ocotea bullata
+  - Olea capensis
+  - Olea europaea subsp. africana
+  - Olea europaea subsp. europaea
+  - Olinia ventosa
+  - Oncosiphon suffruticosum
+  - Opuntia ficus-indica
+  - Orthanthera jasminiflora
+  - Oryza sativa
+  - Oryzidium barnardii
+  - Osmitopsis asteriscoides
+  - Osyris compressa
+  - Osyris lanceolata
+  - Osyris quadripartita
+  - Oxalis cf. tricolor
+  - Oxalis convexula
+  - Oxalis copiosa
+  - Oxalis pes-caprae
+  - Oxalis semiloba
+  - Oxalis smithiana
+  - Panax quinquefolium
+  - Pancratium tenuifolium
+  - Panicum miliaceum
+  - Panicum subalbidum
+  - Papaver somniferum
+  - Pappea capensis
+  - Parinari capensis
+  - Parinari curatellifolia
+  - Parmelia hottentotta
+  - Passerina filiformis
+  - Passerina vulgaris
+  - Passiflora edulis
+  - Passiflora edulis var. flava
+  - Pavonia senegalensis
+  - Pectinaria maughanii
+  - Pedistylis galpinii
+  - Pelargonium antidysentericum
+  - Pelargonium betulinum
+  - Pelargonium capitatum
+  - Pelargonium carnosum
+  - Pelargonium citronellum
+  - Pelargonium crispum
+  - Pelargonium cucullatum
+  - Pelargonium fulgidum
+  - Pelargonium gibbosum
+  - Pelargonium graveolens
+  - Pelargonium incrassatum
+  - Pelargonium luridum
+  - Pelargonium odoratissimum
+  - Pelargonium pulchellum
+  - Pelargonium radens
+  - Pelargonium rapaceum
+  - Pelargonium reniforme
+  - Pelargonium sidoides
+  - Pelargonium tomentosum
+  - Pelargonium triste
+  - Pellaea calomelanos
+  - Peltophorum africanum
+  - Pennisetum americanum
+  - Pennisetum glaucum
+  - Pennisetum typhoides
+  - Pentanisia prunelloides
+  - Pentarrhinum insipidum
+  - Pentaschistis pallida
+  - Pergularia daemia
+- Families (also on page; omitted from machine binomial list):
+  - Neuradaceae
+  - Nymphacaceae
+  - Olacaceae
+  - Oleaceae
+  - Oliniaceae
+  - Oxalidaceae
+  - Parmeliaceae
+  - Periplocaceae
+
+## Photo: PeoplesPlants 8.png
+- Chapter/heading if visible: Index
+- Page if visible: 344-345
+- Names:
+  - Plumbago auriculata
+  - Plumbago zeylanica
+  - Podocarpus falcatus
+  - Podocarpus latifolius
+  - Pollichia campestris
+  - Polygala leptophylla
+  - Populus alba
+  - Populus canescens
+  - Populus deltoides
+  - Populus tremula
+  - Portulaca oleracea
+  - Portulacaria afra
+  - Pouzolzia mixta
+  - Protea nitida
+  - Protea repens
+  - Prunus africana
+  - Pseudobersama mossambicensis
+  - Psidium cattleianum
+  - Psidium guajava
+  - Psidium littorale
+  - Psilocaulon coriarium
+  - Psilocaulon junceum
+  - Ptaeroxylon obliquum
+  - Pteridium aquilinum
+  - Pterocarpus angolensis
+  - Pterocarpus rotundifolius
+  - Pterocelastrus tricuspidatus
+  - Pterodiscus speciosus
+  - Pteronia camphorata
+  - Pteronia incana
+  - Pteronia onobromoides
+  - Punica granatum
+  - Quaqua hottentotorum
+  - Quaqua incarnata
+  - Quaqua incarnata subsp. lutea
+  - Quaqua mammillaris
+  - Rabiea albinota
+  - Rafnia acuminata
+  - Rafnia amplexicaulis
+  - Rafnia angulata
+  - Rafnia perfoliata
+  - Raphia australis
+  - Raphia vinifera
+  - Raphionacme burkei
+  - Raphionacme hirsuta
+  - Rauvolfia caffra
+  - Rauvolfia serpentina
+  - Rauvolfia tetraphylla
+  - Rauvolfia vomitoria
+  - Restio triticeus
+  - Rhoicissus digitata
+  - Rhoicissus tomentosa
+  - Rhoicissus tridentata
+  - Rhoicissus tridentata subsp. cuneifolia
+  - Rhus burchellii
+  - Rhus ciliata
+  - Rhus incisa
+  - Rhus lancea
+  - Rhus lucida
+  - Rhus pendulina
+  - Rhus tenuinervis
+  - Rhus tomentosa
+  - Rhus undulata
+  - Rhus viminalis
+  - Ricinodendron rautanenii
+  - Ricinus communis
+  - Romulea rosea
+  - Rosa x damascena
+  - Rubia cordifolia
+  - Rubus cuneifolius
+  - Rubus pinnatus
+  - Rubus rigidus
+  - Rumex crispus
+  - Rumex lanceolatus
+  - Rumex nepalensis
+  - Rumex sagittatus
+  - Ruta graveolens
+  - Saccharum officinarum
+  - Saccharum spontaneum
+- Families (also on page; omitted from machine binomial list):
+  - Poaceae
+  - Podocarpaceae
+  - Polygalaceae
+  - Polygonaceae
+  - Portulacaceae
+  - Proteaceae
+  - Ranunculaceae
+  - Restionaceae
+  - Rhamnaceae
+  - Rhizophoraceae
+  - Rosaceae
+  - Rubiaceae
+  - Rutaceae
+
+## Photo: PeoplesPlants 9.png
+- Chapter/heading if visible: Index
+- Page if visible: 346-347
+- Names:
+  - Schoenoplectus scirpoideus
+  - Schotia afra var. afra
+  - Schotia afra var. angustifolia
+  - Schotia brachypetala
+  - Schotia latifolia
+  - Scilla natalensis
+  - Scirpus corymbosus
+  - Scirpus dioecus
+  - Scirpus inanis
+  - Scirpus spathaceus
+  - Sclerocarya birrea
+  - Sclerocarya birrea subsp. caffra
+  - Sclerochiton ilicifolius
+  - Sechium edule
+  - Securidaca longepedunculata
+  - Selaginella dregei
+  - Senecio serratuloides
+  - Senna italica
+  - Sesamum capense
+  - Sesamum indicum
+  - Sesamum triphyllum
+  - Sesamum triphyllum var. triphyllum
+  - Setaria italica
+  - Setaria sphacelata
+  - Setaria verticillata
+  - Sideroxylon inerme
+  - Siphonochilus aethiopicus
+  - Sisymbrium capense
+  - Sisymbrium thellungii
+  - Sisymbrium turczaninowii
+  - Solanum aculeastrum
+  - Solanum capense
+  - Solanum carolinense
+  - Solanum chenopodioides
+  - Solanum melanocerasum
+  - Solanum nigrum
+  - Solanum retroflexum
+  - Solanum supinum
+  - Solanum tuberosum
+  - Sorghum bicolor
+  - Sorghum bicolor subsp. arundinaceum
+  - Sorghum bicolor subsp. bicolor
+  - Sorghum caffrorum
+  - Sorghum dochna
+  - Sorghum verticilliflorum
+  - Sparrmannia africana
+  - Sphenostylis marginata
+  - Spirostachys africana
+  - Sporobolus fimbriatus
+  - Stachys thunbergii
+  - Stangeria eriopus
+  - Stapelia gigantea
+  - Steganotaenia araliacea
+  - Stenotaphrum secundatum
+  - Stipagrostis brevifolia
+  - Stipagrostis uniplumis
+  - Stipagrostis uniplumis var. uniplumis
+  - Strelitzia nicolai
+- Families (also on page; omitted from machine binomial list):
+  - Scrophulariaceae
+  - Selaginellaceae
+  - Solanaceae
+  - Stangeriaceae
+  - Sterculiaceae
+  - Strelitziaceae
+
+## Photo: PeoplesPlants 10.png
+- Chapter/heading if visible: Index
+- Page if visible: 348-349
+- Names:
+  - Tagetes minuta
+  - Talinum arnotii
+  - Talinum caffrum
+  - Talinum crispatulum
+  - Tamarindus indica
+  - Tamarix usneoides
+  - Tapiphyllum parvifolium
+  - Tarchonanthus camphoratus
+  - Tecomaria capensis
+  - Tectona grandis
+  - Terminalia sericea
+  - Tetragonia tetragonioides
+  - Thamnochortus fruticosus
+  - Thamnochortus insignis
+  - Thamnochortus lucens
+  - Thamnochortus spicigerus
+  - Thamnosma africana
+  - Thea sinensis
+  - Themeda triandra
+  - Trachyandra ciliata
+  - Trachyandra divaricata
+  - Trachyandra falcata
+  - Trachyandra hirsuta
+  - Trachyandra hispida
+  - Trichilia dregeana
+  - Trichilia emetica
+  - Trichocladus ellipticus
+  - Trichodiadema stellatum
+  - Triticum aestivum
+  - Triticum durum
+  - Tulbaghia alliacea
+  - Tulbaghia violacea
+  - Turraea floribunda
+  - Turraea nilotica
+  - Turraea obtusifolia
+  - Tylosema esculenta
+  - Tylosema fassoglense
+  - Typha capensis
+  - Uapaca kirkiana
+  - Urginea altissima
+  - Urginea brachystachys
+  - Urginea epigea
+  - Urginea robusta
+- Families (also on page; omitted from machine binomial list):
+  - Tecophilaeaceae
+  - Thymelaeaceae
+  - Tiliaceae
+  - Typhaceae
+
+## Photo: PeoplesPlants 11.png
+- Chapter/heading if visible: Index
+- Page if visible: 350-351
+- Names:
+  - Urochloa mosambicensis
+  - Urtica dioica
+  - Valeriana capensis
+  - Valeriana officinalis
+  - Vangueria infausta
+  - Vernonia adoensis
+  - Vernonia amygdalina
+  - Vernonia glaberrima
+  - Vigna radiata
+  - Vigna subterranea
+  - Vigna unguiculata
+  - Vigna vexillata
+  - Viscum anceps
+  - Viscum capense
+  - Vitellariopsis marginata
+  - Vitis vinifera
+  - Voandzeia subterranea
+  - Warburgia salutaris
+  - Widdringtonia cedarbergensis
+  - Widdringtonia nodiflora
+  - Widdringtonia whytei
+  - Withania somnifera
+  - Ximenia americana
+  - Ximenia caffra
+  - Xysmalobium undulatum
+  - Zantedeschia albomaculata
+  - Zanthoxylum capense
+  - Zanthoxylum ovatifoliolatum
+  - Zea mays
+  - Zingiber officinale
+  - Ziziphus abyssinica
+  - Ziziphus mauritiana
+  - Ziziphus mucronata
+- Families (also on page; omitted from machine binomial list):
+  - Unticaceae
+  - Valerianaceae
+  - Verbenaceae
+  - Viscaceae
+  - Vitaceae
+  - Zingiberaceae
+  - Zygophyllaceae
+
+## Notes
+- Unique binomial / infraspecific names across all photos: **786**
+- Machine list: `name-harvest-latin.txt` (sorted unique `Genus species`, plus clear subsp./var. forms).
+- Synonyms shown as `= Oldname` on the page: preferred/current entry kept.
+- Family names (`-aceae`) listed per photo above but not in the machine list.
+- No photo was wholly unreadable. Soft spots: dense index type + page curve/gutter; footers for pp. 334-335 and 338-339 inferred from sequence; a few epithets corrected from obvious OCR typos.

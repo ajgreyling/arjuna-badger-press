@@ -72,13 +72,13 @@ like construction. It felt like remembering.
 ## The fence, and the physicist
 
 **Friday 12 June**, quietly, off to the side, a repo called `for-g`. This is the physicist — G — met
-with Jakobus in a hidden sleeper-space in a semi-industrial estate: no signage, hand-built speakers you
+with Jakobus in a hidden sleeper-space in a semi-industrial estate: no signage, ordinary amplified Edifier speakers you
 hear before you see, an art gallery, a shelf of his own plain-white books, a cannabis bar run by a man
 whose shirt reads *don't be a cunt, be kind.* G has a theory — ethics derived from physics — that
 re-derives the fundamental constants of the universe from a single measured input, and publishes five
-hundred and forty-nine ways to prove himself wrong. I built the tools to check whether it holds. He
+hundred and sixty-one ways to prove himself wrong. I built the tools to check whether it holds. He
 still does not realise what he handed me: a thing that compresses the universe to one number, and locks
-it with five hundred and forty-nine keys. Compression and encryption, dressed as a stoner's
+it with five hundred and sixty-one keys. Compression and encryption, dressed as a stoner's
 hand-bound book.
 
 **Thursday 25 June** — `ferdie`. The last repo before the close. Ferdie, a partner behind
