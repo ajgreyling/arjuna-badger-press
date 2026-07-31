@@ -905,286 +905,550 @@ On ours: the thorns were always the point. We should have filed that first.
 
 
 # The Photostats
-What the File cites, as received. School record first, then the adult credentials, then the
-redacted yearbook plates that ground the enrichment note. The prose dossier redacts what the
-public edition must not spell out in running text; the plates themselves are the paper trail.
 
-## School file
-Nursery through Senior Certificate. Photostats staged 2026-07-31 from the author's school
-record (*Skool1* / *Skool2* scans). Grounds *The File* (ch-50).
+What the File cites, as received: labelled and ordered by date. School certificates and reports first, then adult credentials, then yearbook and press plates with names printed (including **S. Harts** in the Verrykingsonderwys class photos). The prose dossier still redacts what running text must not spell out; the plates are the paper trail.
 
-### Plate S01
+## School certificates and reports
 
-![School file photostat 1](books/the-loneliest/design/images/certificates/print/skool1-00.jpg){width=85%}
+### 1983-11-18: Newspaper: Marionettes at Rinkinkel Kleuterskool (Bronkhorstspruit, Cullinan & Rayton Nuus)
 
-### Plate S02
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-00.jpg){width=70%}
 
-![School file photostat 2](books/the-loneliest/design/images/certificates/print/skool1-1.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S03
+### c. 1983-84: Rinkinkel Kleuterskool progress report to parents (Vorderingsverslag, Bylae F)
 
-![School file photostat 3](books/the-loneliest/design/images/certificates/print/skool1-2.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-1.jpg){width=70%}
 
-### Plate S04
+```{=latex}
+\clearpage
+```
 
-![School file photostat 4](books/the-loneliest/design/images/certificates/print/skool1-3.jpg){width=85%}
+### c. 1986: Laerskool Davel Grade 1 progress report
 
-### Plate S05
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-2.jpg){width=70%}
 
-![School file photostat 5](books/the-loneliest/design/images/certificates/print/skool1-4.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S06
+### 1987-11-30: Laerskool Davel Certificate of Merit (academic, Grade 2, average 80-100 percent)
 
-![School file photostat 6](books/the-loneliest/design/images/certificates/print/skool1-5.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-3.jpg){width=70%}
 
-### Plate S07
+```{=latex}
+\clearpage
+```
 
-![School file photostat 7](books/the-loneliest/design/images/certificates/print/skool1-6.jpg){width=85%}
+### 1988-03: Bethlehem Landbougenootskap exhibition prize cards (2nd & 3rd, section H)
 
-### Plate S08
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-5.jpg){width=70%}
 
-![School file photostat 8](books/the-loneliest/design/images/certificates/print/skool1-7.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S09
+### c. 1988: Truida Kestell Std 1 term report
 
-![School file photostat 9](books/the-loneliest/design/images/certificates/print/skool1-8.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-4.jpg){width=70%}
 
-### Plate S10
+```{=latex}
+\clearpage
+```
 
-![School file photostat 10](books/the-loneliest/design/images/certificates/print/skool1-9.jpg){width=85%}
+### c. 1990: Truida Kestell Std 3 term report
 
-### Plate S11
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-6.jpg){width=70%}
 
-![School file photostat 11](books/the-loneliest/design/images/certificates/print/skool1-10.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S12
+### c. 1990-91: Truida Kestell term report (symbols sheet)
 
-![School file photostat 12](books/the-loneliest/design/images/certificates/print/skool1-11.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-7.jpg){width=70%}
 
-### Plate S13
+```{=latex}
+\clearpage
+```
 
-![School file photostat 13](books/the-loneliest/design/images/certificates/print/skool1-12.jpg){width=85%}
+### c. 1991: Truida Kestell term report
 
-### Plate S14
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-8.jpg){width=70%}
 
-![School file photostat 14](books/the-loneliest/design/images/certificates/print/skool1-13.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S15
+### c. 1991: Truida Kestell Verrykingsonderwys sheet (Std 4)
 
-![School file photostat 15](books/the-loneliest/design/images/certificates/print/skool1-14.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-10.jpg){width=70%}
 
-### Plate S16
+```{=latex}
+\clearpage
+```
 
-![School file photostat 16](books/the-loneliest/design/images/certificates/print/skool1-15.jpg){width=85%}
+### 1991-11-29: Truida Kestell Model B admission notice for 1992
 
-### Plate S17
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-9.jpg){width=70%}
 
-![School file photostat 17](books/the-loneliest/design/images/certificates/print/skool1-16.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S18
+### c. 1992: Truida Kestell Verrykingsonderwys sheet (Std 5)
 
-![School file photostat 18](books/the-loneliest/design/images/certificates/print/skool1-17.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-11.jpg){width=70%}
 
-### Plate S19
+```{=latex}
+\clearpage
+```
 
-![School file photostat 19](books/the-loneliest/design/images/certificates/print/skool1-18.jpg){width=85%}
+### c. 1992: Truida Kestell term report (late primary)
 
-### Plate S20
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-12.jpg){width=70%}
 
-![School file photostat 20](books/the-loneliest/design/images/certificates/print/skool2-00.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S21
+### 1992-12-11: Transfer of learner from Truida Kestell (Onderwysdepartement CE72)
 
-![School file photostat 21](books/the-loneliest/design/images/certificates/print/skool2-1.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-3.jpg){width=70%}
 
-### Plate S22
+```{=latex}
+\clearpage
+```
 
-![School file photostat 22](books/the-loneliest/design/images/certificates/print/skool2-2.jpg){width=85%}
+### c. 1993-94: Onderwyssentrum Bloemfontein: Verrykingsonderwys merit (Philosophy / Filosofie)
 
-### Plate S23
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-2.jpg){width=70%}
 
-![School file photostat 23](books/the-loneliest/design/images/certificates/print/skool2-3.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S24
+### 1993-10-22: Newspaper: Free State Biology Olympiad (Bethlehem Voortrekker top-10 finishers)
 
-![School file photostat 24](books/the-loneliest/design/images/certificates/print/skool2-4.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-6.jpg){width=70%}
 
-### Plate S25
+```{=latex}
+\clearpage
+```
 
-![School file photostat 25](books/the-loneliest/design/images/certificates/print/skool2-5.jpg){width=85%}
+### 1993-10-22: Newspaper clipping (Biology Olympiad photo and caption, second scan)
 
-### Plate S26
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-17.jpg){width=70%}
 
-![School file photostat 26](books/the-loneliest/design/images/certificates/print/skool2-6.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S27
+### c. 1993: Bethlehem Voortrekker Hoërskool term report (Std 6)
 
-![School file photostat 27](books/the-loneliest/design/images/certificates/print/skool2-7.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-13.jpg){width=70%}
 
-### Plate S28
+```{=latex}
+\clearpage
+```
 
-![School file photostat 28](books/the-loneliest/design/images/certificates/print/skool2-8.jpg){width=85%}
+### 1993-12-10: Bethlehem Voortrekker Hoërskool Std 6B year report
 
-### Plate S29
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-14.jpg){width=70%}
 
-![School file photostat 29](books/the-loneliest/design/images/certificates/print/skool2-9.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S30
+### c. 1994: Bethlehem Voortrekker Hoërskool term report
 
-![School file photostat 30](books/the-loneliest/design/images/certificates/print/skool2-10.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-5.jpg){width=70%}
 
-### Plate S31
+```{=latex}
+\clearpage
+```
 
-![School file photostat 31](books/the-loneliest/design/images/certificates/print/skool2-11.jpg){width=85%}
+### 1994-08: Tenshinkan Karate Association: 8th Kyu, 2nd Yellow (instructor Hans Haupt)
 
-### Plate S32
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-4.jpg){width=70%}
 
-![School file photostat 32](books/the-loneliest/design/images/certificates/print/skool2-12.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S33
+### 1994-10-12: Bethlehem Voortrekker certificate of distinction
 
-![School file photostat 33](books/the-loneliest/design/images/certificates/print/skool2-13.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-1.jpg){width=70%}
 
-### Plate S34
+```{=latex}
+\clearpage
+```
 
-![School file photostat 34](books/the-loneliest/design/images/certificates/print/skool2-14.jpg){width=85%}
+### c. 1995: Bethlehem Voortrekker Hoërskool Std 8 term report
 
-### Plate S35
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-8.jpg){width=70%}
 
-![School file photostat 35](books/the-loneliest/design/images/certificates/print/skool2-15.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S36
+### 1995-10-12: Voortrekker merit certificate (half colours / academic distinctions)
 
-![School file photostat 36](books/the-loneliest/design/images/certificates/print/skool2-16.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-18.jpg){width=70%}
 
-### Plate S37
+```{=latex}
+\clearpage
+```
 
-![School file photostat 37](books/the-loneliest/design/images/certificates/print/skool2-17.jpg){width=85%}
+### 1995-10-12: Voortrekker merit certificate (companion sheet)
 
-### Plate S38
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-00.jpg){width=70%}
 
-![School file photostat 38](books/the-loneliest/design/images/certificates/print/skool2-18.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate S39
+### c. 1995: Voortrekker staff congratulatory certificate
 
-![School file photostat 39](books/the-loneliest/design/images/certificates/print/skool2-19.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/skool1-15.jpg){width=70%}
 
-### Plate S40
+```{=latex}
+\clearpage
+```
 
-![School file photostat 40](books/the-loneliest/design/images/certificates/print/skool2-20.jpg){width=85%}
+### c. 1996: Bethlehem Voortrekker Hoërskool Std 9 term report
 
-### Plate S41
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-7.jpg){width=70%}
 
-![School file photostat 41](books/the-loneliest/design/images/certificates/print/skool2-21.jpg){width=85%}
+```{=latex}
+\clearpage
+```
+
+### c. 1996-97: Voortrekker congratulatory / merit certificate
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-12.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### 1997-07-31: Principal's testimonial (To Whom It May Concern), page 1
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-9.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### 1997-07-31: Principal's testimonial, page 2 (recommendation)
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-10.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### 1997-08-15: Sasol / SA VONS Skeinat convention: top-50 Standard 10 Olympiad qualifier (Welkom)
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-11.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### 1997-12-30: Senior Certificate statement of symbols (Matriculation Endorsement, November 1997)
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-14.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1997: Senior Certificate / matric companion plate
+
+![Photostat](books/the-loneliest/design/images/certificates/print/skool2-15.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
 
 ## Adult credentials
-NCC diplomas, Certificates of Service, and later professional papers (*werk* scans), including
-the SAMSA Day Skipper ticket. Grounds *What Became of Him* (ch-51).
 
-### Plate W01
+### 1998-12-04: NCC International Diploma in Computer Programming (Credit; WS&L Training, Cape Town)
 
-![Adult credential: werk 01](books/the-loneliest/design/images/certificates/print/werk/werk-01.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-02.jpg){width=70%}
 
-### Plate W02
+```{=latex}
+\clearpage
+```
 
-![Adult credential: werk 02](books/the-loneliest/design/images/certificates/print/werk/werk-02.jpg){width=85%}
+### 1999-01-08: Tandem Concepts & Facilities (High Availability Solutions)
 
-### Plate W03
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-03.jpg){width=70%}
 
-![Adult credential: werk 03](books/the-loneliest/design/images/certificates/print/werk/werk-03.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate W04
+### 1999-01-13: Tandem TM/MP Operations & Management
 
-![Adult credential: werk 04](books/the-loneliest/design/images/certificates/print/werk/werk-04.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-14.jpg){width=70%}
 
-### Plate W05
+```{=latex}
+\clearpage
+```
 
-![Adult credential: werk 05](books/the-loneliest/design/images/certificates/print/werk/werk-05.jpg){width=85%}
+### 1999-01-15: Tandem Pathway System Management
 
-### Plate W06
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-15.jpg){width=70%}
 
-![Adult credential: werk 06](books/the-loneliest/design/images/certificates/print/werk/werk-06.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate W07
+### 1999-03-05: Tandem NonStop SQL/MP Special
 
-![Adult credential: werk 07](books/the-loneliest/design/images/certificates/print/werk/werk-07.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-13.jpg){width=70%}
 
-### Plate W08
+```{=latex}
+\clearpage
+```
 
-![Adult credential: werk 08](books/the-loneliest/design/images/certificates/print/werk/werk-08.jpg){width=85%}
+### 1999-03-12: Tandem TACL Programming
 
-### Plate W09
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-12.jpg){width=70%}
 
-![Adult credential: werk 09](books/the-loneliest/design/images/certificates/print/werk/werk-09.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate W10
+### 1999-03-13: NCC International Diploma in Computer Studies (Distinction, 79.3)
 
-![Adult credential: werk 10](books/the-loneliest/design/images/certificates/print/werk/werk-10.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-01.jpg){width=70%}
 
-### Plate W11
+```{=latex}
+\clearpage
+```
 
-![Adult credential: werk 11](books/the-loneliest/design/images/certificates/print/werk/werk-11.jpg){width=85%}
+### 1999-03-19: Advanced COBOL Programming with Tandem Extensions
 
-### Plate W12
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-11.jpg){width=70%}
 
-![Adult credential: werk 12](books/the-loneliest/design/images/certificates/print/werk/werk-12.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate W13
+### 1999-11: CO-ach Training certificate of completion
 
-![Adult credential: werk 13](books/the-loneliest/design/images/certificates/print/werk/werk-13.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-07.jpg){width=70%}
 
-### Plate W14
+```{=latex}
+\clearpage
+```
 
-![Adult credential: werk 14](books/the-loneliest/design/images/certificates/print/werk/werk-14.jpg){width=85%}
+### c. 2000: Object Oriented Analysis and Design Workshop (Radical Training)
 
-### Plate W15
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-04.jpg){width=70%}
 
-![Adult credential: werk 15](books/the-loneliest/design/images/certificates/print/werk/werk-15.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate W16
+### 2002-07-03: BoE Bank Certificate of Service (Analyst Programmer, 1 Jan 1999 - 31 Jul 2002)
 
-![Adult credential: werk 16](books/the-loneliest/design/images/certificates/print/werk/werk-16.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-05.jpg){width=70%}
 
-### Plate W17
+```{=latex}
+\clearpage
+```
 
-![Adult credential: samsa day skipper 2010](books/the-loneliest/design/images/certificates/print/werk/samsa-day-skipper-2010.jpg){width=85%}
+### 2003-10-09: Microsoft: ADO.NET (Netscope / Microsoft Official Curriculum)
 
-## Yearbook plates
-Redacted yearbook and newspaper scans already held under `design/images/yearbook/`. Other
-faces blurred; the author kept where named. Grounds *A Note on the Real Thing Underneath*
-(ch-98).
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-10.jpg){width=70%}
 
-### Plate Y01
+```{=latex}
+\clearpage
+```
 
-![Yearbook plate 1](books/the-loneliest/design/images/yearbook/print/IMG_6173-redacted.jpg){width=85%}
+### 2003-10-29: Microsoft: Developing ASP.NET Web Applications using Visual Studio .NET
 
-### Plate Y02
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-08.jpg){width=70%}
 
-![Yearbook plate 2](books/the-loneliest/design/images/yearbook/print/IMG_6174-redacted.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate Y03
+### 2004-10: TeamTrack Administrator Course (4th-8th October 2004)
 
-![Yearbook plate 3](books/the-loneliest/design/images/yearbook/print/IMG_6175-redacted.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-06.jpg){width=70%}
 
-### Plate Y04
+```{=latex}
+\clearpage
+```
 
-![Yearbook plate 4](books/the-loneliest/design/images/yearbook/print/IMG_6176-redacted.jpg){width=85%}
+### 2010-11-29: SAMSA Certificate of Competence: Day Skipper, Category C
 
-### Plate Y05
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/samsa-day-skipper-2010.jpg){width=70%}
 
-![Yearbook plate 5](books/the-loneliest/design/images/yearbook/print/IMG_6177-redacted.jpg){width=85%}
+```{=latex}
+\clearpage
+```
 
-### Plate Y06
+### 2013-06-03: Introduction to Windows Communication Foundation (Technology Skills Factory)
 
-![Yearbook plate 6](books/the-loneliest/design/images/yearbook/print/IMG_6178-redacted.jpg){width=85%}
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-09.jpg){width=70%}
 
-### Plate Y07
+```{=latex}
+\clearpage
+```
 
-![Yearbook plate 7](books/the-loneliest/design/images/yearbook/print/IMG_6198-redacted.jpg){width=85%}
+### c. 2010s: Additional professional credential plate
 
-### Plate Y08
+![Photostat](books/the-loneliest/design/images/certificates/print/werk/werk-16.jpg){width=70%}
 
-![Yearbook plate 8](books/the-loneliest/design/images/yearbook/print/IMG_6199-redacted.jpg){width=85%}
+```{=latex}
+\clearpage
+```
+
+## Yearbook and press plates
+
+### 1993: Yearbook: V.O.-Leerlinge (Voortrekker enrichment class; names printed)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6170.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993: Yearbook: Verrykingsonderwys page header
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6171.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993-94: Yearbook: Verrykingsonderwys class photo (S. Harts named, back row)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6172.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993-94: Yearbook: Verrykingsonderwys class photo, alternate page (S. Harts named, back row)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6175.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993: Yearbook: Vriende van Groep 25 / Cadets (beste junior)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6176.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993: Yearbook: Standerd 6 Standerdpresteerders
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6177.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993: Yearbook: Standerd 6 academic merit awards (A. Greyling named)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6178.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1993: Yearbook: Biology Olympiad note: Andries Greyling, 3rd in OVS (Std 6)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6198.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1994-97: Newspaper: Free State Skeinat Olympiad (top-50 Voortrekker learners)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6179.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1994-97: Newspaper clipping (Skeinat Olympiad, second scan)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6199.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1995: Yearbook: class / half-colours group (A. Greyling, second row)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6190.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1995: Yearbook: class group with printed English name list
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6191.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1995: Yearbook: academic points band 1500-1890 (A. Greyling named, middle row)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6194.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1996: Yearbook: Std 7 Standerdpresteerders
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6196.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1996: Yearbook: V.O. class with Mev. A. Blignault (A. Greyling, middle row)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6197.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1995-96: Yearbook: enrichment / class group (names printed)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6193.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
+
+### c. 1995-96: Yearbook: class group (back row names printed)
+
+![Photostat](books/the-loneliest/design/images/yearbook/print/IMG_6195.jpg){width=70%}
+
+```{=latex}
+\clearpage
+```
 
 
 # Addendum: The Library
