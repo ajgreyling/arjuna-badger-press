@@ -95,10 +95,11 @@ naming it poses no risk; "full send"):
   heavy fictional-firewall caveat was softened per "full send" but the real-teachers guard remains.
 - **Same real schooling also grounds the crop-circle book's back matter** (the cadet/.22 + one-shot-
   father material) — see [[crop-circles-book]] / its `THE_CHALK_AND_THE_CAMPS.md` §5.
-- **Photos:** 8 yearbook/newspaper scans redacted → `design/images/yearbook/*-redacted.png`
-  (others blurred + name captions blacked; author face kept where named). Re-run:
-  `books/the-loneliest/.venv/bin/python books/the-loneliest/scripts/blur_yearbook_faces.py`.
-  Empty re-exports (IMG_6187–6197) still need a proper Photos export for the 2nd VO page.
+- **Photos:** Unredacted yearbook/press scans live under `design/images/yearbook/source/`
+  (names printed, including classmate **S. Harts** on the Verrykingsonderwys plates). Print
+  JPEGs for the book are under `design/images/yearbook/print/`. Older `*-redacted.png` files
+  are superseded for embed; names need not be blacked. Plate order + labels:
+  `design/images/certificates/PLATES.json` → `build/chapters/ch-52.md`.
 
 ## Backmatter (after the fiction)
 | File | Title | Role |
