@@ -166,9 +166,12 @@ def render_via_gate() -> None:
         epub()
         return
     out_base.parent.mkdir(parents=True, exist_ok=True)
+    # CWD = repo root so relative image paths in BOOK.md
+    # (books/the-loneliest/design/images/...) resolve for pandoc EPUB + PDF.
     subprocess.run(
         ["bash", str(gate), str(book_md), str(out_base), TITLE, AUTHOR],
         check=True,
+        cwd=str(repo),
     )
 
 
