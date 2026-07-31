@@ -381,7 +381,10 @@ PUBLISHED = set(
         "the-little-key,"
         # Children's Library — Classic African Stories (pourquoi folktales), 2026-06-24:
         "why-elephant-trunk,how-zebra-got-stripes,how-fire-came,"
-        "bird-of-paradise-flower,how-king-lion",
+        "bird-of-paradise-flower,how-king-lion,"
+        # codex-medica (Codex Medica): ethnobotanical research constitution, edition 0.2 foundation
+        # locked. Non-clinical by binding notice. EPUB/PDF with PD/CC plant plates.
+        "codex-medica",
     ).split(",") if s.strip()
 )
 
@@ -476,7 +479,7 @@ SHOW_PROCEDURAL = os.environ.get("ABP_SHOW_PROCEDURAL", "") in ("1", "true", "ye
 PROCEDURAL_SHOW = set(
     s.strip() for s in os.environ.get(
         "ABP_PROCEDURAL_SHOW",
-        "the-loneliest,the-jakobus-file",
+        "the-loneliest,the-jakobus-file,codex-medica",
     ).split(",") if s.strip()
 )
 
@@ -724,6 +727,16 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "codex-medica": (
+        "<strong>Not a prescribing manual.</strong> <em>Codex Medica</em> is a research "
+        "constitution for ethnobotanical documentation. It records witnessed traditions, "
+        "interpreted mechanisms, and tested outcomes as <strong>separate layers that must never "
+        "be collapsed</strong>. It does <strong>not</strong> diagnose, dose, prescribe, or "
+        "instruct preparation of hazardous, intoxicating, abortifacient, or otherwise high-risk "
+        "substances. CARE Principles govern Indigenous data before FAIR openness. Botanical "
+        "plates in the EPUB/PDF are freely licensed identification images (public domain or "
+        "CC BY / CC BY-SA), not preparation guides."
+    ),
     "the-surgeon": (
         "<strong>For adult readers.</strong> <em>The Surgeon</em> is a crime novel narrated, for "
         "half its length, from inside a predator — a man who drugs women and operates on them "
@@ -784,6 +797,7 @@ BOOK_NOTICE = {
 # Optional heading override for BOOK_NOTICE blocks (default: "A note on the original").
 BOOK_NOTICE_HEAD = {
     "the-little-key": "Illustration disclosure",
+    "codex-medica": "Non-clinical notice",
 }
 
 # Book ids whose BOOK_NOTICE renders with a louder visual treatment (sting accent, not ochre).
@@ -890,6 +904,10 @@ CURATED = [
     ("sheltering-desert", "The Indifferent Desert", "A true story · Non-fiction", "Non-fiction",
      "the-sheltering-desert", "build/export",
      "In May 1940 two German geologists drove into the Namib rather than be interned — and survived two and a half years by real bushcraft against a desert that did not care whether they lived."),
+
+    ("codex-medica", "Codex Medica", "An Ethnobotanical Cross-Cultural Study Bible", "Non-fiction",
+     "codex-medica", "build/export",
+     "A research constitution for a living ethnobotanical corpus: provenance without theft, evidence without contempt, and a hard line against mistaking documentation for a prescribing manual. Edition 0.2, foundation locked, with public-domain and CC botanical plates."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",

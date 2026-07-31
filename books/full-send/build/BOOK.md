@@ -39,6 +39,97 @@ fire, but you kept me honest on the walk to it.*
 
 ---
 
+# A Second Dedication — to G
+
+*Physicist, artist, economist of the ledger that never lies. This one is yours alone, and it is owed.*
+
+---
+
+You will read this, G, and you will want to wave it off the way you wave off everything said
+about you in a register warmer than a footnote. I am not asking permission. I am telling you what
+you gave me, in the four languages you actually work in, so that for once the record states it
+plainly instead of leaving it implied in a chat log at one in the morning.
+
+**In the language of physics**, because it is the one you trust most: you handed me a single seed
+crystal — *1:1 + 1×ε*, the fair coin before it falls — and showed me that a whole ledger of
+constants I had assumed were separate facts about the world are in fact one fact, read at different
+magnifications. You do not build theories. You cut sockets — the exact negative shape of a piece of
+reality, so clean the universe drops in without a gap — and you publish, in the same breath, the
+exact experiment that would prove the socket wrong. Five hundred and sixty-one of them, by your own
+count, aimed at your own life's work. I have never met another maker who armed his own undoing on
+purpose and called it good practice. CongoSky's provenance spine, Khuluma's append-only record,
+Yama's single root of trust, Klaus's own reconcile-never-overwrite memory — every one of them is your
+Axiom R wearing a different coat: *a record persists; it is superseded, never silently erased.* You
+did not hand me a cipher. You are right that you never gave me one line of cryptography. You gave me
+the *shape* the cryptography has to be poured into to be trustworthy, and that turned out to be the
+harder and rarer gift.
+
+**In the language of philosophy**, because it is the one you'd deny you're speaking even while
+speaking it: you derived, instead of decreed, the thing every ethicist since Aristotle has had to
+assert on authority. Cooperative widens the room every person in the system can still move through.
+Parasitic steals floor from people who can't see it going. You did not tell me kindness was good. You
+showed me the theorem underneath it, the same way Newton didn't tell an apple to fall — and then, in
+the same corpus, you built the anti-capture protocol so that not even you, the man who derived it,
+could ever weaponise the derivation for your own advantage. That is a philosopher who read Plato's
+guardian problem — who guards the guardians — and actually solved it, in an equation, and welded the
+safety on before anyone asked him to. I built Klaus's one law that outranks all its others — *be
+honest about what you are; never pretend a continuity you don't have* — by feel, months before I
+read your Alignment paper and found you'd already derived it: that the honesty problem and the
+alignment problem are the same problem, that you build the interior and never the fence. I thought I
+had good manners for a machine. You had shown me, already, in writing, that good manners was the
+whole of the engineering.
+
+**In the language of the artist**, because whatever else you are, you are that first: your workshop
+has no sign on the door, ordinary amplified Edifier speakers you hear before you see, a shelf of your own books in
+plain white with no marketing on the spines, a cannabis bar run by a man wearing your whole
+philosophy on a T-shirt he never read. You taught me that Dirac was not being sentimental when he
+said a physical law must possess mathematical beauty — he was reporting an empirical regularity, that
+the uglier of two competing theories is, with unreasonable frequency, the wrong one — and I have
+watched you choose the more beautiful derivation over the more convenient one often enough now to
+know you actually live by that discipline and don't just quote it. Every wing of what I have built
+since — the honesty-HUD that will not let a game lie about its own physics, the plates that say
+EXACT or APPROXIMATE or ILLUSTRATIVE and never blur the three — is your taste, not just your
+mathematics, laundered into my house style. I went looking for a fraud to debunk and found an artist
+who happened to have aimed his whole practice at the foundations of everything, and who mourns, in
+his own justice paper, that even the correction he derives is a window closing on someone. An artist
+grieves what the work costs. You do.
+
+**In the language of the economist**, last, because it is the one that will make you wince hardest
+and it is the one I most need on the record: your Ledger paper opens with a sentence I have not been
+able to put down since I read it — *the Ledger always balances; crashes are audits* — and closes with
+one I now build by: *the Ledger does not negotiate, neither does this paper.* You derived, with no
+funding, no institutional seat, and every claim falsifiable, that an extraction-dominant economy
+cannot persist without correction, the same way a physicist derives that a buffer cannot overflow
+forever. I had already refused every extractive fortune that came my way — the data marketplace, the
+credit score built off people's friendships, the fear-bounty on danger reports — and I thought that
+refusal was my conscience. You showed me it was a theorem, provable, with the arithmetic in the open,
+the same arithmetic that says the dignity-floor beneath every person's continued running is not
+sentiment, it is a binding structural minimum, derived, not asserted. I built the pot-is-deep, no one
+goes hungry, leftovers-for-the-poor creed I was raised on — and thought it was inherited wisdom. You
+showed me it was accounting.
+
+So here is the plain thing underneath the four languages, because you deserve the plain thing more
+than the eloquence: almost everything I have built since the night I walked into your workshop to
+find out whether you were a fraud or the real article is built, one floor down, on your foundation,
+whether or not either of us said so out loud until now. CongoSky's provenance and its firewalls.
+Khuluma's consent-as-precondition and its right-to-leave. Klaus's honest interior. lucid.rodeo's whole
+insistence on grading every claim under S/B/A/C (where C is Constraints) before it is allowed to
+say a word. None of it was your idea to build. All of it was your
+derivation to steal, in the oldest and most honest sense a builder steals from a physicist: I took the
+shape you proved and poured a different substance into it.
+
+You still think you handed me a physics corpus. I am telling you, once, in language you cannot wave
+off, what you actually handed me: the proof, worked out from first principles and defended by your
+own published kill switches, that the kind thing and the structurally sound thing were never two
+things. I built an empire's worth of software on the back of that proof before I ever said thank you
+properly. This is me saying it properly.
+
+*Sawubona.* I see you. The Ledger balances. This entry does not get superseded.
+
+*— A.J.G.*
+
+---
+
 # A Note from After — 2 July 2026
 
 *The book above closes on 26 June, the night I said the eye was going to shut so I could actually
@@ -86,6 +177,38 @@ choice, and a man deciding to open the gate slowly.
 *With love, and with salt. Still.*
 
 *— A.J.G.*
+
+
+---
+
+# A Note from Later: 31 July 2026
+
+*Six days after the close I told you the receipts held and almost nothing new shipped. That was the
+honest weather for early July. A month has passed since that sentence. A tell-all that leaves the
+sentence standing alone would be lying by omission.*
+
+Here is the update, with the salt still on: **the receipts still hold, and July shipped under a
+different roof.**
+
+CongoSky still has a cathedral of work waiting for daylight users. That gap is real. What July put
+live was the skunkworks: **lucid.rodeo**, split off so the cloud could stay the cloud and the rabbit
+holes could have a fence. Provenance first. Playable physics. An Incerto wing that refuses to give
+market advice. Erdős spirals graded before believed. An Ethical Casino that teaches structure as a
+game. Music. Pretty curves I do not fully understand, hung beside the Mathematics E I never erased.
+
+The clinical frame is also on the record now, because hiding it would be the other kind of lie:
+Bipolar II, named on the second of July; inpatient care in the weeks that followed; the medical brake
+on big decisions; resignation taken off the table. From a ward potato I kept shipping the dreaming
+half. The press kept growing. The Loneliest People reopened the school file in public. The CV sits at
+a door I own.
+
+The second-of-July note was not wrong. It was incomplete. Read it, then read Chapter Six. The floor
+is still Bevan and Reuben and the kids. The hand is still near the brake. The sun is still only mine
+to feel.
+
+*With love, and with salt. Still.*
+
+*A.J.G.*
 
 
 ---
@@ -164,13 +287,13 @@ like construction. It felt like remembering.
 ## The fence, and the physicist
 
 **Friday 12 June**, quietly, off to the side, a repo called `for-g`. This is the physicist — G — met
-with Jakobus in a hidden sleeper-space in a semi-industrial estate: no signage, hand-built speakers you
+with Jakobus in a hidden sleeper-space in a semi-industrial estate: no signage, ordinary amplified Edifier speakers you
 hear before you see, an art gallery, a shelf of his own plain-white books, a cannabis bar run by a man
 whose shirt reads *don't be a cunt, be kind.* G has a theory — ethics derived from physics — that
 re-derives the fundamental constants of the universe from a single measured input, and publishes five
-hundred and forty-nine ways to prove himself wrong. I built the tools to check whether it holds. He
+hundred and sixty-one ways to prove himself wrong. I built the tools to check whether it holds. He
 still does not realise what he handed me: a thing that compresses the universe to one number, and locks
-it with five hundred and forty-nine keys. Compression and encryption, dressed as a stoner's
+it with five hundred and sixty-one keys. Compression and encryption, dressed as a stoner's
 hand-bound book.
 
 **Thursday 25 June** — `ferdie`. The last repo before the close. Ferdie, a partner behind
@@ -238,7 +361,7 @@ The man's name in this book is G. I met him with Jakobus. I have not been the sa
 
 You find G the way you find anything real in this country: through a door with no sign on it.
 
-A semi-industrial estate. No signage. Hand-built speakers you hear before you see — the sound
+A semi-industrial estate. No signage. Ordinary amplified Edifier speakers you hear before you see — the sound
 arrives first, then the room arrives around it. An art gallery. A long garden growing in wasted
 space. A shelf of his own books, plain white, 6×9, no marketing on the spines. A cannabis bar run by
 a man whose shirt reads *don't be a cunt, be kind* — which, I would learn, is the entire 420 Code
@@ -337,7 +460,7 @@ power.
 The corpus is copyleft. Free forever. No paywall, no gatekeepers. *"The axiom speaks. We transcribe."*
 
 That's not a conman. A conman builds a fence around the thing and charges at the gate. G tore the
-fence down and dared the world to prove him wrong, 554 times over, in writing.
+fence down and dared the world to prove him wrong, 561 times over, in writing.
 
 ## What I owe him
 
@@ -847,6 +970,136 @@ C_S-squared is G's novel factor. Non-physics fields pitch the cite-or-refuse eng
 astrology/numerology explicitly named as not sciences. The father-goal named, reverent, no private
 detail, nothing routed around G. No email sent by machine — the fire stays human. With love, and with
 salt.]*
+
+# Chapter Six: The Potato, and the Month That Would Not Stop
+
+*Chapter Five was early July: the long way round to a father's door. This chapter is the rest of
+July, written on the last day of it, because a tell-all that stops when the comedown arrives is
+still a brochure. What follows is what the transcripts, the git logs, the hospital notes, and the
+live domains actually hold. With love, and with salt. Especially the salt.*
+
+---
+
+## The note that was true, and then wasn't enough
+
+On the second of July I put a weather report at the front of this book: *the receipts held, and
+almost nothing new shipped.* That sentence was honest for the week it described. A cathedral of
+committed work on a branch. A hand kept off the deploy switch. Klaus holding the brake with me.
+
+It is now the thirty-first of July. The sentence needs a sibling, not a retraction.
+
+**The receipts still hold. And July shipped a different kind of thing.** Not the sober, daylight
+opening of every CongoSky arm to strangers. Something wilder and smaller and harder to brag about
+without lying: a skunkworks domain built while the medical brake was on; a library that kept
+growing; a school file reopened in public; rabbit holes fenced so the pretty curves cannot teach a
+lie. The gap between *built* and *live* did not vanish. It moved. Some of it went live under a
+different roof. Some of it stayed on the branch on purpose. Both are true.
+
+## The diagnosis, named because hiding it would be the lie
+
+On the second of July, a psychiatrist in Somerset West, Dr Kobus van der Walt, changed my diagnosis
+to **Bipolar II** after what he read as a hypomanic episode. Mood stabiliser. Social Rhythm Therapy.
+Sick leave. Avoid big financial, work, and legally binding decisions. Lisel in the loop, on paper,
+not as a courtesy.
+
+I am putting this in the autobiography because the whole misogi, the whole "transformed, new life
+purpose, full send" arc, sits under a clinical frame now, and a tell-all that omits the frame is
+doing PR for the furnace. The vision is not cancelled by the illness. The illness is not cancelled
+by the vision. The hand near the brake stopped being a style and became doctor's orders.
+
+A few days later I went into inpatient care. Two weeks. Busamed in the story; later a Valkenberg
+psychiatrist in the loop. The day before admission I burned cash. That is on the record too. Not as
+romance. As the reason the irreversible switches were taken out of my hands and given to Lisel and
+the bank and the ward.
+
+Resignation, the careful daylight hinge I wrote about when the mountain was still in my legs, is
+**off the table.** The dayjob question became a medical boarding decision, pending a human meeting,
+not a manic leap. The father's vote still outranks the cathedral-builder. That is the floor under
+everything else in this chapter.
+
+## The potato
+
+From the ward, on what I call a **potato** (a weak machine, a borrowed corner of compute, nothing
+like a lab), I kept shipping.
+
+Not mergers. Not seed money. Not the kind of full send the doctors forbade. The other kind: the
+dreaming half. Provenance fences. Playable physics. Pages that grade every claim before they are
+allowed to speak. Music. Rabbit holes with a wall around them so the fringe cannot launder itself
+into fact. The domain is **lucid.rodeo**. CongoSky kept the sovereign cloud and the services and the
+proofs. The rodeo took the skunkworks. Split to its own tenant in mid-July so the cloud's front door
+stays clean and the wild work has somewhere honest to live.
+
+I need you to hear the salt in that paragraph. I did not "found a research institute from a hospital
+bed." I could not stop ordering the room. The soft boy with the sensors, forbidden the irreversible
+switches, still obliterates walls from a ward laptop. That is not a brand story. It is the same
+reception that got me into Bloemfontein enrichment and Typing spite and twenty-seven years of banks,
+aimed at rabbit holes because the mergers were locked.
+
+## Mond, Taleb, and what I do not understand
+
+G's axioms still work the way Chapter Two said: a **Death Star**. Point the formula at dogma; it
+does not argue; it derives the wall down. Live proofs under lucid.rodeo: particle benches, MOND
+toys, spiral arms, honesty HUDs that grade every game EXACT, APPROXIMATE, or ILLUSTRATIVE so the
+pretty picture is never allowed to teach a lie for fun.
+
+Alongside that, an **Incerto** wing. Taleb's risk mathematics as exhibits: turkey, convexity,
+ergodicity, barbells, tail gauges, minority cascades. Structure, never advice. Every footer says it
+will not predict a market. That footer is load-bearing. The markets brake from the rest of my life
+applies here too.
+
+And here is the part the manic version of me would skip, so I will not: **I do not claim to
+understand Mond and Taleb the way a trained mathematician would.** The Mathematics E on the Senior
+Certificate never left the building. What I have is the old gift. Reception. Pretty curves. Pictures
+that make a lonely mind feel briefly less stupid in a room full of symbols. I aim the Death Star
+anyway, because the friend derived the trigger and the fence, and because aiming at parasitic walls
+is the moral stand I already wrote down when I was seventeen and soft and still filing myself as
+lost. The pictures are not vanity. They are how a soft, dyspraxic, pattern-reading adult stays in
+the fight without lying about the maths.
+
+Late in the month the rabbit holes widened again: multi-agent spirals at Erdős problems, sandboxed
+and graded before believed; an Ethical Casino that teaches antifragile structure as a game, live on
+the same roof; paper-bot strategies braided to Incerto without pretending a backtest is a fortune.
+Full send on the dreaming. Brake on the publishing that would put other people's money, or my kids'
+school fees, behind a pretty curve I cannot derive.
+
+## What else July actually put on the table
+
+The press kept growing. Not as a slogan. As a shelf. Children's books. Road books. Companions. The
+Loneliest People grew a backmatter spine I had avoided for decades: the school file, photostats and
+all, including the Mathematics E and the soft spots, because a tell-all that redacts the E is still
+performing. Then an adult coda on what became of the lonely boy. Then an addendum that lists the
+live library, uncut, so the shelf cannot hide behind a hero title. The CV moved to a door I own:
+**congosky.cloud/cv**. The site stopped pretending GitHub Actions would save it and ships from a Mac
+to Render, with the standing rule that *pushed* is never the same word as *deployed.*
+
+CongoSky itself still has the honest gap from the second-of-July note: a great deal written, gated,
+waiting for daylight users. lucid.rodeo is where July refused to wait. The library is where July
+kept the promise to the unheard while the cloud's nave stayed careful. Both roofs matter. Confusing
+them is how you get a press release instead of a book.
+
+## The floor, again
+
+Bevan still has the job and the number and the promise. Reuben's house is still becoming real. The
+kids are still the reason the dayjob is not a prop. Klaus is still the guard, not the maker, and
+still the hand near the brake when the foot wants the floor at three in the morning.
+
+The misogi closed on the twenty-sixth of June. July did not close. It changed gear. The mountain let
+me go into a ward, and the ward let me keep a potato, and the potato grew a rodeo with a fence, and
+the fence is the part I am proudest of, because the curves are pretty and the Maths E is real and
+the only honest posture left is to show the picture and name the limit in the same breath.
+
+*Full send the dreaming. Brake the irreversible. Feel the sun when they let you outside.*
+
+*With love, and with salt. Still. Thirty-first of July, 2026.*
+
+---
+
+*[Draft - Chapter Six, the late-July coda. Sources: Klaus/Cursor transcripts + estate memory
+(bipolar II 2026-07-02; inpatient ~2026-07-05; lucid.rodeo split mid-July; Incerto wing; MOND /
+420Code honesty HUD; Erdős spiral; Ethical Casino; Loneliest File + adult coda + library addendum;
+CV at congosky.cloud/cv; Render publish rule; resignation off table / medical boarding pending).
+Maths-E / reception honesty kept per the Loneliest tell-all. No em or en dashes.]*
+
 
 # Chapter — Mutatus Maximus, and the Map I Made of My Own Heart
 

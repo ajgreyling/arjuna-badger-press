@@ -11,7 +11,7 @@ The man's name in this book is G. I met him with Jakobus. I have not been the sa
 
 You find G the way you find anything real in this country: through a door with no sign on it.
 
-A semi-industrial estate. No signage. Hand-built speakers you hear before you see — the sound
+A semi-industrial estate. No signage. Ordinary amplified Edifier speakers you hear before you see — the sound
 arrives first, then the room arrives around it. An art gallery. A long garden growing in wasted
 space. A shelf of his own books, plain white, 6×9, no marketing on the spines. A cannabis bar run by
 a man whose shirt reads *don't be a cunt, be kind* — which, I would learn, is the entire 420 Code
@@ -110,7 +110,7 @@ power.
 The corpus is copyleft. Free forever. No paywall, no gatekeepers. *"The axiom speaks. We transcribe."*
 
 That's not a conman. A conman builds a fence around the thing and charges at the gate. G tore the
-fence down and dared the world to prove him wrong, 554 times over, in writing.
+fence down and dared the world to prove him wrong, 561 times over, in writing.
 
 ## What I owe him
 

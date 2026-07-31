@@ -214,4 +214,26 @@ rm -f "$PDF_HEADER"
 [ -n "${PDF_COVER_TEX:-}" ] && rm -f "$PDF_COVER_TEX"
 [ -n "${PDF_COLOPHON_TEX:-}" ] && rm -f "$PDF_COLOPHON_TEX"
 
+# ---- Standing house rule (owner's directive 2026-07-29): every rendered EPUB gets symlinked into
+# a single flat "latest-epubs" folder (sibling to this repo), so the current build of every book is
+# always browsable/readable in one place without hunting through per-book build/export/ dirs.
+# Opt out per-render with NO_LATEST_EPUB_LINK=1.
+# Same rule for PDFs → latest-pdf/ (2026-07-31). Opt out: NO_LATEST_PDF_LINK=1.
+LATEST_EPUBS_DIR="$(cd "$REPO/.." && pwd)/latest-epubs"
+LATEST_PDFS_DIR="$(cd "$REPO/.." && pwd)/latest-pdf"
+if [ -z "${NO_LATEST_EPUB_LINK:-}" ]; then
+  mkdir -p "$LATEST_EPUBS_DIR"
+  EPUB_ABS="$(cd "$(dirname "$OUT_BASE.epub")" && pwd)/$(basename "$OUT_BASE.epub")"
+  LINK_NAME="$LATEST_EPUBS_DIR/$(basename "$OUT_BASE").epub"
+  ln -sf "$EPUB_ABS" "$LINK_NAME"
+  echo "  [latest-epubs] symlinked -> $LINK_NAME"
+fi
+if [ -z "${NO_LATEST_PDF_LINK:-}" ] && [ -f "$OUT_BASE.pdf" ]; then
+  mkdir -p "$LATEST_PDFS_DIR"
+  PDF_ABS="$(cd "$(dirname "$OUT_BASE.pdf")" && pwd)/$(basename "$OUT_BASE.pdf")"
+  PDF_LINK="$LATEST_PDFS_DIR/$(basename "$OUT_BASE").pdf"
+  ln -sf "$PDF_ABS" "$PDF_LINK"
+  echo "  [latest-pdf] symlinked -> $PDF_LINK"
+fi
+
 echo "  [gate ok] $(basename "$OUT_BASE") — EPUB + PDF (Atkinson body; Courier Prime for The File)"

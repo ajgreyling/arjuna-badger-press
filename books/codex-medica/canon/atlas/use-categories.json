@@ -1,0 +1,43 @@
+{
+  "source_note": "Category titles match the publicly catalogued chapter structure of van Wyk & Gericke, People's Plants (2nd ed.). Used as research agenda only.",
+  "parts": [
+    {
+      "id": "foods-drinks",
+      "title": "Foods and drinks",
+      "chapters": [
+        {"id": "cereals", "n": 1, "title": "Cereals"},
+        {"id": "seeds-nuts", "n": 2, "title": "Seeds and nuts"},
+        {"id": "fruits-berries", "n": 3, "title": "Fruits and berries"},
+        {"id": "vegetables", "n": 4, "title": "Vegetables"},
+        {"id": "roots-bulbs-tubers", "n": 5, "title": "Roots, bulbs and tubers"},
+        {"id": "beverages", "n": 6, "title": "Beverages"}
+      ]
+    },
+    {
+      "id": "health-beauty",
+      "title": "Health and beauty",
+      "chapters": [
+        {"id": "general-medicines", "n": 7, "title": "General medicines"},
+        {"id": "tonic-plants", "n": 8, "title": "Tonic plants"},
+        {"id": "mind-mood", "n": 9, "title": "Mind and mood plants"},
+        {"id": "womens-health", "n": 10, "title": "Women's health"},
+        {"id": "wounds-skin", "n": 11, "title": "Wounds, burns and skin conditions"},
+        {"id": "dental-care", "n": 12, "title": "Dental care"},
+        {"id": "perfumes-repellents", "n": 13, "title": "Perfumes and repellents"},
+        {"id": "soaps-cosmetics", "n": 14, "title": "Soaps and cosmetics"}
+      ]
+    },
+    {
+      "id": "skills-crafts",
+      "title": "Skills and crafts",
+      "chapters": [
+        {"id": "hunting-fishing", "n": 15, "title": "Hunting and fishing"},
+        {"id": "dyes-tans", "n": 16, "title": "Dyes and tans"},
+        {"id": "utility-timbers", "n": 17, "title": "Utility timbers"},
+        {"id": "fire-firewood", "n": 18, "title": "Fire-making and firewood"},
+        {"id": "basketry-weaving", "n": 19, "title": "Basketry, weaving and ropes"},
+        {"id": "thatching-mats", "n": 20, "title": "Thatching, mats and brooms"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "homo-animalus",
+  "title": "Homo Animalus",
+  "working_title": "Homo Animalus",
+  "subtitle": "On the Animal We Never Stopped Being",
+  "author": "Andries J. Greyling",
+  "logline": "A dairy farmer's son follows the thread from a shark diver's hands to his own dogs, cats, and chickens, through the science of Radin, the Sheldrakes, and Dispenza, to the animals in the smoke of the oldest human visions \u2014 and arrives, unmistakably, at the animal he never stopped being.",
+  "genre": "narrative nonfiction / memoir",
+  "blueprint": "personal-essay-braided-with-evidence, guest-at-the-fire nonfiction voice (see the-antifragile-reader precedent)",
+  "status": "drafting",
+  "series": "Standalones",
+  "shelf": "Nonfiction",
+  "target_words": 55000,
+  "dedication": "For Andries J. Greyling Senior",
+  "canon_order": [
+    "DEDICATION_BOOK.md",
+    "OUTLINE.md",
+    "STYLE_GUIDE.md",
+    "SOURCES.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}

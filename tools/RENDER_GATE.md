@@ -52,6 +52,18 @@ tools/render_book.sh books/the-loneliest/build/BOOK.md \
 - **PDF:** `pdffonts "<file>.pdf" | grep -i atkinson` → must list all 4 styles, embedded (`yes`).
 - **EPUB:** `unzip -l "<file>.epub" | grep -i atkinson` → must list the 4 `.otf` files inside.
 
+## Latest-epubs mirror (hard gate, owner's directive 2026-07-29)
+- Every successful render **symlinks** the resulting `.epub` into a single flat folder,
+  `../latest-epubs/` (sibling to this repo, i.e. `/Users/ajgreyling/code/arjuna-badger/latest-epubs/`),
+  named `<output-basename>.epub`. This keeps one always-current, always-browsable copy of every
+  book's latest EPUB in one place, without hunting through each book's `build/export/`.
+- It's a **symlink**, not a copy: re-rendering a book automatically keeps the mirror current with
+  zero extra steps, and it costs no extra disk.
+- Opt out for a single render with `NO_LATEST_EPUB_LINK=1` (e.g. scratch/test renders you don't want
+  polluting the mirror).
+- Older entries in `latest-epubs/` from before this rule are real copied files, not symlinks — left
+  as-is; only re-rendering a given book converts its entry to a symlink.
+
 ## Scope note
 - The gate covers **book body prose** (the readable text — paragraphs, and headings inherit it too).
 - It does **not** govern cover art or the brand/site typography (`brand/tokens.*`), which are separate.

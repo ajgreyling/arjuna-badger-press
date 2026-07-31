@@ -103,10 +103,12 @@ naming it poses no risk; "full send"):
 ## Backmatter (after the fiction)
 | File | Title | Role |
 |---|---|---|
-| `ch-50.md` | **The File** | Fictional dossier on the real author — nursery through Std 9, built from school reports, yearbook facts, enrichment records; ROOY margin notes; the "subject lost / gladly" close. **Ship with the book.** |
-| `ch-98.md` | **A Note on the Real Thing Underneath** | Author's non-fiction note — Verrykingsonderwys, VO klas, Bethlehem Voortrekker, cadets/.22, Bloemfontein *sentrum*, time-capsule call. |
+| `ch-50.md` | **The File** | Fictional dossier on the real author, nursery through Matric (Senior Certificate 1997), grounded in the 2026-07-31 certificate photostats under `design/images/certificates/`; ROOY margin notes; school material closes ~1998. **Ship with the book.** |
+| `ch-51.md` | **What Became of Him** | Adult coda in the same dossier voice: NCC diplomas, 27-year CV (congosky.cloud/cv), Misogi, CongoSky / Press / lucid.rodeo, hospital-bed potato build, 420Code Death Star, Mond/Taleb curves aimed without false mastery. **Ship with the book.** |
+| `ch-97.md` | **Addendum: The Library** | Full shelf blurbs for every live Arjuna Badger Press title at bind time (from `site/build.py` CURATED × PUBLISHED). Photograph of the catalogue. **Ship with the book.** |
+| `ch-98.md` | **A Note on the Real Thing Underneath** | Author's non-fiction note: Verrykingsonderwys, VO klas, Bethlehem Voortrekker, cadets/.22, Bloemfontein *Onderwyssentrum* (named on the Std 7 merit), time-capsule call. |
 
-Merge order: `ch-01`…`ch-09` → `ch-50` → `ch-98`. Re-merge + sync to `arjuna-badger-press` + `site/build.py` before deploy.
+Merge order: `ch-01`…`ch-09` → `ch-50` → `ch-51` → `ch-97` → `ch-98`. Re-merge + sync before deploy.
 
 ## Status
 **FULL DRAFT + backmatter done.** Standalone, top-level `books/the-loneliest/`. Builds via a

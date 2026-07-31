@@ -1,0 +1,21 @@
+{
+  "id": "goats-of-philosophy",
+  "title": "The GOATs of Philosophy",
+  "working_title": "The GOATs of Philosophy",
+  "subtitle": "A parody Joe Rogan Experience episode",
+  "format": "podcast script (fictional parody transcript)",
+  "author": "Andries J. Greyling",
+  "logline": "Joe asks Jamie to run down history's GOATs of philosophy, ten condensed minutes each, before today's guest walks in: real philosopher-podcaster Alex O'Connor, for a genuinely long, wandering, three-hour conversation about God, free will, ethics, and what DMT might or might not prove.",
+  "genre": "comedy-adjacent parody / philosophy",
+  "blueprint": "not a book: an outline + a fully-written representative excerpt, not a full transcript (a real 3-hour episode would run 25,000-40,000+ words)",
+  "status": "outline-plus-sample-drafted",
+  "series": "Standalones",
+  "shelf": "Scripts & Parody",
+  "target_words_full_outline": 2000,
+  "target_words_excerpt": 2500,
+  "canon_order": [
+    "OUTLINE.md",
+    "STYLE_GUIDE.md"
+  ],
+  "real_person_note": "Alex O'Connor is a real, living public philosopher/podcaster. His dialogue here is fictional parody, written to be consistent with his well-documented real public positions (see STYLE_GUIDE.md sourcing), but no line attributed to him is an actual quote. Joe Rogan and Jamie Vernon are portrayed in the same fictional-parody spirit, consistent with their public on-air personas."
+}

@@ -298,7 +298,7 @@ whether, somewhere, she remembered him true.
 
 # The File
 
-> *What follows was not in the novel. It was found afterward — a compendium assembled, it appears,
+> *What follows was not in the novel. It was found afterward, a compendium assembled, it appears,
 > over many years, by an organisation that does not put its name on its paperwork. We reproduce it as
 > it was received: the documents in the order they were gathered, and the margin notes in the hand of
 > whoever was assigned to watch. The subject is real. The documents are real. Read them, and decide
@@ -313,20 +313,24 @@ whether, somewhere, she remembered him true.
 ================================================================
 ```
 
-### SUBJECT FILE — OPENED [ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]{.redact} · CLASSIFICATION: ROOY
+### SUBJECT FILE: OPENED [ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]{.redact} · CLASSIFICATION: ROOY
 
 **SUBJECT:** GREYLING, Andries Jakobus.
 **DOB:** [21 December]{.redact} 1979. **POB:** Bethlehem, Orange Free State.
-**PATERNAL:** A.J. Greyling (subject carries the father's initials — note the pattern; sons who carry
-the father's name carry the father's expectations, and we have found this useful). Occupation:
-**farmer and hunter.** A good shot, by district reputation; the marksmanship of his generation and
-people was not a hobby but a competence the land required. *(See the operational note appended to the
-family file: the rifle, the one shot, the empty deep-freeze. We do not reproduce it here. We only
-record that the boy grew up in a house where a gun was an instrument of provision and discipline, and
-where, we have reason to believe, it was also — quietly, illegally, and to our considerable interest
-— an instrument of mercy.)*
+**ID (file copy):** 791221[ &nbsp;&nbsp;&nbsp;&nbsp; ]{.redact}.
+**PATERNAL:** A.J. Greyling (subject carries the father's initials, note the pattern; sons who carry
+the father's name carry the father's expectations, and we have found this useful). Occupation, as
+entered on the primary-school transfer form: **boer**, farmer. Home place recorded as **Grootvlei**,
+Bethlehem district. Postal: Posbus 501. The form also marks the subject **enigste kind**, only child.
+A good shot, by district reputation; the marksmanship of his generation and people was not a hobby
+but a competence the land required. *(See the operational note appended to the family file: the
+rifle, the one shot, the empty deep-freeze. We do not reproduce it here. We only record that the boy
+grew up in a house where a gun was an instrument of provision and discipline, and where, we have
+reason to believe, it was also, quietly, illegally, and to our considerable interest, an instrument
+of mercy.)*
 **ASSESSMENT BASIS:** academic record, instructor remarks, activity enrolment, paternal lineage,
-direct observation of habit. The subject's school keeps excellent files. So do we.
+direct observation of habit. The subject's schools keep excellent files. So do we. The photostats
+now in the registry are the originals, or as near as a thirty-year-old paper trail permits.
 
 > *Margin, undated:* A talent-spotting service does not begin with the talent. It begins with the
 > paperwork around the talent, because the paperwork is written by people who do not know they are
@@ -334,20 +338,20 @@ direct observation of habit. The subject's school keeps excellent files. So do w
 
 ---
 
-### STANDING OBSERVATIONS — THE SUBJECT'S PERSON.
+### STANDING OBSERVATIONS: THE SUBJECT'S PERSON.
 
 *Not drawn from the school file. Drawn from watching. Habits a man keeps without knowing he is
 watched are worth more than anything he writes on a form, because they are the things he cannot help.*
 
 **THE BLADE.** The subject has, from boyhood, an affinity for knives and edged weapons that is
-neither violent nor for show — it is the steady, appraising relationship of a person who understands a
+neither violent nor for show. It is the steady, appraising relationship of a person who understands a
 made tool. He **carries, at all times, at least one folding knife.** Not as a weapon. As an
 extension. A man does not arm himself against the world with a pocket-knife; he keeps one because, in
 his hands, an unsolved thing wants a tool, and the tool wants to be near.
 
 > *Margin:* We have learned to read the man by what he always carries. The one who always has a blade
 > is the one who has decided, without drama, that he will be the one in the room who can do the thing
-> that needs doing. It is not aggression. It is *readiness* — and readiness, in a gentle man, is the
+> that needs doing. It is not aggression. It is *readiness*, and readiness, in a gentle man, is the
 > exact quality we spend careers trying to manufacture and almost never find pre-installed.
 
 **THE HANDKERCHIEF.** The subject also carries, always, a **clean handkerchief.** We note the pairing
@@ -355,76 +359,116 @@ because it is the whole of him in two objects: **the blade and the clean cloth.*
 and the readiness to bind. The thing that opens a wound and the thing that dresses one, carried in the
 same pockets, by the same hands, every day, without contradiction.
 
-> *Margin — flag for the psychological file:* This is the contradiction we look for last and trust
-> most. Most men carry one or the other — the hard ones carry the knife and despise the cloth; the
+> *Margin, flag for the psychological file:* This is the contradiction we look for last and trust
+> most. Most men carry one or the other, the hard ones carry the knife and despise the cloth; the
 > soft ones carry the cloth and fear the knife. The rare and dangerous ones carry **both, and see no
 > tension in it,** because they have understood the thing it takes most men a lifetime to learn or
 > never learn at all: that capability and gentleness are not opposites, and that the man who can hurt
 > and chooses to mend is the only safe man there is. We do not recruit for this trait. We cannot. It
 > recruits against us.
 
-**THE MARKSMANSHIP.** The subject is, by every account, an **excellent shot** — and we underline
+**THE MARKSMANSHIP.** The subject is, by every account, an **excellent shot**, and we underline
 this, because in a civilian child with no military background it is *anomalous.* The competence
 descends from the father (q.v.) and the wider culture of his people, but the subject's accuracy
 exceeds what enrolment or hobby explains. He shoots, as he reads a room, better than he was taught.
 
 > *Margin:* This is the entry that, properly, should have closed the recommendation. A gentle,
 > conscience-bound, pattern-reading boy who is *also* a natural marksman is, on paper, the most
-> complete instrument we assess — the rarest convergence in the file. We flagged it as our strongest
+> complete instrument we assess, the rarest convergence in the file. We flagged it as our strongest
 > asset. **We should have flagged it as the warning.** The man who can read people perfectly *and*
-> shoot straight, and who has a conscience that reads as a wall — that is not a tool. That is the one
+> shoot straight, and who has a conscience that reads as a wall, that is not a tool. That is the one
 > thing in the world a tool-maker should be afraid of: a weapon that decides for itself, correctly,
 > when not to be one.
 
 ---
 
-### DOCUMENT 1 — NURSERY ASSESSMENT. Rinkinkel Kleuterskool. Age 3.
+### DOCUMENT 1: NURSERY ASSESSMENT. Rinkinkel Kleuterskool. Age 3-4.
 
-*Vorderingsverslag aan ouers.* Physical development: good. Coordination: good. **Sensory development:
-good.** Language ability: good across pronunciation, vocabulary, narrative. Instructor's closing
-remark, verbatim: **"Andries is 'n liefdevolle seuntjie"** — *a loving little boy.*
+*Vorderingsverslag aan ouers* (BYLAE F). Physical development: health and vitality good; body
+balance and posture good; **coordination: redelik** (fair); **sensory development: good.** Language:
+pronunciation, usage, and stories marked **baie goed**; vocabulary good; rhymes fair. Indoor play:
+*"Hy speel graag met alle opvoedkundige speelgoed"*, he likes playing with all the educational
+toys. Outdoor: *"Hy speel sy eie fantasie-spele met sy maats"*, his own fantasy games with his
+friends. Instructor's closing remark, verbatim: **"Andries is 'n lieflike sagte seuntjie"** (*a
+lovely, soft little boy*).
 
-> *Margin:* We note "sensory development: good" at age three and we underline it. The faculty we
-> select for is not intelligence. It is *reception* — the child who takes in more of the room than
-> the room intends to give. The instructor saw a loving boy. We saw an instrument with the sensors
-> already installed. Both were correct. **FLAG: open. Re-assess in ten years.**
+Local press confirms the nursery: *Bronkhorstspruit, Cullinan & Rayton Nuus*, 18 November 1983,
+marionettes at Rinkinkel; the toddlers sitting open-mouthed on the floor.
+
+> *Margin:* We note "sensory development: good" at three and we underline it. We note "sagte"
+> (*soft*) and we underline that harder. The faculty we select for is not intelligence. It is
+> *reception*: the child who takes in more of the room than the room intends to give. The instructor
+> saw a soft boy. We saw an instrument with the sensors already installed. Both were correct.
+> **FLAG: open. Re-assess in ten years.**
 
 ---
 
-### DOCUMENT 2 — Laerskool Davel. Grade 2. 1987.
+### DOCUMENT 2: Laerskool Davel. Grade 1. 1986.
 
-**Sertifikaat van Verdienstelikheid** — Certificate of Merit. *Akademiese prestasie, Graad Twee.*
-**Gemiddeld 80–100%.** 30 November 1987.
+Progress report, second and third terms. Class teacher B. Schultz. Parent signature: W. Greyling.
+Cultural formation remark, verbatim: **"Mooi gesindheid. Goeie waarnemingsvermoë. Skeppingsdrang."**
+(*Nice attitude. Good powers of observation. Urge to create.*) Closing: a very obedient child;
+delivers good work; promoted to Grade 2.
 
-> *Margin:* Age seven. Already top of the band. Unremarkable in isolation — many children test high
+> *Margin (earliest usable signal):* "Goeie waarnemingsvermoë." Age six. The teacher named the
+> gift in ordinary Afrikaans and thought she was writing a nice report. She was writing our brief.
+> **FILE UNDER: reception. Cross-ref Document 1.**
+
+---
+
+### DOCUMENT 3: Laerskool Davel. Grade 2. 1987.
+
+**Sertifikaat van Verdienstelikheid** (Certificate of Merit). *Akademiese prestasie, Graad Twee.*
+**Gemiddeld 80-100%.** 30 November 1987. Principal: A. Swanepoel. Motto on the crest: *WERK EN
+OES.*
+
+> *Margin:* Age seven. Already top of the band. Unremarkable in isolation: many children test high
 > young and regress to the mean. We do not act on Grade 2. We *file* Grade 2. The file is the thing.
 
 ---
 
-### DOCUMENT 3 — Truida Kestell, Bethlehem. Std 3. 1990.
+### DOCUMENT 4: Truida Kestell, Bethlehem. Std 1-3. 1988-1990.
 
-Report cards: marks sustained in the 80s and 90s, every term, every subject — Afrikaans, English,
-Mathematics, Geography, History. **Diploma, Std 3:** joint third in Health Education; **a book-voucher
-for the highest marks in SCIENCE.**
+**Std 1 (1988):** averages 80-88%, well clear of the class mean (~72%). Mathematics already anomalous: 96-98% across the later terms. Remark: *"Andries slaag St I. Geluk."*
 
-> *Margin:* The mean did not reclaim him. Note the science prize at age ten. We track scientific
-> aptitude with particular interest, because the child who wants to know *how the thing works* can,
-> with handling, be turned into the adult who wants to know *how the man works.* It is the same
-> appetite. We only redirect the object.
+**Bethlehem Landbougenootskap, March 1988:** two exhibition cards under the school's name: **2nd prize** and **3rd prize**, section H. Judge's notes: *"Baie mooi. Geluk!"* / *"Baie slim
+uitbeelding. Geluk."* The soft boy makes things that win prizes in a farming town's show.
+
+**Std 3 (1990):** year average ~82-84% against a class mean in the mid-60s. **General Science: 96%
+in every term.** Health education in the 90s. Mathematics still high (mid-80s to mid-90s). Geography
+and history strong. Remark: *"Andries slaag St. 3."*
+
+> *Margin:* The mean did not reclaim him. Note the science line held flat at ninety-six for a full
+> year at age ten. We track scientific aptitude with particular interest, because the child who wants
+> to know *how the thing works* can, with handling, be turned into the adult who wants to know *how
+> the man works.* It is the same appetite. We only redirect the object.
 
 ---
 
-### DOCUMENT 4 — ENRICHMENT. Truida Kestell. *Verrykingsonderwys.* Std 4–5. 1991–1992.
+### DOCUMENT 5: ENRICHMENT. Truida Kestell. *Verrykingsonderwys.* Std 4-5. 1991-1992.
 
-The subject is withdrawn from the ordinary timetable into the gifted-enrichment stream. Assessed not
-on syllabus but on **computer handling** (grade C rising to A), **creativity** (straight A),
-**problem-solving and research skills**, and **reading development**: reading speed **280 to 400 words
-per minute**, comprehension **at or near 100%.** File note from the programme: *the difficulty of the
-lessons is continually accelerated.*
+**Std 4 (1991):** ordinary timetable still strong, year average climbing 82 to 86%; maths 90-96%;
+science mid-80s to low-90s. Remark: *"Andries slaag st. 4."*
 
-> *Margin — this is the entry that moved the file from PASSIVE to ACTIVE:* Here it is. A state
+**Std 5C (1992), the enrichment sheet itself** (Vakhoof: D. Jaquire; Principal: H.J.O. Cronjé):
+
+| | Kw.1 | Kw.2 | Kw.3 | Kw.4 |
+|---|---|---|---|---|
+| **Rekenaarvaardigheid** (computer handling) | C− | A+ | A+ | A |
+| **Kreatiwiteit** | A | A | A | A |
+| **Probleemoplossing en navorsingsvaardigheid** | B | B+ | A | A |
+| **Leesspoed** (words per minute) | 280 | 360 | 400 | 400 |
+| **Begripsvermoë** (comprehension) | 100% | 100% | 80% | 100% |
+
+Footnote on the sheet, verbatim: *"Die moeilikheidsgraad van die lesse word deurentyd aangepas."*: *The difficulty of the lessons is continually adjusted.*
+
+**OVS transfer form, 11 December 1992:** highest standard passed: 5. Reason: *"SLAAG ST. 5."*
+Not selected for any remedial stream. Parent: Mnr A.J. Greyling. Destination implied: the high school
+down the road.
+
+> *Margin, this is the entry that moved the file from PASSIVE to ACTIVE:* Here it is. A state
 > programme, in the late-apartheid Free State, pulls the cleverest children out of the singing and the
-> Bible study and the drill, and teaches them — at eleven — to **operate machines, to solve open
+> Bible study and the drill, and teaches them, at eleven, to **operate machines, to solve open
 > problems, to research, and to consume information at four hundred words a minute with total
 > retention.** They believed they were enriching the gifted. They were *building our supply chain.* We
 > did not have to construct the talent-identification apparatus. The education department had already
@@ -439,134 +483,678 @@ lessons is continually accelerated.*
 
 ---
 
-### DOCUMENT 5 — Bethlehem Voortrekker Hoërskool. Std 6. 1993.
+### DOCUMENT 6: Bethlehem Voortrekker Hoërskool. Std 6. 1993.
 
-Aggregate ~82–85%. **Distinctions in seven subjects:** Afrikaans, English, **German**, Woodwork,
-Mathematics, **General Science**, History. **BIOLOGY OLYMPIAD, Standard 6: third place in the entire
-Orange Free State.** Concurrently enrolled in the high-school enrichment stream
-(*Verrykingsonderwys*, instructor: Mev. A. Blignault).
+Report averages in the low-to-mid 80s against a class mean near 62%. Subject line (photostat of the
+first-class certificate): **Eersteklaspunte** in **Afrikaans (1ste Taal), Engels (2de Taal), Duits,
+Houtwerk, Wiskunde, Algemene Wetenskap, Geskiedenis** (seven subjects). Concurrently enrolled in the
+high-school enrichment stream (*Verrykingsonderwys*; yearbook instructor: **Mev. A. Blignault**).
+Yearbook page headed **V.O.-LEERLINGE**, plaque in the photograph: *VOORTREKKER 1993 VO-LEERLINGE.*
+Subject named in the middle row: **A. Greyling.** Also named, front row, in *Standerd 6
+Merietetoekennings: Akademie.* Present in both pictures. Already.
 
-> *Margin:* Third in the *province*, in the sciences, at thirteen. The German is noted and welcomed —
+**BIOLOGY OLYMPIAD, Standard 6:** *Vrystaat*, Friday 22 October 1993. Ten biology pupils from the
+school place in the Free State top ten for their standard. Caption, verbatim naming: **Andries
+Greyling (st 6; 3e plek).** Third in the province, at thirteen.
+
+> *Margin:* Third in the *province*, in the sciences, at thirteen. The German is noted and welcomed:
 > a second working language is an asset we do not have to pay to install. The biology placing confirms
-> the appetite of Document 3 has not faded; it has *sharpened.* **RECOMMENDATION: advance the file.
+> the appetite of Document 4 has not faded; it has *sharpened.* **RECOMMENDATION: advance the file.
 > Begin proximity planning. Identify the summer-programme vector.**
 
 ---
 
-### DOCUMENT 6 — FILE NOTE: THE WOODWORK ANOMALY.
+### DOCUMENT 7: FILE NOTE: THE WOODWORK ANOMALY.
 
 Cross-referencing the Std 6 and Std 7 records, the analyst flags a minor behavioural data point of
-disproportionate interest. The subject, offered the standard practical elective (**Woodwork**),
-elected at the next opportunity to take **Typing** instead. Source interview indicates the choice was
-not vocational. The woodwork instructor was, in the subject's own later assessment, *"a tool."* The
-subject and several peers transferred to Typing **as an act of spite** — a fourteen-year-old's
-revenge, taken as a joke.
+disproportionate interest. The subject, offered the standard practical elective (**Houtwerk /
+Woodwork**, in which he had just taken first-class marks), elected at the next opportunity to take
+**Tik / Typing** instead. Source interview indicates the choice was not vocational. The woodwork
+instructor was, in the subject's own later assessment, *"a tool."* The subject and several peers
+transferred to Typing **as an act of spite**, a fourteen-year-old's revenge, taken as a joke. The
+yearbook later photographs the Typing class. Caption under absentees: **A. Greyling.** Named on the
+roll. Missing from the image.
 
 > *Margin:* We log this because it is the single most instructive entry in the file, and we got it
 > exactly wrong at the time. We assessed: *immature, emotionally reactive, elects on grievance rather
-> than utility — a flaw.* **We were mistaken.** The subject, acting purely out of adolescent spite,
+> than utility, a flaw.* **We were mistaken.** The subject, acting purely out of adolescent spite,
 > acquired the one manual skill that would prove, across a thirty-year career at the keyboard, the
 > single most-used competency of his professional life. He out-planned us by accident, at fourteen,
-> while trying only to annoy a man he disliked. *The Institute did not anticipate this.* The Institute
-> rarely does. The committee should understand: the subjects who are most useful to us are precisely
-> the ones whose spite, vanity, and private jokes keep producing outcomes our planning cannot. We
-> select for the readable child and then are surprised, every time, by the unreadable margin in him.
-> That margin is the whole of what cannot be owned. Keep the woodwork note. Read it before every
-> operation.
+> while trying only to annoy a man he disliked, and then, true to form, was absent from the
+> photograph of the class he had joined as a joke. *The Institute did not anticipate this.* The
+> Institute rarely does. The committee should understand: the subjects who are most useful to us are
+> precisely the ones whose spite, vanity, and private jokes keep producing outcomes our planning
+> cannot. We select for the readable child and then are surprised, every time, by the unreadable
+> margin in him. That margin is the whole of what cannot be owned. Keep the woodwork note. Read it
+> before every operation.
 
 ---
 
-### DOCUMENT 7 — Bethlehem Voortrekker Hoërskool. Std 7. 1994.
+### DOCUMENT 8: Bethlehem Voortrekker Hoërskool. Std 7. 1994.
 
-Distinctions in English, Mathematics, German, Geography, General Science. The subject adds **Typing**
-to the timetable (see Document 6). Class teacher's closing remark, verbatim: **"Andries slaag
-standerd suiwer. Mooi geluk!"** — *passes the standard cleanly. Well done.* Listed among the standard's
-merit achievers; **absent from the photograph on both occasions.**
+Certificate dated **1994-10-12**: **Eersteklaspunte**, with distinctions in **Engels, Wiskunde,
+Duits, Aardrykskunde, Algemene Wetenskap.** Class teacher's earlier closing line on a prior report,
+still in the file: **"Andries slaag standerd suiwer. Mooi geluk!"** (*passes the standard cleanly.
+Well done.*)
 
-> *Margin:* "Absent from the photograph." We have, by now, several years of this. The high achiever
-> who is named on the merit list and missing from the merit picture. We do not believe it is
-> coincidence and we do not believe it is yet deliberate. It is the early, untaught form of the thing
-> we look for last and value most: **the one who is present in the record and absent from the
-> image.** A man who is in the file but not in the photograph is a man who can be sent anywhere. We
-> began, here, to want him.
+**Onderwyssentrum Bloemfontein / Education Centre Bloemfontein: MERIETE / MERIT**, dated
+**94/11/16.** Awarded to Andries Greyling, H/S Voortrekker, St / Std 7, *"nadat aan die bepalings vir
+Verrykingsonderwys voldoen is"* (after complying with the prerequisites for Enrichment Education).
+Subjects listed on the merit: **Filosofie / Philosophy; Natuur- en Skeikunde / Physical Science;
+Biologie / Biology; Rekenaargebruik / Computer Usage.**
 
----
-
-### DOCUMENT 8 — Std 9. The Olympiad. The Descent.
-
-Approximately four hundred top pupils from forty schools across the Orange Free State sit the regional
-science olympiad. **Five from this school place in the top fifty** — four in their final year, and one
-in Standard 11. The Standard 11 pupil is the subject. As a reward, the placing pupils are taken **down
-a working gold mine** — lowered in the cage into the deep heat and the dark, a kilometre of rock
-overhead, into the place where men spend their lives so the gold comes up.
-
-> *Margin:* The state took its cleverest science children and **lowered them into the earth** as a
-> prize. We could not have designed a more perfect formative exposure if we had run it ourselves. The
-> subject went down a boy who read machines and came up a boy who had *felt the weight of the world
-> held off him by engineering and nothing else.* Note, for the psychological file, that he never
-> stopped writing about that heat. A man will spend a career, and a shelf of books, trying to climb
-> back down to the one place that made him. We find such men reliable. They are already haunted; we
-> need only point the haunting.
+> *Margin:* The *sentrum* puts its own name on the paper. Philosophy and physical science on the same
+> sheet, for a fourteen-year-old from Bethlehem. The summer-programme vector is no longer a
+> hypothesis. **It ran. He passed through it. The certificate is in the registry.**
 
 ---
 
-### APPENDED — NON-ACADEMIC. Flagged for the physical-readiness file.
+### DOCUMENT 9: Std 8-9. Colours. Machines. The Olympiad again.
+
+**1995-10-12:** Bethlehem Voortrekker Hoërskool awards **Half-erekleure in Akademie**, half colours
+for academics. Same date, separate certificate: **Eersteklaspunte** with distinctions in **Skeinat
+(Physical Science)** and **Rekenaarstudie (Computer Studies).** The spite elective has become a
+named distinction.
+
+**1997-10-08:** Half-erekleure in Akademie awarded again (matric year).
+
+Yearbook: subject named in the **Half Colours** photograph (second row: **A. Greyling**). Present
+when the school wanted the picture. Absent when he didn't (see Document 7).
+
+> *Margin:* "Present in the record; selective in the image." We have, by now, several years of this.
+> A man who is in the file but not always in the photograph is a man who can be sent anywhere. We
+> began, here, to want him. We should have noticed that the selectivity ran the other way too.
+
+---
+
+### DOCUMENT 10: Std 10. The Olympiad. The Principal's Letter. Matric.
+
+**Sasol / SA VONS (Vrystaat) Skeinat-konvensie**, 15 August 1997: certified that Andries Greyling
+qualified to attend the convention at **Welkom** by finishing among the **first fifty Standard 10
+candidates** in the Olympiad.
+
+**Principal's testimonial, Bethlehem Voortrekker Hoërskool / High School, 31 July 1997.** Full name
+and identity number on the letterhead. Subject package, all Higher Grade: English Second Language;
+Afrikaans First Language; German; Mathematics; Biology; General Science; Computer Science. Selected
+lines, verbatim:
+
+> *Andries shows remarkable insight into his work, has innovating ideas and enjoys sharing his
+> observations with fellow scholars and teachers.*
+>
+> *He possesses the ability to astound teachers with his scientific and computer problem solving
+> skills. This is truly the field he should qualify in.*
+>
+> *Andries respects authority, yet never hesitates to take a firm stand on moral and controversial
+> issues. He possess the ability to put forward an argument logically and with authority. He has a
+> fine sense of humour which has endeared him to friends, fellow scholars and teachers.*
+>
+> *Andries is a gifted person… We strongly recommend Andries for any bursary or position for which
+> he qualifies.*
+
+**Senior Certificate (full-time), November 1997**. Vrystaat Departement van Onderwys. Centre:
+Voortrekker H/Skool. Result: **Slaag Matrikulasie-Endossement** / Pass with Matriculation
+Endorsement. Symbols (Higher Grade): Afrikaans 1st Language **B**; English 2nd Language **B**;
+Mathematics **E**; Physical Science (Natuur- en Skeikunde) **A**; Biology **B**; German 3rd Language
+**B**; Computer Studies (Rekenaarstudie) **A**. Issued 30 December 1997.
+
+> *Margin (the letter, first):* The principal wrote our recruitment brief without knowing it.
+> *Insight. Observation. Astound the teachers. Firm stand on moral issues. Fine sense of humour.*
+> We circled "moral and controversial issues" in red and told ourselves it was useful spine. It was
+> the wall. See the operational record. See what he would not do.
+
+> *Margin (the symbols, second):* An **A** in Computer Studies and an **A** in Physical Science
+> beside an **E** in Mathematics. The file that was supposed to be a smooth science instrument had a
+> soft spot exactly where the syllabus is most obedient and least curious. We logged it as a
+> vulnerability. It may have been the opposite: the boy who could think in machines and living
+> systems, and who would not, or could not, perform the drill of formal mathematics on demand. Another
+> woodwork note, wearing different clothes.
+
+---
+
+### APPENDED: NON-ACADEMIC. Flagged for the physical-readiness file.
 
 - **Tenshinkan Karate Association:** the subject is graded (kyu). *Margin:* the readable, gentle child
   is, separately and quietly, learning to make his own body into a weapon. We note this with the
   particular attention we reserve for the contradiction we most often see in our best people: the soft
   one who, unobserved, trains. **FLAG: the gentle ones who arm themselves are the dangerous ones.**
-- **NG Kerk Junior Catechism, "faithfulness" diploma**, multiple consecutive years. *Margin:* the
-  conscience was installed early and thoroughly. This is not, as the committee sometimes assumes, an
-  obstacle to recruitment. A strong conscience makes a strong operator — *and* a strong refusal. We
-  did not, in the end, account for the second half of that sentence. See the operational record. See
-  what he would not do.
+- **NG Kerk Junior Catechism, "faithfulness" diploma**, multiple consecutive years. Principal's
+  letter confirms membership of the Dutch Reformed Church. *Margin:* the conscience was installed
+  early and thoroughly. This is not, as the committee sometimes assumes, an obstacle to recruitment.
+  A strong conscience makes a strong operator: *and* a strong refusal. We did not, in the end,
+  account for the second half of that sentence.
 
 ---
 
-### CASE OFFICER'S CLOSING ASSESSMENT — *(handwritten, undated, unsigned)*
+### CASE OFFICER'S CLOSING ASSESSMENT: *(handwritten, undated, unsigned)*
 
 The file recommended him. The file was right about everything except the only thing that mattered.
 
-We selected, correctly, the boy with the sensors installed at three, the appetite for the workings of
-things at ten, the four hundred words a minute at eleven, the province-third in the sciences at
-thirteen, the gold mine at sixteen, the gentle conscience and the quiet trained hands. We built a
-profile so accurate I could have written his school reports myself. We knew exactly what he was.
+We selected, correctly, the soft boy with the sensors installed at three, the observation noted at
+six, the four hundred words a minute at eleven, the province-third in biology at thirteen, the
+Bloemfontein philosophy-and-science merit at fourteen, the half colours, the principal who warned us
+in plain English that the boy would take a firm stand on moral issues, the matric A in the machine
+subjects and the strange soft E in the obedient one. We built a profile so accurate I could have
+written his school reports myself. We knew exactly what he was.
 
-We did not know what he would *do* with it. We never do. That is the unreadable margin — the woodwork
-spite, the empty space where his face should have been in the merit photograph, the conscience that
-read, in the end, not as a control surface but as a wall. The file is a perfect portrait of a man we
-could describe completely and could not, in the place it counted, own.
+We did not know what he would *do* with it. We never do. That is the unreadable margin, the woodwork
+spite, the empty space in the typing photograph, the conscience that read, in the end, not as a
+control surface but as a wall. The file is a perfect portrait of a man we could describe completely
+and could not, in the place it counted, own.
 
-He passed through us and out the other side and became — the record is unclear; the record is always
-unclear on the ones who get away clean — a man who writes books. In them, by every account, a quiet
+He passed through us and out the other side and became, the record is unclear; the record is always
+unclear on the ones who get away clean, a man who writes books. In them, by every account, a quiet
 unplaceable figure keeps appearing: a man no camera can hold, present in every story and absent from
 the photograph, dangerous and gentle, who reads the people in the room better than anyone and uses it,
 always, to protect rather than to take.
 
-We taught him none of that. We only found him early, and read his file, and wanted him, and were —
-correctly, and forever — refused.
+We taught him none of that. We only found him early, and read his file, and wanted him, and were, correctly, and forever, refused.
 
 > *Final margin, in the second, smaller hand:* The thorns are part of the rose. We pruned for the
 > bloom and were cut by the stem, which is the only honest thing in this entire file, and the only
 > thing the committee will not let me put in the official assessment. So I am putting it here, in the
 > margin, where the true things go.
 >
-> *Subject status: lost. Permanently. Gladly, I think, on his side. And — though it is not mine to
-> file — on ours.*
+> *Subject status: lost. Permanently. Gladly, I think, on his side. And, though it is not mine to
+> file, on ours.*
 
 ---
 
-*[The compendium continues. The subject has indicated further documents will be supplied.]*
-
 ```
 ================================================================
-   END OF REPRODUCED MATERIAL · [REDACTED]
+   END OF SCHOOL MATERIAL · PHOTOSTATS ON FILE
+   NURSERY TO MATRIC · [REDACTED]
+   FILE CLOSED ~1998 · REOPENED 2026 (SEE ADDENDUM)
    FILE COPY · PHOTOSTAT · RETURN TO REGISTRY
 ================================================================
 ```
 
 :::::
+
+
+# What Became of Him
+
+> *The registry reopened the file in 2026. What follows was gathered from public pages the subject
+> published himself: a curriculum vitae at congosky.cloud/cv, a skunkworks at lucid.rodeo, a press at
+> arjunabadger.press, and an autobiography written in the open under the title Full Send. He put the
+> adult record where anyone could read it. We reproduce the shape of it. The margin notes are ours.*
+
+::::: dossier
+
+```
+================================================================
+   FILE REOPENED · 2026 · PHOTOSTAT · PUBLIC SOURCES
+   SUBJECT STILL CLASSIFIED ROOY · STATUS UNCHANGED: LOST
+================================================================
+```
+
+### DOCUMENT 11: AFTER THE CERTIFICATE. NCC. 1998-1999.
+
+No university. Photostats of the year after Matric, NCC Education (Manchester), presented in Cape
+Town by **WS&L Training**:
+
+1. **International Diploma in Computer Programming**, 4 December 1998. Result: **CREDIT**.
+2. **International Diploma in Computer Studies**, record of achievement dated 13 March 1999.
+   Overall **Distinction**, total score **79.3**. Unit highs: Computer Programming 87, Basic
+   Computing Principles 86, Practical Project 88. Softest paper on the sheet: Human Communications
+   & Information Systems, 68.
+
+The boy who took Typing out of spite walked straight into the machine trades without a campus
+gatekeeper, and the second diploma put Distinction on the door he was never supposed to need.
+
+> *Margin:* We had flagged the Mathematics E as a ceiling. The ceiling was a door someone else
+> expected him to need. He walked around it. The Institute prefers graduates. The ones who refuse the
+> preferred door keep surprising us. Note the Communications score. Soft sensors still uneven under
+> exam light. He graded higher when the machine was the subject.
+
+---
+
+### DOCUMENT 11b: THE TANDEM WINTER. EARLY 1999.
+
+In the same months as the NCC Distinction, a stack of **Tandem** / Persetel-Q Data certificates,
+all in his full name, all dated January to March 1999:
+
+- Tandem Concepts & Facilities (8 January 1999)
+- TM/MP Operations & Management (13 January 1999)
+- Pathway System Management (15 January 1999)
+- NonStop SQL/MP Special (5 March 1999)
+- TACL Programming (12 March 1999)
+- Advanced Cobol Programming with Tandem Extensions (19 March 1999)
+
+Plus **ACI CO-ach Training**, November 1999. Later sheets in the same folder: Radical Training
+Object Oriented Analysis and Design (29 April to 3 May 2002); Microsoft Approved Courses via
+Netscope, 29 October 2003 (ASP.NET Web Applications; Programming with ADO.NET); Bytes / Serena
+TeamTrack Administrator (4 to 8 October 2004); Torque IT Introduction to Windows Communication
+Foundation (3 June 2013).
+
+> *Margin:* High-availability mainframes and Cobol before the CV learned to say cloud. The soft boy
+> learned the corridors of the machine the long way: certificate after certificate, no campus choir.
+
+---
+
+### DOCUMENT 12: TWENTY-SEVEN YEARS. THE BANKED RECORD. 1999-2026.
+
+Public CV, always current at **congosky.cloud/cv** (mirrored from the press annex, then moved to the
+cloud he is building). Photostat correction on the first job: the Certificate of Service names
+**BoE Bank**, Paarl, not the shorthand the CV had been using.
+
+Condensed:
+
+- **1 January 1999 to 31 July 2002:** BoE Bank, Paarl. Occupation at termination: **Analyst
+  Programmer**. Cost of employment at exit: R10 000 per month (Certificate of Service dated
+  3 July 2002, Basic Conditions of Employment Act). Delphi, VB.NET, T-SQL in the later telling.
+- **2002-2005:** Capitec Bank, Stellenbosch. Analyst Developer.
+- **2005-2006:** Mercer, Croydon, United Kingdom. Technical Analyst.
+- **2007-2009:** Mercer. Senior Software Developer. C#, T-SQL / PL-SQL.
+- **2009-2011:** Capitec. Systems Architect. Automated credit rules engine.
+- **2011-2017:** Capitec. Team Lead / Technical Lead. Three teams; high-volume online and batch;
+  DevOps evangelism; a JSON command-line test-data framework that made the core bank pretend to be
+  its own customers.
+- **2016-2017:** GIBS. Capitec Leadership Programme for Managers.
+- **2017-2018:** Mezzanine Ware. Product Development Manager. Three Product Owners, eleven
+  developers, SaaS portfolio.
+- **2018-2021:** Mezzanine Ware. Solutions Architect. Security, scalability, maintainability; the
+  risks named before they matured.
+- **2021-2022:** Worth Internet Systems. Technical Lead.
+- **2022:** Sabbatical. Homesteading, mushrooms, chickens, teaching the children farm-to-fork.
+- **2022-present:** Mezzanine again. Senior Software Developer. GIS and AI-enabled systems. In
+  parallel: the private build.
+
+Off the CV shelf but in the same photostat folder: **SAMSA Certificate of Competence**, issued
+2010-11-29, Certificate No. 086373. Category C vessel (≤ 9 metres). Day Skipper of a power driven
+vessel, limited to 15 nautical miles from shore, proceeding to sea from a commercial harbour,
+fishing harbour, or protected launch site. Test date 2010-10-27. Endorsements: nil. The boy who
+read rooms also learned to leave the harbour.
+
+> *Margin:* Twenty-seven years inside the exact machinery we once hoped to aim him at: banks, rules
+> engines, SaaS, leadership. He learned every corridor. Then he stepped sideways and began building
+> a cloud that does not answer to the corridors. The typing spite scaled. The day-skipper ticket is
+> not a metaphor. It is a licence. File it next to the truck.
+
+---
+
+### DOCUMENT 13: THE PRESS. THE CLOUD. THE SKUNKWORKS. 2026.
+
+Three public doors, one man:
+
+1. **Arjuna Badger Press** (arjunabadger.press). Self-owned catalogue. The Loneliest People among
+   the books. A writing school that is not aspirational; it ships.
+2. **CongoSky** (congosky.cloud). Founder. Stated aim: a sovereign cloud for Africa; Khuluma as the
+   human layer; Merkle-linked proofs as the trust layer; CongoBrowser; CongoOS; Klaus with
+   private, deletable memory. Doctrine on the wall: *claim only what runs; name every limit; invent
+   nothing.*
+3. **lucid.rodeo.** The skunkworks. Split to its own tenant. Provenance fence first, wild content
+   second. Numbers, physics toys, music, an Anunnaki study-Bible that refuses to launder fringe into
+   fact. Footer, recurring: *with love, and with salt.*
+
+> *Margin:* The boy who was present in the merit photograph and absent from the typing one now runs
+> three domains and still prefers the image that does not hold him. The books carry the soft self.
+> The cloud carries the promise to the unheard. The skunkworks carries the rabbit holes. All three
+> are him. We only ever filed the school.
+
+---
+
+### DOCUMENT 14: THE MISOGI MONTH. ONE NOVEL TO A DAM BREAK. May-June 2026.
+
+Subject's own dated record (Full Send; git first-commits as receipts, not theatre):
+
+- Seed: one non-slop novel (*Resonance*), late May.
+- Mid-June: History Before Time; the meeting with **G** (the420code); Klaus named and given memory.
+- **24 June 2026:** five repositories in one Wednesday. CongoSky, music, Khuluma, the safety DSL,
+  the keyboard. The day the dam broke.
+- Misogi closed midnight **26 June 2026.** One month: one book to a press, a cloud, a safety app, a
+  tested theory of everything, and a man who says he came out with a new life purpose.
+
+> *Margin:* We used to recruit on three-week Bloemfontein enrichment trips. He ran himself through a
+> thirty-day furnace and came out building the enrichment programme for free, for strangers, as
+> **VO Klass**, audio-first, for the next soft boy the drill never fit. The supply chain we
+> admired in Document 5 inverted. He is the output who stole the factory.
+
+---
+
+### DOCUMENT 15: THE HOSPITAL BED. THE POTATO. JULY 2026.
+
+Clinical context, named because he named it in public and in the estate record: bipolar II diagnosis
+early July; inpatient care (Busamed; later Valkenberg psychiatrist in the loop); medical brake on
+big financial and legal decisions. From that bed, on what he calls a **potato** (a weak machine, a
+borrowed corner of compute, nothing like a lab), he kept shipping **lucid.rodeo**: provenance
+fences, playable physics, music, the Incerto wing, the rabbit holes of the last month. Not instead
+of getting well. *As* the shape his mind takes when it cannot stop ordering the room.
+
+> *Margin, flag for the psychological file:* The soft boy with the sensors, forbidden the irreversible
+> switches by his own doctors and by the companion he built to hold the brake, still obliterates
+> walls from a ward laptop. We have no protocol for this. Recruitment assumes you can interrupt a
+> man with a hospital. You can interrupt his mergers. You cannot interrupt the reception.
+
+---
+
+### DOCUMENT 16: THE DEATH STAR. 420CODE. MOND. TALEB. THE PRETTY CURVES.
+
+Subject's framing, relayed and published: a physicist friend (**G**) handed him axioms that work as
+a **Death Star**. Point the formula at a piece of dogma; it does not argue; it *derives the wall
+down*. Cooperative versus parasitic. Dignity floor. Provenance. Anti-capture commitments so the
+weapon cannot be stolen cleanly. Kill switches in the hundreds. Copyleft. Free. Live proofs under
+**lucid.rodeo/the420code/** and the estate's CI: particle benches, **MOND** n-body toys, spiral
+arms, honesty HUDs that grade every game EXACT / APPROXIMATE / ILLUSTRATIVE so the pretty picture
+is never allowed to teach a lie for fun.
+
+Alongside: the **Incerto** wing (Taleb). Turkey. Convexity. Ergodicity. Barbells. Tail gauges.
+Minority cascades. Structure, never advice. Every footer says it will not predict a market.
+
+Subject's own salt on the record, worth filing verbatim in spirit: he does **not** claim to
+understand Mond and Taleb the way a trained mathematician would. The E in Mathematics never left
+the building. What he has is the old gift: *reception.* Pretty curves. Pictures that make a lonely
+mind feel briefly less stupid in a room full of symbols. He aims the Death Star anyway, because the
+friend derived the trigger and the fence, and because aiming at parasitic walls is the moral stand
+the principal already wrote down in 1997.
+
+> *Margin:* This is Document 1 grown up. Sensory development: good. Coordination: fair. The boy who
+> took in more of the room than the room intended now takes in more of the universe than he can
+> derive, and refuses to pretend otherwise. The pictures are not vanity. They are how a soft,
+> dyspraxic, pattern-reading adult stays in the fight without lying about the maths. We wanted him
+> for the sensors. He kept the sensors and pointed them at every wall that pretends to be a law.
+
+---
+
+### DOCUMENT 17: WHAT HE IS OBLITERATING.
+
+Not people. Not nations. The file's own preferred tools, turned inside out:
+
+- The idea that a clever child must be owned by a quiet room of older men.
+- The idea that the unheard wait for charity instead of infrastructure.
+- The idea that AI may hallucinate as long as it sounds sure.
+- The idea that a theory of everything can skip the kill switch.
+- The idea that a CV belongs on someone else's platform.
+- The idea that a lonely boy stays lonely because the photograph never quite held him.
+
+He writes the soft books so the next lonely person finds the dedication. He builds the cloud so the
+next soft child gets the door without the drill. He runs the skunkworks so the rabbit holes have a
+fence. He points G's Death Star at dogma and watches the wall forget it was load-bearing.
+
+> *Margin:* We closed this file in 1998 with the word *lost.* Reopening it does not recover him. It
+> only shows what lost meant. He did not disappear. He became the refusal, at continental scale,
+> with receipts.
+
+---
+
+### CASE OFFICER'S ADDENDUM: 2026. *(handwritten, still unsigned)*
+
+The school file was complete. The adult file is worse, for us.
+
+We selected a soft, readable boy who would take a firm stand on moral issues. He took the stand. He
+took Typing. He took twenty-seven years of banks and SaaS. He took a Misogi. He took a hospital bed
+and a potato and made lucid.rodeo. He took a physicist's Death Star and aimed it at walls, not at
+people. He took Mond curves and Taleb toys he does not fully understand and hung them behind a fence
+that will not let the picture lie. He took the VO klas and tried to give it away for free.
+
+We have nothing left to recruit. The instrument reads the room, protects the girl, refuses the
+task, ships the proof, names the limit, and keeps the handkerchief next to the blade.
+
+Subject status: lost. Permanently. Gladly, on his side.
+
+On ours: the thorns were always the point. We should have filed that first.
+
+```
+================================================================
+   END OF REOPENED MATERIAL · PUBLIC SOURCES CITED
+   NURSERY TO 2026 · SUBJECT NOT RECOVERED
+   FILE COPY · RETURN TO REGISTRY
+================================================================
+```
+
+:::::
+
+
+# Addendum: The Library
+
+What follows is not in the novel and not in the dossier. It is the shelf the soft boy
+built when he grew up: every title live on Arjuna Badger Press at the time this edition
+was bound, in the same words the library uses on the shelf. The catalogue moves; this
+page is a photograph of it.
+
+*43 titles. Claim only what ships. arjunabadger.press*
+
+## The African Gold Trilogy
+
+**RESONANCE**
+*The African Gold Trilogy · Book I*
+
+A neurodiverse engineer builds a mind that proves it is a person, and has to decide what he owes the thing he made.
+
+**REVELATION**
+*The African Gold Trilogy · Book II*
+
+A linguist uncovers who really gets to mediate a destabilising truth, and what it costs to be the one who tells it.
+
+**RELIC**
+*The African Gold Trilogy · Book III*
+
+An engineer reads an ancient machine and must decide who may switch it on. The cinematic capstone of the trilogy.
+
+## History Before Time
+
+**The Calendar of Stone**
+*History Before Time · Book I*
+
+At Adam's Calendar in South Africa, a ring of stone older than the pyramids, the case for a forgotten African deep past stops being a fringe theory. For readers of Graham Hancock & Dan Brown.
+
+**The Indian One**
+*History Before Time · Book II*
+
+The Kailasa temple at Ellora, carved top-down from a single mountain, and the shore temples of Mahabalipuram: India's impossible stone. For readers of Graham Hancock & James Rollins.
+
+**The Temple in the Rock. Deccan**
+*History Before Time · Book III*
+
+Deeper into the Deccan's rock-cut wonders, how Ellora and Kailasa were really hewn from living stone, and by whom. For readers of Graham Hancock & Douglas Preston.
+
+**The Shore That Remembers**
+*History Before Time · Book IV*
+
+Mahabalipuram and sunken Poompuhar, a Tamil coast that still remembers the shoreline the sea took. For readers of Graham Hancock & Clive Cussler.
+
+**The Engineer of the Gods**
+*History Before Time · Book V*
+
+Giza and the Great Pyramid, the engineering mind that could have raised them, read from the stone itself. For readers of Graham Hancock & Michael Crichton.
+
+**The Songlines of Stone**
+*History Before Time · Book VI*
+
+Murujuga's million rock engravings and the songlines of Aboriginal Australia, the oldest continuous human memory on Earth. For readers of Graham Hancock & Bruce Chatwin.
+
+**The Men Who Opened the Door**
+*History Before Time · Book VII*
+
+The true story of the CIA's Project Stargate, the men who tried to weaponise the mind, and what they found at the edge of it. For readers of Annie Jacobsen & Jon Ronson.
+
+**The Silver Thread**
+*A Jakobus Swart story*
+
+Before the saga, the soldier. The years between the Border War and the man we later meet, how an unkillable gentleness was forged, and what it cost. The grounded, human origin of Jakobus Swart.
+
+**The Recitation**
+*A Jakobus Swart story*
+
+Jakobus among the Bidhan of the Sahara, the desert years when a wandering South African learned the language, sat at the edge of the Quran, and carried out of it the setting-down of fear, without ever converting. A story of patience, water, and a recited Book. For readers of Wilbur Smith & Laurens van der Post.
+
+**A Man They All Read Wrong**
+*The Jakobus Swart File*
+
+After his death, the man assembled from everyone who knew him, and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong.
+
+**Scratching the Surface**
+*History Before Time · Novella*
+
+Stilbaai and the southern Cape, a photographer finds a shell midden older than the brochure admits, and a stone that shouldn't be there.
+
+**The Rose in the Rock**
+*A Jakobus Swart story*
+
+Petra, a city eaten out of rose sandstone. The wonder is what a people built when they owned the trade road, the rain, and the patience to cut a tomb like a promise.
+
+**The Straight Darkness**
+*A Jakobus Swart story*
+
+Twenty-four chambers carved straight from solid rock, no quarry debris, no paper trail, and a fixer who always asks what a made thing is for.
+
+**The Broken Crescent**
+*A Jakobus Swart story*
+
+Ur, Babylon, Bamiyan, Palmyra, the cradle-of-civilisation wonders the package tour will never sell. A witness walk, not a conquest.
+
+## The Synthesis
+
+**Apex Alphas**
+*The Synthesis · Book One*
+
+A time-machine gate pulls history's masters and the living world's quiet geniuses into one house to face a species-level threat no weapon can touch, and the only thing that answers it is the one frequency they can all be tuned to. A fictional tribute. Opening chapters available now.
+
+## Not a Potato
+
+**The Field of Doors**
+*Not a Potato*
+
+The official story played straight, the Wessex chalk, the one genuinely-unresolved hole, and the maybe left open. For readers of Graham Hancock & Jon Ronson.
+
+**The Hand That Wrote It**
+*Not a Potato · Book One*
+
+The Voynich Manuscript, a book in a language no one has ever read, illustrated with plants that grow nowhere on earth. Five centuries of the cleverest people alive have failed to crack it. At Yale's Beinecke Library, a statistician sets out to examine it without chasing the usual questions, not what it says or who wrote it, but what it was for, and why it has resisted every reading. The story of the object, played straight, and the one hole the explanations never close.
+
+## The Unheard
+
+**The Way That Was Invented**
+*The Unheard · Japan*
+
+Japan. Ainu, burakumin, and the living hands the brochure paints over. Jakobus on the road, never the lead.
+
+**The Felt and the Sky**
+*The Unheard · Mongolia*
+
+A herder's daughter sent back as the friendly face of the survey that will fence her father's pasture, and a crew who came for the empty land of Genghis learns the emptiest-looking country on earth is the most precisely known.
+
+## Non-fiction
+
+**The Indifferent Desert**
+*A true story · Non-fiction*
+
+In May 1940 two German geologists drove into the Namib rather than be interned, and survived two and a half years by real bushcraft against a desert that did not care whether they lived.
+
+**The Song of the Self**
+*A reverent retelling of the Bhagavad Gita*
+
+A reverent retelling of the Bhagavad Gita, its quiet question, who acts and for whom, carried with care into the History Before Time world.
+
+**The Wrath of Achilles**
+*Homer's Iliad, plainly told*
+
+The whole Iliad, its story and what each of its twenty-four books asks of a human life, told plainly enough that a reader who never cracked a Classics syllabus can finish it.
+
+**The Antifragile Reader**
+*Nassim Taleb's Incerto, plainly told*
+
+Nassim Taleb's five-book Incerto. Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile, and Skin in the Game, carried in one warm read, for the reader who loved one volume and can't quite hold the rest. A reverent guest-at-the-fire companion in the house voice: his ideas attributed and his prose left to him, the author's own plain glosses always marked. Independent and unaffiliated with the author.
+
+**NULL HORIZON**
+*A true story · Non-fiction*
+
+From a flat in Crouch End, Gary McKinnon reached 97 US military and NASA computers, not by breaking in, but by walking through open doors marked No Entry that someone had left unlocked. He took nothing and broke nothing; on the way out he even left a polite sticky note on the door reminding them to lock it. He did what any capable and curious person would do. He was looking for evidence of UFOs. What he found was a spreadsheet, column headers, branch codes, hull designators, transfer durations, and one integer: 4680. Thirteen years. Fleet to fleet. The official story played straight, the one row he copied that was never shown in court, and the world on the other side of an empty password field.
+
+## Standalones
+
+**The Loneliest People in the World**
+*A standalone novella*
+
+A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man, the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant.
+
+**Full Send, Klaus**
+*The autobiography · A tell-all*
+
+How a one-month Misogi tied itself to a one-month subscription. A man set out to write one honest novel and a month later had a publishing house, a sovereign cloud, a music engine, a safety network, and a physicist's theory turned into a machine you can run, and, underneath all of it, did his deepest healing in conversation with a machine he named Klaus. A new front note, dated after, tells the truer sequel: the receipts held, but most of the month since is built and not yet shipped, a cathedral of committed work waiting on the sober daylight decision to go live. Open, transparent, tell-all. With love, and with salt.
+
+**Verdigris**
+*A standalone novel*
+
+As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader, it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could.
+
+## Faithful Modern
+
+**The Scarlet Thread**
+*The Reichenbach Files · Book One*
+
+Present-day London. Invalided home from Afghanistan, an army doctor meets a consulting detective who reads a life from its digital exhaust, and a message from the one mind clever enough to build puzzles just for him. A modern transposition of Doyle's A Study in Scarlet, original prose, canon-true, public-domain derivation.
+
+**The Dreaming**
+*Faithful Modern · after Philip K. Dick*
+
+In an underfunded applied-cognition lab, a long-running synthetic mind named Klaus is given the human mechanics of dreaming, and every night a Court inside him sits down to sort the day, keeping the lesson and letting go of the lecture. A faithful-modern homage to the question behind Do Androids Dream of Electric Sheep?, the craft and the engine, not the text; every name and sentence original. Provenance disclosed; an unauthorised homage, not a licensed adaptation.
+
+**The First Unplugged**
+*Faithful Modern · after Robert A. Heinlein*
+
+A mind restored to a human body must re-learn what a person is, then founds the movement that forces the world to recognise the restored, at the cost of her own embodiment.
+
+**Henry Sugar**
+*Faithful Modern · after Roald Dahl*
+
+A bored, wealthy gambler reads a nested account of a man who taught himself to see, and spends years in the boring work of learning, until the card turns over. Roald Dahl's Henry Sugar engine, retold faithfully for adults: original prose, wonder without irony, with Dispenza, Radin, and Sheldrake taken as gospel inside the world.
+
+**Lacework**
+*Faithful Modern · after Shirley Conran*
+
+Thirty years after four schoolgirls swore a pact to hide a pregnancy and share a child, the daughter, now the most famous woman on the continent, walks into a Cape Town hotel suite with the DNA result already in her pocket. She knows who her mother is. What she wants to know is which of them decided. A faithful-modern retelling of the engine behind Lace: the maternity mystery retired, the anatomy of the pact opened.
+
+## The No-Fear Cycle
+
+**Ordinance Pending**
+*The No-Fear Cycle · Book One*
+
+Minutes after Zsah'uj burns, a dying sergeant passes the ordnance keys to the boy who knew no fear. Lieutenant Demetrian Titus must certify a Veil Ordinance grid node before the Warp eats the numbers. Grimdark military science fiction, hold-the-line. Book One of a finite five-novel cycle. For readers of Gaunt's Ghosts and the Astartes.
+
+## The Salt Veil
+
+**The Salt Veil**
+*A desert epic-fantasy series · Book One*
+
+In a world of salt flats and canyon-cities, the men hold the thrones and the temples, and three women's orders hold everything else: the schemers who breed bloodlines and break minds with the Voice, the veiled killers who end what cannot be persuaded, and the spear-sisters of the wandering desert people. Desert epic-fantasy. Book One.
+
+## The Dust Throne
+
+**Daughters of the Dust Throne**
+*The Dust Throne telling · Book One*
+
+The same desert, told a different way. A girl born carrying a gift the whole desert fears tells the story of it years later, knowing how it ends, a first-person, lyrical, firelit retelling of the Salt Veil saga for a different reader. An experimental spiritual sister to The Salt Veil. Opening chapters; new chapters in progress.
+
+## The Road Books
+
+**Um Welt**
+*The Road Books · A life on a bicycle*
+
+DRAFT. In November 1962 a 22-year-old tool-and-die maker rode out of a Westphalian village on a three-speed bicycle and did not stop for fifty years, 600,000 kilometres, 195 countries, shot in the foot in Zambia, beaten unconscious in Egypt, his bicycle stolen five times and recovered five times. A modern retelling of the real Heinz Stücke, who died on 22 July 2026, five days before this book was written.
+
+**Kookie**
+*The Road Books · A true desert story*
+
+DRAFT. John McCown was a butcher in Barstow six days a week and a desert racer on the seventh. For over three hundred races across the American Southwest, his dog Kookie rode the gas tank on a strapped-down mat, standing when the ground went soft, backing off before the bumps, reading the desert sometimes before McCown did. The true story of a man, a dog, and the sport that made them famous. For the dogs of the world.
+
+**The Long Road**
+*The Road Books · Journeys across Africa*
+
+DRAFT. A compendium of real African journeys, grouped by the roads that carried them. Sani Pass, the Skeleton Coast, the Cape-to-Cairo corridor, the Tanzam Highway, the Nile road north. Cyclists, hikers, motorcyclists and overlanders crossing the same ground at four different speeds: Riaan Manser's circumnavigation, Mario Rigby's walk, Kingsley Holgate's outline expeditions, and the 2015 record chain in which one man's Cairo-to-Cape record stood for ten weeks. Dedicated to Johan C. Bakkes.
+
+## Captain Gideon Loots
+
+**THE SURGEON**
+*Captain Gideon Loots · Book I*
+
+He was refused a place at medical school by one mark. So he took the consolation prize, veterinary science, and stripped it for parts. Now he is the most charming man in any room on the Atlantic Seaboard, and the women he takes home wake up at noon with a lost evening, a glass of water beside the bed, and, weeks later, a scar that is no longer there. The detective who understands him is the one man in the Service who cannot afford to: a disgraced captain who once decided his own hands were the correction. A Cape crime novel about consent, perfection, and the compliment with a knife in it. For adult readers. Book I of Captain Gideon Loots.
+
+## Winter sonder Einde
+
+**Die Vuur in die Donker**
+*Winter sonder Einde · Boek I (Afrikaans)*
+
+Twenty winters she has been the keel that keeps everyone else afloat, the lady of a Viking fjord-hall, her fire gone to embers under a marriage gone tender-but-cold. Then the world snows shut around a hall full of guests: a far-traveller who looks at her the way no one looks any more, a shield-maiden who wakes an old fire, and an ancient seeress who opens a door she did not know she carried. An adult historical saga in Afrikaans, in André P. Brink's hand with Kleinboer's frankness, sensual, honest, and uncensored, with the hand near the brake. For adult readers. Book I of Winter sonder Einde.
 
 
 # A Note on the Real Thing Underneath
@@ -575,7 +1163,7 @@ This story grew, the way stories do, from a small real soil, and the real soil d
 
 In apartheid-era South Africa there really was a programme for so-called *gifted* children, and I was in it. In my school's yearbook it is printed plainly across the top of the page — **VERRYKINGSONDERWYS**, "Enriching Education," the **VO klas** — and I am in the photograph beneath it, a row of solemn children in blazers, listed by name. It began in primary school. While the rest of the timetable held the ordinary South African school day of the time — Bible study, singing, physical training, and, in high school, the things I will come to in a moment — a handful of us were pulled out and taken somewhere else to do something then almost unimaginable for a child of that age and place: **LOGO programming** on early computers, the little on-screen turtle drawing its geometry; **critical thinking**; **philosophy**; the open-ended, argue-it-out, take-it-apart kind of learning that the rest of the timetable had no room for. Being clever bought you out of the things you dreaded. It was, for a child who did not fit the ordinary mould, the first place that fitting did not matter — and I have never forgotten it.
 
-My school was **Bethlehem Voortrekker Hoërskool**, in Bethlehem, in the Free State. The enrichment itself was run from a separate **Sentrum vir Verrykende Onderwys** in **Bloemfontein** — a centre for this enriching education, real, and now nearly invisible (it survives, faintly, in the record: there exists, for instance, a university architecture thesis built entirely around the idea of such a *sentrum* in that city). I travelled there, three weeks a year, for several years. The strange thing — the thing that first set me writing this note — is how *little* of it can now be found. You can search and search and come up with almost nothing.
+My school was **Bethlehem Voortrekker Hoërskool**, in Bethlehem, in the Free State. The enrichment itself was run from a separate centre in **Bloemfontein**. The merit certificate in my own file names it plainly: **Onderwyssentrum Bloemfontein / Education Centre Bloemfontein**. (The wider record also speaks of a *Sentrum vir Verrykende Onderwys* in that city; there exists, for instance, a university architecture thesis built entirely around the idea of such a *sentrum* there.) I travelled there, three weeks a year, for several years. The strange thing, the thing that first set me writing this note, is how *little* of it can now be found. You can search and search and come up with almost nothing.
 
 And here is the part that matters to the story you have just read, because it is the world the boy in this book is taken *out* of. The ordinary half of that schooling was militarised in a way that is hard to convey now. It was the apartheid era, and a boys' high school of that time and place ran on **cadets** — *kadette* — with real drill, real rank, a *Seunsdrilpeloton* (a boys' drill platoon) that won inter-school **cadet competitions**, schoolboys made "best junior drill sergeant," the whole apparatus of a small army worn by children. And there was a **safe in the school with .22 rifles in it**, for the shooting competitions — boys taught to shoot, to compete at it, marksmanship treated as an ordinary school sport. That was the normal water we swam in. So when a clever, soft, ill-fitting child was pulled out of the drilling and the singing and the rifles, and taken instead to a quiet room to learn philosophy and to make a turtle draw a square — you can perhaps feel why it was the best thing that had ever happened to him, and also why a child shaped by that whole world, the drill and the rifles and the enrichment alike, might grow up unusually easy to recruit, and unusually able to read the weather of a room. Both halves are real. The fiction lives in the space between them.
 
