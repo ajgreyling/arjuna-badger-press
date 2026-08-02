@@ -95,22 +95,18 @@ naming it poses no risk; "full send"):
   heavy fictional-firewall caveat was softened per "full send" but the real-teachers guard remains.
 - **Same real schooling also grounds the crop-circle book's back matter** (the cadet/.22 + one-shot-
   father material) — see [[crop-circles-book]] / its `THE_CHALK_AND_THE_CAMPS.md` §5.
-- **Photos:** Unredacted yearbook/press scans live under `design/images/yearbook/source/`
-  (names printed, including classmate **S. Harts** on the Verrykingsonderwys plates). Print
-  JPEGs for the book are under `design/images/yearbook/print/`. Older `*-redacted.png` files
-  are superseded for embed; names need not be blacked. Plate order + labels:
-  `design/images/certificates/PLATES.json` → `build/chapters/ch-52.md`.
+- **Photos:** 8 yearbook/newspaper scans redacted → `design/images/yearbook/*-redacted.png`
+  (others blurred + name captions blacked; author face kept where named). Re-run:
+  `books/the-loneliest/.venv/bin/python books/the-loneliest/scripts/blur_yearbook_faces.py`.
+  Empty re-exports (IMG_6187–6197) still need a proper Photos export for the 2nd VO page.
 
 ## Backmatter (after the fiction)
 | File | Title | Role |
 |---|---|---|
-| `ch-50.md` | **The File** | Fictional dossier on the real author, nursery through Matric (Senior Certificate 1997), grounded in the 2026-07-31 certificate photostats under `design/images/certificates/`; ROOY margin notes; school material closes ~1998. **Ship with the book.** |
-| `ch-51.md` | **What Became of Him** | Adult coda in the same dossier voice: NCC diplomas, 27-year CV (congosky.cloud/cv), Misogi, CongoSky / Press / lucid.rodeo, hospital-bed potato build, 420Code Death Star, Mond/Taleb curves aimed without false mastery. **Ship with the book.** |
-| `ch-52.md` | **The Photostats** | Embedded backmatter plates: school-file scans, adult credentials (`werk/`), and redacted yearbook plates. Print JPEGs under `design/images/*/print/` (sources kept beside them). **Ship with the book.** |
-| `ch-97.md` | **Addendum: The Library** | Full shelf blurbs for every live Arjuna Badger Press title at bind time (from `site/build.py` CURATED × PUBLISHED). Photograph of the catalogue. **Ship with the book.** |
-| `ch-98.md` | **A Note on the Real Thing Underneath** | Author's non-fiction note: Verrykingsonderwys, VO klas, Bethlehem Voortrekker, cadets/.22, Bloemfontein *Onderwyssentrum* (named on the Std 7 merit), time-capsule call. |
+| `ch-50.md` | **The File** | Fictional dossier on the real author — nursery through Std 9, built from school reports, yearbook facts, enrichment records; ROOY margin notes; the "subject lost / gladly" close. **Ship with the book.** |
+| `ch-98.md` | **A Note on the Real Thing Underneath** | Author's non-fiction note — Verrykingsonderwys, VO klas, Bethlehem Voortrekker, cadets/.22, Bloemfontein *sentrum*, time-capsule call. |
 
-Merge order: `ch-01`…`ch-09` → `ch-50` → `ch-51` → `ch-52` → `ch-97` → `ch-98`. Re-merge + sync before deploy.
+Merge order: `ch-01`…`ch-09` → `ch-50` → `ch-98`. Re-merge + sync to `arjuna-badger-press` + `site/build.py` before deploy.
 
 ## Status
 **FULL DRAFT + backmatter done.** Standalone, top-level `books/the-loneliest/`. Builds via a
