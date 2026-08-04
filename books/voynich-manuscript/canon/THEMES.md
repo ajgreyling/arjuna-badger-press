@@ -1,0 +1,5 @@
+- The gift of being allowed to say “maybe” — wonder is protected, not solved, and the honest “I don’t know” is a strength, not a failure.
+- The humanity law in action: the crew’s neurodiversity and marginality are why they see the gap, not flaws to be healed; their ways of reading are strengths, dramatized in how they approach the object and each other.
+- The dignity contract: the makers’ silence is respected, the custodians’ authority over the object is never violated, the crew’s role is to read honestly and hand back the unanswered question.
+- The cost of closure: the urge to force an answer is dramatized as a flaw, not a virtue; the story’s heart is the refusal to tidy away the mystery.
+- Never spoken, always lived: the need to own, claim, or “solve” is what the adversary embodies; the crew’s win is to leave the question open and the object unclaimed.

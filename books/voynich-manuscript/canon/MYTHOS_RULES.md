@@ -1,0 +1,7 @@
+- Every “hole” is a real, checkable, cited unresolved fact — nothing invented, nothing implied as “solved” by the book or crew.
+- The potato engine: each “easy” answer is shown, physically and concretely, to fail — the world’s best crack at the MS makes only a potato, never the real thing.
+- Wonder, not conspiracy: the adversary is human, motivated by profit or ideology, never an omnipotent cabal; the crew are not saviours, just readers.
+- §3 in spirit: where there is no living local, the makers are the “local” (the unread, the unheard), and the living custodians own the object’s care and the right to withhold the answer; the crew never “solve” or seize, only read and hand back the question.
+- Designated mysteries stay open: the MS is never solved or even partly solved in narration; the maybe is protected, never collapsed into certainty or debunk.
+- Real places honestly: the Beinecke, the labs, the digital landscape, all rendered as they are; the manuscript’s physicality and public scans are foregrounded.
+- This book’s specifics: the answer to “what is it for” is use + keeping, not content; Jakobus’s gift fails; the closing-door structure is binding; Naila’s arc is the cost of needing the maybe to be a yes.

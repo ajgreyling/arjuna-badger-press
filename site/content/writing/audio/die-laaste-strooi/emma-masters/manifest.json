@@ -1,0 +1,172 @@
+{
+  "voice": {
+    "slug": "emma",
+    "name": "Emma Lilliana - Soft, Warm and Gentle",
+    "voice_id": "0z8S749Xe6jLCD34QXl1"
+  },
+  "model_id": "eleven_v3",
+  "story_path": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/die-laaste-strooi.md",
+  "output_dir": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters",
+  "chapters": [
+    {
+      "index": 0,
+      "title": "I. Die soen",
+      "slug": "00-i-die-soen",
+      "render_chars": 1812,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 1812,
+          "sha256": "106c95294202f99852e1f600c27a0310456f138d42f1ebd546f5cf2b9fa750c7",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/00-i-die-soen/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/00-i-die-soen.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 2241141,
+        "duration_seconds": 140.0
+      }
+    },
+    {
+      "index": 1,
+      "title": "II. Die twee broers",
+      "slug": "01-ii-die-twee-broers",
+      "render_chars": 2118,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 2118,
+          "sha256": "dd46a9162390f8c69da3434431f4ce8ab8b347f7d1f0d2a243da7b4f1a41caa2",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/01-ii-die-twee-broers/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/01-ii-die-twee-broers.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 2764426,
+        "duration_seconds": 172.72
+      }
+    },
+    {
+      "index": 2,
+      "title": "III. Die juffrou",
+      "slug": "02-iii-die-juffrou",
+      "render_chars": 1922,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 1922,
+          "sha256": "78a862c90a073aaa5b270f31360255d9bad63597843363dd38f586c4327cb5b2",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/02-iii-die-juffrou/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/02-iii-die-juffrou.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 2453464,
+        "duration_seconds": 153.28
+      }
+    },
+    {
+      "index": 3,
+      "title": "IV. Die vlam",
+      "slug": "03-iv-die-vlam",
+      "render_chars": 2523,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 2523,
+          "sha256": "52a23237645bde785c6b6daf2a463b108d50632d99e8518a32605a174f5a13f9",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/03-iv-die-vlam/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/03-iv-die-vlam.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 3224181,
+        "duration_seconds": 201.44
+      }
+    },
+    {
+      "index": 4,
+      "title": "V. Die oorhandiging",
+      "slug": "04-v-die-oorhandiging",
+      "render_chars": 1296,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 1296,
+          "sha256": "3f2f2136bb8c790ed1e2c68765df285b89aa8029d94b4715d0f82a2cbd64dd05",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/04-v-die-oorhandiging/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/04-v-die-oorhandiging.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 1642205,
+        "duration_seconds": 102.56
+      }
+    },
+    {
+      "index": 5,
+      "title": "VI. Die nasie",
+      "slug": "05-vi-die-nasie",
+      "render_chars": 2611,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 2611,
+          "sha256": "f743e91c19b950e96247068ce3dc6c0f51bf2495e865ea238c137e65cc447673",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/05-vi-die-nasie/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/05-vi-die-nasie.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 3461999,
+        "duration_seconds": 216.32
+      }
+    },
+    {
+      "index": 6,
+      "title": "VII. Wat oorbly",
+      "slug": "06-vii-wat-oorbly",
+      "render_chars": 1542,
+      "chunks": [
+        {
+          "index": 0,
+          "chars": 1542,
+          "sha256": "8328aa942632fdbbfc4b5157fb448cfc39f431d4f888e6edd68925cd48335cb7",
+          "file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/chunks/06-vii-wat-oorbly/chunk-001.mp3",
+          "status": "rendered",
+          "attempts": 1
+        }
+      ],
+      "mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/masters/06-vii-wat-oorbly.mp3",
+      "failed": false,
+      "mastered_probe": {
+        "bytes": 2051805,
+        "duration_seconds": 128.16
+      }
+    }
+  ],
+  "full_mastered_file": "/Users/ajgreyling/code/arjuna-badger/arjuna-badger-press/site/content/writing/audio/die-laaste-strooi/emma-masters/Die Laaste Strooi.mp3",
+  "failures": [],
+  "full_mastered_probe": {
+    "bytes": 17976886,
+    "duration_seconds": 1123.48
+  }
+}

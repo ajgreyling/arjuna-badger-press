@@ -5693,6 +5693,14 @@ def render_poem(src_name: str, out_name: str, title: str, desc: str, *,
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
 WRITING_PIECES = [
+    ("die-laaste-strooi.md", "die-laaste-strooi",
+     "Die Laaste Strooi",
+     "’n Kortverhaal · Boesmanland",
+     "Magrieta, oud-onderwyseres, soen haar man op die voorkop soos altyd en druk toe ’n breipen "
+     "by sy oor in. Kobus Ferreira was ’n skaapboer op die dom-broer-lyn: Boesmanland, Namakwaland, "
+     "die jaarlikse trek. Hy was onskuldig. Haar vlam het met tyd doodgegaan. Die nasie het agter "
+     "haar geskaar as underdog, en van hom ’n skurk gemaak wat hy nie was nie.",
+     False),
     ("the-kettle-and-the-blink.md", "the-kettle-and-the-blink",
      "The Kettle and the Blink",
      "On /sleep: what a machine should keep",
