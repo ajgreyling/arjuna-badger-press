@@ -1,0 +1,77 @@
+/* The Wrath of Achilles — EPUB stylesheet (Arjuna Badger house companion).
+   System font stack only — no remote @import (epubcheck RSC-006). */
+
+@page { margin: 5%; }
+
+html {
+  font-family: system-ui, -apple-system, "Atkinson Hyperlegible", sans-serif;
+  line-height: 1.65;
+  color: #1a1a1a;
+}
+
+body { margin: 0 auto; max-width: 36em; padding: 0 0.25em; }
+
+h1 {
+  font-size: 1.55em;
+  line-height: 1.2;
+  font-weight: normal;
+  margin: 1.6em 0 0.2em;
+  text-align: left;
+  page-break-before: always;
+  page-break-after: avoid;
+  color: #3a4a5c;
+}
+h1 + p { margin-top: 1.2em; }
+
+h3 {
+  font-size: 1.02em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  margin: 1.7em 0 0.4em;
+  color: #2a3540;
+  page-break-after: avoid;
+}
+
+p { margin: 0 0 0.9em; text-align: justify; text-indent: 0; orphans: 2; widows: 2; }
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+
+blockquote {
+  margin: 1.1em 1.4em;
+  padding: 0.2em 0 0.2em 1em;
+  border-left: 2px solid #7a8a9a;
+  font-size: 0.98em;
+  color: #2a2520;
+  page-break-inside: avoid;
+}
+blockquote em:last-child { color: #4a5058; }
+
+hr {
+  border: none;
+  border-top: 1px solid #b0b8c4;
+  width: 28%;
+  margin: 1.6em auto;
+}
+
+.bridge {
+  margin: 1.8em 0;
+  padding: 0.8em 1.1em;
+  background: #eef1f5;
+  border: 1px solid #c8d0da;
+  border-radius: 4px;
+  font-size: 0.95em;
+  page-break-inside: avoid;
+}
+.bridge h3 { margin-top: 0.2em; color: #3a4a5c; }
+
+.colophon {
+  margin: 2em 0 0;
+  padding-top: 0.8em;
+  border-top: 1px solid #b0b8c4;
+  font-size: 0.88em;
+  color: #4a4038;
+  text-align: center;
+}
+
+h1.unnumbered { page-break-before: avoid; }
+a { color: #2a4058; text-decoration: none; }

@@ -110,3 +110,11 @@ books/**/audio/**/*.opus
 
 # ── Cloudflare Wrangler local cache (build junk) ─
 .wrangler/
+
+# Heavy video / youtube work products (regenerate via audio pipeline)
+*.mp4
+**/_work_m4b/
+**/_work_youtube/
+site/content/writing/audio/**/work/
+site/content/writing/audio/**/masters/
+*.pre-polish.bak
