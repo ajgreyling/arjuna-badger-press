@@ -4719,11 +4719,19 @@ they never write your voice for you. {avail} finished books are on the shelf, fr
     ])
 
 
-def render_landing() -> str:
+def render_landing(read_now: int = 0, avail: int = 0) -> str:
     """The www / apex front door — the origin story, then a door into each of the three products.
 
     Served at www.arjunabadger.press (and apex → www). Product cards point at the subdomains, but
-    fall back gracefully to paths when subdomains aren't live yet (the path targets still resolve)."""
+    fall back gracefully to paths when subdomains aren't live yet (the path targets still resolve).
+    `read_now` / `avail` are the live library counts from the same pass that builds index.html."""
+    lib_line = (
+        f"<strong>{read_now} books, free</strong> — {avail} ready to download (read online, EPUB &amp; PDF). "
+        "Fact-checked, both sides told. A free Amazon, only better, with no paywall."
+        if read_now
+        else "Finished books, free to read — online, EPUB, and PDF. Fact-checked, both sides told. "
+             "A free Amazon, only better, with no paywall."
+    )
     return "\n".join([
         head("Arjuna Badger Press — free to read, free to publish",
              "A publishing house built because the gatekeepers said no. Read finished books free, "
@@ -4771,8 +4779,7 @@ that was locked to me is the one I'm holding open for you.</p>
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
 <a class="card" style="--accent:#C8A86B;text-decoration:none" href="https://library.{DOMAIN.split('//')[1]}/">
 <div class="body"><span class="ser">Read</span><h3>The Library</h3>
-<p>Finished books, free to read — online, EPUB, and PDF. Fact-checked, both sides told. A free
-Amazon, only better, with no paywall.</p><span class="badge">library.arjunabadger.press</span></div></a>
+<p>{lib_line}</p><span class="badge">library.arjunabadger.press</span></div></a>
 <a class="card" style="--accent:#7C5CFF;text-decoration:none" href="https://studio.{DOMAIN.split('//')[1]}/">
 <div class="body"><span class="ser">Write</span><h3>The Studio</h3>
 <p>The writers' tool. Bring a draft, get a prioritised finish map in your own words, publish straight
@@ -8498,7 +8505,10 @@ def main() -> None:
     (OUT / "start.html").write_text(render_start(entries), encoding="utf-8")
     # www / apex generic landing — the origin story + a door into each of the three products.
     # The app serves this at www.arjunabadger.press (Host-based routing); also reachable at /landing.html.
-    (OUT / "landing.html").write_text(render_landing(), encoding="utf-8")
+    # Pass the same live counts as the library hero so the Library card never drifts.
+    avail = sum(1 for e in entries if e["available"])
+    read_now = sum(1 for e in entries if e["available"] or e.get("serial"))
+    (OUT / "landing.html").write_text(render_landing(read_now, avail), encoding="utf-8")
     # ── Buabantu product page — top-level /buabantu.html, linked from poes page ─────────────────
     _buabantu_src = REPO / "site" / "content" / "buabantu.md"
     if _buabantu_src.is_file():
