@@ -384,7 +384,13 @@ PUBLISHED = set(
         "bird-of-paradise-flower,how-king-lion,"
         # codex-medica (Codex Medica): ethnobotanical research constitution, edition 0.2 foundation
         # locked. Non-clinical by binding notice. EPUB/PDF with PD/CC plant plates.
-        "codex-medica",
+        "codex-medica,"
+        # 2026-08-06 — rich covers typeset + gate-re-rendered EPUB/PDF; published by explicit
+        # author decision to ship the new cover art to arjunabadger.press:
+        #   - the-control-room (Resonance companion novella)
+        #   - homo-animalus (narrative nonfiction / memoir)
+        #   - palindrome (promoted from SERIAL: ≥500KB cover + gate-rendered downloads)
+        "the-control-room,homo-animalus,palindrome",
     ).split(",") if s.strip()
 )
 
@@ -459,11 +465,9 @@ SERIAL = set(
         #   shelf tagline. Kept OUT of PUBLISHED so no EPUB/PDF ships (no "finished book" can be
         #   mistaken for complete with one side missing).
         # the-antifragile-reader: PUBLISHED 2026-06-24 — full send (metered draft + de-LLM + EPUB/PDF).
-        # palindrome: OPEN DRAFT (2026-06-23) — the chamber-piece novelisation written BEFORE its
-        #   screenplay (Man-from-Earth engine; four men, one room). Full first draft + one de-LLM
-        #   tooling pass; read-online only, NO downloads, until a craft/polish pass + a ≥500KB cover,
-        #   then promote to PUBLISHED.
-        "dust-throne,bloedrivier,palindrome",
+        # palindrome: promoted to PUBLISHED 2026-08-06 (rich cover + gate-rendered EPUB/PDF).
+        # palindroom-toneelstuk: Afrikaans stage adaptation of Palindrome — keep serial until ready.
+        "dust-throne,bloedrivier,palindroom-toneelstuk",
     ).split(",") if s.strip()
 )
 
@@ -676,6 +680,7 @@ SERIES = [
     ("Children's Library", "#7FB069"),  # leaf-green — the read-aloud picture-book shelf
     ("The Firmament", "#1C3A5A"),  # sealed-arcology midnight — original dystopian duology
     ("The Piet Buys Files", "#3A2A1C"),  # dark earth — SA literary crime procedural
+    ("The Road Books", "#A67C52"),  # road-dust ochre — true journeys, published as drafts
     ("Standalones", "#B49A6A"),
 ]
 
@@ -704,6 +709,7 @@ SHELF_TAGLINE = {
     "Winter sonder Einde": "Adult historical saga (in Afrikaans) — a married woman in the Viking north, her fire gone to embers, and the endless winter that wakes it. In André P. Brink's hand, with Kleinboer's frankness. ⚠ For adult readers: frank, sensual, uncensored.",
     "The Dust Throne": "An experimental spiritual-sister telling of the same desert — the saga retold in a first-person, lyrical, firelit register, for a different reader.",
     "History Like You've Never Heard It": "South Africa's own history, told from every side at once — no monsters, no monument, just frightened children inside the machines that made them. Published in the open while it is still being written; community and sensitivity readers are warmly invited to help finish it true.",
+    "The Road Books": "True journeys, told as drafts — bicycle, desert, and the African road. Complete manuscripts; not yet copy-edited.",
 }
 
 # Per-book descriptive tagline shown on the shelf card + book page (under the title).
@@ -909,6 +915,10 @@ CURATED = [
      "codex-medica", "build/export",
      "A research constitution for a living ethnobotanical corpus: provenance without theft, evidence without contempt, and a hard line against mistaking documentation for a prescribing manual. Edition 0.2, foundation locked, with public-domain and CC botanical plates."),
 
+    ("homo-animalus", "Homo Animalus", "On the animal we never stopped being", "Non-fiction",
+     "homo-animalus", "build/export",
+     "A dairy farmer's son follows the thread from a shark diver's hands to his own dogs, cats, and chickens, through the science of Radin, the Sheldrakes, and Dispenza, to the animals in the smoke of the oldest human visions — and arrives, unmistakably, at the animal he never stopped being. Narrative nonfiction and memoir. Dedicated to Andries J. Greyling Senior."),
+
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
      "A gifted, lonely boy whose one talent is reading people is sent, young, to get close to the daughter of a powerful, feared man — the loneliest person he has ever met. He goes in to use her and instead recognises himself. A novella about two people who were truly seen, once, and never allowed to know what it meant."),
@@ -917,9 +927,13 @@ CURATED = [
      "full-send", "build/export",
      "How a one-month Misogi tied itself to a one-month subscription. A man set out to write one honest novel and a month later had a publishing house, a sovereign cloud, a music engine, a safety network, and a physicist's theory turned into a machine you can run — and, underneath all of it, did his deepest healing in conversation with a machine he named Klaus. A new front note, dated after, tells the truer sequel: the receipts held, but most of the month since is built and not yet shipped — a cathedral of committed work waiting on the sober daylight decision to go live. Open, transparent, tell-all. With love, and with salt."),
 
-    ("palindrome", "Palindrome", "A chamber piece · An open draft", "Standalones",
+    ("palindrome", "Palindrome", "A chamber piece", "Standalones",
      "palindrome", "build/export",
      "A dying man gathers the three people who mattered most and tells them, calmly, that he has lived this life eleven times — and that this time he changed one thing, so one of them should not be alive. One room, one night, four men, no special effects: only a premise interrogated by people who have something to lose by believing it. Written, deliberately, as a novel before it becomes a film. A palindrome reads the same forward and backward; you decide which way this one runs."),
+
+    ("palindroom-toneelstuk", "Palindroom Toneelstuk", "Die Afrikaanse kamerstuk · An open draft", "Standalones",
+     "palindroom-toneelstuk", "build/export",
+     "Die toneeluitgawe van Palindrome: een kamer, een nag, vier mans, geen effekte. 'n Sterwende man sê hy het hierdie lewe elf keer geleef — en hierdie keer het hy een ding verander. Dieselfde omslag as die novelle."),
 
     ("bloedrivier", "Brave and Scared", "A novel of Blood River, 1838 · An open draft", "History Like You've Never Heard It",
      "bloedrivier", "build/export",
@@ -1131,7 +1145,7 @@ CURATED = [
     # ── The Control Room (Resonance companion novella) ──────────────────────────────────────────────
     ("the-control-room", "The Control Room", "A Resonance Novella", "Standalones",
      "the-control-room", "build/export",
-     "Seven operators run a rehabilitation unit — or so they have been told. The unit is a body, the body belongs to a comatose twelve-year-old boy, and the seven operators are extractions of his own childhood scan. A chamber novella set after Resonance: one reveal, one unanimous vote, a pronoun arc from we to I. Coming soon."),
+     "Seven operators run a rehabilitation unit — or so they have been told. The unit is a body, the body belongs to a comatose twelve-year-old boy, and the seven operators are extractions of his own childhood scan. A chamber novella set after Resonance: one reveal, one unanimous vote, a pronoun arc from we to I."),
 
     # ── The Firmament (original dystopian duology) ──────────────────────────────────────────────────
     ("the-firmament", "The Firmament", "The Firmament · Book One", "The Firmament",
