@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Lay title + author typography onto the clean cover plate for *THE SURGEON*.
+"""Lay title + author typography onto the clean cover plate for *The Unnumbered*.
 
-    python3 books/the-surgeon/design/make_cover.py
+    python3 books/the-unnumbered/design/make_cover.py
 """
 from __future__ import annotations
 
@@ -17,8 +17,7 @@ OUT_JPG = HERE / "cover.jpg"
 
 W, H = 1800, 2700
 INK = (247, 239, 225, 255)
-GOLD = (229, 181, 103, 255)
-SHADOW = (6, 4, 2, 240)
+SHADOW = (8, 5, 3, 240)
 DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
 COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
 
@@ -76,28 +75,28 @@ def main() -> None:
 
     scrim = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     sd = ImageDraw.Draw(scrim)
-    top_end = int(H * 0.36)
+    top_end = int(H * 0.34)
     for y in range(top_end):
-        a = int(195 * (1 - y / top_end) ** 1.3)
-        sd.line([(0, y), (W, y)], fill=(6, 8, 12, a))
+        a = int(190 * (1 - y / top_end) ** 1.25)
+        sd.line([(0, y), (W, y)], fill=(8, 6, 4, a))
     bot_start = int(H * 0.80)
     for y in range(bot_start, H):
         a = int(200 * ((y - bot_start) / (H - bot_start)) ** 1.15)
-        sd.line([(0, y), (W, y)], fill=(8, 6, 4, a))
+        sd.line([(0, y), (W, y)], fill=(10, 7, 4, a))
     img = Image.alpha_composite(img, scrim)
 
     f_eyebrow = font(COCHIN, 38)
-    img = draw_tracked(img, cx, int(H * 0.050), "CAPTAIN GIDEON LOOTS", f_eyebrow, 8, GOLD)
+    img = draw_tracked(img, cx, int(H * 0.050), "THE PIET BUYS FILES", f_eyebrow, 8, INK)
     rd = ImageDraw.Draw(img)
-    rd.line([(cx - 155, int(H * 0.050) + 56), (cx + 155, int(H * 0.050) + 56)], fill=GOLD, width=2)
+    rd.line([(cx - 155, int(H * 0.050) + 56), (cx + 155, int(H * 0.050) + 56)], fill=INK, width=2)
 
     ty = int(H * 0.095)
     f_the = font(DIDOT, 96)
-    f_title = font(DIDOT, 148)
+    f_title = font(DIDOT, 132)
     img = draw_tracked(img, cx, ty, "THE", f_the, 14, INK)
-    img = draw_tracked(img, cx, ty + 115, "SURGEON", f_title, 10, INK)
+    img = draw_tracked(img, cx, ty + 115, "UNNUMBERED", f_title, 4, INK)
 
-    sub_y = ty + 115 + 175
+    sub_y = ty + 115 + 170
     f_sub = font(DIDOT, 40, index=1)
     img = draw_tracked(img, cx, sub_y, "book one", f_sub, 2, INK)
 
