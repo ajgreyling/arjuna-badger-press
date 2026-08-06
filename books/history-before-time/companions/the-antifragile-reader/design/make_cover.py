@@ -20,6 +20,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
 OUT = [
+
+
     HERE / "cover.png", HERE / "cover.jpg",
     BOOK / "build" / "export" / "cover.png", BOOK / "build" / "export" / "cover.jpg",
 ]
@@ -38,10 +40,24 @@ C_FRAGILE = (196, 92, 78, 255)    # terracotta — the line that breaks
 C_ROBUST = (150, 140, 124, 255)   # stone — the line that holds flat
 C_ANTI = (229, 181, 103, 255)     # gold — the line that gains from disorder
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
 
 
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
@@ -172,7 +188,7 @@ def main() -> None:
         draw_tracked(draw, cx, ty + i * lh, ln, font(DIDOT, sz), 4, INK)
 
     # subtitle in a soft glass band
-    f_sub = font(DIDOT, 52, index=1)
+    f_sub = font(ATK_ITAL, 52)
     sub = "Nassim Taleb's Incerto, plainly told"
     sub_y = ty + 3 * lh + 30
     sub_w = text_width(draw, sub, f_sub, 1)

@@ -16,13 +16,27 @@ PLATE = HERE / "cover-plate.png"
 OUT_PNG = [HERE / "cover.png", HERE.parent / "build" / "export" / "cover.png"]
 OUT_JPG = HERE / "cover.jpg"
 
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+
 INK = (247, 239, 225, 255)        # warm off-white
 SHADOW = (10, 6, 3, 235)          # warm near-black, near-opaque for punch
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
-
-
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
@@ -103,7 +117,7 @@ def main() -> None:
 
     # --- subtitle: the evocative line, then the two real men it is about ---
     sub_y = ty + 146 + 190 + 210
-    f_sub = font(DIDOT, 54, index=1)  # italic face
+    f_sub = font(ATK_ITAL, 54)  # italic face
     img = draw_tracked(img, cx, sub_y, "the Namib, and the war they hid from", f_sub, 1, INK)
     f_names = font(COCHIN, 48)
     img = draw_tracked(img, cx, sub_y + 88, "HENNO MARTIN  &  HERMANN KORN", f_names, 7, INK)

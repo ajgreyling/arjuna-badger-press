@@ -15,11 +15,24 @@ PLATE = HERE / "cover-plate.png"
 OUT_PNG = [HERE / "cover.png", BOOK / "build" / "export" / "cover.png"]
 OUT_JPG = HERE / "cover.jpg"
 
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+
+
 W, H = 1800, 2700
 INK = (242, 228, 198, 255)        # parchment cream
 SHADOW = (12, 8, 4, 230)
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
 
 
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
@@ -86,7 +99,7 @@ def main() -> None:
         sd.line([(0, y), (W, y)], fill=(14, 10, 6, a))
     img = Image.alpha_composite(img, scrim)
 
-    f_eyebrow = font(COCHIN, 38)
+    f_eyebrow = font(ATK_REG, 38)
     img = draw_tracked(img, cx, int(H * 0.050), "ETHNOBOTANICAL RESEARCH", f_eyebrow, 8, INK)
 
     rule_y = int(H * 0.050) + 56
@@ -94,15 +107,15 @@ def main() -> None:
     rd.line([(cx - 160, rule_y), (cx + 160, rule_y)], fill=INK, width=2)
 
     ty = int(H * 0.095)
-    f_title = font(DIDOT, 148)
+    f_title = font(ATK_BOLD, 148)
     img = draw_tracked(img, cx, ty, "CODEX", f_title, 16, INK)
     img = draw_tracked(img, cx, ty + 170, "MEDICA", f_title, 12, INK)
 
     sub_y = ty + 170 + 195
-    f_sub = font(DIDOT, 40, index=1)
+    f_sub = font(ATK_ITAL, 40)
     img = draw_tracked(img, cx, sub_y, "an ethnobotanical study bible", f_sub, 1, INK)
 
-    f_auth = font(COCHIN, 56)
+    f_auth = font(ATK_REG, 56)
     img = draw_tracked(img, cx, int(H * 0.925), "ANDRIES J. GREYLING", f_auth, 9, INK)
 
     out = img.convert("RGB")

@@ -21,6 +21,8 @@ HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
 PLATE = HERE / "cover-plate.png"
 OUT = [
+
+
     HERE / "cover.png",
     HERE / "cover.jpg",
     BOOK / "build" / "export" / "cover.png",
@@ -32,11 +34,25 @@ AMBER = (224, 150, 70, 255)       # ember-amber for the eyebrow / tagline accent
 GOLD = (228, 190, 118, 255)       # softer gold for the adult mark
 SHADOW = (40, 18, 6, 220)         # warm dark shadow (not the house's cold black)
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
-COPPER = "/System/Library/Fonts/Supplemental/Copperplate.ttc"
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
 
 
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
+COPPER = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 

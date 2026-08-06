@@ -28,6 +28,22 @@ from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps, 
 
 HERE = Path(__file__).resolve().parent          # books/the-loneliest/design
 BOOK = HERE.parent                              # books/the-loneliest
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
 REPO = BOOK.parent.parent                       # repo root
 
 # Source portrait — PRIVATE local-only working copy (never committed). If the downscale is gone,
@@ -59,11 +75,11 @@ GOLD_DEEP  = (138, 95, 44)
 BADGER_BLK = (22, 21, 19)
 
 # ── Faces (period-honest: Times is the newspaper face) ──────────────────────────────────────────
-F_HEAD   = "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf"
-F_HEAD_I = "/System/Library/Fonts/Supplemental/Times New Roman Italic.ttf"
-F_BODY   = "/System/Library/Fonts/Supplemental/Times New Roman.ttf"
-F_KICK   = "/System/Library/Fonts/Supplemental/Arial Narrow Bold.ttf"
-F_DECK   = "/System/Library/Fonts/Supplemental/Futura.ttc"   # idx 4 cond xbold (the masthead rule)
+F_HEAD = ATK_BOLD
+F_HEAD_I = ATK_ITAL
+F_BODY = ATK_REG
+F_KICK = ATK_BOLD
+F_DECK   = ATK_BOLD
 
 
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:

@@ -17,6 +17,8 @@ HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
 PLATE = HERE / "cover-plate.png"
 OUT = [
+
+
     HERE / "cover.png",
     HERE / "cover.jpg",
     BOOK / "build" / "export" / "cover.png",
@@ -26,11 +28,25 @@ OUT = [
 INK = (244, 234, 217, 255)
 SHADOW = (20, 12, 6, 200)
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
-COPPER = "/System/Library/Fonts/Supplemental/Copperplate.ttc"
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
 
 
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
+COPPER = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
@@ -88,7 +104,7 @@ def main() -> None:
     for i, ln in enumerate(lines):
         draw_tracked(draw, cx, ty + i * lh, ln, f_title, 4, INK)
 
-    f_sub = font(DIDOT, 36, index=1)
+    f_sub = font(ATK_ITAL, 36)
     draw_tracked(draw, cx, ty + 3 * lh + 10, "assembled, after his death", f_sub, 1, INK)
 
     f_auth = font(COCHIN, 44)

@@ -25,6 +25,22 @@ BRAND = ROOT.parents[2] / "brand"
 FONTS = BRAND / "fonts" / "atkinson"
 MARK = BRAND / "assets" / "mark-only.png"
 
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+
 W, H = 1800, 2700  # 6×9 @ 300dpi
 
 # Grimdark palette — ridge, orbital fire, Ultramarine blue (no GW logos in typography)
@@ -41,11 +57,9 @@ ORANGE_TITLE = (255, 148, 64)
 INK = (160, 168, 178)
 BADGER_BLACK = (22, 20, 18)
 
-F_REG = str(FONTS / "Atkinson-Hyperlegible-Regular-102.otf")
-F_BOLD = str(FONTS / "Atkinson-Hyperlegible-Bold-102.otf")
-F_SERIF = "/System/Library/Fonts/Supplemental/Copperplate.ttc"
-
-
+F_REG = ATK_REG
+F_BOLD = ATK_BOLD
+F_SERIF = ATK_BOLD
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
