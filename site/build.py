@@ -390,7 +390,11 @@ PUBLISHED = set(
         #   - the-control-room (Resonance companion novella)
         #   - homo-animalus (narrative nonfiction / memoir)
         #   - palindrome (promoted from SERIAL: ≥500KB cover + gate-rendered downloads)
-        "the-control-room,homo-animalus,palindrome",
+        "the-control-room,homo-animalus,palindrome,"
+        # the-unnumbered (The Unnumbered · The Piet Buys Files Book One): open draft (Movements I–II,
+        # 16 of 32 chapters) with titled cover + gate-rendered EPUB/PDF. Published as a DRAFT by
+        # explicit author decision — same standing as the Road Books.
+        "the-unnumbered",
     ).split(",") if s.strip()
 )
 
@@ -1173,7 +1177,7 @@ CURATED = [
     # ── The Piet Buys Files (SA literary crime series) ───────────────────────────────────────────────
     ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
      "the-unnumbered", "build/export",
-     "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Coming soon."),
+     "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Open draft — Movements One and Two."),
 ]
 
 
