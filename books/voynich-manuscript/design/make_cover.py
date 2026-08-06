@@ -21,6 +21,22 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 HERE = Path(__file__).resolve().parent
 OUT = HERE
 
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+
 W, H = 1800, 2700
 SEED = 14041438  # the C-14 interval, 1404–1438
 
@@ -38,11 +54,9 @@ AMBER_BRIGHT = (240, 206, 150)
 CREAM = (234, 226, 212)
 GREY = (150, 142, 132)
 
-F_TITLE = "/System/Library/Fonts/Supplemental/Optima.ttc"
-F_SERIES = "/System/Library/Fonts/Supplemental/Copperplate.ttc"
-F_TAG_IT = "/System/Library/Fonts/Supplemental/Cochin.ttc"
-
-
+F_TITLE = ATK_BOLD
+F_SERIES = ATK_REG
+F_TAG_IT = ATK_ITAL
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     try:
         return ImageFont.truetype(path, size, index=index)
@@ -207,7 +221,7 @@ def main():
     d.text((tx, ty), title, font=ftitle, fill=CREAM)
 
     # ── tagline ──
-    ftag = font(F_TAG_IT, 46, index=1)
+    ftag = font(ATK_ITAL, 46)
     tag = "A real book. A real hand. An unread page."
     gb = d.textbbox((0, 0), tag, font=ftag)
     d.text(((W - (gb[2] - gb[0])) // 2, ty + (tb[3] - tb[1]) + 96), tag, font=ftag, fill=AMBER_BRIGHT)

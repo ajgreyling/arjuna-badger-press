@@ -20,6 +20,8 @@ HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
 PLATE = HERE / "cover-plate.png"
 OUT = [
+
+
     HERE / "cover.png",
     HERE / "cover.jpg",
     BOOK / "build" / "export" / "cover.png",
@@ -31,11 +33,25 @@ ACCENT = (196, 154, 74, 255)      # winelands gold for eyebrow + rule
 WINE = (146, 46, 52, 255)         # oxblood for the tagline
 SHADOW = (28, 12, 14, 215)
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
-COPPER = "/System/Library/Fonts/Supplemental/Copperplate.ttc"
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
 
 
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
+COPPER = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
@@ -94,7 +110,7 @@ def main() -> None:
         draw_tracked(draw, cx, ty + i * lh, ln, f_title, 5, INK)
 
     # Tagline — the book's line, in oxblood italic.
-    f_tag = font(DIDOT, 38, index=1)
+    f_tag = font(ATK_ITAL, 38)
     draw_tracked(draw, cx, ty + lh + 16, "the pattern is made of what is missing", f_tag, 1, WINE)
 
     # Author.

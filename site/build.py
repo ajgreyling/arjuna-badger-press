@@ -819,8 +819,8 @@ BOOK_CALLOUT = {
         '<div class="book-callout" style="margin-top:28px;padding:22px 24px;border:2px solid #7FB069;'
         'border-radius:14px;background:linear-gradient(135deg,rgba(127,176,105,.14),rgba(22,21,19,.92))">'
         '<p style="margin:0 0 .5em;font-size:.78em;letter-spacing:.12em;text-transform:uppercase;'
-        'color:#7FB069;font-family:&quot;Space Grotesk&quot;,sans-serif">Call to illustrators</p>'
-        "<h2 style=\"margin:0 0 .65em;font-family:&quot;Cormorant Garamond&quot;,serif;font-size:1.65em;"
+        'color:#7FB069;font-family:var(--reading)">Call to illustrators</p>'
+        "<h2 style=\"margin:0 0 .65em;font-family:var(--reading);font-size:1.65em;"
         'line-height:1.2;color:var(--bone)">South African and African illustrators: paint this shelf</h2>'
         "<p style=\"margin:0 0 .9em;color:var(--bonedim);font-size:1.02em;line-height:1.65\">"
         "Arjuna Badger Press is building a Children's Library on <strong>100% real human art and skill</strong>. "
@@ -1750,6 +1750,15 @@ def prepare_picture_book_images(md: str, book_id: str, book_root: Path, assets_o
 
 # ── render ───────────────────────────────────────────────────────────────────────
 CSS = """
+/* House face — self-hosted Atkinson Hyperlegible (cover + landing + all site prose). */
+@font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:400;font-display:swap;
+  src:url("fonts/AtkinsonHyperlegible-Regular.otf") format("opentype")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:normal;font-weight:700;font-display:swap;
+  src:url("fonts/AtkinsonHyperlegible-Bold.otf") format("opentype")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:400;font-display:swap;
+  src:url("fonts/AtkinsonHyperlegible-Italic.otf") format("opentype")}
+@font-face{font-family:"Atkinson Hyperlegible";font-style:italic;font-weight:700;font-display:swap;
+  src:url("fonts/AtkinsonHyperlegible-BoldItalic.otf") format("opentype")}
 :root{
   --black:#161513; --iron:#221f1b; --card:#1d1a16; --bone:#EDE9E0; --bonedim:#BDB6A6;
   --ochre:#C8A86B; --gold:#E5B567; --grass:#9B9684; --line:#2A241D; --sting:#C2401E;
@@ -1776,15 +1785,14 @@ a:focus-visible,button:focus-visible,.btn:focus-visible,.dl:focus-visible,.qopt:
 [id]{scroll-margin-top:88px}
 .readbar ~ .readlayout [id],.readbar ~ .reader [id]{scroll-margin-top:120px}
 body{margin:0;background:var(--black);color:var(--bone);
-  /* House/platform default: Atkinson Hyperlegible for all running/UI text (a11y is the foundation).
-     Display headings (Space Grotesk) and decorative titles (Cormorant Garamond) opt out explicitly. */
+  /* House face: Atkinson Hyperlegible for ALL site text including headings (a11y is the foundation). */
   font-family:var(--reading);line-height:1.65;
   background-image:radial-gradient(1200px 600px at 50% -10%,rgba(200,168,107,.10),transparent 60%);}
 a{color:var(--ochre);text-decoration:none} a:hover{color:var(--gold)}
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-spacing:-.01em}
-.serif{font-family:"Cormorant Garamond",Georgia,serif}
-.eyebrow{font-family:"Space Grotesk",sans-serif;text-transform:uppercase;letter-spacing:.28em;
+h1,h2,h3{font-family:var(--reading);line-height:1.15;letter-spacing:-.01em}
+.serif{font-family:var(--reading)}
+.eyebrow{font-family:var(--reading);text-transform:uppercase;letter-spacing:.28em;
   font-size:12px;color:var(--ochre)}
 .hr{height:1px;background:linear-gradient(90deg,transparent,var(--line),transparent);border:0;margin:0}
 
@@ -1792,7 +1800,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);
   background:rgba(22,21,19,.78);border-bottom:1px solid var(--line)}
 .nav .wrap{display:flex;align-items:center;gap:18px;height:66px}
-.brandlink{display:flex;align-items:center;gap:12px;font-family:"Space Grotesk";font-weight:600;
+.brandlink{display:flex;align-items:center;gap:12px;font-family:var(--reading);font-weight:600;
   letter-spacing:.02em;color:var(--bone)}
 .brandlink img{height:40px;width:40px;border-radius:50%}
 /* Drawer-only nav — do NOT reintroduce .navinline or a wide-screen top link bar. */
@@ -1803,7 +1811,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
   white-space:nowrap;border:0}
 .langbar{margin-left:auto;display:inline-flex;align-items:center;gap:7px;cursor:pointer}
 .langbar-icon{font-size:15px;line-height:1;opacity:.85}
-.langbar-sel{font-family:"Space Grotesk",sans-serif;font-size:13px;color:var(--bone);
+.langbar-sel{font-family:var(--reading);font-size:13px;color:var(--bone);
   background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 28px 6px 10px;
   cursor:pointer;-webkit-appearance:none;appearance:none;max-width:46vw;text-overflow:ellipsis;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23C8A86B' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
@@ -1827,13 +1835,13 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
   transform:translateX(-100%);transition:transform .28s cubic-bezier(.4,0,.2,1);
   background:#161513;border-right:1px solid var(--line);box-shadow:6px 0 40px rgba(0,0,0,.5);
   display:flex;flex-direction:column;gap:2px;padding:74px 14px 24px;overflow-y:auto}
-.navdrawer a{color:var(--bone);font-family:"Space Grotesk";font-size:16px;padding:11px 14px;
+.navdrawer a{color:var(--bone);font-family:var(--reading);font-size:16px;padding:11px 14px;
   border-radius:8px;text-decoration:none}
 .navdrawer a:hover{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a:focus-visible{background:rgba(229,181,103,.1);color:var(--gold)}
 .navdrawer a.navhot{color:var(--sting)}
 .navdrawer a.navhot:hover{color:#e0552e}
-.navdrawer .navgroup{font-family:"Space Grotesk";font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+.navdrawer .navgroup{font-family:var(--reading);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--grass);padding:18px 14px 4px;margin:0}
 .navdrawer .navgroup:first-child{padding-top:8px}
 
@@ -1869,7 +1877,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
   background:linear-gradient(90deg,rgba(200,168,107,.12),rgba(229,181,103,.08),rgba(200,168,107,.12));
   color:var(--bone);font-size:14px;line-height:1.5}
 .audiobook-notice .wrap{padding:11px 24px;display:flex;gap:12px;align-items:flex-start;justify-content:center;text-align:center}
-.audiobook-notice strong{font-family:"Space Grotesk";font-weight:600;color:var(--gold);white-space:nowrap}
+.audiobook-notice strong{font-family:var(--reading);font-weight:600;color:var(--gold);white-space:nowrap}
 .audiobook-notice span{max-width:72ch;color:var(--bonedim)}
 /* Anti-scam trust strip — calm, not alarmist (red would look scammier). */
 .trust-banner{border-bottom:1px solid rgba(126,122,90,.4);background:rgba(20,18,15,.6);
@@ -1883,7 +1891,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .hero{text-align:center;padding:80px 0 56px}
 .hero img.crest{width:200px;height:200px;object-fit:contain;filter:drop-shadow(0 8px 40px rgba(229,181,103,.18))}
 .hero h1{font-size:clamp(34px,6vw,62px);margin:18px 0 6px}
-.hero .tag{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:clamp(20px,3vw,30px);color:var(--gold)}
+.hero .tag{font-family:var(--reading);font-style:italic;font-size:clamp(20px,3vw,30px);color:var(--gold)}
 .hero p.lead{max-width:680px;margin:18px auto 0;color:var(--bonedim);font-size:18px}
 /* library header — compact + left-aligned (books-first, not a marketing hero).
    Small crest beside the text so the shelves start high on the page. */
@@ -1898,7 +1906,7 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 @media(max-width:560px){.lib-head{padding:24px 0 14px}.lib-head .lib-crest img{width:60px;height:60px}}
 .cta{display:inline-flex;gap:14px;margin-top:30px;flex-wrap:wrap;justify-content:center}
 .btn{display:inline-block;padding:12px 22px;border-radius:8px;font-weight:600;font-size:15px;
-  font-family:"Space Grotesk";border:1px solid var(--ochre);color:var(--black);background:var(--ochre)}
+  font-family:var(--reading);border:1px solid var(--ochre);color:var(--black);background:var(--ochre)}
 .btn:hover{background:var(--gold);border-color:var(--gold);color:var(--black)}
 .btn.ghost{background:transparent;color:var(--ochre)} .btn.ghost:hover{color:var(--gold);background:rgba(229,181,103,.08)}
 
@@ -1907,15 +1915,15 @@ h1,h2,h3{font-family:"Space Grotesk",Inter,sans-serif;line-height:1.15;letter-sp
 .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
 .pillar{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
 .pillar h2,.pillar h3{margin:.2em 0 .4em;font-size:18px} .pillar p{margin:0;color:var(--bonedim);font-size:15px}
-.pillar .n{font-family:"Cormorant Garamond",serif;font-size:30px;color:var(--ochre)}
+.pillar .n{font-family:var(--reading);font-size:30px;color:var(--ochre)}
 
 /* sections */
 section.series{padding:46px 0 8px}
 .sechead{margin-bottom:22px}
 .sechead-row{display:flex;align-items:baseline;gap:16px}
 .sechead h2{font-size:26px;margin:0}
-.sechead .count{color:var(--grass);font-size:14px;font-family:"Space Grotesk"}
-.sechead .shelftag{margin:.35em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;
+.sechead .count{color:var(--grass);font-size:14px;font-family:var(--reading)}
+.sechead .shelftag{margin:.35em 0 0;font-family:var(--reading);font-style:italic;
   font-size:17px;line-height:1.4;color:var(--accent,var(--ochre));opacity:.95;max-width:64ch}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
 
@@ -1933,13 +1941,13 @@ section.series{padding:46px 0 8px}
   box-shadow:0 12px 32px rgba(0,0,0,.55)}
 .scard .cover{width:100%;aspect-ratio:400/620;display:block;object-fit:cover;border-bottom:1px solid var(--line)}
 .scard-info{padding:8px 10px 10px}
-.scard-series{font-family:"Space Grotesk";font-size:10px;letter-spacing:.15em;text-transform:uppercase;
+.scard-series{font-family:var(--reading);font-size:10px;letter-spacing:.15em;text-transform:uppercase;
   color:var(--accent,var(--ochre));display:block;margin-bottom:3px;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.scard-title{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:14px;
+.scard-title{font-family:var(--reading);font-weight:600;font-size:14px;
   color:var(--bone);line-height:1.3;display:-webkit-box;
   -webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.scard-badge{display:block;font-family:"Space Grotesk";font-size:10px;color:var(--grass);margin-top:5px}
+.scard-badge{display:block;font-family:var(--reading);font-size:10px;color:var(--grass);margin-top:5px}
 .scard-badge.soon{color:rgba(200,168,107,.65)}
 /* ── Cinematic hero with cover-mosaic backdrop ───────────────────────────────────────── */
 .lib-hero{position:relative;padding:44px 0 32px;overflow:hidden;border-bottom:1px solid var(--line)}
@@ -1966,24 +1974,24 @@ section.series{padding:32px 0 4px}
 .card .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card .titlelink{color:inherit;display:block}
 .card .titlelink:hover h3{color:var(--accent,var(--gold))}
-.card .ser{font-family:"Space Grotesk";font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent,var(--ochre))}
-.card h3{margin:.2em 0 0;font-size:19px;font-family:"Cormorant Garamond",serif;font-weight:600}
-.card p.tagline{flex:0;margin:.1em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;
+.card .ser{font-family:var(--reading);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent,var(--ochre))}
+.card h3{margin:.2em 0 0;font-size:19px;font-family:var(--reading);font-weight:600}
+.card p.tagline{flex:0;margin:.1em 0 0;font-family:var(--reading);font-style:italic;
   font-size:14.5px;color:var(--accent,var(--ochre));opacity:.92}
 .card p{margin:0;color:var(--bonedim);font-size:14px;flex:1}
-.badge{align-self:flex-start;font-size:11px;font-family:"Space Grotesk";letter-spacing:.08em;
+.badge{align-self:flex-start;font-size:11px;font-family:var(--reading);letter-spacing:.08em;
   padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--grass)}
 .badge.soon{color:var(--ochre);border-color:rgba(200,168,107,.4)}
 .card-disclosure{margin:.55em 0 0;font-size:.82em;line-height:1.45;color:var(--sting)}
 .dls{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
-.dl{font-family:"Space Grotesk";font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:7px;
+.dl{font-family:var(--reading);font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:7px;
   border:1px solid var(--ochre);color:var(--ochre)} .dl:hover{background:rgba(229,181,103,.1);color:var(--gold)}
 .dl.solid{background:var(--ochre);color:var(--black)} .dl.solid:hover{background:var(--gold);color:var(--black)}
 
 /* "which book first?" recommender */
 .start{max-width:760px}
 .qblock{border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:22px 0;background:var(--card)}
-.qblock legend{font-family:"Space Grotesk";font-weight:600;color:var(--gold);font-size:15px;padding:0 8px}
+.qblock legend{font-family:var(--reading);font-weight:600;color:var(--gold);font-size:15px;padding:0 8px}
 .qopts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .qopt{font-family:var(--reading);font-size:14.5px;text-align:left;cursor:pointer;
   padding:10px 14px;border-radius:9px;border:1px solid var(--line);background:transparent;color:var(--bone);
@@ -2001,7 +2009,7 @@ section.series{padding:32px 0 4px}
 .tile:hover,.tile:focus-visible{transform:translateY(-3px);border-color:var(--gold);
   box-shadow:0 14px 34px rgba(0,0,0,.45);outline:none}
 .tile img{width:100%;height:100%;object-fit:cover;display:block}
-.tile .tilecap{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 9px;font-family:"Space Grotesk";
+.tile .tilecap{position:absolute;left:0;right:0;bottom:0;padding:18px 10px 9px;font-family:var(--reading);
   font-size:12.5px;font-weight:600;color:#fff;text-align:center;line-height:1.25;
   background:linear-gradient(transparent,rgba(0,0,0,.78))}
 .tilehint{text-align:center;color:var(--bonedim);font-size:14px;margin-top:14px}
@@ -2013,7 +2021,7 @@ section.series{padding:32px 0 4px}
   padding:18px;background:var(--card);margin:14px 0}
 .reccard.lead{grid-template-columns:160px 1fr;padding:22px}
 .reccard .cover{width:100%;aspect-ratio:400/620;border-radius:8px;box-shadow:0 10px 28px rgba(0,0,0,.45)}
-.reccard .ser{font-family:"Space Grotesk";font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent,var(--ochre))}
+.reccard .ser{font-family:var(--reading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent,var(--ochre))}
 .reccard h3{margin:.2em 0 .3em;font-size:21px} .reccard.lead h3{font-size:26px}
 .reccard h3 a{color:var(--bone)} .reccard h3 a:hover{color:var(--gold)}
 .reccard .blurb{color:var(--bonedim);font-size:15px;line-height:1.55;margin:.3em 0}
@@ -2023,11 +2031,11 @@ section.series{padding:32px 0 4px}
 /* book page */
 .bookhero{display:grid;grid-template-columns:300px 1fr;gap:42px;padding:48px 0}
 .bookhero .cover{aspect-ratio:400/620;border-radius:12px;box-shadow:0 18px 50px rgba(0,0,0,.5)}
-.bookhero h1{font-family:"Cormorant Garamond",serif;font-size:46px;margin:.1em 0 .1em}
-.bookhero .sub{color:var(--ochre);font-family:"Space Grotesk";letter-spacing:.12em;text-transform:uppercase;font-size:13px}
-.bookhero .tagline{margin:.2em 0 0;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:20px;color:var(--ochre)}
+.bookhero h1{font-family:var(--reading);font-size:46px;margin:.1em 0 .1em}
+.bookhero .sub{color:var(--ochre);font-family:var(--reading);letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+.bookhero .tagline{margin:.2em 0 0;font-family:var(--reading);font-style:italic;font-size:20px;color:var(--ochre)}
 .bookhero .syn{font-size:18px;color:var(--bone);margin-top:18px;max-width:60ch}
-.back{font-family:"Space Grotesk";font-size:13px;color:var(--bonedim)}
+.back{font-family:var(--reading);font-size:13px;color:var(--bonedim)}
 
 /* reader — house long-form face: Atkinson Hyperlegible (EPUB/PDF parity) */
 .reader{width:100%;max-width:720px;margin:0 auto;padding:50px 24px 90px;
@@ -2047,10 +2055,10 @@ body.pb-reader{background:#080706}
 body.pb-reader main#main{padding:0;max-width:none}
 .picture-book{max-width:none;width:100%;margin:0;padding:0 0 56px;font-family:var(--reading)}
 .picture-head{text-align:center;padding:20px 20px 12px;max-width:720px;margin:0 auto}
-.picture-head h1{font-family:"Cormorant Garamond",serif;font-size:clamp(32px,5vw,44px);font-weight:700;margin:.1em 0}
+.picture-head h1{font-family:var(--reading);font-size:clamp(32px,5vw,44px);font-weight:700;margin:.1em 0}
 .picture-byline{color:var(--ochre);font-style:italic;font-size:18px;margin:.2em 0 0;
-  font-family:"Cormorant Garamond",serif}
-.pb-lang-note{margin:0;font-size:13px;color:var(--grass);font-family:"Space Grotesk",sans-serif}
+  font-family:var(--reading)}
+.pb-lang-note{margin:0;font-size:13px;color:var(--grass);font-family:var(--reading)}
 .pb-lang-note.is-fallback{color:var(--bonedim)}
 .pb-readbar-inner{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .picture-spreads{display:flex;flex-direction:column;gap:clamp(10px,2vw,22px);padding:8px 0 0}
@@ -2077,7 +2085,7 @@ body.pb-reader main#main{padding:0;max-width:none}
 .spread-overlay.pos-bc{bottom:6%;left:50%;transform:translateX(-50%);max-width:62%;text-align:center}
 .spread-overlay.pos-cc{top:50%;left:50%;transform:translate(-50%,-50%);max-width:54%;text-align:center}
 .spread-overlay .refrain{display:block;margin:.45em 0 0;color:#f0d9a8;font-style:italic;
-  font-family:"Cormorant Garamond",serif;font-size:1.08em;line-height:1.4;font-weight:600}
+  font-family:var(--reading);font-size:1.08em;line-height:1.4;font-weight:600}
 .spread-overlay .spread-gap{display:block;height:.45em}
 .picture-book .spread.landscape:last-of-type{margin-bottom:8px}
 @media(min-width:900px){
@@ -2124,11 +2132,11 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
   max-width:1040px;margin:0 auto;align-items:start}
 .readlayout .reader{max-width:720px;margin:0}           /* article keeps its measure; grid centres it */
 .readtoc{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 84px);
-  overflow-y:auto;padding:34px 8px 40px 24px;font-family:"Space Grotesk",sans-serif;
+  overflow-y:auto;padding:34px 8px 40px 24px;font-family:var(--reading);
   scrollbar-width:thin;scrollbar-color:var(--line) transparent}
 .readtoc::-webkit-scrollbar{width:8px} .readtoc::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px}
 .readtoc-h{margin:0 0 12px;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--ochre);
-  font-family:"Space Grotesk",sans-serif;font-weight:600}
+  font-family:var(--reading);font-weight:600}
 .readtoc ol{list-style:none;margin:0;padding:0;counter-reset:toc}
 .readtoc li{margin:0}
 .readtoc li.sub a{padding-left:24px;font-size:12.5px;color:var(--grass)}
@@ -2147,10 +2155,10 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
 }
 .letter-crest{display:block;margin:0 auto 6px;width:120px;height:120px;border-radius:50%}
 .reader.poem{max-width:40rem}
-.reader.poem .poem-title{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:34px;
+.reader.poem .poem-title{font-family:var(--reading);font-weight:600;font-size:34px;
   text-align:center;letter-spacing:0;margin:0 0 .15em;color:var(--bone)}
 .reader.poem .poem-sub{text-align:center;font-style:italic;color:var(--ochre);margin:0 0 2.6em;font-size:18px}
-.reader.poem .stanza{font-family:"Cormorant Garamond",Georgia,serif;font-size:21px;line-height:1.55;
+.reader.poem .stanza{font-family:var(--reading);font-size:21px;line-height:1.55;
   color:var(--bone);margin:0 0 2.1em;text-align:left}
 .reader.letter h1{margin-bottom:.1em}
 .reader.letter h2{text-align:left;font-size:25px;color:var(--gold);margin-top:1.9em;font-weight:700}
@@ -2178,15 +2186,15 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
 .house{max-width:900px;margin:0 auto;padding:54px 24px 80px;text-align:center}
 .house img.crest-full{width:100%;max-width:640px;height:auto;border-radius:10px;
   box-shadow:0 22px 64px rgba(0,0,0,.55);border:1px solid var(--line)}
-.house h1{font-family:"Cormorant Garamond",serif;font-size:clamp(34px,6vw,58px);margin:28px 0 .06em}
-.house .motto{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:clamp(19px,3vw,28px)}
-.house .gloss{color:var(--bonedim);font-family:"Space Grotesk";letter-spacing:.08em;font-size:13px;margin-top:6px;text-transform:uppercase}
+.house h1{font-family:var(--reading);font-size:clamp(34px,6vw,58px);margin:28px 0 .06em}
+.house .motto{font-family:var(--reading);font-style:italic;color:var(--gold);font-size:clamp(19px,3vw,28px)}
+.house .gloss{color:var(--bonedim);font-family:var(--reading);letter-spacing:.08em;font-size:13px;margin-top:6px;text-transform:uppercase}
 .blazon{text-align:left;max-width:680px;margin:30px auto 0;
   font-family:var(--reading);font-size:18px;line-height:1.65}
 .blazon p.intro{color:var(--bone);font-size:19px;margin:0 0 1.2em}
 .blazon h2{font-family:var(--reading);color:var(--gold);font-size:27px;text-align:center;margin:2em 0 .8em;font-weight:700}
 .blazon .entry{margin:0 0 1.25em;padding-left:16px;border-left:2px solid var(--line)}
-.blazon .charge{font-family:"Space Grotesk";font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);display:block;margin-bottom:3px}
+.blazon .charge{font-family:var(--reading);font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);display:block;margin-bottom:3px}
 .blazon .entry p{margin:0;color:var(--bone)}
 
 /* place wiki — photo galleries */
@@ -2198,12 +2206,12 @@ pre.mermaid.zoomed svg{width:auto;max-width:98vw;max-height:94vh}
 .reader.wiki p em{font-size:13px;color:var(--grass);font-style:normal;display:block;text-align:center;margin:-1.2em 0 1.8em}
 .wiki-index table{width:100%;border-collapse:collapse;margin:1.5em 0;font-size:16px}
 .wiki-index th,.wiki-index td{padding:10px 14px;border-bottom:1px solid var(--line);text-align:left}
-.wiki-index th{color:var(--ochre);font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.wiki-index th{color:var(--ochre);font-family:var(--reading);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
 
 /* footer */
 footer{border-top:1px solid var(--line);margin-top:60px;padding:40px 0;color:var(--grass);font-size:14px}
 footer .wrap{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
-footer .badgerline{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--bonedim)}
+footer .badgerline{font-family:var(--reading);font-style:italic;color:var(--bonedim)}
 footer .builton{color:var(--bonedim);font-size:13px;letter-spacing:.02em}
 footer .builton a{color:var(--bonedim);text-decoration:underline;text-underline-offset:2px}
 footer .builton a:hover{color:var(--gold)}
@@ -2221,14 +2229,14 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .rate-thanks{font-size:13px;color:var(--gold)}
 /* ── translated editions ───────────────────────────────────────────────────────── */
 .editions{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
-.editions-h{font-family:"Space Grotesk";font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--ochre);margin:0 0 4px}
+.editions-h{font-family:var(--reading);font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--ochre);margin:0 0 4px}
 .editions-note{font-size:13px;color:var(--grass);margin:0 0 12px;max-width:54ch}
 .edlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
 .edlist li{display:flex;align-items:center;justify-content:space-between;gap:14px;
   padding:8px 12px;background:var(--card);border:1px solid var(--line);border-radius:10px}
 .edlang{color:var(--bone);font-size:14px}
 .edlinks{display:inline-flex;gap:6px}
-.dl-lang{font-family:"Space Grotesk";font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;
+.dl-lang{font-family:var(--reading);font-size:12px;font-weight:500;padding:4px 12px;border-radius:8px;
   border:1px solid var(--ochre);color:var(--ochre)}
 .dl-lang:hover{background:var(--ochre);color:var(--black)}
 .editions-fix{margin:10px 0 0;font-size:13px;color:var(--grass)}
@@ -2247,7 +2255,7 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .fixlog-empty{font-size:14px;color:var(--grass);font-style:italic;margin:8px 0 0}
 .fixtops{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
 .fixtop{flex:1 1 200px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:10px}
-.fixtop h3{font-family:"Space Grotesk";font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);margin:0 0 8px}
+.fixtop h3{font-family:var(--reading);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);margin:0 0 8px}
 .fixtop li{font-size:14px;color:var(--bone);margin:4px 0}
 .bookrespond{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
 .feedback-link,.endnote-feedback a{font-size:13.5px;color:var(--ochre)}
@@ -2256,7 +2264,7 @@ footer a{color:var(--grass)} footer a:hover{color:var(--gold)}
 .readerend{max-width:720px;margin:48px auto 0;text-align:center}
 .readerend .rule{margin:0 0 22px}
 .readerend .rate{justify-content:center}
-.endnote-line{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:19px;color:var(--bonedim);margin:0 0 8px}
+.endnote-line{font-family:var(--reading);font-style:italic;font-size:19px;color:var(--bonedim);margin:0 0 8px}
 .endnote-feedback{margin:10px 0 0} .endnote-support{margin:14px 0 0;font-size:14px;color:var(--grass)}
 .endnote-support a{color:var(--ochre)}
 /* ── support page (pure patronage) ──────────────────────────────────────────────── */
@@ -2265,18 +2273,18 @@ article.support{text-align:center}
 .support-rail{display:flex;flex-direction:column;gap:3px;min-width:180px;padding:18px 24px;
   background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--bone)}
 a.support-rail:hover{border-color:var(--ochre)}
-.support-rail .rail-name{font-family:"Space Grotesk";font-weight:600;font-size:16px;color:var(--gold)}
+.support-rail .rail-name{font-family:var(--reading);font-weight:600;font-size:16px;color:var(--gold)}
 .support-rail .rail-sub{font-size:12.5px;color:var(--grass)}
 .support-foot{max-width:54ch;margin:20px auto 0;font-size:13.5px;color:var(--grass)}
 /* ── Arjuna Audio narrator intake ──────────────────────────────────────────────── */
 .narrator-page{max-width:820px}
 .intake-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:30px 0 34px}
 .intake-card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:17px 18px}
-.intake-card strong{display:block;font-family:"Space Grotesk";font-size:19px;line-height:1.25;color:var(--gold);margin:4px 0 7px}
+.intake-card strong{display:block;font-family:var(--reading);font-size:19px;line-height:1.25;color:var(--gold);margin:4px 0 7px}
 .intake-card p{margin:0;color:var(--bonedim);font-size:14px;line-height:1.45}
 .intake-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:34px 0 0;padding:22px;
   background:var(--card);border:1px solid var(--line);border-radius:12px}
-.intake-form label{display:flex;flex-direction:column;gap:6px;font-family:"Space Grotesk";font-size:12px;
+.intake-form label{display:flex;flex-direction:column;gap:6px;font-family:var(--reading);font-size:12px;
   letter-spacing:.1em;text-transform:uppercase;color:var(--ochre)}
 .intake-form input,.intake-form select,.intake-form textarea{width:100%;border:1px solid var(--line);
   border-radius:8px;background:#161513;color:var(--bone);padding:11px 12px;font:15px Inter,system-ui,sans-serif;
@@ -2292,7 +2300,7 @@ a.support-rail:hover{border-color:var(--ochre)}
 .callarms-inner p{max-width:64ch;margin:0 auto 18px;color:var(--bone);font-size:17px;line-height:1.6}
 .callarms-inner .cta{margin-top:6px}
 .join-table{width:100%;border-collapse:collapse;margin:18px 0 6px;font-size:15px}
-.join-table th{text-align:left;font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);border-bottom:1px solid var(--line);padding:8px 10px}
+.join-table th{text-align:left;font-family:var(--reading);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre);border-bottom:1px solid var(--line);padding:8px 10px}
 .join-table td{vertical-align:top;padding:11px 10px;border-bottom:1px solid var(--line);color:var(--bone);line-height:1.45}
 .join-table .dim{color:var(--bonedim);font-size:13px}
 @media(max-width:560px){.join-table,.join-table tbody,.join-table tr,.join-table td,.join-table th{display:block;width:100%}.join-table th{display:none}.join-table td{border-bottom:none;padding:4px 0}.join-table tr{border-bottom:1px solid var(--line);padding:10px 0}}
@@ -2311,7 +2319,7 @@ a.support-rail:hover{border-color:var(--ochre)}
 .library-item{width:100%;text-align:left;background:#161513;border:1px solid var(--line);border-radius:9px;
   color:var(--bone);padding:10px 11px;cursor:pointer}
 .library-item:hover,.library-item.active{border-color:var(--gold);background:rgba(229,181,103,.08)}
-.library-item strong{display:block;font-family:"Space Grotesk";font-size:14px;line-height:1.25}
+.library-item strong{display:block;font-family:var(--reading);font-size:14px;line-height:1.25}
 .library-item span{display:block;color:var(--grass);font-size:12.5px;margin-top:2px}
 .reader-empty{padding:42px 28px;text-align:center;color:var(--bonedim)}
 .reader-content{max-width:760px;margin:0 auto;padding:34px 28px 60px;font-family:var(--reading);font-size:18px;line-height:1.7}
@@ -2360,7 +2368,7 @@ a.support-rail:hover{border-color:var(--ochre)}
 .cv-page{max-width:980px}
 .cv-hero{text-align:center;margin-bottom:34px}
 .cv-hero h1{font-size:clamp(34px,6vw,58px);margin:.15em 0 .1em}
-.cv-title{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--gold);font-size:22px;margin:0}
+.cv-title{font-family:var(--reading);font-style:italic;color:var(--gold);font-size:22px;margin:0}
 .cv-links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:20px}
 .cv-grid{display:grid;grid-template-columns:280px minmax(0,1fr);gap:26px;align-items:start}
 .cv-side,.cv-main{display:flex;flex-direction:column;gap:18px}
@@ -2371,7 +2379,7 @@ a.support-rail:hover{border-color:var(--ochre)}
 .cv-block ul{margin:8px 0 0;padding-left:18px}
 .cv-item{padding:0 0 16px;border-bottom:1px solid var(--line);margin-bottom:16px}
 .cv-item:last-child{padding-bottom:0;border-bottom:0;margin-bottom:0}
-.cv-meta{font-family:"Space Grotesk";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grass)}
+.cv-meta{font-family:var(--reading);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grass)}
 @media(max-width:820px){.cv-grid{grid-template-columns:1fr}}
 @media(max-width:760px){.intake-grid,.intake-form{grid-template-columns:1fr}.intake-form{padding:18px}}
 @media(max-width:720px){.pillars{grid-template-columns:1fr}.bookhero{grid-template-columns:1fr;text-align:center}
@@ -2484,7 +2492,7 @@ body.safari footer{
     var(--safari-bg, url("safari/sossusvlei-dunes.jpg")) var(--safari-bg-pos, center) / cover no-repeat}
 body.safari .btn{
   background:var(--safari-olive);color:var(--safari-sand);border:1px solid var(--safari-olive);
-  border-left:4px solid var(--safari-camel);font-family:"Space Grotesk",sans-serif;letter-spacing:.04em}
+  border-left:4px solid var(--safari-camel);font-family:var(--reading);letter-spacing:.04em}
 body.safari .btn:hover{background:#5C6348;border-left-color:var(--safari-emu);color:#fff}
 body.safari .btn.ghost{background:rgba(235,227,208,.55);color:var(--safari-olive);border-color:var(--safari-olive);
   border-left:4px solid var(--safari-camel);backdrop-filter:blur(4px)}
@@ -2513,7 +2521,7 @@ body.safari .explore-card:hover,body.safari .safari-card:hover,body.safari .wcar
     var(--safari-hero-bg, var(--safari-bg, url("safari/okavango-delta.jpg"))) var(--safari-hero-pos, center) / cover no-repeat;
   color:var(--safari-sand);padding:56px 0 48px;text-align:center;
   border-bottom:4px solid var(--safari-camel);position:relative;min-height:220px}
-.safari-badge{font-family:"Space Grotesk",sans-serif;letter-spacing:.32em;text-transform:uppercase;
+.safari-badge{font-family:var(--reading);letter-spacing:.32em;text-transform:uppercase;
   font-size:11px;color:var(--safari-camel);display:block;margin-bottom:10px;
   text-shadow:0 1px 8px rgba(0,0,0,.35)}
 .safari-hero h1{font-size:clamp(28px,5vw,46px);margin:.15em 0 .35em;color:var(--safari-sand);
@@ -2524,7 +2532,7 @@ body.safari .explore-card:hover,body.safari .safari-card:hover,body.safari .wcar
 .safari-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin-top:8px}
 .safari-card{display:block;border-radius:12px;padding:20px 22px;transition:border-color .15s,transform .15s,box-shadow .15s;
   color:inherit;text-decoration:none}
-.safari-card h3{font-family:"Space Grotesk";font-size:17px;margin:0 0 8px;color:var(--bone)}
+.safari-card h3{font-family:var(--reading);font-size:17px;margin:0 0 8px;color:var(--bone)}
 .safari-card h3::after{content:" →";color:var(--safari-camel);font-weight:500}
 .safari-card p{margin:0;font-size:14.5px;line-height:1.5;color:var(--bonedim)}
 .safari-exit{text-align:center;margin-top:36px;font-size:15px}
@@ -2536,13 +2544,13 @@ body.safari .explore-card:hover,body.safari .safari-card:hover,body.safari .wcar
 .wcard{display:block;border-radius:12px;padding:20px;transition:border-color .15s,transform .15s,color .15s;
   color:inherit;text-decoration:none}
 .wcard:hover{border-color:var(--safari-camel);transform:translateY(-2px);color:inherit}
-.wcard h3{font-family:"Space Grotesk";font-size:18px;margin:0 0 6px}
-.wby{font-size:13px;color:var(--grass);margin:0 0 8px;font-family:"Space Grotesk";letter-spacing:.04em}
+.wcard h3{font-family:var(--reading);font-size:18px;margin:0 0 6px}
+.wby{font-size:13px;color:var(--grass);margin:0 0 8px;font-family:var(--reading);letter-spacing:.04em}
 .wbl{font-size:14px;color:var(--bonedim);margin:0;line-height:1.5}
-.wread{display:inline-block;margin-top:12px;font-size:13px;color:var(--safari-camel);font-family:"Space Grotesk"}
+.wread{display:inline-block;margin-top:12px;font-size:13px;color:var(--safari-camel);font-family:var(--reading)}
 .misogi-page table{width:100%;border-collapse:collapse;margin:22px 0;font-size:14px;line-height:1.45}
 .misogi-page th,.misogi-page td{border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top}
-.misogi-page th{background:rgba(74,82,52,.12);color:var(--bone);font-family:"Space Grotesk";font-size:13px}
+.misogi-page th{background:rgba(74,82,52,.12);color:var(--bone);font-family:var(--reading);font-size:13px}
 .misogi-page td:nth-child(2){font-size:16px}
 .misogi-page td{color:var(--bonedim)}
 .misogi-page blockquote{border-left:4px solid var(--safari-camel);padding-left:18px;color:var(--bonedim);font-style:italic}
@@ -2550,11 +2558,12 @@ body.safari .explore-card:hover,body.safari .safari-card:hover,body.safari .wcar
   border-radius:8px;border:1px solid var(--line);border-left:4px solid var(--safari-camel)}
 """
 
+# Self-hosted via @font-face in site.css (assets/fonts/). Google Fonts kept as a
+# belt-and-braces fallback when the local OTFs fail to load (offline CI mirrors, etc.).
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
-         '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&'
-         'family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&'
-         'family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">')
+         '<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" '
+         'rel="stylesheet">')
 
 
 def console_egg() -> str:
@@ -3639,27 +3648,27 @@ def render_misread_player() -> str:
 .mp-hero{padding:48px 0 8px}
 .mp-hero .eyebrow{margin:0 0 10px}
 .mp-hero h1{font-size:clamp(34px,6vw,60px);margin:0 0 .15em;
-  font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;letter-spacing:-.01em}
-.mp-hero .tag{font-family:"Cormorant Garamond",serif;font-style:italic;
+  font-family:var(--reading);font-weight:600;letter-spacing:-.01em}
+.mp-hero .tag{font-family:var(--reading);font-style:italic;
   font-size:clamp(18px,2.6vw,26px);color:var(--gold);margin:.1em 0 .6em}
 .mp-hero p.lede{max-width:62ch;color:var(--bonedim);margin:.2em 0 0}
 .mp-hero p.lede a{color:var(--gold)}
 .mp-note{margin:18px 0 0;padding:12px 16px;border:1px solid var(--line);border-radius:10px;
   background:rgba(200,168,107,.06);color:var(--bonedim);font-size:14px;max-width:70ch}
-.mp-note strong{color:var(--gold);font-family:"Space Grotesk",sans-serif}
+.mp-note strong{color:var(--gold);font-family:var(--reading)}
 
 /* lane switcher — horizontal scroll on narrow screens, wraps on wide */
 .mp-lanes{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 6px;
   padding-bottom:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .mp-lane{flex:0 0 auto;cursor:pointer;border:1px solid var(--line);background:var(--card);
-  color:var(--bone);font-family:"Space Grotesk",sans-serif;font-size:14px;font-weight:500;
+  color:var(--bone);font-family:var(--reading);font-size:14px;font-weight:500;
   letter-spacing:.01em;padding:9px 15px;border-radius:999px;line-height:1.2;white-space:nowrap;
   transition:border-color .15s,background .15s,color .15s}
 .mp-lane:hover{border-color:var(--ochre);color:var(--gold)}
 .mp-lane[aria-selected="true"]{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
 .mp-lane .n{opacity:.6;font-size:12px;margin-left:6px}
 
-.mp-laneblurb{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:18px;
+.mp-laneblurb{font-family:var(--reading);font-style:italic;font-size:18px;
   line-height:1.45;color:var(--ochre);max-width:66ch;margin:14px 0 2px}
 
 /* track list */
@@ -3669,20 +3678,20 @@ def render_misread_player() -> str:
 .mp-track:hover{background:rgba(229,181,103,.05)}
 .mp-track[aria-current="true"]{background:rgba(229,181,103,.10)}
 .mp-track .ti{flex:0 0 auto;width:30px;text-align:right;color:var(--grass);
-  font-family:"Space Grotesk",sans-serif;font-size:13px;font-variant-numeric:tabular-nums}
+  font-family:var(--reading);font-size:13px;font-variant-numeric:tabular-nums}
 .mp-track .play{flex:0 0 auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);
   background:transparent;color:var(--ochre);font-size:13px;line-height:1;display:flex;
   align-items:center;justify-content:center;cursor:pointer}
 .mp-track[aria-current="true"] .play{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
 .mp-track .tt{flex:1 1 auto;min-width:0}
-.mp-track .tt b{display:block;font-weight:500;font-family:"Space Grotesk",sans-serif;font-size:15px;
+.mp-track .tt b{display:block;font-weight:500;font-family:var(--reading);font-size:15px;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .mp-track .vs{flex:0 0 auto;display:flex;gap:5px}
-.mp-track .vbtn{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.06em;
+.mp-track .vbtn{font-family:var(--reading);font-size:11px;letter-spacing:.06em;
   border:1px solid var(--line);background:transparent;color:var(--bonedim);border-radius:6px;
   padding:3px 8px;cursor:pointer}
 .mp-track .vbtn[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
-.mp-track .nofile{flex:0 0 auto;font-size:11px;color:var(--sting);font-family:"Space Grotesk",sans-serif;
+.mp-track .nofile{flex:0 0 auto;font-size:11px;color:var(--sting);font-family:var(--reading);
   letter-spacing:.04em;opacity:.85}
 
 /* sticky transport bar */
@@ -3690,12 +3699,12 @@ def render_misread_player() -> str:
   backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:14px;padding:14px 16px;
   box-shadow:0 -2px 30px rgba(0,0,0,.4)}
 .mp-now{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 10px}
-.mp-now .lbl{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.22em;
+.mp-now .lbl{font-family:var(--reading);font-size:11px;letter-spacing:.22em;
   text-transform:uppercase;color:var(--grass)}
-.mp-now .ttl{font-family:"Cormorant Garamond",serif;font-size:20px;color:var(--bone)}
-.mp-now .lane{color:var(--ochre);font-size:13px;font-family:"Space Grotesk",sans-serif}
+.mp-now .ttl{font-family:var(--reading);font-size:20px;color:var(--bone)}
+.mp-now .lane{color:var(--ochre);font-size:13px;font-family:var(--reading)}
 .mp-seekrow{display:flex;align-items:center;gap:10px}
-.mp-time{font-family:"Space Grotesk",sans-serif;font-size:12px;color:var(--grass);
+.mp-time{font-family:var(--reading);font-size:12px;color:var(--grass);
   font-variant-numeric:tabular-nums;flex:0 0 auto;width:42px;text-align:center}
 .mp-seek{flex:1 1 auto;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;
   background:var(--line);outline:none;cursor:pointer}
@@ -3704,13 +3713,13 @@ def render_misread_player() -> str:
 .mp-seek::-moz-range-thumb{width:14px;height:14px;border:0;border-radius:50%;background:var(--gold);cursor:pointer}
 .mp-ctrls{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px}
 .mp-btn{border:1px solid var(--line);background:var(--card);color:var(--bone);cursor:pointer;
-  border-radius:999px;font-family:"Space Grotesk",sans-serif;font-size:15px;padding:10px 16px;
+  border-radius:999px;font-family:var(--reading);font-size:15px;padding:10px 16px;
   min-width:46px;line-height:1}
 .mp-btn:hover{border-color:var(--ochre);color:var(--gold)}
 .mp-btn.primary{background:var(--ochre);border-color:var(--ochre);color:var(--black);
   font-size:18px;padding:11px 22px}
 .mp-btn.primary:hover{background:var(--gold);border-color:var(--gold)}
-.mp-err{color:var(--sting);font-size:13px;font-family:"Space Grotesk",sans-serif;
+.mp-err{color:var(--sting);font-size:13px;font-family:var(--reading);
   text-align:center;margin:10px 0 0;min-height:1em}
 .mp-empty{color:var(--bonedim);padding:30px 0;text-align:center;font-style:italic}
 @media (max-width:540px){
@@ -4098,22 +4107,22 @@ def render_jakobus_player_embed(rel: str = "../") -> str:
 .jpx{margin:26px 0 0;border:1px solid var(--line);border-radius:14px;background:var(--card);
   padding:18px 18px 16px;overflow:hidden}
 .jpx-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:0 0 4px}
-.jpx-head .eyebrow{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.2em;
+.jpx-head .eyebrow{font-family:var(--reading);font-size:11px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--grass);margin:0}
-.jpx-head h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:22px;
+.jpx-head h3{font-family:var(--reading);font-weight:600;font-size:22px;
   margin:0;color:var(--bone)}
-.jpx-sub{font-family:"Cormorant Garamond",serif;font-style:italic;color:var(--ochre);
+.jpx-sub{font-family:var(--reading);font-style:italic;color:var(--ochre);
   font-size:15px;margin:2px 0 0;max-width:66ch}
 .jpx-sub a{color:var(--gold)}
 .jpx-lanes{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0 2px}
 .jpx-lane{flex:0 0 auto;cursor:pointer;border:1px solid var(--line);background:transparent;
-  color:var(--bone);font-family:"Space Grotesk",sans-serif;font-size:13px;font-weight:500;
+  color:var(--bone);font-family:var(--reading);font-size:13px;font-weight:500;
   padding:7px 12px;border-radius:999px;line-height:1.2;white-space:nowrap;
   transition:border-color .15s,background .15s,color .15s}
 .jpx-lane:hover{border-color:var(--ochre);color:var(--gold)}
 .jpx-lane[aria-selected="true"]{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
 .jpx-lane .n{opacity:.6;font-size:11px;margin-left:5px}
-.jpx-blurb{font-family:"Cormorant Garamond",serif;font-style:italic;font-size:15px;line-height:1.4;
+.jpx-blurb{font-family:var(--reading);font-style:italic;font-size:15px;line-height:1.4;
   color:var(--ochre);max-width:66ch;margin:11px 0 0}
 .jpx-list{list-style:none;margin:12px 0 0;padding:0;max-height:300px;overflow-y:auto;
   -webkit-overflow-scrolling:touch;border-top:1px solid var(--line)}
@@ -4122,26 +4131,26 @@ def render_jakobus_player_embed(rel: str = "../") -> str:
 .jpx-track:hover{background:rgba(229,181,103,.05)}
 .jpx-track[aria-current="true"]{background:rgba(229,181,103,.10)}
 .jpx-track .ti{flex:0 0 auto;width:24px;text-align:right;color:var(--grass);
-  font-family:"Space Grotesk",sans-serif;font-size:12px;font-variant-numeric:tabular-nums}
+  font-family:var(--reading);font-size:12px;font-variant-numeric:tabular-nums}
 .jpx-track .play{flex:0 0 auto;width:27px;height:27px;border-radius:50%;border:1px solid var(--line);
   background:transparent;color:var(--ochre);font-size:12px;line-height:1;display:flex;
   align-items:center;justify-content:center;cursor:pointer}
 .jpx-track[aria-current="true"] .play{background:var(--ochre);border-color:var(--ochre);color:var(--black)}
-.jpx-track .tt{flex:1 1 auto;min-width:0;font-family:"Space Grotesk",sans-serif;font-size:14px;
+.jpx-track .tt{flex:1 1 auto;min-width:0;font-family:var(--reading);font-size:14px;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .jpx-track .vs{flex:0 0 auto;display:flex;gap:5px}
-.jpx-track .vbtn{font-family:"Space Grotesk",sans-serif;font-size:11px;letter-spacing:.06em;
+.jpx-track .vbtn{font-family:var(--reading);font-size:11px;letter-spacing:.06em;
   border:1px solid var(--line);background:transparent;color:var(--bonedim);border-radius:6px;
   padding:2px 7px;cursor:pointer}
 .jpx-track .vbtn[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
 .jpx-bar{margin-top:14px;border-top:1px solid var(--line);padding-top:13px}
 .jpx-now{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin:0 0 9px}
-.jpx-now .lbl{font-family:"Space Grotesk",sans-serif;font-size:10px;letter-spacing:.2em;
+.jpx-now .lbl{font-family:var(--reading);font-size:10px;letter-spacing:.2em;
   text-transform:uppercase;color:var(--grass)}
-.jpx-now .ttl{font-family:"Cormorant Garamond",serif;font-size:18px;color:var(--bone)}
-.jpx-now .lane{color:var(--ochre);font-size:12px;font-family:"Space Grotesk",sans-serif}
+.jpx-now .ttl{font-family:var(--reading);font-size:18px;color:var(--bone)}
+.jpx-now .lane{color:var(--ochre);font-size:12px;font-family:var(--reading)}
 .jpx-seekrow{display:flex;align-items:center;gap:9px}
-.jpx-time{font-family:"Space Grotesk",sans-serif;font-size:11px;color:var(--grass);
+.jpx-time{font-family:var(--reading);font-size:11px;color:var(--grass);
   font-variant-numeric:tabular-nums;flex:0 0 auto;width:40px;text-align:center}
 .jpx-seek{flex:1 1 auto;-webkit-appearance:none;appearance:none;height:5px;border-radius:3px;
   background:var(--line);outline:none;cursor:pointer}
@@ -4150,15 +4159,15 @@ def render_jakobus_player_embed(rel: str = "../") -> str:
 .jpx-seek::-moz-range-thumb{width:13px;height:13px;border:0;border-radius:50%;background:var(--gold);cursor:pointer}
 .jpx-ctrls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:11px}
 .jpx-btn{border:1px solid var(--line);background:transparent;color:var(--bone);cursor:pointer;
-  border-radius:999px;font-family:"Space Grotesk",sans-serif;font-size:14px;padding:8px 14px;
+  border-radius:999px;font-family:var(--reading);font-size:14px;padding:8px 14px;
   min-width:42px;line-height:1}
 .jpx-btn:hover{border-color:var(--ochre);color:var(--gold)}
 .jpx-btn.primary{background:var(--ochre);border-color:var(--ochre);color:var(--black);
   font-size:16px;padding:9px 20px}
 .jpx-btn.primary:hover{background:var(--gold);border-color:var(--gold)}
-.jpx-err{color:var(--sting);font-size:12px;font-family:"Space Grotesk",sans-serif;
+.jpx-err{color:var(--sting);font-size:12px;font-family:var(--reading);
   text-align:center;margin:8px 0 0;min-height:1em}
-.jpx-more{margin:13px 0 0;font-family:"Space Grotesk",sans-serif;font-size:13px}
+.jpx-more{margin:13px 0 0;font-family:var(--reading);font-size:13px}
 .jpx-more a{color:var(--gold)}
 .jpx-empty{color:var(--bonedim);padding:24px 0;text-align:center;font-style:italic}
 @media (max-width:540px){.jpx-track .vs{display:none}.jpx-now .ttl{font-size:16px}}
@@ -4472,14 +4481,14 @@ def render_flyer() -> str:
 @page {{ size: A4; margin: 0; }}
 * {{ box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }}
 html,body {{ margin:0; padding:0; background:#ece7dd; }}
-body {{ font-family:"Atkinson Hyperlegible","Inter",sans-serif; color:#161513; }}
+body {{ font-family:"Atkinson Hyperlegible",system-ui,sans-serif; color:#161513; }}
 .sheet {{ width:210mm; min-height:297mm; margin:0 auto; background:#fbf8f2;
   padding:20mm 18mm; display:flex; flex-direction:column; position:relative; }}
 .screen-only {{ background:#161513; padding:18px; text-align:center; color:#ede9e0; font-size:14px; }}
 @media print {{ .screen-only {{ display:none; }} html,body{{background:#fff;}} }}
-.eyebrow {{ font-family:"Space Grotesk",sans-serif; letter-spacing:.22em; text-transform:uppercase;
+.eyebrow {{ font-family:var(--reading); letter-spacing:.22em; text-transform:uppercase;
   font-size:12px; color:#b07a3c; font-weight:600; }}
-h1 {{ font-family:"Cormorant Garamond",Georgia,serif; font-weight:700; font-size:52px; line-height:1.02;
+h1 {{ font-family:var(--reading); font-weight:700; font-size:52px; line-height:1.02;
   margin:6mm 0 4mm; }}
 h1 .hot {{ color:#c2401e; }}
 .lead {{ font-size:19px; line-height:1.5; max-width:150mm; color:#2a241d; }}
@@ -4489,19 +4498,19 @@ h1 .hot {{ color:#c2401e; }}
   display:flex; align-items:center; justify-content:center; text-align:center; font-size:12px;
   color:#6a635a; padding:8px; background:#fff; }}
 .qr img {{ width:100%; height:100%; object-fit:contain; }}
-.scan h2 {{ font-family:"Space Grotesk",sans-serif; font-size:22px; margin:0 0 4px; }}
+.scan h2 {{ font-family:var(--reading); font-size:22px; margin:0 0 4px; }}
 .scan p {{ font-size:16px; line-height:1.45; margin:.2em 0; color:#2a241d; }}
-.scan .url {{ font-family:"Space Grotesk",sans-serif; font-weight:600; font-size:18px; color:#b07a3c; }}
+.scan .url {{ font-family:var(--reading); font-weight:600; font-size:18px; color:#b07a3c; }}
 .tiers {{ display:flex; gap:8mm; margin:5mm 0; flex-wrap:wrap; }}
 .tier {{ flex:1; min-width:42mm; border:1px solid #d8cfbe; border-radius:8px; padding:10px 12px; background:#fff; }}
-.tier b {{ display:block; font-family:"Space Grotesk",sans-serif; font-size:14px; }}
+.tier b {{ display:block; font-family:var(--reading); font-size:14px; }}
 .tier .amt {{ font-size:20px; font-weight:700; color:#161513; }}
 .tier.f .amt {{ color:#c2401e; }}
 .trust {{ margin-top:6mm; border-top:1px solid #d8cfbe; padding-top:4mm; font-size:13.5px; color:#5a534a; line-height:1.5; }}
 .trust strong {{ color:#161513; }}
 .foot {{ margin-top:5mm; display:flex; justify-content:space-between; align-items:flex-end; }}
 .foot img {{ height:16mm; }}
-.foot .when {{ text-align:right; font-family:"Space Grotesk",sans-serif; font-size:13px; color:#5a534a; }}
+.foot .when {{ text-align:right; font-family:var(--reading); font-size:13px; color:#5a534a; }}
 .foot .when b {{ display:block; font-size:16px; color:#161513; }}
 </style></head><body>
 <div class="screen-only">Print preview — use your browser's <strong>Print → Save as PDF</strong>
@@ -5462,7 +5471,7 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
             'border-left:4px solid var(--violet-deep);border-radius:14px;'
             'background:linear-gradient(180deg,var(--violet-glow),transparent 85%);'
             'box-shadow:0 0 0 1px var(--violet-glow),0 14px 40px -22px var(--violet-deep)">'
-            '<div style="font-family:\'Space Grotesk\',sans-serif;text-transform:uppercase;'
+            '<div style="font-family:var(--reading);text-transform:uppercase;'
             'letter-spacing:.24em;font-size:12px;color:var(--violet)">Free &amp; open source</div>'
             '<h2 style="margin:.32em 0 .2em;color:var(--bone);font-size:24px">'
             '<span style="color:var(--violet)">/sleep</span> — give your AI coding agent a memory</h2>'
@@ -7745,8 +7754,13 @@ def render_service_worker() -> str:
         "/app.html",
         "/reader.html",
         "/start.html",
+        "/landing.html",
         "/assets/site.css",
         "/assets/safari.css",
+        "/assets/fonts/AtkinsonHyperlegible-Regular.otf",
+        "/assets/fonts/AtkinsonHyperlegible-Bold.otf",
+        "/assets/fonts/AtkinsonHyperlegible-Italic.otf",
+        "/assets/fonts/AtkinsonHyperlegible-BoldItalic.otf",
         "/assets/safari/sossusvlei-dunes.jpg",
         "/assets/safari/okavango-delta.jpg",
         "/assets/brand/logo-master.png",
@@ -7755,7 +7769,7 @@ def render_service_worker() -> str:
         "/manifest.webmanifest",
     ]
     core_js = json.dumps(core, indent=2)
-    return f"""const CACHE_NAME = "abp-pwa-v8";
+    return f"""const CACHE_NAME = "abp-pwa-v9";
 const CORE_ASSETS = {core_js};
 
 self.addEventListener("install", event => {{
@@ -8418,6 +8432,15 @@ def main() -> None:
         src = BRAND / name
         if src.is_file():
             shutil.copy2(src, OUT / "assets" / "brand" / name)
+    # Atkinson Hyperlegible — self-hosted for landing + library (cover typeface parity).
+    fonts_out = OUT / "assets" / "fonts"
+    fonts_out.mkdir(parents=True, exist_ok=True)
+    fonts_src = REPO / "assets" / "fonts"
+    for name in ("AtkinsonHyperlegible-Regular.otf", "AtkinsonHyperlegible-Bold.otf",
+                 "AtkinsonHyperlegible-Italic.otf", "AtkinsonHyperlegible-BoldItalic.otf"):
+        src = fonts_src / name
+        if src.is_file():
+            shutil.copy2(src, fonts_out / name)
     (OUT / "assets" / "site.css").write_text(CSS, encoding="utf-8")
     (OUT / "assets" / "safari.css").write_text(SAFARI_CSS, encoding="utf-8")
     safari_assets = OUT / "assets" / "safari"

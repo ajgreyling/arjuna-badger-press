@@ -18,6 +18,8 @@ HERE = Path(__file__).resolve().parent
 BOOK = HERE.parent
 PLATE = HERE / "cover-plate.png"
 OUT = [
+
+
     HERE / "cover.png", HERE / "cover.jpg",
     BOOK / "build" / "export" / "cover.png", BOOK / "build" / "export" / "cover.jpg",
 ]
@@ -28,10 +30,24 @@ OCHRE = (200, 168, 107, 255)
 DIM = (214, 200, 178, 255)        # subtitle — slightly warm, brighter than bonedim for legibility
 SHADOW = (16, 10, 5, 220)
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
+
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
 
 
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+ATK_BI = str(_ATK / "AtkinsonHyperlegible-BoldItalic.otf")
+
+DIDOT = ATK_BOLD
+COCHIN = ATK_REG
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(path, size, index=index)
 
@@ -97,7 +113,7 @@ def main() -> None:
         draw_tracked(draw, cx, ty + i * lh, ln, f_title, 3, INK)
 
     # subtitle (italic) — lay a soft local scrim band first; it crosses the bright dawn glow
-    f_sub = font(DIDOT, 38, index=1)
+    f_sub = font(ATK_ITAL, 38)
     sub = "A reverent retelling of the Bhagavad Gita"
     sub_y = ty + 2 * lh + 18
     sub_w = text_width(draw, sub, f_sub, 1)

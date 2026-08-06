@@ -2,7 +2,7 @@
 """Lay title + author typography onto the clean cover plate for *Um Welt*.
 
 Reads design/cover-plate.png (text-free bike photograph, portrait 2:3), scales to
-6×9″ @ 300dpi, adds soft legibility scrims and house serif typography, and writes
+6×9″ @ 300dpi, adds soft legibility scrims and Atkinson Hyperlegible typography, and writes
 design/cover.png + design/cover.jpg (+ build/export/cover.png when present).
 
 Re-runnable: always works from the plate, never from an already-typeset file.
@@ -21,13 +21,26 @@ PLATE = HERE / "cover-plate.png"
 OUT_PNG = [HERE / "cover.png", BOOK / "build" / "export" / "cover.png"]
 OUT_JPG = HERE / "cover.jpg"
 
+def _repo() -> Path:
+    p = Path(__file__).resolve()
+    for cand in p.parents:
+        if (cand / "assets" / "fonts" / "AtkinsonHyperlegible-Bold.otf").is_file():
+            return cand
+    raise SystemExit("make_cover: cannot find repo assets/fonts/AtkinsonHyperlegible-*.otf")
+
+
+_REPO = _repo()
+_ATK = _REPO / "assets" / "fonts"
+ATK_REG = str(_ATK / "AtkinsonHyperlegible-Regular.otf")
+ATK_BOLD = str(_ATK / "AtkinsonHyperlegible-Bold.otf")
+ATK_ITAL = str(_ATK / "AtkinsonHyperlegible-Italic.otf")
+
+
 W, H = 1800, 2700  # 6×9 @ 300dpi
 
 INK = (247, 239, 225, 255)        # warm off-white
 SHADOW = (10, 6, 3, 235)          # warm near-black
 
-DIDOT = "/System/Library/Fonts/Supplemental/Didot.ttc"
-COCHIN = "/System/Library/Fonts/Supplemental/Cochin.ttc"
 
 
 def font(path: str, size: int, index: int = 0) -> ImageFont.FreeTypeFont:
@@ -97,7 +110,7 @@ def main() -> None:
     img = Image.alpha_composite(img, scrim)
 
     # Series eyebrow
-    f_eyebrow = font(COCHIN, 42)
+    f_eyebrow = font(ATK_REG, 42)
     img = draw_tracked(img, cx, int(H * 0.055), "THE ROAD BOOKS", f_eyebrow, 12, INK)
 
     rule_y = int(H * 0.055) + 62
@@ -107,19 +120,19 @@ def main() -> None:
 
     # Title — short, monumental stack
     ty = int(H * 0.105)
-    f_title = font(DIDOT, 210)
+    f_title = font(ATK_BOLD, 210)
     img = draw_tracked(img, cx, ty, "UM", f_title, 18, INK)
     img = draw_tracked(img, cx, ty + 230, "WELT", f_title, 10, INK)
 
     # Tagline + subject (not presented as Stücke's own title)
     sub_y = ty + 230 + 250
-    f_sub = font(DIDOT, 48, index=1)  # italic
+    f_sub = font(ATK_ITAL, 48)  # italic
     img = draw_tracked(img, cx, sub_y, "a life on a bicycle", f_sub, 2, INK)
-    f_names = font(COCHIN, 44)
+    f_names = font(ATK_REG, 44)
     img = draw_tracked(img, cx, sub_y + 78, "HEINZ STÜCKE", f_names, 8, INK)
 
     # Author at the foot
-    f_auth = font(COCHIN, 56)
+    f_auth = font(ATK_REG, 56)
     img = draw_tracked(img, cx, int(H * 0.925), "ANDRIES J. GREYLING", f_auth, 9, INK)
 
     out = img.convert("RGB")
