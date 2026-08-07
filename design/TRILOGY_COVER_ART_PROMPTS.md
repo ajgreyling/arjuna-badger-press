@@ -7,13 +7,13 @@ warm gold key-light. NOT the flat companion look.
 **How to use**
 1. Generate each image below (Midjourney v6 / DALL·E 3 / SDXL — whatever you use). Aspect **2:3**
    (portrait book cover). Render **without text** — type is added in step 3.
-2. Save the chosen frame to that book's art slot:
-   - `books/resonance/design/art.png`
-   - `books/revelation/design/art.png`
-   - `books/relic/design/art.png`
-3. Run `python3 design/typeset_trilogy_covers.py` — it drops the house gold-serif lockup
-   (eyebrow · title · tagline · author · Arjuna Badger Press) onto each, exports the cover +
-   catalog thumbnail.
+2. Save the chosen frame to that book's plate slot (preferred) or art slot:
+   - `books/resonance/design/cover-plate.png`  (or `art.png`)
+   - `books/revelation/design/cover-plate.png` (or `art.png`)
+   - `books/relic/design/cover-plate.png`      (or `art.png`)
+3. Run `python3 design/typeset_trilogy_covers.py` — it drops the Atkinson Hyperlegible
+   house lockup (eyebrow · numeral · title · tagline · author · Arjuna Badger Press)
+   onto each, exports the cover + catalog thumbnail.
 
 **The "set" rules baked into all three prompts** (so they read as one trilogy):
 - Same render style: *cinematic matte-painting / photoreal concept art, golden-hour, volumetric
