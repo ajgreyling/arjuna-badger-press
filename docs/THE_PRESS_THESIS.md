@@ -117,7 +117,7 @@ terms are inserted only when elicited from the author's actual material — and 
 half by never treating framing as permission.
 
 *(Empirical sibling study:
-[`guardrail-register-thesis/thesis/THESIS.md`](https://github.com/ajgreyling/guardrail-register-thesis/blob/main/thesis/THESIS.md);
+[`guardrail-register-thesis/thesis/THESIS.md`](https://github.com/ajgreyling/guardrail-register-thesis/blob/master/thesis/THESIS.md);
 companion fiction: *Afraud All The Way Down*.)*
 
 ---

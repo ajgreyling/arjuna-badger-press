@@ -2557,7 +2557,7 @@ These images are freely licensed via [Wikimedia Commons](https://commons.wikimed
 
 ![Great Zimbabwe — drystone walls without mortar.](books/book1-africa/design/images/great-zimbabwe-ruins-outer-walls-3-1200.jpg)
 
-*[File:Great Zimbabwe ruins outer walls 3-1200.jpg](https://commons.wikimedia.org/wiki/File:Great_Zimbabwe_ruins_outer_walls_3-1200.jpg) — via Wikimedia Commons*
+*[File:Great-Zimbabwe-ruins-outer-walls-3-1200.jpg](https://commons.wikimedia.org/wiki/File:Great-Zimbabwe-ruins-outer-walls-3-1200.jpg) — via Wikimedia Commons*
 
 ![Witwatersrand carbon-leader gold ore — why the reef is so rich.](books/book1-africa/design/images/carbon-leader-gold-ore-witwatersrand-south-africa-4.jpg)
 

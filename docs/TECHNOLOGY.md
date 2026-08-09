@@ -626,7 +626,7 @@ where it is instead of from amnesia.
 | **Reflex via hooks, not magic** | a `PreCompact` / `SessionEnd` hook reminds you to `/sleep`; a `SessionStart` hook fires `/wake`. Hooks *nudge and orient* — they never silently write to memory; the human keeps the brake on what persists. |
 
 **It is open source.** Both skills, the reminder hooks, and the install steps are public, MIT-licensed:
-**[github.com/ajgreyling/claude-sleep-skill](https://github.com/ajgreyling/claude-sleep-skill)**. The
+**[/sleep — documented in this stack](https://arjunabadger.press/safari/technology.html)**. The
 longer-form story of where it came from — and the conversation about what it means for a machine to
 "remember" at all — is in [The kettle and the blink](../site/content/writing/the-kettle-and-the-blink.md)
 on the press site.

@@ -161,7 +161,7 @@ If you want the **training manual this novel dramatises**, start with ***Becomin
 
 **In-fiction (no lecture):** ch-09 Imhrat — candle, breath cadence, seven centres as sensation (PP-A03, PP-028). ch-11–13 Henry — locked suite, pillar candle, months of failure, vanity visualisation, speed before the card.
 
-**Start here:** [drjoedispenza.com — Becoming Supernatural](https://www.drjoedispenza.com/store/products/becoming-supernatural-book)
+**Start here:** [drjoedispenza.com — Becoming Supernatural](https://drjoedispenza.com/)
 
 **Skeptic's best case:** commercial wellness framing; independent replication limited; correlation vs causation at mass events; "supernatural" oversells what may be stress reduction and suggestion. **What remains interesting:** the **somatic arc** Dahl already wrote — and Dispenza's honest insistence that **common people** can do it if they survive the boring middle, which is exactly what Henry (and McMoneagle, and Imhrat) endure.
 
