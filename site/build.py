@@ -1282,9 +1282,9 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
             label = re.sub(r"`(.+?)`", r"<code>\1</code>", label)
             return label
 
-        def link_repl(m: re.Match[str]) -> str:
-            label = fmt_label(m.group(1))
-            raw_href = m.group(2).strip()
+        def make_link(label_raw: str, raw_href: str) -> str:
+            label = fmt_label(html.escape(label_raw))
+            raw_href = raw_href.strip()
             parsed = urllib.parse.urlparse(raw_href)
             # Source manuscripts sometimes contain repo-only Markdown cross-references or
             # machine-local file paths. Do not publish those as broken/leaky public links.
@@ -1298,17 +1298,64 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
                 return f'<a href="{href}" target="_blank" rel="noopener noreferrer external">{label}</a>'
             return f'<a href="{href}">{label}</a>'
 
-        t = html.escape(t)
-        # Replace links first, then SHIELD the finished <a …>…</a> tags from the emphasis/code
-        # passes below — otherwise an underscore inside a URL (e.g. CREATIVE_THESIS.md) gets
-        # mangled into href="CREATIVE<em>THESIS.md". Stash anchors, transform, restore.
+        # Stash links BEFORE html.escape so [text](<url>) and URLs with '(' stay intact.
+        # A naive [^)]+ pattern truncates Wikimedia File:Foo_(bar).jpg at the first ')'.
         _anchors: list[str] = []
 
-        def _stash(m: "re.Match[str]") -> str:
-            _anchors.append(link_repl(m))
+        def _stash_link(label: str, href: str) -> str:
+            _anchors.append(make_link(label, href))
             return f"\x00A{len(_anchors) - 1}\x00"
 
-        t = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _stash, t)
+        def _replace_md_links(text: str) -> str:
+            out: list[str] = []
+            i = 0
+            n = len(text)
+            while i < n:
+                start = text.find("[", i)
+                if start < 0:
+                    out.append(text[i:])
+                    break
+                out.append(text[i:start])
+                mid = text.find("](", start)
+                if mid < 0:
+                    out.append(text[start])
+                    i = start + 1
+                    continue
+                label = text[start + 1 : mid]
+                j = mid + 2
+                if j < n and text[j] == "<":
+                    end = text.find(">)", j + 1)
+                    if end < 0:
+                        out.append(text[start])
+                        i = start + 1
+                        continue
+                    href = text[j + 1 : end]
+                    out.append(_stash_link(label, href))
+                    i = end + 2
+                    continue
+                depth = 1
+                k = j
+                while k < n and depth:
+                    ch = text[k]
+                    if ch == "(":
+                        depth += 1
+                    elif ch == ")":
+                        depth -= 1
+                    k += 1
+                if depth != 0:
+                    out.append(text[start])
+                    i = start + 1
+                    continue
+                href = text[j : k - 1]
+                out.append(_stash_link(label, href))
+                i = k
+            return "".join(out)
+
+        t = _replace_md_links(t)
+        t = html.escape(t)
+        # SHIELD finished <a> tags (placeholders) from emphasis/code passes — otherwise an
+        # underscore inside a URL path in surrounding text is fine, but we still restore
+        # pre-built anchors after bold/italic/code transforms.
         t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
         t = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", t)
         t = re.sub(r"_(.+?)_", r"<em>\1</em>", t)
@@ -1418,7 +1465,30 @@ def md_to_html(md: str, *, reader: bool = False) -> str:
             continue
         if table_buf:
             flush_table()
-        imgm = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?$", s)
+        # Image lines: ![alt](url) or ![alt](<url>), with balanced parens in url.
+        imgm = re.match(r"^!\[([^\]]*)\]\(<([^>]+)>\)(?:\{[^}]*\})?$", s)
+        if not imgm:
+            imgm2 = re.match(r"^!\[([^\]]*)\]\((.+)\)$", s)
+            if imgm2 and not s.endswith("}"):
+                # Prefer a match only when trailing brace-options are absent; balanced below.
+                alt_try, src_try = imgm2.group(1), imgm2.group(2)
+                # If src_try has unbalanced '(', reject (malformed).
+                if src_try.count("(") == src_try.count(")"):
+                    class _Img:
+                        def group(self, n: int) -> str:
+                            return alt_try if n == 1 else src_try
+                    imgm = _Img()  # type: ignore[assignment]
+            elif imgm2:
+                # ![alt](url){attrs} — peel trailing {…}
+                brace = s.rfind("){")
+                if brace > 0:
+                    head = s[: brace + 1]
+                    imgm2b = re.match(r"^!\[([^\]]*)\]\((.+)\)$", head)
+                    if imgm2b and imgm2b.group(2).count("(") == imgm2b.group(2).count(")"):
+                        class _ImgB:
+                            def group(self, n: int) -> str:
+                                return imgm2b.group(1) if n == 1 else imgm2b.group(2)
+                        imgm = _ImgB()  # type: ignore[assignment]
         if imgm:
             flush_all()
             alt, src = imgm.group(1).strip(), imgm.group(2)
@@ -4706,7 +4776,7 @@ and other rails where they reduce friction.</p>
 <h2 style="font-size:28px;margin:.3em 0">/sleep — open-source agent memory</h2>
 <p style="max-width:70ch;color:var(--bonedim);font-size:17px">This library was built with an AI co-worker. <code>/sleep</code> consolidates a session the way a person sleeps —
 keep the lesson, lose the dream. MIT-licensed; works in any repo.</p>
-<div class="cta"><a class="btn" href="https://github.com/ajgreyling/claude-sleep-skill">Get /sleep on GitHub →</a>
+<div class="cta"><a class="btn" href="safari/technology.html">How /sleep works</a>
 <a class="btn ghost" href="safari/writing/the-kettle-and-the-blink.html">Read the story</a></div>
 </div></section>""",
         render_pipeline_section(entries),
@@ -5479,10 +5549,10 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
             'this whole library with an AI co-worker: it consolidates a session the way a person sleeps — '
             'keep the lesson, lose the dream. The humane counterpart to <code>/clear</code>. MIT-licensed, '
             'works in any repo.</p>'
-            '<a href="https://github.com/ajgreyling/claude-sleep-skill" '
+            '<a href="technology.html" '
             'style="display:inline-block;padding:11px 22px;border-radius:10px;font-weight:600;'
             'background:var(--violet-deep);color:#fff;border:1px solid var(--violet)">'
-            'Get /sleep on GitHub &rarr;</a>'
+            'How /sleep works &rarr;</a>'
             '</aside>'
         )
     canon = f"{DOMAIN}/safari/{slug}.html" if safari else f"{DOMAIN}/{slug}.html"
@@ -6402,7 +6472,7 @@ and travel as the life, not the reward at the end of it.</p>
 <li><a href="{tech_href}">Technology behind the library</a></li>
 <li><a href="{rel}marketplace.html">Marketplace thesis</a></li>
 <li><a href="{rel}app.html">Reader app plan</a></li>
-<li><a href="https://github.com/ajgreyling/claude-sleep-skill" target="_blank" rel="noopener">/sleep on GitHub</a></li>
+<li><a href="{tech_href}">/sleep — agent memory</a></li>
 </ul>
 </section>
 </aside>

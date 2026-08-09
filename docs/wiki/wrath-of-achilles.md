@@ -10,49 +10,49 @@
 
 ### Hisarlık (Troy) — nine cities stacked on one hill.
 
-![Archaeological site of Troy (Hisarlık).](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Troy-VI_%28cropped%29.jpg/1280px-Troy-VI_%28cropped%29.jpg)
+![Archaeological site of Troy (Hisarlık).](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Hisarl%C4%B1k_%28Troy%29.jpg/1280px-Hisarl%C4%B1k_%28Troy%29.jpg)
 
-*Ziegler175, CC BY-SA 3.0, via Wikimedia Commons*
+*via Wikimedia Commons*
 
-### The Scaean Gate excavation — where Hector crossed and did not return.
+### The walls — stone you can still walk.
 
-![Troy archaeological excavations.](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Troy%2C_Turkey_%28cropped%29.jpg/1280px-Troy%2C_Turkey_%28cropped%29.jpg)
+![Walls of Troy.](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Walls_of_Troy_%282%29.jpg/1280px-Walls_of_Troy_%282%29.jpg)
 
-*Carole Raddato, CC BY-SA 2.0, via Wikimedia Commons*
+*via Wikimedia Commons*
 
 ## Places of awe — Mycenaean Greece
 
 ### Lion Gate, Mycenae — Agamemnon's threshold.
 
-![Lion Gate, Mycenae.](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Mycenae_lion_gate.jpg/1280px-Mycenae_lion_gate.jpg)
+![Lion Gate, Mycenae.](https://upload.wikimedia.org/wikipedia/commons/c/cf/Mycenae_lion_gate.jpg)
 
 *Ziegler175, CC BY-SA 3.0, via Wikimedia Commons*
 
 ### Treasury of Atreus — beehive tomb, bronze-age engineering.
 
-![Treasury of Atreus, Mycenae.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Treasury_of_Atreus_%28cropped%29.jpg/1280px-Treasury_of_Atreus_%28cropped%29.jpg)
+![Treasury of Atreus, Mycenae.](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Treasury_of_Atreus%2C_20M0601.jpg/1280px-Treasury_of_Atreus%2C_20M0601.jpg)
 
-*Greek National Tourism Organisation, Public domain, via Wikimedia Commons*
+*via Wikimedia Commons*
 
 ### Tiryns — cyclopean walls Homer called the work of giants.
 
-![Walls of Tiryns.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Tiryns_Walls.jpg/1280px-Tiryns_Walls.jpg)
+![Walls of Tiryns.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/The_Cyclopean_Walls_of_Tiryns.jpg/1280px-The_Cyclopean_Walls_of_Tiryns.jpg)
 
-*Ziegler175, CC BY-SA 3.0, via Wikimedia Commons*
+*via Wikimedia Commons*
 
 ## Things of wonder (made by hand)
 
 ### Mask of Agamemnon — gold face from the shaft graves.
 
-![Mask of Agamemnon, National Archaeological Museum, Athens.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/MaskOfAgamemnon.jpg/800px-MaskOfAgamemnon.jpg)
+![Mask of Agamemnon, National Archaeological Museum, Athens.](https://upload.wikimedia.org/wikipedia/commons/c/c8/MaskOfAgamemnon.jpg)
 
 *National Archaeological Museum of Athens, CC BY-SA 3.0, via Wikimedia Commons*
 
-### Achilles and Ajax playing dice — Exekias, circa 540 BC.
+### Achilles and Ajax playing dice — Andokides Painter.
 
-![Achilles and Ajax playing a board game, Exekias amphora.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Achilles_and_Ajax_playing_a_board_game_%28detail%29%2C_Andokides_Painter%2C_530-525_BC%2C_Vatican_Museums.jpg/800px-Achilles_and_Ajax_playing_a_board_game_%28detail%29%2C_Andokides_Painter%2C_530-525_BC%2C_Vatican_Museums.jpg)
+![Achilles and Ajax playing a board game, Andokides Painter.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Andokides_Painter_ARV_4_8_Herakles_and_the_lion_-_Achilles_and_Ajax_playing_%2801%29.jpg/1280px-Andokides_Painter_ARV_4_8_Herakles_and_the_lion_-_Achilles_and_Ajax_playing_%2801%29.jpg)
 
-*José Luiz Bernardes Ribeiro, CC BY-SA 4.0, via Wikimedia Commons*
+*via Wikimedia Commons*
 
 ---
 
