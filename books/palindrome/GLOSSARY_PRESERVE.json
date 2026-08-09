@@ -1,0 +1,24 @@
+{
+  "book": "palindrome",
+  "preserve_verbatim_all_languages": {
+    "in_language_terms": {},
+    "cultural_terms": [],
+    "invented_entities": [],
+    "proper_names": [
+      "August Renner",
+      "August",
+      "Solomon Voss",
+      "Sol",
+      "Voss",
+      "Earl Cade",
+      "Earl",
+      "Danny Reiss",
+      "Danny",
+      "Grahamstown",
+      "Loubser",
+      "Jerome Bixby",
+      "The Man from Earth"
+    ]
+  },
+  "note": "Every token above MUST appear UNCHANGED in every translated edition. Proper names and the named lineage film stay verbatim."
+}

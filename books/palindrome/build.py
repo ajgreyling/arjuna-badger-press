@@ -1,21 +1,12 @@
 #!/usr/bin/env python3
 """Self-contained merge + render for the standalone chamber-piece novella *PALINDROME*.
 
-Total firewall: depends on NOTHING in History Before Time or the trilogy. Mirrors the proven
-standalone pattern (books/the-loneliest/build.py): [canon/DEDICATION_BOOK.md if present] +
-[canon/READER_NOTE.md if present] + ch-*.md -> build/BOOK.md, then render through the binding
-RENDER GATE (tools/render_book.sh): Atkinson body embedded, cover, colophon, PDF + EPUB.
-
-PALINDROME is a STANDALONE — it is OUT of scope for the (now-retired) standing library dedication
-(that is dedicated to History Before Time + the Jakobus stories only). It carries only its own
-dedication; there is no library inscription to suppress, but the opt-out marker is honoured anyway
-for symmetry with the-loneliest.
-
-  python3 books/palindrome/build.py            # merge + render (epub + pdf via gate)
+  python3 books/palindrome/build.py            # merge + render English (epub + pdf via gate)
   python3 books/palindrome/build.py --merge    # merge only (BOOK.md + novelcrafter)
+  python3 books/palindrome/build.py --af       # render Afrikaans prose edition (BOOK.af.md)
 
-BOOK.md / BOOK.novelcrafter.md / the .epub / .pdf are DERIVED, local-only build artifacts.
-Commit only chapters/ + canon/.
+The Afrikaans stage play ships separately as books/palindroom-toneelstuk
+(*Palindroom Toneelstuk*). BOOK.af.md is the prose translation of this novella.
 """
 from __future__ import annotations
 
@@ -29,6 +20,7 @@ BUILD = HERE / "build"
 CH = BUILD / "chapters"
 CANON = HERE / "canon"
 TITLE = "Palindrome"
+TITLE_AF = "Palindroom"
 AUTHOR = "Andries J. Greyling"
 
 
@@ -44,23 +36,13 @@ def _clean(txt: str) -> str:
     return _HTML_COMMENT.sub("", txt).strip()
 
 
-def _strip_h1(txt: str) -> str:
-    if txt.startswith("#"):
-        return txt.split("\n", 1)[1].strip() if "\n" in txt else ""
-    return txt
-
-
 def _section(path: Path) -> str:
-    """Read a canon front/back-matter file, cleaned, keeping its own leading '# ' heading so the
-    EPUB splitter gives it its own section. Empty string if absent."""
     if not path.exists():
         return ""
     return _clean(path.read_text(encoding="utf-8"))
 
 
 def _dedication_page() -> str:
-    """PALINDROME's own dedication only. (Standalone: the standing dedication is retired.)
-    Honours a leading <!-- NO_LIBRARY_DEDICATION --> marker for symmetry, though it is moot here."""
     own_raw = _section(CANON / "DEDICATION_BOOK.md")
     if not own_raw:
         return ""
@@ -73,7 +55,6 @@ def merge() -> Path:
     if not files:
         sys.exit("  [skip] no chapters/")
     parts: list[str] = []
-    # Front matter, in order: dedication, then the reader's note (the author's-note front matter).
     ded = _dedication_page()
     if ded:
         parts.append(ded + "\n")
@@ -87,7 +68,6 @@ def merge() -> Path:
         parts.append(body + "\n")
         nc_parts.append(body + "\n")
         nch += 1
-    # Back matter: the reader's glossary, if present.
     glos = _section(CANON / "READER_GLOSSARY.md")
     if glos:
         parts.append((glos if glos.startswith("# ") else "# A Reader's Glossary\n\n" + glos) + "\n")
@@ -120,7 +100,6 @@ def _split_sections(md: str) -> list[tuple[str, list[str]]]:
 
 
 def epub() -> None:
-    """Legacy stdlib-only EPUB (no cover/PDF) — fallback if the render gate is unavailable."""
     try:
         import markdown  # noqa
         from ebooklib import epub as _epub  # noqa
@@ -155,30 +134,47 @@ def epub() -> None:
     print(f"  [ok] {out}  ({len(sections)} sections)")
 
 
-def render_via_gate() -> None:
-    """Render EPUB + PDF through the binding RENDER GATE (tools/render_book.sh): Atkinson body
-    embedded, cover, colophon (ABP mark + Klaus crest). The gate is the single sanctioned render
-    path (see tools/RENDER_GATE.md); the ebooklib epub() above is kept only as a stdlib fallback."""
+def render_via_gate(book_md: Path | None = None, out_name: str | None = None,
+                    title: str | None = None) -> None:
     import subprocess
-    repo = HERE.parent.parent                         # repo root
+    repo = HERE.parent.parent
     gate = repo / "tools" / "render_book.sh"
-    book_md = BUILD / "BOOK.md"
-    out_base = BUILD / "export" / TITLE
+    book_md = book_md or (BUILD / "BOOK.md")
+    out_base = BUILD / "export" / (out_name or TITLE)
+    title = title or TITLE
     if not gate.exists():
         print(f"  [warn] render gate not found at {gate}; falling back to ebooklib epub()")
         epub()
         return
+    if not book_md.exists():
+        sys.exit(f"  [render] missing source: {book_md}")
     out_base.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(
-        ["bash", str(gate), str(book_md), str(out_base), TITLE, AUTHOR],
-        check=True,
-    )
+    cover = HERE / "design" / "cover.png"
+    cmd = ["bash", str(gate), str(book_md), str(out_base), title, AUTHOR]
+    if cover.is_file():
+        cmd.append(str(cover))
+    subprocess.run(cmd, check=True)
+
+
+def render_afrikaans_prose() -> None:
+    """Afrikaans prose edition → Palindrome.af.{epub,pdf}, same cover plate."""
+    src = BUILD / "BOOK.af.md"
+    if not src.exists():
+        sys.exit(f"  [af] missing Afrikaans prose source: {src}  (run tools/translate_real.sh books/palindrome --codes af)")
+    print(f"  [af] rendering Afrikaans prose from {src.name}")
+    render_via_gate(book_md=src, out_name=f"{TITLE}.af", title=TITLE_AF)
 
 
 if __name__ == "__main__":
-    merge()
-    if "--merge" not in sys.argv:
-        if "--ebooklib" in sys.argv:
-            epub()                # legacy stdlib-only EPUB (no cover/PDF)
-        else:
-            render_via_gate()     # default: full gate render (cover + colophon + PDF)
+    args = set(sys.argv[1:])
+    if args == {"--af"}:
+        render_afrikaans_prose()
+    else:
+        merge()
+        if "--merge" not in args:
+            if "--ebooklib" in args:
+                epub()
+            else:
+                render_via_gate()
+            if "--af" in args:
+                render_afrikaans_prose()

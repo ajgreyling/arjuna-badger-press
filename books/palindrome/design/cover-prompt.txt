@@ -1,0 +1,6 @@
+PALINDROME — cover plate prompt
+(ChatGPT Images / OpenRouter. Image plate ONLY; title/author overlaid later. No text in the image.)
+
+Paste-ready prompt:
+
+A cinematic, painterly book-cover illustration, vertical portrait 2:3, absolutely no text, no lettering, no logos, no watermark. One small dim room at night: four wooden chairs drawn into a loose arc around a cold black hearth, the bed pushed back against a tall window so the furniture itself is the only drama. The composition is almost a perfect left–right palindrome — the room reads the same forward and backward — except one chair by the window sits a fraction closer to the fireless grate, a blanket folded over its arm, slightly breaking the symmetry. Beyond the window, a pale night and a single streetlamp; inside, one low warm lamp throws long chair-shadows that nearly mirror each other across the hearth. No faces, no figures — only the empty arc waiting for four men. Mood: chamber-piece hush, deathbed stillness, a premise about to be said quietly; literary and severe, not sci-fi, not thriller neon, not ghost-story fog. Muted sombre palette: bone white, honey gold, burnt ochre, deep warm black. Fine-art chiaroscuro, shallow depth of field, exquisite wood and wool texture, single warm light source. Leave the top quarter and the bottom third darker and quieter for title typography.

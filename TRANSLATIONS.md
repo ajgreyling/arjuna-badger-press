@@ -112,6 +112,8 @@ Languages in *italics* are **candidates pending the author's confirmation** (mar
 | The Salt Veil · Dust Throne | Secondary-world fantasy | — *(invented tongue)* | — | es · fr | market-only |
 | The Men Who Opened the Door | US · remote-viewing | — (English-native) | — | es · fr | market-only |
 | Modern Sherlock (Reichenbach) | England | — (English-native) | — | es · fr | public-domain derivation |
+| **Palindrome** | Chamber piece · SA names (Grahamstown, Loubser ’81) | — | ✅ af *(prose)* | — | Full Afrikaans prose translation → `Palindrome.af`; Emma audiobook from `BOOK.af.md` |
+| **Palindroom Toneelstuk** | Stage adaptation of Palindrome | — | — *(standalone AF play)* | — | Separate shelf title; same cover plate as Palindrome |
 
 > Books in `books/_comingsoon/` inherit the same rules once they reach draft; add their
 > `LANGUAGES.json` at that point.
