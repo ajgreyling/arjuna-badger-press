@@ -1,0 +1,25 @@
+{
+  "book": "palindrome",
+  "title": "Palindrome",
+  "author": "Andries J. Greyling",
+  "source": "build/BOOK.md",
+  "source_language": "en",
+  "glossary_preserve": "GLOSSARY_PRESERVE.json",
+  "rationale": "Chamber-piece stand-alone (novel written before the screenplay). Afrikaans is the home register for a South African chamber piece that names Grahamstown, Loubser 1981, and the actuary's cold arithmetic. The Afrikaans edition is a full prose translation of the novella. The stage adaptation ships separately as Palindroom Toneelstuk.",
+  "targets": [
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "kind": "regional",
+      "temp": 0.55,
+      "directives": [
+        "Voice: literary contemporary Afrikaans — quiet, adult, chamber-piece register. Close to the English's clinical dread and humane stillness. NOT stiff textbook, SABC/broadcast, or slangy urban Afrikaans.",
+        "This is a FULL PROSE translation of the English novella (seven chapters + dedication + reader note). Preserve every beat of the disclosure staircase. Do NOT convert it into a play or screenplay.",
+        "Proper names stay verbatim (see GLOSSARY_PRESERVE): August Renner, Solomon Voss / Sol, Earl Cade, Danny Reiss, Grahamstown, Loubser, Jerome Bixby, The Man from Earth.",
+        "Keep the interiority in Voss's POV — free-indirect thought stays as thought, not stage direction.",
+        "Do NOT add translator's notes, footnotes, or inline glosses. Preserve all markdown structure and headings (Dedication, A Note to the Reader, One…Seven).",
+        "Title of the book in Afrikaans metadata may be rendered as Palindroom where a title line appears; chapter headings One–Seven may become Een–Sewe."
+      ]
+    }
+  ]
+}
