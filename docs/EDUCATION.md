@@ -28,8 +28,8 @@ on the shelf — [browse the whole library](index.html) — or by appetite:
   holding the mic, not pity.
 - **The great works, brought to life** — the masters retold so you arrive at the real ideas through a
   story: the *Bhagavad Gita* as *The Song of the Self*, Homer's *Iliad* as *The Wrath of Achilles*,
-  and Conan Doyle's Holmes rebuilt for now in *The Reichenbach Files* — canon-true transpositions, not
-  loose riffs.
+  the *Epic of Gilgamesh* as *The Walls of Uruk*, and Conan Doyle's Holmes rebuilt for now in
+  *The Reichenbach Files* — canon-true transpositions, not loose riffs.
 - **Science & the mind, as fiction** — *The African Gold Trilogy*: what a person is, what we owe the
   minds we make, and the cost of being the one who tells a destabilising truth.
 

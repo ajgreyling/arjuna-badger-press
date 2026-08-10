@@ -93,6 +93,8 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Song of the Self | `the-song-of-the-self` | Non-fiction | ✅ Live | EPUB/PDF |
 | The Hand That Wrote It | `voynich-manuscript` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Wrath of Achilles | `wrath-of-achilles` | Non-fiction | ✅ Live | EPUB/PDF |
+| The Walls of Uruk | `walls-of-uruk` | Non-fiction | 🟢 Drafted | Read-online · 12 tablets written, quotes verified vs Thompson 1928, 16 plates embedded |
+| The Subtracted Mountain | `the-subtracted-mountain` | Non-fiction | ✅ Live | EPUB/PDF · full send 2026-08-10 — 12 chapters, Wikimedia compendium (11 images), gate-rendered |
 | NULL HORIZON | `null-horizon` | Non-fiction | ✅ Live | EPUB/PDF |
 | Scratching the Surface | `southern-coast` | History Before Time | ✅ Live | EPUB/PDF |
 | The First Unplugged | `the-first-unplugged` | Faithful Modern | ✅ Live | EPUB |

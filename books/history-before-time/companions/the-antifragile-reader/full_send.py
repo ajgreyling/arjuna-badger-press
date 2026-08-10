@@ -320,8 +320,8 @@ def promote() -> None:
         )
     if f'"{BOOK_ID}"' not in text.split("PUBLISHED")[1][:4000]:
         text = text.replace(
-            '"the-song-of-the-self,wrath-of-achilles,"',
-            '"the-song-of-the-self,wrath-of-achilles,the-antifragile-reader,"',
+            '"the-song-of-the-self,wrath-of-achilles,walls-of-uruk,"',
+            '"the-song-of-the-self,wrath-of-achilles,walls-of-uruk,the-antifragile-reader,"',
         )
     text = text.replace(
         '"Nassim Taleb\'s Incerto, plainly told · An open draft"',

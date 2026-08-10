@@ -41,6 +41,7 @@ All photographs are **public domain / CC** via [Wikimedia Commons](https://commo
 | **The Loneliest People in the World** | [Real places & people](the-loneliest.md) |
 | **The Song of the Self** | [Real places & people](the-song-of-the-self.md) |
 | **The Wrath of Achilles** | [Real places & people](wrath-of-achilles.md) |
+| **The Walls of Uruk** | [Real places & people](walls-of-uruk.md) |
 
 ---
 
