@@ -1,0 +1,21 @@
+{
+  "id": "those-who-came-down",
+  "title": "Those Who Came Down",
+  "subtitle": "The Anunnaki, as the dreamers tell it",
+  "working_title": "Those Who Came Down",
+  "protagonist": "Enki",
+  "logline": "The founding myth of the ancient-astronaut genre, told from inside for once: a tired crossing-world comes for gold, makes a worker out of clay and regret, and watches the worker out-create its makers.",
+  "blueprint": "myth-in-twelve-tablets / single close-third POV (Enki)",
+  "market": "committed-mythos mythic fiction (Sitchin / von Däniken register, played straight) — the shadow-twin of The Princely Offspring and The Walls of Uruk",
+  "status": "drafted",
+  "graph_color": "#b8860b",
+  "canon_order": [
+    "SEED_STORY.md", "MYTHOS_RULES.md", "STYLE_GUIDE.md"
+  ],
+  "kin": {
+    "debunk_twin": "books/anunnaki-mesopotamia (The Princely Offspring — kills this reading in the clay)",
+    "sober_twin": "books/history-before-time/companions/the-walls-of-uruk (the poem, plainly told)",
+    "rodeo_cousin": "lucid.rodeo /patrick/ (ride the lore, then blink)"
+  },
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}
