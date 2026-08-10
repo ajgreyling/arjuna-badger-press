@@ -397,7 +397,13 @@ PUBLISHED = set(
         # the-unnumbered (The Unnumbered · The Piet Buys Files Book One): open draft (Movements I–II,
         # 16 of 32 chapters) with titled cover + gate-rendered EPUB/PDF. Published as a DRAFT by
         # explicit author decision — same standing as the Road Books.
-        "the-unnumbered",
+        "the-unnumbered,"
+        # those-who-came-down (Those Who Came Down · The Anunnaki, as the dreamers tell it):
+        # committed-mythos myth-in-twelve-tablets, close third on Enki — the shelf's third
+        # Mesopotamia register (Walls of Uruk tells the poem; The Princely Offspring kills the
+        # alien reading in the clay; this one plays it straight, labelled). Published 2026-08-11
+        # by explicit author decision: complete manuscript, cinematic cover, gate-rendered.
+        "those-who-came-down",
     ).split(",") if s.strip()
 )
 
@@ -1171,6 +1177,11 @@ CURATED = [
     ("verdigris", "Verdigris", "A standalone novel", "Standalones",
      "verdigris", "build/export",
      "As the warming Earth turns fungal and the spores learn to ride human beings, the last weapon that works is copper. The mycologist holding the sprayer comes to believe the bloom is not an invader — it is the planet's immune response, and the mushrooms rising in every ruin are trying to give something back before the copper kills the only thing that could."),
+
+    # ── Those Who Came Down (committed-mythos Anunnaki, twelve tablets) ─────────────────────────────
+    ("those-who-came-down", "Those Who Came Down", "The Anunnaki, as the dreamers tell it", "Standalones",
+     "those-who-came-down", "build/export",
+     "The founding myth of the ancient-astronaut shelf, told once, whole, and committed — close third on Enki, from first splashdown to the last tablet. A tired world crosses the sky every 3,600 years; its princes come down for the gold that keeps their air alive, and when the diggers refuse the dark, they make a worker out of clay and a dead god's blood — and get something no one ordered: a creature that sings in the mine, buries its dead in flowers, and writes. The shelf's other Anunnaki books kill this reading in the cuneiform; this one plays it dead straight, as the dreamers tell it."),
 
     # ── Faithful Modern additions ────────────────────────────────────────────────────────────────────
     ("the-long-silence", "The Long Silence", "Faithful Modern · after Liu Cixin", "Faithful Modern",
