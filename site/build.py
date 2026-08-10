@@ -320,7 +320,10 @@ PUBLISHED = set(
         # full-send (Full Send, Klaus): AJ's tell-all autobiography of the one-month Misogi.
         # Published full + listed by explicit author decision (2026-06-27).
         "full-send,"
-        "the-song-of-the-self,wrath-of-achilles,the-antifragile-reader,"
+        "the-song-of-the-self,wrath-of-achilles,walls-of-uruk,the-antifragile-reader,"
+        # the-subtracted-mountain (2026-08-10): non-fiction site companion on the Kailasa temple
+        # (Cave 16, Ellora) — full send: drafted, illustrated (Wikimedia compendium), gate-rendered.
+        "the-subtracted-mountain,"
         "dust-throne,apex-alphas,"
         "the-salt-veil,"
         # the-amber-winter (Winter sonder Einde · Die Vuur in die Donker): adult Afrikaans Norse saga, Book I.
@@ -951,9 +954,17 @@ CURATED = [
      "history-before-time/companions/the-wrath-of-achilles", "export",
      "The whole Iliad — its story and what each of its twenty-four books asks of a human life — told plainly enough that a reader who never cracked a Classics syllabus can finish it."),
 
+    ("walls-of-uruk", "The Walls of Uruk", "The Epic of Gilgamesh, plainly told", "Non-fiction",
+     "history-before-time/companions/the-walls-of-uruk", "build/export",
+     "The whole Epic of Gilgamesh — its story and what each of its twelve tablets asks of a human life — told plainly enough that a reader who never studied cuneiform can finish it."),
+
     ("the-antifragile-reader", "The Antifragile Reader", "Nassim Taleb's Incerto, plainly told", "Non-fiction",
      "history-before-time/companions/the-antifragile-reader", "build/export",
      "Nassim Taleb's five-book Incerto — Fooled by Randomness, The Black Swan, The Bed of Procrustes, Antifragile, and Skin in the Game — carried in one warm read, for the reader who loved one volume and can't quite hold the rest. A reverent guest-at-the-fire companion in the house voice: his ideas attributed and his prose left to him, the author's own plain glosses always marked. Independent and unaffiliated with the author."),
+
+    ("the-subtracted-mountain", "The Subtracted Mountain", "Kailasa — the temple they carved from the top down", "Non-fiction",
+     "history-before-time/companions/the-subtracted-mountain", "build/export",
+     "Twelve hundred years ago in the Deccan, a crew of artisans carved a complete freestanding temple out of a living basalt cliff from the summit downward — two hundred thousand tonnes removed, no mortar, no second draft. The checkable story — copper plates, worker-day arithmetic, the 2024–25 laser and LiDAR surveys, and the viral 'Russian scans' claim examined honestly — told so the true version out-wonders the legends."),
 
     ("modern-sherlock", "The Scarlet Thread", "The Reichenbach Files · Book One", "Faithful Modern",
      "modern-sherlock", "build/export",
@@ -1755,6 +1766,9 @@ def resolve_reader_image(src: str, book_root: Path) -> Path | None:
             candidates.append(BOOKS / slug / rest)
     else:
         candidates.append(book_root / src)
+        # BOOK.md lives in build/, so its relative paths (e.g. ../design/plates/x.jpg)
+        # resolve one level below the book root.
+        candidates.append(book_root / "build" / src)
         candidates.append(book_root / "build" / "assets" / p.name)
         if not src.startswith("design/"):
             candidates.append(book_root / "design" / "images" / p.name)
@@ -3517,7 +3531,7 @@ START_QUIZ = {
             ("An ancient-mystery adventure", {"book1-africa": 5, "relic": 4, "book2-india": 3, "book5-egypt": 3, "crop-circles": 3}),
             ("A true story of real people", {"sheltering-desert": 5, "project-stargate": 4, "jakobus-silver-thread": 3, "wrath-of-achilles": 2}),
             ("Something quiet, literary and human", {"the-loneliest": 5, "unheard-japan": 4, "jakobus-the-recitation": 3, "the-song-of-the-self": 3}),
-            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "the-song-of-the-self": 4, "henry-sugar": 4, "the-first-unplugged": 4}),
+            ("A myth or classic, retold plainly", {"wrath-of-achilles": 5, "walls-of-uruk": 5, "the-song-of-the-self": 4, "henry-sugar": 4}),
         ],
     },
     "q2": {
@@ -3531,7 +3545,8 @@ START_QUIZ = {
             ("Kazuo Ishiguro · Patricia Highsmith", {"the-loneliest": 6, "unheard-japan": 4}),
             ("Bruce Chatwin · travel & peoples", {"unheard-mongolia": 6, "australia-outback": 4, "unheard-japan": 2}),
             ("Annie Jacobsen · Jon Ronson (the strange-but-true)", {"project-stargate": 6, "crop-circles": 4}),
-            ("Homer · Madeline Miller (myth)", {"wrath-of-achilles": 6, "the-song-of-the-self": 3}),
+            ("Homer · Madeline Miller (myth)", {"wrath-of-achilles": 6, "walls-of-uruk": 4, "the-song-of-the-self": 3}),
+            ("Gilgamesh · the oldest epic", {"walls-of-uruk": 6, "wrath-of-achilles": 3, "anunnaki-mesopotamia": 2}),
             ("Robert A. Heinlein · Stranger in a Strange Land", {"the-first-unplugged": 6, "resonance": 2}),
             ("Hermann Hesse · Paulo Coelho (the inward journey)", {"the-song-of-the-self": 6, "the-loneliest": 2}),
         ],
@@ -3541,7 +3556,7 @@ START_QUIZ = {
         "options": [
             ("Propulsive — I want to turn pages", {"relic": 3, "revelation": 3, "resonance": 2, "book2-india": 2}),
             ("A slow burn I can sink into", {"the-loneliest": 3, "unheard-japan": 3, "jakobus-the-recitation": 2, "unheard-mongolia": 2}),
-            ("Teach me something real", {"book1-africa": 3, "project-stargate": 3, "wrath-of-achilles": 2, "sheltering-desert": 2}),
+            ("Teach me something real", {"book1-africa": 3, "project-stargate": 3, "wrath-of-achilles": 2, "walls-of-uruk": 2, "sheltering-desert": 2}),
         ],
     },
 }
@@ -3549,6 +3564,7 @@ START_QUIZ = {
 # Tie-break / natural entry order — the front door of the library when scores are equal.
 START_PRIORITY = [
     "resonance", "book1-africa", "relic", "revelation", "the-loneliest", "wrath-of-achilles",
+    "walls-of-uruk",
     "sheltering-desert", "unheard-japan", "project-stargate", "book5-egypt", "jakobus-silver-thread",
     "book2-india", "unheard-mongolia", "crop-circles", "the-song-of-the-self",
     "jakobus-the-recitation", "book3-india-deccan", "book4-india-tamil", "australia-outback",
@@ -3569,7 +3585,7 @@ PICKER_TILES = [
     ("desert",  "Survival country",               "sheltering-desert",    ["jakobus-silver-thread"]),
     ("road",    "Far places, living peoples",     "unheard-mongolia",     ["australia-outback"]),
     ("window",  "Quiet, intimate, human",         "the-loneliest",        ["unheard-japan"]),
-    ("myth",    "The old stories, retold",        "wrath-of-achilles",    ["the-song-of-the-self"]),
+    ("myth",    "The old stories, retold",        "wrath-of-achilles",    ["walls-of-uruk", "the-song-of-the-self"]),
 ]
 
 
@@ -4977,6 +4993,8 @@ BOOK_KEYWORDS = {
                             "Hermann Hesse readers, philosophical novel, free ebook",
     "wrath-of-achilles": "Iliad, Homer, Greek mythology, Achilles, myth retelling, classics, "
                         "Madeline Miller readers, Trojan War, free ebook",
+    "walls-of-uruk": "Epic of Gilgamesh, Gilgamesh, Mesopotamia, Enkidu, Uruk, myth retelling, "
+                     "oldest epic, cuneiform, flood tablet, classics, free ebook",
     "henry-sugar": "Roald Dahl, Henry Sugar, consciousness fiction, Joe Dispenza, Dean Radin, "
                    "Rupert Sheldrake, meditation fiction, wonder, faithful retelling, free ebook",
     "the-loneliest": "literary fiction, Kazuo Ishiguro readers, quiet literary novel, loneliness, "

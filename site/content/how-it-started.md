@@ -90,6 +90,7 @@ Arjuna Badger Press is **tenant zero** of that platform: the first real thing th
 | **"Done-done" on prose** | 🟡 | de-LLM loop to green on at least the trilogy before calling any volume finished |
 | **The Felt and the Sky (Mongolia)** | 🟡 | Draft-complete · exported · sensitivity read binding before pub-done |
 | **Wrath of Achilles (companion)** | 🟡 | On shelf · classicist spot-read still open |
+| **Walls of Uruk (companion)** | 🟡 | Scaffolded · read-online live · twelve tablet drafts pending |
 | **Göbekli / *The Belly Hill*** | 🟡 | Drafted · merge + backmatter pending |
 | **The Antifragile Reader (companion)** | 🟡 | Scaffolded · read-online live · full draft pending |
 | **ISBN block (NLSA / wide ebook)** | 🔴 | National Library site broken · no SA alternative · commercial ISBNs too expensive · **text free on press site** |

@@ -63,7 +63,7 @@
 > visible, muted and still, melancholy and human, no faces. Intimate, literary, slow-burn. Muted
 > teal + warm amber glow. Square, no text, cinematic, tender.
 
-### 9. `myth` → Myth & classics / the inward journey *(wrath-of-achilles; also the-song-of-the-self)*
+### 9. `myth` → Myth & classics / the inward journey *(wrath-of-achilles; also walls-of-uruk, the-song-of-the-self)*
 > A weathered bronze Greek helm (or a single classical column) lit by a low gold sun against a dark
 > sky, sparks or dust in the air, heroic and ancient and a little sorrowful. Myth retold, the old
 > stories. Bronze + gold + shadow. Square, no text, cinematic, mythic.
@@ -83,7 +83,7 @@ Picking a tile recommends its **primary** book first, with the cluster's others 
 | `desert` | The Sheltering Desert | The Silver Thread |
 | `road` | The Felt and the Sky | The Songlines of Stone |
 | `window` | The Loneliest People in the World | The Way That Was Invented |
-| `myth` | The Wrath of Achilles | The Song of the Self |
+| `myth` | The Wrath of Achilles | The Walls of Uruk · The Song of the Self |
 
 > Every market is covered; every published book is reachable as a first-pick or a runner-up.
 

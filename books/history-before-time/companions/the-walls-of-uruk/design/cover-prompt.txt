@@ -1,0 +1,8 @@
+### `the-walls-of-uruk` — *The Walls of Uruk*  (the Epic of Gilgamesh, plainly told)
+> A cinematic matte-painting cover, portrait. The Epic of Gilgamesh in one image: the baked-brick
+> walls of Uruk rise at dusk above the southern Mesopotamian plain; a lone king stands on the
+> rampart with his back to us, empty-handed after the failed search for immortality, looking out
+> over the city he built. Far below, the plain goes bronze and violet; a thin ribbon of river
+> catches the last light. No fantasy armour, no cartoon gods — austere, elegiac, the weight of
+> friendship lost and brick that remains. Clay-red, dusk gold, deep indigo shadow. Monumental and
+> quiet. No text. --ar 2:3 --style raw --v 6
