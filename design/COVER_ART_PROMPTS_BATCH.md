@@ -123,6 +123,19 @@
 > friendship lost and brick that remains. Clay-red, dusk gold, deep indigo shadow. Monumental and
 > quiet. No text. --ar 2:3 --style raw --v 6
 
+### `the-subtracted-mountain` — *The Subtracted Mountain*  (Kailasa — the temple they carved from the top down)
+> A cinematic matte-painting cover, portrait. The Kailasa temple at Ellora seen from the cliff top
+> at first light — the carvers' own viewpoint. Below, a vast U-shaped courtyard cut straight down
+> into dark Deccan basalt, and rising from the pit a complete freestanding monolithic temple:
+> tiered Dravidian tower, pillared halls, two tall victory pillars, life-size stone elephants
+> carrying the plinth. Warm low sun rakes the carvings from the east; thin morning haze in the
+> gorge; a few tiny human figures far below for scale; the stepped flat-topped hills of the Deccan
+> Traps fading into golden distance behind. Awe and stillness — a mountain with a temple
+> subtracted out of it, the made thing glowing against the raw rock that once contained it.
+> Painterly, textured, elegiac realism; no fantasy embellishment, no glowing magic. Burnt umber,
+> iron-brown basalt, dawn gold, deep indigo shadow. Monumental and quiet. No text.
+> --ar 2:3 --style raw --v 6
+
 ---
 
 ## The Reichenbach Files (present-day Sherlock — modern London noir, NOT Victorian)
