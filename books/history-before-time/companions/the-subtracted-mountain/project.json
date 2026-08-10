@@ -1,0 +1,20 @@
+{
+  "id": "the-subtracted-mountain",
+  "title": "The Subtracted Mountain",
+  "working_title": "The Subtracted Mountain — Kailasa, the temple they carved out of a cliff from the top down",
+  "protagonist": null,
+  "logline": "Twelve hundred years ago, in the basalt of the Deccan, a crew of artisans cut a full freestanding temple out of a living mountain from the summit downward \u2014 no mortar, no additions, no possibility of revision \u2014 and the honest, checkable story of how they did it is stranger and better than any of the legends told about it.",
+  "blueprint": "narrative non-fiction \u2014 site companion (the non-fiction sibling of HBT Book III, The Temple in the Rock; same register as the estate's site books: official story played dead straight, checkable numbers, real-vs-claimed kept binding)",
+  "market": "narrative non-fiction \u2014 ancient sites / history of engineering; the Why Files reader who wants the real thing sourced",
+  "status": "published",
+  "seq": 0,
+  "graph_color": "#5c4033",
+  "canon_order": [
+    "SITE_DOSSIER.md",
+    "OUTLINE.md",
+    "FOREWORD.md",
+    "READER_NOTE.md",
+    "ACKNOWLEDGEMENTS.md"
+  ],
+  "isbn": {"paperback": "", "hardcover": "", "ebook": ""}
+}
