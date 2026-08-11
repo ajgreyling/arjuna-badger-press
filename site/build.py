@@ -4757,6 +4757,13 @@ def render_press_hub(entries: list[dict], avail: int) -> str:
 <p class="intro" style="text-align:center">The library is the work. This page is how the house is built — mission, tools, distribution, and what comes next.</p>
 </article>""",
         render_mission_compact(),
+        """<hr class="hr"><section class="mission" id="african-worlds-study-bible"><div class="wrap">
+<div class="eyebrow">In development</div>
+<h2 style="font-size:28px;margin:.3em 0">The African Worlds Study Bible</h2>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">An Africa-centred, evidence-led study Bible proposal:
+Africa restored to the map, the text, the transmission, and the earliest church — without replacing one distortion with another.</p>
+<div class="cta"><a class="btn" href="african-worlds-study-bible.html">Read the full proposal</a></div>
+</div></section>""",
         """<hr class="hr"><section class="mission" id="places"><div class="wrap">
 <div class="eyebrow">Real ground</div>
 <h2 style="font-size:28px;margin:.3em 0">The Place Wiki</h2>
@@ -5538,6 +5545,9 @@ DOC_PAGES = [
      "Free to read, built to teach: science, history, geography, and cultural studies carried in story, the great works brought to life, and the craft opened up. Plus: Arjuna Badger Press is open for commissioned fiction & non-fiction."),
     ("THE_PRESS_THESIS.md", "the-press-thesis", "The Press Thesis",
      "Grounded fiction, guarded intention — proof to be determined by the qualitative judgment of human readers."),
+    ("AFRICAN_WORLDS_STUDY_BIBLE.md", "african-worlds-study-bible",
+     "The African Worlds Study Bible",
+     "An Africa-centred, evidence-led study Bible proposal restoring Africa to the map, the text, the transmission, and the earliest church."),
     ("FOR_AUTHORS.md", "for-authors", "The workshop — for authors & editors",
      "Ingest published work and notes, answer twenty wizard questions, click Go — return to a proofread-ready manuscript. Not just for beginners."),
     ("TECHNOLOGY.md", "technology", "The technology behind the library",
