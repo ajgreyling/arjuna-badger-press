@@ -8,6 +8,8 @@
 > Afrikaner se metode: wat self gebou is, wat deur staatsmag versnel is, en wat Afrika
 > kan oorneem sonder om die uitsluiting saam te erf.
 
+*Afrikaans · Luister & lees. [Funda ngesiZulu →](ons-sal-self-zu.html)*
+
 ---
 
 In negentien-nul-twee was ons niks.
