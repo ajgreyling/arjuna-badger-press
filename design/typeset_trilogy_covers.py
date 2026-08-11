@@ -45,6 +45,14 @@ BOOKS = {
         "ink": (252, 230, 170, 255),       # molten bright
         "accent": (240, 196, 96, 255),     # full gold
     },
+    "afrika-2100": {
+        "eyebrow": "AN AFRICAN GOLD NOVEL",
+        "numeral": "THE SPIRITUAL FOURTH",
+        "title": "AFRIKA 2100",
+        "tagline": "They were never here for the gold.",
+        "ink": (250, 232, 178, 255),       # dawn gold
+        "accent": (196, 214, 144, 255),    # veld green-gold (the resonance star)
+    },
 }
 
 
@@ -127,7 +135,8 @@ def typeset(bid: str) -> None:
     img = Image.alpha_composite(img, scrim)
 
     # Series eyebrow + numeral
-    img = draw_tracked(img, cx, int(H * 0.048), "THE AFRICAN GOLD TRILOGY",
+    img = draw_tracked(img, cx, int(H * 0.048),
+                       meta.get("eyebrow", "THE AFRICAN GOLD TRILOGY"),
                        font(ATK_REG, 36), 10, accent)
     img = draw_tracked(img, cx, int(H * 0.048) + 48, meta["numeral"],
                        font(ATK_REG, 32), 12, ink)

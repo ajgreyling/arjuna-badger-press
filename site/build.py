@@ -308,6 +308,9 @@ PUBLISHED = set(
         # an Author's Note stating exactly what is documented and what is imagined.
         "um-welt,kookie,the-long-road,"
         "resonance,revelation,relic,"
+        # afrika-2100 (2026-08-11): the spiritual fourth of the African Gold trilogy — standalone
+        # novel set in 2100, published by explicit author decision ("full send").
+        "afrika-2100,"
         "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
         "australia-outback,project-stargate,"
         "jakobus-silver-thread,jakobus-the-recitation,the-jakobus-file,"
@@ -873,6 +876,9 @@ CURATED = [
     ("relic", "RELIC", "The African Gold Trilogy · Book III", "The African Gold Trilogy",
      "relic", "build/export",
      "An engineer reads an ancient machine and must decide who may switch it on. The cinematic capstone of the trilogy."),
+    ("afrika-2100", "AFRIKA 2100", "An African Gold Novel · The Spiritual Fourth", "The African Gold Trilogy",
+     "afrika-2100", "build/export",
+     "Seventy years after RELIC: the flare burned the North dark, the Builders' heirs came back for the gold — and a young tuning engineer must decide whether handing it over is tribute, trade, or treason."),
 
     ("book1-africa", "The Calendar of Stone", "History Before Time · Book I", "History Before Time",
      "history-before-time/books/book1-africa", "build/export",
@@ -4988,6 +4994,8 @@ BOOK_KEYWORDS = {
                   "sacred texts, conspiracy fiction, free ebook, The African Gold Trilogy",
     "relic": "science fiction, ancient technology, archaeology thriller, literary sci-fi, "
              "speculative fiction, free ebook, The African Gold Trilogy",
+    "afrika-2100": "science fiction, first contact, solar flare, post-apocalyptic, South Africa, "
+                   "alien contact, literary sci-fi, free ebook, The African Gold Trilogy",
     # Reichenbach Files — Sherlock Holmes / mystery readers.
     "modern-sherlock": "Sherlock Holmes, modern Sherlock, Holmes retelling, detective fiction, "
                        "mystery novel, crime fiction, Conan Doyle, A Study in Scarlet, free mystery ebook, The Reichenbach Files",
