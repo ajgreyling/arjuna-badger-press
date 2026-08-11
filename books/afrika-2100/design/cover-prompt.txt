@@ -1,0 +1,26 @@
+AFRIKA 2100 — cover brief (draft)
+
+Series: An African Gold novel · The spiritual fourth
+Author: Andries J. Greyling
+
+Concept — "the headgear and the hull":
+A Witwatersrand mine headgear (the iconic steel A-frame winding tower) silhouetted at dusk,
+gold light breaking behind it — and above/behind it, understated and half-lost in the haze, the
+suggestion of an immense berthed hull. NOT a flying-saucer cliché: read as architecture, a
+patient shape at anchor. In the foreground, small human figures at a console line (the tuning
+guild at shift-change) to set the scale.
+
+Palette: continuity with the trilogy covers — deep golds, iron blacks, high-veld dusk blues.
+The green resonance-note star (the trilogy's "true gold" mark) may appear once, small, as the
+brand crumb.
+
+Mood: grounded, monumental, working — a port, not a battlefield. Awe from scale and stillness.
+
+Typography: series-consistent with RESONANCE / REVELATION / RELIC. Title "AFRIKA 2100" in the
+trilogy's display face; "2100" may carry the gold foil treatment.
+
+Avoid: saucers, beams of light, green aliens, ruined-city dystopia signalling, Wakanda
+pastiche. The world on this cover WORKS.
+
+Deliverables (house standard): design/cover.png (>500 KB master), cover.jpg, cover-plate.png,
+cover.json metadata — per sibling books' design/ folders.
