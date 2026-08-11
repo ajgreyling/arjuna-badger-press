@@ -2449,6 +2449,14 @@ a.support-rail:hover{border-color:var(--ochre)}
 .corrmsg{margin:8px 0 0;color:var(--gold);font-size:13px;min-height:1.1em}
 .media-frame{width:100%;min-height:68vh;border:0;background:#111}
 .audio-player{width:100%;margin:16px 0}.reader-note{color:var(--grass);font-size:13.5px}
+/* Writing Desk audio essays: cover + first-class player, without turning the essay into a book. */
+.writing-media{display:grid;grid-template-columns:minmax(180px,260px) minmax(0,1fr);gap:24px;
+  align-items:center;margin:24px 0 34px;padding:18px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.writing-cover{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:8px}
+.writing-player{width:100%;margin:10px 0 8px}
+.writing-media .wm-meta{margin:0 0 4px;color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.writing-media .wm-note{margin:0 0 12px;color:var(--bonedim);font-size:13.5px;line-height:1.5}
+@media(max-width:620px){.writing-media{grid-template-columns:1fr}.writing-cover{max-width:320px;margin:0 auto}}
 /* ── Audiobook block (book page) ── */
 .audiobook{margin-top:30px;padding:20px;border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;background:var(--card)}
 .ab-h{margin:0 0 .3em;font-size:1.15em;color:var(--gold)}
@@ -2755,7 +2763,7 @@ def plausible_events_script() -> str:
 def head(title: str, desc: str, rel: str = "", keywords: str = "",
          canonical: str = "", og_image: str = "", og_type: str = "website",
          ld_json: str = "", noindex: bool = False, *, safari: bool = False,
-         safari_page: str = "") -> str:
+         safari_page: str = "", lang: str = "en") -> str:
     kw = f'\n<meta name="keywords" content="{html.escape(keywords)}">' if keywords else ""
     if noindex:
         kw = '\n<meta name="robots" content="noindex,follow">' + kw
@@ -2775,7 +2783,7 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
     body_class = ' class="safari"' if safari else ""
     body_style = safari_body_style(safari_page) if safari else ""
     body_attrs = f'{body_class}{body_style}' if safari else body_class
-    return f"""<!doctype html><html lang="en"><head>
+    return f"""<!doctype html><html lang="{html.escape(lang)}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">{kw}{canon}{verify}
@@ -5834,6 +5842,12 @@ def render_poem(src_name: str, out_name: str, title: str, desc: str, *,
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
 WRITING_PIECES = [
+    ("ons-sal-self.md", "ons-sal-self",
+     "Ons Sal Self",
+     "’n Gesproke essay · Afrikaans",
+     "Van armblanke tot miljardêr: wat Afrikaners self gebou het, wat die staat versnel het, "
+     "en wat Afrika uit die metode kan oorneem sonder om die uitsluiting saam te erf.",
+     False),
     ("die-laaste-strooi.md", "die-laaste-strooi",
      "Die Laaste Strooi",
      "’n Kortverhaal · Boesmanland",
@@ -5865,6 +5879,22 @@ WRITING_PIECES = [
      True),  # hidden — no index card; reached only by the faint breadcrumb
 ]
 
+# The MP3 is deliberately served from the platform's preserved /audio tree rather than this press
+# repo: rendered audio is heavy and globally ignored here, while the Render serving repo tracks it.
+# Covers remain in the press source and are staged into site/public/assets/writing/ at build time.
+WRITING_MEDIA = {
+    "ons-sal-self": {
+        "cover": REPO / "site/content/writing/assets/ons-sal-self-cover.jpg",
+        "cover_name": "ons-sal-self-cover.jpg",
+        "audio_path": "/audio/writing/ons-sal-self/ons-sal-self-emma-final.mp3",
+        "language": "Afrikaans",
+        "lang": "af",
+        "duration": "15 min 45 sek",
+        "duration_iso": "PT15M45S",
+        "narration": "Vertel deur Emma Lilliana · KI-stem (nie ’n menslike verteller nie).",
+    },
+}
+
 
 def writing_rewrite_links(md: str, *, safari: bool = False) -> str:
     tech = "../technology.html" if safari else "safari/technology.html"
@@ -5879,6 +5909,23 @@ def writing_rewrite_links(md: str, *, safari: bool = False) -> str:
     return out
 
 
+def render_writing_media(slug: str, rel: str) -> str:
+    media = WRITING_MEDIA.get(slug)
+    if not media:
+        return ""
+    cover_url = f"{rel}assets/writing/{media['cover_name']}"
+    audio_url = media["audio_path"]
+    return f"""<section class="writing-media" aria-label="Luister na {html.escape(slug)}">
+<img class="writing-cover" src="{html.escape(cover_url)}" alt="Ons Sal Self — ’n blikbeker vol muntstukke op ’n verslete houttafel">
+<div><p class="wm-meta">Luister · {html.escape(media['language'])} · {html.escape(media['duration'])}</p>
+<audio class="writing-player" controls preload="metadata" src="{html.escape(audio_url)}">
+Jou blaaier ondersteun nie die oudiospeler nie. <a href="{html.escape(audio_url)}">Laai die MP3 af.</a>
+</audio>
+<p class="wm-note">{html.escape(media['narration'])}</p>
+<a class="btn ghost" href="{html.escape(audio_url)}" download>Laai die MP3 af</a></div>
+</section>"""
+
+
 def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc: str,
                          hidden: bool = False, *, rel: str = "../", safari: bool = False) -> str | None:
     src = REPO / "site" / "content" / "writing" / src_name
@@ -5886,6 +5933,8 @@ def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc
         return None
     raw = src.read_text(encoding="utf-8", errors="ignore")
     body = md_to_html(writing_rewrite_links(raw, safari=safari))
+    media = WRITING_MEDIA.get(slug)
+    media_html = render_writing_media(slug, rel)
     # "more from the desk" only lists the NON-hidden pieces (a hidden piece never advertises itself)
     others = [(s, t) for (sn, s, t, _, _, h) in WRITING_PIECES if s != slug and not h]
     more = ""
@@ -5902,15 +5951,32 @@ def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc
         tail += f' · <a class="back" href="{lib_href}">The library</a>'
     tail += "</p>"
     canon = f"{DOMAIN}/safari/writing/{slug}.html" if safari else f"{DOMAIN}/writing/{slug}.html"
-    chrome = safari_nav(rel) if safari else nav(rel)
+    chrome = safari_nav(rel, audiobook=not bool(media)) if safari else nav(rel)
     safari_key = f"writing/{slug}" if safari else ""
+    og_image = f"{DOMAIN}/assets/writing/{media['cover_name']}" if media else ""
+    ld_json = ""
+    if media:
+        ld_json = json.dumps({
+            "@context": "https://schema.org",
+            "@type": "AudioObject",
+            "name": title,
+            "description": desc,
+            "inLanguage": media["lang"],
+            "duration": media["duration_iso"],
+            "contentUrl": f"{DOMAIN}{media['audio_path']}",
+            "thumbnailUrl": og_image,
+            "author": {"@type": "Person", "name": "Andries J. Greyling"},
+            "publisher": {"@type": "Organization", "name": "Arjuna Badger Press"},
+        }, ensure_ascii=False)
     return "\n".join([
         head(f"{title} — Arjuna Badger Press", desc, rel=rel, safari=safari,
-             canonical=canon, noindex=hidden, safari_page=safari_key),
+             canonical=canon, og_image=og_image, og_type="article", ld_json=ld_json,
+             noindex=hidden, safari_page=safari_key, lang=media["lang"] if media else "en"),
         chrome,
         '<article class="reader letter">',
         crest_img(rel, safari=safari),
         f'<p class="eyebrow" style="text-align:center">The Writing Desk · {html.escape(byline)}</p>',
+        media_html,
         body,
         more,
         tail,
@@ -5924,12 +5990,13 @@ def render_writing_index(*, rel: str = "../", safari: bool = False) -> str:
     for _, slug, title, byline, blurb, hidden in WRITING_PIECES:
         if hidden:
             continue  # the hidden piece gets no card
+        action = "Luister &amp; lees &rarr;" if slug in WRITING_MEDIA else "Read &rarr;"
         cards.append(
             f'<a class="wcard" href="{html.escape(slug)}.html">'
             f'<h3>{html.escape(title)}</h3>'
             f'<p class="wby">{html.escape(byline)}</p>'
             f'<p class="wbl">{html.escape(blurb)}</p>'
-            f'<span class="wread">Read &rarr;</span></a>'
+            f'<span class="wread">{action}</span></a>'
         )
     intro = (
         "Short prose from the house: essays, parables, the occasional story that is not a book. "
@@ -8556,6 +8623,13 @@ def main() -> None:
         src = BRAND / "safari" / name
         if src.is_file():
             shutil.copy2(src, safari_assets / name)
+    writing_assets = OUT / "assets" / "writing"
+    writing_assets.mkdir(parents=True, exist_ok=True)
+    for media in WRITING_MEDIA.values():
+        src = media["cover"]
+        if not src.is_file():
+            raise SystemExit(f"build aborted: missing Writing Desk cover: {src}")
+        shutil.copy2(src, writing_assets / media["cover_name"])
     (OUT / "manifest.webmanifest").write_text(render_manifest(), encoding="utf-8")
     (OUT / "sw.js").write_text(render_service_worker(), encoding="utf-8")
 
