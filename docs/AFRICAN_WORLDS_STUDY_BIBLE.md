@@ -2,9 +2,10 @@
 
 ### *Africa in Scripture and the Early Church*
 
-> **Status:** Development proposal — August 2026  
+> **Status:** Development proposal — August 2026 · **Digital sampler live**  
 > **Working title:** *The African Worlds Study Bible*  
-> **Campaign line:** **See the biblical world whole.**
+> **Campaign line:** **See the biblical world whole.**  
+> **Read the edition:** [study-bible/](https://arjunabadger.press/study-bible/) — spreads, atlas, essays, claims audit.
 
 ---
 

@@ -2851,6 +2851,7 @@ def nav_drawer_links(rel: str = "") -> str:
         f'<a href="{rel}start.html">Where to start</a>'
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}learn.html">Learn</a>'
+        f'<a class="navhot" href="{rel}study-bible/index.html">Study Bible</a>'
         f'<p class="navgroup">Write &amp; publish</p>'
         f'<a class="navhot" href="/studio">Studio (the writers’ tool)</a>'
         f'<a href="{rel}craft/index.html">Craft library</a>'
@@ -4691,6 +4692,7 @@ def render_index_explore() -> str:
     """Compact doors off the shelf — everything that used to carnival the homepage."""
     tiles = [
         ("press.html", "About the press", "Mission, studio, distribution, audiobooks, and the roadmap."),
+        ("study-bible/index.html", "Study Bible", "African Worlds digital edition — spreads, atlas, essays, claims audit."),
         ("wiki/index.html", "Place Wiki", "Real geography behind the books — photos, attribution, awe first."),
         ("craft/index.html", "Craft library", "Structure, character, sentence craft, and the editorial ladder — free."),
         ("for-authors.html", "Workshop", "For authors and editors building the next manuscript."),
@@ -4758,11 +4760,12 @@ def render_press_hub(entries: list[dict], avail: int) -> str:
 </article>""",
         render_mission_compact(),
         """<hr class="hr"><section class="mission" id="african-worlds-study-bible"><div class="wrap">
-<div class="eyebrow">In development</div>
+<div class="eyebrow">In development · digital edition live</div>
 <h2 style="font-size:28px;margin:.3em 0">The African Worlds Study Bible</h2>
-<p style="max-width:70ch;color:var(--bonedim);font-size:17px">An Africa-centred, evidence-led study Bible proposal:
-Africa restored to the map, the text, the transmission, and the earliest church — without replacing one distortion with another.</p>
-<div class="cta"><a class="btn" href="african-worlds-study-bible.html">Read the full proposal</a></div>
+<p style="max-width:70ch;color:var(--bonedim);font-size:17px">An Africa-centred, evidence-led study Bible:
+sample spreads, atlas, essays, and a claims audit — restoring Africa to the map without replacing one distortion with another.</p>
+<div class="cta"><a class="btn" href="study-bible/index.html">Open the digital edition</a>
+<a class="btn ghost" href="african-worlds-study-bible.html">Publisher proposal</a></div>
 </div></section>""",
         """<hr class="hr"><section class="mission" id="places"><div class="wrap">
 <div class="eyebrow">Real ground</div>
@@ -5574,6 +5577,283 @@ DOC_PAGES = [
     ("TECH_PEOPLES_LANGUAGE.md", "tech-peoples-language", "People's Language — corpus-first translation",
      "Human corrections (weight 100) outrank any model; a 13,703-entry SA urban corpus; a register dial from formal to street. The foundation Buabantu is built on."),
 ]
+
+
+# ── The African Worlds Study Bible — digital edition ────────────────────────────────────────────
+# Source tree: docs/study-bible/{how-to-read,atlas,claims-audit}.md + spreads/ + essays/
+# Emitted under /study-bible/ as a navigable sampler and growing digital edition.
+STUDY_BIBLE_DIR = REPO / "docs" / "study-bible"
+
+STUDY_BIBLE_CORE = [
+    ("how-to-read.md", "how-to-read", "How to read this edition",
+     "Editorial covenant, evidence labels, and the three-horizon method."),
+    ("atlas.md", "atlas", "Atlas — Africa in the biblical worlds",
+     "Egypt, Cush, Libya, Cyrene, Alexandria, and the Red Sea world named with care."),
+    ("claims-audit.md", "claims-audit", "Claims audit",
+     "Popular historical and genealogical claims tested against text, history, and evidence."),
+]
+
+STUDY_BIBLE_SPREADS = [
+    ("spreads/01-genesis-1.md", "01-genesis-1", "Genesis 1 — The first table",
+     "Creation opens with plant food for humans and living creatures."),
+    ("spreads/02-genesis-9.md", "02-genesis-9", "Genesis 9 — Permission with a boundary",
+     "After the flood, animal food is permitted and immediately restricted."),
+    ("spreads/03-genesis-10.md", "03-genesis-10", "Genesis 10 — A family map, not a race chart",
+     "The Table of Nations as ethnogeography, not modern racial taxonomy."),
+    ("spreads/04-exodus-egypt.md", "04-exodus-egypt", "Exodus — Egypt in Africa",
+     "Miṣrayim as African civilisation, empire, refuge, and oppressor."),
+    ("spreads/05-jeremiah-ebed-melech.md", "05-jeremiah-ebed-melech",
+     "Jeremiah 38–39 — Ebed-melech the Cushite",
+     "A Middle Nile courtier trusts God when powerful insiders fail."),
+    ("spreads/06-matthew-egypt.md", "06-matthew-egypt", "Matthew 2 — Refuge in Egypt",
+     "The Holy Family flees into Africa; Egypt is sanctuary again."),
+    ("spreads/07-acts-pentecost.md", "07-acts-pentecost", "Acts 2 — Egypt, Libya, Cyrene",
+     "African places named among the peoples at Pentecost."),
+    ("spreads/08-acts-kandake.md", "08-acts-kandake", "Acts 8 — The official of the Kandake",
+     "An African royal official at the widening frontier of the gospel."),
+    ("spreads/09-acts-cyrene.md", "09-acts-cyrene", "Acts 13 — Cyrene in the Antioch church",
+     "North African believers among the teachers who send Paul and Barnabas."),
+    ("spreads/10-claims-and-map.md", "10-claims-and-map", "Synthesis — Map, claims, next steps",
+     "How the sampler, atlas, and claims audit work together."),
+]
+
+STUDY_BIBLE_ESSAYS = [
+    ("essays/africa-in-biblical-worlds.md", "africa-in-biblical-worlds",
+     "Africa in the biblical worlds",
+     "Names, maps, routes, and changing borders."),
+    ("essays/egypt-in-scripture.md", "egypt-in-scripture",
+     "Egypt in Scripture",
+     "Refuge, oppression, wisdom, empire, and diaspora."),
+    ("essays/cush-nubia-ethiopia.md", "cush-nubia-ethiopia",
+     "Cush, Nubia, and biblical Ethiopia",
+     "Middle Nile power and the problem of the name Ethiopia."),
+    ("essays/early-african-christianity.md", "early-african-christianity",
+     "Early African Christianity",
+     "Alexandria, Carthage, Hippo, Aksum, and Christian Nubia."),
+    ("essays/food-creation-concession.md", "food-creation-concession",
+     "Food in Scripture: creation and concession",
+     "Plant provision, later permission, and the limits of modern diet labels."),
+    ("essays/pigmentation-climate-diet.md", "pigmentation-climate-diet",
+     "Pigmentation, climate, and diet",
+     "UVB, vitamin D, omnivory — without racial mythology."),
+    ("essays/hebrew-israelite-movements.md", "hebrew-israelite-movements",
+     "Hebrew Israelite movements",
+     "History, self-understanding, genealogy claims, and antisemitism safeguards."),
+]
+
+
+def study_bible_rewrite_links(md: str, *, depth: str = "root") -> str:
+    """Rewrite relative .md study-bible links to .html for the emitted tree."""
+    # depth: "root" for /study-bible/*.html ; "child" for spreads/ and essays/
+    prefix = "../" if depth == "child" else ""
+    out = md
+    reps = {
+        "how-to-read.md": f"{prefix}how-to-read.html",
+        "atlas.md": f"{prefix}atlas.html",
+        "claims-audit.md": f"{prefix}claims-audit.html",
+        "african-worlds-study-bible.html": f"{prefix}../african-worlds-study-bible.html",
+        "../AFRICAN_WORLDS_STUDY_BIBLE.md": f"{prefix}../african-worlds-study-bible.html",
+        "AFRICAN_WORLDS_STUDY_BIBLE.md": f"{prefix}../african-worlds-study-bible.html",
+    }
+    for old, new in reps.items():
+        out = out.replace(f"]({old})", f"]({new})")
+    # spreads/foo.md and essays/foo.md
+    out = re.sub(
+        r"\]\(spreads/([a-z0-9-]+)\.md\)",
+        rf"]({prefix}spreads/\1.html)",
+        out,
+    )
+    out = re.sub(
+        r"\]\(essays/([a-z0-9-]+)\.md\)",
+        rf"]({prefix}essays/\1.html)",
+        out,
+    )
+    # sibling links inside spreads/ or essays/
+    if depth == "child":
+        out = re.sub(r"\]\(([a-z0-9-]+)\.md\)", r"](\1.html)", out)
+        out = out.replace("](../atlas.md)", "](../atlas.html)")
+        out = out.replace("](../claims-audit.md)", "](../claims-audit.html)")
+        out = out.replace("](../how-to-read.md)", "](../how-to-read.html)")
+        out = out.replace("](../index.html)", "](../index.html)")
+        out = out.replace(
+            "](../../AFRICAN_WORLDS_STUDY_BIBLE.md)",
+            "](../../african-worlds-study-bible.html)",
+        )
+        out = re.sub(
+            r"\]\(\.\./essays/([a-z0-9-]+)\.md\)",
+            r"](../essays/\1.html)",
+            out,
+        )
+        out = re.sub(
+            r"\]\(\.\./spreads/([a-z0-9-]+)\.md\)",
+            r"](../spreads/\1.html)",
+            out,
+        )
+    return out
+
+
+def _study_bible_nav_html(*, current: str = "", rel: str = "../") -> str:
+    parts = [
+        f'<a href="{rel}index.html">Edition hub</a>',
+        f'<a href="{rel}how-to-read.html">How to read</a>',
+        f'<a href="{rel}atlas.html">Atlas</a>',
+        f'<a href="{rel}claims-audit.html">Claims audit</a>',
+        f'<a href="{rel}spreads/01-genesis-1.html">Sample spreads</a>',
+        f'<a href="{rel}essays/africa-in-biblical-worlds.html">Essays</a>',
+        f'<a href="{rel}../african-worlds-study-bible.html">Publisher proposal</a>',
+    ]
+    return (
+        '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
+        + " · ".join(parts)
+        + "</p>"
+    )
+
+
+def render_study_bible_page(
+    src_rel: str,
+    slug: str,
+    title: str,
+    desc: str,
+    *,
+    section: str = "core",
+) -> str | None:
+    src = STUDY_BIBLE_DIR / src_rel
+    if not src.is_file():
+        return None
+    child = section in ("spreads", "essays")
+    rel = "../../" if child else "../"
+    depth = "child" if child else "root"
+    body = md_to_html(study_bible_rewrite_links(
+        src.read_text(encoding="utf-8", errors="ignore"), depth=depth))
+    canon_path = (
+        f"study-bible/{section}/{slug}.html" if child else f"study-bible/{slug}.html"
+    )
+    eyebrow = {
+        "core": "African Worlds Study Bible",
+        "spreads": "Sample spread",
+        "essays": "Essay",
+    }.get(section, "African Worlds Study Bible")
+    gh = f"{GITHUB_REPO}/docs/study-bible/{src_rel}"
+    return "\n".join([
+        head(title, desc, rel=rel, canonical=f"{DOMAIN}/{canon_path}"),
+        nav(rel=rel),
+        '<article class="reader letter">',
+        f'<p class="eyebrow" style="text-align:center">{eyebrow}</p>',
+        body,
+        _study_bible_nav_html(current=slug, rel="../" if child else ""),
+        f'<p style="margin-top:12px;font-size:14px;color:var(--grass)">'
+        f'<a href="{gh}">View source on GitHub</a> · '
+        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>',
+        f'<p style="text-align:center;margin-top:24px">'
+        f'<a class="back" href="{rel}index.html#library">&larr; Back to the library</a></p>',
+        '</article>',
+        footer(rel=rel),
+    ])
+
+
+def render_study_bible_hub() -> str:
+    def cards(items: list[tuple], section: str) -> str:
+        out = []
+        for src_rel, slug, title, desc in items:
+            href = (
+                f"{section}/{slug}.html" if section in ("spreads", "essays")
+                else f"{slug}.html"
+            )
+            # Skip missing sources so the hub never links to 404s mid-build.
+            if not (STUDY_BIBLE_DIR / src_rel).is_file():
+                continue
+            out.append(
+                f'<a class="explore-card" href="{html.escape(href)}">'
+                f"<h3>{html.escape(title)}</h3>"
+                f"<p>{html.escape(desc)}</p></a>"
+            )
+        return "".join(out)
+
+    core = cards(STUDY_BIBLE_CORE, "core")
+    spreads = cards(STUDY_BIBLE_SPREADS, "spreads")
+    essays = cards(STUDY_BIBLE_ESSAYS, "essays")
+    return "\n".join([
+        head(
+            "The African Worlds Study Bible — digital edition",
+            "Africa-centred, evidence-led sample spreads, atlas, essays, and claims audit. "
+            "See the biblical world whole.",
+            rel="../",
+            canonical=f"{DOMAIN}/study-bible/",
+        ),
+        nav(rel="../"),
+        """<article class="reader letter">
+<p class="eyebrow" style="text-align:center">Digital edition · sampler</p>
+<h1 style="text-align:center">The African Worlds Study Bible</h1>
+<p class="intro" style="text-align:center"><em>Africa in Scripture and the Early Church</em></p>
+<p style="text-align:center;max-width:62ch;margin:0 auto 8px;color:var(--bonedim);font-size:17px">
+Restore without annexing. Africa is indispensable to the biblical world — not the whole of it.
+Every contested note carries a source label and a confidence label.
+</p>
+<p style="text-align:center;margin-top:18px">
+<a class="btn" href="how-to-read.html">Start with how to read</a>
+<a class="btn ghost" href="spreads/01-genesis-1.html">Open the first spread</a>
+<a class="btn ghost" href="../african-worlds-study-bible.html">Publisher proposal</a>
+</p>
+</article>""",
+        f"""<section class="mission" id="guides"><div class="wrap">
+<div class="eyebrow">Guides</div>
+<h2 style="font-size:28px;margin:.3em 0">How this edition thinks</h2>
+<div class="explore-grid">{core}</div>
+</div></section>""",
+        f"""<hr class="hr"><section class="mission" id="spreads"><div class="wrap">
+<div class="eyebrow">Ten sample spreads</div>
+<h2 style="font-size:28px;margin:.3em 0">Read the biblical world whole</h2>
+<p style="max-width:62ch;color:var(--bonedim);font-size:17px;margin:0 0 18px">
+Passage context, Africa-in-the-text notes, evidence labels, and honest uncertainty —
+the working method of the full study Bible.
+</p>
+<div class="explore-grid">{spreads}</div>
+</div></section>""",
+        f"""<hr class="hr"><section class="mission" id="essays"><div class="wrap">
+<div class="eyebrow">Essays</div>
+<h2 style="font-size:28px;margin:.3em 0">Depth behind the notes</h2>
+<div class="explore-grid">{essays}</div>
+</div></section>""",
+        f"""<hr class="hr"><section class="mission"><div class="wrap">
+<p style="max-width:62ch;color:var(--bonedim);font-size:17px">
+This is a living digital sampler, not a completed print edition. Translation rights have not been
+licensed. Write to <a href="mailto:{PUBLIC_EMAIL}">{PUBLIC_EMAIL}</a> if you want to build it with us.
+</p>
+<p style="margin-top:18px"><a class="btn" href="../press.html#african-worlds-study-bible">About the press</a></p>
+</div></section>""",
+        footer(rel="../"),
+    ])
+
+
+def build_study_bible(out: Path) -> int:
+    """Emit /study-bible/ hub + core + spreads + essays. Returns page count."""
+    if not STUDY_BIBLE_DIR.is_dir():
+        return 0
+    root = out / "study-bible"
+    spreads_out = root / "spreads"
+    essays_out = root / "essays"
+    root.mkdir(parents=True, exist_ok=True)
+    spreads_out.mkdir(exist_ok=True)
+    essays_out.mkdir(exist_ok=True)
+    n = 0
+    (root / "index.html").write_text(render_study_bible_hub(), encoding="utf-8")
+    n += 1
+    for src_rel, slug, title, desc in STUDY_BIBLE_CORE:
+        page = render_study_bible_page(src_rel, slug, title, desc, section="core")
+        if page:
+            (root / f"{slug}.html").write_text(page, encoding="utf-8")
+            n += 1
+    for src_rel, slug, title, desc in STUDY_BIBLE_SPREADS:
+        page = render_study_bible_page(src_rel, slug, title, desc, section="spreads")
+        if page:
+            (spreads_out / f"{slug}.html").write_text(page, encoding="utf-8")
+            n += 1
+    for src_rel, slug, title, desc in STUDY_BIBLE_ESSAYS:
+        page = render_study_bible_page(src_rel, slug, title, desc, section="essays")
+        if page:
+            (essays_out / f"{slug}.html").write_text(page, encoding="utf-8")
+            n += 1
+    return n
 
 
 GITHUB_REPO = "https://github.com/ajgreyling/arjuna-badger-press/blob/master"
@@ -8895,6 +9175,7 @@ def main() -> None:
     # writing_n counted in Safari build above
 
     wiki_n = build_wiki(OUT)
+    study_bible_n = build_study_bible(OUT)
 
     # ── SEO: sitemap.xml (every emitted page) + robots.txt ──────────────────────────────────────
     sm_n = write_sitemap_and_robots(OUT)
@@ -8906,6 +9187,7 @@ def main() -> None:
     readers = sum(1 for e in entries if e["available"] and (e["book_md"] or e.get("reader_md")))
     print(f"built {len(entries)} books ({avail} available, {readers} read-online), "
           f"{craft_n} craft pages, {term_n} glossary terms, {wiki_n} wiki pages, "
+          f"{study_bible_n} study-bible pages, "
           f"{sm_n} urls in sitemap, {feed_n} items in feed -> {OUT}")
 
     # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
