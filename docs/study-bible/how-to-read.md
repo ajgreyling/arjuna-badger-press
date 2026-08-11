@@ -19,11 +19,10 @@ We restore what evidence can support. We refuse annexation.
 - We affirm the Jewish identity of Jesus of Nazareth and of the earliest Jesus movement in Roman Judea.
 - We do not call living Jewish communities impostors, “fake Jews,” or racial substitutes.
 - We do not replace a Eurocentric picture with a mirror-image ethnocentrism.
-- We do not collapse Egypt, Kush, Libya, Aksum, Carthage, and modern African churches into one timeless “African culture.”
 
 The Bible arose chiefly through Jewish history in the Levant, inside an **Afro-Asiatic world** joined by the Nile, the Red Sea, deserts, ports, empires, trade, refuge, war, and migration. Central does not mean exclusive. Recovery does not require ownership of every name on the page.
 
-When a note concerns Israel, Judaism, ancestry, or antisemitism, this edition privileges careful Jewish review and plain rejection of conspiracy. When a note concerns African geography or African Christianity, it refuses the habit of treating North Africa as somehow “not Africa.” Both commitments stand together. Anyone who demands hatred of Jews as the price of loving Africa has left this covenant. Anyone who demands the bleaching of Cush as the price of honouring Judea has also left it.
+When a note concerns Israel, Judaism, ancestry, or antisemitism, this edition privileges careful Jewish review and plain rejection of conspiracy. When a note concerns African geography or African Christianity, it refuses the habit of treating North Africa as somehow “not Africa.” Both commitments stand together.
 
 ---
 
@@ -37,7 +36,7 @@ The apparatus aims to:
 2. Trace African manuscript, translation, monastic, and early-church histories as part of biblical transmission.
 3. Host continental and diaspora interpretation without pretending all African readers speak with one voice.
 4. Mark sources and confidence so readers can tell text from archaeology, history from tradition, and testimony from proof.
-5. Confront abusive receptions — the “curse of Ham,” colonial mission myths, antisemitic genealogies — under Abuse and Repair rather than in embarrassed silence.
+5. Confront abusive receptions under Abuse and Repair rather than in embarrassed silence.
 
 It continues a lineage that includes Cain Hope Felder’s *Original African Heritage Study Bible* and the multi-contributor *Africa Study Bible*, while adding visible sourcing, a public claims audit, and explicit treatment of disputed racial and genealogical claims. See also [atlas.html](atlas.html), [claims-audit.html](claims-audit.html), and [essays/africa-in-biblical-worlds.html](essays/africa-in-biblical-worlds.html).
 
@@ -98,7 +97,7 @@ What can geography, languages, archaeology, inscriptions, and critical history e
 
 ### Horizon 3 — Reception
 
-How have Jewish, Christian, African, and diaspora readers received, contested, sung, or weaponised this text? Reception can be life-giving or abusive. Ethiopianism singing Psalm 68, enslaved communities hearing Exodus, colonial preachers inventing Hamite slavery, antisemitic street charts — all belong here as **history of interpretation**, not as Horizon 1 facts unless the text itself says so.
+How have readers received, contested, sung, or weaponised this text? Reception can be life-giving or abusive. Mark it as history of interpretation, not as Horizon 1 fact, unless the text itself says so.
 
 Worked example: Acts 8. Horizon 1 — an *Aithiops* official of the Kandake is baptised after reading Isaiah. Horizon 2 — Kandake is Meroitic; the setting is Kush/Nubia in present-day Sudan. Horizon 3 — later tradition links him to Ethiopian Christianity; that tradition is real as tradition, not as Acts’ own claim. See [spreads/08-acts-kandake.html](spreads/08-acts-kandake.html).
 
@@ -112,13 +111,11 @@ Worked example: Acts 8. Horizon 1 — an *Aithiops* official of the Kandake is b
 4. **Use the claims audit** when a social-media genealogy outruns the evidence: [claims-audit.html](claims-audit.html).
 5. **Treat Living Voices as testimony.** A recorded interview documents self-understanding (**REC**). It is not a dig report (**MAT**).
 6. **Hold Jewish and African presence together.** Restoring Africa does not require erasing Judea, the Levant, or Jewish continuity.
-7. **Move from sampler to essays.** Short spreads train habits; essays widen the field without abandoning labels.
-
 ---
 
 ## A word on tone and humility
 
-Popular European art often lightened, marginalised, or removed darker African and Arabian peoples. Correcting that habit is justice, not fashion. The remedy is evidence, not counter-mythology. Where we are wrong, we will say so. Where the evidence is thin, we will not shout louder. Confidence words — Established, Probable, Disputed, Unsupported — are a mercy for communities harmed by charismatic certainty that later collapses into shame or violence.
+Popular European art often lightened or removed darker African and Arabian peoples. Correcting that habit is justice. The remedy is evidence, not counter-mythology. Confidence labels are a mercy against charismatic certainty that later collapses into shame.
 
 **See the biblical world whole — and keep the labels honest.**
 

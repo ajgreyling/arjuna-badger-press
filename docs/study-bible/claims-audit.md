@@ -4,7 +4,6 @@
 
 This page is not a catalogue of enemies. It is a public ledger. Each claim is stated in the form people actually use; then weighed with the edition’s labels. Method: [how-to-read.html](how-to-read.html). Places: [atlas.html](atlas.html). Synthesis spread: [spreads/10-claims-and-map.html](spreads/10-claims-and-map.html).
 
-The audit’s pastoral aim is simple: restore Africa without annexing Israel; affirm Jewish continuity without bleaching Cush; honour testimony without confusing testimony with excavation.
 
 ---
 
@@ -43,7 +42,7 @@ Ancient Israel emerged chiefly in a **Levantine and Canaanite** environment, in 
 
 Jesus of Nazareth and the earliest Jesus movement were **Jewish**. Matthew’s genealogy, Luke’s temple piety, Paul’s Pharisee identity, and Acts’ synagogue beginnings are not optional decorations. Diaspora Jewish communities in Egypt and Cyrene were real; so is Jewish continuity beyond Africa across centuries of dispersion, scholarship, and practice.
 
-Claims that living Jews are racial fakes are antisemitic. They do not become true when offered as Afrocentric correction. Black Jewish communities and African Jews must also not be erased by loudest online voices; peoplehood is not a single phenotype.
+Claims that living Jews are racial fakes are antisemitic. They do not become true when offered as Afrocentric correction. Peoplehood is not a single phenotype.
 
 ### Labels
 
@@ -179,8 +178,6 @@ Some ancient Europeans retained darker pigmentation for millennia. Some Arctic p
 
 ## How to use this audit
 
-If a claim comforts you, test it harder. If a claim wounds a people, test the wound’s theology before baptising the wound as exegesis. Prefer labels over slogans. Carry two sentences into teaching week: **Africa is indispensable.** **Indispensable is not exclusive.**
-
-When viral charts appear in church WhatsApp groups, open this page beside the atlas. When a neighbour’s testimony of Israelite identity is sincere, honour the person (**REC**) without surrendering ancient history (**HIST/MAT**). See [essays/hebrew-israelite-movements.html](essays/hebrew-israelite-movements.html).
+If a claim comforts you, test it harder. Prefer labels over slogans. **Africa is indispensable; indispensable is not exclusive.** Honour testimony (**REC**) without surrendering history (**HIST/MAT**). See [essays/hebrew-israelite-movements.html](essays/hebrew-israelite-movements.html).
 
 **See also:** [spreads/10-claims-and-map.html](spreads/10-claims-and-map.html) · [how-to-read.html](how-to-read.html)

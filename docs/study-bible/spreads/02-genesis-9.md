@@ -1,42 +1,54 @@
-# Genesis 9:1–4 — Permission with a boundary
+# Sample Spread 02 — Genesis 9:1–4
 
-### Sample spread 2 of 10
+## Permission with a boundary
 
-**Read with:** [Genesis 1](01-genesis-1.md) · [Food essay](../essays/food-creation-concession.md)
+*The African Worlds Study Bible* · Sampler
 
 ---
 
-## Passage (context)
+## Passage context
 
-After the flood, God repeats “be fruitful and multiply,” then announces that animal fear and dread of humans will rest on living creatures. “Every moving thing that lives shall be food for you; and just as I gave you the green plants, I give you everything.” Immediately: flesh with its lifeblood must not be eaten.
+After the flood, God blesses Noah and his sons with language that echoes Genesis 1 — be fruitful and multiply — then alters the creaturely relationship:
+
+> “And the fear of you and the dread of you shall be upon every beast of the earth… Every moving thing that liveth shall be meat for you; even as the green herb have I given you all things. But flesh with the life thereof, which is the blood thereof, shall ye not eat.” (Genesis 9:2–4, KJV-style)
+
+Animal food is now permitted “even as” the green herb had been given. Permission arrives with a boundary: blood, the life, is not for eating. The narrative has already shown violence filling the earth (Genesis 6:11) and a world remade through catastrophe. Genesis 9 does not pretend the first table never existed; it marks a changed condition and refuses to make life cheap.
 
 ---
 
 ## Notes
 
-### Sequence matters
+**Literary hinge.** Genesis 9:3 explicitly recalls the prior gift of plants. Readers who deny any plant-food baseline in Genesis 1 must still explain why this verse uses that comparison. Readers who deny any later permission must erase 9:3. This edition holds both sentences and refuses slogan wars that delete half the page. See [spreads/01-genesis-1.html](01-genesis-1.html).
 
-Genesis does not pretend Genesis 1 never happened. The “just as” compares the new permission to the earlier plant gift. Many readers hear concession or adaptation in a violent world; others hear expanded provision. Either way, the blood boundary refuses total consumption.
+**Concession, adaptation, or expanded provision?** Jewish and Christian interpreters differ. Some hear tragic concession in a violent world; some hear widened hospitality of gift; some stress law’s later ordering of meat through clean/unclean distinctions and sacrifice. The Hebrew here does not use a technical word meaning “concession.” As theology, “concession” is **probable** for many canonical readers who track the movement from peaceable table to fear-marked permission; as grammar alone, it is not forced. Label the interpretation honestly.
 
-### Africa in the Text
+**Fear and dread.** Verse 2 matters. The human–animal relationship is now marked by terror. That is not celebrated as progress. An Africa-centred ecological reading can hear judgment on violence without romanticising a return that the Torah itself mediates through law rather than time travel.
 
-This is not an Africa-specific pericope. It belongs here because diet myths are often weaponised in racial origin stories (“cold climate made whites carnivores”). Scripture’s own sequence is creation plant table → later permission — not Ice Age anthropology.
+**Blood boundary.** The ban on blood becomes a through-line into Leviticus and into Acts 15’s apostolic letter to Gentile believers. Eating is never only private preference in biblical law; it touches life’s sanctity and communal identity. Many African Christian communities already navigate this through fasting traditions, slaughter practice, and debate over industrial meat — without needing European diet wars to notice the text.
 
-### Africana readings
+**Against two slogans.** (1) “The Bible is vegan only” — **Unsupported** as a whole-canon command ([claims-audit.html](../claims-audit.html)). (2) “Genesis never imagined a plant-fed world” — contradicted by **TXT** in Genesis 1 and by 9:3’s memory of it.
 
-Communities may practise fasting, vegetarian seasons, or meat hospitality without forcing Genesis into a single modern diet brand. The text supports moral seriousness about blood and life; it does not erase later sacrificial and festival meals in Israel’s law.
+**Human family after the flood.** Genesis 9 leads into the blessing, the Canaan curse narrative, and Genesis 10’s family map. Do not drag Atlantic race mythology into Noah’s vineyard. The curse falls on Canaan in the text, not on African peoples as a colour caste. See [spreads/03-genesis-10.html](03-genesis-10.html) and [claims-audit.html](../claims-audit.html).
+
+**Teaching move.** Ask: if permission is real, what does the blood line still forbid us to become? If the first table is real, what greed does permission not baptise?
 
 ---
 
-## Evidence
+## Evidence labels
 
 | Claim | Labels |
 |---|---|
-| Animal food permitted after the flood | TXT — Established |
-| Blood prohibition attached | TXT — Established |
-| “Concession” as theological reading | Probable; not grammatically forced |
-| Genesis 1 never presented plant food as original arrangement | Unsupported |
+| Post-flood permission to eat animal flesh | **TXT — Established** |
+| Explicit comparison to the prior gift of green plants | **TXT — Established** |
+| Prohibition of flesh with its blood | **TXT — Established** |
+| Fear/dread upon animals as part of the changed scene | **TXT — Established** |
+| “Concession” as the best theological description | **HIST/TRAD interpretive — Probable**; not grammatically explicit — note as such |
+| Permission cancels any creational plant-food ideal | **Unsupported** as necessary reading |
 
 ---
 
-Previous: [Genesis 1](01-genesis-1.md) · Next: [Genesis 10](03-genesis-10.md)
+## Africana reading note
+
+Communities that know both famine and feast can hear Genesis 9 without romanticism. Permission is not a celebration of endless extraction; the blood line still says life is not cheap. In contexts where colonial economies stripped herds, fisheries, and fields, the text’s boundary can fund reverence. In contexts where prosperity gospel blesses excess while neighbours hunger, the same boundary can fund restraint. Pastoral households and urban street markets both belong at this desk. Pair this spread with prophetic peace visions that dream of ended harm — not as naive biology, but as moral horizon — and with [essays/food-creation-concession.html](../essays/food-creation-concession.html) for the longer arc through Torah and table fellowship.
+
+**See also:** [spreads/01-genesis-1.html](01-genesis-1.html) · [essays/food-creation-concession.html](../essays/food-creation-concession.html) · [how-to-read.html](../how-to-read.html) · [claims-audit.html](../claims-audit.html)

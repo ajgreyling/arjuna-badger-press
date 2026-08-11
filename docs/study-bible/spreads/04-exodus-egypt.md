@@ -1,46 +1,54 @@
-# Exodus — Egypt in Africa
+# Sample Spread 04 — Exodus and Miṣrayim
 
-### Sample spread 4 of 10
+## Egypt as African civilisation and empire
 
-**Read with:** [Atlas: Egypt](../atlas.md) · [Egypt essay](../essays/egypt-in-scripture.md)
+*The African Worlds Study Bible* · Sampler
 
 ---
 
-## Passage (context)
+## Passage context
 
-Israel’s origin story remembers life in **Miṣrayim**: Joseph’s rise, population growth, forced labour, plagues, and departure. Egypt is simultaneously place of survival and house of bondage. Later Scripture will also praise Egyptian wisdom and warn against trusting Egyptian horses.
+Exodus opens in the memory of a people fruitful in Egypt who become a threat in Pharaoh’s eyes:
+
+> “Now there arose up a new king over Egypt, which knew not Joseph. And he said unto his people, Behold, the people of the children of Israel are more and mightier than we: Come on, let us deal wisely with them…” (Exodus 1:8–10, KJV-style)
+
+The book’s drama — oppression, resistance, plague, departure, sea crossing, covenant — unfolds against **Miṣrayim**, the Nile kingdom. Israel’s Bible cannot tell its freedom story without Egypt. Egypt is refuge in Genesis, oppression in Exodus, temptation and alliance in the monarchy and prophets, and later a Jewish and Christian intellectual world in Alexandria.
 
 ---
 
 ## Notes
 
-### Africa in the Text
+**Egypt is in Africa.** This should not need saying; popular maps and racial habits made it need saying. The Nile Valley civilisation is northeast African. Afro-Asiatic languages, African trade southward into Nubia/Cush, and Mediterranean links westward and northward all belong to Egypt’s real geography. Detaching Egypt from Africa to protect a European Jesus-picture is ideology, not history. See [atlas.html](../atlas.html).
 
-Egypt is an African Nile civilisation. Removing Egypt from Africa — treating it as “Near East only” or as European — distorts both geography and race politics. Keeping Egypt in Africa does **not** require claiming every Egyptian matched one modern racial category.
+**Civilisation and empire together.** An Africa-centred edition refuses two errors: (1) treating Egypt only as villainous backdrop for Israel; (2) treating Egypt only as Afrocentric trophy immune to prophetic critique. Exodus names forced labour and infanticidal policy. The prophets later indict Egyptian alliances and pride (e.g. Isaiah 19; Ezekiel 29–32). Honour and critique can coexist — as they do for any empire on any continent.
 
-### Both sides of the text
+**Historical questions.** Archaeology and Egyptology illuminate New Kingdom and later contexts; the exact correlation of biblical Pharaohs, the scale of an Exodus group, and the route of *Yam Sûph* remain debated among historians. This edition marks those debates **Disputed** without dissolving the text’s theological claim that YHWH frees slaves. Faithfulness to the oppressed does not require fake certainty about every place-name on a tourist map.
 
-Exodus indicts imperial oppression. It does not erase Egyptian humanity or later African Christian memory in Egypt. The study Bible holds both: Africa as setting of slavery’s trauma in Israel’s story, and Africa as home of civilisation, refuge, and church.
+**Mixed multitude and African entanglement.** Exodus 12:38 notes a “mixed multitude” going up with Israel. Whatever its precise composition, the narrative already resists ethnic purity myths. Israel’s story is porous to neighbours — including African neighbours — from early on. Cushite entanglement continues in later narrative (Ebed-melech; Tirhakah traditions).
 
-### Words
+**Toward Alexandria.** By the Hellenistic period, Jewish life in Egypt is massive; Greek Scriptures circulate from that world; Apollos of Alexandria appears in Acts. Exodus memory and Egyptian Jewish wisdom become part of how Scripture travels. See [essays/egypt-in-scripture.html](../essays/egypt-in-scripture.html) · [essays/early-african-christianity.html](../essays/early-african-christianity.html).
 
-*Miṣrayim* is dual in form; English “Egypt” flattens dialects and periods. Notes should mark New Kingdom imperial settings where relevant without pretending every Exodus detail is a modern archaeological photograph.
+**Jesus and Egypt.** Matthew’s holy family flees to Egypt ([spreads/06-matthew-egypt.html](06-matthew-egypt.html)). The Messiah’s story, like Israel’s, passes through African refuge. That affirms connection; it does not make Jesus non-Jewish.
 
-### Africana readings
-
-African American spirituals and liberation readings have long heard Exodus as freedom song. That reception (REC) is real. It does not relocate Mount Sinai to the Americas as HIST.
+**Teaching move.** Show two images: a Eurocentric “Egypt as Orient” painting and a map that places Egypt in Africa. Ask which habits each image trains. Then read Exodus 1 without letting either pride or shame erase the slaves’ cry.
 
 ---
 
-## Evidence
+## Evidence labels
 
 | Claim | Labels |
 |---|---|
-| Egypt central to Exodus narrative | TXT — Established |
-| Egypt is African geographically | Established |
-| Uniform modern racial identity for all Egyptians | Unsupported |
-| Exodus as liberation paradigm in diaspora reception | REC — Established as reception |
+| Exodus sets oppression and deliverance in Egypt (Miṣrayim) | **TXT — Established** |
+| Egypt is an African Nile civilisation | **HIST/GEO — Established** |
+| Egypt also functioned as empire and oppressor in Israel’s memory | **TXT/HIST — Established** |
+| Precise Pharaoh identification and Exodus archaeology | **HIST — Disputed** |
+| Egypt as “not African” | **Unsupported** |
+| Exodus requires hatred of Egypt as a people rather than critique of oppression | **Unsupported** as necessary reading |
 
 ---
 
-Previous: [Genesis 10](03-genesis-10.md) · Next: [Ebed-melech](05-jeremiah-ebed-melech.md)
+## Africana reading note
+
+For continental readers, Exodus has long been a liberation grammar — against pharaohs of colonial rule, apartheid, predatory debt, and extractive borders. Keep that fire. Also keep Egypt’s African face in view so liberation is not staged as “Hebrews versus Africa,” but as enslaved people versus imperial violence on African soil. Cushite and Egyptian histories are not identical with Pharaoh’s policy. Complex geography prevents racist shorthand. In diaspora churches, refuse both the bleaching of the Nile and the annexation that makes every Egyptian monument a modern racial property deed. Let the God who hears slaves still be the main character.
+
+**See also:** [essays/egypt-in-scripture.html](../essays/egypt-in-scripture.html) · [atlas.html](../atlas.html) · [how-to-read.html](../how-to-read.html) · [claims-audit.html](../claims-audit.html)
