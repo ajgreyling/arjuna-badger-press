@@ -6132,6 +6132,12 @@ def render_poem(src_name: str, out_name: str, title: str, desc: str, *,
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
 WRITING_PIECES = [
+    ("ons-sal-self-zu.md", "ons-sal-self-zu",
+     "Ons Sal Self",
+     "Indaba ekhulunywayo · isiZulu",
+     "Ukusuka ekubeni ngumlungu ompofu kuya ekubeni ngusozigidigidi: okwakhiwe ngama-Afrikaner, "
+     "okwasheshiswa ngumbuso, nalokho i-Afrika engakuthatha ngaphandle kokuthatha nokushiywa ngaphandle.",
+     False),
     ("ons-sal-self.md", "ons-sal-self",
      "Ons Sal Self",
      "’n Gesproke essay · Afrikaans",
@@ -6183,6 +6189,19 @@ WRITING_MEDIA = {
         "duration_iso": "PT15M45S",
         "narration": "Vertel deur Emma Lilliana · KI-stem (nie ’n menslike verteller nie).",
     },
+    "ons-sal-self-zu": {
+        "cover": REPO / "site/content/writing/assets/ons-sal-self-cover.jpg",
+        "cover_name": "ons-sal-self-cover.jpg",
+        "language": "isiZulu",
+        "lang": "zu",
+        "duration": "Umbhalo",
+        "narration": "Inguqulo yesiZulu · umbhalo okwamanje; ukulalela kuyeza.",
+    },
+}
+
+WRITING_LANGS = {
+    "ons-sal-self": "af",
+    "ons-sal-self-zu": "zu",
 }
 
 
@@ -6204,15 +6223,22 @@ def render_writing_media(slug: str, rel: str) -> str:
     if not media:
         return ""
     cover_url = f"{rel}assets/writing/{media['cover_name']}"
-    audio_url = media["audio_path"]
-    return f"""<section class="writing-media" aria-label="Luister na {html.escape(slug)}">
+    audio_url = media.get("audio_path") or ""
+    meta = f"{html.escape(media['language'])} · {html.escape(media['duration'])}"
+    if audio_url:
+        return f"""<section class="writing-media" aria-label="Luister na {html.escape(slug)}">
 <img class="writing-cover" src="{html.escape(cover_url)}" alt="Ons Sal Self — ’n blikbeker vol muntstukke op ’n verslete houttafel">
-<div><p class="wm-meta">Luister · {html.escape(media['language'])} · {html.escape(media['duration'])}</p>
+<div><p class="wm-meta">Luister · {meta}</p>
 <audio class="writing-player" controls preload="metadata" src="{html.escape(audio_url)}">
 Jou blaaier ondersteun nie die oudiospeler nie. <a href="{html.escape(audio_url)}">Laai die MP3 af.</a>
 </audio>
 <p class="wm-note">{html.escape(media['narration'])}</p>
 <a class="btn ghost" href="{html.escape(audio_url)}" download>Laai die MP3 af</a></div>
+</section>"""
+    return f"""<section class="writing-media" aria-label="{html.escape(slug)}">
+<img class="writing-cover" src="{html.escape(cover_url)}" alt="Ons Sal Self — a tin mug of coins on a worn wooden table">
+<div><p class="wm-meta">{meta}</p>
+<p class="wm-note">{html.escape(media['narration'])}</p></div>
 </section>"""
 
 
@@ -6245,7 +6271,7 @@ def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc
     safari_key = f"writing/{slug}" if safari else ""
     og_image = f"{DOMAIN}/assets/writing/{media['cover_name']}" if media else ""
     ld_json = ""
-    if media:
+    if media and media.get("audio_path") and media.get("duration_iso"):
         ld_json = json.dumps({
             "@context": "https://schema.org",
             "@type": "AudioObject",
@@ -6258,10 +6284,11 @@ def render_writing_piece(src_name: str, slug: str, title: str, byline: str, desc
             "author": {"@type": "Person", "name": "Andries J. Greyling"},
             "publisher": {"@type": "Organization", "name": "Arjuna Badger Press"},
         }, ensure_ascii=False)
+    page_lang = WRITING_LANGS.get(slug) or (media["lang"] if media else "en")
     return "\n".join([
         head(f"{title} — Arjuna Badger Press", desc, rel=rel, safari=safari,
              canonical=canon, og_image=og_image, og_type="article", ld_json=ld_json,
-             noindex=hidden, safari_page=safari_key, lang=media["lang"] if media else "en"),
+             noindex=hidden, safari_page=safari_key, lang=page_lang),
         chrome,
         '<article class="reader letter">',
         crest_img(rel, safari=safari),
@@ -6280,7 +6307,13 @@ def render_writing_index(*, rel: str = "../", safari: bool = False) -> str:
     for _, slug, title, byline, blurb, hidden in WRITING_PIECES:
         if hidden:
             continue  # the hidden piece gets no card
-        action = "Luister &amp; lees &rarr;" if slug in WRITING_MEDIA else "Read &rarr;"
+        media = WRITING_MEDIA.get(slug)
+        if media and media.get("audio_path"):
+            action = "Luister &amp; lees &rarr;"
+        elif slug.startswith("ons-sal-self"):
+            action = "Funda &rarr;"
+        else:
+            action = "Read &rarr;"
         cards.append(
             f'<a class="wcard" href="{html.escape(slug)}.html">'
             f'<h3>{html.escape(title)}</h3>'
