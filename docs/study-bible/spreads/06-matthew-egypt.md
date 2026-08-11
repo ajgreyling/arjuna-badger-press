@@ -1,46 +1,53 @@
-# Matthew 2:13–21 — Refuge in Egypt
+# Sample Spread 06 — Matthew 2:13–15, 19–21
 
-### Sample spread 6 of 10
+## Refuge in Egypt
 
-**Read with:** [Egypt essay](../essays/egypt-in-scripture.md) · [Atlas](../atlas.md)
+*The African Worlds Study Bible* · Sampler
 
 ---
 
-## Passage (context)
+## Passage context
 
-An angel warns Joseph in a dream: flee to Egypt with the child and his mother; remain until Herod dies. They go by night. After Herod’s death they return, eventually settling in Nazareth. Matthew cites Hosea: “Out of Egypt I have called my son.”
+After the magi’s visit, Joseph receives a warning dream:
+
+> “Arise, and take the young child and his mother, and flee into Egypt, and be thou there until I bring thee word: for Herod will seek the young child to destroy him. When he arose, he took the young child and his mother by night, and departed into Egypt.” (Matthew 2:13–14, KJV-style)
+
+The family remains in Egypt until Herod’s death; Matthew cites Hosea — “Out of Egypt have I called my son” — as fulfilled (2:15). They return to the land of Israel and settle in Nazareth (2:19–23).
 
 ---
 
 ## Notes
 
-### Africa in the Text
+**Jewish child, African refuge.** Jesus is a Jewish child of the house of David in Matthew’s genealogy and narrative. Flight into Egypt does not relocate his identity; it repeats Israel’s pattern: danger in the land, shelter by the Nile, return under God’s hand. Affirming African refuge strengthens, rather than cancels, the Exodus typology Matthew draws. Anyone using this pericope to deny Jesus’ Jewishness contradicts Matthew’s own project.
 
-The Messiah’s infancy includes African refuge. Egypt is sanctuary again — reversing, for a moment, the Exodus direction. This is not tourism; it is political asylum under imperial violence.
+**Egypt as real place.** This is not allegory only. Roman-period Egypt held large Jewish communities; travel between Judea and Egypt is historically ordinary. The holy family’s sojourn sits inside Jewish diaspora geography on African soil. See [atlas.html](../atlas.html) · [essays/egypt-in-scripture.html](../essays/egypt-in-scripture.html) · [spreads/04-exodus-egypt.html](04-exodus-egypt.html).
 
-### Jewish story
+**Against two distortions.** (1) Eurocentric art that paints Egypt as a vaguely oriental stage-set emptied of Africa. (2) Annexation claims that make Jesus “Egyptian” or non-Jewish because he sheltered there. Matthew’s point is fulfilment and protection, not a change of peoplehood. Restore without annexing.
 
-Jesus is a Jewish child under threat. Flight to Egypt does not make him non-Jewish. The Hosea citation rereads Israel’s own Egypt memory around him. Affirm Jewish identity; do not annex him into a racial replacement myth.
+**Herod and empire.** The threat is a client king’s violence under the Roman horizon. Egypt’s shelter is providential irony: the land of former bondage becomes haven. African space is capable of more than one role in salvation history — as Exodus already taught. Refuge does not require forgetting oppression; oppression does not forbid later mercy.
 
-### Tradition
+**Hosea’s citation.** “Out of Egypt have I called my son” (Hosea 11:1) in its own setting speaks of Israel. Matthew reads Jesus as embodying Israel’s story. African geography becomes part of messianic recapitulation. That is high theology of place, not racial reassignment.
 
-Later Coptic memory treasures the Holy Family’s journey in Egypt (TRAD/REC). Distinguish Matthew’s spare narrative from later pilgrimage itineraries.
+**Coptic memory.** Egyptian Christians later treasure traditions of the holy family’s journey, with local shrines and itineraries. Those traditions belong largely to **TRAD/REC** and enrich piety; they are not all recoverable as first-century reportage. Honour the memory; label the genre. See [essays/early-african-christianity.html](../essays/early-african-christianity.html).
 
-### Africana readings
-
-African churches rightly remember that the gospel’s story already crossed into Africa before European missions. Keep the claim proportional to Matthew’s text.
+**Teaching move.** Invite refugee testimonies beside Matthew 2 — carefully, with consent. Then ask what policies look like Herod’s fear, and what welcome looks like Egypt’s shelter in this scene.
 
 ---
 
-## Evidence
+## Evidence labels
 
 | Claim | Labels |
 |---|---|
-| Holy Family flees to Egypt | TXT — Established |
-| Egypt as African setting | Established |
-| Detailed Coptic itinerary in Matthew | Unsupported (later TRAD) |
-| Flight erases Jesus’ Jewish identity | Unsupported |
+| Matthew narrates flight to Egypt and return | **TXT — Established** |
+| Hosea citation frames Jesus’ story within Israel’s Exodus memory | **TXT — Established** |
+| Egypt as African territory with Jewish diaspora presence | **HIST — Established** |
+| Detailed itinerary traditions of later Egyptian Christianity | **TRAD/REC — Probable as tradition; historical specifics vary — Disputed** |
+| Flight proves Jesus was not Jewish | **Unsupported** |
 
 ---
 
-Previous: [Ebed-melech](05-jeremiah-ebed-melech.md) · Next: [Acts 2](07-acts-pentecost.md)
+## Africana reading note
+
+Refugees across Africa know Joseph’s night departure without needing a footnote. Read Matthew 2 with churches that hide the threatened, and with policies that slam doors. Egypt’s welcome in this scene can judge both ancient Herod and modern hostility to asylum. Keep Jesus’ Jewish name and mother’s Jewish story intact while insisting the haven was African. Restoration here is hospitality geography, not racial reassignment. For Coptic hearers, joy in local memory need not compete with Sudanese or Ethiopian stories elsewhere in the atlas; the continent is large enough for many holy roads.
+
+**See also:** [spreads/04-exodus-egypt.html](04-exodus-egypt.html) · [essays/egypt-in-scripture.html](../essays/egypt-in-scripture.html) · [essays/early-african-christianity.html](../essays/early-african-christianity.html) · [how-to-read.html](../how-to-read.html)

@@ -1,46 +1,55 @@
-# Jeremiah 38:7–13; 39:15–18 — Ebed-melech the Cushite
+# Sample Spread 05 — Jeremiah 38–39
 
-### Sample spread 5 of 10
+## Ebed-melech the Cushite
 
-**Read with:** [Atlas: Cush](../atlas.md) · [Cush essay](../essays/cush-nubia-ethiopia.md)
+*The African Worlds Study Bible* · Sampler
 
 ---
 
-## Passage (context)
+## Passage context
 
-Ebed-melech — “servant of the king” — a Cushite in Jerusalem’s court, hears that Jeremiah has been thrown into a cistern. He petitions the king, lifts Jeremiah out with rags under the ropes, and later receives a divine promise of survival “because you have trusted in me.”
+During Babylon’s pressure on Jerusalem, officials cast Jeremiah into a cistern to die. A courtier intervenes:
+
+> “Now when Ebed-melech the Ethiopian [Hebrew: Cushite], one of the eunuchs which was in the king’s house, heard that they had put Jeremiah in the dungeon… Ebed-melech went forth out of the king’s house, and spake to the king, saying, My lord the king, these men have done evil…” (Jeremiah 38:7–9, KJV-style)
+
+Ebed-melech organises a careful rescue with old cast clouts and rotten rags, placing them under Jeremiah’s arms so the ropes will not tear his skin (38:11–13). After the city’s fall, the word of the LORD comes to Jeremiah for Ebed-melech:
+
+> “I will deliver thee in that day, saith the LORD… because thou hast put thy trust in me, saith the LORD.” (Jeremiah 39:17–18, KJV-style)
 
 ---
 
 ## Notes
 
-### Africa in the Text
+**Name and role.** *Ebed-melech* means “servant of the king” — possibly a title-name. He is a royal official with access to Zedekiah. The text stresses his **Cushite** identity; translators and preachers who flatten him into a generic “foreigner” erase what Hebrew marks. Older English “Ethiopian” reflects Greek/Latin ethnographic vocabulary, not an automatic pointer to the modern Ethiopian state.
 
-“Cushite” is not a throwaway label. Best location: African Middle Nile Kush/Nubia, south of Egypt — not automatically modern Ethiopia. A foreign African courtier embodies courage and trust when Judean officials fail.
+**Where is Cush?** In this horizon, Cush is best located in the African **Middle Nile** world of Kush/Nubia (present-day Sudan and southern Egypt). See [atlas.html](../atlas.html) · [essays/cush-nubia-ethiopia.html](../essays/cush-nubia-ethiopia.html). Museum orientation: [Met — Nubia](https://www.metmuseum.org/toah/hd/nubia/hd_nubia.htm).
 
-### Words
+**Moral centre.** Judean officials embody cruelty justified as politics; the Cushite embodies courage, practical mercy, and trust in YHWH. The narrative does not exoticise him as magic African helper, nor does it make his ethnicity a problem to overcome. It praises his faith and action. African origin is neither incidental nor a stain.
 
-Hebrew *saris* may mean eunuch or high official — preserve uncertainty. Do not translate Cushite away.
+**Practical wisdom.** The rags detail is pastoral gold. Ebed-melech does not only speak; he engineers a non-harming rescue. Competence and compassion travel together. Leadership notes in African churches can linger here without forcing typology.
 
-### Ancient worlds
+**Empire context.** Judah stands between Babylon and southern powers. Cushite/Egyptian politics swirl through late monarchic history (compare Tirhakah traditions in 2 Kings 19:9). Ebed-melech’s presence at court fits a world of diplomatic and military entanglement across the Levant and Nile — Horizon 2 realism, not anachronistic race war.
 
-Kush was a martial and political power in the first millennium BCE. Cushites appear in military and court contexts across the prophets. Jeremiah 13:23’s proverb about Cushite skin notes phenotype without the later racial systems of the Atlantic world.
+**Against tokenism and against erasure.** Do not turn him into proof that “all Judah was Cushite.” Do not translate him out of Africa. One righteous Cushite in Jerusalem is enough to shatter the myth that African figures are absent from Israel’s Scriptures until modern missions. Pair with Acts 8’s official ([spreads/08-acts-kandake.html](08-acts-kandake.html)) as two Cushite-horizon figures without forcing one modern nationality.
 
-### Africana readings
-
-Ebed-melech is a natural teaching text for African presence with agency — not as mascot, but as moral centre of the episode.
+**Teaching move.** Read the officials’ speech and Ebed-melech’s speech side by side. Ask who fears the prophet and who fears the LORD. Then locate Cush on a map that includes Sudan.
 
 ---
 
-## Evidence
+## Evidence labels
 
 | Claim | Labels |
 |---|---|
-| Ebed-melech identified as Cushite | TXT — Established |
-| Middle Nile location | Probable to Established |
-| Exact sense of *saris* | Disputed |
-| Modern Ethiopian state as automatic referent | Unsupported |
+| Ebed-melech is identified as a Cushite | **TXT — Established** |
+| He rescues Jeremiah and is promised deliverance for his trust | **TXT — Established** |
+| Cush here refers principally to Middle Nile Kush/Nubia | **HIST — Probable to Established** |
+| He proves a general racial identity for all Judeans | **Unsupported** |
+| His story is incidental local colour without theological weight | **Unsupported** as adequate reading |
 
 ---
 
-Previous: [Exodus](04-exodus-egypt.md) · Next: [Matthew 2](06-matthew-egypt.md)
+## Africana reading note
+
+Ebed-melech is a gift to pulpits tired of African names appearing only as slaves or villains. Preach his competence: he knows the cistern, the rags, the king’s ear. Preach his theology: trust is credited to a foreign courtier when insiders fail. In womanist and liberation registers, note that salvation politics here include the courage to speak against a deadly consensus. For Sudanese and wider Nile memories, reclaiming Kush’s name matters; for Ethiopian and Eritrean hearers, careful geography protects later Aksumite glory from being forced backward into Jeremiah’s court. Restore the man; do not annex the kingdom of Judah.
+
+**See also:** [atlas.html](../atlas.html) · [essays/cush-nubia-ethiopia.html](../essays/cush-nubia-ethiopia.html) · [how-to-read.html](../how-to-read.html) · [spreads/08-acts-kandake.html](08-acts-kandake.html)

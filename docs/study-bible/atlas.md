@@ -18,8 +18,6 @@ This atlas does not relocate Abraham to Napata or Jesus to Cyrene. It restores A
 
 **Evidence note:** Egypt as African Nile civilisation and as Israel’s memory of refuge and oppression — **TXT/HIST — Established**. Precise locations of “Goshen,” store-cities, and the Exodus route — **HIST — Disputed**. Egypt as intellectual and diaspora centre by the Hellenistic–Roman period — **HIST/MAT — Established**. Egypt as “not African” — **Unsupported**.
 
-**Reading tip:** Hold civilisation and empire together. Pyramid admiration does not cancel forced labour in Exodus; Exodus critique does not expel Egypt from Africa.
-
 **See also:** [essays/egypt-in-scripture.html](essays/egypt-in-scripture.html) · [spreads/04-exodus-egypt.html](spreads/04-exodus-egypt.html) · [spreads/06-matthew-egypt.html](spreads/06-matthew-egypt.html)
 
 ---
@@ -33,8 +31,6 @@ This atlas does not relocate Abraham to Napata or Jesus to Cyrene. It restores A
 **Key texts:** Genesis 10:6–8; Numbers 12:1 (Moses’ Cushite wife — identity details debated); 2 Samuel 18:21–32 (Cushite runner); 2 Kings 19:9 / Isaiah 37:9 (Tirhakah of Cush); Psalm 68:31; Isaiah 18; Jeremiah 13:23; Jeremiah 38–39 (Ebed-melech); Ezekiel 30:4–9; Zephaniah 3:10; Acts 8:26–40.
 
 **Evidence note:** Cush as a powerful African polity south of Egypt — **TXT/HIST/MAT — Established**. Equating every “Cush” occurrence with modern Ethiopia — **HIST — Unsupported**. Ebed-melech as Cushite courtier in Jerusalem — **TXT — Established**; Middle Nile identification — **HIST — Probable to Established**. Public orientation to Nubian civilisation: [The Met — Nubia](https://www.metmuseum.org/toah/hd/nubia/hd_nubia.htm).
-
-**Reading tip:** Cushite figures can be military partners, court officials, or proverbial references. Do not harvest them into a single modern nationality myth.
 
 **See also:** [essays/cush-nubia-ethiopia.html](essays/cush-nubia-ethiopia.html) · [spreads/05-jeremiah-ebed-melech.html](spreads/05-jeremiah-ebed-melech.html)
 
