@@ -2,7 +2,8 @@
 
 > **Status:** scaffolded · opening pair drafted · **Year:** 2035 · **POV:** book within a book (A / I / G)
 >
-> Downstream: AFRIKA 2100 will be rewritten from this soil. Do not protect old 2100 locks.
+> Downstream: AFRIKA 2100 spine/arcs/acts rebuilt from this soil (2026-08). Old 2100 locks that
+> sanded humans into architecture are not protected — see afrika-2100 `SEED_STORY.md` / `PLOT.md`.
 
 ---
 
