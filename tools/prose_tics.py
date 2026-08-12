@@ -127,6 +127,10 @@ def scan(book: pathlib.Path, protect: list[str]) -> dict:
 
     dup_sentences = [
         {"hits": len(v), "chapters": sorted({c for c, _ in v}), "text": v[0][1],
+         # Per-chapter counts, because a line can repeat WITHIN one chapter as
+         # well as across several. Cross-chapter de-dup alone leaves the keeper
+         # chapter saying the same sentence three times.
+         "by_chapter": dict(collections.Counter(c for c, _ in v)),
          "protected": is_protected(k, protect)}
         for k, v in sent_index.items() if len(v) > 1
     ]

@@ -169,19 +169,29 @@ def call_ofox(model: str, system: str, user: str, timeout: int,
     return content
 
 
-def dedup_assignments(result: dict, protect: list[str]) -> dict[str, list[str]]:
-    """Earliest chapter keeps a repeated line; later chapters must recast it."""
-    todo: dict[str, list[str]] = {}
+def dedup_assignments(result: dict, protect: list[str]) -> dict[str, list[tuple[str, str]]]:
+    """Assign every repeated line to the chapter that must change it.
+
+    The earliest chapter keeps ONE occurrence; everything else is recast. Two
+    cases, and the second is easy to miss: a line can repeat across chapters AND
+    repeat again inside the keeper. Handling only the cross-chapter case leaves
+    the keeper still saying it three times, which is what the first pass did.
+
+    Returns {chapter: [(sentence, mode)]} where mode is "recast" (no occurrence
+    of this line should survive here) or "thin" (keep the first, recast the rest).
+    """
+    todo: dict[str, list[tuple[str, str]]] = {}
     for dup in result["duplicate_sentences"]:
         if dup["protected"] or dup["hits"] < 2:
             continue
-        chapters = sorted(dup["chapters"])
-        keeper = chapters[0]
-        for ch in chapters[1:]:
-            todo.setdefault(ch, []).append(dup["text"])
-        # A line repeated inside ONE chapter still needs thinning there.
-        if len(chapters) == 1 and dup["hits"] > 1:
-            todo.setdefault(keeper, []).append(dup["text"])
+        by_chapter = dup.get("by_chapter", {})
+        keeper = sorted(dup["chapters"])[0]
+        for ch in sorted(dup["chapters"]):
+            if ch == keeper:
+                if by_chapter.get(ch, 0) > 1:
+                    todo.setdefault(ch, []).append((dup["text"], "thin"))
+            else:
+                todo.setdefault(ch, []).append((dup["text"], "recast"))
     return todo
 
 
@@ -265,13 +275,23 @@ def main() -> None:
 
         dedup_block = ""
         if dups:
-            listed = "\n".join(f'  - "{d}"' for d in dups)
-            dedup_block = (
-                f"DUPLICATED LINES — each of these already appears in an earlier "
-                f"chapter, verbatim. In THIS chapter, recast each one so it carries "
-                f"the same meaning in different words, fitted to this scene. Do not "
-                f"simply delete them; the beat is needed, the repetition is not:\n"
-                f"{listed}\n\n")
+            recast = [d for d, mode in dups if mode == "recast"]
+            thin = [d for d, mode in dups if mode == "thin"]
+            parts = []
+            if recast:
+                listed = "\n".join(f'  - "{d}"' for d in recast)
+                parts.append(
+                    "DUPLICATED LINES — each already appears verbatim in an earlier "
+                    "chapter. In THIS chapter, recast each one so it carries the same "
+                    "meaning in different words, fitted to this scene. Do not simply "
+                    "delete them; the beat is needed, the repetition is not:\n" + listed)
+            if thin:
+                listed = "\n".join(f'  - "{d}"' for d in thin)
+                parts.append(
+                    "REPEATED WITHIN THIS CHAPTER — each of these appears more than "
+                    "once here. Keep the FIRST occurrence exactly as written; recast "
+                    "every later one:\n" + listed)
+            dedup_block = "\n\n".join(parts) + "\n\n"
 
         system = SYSTEM.format(
             em_dash_count=stats["counts"]["em_dash"],
@@ -309,6 +329,13 @@ def main() -> None:
             continue
         if lost:
             print(f"  REJECTED — protected motif dropped: {lost}")
+            failures.append(path.name)
+            continue
+        # A no-op is a silent failure: the model sometimes echoes the chapter back
+        # nearly unchanged. Losing text is not the only way for a pass to be wrong.
+        dashes_before, dashes_after = text.count("—"), edited.count("—")
+        if dashes_before > EM_DASH_CEILING and dashes_after >= dashes_before * 0.9:
+            print(f"  REJECTED — no work done: em-dash {dashes_before} -> {dashes_after}")
             failures.append(path.name)
             continue
 
