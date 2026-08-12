@@ -9,7 +9,9 @@
 ## The register in one line
 
 **Future-history written like reportage from a working port** — *The Martian*'s procedural
-warmth, the trilogy's engineering exactness, and the quiet of a Sunday in the Compact zones.
+warmth, the trilogy's engineering exactness, the quiet of a Sunday in the Compact zones, and
+**Prophet's desk-soul**: consent as posture, weather not cartoons, flat loaded wounds, no
+victory lap.
 
 ## Sentence craft
 
@@ -38,9 +40,14 @@ warmth, the trilogy's engineering exactness, and the quiet of a Sunday in the Co
 - **The visitors:** flattest prose in the book, on purpose — protocol English, weights and
   tolerances; the reader's unease comes from the flatness. Never adjectives of menace or
   majesty. The three protocol-slips get *one sensory detail each*, no interpretation.
-- **The Fold / the Compact:** rendered with the Brotherhood-discipline — interiority allowed
-  for believers, endorsement never in narration; no irony at faith's expense. The terminal
-  ethic in full at most twice in the whole book.
+- **The Fold / the Compact / Kind residue:** Brotherhood-discipline — interiority for
+  believers, endorsement never in narration; no irony at faith's expense. Show coin/paint
+  before explaining. Soft-scrub vs exact cunt is character (Ruth), not narrator sermon.
+  Terminal ethic in full at most twice; load-bearing when the coin is honest (Prophet C-10).
+- **Weathers (Give/Keep/Understand/saint-hunger/receipt-faith):** arrive as mail, orders,
+  hymns, fence noise, ledger footnotes — never as a chart in a POV mouth. Best argument each.
+- **Wounds (Gogo silence, brother/wrong order, G’s scars as memory):** Jamie-Uys / Bouwer
+  restraint — flat line is the loaded one; no twist gotcha; no diagnosis tourism of the past.
 - **Priya's scene:** RELIC's register, aged — shortest sentences in the book, longest
   silences. Do not imitate her old dialogue rhythms exactly; 74 years pass through a voice.
 - **Action:** the trilogy's physical realism — loads, heat, failure modes; a platcap farm fire

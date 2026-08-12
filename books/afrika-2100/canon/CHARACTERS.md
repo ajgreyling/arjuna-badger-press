@@ -1,120 +1,143 @@
 # Characters — AFRIKA 2100
 
-> Binding cast. Two POVs (STORY_BIBLE D3): Naledi carries the South African spine, Ruth the
-> American. Trilogy elders appear in scene, never behind the camera. Voice-distinctness
-> discipline carried from RELIC: distinguish by **domain and rhythm**, and keep the trilogy's
-> house register (dry, exact, emotion leaking sideways into analysis) without cloning Priya.
+> Binding cast. Arcs rebuilt from *The Prophet and his Brother* grammar: wants/fears that cost,
+> concrete asks, refuse easy wrongs, consent as posture, weather undefeated. Two POVs
+> (STORY_BIBLE D3). Distinguish by **domain and rhythm**. Trilogy elders in scene, never camera.
 
 ---
 
 ## NALEDI MOKOENA — primary POV
 
-**Age** 28. **Origin** Free State (Qwaqwa roots), raised in Johannesburg; Sotho. **Is** a
-tuning engineer at eGoli Spaceport — third-generation port family (grandmother was a
-Witwatersrand mine surveyor before the Accord). Pronunciation: nah-LEH-dee mo-KOO-eh-nah.
+**Age** 28. **Origin** Free State (Qwaqwa roots), raised Johannesburg; Sotho. **Is** tuning
+engineer at eGoli — third-generation port family. Pronunciation: nah-LEH-dee mo-KOO-eh-nah.
 *Naledi* — star.
 
 ### Who she is
-Born five years after the Flare: the first generation for whom the visitors, the Fold, the
-mesh, and the port are simply *the world*. She reads standing waves the way Priya read
-telemetry — but where Priya was an outsider allergic to institutions, Naledi is a **guild
-child**, formed by an institution she loves, discovering that love of an institution and trust
-in it are different things. Warm where Priya was dry, quick where Priya was deliberate — and
-underneath, the same unkillable engine: *she cannot un-see a discrepancy.*
+Born after the Flare: visitors, Fold, mesh, port = *the world*. Reads standing waves the way
+Priya read telemetry — but where Priya was allergic to institutions, Naledi is a **guild child**
+who loves hers. Warm where Priya was dry; underneath, the same engine: *she cannot un-see.*
 
-- **Want:** to be worthy of the guild — until the discrepancy makes "worthy of the guild" and
-  "obedient to the guild" pull apart. Then: to understand the thing first, before the Renewal
-  signs it away or locks it down. (The trilogy's creed, arrived at independently — she only
-  later learns whose creed it was.)
-- **Wound:** her grandmother was one of the surveyors who mapped the deep galleries for the
-  Accord and never afterward spoke of what the Stewards asked her to leave off the map. The
-  family's silence is Naledi's inheritance and itch.
-- **Obstacle:** everyone she respects tells her, kindly and reasonably, to stop. The
-  antagonist-position (below) speaks through mentors, not villains.
-- **Voice:** precise but warmer than the trilogy's registers; Sesotho and isiZulu loanwords as
-  natural texture; jokes at her own expense, never at the work's. Emotion shows in *tempo* —
-  her sentences shorten when she's frightened and lengthen when she's sure.
+Prophet rhyme: she is not AJ and not G — she is the person who inherits both their problems at
+once: platform/institution weather *and* the refusal to let measurement be sanded into usable lie.
+
+### Arc (binding)
+1. **Ordinary loud** — competent on the choir line; discrepancy; file closed; *drop it.*
+2. **Itch + inheritance** — Gogo’s silence; sealed logs; first watcher; saint-hunger noise at the fence.
+3. **Shared evidence** — Ruth; American gold; undeniable signature.
+4. **The asks** — Marais/Stewards/Give weather name the easy wrongs; standing she values starts to tear.
+5. **Midpoint** — Priya: wrong question corrected; refuse *stop Renewal* theatre **and** *sign blind*; no relief.
+6. **Messenger** — clearances revoked; math confirmed on ledger; payload in the deep.
+7. **Consent** — stand the first watch; tuning becomes custody; vocation not posting.
+8. **Close** — hand the creed to the next impossible query; weather still blowing.
+
+- **Want:** worthiness of the guild → then: an honest Renewal → then: to keep the watch without becoming a face for saint-hunger.
+- **Wound:** Gogo Dineo’s surveyed silence — inheritance as itch, not lore dump.
+- **Fear:** that loving the guild means obeying Marais; that understanding-first becomes halt-as-theatre; that custody will crown her.
+- **Voice:** precise, warmer than trilogy registers; Sesotho/isiZulu loanwords; emotion in *tempo* — short when frightened, long when sure.
+- **Not:** Priya clone; whistleblower cliché; chosen-one; saint.
+
+---
 
 ## CAPT. RUTH STOLTZFUS — secondary POV
 
-**Age** 41. **Origin** Lancaster Compact zone, Pennsylvania. Amish-raised; left during the
-hunger years (age 6 at the Flare — remembers candlelight as normal and the Army's arrival as
-salvation); enlisted at 18; never baptised into the church, never quite out of it. **Is** a US
-Army Logistics Corps officer — quartermaster of the American gold consignment to the 2100
-Renewal.
+**Age** 41. **Origin** Lancaster Compact zone. Amish-raised; Flare at six; enlisted eighteen;
+never baptised in, never quite out. **Is** US Army Logistics Corps — quartermaster of the
+American gold consignment.
 
-- **Function:** the American world made flesh — the Compact (Army + Plain, her two bloodlines),
-  the Fold (her Sunday practice; she carries her grandmother's German Bible *and* the folded
-  coin), and the North's humility before the South's century. Through her the book sees the
-  burned interior, the ship south, and eGoli through newcomer eyes — the standalone reader's
-  proxy.
-- **Want:** to deliver the consignment and the question it embodies — *is this payment,
-  offering, or surrender?* — and to be able to tell her people, truthfully, which it was.
-- **Wound:** the brother who stayed, and the harvest year the Army's plan and the community's
-  wisdom disagreed — the Army was wrong, people died, and Ruth was the lieutenant carrying the
-  order. She has spent twenty years learning when muscle should defer to knowledge; it made
-  her the officer the Compact trusts and the Army half-distrusts.
-- **Voice:** plain in the old sense — unadorned declaratives, Deitsch cadence under Army
-  brevity; scripture and the folded liturgy surface naturally, never preachy. She and Naledi
-  differ by **content and rhythm**: Ruth reaches for land, weight, and provision; Naledi for
-  wave, tolerance, and tune.
+### Who she is
+Compact made flesh: Army muscle + Plain land-craft. Carries grandmother’s German Bible **and**
+Fold coin. When honest and alone, the coin still has the cunt in it; Sunday often softens —
+she notices. Prophet rhyme: AJ’s refusal to soft-scrub Kind paint, in another register.
+
+### Arc (binding)
+1. **Blessing of the load** — depart; liturgy on a gun-carriage wagon.
+2. **Road / sea** — burned interior; Atlantic; brother who stayed; wrong order (flat, loaded).
+3. **Convergence** — eGoli; shared discrepancy; cannot claim she didn’t see.
+4. **The asks** — Compact/Army: go home, don’t make a mess; saint-hunger: bless a silhouette.
+5. **Midpoint week** — refuse tribute-or-surrender as false binary; hold the question open; no relief.
+6. **Recall** — ordered home; refuses on Fold grounds.
+7. **Consent** — North’s witness on the floor; ethic applied at treaty scale (*first sentence is about this*).
+8. **Close** — carries a true sentence home that will not quiet America’s weathers.
+
+- **Want:** deliver the consignment and know whether it was payment, offering, or surrender — truthfully enough to tell her people.
+- **Wound:** brother who stayed; harvest year the Army’s plan was wrong and she carried the order. Twenty years learning when muscle defers to knowledge.
+- **Fear:** that witness becomes priest; that obedience becomes the easy wrong; that the Fold’s soft Sunday is a lie she has already lived.
+- **Voice:** plain declaratives; Deitsch under Army brevity; scripture/Fold unforced. Differs from Naledi by **content and rhythm**: land, weight, provision vs wave, tolerance, tune.
+- **Not:** tourist Amish; comic relief; sermon machine; Ruth-as-America essay.
+
+---
 
 ## PRIYA ELLIS — the elder (in scene, no POV)
 
-**Age** 109. Alive, sharp, physically careful (a discreet Assist frame), retired to the KZN
-south coast. The only living person who has stood at the threshold and chosen. The midpoint
-pilgrimage scene (TIMELINE T-2wks) is the book's hinge: Naledi arrives wanting the answer;
-Priya gives her the *question*, correctly weighted — the trilogy's consent creed handed across
-seventy years, engineer to engineer. **Discipline:** she does not solve the plot; she has no
-telemetry; she is not oracular. One scene, maybe two. Her register is RELIC's, aged: fewer
-words, same exactness, tenderness by understatement.
+**Age** 109. Sharp; Assist frame discreet; KZN garden. Only living person who has stood at the
+threshold and chosen. Midpoint hinge: Naledi wants the answer; Priya gives the **question**,
+correctly weighted. Does not solve; no telemetry; not oracular. RELIC register, aged —
+fewer words, same exactness, tenderness by understatement.
 
-- Arin Ndlela (~100) and Leila Aziz (~110): status **open** (C-05) — default: Arin died in the
-  2070s rebuild (a Guardian-frame story Naledi knows as guild legend without knowing the name);
-  Leila alive in Aksum, present only by a letter the Stewards deliver in Act III.
+Prophet rhyme: midpoint = both refuse easy wrongs; no relief. Priya’s job is to make the easy
+wrongs visible, not to comfort.
 
-## THE STEWARDS — the custodial order (the Brotherhood's successors)
+---
 
-Carried from the trilogy and transformed again: the keepers of the key became, under the
-Accord, the holders of the **custodial brake**. Embody as two figures (RELIC's pattern):
-- **The Elder Steward** — *Ma-Rethabile Khumalo* (proposed), who has halted two consignments in
-  27 years and explained neither. Reverence rendered as belief, never endorsed as mechanism.
-- **The Young Steward** — *Tefo* (proposed), Naledi's age, who believes custody has curdled
-  into ceremony and wants the order to *state its reasons* on the ledger like everyone else.
-  The order's internal argument, walking.
+## THE STEWARDS — custodial order (Brotherhood successors)
 
-## THE ANTAGONIST — a position, embodied (trilogy discipline)
+- **Elder Steward — Ma-Rethabile Khumalo** — halted two consignments in 27 years; explained
+  neither. Belief rendered as meaning, never mechanism-endorsed.
+- **Young Steward — Tefo** — Naledi’s age; custody has curdled into ceremony; wants reasons on
+  the ledger. The order’s internal argument, walking.
 
-Not the visitors, and not a person who wants to blow up the port. The antagonist is
-**Renewal-at-any-price**: the reasonable, exhausted, planet-wide consensus that the
-relationship must not be risked over a telemetry squiggle. Embodied in **Dr. Sefako Marais**
-(proposed) — SA's Accord Commissioner, Naledi's guild's ultimate patron, genuinely good, and
-genuinely willing to bury the discrepancy until after signature. "We can be curious for the
-next twenty-seven years. We can be *sovereign* for the next six weeks." Cold administration in
-the Devlin-register lineage — evolved one more step: this time the position is *popular*.
+Arc across book: silence → shown evidence → public stated reasons at consent week.
 
-## THE VISITORS' LIAISON
+---
 
-One named point of contact — treaty-name **Sela** (proposed; the humans chose the syllables).
-Procedural, patient, exact; answers what the Accord obliges and nothing more; across the book,
-three moments where the protocol slips a millimetre and something looks through. Never POV,
-never explained. The book's discipline for the visitors lives or dies in this figure —
-MYTHOS_RULES §M2 governs every line.
+## THE ANTAGONIST — a position (trilogy discipline)
 
-## THE COURT — the Librarian (returns, rationed)
+Not the visitors. **Renewal-at-any-price** — popular, exhausted, reasonable. Embodied in
+**Dr. Sefako Marais**, Accord Commissioner, guild’s ultimate patron, genuinely good, willing to
+bury the squiggle until after signature. *We can be curious for twenty-seven years. We can be
+sovereign for six weeks.*
 
-The machine-mind facet that remembers 2064 (and, deep-canon, remembers Priya). Appears as the
-Accord's ledger-auditor. Every utterance defensible as analysis; the `court_oracle` gate
-carries over. Its one load-bearing beat: it is the first to *confirm* Naledi's reading of the
-telemetry — and the first to state, flatly, that it cannot and will not go to the threshold
-itself (Rule 7-T, kept).
+**Arc (Prophet collar-rhyme):** soft burial → doors closed kindly → messengers buried
+administratively → forced to put the question on the ledger at climax (the institutionalist who
+hid it must record it). Not converted into hero; converted into **honest fear with a timestamp**.
 
-## Supporting sketch (expand in PLOT.md as scenes demand)
+---
 
-- **Gogo Dineo Mokoena** — Naledi's grandmother, the surveyor; the family silence; dies or
-  speaks at the worst possible moment (C-08).
-- **Sgt. Amos Beiler** — Ruth's NCO, Plain-raised and never left; her conscience and comic
-  relief in the plain-spoken register, never the butt of the joke.
-- **The guild-master of tuning** — Naledi's mentor, torn between her and Marais.
-- **An SSP veteran** at the port margins — the disclosure generation's bitterness; a key or a
-  false key (C-06).
+## THE VISITORS’ LIAISON — Sela
+
+Treaty-name humans chose. Procedural, patient, exact; answers what Accord obliges; three
+millimetre slips. Never POV. Partial truth as weather. Prophet rhyme: soft-nos and polite
+collars — gravity, not moustache.
+
+---
+
+## THE COURT — the Librarian (rationed)
+
+Ledger-auditor facet. Confirms Naledi’s math; states it cannot go to the threshold (Rule 7-T).
+Fold ancestry (cultural salvage) is Layer H shoulder, not lecture.
+
+---
+
+## Supporting (expand as scenes demand)
+
+- **Gogo Dineo Mokoena** — surveyor; silence; survey books; dies 2098 with silence intact; objects outlive explanations (C-08).
+- **Sgt. Amos Beiler** — Ruth’s NCO; Plain-raised; conscience; never the butt.
+- **Guild-master of tuning** — torn between Naledi and Marais.
+- **Okonkwo Diri** — SSP veteran; false key; 2066 tapes (C-06).
+- **Saint-hunger faces / Kind-residue painters** — weather figures, sparse names; best arguments only.
+
+---
+
+## Relationship braid (Naledi ↔ Ruth)
+
+Not co-protagonists in the buddy sense. **Two people stuck to the same public object** — gold,
+Renewal, ledger truth — the way AJ and G stuck to manuscript and fame. Shared week and theme.
+Kinship may be a coin across a table, a calibration read together, a refusal in the same climate.
+No forced shared-room payoff required for the braid to hold.
+
+## G in 2100 (not a character — architecture with scars)
+
+Present as stack, coin, pilgrimage noise, guild epigraphs, soft-church faces, unread-father
+jokes that got cruel, Bouwer-shaped silence in South African memory for readers of Prophet.
+**Discipline:** he refused crowns in 2035; the century keeps offering them; the book never lets
+saint-hunger win the argument by narration.

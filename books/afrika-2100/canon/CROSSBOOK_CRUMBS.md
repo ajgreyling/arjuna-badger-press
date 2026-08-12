@@ -1,12 +1,12 @@
 # Cross-book weave — the fourth strand
 
-> How AFRIKA 2100 hooks into the trilogy braid. The two invariants carry unchanged from RELIC's
-> CROSSBOOK_CRUMBS: **STANDALONE-INTACT** (no appearance load-bearing for this book — a
-> newcomer needs nothing) and **WEAVE-INTACT** (every declared landing anchors an existing
-> trilogy seed). This book is almost pure **landing** — the harvest of seventy years — plus a
-> handful of back-seeds that reload the trilogy for the reader who goes back.
+> How AFRIKA 2100 hooks into the trilogy braid **and** book 3.5. Invariants from RELIC:
+> **STANDALONE-INTACT** (newcomer needs nothing) and **WEAVE-INTACT** (declared landings anchor
+> existing seeds). This book is almost pure **landing** — harvest of seventy years + Prophet
+> soil — plus back-seeds for readers who go back.
 >
-> Books: **R** = RESONANCE · **REV** = REVELATION · **REL** = RELIC · **A21** = AFRIKA 2100.
+> Books: **R** = RESONANCE · **REV** = REVELATION · **REL** = RELIC · **P** = *The Prophet and
+> his Brother* · **A21** = AFRIKA 2100.
 
 ---
 
@@ -72,22 +72,49 @@
 
 ## G — the corpus weave (special case)
 
-G is not a trilogy character; he is the *world's* fourth strand (in-world author of the 420
-Code, contemporary of the trilogy's events). Discipline: **keep the contact faint** — G and
-the trilogy cast never met on any page and this book must not retcon a meeting. The weave is
-ambient: his stack and their machine-age grew up side by side in the same country, and the
-2100 world stands on both. (One sanctioned wink, epilogue only: the folded coin and the
-garden in the same frame.)
+G is not a trilogy character; he is the *world's* fourth strand — and after Prophet, a man with
+a loud decade (2035), refused crowns, partial autobiography rails, and scars the coin cannot
+polish. Discipline: **keep trilogy contact faint** — G and the trilogy cast never met on any
+page; no retcon meeting. Prophet readers get landings (saint-hunger vs receipt-faith; Kind→Fold;
+crowns offered back). Newcomers read “the stack works” and “pilgrims argue about a face.”
+(Sanctioned wink, epilogue only: folded coin and garden in the same frame.)
+
+## Prophet landings (book 3.5 → A21)
+
+### `crumb:kind-to-fold` — the sentence that survived crowns
+- P: Kind paint; CongoSky ops ethic; Antichristos wants a face.
+- **A21 landing:** Fold Sunday; honest coin still carries the cunt; saint-hunger tries faces
+  (often G’s); Ruth notices soft-scrub. Standalone: “America’s two-sentence faith.” Weave: the
+  wall became the pew.
+
+### `crumb:refused-crowns` — G would not be warranty
+- P: Quarter I/IV asks; partial authorisation; no keyring sacrament.
+- **A21 landing:** century keeps offering the crown via pilgrimage and “what would G have
+  signed”; receipt-faith and Naledi’s watch refuse the face. Never a 2035 flashback dump.
+
+### `crumb:consent-week-rhyme` — desk grammar at species scale
+- P: keep / unbind / ship; weather undefeated; no victory lap.
+- **A21 landing:** amended Renewal; first watch; Compact’s true sentence home; epilogue node
+  still lit (planetary edition). Structure rhyme, not plot spoiler dependency.
+
+### `crumb:four-quarters-fossil`
+- P: Faith / Academy / Platform / Gospel weathers.
+- **A21 landing:** Give / Keep / Understand + saint-hunger / receipt-faith as climates with
+  best arguments. Newcomer needs no Quarter names.
 
 ## Gate table (declared appearances)
 
-| Crumb | R | REV | REL | A21 |
-|---|---|---|---|---|
-| resonance-gold | seed | seed | landing | **landing (global)** |
-| platinum-alloy | seed | — | — | **landing** |
-| guardian-lineage | seed | — | — | **landing** |
-| vitrified-tunnel | seed | — | landing | **landing (lived-in)** |
-| court-lineage | seed | — | landing | **landing (boundary kept)** |
-| anunnaki-tradition | — | seed | landing | **landing (walks on tarmac)** |
-| the-choice-at-the-switch | — | — | landing | **landing (rhymed)** |
-| the-note-that-carries | seed | — | seed | **closes** |
+| Crumb | R | REV | REL | P | A21 |
+|---|---|---|---|---|---|
+| resonance-gold | seed | seed | landing | — | **landing (global)** |
+| platinum-alloy | seed | — | — | — | **landing** |
+| guardian-lineage | seed | — | — | — | **landing** |
+| vitrified-tunnel | seed | — | landing | — | **landing (lived-in)** |
+| court-lineage | seed | — | landing | — | **landing (boundary kept)** |
+| anunnaki-tradition | — | seed | landing | — | **landing (walks on tarmac)** |
+| the-choice-at-the-switch | — | — | landing | — | **landing (rhymed)** |
+| the-note-that-carries | seed | — | seed | — | **closes** |
+| kind-to-fold | — | — | — | seed | **landing** |
+| refused-crowns | — | — | — | seed | **landing** |
+| consent-week-rhyme | — | — | — | seed | **landing (structure)** |
+| four-quarters-fossil | — | — | — | seed | **landing (weather)** |
