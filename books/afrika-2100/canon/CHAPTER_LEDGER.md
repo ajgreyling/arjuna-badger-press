@@ -1,10 +1,15 @@
-# Chapter Ledger — AFRIKA 2100 (binding draft map)
+# Chapter Ledger — AFRIKA 2100 (draft map)
 
-> **STATUS: DRAFT COMPLETE.** All 23 chapters written to `build/chapters/`; compiled
-> manuscript at `build/BOOK.md` (~34.2k words — a lean first draft; expansion passes may
-> grow individual chapters toward the original 2,400–3,000-word targets, but the arc,
-> plants, and payoffs are all delivered). Known deviations from the beat sheets below,
-> accepted into canon:
+> **STATUS: SUPERSEDED PENDING REDRAFT (2026-08).** Spine / arcs / acts rebuilt from
+> *The Prophet and his Brother* soil — see [`SEED_STORY.md`](SEED_STORY.md),
+> [`PLOT.md`](PLOT.md), [`CANON_CHOICES.md`](CANON_CHOICES.md) C-14/C-15. The 23 chapters in
+> `build/chapters/` and compiled `build/BOOK.md` are **stale salvage**: keep for texture,
+> plants, and lines worth stealing; do **not** treat the table below as binding beat law where
+> it conflicts with the new act map (ordinary loud → the asks → consent week → weather
+> undefeated). A replacement ledger is OPEN (O-01).
+>
+> **Historical note — prior status was DRAFT COMPLETE** (~34.2k words). Known deviations from
+> the old beat sheets (retained for salvage archaeology only):
 > 1. Marais's private confession ("what I am actually afraid of") plays in **ch-16**, not
 >    ch-19; ch-19 carries his floor-level pivot instead.
 > 2. The waking-room raw record is shown off-page between ch-12 and ch-14 and delivered to

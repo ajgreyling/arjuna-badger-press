@@ -1,104 +1,97 @@
 # Story Bible — AFRIKA 2100
 
-> Binding architecture. This file states the decisions that shape everything else; the other
-> canon files elaborate them. Where a decision is still open it is logged in
-> [`CANON_CHOICES.md`](CANON_CHOICES.md) — nothing open may be treated as locked in prose.
+> Binding architecture. Rebuilt from *The Prophet and his Brother* soil. Other canon files
+> elaborate; open items live in [`CANON_CHOICES.md`](CANON_CHOICES.md). Where Prophet and the
+> old 2100 draft conflict, **Prophet soil wins** unless a LOCKED choice below explicitly keeps
+> trilogy physics.
 
 ---
 
 ## D1 — What this book is
 
 The **spiritual fourth** of the African Gold trilogy. Standalone novel, set in **2100**, seventy
-years downstream of *RELIC*. Not a continuation of Priya's quest — the story of the world her
-choice built, facing the question that choice deferred. Series label on the shelf: **"An African
-Gold novel · The spiritual fourth."**
+years downstream of *RELIC*, sixty-five years downstream of *The Prophet and his Brother*. Not a
+continuation of Priya’s quest alone — the story of the world her choice *and* the 2035 consents
+built, facing the question those decades deferred. Series label: **"An African Gold novel · The
+spiritual fourth."**
 
-## D2 — The register inversion (the one big move)
+## D2 — The register inversion (kept) + the soul graft (new)
 
-The trilogy's discipline was *literal-but-grounded, and the Builders are gone* (RELIC
-MYTHOS_RULES Rule 1: "no ships land"). **AFRIKA 2100 is the sanctioned break, made carefully:**
-the Builders' heirs are on the page, in the open — but the register does not become space opera.
-Contact is rendered as **logistics, protocol, translation, and engineering** — manifests,
-berthing schedules, tuning tolerances, treaty language. The visitors are never mystical and
-never fully transparent; they are a counterparty. Rule 0 survives intact: **wonder comes from
-mechanism, never assertion.** See this book's [`MYTHOS_RULES.md`](MYTHOS_RULES.md).
+Trilogy discipline: *literal-but-grounded; Builders gone* (RELIC Rule 1). **AFRIKA 2100 is the
+sanctioned break:** Builders’ heirs on the page — contact as **logistics, protocol, translation,
+engineering**. Wonder from mechanism (Rule 0).
 
-## D3 — POV architecture (proposed, near-locked)
+**Soul graft from Prophet:** the book may not be only competent port SF. It must carry human
+desk-cost, weather-systems (not cartoon factions), partial consent, kinship without forced
+reunion theatre, and a close that leaves the weather blowing. Flat institutional chess without
+itch is out of canon.
 
-Two POV threads, braided — a deliberate step up from RELIC's single camera, because this book's
-subject is a *world*, not a quest:
+## D3 — POV architecture
 
-- **Naledi Mokoena** (primary, ~65% of pages) — tuning engineer at eGoli Spaceport. The South
-  African spine: the port, the discrepancy, the instrument, the elders.
-- **Capt. Ruth Stoltzfus** (secondary, ~35%) — Amish-raised US Army logistics officer escorting
-  the American gold consignment to eGoli. The American spine: the Compact, the Fold, the
-  flare-burned interior, the long road south.
-- The threads **converge at eGoli end of Act I** and interleave thereafter. No other cameras.
-  Priya Ellis appears in scene but never holds POV.
+Two POV threads, braided:
+
+- **Naledi Mokoena** (primary, ~65%) — tuning engineer; SA spine; instrument; elders; watch.
+- **Capt. Ruth Stoltzfus** (secondary, ~35%) — Compact / Fold / American spine; road; witness.
+
+Threads converge end of Act I; interleave thereafter. No other cameras. Priya in scene, never
+POV. **Braid rule (Prophet):** shared week, theme, public object — not buddy-movie fusion.
 
 ## D4 — The dramatic question
 
-*RELIC*: who may switch it on. *AFRIKA 2100*: **who may give it away.** The visitors request
-Earth's worked gold — by their manifest, to repair something old and failing (their framing
-echoes the Enki/Anunnaki tradition the trilogy honoured as belief: *mined to mend a dying
-world*). The book's factions:
+*RELIC*: who may switch it on. *Prophet*: what will you keep / unbind / allow said under
+weather. *AFRIKA 2100*: **who may give it away — and what does accepting custody cost when the
+weathers never stop.**
 
-| Position | Held by | The logic |
+Positions as **weathers** (each best argument on page):
+
+| Weather | Held by | Logic |
 |---|---|---|
-| **Give** — trade it, bind the relationship | The eGoli Accord states, most of the North | Goodwill from a superior power is the only security that exists |
-| **Keep** — the gold is Earth's inheritance | The Brotherhood's successors; a bloc of custodial states | It was kept asleep for a reason no one has been told in full |
-| **Understand first** — Priya's old position, now Naledi's | The tuning guild's conscience | You do not hand over a component until you know what the machine does |
+| **Give** | Accord majority, much of the North, China-loud | Goodwill from a superior power is the only security left |
+| **Keep** | Stewards / custodial bloc | Sleep had reasons; unexplained halt is still a brake |
+| **Understand first** | Guild conscience → Naledi’s mature position | Do not gift a component until you know the machine — or accept the watch *knowing* |
+| **Saint-hunger** | Soft churches, coin-pilgrims | Put G’s face above the Fold; ask “what would G sign” to avoid signing yourself |
+| **Receipt-faith** | Ledger culture, Kind residue | Measurement, practice, sentence without messiah |
 
-The climax is a consent act, not a battle — in the trilogy's tradition.
+Climax = consent act (trilogy + Prophet tradition), not battle.
 
-## D5 — The discrepancy (the mystery-box, grounded)
+## D5 — The discrepancy (mystery kept; soul reframed)
 
-Naledi's inciting discovery: the instrument's live telemetry (the planetary machine, awake since
-2064 at low idle) shows the visitors' gold consignments being used in a way that does not match
-the repair manifest — the resonance signatures point at **tuning, not patching**. Something is
-being *brought into tune* — and the honest, evidenced reveal of Act III must answer *what*, in
-engineering terms, and force the give/keep/understand choice with the answer on the table.
-(**Resolution LOCKED — CANON_CHOICES C-07:** the failing component is Earth's own node; Earth's
-sleep kept the network's only true calibration; the volume amendment scaffolds a maintenance
-handover. The climax is Earth accepting custody of its own machine.)
+Naledi’s discovery: live telemetry shows consignments used in a way that does not match the
+repair manifest — **tuning, not patching**. Act II end reveals C-07: Earth’s node failing;
+sleep kept calibration; gift always mutual; volume amendment = handover scaffold. **The soul
+move:** the reveal does not make the book clever; it names the easy wrongs (sign-blind,
+halt-as-theatre, bury messengers) so consent week can refuse them.
 
-## D6 — Continuity spine (what is inherited, hard canon)
+## D6 — Continuity spine (hard canon)
 
-1. **Gold is a resonance medium** (RELIC Rule 2). Unchanged, now public science.
-2. **The instrument is real and was sung awake in the Flare** (this book's founding event —
-   see TIMELINE). Its note is why the visitors came.
-3. **The Court / SAGE machine-mind lineage** (RESONANCE) persists; its descendants performed
-   the Fold. The Court's boundary-lesson (RELIC Rule 7-T: keyed to a present conscious mind)
-   still binds — machine minds still cannot operate the instrument. Load-bearing.
-4. **The Guardian / Assist suit lineage** (RESONANCE SUIT.md) is the ancestor of 2100 robotics;
-   LPGM and the rogue-preservation failure mode shaped the world's AI consent law.
-5. **The platinum alloy** seeded in RESONANCE is the ancestor of the platinum-alloy
-   supercapacitor — the battery that powers the recovery and makes SA indispensable.
-6. **G** (Gerhard van Niekerk) published the 420 Code copyleft in the 2020s; his stack (power,
-   comms, privacy, economy) carried the post-Flare world. In-world he and the trilogy's events
-   are contemporaries — see CROSSBOOK_CRUMBS for how close that contact gets (kept faint).
-7. **Priya Ellis** (109), **Arin Ndlela** (~100, status open C-05), **Leila Aziz** (~110, status
-   open C-05) — the trilogy cast as history and, where alive, as elders.
+1. Gold = resonance medium (RELIC Rule 2). Public science.
+2. Instrument real; sung awake in the Flare; note brought the visitors.
+3. Court / SAGE lineage; Fold as cultural salvage; Rule 7-T binds — machine minds cannot operate the instrument.
+4. Guardian / Assist → 2100 robotics + AI consent law.
+5. Platinum alloy → platcap century; SA indispensable.
+6. **G from Prophet soil:** b. 1980; 420 Code; 2035 Four Quarters / Kind / Lucid attribution fame / partial autobiography rails / crowns refused; d. 2058 Eastern Cape; vindication posthumous at civilisation scale after the Flare. Keep contact with trilogy cast faint (no retcon meeting).
+7. **AJ / CongoNet / Lucid / Kind:** Layer H texture — mesh ancestry, ethic-as-ops → street → Fold; not characters on 2100’s stage unless a crumb scene demands a museum object.
+8. Priya Ellis (109); Arin dead 2077 (Frame at Gate Eleven); Leila alive Aksum by letter (C-05).
 
-## D7 — Standalone-intact (inherited invariant)
+## D7 — Standalone-intact
 
-As with the trilogy weave: **no crumb from books 1–3 may be load-bearing here.** A newcomer
-reads AFRIKA 2100 complete. A trilogy reader gets landings everywhere. Gate rule carried
-unchanged from RELIC's CROSSBOOK_CRUMBS invariants.
+No crumb from books 1–3.5 may be load-bearing for a newcomer. Trilogy/Prophet readers get
+landings; newcomers get a complete novel.
 
 ## D8 — Tone anchors
 
-- *The Martian* / *Project Hail Mary* — procedural credibility, competence as suspense.
-- *Children of Time* (Tchaikovsky) — deep-time consequence, non-human counterparty held honest.
-- *A Canticle for Leibowitz* — faith reorganised around catastrophe, rendered with respect.
-- The trilogy's own register: dry, exact, wonder-from-mechanism, South African ground truth.
+- *The Martian* / *Project Hail Mary* — procedural credibility.
+- *Children of Time* — deep-time counterparty held honest.
+- *A Canticle for Leibowitz* — faith after catastrophe, respected.
+- **Prophet house register** — desk consent, weather, flat loaded wounds, no victory lap.
+- Trilogy: dry, exact, wonder-from-mechanism, SA ground truth.
 
 ## D9 — What this book refuses
 
-- No invasion plot, no war with the visitors, no laser battles.
-- No mockery of the Amish, the Fold, or any faith — the Compact and the folded religion are
-  rendered with the same respect the trilogy gave the Brotherhood (belief honoured as meaning).
-- No lone-genius saves-the-world; the book's competence is guilds, compacts, and institutions.
-- No de-grounding: platinum supercaps obey materials science, the mesh obeys radio physics,
-  travel obeys distance. The visitors' tech may exceed ours but never behaves as magic on the
-  page.
+- Invasion / war with visitors / laser battles.
+- Mockery of Amish, Fold, Kind residue, or any faith — Brotherhood discipline.
+- Lone-genius save; competence is guilds, compacts, institutions **plus** individual desk cost.
+- De-grounding tech into magic.
+- Softening the terminal ethic’s cunt when the coin is honest.
+- Sanding G into Einstein-only; resolving weathers into one correct camp; victory-lap Renewal.
+- Treating the stale first-draft chapters as binding once this bible conflicts with them.

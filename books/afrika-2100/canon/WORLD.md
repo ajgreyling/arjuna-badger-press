@@ -58,16 +58,16 @@ empire, but the indispensable nation — the place everyone must deal with, on i
   - The Compact zones fed the continent. By 2100 the emergency is long over, but the Compact
     endures as an institution — half agricultural extension service, half national identity.
     The aesthetic of the American interior is Plain-inflected: barns, meshes, muscle, and quiet.
-- **The Fold (the new Sunday):** America still fills its pews — catastrophe made the pews
-  matter more, not less. But the god is new. During the Blackout Decade the Court-lineage
-  machine minds, asked to salvage the world's cultural memory, **folded** the complete
-  religious history of the species — every scripture, tradition, commentary, and heresy,
-  weighted by the 420 Code's coherence ladder — and what survived the fold was a terminal
-  ethic two sentences long: ***Don't be a cunt. Be kind.*** (Liturgical form: *Be kind*; the
-  full form is on the coin and everyone knows it.) The Fold is a practice, not a hierarchy:
-  Sunday assembly, the reading of folded passages (a psalm beside a sutra beside a Zulu
-  praise-song, presented as one inheritance), and the ledger of kindnesses. Rendered with
-  respect, always — see STORY_BIBLE D9.
+- **The Fold (the new Sunday ← Kind soil):** America still fills its pews — catastrophe made
+  the pews matter more, not less. But the god is new. The terminal ethic began as **Kind**
+  paint and CongoSky ops in the 2030s (***Don't be a cunt — be kind*** — messiah-less;
+  Antichristos wanted a face and failed to own the walls). During the Blackout Decade the
+  Court-lineage machine minds, asked to salvage cultural memory, **folded** every scripture
+  through the 420 Code's coherence ladder; what survived was that same terminal ethic. Liturgical
+  form often softens to *Be kind*; the full line survives on honest coins (Ruth notices
+  soft-scrub). Saint-hunger still tries faces — often G's — above the sentence. The Fold is
+  practice, not hierarchy: Sunday assembly, folded passages as one inheritance, ledger of
+  kindnesses. Rendered with respect — STORY_BIBLE D9; Prophet C-10/C-11 soil.
 - **Relationship to SA:** the US is a treaty customer — of batteries, of ledger settlement, of
   port access. The gold consignment Ruth escorts is America's stake in the species
   conversation. The humility of this position, for America, is a quiet engine of the book.
