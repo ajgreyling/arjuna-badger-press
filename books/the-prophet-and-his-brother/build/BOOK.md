@@ -270,7 +270,7 @@ I remember tying a belt wrong and having to untie it while everyone waited. Heat
 
 We did breakfalls until the body stopped inventing drama about falling. Slap the mat. Exhale. Arrive. Again. The sound of a room learning to land is ugly and useful, a rhythm without music. After enough repetitions the fear moves somewhere smaller and the attention gets freer. Free attention is what you need if you are going to notice a grip opening half a second early. Free attention is also what you need later if you are going to notice a contradiction sitting in a notebook because a committee preferred opacity.
 
-Jiu-Jitsu came after, and it was a different grammar of the same language. Closer. Longer. Less spectacle. You learn the floor as partner and opponent at once. You learn that a shoulder can be a lever and a hip can be a door and a breath can be a clock. You learn to survive under weight without panic becoming your whole personality. Panic wastes motion. Panic is a kind of invention when the record—the body under you, the body over you—already contains the next useful move if you will only refuse to hallucinate.
+Jiu-Jitsu came after, and it was a different grammar of the same language. Closer. Longer. Less spectacle. You learn the floor as partner and opponent at once. You learn that a shoulder can be a lever and a hip can be a door and a breath can be a clock. You learn to survive under weight without panic becoming your whole personality. Panic wastes motion. Panic is a kind of invention when the record, the body under you, the body over you, already contains the next useful move if you will only refuse to hallucinate.
 
 I spent long minutes under a heavier partner with my cheek pressed to canvas that smelled of cleaner and old sweat. The clock lied. My ribs counted true. He shifted. I found space. He closed it. I waited for a better mistake than the one I wanted to invent. When the space came I took it without celebrating. Celebration is another waste. The coach said *again* and we started from the same bad place, which is how competence is built when you are not performing for a camera.
 
@@ -360,7 +360,7 @@ The ignored shelf will have its chapter. The hospital stigma will have its flat 
 
 This page’s job is the apprenticeship.
 
-You arrange yourself so the fall is correct. You refuse to invent a move the record does not hold. You set the heavy thing down soft. You do not confuse strength with spectacle. You do not confuse care with polishing a man into a prophet or a crank or a keychain.
+You set your weight so the fall lands clean. You refuse to invent a move the record does not hold. You set the heavy thing down soft. You do not confuse strength with spectacle. You do not confuse care with polishing a man into a prophet or a crank or a keychain.
 
 I learned that on mats that smelled of cleaner and sweat. I kept learning it in clay. I am still learning it while the planet argues about a Constant that has already begun to land in the meters. Measurement is not the fight I am naming here. Meaning is. Custody is. The floor is where custody of a body begins, and for me, where custody of a sentence begins too.
 
@@ -372,7 +372,7 @@ The mats first. Always the mats first if the book is going to be true.
 
 I close this page the way I used to leave the dojo: sweat cooling, lesson in the body, no speech for the street. The shelf can wait one more breath. The floor has been granted its priority. Correct fall. Soft set-down. Hand turning now, without inventing a hinge, toward the rooms that preferred the hospital story.
 
-One more flat inventory before the turn, because inventories are harder to sentimentalise than arias: gi folded wrong once and corrected; a throw that taught soft set-down; cracked wrists later corrected in casts and still remembered as apprenticeship, not as brand; dab postponed and then not; talk shit into empty air until the room widened without extraction. The mats page does not polish those facts into respectability for Quarter IV. It leaves them as body knowledge under the work. Correct fall. Soft set-down. The only arrangement that does not collapse. Hand already turning toward the shelf, without inventing a hinge Lucid would refuse, while the planet argues about a Constant that has already begun to land in the meters. Measurement is not this page’s fight. Meaning is. Custody begins on the floor.
+One more flat inventory before the turn, because inventories are harder to sentimentalise than arias: gi folded wrong once and corrected; a throw that taught soft set-down; cracked wrists later corrected in casts and still remembered as apprenticeship, not as brand; dab postponed and then not; talk shit into empty air until the room widened without extraction. The mats page does not polish those facts into respectability for Quarter IV. It leaves them as body knowledge under the work. Correct fall. Soft set-down. The only shape that holds. Hand already turning toward the shelf, without inventing a hinge Lucid would refuse, while the planet argues about a Constant that has already begun to land in the meters. Measurement is not this page’s fight. Meaning is. Custody begins on the floor.
 
 # 03—Four Temperatures
 
@@ -522,13 +522,13 @@ At the alley he paused without blessing the wall. Kind paint still tacky at the 
 
 The mats page was underway when Lucid refused him.
 
-AJ had asked for a bridge sentence, something that would carry the floor-lesson into the ignored shelf without sounding like a hinge sold from a stage. He said it out loud the way he said most working asks: plain, to the choir, not to an oracle. Heat already on the Chobe. Elephants gone from the bank, mud still printed with their morning. A fish eagle distant. The LEO dish cocked at pale sky like a patient ear. Mutatus Maximus holding still the way a matatu holds still when the music is off and the work is on—painted overkill, anti-yacht, mobile data centre on wheels, the most connected vehicle on earth, literally.
+AJ had asked for a bridge sentence, something that would carry the floor-lesson into the ignored shelf without sounding like a hinge sold from a stage. He said it out loud the way he said most working asks: plain, to the choir, not to an oracle. Heat already on the Chobe. Elephants gone from the bank, mud still printed with their morning. A fish eagle distant. The LEO dish cocked at pale sky like a patient ear. Mutatus Maximus holding still the way a matatu holds still when the music is off and the work is on: painted overkill, anti-yacht, mobile data centre on wheels, the most connected vehicle on earth, literally.
 
 Lucid answered exact.
 
 “No grounded source for that transition in the ingested record as phrased. Refuse invention. Cite available: mats section draft under hand; shelf material not yet retrieved for this pass.”
 
-AJ’s mouth flattened. The refusal was the product working. Cite-or-refuse. No glow. No personality cosplay. Integer quiet under the desk-hum of the local node—the animal that lived in the truck whether tourists understood a travelling DC or not. LoRa nodding at the little solar drop he had booted on the rise yesterday before coffee. Today’s use of the connection was to refuse a pretty lie and keep a life from becoming usable weather for other people’s quarters.
+AJ’s mouth flattened. The refusal was the product working. Cite-or-refuse. No glow. No personality cosplay. Integer quiet under the desk-hum of the local node, the animal that lived in the truck whether tourists understood a travelling DC or not. LoRa nodding at the little solar drop he had booted on the rise yesterday before coffee. Today’s use of the connection was to refuse a pretty lie and keep a life from becoming usable weather for other people’s quarters.
 
 “Fine,” he said. “Stay on the mats. Don’t invent the hinge.”
 
@@ -540,11 +540,11 @@ He sat with the refusal for a breath and let the truck tell him what morning it 
 
 Sweat already finding the place behind his knee where the chair never quite fit. The open side of Mutatus taking river air that smelled of mud and bird and the particular cleanliness of water that has been moving all night. Painted metal warm under his palm when he braced to stretch. Somewhere down-channel a hippo made the wet, insulted sound of ownership. The rise drop’s heartbeat was still green in the corner of the pane, boring, blessed, and he did not inventory the rest of the ladder to himself. A link worked or he fixed it. Today it worked.
 
-CongoSky.cloud ran itself somewhere behind the mesh—the company that had embodied the sentence as ops before the walls caught fire: hire/fire weather, partner terms, product posture, the working rule that was not a poster in reception. Here on the river the choir was smaller: one man, one manuscript, one engine that would rather say no than decorate. lucid.rodeo and arjunabadger.press were the human work. The autobiography of Gerhard van Niekerk was the human work that hurt. AJ remained the main subject of *this* book’s gravity even while authoring *that* life, braid, not vanishing act. The desk held both facts without a lecture about form.
+CongoSky.cloud ran itself somewhere behind the mesh, the company that had embodied the sentence as ops before the walls caught fire: hire/fire weather, partner terms, product posture, the working rule that was not a poster in reception. Here on the river the choir was smaller: one man, one manuscript, one engine that would rather say no than decorate. lucid.rodeo and arjunabadger.press were the human work. The autobiography of Gerhard van Niekerk was the human work that hurt. AJ remained the main subject of *this* book’s gravity even while authoring *that* life, braid, not vanishing act. The desk held both facts without a lecture about form.
 
 He wrote another paragraph about weight.
 
-Soft set-down. Correct fall. Judo first, then Jiu-Jitsu—body knowledge before corpus knowledge. Mastery as refusal to waste motion. You arrange yourself so the fall is correct. Years later kindness derived the same way, structure that does not collapse, but the mats page would not leap there on a fake bridge. Lucid had refused the leap. Good. The autobiography wanted to rush toward fame and CODATA and the mic. He would not let it. G’s life was not a trailer for a Constant. The mats first. Always the mats first if the book was going to be true enough that the four quarters could not sand it into a usable lie.
+Soft set-down. Correct fall. Judo first, then Jiu-Jitsu, body knowledge before corpus knowledge. Mastery as refusal to waste motion. You arrange yourself so the fall is correct. Years later kindness derived the same way, structure that does not collapse, but the mats page would not leap there on a fake bridge. Lucid had refused the leap. Good. The autobiography wanted to rush toward fame and CODATA and the mic. He would not let it. G’s life was not a trailer for a Constant. The mats first. Always the mats first if the book was going to be true enough that the four quarters could not sand it into a usable lie.
 
 He typed a sentence that tried to become a speech about ethics arriving from the floor. Read it once. Cut it before Lucid had to.
 
@@ -602,9 +602,9 @@ Empty.
 
 The Joseph Rogers that stayed with him was elsewhere in the truck, not lost, just not clipped today, and the absence still registered like a missing tooth. G had the other twin and the blue Honey Badger AJ had given him: pocket clip, one-hand open/close, loved. Double Knife Brothers. Kinship, not choreography. Grandfather deep-time on one blade; badger present-tense on the other. AJ felt the empty pocket the way you feel a brother on another coast without calling him. No forced reunion. CongoNet was bridge enough if a bridge were needed. Today it was not. Today was choir. The empty pocket was the day’s softest accurate sentence.
 
-He stood, stretched until a vertebra clicked, poured water that tasted like plastic and river, and walked the length of Mutatus the way a man walks a room he built to think in. Solar charge honest. Local node patient. Drawer where the Joseph Rogers waited, old steel, old hinge, quiet weight, opened and closed without becoming a prop for a speech. He sat again. The empty twin pocket stayed empty. That was more accurate than carrying the blade as theatre.
+He stood, stretched until a vertebra clicked, poured water that tasted like plastic and river, and walked the length of Mutatus the way a man walks a room he built to think in. Solar charge honest. Local node patient. Drawer where the Joseph Rogers waited, old steel, old hinge, quiet weight, opened and closed without becoming a prop for a speech. He sat again. Empty stayed empty. He didn’t reach for the drawer again. That was truer than carrying the blade as theatre.
 
-For a minute he almost clipped the Rogers for the feel of it, kinship as weight against the thigh, and then did not. Carrying it today would turn absence into costume. Absence was the true sentence: G on another coast with the Honey Badger and the twin, living whatever weather Cape mornings delivered, while AJ kept the river desk from becoming a reunion stage. CongoNet could carry a ping if a ping were needed. No ping was needed. The braid did not require a shared room to stay a braid.
+For a minute he thought about clipping the Rogers for the feel of it, kinship as weight against the thigh, and then did not. Carrying it today would turn absence into costume. Absence was the true sentence: G on another coast with the Honey Badger and the twin, living whatever weather Cape mornings delivered, while AJ kept the river desk from becoming a reunion stage. CongoNet could carry a ping if a ping were needed. No ping was needed. The braid did not require a shared room to stay a braid.
 
 “Continue mats retrieval?” Lucid asked, only when the silence had gone long enough to be a question.
 
@@ -614,7 +614,7 @@ For a minute he almost clipped the Rogers for the feel of it, kinship as weight 
 
 “Good.”
 
-He wrote three sentences about a gi belt being tied wrong, then untied, then tied again until the knot was honest. Lucid offered a citation that belonged. AJ kept it. He wrote one more about soft set-down, heavy thing setting itself down soft, and felt the old temptation to make the floor into a lesson about kindness derived. He cut the temptation the way Lucid cut invention: not as piety, as craft.
+He wrote three sentences about a gi belt being tied wrong, then untied, then tied again until the knot was honest. Lucid offered a citation that belonged. AJ kept it. He wrote one more about soft set-down, heavy thing setting itself down soft, and felt the old temptation to make the floor into a lesson about kindness derived. He cut the temptation the way Lucid cut invention, not as piety, as craft.
 
 A fly found the open side and circled once as if auditing the desk. AJ ignored it. The cursor waited. He asked Lucid whether a particular throw-name belonged in this decade of the life or later.
 
@@ -638,7 +638,7 @@ Hyperscaler subject lines that thought they were polite. AWS. Azure. A Google th
 
 “Park it,” AJ said. “Choir first. Snake can wait on the desk.”
 
-He stood again because sitting with frost made the shoulders want a speech, and speeches were how you fed a collar. Walked out into the heat. Boots taking scrub that had gone from dew to dust since the blue hour. The Kind paint held. The rise was a pale bump against scrub. Thorn caught his sleeve and let go with a small tear he would ignore until evening, the same kind of tear the morning walk had taught him not to dramatise. He checked the solar node’s heartbeat from the truck’s short-range pane, still up, without turning the morning into an inventory. Connectivity without consent discipline was just a louder mistake. He had built the truck so he could drive it to a river and still choose what to switch off.
+He stood again because sitting with frost made the shoulders want a speech, and speeches were how you fed a collar. Walked out into the heat. Boots taking scrub that had gone from dew to dust since the blue hour. The Kind paint held. The rise was a pale bump against scrub. Thorn caught his sleeve and let go with a small tear he would ignore until evening, the same tear the morning walk had taught him not to dramatise. He checked the solar node’s heartbeat from the truck’s short-range pane, still up, without turning the morning into an inventory. Connectivity without consent discipline was just a louder mistake. He had built the truck so he could drive it to a river and still choose what to switch off.
 
 He crouched once by the enclosure on the rise, not because the heartbeat had lied, because his hands wanted a true warm panel under the thumb. Dust. Ant trail redirected yesterday still respecting the seal. Sun doing the only honest CapEx left in the story. A warthog moved through scrub below the rise and did not look up; the river kept its brown argument with the bank; a dragonfly held over dust for half a second and was gone; heat found the back of his neck and stayed. He stood, walked back with frost still waiting in a pane he could not smell until he sat down again.
 
@@ -662,7 +662,7 @@ He put his palm flat on the sealed packet once, not to open, to size it, then se
 
 “Status,” he said, not as prayer.
 
-“Local node nominal. Rise drop heartbeat green. CongoSky quiet. Frost queue parked. Quarter III packet unopened per prior hold. Manuscript open at mats draft. Cite: session note—body before shelf.”
+“Local node nominal. Rise drop heartbeat green. CongoSky quiet. Frost queue parked. Quarter III packet unopened per prior hold. Manuscript open at mats draft. Cite: session note, body before shelf.”
 
 “Stay on body.”
 
@@ -682,7 +682,7 @@ He tried a third wrong bridge: hospital stigma already half-written in other peo
 
 Lucid retrieved. Citations. Gaps. AJ shaped paragraphs the way you shape a pour, hard where it should be hard, soft where soft belongs, no decoration that pretends to be structure. He wrote the body arranging itself so the floor does not invent you. He wrote weight as fact, not as sermon. When a sentence tried to climb toward CODATA, he deleted it. Cause would have its page. Cause was not where a body begins.
 
-Shoulders found the ache that meant pilgrimage-scale desk work. He rolled them once and kept typing. The empty twin pocket stayed empty against his hip like a metronome that refused drama. Outside, birds lifted off the far bank. Heat pressed the truck’s painted flank. Inside, CongoSky’s quiet ops hum continued, company law still company law while the street and the platforms argued, somewhere far from this river, about who owned the sentence and who owned the mic.
+Shoulders found the ache that meant pilgrimage-scale desk work. He rolled them once and kept typing. The empty twin pocket sat against his hip like a metronome that refused drama. Outside, birds lifted off the far bank. Heat pressed the truck’s painted flank. Inside, CongoSky’s quiet ops hum continued, company law still company law while the street and the platforms argued, somewhere far from this river, about who owned the sentence and who owned the mic.
 
 AJ did not own either. He practised both.
 
@@ -712,7 +712,7 @@ AJ typed. Lucid offered a citation for a detail instead of a metaphor. Good. Ear
 
 Frost stayed audible, polite, patient, wanting Lucid in a cage with a smile.
 
-A second CongoNet ping, also green. He let it pass. He did not switch Lucid off. He did not switch the manuscript off. He switched off, again, the part of himself that wanted to answer frost with a speech and rage with a press conference.
+A second CongoNet ping, also green. He let it pass. He did not switch the manuscript off, nor Lucid; he switched off, again, the part of himself that wanted to answer frost with a speech and rage with a press conference.
 
 ---
 
@@ -1238,9 +1238,9 @@ Back at the desk he typed two more sentences of the dedication turn, corpus poin
 
 Every book I have made carries his name in the front.
 
-Dedicated to my father. The line is not a marketing flourish. It is the a0 of the outreach—the real goal under the public goals. Write natural philosophy and physics. Smoke dab. Talk shit. And somehow, across all of it, leave a stack of pages that might finally be opened by the man they are for. The front matter is the quietest ask I know how to make. It has never been answered.
+Dedicated to my father. The line is not a marketing flourish. It is the a0 of the outreach, the real goal under the public goals. Write natural philosophy and physics. Smoke dab. Talk shit. And somehow, across all of it, leave a stack of pages that might finally be opened by the man they are for. The front matter is the quietest ask I know how to make. It has never been answered.
 
-I can see the line in different bindings the way you see a scar in different seasons—same place, different light. Early books where the paper still hoped. Later books where hope had learned manners. This manuscript under a river hand carries it again because removing it would be a lie told for comfort. Comfort is not custody.
+I can see the line in different bindings the way you see a scar in different seasons, same place, different light. Early books where the paper still hoped. Later books where hope had learned manners. This manuscript under a river hand carries it again because removing it would be a lie told for comfort. Comfort is not custody.
 
 Sometimes people ask what I want from him. They want a sentence they can carry to a dinner table. I do not give them one. Want is not a press kit. The dedication is already the clearest want I know how to print. What happens after printing is not mine to narrate without inventing him.
 
@@ -1256,7 +1256,7 @@ The first time I typed the dedication I believed, with the private arrogance of 
 
 I have rewritten front matter in different fonts as if typography could soften a refusal. It cannot. I have left books in places where a hand might fall naturally: table, shelf at eye height, the honest geography of hope without speech. Still unread. I have imagined the conversation that would follow a first page turned and then refused to script his lines. Scripting him would be the same sin Antichristos commits with my face: inventing a usable person.
 
-There were years when the dedication hurt like a fresh throw—breath knocked, pride rearranged. There were years when it hurt like an old knee: present, known, not always loud. Fame did not heal the knee. Measurement did not. If a stranger now says the unread must be the engine of everything I write, they are making a morality play out of a custodial fact. The engine is the work. The dedication is the ask. The unread is the weather around the ask.
+There were years when the dedication hurt like a fresh throw, breath knocked, pride rearranged. There were years when it hurt like an old knee: present, known, not always loud. Fame did not heal the knee. Measurement did not. If a stranger now says the unread must be the engine of everything I write, they are making a morality play out of a custodial fact. The engine is the work. The dedication is the ask. The unread is the weather around the ask.
 
 ---
 
@@ -1268,7 +1268,7 @@ The Constant is landing.
 
 Meaning is not.
 
-Meaning is who gets to say what the work is for. Who paints it. Who retracts it. Who turns a life into liturgy, product, apology, or ignored shelf again. Who decides that a man with a file cannot write value, and who decides that a man with a Constant must become a face. My father wants—I do not know. He has not told the books. The books keep telling him anyway.
+Meaning is who gets to say what the work is for. Who paints it. Who retracts it. Who turns a life into liturgy, product, apology, or ignored shelf again. Who decides that a man with a file cannot write value, and who decides that a man with a Constant must become a face. My father wants, I do not know. He has not told the books. The books keep telling him anyway.
 
 CODATA can walk toward a number and still leave a dedication unread. That sentence is the Act I hinge in plain clothes. Measurement is not meaningless; measurement is not meaning’s custody. The planet is learning the difference badly. Antichristos learns it as hunger for a face. Academy learns it as hygiene. Platforms learn it as provenance panic. Engineers learn it as keys. Continuity weather learns it as soft no. I learn it as front matter that does not get opened and work that must continue anyway.
 
@@ -1294,11 +1294,11 @@ I kept the life goals flat through those mornings: write natural philosophy and 
 
 There was a desk. There was a notebook that did not care about my hospital file. There were evenings when dab softens the room and talk shit widens it, and then mornings when the numbers asked to be arranged without apology. Press hard where the mix demands it and ease off where it doesn’t, both in the same motion, the same attention that had learned grips on mats and surfaces in Studio G. A contradiction left standing because politeness preferred it felt like a bad posture before a throw: something smaller than you can end you if you pretend the geometry is optional. I would not pretend. That is the beginning’s posture, not a syllabus.
 
-I will not dump axioms here like a course pack. You can find the rails elsewhere if you need rails. On this page I only need the beginning’s posture: derive what must be derived; keep ethics where physics puts them; do not launder the ladder into respectability theatre. The Kind’s wall sentence is the popular face of a coherence claim, not vibes—
+I will not dump axioms here like a course pack. You can find the rails elsewhere if you need rails. On this page I only need the beginning’s posture: derive what must be derived; keep ethics where physics puts them; do not launder the ladder into respectability theatre. The Kind’s wall sentence is the popular face of a coherence claim, not vibes.
 
 **Don’t be a cunt — be kind.**
 
-—but even that I will not sermonise past the paint. Show the wall. Keep the cunt. Let the structure hold without a TED metaphor for unification. CongoSky embodied the ethic as ops before the street caught fire; I am not founding a church by noticing that. Antichristos wants a face for a lemma. The Kind wants a sentence. My father has been offered books and has not taken them as reading. Different hungers. Same problem underneath: what a life is for when other people prefer their version.
+But even that I will not sermonise past the paint. Show the wall. Keep the cunt. Let the structure hold without a TED metaphor for unification. CongoSky embodied the ethic as ops before the street caught fire; I am not founding a church by noticing that. Antichristos wants a face for a lemma. The Kind wants a sentence. My father has been offered books and has not taken them as reading. Different hungers. Same problem underneath: what a life is for when other people prefer their version.
 
 They told me nothing I wrote would ever be worth reading.
 
@@ -1314,13 +1314,13 @@ I have watched people discover the Constant in my work and decide that discovery
 
 ---
 
-If Act I has a hinge, it is here: not the Constant’s arrival, which is already measurement’s business, but the naming of the fight that remains after measurement. Custody. Meaning. Who may say what the work is for when the father has not read it, the ward still speaks in other people’s mouths, the mic was given by candour, and the wall only wants a sentence.
+If Act I has a hinge, it is here: not the Constant’s arrival, already measurement’s business, but the naming of the fight that remains after measurement. Custody. Meaning. Who may say what the work is for when the father has not read it, the ward still speaks in other people’s mouths, the mic was given by candour, and the wall only wants a sentence.
 
 Name it once more without ornament so the turn cannot be mistaken for a victory lap: the Constant lands; meaning fights. Fame is not the climax. CODATA is not the climax. The unread dedication is not a puzzle to solve before Act II. It is a condition Act II inherits, along with keys, faces, silencings, salvage collars, Bouwer’s page waiting without thriller, and consent waiting in different rooms.
 
 AJ writes this while river heat sits on metal. I live the weather of pages opening on my life. Ambivalence remains. Want truth. Fear content. That ambivalence is also meaning-work. Consent will choose later what may ship. Act I only orients the question away from whether the number arrives.
 
-AJ is writing this autobiography on a river while I live the weather of being written. I can feel the pages sometimes—not magic, pressure. A faint sense that a mats afternoon has already been arranged into sentences somewhere heat lives beside a river; that a shelf’s dust has been weighed; that this dedication is being typed by a hand that is not mine and still somehow mine in the way authorised life can be. Ambivalence without aria: want truth, fear content. Consent will matter later. For now the turn is simpler and harder:
+AJ is writing this autobiography on a river while I live the weather of being written. I can feel the pages sometimes, not magic, pressure. A faint sense that a mats afternoon has already been arranged into sentences somewhere heat lives beside a river; that a shelf’s dust has been weighed; that this dedication is being typed by a hand that is not mine and still somehow mine in the way authorised life can be. Ambivalence without aria: want truth, fear content. Consent will matter later. For now the turn is simpler and harder:
 
 The meters can agree and the life can still be stolen.
 
@@ -1368,7 +1368,7 @@ I close this page mid-motion: dedication written; books still unread; fight name
 
 Not the number.
 
-The custody of what the number is for—hand already turning toward Act II’s mail.
+The custody of what the number is for, hand already turning toward Act II’s mail.
 
 Custody stays the word even when it is ugly. Custody is not ownership of a father. Custody is refusal to let quarters finish the story of a life while meters finish the story of a Constant. Different finishes. Same morning of the world.
 
@@ -2502,17 +2502,17 @@ Sell Lucid.
 
 Recant was Quarter III’s preferred hygiene: retract the attribution, stop the book, ritual distance, pretend the megaphone had been a misunderstanding. The stop-the-book demand from earlier in the week had come back thicker, as Lucid had said it would. Brands still paused. Partner frost still polite. Platform threads still wanted an apology livestream the way hunger wants a face. One new note offered “amnesty language” if he would ship a splash that called the 420 attribution historically overstated. Historically overstated meant lie. Recant would buy quiet for a month and cost the true sentence forever.
 
-Feed Antichristos a silhouette was quieter and uglier: bless the name, appear, accept the crown-shaped vacancy they kept trying to put on G’s head by routing the ask through AJ’s desk. A letter waited in the stack with liturgy soft enough to sound like care. Give them a sentence and they would mint a relic. Give them a river backdrop and they would call it pilgrimage. AJ had refused that weather before without sounding like academy gatekeeping. He refused it again by not opening the letter’s second page. The Kind paint on the tank did not need a messiah. Antichristos did. Same paint war, same morning: **Don’t be a cunt — be kind.** Scraped stickers. Exact line. He did not turn either hunger into a speech.
+Feed Antichristos a silhouette was quieter and uglier: bless the name, appear, accept the crown-shaped vacancy they kept trying to put on G’s head by routing the ask through AJ’s desk. A letter waited in the stack with liturgy soft enough to sound like care. Give them a sentence and they would mint a relic. Give them a river backdrop and they would call it pilgrimage. AJ refused that weather again by not opening the letter’s second page. The Kind paint on the tank did not need a messiah. Antichristos did. Same paint war, same morning: **Don’t be a cunt — be kind.** Scraped stickers. Exact line.
 
 Sell Lucid was the hyperscaler collar with better lighting. Absorb the engine. Come home to the regions. Let acquisition language call itself stewardship. Name the extinction clause as partnership. AWS, Azure, Google, Apple: salvage weather that still thought it was kindness. The snake from last week’s mail had not left the desk. It had learned to wait beside the Quarter III packet like the two were friends already. Talent notes hummed. Compliance fog hummed. App-store adjacency hummed. None of it was a moustache-twirl villain scene. All of it was gravity.
 
 AJ looked at all three.
 
-Knowing what he would not do brought no relief. Knowing was posture, mats logic applied to a desk. Correct fall. Soft set-down. Refuse to waste motion on a lie that would photograph well.
+Knowing what he would not do brought no relief. Knowing was posture, mats logic applied to a desk. Correct fall. Soft set-down.
 
 He drank water that tasted of thermos and river morning. Checked the solar node because the habit was older than the packet: seed the edge, boot from MM, drive on, keep the little lights honest. Green. A fish eagle cut the far bank once and asked him for nothing. Mutatus Maximus stayed what it was: matatu overkill, anti-yacht, mobile DC, desk that held river and Lucid and G’s life in progress while four quarters tried to sand both men into usable lies.
 
-He sat with the three wrongs long enough to feel each one’s cheap promise in the body. Recant promised quiet shoulders. Feeding Antichristos promised belonging that photographed as courage. Selling Lucid promised money and the end of salvage mail. Each promise was a soft set-down onto the wrong mat. He had learned enough from G’s life under his hand, mats, clay, correct fall, not to confuse a soft landing with a true one.
+He sat with the three wrongs long enough to feel each one’s cheap promise in the body. Recant promised quiet shoulders. Feeding Antichristos promised belonging that photographed as courage. Selling Lucid promised money and the end of salvage mail. He had learned enough from G’s life under his hand, mats, clay, correct fall, not to confuse a soft landing with a true one.
 
 A hippo’s grunt came again, closer. AJ invented nothing. Lucid’s job was refusal; his was the same, applied to mail that wanted him smaller.
 
@@ -2524,7 +2524,7 @@ A hippo’s grunt came again, closer. AJ invented nothing. Lucid’s job was ref
 
 “Good.”
 
-He drafted nothing theatrical. He left the collar unanswered again. He left Antichristos unfed. He left the stop-the-book demand in the deferred-hard state he had already chosen, not consent week, not resolution, only the refusal to un-say. For the amnesty splash: refused. For the livestream: refused. For the thirty-day dark still floating in one brand thread: refused.
+He drafted nothing theatrical. He left the collar unanswered again. He left Antichristos unfed. He left the stop-the-book demand in the deferred-hard state he had already chosen: not consent week, not resolution, only the refusal to un-say. For the amnesty splash: refused. For the livestream: refused. For the thirty-day dark still floating in one brand thread: refused.
 
 Cost stayed visible. Shoulders up. Molars tight. Inbox ugly. CongoNet badge pauses still in effect. Somewhere a hyperscaler analyst was writing a memo about reputational adjacency. Somewhere a Kind walker was spray-painting a wall with the exact line CongoSky had run on before the street caught fire. Somewhere G was alone with a soft no AJ could feel only as braid weather, not as a shared room, not as a reunion. CongoNet, Code, public pressure were the allowed bridges. The body stayed on the river.
 
@@ -2544,7 +2544,7 @@ He opened the amnesty splash draft one of the brand people had kindly pre-writte
 
 He pulled up the deferred-hard refusal from earlier in the week and read it once, not to soften it, to confirm it still said what he meant. Stop-the-book demand: refused as acceptance, answered as refusal to stop on platform schedule. Consent language about autobiography shipment: not present. Good. Consent was Act III’s hinge, not today’s escape hatch. Today only cleared false exits.
 
-Outside, heat shimmered off the tank until the Kind line looked briefly liquid and then solid again. AJ watched it without sermon. CongoSky had run that sentence as company law while invoices still needed answering. The street had caught the paint later. G refused ownership. AJ refused to turn either fact into a press beat from the Chobe. The paint stayed paint. The desk stayed desk.
+Outside, heat shimmered off the tank until the Kind line looked briefly liquid and then solid again. AJ watched it without sermon. CongoSky had run that sentence as company law while invoices still needed answering. The street had caught the paint later. G refused ownership. The paint stayed paint. The desk stayed desk.
 
 ---
 
@@ -2556,9 +2556,9 @@ Lucid retrieved, refused where the record thinned, waited where invention would 
 
 Morning thickened into the kind of heat that makes decisions feel heavier without making them clearer. AJ paused once to drink more water. He checked the solar node again because repetition was how edge stays honest. Green. He had built connectivity so he could choose silence. He chose silence on the collar. He chose the page on the demand. He chose not to feed the faith that wanted a face. He kept Lucid running. He did not sell it. He did not stop the book.
 
-A follow-up from Quarter III arrived with amnesty language polished overnight. *If you clarify attribution as inspirational adjacency, partners are prepared to restore badge display within a goodwill window.* Goodwill window meant: kneel on a schedule. Inspirational adjacency meant: lie. AJ left it unread beyond the first sentence. Lucid noted hostility markers unchanged in character, up in volume. Unchanged in character was small comfort, and small was all it was.
+A follow-up from Quarter III arrived with amnesty language polished overnight. *If you clarify attribution as inspirational adjacency, partners are prepared to restore badge display within a goodwill window.* Goodwill window meant: kneel on a schedule. Inspirational adjacency meant: lie. AJ left it unread beyond the first sentence. Lucid noted hostility markers unchanged in character, up in volume. Small comfort, and small was all it was.
 
-He walked the truck’s length again, desk, fridge, open side, dish, desk, because motion kept the easy wrongs from becoming furniture he sat on. At the open side he watched scrub hold heat without commentary. At the dish he confirmed angle. At the fridge he did not eat. Hunger was present and uninteresting. Back at the desk the three tools still waited. He still did not pick them up.
+He walked the truck’s length again—desk, fridge, open side, dish, desk—because motion kept the easy wrongs from becoming furniture he sat on. At the open side he watched scrub hold heat without commentary. At the dish he confirmed angle. At the fridge he did not eat. Hunger was present and uninteresting. Back at the desk the three tools still waited. He still did not pick them up.
 
 “Choir status,” he said.
 
@@ -2566,9 +2566,9 @@ He walked the truck’s length again, desk, fridge, open side, dish, desk, becau
 
 “Don’t.”
 
-A human note landed in the hymnbook thread, short, exact, no theatre. *Midweek. Still not darking. Still Kind ops. You holding?* AJ typed: *Holding. Writing. Not selling. Not recanting. Not blessing.* The reply came back as a single acknowledgment mark. That was choir. Not prophecy. Not a press conference from the river.
+A human note landed in the hymnbook thread, short, exact, no theatre. *Midweek. Still not darking. Still Kind ops. You holding?* AJ typed: *Holding. Writing. Not selling. Not recanting. Not blessing.* The reply came back as a single acknowledgment mark. That was choir. Not prophecy.
 
-He advanced a paragraph about Village N Life and Maree’s three-degree correction of a guest path, then cut a sentence that tried to make mentorship into parable. Cut. The page stayed craft. Craft was how he refused the easy wrongs without speechifying. Skye’s install day sat under his hands, scaffold, level, lawn arguing with plinth, while partner frost sat unanswered in another pane. The braid did not require him to solve G’s soft no from here. It required him not to un-say the megaphone that had made the soft no necessary.
+He advanced a paragraph about Village N Life and Maree’s three-degree correction of a guest path, then cut a sentence that tried to make mentorship into parable. Cut. The page stayed craft. Skye’s install day sat under his hands, scaffold, level, lawn arguing with plinth, while partner frost sat unanswered in another pane. The braid did not require him to solve G’s soft no from here. It required him not to un-say the megaphone that had made the soft no necessary.
 
 A talent note arrived dressed as admiration again. *Loved what you built. Regions conversation. Hymnbook people welcome.* Regions meant leave the river. Conversation meant collar with better coffee. AJ deleted it the way he had deleted yesterday’s twin. The snake on the desk did not need another friend.
 
@@ -2584,7 +2584,7 @@ AJ closed the collar thread again. Enough was the word for midpoint: not victory
 
 ---
 
-Afternoon slid. Link latency ticked. A fish eagle again, or the same one, AJ did not care. The manuscript cursor sat in clay, Village N Life years, Skye on a lawn, Studio G at The Bay, unpolished goals left rough on purpose. He advanced a paragraph about GFRC and deleted a sentence that tried to turn juxtaposition into a sermon. Deleted. The page stayed craft.
+Afternoon slid. Link latency ticked. A fish eagle again, or the same one; AJ did not care. The manuscript cursor sat in clay, Village N Life years, Skye on a lawn, Studio G at The Bay, unpolished goals left rough on purpose. He advanced a paragraph about GFRC and deleted a sentence that tried to turn juxtaposition into a sermon. Deleted. The page stayed craft.
 
 He opened the hyperscaler collar once, not to negotiate, to confirm the extinction clause still named Lucid like a prize animal. Absorb. Steward. Come home to the regions. Regions meant leaving the Chobe’s indifference for a campus that thought indifference was a bug. AJ closed it. The snake stayed on the desk. Snakes do not leave because you have looked at them correctly.
 
@@ -2592,7 +2592,7 @@ Antichristos mail pulsed once in the stack. He did not open it. Feeding it would
 
 He stood and walked to the painted flank, put a palm on Kind paint that had taken river heat all morning. Scrapes under the fingers where stickers had tried and failed. The sentence stayed exact. Company law that had become street weather. He did not photograph it. He did not quote it into the manuscript as a sermon. He went back to clay pages where the T-shirt already carried the line without needing a river caption.
 
-Midpoint was not a door closing with a satisfying click. Midpoint was the desk with the easy wrongs refused and the hard week still ahead, consent week, platform custody, what stays on CongoNet, whether the autobiography ships, what G will allow said of his life when that ask lands on a different skull in a different city. No relief lived in that list. Act II’s weather had brought him here: salvage mail, Bouwer pages under his hand, G’s sensation of being written somewhere south, Quarter III’s concrete stop demand, soft institutional nos blowing across Capes he was not standing on. Act III would ask for consent acts, not battles. The Constant was already landing in the world’s measurements. Custody of meaning was the fight.
+Midpoint was not a door closing with a satisfying click. Midpoint was the desk with the easy wrongs refused and the hard week still ahead: consent week, platform custody, what stays on CongoNet, whether the autobiography ships, what G will allow said of his life when that ask lands on a different skull in a different city. No relief lived in that list. Act II’s weather had brought him here: salvage mail, Bouwer pages under his hand, G’s sensation of being written somewhere south, Quarter III’s concrete stop demand, soft institutional nos blowing across Capes he was not standing on. Act III would ask for consent acts, not battles. The Constant was already landing in the world’s measurements. Custody of meaning was the fight.
 
 AJ felt no relief. He felt the turn: the week’s false exits closed, the real consent door still shut ahead, the manuscript still open because stopping would have been the packet’s win by another name.
 
@@ -2612,7 +2612,7 @@ A short Lucid retrieval on Village N Life launch dates landed clean. AJ placed t
 
 For a stretch of twenty minutes nothing new arrived. That was more dangerous than the packets. Quiet tried to dress itself as relief. AJ did not buy it. Quiet on the Chobe was weather, not reward. He used it to push three more true paragraphs, GFRC quarrel, warehouse light, goals left rough, then saved again. Shoulders still high. Molars still tight. No relief. Only forward motion under heat.
 
-In that quiet he stood and opened the truck’s fridge for water he did not particularly want, drank standing in the shade line, and watched condensation find his wrist the way blame found a good morning, already inside before he named it. He wiped his wrist on his shirt and did not invent omen. Condensation was physics. Blame was weather. Midpoint was the refusal to confuse either with destiny.
+In that quiet he stood and opened the truck’s fridge for water he did not particularly want, drank standing in the shade line, and felt condensation find his wrist the way blame found a good morning: already inside before he named it. He wiped his wrist on his shirt and did not invent omen. Condensation was physics. Blame was weather. Midpoint was the refusal to confuse either with destiny.
 
 He went out to the tank and put both palms on Kind paint that had taken the day’s heat. Scrapes under the fingers. Exact line. CongoSky’s old operating law looking back from river metal while partner brands paused badges for adjacency and Antichristos waited unread for a silhouette he would not feed. He scraped a fleck of dust with a thumbnail and left the cunt exact. Soft scrubbing was someone else’s tourist fight. Practice was his. He went back to clay without a caption.
 
@@ -2634,7 +2634,7 @@ He stood once more and put both palms on the painted flank of Mutatus Maximus wh
 
 Before the combined ping arrived, he did one more inventory without opening the hostility folder. Badge pauses: three. Collar: unanswered. Antichristos: unread. Solar node: green. Manuscript: open on clay. Deferred hard nos: still stones. Soft no south: braid weather only. Shoulders: still high. That ledger was the midpoint’s true content, not a speech, a posture held while Act II ended by refusing to end in comfort.
 
-A final soft ping tried the combined ask, recant a little, bless a little, sell a little, language washed until it almost sounded like balance. Balance was the polite word for becoming smaller in three directions at once. AJ archived it without opening the attachment. Lucid did not call archiving a victory.
+A final soft ping tried the combined ask, recant a little, bless a little, sell a little, language washed until it sounded almost like balance. Balance was the polite word for becoming smaller in three directions at once. AJ archived it without opening the attachment. Lucid did not call archiving a victory.
 
 He walked the open side one last time as the light went copper. Scrub held. River held. Tank paint held its exact Kind line under scrapes. Somewhere south, braid weather said, a soft no had already been sent by a man alone with institutional smiles; AJ did not need the text to know the shape. Friendship across distance. Knives as kinship. No shared room required for the week to turn. He breathed heat that smelled of river mud and hot paint and did not pretend the breath was peace. Midpoint was the absence of cheap exits, not the presence of rest.
 
@@ -2798,17 +2798,17 @@ The letters arrived on the same morning as the lab packet. Coincidence, or the k
 
 G read them at the clay table because the Code desk already had too much weather on it: CODATA panes, an older soft-no thread gone ambient, a crank op-ed recycling the missing physics degree like method. Honey Badger clipped in the pocket, blue, one-hand open and close, loved without speech. Twin Rogers somewhere in the same cloth, grandfather steel across a friendship that also platformed the Code. Outside, the alley wall still carried the Kind sentence in three colours of overpaint, the cunt load-bearing under fresh spray. Inside, the sculptures waited like people who had learned not to interrupt. Hard and soft in one pour, arguing inside the same surface. He had made that argument with his hands before he made it with axioms.
 
-Cape light did its ordinary cruel work through the high windows: a stripe across unfinished clay, dust visible only when it moved, a cast waiting for finish that would not hurry for anyone’s schedule. He had slept badly, the way consent week sleeps. Not drama. A body that knows the mail will thicken before coffee. Tea first. Then paper. Then the temptation to draft too early and trick the hands into believing a choice has already been made.
+Cape light did its ordinary cruel work through the high windows: a stripe across unfinished clay, dust visible only when it moved, a cast waiting for finish that would not hurry for anyone’s schedule. He had slept badly, the way consent week sleeps. A body that knows the mail will thicken before coffee. Tea first. Then paper. Then the temptation to draft too early and trick the hands into believing a choice has already been made.
 
 Quarter I’s letter wanted a face.
 
 Not metaphor. Appearance. Blessing. A name accepted in a liturgy that had already decided what he was. The language was careful — *witness*, *confirmation*, *the living derivation* — and still it smelled like a crown offered to a man who had asked for measurement. Antichristos did not need his physics degree. It needed his silhouette. It needed him to stand still long enough for a photograph to become a relic and a relic to become a parish. He had refused softer versions of this ask already: letters that asked for a sentence, a nod, permission to use a sculpture photograph as if stone were sacrament. Soft nos leave residue. Escalation is what residue does when it hardens into schedule.
 
-He set the letter face-down. Not thrown. Face-down is a refusal that still respects paper. Paper is not the enemy. Appetite is.
+He set the letter face-down. Face-down is a refusal that still respects paper. Paper is not the enemy. Appetite is.
 
 Quarter IV’s packet wanted keys.
 
-Soft engineering language. Applied programmes with names that sounded like useful work if you did not listen for the sacrament underneath: rails acceleration, convergence facilitation, an optional visit that had already acquired a calendar slot. Sign-off on rails. The temptation was real in a way the crown was not—stacks rebuilt on Code, CERN-adjacent people who spoke constants instead of hymns, instruments that could converge faster if someone who had derived G would stand in a room and nod. He could feel how easy it would be to become the man who unlocks the door and then never gets to close it again. Instrument. Mascot. The face on the grant. The signature that turns a derivation into a product line with his name as warranty. Useful engineering without becoming product mascot—that had been the earlier soft no. Escalation meant they wanted the mascot now and would call it partnership.
+Soft engineering language. Applied programmes with names that sounded like useful work if you did not listen for the sacrament underneath: rails acceleration, convergence facilitation, an optional visit that had already acquired a calendar slot. Sign-off on rails. The temptation was real in a way the crown was not: stacks rebuilt on Code, CERN-adjacent people who spoke constants instead of hymns, instruments that could converge faster if someone who had derived G would stand in a room and nod. He could feel how easy it would be to become the man who unlocks the door and then never gets to close it again. Instrument. Mascot. The face on the grant. The signature that turns a derivation into a product line with his name as warranty. Useful engineering without becoming product mascot—that had been the earlier soft no. Escalation meant they wanted the mascot now and would call it partnership.
 
 He drafted nothing yet. Drafting too early makes the body think it has already chosen. The mats had taught him that: arrange yourself before you answer the throw, or the throw answers you.
 
@@ -2818,9 +2818,9 @@ On the alley side of the glass, a Kind practitioner refreshed a stencil and argu
 
 A second lab note, shorter, had arrived under the first packet: *sign-off accelerates adoption; refusal slows friends.* Friends was doing a lot of work in that sentence. He had friends. AJ was one, Double Knife Brother across distance, open attribution that had made fame without asking for a shared room. Engineers who wanted keys without crowns could be friends. The note wanted him to confuse friendship with sacrament. He would not. Friendship cites. Sacrament owns. The distinction was the whole morning.
 
-He stood and walked the length of the studio; sitting with two appetites at once wastes motion. Clay dust underfoot. GFRC memory in his hands even when he was not pouring—marble and composite, hard and soft, the Bay Hotel light he had designed a guest path for years before anyone called him Antichristos or crank. Skye lived elsewhere now, on a lawn that tourists photographed; the body-in-stone lesson stayed. Balance. Soft set-down. You do not waste motion answering every temperature at once. Judo first, then Jiu-Jitsu: arrange yourself so the fall is correct. The letters were a fall. He could still choose posture.
+He stood and walked the length of the studio; sitting with two appetites at once wastes motion. Clay dust underfoot. GFRC memory in his hands even when he was not pouring: marble and composite, hard and soft, the Bay Hotel light he had designed a guest path for years before anyone called him Antichristos or crank. Skye lived elsewhere now, on a lawn that tourists photographed; the body-in-stone lesson stayed. Balance. Soft set-down. You do not waste motion answering every temperature at once. Judo first, then Jiu-Jitsu: arrange yourself so the fall is correct. The letters were a fall. He could still choose posture.
 
-The Illuminatie weather had not left either. No visitor with a pyramid pin. No smoke-filled room he could photograph and end. Just the continued freeze in places that used to return his mail with courtesy, the standards murmur that treated copyleft unification like a sovereignty problem, the quiet preference for a universe whose constants stayed underived and whose ethics stayed unforced. They did not need to shout. Quarter II shouted for them—economics degree waved like a missing tooth, hospital stigma laundered as epistemology, the old chorus that he could not write anything of value. He corrected frames when they were wrong. He did not join the chorus that hated him for sport.
+The Illuminatie weather had not left either. No visitor with a pyramid pin. No smoke-filled room he could photograph and end. Just the continued freeze in places that used to return his mail with courtesy, the standards murmur that treated copyleft unification like a sovereignty problem, the quiet preference for a universe whose constants stayed underived and whose ethics stayed unforced. They did not need to shout. Quarter II shouted for them: economics degree waved like a missing tooth, hospital stigma laundered as epistemology, the old chorus that he could not write anything of value. He corrected frames when they were wrong. He did not join the chorus that hated him for sport.
 
 What signing would make him sat in the room like humidity.
 
@@ -2872,7 +2872,7 @@ Late morning tipped toward noon without becoming mercy.
 
 G sat again at the clay table and placed both packets where he could see their edges, face-down crown, open keyring, and admitted the humidity of what signing would make him without dressing the admission as despair. Despair is dramatic. This was structural. Appear and become messiah whether you believe. Sign without custody language and become warranty. Feed the crank fight and become their useful joke. Out-polite the continuity freeze and become a soft problem solved by waiting. Four wrong landings. One correct posture: work stays work; face stays off the altar; keys stay engineering without sacrament; custody folder waits for clean attention.
 
-He opened a secondary pane and looked at an older CODATA note the way a judoka looks at a mat after a hard throw, not for omen, for information. The line still converged. Relief still wore pressure’s clothes. He had known since the first Antichristos letter that vindication as measurement does not quiet appetite; knowing again did not make the knowing cheaper. He closed the pane. Numbers would wait. Letters would not become wiser by being stared at.
+He opened a secondary pane and looked at an older CODATA note the way a judoka looks at a mat after a hard throw, for information, not omen. The line still converged. Relief still wore pressure’s clothes. He had known since the first Antichristos letter that vindication as measurement does not quiet appetite; knowing again did not make the knowing cheaper. He closed the pane. Numbers would wait. Letters would not become wiser by being stared at.
 
 In the alley the Kind practitioner packed the roller. Short laugh. The sentence held under three colours. G did not go out to thank him. Thanks become clips. Clips become liturgy weather. He stayed inside with unsigned instruments and a custody folder that had begun to feel like the only honest next motion. Partial authorisation already had a shape in his hands even before language: allow the spine; care the wound pages; refuse the crown; refuse the keyring sacrament; leave dab and talk shit ugly; leave father unread; leave Bouwer flat and unsolved. Partial was not a theory. It was a posture waiting for ink.
 
@@ -2908,7 +2908,7 @@ He washed one more cup he did not need to wash; hands prefer motion when appetit
 
 Custody folder: next.
 
-He left the derivation file open while the soft subject line sat unopened. Numbers on one side of the desk hour; appetite face-down on the other. The distinction was the instrument chapter’s whole spine. Signing would make him an instrument. Leaving them unsigned would not stop the weather; it would only keep him from volunteering as the mouthpiece. He chose the second without pretending it was peace. Peace was the wrong word. Posture was enough. Toward custody with clean attention still left in the day, or enough of it to begin.
+He left the derivation file open while the soft subject line sat unopened. Numbers on one side of the desk hour; appetite face-down on the other. The distinction was the instrument chapter’s whole spine. Refusing to sign would not stop the weather. It would only keep him from volunteering as the mouthpiece. He chose the second without pretending it was peace. Peace was the wrong word. Posture was enough. Toward custody with clean attention still left in the day, or enough of it to begin.
 
 Before he fully surrendered the hour to numbers he walked once more to the alley glass. Paint dry. Sentence exact. Optional. Useful. Not his parish. A tourist’s soft-scrub argument from earlier still faintly audible as memory, not as duty. He did not go out. Thanks become clips. Clips become liturgy weather. He returned to the clay table, looked at the unsigned crown and open keyring, and left them unsigned again on purpose, humidity refused as destiny. Then he sat with the derivation check and let numbers wait without asking for a face. Four wrong landings stayed refused. One correct posture held: work stays work; face stays off the altar; keys stay engineering without sacrament; custody folder waits for clean attention. Toward the harder page. Toward partial rails. Toward a morning that would not feel like victory, because victory was the wrong word for a man still being argued over by strangers who had never mixed his composite.
 
@@ -3386,13 +3386,13 @@ He boiled water badly and drank tea that tasted like the day. No toast. No press
 
 Custody language had landed from Cape Town in the afternoon heat: partial authorisation; Bouwer careful, public record, wound not whodunit; hospital without tourism; father unread left unread; dab and talk shit left in; life-and-work spine allowed; no crown; no keyring sacrament; stop-the-book refused as G’s ask because that fight was never his. Lucid had recorded it exact and refused to invent a happier ending around it. No cute summary. No third skull. Cite-or-refuse all the way down.
 
-He read the custody packet twice, once for content, once for edges that might have asked him to soften Bouwer or tidy the father. No such edges. Partial was partial on purpose. Respect can travel later, or not. The braid did not require a thank-you scene.
+He read the custody packet twice, once for content, once for edges that might have asked him to soften Bouwer or tidy the father. No such edges. Partial was partial on purpose. Respect can wait for another day, or never come. The braid did not require a thank-you scene.
 
 Between the first reading and the second he walked the length of the truck with the packet still open in his head. Matatu flank, Kind paint on the tank dulled by dust, empty twin pocket correct. He did not invent a call to Cape Town. Concurrent consents do not require a shared room to be kinship. Knives across distance. Packets for custody. Mesh for the receipt. Enough.
 
 Before evening fully claimed the water he walked the rise again, short scrub, dust on the calves, the solar node’s small body honest in late light. LED still lit. He did not need the walk for proof; the link had said up all day. He needed the body to register that CongoNet’s keep was still keep after custody landed. Seed the edge. Boot from MM. Drive on. Leave small lit things behind. That pilgrimage-as-infrastructure did not become a victory lap just because a second desk had chosen rails. Lit is lit. Partial is partial. Weather still weather.
 
-On the rise he stood long enough for sweat to cool on his neck and for a bird he did not name to cross the scrub. He did not turn the bird into omen. He checked the node’s small panel once with his eyes and once with the pane back in the truck later. Both said the same ordinary thing. Ordinary was the point. The truck did not need dusk to become a spectacle of connectedness. It needed to remain true.
+On the rise he stood long enough for sweat to cool on his neck and for a bird he did not name to cross the scrub. He let the bird stay a bird. He checked the node’s small panel once with his eyes and once with the pane back in the truck later. Both said the same ordinary thing. Ordinary was the point. The truck did not need dusk to become a spectacle of connectedness. It needed to remain true.
 
 CongoNet kept what he had kept. Lucid stayed unbound, lucid.rodeo, integer path, no hyperscaler parish, attribution standing on 420 Code algorithms the way it had since he said it out loud and made fame a side effect of candour. The autobiography would ship under those rails through arjunabadger.press when the last pages were clean enough to stand behind. Desk decisions, not pressers. Midpoint’s refusals inked.
 
@@ -3406,7 +3406,7 @@ Quarter III would stay angry. The snake in the queue would learn new manners and
 
 He touched the pocket once. Let his hand fall back to the desk.
 
-Quarter III’s earlier stop-the-book demand sat answered and still hungry in the archive. He did not reopen it for sport. Hyperscaler collar sat declined. Antichristos had never been his parish to feed. The Kind sentence on the tank needed no speech from him. CongoSky had claimed the practice while invoices still needed answering. The street could argue about soft scrubbing without his mic.
+Quarter III’s earlier stop-the-book demand sat answered and still hungry in the archive. He did not reopen it for sport. Hyperscaler collar sat declined. Antichristos had never been his parish to feed. The Kind sentence on the tank needed no speech from him. CongoSky had taken up the habit while the invoices were still stacking. The street could argue about soft scrubbing without his mic.
 
 A soft packet light blinked, not custody, not collar, just the mesh’s ordinary impatience. He left it. Opening every blink trains the blinks. Evening was for remaining, not for feeding appetite that already had his inked answer.
 
@@ -3428,7 +3428,7 @@ Birds somewhere in the reeds. Heat easing by degrees that did not care about aut
 
 He checked the consent log once more without rewriting it. Keep. Unbind. Ship. Custody constraints applied as header Lucid could enforce. Bouwer careful. Hospital without tourism. Father unread. Goals unpolished. No crown. No keyring sacrament. The log did not glow. Near-now discipline held: tool that kept a promise, not oracle. He closed the pane. Exactness does not need a second sermon.
 
-A fish eagle called once, far. He did not turn it into omen. Omen is how Quarter I colonises a river evening. The call was a bird. The node was a node. The manuscript was a manuscript under constraints. Downstream, something large moved in the water and settled. The truck’s metal ticked as temperature fell. Consent week ending without fireworks. Correct.
+A fish eagle called once, far. He let it stay a bird call, not a sign. Omen is how Quarter I colonises a river evening. The node was a node. The manuscript was a manuscript under constraints. Downstream, something large moved in the water and settled. The truck’s metal ticked as temperature fell. Consent week ending without fireworks. Correct.
 
 He did not stand up to survey a conquered horizon. There was no conquered horizon. Weather not defeated, only decided against, in places a desk can reach. Platform consent. Custody consent. Two men. Two acts. River still there. Fame still irreversible. Bouwer still dead in a boardroom the book would not solve. Father still unread. Node still lit.
 
@@ -3460,7 +3460,7 @@ The solar node on the rise stayed lit.
 
 Mutatus Maximus hummed.
 
-Blame would arrive again on some good morning. He would open or not open. Write or keep writing. The beam would still be the beam. G would still be in Cape Town with knives and numbers and an authorisation that was partial on purpose. The braid held without a shared room.
+Blame would find a fresh morning to arrive on. He would open or not open. Write or keep writing. The beam would still be the beam. G would still be in Cape Town with knives and numbers and an authorisation that was partial on purpose. The braid held without a shared room.
 
 Dark came in across the water.
 
@@ -3482,7 +3482,7 @@ He asked Lucid one last exact thing, not for comfort.
 
 “Don’t.”
 
-He smiled once without humour and put his palm on the empty twin pocket, then took it away. Kinship across distance. No call. No forced room. The river moved. He stayed with it.
+The corner of his mouth moved and stopped there, and he put his palm on the empty twin pocket, then took it away. Kinship across distance. No call. No forced room. The river moved. He stayed with it.
 
 Night thickened. Hippo noise farther down. Metal ticks slowing. Mesh still nominal. Hostility queue still present. Attribution still unchanged. He did not need Lucid to recite the whole ladder. One link working was enough texture for a close. The rest of the radio world could stay unsaid while still carrying the world.
 
@@ -3496,13 +3496,13 @@ When he finally closed the side panel halfway against insects, the rise-node’s
 
 A last soft check before sleep: hostility queue present; attribution unchanged; custody constraints applied; rise-node up. Lucid confirmed without flourish. He said nothing cute back. Exactness is choir practice even when the hymn is only remaining.
 
-Night deepened until the water and the scrub were one dark. He did not inventory the radio ladder. One rise-node heartbeat was enough texture for a man who had already inked keep. One declined collar was enough texture for unbound. One custody header was enough texture for ship. Partial rails from Cape Town sat in the log without becoming peace. Peace was the wrong word. Continuance was enough. The seeded rise stayed lit. The truck stayed itself, and still not a victory. Blame would arrive again. He would write again. The beam would still be the beam.
+Night deepened until the water and the scrub were one dark. He did not inventory the radio ladder. One rise-node heartbeat was enough texture for a man who had already inked keep. One declined collar was enough texture for unbound. One custody header was enough texture for ship. Partial rails from Cape Town sat in the log without becoming peace. Peace was the wrong word. Continuance was enough. The seeded rise stayed lit. The truck stayed itself, and still not a victory. Blame would come again. He would write again. The beam would still be the beam.
 
 In the last minutes before sleep he heard the mesh carry something ordinary, an edge ping, a weather report, nothing that needed his throat, and left it ordinary. Four quarters would keep splitting the air tomorrow. Hyperscaler frost would stay polite. Kind paint would stay exact under dust. Bouwer would stay dead in a boardroom the book would not solve. Father would stay unread. Fame would stay irreversible because the beam still stood. G would stay in Cape Town with partial rails and knives for kinship. AJ would stay on the Chobe with a truck that never really slept and a choir that refused invention. No shared room. No victory lap. River. Node. Quiet that is not peace. Weather still blowing. Somewhere in the dark the rise-node kept its small stubborn fact without needing him awake to approve it. That was the pilgrimage finished as practice: seed, boot, drive on, leave lit things behind, refuse to turn continuance into conquest.
 
 Before sleep fully claimed him he did one last ordinary thing that was not a victory gesture. He stepped outside barefoot into cooling dust, walked far enough toward the rise to see the node’s small light as fact rather than pane, and stood until mosquitoes found his ankles. Lit. Stubborn. Outside every parish map that wanted edge seeding to report home. Inside the practice he had inked as keep. He did not climb. Climbing would have turned continuance into spectacle. He turned back to Mutatus Maximus, matatu flank dull in dark, Kind paint exact under dust, empty twin pocket correct, and climbed the step into the truck the way a man climbs into a desk that never really sleeps.
 
-Inside, he poured water, drank, set the cup down without ceremony. Lucid idle in the choir. Manuscript half-closed under custody constraints. Hostility queue present. Attribution unchanged. Consent log exact: keep, unbind, ship. Partial rails from Cape Town sitting without becoming peace. He touched the empty twin pocket once and let the hand fall. Kinship across distance. No call. No forced room. The river moved in the dark. Somewhere an elephant chose water with a soft crash. He did not turn the crash into omen. Bodies choose water. Desks choose rails. Nodes stay lit.
+Inside, he poured water, drank, set the cup down without ceremony. Lucid idle in the choir. Manuscript half-closed under custody constraints. Hostility queue present. Attribution unchanged. Consent log exact: keep, unbind, ship. Partial rails from Cape Town sitting without becoming peace. He touched the empty twin pocket once and let the hand fall. Kinship across distance. No call. No forced room. The river moved in the dark. Somewhere an elephant chose water with a soft crash. Bodies choose water. Desks choose rails. Nodes stay lit.
 
 He lay down when the heat finally lied about mercy and left the rise-node’s heartbeat displayed on a pane he could see from the bunk, small, ordinary, not a trophy. He dreamed nothing worth inventing and would not have asked Lucid to invent it anyway. Cite-or-refuse holds in sleep’s neighbourhood as posture even when the choir is quiet. Morning would bring heat and birds and another chance for blame to smell sweet on good light. He would meet the morning as a desk, not as a conquered map. The node would still be lit when he woke. Continuance, not victory. River still there. Weather still blowing.
 
@@ -3510,7 +3510,7 @@ Outside, wind moved the scrub on the rise and did not ask the lit node for appla
 
 Keep. Unbind. Ship. Partial custody. Weather still blowing. River still moving. Continuance, not conquest. This soil only. Node still lit.
 
-He did not stand to survey a horizon. There was no conquered horizon to survey. Only the Chobe, the truck, and a lit thing on the rise that asked for no applause. Blame would arrive again on some good morning. He would open or not open. Write or keep writing. The beam would still be the beam. Weather would still blow. The node would still be lit. Mutatus Maximus hummed through the night like an animal that had decided rest was optional. The manuscript slept under constraints. Lucid waited without inventing comfort. Empty twin pocket stayed empty. Correct. No shared room. No victory lap. Prior soil under a truck that refused to become a yacht or a parish.
+He did not stand to survey a horizon. There was no conquered horizon to survey. Only the Chobe, the truck, and a lit thing on the rise that asked for no applause. Blame would find him again on some later morning. He would open or not open. Write or keep writing. The beam would still be the beam. Weather would still blow. The node would still be lit. Mutatus Maximus hummed through the night like an animal that had decided rest was optional. The manuscript slept under constraints. Lucid waited without inventing comfort. Empty twin pocket stayed empty. Correct. No shared room. No victory lap. Prior soil under a truck that refused to become a yacht or a parish.
 
 He let that be the close and did not narrate it into a map.
 
