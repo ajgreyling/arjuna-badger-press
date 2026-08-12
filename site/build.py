@@ -311,6 +311,10 @@ PUBLISHED = set(
         # afrika-2100 (2026-08-11): the spiritual fourth of the African Gold trilogy — standalone
         # novel set in 2100, published by explicit author decision ("full send").
         "afrika-2100,"
+        # the-prophet-and-his-brother (2026-08-12): near-future novel (2035) — book within a book;
+        # living-person principals (AJ, G); published by explicit author decision ("full send until publish ready").
+        # sensitivity_read RECOMMENDED knowingly overridden for shelf (care rails in front/back matter).
+        "the-prophet-and-his-brother,"
         "book1-africa,book2-india,book3-india-deccan,book4-india-tamil,book5-egypt,"
         "australia-outback,project-stargate,"
         "jakobus-silver-thread,jakobus-the-recitation,the-jakobus-file,"
@@ -704,7 +708,7 @@ SERIES = [
 # the house voice; keyed by the SERIES name. Absent name => no tagline (heading only).
 SHELF_TAGLINE = {
     "Captain Gideon Loots": "⚠ For adult readers. Cape crime — a disgraced detective and the charming men he understands too well.",
-    "The African Gold Trilogy": "The cinematic capstone — resonance, revelation, and the relic that tunes the machine.",
+    "The African Gold Trilogy": "Resonance, Revelation, Relic — plus Companion 3.5 (*The Prophet and his Brother*, 2035) and the spiritual fourth (*AFRIKA 2100*).",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
@@ -742,6 +746,7 @@ BOOK_TAGLINE = {
     "modern-sherlock-5": "A Modern Retelling, True to the Original",
     "henry-sugar":       "A Faithful Retelling for Adults, True to Dahl",
     "the-first-unplugged": "A Faithful Retelling for Adults, True to Heinlein",
+    "the-prophet-and-his-brother": "African Gold Companion · Book 3.5 · 2035 · between RELIC and AFRIKA 2100",
 }
 
 # Per-book attribution / honor notice shown as a bordered block on the book page. For modern
@@ -749,6 +754,16 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "the-prophet-and-his-brother": (
+        "<strong>Living-person care.</strong> <em>The Prophet and his Brother</em> draws "
+        "Andries J. Greyling and Gerhard van Niekerk as fiction principals from life. "
+        "Public record binds where cited (including the assassination of Bouwer van Niekerk, "
+        "Saxonwold, 5 September 2025 — named as wound, not solved as plot). Private pain stays "
+        "on the page only under the care-rails of the novel’s consent acts. Antichristos is "
+        "satire of reception appetite, not a hit on living faith doctrine. Hospital stigma is "
+        "how people <em>read</em> him — not diagnosis tourism. Community sensitivity readers "
+        "are warmly invited to write to us."
+    ),
     "codex-medica": (
         "<strong>Not a prescribing manual.</strong> <em>Codex Medica</em> is a research "
         "constitution for ethnobotanical documentation. It records witnessed traditions, "
@@ -876,6 +891,10 @@ CURATED = [
     ("relic", "RELIC", "The African Gold Trilogy · Book III", "The African Gold Trilogy",
      "relic", "build/export",
      "An engineer reads an ancient machine and must decide who may switch it on. The cinematic capstone of the trilogy."),
+    ("the-prophet-and-his-brother", "The Prophet and his Brother",
+     "An African Gold Companion · Book 3.5 · 2035", "The African Gold Trilogy",
+     "the-prophet-and-his-brother", "build/export",
+     "Between RELIC and AFRIKA 2100: on the Chobe in 2035, AJ writes the autobiography of G while Lucid has made that degree-less ignored physicist famous and crashed the AI GPU bubble — a book within a book under four-quarter weather, hyperscaler salvage frost, and the Kind sentence on the walls."),
     ("afrika-2100", "AFRIKA 2100", "An African Gold Novel · The Spiritual Fourth", "The African Gold Trilogy",
      "afrika-2100", "build/export",
      "Seventy years after RELIC: the flare burned the North dark, the Builders' heirs came back for the gold — and a young tuning engineer must decide whether handing it over is tribute, trade, or treason."),
@@ -5014,6 +5033,10 @@ BOOK_KEYWORDS = {
              "speculative fiction, free ebook, The African Gold Trilogy",
     "afrika-2100": "science fiction, first contact, solar flare, post-apocalyptic, South Africa, "
                    "alien contact, literary sci-fi, free ebook, The African Gold Trilogy",
+    "the-prophet-and-his-brother": (
+        "near future fiction, 2035 novel, African Gold trilogy companion, Book 3.5, literary sci-fi, "
+        "African fiction, Botswana Chobe, physics schism, Lucid AI, CongoSky, free ebook, The African Gold Trilogy"
+    ),
     # Reichenbach Files — Sherlock Holmes / mystery readers.
     "modern-sherlock": "Sherlock Holmes, modern Sherlock, Holmes retelling, detective fiction, "
                        "mystery novel, crime fiction, Conan Doyle, A Study in Scarlet, free mystery ebook, The Reichenbach Files",
