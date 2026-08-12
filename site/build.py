@@ -285,8 +285,13 @@ WORKSHOP_HOLD = set(
         #     `sensitivity_read: REQUIRED` flag in their own project.json (Ainu / Khalkha herders).
         #   - southern-coast (Scratching the Surface): complete 4-ch novella; released by explicit
         #     author decision, OVERRIDING its in-text Khoisan/San sensitivity-read notice.
-        # (empty: nothing currently held — add an id here to pull a drafted book off the shelf.)
-        "",
+        #
+        # 2026-08-13 — the-prophet-and-his-brother UNPUBLISHED by explicit author decision.
+        #   Pulled off the shelf while the book is retitled (working title *Afrika 2035*) and
+        #   re-edited. Its PUBLISHED entry is deliberately left in place so the release record
+        #   and its care-rail note survive; this line is the gate that suppresses read-online
+        #   and downloads. Remove this id to put it back on the shelf.
+        "the-prophet-and-his-brother,"
     ).split(",") if s.strip()
 )
 
