@@ -1977,3 +1977,233 @@ Then, further down, in the same hand:
 She read it back. She did not cross it out and she did not add a conclusion, because there wasn’t one, and putting one down would have been the lie.
 
 She turned the lamp off at ten. The coin was on the desk where she had left it, face up, both rows, and she did not put it in her pocket.
+
+# The Stewards’ house, Langlaagte Road · two weeks to Renewal
+
+The Stewards keep a house on Langlaagte Road that used to be a mine hospital. Two storeys, brick, iron roof, a jacaranda in the yard old enough to have been planted by somebody who thought the shaft below would run forever. Naledi came at seven in the morning on a Wednesday because Tefo had said seven and because she had a berth check at eleven and had allowed herself four hours for something that should have taken twenty minutes.
+
+The gate was open. A woman was hosing the step.
+
+“I’m here for Tefo Molefe.”
+
+“He’s in the back with Ma-Rethabile,” the woman said, “and they’ve been at it since half five, so sit in the passage and don’t be shy about the tea.”
+
+The passage had a bench and a bad print of the Vredefort ring and a table with a flask on it. She sat. She had the survey book in her satchel wrapped in a cloth, which she recognised, sitting there, as ridiculous—it was a book, it had lived in a garage in Meadowlands for twenty years—and she did not unwrap it.
+
+The door at the end of the passage was not shut. It was pushed to, in the way of a door in an old building where the frame has moved and the door will not sit, and it had a gap of about four fingers, and voices came through it at conversational volume because the people speaking had forgotten the door.
+
+She could have coughed.
+
+---
+
+“—then say it on Friday,” Tefo was saying. “Say it at the technical session. Twenty minutes. You don’t have to give them the logs, you give them the reasons. Sixty-eight and eighty-two. Why we stopped the consignment, what we were looking at, what we did next. That’s it. That’s the whole ask.”
+
+“And when they ask why we did not say it in sixty-eight.”
+
+“Then we say we were wrong not to.”
+
+A chair moved. Ma-Rethabile Khumalo’s voice was low and unhurried and it did the thing that some old voices do where it does not rise to be heard, it simply stops leaving room for anything else.
+
+“We were not wrong,” she said. “We were slow. Those are different animals and you keep putting the same saddle on them.”
+
+“Ma.”
+
+“Sit down, Tefo, you’re a man in a room, not a wave at the fence.” Papers. “You want stated reasons. Give me the sentence you want me to stand up and read on Friday. In front of nine delegations, the Commissioner, and four hundred press seats. Say the sentence.”
+
+Silence in the room. Naledi found she had put her tea down on the bench beside her without drinking it.
+
+“In August 2068,” Tefo said, “the Stewards’ array recorded a rise in the idle floor of the node coincident with the loading of consignment four. We could not exclude the possibility that the consignment was coupling to the node’s own resonance rather than only carrying it. We halted. Over the following fourteen months the floor returned. We released. We did not publish because we could not distinguish the effect from our own instrumentation.”
+
+“Good sentence.”
+
+“Then say it.”
+
+“I will say it and by nightfall it will be two sentences,” she said. “The first will be *the Stewards halted a consignment because they feared the gold was doing something to the ground.* The second will be *the Stewards have known for thirty-two years and said nothing.* And then there is no third sentence, Tefo, because nobody will wait for it. Your sentence has an *we could not distinguish* in the middle of it and that word does not survive a corridor.”
+
+“So we let them have the corridor.”
+
+“We have let them have the corridor for thirty-two years and the trade has run and nobody has been hurt by it.”
+
+“That we know.”
+
+“That anyone knows. Which is the same size of the world as your *we could not distinguish*, and you don’t like it when I use it, but it’s the same instrument.”
+
+---
+
+Naledi looked at the print of the Vredefort ring. Somebody had drawn concentric pencil rings on the mount, faintly, in the wrong place, and had not rubbed them out.
+
+She did the arithmetic she had been avoiding since she saw the file come back closed. Thirty-two years of a rise in an idle floor. She had it in her own runs going back six. Her comparator did not reach the node; the Stewards’ array did. If they had a thirty-two-year series and she had six, then she was not the person who had found something. She was the fourth or fifth person, and the others had all had this same conversation in this same passage, and had lost it, or won it and then found that winning it changed nothing.
+
+She got out her notebook and wrote *ask for the 2068 series, floor only, no interpretation* and put it away.
+
+---
+
+“Then here is what I actually want,” Tefo said, and his voice had changed, gone quieter and worse. “Halt it.”
+
+A long pause.
+
+“The Renewal.”
+
+“Not the Renewal. The signature. Ask for a ninety-day deferral on custodial grounds. We have the standing—clause eleven, we’ve had it since seventy-three and never once used it. Ninety days. The Commissioner can’t overrule us without going to the Accord council and the council doesn’t sit until March.”
+
+“And in the ninety days?”
+
+“In the ninety days we publish. Everything. Sixty-eight, eighty-two, the floor series, the sealed sixty-four logs, all of it. Let the world’s instruments look at our numbers. If we’re wrong, nine countries’ physicists tell us in a fortnight and we’ve cost the world three months. If we’re right, we’ve stopped a species from signing a hundred-year schedule blind.”
+
+“Say the rest of it.”
+
+“There is no rest of it.”
+
+“Tefo. Say the rest of it.”
+
+Naledi heard him breathe.
+
+“And the order stops being ceremonial,” he said.
+
+“There it is.”
+
+“That’s not why.”
+
+“No,” Ma-Rethabile said. “It’s not why. It’s what you’d get, and you’d take it, and you would be a better Elder for having taken it, and every single one of those things can be true while the halt is still a lie.” Something set down on wood, a cup. “Do you know why I halted in eighty-two?”
+
+“Because the floor moved.”
+
+“Because the floor moved and I did not know what I was looking at and I had an instrument and no theory, and the only honest thing available to me was to stop the load and keep watching. Fourteen months of watching. Nobody clapped. There was no press seat. Nineteen men in the deep levels ran that array on a two-shift rotation and eleven of them are dead now and none of them was ever interviewed by anybody about anything.” Her voice did not lift. “What you are asking me to do is the same shape and none of the same substance. You are not asking me to stop and watch. You are asking me to stop *in front of people*. You want the ninety days because the ninety days will be seen. And the moment a halt is for seeing, it does not matter at all whether the floor moved.”
+
+“That’s unfair.”
+
+“It is completely unfair and it is also what will happen.” A chair. “I have watched the other one for thirty years, so let me be even. Signing on the thirty-first because everybody is tired and the volume schedule is agreed and it would be rude to be the country that makes the room sit down again—that is a lie also. That’s the one your Commissioner will tell, and he will tell it kindly, and he’ll believe it, and it costs nothing today and everything in eighty years. I am not defending him. I am telling you there are two ways to be dishonest here and you have found the second one and you think it’s the cure.”
+
+---
+
+“Then what,” Tefo said. “Ma. What. Because you’ve just said we can’t sign and we can’t stop, and you’ve been saying it since June, and the calendar doesn’t care.”
+
+“I know what the calendar does.”
+
+“So what’s the third thing?”
+
+“I don’t have it.”
+
+“Then—”
+
+“I don’t have it,” she said again, and it was flat, and it was the first thing in twenty minutes that had sounded like an old woman. “I have had eleven weeks and I don’t have it. If I had it I would have used it in eighty-two.”
+
+Nobody said anything. The hose stopped outside. A taxi went up Langlaagte Road with its window down and somebody’s radio on it, a bass line and then gone.
+
+Naledi sat very still on the bench, because in the last three days she had had a bad half hour in bed at two in the morning where she had thought the words *someone should stop it*, and had felt, thinking them, a warmth that she recognised now, in a passage, with a cold cup of tea beside her, as the wrong kind of warmth. She had been picturing a room. In the picture she was standing up in it.
+
+She wrote in the notebook: *halt for seeing = signing for tiredness. Same paper.* Then, underneath: *no third option on the table. Not from them. Not from me.*
+
+---
+
+“The child is in the passage,” Ma-Rethabile said.
+
+Naledi stood up so fast she caught the tea with her elbow and did not knock it over, which she counted as a mercy.
+
+“Ma-Rethabile, I—the door was—”
+
+“The door has been broken since 2079 and I am the person who has not fixed it, so it’s my fault and not yours.” The old woman was in the doorway. She was smaller than the voice had been. Cardigan, boots, a lanyard with three keys on it and one of them a mine key from a shaft that had been backfilled before Naledi was born. “How much.”
+
+“From *say it on Friday*.”
+
+“So all of it.”
+
+“Yes.”
+
+“Hm.” She looked at Naledi for a moment with something that was not unfriendly and was in no way soft. “Well. You’ve saved me a version of this where I have to be careful with you. Come in. Bring the tea, it’s cold, Grace makes it at half four.”
+
+---
+
+The room at the back had a table in it and eight chairs and a map wall, and the map wall was the reason nobody was ever brought into this room. Naledi did not look at it for longer than a second and looked at it for that second: workings in blue, workings in a red that had been laid over the blue by a later hand, and dates in the eighties in the margins in three different inks.
+
+Tefo was standing with his hands on the back of a chair. He looked forty and tired and twenty-eight.
+
+“You’re the tuning liaison,” he said.
+
+“Naledi Mokoena.”
+
+“You filed a discrepancy on the twelfth of July and it came back closed on the sixteenth.”
+
+“You’ve seen my file.”
+
+“I’ve seen every file that gets closed in four days,” Tefo said. “It’s the only thing I’m actually good for.”
+
+She unwrapped the survey book on the table because there was no gracious way to do it and put it down open at the page, and put her finger next to the spur in the margin, and did not say anything about her grandmother, because she had rehearsed four sentences about her grandmother in the car and all four of them had been for effect.
+
+“Dineo Mokoena,” she said. “Deep-level surveyor, 2036 to 2076. This is her hand. The spur isn’t on any port map I have access to. I have a bearing off the Langlaagte wall that puts my feature in that direction from the gallery array, and I have twelve hours of house time on the twenty-sixth, and I am here because I need to know whether that spur is a real place before I spend the twelve hours.”
+
+Ma-Rethabile did not touch the book. She looked at it from where she stood, hands at her sides, for perhaps eight seconds.
+
+“It’s a real place,” she said.
+
+Tefo turned his head.
+
+“It’s on that wall,” Naledi said.
+
+“It is on that wall.”
+
+“Then—”
+
+“You have asked me a question I can answer, so I have answered it,” Ma-Rethabile said. “Now ask me the next one and watch what happens.”
+
+Naledi asked it. “What’s in it?”
+
+“No.”
+
+There it was. Not a door slammed. A door that had been shut for a long time and had a chair against it and a person sitting in the chair, and the person was not angry, and would sit there all day.
+
+“That’s the whole thing,” Tefo said, to nobody. “That’s the whole order, right there. She’ll tell you it’s real. She won’t tell you what it is. And the answer to why not is that she was told not to by a man who is dead.”
+
+“By four people,” Ma-Rethabile said, “three of whom are dead, and one of whom is ninety-one and in Klerksdorp and will not see you either, and she was on the array in sixty-four with a lamp on her head and no idea whether the roof was coming down, and you will not use her in an argument in my house.”
+
+Tefo shut his mouth.
+
+“Sixty-four,” Naledi said.
+
+“You want that too.”
+
+“I want to know if the floor I’m reading is the same floor they were reading.”
+
+Ma-Rethabile pulled a chair out and sat in it, which took her a moment, and Naledi understood suddenly that she was very old and that the voice had been costing her something for an hour.
+
+“Nineteen of us went down in the worst week of the Flare,” she said. “That’s the number people say. It’s wrong, it was twenty-three, four of them were pump men who came because the pumps were theirs. The trains had stopped. The pumps were on the mesh so the pumps were alive, which is the only reason any of this happened at all, and there is a whole religion in America about that and I don’t have an opinion on it.”
+
+“Ma,” Tefo said, “you don’t have to—”
+
+“I’m not doing testimony. I’m doing arithmetic.” She put her hands on the table. “We were down eleven days. We came up. Something had changed and something had not, and I am not going to tell this young woman what I think it was, because the moment I tell her, she will have heard it from *Ma-Rethabile who was there*, and it will sit in her chest like a fact and it isn’t one. Four of the twenty-three thought it was nothing. One of them thought it was everything and spent his last years being photographed at the west gate, God rest him, and they sell his face on a coin now with the wrong sentence on it.”
+
+She looked up.
+
+“The logs are sealed,” she said, “because when we came up we could not agree on what we had done. Twenty-three people in the same room with the same instruments. Do you understand what that means, as a technical fact, not as a mystery?”
+
+“It means the observation was underdetermined,” Naledi said.
+
+“It means we didn’t know.” Ma-Rethabile nodded once, slowly. “And it means the honest record of that week is a set of instrument traces and twenty-three disagreements, and the world has spent thirty-six years wanting it to be a story. So it stays shut. Not to keep it holy. To keep it from being finished by somebody who wasn’t there.”
+
+---
+
+Naledi went out through the yard at twenty past nine with the survey book back in its cloth and Tefo walking her to the gate.
+
+“She’s right about me,” he said, at the gate, looking at the jacaranda. “The ninety days. I’ve written the speech. I’ve written it four times and it gets better every time, and that should have told me something.”
+
+“She’s right about the other one too.”
+
+“I know she’s right about the other one. The other one’s going to happen.” He put his hands in his pockets. “Nine delegations, a volume schedule everybody’s already banked, and a Commissioner who genuinely thinks he’s carrying the world on his back, and he sort of is. On the thirty-first they’ll sign it. Nobody will lie. Everyone will be tired and reasonable.”
+
+“So there has to be a third way to do it.”
+
+“There has to be,” Tefo said. “Nobody in that house has one. I’ve asked her every week since June.” He opened the gate. “Have you got one?”
+
+“No.”
+
+“Right.” He almost sounded relieved, which she found she disliked. “Come back on the twenty-eighth and I’ll get you the floor series, sixty-eight forward, numbers only, no annotation. She’ll allow that. She’ll allow anything that’s a number.” He held the gate. “And Mokoena. If you find your grandmother’s place on the twenty-sixth and it’s got something in it, don’t come to us first. Come to us second.”
+
+“Who’s first?”
+
+“Somebody who can’t be told to sit down,” he said, and shut the gate.
+
+She drove back to the port with the window open and got to the berth at ten past eleven, twenty minutes early, and stood at the head of the walkway over 7C for a while without going down.
+
+Signing because everyone was tired. Stopping because stopping would be seen. Both of them were dishonest and both of them were on the table and there was nothing else on it.
+
+She went down and did the eleven o’clock check, which was fine, all of it, every crate.
