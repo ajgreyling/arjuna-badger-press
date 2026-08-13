@@ -556,11 +556,13 @@ HIDE_BOOKS = set(
 # HIDE_BOOKS (which drops a CURATED *book entry*): these names must not surface through any
 # secondary surface either, including data files that are hand-edited and rendered on rebuild.
 #
-# 2026-08-13 — balthazar: author instruction, "should never be linked / should never appear in
-# library". Found leaking through docs/translation_fixes.json into the PUBLIC, nav-linked
-# fix-translation.html page — 23 of 25 accepted entries named it, 46 mentions on the live page.
-# The deploy rsync already carries --exclude lines for balthazar.html and downloads/balthazar/;
-# this is the same rule applied to generated content rather than to copied files.
+# The deploy rsync carries matching --exclude lines for the same works; this is that rule applied
+# to generated content rather than to copied files. Hand-edited data files (docs/*.json) are the
+# risk this exists for: they feed public pages on every rebuild, so the gate must sit in the code,
+# not in the discipline of whoever edits the JSON next.
+#
+# Entries added here by author instruction. Keep the default populated rather than relying on
+# ABP_UNLISTED — CI rebuilds run without that env set, and an unset gate is an open one.
 #
 # Matching is substring + case-insensitive on purpose: it should catch "Balthazar",
 # "balthazar-af-001" and "Balthazar Afrikaans panel" alike. Prefer over-blocking to leaking.
