@@ -73,9 +73,12 @@
   chapter, both written down rather than drifted into. Rule 9 does **not** bend with them: no
   visitor POV, no interiority, ever. Brief: [`CH_FIRST_CONTACT.md`](CH_FIRST_CONTACT.md).
 
+- **C-19 · Chapter map — CLOSED (was O-01).** 26 chapters realising the PLOT acts, prologue in
+  2071. Binding beat law: [`CHAPTER_LEDGER.md`](CHAPTER_LEDGER.md). Chapters are written to the
+  beat, not to a length; the scanners are a late hygiene pass, never a drafting target.
+
 ## OPEN (redraft gates)
 
-- **O-01 · Chapter map.** New CHAPTER_LEDGER to realise PLOT.md acts; target length TBD.
 - **O-02 · How much Prophet is legible on-page.** Default lean: Kind→Fold and G’s refused crowns
   are *lived weather* (coin, pilgrims, soft-scrub, SA jokes with teeth) — not a 2035 synopsis dump.
   Exact crumb density OPEN until STYLE pass.
