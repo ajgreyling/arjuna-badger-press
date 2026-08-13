@@ -889,3 +889,139 @@ Then she lodged the purpose statement, because you may as well be the one who wr
 *Purpose: reconciling family-B guide segments (form 12, closed) against forming reference. Survey queries: personal, family papers, north-west quadrant. Happy to discuss.*
 
 She read that last part and left it in.
+
+# The road south, and the Atlantic · four weeks to Renewal
+
+The consignment went out of Lancaster on eleven crates and one ledger seal, and the seal was the part that could not be replaced.
+
+The crates were ash, dovetailed, lined with felt and pine shavings, built by a man in Bird-in-Hand who had built cider presses all his life and asked once what the wood was for and then did not ask again. Two hundred sixty-one kilograms of formed gold: guide segments, four collars, and the long items that the forming shop at Gap called horns and the manifest called nothing at all. Ruth had weighed every crate herself on the co-op’s beam scale, because the beam scale did not need power and did not need trusting.
+
+Her signature was on the manifest under the words RECEIVED AND CLOSED.
+
+They went south by rail. Traction platcaps, two hundred and forty tonnes of train, charging four hours at every siding where the wind farms sat, forty kilometres an hour on the good stretches and twelve where the roadbed had been relaid over the old right-of-way by hand crews in the seventies. The bed had piezo bolts under the ties. Somebody had done the sums and the bolts paid for the signal lamps and nothing else, and everyone in the Corps knew that and everyone in the Corps still said the railway ran on its own bumping.
+
+Beiler counted the crates at every stop. Eleven. He counted them at Perryville, at Ashland, at Rocky Mount. It is not that he doubted the count. Counting is what you do with your hands when you cannot sleep.
+
+---
+
+The interior south of the Potomac is a country of two kinds of place.
+
+There are the towns that came back. Brick main streets, mesh nodes on the church steeple, a market with awnings and a scale, draft teams at the rail, a diesel or two under tarpaulin for the county’s emergencies. Barn raisings still going, seventy years on, because there are still barns to raise.
+
+Then there are the substation yards.
+
+They cut the copper out of those in the sixties and the steel in the seventies. What is left are the transformer hulks, too heavy to move and too full of oil to burn cleanly, sitting in fields of Johnson grass with their bushings gone and their tanks split where they cooked. The pylon lines were felled and taken for the steel, and what is left of them is the stubs, cut off knee-high, in rows, going over a rise and out of sight. Fifty kilometres of stubs, sometimes. Sumac between them.
+
+Ruth watched them go by from the open door of the freight car with her boots hanging out and her cap in her lap. A private named Yoder sat down beside her and looked at the stubs.
+
+“My grandfather says it took a minute and a half,” he said.
+
+“To burn?”
+
+“To burn the whole east.”
+
+“It took about eleven hours,” Ruth said. “The first minute and a half was the part he saw.”
+
+Yoder thought about that and then said what everybody says, which is that it seems a lot of iron to leave lying, and Ruth said the oil was the problem, and they left it there. Behind them Beiler was singing something with the words out of it.
+
+She was six in March 2064. What she has of it is a set of small things in a fixed order. Her father coming in from the barn in the middle of the day, which he did not do. The kerosene lamp brought out of the cellar and the glass being wiped with a cloth, and the smell of the wick catching. Her mother taking the butter out of the propane cooler and putting it in the springhouse, and the crock being too heavy for her mother, and Jonas carrying the other side.
+
+Nothing burned in their district. That is the whole of the Plain memory of the Flare and it makes the rest of the country furious to this day. Nothing burned, because there was nothing there to burn.
+
+The hunger years came from the outside, on foot, up the Newport Road.
+
+---
+
+They embarked at Charleston out of the deep berth the Corps keeps at North Charleston, on the *Ashley Fair*, sail-hybrid bulker, four wingsails and a platcap bank amidships and wave-flex panels down her flanks that make her sound, in a beam sea, like a woman shifting in a chair.
+
+Twenty-one days to Cape Town if the weather is ordinary.
+
+The gold went into number three hold, forward corner, chocked and strapped, with the ledger seal photographed against a dated board and hashed and pushed onto the mesh before the hatch came over. After that the seal was the ship’s problem and Ruth’s problem and nobody else’s on earth.
+
+Watch on the hold was two hours. Ruth put herself in the rotation. Beiler told her a captain does not stand hold watch and she said she was a quartermaster, and he said that was not an answer, and she said no it wasn’t, and took the midnight.
+
+The log lives on a shelf by the ladder. Time, temperature, relative humidity, seal intact yes/no, initials.
+
+Twenty-one days of that.
+
+The temperature ran steady. The humidity went where the weather went. The gold did not care about either; the felt did, and the felt was hers.
+
+---
+
+Nights, the hold hums.
+
+Not the gold. Hull noise coming down the frames, and the wave-flex skin working, and a bilge pump somewhere aft that cycles every nineteen minutes and does not want fixing. Ruth sat on an upturned crate of nothing with the lamp turned to its low notch and her back against a stanchion, and after the first week she stopped bringing anything to read.
+
+Her grandmother’s Bible was in her kit and stayed there. The German in it is a language Ruth can hear better than she can see. On the ship she found she did not need the page. *Der HERR ist mein Hirte, mir wird nichts mangeln.* She would get four lines in and lose the fifth and go back to the start, and that was the watch, some nights, and it went quickly.
+
+Other nights she had the coin out.
+
+It is the one from the Ephrata pour, 2071, thick and badly struck, the rim gone soft from thirty years of thumbs. The Sunday version says *Be kind* and is what the children get. Hers has the whole of it, both sentences, the first one with the word in it that the county assemblies stopped reading aloud in about 2085 and that her grandmother, who was not Fold and never would be, said at least you know what they mean.
+
+Ruth ran her thumb over the first sentence in the dark of number three hold, where nobody could see her do it, and put it back in her breast pocket.
+
+---
+
+The hunger years, as Ruth carries them, are not a famine. They are a queue.
+
+The Compact granary for their district was at Ephrata and the district fed, at the end, something over eleven thousand people who had walked in from Reading and Philadelphia and one family from Trenton with a wheelbarrow. Her mother ran a soup line for four years and never once used the word charity, because it was a work rota and you were on it.
+
+What Ruth remembers is the smell of wet wool drying in the assembly room and the sound of a hundred and forty people not talking while they ate.
+
+In 1976 there was a hymn her mother liked. She has that wrong. It was not 1976.
+
+Her brother’s name is Jonas. He is two years older. When the Army moved their end of the district into the granary compound in the second winter, on account of the road people, somebody had to be left with the animals, and Jonas was fourteen and stayed with them, alone, for five weeks in a cold barn with a Springfield he was not permitted to load. That is not the staying that the family means when they say it, but it is where it started.
+
+Ruth left at eighteen and enlisted, and Jonas stayed. He is on the home place at Gordonville with a wife and six and a hundred and forty acres and eight mules, and he has never once said anything to her about the Army, in twenty-three years, and that is not a coldness. He asks after her feet. His letters are one page, weather and stock and prices, and at the bottom, always, *we think of you*.
+
+She writes back longer than he does. She has always written back longer than he does.
+
+---
+
+Day fourteen, the cook lost the ship’s cat for a day and a half and had the whole after-guard turning out lockers, and it was in the sail locker having kittens, and the cook came up the ladder holding two of them like a man holding evidence. Beiler put it in the ledger of kindnesses. Yoder asked what the entry was and Beiler said, feeding a nursing mother, four hands, and Yoder said that was the cat’s kindness not his, and Beiler said he was not going to argue theology with a private on a Tuesday.
+
+Ruth laughed until she had to put her hand on the rail.
+
+---
+
+Day sixteen the wind went round and the wingsails came in and they ran four hours on the bank, and the hold got warm, and the humidity climbed nine points in a watch, and she wrote it down, and it came back.
+
+That watch she thought about the bins at Christiana.
+
+It was the wet fall of 2089. She was a first lieutenant and the district’s movement officer, which meant she wrote the schedule that said which wagon went where and when the steel bins came empty for the next intake. That year the wheat came in at nineteen, twenty per cent moisture, and the plan out of Corps was to bin it wet and run the forced-air driers, because the driers were new and the Corps had built them and the numbers said they would carry it.
+
+The threshing men said stook it. Two of them, older, from Peach Bottom, said it in a room with her in it: leave it in the field on the stook, lose four per cent, keep the crop. They had a hundred and sixty years of doing that and no paper.
+
+The plan stood. Ruth did not object to it. She scheduled it.
+
+Bin four bridged. Wet grain does that; the crust arches over and hangs, and under the crust is a void, and the bin looks full and moves nothing. The order for the crust was poles from the top hatch, and the men on the crust were roped, and one of the ropes was tended by a man who had not been trained to tend a rope because Ruth’s schedule had him tending a rope at 0400 and driving at 0600.
+
+The crust went. Grain flows like water and weighs like grain.
+
+Three men. Enos Zook, who was fifty-one. Christian Zook, his nephew. And a boy from Gap named Aaron Fisher who was nineteen years and four months and had been on the rota nine days.
+
+Ruth was in the scale house forty metres away with a clipboard.
+
+They pulled Christian out alive in the first ten minutes and he is alive now, in Kinzers, and he waves at her when she goes by.
+
+The board of inquiry found the plan sound and the execution deficient, and named the deficiency at the level of the movement schedule, and her captain took the finding onto his own record, which was his right and which she had not asked for. She had asked for the opposite. She was reassigned to Fort Indiantown Gap and promoted eleven months later, on time.
+
+The Fisher family came to her. That is the part. They came to the barracks in a spring wagon, the father and an aunt, and they brought bread, and they sat in the visitors’ room at Indiantown Gap and told her she was welcome at the funeral and that they held nothing against her, and she said thank you, and they went home.
+
+She did not go to the funeral. She has never been able to give an account of that.
+
+Twenty years on she can say what she learned, and it is small and useful and does not weigh anything like the thing it came from: when the men with a hundred and sixty years and no paper are saying one thing and the driers are saying another, you stop the schedule and you take the four per cent.
+
+Nobody has forgiven her, because nobody has ever accused her, and she has noticed that those are not the same and that she would prefer the accusation.
+
+She wrote 0200, 24.1, 71%, seal intact, RS.
+
+---
+
+Day nineteen the wind came back and the sails went out and the ship leaned into it and Ruth stood at the rail before her watch with the coin in her fist and the Atlantic going by black.
+
+She had a job at the far end of it. Deliver eleven crates. Get a receipt. And be able to tell the county assembly at Gordonville, when she stood up in a plank chair with her hat off, what the gold had been: what they paid, what they were offering, or what they were handing over. Three different sentences, and the manifest supported all three, and her people would want the true one.
+
+That was what she had. Twenty-one days of humidity in a book and a question she could not answer with a scale.
+
+She went down the ladder at four minutes to midnight and Yoder came up past her and said the humidity was falling and she said good, and he said, Ma’am, and she said, Get some sleep.
