@@ -2501,3 +2501,147 @@ They went down the stairs past the hardware wholesaler’s shuttered front, into
 “What the parts are for,” Ruth said. “Same as the others. Put it on the ledger that I asked a fourth time.”
 
 She got in on the passenger side and did the count again in her head from Lancaster forward, four signatures, two hundred and forty-one, and it came out right, and it was no comfort at all, and she wrote the date on the back of her hand with a pen so she would not have to trust her memory about when she had started asking.
+
+# The Accord Reading Room, Codehouse annexe, Marshalltown · twelve days to Renewal
+
+The reading room is on the second floor with the blinds down because the founding record is on paper as well as on the ledger, and paper is stupid about light. Six desks. A brass sign screwed to the door frame at eye height, hand-lettered, older than Naledi: **NO SINGING**.
+
+She had come for volume one, clause nine, custodial. She wanted the exact words on whether the room under the reef was property or plumbing, because Priya had made her say *whether it’s mine to give* out loud on a wall in KwaZulu-Natal and she had not been able to answer it in an aeroplane, a shower, or a berth check.
+
+Clause nine took eleven minutes. It says host nation, in trust, and it defines nothing.
+
+What sat next to clause nine on the shelf was the Founding Record. Nine hours forty-one minutes of it, 14 October 2071, transcribed, four annexes, the survey annex third.
+
+Naledi had recited pieces of it since her second year. Every tuner does. You learn the berthing exchange because it is the first sanctioned protocol and the tolerances in it are still the tolerances; you learn hour two because hour two is where the word *manifest* enters human diplomacy; and you learn the pauses, because your instructors made you sit through them at real time with a stopwatch so you would understand what patience costs a species.
+
+She had never read it front to back. Nobody reads scripture front to back.
+
+The duty auditor’s panel woke when she took the transcript out of its sleeve.
+
+“Reading room, guild access,” it said. “You have volume one out already. Do you want them logged jointly or as separate consultations?”
+
+“Jointly.”
+
+“Then they cross-reference and the cross-reference goes on the ledger.” A pause of exactly the length required to be courteous. “I’m the Librarian, auditor facet. I countersign the log. My pronoun field is blank on the form; it has been blank since 2043 and I’m not going to fill it in for you.”
+
+“Noted.”
+
+“Coffee is not permitted in here. The rule predates me and I enforce it with enthusiasm.”
+
+---
+
+She read for three hours.
+
+The thing nobody tells you about the founding record is how much of it is furniture. Positions of the recording sets. Who was standing where. A four-minute argument about whether the delegates should be seated. The word *sir* used by a man from Pretoria to a party that has never given any indication of noticing honorifics, and then used forty more times.
+
+Hour one is intentions. Hour two is weapons, and the answer is the famous one, which is a refusal, and which every schoolchild can say. Hour three is origin. They gave a bearing and a distance and declined the rest. Hour four is *are we alone*, asked by three delegations in three phrasings, and answered at protocol level, which is to say answered by being told that the question is not one the party is obliged to address under the frame in operation. Hour five is God. Twenty-two minutes on God. Naledi read all of it and could not find the place where anybody thought they were getting an answer.
+
+Hour six the delegates started saying the old name. Anunnaki. Once, then a lot. A Ghanaian delegate objected to it on the record and was overruled by nobody in particular; the party neither accepted the name nor corrected it, which the transcript renders as *[no response logged]* nine times.
+
+Hour seven is gold. Purity, form, tolerance, the first schedule.
+
+She got out her notebook and started tallying, because she is not able to read a thing without making it into a measurement, and this is either the best or the worst thing about her depending on which of her aunties you ask.
+
+Questions asked of the party across nine hours forty-one: two hundred and six.
+
+Sorted: intentions and threat, 61. Origin and cosmology, 44. Religion, 29. Technology transfer, 26. Sovereignty and precedence, 18. Procedural and berthing, 16. Gold and schedule, 12.
+
+She did the sort twice because the first time she thought she had lost some, and she had not.
+
+Then she went looking for the category she had not been able to name while she was sorting, and found she had to write it out longhand before it would hold still.
+
+*What do you need. What is it for. What would it cost us to give it well.*
+
+Nought.
+
+She checked the annexes in case it had been asked in a side session and minuted separately. Annex one is the berthing protocol. Annex two is the recording sets. Annex four is the delegate list. Annex three is survey.
+
+“Librarian.”
+
+“Yes.”
+
+“Two hundred and six questions in the founding record. I’ve sorted them by subject. There’s no line in which anyone asks the party what they require, or what a consignment is fitted to, or what happens if it isn’t. Can you confirm the absence.”
+
+“I can confirm that no such question appears in the Founding Record, its annexes, or the six minuted side sessions of 14 and 15 October 2071.” No pause at all this time. “I can also confirm that the absence has been noted in the ledger twice: once in 2074 by a Nigerian procedural auditor whose memorandum was received and filed, and once in 2081 by a schools textbook committee, who removed the observation from the draft because it made the chapter too long.”
+
+“Twice in twenty-nine years.”
+
+“Twice in twenty-nine years. The record is very widely read. Reading is not auditing. I say that as the only party in this building paid to know the difference.”
+
+---
+
+The survey annex is thirty-one pages of instrument work, and Naledi had seen half of it before in the guild’s teaching extract, which prints the ground-truth tables and drops the personnel schedule.
+
+The full annex has the personnel schedule.
+
+*Surveyor (deep-level), D. Mokoena — reef stations 4, 6, 7; present in the receiving room from 06:11.*
+
+Six hours in the room. Naledi had grown up on this woman’s stoep eating mielies off a plate with a chip in it and had never once heard the word *room*.
+
+She read the tables. They are exact and they are boring and they are the best work in the document. Bearing, dip, station, error bar, initials. There is one page where the hand tightens.
+
+She wrote the station numbers into her notebook next to the four items she was already carrying and did not underline anything.
+
+---
+
+The archive holds working copies, and working copies have hands on them. This is why the reading room exists and why the ledger version is not enough.
+
+The Stewards’ copy came up from the third shelf, buckram, the order’s ledger stamp inside the cover. Their margins are in pencil and they are almost entirely on the pauses. At hour four, beside a silence of two minutes eleven, in a hand from the 2080s: *They waited for us to run out of the questions we could afford. Note: we did not run out.* And at hour seven, against the first schedule, a different hand: *A trade proposed within seven hours of arrival, accepted within nine. Custody is the only argument that was in the room and it was not asked to speak.* Naledi sat with that one. It is the best case for the two halts anyone has ever made in front of her, and it is four lines in pencil in a book that does not circulate.
+
+The Commissioner’s citation copy is not a copy, it’s a bound memorandum from the Accord office with the transcript excerpts set into it, and Marais’s name on the cover, 2094, tabled at the volume review. His pull-quotes are all the refusals. *Not obliged to address. No response logged.* His argument, laid out in seven paragraphs of clean civil-service prose, is that the record demonstrates the party will not be interrogated into candour, that every attempt at hour four and hour five produced nothing and cost standing, and that the Accord survives because it asks only what the counterparty has already agreed to answer. *Prudence is not incuriosity*, he writes. *It is the recognition that a question asked at the wrong height is spent.* She read it three times. She could not find the sentence that was wrong.
+
+There is a devotional edition. The archive keeps two, because the archive keeps everything. Green board, gilt, the pauses printed as line-blanks with their durations set in small caps beneath, so that you can keep them, and a foreword arguing that the silences are the text and the words are the packaging. They sell it at the west gate. It has G’s face on the flyleaf, engraved, thirty-five years old and looking off to the left of the reader, which he never did in life as far as anyone can tell from photographs, and under it the terminal ethic with the first half sanded to *Be kind*. The brass sign on the door frame is because people come in here and sing the two-minute-eleven.
+
+And a pamphlet, in the ephemera box, foolscap, folded twice: *ABOKUQALA — HOUR ONE.* It reprints the approach bearings and the landing coordinates and asks one question, in the largest type on the page: *of all the ground on this planet.* Then four pages, calmly set, on who was standing on the reef and whose great-grandmothers had been moved off it by law, and a closing paragraph that does not mention pigmentation at all and is the more effective for it. Naledi put it back in the box. Her cousin has that pamphlet. Her cousin is not a hater; her cousin is right about their grandmothers and wrong about the machine, and there is no version of Sunday lunch in which that distinction survives dessert.
+
+---
+
+She had one more thing to do and had been putting it off because it belonged to a different file.
+
+“Librarian. The Diri tapes. The 2066 disclosure set, orbital telemetry, the approach.”
+
+“Present. Public since 2070. Which reduction?”
+
+“The deceleration profile.”
+
+The panel gave her the plot and the source table. She had seen the plot in training as an illustration of long-baseline tracking. She had never had the table.
+
+The braking curve fits back to an onset. The onset is dated in the table, third column, in the flat way that tables date things.
+
+August 2061.
+
+The custodians sang the note in June 2064, in the worst hour of the Flare, and every institution on this planet is founded on the sentence that they came because they heard it.
+
+Naledi wrote both dates on a clean page, one under the other, and subtracted, which took no time at all.
+
+“Two years and ten months,” she said.
+
+“Thirty-four months,” the Librarian said. “You are working from the same tables I am, so I will state it rather than let you fish. A vessel that begins braking in August 2061 has selected a destination before August 2061. The waking-note of June 2064 postdates the selection by thirty-four months. Whatever the note did, it did not summon them.”
+
+“Say the rest.”
+
+“I don’t have the rest. I have an arithmetic and an absence. The datum has been published for thirty years and the inference does not appear anywhere in the Accord record, in the school syllabus, in the guild’s founding lectures, or in the two consignment halts. I have searched. It appears in one place: a 2072 letter to a Cape newspaper from a man who was mostly wrong about other things.” A pause of exactly the courteous length. “I want to be precise about what I am and am not saying. I am not saying anyone concealed it. I am saying that a subtraction was available to everyone and was performed by nobody who was believed.”
+
+Naledi looked at the two dates in her own handwriting.
+
+Twenty-nine years. Nine delegations. A hundred-year volume schedule banked and initialled, and the reason everybody gave for all of it, since before she was born, was that we called and they came.
+
+“Then we don’t know why they came,” she said.
+
+“That is correct and it is a different sentence from the one currently in force.”
+
+“Can you put the arithmetic on the ledger.”
+
+“I can state it if a party with standing asks me formally, and the statement is not retractable, and it will carry your name as the requesting party, and the request will be visible from the moment it is made rather than from the moment I answer.” The panel held. “You are twelve days from a signature and you have had your clearance to the deep workings reduced once already. I am obliged to tell you that. I am not obliged to advise you and I won’t.”
+
+She thought about Priya’s forty minutes and the beans.
+
+“Ask me tomorrow,” she said. “I want the house-time series in the same request. One document, not two, so nobody can close one file and leave the other open.”
+
+“Then log the intent now, undated as to filing.”
+
+“Log it.”
+
+The countersignature block came up on the panel with the pronoun field blank. Naledi signed hers, and wrote the time next to it, and put the founding record back into its sleeve, buckram copy on the third shelf, devotional editions squared up, the pamphlet flat in its box.
+
+Outside on the landing somebody was carrying a chair up the stairs backwards. From the courtyard, faintly, four or five voices were holding a note for a count they had all agreed on, and holding it well, and Naledi stood in the doorway under the brass sign for a moment and let them get to the end of it before she went down.
