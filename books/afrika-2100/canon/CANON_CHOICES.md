@@ -58,6 +58,15 @@
 - **C-13 · Firstborn (Abokuqala) — LOCKED.** Human misreading only (Rule 9). Weather not engine.
   Antagonist remains Renewal-at-any-price.
 
+- **C-16 · Who the visitors are — LOCKED.** Builders' *heirs*, a **keeping species**, back to
+  service a machine they can no longer couple to (they have presence, not residence; the room
+  refused them). Full statement: [`VISITORS.md`](VISITORS.md).
+- **C-17 · The Anunnaki name — LOCKED as naming, not fact.** The repair manifest echoes the Enki
+  tradition (*mined to mend a dying world*) and characters notice; narration never adopts the
+  mythic names (Rule 1). Making them *literally* the returned Anunnaki is REFUSED: it would arm
+  the Firstborn heresy the book refutes by physics (C-13), import the Great Zimbabwe libel, and
+  demand backstory the no-POV rule withholds. Reasoning in [`VISITORS.md`](VISITORS.md).
+
 ## OPEN (redraft gates)
 
 - **O-01 · Chapter map.** New CHAPTER_LEDGER to realise PLOT.md acts; target length TBD.
