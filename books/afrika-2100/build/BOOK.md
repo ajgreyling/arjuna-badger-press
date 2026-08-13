@@ -3890,3 +3890,191 @@ At the collar there was tea in a drum and the night shift’s boilermakers stand
 He tipped his head one way and then the other, and poured her the tea. Beyond the fence, three kilometres off, you could hear drums, and under them the low continuous noise of a lot of people who have driven a long way in order to be somewhere, and none of it was going to be settled by anything in a green cloth book.
 
 Naledi drank the tea. It was terrible. She had six hours before she had to be back at the collar to sign Tefo on, and she spent the first of them sitting on an upturned crate with her boots off, at surface, in the cold, holding her grandmother’s survey book on her lap and not opening it.
+
+# eGoli Spaceport · the day after Renewal
+
+The signing itself had happened at 11:40 on Renewal day, upstairs, in front of everybody, and took four minutes. What took the rest of the week was the paper behind it.
+
+Naledi read the ledger publication on a bench outside the assay hall at half past nine on the thirtieth, with a bread roll she had not started and a coffee going cold beside her, because she had signed Tefo onto the plate at six and come up and had nowhere to be until fourteen hundred.
+
+The operative text ran a page.
+
+*The Accord is renewed for a term of twenty-seven years, as amended by Volume Three (Maintenance and Custody), which forms part of it.*
+
+Then the schedule. Volume granted: four hundred and sixty tonnes per cycle, indexed to fineness assay and not to price, because price is a human problem. Sixty-one to sixty-eight of it consumed on this ground. Handover: a twelve-stage programme over sixty years, stage one being *characterisation of the failing element by Earth instruments, Earth staff, published*, which is a sentence that means eleven institutes and a budget fight. Custody: stated in the open, named order, named guild, named register, publication of held calibration within twenty-four hours of each reading including readings the keeper believes to be wrong.
+
+And the last clause, which the drafting group had argued about for two hours on Thursday and which the counterparty had not asked for.
+
+*Nothing in this volume vests in any keeper, order, guild, or party any authority over the Accord, its schedule, or its parties.*
+
+She read it twice. Somebody had wanted, badly, to put a fence around the thing they had just made, before it grew.
+
+Her own numbers were three screens down under a public-record header, in the format the guild uses for a variance report, which she had formatted herself at midnight with shaking hands. Beat 0.0163 flat, rising. The counterparty’s Annex A datum next to it. Nobody had cleaned it up.
+
+At 09:50 the guild-master came and sat on the other end of the bench with two rolls of drawings under his arm and said, “You’re on the roster for the fourteenth.”
+
+“I know.”
+
+“There’s a problem with the fourteenth. There are four names on that roster and one of them is seventy-eight and one of them is Radebe, who has a hernia he hasn’t told the academy about.” He put the drawings down. “So we’re recruiting. That’s a guild function now. Was.”
+
+“Was?”
+
+“Ausi, we certify tuners. We don’t certify keepers, and half the board would like us to, and the other half wants nothing to do with it and says the Stewards can carry it like they always have.” He rubbed his eye with a knuckle. “Wednesday’s meeting is going to be a bloodbath and I want you nowhere near it. You’re an argument now, not a member.”
+
+“That’s a hell of a thing to say to me.”
+
+“It’s the truth and I’m saying it before somebody kinder says it worse.” He picked the drawings back up. “The Chile institute wrote to me and not to you. I’ve told them no on your behalf. I hated it. Somebody’s got to do the small dirty parts of this or you’ll spend your life doing them and never hold a number.”
+
+“Ntate—”
+
+“Fourteenth, six in the morning, and eat something. That roll’s been in your hand since I came out.”
+
+---
+
+At noon Naledi walked the choir line because she had not walked it since the fourteenth of September and she wanted to see whether it would still feel like hers.
+
+Six hundred metres of gallery, twenty-two stations, the consignment barred and stacked on the trolleys under lamps, and the sound of it the way it always is: hard, dry, plate-on-plate, the tick of a slide-counter, somebody’s radio in the far bay playing kwaito with the treble broken.
+
+At station nine a tuner she did not know was reading a bar and stopped when she came past and stood up.
+
+“Sit down,” Naledi said.
+
+He sat down. Then he said, “Can I ask you something.”
+
+“Yes.”
+
+“Do we still file variances to the guild, or to the register, or both? Nobody’s said. I’ve got a ratio on this pallet that’s probably nothing.”
+
+“Both. File both, until somebody writes it down, and put the time on each one.”
+
+“That’s what Mama Tshabalala said.” He looked at his instrument. “It’s probably nothing.”
+
+“Show me.”
+
+It was nothing. Bad clamp seating on a warm plate, a millimetre of lift, the kind of thing she had done herself at his grade twice in one week in 2094. She showed him with her thumb. He was quietly furious with himself in the way of a man who will be good at this.
+
+Walking out she passed the epigraph they had stencilled over the gallery arch in 2081, which every tuner reads eight thousand times and stops seeing at about six hundred: *STATE THE INSTRUMENT. STATE THE ERROR. STATE THE DATE.* Somebody in the last three days had chalked under it, in a careful hand, *and be kind about it.* Somebody else had chalked out *be kind* and written *cunt* in full and been chalked out again, and the arch now carried a small grey smear of the argument.
+
+The guild does not paint over the arch. It is a rule from before she was born, and nobody remembers why, and everybody defends it.
+
+---
+
+At the eastern gate the drums had thinned to about six hundred people by afternoon, and half of those were selling things.
+
+Naledi went out through the pedestrian turnstile because her car was in the north lot and there is no way round. She had a cap on. It did not work.
+
+A woman caught her sleeve — sixty-ish, headwrap, a bag of oranges. Not a hater. “Ngwananyana. Is it true you stood on the stone.”
+
+“I did.”
+
+“And you are Sotho.”
+
+“I’m Sotho. So was the man who held the pump on the 2,600 in 2064 and so were four of the eleven, and the survey clerk was Indian and the contractor from Durban was white and it made no difference to the room at all. It’s hours underground, Mme. It’s hours.”
+
+The woman looked at her for a while with real fondness and complete disagreement. “You’ll see,” she said. “You are young. You’ll see.” She put an orange in Naledi’s hand and would not take money for it.
+
+Twenty metres on, a young man with a folding table and a laminated sheet was reading Sela’s item five aloud in Zulu to four people, at volume, and had got the wording exactly right, and was using it to prove the visitors had confirmed that keepers of this ground are made holy by the populations they serve. He had underlined *made into something else*.
+
+Further along, a stall selling ledger-coins: the honest ones, struck with the full sentence, two rand each, and the soft ones with G’s face on the obverse and *BE KIND* on the reverse for five, because the face costs more. A boy of about ten was minding the tray. Naledi bought an honest one, and the boy said, “Everybody wants those today,” which is not the same as everybody wanting them.
+
+Behind the stalls, on the concrete of the flood culvert, someone had painted the sentence in white four metres high, all of it, and someone else had come back with a roller and taken out the first three words, and someone had come back after that and put them in again in a different white.
+
+She got to the car. The orange was in her jacket pocket knocking her ribs where the slide-counter had been.
+
+---
+
+## Berth Four, transient wharf · 11 November
+
+They loaded the empty consignment cradles at first light and the ship was the *Marge Cudahy* again, five days in the yard on her stays and painted where the Atlantic had taken it off her.
+
+Ruth stood at the head of the gangway with the manifest and Beiler read the count off the crates because after fourteen thousand kilometres neither of them was going to stop doing that now.
+
+“Cradles, forty. Chocks, four hundred and six, six short, they’re in the bilge and I’ll find them. Seals, one bag, void. Sixteen bags of Bushveld millet the port pushed on us as a gift and I have signed for it as freight and not as a gift because gifts have to go through the mission.”
+
+“Good.”
+
+“It’s eleven hundred kilos of millet, ma’am.”
+
+“It’s freight.”
+
+Hargrove came down at eight with the recall file and the disposition, and he was not a cruel man and had not enjoyed any part of the last month.
+
+“Board of inquiry convenes at Carlisle on the twentieth of January,” he said. “You’ll be at Carlisle from the ninth. Failure to comply with a lawful order, and I’ll tell you now what my testimony is, because you’d get it in discovery anyway: the order was lawful, the order was correct, and I’d give it again, and the officer who refused it was right on the merits and the merits are not the charge.”
+
+“That’s a hard letter to write.”
+
+“Wrote it twice.” He handed her the file. “There’s a second thing and it isn’t mine. The Compact executive wants you at Lancaster before Carlisle. Bishop Zook asked. Three of the district assemblies have written to the Army about you, one of them against, and the against one is the honest one — they say you have made the load into a witness and a load is not a witness, and that the Fold does not need a hero at a foreign port.”
+
+“They’re right about the hero.”
+
+“They’re right about a lot. Hell of a way to be right.” He put out his hand. “Off the record, Captain: I read the volume. My grandmother was in Pittsburgh in the hunger years and I would have signed anything on that floor. I’d have signed the first draft.”
+
+“So would I have, in 2073,” Ruth said, “and it would have been wrong, and they’d have taken it, and they’d have carried on for forty years and stopped coming, and nobody would have known what we sold.”
+
+“Yes.” He let go of her hand. “That’s the part I don’t like about you.”
+
+---
+
+She had four hours and she spent one of them in the annexe with nine chairs, writing what she would say at home, because she has never once trusted herself to say a true thing well without writing it first.
+
+The mission had wanted a phrase for the wire and had wanted *offering*. The Chinese delegation’s statement had said *purchase*, which is defensible. The Nigerian mission had said *the beginning of an audit*, which she liked and which was too clever for a barn.
+
+She wrote: *It was rent. On our own house. The roof needs holding and the man who owns nothing came and told us what the holding costs and did not sand a figure. We are not the ones holding it. It is not our ground. What we sent is our share of the cost of a thing that keeps a light on for people we will never meet, and we will send it again in twenty-seven years, and the price will be argued about every year until then, and it should be.*
+
+She read it back and crossed out *the man who owns nothing*, because Sela does not own nothing and she does not know what Sela owns, and putting a phrase like that in a barn is how a phrase gets into a hymn.
+
+Then she wrote, underneath, for herself:
+
+*They will ask if we were cheated. Some of us were, in 2073, and the ones who signed it are dead and were tired and were feeding people. Some of us are being cheated now, because sixty-one tonnes is consumption and consumption cannot be audited from here, and the audit clause is stage one of twelve and I will be sixty-eight when stage four is due.*
+
+*Both of those are true and I am going to say both.*
+
+She put the paper in the Bible against the flyleaf, where the coin used to sit before she started carrying it loose, and the Deitsch in her grandmother’s hand on the flyleaf is a date and two names and no comment.
+
+Naledi came down the wharf at eleven with a satchel and a paper bag.
+
+“I brought you something and it’s stupid,” she said.
+
+It was a bar. A test bar, forty grams, the kind the assay hall cuts for calibration, stamped 999.99 and barred on the ninth digit and then defaced across the face with a chisel because a defaced test bar can’t be signed for as anything.
+
+“Customs will have opinions,” Ruth said.
+
+“It’s ruined. That’s the point, it’s ruined, it can’t do anything. I wanted you to have a piece of the medium that doesn’t work.” Naledi turned it over in her hand once and gave it up. “Everybody at home is going to ask you what it looks like.”
+
+“They’ll ask what it’s *for*, and I’ll say I don’t know, and I don’t, and that’s in the volume too.” Ruth put it in her breast pocket, where the weight was noticeable and would be for eleven days. “Fourteenth?”
+
+“Fourteenth. Six in the morning, an hour and a half if I’m lucky, and then I write the number down whether I like it or not.”
+
+“And when it’s wrong.”
+
+“Then I write that down within one working day and keep standing while eleven institutes tell the world I’m a girl who can’t count.” Naledi looked at the ship. “Sithole says the first honest error is the whole thing. She says the volume isn’t real until a keeper publishes a wrong number and doesn’t get eaten.”
+
+“She’s right. It’ll be about the fourth one before anybody believes it.”
+
+“That’s what my grandmother would have said, probably.”
+
+Ruth did not ask, because they had done that already, on a Sunday, and the answer was that the woman said nothing for twenty-seven years and then died. Some things get said once between people and after that only pointed at.
+
+They stood there. Wharf noise: the crane, a generator, somebody’s radio again.
+
+“They’ll try to make you a face,” Ruth said.
+
+“They started Tuesday. There’s a coin already. It’s a bad likeness, I’ve got a longer jaw.” Naledi shrugged. “I’ll keep publishing the numbers. It’s hard to worship a woman whose arithmetic you can check.”
+
+“That’s not been my experience.” Ruth got the coin out and turned it thumb-over and held it flat so the light took the letters, all of them, unsanded. “But it’s the best method anybody’s found.”
+
+Naledi read it. She had seen a hundred of them across the port that week and never one at that distance, and she laughed at the first word the way people do, which Ruth has watched a thousand strangers do and has stopped minding.
+
+“Miriam will want the short form,” Ruth said, putting it away. “She can have it. There’s room for both sentences. It’s the first one that’s about this.”
+
+The last cradle went aboard at 12:20 and Beiler found the six chocks in the bilge exactly where he had said they were and made a small triumph of it that nobody begrudged him.
+
+They sailed at three. Ruth stood at the rail as the wharf came off the beam and did not look at the port for very long, because a port is a port, and because the *Marge Cudahy* under motor makes a noise like a threshing floor and she wanted to hear the moment they cut it and put up sail.
+
+---
+
+The 11:40 signing had gone out on the wire as a still photograph: the Chair, the counterparty’s folded sheet flat on the rostrum for once, eleven principals standing behind, and a woman in a shaft jacket at the edge of frame who three papers cropped out and one did not.
+
+By the twelfth of November the Give bloc had published a paper arguing that the handover schedule’s twelve stages gave the North sixty years of leverage over African custody and should be renegotiated at the next cycle, and they were not entirely wrong. The Keep bloc had published nothing and had bought fourteen hectares next to the Kloof headgear through three companies. Understand-first was already splitting over whether stage one should be run by the academies or the guild. The soft churches had a silhouette on a banner within the week and it was a good silhouette and everyone knew whose it was.
+
+At the flood culvert the sentence was still four metres high with its first three words in a different white, and on the twenty-second somebody scrubbed them again.
