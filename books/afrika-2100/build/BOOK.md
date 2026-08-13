@@ -2865,3 +2865,131 @@ Tefo caught her at the stairs. He had not folded anything.
 The mesh had it by noon. By two the Accord office had a note out saying the finding was historiographical and did not affect the schedule, which was true, and which nobody in the country read that way. By four somebody at the west gate had painted the two dates on the concrete, one under the other, with a line and the difference below it, and by six a man was selling prints of the two dates on green board with gilt edges, and had put a face above them, and it was not hers, and she was grateful for that for about a minute before she saw whose it was.
 
 She went back to work at seven. Two hundred and forty-one crates, and somebody had to sign for them by weight.
+
+# Commissioner’s block and Berth 7C, eGoli Spaceport · five days to Renewal
+
+The withdrawal came as three separate documents, which is how you can tell nobody wanted to sign one.
+
+Form GT-4, guild internal: *suspension of practising certificate pending inquiry, Mokoena N., tuning, grade two.* The inquiry’s subject was stated in the box provided and the box was small, so it read: *calibration records signed 6 Aug–24 Oct 2100 against reference block PTA-11/6 outside certificate window (14 months). Irregularity, not integrity.* Somebody had typed that last clause in themselves. It was not on the form.
+
+Form AC-19, Accord office: *withdrawal of gallery access, all levels below Nine.* Reason field: *administrative.*
+
+And a port pass, cancelled the ordinary way, which is that her thumb stopped opening the choir-line door and the door said, in the pleasant voice it uses for everything, that her credential was not current and she should see her sponsor.
+
+She stood in front of it for a second with her kit bag on her shoulder. Then she went round to the crate dock like a delivery.
+
+The guild-master was waiting at the dock with the paper already in his hand, because he had decided not to make her come to his office for it. He is sixty-one and he had been up all night; you could see the night in the collar.
+
+“The block was out of certificate,” he said.
+
+“You lost that argument to me in March. You wanted it recertified before Renewal. I said after.”
+
+“Ja. And you were right, and I have spent this morning explaining to two lawyers that you were right, and it has helped nobody.” He handed her the GT-4. “The charge is real, Naledi. That’s what makes it usable. If they’d invented something I could have fought it in an afternoon.”
+
+“Who filed.”
+
+“Compliance. On a query from the Commissioner’s office about whether the tolerance signature on the American consignment would survive a challenge on the floor.” He put his hands in his pockets. “The answer is that it will not, now, because the signatory is suspended. So the forty-one lots get re-signed by Venter this afternoon, off the same block, which is still out of certificate, and nobody will file anything about that.”
+
+“Say it out loud so I know you heard it.”
+
+“I heard it,” he said. “I am going to go on hearing it. Give me the bag, I’ll have your instruments held in my name so they don’t go into the pool.”
+
+She gave him the bag. The reference block went to Pretoria at eleven, in a foam case, in a van, for recertification, six days early, and the deep-gallery series lost the only thing that tied its absolute pitch to anything. The drift would still be a drift. She had the Librarian’s paragraph for that. But you cannot make a new measurement with a block that is in a van.
+
+At 13:20 the Commissioner’s office sent her a meeting.
+
+---
+
+Marais’s office has a window onto the apron and he keeps the blind up. You can watch the crate crews from his chair. He was standing when she came in, and he stayed standing, and he did not offer her the chair for four or five seconds, which was the only unkind thing he did all afternoon.
+
+“Sit. Do you want tea? It’s rooibos, it’s institutional, it’s terrible.”
+
+“No thank you, Commissioner.”
+
+“Have some anyway, I’m having some.” He poured two. He is a small neat man with a farmer’s hands. “Your audit was excellent work. I want that said in a room with no recorder in it, because I said something different to the press and I’ll say it again tomorrow.”
+
+“You said it was historiographical.”
+
+“It is historiographical. It is also the best piece of forensic arithmetic this country has produced in ten years and it has cost me the Kenyan bloc and probably the Chileans.” He sat. “Do you know what the volume amendment is for? Not the paper. What it’s for.”
+
+“Handover schedule. Maintenance stated in the open.”
+
+“That’s what it’s for in eleven years. In eleven days it’s four hundred and sixty tonnes of platinum-group offtake, licensed, and the seventy-third clause that lets us hold the port instead of an arbitration panel in Geneva holding it. If the volume review reopens, it reopens with Give in the chair and China’s paper on the table, and their paper is generous and it is not ours.” He turned his cup on the saucer. “Europe put nine million people through last winter on licensed capacitors. Those are not an abstraction to me. I have been in the rooms.”
+
+“None of that requires my certificate.”
+
+“No.” He said it immediately. “It doesn’t.”
+
+The apron noise came up through the glass, a crane finding its stop.
+
+“I have read the file on you twice,” Marais said. “The discrepancy is real. Your drift is real. Paragraph five of their answer is the worst paragraph I have ever had on my letterhead and I put out a press note calling it candour. I am not confused about any part of this. I want you to leave here without the comfort of thinking I’m confused.”
+
+“Then don’t do it.”
+
+“If I leave your certificate in your hand, you have standing on the floor. With standing you get an hour, and in that hour you will be honest, and honesty on that floor for one hour costs us the schedule. That is not a guess. I have counted the delegations three times this week and I can count.”
+
+“So you’re burying me.”
+
+“I’m suspending a practitioner over a stale certificate, which is a thing I am entitled to do, and which is true, and which I would not have done in September.” He picked up a pen. “That’s the sentence, if you want it. I would not have done this in September.”
+
+He signed the countersignature block on the AC-19. It took him no time at all. He blotted it, which nobody does any more, and set it square with the edge of the desk.
+
+“I’ll be the man who did that,” he said. “Twenty years, thirty. Somebody will write it. Fine. The alternative is that I am the man who let it go to arbitration to keep his hands clean, and there is a version of the winter after that which I can see from here, and it frightens me more than being written about.” He put the pen down. “That’s the whole of it, Mokoena. There isn’t a better argument underneath. I’ve looked.”
+
+Naledi drank the tea. It was terrible.
+
+“Then put paragraph five on the ledger yourself,” she said. “You don’t need me for that. You have the letter. Table it with the amendment. Signed, amended, and the condition of the site recorded next to the signature.”
+
+“And then every delegate reads *the party is not obliged to address the question of cause, remedy, or consequence*, and the amendment dies on a Thursday.” He stood up, which ended it. “After. I’ll table it after. I mean that. You won’t believe it and I’d think less of you if you did.”
+
+At the door he said, “The reference block will come back certified on the second. Your inquiry will find irregularity, not integrity. It’ll be in writing. It won’t help you next week and it will help you for the rest of your career, and I arranged it, and I’d rather you knew.”
+
+“Commissioner,” she said, “you’ve just told me you’re afraid.”
+
+“Yes.”
+
+“Write the date on it.”
+
+He looked at her for a moment. Then he wrote something on the corner of his blotter, and she could not see what, and she went out past the woman with the folder who had been waiting for eleven minutes with the next thing.
+
+---
+
+The recall came to Ruth at 7C, hand-delivered, because the first one had gone by ledger and she had answered it by ledger, and the Army had learned.
+
+Major Ndlela had flown in from Norfolk that morning and had not slept. He was correct about it. He put the order on the crate that Ruth used as a desk and he read the consequences out, because the regulation requires them read.
+
+“Captain Stoltzfus, you are directed to hand over the consignment and the quartermaster’s warrant to me at 18:00 today and to embark on the *Fairfield* at 06:00 on the twenty-seventh. Refusal is failure to obey a lawful order, Article 90. Conviction carries dismissal. Dismissal ends the warrant, the pension, and the Compact liaison appointment, and it puts a finding on your name in the zone record, which the bishops read, which you know they read.” He looked up. “That’s the list. I’m required to ask if you understand it.”
+
+“I understand it.”
+
+“There’s a second list I’m not required to read.” He sat down on the next crate. “Beiler’s board sits in March. If his captain is dismissed, his board goes differently. Not fatally. Differently. And the detachment’s harvest rotation into Lancaster next August is signed by the officer holding this warrant, and I will sign it, and I don’t know that ground, and I’ll sign what the extension service tells me.”
+
+“Amos knows that ground.”
+
+“Amos is a sergeant.”
+
+“He is,” Ruth said.
+
+Ndlela rubbed his eyes. “For what it’s worth, Captain, I read your fourth request. The one they answered. I read it twice on the flight. Nobody in the Corps asked what we were shipping for twenty-seven years and you asked in a form they had to answer, and my orders are to put you on a boat about it.”
+
+“You didn’t write the orders.”
+
+“No, ma’am. I’d have written them.” He said that plainly, and she respected him for it. “The consignment is ours. It’s the only thing we’ve got in that room. If our quartermaster is standing on the floor next week with the host nation’s suspended tuner, we’re not a customer with a stake, we’re a faction. State Department won’t have it. They’re right not to have it, and I say that as a man who thinks the finding matters.”
+
+Ruth turned the coin over in her pocket with her thumb. The full sentence was on it, both halves, worn shallow on the first half where the plate had been shallow to begin with. She had scrubbed a soft one off a fence in Ohio when she was twenty and had never once been sorry.
+
+“I’ll hand over the warrant at eighteen hundred,” she said. “The chain of custody goes to you clean, by weight, with the seals, and I’ll do the count with you myself so nobody can say the Compact was sloppy.”
+
+“Thank you.”
+
+“I’m not getting on the boat.”
+
+Ndlela sat with that. Outside the door two hundred and forty-one crates were being loaded onto the shaft carriers.
+
+“Then I have to write it up today,” he said.
+
+“I know. Write it accurately.” She took the order and read the whole thing, both sides, the way she had been taught to read a load manifest, and signed the acknowledgement line, and printed her name under it, and dated it. “Put in your report that I acknowledged the consequences as read. Don’t put in that I was confused about them. And Major — the refusal is mine. Beiler doesn’t know. Get his name off it before you file.”
+
+“He’ll ask to be on it.”
+
+“He will,” she said. “Get it off anyway.”
