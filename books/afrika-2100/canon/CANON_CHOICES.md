@@ -67,6 +67,12 @@
   the Firstborn heresy the book refutes by physics (C-13), import the Great Zimbabwe libel, and
   demand backstory the no-POV rule withholds. Reasoning in [`VISITORS.md`](VISITORS.md).
 
+- **C-18 · First contact is a set-piece — LOCKED (author, 2026-08-13).** *"It is a big moment in
+  the book."* One full chapter, **2071 Witwatersrand**, prologue position, **Gogo Dineo POV**.
+  Deliberately breaks the Layer H one-page gate and C-11's POV lock — both bounded to this one
+  chapter, both written down rather than drifted into. Rule 9 does **not** bend with them: no
+  visitor POV, no interiority, ever. Brief: [`CH_FIRST_CONTACT.md`](CH_FIRST_CONTACT.md).
+
 ## OPEN (redraft gates)
 
 - **O-01 · Chapter map.** New CHAPTER_LEDGER to realise PLOT.md acts; target length TBD.
