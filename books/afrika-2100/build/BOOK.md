@@ -3257,3 +3257,167 @@ There is nothing in it about anybody’s blood. There is a great deal in it abou
 She put the original back in volume seven and squared the volume with the others on the shelf, because that is how her grandmother left them.
 
 Then she rang the port operator and asked for Berth 7C again, and let it ring while she stood at the window watching the streetlight in the gum tree, and when Ruth answered — awake, at that hour, which said its own thing — Naledi said, “I’ve got the rest of it. Not the mechanism. Who can hold it and who can’t. Can you come here, and can you bring somebody who writes fast.”
+
+# Renewal floor, Chamber One, eGoli · seven days to Renewal
+
+The chamber was built in 2074 for four hundred delegates and holds six hundred and ten because nobody has ever been willing to be the person who says no to a seat. The air handling was specified for four hundred. By ten in the morning the ushers had the upper doors chocked open with fire extinguishers and the room smelled of scalp and coffee and the floor polish they use on the terrazzo, which is the smell of every important day Naledi has had in her life.
+
+She sat in the guild block, third row, in the seat marked for the Tuning Guild’s technical observer, which is a seat she had no clearance to occupy and which nobody moved her out of, because her name was on the ledger paper in six hundred and ten pairs of hands and the ushers had read it on the tram.
+
+The telemetry had gone up at 04:11 that morning. Not to the press. To the ledger, in the ordinary way, the way you post a calibration: a hash, a witness, the raw hourly series for four years, the two refits side by side with their residuals, the beat counts from the sealed length with the counter’s serial and the time and the temperature, and Gogo’s letter in facsimile with the copyist’s line at the bottom. Signed N. Mokoena. Countersigned R. Stoltzfus, Capt., US Army Logistics Corps, who had read it twice on the berth office floor and then asked what a witness signature obliged her to and had it explained and signed anyway.
+
+Irreversible. That is the whole property of the thing. It is not brave. It is just that once a number is on the ledger with a witness on it, no committee can un-know it, and the only remaining question is what people say out loud.
+
+The morning’s business was tonnage.
+
+---
+
+They did tonnage for two hours and forty minutes and it was, Naledi thought, magnificent. Delegate after delegate on four hundred and sixty tonnes: the Brazilian on refinery throughput, the Kenyan on carrier scheduling out of Mombasa, a woman from the Chilean mission who had clearly read Annex C and said so in a voice that made the room sit up, and then twenty minutes of a Belgian arguing that the volume should be indexed to the payment schedule, which was the same speech he had given in 2091 with the numbers changed.
+
+Nobody mentioned the ledger post.
+
+Six hundred and ten people had it under their thumbs and the order paper said *Item 4: Volume* and so the room did Item 4: Volume. Naledi found that she was not angry about it. It is how a choir-line meeting works too. You do the standing items and then somebody raises the thing.
+
+At 12:40 the Chinese delegation raised the thing.
+
+Their principal is a small man named Hou who has been at every Renewal session since 2088 and who has argued *Give* longer and better than anyone alive, and he did not argue it that afternoon. He stood and said his mission had spent the morning verifying the arithmetic on the ledger post because it is a short sum, and it verified, and he would like the Commissioner to tell the floor when his office first held the discrepancy.
+
+The room went from four hundred conversations to one.
+
+---
+
+Dr Sefako Marais is seventy-one and does not use notes.
+
+He came to the rostrum in the grey suit he wears for signing days and stood with his hands on the wood, and Naledi, who has known him for nine years and been given her first choir line by him, watched him decide, in about four seconds, not to be clever.
+
+“August,” he said. “The fourteenth. An engineer of the Tuning Guild filed a discrepancy report on a routine calibration and my office reviewed it and closed the file. I closed the file. Not a deputy. I read it and I closed it and I told her guild-master to have her drop it, and I said it kindly, and I did it again in September when she came back with better numbers.”
+
+Somebody in the press gallery began to type and the ushers went and stood near him.
+
+“You will want to know why. I am going to tell you the true reason and not the reason I have been rehearsing for six weeks.” He looked at the middle distance, which is where he looks when he is not performing. “This Accord took nine years to write. I have watched three attempts to renegotiate a clause of it and all three failed, and one of them cost us the ’88 consignment window and two years of technique payments, and there are hospitals in this country running on plant we got with those payments. If I had put an unexplained squiggle in front of this floor in August, we would not have had a Renewal in October. We would have had a commission. Commissions take four years. The Accord lapses on the thirty-first.”
+
+“And after signature?” Hou said, not unkindly.
+
+“After signature I would have opened it. That was the plan. I want the floor to hear that I had a plan and that the plan was to be curious in November.” He paused. “We have been curious for twenty-seven years, delegates. We can be sovereign for six weeks. That is what I told myself at my own desk, alone, in August, and I believed it, and I still find it hard to say the sentence and hear how it sounds.”
+
+He turned a little, toward the guild block. He did not look at her. He was too disciplined for that and she was grateful.
+
+“It sounds like fear. It was fear. I was afraid of a four-year gap and I dressed it as prudence, and prudence is a real virtue, which is why it is such good clothing.” He straightened his cuffs. “The engineer was right on the physics and she was right on the timing and she was right that a closed file is a decision. I moved to have her clearances suspended on the nineteenth of this month. I would like that recorded as mine as well. It was, and I regret to say I knew this at the time, an easy wrong.”
+
+Naledi’s hands had gone cold. That is the thing nobody tells you about being vindicated in a large room: the body treats it as danger.
+
+“I will not resign this week,” Marais said, “because a Commissioner resigning seven days before a Renewal is a gift to nobody in this chamber except the people who want no Renewal at all, and there are some. After the thirty-first the Chair may have my post whenever she wants it.” He put both hands flat. “I ask the floor to note that I am the Commissioner who buried this, and I am the Commissioner who is going to put the question on the ledger this week under my own name, because it turns out those are the same job.”
+
+He went back to his seat. Nobody applauded, which was the correct thing, and the correct thing is rare.
+
+---
+
+The Stewards came at three.
+
+They came in as they come to funerals, in their working jackets, and Ma-Rethabile Khumalo walked the length of the floor with her stick in her left hand and Tefo two paces behind carrying nothing at all, which Naledi noticed, because he had wanted to carry something.
+
+She has never spoken to a public body. There is no recording of her voice before that afternoon.
+
+“I am the Elder Steward of the custody of the deep workings,” she said. “The order is one hundred and ninety-one years old. It was mine-safety men first and it is mine-safety men still, and every Steward in this room came up a shaft. I have halted two consignments. Delegates, I have been asked to explain that in six languages and I have never explained it. I will explain it now, and then I would like to sit down, because I am seventy-nine and this floor is a long walk.”
+
+Naledi had her pencil out. She did not write anything.
+
+“In 1984 and in 1991 the barred lots came back to us from the counterparty with the ninth digit altered. Nine digits. Delegates who have read Annex C know what a nine-digit callout is. It is a standard. I could not learn who had altered it, or whether it was an error or an instruction, and I could not put the question to a commission without telling a commission what the ninth digit was for. And I did not know what it was for. I had a promise from my predecessor and a wall of names and a length of glass I had been told, my whole life, to keep unanchored, and no mechanism. So I stopped the shipment and I said nothing and I let this floor call it superstition for sixteen years, and some of you in the third block called it worse than that, and I did not correct you, and I want to say plainly that I did not enjoy it.”
+
+The Chair asked her, formally, why she had not sought help.
+
+“Because the help available to me was a newspaper,” Ma-Rethabile said. “I had a fact I did not understand about ground that makes people. You have all seen what is standing outside the fence this week. I could give them the fact and not the mechanism, and a fact without a mechanism at nine in the morning is a doctrine by lunchtime. My order is mixed and has been mixed since Kimberley and we have been offered that embrace and we have refused it every time and it has cost us. I made a judgement that silence protected the ground. I was wrong about how long I had. That is the part I will answer for.” She turned her head. “The measurement was made four days ago by a guild engineer with brass, in a mountain, in ninety minutes, using no instrument that requires a certificate. My order could have done that in 1984. We did not, because we thought custody meant not touching. Young Steward.”
+
+Tefo stood up. He had a single sheet and his voice was not steady for the first three words and then it was.
+
+“The order will publish, tonight, a statement of reasons for both halts, and the coupling assessments the watch academies have taken since 2079, all of them, ungrouped.” He looked at the third block. “The assessments track years on the ground. Not ancestry. There is no line in them for ancestry, there never has been, and anyone who wants to know why the room took eleven men in 2064 can read how long those men had been walking the same haulage. We are told our custody is a mystery. We are choosing to make it an argument. An argument can be joined and a mystery can only be worshipped, and we have watched what happens to things that get worshipped in this country.”
+
+He sat down. Ma-Rethabile put her hand briefly on his forearm and left it there a second longer than a Steward would.
+
+---
+
+Through the chocked-open upper doors, all afternoon, you could hear the fence.
+
+Not words, from inside. A rise and fall, and drums at two o’clock, and once a long unified shout that made the Belgian lose his place. The Abokuqala had the whole eastern approach and had it lawfully, with marshals and water tables and a permit, and their banners said *ISIZWE SOKUQALA* and *THE GROUND KNOWS ITS OWN* and one, near the gate, hand-painted, said *ASK THEM WHOSE HANDS*, which was, Naledi thought with her stomach turning over, a fair question badly answered.
+
+At four they got the Steward statement on their meshes and the noise changed shape. It did not get smaller.
+
+---
+
+## Berth 7C gallery, Chamber One · seven days to Renewal
+
+Ruth had a gallery seat and a bad angle and she had been on her feet since four in the morning, so she did the thing she does in long rooms, which is inventory.
+
+Six hundred and ten seats. Two doors chocked with extinguishers, which was a fire violation in any Compact granary she had ever certified and she had stopped caring by noon. Water for maybe four hundred. No ushers on the west stair between eleven and one.
+
+Her consignment sat in Bond Vault Three under the floor she was sitting on: two hundred and forty-one crates, eleven of them barred, four hundred and nine kilos, which is what America could put on the table this cycle and which she had spent six weeks moving by wagon, rail, ship, and rail again. She knew the weight of every crate in her body.
+
+She had come up to the gallery to hear the Commissioner and had stayed for the old woman with the stick, and now she was sitting with her hands in her lap thinking about a wagon in a wet Lancaster morning and Bishop Zook’s hand on the tailgate.
+
+*Bless the load and the hands that made it and let it be honest.* That is not scripture. That is what he said.
+
+She had asked, three times in six weeks, in three different ways: is this payment, is it an offering, or is it surrender. And this afternoon, in a hot room in Johannesburg, she had watched a Commissioner give up a career on the correct answer, which is *none of the three, it is a rental on your own house and you have been paying it in advance for twenty-seven years*.
+
+She could tell that at home. It would not go down well. Nothing true ever does, the first Sunday.
+
+---
+
+They found her on the west stair at half past four, which is where she had gone to breathe.
+
+Three of them, and only one was a nuisance. An older man with a Fold coin on a lanyard and a woman with a folded printout of the ledger post and a boy of maybe nineteen holding a phone up.
+
+“Captain Stoltzfus,” the woman said. “You witnessed the letter.”
+
+“I did.”
+
+“Would you stand with us at seven. On the north concourse. There’ll be four thousand and we want the American witness there, in uniform, and we want you to read the sentence.” She had a good face. Tired, sincere, the face of somebody who had come a long way at her own expense. “People need somewhere to put this. It’s too big to hold on your own.”
+
+“What sentence.”
+
+“The two,” the man said, and touched the coin.
+
+Ruth put her hand in her pocket, because she keeps hers there, and turned it with her thumb without taking it out. Grandmother’s was stamped in Ohio in 2071 by a man who did not soften anything, and it says both sentences, all the way through, the ugly word cut deep because he cut everything deep.
+
+“Which two,” she said. “Say them.”
+
+The woman said, “Be kind.”
+
+“That’s one,” Ruth said. “And a half.”
+
+The man laughed and then saw she was not being funny.
+
+“I’ll come and I’ll stand at the back and I won’t read anything,” Ruth said. “You want a uniform on a platform in front of four thousand people and a printout of a woman’s grandmother in your hand. And by Thursday there’d be a picture of me, and by Friday somebody would print the picture with G’s face over the shoulder, because somebody always does, and the sentence would be underneath in small letters if it was there at all.” She took her hand out of her pocket. “The whole point of the sentence is that it doesn’t need a face. Your side lost that argument in about 2034 and won it again in 2065 and I would rather not spend my week losing it for you.”
+
+“That’s a cold thing to say to people who came six thousand kilometres,” the woman said.
+
+“It is,” Ruth said. “I’m sorry. I’ve been up since four.”
+
+The boy lowered the phone. “So what do we do at seven?”
+
+“Read the ledger post out loud,” Ruth said. “All of it. The residuals too. It’s dull and it takes forty minutes and nobody can make a poster out of it.” She started up the stair. Then she stopped, because Amos Beiler would have flagged it and Amos was not here. “And put water on the north concourse. Four thousand people, twenty-eight degrees, no shade after six. Whatever else you do, do that.”
+
+---
+
+They came back to Item 4 at five and sat until nine, and by nine the amendment had gone from a volume clause with an annex to a volume clause with an annex that three delegations had now read.
+
+Hou moved that Annex C be taken as the substantive item and Item 4 as consequential. It carried by a show of hands so lopsided that the Chair did not call a count.
+
+There was no cheering. The floor had simply understood, at about a quarter past seven, that it had spent twenty-seven years negotiating the price of something and was now being asked whether it would take delivery of a duty with no end date, and the mood of a room that understands that is not celebration. It is the mood of a farm meeting in a bad year: people doing sums with their mouths shut.
+
+Naledi went out through the east doors at twenty past nine because the west stair was blocked with press, and so she came out on the fence side, and the noise took her in the chest.
+
+Four thousand, maybe more, and torches, and the drums going, and up near the gate a man on a crate had a hand-lettered board that said *THE FIRSTBORN HOLD THE ROOM* and behind him somebody had put G’s face on a bedsheet, which was the funniest and saddest thing she had seen all day, because the man on the crate would have spat at that face on any other week and this week he needed it.
+
+She stood in the dark by the perimeter light and listened to a movement whose grief was real being told, in careful language, a thing that was not true about her grandmother’s ground.
+
+Someone recognised her. A woman about her own age, in a Guild windbreaker, off her shift.
+
+“It’s you,” the woman said. “Man. Are you going to say something to them?”
+
+“No,” Naledi said.
+
+“They’d listen. Tonight they would.”
+
+“They’d listen to a face for about eleven days.” She put her hands in her pockets. Somewhere behind them the amendment was on a table under a light with an eleven-year schedule in it and forty names not yet written. “I’ve got to be able to hold a resonator in eleven years’ time. Let them read the assessments.”
+
+They stood there a while. Down at the gate the drums went on, and on the north concourse, faintly, somebody with a loudhailer had started reading four years of hourly telemetry out loud to four thousand people, residuals and all, in a flat voice, exactly as asked.
