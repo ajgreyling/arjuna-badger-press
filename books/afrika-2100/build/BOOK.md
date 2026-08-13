@@ -1275,3 +1275,229 @@ She opened the survey directory instead, the personal one, and she typed the bea
 *2.31.*
 
 Then she went and got the taxi, because it was nine forty and she was not going to walk to Bree.
+
+# eGoli Spaceport, the tuning house · three weeks to Renewal
+
+The Chilean footnote got fixed at eight in the morning and the whole port learned about it by nine, because the fix was that somebody in Santiago re-issued the certificate with Annex 4(b) instead of 4(a) and a nine-crate consignment sat in a bonded stall for thirty-one hours over one letter.
+
+Karabo found this hilarious for about a day and a half.
+
+“Thirty-one hours,” he said, “for a bracket.”
+
+“For the wrong bracket.”
+
+“Same bracket. Different letter.” He was filling in the humidity column for the stall log with a pen because the stall log is one of the four things at eGoli still kept on paper. “You know what the Chileans are going to do now.”
+
+“Re-issue everything with both.”
+
+“They’re going to put both annexes on every certificate for a year and then somebody will write a note saying you can’t cite two annexes and we’ll do it all again.”
+
+Naledi laughed, and then she stopped laughing, because at half past nine the rotations went up on the board and her name was on Chilean re-certification.
+
+---
+
+It was not a demotion. That was the first thing she checked and the thing she kept checking for the rest of the week, the way you keep touching a tooth.
+
+*Chilean consignment CL-09, re-certification support: N. Mokoena (lead), K. Sithole.*
+
+*Consignment US-11, tuning liaison: K. Sithole (acting), deputy T. Mahlangu.*
+
+Lead. She had been deputy on nothing and now she was lead on something, and re-certification support is real work — nine items, full family-C run, the annex trail rebuilt from the forming shop’s sheets up. It is exactly the work she had asked for on US-11. It was two berths away from US-11 and it would take four days and she would spend those four days with her hands on Chilean gold, which had also had the picket in it three weeks ago, and which she was now being paid to certify.
+
+Kagiso was at the urn again. He is always at the urn; she has begun to think the urn is where the tuning house does its actual business.
+
+“You gave the American line to Karabo.”
+
+“Karabo’s ready.”
+
+“Karabo’s ready and I’m on Chilean.”
+
+“You’re lead on Chilean.” He said it the way you hand somebody a coat.
+
+“Kagiso.”
+
+He put the cup down. He is fifty-eight and has the guild’s whole hand-history in his fingers, three knuckles that don’t close and a thumb that got between a collar and a cradle in 2081. “Two things are true,” he said. “One. The Chilean thing needs somebody who can read family C and argue about annexes, and there are two of those in this building and one of them is me and I’m in Renewal briefings until the fourteenth. Two. Commissioner’s office rang the scheduler on Monday to ask whether the liaison postings were fixed or indicative.”
+
+“That’s not a no to me.”
+
+“They didn’t ask about you. They asked whether the postings were fixed.” He picked up the cup again. “The scheduler said indicative. Which is true. The scheduler is not a liar.”
+
+“Kagiso—”
+
+“I know what you’re going to say and I’d like you to say it somewhere that isn’t the urn.”
+
+---
+
+The Commissioner’s office is in the administration block on the east side, three storeys, brown brick, built 2078 and looking it, with a lobby full of the guild’s old comparators in glass cases and a mural of the first berthing that nobody likes.
+
+Dr Sefako Marais came out to get her himself. That was the first thing he did.
+
+He is sixty-one, heavy through the shoulders, and he was in shirtsleeves with his cuffs turned back twice, and there was a stack of ledger printouts on the corner of his desk fifteen centimetres deep with a paper knife lying on top of it. He moved a chair for her. He asked whether she wanted rooibos or the other thing, and when she said the other thing he made a face and said good, because the rooibos was ceremonial and eight years old.
+
+“Mokoena. Dineo’s granddaughter.”
+
+“Yes.”
+
+“She surveyed the Rand Deep Levels re-entry when I was a graduate. I sat in the back of a hearing once while she took a mining lawyer apart over a bearing.” He sat. “She did it entirely in numbers. He didn’t understand he’d lost for about a week.”
+
+“That sounds like her.”
+
+“How is she?”
+
+“She died in ninety-eight.”
+
+“Ah.” He put his hand flat on the desk for a second. “I’m sorry. I did know that. I was at the Codehouse funeral for Mabaso the same month and I have the two of them filed together and wrongly.” He looked at her. “That’s not an excuse, it’s just what happened.”
+
+She had come in with a sentence ready and now the sentence was in the wrong shape.
+
+“You logged a feature at two point three one,” he said.
+
+“Yes.”
+
+“On the Chilean line three weeks ago and again on the American items last Thursday, and on a reference rod, with the crane stopped.” He had not looked at a page to say it. “Reproduced fourteen times. Not attributable to forming. Origin unknown. An American captain witnessed it in the field and initialled, which was her right and slightly unusual.”
+
+“You’ve read it.”
+
+“I read everything with ’origin unknown’ in it. There are about forty a year.” He turned his hand over. “Nine of them are somebody’s phone. Four are the reclamation plant. One year we had a beautiful one at eleven hertz that turned out to be a fan in a canteen freezer that had been running out of balance since 2091. Do you know how long that took to find?”
+
+“No.”
+
+“Fourteen months. And the man who found it is now a section head and deserves to be.” He leaned back. “So. What do you want?”
+
+She had rehearsed this too, and this part still fit. “Instrument time. Twelve hours on the gallery array with the port at Sunday load, so I can get a bearing on it. And the sealed sixty-four telemetry, because if it’s the bore or the node I need to know what a rough wake looks like and there’s no other record of one.”
+
+“Right.” He said it without a flinch, which frightened her more than a flinch. “The instrument time is a scheduling question and I don’t own the schedule; Renewal owns the schedule until the sixth of next month, and Renewal has nine delegations wanting gallery walk-throughs and a Chinese survey party who have been promised the throat catwalk twice and denied it twice. You’d be applying for a window against those. You should apply. The form is a fourteen, and it goes through the guild-master, not me, and you should ask Kagiso to sign it rather than filing it up the chain, because a fourteen that arrives without his signature comes back down to get it and that’s ten days.”
+
+She wrote *14* on her tablet.
+
+“The sixty-four telemetry is not mine either. It’s Steward-sealed, and the Accord’s confidentiality annex sits on top of the seal, and the release path is a joint application — guild and Stewards, both, and then Sela’s office is notified, not consulted, notified, and the notification has a thirty-day clock on it.” He said it evenly. “Thirty days from the twelfth is after Renewal.”
+
+“Then waive the clock.”
+
+“I can’t waive the clock. I can ask the Elder Steward to shorten it and she has refused four such requests since I’ve held this desk, including one from me, and she has never explained a refusal to anybody, which is either the most irritating institutional habit on this continent or the reason we still have a threshold chamber. Pick one on the day of the week.”
+
+Naledi sat with that.
+
+“You’re not saying no.”
+
+“Why would I say no?” He looked genuinely puzzled, and she believed the puzzlement. “It’s an unexplained twelve-decibel feature in the medium the entire species relationship runs on. If it’s real I want it on the ledger with a mechanism next to it. If it’s a fan in a canteen freezer I want that on the ledger too, with the fan’s serial number.” He pulled a printout off the top of the stack, glanced at it, put it back. “What I’m saying is that I have twenty-one days, and in twenty-one days I have to get a volume schedule, a technique schedule, a settlement mechanism and a custody clause past nine delegations and a Chinese bloc that has spent three years arguing that Africa is holding the species’ door for rent. And two of those delegations are looking for a reason to say the host is unfit.”
+
+“This isn’t a reason to say that.”
+
+“It is exactly the shape of one.” He said it kindly. “A discrepancy in the host’s own calibration chain, logged, closed, re-logged. I could write the Chinese note myself. Three paragraphs. It would be a good note.”
+
+“So you want me to sit on it for three weeks.”
+
+“No. I want you to be right about it for three weeks and then say it in a room where it can’t be used.” He put his palm on the printout stack. “The difference between those two things is enormous and it is going to feel to you, for three weeks, like no difference at all. I know that. I’ve been on your side of it. I lost that argument in 2081 and I was right and the man who beat me was wrong and I’ve since come to think he was right about the timing, which is a horrible thing to have to know.”
+
+She looked at the stack. She could read the top sheet upside down: it was a volume table, tonnes per annum by year, out to 2130, with somebody’s pencil in the margins.
+
+“We can be curious for twenty-seven years,” Marais said. “We can be sovereign for six weeks.”
+
+“That’s a good line.”
+
+“It’s a true line. Those aren’t exclusive.” He stood, which ended it. “File the fourteen. Get Kagiso to sign it. And Mokoena — if it comes back with a window in it, take the window at Sunday load and don’t tell me about it in advance, because if you tell me in advance I have to tell Sela’s office, and I’d rather find out afterwards like everybody else.”
+
+At the door he said, “The bearing you want. Off what wall?”
+
+“Langlaagte. An old stope wall.”
+
+“Hm,” he said. “Is that hers?”
+
+“It’s her handwriting.”
+
+“Then it’ll be right,” he said. “She was never wrong about a bearing. She was wrong about people.”
+
+---
+
+She filed the fourteen on the Tuesday afternoon. Kagiso signed it in front of her, and read it first, all of it, and asked her to change one word — *bore* to *facility structure*, because a fourteen naming the bore goes to the geotechnical committee, which meets monthly and had met.
+
+It came back on Thursday.
+
+Not rejected. Returned for completion: item 9(c), *estimated effect on scheduled Renewal activity*, left blank, and item 11, *co-signature of berth authority for affected berths*, unsigned. She had left 9(c) blank because she did not know the answer and had written *nil expected*, and *nil expected* is not a figure. The berth authority is a man called Pieterse who is not obstructive and was in Durban until Monday.
+
+She re-filed on Monday with 9(c) filled in as *twelve gallery-hours, Sunday load, no berth movements affected* and Pieterse’s signature under it.
+
+It came back on Wednesday. The Sunday she had asked for was gone. A Chinese survey party had the throat catwalk from 06:00 and gallery isolation could not be guaranteed with a party in the throat, which was true, and Naledi checked it, and it was true.
+
+The scheduler offered her the following Sunday.
+
+The following Sunday was five days before Renewal.
+
+Nobody had said no. She wrote it out on the back of a canteen napkin that evening, all of it, the way you write out a fault tree: office asks scheduler whether postings are indicative; scheduler answers honestly; guild-master allocates by competence; Commissioner encourages the application; form returns twice for genuine omissions; berth authority genuinely in Durban; Chinese party genuinely promised the throat twice already. Every link load-bearing. Every man in the chain doing his job well.
+
+The tree came out clean and the answer at the bottom of it was *after signature*.
+
+She put the napkin in her pocket and did not throw it away, and later that week she found it gone soft in the wash.
+
+---
+
+The tuning house has a technical meeting on Wednesdays at four. Twenty-two people, an urn, a screen, and Kagiso running it off a half sheet.
+
+She had the item put on: *anomalous common-mode feature, cross-consignment, request for coordinated logging protocol.* Which was small. It was the smallest thing she could ask for: that every calibration in the house, for the next three weeks, record the amplitude at 2.31 F in a named column, so that at the end of three weeks there would be four hundred data points instead of fourteen.
+
+It cost nothing. It cost one column in a log.
+
+She presented it in six minutes. She had the fourteen traces up and the reference rod trace last, and she said the sentence about the card and the windscreen, which she had not meant to use in a meeting and which landed.
+
+Then the room.
+
+Thandi Mahlangu said the column was fine but the naming was a problem: if you name a column *2.31 anomaly* in a house log, the house log is discoverable under the Accord’s audit annex, and in eighteen days there will be nine delegations’ technical staff reading every discoverable document at this port, and they will find a column headed *anomaly* in four hundred calibrations and no explanation next to it, and the Commissioner will spend a day of Renewal on it that he does not have. Call it a spectral note. Log the number, not the word.
+
+Which was reasonable. Naledi said fine, call it whatever you like.
+
+Then Sipho Nkosi, who is a good tuner and has been on the choir line nineteen years, said he did not want to log a column he could not defend. If he writes down an amplitude at a frequency, he is asserting a measurement, and the pucks are not calibrated for narrowband work at that frequency, and if the number is soft and somebody builds an argument on four hundred soft numbers, that is on him. He would log it if the house bought narrowband channels. The house has not budgeted narrowband channels.
+
+Which was also reasonable, and Naledi, who had been irritated for four seconds, stopped being irritated, because she had thought the same thing about the pucks at eleven o’clock the previous night and had decided the ratio was robust even if the amplitude was soft, and she had not written that down anywhere, and if she had not written it down then Sipho was right to refuse.
+
+Then somebody asked what the mechanism was, and she said she didn’t know, and there was that pause that a technical room does when it has stopped being with you.
+
+Kagiso said: no protocol change three weeks out from Renewal; log it as a free-text note at the tuner’s discretion; revisit at the first meeting in the new cycle. He said it in nine seconds. He was not unkind about it. He wrote *revisit* on his half sheet, and she saw him write it, and she believed he would.
+
+The item took eleven minutes of a two-hour meeting. The next item was the canteen’s coffee contract and it took twenty-five.
+
+---
+
+Sipho caught her at the door with his cup still in his hand.
+
+“You’re right about the ratio,” he said.
+
+“You just said—”
+
+“I said I won’t log an amplitude. The ratio’s clean. A fifth of a per cent across fourteen pieces off four mandrels. You can’t get that from forming and you can’t get that from mounting.” He drank some of the coffee, made a face, and put the cup on the sill. “I’ve seen it. I’ve seen it for years.”
+
+Naledi stood very still. “In runs?”
+
+“In runs. It’s above the card so I’ve never written it down. Neither has anyone. There’s nowhere to write it.” He shrugged, one shoulder. “I’ve got two on the choir line and a daughter doing her third year at the academy, and if I stand up in a meeting eighteen days out from Renewal and say the port’s calibration chain has an unexplained common mode, the sentence leaves the room without me attached to it and comes back in a Chinese technical note. Then Kagiso has to defend me, and he will, and it costs him. And in ten days he has to go into a room and get the guild’s custody language into the amendment, which is the only thing at this port I actually care about.”
+
+“So you’ll say nothing.”
+
+“I’ll say it to you at a door.” He picked the cup back up. “That’s not nothing. It’s just not a meeting.” He looked at her, straight. “Bring me a mechanism and I’ll say it in the meeting with my name first on it. I’m not brave, Naledi. I’m arithmetic. Bring me a mechanism and the arithmetic changes.”
+
+He went off down the corridor. Two others said versions of it to her that week, in a car park and over the urn: Thandi, who told her to keep every trace off the house server and on her own hardware, and gave her a spare drive out of her bag; and a young tuner called Lebo who said nothing useful at all and left a printed 2081 committee minute on her bench with a paragraph highlighted, and never mentioned it.
+
+Nobody in that building was a coward. That was the part she could not get comfortable against. They all had a thing they were carrying and were carrying it well, and the aggregate of twenty-two people carrying their things well was a door closing without a hand on it.
+
+---
+
+Friday she went to look at the Chilean gold, because it was hers to certify and because she had begun, in a way she did not like, to think of berths as places to be near.
+
+Nine items, family C, formed at Rancagua. She ran the full set and the picket was there at 2.31 in all nine, exactly where the American horns had it, and she wrote it in free text at the tuner’s discretion, as instructed, in the box provided, at the bottom of a certificate that was otherwise entirely clean.
+
+Then she signed the certificate, because the gold was good. That was the true thing about it. The gold was good, the annex was now cited correctly in both brackets, and the Chileans could ship.
+
+Karabo came past at six with two rolls and put one on the bench.
+
+“How’s the American liaison,” she said.
+
+“Fine. She writes everything down twice. She weighed the crates again after unloading.”
+
+“Of course she did.”
+
+“She asked me what the two point three one column on my log was for.” He tore the roll in half without much interest. “I said ask Naledi. Was that wrong?”
+
+“No,” Naledi said. “That was exactly right.”
+
+She ate half the roll and looked at the certificate on the screen with her name at the bottom of it and the true sentence sitting in a free-text box where nobody would ever query it, and she thought about the napkin, gone to pulp in her trouser pocket, and every good man in the chain.
+
+Then she got out her tablet and opened the file called *2.31* and added a line: *Sunday 26th. Five days out. Take it.*
