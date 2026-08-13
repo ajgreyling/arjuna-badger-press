@@ -1,7 +1,7 @@
 # Canon Choices — AFRIKA 2100
 
 > Decision ledger. **LOCKED** = binding. **OPEN** = may not be written as fact until closed.
-> **Prophet soil rule:** where this file conflicts with *The Prophet and his Brother* (2035) on
+> **Prophet soil rule:** where this file conflicts with *Afrika 2035* (2035) on
 > G’s life, Kind→Fold lineage, or consent grammar, **Prophet wins** unless an entry below
 > explicitly keeps trilogy physics. Old first-draft prose is salvage, not lock.
 

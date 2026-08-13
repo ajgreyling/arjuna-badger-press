@@ -1,4 +1,4 @@
-# World — *The Prophet and his Brother* (2035)
+# World — *Afrika 2035* (2035)
 
 > Binding geography and world-state for the story year. Real places used honestly.
 > Tech names from the CongoSky / Badger lineage are in-world product names, not exposition dumps.

@@ -1,6 +1,6 @@
 # Story Bible — AFRIKA 2100
 
-> Binding architecture. Rebuilt from *The Prophet and his Brother* soil. Other canon files
+> Binding architecture. Rebuilt from *Afrika 2035* soil. Other canon files
 > elaborate; open items live in [`CANON_CHOICES.md`](CANON_CHOICES.md). Where Prophet and the
 > old 2100 draft conflict, **Prophet soil wins** unless a LOCKED choice below explicitly keeps
 > trilogy physics.
@@ -10,7 +10,7 @@
 ## D1 — What this book is
 
 The **spiritual fourth** of the African Gold trilogy. Standalone novel, set in **2100**, seventy
-years downstream of *RELIC*, sixty-five years downstream of *The Prophet and his Brother*. Not a
+years downstream of *RELIC*, sixty-five years downstream of *Afrika 2035*. Not a
 continuation of Priya’s quest alone — the story of the world her choice *and* the 2035 consents
 built, facing the question those decades deferred. Series label: **"An African Gold novel · The
 spiritual fourth."**

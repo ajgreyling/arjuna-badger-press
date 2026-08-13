@@ -1,6 +1,6 @@
 # Plot — AFRIKA 2100 (act skeleton)
 
-> Rebuilt from *The Prophet and his Brother* soil (2035). Old act map was discrepancy → chase →
+> Rebuilt from *Afrika 2035* soil (2035). Old act map was discrepancy → chase →
 > conference: competent and soulless. This map keeps the engineering payload (C-07) and the
 > clock (Great Renewal) but runs **Prophet grammar**: weathers not cartoons; concrete asks that
 > cost; midpoint = both refuse easy wrongs with no relief; climax = consent week, desk-shaped at

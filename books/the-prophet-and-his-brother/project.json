@@ -1,8 +1,8 @@
 {
   "id": "the-prophet-and-his-brother",
-  "title": "The Prophet and his Brother",
-  "working_title": "The Prophet and his Brother",
-  "former_working_title": "The Four Quarters",
+  "title": "Afrika 2035",
+  "working_title": "Afrika 2035",
+  "former_working_title": "The Prophet and his Brother (retitled 2026-08-13); earlier: The Four Quarters",
   "seq": 1,
   "folder": "the-prophet-and-his-brother",
   "protagonist": "Andries J. Greyling (AJ) — main subject; writing the autobiography of Gerhard \"G\" van Niekerk (book within a book); dual outer close third + inner life pages",
@@ -29,6 +29,10 @@
     "PLOT.md",
     "CHAPTER_LEDGER.md"
   ],
-  "isbn": { "paperback": "", "hardcover": "", "ebook": "" },
-  "notes": "Title locked: The Prophet and his Brother. Former working title The Four Quarters remains the name of the schism engine (four camps). Published full-send 2026-08-12. AFRIKA 2100 rewrite downstream."
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  },
+  "notes": "Title locked: Afrika 2035 (retitled 2026-08-13 from The Prophet and his Brother, which now names the relation — G the prophet, AJ the brother — not the book). The id/slug stays the-prophet-and-his-brother by author decision so no live URL breaks. Earlier working title The Four Quarters remains the name of the schism engine (four camps). Exports (EPUB/PDF) still carry the old title in filename and dc:title pending a rebuild. Published full-send 2026-08-12."
 }

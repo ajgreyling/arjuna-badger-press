@@ -1,7 +1,7 @@
 # Chapter Ledger — AFRIKA 2100 (draft map)
 
 > **STATUS: SUPERSEDED PENDING REDRAFT (2026-08).** Spine / arcs / acts rebuilt from
-> *The Prophet and his Brother* soil — see [`SEED_STORY.md`](SEED_STORY.md),
+> *Afrika 2035* soil — see [`SEED_STORY.md`](SEED_STORY.md),
 > [`PLOT.md`](PLOT.md), [`CANON_CHOICES.md`](CANON_CHOICES.md) C-14/C-15. The 23 chapters in
 > `build/chapters/` and compiled `build/BOOK.md` are **stale salvage**: keep for texture,
 > plants, and lines worth stealing; do **not** treat the table below as binding beat law where

@@ -1,4 +1,4 @@
-# Expand pass — *The Prophet and his Brother* (FULL SEND)
+# Expand pass — *Afrika 2035* (FULL SEND)
 
 You are **expanding** already-drafted chapters to novel length. Do not thin or outline. Deliver finished scene prose.
 

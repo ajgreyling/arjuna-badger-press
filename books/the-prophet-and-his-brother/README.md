@@ -1,24 +1,35 @@
-# The Prophet and his Brother
+# Afrika 2035
 
 Near-future novel (2035). Book within a book: AJ on the Chobe writes G’s autobiography while the planet splits into four weathers around the man who derived **G**.
 
-Former working title: *The Four Quarters* — kept as the name of the schism engine (the four camps).
+**Retitled 2026-08-13** from *The Prophet and his Brother* — that phrase now names the book's
+relation (G the prophet, AJ the brother), not the book. Earlier working title *The Four Quarters*
+is kept as the name of the schism engine (the four camps).
+
+The **id/slug stays `the-prophet-and-his-brother`** by author decision, so no live URL breaks.
+Expect the old name in paths, the download folder and the export filenames; that is deliberate,
+not drift.
 
 ## Status
 
 **PUBLISHED** as **African Gold Companion · Book 3.5** (between RELIC and AFRIKA 2100) · ~90k ·
 live on arjunabadger.press.
 
-Briefly held (`3e773bf`, 2026-08-13) for a retitle to *Afrika 2035* and a re-edit, then released
-the same day by explicit author decision once the re-edited exports landed. The title did not
-change — *Afrika 2035* stayed a working title. `WORKSHOP_HOLD` is now empty; re-adding the id is
-the one-line way to pull the book dark again (then run the full deploy loop — nothing changes on
-the live site until Render redeploys).
+Briefly held (`3e773bf`, 2026-08-13) for the retitle and a re-edit, then released the same day by
+explicit author decision once the re-edited exports landed. Note that hold never reached
+production — it was committed but no deploy followed, so the book stayed publicly downloadable
+throughout. `WORKSHOP_HOLD` is now empty; re-adding the id is the one-line way to pull the book
+dark (then run the full deploy loop — nothing changes live until Render redeploys).
 
 Deliverables (the 2026-08-13 02:48 rebuild — post-edit):
-- `build/export/The Prophet and his Brother.epub`
-- `build/export/The Prophet and his Brother.pdf`
-- `build/export/cover.png`
+- `build/export/The Prophet and his Brother.epub` ⚠ old title in filename **and** in `dc:title`
+- `build/export/The Prophet and his Brother.pdf` ⚠ same
+- `build/export/cover.png` — retitled *AFRIKA 2035*
+
+⚠ **The exports are not retitled.** They are left wholly on the old title — filename, `dc:title`
+and internal title page together — rather than half-renamed, so the artifact stays self-consistent
+until it can be rebuilt. `arjuna-badger-platform/books/the-prophet-and-his-brother` does not exist,
+so a plain engine resync will not do it; the 02:48 build's origin needs tracking down first.
 
 ## Read first (canon)
 

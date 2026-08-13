@@ -1,6 +1,6 @@
-# Parallel draft prompt — *The Prophet and his Brother*
+# Parallel draft prompt — *Afrika 2035*
 
-You are drafting **one or more assigned chapters** of *The Prophet and his Brother*.
+You are drafting **one or more assigned chapters** of *Afrika 2035*.
 
 ## Form (binding)
 

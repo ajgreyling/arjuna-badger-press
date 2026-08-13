@@ -1,7 +1,7 @@
 # Themes — AFRIKA 2100
 
 > Binding thematic spine. Arrive through story, never sermon. Each theme names **carrier** and
-> **test**. Rebuilt to harvest *The Prophet and his Brother* — weather, desk consent, sentence
+> **test**. Rebuilt to harvest *Afrika 2035* — weather, desk consent, sentence
 > vs face, partial custody, undefeated climate.
 
 ---
