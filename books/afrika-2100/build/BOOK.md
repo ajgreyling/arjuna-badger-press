@@ -2993,3 +2993,167 @@ Ndlela sat with that. Outside the door two hundred and forty-one crates were bei
 “He’ll ask to be on it.”
 
 “He will,” she said. “Get it off anyway.”
+
+# The deep workings, Steward custody, Sub-Nine to the bore · four days to Renewal
+
+The Stewards’ cage is older than the Accord and it goes down at a speed the Accord would not license. Nine hundred metres of it before anybody said anything.
+
+“You have no access below Nine,” Ma-Rethabile said at last.
+
+“No.”
+
+“You have no access. This is not Accord ground. Below the datum peg at Nine it is custody, and custody is ours, and I have brought you down as a guest of the order.” She had her hands folded on the head of a walking stick she did not use for walking. “If the Commissioner’s office asks me why, I will tell them I do not explain. That has worked for twenty-seven years.”
+
+Tefo had brought the kit himself and would not let her carry it. Two brass resonator sets in a canvas roll, the beat horn, a mechanical counter with a lever you thumbed, a stopwatch on a lanyard, chalk, and a spirit level with a chip out of the vial that had been chipped when Gogo was alive. No mesh. Nothing that needed a certificate. She had turned the roll out on the floor of the changehouse at Nine and felt the flat relief of it: you cannot certify a ratio. A ratio is a ratio in a mountain or in a van on the Pretoria road.
+
+The heat came up at two kilometres and stopped being air and started being weight.
+
+They walked forty minutes along the eleven haulage, and then Naledi stopped under a cross-cut that was not on the port survey and put her hand on the datum peg to be sure of it, because Gogo’s book gave the bearing off this peg and nothing else. Steel, 1978, a surveyor’s number stamped into the crown. The book was in her bag in a sleeve. She had photostatted the page rather than bring the vellum and had felt guilty about it for a hundred metres.
+
+*38° 40′, forty-one paces, then the sound changes.* In the margin, in pencil, in a hand that got small when it was careful.
+
+Forty-one paces. The sound changed.
+
+---
+
+It is not a room. Everyone says chamber, and there is a chamber further along where the Stewards keep the wall with the names on it, but the thing Gogo left off the Accord’s map is a stretch of the bore about sixty metres long where the glass is unbroken.
+
+She had walked vitrified bore all her working life. On the port side it is catwalked and lit and there are cable trays bolted to it with resin anchors, and in twelve places the guild has cut inspection windows through the glass to get pickups onto the rock behind. Familiar as a stairwell. Nobody has ever explained how it was made and nobody stops walking through it.
+
+This length had no anchors in it. No windows. Dust on the floor, thick, undisturbed except where feet had gone through it in a single narrow track, years of feet in the same line, the way people walk in a place they are trying not to spoil.
+
+“Your grandmother surveyed to the peg and no further,” Ma-Rethabile said. “She wrote in her book that the ground was unstable. It is not unstable.”
+
+“I know.”
+
+“She lodged that with the Accord in 2077 and she signed it. It was a lie in a survey, on paper, under her name. She could have lost her ticket.” The old woman moved her stick to the other hand. “I met her twice. She would not discuss it with me either. I thought you should know she did not only decline to explain it to her family.”
+
+Naledi crouched and set the roll down out of the walking track and did not say anything, because there was nothing to say that would be true in four days’ time as well.
+
+Then she started work, because that is what she had come down here to do.
+
+---
+
+The method takes ninety minutes and a school child could describe it. You excite a length and you count the beat against a known.
+
+She did not have a known. She had the guild’s fourth choir line, 312.44 kilohertz, which she had struck and read and signed against ten thousand times, and which she could produce out of the brass set to a part in ten million because the brass set was cut in 2069 and had been living in a mountain ever since at a constant thirty-eight degrees, which is a better life than any block gets in Pretoria.
+
+So: brass against the sealed glass. Then brass against the working bore, back up past the peg, in the light, under the cable trays. Then the two counts against each other. No absolute anywhere in it. Ratios all the way down.
+
+She struck the sealed length with the soft hammer and put the pickup on and thumbed the counter and watched the stopwatch and counted beats out loud so Tefo could write them, because two people counting is one count and one person counting is a story.
+
+“Twenty-nine in fourteen point three,” she said.
+
+“Twenty-nine, fourteen three.”
+
+“Again.”
+
+“Thirty in fourteen point eight.”
+
+Two point zero three hertz. Two point zero two. Two point zero three.
+
+She sat back on her heels with her forearms on her knees and the sweat running off her jaw onto the glass, and she let herself say the first easy thing out loud so she could hear how thin it was.
+
+“That’s the roughness.”
+
+“What is.”
+
+“Two hertz. The wake is rough at two hertz and we’ve had a working group on it for four years and eleven papers and a name for it. Nobody put a resonator on unbroken glass, because there isn’t any unbroken glass in the survey.” She wiped her face with the inside of her wrist and left it dirtier. “It’s not roughness. It’s a beat. The wake is beating against something.”
+
+“Against what.”
+
+“Against what it used to be.”
+
+She got the pencil out and did it on the back of the photostat, which she would regret later and did anyway.
+
+Two point zero three over three hundred and twelve thousand four hundred and forty. Six and a half parts in a million.
+
+Her drift, off four years of hourly telemetry, off a stale block, off the number the Librarian had refit himself and got a hundred and seventy-eight against her hundred and eighty: parts per billion per year.
+
+Six and a half thousand, over a hundred and eighty.
+
+Thirty-six.
+
+She looked at it for a while. Tefo, who is a Steward and not an engineer, read it upside down off her knee and got there anyway, because it is not a hard sum, it is just a sum nobody has been allowed to set up.
+
+“Thirty-six years,” he said. “It woke in 2064.”
+
+“It woke in 2064.”
+
+“And it has been going out of tune since the hour it woke.”
+
+“At a rate you could set a clock by.” She put the pencil in her teeth and then took it out because the taste was foul. “The sealed length still has the sleep in it. Sixty metres of glass that nobody has anchored or shimmed or cut a window in since the Builders’ people walked out of here, and it is *exactly* where it was, and everything on the port side of that peg has walked away from it at a hundred and eighty parts in a billion a year for thirty-six years. Ma-Rethabile. The failing component is not in the network.”
+
+“No,” said Ma-Rethabile Khumalo, who had known for a while.
+
+“It’s this. It’s ours. We’re the thing that’s broken.”
+
+---
+
+She had the manifests with her because she has had a manifest with her every day since she was twenty-two.
+
+Two hundred and forty-one crates, forty-one lots, and the lot codes fall into families, and some of the family codes carry a bar over them. She had asked about the bar in her first year and been told it was a shipping mark, and had believed it for six years, the way you believe the things you are told in your first year.
+
+The unbarred families are components. She cuts them, she signs them, they go down the shaft on the carriers and into the galleries and get set in place, and their tolerance callouts revise slightly every consignment, and the guild calls the revisions *tolerance revisions*, and there is a standing item in the choir-line meeting about how annoying they are.
+
+She laid the last eleven years of callouts out on the glass in her head, which she could do, because she is the person who signs them.
+
+They revise in one direction. They revise at a hundred and eighty parts in a billion a year.
+
+Twenty-seven years of shimming. Every component cut to the pitch the node *has*, not the pitch the node *was*. Not repair. Not once. Chasing a falling number down with new metal every twelve months so the thing does not tear itself apart on the way down, and calling it maintenance in the manifest heading because the word in the manifest heading was translated in 2073 by a committee.
+
+“Hayibo,” she said, to nobody, quietly.
+
+Then the barred families.
+
+The barred ones are not dimensioned. That is what she had never once noticed, in six years, holding them in her two hands: their callouts are not in micrometres, they are in frequency, and they are specified to nine digits, and there is no function on this planet that needs nine digits. You do not build a part to nine digits. You build a *standard* to nine digits.
+
+She did not have to look up the number. She had it under her thumb, on the glass, twice: 312.442 and change, the sealed value, the sleep value, the value the port side of the peg had not held since the year of the Flare.
+
+The barred lots are cut to the sleep. To what it was. To nine places.
+
+And they leave. Every consignment, the barred families are shipped out and never appear in any installation record, and she had assumed they went into galleries she did not have access to, because there are always galleries you do not have access to.
+
+She said it out loud once, badly, and then again.
+
+“They’re not buying parts. They’re buying the fork.”
+
+Tefo said, “Say it in a sentence I can carry to the Elder.”
+
+“This node kept the calibration. All of it slept and ours slept longest and cleanest, and when everything else in the network drifted or died there was one true pitch left and it was under Johannesburg.” She had her hand flat on the glass. It was cool. In a mountain at thirty-eight degrees, the glass is cool. “Sixty metres of it. That’s the whole of the world’s standard, right there, and it doesn’t have a certificate and it doesn’t need one. The consignments do two jobs. The unbarred ones keep this one running at whatever pitch it has this year, which is a losing job and they have never said otherwise. The barred ones carry the true number out. Copies of it. Reference pitch, going out to wherever the rest of the thing is, in gold, because gold is the only thing that will hold a number that hard for that long.”
+
+“And when this one has drifted far enough that the sealed length is the only true thing left?”
+
+“Then the sealed length is sixty metres of glass in a hole in a country, and there is nobody in the network who can come down here and hold it.” She looked up at him. “That is the sentence.”
+
+---
+
+Ma-Rethabile took her the last two hundred metres, to the threshold, and did not talk on the way, and the reason she did not talk became apparent when they got there, which is that there is nothing to say about it that survives being in the room.
+
+The wall with the names is in the antechamber. Fifty-one minutes’ worth of custodians, June 2064, and the ones who came down and did not sing but stood, and their names are on it too, in the same hand, at the same size.
+
+The threshold itself is dust and worked stone and a floor that has been swept by feet in one narrow track.
+
+“In 2074 the party asked to stand here,” Ma-Rethabile said. “The Accord permitted it. There were eleven of them and they were here for six hours and I was twenty-three years old and I held the lamp.” She put the stick against the wall. “Nothing woke. Nothing hummed, nothing warmed, nothing moved. They were courteous. They packed their instruments and they thanked the order in the protocol form and they have never asked again, and it is not in any published record, and I am telling you and I am not going to argue about what it means.”
+
+“They can’t hold it.”
+
+“I said what I saw.”
+
+“Ma-Rethabile, they can’t hold it. That’s why the amendment—” She stopped. She got the folded amendment out of her bag, the working text, five days old, which she had read twice for the tonnage and once for the seventy-third clause because everyone reads the seventy-third clause.
+
+Annex C. Twenty-two pages of tables. Jigs. Blanks. Die sets, with the master forms enumerated. A schedule of instruction, eleven years, with host-nation personnel required present at threshold on a rising count: two, then six, then fourteen, then forty. Payment in technique, and the technique itemised, and the itemised technique is not materials science and is not hull physics. It is how to cut a standard. It is how to hold a number.
+
+Nobody had read Annex C. It is tables. She had not read Annex C, and she is the one who would have understood it.
+
+“The volume amendment isn’t an offtake deal,” she said. “It’s a handover. Four hundred and sixty tonnes and eleven years and forty of our people standing where we are standing, and at the end of it there is no counterparty in the loop and the machine is ours to keep in tune, and it will need keeping in tune forever, and forever is not a figure of speech in this room.”
+
+Ma-Rethabile Khumalo picked up her stick.
+
+“I halted two consignments,” she said. “In ’84 and in ’91. Both times because the barred lots came back with the number changed in the ninth place and I could not find out who had changed it or why, and I could not explain that to a commission without explaining what the ninth place was, and I had promised my predecessor I would not. So I halted them and said nothing and let the world call it superstition.” She started up the track. “I have been asked whether we can trust them for twenty-seven years, ausi, and it is not the question. The question is the one you have just read in a table. Will we take it back. I have never been able to answer it and neither has my order and neither, I think, has yours.”
+
+Naledi stayed a moment longer with the lamp.
+
+Then she went up, three thousand two hundred metres of cage, forty minutes, and came out into a light that hurt, with no certificate, no gallery access, no instruments in her own name, four days, and an arithmetic on the back of a photostat of her grandmother’s handwriting that could not be given to a committee to hold for her.
+
+She found a phone that worked and asked the port operator for Berth 7C.
