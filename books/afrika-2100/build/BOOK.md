@@ -1501,3 +1501,283 @@ Karabo came past at six with two rolls and put one on the bench.
 She ate half the roll and looked at the certificate on the screen with her name at the bottom of it and the true sentence sitting in a free-text box where nobody would ever query it, and she thought about the napkin, gone to pulp in her trouser pocket, and every good man in the chain.
 
 Then she got out her tablet and opened the file called *2.31* and added a line: *Sunday 26th. Five days out. Take it.*
+
+# eGoli Spaceport, Berth 7C and the Gate Seven mess · three weeks to Renewal
+
+The jig sheets came in from Gap on the Monday mesh drop, forty-one pages, scanned crooked, and Ruth printed them on the Corps’ machine because the Corps’ machine was there and because paper can be laid side by side.
+
+She laid them on the mess table at Gate Seven. It seats twelve. There were three of them at it: Ruth at the head with the sheets, Beiler at the far end doing the escort roster because he had nowhere better, and Naledi standing over the middle with her thumbs in her belt loops looking at Amish penmanship for the first time in her life.
+
+“They wrote the strike energy,” Naledi said.
+
+“They wrote everything. The annex makes them.”
+
+“No, the annex makes them write the fundamental. Nobody writes the strike energy. I don’t write the strike energy, we have a jig, the jig *is* the strike energy.” She bent closer. “This is a hammer drop from a marked height. He’s written the height. He’s written the height in inches.”
+
+“Nineteen and a quarter.”
+
+“Why does he know that in inches.”
+
+“Because the barn is in inches,” Ruth said. “Everything at Gap is in inches and everything on the manifest is in metric, and I converted every line twice on two different days and I’d rather you check me than not.”
+
+Naledi straightened up and looked at her for a second and then said, “You converted two hundred and sixty-one kilograms of gold by hand.”
+
+“By hand and then on the tablet, and where they disagreed I did it a third way.”
+
+“Did they ever disagree?”
+
+“Twice. Both times the tablet.”
+
+Beiler did not look up from the roster. “It’s always the tablet,” he said. “She tells everyone that. It’s been the tablet twice in twenty-three years.”
+
+“Amos.”
+
+“Ma’am.”
+
+---
+
+Here is what they had, laid on the table, and it is worth being exact because the exactness is the whole thing.
+
+Naledi had the port’s instruments: comparator, pucks, the jig, the reference rod, and six years of runs on a house server she was now keeping copies of on Thandi’s spare drive. What her instruments told her was *what the metal is doing now*, to a fifth of a per cent, at a resolution nobody in Pennsylvania could touch. What they could not tell her was anything at all about time. A calibration is a photograph. She had a beautiful photograph of a thing and no idea when it had walked into the frame.
+
+Ruth had the provenance: three shops, eleven weeks, mandrel numbers, the man’s name against the day, beam-scale masses in pencil, the rail waybill, the ship’s hold plan with the crates’ stow positions marked, the Charleston bond stamp, the Cape Town customs entry, the flatbed run sheet. What her paper told her was *where every gram had been to the hour*. What it could not tell her was whether any of it rang.
+
+Neither toolkit was interesting. Together they were a clock.
+
+“Right,” Naledi said. “Fundamentals first. Read me item one.”
+
+“Item one. Segment, family B, four seven, mass eight-one-oh-point-four grams, fundamental” — Ruth turned the sheet — “he’s written it as a note frequency and a number under it. Two thousand nine hundred and six point one hertz.”
+
+“Note frequency.”
+
+“It’s a shop that also makes bells.”
+
+Naledi got her own trace up. “I have two nine oh six point four.”
+
+“Three-tenths.”
+
+“Three-tenths over eleven weeks, a ship and two rail legs is nothing. That’s temperature and my couplant.” She wrote it down. “Next.”
+
+They did all thirty-one items in an hour and ten. Every fundamental agreed inside half a hertz. Every second, third and fourth overtone agreed inside the card. The gold that had left the stone barn was, in every respect the annex cared about, the gold now sitting in eleven crates in Berth 7C.
+
+Then Naledi said, “Now the part I actually want. Did he log above the fourth?”
+
+“He logged everything he saw.”
+
+“Ruth. Nobody logs everything they see.”
+
+“Turn to the back of each sheet.”
+
+There was a back of each sheet. On the back of each sheet, in the same hand, in a column with no heading, were three or four more numbers, and against several of them a small mark like a tick that had thought better of itself.
+
+Naledi put both hands flat on the table.
+
+“What’s the mark?”
+
+“I don’t know. I’ve asked. He’ll write back in about eleven days.”
+
+“Read me the column for item one.”
+
+“Six eight one nine point oh. Then eight seven one eight, that one’s got the mark. Then nine nine—”
+
+“Stop.” Naledi did not look up. “Say the second one again.”
+
+“Eight seven one eight.”
+
+She did it on the tablet where Ruth could watch, which was deliberate; she had learned in four days that the captain did not trust a number she had not seen arrive. Eight seven one eight over two nine oh six point one. She turned the screen around.
+
+*2.9998.*
+
+“That’s three,” Ruth said.
+
+“That’s the third overtone, which is in the card, which is fine, which I don’t care about.” Naledi wiped it. “Do the fourth.”
+
+Nine nine nine four over two nine oh six point one came out at 3.4390 and Naledi said a word in Sesotho that Beiler, who had spent nine days on the rail leg with a Sotho brakeman, recognised and did not comment on.
+
+“It isn’t there.”
+
+“What isn’t.”
+
+“Two point three one. Ammon Stoltzfus struck every one of these items on his own jig in a barn in Pennsylvania in June and wrote down four numbers off the back of each one and not one of them is at two point three one times fundamental.” She sat down on the bench, hard. “It wasn’t there in the barn.”
+
+Ruth thought about it for a moment.
+
+“Or he couldn’t see it,” she said.
+
+Naledi opened her mouth.
+
+“You told me it’s twelve decibels up off the floor,” Ruth said. “In an empty berth with the crane stopped. What’s a barn’s floor? He’s got a stone barn with a road outside it and a forge running twenty feet off and a scale I cleaned myself, and he’s reading a fundamental off a bell-tuner’s ear and a meter that’s older than me. If your line is twelve up off *your* floor, is it twelve up off his?”
+
+Naledi sat there.
+
+“No,” she said. “It’s twelve up off mine because mine is nineteen down with the crane stopped.” She put her palm over her eyes for a second. “His floor’s probably thirty up on mine. It could be sitting in there at full amplitude and he’d never separate it. God. I’ve just spent an hour proving a negative I can’t prove.”
+
+“You’ve proved the fundamentals travelled.”
+
+“Which nobody doubted.”
+
+“I doubted,” Ruth said. “It’s my manifest.”
+
+---
+
+They ate in the mess at two because that was when the mess had food. Mutton, and the port’s bread, and a dish of the beans Beiler had been trading a Compact ration tin at a time to the Malawian crane crew for.
+
+“So we can’t date it from the barn,” Ruth said. “Then date it from the ship.”
+
+“You didn’t strike anything on the ship.”
+
+“No. But I’ve got the stow plan, and I’ve got a hold that flexes, and I’ve got three weeks of a wave-skin generator log because the engineer wanted my signature on the fuel draw.” She got the folder. “And I’ve got where every crate sat, and which ones were against the frame, and which two were in the middle of the stack with gold on all sides of them.”
+
+Naledi stopped chewing.
+
+“Say that again.”
+
+“Crates six and seven were centre-stack. Gold above, below, and both sides for three weeks.”
+
+“And the others weren’t.”
+
+“Two and eleven were against the frame. The rest were edge or corner.”
+
+“If it’s something the gold does *to* gold — if it’s coupling — then six and seven should be worse.” Naledi put the fork down. “Not different. Worse. Amplitude, not ratio. And if it’s the room here then all eleven crates are identical because they’ve all been in the same room for four days.”
+
+“Is that a test?”
+
+“That is a *test*.” She was up. “That’s a real test and it takes three hours and I can run it on Karabo’s berth time because he’s on annex work until Thursday and he owes me for the Chilean bracket.”
+
+Ruth got her cap. “You’ll want the stow plan.”
+
+“I’ll want the stow plan and I’ll want you to read the crate numbers off the tags, out loud, because I will absolutely convince myself I’m looking at seven when I’m looking at six.” Naledi stopped in the doorway. “Also I need to say — the reason I keep asking you for paper is not that I think you’ve made an error.”
+
+“I know that.”
+
+“I want to be clear, because on Wednesday I asked you three times whether the seal was intact and you went quiet.”
+
+Ruth held the door. “I went quiet because I was doing the hold plan in my head,” she said. “You’ve never once suggested I lost the load.”
+
+“Good.”
+
+She hadn’t gone quiet about the seal. She had gone quiet because on Wednesday, for eleven or twelve seconds, she had considered the possibility that a man at Gap had put something in a crate, and had had to walk the whole roster of them, three shops, every name, before she could set it down. She was not going to say that in a corridor. Naledi walked out of the mess believing the misunderstanding was closed, and Ruth believed she had answered the question, and neither of them noticed that they had just had two different conversations.
+
+---
+
+They ran it from four to seven, crate by crate, and Ruth called the tags.
+
+“Six.”
+
+“Six.” Naledi struck. Waited. “Twelve point one up.”
+
+“Seven.”
+
+“Twelve point three.”
+
+“Two. Against the frame, port side.”
+
+“Twelve point one.”
+
+“Eleven.”
+
+“Twelve point two.”
+
+It came out flat across all eleven crates inside a quarter of a decibel, which is the same as flat. Three weeks with gold on every side of it had done nothing to crates six and seven that four days in Berth 7C had not done to everything.
+
+Naledi sat back on her heels and looked at the comparator and laughed, once, without much in it.
+
+“It’s the room,” she said. “It was always the room. I’ve now proved it twice with two different sets of somebody else’s homework.”
+
+“Is that bad?”
+
+“It’s the second-worst answer. The worst answer would have been that it’s the gold, because then I could point at a crate.” She rubbed chalk off her thumb. “The room means it’s the facility, and the facility is the bore, or the node, or something under the node, and the only instrument that reaches down there is Steward-sealed and I’ve got a Sunday five days before signature.”
+
+Ruth put the stow plan back in the folder and squared it.
+
+“Then I’ve been useful in the wrong direction,” she said.
+
+“You’ve been useful. You closed the ship. I’d have wondered about the ship for a fortnight and there’d have been a version of me at the conference getting asked about it by a Chinese technical officer who’d read the hold plan.” Naledi looked up. “That’s not nothing. That’s a door you shut.”
+
+“That’s provisioning,” Ruth said. “You shut doors behind a column so nothing follows it.”
+
+“Is that a saying?”
+
+“It’s a manual.”
+
+---
+
+At half past seven the berth lights went to night level and the bore did the thing it does, and the air on the catwalk went from moving one way to moving the other, and Ruth felt it on her neck and turned her head like a woman hearing a step behind her.
+
+“That’s thermal,” Naledi said. “Forty-minute cycle. It’s been doing it since 2071 and nobody has explained the wall.”
+
+“Nobody has explained the wall.”
+
+“It’s glass. Nobody makes glass like it. It’s a stanchion mount and a place people leave coffee.” Naledi packed the pucks in their foam. “You get used to it.”
+
+“I’ve been getting used to things since I was six,” Ruth said, and did not expand, and Naledi did not ask, and that was the correct handling and both of them knew it.
+
+They sat on the empty crate for a while because the tablet was still writing out the run.
+
+“Your grandmother,” Ruth said. “The one whose handwriting you keep looking at.”
+
+“Dineo.”
+
+“Was she a surveyor like a man walking a fence, or a surveyor like an office?”
+
+“Like a fence. Instruments and boots. Forty years in the deep levels.” Naledi turned the tablet over in her hands. “She left me eleven survey books and there’s a spur drawn in the margin of one of them that isn’t on any map at this port, and she never once mentioned it, and she had sixty-two years to mention it.”
+
+“Did you ask?”
+
+“Twice. She changed the subject twice and I was fourteen and it was a Sunday and there was food.”
+
+Ruth nodded slowly. “My brother stayed,” she said. “Sixty-nine. Everybody else came out to the Compact and he stayed on the home place with the Ordnung as it was, and he’s alive and he’s in Lancaster and I’ve written him one hundred and eleven letters and he’s answered nine.”
+
+“Do you know why nine?”
+
+“No,” Ruth said.
+
+Neither of them said anything else about it. The tablet finished writing.
+
+---
+
+Then Ruth went into her breast pocket and put a coin on the crate lid between them.
+
+It was not a gesture with a run-up. She put it down the way you put down a tool you have finished with, and she was already reaching for her folder.
+
+Naledi picked it up. It was heavy for its size, brass-coloured, worn to a shine on both faces from a thumb, with a raised edge and a face on it she recognised from about four hundred pieces of tat sold outside the west gate to pilgrims — G, in profile, done badly.
+
+“They’ve made him look like a bank manager.”
+
+“They’ve made him look like whoever’s cutting the die that year,” Ruth said. “Turn it.”
+
+The reverse had a spine of small linked squares around the rim, which she knew was supposed to be the ledger and looked like a bicycle chain, and inside it a line of text in two rows.
+
+The gate tat had one row. *BE KIND.* She had read it every day for six years and never read it.
+
+This one had both rows.
+
+She held it in the night lighting and read it twice and her thumb went, without asking her, to the worn place where thirty years of somebody else’s thumb had been.
+
+“The gate ones don’t have the first part.”
+
+“No,” Ruth said. “The gate ones are for tourists and the ones in the soft churches at home are worse, they’ve got a face bigger than the sentence.” She took the folder under her arm. “It’s two sentences and the first one is the one that costs. You can’t do the second one on a Tuesday if you’ve spent Monday doing the opposite. Every place that drops the first line drops it because the first line is about *them*.”
+
+“Is that a Fold thing to say or a Ruth thing to say?”
+
+“It’s a thing I say and I get looked at for it.” She held her hand out, flat, palm up.
+
+Naledi put the coin in it.
+
+“Do the ones your people carry all have both?”
+
+“The honest ones do.” Ruth put it back in her breast pocket and buttoned the pocket. “The pocket’s how you tell. If it’s on a wall, somebody’s decided which half of it you get to keep.”
+
+---
+
+She wrote it up that night at the little desk in the Corps’ room with her boots off.
+
+*Held crate-by-crate response test with tuning liaison Mokoena, Berth 7C, 16:00–19:00, on the crate stow hypothesis. Result: negative. No amplitude variation attributable to hold position. Ship’s carriage is not the source. Recommend the ship be excluded from further enquiry and that this be stated in writing before any delegation asks.*
+
+Then she thought for a minute and wrote a second paragraph.
+
+*Note for my own record. The engineer is a good engineer and the shops are good shops and my paper is clean, and none of that was ever the question. The question is what the load was walking into. I have been provisioning columns for twenty-three years and I have never before been asked to escort something to a place where nobody could tell me what it was for. I have not been lied to. I have been answered.*
+
+She looked at that for a while and did not cross it out.
+
+Then she wrote to Ammon Stoltzfus at Gap and asked him what the small mark on the back of the sheets meant, and asked him to be exact, and asked him to write it in inches if inches was how he had it.
