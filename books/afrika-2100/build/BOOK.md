@@ -3157,3 +3157,103 @@ Naledi stayed a moment longer with the lamp.
 Then she went up, three thousand two hundred metres of cage, forty minutes, and came out into a light that hurt, with no certificate, no gallery access, no instruments in her own name, four days, and an arithmetic on the back of a photostat of her grandmother’s handwriting that could not be given to a committee to hold for her.
 
 She found a phone that worked and asked the port operator for Berth 7C.
+
+# Mokoena house, Orange Grove · four days to Renewal
+
+The house is her mother’s now and the room with the survey books in it has not been redecorated, because nobody wants to be the one to do it.
+
+Naledi came in at nine at night with pit dust in her collar and her mother did not ask, because her mother has worked at the port thirty years and knows what a person looks like coming off a cage. She put bread and cold beetroot on the table and went to bed. That was kindness and it was also a way of not being in the room.
+
+The vellum books are eleven volumes, 2066 to 2094, cloth spines, and Naledi had gone through all of them in September looking for the bearing off the datum peg and found it in volume six and stopped looking. You stop when you find the thing you went in for. That is the failure mode nobody writes up.
+
+She started at volume one and read the margins.
+
+It took until two in the morning, mostly because the margins are not remarks. They are working notes: temperatures, refusals of instruments, the price of chain, *L. sick, one hand short, bearings suspect*. A surveyor’s marginalia is a maintenance log for a surveyor.
+
+The envelope was in volume seven, between pages that were about a haulage in Carletonville, and it was not hidden. It was filed. Her grandmother had put it where a person who read all eleven volumes properly would come to it, and not where a person looking for one bearing would.
+
+On the front, in the small careful hand: *For whoever reads to the end.*
+
+---
+
+*22 September 2071*
+
+*I went down on the 15th with the party and the Accord observers and came up on the 16th and I have not been able to write this for six days, so I will write it badly.*
+
+*They asked to stand at the threshold. Eleven of them. It was permitted and it was recorded and I was there because someone had to peg the antechamber floor for the observers, and I am the one who pegs floors.*
+
+*Nothing happened.*
+
+*Nothing happened for six hours. They were patient about it in the way they are patient about everything. Then their liaison asked me — me, because I was nearest, and because I had the level — whether the last person to stand there had stood there long. I said the custodians in ’64 had been down fifty-one minutes and that some of them had worked that ground forty years.*
+
+*And the liaison said: that is the difference. Thank you.*
+
+*Then it said one more thing and I have written it out four times to be sure of it. “We have been present. We have not resided. The instrument does not read the one for the other.”*
+
+*I asked what resides means. It said: ground-made. It said the word for spent — spent presence, the habit of a place kept in a body over a long time. It said the coupling is to that and gave me no mechanism, and I did not press, because a surveyor learns the difference between a thing withheld and a thing not known.*
+
+*Then I asked the only question I have ever been proud of. I asked: could you not stay long enough.*
+
+*It said the term required exceeds our arrangements.*
+
+*I do not know what that means and I am not going to speculate on paper.*
+
+*Dineo, understand what you were told. They cannot hold it. They came across whatever they crossed and they got here and they went down and the machine would not take them, and they have been buying gold from us for two years and calling it a purchase because a purchase is a thing we understand and a thing we can be proud of. They were never here for the gold. They are here because the only hands that will fit are hands this ground made, and this ground makes them slowly, and it has not stopped making them, and it does not ask anybody’s name first.*
+
+*I know what happens if I write this in a survey. Not what happens to me. What happens to the ground.*
+
+*There are men in this city who would read one line of it and start counting whose grandfather was born where. There are men in Pretoria who would read it and price it. There are churches that would put a face on it inside a month. And every one of them would be reading a thing I do not understand, at nine in the morning, in a newspaper, with the mechanism withheld, which is how you get a doctrine.*
+
+*Also: it is not finished. A thing that is not finished should not be published. I have said that to junior men for thirty years.*
+
+*So I am leaving the length off the map and I am writing unstable ground under my own name, which is a lie, and I have thought about it for six days and I will think about it for the rest of my life and it is still the smaller wrong.*
+
+*If someone comes who can measure it, the ground will still be there. Glass keeps. Paper does not.*
+
+*I am sixty-one. I would like to be wrong about the men.*
+
+*D. Mokoena*
+
+---
+
+There was a second sheet, added later, undated, in the same hand gone shaky:
+
+*Twenty-two years. Nobody has come. I have stopped expecting it and I have not stopped keeping the books, which are the same thing done twice.*
+
+*Naledi asked me at supper why I never took her down. I said the ground was unstable. She is nine and she looked at the tablecloth in a way I did not like.*
+
+---
+
+She read the letter three times. Then she went and stood in the kitchen doorway for a while, and then she came back and read it once more, because the fourth time you stop hearing it as a voice.
+
+Nine. She could put the supper. Not the words, but the tablecloth was right, a plastic one with lemons on it, and Gogo’s hands on either side of a cup, and being told a thing she knew was not the whole thing and deciding at nine years old that she would not ask again, and keeping to that for nineteen years out of what she’d have called manners.
+
+Her grandmother had died in the front bedroom in February of 2098 over eleven days, and Naledi had been there for eight of them, and they had talked about the port, the choir line, the guild-master’s divorce, whether the pension office had received the form. The books were in the next room the whole time. Two metres of wall and a door.
+
+She had asked once. On the sixth day. *Was there something at eleven haulage.* And Gogo had said the ground was unstable, in a voice with almost no breath left to spend on it, and turned her head, and that was that.
+
+Naledi put her hand flat on the open volume and sat with it.
+
+Twenty-seven years of not saying it, in a family, at supper, at funerals. She had been holding a thing she could not check, from a counterparty that would not elaborate, about a mechanism nobody had, and she had decided the safest place for it was inside one person, and she had been the person, and there had been no relief for her either. Not once. Not at the end.
+
+The awful part, Naledi thought, is that she was mostly right. About the men, about the newspapers, about the churches. She got one thing wrong and it was the one thing that hurt her: she thought nobody had come.
+
+Somebody had come. She had been in the next room, learning to read standing waves, being told the ground was unstable.
+
+---
+
+At ten past three she copied the letter out by hand onto ledger paper, twice, because a photostat can be called a photostat. She wrote at the bottom of each: *Copied from original, vol. 7, survey books of D. Mokoena, by N. Mokoena, 26 Oct 2100, 03:40, Orange Grove.* She signed both.
+
+Then she read the operative sentences again with the counter’s dust still in her cuffs, and she was too tired to be clever, so what she got was flat:
+
+The instrument does not read presence. It reads residence. The visitors have been present for twenty-nine years and it will not take them. It took eleven miners in 1964 clothes who had been walking the same haulage since before the Republic.
+
+She thought about the wall with the names on it, and the fifty-one minutes, and the ones who came down and stood and did not sing, whose names are on it at the same size.
+
+And she thought about the narrow track through the dust in the sealed length. Sixty metres. Years of feet in one line.
+
+There is nothing in it about anybody’s blood. There is a great deal in it about how long you have been walking.
+
+She put the original back in volume seven and squared the volume with the others on the shelf, because that is how her grandmother left them.
+
+Then she rang the port operator and asked for Berth 7C again, and let it ring while she stood at the window watching the streetlight in the gum tree, and when Ruth answered — awake, at that hour, which said its own thing — Naledi said, “I’ve got the rest of it. Not the mechanism. Who can hold it and who can’t. Can you come here, and can you bring somebody who writes fast.”
