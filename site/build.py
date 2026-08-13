@@ -550,6 +550,31 @@ HIDE_BOOKS = set(
     ).split(",") if s.strip()
 )
 
+# ── Unlisted works (binding) ──────────────────────────────────────────────────────────────────
+# Titles that must NEVER be linked and must NEVER appear anywhere in the library — not in the
+# catalogue, not in a credits table, not in a contributor list, not in a feed. Distinct from
+# HIDE_BOOKS (which drops a CURATED *book entry*): these names must not surface through any
+# secondary surface either, including data files that are hand-edited and rendered on rebuild.
+#
+# 2026-08-13 — balthazar: author instruction, "should never be linked / should never appear in
+# library". Found leaking through docs/translation_fixes.json into the PUBLIC, nav-linked
+# fix-translation.html page — 23 of 25 accepted entries named it, 46 mentions on the live page.
+# The deploy rsync already carries --exclude lines for balthazar.html and downloads/balthazar/;
+# this is the same rule applied to generated content rather than to copied files.
+#
+# Matching is substring + case-insensitive on purpose: it should catch "Balthazar",
+# "balthazar-af-001" and "Balthazar Afrikaans panel" alike. Prefer over-blocking to leaking.
+UNLISTED = set(
+    s.strip().lower() for s in os.environ.get("ABP_UNLISTED", "balthazar,").split(",") if s.strip()
+)
+
+
+def is_unlisted(*values: object) -> bool:
+    """True if any value mentions an unlisted work. Used to drop rows before they render."""
+    hay = " ".join(str(v) for v in values if v is not None).lower()
+    return any(term in hay for term in UNLISTED)
+
+
 def cover_git_tracked(cover: Path) -> bool:
     """True when the resolved cover file is committed in git (deploy-safe real art)."""
     return subprocess.run(["git", "ls-files", "--error-unmatch", str(cover)],
@@ -3057,13 +3082,30 @@ def translation_fix_href(book_title: str | None = None, lang_code: str | None = 
 
 
 def load_translation_fixes() -> dict:
-    """Accepted fixes + top contributors — hand-edited JSON, rendered on rebuild."""
+    """Accepted fixes + top contributors — hand-edited JSON, rendered on rebuild.
+
+    Filtered through UNLISTED before returning: this file is hand-edited and feeds a public,
+    nav-linked page, so the gate lives here (at the single load point) rather than at each
+    render site. An unlisted title must not reach the library through a credits table.
+    """
     try:
         if TRANSLATION_FIXES_JSON.is_file():
-            return json.loads(TRANSLATION_FIXES_JSON.read_text(encoding="utf-8"))
+            data = json.loads(TRANSLATION_FIXES_JSON.read_text(encoding="utf-8"))
+        else:
+            return {"accepted": [], "top_contributors": {}}
     except (json.JSONDecodeError, OSError):
-        pass
-    return {"accepted": [], "top_contributors": {}}
+        return {"accepted": [], "top_contributors": {}}
+
+    accepted = [e for e in data.get("accepted", [])
+                if not is_unlisted(*(e.values() if isinstance(e, dict) else [e]))]
+    dropped = len(data.get("accepted", [])) - len(accepted)
+    if dropped:
+        print(f"  (translation fixes: {dropped} unlisted-work entries withheld)")
+    data["accepted"] = accepted
+    data["top_contributors"] = {
+        k: v for k, v in (data.get("top_contributors") or {}).items() if not is_unlisted(k, v)
+    }
+    return data
 
 
 def star_rating(book_title: str, rel: str = "", context: str = "book") -> str:
