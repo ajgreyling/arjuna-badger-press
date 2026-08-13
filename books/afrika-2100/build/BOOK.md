@@ -450,3 +450,157 @@ The chocks came out. The wheelers took the weight; the leaders leaned into it; t
 Somebody’s dog came out of the depot office and ran the length of the fence with them, barking, and gave up at the gate.
 
 They went out the Gordonville road at four miles an hour, east into the sun, with the escort at a walk behind and the dust standing up in the ditch grass and not settling until they were past the schoolhouse.
+
+# eGoli Spaceport, Berthing Floor Four · six weeks to Renewal
+
+The discrepancy came out of a housekeeping job nobody wanted.
+
+Uplift 44-C had gone out on the Thursday hull and the guild’s part of it was closed, but the Accord’s annexes require the tuning house to reconcile each uplift against the counterparty’s stated use, once, within seven days, and file the reconciliation. It is a paper exercise. The visitors file a repair manifest for every consignment: item, form, mass, and a use-line saying which component the metal is for. The guild files back a resonance sheet saying what each item measured. The two go into the ledger side by side and nobody reads them again, ever, in the whole history of the trade.
+
+Naledi drew it because she had lost a bet about a rugby match.
+
+She took the terminal in the tuning office, which is a converted store cupboard with a window onto the gallery mouth and a kettle that trips the ring main if anyone runs the desk lamp at the same time. She had the lamp off. She had 44-C’s nine resonance sheets on the left of the screen and the manifest on the right, and a mug going cold at her elbow, and she was going to be finished by four.
+
+Item one. Ring blank, 62.4 kg, use-line: *guide segment, ring assembly, class 3.* Sheet: fundamental 212.113 Hz, partials clean, Q high.
+
+Item two. Plate. Use-line: *coupling face, secondary.* Sheet: 388.006.
+
+Item three, four, five. Fine.
+
+Item six was a ring blank too. Same class, same nominal mass within a kilo, same use-line word for word: *guide segment, ring assembly, class 3.*
+
+Fundamental 212.098.
+
+Naledi looked at that for a while.
+
+Fifteen millihertz is nothing. Fifteen millihertz is her own ear before eight in the morning. Two ring blanks formed to the same drawing in two different shops on two different presses will differ by more than that, and the tolerance band in the annex is generous by design, because the visitors buy to a tolerance and not to a number, and the guild’s whole existence is the width of that band.
+
+But the guild does not read the band. The guild reads the *shape*.
+
+She pulled up the two decay envelopes and put them one over the other. Item one’s third partial came down like a dropped stone. Item six’s third partial came down and then sat, for about four hundred milliseconds, on a shelf.
+
+She had seen that shelf before. Everybody had. It is what a driven mass does when it is coupled to something that wants to keep ringing at a slightly different pitch — a stall with a loose spider, a plate that has been seated against the lead lining, a pickup two millihertz proud. It is a coupling artefact and the correct response is to reseat and rerun, and if it recurs, service the stall.
+
+Item six had been read in Stall Five. Item one in Stall Five. Same stall, same morning, same engineer — Lebo, who was better at this than Naledi and had signed both without a note.
+
+She got up, went out onto the floor, and reseated nothing, because both items were four hundred and eleven kilometres up and out.
+
+---
+
+So she did it the long way, which took nine days and mostly happened between other things.
+
+She pulled every reconciliation for every consignment of the last three years. Two hundred and sixty-one uplifts, one thousand nine hundred and forty items. The ledger holds them all and the ledger is not slow; the slow part is that the use-lines are free text.
+
+The visitors write their manifests in protocol English and their protocol English is exact but it is not a database schema. *Guide segment, ring assembly, class 3.* *Guide segment (ring), class three.* *Ring assembly guide, cl.3, replacement.* Naledi spent two evenings building a table by hand to collapse the variants, and she built it in pencil first, on the back of a stall service log, because that was faster than arguing with software.
+
+Then she sorted every item in the three years by use-line and looked at the resonance sheets grouped that way.
+
+The class-3 guide segments came out in two families.
+
+Not a spread. Two clumps, with a gap between them you could park a hull in. Family A sat around 212.113 and had clean fast decay. Family B sat fifteen to nineteen millihertz low, always low, never high, and every single one of them had the shelf on the third partial.
+
+Two hundred and six class-3 guide segments in three years. Ninety-one in family B.
+
+She sat back and the chair squeaked and she said, out loud, to the kettle, “Oh, that’s not nice.”
+
+Because a use-line is a *use*. It says what the metal is for. And if the counterparty is buying two acoustically distinct components and filing both under one use-line, then either they have a sloppy clerk, or the two families go to two different places, and the manifest is not describing the second place.
+
+She checked the sloppy clerk hypothesis, because you do. She sorted family B by filing date, by forming shop, by mass, by purity, by the shipping hull, by the day of the week. Family B came from Kenya and Australia and the Bushveld and Chile and one lot out of Aksum. Family B included items formed to the drawing by four presses that had never made anything else. Family B ran all three years with no trend, roughly two in five, and the split held to within a couple of percent across every quarter she cut.
+
+Nobody’s clerk is that consistent. Consistency is the fingerprint of a system.
+
+She did the last check on the ninth evening with the lamp off and the kettle unplugged. She took the twelve family-B items with the most complete sheets and looked not at the fundamental but at the interval between family A and family B: 212.113 against 212.098, 388.006 against 387.978, 145.220 against 145.209.
+
+She worked the ratios on paper. They came out the same to four places. Same interval, every pair, every form, three years. Family B was not a family of flawed parts. Family B was family A transposed — the whole set shifted down by one fixed, tiny, deliberate amount.
+
+You do not get that from voids. You do not get that from silver. You get that from somebody forming metal to a *different reference pitch* and calling it the same component.
+
+Naledi’s stomach did the thing it does on a hoist.
+
+She wrote it up properly. She had it in her hands by eleven that night and she did not send it, because at eleven at night everybody is a genius. She read it again at half past six with the reference bar log in front of her and her ear eleven millihertz optimistic as usual, and it still stood up.
+
+Discrepancy report. Guild form 12. Observation, method, data appendix, and one recommendation: *that the tuning house request clarification from the liaison as to whether use-line “guide segment, ring assembly, class 3” covers two distinct component specifications, and if so, that the annex reconciliation format be amended to distinguish them.*
+
+That was all she asked for. A clarification and a form change. She was rather pleased with how boring she had made it.
+
+She filed it Tuesday, 08:14, and the ledger gave her back a receipt hash, and she went and did lots eleven through nineteen.
+
+---
+
+The file came back on Friday.
+
+STATUS: CLOSED. DISPOSITION: NO ACTION REQUIRED. NOTE: VARIANCE WITHIN ANNEX TOLERANCE. RECONCILIATION FORMAT UNDER REVIEW BY COMMISSION AHEAD OF RENEWAL; SUBMISSIONS SUSPENDED.
+
+Time between filing and closure: seventy-nine hours, which included a weekend.
+
+She stood in the corridor outside Stall Two with her earpiece around her neck and read it three times and could not find the part that was wrong, which was the annoying bit. Every sentence was true. The variance *was* within tolerance. The format *was* under review; she’d had the circular in March and deleted it.
+
+“Two millihertz proud,” she said to nobody.
+
+Karabo went past with a spider wrench and said, “Sorry?”
+
+“Nothing. Get me the service book for Five.”
+
+Stall Five’s driver ring had been changed in February. Pickups replaced last August, both. Calibration against the bar within four millihertz every week for fourteen months, initialled, dated, temperature logged. The stall was not sick. Naledi had known that before she asked. She asked because a person who files a report and then does not check her own instruments is a person who will be asked why she did not check her own instruments.
+
+---
+
+Marais came down to Floor Four on the Wednesday, which was not remarkable. He came down most months. He had come out of the guild himself, forty years ago, and he still put on the earpiece and asked to hear the idle, and the floor liked him for it and the floor was not wrong to.
+
+He asked her to walk with him on the catwalk. He was seventy-one and he walked slowly through the bore and stopped at the middle, where the glass gets that green depth in it, and put his hand on the rail.
+
+“You know what my father did on this apron,” he said. “He drove a water truck. Nineteen years.”
+
+“Ntate, I know.”
+
+“I tell everyone. It’s the only story I have.” He looked down the length of the bore. “Your report was good. I want to say that first, and I want you to believe I mean it, because in about four minutes you’re going to think I’m managing you. It was good. The interval work especially — you didn’t chase the millihertz, you chased the ratio. That’s the guild at its best and I read it twice.”
+
+“Thank you.”
+
+“It’s also correct, as far as I can tell.” He said it plainly, the way you’d read out a mass at contact. “I don’t know what those ninety-one items are. Neither do you. Neither, I suspect, does anyone in this building. Now let me tell you what week it is.”
+
+He let go of the rail and turned to face her.
+
+“Six weeks. The Renewal instrument is a hundred and nine pages and the volume schedule alone took four years to agree, because volume is the only clause in it that the other twenty-two signatory blocs actually fight over. China wants doubled tonnage and a shortened cycle. The Southern Carry wants the cycle held and the technique schedule front-loaded. The North American Compact wants proof it isn’t paying rent. And every one of them has domestic weather that would eat their delegation alive if they came home with less than they promised.”
+
+“I know.”
+
+“You know it the way you know the weather in Chile. Let me be specific, because specific is the only thing you and I both trust.” He counted on his fingers, no theatre in it. “The platinum framework is annexed to the Renewal. Not adjacent. Annexed. If the Accord lapses without instrument, forty percent of the world’s platcap electrode supply falls back to bilateral contracts negotiated in a panic, and the price of a cell in Nairobi triples inside a quarter, and every mesh node in the Congo basin that runs on a two-hundred-rand cell goes dark by degrees. Second. The technique schedule. There are eleven deliveries queued behind signature, one of which is a ceramic process for piezo harvesters that halves the cost of a footfall paver. That is not glamour. That is a village in Limpopo lighting a clinic. Third, and this is the one I lose sleep on. This country has been indispensable for twenty-nine years. Do you know how long any country has ever been indispensable?”
+
+“No.”
+
+“Neither does anyone, because nobody has been. We are hosting the species relationship on our ground, under our custody, on our terms, and we are doing it because the Accord says so. Instruments say so. Take the instrument away and what’s left is that we happen to be sitting on the gold, and the world has a long and well-documented history of arrangements for people sitting on gold.” He put his hands in his pockets. “My father drove a water truck on an apron owned by other people. I would like to die before that comes back.”
+
+A hoist came up over Bay Two and the rotors sang thin and then dropped away.
+
+“So,” Naledi said. “Drop it.”
+
+“No. Hold it.” He shook his head slightly. “I’m not asking you to unsee it. I’d fire you if you could. I’m asking you to be curious in September. Curiosity has a season, Naledi, and the season is the twenty-seven years we’ve had and the fifty we’ll have after signature. We have been allowed to be curious for twenty-seven years. We get to be sovereign for six weeks. If I take a question about ninety-one guide segments onto that floor now, I don’t get an answer. I get a delegation from the Give bloc saying the host nation is inventing doubt to raise the price, and a delegation from the Keep bloc saying they *told us* the metal was going somewhere unstated, and eleven technique deliveries in a drawer, and the clinic in Limpopo not lit. And I still don’t have an answer, because the counterparty will file six lines and sign them and the six lines will be true.”
+
+“They usually are.”
+
+“They usually are.” Something moved at the corner of his mouth. “Reopen it in September. I’ll co-sign the request myself, and I’ll put my name above yours on it so it isn’t a junior engineer against a protocol, and I’ll make sure the format review takes your amendment. That’s not a bribe. That’s a plan, and it’s a better plan than the one where you’re right in August and unemployed in October.”
+
+He waited. He was good at waiting; he’d been in rooms.
+
+“Understood,” Naledi said.
+
+“That’s not agreement.”
+
+“No, ntate. It’s understanding. You asked for one and I’ve got it.”
+
+He laughed, actually laughed, and patted the rail twice, and went off down the catwalk with his hand out for the rail every third step, because the floor grating is open there and he was seventy-one.
+
+---
+
+She stayed in the bore a while.
+
+She could not tell him the real thing, which was smaller than the country and larger than a form change. Lebo had signed both sheets. Lebo, who had eighteen years on her and had taught her how to hold the mallet, had put her thumb on the plate twice in one morning and certified two items as the same component, and they were not the same component, and Naledi had let a receipt hash go into the ledger under her own thumb ninety-one times over three years without seeing it.
+
+She had written *A-440 ok by ear* every morning of her working life and then let a machine correct her, on purpose, because she did not trust her ear, and the whole point of that discipline — the mallet, the case, the temperature log, the humiliation at eleven millihertz — was so that nothing would ever get past the house. Not *nothing important*. Nothing.
+
+Ninety-one items had got past. Twice a week, for three years, past everybody, into the ledger, out through the bore, up.
+
+The gallery air came up grey and broad through the grating.
+
+She went down to the tuning office and reopened her pencil table, and started a second column, and headed it with the interval — the actual number, four places — because if family B was formed to another reference, then somewhere there was a bar somebody had struck to get it, and she was going to find out whose mallet.
