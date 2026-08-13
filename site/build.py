@@ -286,12 +286,13 @@ WORKSHOP_HOLD = set(
         #   - southern-coast (Scratching the Surface): complete 4-ch novella; released by explicit
         #     author decision, OVERRIDING its in-text Khoisan/San sensitivity-read notice.
         #
-        # 2026-08-13 — the-prophet-and-his-brother UNPUBLISHED by explicit author decision.
-        #   Pulled off the shelf while the book is retitled (working title *Afrika 2035*) and
-        #   re-edited. Its PUBLISHED entry is deliberately left in place so the release record
-        #   and its care-rail note survive; this line is the gate that suppresses read-online
-        #   and downloads. Remove this id to put it back on the shelf.
-        "the-prophet-and-his-brother,"
+        # 2026-08-13 — the-prophet-and-his-brother held (retitle to *Afrika 2035* + re-edit),
+        #   then RELEASED SAME DAY by explicit author decision once the re-edited exports landed.
+        #   The hold is deliberately left here as a comment, not deleted: the EPUB/PDF/BOOK.md
+        #   now on disk are the 02:48 rebuild (dcterms:modified 2026-08-13T00:48:39Z), i.e. the
+        #   post-edit ones the hold was waiting for. The book ships under its existing title —
+        #   *Afrika 2035* stayed a working title and never reached the deliverable's metadata.
+        ""
     ).split(",") if s.strip()
 )
 

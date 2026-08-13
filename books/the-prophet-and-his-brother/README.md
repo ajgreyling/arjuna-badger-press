@@ -6,9 +6,16 @@ Former working title: *The Four Quarters* — kept as the name of the schism eng
 
 ## Status
 
-**PUBLISHED** as **African Gold Companion · Book 3.5** (between RELIC and AFRIKA 2100) · ~90k · live on arjunabadger.press.
+**PUBLISHED** as **African Gold Companion · Book 3.5** (between RELIC and AFRIKA 2100) · ~90k ·
+live on arjunabadger.press.
 
-Deliverables:
+Briefly held (`3e773bf`, 2026-08-13) for a retitle to *Afrika 2035* and a re-edit, then released
+the same day by explicit author decision once the re-edited exports landed. The title did not
+change — *Afrika 2035* stayed a working title. `WORKSHOP_HOLD` is now empty; re-adding the id is
+the one-line way to pull the book dark again (then run the full deploy loop — nothing changes on
+the live site until Render redeploys).
+
+Deliverables (the 2026-08-13 02:48 rebuild — post-edit):
 - `build/export/The Prophet and his Brother.epub`
 - `build/export/The Prophet and his Brother.pdf`
 - `build/export/cover.png`
