@@ -1,4 +1,4 @@
-# Plot — *The Prophet and his Brother*
+# Plot — *Afrika 2035*
 
 > Skeleton. Climax asks and consent locked in `CANON_CHOICES.md` (C-19–C-24).
 > Book within a book (C-02b): outer AJ present · inner G autobiography · outer G-present weather.

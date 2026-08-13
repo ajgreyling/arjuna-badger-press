@@ -1,4 +1,4 @@
-# Characters — *The Prophet and his Brother*
+# Characters — *Afrika 2035*
 
 > Dual principals only for POV. Everyone else is weather, pressure, or a single-scene instrument.
 > Close third: free indirect style inside one skull per section; no head-hopping inside a scene.

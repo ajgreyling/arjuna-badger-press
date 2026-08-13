@@ -1,4 +1,4 @@
-# Chapter Ledger — *The Prophet and his Brother*
+# Chapter Ledger — *Afrika 2035*
 
 > Binding map. **A** = outer AJ (close third, Chobe / Mutatus). **I** = inner autobiography (G’s life/work under AJ’s hand; default first-person life voice). **G** = outer G-present (close third, Studio / weather).
 > Target ~90k · ~24 chapters · braid by manuscript, not shared room.

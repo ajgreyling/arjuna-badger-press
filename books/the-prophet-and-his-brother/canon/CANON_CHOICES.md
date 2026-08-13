@@ -1,4 +1,4 @@
-# Canon Choices — *The Prophet and his Brother*
+# Canon Choices — *Afrika 2035*
 
 > **LOCKED** = binding. **OPEN** = may not be written as fact until closed.
 > AFRIKA 2100 rewrite is downstream — do not consult old 2100 locks for this book.
@@ -7,7 +7,7 @@
 
 ## LOCKED
 
-- **C-01 · Title & year.** Title **LOCKED:** *The Prophet and his Brother*; story year **2035**. Former working title *The Four Quarters* retained as the name of the schism engine only (C-04 — the four camps).
+- **C-01 · Title & year.** Title **LOCKED:** *Afrika 2035*; story year **2035**. Retitled 2026-08-13 from *The Prophet and his Brother*, which now names the book's relation (G the prophet, AJ the brother) rather than the book. Earlier working title *The Four Quarters* retained as the name of the schism engine only (C-04 — the four camps). Note the deliberate shelf rhyme with *AFRIKA 2100*, the spiritual fourth: same continent, sixty-five years apart.
 - **C-02 · POV.** Dual **close third** on the outer novel. Two threads only as principals: **AJ** (Andries J. Greyling) and **G** (Gerhard van Niekerk). **AJ is the main subject of the book** — the A-thread gravity. No omniscient overview of the schism; the quarters are encountered through what each man sees, hears, and refuses.
 - **C-02b · Book within a book.** Formal structure, binding: the outer novel is AJ on the Chobe in 2035; inside it runs **the autobiography of G** — the manuscript AJ is writing, which is **the pages of G’s life and work**. Effectively **a book within a book**. The reader receives both: river-desk present (outer) and life/work pages (inner). The inner book is not a paste of Artist’s Proofs; it is autobiography — lived years, desks, kill switches, the ignored shelf, the Constant landing — under AJ’s hand, with Lucid in the choir. AJ does not vanish into ghostwriter anonymity: he remains the main subject of *this* novel while authoring *that* one. The braid: **AJ writes the life; G lives the weather of having a life written** (and of the fame Lucid’s open attribution already caused).
 - **C-02c · How the inner book appears.** Inner-autobiography sections are typographically / structurally distinct from outer AJ present (chapter heads, manuscript cues, or clear section breaks — house craft, not gimmick). Outer AJ may be caught mid-sentence of the inner book; the next section may *be* that page. G’s present-tense schism weather may still appear as outer close third on G (co-principal under pressure) **or** bleed through what AJ is writing that day — lock mix in O-14. Default lean: **both** — outer G-present for 2035 weather; inner autobiography for life-and-work deep pages.

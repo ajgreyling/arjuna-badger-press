@@ -714,7 +714,7 @@ SERIES = [
 # the house voice; keyed by the SERIES name. Absent name => no tagline (heading only).
 SHELF_TAGLINE = {
     "Captain Gideon Loots": "⚠ For adult readers. Cape crime — a disgraced detective and the charming men he understands too well.",
-    "The African Gold Trilogy": "Resonance, Revelation, Relic — plus Companion 3.5 (*The Prophet and his Brother*, 2035) and the spiritual fourth (*AFRIKA 2100*).",
+    "The African Gold Trilogy": "Resonance, Revelation, Relic — plus Companion 3.5 (*Afrika 2035*) and the spiritual fourth (*AFRIKA 2100*).",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
@@ -761,7 +761,7 @@ BOOK_TAGLINE = {
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
     "the-prophet-and-his-brother": (
-        "<strong>Living-person care.</strong> <em>The Prophet and his Brother</em> draws "
+        "<strong>Living-person care.</strong> <em>Afrika 2035</em> draws "
         "Andries J. Greyling and Gerhard van Niekerk as fiction principals from life. "
         "Public record binds where cited (including the assassination of Bouwer van Niekerk, "
         "Saxonwold, 5 September 2025 — named as wound, not solved as plot). Private pain stays "
@@ -897,7 +897,7 @@ CURATED = [
     ("relic", "RELIC", "The African Gold Trilogy · Book III", "The African Gold Trilogy",
      "relic", "build/export",
      "An engineer reads an ancient machine and must decide who may switch it on. The cinematic capstone of the trilogy."),
-    ("the-prophet-and-his-brother", "The Prophet and his Brother",
+    ("the-prophet-and-his-brother", "Afrika 2035",
      "An African Gold Companion · Book 3.5 · 2035", "The African Gold Trilogy",
      "the-prophet-and-his-brother", "build/export",
      "Between RELIC and AFRIKA 2100: on the Chobe in 2035, AJ writes the autobiography of G while Lucid has made that degree-less ignored physicist famous and crashed the AI GPU bubble — a book within a book under four-quarter weather, hyperscaler salvage frost, and the Kind sentence on the walls."),

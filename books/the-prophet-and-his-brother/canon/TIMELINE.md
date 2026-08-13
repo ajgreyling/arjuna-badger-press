@@ -1,4 +1,4 @@
-# Timeline — *The Prophet and his Brother*
+# Timeline — *Afrika 2035*
 
 > Layer H = how we got to 2035 (fragments only in prose). Layer P = story clock.
 > AFRIKA 2100’s old chronology is not binding here.

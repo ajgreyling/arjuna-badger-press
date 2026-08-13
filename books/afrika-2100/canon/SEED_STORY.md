@@ -42,7 +42,7 @@ the easy wrongs, ink the costly ones, leave the weather undefeated.
 
 The first Afrika 2100 pass was flat: discrepancy → evidence chase → conference. Institutions
 without itch. Saints without Bouwer. Fold without Kind paint. Consent without a desk that
-hurts. *The Prophet and his Brother* is the human decade — loud vindication, four weathers,
+hurts. *Afrika 2035* is the human decade — loud vindication, four weathers,
 partial authorisation, knives across distance, node still lit. **Rebuild 2100 from what that
 book made true.** Do not protect old 2100 locks that sand the humans into architecture.
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Typeset *The Prophet and his Brother* cover from design/cover-plate.png.
+"""Typeset the *Afrika 2035* cover from design/cover-plate.png.
+
+Retitled 2026-08-13 (was *The Prophet and his Brother*).
 
 Eyebrow + title + author on river/Mutatus plate. Writes design/cover.{png,jpg}
 and build/export/cover.{png,jpg}.
@@ -88,12 +90,19 @@ def main() -> None:
     rule_y = int(H * 0.05) + 44
     draw.line([(cx - 140, rule_y), (cx + 140, rule_y)], fill=ACCENT, width=2)
 
-    f_title = font(ATK_BOLD, 72)
-    lines = ["THE PROPHET", "AND HIS", "BROTHER"]
-    ty = int(H * 0.12)
-    lh = 86
+    # Single-line title, matching its shelf sibling AFRIKA 2100. Auto-fit so the
+    # line always clears the margins rather than trusting a hand-tuned size.
+    lines = ["AFRIKA 2035"]
+    size, tracking = 104, 6
+    while size > 40:
+        f_title = font(ATK_BOLD, size)
+        if max(text_width(draw, ln, f_title, tracking) for ln in lines) <= W * 0.84:
+            break
+        size -= 2
+    ty = int(H * 0.13)
+    lh = int(size * 1.2)
     for i, ln in enumerate(lines):
-        draw_tracked(draw, cx, ty + i * lh, ln, f_title, 4, INK)
+        draw_tracked(draw, cx, ty + i * lh, ln, f_title, tracking, INK)
 
     f_tag = font(ATK_ITAL, 30)
     draw_tracked(

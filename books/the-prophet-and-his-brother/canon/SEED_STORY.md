@@ -1,4 +1,4 @@
-# SEED_STORY — *The Prophet and his Brother*
+# SEED_STORY — *Afrika 2035*
 
 > **Status:** scaffolded · opening pair drafted · **Year:** 2035 · **POV:** book within a book (A / I / G)
 >

@@ -1,6 +1,6 @@
 # Characters — AFRIKA 2100
 
-> Binding cast. Arcs rebuilt from *The Prophet and his Brother* grammar: wants/fears that cost,
+> Binding cast. Arcs rebuilt from *Afrika 2035* grammar: wants/fears that cost,
 > concrete asks, refuse easy wrongs, consent as posture, weather undefeated. Two POVs
 > (STORY_BIBLE D3). Distinguish by **domain and rhythm**. Trilogy elders in scene, never camera.
 

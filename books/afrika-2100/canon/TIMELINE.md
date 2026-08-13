@@ -13,7 +13,7 @@
 |---|---|
 | 2026 | **G publishes the 420 Code**, copyleft. Ignored by mainstream; adopted at edges. |
 | ~2027–2029 | **Trilogy events** (RESONANCE → REVELATION → RELIC). Priya at the switch; instrument at Brotherhood-tended threshold, understood first. Public record thin. |
-| **2035** | ***The Prophet and his Brother.*** 420 Code worldwide as unified theory; Constant G converging in CODATA. AJ on Chobe in Mutatus Maximus; Lucid (integer, no GPU) open-attributed to 420 algorithms — fame as beam. Four Quarters weather; Kind paint (***Don’t be a cunt — be kind***); CongoSky already embodied the ethic as ops. Consent week: CongoNet keep · Lucid unbound · autobiography ships under **partial** rails; G refuses crowns / keyring-sacrament; weather undefeated. |
+| **2035** | ***Afrika 2035.*** 420 Code worldwide as unified theory; Constant G converging in CODATA. AJ on Chobe in Mutatus Maximus; Lucid (integer, no GPU) open-attributed to 420 algorithms — fame as beam. Four Quarters weather; Kind paint (***Don’t be a cunt — be kind***); CongoSky already embodied the ethic as ops. Consent week: CongoNet keep · Lucid unbound · autobiography ships under **partial** rails; G refuses crowns / keyring-sacrament; weather undefeated. |
 | 2030s–2050s | Quiet dissemination of Assist/Guardian → storage; G’s stack through Global South; Court lineage under consent doctrine. Kind practice spreads; soft churches begin putting faces above the sentence (saint-hunger fossil begins). |
 | 2043 | Personhood Recognition Act (SA first). |
 | **2058** | **G dies**, Eastern Cape — respected in field, not yet civilisation-saint. Crowns he refused start returning as myth. |

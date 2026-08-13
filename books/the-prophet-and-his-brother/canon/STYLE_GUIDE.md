@@ -1,4 +1,4 @@
-# Style Guide — *The Prophet and his Brother*
+# Style Guide — *Afrika 2035*
 
 > Book within a book. Outer: dual close third (AJ present / G present). Inner: G’s autobiography under AJ’s hand.
 
