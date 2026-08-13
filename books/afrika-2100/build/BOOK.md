@@ -2645,3 +2645,125 @@ She thought about Priya’s forty minutes and the beans.
 The countersignature block came up on the panel with the pronoun field blank. Naledi signed hers, and wrote the time next to it, and put the founding record back into its sleeve, buckram copy on the third shelf, devotional editions squared up, the pamphlet flat in its box.
 
 Outside on the landing somebody was carrying a chair up the stairs backwards. From the courtyard, faintly, four or five voices were holding a note for a count they had all agreed on, and holding it well, and Naledi stood in the doorway under the brass sign for a moment and let them get to the end of it before she went down.
+
+# Liaison Room Two, eGoli Spaceport · seven days to Renewal
+
+Liaison Room Two is a room with two doors, one for each party, and a table between them that is bolted to the floor so nobody can move it closer.
+
+The Accord requires a tuning representative at the pre-consignment tolerance review. That is the whole of Naledi’s standing. She had checked, because in nine days she would not have it.
+
+She brought three things. The signature plot off the American consignment, printed, because paper cannot be closed remotely. The house-time series from the deep telemetry, four years of node wake, the idle drift ringed in pencil. And the Diri table with the third column showing.
+
+Sela came in at 09:00, which is when Sela comes in.
+
+The physical facts, stated once because they are stated in every training manual and Naledi had never got used to them: a little under two metres; the working suit dull grey, seamed at the joints, no insignia; the head unit with the two ports and the mesh panel the recording sets pick up as a slight loss of high frequency in the room. Sela sat. Sela’s chairs are the port’s chairs. They do not fit and nobody has ever offered better.
+
+“Tuning representative Mokoena,” Sela said. “The consignment at 7C is within tolerance on all forty-one lots. The party accepts the review. Do you wish to record an exception.”
+
+“I wish to record a question.”
+
+“Questions at review are recorded and answered under clause fourteen if they concern form, purity, or handling.”
+
+“It concerns form.” She turned the signature plot round on the table and slid it across. “Lot nineteen. The formed parts ring at four-nine-two point one and the manifest tolerance is stated for a fitting at four-nine-four. Two hertz. That’s not drift and it’s not my instrument, because I ran it against the reference block and the reference block is right. The lots are formed to something the manifest doesn’t describe.”
+
+“The lots are formed to the calibration held by the party.”
+
+“Yes. Which is not the manifest.”
+
+“That is correct.”
+
+Naledi wrote *that is correct* in her notebook and the pen was loud.
+
+“Then what are the parts fitted to.”
+
+“The party is not obliged to address the question under the frame in operation.”
+
+“Understood.” She put the house-time series on top of the plot. “This is our own instrumentation. Deep galleries, four years, sampled hourly. Wake onset here. Idle here. The idle is unstable, it has been getting worse at about a hundred and eighty parts per billion a year, and the roughness in the wake has a two-hertz component in it.” She let her finger stay on the page. “I’m not asking you about your machines. I’m asking about that. That’s ours, it’s under our feet, and I’m the one who has to sign the tolerance.”
+
+The room’s ventilation went on doing what it does.
+
+“You are describing the condition at first survey,” Sela said. “It has not improved.”
+
+Naledi did not move her finger.
+
+Somewhere inside the suit at the left shoulder there was a sound like a stone settling into a bucket of water.
+
+“Say that again.”
+
+“The party will answer in writing under clause fourteen,” Sela said. “The review is accepted. Forty-one lots. Do you wish to record an exception.”
+
+“No exception.”
+
+“Then the review is closed.” Sela stood. “The written answer will be lodged with the Commissioner’s office and copied to the requesting parties. There are two requests in this matter and they will be treated together.”
+
+“Two.”
+
+“The Compact quartermaster’s fourth request of the eleventh, and yours. The subject matter is the same. The party answers subject matter.”
+
+Sela went out through the party’s door, which does not sound like a door.
+
+---
+
+She got twenty hours of hoping, which she is not proud of, and which she used well: two shifts on the choir line, a berth check, and a long argument with the guild-master about whether the reference block should go back to Pretoria for recertification before Renewal or after, in which she was right and lost.
+
+The answer came at 06:40 on the twenty-fourth, ledger-lodged, Accord office letterhead over the party’s protocol block.
+
+She read it standing up in the corridor outside 7C with the crate crews going past behind her.
+
+**In the matter of requests lodged 11 and 23 October 2100 (Stoltzfus, R., Capt., US Army Logistics Corps; Mokoena, N., Guild of Tuning), treated together.**
+
+1. The consigned lots are reference stock. They are formed to a calibration held by the party and are not components of a mechanism.
+
+2. Reference is maintained for apparatus at several sites. One such site lies within the territory of the host nation. The party confirms this.
+
+3. Maintenance of that site has fallen within Volume One, clause nine, since 1 January 2073. The host nation holds it in trust. The party’s schedule has served it continuously since that date.
+
+4. No amendment to the present frame is required for the continuation of the present schedule.
+
+5. The condition of the site was recorded at first survey and is known to the party. The party is not obliged to address the question of cause, remedy, or consequence.
+
+6. The party notes that the host nation’s participation in the schedule has never been conditional upon the party’s account of function.
+
+7. The requesting parties are thanked for the accuracy of their instrumentation.
+
+Naledi read it four times against the wall.
+
+Every sentence was true. She checked the two she could check. Clause nine does say host nation, in trust. Eleven minutes she had spent on that clause with the blinds down, and it defines nothing, and now the party had defined it for her in twelve words and the definition was correct.
+
+Paragraph two was the largest disclosure in twenty-nine years of the Accord. There is a machine under the reef. It is ours. They service it. That is the thing every school syllabus has been walking around since 2073.
+
+Paragraph three put it inside a clause the host nation signed in seventy-three with both eyes open.
+
+She stood there and worked out what she had left, which took about a minute and did not need paper.
+
+Her question had been answered. Under clause fourteen a question answered is spent; you cannot lodge the same subject matter twice. Ruth’s fourth request had been answered too, in the same document, on the same subject matter, so Ruth’s fifth was dead in the shell. The Understand-first delegations had been going to the floor on *nobody has ever asked what the gold is for*, and it had been asked now, by a captain and a tuner, and here was the answer, on the ledger, courteous, signed, and it said *this is already covered by the treaty you are renewing.* The Stewards’ four lines in pencil, custody never asked to speak: custody had been asked, and the answer said custody is clause nine and clause nine is working.
+
+And paragraph five. Known to the party. Recorded at first survey. Not obliged to address the question of cause, remedy, or consequence. A refusal would have left the roughness an open item. This left it a filed one.
+
+Her hands were cold, which happens in that corridor anyway, because 7C runs at fourteen.
+
+The Accord office press note came out at nine. She read it on the mesh in the canteen with a plate she did not finish. *The party has, for the first time, formally confirmed the existence of an installation within South African territory and its inclusion in the custodial clause since 1973* — someone’s typo, corrected within the hour — *a substantial advance in candour attributable to the Commission’s patient framing of the volume review. The Commissioner welcomes the confirmation and notes that it removes the principal uncertainty raised against the schedule.*
+
+Marais had not framed anything. Marais had reduced her clearance eleven days ago and closed a file. It did not matter. He had the answer on his letterhead and it said *no amendment required*, and he had not had to bury a single thing to get it.
+
+Tefo found her at the canteen door with his own printout, already folded into eighths, which is what he does to paper he is angry with.
+
+“Ma-Rethabile has read it,” he said.
+
+“And?”
+
+“She said, *now they have said it, and it is worse.*” He looked at the folded thing in his hand. “Twenty-seven years I’ve wanted them to state a reason on the ledger. They stated one. It’s the wrong reason and it’s theirs, and it’s in my order’s file now.”
+
+“Paragraph six.”
+
+“Paragraph six.” He unfolded it enough to find the line. “*Never been conditional.* That’s true. That’s the part that keeps me awake. We never once made it conditional. Not in seventy-three, not at the halts. My order stopped two consignments and explained nothing, and if we’d explained, we’d have had to say what we were asking for, and we never asked for anything.” He folded it back. “They read us right.”
+
+“They’ve had twenty-nine years and very good instruments.”
+
+“Ja.” Tefo put the printout in his pocket. “What do you have left.”
+
+“Arithmetic,” Naledi said. “Two dates and a subtraction. Nobody has asked that yet.”
+
+“You’ll get one hour of standing for it.”
+
+“Then I want it at the right height,” she said, and went to find Ruth, because two hundred and forty-one crates were going down the shaft in six days and somebody was going to have to sign for them by weight.
