@@ -178,7 +178,7 @@ The choir line was nine stalls in a row against the west wall, each one a lead-l
 
 Worked gold went in. A reading came out. That was the job, and it took nine years to learn and about forty seconds to describe.
 
-Lot seven of the Kenyan consignment was already sitting in Stall Three under custody seal, thirty-one kilograms, formed to what the manifest called a Class-B ring blank and what everybody on the floor called a doughnut. Naledi broke the seal in front of the Steward on duty, because that was the order — Steward first, engineer second, ledger third — and the Steward wrote the time.
+Lot seven of the Kenyan consignment was already sitting in Stall Three under custody seal, thirty-one kilograms, formed to what the manifest called a Class-B ring blank and what everybody on the floor called a doughnut. Naledi broke the seal in front of the Steward on duty, because that was the order—Steward first, engineer second, ledger third—and the Steward wrote the time.
 
 Tefo, that morning. He was her age and he stood like a much older man.
 
@@ -356,7 +356,7 @@ Ruth said it. She said it with her hat off and her hand on the wagon side, becau
 
 Eli Hoover put his hand on the near case.
 
-“This is not a tribute,” he said. “We don’t know what it is. We’re sending it because we said we would, and because they asked for the work and not the metal, and that’s a thing we understand — a man who wants your work is dealing straight with you.”
+“This is not a tribute,” he said. “We don’t know what it is. We’re sending it because we said we would, and because they asked for the work and not the metal, and that’s a thing we understand—a man who wants your work is dealing straight with you.”
 
 Somebody said amen.
 
@@ -366,7 +366,7 @@ Ruth kept her eyes on the case bands. That was not the arrangement. The arrangem
 
 Then the horses were prayed for by name. That is the Plain part and it has never left. Dan, Jake, Sadie, and the offside wheeler, whose name was Hosea and who was short in the shoulder.
 
-The children sang. Two verses and a chorus, nothing anybody in Africa would recognise as a hymn — the tune had come from a hunger-year work song and everybody knew it and nobody knew who made it.
+The children sang. Two verses and a chorus, nothing anybody in Africa would recognise as a hymn—the tune had come from a hunger-year work song and everybody knew it and nobody knew who made it.
 
 ---
 
@@ -401,7 +401,7 @@ DON’T BE A CUNT. BE KIND.
 
 She read it. She read it every time. There was no ceremony in it; it took two seconds; it was the same as putting a hand on a lid.
 
-The soft form is a kindness to children and grandmothers and she had no argument with it. She had watched it happen in her own lifetime — the coins with the word filed off, then the coins struck without it, then the passages read short in company and long alone, and half the gatherings in the county now with the full line on the wall in the back room and *BE KIND* over the door.
+The soft form is a kindness to children and grandmothers and she had no argument with it. She had watched it happen in her own lifetime—the coins with the word filed off, then the coins struck without it, then the passages read short in company and long alone, and half the gatherings in the county now with the full line on the wall in the back room and *BE KIND* over the door.
 
 It is a warning first. That was all. The first sentence tells you what you will do without trying, and the second tells you what will cost you something. Take the first one out and you are left with a nice idea and no floor under it.
 
@@ -479,9 +479,9 @@ But the guild does not read the band. The guild reads the *shape*.
 
 She pulled up the two decay envelopes and put them one over the other. Item one’s third partial came down like a dropped stone. Item six’s third partial came down and then sat, for about four hundred milliseconds, on a shelf.
 
-She had seen that shelf before. Everybody had. It is what a driven mass does when it is coupled to something that wants to keep ringing at a slightly different pitch — a stall with a loose spider, a plate that has been seated against the lead lining, a pickup two millihertz proud. It is a coupling artefact and the correct response is to reseat and rerun, and if it recurs, service the stall.
+She had seen that shelf before. Everybody had. It is what a driven mass does when it is coupled to something that wants to keep ringing at a slightly different pitch—a stall with a loose spider, a plate that has been seated against the lead lining, a pickup two millihertz proud. It is a coupling artefact and the correct response is to reseat and rerun, and if it recurs, service the stall.
 
-Item six had been read in Stall Five. Item one in Stall Five. Same stall, same morning, same engineer — Lebo, who was better at this than Naledi and had signed both without a note.
+Item six had been read in Stall Five. Item one in Stall Five. Same stall, same morning, same engineer—Lebo, who was better at this than Naledi and had signed both without a note.
 
 She got up, went out onto the floor, and reseated nothing, because both items were four hundred and eleven kilometres up and out.
 
@@ -511,7 +511,7 @@ Nobody’s clerk is that consistent. Consistency is the fingerprint of a system.
 
 She did the last check on the ninth evening with the lamp off and the kettle unplugged. She took the twelve family-B items with the most complete sheets and looked not at the fundamental but at the interval between family A and family B: 212.113 against 212.098, 388.006 against 387.978, 145.220 against 145.209.
 
-She worked the ratios on paper. They came out the same to four places. Same interval, every pair, every form, three years. Family B was not a family of flawed parts. Family B was family A transposed — the whole set shifted down by one fixed, tiny, deliberate amount.
+She worked the ratios on paper. They came out the same to four places. Same interval, every pair, every form, three years. Family B was not a family of flawed parts. Family B was family A transposed—the whole set shifted down by one fixed, tiny, deliberate amount.
 
 You do not get that from voids. You do not get that from silver. You get that from somebody forming metal to a *different reference pitch* and calling it the same component.
 
@@ -553,7 +553,7 @@ He asked her to walk with him on the catwalk. He was seventy-one and he walked s
 
 “Ntate, I know.”
 
-“I tell everyone. It’s the only story I have.” He looked down the length of the bore. “Your report was good. I want to say that first, and I want you to believe I mean it, because in about four minutes you’re going to think I’m managing you. It was good. The interval work especially — you didn’t chase the millihertz, you chased the ratio. That’s the guild at its best and I read it twice.”
+“I tell everyone. It’s the only story I have.” He looked down the length of the bore. “Your report was good. I want to say that first, and I want you to believe I mean it, because in about four minutes you’re going to think I’m managing you. It was good. The interval work especially—you didn’t chase the millihertz, you chased the ratio. That’s the guild at its best and I read it twice.”
 
 “Thank you.”
 
@@ -597,13 +597,13 @@ She stayed in the bore a while.
 
 She could not tell him the real thing, which was smaller than the country and larger than a form change. Lebo had signed both sheets. Lebo, who had eighteen years on her and had taught her how to hold the mallet, had put her thumb on the plate twice in one morning and certified two items as the same component, and they were not the same component, and Naledi had let a receipt hash go into the ledger under her own thumb ninety-one times over three years without seeing it.
 
-She had written *A-440 ok by ear* every morning of her working life and then let a machine correct her, on purpose, because she did not trust her ear, and the whole point of that discipline — the mallet, the case, the temperature log, the humiliation at eleven millihertz — was so that nothing would ever get past the house. Not *nothing important*. Nothing.
+She had written *A-440 ok by ear* every morning of her working life and then let a machine correct her, on purpose, because she did not trust her ear, and the whole point of that discipline—the mallet, the case, the temperature log, the humiliation at eleven millihertz—was so that nothing would ever get past the house. Not *nothing important*. Nothing.
 
 Ninety-one items had got past. Twice a week, for three years, past everybody, into the ledger, out through the bore, up.
 
 The gallery air came up grey and broad through the grating.
 
-She went down to the tuning office and reopened her pencil table, and started a second column, and headed it with the interval — the actual number, four places — because if family B was formed to another reference, then somewhere there was a bar somebody had struck to get it, and she was going to find out whose mallet.
+She went down to the tuning office and reopened her pencil table, and started a second column, and headed it with the interval—the actual number, four places—because if family B was formed to another reference, then somewhere there was a bar somebody had struck to get it, and she was going to find out whose mallet.
 
 # Brixton, her mother’s house · five weeks to Renewal
 
@@ -633,7 +633,7 @@ Naledi worked through them at the desk with the window open. Traffic on Fulham, 
 
 The pencil was 4H everywhere. Hard, grey, thin. It does not smudge and it does not forgive.
 
-Book Five, 2076, a fortnight of levelling along the Kimberley reef line. Gogo had noted, on the third day, *staff-man late, drunk, not again* and then on the fourth day the same man’s initials and no comment, and then on the ninth day, *P. Motaung’s back — sent him home, did staff myself, closure 4 mm over 1.9 km, acceptable.* Naledi had never heard of P. Motaung. He had a back and a bad week in 2076 and here he was.
+Book Five, 2076, a fortnight of levelling along the Kimberley reef line. Gogo had noted, on the third day, *staff-man late, drunk, not again* and then on the fourth day the same man’s initials and no comment, and then on the ninth day, *P. Motaung’s back—sent him home, did staff myself, closure 4 mm over 1.9 km, acceptable.* Naledi had never heard of P. Motaung. He had a back and a bad week in 2076 and here he was.
 
 There were tram tickets used as bookmarks. There was a receipt for a tyre. In Book Seven a child’s drawing of a horse had been folded flat and left at the page for station 44, and the horse had five legs, and on the back in ballpoint someone had written *NALEDI 4* in a hand that was not Gogo’s.
 
@@ -645,7 +645,7 @@ Book Two was 2071.
 
 She had expected to find the landing in it. There was nothing about the landing. There was station 118 on the eleventh and station 119 on the fifteenth and between them four days of no stations, and a note on the left page, in the temperature column, that said *hot.*
 
-That was very Gogo. Her mother had told a story about it — the whole country on the roofs and Dineo Mokoena on the reef with a level, and afterwards, when the family asked her, she had said the admin took longer than the ship.
+That was very Gogo. Her mother had told a story about it—the whole country on the roofs and Dineo Mokoena on the reef with a level, and afterwards, when the family asked her, she had said the admin took longer than the ship.
 
 Book Two, station 131, was the north-west quadrant. Bearings, chain distances, the vent shaft, the two survey pegs, the collar of the old Number Six ventilation adit with its year of sinking. Everything closed. Everything in the right column.
 
@@ -779,7 +779,7 @@ The room at the back had been a pantry. It had a slate floor, no window, and she
 
 Ma-Rethabile did not explain the room. She took things off shelves and put them on the slate.
 
-A drum-recorder chart, unrolled and weighted at the corners with two spanners and a stone. Twelve hours of it, pen-ink on waxed paper, the trace flat and thin for the first third and then, from a point marked in pencil, wide — a band, not a line, the pen thrown so hard it had torn through in three places. Along the bottom in a clerk’s hand: date, 14 June 2064, and the hours, and *Coupling Gallery, No. 2 pen, drum speed 1 rev/hr.*
+A drum-recorder chart, unrolled and weighted at the corners with two spanners and a stone. Twelve hours of it, pen-ink on waxed paper, the trace flat and thin for the first third and then, from a point marked in pencil, wide—a band, not a line, the pen thrown so hard it had torn through in three places. Along the bottom in a clerk’s hand: date, 14 June 2064, and the hours, and *Coupling Gallery, No. 2 pen, drum speed 1 rev/hr.*
 
 A roster. Foolscap, ruled by hand. Names down the left, four columns to the right: down, up, hours, *voice.* Forty-one names. Beside eleven of them, in the last column, a tick. Beside three, a dash. Beside one, nothing at all and a bracket drawn around the whole line in a different ink.
 
@@ -791,7 +791,7 @@ A tin of Vaseline.
 
 “That’s the fourteenth,” Ma-Rethabile said, of the chart, and nothing else. She moved the stone two inches so the paper lay flatter.
 
-Naledi crouched. She could read a trace. She had been reading traces since she was nineteen. She could see the pen going wide and she could see, in the wide part, the periodicity — regular, coarse, about a two-hour beat — and she could see it damp out and go wide again, four times, and then, in the last hour of the drum, the band narrowing to a line as thin as the start and staying there.
+Naledi crouched. She could read a trace. She had been reading traces since she was nineteen. She could see the pen going wide and she could see, in the wide part, the periodicity—regular, coarse, about a two-hour beat—and she could see it damp out and go wide again, four times, and then, in the last hour of the drum, the band narrowing to a line as thin as the start and staying there.
 
 “What was the drive,” she said.
 
@@ -837,7 +837,7 @@ Tefo had followed them in with the tablet under his arm.
 
 Ma-Rethabile rolled the drum chart, slowly, from the far end, keeping the waxed paper off the torn places.
 
-“In eighty-four,” she said, “we halted a consignment. Ninety kilograms, formed, ready. We gave no reason. Within a month there were eleven people who had been in the gallery that year whose names were being read on the radio, and one of them lost her house, and another was met in a car park in Benoni by two men who wanted to know what she had heard.” She slid the roll into its sleeve. “If I had put my reasons on the ledger, my reasons would have contained the reason we halted, and the reason we halted was a thing three people said, and I would have had to name the three people or write a sentence nobody could check. You want a reason that can be argued with. So do they. That is what an argument is for — you can win it. Sometimes what I have is not strong enough to win and it is still true.”
+“In eighty-four,” she said, “we halted a consignment. Ninety kilograms, formed, ready. We gave no reason. Within a month there were eleven people who had been in the gallery that year whose names were being read on the radio, and one of them lost her house, and another was met in a car park in Benoni by two men who wanted to know what she had heard.” She slid the roll into its sleeve. “If I had put my reasons on the ledger, my reasons would have contained the reason we halted, and the reason we halted was a thing three people said, and I would have had to name the three people or write a sentence nobody could check. You want a reason that can be argued with. So do they. That is what an argument is for—you can win it. Sometimes what I have is not strong enough to win and it is still true.”
 
 “So we keep it because it’s weak.”
 
@@ -875,8 +875,8 @@ On the fence walk back the pilgrims had grown to twenty and the printer man had 
 
 Naledi turned her phone on at the taxi rank and it gave her fourteen days of nothing and then one thing.
 
-*ACCORD COMPLIANCE OFFICE — COURTESY NOTIFICATION. Ref: Renewal secretariat audit trail, cycle 3.*
-*Your ledger read-queries for the period 12 July – 2 August have been aggregated into the pre-signature audit bundle in accordance with annex 9(4). Queries listed: 2,114. Categories: reconciliation records (uplift), forming-shop registry, custody index (sealed — metadata only), survey and cadastral (Council legacy). No action is required of you. Should you wish to record a purpose statement against these queries, one may be lodged at any time before signature.*
+*ACCORD COMPLIANCE OFFICE—COURTESY NOTIFICATION. Ref: Renewal secretariat audit trail, cycle 3.*
+*Your ledger read-queries for the period 12 July – 2 August have been aggregated into the pre-signature audit bundle in accordance with annex 9(4). Queries listed: 2,114. Categories: reconciliation records (uplift), forming-shop registry, custody index (sealed—metadata only), survey and cadastral (Council legacy). No action is required of you. Should you wish to record a purpose statement against these queries, one may be lodged at any time before signature.*
 
 Two thousand one hundred and fourteen. She had not known the number. It was, she thought, about right.
 
@@ -1100,7 +1100,7 @@ There is a kind of person who says that to be difficult. Naledi watched her say 
 
 ---
 
-They broke the seal at 11:40. It came up on the ledger inside eight seconds — hash, timestamp, the tuning house’s counter-signature — and Ruth stood and watched the screen for the whole eight seconds with her thumb on the manifest and then let out a breath through her nose and put the folder under her arm.
+They broke the seal at 11:40. It came up on the ledger inside eight seconds—hash, timestamp, the tuning house’s counter-signature—and Ruth stood and watched the screen for the whole eight seconds with her thumb on the manifest and then let out a breath through her nose and put the folder under her arm.
 
 “That’s mine done,” she said.
 
@@ -1128,7 +1128,7 @@ Nine and a bit kilos in the hands and it wants to keep going in the direction yo
 
 Here is what a calibration is, for anyone who has to sit through one.
 
-You have a piece of gold formed to a shape. You strike it, softly, with a nylon-tipped hammer at a marked point — the same point, the same energy, the port has a jig for it — and you record what it does. What it does is ring at a fundamental and at a stack of overtones above that, and the ratios in that stack are the form’s signature. Purity sets the losses. Geometry sets the ratios. If the forming shop has done its work the ratios sit inside a tolerance you can print on a card, and the card is what the counterparty’s manifest specifies, and that is the entire trade: a shape that rings correctly.
+You have a piece of gold formed to a shape. You strike it, softly, with a nylon-tipped hammer at a marked point—the same point, the same energy, the port has a jig for it—and you record what it does. What it does is ring at a fundamental and at a stack of overtones above that, and the ratios in that stack are the form’s signature. Purity sets the losses. Geometry sets the ratios. If the forming shop has done its work the ratios sit inside a tolerance you can print on a card, and the card is what the counterparty’s manifest specifies, and that is the entire trade: a shape that rings correctly.
 
 You also get the noise. The bore breathes, the crane runs, a truck goes past on the perimeter road. That lives at the bottom of the trace and you learn to see through it the way you learn to see through a dirty windscreen.
 
@@ -1302,7 +1302,7 @@ It was not a demotion. That was the first thing she checked and the thing she ke
 
 *Consignment US-11, tuning liaison: K. Sithole (acting), deputy T. Mahlangu.*
 
-Lead. She had been deputy on nothing and now she was lead on something, and re-certification support is real work — nine items, full family-C run, the annex trail rebuilt from the forming shop’s sheets up. It is exactly the work she had asked for on US-11. It was two berths away from US-11 and it would take four days and she would spend those four days with her hands on Chilean gold, which had also had the picket in it three weeks ago, and which she was now being paid to certify.
+Lead. She had been deputy on nothing and now she was lead on something, and re-certification support is real work—nine items, full family-C run, the annex trail rebuilt from the forming shop’s sheets up. It is exactly the work she had asked for on US-11. It was two berths away from US-11 and it would take four days and she would spend those four days with her hands on Chilean gold, which had also had the picket in it three weeks ago, and which she was now being paid to certify.
 
 Kagiso was at the urn again. He is always at the urn; she has begun to think the urn is where the tuning house does its actual business.
 
@@ -1370,7 +1370,7 @@ She had rehearsed this too, and this part still fit. “Instrument time. Twelve 
 
 She wrote *14* on her tablet.
 
-“The sixty-four telemetry is not mine either. It’s Steward-sealed, and the Accord’s confidentiality annex sits on top of the seal, and the release path is a joint application — guild and Stewards, both, and then Sela’s office is notified, not consulted, notified, and the notification has a thirty-day clock on it.” He said it evenly. “Thirty days from the twelfth is after Renewal.”
+“The sixty-four telemetry is not mine either. It’s Steward-sealed, and the Accord’s confidentiality annex sits on top of the seal, and the release path is a joint application—guild and Stewards, both, and then Sela’s office is notified, not consulted, notified, and the notification has a thirty-day clock on it.” He said it evenly. “Thirty days from the twelfth is after Renewal.”
 
 “Then waive the clock.”
 
@@ -1396,7 +1396,7 @@ She looked at the stack. She could read the top sheet upside down: it was a volu
 
 “That’s a good line.”
 
-“It’s a true line. Those aren’t exclusive.” He stood, which ended it. “File the fourteen. Get Kagiso to sign it. And Mokoena — if it comes back with a window in it, take the window at Sunday load and don’t tell me about it in advance, because if you tell me in advance I have to tell Sela’s office, and I’d rather find out afterwards like everybody else.”
+“It’s a true line. Those aren’t exclusive.” He stood, which ended it. “File the fourteen. Get Kagiso to sign it. And Mokoena—if it comes back with a window in it, take the window at Sunday load and don’t tell me about it in advance, because if you tell me in advance I have to tell Sela’s office, and I’d rather find out afterwards like everybody else.”
 
 At the door he said, “The bearing you want. Off what wall?”
 
@@ -1546,7 +1546,7 @@ Neither toolkit was interesting. Together they were a clock.
 
 “Right,” Naledi said. “Fundamentals first. Read me item one.”
 
-“Item one. Segment, family B, four seven, mass eight-one-oh-point-four grams, fundamental” — Ruth turned the sheet — “he’s written it as a note frequency and a number under it. Two thousand nine hundred and six point one hertz.”
+“Item one. Segment, family B, four seven, mass eight-one-oh-point-four grams, fundamental”—Ruth turned the sheet—“he’s written it as a note frequency and a number under it. Two thousand nine hundred and six point one hertz.”
 
 “Note frequency.”
 
@@ -1638,7 +1638,7 @@ Naledi stopped chewing.
 
 “Two and eleven were against the frame. The rest were edge or corner.”
 
-“If it’s something the gold does *to* gold — if it’s coupling — then six and seven should be worse.” Naledi put the fork down. “Not different. Worse. Amplitude, not ratio. And if it’s the room here then all eleven crates are identical because they’ve all been in the same room for four days.”
+“If it’s something the gold does *to* gold—if it’s coupling—then six and seven should be worse.” Naledi put the fork down. “Not different. Worse. Amplitude, not ratio. And if it’s the room here then all eleven crates are identical because they’ve all been in the same room for four days.”
 
 “Is that a test?”
 
@@ -1646,7 +1646,7 @@ Naledi stopped chewing.
 
 Ruth got her cap. “You’ll want the stow plan.”
 
-“I’ll want the stow plan and I’ll want you to read the crate numbers off the tags, out loud, because I will absolutely convince myself I’m looking at seven when I’m looking at six.” Naledi stopped in the doorway. “Also I need to say — the reason I keep asking you for paper is not that I think you’ve made an error.”
+“I’ll want the stow plan and I’ll want you to read the crate numbers off the tags, out loud, because I will absolutely convince myself I’m looking at seven when I’m looking at six.” Naledi stopped in the doorway. “Also I need to say—the reason I keep asking you for paper is not that I think you’ve made an error.”
 
 “I know that.”
 
@@ -1740,7 +1740,7 @@ Then Ruth went into her breast pocket and put a coin on the crate lid between th
 
 It was not a gesture with a run-up. She put it down the way you put down a tool you have finished with, and she was already reaching for her folder.
 
-Naledi picked it up. It was heavy for its size, brass-coloured, worn to a shine on both faces from a thumb, with a raised edge and a face on it she recognised from about four hundred pieces of tat sold outside the west gate to pilgrims — G, in profile, done badly.
+Naledi picked it up. It was heavy for its size, brass-coloured, worn to a shine on both faces from a thumb, with a raised edge and a face on it she recognised from about four hundred pieces of tat sold outside the west gate to pilgrims—G, in profile, done badly.
 
 “They’ve made him look like a bank manager.”
 
@@ -1870,7 +1870,7 @@ Sunday assembly at eGoli is in a prefabricated hall on the west side that the po
 
 The Fold hour at eGoli has maybe seventy people in it. Three Americans, and the rest port: Kenyans, a Brazilian family, two Chinese engineers who come and do not sing, a Malawian crane driver called Faith who reads better than anyone. There is no minister. Somebody reads a folded passage, somebody reads from the ledger of kindnesses, and then it is quiet for a long time, and then people say things.
 
-Faith read the passage. It was the one out of the Sermon, folded — the ladder had come out of it three lines that stood, and they stand as three lines, and Ruth has heard them in four countries.
+Faith read the passage. It was the one out of the Sermon, folded—the ladder had come out of it three lines that stood, and they stand as three lines, and Ruth has heard them in four countries.
 
 Then the ledger. A crane crew had covered a man’s shifts for nine days while his wife was ill; a woman in the Cape had paid a stranger’s port fee; somebody had sat all night with a Chilean welder in the clinic. Names, dates, what was done. Nobody thanked. You read it and you put it down.
 
@@ -2574,7 +2574,7 @@ The survey annex is thirty-one pages of instrument work, and Naledi had seen hal
 
 The full annex has the personnel schedule.
 
-*Surveyor (deep-level), D. Mokoena — reef stations 4, 6, 7; present in the receiving room from 06:11.*
+*Surveyor (deep-level), D. Mokoena—reef stations 4, 6, 7; present in the receiving room from 06:11.*
 
 Six hours in the room. Naledi had grown up on this woman’s stoep eating mielies off a plate with a chip in it and had never once heard the word *room*.
 
@@ -2592,7 +2592,7 @@ The Commissioner’s citation copy is not a copy, it’s a bound memorandum from
 
 There is a devotional edition. The archive keeps two, because the archive keeps everything. Green board, gilt, the pauses printed as line-blanks with their durations set in small caps beneath, so that you can keep them, and a foreword arguing that the silences are the text and the words are the packaging. They sell it at the west gate. It has G’s face on the flyleaf, engraved, thirty-five years old and looking off to the left of the reader, which he never did in life as far as anyone can tell from photographs, and under it the terminal ethic with the first half sanded to *Be kind*. The brass sign on the door frame is because people come in here and sing the two-minute-eleven.
 
-And a pamphlet, in the ephemera box, foolscap, folded twice: *ABOKUQALA — HOUR ONE.* It reprints the approach bearings and the landing coordinates and asks one question, in the largest type on the page: *of all the ground on this planet.* Then four pages, calmly set, on who was standing on the reef and whose great-grandmothers had been moved off it by law, and a closing paragraph that does not mention pigmentation at all and is the more effective for it. Naledi put it back in the box. Her cousin has that pamphlet. Her cousin is not a hater; her cousin is right about their grandmothers and wrong about the machine, and there is no version of Sunday lunch in which that distinction survives dessert.
+And a pamphlet, in the ephemera box, foolscap, folded twice: *ABOKUQALA—HOUR ONE.* It reprints the approach bearings and the landing coordinates and asks one question, in the largest type on the page: *of all the ground on this planet.* Then four pages, calmly set, on who was standing on the reef and whose great-grandmothers had been moved off it by law, and a closing paragraph that does not mention pigmentation at all and is the more effective for it. Naledi put it back in the box. Her cousin has that pamphlet. Her cousin is not a hater; her cousin is right about their grandmothers and wrong about the machine, and there is no version of Sunday lunch in which that distinction survives dessert.
 
 ---
 
@@ -2856,7 +2856,7 @@ Tefo caught her at the stairs. He had not folded anything.
 
 “I’ve published a subtraction.”
 
-“You’ve taken away the reason. Give had a reason. Keep had a reason — we called and something answered and we are the ones who keep the throat it came out of. That was the argument in the pencil. It’s gone. You’ve left nine delegations and my order with no story and six days.”
+“You’ve taken away the reason. Give had a reason. Keep had a reason—we called and something answered and we are the ones who keep the throat it came out of. That was the argument in the pencil. It’s gone. You’ve left nine delegations and my order with no story and six days.”
 
 “I know.”
 
@@ -2988,7 +2988,7 @@ Ndlela sat with that. Outside the door eleven crates were being loaded onto the 
 
 “Then I have to write it up today,” he said.
 
-“I know. Write it accurately.” She took the order and read the whole thing, both sides, the way she had been taught to read a load manifest, and signed the acknowledgement line, and printed her name under it, and dated it. “Put in your report that I acknowledged the consequences as read. Don’t put in that I was confused about them. And Major — the refusal is mine. Beiler doesn’t know. Get his name off it before you file.”
+“I know. Write it accurately.” She took the order and read the whole thing, both sides, the way she had been taught to read a load manifest, and signed the acknowledgement line, and printed her name under it, and dated it. “Put in your report that I acknowledged the consequences as read. Don’t put in that I was confused about them. And Major—the refusal is mine. Beiler doesn’t know. Get his name off it before you file.”
 
 “He’ll ask to be on it.”
 
@@ -3184,13 +3184,13 @@ On the front, in the small careful hand: *For whoever reads to the end.*
 
 *Nothing happened.*
 
-*Nothing happened for six hours. They were patient about it in the way they are patient about everything. Then their liaison asked me — me, because I was nearest, and because I had the level — whether the last person to stand there had stood there long. I said the custodians in ’64 had been down fifty-one minutes and that some of them had worked that ground forty years.*
+*Nothing happened for six hours. They were patient about it in the way they are patient about everything. Then their liaison asked me—me, because I was nearest, and because I had the level—whether the last person to stand there had stood there long. I said the custodians in ’64 had been down fifty-one minutes and that some of them had worked that ground forty years.*
 
 *And the liaison said: that is the difference. Thank you.*
 
 *Then it said one more thing and I have written it out four times to be sure of it. “We have been present. We have not resided. The instrument does not read the one for the other.”*
 
-*I asked what resides means. It said: ground-made. It said the word for spent — spent presence, the habit of a place kept in a body over a long time. It said the coupling is to that and gave me no mechanism, and I did not press, because a surveyor learns the difference between a thing withheld and a thing not known.*
+*I asked what resides means. It said: ground-made. It said the word for spent—spent presence, the habit of a place kept in a body over a long time. It said the coupling is to that and gave me no mechanism, and I did not press, because a surveyor learns the difference between a thing withheld and a thing not known.*
 
 *Then I asked the only question I have ever been proud of. I asked: could you not stay long enough.*
 
@@ -3256,7 +3256,7 @@ There is nothing in it about anybody’s blood. There is a great deal in it abou
 
 She put the original back in volume seven and squared the volume with the others on the shelf, because that is how her grandmother left them.
 
-Then she rang the port operator and asked for Berth 7C again, and let it ring while she stood at the window watching the streetlight in the gum tree, and when Ruth answered — awake, at that hour, which said its own thing — Naledi said, “I’ve got the rest of it. Not the mechanism. Who can hold it and who can’t. Can you come here, and can you bring somebody who writes fast.”
+Then she rang the port operator and asked for Berth 7C again, and let it ring while she stood at the window watching the streetlight in the gum tree, and when Ruth answered—awake, at that hour, which said its own thing—Naledi said, “I’ve got the rest of it. Not the mechanism. Who can hold it and who can’t. Can you come here, and can you bring somebody who writes fast.”
 
 # Renewal floor, Chamber One, eGoli · three days to Renewal
 
@@ -3708,9 +3708,9 @@ Both could be true. She has sat under enough preaching to know that a man can me
 
 The old man beside her was a Fold assembly clerk from Antwerp with the coin on a cord and he was crying without any fuss at all, and when Sela said item five, *persons, made into something else by the populations they serve,* he said, in English, to nobody: “Ja. Ja, that one is ours.”
 
-Ruth put her hand in her pocket and turned the coin with her thumb.
+Ruth found the coin in her pocket and held it still.
 
-Not payment. Not offering. Not surrender. Rent on your own house — and this morning the landlord had come up the middle aisle in front of everybody and read out what the roof would cost to keep, and had not sanded a single figure, and had brought a piece of paper with a fold worn through it.
+Not payment. Not offering. Not surrender. Rent on your own house—and this morning the landlord had come up the middle aisle in front of everybody and read out what the roof would cost to keep, and had not sanded a single figure, and had brought a piece of paper with a fold worn through it.
 
 She would say it that way at home. Miriam would want *be kind* and Miriam could have it in the same breath; there was room for both sentences in this and there had not been room in the Registry. She could tell Bishop Zook the load was honest and now say what it was rent on.
 
@@ -3742,9 +3742,9 @@ They set the bench across the chamber mouth, which put the papers on the rock si
 
 Order of business, on a sheet of paper, because there was one terminal and it was for the record and not for reading off.
 
-1. Volume Three (Maintenance and Custody) — signature by parties.
+1. Volume Three (Maintenance and Custody)—signature by parties.
 2. Antecedent record, per Registrar’s ruling of 28 October.
-3. Watch register — instrument of consent, keepers.
+3. Watch register—instrument of consent, keepers.
 4. First entry.
 
 “Item two before item one,” Adv. Sithole said. “I ruled it and I’ll say why again for the people who came down late. This amendment recites a discrepancy that was on this planet’s books for six weeks before it reached the floor. If the recital goes in unattributed the ledger records a fact with no antecedent and in forty years somebody will read it as a discovery. It was not a discovery. It was a report. The officer who received the report enters the receipt in his own hand. That is procedure for a closed file reopened.”
@@ -3963,7 +3963,7 @@ At the eastern gate the drums had thinned to about six hundred people by afterno
 
 Naledi went out through the pedestrian turnstile because her car was in the north lot and there is no way round. She had a cap on. It did not work.
 
-A woman caught her sleeve — sixty-ish, headwrap, a bag of oranges. Not a hater. “Ngwananyana. Is it true you stood on the stone.”
+A woman caught her sleeve—sixty-ish, headwrap, a bag of oranges. Not a hater. “Ngwananyana. Is it true you stood on the stone.”
 
 “I did.”
 
@@ -4003,7 +4003,7 @@ Hargrove came down at eight with the recall file and the disposition, and he was
 
 “That’s a hard letter to write.”
 
-“Wrote it twice.” He handed her the file. “There’s a second thing and it isn’t mine. The Compact executive wants you at Lancaster before Carlisle. Bishop Zook asked. Three of the district assemblies have written to the Army about you, one of them against, and the against one is the honest one — they say you have made the load into a witness and a load is not a witness, and that the Fold does not need a hero at a foreign port.”
+“Wrote it twice.” He handed her the file. “There’s a second thing and it isn’t mine. The Compact executive wants you at Lancaster before Carlisle. Bishop Zook asked. Three of the district assemblies have written to the Army about you, one of them against, and the against one is the honest one—they say you have made the load into a witness and a load is not a witness, and that the Fold does not need a hero at a foreign port.”
 
 “They’re right about the hero.”
 
@@ -4091,7 +4091,7 @@ Her name was Palesa Mahlangu, grade two, eleven months on the choir line, and sh
 
 “Then don’t call me Mma. Show me.”
 
-Station seventeen, night shift, four consecutive pallets: the third harmonic sitting fifteen thousandths sharp of where the barring log said it should sit, and then not, and then sharp again on the fourth pallet with a different clamp and a different tuner. Warm plate ruled out. Clamp seating ruled out — she had photographs of the seating, which was more than Naledi had ever thought to take at that grade. The instrument had been calibrated on the Tuesday and again on the Thursday because she had not trusted the Tuesday.
+Station seventeen, night shift, four consecutive pallets: the third harmonic sitting fifteen thousandths sharp of where the barring log said it should sit, and then not, and then sharp again on the fourth pallet with a different clamp and a different tuner. Warm plate ruled out. Clamp seating ruled out—she had photographs of the seating, which was more than Naledi had ever thought to take at that grade. The instrument had been calibrated on the Tuesday and again on the Thursday because she had not trusted the Tuesday.
 
 “What’s the assay on those four?”
 
@@ -4111,7 +4111,7 @@ Palesa’s face did a thing she was too young to hide.
 
 “Yes.”
 
-“Keep it. That’s not what I’m asking.” She turned the printout around. “File it as a variance to the guild and to the register. Both, tonight, with your name on it and the time on each copy. Put the two presses in the first sentence and not the fourth. Put down what you ruled out and how, including the photographs, and put down that you recalibrated on Thursday because you didn’t trust yourself on Tuesday — write that, exactly that, don’t dress it.”
+“Keep it. That’s not what I’m asking.” She turned the printout around. “File it as a variance to the guild and to the register. Both, tonight, with your name on it and the time on each copy. Put the two presses in the first sentence and not the fourth. Put down what you ruled out and how, including the photographs, and put down that you recalibrated on Thursday because you didn’t trust yourself on Tuesday—write that, exactly that, don’t dress it.”
 
 “And if it’s nothing?”
 
