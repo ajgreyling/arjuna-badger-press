@@ -1,0 +1,10 @@
+# Deliberate refrains for AFRIKA 2100. The de-LLM and typography passes never
+# alter a line matching these — a refrain is quoted, and its spacing is part of
+# the quotation. Matching is case- and punctuation-insensitive.
+
+# The Fold's terminal ethic, inherited from the Kind wall sentence of 2035.
+# The full line, first word unsanded, is the whole point of Ruth's coin.
+don't be a cunt. be kind.
+
+# The trilogy's carried question, Priya's reframing at the midpoint.
+give something away well
