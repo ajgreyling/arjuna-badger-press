@@ -2188,7 +2188,7 @@ Naledi went out through the yard at twenty past nine with the survey book back i
 
 “She’s right about the other one too.”
 
-“I know she’s right about the other one. The other one’s going to happen.” He put his hands in his pockets. “Nine delegations, a volume schedule everybody’s already banked, and a Commissioner who genuinely thinks he’s carrying the world on his back, and he sort of is. On the thirty-first they’ll sign it. Nobody will lie. Everyone will be tired and reasonable.”
+“I know she’s right about the other one. The other one’s going to happen.” He looked at the ceiling. “Nine delegations, a volume schedule everybody’s already banked, and a Commissioner who genuinely thinks he’s carrying the world on his back, and he sort of is. On the thirty-first they’ll sign it. Nobody will lie. Everyone will be tired and reasonable.”
 
 “So there has to be a third way to do it.”
 
@@ -2888,7 +2888,7 @@ The guild-master was waiting at the dock with the paper already in his hand, bec
 
 “Who filed.”
 
-“Compliance. On a query from the Commissioner’s office about whether the tolerance signature on the American consignment would survive a challenge on the floor.” He put his hands in his pockets. “The answer is that it will not, now, because the signatory is suspended. So the forty-one lots get re-signed by Venter this afternoon, off the same block, which is still out of certificate, and nobody will file anything about that.”
+“Compliance. On a query from the Commissioner’s office about whether the tolerance signature on the American consignment would survive a challenge on the floor.” He turned the pen over once and set it down. “The answer is that it will not, now, because the signatory is suspended. So the forty-one lots get re-signed by Venter this afternoon, off the same block, which is still out of certificate, and nobody will file anything about that.”
 
 “Say it out loud so I know you heard it.”
 
