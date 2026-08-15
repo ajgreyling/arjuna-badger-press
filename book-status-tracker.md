@@ -8,12 +8,12 @@
 |---|---:|---|
 | 🟢 Drafted, gated | 1 | Full manuscript drafted; held out of `PUBLISHED` (catalogue-only / workshop hold). |
 | 🟡 In progress | 5 | Partial manuscript, or canon/bible complete with little/no prose. |
-| ⚪ Scaffold | 24 | Cover + metadata only. No manuscript. |
+| ⚪ Scaffold | 11 | Cover + metadata only. No manuscript. |
 | ❌ Missing | 4 | CURATED entry whose root dir isn't on disk. |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 40 | Published in the library — live downloads/read. |
+| ✅ Live | 73 | Published in the library — live downloads/read. |
 
-**Total: 75 books.** Not-yet-live (everything but LIVE/SERIAL): 34.
+**Total: 95 books.** Not-yet-live (everything but LIVE/SERIAL): 21.
 
 ## Books not yet completed in the library
 
@@ -21,15 +21,12 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 
 | Book | id | Series | State | Score | Manuscript | Canon | EPUB/PDF | Cover | API verdict | Notes |
 |---|---|---|---|---:|---|---:|---|---|---|---|
-| The Long Silence | `the-long-silence` | (unwired — not in CURATED) | 🟢 Drafted, gated | 70 | 18,626w | 12 | — | stub/— | _(pending)_ | STALE project.json status='scaffold' but manuscript/EPUB exists |
-| Palindrome | `palindrome` | Standalones | 🟡 In progress | 51 | 10,205w | 4 | EPUB/PDF | stub/— | _(pending)_ |  |
+| The Long Silence | `the-long-silence` | Faithful Modern | 🟢 Drafted, gated | 70 | 18,626w | 12 | — | stub/— | _(pending)_ | STALE project.json status='scaffold' but manuscript/EPUB exists |
+| Palindroom Toneelstuk | `palindroom-toneelstuk` | Standalones | 🟡 In progress | 46 | 6,990w | 0 | EPUB/PDF | rich | _(pending)_ |  |
 | Brave and Scared | `bloedrivier` | History Like You've Never Heard It | 🟡 In progress | 43 | 5,596w | 7 | EPUB | rich | _(pending)_ |  |
-| The Antifragile Reader | `the-antifragile-reader` | Non-fiction | 🟡 In progress | 23 | 4,014w | 2 | — | rich | _(pending)_ |  |
 | The Scramble | `the-scramble` | (unwired — not in CURATED) | 🟡 In progress | 19 | 2,066w | 12 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Long Dark | `jakobus-the-long-dark` | History Before Time | 🟡 In progress | 14 | — | 2 | — | rich | _(pending)_ |  |
-| The Princely Offspring | `anunnaki-mesopotamia` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| Aimed at the Sea | `atacama-paracas` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Belly Hill | `gobekli-tepe` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
+| The Antifragile Trader | `the-antifragile-trader` | (unwired — not in CURATED) | 🟡 In progress | 4 | — | 2 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Deepest Floor | `hbt-caves` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Breathing Dark | `hbt-sudwala` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | House of Bread | `house-of-bread` | The Unheard | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -37,20 +34,10 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Viral Haunting | `modern-sherlock-3` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Woman Who Beat Him | `modern-sherlock-4` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Reichenbach Protocol | `modern-sherlock-5` | Faithful Modern | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Spaces Between | `nan-madol` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| From the Air | `nazca-lines` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Eighteen-Year Almanac | `newark-earthworks` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| Ninety Days | `poverty-point` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Unknown Corner | `puma-punku` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Long Straight | `sajama-lines` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Serpent's Age | `serpent-mound` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Quiet Men | `suppressed-tech` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The First Key | `the-salt-veil-2` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Abyss | `the-salt-veil-3` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | Open War | `the-salt-veil-4` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Circle Closes | `the-salt-veil-5` | The Salt Veil | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| The Scouring | `uffington` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
-| Made or Not | `yonaguni` | Not a Potato | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | Die Seeweg | `the-amber-winter-2` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
 | Die Hoë Stoel | `the-amber-winter-3` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
 | Die Lang Donker | `the-amber-winter-4` | Winter sonder Einde | ❌ Missing | 0 | — | 0 | — | stub/— | _(pending)_ | root dir missing on disk |
@@ -62,6 +49,9 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | Book | id | Series | State | EPUB/PDF |
 |---|---|---|---|---|
 | Daughters of the Dust Throne | `dust-throne` | The Dust Throne | 📖 Serial (live) | — |
+| AFRIKA 2100 | `afrika-2100` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
+| The Princely Offspring | `anunnaki-mesopotamia` | Not a Potato | ✅ Live | EPUB/PDF |
+| Aimed at the Sea | `atacama-paracas` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Songlines of Stone | `australia-outback` | History Before Time | ✅ Live | EPUB/PDF |
 | The Calendar of Stone | `book1-africa` | History Before Time | ✅ Live | EPUB/PDF |
 | The Indian One | `book2-india` | History Before Time | ✅ Live | EPUB/PDF |
@@ -72,37 +62,65 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | The Broken Crescent | `jakobus-broken-crescent` | History Before Time | ✅ Live | EPUB/PDF |
 | The Straight Darkness | `jakobus-longyou` | History Before Time | ✅ Live | EPUB/PDF |
 | The Rose in the Rock | `jakobus-petra` | History Before Time | ✅ Live | EPUB/PDF |
+| The Spaces Between | `nan-madol` | Not a Potato | ✅ Live | EPUB/PDF |
+| From the Air | `nazca-lines` | Not a Potato | ✅ Live | EPUB/PDF |
+| The Eighteen-Year Almanac | `newark-earthworks` | Not a Potato | ✅ Live | EPUB/PDF |
 | Ordinance Pending | `no-fear-cycle` | The No-Fear Cycle | ✅ Live | EPUB/PDF |
+| Ninety Days | `poverty-point` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Men Who Opened the Door | `project-stargate` | History Before Time | ✅ Live | EPUB/PDF |
+| The Unknown Corner | `puma-punku` | Not a Potato | ✅ Live | EPUB/PDF |
 | RELIC | `relic` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | RESONANCE | `resonance` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | REVELATION | `revelation` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
+| The Long Straight | `sajama-lines` | Not a Potato | ✅ Live | EPUB/PDF |
+| The Serpent's Age | `serpent-mound` | Not a Potato | ✅ Live | EPUB/PDF |
+| The Quiet Men | `suppressed-tech` | Not a Potato | ✅ Live | EPUB/PDF |
 | Die Vuur in die Donker | `the-amber-winter` | Winter sonder Einde | ✅ Live | EPUB/PDF |
 | The Dreaming | `the-dreaming` | Faithful Modern | ✅ Live | EPUB/PDF |
+| Lacework | `the-openwork` | Faithful Modern | ✅ Live | EPUB/PDF |
+| Afrika 2035 | `the-prophet-and-his-brother` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
+| The Sealed Finding | `the-sealed-finding` | Faithful Modern | ✅ Live | EPUB/PDF |
+| The Unnumbered | `the-unnumbered` | The Piet Buys Files | ✅ Live | EPUB/PDF |
+| The Scouring | `uffington` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Felt and the Sky | `unheard-mongolia` | The Unheard | ✅ Live | EPUB/PDF |
+| Verdigris | `verdigris` | Standalones | ✅ Live | EPUB/PDF |
+| The Hand That Wrote It | `voynich-manuscript` | Not a Potato | ✅ Live | EPUB/PDF |
+| Made or Not | `yonaguni` | Not a Potato | ✅ Live | EPUB/PDF |
 | Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
 | The Field of Doors | `crop-circles` | Not a Potato | ✅ Live | EPUB/PDF |
+| The Belly Hill | `gobekli-tepe` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Silver Thread | `jakobus-silver-thread` | History Before Time | ✅ Live | EPUB/PDF |
 | The Recitation | `jakobus-the-recitation` | History Before Time | ✅ Live | EPUB/PDF |
+| Kookie | `kookie` | The Road Books | ✅ Live | EPUB/PDF |
 | The Indifferent Desert | `sheltering-desert` | Non-fiction | ✅ Live | EPUB/PDF |
 | The Loneliest People in the World | `the-loneliest` | Standalones | ✅ Live | EPUB/PDF |
+| The Subtracted Mountain | `the-subtracted-mountain` | Non-fiction | ✅ Live | EPUB/PDF |
+| THE SURGEON | `the-surgeon` | Captain Gideon Loots | ✅ Live | EPUB/PDF |
 | The Way That Was Invented | `unheard-japan` | The Unheard | ✅ Live | EPUB/PDF |
+| The Firmament | `the-firmament` | The Firmament | ✅ Live | EPUB |
+| The Control Room | `the-control-room` | Standalones | ✅ Live | EPUB/PDF |
+| The Long Road | `the-long-road` | The Road Books | ✅ Live | EPUB/PDF |
+| Um Welt | `um-welt` | The Road Books | ✅ Live | EPUB/PDF |
 | The Scarlet Thread | `modern-sherlock` | Faithful Modern | ✅ Live | EPUB/PDF |
 | A Man They All Read Wrong | `the-jakobus-file` | History Before Time | ✅ Live | EPUB/PDF |
 | The Salt Veil | `the-salt-veil` | The Salt Veil | ✅ Live | EPUB/PDF |
 | The Song of the Self | `the-song-of-the-self` | Non-fiction | ✅ Live | EPUB/PDF |
-| The Hand That Wrote It | `voynich-manuscript` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Wrath of Achilles | `wrath-of-achilles` | Non-fiction | ✅ Live | EPUB/PDF |
-| The Walls of Uruk | `walls-of-uruk` | Non-fiction | 🟢 Drafted | Read-online · 12 tablets written, quotes verified vs Thompson 1928, 16 plates embedded |
-| The Subtracted Mountain | `the-subtracted-mountain` | Non-fiction | ✅ Live | EPUB/PDF · full send 2026-08-10 — 12 chapters, Wikimedia compendium (11 images), gate-rendered |
+| Homo Animalus | `homo-animalus` | Non-fiction | ✅ Live | EPUB/PDF |
 | NULL HORIZON | `null-horizon` | Non-fiction | ✅ Live | EPUB/PDF |
+| The Walls of Uruk | `walls-of-uruk` | Non-fiction | ✅ Live | EPUB/PDF |
+| Those Who Came Down | `those-who-came-down` | Standalones | ✅ Live | EPUB/PDF |
+| Codex Medica | `codex-medica` | Non-fiction | ✅ Live | EPUB/PDF |
+| Full Send, Klaus | `full-send` | Standalones | ✅ Live | EPUB/PDF |
+| Palindrome | `palindrome` | Standalones | ✅ Live | EPUB/PDF |
 | Scratching the Surface | `southern-coast` | History Before Time | ✅ Live | EPUB/PDF |
+| The Antifragile Reader | `the-antifragile-reader` | Non-fiction | ✅ Live | EPUB/PDF |
 | The First Unplugged | `the-first-unplugged` | Faithful Modern | ✅ Live | EPUB |
+| The Little Key | `the-little-key` | Children's Library | ✅ Live | — |
 | The Flower That Watches the Sky | `bird-of-paradise-flower` | Children's Library | ✅ Live | — |
 | How Fire Came to the People | `how-fire-came` | Children's Library | ✅ Live | — |
 | King Lion and the Birds Who Stole the Sky | `how-king-lion` | Children's Library | ✅ Live | — |
 | How the Zebra Got Her Stripes | `how-zebra-got-stripes` | Children's Library | ✅ Live | — |
-| The Little Key | `the-little-key` | Children's Library | ✅ Live | — |
 | How the Elephant Got His Long Nose | `why-elephant-trunk` | Children's Library | ✅ Live | — |
 
 </details>

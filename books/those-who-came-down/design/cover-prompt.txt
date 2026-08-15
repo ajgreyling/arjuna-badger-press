@@ -1,0 +1,16 @@
+### `those-who-came-down` — *Those Who Came Down*  (The Anunnaki, as the dreamers tell it)
+> Portrait book-cover art, 2:3, cinematic matte painting, painterly realism, epic scale. NO text,
+> no lettering, no typography anywhere. Ancient Mesopotamia at deep dusk: the flat marsh plain of
+> the Edin between two rivers, reed beds and dark water channels catching the last bronze light.
+> Low on the horizon hangs one enormous unfamiliar star — far brighter than Venus — casting a long
+> gold track across the wet plain. From high in the indigo sky a single thin column of white-gold
+> fire descends toward the marshes, a vertical burn like a falling sun, its light mirrored in the
+> water. A stepped ziggurat stands small and dark on the far horizon. In the foreground, on a low
+> mud-brick platform, a lone robed figure stands with his back to us, watching the descent. Very
+> faint gold dust shimmers in the upper air, like pollen caught in light. Palette: clay-red, dusk
+> gold, deep indigo shadow. Mood: austere, monumental, quiet, elegiac — awe without menace. No
+> spaceships with visible hulls, no chrome, no cartoon aliens, no fantasy armour, no glowing runes.
+> Leave the top 40% of the frame relatively calm and dark so title typography can sit over it.
+>
+> (Plate goes to design/cover-plate.png; then `python3 design/make_cover.py` lays the house
+> typography and writes cover.{png,jpg} + build/export copies.)
