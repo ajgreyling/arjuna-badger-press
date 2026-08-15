@@ -118,3 +118,13 @@ books/**/audio/**/*.opus
 site/content/writing/audio/**/work/
 site/content/writing/audio/**/masters/
 *.pre-polish.bak
+
+# ── Book build OUTPUT is regenerable (books/*/build.py, tools/render_book.sh) ──
+# Source assets live in design/ and covers/; shippables in _deliverables/.
+# Binaries here are rebuilt on demand and belong in R2, never in git history.
+books/**/build/**/*.pdf
+books/**/build/**/*.epub
+books/**/build/**/*.png
+books/**/build/**/*.jpg
+books/**/build/**/*.jpeg
+books/**/build/**/*.bak
