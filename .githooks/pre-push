@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+# pre-push — the local backstop. Runs the SAME asset gate against everything you
+# are about to push, not just the last commit you made.
+#
+# Why this exists: pre-commit guards one commit at a time and `--no-verify` skips
+# it. This catches a binary that got in three commits ago and is only now leaving
+# the machine. It runs on macOS, on your hardware, needing no cloud CI, no minutes
+# and no network.
+#
+# stdin gets: <local ref> <local sha> <remote ref> <remote sha>, one line per ref.
+# Bypass: git push --no-verify (blunt) or ABP_ALLOW_BINARY=1 (scoped).
+
+cd "$(git rev-parse --show-toplevel)" || exit 1
+[ -x scripts/asset_gate.py ] || exit 0
+
+ZERO="0000000000000000000000000000000000000000"
+CHANGED="$(mktemp -t abp-prepush)"
+trap 'rm -f "$CHANGED"' EXIT
+TIP=""
+
+while read -r _local_ref local_sha _remote_ref remote_sha; do
+  # Deleting a ref pushes nothing to inspect.
+  [ "$local_sha" = "$ZERO" ] && continue
+  TIP="$local_sha"
+  if [ "$remote_sha" = "$ZERO" ]; then
+    # New branch on the remote: diff against whatever it forks from, so a fresh
+    # branch does not drag every file in the repo through the gate.
+    base="$(git merge-base "$local_sha" HEAD@{upstream} 2>/dev/null \
+            || git rev-list --max-parents=0 "$local_sha" | tail -1)"
+  else
+    base="$remote_sha"
+  fi
+  git diff --name-only --diff-filter=ACMR "$base".."$local_sha" 2>/dev/null >> "$CHANGED"
+done
+
+# No refs on stdin (e.g. run by hand) — fall back to the last commit.
+if [ ! -s "$CHANGED" ]; then
+  [ -n "$TIP" ] || TIP="HEAD"
+  git diff --name-only --diff-filter=ACMR HEAD~1..HEAD 2>/dev/null > "$CHANGED" || exit 0
+fi
+
+sort -u -o "$CHANGED" "$CHANGED"
+[ -s "$CHANGED" ] || exit 0
+
+if ! python3 scripts/asset_gate.py --paths-from "$CHANGED" --rev "${TIP:-HEAD}"; then
+  echo "[pre-push] push blocked — see above. Emergency bypass: git push --no-verify" >&2
+  exit 1
+fi
+exit 0
