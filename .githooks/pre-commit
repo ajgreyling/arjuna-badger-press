@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# pre-commit — arjuna-badger-press
+#
+# Assets live in Cloudflare R2 (arjuna-badger-prod), tracked by assets.manifest.json.
+# This repo reached 10 GB by committing renders and cover art for years; the gate below
+# is what makes that structurally impossible rather than merely discouraged.
+#
+# Wired via `git config core.hooksPath .githooks` (scripts/install-hooks.sh).
+# Bypass: ABP_ALLOW_BINARY=1 (scoped) or git commit --no-verify (blunt).
+
+cd "$(git rev-parse --show-toplevel)" || exit 1
+
+if [ -x scripts/asset_gate.py ]; then
+  python3 scripts/asset_gate.py || exit 1
+fi
+
+exit 0
