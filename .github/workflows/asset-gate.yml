@@ -1,0 +1,42 @@
+name: asset-gate (no binaries in git)
+# The pre-commit hook is the first wall, but it is per-clone and `--no-verify`
+# walks straight through it. This is the backstop that cannot be bypassed by a
+# local flag: if a heavy binary reaches a branch, the check fails here.
+#
+# Deliberately narrow and dependency-free — it inspects the diff, not the tree,
+# so it stays fast and says exactly which commit reintroduced an asset.
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need the base commit to diff against
+
+      - name: Check the changed files for heavy binaries
+        run: |
+          set -euo pipefail
+
+          # What to compare against: the PR base, or the previous commit on push.
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+          fi
+          # First push to a new branch has an all-zero "before" — fall back to HEAD~1.
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE=$(git rev-parse HEAD~1 2>/dev/null || git rev-parse HEAD)
+          fi
+
+          echo "comparing $BASE..HEAD"
+          git diff --name-only --diff-filter=ACMR "$BASE"..HEAD > /tmp/changed.txt || true
+          echo "changed files: $(wc -l < /tmp/changed.txt)"
+
+          # Reuse the exact same gate the hook runs, so local and CI cannot disagree.
+          python3 scripts/asset_gate.py --paths-from /tmp/changed.txt --rev HEAD
