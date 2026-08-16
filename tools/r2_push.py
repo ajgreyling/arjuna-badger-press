@@ -79,11 +79,12 @@ def remote_index(env: dict, prefixes: set[str]) -> dict[str, int]:
         for line in r.stdout.splitlines():
             if "\t" not in line:
                 continue
-            path, size = line.rsplit("\t", 1)
+            # --format "sp" emits SIZE then PATH, in that order.
+            size, path = line.split("\t", 1)
             try:
                 out[f"{pre}/{path}"] = int(size)
             except ValueError:
-                pass
+                continue
     return out
 
 
