@@ -90,9 +90,22 @@ def platform_entries(root: Path):
         yield p.relative_to(root), "served"
 
 
-def key_for(rel: Path, cls: str, digest: str) -> str:
+PRIVATE_BUCKET = "arjuna-badger-prod"
+PUBLIC_BUCKET = "arjuna-badger-public"
+
+# Page-embedded content: fetched dozens of times per view, so it belongs on a CDN
+# domain in a PUBLIC bucket. R2 public access is per-bucket, not per-prefix — which
+# is why this is a separate bucket rather than a prefix, and why "can this be public?"
+# becomes a structural question instead of a policy one. `downloads/` (the products)
+# stays private and is reached only by presigned redirect.
+PUBLIC_SUBDIRS = ("assets", "read", "wiki", "craft", "book",
+                  "safari", "study-bible", "writing", "audio")
+
+
+def key_for(rel: Path, cls: str, digest: str) -> tuple[str, str]:
+    """Return (bucket, key) for one asset."""
     if cls == "input":
-        return f"blobs/sha256/{digest}"
+        return PRIVATE_BUCKET, f"blobs/sha256/{digest}"
     parts = rel.as_posix().split("/")
     # strip the saas/web/public/ prefix -> the URL path the app serves
     url = parts[3:] if parts[:3] == ["saas", "web", "public"] else parts
@@ -103,8 +116,12 @@ def key_for(rel: Path, cls: str, digest: str) -> str:
         and url[2] == "audio"
         and Path(url[3]).suffix.lower() in LARGE_AUDIO_EXTS
     ):
-        return f"audiobooks/{url[1]}/{url[3]}"
-    return "site/" + "/".join(url)
+        return PRIVATE_BUCKET, f"audiobooks/{url[1]}/{url[3]}"
+    if url and url[0] in PUBLIC_SUBDIRS:
+        # No "site/" prefix: the key IS the URL path, so ASSET_CDN_BASE + key
+        # is the final CDN address (see the CDN route in saas/api.py).
+        return PUBLIC_BUCKET, "/".join(url)
+    return PRIVATE_BUCKET, "site/" + "/".join(url)
 
 
 REPOS = {
@@ -126,11 +143,13 @@ def build(repo: str, out: str | None) -> int:
             sys.exit(f"error: cannot hash {rel}: {exc}")
         size = p.stat().st_size
         total += size
+        bucket, key = key_for(rel, cls, digest)
         entries.append(
             {
                 "path": rel.as_posix(),
                 "class": cls,
-                "key": key_for(rel, cls, digest),
+                "bucket": bucket,
+                "key": key,
                 "sha256": digest,
                 "bytes": size,
             }
@@ -142,7 +161,7 @@ def build(repo: str, out: str | None) -> int:
     doc = {
         "version": 1,
         "repo": repo,
-        "bucket": "arjuna-badger-prod",
+        "buckets": {"private": PRIVATE_BUCKET, "public": PUBLIC_BUCKET},
         "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
         "count": len(entries),
         "bytes": total,
@@ -150,7 +169,13 @@ def build(repo: str, out: str | None) -> int:
     }
     dest = Path(out) if out else root / "assets.manifest.json"
     dest.write_text(json.dumps(doc, indent=2, sort_keys=False) + "\n")
+    per = {}
+    for e in entries:
+        b = per.setdefault(e["bucket"], [0, 0])
+        b[0] += 1; b[1] += e["bytes"]
     print(f"{repo}: {len(entries)} assets, {total/2**30:.2f} GB -> {dest}")
+    for b, (n, by) in sorted(per.items()):
+        print(f"    {b:<22} {n:4d} files  {by/2**30:.2f} GB")
 
     # Dedupe only happens for content-addressed keys. Served files keep readable
     # keys, so identical bytes at two paths remain two objects — report honestly
