@@ -21,6 +21,7 @@ Exit 0 = clean, 1 = blocked. No third-party dependencies (runs anywhere git does
 """
 from __future__ import annotations
 
+import argparse
 import os
 import subprocess
 import sys
@@ -61,9 +62,14 @@ def staged_files() -> list[str]:
     return [f for f in r.stdout.splitlines() if f.strip()]
 
 
-def blob_size(path: str) -> int:
-    """Size of the STAGED content, not the working tree copy."""
-    r = subprocess.run(["git", "cat-file", "-s", f":{path}"],
+def blob_size(path: str, rev: str | None = None) -> int:
+    """Size of the committed/staged content, not the working-tree copy.
+
+    rev=None  -> the index (pre-commit hook)
+    rev="X"   -> that revision (CI, inspecting what actually landed)
+    """
+    spec = f"{rev}:{path}" if rev else f":{path}"
+    r = subprocess.run(["git", "cat-file", "-s", spec],
                        capture_output=True, text=True)
     if r.returncode == 0:
         try:
@@ -77,19 +83,39 @@ def blob_size(path: str) -> int:
 
 
 def main() -> int:
-    if os.environ.get("ABP_ALLOW_BINARY") == "1":
+    # Same logic for the hook and for CI, so the two can never disagree about
+    # what counts as a violation. CI passes an explicit file list and revision;
+    # the hook passes neither and gets the staged set.
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--paths-from", metavar="FILE",
+                    help="newline-separated paths to check (default: staged files)")
+    ap.add_argument("--rev", help="size files at this revision (default: the index)")
+    args = ap.parse_args()
+
+    # The bypass is for a human at a keyboard, not for CI — honouring it there
+    # would make the backstop bypassable by the very flag it exists to catch.
+    if os.environ.get("ABP_ALLOW_BINARY") == "1" and not args.paths_from:
         print("[asset-gate] bypassed via ABP_ALLOW_BINARY=1")
         return 0
 
+    if args.paths_from:
+        try:
+            files = [l.strip() for l in open(args.paths_from) if l.strip()]
+        except OSError as exc:
+            print(f"[asset-gate] cannot read {args.paths_from}: {exc}", file=sys.stderr)
+            return 1
+    else:
+        files = staged_files()
+
     offenders: list[tuple[str, int, str]] = []
-    for f in staged_files():
+    for f in files:
         if f.endswith(ALLOW_SUFFIXES):
             continue
         ext = os.path.splitext(f)[1].lower()
         if ext not in HEAVY_EXTS:
             continue
         padded = f"/{f}"
-        size = blob_size(f)
+        size = blob_size(f, args.rev)
         if any(m in padded for m in BUILD_MARKERS):
             offenders.append((f, size, "build output — regenerable, never committed"))
         elif f.startswith(MANAGED_PREFIXES):
