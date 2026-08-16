@@ -115,13 +115,17 @@ def main() -> int:
         if ext not in HEAVY_EXTS:
             continue
         padded = f"/{f}"
-        size = blob_size(f, args.rev)
+        # Size is looked up LAZILY. The path rules block at any size, so asking for
+        # bytes first would force a blobless CI clone to fetch content it never
+        # needs — which is what made the first self-hosted run pull ~1 GB.
         if any(m in padded for m in BUILD_MARKERS):
-            offenders.append((f, size, "build output — regenerable, never committed"))
+            offenders.append((f, 0, "build output — regenerable, never committed"))
         elif f.startswith(MANAGED_PREFIXES):
-            offenders.append((f, size, "R2-managed path — belongs in assets.manifest.json at any size"))
-        elif size > MAX_BYTES:
-            offenders.append((f, size, f"{size/2**20:.1f} MB exceeds the {MAX_BYTES/2**20:.0f} MB limit"))
+            offenders.append((f, 0, "R2-managed path — belongs in assets.manifest.json at any size"))
+        else:
+            size = blob_size(f, args.rev)
+            if size > MAX_BYTES:
+                offenders.append((f, size, f"{size/2**20:.1f} MB exceeds the {MAX_BYTES/2**20:.0f} MB limit"))
 
     if not offenders:
         return 0
