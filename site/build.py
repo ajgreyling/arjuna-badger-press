@@ -546,7 +546,14 @@ HIDE_BOOKS = set(
         #
         # Children's Library picture books without a git-tracked cover are withheld automatically in
         # scan() — only titles with committed cover art land on the shelf. Override here if needed.
-        "",
+        #
+        # look-down (Look Down!) HELD PRIVATE 2026-08-17 by explicit author decision. It is already
+        # absent from PUBLISHED, which is the real gate; this is the second lock, so that a later
+        # pass adding it to PUBLISHED still cannot surface it without someone removing this line
+        # deliberately. Do not lift until: Part Three has had its sensitivity read (including a
+        # Black South African reader), and canon/SOURCES.md carries verified figures rather than
+        # leads. See books/look-down/canon/STYLE_GUIDE.md.
+        "look-down",
     ).split(",") if s.strip()
 )
 

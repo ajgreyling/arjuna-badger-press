@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 848,
-  "bytes": 3286981713,
+  "count": 849,
+  "bytes": 3287603430,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -2768,6 +2768,14 @@
       "key": "blobs/sha256/8f159f89a08703ebda19a3f9d30b2491d10042ded4c13cdfde36e1ec1701ea18",
       "sha256": "8f159f89a08703ebda19a3f9d30b2491d10042ded4c13cdfde36e1ec1701ea18",
       "bytes": 5397313
+    },
+    {
+      "path": "books/law-of-one-condensed/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3a9c5ba0cac113ec917397b2bc6e2458d32067f5fed220cf34085b3cbf1b63bb",
+      "sha256": "3a9c5ba0cac113ec917397b2bc6e2458d32067f5fed220cf34085b3cbf1b63bb",
+      "bytes": 621717
     },
     {
       "path": "books/modern-sherlock/design/cover-plate.png",
