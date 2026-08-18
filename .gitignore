@@ -128,3 +128,8 @@ books/**/build/**/*.png
 books/**/build/**/*.jpg
 books/**/build/**/*.jpeg
 books/**/build/**/*.bak
+
+# Held works live in the private arjuna-badger-vault repo, not here — this repo is
+# public because GitHub Pages serves arjunabadger.press from it. Belt-and-braces so a
+# stray `git add -A` cannot stage the manuscript if a working copy reappears.
+books/look-down/
