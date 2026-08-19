@@ -15,7 +15,8 @@
 | **Temporal reference** | Antarctic calibration that locates a residue layer in time |
 | **Lucid Offline** | Present-day-inspired local cite-or-refuse reasoning instrument |
 | **Lucid Scientific** | Fictional expanded scientific graph and computation system |
-| **Lucid World** | Fictional global causal graph combining verified records and live state |
+| **Lucid World** | Fictional global causal graph combining verified records and live state. **Not the same as the One Record** — this is the join, and it is what Book II destroys (L-27) |
+| **The One Record** | The completed planetary corpus of ingested human knowledge. Survives Book II intact and present in every local instance; it is the *corpus*, never the *causal join*. Series title |
 | **Forward Cone** | Set of still-admissible futures with probabilities that decay over time |
 | **The Seed** | Portable deterministic Lucid core and graph schema |
 | **The Convergence** | Systemic loss of independent behaviour caused by common predictive optimisation |
