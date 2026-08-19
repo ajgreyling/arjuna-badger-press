@@ -119,6 +119,42 @@ The physicists correct his terminology. He keeps asking.
 
 ---
 
+
+---
+
+### Beat 5a — Erasure is not free
+
+**POV:** Dries
+**Place:** a whiteboard nobody wanted to be standing at
+
+The physicists have corrected his terminology twice. He keeps asking the question anyway, and
+eventually somebody — irritated, wanting the meeting to end — tells him he is describing Landauer.
+
+Rolf Landauer. IBM. 1961. Erasing one bit of information costs a minimum of **k**<sub>**B**</sub>**T
+ln 2** and dissipates it as heat. At room temperature, 2.87 zeptojoules. Measured in a laboratory in
+2012, not merely argued.
+
+Dries writes the number on the board and looks at it for a long time.
+
+Nobody has claimed anything mystical. Nobody has said information has mass. What has been said is
+smaller and much worse for his peace of mind: **the universe charges for deletion.** Forgetting is a
+physical operation with a price, and the price is paid into the world as heat, and heat goes
+somewhere.
+
+**Correction beat:** he says *Ralph* and is corrected flatly, twice, by someone who cares more about
+this than about being liked.
+
+**Line to preserve:** “Landauer worked out the price of forgetting in 1961. Nobody thought to ask for
+the receipt.”
+
+**Restraint:** this does not prove the machine is possible. It proves the question is not stupid,
+which after two weeks of being told he is a plumber is all Dries needs.
+
+**Plant:** *you cannot forget for free.*
+
+**Payoff:** Book I — the cover-up is thermodynamically loud (Beat 30a). Book II — a civilisation that
+stops paying for behavioural diversity discovers what the cost was buying.
+
 ## Movement Two: The Cheap Experiment
 
 ### Beat 6 — Nobody gets the machine they want
@@ -239,6 +275,34 @@ They build an ingestion rule that never deletes unsupported fragments. It demote
 **Payoff:** A harmless-looking priority exception later becomes the path for unauthorised historical access.
 
 ---
+
+
+---
+
+### Beat 12a — What it costs to forget the Rain
+
+**POV:** Ama
+
+Technopark asks Ghana to drop unsupported fragments. It is a reasonable request: storage is finite,
+the Rain is not, and 94% of what arrives will never be addressed by any query.
+
+Ama refuses, and her reason is not sentiment.
+
+Deletion is an operation. It has a cost, a direction and a signature, and once paid it cannot be
+un-paid. Demotion is cheap and reversible. Her ingestion rule never erases; it lowers a fragment
+until it is effectively invisible and still exactly where it was.
+
+**Technical function:** establishes that the archive's integrity is architectural, not moral. Nobody
+had to be virtuous. Somebody had to be correct about thermodynamics on a procurement call.
+
+**Line to preserve:** “You are asking me to pay to make something smaller. I can pay less to make it
+quieter.”
+
+**Payoff:** Book II — Ghana can partition ingestion into sovereign regional graphs *because nothing
+was ever thrown away*, and can destroy the universal join keys without destroying the evidence.
+
+**Payoff, nearer:** the fragment that turns out to matter in Beat 17 was demoted, not deleted, by a
+rule written months before anyone knew what it would save.
 
 ### Beat 13 — Second run: an edge
 
@@ -547,6 +611,33 @@ universe wrote down.”
 
 ---
 
+
+---
+
+### Beat 30a — The thermodynamics of tidying
+
+The team has been explaining the asymmetry to itself as duration: the death took four seconds, the
+cleaning took two hours, more time means more residue.
+
+Lwazi works out that duration is not the whole of it, and the rest of it is Landauer.
+
+Concealment **is erasure.** Wiping a surface, moving a body, burning a file, running water — each is
+a physical operation that destroys distinguishable states, and destroying distinguishable states has
+a floor price that is paid into the room as heat. The cover-up does not merely last longer. It is
+*thermodynamically expensive*, and expense is exactly what the residue records.
+
+**The turn:** they have been thinking of the machine as a witness to events. It is better described
+as a witness to **work** — and concealment is where nearly all the work was done.
+
+**Line to preserve:** “Killing him was cheap. Making him disappear cost them.”
+
+**Payoff:** Beat 50 — a court asks whether physical truth can prove murder rather than accident.
+It cannot. But the two hours afterwards were the most energetically expensive thing that happened in
+that room, and expense is legible.
+
+**Restraint:** nobody says *the universe was watching*. Somebody says the cleaning was the loudest
+part, and that is worse.
+
 ### Beat 31 — Two sincere witnesses
 
 Two surviving witnesses gave statements decades ago. The statements contradict. Both men have been
@@ -642,6 +733,38 @@ That is the whole forgery. Everything else in the file is real.
 not data.
 
 ---
+
+
+---
+
+### Beat 36a — Weighing the past
+
+The people promoting the smooth version need a story about what the machine does, and “solves a
+constrained inverse problem across dispersed physical consequences” is not it.
+
+So they reach for Vopson: information has mass. Three point one nine times ten to the minus
+thirty-eight kilograms per bit. A full one-terabyte drive is heavier than an empty one.
+
+It is a real published proposal. It is also unconfirmed, contested, and not what the consortium's
+instruments do — and it converts the machine, rhetorically, from something that *computes* the past
+into something that *retrieves* a substance. A retrieved substance can be complete. A retrieved
+substance has no gaps to explain.
+
+The consortium refuses to claim it. On television that refusal looks like hedging.
+
+**G's beat:** asked to endorse it, he does what he did with the champagne. He wants to know what
+measurement would kill it, is told that no clean one currently exists, and declines to be associated
+with a claim he cannot execute. He is rude about it. It costs the consortium a week of goodwill and
+is the most valuable thing anyone does that month.
+
+**Line to preserve:** “It might even be true. I have no way to make it wrong yet, so I have no use
+for it.”
+
+**Purpose:** the second live limb, beside the fired neutron–proton one. The book's credibility runs
+on refusing free wins.
+
+**Payoff:** Book II — when Lucid issues a 96.8% catastrophe probability, readers believe it because
+this project has now twice declined to claim something it could not kill.
 
 ### Beat 37 — Everything verifies
 

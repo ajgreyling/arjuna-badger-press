@@ -39,22 +39,19 @@ books/book1-the-record/
 books/book2-the-forward-cone/   Book II blueprint (27 sequences)
 ```
 
-## Where the work is
+## Status: canon locked
 
-The live surface is **`books/book1-the-record/BEAT_LEDGER.md`** — beats 1–25, four movements, from
-the precision result landing to the first deliberate reconstruction of a human historical event.
-Riffs go there.
+**`canon/CANON_LOCKS.md`** (L-01…L-26) is the authority. Series form, titles, years, POV, the
+machine's rules, the Anchor, the moral outcome, the sting and Book II's ending are all locked.
+Cut ideas and their reasons are in `canon/RETIRED_IDEAS.md` so they are not re-argued.
 
-Two steps still gate the *chapter* ledger and prose, per the bible's work order:
+The live drafting surface is **`books/book1-the-record/BEAT_LEDGER.md`** — beats 1–53 across eight
+movements, the full Book I spine. Riffs go there.
 
-1. **Lock the composite historical case** and the family's present-day stakes.
-2. **Culturally ground the ensemble** with Ghanaian, Kenyan and South African readers — the bible
-   marks every name as provisional.
-
-`canon/OPEN_DECISIONS.md` §B carries five decisions where the bible overrides the earlier premise —
-the biggest being **D-3**: the second Antarctic timestamp is layered material history, not a record
-that predates its own event. The beat ledger strengthens that call with an earlier plant (Beat 17,
-the extra object beneath the floor line).
+What remains is **human review only** (`canon/OPEN_DECISIONS.md`): historian and legal review of the
+composite case, a victim-family sensitivity read, Ghanaian and Kenyan readers for the ensemble, SANAP
+operational review, G on terminology, and a quant read on Book II. None of it blocks drafting; all of
+it blocks publication.
 
 ## Sensitivity
 
