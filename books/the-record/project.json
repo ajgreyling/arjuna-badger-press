@@ -1,0 +1,19 @@
+{
+  "id": "the-record",
+  "title": "THE RECORD",
+  "kind": "series",
+  "series_form": "duology",
+  "folder": "the-record",
+  "logline": "An African research consortium proves the past is physically readable, then discovers that the same machine, pointed forward, is making the world behave as one thing.",
+  "market": "African science thriller duology",
+  "status": "scaffold",
+  "books": [
+    "books/book1-the-record",
+    "books/book2-the-forward-cone"
+  ],
+  "shelf": "OPEN — see canon/OPEN_DECISIONS.md",
+  "eyebrow": "THE RECORD · DUOLOGY",
+  "graph_color": "#0e2a3a",
+  "source": "The_Record_Series_Bible.docx v0.1 (prepared for AJ Greyling), transcribed to repo canon 2026-08-19",
+  "notes": "Series-level canon in canon/. Per-book blueprints under books/. Supersedes the earlier books/the-history-machine scaffold, which was folded in and removed."
+}
