@@ -37,6 +37,20 @@ PROTECTED_IDENTIFIERS = [
 # surface), so listing the names there is the policy working, not a leak. Exempt both.
 ALLOW = {"scripts/leak_scan.py", "SECURITY.md"}
 
+# CONSENT REGISTER. A protected identifier stays in the list above forever — consent is never
+# blanket and never permanent-by-default. What it buys is SCOPE: the paths the person actually
+# agreed to. Inside the scope the name is not a leak; anywhere else the gate still fires, so a
+# consented name that turns up in a different book still stops the build.
+#
+# Adding a row here is an assertion that a real human said yes. Record who attested it and when.
+# Do not add a row to make CI green.
+CONSENTED = {
+    # Ferdie Lochner appears in The Sheltering Desert as himself, including the book dedication.
+    # Consent given; attested by AJ (author) 2026-08-19.
+    "Ferdie Lochner":    ("books/the-sheltering-desert/", "consent given; attested by AJ 2026-08-19"),
+    "Dr Ferdie Lochner": ("books/the-sheltering-desert/", "consent given; attested by AJ 2026-08-19"),
+}
+
 def _files(staged):
     cmd = ["git","diff","--cached","--name-only"] if staged else ["git","ls-files"]
     return [l for l in subprocess.run(cmd,cwd=ROOT,capture_output=True,text=True).stdout.splitlines() if l]
@@ -52,8 +66,10 @@ def scan(files):
         for pat,label in SECRETS:
             if re.search(pat,t): out.append(("CRITICAL",rel,f"possible {label}"))
         for ident in PROTECTED_IDENTIFIERS:
-            if ident in t:
-                out.append(("HIGH",rel,f"protected identifier '{ident}' (consent? de-identify?)"))
+            if ident not in t: continue
+            consent = CONSENTED.get(ident)
+            if consent and rel.startswith(consent[0]): continue
+            out.append(("HIGH",rel,f"protected identifier '{ident}' (consent? de-identify?)"))
     return out
 
 def main():

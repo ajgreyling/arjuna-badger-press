@@ -9,7 +9,11 @@
 ## The five doctrines (every repo inherits them)
 1. **No real person's legal name on a published/public surface without consent.** First-name
    characters in a memoir are the author's call; full legal names + private ventures are de-identified
-   until consent. (This repo: "Dr Ferdie Lochner" → "Ferdie" the character.)
+   until consent. Consent is recorded, scoped and attributed — never assumed, never blanket.
+   (This repo: **Ferdie Lochner / Dr Ferdie Lochner — consent given**, attested by AJ 2026-08-19,
+   scoped to `books/the-sheltering-desert/`. The name stays in `PROTECTED_IDENTIFIERS`; the
+   `CONSENTED` register in `leak_scan.py` only widens it for the paths he agreed to, so the same
+   name in another book still stops the build.)
 2. **Assume the shipped surface is curl-able.** The pre-ship `leak_scan.py` gate fails CI if a secret
    or protected identifier is about to ship.
 3. **Verify what you load; no custom crypto.** SRI on every external script; pinned dependencies.
