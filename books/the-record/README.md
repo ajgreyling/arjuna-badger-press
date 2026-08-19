@@ -33,21 +33,28 @@ canon/                          series-level (spans both books)
   TERMINOLOGY.md                working vocabulary
   SOURCES.md                    references + legal/editorial note
   OPEN_DECISIONS.md             unlocked choices + bible-vs-earlier-premise divergences
-books/book1-the-record/         Book I blueprint (24 sequences), style guide, ledger stub
+books/book1-the-record/
+  BEAT_LEDGER.md                LIVING drafting surface — riffs, beats, fragments, scratch plants
+  canon/                        blueprint (24 sequences) · reveal ladder · style guide · ledger stub
 books/book2-the-forward-cone/   Book II blueprint (27 sequences)
 ```
 
-## Before drafting
+## Where the work is
 
-The bible's own work order puts drafting **last**, and two steps block everything:
+The live surface is **`books/book1-the-record/BEAT_LEDGER.md`** — beats 1–25, four movements, from
+the precision result landing to the first deliberate reconstruction of a human historical event.
+Riffs go there.
+
+Two steps still gate the *chapter* ledger and prose, per the bible's work order:
 
 1. **Lock the composite historical case** and the family's present-day stakes.
 2. **Culturally ground the ensemble** with Ghanaian, Kenyan and South African readers — the bible
    marks every name as provisional.
 
-Only then the 45–55 chapter beat sheet for Book I. And `canon/OPEN_DECISIONS.md` §B carries five
-decisions where this bible overrides the earlier premise — the biggest being **D-3**: the second
-Antarctic timestamp is layered material history, not a record that predates its own event.
+`canon/OPEN_DECISIONS.md` §B carries five decisions where the bible overrides the earlier premise —
+the biggest being **D-3**: the second Antarctic timestamp is layered material history, not a record
+that predates its own event. The beat ledger strengthens that call with an earlier plant (Beat 17,
+the extra object beneath the floor line).
 
 ## Sensitivity
 
