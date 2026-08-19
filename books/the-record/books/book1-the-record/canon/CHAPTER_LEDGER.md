@@ -12,7 +12,7 @@
 |---|---|---|
 | Series architecture | `../../../canon/` | Transcribed from the bible v0.1 — stable |
 | Book I blueprint (24 sequences) | `PLOT.md` | Complete |
-| **Beat ledger (living)** | **`../BEAT_LEDGER.md`** | **Beats 1–53 · Movements One–Eight · full Book I spine, opening to the Act III sting** |
+| **Beat ledger (living)** | **`../BEAT_LEDGER.md`** | **63 beats · Movements One–Eight · full Book I spine, opening to the Act III sting** |
 | Chapter ledger | this file | Empty — waits on the beat pass |
 | Prose | `../build/chapters/` | None |
 
@@ -36,9 +36,10 @@ Antarctica.
 
 ### Density signal for the chapter target
 
-53 beats against the bible's 45–55 chapter target is close to **one beat per chapter**, with the
-short movements merging and the six discoveries (Beats 27–30, 33, 49) likely to split. Treat 53 as a
-floor, not a map.
+63 beats against the bible's 45–55 chapter target means **merging, not splitting** — the lettered
+beats (5a, 12a, 23a, 30a, 33a, 34a, 36a, 39a, 48a, 52a) are mostly single scenes that belong inside a
+neighbouring chapter rather than standing alone. Treat 63 as the scene count and 45–55 as the
+chapter count.
 
 ## What still gates the chapter ledger
 
