@@ -2,7 +2,8 @@
 
 > **Purpose:** One expandable Markdown file for riffs, beats, scene fragments, plants and payoffs. Nothing below is finished prose. Working names and ordering can move.
 >
-> **Current pass:** Book I complete at beat level — beats 1–53, opening through the Act III sting.
+> **Current pass:** Book I complete at beat level — 63 beats, opening through the Act III sting.
+> Canon locked (`canon/CANON_LOCKS.md` L-01…L-27); this file stays live for riffs.
 
 ## Story compass
 
@@ -483,6 +484,46 @@ The watch stopped at a time that does not match Sanna's first temporal window.
 
 ---
 
+
+---
+
+### Beat 23a — Drafting the boundary
+
+**POV:** Kiki
+**Place:** Nairobi, a weekend, her own templates open
+
+Somebody has to write down what the machine is allowed to ask, and nobody wants the job, because
+writing it down means deciding it.
+
+Kiki does the procedural spine in a weekend out of Witness Protocol boilerplate: subject, anchor,
+retention, revocation, execution. Ama writes the exclusion clause and fights for it against three
+people who think it is redundant because *of course* nobody would. The family's attorney writes the
+publication clause and strikes out three things she has not explained to the physicists.
+
+It takes eleven days and it reads like a lease.
+
+Full text and its five designed flaws: [`canon/CONSENT_INSTRUMENT.md`](canon/CONSENT_INSTRUMENT.md).
+
+**The thing nobody says:** there is no one in the room with standing to speak for the dead man, and
+the instrument does not acknowledge that such a person is missing. It cannot. There is no such
+person. The document simply proceeds.
+
+**Competence beat:** Kiki insists the boundary be **executable**, not aspirational — a query limit
+Lucid enforces, not a policy people are trusted to honour. It is the best decision anyone makes in
+the book.
+
+**The flaw she is proud of:** clause 5. All intermediate products capable of supporting the excluded
+layer are destroyed within 72 hours. She thinks it is the strongest sentence in the document.
+
+**Line to preserve:** “I have written you a fence. I want you to understand that a fence is a thing
+people walk around.”
+
+**Plant:** the instrument binds *the Consortium*, and consent is held by *the living*.
+
+**Payoff:** Beat 34a — a run that breaks no clause. And clause 5's destruction obligation is an
+erasure, which means the ethical clause is the one that leaves them unable to prove their own
+innocence.
+
 ### Beat 24 — The first ethical refusal
 
 The state requests a full-resolution query immediately.
@@ -690,6 +731,41 @@ pretending were collegial.
 
 ---
 
+
+---
+
+### Beat 33a — The suspension, from inside the office
+
+**POV:** Minister Naledi Maseko
+**Place:** her office, after the identity result, with the door shut
+
+Everyone in Stellenbosch thinks she is protecting somebody. It would be easier if she were.
+
+What she is actually holding is an arithmetic nobody in the consortium has done. The fourth figure's
+name attaches to present political power. Release it this month and it is not a historical finding —
+it is an intervention in a succession, delivered by an instrument whose method three people on the
+continent understand. She has watched a country come apart over a document with less in it than this.
+
+She is also aware, precisely, that containment is how evidence dies. She has signed the other kind of
+order before, early in her career, for reasons that were also good.
+
+**Her defensible position, on the page:** the machine has no legitimacy yet — no statute, no
+precedent, no appeal. Until it has those, every output it produces is a weapon with no safety, and
+the people most likely to pick it up are not scientists.
+
+**What she will not say aloud:** she believes the consortium is right, and that being right is not
+the same as being ready.
+
+**Human beat:** she reads the family's three questions twice. It is the only part of the file that is
+not about power, and she notices that she is reading it for relief.
+
+**Cost:** the suspension fractures the team and she knows the exact shape of the fracture before she
+signs. She signs anyway, because the alternative is worse and unprovable, which is the condition of
+her entire job.
+
+**Line to preserve:** “You have built the first honest witness in human history and handed it to a
+continent with no law about witnesses.”
+
 ### Beat 34 — Somebody outside the quorum already knows
 
 **Midpoint.**
@@ -701,6 +777,38 @@ used secretly — every read writes — and that is exactly how they find out.
 that can't be used against you.”
 
 ---
+
+
+---
+
+### Beat 34a — What the instrument does not bind
+
+**POV:** Kiki
+
+The unauthorised run does not violate the consent instrument.
+
+She checks it four times, because the first three times she assumes she has misread her own document.
+Clause by clause: the instrument binds the **Consortium**. Whoever executed that query was not a
+party to it. The residue is not the family's property. Only the Anchor is, and the Anchor was not
+used.
+
+Eleven days of drafting produced a fence around the wrong thing.
+
+**The turn:** consent, as written, governs *who may ask*. It has no power at all over *what may be
+answered*, because the answer is lying around in the physical world where anyone with an instrument
+and a coordinate can go and get it. The family owns an object. Nobody owns the past.
+
+**Second discovery, worse:** clause 5 has been operating perfectly. The intermediate products from
+the authorised runs were destroyed on schedule, exactly as she drafted. So when the consortium is
+asked to prove it never looked at the excluded layer, it cannot. The evidence of its restraint was
+destroyed by the clause that enforced the restraint.
+
+**Line to preserve:** “I built the fence, I built the gate, and I built the machine that burns the
+photographs of the gate being closed.”
+
+**Payoff:** `PHYSICS_ANCHORS.md` — erasure is priced, logged and irreversible. Kiki wrote a deletion
+obligation into an ethics document in a world where deletion is the one operation that cannot be
+undone.
 
 ## Movement Six: The Edit
 
@@ -804,6 +912,43 @@ Dries reveals the commodity-CPU path — built as a procurement workaround, neve
 of being.
 
 ---
+
+
+---
+
+### Beat 39a — Lucid refuses G
+
+**POV:** Lwazi
+
+The second timestamp is still unexplained. The Code is the thing under threat now, not the machine:
+**Record** is what makes time directional, and a record that appears to predate its event is not an
+instrument problem, it is a foundations problem.
+
+G comes in from the outside, as he does, and asks Lucid to run the question against the corpus: does
+the case data support the claim that Record establishes the arrow?
+
+Lucid returns **INSUFFICIENT GROUNDED RECORD.**
+
+He rephrases. He narrows. He offers it the derivation, his derivation, the one the entire building is
+built on. It cites what it has, notes what the citation does not reach, and declines.
+
+The room is very quiet, because half of them have been privately treating the machine as G's opinion
+with better hardware.
+
+**Character function:** the corpus does not carry its author's authority. It was built not to. G
+built it not to.
+
+**G's reaction — binding:** not humiliation, not a lesson gracefully accepted. He is **satisfied**,
+in the specific unpleasant way of a man watching a kill switch work on himself, and he says so, and
+it makes everyone more uncomfortable than an argument would have.
+
+**Line to preserve:** “Good. If it agreed with me for my sake it would be worthless to me.”
+
+**Payoff, near:** Sanna's resolution (Beat 40) has to come from measurement, because the oracle route
+is now visibly closed.
+
+**Payoff, far:** Book II — when Lucid refuses to command a global intervention, nobody argues that it
+is malfunctioning. They have seen it refuse its own author.
 
 ### Beat 40 — Sanna eliminates for six weeks
 
@@ -941,6 +1086,37 @@ publication because the fake illustrates better.
 
 ---
 
+
+---
+
+### Beat 48a — The delay, from inside the office
+
+**POV:** Naledi
+
+She cannot stop the seizure. She can put four days between the order and its execution, using a
+procedural objection she knows is thin, and she can decline to answer her phone for one of them.
+
+That is the whole of her power at the end, and it is enough, and using it ends the position that made
+it possible.
+
+**Her reasoning, stated plainly and only once:** an instrument this powerful survives or does not
+survive on whether the first thing it ever proved was obtained legitimately. Seize it now and the
+finding is forever a thing a government took. Let it anchor publicly and the finding belongs to
+everyone, including the people it embarrasses, including her.
+
+**The reversal on Beat 33a:** the same argument — the machine has no legitimacy yet — now produces
+the opposite act. Then it justified containment. Now it forbids seizure. She has not changed her
+mind; the facts moved under a fixed position, which is what a defensible position looks like from
+inside.
+
+**Cost:** she is not thanked. Stellenbosch believes she caved late; the cabinet believes she broke;
+and she has no way to explain either without confirming the other.
+
+**Human beat:** she signs the objection, then finishes a meeting about a road.
+
+**Line to preserve:** “I am not delaying it because you are right. I am delaying it because in
+eleven years nobody will be able to say you were only allowed to be right.”
+
 ## Movement Eight: What It Actually Says
 
 ### Beat 49 — Discovery six: the morally complicated action
@@ -990,6 +1166,38 @@ The world can verify the evidence and cannot yet operate the machine.
 scientific curiosity.
 
 ---
+
+
+---
+
+### Beat 52a — The kill switches stay in his name
+
+**POV:** Dries
+
+Publishing the method to falsify the finding means publishing the rails: the derivation, the corpus
+conditions, the inversion constraints. Which means G is being asked to let the Code out of his hands
+at the exact moment it is famous enough to be worth taking.
+
+He does it, in an afternoon, with less ceremony than the champagne argument.
+
+What he will not release is the **kill-switch register** — the conditions under which the whole frame
+is declared dead. Those stay in his name, published, dated, and executable by anyone.
+
+The distinction takes the lawyers two weeks to understand and is not complicated. He is not keeping
+control of the theory. He is keeping custody of **how it dies**, because a framework whose failure
+conditions are owned by its beneficiaries has no failure conditions.
+
+**Conflict:** Quarter-IV types want the register handed to a standards body. It sounds like maturity.
+It is the one thing he refuses, and refusing it costs him the last institutional goodwill he has.
+
+**Line to preserve:** “Take the theory. I have never owned it. The list of ways it is wrong is
+mine until somebody proves they will read it.”
+
+**Character movement, completed:** allow the work to leave your control without surrendering its kill
+switches — the arc the bible gave him, landed as a filing decision rather than a speech.
+
+**Payoff:** Book II — the failed neutron–proton limb is still on the board, still red, still in his
+register, which is why a 96.8% forecast from the same lineage is believed.
 
 ### Beat 53 — The receipt that predates the request
 
@@ -1112,6 +1320,12 @@ These are unplaced fragments worth retaining.
 | The engineering yard's hoarder | Texture: a man who keeps everything | Supplies the independent second Anchor |
 | Local Lucid instances drift | Filed as a calibration ticket | Book II: divergence is the resilience that survives partition |
 | Ethical Casino on the side screen | Running no-edge joke | Book II: causal inputs turn the teaching tool into the first misuse |
+| Instrument binds the Consortium only | Reads as thorough governance | The unauthorised run breaks no clause; nobody owns the past |
+| Clause 5 destruction obligation | Kiki's proudest sentence | Erasure is irreversible, so restraint becomes unprovable |
+| No successor clause | Nobody notices | Does privacy survive death — as a missing paragraph, not a debate |
+| Lucid refuses G | Corpus carries no author authority | Book II: nobody claims malfunction when it refuses to command |
+| Kill-switch register stays in G's name | Looks like ego | A framework whose failure conditions are owned by its beneficiaries has none |
+| Naledi's fixed position | Justifies containment (33a) | Same argument forbids seizure (48a) — facts moved, she did not |
 
 ---
 
@@ -1120,19 +1334,20 @@ These are unplaced fragments worth retaining.
 Previous six are done at beat level (beats 26–53, plus the background-plant thread and the node
 voice sheet). What is worth riffing next, roughly in order of how much it unblocks:
 
-1. **The three-question consent instrument itself.** It is doing enormous structural work — it gates
-   Beat 24, Beat 32, Beat 44 and the whole experiential fight — and it has never been written as a
-   document. What does it actually say? Who drafted it, and what did they get wrong?
-2. **G across the book.** He is vivid in Beat 3 and absent after. The bible has him refused by
-   Lucid mid-book, and surrendering control without surrendering kill switches. Neither has a beat.
-3. **Naledi's containment, from inside her office.** She is currently the source of institutional
-   pressure and not yet a person with a defensible position. Beats 5, 33 and 48 are all her.
-4. **The intermediary behind the queue exception** (Beat 38) — how much of that identity Book I is
+**Done this pass** — the consent instrument (Beat 23a + `canon/CONSENT_INSTRUMENT.md`, with its five
+designed flaws), G's spine (Beats 3 · 36a · 39a · 52a), and Naledi from inside her own office
+(Beats 33a · 48a, one fixed position producing opposite acts).
+
+1. **The intermediary behind the queue exception** (Beat 38) — how much of that identity Book I is
    allowed to know without stealing Book II's opening.
-5. **Book II Movement One**, once Book I's sting (Beat 53) is settled: Dries carrying an unlogged
+2. **Book II Movement One**, once Book I's sting (Beat 53) is settled: Dries carrying an unlogged
    result into a book about what happens when nobody can see the whole design.
-6. **Openings.** One page of actual prose for Beat 1 and Beat 16, to find the sentence rhythm before
+3. **Openings.** One page of actual prose for Beat 1 and Beat 16, to find the sentence rhythm before
    the chapter ledger fixes anything.
+4. **Ama's own office.** She now has the strongest ethical instincts in the book and the least
+   interiority — Beats 12, 12a, 21, 32, 38, 47 are all her, all from outside.
+5. **The family's attorney.** She struck three things out of the instrument and has never appeared.
+6. **Sanna's winter as a continuous thread** rather than beats visited between Stellenbosch scenes.
 
 ## Still unlocked (blocks the chapter ledger, not the beats)
 
