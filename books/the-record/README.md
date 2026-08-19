@@ -1,6 +1,10 @@
-# THE RECORD — duology
+# ONE RECORD — duology
 
 African science thriller. **Book I: read-only history · Book II: the forward cone.**
+
+Series **ONE RECORD** · Book I ***The Record*** · Book II ***The Forward Cone***. The series is named
+for the completed corpus that survives; the books are about the global causal graph that must not
+(L-27).
 
 > The universe is the archive. The 420 Code is the codec. The machine is the reader.
 

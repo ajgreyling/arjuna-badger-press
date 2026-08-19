@@ -11,13 +11,15 @@
 
 ## Series shape
 
-- **L-01 · Form.** **Duology.** Series title **THE RECORD**. Book I ***The Record***; Book II
-  ***The Forward Cone***. No book three. The Book II ending is written as closure, not as a door.
+- **L-01 · Form and names.** **Duology.** Series title **ONE RECORD**. Book I ***The Record***;
+  Book II ***The Forward Cone***. No book three. The Book II ending is written as closure, not a door.
+  *(Set 2026-08-19. The series title was briefly THE RECORD, which collided with Book I's title on
+  the spine. ONE RECORD breaks the collision and is already a term in shelf continuity — see L-27.)*
 - **L-02 · Years.** Book I **2031**. Book II **2033–34**. Chronology per `CHRONOLOGY.md` is binding,
   including the hidden column.
-- **L-03 · Shelf.** Its own line — **THE RECORD**, not an African Gold companion. It shares a
+- **L-03 · Shelf.** Its own line — **ONE RECORD**, not an African Gold companion. It shares a
   universe with *Afrika 2035* and must not contradict its end state, but it is not shelved under it.
-  Eyebrow: `THE RECORD · BOOK I` / `· BOOK II`.
+  Eyebrow: `ONE RECORD · BOOK I` / `ONE RECORD · BOOK II`.
 - **L-04 · Primary POV.** **Dries Venter**, with rotating close-third ensemble chapters across the
   five nodes. One consciousness per section.
 
@@ -95,6 +97,23 @@
   smaller scale. No machine rule is concealed to manufacture a twist.
 - **L-26 · Cost is always visible.** Compute, grid, queue position, custody, a night nobody slept.
   A free query is a continuity error.
+
+## Continuity with *Afrika 2035*
+
+- **L-27 · One Record is the corpus; Lucid World is the graph. They are not the same thing, and only
+  one of them is destroyed.** *Afrika 2035* (C-15, WORLD) already uses **One Record** for Lucid's
+  planetary-scale completed ingest — "has ingested all the interwebs." Book II ends in 2034 by
+  partitioning ingestion and **destroying the universal join keys**. Those would contradict if the
+  two names meant the same object. They do not:
+  - **One Record** = the ingested corpus of published human knowledge. Survives. Complete. Present in
+    every local instance. This is what *Afrika 2035* means a year later, and it is what the series is
+    named after.
+  - **Lucid World** = verified history **joined to live telemetry** into a single global causal graph
+    (`TERMINOLOGY.md`). This is what Book II destroys the ability to recombine.
+  Lucid in 2035 therefore still knows everything and can no longer see the world as one system. Write
+  the distinction precisely: a character who says "they deleted the One Record" is wrong, and someone
+  should correct them.
+  **The series title is the thing that survives. The books are about the thing that must not.**
 
 ---
 
