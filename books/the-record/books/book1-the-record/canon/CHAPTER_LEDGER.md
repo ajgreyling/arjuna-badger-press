@@ -12,26 +12,33 @@
 |---|---|---|
 | Series architecture | `../../../canon/` | Transcribed from the bible v0.1 — stable |
 | Book I blueprint (24 sequences) | `PLOT.md` | Complete |
-| **Beat ledger (living)** | **`../BEAT_LEDGER.md`** | **Beats 1–25 · Movements One–Four · through the Anchor entering the machine** |
+| **Beat ledger (living)** | **`../BEAT_LEDGER.md`** | **Beats 1–53 · Movements One–Eight · full Book I spine, opening to the Act III sting** |
 | Chapter ledger | this file | Empty — waits on the beat pass |
 | Prose | `../build/chapters/` | None |
 
-## What the beat ledger covers so far
+## What the beat ledger covers
 
-Four movements — **The Number · The Cheap Experiment · The Impossible Frame · The First Human
-Consequence** — running from the precision result landing to the first deliberate reconstruction of
-a human historical event beginning. That is roughly Sequences 1–7 of `PLOT.md`.
+Eight movements across the whole of Book I:
 
-Its own next targets are recorded at the foot of the file: the six-discovery historical
-reconstruction, the leaked smooth fake and the valid-signature paradox, the moral complication, the
-independent second Anchor and the air-gapped climax, the Book II market plants, and scene-level voice
-for Ghana, Nairobi and Antarctica.
+| Movement | Beats | Blueprint |
+|---|---|---|
+| One · The Number | 1–5 | Seq. 1 |
+| Two · The Cheap Experiment | 6–15 | Seq. 2–3 |
+| Three · The Impossible Frame | 16–20 | Seq. 3–5 |
+| Four · The First Human Consequence | 21–25 | Seq. 6–7 |
+| Five · The First History | 26–34 | Seq. 8–10 · midpoint |
+| Six · The Edit | 35–42 | Seq. 11–16 · Act II break |
+| Seven · Without the Anchor | 43–48 | Seq. 17–21 |
+| Eight · What It Actually Says | 49–53 | Seq. 22–24 |
+
+Plus a background thread of Book II market plants and a node voice sheet for Ghana, Nairobi and
+Antarctica.
 
 ### Density signal for the chapter target
 
-25 beats cover about 29% of the blueprint. Held flat, Book I lands near **85–90 beats** — which
-against the bible's 45–55 chapter target is roughly **two beats per chapter**. Useful as a sanity
-check when cutting, not as a rule.
+53 beats against the bible's 45–55 chapter target is close to **one beat per chapter**, with the
+short movements merging and the six discoveries (Beats 27–30, 33, 49) likely to split. Treat 53 as a
+floor, not a map.
 
 ## What still gates the chapter ledger
 
