@@ -1,7 +1,7 @@
 # ONE RECORD — handover
 
 > African science-thriller duology. **Book I *The Record*** (2031) · **Book II *The Forward Cone***
-> (2033–34). Canon locked 2026-08-19. **Zero prose written.**
+> (2033–34). Canon locked 2026-08-19 and **merged to `master`**. **Zero prose written.**
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
@@ -29,7 +29,8 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 | Series canon | **Locked** — `canon/CANON_LOCKS.md`, L-01…L-27 |
 | Book I blueprint | Complete — 24 sequences, `books/book1-the-record/canon/PLOT.md` |
 | Book II blueprint | Complete — 27 sequences, `books/book2-the-forward-cone/canon/PLOT.md` |
-| **Beat ledger (live)** | **57 beats** — `books/book1-the-record/BEAT_LEDGER.md`, full Book I spine |
+| **Beat ledger (live)** | **63 beats** — `books/book1-the-record/BEAT_LEDGER.md`, full Book I spine |
+| Consent instrument | Drafted with its five designed flaws — `books/book1-the-record/canon/CONSENT_INSTRUMENT.md` |
 | Chapter ledger | Not built. Blocked on human review, not on decisions |
 | Prose | **None** |
 | Site | Not listed in `site/build.py`. Nothing ships until an id is added to `PUBLISHED` |
@@ -43,7 +44,8 @@ Read in this order; when two disagree, the higher one wins.
    transcribed. Boundary map, dramatic engine, ethics, anti-tropes.
 3. **`canon/`** — `WORLD_SYSTEM` (nodes + the seven machine rules) · `CHARACTERS` · `CHRONOLOGY` ·
    `OBJECTS` · `PHYSICS_ANCHORS` · `CRAFT` · `PLANT_PAYOFF` · `TERMINOLOGY` · `SOURCES`.
-4. **Per-book `canon/`** — blueprint, reveal ladder, style guide.
+4. **Per-book `canon/`** — blueprint, reveal ladder, style guide, and (Book I)
+   **`CONSENT_INSTRUMENT.md`**, whose wording is *not* locked but whose flaws are deliberate.
 5. **`BEAT_LEDGER.md`** — living. Names and ordering may still move here; it is where riffs go.
 
 Also: **`canon/RETIRED_IDEAS.md`** — cut ideas *with their reasons*, so they are not rediscovered and
@@ -110,23 +112,61 @@ operational review · G on 420 terminology and the Landauer/Vopson boundary · L
 
 ## 8 · Next actions, in order
 
-1. **Riff the three-question consent instrument as a document.** It gates beats 24, 32 and 44 and the
-   whole experiential fight, and has never been written. What does it say? Who drafted it, and what
-   did they get wrong?
-2. **G across the book.** Vivid in Beat 3, absent after. The Lucid-refuses-G beat and the
-   surrender-control-without-surrendering-kill-switches beat both need writing.
-3. **Naledi from inside her office** — currently a source of pressure, not yet a person with a
-   defensible position.
-4. **Two pages of real prose** — Beat 1 and Beat 16 — to find the sentence rhythm before the chapter
-   ledger fixes anything.
-5. **Then** the 45–55 chapter ledger, once the case lock and name grounding clear. 57 beats is a
-   floor, not a map: the six discoveries will split, short movements will merge.
+**Done since the first handover:** the consent instrument (Beat 23a + its own canon file), G's spine
+(Beats 3 · 36a · 39a · 52a), Naledi from inside her office (Beats 33a · 48a).
 
-## 9 · Repo mechanics
+1. **Two pages of real prose — Beat 1 and Beat 16.** Do this first, before anything else on this
+   list. The canon is now tightly specified and has never met a sentence. If the voice fights the
+   architecture, discover it at 800 words, not at 40,000.
+2. **Ensemble names.** Highest-leverage unlock. All 63 beats use provisional names pending Ghanaian,
+   Kenyan and South African readers. A late rename is not find-and-replace — names carry rhythm and
+   register in dialogue, and every 10k words raises the cost.
+3. **The composite case → historian and legal review.** Same logic: drift toward a real
+   disappearance accumulates *in prose*, quietly, and it is the one failure that makes the book
+   unpublishable rather than merely worse.
+4. **Book II at beat level.** Nearly every Book II payoff is planted in Book I. Drafting Book I with
+   Book II only at sequence resolution means planting approximately, and plants are the one thing
+   revision cannot fix without re-cutting scenes.
+5. **Chapter ledger and a target length.** Book I's `target_words` is unset. 63 beats against a
+   45–55 chapter target means **merging, not splitting** — the lettered beats (5a, 12a, 23a, 30a,
+   33a, 34a, 36a, 39a, 48a, 52a) are mostly single scenes belonging inside a neighbouring chapter.
+   Treat 63 as the scene count.
+6. **POV distribution.** "Dries primary, rotating ensemble" is not a ratio. Decide chapters per node
+   before drafting order is set.
 
-- Branch `claude/420-code-history-machine-t436ve`; draft PR **#1**. Base `master`.
+Further riff targets are kept live at the foot of the beat ledger — currently the intermediary behind
+the queue exception, Book II's Movement One, Ama's interiority, the family's attorney, and Sanna's
+winter as a continuous thread.
+
+## 9 · What stands between here and full send
+
+Nothing blocks drafting. In order of what actually gates publication:
+
+1. **~95k words that do not exist.** Everything else on this list is small next to it.
+2. Items 2–3 above (names, composite case) — they gate *quality of drafting*, not drafting itself.
+3. The remaining review gates in `canon/OPEN_DECISIONS.md`: SANAP operational, G on terminology,
+   Lucid architecture, quant on Book II, cryptography on the valid-signature paradox, family
+   sensitivity read.
+4. Cover and `design/`; exports; then site wiring — a `PUBLISHED` id, a `CURATED` row, and, because
+   L-03 puts this on its own line, a new **ONE RECORD** shelf plus its `SHELF_TAGLINE` entry.
+   `site/build.py` already handles nested series roots (`history-before-time/books/bookN-*`), so
+   `the-record/books/book1-the-record` needs no code change.
+5. The full deploy loop: `build.py` → rsync into the platform repo → push both repos → Render
+   redeploy. Live `arjunabadger.press` does not change until Render redeploys.
+
+**Known inconsistency to resolve before this book has exports:** `CLAUDE.md` contradicts itself.
+The repo-layout section says `build/export/` holds "EPUB + PDF (committed — these are the
+downloads)"; the commit-discipline section says never commit heavy binaries, R2 via
+`assets.manifest.json`, explicitly reversing the old commit-exports rule. The layout section looks
+stale.
+
+## 10 · Repo mechanics
+
+- Merged to **`master`** 2026-08-19 as `de3787e` (rebase merge, eight commits kept distinct so the
+  security-doctrine change stayed visible). PR **#1** closed. Branch
+  `claude/420-code-history-machine-t436ve` still exists on the remote and can be deleted.
 - **CI:** `gate` (asset gate — never commit binaries; R2 + `assets.manifest.json` instead) and `scan`
-  (`scripts/leak_scan.py`). Both green.
+  (`scripts/leak_scan.py`). Both green at merge.
 - `scan` carries a **consent register**: protected identifiers stay listed, and `CONSENTED` maps an
   identifier to the paths its consent actually covers. One identifier is currently consented, scoped
   to a single book and attested 2026-08-19; see `scripts/leak_scan.py` and `SECURITY.md` for who and
@@ -135,9 +175,9 @@ operational review · G on 420 terminology and the Landauer/Vopson boundary · L
   earlier draft of this handover, which is the mechanism working.)*
 - Nothing in `site/build.py`. The id is the gate.
 
-## 10 · Provenance
+## 11 · Provenance
 
 Source: `The_Record_Series_Bible.docx` **v0.1**, prepared for AJ Greyling — transcribed to repo canon
-2026-08-19, plus AJ's beat ledger pass (beats 1–25) landed verbatim and extended (26–53, and four
-lettered Landauer beats). Upstream shelf continuity: *Afrika 2035*. Downstream: *AFRIKA 2100*, not
+2026-08-19, plus AJ's beat ledger pass (beats 1–25) landed verbatim and extended (26–53, four
+lettered Landauer beats, and six more for the consent instrument, G and Naledi). Upstream shelf continuity: *Afrika 2035*. Downstream: *AFRIKA 2100*, not
 binding, no winks. Public references and the legal/editorial note: `canon/SOURCES.md`.
