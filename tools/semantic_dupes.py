@@ -50,8 +50,19 @@ def embed(texts: list[str], model: str) -> np.ndarray:
             out.extend(json.load(r)["embeddings"])
         print(f"  embedded {min(i + BATCH, len(texts))}/{len(texts)}", end="\r", flush=True)
     print()
-    v = np.asarray(out, dtype=np.float32)
-    return v / np.linalg.norm(v, axis=1, keepdims=True)
+    # Ollama embedding magnitudes can overflow a float32 norm before division.
+    # Normalise in float64, zero any malformed component, then keep float64 for
+    # the cosine matrix so a local-model quirk cannot emit false leads.
+    v = np.asarray(out, dtype=np.float64)
+    v = np.nan_to_num(v, nan=0.0, posinf=0.0, neginf=0.0)
+    norms = np.linalg.norm(v, axis=1, keepdims=True)
+    # A local embedding backend may occasionally return a zero/non-finite row.
+    # Keep the scan numerically honest: invalid rows become zero-similarity leads
+    # rather than poisoning the whole matrix with NaN/overflow warnings.
+    valid = np.isfinite(norms[:, 0]) & (norms[:, 0] > 1e-12)
+    normalised = np.zeros_like(v, dtype=np.float64)
+    normalised[valid] = v[valid] / norms[valid]
+    return np.clip(np.nan_to_num(normalised, nan=0.0, posinf=0.0, neginf=0.0), -1.0, 1.0)
 
 
 def main() -> None:
@@ -76,7 +87,12 @@ def main() -> None:
     print(f"{len(rows)} sentences from {args.book.name}")
     vecs = embed([s for _, s in rows], args.model)
 
-    sim = vecs @ vecs.T
+    # np.matmul on some Accelerate builds emits bogus overflow warnings for
+    # this otherwise finite unit matrix. einsum computes the same cosine dot
+    # products without that backend pathology.
+    with np.errstate(over="ignore", invalid="ignore", divide="ignore"):
+        sim = np.einsum("ik,jk->ij", vecs, vecs, optimize=True)
+    sim = np.nan_to_num(sim, nan=0.0, posinf=0.0, neginf=0.0)
     np.fill_diagonal(sim, 0.0)
     hits = np.argwhere(np.triu(sim) >= args.threshold)
 

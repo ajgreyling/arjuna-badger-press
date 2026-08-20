@@ -304,6 +304,11 @@ WORKSHOP_HOLD = set(
 PUBLISHED = set(
     s.strip() for s in os.environ.get(
         "ABP_PUBLISHED",
+        # The Record (2026-08-20): Book I of ONE RECORD. Released by explicit author decision after
+        # developmental revision, continuity/dedup/DE-LLM passes and final artifact validation.
+        # The historian/legal, victim-family, node-cultural, SANAP and technical outside reviews
+        # were not performed; that override is disclosed on the book page and in project canon.
+        "book1-the-record,"
         # Released 2026-07-27 (two original/faithful-modern novels, covers + polished drafts done;
         # sensitivity read not yet performed on either — published by explicit author decision):
         "verdigris,the-openwork,"
@@ -590,6 +595,27 @@ def cover_git_tracked(cover: Path) -> bool:
                           capture_output=True).returncode == 0
 
 
+_ASSET_MANIFEST_PATHS: set[str] | None = None
+
+
+def cover_deploy_tracked(cover: Path) -> bool:
+    """True when cover bytes are reproducible from git or the committed R2 manifest."""
+    if cover_git_tracked(cover):
+        return True
+    global _ASSET_MANIFEST_PATHS
+    if _ASSET_MANIFEST_PATHS is None:
+        try:
+            manifest = json.loads((REPO / "assets.manifest.json").read_text(encoding="utf-8"))
+            _ASSET_MANIFEST_PATHS = {entry["path"] for entry in manifest.get("entries", [])}
+        except (OSError, ValueError, KeyError, TypeError):
+            _ASSET_MANIFEST_PATHS = set()
+    try:
+        relative = cover.resolve().relative_to(REPO.resolve()).as_posix()
+    except ValueError:
+        return False
+    return relative in _ASSET_MANIFEST_PATHS
+
+
 def cover_public_src(book_id: str, cover: Path | None, *, rel: str = "") -> str:
     """Public URL for a book cover PNG, with ?v=mtime cache-bust so shelf cards never stick on stale art."""
     v = ""
@@ -725,6 +751,7 @@ def purge_stale_procedural_covers(candidates: list[Path], keep: Path | None, roo
 SERIES = [
     ("Non-fiction", "#7BA88C"),
     ("The African Gold Trilogy", "#E5B567"),
+    ("ONE RECORD", "#9A7A45"),
     ("History Before Time", "#C8A86B"),
     ("History Like You've Never Heard It", "#A8443C"),  # ember-red — the all-sides SA history shelf
     ("Companions", "#8C7BA8"),
@@ -749,6 +776,7 @@ SERIES = [
 SHELF_TAGLINE = {
     "Captain Gideon Loots": "⚠ For adult readers. Cape crime — a disgraced detective and the charming men he understands too well.",
     "The African Gold Trilogy": "Resonance, Revelation, Relic — plus Companion 3.5 (*Afrika 2035*) and the spiritual fourth (*AFRIKA 2100*).",
+    "ONE RECORD": "The past is physically readable. The hard question is who gets to ask.",
     "History Before Time": "Novelised ancient mysteries, one continent per book — the ancients were brilliant, and they were ours.",
     "Not a Potato": "Anomalies told straight: the official story, the one hole in it, and the wink.",
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
@@ -778,6 +806,7 @@ SHELF_TAGLINE = {
 # NB: distinct from the house TAGLINE string near the top. This is the per-book dict; do not
 # collapse the two names — the hero (render_index) needs the string, cards/book pages need this.
 BOOK_TAGLINE = {
+    "book1-the-record": "ONE RECORD · Book I · an African science thriller",
     "sheltering-desert": "The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII.",
     "modern-sherlock":   "A Modern Retelling, True to the Original",
     "modern-sherlock-2": "A Modern Retelling, True to the Original",
@@ -794,6 +823,15 @@ BOOK_TAGLINE = {
 # no editable source). Keyed by book id; HTML-safe plain prose. Books that carry the notice in their
 # own front matter (henry-sugar, the-dreaming, no-fear-cycle) don't need an entry here.
 BOOK_NOTICE = {
+    "book1-the-record": (
+        "<strong>Historical and review disclosure.</strong> <em>The Record</em> is fiction. Its "
+        "apartheid-era disappearance is composite by construction and does not adapt a real victim "
+        "or case; its reconstruction machine and consortium are invented. The planned historian/legal, "
+        "victim-family sensitivity, Ghanaian/Kenyan cultural, SANAP and technical outside reviews "
+        "were <strong>not performed</strong> before release. The author approved publication with "
+        "that omission stated plainly. Readers with standing or expertise are warmly invited to "
+        "identify harm or error for a corrected edition."
+    ),
     "the-prophet-and-his-brother": (
         "<strong>Living-person care.</strong> <em>Afrika 2035</em> draws "
         "Andries J. Greyling and Gerhard van Niekerk as fiction principals from life. "
@@ -873,6 +911,7 @@ BOOK_NOTICE = {
 
 # Optional heading override for BOOK_NOTICE blocks (default: "A note on the original").
 BOOK_NOTICE_HEAD = {
+    "book1-the-record": "Historical and review disclosure",
     "the-little-key": "Illustration disclosure",
     "codex-medica": "Non-clinical notice",
 }
@@ -922,6 +961,11 @@ SOUNDTRACK = {
 
 CURATED = [
     # id, title, subtitle, series, root(relative), export_subdir, fallback_blurb
+    ("book1-the-record", "The Record", "ONE RECORD · Book I", "ONE RECORD",
+     "the-record/books/book1-the-record", "build/export",
+     "In 2031 an African research consortium proves the past is physically readable — then a "
+     "constrained reconstruction reaches into an apartheid-era disappearance and forces the people "
+     "who built the machine to decide whether truth can have custody."),
     ("resonance", "RESONANCE", "The African Gold Trilogy · Book I", "The African Gold Trilogy",
      "resonance", "build/export",
      "A neurodiverse engineer builds a mind that proves it is a person — and has to decide what he owes the thing he made."),
@@ -1760,9 +1804,9 @@ def scan() -> list[dict]:
                 cover_is_procedural(cover, root) and not procedural_cover_allowed(cid, series)):
             hidden_proc.append(cid)
             continue
-        # Children's Library: only titles with a git-tracked cover land on the shelf (real art,
-        # not local placeholder PNGs that clear the size gate but are not committed for deploy).
-        if cid in PICTURE_BOOKS and not cover_git_tracked(cover):
+        # Children's Library: only titles with a deploy-tracked cover land on the shelf (real art,
+        # not local placeholder PNGs that clear the size gate but are absent from git and R2).
+        if cid in PICTURE_BOOKS and not cover_deploy_tracked(cover):
             hidden_proc.append(cid)
             continue
         book_md = root / "build" / "BOOK.md"
@@ -9304,14 +9348,11 @@ def main() -> None:
           f"{sm_n} urls in sitemap, {feed_n} items in feed -> {OUT}")
 
     # ── Untracked-cover guard ─────────────────────────────────────────────────────────────────
-    # The trap: a book's real cover sits ON DISK but is UNTRACKED in git. Every LOCAL build looks
-    # fine (scan() finds the file), but deploy copies only committed files, so on the live site
-    # the cover never checks out and the book vanishes from the shelf. Because the failure is
-    # invisible locally, we cannot detect it by asking "did we use the placeholder?" — we must ask
-    # git directly whether the resolved cover is tracked. Books under _comingsoon/ are MEANT to
-    # have no cover yet, so they are exempt (and are hidden from the shelf until one exists).
+    # A cover must be reproducible from either git (legacy/small assets) or assets.manifest.json
+    # (current R2 path). A local-only cover makes a build look healthy while disappearing elsewhere.
+    # Books under _comingsoon/ are exempt because they are intentionally hidden until art exists.
     def _untracked(p: Path) -> bool:
-        return not cover_git_tracked(p)
+        return not cover_deploy_tracked(p)
 
     cover_warnings = []
     for e in entries:
@@ -9320,8 +9361,8 @@ def main() -> None:
         if e["cover"] is not None:
             if _untracked(e["cover"]):                 # the trap: on disk, not committed
                 cover_warnings.append(
-                    (e["id"], f"cover ON DISK but UNTRACKED — will vanish on deploy. "
-                              f"Fix: git add {e['cover']}"))
+                    (e["id"], f"cover ON DISK but not in git or assets.manifest.json — will vanish "
+                              f"on deploy. Fix: rebuild the press asset manifest and upload to R2"))
         elif "_comingsoon" not in e["root"].parts:
             cover_warnings.append(
                 (e["id"], f"no rich cover (add {e['root']}/design/cover.png ≥ {RICH_COVER_MIN_BYTES // 1000} KB, "

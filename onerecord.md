@@ -1,7 +1,10 @@
 # ONE RECORD — handover
 
 > African science-thriller duology. **Book I *The Record*** (2031) · **Book II *The Forward Cone***
-> (2033–34). Canon locked 2026-08-19 and **merged to `master`**. **Zero prose written.**
+> (2033–34). Canon locked 2026-08-19 and **merged to `master`**. Book I was finished on 2026-08-20
+> at **53 chapters · 45,399 source words** and authorised for publication by explicit author
+> override after developmental and machine-polish passes. Book II remains a provisional first
+> draft at **27 chapters · 29,485 words**.
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
@@ -31,9 +34,11 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 | Book II blueprint | Complete — 27 sequences, `books/book2-the-forward-cone/canon/PLOT.md` |
 | **Beat ledger (live)** | **63 beats** — `books/book1-the-record/BEAT_LEDGER.md`, full Book I spine |
 | Consent instrument | Drafted with its five designed flaws — `books/book1-the-record/canon/CONSENT_INSTRUMENT.md` |
-| Chapter ledger | Not built. Blocked on human review, not on decisions |
-| Prose | **None** |
-| Site | Not listed in `site/build.py`. Nothing ships until an id is added to `PUBLISHED` |
+| Book I cut | **Finished; release authorised** — 53 chapters · 45,399 source words · final validation in release loop |
+| Book II cut | **Complete provisional first draft** — 27 chapters · 29,485 words · EPUBCheck clean |
+| Chapter ledgers | Complete through Book I Chapter 53 and Book II Chapter 27 |
+| Prose audit | Local de-LLM candidates were gated/rejected; exact and semantic duplication reviewed; NovelBench telemetry recorded in each chapter ledger |
+| Site | Book I approved for `PUBLISHED`/`CURATED`; Book II remains unlisted |
 
 ## 3 · Authority order
 
@@ -104,61 +109,36 @@ Twenty-seven exist; these are the ones you will hit on page one.
 
 ## 7 · What is genuinely open
 
-**Human review only** — `canon/OPEN_DECISIONS.md`. None of it blocks drafting; all of it blocks
-publication: historian + legal on the composite case · victim-family sensitivity read · Ghanaian and
-Kenyan technical/cultural readers (every ensemble name is provisional until this clears) · SANAP
-operational review · G on 420 terminology and the Landauer/Vopson boundary · Lucid architecture
-(AJ/G) · quant read on Book II · cryptography review of the valid-signature paradox.
+**Outside review register** — `canon/OPEN_DECISIONS.md`: historian + legal on the composite case ·
+victim-family sensitivity read · Ghanaian and Kenyan technical/cultural readers · SANAP operational
+review · G on 420 terminology and the Landauer/Vopson boundary · Lucid architecture (AJ/G) · quant
+read on Book II · cryptography review of the valid-signature paradox. None was performed for Book I;
+the author explicitly overrode that release gate on 2026-08-20. Book II remains gated by its own
+revision and review work.
 
 ## 8 · Next actions, in order
 
-**Done since the first handover:** the consent instrument (Beat 23a + its own canon file), G's spine
-(Beats 3 · 36a · 39a · 52a), Naledi from inside her office (Beats 33a · 48a).
+**Book I done:** 53-chapter developmental cut; P0 and relationship-bearing P1 revisions; continuity
+and plant/payoff check; exact and semantic deduplication; guarded Ollama DE-LLM with no generated
+rewrite admitted; NovelBench telemetry; final cover and gate-rendered artifacts.
 
-1. **Two pages of real prose — Beat 1 and Beat 16.** Do this first, before anything else on this
-   list. The canon is now tightly specified and has never met a sentence. If the voice fights the
-   architecture, discover it at 800 words, not at 40,000.
-2. **Ensemble names.** Highest-leverage unlock. All 63 beats use provisional names pending Ghanaian,
-   Kenyan and South African readers. A late rename is not find-and-replace — names carry rhythm and
-   register in dialogue, and every 10k words raises the cost.
-3. **The composite case → historian and legal review.** Same logic: drift toward a real
-   disappearance accumulates *in prose*, quietly, and it is the one failure that makes the book
-   unpublishable rather than merely worse.
-4. **Book II at beat level.** Nearly every Book II payoff is planted in Book I. Drafting Book I with
-   Book II only at sequence resolution means planting approximately, and plants are the one thing
-   revision cannot fix without re-cutting scenes.
-5. **Chapter ledger and a target length.** Book I's `target_words` is unset. 63 beats against a
-   45–55 chapter target means **merging, not splitting** — the lettered beats (5a, 12a, 23a, 30a,
-   33a, 34a, 36a, 39a, 48a, 52a) are mostly single scenes belonging inside a neighbouring chapter.
-   Treat 63 as the scene count.
-6. **POV distribution.** "Dries primary, rotating ensemble" is not a ratio. Decide chapters per node
-   before drafting order is set.
-
-Further riff targets are kept live at the foot of the beat ledger — currently the intermediary behind
-the queue exception, Book II's Movement One, Ama's interiority, the family's attorney, and Sanna's
-winter as a continuous thread.
+1. **Book I release loop.** EPUBCheck and PDF inspection; update R2 manifests; add Book I to
+   `PUBLISHED`/`CURATED` and the ONE RECORD shelf; run the two-repo deploy; verify Render and each
+   reader/download route before calling it live.
+2. **Book II remains workshop material.** Give it an independent developmental pass, outside reviews,
+   final cover and release approval. Do not let Book I's override silently publish Book II.
+3. **Optional post-publication outside review.** If a historian, family-sensitivity reader or node
+   specialist later identifies harm or error, revise the live edition and retain the disclosure trail.
 
 ## 9 · What stands between here and full send
 
-Nothing blocks drafting. In order of what actually gates publication:
+Only the release mechanics for Book I: final artifact checks, R2 upload/verification, site wiring,
+scoped commits in both repos, Render redeploy and live-route verification. The outside review gates
+remain unperformed by explicit author decision and must stay disclosed; they are no longer being
+represented as pending work in this release. Book II is out of scope.
 
-1. **~95k words that do not exist.** Everything else on this list is small next to it.
-2. Items 2–3 above (names, composite case) — they gate *quality of drafting*, not drafting itself.
-3. The remaining review gates in `canon/OPEN_DECISIONS.md`: SANAP operational, G on terminology,
-   Lucid architecture, quant on Book II, cryptography on the valid-signature paradox, family
-   sensitivity read.
-4. Cover and `design/`; exports; then site wiring — a `PUBLISHED` id, a `CURATED` row, and, because
-   L-03 puts this on its own line, a new **ONE RECORD** shelf plus its `SHELF_TAGLINE` entry.
-   `site/build.py` already handles nested series roots (`history-before-time/books/bookN-*`), so
-   `the-record/books/book1-the-record` needs no code change.
-5. The full deploy loop: `build.py` → rsync into the platform repo → push both repos → Render
-   redeploy. Live `arjunabadger.press` does not change until Render redeploys.
-
-**Known inconsistency to resolve before this book has exports:** `CLAUDE.md` contradicts itself.
-The repo-layout section says `build/export/` holds "EPUB + PDF (committed — these are the
-downloads)"; the commit-discipline section says never commit heavy binaries, R2 via
-`assets.manifest.json`, explicitly reversing the old commit-exports rule. The layout section looks
-stale.
+The current EPUB/PDF files are working build products and remain untracked. Do not commit them;
+final heavy assets follow the R2 and `assets.manifest.json` path in `AGENTS.md`.
 
 ## 10 · Repo mechanics
 

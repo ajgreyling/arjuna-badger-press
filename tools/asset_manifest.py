@@ -78,16 +78,29 @@ def press_entries(root: Path):
 
 
 def platform_entries(root: Path):
-    """Platform: SERVED files under the web public dir. Readable keys."""
+    """Platform: served files under web/public, with explicit private-CDN fallbacks."""
     base = root / "saas" / "web" / "public"
     if not base.is_dir():
         return
+    # The public CDN bucket is being introduced incrementally. Paths listed here remain in the
+    # private production bucket and are delivered by saas/api.py through a presigned redirect.
+    # This lets new untracked assets ship without either committing binaries or pretending the
+    # not-yet-provisioned public bucket exists.
+    private_file = root / "assets.private.paths"
+    private_paths = set()
+    if private_file.is_file():
+        private_paths = {
+            line.strip()
+            for line in private_file.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.lstrip().startswith("#")
+        }
     for p in sorted(base.rglob("*")):
         if not p.is_file() or p.is_symlink():
             continue
         if p.suffix.lower() not in HEAVY_EXTS:
             continue
-        yield p.relative_to(root), "served"
+        rel = p.relative_to(root)
+        yield rel, "served-private" if rel.as_posix() in private_paths else "served"
 
 
 PRIVATE_BUCKET = "arjuna-badger-prod"
@@ -109,6 +122,8 @@ def key_for(rel: Path, cls: str, digest: str) -> tuple[str, str]:
     parts = rel.as_posix().split("/")
     # strip the saas/web/public/ prefix -> the URL path the app serves
     url = parts[3:] if parts[:3] == ["saas", "web", "public"] else parts
+    if cls == "served-private":
+        return PRIVATE_BUCKET, "site/" + "/".join(url)
     # LIVE MAPPING: downloads/<book>/audio/<file> (large) -> audiobooks/<book>/<file>
     if (
         len(url) == 4
