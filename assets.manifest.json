@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 852,
-  "bytes": 3295256421,
+  "count": 855,
+  "bytes": 3302242368,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -5696,6 +5696,30 @@
       "key": "blobs/sha256/bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
       "sha256": "bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
       "bytes": 4630243
+    },
+    {
+      "path": "books/the-record/books/book2-the-forward-cone/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/127da777b0adaf3dad8838945831dbb8a6dc705a572201691f0941eee1399541",
+      "sha256": "127da777b0adaf3dad8838945831dbb8a6dc705a572201691f0941eee1399541",
+      "bytes": 2122614
+    },
+    {
+      "path": "books/the-record/books/book2-the-forward-cone/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a0837ae8b46bfbad943006c7f1baf73b6e3d711bd5987c0027dbb46067d1e958",
+      "sha256": "a0837ae8b46bfbad943006c7f1baf73b6e3d711bd5987c0027dbb46067d1e958",
+      "bytes": 691109
+    },
+    {
+      "path": "books/the-record/books/book2-the-forward-cone/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8fddffb805932dff7518b976c1ba948a6afe98a0211c845fce8e5d1fd1a266d3",
+      "sha256": "8fddffb805932dff7518b976c1ba948a6afe98a0211c845fce8e5d1fd1a266d3",
+      "bytes": 4172224
     },
     {
       "path": "books/the-salt-veil/design/cover-plate.png",
