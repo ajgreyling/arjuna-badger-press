@@ -94,7 +94,11 @@ def load_protect(path: pathlib.Path | None) -> list[str]:
 
 
 def is_protected(phrase: str, protect: list[str]) -> bool:
-    return any(p and p in phrase for p in protect)
+    # A repeated sentence may contain a short protected refrain, while a repeated
+    # n-gram is usually only a slice of a longer protected sentence. Protect both
+    # directions so canonical questions do not reappear as drift in the n-gram
+    # report after their full sentence has correctly been classified as motif.
+    return any(p and (p in phrase or phrase in p) for p in protect)
 
 
 def scan(book: pathlib.Path, protect: list[str]) -> dict:

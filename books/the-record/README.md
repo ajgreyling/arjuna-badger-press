@@ -15,8 +15,11 @@ for the completed corpus that survives; the books are about the global causal gr
 
 ## Status
 
-**SCAFFOLD** — canon only, no prose. Not listed in `site/build.py`; nothing ships until an id is
-added to `PUBLISHED`.
+**BOOK I FINISHED · RELEASE AUTHORISED** — *The Record* has 53 chapters and 45,399 source words after
+developmental revision, guarded local DE-LLM, deduplication and final cover/artifact work. The author
+explicitly approved publication on 2026-08-20 while overriding the unperformed outside review gates;
+that omission remains disclosed. Book II remains a provisional first draft at 27 chapters and 29,485
+words and is not part of this release.
 
 Transcribed 2026-08-19 from `The_Record_Series_Bible.docx` **v0.1**. That document is the authority:
 where it and any earlier scaffold disagree, it wins. This replaces the earlier
@@ -39,26 +42,28 @@ canon/                          series-level (spans both books)
   OPEN_DECISIONS.md             unlocked choices + bible-vs-earlier-premise divergences
 books/book1-the-record/
   BEAT_LEDGER.md                LIVING drafting surface — riffs, beats, fragments, scratch plants
-  canon/                        blueprint (24 sequences) · reveal ladder · style guide · ledger stub
-books/book2-the-forward-cone/   Book II blueprint (27 sequences)
+  canon/                        blueprint (24 sequences) · reveal ladder · style guide · chapter ledger
+  build/chapters/               finished 53-chapter Book I cut
+books/book2-the-forward-cone/   blueprint · chapter ledger · complete provisional 27-chapter cut
 ```
 
 ## Status: canon locked
 
-**`canon/CANON_LOCKS.md`** (L-01…L-26) is the authority. Series form, titles, years, POV, the
+**`canon/CANON_LOCKS.md`** (L-01…L-27) is the authority. Series form, titles, years, POV, the
 machine's rules, the Anchor, the moral outcome, the sting and Book II's ending are all locked.
 Cut ideas and their reasons are in `canon/RETIRED_IDEAS.md` so they are not re-argued.
 
-The live drafting surface is **`books/book1-the-record/BEAT_LEDGER.md`** — beats 1–53 across eight
-movements, the full Book I spine. Riffs go there.
+Book I's **`books/book1-the-record/BEAT_LEDGER.md`** remains a non-binding quarry of riffs and
+plants. Book II's complete provisional cut maps its 27 chapters to the locked 27-sequence plot; the
+series canon governs whenever a suggestion conflicts.
 
-What remains is **human review only** (`canon/OPEN_DECISIONS.md`): historian and legal review of the
+What remains in `canon/OPEN_DECISIONS.md` is outside review: historian and legal review of the
 composite case, a victim-family sensitivity read, Ghanaian and Kenyan readers for the ensemble, SANAP
-operational review, G on terminology, and a quant read on Book II. None of it blocks drafting; all of
-it blocks publication.
+operational review, G on terminology, and a quant read on Book II. These reviews were not performed
+for Book I; the author explicitly overrode that release gate on 2026-08-20. Book II remains gated.
 
 ## Sensitivity
 
-Book I turns on an apartheid-era disappearance. The bible requires historian and legal review,
-victim-family sensitivity, and a **composite** case rather than a real one lifted without permission.
-Full pass list in `canon/SERIES_BIBLE.md` §14.
+Book I turns on an apartheid-era disappearance. The case is **composite by construction**, not a real
+case lifted without permission. The bible's historian/legal and victim-family reviews were not
+performed before the author-approved release; full omitted-pass list in `canon/SERIES_BIBLE.md` §14.

@@ -45,6 +45,8 @@ from prose_tics import (  # noqa: E402
 )
 
 OFOX_URL = "https://api.ofox.ai/v1/chat/completions"
+OLLAMA_URL = "http://localhost:11434/api/chat"
+DEFAULT_OLLAMA_MODEL = "qwen3.5:4b"
 DEFAULT_ENV_FILE = pathlib.Path.home() / "code" / "congosky-cloud" / ".env"
 # Frontier band. Line-editing literary prose is judgment work; the mid worker
 # (gpt-5.4-mini) flattens voice. See congosky finops model_routing.json.
@@ -169,6 +171,35 @@ def call_ofox(model: str, system: str, user: str, timeout: int,
     return content
 
 
+def call_ollama(model: str, system: str, user: str, timeout: int,
+                max_tokens: int = 32000) -> str:
+    """Run the same guarded editorial contract against a local Ollama model."""
+    body = json.dumps({
+        "model": model,
+        "messages": [{"role": "system", "content": system},
+                     {"role": "user", "content": user}],
+        "stream": False,
+        "think": False,
+        # Ollama defaults to a 4k context even when the model supports more. A
+        # full chapter + contract + edited chapter can overflow that silently,
+        # causing the model to forget the no-expansion rule. Reserve enough
+        # context for both sides of the edit.
+        "options": {"temperature": 0.25, "num_predict": max_tokens,
+                    "num_ctx": 16384},
+    }).encode()
+    req = urllib.request.Request(
+        OLLAMA_URL, data=body, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            payload = json.load(response)
+    except urllib.error.URLError as exc:
+        raise RuntimeError(f"Ollama unavailable: {exc}") from exc
+    content = (payload.get("message", {}).get("content") or "").strip()
+    if not content:
+        raise RuntimeError("empty local Ollama response")
+    return content
+
+
 def dedup_assignments(result: dict, protect: list[str]) -> dict[str, list[tuple[str, str]]]:
     """Assign every repeated line to the chapter that must change it.
 
@@ -233,6 +264,8 @@ def main() -> None:
     ap.add_argument("book", type=pathlib.Path)
     ap.add_argument("--only", action="append", help="chapter filename; repeatable")
     ap.add_argument("--model", default=DEFAULT_MODEL)
+    ap.add_argument("--provider", choices=("ofox", "ollama"), default="ofox",
+                    help="editor backend; ollama stays fully local")
     ap.add_argument("--env-file", type=pathlib.Path, default=DEFAULT_ENV_FILE)
     ap.add_argument("--timeout", type=int, default=600)
     ap.add_argument("--max-tokens", type=int, default=32000,
@@ -243,6 +276,9 @@ def main() -> None:
     ap.add_argument("--out-dir", type=pathlib.Path,
                     help="write edited chapters here instead of in place")
     args = ap.parse_args()
+
+    if args.provider == "ollama" and args.model == DEFAULT_MODEL:
+        args.model = DEFAULT_OLLAMA_MODEL
 
     load_env_file(args.env_file)
     protect_path = args.book / "canon" / "MOTIFS_PROTECTED.txt"
@@ -308,11 +344,15 @@ def main() -> None:
                   f"over-band: {','.join(stats['over_band']) or 'none'}")
             continue
 
-        print(f"{path.name}: editing via {args.model} ...", flush=True)
+        print(f"{path.name}: editing via {args.provider}/{args.model} ...", flush=True)
         try:
-            edited = restore_typography(strip_fence(
-                call_ofox(args.model, system, user, args.timeout,
-                          args.max_tokens, args.reasoning_effort)))
+            if args.provider == "ollama":
+                response = call_ollama(args.model, system, user, args.timeout,
+                                       args.max_tokens)
+            else:
+                response = call_ofox(args.model, system, user, args.timeout,
+                                     args.max_tokens, args.reasoning_effort)
+            edited = restore_typography(strip_fence(response))
         except RuntimeError as e:
             print(f"  SKIPPED — {e}")
             failures.append(path.name)
@@ -325,6 +365,14 @@ def main() -> None:
                 if normalise(m) in normalise(text) and normalise(m) not in normalise(edited)]
         if after < before * 0.90:
             print(f"  REJECTED — {before} -> {after} words, lost more than 10%")
+            failures.append(path.name)
+            continue
+        if after > before * 1.01:
+            print(f"  REJECTED — {before} -> {after} words, local edit expanded the chapter")
+            failures.append(path.name)
+            continue
+        if edited.count("\n# ") != text.count("\n# ") or not edited.startswith("# "):
+            print("  REJECTED — markdown chapter structure changed")
             failures.append(path.name)
             continue
         if lost:

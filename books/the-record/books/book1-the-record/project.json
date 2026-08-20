@@ -9,9 +9,9 @@
   "protagonist": "Andries \"Dries\" Venter (Technopark systems architect) with rotating close-third ensemble across the five consortium nodes",
   "logline": "In 2031 an African research consortium proves the past is physically readable — and the first thing the machine hears is a voice from a security site that stood where their laboratory now stands.",
   "market": "African science thriller · laboratory procedural → historical cold case → evidence siege",
-  "status": "canon-locked",
+  "status": "publish_ready_author_override",
   "target_words": 0,
   "setting": "2031 — Karoo · Technopark, Stellenbosch · Accra–Kumasi · Nairobi · SANAP-linked Antarctic station",
-  "sensitivity_read": "REQUIRED — apartheid-era disappearance (historian/legal review, victim-family sensitivity, composite not lifted case); Ghana and Kenya teams (local technical/cultural readers); SANAP operational review; 420 Code terminology review by G; Lucid architecture review by AJ/G; cryptography/provenance review",
-  "notes": "Book I of the duology. Blueprint transcribed from The_Record_Series_Bible.docx v0.1. Beat sheet blocked on case lock + ensemble cultural grounding."
+  "sensitivity_read": "NOT PERFORMED — author explicitly overrode the historian/legal, victim-family, Ghanaian/Kenyan cultural, SANAP, physics, architecture and cryptography release gates on 2026-08-20 after developmental revision; the apartheid-era case remains composite by construction",
+  "notes": "Book I of the duology. Finished at 53 chapters and 45,399 source words after a full developmental pass: load-bearing ethical scenes expanded, Ama–Sanna relationship strengthened, former Chapters 34–35 merged, continuity and plant/payoff checked, exact and semantic deduplication reviewed, guarded Ollama DE-LLM pass run with no generated rewrite admitted, and final cover/EPUB/PDF produced. Publication approved by explicit author override on 2026-08-20; omitted external reviews remain disclosed rather than represented as complete."
 }

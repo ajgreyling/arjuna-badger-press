@@ -444,6 +444,8 @@ The consortium's ordinary office was built over a place where people were questi
 
 ### Beat 21 — Somebody must tell the family
 
+**POV:** Ama
+
 The missing person's surviving family has spent decades receiving institutional uncertainty: no body, no complete file, no accountable witness.
 
 The consortium debates whether an unresolved phonetic reconstruction justifies reopening the wound.
@@ -451,6 +453,24 @@ The consortium debates whether an unresolved phonetic reconstruction justifies r
 **Conflict:** Scientists frame contact as verification. The family experiences it as another institution asking them to provide pain as data.
 
 **Character choice:** Ama insists the family be approached before the state chooses a historical target.
+
+She makes the call from her own office because every proposed alternative turns the family into a
+destination: fly somebody in, send a delegation, arrange a briefing. The attorney answers and asks
+four questions before agreeing to carry a message. Who has seen the result. Who owns the machines.
+Whether the name has entered a government file. Whether the call is being recorded.
+
+Ama can answer only the last one cleanly. She stops the recorder.
+
+**Ama's error, from inside:** she believes going first makes the approach ethical. The attorney
+corrects her without being impressed: going first only means the institution has chosen the order
+in which it applies pressure. Ama hears the distinction and continues anyway, because waiting would
+let Naledi's office make the first contact and call it consultation.
+
+**Cost:** the family agrees to hear them only if the first meeting contains no reconstruction,
+screens or request for an object. Ama has to return to the consortium with less access than she was
+sent to obtain and defend that as progress.
+
+**Line to preserve:** “You are not the first people to arrive early and call that consent.”
 
 **Plant:** Consent is not merely a legal gate; it is part of ethical custody.
 
@@ -499,6 +519,22 @@ Kiki does the procedural spine in a weekend out of Witness Protocol boilerplate:
 retention, revocation, execution. Ama writes the exclusion clause and fights for it against three
 people who think it is redundant because *of course* nobody would. The family's attorney writes the
 publication clause and strikes out three things she has not explained to the physicists.
+
+The three deletions are practical, not theatrical:
+
+- a warranty that the family will not seek an injunction if a permitted answer causes political
+  harm;
+- a right for the Consortium to retain derivative training material after the query closes;
+- “reasonable scientific use,” an ordinary phrase broad enough to swallow every other boundary in
+  the document.
+
+She does not accuse anyone of inserting them maliciously. That is what makes the room worse. They
+arrived from templates, procurement language and a research agreement copied from another project.
+No villain wrote them. An institution did.
+
+**Attorney function:** she is not there to argue the physics. She keeps asking what happens after a
+verb: *retain where; certify to whom; revoke what already exists; publish under whose definition?*
+Kiki dislikes the questions because they are structurally identical to her own.
 
 It takes eleven days and it reads like a lease.
 
@@ -699,6 +735,8 @@ unaltered records fail.
 
 ### Beat 32 — What the family is told, and in what order
 
+**POV:** Ama
+
 Ama insists the family hears it before any institution does.
 
 Question one: yes, he was physically present.
@@ -713,6 +751,21 @@ Lucid returns **REFUSED: QUERY OUTSIDE CONSENTED BOUNDARY.**
 months earlier by people who were arguing about governance, not grief.
 
 **Restraint:** nobody in the scene says any of that out loud.
+
+Ama has prepared the order as if sequence could make the facts gentler. She gives the first answer,
+waits, gives the second, and discovers that a pause can be as managerial as a speech. The daughter
+asks her not to pace the room. Ama had not known she was pacing.
+
+When the refused question appears, Ama's first feeling is relief that clause 4 held. Her second is
+shame at the relief: the machine has performed the mercy, leaving her with no useful human act except
+to remain in the room after the work is done.
+
+The attorney asks for the refusal receipt as well as the answers. She understands before the
+scientists do that a boundary which leaves no record of holding will later be described as a boundary
+that was never tested.
+
+**Character movement:** clean process does not keep politics—or pain—outside the data. Ama begins to
+understand that custody is a continuing choice, not a property of the pipeline.
 
 ---
 
@@ -889,6 +942,8 @@ they were agreeing to.
 
 ### Beat 38 — The queue exception
 
+**POV:** Ama
+
 Ghana traces the access to a priority exception added months earlier, for a defensible reason, by
 somebody who is not a villain and did not benefit.
 
@@ -896,6 +951,37 @@ Ama's neutral plumbing turns out to have encoded who matters.
 
 **Cost:** she publishes her own queue's full history, including the requests she deprioritised and
 why. Some of those reasons do not survive daylight.
+
+The exception entered as a disaster-recovery accommodation: an accredited continuity broker could
+move one small job ahead of the queue when delay threatened irreversible loss of an anchor. Museums,
+clinics and archives had argued for it after a flood destroyed material while their test request sat
+behind a commercial calibration run. Ama approved it. The rule is narrow, useful and humane.
+
+It authenticates the **broker**, not the broker's client. That separation was deliberate. A clinic
+should not have to expose a patient, and an archive should not have to name a vulnerable depositor,
+merely to preserve a place in line.
+
+The unauthorised query used the exception exactly as designed. Its packet names a licensed
+intermediary, a live continuity risk and a paid compute allotment. The client field is opaque. No
+credential was stolen. No threshold was bypassed. Somebody bought privacy from a safeguard built to
+protect the weak.
+
+**Book I boundary:** the intermediary is a real regional records-continuity firm with many legitimate
+clients, not a shell and not a reveal in disguise. Its employee can prove the request arrived through
+their authenticated channel and cannot prove who stood behind it. The firm survives the book. Ama
+refuses to publish its client list as collective punishment for one use of a lawful blind.
+
+**Unresolved residue:** the allotment was paid in three ordinary institutional transfers, each below
+enhanced-review threshold; one originated with a commodity desk already present in the consortium's
+sponsor paperwork. This is visible in Book I and not solved there.
+
+**Ama's turn:** closing the exception would make the queue look clean and restore the original harm.
+Leaving it untouched would preserve a purchased tunnel. She changes it so emergency priority requires
+two independent attestations while client identity remains sealed from the operators. It is slower.
+During the first week, a legitimate archive loses material while waiting for the second signature.
+
+**Line to preserve:** “Neutral means the rule does not know who you are. It does not mean nobody
+taught the rule who matters.”
 
 ---
 
@@ -1060,6 +1146,8 @@ fee for the new quorum trusting her, and it ends the reputation she built.
 
 ### Beat 47 — Ghana opens a lane under a shutdown order
 
+**POV:** Ama
+
 Ama opens a clean ingestion lane while formally instructed not to. Two physically independent paths
 converge on the same event geometry.
 
@@ -1068,6 +1156,25 @@ resolve by the end of the book.
 
 **Line callback:** the Rain arrives everywhere, overlaps itself, and becomes intelligible only
 through accumulation. So does a scandal.
+
+The order tells her to stop processing South African material. It does not require her to delete
+what Ghana already holds, because she would never permit such a clause in the first place. The clean
+lane is built from demoted fragments and a second physical path whose existence looked wasteful in
+Beat 12a.
+
+She does not disguise the run. She signs it in her own name, schedules the grid draw, and sends the
+notice to Nairobi before starting. Defiance without provenance would only create another privileged
+exception.
+
+**Character movement, completed for Book I:** Ama no longer calls ingestion plumbing. She names the
+act accurately: Ghana is choosing what may enter a shared record and on whose authority. The choice
+is political. That does not make it corrupt; pretending otherwise did.
+
+**Cost made physical:** the diplomatic language arrives before the result does. Her university
+freezes travel, the ministry requests her access badge, and the racks stay live because the night
+operator declines to understand an instruction given by phone.
+
+**Line to preserve:** “I am not outside the pipeline. There is no outside.”
 
 ---
 
@@ -1218,6 +1325,48 @@ could not silently change is the man who now keeps one out of the ledger.
 
 ---
 
+## Continuous thread — Sanna's winter
+
+> These are not new scenes by default. They are physical continuity carried through Sanna's existing
+> calls and POV sections so Antarctica does not disappear between answers. The season advances even
+> when the main plot is elsewhere.
+
+- **Beat 16 — request.** The external route is still technically open when Technopark asks for the
+  temporal split. The last flight window is being argued over in the same room. Sanna gives up cargo
+  mass reserved for a personal box so the replacement oscillator can travel south. Nobody in
+  Stellenbosch knows what the mass displaced.
+- **Beat 18 — first date.** The route closes in weather. Her answer reaches them before confirmation
+  that the aircraft turned north safely. Summer light in Stellenbosch; the first full dark at the
+  station. The date is delivered in a radio window because the ordinary link is being used for
+  meteorology.
+- **Beat 24 — the Anchor run.** The station's power budget tightens. Sanna schedules correlation
+  against galley heat and tells Technopark they have four hours, not because the physics requires
+  four hours but because people require dinner. Cost enters the query as temperature and resentment.
+- **Beat 30 — concealment.** The first recovered mundane sound arrives while the station is doing a
+  fire drill. She hears the door open twice through headphones under a hood and says nothing about
+  the coincidence. Instruments are easier company because they do not mistake silence for consent.
+- **Beat 36 — the failed limb.** Midwinter. A sensor fault forces her outside with a partner on a
+  safety line. The partner must inspect every fastening she makes. Sanna dislikes being watched and
+  submits to it because isolation is not independence; it is dependence made visible.
+- **Beat 40 — six weeks.** Give the elimination duration physical markers: one failed hydroponic
+  tray, the same frost ridge climbing the inside of a service hatch, two scheduled calls home she
+  lets ring out, and the station doctor quietly moving her from one duty rotation to another. The
+  conclusion does not arrive in a flash. It is what remains after the season has removed every
+  easier answer.
+- **Beat 46 — substitute quorum.** Kiki needs an institution none of the others can reach or charm.
+  Sanna supplies the station log and asks the winter crew to attest to clock custody. For the first
+  time she treats the people around the instrument as part of the measurement rather than potential
+  contamination.
+- **Beat 52 — publication.** Her name appears with the crew's, not above it. She uses her narrow
+  personal data window to call one of the two numbers she ignored at midwinter. End the call before
+  the reader learns whether the old grief is repaired. Relation is an action here, not a cure.
+
+**Continuity rule:** no visitor reaches the station after Beat 18. No object needed for the Book I
+solution travels out during winter. Sanna can be argued with, overruled, thanked and isolated; she
+cannot be physically rescued from the consequences of being right.
+
+---
+
 ## Background thread — Book II market plants
 
 > Rule for this pass: these appear **only** as texture inside scenes that are already doing Book I
@@ -1338,20 +1487,17 @@ voice sheet). What is worth riffing next, roughly in order of how much it unbloc
 designed flaws), G's spine (Beats 3 · 36a · 39a · 52a), and Naledi from inside her own office
 (Beats 33a · 48a, one fixed position producing opposite acts).
 
-1. **The intermediary behind the queue exception** (Beat 38) — how much of that identity Book I is
-   allowed to know without stealing Book II's opening.
-2. **Book II Movement One**, once Book I's sting (Beat 53) is settled: Dries carrying an unlogged
+**Done this pass** — the queue intermediary's Book I boundary (Beat 38), Ama from inside her own
+office and pipeline (Beats 21 · 32 · 38 · 47), the family's attorney as a working legal intelligence
+(Beats 21 · 23a · 32), and Sanna's winter as a continuous physical thread.
+
+1. **Book II Movement One**, once Book I's sting (Beat 53) is settled: Dries carrying an unlogged
    result into a book about what happens when nobody can see the whole design.
-3. **Openings.** One page of actual prose for Beat 1 and Beat 16, to find the sentence rhythm before
+2. **Openings.** One page of actual prose for Beat 1 and Beat 16, to find the sentence rhythm before
    the chapter ledger fixes anything.
-4. **Ama's own office.** She now has the strongest ethical instincts in the book and the least
-   interiority — Beats 12, 12a, 21, 32, 38, 47 are all her, all from outside.
-5. **The family's attorney.** She struck three things out of the instrument and has never appeared.
-6. **Sanna's winter as a continuous thread** rather than beats visited between Stellenbosch scenes.
 
 ## Still unlocked (blocks the chapter ledger, not the beats)
 
 - The composite historical case and the family's present-day stakes.
 - Ensemble names, pending Ghanaian, Kenyan and South African readers.
 - Everything in `canon/OPEN_DECISIONS.md` §A and §B.
-
