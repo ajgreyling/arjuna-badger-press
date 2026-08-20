@@ -3,8 +3,8 @@
 > African science-thriller duology. **Book I *The Record*** (2031) · **Book II *The Forward Cone***
 > (2033–34). Canon locked 2026-08-19 and **merged to `master`**. Book I was finished on 2026-08-20
 > at **53 chapters · 45,399 source words** and authorised for publication by explicit author
-> override after developmental and machine-polish passes. Book II remains a provisional first
-> draft at **27 chapters · 29,485 words**.
+> override after developmental and machine-polish passes. Book II was finished on 2026-08-20 at
+> **27 chapters · 34,693 source words**; it remains outside-review and release-approval gated.
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
@@ -35,9 +35,9 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 | **Beat ledger (live)** | **63 beats** — `books/book1-the-record/BEAT_LEDGER.md`, full Book I spine |
 | Consent instrument | Drafted with its five designed flaws — `books/book1-the-record/canon/CONSENT_INSTRUMENT.md` |
 | Book I cut | **Finished; release authorised** — 53 chapters · 45,399 source words · final validation in release loop |
-| Book II cut | **Complete provisional first draft** — 27 chapters · 29,485 words · EPUBCheck clean |
+| Book II cut | **Finished; review pending** — 27 chapters · 34,693 source words · final cover · EPUBCheck clean · 165-page PDF inspected |
 | Chapter ledgers | Complete through Book I Chapter 53 and Book II Chapter 27 |
-| Prose audit | Local de-LLM candidates were gated/rejected; exact and semantic duplication reviewed; NovelBench telemetry recorded in each chapter ledger |
+| Prose audit | Both manuscripts completed developmental, continuity, exact/semantic deduplication, NovelBench and guarded local DE-LLM passes; admissions and rejections are recorded in each final ledger |
 | Site | Book I approved for `PUBLISHED`/`CURATED`; Book II remains unlisted |
 
 ## 3 · Authority order
@@ -113,8 +113,9 @@ Twenty-seven exist; these are the ones you will hit on page one.
 victim-family sensitivity read · Ghanaian and Kenyan technical/cultural readers · SANAP operational
 review · G on 420 terminology and the Landauer/Vopson boundary · Lucid architecture (AJ/G) · quant
 read on Book II · cryptography review of the valid-signature paradox. None was performed for Book I;
-the author explicitly overrode that release gate on 2026-08-20. Book II remains gated by its own
-revision and review work.
+the author explicitly overrode that release gate on 2026-08-20. Book II's internal revision is now
+complete; quant/market-structure, cryptography/provenance and SANAP review plus a separate release
+decision remain outstanding.
 
 ## 8 · Next actions, in order
 
@@ -125,17 +126,19 @@ rewrite admitted; NovelBench telemetry; final cover and gate-rendered artifacts.
 1. **Book I release loop.** EPUBCheck and PDF inspection; update R2 manifests; add Book I to
    `PUBLISHED`/`CURATED` and the ONE RECORD shelf; run the two-repo deploy; verify Render and each
    reader/download route before calling it live.
-2. **Book II remains workshop material.** Give it an independent developmental pass, outside reviews,
-   final cover and release approval. Do not let Book I's override silently publish Book II.
+2. **Book II human review and release decision.** The manuscript, cover and reading artifacts are
+   finished. Obtain the quant/market-structure, cryptography/provenance and SANAP reviews, resolve
+   material findings, then obtain explicit Book II release approval. Book I's override does not
+   silently apply to Book II.
 3. **Optional post-publication outside review.** If a historian, family-sensitivity reader or node
    specialist later identifies harm or error, revise the live edition and retain the disclosure trail.
 
 ## 9 · What stands between here and full send
 
-Only the release mechanics for Book I: final artifact checks, R2 upload/verification, site wiring,
-scoped commits in both repos, Render redeploy and live-route verification. The outside review gates
-remain unperformed by explicit author decision and must stay disclosed; they are no longer being
-represented as pending work in this release. Book II is out of scope.
+For Book I: completion of the R2/site/Render release loop and live-route verification. For Book II:
+the three named outside reviews, any resulting corrections and explicit release approval, followed
+by its own R2/site/Render release loop. Book II is manuscript-complete but deliberately absent from
+`PUBLISHED` and `CURATED`.
 
 The current EPUB/PDF files are working build products and remain untracked. Do not commit them;
 final heavy assets follow the R2 and `assets.manifest.json` path in `AGENTS.md`.

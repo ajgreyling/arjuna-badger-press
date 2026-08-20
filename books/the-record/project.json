@@ -6,7 +6,7 @@
   "folder": "the-record",
   "logline": "An African research consortium proves the past is physically readable, then discovers that the same machine, pointed forward, is making the world behave as one thing.",
   "market": "African science thriller duology",
-  "status": "book1_release_authorized",
+  "status": "duology_manuscripts_complete_book1_release_authorized_book2_review_pending",
   "books": [
     "books/book1-the-record",
     "books/book2-the-forward-cone"
@@ -15,5 +15,5 @@
   "eyebrow": "ONE RECORD · DUOLOGY",
   "graph_color": "#0e2a3a",
   "source": "The_Record_Series_Bible.docx v0.1 (prepared for AJ Greyling), transcribed to repo canon 2026-08-19",
-  "notes": "Series-level canon in canon/. Book I is finished at 53 chapters and 45,399 source words and approved for publication by explicit author override on 2026-08-20 after developmental revision, guarded local DE-LLM, deduplication, cover and final artifact work. Its listed external reviews were not performed and remain disclosed. Book II remains a provisional first draft at 27 chapters and 29,485 words and is not part of this release. Supersedes the earlier books/the-history-machine scaffold, which was folded in and removed."
+  "notes": "Series-level canon in canon/. Both manuscripts are finished: Book I at 53 chapters and 45,399 source words; Book II at 27 chapters and 34,693 source words. Book I was approved for publication by explicit author override on 2026-08-20 after developmental revision, guarded local DE-LLM, deduplication, cover and final artifact work; its unperformed external reviews remain disclosed. Book II has completed the same internal finishing loop but remains unlisted and review-gated pending quant/market-structure, cryptography/provenance and SANAP review plus explicit release approval. Supersedes the earlier books/the-history-machine scaffold, which was folded in and removed."
 }

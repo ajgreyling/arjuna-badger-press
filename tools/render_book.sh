@@ -138,6 +138,9 @@ PDF_HEADER="$(mktemp -t abp-pdf-header).tex"
 {
   printf '\\def\\ABPFONTDIR{%s}\n' "$FONT_DIR"
   cat "$DOSSIER_TEX"
+  # `book`/openright inserts blank verso pages before chapters. Suppress inherited running heads
+  # and page numbers on those pages while preserving the deliberate recto starts.
+  printf '\\usepackage{emptypage}\n'
   # graphicx needed for the cover AND the colophon; load it whenever either is present
   if [ -n "$COVER" ] || { [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; }; then
     printf '\\usepackage{graphicx}\n'
