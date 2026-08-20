@@ -1,0 +1,4 @@
+# Deliberate Book II refrains. One phrase per line for local prose and semantic scanners.
+INSUFFICIENT GROUNDED RECORD
+No future record exists.
+first forward result

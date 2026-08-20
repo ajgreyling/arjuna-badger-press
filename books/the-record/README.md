@@ -15,11 +15,12 @@ for the completed corpus that survives; the books are about the global causal gr
 
 ## Status
 
-**BOOK I FINISHED · RELEASE AUTHORISED** — *The Record* has 53 chapters and 45,399 source words after
-developmental revision, guarded local DE-LLM, deduplication and final cover/artifact work. The author
-explicitly approved publication on 2026-08-20 while overriding the unperformed outside review gates;
-that omission remains disclosed. Book II remains a provisional first draft at 27 chapters and 29,485
-words and is not part of this release.
+**BOTH MANUSCRIPTS FINISHED · BOOK II REVIEW-GATED** — *The Record* has 53 chapters and 45,399
+source words; *The Forward Cone* has 27 chapters and 34,693 source words. Both have completed
+developmental revision, guarded local DE-LLM, deduplication, final cover work and EPUB/PDF validation.
+The author explicitly approved Book I publication on 2026-08-20 while overriding its unperformed
+outside review gates; that omission remains disclosed. Book II is finished but has not received its
+required outside reviews or separate release approval and remains unlisted.
 
 Transcribed 2026-08-19 from `The_Record_Series_Bible.docx` **v0.1**. That document is the authority:
 where it and any earlier scaffold disagree, it wins. This replaces the earlier
@@ -44,7 +45,7 @@ books/book1-the-record/
   BEAT_LEDGER.md                LIVING drafting surface — riffs, beats, fragments, scratch plants
   canon/                        blueprint (24 sequences) · reveal ladder · style guide · chapter ledger
   build/chapters/               finished 53-chapter Book I cut
-books/book2-the-forward-cone/   blueprint · chapter ledger · complete provisional 27-chapter cut
+books/book2-the-forward-cone/   blueprint · final ledger · finished 27-chapter manuscript
 ```
 
 ## Status: canon locked
@@ -54,13 +55,15 @@ machine's rules, the Anchor, the moral outcome, the sting and Book II's ending a
 Cut ideas and their reasons are in `canon/RETIRED_IDEAS.md` so they are not re-argued.
 
 Book I's **`books/book1-the-record/BEAT_LEDGER.md`** remains a non-binding quarry of riffs and
-plants. Book II's complete provisional cut maps its 27 chapters to the locked 27-sequence plot; the
-series canon governs whenever a suggestion conflicts.
+plants. Book II's finished cut maps its 27 chapters to the locked 27-sequence plot; the series canon
+governs whenever a suggestion conflicts.
 
 What remains in `canon/OPEN_DECISIONS.md` is outside review: historian and legal review of the
 composite case, a victim-family sensitivity read, Ghanaian and Kenyan readers for the ensemble, SANAP
 operational review, G on terminology, and a quant read on Book II. These reviews were not performed
-for Book I; the author explicitly overrode that release gate on 2026-08-20. Book II remains gated.
+for Book I; the author explicitly overrode that release gate on 2026-08-20. Book II's internal
+revision is complete, but its quant/market-structure, cryptography/provenance and SANAP reviews and
+separate release approval remain outstanding.
 
 ## Sensitivity
 
