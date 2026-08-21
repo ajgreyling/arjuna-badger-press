@@ -1,6 +1,6 @@
 # YESTERDAY, TOMORROW — handover
 
-> One novel. African science thriller. Canon locked; **first draft complete — 58 chapters, 66,019 words**.
+> One novel. African science thriller. Canon locked; **first draft complete and Court pass complete — 58 chapters, 68,159 words**.
 >
 > This is the cold-start briefing: what exists, what is decided, what is not, what to do next, and
 > what will silently break the book. Everything points at `books/yesterday-tomorrow/`.
@@ -35,7 +35,7 @@ change it — or merely the feeling that we did?*
 | **Spine** | `canon/PLOT.md` — four movements, 40 sequences, cold open → **1.000000** |
 | **The machine** | `canon/LUCID_COURT.md` — **binding**, supersedes every earlier description of Lucid |
 | Style | `canon/STYLE_GUIDE.md` — voice, the ladder, problem discipline, the three Court registers |
-| **Prose** | **ch 01–58 — first draft complete**, 66,019 words, `build/chapters/` |
+| **Prose** | **ch 01–58 — first draft + Court pass complete**, 68,159 words, `build/chapters/` |
 | **Assembled** | `build/BOOK.md` |
 | Superseded, kept | `archive/` — the two-book blueprints. `BEAT_LEDGER.md` — 63 beats against a structure that no longer exists; still the best scene bank |
 | Site | **not listed** in `site/build.py`. The id is the gate |
@@ -118,20 +118,19 @@ gets its own Court.
 
 ## 8 · Next actions, in order
 
-1. **The Court pass over ch 01–50.** The only structural work left. Chapters 26 and 39 are rewritten
-   as demonstration and **51–58 were written with the Court** — use ch-52, ch-54, ch-57 and ch-58 as
-   the reference register. Everything between still reads as flat generated prose. Search for
-   `INSUFFICIENT GROUNDED RECORD` as bare text and for *the system / the return / it refused*.
-2. **Read it end to end.** It has never been read as a book, only as chapters.
+1. **A human read, end to end.** The draft has been read once, by its writer, and that read found
+   real defects: a number tic across 57 of 58 chapters, and three cross-chapter contradictions
+   introduced by fixing it. Nobody else has read it.
+2. **Revision toward 75–85k**, located in the Court scenes — argument takes room. Not description,
+   not more incident.
 4. **Ensemble names**, once readers are lined up. A late rename is not find-and-replace — names carry
    rhythm and register in dialogue.
-4. **Length.** 66,019 words against a 110–120k target in `STRUCTURE.md`. Decide deliberately: accept
-   a lean thriller and update the lock, or expand during the Court pass, which is the natural place
-   because argument takes room. Do not pad narration to reach a number.
+4. **Length is resolved.** 68,159 words; the 110–120k lock is retired and the revision target is
+   75–85k (`STRUCTURE.md`).
 
 ## 9 · What stands between here and publication
 
-A Court pass, then the human review gates. Then cover and `design/`;
+A human read, then the human review gates. Then cover and `design/`;
 exports (to R2 via `assets.manifest.json` — **never commit binaries**); a `PUBLISHED` id and a
 `CURATED` row in `site/build.py`; then the full deploy loop, both repos, Render redeploy. Live
 `arjunabadger.press` does not change until Render redeploys.
