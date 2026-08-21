@@ -18,6 +18,7 @@ if missing:
 if CH.exists():
     shutil.rmtree(CH)
 CH.mkdir(parents=True)
+(CH / ".gitkeep").touch()  # keep the dir tracked; prose_tics.py reads from here
 
 parts = ["% The Metal Man", "% Andries J. Greyling", ""]
 for name in order:
