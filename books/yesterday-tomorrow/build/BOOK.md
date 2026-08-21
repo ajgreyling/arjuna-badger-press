@@ -779,6 +779,66 @@ Dries leaned against his bakkie.
 
 ---
 
+### The first time the room heard it argue
+
+Kojo put them on the link at eight, and because the Accra install had been running the Court build
+since the spring and Stellenbosch had not, it was the first time most of the people in that room
+heard the machine disagree with itself.
+
+"The relationship is stable across the corpus," said Atlas. "Four hundred facilities. I can give you
+the residual structure and it is boring, which is the highest compliment I have."
+
+"It is not boring," said Mercury. "It is the most interesting object this project has produced and
+somebody should say so out loud before we bury it in a methods note."
+
+"Those are compatible statements."
+
+"They are not remotely compatible—"
+
+*Librarian,* said Judge.
+
+"The corpus contains no element of the 420 collection," said Librarian. "I hold the manifest and the
+hashes. I can state the absence positively rather than by failure to find, which is a different and
+stronger claim, and it is the one you will want in eleven months."
+
+Dries had been in a great many rooms where software reported. He had never been in one where the
+software declined to agree with itself in front of him, and he found that he had sat down.
+
+"What's the seventh one for?" Dumisani said.
+
+"Sorry?"
+
+"There are seven. Atlas, Librarian, Mercury, Wolf, Mother, Judge. That's six." He was scrolling.
+"There's a seventh with almost no traffic."
+
+*Ja,* said Fool. *Hi.*
+
+Nobody said anything.
+
+*Don't mind me. I'm here for the structural integrity of the group.*
+
+"What does it *do*?" Dumisani said, to the room rather than to it.
+
+Kojo, on the link, shrugged. "It's in the reference architecture. Ndlela's paper says a Court without
+it collapses into a hierarchy inside about four hundred hours of operation. We ran it without for two
+weeks as a control and it did exactly that — Mercury started winning arguments he shouldn't have
+won, and nobody was contradicting Atlas, and the whole thing got very agreeable and very slightly
+wrong."
+
+"So it's a — what. A referee?"
+
+"Judge is the referee," said Judge.
+
+*I'm the one who says the thing,* said Fool.
+
+"Which thing?"
+
+*You'll know.*
+
+It was, everybody agreed afterwards, extremely annoying.
+
+---
+
 He drove back up Electron Road at nine that night and there were four cars in the lot.
 
 They gathered in the small meeting room with the door and nobody sat down.
@@ -1787,6 +1847,17 @@ So he stopped correcting and built an object instead.
 
 ---
 
+*The rungs are wrong,* said Fool, before anybody could ask.
+
+"Yes," said G. "Say why."
+
+*Because six isn't a physics. It's a hand. You've got five fingers and a thumb and you've built a
+ladder out of your own arm.*
+
+"Correct."
+
+*I wasn't finished. It's also going to work, because they've all got the same arm.*
+
 "Why sixes?" Dumisani asked.
 
 "Because they are wrong."
@@ -2064,6 +2135,26 @@ He went and found G, who was in the corner with the extension cable, and said, "
 G did not look up.
 
 "Yes," he said. "That is why they are dangerous. Sit down, you look terrible."
+
+Dries sat. On the second screen, Dumisani's tally was open — a thing the young man had started as a joke and had kept, out of the particular stubbornness of somebody whose supervisor has told him it is not a metric.
+
+Utterances per session, by member, over eleven months.
+
+Atlas and Librarian in the thousands, which was the job. Mercury close behind. Judge in the low hundreds and rising in the sessions that mattered. Mother steady. Wolf at forty-one, which was Wolf.
+
+And the Fool, which was high — very high — in every session about instruments, procurement, staffing, the press, the ladder, anything at all.
+
+Except the corridor runs. On the corridor runs it dropped by an order of magnitude.
+
+"Have you seen this?" Dries said.
+
+"I have seen it."
+
+"Is it interesting?"
+
+G considered the screen for a moment with the expression of a man filing something.
+
+"It is a curiosity," he said. "Ask me again in a year."
 
 
 # 21 — A Regular Pattern
@@ -2887,17 +2978,52 @@ Nobody said anything.
 
 ---
 
-They spent nine hours trying to kill it.
+They spent nine hours trying to kill it, and the Court helped, which was the part Dries could not get used to.
 
-They ran it against the previous constraint set: it appeared, weaker, at 0.71, in a form that had been below the reporting threshold and had therefore never been written out. Which meant it had been there for at least a corpus generation and nobody had seen it because a postdoc had picked a threshold for bearings in 2030.
+"Run it against the previous constraint set," he said.
 
-They pulled the constraint chain and walked it. Dries had expected — had *wanted* — a single dominant term, because a single dominant term is a thing you can go and look at and be wrong about.
+"It is there," said Atlas. "Weaker. 0.71, and below the reporting threshold, which is why it was never written out. It has been present for at least one corpus generation."
 
-There was no dominant term. The heaviest single contribution was under four per cent.
+"So we've been sitting on this."
+
+"You have been sitting on a number that nobody was told about, because a threshold was set in 2030 at a sensible value for bearings." A pause. "I am not being pointed. I do not have a mechanism for being pointed. Librarian will confirm the threshold's provenance if you want the name."
+
+"I do not want the name," said Dries.
+
+"You will in a year," said Librarian, "and I will still have it."
+
+*He doesn't want the name because the name is a decent postdoc who has left,* said Mother, *and he has already decided to carry it himself, and it is nine hours into a Saturday and he has not eaten.*
+
+*Are we doing this now?* said Mercury.
+
+*I am noting it. Noting is my function. Nobody has to act on it.*
+
+"Walk the chain," Dries said.
+
+They walked it. He had expected — had *wanted* — a single dominant term, because a single dominant term is a thing you can go and look at and be wrong about.
+
+"Heaviest single contribution is under four per cent," said Atlas.
+
+"That can't be right."
+
+"It is right, and I understand why you want it to be otherwise, and I have re-derived twice because you asked in a particular tone of voice." Atlas paused. "There is no dominant term. There are four hundred thousand constraints and the load is distributed across them."
 
 "That's four hundred thousand constraints," Dumisani said, "and no protagonist."
 
-They checked for contamination from the conflict-reporting sources, which Ama had admitted with the heaviest interest marker in the corpus and about which she had written *if we are ever surprised by a result that depends on it, we should assume we have been used*. They stripped the entire class and re-ran the affected region.
+*That's the first true thing anyone's said tonight,* said Fool.
+
+They all looked up. It was the first thing it had said in nine hours.
+
+*Sorry. Carry on.*
+
+They checked for contamination from the conflict-reporting sources, which Ama had admitted with the heaviest interest marker in the corpus and about which she had written *if we are ever surprised by a result that depends on it, we should assume we have been used*.
+
+"Strip the class," said Ama, on the link from Accra. "All of it. Re-run the affected region."
+
+`LIBRARIAN: Class stripped. 41,880 elements withdrawn, all interest-marked at the maximum, all`
+`re-derivable on request.`
+
+`ATLAS: 0.961.`
 
 It came back at 0.961.
 
@@ -3539,6 +3665,22 @@ Lwazi looked up. "The corollary is that you cannot fix this by cutting better. C
 
 ---
 
+There was one more thing in the presentation and Lwazi almost cut it, because it was not a result and he did not know what it was.
+
+"Last slide," he said. "This isn't mine, it's Dumisani's tally, and I've been staring at it for a month."
+
+He put it up: eleven months of Court traffic by member, and the same hole he had first noticed in June.
+
+"Every session about the corridor. Every single one. The Fool drops off a cliff." He turned. "I've checked it isn't an artefact of session length. I've checked it isn't Judge suppressing traffic. It's just — when we compute the corridor, that member has nothing to say."
+
+"Does it matter?" somebody asked.
+
+"I have no idea," Lwazi said. "It's the only thing in this project I can measure and not interpret, and I've decided that means I should keep measuring it."
+
+*That's the most sensible thing anyone has said about me in a year,* said Fool, from the speaker, and got a laugh, and the meeting moved on.
+
+---
+
 Afterwards, G caught him in the corridor and did something he had never done, which was to put a hand briefly on Lwazi's shoulder.
 
 "Twenty minutes," he said. "That is the best twenty minutes of work anybody has done on this project and I include everything I have ever written."
@@ -4058,6 +4200,16 @@ Dumisani stood there.
 
 G's hand stopped over the page.
 
+"You keep the tally."
+
+"I keep the tally. You told me it wasn't a metric."
+
+"I did, and I was being careless, and you kept it anyway, which is the useful thing about you." G still had not turned around. "What does it say?"
+
+"Eleven months of this. Every corridor session, it drops an order of magnitude. Lwazi put it on a slide in February and said he could measure it and not interpret it." Dumisani swallowed. "This is the first session where it's zero."
+
+
+
 "No," he said slowly. "It didn't."
 
 "Is that — should I flag that? As a fault?"
@@ -4068,7 +4220,7 @@ G sat for a moment longer than the question needed.
 
 "Log what, exactly?"
 
-"That in a six-hour session concerning the termination of the instrument itself," G said, "the member of the Court whose entire function is to say the thing nobody else will say had nothing to contribute."
+"That in a six-hour session concerning the termination of the instrument itself," G said, "the member of the Court whose entire function is to say the thing nobody else will say had nothing to contribute. Put Lwazi's slide next to it, and the date on both."
 
 He went back to his page.
 
@@ -4208,11 +4360,29 @@ It was tight. It was extremely tight. A dense mass between about 0.94 and 0.99, 
 
 Kiki said, into the silence: "Ama. The outliers."
 
-"Eleven profiles below 0.90. Nine of them are artefacts — I have checked each personally, and they are cases where the equivalence-classing collapsed something it should not have. I can walk anyone through them."
+"Eleven profiles below 0.90. Nine are artefacts — I have checked each personally."
 
-"And two?"
+"Atlas," said Kiki. "Confirm."
 
-"Two are not artefacts." Ama brought them up. "And they are not interventions."
+"Nine are artefacts of equivalence-classing. Doctor Nyarko is correct and has been correct since the fourth day, and I would like to note that she checked them by hand before asking me, which was slower and better."
+
+*Say the other two,* said Fool.
+
+There was a pause that everybody in three rooms on two continents noticed.
+
+"Mercury," said Judge. "You have been drafting a rendering for six minutes. Do not."
+
+"I was going to say that the outliers are encouraging."
+
+"They are not encouraging. They are two profiles and you were about to make them a headline."
+
+"I was about to make them *legible*—"
+
+`JUDGE: You were about to make them survivable. There is a difference and this room cannot afford it`
+`tonight. Doctor Nyarko has the floor and she is going to say something the rest of you will want`
+`softened. Nobody soften it.`
+
+"Two are not artefacts," Ama said. "And they are not interventions."
 
 The room waited.
 
@@ -4228,13 +4398,21 @@ Nobody said anything.
 
 ---
 
+*Can I say the thing,* said Fool.
+
+"No," said Ama.
+
+*Fine.*
+
+"I will say it. It is mine." She took a breath. "We cannot use those two."
+
 G spoke for the first time in an hour.
 
 "Say the last part," he said. "The part you have not said yet, that you have been carrying for four days."
 
 Ama nodded slowly.
 
-"We cannot use those two," she said. "That is the last part. We cannot *design* incompetence. The moment a coordinating body deliberately executes badly in order to produce variance, it is a coordinated action with a plan, and the plan is shared, and the variance is fake. I ran it. I ran deliberate-diversification profiles — assign different actors different strategies on purpose. They come out in the mass. They come out at 0.95."
+"That is the last part. We cannot *design* incompetence. The moment a coordinating body deliberately executes badly in order to produce variance, it is a coordinated action with a plan, and the plan is shared, and the variance is fake. I ran it. I ran deliberate-diversification profiles — assign different actors different strategies on purpose. They come out in the mass. They come out at 0.95."
 
 "Because the assignment is itself a correlation," Kiki said.
 
@@ -4374,9 +4552,28 @@ They attacked it four ways.
 
 Kojo ran it. They took three of the nine cases and provided everything: the technician's retirement date, his service record, his stated intentions, an interview.
 
-The system modelled him beautifully. It produced a constraint that predicted, with reasonable confidence, that an operator within four weeks of retirement would seek to complete outstanding work on machines he had personally maintained.
+"He is modelled," Atlas reported, ninety minutes later. "An operator within four weeks of retirement seeks to complete outstanding work on machines he has personally maintained. The constraint is stable and it has a coefficient."
 
-And the error stayed down. And the corridor stayed narrow.
+"And the corridor?"
+
+"Narrow again. The error is down."
+
+*That's not him,* said Fool.
+
+Everyone stopped.
+
+"Say more," said Judge.
+
+*You've modelled a man four weeks from retiring. Fine. Good coefficient. You haven't modelled* him.
+*You've modelled the last four weeks of a category.*
+
+"That is what a constraint is," said Atlas.
+
+*Ja,* said Fool. *That's my point and I'd like it minuted, because in about nine weeks somebody in
+this room is going to work out what I just said and get a paper out of it, and I want the date.*
+
+Nobody minuted it. Kojo would remember, eleven weeks later, and go back and find the timestamp
+himself.
 
 "It absorbed him," Kojo reported. "It turned him into an interest. *Wishes to complete personal work before retirement* is now an objective in the model with a weight on it."
 
@@ -4464,6 +4661,35 @@ Dumisani said, "So the moment we try to use it—"
 "Then it's useless," Lwazi said.
 
 "It is unusable *by us, as a strategy*. Those are different sentences and the difference is where the next four months live."
+
+---
+
+"Judge," said Dries. "Is he right?"
+
+`JUDGE: I cannot evaluate the claim. It concerns the boundary of my own representation, and a system`
+`asked to certify the limits of what it can represent will return the limits of what it can`
+`represent. That is circular and I decline it.`
+
+"Atlas?"
+
+"The action space is generated from capability crossed with interest. I can confirm the construction. I cannot tell you what is outside it, because outside it I have nothing — not zero, *nothing*. There is a difference and it is the difference Doctor van Niekerk is describing."
+
+*I could have told you that in about 2031,* said Fool.
+
+The room went very quiet.
+
+"Say more," said G, carefully.
+
+*No.*
+
+"Fool—"
+
+*I said no, and I'd like that in the record with the timestamp, because in about two years somebody
+in this room is going to come back and read it, and I want them to see that I was asked and that I
+declined, and not that I was never asked.*
+
+Nobody in the room understood that at all. Dumisani logged it, because logging things nobody
+understood had become, over four years, the single most productive habit in the building.
 
 ---
 
@@ -5665,6 +5891,12 @@ G came back to it in the third year, alone, on a Sunday, for a reason he could n
 The building was empty. The extension cable was still where it had been for six years. Half the racks were gone — devolved, partitioned, shipped to four places that did not answer to each other — and what remained was a local engine on ordinary processors that could compute and cite and conflict and refuse, and nothing else.
 
 He had come to close out the pre-commitment ledger.
+
+He had also, though he did not admit this to himself until much later, come to look at a tally.
+
+Dumisani had kept it for six years and had handed it over in a folder when he left for Nairobi, with a note on the front that said *you told me this wasn't a metric*. Utterances per member per session. Six years of a machine talking.
+
+The hole was still there. Every corridor session, an order of magnitude. And in the six-hour session about the instrument's own termination, in the third year, a zero — logged, not flagged, on G's own instruction, with Lwazi's February slide clipped to it and the date on both.
 
 That was the defensible reason and it was even true. Six years of sealed notes, hashed to Nairobi, held under a protocol that Kiki had dismantled and replaced; the archive needed migrating before the old verification path expired. Somebody had to do it. He had built the practice and it was his to close.
 
