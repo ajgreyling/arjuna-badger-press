@@ -1,4 +1,4 @@
-# Working Terminology — *ONE RECORD*
+# Working Terminology — *YESTERDAY, TOMORROW*
 
 > Appendix A of the bible. A consistent vocabulary for drafting. See `CRAFT.md` for the
 > **words to police** table — the phrasings that must never appear unqualified.

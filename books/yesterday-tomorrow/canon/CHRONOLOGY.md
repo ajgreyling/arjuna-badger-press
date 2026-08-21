@@ -1,4 +1,4 @@
-# Chronology — *ONE RECORD*
+# Chronology — *YESTERDAY, TOMORROW*
 
 > One novel. The story runs **2030 → 2034**, chronologically, from the cold open (L-29).
 > Layer H is how the world got here and arrives only as fragments in scene.

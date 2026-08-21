@@ -1,4 +1,4 @@
-# Source & Reality Notes — *ONE RECORD*
+# Source & Reality Notes — *YESTERDAY, TOMORROW*
 
 > Appendix B of the bible. Development references; **not an endorsement by the referenced
 > institutions.**

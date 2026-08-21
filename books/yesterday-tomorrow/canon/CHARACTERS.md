@@ -1,4 +1,4 @@
-# Ensemble — *ONE RECORD*
+# Ensemble — *YESTERDAY, TOMORROW*
 
 > §4 of the bible. Functional archetypes with **working identities**; names remain changeable until
 > cultural review (see `OPEN_DECISIONS.md`).

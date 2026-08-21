@@ -1,4 +1,4 @@
-# ONE RECORD — handover
+# YESTERDAY, TOMORROW — handover
 
 > **One novel**, African science thriller in Weir mode. Canon locked 2026-08-19 and merged to
 > `master`. **Zero prose written.**
@@ -7,11 +7,11 @@
 > to one escalation — **understand → predict → predict the end.** Book I had no clock, no physical
 > jeopardy and a climax that was a publication; Book II held the countdown. The merged spine goes
 > further than a join: discovery is compressed into an *investigation* so prediction arrives by the
-> quarter mark. See `books/one-record/canon/STRUCTURE.md` — read it before anything else.
+> quarter mark. See `books/yesterday-tomorrow/canon/STRUCTURE.md` — read it before anything else.
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
-> `books/one-record/`.
+> `books/yesterday-tomorrow/`.
 
 ---
 
@@ -38,7 +38,7 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 | Style guide | `canon/STYLE_GUIDE.md` — voice, clock, problem discipline |
 | Two-book blueprints | Preserved, superseded — `archive/` |
 | Beat ledger | **63 beats** — `BEAT_LEDGER.md`. Written against the two-book shape; **not yet remapped**. Best scene material in the project |
-| Consent instrument | Drafted with its five designed flaws — `books/one-record/canon/CONSENT_INSTRUMENT.md` |
+| Consent instrument | Drafted with its five designed flaws — `books/yesterday-tomorrow/canon/CONSENT_INSTRUMENT.md` |
 | Chapter ledger | Not built. Blocked on human review, not on decisions |
 | Prose | **None** |
 | Site | Not listed in `site/build.py`. Nothing ships until an id is added to `PUBLISHED` |

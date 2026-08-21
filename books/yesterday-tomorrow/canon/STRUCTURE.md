@@ -1,4 +1,4 @@
-# Structure — *ONE RECORD*
+# Structure — *YESTERDAY, TOMORROW*
 
 > **One novel.** The duology is collapsed. Read this before `PLOT.md`; it explains why the shape
 > changed and what the shape now is.

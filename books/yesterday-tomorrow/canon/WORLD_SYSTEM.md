@@ -1,4 +1,4 @@
-# World System — *ONE RECORD*
+# World System — *YESTERDAY, TOMORROW*
 
 > The machine is **continental infrastructure**, not a chrome box with a screen — and it is the
 > reason Act III's solution requires four nodes acting on partial information (L-28).

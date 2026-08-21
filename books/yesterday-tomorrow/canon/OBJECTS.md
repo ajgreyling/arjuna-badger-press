@@ -1,4 +1,4 @@
-# Objects — *ONE RECORD*
+# Objects — *YESTERDAY, TOMORROW*
 
 > Physical objects keep abstract science embodied. The Anchor is retired with the historical case
 > (`RETIRED_IDEAS.md`); what follows is the current set.

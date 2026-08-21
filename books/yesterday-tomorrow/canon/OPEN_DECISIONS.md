@@ -1,4 +1,4 @@
-# Still Open — *ONE RECORD*
+# Still Open — *YESTERDAY, TOMORROW*
 
 > **Everything structural is locked.** See [`CANON_LOCKS.md`](CANON_LOCKS.md) (L-01…L-26) and
 > [`RETIRED_IDEAS.md`](RETIRED_IDEAS.md). Drafting proceeds against those.

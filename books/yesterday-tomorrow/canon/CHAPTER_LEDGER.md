@@ -1,4 +1,4 @@
-# Chapter Ledger — *ONE RECORD*
+# Chapter Ledger — *YESTERDAY, TOMORROW*
 
 > 58 chapters · target ~112k · 1,700–2,200 words each.
 > **POV tags:** **D** Dries (Technopark) · **G** G (Technopark) · **A** Ama (Accra) ·

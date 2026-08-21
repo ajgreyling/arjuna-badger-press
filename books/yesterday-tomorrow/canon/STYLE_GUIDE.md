@@ -1,4 +1,4 @@
-# Style Guide — *ONE RECORD*
+# Style Guide — *YESTERDAY, TOMORROW*
 
 > Weir mode. Read with `STRUCTURE.md` and `CRAFT.md`. Where this and the old per-book style guide
 > disagree, this wins — the old one assumed five co-equal POVs and no clock.

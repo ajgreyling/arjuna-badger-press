@@ -1,4 +1,4 @@
-# Craft — Exposition & Drafting Toolkit — *ONE RECORD*
+# Craft — Exposition & Drafting Toolkit — *YESTERDAY, TOMORROW*
 
 > §10 and §13 of the bible. How to make readers enjoy the mechanisms without lectures, and how to
 > turn architecture into chapters.

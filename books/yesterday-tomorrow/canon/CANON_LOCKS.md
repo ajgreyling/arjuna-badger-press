@@ -1,4 +1,4 @@
-# Canon Locks — *ONE RECORD*
+# Canon Locks — *YESTERDAY, TOMORROW*
 
 > **Full send, 2026-08-19.** Everything the bible left at "recommended default" is **LOCKED**.
 > **Revised 2026-08-19: the duology is collapsed into one novel** and the spine is reset to the
@@ -16,7 +16,11 @@
 
 ## Series shape
 
-- **L-01 · Form and name.** **One novel**, titled ***ONE RECORD***. No duology, no sequel.
+- **L-01 · Form and name.** **One novel**, titled ***YESTERDAY, TOMORROW***. No duology, no sequel.
+  *(Retitled 2026-08-19 from ONE RECORD. The title is the book: yesterday is readable, tomorrow is
+  computable, and the missing word is the one you are standing in and cannot see. It also frees
+  **the One Record** to stay what it has always been in shelf continuity — the ingested corpus,
+  L-27 — rather than doubling as the book's name.)*
   *(Changed 2026-08-19, superseding the duology lock. Reason on the record: Book I had no clock, no
   physical jeopardy, no single protagonist, and a climax that was a publication. Book II held the
   countdown, the stake and the irreversible decision. Splitting them starved the first half and
@@ -31,9 +35,9 @@
   a node already has.
 - **L-02b · Years.** The build track runs from **2030**; the countdown runs **2033–34**. Chronology
   per `CHRONOLOGY.md` is otherwise binding, including the hidden column.
-- **L-03 · Shelf.** Standalone, its own entry — **ONE RECORD**, not an African Gold companion. It shares a
+- **L-03 · Shelf.** Standalone, its own entry — **YESTERDAY, TOMORROW**, not an African Gold companion. It shares a
   universe with *Afrika 2035* and must not contradict its end state, but it is not shelved under it.
-  No book-number eyebrow.
+  Eyebrow: none / standalone. No book-number eyebrow.
 
 ## The machine
 

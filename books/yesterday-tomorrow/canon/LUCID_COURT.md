@@ -1,4 +1,4 @@
-# Lucid and the Court — *ONE RECORD*
+# Lucid and the Court — *YESTERDAY, TOMORROW*
 
 > **Binding, and it supersedes every earlier description of Lucid in this project.**
 >

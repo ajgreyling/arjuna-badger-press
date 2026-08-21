@@ -1,4 +1,4 @@
-# Plant & Payoff — *ONE RECORD*
+# Plant & Payoff — *YESTERDAY, TOMORROW*
 
 > **Plants should feel functional before they feel prophetic.** Rebuilt for the current spine; the
 > two-book ledger is in `../archive/`.

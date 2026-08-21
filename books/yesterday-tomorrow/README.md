@@ -1,9 +1,10 @@
-# ONE RECORD
+# YESTERDAY, TOMORROW
 
 **One novel.** African science thriller, Weir mode: competence under a deadline, one protagonist,
 a hard clock, and physical jeopardy on the ice.
 
-> The universe is the archive. The 420 Code is the codec. The machine is the reader.
+> Yesterday is readable. Tomorrow is computable.
+> The missing word is the one you are standing in.
 
 > **They build a machine to understand reality.**
 > **It begins predicting reality.**

@@ -1,4 +1,4 @@
-# Physics Anchors — *ONE RECORD*
+# Physics Anchors — *YESTERDAY, TOMORROW*
 
 > Real physics the fiction stands on, and the exact line where it stops being real.
 > Extends `SERIES_BIBLE.md` §1 (canon and boundary map). Same rule applies: **the novel's

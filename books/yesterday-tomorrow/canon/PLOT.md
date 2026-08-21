@@ -1,4 +1,4 @@
-# Plot — *ONE RECORD*
+# Plot — *YESTERDAY, TOMORROW*
 
 > One novel. Four movements, 40 sequences. Read `STRUCTURE.md` first.
 > Spine set by AJ 2026-08-19; this file is its working expansion.
