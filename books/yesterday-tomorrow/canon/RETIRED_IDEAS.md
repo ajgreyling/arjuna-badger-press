@@ -85,6 +85,30 @@ to have a fifth condition to fall back on. It does not.
 
 ---
 
+## Elias Mercer, the named antagonist
+
+**Cut 2026-08-21 (L-17b retired).** The bible's "antagonist without moustache" — a global
+standards/finance governor who saves millions with the machine and then cannot accept that the
+successful system creates the fragility.
+
+**Why it is cut:** he never appeared in the draft, and the reason he never appeared is that the
+spine does not have room for him. The book's central finding is that **no individual is the cause**
+— four hundred thousand intervention profiles, no dominant term, rational substitutes reproducing
+the pattern when any actor is removed. A named antagonist quietly contradicts that, because a reader
+given a face will assign the catastrophe to it.
+
+**What replaced him:** institutional weather. A rising tide of courtesy in which nobody is
+unpleasant (ch-37); a chair that funds the experiment which could falsify the framework, offered
+sincerely (ch-38); the best-governed possible proposal to reassemble the joined view, from four
+universities, which has to be refused on structure rather than suspicion (ch-55). Each is harder to
+argue with than a person would be.
+
+**If ever revived:** Act II-B, written through from his first appearance, with his saved lives
+numerically present before any harm is shown. Never added late — a late antagonist is a face the
+book has spent forty chapters arguing does not exist.
+
+---
+
 ## The BARA joke
 
 **Cut 2026-08-19 (L-20).** The Antarctic instrument's proposal name — Boreal Actualisation Reference

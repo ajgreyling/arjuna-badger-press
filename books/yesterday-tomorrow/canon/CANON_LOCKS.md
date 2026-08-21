@@ -101,8 +101,15 @@
   No rogue-AI beat, no shutdown climax, no clever exploit. It refuses command when asked to give it.
 - **L-15d · Catastrophe symptoms:** food/logistics + grid + market + defence coupling. No climate-only
   framing, no asteroid.
-- **L-17b · Mercer survives, partly vindicated,** and loses universal authority. He is never
-  villainous and his saved lives are numerically present before the harm is shown.
+- ~~**L-17b · Mercer survives, partly vindicated.**~~ **RETIRED 2026-08-21.** The named
+  international antagonist is not in the drafted novel and should not be bolted on. AJ's spine
+  replaced him with institutional weather — services, corporations and frightened states arriving
+  politely with resources — and the draft executes that: ch-37 is a rising tide of courtesy in which
+  nobody is unpleasant, ch-38 is an offer that funds the experiment which could falsify the
+  framework, ch-55 is the best possible proposal to rebuild the joined view. **Diffuse pressure is
+  stronger here than a named man**, because the book's argument is that no individual is the cause
+  (ch-41, sequence 28). Recorded in `RETIRED_IDEAS.md`. Reversible: if a named antagonist is wanted,
+  he belongs in Act II-B and must be written through, not added at the end.
 - **L-16 · The blind spot.** Lucid can calculate every rational response. It cannot calculate **an
   act whose value is not reducible to advantage.** The escape is that class of act — never a hack, a
   shutdown or an exploit. Binding constraint: the moment such an act is chosen *because it works* it
