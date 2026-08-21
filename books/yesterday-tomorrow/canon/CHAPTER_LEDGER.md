@@ -74,12 +74,14 @@
 
 ## Draft status — 2026-08-21
 
+> **FIRST DRAFT COMPLETE.** 58 of 58 chapters.
+
 | | |
 |---|---|
-| **Drafted** | **ch 01–50** · ~55,000 words · `../build/chapters/` |
-| **Unwritten** | **ch 51–58** — the Karoo holding, the window, what it cost, recovery, fragmentation, credited, and the two closing chapters |
+| **Drafted** | **ch 01–58** · **66,019 words** · `../build/chapters/` |
+| **Assembled** | `../build/BOOK.md` — 58 chapters, blank-line separated for pandoc splits |
 | **Court pass** | ch-26 and ch-39 rewritten as demonstration. **Every other Lucid appearance still reads as flat generated prose and needs threading** — that is the tell to search for |
-| Ending | Changes with the Court: ch-57 is no longer a man reading a file, it is a man asking a Court a question and noticing which member does not answer |
+| Ending | Written with the Court: ch-57 is G asking each member in turn and reaching the one that does not answer; ch-58 is the hundred and forty bytes |
 | Assembly | `../build/BOOK.md` — not yet assembled |
 | Site | **not listed** in `site/build.py`. The id is the gate |
 
@@ -89,5 +91,13 @@
   needs a member's name and, where it carries a scene, an argument.
 - `INSUFFICIENT GROUNDED RECORD` as bare text appears in early chapters. It is now **Judge's ruling
   with reasons**, in the monospace register, and only there.
-- Two chapters (49, 50) were drafted after the Court canon but before the rewrite pass and still
-  use the old register.
+- Chapters 49 and 50 were drafted after the Court canon but before the rewrite pass and still use
+  the old register.
+- Chapters 51–58 were written **with** the Court and need no pass. Use ch-52, ch-54, ch-57 and
+  ch-58 as the reference register for fixing the rest.
+
+## Length
+
+66,019 words over 58 chapters — a lean thriller, well short of the 110–120k in `STRUCTURE.md`.
+Decide deliberately: accept it and update the target, or expand in the Court pass, which is the
+natural place because argument takes room. Do not pad narration to reach a number.
