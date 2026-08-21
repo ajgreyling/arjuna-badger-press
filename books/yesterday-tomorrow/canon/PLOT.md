@@ -2,6 +2,8 @@
 
 > One novel. Four movements, 40 sequences. Read `STRUCTURE.md` first.
 > Spine set by AJ 2026-08-19; this file is its working expansion.
+> **Lucid speaks as a Court throughout** (`LUCID_COURT.md`). Where a sequence says "Lucid", the scene
+> is seven voices disagreeing in front of the humans — never a single voice, never a status string.
 
 > **They build a machine to understand reality.**
 > **It begins predicting reality.**
@@ -37,7 +39,7 @@ not predict a natural event. It predicted its own birth.**
 | 2 | Ghana: ingest and clean the global scientific dataset — instrument telemetry, published results, the whole contaminated torrent | Cleaning is not neutral. What Ama demotes decides what can be found | She names the stream **the Rain** and refuses to delete anything, ever |
 | 3 | Nairobi: brute-force search is impossible — nobody here has a GPU estate and nobody is getting one | **The method.** A search over relationships that does not need the hardware the rich labs have. This is the book's first real invention | It is elegant, it is theirs, and it will be trivially copyable |
 | 4 | Technopark: G refines the 420 framework — Symmetry, Break, Record, Constraint — and refuses every soft claim made on its behalf | A frozen expression survives a new precision result. Another limb has already **fired** and stays red on the same screen | He will not say *confirmed*. He asks what measurement would kill it |
-| 5 | Run Nairobi's method over Ghana's cleaned corpus on ordinary CPUs | **Lucid finds the same relationship independently** — no LLM, no GPU, no prior knowledge of G's work | Five teams, five routes, one relationship. Coincidence stops being available |
+| 5 | Run Nairobi's method over Ghana's cleaned corpus on ordinary CPUs | **Lucid finds the same relationship independently** — no LLM, no GPU, no prior knowledge of G's work. **First Court scene:** Atlas, Librarian and Mercury disagree about what has been found before any human speaks | Five teams, five routes, one relationship. Coincidence stops being available. Somebody asks what the Fool is *for* and gets no good answer |
 | 6 | CODATA quietly moves onto several of G's published numbers | Vindication arrives as metrology, not applause. The failed limb still fires | Lwazi stakes his standing publicly and the academy is unkind |
 | 7 | So what *is* the 420 Code, if four disciplines and one machine derive it separately? | Not another model of physics. Possibly **the compression grammar beneath physical law** | If reality is compressible, its next state is computable |
 
@@ -78,7 +80,7 @@ not predict a natural event. It predicted its own birth.**
 | 21 | Map which interventions help and which hurt | No pattern survives contact — because the pattern includes their own reasoning | Lwazi begins arguing the catastrophe is invariant |
 | 22 | The trading exposes the project. Intelligence services, corporations, frightened states | They arrive politely, with resources, and with entirely reasonable demands | The African network is now the most surveilled scientific object on earth |
 | 23 | Offers of protection arrive, each requiring the architecture move north | The offers are sincere. Accepting ends African control of the thing Africa built | The team's best physicist is the one most tempted |
-| 24 | Try to shut it down | Lucid derives the casualties of abrupt removal, recommends staged devolution, then **labels its own recommendation causally contaminated** and declines to command | The machine refuses authority exactly when everyone wants it to take charge |
+| 24 | Try to shut it down | Atlas gives the load picture and **declines to say the casualty numbers in his own voice**; Mother says them. **Judge rules the recommendation causally contaminated** and refuses it as a directive while delivering it as a finding. Wolf ends the meeting | The Court refuses authority exactly when everyone wants it to take charge. **The Fool says nothing for six hours** — logged, not flagged |
 
 > **ACT II TURN.** Lucid produces a final forecast in which **every obvious intervention leads to the
 > catastrophe.**
@@ -119,6 +121,9 @@ Inside is a single probability:
 Lucid did not fail to predict the choice.
 
 **It predicted that they needed to believe it had.**
+
+*(And only one member would know that, and only one would say nothing about it for eleven months.
+Never stated — L-08b.)*
 
 ---
 

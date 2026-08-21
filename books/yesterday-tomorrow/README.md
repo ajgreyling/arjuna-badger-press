@@ -31,15 +31,19 @@ we did?*
 | `canon/STRUCTURE.md` | **Start here.** Why it is one novel, Weir mode, the dual-track architecture |
 | `canon/PLOT.md` | The spine — four movements, 40 sequences, cold open to **1.000000** |
 | `canon/STYLE_GUIDE.md` | Voice, clock discipline, problem discipline, what not to write |
-| `canon/CANON_LOCKS.md` | Binding decisions, L-01…L-28 |
-| `canon/SERIES_BIBLE.md` | Source bible — boundary map, dramatic engine, ethics, anti-tropes |
+| **`canon/LUCID_COURT.md`** | **The Court** — seven voices, three page registers, and why the Fool is the thesis |
+| `canon/CANON_LOCKS.md` | Binding decisions, L-01…L-29 |
+| `canon/BIBLE.md` | Source bible — boundary map, dramatic engine, ethics, anti-tropes |
 | `canon/WORLD_SYSTEM.md` | The five nodes and the machine's seven operating rules |
 | `canon/PHYSICS_ANCHORS.md` | Landauer (real) vs Vopson (fringe), and the line between |
 | `canon/CHARACTERS.md` · `CHRONOLOGY.md` · `OBJECTS.md` | Ensemble, dates, the Anchor and the Seed |
 | `canon/CONSENT_INSTRUMENT.md` | The three questions and their five designed flaws |
 | `canon/CRAFT.md` · `PLANT_PAYOFF.md` · `TERMINOLOGY.md` | Exposition loop, plants, vocabulary |
 | `canon/RETIRED_IDEAS.md` | Cut ideas **with their reasons**, so they are not re-argued |
-| `BEAT_LEDGER.md` | 63 beats from the two-book pass — still the richest scene material |
+| `canon/OPEN_DECISIONS.md` | What is genuinely still open — human review gates, and the Court-names question |
+| `canon/SOURCES.md` | References, in-shelf sources, and the legal/editorial note |
+| `canon/CHAPTER_LEDGER.md` | 58 chapters, draft status, and the known Court drift |
+| `BEAT_LEDGER.md` | 63 beats from the two-book pass — superseded as structure, still the richest scene bank |
 | `archive/` | The original Book I and Book II blueprints, reveals and seeds. Nothing deleted |
 
 ## Note on the beat ledger

@@ -11,7 +11,7 @@
 |---|---|---|
 | **2026** | 420 Code corpus, kill switches, Lucid demonstrations and independent executable checks circulate | Technopark engineers notice record-like structure in discarded weak-signal datasets |
 | **2027** | African universities announce a cross-disciplinary measurement collaboration | Karoo blind tests produce non-random persistent correlations |
-| **2028** | A precision result leaves a frozen 420 expression alive; another limb has already fired. Lucid Scientific launches | Ghana builds the first record-grammar ingestion pipeline — the Rain |
+| **2028** | A precision result leaves a frozen 420 expression alive; another limb has already fired. Lucid Scientific launches **as a Court** — the architecture is public and copyleft by now, and adopted because single-voice systems demonstrably fail | Ghana builds the first record-grammar ingestion pipeline — the Rain |
 | **2029** | The consortium forms around weak-signal metrology and sovereign scientific compute | Nairobi begins the search-method work that will remove the GPU requirement |
 
 ## LAYER P — story clock

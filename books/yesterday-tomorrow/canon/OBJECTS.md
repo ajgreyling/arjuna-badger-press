@@ -34,8 +34,11 @@ The Antarctic station's own archive holds a signed, timestamped file describing 
 
 The last object. Created by Lucid **before** the intervention, timestamped, containing one number.
 
-- It must be established as *ordinary* long before it matters: Lucid writes sealed pre-commitments
-  routinely, as a falsifiability discipline. G insisted on the practice in Act I.
+- It must be established as *ordinary* long before it matters: the Court writes sealed
+  pre-commitments routinely, as a falsifiability discipline. G insisted on the practice in Act I.
+- **It is the Fool's, and this is never stated** (L-08b). No character says so. The evidence a
+  rereader assembles: which member has least to say whenever the corridor is computed, and which one
+  is silent for six hours in ch-39.
 - Nobody may explain the implication aloud. One character opens it and the chapter ends.
 - It is never opened twice, and there is no second file.
 

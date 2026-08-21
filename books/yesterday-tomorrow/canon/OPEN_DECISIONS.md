@@ -1,6 +1,6 @@
 # Still Open — *YESTERDAY, TOMORROW*
 
-> **Everything structural is locked.** See [`CANON_LOCKS.md`](CANON_LOCKS.md) (L-01…L-26) and
+> **Everything structural is locked.** See [`CANON_LOCKS.md`](CANON_LOCKS.md) (L-01…L-29) and
 > [`RETIRED_IDEAS.md`](RETIRED_IDEAS.md). Drafting proceeds against those.
 >
 > What remains is **human review only**. None of it blocks beats or prose; all of it must clear
@@ -18,6 +18,13 @@
 | **420 Code terminology review** | G | Derivation status, live vs fired kill switches, what remains incomplete, the Landauer/Vopson boundary, and whether "compression grammar beneath physical law" is a claim he will stand behind in fiction. |
 | **Lucid architecture review** | AJ / G | The line between deployed prototype, proprietary mechanism, and fictional descendant. |
 | **Cryptography and provenance** | Security reader | That hashes, signatures, Merkle roots and timestamps are not overstated — especially the valid-signature paradox, which must be technically exact to work. |
+
+## Also open — craft
+
+Whether **Arin's seven Court names stay verbatim** (Atlas, Librarian, Mercury, Wolf, Mother, Judge,
+Fool), which ties this book hard to *RESONANCE* and gives its readers a jolt when Wolf speaks — or
+whether the forecasting instrument gets its own Court. Canon currently keeps the seven
+(`LUCID_COURT.md`).
 
 ## Notes
 

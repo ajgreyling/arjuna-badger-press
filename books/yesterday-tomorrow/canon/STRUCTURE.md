@@ -74,6 +74,22 @@ Three escalations, each one earned by the last, none of them a genre change:
    inside it, and every intervention is ingested into the next forecast. This is what makes the
    thriller unwinnable by competence, which is what makes Act III possible.
 
+## The Court, and why the Fool is the thesis
+
+Lucid runs as a **Court** (`LUCID_COURT.md`) — seven members differing in *how they attend*, from
+Arin Ndlela's architecture in *RESONANCE*. This is not a voice-over device. It is what makes the
+ideas dramatic: the corridor is argued about, in front of the humans, by voices that disagree.
+
+And *RESONANCE*'s own appendix already wrote this book's thesis:
+
+> *"We are watching, in real time, what happens to a civilisation that has optimised its Fools out of
+> the room: it becomes very clever, very powerful, and quietly insane, a Court with no one left to
+> puncture its consensus."*
+
+Kiki's declining residual — twenty years of the unmodellable fraction falling, one sensible
+improvement at a time — **is** a civilisation optimising its Fools out of the room. The catastrophe
+and the Court are the same shape at two scales, and the Fool's silence is the instrument reporting it.
+
 ## The blind spot
 
 Lucid is **not evil, not conscious, not disobedient.** It is doing exactly what it was built to do,

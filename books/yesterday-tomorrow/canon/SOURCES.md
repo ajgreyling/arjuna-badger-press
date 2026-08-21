@@ -14,6 +14,14 @@ Primary public references consulted for this scaffold:
 - `lucid.rodeo/the420code/proofs/ethical-casino/` — paper-trading teaching instrument and explicit no-edge boundary
 - `technopark.org.za` — Technopark's real business-park context; company and location details require final fact-check before publication
 
+## In-shelf sources
+
+- **`books/resonance/canon/`** — the Court architecture (SAGE), its seven members, and the appendix
+  on the Court as a model of the psyche. Arin Ndlela's invention; this book inherits the shape, not
+  the story. See `LUCID_COURT.md`.
+- **`books/the-prophet-and-his-brother/canon/`** (*Afrika 2035*) — Lucid's origin chain, the One
+  Record as corpus, and the end state this novel must not contradict (L-27).
+
 > **LEGAL/EDITORIAL NOTE** — All university, scientific-infrastructure, company and institutional
 > participation in the novels is **fictional unless separately licensed or confirmed**. Use fictional
 > consortium entities where real-world attribution could imply endorsement or misconduct.

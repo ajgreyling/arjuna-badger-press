@@ -5,7 +5,11 @@
 
 | Plant | Where | Immediate function | Payoff |
 |---|---|---|---|
-| **Sealed pre-commitments** — Lucid writes a timestamped forecast file before acting, as falsifiability discipline | Act I, G insists on it | Looks like G being pedantic about method | **The ending.** The 1.000000 file is this practice, and it is therefore not a trick |
+| **Sealed pre-commitments** — the Court writes a timestamped forecast before acting, as falsifiability discipline | Act I, G insists on it | Looks like G being pedantic about method | **The ending.** The 1.000000 file is this practice, and is therefore not a trick |
+| **The Fool exists and nobody knows why** | Act I, first Court scene | Comic relief; an irritant; someone asks what it is *for* and gets no good answer | It is the only member that can hold an act not reducible to advantage — the blind spot, and the escape |
+| **The Fool has least to say when the corridor is computed** | Act II-A, remarked on as a curiosity | Reads as the machine being serious | It is the instrument reporting the depletion, two hundred pages before anyone reads it that way |
+| **The Fool is silent for six hours** (ch-39) | Act II-B | Dumisani asks whether to flag it as a fault | G: *log it, do not flag it.* The line a rereader stops on |
+| **Mercury renders elegantly** | Throughout | He is the most useful member in a meeting | Rendering is compression; compression discards constraints. He is sincere and lossy and it costs |
 | Failed 420 limb stays red on screen | Act I | Proves the project records its own failures | The catastrophe forecast is believed because this system can be wrong in public |
 | Landauer — erasure is priced | Act I | Answers Dries's plumber question about *Record* | Deletion is the one irreversible operation; every attempt to un-know something costs |
 | "The noise is the payload" | Act I | Preserves anomalous raw data | Behavioural variation dismissed as noise is what the corridor cannot model |

@@ -29,7 +29,8 @@
 - **Lwazi ↔ G** — credentialled experimentalist versus outsider theorist. Each needs the other and resents that fact.
 - **Sanna ↔ Ama** — Antarctica supplies the temporal signal; Ghana decides whether it is contamination. Their professional dispute becomes **the hinge of both books**.
 - **Naledi ↔ Mercer** — sovereignty versus universal stewardship. Both can articulate real harms caused by the other's preferred model.
-- **G ↔ Lucid** — creator of the corpus versus a machine that operationalises it. **Lucid must be able to refuse even G.**
+- **G ↔ the Court** — creator of the corpus versus seven voices that operationalise it. **Judge must be able to refuse even G**, and does, in public, in Act II-A, with Librarian reading his own 2026 footnote back to him.
+- **The room ↔ the Fool** — nobody understands why it is in the architecture. It is funny, it is an irritant, and it is the only member with nothing to contribute exactly when the corridor is computed. See `LUCID_COURT.md`.
 - **Dries ↔ Hennie** — twenty years of the same office park. Dries has never once thought about where the money comes from, which is the point.
 - **Kiki ↔ her own method** — the elegance that made the search possible is what made it universal, and universality is what made reflexivity global. Her arc is not betrayal; it is authorship.
 

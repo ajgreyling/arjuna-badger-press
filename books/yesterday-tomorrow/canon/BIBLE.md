@@ -48,6 +48,7 @@ consequence and a character cost.
 - That match is **not yet confirmation of a preregistered prediction**: the freeze occurred *after* CODATA 2022. Future precision measurements provide the genuine forward test.
 - The numerical **neutron–proton limb has fired**. The fiction should retain this visible failure, because falsifiability is part of the system's identity.
 - Lucid currently demonstrates offline/browser reasoning, a curated first-principles graph, compute-before-guessing, cite-or-refuse behaviour, encrypted portable context and a tamper-evident Coherence Ledger.
+- **The Court architecture is real in-world and belongs to Arin Ndlela** (*RESONANCE*): a distributed internal society rather than a single voice, on the conviction that single-agent systems fail because human cognition is not singular. By this book it is public, copyleft, and how Lucid runs (`LUCID_COURT.md`).
 - The real Ethical Casino uses real market candles, fake chips and honest odds; it explicitly **does not claim a trading edge**.
 
 ### Fictional extrapolation ladder
@@ -55,7 +56,7 @@ consequence and a character cost.
 | Level | Capability | Status inside story |
 |---|---|---|
 | **2026** | Lucid Offline: local, sovereign, curated graph, sandboxed arithmetic, explicit refusal | Real-world-inspired baseline |
-| **2028** | Lucid Scientific: larger inspectable graph spanning published science and instrument telemetry | Plausible near-future engineering |
+| **2028** | Lucid Scientific: larger inspectable graph spanning published science and instrument telemetry, running as a **Court** | Plausible near-future engineering |
 | **2030** | Record interferometry: correlation in vacuum/field noise survives blind laboratory controls | **Primary speculative break** |
 | **2031** | The compression grammar: four independent derivations of one relationship beneath physical law | **Act I invention** |
 | **2032** | Constrained forward computation: present state plus the grammar yields a decaying corridor of admissible next states | **The novel's central invention** |
@@ -127,7 +128,8 @@ The novels must let opposed positions remain intelligent.
 
 > **The answer** — Kindness is not an instruction pasted onto physics. It is the practice of
 > preserving another being's room to exist and choose. In this book that stops being an ethic and
-> becomes a **mechanism**: the one class of act the optimiser cannot model.
+> becomes a **mechanism**: the one class of act the optimiser cannot model — and the one member of
+> the Court that can hold it.
 
 ---
 

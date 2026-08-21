@@ -12,7 +12,9 @@
 | **The corridor** | The narrowing set of states the world can still reach. What Lucid computes. **Never** "the future" |
 | **Reflexivity** | Once a prediction is known, the knowers become variables in it. The book's central danger |
 | **Pre-commitment** | A sealed, timestamped forecast written before acting, as falsifiability discipline. G's practice, and the ending's mechanism |
-| **The blind spot** | The class of act whose value is not reducible to advantage — unmodelled, not unlikely |
+| **The blind spot** | The class of act whose value is not reducible to advantage — unmodelled, not unlikely. **The Fool's territory** |
+| **The Court** | Lucid's seven members, differing in *how they attend*: Atlas, Librarian, Mercury, Wolf, Mother, Judge, Fool. Architecture from *RESONANCE*. See `LUCID_COURT.md` |
+| **A ruling** | Judge's refusal, with reasons, in the monospace register. Never a status string, never a bare error |
 | **Uncertainty field** | Spatial and temporal display of supported, unsupported and multiply possible reconstruction |
 | **The Rain** | Ghanaian operational name for raw incoming correlation data |
 | **Witness Protocol** | Nairobi's provenance, quorum and reproducibility framework |

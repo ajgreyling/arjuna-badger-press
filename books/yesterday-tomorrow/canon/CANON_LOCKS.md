@@ -46,8 +46,19 @@
   smooth version is always the fake.
 - **L-07 · Landauer is foundation; Vopson is fringe** (`PHYSICS_ANCHORS.md`). The consortium never
   claims information has mass. *You cannot forget for free* is the series' physical thesis.
-- **L-08 · The Reader never invents.** Lucid computes, cites, conflicts or refuses. Never a POV,
-  never a voice, never cute. It can refuse **G**, and does, on the page, in Act I.
+- **L-08 · Lucid runs as a Court.** Seven members — Atlas, Librarian, Mercury, Wolf, Mother, Judge,
+  Fool — distinguished **not by what they know but by how they attend** (Arin Ndlela's architecture,
+  *RESONANCE*). Intelligence through disagreement, never consensus. Full spec and the three page
+  registers: **`LUCID_COURT.md`**, which is binding and supersedes every earlier description.
+  Still true: computes, cites, conflicts or refuses; never a POV; never cute; refuses **G** on the
+  page. What changed is that refusal is now **Judge's ruling with reasons**, not a status string.
+- **L-08b · The Fool is load-bearing and never explained.** Present from Act I as an irritant nobody
+  understands. It has **least to say exactly when the corridor is computed** — remarked on as a
+  curiosity long before it means anything — and it is **silent for six hours** in the session about
+  the instrument's own termination (ch-39), which G orders *logged, not flagged*. The Fool's silence
+  is the instrument reporting the depletion, and nobody reads it that way for two hundred pages.
+  **The 1.000000 file is the Fool's, and this is never stated.** A rereader can find it; a first
+  reader cannot.
 
 ## Archived — the historical case
 

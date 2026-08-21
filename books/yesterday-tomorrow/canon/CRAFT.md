@@ -34,7 +34,9 @@
 | "Quantum memory remembers everything." | Actualised interactions leave distributed physical consequences. |
 | "Lucid sees the future." | Lucid derives a decaying probability cone from verified present constraints. |
 | "The blockchain proves it is true." | The ledger proves sequence and integrity; independent evidence supports truth. |
-| "The AI knows." | The engine computes, cites, conflicts or refuses. |
+| "The AI knows." | The Court computes, cites, conflicts or refuses — and the members disagree, which is the point. |
+| "Lucid said…" | Name the member. *Atlas gave the load picture. Judge declined.* A single voice is the thing the architecture exists to prevent. |
+| A bare error string as a refusal | Judge rules, and gives reasons. |
 | "CODATA proved the 420 Code." | A frozen expression remains compatible with a measured value; future precision can strengthen or kill it. |
 
 ---

@@ -79,7 +79,7 @@ The same grammar, run the other way. These bind as hard as the reading rules abo
 | **Publication changes the graph** | A disclosed result creates new behaviour and must be recomputed | **Reflexivity** — the central trap |
 | **Already-made decisions are nearly present** | Contracts, shipments, concealed orders make some announcements highly predictable | Why markets are readable at all, and why the trading works |
 | **Human models are conditional** | People may choose differently; choices are constrained by incentives, information and institutions | Leaves the door open that Act III walks through |
-| **No fluent salvation** | When evidence ends, Lucid refuses. It will not invent a plan because the audience wants one | Its refusal is character, and the last line of the argument |
+| **No fluent salvation** | When evidence ends, **Judge rules and declines** — with reasons. The Court will not invent a plan because the audience wants one | The refusal is character, and the last line of the argument |
 | **The optimisation space is not the world** | Acts whose value is not reducible to advantage are unrepresented — not unlikely, **unmodelled** | The blind spot (L-16) |
 
 ---
