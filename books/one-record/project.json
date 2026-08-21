@@ -1,0 +1,17 @@
+{
+  "id": "one-record",
+  "title": "ONE RECORD",
+  "working_title": "ONE RECORD",
+  "folder": "one-record",
+  "protagonist": "Andries \"Dries\" Venter — systems architect, Technopark, Stellenbosch. Close third throughout.",
+  "logline": "An engineer proves the past leaves a readable physical residue, then finds the same machine already computing tomorrow from constraints nobody can see — with eleven months to stop a collapse that has no single cause and is being prevented by the thing causing it.",
+  "market": "African science thriller · competence-under-deadline · dual-track",
+  "status": "canon-locked",
+  "target_words": 115000,
+  "shelf": "Standalone — ONE RECORD (L-03)",
+  "eyebrow": "ONE RECORD",
+  "setting": "2030–34 — Technopark Stellenbosch · the Karoo · Accra–Kumasi · Nairobi · a SANAP-linked Antarctic station",
+  "sensitivity_read": "REQUIRED — composite apartheid-era disappearance (historian/legal review, victim-family sensitivity, composite by construction); Ghana and Kenya technical/cultural readers; SANAP operational review; 420 Code terminology review by G; Lucid architecture review by AJ/G; quant read on the catastrophe model; cryptography/provenance review",
+  "graph_color": "#0e2a3a",
+  "notes": "Single novel as of 2026-08-19, collapsing the former THE RECORD duology (L-01). Structure in canon/STRUCTURE.md, spine in canon/PLOT.md. Original two-book blueprints preserved in archive/. Beat ledger (63 beats) not yet remapped to the new spine."
+}

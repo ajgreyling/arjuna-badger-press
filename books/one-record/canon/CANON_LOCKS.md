@@ -1,7 +1,8 @@
 # Canon Locks — *THE RECORD*
 
-> **Full send, 2026-08-19.** Everything the bible left at "recommended default" is now **LOCKED**,
-> and every divergence from the earlier premise is resolved. Drafting may proceed against this file.
+> **Full send, 2026-08-19.** Everything the bible left at "recommended default" is **LOCKED**.
+> **Revised 2026-08-19 (L-01, L-02, L-04, L-28): the duology is collapsed into one novel in Weir
+> mode.** Read `STRUCTURE.md` for why, then `PLOT.md`. Drafting proceeds against those two.
 >
 > **LOCKED = binding.** Changing a lock is a deliberate act with a dated note, not a drift.
 > What genuinely remains open is short and lives in `OPEN_DECISIONS.md` — it is all human review,
@@ -11,17 +12,22 @@
 
 ## Series shape
 
-- **L-01 · Form and names.** **Duology.** Series title **ONE RECORD**. Book I ***The Record***;
-  Book II ***The Forward Cone***. No book three. The Book II ending is written as closure, not a door.
-  *(Set 2026-08-19. The series title was briefly THE RECORD, which collided with Book I's title on
-  the spine. ONE RECORD breaks the collision and is already a term in shelf continuity — see L-27.)*
-- **L-02 · Years.** Book I **2031**. Book II **2033–34**. Chronology per `CHRONOLOGY.md` is binding,
-  including the hidden column.
-- **L-03 · Shelf.** Its own line — **ONE RECORD**, not an African Gold companion. It shares a
+- **L-01 · Form and name.** **One novel**, titled ***ONE RECORD***. No duology, no sequel.
+  *(Changed 2026-08-19, superseding the duology lock. Reason on the record: Book I had no clock, no
+  physical jeopardy, no single protagonist, and a climax that was a publication. Book II held the
+  countdown, the stake and the irreversible decision. Splitting them starved the first half and
+  delayed the second. `The Record` and `The Forward Cone` survive as part-title candidates only.)*
+- **L-02 · Mode.** **Weir.** Competence under a deadline: one mind the reader solves alongside,
+  problems that fail informatively, improvisation that costs, humour under pressure, checkable
+  science. Faster, never shallower — the anti-tropes (L-24) bind unchanged.
+- **L-04 · POV.** **Close third on Dries Venter, throughout.** Not first person; he withholds the
+  cold open from the reader and a first-person narrator doing that is cheating. The other four are
+  voices, not skulls. **One** interiority exception, Sanna, once, in Part Four.
+- **L-02b · Years.** The build track runs from **2030**; the countdown runs **2033–34**. Chronology
+  per `CHRONOLOGY.md` is otherwise binding, including the hidden column.
+- **L-03 · Shelf.** Standalone, its own entry — **ONE RECORD**, not an African Gold companion. It shares a
   universe with *Afrika 2035* and must not contradict its end state, but it is not shelved under it.
-  Eyebrow: `ONE RECORD · BOOK I` / `ONE RECORD · BOOK II`.
-- **L-04 · Primary POV.** **Dries Venter**, with rotating close-third ensemble chapters across the
-  five nodes. One consciousness per section.
+  No book-number eyebrow.
 
 ## The machine
 
@@ -33,7 +39,7 @@
 - **L-08 · The Reader never invents.** Lucid computes, cites, conflicts or refuses. Never a POV,
   never a voice, never cute. It can refuse **G**, and does, on the page, in Book I.
 
-## Book I
+## The historical case (build track)
 
 - **L-09 · The case is composite — by construction, permanently.** An apartheid-era disappearance at
   a temporary security installation whose site was later developed into an ordinary business park.
@@ -52,10 +58,12 @@
   survives; both attack the machine.
 - **L-13 · The limit that makes it fair.** The machine proves a fall and cannot prove a hand.
   Intention is not in the residue. Concealment is — and concealment is where the moral weight sits.
-- **L-14 · The sting.** A signed Lucid job timestamped seconds before its human submission. Dries
-  does not log it. Book II opens there.
+- **L-14 · The nine seconds.** A signed Lucid job timestamped nine seconds before its human
+  submission. **It is the cold open, not a closing sting** — the reader holds it from page one and
+  watches Dries conceal it. He logs it in the last pages, into a ledger that can no longer be joined
+  to anything.
 
-## Book II
+## The countdown (present track)
 
 - **L-15 · The true catastrophe is the Convergence** — predictive monoculture, not an event.
 - **L-16 · Catastrophe symptoms:** food/logistics + grid + market + defence coupling. No climate-only
@@ -97,6 +105,13 @@
   smaller scale. No machine rule is concealed to manufacture a twist.
 - **L-26 · Cost is always visible.** Compute, grid, queue position, custody, a night nobody slept.
   A free query is a continuity error.
+
+- **L-28 · The weld.** The family's three questions are not a subplot: the consent boundary written
+  for one dead man is **the template Dries uses to partition global foresight** (sequence 39). Small
+  engineered mercy becomes the large one. This is the reason the two halves are one book, and no
+  revision may sever it.
+- **L-29 · Dual track.** Present-tense countdown intercut with the past-tense build, converging at
+  the end of Part Two. Every laboratory beat carries clock pressure it could never carry alone.
 
 ## Continuity with *Afrika 2035*
 

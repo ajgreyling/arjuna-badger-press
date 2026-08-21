@@ -6,6 +6,33 @@
 
 ---
 
+## The duology structure
+
+**Cut 2026-08-19 (L-01).** Two books: *The Record* (read-only history, 2031) and *The Forward Cone*
+(prediction, 2033–34), with the forward-correlation hook as Book I's closing sting.
+
+**Why it is cut:** Book I did not work, and not for want of good beats. It had **no clock** — its
+pressure was institutional, and institutional pressure has no deadline. It had **no body** — nothing
+was ever physically at risk. It had **no protagonist** — five co-equal POVs across five cities means
+nobody carries it. And its climax was **a publication**: correct, admirable, inert.
+
+Book II held every missing piece: an eleven-month countdown, a civilisation-scale stake, and a
+decision that costs something irreversible. Split, the first half starved and the second was
+withheld for a book.
+
+**What the merge bought:** a cold open on the nine-second receipt; a dual-track architecture where
+the laboratory story is told *under* a running clock instead of before one; a physical act on the ice;
+and the weld in L-28 — the three questions becoming the partition template — which neither book could
+have had alone.
+
+**What it cost:** the courtroom admissibility arc, the substitute quorum, the diplomatic rupture, the
+second independent anchor, the procedural siege, and the six-discovery reconstruction at full length.
+Blueprints preserved in `../archive/`; most survive as texture.
+
+**If ever revived:** it should not be. The material is one novel and always was.
+
+---
+
 ## A record that existed before the event that created it
 
 **Cut 2026-08-19 (L-22).** From the earliest premise pass: the Antarctic clock returns a timestamp

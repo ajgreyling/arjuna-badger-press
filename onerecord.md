@@ -1,11 +1,15 @@
 # ONE RECORD — handover
 
-> African science-thriller duology. **Book I *The Record*** (2031) · **Book II *The Forward Cone***
-> (2033–34). Canon locked 2026-08-19 and **merged to `master`**. **Zero prose written.**
+> **One novel**, African science thriller in Weir mode. Canon locked 2026-08-19 and merged to
+> `master`. **Zero prose written.**
+>
+> **Structure changed 2026-08-19:** the duology is collapsed into a single book. Book I had no clock,
+> no physical jeopardy, no single protagonist, and a climax that was a publication. Book II held the
+> countdown and the stake. See `books/one-record/canon/STRUCTURE.md` — read it before anything else.
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
-> `books/the-record/`.
+> `books/one-record/`.
 
 ---
 
@@ -20,17 +24,19 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 
 > The universe is the archive. The 420 Code is the codec. The machine is the reader.
 
-**Series thesis, one line:** *you cannot forget for free.*
+**Thesis, one line:** *you cannot forget for free.*
 
 ## 2 · Where things stand
 
 | Layer | State |
 |---|---|
-| Series canon | **Locked** — `canon/CANON_LOCKS.md`, L-01…L-27 |
-| Book I blueprint | Complete — 24 sequences, `books/book1-the-record/canon/PLOT.md` |
-| Book II blueprint | Complete — 27 sequences, `books/book2-the-forward-cone/canon/PLOT.md` |
-| **Beat ledger (live)** | **63 beats** — `books/book1-the-record/BEAT_LEDGER.md`, full Book I spine |
-| Consent instrument | Drafted with its five designed flaws — `books/book1-the-record/canon/CONSENT_INSTRUMENT.md` |
+| Canon | **Locked** — `canon/CANON_LOCKS.md`, L-01…L-29 |
+| **Structure** | **`canon/STRUCTURE.md`** — one novel, Weir mode, dual track. Read first |
+| **Spine** | **`canon/PLOT.md`** — five parts, 42 sequences, cold open → final refusal |
+| Style guide | `canon/STYLE_GUIDE.md` — voice, clock, problem discipline |
+| Two-book blueprints | Preserved, superseded — `archive/` |
+| Beat ledger | **63 beats** — `BEAT_LEDGER.md`. Written against the two-book shape; **not yet remapped**. Best scene material in the project |
+| Consent instrument | Drafted with its five designed flaws — `books/one-record/canon/CONSENT_INSTRUMENT.md` |
 | Chapter ledger | Not built. Blocked on human review, not on decisions |
 | Prose | **None** |
 | Site | Not listed in `site/build.py`. Nothing ships until an id is added to `PUBLISHED` |
@@ -115,7 +121,9 @@ operational review · G on 420 terminology and the Landauer/Vopson boundary · L
 **Done since the first handover:** the consent instrument (Beat 23a + its own canon file), G's spine
 (Beats 3 · 36a · 39a · 52a), Naledi from inside her office (Beats 33a · 48a).
 
-1. **Two pages of real prose — Beat 1 and Beat 16.** Do this first, before anything else on this
+1. **Remap the beat ledger to the new spine.** 63 beats of good scene material, written against a
+   structure that no longer exists. This is now the first structural job.
+2. **Two pages of real prose — the cold open and sequence 8.** Do this first, before anything else on this
    list. The canon is now tightly specified and has never met a sentence. If the voice fights the
    architecture, discover it at 800 words, not at 40,000.
 2. **Ensemble names.** Highest-leverage unlock. All 63 beats use provisional names pending Ghanaian,
