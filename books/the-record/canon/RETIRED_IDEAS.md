@@ -34,6 +34,18 @@ feedback rather than by mystery.
 **If ever revived:** it belongs to a different book, not this duology, and it needs the 420 grammar
 to have a fifth condition to fall back on. It does not.
 
+**REVIVED 2026-08-21 — elsewhere, as predicted.** The shape now lives in `books/pk-man/`
+(*INTERFACE ONE*), a standalone novel set in **2036–37**, after the partition. It does not need a
+fifth condition in the 420 grammar because it does not touch the grammar: it reads forward from
+**L-14** — the signed Lucid job timestamped seconds before its human submission, which Dries does
+not log — rather than backward into the duology's years. See
+`books/pk-man/canon/CONTINUITY_FIREWALL.md`.
+
+> **Reciprocal obligation: L-14 must survive any future revision of ONE RECORD.** It is now
+> load-bearing for a second book. A future editor tidying it away as an unresolved thread would
+> silently break *INTERFACE ONE*'s entry point. The cut above stands unchanged for Books I and II;
+> nothing in L-01…L-27 was amended to make the other book work.
+
 ---
 
 ## The BARA joke
