@@ -78,14 +78,24 @@
 
 | | |
 |---|---|
-| **Drafted** | **ch 01–58** · **66,019 words** · `../build/chapters/` |
+| **Drafted** | **ch 01–58** · **68,159 words** · `../build/chapters/` |
 | **Assembled** | `../build/BOOK.md` — 58 chapters, blank-line separated for pandoc splits |
 | **Court pass** | ch-26 and ch-39 rewritten as demonstration. **Every other Lucid appearance still reads as flat generated prose and needs threading** — that is the tell to search for |
 | Ending | Written with the Court: ch-57 is G asking each member in turn and reaching the one that does not answer; ch-58 is the hundred and forty bytes |
 | Assembly | `../build/BOOK.md` — not yet assembled |
 | Site | **not listed** in `site/build.py`. The id is the gate |
 
-## Known drift to fix in the Court pass
+## Court pass — COMPLETE 2026-08-21
+
+The Fool thread runs in order across thirteen chapters: **08** introduced ("you'll know") · **18**
+punctures the ladder · **20** Dumisani's tally, and G's *ask me again in a year* · **26** Judge
+refuses G · **28** speaks once in nine hours · **34** Lwazi's slide, *measure and not interpret* ·
+**39** the first zero, logged not flagged · **41** Judge stops Mercury mid-rendering · **43** the
+last four weeks of a category · **44** *I could have told you that in about 2031*, then declines and
+asks for the timestamp · **52** speaks for the first time in four days · **57** the tally in a folder
+· **58** the last question.
+
+## Historical — drift fixed in the pass
 
 - Chapters written before the Court exists refer to *the system*, *the return*, *it refused*. Each
   needs a member's name and, where it carries a scene, an argument.
@@ -93,11 +103,10 @@
   with reasons**, in the monospace register, and only there.
 - Chapters 49 and 50 were drafted after the Court canon but before the rewrite pass and still use
   the old register.
-- Chapters 51–58 were written **with** the Court and need no pass. Use ch-52, ch-54, ch-57 and
-  ch-58 as the reference register for fixing the rest.
+- Chapters 51–58 were written **with** the Court. Reference register: ch-52, ch-54, ch-57, ch-58.
 
-## Length
+## Length — resolved
 
-66,019 words over 58 chapters — a lean thriller, well short of the 110–120k in `STRUCTURE.md`.
-Decide deliberately: accept it and update the target, or expand in the Court pass, which is the
-natural place because argument takes room. Do not pad narration to reach a number.
+**68,159 words.** The 110–120k target is retired; `STRUCTURE.md` now carries a revision target of
+**75–85k**, with the room to grow located in the Court scenes rather than in description or
+additional incident.

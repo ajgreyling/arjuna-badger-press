@@ -126,7 +126,17 @@ The world arrives after the work succeeds.
 
 Then the ending: one encrypted file, timestamped before the intervention, containing **1.000000**.
 
-Detail in `PLOT.md`. Length target **110–120k**, 55–65 chapters.
+Detail in `PLOT.md`.
+
+**Length — revised 2026-08-21 against the delivered draft.** The target was 110–120k. The first
+draft came in at **68,159 words over 58 chapters**, and the honest reading is that this spine is a
+lean book: four movements, one clock, no subplot that survived the restructure, and an ending that
+turns on a hundred and forty bytes. Padding narration to reach a number would damage exactly the
+quality the book is arguing for.
+
+**Working target for revision: 75–85k.** The room to grow is in the Court — argument takes space,
+and the six scenes where seven voices disagree are the ones a reader will slow down for. Not in
+description, and not in more incident.
 
 ## What this costs — flagged, not hidden
 
