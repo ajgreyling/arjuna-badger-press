@@ -84,7 +84,7 @@ fi
 # The same BOOK.md feeds both formats; telling a PDF reader "a PDF is available" is pointless and
 # the EPUB is the one without the cover-page/images. So we render the EPUB from a temp copy that
 # leads with the note, and render the PDF from the untouched BOOK.md.
-EPUB_SRC="$(mktemp -t abp-epub-src).md"
+EPUB_SRC="$(mktemp -t abp-epub-src.XXXXXX).md"
 {
   printf '::: {.pdf-availability role="note"}\n'
   printf '**Reading this as an e-book?** A free, fully-illustrated **PDF** of this book — with the\n'
@@ -133,7 +133,7 @@ rm -f "$EPUB_SRC"
 
 # ---- PDF: tectonic, Atkinson body + a `dossier` (Courier Prime) environment for The File --------
 # Pass the absolute font dir to LaTeX, then include the dossier header (defines \begin{dossier}).
-PDF_HEADER="$(mktemp -t abp-pdf-header).tex"
+PDF_HEADER="$(mktemp -t abp-pdf-header.XXXXXX).tex"
 
 {
   printf '\\def\\ABPFONTDIR{%s}\n' "$FONT_DIR"
@@ -150,7 +150,7 @@ PDF_HEADER="$(mktemp -t abp-pdf-header).tex"
 PDF_BEFORE=()
 PDF_TITLE_ARGS=()
 if [ -n "$COVER" ]; then
-  PDF_COVER_TEX="$(mktemp -t abp-pdf-cover).tex"
+  PDF_COVER_TEX="$(mktemp -t abp-pdf-cover.XXXXXX).tex"
   printf '\\AddToShipoutPictureBG*{\\put(0,0){\\includegraphics[width=\\paperwidth,height=\\paperheight]{%s}}}%%\n\\thispagestyle{empty}\\mbox{}\\clearpage\n' "$COVER" > "$PDF_COVER_TEX"
   PDF_BEFORE=(--include-before-body "$PDF_COVER_TEX")
   # Cover IS the title page → suppress pandoc's \maketitle entirely so the full-bleed cover is
@@ -175,7 +175,7 @@ PDF_CLASSOPT=()
 # House colophon as the final page (ABP mark + Klaus crest, centred). Every book, unless NO_COLOPHON=1.
 PDF_AFTER=()
 if [ -z "${NO_COLOPHON:-}" ] && [ -f "$COLOPHON_LOGO" ]; then
-  PDF_COLOPHON_TEX="$(mktemp -t abp-pdf-colophon).tex"
+  PDF_COLOPHON_TEX="$(mktemp -t abp-pdf-colophon.XXXXXX).tex"
   {
     # Optical centring: anchor top glue with \null, weight the lower glue heavier so the marks
     # sit at the optical centre (slightly above mathematical middle), the classic colophon position.
