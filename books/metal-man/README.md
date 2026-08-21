@@ -56,17 +56,47 @@ impossible enters through ordinary household objects.
 
 ## Status
 
-Scaffolded 2026-08-21. Full canon in [`canon/`](canon/) — 16 files. Drafting in
-[`manuscript/`](manuscript/).
+Scaffolded and drafted 2026-08-21. Full canon in [`canon/`](canon/) — 16 files. Complete five-act
+draft in [`manuscript/`](manuscript/): 40 chapters plus front matter and four metal-register
+interstitials, merged to [`build/BOOK.md`](build/BOOK.md) by [`build.py`](build.py) in the order
+given by [`manuscript/ORDER.txt`](manuscript/ORDER.txt).
 
-**Nothing is live.** Not in `PUBLISHED`, no `SERIES` entry, no `CURATED` tuple, no cover, no exports.
+**~52,500 words.** This is a complete arc at roughly half the 115k target in
+[`project.json`](project.json) — every beat in [`canon/PLOT.md`](canon/PLOT.md) is written and every
+PP-ID in [`canon/PLANTS_AND_PAYOFFS.md`](canon/PLANTS_AND_PAYOFFS.md) is planted and paid, but the
+chapters run lean (~1,300 words against a house norm of 2,800–3,500). The expansion pass is
+scene-work, not structure.
+
+### Audits run
+
+- **Number tics** (the *Surgeon* failure mode): "four" was at 1 per 351 words on first draft. Load-
+  bearing figures kept — the four grams of iron, the watch's stopped hour, twelve minutes to four,
+  the broadcast hour — reflexes varied. Now 1 per ~490, matching the *Surgeon*'s post-fix rate.
+  Checked that the replacements did not become the new tic.
+- **`tools/prose_tics.py`**: 0 drift sentences, 0 drift 7-grams. Deliberate refrains are listed in
+  [`canon/MOTIFS.txt`](canon/MOTIFS.txt) and pass as motifs.
+- **Em-dashes**: first draft ran 12.0/1k with spaced dashes throughout. House style is unspaced
+  (verdigris, Lacework); spaced dashes closed up, conjunction and appositive dashes commafied. Now
+  9.9/1k against 7.5–8.1 for the published house books. **Still above house norm** — the remaining
+  pass belongs to `tools/de_llm_pass.py`, not to regex.
+
+### Not done
+
+- No cover. `design/` is empty — Pillow and any image API are absent in this container
+  (see `memory/arjuna-badger-press/render-cover-geometry` and `render-gate-remote-container`).
+- No EPUB/PDF. The render gate needs pandoc and a GNU `mktemp` shim in-container, and tectonic is
+  absent, so PDF would not build here in any case.
+- No fact-check pass. [`canon/THE_REAL_RECORD.md`](canon/THE_REAL_RECORD.md) is compiled from
+  general knowledge and is **explicitly unverified**.
+
+**Nothing is live.** Not in `PUBLISHED`, no `SERIES` entry for the Impossible Lives shelf, no
+`CURATED` tuple.
 
 **Before any publish decision** — the subject is alive, is eighty, and has litigated over his
 portrayal for fifty years. The gate is in [`canon/LIVING_PERSONS.md`](canon/LIVING_PERSONS.md) and it
 is not optional:
 
 - legal read (defamation + privacy; UK and Israel exposure)
-- fact-check pass against primary sources ([`canon/THE_REAL_RECORD.md`](canon/THE_REAL_RECORD.md) is
-  compiled from general knowledge and is **explicitly unverified**)
-- Author's Note stating what is documented and what is imagined
+- fact-check pass against primary sources
+- Author's Note in front matter — drafted, at [`manuscript/AUTHORS_NOTE.md`](manuscript/AUTHORS_NOTE.md)
 - a written approach to the subject, or a recorded decision not to

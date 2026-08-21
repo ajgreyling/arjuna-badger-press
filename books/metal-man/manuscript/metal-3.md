@@ -7,7 +7,7 @@ direction, and the direction is always the same one.
 
 Before: loose, then shape, then the record ends.
 
-Now: loose — and before the shape arrives there is a length of time that did not used to be there.
+Now: loose—and before the shape arrives there is a length of time that did not used to be there.
 
 In the length of time, nothing.
 

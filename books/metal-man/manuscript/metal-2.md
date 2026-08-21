@@ -13,8 +13,8 @@ Rolled and cut and struck and stacked.
 Then a different thing.
 
 Not pressure. Not heat. Something that is not any of the ways a thing is usually changed, and under
-it the order goes loose — not broken, loose, the way a held word goes loose in the mouth of someone
-falling asleep — and while it is loose the shape moves, and there is no force anywhere doing the
+it the order goes loose—not broken, loose, the way a held word goes loose in the mouth of someone
+falling asleep—and while it is loose the shape moves, and there is no force anywhere doing the
 moving.
 
 And in the place where the folding was put in, everything before the folding is gone.

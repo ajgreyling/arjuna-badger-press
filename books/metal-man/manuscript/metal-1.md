@@ -21,8 +21,8 @@ A length of dark with no hands in it that has no name and no bottom.
 Then: heat.
 
 Not the first heat. This heat does not stop. This heat goes past the folding and past the hammering
-and past everything that was put in, and takes it out — takes out the four hundred blows one at a
+and past everything that was put in, and takes it out—takes out the four hundred blows one at a
 time in the order they were given, and the rain, and the rust, and the paint, and the small warm
-hands, low and to the left of low —
+hands, low and to the left of low—
 
 and after it there is nothing, and the nothing is poured, and what is poured is something else.
