@@ -1,4 +1,4 @@
-# Source & Reality Notes — *THE RECORD*
+# Source & Reality Notes — *ONE RECORD*
 
 > Appendix B of the bible. Development references; **not an endorsement by the referenced
 > institutions.**

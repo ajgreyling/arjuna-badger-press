@@ -1,11 +1,15 @@
-# The Instrument of Consent — working draft
+# The Disclosure Instrument — working draft
 
-> **Status: wording NOT locked.** What is locked (L-10) is the *shape*: three permitted questions,
-> an explicit exclusion of the subject's inner experience, and Lucid enforcing the boundary as a
-> query limit rather than a policy. The clause text below is a draft for drafting against.
+> **Repurposed 2026-08-19.** This began as a consent instrument for reading one dead man's last
+> minutes. That case is retired (`RETIRED_IDEAS.md`). **The document survives because its question
+> does**, and at planetary scale it is Act II-B's central fight:
 >
-> This document is load-bearing in Beats 23a, 24, 32, 34a and 44. It is also **wrong in five ways on
-> purpose** — see *Designed flaws*. Do not fix them in the draft; they are the plot.
+> **Who is permitted to know what — and is the limit enforced in the machine, or merely in policy?**
+>
+> The clause text below is the original, kept as the working model. Read it as the template the team
+> reaches for when they must decide whether to publish a catastrophe forecast, and read the five
+> designed flaws as **exactly the five ways that decision goes wrong**. Wording is not locked. The
+> flaws are not to be fixed in draft — they are the plot.
 
 ---
 
@@ -41,6 +45,21 @@
 > **8 · Execution.** Signed by the consenting parties and by the Consortium.
 
 ---
+
+## At planetary scale
+
+Every clause has an Act II-B counterpart, and the mapping is the point:
+
+| Clause | Then | Now |
+|---|---|---|
+| **Subject** | one event, bounded | one forecast, bounded — and the boundary is unstable because the forecast updates |
+| **Permitted questions** | three | which horizons may be published: six minutes is harmless, six months is a weapon |
+| **Excluded** | his inner experience | who may not be told, and whether that is protection or paternalism |
+| **Retention** | destroy intermediates in 72h | destroy superseded forecasts — and destroy the proof of what was known when |
+| **Publication** | family's written agreement | the disclosure decision that **raises the probability** |
+| **Revocation** | family may revoke | nobody can un-know a published forecast. **Revocation is the clause with no analogue**, and its absence is the trap |
+
+That last row is the one to write the scene around. Consent, at this scale, cannot be withdrawn.
 
 ## Who drafted it
 

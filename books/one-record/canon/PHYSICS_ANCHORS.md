@@ -1,4 +1,4 @@
-# Physics Anchors — *THE RECORD*
+# Physics Anchors — *ONE RECORD*
 
 > Real physics the fiction stands on, and the exact line where it stops being real.
 > Extends `SERIES_BIBLE.md` §1 (canon and boundary map). Same rule applies: **the novel's
@@ -37,12 +37,14 @@ piece of the machine's philosophical foundation that needs no fictional extrapol
   the question is not stupid: the universe already charges for deletion.
 - **It grounds Ghana's ingestion rule.** Ama's system never deletes — it demotes. Landauer says
   deletion is a thermodynamic act with a signature; demotion is cheaper, reversible and honest.
-- **It gives concealment its physics.** Destroying evidence is *erasure at scale*. The cover-up is
-  thermodynamically expensive and therefore loud. This is why the machine reads the tidying better
-  than the killing (Beat 30) — not merely because tidying takes longer, but because erasing costs.
-- **It is the series' quiet thesis in one line.** *You cannot forget for free.* Book I: the past
-  will not stay erased. Book II: a civilisation that stops paying for behavioural diversity finds
-  out what that cost was for.
+- **It gives concealment its physics.** Destroying evidence is *erasure at scale*, and erasure is
+  priced, dissipative and logged. Covering something up is thermodynamically expensive and therefore
+  loud. In this book that lands twice: on the trading lane, whose tidying is more legible than its
+  activity, and on the disclosure instrument, whose deletion clause destroys the proof of restraint
+  it was written to guarantee (`CONSENT_INSTRUMENT.md`).
+- **It is the book's quiet thesis in one line.** *You cannot forget for free.* Nothing that has
+  happened stops constraining what can happen next — which is why the corridor narrows, and why a
+  published forecast can never be un-published.
 
 **Line to preserve:** “Landauer worked out the price of forgetting in 1961. Nobody thought to ask
 for the receipt.”
@@ -88,6 +90,24 @@ selling something, mistaken, or being quoted.
 
 ---
 
+## 2b · Compression is the bridge — and it is where the fiction starts
+
+The novel's central move is stated in Act I as a question, not a claim: if four disciplines and one
+machine derive the same relationship independently, is it *another model of physics* or **the
+compression grammar beneath physical law**?
+
+That framing is doing real work and must be handled honestly:
+
+- **Landauer licenses the first half of the thought.** Information is physical; operations on it have
+  thermodynamic cost. That is established science, and it is why "reality is compressible" is not
+  mysticism.
+- **Nothing licenses the second half.** That a sufficiently good compression of physical law makes
+  the *next state* computable across human domains is the novel's invention. It is not implied by
+  Landauer, not implied by the 420 Code as published, and not claimed by anything real.
+- On the page: G is the character who refuses to let anyone collapse those two. He will say the
+  first and not the second, and being right about the distinction is what makes him unbearable in
+  meetings and indispensable in Act III.
+
 ## 3 · Where the fiction actually starts
 
 | Claim | Status | Used how |
@@ -96,8 +116,8 @@ selling something, mistaken, or being quoted.
 | Erasing a bit costs k<sub>B</sub>T ln 2 | **Established, measured** (Bérut 2012) | Concealment physics; Ghana's no-delete rule |
 | A stored bit has mass ~3.19 × 10⁻³⁸ kg | **Speculative, unconfirmed** (Vopson 2019) | Fringe limb; press, believers, forgers. Consortium refuses |
 | Actualised events leave *recoverable* dispersed correlations | **Fiction** (2030 in-world) | The primary speculative break |
-| Those correlations can be inverted to a unique past | **Fiction** (2031 in-world) | Book I's invention |
-| Verified history + live telemetry yields decaying future cones | **Fiction** (2033 in-world) | Book II's invention |
+| One relationship underlies them, derivable four ways | **Fiction** (2031 in-world) | Act I's invention |
+| A compression of physical law makes the next state computable | **Fiction** (2032 in-world) | The novel's central invention |
 
 The honest ladder matters more than any single rung. A reader who checks Landauer finds it true;
 that earns the two rungs above it. A reader who checks Vopson finds it contested — and finds that

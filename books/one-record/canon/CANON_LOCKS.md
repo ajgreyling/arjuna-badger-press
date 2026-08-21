@@ -1,4 +1,4 @@
-# Canon Locks — *THE RECORD*
+# Canon Locks — *ONE RECORD*
 
 > **Full send, 2026-08-19.** Everything the bible left at "recommended default" is **LOCKED**.
 > **Revised 2026-08-19: the duology is collapsed into one novel** and the spine is reset to the
@@ -43,7 +43,7 @@
 - **L-07 · Landauer is foundation; Vopson is fringe** (`PHYSICS_ANCHORS.md`). The consortium never
   claims information has mass. *You cannot forget for free* is the series' physical thesis.
 - **L-08 · The Reader never invents.** Lucid computes, cites, conflicts or refuses. Never a POV,
-  never a voice, never cute. It can refuse **G**, and does, on the page, in Book I.
+  never a voice, never cute. It can refuse **G**, and does, on the page, in Act I.
 
 ## Archived — the historical case
 
@@ -118,7 +118,7 @@
   chair. A second seat would duplicate Kiki's arc and violate the casting rule that each principal
   owns exactly one indispensable layer. The ethics live in the Witness Protocol, the quorum, and the
   family's three questions — procedure, not a podium.
-- **L-22 · D-8 — "a record that existed before the event" is retired from the duology.** Book II's
+- **L-22 · D-8 — "a record that existed before the event" is retired.** The
   Antarctic blank (structured loss of temporal correlation where human feedback dominates) does that
   unease honestly and without metaphysics. Recorded in `RETIRED_IDEAS.md` so it is not
   re-discovered and re-argued later.
@@ -147,14 +147,14 @@
 
 - **L-27 · One Record is the corpus; Lucid World is the graph. They are not the same thing, and only
   one of them is destroyed.** *Afrika 2035* (C-15, WORLD) already uses **One Record** for Lucid's
-  planetary-scale completed ingest — "has ingested all the interwebs." Book II ends in 2034 by
+  planetary-scale completed ingest — "has ingested all the interwebs." This novel ends in 2034 by
   partitioning ingestion and **destroying the universal join keys**. Those would contradict if the
   two names meant the same object. They do not:
   - **One Record** = the ingested corpus of published human knowledge. Survives. Complete. Present in
     every local instance. This is what *Afrika 2035* means a year later, and it is what the series is
     named after.
   - **Lucid World** = verified history **joined to live telemetry** into a single global causal graph
-    (`TERMINOLOGY.md`). This is what Book II destroys the ability to recombine.
+    (`TERMINOLOGY.md`). This is what the novel destroys the ability to recombine.
   Lucid in 2035 therefore still knows everything and can no longer see the world as one system. Write
   the distinction precisely: a character who says "they deleted the One Record" is wrong, and someone
   should correct them.

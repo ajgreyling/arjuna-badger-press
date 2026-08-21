@@ -1,4 +1,4 @@
-# Craft — Exposition & Drafting Toolkit — *THE RECORD*
+# Craft — Exposition & Drafting Toolkit — *ONE RECORD*
 
 > §10 and §13 of the bible. How to make readers enjoy the mechanisms without lectures, and how to
 > turn architecture into chapters.
@@ -17,13 +17,14 @@
 
 | Concept | Small demonstration | Later payoff |
 |---|---|---|
-| Record persistence | Break a marked object in a sealed room and reconstruct the break | Recover the historical death |
-| Distributed trace | Remove individual sensor families; no single one contains the image | Prove the Anchor is not magical storage |
-| Constraint | Wrong coordinates produce nothing useful | Material anchors and jurisdiction matter |
-| Uncertainty | A hand crosses behind an obstruction and becomes a probability volume | Leaked synthetic face is exposed |
-| Prediction decay | Forecast a pendulum, then a human choice, then a market response | Forward cone remains probabilistic |
-| Observer effect through information | Tell one test subject the forecast and withhold it from another | Public forecasts modify catastrophe probability |
-| Behavioural diversity | Two crude local controllers outperform one optimised controller after an unexpected fault | Distributed local foresight prevents Convergence |
+| Record persistence | Break a marked object in a sealed room and reconstruct the break | The grammar is real and measurable |
+| Distributed trace | Remove individual sensor families; no single one holds the result | No node owns the machine (L-28) |
+| Constraint | Wrong inputs produce nothing useful, loudly | The ladder is a physical limit, not caution |
+| Uncertainty | A hand crosses behind an obstruction and becomes a probability volume | Gaps are rendered, never filled |
+| Prediction decay | Forecast a pendulum, then an equipment failure, then a human choice, then a market response | The ladder, established by demonstration before it is stated |
+| **Reflexivity, small** | Tell one test subject the forecast, withhold it from another. Their behaviours diverge | Public disclosure raises the catastrophe probability |
+| **Reflexivity, structural** | Two teams using the same method stop disagreeing, and their combined error gets *worse* | Standardisation is how reflexivity goes global |
+| **The blind spot, small** | Someone does something costly for no advantage; forecast error rises measurably | Act III's solution — and its constraint, since testing it burns it |
 
 ## Words to police
 
@@ -78,5 +79,7 @@
 - The leaked reconstruction must contain **visible confidence smoothing** before characters identify it.
 - The valid-signature flaw must be stated early: the ledger proves an event occurred, not that its content is correct.
 - The forward cone must show multiple branches from its first appearance; avoid a single cinematic vision.
-- Mercer's saved lives must be numerically and emotionally present before the harms of convergence are revealed.
-- The final distributed solution must cost speed, elegance, convenience and some preventable lives; otherwise decentralisation becomes a slogan.
+- Mercer's usefulness must be concrete and admitted before his cost is shown.
+- The ladder must never be exceeded for plot convenience. If a scene needs a sharper forecast, the scene is wrong.
+- The blind-spot act must be established as a *class* by small demonstration before it is the solution — and its one-shot nature (testing burns it) must be stated before it matters.
+- The 1.000000 file must be ordinary before it is terrible: sealed pre-commitments are routine from Act I.

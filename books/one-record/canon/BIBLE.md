@@ -1,6 +1,3 @@
-# Series Bible — *THE RECORD* (duology)
-
-> African science-thriller duology. **Book I: read-only history · Book II: the forward cone.**
 > Source: `The_Record_Series_Bible.docx` v0.1 (prepared for AJ Greyling), transcribed to repo canon
 > 2026-08-19. Where this file and any earlier scaffold disagree, **this file wins**.
 
@@ -18,12 +15,18 @@ consequence and a character cost.
 > **NORTH STAR** — Competence is entertaining; evidence is dramatic; African sovereignty is
 > structural, not decorative; philosophy arrives through consequences rather than speeches.
 
-## Series promise
+## The promise
 
-| Book | Surface engine | Deep question | Ending movement |
-|---|---|---|---|
-| **I · The Record** | Can an African research consortium prove that the past remains physically readable? | Who owns truth, and does privacy survive death? | The past becomes verifiable; tomorrow appears in the query log. |
-| **II · The Forward Cone** | Can the same system prevent a probabilistic global catastrophe? | Can foresight preserve choice without collapsing humanity into one answer? | Humanity saves the future by making total prediction impossible. |
+> They build a machine to understand reality. It begins predicting reality. Then it predicts the end
+> of it.
+
+| | |
+|---|---|
+| **Surface engine** | Four African teams derive one relationship by four routes — then the machine built to find it starts calculating what happens next |
+| **Deep question** | If the future can be calculated, is freedom the ability to change it, or merely the feeling that we did? |
+| **The trap** | Reflexivity. Once people know a prediction they are variables inside it |
+| **The escape** | An act whose value is not reducible to advantage — the one class the optimisation space cannot represent |
+| **Ending movement** | The catastrophe is averted. Then a timestamped file says **1.000000** |
 
 ## Tone controls
 
@@ -54,12 +57,16 @@ consequence and a character cost.
 | **2026** | Lucid Offline: local, sovereign, curated graph, sandboxed arithmetic, explicit refusal | Real-world-inspired baseline |
 | **2028** | Lucid Scientific: larger inspectable graph spanning published science and instrument telemetry | Plausible near-future engineering |
 | **2030** | Record interferometry: correlation in vacuum/field noise survives blind laboratory controls | **Primary speculative break** |
-| **2031** | Historical inversion: constrained reconstruction of past physical events | **Book I invention** |
-| **2033** | World causal graph: verified history plus live telemetry yields decaying future probability cones | **Book II invention** |
+| **2031** | The compression grammar: four independent derivations of one relationship beneath physical law | **Act I invention** |
+| **2032** | Constrained forward computation: present state plus the grammar yields a decaying corridor of admissible next states | **The novel's central invention** |
 
 > **CONTINUITY RULE** — Never say the current Lucid predicts markets, understands all physics, or
 > proves the 420 Code. Those are fictional descendants. The novel's credibility depends on preserving
 > the honest boundary.
+>
+> **This matters more now than it did as a duology.** A book whose plot is a machine that predicts
+> markets is one careless sentence away from claiming a real product does. It does not. The fictional
+> ladder above is the whole of the licence.
 
 ### The four-condition story grammar
 
@@ -67,8 +74,8 @@ consequence and a character cost.
 |---|---|---|
 | **Symmetry** | A field of still-open possibilities | Alternative histories, competing interpretations, multiple possible futures |
 | **Break** | A distinction becomes actual | A choice, experiment, betrayal or act that changes the available paths |
-| **Record** | What happened cannot unhappen | Book I: truth persists · Book II: consequences accumulate |
-| **Constraint** | Records are local and propagation is bounded | Anchors, incomplete data, decaying resolution, geographic distribution |
+| **Record** | What happened cannot unhappen | Consequences accumulate and cannot be un-accumulated. The arrow the whole plot runs along |
+| **Constraint** | Records are local and propagation is bounded | The probability ladder. Decaying resolution. Four nodes that cannot see each other's whole |
 
 ---
 
@@ -93,11 +100,10 @@ Every new capability must trigger three beats in close succession:
 
 | Movement | Reader experience | Dominant question |
 |---|---|---|
-| Book I, first quarter | Laboratory puzzle and competence | Can they reproduce the impossible frame? |
-| Book I, middle | Historical cold case and political thriller | What happened, and can it be proved? |
-| Book I, end | Evidence siege | Can truth survive tampering and institutional capture? |
-| Book II, first half | Systems countdown | Which causal branches can be cut? |
-| Book II, second half | Epistemic and geopolitical thriller | Is prediction preventing catastrophe or manufacturing it? |
+| Act I | Convergent discovery — four routes, one relationship | Is this a model of physics, or the grammar under it? |
+| Act II-A | Escalating prediction, then a financial shadow | How far does the corridor narrow, and who is already trading on it? |
+| Act II-B | Reflexive trap | Is prediction preventing the catastrophe or manufacturing it? |
+| Act III | Epistemic thriller with a human solution | Can a person do something a sufficiently good model cannot see coming? |
 
 ---
 
@@ -113,14 +119,15 @@ The novels must let opposed positions remain intelligent.
 | Is optimisation benevolent? | Preventable suffering makes refusal immoral | Global optimisation destroys diversity and autonomy | Optimise locally; preserve plural decision centres globally |
 | Is uncertainty ignorance? | Uncertainty is a defect to reduce | Uncertainty protects freedom and resilience | Measured uncertainty is knowledge; manufactured certainty is power |
 
-### The series thesis in dramatic form
+### The thesis in dramatic form
 
-> **BOOK I** — Truth is not the same as a story, and possession of evidence does not confer moral ownership.
+> **The trap** — Truth is not the same as a story, and knowing a prediction makes you part of it.
 
-> **BOOK II** — The future remains human only while no single system is authorised to choose it for everyone.
+> **The stake** — The future remains human only while no single system is authorised to choose it for everyone.
 
-> **DUOLOGY** — Kindness is not an instruction pasted onto physics. It is the practice of preserving
-> another being's room to exist and choose.
+> **The answer** — Kindness is not an instruction pasted onto physics. It is the practice of
+> preserving another being's room to exist and choose. In this book that stops being an ethic and
+> becomes a **mechanism**: the one class of act the optimiser cannot model.
 
 ---
 
@@ -145,10 +152,10 @@ What this series is **not** allowed to become.
 
 | Area | Review need |
 |---|---|
-| Apartheid disappearance | Historian/legal review; victim-family sensitivity; avoid lifting one real case without permission |
 | Ghana and Kenya teams | Local technical/cultural readers; specific institutions and language use; avoid "continental representative" characters |
 | Antarctica / SANAP | Operational review for travel, seasonality, station life and instrument plausibility |
 | 420 Code physics | G's review of terminology, derivation status, live/fired kill switches and what remains incomplete |
 | Lucid architecture | AJ/G review separating deployed prototype, proprietary mechanism and fictional descendants |
-| Markets and systemic risk | Quant/market-structure review; no implication that the current Ethical Casino provides an edge |
+| **Markets and systemic risk** | **Now central, not background.** Quant/market-structure review of the trading subplot, the surveillance that detects it, and the cascade model. No implication that the current Ethical Casino provides an edge |
+| Prediction claims | That no sentence implies a real deployed system forecasts markets or events |
 | Cryptography/provenance | Security review ensuring hashes, signatures, Merkle roots and timestamps are not overstated |
