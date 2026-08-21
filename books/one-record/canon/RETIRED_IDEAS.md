@@ -20,16 +20,38 @@ Book II held every missing piece: an eleven-month countdown, a civilisation-scal
 decision that costs something irreversible. Split, the first half starved and the second was
 withheld for a book.
 
-**What the merge bought:** a cold open on the nine-second receipt; a dual-track architecture where
-the laboratory story is told *under* a running clock instead of before one; a physical act on the ice;
-and the weld in L-28 — the three questions becoming the partition template — which neither book could
-have had alone.
-
-**What it cost:** the courtroom admissibility arc, the substitute quorum, the diplomatic rupture, the
-second independent anchor, the procedural siege, and the six-discovery reconstruction at full length.
-Blueprints preserved in `../archive/`; most survive as texture.
+**What the merge bought:** a cold open on a *verified prediction* — an event announced before it
+happened, whose countdown points at the team about to make the announcement possible, so the machine
+appears to have predicted its own birth. Discovery compressed from a build into an investigation
+(five routes, one relationship), so prediction arrives by the quarter mark instead of the sequel.
+Reflexivity as the top-level danger instead of monoculture. And an ending — **1.000000** — that
+neither book could have reached alone.
 
 **If ever revived:** it should not be. The material is one novel and always was.
+
+---
+
+## The apartheid-era disappearance, the family, and the three questions
+
+**Cut 2026-08-19 (L-09…L-13 retired).** The composite historical case that was the whole spine of
+Book I: the voice under the floor, the Anchor, the family's three permitted questions, the fall that
+could not be resolved into a hand.
+
+**Why it is cut:** it was the origin of the pacing fault. It made the first half an investigation
+*into the past* at exactly the point the book needed a clock, and its climax was a publication.
+Keeping it as a subplot would re-import the fault in miniature.
+
+**Why this one hurts:** it held the book's best ethics and its only real grief — the daughter's
+question, and a machine refusing to answer it. Nothing in the current spine does that work.
+
+**What survives, repurposed:** `CONSENT_INSTRUMENT.md`. Its question is no longer about a dead man —
+it is Act II-B's disclosure fight, at planetary scale. Who is permitted to know what, and is the
+limit enforced in the machine or merely in policy? All five designed flaws still apply: it binds the
+asking and not the answer, has no successor clause, its deletion obligation destroys the proof of
+restraint, it is permission-shaped, and there is no referee.
+
+**If ever revived:** as a *single* Act I sequence establishing that reading has moral weight — never
+as a spine, and never as an investigation the reader is asked to care about solving.
 
 ---
 

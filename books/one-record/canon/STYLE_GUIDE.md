@@ -7,23 +7,32 @@
 
 ## Voice
 
-**Close third on Dries, past tense, throughout.** Not first person: he conceals things from the
-reader in Part One and a first-person narrator who hides the cold open for eighteen chapters is
-cheating. Close third lets us sit behind his eyes and still watch him not log something.
+**Close third, past tense, one consciousness per section**, rotating across the four working sites:
+Technopark, Accra, Nairobi, the Antarctic station. Section break when the skull changes.
 
-He is a **systems architect, twenty-three years in the same office park.** He thinks in dependencies,
-failure modes, blast radius and telemetry. He reaches for plumbing metaphors and gets corrected by
-physicists, and he is right often enough that the corrections stop. He is funny in the specific way
-of someone who has been on too many incident calls.
+Rotation is disciplined, not democratic. **A section exists because that node is the only place the
+problem can be worked** — never to relay information another node already has. If two sections could
+be one, they are one.
 
-**The other four are voices, not skulls.** Ama, Kiki, Lwazi, Sanna get dialogue, expertise,
-disagreement and their own competence — over a link, across a table, in a message thread. We never
-enter their heads. *(Exception, and only one: Sanna in Part Four, once, when Dries is unconscious or
-absent. Spend it well or not at all.)*
+- **Dries** — systems architect, twenty-three years in the same office park. Thinks in dependencies,
+  failure modes, blast radius, telemetry. Reaches for plumbing metaphors, gets corrected by
+  physicists, is right often enough that the corrections stop.
+- **G** — a principal, not a guru. Refuses soft claims, asks what measurement would kill a thing,
+  says the load-bearing sentence once and never repeats it.
+- **Ama** — the Rain, ingestion, what gets demoted and who decides. The fastest arguer in the book.
+- **Kiki** — the method is hers. Speaks in the conditional, will not be hurried or charmed.
+- **Sanna** — carries Antarctica alone. Colder in sentence length, not just content.
+- **Lwazi** — the one most tempted by the offers, and the first to believe the catastrophe is
+  invariant.
 
-## The clock
+## The ladder
 
-From the moment it starts, **the reader always knows roughly how long is left.** Days remaining
+**The probability ladder is always on the page** and nothing ever exceeds it: six minutes effectively
+certain, six hours frighteningly accurate, six days strategically valuable, six months a field of
+branches. Characters plan around it, argue about which rung a claim sits on, and lose arguments to
+it. It is the book's honesty and its clock at once.
+
+From the moment the catastrophe forecast lands, **the reader always knows roughly how long is left.** Days remaining
 appear in scene furniture — a whiteboard, a ticket title, a manifest date, Sanna's ration schedule —
 never as a chapter epigraph counting down, which is a television device and cheapens fast.
 
@@ -74,6 +83,10 @@ characters.** The Karoo's silence is engineered and defended by people who live 
 ## What not to write
 
 - A reconstruction as footage. If it has a face, sound and no gaps, you have written the forgery.
+- A rogue-AI beat: Lucid waking, wanting, lying, or being switched off in a climax.
+- A prediction that beats the ladder because the scene needs it to.
+- The blind-spot act chosen *because it works*. The moment it is a tactic it is advantage, and
+  advantage is inside the model.
 - Time travel, paradox, a message from the future, a watcher. Not once, not as a joke that stands.
 - Precrime. Nobody is arrested for a future act.
 - A lone-white-genius beat. Dries is the viewpoint; he authors no breakthrough he did not earn, and

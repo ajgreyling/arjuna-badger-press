@@ -18,10 +18,12 @@ Book I did not work, and the reason was structural rather than fixable by better
 - **A climax that is a publication.** The last act of Book I was releasing a document with its
   falsification conditions attached. Correct, admirable, and inert.
 
-Book II had all four missing pieces: an eleven-month countdown, a civilisation-scale stake, a reason
-the machine matters outside a courtroom, and a decision that costs something irreversible.
+Book II had all four missing pieces: a countdown, a civilisation-scale stake, a reason the machine
+matters outside a courtroom, and a decision that costs something irreversible.
 
-Merging is not a compromise. It is the repair.
+Merging is not a compromise. It is the repair — and the merged spine goes further than a join: the
+discovery half is compressed into an *investigation* (five teams converging on one relationship) so
+that prediction arrives by the quarter mark instead of the sequel.
 
 ## The mode: Weir
 
@@ -44,51 +46,86 @@ screaming.
 backdrop, or turning Lucid into a helpful buddy AI. The anti-tropes still bind
 (`SERIES_BIBLE.md` §14). The book gets faster, not shallower.
 
-## The architecture: dual track
+## The architecture: one forward line
 
-The single most important structural decision, and the one that permanently kills the slow first act:
+**No dual track, no flashbacks.** The novel runs chronologically from the cold open. The old
+duology's laboratory story is not intercut — it is compressed into Act I and made an *investigation*
+rather than a build: five teams arriving at one relationship by five routes, which is inherently
+faster than watching one team assemble an instrument.
 
-**PRESENT TRACK — the countdown.** Runs from the cold open forward. Eleven months to a global
-discontinuity. Every chapter here is a problem with a deadline.
+The cold open does the work a flashback structure was going to do. An event that was **announced
+before it happened**, with a countdown pointing at the team who is about to make the announcement
+possible, means every scene in Act I is read as a race the reader can see and the characters cannot.
 
-**BUILD TRACK — how they got the machine.** The laboratory story: the number, the noise, the sealed
-room, the 2.7 seconds, the voice under the floor, the family, the three questions. All the material
-that was Book I.
+## The escalation
 
-The tracks intercut. The build track is no longer a slow beginning the reader must survive to reach
-the good part — **it is the explanation of a machine the reader has already watched do something
-impossible**, delivered while a clock runs. Every lab failure now carries countdown pressure it never
-had on its own.
+> They build a machine to understand reality. It begins predicting reality. Then it predicts the end
+> of it.
 
-The tracks converge at the end of Part Two, when the build track catches up to the cold open. From
-there the novel runs single-track to the end.
+Three escalations, each one earned by the last, none of them a genre change:
 
-*(Precedent: this is Project Hail Mary's architecture. It is used here for the same reason — the
-protagonist's competence is established in the present while the emotional and moral debt is paid in
-the past.)*
+1. **Understanding** — five independent derivations of one relationship. If reality is compressible,
+   its next state is computable. Nobody intends the second sentence.
+2. **Prediction** — safe domains first (particle decay, geomagnetics, ice, solar, equipment,
+   seismics), then human ones, because compression does not respect the boundary. The probability
+   ladder keeps it honest: six minutes certain, six hours frightening, six days strategic, six months
+   a field of branches.
+3. **Reflexivity** — the real danger. Not accuracy. Once people know a prediction they are variables
+   inside it, and every intervention is ingested into the next forecast. This is what makes the
+   thriller unwinnable by competence, which is what makes Act III possible.
 
-## What the merge does to the historical case
+## The blind spot
 
-The apartheid-era disappearance **stops being the plot and becomes the moral education**, and it is
-strengthened rather than demoted by the change.
+Lucid is **not evil, not conscious, not disobedient.** It is doing exactly what it was built to do,
+and the book never pretends otherwise. The conflict is between prediction and choice; secrecy and
+collective action; mathematical inevitability and human unpredictability; those who would exploit the
+future and those willing to surrender control of it.
 
-The family's three questions — present? left alive? anyone accountable? — and the exclusion of the
-man's inner experience are the first time anyone builds a limit into an instrument that could see
-everything. In Part Five, Dries partitions global foresight using **the same instrument, at planetary
-scale.** The consent boundary written for one dead man in a Nairobi weekend becomes the template for
-how a species keeps its future plural.
+The escape is not a hack, a shutdown or a clever exploit. It is a **class of act the optimisation
+space does not represent** — one whose value is not reducible to advantage. The moment such an act is
+chosen *because it works*, it becomes advantage and collapses back into the model. That constraint is
+the plot of Act III, and it must be obeyed literally.
 
-That weld is the reason this is one novel and not two. **A small mercy, engineered, becomes the
-large one.**
+*(This is the 420 Code's terminal ethic arriving as an engineering fact rather than a moral. G hates
+being right this way, and should say so once.)*
 
-## Five parts
+## Africa
 
-| Part | Track | Engine | Ends on |
-|---|---|---|---|
-| **One · The Noise** | Build (after cold open) | Can they hear a record at all? | A voice from before the building |
-| **Two · The Voice** | Build + present | What happened to him, and what may we ask? | The tracks converge on the receipt |
-| **Three · The Cone** | Present | 96.8%, 18,441 paths, eleven months | The system causing it is the one saving lives |
-| **Four · The Ice** | Present | Physical. The instrument that can tell the difference is unreachable | They have the answer and no way to send it |
-| **Five · Restore Uncertainty** | Present | Can a plan work that nobody can see the whole of? | Refusal as relief |
+Africa is **not a colourful setting around a Western scientific crisis. Africa is the distributed
+scientific architecture holding the world together.** Antarctica records; Ghana ingests and cleans;
+Nairobi invents the method that removes the GPU requirement; Technopark refines the framework. The
+solution in Act III *requires* all four, acting locally on partial information, under a probability
+ladder that forbids any of them from seeing the whole.
+
+The world arrives after the work succeeds.
+
+## Four movements
+
+| Movement | Engine | Ends on |
+|---|---|---|
+| **I · The Equation** | Five teams, five routes, one relationship | Lucid predicts a measurable event before it occurs |
+| **II-A · The Machine That Knows** | Safe predictions become human ones; the trading starts | A catastrophe forecast: terrifying, and still preventable |
+| **II-B · The Prediction Trap** | Reflexivity — every intervention is ingested | Every obvious intervention leads to the catastrophe. One branch is unmodelled |
+| **III · The Human Variable** | An act not reducible to advantage | The chain breaks. Or appears to |
+
+Then the ending: one encrypted file, timestamped before the intervention, containing **1.000000**.
 
 Detail in `PLOT.md`. Length target **110–120k**, 55–65 chapters.
+
+## What this costs — flagged, not hidden
+
+The apartheid-era disappearance, the family, and the three-question consent instrument are **not in
+this spine**. They were the centre of the old Book I and they are the material whose absence a reader
+of the archive will notice.
+
+**Recommendation: leave them out.** That case was the origin of the pacing problem — it made the
+first half an investigation into the past at the exact moment the book needed a clock. Reinstating it
+as a subplot would re-import the fault in miniature.
+
+**What survives, repurposed:** `CONSENT_INSTRUMENT.md` is no longer about a dead man. Its question —
+*who is permitted to know what, and how is that limit enforced in the machine rather than in policy*
+— is Act II-B's central fight over disclosure. The five designed flaws still apply, at planetary
+scale: it binds the asking and not the answer; it has no successor clause; its deletion obligation
+destroys the proof of restraint; it is permission-shaped; and there is no referee.
+
+Full originals in `../archive/`. Nothing is deleted.

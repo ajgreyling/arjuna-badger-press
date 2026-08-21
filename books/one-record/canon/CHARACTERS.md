@@ -12,10 +12,10 @@
 |---|---|---|---|
 | **Andries "Dries" Venter** · systems architect | Technopark; distributed SaaS, telemetry, provenance plumbing; 23 years in the park | Believes every human failure can be solved by making the system observable | Learns that total observability can become violence; finally designs deliberate limits |
 | **Dr Ama Nyarko** · ingestion lead | Ghana; signal separation, data lineage, high-volume streams | Believes clean data can keep politics outside science | Accepts that exclusion and prioritisation are political acts; becomes guardian of what may be ingested |
-| **Wanjiku "Kiki" Mwangi** · cryptographic custodian | Nairobi; Witness Protocol and quorum design | Believes proof of integrity is equivalent to truth | Learns provenance can authenticate a lie honestly; redesigns trust around independent contestability |
+| **Wanjiku "Kiki" Mwangi** · method | Nairobi; **invents the relationship search that removes the GPU requirement** — the book's first real invention — plus the provenance and quorum work | Believes proof of integrity is equivalent to truth | Learns her method's elegance is what let everyone else have it too; that standardisation is what makes reflexivity possible |
 | **Dr Lwazi Ndlovu** · experimental physicist | Karoo; interferometry and weak-signal instrumentation | Needs establishment recognition after years of being dismissed | Chooses destructive transparency over the prestigious institution finally offering acceptance |
 | **Dr Sanna Abrahams** · Antarctic physicist | SANAP-linked Antarctic station; ice chronometry and neutrino calibration | Uses isolation to avoid unresolved grief | Becomes the first to grasp that records are **relational, not possessions**; returns to human connection |
-| **G** · theorist | Outside formal credential structures; 420 Code originator | Expects institutions to manipulate whatever they cannot dismiss | Must allow the work to leave his control **without surrendering its kill switches** |
+| **G** · theorist · **principal** | **Technopark, Stellenbosch**, refining the 420 framework. Outside formal credential structures; 420 Code originator | Expects institutions to manipulate whatever they cannot dismiss | States the reflexivity trap once and finds the blind spot — that Lucid cannot model an act not reducible to advantage. He is describing his own terminal ethic as an engineering fact, and hates being right this way |
 | **Minister Naledi Maseko** · political custodian | South African government / continental diplomacy | Believes secrecy is the only mature response to dangerous knowledge | Learns legitimacy requires sharing power even when coordination becomes harder |
 | **Elias Mercer** · international systems governor | Global standards/finance coalition; **antagonist without moustache** | Believes optimisation at global scale is morally compulsory | Saves millions with Lucid, then cannot accept that the successful system itself creates fragility |
 
@@ -43,8 +43,9 @@
 
 ## Note on G (continuity)
 
-The bible's recommended default is **living theorist and difficult collaborator** — not offstage, not
-posthumous. That overrides the earlier scaffold's offstage lock. The alternative on the table
+**G is a principal**, working from Technopark — not offstage, not posthumous, not a consultant on a
+video call. He refuses soft claims, asks what measurement would kill a thing, states the reflexivity
+trap, and finds the blind spot in Act III. The alternative on the table
 (posthumous notebooks) buys mystery at the cost of intellectual conflict and consent, and the bible
 recommends against it. See `OPEN_DECISIONS.md`.
 

@@ -3,9 +3,11 @@
 > **One novel**, African science thriller in Weir mode. Canon locked 2026-08-19 and merged to
 > `master`. **Zero prose written.**
 >
-> **Structure changed 2026-08-19:** the duology is collapsed into a single book. Book I had no clock,
-> no physical jeopardy, no single protagonist, and a climax that was a publication. Book II held the
-> countdown and the stake. See `books/one-record/canon/STRUCTURE.md` — read it before anything else.
+> **Structure changed 2026-08-19:** the duology is collapsed into a single book, and the spine reset
+> to one escalation — **understand → predict → predict the end.** Book I had no clock, no physical
+> jeopardy and a climax that was a publication; Book II held the countdown. The merged spine goes
+> further than a join: discovery is compressed into an *investigation* so prediction arrives by the
+> quarter mark. See `books/one-record/canon/STRUCTURE.md` — read it before anything else.
 >
 > This file is the cold-start briefing: what exists, what is decided, what is not, what to do next,
 > and what will silently break the book if you get it wrong. Everything below points at
@@ -32,7 +34,7 @@ prediction has made everybody behave alike, which is the actual catastrophe.
 |---|---|
 | Canon | **Locked** — `canon/CANON_LOCKS.md`, L-01…L-29 |
 | **Structure** | **`canon/STRUCTURE.md`** — one novel, Weir mode, dual track. Read first |
-| **Spine** | **`canon/PLOT.md`** — five parts, 42 sequences, cold open → final refusal |
+| **Spine** | **`canon/PLOT.md`** — four movements, 40 sequences, cold open → **1.000000** |
 | Style guide | `canon/STYLE_GUIDE.md` — voice, clock, problem discipline |
 | Two-book blueprints | Preserved, superseded — `archive/` |
 | Beat ledger | **63 beats** — `BEAT_LEDGER.md`. Written against the two-book shape; **not yet remapped**. Best scene material in the project |

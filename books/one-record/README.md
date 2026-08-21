@@ -5,11 +5,18 @@ a hard clock, and physical jeopardy on the ice.
 
 > The universe is the archive. The 420 Code is the codec. The machine is the reader.
 
-An engineer in a Stellenbosch office park proves that the past leaves a physical residue that can be
-read — and discovers that the same machine, pointed forward, is already computing tomorrow from
-constraints that are decided but not yet visible. He has eleven months, a 96.8% probability of global
-collapse, no single cause to remove, and a growing certainty that the thing producing the catastrophe
-is the thing preventing it.
+> **They build a machine to understand reality.**
+> **It begins predicting reality.**
+> **Then it predicts the end of it.**
+
+Antarctica records a physical event that was announced before it happened, and the countdown points
+at Accra — where the ingestion system is about to identify the 420 relationship on its own. Four
+African teams arrive at the same compression grammar beneath physical law by four different routes,
+and the machine that finds it starts calculating the narrowing corridor of what can happen next.
+Then it forecasts a catastrophe, and everyone who learns of it becomes a variable inside it.
+
+*If the future can be calculated, is freedom the ability to change it — or merely the feeling that
+we did?*
 
 ## Status
 
@@ -21,7 +28,7 @@ is the thing preventing it.
 | File | What it holds |
 |---|---|
 | `canon/STRUCTURE.md` | **Start here.** Why it is one novel, Weir mode, the dual-track architecture |
-| `canon/PLOT.md` | The spine — five parts, 42 sequences, cold open to final refusal |
+| `canon/PLOT.md` | The spine — four movements, 40 sequences, cold open to **1.000000** |
 | `canon/STYLE_GUIDE.md` | Voice, clock discipline, problem discipline, what not to write |
 | `canon/CANON_LOCKS.md` | Binding decisions, L-01…L-28 |
 | `canon/SERIES_BIBLE.md` | Source bible — boundary map, dramatic engine, ethics, anti-tropes |
@@ -43,5 +50,7 @@ Remapping is the next structural job.
 
 ## Before drafting
 
-Two pages of real prose — the cold open and sequence 8 — before anything else. The canon is very
-tightly specified and has never met a sentence.
+1. **Remap the 63-beat ledger** onto the new spine — it holds the best scene material in the project
+   and was written against a structure that no longer exists.
+2. **Two pages of real prose** — the cold open, and sequence 26 where G names the blind spot. The
+   canon is very tightly specified and has never met a sentence.

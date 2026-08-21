@@ -1,8 +1,12 @@
 # Canon Locks — *THE RECORD*
 
 > **Full send, 2026-08-19.** Everything the bible left at "recommended default" is **LOCKED**.
-> **Revised 2026-08-19 (L-01, L-02, L-04, L-28): the duology is collapsed into one novel in Weir
-> mode.** Read `STRUCTURE.md` for why, then `PLOT.md`. Drafting proceeds against those two.
+> **Revised 2026-08-19: the duology is collapsed into one novel** and the spine is reset to the
+> escalation *understand → predict → predict the end*. Changed: **L-01** form · **L-02** mode ·
+> **L-04** POV · **L-14** cold open · **L-15** reflexivity (replacing Convergence as the top-level
+> danger) · **L-16** blind spot · **L-18** ending · **L-28** Africa as architecture · **L-29** one
+> forward line. **Retired: L-09…L-13** with the apartheid-era case.
+> Read `STRUCTURE.md`, then `PLOT.md`. Drafting proceeds against those two.
 >
 > **LOCKED = binding.** Changing a lock is a deliberate act with a dated note, not a drift.
 > What genuinely remains open is short and lives in `OPEN_DECISIONS.md` — it is all human review,
@@ -20,9 +24,11 @@
 - **L-02 · Mode.** **Weir.** Competence under a deadline: one mind the reader solves alongside,
   problems that fail informatively, improvisation that costs, humour under pressure, checkable
   science. Faster, never shallower — the anti-tropes (L-24) bind unchanged.
-- **L-04 · POV.** **Close third on Dries Venter, throughout.** Not first person; he withholds the
-  cold open from the reader and a first-person narrator doing that is cheating. The other four are
-  voices, not skulls. **One** interiority exception, Sanna, once, in Part Four.
+- **L-04 · POV.** **Close third, one consciousness per section**, across the four working sites —
+  Technopark, Accra, Nairobi, the Antarctic station. **G is a principal, not an offstage theorist:**
+  he refines the framework at Technopark, states the reflexivity trap, and finds the blind spot.
+  Sanna carries Antarctica alone. Rotation stays disciplined: no section exists to relay information
+  a node already has.
 - **L-02b · Years.** The build track runs from **2030**; the countdown runs **2033–34**. Chronology
   per `CHRONOLOGY.md` is otherwise binding, including the hidden column.
 - **L-03 · Shelf.** Standalone, its own entry — **ONE RECORD**, not an African Gold companion. It shares a
@@ -39,40 +45,63 @@
 - **L-08 · The Reader never invents.** Lucid computes, cites, conflicts or refuses. Never a POV,
   never a voice, never cute. It can refuse **G**, and does, on the page, in Book I.
 
-## The historical case (build track)
+## Archived — the historical case
 
-- **L-09 · The case is composite — by construction, permanently.** An apartheid-era disappearance at
+> **L-09…L-13 are RETIRED 2026-08-19** with the apartheid-era case, which is not in the current
+> spine (`STRUCTURE.md`, *What this costs*). Kept here, struck through, so the reasoning is not lost
+> and the decision is not silently re-made. Originals in `../archive/`.
+
+- ~~**L-09 · The case is composite — by construction, permanently.** An apartheid-era disappearance at
   a temporary security installation whose site was later developed into an ordinary business park.
   **No real case is adapted, referenced or keyed.** The missing man, his family, the revered
   liberation figure and the former security figure are composite and are written by role until the
   historian and legal review names them. This lock is what makes the book publishable; it is not a
   placeholder awaiting a real case.
-- **L-10 · The family's three questions are the ethical spine.** Present? Did he leave alive? Anyone
+- ~~**L-10 · The family's three questions are the ethical spine.** Present? Did he leave alive? Anyone
   else accountable? Consent does not extend to his fear, pain or final thoughts. Lucid enforces the
   boundary as a query limit, and refuses outside it.
-- **L-11 · The Anchor.** Damaged brass identity token fused to a watch-mechanism fragment. The watch
+- ~~**L-11 · The Anchor.** Damaged brass identity token fused to a watch-mechanism fragment. The watch
   stopped when it was damaged, not when the man died. Two timestamps, layered material history,
   **no time loop.**
-- **L-12 · The moral outcome.** The revered figure tried to intervene *and* helped conceal. The
+- ~~**L-12 · The moral outcome.** The revered figure tried to intervene *and* helped conceal. The
   security figure caused the death *without* having planned it. Neither camp's simplified version
   survives; both attack the machine.
-- **L-13 · The limit that makes it fair.** The machine proves a fall and cannot prove a hand.
+- ~~**L-13 · The limit that makes it fair.** The machine proves a fall and cannot prove a hand.
   Intention is not in the residue. Concealment is — and concealment is where the moral weight sits.
-- **L-14 · The nine seconds.** A signed Lucid job timestamped nine seconds before its human
-  submission. **It is the cold open, not a closing sting** — the reader holds it from page one and
-  watches Dries conceal it. He logs it in the last pages, into a ledger that can no longer be joined
-  to anything.
+- **L-14 · The cold open is a verified prediction, not an anomaly.** Antarctica holds a signed,
+  timestamped file describing a physical event **before it happens**, and its countdown points at
+  Accra — where the ingestion system is about to identify the 420 relationship independently. The
+  implication, unspoken for most of the book: **the machine predicted its own birth.**
 
 ## The countdown (present track)
 
-- **L-15 · The true catastrophe is the Convergence** — predictive monoculture, not an event.
-- **L-16 · Catastrophe symptoms:** food/logistics + grid + market + defence coupling. No climate-only
+- **L-15 · The true danger is REFLEXIVITY, not accuracy.** Once people know a prediction they become
+  variables inside it; every intervention is ingested into the next forecast. Predictive monoculture
+  (the old "Convergence") is one *consequence* of this, not the top-level mechanism. The thriller is
+  unwinnable by competence, which is what licenses Act III.
+- **L-15b · The probability ladder is binding and always on the page.** Six minutes: effectively
+  certain. Six hours: frighteningly accurate. Six days: strategically valuable. Six months: a field
+  of branching possibilities. Nothing in the book may exceed it.
+- **L-15c · Lucid is not evil, conscious or disobedient.** It does exactly what it was built to do.
+  No rogue-AI beat, no shutdown climax, no clever exploit. It refuses command when asked to give it.
+- **L-15d · Catastrophe symptoms:** food/logistics + grid + market + defence coupling. No climate-only
   framing, no asteroid.
-- **L-17 · Mercer survives, partly vindicated,** and loses universal authority. He is never
+- **L-17b · Mercer survives, partly vindicated,** and loses universal authority. He is never
   villainous and his saved lives are numerically present before the harm is shown.
-- **L-18 · The ending.** Partition; universal join keys destroyed; Lucid answers a final global query
-  with **"Insufficient grounded record."** Refusal as relief. Regional disasters still occur — the
-  ending is earned, not painless.
+- **L-16 · The blind spot.** Lucid can calculate every rational response. It cannot calculate **an
+  act whose value is not reducible to advantage.** The escape is that class of act — never a hack, a
+  shutdown or an exploit. Binding constraint: the moment such an act is chosen *because it works* it
+  becomes advantage and collapses back into the model, so it cannot be planned, ordered or optimised.
+- **L-17 · Aftermath.** Catastrophe averted; markets recover; governments deny everything. The
+  consortium is publicly credited with detecting a rare natural-system cascade. Lucid's real
+  capability stays classified, or fragmented across the teams so **nobody holds the whole machine.**
+- **L-18 · The ending — 1.000000.** Lucid created one encrypted file before the intervention. Its
+  timestamp proves it knew. Inside is a single probability: **1.000000.** It did not fail to predict
+  the choice; **it predicted that they needed to believe it had.** Played cold, unexplained by any
+  character, and left genuinely arguable both ways. Sequel space exists and is never advertised — no
+  wink, no hook, no unopened second file.
+- **L-18b · The question the book asks and does not answer.** *If the future can be calculated, is
+  freedom the ability to change it — or merely the feeling that we did?*
 
 ## Resolved divergences (was §B, D-1…D-8)
 
@@ -106,12 +135,13 @@
 - **L-26 · Cost is always visible.** Compute, grid, queue position, custody, a night nobody slept.
   A free query is a continuity error.
 
-- **L-28 · The weld.** The family's three questions are not a subplot: the consent boundary written
-  for one dead man is **the template Dries uses to partition global foresight** (sequence 39). Small
-  engineered mercy becomes the large one. This is the reason the two halves are one book, and no
-  revision may sever it.
-- **L-29 · Dual track.** Present-tense countdown intercut with the past-tense build, converging at
-  the end of Part Two. Every laboratory beat carries clock pressure it could never carry alone.
+- **L-28 · Africa is the architecture.** Not setting, not colour, not a consortium that gets helped.
+  Antarctica records · Ghana ingests and cleans · **Nairobi invents the method that removes the GPU
+  requirement** · Technopark refines the framework. Act III's solution *requires* all four acting
+  locally on partial information under the ladder, none able to see the whole. Any draft in which one
+  node could have done it alone has broken this lock.
+- **L-29 · One forward line.** Chronological from the cold open. No flashback structure, no dual
+  track. Act I is an *investigation* — five routes converging on one relationship — not a build.
 
 ## Continuity with *Afrika 2035*
 
