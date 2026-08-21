@@ -45,3 +45,24 @@ in-repo** and requiring a checked citation:
   any agency suppression use invented entities. Mirrors ONE RECORD's `SOURCES.md` note.
 - Living relatives and descendants of Owens and of his correspondents are **out of scope entirely**.
   No composite child, no estate scene keyed to a real family member.
+
+## The consent register (O-40) — open, and not mine to close
+
+`scripts/leak_scan.py` is this estate's Sentinel gate. It blocks protected real-person **legal**
+identifiers from the shipped surface and holds a consent register whose own comment is unambiguous:
+
+> *Adding a row here is an assertion that a real human said yes. Record who attested it and when.*
+> ***Do not add a row to make CI green.***
+
+Right now the gate is silent on this book for two reasons, both temporary: its protected list is five
+unrelated names, and `books/*/canon/` is not the shipped surface. **Both stop being true at first
+prose.** A drafted chapter naming Mishlove, Sprinkle, Schwarz, Binder, Hynek or Rhine ships, and
+under this repo's own doctrine those are precisely the class the register exists for.
+
+**No row has been added and none may be added except by AJ.** Nobody else can assert that a real
+person said yes, and the alternative — adding names to the protected list without consent, so the
+gate fires and forces the question — is a decision about how the book is written, not a CI fix.
+
+**Due at first prose, not at first red build.** Mishlove is a living working author whose book is the
+reason any of this material is legible; some of the others died recently enough that estates are
+live. The cheap moment to decide is before there are chapters.

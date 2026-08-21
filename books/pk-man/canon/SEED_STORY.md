@@ -70,6 +70,36 @@ flowchart TD
    an ethical recipient would have refused to demonstrate the system through deaths, and a test that
    nobody notices leaves no log.
 
+## Structure — the two states of Ted Owens (O-38)
+
+The book alternates between a present-day procedural in which Owens is **only ever paper**, and
+interior chapters set in **timelines his own commands overwrote**.
+
+| | Surviving timeline | Erased timelines |
+|---|---|---|
+| Owens is | letters, affidavits, marked maps, one tape | a full close POV, present tense |
+| Corroboration | total — every claim has provenance | none possible, ever |
+| The reader is | an investigator | the second witness |
+
+**The rule that makes it work: if a document could corroborate a scene, that scene cannot be an
+interior chapter.** Interiority and evidence never share a page. The moment the book goes inside
+him, it has left the world where anyone could check — which is precisely the country he lived in
+from 1955 to 1987, and precisely why nobody believed him.
+
+## What they actually wanted (O-36, O-37)
+
+Not worship and not conquest. They are what humanity becomes if the Convergence completes: perfect
+foresight, no divergence, every branch legible and none selectable, because selection was always
+made of disagreement and error and noise. They spent all three becoming what they are.
+
+So they came back for the only thing they no longer produce, and they did not need a good man.
+
+> **A calm, ethical recipient was useless to them because he would have been predictable.**
+
+Everything the record holds against Owens — the grandiosity, the spite, the weather used on people
+who had merely been rude to him — is, in their accounting, signal quality. He was chosen by his
+flaws, for his flaws, and then billed for them (O-15).
+
 ## Tone
 
 Procedural, cold, document-driven. Long stretches of provenance, custody and instrumentation

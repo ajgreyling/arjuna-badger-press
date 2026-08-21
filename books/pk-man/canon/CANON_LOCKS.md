@@ -57,6 +57,9 @@ book never provides a skeptical escape hatch for the reader to retreat into.
   to demonstrate the system through deaths and coercion. Owens's hunger for recognition made him
   willing to push the interface hard enough to leave a detectable record.
   **Not their prophet. Their penetration test.**
+  *(Deepened 2026-08-21 by O-37: that is the surface reason and it stands. The real one is that an
+  ethical recipient would have been **predictable**, and predictability is the one thing they cannot
+  use.)*
 - **O-18 · 1987 was completion, not abandonment.** His death did not end the experiment; it closed
   the biological phase of it. `OWENS UNIT TERMINATED.`
 - **O-19 · The failures were never failures.** They were commands with delayed execution dates,
@@ -128,6 +131,46 @@ book never provides a skeptical escape hatch for the reader to retreat into.
 - **O-35 · Institutional misconduct is fictional.** Navy medical records, interception of
   correspondence, and any agency suppression use fictional entities. Mirrors ONE RECORD's
   `SOURCES.md` legal note, and binds the same way.
+
+## The calls made 2026-08-21
+
+> Both were left open for the author, who returned **"you pick and full send."** Picked, locked,
+> dated. `OPEN_DECISIONS.md` §1 and §2 are closed and record what was chosen over.
+
+- **O-36 · The terminal rung: they are us, downstream of the Convergence.** Run ONE RECORD's Book II
+  catastrophe (predictive monoculture, L-15) to completion and the survivor is a civilisation with
+  perfect foresight and no divergence — able to read every branch and unable to select one, because
+  selection was always made of disagreement, error and noise. O-31 is therefore not an externally
+  imposed limit. **It is the bill for what they became.** O-30 reads literally: the part of tomorrow
+  that survives us is the part that spent its capacity to surprise itself.
+  *Chosen over: the substrate answering by itself (undramatisable — nobody to disagree with), and a
+  previous actuator species (drifts toward the prior-civilisation territory L-24 dislikes).*
+- **O-37 · Noise is the commodity.** They cannot originate an unpredicted act; a unanimous mind
+  cannot surprise itself. Owens's volatility was **the specification, not a tolerated cost.**
+  Everything history holds against him is, in their accounting, signal quality. He was chosen by his
+  flaws, for his flaws, and then billed for them.
+- **O-38 · Erased-world POV.** Owens gets full interiority — **exclusively in chapters set in
+  timelines his own interventions replaced.** In the surviving timeline he is documents only:
+  letters, affidavits, marked maps, one reel of tape. Every interior chapter is a world that is not
+  there any more.
+  - This is the only form in which O-16 can be dramatised rather than reported. The sole witness to a
+    replaced world cannot be rendered from the outside.
+  - It disposes of the ethical problem of inventing a real man's private thoughts: **the book never
+    claims to render what Ted Owens thought on a date in our history.** It renders the timelines only
+    he remembered, which are unverifiable by construction and are the one place fiction is free.
+  - It does to the reader what the interface did to him. Those chapters become the only surviving
+    record of the worlds they describe, and the reader becomes the second witness.
+  - **Rule:** if a scene could be corroborated by a surviving document, it may not be an interior
+    chapter. Interiority and evidence are mutually exclusive, on every page, without exception.
+- **O-39 · The book stands alone.** A reader who has never heard of ONE RECORD must lose nothing
+  structural. Everything needed is explained inside this book, in its own terms. The Convergence
+  reading of O-36 is a **second floor** for readers who have the duology, never a prerequisite.
+  L-01 says no book three; this is not one, and it must not read like one.
+- **O-40 · The consent register is not mine to sign.** `scripts/leak_scan.py` gates protected
+  real-person legal identifiers and holds a consent register whose own comment reads: *adding a row
+  is an assertion that a real human said yes; do not add a row to make CI green.* Named real
+  investigators (O-34) are exactly that class the moment prose ships. **No row is added by anyone but
+  AJ, and the decision is due at first prose, not at first CI failure.** See `SOURCES.md`.
 
 ---
 

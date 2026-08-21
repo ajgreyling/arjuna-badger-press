@@ -20,7 +20,7 @@ hypothesis, no "maybe coincidence"* — every extraordinary Owens claim is canon
 
 ```
 canon/
-  CANON_LOCKS.md           O-01…O-35 · binding · the gospel
+  CANON_LOCKS.md           O-01…O-40 · binding · the gospel
   CONTINUITY_FIREWALL.md   how this coexists with ONE RECORD without moving a single L- lock
   SEED_STORY.md            one breath · engine · the three turns · tone
   MECHANISM.md             probability re-weighting · command table · cost budget · hard limits
@@ -30,7 +30,7 @@ canon/
   CHARACTERS.md            present-day ensemble · the past as documents
   ANTI_TROPES.md           binding · not a debunking, not disclosure, not Lucid-as-character
   SOURCES.md               references · fact-check gate · legal
-  OPEN_DECISIONS.md        the two author calls that were not made
+  OPEN_DECISIONS.md        the two author calls — CLOSED 2026-08-21 — plus what is still craft
 ```
 
 ## Read this first

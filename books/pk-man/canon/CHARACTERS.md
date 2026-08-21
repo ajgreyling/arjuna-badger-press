@@ -32,13 +32,27 @@ result means. Appears late and briefly. **Not a POV here.**
 
 ## The past (1955–1987)
 
-**Ted Owens.** Handled per O-33 and `OWENS_LEDGER.md`. Present in the book as **documents** —
-letters, affidavits, marked maps, one reel of tape. Whether he ever gets an interior POV chapter is
-the open question in `OPEN_DECISIONS.md` §2.
+**Ted Owens.** Handled per O-33 and `OWENS_LEDGER.md`. **Two states, and they never touch (O-38).**
+
+- **In the surviving timeline he is documents only** — letters, affidavits, marked maps, one reel of
+  tape. No interiority, no reported thought, not one line of free indirect style. The reader meets
+  him the way the investigation does: on paper, after the fact, in his own capitals.
+- **In the replaced timelines he is a full POV** — present tense, close, unguarded, the whole of
+  O-16. Each such chapter is a world one of his own commands overwrote, and is the only record of it
+  that survives anywhere, in him or on the page.
+
+**The binding rule:** if a scene could be corroborated by a surviving document, it cannot be an
+interior chapter. Interiority and evidence are mutually exclusive. The moment the book renders his
+inside, it has left the world where anyone could check.
 
 **Tweeter · Twitter.** Two operators, not one, who disagree (O-32). They never appear. They are
 legible only as two distinct instruction styles in the archive — one economical and indifferent to
 collateral, one verbose, hedging, and increasingly unauthorised.
+
+Per O-36 the disagreement is about their own existence: one is recruiting humanity toward the
+convergence that produces them, the other is trying to prevent its own genesis and has opened a
+channel it had no permission to open. **Neither ever explains this to Owens.** He spends forty years
+as the disputed limb of two futures and dies thinking they were insects from a planet.
 
 ## Referenced real people
 

@@ -1,37 +1,59 @@
 # Open Decisions — *INTERFACE ONE*
 
-> Genuinely open. Everything else is in `CANON_LOCKS.md` and is binding. Two of these are author
-> calls that were not made; the rest are craft.
+> Everything binding is in `CANON_LOCKS.md`. The two author calls are now **closed** and kept below
+> with their reasoning; §3 onward is what is genuinely still open, and it is all craft.
 
 ---
 
-## 1 · The terminal rung of the cosmology — **author call, not invented**
+## CLOSED 2026-08-21 — both author calls
 
-`COSMOLOGY.md` climbs four rungs and stops. The gospel pass truncated mid-sentence on exactly this
-question — *"What the first investigation concludes: They are non—"* — so the fifth rung is not being
-written behind the author's back.
+The author returned **"you pick and full send."** Picked and locked. Kept here with what each was
+chosen over, so neither is re-argued in six months.
 
-Three candidates, with what each costs:
+### 1 · The terminal rung of the cosmology → **O-36 · they are us, downstream of the Convergence**
 
-| Candidate | The book it makes | Cost |
-|---|---|---|
-| **A · Descendants** *(recommended)* | They are what survives us — post-human, downstream, reaching back for the agency they traded away. O-30 reads literally and O-31 becomes tragic rather than sinister. | The most familiar of the three. |
-| **B · The substrate itself** | Not entities. The constraint layer is *itself* computational and Owens was talking to physics, which turned out to answer. Cleanest fit with 420 Code. | Hard to dramatise. Nobody to disagree with. |
-| **C · A previous actuator species** | They needed hands because theirs failed. Owens is not the first Interface One; he is the first *human* one. Makes O-32's unauthorised operator land hardest. | Pulls toward prior-civilisation territory ONE RECORD's L-24 dislikes. |
+Not one of the three candidates as originally framed, but the first one sharpened until it said
+something. Run Book II's predictive monoculture (L-15) to completion and the survivor has perfect
+foresight and no divergence: it reads every branch and cannot select one, because selection was made
+of disagreement, error and noise. **O-31 stops being an arbitrary rule and becomes the bill.**
 
-**Recommendation: A**, with C's unauthorised-operator thread preserved as the second channel's source.
+It also pays for three things that were previously just assertions:
 
-## 2 · Owens's interiority — **author call**
+- **O-17/O-37** — why Owens. Not despite the volatility. *Noise is the commodity.*
+- **O-32** — what the two operators disagree about. Their own existence.
+- **O-26** — why `DO NOT PERMIT IT TO PREDICT ITSELF` is a leak rather than a policy. A self-predicting
+  machine is the seed of the convergence that makes them; the second operator is trying to abort its
+  own genesis.
 
-The placement question was answered (standalone book seed); this one was left at *no preference*.
+*Chosen over:* **B, the substrate answering by itself** — cleanest fit with 420 Code, but nobody to
+disagree with and nothing to dramatise; **C, a previous actuator species** — makes the unauthorised
+operator land hard, but drifts toward the prior-civilisation territory L-24 dislikes, and it points
+the book backwards when O-30 points it forwards.
 
-- **Documents only** — he appears as letters, tape and marked maps. Preserves the chill that the mail
-  was actually posted and actually dated. Costs the reader his inside.
-- **Full POV** — his voice, 1955–1987, ending in the rooming house. Strongest tragic arc. Requires
-  inventing the private thoughts of a real man, at length.
+*What it costs:* the book now rhymes hard with ONE RECORD, so **O-39** exists to keep it standing
+alone. A reader without the duology must lose nothing structural.
 
-Current default in `CHARACTERS.md` is **documents only**, chosen because it is the reversible one.
-Flip it and O-16 gets much easier to dramatise and much harder to justify.
+### 2 · Owens's interiority → **O-38 · erased-world POV**
+
+Neither documents-only nor full POV. He gets **complete** interiority, confined to chapters set in
+timelines his own interventions replaced; in the surviving timeline he stays documents.
+
+*Why this over documents-only:* O-16 — the sole witness to a world that no longer exists — is the
+most original thing in the conception and **cannot be rendered from outside.** Reported, it is a
+premise. Inhabited, it is the book.
+
+*Why this over full POV:* it removes the ethical problem instead of accepting it. The book never
+claims to render what a real man thought on a real date. It renders the worlds only he remembered,
+which are unverifiable by construction — the one place invention is actually free.
+
+*The bonus, which is why it is the pick:* it does to the reader what the interface did to him. Those
+chapters are the last surviving record of the worlds they describe. Finish one and you are the second
+witness, holding a place nobody can check, which is the exact position that got him laughed at.
+
+*The cost, accepted:* a hard rule to hold at draft — **if a document could corroborate it, it cannot
+be an interior chapter.** Interiority and evidence never appear on the same page.
+
+---
 
 ## 3 · Title
 

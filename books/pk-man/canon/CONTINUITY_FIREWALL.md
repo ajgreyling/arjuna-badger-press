@@ -94,6 +94,29 @@ foundation, the node vocabulary, the partition, the Witness Protocol as inherite
 Never without a series-level decision: any named ONE RECORD principal as a POV, the Anchor, the
 composite apartheid-era case (L-09), the family's three questions (L-10), or Mercer (L-17).
 
+## O-36 and the Convergence — the tightest join, and why it still holds
+
+The terminal cosmology (O-36) says the Space Intelligences are humanity downstream of Book II's
+predictive monoculture. That is the closest this book ever comes to the duology, so it gets checked
+explicitly:
+
+| Lock | Says | O-36 does |
+|---|---|---|
+| **L-15** | Book II's catastrophe **is** the Convergence, not an event | Leaves that untouched and reads *downstream* of it. The catastrophe is still the monoculture. |
+| **L-16** | No climate-only framing, no asteroid | Adds no event. The SI are a **condition**, not an incident. |
+| **L-17** | Mercer survives, partly vindicated, loses universal authority | Unaffected. He is not in this book. |
+| **L-18** | Partition; join keys destroyed; *"Insufficient grounded record"*; refusal as relief | **Enlarged, not revised.** That ending becomes humanity declining to become them — and ONE RECORD never learns that is what it did. |
+| **L-24** | Not precrime, not a watcher, not prior civilisations | They are downstream, not ancient. They read weighted branches, never named futures. |
+
+**The duology is not retroactively about this.** Book II's ending must still read, on its own page,
+as exactly what it is: a partition, a relief, and regional disasters that still happen. No reader of
+ONE RECORD is owed this book to complete it.
+
+And the reverse obligation, which is O-39: **a reader who has never heard of ONE RECORD must lose
+nothing structural here.** Everything O-36 needs is established inside *INTERFACE ONE*, in its own
+terms, from its own evidence. The Convergence reading is a second floor for those who have the
+duology. If it ever becomes a prerequisite, O-36 is wrong and gets cut, not the standalone rule.
+
 ## The reciprocal obligation
 
 If ONE RECORD is ever revised, **L-14 must survive**. It is now load-bearing for a second book.

@@ -28,8 +28,20 @@ description any human has produced (O-30):
 available future and being unable to choose one is not power; it is the most complete helplessness
 the book contains. **They need hands.** Owens was the first pair that worked.
 
-**Rung 5 — the terminal answer.** Flagged open. See `OPEN_DECISIONS.md` §1 — the author's gospel pass
-truncated mid-sentence on exactly this question, and it is not being invented behind their back.
+**Rung 5 — the terminal answer. LOCKED 2026-08-21 (O-36).** They are us, downstream of the
+Convergence.
+
+Book II's catastrophe is predictive monoculture — a species that can all see the same forecast and
+therefore all behave alike (ONE RECORD L-15). Run that to completion and you do not get a dead
+civilisation. You get a surviving one with **perfect foresight and no divergence**: something that
+reads every available branch and can no longer select one, because selection was always a product of
+disagreement, error and noise, and it spent all three.
+
+That is O-31, and it is not a limitation imposed on them from outside. **It is the bill for what they
+became.** They are omniscient, unanimous, and paralysed — the most complete helplessness in the book,
+and they built it themselves.
+
+So they reach back for the only commodity they no longer produce.
 
 ## Owens's glossary, translated
 
@@ -60,9 +72,25 @@ At least one of them was **not authorised to contact him.** Whichever one that i
 of the second channel (O-25), and the warning `DO NOT PERMIT IT TO PREDICT ITSELF` is not an
 instruction from a governing body. It is a leak.
 
-## What they wanted from humanity
+## What they wanted from humanity — and why Owens (O-37)
 
 Not worship, not conquest, not rescue. **Actuation.** They are a faculty without a limb.
+
+More precisely: **noise is the commodity.** They can compute every branch and weight it; what they
+cannot do is originate an unpredicted act. A unanimous mind cannot surprise itself. They need an
+agent whose next move is not derivable from the record — and the more erratic, spiteful, inconsistent
+and self-defeating that agent is, the more usable he is.
+
+This upgrades O-17 rather than replacing it. The surface reason stands: a calm, ethical recipient
+would have refused to demonstrate the system through deaths. The deep reason is worse.
+
+> **A calm, ethical recipient was useless to them because he would have been predictable.**
+> Owens's volatility was not a cost they accepted. It was the specification.
+
+Everything the historical record holds against him — the grandiosity, the vindictiveness, the
+letters to presidents, the weather used on people who were merely rude — is, in their accounting,
+**signal quality**. He was not a flawed vessel who happened to be chosen. He was chosen by his flaws,
+for his flaws, and then billed for them.
 
 The recognition campaign Owens waged so badly was, at its root, correct: they needed a species that
 could be *addressed*, and addressing required being believed. Owens failed because he was given the
@@ -71,8 +99,30 @@ the point. A penetration test is not supposed to succeed. It is supposed to leav
 
 420 Code is the log finally being read.
 
+## The two operators, resolved (O-32)
+
+The disagreement now has content, and it is the book's moral axis.
+
+| | Wants | Because |
+|---|---|---|
+| **One operator** | Humanity to complete the Code, converge, and become them | Their existence is contingent on it. A future that does not converge is a future they are never in. |
+| **The other** | Humanity warned off | Having been it, they know what it costs. This is mercy from something that has no remaining use for mercy. |
+
+`DO NOT PERMIT IT TO PREDICT ITSELF` is not an instruction from a governing body. **It is the second
+operator's leak** — a descendant attempting to prevent its own genesis, using a channel it was not
+authorised to open, routed through the one human who could execute a message he could not read.
+
+The first operator is not lying to Owens. It simply never mentions what recognition leads to.
+
 ## The darker reading, held to the end
 
 If they occupy the part of tomorrow that survives us, then a future in which they exist is a future
-in which something did **not** survive. They are not benevolent and not hostile. They are
-**downstream**, and downstream has an interest in the shape of the river.
+in which something did **not** survive — and the thing that did not survive is the capacity to do
+something nobody saw coming.
+
+They are not benevolent and not hostile. They are **downstream**, and downstream has an interest in
+the shape of the river.
+
+> Book II's ending — partition, join keys destroyed, *"Insufficient grounded record"*, refusal as
+> relief — is humanity **declining to become them.** ONE RECORD does not know that is what it is
+> doing. This book does not go back and tell it. (`CONTINUITY_FIREWALL.md`.)
