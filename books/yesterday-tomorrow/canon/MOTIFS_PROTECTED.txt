@@ -1,0 +1,19 @@
+# Protected motifs — quoted verbatim; spacing and wording are part of the quotation.
+# Format: one motif per line. See tools/tighten_dashes.py for why this file exists.
+
+You cannot forget for free.
+That isn't damage. That's where it changed its mind.
+It predicted that they needed to believe it had.
+Yesterday is readable. Tomorrow is computable.
+The noise is the payload.
+INSUFFICIENT GROUNDED RECORD
+Refused, as a directive. Delivered, as a finding.
+We will act on your word. Not on your data. Your word.
+he had asked me for nothing
+log it, do not flag it
+everything I throw away, I throw away on behalf of people who are not in the room
+Every regularity is a thing that cannot happen.
+the decision about what enters the record is the decision about what the world is allowed to have happened
+The point is that it isn't zero.
+He took it to the executive.
+in the corner with the extension cable

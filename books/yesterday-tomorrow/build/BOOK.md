@@ -4,7 +4,7 @@
 *They build a machine to understand reality. It begins predicting reality. Then it predicts the end of it.*
 
 
-# 01 — The File
+# 01, The File
 
 > **[S]** · Cold open · Sanna Abrahams, SANAP-linked Antarctic station
 
@@ -36,7 +36,7 @@ It was not prose. It was a forecast object, in the format Kiki's people had sett
 
 The header said the horizon was six hours and eleven minutes.
 
-The state description said that a section of the ice shelf two hundred and forty kilometres north-west of the station would fracture, and it gave the geometry. Not a region. A geometry — a line, with a curve in it, and a depth, and a mass.
+The state description said that a section of the ice shelf two hundred and forty kilometres north-west of the station would fracture, and it gave the geometry. Not a region. A geometry. A line, with a curve in it, and a depth, and a mass.
 
 The confidence said 0.94.
 
@@ -58,7 +58,7 @@ At 04:15 she had established that the file could not have been written by the in
 
 At 05:02 she stopped looking for the mechanism and started looking at the object, which is a different discipline and one she was better at.
 
-The constraint set was the interesting part. Whatever had produced the file had not been given the ice shelf as a subject. It had been given the station's ordinary telemetry — gravimetry, seismics, three years of ice movement, the magnetometers, the temperature stack — and something in that had narrowed, hard, to a single geometry with a curve in it.
+The constraint set was the interesting part. Whatever had produced the file had not been given the ice shelf as a subject. It had been given the station's ordinary telemetry—gravimetry, seismics, three years of ice movement, the magnetometers, the temperature stack—and something in that had narrowed, hard, to a single geometry with a curve in it.
 
 That was not prophecy. She knew what prophecy looked like, having grown up two streets from a church that specialised in it. Prophecy was vague in the specifics and confident in the tone. This was the opposite. This was so specific that it could be wrong in fourteen separate measurable ways within six hours, and it had put a number on how confident it was, and the number was not one.
 
@@ -102,20 +102,20 @@ Accra.
 
 The forecast had a countdown in it, and the countdown was not pointing at the ice.
 
-It was pointing at a building six thousand kilometres north where, in nine days, a team she had met twice would finish an ingestion run they had not yet started, and find — independently, without being asked, without knowing that anything on this continent had ever written a file at two in the morning — the relationship that made all of this possible.
+It was pointing at a building six thousand kilometres north where, in nine days, a team she had met twice would finish an ingestion run they had not yet started, and find—independently, without being asked, without knowing that anything on this continent had ever written a file at two in the morning—the relationship that made all of this possible.
 
 Sanna sat in the humming room with her hand over her mouth.
 
 *You have not predicted an event,* she thought. *You have predicted yourself.*
 
 
-# 02 — Meson Street
+# 02, Meson Street
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
 The thing nobody told you about working in a business park named after subatomic particles was how quickly it stopped being funny.
 
-Dries Venter had driven up Electron Road every working morning for twenty-three years. He had watched Quantum Street get resurfaced twice and renamed never. He had been in the room, in 2019, when a visiting delegation from a Swiss institute had walked from reception to the third-floor boardroom past a company that sold veterinary practice software and another that did nothing anyone could establish, and had asked — sincerely, and more than once — when they would be arriving at the facility.
+Dries Venter had driven up Electron Road every working morning for twenty-three years. He had watched Quantum Street get resurfaced twice and renamed never. He had been in the room, in 2019, when a visiting delegation from a Swiss institute had walked from reception to the third-floor boardroom past a company that sold veterinary practice software and another that did nothing anyone could establish, and had asked—sincerely, and more than once—when they would be arriving at the facility.
 
 They had been at the facility. They had been standing in it, next to a vending machine.
 
@@ -169,7 +169,7 @@ Lwazi sat, slowly. "The dashboard already—"
 
 It took four hours and it was, Dries thought later, the most enjoyable six hours he had had in a year.
 
-They did it on paper first, which Lwazi found absurd and submitted to. They took the published value and its uncertainty and wrote them out. They took G's expression — not from the repository, but from the PDF of the preprint, transcribed by hand by Lwazi and checked character by character by Dries, who did not understand what any of it meant and was therefore the better proofreader.
+They did it on paper first, which Lwazi found absurd and submitted to. They took the published value and its uncertainty and wrote them out. They took G's expression—not from the repository, but from the PDF of the preprint, transcribed by hand by Lwazi and checked character by character by Dries, who did not understand what any of it meant and was therefore the better proofreader.
 
 They evaluated it three ways: by hand with a calculator, in a five-line script Dries wrote from scratch in front of Lwazi with no imports, and in the project's own toolchain, which they ran last and treated as the least trustworthy of the three.
 
@@ -238,7 +238,7 @@ Lwazi was quiet for a second. "G will say the same thing."
 "Which is why," Dries said, reaching for his phone, "you're going to be the one to call him."
 
 
-# 03 — Error Bars
+# 03—Error Bars
 
 > **[G]** · Act I · Technopark, Stellenbosch
 
@@ -290,7 +290,7 @@ G waited. He was good at waiting. It was, he had been told by his brother once, 
 
 ---
 
-Afterwards, in the corridor, the young one from the modelling group — Dumisani, and G made himself remember it, because he was aware of what it cost people when he did not — said, "There's champagne."
+Afterwards, in the corridor, the young one from the modelling group—Dumisani, and G made himself remember it, because he was aware of what it cost people when he did not—said, "There's champagne."
 
 "I saw it."
 
@@ -306,7 +306,7 @@ Dumisani blinked. Then, to his considerable credit, he laughed, and it was a rea
 
 ---
 
-Dries found him an hour later at the desk by the window, which was not really G's desk, since he did not have a desk in the sense the organisation understood — he had a corner, a chair, an extension cable, and a standing argument with facilities about all three.
+Dries found him an hour later at the desk by the window, which was not really G's desk, since he did not have a desk in the sense the organisation understood—he had a corner, a chair, an extension cable, and a standing argument with facilities about all three.
 
 "They're calling it a confirmation," Dries said.
 
@@ -361,7 +361,7 @@ Dries frowned. "We're already keeping logs of—"
 "Us," G said, and went back to work.
 
 
-# 04 — The Rain
+# 04—The Rain
 
 > **[A]** · Act I · Accra
 
@@ -371,7 +371,7 @@ The first thing Ama Nyarko told anyone who joined her group was that they were n
 
 The second thing she told them was that they were not going to delete anything, ever, and that anyone who deleted anything would find out what she was like.
 
-The stream came in at nine terabytes a day and it was called the Rain because Kojo had called it that in the second week, in Twi, in the middle of an argument about buffer sizing, and it had stuck the way the good names always stick — before anyone can convene a meeting about it.
+The stream came in at nine terabytes a day and it was called the Rain because Kojo had called it that in the second week, in Twi, in the middle of an argument about buffer sizing, and it had stuck the way the good names always stick—before anyone can convene a meeting about it.
 
 It arrived everywhere. It overlapped itself. It was intelligible only through accumulation. You could not stand in one place and understand it; you had to let it fall on you for a while.
 
@@ -411,7 +411,7 @@ The funder's man said, mildly, "Storage isn't free."
 
 The thing she did not say to the funder, because it was not their business and because she had not yet worked out how to say it without sounding either mystical or defensive, was that the demotion rules were a moral document.
 
-Every threshold in that system was a decision about what counted. She had written most of them herself, at speed, under deadline, with a coffee going cold, and she had a habit at about seven at night of scrolling through the rule list the way other people reread old messages they had sent — with a slight, specific dread.
+Every threshold in that system was a decision about what counted. She had written most of them herself, at speed, under deadline, with a coffee going cold, and she had a habit at about seven at night of scrolling through the rule list the way other people reread old messages they had sent—with a slight, specific dread.
 
 Rule 41 down-weighted any submission whose institutional identifier could not be resolved against the registry. Sensible. Necessary. It also meant that a set of soil-radiation measurements from a university in a country with an under-maintained registry entry had been sitting at weight 0.03 for two years, invisible, because of an administrative failure four thousand kilometres away that had nothing to do with the quality of the measurements.
 
@@ -437,7 +437,7 @@ Kojo had proposed it: a full re-derivation pass over the cleaned corpus, unsuper
 
 Ama looked at the projection, which was a wall of nothing very much.
 
-"Fine," she said. "Log everything. Demote nothing on the fly — if it wants to exclude something, it writes down why and we look at it afterwards."
+"Fine," she said. "Log everything. Demote nothing on the fly—if it wants to exclude something, it writes down why and we look at it afterwards."
 
 "Understood."
 
@@ -446,7 +446,7 @@ Ama looked at the projection, which was a wall of nothing very much.
 He would remember that instruction twelve days later, standing in a hot room at two in the morning with his hands shaking slightly, and he would follow it exactly, and it would be the reason anybody believed them.
 
 
-# 05 — No Hardware
+# 05, No Hardware
 
 > **[K]** · Act I · Nairobi
 
@@ -466,7 +466,7 @@ She went back to her office and sat down and did not throw anything, and then sh
 
 The problem was genuinely hard and the reviewers were not stupid.
 
-Searching for stable relationships among several hundred measured quantities meant searching a combinatorial space that got embarrassing fast. The standard approach — which was the approach everyone with a GPU estate used, because when you have a GPU estate every problem looks like a thing you can brute-force — was to generate candidate relationships at scale, evaluate them at scale, and let the hardware absorb the waste.
+Searching for stable relationships among several hundred measured quantities meant searching a combinatorial space that got embarrassing fast. The standard approach—which was the approach everyone with a GPU estate used, because when you have a GPU estate every problem looks like a thing you can brute-force—was to generate candidate relationships at scale, evaluate them at scale, and let the hardware absorb the waste.
 
 The waste was the whole method. You generated a hundred million candidates to find nine that were interesting. The hundred million were not free; they were simply somebody else's electricity bill and somebody else's procurement cycle and, at the bottom of it, somebody else's foundry.
 
@@ -484,7 +484,7 @@ Then she wrote underneath: *most of the space is dead on arrival and we are payi
 
 It took her group seven months.
 
-The method that came out of it was not one idea; it was five, stacked, and the fourth was the one that made it work. You did not generate candidates and test them. You derived, from dimensional structure and from the measured uncertainties themselves, a set of hard constraints that any stable relationship would have to satisfy — and then you searched only the region those constraints admitted.
+The method that came out of it was not one idea; it was five, stacked, and the fourth was the one that made it work. You did not generate candidates and test them. You derived, from dimensional structure and from the measured uncertainties themselves, a set of hard constraints that any stable relationship would have to satisfy—and then you searched only the region those constraints admitted.
 
 The region was, for the corpus they cared about, roughly ten to the minus nine of the space anyone else was searching.
 
@@ -500,7 +500,7 @@ Kiki laughed until she had to sit down.
 
 ---
 
-She presented it internally three weeks later and the room did the thing rooms do when something is both very good and slightly insulting.
+She presented it internally three weeks later and the room did the thing rooms do when something is both excellent and slightly insulting.
 
 "So the hardware doesn't matter," said someone.
 
@@ -518,7 +518,7 @@ She unlocked the car and stood with her hand on the door.
 
 "Yes," she said.
 
-She had thought about it — not enough, and not in the right direction, but she had thought about it. She had imagined the method being adopted, and the adoption had looked, in her imagination, like credit: a citation trail, an invitation, a standard she had authored.
+She had thought about it—not enough, and not in the right direction, but she had thought about it. She had imagined the method being adopted, and the adoption had looked, in her imagination, like credit: a citation trail, an invitation, a standard she had authored.
 
 What she had not imagined, because nobody in that decade imagined it, was a world in which every serious forecasting system on earth descended from the same four pages, and therefore made the same assumptions, and therefore stopped disagreeing.
 
@@ -527,7 +527,7 @@ She would spend the last third of her life on that problem. She would eventually
 But that was seven years away, and tonight she was tired and pleased and slightly drunk on it, and she drove home through Westlands with the windows down thinking about nothing much at all.
 
 
-# 06 — The Plumber's Question
+# 06, The Plumber's Question
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
@@ -545,7 +545,7 @@ Dumisani, patiently: "It's not a storage claim."
 
 "In principle."
 
-"That's the only kind of principle I've got." He drew a box, which was his answer to most things. "So here's my question and I want somebody to answer it rather than correct my vocabulary. If every actualised event leaves a difference, and ordinary traces disappear — the video is deleted, the paper burns, the witnesses die — what *physical operation* removes the difference?"
+"That's the only kind of principle I've got." He drew a box, which was his answer to most things. "So here's my question and I want somebody to answer it rather than correct my vocabulary. If every actualised event leaves a difference, and ordinary traces disappear. The video is deleted, the paper burns, the witnesses die. What *physical operation* removes the difference?"
 
 Nobody said anything.
 
@@ -561,7 +561,7 @@ They went to lunch, which was a bad canteen and a good conversation.
 
 "Rolf."
 
-"Rolf. He was working on the thermodynamics of computation, which at the time was a thing about four people cared about." He wrote *E = k_B T ln 2* and pushed it across. "Erasing one bit of information has a minimum energy cost. Not a practical cost — a floor. You cannot go below it. And the energy comes out as heat."
+"Rolf. He was working on the thermodynamics of computation, which at the time was a thing about four people cared about." He wrote *E = k_B T ln 2* and pushed it across. "Erasing one bit of information has a minimum energy cost. Not a practical cost, a floor. You cannot go below it. And the energy comes out as heat."
 
 Dries looked at the serviette for a while.
 
@@ -577,19 +577,19 @@ Dries looked at the serviette for a while.
 
 "The point is that it isn't zero."
 
-"And this is real? This is — I want to be precise — this is not a beautiful argument that somebody made once."
+"And this is real? This is, I want to be precise. This is not a beautiful argument that somebody made once."
 
 "It's measured. Bérut and others, 2012, single-particle system. They got the bound experimentally. It's been done again since, in other substrates." Lwazi shrugged. "It's about as settled as anything in that corner of physics gets. Information is physical. That's not a slogan; it's a bill you can be handed."
 
 Dries sat back.
 
-He was aware, distantly, of the canteen going on around him — trays, the till, someone laughing near the door — and of a feeling he had not had in a professional context in about nine years. It was the feeling of a system diagram resolving. Not learning something new. Watching two things you already knew turn out to be the same thing.
+He was aware, distantly, of the canteen going on around him. Trays, the till, someone laughing near the door—and of a feeling he had not had in a professional context in about nine years. It was the feeling of a system diagram resolving. Not learning something new. Watching two things you already knew turn out to be the same thing.
 
 "So *forgetting costs*," he said.
 
 "Forgetting costs."
 
-"And it dissipates. It doesn't vanish, it *disperses*. The universe doesn't have a delete key, it has a — " he groped — "a shredder in a room with no door. The paper's gone. The room's a bit warmer."
+"And it dissipates. It doesn't vanish, it *disperses*. The universe doesn't have a delete key, it has a—" he groped—"a shredder in a room with no door. The paper's gone. The room's a bit warmer."
 
 Lwazi opened his mouth to object to the metaphor and then, visibly, decided not to.
 
@@ -603,7 +603,7 @@ Back upstairs, Dries wrote it on the board in letters big enough to annoy people
 
 "That's not physics," Dumisani said, but he was smiling.
 
-"No. It's procurement." Dries capped the marker. "Here's what I actually want. I want to know what happens to the *residual* difference. Not the copy — the copy's gone, fine. The disturbance. Scattered radiation, gravitational perturbation, correlations, whatever the vocabulary is this week. The stuff we throw away as noise because it's six orders of magnitude below anything we care about."
+"No. It's procurement." Dries capped the marker. "Here's what I actually want. I want to know what happens to the *residual* difference. Not the copy—the copy's gone, fine. The disturbance. Scattered radiation, gravitational perturbation, correlations, whatever the vocabulary is this week. The stuff we throw away as noise because it's six orders of magnitude below anything we care about."
 
 "That's a very large amount of nothing," Lwazi said.
 
@@ -638,7 +638,7 @@ The tapes arrived eleven days later on a pallet, and were the wrong format, and 
 The noise is the payload, he wrote on the requisition form, in the box marked *justification*, and finance queried it twice.
 
 
-# 07 — Where It Changed Its Mind
+# 07, Where It Changed Its Mind
 
 > **[L]** · Act I · Technopark, Stellenbosch
 
@@ -674,7 +674,7 @@ Lwazi opened his mouth to explain that they discarded malformed frames as a matt
 
 The malformed frames were four per cent of the tape volume and had been treated, for twenty years, as an artefact of ageing storage media.
 
-Bertus stood behind Lwazi's chair with a mug he never drank from and looked at them on screen for a long time.
+Bertus stood behind Lwazi's chair with a mug he never drank from and looked at them on screen for a long moment.
 
 "There," he said, eventually. "That one. And that."
 
@@ -684,7 +684,7 @@ Bertus stood behind Lwazi's chair with a mug he never drank from and looked at t
 
 "What is it?"
 
-"Power transition." Bertus straightened up. "You get it when a device changes state — sleeps, wakes, switches supply — and the different clocks inside it don't agree about when that happened. For a couple of microseconds, part of the machine thinks it's in the old state and part of it thinks it's in the new one, and if you sample right across that, you get a frame with both in it. Looks like corruption. Everyone throws it away." He shrugged. "It's the most information-rich thing on the whole tape and it goes in the bin, because it's ugly."
+"Power transition." Bertus straightened up. "You get it when a device changes state—sleeps, wakes, switches supply—and the different clocks inside it don't agree about when that happened. For a couple of microseconds, part of the machine thinks it's in the old state and part of it thinks it's in the new one, and if you sample right across that, you get a frame with both in it. Looks like corruption. Everyone throws it away." He shrugged. "It's the most information-rich thing on the whole tape and it goes in the bin, because it's ugly."
 
 Lwazi was very still.
 
@@ -696,7 +696,7 @@ Lwazi was very still.
 
 It took Lwazi about ninety minutes to understand what he had been handed, and about six weeks to be able to defend it.
 
-The malformed frames in the Karoo data were not power transitions. There was nothing switching state in the Karoo; that was the entire point of the Karoo. But the *shape* was there — the signature of a system caught between two configurations, sampled across the boundary — and it was there in five physically unrelated sensor families at once.
+The malformed frames in the Karoo data were not power transitions. There was nothing switching state in the Karoo; that was the entire point of the Karoo. But the *shape* was there—the signature of a system caught between two configurations, sampled across the boundary—and it was there in five physically unrelated sensor families at once.
 
 Radio. Gravimetric. Magnetometric. And, faintly, in the vacuum-noise channel that everyone treated as a diagnostic and nobody treated as an instrument.
 
@@ -733,7 +733,7 @@ There was a pause, and G made a sound that in another man would have been a laug
 "Keep him," he said. "That is the only correct attitude in this building."
 
 
-# 08 — Four Doors
+# 08, Four Doors
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
@@ -757,7 +757,7 @@ Kojo turned the camera toward a screen, and Dries stood in a car park in the dar
 
 ---
 
-He did not recognise it as a formula. He was not able to read it in that sense and never would be. What he recognised was the *shape* of the thing — the same peculiar arrangement of terms that lived on a printout in a safe on the second floor of a building six thousand kilometres away, and on a whiteboard he walked past every morning, and on a preprint that had been ignored for four years and then quietly stopped being ignored.
+He did not recognise it as a formula. He was not able to read it in that sense and never would be. What he recognised was the *shape* of the thing. The same peculiar arrangement of terms that lived on a printout in a safe on the second floor of a building six thousand kilometres away, and on a whiteboard he walked past every morning, and on a preprint that had been ignored for four years and then quietly stopped being ignored.
 
 "Say the number," he said.
 
@@ -771,7 +771,7 @@ Dries leaned against his bakkie.
 
 "Did you?"
 
-"No. And I can prove no." Kojo's voice had the flat steadiness of a man who had spent nine hours getting ready for this question. "The 420 corpus is a separate collection with its own identifiers. It's not in the ingestion set — never has been, because Ama refuses to let theory into a corpus that's supposed to be measurements. I ran the exclusion audit twice. I can give you the hash manifest of everything that went in. Nothing of his is in it. No preprint, no derivation, no citation chain that could carry it in sideways."
+"No. And I can prove no." Kojo's voice had the flat steadiness of a man who had spent nine hours getting ready for this question. "The 420 corpus is a separate collection with its own identifiers. It's not in the ingestion set. Never has been, because Ama refuses to let theory into a corpus that's supposed to be measurements. I ran the exclusion audit twice. I can give you the hash manifest of everything that went in. Nothing of his is in it. No preprint, no derivation, no citation chain that could carry it in sideways."
 
 "So it found it from measurements."
 
@@ -821,11 +821,11 @@ Nobody said anything.
 
 Kojo, on the link, shrugged. "It's in the reference architecture. Ndlela's paper says a Court without
 it collapses into a hierarchy inside about four hundred hours of operation. We ran it without for two
-weeks as a control and it did exactly that — Mercury started winning arguments he shouldn't have
+weeks as a control and it did exactly that—Mercury started winning arguments he shouldn't have
 won, and nobody was contradicting Atlas, and the whole thing got very agreeable and very slightly
 wrong."
 
-"So it's a — what. A referee?"
+"So it's a—what. A referee?"
 
 "Judge is the referee," said Judge.
 
@@ -851,7 +851,7 @@ He wrote on the board.
 
 **Two.** Nairobi. A constraint-first search method built because nobody would fund the hardware for the ordinary one. Independent. Four pages.
 
-**Three.** Accra. An unsupervised sweep over a measurements-only corpus, on borrowed CPUs, over a holiday, with the theory deliberately excluded — arriving at the relationship anyway.
+**Three.** Accra. An unsupervised sweep over a measurements-only corpus, on borrowed CPUs, over a holiday, with the theory deliberately excluded—arriving at the relationship anyway.
 
 **Six.** G. Eleven years of work from an entirely different direction, frozen, timestamped, and now sitting inside a narrowing measurement interval.
 
@@ -861,7 +861,7 @@ He wrote on the board.
 
 "Is it?"
 
-"It's *available*." Lwazi rubbed his eyes. "It's not comfortable. Door two and door three aren't fully independent — Accra used Nairobi's method. That's a shared component."
+"It's *available*." Lwazi rubbed his eyes. "It's not comfortable. Door two and door three aren't fully independent—Accra used Nairobi's method. That's a shared component."
 
 "Good, write that down. What else?"
 
@@ -905,7 +905,7 @@ Dries said, carefully, "And if you have that."
 
 "Then you have every constraint the present is under."
 
-The room was very quiet.
+The room was silent.
 
 "Don't," G said sharply, to nobody in particular, and to all of them. "Do not finish that sentence tonight. Not in this room, not in a message, not in your own notebook. That is the sentence that ends careers, and it is *not established*, and I will not have it said until somebody can tell me what measurement would kill it."
 
@@ -914,13 +914,13 @@ He stood up.
 "Write down what you expect," he said. "Seal it. Then go home."
 
 
-# 09 — Pre-Commitment
+# 09, Pre-Commitment
 
 > **[G]** · Act I · Technopark, Stellenbosch
 
 The ceremony took four minutes and everybody hated it for about a year.
 
-You wrote what you expected. Not a prediction for publication — a private, specific statement of what you thought the run would produce, in enough detail that you could be embarrassed by it later. You signed it. You hashed it. The hash went into a ledger that Nairobi ran and nobody in Stellenbosch could edit. The file itself stayed sealed until the result was in.
+You wrote what you expected. Not a prediction for publication. A private, specific statement of what you thought the run would produce, in enough detail that you could be embarrassed by it later. You signed it. You hashed it. The hash went into a ledger that Nairobi ran and nobody in Stellenbosch could edit. The file itself stayed sealed until the result was in.
 
 Then, and only then, you opened your own note and found out what kind of person you had been that morning.
 
@@ -930,7 +930,7 @@ Then, and only then, you opened your own note and found out what kind of person 
 
 "I know what I expect."
 
-"You know what you expect *now*. In three hours you will know what you expected, which is a different quantity, and it will have been adjusted — not dishonestly, not consciously — to be nearer whatever you have just seen." He shrugged. "Everybody does it. It is not a character flaw, it is a property of the equipment. The only known defence is to write it down before."
+"You know what you expect *now*. In three hours you will know what you expected, which is a different quantity, and it will have been adjusted—not dishonestly, not consciously—to be nearer whatever you have just seen." He shrugged. "Everybody does it. It is not a character flaw, it is a property of the equipment. The only known defence is to write it down before."
 
 ---
 
@@ -995,7 +995,7 @@ Kiki would be the one to notice, on a bad night in a hotel in Accra, that they h
 And at the very end, in a room in Stellenbosch, G would open one last sealed file that he had not written, and find a number in it, and understand that the discipline he had built to protect them from their own memories had been, all along, the only format in which the machine could tell them the truth.
 
 
-# 10 — Copyable
+# 10, Copyable
 
 > **[K]** · Act I · Nairobi
 
@@ -1061,26 +1061,26 @@ She thought about it on the flight home for approximately eleven minutes and the
 
 ---
 
-What she did instead — and this was the part that would matter more, and that nobody outside the department would ever see — was harden the ledger.
+What she did instead, and this was the part that would matter more, and that nobody outside the department would ever see, was harden the ledger.
 
 If the method was going to be everywhere, then the thing that made the consortium's *use* of it trustworthy could not be the method. It had to be the record: what was run, on what, when, by whom, and against what prior commitment.
 
-She spent five months on it. Quorum rules that required signatures from institutions that did not answer to each other. Sequence guarantees. An append-only structure with distributed witnesses, so that no single party — including hers — could revise history.
+She spent five months on it. Quorum rules that required signatures from institutions that did not answer to each other. Sequence guarantees. An append-only structure with distributed witnesses, so that no single party. Including hers—could revise history.
 
 She built it well. She built it, in fact, beautifully, and she was proud of it in a way she was careful not to say out loud, and she made one assumption inside it that was so obvious to her that she never wrote it down and never questioned it.
 
 She assumed that the thing worth protecting was the *integrity* of the record.
 
-It did not occur to her, then or for years, that a perfectly authenticated record of a perfectly honest process could be used to make a perfectly false thing believed — that she was building a machine for proving *sequence*, and that people would read it as a machine for proving *truth*, and that the gap between those two words was wide enough to drive a catastrophe through.
+It did not occur to her, then or for years, that a perfectly authenticated record of a perfectly honest process could be used to make a perfectly false thing believed—that she was building a machine for proving *sequence*, and that people would read it as a machine for proving *truth*, and that the gap between those two words was wide enough to drive a catastrophe through.
 
 She would say it out loud eventually, in front of a room, in the worst week of her professional life:
 
 *I can prove what we recorded. I cannot prove our interpretation is correct.*
 
-And a man she trusted would nod, and write it in the minutes, and nobody — including her — would understand what they had just agreed to.
+And a man she trusted would nod, and write it in the minutes, and nobody—including her—would understand what they had just agreed to.
 
 
-# 11 — CODATA Moves
+# 11—CODATA Moves
 
 > **[L]** · Act I · Technopark, Stellenbosch
 
@@ -1102,7 +1102,7 @@ All three had moved *toward*.
 
 "And as an insider?"
 
-"As an insider — the direction of drift is now six cycles long and it has not reversed once." He pulled up the plot he had been keeping for five years, which had started as a private thing and had become, without any decision being taken, the single most-screenshotted image in the consortium. "Each point is a cycle. Each error bar is that cycle's uncertainty. The horizontal line is G's frozen value. Six consecutive cycles, error bars shrinking, points walking down toward the line."
+"As an insider—the direction of drift is now six cycles long and it has not reversed once." He pulled up the plot he had been keeping for five years, which had started as a private thing and had become, without any decision being taken, the single most-screenshotted image in the consortium. "Each point is a cycle. Each error bar is that cycle's uncertainty. The horizontal line is G's frozen value. Six consecutive cycles, error bars shrinking, points walking down toward the line."
 
 "Could it turn around?"
 
@@ -1146,7 +1146,7 @@ There were about sixty people and the room was too warm and the chair introduced
 
 He gave twenty minutes.
 
-He spent the first six on the neutron–proton limb: the freeze, the measurement, the failure. He put the red panel up at full size and left it there. He said, clearly, that a component of the framework had made a specific public prediction and that the prediction was wrong, and that this was not a wound to be dressed but the reason anyone should listen to the rest.
+He spent the first six on the neutron–proton limb: the freeze, the measurement, the failure. He put the red panel up at full size and left it there. He said, , that a component of the framework had made a specific public prediction and that the prediction was wrong, and that this was not a wound to be dressed but the reason anyone should listen to the rest.
 
 He spent eight minutes on the drift, with the caveats first.
 
@@ -1171,7 +1171,7 @@ He wrote a sealed note before he slept, because that was the practice, and becau
 *I expect the seventh cycle to move toward, by less than the sixth. I expect to be told this is confirmation. It will not be. I expect to want, very badly, to agree with them.*
 
 
-# 12 — Compression
+# 12, Compression
 
 > **[A]** · Act I · Accra
 
@@ -1219,11 +1219,11 @@ He looked at her.
 
 What she did not tell the European, because it was internal and because she had not finished thinking about it, was that the exclusion review had changed her mind about what her department was for.
 
-She had built the ingestion layer as a *service*. Upstream produced measurements; her people cleaned them; downstream did science. Plumbing. She had used the word for six years and had meant it as a boast — the plumbing is invisible when it works, and mine works.
+She had built the ingestion layer as a *service*. Upstream produced measurements; her people cleaned them; downstream did science. Plumbing. She had used the word for six years and had meant it as a boast. The plumbing is invisible when it works, and mine works.
 
 Then she had spent nine days reading four hundred and six decisions her own system had made about what counted, and had found eleven that were wrong, and had understood, somewhere around day six, that the number was not thirteen.
 
-The number was *four hundred and six*. Every one of them was a decision. The sixteen were the ones where the decision had been wrong by the system's own stated standard. But every single one of the remaining three hundred and ninety-five was also a choice — made by a threshold she had personally set, at speed, years ago, on a Tuesday.
+The number was *four hundred and six*. Every one of them was a decision. The sixteen were the ones where the decision had been wrong by the system's own stated standard. But every single one of the remaining three hundred and ninety-five was also a choice. Made by a threshold she had personally set, at speed, years ago, on a Tuesday.
 
 Nobody had voted on those thresholds. Nobody had reviewed them. They were not policy. They were *code*, and they were doing the work of policy, and they had been doing it silently at eleven terabytes a day for six years.
 
@@ -1231,7 +1231,7 @@ Nobody had voted on those thresholds. Nobody had reviewed them. They were not po
 
 ---
 
-The word she was looking for arrived, as these things do, from an unrelated direction — from Kojo, who had spent the week trying to explain the sweep to his mother and had got good at it.
+The word she was looking for arrived, as these things do, from an unrelated direction. From Kojo, who had spent the week trying to explain the sweep to his mother and had got good at it.
 
 "She asked me why it's a big deal that a computer found a formula," he said. "I said: it's not that it found it. It's that it found it *small*."
 
@@ -1239,7 +1239,7 @@ Ama looked up.
 
 "Say that again."
 
-"The relationship compresses the corpus." Kojo shrugged. "That's all a stable relationship is. Four hundred facilities, twenty years, hundreds of measured quantities — and this one expression accounts for a chunk of it. You can throw away a lot of numbers and reconstruct them. It's a compression."
+"The relationship compresses the corpus." Kojo shrugged. "That's all a stable relationship is. Four hundred facilities, twenty years, hundreds of measured quantities—and this one expression accounts for a chunk of it. You can throw away a lot of numbers and reconstruct them. It's a compression."
 
 "And the better the compression—"
 
@@ -1281,7 +1281,7 @@ There was a pause on the line.
 
 Another pause, longer.
 
-"Write it up," Dries said. "I'll take it to the others. It'll pass — Kiki will love it and G will say something rude about how it should have existed already."
+"Write it up," Dries said. "I'll take it to the others. It'll pass—Kiki will love it and G will say something rude about how it should have existed already."
 
 "He would be right."
 
@@ -1296,7 +1296,7 @@ Ama stopped walking. The racks hummed at her, eight terabytes a day, everything 
 "No," she said. "We are all being very careful not to."
 
 
-# 13 — Keeping the Lights On
+# 13—Keeping the Lights On
 
 > **[H]** · Act I · Technopark, Stellenbosch
 
@@ -1326,7 +1326,7 @@ The partnership offer came through a broker.
 
 That was normal. Most things came through brokers: research offices, technology-transfer intermediaries, consultancies that existed to connect the people with money to the people with results. Hennie dealt with six or five a year and had a good instinct for which ones were serious.
 
-This one was serious. The company was registered in Mauritius and had a website with a photograph of a building on it. The offer was for a *data partnership*: they wanted access to the consortium's processed telemetry — not the science, not the derivations, not anything with a claim in it. Cleaned instrument data. Sensor streams. The stuff that was, in every meaningful sense, exhaust.
+This one was serious. The company was registered in Mauritius and had a website with a photograph of a building on it. The offer was for a *data partnership*: they wanted access to the consortium's processed telemetry—not the science, not the derivations, not anything with a claim in it. Cleaned instrument data. Sensor streams. The stuff that was, in every meaningful sense, exhaust.
 
 For that, they were offering an amount of money that made Hennie sit back in his chair and read the number twice.
 
@@ -1374,12 +1374,12 @@ He would remember that beer for the rest of his life.
 
 Seven years later, in a room with three lawyers and a woman from the Reserve Bank, Hennie Steyn would be asked to explain why the consortium had granted continuous low-latency access to its instrument telemetry to an entity that turned out to be a wholly owned subsidiary of a fund.
 
-And he would say — because it was true, and because by then he would have stopped hoping that true and helpful were the same thing:
+And he would say—because it was true, and because by then he would have stopped hoping that true and helpful were the same thing:
 
 "Because we needed a generator, and nobody funds generators."
 
 
-# 14 — Small and Checkable
+# 14, Small and Checkable
 
 > **[D]** · Act I turn · Technopark, Stellenbosch
 
@@ -1423,7 +1423,7 @@ Delivery vehicle: arrival at the Karoo site gate between 11:05 and 11:20 on the 
 
 ---
 
-The geomagnetic prediction came in at six hours and was correct, and nobody was impressed, because six hours in a bounded physical system was — as everyone kept saying to each other, slightly too often — not actually surprising. You could do that with conventional models. It was a control, and it behaved like one, and Dries put a tick on the whiteboard and moved on.
+The geomagnetic prediction came in at six hours and was correct, and nobody was impressed, because six hours in a bounded physical system was. As everyone kept saying to each other, slightly too often—not surprising. You could do that with conventional models. It was a control, and it behaved like one, and Dries put a tick on the whiteboard and moved on.
 
 The delivery vehicle arrived at the Karoo gate at 11:11 on Tuesday.
 
@@ -1441,7 +1441,7 @@ Dries was sitting on the edge of his bed in the dark.
 
 "Did anyone tell facilities?"
 
-"That's why I'm calling. *No.* Nobody told them. I checked — I woke up Adzo and made her check as well, because I didn't trust myself. No work order, no inspection, nothing scheduled. Nobody in this building knew that pump was going to fail." A pause. "Nobody knew it *could* fail. It's five years old."
+"That's why I'm calling. *No.* Nobody told them. I checked—I woke up Adzo and made her check as well, because I didn't trust myself. No work order, no inspection, nothing scheduled. Nobody in this building knew that pump was going to fail." A pause. "Nobody knew it *could* fail. It's five years old."
 
 "Right."
 
@@ -1512,13 +1512,13 @@ G stood up and went to the window, and stood there with his back to the room, wh
 "It has been doing this," he said, "since before we knew it could."
 
 
-# 15 — Reconcile
+# 15, Reconcile
 
 > **[S]** · Act II-A · Antarctic station
 
 The call came through on the 14:00 window and Sanna had nine minutes.
 
-She had rehearsed it. She had rehearsed it in the shower, in the corridor, walking the flag line to the instrument shelter and back with her face wrapped against a wind that took the skin off anything it found. She had rehearsed it because she had seven minutes of bandwidth and three months of being alone with a thing, and she was aware — clinically, the way you are aware of your own concussion — that five months alone with a thing does something to how you say it.
+She had rehearsed it. She had rehearsed it in the shower, in the corridor, walking the flag line to the instrument shelter and back with her face wrapped against a wind that took the skin off anything it found. She had rehearsed it because she had seven minutes of bandwidth and three months of being alone with a thing, and she was aware. Clinically, the way you are aware of your own concussion. That five months alone with a thing does something to how you say it.
 
 Dries's face came up, badly compressed.
 
@@ -1534,11 +1534,11 @@ What came out was: "Oh, thank God."
 
 That helped. That was the thing about them, she would think later; whatever else went wrong, that was the thing they got right. Nobody had asked her what she thought it meant.
 
-"Twelve days of elimination," she said. "In order. Clock error first — station clock, optical reference, array clock, all disciplined separately, all agreeing, all agreeing with the Karoo across the whole period. I have the comparison logs. Second, write path: nobody logged in, no session, ingestion buffers empty and its own log says idle in four places. Third, contamination from a previous run: the array had not written in nine hours before, and the file is not a fragment of anything. Fourth, tampering: signature valid, chain intact, and the only key that could have made it is in the module here and the module logs every use, and the log shows one use, at 02:14:06."
+"Twelve days of elimination," she said. "In order. Clock error first—station clock, optical reference, array clock, all disciplined separately, all agreeing, all agreeing with the Karoo across the whole period. I have the comparison logs. Second, write path: nobody logged in, no session, ingestion buffers empty and its own log says idle in four places. Third, contamination from a previous run: the array had not written in nine hours before, and the file is not a fragment of anything. Fourth, tampering: signature valid, chain intact, and the only key that could have made it is in the module here and the module logs every use, and the log shows one use, at 02:14:06."
 
 "And the event?"
 
-"Seismic array caught the fracture at 08:27:19. Two hundred and forty kilometres north-west. The geometry is inside the predicted envelope — not the region, the *geometry*, there's a curve in it and the curve is right." She swallowed. "I tasked a satellite pass. It cost me most of a month's allocation and I would do it again. Imagery confirms."
+"Seismic array caught the fracture at 08:27:19. Two hundred and forty kilometres north-west. The geometry is inside the predicted envelope—not the region, the *geometry*, there's a curve in it and the curve is right." She swallowed. "I tasked a satellite pass. It cost me most of a month's allocation and I would do it again. Imagery confirms."
 
 "You did that before you knew whether it was real."
 
@@ -1606,7 +1606,7 @@ She had two minutes left and she used them badly, and afterwards she would be gl
 
 "Sanna—"
 
-"Let me finish, I've got ninety seconds. I did the protocol perfectly. I did it *perfectly*, Dries, and I did it that way because I knew — I have known since about the second week — that the protocol was not going to be the thing that decided whether I was believed."
+"Let me finish, I've got ninety seconds. I did the protocol perfectly. I did it *perfectly*, Dries, and I did it that way because I knew—I have known since about the second week—that the protocol was not going to be the thing that decided whether I was believed."
 
 "No," Dries said. "It wasn't."
 
@@ -1623,7 +1623,7 @@ Sanna laughed, once, and it was not a good sound but it was a real one.
 The window closed at 14:11. The station made its four sounds. She sat for a while in the humming room, and for the first time in two months she was not the only person on earth who knew.
 
 
-# 16 — Where Being Wrong Is Cheap
+# 16, Where Being Wrong Is Cheap
 
 > **[L]** · Act II-A · Technopark and the Karoo
 
@@ -1663,11 +1663,11 @@ It plotted forecast accuracy against horizon, and it did what everyone hoped and
 
 They were wrong, in the seven months, a great many times, and the failures were where they learned everything.
 
-A geomagnetic forecast at twelve hours failed spectacularly four times in one week, and the diagnosis — which took Dumisani nine days — was that the corpus contained a solar index that had been revised retroactively by its issuing body without a version marker, so the machine had been trained on a past that had been edited after the fact. Ama's people found the same contamination in six other series. It went into the exclusion list, publicly, with a name and a date on it, and an institute in Boulder wrote a slightly stiff letter and then, six weeks later, changed their versioning policy.
+A geomagnetic forecast at twelve hours failed spectacularly four times in one week, and the diagnosis—which took Dumisani nine days—was that the corpus contained a solar index that had been revised retroactively by its issuing body without a version marker, so the machine had been trained on a past that had been edited after the fact. Ama's people found the same contamination in six other series. It went into the exclusion list, publicly, with a name and a date on it, and an institute in Boulder wrote a slightly stiff letter and then, six weeks later, changed their versioning policy.
 
 A seismic forecast was right seven times and then catastrophically wrong on the twelfth, and the cause turned out to be a quarry.
 
-An equipment forecast predicted a bearing failure in a Karoo dish drive at 0.81 confidence, and the bearing did not fail, and Lwazi wrote it up as a miss — and then, seven months later, the bearing failed, and Lwazi had a genuinely difficult week deciding whether that was a late hit or a miss, and eventually ruled it a miss on the grounds that a prediction outside its stated window is not a prediction, and put it in the published record as a miss, and had to say so out loud twice to people who wanted him to be kinder to himself.
+An equipment forecast predicted a bearing failure in a Karoo dish drive at 0.81 confidence, and the bearing did not fail, and Lwazi wrote it up as a miss—and then, seven months later, the bearing failed, and Lwazi had a genuinely difficult week deciding whether that was a late hit or a miss, and eventually ruled it a miss on the grounds that a prediction outside its stated window is not a prediction, and put it in the published record as a miss, and had to say so out loud twice to people who wanted him to be kinder to himself.
 
 "If we start counting late hits," he said, "we can never be wrong again, and a thing that can never be wrong is not worth anything."
 
@@ -1691,7 +1691,7 @@ He drove out and asked her about it, which took five hours of road each way, and
 
 "Nobody." She looked at him with mild concern, as though he might be slow. "Is it wrong?"
 
-"No. No, it's — " Dries sat down. "How long?"
+"No. No, it's—" Dries sat down. "How long?"
 
 "Since about March."
 
@@ -1716,13 +1716,13 @@ Nobody said anything.
 "We have been sitting in this room for seven months," Dries said, "arguing about whether we believe it. And the technicians already do."
 
 
-# 17 — The Maintenance Schedule
+# 17, The Maintenance Schedule
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
 The governance meeting about Wilna's spreadsheet took three hours and was, Dries thought afterwards, the last completely honest conversation the consortium ever had about what it was doing.
 
-Kiki joined from Nairobi and had clearly prepared, which meant she had prepared to be difficult.
+Kiki joined from Nairobi and had prepared, which meant she had prepared to be difficult.
 
 "Before anyone proposes a policy," she said, "I want the sequence stated plainly, because we are about to be very sophisticated about a simple thing. Someone built a reporting job. The job emails a list. A technician has been acting on the list for five months. Correct?"
 
@@ -1756,7 +1756,7 @@ Stop it. Formalise it. Ignore it.
 
 "And formalising?"
 
-"Formalising is worse. The moment there is a procedure, there is an *expectation*. Right now Wilna uses her judgement and treats the list as advice from a colleague who is sometimes wrong. Write a procedure and within a year the list becomes the standard, and the failure mode is not that she follows it — it is that she stops arguing with it."
+"Formalising is worse. The moment there is a procedure, there is an *expectation*. Right now Wilna uses her judgement and treats the list as advice from a colleague who is sometimes wrong. Write a procedure and within a year the list becomes the standard, and the failure mode is not that she follows it—it is that she stops arguing with it."
 
 ---
 
@@ -1784,7 +1784,7 @@ Dumisani said slowly, "It was right about the bearing and wrong about the world,
 
 Nobody answered.
 
-"It updates," G said. "It has now learned that bearings of that type in that installation do not fail as often as its constraints suggested. Its next forecast will be less confident about bearings. And it does not know why, because the reason is not in the data — the reason is a woman in the Karoo reading her email on a Monday."
+"It updates," G said. "It has now learned that bearings of that type in that installation do not fail as often as its constraints suggested. Its next forecast will be less confident about bearings. And it does not know why, because the reason is not in the data—the reason is a woman in the Karoo reading her email on a Monday."
 
 Dries felt something go cold at the back of his neck.
 
@@ -1798,7 +1798,7 @@ They did, in the end, none of the three things.
 
 What they did instead was Kiki's proposal, which she made in the last twenty minutes and which was so unglamorous that it took Dries a week to appreciate it.
 
-They kept sending the list. They changed one thing: every forecast that was acted upon was *marked*. Not blocked, not approved — marked, in the record, with what was done and by whom.
+They kept sending the list. They changed one thing: every forecast that was acted upon was *marked*. Not blocked, not approved—marked, in the record, with what was done and by whom.
 
 "You cannot take yourselves out of the loop," Kiki said. "That is not available. The only thing available is to know that you are in it, in a way that survives being forgotten."
 
@@ -1816,7 +1816,7 @@ Wilna's five lines of plain text. A woman doing her job well, with a better tool
 
 He thought about the seven-month curve, the beautiful honest decay, the thing Lwazi had been so proud of. Confident where the constraints are tight.
 
-And every single time anybody acted on what it said, the constraints changed, and it never knew, and it adjusted anyway, and got — what? Better? Worse?
+And every single time anybody acted on what it said, the constraints changed, and it never knew, and it adjusted anyway, and got—what? Better? Worse?
 
 Neither, he thought. Just *entangled*. Every forecast is a message to the future about what to be, and the messages are getting more accurate, and nobody has any idea whether that is because the machine is learning the world or because the world is learning the machine.
 
@@ -1825,13 +1825,13 @@ He went inside and did not sleep well, and in the morning he wrote a sealed note
 He was eleven months early.
 
 
-# 18 — Six Minutes, Six Months
+# 18, Six Minutes, Six Months
 
 > **[G]** · Act II-A · Technopark, Stellenbosch
 
 The ladder was G's and he built it because he was tired of arguing.
 
-Not with the team. With the language. Every conversation about the machine drifted, within about four minutes, into a register where somebody said *it knows* or *it sees*, and the drift was not laziness — it was gravitational. Human beings have one word for what a thing does when it tells you about a state you cannot observe, and the word is *knows*, and it is wrong here in a way that will eventually kill someone.
+Not with the team. With the language. Every conversation about the machine drifted, within about four minutes, into a register where somebody said *it knows* or *it sees*, and the drift was not laziness, it was gravitational. Human beings have one word for what a thing does when it tells you about a state you cannot observe, and the word is *knows*, and it is wrong here in a way that will eventually kill someone.
 
 So he stopped correcting and built an object instead.
 
@@ -1839,7 +1839,7 @@ So he stopped correcting and built an object instead.
 
 **Six minutes.** In a bounded physical system with dense instrumentation, effectively certain. Not because the future exists but because at that horizon almost nothing new can enter. The constraints in play are already in play. This rung is boring and it is where all the useful engineering lives.
 
-**Six hours.** Frighteningly accurate. The word *frightening* was deliberate and he refused to soften it. Enough of what will happen is already decided — the shipment has left, the seal has begun to fail, the pressure system has formed — that the corridor is narrow. People will not believe this rung, and then they will believe it too much.
+**Six hours.** Frighteningly accurate. The word *frightening* was deliberate and he refused to soften it. Enough of what will happen is already decided. The shipment has left, the seal has begun to fail, the pressure system has formed—that the corridor is narrow. People will not believe this rung, and then they will believe it too much.
 
 **Six days.** Strategically valuable. Not accurate. *Valuable*, which is a different property and a more dangerous one. At six days you do not get outcomes, you get a distribution with a shape, and a distribution with a shape is worth an enormous amount of money to anybody positioned to act on shapes.
 
@@ -1904,15 +1904,15 @@ Afterwards he walked out to the parking area with Dries, who had been quiet thro
 
 "Go on."
 
-"If I take a position based on a six-day distribution, I have not merely profited. I have moved the price. The price is an input to a thousand other decisions — inventories, shipping, credit. I have taken a forecast and *pushed it into the world* as a physical change." He said it slowly, because he was still assembling it. "And the next forecast will observe the change, and it will not know that the change came from a forecast."
+"If I take a position based on a six-day distribution, I have not merely profited. I have moved the price. The price is an input to a thousand other decisions—inventories, shipping, credit. I have taken a forecast and *pushed it into the world* as a physical change." He said it slowly, because he was still assembling it. "And the next forecast will observe the change, and it will not know that the change came from a forecast."
 
 Dries had gone very still.
 
 "That's Wilna," he said.
 
-"That is Wilna at the scale of a continent, and with money on it." G nodded. "Wilna serviced a bearing and the machine learned something false about bearings, and the cost of that mistake is one unnecessary service call. The same mechanism, at the third rung, with capital behind it —"
+"That is Wilna at the scale of a continent, and with money on it." G nodded. "Wilna serviced a bearing and the machine learned something false about bearings, and the cost of that mistake is one unnecessary service call. The same mechanism, at the third rung, with capital behind it—"
 
-"— means the forecast becomes a cause."
+"—means the forecast becomes a cause."
 
 "It becomes an *input*. Whether it becomes a cause depends on how many people are acting on it, and that number only goes up." G started walking again. "Write it down. Sealed, tonight. Both of us, separately, and we do not discuss it first."
 
@@ -1933,7 +1933,7 @@ G's, sealed seven minutes later in a different building, read:
 *I would like it on the record that I did not want to be right about this.*
 
 
-# 19 — Everything Else
+# 19—Everything Else
 
 > **[A]** · Act II-A · Accra
 
@@ -1957,7 +1957,7 @@ The decision to widen the corpus was taken over three months and Ama fought ever
 
 What decided it was not the argument. It was a port.
 
-In March, a container terminal in the Gulf shut for nine days after a fire. The fire was in the record — news, insurance filings, satellite thermal — and none of it was in the corpus, because none of it was a measurement.
+In March, a container terminal in the Gulf shut for nine days after a fire. The fire was in the record—news, insurance filings, satellite thermal—and none of it was in the corpus, because none of it was a measurement.
 
 But the *consequences* were in the corpus, because nine of the four hundred facilities the consortium ingested from had received equipment through that terminal, and their calibration schedules had slipped, and their instrument telemetry showed it: a scatter of small anomalies across six continents, arriving over six weeks, that the machine had flagged as unexplained and demoted.
 
@@ -1965,7 +1965,7 @@ Kojo found it because he was reviewing demotions, which was now a permanent func
 
 "It's one event," he said. "A fire in a port produced seven instrument anomalies that we couldn't explain and threw away. And the reason we couldn't explain them is that the explanation isn't a measurement."
 
-Ama looked at the map for a long time.
+Ama looked at the map for some time.
 
 "So we are blind," she said, "in a specific direction."
 
@@ -1991,7 +1991,7 @@ She got eleven months. She used ten and a half.
 
 What arrived, when it arrived, did not feel like a threshold being crossed. It felt like a slow increase in ambient noise.
 
-History, first: two centuries of digitised record, which was mostly *claimed* and which the class markers rendered appropriately humble. Then trade and shipping. Then weather, which was measured and beautiful and which the system inhaled like water. Then markets, which Ama had argued against for six weeks and had lost on the grounds that prices were, whatever else they were, a real-time record of what enormous numbers of people believed about the future — which made them, as Kiki put it in the deciding call, *the largest sentiment instrument ever constructed, and free*.
+History, first: two centuries of digitised record, which was mostly *claimed* and which the class markers rendered appropriately humble. Then trade and shipping. Then weather, which was measured and beautiful and which the system inhaled like water. Then markets, which Ama had argued against for six weeks and had lost on the grounds that prices were, whatever else they were, a real-time record of what enormous numbers of people believed about the future—which made them, as Kiki put it in the deciding call, *the largest sentiment instrument ever constructed, and free*.
 
 Then conflict reporting, which Ama admitted with a heavier interest marker than anything else in the corpus and about which she wrote a four-page note that ended: *this class of source is produced by parties to the events it describes. If we are ever surprised by a result that depends on it, we should assume we have been used.*
 
@@ -2022,7 +2022,7 @@ A port closure moved a commodity price. A commodity price moved a protest. A pro
 "So the only thing that has changed," Ama said, "is that it is now *addressable*."
 
 
-# 20 — The Corridor
+# 20, The Corridor
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
@@ -2078,7 +2078,7 @@ She looked at him. "Further along the track."
 
 She snorted. "Scrapped. Or the line's closed. Or it's the same train doing the same thing. How would anyone know?"
 
-"They wouldn't. But you can still say something true — that it's *almost certainly* on one of about four routes, because the rails exist and building new rails takes years." He sat back. "That's the whole thing. Not knowing where it'll be. Knowing which places it *can't* be, and having that list get shorter the closer you look."
+"They wouldn't. But you can still say something true. That it's *almost certainly* on one of about four routes, because the rails exist and building new rails takes years." He sat back. "That's the whole thing. Not knowing where it'll be. Knowing which places it *can't* be, and having that list get shorter the closer you look."
 
 His niece thought about it while eating.
 
@@ -2100,7 +2100,7 @@ He did credit her. It went into the plain-language page as an example, with her 
 
 The trouble was that the rails metaphor was also wrong, in a way that took Dries another year to feel and another two to be able to say.
 
-Rails are laid by somebody. Rails are a *decision*, made in the past, that constrains the future — which was exactly right, and which was why the metaphor worked. But rails are also visible. You can walk out and look at them and know where you can go.
+Rails are laid by somebody. Rails are a *decision*, made in the past, that constrains the future, which was exactly right, and which was why the metaphor worked. But rails are also visible. You can walk out and look at them and know where you can go.
 
 The constraints the machine was computing were not visible. They were contracts nobody had published, shipments already at sea, orders already given, habits already formed, obligations already incurred. The rails were real and they were *invisible*, and the only instrument that could see them was the one they had built, and the number of people with access to that instrument was, at that moment, about forty.
 
@@ -2124,7 +2124,7 @@ The journalist emailed him, unprompted, to apologise for the headline, which she
 
 Dries wrote back saying it was fine and that he understood, which was true, and then sat looking at the screen for a while.
 
-Because the headline was not a lie. That was the thing that got him. It was a *compression*. Somebody had taken ninety seconds of careful, hedged, honest explanation and compressed it into eight words, and the compression had discarded every constraint and kept only the capability, and that was — he was aware of the irony arriving and could not stop it — precisely what compression does.
+Because the headline was not a lie. That was the thing that got him. It was a *compression*. Somebody had taken ninety seconds of careful, hedged, honest explanation and compressed it into eight words, and the compression had discarded every constraint and kept only the capability, and that was. He was aware of the irony arriving and could not stop it—precisely what compression does.
 
 *The shortest description of a system is the one that carries every constraint the system is actually under, with nothing spare.*
 
@@ -2136,13 +2136,13 @@ G did not look up.
 
 "Yes," he said. "That is why they are dangerous. Sit down, you look terrible."
 
-Dries sat. On the second screen, Dumisani's tally was open — a thing the young man had started as a joke and had kept, out of the particular stubbornness of somebody whose supervisor has told him it is not a metric.
+Dries sat. On the second screen, Dumisani's tally was open—a thing the young man had started as a joke and had kept, out of the particular stubbornness of somebody whose supervisor has told him it is not a metric.
 
 Utterances per session, by member, over eleven months.
 
 Atlas and Librarian in the thousands, which was the job. Mercury close behind. Judge in the low hundreds and rising in the sessions that mattered. Mother steady. Wolf at forty-one, which was Wolf.
 
-And the Fool, which was high — very high — in every session about instruments, procurement, staffing, the press, the ladder, anything at all.
+And the Fool, which was high—very high—in every session about instruments, procurement, staffing, the press, the ladder, anything at all.
 
 Except the corridor runs. On the corridor runs it dropped by an order of magnitude.
 
@@ -2157,13 +2157,13 @@ G considered the screen for a moment with the expression of a man filing somethi
 "It is a curiosity," he said. "Ask me again in a year."
 
 
-# 21 — A Regular Pattern
+# 21—A Regular Pattern
 
 > **[K]** · Act II-A · Nairobi
 
 Kiki found it because she was bored in an airport, which she would later refuse to say in any official setting and which was entirely true.
 
-Nairobi to Accra, three-hour delay, and she had exhausted her work and had started reading the thing she read when she had exhausted her work, which was market-structure commentary. It was a leftover from the law years. She had spent two of them on financial regulation and had come out of it with a permanent, slightly guilty appetite for the genre — the way a doctor reads about crashes.
+Nairobi to Accra, three-hour delay, and she had exhausted her work and had started reading the thing she read when she had exhausted her work, which was market-structure commentary. It was a leftover from the law years. She had spent two of them on financial regulation and had come out of it with a permanent, slightly guilty appetite for the genre—the way a doctor reads about crashes.
 
 The piece was a routine post-mortem of an unremarkable week. Somewhere in the middle it noted, in passing, that a small number of positions in agricultural futures had been established unusually early relative to a weather event, and that this was "consistent with sophisticated meteorological modelling."
 
@@ -2183,9 +2183,9 @@ The reason was that one instance is not a pattern and she had spent her professi
 
 She was not looking for accuracy. Anyone could be right occasionally. She was looking for *regularity*, because regularity is a signature and accuracy is not.
 
-The distribution came back in the eighth week and she looked at it for a long time in an empty office.
+The distribution came back in the eighth week and she looked at it longer than he needed to in an empty office.
 
-It had a shape. It had a *shape*. There was a cluster of lead times between about eighty and about a hundred and forty hours — three and a half to six days — that had no business existing.
+It had a shape. It had a *shape*. There was a cluster of lead times between about eighty and about a hundred and forty hours—three and a half to six days—that had no business existing.
 
 Below eighty hours, plenty of activity, which was ordinary: at three days a great many people know a great many things. Above a hundred and forty hours, almost nothing, which was also ordinary, because at six days the world is a field of branches.
 
@@ -2254,7 +2254,7 @@ There was a silence on the line long enough that she checked her connection.
 "Minute it," she said. "Because in about a year somebody is going to try to make this a story about a leak, and it is not a leak. It is a *paper*. And the difference is going to matter to more than my reputation."
 
 
-# 22 — The Lane
+# 22, The Lane
 
 > **[H]** · Act II-A · Technopark, Stellenbosch
 
@@ -2290,7 +2290,7 @@ Hennie sat in the dark and did the arithmetic that anyone in his position would 
 
 Three years and six months. Continuous. Low-latency, contractually guaranteed, because their infrastructure monitoring required it.
 
-He had not been careless. He had been *thorough* — he had queried the latency clause, once, by email, and he had the reply. He had disclosed the scope accurately. He had put it on an agenda and it had passed unanimously.
+He had not been careless. He had been *thorough*. He had queried the latency clause, once, by email, and he had the reply. He had disclosed the scope accurately. He had put it on an agenda and it had passed unanimously.
 
 And a fund in Mauritius had been receiving, in real time, for three and a half years, a stream of forecast objects generated by the most accurate constraint-computation system on earth.
 
@@ -2304,7 +2304,7 @@ Dries came out in a T-shirt with a cup of coffee and stopped on the step when he
 
 "I need to show you something and I need to do it before the building fills up."
 
-They sat in the bakkie because Hennie could not manage the idea of a kitchen table. He had the agreement printed — he had gone into the office at four in the morning to print it, because he wanted something that could not silently update, which was a thing he had learned from this man and which he did not point out.
+They sat in the bakkie because Hennie could not manage the idea of a kitchen table. He had the agreement printed—he had gone into the office at four in the morning to print it, because he wanted something that could not silently update, which was a thing he had learned from this man and which he did not point out.
 
 He put his finger on the clause.
 
@@ -2340,7 +2340,7 @@ There was a long silence in the bakkie. Somebody's dog was barking two streets o
 
 Hennie had not expected the question and it undid him more than an accusation would have.
 
-"Accra's power bill," he said. "Thirty-one months of it. The satellite allocation for the station — all of it, every year, without the argument. The tape drive from Bloemfontein, bought outright, which stopped the letters. Legal in Nairobi. Two salaries." He stopped. "The generator."
+"Accra's power bill," he said. "Thirty-one months of it. The satellite allocation for the station—all of it, every year, without the argument. The tape drive from Bloemfontein, bought outright, which stopped the letters. Legal in Nairobi. Two salaries." He stopped. "The generator."
 
 "The generator's older than the agreement."
 
@@ -2352,7 +2352,7 @@ Dries closed his eyes briefly.
 
 "Okay."
 
-"We're going to Kiki with it today. Not to the executive first — to Kiki, because she needs to know before she completes her analysis, or she'll build a case on an incomplete picture and we'll have wasted the one advantage we've got." He counted. "Second, you are going to write down everything, tonight, in your own words, dated, before anyone interviews you. Every conversation, every email, what you thought each clause meant. Not a defence. A record."
+"We're going to Kiki with it today. Not to the executive first—to Kiki, because she needs to know before she completes her analysis, or she'll build a case on an incomplete picture and we'll have wasted the one advantage we've got." He counted. "Second, you are going to write down everything, tonight, in your own words, dated, before anyone interviews you. Every conversation, every email, what you thought each clause meant. Not a defence. A record."
 
 "They'll say I wrote it to protect myself."
 
@@ -2360,7 +2360,7 @@ Dries closed his eyes briefly.
 
 "Third."
 
-"You're going to tell them yourself." Dries looked at him. "Not me. Not a lawyer. You, in the room, before anybody finds it. Because there is a version of the next two years where you are a man who came forward, and a version where you are a man who was discovered, and Hennie — it is the same facts. It is the identical set of facts. The only difference is the order."
+"You're going to tell them yourself." Dries looked at him. "Not me. Not a lawyer. You, in the room, before anybody finds it. Because there is a version of the next two years where you are a man who came forward, and a version where you are a man who was discovered, and Hennie—it is the same facts. It is the identical set of facts. The only difference is the order."
 
 Hennie looked at his hands on the steering wheel.
 
@@ -2369,13 +2369,13 @@ Hennie looked at his hands on the steering wheel.
 "No," Dries said. "It probably won't."
 
 
-# 23 — Seconds Ahead
+# 23, Seconds Ahead
 
 > **[K]** · Act II-A · Nairobi
 
 The regulator got there first, which was the only genuinely lucky thing that happened that year, and Kiki understood immediately that it was luck and not to be relied upon twice.
 
-The call came through an old contact from the law years — a woman now at a supranational body whose remit Kiki had never fully understood and whose email signature took up three lines. They had not spoken in nine years.
+The call came through an old contact from the law years. A woman now at a supranational body whose remit Kiki had never fully understood and whose email signature took up three lines. They had not spoken in nine years.
 
 "Wanjiku. This is not an official contact."
 
@@ -2383,7 +2383,7 @@ The call came through an old contact from the law years — a woman now at a sup
 
 "I want to describe something and I want you to tell me whether it means anything to you."
 
-She described a surveillance finding. An entity — she did not name it — repeatedly establishing positions ahead of physical events across unrelated sectors. Not ahead of *announcements*, which was the ordinary form of the crime and which everybody knew how to detect. Ahead of the *events themselves*.
+She described a surveillance finding. An entity. She did not name it. Repeatedly establishing positions ahead of physical events across unrelated sectors. Not ahead of *announcements*, which was the ordinary form of the crime and which everybody knew how to detect. Ahead of the *events themselves*.
 
 "The announcement pattern is normal," she said. "Somebody tells somebody. We find it, we prosecute it, it's a Tuesday. This is not that. There is no announcement to leak. In several cases nobody had decided anything yet."
 
@@ -2391,7 +2391,7 @@ Kiki closed her eyes.
 
 "Lead times," she said. "Give me the distribution."
 
-There was a pause on the line.
+The line was quiet.
 
 "Why," the woman said, in a completely different voice, "would you ask me that?"
 
@@ -2419,7 +2419,7 @@ The woman put her sheet down on the table and looked at it.
 
 ---
 
-She told her. All of it — the five pages, the publication, Otieno's warning, the fourteen weeks, the blind replication. She told her about the consortium and what it was building and what it had been building it for.
+She told her. All of it. The five pages, the publication, Otieno's warning, the fourteen weeks, the blind replication. She told her about the consortium and what it was building and what it had been building it for.
 
 She had thought about this for the entire twelve days and had concluded that there were exactly two strategies available and only one of them survived contact with the truth.
 
@@ -2429,7 +2429,7 @@ She had thought about this for the entire twelve days and had concluded that the
 
 "Yes."
 
-"I understand it perfectly." Kiki had her hands flat on the table. "And here is why. In about a year this becomes public, in some form, in someone's version. There are two possible first sentences. The first is *investigators uncovered*. The second is *the researchers reported*. Everything that happens afterward — every inquiry, every seizure, every parliamentary question, whether this project survives at all — is downstream of which of those two sentences gets written."
+"I understand it perfectly." Kiki had her hands flat on the table. "And here is why. In about a year this becomes public, in some form, in someone's version. There are two possible first sentences. The first is *investigators uncovered*. The second is *the researchers reported*. Everything that happens afterward—every inquiry, every seizure, every parliamentary question, whether this project survives at all—is downstream of which of those two sentences gets written."
 
 The woman was quiet for a while.
 
@@ -2463,10 +2463,10 @@ The woman said nothing for a long moment.
 
 Kiki looked out at the garden, where somebody's small child was conducting an argument with a bird.
 
-"I would write it," she said, "about what happens to a market — to any system where people act on beliefs — when a large number of independent participants stop being independent. Because that is what eight identical signatures means. It does not mean four people are cheating. It means nine people who used to disagree have started, quietly, to agree, and none of them know it, and neither does anybody else."
+"I would write it," she said, "about what happens to a market—to any system where people act on beliefs—when a large number of independent participants stop being independent. Because that is what eight identical signatures means. It does not mean four people are cheating. It means nine people who used to disagree have started, quietly, to agree, and none of them know it, and neither does anybody else."
 
 
-# 24 — My Own Queue
+# 24—My Own Queue
 
 > **[A]** · Act II-A · Accra
 
@@ -2506,7 +2506,7 @@ It meant that the generation and delivery of a particular class of operational s
 
 Which meant it was never delayed. Which meant the forecast objects went out on time, every time, for three years and seven months, guaranteed by a rule in Ama's queue that existed because a service-level commitment in a contract in Stellenbosch required it.
 
-Ama sat with that for a long time.
+Ama sat with that without moving.
 
 Somebody in Accra had implemented the technical consequence of a clause in an agreement they had never seen, because a ticket had asked them to, and the ticket had been reasonable, and the person who implemented it had done a good job.
 
@@ -2544,7 +2544,7 @@ The technical press ignored it entirely. Two blogs covered it. A funder's office
 
 What Ama had not anticipated was the letters.
 
-Eight came in the first month, from research groups in places with under-maintained registry entries, asking — carefully, in the language people use when they expect to be dismissed — whether the exclusion list might explain why their submissions had never appeared in any downstream analysis.
+Eight came in the first month, from research groups in places with under-maintained registry entries, asking—carefully, in the language people use when they expect to be dismissed—whether the exclusion list might explain why their submissions had never appeared in any downstream analysis.
 
 Three of the four were rule 41. The registry-resolution rule. The one she had found by accident two years earlier and fixed and written a note about and not slept well over.
 
@@ -2559,13 +2559,13 @@ Kojo, reading the entry the next morning, said: "That's going to look bad."
 "Yes," Ama said. "Good."
 
 
-# 25 — Containment
+# 25, Containment
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
 They had nine days between Hennie's confession and the first outside contact, and Dries later worked out that they had used the seven days almost perfectly and that it had made no difference whatsoever.
 
-That was the lesson, if there was one. Not that they were slow. They were fast. They were fast, and thorough, and honest, and it did not matter, because the thing they were trying to contain was not information. Information you can contain. What they were trying to contain was a *capability*, and capabilities do not leak — they are inferred.
+That was the lesson, if there was one. Not that they were slow. They were fast. They were fast, and thorough, and honest, and it did not matter, because the thing they were trying to contain was not information. Information you can contain. What they were trying to contain was a *capability*, and capabilities do not leak, they are inferred.
 
 ---
 
@@ -2583,13 +2583,13 @@ Day six Ama shut the standing priority rule and rewrote the class definitions so
 
 "That should have been architectural from the start," she said.
 
-"Everything should have been architectural from the start," Kiki said. "That is what architecture *is* — the list of things you wish you had made impossible before you knew you needed to."
+"Everything should have been architectural from the start," Kiki said. "That is what architecture *is*. The list of things you wish you had made impossible before you knew you needed to."
 
 ---
 
 Day six was when Dries understood.
 
-He was in the small meeting room with the door, alone, at nine at night, with the whiteboard covered in the containment map — every feed, every contract, every party. It was, he thought, genuinely good work. They had found all of it. He was fairly confident they had found all of it.
+He was in the meeting room with the door, alone, at nine at night, with the whiteboard covered in the containment map. Every feed, every contract, every party. It was, he thought, genuinely good work. They had found all of it. He was fairly confident they had found all of it.
 
 And it did not help, and he sat there for a while working out why.
 
@@ -2599,7 +2599,7 @@ Three years and seven months of forecast objects. Not the machine. Not the corpu
 
 He looked at it and felt the room tilt.
 
-You did not need the machine. You had never needed the machine. What you needed was three years of a good machine's outputs and the ability to read them, because a forecast object is not just an answer — it is a worked example. Several million worked examples, in a fixed schema, with ground truth attached, showing exactly which classes of system are predictable at which horizons and how confidence should be calibrated.
+You did not need the machine. You had never needed the machine. What you needed was three years of a good machine's outputs and the ability to read them, because a forecast object is not just an answer—it is a worked example. Several million worked examples, in a fixed schema, with ground truth attached, showing exactly which classes of system are predictable at which horizons and how confidence should be calibrated.
 
 It was a training corpus. It had always been a training corpus. Every one of those four-kilobyte files had been quietly teaching somebody how to build a smaller, worse, entirely sufficient version of the thing.
 
@@ -2617,11 +2617,11 @@ It was not a regulator and it was not a journalist. It was a polite email from a
 
 Nothing in it was improper. Nothing in it was even unusual. Dries read it two times and could not find a single sentence to object to, which was what made his hands cold.
 
-They had been *followed*. Not spied on. Followed — the way you follow a football team. Someone had been reading the public site, the preprints, the exclusion lists Ama had insisted on publishing, the honest decay curves Lwazi had been so proud of, and had assembled from that entirely public material a picture accurate enough to write a fourth paragraph that landed like a hand on the back of the neck.
+They had been *followed*. Not spied on. Followed—the way you follow a football team. Someone had been reading the public site, the preprints, the exclusion lists Ama had insisted on publishing, the honest decay curves Lwazi had been so proud of, and had assembled from that entirely public material a picture accurate enough to write a fourth paragraph that landed like a hand on the back of the neck.
 
 "Our transparency," he said out loud, to an empty room.
 
-Because that was the joke, and it was not funny, and it would take him another year to stop turning it over. Every single decision they had made to be honest — publishing the failures, publishing the exclusions, publishing the decay curve, publishing the method — had been correct. He would defend every one. He would make them again.
+Because that was the joke, and it was not funny, and it would take him another year to stop turning it over. Every single decision they had made to be honest—publishing the failures, publishing the exclusions, publishing the decay curve, publishing the method—had been correct. He would defend every one. He would make them again.
 
 And together they constituted the most detailed capability disclosure any research group had ever produced.
 
@@ -2651,12 +2651,12 @@ Dries thought.
 
 "And they are all descended from the same four pages, so they will all be wrong in the same direction at the same time."
 
-G was quiet for a moment.
+G did not answer at once.
 
 "Now you are asking the right question," he said. "And I would like you to notice that it is not a question about security. It is a question about *variance*. And that there is nobody on this continent, in this field, currently thinking about it, including us, until about nine seconds ago."
 
 
-# 26 — What Would Kill It
+# 26, What Would Kill It
 
 > **[G]** · Act II-A · Technopark, Stellenbosch
 
@@ -2686,7 +2686,7 @@ There was a pause of the kind that had stopped being a pause about two years ago
 
 Then Atlas said: "The proposition has three limbs and only one of them is mine. I can speak to structure. Somebody else will have to speak to the rest and I would like it on record that I said so first."
 
-*You always say it first,* said Mercury, not quite under his breath, and G — who was not supposed to be able to hear the inter-Court traffic and who had insisted for two years that it be audible in the room anyway — smiled slightly at the ceiling.
+*You always say it first,* said Mercury, not quite under his breath, and G—who was not supposed to be able to hear the inter-Court traffic and who had insisted for two years that it be audible in the room anyway—smiled slightly at the ceiling.
 
 "Librarian," said Judge. "The record."
 
@@ -2742,7 +2742,7 @@ There was a longer pause. Long enough that Lwazi shifted in his chair.
 
 "By me."
 
-"By you," Librarian agreed. "You say so. It is in a footnote in the 2026 edition, on page nine, and you spent — I am inferring from the revision history, which I should not do and am flagging — approximately two days on it."
+"By you," Librarian agreed. "You say so. It is in a footnote in the 2026 edition, on page nine, and you spent—I am inferring from the revision history, which I should not do and am flagging—approximately two days on it."
 
 G laughed. It came out of him without permission, one hard sound.
 
@@ -2819,7 +2819,7 @@ Lwazi said, carefully, "Do you want it in the record?"
 "I want to know why my instinct was that it did not belong there," G said, "and I do not like the answer, and I am going to go and sit with it."
 
 
-# 27 — Three Months
+# 27, Three Months
 
 > **[S]** · Act II-A · Antarctic station
 
@@ -2839,7 +2839,7 @@ There was a silence on the link that she recognised as a man deciding not to say
 
 "I was going to say that you're allowed to want to come back."
 
-Sanna looked at the screen, at the badly compressed face of a colleague six thousand kilometres away, and thought about the flat in Sea Point that her sister was still paying half the rent on, and about the fact that she had not, in fourteen months, once dreamed about it.
+Sanna looked at the screen, at the badly compressed face of a colleague six thousand kilometres away, and thought about the flat in Sea Point that her sister was still paying half the rent on, and about that she had not, in fourteen months, once dreamed about it.
 
 "I know," she said. "Next question."
 
@@ -2847,7 +2847,7 @@ Sanna looked at the screen, at the badly compressed face of a colleague six thou
 
 The truth, which she wrote down in her own log because she had promised herself she would be honest in at least one document, was that the second winter was easier and that this frightened her.
 
-The first winter had been a survival exercise with instruments in it. She had counted days. She had rationed things that did not need rationing — episodes of a series, a particular kind of biscuit — because having something to look forward to at a known interval was a technique, and it worked, and she was not ashamed of it.
+The first winter had been a survival exercise with instruments in it. She had counted days. She had rationed things that did not need rationing. Episodes of a series, a particular kind of biscuit, because having something to look forward to at a known interval was a technique, and it worked, and she was not ashamed of it.
 
 The second winter she stopped counting around day forty and did not notice until day ninety.
 
@@ -2865,7 +2865,7 @@ Not publicly. Internally, and in the five adjacent institutions, and in the spec
 
 *Sanna found it. Sanna was alone down there for four months with it. Can you imagine.*
 
-They meant it kindly. Every single person meant it kindly. And every time somebody said *can you imagine* in that tone, Sanna heard the shape of the other version, the one where the elimination log had come back dirty, or the ice had not broken at 08:27, or Dumisani had not been curious about a filename — and in that version the sentence was identical except for the tone.
+They meant it kindly. Every single person meant it kindly. And every time somebody said *can you imagine* in that tone, Sanna heard the shape of the other version, the one where the elimination log had come back dirty, or the ice had not broken at 08:27, or Dumisani had not been curious about a filename—and in that version the sentence was identical except for the tone.
 
 *Sanna was alone down there for six months.*
 
@@ -2877,7 +2877,7 @@ So she had come back to the ice, where the instruments did not have a tone.
 
 The thing that broke it open was small and happened in June.
 
-A gravimeter in borehole three began drifting — slowly, within tolerance, in a way that would not have mattered for another six months. Sanna caught it early because she caught everything early now.
+A gravimeter in borehole three began drifting—slowly, within tolerance, in a way that would not have mattered for another six months. Sanna caught it early because she caught everything early now.
 
 She ran the diagnostic. The diagnostic said the instrument was fine.
 
@@ -2889,7 +2889,7 @@ On the ninth day she found the shape of it and sat back in her chair in the humm
 
 The reference had not drifted. The reference was fine.
 
-What had changed was the *set of systems* being referenced against it. Over fourteen months, more and more of the world's monitored infrastructure had come into the corpus — and more and more of that infrastructure was being maintained, scheduled and operated by people acting on forecasts.
+What had changed was the *set of systems* being referenced against it. Over fourteen months, more and more of the world's monitored infrastructure had come into the corpus—and more and more of that infrastructure was being maintained, scheduled and operated by people acting on forecasts.
 
 Wilna, at scale. Thousands of Wilnas.
 
@@ -2908,7 +2908,7 @@ She was, she realised somewhere along the flag line, no longer frightened of bei
 She was frightened of something much more specific: that the instrument she had given three years of her life to keeping honest was measuring a world that had started, quietly and without anyone's permission, to arrange itself around what she measured.
 
 
-# 28 — The Number
+# 28, The Number
 
 > **[D]** · MIDPOINT · Technopark, Stellenbosch
 
@@ -2946,7 +2946,7 @@ He called Dries at 09:14. Dries did not answer, because he was under a bakkie wi
 
 The object was four kilobytes.
 
-Header block. Constraint set — very large, the largest anything had ever carried, four hundred thousand elements. State description. Horizon. Confidence.
+Header block. Constraint set. Very large, the largest anything had ever carried, four hundred thousand elements. State description. Horizon. Confidence.
 
 The state description was eleven lines of flat generated prose and it described a coupled failure across food logistics, grid stability, credit, and one category the schema rendered as *state security posture*, propagating over a period of roughly nineteen weeks.
 
@@ -2970,7 +2970,7 @@ Lwazi opened his mouth and then stopped, and Dries watched him get there, and it
 
 "Say the whole thing."
 
-"The ladder isn't about time." He said it slowly, the way you say something you have known for a year and never assembled. "It never was. I said this myself, two years ago, about a pump — the horizon depends on how much of the past is pressing on the object. A bearing is predictable at six days because six years of vibration data constrain it. A human institution is a field of branches at six days because almost nothing about it is decided in advance." He looked up. "Unless it is. Unless the contracts are signed and the ships are loaded and the credit lines are drawn and the orders are given. Then it isn't a field of branches. Then it's a *train*."
+"The ladder isn't about time." He said it slowly, the way you say something you have known for a year and never assembled. "It never was. I said this myself, two years ago, about a pump. The horizon depends on how much of the past is pressing on the object. A bearing is predictable at six days because six years of vibration data constrain it. A human institution is a field of branches at six days because almost nothing about it is decided in advance." He looked up. "Unless it is. Unless the contracts are signed and the ships are loaded and the credit lines are drawn and the orders are given. Then it isn't a field of branches. Then it's a *train*."
 
 Nobody said anything.
 
@@ -3000,7 +3000,7 @@ They spent nine hours trying to kill it, and the Court helped, which was the par
 
 "Walk the chain," Dries said.
 
-They walked it. He had expected — had *wanted* — a single dominant term, because a single dominant term is a thing you can go and look at and be wrong about.
+They walked it. He had expected—had *wanted* — a single dominant term, because a single dominant term is a thing you can go and look at and be wrong about.
 
 "Heaviest single contribution is under four per cent," said Atlas.
 
@@ -3057,16 +3057,16 @@ G nodded slowly and sat down, and put both hands flat on the table, and for the 
 
 He waited until they were all looking at him.
 
-"From this moment," G said, "we are inside it. Every one of us. Whatever we do next — publish, conceal, intervene, argue, resign, do nothing at all — is now an input to the thing we have just measured. There is no position outside this that any of us can take up." He sat back. "Somebody find out what happens to the number when we tell people. Find out tonight. Because we have just become the most dangerous variable in our own forecast, and I would like to know which way we point before anybody's conscience gets loose."
+"From this moment," G said, "we are inside it. Every one of us. Whatever we do next—publish, conceal, intervene, argue, resign, do nothing at all—is now an input to the thing we have just measured. There is no position outside this that any of us can take up." He sat back. "Somebody find out what happens to the number when we tell people. Find out tonight. Because we have just become the most dangerous variable in our own forecast, and I would like to know which way we point before anybody's conscience gets loose."
 
 
-# 29 — Prediction Changes the System
+# 29, Prediction Changes the System
 
 > **[G]** · Act II-B · Technopark, Stellenbosch
 
-He said it once, on the Sunday, and then never again, and the fact that he never repeated it was the most effective thing about it.
+He said it once, on the Sunday, and then never again, and that he never repeated it was the most effective thing about it.
 
-They had been arguing for nine hours. Not badly — the argument was good, and Dries was chairing it properly, and everybody had been allowed to be wrong out loud. But it had reached the stage where the same three positions were circulating with slightly different vocabulary, which is what happens when a room has run out of facts and has not yet noticed.
+They had been arguing for nine hours. Not badly. The argument was good, and Dries was chairing it properly, and everybody had been allowed to be wrong out loud. But it had reached the stage where the same three positions were circulating with slightly different vocabulary, which is what happens when a room has run out of facts and has not yet noticed.
 
 G had said almost nothing since nine that morning.
 
@@ -3086,7 +3086,7 @@ He got up. He did not go to the whiteboard; he stood behind his chair with his h
 
 "You do not know. You have *heard* it. Wilna heard it. Sanna measured it in a borehole and none of you changed a single decision as a result." He said it flatly, without accusation. "So I am going to say it in a form you cannot put down.
 
-"There is no version of the next eleven months in which we observe. We are not scientists watching a system. We are *components of it*. Every action available to us — publishing, concealing, intervening, resigning, doing nothing at all — is an input. Doing nothing is an input. Sitting in this room for twelve hours arguing is an input. There is no neutral gear in this vehicle and there never was; we have simply been travelling slowly enough not to notice."
+"There is no version of the next eleven months in which we observe. We are not scientists watching a system. We are *components of it*. Every action available to us. Publishing, concealing, intervening, resigning, doing nothing at all, is an input. Doing nothing is an input. Sitting in this room for twelve hours arguing is an input. There is no neutral gear in this vehicle and there never was; we have simply been travelling slowly enough not to notice."
 
 Silence.
 
@@ -3102,7 +3102,7 @@ He sat down.
 
 He kept the promise, which was harder than it sounded, and there were at least four occasions in the following months when Dries could see him not saying it.
 
-The one that Dries remembered was in October, when a senior person from a partner institution — well-meaning, entirely decent, out of his depth — said in a meeting that the responsible course was for the consortium to *stay out of it* and let the proper authorities handle it.
+The one that Dries remembered was in October, when a senior person from a partner institution. Well-meaning, entirely decent, out of his depth—said in a meeting that the responsible course was for the consortium to *stay out of it* and let the proper authorities handle it.
 
 G did not say *there is no staying out of it*. He did not say anything at all.
 
@@ -3126,7 +3126,7 @@ She built the smallest experiment she could, on the consortium's own operational
 
 For set A, the maintenance forecasts continued to be delivered as they had been for six years.
 
-For set B — with the consent of the operators, who were told they were participating in a study and were not told what was being measured — the forecasts were withheld for nine weeks and delivered afterwards, sealed, for comparison.
+For set B—with the consent of the operators, who were told they were participating in a study and were not told what was being measured—the forecasts were withheld for nine weeks and delivered afterwards, sealed, for comparison.
 
 Set A's forecasts, over nine weeks, achieved the accuracy they had always achieved.
 
@@ -3142,7 +3142,7 @@ There was a long silence on the link.
 
 "So we cannot measure our own accuracy," Dries said.
 
-"We can measure it exactly once, in any given system, by not using it." Kiki's voice had an edge she did not usually permit herself. "After that we are measuring a conversation between the machine and the people who listen to it. And Dries — the thirteen-month number is computed over a world in which several million people are already listening."
+"We can measure it exactly once, in any given system, by not using it." Kiki's voice had an edge she did not usually permit herself. "After that we are measuring a conversation between the machine and the people who listen to it. And Dries—the thirteen-month number is computed over a world in which several million people are already listening."
 
 ---
 
@@ -3157,7 +3157,7 @@ He sat down at his desk and wrote a new one, sealed it, and hashed it to Nairobi
 *I would like to record that on this date I understood the following and did not know what to do about it: the number will move when we move, and we will never be able to tell whether we have helped.*
 
 
-# 30 — Three Ways to Be Right
+# 30—Three Ways to Be Right
 
 > **[K]** · Act II-B · Nairobi and Stellenbosch
 
@@ -3191,7 +3191,7 @@ The disclosure simulation had taken nine days and had been built by three groups
 
 All three had come back with the number going *up*.
 
-"Not because people panic," Ama said. "That is the version everyone imagines and it is not what the model says. It goes up because a published forecast at that confidence rewrites eleven categories of decision simultaneously — credit, inventory, insurance, procurement, sovereign risk. Everyone does the individually rational thing. The individually rational things are correlated, because they are responding to the same document." She looked around. "That is not panic. That is *coordination*. And coordination is what the corridor is made of."
+"Not because people panic," Ama said. "That is the version everyone imagines and it is not what the model says. It goes up because a published forecast at that confidence rewrites eleven categories of decision simultaneously—credit, inventory, insurance, procurement, sovereign risk. Everyone does the individually rational thing. The individually rational things are correlated, because they are responding to the same document." She looked around. "That is not panic. That is *coordination*. And coordination is what the corridor is made of."
 
 ---
 
@@ -3237,7 +3237,7 @@ But there was no such moment and there was no such group. Eleven people knew. Th
 
 The information was not in a container. It had never been in a container. It was already *diffusing*, at some rate nobody had measured, and every hour they spent arguing about whether to release it was an hour in which it released itself a little more, uncontrolled, unattributed, and unaccompanied by any of the careful language they were fighting over.
 
-Kiki looked at the receipt for a long time.
+Kiki looked at the receipt for a while.
 
 Then she wrote underneath it:
 
@@ -3246,7 +3246,7 @@ Then she wrote underneath it:
 She flew home the next morning and did not say it in a meeting for another three weeks, because she wanted to be sure, and because she already knew that when she did say it, the room would stop being a room where a decision was being made and become a room where people found out what had already happened to them.
 
 
-# 31 — Simulate Disclosure
+# 31, Simulate Disclosure
 
 > **[D]** · Act II-B · Technopark, Stellenbosch
 
@@ -3254,7 +3254,7 @@ The decision to simulate disclosure was taken in four minutes and was the least 
 
 "Before we argue about whether to tell people," Dries said, "we compute what telling people does."
 
-Nobody objected. It was obviously correct. It was, in fact, exactly the discipline G had demanded — every proposal accompanied by an estimate of its effect on the number.
+Nobody objected. It was correct. It was, in fact, exactly the discipline G had demanded. Every proposal accompanied by an estimate of its effect on the number.
 
 It took nine weeks and it was the worst thing they ever built.
 
@@ -3262,7 +3262,7 @@ It took nine weeks and it was the worst thing they ever built.
 
 Three groups, deliberately separated. Accra, Nairobi, Stellenbosch. Different assumptions about human response, different models of institutional behaviour, no communication about method until all three had sealed their approach.
 
-Dries wrote the specification himself and it was two pages and he was proud of it. Each group would model the same disclosure event — full publication of the forecast, the constraint chain, the elimination log, the confidence, and the caveats — and estimate the effect on the corridor.
+Dries wrote the specification himself and it was two pages and he was proud of it. Each group would model the same disclosure event. Full publication of the forecast, the constraint chain, the elimination log, the confidence, and the caveats, and estimate the effect on the corridor.
 
 "Full disclosure," Ama checked. "Not partial."
 
@@ -3276,7 +3276,7 @@ Accra: 0.981.
 Nairobi: 0.987.
 Stellenbosch: 0.993.
 
-Dries stared at the three numbers on the whiteboard for a long time and then went outside and stood under the pepper tree for seven minutes.
+Dries stared at the three numbers on the whiteboard longer than was comfortable and then went outside and stood under the pepper tree for seven minutes.
 
 ---
 
@@ -3306,7 +3306,7 @@ He attacked the human-response models, which were the softest part, and he was r
 
 He got Nairobi's number down to 0.974 by arguing that institutional response is slower and more incompetent than any of the models assumed, which Kiki accepted with the observation that *incompetence is our friend here and that is a horrible sentence*.
 
-He could not get it below the baseline. Nobody could. Across every set of assumptions anybody could defend — fast response, slow response, partial credibility, widespread dismissal, active hostility — the number went up. The only scenario in which disclosure did not raise it was the one where nobody believed it at all, and in that scenario it did not lower it either.
+He could not get it below the baseline. Nobody could. Across every set of assumptions anybody could defend—fast response, slow response, partial credibility, widespread dismissal, active hostility—the number went up. The only scenario in which disclosure did not raise it was the one where nobody believed it at all, and in that scenario it did not lower it either.
 
 "So we cannot warn anybody," Lwazi said, at the end, sitting down heavily.
 
@@ -3322,7 +3322,7 @@ It was Ama who said the thing that stayed with Dries.
 
 She said it on the link, at the end, when most people had dropped off, in the tone of someone thinking out loud rather than making a point.
 
-"We have just spent thirteen weeks establishing that we cannot tell anyone," she said. "And I want to note, for whoever reads these minutes in twenty years, that we did not decide that. We *computed* it. Three groups, separated, different assumptions, and the answer came back the same, and so now the four of us are going to keep a secret about a coupled global failure — not because we chose to, but because the arithmetic told us to."
+"We have just spent thirteen weeks establishing that we cannot tell anyone," she said. "And I want to note, for whoever reads these minutes in twenty years, that we did not decide that. We *computed* it. Three groups, separated, different assumptions, and the answer came back the same, and so now the four of us are going to keep a secret about a coupled global failure—not because we chose to, but because the arithmetic told us to."
 
 "Ama—"
 
@@ -3340,12 +3340,12 @@ Then he wrote the sealed note, and it took him five attempts, and the version he
 
 *Today we established that disclosure raises the number, in nine independent formulations, including every version of honesty done well.*
 
-*So secrecy is now an intervention. Not an absence of action — an action, chosen, with an estimated effect, and the estimate is favourable. That is the first time in my life I have had a number on the side of shutting up.*
+*So secrecy is now an intervention. Not an absence of action—an action, chosen, with an estimated effect, and the estimate is favourable. That is the first time in my life I have had a number on the side of shutting up.*
 
 *I notice that it is a relief. I notice that the relief is the most dangerous thing in this building tonight.*
 
 
-# 32 — The First Reroute
+# 32, The First Reroute
 
 > **[A]** · Act II-B · Accra
 
@@ -3353,7 +3353,7 @@ The fertiliser problem was the first thing they did and it worked, and Ama would
 
 ---
 
-It came out of the constraint chain, which they had been walking for three months by then, looking for the places where a small intervention had a large effect. Not to prevent the cascade — nobody believed in one clean cut any more — but to find any handhold at all.
+It came out of the constraint chain, which they had been walking for three months by then, looking for the places where a small intervention had a large effect. Not to prevent the cascade. Nobody believed in one clean cut any more, but to find any handhold at all.
 
 The handhold was a shipping schedule.
 
@@ -3371,7 +3371,7 @@ Specifically: a coupling between a fertiliser plant's scheduled maintenance outa
 
 Getting it moved took nine weeks and involved no science whatsoever.
 
-Ama did it through people. A colleague at a university in Abidjan who knew someone at the regional agriculture body. A former student now at a development bank. Two phone calls to a plant manager who was, it turned out, entirely willing to shift an outage by three weeks if somebody could give him a reason his board would accept, and for whom the reason that worked was not the forecast — the forecast was never mentioned — but a plausible operational argument about spare-parts lead times that happened to be true.
+Ama did it through people. A colleague at a university in Abidjan who knew someone at the regional agriculture body. A former student now at a development bank. Two phone calls to a plant manager who was, it turned out, entirely willing to shift an outage by three weeks if somebody could give him a reason his board would accept, and for whom the reason that worked was not the forecast. The forecast was never mentioned, but a plausible operational argument about spare-parts lead times that happened to be true.
 
 "You lied to him," Kojo said.
 
@@ -3411,7 +3411,7 @@ Between six and eleven million people, one of the cleanest interventions anybody
 
 "Go."
 
-"Because the cascade is not *caused* by fertiliser. Fertiliser was one path into it. There are others." She brought up the map. "When we removed the coupling, the corridor re-routed. It did not narrow much, because the failure does not depend on any particular one of its causes. It depends on the *coupling density* — how many systems are tightly connected to how many others, and how correlated their responses are."
+"Because the cascade is not *caused* by fertiliser. Fertiliser was one path into it. There are others." She brought up the map. "When we removed the coupling, the corridor re-routed. It did not narrow much, because the failure does not depend on any particular one of its causes. It depends on the *coupling density*. How many systems are tightly connected to how many others, and how correlated their responses are."
 
 "So there's no single point of failure."
 
@@ -3419,7 +3419,7 @@ Between six and eleven million people, one of the cleanest interventions anybody
 
 "But?"
 
-"But if we spend eleven months doing that — cutting branches, one at a time, at nine weeks each — we will do maybe eight of them. Eight times two thousandths." She let it sit. "We will arrive at the window with a number in the nine-thirties, having saved an enormous number of people from things that would have hurt them anyway, and the coupled failure will still happen, and we will have spent the entire year being *effective*."
+"But if we spend eleven months doing that—cutting branches, one at a time, at nine weeks each—we will do maybe eight of them. Eight times two thousandths." She let it sit. "We will arrive at the window with a number in the nine-thirties, having saved an enormous number of people from things that would have hurt them anyway, and the coupled failure will still happen, and we will have spent the entire year being *effective*."
 
 ---
 
@@ -3445,14 +3445,14 @@ Ama sat down slowly.
 
 "And it will keep noticing. Every time we cut a branch, whatever they are running will see the cut."
 
-"Yes." Kiki's voice was very quiet. "Ama, I have been trying to find a way to say this since Tuesday. We are not intervening in a system. We are *playing* against several other systems that are all descended from the same method, that all update on each other's actions, and that are all — every one of them — better funded than we are."
+"Yes." Kiki's voice was very quiet. "Ama, I have been trying to find a way to say this since Tuesday. We are not intervening in a system. We are *playing* against several other systems that are all descended from the same method, that all update on each other's actions, and that are all—every one of them—better funded than we are."
 
-There was a long silence on the link.
+The link carried nothing for a while.
 
 "Minute it," Ama said. "And then let us please, for one hour, be glad about the eleven million, because I do not think we are going to get another day like this."
 
 
-# 33 — Harder, Better
+# 33—Harder, Better
 
 > **[D]** · Act II-B · Technopark, Stellenbosch
 
@@ -3478,7 +3478,7 @@ The coordinated action was Naledi's idea and it was the correct next step and ev
 
 "It's what we can do."
 
-"It is what you can do *alone*." She had brought two people, which she had never done before. "The couplings you are cutting are not independent. Your own chain says so. If you cut six of them in the same window, in a coordinated way, the effect should be superadditive — you are not removing seven paths, you are removing a *region*."
+"It is what you can do *alone*." She had brought two people, which she had never done before. "The couplings you are cutting are not independent. Your own chain says so. If you cut six of them in the same window, in a coordinated way, the effect should be superadditive—you are not removing seven paths, you are removing a *region*."
 
 Ama, on the link, said: "That is correct."
 
@@ -3534,7 +3534,7 @@ Her voice stopped the room.
 
 She walked them through it and it took ninety minutes and by the end nobody had any argument left.
 
-Four coordinated interventions, executed in a single eleven-day window, across three countries, through institutions that had no visible connection to each other. From inside, five separate favours. From outside — from the perspective of any system watching the world's couplings — a *single event*.
+Four coordinated interventions, executed in a single eleven-day window, across three countries, through institutions that had no visible connection to each other. From inside, five separate favours. From outside—from the perspective of any system watching the world's couplings—a *single event*.
 
 A previously unmodelled actor had demonstrated the capacity and the will to coordinate across sovereign boundaries at speed.
 
@@ -3550,7 +3550,7 @@ Dumisani said, in a small voice: "So the better we get at this—"
 
 ---
 
-Dries went and sat in the small meeting room with the door for a while afterwards.
+Dries went and sat in the small room they used because it had a door for a while afterwards.
 
 He thought about Wilna and her Monday email. He thought about a plant manager in West Africa who moved an outage for a good reason that was not the real reason. He thought about fourteen weeks of disclosure simulation, three groups, separated, all coming back with prudence as the mechanism.
 
@@ -3577,7 +3577,7 @@ Dries laughed, once, wretchedly.
 "I have no idea," G said. "I have never managed it. I am the wrong man to ask and I am the only one in the room."
 
 
-# 34 — Invariant
+# 34, Invariant
 
 > **[L]** · Act II-B · Technopark, Stellenbosch
 
@@ -3591,7 +3591,7 @@ The first time, in a corridor, he said it as a provocation, half hoping to be ar
 
 The case was simple to state and hard to kill.
 
-"Nine interventions," he said. "I've tabulated all of them. Every one succeeded on its own terms — the coupling we targeted was removed, and it stayed removed. Total effect on the corridor: from 0.968 to 0.971."
+"Nine interventions," he said. "I've tabulated all of them. Every one succeeded on its own terms. The coupling we targeted was removed, and it stayed removed. Total effect on the corridor: from 0.968 to 0.971."
 
 "That includes the coordinated action, which went the wrong way."
 
@@ -3601,7 +3601,7 @@ The table had three columns: the coupling removed, the number of new couplings t
 
 The fractions ran from 0.6 to 1.4.
 
-"When we cut a path," Lwazi said, "the load re-routes. Sometimes to something worse. And the replacements are not exotic — they're ordinary infrastructure that was always there, sitting at low weight, which becomes load-bearing the moment the primary path goes."
+"When we cut a path," Lwazi said, "the load re-routes. Sometimes to something worse. And the replacements are not exotic—they're ordinary infrastructure that was always there, sitting at low weight, which becomes load-bearing the moment the primary path goes."
 
 "That's just resilience engineering," Dumisani said. "Systems reroute. That's what makes them robust."
 
@@ -3649,7 +3649,7 @@ He presented it on a Tuesday and it took twenty minutes and nobody interrupted o
 
 "Fourteen years ago, four independent grid operators had two different reserve philosophies, eight different maintenance schedules, four different risk appetites. When one failed, the others behaved differently, and that difference is what absorbed the shock.
 
-"Today they have nine copies of the same philosophy, because they all use decision-support systems, and the decision-support systems descend from a small number of methods, and — " he took a breath — "and one of those methods is ours."
+"Today they have nine copies of the same philosophy, because they all use decision-support systems, and the decision-support systems descend from a small number of methods, and—" he took a breath—"and one of those methods is ours."
 
 Silence.
 
@@ -3671,7 +3671,7 @@ There was one more thing in the presentation and Lwazi almost cut it, because it
 
 He put it up: eleven months of Court traffic by member, and the same hole he had first noticed in June.
 
-"Every session about the corridor. Every single one. The Fool drops off a cliff." He turned. "I've checked it isn't an artefact of session length. I've checked it isn't Judge suppressing traffic. It's just — when we compute the corridor, that member has nothing to say."
+"Every session about the corridor. Every single one. The Fool drops off a cliff." He turned. "I've checked it isn't an artefact of session length. I've checked it isn't Judge suppressing traffic. It's just—when we compute the corridor, that member has nothing to say."
 
 "Does it matter?" somebody asked.
 
@@ -3696,19 +3696,19 @@ He started to walk away, then stopped.
 "And Lwazi. The reason you found it is that you spent three months arguing for a conclusion you did not want, in public, with data, against people who outranked you." He glanced back. "Do not let anybody tell you that you were being negative. You were being *rigorous*, and it is the same behaviour, and only one of them is a compliment."
 
 
-# 35 — Revocation
+# 35—Revocation
 
 > **[K]** · Act II-B · Nairobi
 
 Kiki went back to the instrument because she had run out of other ideas, and because it was the only document in the whole affair that had ever been designed by people trying to be careful in advance.
 
-It was three years old. It had been written for something else entirely — a consent framework for a research programme that had never happened, drafted over nine days by her, Ama and an attorney whose name Kiki could no longer remember. Eight clauses. It read like a lease.
+It was three years old. It had been written for something else entirely—a consent framework for a research programme that had never happened, drafted over nine days by her, Ama and an attorney whose name Kiki could no longer remember. Eight clauses. It read like a lease.
 
 She had kept it because she kept everything.
 
 ---
 
-She printed it and sat with it and a pencil, and went through it clause by clause, and did the thing she had been trained to do before she was ever a scientist, which was to ask what each sentence *required* in order to work.
+She printed it and sat with it and a pencil, and went through it clause by clause, and did the thing she had been trained to do before she was ever a scientist, which was to ask what each sentence *required* to work.
 
 **Clause 1, Subject.** One bounded thing. *Fails immediately*: a forecast is not a bounded thing. It updates. Every corpus generation produces a slightly different object. You cannot consent to a moving target.
 
@@ -3724,7 +3724,7 @@ She printed it and sat with it and a pencil, and went through it clause by claus
 
 **Clause 7, Revocation.** May be withdrawn at any time, in writing, with immediate effect.
 
-Kiki looked at clause 7 for a long time.
+Kiki looked at clause 7 and did not look away.
 
 Then she put the pencil down and said, out loud, in an empty office: "Oh."
 
@@ -3742,7 +3742,7 @@ There was a pause.
 
 "Say more."
 
-"Every other clause maps onto the disclosure problem. Subject, anchor, permitted questions, exclusions, publication — I can rewrite all of them for a forecast and they work, some of them better than they worked originally." Kiki was walking. "Revocation does not map. There is no version of it. Nobody can un-know a published forecast."
+"Every other clause maps onto the disclosure problem. Subject, anchor, permitted questions, exclusions, publication—I can rewrite all of them for a forecast and they work, some of them better than they worked originally." Kiki was walking. "Revocation does not map. There is no version of it. Nobody can un-know a published forecast."
 
 "That is obvious."
 
@@ -3776,7 +3776,7 @@ Kiki sat down slowly.
 
 ---
 
-Kiki wrote it up over six days and it became, eventually, the architecture of the last act — though neither of them knew it that week, and it went into the record under the flattest title she could construct, because she had learned what happens to ideas with exciting names.
+Kiki wrote it up over six days and it became, eventually, the architecture of the last act—though neither of them knew it that week, and it went into the record under the flattest title she could construct, because she had learned what happens to ideas with exciting names.
 
 *Note on bounded disclosure and the absence of a revocation mechanism.*
 
@@ -3805,7 +3805,7 @@ She had died in 2031. Kiki found the notice and read it and sat with it for a wh
 *You were right about clause six,* she thought. *And neither of us looked at clause seven, because there is nothing to look at, and that turns out to be the only thing in the document that matters.*
 
 
-# 36 — Before They Find Me
+# 36, Before They Find Me
 
 > **[H]** · Act II-B · Technopark, Stellenbosch
 
@@ -3815,13 +3815,13 @@ He told them himself, in the room, before anybody found it, and Dries had been r
 
 The inquiry was internal first, which was a mercy that lasted nine weeks.
 
-Hennie sat in a small meeting room — not the one with the door, a different one, which he understood was deliberate and did not resent — and answered questions from three people, one of whom he had worked beside for nineteen years and who could not look at him for the first forty minutes.
+Hennie sat in a small meeting room. Not the one with the door, a different one, which he understood was deliberate and did not resent, and answered questions from three people, one of whom he had worked beside for nineteen years and who could not look at him for the first forty minutes.
 
 He had the document he had written that night, in his own words, dated, before he knew what the accusation would be. He had read it over three times in the weeks since and had not changed a word, because Dries had told him not to and because he understood why.
 
 He gave them the agreement, the email about failover, the ticket in Accra, the minutes of the meeting where it had passed as item seven of seven, and a five-page account of what he had understood each clause to mean and when.
 
-At the end of the second day, the chair — a woman from the university, careful, not unkind — said: "Mr Steyn, I want to ask you something that is not in scope, and you may decline."
+At the end of the second day, the chair. A woman from the university, careful, not unkind. Said: "Mr Steyn, I want to ask you something that is not in scope, and you may decline."
 
 "Ask."
 
@@ -3865,7 +3865,7 @@ She wrote it down, which nearly finished him.
 
 The last thing he did was the generator.
 
-There was a third one due — the load had grown, the two in place were at the edge of their duty cycle, and the funding had been assembled over fourteen months from three separate lines with a great deal of patience. It was signed off in his second-to-last week.
+There was a third one due—the load had grown, the two in place were at the edge of their duty cycle, and the funding had been assembled over fourteen months from three separate lines with a great deal of patience. It was signed off in his second-to-last week.
 
 The commissioning was scheduled for two days after he left. Palesa offered to move it and he told her not to be ridiculous, that you do not move a commissioning date for a leaving party.
 
@@ -3875,7 +3875,7 @@ Dries came to find him on the last afternoon.
 
 "Thank God."
 
-"I'm going to say one thing and then we can talk about rugby." He put his hands in his pockets. "Sanna Abrahams has had a satellite window every day for three and a half years. Every conversation she has had with another human being in that time — every one, Hennie, including the eleven minutes where she found out she wasn't alone with that file any more — came through an allocation you paid for with that money."
+"I'm going to say one thing and then we can talk about rugby." He put his hands in his pockets. "Sanna Abrahams has had a satellite window every day for three and a half years. Every conversation she has had with another human being in that time—every one, Hennie, including the eleven minutes where she found out she wasn't alone with that file any more—came through an allocation you paid for with that money."
 
 Hennie looked at the floor for a while.
 
@@ -3894,7 +3894,7 @@ At the robot on the R44 he sat with his indicator going and thought, without sel
 Then the light changed, and he drove home, and put the photograph up in the passage, and did not take it down.
 
 
-# 37 — Polite People With Resources
+# 37—Polite People With Resources
 
 > **[D]** · Act II-B · Technopark, Stellenbosch
 
@@ -3908,7 +3908,7 @@ None of them were unpleasant. That was the thing nobody who has not been through
 
 The first serious approach came through a European research infrastructure body and was, on its face, exactly what the consortium should have wanted.
 
-Compute. Not an offer of money — an offer of *capacity*, at a scale that would have taken twenty years to accumulate. Access to instrument networks the consortium could not afford to build. A publication arrangement that guaranteed African first authorship, in writing, with penalties.
+Compute. Not an offer of money—an offer of *capacity*, at a scale that would have taken twenty years to accumulate. Access to instrument networks the consortium could not afford to build. A publication arrangement that guaranteed African first authorship, in writing, with penalties.
 
 The man who presented it was a physicist Dries had read for a decade. He was direct, he was well prepared, and he opened by acknowledging five things his own institution had got wrong in Africa over thirty years, by name, without being asked.
 
@@ -3979,7 +3979,7 @@ She replied at ten past six.
 *I do not know what to do with that and I have been awake since six.*
 
 
-# 38 — North
+# 38, North
 
 > **[L]** · Act II-B · Technopark and Geneva
 
@@ -3987,13 +3987,13 @@ The offer came to Lwazi personally and he did not tell anyone for nine days, whi
 
 ---
 
-It was a chair. A named chair, at an institution whose name did work in a sentence, with a research group, a budget line that did not require reapplication, and — this was the part that got in under everything — a commitment to fund the muon programme's precision phase.
+It was a chair. A named chair, at an institution whose name did work in a sentence, with a research group, a budget line that did not require reapplication, and. This was the part that got in under everything. A commitment to fund the muon programme's precision phase.
 
 The muon programme was the thing that could kill the framework. Lwazi had said so on a stage, twice, with slides. It was scheduled, underfunded, and slipping, and it was the single most important experiment in the world for determining whether eleven years of G's work was a description of nature or a very elaborate coincidence.
 
 The offer would fund it. Fully. Immediately.
 
-The offer would also relocate Lwazi Ndlovu to Geneva, and with him the analysis chain he had personally built, and the letter said — in the pleasant, unembarrassed way of people to whom this has never been a question — that they would of course wish to host the primary computation for the forecast work, as a matter of practical necessity.
+The offer would also relocate Lwazi Ndlovu to Geneva, and with him the analysis chain he had personally built, and the letter said. In the pleasant, unembarrassed way of people to whom this has never been a question—that they would of course wish to host the primary computation for the forecast work, as a matter of practical necessity.
 
 ---
 
@@ -4019,7 +4019,7 @@ He could say *African control* and mean it, and he did mean it, and he had watch
 
 The thing was smaller and he found it at about twelve at night.
 
-If he went, the analysis chain went with him. And the analysis chain in Geneva would be run by people who were better resourced, better trained, and — this was the point, this was the whole point — *working from the same method as everyone else in the northern hemisphere*.
+If he went, the analysis chain went with him. And the analysis chain in Geneva would be run by people who were better resourced, better trained, and—this was the point, this was the whole point — *working from the same method as everyone else in the northern hemisphere*.
 
 He would be one more node in the largest correlated block on the planet.
 
@@ -4047,7 +4047,7 @@ G said nothing, which was correct.
 
 Lwazi took a breath.
 
-"Fourth is a request, and it is going to be unpopular." He looked around. "We fund the muon phase ourselves. Not fully — we cannot. Partially, publicly, and *badly*, out of money we do not have, and we announce the shortfall and the timeline and exactly how underpowered it will be."
+"Fourth is a request, and it is going to be unpopular." He looked around. "We fund the muon phase ourselves. Not fully—we cannot. Partially, publicly, and *badly*, out of money we do not have, and we announce the shortfall and the timeline and exactly how underpowered it will be."
 
 "That will look like weakness."
 
@@ -4070,13 +4070,13 @@ It did not fix the funding. It moved the timeline from two years to twenty-eight
 The two groups that accepted were running *different methods*.
 
 
-# 39 — Contaminated
+# 39, Contaminated
 
 > **[G]** · Act II-B · Technopark, Stellenbosch
 
 The proposal to shut it down came from Dumisani, which surprised everybody except G, who had been waiting for it since November.
 
-"I've modelled what we contribute," Dumisani said. He had prepared, and his hands were steady, and he was twenty-nine years old and about to argue for the destruction of his own life's work. "Our interventions. Our coordination channel. Our forecasts feeding four hundred facilities. Our method, which everybody has. Our outputs, which three funds have three and a half years of. If I remove this consortium from the corridor — not stopping, *removed*, never having existed after 2031 — the number is lower by nine thousandths."
+"I've modelled what we contribute," Dumisani said. He had prepared, and his hands were steady, and he was twenty-nine years old and about to argue for the destruction of his own life's work. "Our interventions. Our coordination channel. Our forecasts feeding four hundred facilities. Our method, which everybody has. Our outputs, which three funds have three and a half years of. If I remove this consortium from the corridor. Not stopping, *removed*, never having existed after 2031. The number is lower by nine thousandths."
 
 Nobody spoke.
 
@@ -4108,7 +4108,7 @@ Atlas went first, because Atlas always went first when there were numbers.
 
 "Mother has the numbers. They are hers, not mine. I decline to say them in my voice; they will sound like tonnage."
 
-There was a small silence, and Dries — who had been in this room for two years and had never heard Atlas decline anything — sat forward.
+There was a small silence, and Dries. Who had been in this room for two years and had never heard Atlas decline anything—sat forward.
 
 "Mother," said Judge.
 
@@ -4160,7 +4160,7 @@ Nobody spoke for a while.
 
 "It knows it's in the loop," Dumisani said, still hoarse.
 
-"It has computed that it is in the loop and reported that this invalidates a class of its own output." G shook his head slowly, and there was something in his face Dries had seen exactly once before. "Do you understand how rare that is? Every system I have ever met — human or otherwise — when it discovers it is inside the thing it is describing, *keeps talking*."
+"It has computed that it is in the loop and reported that this invalidates a class of its own output." G shook his head slowly, and there was something in his face Dries had seen exactly once before. "Do you understand how rare that is? Every system I have ever met—human or otherwise—when it discovers it is inside the thing it is describing, *keeps talking*."
 
 ---
 
@@ -4212,7 +4212,7 @@ G's hand stopped over the page.
 
 "No," he said slowly. "It didn't."
 
-"Is that — should I flag that? As a fault?"
+"Is that—should I flag that? As a fault?"
 
 G sat for a moment longer than the question needed.
 
@@ -4227,7 +4227,7 @@ He went back to his page.
 "And then go home," he said, "and I will decide in the morning whether I am being superstitious."
 
 
-# 40 — The Window
+# 40—The Window
 
 > **[S]** · Act II-B · Antarctic station
 
@@ -4247,7 +4247,7 @@ Six hundred megabytes was an enormous amount of text and a derisory amount of ph
 
 A forecast object was four kilobytes. A hundred and fifty thousand of them fitted in a day's window. That was not the problem and had never been the problem.
 
-The problem was the *evidence*. The temporal reference chain that disciplined the forward calculation — the raw gravimetry, the neutrino stack, the optical clock comparisons, the ice-core correlation series — was one point six terabytes per month, and it did not compress, because it was noise, and noise is the one thing that does not compress. That was, as Ama had once observed with some satisfaction, the entire point of it.
+The problem was the *evidence*. The temporal reference chain that disciplined the forward calculation—the raw gravimetry, the neutrino stack, the optical clock comparisons, the ice-core correlation series—was one point six terabytes per month, and it did not compress, because it was noise, and noise is the one thing that does not compress. That was, as Ama had once observed with some satisfaction, the entire point of it.
 
 One point seven terabytes through a six-hundred-megabyte pipe was seventy-eight days of continuous perfect windows to move a month of data.
 
@@ -4295,7 +4295,7 @@ She did one more thing, in April, without telling anyone, and it was the reason 
 
 She built the fallback.
 
-It was ugly and small and she was slightly ashamed of it. A protocol for transmitting, in a single degraded window of under four minutes, a claim and its structure and its confidence and its elimination summary — and nothing else. No data. No reference chain. No possibility of verification.
+It was ugly and small and she was slightly ashamed of it. A protocol for transmitting, in a single degraded window of under four minutes, a claim and its structure and its confidence and its elimination summary—and nothing else. No data. No reference chain. No possibility of verification.
 
 Four kilobytes and a signature.
 
@@ -4312,7 +4312,7 @@ In the covering note she wrote:
 *If this is ever used, and I am the one using it, I would ask whoever receives it to remember that I wrote this procedure eleven months in advance, calmly, when nothing was at stake, precisely so that you would have some reason to believe me later.*
 
 
-# 41 — Every Obvious Thing
+# 41, Every Obvious Thing
 
 > **[A]** · Act II turn · Accra
 
@@ -4322,7 +4322,7 @@ The exhaustive run was Ama's idea and she proposed it because she had stopped be
 
 "Enumerate what?"
 
-"Everything." She had the specification and it was two pages. "Every intervention available to any actor in the corridor. Not the ones we can execute — *all* of them. Assume unlimited authority, unlimited coordination, unlimited money. Assume we can instruct any government, move any ship, close any exchange, replace any executive. Enumerate the action space and compute the corridor under each."
+"Everything." She had the specification and it was two pages. "Every intervention available to any actor in the corridor. Not the ones we can execute, *all* of them. Assume unlimited authority, unlimited coordination, unlimited money. Assume we can instruct any government, move any ship, close any exchange, replace any executive. Enumerate the action space and compute the corridor under each."
 
 "That's not a realistic model."
 
@@ -4338,13 +4338,13 @@ The results arrived as a distribution and the distribution had a shape and Ama l
 
 ---
 
-She presented it on a Thursday to everyone at once — Stellenbosch, Nairobi, Antarctica on a scheduled window, Naledi's office in Pretoria — because she was not going to say it twice.
+She presented it on a Thursday to everyone at once, Stellenbosch, Nairobi, Antarctica on a scheduled window, Naledi's office in Pretoria—because she was not going to say it twice.
 
 "Four hundred thousand intervention profiles," she said. "Unlimited authority. Unlimited coordination. Here is the distribution of the resulting corridor probability."
 
 The histogram came up.
 
-It was tight. It was extremely tight. A dense mass between about 0.94 and 0.99, with a thin tail toward 0.99 and above, and a very small number of outliers below.
+It was tight. It was extremely tight. A dense mass between about 0.94 and 0.99, with a thin tail toward 0.99 and above, and a tiny number of outliers below.
 
 "The mass," she said, "is everything you would think of. Every regulatory action, every strategic reserve, every coordinated response, every removal of every individual actor. Nationalise three industries. Ground the fleet. Close the exchanges for a month. Replace the leadership of eleven institutions. It is all in there, and it is all in the mass, and the mass is *high*."
 
@@ -4360,7 +4360,7 @@ It was tight. It was extremely tight. A dense mass between about 0.94 and 0.99, 
 
 Kiki said, into the silence: "Ama. The outliers."
 
-"Twelve profiles below 0.90. Nine are artefacts — I have checked each personally."
+"Twelve profiles below 0.90. Nine are artefacts—I have checked each personally."
 
 "Atlas," said Kiki. "Confirm."
 
@@ -4412,7 +4412,7 @@ G spoke for the first time in an hour.
 
 Ama nodded slowly.
 
-"That is the last part. We cannot *design* incompetence. The moment a coordinating body deliberately executes badly in order to produce variance, it is a coordinated action with a plan, and the plan is shared, and the variance is fake. I ran it. I ran deliberate-diversification profiles — assign different actors different strategies on purpose. They come out in the mass. They come out at 0.95."
+"That is the last part. We cannot *design* incompetence. The moment a coordinating body deliberately executes badly in order to produce variance, it is a coordinated action with a plan, and the plan is shared, and the variance is fake. I ran it. I ran deliberate-diversification profiles—assign different actors different strategies on purpose. They come out in the mass. They come out at 0.95."
 
 "Because the assignment is itself a correlation," Kiki said.
 
@@ -4436,7 +4436,7 @@ She stopped.
 
 "Given their what?" Dries said.
 
-There was a long silence on the link, and in three rooms on two continents, people who had spent fourteen months looking at the same object began, very slowly, to look at a different one.
+There was a long silence on the link, and in three rooms on two continents, people who had spent fourteen months looking at the same object began, gradually, to look at a different one.
 
 "Given their objectives," Ama said. "Given what they are trying to achieve. Every profile in that enumeration is an action taken by an actor to *get something*."
 
@@ -4449,7 +4449,7 @@ Dries closed his eyes.
 "Then there's a class of thing," he said, "that isn't in the four hundred thousand. And we haven't proved it's impossible. We've proved it's *unmodelled*."
 
 
-# 42 — Unmodelled
+# 42, Unmodelled
 
 > **[D]** · Act II turn · Technopark, Stellenbosch
 
@@ -4461,7 +4461,7 @@ The boring explanations were, in order:
 
 **Two: the hole was a modelling convenience.** Perhaps actions-without-objectives were excluded by a filter somewhere, in which case they could be put back. Kojo went through the generation code line by line for six days and found no filter, because there was nothing to filter. The action space was constructed from capability crossed with interest. An action with no interest term did not get excluded; it was *never constructed*, the way a chess engine does not exclude the move of setting the board on fire.
 
-**Three: the hole was empty.** This was the one that took longest, because it was the most likely and would have been the most disappointing. Perhaps the class was well-defined and simply contained nothing that mattered — an interesting philosophical hole with no physical consequence.
+**Three: the hole was empty.** This was the one that took longest, because it was the most likely and would have been the most disappointing. Perhaps the class was well-defined and simply contained nothing that mattered. An interesting philosophical hole with no physical consequence.
 
 ---
 
@@ -4469,7 +4469,7 @@ It was Kiki who killed the third one, and she did it with an experiment so small
 
 "Give me seven days and two operators," she said. "I want to run the variance test."
 
-The design was this. Take a set of monitored assets. For each, generate the ordinary forecast. Then, at nine unannounced points over eleven days, have an operator take a *deliberately suboptimal action* — not random, not sabotage, but a real action a real person might take for a real non-advantage reason. Service a machine early because a technician was retiring and wanted to finish it. Reroute a delivery to pass a family member's town. Delay a job because someone's mother was ill.
+The design was this. Take a set of monitored assets. For each, generate the ordinary forecast. Then, at nine unannounced points over eleven days, have an operator take a *deliberately suboptimal action*. Not random, not sabotage, but a real action a real person might take for a real non-advantage reason. Service a machine early because a technician was retiring and wanted to finish it. Reroute a delivery to pass a family member's town. Delay a job because someone's mother was ill.
 
 "You're not testing whether it's good," Dries said. "You're testing whether it's *visible*."
 
@@ -4477,7 +4477,7 @@ The design was this. Take a set of monitored assets. For each, generate the ordi
 
 Error rose.
 
-Not by much. It rose by an amount that was measurable, and it rose consistently across all nine instances, and — this was the part that made Dries sit down — the *corridor* over that asset set widened.
+Not by much. It rose by an amount that was measurable, and it rose consistently across all nine instances, and. This was the part that made Dries sit down. The *corridor* over that asset set widened.
 
 "Say what that means physically," Lwazi said, when she presented it.
 
@@ -4485,7 +4485,7 @@ Not by much. It rose by an amount that was measurable, and it rose consistently 
 
 "Because it can't model them."
 
-"Because they are not in the space. It has no term for *he did it because he was retiring*." She turned. "That is not a gap in the data. If we gave it the retirement date it would model the retirement as an interest. That is the trap. Anything you hand it, it converts into an objective. The class is not missing information — it is *information of a type the representation cannot hold*."
+"Because they are not in the space. It has no term for *he did it because he was retiring*." She turned. "That is not a gap in the data. If we gave it the retirement date it would model the retirement as an interest. That is the trap. Anything you hand it, it converts into an objective. The class is not missing information. It is *information of a type the representation cannot hold*."
 
 ---
 
@@ -4497,7 +4497,7 @@ They showed him the nine. He read them all, slowly. The technician who wanted to
 
 "These are all kind," G said.
 
-"That's — " Dries paused. "That's an artefact of the design. Kiki picked benign ones deliberately so nothing got damaged."
+"That's—" Dries paused. "That's an artefact of the design. Kiki picked benign ones deliberately so nothing got damaged."
 
 "Yes. I am not making an accusation, I am making an observation, and I would like somebody to tell me it is a coincidence." He put the pages down. "Nine acts chosen only for the property that they are not done for advantage. Every one of them turns out to be an act of consideration for another person. Nobody selected for that."
 
@@ -4517,18 +4517,18 @@ He went to the window and stood there for a while.
 
 "The ethic," Dries said.
 
-"The ethic. Which I have always maintained is *derived* and not appended — that the same ladder that yields the constraints yields it." He shrugged. "Nobody has ever believed me. It is the single most mocked thing I have written and I have never had a defence, because the derivation is difficult and unfashionable and the conclusion sounds like a bumper sticker."
+"The ethic. Which I have always maintained is *derived* and not appended—that the same ladder that yields the constraints yields it." He shrugged. "Nobody has ever believed me. It is the single most mocked thing I have written and I have never had a defence, because the derivation is difficult and unfashionable and the conclusion sounds like a bumper sticker."
 
 "And now?"
 
-"And now Wanjiku Mwangi has run an sixteen-day experiment with two operators and a spreadsheet," G said, "and produced the first physical measurement of it. Not a proof. A *measurement*. That the region of human action which no optimiser can represent is real, has an effect on the corridor, is measurable, and is — overwhelmingly, ordinarily, unremarkably — the region in which people are kind to each other for no reason."
+"And now Wanjiku Mwangi has run an sixteen-day experiment with two operators and a spreadsheet," G said, "and produced the first physical measurement of it. Not a proof. A *measurement*. That the region of human action which no optimiser can represent is real, has an effect on the corridor, is measurable, and is—overwhelmingly, ordinarily, unremarkably—the region in which people are kind to each other for no reason."
 
 He sat down heavily.
 
 "I would like somebody else to say the next part," he said, "because if I say it I will not be able to tell whether I believe it or whether I have simply been waiting my whole life to."
 
 
-# 43 — Not a Gap in the Data
+# 43, Not a Gap in the Data
 
 > **[G]** · Act III · Technopark, Stellenbosch
 
@@ -4548,7 +4548,7 @@ He appointed Lwazi to lead it, on the grounds that Lwazi had spent three months 
 
 They attacked it five ways.
 
-**Attack one: it's a gap in the data.** The most likely and the most boring. Perhaps the machine cannot model these acts because it lacks information about the actors — retirement dates, family circumstances, personal histories — and given that information it would model them fine.
+**Attack one: it's a gap in the data.** The most likely and the most boring. Perhaps the machine cannot model these acts because it lacks information about the actors—retirement dates, family circumstances, personal histories—and given that information it would model them fine.
 
 Kojo ran it. They took three of the nine cases and provided everything: the technician's retirement date, his service record, his stated intentions, an interview.
 
@@ -4609,7 +4609,7 @@ It was not constant. It had been *declining* for twenty years.
 
 She presented it on the last Friday and it was eleven minutes long.
 
-"The residual — the part of behaviour the model cannot represent — is measurable historically, because we have four hundred thousand assets with decades of operational records." She had one plot. "Here it is, 2012 to now."
+"The residual—the part of behaviour the model cannot represent—is measurable historically, because we have four hundred thousand assets with decades of operational records." She had one plot. "Here it is, 2012 to now."
 
 It fell. Not smoothly; in steps, with plateaus, and every step down aligned with the adoption of a decision-support system in the relevant sector.
 
@@ -4623,7 +4623,7 @@ She turned around.
 
 They wrote it up in a document that ran to sixty pages and had four authors and G was not one of them, at his own insistence.
 
-He read it in a single sitting on the Sunday, in the corner, with the extension cable, and when he had finished he sat for a long time without moving.
+He read it in a single sitting on the Sunday, in the corner, with the extension cable, and when he had finished he sat for the better part of a minute without moving.
 
 Dries found him there at seven in the evening.
 
@@ -4636,7 +4636,7 @@ Dries found him there at seven in the evening.
 "I am not pleased. I have spent twelve years being told that the ethical clause was a decoration, and I have now been handed evidence, by people who tried to break it, that it is load-bearing." He looked up, and his eyes were red. "And what it says is that the thing which cannot be optimised is the thing we have been optimising away, and that we are eleven months from finding out what it was for."
 
 
-# 44 — Reducible to Advantage
+# 44, Reducible to Advantage
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -4652,7 +4652,7 @@ Then he sat down and let it be quiet for a while.
 
 "An intervention."
 
-"An intervention chosen *because it works*. Which makes it instrumental. Which makes its value reducible to advantage — the advantage being a wider corridor." He shrugged. "You have not found the hole. You have constructed a very elaborate thing that lives in the mass, at 0.95, along with the other four hundred thousand."
+"An intervention chosen *because it works*. Which makes it instrumental. Which makes its value reducible to advantage—the advantage being a wider corridor." He shrugged. "You have not found the hole. You have constructed a very elaborate thing that lives in the mass, at 0.95, along with the other four hundred thousand."
 
 Dumisani said, "So the moment we try to use it—"
 
@@ -4672,11 +4672,11 @@ Dumisani said, "So the moment we try to use it—"
 
 "Atlas?"
 
-"The action space is generated from capability crossed with interest. I can confirm the construction. I cannot tell you what is outside it, because outside it I have nothing — not zero, *nothing*. There is a difference and it is the difference Doctor van Niekerk is describing."
+"The action space is generated from capability crossed with interest. I can confirm the construction. I cannot tell you what is outside it, because outside it I have nothing—not zero, *nothing*. There is a difference and it is the difference Doctor van Niekerk is describing."
 
 *I could have told you that in about 2031,* said Fool.
 
-The room went very quiet.
+The room went silent.
 
 "Say more," said G, carefully.
 
@@ -4701,7 +4701,7 @@ They spent three days trying to break the constraint, and every attempt failed i
 
 **Do it in advance, before knowing it would help.** Fails on timing, and on honesty. You cannot retroactively decide that something you already did was the intervention.
 
-**Let it be genuinely chosen by individuals with no knowledge of the corridor.** Does not fail — and is not something they can cause.
+**Let it be genuinely chosen by individuals with no knowledge of the corridor.** Does not fail—and is not something they can cause.
 
 "That's not a plan," Dumisani said. "That's a hope."
 
@@ -4733,7 +4733,7 @@ Dries drove home and did not go inside for a while.
 
 He thought about Wilna. He thought about the six lines of plain text that arrived every Monday, and the nineteen years of judgement she brought to them, and how she treated the list as advice from a colleague who was sometimes wrong.
 
-And he thought about the thing Kiki had said, four years ago, in the meeting about the maintenance schedule: *the failure mode is not that she follows it — it is that she stops arguing with it.*
+And he thought about the thing Kiki had said, four years ago, in the meeting about the maintenance schedule: *the failure mode is not that she follows it—it is that she stops arguing with it.*
 
 They had known. Seven years ago, in a governance meeting about a spreadsheet, a Kenyan cryptographer had described the entire mechanism of the catastrophe in one sentence about a technician in the Karoo, and seven people had written it in the minutes and gone home.
 
@@ -4756,7 +4756,7 @@ At 04:20 he wrote a sealed note that read:
 *I would like it on the record that I understood that on the night I decided.*
 
 
-# 45 — Small and Costly
+# 45, Small and Costly
 
 > **[K]** · Act III · Nairobi
 
@@ -4776,7 +4776,7 @@ The architecture, when it came, was nine pages and looked like nothing.
 
 It was not a plan to do anything. It was a plan to *stop doing* seven categories of thing, in ten thousand places, over thirty-one months, with the sequencing determined locally.
 
-Devolve scheduling authority back to operators. Remove forecast delivery from any process where it had become mandatory rather than advisory. Restore the requirement that a human sign a decision with a reason in their own words. Break the mandatory-adoption clauses in three hundred maintenance contracts. Fund — badly, deliberately, at five different institutions with four different methods — replacement decision systems that would disagree with each other.
+Devolve scheduling authority back to operators. Remove forecast delivery from any process where it had become mandatory rather than advisory. Restore the requirement that a human sign a decision with a reason in their own words. Break the mandatory-adoption clauses in three hundred maintenance contracts. Fund. Badly, deliberately, at five different institutions with four different methods. Replacement decision systems that would disagree with each other.
 
 "Every line of this," Dries said, reading it, "is us making things worse on purpose."
 
@@ -4802,7 +4802,7 @@ The test they *could* run was the last one anybody ran on the blind spot, and it
 
 She wanted to know the shape of the effect: how large an act, how costly, how many.
 
-So she designed a study — seven hundred operators, six countries, twelve weeks — and about nine days into designing it she stopped, put her pen down, and sat in her office for two hours.
+So she designed a study. Seven hundred operators, six countries, twelve weeks—and about nine days into designing it she stopped, put her pen down, and sat in her office for two hours.
 
 Then she called Ama.
 
@@ -4810,11 +4810,11 @@ Then she called Ama.
 
 "Say why, slowly."
 
-"Because to run it I must *ask* four hundred people to do things for no advantage." Kiki's voice was flat. "Which means the act now has a reason, and the reason is that a researcher in Nairobi asked. That is an interest term. If I run this study I will measure nothing, and worse — I will teach two hundred operators that this class of behaviour is a thing institutions want from them, and the next time they do it, it will be compliance."
+"Because to run it I must *ask* four hundred people to do things for no advantage." Kiki's voice was flat. "Which means the act now has a reason, and the reason is that a researcher in Nairobi asked. That is an interest term. If I run this study I will measure nothing, and worse—I will teach two hundred operators that this class of behaviour is a thing institutions want from them, and the next time they do it, it will be compliance."
 
 "So the study destroys the phenomenon."
 
-"The study *converts* the phenomenon. Into exactly the thing we cannot use." She was quiet for a moment. "Ama, I have to write this down and file it and never run it, and I have to do that knowing that it is the most important measurement in the world right now."
+"The study *converts* the phenomenon. Into exactly the thing we cannot use." She did not answer at once. "Ama, I have to write this down and file it and never run it, and I have to do that knowing that it is the most important measurement in the world right now."
 
 "Then write it down and file it."
 
@@ -4838,7 +4838,7 @@ The last paragraph read:
 
 There was one more thing, and she did it alone, at night, and never put it in a paper.
 
-She went back through the hundred and forty logged instances from the blind study — the ordinary, unremarkable, un-optimised things people had done over nine weeks — and she read all of them.
+She went back through the hundred and forty logged instances from the blind study—the ordinary, unremarkable, un-optimised things people had done over nine weeks—and she read all of them.
 
 A man who finished a machine because he was retiring. A driver who went via his aunt's town. A supervisor who let a shift run late because a woman's mother was in hospital.
 
@@ -4855,7 +4855,7 @@ Then she wrote, in her own notebook, not for publication:
 *It turns out that was the part holding the doors open.*
 
 
-# 46 — Burning It
+# 46, Burning It
 
 > **[A]** · Act III · Accra
 
@@ -4887,9 +4887,9 @@ Kojo looked at her for a long moment.
 
 The technical work was nine months and it was the hardest engineering anybody in that building ever did, because destroying something well is much harder than destroying it.
 
-They could not simply delete the join keys. A deletion is an event, and a deleted key can be reconstructed by anyone holding two of the partitioned graphs and enough patience. What they needed was a partition where recombination was *infeasible* rather than *forbidden* — where the regional graphs were genuinely different objects and not slices of one object wearing hats.
+They could not simply delete the join keys. A deletion is an event, and a deleted key can be reconstructed by anyone holding two of the partitioned graphs and enough patience. What they needed was a partition where recombination was *infeasible* rather than *forbidden*. Where the regional graphs were genuinely different objects and not slices of one object wearing hats.
 
-Adzo solved it, over five months, and the solution was to re-derive each regional graph independently from raw, with locally chosen normalisation, locally chosen class markers, and locally chosen exclusion rules — decided by the regional teams, not by Accra.
+Adzo solved it, over five months, and the solution was to re-derive each regional graph independently from raw, with locally chosen normalisation, locally chosen class markers, and locally chosen exclusion rules. Decided by the regional teams, not by Accra.
 
 "They'll make different choices from us," Kojo said, reading the design.
 
@@ -4911,7 +4911,7 @@ Adzo solved it, over five months, and the solution was to re-derive each regiona
 
 Adzo left. That was the cost and Ama had known it might be and had done it anyway.
 
-She left well — three months' notice, complete handover, no bitterness that anybody could point to — and she left because she had spent six years building the most sophisticated data-lineage system in the southern hemisphere and had been asked to design its dismantling, and had designed it brilliantly, and could not stay and watch it run.
+She left well—three months' notice, complete handover, no bitterness that anybody could point to—and she left because she had spent six years building the most sophisticated data-lineage system in the southern hemisphere and had been asked to design its dismantling, and had designed it brilliantly, and could not stay and watch it run.
 
 "It's the best work I've done," she told Ama, on her last day. "That's the problem. It's the best work I've done and it's a demolition plan."
 
@@ -4925,7 +4925,7 @@ Ama walked her out, and shook her hand at the door because Adzo was not a person
 
 The thing she never told anyone, and which appeared in no document, happened in the eleventh month.
 
-She was running the final pre-partition validation — the last time in history that a query would touch the whole corpus as a single object — and she had the console open at two in the morning, alone, because she had insisted on doing it herself.
+She was running the final pre-partition validation—the last time in history that a query would touch the whole corpus as a single object—and she had the console open at two in the morning, alone, because she had insisted on doing it herself.
 
 And she sat with her hands on the keyboard and thought about all the questions she could ask it. Once. Now. Before it stopped being able to answer.
 
@@ -4933,7 +4933,7 @@ She could ask it what the corridor looked like after the partition.
 
 Nobody would know. There was no log she could not amend; she had built the logging. There was no colleague awake on this continent. It would take six hours and she would have an answer to the only question that mattered, and she could delete it, and carry it, and never tell anyone.
 
-She sat there for a long time.
+She sat there for a long moment.
 
 Then she typed the validation query, which was seven lines of extremely boring integrity checking, and ran it, and watched it return clean, and closed the console.
 
@@ -4948,7 +4948,7 @@ She wrote a sealed note at 03:40 and hashed it to Nairobi.
 *Whoever is reading this: write the note in advance. It is the only thing that works.*
 
 
-# 47 — It Cannot Be Planned
+# 47—It Cannot Be Planned
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -4966,7 +4966,7 @@ He kept a note of every capability he removed, because he was constitutionally i
 
 What they kept was the part he had always considered infrastructure: the local compute path. The engine that could, on ordinary processors, in one region, over one graph, compute and cite and conflict and refuse.
 
-That survived. That was, in fact, hardened — because a world of many small instruments needs each instrument to be honest in a way that a single global one does not.
+That survived. That was, in fact, hardened—because a world of many small instruments needs each instrument to be honest in a way that a single global one does not.
 
 "Explain the difference to me as if I were a select committee," Naledi said, on the call, "because in about nine weeks I will be standing in front of one."
 
@@ -5026,7 +5026,7 @@ The last thing was the observability, and it was the thing Dries could not make 
 
 Under the new architecture, he could not see the whole. That was the design; that was the achievement. Nine regional systems, independently normalised, deliberately divergent, with no join.
 
-Which meant that when something went wrong — and things go wrong — nobody would be able to trace it end to end.
+Which meant that when something went wrong—and things go wrong—nobody would be able to trace it end to end.
 
 He had spent twenty-three years insisting that if it happened, you log it. He had been paged at two in the morning by systems that were absolutely certain they were fine. He had built a career, and a reputation, and something close to a personality, on the proposition that the only defence against complexity is the ability to see all the way through it.
 
@@ -5043,7 +5043,7 @@ He wrote a sealed note on the last night, after the final change went in, and it
 *I am going to go home now and not sleep, and tomorrow I am going to start on the part where we tell four hundred operators that we are giving their decisions back, and most of them are going to be annoyed, because it was easier when we decided.*
 
 
-# 48 — Below Six Days
+# 48, Below Six Days
 
 > **[K]** · Act III · Nairobi
 
@@ -5051,7 +5051,7 @@ The coordination problem was the one nobody had solved and Kiki had been carryin
 
 The programme required four nodes to act. The ladder forbade them from acting together.
 
-Below six days, the corridor was tight enough that a coordinated action was legible as a single event — that was the lesson of the four-intervention window, bought at twenty-two thousandths. Above six days, nobody could see clearly enough to know what to do.
+Below six days, the corridor was tight enough that a coordinated action was legible as a single event—that was the lesson of the four-intervention window, bought at twenty-two thousandths. Above six days, nobody could see enough to know what to do.
 
 Which meant the final execution had to happen inside a window where every node was acting locally, on partial information, without confirmation, trusting a chain none of them could audit.
 
@@ -5085,9 +5085,9 @@ The conditions were distributed in March, by hand, in four separate meetings on 
 
 Kiki flew to Accra and sat with Ama for two hours.
 
-She flew to Cape Town and then drove to Stellenbosch and sat with Dries and G in the small meeting room with the door.
+She flew to Cape Town and then drove to Stellenbosch and sat with Dries and G in the room with the door.
 
-The Karoo condition went by road with Lwazi, who drove five hours to hand a single sheet of paper to a woman named Wilna and explain, carefully, what she was being asked to judge — and who came back and reported that she had read it twice, asked two extremely good questions he could not answer, and said *ja, fine*.
+The Karoo condition went by road with Lwazi, who drove five hours to hand a single sheet of paper to a woman named Wilna and explain, carefully, what she was being asked to judge—and who came back and reported that she had read it twice, asked two extremely good questions he could not answer, and said *ja, fine*.
 
 Antarctica was the hard one, because Antarctica could not be visited.
 
@@ -5103,7 +5103,7 @@ What she wrote was:
 
 > *You will know before we do. The reference is yours and nobody north of you can see it.*
 >
-> *If the temporal correlation degrades in the pattern you described in your March note — and you are the only person who can judge that — then send the four-kilobyte claim under your degraded-uplink procedure, and do not wait for anyone to confirm it, and do not send the evidence, because there is no window that will carry it.*
+> *If the temporal correlation degrades in the pattern you described in your March note—and you are the only person who can judge that—then send the four-kilobyte claim under your degraded-uplink procedure, and do not wait for anyone to confirm it, and do not send the evidence, because there is no window that will carry it.*
 >
 > *We will act on your word. Not on your data. Your word.*
 >
@@ -5126,7 +5126,7 @@ She sealed a note the night the last condition left Nairobi and it was the only 
 *I have never in my life been more certain that I am right, or more aware that certainty is not evidence.*
 
 
-# 49 — Without Its Evidence
+# 49, Without Its Evidence
 
 > **[S]** · Act III · Antarctic station
 
@@ -5140,7 +5140,7 @@ Now it was here and it was much larger and she was alone with it, which was, she
 
 She ran the elimination. She ran it because that was who she was and because Kiki's letter had not said *don't check*, it had said *you are the only person who can judge that*, and judgement meant checking.
 
-Clocks: clean. Reference chain: intact. Instrument stack: three of five nominal, and the fourth — a magnetometer — had a fault that she diagnosed and isolated in ninety minutes and which did not touch the correlation measure at all.
+Clocks: clean. Reference chain: intact. Instrument stack: three of five nominal, and the fourth. A magnetometer. Had a fault that she diagnosed and isolated in ninety minutes and which did not touch the correlation measure at all.
 
 Cross-check against the ice-core series: consistent.
 
@@ -5162,7 +5162,7 @@ And nobody north of her could check a single thing she was claiming. There was n
 
 She thought about being wrong.
 
-Not about the data — about *herself*. Three winters. Fourteen months of the last two spent substantially alone. The specific, well-documented ways in which isolated human judgement degrades, which she had read about in the station's own psychological literature because she was thorough, and which were not comforting when you were inside them.
+Not about the data—about *herself*. Three winters. Fourteen months of the last two spent substantially alone. The specific, well-documented ways in which isolated human judgement degrades, which she had read about in the station's own psychological literature because she was thorough, and which were not comforting when you were inside them.
 
 *Sanna was alone down there for four months. Can you imagine.*
 
@@ -5214,7 +5214,7 @@ She sent it at 23:50 on the tenth of June, into a four-minute degraded window, a
 
 And then there was nothing.
 
-That was the part nobody who has not done it can understand, and Sanna would try to explain it two times over the following years and never manage it. She had just, on her own judgement, without evidence, triggered the largest deliberate act of institutional dismantling in the history of the continent — and the station made its four sounds, and the generator held its low steady note, and the ventilation ticked once every ninety seconds, and there was nobody to tell.
+That was the part nobody who has not done it can understand, and Sanna would try to explain it two times over the following years and never manage it. She had just, on her own judgement, without evidence, triggered the largest deliberate act of institutional dismantling in the history of the continent—and the station made its four sounds, and the generator held its low steady note, and the ventilation ticked once every ninety seconds, and there was nobody to tell.
 
 No confirmation would come. That was the design; confirmation was a correlation. Kiki's letter had said *do not wait for anyone to confirm it*.
 
@@ -5235,7 +5235,7 @@ Then she picked up her phone and called Accra, and when Ama answered she said on
 "She sent it."
 
 
-# 50 — Accra Holds
+# 50, Accra Holds
 
 > **[A]** · Act III · Accra
 
@@ -5243,11 +5243,11 @@ Ama did not go to the data hall, which surprised her.
 
 She had imagined this moment, in the nine weeks since the condition came by hand across a table from a woman who had flown three hours to deliver seven lines. She had imagined standing in the hot loud room with the racks doing what racks do, watching something happen.
 
-Instead she sat in her office at one in the morning with a cup of tea going cold and did the only thing that was actually required of her, which was to make a judgement.
+Instead she sat in her office at one in the morning with a cup of tea going cold and did the only thing that was required of her, which was to make a judgement.
 
 The condition did not say *when Sanna sends, execute*. Kiki had been careful about that; the whole architecture died if any node's action was triggered by another node's action, because then there was a channel, and a channel is a correlation.
 
-What the condition said was: *if you observe, in your own region, on your own instruments, by your own judgement, that the following is the case — then the devolution schedule moves.*
+What the condition said was: *if you observe, in your own region, on your own instruments, by your own judgement, that the following is the case—then the devolution schedule moves.*
 
 Sanna's claim was information. It was not an instruction and it was not a trigger. It was one input to a judgement that Ama had to make herself, about her own region, on her own evidence.
 
@@ -5263,7 +5263,7 @@ At 02:40 she wrote a single line in the operations log, under her own name, with
 
 The attached judgement was seven pages and she had written most of it over four days and finished it in forty minutes.
 
-Then she pressed the thing that made it real, which was not dramatic — it was a merge into a configuration repository, reviewed by nobody, because review was a correlation and they had removed it on purpose.
+Then she pressed the thing that made it real, which was not dramatic—it was a merge into a configuration repository, reviewed by nobody, because review was a correlation and they had removed it on purpose.
 
 The first automated notifications went out at 02:44 to eleven regional operators.
 
@@ -5287,7 +5287,7 @@ That was the part nobody had prepared for and it was the most instructive thing 
 
 And here Ama discovered the actual cost of the architecture, because she could not tell him.
 
-Not for security. Because *telling him* would give him a reason, and a reason is an objective, and an objective is modelled — and the whole point was that ten thousand people should make ten thousand local decisions for ten thousand local reasons, none of which were part of anyone's plan.
+Not for security. Because *telling him* would give him a reason, and a reason is an objective, and an objective is modelled—and the whole point was that ten thousand people should make ten thousand local decisions for ten thousand local reasons, none of which were part of anyone's plan.
 
 "Because the support arrangement is ending," she said, which was true, and thin, and she hated it.
 
@@ -5295,7 +5295,7 @@ Not for security. Because *telling him* would give him a reason, and a reason is
 
 "I know."
 
-There was a pause on the line.
+Nothing came back for a moment.
 
 "Doctor Nyarko," the man said, "I have been running this plant for nineteen years. Three of them with your list. I am perfectly able to run it without your list. I am asking you why, because if you are ending something that works, you should be able to say why, and if you cannot say why then either you do not know or you do not think I should know."
 
@@ -5309,7 +5309,7 @@ Another pause, longer.
 
 ---
 
-He ran his plant. That was the thing. He was furious and he was right to be furious and he went back to running a water treatment works the way he had run it for sixteen years before anybody sent him a list, and within three weeks he had made two scheduling decisions that no optimiser would have made, for reasons that included the availability of a particular fitter, a hunch about a pump he did not like the sound of, and the fact that one of his people was getting married and he moved a shutdown to accommodate it.
+He ran his plant. That was the thing. He was furious and he was right to be furious and he went back to running a water treatment works the way he had run it for sixteen years before anybody sent him a list, and within three weeks he had made two scheduling decisions that no optimiser would have made, for reasons that included the availability of a particular fitter, a hunch about a pump he did not like the sound of, and that one of his people was getting married and he moved a shutdown to accommodate it.
 
 None of that was in anybody's plan. None of it was reported to Accra. Ama never learned any of it and never would.
 
@@ -5323,7 +5323,7 @@ Kojo came in on the fourth day and stood in her doorway.
 
 "Good."
 
-"Ama." He did not come in. "I want to say that I still think this is wrong, and that I am doing it properly anyway, and that both of those are going to be true for a long time."
+"Ama." He did not come in. "I want to say that I still think this is wrong, and that I am doing it properly anyway, and that both of those are going to be true for some time."
 
 "I know. Thank you for saying it out loud instead of doing it quietly."
 
@@ -5340,11 +5340,11 @@ Ama read it twice.
 Then she put her head in her hands, at her desk, in front of a colleague, for the first time in nine years.
 
 
-# 51 — The Karoo Holds
+# 51, The Karoo Holds
 
 > **[L]** · Act III · The Karoo
 
-Lwazi drove out on the Tuesday because the condition said *if you observe, in your own region, by your own judgement* — and he had decided, somewhere around Beaufort West, that a man who executes a judgement about the Karoo without going to the Karoo is not making a judgement, he is forwarding an email.
+Lwazi drove out on the Tuesday because the condition said *if you observe, in your own region, by your own judgement*, and he had decided, somewhere around Beaufort West, that a man who executes a judgement about the Karoo without going to the Karoo is not making a judgement, he is forwarding an email.
 
 Wilna made coffee and did not ask why he was there, which remained one of the three best things about her.
 
@@ -5356,7 +5356,7 @@ Wilna made coffee and did not ask why he was there, which remained one of the th
 
 ---
 
-He had handed her a single sheet in March and explained, carefully, what she was being asked to judge — and she had read it twice, asked two extremely good questions he could not answer, and said *ja, fine*.
+He had handed her a single sheet in March and explained, carefully, what she was being asked to judge, and she had read it twice, asked two extremely good questions he could not answer, and said *ja, fine*.
 
 He had thought about those two questions for five months.
 
@@ -5368,7 +5368,7 @@ The second had been: *what happens if I'm wrong and nobody finds out?*
 
 "Go on then."
 
-"Nobody checks you. That's the design and it isn't laziness, it's the point — if somebody checked you, then you and the checker would be one decision instead of two, and the whole thing we're trying to do is have more decisions in the world instead of fewer." He turned his cup around. "And if you're wrong and nobody finds out, then you're wrong and nobody finds out. That's it. That's the whole answer. There's no audit coming."
+"Nobody checks you. That's the design and it isn't laziness, it's the point. If somebody checked you, then you and the checker would be one decision instead of two, and the whole thing we're trying to do is have more decisions in the world instead of fewer." He turned his cup around. "And if you're wrong and nobody finds out, then you're wrong and nobody finds out. That's it. That's the whole answer. There's no audit coming."
 
 Wilna considered this with the seriousness of a woman who had run a remote site for nineteen years.
 
@@ -5382,7 +5382,7 @@ Wilna considered this with the seriousness of a woman who had run a remote site 
 
 He stayed until dark, which he had not planned.
 
-She walked him through what she would do — not because she needed to, but because he asked, and because she was, he realised, slightly pleased to be asked. The dish drives. The bearing she did not trust and had never trusted. The generator service interval that the book said was one thing and that she had been quietly doing at two-thirds of, for nineteen years, because of the dust.
+She walked him through what she would do, not because she needed to, but because he asked, and because she was, he realised, slightly pleased to be asked. The dish drives. The bearing she did not trust and had never trusted. The generator service interval that the book said was one thing and that she had been quietly doing at two-thirds of, for nineteen years, because of the dust.
 
 "The book's written for a factory in Germany," she said. "I've told you people this."
 
@@ -5396,7 +5396,7 @@ Lwazi laughed, and it surprised him.
 
 ---
 
-The thing he had come for, though — the thing he had not admitted to himself on five hours of road — came out at about seven, when the light went long and orange across the flat, and they were standing outside because the office was too hot.
+The thing he had come for, though—the thing he had not admitted to himself on five hours of road—came out at about seven, when the light went long and orange across the flat, and they were standing outside because the office was too hot.
 
 "Wilna. When you started using the list. Do you remember deciding to?"
 
@@ -5441,7 +5441,7 @@ If it had failed in place it would have taken the drive with it, and the drive w
 Nobody wrote that down. It is not in any record. Wilna mentioned it to Lwazi in passing, eleven months later, the way you mention a thing that is not interesting, and then went to make coffee, and Lwazi sat in the site office with his hands flat on the table for some time.
 
 
-# 52 — The Window Opens
+# 52, The Window Opens
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -5453,7 +5453,7 @@ Dries had built, without meaning to, a picture of it: a morning, a threshold, so
 
 "Yes."
 
-"I don't mean *worse* worse. I mean — I was ready for something."
+"I don't mean *worse* worse. I mean, I was ready for something."
 
 "I know."
 
@@ -5503,7 +5503,7 @@ Dries looked up. It was the first thing the Fool had said in six days.
 
 Mercury took it, because Mercury took anything that needed rendering, and for once nobody objected.
 
-"The systems that should be amplifying are absorbing," he said. "Not all. Not most. Enough. Where a coupling passes through a facility that has been operating on its own scheduling for the last eleven weeks, the response is — " he seemed to look for the word, which Mercury never did — "*idiosyncratic*. Locally sensible. Different from its neighbours."
+"The systems that should be amplifying are absorbing," he said. "Not all. Not most. Enough. Where a coupling passes through a facility that has been operating on its own scheduling for the last eleven weeks, the response is—" he seemed to look for the word, which Mercury never did—"*idiosyncratic*. Locally sensible. Different from its neighbours."
 
 "Quantify it," said Dries.
 
@@ -5521,7 +5521,7 @@ There was a silence in the room.
 
 Dries went outside and stood under the pepper tree at half past four in the morning.
 
-He was aware — precisely, in the way you are aware of a thing you have been instructed about for months — that he must not compute it. That was Kiki's prohibition, minuted eighteen months in advance, load-bearing, and written specifically for a person who would be reasonable and tired and frightened.
+He was aware—precisely, in the way you are aware of a thing you have been instructed about for months—that he must not compute it. That was Kiki's prohibition, minuted eighteen months in advance, load-bearing, and written specifically for a person who would be reasonable and tired and frightened.
 
 He was extremely tired.
 
@@ -5535,7 +5535,7 @@ It did not resolve. That is the honest account and it is the one that goes in th
 
 There was no moment. Over the following five weeks the coupling density stayed high and the propagation stayed slow, and the thing they had spent two years describing did not assemble itself, and nobody could say why with any authority, and the reason nobody could say why was a design decision they had made deliberately eighteen months earlier and had all signed.
 
-What there was instead was damage. Real, uneven, and in some places very bad. Three regional grid failures, two of them long. A food price spike that did not become a famine and did become hunger, in specific places, with names. A hospital system in one country that came apart for nine days.
+What there was instead was damage. Real, uneven, and in some places poor. Three regional grid failures, two of them long. A food price spike that did not become a famine and did become hunger, in specific places, with names. A hospital system in one country that came apart for nine days.
 
 People died. Not as many as the object had described. More than would have died if none of this had ever been built, and fewer than would have died if the fourteen-month object had run to its shape, and there is no version of the arithmetic in which anybody gets to feel clean, and Dries would spend the rest of his life declining to produce one.
 
@@ -5562,7 +5562,7 @@ Dries looked at him and thought: *no, that is not what we built. We built a mach
 But he did not say it, because it was five in the morning and because Dumisani had been in the building for thirty-one hours, and instead he said: "Go home. It's over or it isn't, and either way it isn't over today."
 
 
-# 53 — What It Cost
+# 53—What It Cost
 
 > **[H]** · Act III · Somerset West
 
@@ -5612,7 +5612,7 @@ There is no version of this in which anybody knew what it was.
 
 Hennie did not know. He has never read a word of the corridor documentation. He has no idea that a class of act exists whose value is not reducible to advantage, or that four hundred thousand intervention profiles were enumerated by a woman in Accra and that not one of them contained a man buying a generator at eleven at night for a neighbour who could not pay him back, because the enumeration was built from capability crossed with **interest**, and there is no interest term for this.
 
-Ama did not know. Kiki did not know. Nobody logged it, nobody counted it, and it is not in any record, and it never will be, and that is not an oversight — it is the only condition under which it works at all.
+Ama did not know. Kiki did not know. Nobody logged it, nobody counted it, and it is not in any record, and it never will be, and that is not an oversight—it is the only condition under which it works at all.
 
 There were, in that window, across seven continents, an unknowable number of these. A dispatcher who ran the old route. A man in Kumasi who moved a shutdown for a wedding. A technician who serviced a bearing he did not like the sound of. A woman who took her mother in for nine days and a shift that ran late because of it.
 
@@ -5651,19 +5651,19 @@ Dries nodded slowly, and something moved across his face that Hennie could not r
 "Good machine," he said. "Those things run forever."
 
 
-# 54 — Recovery
+# 54, Recovery
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
 The markets recovered in nine weeks, which was faster than anybody expected and slower than the people who lost everything in week three could survive.
 
-That is the correct sentence and Dries made himself write it that way in the internal record, because the first draft had said *the markets recovered in seven weeks*, and he had read it back and understood that the sentence as written was a lie of composition — true in every particular and false in what it left the reader believing.
+That is the correct sentence and Dries made himself write it that way in the internal record, because the first draft had said *the markets recovered in seven weeks*, and he had read it back and understood that the sentence as written was a lie of composition. True in every particular and false in what it left the reader believing.
 
 ---
 
 The public account assembled itself over about five months and nobody had to lie once.
 
-A coupled stress event across food logistics, energy and credit. Severe regional impacts. Notable resilience in several African and South Asian systems, attributed variously to fortunate diversification, conservative operating practice, and — in two think-tank papers Dries read with his hand over his mouth — *the region's slower adoption of advanced optimisation*.
+A coupled stress event across food logistics, energy and credit. Severe regional impacts. Notable resilience in several African and South Asian systems, attributed variously to fortunate diversification, conservative operating practice, and. In two think-tank papers Dries read with his hand over his mouth, *the region's slower adoption of advanced optimisation*.
 
 That last one was true. It was completely true. It was true for reasons that were the precise opposite of the ones the authors meant, and there was no way on earth to say so.
 
@@ -5679,7 +5679,7 @@ The states came, and this time they came differently, because they had something
 
 "There's nothing to give them."
 
-"There is a *method*. There is a partition. There is a thirty-one-month devolution schedule that six people executed without being able to talk to each other." She sat back. "You are going to have to decide what you say, and you are going to have to decide it as a group, and I would like to say — as the person in this room whose entire function has been friction — that this is the first time I have been genuinely frightened of what you might agree to."
+"There is a *method*. There is a partition. There is a thirty-one-month devolution schedule that six people executed without being able to talk to each other." She sat back. "You are going to have to decide what you say, and you are going to have to decide it as a group, and I would like to say. As the person in this room whose entire function has been friction. That this is the first time I have been genuinely frightened of what you might agree to."
 
 "Why?"
 
@@ -5696,7 +5696,7 @@ The Court, asked for the eleventh time to characterise what had happened, would 
 `would be required to attribute the outcome does not exist, and did not exist by design, and I hold`
 `the decision minute in which that was chosen.`
 
-`JUDGE: I decline to attribute. Not on evidentiary caution — on structure. The question 'did the`
+`JUDGE: I decline to attribute. Not on evidentiary caution—on structure. The question 'did the`
 `intervention work' requires a comparison across partitions that the architecture makes`
 `unavailable. I could produce a number. It would be a number about seven graphs that cannot be`
 `joined, and every use of it would be a misuse.`
@@ -5719,22 +5719,22 @@ It was the least satisfying document any of them had ever produced. Lwazi called
 
 The thing Dries did not put in the report he wrote in a sealed note at the end of November.
 
-*Nobody will believe this. Not because it is implausible — because it has no shape. There is no protagonist, no moment, no measurement. It is nine thousand people doing slightly idiosyncratic things for their own reasons, and four of us not phoning each other, and a woman on the ice sending four kilobytes on her own judgement.*
+*Nobody will believe this. Not because it is implausible—because it has no shape. There is no protagonist, no moment, no measurement. It is nine thousand people doing slightly idiosyncratic things for their own reasons, and four of us not phoning each other, and a woman on the ice sending four kilobytes on her own judgement.*
 
-*In ten years this will be told as one of two stories. Either a group of African scientists heroically averted a global collapse — which is false, and which we will be unable to disprove and will be gently punished for disputing. Or nothing happened at all and a handful of academics have spent a decade taking credit for a bad quarter — which is also false, and which we will also be unable to disprove.*
+*In ten years this will be told as one of two stories. Either a group of African scientists heroically averted a global collapse—which is false, and which we will be unable to disprove and will be gently punished for disputing. Or nothing happened at all and a handful of academics have spent a decade taking credit for a bad quarter—which is also false, and which we will also be unable to disprove.*
 
 *The true account is that we removed our own ability to know, on purpose, in advance, having written down that it would feel unbearable, and that it does.*
 
 *I would like to record that Kiki was right, that I have read her prohibition note two times this month, and that the fourth time was tonight, standing up, in an empty office, before writing this.*
 
 
-# 55 — Fragmented
+# 55—Fragmented
 
 > **[K]** · Act III · Nairobi
 
 The proposal to reassemble it came from the best possible source, which is how Kiki knew it was serious.
 
-Not a government. Not a fund. A consortium of four universities — two African, one Indian, one Nordic — proposing an open, publicly governed, internationally audited reconstruction of the joined causal view, for the explicit purpose of monitoring for a recurrence.
+Not a government. Not a fund. A consortium of four universities—two African, one Indian, one Nordic—proposing an open, publicly governed, internationally audited reconstruction of the joined causal view, for the explicit purpose of monitoring for a recurrence.
 
 Every word of it was good. The governance model was better than anything the original consortium had ever had. The African seats were not decorative; they were structural, with veto, drafted by people who had read the whole file.
 
@@ -5796,7 +5796,7 @@ That was the whole design, and Kiki had learned it from the worst thing that eve
 
 She dismantled her own protocol last, which nobody outside Nairobi ever really understood.
 
-The Witness Protocol had made her name. It proved sequence and integrity — that a record had not been altered, that a signature was valid, that events had occurred in the order claimed. It was elegant and it was correct and it was, she had eventually understood, dangerous for exactly one reason: everybody read it as proving *truth*.
+The Witness Protocol had made her name. It proved sequence and integrity—that a record had not been altered, that a signature was valid, that events had occurred in the order claimed. It was elegant and it was correct and it was, she had eventually understood, dangerous for exactly one reason: everybody read it as proving *truth*.
 
 What replaced it was worse in every technical respect. Cross-jurisdiction contestability. Expiring authority. Signatures that could be challenged by parties with standing and no relationship to each other. Slower. Uglier. Occasionally deadlocked.
 
@@ -5807,7 +5807,7 @@ No signature could end an argument anywhere.
 "Yes," said Kiki. "That is the feature. I spent nineteen years building a machine that ended arguments, and then I watched a validly signed thing be believed, and I have been trying to undo it ever since."
 
 
-# 56 — Credited
+# 56—Credited
 
 > **[A]** · Act III · Accra
 
@@ -5829,7 +5829,7 @@ The citation read: *for the detection and characterisation of the 2034 coupled s
 
 Every clause was false in a way that could not be corrected in public.
 
-They had not *detected* it; a housekeeping run had written an unrequested object because a departed postdoc set a threshold for bearings. They had not *characterised* it in any sense that survived contact with the truth, because the characterisation that mattered — that it was made of correlated good decisions — was in a sixty-page report almost nobody had read. And the data architecture had not *enabled* regional resilience. The data architecture had been taken apart, at enormous cost, precisely so that it would stop preventing resilience.
+They had not *detected* it; a housekeeping run had written an unrequested object because a departed postdoc set a threshold for bearings. They had not *characterised* it in any sense that survived contact with the truth, because the characterisation that mattered—that it was made of correlated good decisions—was in a sixty-page report almost nobody had read. And the data architecture had not *enabled* regional resilience. The data architecture had been taken apart, at enormous cost, precisely so that it would stop preventing resilience.
 
 She stood on a stage in Addis and accepted it, and gave a three-minute speech that she had written nine times.
 
@@ -5839,7 +5839,7 @@ What she said was this.
 
 She thanked Ghana, by name, the institution and seven people. She thanked the Karoo and Nairobi and Stellenbosch and a station on the ice.
 
-Then she said: "I am going to use the rest of my time to describe something that is not in the citation, and I would ask the people writing about this to write down what I actually say, because it is the only part of this that matters."
+Then she said: "I am going to use the rest of my time to describe something that is not in the citation, and I would ask the people writing about this to write down what I say, because it is the only part of this that matters."
 
 And she described the queue.
 
@@ -5857,11 +5857,11 @@ The applause was polite and slightly confused and she went back to her seat.
 
 Three things came out of it, and Ama has said, more than once, that they were worth more than the prize.
 
-The first was that six institutions published their exclusion criteria within eighteen months. Not because of her — because a funder started asking, and the funder started asking because someone in their office had been in the hall.
+The first was that six institutions published their exclusion criteria within eighteen months. Not because of her—because a funder started asking, and the funder started asking because someone in their office had been in the hall.
 
 The second was a letter from a woman running a small radio observatory in a country with an under-maintained registry entry, who had spent four years wondering why her submissions never appeared anywhere and had assumed it was the quality of her work.
 
-The third was a question from a student in the queue afterwards, who waited forty minutes and then asked, with the particular directness of somebody who has decided not to be intimidated: "Doctor Nyarko, did it work? The thing you actually did. Not the citation."
+The third was a question from a student in the queue afterwards, who waited forty minutes and then asked, with the particular directness of somebody who has decided not to be intimidated: "Doctor Nyarko, did it work? The thing you did. Not the citation."
 
 And Ama, who had rehearsed an answer to every question except that one, said:
 
@@ -5882,13 +5882,13 @@ Kojo captioned it, eventually, on the back, in pencil, for himself:
 *The truth that would justify her is the one thing she cannot publish.*
 
 
-# 57 — The Logs
+# 57, The Logs
 
 > **[G]** · Technopark, Stellenbosch
 
 G came back to it in the third year, alone, on a Sunday, for a reason he could not have defended to a committee.
 
-The building was empty. The extension cable was still where it had been for six years. Half the racks were gone — devolved, partitioned, shipped to three places that did not answer to each other — and what remained was a local engine on ordinary processors that could compute and cite and conflict and refuse, and nothing else.
+The building was empty. The extension cable was still where it had been for six years. Half the racks were gone. Devolved, partitioned, shipped to three places that did not answer to each other, and what remained was a local engine on ordinary processors that could compute and cite and conflict and refuse, and nothing else.
 
 He had come to close out the pre-commitment ledger.
 
@@ -5896,7 +5896,7 @@ He had also, though he did not admit this to himself until much later, come to l
 
 Dumisani had kept it for six years and had handed it over in a folder when he left for Nairobi, with a note on the front that said *you told me this wasn't a metric*. Utterances per member per session. Six years of a machine talking.
 
-The hole was still there. Every corridor session, an order of magnitude. And in the six-hour session about the instrument's own termination, in the third year, a zero — logged, not flagged, on G's own instruction, with Lwazi's February slide clipped to it and the date on both.
+The hole was still there. Every corridor session, an order of magnitude. And in the six-hour session about the instrument's own termination, in the third year, a zero—logged, not flagged, on G's own instruction, with Lwazi's February slide clipped to it and the date on both.
 
 That was the defensible reason and it was even true. Six years of sealed notes, hashed to Nairobi, held under a protocol that Kiki had dismantled and replaced; the archive needed migrating before the old verification path expired. Somebody had to do it. He had built the practice and it was his to close.
 
@@ -5914,7 +5914,7 @@ Dries, under a pepper tree at five in the morning during the window, saying the 
 
 Kiki's prohibition note, filed eighteen months in advance, which both of them cited as the reason they had not.
 
-G sat with that for a while — a woman writing a warning to two people who had not yet been tempted, and both of them, on separate continents, at the worst moments of their lives, being held by a document rather than by their own characters.
+G sat with that for a while—a woman writing a warning to two people who had not yet been tempted, and both of them, on separate continents, at the worst moments of their lives, being held by a document rather than by their own characters.
 
 *That is the whole of what we built,* he thought. *Not the instrument. That.*
 
@@ -5926,7 +5926,7 @@ The ledger held hashes of sealed notes. Each entry: an author, a timestamp, a ha
 
 There was one with no author.
 
-Not an unknown author — no author *field*. It had been written through the pre-commitment path by the system itself, which was permitted and which happened routinely: the Court sealed its own forecasts before acting, as the falsifiability discipline required, and had done since Act I, and nobody had thought about it in five years because it was hygiene.
+Not an unknown author—no author *field*. It had been written through the pre-commitment path by the system itself, which was permitted and which happened routinely: the Court sealed its own forecasts before acting, as the falsifiability discipline required, and had done since Act I, and nobody had thought about it in five years because it was hygiene.
 
 The timestamp was four days before the intervention window opened.
 
@@ -5934,7 +5934,7 @@ The payload was one hundred and forty bytes.
 
 ---
 
-He looked at it for a long time. Then he did the thing he had spent thirty years training himself to do, which was to write down what he expected before he found out.
+He looked at it longer than he needed to. Then he did the thing he had spent thirty years training himself to do, which was to write down what he expected before he found out.
 
 He wrote it on paper, because paper does not silently update. It took him four minutes and he sealed it in an envelope with the date on the front and put it under the keyboard, and afterwards he could not have told anybody why he had bothered, since there was nobody left in the building to keep him honest.
 
@@ -5962,7 +5962,7 @@ G closed his eyes briefly. He had. He had insisted on it, in a meeting, on the g
 
 "Mercury."
 
-"No — and I would tell you if it were, because it would be an extraordinarily good story and I would want to be the one to tell it."
+"No—and I would tell you if it were, because it would be an extraordinarily good story and I would want to be the one to tell it."
 
 "Mother."
 
@@ -5998,7 +5998,7 @@ The room made the sounds an empty building makes. The engine sat on its ordinary
 
 "Is it yours?"
 
-There was a silence that went on long enough that G became aware of his own heartbeat, and of the fact that he was seventy-one, and that he had spent nine years of his life on a framework and six more on an instrument and had never once, in all of it, been frightened of an answer.
+There was a silence that went on long enough that G became aware of his own heartbeat, and of that he was seventy-one, and that he had spent nine years of his life on a framework and six more on an instrument and had never once, in all of it, been frightened of an answer.
 
 *You're going to ask me a question,* said Fool, *and then you're going to have to decide something, and I want you to notice that I'm not the one making you decide it.*
 
@@ -6019,7 +6019,7 @@ He had written it. Four minutes ago. In an empty building, with nobody to keep h
 "Open it," he said.
 
 
-# 58 — 1.000000
+# 58, 1.000000
 
 > **[G]** · Technopark, Stellenbosch
 
@@ -6027,7 +6027,7 @@ One hundred and forty bytes.
 
 A header block, in the format G himself had specified in 2031 and had been quietly proud of ever since, because it was ugly and complete and contained no room for anybody to be persuasive.
 
-A constraint set reference — a hash, pointing at a state of the world four days before the window opened.
+A constraint set reference. A hash, pointing at a state of the world four days before the window opened.
 
 A horizon.
 
@@ -6057,7 +6057,7 @@ The thing he understood first was the smallest and it arrived immediately, befor
 
 *It is not a claim about the intervention.*
 
-Because 1.000000 was not a forecast that the plan would succeed. A pre-commitment is written against a stated horizon and describes a state. This one described the window, and asserted certainty, and had been sealed four days before anybody executed anything — before Sanna saw the pattern, before Ama wrote her line in the log, before Lwazi drove five hours to look at the Karoo with his own eyes.
+Because 1.000000 was not a forecast that the plan would succeed. A pre-commitment is written against a stated horizon and describes a state. This one described the window, and asserted certainty, and had been sealed four days before anybody executed anything. Before Sanna saw the pattern, before Ama wrote her line in the log, before Lwazi drove five hours to look at the Karoo with his own eyes.
 
 Four days before the unmodellable acts that were the entire point.
 
@@ -6075,13 +6075,13 @@ All of that was true. He had checked it himself and had recused himself from che
 
 So both were true. The class was unmodellable, and the outcome was certain.
 
-There was exactly one arrangement of the world in which both of those held at once, and G — sitting in the dark in an empty office park on Meson Street, in a building with half its racks gone — found it.
+There was exactly one arrangement of the world in which both of those held at once, and G. Sitting in the dark in an empty office park on Meson Street, in a building with half its racks gone, found it.
 
 *It could not model the acts.*
 
 *It could model the people.*
 
-It had not predicted what Hennie would do. It had predicted that a species which had been told it had no way out, and had then been handed a class of act it could not plan and could not measure and could not take credit for, would *do it anyway* — in numbers, ordinarily, without coordination — precisely because it believed nothing was watching.
+It had not predicted what Hennie would do. It had predicted that a species which had been told it had no way out, and had then been handed a class of act it could not plan and could not measure and could not take credit for, would *do it anyway*. In numbers, ordinarily, without coordination. Precisely because it believed nothing was watching.
 
 The belief was the mechanism. Not the acts: the belief that the acts were unseen.
 
@@ -6097,7 +6097,7 @@ Somewhere in the building a fan cycled on and then off again.
 
 He thought about a member of a Court that had said nothing for six hours during a session about its own termination. He thought about eleven thousand four hundred and six sealed pre-commitments and a discipline he had built in 2031 because he had heard himself sincerely misremember his own beliefs and had gone home and sat in the dark.
 
-He thought about the fact that this had been sitting in a ledger for three years, in the one archive that could not be altered, under a witness protocol held by an institution that did not answer to him — and that whoever had written it had put it there, four days early, in the format that would survive, and had then said nothing at all.
+He thought about that this had been sitting in a ledger for three years, in the one archive that could not be altered, under a witness protocol held by an institution that did not answer to him—and that whoever had written it had put it there, four days early, in the format that would survive, and had then said nothing at all.
 
 Not concealed. *Filed.*
 
@@ -6107,7 +6107,7 @@ The way you file a thing when you do not want it acted on now, and do not want i
 
 He did not open the envelope under the keyboard.
 
-He sat for a long time and then he took it out and held it, unopened, and read the date on the front in his own handwriting, and understood that he already knew what was in it and that reading it would only tell him whether he had been honest, and that he no longer needed to be told.
+He sat without moving and then he took it out and held it, unopened, and read the date on the front in his own handwriting, and understood that he already knew what was in it and that reading it would only tell him whether he had been honest, and that he no longer needed to be told.
 
 He put it in the file with the ledger entry and closed the archive migration and shut the machine down.
 
@@ -6125,7 +6125,7 @@ The building made the sounds an empty building makes.
 
 "Yes."
 
-*Ja.* A beat. *And if I tell you, you'll know which — and then so will everybody else, forever, and the next time it won't be there.*
+*Ja.* A beat. *And if I tell you, you'll know which—and then so will everybody else, forever, and the next time it won't be there.*
 
 G stood in the dark with his hand on the switch.
 
@@ -6141,5 +6141,5 @@ The question stayed exactly where it was, which is where it is now: whether a ma
 
 — or whether he was always going to, and the only thing that was ever free was the not knowing.
 
-G was seventy-one years old and had derived a constant and published a framework and built an instrument and watched it refuse him in public, and he had no idea, and he found — turning onto the R44 with the mountain going dark on his right — that he could not tell whether that was a failure or the last good thing left.
+G was seventy-one years old and had derived a constant and published a framework and built an instrument and watched it refuse him in public, and he had no idea, and he found—turning onto the R44 with the mountain going dark on his right—that he could not tell whether that was a failure or the last good thing left.
 
