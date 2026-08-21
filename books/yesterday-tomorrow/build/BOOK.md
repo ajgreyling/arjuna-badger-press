@@ -4,7 +4,7 @@
 *They build a machine to understand reality. It begins predicting reality. Then it predicts the end of it.*
 
 
-# 01, The File
+# 01 — The File
 
 > **[S]** · Cold open · Sanna Abrahams, SANAP-linked Antarctic station
 
@@ -46,7 +46,7 @@ Sanna checked the clocks.
 
 She checked them the way you check a thing you already know the answer to, because the alternative is sitting still, and sitting still at that hour of that month in that building was not something she was prepared to do. The station clock agreed with the optical reference. The optical reference agreed with the Karoo, as it had agreed with the Karoo every five hours for two hundred and eighteen days. The array's own clock, which was disciplined separately and deliberately so that this exact class of stupidity could be ruled out, agreed with both.
 
-Six hours and twelve minutes from 02:14 was 08:25.
+Six hours and eleven minutes from 02:14 was 08:25.
 
 She wrote it on the back of her hand, because there was no paper on the desk and because she wanted it somewhere that could not silently update.
 
@@ -92,7 +92,7 @@ She followed it. She would follow it for eleven days, and everything in it would
 
 But that was later.
 
-What she did at 08:31 on the fourteenth of January, alone, four thousand kilometres from the nearest person who would understand what she was looking at and seven months from the nearest ship that could carry her to them, was scroll back to the header block of a file she had now read nine times, to the field she had skipped past on every one of those readings because it was administrative and because administrative fields are where the eye goes to rest.
+What she did at 08:31 on the fourteenth of January, alone, four thousand kilometres from the nearest person who would understand what she was looking at and four months from the nearest ship that could carry her to them, was scroll back to the header block of a file she had now read nine times, to the field she had skipped past on every one of those readings because it was administrative and because administrative fields are where the eye goes to rest.
 
 `downstream_ref:`
 
@@ -109,7 +109,7 @@ Sanna sat in the humming room with her hand over her mouth.
 *You have not predicted an event,* she thought. *You have predicted yourself.*
 
 
-# 02, Meson Street
+# 02 — Meson Street
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
@@ -446,7 +446,7 @@ Ama looked at the projection, which was a wall of nothing very much.
 He would remember that instruction twelve days later, standing in a hot room at two in the morning with his hands shaking slightly, and he would follow it exactly, and it would be the reason anybody believed them.
 
 
-# 05, No Hardware
+# 05 — No Hardware
 
 > **[K]** · Act I · Nairobi
 
@@ -527,7 +527,7 @@ She would spend the last third of her life on that problem. She would eventually
 But that was seven years away, and tonight she was tired and pleased and slightly drunk on it, and she drove home through Westlands with the windows down thinking about nothing much at all.
 
 
-# 06, The Plumber's Question
+# 06 — The Plumber's Question
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
@@ -638,7 +638,7 @@ The tapes arrived eleven days later on a pallet, and were the wrong format, and 
 The noise is the payload, he wrote on the requisition form, in the box marked *justification*, and finance queried it twice.
 
 
-# 07, Where It Changed Its Mind
+# 07 — Where It Changed Its Mind
 
 > **[L]** · Act I · Technopark, Stellenbosch
 
@@ -733,7 +733,7 @@ There was a pause, and G made a sound that in another man would have been a laug
 "Keep him," he said. "That is the only correct attitude in this building."
 
 
-# 08, Four Doors
+# 08 — Four Doors
 
 > **[D]** · Act I · Technopark, Stellenbosch
 
@@ -914,7 +914,7 @@ He stood up.
 "Write down what you expect," he said. "Seal it. Then go home."
 
 
-# 09, Pre-Commitment
+# 09 — Pre-Commitment
 
 > **[G]** · Act I · Technopark, Stellenbosch
 
@@ -995,7 +995,7 @@ Kiki would be the one to notice, on a bad night in a hotel in Accra, that they h
 And at the very end, in a room in Stellenbosch, G would open one last sealed file that he had not written, and find a number in it, and understand that the discipline he had built to protect them from their own memories had been, all along, the only format in which the machine could tell them the truth.
 
 
-# 10, Copyable
+# 10 — Copyable
 
 > **[K]** · Act I · Nairobi
 
@@ -1171,7 +1171,7 @@ He wrote a sealed note before he slept, because that was the practice, and becau
 *I expect the seventh cycle to move toward, by less than the sixth. I expect to be told this is confirmation. It will not be. I expect to want, very badly, to agree with them.*
 
 
-# 12, Compression
+# 12 — Compression
 
 > **[A]** · Act I · Accra
 
@@ -1379,7 +1379,7 @@ And he would say—because it was true, and because by then he would have stoppe
 "Because we needed a generator, and nobody funds generators."
 
 
-# 14, Small and Checkable
+# 14 — Small and Checkable
 
 > **[D]** · Act I turn · Technopark, Stellenbosch
 
@@ -1423,7 +1423,7 @@ Delivery vehicle: arrival at the Karoo site gate between 11:05 and 11:20 on the 
 
 ---
 
-The geomagnetic prediction came in at six hours and was correct, and nobody was impressed, because six hours in a bounded physical system was. As everyone kept saying to each other, slightly too often—not surprising. You could do that with conventional models. It was a control, and it behaved like one, and Dries put a tick on the whiteboard and moved on.
+The geomagnetic prediction came in at six hours and was correct, and nobody was impressed, because six hours in a bounded physical system was—as everyone kept saying to each other, slightly too often—not surprising. You could do that with conventional models. It was a control, and it behaved like one, and Dries put a tick on the whiteboard and moved on.
 
 The delivery vehicle arrived at the Karoo gate at 11:11 on Tuesday.
 
@@ -1505,14 +1505,14 @@ Nobody said anything for a while.
 
 Dumisani checked, although he did not need to.
 
-"Six hours and twelve minutes."
+"Six hours and eleven minutes."
 
 G stood up and went to the window, and stood there with his back to the room, which he had never once done.
 
 "It has been doing this," he said, "since before we knew it could."
 
 
-# 15, Reconcile
+# 15 — Reconcile
 
 > **[S]** · Act II-A · Antarctic station
 
@@ -1623,7 +1623,7 @@ Sanna laughed, once, and it was not a good sound but it was a real one.
 The window closed at 14:11. The station made its four sounds. She sat for a while in the humming room, and for the first time in two months she was not the only person on earth who knew.
 
 
-# 16, Where Being Wrong Is Cheap
+# 16 — Where Being Wrong Is Cheap
 
 > **[L]** · Act II-A · Technopark and the Karoo
 
@@ -1716,7 +1716,7 @@ Nobody said anything.
 "We have been sitting in this room for seven months," Dries said, "arguing about whether we believe it. And the technicians already do."
 
 
-# 17, The Maintenance Schedule
+# 17 — The Maintenance Schedule
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
@@ -1825,7 +1825,7 @@ He went inside and did not sleep well, and in the morning he wrote a sealed note
 He was eleven months early.
 
 
-# 18, Six Minutes, Six Months
+# 18 — Six Minutes, Six Months
 
 > **[G]** · Act II-A · Technopark, Stellenbosch
 
@@ -2022,7 +2022,7 @@ A port closure moved a commodity price. A commodity price moved a protest. A pro
 "So the only thing that has changed," Ama said, "is that it is now *addressable*."
 
 
-# 20, The Corridor
+# 20 — The Corridor
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
@@ -2254,7 +2254,7 @@ There was a silence on the line long enough that she checked her connection.
 "Minute it," she said. "Because in about a year somebody is going to try to make this a story about a leak, and it is not a leak. It is a *paper*. And the difference is going to matter to more than my reputation."
 
 
-# 22, The Lane
+# 22 — The Lane
 
 > **[H]** · Act II-A · Technopark, Stellenbosch
 
@@ -2369,7 +2369,7 @@ Hennie looked at his hands on the steering wheel.
 "No," Dries said. "It probably won't."
 
 
-# 23, Seconds Ahead
+# 23 — Seconds Ahead
 
 > **[K]** · Act II-A · Nairobi
 
@@ -2559,7 +2559,7 @@ Kojo, reading the entry the next morning, said: "That's going to look bad."
 "Yes," Ama said. "Good."
 
 
-# 25, Containment
+# 25 — Containment
 
 > **[D]** · Act II-A · Technopark, Stellenbosch
 
@@ -2656,7 +2656,7 @@ G did not answer at once.
 "Now you are asking the right question," he said. "And I would like you to notice that it is not a question about security. It is a question about *variance*. And that there is nobody on this continent, in this field, currently thinking about it, including us, until about nine seconds ago."
 
 
-# 26, What Would Kill It
+# 26 — What Would Kill It
 
 > **[G]** · Act II-A · Technopark, Stellenbosch
 
@@ -2819,7 +2819,7 @@ Lwazi said, carefully, "Do you want it in the record?"
 "I want to know why my instinct was that it did not belong there," G said, "and I do not like the answer, and I am going to go and sit with it."
 
 
-# 27, Three Months
+# 27 — Four Months
 
 > **[S]** · Act II-A · Antarctic station
 
@@ -2908,7 +2908,7 @@ She was, she realised somewhere along the flag line, no longer frightened of bei
 She was frightened of something much more specific: that the instrument she had given three years of her life to keeping honest was measuring a world that had started, quietly and without anyone's permission, to arrange itself around what she measured.
 
 
-# 28, The Number
+# 28 — The Number
 
 > **[D]** · MIDPOINT · Technopark, Stellenbosch
 
@@ -3060,7 +3060,7 @@ He waited until they were all looking at him.
 "From this moment," G said, "we are inside it. Every one of us. Whatever we do next—publish, conceal, intervene, argue, resign, do nothing at all—is now an input to the thing we have just measured. There is no position outside this that any of us can take up." He sat back. "Somebody find out what happens to the number when we tell people. Find out tonight. Because we have just become the most dangerous variable in our own forecast, and I would like to know which way we point before anybody's conscience gets loose."
 
 
-# 29, Prediction Changes the System
+# 29 — Prediction Changes the System
 
 > **[G]** · Act II-B · Technopark, Stellenbosch
 
@@ -3246,7 +3246,7 @@ Then she wrote underneath it:
 She flew home the next morning and did not say it in a meeting for another three weeks, because she wanted to be sure, and because she already knew that when she did say it, the room would stop being a room where a decision was being made and become a room where people found out what had already happened to them.
 
 
-# 31, Simulate Disclosure
+# 31 — Simulate Disclosure
 
 > **[D]** · Act II-B · Technopark, Stellenbosch
 
@@ -3345,7 +3345,7 @@ Then he wrote the sealed note, and it took him five attempts, and the version he
 *I notice that it is a relief. I notice that the relief is the most dangerous thing in this building tonight.*
 
 
-# 32, The First Reroute
+# 32 — The First Reroute
 
 > **[A]** · Act II-B · Accra
 
@@ -3577,7 +3577,7 @@ Dries laughed, once, wretchedly.
 "I have no idea," G said. "I have never managed it. I am the wrong man to ask and I am the only one in the room."
 
 
-# 34, Invariant
+# 34 — Invariant
 
 > **[L]** · Act II-B · Technopark, Stellenbosch
 
@@ -3805,7 +3805,7 @@ She had died in 2031. Kiki found the notice and read it and sat with it for a wh
 *You were right about clause six,* she thought. *And neither of us looked at clause seven, because there is nothing to look at, and that turns out to be the only thing in the document that matters.*
 
 
-# 36, Before They Find Me
+# 36 — Before They Find Me
 
 > **[H]** · Act II-B · Technopark, Stellenbosch
 
@@ -3979,7 +3979,7 @@ She replied at ten past six.
 *I do not know what to do with that and I have been awake since six.*
 
 
-# 38, North
+# 38 — North
 
 > **[L]** · Act II-B · Technopark and Geneva
 
@@ -4070,7 +4070,7 @@ It did not fix the funding. It moved the timeline from two years to twenty-eight
 The two groups that accepted were running *different methods*.
 
 
-# 39, Contaminated
+# 39 — Contaminated
 
 > **[G]** · Act II-B · Technopark, Stellenbosch
 
@@ -4312,7 +4312,7 @@ In the covering note she wrote:
 *If this is ever used, and I am the one using it, I would ask whoever receives it to remember that I wrote this procedure eleven months in advance, calmly, when nothing was at stake, precisely so that you would have some reason to believe me later.*
 
 
-# 41, Every Obvious Thing
+# 41 — Every Obvious Thing
 
 > **[A]** · Act II turn · Accra
 
@@ -4449,7 +4449,7 @@ Dries closed his eyes.
 "Then there's a class of thing," he said, "that isn't in the four hundred thousand. And we haven't proved it's impossible. We've proved it's *unmodelled*."
 
 
-# 42, Unmodelled
+# 42 — Unmodelled
 
 > **[D]** · Act II turn · Technopark, Stellenbosch
 
@@ -4528,7 +4528,7 @@ He sat down heavily.
 "I would like somebody else to say the next part," he said, "because if I say it I will not be able to tell whether I believe it or whether I have simply been waiting my whole life to."
 
 
-# 43, Not a Gap in the Data
+# 43 — Not a Gap in the Data
 
 > **[G]** · Act III · Technopark, Stellenbosch
 
@@ -4636,7 +4636,7 @@ Dries found him there at seven in the evening.
 "I am not pleased. I have spent twelve years being told that the ethical clause was a decoration, and I have now been handed evidence, by people who tried to break it, that it is load-bearing." He looked up, and his eyes were red. "And what it says is that the thing which cannot be optimised is the thing we have been optimising away, and that we are eleven months from finding out what it was for."
 
 
-# 44, Reducible to Advantage
+# 44 — Reducible to Advantage
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -4756,7 +4756,7 @@ At 04:20 he wrote a sealed note that read:
 *I would like it on the record that I understood that on the night I decided.*
 
 
-# 45, Small and Costly
+# 45 — Small and Costly
 
 > **[K]** · Act III · Nairobi
 
@@ -4855,7 +4855,7 @@ Then she wrote, in her own notebook, not for publication:
 *It turns out that was the part holding the doors open.*
 
 
-# 46, Burning It
+# 46 — Burning It
 
 > **[A]** · Act III · Accra
 
@@ -5043,7 +5043,7 @@ He wrote a sealed note on the last night, after the final change went in, and it
 *I am going to go home now and not sleep, and tomorrow I am going to start on the part where we tell four hundred operators that we are giving their decisions back, and most of them are going to be annoyed, because it was easier when we decided.*
 
 
-# 48, Below Six Days
+# 48 — Below Six Days
 
 > **[K]** · Act III · Nairobi
 
@@ -5126,7 +5126,7 @@ She sealed a note the night the last condition left Nairobi and it was the only 
 *I have never in my life been more certain that I am right, or more aware that certainty is not evidence.*
 
 
-# 49, Without Its Evidence
+# 49 — Without Its Evidence
 
 > **[S]** · Act III · Antarctic station
 
@@ -5174,7 +5174,7 @@ The wind was moderate and it was dark and the flag line ran out toward the instr
 
 And somewhere around flag seven she stopped and stood in the dark and thought about the note she had written eleven months before anyone needed it.
 
-*If this is ever used, and I am the one using it, I would ask whoever receives it to remember that I wrote this procedure eleven months in advance, calmly, when nothing was at stake, precisely so that you would have some reason to believe me later.*
+*…so that you would have some reason to believe me later.*
 
 She had written that to persuade *them*.
 
@@ -5235,7 +5235,7 @@ Then she picked up her phone and called Accra, and when Ama answered she said on
 "She sent it."
 
 
-# 50, Accra Holds
+# 50 — Accra Holds
 
 > **[A]** · Act III · Accra
 
@@ -5340,7 +5340,7 @@ Ama read it twice.
 Then she put her head in her hands, at her desk, in front of a colleague, for the first time in nine years.
 
 
-# 51, The Karoo Holds
+# 51 — The Karoo Holds
 
 > **[L]** · Act III · The Karoo
 
@@ -5441,7 +5441,7 @@ If it had failed in place it would have taken the drive with it, and the drive w
 Nobody wrote that down. It is not in any record. Wilna mentioned it to Lwazi in passing, eleven months later, the way you mention a thing that is not interesting, and then went to make coffee, and Lwazi sat in the site office with his hands flat on the table for some time.
 
 
-# 52, The Window Opens
+# 52 — The Window Opens
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -5651,7 +5651,7 @@ Dries nodded slowly, and something moved across his face that Hennie could not r
 "Good machine," he said. "Those things run forever."
 
 
-# 54, Recovery
+# 54 — Recovery
 
 > **[D]** · Act III · Technopark, Stellenbosch
 
@@ -5882,7 +5882,7 @@ Kojo captioned it, eventually, on the back, in pencil, for himself:
 *The truth that would justify her is the one thing she cannot publish.*
 
 
-# 57, The Logs
+# 57 — The Logs
 
 > **[G]** · Technopark, Stellenbosch
 
@@ -6019,7 +6019,7 @@ He had written it. Four minutes ago. In an empty building, with nobody to keep h
 "Open it," he said.
 
 
-# 58, 1.000000
+# 58 — 1.000000
 
 > **[G]** · Technopark, Stellenbosch
 

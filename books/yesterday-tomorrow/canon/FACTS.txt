@@ -1,0 +1,18 @@
+# Facts that must be constant across the book. label = regex
+# Used by tools/continuity_local.py. Add a line whenever a number starts appearing twice.
+#
+# Keep each regex NARROW. A loose pattern reports every confidence value in the book as
+# a conflict, which is noise, and noise trains you to ignore the tool.
+cold-open horizon   = six hours and \w+ minutes
+cold-open timestamp = 02:1\d
+ice-break time      = 08:2\d:\d\d
+ice-shelf distance  = two hundred and \w+ kilometres
+Sanna uplink window = \w+-minute degraded window
+coordinated window  = \w+-day window
+midpoint corridor   = 0\.968
+final probability   = 1\.0{6}
+encrypted file size = (?:one )?hundred and forty bytes
+Sanna ship interval = \w+ months from the (?:next|nearest) ship
+
+# INTENTIONAL near-duplicate, do not 'fix': Dries's sealed note is written in ch-17
+# and unsealed and re-read verbatim in ch-29. The repetition is the scene.
