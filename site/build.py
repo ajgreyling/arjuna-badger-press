@@ -1015,7 +1015,7 @@ CURATED = [
      "After his death, the man assembled from everyone who knew him — and everyone who only thought they did. The travellers, the titans, the profilers, and the loudest microphones in the world, each reading a different Jakobus Swart, each finding out, sooner or later, that they read him wrong."),
     ("apex-alphas", "Apex Alphas", "The Synthesis · Book One", "The Synthesis",
      "history-before-time/books/apex-alphas", "build/export",
-     "A machine that reaches across time lifts the greatest masters who ever lived — fighters first, then the minds: Newton at twenty-three, Einstein at twenty-six, Caesar in his third bad year in Gaul, and two men who never wrote a word down — into one house, to face a thing no weapon touches. It does not attack. It asks. A fictional tribute to earned mastery, complete in sixteen chapters."),
+     "A machine that reaches across time lifts the greatest masters who ever lived — fighters first, then the minds: Newton at twenty-three, Einstein at twenty-six, Caesar in his third bad year in Gaul, and two men who never wrote a word down — into one house, to face a thing no weapon touches. It does not attack. It asks. Complete in two parts: the house, and the porch where nineteen philosophers spend eleven months failing to answer it. A fictional tribute to earned mastery."),
 
     ("crop-circles", "The Field of Doors", "Not a Potato", "Not a Potato",
      "history-before-time/books/crop-circles", "build/export",
