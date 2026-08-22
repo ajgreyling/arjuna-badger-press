@@ -1,6 +1,6 @@
 # INTERFACE ONE
 
-Standalone science thriller / secret history. **Seed — no draft exists.**
+Standalone science thriller / secret history. **First draft complete — 40 chapters, ~40,600 words.**
 
 > Ted Owens told the truth. The world failed to understand how much of it was true.
 
@@ -9,8 +9,13 @@ already broken the one rule it contains.
 
 ## Status
 
-**SEED.** Canon only. No manuscript, no cover, no exports. **Not listed in `site/build.py`'s
-`PUBLISHED` or `CURATED`** — nothing ships from this folder until it is.
+**FIRST DRAFT.** 40 chapters, ~40,600 words, complete on 2026-08-21. 26 present-strand chapters
+(2036–37, past tense, documents only) and 14 erased-strand (1955–87, present tense, full
+interiority) per O-38.
+
+No developmental pass. No de-LLM pass, no deduplication, no NovelBench telemetry, no cover, no
+exports, no ISBN. **Not listed in `site/build.py`'s `PUBLISHED` or `CURATED`** — nothing ships from
+this folder until it is.
 
 Written 2026-08-21 from the author's gospel pass. The defining instruction was *no hedging, no fraud
 hypothesis, no "maybe coincidence"* — every extraordinary Owens claim is canon-true inside the novel
@@ -31,6 +36,13 @@ canon/
   ANTI_TROPES.md           binding · not a debunking, not disclosure, not Lucid-as-character
   SOURCES.md               references · fact-check gate · legal
   OPEN_DECISIONS.md        the two author calls — CLOSED 2026-08-21 — plus what is still craft
+  PLOT.md                  20 sequences + the 14-chapter erased strand
+  STYLE.md                 the two registers and the three clauses of the wall
+  REVEALS.md               19-rung ladder · the three pull quotes
+  CHAPTER_MAP.md           the draft as built, chapter by chapter
+build/
+  chapters/ch-01..40.md    the draft
+  BOOK.md                  merged manuscript
 ```
 
 ## Read this first

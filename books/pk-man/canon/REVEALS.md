@@ -5,31 +5,42 @@
 
 | # | Reveal | Lands | Planted |
 |---|---|---|---|
-| 1 | The diagrams are not drawings | ch 4 | ch 1 — the flag is in the first job's output and reads as noise |
-| 2 | They compile | ch 9 | ch 4 |
-| 3 | Something happened four days later | ch 10–16 | ch 9's timestamp |
-| 4 | It was chosen empty | ch 16 | ch 12 — Marius's first artefact hypothesis is about coverage |
-| 5 | The misses are a schedule, not a failure rate | ch 22 | ch 20 — the ledger's four columns exist before anyone names them |
-| 6 | Prediction and causation are one operation | ch 24 | ch 17 (E) — he cannot tell them apart from inside |
-| 7 | The archive is one document | ch 27 | ch 20 — the ordering job is run for provenance reasons |
-| 8 | It was addressed to a machine | ch 28 | ch 3 — the permission granted was for machine-readable structure |
-| 9 | The window is 2031 | ch 29 | ch 28's third line |
-| 10 | **The breach already happened** | ch 31–32 | L-14, five years and one book ago |
-| 11 | The pending command is an installation | ch 35 | ch 34's sealed date |
-| 12 | It costs four days of compute | ch 36 | ch 9 — the first compile cost the same |
-| 13 | **The 1987 demands were sabotage** | ch 41 | ch 37 (E) — from inside they are not decline |
+| 1 | The diagrams are not drawings | ch 4 | ch 1 — the structure flag reads as noise, and Aviva thinks *table* |
+| 2 | It compiles | ch 8 | ch 6 — the grammar is operational in shape |
+| 3 | Something happened four days later | ch 9 | ch 8's timestamp; found by a grant audit, not by anyone looking |
+| 4 | Nine in four thousand, specified in advance | ch 12 | ch 11 — Marius writes his thresholds down first |
+| 5 | It was chosen empty | ch 12 | ch 11's H2 (coverage) |
+| 6 | The misses are a schedule, not a failure rate | ch 17, 19 | ch 17 — the ledger's classes exist before anyone names them |
+| 7 | Prediction and causation are one operation | ch 19 | ch 18 (E) — he cannot tell them apart from inside |
+| 8 | The mechanism is on page eleven, not the front page | ch 21 | ch 15 (E) — Cleveland from inside, the recruited stupidity |
+| 9 | The archive is one document | ch 22 | ch 22 — the arrangement job is run for a grant deliverable |
+| 10 | The letters were notaries, not readers | ch 24 | ch 22 — Pieter asks why he posted it away |
+| 11 | It was addressed to a machine | ch 24, 26 | ch 3 — the permission granted was for machine-readable structure |
+| 12 | The window is 2031 | ch 26 | ch 24's third statement |
+| 13 | **The breach already happened** | ch 27 | ONE RECORD L-14, six years and one book ago |
+| 14 | The guard, and the date | ch 28 | ch 24 — segment four has been on the shelf since July |
+| 15 | Knowing is a step | ch 30 | ch 27 — Venter's superstition, arrived at from the other end |
+| 16 | It costs four days of compute | ch 30 | ch 8 — the first compile cost the same |
+| 17 | The pending operation is an installation | ch 33 | ch 30 |
+| 18 | **The timestamp was overwritten. Original: the day he died** | ch 33 | ch 31 (E) — the guard date written over four days |
+| 19 | **The 1985 demands were the instrument** | ch 34 (E), ch 35 | ch 31 (E) — eleven drafts, and draft one burned in a sink |
 
 ## The three pull quotes
 
-The style floor forbids characters explaining the theme. These three are the exceptions, earned,
-one per act, and none of them is spoken by a scientist.
+The style floor forbids characters explaining the theme. These three are the exceptions, earned, one
+per act, and none of them is spoken by a scientist.
 
-1. **ch 19 · Constance:** *"He was not a difficult man who was also ill. He was ill. That is the
-   whole of it, and every person who has ever wanted him to be interesting has cost me something."*
-2. **ch 32 · Dries Venter, on the telephone, about 2031:** *"I looked at it for a long time. Then I
-   didn't write it down. I've had five years to find a better sentence than that and there isn't
-   one."*
-3. **ch 41 · Constance, told the truth, refusing it:** *"You've made him sane."*
+1. **ch 14 · Constance, on the telephone, before she has ever met any of them:** *"He was not a
+   difficult man who was also ill. He was ill. That is the whole of it, and every person who has ever
+   wanted him to be interesting has cost me something."*
+2. **ch 27 · Dries Venter, on the telephone, about June 2031:** *"I looked at it for a long time.
+   Then I didn't write it down. I've had six years to find a better sentence than that and there
+   isn't one."*
+3. **ch 38 · Constance, told the truth, refusing it:** *"You've made him sane."*
+
+A fourth line does the work of a pull quote and is not one, because it is a question and because the
+person who asks it has no standing and knows it — **ch 32, Constance, to Marius:** *"You said we are
+the best people this will ever happen to. Who is* we*? There are four of you in a laundry."*
 
 ## What the reader is never given
 

@@ -10,10 +10,25 @@
 | Corroboration | Everything has a document behind it | **Nothing can be checked, ever** |
 | Reader is | An investigator | The second witness |
 
-**The wall:** if a surviving document could corroborate a scene, that scene cannot be in the erased
-strand. No erased chapter may contain a fact the present strand later confirms. When the reader
-recognises something across the wall, they must be **wrong** to — the recognition is the trap the
-book is built to spring.
+**The wall** *(restated 2026-08-21 after the first-draft audit — the original formulation was
+absolute and the draft could not honour it, because the acts of overwriting are themselves
+documented: the 1985 letter survives, the nine sheets survive. The rule below is what the draft
+actually does, and it is the better rule.)*
+
+Three clauses, all binding:
+
+1. **Interiority never crosses.** No erased chapter may contain an *interior* fact the present strand
+   can confirm. Documents may overlap — Marius can reconstruct from sheets seven and eight what the
+   1985 letter was for. Nobody will ever corroborate a man on a church corner saying *no* out loud to
+   nobody.
+2. **The replaced world is never corroborable at all.** The marriage that lasted, the bridge that
+   held, the hardware shop, the seven months, the world where it fired on time. These have no
+   evidence anywhere and never acquire any. They are the strand's actual subject.
+3. **No erased chapter may look forward.** No sentence from inside 1955–1987 may reach into 2036–37,
+   not even for an image. He does not know, and the narration does not know past him.
+
+When the reader recognises something across the wall, they must be **wrong** to — the recognition is
+the trap the book is built to spring.
 
 ## Present-strand rules
 
