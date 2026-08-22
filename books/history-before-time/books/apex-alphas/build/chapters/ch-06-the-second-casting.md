@@ -120,6 +120,40 @@ He stood in front of the dark with the attention in it for eleven minutes, and d
 
 He was going to be an absolute pleasure, Jakobus thought. He put his shades down and went to warn the house.
 
+At the door the woman stopped him.
+
+"One more thing and then you can go. He gets a name."
+
+"He has a name."
+
+"He has the name eight billion people are going to arrange themselves around before he opens his
+mouth, and I am not having it in my house." The scrubbed voice did not move. "You've had four months of
+it and you never once asked why the Fool is the Fool and why nobody in that lounge has ever said
+*Norris* out loud. It's the same reason you're *Colonel* and not a service number. A name is the handle
+the legend gets carried by. Say the famous one in a room and you haven't introduced a man — you've
+introduced everything that was ever said about him."
+
+"So what is he."
+
+"*Isaac.*"
+
+Jakobus turned that over. It was so ordinary it was almost rude.
+
+"And the house will do the rest," she said. "They always do. I've stopped trying to predict it — I
+had four psychologists in Geneva model the nickname allocation for eleven weeks and they got two out of
+twenty-nine, and one of those was luck." Something that in another voice would have been affection.
+"Whatever they land on, that's the man's actual name from now on, and the world will learn it, and in
+about a year there'll be children who know a dead emperor as *Filters* and have no idea he ran the
+world. That's not a side effect, Colonel. That's the whole instrument."
+
+He thought about it all the way down the corridor.
+
+Nine days later the boy from Lincolnshire was *Sapor* — from the fourth column of his coffee ledger,
+the one nobody could get him to translate — and had been called it to his face two hundred times, and
+had never once corrected anybody, and Jakobus, who watched everything, was fairly sure he had worked
+out what it meant to be given a name by people who liked you, and had decided, in his own locked and
+curtained way, to let it happen.
+
 ---
 
 It ran a day at a time after that, the way the banks allowed, and the house learned the rhythm of it the way a family learns a new baby: the whole building tilting once every twenty-four hours toward a white room none of them could enter.

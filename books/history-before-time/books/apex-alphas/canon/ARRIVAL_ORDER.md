@@ -4,6 +4,11 @@
 and the age at which the reach took them. The machine finds a person at the **end** — that is the only
 fixed address on a life — and then lifts them at their **most**, which is almost never the same year.*
 
+> **Nobody in that house is called by the name the world knows.** The Machine assigns a new one on
+> arrival — a real name the world never used, a second name, or a house nickname earned in the first
+> fortnight. The famous names are printed below because this is the key. They are not used in the
+> rooms. The house names, and why, are in `THE_NAMING.md`.
+
 ---
 
 ## The first casting — the muscle
@@ -74,3 +79,26 @@ and unedited and has no frame missing.
 The Machine was asked, by three separate people, whether it reached him.
 
 *"The reach is logged as complete,"* said Clause, and would not say anything else, then or ever.
+
+
+---
+
+## What they are actually called
+
+*The short version of `THE_NAMING.md`, for a reader who has met somebody in a corridor and cannot
+place him.*
+
+**Muscle** — Colonel (Jakobus) · Dragon (Bruce) · the Fool (Jackie) · Ray (Carlos) · the Eagle
+(Khabib) · Goggins · Con (McGregor) · El Guapo (Bas) · Feet (Flatley) · **Tiny** (Jonah Lomu) ·
+Sensei (Musashi) · the Horseman · Spider (Arin) · the Wardrobe (the prop) · Water (the capoeirista).
+
+**Minds** — **Sapor** (Newton) · **the Clerk** (Einstein) · **the Ump** (Bohr) · **Threes** (Tesla) ·
+**the Doctor** (Sagan) · **G** · **Prof** (Aristotle) · **Kong** (Confucius) · **All-In** (Alexander) ·
+**the Nose** (Caesar) · **Filters** (Marcus Aurelius) · Ingo · the Commissioner (Price) · **Zero-One**
+(McMoneagle) · the Sleeper (Cayce) · **Sid** (Gautama) · **Josh** (Yeshua).
+
+**The Porch** — Broad (Plato) · the Furnace (Descartes) · the Grinder (Spinoza) · the Bundle (Hume) ·
+the Clock (Kant) · the Owl (Hegel) · Mohr (Marx) · Fritz (Nietzsche) · the Bracket (Husserl) ·
+**Martin** (Heidegger — the house never gave him one) · the Cramp (Wittgenstein) · **Mo**
+(Merleau-Ponty) · the Chair (Gadamer) · JP (Sartre) · **Keeper** (Camus) · **Sawubona** (Levinas) ·
+Canterbury (Anselm) · **the Ox** (Aquinas).
