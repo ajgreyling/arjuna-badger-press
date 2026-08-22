@@ -338,7 +338,7 @@ Jocko said, from the wall, in a voice with nothing in it: "So you can turn us of
 
 Later, when the lounge had emptied and the fake sky had gone to its night setting, Jakobus found him at the kitchen counter, at the far end of it, on the stool Jakobus had chosen on his own first day — both doors, the corners, the whole room without turning.
 
-He took the stool two down. Neither of them said anything for a while.
+He took the stool two down. Neither of them filled the silence.
 
 "You knew where to sit," Jakobus said.
 

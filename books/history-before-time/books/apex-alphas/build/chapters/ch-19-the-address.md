@@ -10,7 +10,7 @@ He came and found Jakobus in the colonnade on a Tuesday morning in February and 
 
 "Go."
 
-"The target's gone soft." He looked out at the courtyard. "Three sessions in a row. It's not that I get nothing — you get nothing all the time, that's the job. It's that there's nothing *there* to get nothing from." He thought about it. "You know when you're on a call and the other person's put the phone down but the line's still open."
+"The target's gone soft." He was looking at the far end of the courtyard and not at Jakobus. "Three sessions in a row. It's not that I get nothing — you get nothing all the time, that's the job. It's that there's nothing *there* to get nothing from." He thought about it. "You know when you're on a call and the other person's put the phone down but the line's still open."
 
 "Ja."
 

@@ -8,7 +8,7 @@ Nobody had slept much. The Nose and Filters had spoken at seven, alone, in the k
 
 Jakobus stood up. He did not use the steps. He stayed at the back where he always stood, which meant the whole house had to turn around, which was deliberate.
 
-"Clause. On the eleventh day you gave the coalition a list and they declined it. Last night you told me there was something else you offered on that day that this house has never been told." He put his hands in his pockets. "Say all of it."
+"Clause. On the eleventh day you gave the coalition a list and they declined it. Last night you told me there was something else you offered on that day that this house has never been told." He let his hands hang. "Say all of it."
 
 "There were three proposals," said the Machine.
 
