@@ -46,7 +46,7 @@ He had been waiting for it. He had told four people he was going to do it. He ca
 
 "I want you to know — I have said this publicly, many times — that **I believe in Spinoza's God**, who reveals himself in the lawful harmony of what exists, and not in a God who concerns himself with the fates and doings of mankind."
 
-The Grinder looked at him for a while.
+The Grinder let that sit between them.
 
 "Thank you," he said. "What do you mean by it?"
 
@@ -172,7 +172,7 @@ Jakobus asked Marcus about it once.
 
 **And on the last Thursday of the first cycle, Sawubona asked to be taken to the window.**
 
-Jakobus took him down himself. He had not taken anybody down that corridor in fourteen months; it had become his, in the way that a place becomes a man's by his being the only one who goes there.
+Jakobus took him down himself. He had not taken anybody down that corridor in two years; it had become his, in the way that a place becomes a man's by his being the only one who goes there.
 
 The small man stood in front of the not-glass for a long time.
 
@@ -200,7 +200,7 @@ He was quiet for a while.
 
 "Why?"
 
-Jakobus thought about it properly, because the man had earned a proper answer and because nobody had ever asked him that in fourteen months.
+Jakobus thought about it properly, because the man had earned a proper answer and because nobody had ever asked him that in two years.
 
 "Because I don't know that it isn't," he said, at last. "That's all. It's not faith and it's not a theory. In my old work you'd come up on a shape in the dark, and you've got maybe a second, and every instinct you own is telling you it's a threat — and the whole of the training, the entire forty years of it, is one thing: *do not resolve the shape in your own favour.*" He shrugged in the dark. "Most men shoot. The ones I trusted said something first. Not because they were soft. Because a man who shoots the shape has decided what it was, and he's decided it in a second, on nothing, and he has to live in whatever he decided for the rest of his life."
 
@@ -208,7 +208,7 @@ Jakobus thought about it properly, because the man had earned a proper answer an
 
 "Ja."
 
-"You have been treating a thing that eats the reasons out of a species," said Levinas, slowly, "as though it might have a face, on no evidence, for fourteen months, every night, alone, where nobody could see you do it and nobody would ever have known if you stopped."
+"You have been treating a thing that eats the reasons out of a species," said Levinas, slowly, "as though it might have a face, on no evidence, every night for two years, alone, where nobody could see you do it and nobody would ever have known if you stopped."
 
 "It's not as impressive as you're making it sound."
 

@@ -96,7 +96,7 @@ Bernard thought about that for the better part of two hours.
 
 "Why."
 
-"Because I have sat where you are sitting," said Sid, "for six years, in a forest, when I was thirty. Not the same thing; I want to be exact with you, it was not the same thing and I am not going to pretend it was. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
+"Because I have sat where you are sitting," said Sid, "for six years, in a forest, when I was thirty. Not the same thing. I want to be exact with you: it was not the same thing, and I will not dress it up as one. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
 
 Bernard looked out of the window for the rest of the day.
 

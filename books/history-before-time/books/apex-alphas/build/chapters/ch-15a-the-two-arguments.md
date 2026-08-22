@@ -50,7 +50,7 @@ He let it sit.
 
 He stopped.
 
-"I want to say the second half, because if I stop there I have been clever at a good man and gone to bed." He was uncomfortable and did it anyway. "Nothing I have said this evening shows that there is no God. I want that in the record and I would like the feed to keep it in. I have merely shown that you cannot get to Him down *this* road — that the road is closed, and I closed it, and I did not enjoy closing it, and I spent the rest of my life on the other one." A pause. "The starry heavens above me, and the moral law within me. I could not prove Him from a definition. I have never once been able to get around the fact that I know, without being told, that I must not use you."
+"I want to say the second half, because if I stop there I have been clever at a good man and gone to bed." He was uncomfortable and did it anyway. "Nothing I have said this evening shows that there is no God. I should like that written down, and the feed may keep it in. I have merely shown that you cannot get to Him down *this* road — that the road is closed, and I closed it, and I did not enjoy closing it, and I spent the rest of my life on the other one." A pause. "The starry heavens above me, and the moral law within me. I could not prove Him from a definition. I have never once been able to get around the fact that I know, without being told, that I must not use you."
 
 And then the thing happened that nobody had prepared for, which was that **the Ox stood up.**
 
