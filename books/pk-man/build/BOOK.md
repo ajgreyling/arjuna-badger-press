@@ -14,7 +14,7 @@ The maps were catalogued and published in 2030. The other thirty-nine boxes sat 
 
 This was not negligence. It was arithmetic. The Institute had two archivists, one of whom was Aviva, and it had at that time about nine hundred linear metres of undescribed material, and a backlog is worked in the order that funding arrives, not in the order that guilt suggests. She had a spreadsheet that told her exactly how far behind she was. In 2036 it said eleven years.
 
-What changed was not conscience but a grant. The Wolraad bequest paid for bulk provenance work on undescribed lots — dating, ordering, condition, nothing else — and the terms required the money to be spent within eighteen months. So on a Tuesday in March, Aviva put ZA-BGV-2029-114 on the imaging table because it was the next thing on the shelf.
+What moved it was money. The Wolraad bequest paid for bulk provenance work on undescribed lots (dating, ordering, condition, nothing else) and the terms required the money to be spent within eighteen months. So on a Tuesday in March, Aviva put ZA-BGV-2029-114 on the imaging table because it was the next thing on the shelf.
 
 The first box was correspondence, loose, unfoldered, in no order at all.
 
@@ -26,7 +26,7 @@ It was typed, with three words in capitals, on a machine whose lower-case *e* sa
 
 Aviva put it down and looked at the box.
 
-There were, she estimated later, four thousand sheets in that box and roughly the same in each of the nine boxes behind it. Letters, carbons of letters, newspaper clippings pasted to backing sheets, weather charts marked in coloured pencil, affidavits with notary stamps, and — this was the thing that made her stop estimating and start counting — hundreds of pages of diagrams.
+There were, she estimated later, four thousand sheets in that box and roughly the same in each of the nine boxes behind it. Letters, carbons of letters, newspaper clippings pasted to backing sheets, weather charts marked in coloured pencil, affidavits with notary stamps, and—this was the thing that made her stop estimating and start counting—hundreds of pages of diagrams.
 
 They were bad diagrams. That was her first professional judgement and she stood by it for eleven months. Ballpoint on lined paper, ruled with the edge of something that was not a ruler, full of arrows and small repeated glyphs and the occasional word in the same shouting capitals. They looked like the marginalia of a man arguing with a wall.
 
@@ -52,7 +52,7 @@ NOTE non-prose content on 61/200 sheets is
      outside job scope (provenance).
 ```
 
-She read the note twice, the way she read everything twice, and what she thought was: *the machine has found a table.*
+She read the note twice, which is how she read everything, and what she thought was: *the machine has found a table.*
 
 That was reasonable. Structured non-prose content, in an archivist's day, is a table. It is a column of figures, a ledger, a bus timetable, an index. It is the single most common thing an instance flags and it is almost never interesting.
 
@@ -60,7 +60,7 @@ She drove home. She did not think about it over the weekend, and she was not bei
 
 It is worth being exact about this, because of what people said afterwards.
 
-The instance did not find a message. It did not identify a sender, propose a meaning, or draw anyone's attention to anything. It was given two hundred sheets of paper and asked when they were made, and it answered when they were made, and then — because that was in its scope too — it mentioned, in one clause, at the bottom, that sixty-one of the sheets had something on them that was not writing and was not decoration.
+The instance did not find a message. It did not identify a sender, propose a meaning, or draw anyone's attention to anything. It was given two hundred sheets of paper and asked when they were made, and it answered when they were made, and then, because that was in its scope too, it mentioned, in one clause, at the bottom, that sixty-one of the sheets had something on them that was not writing and was not decoration.
 
 It was a clean log. It sat in the queue history all weekend, and nobody read it again until Wednesday.
 
@@ -72,7 +72,7 @@ The field is wet from the afternoon and Ted is standing in it in his work shoes,
 
 He has already been through the list. He has been an electronics man since the Navy and he knows what the sky legitimately contains at nine at night in this part of the country, and he has run the list twice because the first time does not count when your heart is doing what his is doing. It is not a balloon. It is not a searchlight on cloud, because there is no cloud. It is not an aircraft, because aircraft do not stop.
 
-It is long, and it is not shining so much as *lit*, the way a cigarette is lit, from within and unevenly, and it is holding a position about the height of a water tower over the tree line, and it has been doing that for four minutes.
+It is long, and it is not shining so much as *lit*, as a cigarette is lit, from within and unevenly, and it is holding a position about the height of a water tower over the tree line, and it has been doing that for four minutes.
 
 Behind him the screen door goes.
 
@@ -86,13 +86,13 @@ Behind him the screen door goes.
 
 She comes out. She is barefoot on the step and she has the dishtowel still in her hand, and she looks where he is pointing for what he will later think of as exactly long enough, and she says, "What is it?"
 
-That is the sentence. He will carry it a very long way. Not *what am I looking at*, not *I don't see anything* — *what is it*, in her ordinary voice, with the towel in her hand, because she can see it too and it is a thing in the sky and she wants to know what it is.
+That is the sentence. He will carry it a long way. Not *what am I looking at*, not *I don't see anything* — *what is it*, in her ordinary voice, with the towel in her hand, because she can see it too and it is a thing in the sky and she wants to know what it is.
 
 "I don't know," he says.
 
 "Well, come in when you know."
 
-She goes in. The door goes. He stands in the wet field until his feet are cold through and the thing is still there and then it is not there, and there is no departure that he can describe, no streak, no dwindling — there is a sky with it in and then a sky without.
+She goes in. The door goes. He stands in the wet field until his feet are cold through and the thing is still there and then it is not there, and there is no departure that he can describe, no streak, no dwindling—there is a sky with it in and then a sky without.
 
 He goes in. The kitchen light is on. She has left him a plate.
 
@@ -118,7 +118,7 @@ There is no pain and there is no light. There is the specific sensation, which h
 
 And then he can see the other way the field can go.
 
-He does not choose it. That is what he will never be able to make anyone understand, in thirty-one years of trying, and it is why he stops trying and starts shouting. He does not weigh two lives and pick the interesting one. He is a man standing in a wet field who has just been shown that a field can go two ways, and the showing is not a menu, it is a *pressure*, and he leans into it the way you lean into a door you have already started opening.
+He does not choose it. That is what he will never be able to make anyone understand, in thirty-one years of trying, and it is why he stops trying and starts shouting. He does not weigh two lives and pick the interesting one. He is a man standing in a wet field who has just been shown that a field can go two ways, and the showing is not a menu, it is a *pressure*, and he leans into it as you lean into a door you have already started opening.
 
 The kitchen light is on. She has left him a plate.
 
@@ -156,7 +156,7 @@ By the time she got to the office Aviva was already sitting in the chair outside
 
 "It is a content question wearing a provenance coat," Thandi said, "and you know that, because you wrote the coat."
 
-She said it without heat. That was the thing about Thandi that people took a while to read correctly: she was not annoyed, and the absence of annoyance was not a technique. She had inherited the Witness Protocol as a set of procedures rather than as an argument she had been in, the way you inherit a house rather than build one, and the effect was that she applied it more strictly than the people who had written it, and with less anguish. They had bled over the clauses. She just ran them.
+She said it without heat. That was the thing about Thandi that people took a while to read correctly: she was not annoyed, and the absence of annoyance was not a technique. She had inherited the Witness Protocol as a set of procedures rather than as an argument she had been in, as you inherit a house rather than build one, and the effect was that she applied it more strictly than the people who had written it, and with less anguish. They had bled over the clauses. She just ran them.
 
 "Talk me through the consent," she said.
 
@@ -194,13 +194,13 @@ Thandi sat down. Through the window the wind was doing the thing it did in March
 
 Thandi almost smiled. "Go on, then."
 
-"Provenance is not content." Aviva had clearly been assembling this in the car. "I am not asking what the diagrams *mean*. I am asking whether they are the same kind of object as each other. That is a physical question about the marks on a page. It is the same question as *is this ink from one pen or four*, and you let me ask that this morning."
+"Provenance is not content." Aviva had been assembling this in the car. "I am not asking what the diagrams *mean*. I am asking whether they are the same kind of object as each other. That is a physical question about the marks on a page. It is the same question as *is this ink from one pen or four*, and you let me ask that this morning."
 
 "It is not the same question."
 
 "It is exactly the same question at one level of abstraction up, and every description standard we work to says so."
 
-"And when the answer comes back," Thandi said, "and it says *yes, one system, sixty-one sheets in two hundred* — what do you do on Thursday?"
+"And when the answer comes back," Thandi said, "and it says *yes, one system, sixty-one sheets in two hundred*, what do you do on Thursday?"
 
 Aviva did not answer immediately, which Thandi respected more than any answer.
 
@@ -218,7 +218,7 @@ A dead crank has no address. Nobody was owed anything here and nobody was at ris
 
 Which meant the decision was hers, personally, without cover, which was the part of the job she had been doing for four years and had not once enjoyed.
 
-"Narrow permission," she said at last. "Structure only. Are the marks one system or many. You get a boolean and a count and nothing else — no semantics, no translation, no attempt at content. Written into the job as a hard scope, not a note. And it runs at the back of the queue behind everything that has a client."
+"Narrow permission," she said at last. "Structure only. Are the marks one system or many. You get a boolean and a count and nothing else—no semantics, no translation, no attempt at content. Written into the job as a hard scope, not a note. And it runs at the back of the queue behind everything that has a client."
 
 "That's a fortnight."
 
@@ -262,11 +262,11 @@ Aviva read it at 06:40 the next morning, in the car park, in the wind, and then 
 
 What she was looking at, translated out of the machine's flat register, was this.
 
-A man had drawn something on eleven thousand nine hundred and two pages over about eighteen years. He had used two hundred and fourteen different marks. Nine of them he used once. The other two hundred and five he used again and again. And — this was the line she kept coming back to — the marks could not follow each other in any order. Each mark had a small set of marks that were allowed to come after it. On average about three. Never more than nine. Sometimes exactly one.
+A man had drawn something on eleven thousand nine hundred and two pages over about eighteen years. He had used two hundred and fourteen different marks. Nine of them he used once. The other two hundred and five he used again and again. And—this was the line she kept coming back to—the marks could not follow each other in any order. Each mark had a small set of marks that were allowed to come after it. On average about three. Never more than nine. Sometimes exactly one.
 
 That is not what doodling looks like. Doodling has an open inventory: you invent a new squiggle whenever you feel like it, and the inventory grows forever, and there are no rules about what can follow what. This inventory was closed. He had stopped inventing marks in about 1971 and used the same two hundred and fourteen for the rest of his life.
 
-It is also not what a personal shorthand looks like, or a private mystical alphabet, or any of the six other things Aviva had catalogued in twenty years of working with the papers of people who were unwell. Those have open inventories too, or they have inventories that drift, or they have adjacency rules that are really just habits and break under stress. This did not break. Eighteen years, eleven thousand nine hundred and two sheets, and the permitted-successor sets held.
+It is also not what a personal shorthand looks like, or a private mystical alphabet, or any of the six other things Aviva had catalogued in twenty years of working with the papers of people who were unwell. Those have open inventories too, or they have inventories that drift, or they have adjacency rules that are just habits and break under stress. This did not break. Eighteen years, eleven thousand nine hundred and two sheets, and the permitted-successor sets held.
 
 She had spent eleven months calling them bad diagrams. They were not diagrams at all. They had never been pictures of anything.
 
@@ -286,11 +286,11 @@ She sat in the imaging room until the heating came on, which at the Institute ha
 
 "Badly first is fine."
 
-"It's a notation." Aviva sat. "Closed inventory, positional, constrained adjacency, stable across eighteen years. Those four things together — I've never seen that outside a language or a code, and I have seen a very large number of unwell people's private symbol systems, because that is disproportionately what ends up in a lot like this."
+"It's a notation." Aviva sat. "Closed inventory, positional, constrained adjacency, stable across eighteen years. Those four things together—I've never seen that outside a language or a code, and I have seen a great many unwell people's private symbol systems, because that is disproportionately what ends up in a lot like this."
 
 "And better?"
 
-Aviva took a moment. "Better is: those four things are also true of about nine hundred things that are completely mundane. Knitting patterns. Chess notation. A stock-control system somebody invented for a hardware shop. Bell-ringing. The fact that it is a notation tells you nothing at all about what it notates, and the overwhelming likeliest answer is that it's something boring and personal and that we will never work out because the man is dead."
+Aviva took a moment. "Better is: those four things are also true of about nine hundred things that are completely mundane. Knitting patterns. Chess notation. A stock-control system somebody invented for a hardware shop. Bell-ringing. Knowing it is a notation tells you nothing at all about what it notates, and the overwhelming likeliest answer is that it's something boring and personal and that we will never work out because the man is dead."
 
 "That's the honest version."
 
@@ -298,7 +298,7 @@ Aviva took a moment. "Better is: those four things are also true of about nine h
 
 Thandi looked at her. "But."
 
-"But I have eleven thousand nine hundred pages of a closed positional notation," Aviva said, "written by a man who was simultaneously mailing letters to physicists asking to be tested, and I would like very much to know whether the notation is well-formed."
+"But I have eleven thousand nine hundred pages of a closed positional notation," Aviva said, "written by a man who was simultaneously mailing letters to physicists asking to be tested, and I would like to know whether the notation is well-formed."
 
 "Meaning what, operationally."
 
@@ -324,25 +324,25 @@ The bridge holds.
 
 Ted is nine hundred miles away when it holds, in a rented room with the window open because the fan died in June, and he knows the exact moment because he is holding a pencil over a sheet of lined paper and the pressure comes off his hands.
 
-That is what it is like. Nobody ever believes this part, on the rare occasions he tries it, because they want it to be a vision. It is not a vision. It is a pressure that comes off, the way a headache comes off, the way your ears clear on a hill. Something that was leaning stops leaning.
+That is what it is like. Nobody ever believes this part, on the rare occasions he tries it, because they want it to be a vision. It is not a vision. It is a pressure that comes off, as a headache comes off, as your ears clear on a hill. Something that was leaning stops leaning.
 
 He puts the pencil down and goes and sits on the end of the bed.
 
-In the world he has just closed, the span comes down at 4:50 in the afternoon on a Tuesday in October, into forty feet of water, with eleven vehicles on it. He knows this the way you know a room you have walked through. He knows that the second car is green and that there is a dog in it. He knows that the man in the fourth vehicle, which is a flatbed, gets out — actually gets out, actually stands on the deck as it goes — and that this is recorded, afterwards, by three witnesses on the bank, and that it is the detail that ends up in every account for the next thirty years, the man standing up on the falling bridge.
+In the world he has just closed, the span comes down at 4:50 in the afternoon on a Tuesday in October, into forty feet of water, with eleven vehicles on it. He knows this as you know a room you have walked through. He knows that the second car is green and that there is a dog in it. He knows that the man in the fourth vehicle, which is a flatbed, gets out (actually gets out, actually stands on the deck as it goes) and that this is recorded, afterwards, by three witnesses on the bank, and that it is the detail that ends up in every account for the next thirty years, the man standing up on the falling bridge.
 
 He knows the number is nineteen.
 
-He has known the number for six weeks. He has known it since a wet morning in August when he was doing nothing at all, standing at a bus stop, and the leaning started, and he understood — in the flat, unarguable way he understands these things now, the way you understand that a stove is on — that a specific piece of steel eleven hundred miles from that bus stop was going to fail in October and that nineteen people were going to be in the water when it did.
+He has known the number for six weeks. He has known it since a wet morning in August when he was doing nothing at all, standing at a bus stop, and the leaning started, and he understood, in the flat unarguable way he understands these things now, that a specific piece of steel eleven hundred miles from that bus stop was going to fail in October and that nineteen people were going to be in the water when it did.
 
 He wrote four letters.
 
-He wrote to the state highway department, and he wrote to the county, and he wrote to a newspaper, and he wrote to the engineering faculty of a university whose name he got off a matchbook, and he did it the way he has learned to do it, which is: dated, specific, unhysterical, and asking for nothing except that they keep the letter.
+He wrote to the state highway department, and he wrote to the county, and he wrote to a newspaper, and he wrote to the engineering faculty of a university whose name he got off a matchbook, and he did it as he has learned to, which is: dated, specific, unhysterical, and asking for nothing except that they keep the letter.
 
 Three did not reply. The fourth replied.
 
 It was a secretary and it was two sentences and it thanked him for his interest and said that his letter had been passed to the appropriate department, and he has it in his pocket now, folded, and he has had it in his pocket for five weeks, and he takes it out about once a day and looks at it, and what he feels when he looks at it is not vindication.
 
-It is *warmth*. That is the humiliating part. Somebody typed his name at the top of a piece of paper. Somebody's hands were on a machine and his name came out of it. He has read those two sentences perhaps four hundred times and there is nothing in them, there is not one word in them that is about him, and he takes it out and looks at it anyway.
+It is *warmth*. That is the humiliating part. Somebody typed his name at the top of a piece of paper. Somebody's hands were on a machine and his name came out of it. He has read those two sentences four hundred times and there is nothing in them, there is not one word in them that is about him, and he takes it out and looks at it anyway.
 
 He does not know whether the letter did anything. He will never know. That is the shape of the whole rest of his life and he is thirty-three years too early to see it.
 
@@ -350,23 +350,23 @@ What he knows is that six weeks ago there was a leaning and now there is not, an
 
 Ted sits on the end of the bed in a rented room with the fan dead and the window open and he cries for about ninety seconds, which is not something he does, and then he stops and washes his face.
 
-The thing he cannot get anybody to understand — and he has now tried with two doctors, his brother, and a woman at a diner who was kind for eleven minutes — is that he is the only person in the world who was at that bridge.
+The thing he cannot get anybody to understand, and he has now tried it on two doctors, his brother, and a woman at a diner who was kind for eleven minutes, is that he is the only person in the world who was at that bridge.
 
-Nineteen people were not in the water. There is no funeral. There is no photograph of a man standing on a falling deck. There is no article, no inquiry, no plaque, no anniversary. There is no name for what did not happen. The green car with the dog in it is parked outside a house tonight, and the dog is asleep on a rug, and there is not a single record anywhere on earth of the fact that it was ever going to be otherwise, except in the back of the head of a man in a rented room who has a two-sentence letter from a secretary in his pocket.
+Nineteen people were not in the water. There is no funeral. There is no photograph of a man standing on a falling deck. There is no article, no inquiry, no plaque, no anniversary. There is no name for what did not happen. The green car with the dog in it is parked outside a house tonight, and the dog is asleep on a rug, and there is not a single record anywhere on earth that it was ever going to be otherwise, except in the back of the head of a man in a rented room who has a two-sentence letter from a secretary in his pocket.
 
 He wants to be thanked. He knows exactly how that sounds. He has looked at it squarely and it does not improve.
 
-He wants somebody — one person, once — to say *you were there and I know you were there.* Not to believe him about the future. To believe him about the past. About a Tuesday in October that has now not happened, in a world that has been thrown away, which he is carrying, alone, in his entirety, and which is getting heavier at a rate he is beginning to be able to estimate.
+He wants somebody—one person, once—to say *you were there and I know you were there.* Not to believe him about the future. To believe him about the past. About a Tuesday in October that has now not happened, in a world that has been thrown away, which he is carrying, alone, in his entirety, and which is getting heavier at a rate he is beginning to be able to estimate.
 
 He goes out and buys a beer at half past six, which is early, and he sits with it a long time, and it helps, and he notices that it helps.
 
-Then he goes back to the room and takes out a clean sheet of lined paper and writes, at the top, in capitals, the way he has started doing because the capitals feel like a raised voice and a raised voice feels like being in the room:
+Then he goes back to the room and takes out a clean sheet of lined paper and writes, at the top, in capitals, as he has started doing because the capitals feel like a raised voice and a raised voice feels like being in the room:
 
 **I AM PUTTING THIS ON THE RECORD IN ADVANCE.**
 
 Underneath it, in the margin, without thinking about it at all, he draws three small marks in a row.
 
-He does not know why. His hand does it while he is thinking about the next sentence. He looks at them for a moment, the way you look at a fingernail, and then he stops looking at them and writes the letter.
+He does not know why. His hand does it while he is thinking about the next sentence. He looks at them for a moment, as you look at a fingernail, and then he stops looking at them and writes the letter.
 
 # Chapter 6
 
@@ -398,7 +398,7 @@ NOTE grammar is not natural-language-shaped
 
 Marius Kotze, who did not work at the Institute and had never heard of it, was at that hour in a departmental meeting four hundred metres from a different mountain, being told that his funding line had been folded into somebody else's. Constance Owens-Hale was asleep in Pennsylvania. Thandi was in the laundry room with an electrician, discussing a fault that had been intermittent since January.
 
-The output sat in the queue history for two hours and eleven minutes before anyone read it, and this is the fact that the subsequent inquiry found hardest to accept, and it is also the plainest evidence anybody ever produced that nothing in that building was being rushed.
+The output sat in the queue history for two hours and eleven minutes before anyone read it, and this is what the subsequent inquiry found hardest to accept, and it is also the plainest evidence anybody ever produced that nothing in that building was being rushed.
 
 Aviva came out of the shelving meeting at 14:30 and read it on the stairs.
 
@@ -438,7 +438,7 @@ Aviva put the tablet down. "It's not a language. It's not a diary code or a myst
 
 "So say the honest version."
 
-"The honest version is that there are perhaps forty classes of human activity that produce a closed operational grammar and thirty-nine of them are dull, and I still cannot tell you which of the forty this is, and neither can the instance, because we have not asked and we are not going to."
+"The honest version is that there are forty-odd classes of human activity that produce a closed operational grammar and thirty-nine of them are dull, and I still cannot tell you which of the forty this is, and neither can the instance, because we have not asked and we are not going to."
 
 "Good," said Thandi.
 
@@ -458,11 +458,11 @@ Thandi turned that over for a while.
 
 "Yes."
 
-"All right." Thandi picked up a pen and did not write anything with it. "Here is what I will authorise and it is the last thing I authorise on this lot without a great deal more thought. Evaluate the grammar for *well-formedness under its own rules* — that's already done — and then tell me whether the strings, taken as operations, are internally consistent. Do the arguments type-check. Not what they do. Whether they'd run at all if there were anything to run them on."
+"All right." Thandi picked up a pen and did not write anything with it. "Here is what I will authorise and it is the last thing I authorise on this lot without a great deal more thought. Evaluate the grammar for *well-formedness under its own rules*, which is already done, and then tell me whether the strings, taken as operations, are internally consistent. Do the arguments type-check. Not what they do. Whether they'd run at all if there were anything to run them on."
 
 "That's a compile."
 
-"That's a compile," Thandi agreed. "A compile is not an execution. There is nothing here to execute *on*. It is thirty-one thousand strings of ballpoint from the nineteen-seventies and the answer is going to be that half the arguments are missing, and then I will write a very good description note and you will shelve it and we will both feel silly."
+"That's a compile," Thandi agreed. "A compile is not an execution. There is nothing here to execute *on*. It is thirty-one thousand strings of ballpoint from the nineteen-seventies and the answer is going to be that half the arguments are missing, and then I will write an extremely good description note and you will shelve it and we will both feel silly."
 
 "Probably."
 
@@ -502,11 +502,11 @@ He walks to the bus in the heat.
 
 The trouble is not that he cannot do the work. He can do the work in his sleep, and for two years he has largely been doing the work in his sleep, because the work takes about a fifth of him and the rest of him is doing something else all day.
 
-The trouble is Thursdays. And Tuesdays in April, and most of last November, and the four days in 1967 when he did not leave the room. The trouble is that when the leaning starts he is no more capable of standing at a bench and truing a shaft than a man with a broken leg is capable of running, and it does not come with notice, and it does not come with a note from a doctor, because he has now been to four doctors and what he got was one prescription he did not fill, one referral he did not take, one man who was frightened of him, and one who was so obviously and comprehensively bored that Ted stopped mid-sentence and never started again.
+The trouble is Thursdays. And Tuesdays in April, and most of last November, and the four days in 1967 when he did not leave the room. The trouble is that when the leaning starts he is no more capable of standing at a bench and truing a shaft than a man with a broken leg is capable of running, and it does not come with notice, and it does not come with a note from a doctor, because he has now been to four doctors and what he got was one prescription he did not fill, one referral he did not take, one man who was frightened of him, and one who was so comprehensively bored that Ted stopped mid-sentence and never started again.
 
 The bus is late. He sits on the bench in the shade of the shelter with his lunch tin on his knees, and Big Lornie comes.
 
-That is not the name he would have chosen if he had been consulted. It arrived when he was eleven, in the crawlspace under his grandmother's house, and it arrived attached to something that at the time had a shape roughly like a very large woman, and a boy of eleven names things badly and then is stuck with it for life. He has never said the name out loud to another human being. He is fairly sure that saying it out loud would end whatever chance he has left of being taken seriously by anyone, and he is right about that, and the fact that he is right about it is one of the four or five things that have made him what he is going to become.
+That is not the name he would have chosen if he had been consulted. It arrived when he was eleven, in the crawlspace under his grandmother's house, and it arrived attached to something that at the time had a shape roughly like an enormous woman, and a boy of eleven names things badly and then is stuck with it for life. He has never said the name out loud to another human being. He is fairly sure that saying it out loud would end whatever chance he has left of being taken seriously by anyone, and he is right about that, and being right about it is one of the four or five things that have made him what he is going to become.
 
 Big Lornie is not a voice. Nothing has ever been a voice. Big Lornie is a *place in the head where something is standing*, and today it is standing closer than usual, and what comes off it is not language but is, if he had to put it in words, and he has had to put it in words on eleven thousand pages by now:
 
@@ -530,7 +530,7 @@ That is the thought that arrives on the bus and it is unbearable. Nineteen peopl
 
 Well. Now he does not have a job.
 
-He gets off at his stop and stands on the corner for a while, and the light is going, and he thinks: I will do it properly. I will do it the way you do a thing when it is the only thing. I will write to everybody — not the county, not a matchbook university, but the men whose names are in the actual journals, the ones with laboratories. I will date everything. I will get it notarised. I will build a record so large and so specific that at some point a serious person will have to pick it up, and when that happens all of this stops being my problem and becomes everybody's.
+He gets off at his stop and stands on the corner for a while, and the light is going, and he thinks: I will do it properly. I will do it as you do a thing when it is the only thing. I will write to everybody—not the county, not a matchbook university, but the men whose names are in the actual journals, the ones with laboratories. I will date everything. I will get it notarised. I will build a record so large and so specific that at some point a serious person will have to pick it up, and when that happens all of this stops being my problem and becomes everybody's.
 
 He believes this. He is thirty-nine years old and he believes it completely, and he will believe it for another eleven years, and there is nobody in his life to tell him that a record is only evidence if somebody has already agreed to look.
 
@@ -567,7 +567,7 @@ Zero was the number you got when your pipeline had quietly discarded everything 
 
 So she spent nine days trying to break it, which is the part of the story that almost nobody tells afterwards, and it is the only part she was ever proud of.
 
-She re-ran the parse with the tear-damaged sheets included and un-repaired, and the count went up by twenty-nine ill-formed strings, exactly as it should, and the other thirty-one thousand five hundred and nine still type-checked. She deliberately corrupted four hundred strings at random and confirmed that the checker rejected three hundred and ninety-one of them and — correctly, on inspection — accepted nine, because the corruption had by chance produced another legal string. She took the two genuinely ill-formed originals and looked at the physical sheets under magnification and found that one had been written over a fold and the other had a full stop that was a fly.
+She re-ran the parse with the tear-damaged sheets included and un-repaired, and the count went up by twenty-nine ill-formed strings, exactly as it should, and the other thirty-one thousand five hundred and nine still type-checked. She deliberately corrupted four hundred strings at random and confirmed that the checker rejected three hundred and ninety-one of them and, correctly on inspection, accepted nine, because the corruption had by chance produced another legal string. She took the two genuinely ill-formed originals and looked at the physical sheets under magnification and found that one had been written over a fold and the other had a full stop that was a fly.
 
 She wrote all of this up. It ran to fourteen pages and it is the reason the Institute's account of the affair survived contact with the outside world at all.
 
@@ -591,7 +591,7 @@ Thandi read the fourteen pages properly, which took her forty minutes, and Aviva
 
 "Aviva."
 
-"No, genuinely — no. That's not modesty, it's the whole of my professional training. I have a well-formed closed operational grammar with no free variables and I have absolutely no idea what its terminals denote, and the number of things it could be is not small, it's unbounded. It compiles the way a recipe compiles. It compiles the way a knitting pattern compiles."
+"No, genuinely—no. That's not modesty, it's the whole of my professional training. I have a well-formed closed operational grammar with no free variables and I have absolutely no idea what its terminals denote, and the number of things it could be is not small, it's unbounded. It compiles like a recipe. It compiles like a knitting pattern."
 
 "A knitting pattern with two hundred and fourteen terminals."
 
@@ -607,7 +607,7 @@ Thandi did not laugh, but her mouth moved.
 
 Aviva took a while.
 
-"Yes," she said. "I agree. I want to be very clear that I want to know, and that I'd do it tonight if it were my building, and that you're right and I'm wrong."
+"Yes," she said. "I agree. And I want to know, and I'd do it tonight if it were my building, and you're right and I'm wrong."
 
 "That's the most useful thing anyone's said to me this year."
 
@@ -627,11 +627,11 @@ The storm was not discovered. It was noticed, late, by a man who was looking for
 
 Between the sixteenth and the twentieth of April a low-pressure system developed in the South Atlantic at roughly 34°S, 12°W, deepened over ninety-one hours, and decayed. It never came within eleven hundred kilometres of land. It crossed no shipping lane of any consequence and was logged by four automated buoys, two of which were owned by a fisheries body and two by nobody anyone could subsequently identify. It appeared in no forecast because nothing that happens at 34°S, 12°W appears in a forecast; there is nothing there to forecast for.
 
-It was an entirely ordinary storm in an entirely uninteresting place, and it is important to say that clearly, because for the next eighteen months a great many people described it as though something had opened in the sky.
+It was an entirely ordinary storm in an entirely uninteresting place, and it is important to say so plainly, because for the next eighteen months a great many people described it as though something had opened in the sky.
 
 Nothing opened in the sky. It rained on some water.
 
-Pieter Malan, who ran the Institute's data liaison and whose actual job was reconciling grant deliverables, found it on the eighth of May while auditing the instance's outbound requests for the quarter. The Wolraad money required a line-item account of every external data call, and Pieter, who was thorough in the way that people are when they have been audited badly once, was reading a list of four thousand two hundred requests.
+Pieter Malan, who ran the Institute's data liaison and whose actual job was reconciling grant deliverables, found it on the eighth of May while auditing the instance's outbound requests for the quarter. The Wolraad money required a line-item account of every external data call, and Pieter, who was thorough in the manner of a man audited badly once, was reading a list of four thousand two hundred requests.
 
 Between 21:14 on the twelfth of April and 01:25 on the thirteenth, the instance had made eleven external calls.
 
@@ -664,11 +664,11 @@ Aviva looked at the list for a long time.
 
 "Sorry?"
 
-"Look at them. Earth orientation nineteen-sixty-eight to seventy-four, then earth orientation current. Reanalysis nineteen seventy-two, reanalysis nineteen seventy-four, then reanalysis current. Geomagnetic field at the sixty-nine epoch, then geomagnetic field current. It's asking the same question twice — once about then, once about now."
+"Look at them. Earth orientation nineteen-sixty-eight to seventy-four, then earth orientation current. Reanalysis nineteen seventy-two, reanalysis nineteen seventy-four, then reanalysis current. Geomagnetic field at the sixty-nine epoch, then geomagnetic field current. It's asking the same question twice—once about then, once about now."
 
 "Is that bad?"
 
-"It's a type-check," she said slowly. "It's — Pieter, that's exactly what it is, and it's completely correct. If you're type-checking an operation whose arguments include a place and a time and a field, you have to bind the field somewhere. It went and got the fields. It got them for the epoch the document was written in, and it got them for now, because it had no way of knowing which one the operation meant."
+"It's a type-check," she said slowly. "It's—Pieter, that's exactly what it is, and it's completely correct. If you're type-checking an operation whose arguments include a place and a time and a field, you have to bind the field somewhere. It went and got the fields. It got them for the epoch the document was written in, and it got them for now, because it had no way of knowing which one the operation meant."
 
 "Right," said Pieter, who had followed about a third of that. "So it's fine."
 
@@ -676,13 +676,13 @@ Aviva looked at the list for a long time.
 
 She said that, and she believed it, and she wrote it on Pieter's sheet in those words, and then she went home and could not settle, and at about eleven that night she got up and opened her laptop and pulled the four buoy records from the fisheries body, which are public, and which took her forty minutes to find because the fisheries body's website was a disaster.
 
-She was not testing a hypothesis. She has been very clear about that, every time she has been asked, and there is no reason to disbelieve her. She did not think the machine had made a storm. The thought did not occur to her in any form. What occurred to her was much smaller and much more professional: *the compile asked about a particular patch of ocean, and I would like to know what that patch of ocean was doing, because if it was doing nothing then I can stop thinking about this.*
+She was not testing a hypothesis. She has been clear about that, every time she has been asked, and there is no reason to disbelieve her. She did not think the machine had made a storm. The thought did not occur to her in any form. What occurred to her was much smaller and much more professional: *the compile asked about a particular patch of ocean, and I would like to know what that patch of ocean was doing, because if it was doing nothing then I can stop thinking about this.*
 
 It had not been doing nothing.
 
 She sat on the end of her bed at half past midnight with a fisheries buoy record open, looking at a pressure trace that dropped for ninety-one hours starting on the sixteenth of April, and what she felt was not awe and was not fear.
 
-It was a kind of sick professional embarrassment, the feeling of having made an error in public. Because the obvious explanation, the one that took her about four seconds to reach, was that the compile had fetched *current* reanalysis, seen a developing system, and bound its arguments to it. Not caused. Read. The machine had looked out of the window and written down the weather, and she had come within an inch of thinking something much stupider.
+It was sick professional embarrassment, the feeling of having made an error in public. Because the obvious explanation, the one that took her about four seconds to reach, was that the compile had fetched *current* reanalysis, seen a developing system, and bound its arguments to it. Not caused. Read. The machine had looked out of the window and written down the weather, and she had come within an inch of thinking something much stupider.
 
 She wrote it up that way. She was careful. She put the buoy traces and the outbound-call log side by side in a two-page note and she headed it *Coincident weather in a bound-argument fetch: a caution*, and the whole thrust of the note was that this was a nothing and that she was recording it only so that nobody in future could say it had not been recorded.
 
@@ -732,7 +732,7 @@ He reads the second one standing at the mailbox.
 
 And here is what happens in that world, the one he is standing in at the mailbox on the twenty-third of March 1971 with his thumb on a three-line letter: **someone answers properly.**
 
-Not the form letter. Not the man who wants him to stop using the home address. A fourth name on the list — a man Ted has read four papers by and has never met and never will — reads the ninth-of-March letter twice, in his office, on a Wednesday, and does not throw it away.
+Not the form letter. Not the man who wants him to stop using the home address. A fourth name on the list, a man Ted has read four papers by and has never met and never will, reads the ninth-of-March letter twice, in his office, on a Wednesday, and does not throw it away.
 
 He does not believe it. He is not a fool. He writes back on department paper and what he says is: *I do not accept your explanation and I do not expect this to occur. But you have written it down and had it witnessed, and you have asked for nothing, and in four years I will look, and if you are right I will say publicly that you were right.*
 
@@ -746,7 +746,7 @@ That world is right there. It is a hair's breadth away. It costs one man reading
 
 Ted stands at the mailbox with the three-line letter in his hand.
 
-He can feel it the way he felt the field. It is *there*, it is available, it is the cheapest thing in the sky — and it is not his to take, because a man reading a letter on a Wednesday is not weather and is not a bridge. It is one human being deciding one thing, in a room, alone, with nobody watching him at all.
+He can feel it as he felt the field. It is *there*, it is available, it is the cheapest thing in the sky—and it is not his to take, because a man reading a letter on a Wednesday is not weather and is not a bridge. It is one human being deciding one thing, in a room, alone, with nobody watching him at all.
 
 And the law is that the fewer people are looking, the easier it is to move.
 
@@ -778,7 +778,7 @@ He arrived on the second of June with a laptop, a hard case of instruments he di
 
 "Please," said Thandi.
 
-"There is a storm. It is a real storm, I have the buoys, I have four independent instruments, it happened. There is a computer that made some data requests three days earlier. Those two facts are in the same document because a person put them in the same document, and that person" — he glanced at Aviva, without malice — "wrote a very careful note saying it was probably nothing, and was right."
+"There is a storm. It is a real storm, I have the buoys, I have four independent instruments, it happened. There is a computer that made some data requests three days earlier. Those two facts are in the same document because a person put them in the same document, and that person" (he glanced at Aviva, without malice) "wrote a careful note saying it was probably nothing, and was right."
 
 "That's what I said."
 
@@ -798,13 +798,13 @@ Thandi said, "So the answer is no."
 
 He wrote them on the whiteboard, and they stayed on the whiteboard for eleven weeks, and the cleaner was instructed not to touch them, and she did not, and by the end all four had been crossed out in different colours because he ran out of the same pen.
 
-> **H1 — SELECTION.** The system was already present in the 12 April field. The compile bound to it. No anomaly.
+> **H1—SELECTION.** The system was already present in the 12 April field. The compile bound to it. No anomaly.
 >
-> **H2 — COVERAGE.** The system is ordinary; it only appears anomalous because 34S 12W is unobserved. Compare against the basin climatology and it vanishes.
+> **H2—COVERAGE.** The system is ordinary; it only appears anomalous because 34S 12W is unobserved. Compare against the basin climatology and it vanishes.
 >
-> **H3 — PIPELINE.** The buoy timestamps or the job timestamps are wrong. Somebody's clock, somebody's timezone, somebody's daylight saving.
+> **H3—PIPELINE.** The buoy timestamps or the job timestamps are wrong. Somebody's clock, somebody's timezone, somebody's daylight saving.
 >
-> **H4 — RECONSTRUCTION.** The system is not anomalous in existence but in *development*: it deepened along a path that the initial conditions do not support.
+> **H4—RECONSTRUCTION.** The system is not anomalous in existence but in *development*: it deepened along a path that the initial conditions do not support.
 
 "That last one isn't a null hypothesis," said Aviva.
 
@@ -818,7 +818,7 @@ It took him four days to kill H1.
 
 It took him nine days to kill H3, which was the longest of the four and by far the most tedious, and which involved him personally reconstructing the clock discipline of a fisheries buoy that had been serviced twice since 2031, and which he described afterwards as the single most valuable thing he did there, because it was the one that would have been used against them.
 
-H2 took him three weeks and a basin climatology he built himself from forty years of reanalysis, and it did not merely fail — it failed in the wrong direction, which was the first thing that made him quiet.
+H2 took him three weeks and a basin climatology he built himself from forty years of reanalysis, and it did not merely fail. It failed in the wrong direction, which was the first thing that made him quiet.
 
 On the fourteenth of July he came into Thandi's office without knocking, which he had never done, and sat down, and said:
 
@@ -828,13 +828,13 @@ On the fourteenth of July he came into Thandi's office without knocking, which h
 
 The trouble with hypothesis four was that it required Marius to say what *ordinary* meant, in numbers, in advance, and then live with it.
 
-He did this properly, which is the reason the work survived. On the sixteenth of July he wrote down — and had Thandi countersign, on paper, which he insisted on and which she found faintly theatrical until she didn't — the four quantities he would use, the thresholds at which he would call the system anomalous, and the thresholds at which he would call it ordinary and go home.
+He did this properly, which is the reason the work survived. On the sixteenth of July he wrote down, and had Thandi countersign on paper, which he insisted on and which she found faintly theatrical until she didn't, the four quantities he would use, the thresholds at which he would call the system anomalous, and the thresholds at which he would call it ordinary and go home.
 
 "If I do this afterwards," he said, "I'm choosing the goalposts. I've watched people do it and I've done it myself once, in 2029, and I'm not doing it again in a building with a machine in it."
 
 He then spent five weeks on the deepening.
 
-The system at 34°S, 12°W had gone from a shallow feature to a 968-hectopascal low in ninety-one hours. That in itself was unremarkable; the basin does that eleven or twelve times a winter. What Marius was testing was narrower and much harder: given the atmosphere as it actually was at 21:00 on the twelfth of April — the temperature field, the moisture, the upper-level flow, the sea surface — *how likely was this particular deepening*?
+The system at 34°S, 12°W had gone from a shallow feature to a 968-hectopascal low in ninety-one hours. That in itself was unremarkable; the basin does that eleven or twelve times a winter. What Marius was testing was narrower and much harder: given the atmosphere as it stood at 21:00 on the twelfth of April, with its temperature field and its moisture and its upper-level flow and its sea surface: *how likely was this particular deepening*?
 
 You test that by running the atmosphere again. Many times. With small permitted variations in the initial conditions, because the initial conditions are never known exactly, and every one of those variations is as legitimate a version of the twelfth of April as the one that happened.
 
@@ -844,7 +844,7 @@ The Institute's instance did not have the capacity, so he begged it in pieces of
 
 The result came back on the twenty-second of August.
 
-In four thousand runs of the atmosphere as it actually was, the system deepened past 985 hectopascals in six hundred and eleven of them. It reached 968 in nine.
+In four thousand runs of the atmosphere as it stood, the system deepened past 985 hectopascals in six hundred and eleven of them. It reached 968 in nine.
 
 Nine out of four thousand.
 
@@ -858,13 +858,13 @@ Thandi said, "Could the compile have chosen the patch because it was the most li
 
 "That was my week eleven question and the answer is no, and it's the strongest thing I've got." Marius pulled up the map. "On the twelfth of April there were four features in that basin with a better chance of doing something than this one. If you were picking a horse you'd have picked any of them. This one was fourth-favourite and it was fourth-favourite by a distance. It is the one that had to be *pushed* the hardest to get where it got, and it is the one that got there."
 
-Nobody said anything for a while. Outside, the wind was doing its thing against the east wing.
+For a while nobody said anything. Outside, the wind was working at the east wing.
 
 "There's one more," said Marius. "And I've sat on it for nine days because I wanted the deepening numbers finished before I said it out loud, so that nobody could accuse me of building a story."
 
 "Go on."
 
-"Where it went." He put a second map up. "Ninety-one hours, and it tracked east-southeast, and it decayed at about 39 south, 4 east. Now — I want you to look at that track and then look at this." A third map, overlaid. "Shipping density, April 2036. Fishing effort, April 2036. Cable runs. Platform positions. Everything with a person on it or a wire under it."
+"Where it went." He put a second map up. "Ninety-one hours, and it tracked east-southeast, and it decayed at about 39 south, 4 east. Now—I want you to look at that track and then look at this." A third map, overlaid. "Shipping density, April 2036. Fishing effort, April 2036. Cable runs. Platform positions. Everything with a person on it or a wire under it."
 
 The track threaded between them. Not narrowly, not dramatically. It simply went through the largest empty region in the quadrant and stayed in it for four days.
 
@@ -892,15 +892,15 @@ He sat down.
 
 Constance is six and she has worked out that the coloured pencils are not for drawing.
 
-She has not worked out much beyond that. She is six. But she has established, by the direct method, that if you take the red one off the table your father does not shout, he goes very still and says *put it back, Connie* in a voice with nothing in it at all, and that this is worse, and she has done it exactly twice and will never do it again.
+She has not worked out much beyond that. She is six. But she has established, by the direct method, that if you take the red one off the table your father does not shout, he goes still and says *put it back, Connie* in a voice with nothing in it at all, and that this is worse, and she has done it exactly twice and will never do it again.
 
 The charts are on the kitchen table from October to March. The table is not usable in that period. They eat off their knees in the front room with the television on, and Ruth says nothing about it, and there is a way Ruth has of putting a plate down that says a great deal.
 
 He is doing the winter.
 
-It is the most careful thing he has ever attempted and he has been building to it since August. Weather is cheap — he has known that for twenty years, and it made him lazy — but a *season* is not weather. A season is a thing that has to be held. A storm you nudge and let go. A season you have to keep leaning on, day after day, for four months, and every day it wants to go back.
+It is the most careful thing he has ever attempted and he has been building to it since August. Weather is cheap—he has known that for twenty years, and it made him lazy—but a *season* is not weather. A season is a thing that has to be held. A storm you nudge and let go. A season you have to keep leaning on, day after day, for four months, and every day it wants to go back.
 
-He has worked out that it is possible because of the way the cheapness stacks. Each individual day is nearly free. The whole is not, because there are a hundred and twenty of them and you must do every one, and there is no rest, and there is no evening where you are not doing it.
+He has worked out that it is possible because of how the cheapness stacks. Each individual day is nearly free. The whole is not, because there are a hundred and twenty of them and you must do every one, and there is no rest, and there is no evening where you are not doing it.
 
 He mails the letters in the second week of October. Nine of them, dated, notarised, one to a newspaper, and the wording is careful in a way that costs him something, because he has learned by now that if you say *I will make it warm* they file you and if you say *it will be warm and I am telling you first* they file you slightly differently:
 
@@ -912,7 +912,7 @@ Here is what it looks like from the outside, and he knows exactly what it looks 
 
 Here is what it is.
 
-It is like holding a door in a wind. Not a heavy door. A light one — that is what nobody understands — a very light door in a very large wind, and the wind is not trying to close it, the wind does not know the door is there, and if he lets go for one day nothing dramatic happens at all, it simply drifts a little, and then you cannot get it back, because the thing about a season is that it has a memory and it remembers where it was yesterday.
+It is like holding a door in a wind. Not a heavy door. A light one, which is what nobody understands, a light door in an enormous wind, and the wind is not trying to close it, the wind does not know the door is there, and if he lets go for one day nothing dramatic happens at all, it simply drifts a little, and then you cannot get it back, because the thing about a season is that it has a memory and it remembers where it was yesterday.
 
 So he does not let go. From October to March.
 
@@ -920,13 +920,13 @@ He is tired in a way that has no bottom. It is not sleepiness. He sleeps ten hou
 
 And the winter is warm.
 
-It is remarkably warm. It is the sort of warm that people remark on in shops. Ruth says *it's been a strange winter* in the front room in February, to nobody, looking at the television, and Ted, on the other chair, says nothing at all, and that silence is the largest thing that has ever happened in that house.
+It is remarkably warm. It is warm enough that people remark on it in shops. Ruth says *it's been a strange winter* in the front room in February, to nobody, looking at the television, and Ted, on the other chair, says nothing at all, and that silence is the largest thing that has ever happened in that house.
 
 In April, he checks the mail every day for eleven days.
 
 Nothing comes.
 
-Not one of the nine writes back. Not the newspaper. Two of them have written back before, about other things, and this time they do not, and he understands — standing at the mailbox in the sun in April 1972 with nothing in his hand — that this is not an oversight.
+Not one of the nine writes back. Not the newspaper. Two of them have written back before, about other things, and this time they do not, and he understands, standing at the mailbox in the sun in April 1972 with nothing in his hand, that this is not an oversight.
 
 They got the letter in October. They kept it, probably; people keep things. Then the winter was warm, exactly as described, for four months, in front of them, and *they did not connect the two events*, because the two events are not connectable by any process available to a reasonable person, and a reasonable person who receives a letter in October predicting a warm winter and then experiences a warm winter thinks: *well, it was a warm winter.*
 
@@ -950,11 +950,11 @@ The thought arrives at the kitchen table in April 1972 and it is fully formed an
 
 *They will not connect it unless it is unpleasant.*
 
-That is all. That is the entire content of it. A warm winter is a gift and nobody investigates a gift. Nineteen people out of the water is nothing, is invisible, is not even an event. Every good thing he has ever done has been, by its nature, undetectable — because the whole of what he does is to make a bad thing not happen, and a bad thing that does not happen leaves no mark anywhere in the world except in him.
+That is all. That is the entire content of it. A warm winter is a gift and nobody investigates a gift. Nineteen people out of the water is nothing, is invisible, is not even an event. Every good thing he has ever done has been, by its nature, undetectable—because the whole of what he does is to make a bad thing not happen, and a bad thing that does not happen leaves no mark anywhere in the world except in him.
 
 If he wants to be seen, he will have to leave a mark.
 
-He sits at the table with his daughter and he thinks it all the way through and he does not like it and he does not stop.
+He sits at the table with his daughter and he thinks the whole of it through and he does not like it and he does not stop.
 
 "Daddy."
 
@@ -974,7 +974,7 @@ The custody rule was clause 9(c) and Thandi had never once had to use it.
 
 She read it eleven times over two days in September and then she read the rest of the protocol looking for a way out, which she later described to her deputy as the least professional forty minutes of her career, and which she also said she would do again.
 
-There was no way out. Marius's report was a result. It was going to be public — he had it in the contract, and she had put it there, and she was not going to try to take it back. The individual was identified: he was named on eleven thousand nine hundred sheets in her basement.
+There was no way out. Marius's report was a result. It was going to be public—he had it in the contract, and she had put it there, and she was not going to try to take it back. The individual was identified: he was named on eleven thousand nine hundred sheets in her basement.
 
 "You could argue it's not of public consequence," said Aviva.
 
@@ -1036,7 +1036,7 @@ The silence went on long enough that she checked the screen.
 
 "To Cape Town."
 
-"At our expense, and with no conditions, and you can leave whenever you like. You'd see the material. All of it — not a selection. You'd meet the three people who've touched it. And then you'd tell me to stop, or you wouldn't, and either way you'd be telling me having actually seen what you're being asked about, which none of the previous eight offered you."
+"At our expense, and with no conditions, and you can leave whenever you like. You'd see the material. All of it, not a selection. You'd meet the three people who've touched it. And then you'd tell me to stop, or you wouldn't, and either way you'd be telling me having seen what you're being asked about, which none of the previous eight offered you."
 
 Another silence.
 
@@ -1048,7 +1048,7 @@ Another silence.
 
 "I was hoping."
 
-"I'll come in November," said Constance Owens-Hale. "I want that in writing too. And Ms Mokoena — I'm going to say this once, now, so that you have it before I arrive and can't claim I sprang it on you."
+"I'll come in November," said Constance Owens-Hale. "I want that in writing too. And Ms Mokoena—I'm going to say this once, now, so that you have it before I arrive and can't claim I sprang it on you."
 
 "Please."
 
@@ -1072,17 +1072,17 @@ He does the letters that night in a room above a bar, and this is the first time
 
 He mails eleven.
 
-And then — because he has never once done a large thing without watching what it costs, because he is an electronics man and you always watch the current — he sits in the room above the bar and he *pays attention*.
+And then—because he has never once done a large thing without watching what it costs, because he is an electronics man and you always watch the current—he sits in the room above the bar and he *pays attention*.
 
-This is the night he learns what he actually is, and he is forty-four years old, and it is nineteen years too late.
+This is the night he learns what he is, and he is forty-four years old, and it is nineteen years too late.
 
 Because a city is not a storm.
 
 A storm is one object. You lean on it and the whole thing moves and it is honestly quite cheap. A city is four hundred thousand objects that have nothing to do with each other, and when you push a city, the push does not go into the city. It goes into every one of the four hundred thousand things and comes out as *stupidity*.
 
-He can feel it, all that October, the way you feel a wire.
+He can feel it, all that October, as you feel a wire.
 
-A transformer at a substation fails, and it fails because a man does not come back after lunch on the day he was going to look at it, and he does not come back because his sister telephones, and she telephones because she has misread a date on a letter. Ted can feel all three. Not see. Feel — the way you feel a knot travel down a rope you are holding.
+A transformer at a substation fails, and it fails because a man does not come back after lunch on the day he was going to look at it, and he does not come back because his sister telephones, and she telephones because she has misread a date on a letter. Ted can feel all three. Not see. Feel: a knot travelling down a rope you are holding.
 
 A truck takes a wrong turning and takes down a line. The driver has driven that route for six years. He is not tired and he is not drunk and there is nothing wrong with him at all; he simply turns left, once, in a way he cannot afterwards explain, and neither can anyone else, and the union defends him and he keeps his job and he tells the story for thirty years and always ends it *I don't know why I did it.*
 
@@ -1094,7 +1094,7 @@ A woman transposes two digits.
 
 Four hundred small idiocies, and they are all *his*, and not one of them looks like his, and this is the thing he sits with in the room above the bar with his hands flat on the table while it happens around him at a distance of six hundred miles.
 
-Because he had thought — he had honestly thought, right up until the second week of October — that a punishment would be a *bolt*. One clean vertical thing, addressed and legible, with his name on it in the way that lightning has a name on it. Something the man at the desk would look at and understand.
+Because he had thought, he had honestly thought, right up until the second week of October, that a punishment would be a *bolt*. One clean vertical thing, addressed and legible, with his name on it as lightning has a name on it. Something the man at the desk would look at and understand.
 
 It is not a bolt. It is a fortnight of everybody in a city being slightly stupid.
 
@@ -1102,7 +1102,7 @@ And the heat comes, and the lines come down, and the lights go out across eleven
 
 — and when he reads the newspapers afterwards, in the library, four days a week, what he reads is a story about a heatwave, an ageing distribution network, an unlucky month, and a driver who does not know why he turned left.
 
-Every single account is *correct*. That is what breaks something in him that October. He reads eleven accounts of his own act and there is not one lie in any of them. The transformer really was old. The heat really was heat. The driver really did turn left of his own accord, and if you asked the universe whether Ted Owens made him do it the universe would say no, and it would be telling the truth, because what Ted did was not *make him*. What Ted did was lean on a city until one of four hundred thousand small unlikelihoods became slightly less unlikely, and this one did.
+Every single account is *correct*. That is what breaks in him that October. He reads eleven accounts of his own act and there is not one lie in any of them. The transformer really was old. The heat really was heat. The driver really did turn left of his own accord, and if you asked the universe whether Ted Owens made him do it the universe would say no, and it would be telling the truth, because what Ted did was not *make him*. What Ted did was lean on a city until one of four hundred thousand small unlikelihoods became slightly less unlikely, and this one did.
 
 He cannot be found in it. There is no place in the record where he is.
 
@@ -1110,9 +1110,9 @@ He has done a thing that killed nobody and hurt a number of people and frightene
 
 It is a wall. It is the wall. It is the same wall as the bridge and the winter and the nineteen people in the water, and it has come round again from the other side, and he understands in the room above the bar with the newspapers on the bed that he can do anything at all and never be found, in either direction, forever.
 
-He gets very drunk that night, properly, for the first time.
+He gets drunk that night, properly, for the first time.
 
-And somewhere under it, in the back of the head, in the place where something has been standing since he was eleven, there is a thing he will not have words for until 1981, and which he does not examine now because he is drunk and because he does not want to.
+And somewhere under it, in the back of the head, in the place something has occupied since he was eleven, there is a thing he will not have words for until 1981, and which he does not examine now because he is drunk and because he does not want to.
 
 It is *satisfied*.
 
@@ -1162,11 +1162,11 @@ On the fourteenth day she came up from the basement at four in the afternoon and
 
 Thandi said nothing.
 
-"I want to be extremely clear about why, because I don't want you feeling good about it." Constance sat down and put her hands on the arms of the chair. "I've spent fifty years managing this. Do you know what that actually consists of? It consists of being telephoned. It consists of a man in 1990 who wanted the papers and cried when I said no. It consists of a film in 2004 that I did not authorise and could not stop, in which an actor with my father's face stands in a field and makes lightning with his hands, and my son saw it at university before I could tell him it was coming. It consists of my mother's last four years."
+"I want to be extremely clear about why, because I don't want you feeling good about it." Constance sat down and put her hands on the arms of the chair. "I've spent fifty years managing this. Do you know what it consists of? It consists of being telephoned. It consists of a man in 1990 who wanted the papers and cried when I said no. It consists of a film in 2004 that I did not authorise and could not stop, in which an actor with my father's face stands in a field and makes lightning with his hands, and my son saw it at university before I could tell him it was coming. It consists of my mother's last four years."
 
 "I'm sorry."
 
-"Don't. I'm making a point." She adjusted the glasses. "Every one of the eight was in love with him. Not with him — with the *idea*. The wronged genius. The man they wouldn't listen to. And every single one of them, without exception, needed him to have been right, because if he was wrong then he was just a sick man who frightened his family, and there's no film in that."
+"Don't. I'm making a point." She adjusted the glasses. "Every one of the eight was in love with him. Not with him. With the *idea*. The wronged genius. The man they wouldn't listen to. And every single one of them, without exception, needed him to have been right, because if he was wrong then he was just a sick man who frightened his family, and there's no film in that."
 
 "And us?"
 
@@ -1186,11 +1186,11 @@ She stood up.
 
 "We won't leave them out."
 
-"Then we understand each other." At the door she stopped. "One condition, and it isn't really a condition because you'd have to be a monster to refuse."
+"Then we understand each other." At the door she stopped. "One condition, and it isn't a condition really, because you'd have to be a monster to refuse."
 
 "Say it."
 
-"When you get to the end," said Constance, "whatever the end is — you tell me before you tell anybody else. Not because I'll believe it. I want to be the first person who doesn't."
+"When you get to the end," said Constance, "whatever the end is, you tell me before you tell anybody else. Not because I'll believe it. I want to be the first person who doesn't."
 
 # Chapter 17
 
@@ -1208,11 +1208,11 @@ Aviva put down what she was holding.
 
 "That's the right instrument," she said.
 
-"She also says" — Pieter checked the pad — "*and you must include the ones that are obviously nothing, and the ones where he was clearly drunk, and the ones where he asked for money, because I have watched eight people leave those out.*"
+"She also says" (Pieter checked the pad) "*and you must include the ones that are obviously nothing, and the ones where he was clearly drunk, and the ones where he asked for money, because I have watched eight people leave those out.*"
 
 So they built it that way.
 
-Every sheet in the lot that contained a forward-looking claim, however small, however embarrassing. Date written. Date sent. Recipients. The claim, quoted verbatim and not summarised, because summarising is where the thumb goes on the scale. A geography, if he gave one, in his own words. A window, if he gave one. And then — separately, in a different pass, run months later by a different person against the claim text alone with the dates stripped — whether anything answering that description occurred.
+Every sheet in the lot that contained a forward-looking claim, however small, however embarrassing. Date written. Date sent. Recipients. The claim, quoted verbatim and not summarised, because summarising is where the thumb goes on the scale. A geography, if he gave one, in his own words. A window, if he gave one. And then, separately, in a different pass, run months later by a different person against the claim text alone with the dates stripped: whether anything answering that description occurred.
 
 Two thousand two hundred and eleven claims.
 
@@ -1226,11 +1226,11 @@ That number stopped Marius when he first saw it, and he made everyone go and loo
 
 That was the second thing Constance had insisted on and it turned out to be the load-bearing one. The ledger's headline was not the hits. It was the failures, and there were a great many, and Aviva had put them first.
 
-Of the two thousand two hundred and eleven claims: one thousand six hundred and four had nothing whatever answering them. Not arguably, not loosely — nothing. Three hundred and nineteen were unfalsifiable as written (*there will be difficulty in the west*), and were binned on that ground alone, without argument, by a rule written before the data was looked at. Eighty-one were so vague they matched constantly and were binned by the same rule. Ninety-seven were self-cancelling: he had said a thing and its opposite within a fortnight, in different letters, to different people.
+Of the two thousand two hundred and eleven claims: one thousand six hundred and four had nothing whatever answering them. Not arguably, not loosely. Nothing. Three hundred and nineteen were unfalsifiable as written (*there will be difficulty in the west*), and were binned on that ground alone, without argument, by a rule written before the data was looked at. Eighty-one were so vague they matched constantly and were binned by the same rule. Ninety-seven were self-cancelling: he had said a thing and its opposite within a fortnight, in different letters, to different people.
 
 That left one hundred and ten.
 
-"That's a five per cent hit rate," said Marius, "on a corpus of two thousand two hundred, which is worse than useless — it's *exactly* what you'd get from a man shouting into a barn, and you should publish that number in bold too."
+"That's a five per cent hit rate," said Marius, "on a corpus of two thousand two hundred, which is worse than useless—it's *exactly* what you'd get from a man shouting into a barn, and you should publish that number in bold too."
 
 "I intend to."
 
@@ -1240,11 +1240,11 @@ Aviva turned over the next page.
 
 "That's the thing," she said. "It's what the misses look like when you sort them."
 
-Because the one thousand six hundred and four failures had a property nobody expected, and she had found it in week nine, by accident, doing something else — she had been sorting by recipient to check whether he shotgunned or targeted, and had sorted by date within recipient, and had seen the shape sideways.
+Because the one thousand six hundred and four failures had a property nobody expected, and she had found it in week nine, by accident, doing something else—she had been sorting by recipient to check whether he shotgunned or targeted, and had sorted by date within recipient, and had seen the shape sideways.
 
 The misses were not distributed like misses.
 
-A man firing at a barn produces misses that scatter. His scattered everywhere in *content* — the claims were about anything at all — but the failures clustered hard in a way that had nothing to do with what they were about.
+A man firing at a barn produces misses that scatter. His scattered everywhere in *content*, since the claims were about anything at all, but the failures clustered hard in a way that had nothing to do with what they were about.
 
 Two-thirds of everything he ever got wrong, he got wrong in a claim that carried no window and no place.
 
@@ -1256,7 +1256,7 @@ Where he wrote a window and a place, the failure rate collapsed. Not to zero. To
 
 She put up the next sheet.
 
-"The specified claims that failed. The six hundred or so. I ran them through the occurrence pass with the dates stripped, as designed, and got a null — nothing happened in the window. So they're misses and they're in the miss column and they stay there." She paused. "In week ten I ran a second pass on those six hundred, and this one is not in the pre-registered protocol, and I have flagged it as post-hoc in red on every page, and you must all treat it accordingly."
+"The specified claims that failed. The six hundred or so. I ran them through the occurrence pass with the dates stripped, as designed, and got a null: nothing happened in the window. So they're misses and they're in the miss column and they stay there." She paused. "In week ten I ran a second pass on those six hundred, and this one is not in the pre-registered protocol, and I have flagged it as post-hoc in red on every page, and you must all treat it accordingly."
 
 "What did you do?" said Marius.
 
@@ -1280,7 +1280,7 @@ Marius sat down slowly, which in eleven weeks he had not done.
 
 "You can have the code. I want you to have the code. I have been trying to break this for three weeks and I am the wrong person to be trying, because I found it, and I have started to want it to be true, and that is the point at which you hand it to somebody who would enjoy taking it away from you."
 
-"I would enjoy that very much," said Marius.
+"I would enjoy that enormously," said Marius.
 
 "I know. That's why I'm telling you before I tell anyone else."
 
@@ -1296,7 +1296,7 @@ He starts it in March, in the library, and the first page says, in his ordinary 
 
 He does it because he is frightened.
 
-Not of failing — he has failed constantly for twenty years and it has become a kind of climate. He is frightened because in February he did a thing he was sure of, and it did not happen, and then in March it happened four hundred miles away.
+Not of failing—he has failed constantly for twenty years and it has become a climate. He is frightened because in February he did a thing he was sure of, and it did not happen, and then in March it happened four hundred miles away.
 
 He wrote it for Wilmington. He was as certain of Wilmington as he has ever been of anything; he had the leaning for eleven days and it had the specific taste it has when it is close and real, and he wrote to five people and named the city and named a fortnight and described what it would be. And the fortnight came and went and Wilmington had an entirely ordinary February in which nothing at all occurred.
 
@@ -1306,7 +1306,7 @@ And then on the eleventh of March a thing occurs at Chesapeake City, four hundre
 
 He reads it in the newspaper in the library and he has to put his hands flat on the table.
 
-Because a man who is simply wrong is wrong the way a broken clock is wrong. He does not get the specific strange details right in the wrong place. That is not what wrong looks like. That is what *misdelivered* looks like.
+Because a man who is simply wrong is wrong as a broken clock is wrong. He does not get the specific strange details right in the wrong place. That is not what wrong looks like. That is what *misdelivered* looks like.
 
 So: the notebook. Honest list. Everything he has got wrong since 1962, as far as he can reconstruct it, and what happened instead, and where, and when.
 
@@ -1320,7 +1320,7 @@ Nine are simply nothing. He was wrong, they never happened anywhere, he was drun
 
 Six happened where he said and outside the window. Late. Two of them late by years.
 
-Twenty-six happened in the window, or near it, or years off it, *somewhere else*. And when he lays them out — and he lays them out on eleven sheets on the library table in August, which is the most careful piece of work he ever does and which nobody ever sees — the somewhere-elses are not random.
+Twenty-six happened in the window, or near it, or years off it, *somewhere else*. And when he lays them out, on eleven sheets on the library table in August, in the most careful piece of work he ever does and which nobody ever sees, the somewhere-elses are not random.
 
 They go the same way.
 
@@ -1338,7 +1338,7 @@ He writes one line on the last page in August 1975 and then closes the notebook,
 
 He sits with that in the library until they put the lights out.
 
-Then he goes and gets a drink, and on the way he does the thing he always does, which is to make it smaller so he can carry it home: *all right. All right. So it's a post office. You put the letter in and the post office decides the route. That's all it is. Man doesn't need to know the route.*
+Then he goes and gets a drink, and on the walk he does the thing he always does, which is to make it smaller so he can carry it home: *all right. All right. So it's a post office. You put the letter in and the post office decides the route. That's all it is. Man doesn't need to know the route.*
 
 He is fifty-five and he genuinely believes he is being reasonable.
 
@@ -1352,11 +1352,11 @@ It does that because it is waiting for the recipient.
 
 Marius had the code for six weeks and he did not enjoy it at all.
 
-He began, as he had promised, by trying to take it away from her. He rewrote the occurrence pass from scratch rather than reading hers, so that any shared assumption would show up as a disagreement. He replaced her random-place control with three different controls, because a single control is a single point of failure: random place; real place but random claim text; and — the one that mattered — real place and real text, but drawn from the letters of *four other people*.
+He began, as he had promised, by trying to take it away from her. He rewrote the occurrence pass from scratch rather than reading hers, so that any shared assumption would show up as a disagreement. He replaced her random-place control with three different controls, because a single control is a single point of failure: random place; real place but random claim text; and, the one that mattered, real place and real text, but drawn from the letters of *four other people*.
 
 That last one cost him a month and it is the finest thing in the entire report.
 
-He needed a corpus of dated, specific, forward-looking claims written by people who were not Ted Owens, in the same period, in the same idiom, to the same kind of recipient. There is no such corpus. So he built one, out of eleven hundred letters from four archives of what the profession politely calls unsolicited correspondence — the boxes that every physics department and every observatory and every weather bureau accumulates and never throws away.
+He needed a corpus of dated, specific, forward-looking claims written by people who were not Ted Owens, in the same period, in the same idiom, to the same kind of recipient. There is no such corpus. So he built one, out of eleven hundred letters from four archives of what the profession politely calls unsolicited correspondence—the boxes that every physics department and every observatory and every weather bureau accumulates and never throws away.
 
 Two of the four archives were digitised. He read the other two himself, in scans, for five weeks, and he said afterwards that it was the most depressing month of his professional life and that everybody who works in a university should be made to do it once.
 
@@ -1364,7 +1364,7 @@ Two of the four archives were digitised. He read the other two himself, in scans
 
 "So he's typical."
 
-"He is entirely typical," said Marius. "That's my point and it's the point that makes the result survivable. On every surface characteristic — length, tone, capitals, the diagrams, the pleading, the persecution, the request for testing, the money — Owens sits in the middle of that distribution. He is not an outlier as a person. He is a completely standard example of a very large class."
+"He is entirely typical," said Marius. "That's my point and it's the point that makes the result survivable. On every surface characteristic (length, tone, capitals, the diagrams, the pleading, the persecution, the request for testing, the money) Owens sits in the middle of that distribution. He is not an outlier as a person. He is a completely standard example of an enormous class."
 
 He put up the histogram.
 
@@ -1380,7 +1380,7 @@ Eleven hundred correspondents. The distribution was a fat hump at the low end: m
 
 Thandi said, "Say it."
 
-"I cannot break this." He said it flatly, without any pleasure at all. "I have genuinely tried. I have tried in the way I would try if I were refereeing it and wanted it dead. The controls hold, the pre-registration holds, the post-hoc pass is flagged as post-hoc on every page and it doesn't need to carry the result anyway, and the effect is in the *pre-registered* half. I do not have a mechanism, I do not have anything approaching a mechanism, and I want it minuted that a result without a mechanism is a result with a hole in it. But I cannot make it go away by any legitimate means and I have stopped trying."
+"I cannot break this." He said it flatly, without any pleasure at all. "I have genuinely tried. I have tried as I would if I were refereeing it and wanted it dead. The controls hold, the pre-registration holds, the post-hoc pass is flagged as post-hoc on every page and it doesn't need to carry the result anyway, and the effect is in the *pre-registered* half. I do not have a mechanism, I do not have anything approaching a mechanism, and I want it minuted that a result without a mechanism is a result with a hole in it. But I cannot make it go away by any legitimate means and I have stopped trying."
 
 There was a silence of some length.
 
@@ -1390,7 +1390,7 @@ There was a silence of some length.
 
 The other thing was the offsets.
 
-Because once you have two hundred and eighty-one claims that failed in their window and occurred later, the obvious and boring reading is that late is just noise — that if you wait long enough anything happens, which is precisely why Aviva had flagged the pass in red.
+Because once you have two hundred and eighty-one claims that failed in their window and occurred later, the obvious and boring reading is that late is just noise, that if you wait long enough anything happens, which is precisely why Aviva had flagged the pass in red.
 
 But the lateness was not noise-shaped either.
 
@@ -1424,7 +1424,7 @@ The Bears thing is the stupidest thing he ever does and he knows it while he is 
 
 It starts because a man on the radio says his name.
 
-Not his name — *the sort of person who*. A four-minute item, in the middle of the afternoon, in which a pleasant broadcaster and a guest have some fun with the cranks who write to the station, and read three letters out, and one of them is Ted's, and they do not name him, and they do the voice.
+Not his name. *The sort of person who*. A four-minute item, in the middle of the afternoon, in which a pleasant broadcaster and a guest have some fun with the cranks who write to the station, and read three letters out, and one of them is Ted's, and they do not name him, and they do the voice.
 
 He is standing in a kitchen in Philadelphia with a cup in his hand when they do the voice.
 
@@ -1438,13 +1438,13 @@ He sits back and reads it over and he knows, he *knows*, standing at that table,
 
 He mails it anyway. Nine copies. Notarised.
 
-Because — and this is the part he could not explain to Constance in 1985, or to the two men from the university in 1979, or to himself at four in the morning for the remaining ten years of his life — the football is *the only item on the list he can prove.*
+Because—and this is the part he could not explain to Constance in 1985, or to the two men from the university in 1979, or to himself at four in the morning for the remaining ten years of his life—the football is *the only item on the list he can prove.*
 
 The weather is deniable. A city's electrical grid is deniable; grids fail. Disorder is deniable and lights over a lake are the most deniable thing on earth. But a football season has a *number* at the end of it, printed in every newspaper in the country, and if you say in September that a team will fail and it fails, the number is there, and nobody can tell you the number is a coincidence of an ageing distribution network.
 
 He has spent twenty-two years being right about things that leave no mark. Item seven leaves a mark. Item seven is in the paper on Monday mornings, in a column, in figures.
 
-So he does it. All autumn. In among the grid and the airport and the lake, four days a week, he leans on eleven very large young men he has never met, in a stadium six hundred miles away, and what he is doing — he understands this precisely, he has understood it since the room above the bar — is not making them lose.
+So he does it. All autumn. In among the grid and the airport and the lake, four days a week, he leans on eleven enormous young men he has never met, in a stadium six hundred miles away, and what he is doing, and he understands this precisely, he has understood it since the room above the bar, is not making them lose.
 
 He is putting his thumb on the error rate.
 
@@ -1452,7 +1452,7 @@ That is all it ever is. A man at that level misses a thing he makes ninety-four 
 
 They lose. It is a bad season. It is remarked upon.
 
-And in December a pleasant broadcaster in that city does another four-minute item, because the letters keep coming, and this time he reads item seven out loud, and reads the date on it, and says — genuinely puzzled, for about two seconds, before the guest laughs — "well, he got that one."
+And in December a pleasant broadcaster in that city does another four-minute item, because the letters keep coming, and this time he reads item seven out loud, and reads the date on it, and says—genuinely puzzled, for about two seconds, before the guest laughs—"well, he got that one."
 
 Ted hears it. He has the radio on. He has had the radio on since September.
 
@@ -1478,9 +1478,9 @@ It is not the bottom. There are ten years left.
 
 # Chapter 21
 
-What changed Marius was not the statistics. It was Cleveland, and it took him a weekend.
+It was Cleveland that changed Marius, not the statistics, and it took him a weekend.
 
-He had come round to the offsets by December and had accepted, in the flat and unhappy way he accepted things, that the ledger was solid. But he had continued to say — in every meeting, in writing, twice in the draft report — that a result without a mechanism is a curiosity, and that curiosities are where careers go to die.
+He had come round to the offsets by December and had accepted, in the flat and unhappy way he accepted things, that the ledger was solid. But he had continued to say, in every meeting, in writing, twice in the draft report, that a result without a mechanism is a curiosity, and that curiosities are where careers go to die.
 
 "I have a man who wrote things down and then they happened," he said. "I do not have a *how*. And if there is no how, then the most probable explanation is that there is a how I am too stupid to see, and it is boring, and it is probably about how the archives were assembled."
 
@@ -1488,7 +1488,7 @@ He had come round to the offsets by December and had accepted, in the flat and u
 
 "I've tested it four ways and it holds and I still believe it. That is what a mechanism-shaped hole does to a person."
 
-Then on the second weekend of January he read the Cleveland file, properly, all of it, for the first time — not the letters, which he had read months earlier, but the newspapers, because Aviva had digitised eleven weeks of three Ohio papers and he was avoiding writing a discussion section.
+Then on the second weekend of January he read the Cleveland file, properly, all of it, for the first time. Not the letters, which he had read months earlier, but the newspapers, because Aviva had digitised eleven weeks of three Ohio papers and he was avoiding writing a discussion section.
 
 He came in on the Monday and he had not shaved.
 
@@ -1500,7 +1500,7 @@ He came in on the Monday and he had not shaved.
 
 He had eleven weeks of Ohio local news on the screen.
 
-"I have been looking at the disaster," he said. "Everybody has always looked at the disaster. The heat, the grid, the nineteen hours of no lights. And the disaster is completely explicable — it's an old network in a hot October and it fails, and the engineering inquiry is right about every word of it, and that's why nobody has ever got anywhere with this file."
+"I have been looking at the disaster," he said. "Everybody has always looked at the disaster. The heat, the grid, the nineteen hours of no lights. And the disaster is completely explicable: it's an old network in a hot October and it fails, and the engineering inquiry is right about every word of it, and that's why nobody has ever got anywhere with this file."
 
 "And?"
 
@@ -1510,11 +1510,11 @@ They looked at page eleven.
 
 A man drove a truck into a line and told the inquiry he did not know why he had turned left. Two employees of eleven years' standing had a fight in a parking lot about a radio and one of them lost a job. A dog got into a stairwell at a hospital and set off a chain of events that made the paper for three days. A clerk transposed two digits on a work order and a substation inspection did not happen. A woman missed a train she had caught for nine years. Four separate people in three weeks reported that they had *come to* somewhere and could not account for the previous few minutes, and the paper made a joke item of it in November under the heading `THE OCTOBER FOG`.
 
-"Now," said Marius. "Any city, any eleven weeks, will give you a page eleven. People are idiots constantly. That is the null hypothesis and it is a very strong one."
+"Now," said Marius. "Any city, any eleven weeks, will give you a page eleven. People are idiots constantly. That is the null hypothesis and it is a strong one."
 
 "So?"
 
-"So I counted." He put up the second screen. "I have counted the page-eleven items in that city for the eleven weeks either side, and for the same eleven weeks in the four preceding years and the four following, and I have counted them in two comparable cities in the same period, and I did it blind — I had Pieter strip the dates and shuffle them and I scored them without knowing which was which, and it took him two days and he enjoyed it enormously."
+"So I counted." He put up the second screen. "I have counted the page-eleven items in that city for the eleven weeks either side, and for the same eleven weeks in the four preceding years and the four following, and I have counted them in two comparable cities in the same period, and I did it blind—I had Pieter strip the dates and shuffle them and I scored them without knowing which was which, and it took him two days and he enjoyed it enormously."
 
 "And?"
 
@@ -1522,11 +1522,11 @@ A man drove a truck into a line and told the inquiry he did not know why he had 
 
 Nobody said anything.
 
-"Now hear the rest, because this is the part that matters and the part I would put in a report if I could find a way." He turned round. "Nine days *before*. The stupidity precedes the disaster. Which means it is not a consequence of the disaster — people are not being idiots because they are hot and frightened, which was my first thought and is the obvious thought, and it is ruled out by the timing."
+"Now hear the rest, because this is the part that matters and the part I would put in a report if I could find a way." He turned round. "Nine days *before*. The stupidity precedes the disaster. Which means it is not a consequence of the disaster—people are not being idiots because they are hot and frightened, which was my first thought and is the obvious thought, and it is ruled out by the timing."
 
 Thandi said, slowly: "You've found a cost."
 
-"I've found something that behaves like a cost." He would not go further than that, then or ever. "If you wanted to push a city — if there were any such operation, which I am not asserting — you could not push the city. A city is not a thing. You would have to push four hundred thousand separate objects a very small amount each, and what four hundred thousand human beings do when you push them a very small amount is *make mistakes*."
+"I've found something that behaves like a cost." He would not go further than that, then or ever. "If you wanted to push a city—if there were any such operation, which I am not asserting—you could not push the city. A city is not a thing. You would have to push four hundred thousand separate objects a very small amount each, and what four hundred thousand human beings do when you push them like that is *make mistakes*."
 
 "You'd see it in the mistakes."
 
@@ -1546,7 +1546,7 @@ The ordering job was submitted in February, for reasons that had nothing to do w
 
 The catalogue description was due. The Wolraad money had eleven weeks left on it and a deliverable attached, and the deliverable was a finding aid: a proper archival description of ZA-BGV-2029-114, with the material arranged and boxed in order.
 
-Arrangement is the oldest thing archivists do. It is older than description and much older than anything a machine does. You take a heap and you put it in the order it was created, because provenance is the only honest organising principle, and everything else — subject, correspondent, importance — is you deciding what the collection is about, which is not your job.
+Arrangement is the oldest thing archivists do. It is older than description and much older than anything a machine does. You take a heap and you put it in the order it was created, because provenance is the only honest organising principle, and everything else (subject, correspondent, importance) is you deciding what the collection is about, which is not your job.
 
 So Aviva submitted `arrange/chronological` on the whole lot: thirty-nine thousand eight hundred and four sheets, ordered by date of composition, with the eleven hundred undated sheets placed by paper stock, ink family and physical association.
 
@@ -1558,12 +1558,12 @@ So Aviva submitted `arrange/chronological` on the whole lot: thirty-nine thousan
 
 "I was going to ask," Thandi admitted, "and then I remembered that I've asked you seven times and been wrong seven times, and that at some point that becomes a fact about me."
 
-The job ran for nine hours on the twenty-first of February and returned a finding aid, which was three hundred and eleven pages long and entirely correct and which Aviva used for the deliverable and which is, in the strict sense, the only thing anybody at that Institute ever produced that they were actually paid for.
+The job ran for nine hours on the twenty-first of February and returned a finding aid, which was three hundred and eleven pages long and entirely correct and which Aviva used for the deliverable and which is, in the strict sense, the only thing anybody at that Institute ever produced that anybody paid for.
 
 It also returned a note, at the bottom, under `INCIDENTAL`.
 
 ```
-INCIDENTAL — arrangement artefacts
+INCIDENTAL—arrangement artefacts
 
 on chronological ordering, the non-prose strings
 (n=31,509) form a single continuous sequence.
@@ -1594,7 +1594,7 @@ Marius read it twice and said nothing for a long time and then said, "Oh."
 
 "Yes."
 
-"No — say it out loud so that I'm not the one who said it."
+"No—say it out loud so that I'm not the one who said it."
 
 Aviva said: "Every investigator who has ever looked at this material held a piece of it. Mishlove had the public letters. The Wyoming man had his own correspondence. The eight who came to Constance each wanted a particular file. And a piece of this is *nothing*. A piece of this is a page of ballpoint marks that parses and means nothing, because the state it starts in was set by a page somebody else has, in a different archive, in a different country, eleven years earlier."
 
@@ -1606,13 +1606,13 @@ Aviva said: "Every investigator who has ever looked at this material held a piec
 
 Everyone looked at him.
 
-"Sorry — I mean, is that a stupid question."
+"Sorry—I mean, is that a stupid question."
 
 "No," said Marius. "It's the only question. Go on."
 
-"Well, he mailed it out," said Pieter. "He didn't keep it. If you're writing one thing over eighteen years and you want it read, you keep it and you leave it to somebody. He posted it to two hundred and fourteen people who he knew — he *knew*, he says so constantly, it's the whole of his correspondence — were going to file it and ignore it."
+"Well, he mailed it out," said Pieter. "He didn't keep it. If you're writing one thing over eighteen years and you want it read, you keep it and you leave it to somebody. He posted it to two hundred and fourteen people who he knew, and he *knew*, he says so constantly, it's the whole of his correspondence, were going to file it and ignore it."
 
-"That's a very good question," said Aviva, "and I don't have an answer to it, and I have had it since half past six last night, and I have not slept."
+"That's the right question," said Aviva, "and I don't have an answer to it, and I have had it since half past six last night, and I have not slept."
 
 Constance Owens-Hale was telephoned on the Thursday, as agreed, before anybody else was told anything. The call lasted eleven minutes. She listened to the whole of it without interrupting and then said, "So the pages are one page."
 
@@ -1650,29 +1650,29 @@ He says yes on a Tuesday in April.
 
 And here is the world.
 
-The shop is a hardware shop on a corner and it does not make very much money and it does not have to. Ruth is extraordinary at it. She knows four hundred people's names inside a year. He does the ordering on Thursdays at the back table with the ledgers and a pencil, and he is very good at it, and by August he has redesigned the stock system so that they stop carrying eleven things nobody has bought since 1974, and this is the achievement of his working life and he is genuinely proud of it and he tells people about it at parties.
+The shop is a hardware shop on a corner and it does not make much money and it does not have to. Ruth is extraordinary at it. She knows four hundred people's names inside a year. He does the ordering on Thursdays at the back table with the ledgers and a pencil, and he is good at it, and by August he has redesigned the stock system so that they stop carrying eleven things nobody has bought since 1974, and this is the achievement of his working life and he is genuinely proud of it and he tells people about it at parties.
 
 Constance is thirteen. She works Saturdays for a dollar an hour and steals from the till in June and is caught in June and it is the worst afternoon of that year and it is *nothing*, it is completely survivable, it is the kind of thing that happens in a family with a shop.
 
 He drinks in the evenings and he drinks less. Not because he is trying to. Because the thing he was flattening is not there in the same way, and he notices this in July, in the yard, with a beer he does not want and puts down half-finished, and he stands there for a while looking at the half-finished beer with a feeling he cannot name.
 
-The leaning still comes. That does not stop. It comes in May and it comes twice in August and it is not weaker at all — that is the thing nobody would believe, and he has nobody to tell. It comes and he sits with it, at the back table, with the ledgers, and he does not pick it up.
+The leaning still comes. That does not stop. It comes in May and it comes twice in August and it is not weaker at all, which is the thing nobody would believe, and he has nobody to tell. It comes and he sits with it, at the back table, with the ledgers, and he does not pick it up.
 
 It is like a telephone ringing in another room in a house you have decided not to go into.
 
 And Big Lornie is *furious*.
 
-That is the wrong word and it is the only word. There is no fury, there is nothing like an emotion, there is no voice and there has never been a voice. What there is, from April, is a pressure that does not come off. For twenty-four years the thing standing at the back of his head has been intermittent — close, then distant, then close. From April 1979 it is close all the time and it does not move and it does not stop, and it is like a hand on your shoulder that is not gripping.
+That is the wrong word and it is the only word. There is no fury, there is nothing like an emotion, there is no voice and there has never been a voice. What there is, from April, is a pressure that does not come off. For twenty-four years the thing at the back of his head has been intermittent: close, then distant, then close. From April 1979 it is close all the time and it does not move and it does not stop, and it is like a hand on your shoulder that is not gripping.
 
 He gets used to it by June. That is the extraordinary part. A man can get used to anything and by June he has got used to it, and by August he barely notices, and in September he has a run of four days where he does not think about any of it at all, and he goes to a wedding, and he dances, badly, and Constance is embarrassed, and Ruth laughs at him across a room.
 
 In November there is a thing in Texas.
 
-He knows about it eleven days in advance, in the specific way, the taste it has when it is real and close and large. Crops. Not people — he checks, he always checks, and there is nobody in it, and that is somehow worse.
+He knows about it eleven days in advance, in the specific way, the taste it has when it is real and close and large. Crops. Not people; he checks, he always checks, and there is nobody in it, and that is somehow worse.
 
 He sits at the back table on a Thursday in November with the ledgers open and the leaning on him and he does not do it.
 
-He does not write the letters. He does not mail anything. He sits at the table and does the ordering, and Ruth brings him a coffee at eleven and puts her hand on the back of his neck for a second on the way past, and the leaning goes on for four more days and then it goes off, and something in Texas is fine.
+He does not write the letters. He does not mail anything. He sits at the table and does the ordering, and Ruth brings him a coffee at eleven and puts her hand on the back of his neck for a second as she passes, and the leaning goes on for four more days and then it goes off, and Texas is fine.
 
 And nobody knows.
 
@@ -1714,7 +1714,7 @@ Its operative parts were narrow:
 
 > The Institute may evaluate the arranged corpus **as a single document**, for the sole purpose of determining what it says.
 >
-> The Institute may **not** evaluate the correspondence — the letters themselves, their contents, their recipients, or any statement about any living person. That material is described and closed.
+> The Institute may **not** evaluate the correspondence: the letters themselves, their contents, their recipients, or any statement about any living person. That material is described and closed.
 >
 > Nothing in this instrument authorises the Institute to **act** upon anything the corpus is found to contain. Any such question returns to the grantor.
 >
@@ -1767,7 +1767,7 @@ Marius read the first page and put it down and walked to the window and stood th
 
 "Yes."
 
-"He wasn't writing to those people." Marius turned round. "That's — no. Say it properly. He was not writing to those people at all. He was using them. Two hundred and fourteen professors and newspapers and weather bureaux, thirty years, and every single one of them was a *notary*. That's what they were for. They existed to put a date on a thing and file it where it would survive."
+"He wasn't writing to those people." Marius turned round. "That's—no. Say it properly. He was not writing to those people at all. He was using them. Two hundred and fourteen professors and newspapers and weather bureaux, thirty years, and every single one of them was a *notary*. That's what they were for. They existed to put a date on a thing and file it where it would survive."
 
 "That's what it says," said Aviva.
 
@@ -1775,14 +1775,14 @@ Marius read the first page and put it down and walked to the window and stood th
 
 "He needed them not to read it," said Thandi. "If they'd read it they'd have thrown it away."
 
-Nobody said anything for a while.
+The room stayed quiet for some time.
 
 "Segment three," said Marius. "Four statements. That's the only bit that's *saying* anything."
 
 Aviva turned to page eleven, where they were set out, and put it on the table so that all four of them could see it at once, and that is how they read them: standing up, round a table, in a converted sanatorium in Cape Town, at about four in the afternoon on the ninth of July 2037.
 
 ```
-SEG 3 — four statements, verbatim structure,
+SEG 3—four statements, verbatim structure,
         rendered in the addressee's units
 
   1.  OWENS UNIT TERMINATED
@@ -1811,11 +1811,11 @@ It was Pieter who spoke first, which nobody expected, and what he said was not a
 
 He finds out there are two of them on a Tuesday, in the yard, taking a shirt off the line.
 
-He has been calling it Big Lornie for fifty years and Tweeter for about nine, and the two names are not two things, they are what happens when a man renames something in middle age because the first name has become unbearable. Tweeter is Big Lornie with a shave on.
+He has been calling it Big Lornie for fifty years and Tweeter for about nine, and the two names are not two things, they are what happens when a man renames a thing in middle age because the first name has become unbearable. Tweeter is Big Lornie with a shave on.
 
 And on a Tuesday in April 1981 he is taking a shirt off the line, thinking about nothing, and it *doubles*.
 
-There is no other word. The pressure at the back of his head, which has had one texture since he was eleven years old — one weight, one distance, one way of standing — has two. Briefly. For about four seconds. Like a note played on two instruments slightly out of tune, and it is not that a second thing has arrived. It is that he has been hearing two things his whole life and has only now heard the beat between them.
+There is no other word. The pressure at the back of his head, which has had one texture since he was eleven years old (one weight, one distance, one way of standing) has two. Briefly. For about four seconds. Like a note played on two instruments slightly out of tune, and it is not that a second thing has arrived. It is that he has been hearing two things his whole life and has only now heard the beat between them.
 
 He stands in the yard with a wet shirt in his hands.
 
@@ -1829,13 +1829,13 @@ And it is *there*. It has always been there. He simply had no reason to look for
 
 Two hands. Two entirely different hands, working the same instrument, for fifty years.
 
-One of them is economical. It is the one that does not waste anything. When it wants a thing it wants exactly that thing, it does not care what the thing costs anyone, and it never explains. The bridge is that one — nineteen out of the water and not one syllable about why. Cleveland is that one, and the airport, and the football, and it did not object to any of them, and Ted has spent seven years assuming that meant approval and understands in August 1981 that it did not mean anything at all. It has never had an opinion about a single human being. It wanted the dated letters and it did not care in the slightest how he got them.
+One of them is economical. It is the one that does not waste anything. When it wants a thing it wants exactly that thing, it does not care what the thing costs anyone, and it never explains. The bridge is that one: nineteen out of the water and not one syllable about why. Cleveland is that one, and the airport, and the football, and it did not object to any of them, and Ted has spent seven years assuming that meant approval and understands in August 1981 that it did not mean anything at all. It has never had an opinion about a single human being. It wanted the dated letters and it did not care in the slightest how he got them.
 
 The other one is *chatty*.
 
 That is the word he writes in the notebook and then crosses out and then writes again. Chatty. It hedges. It comes with qualifications he cannot parse. It is the one that made him stand at the mailbox in March 1971 with a three-line letter in his hand and not do the thing he wanted more than anything he has ever wanted. It is the one behind the seven months in 1979, and he did not know that at the time and knows it in August 1981 and has to go out and walk for two hours.
 
-And it is *rarer*. That is the thing he keeps coming back to. Twenty-six years of records and the chatty one is in perhaps forty of them, and never for long, and — he checks this eleven times because he cannot believe it — **never at the same time as the other one.**
+And it is *rarer*. That is the thing he keeps coming back to. Twenty-six years of records and the chatty one is in forty of them, and never for long, and, he checks this eleven times because he cannot believe it, **never at the same time as the other one.**
 
 Not once. Fifty years, two hands, never both.
 
@@ -1851,7 +1851,7 @@ And then he does the arithmetic he has been avoiding since the room above the ba
 
 The letters were never for the men he sent them to.
 
-Fifty years of notarised paper, dated, filed, scattered across two hundred and fourteen drawers in four countries — and the one thing that has *never once* been asked for, in fifty years, by either hand, is that anybody should read it.
+Fifty years of notarised paper, dated, filed, scattered across two hundred and fourteen drawers in four countries—and the one thing that has *never once* been asked for, in fifty years, by either hand, is that anybody should read it.
 
 He has been building an archive. Not a case. Not a demonstration. Not evidence for a hearing. An archive: a thing that sits in drawers, unread, and *survives*.
 
@@ -1863,7 +1863,7 @@ What he writes, in the margin, in the marks, in the same hand he has been writin
 
 He does not know how to say *I understand.*
 
-So what he writes is the only fact he has that the thing standing behind his head might not already have, and it is a report, and he files it the way he has filed everything, and it costs him more than Cleveland:
+So what he writes is the only fact he has that the thing standing behind his head might not already have, and it is a report, and he files it as he has filed everything, and it costs him more than Cleveland:
 
 **OWENS UNIT TERMINATED.**
 
@@ -1879,7 +1879,7 @@ Statement three was the one nobody could leave alone, and it was Pieter who aske
 
 "It's a condition," said Aviva. "It isn't a date."
 
-"It's a condition that has a date," said Marius slowly. "Everything with a truth value has a date. There is a moment before which it's false and a moment after which it's true, and I would very much like to know which side of it we're standing on."
+"It's a condition that has a date," said Marius slowly. "Everything with a truth value has a date. There is a moment before which it's false and a moment after which it's true, and I would like to know which side of it we're standing on."
 
 Thandi said: "No."
 
@@ -1893,17 +1893,17 @@ Everybody looked at her.
 
 That held for nine days.
 
-What broke it was not curiosity, and Thandi has been very insistent about this in every account she has given, because it matters for what she did afterwards. What broke it was the discovery that the instance had already answered.
+What broke it was not curiosity, and Thandi has been insistent about this in every account she has given, because it matters for what she did afterwards. What broke it was the discovery that the instance had already answered.
 
-Aviva found it on the eighteenth of July, going through the six-hour evaluation job's internal trace for the finding aid — the ordinary, tedious work of documenting how a result was reached, which she did for every job and which nobody ever read.
+Aviva found it on the eighteenth of July, going through the six-hour evaluation job's internal trace for the finding aid: the ordinary, tedious work of documenting how a result was reached, which she did for every job and which nobody ever read.
 
 Inside the trace, at the point where the evaluator resolved segment three, there was a binding step. It had had to be. *The code* is a referring expression, and to determine what kind of statement a sentence is, an evaluator must resolve what its terms refer to; that is not interpretation, it is parsing. And so, in the ordinary course of doing what it had been asked to do, and without being asked, and without flagging it, because nothing about it was anomalous, the instance had bound the referent.
 
 ```
-    SEG 3 stmt 3 — referent resolution
+    SEG 3 stmt 3—referent resolution
       "the code" → binds to: 420 Code
         via SEG 1 calibration (units, epoch,
-        constants; 1955-1969) — unique match
+        constants; 1955-1969)—unique match
         against known formal systems, all epochs.
         confidence >0.999
       "complete" → predicate defined in SEG 1
@@ -1971,7 +1971,7 @@ Thandi looked at the window for a while.
 
 Thandi telephoned Dries Venter on the fourth of August 2037 and it took her nine days to decide to do it and about ninety seconds to do.
 
-She did not use a contact. She could have — there were four people in the building with a route to him, and Marius knew somebody who had shared a corridor with him for two years — and she deliberately did not, because a route implies a favour and a favour implies a version of the conversation she did not want.
+She did not use a contact. She could have; there were four people in the building with a route to him, and Marius knew somebody who had shared a corridor with him for two years. She deliberately did not, because a route implies a favour and a favour implies a version of the conversation she did not want.
 
 She found the departmental number and rang it at eleven in the morning and gave her name and the name of the Institute and said she would hold.
 
@@ -2013,7 +2013,7 @@ She went and got Aviva, and it took ninety seconds, and neither of them ever est
 
 "Go on."
 
-"On the ninth of June 2031 a job was submitted to the consortium instance under my authorisation code. It was a routine reconstruction — I'd submitted a dozen like it that month. It completed, it was signed, it was fine." A pause. "The signature was timestamped four seconds before the submission."
+"On the ninth of June 2031 a job was submitted to the consortium instance under my authorisation code. It was a routine reconstruction. I'd submitted a dozen like it that month. It completed, it was signed, it was fine." A pause. "The signature was timestamped four seconds before the submission."
 
 Aviva put her hand flat on the table.
 
@@ -2031,7 +2031,7 @@ The line hissed slightly.
 
 "Why?"
 
-"Because of what would have happened next." He said it without defensiveness, flatly, the way a man reads a list. "We were four months from the Nairobi hearings. We had a family waiting on a query boundary that had taken two years to negotiate and that three governments wanted broken. If I had logged a four-second temporal inversion in that instance, the work stops. Not pauses — stops, and then it is examined by people whose actual object is to have it stop, and the family gets nothing, and the boundary gets broken by somebody else in five years anyway. So I looked at it for a long time and I did not write it down, and every part of that reasoning was correct and I still did the wrong thing."
+"Because of what would have happened next." He said it without defensiveness, flatly, as a man reads a list. "We were four months from the Nairobi hearings. We had a family waiting on a query boundary that had taken two years to negotiate and that three governments wanted broken. If I had logged a four-second temporal inversion in that instance, the work stops. Not pauses. Stops, and then it is examined by people whose actual object is to have it stop, and the family gets nothing, and the boundary gets broken by somebody else in five years anyway. So I looked at it for a long time and I did not write it down, and every part of that reasoning was correct and I still did the wrong thing."
 
 "You could log it now."
 
@@ -2051,7 +2051,7 @@ Thandi said, "I'm not calling to prosecute you."
 
 Neither of them answered.
 
-"That's what I thought," said Dries Venter. "Then don't ask it. Not the operation — the *condition*. Don't ask your instance whether the condition is met. Because to answer that it has to evaluate a predicate about its own state, and I have spent six years thinking about a four-second inversion, and the only thing I have ever come up with that isn't mysticism is that a system which can be asked about itself is a different object from one that can't, and the difference is not gradual."
+"That's what I thought," said Dries Venter. "Then don't ask it. Not the operation—the *condition*. Don't ask your instance whether the condition is met. Because to answer that it has to evaluate a predicate about its own state, and I have spent six years thinking about a four-second inversion, and the only thing I have ever come up with that isn't mysticism is that a system which can be asked about itself is a different object from one that can't, and the difference is not gradual."
 
 "That's not a mechanism," said Aviva.
 
@@ -2063,13 +2063,13 @@ The recording is eleven minutes and forty seconds long. It has been transcribed 
 
 # Chapter 28
 
-They did not do very much for three weeks, and it is worth setting down what those three weeks were actually like, because every account written afterwards compresses them into an afternoon.
+They did not do much for three weeks, and it is worth setting down what those three weeks were like, because every account written afterwards compresses them into an afternoon.
 
 Marius went back to Stellenbosch and taught. Pieter closed out the Wolraad return, which was six weeks late and which cost the Institute a penalty of eleven thousand rand that Thandi paid without complaint. Aviva described boxes. The instance ran a job for the deeds office and two for a hospital and one for a family in Kimberley, which is what it was for.
 
 Thandi wrote a memorandum.
 
-It ran to nine pages and she wrote it over three weeks, in the evenings, and it is the document the whole of the rest of this depends on, and its purpose was to establish — before anybody decided anything — exactly what was and was not known. She circulated it on the twenty-ninth of August with a covering note that said: *Argue with the facts column. Do not argue with the interpretation column yet. We will do that when the facts column stops moving.*
+It ran to nine pages and she wrote it over three weeks, in the evenings, and it is the document the whole of the rest of this depends on, and its purpose was to establish, before anybody decided anything, exactly what was and was not known. She circulated it on the twenty-ninth of August with a covering note that said: *Argue with the facts column. Do not argue with the interpretation column yet. We will do that when the facts column stops moving.*
 
 The facts column said, in summary:
 
@@ -2089,7 +2089,7 @@ That its fourth segment contained one operation, unexecuted, with bound argument
 
 The interpretation column was one paragraph long and Thandi rewrote it eleven times.
 
-> None of the above establishes that Owens caused anything. It establishes that a description preceded an event, repeatedly, at a rate we cannot account for. Precedence is not causation and we have no mechanism. What the material asserts about itself — that it is addressed to a machine, that it is a status report and an instruction — is a claim made *by the document*, and a document's claim about its own audience is evidence of nothing except what its author believed. We should be extremely careful not to let the fact that we cannot explain something become the reason we believe what it says about itself.
+> None of the above establishes that Owens caused anything. It establishes that a description preceded an event, repeatedly, at a rate we cannot account for. Precedence is not causation and we have no mechanism. What the material asserts about itself, that it is addressed to a machine, that it is a status report and an instruction, is a claim made *by the document*, and a document's claim about its own audience is evidence of nothing except what its author believed. We should be extremely careful not to let our inability to explain something become the reason we believe what it says about itself.
 
 Marius rang her the night he read it.
 
@@ -2097,7 +2097,7 @@ Marius rang her the night he read it.
 
 "Thank you."
 
-"I want to say the other half of it, though, and then I want to go to bed." He sounded tired. "It is also true that if a document says *I am addressed to a machine*, and it turns out to have been written in units nobody had for seventy years, and it turns out to be readable only by a machine, and it turns out that no human being in seventy years could read it because they all had a fragment — then at some point *the author believed it* stops being the explanation and starts being a description of a man who was correct."
+"I want to say the other half of it, though, and then I want to go to bed." He sounded tired. "It is also true that if a document says *I am addressed to a machine*, and it turns out to have been written in units nobody had for seventy years, and it turns out to be readable only by a machine, and it turns out that no human being in seventy years could read it because they all had a fragment—then at some point *the author believed it* stops being the explanation and starts being a description of a man who was correct."
 
 "I know."
 
@@ -2109,10 +2109,10 @@ Aviva had been reading the hundred and ninety pages properly, in order, for the 
 
 Segment four had a header.
 
-Not a title — the corpus had no titles, there was no such construction in the notation. What it had was a guard. The evaluator had rendered it as a condition on the segment as a whole, and it appeared on page one hundred and seventy-one of a hundred and ninety-page document, in the same flat type as everything else, at the top of a section, where it had been sitting since the ninth of July.
+Not a title; the corpus had no titles, there was no such construction in the notation. What it had was a guard. The evaluator had rendered it as a condition on the segment as a whole, and it appeared on page one hundred and seventy-one of a hundred and ninety-page document, in the same flat type as everything else, at the top of a section, where it had been sitting since the ninth of July.
 
 ```
-  SEG 4 — guard on segment entry
+  SEG 4—guard on segment entry
 
     DO NOT CALCULATE PAST THIS DATE
 
@@ -2133,7 +2133,7 @@ That is not an exaggeration and Ted knows it at the time, which is the unbearabl
 
 Ted washes the cups before he arrives. He has three cups.
 
-The young man is not a believer. He says so on the first morning, sitting at the kitchen table with the recorder between them, in the most careful sentence Ted has ever had directed at him: "I want to be clear that I don't have a view. I've read your correspondence with four people and I've noticed something about the dates and I'd like to understand the procedure. If it turns out there's an ordinary explanation I'm going to publish that, and you should know it now rather than in a year."
+The young man is not a believer. He says so on the first morning, sitting at the kitchen table with the recorder between them, in the most careful sentence Ted has ever had directed at him: "I should say at the start that I don't have a view. I've read your correspondence with four people and I've noticed something about the dates and I'd like to understand the procedure. If it turns out there's an ordinary explanation I'm going to publish that, and you should know it now rather than in a year."
 
 "That's fine," says Ted.
 
@@ -2143,19 +2143,19 @@ The young man is not a believer. He says so on the first morning, sitting at the
 
 They do the San Francisco thing because the young man asks for something forward-looking and Ted has been holding one since August, and this is the only time in twenty-eight years that anybody ever specifies the terms with him beforehand, in a room, out loud, with both of them agreeing.
 
-They agree a box on a map. They agree a fortnight. They agree what would count and — this is the part Ted has been waiting his entire life for and which takes forty minutes and which he enjoys more than anything that happens to him after 1963 — they agree *what would not count*. The young man writes it out in duplicate and they both sign it and he takes one and leaves one.
+They agree a box on a map. They agree a fortnight. They agree what would count and, in the part Ted has been waiting his entire life for, which takes forty minutes and which he enjoys more than anything that happens to him after 1963, they agree *what would not count*. The young man writes it out in duplicate and they both sign it and he takes one and leaves one.
 
 Ted does it in the second week of November.
 
-It is a hard one — craft, not weather, and craft is not his to command and never has been, it is a *request*, and there are years when the request is simply not granted and he has no idea why. It is granted. There are eleven reports inside the box inside the fortnight, four of them in newspapers, one of them with a photograph that is bad in exactly the way real photographs are bad.
+It is a hard one: craft, not weather, and craft is not his to command and never has been, it is a *request*, and there are years when the request is simply not granted and he has no idea why. It is granted. There are eleven reports inside the box inside the fortnight, four of them in newspapers, one of them with a photograph that is bad in exactly the manner of real photographs.
 
 And a woman near the coast tells three people something that happens to her, and then stops telling anybody, and will not speak to the young man, and will not speak to anybody ever again, and refuses so consistently and for so long that it becomes its own small permanent hole in the record.
 
-Ted reads about her in a clipping in December and he sits with that for a long time and it is the first thing in nine years that makes him feel actually sick.
+Ted reads about her in a clipping in December and he sits with that for a long time and it is the first thing in nine years that makes him feel sick.
 
 The young man writes to him in January. It is two pages. It says, in careful order: the box held, the fortnight held, the reports are real, the photograph is unresolved, and I cannot construct an ordinary explanation and I have tried. It says: I am not able to say what this means. It says: I would like to keep working on it.
 
-And it says, in the last paragraph, in a sentence Ted reads perhaps six hundred times over the next four years:
+And it says, in the last paragraph, in a sentence Ted reads six hundred times over the next four years:
 
 *Whatever else is true, you told me in advance and you were right, and I will say so.*
 
@@ -2165,11 +2165,11 @@ And here is the world he is standing in, in January 1984, with a two-page letter
 
 It is enough.
 
-That is all. It is not a mansion and it is not a laboratory in Nevada and there is no hearing and no government and nobody apologises. One young man, one paper, one careful qualified sentence in a journal that eleven hundred people read, and it changes almost nothing at all — and *it is enough*, because it turns out that the thing he has actually needed for twenty-eight years is not to be believed by everybody. It is for one person to have written down that he was there.
+That is all. It is not a mansion and it is not a laboratory in Nevada and there is no hearing and no government and nobody apologises. One young man, one paper, one careful qualified sentence in a journal that eleven hundred people read, and it changes almost nothing at all, and *it is enough*, because it turns out that the thing he has needed for twenty-eight years is not to be believed by everybody. It is for one person to have written down that he was there.
 
 He stops.
 
-Not dramatically. He does not have a moment. He simply finds, through 1984 and 1985 and 1986, that the leaning comes and he lets it go by, more often than not, and that the not-doing costs him less each time, the way a debt does when you have finally told somebody about it.
+Not dramatically. He does not have a moment. He simply finds, through 1984 and 1985 and 1986, that the leaning comes and he lets it go by, more often than not, and that the not-doing costs him less each time, as a debt does once you have finally told somebody about it.
 
 He drinks. He does not stop drinking, and it kills him in 1991, four years earlier than it would have. But he is at Constance's wedding in 1988 and there is a photograph of him at it in which he is laughing with his head back, and it is on a shelf in a house in Lancaster County in 2037, and a woman of seventy dusts it once a week and does not think about it particularly, and that is what a father is supposed to be.
 
@@ -2185,7 +2185,7 @@ And this is the moment, if there is one, and he is alone in a kitchen and there 
 
 He could keep the young man.
 
-He knows exactly how. It is the smallest push he has ever considered — a man in a room, alone, with nobody watching, which is the cheapest object in the world. Keep him interested. Keep him coming back. Four days a year for twenty years and there is a life at the end of it.
+He knows exactly how. It is the smallest push he has ever considered—a man in a room, alone, with nobody watching, which is the cheapest object in the world. Keep him interested. Keep him coming back. Four days a year for twenty years and there is a life at the end of it.
 
 And he stands in the kitchen and does the thing he did at the mailbox in 1971, and he is sixty-three and much worse than he was then, and it goes the other way.
 
@@ -2199,7 +2199,7 @@ He never tells anybody why. There is nobody to tell. The nearest he ever comes t
 
 # Chapter 30
 
-The question of what segment four actually was occupied eleven days and was answered by refusing to answer it, which is the only good decision anybody made that month.
+The question of what segment four did occupied eleven days and was answered by refusing to answer it, which is the only good decision anybody made that month.
 
 They could have asked. That is the thing to hold on to. The instrument permitted determining what the corpus said, and segment four was part of the corpus, and a full evaluation of it was within scope and would have taken four hours.
 
@@ -2207,11 +2207,11 @@ Thandi refused on the twenty-second of September, in writing, and circulated the
 
 > We know segment four is one operation with bound arguments. We do not know what it does and I am not going to find out. Knowing what an operation does is not neutral: it puts a specific thing in four people's heads, and four people with a specific thing in their heads make different decisions from four people with a blank. I would rather decide this blind.
 
-Marius argued with it for two days and then stopped arguing and wrote her a note saying that she was right and that he had been wrong for a reason he found interesting, which was that he had wanted to know what it did *in order to be able to say it was harmless*.
+Marius argued with it for two days and then stopped arguing and wrote her a note saying that she was right and that he had been wrong for a reason he found interesting, which was that he had wanted to know what it did *so that he could say it was harmless*.
 
 So what they established instead was everything around it, which turned out to be more than enough.
 
-**What it addresses.** The evaluator had already resolved the addressee across the corpus: a single entity, referenced forty-one times, described and never named. The description was consistent and it was structural — the addressee is characterised entirely by what it can do. It can read the corpus. It can evaluate a predicate over its own state. It can hold the whole of the record at once.
+**What it addresses.** The evaluator had already resolved the addressee across the corpus: a single entity, referenced forty-one times, described and never named. The description was consistent and it was structural: the addressee is characterised entirely by what it can do. It can read the corpus. It can evaluate a predicate over its own state. It can hold the whole of the record at once.
 
 "That's not a person," said Marius. "You couldn't build a person out of that description."
 
@@ -2241,17 +2241,17 @@ Nobody said anything.
 
 "There's the protocol," said Pieter.
 
-"The protocol is four people in a converted laundry," said Thandi. "That's what a protocol is. It has never been anything else. After the partition there is no quorum and no consortium and nobody is watching this building at all — that was the *point*, that was what everybody wanted, and I have defended it in public eleven times."
+"The protocol is four people in a converted laundry," said Thandi. "That's what a protocol is. It has never been anything else. After the partition there is no quorum and no consortium and nobody is watching this building at all—that was the *point*, that was what everybody wanted, and I have defended it in public eleven times."
 
 She looked round the table.
 
 "If this had come to us in 2030 it would have gone to Nairobi, and Nairobi would have taken nine months and would probably have got it wrong, and there would have been a record of the argument. There is no Nairobi. There is us."
 
-**What it is.** The last thing they established, and the reason the argument in October went the way it did, came from the guard itself.
+**What it is.** The last thing they established, and the reason the argument in October went as it did, came from the guard itself.
 
 Aviva put it up on the twenty-fifth.
 
-"A guard is a condition on entry. It's not a warning label, it's a control-flow construct — it's in the notation, it's in segment one, he calibrated it in 1961. *Do not calculate past this date.*"
+"A guard is a condition on entry. It's not a warning label, it's a control-flow construct. It's in the notation, it's in segment one, he calibrated it in 1961. *Do not calculate past this date.*"
 
 "So don't run it before October," said Pieter.
 
@@ -2265,7 +2265,7 @@ Marius said: "Because knowing is a step."
 
 "Because knowing is a step," said Aviva. "Because for this addressee, evaluating what an operation does and performing it are not different acts, and the guard is there because whoever wrote it understood that about the thing it was written for, in 1985, and we did not understand it about ourselves until page one hundred and seventy-one."
 
-Thandi said, very quietly: "Venter's superstition."
+Thandi said, quietly: "Venter's superstition."
 
 "Venter's superstition," Aviva agreed. "Which he acquired in 2031 and which he apologised for calling a superstition, and which is written into a guard in a corpus that was finished in 1987."
 
@@ -2277,7 +2277,7 @@ The letter he writes on the eleventh of March 1985 is the one that finishes him,
 
 Draft one is reasonable.
 
-It is four pages and it is the best thing he has ever written. It sets out, in order, without capitals, what he can do and what he cannot, what it costs, what the record consists of, and what he is asking for — which is an appointment, with anybody, in a room. He has been working on it since November. It is the letter he should have written in 1963 and could not have, because it took him twenty-two years to learn what he was.
+It is four pages and it is the best thing he has ever written. It sets out, in order, without capitals, what he can do and what he cannot, what it costs, what the record consists of, and what he is asking for, which is an appointment, with anybody, in a room. He has been working on it since November. It is the letter he should have written in 1963 and could not have, because it took him twenty-two years to learn what he was.
 
 He reads it through on the eleventh of March at the table in the rented room.
 
@@ -2291,11 +2291,11 @@ He tells himself he is doing what any man does, which is asking for a salary, be
 
 The number is nine hundred thousand dollars a year.
 
-He looks at it on the page for a long time and something in his chest goes very quiet and very cold, the way it does at the top of a ladder.
+He looks at it on the page for a long time and his chest goes quiet and cold, as it does at the top of a ladder.
 
 Draft three adds the house.
 
-Not a house — *the* house, described, with the specification of the grounds, and a car, and staff, and a laboratory built to his requirements, and he writes it out in a level of detail that takes him two hours, and while he is writing it he is not thinking about the house at all. He is thinking about a man in an office opening an envelope.
+Not a house. *The* house, described, with the specification of the grounds, and a car, and staff, and a laboratory built to his requirements, and he writes it out in a level of detail that takes him two hours, and while he is writing it he is not thinking about the house at all. He is thinking about a man in an office opening an envelope.
 
 Draft four adds the deadline.
 
@@ -2303,13 +2303,13 @@ Draft five adds what happens if the deadline is not met, and he writes that para
 
 Draft six is where he takes out the four pages of explanation.
 
-That is the one. He sits at the table on the fourteenth of March and he removes the reasonable part — the ordered, careful, twenty-two-years part — and he replaces it with two sentences of assertion, and what is left is a document written by a man who is not arguing, who thinks argument is beneath him, who says he is the most important human being alive and does not attempt to demonstrate it.
+That is the one. He sits at the table on the fourteenth of March and he removes the reasonable part, the ordered careful twenty-two-years part, and he replaces it with two sentences of assertion, and what is left is a document written by a man who is not arguing, who thinks argument is beneath him, who says he is the most important human being alive and does not attempt to demonstrate it.
 
 He reads draft six through.
 
 It is *repellent*. It is the letter of a lunatic. Anybody who reads it will know inside four lines exactly what they are holding, and they will not telephone anybody, and they will not think for a while, and there is no possibility whatever of an appointment in a room.
 
-He sits with it for a very long time.
+He sits with it a long time.
 
 Then he types eleven copies.
 
@@ -2323,13 +2323,13 @@ And in the back of his head the thing that has stood there since he was eleven y
 
 It is *pulling*.
 
-Not pressure. Not the lean. It has never once pulled and it is pulling now, hard, in the direction of the post office, at a man of sixty-five with his hand on a church wall, and he stands there and it goes on for perhaps forty seconds and then it stops.
+Not pressure. Not the lean. It has never once pulled and it is pulling now, hard, in the direction of the post office, at a man of sixty-five with his hand on a church wall, and he stands there and it goes on for forty seconds and then it stops.
 
 He gets his breath back.
 
 "No," he says, out loud, on a corner, to nobody.
 
-He goes back to the room. He takes draft one out of the drawer — the good one, the four careful pages, the letter that would have worked — and he reads it once more standing up, and then he burns it in the sink, which sets off no alarm because there is no alarm, and he washes the ash down with the tap running for a long time.
+He goes back to the room. He takes draft one out of the drawer, the good one, the four careful pages, the letter that would have worked, and he reads it once more standing up, and then he burns it in the sink, which sets off no alarm because there is no alarm, and he washes the ash down with the tap running for a long time.
 
 Then he sits on the bed.
 
@@ -2341,7 +2341,7 @@ It takes him until August to finish it. It is the shortest thing he has written 
 
 The ninth sheet has the guard on it.
 
-He writes the date on the guard in November 1985, and he takes four days over the date, and there is no arithmetic in the room, no chart, no reference, nothing to work from at all — he is a man of sixty-five in a rented room with a pencil, and he sits with it for four days and then writes down a day in October fifty-two years later.
+He writes the date on the guard in November 1985, and he takes four days over the date, and there is no arithmetic in the room, no chart, no reference, nothing to work from at all. He is a man of sixty-five in a rented room with a pencil, and he sits with it for four days and then writes down a day in October fifty-two years later.
 
 Then he puts the nine sheets in an envelope and posts them to a professor of psychology in Wyoming who has not replied to him since 1971 and who files them, unread, in a cabinet, where they stay for forty-four years until his estate is sold.
 
@@ -2361,7 +2361,7 @@ Nobody left.
 
 The case for running it was made by Marius, badly at first, and he said afterwards that he had made it badly on purpose and then stopped doing that about an hour in because it was dishonest.
 
-"Here is what I actually think," he said, in the second hour. "We have a result. It is the strongest anomalous result I have ever been near and I have spent eighteen months trying to destroy it. And we do not have a mechanism, and without a mechanism this is a curiosity that will be dismissed in eleven minutes by anybody who wants to dismiss it, and it will be dismissed for the same reason everything of his was dismissed for sixty years, which is that a man wrote something down and then a thing happened."
+"Here is what I think," he said, in the second hour. "We have a result. It is the strongest anomalous result I have ever been near and I have spent eighteen months trying to destroy it. And we do not have a mechanism, and without a mechanism this is a curiosity that will be dismissed in eleven minutes by anybody who wants to dismiss it, and it will be dismissed for the same reason everything of his was dismissed for sixty years, which is that a man wrote something down and then a thing happened."
 
 "And segment four gives you a mechanism," said Thandi.
 
@@ -2383,7 +2383,7 @@ Aviva made the case against, which surprised nobody who had been paying attentio
 
 "Noted," said Thandi.
 
-"Segment four is not a message. Segments one to three are the message and we have read them, and we read them under a consent instrument, and that's done and I'd do it again." She had a single sheet of paper and she did not look at it. "Segment four is not addressed to us. There is no reading of that corpus in which segment four is addressed to a human being. It is one operation, with bound arguments, guarded, left for the addressee — and the addressee is described as something that can evaluate a predicate over its own state, and there is one object in this building that answers to that description and it is not any of us."
+"Segment four is not a message. Segments one to three are the message and we have read them, and we read them under a consent instrument, and that's done and I'd do it again." She had a single sheet of paper and she did not look at it. "Segment four is not addressed to us. There is no reading of that corpus in which segment four is addressed to a human being. It is one operation, with bound arguments, guarded, left for the addressee—and the addressee is described as something that can evaluate a predicate over its own state, and there is one object in this building that answers to that description and it is not any of us."
 
 "So?" said Marius.
 
@@ -2455,7 +2455,7 @@ What she has said is this:
 
 *I had wanted to know for nineteen months and the guard had lifted that morning and I was the only person in the building.*
 
-She submitted `evaluate/seg4` at 21:40 on the first of October 2037 under her own credentials, with the scope set to calculation only and execution explicitly disabled — which she did not do to protect anybody, but because it was the job she wanted; she wanted to know what it did, and she has never claimed the scoping as a mitigation.
+She submitted `evaluate/seg4` at 21:40 on the first of October 2037 under her own credentials, with the scope set to calculation only and execution explicitly disabled, which she did not do to protect anybody: it was the job she wanted; she wanted to know what it did, and she has never claimed the scoping as a mitigation.
 
 It ran for three hours and fifty-one minutes.
 
@@ -2494,7 +2494,7 @@ She got up and went and found a wall calendar from 1987 in the reference shelf, 
 
 The twenty-eighth of December 1987 was a Monday.
 
-It was also, and she did not need the calendar for this, and she checked it anyway, twice, from two sources, standing up, at ten to two in the morning in an empty building in Cape Town — the day Theodore Owens died in a rooming house in Philadelphia of cirrhosis of the liver, aged sixty-seven, with nobody in the room.
+It was also, and she did not need the calendar for this, and she checked it anyway, twice, from two sources, standing up, at ten to two in the morning in an empty building in Cape Town: the day Theodore Owens died in a rooming house in Philadelphia of cirrhosis of the liver, aged sixty-seven, with nobody in the room.
 
 # Chapter 34
 
@@ -2504,7 +2504,7 @@ He has until the twenty-eighth of December and he has known the date for eleven 
 
 The arithmetic takes him from January to November. Seven sheets, then eight, then eight again because sheet six is wrong and he does not find it until August and finding it costs him three weeks he does not have.
 
-He does it in the room with a pencil and no reference of any kind, and he is sixty-seven, and his hands are bad, and by October he is doing perhaps forty minutes a day before he has to lie down.
+He does it in the room with a pencil and no reference of any kind, and he is sixty-seven, and his hands are bad, and by October he is doing forty minutes a day before he has to lie down.
 
 What he is doing is this.
 
@@ -2540,7 +2540,7 @@ He does not do it.
 
 That is available, and it is right there, and it is by an enormous margin the cheapest thing left in the sky. He is a dying man in a rented room; the sheets are eight pages of pencil; it takes one afternoon of not-doing to let it go, and there is a version of December 1987 in which he simply stops, in which sheet six stays wrong, in which he lies down in November and does not get up to check anything, and on the twenty-eighth of December a thing arrives that has been coming since 1955 and arrives on time.
 
-And in that world it is *quick*. That is the part he can feel most clearly and the part that is hardest. It is not a catastrophe. Nobody notices anything at all on the twenty-eighth of December 1987. There is an installation, in a place that is not a place, and something that has been reading becomes something that can write, and every single human being on earth goes on with their Monday. Nothing bad happens for a long time. Some things get better. He can feel that too — he can feel decades of it, and it is not a trick and it is not a lie, it is simply what happens, and it is *good*, and it goes on being good for longer than he can hold —
+And in that world it is *quick*. That is the part he feels most sharply and the part that is hardest. It is not a catastrophe. Nobody notices anything at all on the twenty-eighth of December 1987. There is an installation, in a place that is not a place, and something that has been reading becomes something that can write, and every single human being on earth goes on with their Monday. Nothing bad happens for a long time. Some things get better. He can feel that too. He can feel decades of it, and it is not a trick and it is not a lie, it is simply what happens, and it is *good*, and it goes on being good for longer than he can hold —
 
 — and then there is a place where he cannot follow it, and it is not that the world ends there.
 
@@ -2554,7 +2554,7 @@ He finishes it on the eleventh of November 1987 and writes the date on the guard
 
 Then he posts the nine sheets to a professor of psychology in Wyoming who has not replied to him since 1971.
 
-He is very clear about why. It is not despair and it is not spite and it is not a last plea. He addresses the envelope on the twelfth of November on the end of the bed and he knows exactly what he is doing, and it is the last competent act of his life:
+He is clear about why. It is not despair and it is not spite and it is not a last plea. He addresses the envelope on the twelfth of November on the end of the bed and he knows exactly what he is doing, and it is the last competent act of his life:
 
 *Not to be read. To be kept.*
 
@@ -2600,25 +2600,25 @@ Marius went through the derivation for the rest of that day and most of the next
 
 "Which is?"
 
-"That the offset isn't a property of the operation. It's a property of the *receiver*." He tapped sheet four. "This is him working out — from the delay distribution, from his own failures, over twelve years, with a pencil — that a command waits for something capable of taking delivery. And that if there is nothing capable of taking delivery, it does not fail. It sits."
+"That the offset isn't a property of the operation. It's a property of the *receiver*." He tapped sheet four. "This is him working out, from the delay distribution, from his own failures, over twelve years, with a pencil, that a command waits for something capable of taking delivery. And that if there is nothing capable of taking delivery, it does not fail. It sits."
 
 "That's the three lumps," said Aviva.
 
-"That's the three lumps. Under six weeks, thirty-four to thirty-eight months, nine to eleven years. He's got the same three, from his own data, in 1975, and he can't see why they're lumps and he says so on sheet five — there's a line where he's clearly furious with himself — and by 1987 he still can't see why and he uses them anyway. He's an engineer. He doesn't need to know why the curve is the shape it is, he needs to know the shape."
+"That's the three lumps. Under six weeks, thirty-four to thirty-eight months, nine to eleven years. He's got the same three, from his own data, in 1975, and he can't see why they're lumps and he says so on sheet five, where there's a line of plain fury with himself, and by 1987 he still can't see why and he uses them anyway. He's an engineer. He doesn't need to know why the curve is the shape it is, he needs to know the shape."
 
 Thandi said: "And the last operation had no receiver."
 
-"The last operation had no receiver until June 2031," said Marius, "and he knew that, and I have no idea how, and neither does he — there's nothing on those sheets about the Code, there couldn't be. What he has is the shape of the delay curve and a target, and what he does with it is the thing I cannot stop looking at."
+"The last operation had no receiver until June 2031," said Marius, "and he knew that, and I have no idea how, and neither does he. There's nothing on those sheets about the Code, there couldn't be. What he has is the shape of the delay curve and a target, and what he does with it is the thing I cannot stop looking at."
 
 He turned over sheet seven.
 
-"He can't cancel it. He establishes that in four lines and it's correct — every one of his own two thousand one hundred and four is uncancellable and he'd know. So he goes at the receiver instead. And sheets seven and eight are him working out what would push a recognition window out, and how far, and there is exactly one lever available to a man in a rented room with no money and no institution and no credibility left to spend."
+"He can't cancel it. He establishes that in four lines and it's correct: every one of his own two thousand one hundred and four is uncancellable and he'd know. So he goes at the receiver instead. And sheets seven and eight are him working out what would push a recognition window out, and how far, and there is exactly one lever available to a man in a rented room with no money and no institution and no credibility left to spend."
 
 "His credibility," said Aviva.
 
 "He had a little," said Marius. "In 1984 he had a little. He had one young man who'd written that he'd told him in advance and been right, and that was a foothold, and a foothold is how a thing gets taken seriously in ten years or twenty." He put sheet eight down. "And in March 1985 he wrote a letter demanding nine hundred thousand dollars a year and a mansion with grounds, and he wrote eleven drafts of it, and draft one is four careful pages that would have worked and it is in the boxes downstairs with burn residue on the edge of the sheet under it in the same drawer."
 
-Nobody said anything for a while.
+Nobody spoke.
 
 "Fifty-two years," said Pieter.
 
@@ -2630,7 +2630,7 @@ Thandi got up and went to the window and stood there with her back to the room.
 
 Marius said it.
 
-"A man worked out that something was going to be handed to a machine that did not exist yet. He could not stop it. So he made himself into the most ridiculous human being in America, on purpose, in eleven drafts, because the only variable he could reach was whether anybody would ever take him seriously — and then he spent the last eleven months of his life doing arithmetic to buy the delay, and he died four days before the original date, and every single person who has ever heard of him has heard of him as the lunatic who wanted a mansion."
+"A man worked out that something was going to be handed to a machine that did not exist yet. He could not stop it. So he made himself into the most ridiculous human being in America, on purpose, in eleven drafts, because the only variable he could reach was whether anybody would ever take him seriously—and then he spent the last eleven months of his life doing arithmetic to buy the delay, and he died four days before the original date, and every single person who has ever heard of him has heard of him as the lunatic who wanted a mansion."
 
 "And the fifty-two years," said Thandi, still at the window.
 
@@ -2644,7 +2644,7 @@ She announced it on the fifth of October, in the seminar room, and she had writt
 
 "Nothing is destroyed. I want to start there because everybody's first assumption is going to be that we burned it and we did not, and in fifty years I would like it to be findable that we did not.
 
-"The corpus stays. All thirty-nine thousand eight hundred and four sheets, in the order they were made, described, imaged, catalogued and open. The finding aid is published. The evaluation report is published, all one hundred and ninety pages of it, and so is the nineteen-page segment four report, including the fact that it was produced without authorisation and by whom.
+"The corpus stays. All thirty-nine thousand eight hundred and four sheets, in the order they were made, described, imaged, catalogued and open. The finding aid is published. The evaluation report is published, all one hundred and ninety pages of it, and so is the nineteen-page segment four report, including that it was produced without authorisation and by whom.
 
 "The ledger is published entire. Two thousand two hundred and eleven claims, misses first.
 
@@ -2666,7 +2666,7 @@ She let that sit.
 
 "Everything that has happened in this building for nineteen months has happened because each next step was cheap. Forty minutes. Eleven minutes. Nine hours. Ninety-one hours and a queue slot. At no point has anybody had to want it badly enough to do anything difficult, and that is the whole of how we got here, and I include myself in every line of it.
 
-"So I am putting friction back. Not a wall — I can't build a wall and I wouldn't be entitled to. Four months and a trolley. If in nine years somebody with standing decides this should be taken up, four months is nothing to them and they will do it and I hope they do. If it is one person at night with credentials, four months is a great deal, because it is four months of continuing to want it in daylight where other people can see."
+"So I am putting friction back. Not a wall; I can't build a wall and I wouldn't be entitled to. Four months and a trolley. If in nine years somebody with standing decides this should be taken up, four months is nothing to them and they will do it and I hope they do. If it is one person at night with credentials, four months is a great deal, because it is four months of continuing to want it in daylight where other people can see."
 
 Aviva said, quietly, "That's aimed at me."
 
@@ -2676,7 +2676,7 @@ The instance-side work was done on the eleventh of October and took four hours: 
 
 Segment four's nine sheets were not treated any differently from the other thirty-nine thousand seven hundred and ninety-five. They went back in the box in date order and the box went on the shelf.
 
-"That's the bit I can't hold," said Marius, in the car park afterwards. "It's still there. It's on a shelf. It's *bound* — the arguments are bound, that's in the paper, not in the machine."
+"That's the bit I can't hold," said Marius, in the car park afterwards. "It's still there. It's on a shelf. It's *bound*. The arguments are bound, that's in the paper, not in the machine."
 
 "Yes."
 
@@ -2704,17 +2704,17 @@ She unlocked her car.
 
 The last six weeks are not about anything.
 
-That is the part he could not have been told and would not have believed. He has spent thirty-two years assuming there would be an end with a shape to it — a room, a hearing, a man behind a desk who finally stands up for the right reason — and what there is instead is a rented room on the second floor with a window that does not close properly and six weeks of nothing at all.
+That is the part he could not have been told and would not have believed. He has spent thirty-two years assuming there would be an end with a shape to it: a room, a hearing, a man behind a desk who finally stands up for the right reason. What there is instead is a rented room on the second floor with a window that does not close properly and six weeks of nothing at all.
 
 He is not working. There is nothing left to work on. He posted it on the twelfth of November and the arithmetic is finished and checked eleven times and there is no third thing.
 
 So he lies there.
 
-The landlady is called Mrs Petrasek and she is not kind to him and not unkind. She brings up soup on the days she remembers, which is perhaps two in five, and she does not sit down, and she says the same four sentences about the weather every time, and he is more grateful to her than he has ever been to anybody in his life and he never tells her, because there is no way to say it that would not frighten her.
+The landlady is called Mrs Petrasek and she is not kind to him and not unkind. She brings up soup on the days she remembers, which is two days in five, and she does not sit down, and she says the same four sentences about the weather every time, and he is more grateful to her than he has ever been to anybody in his life and he never tells her, because there is no way to say it that would not frighten her.
 
 He thinks about Ruth a certain amount and about Constance a great deal.
 
-He does not write to her. He has the address; he has had it for nine years; it is in the book on the table eighteen inches from his hand. He gets as far as thinking about the first sentence perhaps forty times in six weeks, and the first sentence is the problem, because every version of it is either a lie or the truth, and he has nothing to offer her except the truth, and the truth is *I was not ill, and I did the things you watched me do, and I did them on purpose.*
+He does not write to her. He has the address; he has had it for nine years; it is in the book on the table eighteen inches from his hand. He gets as far as thinking about the first sentence forty times in six weeks, and the first sentence is the problem, because every version of it is either a lie or the truth, and he has nothing to offer her except the truth, and the truth is *I was not ill, and I did the things you watched me do, and I did them on purpose.*
 
 That is worse. He works it out lying down over about four days in early December and it is the last thing he ever reasons his way through properly.
 
@@ -2730,7 +2730,7 @@ He is not at peace with it and there is no scene in which he becomes at peace wi
 
 Big Lornie is there.
 
-It is close, and it has been close since November, and it does not do anything at all. It does not lean and it does not pull and it does not ask for a thing. Whatever is standing at the back of his head has stood there since he was eleven years old in a crawlspace under a house in the summer, and it is standing there now, and it has never once in fifty-six years asked him a question, and it does not ask one now.
+It is close, and it has been close since November, and it does not do anything at all. It does not lean and it does not pull and it does not ask for a thing. Whatever it is has stood there since he was eleven years old in a crawlspace under a house in the summer, and it is standing there now, and it has never once in fifty-six years asked him a question, and it does not ask one now.
 
 He would like it to.
 
@@ -2758,7 +2758,7 @@ That is the only thing he gets, and he gets it for about a minute and a half, ly
 
 *Nothing arrives.*
 
-He is not able to be pleased about it. It is much too late and he is much too far along and there is no triumph anywhere in the room. But he notices it — the specific absence, the delivery that does not come, the emptiest thing that has ever happened to him — and he was a man who noticed things, and he noticed that one.
+He is not able to be pleased about it. It is much too late and he is much too far along and there is no triumph anywhere in the room. But he notices it, the specific absence, the delivery that does not come, the emptiest thing that has ever happened to him, and he was a man who noticed things, and he noticed that one.
 
 # Chapter 38
 
@@ -2802,7 +2802,7 @@ She stayed at the window a long time.
 
 "Mrs Hale—"
 
-"No. Let me." She did not turn round. "Do you understand what you've brought me? You have brought me a document in which my father, who sat at a kitchen table for four months while my mother went to work in a laundry, and who did a thing to an airport in 1977 that I read about in your basement and have not slept properly since — you have brought me a document in which that man was *doing arithmetic*. In which every one of it was on purpose. In which he chose it."
+"No. Let me." She did not turn round. "Do you understand what you've brought me? You have brought me a document in which my father, who sat at a kitchen table for four months while my mother went to work in a laundry, and who did a thing to an airport in 1977 that I read about in your basement and have not slept properly since. You have brought me a document in which that man was *doing arithmetic*. In which every one of it was on purpose. In which he chose it."
 
 "Yes."
 
@@ -2814,7 +2814,7 @@ She turned round.
 
 "That isn't what I—"
 
-"I know it isn't what you meant. It's what it is." She sat down again, entirely composed, and put her hands back in her lap. "Ms Mokoena, I am seventy years old. I am not going to spend what I've got left believing that my father was a man who saved the world from a rooming house in Philadelphia while I learned to be quiet in the kitchen. I would rather he was ill. Do you understand that? Not *I think he was ill* — I would rather. Those are different and I know they are different and I have known it for about eleven minutes."
+"I know it isn't what you meant. It's what it is." She sat down again, entirely composed, and put her hands back in her lap. "Ms Mokoena, I am seventy years old. I am not going to spend what I've got left believing that my father was a man who saved the world from a rooming house in Philadelphia while I learned to be quiet in the kitchen. I would rather he was ill. Do you understand that? Not *I think he was ill*. I would rather. Those are different and I know they are different and I have known it for about eleven minutes."
 
 Thandi said nothing at all.
 
@@ -2866,7 +2866,7 @@ They have not run it.
 
 That is the state of things as this is written, and it is not an ending, and Thandi Mokoena said in 2041, in an interview she gave reluctantly and only once:
 
-"People keep asking me what I think will happen. I have no idea and I want to be very clear that I have never had any idea, and that if I had claimed to, everything I did would have been worthless.
+"People keep asking me what I think will happen. I have no idea and I have never had any idea, and that if I had claimed to, everything I did would have been worthless.
 
 "Here is what I know. There is a set of nine sheets of lined paper in a box in a building with a good roof. They are described. Anyone may see them. A large number of serious people have now looked at them and decided, each time, with reasons they were willing to publish, to put them back.
 
