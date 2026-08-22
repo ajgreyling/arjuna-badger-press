@@ -1,0 +1,61 @@
+# Apex Alphas — protected motifs. These repeat ON PURPOSE. They are the book's spine.
+# Format: one line per protected phrase (case-insensitive substring match).
+
+# The window, and the thing in it — the book's fixed point. Jakobus returns to it every night.
+the dark with the attention in it
+the window at the end of the dark corridor
+regarding the anthill
+regarding the whole of everything the way a man crouching in the long grass
+worth the walk
+
+# The greeting. The whole book converges on it.
+Sawubona
+I see you
+Ngikhona
+
+# Jakobus's instrument — the operator's read, stated in ch-01 and paid off throughout.
+the skin at the back of the neck does not lie
+he pushed the shades up into his hair
+his shades pushed up into his hair
+with his shades pushed up into his
+shades pushed up
+the three empty reflexes
+where is the exit
+a man who is tired and the stool was there
+
+# The house's grammar
+the woman with the scrubbed voice
+spend the worst thing first
+at their most
+one a day
+the man at the address / the man at his most
+the Court said nothing and did not judge
+the red eye watched
+
+# The hill — the thesis sentence of the entire book.
+elke pad loop teen dieselfde bult op
+every path runs up the same hill
+there is only the one summit
+
+# Arin's wall — deliberately echoed in ch-09 by a man who could not have seen it.
+the long mean blank section a third of the way up
+granite-grain
+a hold shaped like a hand
+
+# The house itself
+in a house at the end of the world
+the small room off the suit-bay
+
+# The rusk. The address.
+a rusk half-eaten and the coffee still warm
+sitting down, a rusk in his hand
+
+# Arrival epigraphs — structurally identical BY DESIGN (they are a dossier format, not prose).
+FIRING**
+Reached at
+NOT A FIRING
+
+# Character tells and designed rhymes (echoes are the point)
+he let the corner of his mouth go
+went to the kitchen, because
+with a ledger and a brass thermometer

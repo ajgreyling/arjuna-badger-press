@@ -174,6 +174,6 @@ He did not talk about himself. He did not talk about *any* of it — not the wor
 
 "Because I would then be a man who knows what they say. And I would start to answer it." He turned his cup around. "I would rather be a man in a kitchen who is bad at your dishwasher. It was better than this, the first time, and I ruined it by being interesting."
 
-The lounge did not know what to do with that at all.
+The lounge had no answer to that at all.
 
-Except Marcus, at the back, who put his head down and laughed — once, quietly, entirely to himself — the laugh of a man who has just heard someone else say, out loud, the thing he has been writing in a private notebook for nineteen years and has never once got right.
+Except Marcus, at the back, who put his head down and laughed — once, quietly, entirely to himself — the private, undignified snort of a man who has just heard someone else say, out loud, the thing he has been writing in a private notebook for nineteen years and has never once got right.

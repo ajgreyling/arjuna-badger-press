@@ -2,7 +2,7 @@
 
 The four of them arrived across five days and the house went to war about it before the second one was out of the white room.
 
-Jakobus had known it was coming since the woman read him the list on the stairs, and he had done what he could, which was to walk the building for a week getting ahead of it — the counter, the mats, the herb beds, the queue for coffee at six in the morning — telling people what was coming in a flat voice and letting them have their reaction where it cost nothing. It did not help as much as he wanted. There is a particular sound a house of very intelligent people makes when it decides in advance to be embarrassed, and he heard it in eleven separate rooms.
+Jakobus had known it was coming since the woman added four more names to the list a fortnight after the stairs, and he had done what he could, which was to walk the building for a week getting ahead of it — the counter, the mats, the herb beds, the queue for coffee at six in the morning — telling people what was coming in a flat voice and letting them have their reaction where it cost nothing. It did not help as much as he wanted. There is a particular sound a house of very intelligent people makes when it decides in advance to be embarrassed, and he heard it in eleven separate rooms.
 
 "Psychics," said Sam Harris, on the second evening, with enormous restraint. "We're bringing in psychics."
 

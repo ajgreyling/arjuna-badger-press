@@ -66,7 +66,7 @@ He considered that, and inclined his head, and Jakobus watched him accept a comp
 
 He asked, in his first hour, three things. Whether the people in the house were free to leave. What the house did with those who could not bear it. And then, having heard the answers, he asked what needed doing, and was told the rota was full, and he went and found Jocko and asked to be put on filters, which was the job nobody wanted, which he then did for eight months without missing one.
 
-The house did not know what to do with him for about a fortnight. He was so plainly, unspectacularly good that the room kept waiting for the other thing — the angle, the play, the tell — and it never came, and this made a number of very sophisticated people extremely uncomfortable. Chase Hughes ran his whole apparatus on him twice and reported, with visible irritation, that there was nothing under it. Voss said, at the counter, that in twenty-four years of hostage work he had met perhaps four people who were exactly the same size on the inside as they were on the outside, and that one of them was a nun, and one of them was now doing the filters.
+The house could not place him for about a fortnight. He was so plainly, unspectacularly good that the room kept waiting for the other thing — the angle, the play, the tell — and it never came, and this made a number of very sophisticated people extremely uncomfortable. Chase Hughes ran his whole apparatus on him twice and reported, with visible irritation, that there was nothing under it. Voss said, at the counter, that in twenty-four years of hostage work he had met perhaps four people who were exactly the same size on the inside as they were on the outside, and that one of them was a nun, and one of them was now doing the filters.
 
 Jakobus found him at five in the morning on the fourth day, alone, in the kitchen, with a cloth and a pot and a young Macedonian working the sink beside him in complete silence.
 
@@ -80,7 +80,7 @@ Caesar had spent his first fortnight doing what he had done in Gaul: he learned 
 
 And at the end of the fortnight he came to Jakobus in the colonnade and made his case, and his case was excellent.
 
-"Your house has thirty-three people and no succession," he said. "If you die tonight, who holds it?"
+"Your house has twenty-seven people and no succession," he said. "If you die tonight, who holds it?"
 
 "Jocko."
 
@@ -160,7 +160,7 @@ Marcus was against, and he was the last to speak, and he did not make a philosop
 
 The house voted on a Thursday.
 
-Twenty-one for. Ten against. Two abstentions, one of which was Jakobus's, and he took a great deal of grief for it, and would take more, and never explained it to anybody except once, much later, to Marcus, at the sink.
+Seventeen for. Eight against. Two abstentions, one of which was Jakobus's, and he took a great deal of grief for it, and would take more, and never explained it to anybody except once, much later, to Marcus, at the sink.
 
 And G, who had sat through eleven days of it and had not campaigned, and had answered every question anyone asked him with the same flat honesty, stood up in a lounge full of the greatest people who had ever lived and said:
 

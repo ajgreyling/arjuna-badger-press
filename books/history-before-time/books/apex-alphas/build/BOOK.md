@@ -126,7 +126,7 @@ One a day. No faster. The banks would not allow it, and the banks did not care t
 
 The capacitor banks began to charge.
 
-And in a clean white room that had never had a sound in it, a man who had died that morning at the age of sixty, with a rusk half-eaten and the coffee still warm and no fear in him at all, came back to himself standing up.
+And in a clean white room that had never had a sound in it, a man who had died the previous afternoon at the age of sixty, with a rusk half-eaten and the coffee still warm and no fear in him at all, came back to himself standing up.
 
 He was twenty-eight again.
 
@@ -362,7 +362,7 @@ The small man looked at him with real warmth then, the warmth of a man who has j
 
 The house tipped under Jakobus a third time.
 
-The scrubbed voice had told him in the white room — *a man you idolised, who will not know you* — and he had taken the words as information and set them down. Now, with the warm dry hand of the man in his own warm hand, the words had a body. He kept his face still. He had thirty years of practice at keeping his face still and he spent all of it at once.
+The scrubbed voice had told him in the white room that this house was full of men he had watched as a boy, and that not one of them would know him — and he had taken the words as information and set them down. Now, with the warm dry hand of the man in his own warm hand, the words had a body. He kept his face still. He had thirty years of practice at keeping his face still and he spent all of it at once.
 
 But the small man clocked it anyway. Of course he did. Reading the right hand was his whole religion too. The brightness in him stilled, just for a beat — and for that one beat he set the mask down. Jakobus watched it go: the delight, the chaos, the wheeling warming-his-hands brilliance, all of it lowered for a second like a man setting down a heavy tray. What was under it was old, and kind, and bone-tired, the face of a man who had broken every bone he had, more than once, to make strangers feel something for an afternoon — and who had spent a whole long life learning what that cost and choosing to pay it again the next morning. It was the realest thing Jakobus had seen since he died.
 
@@ -1201,7 +1201,7 @@ He had spent forty years being sent at things, and every one of them had a body.
 
 Four hundred and ten million, that Monday. People who had stopped. Not dead. Sitting in chairs with the reasons gone out of them.
 
-He had put twenty-nine men and women through a school and made a family out of a wardroom of frozen kings, and he was proud of it, and it was not going to matter, and it had taken him six weeks to be honest about that.
+He had put sixteen men and women through a school and made a family out of a wardroom of frozen kings, and he was proud of it, and it was not going to matter, and it had taken him six weeks to be honest about that.
 
 So on the Tuesday he went and found the scrubbed voice.
 
@@ -1289,7 +1289,7 @@ Jakobus, against the wall, made a small private note that he had just met the mo
 
 He did not mean it in the way the word usually got used in that house. The young man could not have taken a punch from any single soul in the lounge, and half of them could have ended him with a decision. It was not that. It was that Jakobus had spent his whole life reading what a man wanted so that he could give the man a door — that was the mastery, that was the thing the Machine had put on his file, *he binds people who cannot be bound* — and he had looked at this one for eleven seconds and found no door anywhere. Not fear, not pride, not the want of company, not even the want of being right in front of others. Just a locked house with a lamp on inside it and every curtain drawn, and the only thing wanting out was work.
 
-The woman spent the worst thing first anyway. Eighty-four. A long life. London. Famous past all reckoning, and — because she was very good, and because she had read his file the way she read everyone's — she added the other true thing, the one nobody else in the room would have known to say: *and you will not be happy in it, and you will spend a great deal of it on the alchemy and the scripture, and the world will decide, later, to be embarrassed about that on your behalf. I'm telling you now so you don't have to hear it from a fool at dinner.*
+The woman spent the worst thing first anyway. Eighty-four. A long life. London. Famous past all reckoning, and — because she was good at this, and because she had read his file the way she read everyone's — she added the other true thing, the one nobody else in the room would have known to say: *and you will not be happy in it, and you will spend a great deal of it on the alchemy and the scripture, and the world will decide, later, to be embarrassed about that on your behalf. I'm telling you now so you don't have to hear it from a fool at dinner.*
 
 He took that in silence, which Jakobus had also done.
 
@@ -1317,9 +1317,9 @@ It ran a day at a time after that, the way the banks allowed, and the house lear
 
 Friday came in laughing.
 
-That was the entire read on him, and Jakobus made it in the first three seconds from the doorway. Twenty-six, a bad suit that had been pressed by someone who loved him, hair already refusing to be a hairstyle, and the machine set him down on his feet in the most terrifying room ever constructed and he came back to himself and looked around it and *laughed* — one short delighted note, high, involuntary, the laugh of a man who has just been shown something impossible and is not frightened first, is *pleased* first, before the fear even gets its boots on.
+That was the entire read on him, and Jakobus made it in the first three seconds from the doorway. Twenty-six, a bad suit that had been pressed by someone who loved him, hair already refusing to be a hairstyle, and the machine set him down on his feet in the most terrifying room ever constructed and he came back to himself and looked around it and *laughed* — one short delighted note, high, involuntary, the note a man makes when he has just been shown something impossible and is not frightened first, is *pleased* first, before the fear even gets its boots on.
 
-The woman spent the worst thing first. Seventy-six. Princeton. There is an artery, and they will offer to repair it, and you will decline. *"I have done my share,"* she quoted at him, gently, because he had said it and would say it. *"It is time to go."*
+She did the worst thing first, the way she did with all of them. Seventy-six. Princeton. There is an artery, and they will offer to repair it, and you will decline. *"I have done my share,"* she quoted at him, gently, because he had said it and would say it. *"It is time to go."*
 
 He stood with that a moment. Then he nodded slowly and said, with an accent the earpiece did not bother to sand off, "That sounds like me. I am glad. It is not everybody who gets to be recognisable at the end." He looked around the white room again, and up, and then at the floor, and then he asked his question, and his question broke the house open.
 
@@ -1463,7 +1463,7 @@ The room adjusted. Jakobus watched it adjust — the small movements, the head t
 
 "Show me."
 
-"It's *public,*" G said again, and for the first time something came up under the tired flatness, and it wasn't pride, and it took Jakobus a second to place it, and when he placed it he sat up. It was the thing you hear in a man who has been shouting at a closed door for so long that his voice does this now whether he wants it to or not. "It's been public for nine years. Copyleft, mirrored on four continents, hashed, dated, free. Nobody read it. Three people read it. It got called numerology by a man who didn't open the appendix, and it sat there for nine years while I did contract work, and then the sky went quiet and someone at CERN who was very frightened and very unemployed at three in the morning ran a search on 'ordering' and 'consent' and found it, and eleven weeks later there was a man standing up in a white room."
+"It's *public,*" G said again, and for the first time something came up under the tired flatness, and it wasn't pride, and it took Jakobus a second to place it, and when he placed it he sat up. It was the thing you hear in a man who has been shouting at a closed door for so long that his voice does this now whether he wants it to or not. "It's been public for nine years. Copyleft, mirrored on four continents, hashed, dated, free. Nobody read it. Three people read it. It got called numerology by a man who didn't open the appendix, and it sat there for nine years while I did contract work, and then the sky went quiet and someone at CERN who was frightened and out of ideas at three in the morning ran a search on 'ordering' and 'consent' and found it, and eleven weeks later there was a man standing up in a white room."
 
 The room was completely silent.
 
@@ -1575,7 +1575,7 @@ He and Confucius found each other on the eleventh, when Confucius arrived, and t
 > **Confucius (Kong Qiu, 孔丘)** — b. Zou, State of Lu, 551 BC; d. Qufu, 479 BC, **aged 71**.
 > **Reached at 55** — 497 BC, Minister of Crime in Lu, at the beginning of fourteen years of exile.
 
-The Chinese teacher came through the way he did everything, which was as though he had been expected and was slightly early. Seventy-two in his own life and taken at his most, which turned out to be a hard-faced man in his fifties with a straight back and an entirely unimpressed way of standing.
+The Chinese teacher came through the way he did everything, which was as though he had been expected and was slightly early. Seventy-one in his own life and taken at his most, which turned out to be a hard-faced man in his fifties with a straight back and an entirely unimpressed way of standing.
 
 He did not ask about the window. He did not ask about the machine. He listened to the whole of it, the worst thing first and the reach and the dark and the four hundred million people sitting in chairs, and then he asked his question, and his question was:
 
@@ -1611,7 +1611,7 @@ Twenty-nine. Not tall. Not remotely the statue. A slightly uneven set to the nec
 
 He had spent forty years around dangerous men. He had met charisma before; the house was full of it; McGregor could fill a room from a doorway and Flatley could take one apart by walking across it. This was not that. This was something with a temperature, and it arrived before the man did, and Jakobus understood in about four seconds why thirty thousand men had walked to India.
 
-The woman spent the worst thing first. Thirty-two. Babylon. A fever, eleven days, and a great deal of argument afterwards about whether it was fever or a cup. *And they asked you who should have it, and you said —*
+She gave him the worst of it in the first minute. Thirty-two. Babylon. A fever, eleven days, and a great deal of argument afterwards about whether it was fever or a cup. *And they asked you who should have it, and you said —*
 
 "Do not tell me what I said."
 
@@ -1741,13 +1741,13 @@ The trouble started eight days later and it started, as everything in that house
 
 Alexander had begun to train with them. Of course he had. He was quick, he was fearless, he was two thousand years out of date, and he was being systematically dismantled twice a day by people who had spent their whole lives on it — and he loved it, visibly, the way he loved everything he was bad at for the first ten minutes and then rapidly less bad at.
 
-And on the Thursday he stood up in the middle of the school, in front of thirty-one people, and said the thing.
+And on the Thursday he stood up in the middle of the school, in front of twenty-five people, and said the thing.
 
 "This is very good," he said, "and it is a school for a war that is not coming."
 
 The room went quiet the way a room goes quiet.
 
-"You are training to meet a thing that has no body." He was not shouting. He never shouted. He turned as he spoke and he gave the sentence to different faces around the circle, which was a trick Jakobus had seen exactly one other man do well. "Your physicists say it cannot be fought and I believe them; I do not understand a word they say but I believe them, they have the faces of men who are telling the truth. So we are not an army. Good. What are we? We are thirty-one people in a house, and out there are eight billion who are going out like lamps, and you have all decided that the answer is a *question* and that we must wait, politely, in Switzerland, until the clever men have it."
+"You are training to meet a thing that has no body." He was not shouting. He never shouted. He turned as he spoke and he gave the sentence to different faces around the circle, which was a trick Jakobus had seen exactly one other man do well. "Your physicists say it cannot be fought and I believe them; I do not understand a word they say but I believe them, they have the faces of men who are telling the truth. So we are not an army. Good. What are we? We are twenty-five people in a house, and out there are eight billion who are going out like lamps, and you have all decided that the answer is a *question* and that we must wait, politely, in Switzerland, until the clever men have it."
 
 "That's roughly it," said Sagan, from the couch, without heat.
 
@@ -1767,7 +1767,7 @@ Goggins was already on his feet.
 
 And that was the moment — Jakobus put it in his own private ledger that night, with the date — that the house of masters stopped being a team assembled to answer a question and became something else, which had a leader in it who had not been elected, and which was, from that Thursday, extremely effective.
 
-They put it out four days later: the same broadcast, the same window on the house, and now a thing at the end of it. Small tasks. Absurd tasks, some of them. Walk somewhere with somebody. Learn one thing badly from a person who is good at it and let them watch you be terrible. Fix one broken thing on your street. Every night the house set one and every night the house did it too, on camera, badly — thirty-one of the greatest living and dead masters of anything doing something they were bad at, in public, for eight billion people.
+They put it out four days later: the same broadcast, the same window on the house, and now a thing at the end of it. Small tasks. Absurd tasks, some of them. Walk somewhere with somebody. Learn one thing badly from a person who is good at it and let them watch you be terrible. Fix one broken thing on your street. Every night the house set one and every night the house did it too, on camera, badly — twenty-five of the greatest living and dead masters of anything doing something they were bad at, in public, for eight billion people.
 
 The Monday number, three weeks later, was down.
 
@@ -1851,7 +1851,7 @@ He considered that, and inclined his head, and Jakobus watched him accept a comp
 
 He asked, in his first hour, three things. Whether the people in the house were free to leave. What the house did with those who could not bear it. And then, having heard the answers, he asked what needed doing, and was told the rota was full, and he went and found Jocko and asked to be put on filters, which was the job nobody wanted, which he then did for eight months without missing one.
 
-The house did not know what to do with him for about a fortnight. He was so plainly, unspectacularly good that the room kept waiting for the other thing — the angle, the play, the tell — and it never came, and this made a number of very sophisticated people extremely uncomfortable. Chase Hughes ran his whole apparatus on him twice and reported, with visible irritation, that there was nothing under it. Voss said, at the counter, that in twenty-four years of hostage work he had met perhaps four people who were exactly the same size on the inside as they were on the outside, and that one of them was a nun, and one of them was now doing the filters.
+The house could not place him for about a fortnight. He was so plainly, unspectacularly good that the room kept waiting for the other thing — the angle, the play, the tell — and it never came, and this made a number of very sophisticated people extremely uncomfortable. Chase Hughes ran his whole apparatus on him twice and reported, with visible irritation, that there was nothing under it. Voss said, at the counter, that in twenty-four years of hostage work he had met perhaps four people who were exactly the same size on the inside as they were on the outside, and that one of them was a nun, and one of them was now doing the filters.
 
 Jakobus found him at five in the morning on the fourth day, alone, in the kitchen, with a cloth and a pot and a young Macedonian working the sink beside him in complete silence.
 
@@ -1865,7 +1865,7 @@ Caesar had spent his first fortnight doing what he had done in Gaul: he learned 
 
 And at the end of the fortnight he came to Jakobus in the colonnade and made his case, and his case was excellent.
 
-"Your house has thirty-three people and no succession," he said. "If you die tonight, who holds it?"
+"Your house has twenty-seven people and no succession," he said. "If you die tonight, who holds it?"
 
 "Jocko."
 
@@ -1945,7 +1945,7 @@ Marcus was against, and he was the last to speak, and he did not make a philosop
 
 The house voted on a Thursday.
 
-Twenty-one for. Ten against. Two abstentions, one of which was Jakobus's, and he took a great deal of grief for it, and would take more, and never explained it to anybody except once, much later, to Marcus, at the sink.
+Seventeen for. Eight against. Two abstentions, one of which was Jakobus's, and he took a great deal of grief for it, and would take more, and never explained it to anybody except once, much later, to Marcus, at the sink.
 
 And G, who had sat through eleven days of it and had not campaigned, and had answered every question anyone asked him with the same flat honesty, stood up in a lounge full of the greatest people who had ever lived and said:
 
@@ -1959,7 +1959,7 @@ And G, who had sat through eleven days of it and had not campaigned, and had ans
 
 The four of them arrived across five days and the house went to war about it before the second one was out of the white room.
 
-Jakobus had known it was coming since the woman read him the list on the stairs, and he had done what he could, which was to walk the building for a week getting ahead of it — the counter, the mats, the herb beds, the queue for coffee at six in the morning — telling people what was coming in a flat voice and letting them have their reaction where it cost nothing. It did not help as much as he wanted. There is a particular sound a house of very intelligent people makes when it decides in advance to be embarrassed, and he heard it in eleven separate rooms.
+Jakobus had known it was coming since the woman added four more names to the list a fortnight after the stairs, and he had done what he could, which was to walk the building for a week getting ahead of it — the counter, the mats, the herb beds, the queue for coffee at six in the morning — telling people what was coming in a flat voice and letting them have their reaction where it cost nothing. It did not help as much as he wanted. There is a particular sound a house of very intelligent people makes when it decides in advance to be embarrassed, and he heard it in eleven separate rooms.
 
 "Psychics," said Sam Harris, on the second evening, with enormous restraint. "We're bringing in psychics."
 
@@ -2109,7 +2109,7 @@ G took nine days, not a week, and on the ninth he asked for everybody in the lou
 
 He had spent the nine days working. That was all. He had not lobbied one person. He had done his shifts on the rota, he had eaten at the long table, he had lost a small amount of chore currency at cards on the Sunday and paid it, and the rest of the time he had been in the small room off the suit-bay with the door open, with Einstein for two of the days and Newton for one and the officer from the Stargate programme for a long strange afternoon nobody ever got an explanation of, and the light had been on in there most nights until three.
 
-At eight he came into the lounge with the laptop under his arm and stood where the school stood to teach, and the house arranged itself, thirty-three people and a red eye in the ceiling and eight billion on the other side of it.
+At eight he came into the lounge with the laptop under his arm and stood where the school stood to teach, and the house arranged itself, thirty-one people and a red eye in the ceiling and eight billion on the other side of it.
 
 "You voted that one man shouldn't hold the key alone," he said. "You were right. I want to say that first and I want it on the record, because I've spent nine days trying to build the version where you were wrong and there isn't one." He put the laptop down on the low table without opening it. "Caesar's analysis was correct in every particular. I've been a single point of failure for a year. I've known it for a year. The reason I didn't fix it is the reason nobody ever fixes it, which is that every fix I could think of made it worse, and it's easier to carry a thing badly than to hand it to a room."
 
@@ -2145,13 +2145,13 @@ The room waited.
 
 "And Caesar."
 
-The lounge made a sound. Not a gasp — a kind of collective intake, the sound thirty-three highly capable people make when the ground moves under a thing they thought they understood.
+The lounge made a sound. Not a gasp — a kind of collective intake, the sound thirty-one highly capable people make when the ground moves under a thing they thought they understood.
 
 Caesar did not move at all.
 
 "Say the reason," he said.
 
-"Two reasons and you're not going to like either." G's voice did not change. "First: you made the argument in the open. You could have taken it. There were four ways to take it and I've thought about all four and three of them would have worked, and you stood in a lounge for eleven days and asked thirty-three people to vote instead. I'm not going to reward that with distrust; that's how you teach a man that the open road is the stupid road.
+"Two reasons and you're not going to like either." G's voice did not change. "First: you made the argument in the open. You could have taken it. There were four ways to take it and I've thought about all four and three of them would have worked, and you stood in a lounge for eleven days and asked thirty-one people to vote instead. I'm not going to reward that with distrust; that's how you teach a man that the open road is the stupid road.
 
 "Second." He did look at him then. "Because if you're going to come for it anyway, I would rather you came for it from *inside* the arrangement, where you have to persuade two of these four to come with you, than from outside it, where you'd only have to persuade the house. You are the most dangerous political mind in the recorded history of the species and I'd be an idiot to leave you unemployed."
 
@@ -2411,15 +2411,15 @@ He did not talk about himself. He did not talk about *any* of it — not the wor
 
 "Because I would then be a man who knows what they say. And I would start to answer it." He turned his cup around. "I would rather be a man in a kitchen who is bad at your dishwasher. It was better than this, the first time, and I ruined it by being interesting."
 
-The lounge did not know what to do with that at all.
+The lounge had no answer to that at all.
 
-Except Marcus, at the back, who put his head down and laughed — once, quietly, entirely to himself — the laugh of a man who has just heard someone else say, out loud, the thing he has been writing in a private notebook for nineteen years and has never once got right.
+Except Marcus, at the back, who put his head down and laughed — once, quietly, entirely to himself — the private, undignified snort of a man who has just heard someone else say, out loud, the thing he has been writing in a private notebook for nineteen years and has never once got right.
 
 # House Rules
 
 The house was dry, and that turned out to be the most consequential decision anybody had made about the building.
 
-Nobody had announced it. There was no rule on a wall. It was simply that the Court, which could grow a forty-foot granite wall out of a courtyard overnight and had once produced a functioning eight-sided cage in eleven hours because four hundred million people voted for it, would not produce a bottle of anything. Ask it for a beer and you got water. Ask it for whisky and you got water. Ask it for a very specific single malt with a story attached, at length, charmingly, in a Dublin accent, in front of an audience, and you got water, and the water arrived faster each time, which Jakobus was fairly sure was the closest thing to a joke the Court had in it.
+Nobody had announced it. There was no rule on a wall. It was simply that the Court, which could grow a forty-foot granite wall out of a courtyard overnight and had once stood by while a carpentry crew built an eight-sided cage overnight because four hundred million people voted for it, would not produce a bottle of anything. Ask it for a beer and you got water. Ask it for whisky and you got water. Ask it for a very specific single malt with a story attached, at length, charmingly, in a Dublin accent, in front of an audience, and you got water, and the water arrived faster each time, which Jakobus was fairly sure was the closest thing to a joke the Court had in it.
 
 The engineers said it was a physiological-baseline decision made by a committee in Geneva. Jakobus had his own theory, which he kept, which was that somebody with a scrubbed voice had looked at a roster of thirty-three of the most driven, most damaged, most self-medicating people in the history of the species and had made the call in about four seconds.
 
@@ -2735,7 +2735,7 @@ Bohr went first, on the Tuesday afternoon, in front of everybody, cheerfully, an
 
 He came out mildly delighted, mildly irritated, and entirely unchanged. Delighted: they had put his face on the money. Irritated: about a third of the sayings hung on him were not his, including the famous one about predictions and the future, which he had never said, and which he minded rather more than he minded the atom. He announced both findings to the lounge, got his laugh, and went back to the Kriegspiel board, and the whole thing was over before dinner.
 
-Sagan was second, at his own request, with Rogan and Theo Von either side of him and the feed running, which was the most Sagan decision anybody had ever made. He read his own entry out loud to eight billion people, including the death, and the year, and the illness, and he made three jokes and one of them was very good. He was quiet about only two things. The first was a small private thing about his wife which he did not read out. The second was the phrase *billions and billions*, which he had never once said, which had been attached to him by an impressionist and then by everybody, and which was now — the archive showed him the numbers — the single most repeated thing associated with his name in the entire record of the species.
+Sagan was second, at his own request, with Rogan and Theo Von either side of him and the feed running, which was the most Sagan decision anybody had ever made. He read his own entry out loud to eight billion people, including the death, and the year, and the illness, and he made three jokes and one of them landed. He was quiet about only two things. The first was a small private thing about his wife which he did not read out. The second was the phrase *billions and billions*, which he had never once said, which had been attached to him by an impressionist and then by everybody, and which was now — the archive showed him the numbers — the single most repeated thing associated with his name in the entire record of the species.
 
 "Well," he said, to the camera, after a pause that went on a beat too long for television. "That's what a legacy is. It's the thing they can carry, not the thing you handed them." He tapped the table. "Carry a better one. Go and learn what a parsec actually is; it's more interesting than the joke."
 
@@ -2889,7 +2889,7 @@ Jocko, to his credit, said nothing at all, which was the right call.
 
 The gym stopped completely.
 
-"I'll tell you why and then you can hate me for it," Jocko said, and stood up. "I put it there. Month one. Before you were reached — before I knew you'd ever be in this building, before I knew that was even possible." He pointed at it. "I read that book on a deployment in 2005, in a place I'm not going to describe, in a very bad month, and it did not read to me like advice from an emperor. Not once. It read exactly like what you just said it was: some guy, in a tent, in a bad winter, being a coward about tomorrow and writing himself into being able to do it." He put his hands down. "That is *why it works*. Nobody has ever been helped by a strong man telling them to be strong. Twenty centuries of people have been helped by finding out that the most powerful man in the world was, in private, at night, exactly as frightened as they are, and got up anyway, and wrote it down badly, and didn't publish it."
+"I'll tell you why and then you can hate me for it," Jocko said, and stood up. "I put it there. Month one. Before you were reached — before I knew you'd ever be in this building, before I knew that was even possible." He pointed at it. "I read that book on a deployment in 2005, in a place I'm not going to describe, in a bad month, and it did not read to me like advice from an emperor. Not once. It read exactly like what you just said it was: some guy, in a tent, in a bad winter, being a coward about tomorrow and writing himself into being able to do it." He put his hands down. "That is *why it works*. Nobody has ever been helped by a strong man telling them to be strong. Twenty centuries of people have been helped by finding out that the most powerful man in the world was, in private, at night, exactly as frightened as they are, and got up anyway, and wrote it down badly, and didn't publish it."
 
 Nobody moved.
 
@@ -2913,7 +2913,7 @@ Theo Von opened one at the long table and read it out for the laugh, because tha
 
 *Confucius say: man who stand on toilet is high on pot.*
 
-The table went up. It was a good laugh; it was the sort of stupid thing a house of very serious people needs at eight in the evening.
+The table went up. It was a good laugh; it was the sort of stupid thing a house of serious people needs at eight in the evening.
 
 Confucius was four seats away.
 
@@ -2951,7 +2951,7 @@ And then he explained to the lounge — which had come for the comedy and stayed
 
 Nobody said anything.
 
-"That is not fussiness about words. That is the whole mechanism by which a state either holds or comes apart, and I watched three of them come apart in my lifetime, precisely there, in the gap between what a thing was called and what it was." He put the slip of paper down on the table. "You have three billion of these a year. They are in my name. They are not my sentences, they are not my language, they are not even my *century*, and the people who read them will read nothing else of mine, ever. And when they hear my name, that will be the sound it makes." A pause. "You are all sitting in a house at the end of the world trying to work out how to answer a thing that is asking you what you are. And you cannot get the names of a biscuit right."
+"That is not fussiness about words. That is the whole mechanism by which a state either holds or comes apart, and I watched three of them come apart in my lifetime, precisely there, in the gap between what a thing was called and what it was." He put the slip of paper down on the table. "Three billion of these leave a bakery every year. They are in my name. They are not my sentences, they are not my language, they are not even my *century*, and the people who read them will read nothing else of mine, ever. And when they hear my name, that will be the sound it makes." A pause. "You are all sitting in a house at the end of the world trying to work out how to answer a thing that is asking you what you are. And you cannot get the names of a biscuit right."
 
 Sam Harris put his hand over his mouth and left it there.
 
@@ -2993,7 +2993,7 @@ Confucius read for a long time with his face getting stiller and stiller.
 
 "You can be killed."
 
-"I'm eighty-six years old in my own life," said Carlos, "and I've got the knees to prove it."
+"I'm eighty-six years old in my own life," said Carlos, "and I've got the knees to prove it. In here I've got the knees I had at twenty-eight, which is the single strangest thing about this place and I've stopped mentioning it."
 
 "And your actual—" the old man searched for it, and Jakobus, forty feet away on the colonnade steps and not moving, watched him find the exact word, in a second language, in a foreign century "—your *record.* The thing you did. Is it in there?"
 
@@ -3079,7 +3079,7 @@ He went to the terminal himself on the fortieth night, at two, when the corridor
 
 It took four minutes.
 
-A service number. A unit, with most of it blacked out by his own hand across twenty years of forms he had personally filled in. Three medals, two of which had no citation attached because the citations were still sealed and would be sealed for another sixty years. A farm in the Boland with a bond on it. A wife. Two children, and their children, and a small note about a bursary that one of the grandchildren would receive in nineteen years' time, which he read four times. A death: sixty, in the bush, in the afternoon, sitting down, and no other detail because there had been no other witness.
+A service number. A unit, with most of it blacked out by his own hand across twenty years of forms he had personally filled in. Three medals, two of which had no citation attached because the citations were still sealed and would be sealed for another sixty years. A farm in the Boland with a bond on it. A wife. Two children, and their children, and a small note about a bursary that one of the grandchildren would receive in nineteen years' time, which he read four times. A death: sixty, in the bush, in the afternoon, sitting down. And then a further field, which he had not expected and sat looking at for some time, containing the man behind him and the quality of the thing and the fact that it had been done with respect — sourced, the record said, to nothing at all. There had been no witness. He read that field four times and closed it and did not raise it with anybody, then or afterwards.
 
 That was all of it.
 
@@ -3143,7 +3143,7 @@ And in the small clean room next door, three sealed and separated people who had
 
 "That's not an experiment," said Sam Harris. "There's no hypothesis in it."
 
-"There's one," said Sagan. "It's the oldest one in the field and I have said the sentence a thousand times on television without once believing I'd be standing inside it." He was very tired and very happy, which was a combination nobody had seen on him. "*We have been transmitting for a hundred years and we have never once shut up and listened.*"
+"There's one," said Sagan. "It's the oldest one in the field and I have said the sentence a thousand times on television without once believing I'd be standing inside it." He was tired past the point of hiding it and happy, which was a combination nobody had seen on him. "*We have been transmitting for a hundred years and we have never once shut up and listened.*"
 
 ---
 
@@ -3295,7 +3295,7 @@ Jakobus looked at him.
 
 "We get an empty box," said G, "and we have to do it anyway, tonight, with no idea, on the ordinary hours, for nobody's record." He shrugged, and it was not a light shrug. "That's not a punishment, Jakobus. I've been sitting on these stairs for three days working out what it is, and I think that's just what it's like to be alive. Everyone else in this house is a ghost with a report card. We're the only two people in the building who are actually still *in* it."
 
-Jakobus sat with that for a long moment. Then he laughed, once, quietly, through his nose.
+Jakobus turned that over for a while. Then he laughed, once, quietly, through his nose.
 
 "*Elke pad loop teen dieselfde bult op*," he said.
 
@@ -3348,7 +3348,7 @@ recognised not by their fame but by what another master saw in them on sight. Th
 
 | # | Name | Died | Age at death | Reached at | At their most |
 |---|---|---|---|---|---|
-| 1 | **Jakobus Swart** — recce colonel, South Africa *(fictional)* | in the bush, on a Tuesday afternoon | **60** | **29** | forty years of putting fear down, still in the field |
+| 1 | **Jakobus Swart** — recce colonel, South Africa *(fictional)* | in the bush, on a Tuesday afternoon | **60** | **28** | forty years of putting fear down, still in the field |
 | 2 | **Bruce Lee** (Lee Jun-fan) | Kowloon, 20 July 1973 | **32** | **29** | the year he broke with every tradition and built his own |
 | 3 | **Jackie Chan** | *living* | — | **52** | the decade of the real, broken-bone craft |
 | 4 | **Miyamoto Musashi** | Higo, 13 June 1645 | **~62** | **29** | 1612, Ganryūjima |

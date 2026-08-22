@@ -32,7 +32,7 @@ One a day. No faster. The banks would not allow it, and the banks did not care t
 
 The capacitor banks began to charge.
 
-And in a clean white room that had never had a sound in it, a man who had died that morning at the age of sixty, with a rusk half-eaten and the coffee still warm and no fear in him at all, came back to himself standing up.
+And in a clean white room that had never had a sound in it, a man who had died the previous afternoon at the age of sixty, with a rusk half-eaten and the coffee still warm and no fear in him at all, came back to himself standing up.
 
 He was twenty-eight again.
 
