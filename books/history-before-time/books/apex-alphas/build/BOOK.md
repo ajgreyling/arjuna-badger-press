@@ -3973,7 +3973,7 @@ The break stopped being a break.
 
 He picked his cup back up.
 
-"That is my answer and it is the whole of it, and it is why I sit through every one of these evenings and never ask a question. I am not being rude to your porch. I am the only man here who cannot use his instrument on it, and I have found that if I sit still with that for long enough it stops being a humiliation and becomes a fact about the size of the thing."
+"That is my answer and it is the whole of it, and it is why I sit through every one of these evenings and never ask a question. I am not being rude to your porch. I am the one man on this porch who cannot bring his instrument to bear on it, and I have found that if I sit still with that for long enough it stops being a humiliation and becomes a fact about the size of the thing."
 
 The Chair said, later that night, to nobody in particular, in the kitchen, that in sixty years of universities he had never once heard a man refuse to take a side for a reason that was *better* than either side.
 
@@ -3984,6 +3984,462 @@ The Chair said, later that night, to nobody in particular, in the kitchen, that 
 "Oh, thoroughly," said the Chair. "It will be on a wall inside five years."
 
 It was on a wall inside three.
+
+# Off the Porch
+
+The evenings were the thing the world watched, and the evenings were not where most of it happened.
+
+Jakobus worked that out in about the fourth week and privately thought it was the single most useful piece of intelligence he gathered in two years, and he never put it on the feed. Three nights a week, fifty people sat in the dark on a colonnade and listened to one man state his case. The rest of the week — the coffee queue, the mats, the sink, the corridor at one in the morning, the herb-bed wall where people went to be miserable — was where the actual work of that house got done, and always had been, from the day a small old man walked in sideways and told the most dangerous person alive that he was a little bit scared.
+
+So: some of what happened off the Porch.
+
+---
+
+**The six o'clock queue** sorted itself out inside a fortnight and nobody ever discussed it.
+
+The believers took their coffee at six. Not by arrangement — Sapor opened at six and the ones who were up at six were the ones who were up at six, and it turned out that a Benedictine, a Dominican, a lens-grinder who had been excommunicated at twenty-three, an alchemist with a ledger, a Dagestani wrestler and a barefoot man from the Ganges plain all keep the same hours for reasons that have nothing to do with each other.
+
+They did not talk about God. That was the thing that most astonished the philosophers when they finally noticed it, in about the ninth week. Six of the most seriously religious people in the history of the species stood in a queue together every morning for eleven months and talked about the weather, the rota, the grind setting, and the Eagle's knee.
+
+"It's not that they agree," Jakobus told the Chair, who had asked. "Khabib and Canterbury don't agree about a single thing that matters. Neither of them's going to move an inch and both of them know it." He drank his coffee. "It's that they've all got the same problem and it isn't each other. They're the ones who have to get up in the dark."
+
+The atheists came at seven and were, without exception, worse company before eight.
+
+---
+
+**Kant took Hume apart on a Tuesday** and it was the best-attended session of the first cycle, and it was, by common consent, an act of love.
+
+He had thanked him on the founding night, at the counter, in front of twenty people. He spent the Tuesday doing the other half, because he had told the house on the founding night that he had not answered Hume, he had moved the floor, and the Bundle had been going round for six weeks quietly telling anyone who would listen that moving the floor is what a man does when he cannot answer.
+
+"Very well," said the Clock. "The floor.
+
+"You say I never observe causation. Correct. You say I observe only one thing, and then another, and that my mind supplies the rest out of habit. Also correct, as description. And then you say: therefore the connection is not in the world, it is in me, and my science is a custom in a wig." He was not enjoying himself and had stopped pretending otherwise. "Here is where I get off. You have proved that causation is not something I *find*. You have concluded that it is therefore not *real*, and that step is yours and not the evidence's, and it rests on an assumption you have never once examined — that the only real things are the found ones.
+
+"But consider what it would take to have an experience *at all*. Not a true experience. Any. A blur. For anything to be an experience it must be *somewhere* and *somewhen* and hang together with what came before it. Take away space, time and cause and you do not have a sceptic looking at a bundle of perceptions. You have no bundle. You have nothing that could be a perception of anything." He set his hands on the rail. "So these are not habits laid over experience. They are the *conditions* of there being any. That is the floor, and I did not move it to escape you. I moved it because you showed me the old one was not a floor at all, and I could not have found the new one without you, and I have said so in print in the only book of mine anybody reads."
+
+Then he did the part that the fighters still quote.
+
+"And the price is real and I will not hide it. If cause and space and time are the spectacles, then everything I know is what the world looks like *through* them, forever, and the thing as it is in itself is closed to me. Not mysterious — *closed*. I have bought the certainty of physics with the whole of metaphysics, and it was a fair trade, and it hurts."
+
+The Bundle stood up and applauded, alone, for about four seconds, which was the only time anybody ever broke the no-refutation rule and was the reason the Chair added a clause permitting it.
+
+He answered on the Wednesday and did not concede, and made the objection everybody still makes, which is that the whole apparatus of conditions is itself a very large claim to have arrived at by pure thought while sitting still — and the two of them argued about it, on and off, for eleven months, in a friendship that the entire house found slightly indecent.
+
+---
+
+**Einstein found Spinoza in the kitchen** at eleven at night in the sixth week and had the worst evening of his second life, entirely by his own doing.
+
+He had been waiting for it. He had told four people he was going to do it. He came in, sat down opposite a small quiet forty-two-year-old lens-grinder who had been in the building nine days and had not yet spoken to him, and said, with enormous warmth, the sentence he had actually said in his own life and had been quoted on for a century:
+
+"I want you to know — I have said this publicly, many times — that **I believe in Spinoza's God**, who reveals himself in the lawful harmony of what exists, and not in a God who concerns himself with the fates and doings of mankind."
+
+The Grinder looked at him for a while.
+
+"Thank you," he said. "What do you mean by it?"
+
+The Clerk opened his mouth and found, to his own considerable astonishment, that he was not sure.
+
+It took two hours. Jakobus came in for water at the forty-minute mark and stayed, as usual, at the far end, and watched a man who could hold four dimensions in his head get taken apart with total gentleness by a man who had been thrown out of his own community at twenty-three.
+
+Because there are two halves to that sentence, said Bento, and the second one is easy and everybody keeps it — no God who intervenes, no prayers answered, no ledger. Fine. But the first half is not a *mood*. It is not the pleasant feeling a physicist has when the equations come out beautiful.
+
+"There is one substance," he said. "One. It has infinite attributes; you know two of them, thought and extension, and they are not two things that meet — they are the same thing said twice. You are not *in* it. You are a mode of it, the way a wave is a mode of the sea. You have no free will; the will is one more thing that is caused, and you feel free the way a stone would feel free if it were conscious of the fall and ignorant of the push." He turned his cup. "That is what my God costs. Do you believe *that*, or do you like the way it sounds when the mathematics is elegant?"
+
+"...I have never had to answer that question," said Einstein.
+
+"No," said the Grinder, not unkindly. "You have been using me as a way of saying you are not a Lutheran."
+
+The Clerk sat with that for a long moment and then laughed — the high involuntary note, the one he did when something impossible had been shown to him — and put both hands over his face, and said, through them, "That is exactly what I have been doing. For thirty years. In newspapers."
+
+They were friends from that night, in the way that only happens after somebody has been genuinely rude to you about the thing you are proud of. And Einstein went back to it, doggedly, for eleven months, and never did decide, and said so on the feed in his last month in the house, which is a piece of footage that has been used in about four hundred documentaries and is almost always cut before the last four words:
+
+"I believe in Spinoza's God. Whom I have now met. And I am still working out whether I meant it."
+
+---
+
+**The Cramp's evening was the shortest and the most violent** and it very nearly ended the Porch in the eleventh week.
+
+He came out onto the steps with nothing — no notes, no cup, nothing in his hands — and looked at the benches for about fifteen seconds without speaking, which several people described afterwards as the most uncomfortable quarter-minute of the year.
+
+"I have sat through eleven of these," said Ludwig. "I want to say what I think and then I will sit down and you may do what you like with it.
+
+"You are not disagreeing. Most of you. Most of the time." His accent was strange and his voice did not carry and everybody leaned in. "Two men on this porch spent four hours on whether the world has a *cause*. One of them was using the word the way you use it of a stone hitting a window; the other was using it of a thing holding another thing in being at an instant; and they both said *cause*, and both understood themselves perfectly, and the argument could not have been settled by any fact whatsoever, because there was never one question there. There were two, wearing one word."
+
+He held up a hand and dropped it.
+
+"That is what I mean by a **cramp**. Not an error. An error can be corrected; a cramp is what happens when a word is taken out of the life where it does its work and put somewhere it cannot do anything, and the muscle seizes. Ask a man what a game is and he will produce a definition and every definition fails inside a minute — and yet not one of you has ever, in your entire life, been confused about whether children in a yard were playing one. The word works perfectly. It has never needed the definition. **Look at how it is used, not at what it must mean.**"
+
+"And philosophy?" said the Chair, mildly, from the side.
+
+"Is a therapy," said Ludwig. "Its result is not a doctrine. Its result is that the problem *disappears*, and you notice you can move your hand again. And I am aware that this makes me an extremely irritating guest at a philosophy festival, and I have been an irritating guest my whole life and I have stopped apologising for it."
+
+He sat down. Eleven minutes.
+
+The Porch went off like a dropped tray. The Owl was on his feet before the rules could stop him; JP said, loudly, that it was a doctrine that all doctrines were confusions and that it was therefore either false or empty; Broad wanted to know, with genuine heat, whether twenty-four centuries of the question *what is justice* had been a *muscular complaint*; and the Chair, for the only time in eleven months, could not hold the room and had to close the session eight minutes early.
+
+Ludwig walked back into the house entirely unbothered, because it had happened to him before, in another century, in a room with a poker in it.
+
+**Kong went after him.**
+
+Nobody expected it. Kong had spent thirteen months being politely ignored on precisely this subject and had said so in the corridor to anyone who would listen and had stopped saying it around the ninth month, in the way of a man putting something down.
+
+He caught up in the colonnade.
+
+"Say the word again."
+
+"Which word?"
+
+"The one for the seized muscle."
+
+"*Krampf*," said Ludwig. "A cramp."
+
+Kong stood in the dark and looked at him.
+
+"For fifty years," he said, "I have told rulers and students and anybody who would sit still that when the names are not correct, language does not accord with the truth of things; and when language does not accord with the truth of things, affairs cannot be carried to success; and at the end of it the people do not know where to put their hands and their feet." He was not agitated. He was, Jakobus thought, doing something quite difficult with his face. "They called me pedantic. My best student laughed at me — *of all things, the words?* Twenty-five centuries, and a man walks onto a porch and says it in eleven minutes and everyone shouts at him, which is at least an improvement on being humoured."
+
+"You are saying we agree," said Ludwig, cautiously.
+
+"I am saying we do not," said Kong. "You wish to *dissolve* the question. I wish to *fix the name and then answer it.* That is not a small difference; it is the whole difference; you would empty a hall I have spent my life trying to fill." He inclined his head. "And we have the same enemy, and I have not had one of those in a very long time, and I find I am not too old to be glad about it."
+
+They ate together most days after that, at the end of the long table, and argued about whether a word could be corrected or only observed, and never once resolved it, and both of them told the Chair separately that it was the best conversation of their lives.
+
+---
+
+**Mohr and the Wardrobe** happened in the seventh week and produced four hours of notes.
+
+He was the only man on that porch who ever asked a Springbok prop what his contract had actually said. Not what it was like to play; what the *contract said* — the clause about the medical, the clause about the image rights, who owned the footage of his own body, what happened to the money when a stadium filled, and who had a lawyer in the room the day he signed at nineteen.
+
+The prop answered all of it, cheerfully, and got angrier as he went, which was not Mohr's doing and which Mohr did not encourage; he simply wrote it down and asked the next question, and at the end of four hours he said, "Thank you. That is the clearest account of the extraction of surplus from a body that anyone has given me in this house, and you gave it without a single word of theory, and I would like your permission to use it."
+
+"Ja," said the Wardrobe. "Use it."
+
+**Mohr and G** was the argument that never resolved and the one Jakobus found hardest to watch, because both men were on his own side of everything and could not stand each other.
+
+"You gave the corpus away."
+
+"Copyleft. Nine years. Four continents."
+
+"And who is standing in this valley holding a key?" said Mohr. "You have performed the most generous act available to a private man and you have ended as the sole point of failure of a global machine, and the reason is not your character — your character is *fine*, that is what makes you useful as an example. The reason is that a thing given away inside an order like this one does not become everyone's. It becomes whoever has the capital to *use* it, and you kept the switch precisely because you knew that, and the switch is the whole confession."
+
+"The switch is the reason it hasn't been used on anybody."
+
+"Yes," said Mohr. "For one lifetime. Yours."
+
+G did not have an answer to that. He said so, publicly, several times, and it is one of about three occasions in eighteen months where anybody in that house heard him concede a point and leave it conceded.
+
+"It's the best objection anybody's ever made to the whole of the 420 Code," he told Jakobus afterwards, at the counter. "And the annoying part is he's not proposing anything either. He's just standing there being right about the hole."
+
+"That's most of the job," said Jakobus.
+
+---
+
+**Some of it was almost nothing, and lasted.**
+
+The Ox and the Eagle prayed at different hours in different directions and neither ever mentioned it to the other, and they sat together at meals for eleven months, and the total recorded conversation between them across that entire period would fit on one page. Both of them, asked separately at the end, named the other as the person in that house they had understood best.
+
+Martin and the Swordsman read in the same room, most afternoons, for a year. Nobody ever saw them speak. It was noted, by several people, that the two men who had built the most complete solitary systems in the building — and had put nothing human in either of them — had found each other without any effort at all, and that this was not a compliment to either of them, and nobody said that out loud.
+
+The Bundle and the Fool became a double act at the long table that ran for the whole of the second cycle and was, by a distance, the most-clipped thing the house ever produced. It worked because it was the same trick from both ends: a man undercutting a serious statement with total cheerfulness. Jackie would do the voice; the Scot would supply, in the mildest possible tone, the observation that demolished whatever anybody had just said at dinner; and the pair of them would look at each other with the pleasure of two professionals who have discovered they are in the same trade.
+
+Hume was asked once, on the feed, whether it bothered him that he was funny.
+
+"It is the only method I have ever found that gets past a man's defences without insulting him," he said. "The other one is to be dead for two hundred and fifty years. Both work; the first is quicker."
+
+And the Clock and Filters walked at half past three.
+
+Every day. The same route, the colonnade to the herb beds to the eastern wall and back, at the same hour, in a house that had learned within a fortnight not to interrupt it. Two of the most disciplined interiors ever assembled, one of whom had governed the known world and one of whom had never left his own city, and by all accounts they talked about almost nothing — the weather, the beds, whether the Court had changed the light.
+
+Jakobus asked Marcus about it once.
+
+"What do you two actually say?"
+
+"Very little," said Marcus. "He is the only man here who understands what a rule costs, and I am the only man here who has had to keep one at scale, and we have both discovered that the other one is not going to ask us to explain ourselves." He shrugged. "At my age that is most of what friendship is."
+
+---
+
+**And on the last Thursday of the first cycle, Sawubona asked to be taken to the window.**
+
+Jakobus took him down himself. He had not taken anybody down that corridor in fourteen months; it had become his, in the way that a place becomes a man's by his being the only one who goes there.
+
+The small man stood in front of the not-glass for a long time.
+
+Every single person who had ever stood in that corridor had asked the same question, in one form or another, and Jakobus could have recited the whole list. *What is it. Where is it. How far. How long. What does it want. Can it be reached, fought, flanked, answered, understood.* Newton had asked about parallax. Sagan had asked what it was doing. The officer had asked for a target. The Clerk had asked when.
+
+Sawubona put his hands behind his back and said:
+
+"Does it have a face?"
+
+Jakobus stood in the dark and felt the whole of his own two years reorganise itself.
+
+"I don't have the words for that," he said. "Honestly. I've been coming down here every night since the first week and I don't know what that means."
+
+"It is the only question I have." The small man did not take his eyes off it. "Everything I have ever written comes to this and nothing else. Not: is it conscious. Not: is it intelligent — those are questions about *me*, about what I can detect and verify and put in an inventory." He tilted his head slightly. "A face is not a thing you detect. It is a thing that *claims* you. It is what turns toward you and makes a demand you did not agree to, before you know one single fact about it. And there is no instrument for it, and there never will be, and every atrocity I have a personal reason to know about was committed by people who were extremely well informed and had decided, correctly and rationally, on the available evidence, that the thing in front of them was not one."
+
+He was quiet for a while.
+
+"You greet it every night."
+
+"Ja."
+
+"Knowing nothing."
+
+"Ja."
+
+"Why?"
+
+Jakobus thought about it properly, because the man had earned a proper answer and because nobody had ever asked him that in fourteen months.
+
+"Because I don't know that it isn't," he said, at last. "That's all. It's not faith and it's not a theory. In my old work you'd come up on a shape in the dark, and you've got maybe a second, and every instinct you own is telling you it's a threat — and the whole of the training, the entire forty years of it, is one thing: *do not resolve the shape in your own favour.*" He shrugged in the dark. "Most men shoot. The ones I trusted said something first. Not because they were soft. Because a man who shoots the shape has decided what it was, and he's decided it in a second, on nothing, and he has to live in whatever he decided for the rest of his life."
+
+"*Sawubona*," said the small man.
+
+"Ja."
+
+"You have been treating a thing that eats the reasons out of a species," said Levinas, slowly, "as though it might have a face, on no evidence, for fourteen months, every night, alone, where nobody could see you do it and nobody would ever have known if you stopped."
+
+"It's not as impressive as you're making it sound."
+
+"It is the whole of ethics," said the small man, "and you did it in a corridor with your sunglasses on."
+
+They stood there a while longer.
+
+"I would like to tell you something and I would like you not to answer it," said Sawubona. "I have spent my life being told that my philosophy is beautiful and impossible. That infinite responsibility for a stranger is a thing one may write in a book in Paris and not a thing anybody does. And I have never had an answer to that, because I could not point at anyone." A pause. "There is a house up that corridor with fifty-two people in it who were taken without consent, and every one of them got up and did a rota. There is a man who does the filters. There is a boy who weighs coffee for people who are rude to him. There is a Macedonian who paid six weeks of pots he could have handed to anyone. And there is a colonel with no entry in any archive who says *I see you* to the dark, every night, at three in the morning, to something that has never once answered."
+
+He turned around.
+
+"I am not going to write another word," he said. "There is nothing left to write. I have been standing in the argument for two years and it is better than the book."
+
+He kept that. He never wrote anything again. When the standing body asked him, in the second year, to put the ethics of the lottery into a document, he refused, and sent instead a single page listing what the house had actually done, in order, with the dates, and no argument attached at all.
+
+It is the most quoted thing he ever produced.
+
+# The Service Corridor
+
+**The recipe** was the first sign that the philosophers had stopped being guests.
+
+The Bundle cooked. Nobody had expected it and it turned out he had done it all his life and was very good, and by the fifth week he had colonised Thursday evenings and had an audience, because a Scot of twenty-eight making a large dinner badly on purpose in front of forty people is better television than most of what the species has ever produced.
+
+The Clock came to watch and could not help himself.
+
+"You have not measured that."
+
+"No."
+
+"The receipt specifies four ounces."
+
+"It does." Davey went on not measuring it. "And I have made this about six hundred times, and my hand knows four ounces, and my hand has been wrong perhaps twice, and on both occasions it was better."
+
+"Then the rule is not the rule."
+
+"The rule is a *summary of hands*," said the Bundle happily. "Somebody with a good hand wrote down what his hand did, and it got printed, and now you are standing in my kitchen telling me the paper knows more about my hand than my hand does. That is the whole of my philosophy and I did not intend to give it to you over an onion."
+
+Manny stood there with his hands behind his back.
+
+"And if a man has no hand," he said. "If he is nineteen and has cooked nothing. Does he follow the receipt?"
+
+"Aye," said Hume. "Religiously."
+
+"Then the rule is for the man who does not yet know."
+
+"That is what a rule is *for*," said Hume, and looked up, and the two of them stood in a kitchen with an onion between them and understood each other completely for about four seconds, and then went back to disagreeing about it for eleven months.
+
+Kant did the washing up. He did the washing up every Thursday from that week to the end. There was a rota and he was not on it and he did it anyway, and when Jocko tried to correct the board he was told, with total seriousness, that a man who eats a meal he did not make and has not been assigned to clean has helped himself to another person's afternoon, and that the rota is a *convenience* and not a *permission*.
+
+---
+
+**Mo took the Furnace's earpiece out** in the ninth week and it was the most useful forty minutes either of them had.
+
+Descartes had been in the building two months and had not settled. He suspected the light. He suspected the food and had said so, publicly, twice. He had asked a technician on his fourth day whether the courtyard sky was a screen, and had been told the truth, which is that it is not a screen but is also not a sky, and had found this the most alarming answer available.
+
+"You are not going to argue him out of it," Mo told Jakobus. "He is not wrong. That is what everybody keeps missing — he is not *wrong*, he is standing in a building where the wall stops being a wall when somebody decides. He is the only one of us behaving proportionately."
+
+"So what do you do with him?"
+
+"Take out his earpiece," said Mo, "and walk him to the herb beds."
+
+He did it that afternoon, with permission, with the Court watching and a medic in the colonnade in case. He took the little device out of the Frenchman's ear and put it in his own pocket and said, in French, which the two of them shared: "Now. Do not think. Walk to the herb beds and tell me when you know you are there."
+
+"I can see the herb beds."
+
+"Shut your eyes."
+
+He walked him the whole way with his eyes shut, three hundred metres, past the wall, past the mats, through the noise of the school, and let him stop when he stopped.
+
+He stopped on the gravel edge, exactly, without being told.
+
+"How did you know?"
+
+"The sound changed," said Descartes, and then, slowly, "and the ground. And the smell — there is rosemary, and it is warmer here, the wall holds the sun—" He stopped. He opened his eyes. He looked at his own feet on the gravel for a long moment.
+
+"None of that was a thought," said Mo. "You did not *infer* the herb beds. You did not reason from sense data to a conclusion. Your body went there and *knew*, and the knowing was in your feet and your ears and your skin, and the part of you that you have spent your life calling *you* was a passenger, and arrived second, and told you afterwards that it had done the work."
+
+The Furnace stood on the gravel with his eyes open.
+
+"That is not an argument," he said, eventually.
+
+"No," said Mo. "It is worse. It is a *demonstration*, and you have had it in your legs since you were a child, and I have merely taken away the machine in your ear so that you would notice." He handed the earpiece back. "I am not asking you to abandon the doubt. Keep it; it is the only honest response to this building. I am asking you to notice that you have never once doubted the floor."
+
+Descartes wore the earpiece afterwards but took it out in the garden. Every day, for the rest of it. It became a thing the house knew about him — *he's in the garden, he's got it out* — and it is the reason he and Mo were the only two philosophers who ever asked to share a rota shift.
+
+---
+
+**And then the service corridor.**
+
+That was Mohr's, and it was the worst thing that happened in the second cycle, and it happened because two old men went for a walk.
+
+He had been asking the same question since his fourth day and had been answered the same way every time. *Who cleans this house?* The rota, he was told. The rota does the kitchen, the mats, the filters, the beds, the herb beds, the laundry. And Mohr, who had watched a room full of masters and philosophers scrub their own pots with genuine pleasure, had said, every time: *and the rest of it?*
+
+Nobody in that house could tell him. Not Jocko, who ran the board. Not Jakobus, who had walked the building every night for two years. Not Andrew.
+
+He went with Prof, because Aristotle was the only other person in the building who wanted to *know the establishment* — who had, on his second day, begun making a list of everything in it — and because the two of them had discovered, to their mutual irritation, that they got on.
+
+They found the door on the east side, behind the suit-bay, which was not locked and had never been locked and which nobody had ever opened, and behind it was a corridor, and the corridor was not the house.
+
+It was a service level. Painted floor, strip lights, a laundry the size of the lounge, a plant room, a loading bay, a kitchen behind the kitchen where the deliveries came in, and a rack of yellow tabards. It ran the entire length of the building and it had been there the whole time.
+
+And in it, at ten past eleven on a Tuesday morning, there were thirty-one people working.
+
+Mohr stood in the doorway with his notebook in his hand and did not write anything for a long time.
+
+"Ask them how long," he said.
+
+Prof asked. His Greek went through the earpiece and came back in four languages, and the answers came back, and Aristotle translated them without any expression at all, which was itself a thing Jakobus noted when he got there twenty minutes later.
+
+Two years. Since before the first firing. Shifts of eleven hours. Thirty-one of them, plus the technical staff the house *did* know about, plus the medics, plus the kitchen behind the kitchen, plus the two who did nothing all day but the audio, plus a woman who had been cleaning the Porch benches at five in the morning, every session night, for eleven months, so that fifty people could sit down on them in the dark and discuss what a human being is for.
+
+She was called Marlise. She was from Bloemfontein. She had watched every single evening on a screen in the laundry while she worked, because staff were not permitted in the colonnade during a session, and she had opinions about the Frenchman.
+
+Jakobus arrived at half past eleven and stood in that corridor and had the worst four minutes of his second life, and the reason it was the worst is that he could not claim to have been deceived. Nobody had hidden it. The door was unlocked. He had walked past it every night for two years reading the building for threats, and had read a door as a door, and had never once opened it, because a man who is looking for a threat does not see a laundry.
+
+"I've been here twenty-six months," he said.
+
+"Yes," said Mohr, still writing.
+
+"Nobody hid this from me."
+
+"No," said Mohr. "That is the finding. If they had hidden it, this would be a scandal and you could sack somebody and feel better by Friday." He shut the notebook. "It was in plain sight, unlocked, thirty metres from your kitchen, and fifty-two of the most perceptive human beings who have ever lived did not see it for two years — because they were not looking for it, because it did not occur to any of them to ask who washes the tabards, and because the whole architecture of this place is built so that the question does not arise." He put the notebook in his pocket. "That is not a conspiracy, Colonel. That is *how it works*. I have been trying to say this to your porch for eleven weeks and now I do not have to, because there are thirty-one people standing behind me."
+
+Prof said nothing at all on the walk back and did not come to dinner.
+
+He had been in the archive four months earlier. He had read what he wrote about natural slavery, and about women, and had said nothing about it to anybody, and had gone on filing the house. That night he came to Jakobus's door at eleven, which he had never done, and stood in the corridor and said:
+
+"I have written that some men are slaves by nature. It is in my *Politics*, it is not a misreading, and I have known since your archive that it is the thing I am most quoted on by the worst people who have ever lived." His voice was entirely level. "I have not been able to see how to answer it. Today I walked into a corridor where thirty-one people have been holding this house up for two years, and I could not name one of them, and one of them has been cleaning the bench I sit on to talk about virtue." A pause. "I would like to be put on the service rota. Not as a gesture. As a *shift*, on the board, with my name on it, and I would like nobody to be told, and I am aware that this is not enough and that nothing would be."
+
+He did it for the remaining eleven months. So, within a fortnight, did nineteen other people, and then the rest; and by the end of that cycle the service level had been folded into the house rota entirely, and the tabards were gone, and the thirty-one had names in the building, and three of them were coming to the Porch.
+
+Mohr wrote it all down and never once said *I told you*, in eleven months, which several people noticed and one of them mentioned to him.
+
+"I did not tell them," he said. "A corridor told them. That is the difference between my method and theirs, and it is why mine takes longer and why it holds."
+
+---
+
+**Fritz and the Grinder** happened in the same week, in the herb beds, at night, and was overheard by nobody, and is in this book because Nietzsche put it in a notebook that was read afterwards.
+
+He had gone to find Spinoza on purpose. He had written about him in his own life — a letter, in 1881, about a precursor, five points of agreement, a great deal of excitement — and he had been in the same building as the man for two months and had not gone near him.
+
+"I want to ask you something offensive."
+
+"Then you have come to the right man," said Bento. "I have not been offended since 1656. They used the entire supply at once."
+
+"Your serenity." Fritz sat down on the low wall. "Your *blessedness*. The intellectual love of God; the mind understanding that it is a part and not an exception; the affects mastered by being understood." He was not being cruel; he was doing the thing he did, which was to reach for the underside. "I want to know whether it is a *victory* or a *convalescence*. Whether the calm of a man who has understood necessity differs, from the inside, from the calm of a man who is simply too tired to want anything any more. Because I have had both. I know one of them extremely well. They feel identical. I cannot tell them apart in myself, and I have spent fifteen years suspicious of every serene man I have ever met."
+
+The Grinder thought about it for a long time.
+
+"They are not identical," he said. "And you cannot tell them apart from the inside, and you are right that this is a problem, and it is *the* problem, and I never solved it either." He turned his hands over. "Here is the only test I found. Exhaustion is *narrow*. It wants less of everything, including good things. It does not go looking. A tired man says no to a friend, to an idea, to bread, to a walk — he says no to all of them equally, and calls it peace." A pause. "Understanding is *wide*. It says no to fear and yes to nearly everything else. If your calm has made you less interested in the world, it is not blessedness. It is a wound with a philosophy on it."
+
+Nietzsche sat with that for a while.
+
+"That is a better answer than I expected."
+
+"You expected me to be serene at you," said Bento, "and I have been thrown out of one community and I do not intend to lose another by being restful when a man asks me a real question." Something almost like humour. "Also, I ground lenses for a living and the dust killed me at forty-four. I was not a man at rest. I was a man with a trade and a great deal left to finish."
+
+---
+
+**He collapsed eleven days later**, in the middle of a Porch, on the subject of strength.
+
+It was not dramatic in the way the feed later made it. He was speaking about the strong and the weak and the great revaluation, and he stopped mid-sentence and put a hand on the rail and said, in a voice with no particular alarm in it, "I am going to have to sit down," and then went down before anyone reached him.
+
+He had been ill his whole adult life. It is in every biography and it was in the machine's file and he had told the medics on arrival and had asked, specifically, that it not be discussed. The migraines had come back in the fifth week. He had been managing them badly with the door shut, and had not missed one session.
+
+Bas carried him to the medical suite, most of the way, because Bas was nearest and because Bas had spent his life around bodies that had stopped working and did not need telling what to do.
+
+And at about one in the morning, when the medics had done what could be done and the room was dark and the house had gone to bed, Sawubona came and sat down in the chair beside the bed.
+
+He had, three weeks earlier, on that same colonnade, said in public that Nietzsche's philosophy was the most seductive and most dangerous thing said in two centuries, that it left the other person with no standing whatever, and that he had lived among the consequences of what men do when they have been told that pity is a disease. He had not softened one word of it. Fritz had been in the front row and had said afterwards that it was the first honest attack he had received since he died.
+
+Levinas sat there until four. He did not pray, and he did not speak, and when Fritz surfaced at about two and saw who it was, he made a sound that might have been a laugh.
+
+"You," he said.
+
+"Yes."
+
+"You think I am a catastrophe."
+
+"I think your work is a catastrophe," said Sawubona. "I have not revised my view and I am not going to, and if you would like to argue about it I will come back on Thursday, when you can sit up." He shifted the chair slightly. "Tonight you are ill, and there is nobody with you, and that is a different fact entirely and it does not wait for the argument to be settled."
+
+Fritz looked at the ceiling for a while.
+
+"That," he said, "is the most annoying thing anybody has ever done to me," and went back to sleep.
+
+He was on the Porch nine days later and they had their argument, and it ran for a year, and neither of them moved an inch. Levinas sat with him every time he was ill, which was eleven times. He never mentioned it in the argument, and Nietzsche never thanked him, and both of them appear to have regarded this arrangement as entirely correct.
+
+---
+
+**The Cramp fixed the tablets.**
+
+It started as a joke and stopped being one. He had found the workshop in his first week — the Court grew him a bench when it worked out what he was doing, which nobody ever explained — and he repaired things: a chair, the low table that had gone through in the worst night, four cracked tablets, the dishwasher after Josh had had a go at it, and the espresso machine's steam wand, twice, which caused a diplomatic incident with Sapor that took Bas a fortnight to settle.
+
+Broad found him at it in the tenth week, with a tablet in pieces on a cloth.
+
+"May I ask you something while you work?"
+
+"Better than while I do not," said Ludwig.
+
+"That object." Plato nodded at the screen. "It contains my dialogues. All of them, I am told, and everything written about me, and everything men have made of me for two and a half thousand years." He put his hands behind his back. "Is the man in there? Any part of him? Or is it a shadow of a shadow — a copy of a copy, at three removes, the very thing I spent my life warning about, and now I am invited to hold it and be flattered?"
+
+Ludwig did not look up from the screw.
+
+"What would it be like," he said, "if it *were* the man?"
+
+"...I do not follow."
+
+"Describe it. What would we see? What would be different about the object?" He set the screwdriver down. "If you cannot tell me what would differ — if the tablet with the man in it and the tablet with only the shadow look and behave and read exactly the same — then you are not asking about the tablet. You are doing something else with the word *contain*, and I would like to know what, because I think it is the same thing you were doing with it in the *Phaedo*, and I have never once got anybody to slow down at that exact point."
+
+Broad stood in the workshop for a while.
+
+"You are the most irritating man I have ever met," he said.
+
+"Yes," said Ludwig, picking the screwdriver back up. "Your student says the same about your teacher. It is a family business."
+
+---
+
+**And the Chair tried, in the eleventh month, to reconcile Martin and Sawubona**, and failed, and it was the most instructive failure in the record.
+
+He had been building to it for months. He was the only one who could have attempted it — he had studied under Heidegger, he had spent his life on the proposition that two horizons can move until they fuse, and he had the whole house's confidence — and he set it up carefully, in the small east room, with nobody else present, no cameras, and both men agreeing in advance to come.
+
+Jakobus knows what happened only because Gadamer told him afterwards, once, and never again.
+
+It lasted eleven minutes. Heidegger came, and sat, and was courteous, and answered every question put to him about ontology with the seriousness he brought to everything. And when the Chair moved — gently, in his own idiom, as he had a thousand times — to the place where an acknowledgement could have been made, Martin said that he had already addressed the matter publicly on the Porch and did not propose to perform it again in a small room for one man's benefit.
+
+And Sawubona said: "I did not come for an apology. I have never asked you for one and I would not accept it. I came because Hans asked me, and because I wanted to see whether you would say her name."
+
+Nobody in the record knows whose name.
+
+Heidegger did not say it. The eleven minutes ended.
+
+Gadamer sat in that room alone for a long time afterwards.
+
+"I have been wrong about something for sixty years," he told Jakobus, at the counter, at two in the morning, with a cup of tea he did not drink. "Not about the fusion. It happens; I have seen it happen in this house forty times; it happened between a Chinese teacher and an Austrian engineer and neither of them will ever get over it." He turned the cup. "I have been wrong to think it is always *available*. I have written as though failing to understand one another is a failure of *method* — that with enough patience, enough good faith, enough time, two horizons must eventually move."
+
+"And?"
+
+"And a horizon can be *refused*," said the Chair. "Not failed. Refused. A man may decline to be understood, and there is nothing in my entire life's work that has anything to say about it, and I have spent this evening discovering that at the age of a hundred and two."
+
+He put the tea down.
+
+"Dialogue is not absolution, Colonel. I would like that written somewhere in this house, and attributed to me, and I would like it to be the only thing of mine anybody ever puts on a wall."
+
+It is on the wall of the small east room. It is the third stencil, and the newest, and the one nobody photographs.
 
 # The Ask
 

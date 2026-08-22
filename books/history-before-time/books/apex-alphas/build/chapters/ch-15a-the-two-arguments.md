@@ -148,7 +148,7 @@ The break stopped being a break.
 
 He picked his cup back up.
 
-"That is my answer and it is the whole of it, and it is why I sit through every one of these evenings and never ask a question. I am not being rude to your porch. I am the only man here who cannot use his instrument on it, and I have found that if I sit still with that for long enough it stops being a humiliation and becomes a fact about the size of the thing."
+"That is my answer and it is the whole of it, and it is why I sit through every one of these evenings and never ask a question. I am not being rude to your porch. I am the one man on this porch who cannot bring his instrument to bear on it, and I have found that if I sit still with that for long enough it stops being a humiliation and becomes a fact about the size of the thing."
 
 The Chair said, later that night, to nobody in particular, in the kitchen, that in sixty years of universities he had never once heard a man refuse to take a side for a reason that was *better* than either side.
 
