@@ -2202,6 +2202,59 @@ in fifty-five years:
 
 **That it worked better through glass than through nothing at all.**
 
+Puharich ran that one nine times over two weeks because he did not believe it either.
+
+Air. Nothing. Card. Aluminium foil. Lead sheet. A steel box. Plain glass. A glass jar. A glass jar of
+water. A glass jar of salt water. He was systematic in the way that a man trained in medicine is
+systematic, which is to say he changed one thing at a time and wrote all of it down including the
+failures.
+
+The ordering came out the same on every run, and it makes no sense under any theory that anybody has
+ever proposed:
+
+Metal blocked it. That much was expected and is the only part that behaved.
+
+Nothing — plain air, straight line, no barrier — was mediocre.
+
+Glass was better than nothing.
+
+Water was better than glass.
+
+**A sealed glass jar of water was better than anything, by a margin that was not marginal.**
+
+Uri could not account for it and did not try. He had known it since he was about eleven, in Nicosia,
+where the hotel had a glass carafe on the reception desk and where the one object in that building he
+could affect from across the room was the spoon standing in it.
+
+Puharich wrote, in the margin of the fourth run, a line that he never developed and never published
+and that sat unread in a journal in a cardboard box for fifty-four years:
+
+*Not a barrier problem. Coupling?*
+
+—
+
+He had it. That is the thing that makes this chapter hard to write.
+
+Andrija Puharich, in a hotel room in Tel Aviv in the autumn of 1971, with no equipment worth the name
+and no funding and no institutional backing, wrote down the correct answer in two words with a
+question mark after it, and then went off in the other direction for the rest of his life.
+
+Because a barrier problem is boring. A barrier problem is shielding and attenuation and inverse
+squares, and it leads to a table of numbers.
+
+*Coupling* is the interesting word and he did not follow it, and the reason he did not follow it is
+that he was already, by the fourth run, more interested in *who was sending* than in *what it went
+through*.
+
+Fifty-five years later, at eight minutes past four in the afternoon on the twentieth of December
+2026, two hundred million people are going to be sitting behind glass screens, and every one of them
+is going to be a sealed vessel of water holding a piece of metal, and the thing is going to work
+better than it has ever worked in the history of the world.
+
+Nobody will connect it to a line in a margin in 1971. There will be no reason to. The journal will
+be in a storage unit off Route 17 by then and the man who wrote it will have been dead for
+thirty-one years.
+
 Not through lead. Not through steel. Through *glass*, and through water, and best of all through a
 sealed glass jar of water, which makes no sense under any theory anybody has ever proposed and which
 Puharich, to his credit, simply wrote down without trying to account for.
@@ -2420,6 +2473,72 @@ He went back to the hotel that night and could not sleep for happiness.
 
 —
 
+The other thing about Menlo Park, and it took him about thirty years to understand it, is that they
+were the only people who ever told him he was allowed to fail.
+
+It was a procedural point rather than a kindness. Targ explained it in the second week, patiently,
+twice, because Uri had apologised after a null trial and then apologised again.
+
+"You have to stop doing that."
+
+"I am sorry—"
+
+"That. Stop that." Targ took his glasses off. "Uri. A null result is a result. If you get a hit every
+time, you are a magician, because nothing in nature works every time. Do you understand what I am
+telling you? *The failures are the reason anybody will believe the hits.* If you could do it on
+demand I would throw the whole file away."
+
+Uri sat with that for a while.
+
+"You want me to fail."
+
+"I want you to *not perform*." Targ put the glasses back on. "Which I appreciate is the only thing
+anybody has ever paid you for."
+
+—
+
+It did not take. That is the tragedy of the year and it is nobody's fault.
+
+He tried. For nine months he genuinely tried to be a subject rather than an act, and he was better at
+it by the end than at the beginning, and the numbers in that laboratory are the best numbers anybody
+ever got out of him precisely because of it.
+
+But he had been a performer since he was six years old in a schoolyard by the bins, and the reflex is
+not a habit, it is a nervous system. When the room went quiet he filled it. When a trial produced
+nothing he made a joke. On the days when the equipment failed and everybody stood around waiting, he
+did card tricks for the technicians, actual card tricks, sleight of hand, badly — and it drove
+Puthoff to a level of quiet fury that he never once expressed and that is legible in the log for
+14 March in a single sentence about scheduling.
+
+They needed a witness and they had been sent an entertainer.
+
+And the entertainer was telling the truth, which is the part that nobody has ever been able to hold
+in their head at the same time as the card tricks, and which is why the whole thing came apart.
+
+—
+
+Near the end of the year Puthoff asked him a question in the car park, and it was not a protocol
+question either.
+
+"If we publish and it goes badly for us — and it will, you understand that, whatever we write — what
+happens to you?"
+
+Uri thought about it.
+
+"I go on television," he said.
+
+"And if we publish and it goes *well*?"
+
+He had not considered it. He genuinely had not, not once in nine months, and he stood in a car park
+in California at twenty-six years old and worked out the answer in front of a man who was watching
+him do it.
+
+"...I go on television," he said.
+
+Puthoff nodded slowly, and did not say anything else, and got in his car.
+
+—
+
 They liked him. This is also not much reported.
 
 He was funny and he was eager and he was exhaustingly, relentlessly charming, and he wanted so
@@ -2520,6 +2639,65 @@ allegedly guessing—sat with his hands flat on the table and said, "I have noth
 recorded as a miss.
 
 Cardboard has no opinion. Nothing was pressing on anything that could complain.
+
+—
+
+There is one trial in that series that Targ never wrote up properly and that appears in the log as
+four words and a time.
+
+They had been running the die for about a fortnight. On a Thursday in April, Puthoff — who was
+getting bored, which is a legitimate experimental instinct and produces about a third of everything
+that has ever been discovered — put a die in the steel box, shook it, put it on the table, and then,
+without telling anybody, put a second steel box on top of the first.
+
+Empty. Nothing in it. Just a box on a box.
+
+Uri, in the chair, said: "There are two."
+
+Puthoff said: "Two what?"
+
+"Two boxes. Why are there two boxes." He had not looked up. He was not looking at the table at all;
+he had his head back and his eyes half shut, which was how he sat when it was working. "The top one
+is nothing. It is empty. Take it off, it is in the way."
+
+"In the way of what?"
+
+And Uri Geller, aged twenty-six, in a shielded room, gave the answer that is the whole of his
+physics and that nobody in that building recognised as physics.
+
+He said: "It is standing on the one underneath."
+
+—
+
+Read that again, because Puthoff did, about four hundred times, over the next thirty years.
+
+An empty steel box sitting on a full steel box is *load*. It is two kilograms of pressure distributed
+across the lid of the container he was reading, and it changed what the bottom box had to say about
+the small weight inside it, the way a hand on your shoulder changes your voice.
+
+He was not seeing the die. He had never been seeing the die.
+
+He was listening to a steel box complain about being stood on, and the die was one small part of the
+complaint, and when you put a second box on top the complaint got louder in the wrong register and
+buried the thing he was actually reading.
+
+Nobody asked the follow-up. That is the whole history of Uri Geller in one afternoon. The follow-up
+question is *what do you mean, in the way* — and it takes eleven seconds to ask, and it was not
+asked, because there was a protocol to get through and a null trial to log and a man in the chair
+who did card tricks for the technicians.
+
+The log entry for that afternoon reads: *subject detected additional container.*
+
+That is it. That is all of it.
+
+Fifty-three years later a materials scientist called Frances Okonjo-Hale is going to sit at a kitchen
+table in Sonning and say the words *this is not a cooling figure*, and she is going to be the second
+person in the history of the world to work out that Uri Geller reads load paths through metal, and
+she is going to get there because she does failure analysis for a living and it is literally her job
+to look at a piece of steel and say what was done to it.
+
+Puthoff was four hundred hours and one question away, in April 1973, and he had a protocol to
+finish.
 
 Targ noted the pattern and could not account for it: *subject's confidence appears correlated with
 container material rather than with target difficulty.* He filed it as a curiosity. It is the single
@@ -2644,6 +2822,64 @@ touch it, and Byrd said no, and he took his hand away and sat back and said, "Th
 longer."
 
 It took twenty-one minutes.
+
+The transcript of those twenty-one minutes is eleven lines long, because Byrd was writing rather than
+talking and Uri was not performing, and the whole of it is worth having:
+
+*10:14 — subject seated, hand approx 10cm above wire 2. No contact permitted.*
+
+*10:19 — subject asks whether he may hum. Permitted.*
+
+*10:26 — subject asks how much longer I intend to allow. Told: as long as he likes.*
+
+*10:31 — subject: "it is very quiet."*
+
+*10:33 — asked to clarify. Subject: "it has nothing in it. It is like a new spoon. There is nothing
+to hold."*
+
+*10:38 — subject appears to be perspiring. Offered break. Declined.*
+
+*10:44 — subject: "I have found the shape it is supposed to be."*
+
+*10:47 — asked to clarify. No response.*
+
+*10:52 — visible deformation, wire 2, approx 1/3 along, est. 30 degrees. Subject did not touch.*
+
+*10:53 — subject epistaxis, left nostril. Session ended.*
+
+*10:55 — subject asks whether it worked. Told: unknown until heated.*
+
+—
+
+Two things in that document are worth more than everything else written about Uri Geller in fifty
+years, and they are both in the middle, and Byrd did not know what he had.
+
+The first is *it has nothing in it.*
+
+Nitinol is manufactured. It is drawn, and then it is trained — heated in a jig at high temperature
+until the lattice takes the shape you want it to remember, and then cooled. And *training is
+annealing*. The process that gives memory metal its memory is the same process that erases every
+other memory the metal has: the drawing, the mill, the hands, the whole thin history that Uri had
+been hearing in objects since he was five years old.
+
+A piece of trained nitinol is the only common metal on Earth that has been deliberately emptied of
+everything except one instruction.
+
+He picked it up and found it silent, and said so, at 10:31, in a small room in Maryland, and the
+scientist wrote it down and did not know that his subject had just correctly described the
+metallurgical history of an alloy he had never heard of eleven minutes earlier.
+
+The second is *I have found the shape it is supposed to be.*
+
+Not *I am bending it*. Not *I am making it go*. He located the remembered shape — the single
+instruction, the one thing in there — and the next line in the log is the deformation.
+
+He did not put a bend in a wire.
+
+He got hold of the only memory the wire had, and he changed it, and then the wire did what nitinol
+always does when you warm it, which is to go home.
+
+Home was somewhere else now.
 
 At the end of twenty-one minutes the wire had a kink in it, about a third of the way along, of
 perhaps thirty degrees.
@@ -2834,6 +3070,63 @@ it, at some later date, in biro, with a question mark:
 
 —
 
+Here is what it was actually like to produce one, because the record has the drawings and nobody has
+ever written down the afternoon.
+
+The protocol was undramatic. He sat at a table in the shielded room with a sheet of paper and a
+pencil — a wooden pencil, hexagonal, with a brass ferrule and a rubber, standard issue, four of them
+in a jar — and he was told that a target existed and that it had been sealed, and then he was left
+for twenty minutes.
+
+He drew badly and fast and then stopped and pushed it away, and that was the whole of it, and the
+door opened.
+
+What happened inside the twenty minutes he described eleven times in his life to eleven different
+people and never got it any better than this, which he said to Targ in the car park in the June:
+
+"I do not see it. Nobody sees anything. My hand is bored and it goes."
+
+The pencil, of course. Graphite in a wooden barrel with a brass ferrule on the end, four inches from
+the paper, held in a hand — and no one in that building ever once considered the pencil, because a
+pencil is not equipment. It is the thing you write the results with.
+
+Every apparent clairvoyance in this book has a piece of metal in the room doing the work. There has
+never been an exception. On the eighteenth of June 1973 the metal was a brass ferrule, and the reason
+the corridor drawing has three words under it in his own handwriting that he does not remember
+writing is that his hand had been going for eleven minutes by then and had not stopped when the
+picture did.
+
+—
+
+Targ came in at the end of that one and found him sitting back from the table with the sheet turned
+face down, which he had never done before and never did again.
+
+"Finished?"
+
+"It is not the boat," Uri said.
+
+"I haven't told you it's a boat."
+
+"It is not what it is." He was grey. "It is a place and I do not want to go there."
+
+Targ picked it up, looked at the corridor and the three words, said *all right*, and put it in the
+folder marked NON-TARGET, and offered him a lift back to the hotel, and Uri said no and walked.
+
+That is the entire conversation. It is in no log because it was not part of the trial.
+
+Fifty-three years later he walks down that corridor at seventy-nine years old with a bent spoon in
+his coat pocket, and it is exactly as long as he drew it, and the racking gives way to grey cabinets
+past the halfway point the way he drew it, and the air is two degrees cooler.
+
+*It is cold.*
+
+He was right about not wanting to go there. He was right in June 1973, in a room in California, with
+a pencil, at twenty-six, about a building in Buckinghamshire he would not enter for fifty-three
+years — and he told a physicist so, out loud, and the physicist said *all right* and filed it,
+because there was nothing else on Earth that a reasonable person could have done with it.
+
+—
+
 The five of them went in the folder with the other six and the trials moved on, and this is not a
 failure of anybody's intelligence. It is what a laboratory is *for*.
 
@@ -3006,6 +3299,59 @@ anybody involved appears to have found difficult:
 
 *Then we have made the world safe by making a truthful man ridiculous, and God help us.*
 
+—
+
+There is a second document and it is much shorter and it is the one that should frighten you.
+
+It is a costing.
+
+Two pages, prepared some weeks later by somebody in an entirely different part of the building who
+had never heard of Uri Geller and had been given a task, and it exists because the recommendation in
+the first document required — as recommendations do — a figure attached to it before anybody would
+sign.
+
+It is titled, in the flat idiom of the period, *Estimate: cost of non-support.*
+
+The estimate is that the removal of institutional support would cost, in direct expenditure,
+approximately nothing, since it consisted of declining to renew arrangements that had not yet been
+renewed.
+
+There is a line for staff time. There is a line for liaison. There is a note that the media
+component was expected to be self-sustaining and to require no expenditure of any kind, with a
+reference to the existing activity of the professional magicians' community.
+
+And at the bottom, in the box marked for the total, somebody has typed a figure, and the figure is
+four hundred and something dollars, and it is annotated *(travel only)*.
+
+—
+
+That is the price.
+
+The most effective operation of its kind in the twentieth century, conducted against a man who was
+telling the truth, which worked completely and for fifty years and cost him his standing, his
+scientific future, a great deal of his dignity, and — on the one day in his life when he needed a
+camera and eleven minutes — nearly everything else.
+
+Four hundred and something dollars. Travel only.
+
+You do not need a budget to ruin somebody. That is the finding. You need to *stop paying for
+something*, and let a large number of decent people continue to do their jobs well.
+
+—
+
+The costing was signed. There is an initial in the box, in pencil, and it is not legible, and there
+has never been the slightest reason for anybody to try to make it legible.
+
+Somewhere in the same fortnight, in a laboratory in Menlo Park, Uri Geller sat in a chair and told
+two physicists that it worked better through a jar of water than through air, and Puthoff picked up
+a pencil and wrote it down and treated it as data, and Uri went back to the hotel and could not sleep
+for happiness.
+
+Both things are true and they are eleven days apart, and nobody involved in either of them knew the
+other one was happening, and that is not a conspiracy.
+
+That is just how it goes.
+
 \newpage
 
 # Seventeen
@@ -3133,6 +3479,59 @@ thing that Uri Geller carried for the rest of his life and never repeated to any
 
 —
 
+He went back into the building that evening and did the experiment properly, alone, because he had to
+know how far down it went.
+
+Thirty spoons. He had already emptied nine of them. He took a tenth and did not bend it — he simply
+held it, for a long time, and read it, and then wrote down on the back of a protocol sheet everything
+that was in it, in Hebrew, in his own bad handwriting, in the order it arrived.
+
+Rolling. Press. Clip. A long dull warmth. Hands, quick, many, none of them returning. Heat that is
+not fire, on a cycle. Boredom.
+
+Then he bent it. Then he read it again and wrote down what was left.
+
+The fold. And after the fold, arriving in the same instant and belonging to it: *a hand, holding.
+Warm on one side.*
+
+His own.
+
+That is the part he had not understood on the floor of the preparation room and understood now, and
+it took the bottom out of the whole thing. He had thought he was deleting the record. He was not
+deleting it. He was *overwriting* it — and the thing he was overwriting it with, every single time,
+in eleven thousand demonstrations across fifty-three years, was himself.
+
+Every spoon he ever bent stopped being a spoon that had been to a factory and a canteen and became a
+spoon that had been held by Uri Geller.
+
+He sat in the preparation room with two sheets of paper and worked out what that meant and then went
+and stood outside the building for a while.
+
+—
+
+It means the objects are all still out there.
+
+That is the thought, and he has never been able to put it down. Somewhere on this planet there are
+tens of thousands of pieces of cutlery in drawers and boxes and museum cases and cardboard folders,
+in forty countries, and every one of them has exactly one thing in it, and the thing is a hand,
+holding, warm on one side.
+
+He is the only person who can hear it and he has never gone looking.
+
+There was an afternoon in 2004, in a hotel in Zurich, when a woman of about sixty came up to him in
+the lobby with a fork in a plastic bag. Her father had been at a show in 1974. She had kept it. She
+wanted him to sign the bag, not the fork, because she did not want to touch it.
+
+He signed the bag. And then he asked her, very carefully, whether he might hold the fork for a
+moment, and she said of course.
+
+He held it for about four seconds and gave it back and thanked her and went upstairs and sat on the
+end of the bed for a while, because he had just listened to himself at twenty-seven years old, in a
+hall in Germany, on a Tuesday, being twenty-seven, and it was the closest thing to a recording of his
+own life that will ever exist, and it was four seconds long, and it belonged to a stranger.
+
+—
+
 He did not stop.
 
 He was twenty-six. He had a career, a manager who was eighteen, a girl in Israel he intended to
@@ -3251,6 +3650,57 @@ was also the only one he had.
 
 "I have no idea," he said. "It may not be you at all. It may be that you are simply where it is
 happening."
+
+—
+
+The tea went cold. Neither of them noticed for a while.
+
+Uri asked one more thing, and it was not a good question and he knew it was not, and he asked it
+anyway because he was twenty-seven and had been in the room with a first-rate mind for two hours and
+was never going to be again.
+
+He said: "If it is not me — if I am only the place — then can it be somewhere else?"
+
+Bohm considered it.
+
+"That is the right question," he said, "and I cannot answer it, and I want to point out that you have
+just asked it much better than the people who arranged this afternoon."
+
+"That is not an answer."
+
+"No." He almost smiled. "But I will tell you what I would look for. If it is a property of *you*,
+then it is a biological curiosity and it will die with you and nothing else will ever happen. If it
+is a property of the *situation* — if the situation is what matters, and you happen to be standing in
+it — then it should be, in principle, reproducible. It should turn up elsewhere."
+
+"Elsewhere."
+
+"In other people." Bohm put his cup down on the sill. "Under similar conditions. Which I imagine
+would mean anyone who was, for whatever reason, in something like the state you are in when it
+occurs."
+
+Uri Geller stood in a corridor in Bloomsbury in June 1974 and did not say the thing he could have
+said, and the reason he did not say it is that it had not yet occurred to him that it was relevant.
+
+He had, at that moment, about two hundred letters in a suitcase at the hotel. They had started
+arriving in December. They were from children.
+
+—
+
+He remembered the conversation properly for the first time about eight months later, in the spring of
+1975, sitting in a private room above a restaurant off Jermyn Street with a folder on the table that
+nobody had opened.
+
+*It should turn up elsewhere. In other people.*
+
+An Englishman in a very good suit was explaining, courteously, over a good lunch, that there were now
+rather over four thousand of them and that they had written in with their ages and their addresses.
+
+Bohm had said it in a corridor as the best-case scientific outcome — the thing you would hope for, the
+finding that would turn a freak into a phenomenon and a phenomenon into a field.
+
+The same sentence, eight months later, in a different room, was the reason a man agreed to spend the
+rest of his life being a joke.
 
 —
 
@@ -3387,6 +3837,66 @@ What Puharich said, at some point in it, is the only line either of them ever re
 them reported it the same way, twenty years apart, which is unusual enough to be worth trusting.
 
 He said: "But it is what you told me."
+
+—
+
+He was not wrong, and that is what made it unanswerable.
+
+Uri had said it. He had said *nobody is in the pipes but something is going through them*, in a flat
+in Jerusalem in October 1971, at one in the morning, with a handkerchief to his face — and it is in
+the journal, dated, in Puharich's small clear hand, because Puharich wrote everything down.
+
+Everything after that was interpretation. And interpretation is what a man does with a thing he has
+been given and cannot share.
+
+Uri stood in a hotel room in New York with the telephone in his hand and understood, in about four
+seconds, that he had no argument. He could not say *you lied*, because Puharich had not lied. He
+could not say *you invented it*, because he had not. The only true sentence available was *you were
+wrong about what it meant*, and it was two in the morning and the book had been in shops for nine
+days and there were forty thousand copies.
+
+So he said the thing you say when there is nothing to say, which is nothing, for a long time, on an
+international line in 1974, at some expense.
+
+Then he said: "Andrija. Take my name off the next one."
+
+"There isn't a next one."
+
+"Good."
+
+—
+
+He put the phone down and sat on the end of the bed and did the arithmetic that he was going to spend
+the next fifty-two years pretending he had never done.
+
+If the book had not existed, he would have had — what? Two years, perhaps three, of serious attention.
+Taylor at King's had not recanted yet. Hasted was still working. Bohm had said *that is very
+interesting* in a corridor four months earlier. There was a paper in *Nature*.
+
+Three years is enough. Three years is more than enough. Somebody in that window would have asked the
+follow-up question — *what do you mean, in the way* — and somebody would have put a load cell under a
+steel box instead of a die, and the whole of the rest of it would have gone differently.
+
+The book closed the window in about a month.
+
+And the man who closed it was the only person in the world who had ever asked him whether it was
+*him*, and who had come to Israel at his own expense, and who had paid for everything, and who had
+been, for four years, the nearest thing to a father Uri Geller had since 1957.
+
+—
+
+He did not hate him for it. That is the strange part and it is worth stating, because a book about a
+man's grievances would have him hate him.
+
+He was furious for nineteen years and then he got on a train to Dobbs Ferry, and the fury turned out
+to have been a sort of holding pattern for something much worse, which was that he had watched a
+serious man destroy himself with a single word substitution and had been unable to stop it because he
+had been twenty-five and tired and had wanted to be a star.
+
+*I told you it was pipes.*
+
+*You did. It is the best sentence anybody said to me in fifty years of work and I crossed out the
+noun.*
 
 —
 
@@ -3607,6 +4117,82 @@ looked at him, and Shipi saw whatever there was to see, and put both hands up br
 *forget it, I didn't say it*, and went and made tea.
 
 They never discussed it again.
+
+—
+
+Except once, nineteen years later, sideways, in a car.
+
+They were driving from Reading to Heathrow in 1992 and the radio was doing a thing about the
+anniversary of something, and a clip came on — twenty seconds of it, the audio only, the specific
+quality of an American studio in 1973 — and Shipi reached over and changed the station without
+saying anything, which is what he had done every single time for nineteen years.
+
+Uri said: "Leave it."
+
+Shipi left it. They listened to the rest of it, which was about ninety seconds, including the part
+where a very young man says he is not feeling strong, and then a presenter in a London studio in 1992
+said something amused and moved on to the weather.
+
+They drove for a while.
+
+Then Shipi said, to the windscreen: "I have never asked you."
+
+"No."
+
+"I want you to know that it was not because I did not want to know."
+
+Uri looked out of the window at the M4.
+
+"I know why it was," he said.
+
+"Do you."
+
+"You did not ask me because if I told you, you would be the only other person who knew, and then you
+would be carrying it as well." He shrugged, which was as close as either of them came. "And you had
+enough. You were eighteen and you were carrying the money and the bookings and my mother."
+
+Shipi Shtrang drove for about two miles.
+
+Then he said: "It was on television in forty countries and they still say it every time they say your
+name," and his voice was not entirely level, "and I have had to hear it for nineteen years and say
+nothing, and I would like it on the record that this has been extremely annoying."
+
+And Uri Geller laughed until he had to hold onto the door, for about a mile and a half of the M4,
+which is the only time in this book that the Carson show is funny, and it is the only way either of
+them was ever going to be able to touch it.
+
+—
+
+There is a coda and it belongs here rather than at the end.
+
+In 2007, thirty-four years after, Uri did an interview with a German magazine in which he said that
+he would no longer describe himself as having supernatural powers, and would prefer the word
+*mystifier*, and that he was an entertainer.
+
+It went round the world in about a day. It is still the single most-quoted thing he has ever said. It
+is in the first paragraph of a great many articles about him and it is treated, universally, as the
+confession.
+
+He walked it back within the month and everybody laughed at that too.
+
+What nobody has ever asked — not one interviewer, in nineteen years — is what he was doing in 2007.
+
+He was sixty. He had two children in their thirties. The children of 1974 were in their forties by
+then and had jobs and mortgages and had long since stopped writing to anybody.
+
+And a man who had agreed to something in a private room off Jermyn Street in 1975, and had maintained
+it at his own expense every year since, quietly checked, at sixty, whether he could put it down.
+
+He said the sentence. He watched what happened for four weeks — who called, who wrote, which
+telephone numbers he had not heard from in thirty years suddenly rang.
+
+Then he walked it back.
+
+He has never explained why, and the standard reading is vanity: that he could not bear to be an
+ordinary entertainer for more than a month.
+
+The other reading is available to anybody who has read this far, and it does not require a single
+additional fact.
 
 —
 
