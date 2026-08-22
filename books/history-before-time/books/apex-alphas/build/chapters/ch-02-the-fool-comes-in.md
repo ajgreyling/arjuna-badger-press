@@ -90,7 +90,7 @@ The small man looked at him with real warmth then, the warmth of a man who has j
 
 The house tipped under Jakobus a third time.
 
-The scrubbed voice had told him in the white room — *a man you idolised, who will not know you* — and he had taken the words as information and set them down. Now, with the warm dry hand of the man in his own warm hand, the words had a body. He kept his face still. He had thirty years of practice at keeping his face still and he spent all of it at once.
+The scrubbed voice had told him in the white room that this house was full of men he had watched as a boy, and that not one of them would know him — and he had taken the words as information and set them down. Now, with the warm dry hand of the man in his own warm hand, the words had a body. He kept his face still. He had thirty years of practice at keeping his face still and he spent all of it at once.
 
 But the small man clocked it anyway. Of course he did. Reading the right hand was his whole religion too. The brightness in him stilled, just for a beat — and for that one beat he set the mask down. Jakobus watched it go: the delight, the chaos, the wheeling warming-his-hands brilliance, all of it lowered for a second like a man setting down a heavy tray. What was under it was old, and kind, and bone-tired, the face of a man who had broken every bone he had, more than once, to make strangers feel something for an afternoon — and who had spent a whole long life learning what that cost and choosing to pay it again the next morning. It was the realest thing Jakobus had seen since he died.
 

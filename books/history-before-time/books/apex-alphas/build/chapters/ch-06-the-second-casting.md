@@ -14,7 +14,7 @@ He had spent forty years being sent at things, and every one of them had a body.
 
 Four hundred and ten million, that Monday. People who had stopped. Not dead. Sitting in chairs with the reasons gone out of them.
 
-He had put twenty-nine men and women through a school and made a family out of a wardroom of frozen kings, and he was proud of it, and it was not going to matter, and it had taken him six weeks to be honest about that.
+He had put sixteen men and women through a school and made a family out of a wardroom of frozen kings, and he was proud of it, and it was not going to matter, and it had taken him six weeks to be honest about that.
 
 So on the Tuesday he went and found the scrubbed voice.
 
@@ -102,7 +102,7 @@ Jakobus, against the wall, made a small private note that he had just met the mo
 
 He did not mean it in the way the word usually got used in that house. The young man could not have taken a punch from any single soul in the lounge, and half of them could have ended him with a decision. It was not that. It was that Jakobus had spent his whole life reading what a man wanted so that he could give the man a door — that was the mastery, that was the thing the Machine had put on his file, *he binds people who cannot be bound* — and he had looked at this one for eleven seconds and found no door anywhere. Not fear, not pride, not the want of company, not even the want of being right in front of others. Just a locked house with a lamp on inside it and every curtain drawn, and the only thing wanting out was work.
 
-The woman spent the worst thing first anyway. Eighty-four. A long life. London. Famous past all reckoning, and — because she was very good, and because she had read his file the way she read everyone's — she added the other true thing, the one nobody else in the room would have known to say: *and you will not be happy in it, and you will spend a great deal of it on the alchemy and the scripture, and the world will decide, later, to be embarrassed about that on your behalf. I'm telling you now so you don't have to hear it from a fool at dinner.*
+The woman spent the worst thing first anyway. Eighty-four. A long life. London. Famous past all reckoning, and — because she was good at this, and because she had read his file the way she read everyone's — she added the other true thing, the one nobody else in the room would have known to say: *and you will not be happy in it, and you will spend a great deal of it on the alchemy and the scripture, and the world will decide, later, to be embarrassed about that on your behalf. I'm telling you now so you don't have to hear it from a fool at dinner.*
 
 He took that in silence, which Jakobus had also done.
 
@@ -130,9 +130,9 @@ It ran a day at a time after that, the way the banks allowed, and the house lear
 
 Friday came in laughing.
 
-That was the entire read on him, and Jakobus made it in the first three seconds from the doorway. Twenty-six, a bad suit that had been pressed by someone who loved him, hair already refusing to be a hairstyle, and the machine set him down on his feet in the most terrifying room ever constructed and he came back to himself and looked around it and *laughed* — one short delighted note, high, involuntary, the laugh of a man who has just been shown something impossible and is not frightened first, is *pleased* first, before the fear even gets its boots on.
+That was the entire read on him, and Jakobus made it in the first three seconds from the doorway. Twenty-six, a bad suit that had been pressed by someone who loved him, hair already refusing to be a hairstyle, and the machine set him down on his feet in the most terrifying room ever constructed and he came back to himself and looked around it and *laughed* — one short delighted note, high, involuntary, the note a man makes when he has just been shown something impossible and is not frightened first, is *pleased* first, before the fear even gets its boots on.
 
-The woman spent the worst thing first. Seventy-six. Princeton. There is an artery, and they will offer to repair it, and you will decline. *"I have done my share,"* she quoted at him, gently, because he had said it and would say it. *"It is time to go."*
+She did the worst thing first, the way she did with all of them. Seventy-six. Princeton. There is an artery, and they will offer to repair it, and you will decline. *"I have done my share,"* she quoted at him, gently, because he had said it and would say it. *"It is time to go."*
 
 He stood with that a moment. Then he nodded slowly and said, with an accent the earpiece did not bother to sand off, "That sounds like me. I am glad. It is not everybody who gets to be recognisable at the end." He looked around the white room again, and up, and then at the floor, and then he asked his question, and his question broke the house open.
 
@@ -276,7 +276,7 @@ The room adjusted. Jakobus watched it adjust — the small movements, the head t
 
 "Show me."
 
-"It's *public,*" G said again, and for the first time something came up under the tired flatness, and it wasn't pride, and it took Jakobus a second to place it, and when he placed it he sat up. It was the thing you hear in a man who has been shouting at a closed door for so long that his voice does this now whether he wants it to or not. "It's been public for nine years. Copyleft, mirrored on four continents, hashed, dated, free. Nobody read it. Three people read it. It got called numerology by a man who didn't open the appendix, and it sat there for nine years while I did contract work, and then the sky went quiet and someone at CERN who was very frightened and very unemployed at three in the morning ran a search on 'ordering' and 'consent' and found it, and eleven weeks later there was a man standing up in a white room."
+"It's *public,*" G said again, and for the first time something came up under the tired flatness, and it wasn't pride, and it took Jakobus a second to place it, and when he placed it he sat up. It was the thing you hear in a man who has been shouting at a closed door for so long that his voice does this now whether he wants it to or not. "It's been public for nine years. Copyleft, mirrored on four continents, hashed, dated, free. Nobody read it. Three people read it. It got called numerology by a man who didn't open the appendix, and it sat there for nine years while I did contract work, and then the sky went quiet and someone at CERN who was frightened and out of ideas at three in the morning ran a search on 'ordering' and 'consent' and found it, and eleven weeks later there was a man standing up in a white room."
 
 The room was completely silent.
 

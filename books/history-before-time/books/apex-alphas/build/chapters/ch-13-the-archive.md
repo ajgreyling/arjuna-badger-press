@@ -28,7 +28,7 @@ Bohr went first, on the Tuesday afternoon, in front of everybody, cheerfully, an
 
 He came out mildly delighted, mildly irritated, and entirely unchanged. Delighted: they had put his face on the money. Irritated: about a third of the sayings hung on him were not his, including the famous one about predictions and the future, which he had never said, and which he minded rather more than he minded the atom. He announced both findings to the lounge, got his laugh, and went back to the Kriegspiel board, and the whole thing was over before dinner.
 
-Sagan was second, at his own request, with Rogan and Theo Von either side of him and the feed running, which was the most Sagan decision anybody had ever made. He read his own entry out loud to eight billion people, including the death, and the year, and the illness, and he made three jokes and one of them was very good. He was quiet about only two things. The first was a small private thing about his wife which he did not read out. The second was the phrase *billions and billions*, which he had never once said, which had been attached to him by an impressionist and then by everybody, and which was now — the archive showed him the numbers — the single most repeated thing associated with his name in the entire record of the species.
+Sagan was second, at his own request, with Rogan and Theo Von either side of him and the feed running, which was the most Sagan decision anybody had ever made. He read his own entry out loud to eight billion people, including the death, and the year, and the illness, and he made three jokes and one of them landed. He was quiet about only two things. The first was a small private thing about his wife which he did not read out. The second was the phrase *billions and billions*, which he had never once said, which had been attached to him by an impressionist and then by everybody, and which was now — the archive showed him the numbers — the single most repeated thing associated with his name in the entire record of the species.
 
 "Well," he said, to the camera, after a pause that went on a beat too long for television. "That's what a legacy is. It's the thing they can carry, not the thing you handed them." He tapped the table. "Carry a better one. Go and learn what a parsec actually is; it's more interesting than the joke."
 
@@ -182,7 +182,7 @@ Jocko, to his credit, said nothing at all, which was the right call.
 
 The gym stopped completely.
 
-"I'll tell you why and then you can hate me for it," Jocko said, and stood up. "I put it there. Month one. Before you were reached — before I knew you'd ever be in this building, before I knew that was even possible." He pointed at it. "I read that book on a deployment in 2005, in a place I'm not going to describe, in a very bad month, and it did not read to me like advice from an emperor. Not once. It read exactly like what you just said it was: some guy, in a tent, in a bad winter, being a coward about tomorrow and writing himself into being able to do it." He put his hands down. "That is *why it works*. Nobody has ever been helped by a strong man telling them to be strong. Twenty centuries of people have been helped by finding out that the most powerful man in the world was, in private, at night, exactly as frightened as they are, and got up anyway, and wrote it down badly, and didn't publish it."
+"I'll tell you why and then you can hate me for it," Jocko said, and stood up. "I put it there. Month one. Before you were reached — before I knew you'd ever be in this building, before I knew that was even possible." He pointed at it. "I read that book on a deployment in 2005, in a place I'm not going to describe, in a bad month, and it did not read to me like advice from an emperor. Not once. It read exactly like what you just said it was: some guy, in a tent, in a bad winter, being a coward about tomorrow and writing himself into being able to do it." He put his hands down. "That is *why it works*. Nobody has ever been helped by a strong man telling them to be strong. Twenty centuries of people have been helped by finding out that the most powerful man in the world was, in private, at night, exactly as frightened as they are, and got up anyway, and wrote it down badly, and didn't publish it."
 
 Nobody moved.
 
@@ -206,7 +206,7 @@ Theo Von opened one at the long table and read it out for the laugh, because tha
 
 *Confucius say: man who stand on toilet is high on pot.*
 
-The table went up. It was a good laugh; it was the sort of stupid thing a house of very serious people needs at eight in the evening.
+The table went up. It was a good laugh; it was the sort of stupid thing a house of serious people needs at eight in the evening.
 
 Confucius was four seats away.
 
@@ -244,7 +244,7 @@ And then he explained to the lounge — which had come for the comedy and stayed
 
 Nobody said anything.
 
-"That is not fussiness about words. That is the whole mechanism by which a state either holds or comes apart, and I watched three of them come apart in my lifetime, precisely there, in the gap between what a thing was called and what it was." He put the slip of paper down on the table. "You have three billion of these a year. They are in my name. They are not my sentences, they are not my language, they are not even my *century*, and the people who read them will read nothing else of mine, ever. And when they hear my name, that will be the sound it makes." A pause. "You are all sitting in a house at the end of the world trying to work out how to answer a thing that is asking you what you are. And you cannot get the names of a biscuit right."
+"That is not fussiness about words. That is the whole mechanism by which a state either holds or comes apart, and I watched three of them come apart in my lifetime, precisely there, in the gap between what a thing was called and what it was." He put the slip of paper down on the table. "Three billion of these leave a bakery every year. They are in my name. They are not my sentences, they are not my language, they are not even my *century*, and the people who read them will read nothing else of mine, ever. And when they hear my name, that will be the sound it makes." A pause. "You are all sitting in a house at the end of the world trying to work out how to answer a thing that is asking you what you are. And you cannot get the names of a biscuit right."
 
 Sam Harris put his hand over his mouth and left it there.
 
@@ -286,7 +286,7 @@ Confucius read for a long time with his face getting stiller and stiller.
 
 "You can be killed."
 
-"I'm eighty-six years old in my own life," said Carlos, "and I've got the knees to prove it."
+"I'm eighty-six years old in my own life," said Carlos, "and I've got the knees to prove it. In here I've got the knees I had at twenty-eight, which is the single strangest thing about this place and I've stopped mentioning it."
 
 "And your actual—" the old man searched for it, and Jakobus, forty feet away on the colonnade steps and not moving, watched him find the exact word, in a second language, in a foreign century "—your *record.* The thing you did. Is it in there?"
 
@@ -372,7 +372,7 @@ He went to the terminal himself on the fortieth night, at two, when the corridor
 
 It took four minutes.
 
-A service number. A unit, with most of it blacked out by his own hand across twenty years of forms he had personally filled in. Three medals, two of which had no citation attached because the citations were still sealed and would be sealed for another sixty years. A farm in the Boland with a bond on it. A wife. Two children, and their children, and a small note about a bursary that one of the grandchildren would receive in nineteen years' time, which he read four times. A death: sixty, in the bush, in the afternoon, sitting down, and no other detail because there had been no other witness.
+A service number. A unit, with most of it blacked out by his own hand across twenty years of forms he had personally filled in. Three medals, two of which had no citation attached because the citations were still sealed and would be sealed for another sixty years. A farm in the Boland with a bond on it. A wife. Two children, and their children, and a small note about a bursary that one of the grandchildren would receive in nineteen years' time, which he read four times. A death: sixty, in the bush, in the afternoon, sitting down. And then a further field, which he had not expected and sat looking at for some time, containing the man behind him and the quality of the thing and the fact that it had been done with respect — sourced, the record said, to nothing at all. There had been no witness. He read that field four times and closed it and did not raise it with anybody, then or afterwards.
 
 That was all of it.
 

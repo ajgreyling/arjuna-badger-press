@@ -13,7 +13,7 @@ recognised not by their fame but by what another master saw in them on sight. Th
 
 | # | Name | Died | Age at death | Reached at | At their most |
 |---|---|---|---|---|---|
-| 1 | **Jakobus Swart** — recce colonel, South Africa *(fictional)* | in the bush, on a Tuesday afternoon | **60** | **29** | forty years of putting fear down, still in the field |
+| 1 | **Jakobus Swart** — recce colonel, South Africa *(fictional)* | in the bush, on a Tuesday afternoon | **60** | **28** | forty years of putting fear down, still in the field |
 | 2 | **Bruce Lee** (Lee Jun-fan) | Kowloon, 20 July 1973 | **32** | **29** | the year he broke with every tradition and built his own |
 | 3 | **Jackie Chan** | *living* | — | **52** | the decade of the real, broken-bone craft |
 | 4 | **Miyamoto Musashi** | Higo, 13 June 1645 | **~62** | **29** | 1612, Ganryūjima |

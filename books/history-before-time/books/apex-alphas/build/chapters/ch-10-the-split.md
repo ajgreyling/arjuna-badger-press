@@ -4,7 +4,7 @@ G took nine days, not a week, and on the ninth he asked for everybody in the lou
 
 He had spent the nine days working. That was all. He had not lobbied one person. He had done his shifts on the rota, he had eaten at the long table, he had lost a small amount of chore currency at cards on the Sunday and paid it, and the rest of the time he had been in the small room off the suit-bay with the door open, with Einstein for two of the days and Newton for one and the officer from the Stargate programme for a long strange afternoon nobody ever got an explanation of, and the light had been on in there most nights until three.
 
-At eight he came into the lounge with the laptop under his arm and stood where the school stood to teach, and the house arranged itself, thirty-three people and a red eye in the ceiling and eight billion on the other side of it.
+At eight he came into the lounge with the laptop under his arm and stood where the school stood to teach, and the house arranged itself, thirty-one people and a red eye in the ceiling and eight billion on the other side of it.
 
 "You voted that one man shouldn't hold the key alone," he said. "You were right. I want to say that first and I want it on the record, because I've spent nine days trying to build the version where you were wrong and there isn't one." He put the laptop down on the low table without opening it. "Caesar's analysis was correct in every particular. I've been a single point of failure for a year. I've known it for a year. The reason I didn't fix it is the reason nobody ever fixes it, which is that every fix I could think of made it worse, and it's easier to carry a thing badly than to hand it to a room."
 
@@ -40,13 +40,13 @@ The room waited.
 
 "And Caesar."
 
-The lounge made a sound. Not a gasp — a kind of collective intake, the sound thirty-three highly capable people make when the ground moves under a thing they thought they understood.
+The lounge made a sound. Not a gasp — a kind of collective intake, the sound thirty-one highly capable people make when the ground moves under a thing they thought they understood.
 
 Caesar did not move at all.
 
 "Say the reason," he said.
 
-"Two reasons and you're not going to like either." G's voice did not change. "First: you made the argument in the open. You could have taken it. There were four ways to take it and I've thought about all four and three of them would have worked, and you stood in a lounge for eleven days and asked thirty-three people to vote instead. I'm not going to reward that with distrust; that's how you teach a man that the open road is the stupid road.
+"Two reasons and you're not going to like either." G's voice did not change. "First: you made the argument in the open. You could have taken it. There were four ways to take it and I've thought about all four and three of them would have worked, and you stood in a lounge for eleven days and asked thirty-one people to vote instead. I'm not going to reward that with distrust; that's how you teach a man that the open road is the stupid road.
 
 "Second." He did look at him then. "Because if you're going to come for it anyway, I would rather you came for it from *inside* the arrangement, where you have to persuade two of these four to come with you, than from outside it, where you'd only have to persuade the house. You are the most dangerous political mind in the recorded history of the species and I'd be an idiot to leave you unemployed."
 

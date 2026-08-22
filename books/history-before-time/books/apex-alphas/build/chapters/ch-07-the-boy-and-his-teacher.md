@@ -30,7 +30,7 @@ He and Confucius found each other on the eleventh, when Confucius arrived, and t
 > **Confucius (Kong Qiu, 孔丘)** — b. Zou, State of Lu, 551 BC; d. Qufu, 479 BC, **aged 71**.
 > **Reached at 55** — 497 BC, Minister of Crime in Lu, at the beginning of fourteen years of exile.
 
-The Chinese teacher came through the way he did everything, which was as though he had been expected and was slightly early. Seventy-two in his own life and taken at his most, which turned out to be a hard-faced man in his fifties with a straight back and an entirely unimpressed way of standing.
+The Chinese teacher came through the way he did everything, which was as though he had been expected and was slightly early. Seventy-one in his own life and taken at his most, which turned out to be a hard-faced man in his fifties with a straight back and an entirely unimpressed way of standing.
 
 He did not ask about the window. He did not ask about the machine. He listened to the whole of it, the worst thing first and the reach and the dark and the four hundred million people sitting in chairs, and then he asked his question, and his question was:
 
@@ -66,7 +66,7 @@ Twenty-nine. Not tall. Not remotely the statue. A slightly uneven set to the nec
 
 He had spent forty years around dangerous men. He had met charisma before; the house was full of it; McGregor could fill a room from a doorway and Flatley could take one apart by walking across it. This was not that. This was something with a temperature, and it arrived before the man did, and Jakobus understood in about four seconds why thirty thousand men had walked to India.
 
-The woman spent the worst thing first. Thirty-two. Babylon. A fever, eleven days, and a great deal of argument afterwards about whether it was fever or a cup. *And they asked you who should have it, and you said —*
+She gave him the worst of it in the first minute. Thirty-two. Babylon. A fever, eleven days, and a great deal of argument afterwards about whether it was fever or a cup. *And they asked you who should have it, and you said —*
 
 "Do not tell me what I said."
 
@@ -196,13 +196,13 @@ The trouble started eight days later and it started, as everything in that house
 
 Alexander had begun to train with them. Of course he had. He was quick, he was fearless, he was two thousand years out of date, and he was being systematically dismantled twice a day by people who had spent their whole lives on it — and he loved it, visibly, the way he loved everything he was bad at for the first ten minutes and then rapidly less bad at.
 
-And on the Thursday he stood up in the middle of the school, in front of thirty-one people, and said the thing.
+And on the Thursday he stood up in the middle of the school, in front of twenty-five people, and said the thing.
 
 "This is very good," he said, "and it is a school for a war that is not coming."
 
 The room went quiet the way a room goes quiet.
 
-"You are training to meet a thing that has no body." He was not shouting. He never shouted. He turned as he spoke and he gave the sentence to different faces around the circle, which was a trick Jakobus had seen exactly one other man do well. "Your physicists say it cannot be fought and I believe them; I do not understand a word they say but I believe them, they have the faces of men who are telling the truth. So we are not an army. Good. What are we? We are thirty-one people in a house, and out there are eight billion who are going out like lamps, and you have all decided that the answer is a *question* and that we must wait, politely, in Switzerland, until the clever men have it."
+"You are training to meet a thing that has no body." He was not shouting. He never shouted. He turned as he spoke and he gave the sentence to different faces around the circle, which was a trick Jakobus had seen exactly one other man do well. "Your physicists say it cannot be fought and I believe them; I do not understand a word they say but I believe them, they have the faces of men who are telling the truth. So we are not an army. Good. What are we? We are twenty-five people in a house, and out there are eight billion who are going out like lamps, and you have all decided that the answer is a *question* and that we must wait, politely, in Switzerland, until the clever men have it."
 
 "That's roughly it," said Sagan, from the couch, without heat.
 
@@ -222,7 +222,7 @@ Goggins was already on his feet.
 
 And that was the moment — Jakobus put it in his own private ledger that night, with the date — that the house of masters stopped being a team assembled to answer a question and became something else, which had a leader in it who had not been elected, and which was, from that Thursday, extremely effective.
 
-They put it out four days later: the same broadcast, the same window on the house, and now a thing at the end of it. Small tasks. Absurd tasks, some of them. Walk somewhere with somebody. Learn one thing badly from a person who is good at it and let them watch you be terrible. Fix one broken thing on your street. Every night the house set one and every night the house did it too, on camera, badly — thirty-one of the greatest living and dead masters of anything doing something they were bad at, in public, for eight billion people.
+They put it out four days later: the same broadcast, the same window on the house, and now a thing at the end of it. Small tasks. Absurd tasks, some of them. Walk somewhere with somebody. Learn one thing badly from a person who is good at it and let them watch you be terrible. Fix one broken thing on your street. Every night the house set one and every night the house did it too, on camera, badly — twenty-five of the greatest living and dead masters of anything doing something they were bad at, in public, for eight billion people.
 
 The Monday number, three weeks later, was down.
 

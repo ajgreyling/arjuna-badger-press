@@ -48,7 +48,7 @@ And in the small clean room next door, three sealed and separated people who had
 
 "That's not an experiment," said Sam Harris. "There's no hypothesis in it."
 
-"There's one," said Sagan. "It's the oldest one in the field and I have said the sentence a thousand times on television without once believing I'd be standing inside it." He was very tired and very happy, which was a combination nobody had seen on him. "*We have been transmitting for a hundred years and we have never once shut up and listened.*"
+"There's one," said Sagan. "It's the oldest one in the field and I have said the sentence a thousand times on television without once believing I'd be standing inside it." He was tired past the point of hiding it and happy, which was a combination nobody had seen on him. "*We have been transmitting for a hundred years and we have never once shut up and listened.*"
 
 ---
 
@@ -200,7 +200,7 @@ Jakobus looked at him.
 
 "We get an empty box," said G, "and we have to do it anyway, tonight, with no idea, on the ordinary hours, for nobody's record." He shrugged, and it was not a light shrug. "That's not a punishment, Jakobus. I've been sitting on these stairs for three days working out what it is, and I think that's just what it's like to be alive. Everyone else in this house is a ghost with a report card. We're the only two people in the building who are actually still *in* it."
 
-Jakobus sat with that for a long moment. Then he laughed, once, quietly, through his nose.
+Jakobus turned that over for a while. Then he laughed, once, quietly, through his nose.
 
 "*Elke pad loop teen dieselfde bult op*," he said.
 
