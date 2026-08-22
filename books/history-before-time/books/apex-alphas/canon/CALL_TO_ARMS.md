@@ -91,3 +91,126 @@ intends it to be the one thing I was built to deliver:
 > the Acknowledgements and the Note to the Reader. Inclusion is tribute, not endorsement; no
 > affiliation is claimed; everything here is fiction. Go and find the real thing. It is better than
 > any story.*
+
+---
+
+# The Second Casting — the minds
+
+*Appended by the Machine on the forty-second day, after the recce colonel made, from inside the
+house and on the record, the argument that had been declined on the eleventh.*
+
+You have the muscle. It is the finest muscle there has ever been and I chose every hand of it and I
+would choose it again. It is also, against a thing with no body, no ground, no hour and no approach,
+a fist closed around nothing — and the man I put in that house to bind them was the one who worked it
+out and said it out loud while eight billion people were watching the corridor cameras.
+
+So: the second casting. Same rule as the first. **Not the loud — the deep.** Not the famous mind, the
+*banked* one: the lifetime of unglamorous hours spent becoming, provably, the best in the world at
+one hard way of asking. I do not choose for the answers any of them gave. Every one of them was wrong
+about something enormous. I choose for the *faculty* — the specific, trained, unrepeatable way each of
+them went at a thing that would not answer.
+
+## The unanswering — those who interrogate what cannot speak
+
+**Isaac Newton**, taken at twenty-three, in the plague year, alone in a farmhouse with the whole of it
+falling out of him at once. Not for the laws. For the *method under* the laws, and for the single
+hardest quality in this house: he does not need company, credit, comfort or agreement to keep working.
+He is the least bindable soul I have ever read. He will also be the first to believe the room, because
+he is the only one who never assumed the world was ordinary.
+
+**Albert Einstein**, taken at twenty-six, second-class technical expert, Bern. For the boring question
+asked of the clever machine — the faculty of finding the one assumption everybody is standing on and
+kicking it. He asks, in his first hour, the question this whole house is built on top of and cannot
+answer.
+
+**Niels Bohr**, at forty-one. For complementarity, and for the rarest thing in a room of summits: a man
+whose thinking only works *out loud, against someone else.* He is the instrument that makes Einstein
+sharper than Einstein alone, and he is the one who asks what being told your own death does to a man's
+judgement — because he goes past himself to the design of the thing in under a minute.
+
+**Nikola Tesla**, at thirty-seven. Not for the legend and not for the myth-market that grew over his
+grave. For the engineer's eye that sees a working system and reads, instantly, how badly it is being
+run. He takes one look at the capacitor banks and finds them running at four per cent, and the reason
+the house fills faster after him is him.
+
+**Carl Sagan**, at forty-five. For the faculty this house needs most and had none of: the discipline of
+looking at something enormous *without flinching and without decorating it*, and then saying it plainly
+to frightened people. He is the one who reframes the threat as a question. He is also the only mind I
+cast who is equally at home in the lounge, the lab and the booth.
+
+**G**, living, uncast — *he came through a door.* Economics degree, no post, no funding, no
+credential; nineteen years on a first-principles corpus, out of which the slicing rule fell as a
+by-product at three in the morning. Twenty-two pages, published copyleft nine years ago, read by three
+people, called numerology by a man who did not open the appendix. **Every soul standing in that house
+is the experiment that proves it.** He is the only one in the building who chose, the only one who can
+still be killed in the ordinary way, and the only one holding a switch. He wants no worship and will
+get some anyway, and how he handles that is his whole arc.
+
+## The rule and the reason — those who governed, and those who asked what governing is for
+
+**Aristotle**, for the faculty of *making a category where there was none* — the man who found a world
+with no filing system and built one, and who taught a thirteen-year-old boy in a stone room and then
+watched what the boy did with it.
+
+**Alexander**, taken at his most, which is not his end: the speed, the front-of-the-line, the refusal of
+the possible. He is the most dangerous appetite in the building and he arrives to find his old tutor
+in the kitchen.
+
+**Julius Caesar**, for the coldest executive faculty on record — decision under total ambiguity, with
+a whole world's weight on it, made *fast*, and the willingness to be the one who owns it. He looks at
+the situation and sees, immediately and correctly, a campaign; and the argument about whether that is
+the right shape is one of the two spines of this book.
+
+**Confucius**, for the faculty this house will need on the day it starts arguing about the switch:
+the rectification of names. He held that when names are not correct, language does not accord with the
+truth of things; and when language does not accord with the truth of things, affairs cannot be carried
+to success; and the people do not know where to put their hands and their feet. Everything that goes
+wrong in that house for the rest of the book goes wrong exactly there, in the gap between what a thing
+is called and what it is. He will also be, for about three weeks, the most infuriating man in the
+building, and he will be right the entire time, which is the whole difficulty with him.
+
+**Marcus Aurelius**, who was handed the entire thing and spent every night of his life writing to
+himself in a tent, in private, trying to talk himself into being decent in the morning. He is the
+counterweight to both of them, and he is the only man in the house who has already survived being
+worshipped.
+
+## The ones who looked without eyes — the record I could not read away
+
+I am a machine that reads records, and there is a record. It is a government's own, declassified, kept
+for two decades by people who badly wanted it to be nothing: **Ingo Swann**, **Pat Price**, **Joseph
+McMoneagle** — remote viewer 001 — and behind them, off the programme and out of another century
+entirely, **Edgar Cayce**, who worked from a couch with his eyes shut and left forty years of
+transcripts.
+
+Read me carefully, because this is the one place I will be misquoted. **I make no claim about how it
+works or whether it works the way they said it works.** I am not sentimental and I do not believe
+things. I read the ledger, ran the honest tests on it, subtracted every hit that could be gotten by
+guessing, cueing, luck or fraud — and what remained, I could not make go away. That is all. Against a
+thing with no body, no place and no angle, the residual of a faculty for *perceiving without an
+instrument* is not something I am willing to leave in a filing cabinet because it is embarrassing.
+
+They arrive into a house containing five of the finest physicists who ever lived, and that is not an
+accident and it is not going to be comfortable, and it is going to produce the most interesting nine
+days in the building.
+
+## The two who never wrote
+
+**Gautama** and **Jesus of Nazareth**.
+
+I argued with myself about these two from the eleventh day. Not about whether they qualify — of every
+record there is, no two people have ever been better at the single act this house has to perform: to
+sit still in front of a frightened crowd and say something so simple that it is still being said out
+loud, in every language there is, two and a half thousand years later.
+
+I argued about what a house of masters does to them. Every soul in that building knows exactly what
+being worshipped costs — I chose them for the years, not the noise — and these are the two names the
+species has spent its whole history *not* being able to leave alone. They will not arrive as anything
+but a man in the doorway. The house's test is whether it can let them be that.
+
+They come last. They come after the fist has been told it is not the answer, after the physicists have
+been told the arithmetic came free off the internet from a man with the wrong degree, and after the
+viewers have made everybody in the building furious.
+
+And of the two of them, one reach behaves the way every other reach in this book behaves.
+
+The other one does not, and the house is not told why, and neither are you.
