@@ -160,7 +160,7 @@ It had Chase Hughes standing in a lounge saying *I cannot produce that one and I
 
 It had a boy of twenty-three weighing beans to a hundredth of a gram for a house that would be awake in five hours.
 
-Whether any of that constitutes an answer, nobody in that building ever claimed to know. The grey quiet did not stop. It *slowed* — measurably, unmistakably, month on month, for eleven months, and then it stopped falling and sat, and then it fell again — and there are four hundred million people who never came back and there is no version of this that pretends otherwise, and the men and women in that house carried that, and did not decorate it, and went on working.
+Whether any of that constitutes an answer, nobody in that building ever claimed to know. The grey quiet did not stop. It *slowed* — measurably, unmistakably, month on month, for eleven months, and then it stopped falling and sat, and then it fell again — and there are four hundred million people who have not come back and there is no version of this that pretends otherwise, and the men and women in that house carried that, and did not decorate it, and went on working.
 
 But it never again felt like being read by something that had not yet decided whether the anthill was worth the walk.
 

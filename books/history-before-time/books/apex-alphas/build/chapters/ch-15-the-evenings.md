@@ -210,7 +210,7 @@ Feet asked the first question. It was seven words.
 
 "Do you get to *see* it once?"
 
-The Athenian looked at him for a long moment.
+The Athenian took his time about it.
 
 "I do not know," he said. "I have never been sure. I have written as though yes, and I have lived as though no."
 
@@ -302,7 +302,7 @@ But the Doctor stood in the booth on the last Friday in May and said the honest 
 
 ---
 
-Not all of it was warm, and the book will not pretend it was.
+Not all of it was warm. Two of those evenings did damage that took months.
 
 **Mohr's night** — the grey-moustached auditor, who had spent five weeks on the chit market and had the figures — was the coldest evening of the year. He put up, on a board, in his own hand, what the house had built in eleven days: a currency out of chores, a market in future obligations, a lending desk by the fourth day, and by month three a man doing three shifts a week for other people because he owed. He gave the man's name. He then observed, without heat, that the house had found this charming, that a Roman had defended it as property and been applauded, and that the greatest collection of human excellence ever assembled had reproduced, in eleven days, from nothing, with no money and no scarcity and no need whatever, the exact machinery that had eaten his century.
 
