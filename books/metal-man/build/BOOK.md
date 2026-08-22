@@ -4348,6 +4348,56 @@ He wrote *this is how it can be done.*
 
 He is far too good at this to have done that by accident.
 
+—
+
+There is a piece of Randi's own testimony that has been in print since 1975 and that nobody has ever
+read carefully, and it is worth doing now, because it is the closest he ever came.
+
+It is in the introduction to *The Magic of Uri Geller*, and it is a paragraph about why he decided to
+write the book at all. He explains that he had watched the SRI material, and that he had been asked
+by journalists to comment, and that he had at first declined.
+
+And then he gives his reason for changing his mind, and the reason is not *because Geller is a
+fraud*.
+
+The reason he gives is that scientists were being fooled, and that the *institutional* damage of
+serious people taking this seriously was the thing that had to be stopped.
+
+Read as a debunker's manifesto that is unremarkable — it is the standard position, and he held it
+about a dozen other subjects.
+
+Read with chapter twenty-four in your hand it is something else entirely, because it is not an
+argument about whether the phenomenon is real. It is an argument about what it would cost if people
+believed it, and it is the same argument, almost word for word, that an Englishman in a very good
+suit made over lunch off Jermyn Street eleven weeks earlier to a twenty-eight-year-old who agreed
+with him.
+
+Two men reached the same conclusion in the same season by completely different routes and never
+compared notes, and one of them spent forty-five years enforcing it in public and the other spent
+fifty-one years enforcing it on himself.
+
+Neither of them ever said so. One of them may not have known.
+
+—
+
+The other thing about Randi, and it is the reason the corridor scene works and the reason this book
+will not let him be a villain, is the letters.
+
+He answered them. All of them, for fifty years — the cranks, the students, the furious believers,
+the fourteen-year-olds who had read one book and wanted to argue. He wrote back, at length, by hand
+and then by keyboard, patiently, thousands upon thousands of times, and there are people all over the
+world who still have the letters.
+
+He did it because he thought that if you are going to take something away from somebody you owe them
+the courtesy of doing it in person.
+
+Nine hundred children wrote to Uri Geller in 1974 and he read every one and answered them in bad
+English in blue biro from hotel rooms in four countries.
+
+James Randi, who spent his life calling that man a fraud, would have done exactly the same thing, and
+did, for exactly as long, and it never once occurred to either of them that this was the thing they
+had in common.
+
 \newpage
 
 # Twenty-Two
@@ -4476,6 +4526,56 @@ evidence of any kind, and he has been wrong about people his entire life.
 
 The reader is going to have to decide, and the book is not going to help.
 
+—
+
+One more thing about that Chicago studio, because there is a person in it nobody has mentioned.
+
+The host in the yellow jacket was called Marilyn Deane and she did four hours of live daytime
+television a week for eleven years and she was extremely good at a job that nobody has ever given
+anybody credit for.
+
+After the segment, in the break, off air, she said to Randi: "So he's a liar."
+
+And Randi — who had four minutes, who was being unhooked from a lapel microphone, who had no reason
+in the world to be careful with a daytime presenter in Illinois — said:
+
+"I said I can do it by trickery."
+
+"Right. So he's a liar."
+
+"I said," said James Randi, "that I can do it by trickery."
+
+She looked at him.
+
+"You've said that three times."
+
+"Yes," he said. "I have."
+
+And then he thanked her for a good segment and went to get his coat, and Marilyn Deane sat in the
+chair for a moment with a bent key in her hand and a feeling she could not name and eleven seconds
+before the floor manager wanted her, and she never mentioned it to anybody for forty-eight years, and
+then mentioned it once, in 2023, at ninety, to a great-nephew who was writing something for
+university and who has not published it.
+
+—
+
+That is the whole of the evidence. A woman in a yellow jacket noticing that a man would not finish a
+sentence.
+
+It is not evidence of anything. It is a professional being scrupulous in a way that professionals
+are, and it is entirely consistent with a man who has been sued four times and has learned what he
+can and cannot say, and any lawyer would tell you that the careful phrasing is the *point* of the
+careful phrasing and there is nothing underneath it.
+
+This book has now given you the strongest version of the second reading it is ever going to give
+you, and it consists of a daytime host in 1975 and a corridor in 1993, and neither of them proves
+anything at all.
+
+Uri Geller has built thirty-three years on the corridor.
+
+He does not know about Chicago. Nobody ever told him, and the woman who could have is dead, and this
+is the only place the two of them have ever appeared on the same page.
+
 \newpage
 
 # Twenty-Three
@@ -4568,6 +4668,53 @@ They are in a box in a house in Sonning and they are almost unbearable to read, 
 are unbearable is not that the children are claiming a miracle.
 
 It is that about a third of them are apologising.
+
+Here are four more, out of nine hundred, transcribed exactly, spelling and all. They are in a box in
+a house in Sonning and they have never been published.
+
+*Dear Mr Geller. My spoon went. My brother says I am a liar and he is 14 so everyone believes him.
+Could you send a letter saying it is possible please. Not saying I did it, just saying it is
+possible. That would be enough. Yours sincerely, Alan (10).*
+
+*Dear Uri. I can do it but only when I am not trying and my mum says that is a cop out. Is it a cop
+out. Love from Susan.*
+
+*Dear Mr Geller, I have bent 4 forks and 1 spoon and my dad has counted the cutlery and I am in
+trouble about the money. I am sorry to ask but do you know how much forks are.*
+
+*Dear Mr Geller. Please stop doing it on the television. My friend can do it and they took him to
+Manchester twice and he has stopped talking. I am not being rude. Please just stop. From a well
+wisher, aged 12.*
+
+—
+
+The fourth one is dated the eleventh of February 1975.
+
+Uri received it in a hotel in Frankfurt at the end of that month, in a mail sack, along with about
+sixty others, and he read it sitting on a bed with his coat still on, and then he read it again, and
+then he went and stood at the window for a while.
+
+Five weeks later he took a meeting in a private room above a restaurant off Jermyn Street, and an
+Englishman he had never met put a folder on the table and did not open it, and asked him what he
+would like done about the other ten.
+
+Every account of that lunch — including his own, on the two occasions he has come near describing it
+— has him being persuaded by a professional, in a good room, over a good meal, by a superior
+argument.
+
+He was not persuaded at that lunch. He had been persuaded five weeks earlier, in Frankfurt, in his
+coat, by a twelve-year-old with better handwriting than his, who had worked the whole thing out
+from one friend and two trips to Manchester and had come to the correct conclusion faster than any
+agency in two countries.
+
+*Please just stop.*
+
+He wrote back. Four lines, blue biro, hotel paper. He kept no copy and there is no way to know what
+he said.
+
+He never did another live cutlery demonstration on British network television. Not one, from March
+1975 to the twentieth of December 2026 — fifty-one years — and no journalist has ever noticed, and
+when he was asked about it once in 1988 he said something about the money being better in Germany.
 
 *Dear Mr Geller, I am sorry to bother you. I know you are very busy. I did the thing with the spoon
 and it worked and I told my dad and he says I am making it up. I don't mind, only I wanted to ask
@@ -4746,6 +4893,71 @@ He did not.
 
 —
 
+There is one more exchange from that night and it is the one that actually explains the next fifty
+years, and it happened about an hour later with the light off.
+
+He said, into the dark: "I could refuse."
+
+"Yes."
+
+"I could go back tomorrow and say no."
+
+"Yes," said Hanna.
+
+He waited.
+
+"You are not going to tell me not to?"
+
+"No."
+
+"Why not?"
+
+And Hanna Geller, aged twenty-four, four years married, in a hotel room in London in March 1975, said
+the thing that this book has been walking towards since a classroom in Tel Aviv in 1953.
+
+She said: "Because if I tell you not to, then in thirty years you will say you did it for me."
+
+He did not answer that.
+
+"And you did not do it for me," she said. "So you can carry it yourself."
+
+—
+
+It is the coldest kindness in the novel and it is the reason the marriage lasted fifty-five years.
+
+She would not take it off him. Not that night and not once afterwards — not in the car park in
+Birmingham in 1988, not in the kitchen in 1994 after the second judgment, not in the sitting room in
+December 2026 when he told her what it was going to cost. Every single time she was offered the
+chance to make the decision his instead of theirs, or hers instead of his, she declined it, and she
+declined it deliberately, and it cost her something every time.
+
+Because the alternative — the warm version, the version where she says *don't, please, not for
+strangers' children* — produces a man who spends the rest of his life either resenting her or hiding
+behind her.
+
+She had watched her husband be told what to be by his mother, by a schoolteacher, by an army, by an
+American doctor with a tape recorder, by an audience of forty million, and now by an Englishman in a
+good suit over a good lunch.
+
+She was not going to be another one.
+
+—
+
+He went back the following week and it did not come up. Nobody from that lunch ever contacted him
+again in any form. There was no arrangement, no follow-up, no check, no money, and not one single
+instruction was ever issued to Uri Geller by any government at any point in his life.
+
+That is the part that makes it work, and it is the part that will make the sceptical reading
+available for the next four hundred pages.
+
+Nothing was ever asked of him.
+
+He just did it, every year, for fifty-one years, at his own expense, on his own initiative, and told
+nobody — which is either the longest act of quiet decency in this book or the most elaborate story a
+proud man ever told himself about a career that stopped being interesting in 1976.
+
+—
+
 He went back to work in April.
 
 Over the following eighteen months Uri Geller became, by any professional assessment, a considerably
@@ -4898,6 +5110,59 @@ cheat you are somebody else, and I have to sit here with him."
 
 —
 
+The Hamburg physicist wrote to him in 1994.
+
+Seventeen years. He was fifty-one by then and a full professor, and the letter came to the house in
+Sonning on university paper and ran to two pages, and it was not what Uri expected when he saw the
+Hamburg postmark and put it aside for a day and a half before opening it.
+
+It said, in summary, this:
+
+That he had been thirty when they met and had been told to be fair and had believed he was being
+fair. That he had seen what Uri did with his thumb and had recognised it instantly. That he had said
+*perhaps we can try again another day* because he had not wanted to humiliate a man in front of a
+television crew, and had thought at the time that this was decency.
+
+And that he had come to think, over seventeen years, that it had not been decency at all — that it
+had been the most damaging thing available to him, because a shout is a thing you can answer and a
+kindness is not, and that he had effectively ended the conversation in a way that made it impossible
+for Uri to ever come back to it.
+
+He wrote: *I did not give you a way to say anything to me. I have thought about your face and I do
+not think you were a man who had got away with something. I think you were a man who wanted to be
+asked one more question and I did not ask it.*
+
+And then the last paragraph, which Uri Geller has kept in a drawer for thirty-two years:
+
+*I am not writing to say I believe you. I do not know what I believe and it is no longer my field. I
+am writing because I was the last serious person in that room and I put my equipment away, and I have
+never been able to decide whether that was rigour or cowardice. If you are ever in Hamburg the offer
+is open and I will bring the same tube.*
+
+—
+
+Uri never went.
+
+He meant to. He said so out loud in the kitchen twice in the nineties, and there was a period in 2003
+when he had a date in a diary. And every time it came round he found a reason, and the reason was
+never the real one.
+
+The real one was that he was fifty-one, and then sixty, and then seventy, and the thing worked less
+often now and more slowly, and there was a version of that afternoon in which he went to Hamburg and
+sat down in front of the one man on earth who had written to say *I will bring the same tube*, and
+nothing happened at all.
+
+He could survive being called a fraud. He had been doing it since 1970 and he was extremely good at
+it.
+
+He could not survive being *believed* and then producing nothing, in a small room, in front of
+somebody who had waited seventeen years.
+
+The professor died in 2019. Uri found out from a colleague's note about six months later and did not
+mention it to anybody in the house for a fortnight.
+
+—
+
 He did not do it again. As far as this book has been able to establish, and the establishing has been
 done properly—Uri Geller never again knowingly faked a demonstration after the twelfth of October
 1986, in the remaining forty years of his working life.
@@ -5028,6 +5293,63 @@ in *Nature*, said:
 
 "All of them."
 
+—
+
+There was a night in Osaka in 1991 that he has never told anybody about and that is the clearest
+picture of what those forty years actually cost.
+
+He was doing a corporate booking — an electronics manufacturer, a sales conference, eleven hundred
+people in a hotel ballroom, forty minutes and a very large fee.
+
+And it went, all of it. Everything he tried worked, first time, easily, for forty minutes, the way it
+used to in 1973 and almost never did any more. Cutlery, watches, a drawing, a compass. He came off
+soaked and lit up and shaking and twenty-five years old again.
+
+And a Japanese executive of about sixty came and found him afterwards in the corridor and said,
+through an interpreter, that his daughter was a physicist at a university in Kyoto, and that she had
+seen the SRI material as a student, and that she had a small research budget and would very much like
+to talk to him.
+
+Uri Geller stood in a hotel corridor in Osaka in 1991 with the best night he had had in eighteen years
+still in his hands, and he looked at a man holding out exactly the thing he had wanted since he was
+five years old in a classroom.
+
+And he said no.
+
+He was gracious about it. He said something about his schedule. He gave the man a crystal, because by
+1991 he gave everybody a crystal, and the man was polite about that too.
+
+Then he went up to the room and sat on the end of the bed in his coat for about an hour.
+
+—
+
+That is the shape of it, and it repeated perhaps a dozen times across those four decades, and it is
+in no biography because saying no to something is not an event.
+
+A university in Kyoto. A physicist in Milan who wrote twice. A programme in Sweden that wanted six
+months rather than six minutes. A retired metallurgist in Sheffield in 1999 who sent a two-page
+proposal, well argued and properly costed, and whose letter Uri answered warmly and evasively and
+kept.
+
+Every one of them a door. Every one of them declined, courteously, by a man who then went and did a
+crystal seminar in a hotel ballroom in a secondary city.
+
+And here is the thing that keeps both readings alive, all the way to the end:
+
+**He never once wrote down why.**
+
+There is no diary. There is no letter to Hanna, no note to himself, nothing in fifty-one years that
+says *I turned down Kyoto because of the children*. If the containment is real he maintained it
+without a single word of record, which is either magnificent discipline or the absence of the thing
+entirely.
+
+What there is, instead, is a filing cabinet in a boathouse with two hundred and nineteen newspaper
+clippings in it, dated and located in his own hand.
+
+He did not write down why he said no to the physicists.
+
+He wrote down every time a piece of metal failed for no reason.
+
 Then he straightened up and got in the car and they drove home, and the following Tuesday he was on
 television at ten past eleven in the morning talking about crystals.
 
@@ -5140,6 +5462,80 @@ anything, so what am I supposed to bring to this?"
 "You could say you believe me."
 
 "I do believe you." She hung the towel up. "That isn't evidence either. That's just me."
+
+—
+
+The barrister's name was Miss Achebe and she was thirty-four and she was the fourth one, because the
+first three had all said the same thing and he had not wanted to hear it.
+
+She said it on the second morning, in a conference room, with the papers in front of her.
+
+"Mr Geller. May I be direct."
+
+"Everyone is."
+
+"Then this. You are not going to win, and I want to be sure you understand *why*, because I do not
+think you do." She squared the bundle. "It is not because a court will decide you are a fraud. A
+court will decide nothing of the kind. It will decide that the defendant expressed an opinion about a
+matter of legitimate public interest and that he is entitled to."
+
+"That is the same thing—"
+
+"It is the opposite thing, and this is my point." She looked up. "The court is not going to rule on
+whether you can bend a spoon. Nobody is ever going to rule on that. There is no forum in the world
+that will, because there is no cause of action in it. You have come here to be *believed*, and this
+building does not do that. It never has. It is not what it is for."
+
+Uri Geller sat in a conference room in the Temple in 1993 and did not say anything for a while.
+
+"Then where," he said.
+
+And Miss Achebe, who was extremely good and who won a great deal in the following thirty years, put
+down her pen and gave him the honest answer, which is the answer this whole book keeps arriving at
+from different directions.
+
+"Nowhere," she said. "There is nowhere. You want a room where somebody with authority looks at what
+you can do and says *yes, that happened*. There isn't one. There was one, arguably, for about eleven
+days in 1974, and it was a journal, and it closed."
+
+—
+
+He instructed her anyway, and she ran it properly and lost it properly, and she sent a note
+afterwards that was kinder than it needed to be.
+
+The reason this chapter has to have that scene in it is that it removes the last excuse.
+
+He was *told*. Clearly, early, by a professional he was paying, in language a child could follow, by
+somebody with no stake in it either way — that the thing he was buying with a million dollars did not
+exist and could not be bought.
+
+And he did it anyway, three times, over four years.
+
+Which means the sceptical reading in this chapter is not merely available. It is the *obvious* one,
+and it has a witness, and the witness is a barrister with contemporaneous notes: **a man who has been
+told there is no such thing as vindication and who then spends four years and everything he has
+pursuing it is not running a containment operation. He is grieving.**
+
+—
+
+Hold that, and then hold this, which is equally true and does not resolve it:
+
+In fifty-one years the only thing that ever broke Uri Geller's discipline — the only thing that ever
+made him stand up in public and demand, expensively and ruinously and against advice, to be taken
+seriously — was somebody saying he was a liar.
+
+Never once was it somebody saying he was ridiculous.
+
+He took ridiculous for half a century without a murmur and paid for more of it out of his own pocket
+every year.
+
+He could not take *liar* for eleven days.
+
+A man maintaining a cover would have found those two the same. A man protecting something would have
+found them the same.
+
+Only a man who was telling the truth would find them completely different — and only a man who was
+grieving would as well.
 
 —
 
@@ -5311,6 +5707,53 @@ recovered from it, and the reason it works on him is not that Randi knew.
 
 It is that for three seconds in a service corridor, somebody looked at him and was not looking at
 the spoon.
+
+—
+
+There is a postscript and it is four lines long and Uri does not know about it.
+
+In 2019, a year before he died, James Randi was interviewed at length for an oral history project by
+a graduate student in Florida. The recording runs to about nine hours across three sessions and most
+of it is escapology and the carnival years and the faith healers.
+
+Near the end of the third session, tired, ninety-one, the student asked the question everybody asked,
+which was whether there was anything in fifty years of investigation that he had never been able to
+account for.
+
+And Randi said: "No."
+
+Then, after a pause the transcript marks as four seconds:
+
+"I'll tell you what I regret, though, since you're asking, and it isn't a case. I never had anybody to
+talk to. Not really. There were people who agreed with me — thousands of them, lovely people, they'd
+turn up at the lectures. Agreeing isn't talking." He laughed, apparently. "The only person on earth
+who knew as much about the actual thing as I did spent forty years suing me."
+
+The student, who was twenty-four and had a list of questions, said: "Geller?"
+
+And Randi said: "Mm."
+
+And then he moved on to something about Project Alpha, and the student did not follow it up, because
+she had eleven more questions and forty minutes and it sounded like a joke.
+
+—
+
+That is all of it. That is the entire archive.
+
+A man in a yellow-jacketed studio who would not finish a sentence in 1975. Ninety seconds about a
+public address system in 1993. And four seconds of silence and the word *Mm* in an oral history in
+2019 that nobody has transcribed except a graduate student who has since gone into insurance.
+
+None of it is evidence. All of it is consistent with an old professional being wry about a long
+career.
+
+Uri Geller will die in 2031 without ever hearing about Chicago or Florida.
+
+He has the corridor. He has three seconds of a tired face in bad light and a handshake that went on
+slightly too long, and he built thirty-three years on it, and this book has told you plainly that
+nothing happened in that corridor.
+
+What it will not tell you is whether he was wrong.
 
 \newpage
 
