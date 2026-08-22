@@ -126,7 +126,7 @@ Sagan put it out on the feed the same night, unedited, both statements, the whol
 
 ---
 
-Jakobus went and found the officer afterwards, out at the herb beds in the dark, standing with his hands in his pockets.
+Jakobus went and found the officer afterwards, out at the herb beds in the dark, standing with his arms folded.
 
 "Can I ask you something."
 

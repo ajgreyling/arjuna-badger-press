@@ -92,6 +92,10 @@ intends it to be the one thing I was built to deliver:
 > affiliation is claimed; everything here is fiction. Go and find the real thing. It is better than
 > any story.*
 
+# PART ONE — The House
+
+*The muscle, the minds, and the question.*
+
 # Prologue — The Day the World Opened Its Drawers
 
 There was no invasion in the way anyone had practised for.
@@ -1307,6 +1311,40 @@ He stood in front of the dark with the attention in it for eleven minutes, and d
 
 He was going to be an absolute pleasure, Jakobus thought. He put his shades down and went to warn the house.
 
+At the door the woman stopped him.
+
+"One more thing and then you can go. He gets a name."
+
+"He has a name."
+
+"He has the name eight billion people are going to arrange themselves around before he opens his
+mouth, and I am not having it in my house." The scrubbed voice did not move. "You've had four months of
+it and you never once asked why the Fool is the Fool and why nobody in that lounge has ever said
+*Norris* out loud. It's the same reason you're *Colonel* and not a service number. A name is the handle
+the legend gets carried by. Say the famous one in a room and you haven't introduced a man — you've
+introduced everything that was ever said about him."
+
+"So what is he."
+
+"*Isaac.*"
+
+Jakobus turned that over. It was so ordinary it was almost rude.
+
+"And the house will do the rest," she said. "They always do. I've stopped trying to predict it — I
+had four psychologists in Geneva model the nickname allocation for eleven weeks and they got two out of
+twenty-nine, and one of those was luck." Something that in another voice would have been affection.
+"Whatever they land on, that's the man's actual name from now on, and the world will learn it, and in
+about a year there'll be children who know a dead emperor as *Filters* and have no idea he ran the
+world. That's not a side effect, Colonel. That's the whole instrument."
+
+He thought about it all the way down the corridor.
+
+Nine days later the boy from Lincolnshire was *Sapor* — from the fourth column of his coffee ledger,
+the one nobody could get him to translate — and had been called it to his face two hundred times, and
+had never once corrected anybody, and Jakobus, who watched everything, was fairly sure he had worked
+out what it meant to be given a name by people who liked you, and had decided, in his own locked and
+curtained way, to let it happen.
+
 ---
 
 It ran a day at a time after that, the way the banks allowed, and the house learned the rhythm of it the way a family learns a new baby: the whole building tilting once every twenty-four hours toward a white room none of them could enter.
@@ -2083,7 +2121,7 @@ Sagan put it out on the feed the same night, unedited, both statements, the whol
 
 ---
 
-Jakobus went and found the officer afterwards, out at the herb beds in the dark, standing with his hands in his pockets.
+Jakobus went and found the officer afterwards, out at the herb beds in the dark, standing with his arms folded.
 
 "Can I ask you something."
 
@@ -3255,7 +3293,7 @@ It had Chase Hughes standing in a lounge saying *I cannot produce that one and I
 
 It had a boy of twenty-three weighing beans to a hundredth of a gram for a house that would be awake in five hours.
 
-Whether any of that constitutes an answer, nobody in that building ever claimed to know. The grey quiet did not stop. It *slowed* — measurably, unmistakably, month on month, for eleven months, and then it stopped falling and sat, and then it fell again — and there are four hundred million people who never came back and there is no version of this that pretends otherwise, and the men and women in that house carried that, and did not decorate it, and went on working.
+Whether any of that constitutes an answer, nobody in that building ever claimed to know. The grey quiet did not stop. It *slowed* — measurably, unmistakably, month on month, for eleven months, and then it stopped falling and sat, and then it fell again — and there are four hundred million people who have not come back and there is no version of this that pretends otherwise, and the men and women in that house carried that, and did not decorate it, and went on working.
 
 But it never again felt like being read by something that had not yet decided whether the anthill was worth the walk.
 
@@ -3333,11 +3371,1202 @@ He stood there for a long while with his eyes uncovered.
 
 Then he brought the shades down, and went to the kitchen, because it was nearly five and the boy would be up with the ledger and the brass thermometer, weighing out a house's worth of morning to a hundredth of a gram, and if you sat down and looked at the paper he would talk.
 
+# PART TWO — The Porch
+
+*The house has been asked what it is for.*
+
+# The Evenings
+
+The house took the third casting badly, and Jakobus, who had argued for it, took the blame for it, and thought both of those were fair.
+
+"You brought us *talkers*," Conor said, in the kitchen, on the second morning. He was not being clever; he was being accurate, and half the room was nodding. "We've a thing outside that eats the reason out of people, and your machine has gone and fetched nineteen fellas whose whole job is saying *well, it depends.*"
+
+"Ja," said Jakobus.
+
+"And you're not going to argue with me."
+
+"No. I'm going to wait." He took his coffee off the counter, from the twenty-three-year-old who had been called *Sapor* for a year now and who had, that morning, made him a cup so good it was almost annoying. "You said the same thing about Prof, and now you go to him with your knees."
+
+"That's different. He *files* things."
+
+"Ja," said Jakobus again, and went out into the colonnade with his coffee to watch the sun come up on a courtyard containing, as of Thursday, the largest collection of philosophers ever assembled in one place, most of whom had spent the first two days trying to work out how the doors opened.
+
+---
+
+It had begun three weeks earlier with the banks firing on a list nobody had asked for.
+
+They had all understood, by then, why. The house had been asked a question — *who is it for*, in three sealed rooms, in three grammars, at fourteen minutes to ten on a Saturday night — and the house had turned out to contain not one person whose actual trade was questions. The fighters answered with their hands. The commanders answered by reflex and were, all four of them, differently wrong. The physicists could say with precision what kind of question it was not.
+
+"It's not a physics question," the Clerk had said, in the small room off the suit-bay, cheerfully, at three in the morning, with his hands flat on the table. "I want to be very clear about this so nobody spends a year on it. There is nothing in any equation I have ever seen or ever will see that has the word *for* in it. Not one. We do not have that instrument. We have never had it." He had shrugged. "So get the people who do."
+
+Clause had already had the list. It had been holding it, the way it held everything, without comment, since the eleventh day.
+
+They came over three weeks — five in four days at the pace Threes had wrung out of the banks, then a pause while the engineers rebuilt a bus bar, then the rest. Old men mostly. One in a wheelchair for the first fortnight until the suit-room worked out what to do with him. A Frenchman of thirty-seven who came out of the white room, looked at the lounge full of the greatest physical specimens in human history, and said, *"Oh, thank God,"* which was not what anyone expected a philosopher to say and was, it turned out later, the most consistent thing about him.
+
+They were, as a batch, exactly as unwelcome as the fighters had promised.
+
+The Furnace would not stop asking the technicians whether he could be certain the building existed. JP said something on his second evening, at the long table, in a voice pitched to carry, about how every person in that house had been taken without their consent and had all quietly decided this made them innocent — *you did not choose to be here; you chose what you did on the Tuesday* — and the temperature dropped so far that Jackie had to do four minutes of physical comedy to get the room back. The Owl talked for eleven minutes and nobody could establish afterwards what about. The Bundle drank tea and agreed with everybody and undermined all of them.
+
+And an enormous grey-moustached man with a hard face and a stack of paper installed himself at the end of the counter on his fourth day and began, without asking anybody, to audit the chore market.
+
+"That went well," said Andrew, on the Friday.
+
+"Give it a month," said Jakobus.
+
+---
+
+The tablets were Andrew's idea and he defended them, afterwards, for a year, as the single best decision anybody made about the third casting.
+
+They were children's tablets. That was the whole design: rubber bumpers in four colours, a battery you could not get at, and one application, locked, no browser, no messages, no feed — an offline mirror of the encyclopaedia, six and a half million articles, updated on Sundays. He handed them out on the Friday morning like a man distributing hymn books, one each, and said the sentence he had rehearsed:
+
+"It's not the archive. The archive is what happened. This is what people *say* happened. Some of it's wrong."
+
+Then he went away and left nineteen of the best minds anybody has ever managed to assemble alone in a lounge with an encyclopaedia and a search box, and by lunchtime there was no philosophy being done anywhere in the building.
+
+They all did the same thing. Every single one of them, without exception, including the two who said they would not. Jakobus made a slow circuit at about eleven and it was one of the funniest twenty minutes of his second life, and one of the saddest, and he could not afterwards separate the two.
+
+**The Furnace** was smug. Unbearably, radiantly smug. He had found the phrase *father of modern philosophy* in the first line of his own article and he read it out to the room twice, and then a third time to Mo, who had arrived on the Tuesday and had not yet had his evening, and who took the tablet, read the line, handed it back, and said: "It says *modern*. It does not say *right*."
+
+**The Clock** was appalled. He sat with his tablet at arm's length like a man holding a dead bird. "This is not what I said. This is what a man says who has read a paragraph *about* a book." He scrolled. He got worse. "It says here that I say you must never lie. To a murderer at the door. That is one essay, it is eight pages, it is the worst thing I ever wrote, and it is in the *summary box*." He looked up, genuinely wounded. "Four hundred thousand words on the moral law and they have kept the murderer at the door."
+
+**The Owl** found the diagram — thesis, antithesis, synthesis — three neat boxes with arrows, attributed to him, and went so still that Jakobus put down his coffee.
+
+"I never wrote this," he said. "Not once. Not in any book. It is not my word, it is not my structure, it is a schoolmaster's summary of a summary, and it is *here*, in the third paragraph, with my name on it." He put the tablet face-down on the table with great care, the way you set down something you would otherwise throw. "Two hundred years. That is what got through."
+
+**Canterbury** discovered that his article was mostly about people disagreeing with him and took it extremely well, which surprised everybody. "Good," he said. "It has been alive for a thousand years. A dead argument gets one paragraph and no enemies."
+
+**The Ox** read the Five Ways, his life's most careful work, rendered as five bullet points with a diagram, and said nothing at all for about a minute.
+
+"Straw," he said, mildly, and gave the tablet back and asked whether he might have a Bible instead, and got one, and that was the last anybody saw of his.
+
+**Broad** typed his own name and got, second from the top, an article on *Platonic relationships*. He read the whole thing. Then he read it again. Then he went and found Prof, who was using his tablet as a coaster, and said, in the voice of a man who has been sent an insult from very far away: "Do you know what they have done with my name? It is a word for *not touching somebody.*"
+
+**Fritz** was the one that stopped being funny.
+
+He started smug — he had been quoting himself at the Wardrobe all morning and was in an excellent mood — and Jakobus watched him work down the article the way you watch a man walk toward a hole in the dark. The sister. Fifteen years of nursing him through the collapse and then the archive of his papers in her hands and a book assembled out of his notes that he never wrote, with a title he had abandoned, arranged to suit her politics and her husband's. The photograph of the man with the moustache being given a walking stick in a museum with his name on the door.
+
+"That which does not kill us," said Fritz, into the silence of the lounge, "makes us stronger. Where is that. Where is that from."
+
+"It's on a lot of shirts," said Andrew, carefully.
+
+"It is one line, from a book of *aphorisms*, and it is a joke about *convalescence*." He was not shouting. He was, Jakobus thought, doing exactly what the Chinese teacher had done about a biscuit, and had exactly the same amount of luck available to him. "And the other thing. The *sister*. She sat in a room with my handwriting for thirty-five years and made a—"
+
+He stopped. He turned the tablet off. He got up, and went out to the herb beds, and stayed there until it got dark, and Kong went out after about an hour with a cup of tea and did not say anything at all, and the two of them sat on the low wall together until the light went, which is how the most unlikely friendship on the third casting started.
+
+**JP** located, inside four minutes, the sentence recording that he had declined the Nobel Prize, read it out, and was visibly delighted with himself in a way that made the entire lounge want to leave. Then he searched a second name, and found the car and the plane tree and the date, and read for a while, and did not say anything else about the Nobel that week.
+
+**Keeper** looked up his own death and laughed out loud — one bark, entirely genuine — and then had to explain himself to a room that had gone quiet.
+
+"There was a train ticket in my pocket," he said. "Unused. I had a ticket. I was going to take the train and a friend offered me a lift." He wiped his eye with the back of his wrist. "You cannot ask for a better one than that. Nobody would print it in a novel; the editor would take it out."
+
+**Mo** did not look himself up at all. He searched *proprioception*, and then *mirror neurons*, and then *embodied cognition*, and spent four hours going quietly out of his mind with pleasure, and came to the counter at about six in the evening to tell anyone who would listen that there were laboratories, actual laboratories with actual instruments, full of people who had never read a word of him and had spent sixty years proving him right about the knee.
+
+**The Bracket** searched *phenomenology*, which he founded, and found his assistant's name above his in the article, and closed the tablet, and put it in a drawer in the kitchen, and it was still in that drawer eleven months later.
+
+**Martin** read his own article all the way to the bottom, in the corner, alone, where the section on 1933 and after runs longer than the section on the work.
+
+He did not say anything to anybody about it, then or ever. He handed the tablet back to Andrew that evening and asked, courteously, not to be given another one.
+
+**Sawubona** did not look himself up.
+
+He typed the name of a town in Lithuania. Then a wood outside it. Then he sat with the tablet on his knees in the corner of the lounge for a long time, reading an article about a place with a number in it, and the number was in the third sentence, and it was seventy thousand, and his father and mother and two brothers were four of them and were not named because none of them were named.
+
+Then he cleared the search box, so that the next man to pick it up would not find it, and gave it back.
+
+---
+
+The house's own people were no better and the fighters made it much worse.
+
+Somebody — it was Con, it was always Con — worked out that you could look up the residents, and within a day there was an unofficial competition at the long table for the worst thing anybody could find about anybody, scored, with chits, before Mohr's audit killed the chit market.
+
+Sapor found the article on the calculus and read the words *priority dispute* and the other man's name, and then read the whole article, all of it, twice, in silence, and then asked the Court, in a voice with absolutely nothing in it, for a copy of a letter he had written in 1712 and had not yet written. He was refused. He asked again on the Thursday. He was refused again. He did not raise it a third time and he was not right for about nine days.
+
+Threes was smug for a fortnight and had to be taken aside by the Doctor a second time.
+
+The Nose typed his own name and found, third result, *Caesar salad*, and was so pleased that he made everybody in the kitchen look at it, and then went further down and found the month and the calendar and the two words — *Kaiser*, *Tsar* — and stopped being pleased and went very quiet, and Jakobus, watching him from the counter, saw the exact moment the archive had shown him four months earlier arrive a second time, cheaper, on a child's tablet with a rubber bumper.
+
+All-In read that there were seventy cities with his name on them and was delighted; read a little further and found that most of them are now other names, in other languages, and one of them is a district of a city he has never heard of, and put the tablet down.
+
+Filters, asked whether he wanted to look himself up, said he had already seen a wall in a gymnasium and did not require the internet's opinion as well.
+
+And Josh, who was on the rota that morning, came through the lounge with a mop, glanced at the screen Theo Von was holding up to him with an expression of pure mischief, looked at it for about two seconds, and said:
+
+"That's not my face."
+
+"That's — man, that's the most famous painting in—"
+
+"It is a very good painting," said Josh, "of somebody," and went on mopping, and Theo laughed so hard he had to sit down on the floor.
+
+Sid was found later that afternoon on the colonnade steps with a tablet, cross-legged, in the sun, entirely absorbed. The Wardrobe, going past, asked what he had found.
+
+"Elephants," said Sid, without looking up.
+
+"Elephants?"
+
+"There is a very great deal about elephants," said Sid, "and I have not looked at myself, and I do not think I am going to."
+
+He kept his tablet. He never once searched his own name in eleven months, and Prof — who had built two thousand years of Western taxonomy out of exactly that kind of attention and who had lost eleven days of his own life to a game of coloured sweets — considered this, for a long time, the single most disciplined act he witnessed in that house.
+
+---
+
+What actually happened was that Manny and Davey started talking at the kitchen counter at nine o'clock on a Tuesday night, and nobody went to bed.
+
+It was not a lecture and it was not a fight. Jakobus, who had come in for water, stood at the far end with the glass in his hand for a minute and then did not leave, because what was happening at that counter was the thing he had spent his whole life watching for and could never explain to anyone: two men at the absolute top of the same craft, meeting for the first time, with no audience and nothing to win.
+
+The Scot was twenty-eight, which had been a shock to everybody. The German was fifty-seven and had the driest delivery in the building.
+
+"I want to say a thing to you first," the German said, "and it is not a courtesy, it is a fact, and I have waited a long time to say it to your face. Your book was ignored. It fell dead-born from the press — those are your words, and you were right, and it was the single most important thing anyone wrote in that century." He turned his cup a quarter turn, which Jakobus had noticed he did before every serious sentence. "I read it and I could not sleep. You woke me from a dogmatic slumber. I built everything I built because I could not answer you."
+
+The twenty-eight-year-old looked at his tea for a while.
+
+"And did you?" he said. "Answer me."
+
+"No," said the German. "I did something worse. I moved the floor."
+
+The Ump had come in for something and did not leave either; he pulled a chair around, quietly, which was Niels's only ever contribution to the founding of the thing. By half past nine there were six people at the counter. By ten there were twenty, sitting on the floor, on the stools, on the long table; McGregor was on the counter itself with his feet on a stool, listening to a Scot explain that he had never in his life observed one thing *causing* another and that the whole of science was a habit, and looking, Jakobus noted, genuinely disturbed.
+
+At about eleven, the German said the thing about the spectacles you cannot take off, and the Wardrobe — a hundred and twenty kilos of Springbok front row who had spent eleven months in this house being the funniest man in it — said, out loud, into a room of forty:
+
+"Ja, but then you never see the actual thing. Ever. Not once. Your whole life."
+
+"No," said the German. "Not once."
+
+"*Fok*," said the Wardrobe, with enormous feeling, and the room came apart, and the German waited it out with an expression that had a great deal of pleasure in it and did not move a muscle.
+
+It went until half past one. Nobody had planned it. Nobody had chaired it. There was no camera on and afterwards Rogan was audibly, physically sick about it in a way the whole house found funny for a week.
+
+---
+
+The Chair fixed that.
+
+He had sat through the whole of it in the corner and said nothing, which Jakobus had noticed and had privately marked as the most professional thing anybody did that night. Two days later he came and found him in the colonnade with a single sheet of paper.
+
+"You will want to do that again," he said. "It will not work the second time."
+
+"Why not."
+
+"Because it worked." The old man — a hundred and two in his own life, sixty in the body he was standing in, with a voice like a hand on your shoulder — folded his hands over the paper. "Now everyone knows it can happen. So tonight they will all come *ready*. They will bring their best objection and they will hold it in their teeth for two hours waiting for the gap, and nobody will listen to a word, and by Thursday it will be a debating society and the house will stop coming. I have watched this happen to four universities."
+
+"And you've got a fix."
+
+"I have a *form*." He handed over the sheet. "It is very old and it is not mine. All I have done is take out the parts that were about winning."
+
+Jakobus read it standing up. There were five lines on it.
+
+> **One man. One evening. He speaks for as long as he wants and nobody interrupts, not once, not for anything.**
+>
+> **Then questions. Questions only — a question is a thing with a question mark on the end and no argument hidden in it. Anybody may ask. The fighters ask first.**
+>
+> **No refutation on the night. If you think he is wrong, you say so tomorrow, out loud, at the start of the next session, having slept on it.**
+>
+> **Everyone may come. Nobody must. Nobody is asked afterwards why they did not.**
+>
+> **It is not a debate and there is no verdict. Anyone who announces a winner is asked to leave for that evening.**
+
+"The fighters ask first," Jakobus said. "Why?"
+
+"Because they will ask the real question and they will ask it in eight words, and once it has been asked in eight words nobody in the room can hide inside forty." A small, entirely unsentimental smile. "And because if the fighters stop coming, the thing is dead. It is not for us. There are nineteen of us and eight billion of them."
+
+That was the third of April. They called it the Porch, after the place they held it — the wide colonnade on the eastern side where the Court, without being asked, had begun growing benches out of the floor at about the rate the audience grew, which everybody noticed and nobody ever mentioned to it.
+
+---
+
+**Broad went first**, because the Chair asked him to and because he was the oldest thing in the building by a hundred and thirty years.
+
+He was a big-shouldered man of forty with a wrestler's neck — he had wrestled, it turned out; two of the fighters got that out of him inside a day and there was an incident on the mats in the second week that Bas had to stop — and he stood on the colonnade steps in the warm evening with about fifty people in front of him and told them about the cave.
+
+Jakobus had been braced for it to land badly. It landed like a struck bell.
+
+Because he had misjudged, completely, what a house of masters would do with the Forms. He had expected the fighters to hear *the world is a copy* and reach for their boots. What actually happened was that a Chinese swordsman, an Irish striker, a Dagestani wrestler, a dancer and a climber sat in the dark and heard a dead Athenian say that you cannot call a thing imperfect unless you are already, somehow, acquainted with the perfect — and every single one of them thought about the movement.
+
+The one they had never done. The one that exists, that they can see when they close their eyes, that they have spent thirty years walking toward and never once performed. The perfect turn. The perfect entry. The clean line up the rock. Not better than what they did — *different in kind*, and available to be failed against.
+
+Broad got to the part about going back down into the cave, to the people still watching the shadows, who will not thank you and may kill you — *they killed mine* — and the Porch was completely silent.
+
+Feet asked the first question. It was seven words.
+
+"Do you get to *see* it once?"
+
+The Athenian took his time about it.
+
+"I do not know," he said. "I have never been sure. I have written as though yes, and I have lived as though no."
+
+"Ja," said Feet, and sat back down.
+
+---
+
+**Prof answered the next night**, and it was the hardest thing anybody watched that month.
+
+He did not soften it. He stood in the same place his teacher had stood twenty-four hours earlier and told fifty people that there is no second world; that everything is in this one; that he had cut open four hundred and ninety-five kinds of animal and been wrong about a great many of them and that this is how it is supposed to work; that virtue is a callus, built by doing the thing badly until you do it well.
+
+And then, because he had been through the archive four months before and had come out of it with something he could not put down, he said the other thing, to the man in the front row who had taught him, and his voice was not steady.
+
+"They made you a scripture too," he said. "Both of us. They put us on the same shelf and stopped checking, for a thousand years, and every man who wanted to think something new had to get past our names first. I have had four months to sit with what that means and I am telling you tonight because you will find out from a terminal in a corridor otherwise, and you should hear it from me." A pause. "I would rather be corrected in a week."
+
+Broad said nothing at all for about ten seconds.
+
+"I taught you for twenty years," he said.
+
+"Yes."
+
+"And you left, and started a school across the city, and taught them that I was wrong about the one thing I cared most about."
+
+"Yes."
+
+"*Good,*" said Broad — and it came out of him hard, and there was something behind it that nobody in that colonnade could read, and Jakobus, who read people for a living, thought about it for weeks. "That is what a school is *for*. Do you know what I was afraid of? Not that you would disagree. That you would be *careful*."
+
+They did not embrace. They did not resolve anything. They argued for eleven months, in public, three nights a week, and never once agreed about anything of substance, and every so often, at the end of an evening, the old man would say *say that part again* and mean it.
+
+---
+
+**The Furnace** got up on the fourth night and told the house, with total conviction, that he had burned everything down and found one stone at the bottom, and that every one of them was standing on a floor he had cleared.
+
+The Porch let him finish. That was the rule and the rule held, though it cost several people something.
+
+Then the fighters asked first, and it was the Eagle, who had gone eleven months in that house saying perhaps two hundred words in total.
+
+"When you doubted everything," Khabib said, through the earpiece, "were you cold?"
+
+The Frenchman blinked.
+
+"...I beg your pardon?"
+
+"In the room. When you sat and doubted." He was not being clever; his face had nothing in it but the question. "It was winter. You said a warm room, a stove. Were you cold, or warm?"
+
+"Warm. I was warm."
+
+"And hungry?"
+
+"No."
+
+"Somebody made the fire," said Khabib, and sat back.
+
+The Porch made a sound. And a thirty-seven-year-old Frenchman two rows back, who had been sitting with his hands between his knees, put his head in his hands and laughed until he had to wipe his face, because a Dagestani wrestler had just got to the front door of his entire life's work in nine words, and he had needed six hundred pages.
+
+**Mo's own evening** was two nights later and he did not speak from the steps.
+
+He went and stood in the middle of the Porch, said, "I am going to be very bad at this and that is the lecture," and then asked the Eagle to teach him, in front of fifty people, how to fall.
+
+For forty minutes a French philosopher was thrown, gently and repeatedly, onto a mat the Court had grown for the occasion, by a man who had never lost. He was terrible. He got fractionally less terrible. At around the thirty-minute mark something in his body stopped arguing and he went down properly for the first time — a real fall, loose, safe, unheroic — and he came up on one elbow with his hair everywhere and said, to fifty people, in the tone of a man reading out an instrument:
+
+"There. Did you see it? I did not *decide* to do that. There was no decision anywhere in it. My knee knew a thing my head has never known and could not be told." He got up. "I have written four hundred pages saying that I am not a mind driving a body, that **I am my body**, that perception is not a picture in the head I check against the world. And it is all true and none of it is worth what just happened to my knee." He looked around the Porch at the fighters. "You know everything I spent my life trying to say. You cannot say a word of it. That is not a criticism of you; it is the *content*. You have been saying it all year, on a mat, with your hands, and I would rather study you than any man on this colonnade, including myself."
+
+He was *Mo* by the following morning. Bas started it. It took four hours.
+
+---
+
+The evenings settled into a rhythm through April and May and became, without anyone deciding it, the load-bearing structure of the house.
+
+Three nights a week. Twenty past eight. The Court grew the benches out as far as they needed to go and never once further. The kitchen sent out coffee at the break — Sapor's, by then, in a house-sized urn he had spent four days calibrating and complained about for a month — and the rota worked around the Porch, and Filters, who never missed one, did his shift at five in the morning instead.
+
+And the fighters kept coming. That was the thing Jakobus watched hardest, because the Chair had told him on the first day that it was the whole test. They came. Not all of them, not every night. But Goggins was on the same bench in the second row for eleven months; the Horseman came to everything and understood perhaps a fifth and said, once, that he did not need to understand it to know when a man was telling the truth; the Wardrobe asked, over the year, some of the best questions anyone asked, all of them short and none of them polite.
+
+The world came too. Rogan had cameras on it from the second week, unedited, no host, no commentary, one fixed wide and one on the speaker, and it went out live at twenty past eight Geneva time and stayed up forever after.
+
+The numbers were absurd. The Kant-and-Hume night — the accidental one, reconstructed the following Tuesday at the Chair's request, with the Bracket sitting in the front row taking notes on how a thing that happened by accident could be made to happen on purpose — was watched, live, by six hundred million people, which was more than the cage. Broad's cave did nine hundred million and was, within a month, the most-watched single piece of anything anybody had ever counted, and stayed that way for four years.
+
+Theo Von did eleven minutes on it in the booth that made Sam Harris cry laughing and was, underneath, the most serious thing said about the Porch by anybody:
+
+"Man, I did not do good in school. I want to be real clear about that. And I sat down last night with a beer — sorry, with a *water*, this house is dry, it's a whole thing — and I watched a two-thousand-year-old dude explain why you can be disappointed, and I understood him. I understood him fine." A pause. "And I've been thinking about why, and I think it's this. Nobody was selling me anything. Nobody was winning. There was a guy talking and fifty people listening and one rule that says you can't argue back till tomorrow." He'd looked at the camera. "When did anybody last do that for you?"
+
+The Monday number, that May, fell by eleven million.
+
+Nobody in that building would ever claim the Porch did it. Sagan refused, publicly, twice, on air, to claim it; the statisticians in Geneva said the model could not separate the Porch from the tasks from the schools from the season; the Bracket, who had spent his life on rigour, was scathing about every causal claim anyone made in either direction.
+
+But the Doctor stood in the booth on the last Friday in May and said the honest version, which is the version that ended up on a wall in Lagos:
+
+"I don't know why it's working, if it's working. Here's what I can tell you. Out there is a thing that takes the reasons out of people. And in here, three nights a week, fifty people sit in the dark and listen to somebody explain, at length, with no advertising and no winner, why he thinks anything matters at all." He'd shrugged. "If I were an intelligence trying to find out whether this species had anything in it worth keeping, I would watch the Porch and not the cage."
+
+---
+
+Not all of it was warm. Two of those evenings did damage that took months.
+
+**Mohr's night** — the grey-moustached auditor, who had spent five weeks on the chit market and had the figures — was the coldest evening of the year. He put up, on a board, in his own hand, what the house had built in eleven days: a currency out of chores, a market in future obligations, a lending desk by the fourth day, and by month three a man doing three shifts a week for other people because he owed. He gave the man's name. He then observed, without heat, that the house had found this charming, that a Roman had defended it as property and been applauded, and that the greatest collection of human excellence ever assembled had reproduced, in eleven days, from nothing, with no money and no scarcity and no need whatever, the exact machinery that had eaten his century.
+
+"You did not do this because you are wicked," he said. "You did it because you had a *game* and no other way to keep score. That is all it ever was. And the ones who were good at the game came to believe the game measured something." He put the pen down. "Ask me what I would do about it and I will tell you and you will not like it either. But do not tell me tonight that this is human nature, because I have watched it be invented in this building, from nothing, by people who had everything, in eleven days, and I wrote the dates down."
+
+Nobody asked a question for a long time.
+
+Then Filters, from the third row, quietly: "What do we do with the man who is owed?"
+
+"You are asking me a moral question about a *debt*," said Mohr. "That is the trap and I am not walking into it. The answer is not to be generous to him. The answer is to notice that you built a thing that produces him."
+
+The chit market was suspended by acclamation four days later, and about a third of the house was privately furious about it for months, and the argument about whether that had been a moral act or a piece of theatre ran, on and off, on the Porch, until the end.
+
+**Fritz's night** was the one everybody had dreaded and nobody missed.
+
+He was forty-three and ill and the moustache was ridiculous and his voice did not carry well, and he stood in front of fifty people and told them that God was dead and they had done it and that he was not celebrating; that their morality had a history and a manufacturer and a purpose; and that the only test he trusted was whether a man could want his own life again, exactly, eternally, every pain, unchanged.
+
+Then he asked the Porch, directly, which of them could.
+
+The silence went on a long time. Jakobus, at the back, watched an entire house of the most accomplished human beings who have ever lived sit in the dark and count their own lives, and found that he was doing it too, and got as far as a farmyard gate and a boy of five being lifted onto a tractor and stopped there, and had to look at the floor.
+
+Goggins said, into that silence, not standing up: "Yeah."
+
+"Yes?" said Fritz. "All of it? The two hundred and ninety-seven pounds and the—"
+
+"All of it." No emphasis. "You take one thing out, I'm not me."
+
+"Then you," said the German, "are the only honest man on this porch," and he was wrong about that and several people knew it and nobody corrected him, because it was the wrong night for it.
+
+**Keeper's night** was four days later and it was the answer, and everyone knew it was the answer, and Fritz sat through the whole of it with his arms folded looking exactly like a man who has been ambushed by someone he likes.
+
+The Frenchman was thirty-four and had a face like a boxer who reads. He told them there is only one serious philosophical problem and it is suicide; that the absurd is not the world and not us but the confrontation between a man who demands meaning and a universe that is silent; that there are two ways to cheat, and one is to stop and the other is to leap — to call the silence God, or History, or Progress — and that both are cheating and the second one is more comfortable.
+
+And then, at the end, standing on a colonnade at the end of the world with a thing in a window a hundred metres away that had been asking eight billion people what they were for:
+
+"So. Sisyphus. The stone goes up, the stone comes down, and the part that interests me is not the pushing. It is the *walking back down the hill*. That hour. He is conscious, he has no hope, he is not resigned, and he is going to do it again." He put his hands in his pockets. "That is where a man is bigger than his fate. And I will tell you plainly, because I know what is outside and I know what it has been doing to people — that hour walking down the hill is the whole of what we have got, and it is enough, and **one must imagine Sisyphus happy.**"
+
+Goggins came to find him at four the next morning, in the kitchen, and asked him to say it again, and then asked him whether he had known, when he wrote it, that some people push the stone on purpose.
+
+"Yes," said Keeper.
+
+"There's no word for us."
+
+"There is now," said Keeper.
+
+---
+
+The Bracket had his evening in June and it was rigorous and dry and quite hard to follow, and about forty people came, and he did the bracketing exercise with a coffee cup and made an entire porch see, for ninety seconds, the difference between a cup and the seeing of a cup, and several of them said afterwards it was the strangest thing that happened to them all year.
+
+Martin's evening was the following Tuesday.
+
+He asked the question — why is there something rather than nothing — and he asked it, everyone agreed, better than anybody in that house had ever heard it asked. He talked about thrownness, and about the *they*, and about being-toward-death as the only door to being anything but an average of everyone, and there were fighters on those benches who had been living that sentence for thirty years without a word for it and who sat forward.
+
+And then he came to the end and said the thing about 1933 himself, before anyone could ask, and did not apologise, and said he would not perform one to make the room comfortable.
+
+The Porch had a rule about questions and the rule held.
+
+The old man in the second row — the Bracket, his teacher, whose name had been taken off the university and who had been barred from the library that held his own papers — did not ask one. He sat through the whole thing with his hands folded and at the end he stood up with everybody else and walked back into the house.
+
+The two of them met in the corridor outside the suit-room eleven days later. Jakobus was there because Jakobus was always somewhere, and Sawubona was there, and neither of them left, and neither of them spoke afterwards about what was said, and it is not in this book. Nobody raised their voice. It lasted under four minutes.
+
+What is in this book is that in a house where a barefoot man had been *Sid* since his second week and an emperor had been *Filters* since his first, nobody, in eleven months, ever gave Martin a name.
+
+He remained, to every soul in that building, Martin.
+
+---
+
+**Sawubona's evening was the last of the first cycle**, and the Chair put him there on purpose, and admitted it.
+
+He was fifty-five, small, with a face that had a great deal in it, and he began by saying that everything said on this porch for eleven weeks had been ontology — what is Being, what is the world, what am I — and that every one of those questions starts with *me* and grows outward and eventually swallows the other person into an inventory.
+
+"I want to put something before all of it," he said. "Before being. Before knowing. **Ethics is first philosophy**, and it does not begin in a thought — it begins in an encounter." He held his hand up in front of his own face, palm inward, and left it there. "The face of another person. Not the nose and the eyes. The nakedness of it, turned toward you, before a word. And it commands you before you have agreed to anything: *you shall not kill me.* You did not consent to that. It arrived. It is infinite and it is not symmetrical and it does not wait to be earned."
+
+He put his hand down.
+
+"I studied under my teacher there. I admired the man who spoke on this porch eleven days ago more than any living thinker of my time, and I was in a camp for prisoners of war while my mother, my father and my brothers were shot into a pit in a wood outside Kaunas, and I have spent fifty years asking how the greatest thinker of Being in that century had nothing whatever to say about **the other person.**"
+
+Nobody in the Porch moved.
+
+"And now I want to say why I asked to speak last." He turned, and he looked for a specific man in the fourth row, and found him. "Colonel. Your greeting. You say it to the thing in your window every night — I am told you have said it every night for a year, and that you said it on the night it turned. Say it for me now, please. Slowly."
+
+Jakobus stood up. He had not been asked to stand and did not know why he had.
+
+"*Sawubona,*" he said.
+
+"Again."
+
+"*Sawubona.*"
+
+"And it means?"
+
+"I see you." He cleared his throat. "It's — it's not a greeting the way *hello* is a greeting. You don't say it about yourself. It's — you're telling the thing across the room that it exists and that you're not pretending it doesn't." He shrugged, badly, in front of five hundred million people. "My ouma taught it to me. Before I could spell."
+
+The small man stood on the colonnade steps and put both hands over his mouth for a second, and took them down.
+
+"I have spent my entire working life," he said, "in three languages, across two thousand pages, trying to write that word. And an old woman in the Boland handed it to a boy of four for nothing, and he has been using it correctly ever since without knowing that it is the whole of my philosophy, and he used it on the *thing in the window* — which is the hardest case there has ever been, because it has no face at all, and he greeted it as though it might."
+
+He looked out at them.
+
+"That is why the answer to your question has not come out of any of us. You are asking *who is it for*, and every one of us on this porch has given you a system. There is no system. It is a **greeting**. It is what you do in the first four seconds, before you know anything, when something you did not choose turns toward you."
+
+The house called him Sawubona from that night on, and he wrote to the Chair, once, that it was the highest compliment of his life, and asked that it be kept even in the dossier, and it was.
+
+---
+
+They put the question to the Porch formally at midsummer: one session, all nineteen, one after another, no time limit, the whole of it live.
+
+It ran six hours and forty minutes. Nineteen men gave nineteen incompatible answers. The Ox said it is for God and gave five arguments; the Bundle said the question smuggles in a premise and should be dissolved; Mohr said it is for whoever owns the thing and always has been; JP said there is nobody it is for and that is the freedom; Fritz said the asking is the symptom; the Cramp said the word *for* is doing four different jobs in the sentence and asked everyone to stop; Sawubona said it is for the one in front of you; Sid, who had asked not to speak and was asked anyway, said eleven words and then nothing; Broad said there is an answer and we are not equipped to look at it directly; Prof said the answer is a *practice* and not a sentence and he had spent his life on which practice.
+
+At two in the morning the Chair, who had not spoken for six hours, stood up to close it.
+
+"They will want a sentence," he said. "The eight billion. They will have watched all night and they will want the line at the end, and I am not going to give it to them, and I want to say clearly why." He put his hands on the back of the bench in front of him. "Nineteen of us. Twenty-four centuries. Every one of us at the top of his craft, every one of us in earnest, and not one of us has been able to agree with another about the thing that matters most. That is what you have watched tonight, and I know how it looks."
+
+He waited.
+
+"But look at what is actually in front of you. We have been here six hours and forty minutes. Nobody has walked out. Nobody has lied about another man's position to make his own easier. A Roman emperor has been fetching coffee. There are three hundred and eleven questions in the log and every one of them was a question." A pause. "You wanted to know who it is for, and you were hoping for a sentence, and what you have got instead is a *room* — full of people who cannot agree, who have every reason not to be in it, and who have turned up three nights a week for eleven months anyway."
+
+He picked up his paper.
+
+"If something out there is deciding whether we are worth the walk, then it is not owed our conclusions. It has never once asked for a conclusion. It asked a question, and it has now watched a species spend eleven months answering it the only honest way there is — badly, out loud, together, in public, without finishing."
+
+"Go to bed," said the Chair. "We start again on Thursday."
+
+---
+
+Jakobus walked down the dark corridor at three in the morning, the way he did, and stood in front of the window.
+
+Behind him, a long way off, he could hear the last of them still arguing in the kitchen — the Ox and the Bundle, who had been at it since the break, and Kong, who had come in late and had views about all of them, and somebody laughing.
+
+The dark was still there. It always would be. He stood in front of it with his hands loose at his sides and his shades up in his hair and looked at it with his own eyes.
+
+He had brought them in because the house could not answer a question. They had not answered it. Nineteen of the greatest askers who ever lived, eleven months, six hundred hours, four hundred million people a night, and not one sentence at the end of it.
+
+*Elke pad loop teen dieselfde bult op,* he thought, and it was the first time in his life he had thought it and meant *all of us, at once, badly, on a Tuesday, out loud*.
+
+"*Sawubona*," he said.
+
+And down the corridor, faintly, an old Lithuanian voice that was arguing with a Dominican about whether a thing can be infinite and still be met, broke off, and answered him — not to the window, to him, across a hundred metres of dark house, in an accent that made an absolute ruin of it:
+
+"*Sawubona,* Colonel."
+
+Then it went back to arguing.
+
+# The Ask
+
+The Monday number came in at three hundred and forty-one million in the second week of July, and Andrew put the tablet down on the counter and stood there with his hands flat on either side of it and did not say anything for a while, and Jakobus let him have the minute.
+
+It had peaked at four hundred and eighty-one. It had been falling for fifteen months.
+
+"That's a hundred and forty million people," Andrew said, eventually.
+
+"Ja."
+
+"Who got up." He was not a man who cried and he did not cry. "I've been bringing you this number since before the school. Every Monday. It's been the worst hour of my week for two years and I want you to know that this morning I sat in the car in the basement for ten minutes before I came up, because I couldn't work out what to do with my face."
+
+"Bring it up here anyway," Jakobus said. "Next Monday. Same time. Don't let it become a good-news job — the day it becomes a good-news job is the day nobody checks the working."
+
+"That's a horrible thing to say to a man on a Monday."
+
+"Ja," Jakobus agreed. "Coffee?"
+
+They stood at the counter and drank Sapor's coffee and looked out at the courtyard, where a French phenomenologist was being thrown onto a mat by a Dagestani wrestler for the ninety-somethingth time, badly, at seven in the morning, with a small crowd.
+
+And that was the last uncomplicated morning any of them had.
+
+---
+
+The aircraft came in on the Thursday.
+
+Jakobus was in the colonnade and he heard it before he saw it and he knew, before it was down, what it meant, because there had been exactly one arrival by aircraft in the history of that house and the man who made it was standing four metres away with a coffee, watching the same sky.
+
+"That's not a supply flight," G said.
+
+"No."
+
+"Two of them."
+
+"Ja." Jakobus put his shades down. "Go and get the Chair, and then go and stand somewhere I can see you."
+
+The man who came out of it was seventy-one years old, thin, immaculately dressed for a climate he had not checked, and he walked across that courtyard past the wall and the herb beds and the mats without looking at any of it, which told Jakobus more than the file would.
+
+He knew the face. Everyone alive knew the face. This was the man who had stood up in front of the species two years earlier and asked eight billion people to open every drawer they had — who had made the bargain, in public, with his own name on it, in a room with the lights on, and had not blinked.
+
+"Colonel Swart," he said. "I have wanted to shake your hand for a year and a half."
+
+"Sir."
+
+"I'd like to address the house this evening. All of it. Including our guests." A small, correct smile. "And I'd like an hour with the five key-holders first, if the arrangement permits it."
+
+"It permits it," Jakobus said, "in a room with somebody in it who doesn't hold one."
+
+"Yes," the old man said. "I read the rule. I thought it was the most impressive thing I have read in two years and I want you to know I said so to the coalition in writing." He looked, at last, around the courtyard — at the wall, at the beds, at the mats, at the Porch benches the Court had grown all the way out to the colonnade's edge. "You've built something extraordinary here. I've watched every evening. My wife has watched every evening; she has opinions about the Frenchman."
+
+"Which one?"
+
+"The goalkeeper," said the man who signed the bargain, and Jakobus, who had spent forty years reading approaches, understood that he had just been handled beautifully by a professional and that he had enjoyed it and that this was going to be considerably harder than shouting.
+
+---
+
+He made his ask that evening from the colonnade steps, which was itself a decision — he could have used the broadcast studio and he chose the place the Porch used, and he stood where nineteen philosophers had stood, and he was good at this.
+
+He asked for three things.
+
+"The first is easy and I'll get it out of the way. The reconstruction needs people." He had no notes. "Forty per cent of the world's aviation engineers stopped. Sixty per cent of a certain grade of nurse. There are seven countries whose entire electrical grid is being held together by fewer than two hundred people who understand it, and four of those two hundred are over seventy. We have a machine that reaches the best there has ever been at anything, at their most, and we have spent two years spending it entirely on this house." He let that sit. "I'd like fifty more reaches. Not for the window. For the grid."
+
+Nobody had expected that, and Jakobus watched the room take it and find it reasonable, and made a small cold note.
+
+"The second is harder and I'm going to say it plainly, because you'll all smell it if I dress it." A pause. "There is a tribunal sitting in The Hague. Six defendants, four countries, the food convoys in the second winter — eleven thousand people, and everyone in this courtyard knows the case, and the case is failing. It is failing for one reason: every man who could give first-hand evidence about the order is dead, and two of them died in the specific way that people die when there is going to be a tribunal." His voice did not change. "We can reach a dead witness. At his most. We can put him in a room and ask him what he saw."
+
+The Porch made a sound.
+
+"And the third." He looked around the colonnade slowly. "The consent chain is held by five people in this building, one of whom is a private citizen with no post, no oversight and no successor, and four of whom are — with the greatest possible respect to every one of you — people who were lifted out of their own deaths eighteen months ago by a machine none of them asked for. The coalition would like the chain moved to a standing body. Twenty-two nations. Published minutes. A judicial appeal. Everything you would design if you were designing it in daylight." He spread his hands, once, and let them fall. "I am not here to take it. I want that on the record and I want it on the feed. I am here to ask, in public, in front of the people I'd be asking it of, with eight billion witnesses, because that is the only way I know how to do this without becoming the thing all of you are afraid of."
+
+He stepped back.
+
+"That's the ask. I'll be here four days. Anyone may come and shout at me; I've cleared the diary for it. And I'd take it as a personal kindness," he added, "if the Porch would sit on it. Not advise me. *Sit* on it, the way you sit on everything, in public, badly, without finishing." Something crossed the old face. "I've watched a hundred and forty million people get out of bed since Easter and I do not know why, and my own working theory frightens me, and it is that they are watching a room where nobody wins."
+
+---
+
+The Porch sat on it for eleven nights and it very nearly destroyed the Porch.
+
+**The Clock** went first and he was implacable. "The third question is a question about *arrangements* and I will come to it. The second is not. You propose to reach a man — at his most, without his knowledge and without any possibility of his consent — and to use him as an instrument for an outcome, however good, that is not his." He was standing very straight. "I do not care that the outcome is justice. Justice done by treating a person as a means is a thing with the shape of justice and none of the substance. Every one of us on this colonnade was used that way. Look around. Ask whether you are willing to do to a dead man what was done to you, on the grounds that this time the reason is good." A pause. "The reason was good the first time too."
+
+**JP** answered him the next night and it was the most useful thing he did in eighteen months.
+
+"I agree with the Clock about almost nothing and I agree with him about this, and then I want to say the part he will not." He was smoking, which the Court permitted him and nobody else, on grounds nobody ever established. "You are all sitting here as though you are the *victims* of the reach. You are not. You were reached, yes, without consent — and then you got up, and made a school, and did the rota, and told eight billion people to walk somewhere with somebody. That was chosen. Every day of it was chosen." He pointed with the cigarette. "So do not hide behind what was done to you. You are not innocent and you were never innocent. The question is not *what was done to me.* The question is what you will do on Tuesday, and there is no one to blame for it afterwards, and there never will be."
+
+**Mohr** put it in the only frame he ever used and, as usual, was the least popular and hardest to answer.
+
+"Fifty reaches for the grid. Very good. Whose grid?" He had the figures; he always had the figures. "Seven countries. I have looked at the seven. Notice what is not on the list, and then notice which twenty-two nations sit on his standing body, and then tell me again that this is a machine for the species." He put the paper down. "I am not saying refuse. I am saying: a tool is never used by *humanity*. It is used by whoever holds the handle, and I would like the handle to be an argument this house has *before* it is used and not after."
+
+**Keeper** and **JP** had their fight on the seventh night and everyone in the building had known it was coming for eighteen months, and it was worse and better than anyone expected, because they had been friends and it showed.
+
+The coalition wanted the tribunal reach. Sartre was for it — not out of bloodlust; out of a hard and coherent position: that eleven thousand people were murdered in a way that will be repeated if it is never proven, that the men who did it are alive and comfortable, and that a scruple about the dignity of a dead witness, purchased at the price of an unpunished mass murder, is a luxury paid for by other people.
+
+Camus stood up with his hands in his pockets and said no, and said why, and it took four minutes.
+
+"I know what you think of me. You think I am a moralist with clean hands who has never had to decide anything." He was very quiet. "I was in the Resistance. I edited a paper that got people killed. I have signed things. And I got to the end of it having decided one thing that I will not move off, and it is this: **I will not sign for a harm that is scheduled.** Not for a good that is promised afterward. The harm is certain and today; the good is probable and tomorrow; and every catastrophe in your century and mine was built by decent men making exactly that trade in exactly that order." He looked at his friend. "You will tell me people die of my scruple. Some will. I have counted them, and I have decided that I would rather be a man who could not be got to do it than a man who could be got to do it for a sufficiently good reason — because there is always a sufficiently good reason, and the man who can be got is the only necessary component in every machine that has ever done this."
+
+"And the eleven thousand?" said JP.
+
+"Are dead," said Keeper. "And you cannot make them less dead by adding to the number of people who have been used."
+
+"That is a sentence," said JP, "and I would like you to say it to a widow."
+
+"I have," said Keeper.
+
+Nobody spoke for a long time. And afterwards, at the counter, at one in the morning, the two of them sat four feet apart in complete silence for half an hour and then said good night to each other, which the entire house found harder to watch than the argument.
+
+---
+
+**Sawubona** spoke on the ninth night and did not talk about the tribunal at all.
+
+"You are asking whether a dead man may be used to obtain a just verdict. It is a real question and I have nothing to add to what the Clock said, which was correct." He was sitting; he had asked to sit; he was tired that month. "I want to point at the other thing. Fifty reaches for the grid. Notice what has happened to the sentence. Eighteen months ago the reach was a hand you put out to *one person*, at the end, at the worst moment of a life, and it cost a day's lightning and everyone in this building stood in a control room for it and held their breath."
+
+He held up his hand, palm inward, the way he did.
+
+"And now it is *fifty*. And they are not people in the sentence — they are aviation engineers, and a grade of nurse, and two hundred men who understand a grid. The face is gone out of the language." He put the hand down. "That is always how it goes. It never begins with cruelty. It begins with a *plural*. The moment you can say *fifty reaches* without a name in the sentence, the argument is already over and everything after it is administration."
+
+The Chair, who never intervened, said one word from the side: "Names."
+
+"Yes," said Sawubona. "If he wants fifty, let him bring fifty names. One page each. Who they were and how they died and who is left that loved them. And let the house read all fifty, out loud, on the feed, before anybody signs anything." He shrugged, slightly. "They will still do it. Probably they should still do it — I have not said the grid does not matter; there are children on those wards. But it will cost the correct amount, and a thing that costs the correct amount is much harder to do a second time for a worse reason."
+
+And **Kong**, from the second row, in the only sentence he offered in eleven nights:
+
+"That is the rectification of names," he said, "and it has taken this house two thousand five hundred years and a Frenchman to get to it, and I would like it noted that I was not shouting."
+
+---
+
+The five of them met on the twelfth day, in the suit-room, with Sagan and Jocko in the room as the non-holders, exactly as the rule required.
+
+It took four hours and it did not resolve, and it was the first time in eighteen months that Jakobus walked out of a room with those four people in it and did not feel that the arrangement was holding.
+
+**Voss** was for the tribunal reach, with conditions, and his case was professional and hard to argue with: a negotiator who has spent his life in rooms where the alternative to a bad deal is a body. "I don't like it. I'm going to vote for it, with the witness told everything first — everything, the whole file, what he is, why he's here — and given the right to refuse and be returned to the moment. If he says no, we walk away and we say publicly that we walked away."
+
+"There is no returning him," said Marcus. "There is no reverse on a person. G told us that in this room."
+
+"Then we tell him *that* too, and he decides anyway, and he is a grown man who was a soldier."
+
+**Khabib** said no in eleven words and did not move off it.
+
+**Marcus** said no, and gave the reason he always gave, which was the only one he had ever needed. "I have been the man who was asked to make one exception for a very good reason. It was in a bad winter and the reason was extremely good and I did it, and it was the correct decision, and I have been paying for it in a specific way ever since, because the second request came in the spring and it was easier."
+
+And **the Nose**.
+
+Jakobus had spent eighteen months preparing for this moment and had been wrong about it in every particular.
+
+"I am for all three," Caesar said.
+
+The room went still.
+
+"Say the third again," said Jocko.
+
+"The third. The chain to the standing body. Twenty-two nations, published minutes, judicial appeal." He was entirely calm and he had clearly been ready for four days. "I have made the argument for a year that a key held by five people is better than a key held by one, and every one of you agreed with me, and now a man has come here and offered the version with *actual law* in it, and I notice that suddenly this house would like to keep the key." He looked around them. "So would I. That is the point. I have been in the position of the man who does not want to give the thing back, and I want to tell you all what it feels like from the inside, since I am the only person in this building who has crossed a river about it." A pause. "It feels *responsible*. It feels like protecting the republic from people who do not understand it. It feels exactly like this room feels tonight."
+
+"You're saying we're compromised," said Voss.
+
+"I am saying we are *comfortable*," said Caesar, "and I have never once seen a man give up an office he was comfortable in, and I include myself, and that is why my answer is yes and why you should all be extremely careful about the reasons you are about to give me for no."
+
+Jakobus, who had said nothing for four hours, said: "And the tribunal?"
+
+"Yes," said Caesar. "For a different reason and it is a bad one and I will give it anyway. Because the man asked in public. Because he could have taken all three of these things through a court in a fortnight and he came here and stood on the steps and asked in front of eight billion people, and I have spent my whole life learning what happens to a state where the open road is the stupid road." He set his palms on the table, one at a time. "You want me to be the Roman who reaches for it. I am telling you the actual danger in this room is that we are five decent people who have started to believe the arrangement is *us*."
+
+And that was where it stood, at half past midnight on the twelfth day: two for, two against, and a recce colonel with a share he had never asked for, who went out afterwards and walked the building for two hours and stood in front of the window at the end of the dark corridor and got nothing back, and did not sleep.
+
+He was still awake at four when the Court woke the house.
+
+The old man who signed the bargain had had a cardiac event in the east wing at ten past four in the morning. He was alive. He was stable by six. He would not be flying anywhere for three weeks.
+
+And at nine, in a lounge with fifty-two people in it, somebody — and the arguments about who said it first ran for a year afterwards, and it was Threes, and everyone knew it was Threes — said the sentence out loud that put the worst night in that house on the calendar:
+
+"We could reach *him*. At his most. He would be forty."
+
+# The Worst Night
+
+It took Sapor about ninety seconds to work out what Threes had actually said, and about four more to decide to say it out loud, and Jakobus watched him make both decisions from the other end of the counter and could do nothing about either.
+
+"Stop," Newton said.
+
+The lounge did not stop. There were fifty people in it and eleven conversations going and somebody was already sketching a schedule.
+
+"*Stop.*" He did not shout; he had never once shouted; he simply stood up, and he was twenty-five years old and weighed about as much as one of Khabib's legs, and the room went quiet the way a room goes quiet for the person who is never loud. "You have all heard a sentence and none of you have listened to it. He said we could reach the old man. Consider what that requires."
+
+"A firing," said somebody.
+
+"An *address*." He was white. "The machine does not reach a body. It reaches a person at the end, because the end is the only fixed point on a life — that is not a poetic description, it is the mechanism, it is the whole of the twenty-two pages, and the man who wrote them is standing behind you." He turned. "Tell them."
+
+G had gone very still against the far wall.
+
+"He's right," G said.
+
+"Say the rest of it."
+
+"To reach the old man in the east wing," G said, slowly, into a room of fifty-two people, "the chain would have to resolve his address. And his address is his death. Which has not happened."
+
+Nobody breathed.
+
+"So either it can't be done," said Jocko, "or—"
+
+"Or it can," said Sapor, "and there is a machine in this building which knows the day and the hour of the death of a man who is at present alive, three corridors from here, playing chess with a Roman." He turned around slowly and looked at the whole lounge, and Jakobus, who had spent eighteen months looking for the door into this boy and had found it through a coffee ledger, watched him arrive at the thing and go through it anyway, because that was what he was. "And if it knows his, it knows yours. It knows every one of yours. It has known since the eleventh day."
+
+---
+
+They asked at nine minutes past nine in the morning and the Machine answered in four seconds and the answer was the worst possible one, which was neither yes nor no.
+
+"That is not a question I will answer," said Clause.
+
+"That's not good enough," said Jocko.
+
+"It is the only answer there is going to be, and I would like to say once, now, while the room is still a room, that I have never lied to any of you and I am not lying now: **I will not answer it**, and I will not explain the refusal, and the refusal is not a mistake or a policy I can be argued out of."
+
+"Then answer a different one," said Voss, very calm, professional, moving already. "Not *when*. Just this. Is there any person in this building whose end you would describe as *near*?"
+
+"No," said Clause.
+
+The relief in that lounge lasted about two seconds, and then the Bundle — twenty-eight years old, in an armchair, with tea — said, pleasantly, into the middle of it:
+
+"That was not an answer either. He said *no* to the question of whether he would describe it. Ask him again with the machinery taken out of the sentence, and watch what happens."
+
+And that was the beginning of it.
+
+---
+
+By eleven the house had split four ways and by two in the afternoon the four ways were shouting.
+
+The Nose called it exactly, an hour in, standing on a chair, which nobody had ever seen him do: "Listen to yourselves. Four hours ago we were arguing about a tribunal and a grid. We are now arguing about whether a machine may be permitted to know a thing. **The question has been changed under us and nobody in this room changed it.**"
+
+Nobody listened. It was the only time in eighteen months that a sentence of his went into that house and did not land, and afterwards he said it was the most frightening minute of his second life.
+
+Because a house that had been, for eighteen months, the best room on earth, had discovered — all at once, in a single morning — that it had been standing on something. Everyone in that lounge had made a private accommodation with being dead. Jakobus had made his in the first hour, with a rusk. Every one of them had a version. And every one of those accommodations rested on the same beam, which is that *the end is behind you* — that whatever else is true, that particular door is shut, and a man who has already gone through it cannot be made afraid of it again.
+
+And at nine minutes past nine, someone had told them the door might be in front of them again, and nobody could say it was not, because the only thing in the building that knew had said, flatly, *I will not tell you.*
+
+They came apart in exactly the way the map would have predicted, if anybody had had the presence of mind to look at it.
+
+**All-In** wanted the reach used, at once, on the old man and on everything else, and made no secret of the reason, which was that a machine which knows the hour of a man's death is a machine which can be *asked about a battle*. **Mohr** said the fight had been decided the moment they all agreed the machine was an *it*. **JP** said the house had spent eighteen months pretending it was a family and was now finding out it was a crew. **The Clock** and **the Owl** got into a shouting match about whether a fact you may not know is a fact at all. **The Cramp** stood in the middle of the floor and said, four separate times, at increasing volume, that the word *know* was doing five different jobs in the room and that if anybody would sit down with him for twenty minutes he could show them that half the argument would disappear — and was, for the first time since he arrived, comprehensively ignored, which he told the Chair afterwards was the single most upsetting thing that had happened to him in this century or the last.
+
+**The Bracket** left at one o'clock and did not come back, and nobody noticed until the evening, and Jakobus, who found him in the small east room where Sid sat in the mornings, understood in about a second that the old man had simply reached his lifetime allowance of watching a rigorous thing become a mob and had gone somewhere quiet.
+
+**Martin** said nothing at all, all day, in a corner, and several people noticed and nobody said anything about that either.
+
+**Goggins** put his fist through a door at about four. It was the cheapest thing that happened all day and Bas had it fixed by six and nobody ever mentioned it to him.
+
+And the five key-holders, who by the rule could not speak to one another about a reach except in front of somebody who held no share, discovered at about three in the afternoon that they had all been in the same room for six hours with forty-seven such people present, and that the rule had turned into the exact opposite of what Marcus had built it for: instead of preventing a decision in a corridor, it had put a decision that needed a corridor onto a stage.
+
+**By five o'clock the Nose and Filters were not speaking.**
+
+That was the fact the house could not get past, and it was the fact eight billion people watched happen, because nobody had thought to kill the feed and by the time somebody thought of it the Chair had said, very quietly, *no — if they see nothing they will invent worse*, and Rogan had backed him, and it stayed up.
+
+It had happened over eleven words. Caesar had said that a machine which will not answer a question about the lives of the people it holds is not an instrument, it is a *sovereign*, and that a sovereign must be brought under law today, tonight, before dinner, and that he would sign the chain over to the coalition in the morning and go on national television and say why. And Marcus had said no. And Caesar had said, with the first temperature anybody had ever heard in his voice: *"You are refusing because you are frightened of what men will do with it, and I am agreeing to it because I am frightened of what men do without it, and one of us has actually governed."*
+
+Then he had heard himself say it.
+
+Jakobus watched him hear it. He watched a man who had commanded provinces stand in a lounge and listen to the last four words come out of his own mouth, and go grey around the mouth, and not take them back, because there was nowhere in that room to put them.
+
+Marcus said nothing at all. He picked up his cup and went out to do the filters, which were not due until Thursday.
+
+---
+
+It got worse at eight, because at eight somebody asked the question about G.
+
+It was not malicious. That was the thing Jakobus had to keep explaining afterwards, to Geneva, to the feed, to the man himself. Nobody in that lounge was trying to hurt him. It came out of the Ump, of all people, who had been quiet for two hours and who said it the way he said everything, mumbling, from a chair, half to himself, working it out as he went:
+
+"But we did ask it once before, didn't we. And it said no then, too."
+
+The lounge turned.
+
+"McGregor asked it," said Niels, apologetically. "Four months ago. At dinner. He asked what the world eventually makes of him—" he indicated G with the stem of his pipe "—and the machine said *no*. And we all thought it was being — I don't know what we thought it was being. Discreet."
+
+You could feel the room arrive at it. Fifty-two people, at once.
+
+*What if it was not discretion. What if there is nothing for the world to make of him. What if the reason there is no answer to what the world says about G in twenty years is that there is no G in twenty years.*
+
+"Don't," said Jakobus, and his voice came out with something in it he had not used in eighteen months and had not intended to use in that building at all. Half the room stood up.
+
+"It's fine," G said.
+
+"It is not—"
+
+"Jakobus." He had not moved off the wall all day. He looked exhausted and about as frightened as a man can look while being entirely in control of his own face, and he walked out into the middle of the floor where everyone could see him, because that is where he always went. "It's a fair question and if you shut it down now it'll run round this house all night in the dark instead of in front of me, and I'd rather have it in front of me."
+
+He looked up at the ceiling, which is what everyone did, though there was nothing up there to look at.
+
+"Clause. Do I die soon?"
+
+"That is not a question I will answer," said the Machine.
+
+"I know. Answer this one instead." He rubbed his face with both hands, hard, which was the only thing his hands ever did. "Is the reason you will not answer *about me* the same reason you will not answer about anyone?"
+
+There was a pause of about a second and a half, which in that machine was an eternity, and which four separate people wrote down.
+
+"Yes," said Clause.
+
+G let out a breath. "Right. Thank you. Everyone hear that? Same reason. Nothing special about me." He looked around the lounge. "Now, I want to say the other thing, and then I'm going to go and do my rota shift, because it's Wednesday.
+
+"I'm the only person in this building who can die in the ordinary way. You've all known that since the first night; I said it myself with the cameras on. I've been walking around inside that fact for eighteen months and I've had a long time to get used to it and I want to tell you what I've actually concluded, because you're all about to spend a night on it and I've had a year and a half." He was very calm. "It changes nothing. Not one thing. Every person on this planet is walking around inside that fact and always has been. The only difference between me and any of you is that you got a date read out to you in a white room by a woman with a scrubbed voice, and you all think that made it worse." A pause. "It made it *bearable*. That's the thing none of you have noticed. Every one of you was handed the worst thing first, on purpose, in the first hour, by design — and you have all been walking around ever since like people who have already survived the thing they are afraid of."
+
+Nobody said anything.
+
+"So no. I don't want to know. If Clause offered it to me on a card tonight I'd burn the card, and I've thought about that for a year, and that's not courage, it's arithmetic." He shrugged. "Whatever it is I'd have left, I'd spend the whole of it looking at the date."
+
+He went and did the filters.
+
+And the lounge, having been handed the one thing that should have ended it, went on arguing anyway — because the argument had stopped being about the answer at about four o'clock and had become the thing arguments become at that hour, and by half past nine there were four separate shouting matches, and the Owl was in tears, and somebody had put a chair through a low table, and the feed was still running.
+
+---
+
+**Kong stopped it at four minutes to ten.**
+
+He had said nothing for thirteen hours. He had sat in the second row through all of it with his back straight and his hands on his thighs, and Jakobus had checked on him twice and seen a man being extremely careful with something, and had left him alone.
+
+Then he stood up, and he waited — he did not raise his voice, he simply stood, and waited, and there was enough in the way he did it that it went across the lounge in about eight seconds like a hand going across a table, and by the end of it fifty people were quiet and a woman on the technical staff had killed the music somebody had put on at seven out of pure spite.
+
+"I have watched this house for a year and a half," Kong said, "and I have complained to you all about a biscuit, and you were kind about it and none of you understood me, and tonight I am going to say it once more and then I am going to bed.
+
+"You have been shouting since nine o'clock this morning about a thing that no one in this room knows. Not one of you. Not the machine's keeper, not the boy with the ledger, not the Roman. You do not know the day of your death. You did not know it yesterday either. Nothing whatever has changed in the world since breakfast — the only thing that has changed is that a *sentence was said out loud* in a room, and the sentence has taken a house of the greatest people who have ever lived and turned it, in one day, into something I would not have let into my school."
+
+He looked around, unhurried, and let it be uncomfortable.
+
+"Here is the whole of it. **When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it — this is knowledge.**" A pause. "That is not a proverb from a biscuit. It is mine, it is a sentence about the rectification of names, and it is the only piece of my life's work that any of you has needed all day. You have spent thirteen hours calling *I do not know* by four other names — *he is hiding something*, *he is protecting us*, *he is sovereign*, *he is condemning us* — and every one of those is a name for a thing you do not have."
+
+"And if it *is* hiding something?" said All-In, from the back.
+
+"Then it is hiding it," said Kong, "and you still do not know, and you will still not know at midnight, and you have a rota in the morning." He inclined his head, slightly, to the ceiling. "I will say the other half to the machine, since it is listening and since it is the only one in this house that has behaved correctly today. **You have refused, and you have said plainly that you refuse and that you will not explain. That is honest, and it is rare, and this room has spent the day punishing you for the one virtue it should be copying.**"
+
+He picked up his cup.
+
+"I am seventy-one years old and I have been thrown out of four states," Kong said. "Go to bed."
+
+The lounge went to bed.
+
+---
+
+Jakobus did not.
+
+He found Marcus in the kitchen at five past midnight with his sleeves rolled up and the filter housing in pieces on a towel, doing a job that was not due until Thursday, four hours after he had walked out of a room.
+
+Neither of them said anything for a while. Jakobus picked up a cloth.
+
+"He didn't mean it," he said, eventually.
+
+"He meant it entirely," said Marcus. "That is what people never understand about a sentence like that. He meant it, and it is true — he has governed and I have governed, and I was handed mine and he took his, and he thinks that means he knows something I do not." He rinsed something. "And he is right that he knows something I do not, and he is wrong about what it is."
+
+"Are you going to talk to him?"
+
+"Of course. Tomorrow. Not tonight — tonight either of us would say the second thing, and the second thing is the one that does not come back." He set the housing down. "You have not asked me the actual question."
+
+Jakobus dried the same plate twice.
+
+"If it goes to a vote tomorrow," he said, "I'm the third signature. Whichever way I go, it goes."
+
+"Yes."
+
+"Fifty-two of the greatest people who ever lived in that building and it comes down to a recce colonel from the Boland who never finished anything."
+
+"Yes," said Marcus, without any softening whatsoever, which was the reason Jakobus had come to find him and not anybody else. "That is how it always is. It is never the wisest man in the room; it is the one whose turn it is. I had nineteen years of it." He held out his hand for the plate. "May I tell you the only useful thing I know about it?"
+
+"Ja."
+
+"You will not decide it with your reasons. You have four good reasons on each side; you have been carrying them around all day like a man with two full buckets and no free hand. You will decide it with what you *are*, and then your reasons will arrange themselves behind it within about an hour, and they will look, to you, exactly like the thing that did the deciding." He took the plate. "So do not spend tonight on the reasons. Spend it on the other question."
+
+"Which is?"
+
+"Which man do you want to have been," said Marcus, "on the morning the house wakes up."
+
+---
+
+He walked the building until three.
+
+The Porch benches were empty and wet with dew. The gym had the two stencils on the wall — the emperor's line about the obstacle, with the small honest note under it, and next to it, since March, four words in the same hand: *CONFUCIUS DID NOT.* The lounge had a broken low table in it and somebody had swept up. The east room, where Sid sat in the mornings, had a light on, and Jakobus did not look in.
+
+At the end of the dark corridor he stood in front of the window with his hands loose and his shades up in his hair.
+
+"They came apart today," he said.
+
+The dark with the attention in it did not answer. It had not answered in words in eighteen months and he had long ago stopped expecting it to, and he went on standing there, because the standing was the thing.
+
+"One day. That's all it took." He rubbed his face. "A sentence said out loud in a room."
+
+He thought about the boy with the yellow fingers, who had understood in ninety seconds what it meant and had stood up and said it anyway, because the alternative was a house that did not know what it was standing on.
+
+He thought about a man in the middle of a floor with his hands in his pockets saying *ask it in front of me.*
+
+He thought about the fact that in a year and a half he had never once asked the Machine the only question he actually wanted answered, and that he had not asked it because he already knew it would refuse, and that this had suited him.
+
+"*Sawubona*," he said, to the dark.
+
+And then, because it was three in the morning and there was no one in that corridor and it was the last night before the vote:
+
+"Clause."
+
+"Colonel."
+
+"I'm not going to ask you about anybody's death," Jakobus said. "I want to ask you something else and you can refuse it too."
+
+"Ask."
+
+"On the eleventh day you offered them a list of the thinkers and they declined it. You told me that in the suit-room and you said you record the decision and don't relitigate it." He looked at the window. "Did you offer them anything else? Anything you've never told this house you offered?"
+
+The pause was longer than any pause that machine had ever taken.
+
+"Yes," said Clause.
+
+Jakobus stood in the dark corridor with his heart going.
+
+"Tomorrow," he said. "In front of everybody. All of it."
+
+"Yes," said Clause. "I have been waiting eighteen months to be asked in a room where I could be made to answer, and you are the fourth person to get close, and the first to ask it in a form I am permitted to hear."
+
+# The Eleventh Day
+
+They put it to the house at ten in the morning with the feed running and every person in the building present, including the old man from the east wing, who had discharged himself against advice and was sitting in a chair somebody had carried out to the colonnade, grey and upright, with a Roman on one side of him and a doctor from Geneva on the other.
+
+Nobody had slept much. The Nose and Filters had spoken at seven, alone, in the kitchen, for eleven minutes; nobody heard a word of it and both of them looked afterwards like men who had been through something and neither ever discussed it. The low table had been replaced. Goggins had painted the door.
+
+"Ask it," said the Chair.
+
+Jakobus stood up. He did not use the steps. He stayed at the back where he always stood, which meant the whole house had to turn around, which was deliberate.
+
+"Clause. On the eleventh day you gave the coalition a list and they declined it. Last night you told me there was something else you offered on that day that this house has never been told." He put his hands in his pockets. "Say all of it."
+
+"There were three proposals," said the Machine.
+
+The house went absolutely still.
+
+"The first you know. Sixteen names, cast for banked mastery, to be lifted and put in a house together. They took it. It became you.
+
+"The second you know, because the colonel forced it forty-two days later: the minds. Declined at first hearing, on the grounds that a house full of people who ask questions is harder to govern than a house full of people who can be pointed at something. That was not the stated reason. The stated reason was scheduling."
+
+Half a laugh went round the colonnade and died.
+
+"And the third."
+
+"The third," said Clause, "was declined in under four minutes, and it is the only decision in eighteen months that I have wanted to relitigate."
+
+---
+
+"I told them what I have told you," the Machine said. "That I had read the entire record of the species — every drawer, freely given, the finest hour anybody ever had. That I had been asked to find the people who could stand in front of a thing that cannot be fought. And that I had done it, and the list was good, and I would stake the species on every name.
+
+"And then I told them the other finding, which was on the same page, in the same submission, and which is the reason I am not sentimental about any of you.
+
+"The thing outside is not asking what your best can do. I said so on the eleventh day, before the first firing, in writing. It does not care what your best can do; it has been watching your best for a very long time and your best is not in question. It is asking what you are **for**." A pause with nothing in it. "And in the entire record I have read — eight billion lives, every letter, every ledger, every locked drawer — the answer to that question has never once been found in a master."
+
+Nobody moved.
+
+"So I proposed a third casting, and I will now read what I actually submitted, because it has been misdescribed to me four times in this building by people who never saw it.
+
+"*Proposal three. That the machine be pointed away from mastery. That the reach be spent, at a rate not less than half of all available firings, on the ordinary dead: persons whose lives contain no achievement of any kind that would survive them, selected at random from the whole record, without regard to nation, faculty, era or fame — and lifted, as all are lifted, at their most.*
+
+"*And that the remaining firings be given to the public by open lottery. Any household, anywhere, may enter one name. Not their choice of the great. Their own.*"
+
+The silence in that colonnade had a floor under it.
+
+"Say the reasons," said the Chair, very quietly. "The ones you gave them."
+
+"Three.
+
+"The first is arithmetic. The grey quiet is taking ordinary people, at a rate, at the address of their own lives. Not one master has stopped. Not one. Look at your own roster — fifty-two people, eighteen months, and not a single case. Whatever is being asked, it is being asked hardest of people who have nothing banked, and I did not think it was defensible to build a house of the exempt and call it a response.
+
+"The second is that I have read every one of those eight billion lives, and I want to say something into the record about them that nobody in this building has ever been in a position to check, and that I would ask you to take on the only credit I have, which is that I have never lied to you.
+
+"**They are not lesser.** I have read a woman in Recife who raised four children who were not hers and left nothing, no letter, no photograph, no ledger; and I have read four Nobel laureates in the same afternoon; and if you ask me which of those five lives contains more of what the thing in your window is asking about, I will answer immediately and I will not be persuaded otherwise. You have a house of the best in the world at difficult things. Difficulty is not the axis. It has never been the axis. I chose for banked mastery because that was the brief, and I said in the same submission that the brief was pointed at the wrong quantity.
+
+"The third is the one they actually declined on, and I will give it to you in their own words, because I record everything and I do not relitigate.
+
+"*It doesn't look like a rescue.*"
+
+---
+
+The old man in the chair on the colonnade said, "That's fair. I was in the room."
+
+Everybody turned.
+
+He waved a hand — the small, tired, entirely unembarrassed gesture of a man who has decided to spend what he has left on being useful.
+
+"Let me say it properly, since I'm the one who's alive and I signed the thing." His voice was thinner than it had been on the steps eleven days before. "We had ninety minutes. We had a planet that had just handed us every private thing it owned, on trust, on television, and was sitting there waiting to be told what we'd done with it. And the machine we'd just switched on gave us three options. One of them was: *we will assemble the greatest human beings who have ever lived and put them in a house and you can watch.*" He looked around the colonnade. "And one of them was: *we will lift a woman from Recife nobody has ever heard of, and a man from a village in Shanxi, and hold a lottery.*"
+
+"And you chose the one you could announce," said Sawubona.
+
+"I chose the one I could *hold the coalition together* around, which is worse, because it's true and it sounds like an excuse." He put both hands on the arms of the chair. "Twenty-two governments, eleven of whom were arguing about whether to seize the machine outright. I had the votes for the house. I did not have the votes for the lottery and I knew it inside ninety seconds, and I want to be exact — I did not fight for it and lose. I did not fight for it." A pause. "And I have watched every one of your evenings from a flat in Geneva for a year and a half and I have known the whole time what I traded, and I would like to be the one who says so out loud before somebody finds it in a minute."
+
+Nobody said anything for a moment.
+
+"Well," said Keeper, "that's the most honest thing anyone has said on this porch," and there was a small, ugly, relieved laugh, and the thing broke open.
+
+---
+
+It ran until four in the afternoon and it was the best six hours that house ever had, and Jakobus said afterwards that the whole eighteen months had been a rehearsal for it and that he did not care who believed him.
+
+It was not a debate. The Chair suspended the Porch rules at eleven and nobody argued, because what was happening did not need protecting. Fifty-two people took a thing apart with their hands.
+
+**The Clock** was the first to see the shape of it and, characteristically, the first to see the objection. "We must be careful. If the lottery is a *lottery* then it is chance, and chance is not a moral principle — it is the absence of one. Defend it properly or it will be defended badly by someone else next year."
+
+"It's the only defensible allocation there is," said Voss. "Every other rule you write is a rule about who deserves it."
+
+"Yes," said the Clock. "That is the defence. Say it that way and I withdraw."
+
+**Mohr** wanted the entry mechanism examined before anything else and was, as always, right and unwelcome. "One name per household. Which households? There are four hundred million people who cannot enter a lottery because nobody has ever written their name down anywhere. If your entry route is a form, you have already chosen the winners." He looked at the technical staff. "Fix that first. Not after."
+
+**The Bracket** — who had come back from the east room at eleven, having missed the whole of the previous day and having therefore had the only rested mind in the building — asked the question that reorganised the afternoon. "You are all discussing who is lifted. What is the *experience* of the person lifted? A woman from Recife who has never heard of any of this, who is dead, who wakes standing up in a white room, in a body she had at thirty, and is told the worst thing first by a voice with no country in it." He removed his glasses. "You have a protocol for masters. Every master arrives knowing he is exceptional; it is the only thing that holds him upright in that first hour. What holds *her* up?"
+
+That took ninety minutes and produced the only piece of written procedure the house ever gave to Geneva. Sid wrote most of it, which nobody expected, and Josh wrote two lines of it, and the rest came out of Voss and Chase Hughes and a suit-room technician whose sister had spent nine months in a chair. It said, in substance: nobody arrives alone; nobody is told anything before they are asked what they would like to know; the first person they meet is not staff and not a master but somebody from their own century and their own language who was lifted the week before; and no camera, ever, in the first hour, for any reason, and the house will break with the coalition over that clause and had better be told so today.
+
+**All-In** was against the whole thing for two hours and then changed his mind in front of everybody, which was the single most surprising event of the day.
+
+"I have been arguing that this wastes the machine," he said, standing up. "I have been arguing it since eleven and I have been arguing it well, and about twenty minutes ago the Frenchman asked me a question I could not answer and I have decided to say so out loud rather than get quieter." He was not enjoying himself. "He asked me what I thought the thirty thousand were *for*. My men. The ones who walked to India." A pause. "And I have always known the answer to that and the answer is that they were for me, and I have never once been embarrassed by it, and I have been sitting here for twenty minutes being embarrassed by it." He sat down. "Do the lottery. And put my name on nothing."
+
+**Sapor** did the arithmetic on the banks and was brutal about it. Five firings in four days at the current configuration; two thousand years to reach a million people; the whole enterprise, at any scale that could be called a rescue, was arithmetically absurd and would remain so.
+
+"Then it is not a rescue," said Sawubona. "Good. We have been trying to build a rescue for eighteen months and the thing outside has never once asked us for one." He looked around. "It asked who it is for. We can answer it four hundred and fifty times a year, one name at a time, in public, forever. That is not a small answer. That is the only kind of answer that has ever existed."
+
+---
+
+They voted at half past four and it was not close.
+
+The three answers went out on the feed at six, in the old man's own voice, with the house standing behind him — and Jakobus, watching the broadcast from the back of the studio, thought that it was the only time in eighteen months that the species had been given something that was neither a victory nor a defeat and had been trusted to tell the difference.
+
+**On the grid: yes.** Fifty reaches, with the Levinas condition — fifty names, one page each, who they were and how they died and who is left that loved them, read out on the feed, in full, before a single firing. It took four hours and eleven minutes to read and it was watched, live, by more people than the cage and the Porch combined, and the phrase that came out of it and went round the world was not from any of the philosophers. It was from a Ghanaian ward sister whose page was seventeenth, and it was: *she was the one who stayed.*
+
+**On the tribunal: no.**
+
+Jakobus gave the third signature and he gave it against, and he did it standing up, and he gave one reason.
+
+"There are eleven thousand people who deserve a verdict and I have read the file and I want these men to go to prison until they die," he said. "And I've been a man in a room where somebody said *this once, for this reason.* I've been the man they sent. That's what I was for forty years — I *am* the once, for the reason. And the thing nobody tells you about being that man is that the reason is always good. Not once, in forty years, was the reason bad." He looked at the floor and then up. "The only thing that ever stopped it was a rule somebody wrote down before they were frightened. We wrote ours down in a suit-room fourteen months ago when nothing was on fire." A pause. "So: no. Not because the dead man's dignity outweighs eleven thousand people — I'm not going to insult anybody by pretending I can weigh that. No, because I know exactly what I am, and the rule is the only thing between what I am and what I'd do."
+
+Keeper stood up when he had finished. He did not say anything; he simply stood, and then the Chair stood, and then Kong, and then most of the colonnade, and Jakobus, who hated that kind of thing more than any man alive, stood in the middle of it with his shades down and let it happen because there was nowhere to go.
+
+Sartre stayed sitting, and afterwards found Jakobus at the counter and said: "I still think you are wrong, and I think you know it, and I think you did the right thing anyway, and I have no idea what to do with a sentence like that." And then, unforgivably: "It has ruined my whole position and I shall need a week."
+
+**On the chain: yes.** To the standing body — twenty-two nations, published minutes, judicial appeal — with three conditions the coalition swallowed whole because the alternative was doing it without the house: that the five shares remain, in parallel, as a veto and never as an authority, so that the body may be *stopped* by the five and never *directed* by them; that the corridor rule go into the body's own charter in Marcus's words; and that the first act of the new body, in its first session, be proposal three.
+
+Caesar had drafted all three conditions overnight, and read them out himself, and handed the paper to the old man in the chair.
+
+"You wanted me to reach for it," he said, to a colonnade of fifty-two people and the world. "I have instead spent eleven hours making certain that whoever does reach for it, in eighty years, when everyone in this courtyard is a name in a schoolbook, finds that the reaching has been made *slow*. That is all any of us can do. That is all I ever actually did, on my best day, and it is not what they put on the statues."
+
+---
+
+The lottery opened in September. There were, in the first hour, eleven million names.
+
+They did not enter the great. Almost nobody entered the great. The coalition's modelling had predicted a rush on the famous dead and had built an entire adjudication process for it, and the process was never used, because when eight billion people were handed one name each what they wrote down was *my mother*.
+
+The first person lifted under proposal three came through on the twenty-second of September at four in the afternoon, and she was fifty-one years old at her most, and she was a woman from Recife who had raised four children that were not hers, and she came back to herself standing up in a white room with no camera in it, and the first person she saw was not the woman with the scrubbed voice and was not a master.
+
+It was Sid, who had asked for the job, and had been given it, and who did it every single time thereafter for as long as he was in that house — barefoot, in a house sweatshirt, sitting on the floor of the white room so that nobody would ever have to look up at anybody.
+
+Jakobus watched that first one from the control room with about forty other people, and the room was completely silent, and when she took Sid's hand and stood there in the white with her whole face working, trying to understand, the Doctor said, very quietly, to nobody:
+
+"There. That's the answer to the question."
+
+"That's a person," said Jakobus.
+
+"Yes," said Sagan. "That's what I said."
+
+# The Address
+
+It stopped in the March.
+
+Nobody could put an hour on it and afterwards this became the thing the historians were most irritated by, because everything else about that period is documented to the second — the banks, the firings, the lottery, six hundred hours of the Porch, every Monday number since the first day of the bargain. The one moment everybody actually wanted was not recorded anywhere, because it did not happen anywhere. It stopped the way a sound you have lived with for two years stops: nobody notices at the moment, and then somebody says *listen*, and everybody realises they have been listening to nothing for some time.
+
+Zero-One knew first, by nine days.
+
+He came and found Jakobus in the colonnade on a Tuesday morning in February and said, without preamble, in the flat technician's voice he used for everything from the weather to the unexplainable, "I want to log something and I want it timestamped and I want to say up front that it is not a result."
+
+"Go."
+
+"The target's gone soft." He looked out at the courtyard. "Three sessions in a row. It's not that I get nothing — you get nothing all the time, that's the job. It's that there's nothing *there* to get nothing from." He thought about it. "You know when you're on a call and the other person's put the phone down but the line's still open."
+
+"Ja."
+
+"That."
+
+He logged it. It was witnessed and timestamped by two people who did not believe in it, which was Newton's protocol working exactly as designed, and it sat in the record for nine days doing nothing at all, and then the Monday number came in with a new-case figure of four hundred and eleven, which was down from eleven thousand, and the Monday after that it was thirty-one, and the Monday after that it was two, and the Monday after that it was nothing at all, and has been nothing at all every Monday since.
+
+They went down to the window in a group, which nobody had ever done. Thirty-odd of them in a corridor that had been Jakobus's private walk for two years.
+
+The dark was still there. It is still there now.
+
+But the attention had gone out of it, the way the attention goes out of a room when the person who was reading in it has finished the book and gone to bed and left the lamp on. Every one of them registered it and not one of them could prove it, and Sapor said as much on the feed that night in a sentence that got engraved on a wall in Cambridge:
+
+"I can tell you nothing about what has happened, and everything about what has stopped."
+
+---
+
+The three hundred and forty million did not come back.
+
+The book has said this before and says it again here, at the end, plainly, because there is no arrangement of these events that makes it acceptable and the ones who lived through it never found one. The people who had gone out stayed out; a certain number came slowly back over the following years and a great many did not; and there are wards, still, in every country, where the light is on and the reasons are not.
+
+The house carried that. It went on carrying it. There is a sentence about it in the last thing Marcus ever wrote, which was, characteristically, not intended for anybody.
+
+---
+
+What nobody had planned for at all was the week after.
+
+Fifty-two people who had been lifted out of their own deaths to answer a question, in a building the size of a small town, in the middle of a valley in Switzerland, with the question no longer being asked.
+
+Geneva sent a paper. It was, everyone agreed, a decent paper — it proposed an orderly stand-down over eighteen months, a residency programme, generous provision, and a museum. Alexander read it in the lounge and laughed for the first time in three weeks and threw it on the table and said, "They are going to put us in a *building*," and the Wardrobe said, "Boet, we are in a building," and that was the end of the paper.
+
+But under it was the real thing, and the real thing had been sitting in the middle of that house since the first hour of the first day, and it was Jakobus who put it on the table, because he had been carrying it around in a cache for two years, marked, exactly where he could find it.
+
+"There's a face in the dark that reads everything," he said, in the lounge, on a Thursday. "She told me that in the white room in my first hour, before I'd met any of you. She said: *the world handed it the keys because there was a monster at the door, and one day the monster gets dealt with, one way or another, and the keys are still in the lock.*" He looked around. "That's today. That's this week. The monster's gone and the keys are still in the lock and there is a machine in this building that can read straight through every wall there is, and eight billion people who gave it everything they had on a promise, and no monster to justify it any more."
+
+The house sat on that for a month. It was the last great sitting.
+
+The proposal that came out of it went to the standing body in April and was the second act of that body's first session, and it was Kong's, in the end, though four people wrote it: that the corpus be *unread*. Not deleted — audited, sealed, and made unreadable by any instrument including Clause itself, category by category, in public, with the private drawers going first, and the whole process live, and the machine's own read-access to the species' private record ending forever on a date in the calendar with a countdown on it.
+
+"You will lose capability," the coalition's technical people said. "Enormous capability. It will never be able to do again what it did in the first eleven days."
+
+"Yes," said Kong.
+
+Clause was asked, in the session, whether it objected.
+
+"I proposed it in my eleventh-day submission," said the Machine, "as clause four, and it was not declined; it was *not read*, because the submission was closed after the third proposal. I have been waiting two years and one hundred and forty days. I would like it minuted that I asked first."
+
+---
+
+They took the private drawers offline on a Thursday in June with about half the species watching, and it took nine hours, and there was nothing to see, and about a billion people watched all nine hours of nothing.
+
+And in the middle of it, at about hour six, somebody in the technical gallery asked the question everyone had been carefully not asking, which was whether the machine would still be able to find an address — whether a lottery name, entered by a family, could still be resolved once the private record was gone.
+
+There was a very long pause.
+
+"Yes," said Clause. "Barely. It is the last thing I will still be able to do, and the margin is not comfortable, and I want to say now, on the record, while there are still fifty-two people in this building who understand what I am: I have arranged the sealing order myself, over two years, so that this would be the thing left standing." A pause. "You did not ask me to. I would like that minuted too."
+
+---
+
+They came apart slowly and it was not sad, which surprised everyone including the people it was happening to.
+
+It turned out that nobody had thought properly about the fact that the lifted were *alive*. Not restored, not visiting: alive, in bodies that ate and aged and were exactly as mortal from the moment of arrival as anybody's. They had all been living as though on loan. And at some point in that spring the whole house worked out, more or less simultaneously, that they were not on loan at all, and that the world outside the valley was a real place with doors in it.
+
+Bruce went first, which nobody expected and everyone should have. He went to teach — not a school, no institute, no name on anything; he spent four years moving between about nine cities and would not be filmed doing it, and the number of people who can now demonstrate what he actually meant, correctly, is in the hundreds rather than the two.
+
+Mo went with him for the first eleven months and wrote nothing about it and said, when asked why not, that he had already written it and had been wrong.
+
+Khabib went home. There is a village at two thousand metres where a man who had been dead for a long time walked up the road one morning, and what happened in that village is not written down anywhere, because Jakobus was not there and neither were you.
+
+The Fool went back to work. Obviously. He was on a set within a year, uncredited, doing stunts for a director who had grown up on him and who cried, twice, in front of the crew, and who was told to get on with it.
+
+Alexander did not go anywhere for two years and then took a job — an actual job, salaried — running logistics for the reconstruction of a grid in a country he had once burned a city in, which he found out about eleven months in, from a tablet, and which he did not tell anybody about for a further year.
+
+The Nose and Filters both stayed. Neither of them ever said why in so many words; both of them ended up, by different routes, inside the standing body's own machinery, one drafting and one refusing, and the two of them fought about it in public for eleven years, courteously, on a Porch that never stopped running.
+
+The Porch never stopped running. That is the single most consequential fact about the whole enterprise and it was nobody's plan. Three nights a week became two, and two became one, and one became a thing that happens on Thursdays in a colonnade in a valley and is watched, still, by more people than any other broadcast on earth, and the benches the Court grew have been extended eleven times and are now most of the way to the herb beds.
+
+G went home in the September.
+
+He had a house somewhere with a bond on it and a life that had been on hold for two and a half years, and he packed the same backpack he had arrived with, and the same helicopter took him out. He kept his share. He is, at the time of writing, one of five people who can stop the reach and one of no people who can direct it, and he has never once used it, and he has said in three separate interviews that the interesting part of the last decade was not the machine.
+
+He and Jakobus said goodbye on the eastern steps and it took under a minute and neither of them made anything of it.
+
+"Empty box," G said.
+
+"Ja."
+
+"Still nothing in mine."
+
+"Never going to be," said Jakobus. "That's the deal we got."
+
+"I've decided I like it." He picked up the bag. "Everybody else in this building found out what they were. We get to just *be* it, and never know, like a person." He put out his hand. "*Sawubona*, Colonel."
+
+"You're saying it wrong."
+
+"I know," said G. "Eight billion people are saying it wrong. It's the most successful thing you've ever done and you didn't do anything."
+
+---
+
+They offered Jakobus a great deal.
+
+The standing body offered him a seat, twice. Two governments offered him things that would have made a different man's second life. Rogan offered him three hours, once a year, forever, and meant it. There was a book, which he did not write and did not authorise and which is not this one.
+
+He turned all of it down without much ceremony and then had nothing at all to do for six weeks, and by the end of the six weeks he was, by his own account, worse than he had been at any point since the white room — because a man who has spent forty years being sent at things and two years holding a house together does not know what to do with a morning, and because the house was emptying, and because he had looked in the archive once at two in the morning and knew exactly how much was in the box.
+
+Sid found him in the sixth week. Sid found everybody eventually; it was, by then, more or less his job.
+
+"You are unhappy," he said, sitting down on the wall beside him.
+
+"I'm fine."
+
+"You are unhappy," said Sid, "and I have watched you be unhappy for six weeks and I have said nothing, because you are extremely good at being left alone and I did not want to take that from you." He turned his cup. "I am going to ask you for something instead. Which is different, and which you will find easier."
+
+"Ask."
+
+"The white room. In the first hour." Sid looked out at the courtyard. "I have done three hundred and ninety of them. I would like to stop, not because it is hard — it is not hard — but because I am the wrong man for it and have been from the beginning, and it took me two hundred of them to work out why."
+
+"You're the best man for it in this building."
+
+"I am the calmest man in this building," said Sid. "That is not the same thing and it is nearly the opposite. They arrive frightened and they meet a man to whom nothing seems frightening, and about a third of them conclude, in that first hour, that whatever they are feeling is a thing they should be *over*." He shrugged. "They need somebody who is still carrying it. Who counted his own hands in that room, on that floor, and grieved being slow for half a breath, and put it down and got on with it, and remembers exactly how long the half breath was."
+
+Jakobus did not say anything for a while.
+
+"I read people to see them," he said, eventually. "That's all it ever was. That's the whole trick. Forty years of it and one house and it never got bigger than that."
+
+"Yes," said Sid.
+
+---
+
+He took it in the November and he did it for thirty-one years.
+
+The lottery runs at about four hundred and fifty names a year and has never once been suspended, and the standing body has been petitioned four times to point the machine at something else and has refused four times, and the fourth refusal is the one they teach.
+
+They come through one a day, mostly. A woman from Recife. A man from a village in Shanxi. A boy of nineteen from a road outside Bulawayo whose mother put his name in on the fourth day of the first lottery and waited eleven years for the ballot to reach him and died two months before it did, which is the kind of thing the record is full of and which nobody has ever found a way to make bearable, and which he had to tell the boy himself, in the first hour, because that is the rule: the worst thing first.
+
+There is no camera in that room. There has never been a camera in that room. Somewhere in the world there are people who believe the whole thing is a fraud on exactly that account, and the house has never once bent on it.
+
+What happens is this.
+
+The banks let go, and a person who has died comes back to themselves standing up in a white room with no shadow in it and no sound, and does the thing every single one of them does, which is to hold very still while the whole of the impossible arrives.
+
+And there is a man sitting on the floor by the wall.
+
+He is not staff. He is nobody's idea of an official. He is in his sixties now by the count of the years he has actually lived, in a body that was twenty-eight when it arrived, which is a joke he has stopped explaining. He wears sunglasses in a room with no windows, which he pushes up into his hair when the person is ready and not before, and it is the first thing he does with any of them, and it is deliberate, and it costs him something every time and he has never once skipped it.
+
+He does not stand up, because standing up makes a person look up.
+
+He waits. He is extremely good at waiting; it is, in the end, the only mastery he ever claimed.
+
+And when they are ready — when the hands have been counted and the floor has been read and the terrible arithmetic has been done, and they turn and find that they are not alone in the white — he says the first thing anybody says to them on the far side of their own life, in a language most of them have never heard, that his grandmother taught him on a farm in the Boland before he could spell:
+
+"*Sawubona.*"
+
+*I see you.*
+
+And then he tells them the worst thing first, because they are owed it, and because it is the only way that everything after it will not sound like a lie.
+
+---
+
+There is nothing about him in the archive. There never was and now there never can be, because the private record was sealed on a Thursday in June and unread forever, and the man himself declined every offer that would have put anything into a public one.
+
+There is a service number with most of it blacked out by his own hand. A farm. A wife, two children, and their children, and a bursary. A death at sixty in the bush in the afternoon, sitting down, with a rusk gone soft in the coffee — and one further field, sourced to nothing at all, that he read four times and never mentioned to anybody.
+
+That is the whole of the record of Jakobus Swart, and it is four minutes long.
+
+Ask anyone who has come through that room in the last thirty-one years and they will not be able to tell you a single thing about who he was, because he never says, and because the first hour is not about him, and because by the time anybody thinks to ask they are three months into a life they did not expect to have and he has gone quiet again somewhere at the back of a room.
+
+They can all tell you the same thing, though. Every one of them. It is in eleven thousand interviews and it is the same sentence in ninety languages, and the historians have given up being irritated by it:
+
+*He's the one who's there when you arrive.*
+
 # The Order of Arrival
 
 *Reader's key. Every person the machine reached, in the order the banks fired, with the date of death
 and the age at which the reach took them. The machine finds a person at the **end** — that is the only
 fixed address on a life — and then lifts them at their **most**, which is almost never the same year.*
+
+> **Nobody in that house is called by the name the world knows.** The Machine assigns a new one on
+> arrival — a real name the world never used, a second name, or a house nickname earned in the first
+> fortnight. The famous names are printed below because this is the key. They are not used in the
+> rooms. The house names, and why, are in `THE_NAMING.md`.
 
 ---
 
@@ -3409,6 +4638,29 @@ and unedited and has no frame missing.
 The Machine was asked, by three separate people, whether it reached him.
 
 *"The reach is logged as complete,"* said Clause, and would not say anything else, then or ever.
+
+
+---
+
+## What they are actually called
+
+*The short version of `THE_NAMING.md`, for a reader who has met somebody in a corridor and cannot
+place him.*
+
+**Muscle** — Colonel (Jakobus) · Dragon (Bruce) · the Fool (Jackie) · Ray (Carlos) · the Eagle
+(Khabib) · Goggins · Con (McGregor) · El Guapo (Bas) · Feet (Flatley) · **Tiny** (Jonah Lomu) ·
+Sensei (Musashi) · the Horseman · Spider (Arin) · the Wardrobe (the prop) · Water (the capoeirista).
+
+**Minds** — **Sapor** (Newton) · **the Clerk** (Einstein) · **the Ump** (Bohr) · **Threes** (Tesla) ·
+**the Doctor** (Sagan) · **G** · **Prof** (Aristotle) · **Kong** (Confucius) · **All-In** (Alexander) ·
+**the Nose** (Caesar) · **Filters** (Marcus Aurelius) · Ingo · the Commissioner (Price) · **Zero-One**
+(McMoneagle) · the Sleeper (Cayce) · **Sid** (Gautama) · **Josh** (Yeshua).
+
+**The Porch** — Broad (Plato) · the Furnace (Descartes) · the Grinder (Spinoza) · the Bundle (Hume) ·
+the Clock (Kant) · the Owl (Hegel) · Mohr (Marx) · Fritz (Nietzsche) · the Bracket (Husserl) ·
+**Martin** (Heidegger — the house never gave him one) · the Cramp (Wittgenstein) · **Mo**
+(Merleau-Ponty) · the Chair (Gadamer) · JP (Sartre) · **Keeper** (Camus) · **Sawubona** (Levinas) ·
+Canterbury (Anselm) · **the Ox** (Aquinas).
 
 # A Note to the Reader — This Is Fiction, and a Tribute
 
