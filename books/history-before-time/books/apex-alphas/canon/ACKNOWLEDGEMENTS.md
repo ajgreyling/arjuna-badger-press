@@ -60,3 +60,42 @@ Thank you. All of you. For the fire.
 
 *— Links are provided as a courtesy and a pointer to each person's real work; inclusion implies no
 affiliation with or endorsement of this fiction. See the Note to the Reader.*
+
+---
+
+## The second casting — the minds
+
+The same rule applies to every name below that applies above: **banked, earned mastery**, and nothing
+else. Where these people are dead, the debt is owed to the work they left. Where they are living, the
+character in this book is an invention wearing a real name, with respect and with no claim whatever
+about the real person.
+
+**The unanswering**
+- **Isaac Newton** — for the method under the laws, and for working alone in a farmhouse through a plague. → [Wikipedia](https://en.wikipedia.org/wiki/Isaac_Newton)
+- **Albert Einstein** — for the boring question asked of the clever machine, at twenty-six, from a patent office. → [Wikipedia](https://en.wikipedia.org/wiki/Albert_Einstein)
+- **Niels Bohr** — for complementarity, and for a mind that only worked out loud, against someone else. → [Wikipedia](https://en.wikipedia.org/wiki/Niels_Bohr)
+- **Nikola Tesla** — for the polyphase system: the actual work, the part the myth skips. → [Wikipedia](https://en.wikipedia.org/wiki/Nikola_Tesla)
+- **Carl Sagan** — for looking at enormous things without flinching and without decorating them, and then saying so plainly to frightened people. → [Wikipedia](https://en.wikipedia.org/wiki/Carl_Sagan)
+
+**The rule and the reason**
+- **Aristotle** — for making a filing system for a world that had none. → [Wikipedia](https://en.wikipedia.org/wiki/Aristotle)
+- **Confucius** — for the rectification of names, which is the load-bearing beam of this whole book. → [Wikipedia](https://en.wikipedia.org/wiki/Confucius)
+- **Alexander the Great** — for speed, and for the front of the line, and for what both of those cost. → [Wikipedia](https://en.wikipedia.org/wiki/Alexander_the_Great)
+- **Julius Caesar** — for decision under total ambiguity, and for owning it. → [Wikipedia](https://en.wikipedia.org/wiki/Julius_Caesar)
+- **Marcus Aurelius** — for a private notebook written by a frightened man in a tent, which is still the most useful book most people will ever read. → [Wikipedia](https://en.wikipedia.org/wiki/Marcus_Aurelius)
+
+**The ones who looked without eyes**
+- **Ingo Swann**, **Patrick H. Price**, **Joseph McMoneagle** (living), and **Edgar Cayce** — cast for a
+  declassified government record and forty years of transcripts, and tested in this story under the
+  harshest protocol in the building. The book claims nothing about them beyond what it shows: four
+  hundred and eleven trials, mostly empty, and one result nobody could account for.
+  → [Stargate Project](https://en.wikipedia.org/wiki/Stargate_Project) · [Edgar Cayce](https://en.wikipedia.org/wiki/Edgar_Cayce)
+
+**The two who never wrote**
+- **Siddhārtha Gautama** and **Yeshua of Nazareth** — for the single hardest act in this book: sitting
+  still in front of frightened people and saying something simple enough that it is still being said
+  out loud, in every language there is, thousands of years later. Both are written here as men in a
+  doorway, which is the only way this author knows how to honour either of them.
+
+**And G** — living, uncredentialled, copyleft, and holding a switch. For nineteen years of unfunded
+work that nobody read.
