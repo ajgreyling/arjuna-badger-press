@@ -218,7 +218,7 @@ Gadamer sat in that room alone for a long time afterwards.
 
 "And?"
 
-"And a horizon can be *refused*," said the Chair. "Not failed. Refused. A man may decline to be understood, and there is nothing in my entire life's work that has anything to say about it, and I have spent this evening discovering that at the age of a hundred and two."
+"And a horizon can be *refused*," said the Chair. "Not failed. Refused. A man may decline to be understood, and there is nothing in my entire life's work that has anything to say about it, and I have spent this evening discovering it at sixty, in a body I did not earn, with the other forty-two years apparently still ahead of me."
 
 He put the tea down.
 

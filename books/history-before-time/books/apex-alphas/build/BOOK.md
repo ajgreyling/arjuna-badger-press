@@ -3875,7 +3875,7 @@ He let it sit.
 
 He stopped.
 
-"I want to say the second half, because if I stop there I have been clever at a good man and gone to bed." He was uncomfortable and did it anyway. "Nothing I have said this evening shows that there is no God. I want that in the record and I would like the feed to keep it in. I have merely shown that you cannot get to Him down *this* road — that the road is closed, and I closed it, and I did not enjoy closing it, and I spent the rest of my life on the other one." A pause. "The starry heavens above me, and the moral law within me. I could not prove Him from a definition. I have never once been able to get around the fact that I know, without being told, that I must not use you."
+"I want to say the second half, because if I stop there I have been clever at a good man and gone to bed." He was uncomfortable and did it anyway. "Nothing I have said this evening shows that there is no God. I should like that written down, and the feed may keep it in. I have merely shown that you cannot get to Him down *this* road — that the road is closed, and I closed it, and I did not enjoy closing it, and I spent the rest of my life on the other one." A pause. "The starry heavens above me, and the moral law within me. I could not prove Him from a definition. I have never once been able to get around the fact that I know, without being told, that I must not use you."
 
 And then the thing happened that nobody had prepared for, which was that **the Ox stood up.**
 
@@ -4033,7 +4033,7 @@ He had been waiting for it. He had told four people he was going to do it. He ca
 
 "I want you to know — I have said this publicly, many times — that **I believe in Spinoza's God**, who reveals himself in the lawful harmony of what exists, and not in a God who concerns himself with the fates and doings of mankind."
 
-The Grinder looked at him for a while.
+The Grinder let that sit between them.
 
 "Thank you," he said. "What do you mean by it?"
 
@@ -4159,7 +4159,7 @@ Jakobus asked Marcus about it once.
 
 **And on the last Thursday of the first cycle, Sawubona asked to be taken to the window.**
 
-Jakobus took him down himself. He had not taken anybody down that corridor in fourteen months; it had become his, in the way that a place becomes a man's by his being the only one who goes there.
+Jakobus took him down himself. He had not taken anybody down that corridor in two years; it had become his, in the way that a place becomes a man's by his being the only one who goes there.
 
 The small man stood in front of the not-glass for a long time.
 
@@ -4187,7 +4187,7 @@ He was quiet for a while.
 
 "Why?"
 
-Jakobus thought about it properly, because the man had earned a proper answer and because nobody had ever asked him that in fourteen months.
+Jakobus thought about it properly, because the man had earned a proper answer and because nobody had ever asked him that in two years.
 
 "Because I don't know that it isn't," he said, at last. "That's all. It's not faith and it's not a theory. In my old work you'd come up on a shape in the dark, and you've got maybe a second, and every instinct you own is telling you it's a threat — and the whole of the training, the entire forty years of it, is one thing: *do not resolve the shape in your own favour.*" He shrugged in the dark. "Most men shoot. The ones I trusted said something first. Not because they were soft. Because a man who shoots the shape has decided what it was, and he's decided it in a second, on nothing, and he has to live in whatever he decided for the rest of his life."
 
@@ -4195,7 +4195,7 @@ Jakobus thought about it properly, because the man had earned a proper answer an
 
 "Ja."
 
-"You have been treating a thing that eats the reasons out of a species," said Levinas, slowly, "as though it might have a face, on no evidence, for fourteen months, every night, alone, where nobody could see you do it and nobody would ever have known if you stopped."
+"You have been treating a thing that eats the reasons out of a species," said Levinas, slowly, "as though it might have a face, on no evidence, every night for two years, alone, where nobody could see you do it and nobody would ever have known if you stopped."
 
 "It's not as impressive as you're making it sound."
 
@@ -4433,7 +4433,7 @@ Gadamer sat in that room alone for a long time afterwards.
 
 "And?"
 
-"And a horizon can be *refused*," said the Chair. "Not failed. Refused. A man may decline to be understood, and there is nothing in my entire life's work that has anything to say about it, and I have spent this evening discovering that at the age of a hundred and two."
+"And a horizon can be *refused*," said the Chair. "Not failed. Refused. A man may decline to be understood, and there is nothing in my entire life's work that has anything to say about it, and I have spent this evening discovering it at sixty, in a body I did not earn, with the other forty-two years apparently still ahead of me."
 
 He put the tea down.
 
@@ -5089,7 +5089,7 @@ Bernard thought about that for the better part of two hours.
 
 "Why."
 
-"Because I have sat where you are sitting," said Sid, "for six years, in a forest, when I was thirty. Not the same thing; I want to be exact with you, it was not the same thing and I am not going to pretend it was. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
+"Because I have sat where you are sitting," said Sid, "for six years, in a forest, when I was thirty. Not the same thing. I want to be exact with you: it was not the same thing, and I will not dress it up as one. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
 
 Bernard looked out of the window for the rest of the day.
 
