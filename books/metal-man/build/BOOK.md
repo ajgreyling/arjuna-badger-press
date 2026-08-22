@@ -485,6 +485,43 @@ He sat under the table with his cheek on the iron for a long time.
 
 "You're a funny boy," his mother said, over the top of him, threading.
 
+—
+
+There is one more thing about that year and he has never told it to an interviewer because it does
+not sound like anything.
+
+For about six weeks after the garden he could not go into the stairwell.
+
+The building had a stone stair with an iron rail, and the rail ran the whole way down four floors
+and had been gripped by everybody who had ever lived there, and before the garden it had simply been
+loud, the way everything was loud, and he had gone up and down it eleven times a day without
+thinking.
+
+After the garden it was different, and the difference was not volume.
+
+It had started *repeating*.
+
+Not the whole of it. One short piece, somewhere down near the second-floor turn, where the metal had
+a join in it: a stretch of the record that came round again, and then came round again, the way a
+word comes round in a room where somebody is very upset and cannot stop saying it. Nothing else in
+the building did this. The pans did not do it. The bed did not do it. It was the rail, at the turn,
+about a metre of it, going over and over the same half-second of itself.
+
+He used to go down the far side with his hand held away from it.
+
+His mother thought he had become frightened of the stairs, which he had, and asked him about it once
+or twice, and he said there was a big dog on the second floor, which was a lie and was the correct
+lie, because a boy who is frightened of a dog is an ordinary boy.
+
+At some point that winter it stopped, and the rail went back to being loud in the ordinary way, and
+he forgot about it for seventy-three years.
+
+He is going to remember it in a corridor in Buckinghamshire when he is seventy-nine, standing eleven
+feet from a black mass on a steel cradle, and it is going to be the worst moment of his life —
+because the thing he will be listening to in that corridor will be doing exactly what the stair rail
+did, and going faster.
+
+
 Twenty-two years later, in a shielded room in California, a physicist would ask Uri Geller to
 describe the very first thing he could remember about the change in him, and he would try, for about
 six minutes, in his fourth language, and would produce nothing usable at all, and the physicist would
@@ -615,6 +652,42 @@ bed.
 
 Nobody ever noticed. He checked, for weeks. Nobody ever noticed.
 
+—
+
+There was one other person in the building who knew, for about four days, and then did not.
+
+Her name was Rivka and she was nine and she lived on the floor above, and she was the person a
+five-year-old shows things to when he cannot show his mother. He took her out onto the landing on a
+Saturday and sat her down on the step and did the thing with a nail he had found in the yard.
+
+It took a long time. He remembers her being bored halfway through and being brought back by the
+sound of it, which she could not hear, but she could hear his breathing change.
+
+The nail went over about twenty degrees.
+
+Rivka looked at it and then looked at him and said, with the whole withering competence of nine
+years old: "You bent it with your hands."
+
+"I didn't."
+
+"You did it when I looked away."
+
+"You didn't look away—"
+
+"Everybody looks away," said Rivka, who was going to grow up to be a very good accountant in Haifa,
+and went back inside.
+
+That is the first debunking. It happened on a landing in 1952 and it was performed by a child and
+the reasoning was flawless: *everybody looks away.* You cannot prove you did not do it in the
+half-second nobody was watching, because there is always a half-second, because that is what a
+half-second is.
+
+Twenty-one years later two physicists in California will spend nine months building a room designed
+specifically to abolish the half-second, and they will very nearly succeed, and by then it will not
+matter at all, because a man in a good suit will already have decided that the safest place for Uri
+Geller is inside the argument rather than outside it.
+
+
 He learned three things that night and he did not have words for any of them for about thirty years,
 but he had them, the way a child has a language before he can name a verb:
 
@@ -741,6 +814,77 @@ the lesson using the drawing on the board, and the class learned that the needle
 from everywhere in the room.
 
 He sat down.
+
+And then a boy called Gidi, two desks over, leaned across and said the sentence that did more damage
+to Uri Geller's life than anything James Randi ever wrote.
+
+He said: "How did you do it?"
+
+He was not being hostile. That is the thing. He was six and delighted and he wanted to know the
+trick the way a boy wants to know how to whistle through his fingers, and his face was entirely
+friendly.
+
+*How did you do it.*
+
+Not *what happened*. Not *did you see that*. Not *is that real*. The question arrived pre-loaded with
+its own answer — that a thing had been *done*, by a person, using a method — and Uri understood, in
+about a second, that there were now two available positions in the world and that he would be
+occupying one of them for the rest of his life.
+
+He could say *I didn't do anything*, and be a liar.
+
+Or he could say *I'll show you at break*, and be a magician.
+
+He said, "I'll show you at break."
+
+He has been saying it ever since.
+
+—
+
+At break he could not do it, and that was the second lesson, and it arrived within the hour.
+
+Eleven boys in the corner of the yard by the bins. A spoon that Gidi had gone and got from the
+kitchen, which was an act of some initiative and which Uri remembered fondly for seventy years. A
+circle of faces at the exact distance that faces get to when something is about to be either
+wonderful or a humiliation.
+
+Nothing.
+
+He held it and he wanted it and he did the thing in his chest that he did, and the spoon sat in his
+hand being a spoon, and after about ninety seconds the circle began to come apart at the edges the
+way a crowd does, one boy peeling off and then two, and Gidi stayed to the end out of a loyalty that
+Uri did not deserve and then said, kindly, "Maybe tomorrow," and went to play.
+
+He stood by the bins with the spoon.
+
+It is worth putting down exactly what he learned there, because it is the operating principle of the
+next seventy years and he acquired it at six in a schoolyard:
+
+**It does not come when it is needed. It comes when nobody has asked.**
+
+Every single structural fact of his life follows from that one sentence. It is why he became a
+performer rather than a scientist — a performer can fill ninety seconds and a scientist cannot. It is
+why he was caught twice with his thumb. It is why the most controlled test ever built for him
+produced nothing on the biggest night of his career, and why the most extraordinary thing he ever did
+happened at a bench in a preparation room with nobody in it.
+
+And it is why, on the following Monday, when Gidi asked again, Uri Geller — aged six, four days into
+the whole enterprise — palmed a pre-bent spoon from his own kitchen out of his sock.
+
+It worked perfectly. Eleven boys made a noise he had never heard before and has been chasing since.
+
+Nobody at that school ever believed anything he said again, because a boy called Amnon found the
+sock spoon in the cloakroom on the Wednesday, and by Thursday it was around the whole of the second
+year, and it was true, and it was fair, and it was the single most accurate piece of debunking ever
+performed on Uri Geller.
+
+He did it. He was caught. He deserved it.
+
+And the thing in the classroom with the compass, which nobody was ever going to be able to explain
+and which happened in front of thirty-one witnesses and a qualified adult, was now permanently and
+retrospectively filed under *that business with the sock*.
+
+He was six years old and it was already too late.
 
 Nobody ever asked him about it again. Not that year, not ever. There is no note in any file anywhere
 about a compass in a school on Betzalel Yaffe Street in the spring of 1953, because nothing happened,
@@ -934,6 +1078,47 @@ hands at the tap for longer than was necessary, and then she said, without turni
 "Because they will think you are strange." She turned the tap off. "Or they will think you are
 special. And I don't know which is worse."
 
+He asked her, years later, in Nicosia, when he was thirteen and they were doing the linen, what she
+had meant by it. She remembered saying it. She was surprised he did.
+
+"I meant," she said, "that if they think you are strange they will leave you alone, and you will be
+lonely. And if they think you are special they will not leave you alone, and you will be lonely."
+
+"That is the same."
+
+"No," said Manzy Geller, folding. "One of them you survive."
+
+—
+
+There is a thing about that flat in 1955 that has to go in somewhere and this is the place for it.
+
+They were not poor in the way that gets written about afterwards. There was food. There was rent.
+What there was instead was the specific arithmetic of a household with no margin, in which every
+object was load-bearing and nothing could be replaced, and in which a boy who could deform metal was
+not a wonder. He was a hazard.
+
+This is the part that gets lost in the seventy years of coverage. When Uri Geller bent something in
+that apartment he was not performing a miracle. He was breaking the cutlery.
+
+He understood this completely by the age of eight and he never afterwards lost it, and it is the
+reason for one of the odder facts about his career, which is that in fifty-three years of
+demonstrations across forty countries he almost never bent anything that belonged to the person he
+was with. He bent studio props. He bent his own. He bent things handed to him by broadcasters and
+laboratories and men with expense accounts, and when a private individual pushed their own spoon
+across a table at him at a dinner party he would find a reason — every time, for five decades,
+courteously — not to.
+
+Journalists noticed occasionally and wrote it up as evasion: *he only works with his own props.*
+
+It was not that. He had been smacked across the hand at five for a spoon that could not be replaced
+and had watched his mother put it in a drawer instead of throwing it out, and some part of him never
+came back from it. He did not want to take somebody's fork off them.
+
+He gave things away instead, compulsively, for the rest of his life — watches, jewellery, cars, money
+— and several people who knew him well have said, independently and without any coordination, that
+being given something by Uri Geller was slightly overwhelming and slightly sad, and that it seemed to
+be about something other than generosity.
+
 He was eight. He understood about a third of it. The third he understood was: *she is not looking at
 me any more, she is looking at the spoon,* and he filed that away, without knowing he had filed it,
 in the place where a person keeps the shape of what he is going to want for the next seven decades.
@@ -1018,6 +1203,30 @@ there, and everything else becomes a wall instead of a crowd.**
 He picked the ceiling fan. It was the dullest object in the building. It had four blades and a
 bearing and nothing had ever happened to it, and he learned to sit with his whole attention resting
 on that fan like a hand on a rail, and after a while the board went quiet.
+
+It cost him something and it took him two years to notice what.
+
+The method works by narrowing. You put everything you have on one object and the rest becomes wall —
+and what he discovered, some time around his fourteenth birthday, was that while he was doing it he
+could not do the other thing at all. Not a spoon, not a key, nothing. The narrowing that made the
+board bearable also switched him off.
+
+He tested it on a wet Tuesday in the empty dining room with a teaspoon and the fan, alternating, for
+about an hour, and established it beyond doubt: attention on the fan, nothing happens; attention
+loose, the spoon goes.
+
+Which means the thing requires the opposite of concentration.
+
+He never worked out how to say this and it ruined a hundred laboratory sessions. Every serious person
+who ever tested him began by saying *concentrate*, and he would try, obediently, for years, because
+they were the experts — and *concentrate* is the precise instruction that turns it off. The best
+results anybody ever got out of him came in the sessions where the equipment failed and everybody
+stood around waiting and he was bored and looking at the ceiling.
+
+Targ half noticed, in 1973, and wrote a line about it, and could not build a protocol around
+*subject performs better when not attending to the task*, because there is no such protocol and there
+never has been.
+
 
 That is the trick. That is the entire trick, and it is worth marking, because in fourteen years'
 time a young man is going to sit under television lights in Burbank in front of forty million people
@@ -1136,6 +1345,67 @@ be identical to every other one, and identical objects say the same thing at the
 thousand voices saying one word in unison is not a crowd. It is a hum.
 
 He slept properly for the first time in his life.
+
+—
+
+It is worth sitting in that for a moment, because it is the only genuine rest in this book.
+
+Twenty-one months. From the induction centre in the autumn of 1965 to a wadi in the Sinai in the June
+of 1967, Uri Geller lived inside the quietest environment a twentieth-century human being could
+occupy: a place organised, deliberately and at enormous expense, around the principle that every
+object should be identical to every other object of its type.
+
+He put on weight. He got brown. He laughed a great deal, by every account of everybody who served
+with him, and he was the man in the tent who did the voices.
+
+And the thing he never said to anybody, and has never said in an interview, and said exactly once in
+his life — to Hanna, in a car, in 1994, on the way back from a funeral — is that those twenty-one
+months are the only period he can remember in which he was not tired.
+
+"I thought that was what everybody felt like," he said. "All the time. I thought that was normal and
+I had just been unlucky in Tel Aviv."
+
+He was twenty. He had one more month of it.
+
+—
+
+There was an inspection in the spring of 1967 and it produced the only official document in the
+Israeli Defence Forces that mentions any of this, and it mentions it as a disciplinary matter.
+
+A quartermaster sergeant found, in the course of a routine check of the armoury, that the bolt of one
+particular rifle would not seat.
+
+It was Uri's rifle. The bolt had a deformation in the lug — small, perhaps a tenth of a millimetre,
+and in the wrong place, and of a kind that the sergeant had never seen in eleven years and could not
+account for. It had passed inspection five weeks earlier. It had not been dropped, not been fired
+beyond its round count, and not been anywhere near a workshop.
+
+He was put on a charge for negligent maintenance of a weapon, which is what you are put on a charge
+for when a piece of your kit is broken and nobody can work out why.
+
+He took the charge. He did not argue, and he did not offer an explanation, because there was no
+explanation available to him that would not have been enormously worse than seven days' confinement
+to barracks.
+
+What he did do, and this is the part that matters and that nobody has ever known, is that he asked
+to see it.
+
+The sergeant, who was not unreasonable, let him look at it on the bench.
+
+And Uri Geller stood in an armoury in the Negev in the spring of 1967 with a bolt in his hand and
+listened to it, and found that the deformation had no history at all. It had not been struck. It had
+not been heated. There was no event in the metal where the event should have been — no work-hardening
+at the change, no crowding, none of the hard bright shout he had known since he was five. The lug had
+simply, at some point in the previous five weeks, been a slightly different shape than it had been
+before, without anything happening to it.
+
+He had not done it. He is certain about this and there is no reason to doubt him — he had no motive,
+he liked the rifle, and a boy who is trying to hide does not sabotage his own weapon.
+
+He put it down and did his seven days and thought about it, on and off, for fifty-nine years.
+
+It is the first entry in the folder. It is thirty years before the folder exists, and it is not in
+it, because he could not cut it out of a newspaper.
 
 —
 
@@ -1331,6 +1601,64 @@ there was a steel pin in the frame of the bed, six inches from his hip, and he c
 he did, several times, in the dark, and then bent it back, so that he could be certain that the
 failure was not in him.
 
+The engineer's name was Dov and he was thirty-four and he was awake most of those nights too.
+
+They talked, in the way that men in a ward talk at three in the morning, which is to say about
+nothing at all for a long time and then abruptly about the only thing. Dov had a wife in Netanya and
+two daughters and a practice designing water systems for kibbutzim, and he was very calm about what
+had happened to him and very frightened about the walking.
+
+On the eleventh or twelfth night he said: "You are awake every night. What is it?"
+
+And Uri Geller, aged nineteen, in a dark ward, said the most honest sentence of his life to a man he
+had known for a week and a half.
+
+He said: "I can hear the metal in you."
+
+There was a silence.
+
+Dov said: "Is it loud?"
+
+Not *are you mad*. Not *don't be ridiculous*. He asked whether it was loud, and he asked it the way
+you ask a man about a symptom, and it is the only time in seventy-four years that anybody responded
+to that sentence as though it were information.
+
+"Yes," said Uri.
+
+"Is it loud like a noise, or loud like a smell?"
+
+"...Like a noise."
+
+Dov thought about that for a while.
+
+"Then you should tell somebody," he said. "Because if it is a noise then it is your ears, and if it
+is your ears then it is the blast, and there is a man who comes on Thursdays."
+
+Uri did not tell anybody. He let Dov believe he had a blast injury, because a blast injury is a thing
+that exists, and because a man with a blast injury gets seen on a Thursday and a man who can hear the
+shrapnel in the next bed does not.
+
+But he lay there afterwards with something new, which was the first serious hypothesis anybody had
+ever offered him about himself, and it was wrong, and it was *kind*, and it had been produced in
+eleven seconds by a water engineer with a leg full of casing.
+
+—
+
+Dov walked out in the September. He came past Uri's bed on two sticks on the way and shook his hand
+and said something about Netanya.
+
+They did not stay in touch and Uri never looked for him and could not have said, afterwards, why not.
+
+In 2013, at sixty-six, doing publicity in Israel for a documentary, he was asked by an interviewer
+what the worst thing about the whole of it had been — the ridicule, the lawsuits, the Carson show,
+fifty years of it — and he gave the answer everybody expected, which was something graceful about
+his family.
+
+Then, in the car, forty minutes later, with the microphone off, he told the producer the real
+answer, and the producer has never used it.
+
+The real answer was: "There was a man in a bed near me in 1967 and he asked me if it was loud."
+
 It was not in him. He was working. The pin went over like butter.
 
 He simply could not reach into a person.
@@ -1498,6 +1826,74 @@ selling a mystery. He was selling forty seats.
 
 —
 
+Hanna came to the third show and did not tell him she was coming.
+
+She sat at the back with a friend, and afterwards, in the corridor, with Uri sweating and elated and
+twenty-two, she said the thing that he has quoted in every long interview he has ever given and that
+she has always maintained he has slightly improved over the years.
+
+He asked her what she thought.
+
+And Hanna Shtrang, aged seventeen, having watched a hall of ninety people lose their minds over a man
+she had recently turned down twice, said:
+
+"You talk too much."
+
+"What?"
+
+"When it works you say nothing and it is very good." She was putting her coat on. "When it does not
+work you talk. You talk and talk and you make jokes and you apologise. And everybody knows."
+
+"They don't know—"
+
+"Uri." She got the second sleeve. "*I* know, and I have seen you do it four times."
+
+He argued about it for a week and then rebuilt the act around it, and it is the single most valuable
+piece of professional advice he ever received, and it came from a seventeen-year-old who had no
+interest in the paranormal whatsoever and never subsequently developed one.
+
+The rebuilt version was this: when nothing happens, stop, and be silent, and let it be nothing.
+
+It is unbelievably hard. It is the hardest thing in performance and most professionals never manage
+it, and Uri Geller learned it at twenty-two in a corridor in Jaffa and then executed it, four years
+later, for twenty-two minutes, in front of fifteen million Americans, on the biggest programme in
+the world.
+
+Everybody watching thought they were seeing a man fail.
+
+They were watching him do the thing his wife taught him.
+
+—
+
+The other thing that happened in that first season, and it is in no biography because there was no
+reason for anybody to write it down, is that he started giving the money away almost immediately.
+
+Not all of it. He was not a saint and he wanted a car. But the pattern that would eventually become
+conspicuous — the watches handed to strangers, the enormous unasked-for gifts, the compulsive
+generosity that several people found slightly alarming — starts here, in 1969, in a hall in Jaffa,
+with a doorman.
+
+The doorman's name was Yitzhak and he was about sixty and he had a bad chest, and on the fourth night
+Uri gave him a third of the take.
+
+Shipi, who was fourteen and running the books, was extremely annoyed about it and said so, and Uri
+could not explain himself then and could not explain himself for another fifty years.
+
+The explanation, when it finally arrived, arrived in a kitchen in Sonning in about 2019, and it was
+four words long, and Hanna wrote it down on the back of an envelope because she thought it was the
+truest thing he had ever said about himself.
+
+He said: "They paid to be lied to."
+
+He did not believe that. That is the point. He knew perfectly well that what happened in that hall
+was real, at least most of the time, at least on the good nights.
+
+But he had done the sock spoon at six and he had used a stooge twice by the end of 1969 and he was
+never afterwards able to be entirely certain, on any given night, which kind of night it had been —
+and so he paid people back, at random, for the rest of his life, in case.
+
+—
+
 He did seventy minutes and he was, by every surviving account, mediocre.
 
 He bent things. He guessed drawings. He started watches. He talked too fast and he apologised when it
@@ -1648,6 +2044,59 @@ under the poster, and the American said:
 "May I ask you something and will you tell me the truth?"
 
 "That depends what you ask me."
+
+Puharich did not ask it straight away.
+
+He stood in the street under the poster with his hands in his pockets and said, first, three things
+that Uri Geller had never heard a single human being say in that order.
+
+He said: "I watched the whole show. I think about a third of it was conjuring."
+
+Uri went cold and said nothing.
+
+"I think you used a duplicate in the envelope piece, and I think the young man in the second row was
+yours, and I could not tell what you did with the watch and it may have been nothing." Puharich shook
+his head slightly, as though clearing it. "None of that is my business and I am not here about it."
+
+"Then—"
+
+"I am here because of the fork you did at fifty-one minutes, which I was four feet from, and which I
+have no account of at all." He said it flatly, the way a man reads out a measurement. "So I have a
+practical problem. There is a person in front of me who does one thing I cannot explain and several
+things I can, and the usual professional response is to write off the whole man, and I have decided
+not to do that, because it is lazy."
+
+Nobody had ever put it to him like that. Nobody has ever put it to him like that since — not Targ,
+not Byrd, not the four hundred journalists, and certainly not Randi, whose entire method is the
+one Puharich had just described and declined to use.
+
+"You are not from a newspaper," Uri said.
+
+"No."
+
+"You are a doctor."
+
+"I was. I do this now." A shrug. "Badly paid."
+
+—
+
+And *then* he asked it, and this is where the chapter properly begins, because the question landed on
+a young man who had just been told, accurately, to his face, in the street, that a third of his act
+was fake — and had not been despised for it.
+
+That is the thing that bought Andrija Puharich four years of unconditional loyalty in about ninety
+seconds. Not the belief. The *arithmetic*. He had separated the real from the fraudulent with
+uncomfortable precision and had then declined to let the fraudulent settle the question of the real,
+and he had done it standing in a street in Jaffa at eleven at night with his coat over his arm.
+
+Every serious person who came afterwards did the opposite. They found the sock spoon — there was
+always a sock spoon, there is always a sock spoon — and they stopped.
+
+Uri Geller spent the next fifty-seven years looking for one more person who would do what Puharich
+did in that street, and never found one, and eventually stopped looking, and started selling
+crystals.
+
+"When it works," Puharich said, "is it you?"
 
 "When it works," Puharich said, "is it you?"
 
