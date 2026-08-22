@@ -68,7 +68,7 @@ off, like the first half-second of rain arriving on a tin roof in another street
 metal. All metal, always, everywhere, at a volume that had nothing to do with distance and
 everything to do with how much had been done to the thing.
 
-In the corridor outside Studio B it was very loud, and he could not work out why.
+In the corridor outside Studio B it was loud, and he could not work out why.
 
 He stood with his back against the wall and his hands held slightly away from his sides, an old
 habit, so old he had never once noticed he had it—while a young woman with a clipboard explained
@@ -291,7 +291,7 @@ twelve minutes to four.
 In the hospitality room on the fourth floor at Television Centre, a man from the production office put
 a glass of something into Uri Geller's hand and told him he had been wonderful.
 
-Uri said thank you. He said it in the way he had learned to say it, which was warm and quick and
+Uri said thank you. He said it in the manner he had learned to say it, which was warm and quick and
 about half a second early, and the man went off pleased.
 
 Shipi came and stood beside him without saying anything and took the glass out of his hand before it
@@ -299,7 +299,7 @@ spilled.
 
 Because Uri was shaking. Not visibly, he had a great deal of practice at not visibly, but from the
 elbows down there was a fine tremor that had started somewhere around the fork and had not stopped,
-and his nose had begun, very slightly, to bleed, and he had it in a handkerchief, and Shipi, aged
+and his nose had begun, slightly, to bleed, and he had it in a handkerchief, and Shipi, aged
 eighteen, was standing at the correct angle to put himself between that and the room.
 
 "How many?" Uri said.
@@ -419,7 +419,7 @@ times and had rusted through the paint every time, and it was hanging off one hi
 opened since before he was born.
 
 The gate did not have a voice. Nothing had a voice. But it had a *history*, and the history was long
-and slow and quite unlike anything in his mother's flat: fire, and hammering, and then a very long
+and slow and quite unlike anything in his mother's flat: fire, and hammering, and then a long
 dull warm stretch of being looked at, and hands—many, many hands, mostly small ones, and always in
 the same two places, low down, where children push.
 
@@ -503,7 +503,7 @@ It had started *repeating*.
 
 Not the whole of it. One short piece, somewhere down near the second-floor turn, where the metal had
 a join in it: a stretch of the record that came round again, and then came round again, the way a
-word comes round in a room where somebody is very upset and cannot stop saying it. Nothing else in
+word comes round in a room where somebody is upset and cannot stop saying it. Nothing else in
 the building did this. The pans did not do it. The bed did not do it. It was the rail, at the turn,
 about a metre of it, going over and over the same half-second of itself.
 
@@ -522,7 +522,7 @@ because the thing he will be listening to in that corridor will be doing exactly
 did, and going faster.
 
 Twenty-two years later, in a shielded room in California, a physicist would ask Uri Geller to
-describe the very first thing he could remember about the change in him, and he would try, for about
+describe the first thing he could remember about the change in him, and he would try, for about
 six minutes, in his fourth language, and would produce nothing usable at all, and the physicist would
 write in the log, without unkindness, *subject unable to articulate.*
 
@@ -1090,7 +1090,7 @@ lonely. And if they think you are special they will not leave you alone, and you
 
 There is a thing about that flat in 1955 that has to go in somewhere and this is the place for it.
 
-They were not poor in the way that gets written about afterwards. There was food. There was rent.
+They were not poor in any sense that gets written about afterwards. There was food. There was rent.
 What there was instead was the specific arithmetic of a household with no margin, in which every
 object was load-bearing and nothing could be replaced, and in which a boy who could deform metal was
 not a wonder. He was a hazard.
@@ -1473,7 +1473,7 @@ laughs; you laugh first; you get to stay.
 
 —
 
-Somewhere in there he started doing it for money in a very small way.
+Somewhere in there he started doing it for money in a small way.
 
 Not the metal. Cards, at first, in the tent at night, guessing—badly, at about seventy percent,
 which is a great deal better than chance and nowhere near enough to be frightening. He took cigarettes
@@ -1504,9 +1504,9 @@ He was reading the tin.
 
 What he remembers of the war is a sequence of about six things, and none of them are the war.
 
-He was nineteen. He had no politics. He has been asked about the politics of it several hundred times
+He was twenty. He had no politics. He has been asked about the politics of it several hundred times
 in his life, by people who wanted him to have some, and the honest answer has always been that a
-nineteen-year-old in a lorry has the politics of a nineteen-year-old in a lorry, which is that he is
+twenty-year-old in a lorry has the politics of a twenty-year-old in a lorry, which is that he is
 hot, and he would like some water, and the man next to him has a sister.
 
 So: six things.
@@ -1548,7 +1548,7 @@ in life, who had taken a blast at close range and had, in the flat phrase of the
 *a lot of metal in him.*
 
 That is the phrase. Uri lay in a bed in a hot ward and heard an orderly say, about a person, *there's
-a lot of metal in him*, and something in his chest went sideways.
+a lot of metal in him*, and his chest did something sideways.
 
 Because he could hear it.
 
@@ -1602,12 +1602,12 @@ The engineer's name was Dov and he was thirty-four and he was awake most of thos
 
 They talked, in the way that men in a ward talk at three in the morning, which is to say about
 nothing at all for a long time and then abruptly about the only thing. Dov had a wife in Netanya and
-two daughters and a practice designing water systems for kibbutzim, and he was very calm about what
-had happened to him and very frightened about the walking.
+two daughters and a practice designing water systems for kibbutzim, and he was calm about what
+had happened to him and frightened about the walking.
 
 On the eleventh or twelfth night he said: "You are awake every night. What is it?"
 
-And Uri Geller, aged nineteen, in a dark ward, said the most honest sentence of his life to a man he
+And Uri Geller, aged twenty, in a dark ward, said the most honest sentence of his life to a man he
 had known for a week and a half.
 
 He said: "I can hear the metal in you."
@@ -1694,7 +1694,7 @@ kept for fifty-nine years, which was:
 
 *It is not for people.*
 
-Whatever this is, and he had no idea, he was nineteen, he had a word in Hebrew that meant conjuror
+Whatever this is, and he had no idea, he was twenty, he had a word in Hebrew that meant conjuror
 and a word in English that meant the same thing and nothing else at all—whatever it was, there was
 a line drawn through it, and the line ran along the surface of a human skin, and it had been drawn by
 somebody or something that was not him.
@@ -1838,7 +1838,7 @@ she had recently turned down twice, said:
 
 "What?"
 
-"When it works you say nothing and it is very good." She was putting her coat on. "When it does not
+"When it works you say nothing and it is good." She was putting her coat on. "When it does not
 work you talk. You talk and talk and you make jokes and you apologise. And everybody knows."
 
 "They don't know—"
@@ -1917,7 +1917,7 @@ years, and went away.
 
 —
 
-Here is the thing about that poster, and it is worth putting down now because it will be a very long
+Here is the thing about that poster, and it is worth putting down now because it will be a long
 time before it comes back.
 
 Uri Geller hated it, and he was right to hate it, and it was accurate.
@@ -2200,8 +2200,7 @@ in fifty-five years:
 Puharich ran that one nine times over two weeks because he did not believe it either.
 
 Air. Nothing. Card. Aluminium foil. Lead sheet. A steel box. Plain glass. A glass jar. A glass jar of
-water. A glass jar of salt water. He was systematic in the way that a man trained in medicine is
-systematic, which is to say he changed one thing at a time and wrote all of it down including the
+water. A glass jar of salt water. He was systematic with the trained thoroughness of a man out of medicine, which is to say he changed one thing at a time and wrote all of it down including the
 failures.
 
 The ordering came out the same on every run, and it makes no sense under any theory that anybody has
@@ -2577,7 +2576,7 @@ with them."
 
 That was the plan. It was a good plan. It was, arguably, the correct plan.
 
-It held for nine days after publication.
+It held for eleven days after publication.
 
 \newpage
 
@@ -2614,7 +2613,7 @@ A die dropped inside a steel container lands on one of six faces, and it comes t
 floor of that container, and it stays there. And the steel underneath it is now being pressed on by a
 small weight in a specific pattern—three pips of pressure, or five, or one, and steel under a
 point load is not silent. It is doing what steel always does under load, which is arguing with
-itself, very quietly, in the crackle.
+itself, quietly, in the crackle.
 
 One pip is a different sound from six pips. They are not close.
 
@@ -2744,7 +2743,7 @@ Rolls-Royce as a joke by a man at a party, gave the answer he always gave, which
 "It is not that a big thing is heavy." He was tired and his English was worse when he was tired.
 "It is that a big thing has *more in it*. A spoon is nothing. A spoon is a—" he turned his hand
 over "—a piece of nothing from a factory. But an old thing, a made thing, a thing that has been
-used —" He stopped, because the man had gone very still. "Anyway. It is not the size."
+used —" He stopped, because the man had gone still. "Anyway. It is not the size."
 
 "It's the history," the man said.
 
@@ -2827,7 +2826,7 @@ talking and Uri was not performing, and the whole of it is worth having:
 
 *10:26—subject asks how much longer I intend to allow. Told: as long as he likes.*
 
-*10:31—subject: "it is very quiet."*
+*10:31—subject: "it is quiet."*
 
 *10:33—asked to clarify. Subject: "it has nothing in it. It is like a new spoon. There is nothing
 to hold."*
@@ -2930,7 +2929,7 @@ history has ever written it down, because it has never once needed to be said.
 *The material will continue to be what it is.*
 
 A centrifuge rotor spinning at fifty thousand revolutions a minute is a piece of metal that is
-being held together entirely by its own crystal structure against a force that wants very badly to
+being held together entirely by its own crystal structure against a force that wants badly to
 tear it apart. A turbine disc is the same. A pressure vessel. A landing gear. A reactor cladding. A
 containment weld.
 
@@ -2944,8 +2943,7 @@ manufactured to change its mind about what it had always been.
 
 Byrd wrote it up.
 
-The report is careful and dull and hedged, in the way that reports by people who want to be believed
-are careful and dull and hedged. It describes the protocol. It describes the controls. It notes that
+The report is careful and dull and hedged, as reports by people who want to be believed always are. It describes the protocol. It describes the controls. It notes that
 the author cannot account for the result. It does not use the word *psychokinesis* anywhere and it
 does not speculate about mechanism, and it makes, in the final paragraph, one single recommendation,
 which is that the work be repeated under laboratory conditions by somebody else.
@@ -3440,7 +3438,7 @@ subject, and there was no version of his life in which this was not true.
 
 He told Targ that evening in the car park, badly, in a rush, with his hands.
 
-Targ listened all the way through without interrupting, which was one of the very best things
+Targ listened all the way through without interrupting, which was one of the best things
 about him, and then stood for a while looking at the ground.
 
 Then he said: "Yes."
@@ -3597,7 +3595,7 @@ does not know."
 
 There was a pause of some seconds.
 
-"That is very interesting," Bohm said, "because that is roughly what I would say about all of it."
+"That is interesting," Bohm said, "because that is roughly what I would say about all of it."
 
 —
 
@@ -3610,7 +3608,7 @@ The gist, and this is the gist, not the physics, and Bohm would have been unhapp
 down this baldly—was something like:
 
 That the everyday solidity of a thing is not a property the thing has on its own. That what we call
-an object is a very stable pattern in something much larger and less divided, held steady by an
+an object is a stable pattern in something much larger and less divided, held steady by an
 enormous number of relations. That the classical world, the world of spoons that are definitely
 spoons—is not the deep case; it is the *statistical* case, an average that is overwhelmingly likely
 and is not a law. And that the interesting question, which almost nobody asks, is not why quantum
@@ -3688,7 +3686,7 @@ nobody had opened.
 
 *It should turn up elsewhere. In other people.*
 
-An Englishman in a very good suit was explaining, courteously, over a good lunch, that there were now
+An Englishman in a good suit was explaining, courteously, over a good lunch, that there were now
 rather over four thousand of them and that they had written in with their ages and their addresses.
 
 Bohm had said it in a corridor as the best-case scientific outcome, the thing you would hope for, the
@@ -3724,7 +3722,7 @@ anybody else for thirty-four years.
 
 *London and New York—October and November 1974*
 
-The paper came out on the eighteenth of October and for ten days Uri Geller was a scientific
+The paper came out on the eighteenth of October and for eleven days Uri Geller was a scientific
 finding.
 
 *Nature*, volume 251, pages 602 to 607. Targ and Puthoff. "Information transmission under conditions
@@ -3752,7 +3750,7 @@ particular moment and he was short with him and they did not speak for two days.
 He carried a copy in his jacket for a month. He showed it to a waiter.
 
 That fortnight is the only period in the whole of his adult life in which Uri Geller was not
-defending himself, and he was twenty-seven years old, and it lasted nine days.
+defending himself, and he was twenty-seven years old, and it lasted eleven days.
 
 —
 
@@ -3826,7 +3824,7 @@ And Andrija Puharich had crossed out *pipes*.
 He rang him from the hotel at about one in the morning New York time.
 
 He does not remember what he said and there is no record. Shipi, who was in the next room, remembers
-shouting in three languages and then a very long time when there was no shouting.
+shouting in three languages and then a long time when there was no shouting.
 
 What Puharich said, at some point in it, is the only line either of them ever reported, and both of
 them reported it the same way, twenty years apart, which is unusual enough to be worth trusting.
@@ -3865,8 +3863,7 @@ He put the phone down and sat on the floor with his back to the bed and did the 
 the next fifty-two years pretending he had never done.
 
 If the book had not existed, he would have had—what? Two years, perhaps three, of serious attention.
-Taylor at King's had not recanted yet. Hasted was still working. Bohm had said *that is very
-interesting* in a corridor four months earlier. There was a paper in *Nature*.
+Taylor at King's had not recanted yet. Hasted was still working. Bohm had said *that is interesting* in a corridor four months earlier. There was a paper in *Nature*.
 
 Three years is enough. Three years is more than enough. Somebody in that window would have asked the
 follow-up question—*what do you mean, in the way*, and somebody would have put a load cell under a
@@ -3904,7 +3901,7 @@ of their lives, honourably and at cost. John Taylor, at King's College, who had 
 recanted comprehensively and wrote a book about why. Hasted was finished. Bohm never came near it
 again.
 
-Uri Geller was twenty-seven years old and had been, for six days, a fact in the scientific
+Uri Geller was twenty-seven years old and had been, for eleven days, a fact in the scientific
 literature, and was now, permanently and irreversibly, a man from a spaceship story.
 
 And so he did the only thing available to a man in that position, which is what he had done at six
@@ -3994,7 +3991,7 @@ He did not need to touch anything. He had never needed to touch anything. Touch 
 easier and less costly, and in nine months in California he had established, with two physicists and
 a magnetometer bolted down in another room, that it worked through a wall.
 
-The controls were designed by a very good magician to stop a magician.
+The controls were designed by a good magician to stop a magician.
 
 They were, against the thing he actually was, completely irrelevant, and everyone involved in
 designing them would have been horrified to learn it, and none of them ever did.
@@ -4009,7 +4006,7 @@ Here is what he was looking at, and it should be laid out coldly, because he lai
 gathering of human attention that had ever existed in the United States. Fifteen, twenty million
 people on an ordinary night. He had been on television before, he had been on television in six
 countries, but never *this*, and never with the thing working properly, because the thing had been
-working very well that summer.
+working well that summer.
 
 If he sat down at that table and did what he could do—if he took a sealed case, chosen and guarded
 by a hostile professional, and made every spoon inside it fold without opening it, live, with Randi's
@@ -4201,7 +4198,7 @@ name.
 
 Bookings tripled. The BBC rang in September.
 
-And a very small number of people in two countries, reading the coverage, concluded that the matter
+And a small number of people in two countries, reading the coverage, concluded that the matter
 was settling itself nicely, exactly as recommended, at no cost.
 
 \newpage
@@ -4239,7 +4236,7 @@ in contact with her dead child.
 
 He got out of the room. He gave the money back or he did not, depending on which telling. And he
 never did the act again as anything but an act, and he began—slowly, over about fifteen years, and
-then very fast—to build the thing that he spent the rest of his life on.
+then fast—to build the thing that he spent the rest of his life on.
 
 He became an escapologist of genuine international standing. He got out of a sealed coffin underwater
 and off the Niagara gorge and out of a straitjacket hanging over Broadway. And in between, and then
@@ -4252,7 +4249,7 @@ a well that was always going to be there.
 He was right about all of them.
 
 Not mostly right. Not right in the main. He was, in a career of fifty years and several thousand
-investigations, correct—demonstrably, repeatably, and at very great personal cost, including
+investigations, correct—demonstrably, repeatably, and at great personal cost, including
 lawsuits that took years of his life and money he did not have.
 
 This book is not going to pretend otherwise for a single sentence, and any reader who has arrived
@@ -4363,7 +4360,7 @@ about a dozen other subjects.
 
 Read with chapter twenty-four in your hand it is something else entirely, because it is not an
 argument about whether the phenomenon is real. It is an argument about what it would cost if people
-believed it, and it is the same argument, almost word for word, that an Englishman in a very good
+believed it, and it is the same argument, almost word for word, that an Englishman in a good
 suit made over lunch off Jermyn Street eleven weeks earlier to a twenty-eight-year-old who agreed
 with him.
 
@@ -4437,7 +4434,7 @@ puts the key down on the table and says:
 He tells her.
 
 He tells her completely. He shows the switch, which is not a switch at all in this version but a
-prepared piece and a misdirection built on the fact that a human being cannot attend to two things at
+prepared piece and a misdirection built on the fact a human being cannot attend to two things at
 once and will always attend to the one that is moving. He does it again slowly. He does it a third
 time badly, on purpose, so she can see the join.
 
@@ -4711,7 +4708,7 @@ He never did another live cutlery demonstration on British network television. N
 1975 to the twentieth of December 2026—fifty-one years, and no journalist has ever noticed, and
 when he was asked about it once in 1988 he said something about the money being better in Germany.
 
-*Dear Mr Geller, I am sorry to bother you. I know you are very busy. I did the thing with the spoon
+*Dear Mr Geller, I am sorry to bother you. I know you are busy. I did the thing with the spoon
 and it worked and I told my dad and he says I am making it up. I don't mind, only I wanted to ask
 somebody who would know if it is real, because I know it is real, and I don't know who else to ask.
 I am 9. Sorry again.*
@@ -4761,7 +4758,7 @@ nobody threatened him at any point, and he agreed to everything before the coffe
 
 There were two of them. A. Meir, who had first spoken to him in a corridor in Jaffa in 1969 and had
 turned up, unhurriedly, perhaps eleven times since, in five countries, always alone, always pleasant,
-never with a surname; and an Englishman of about fifty in a very good suit who was introduced by a
+never with a surname; and an Englishman of about fifty in a good suit who was introduced by a
 first name and who did most of the talking.
 
 They asked after Hanna. They asked after his mother. They were sorry about the business with the
@@ -4805,7 +4802,7 @@ Uri did not say anything for a while.
 "You are asking me if they are real."
 
 "No. I'm asking what should happen to them." The Englishman leaned back. "Because something will. You
-understand that it isn't a question of whether. There is now a very large number of people in several
+understand that it isn't a question of whether. There is now a large number of people in several
 countries who are extremely interested in this, and not all of them are us, and some of them are not
 answerable to anybody I could name. And every single one of them is looking at the same list of names
 and addresses, which is not a secret document, because the children *wrote in*, to universities, on
@@ -4918,7 +4915,7 @@ He did not answer that.
 
 —
 
-It is the coldest kindness in the novel and it is the reason the marriage lasted fifty-five years.
+It is the coldest kindness in the novel and it is the reason the marriage lasted sixty years.
 
 She would not take it off him. Not that night and not once afterwards, not in the car park in
 Birmingham in 1988, not in the kitchen in 1994 after the second judgment, not in the sitting room in
@@ -4959,7 +4956,7 @@ Over the following eighteen months Uri Geller became, by any professional assess
 worse act. He did more television and less of anything else. He said yes to programmes he would have
 turned down in 1973. He started talking about crystals, which he had never mentioned in his life. He
 let the failures happen in front of people instead of managing them. He began, gradually, to be
-photographed in the way that men are photographed when the photograph is the joke.
+photographed as men are photographed when the photograph is the joke.
 
 And in the autumn of 1976 an internal review in Virginia noted, in a single line, that the
 recommendation of the previous year appeared to be working, at no cost, and that no further action
@@ -5036,7 +5033,7 @@ He was forty. He was not poor any more, the eighties had turned out unexpectedly
 that are the subject of the next chapter, and there was no bank and no lawsuit driving it.
 
 He was on a Spanish variety programme and it was a big one, and he had done nothing at all for
-eleven minutes, which is a very long time, and he could feel the room going, and the compere had
+eleven minutes, which is a long time, and he could feel the room going, and the compere had
 started to be witty, and there were twelve million people watching.
 
 So he switched a spoon.
@@ -5182,7 +5179,7 @@ it did not do so by accident.
 The mineral dowsing began in 1979 with a telephone call from a man in Australia and it is the part of
 his life that nobody has ever been able to explain away, including the people who have tried hardest.
 
-The proposition was simple and slightly mad. A mining company would pay him a very large fee, plus
+The proposition was simple and slightly mad. A mining company would pay him a large fee, plus
 an override on anything found, to fly over a region—or, later, and more often, to sit in an office
 in London with a map, and mark places.
 
@@ -5294,7 +5291,7 @@ There was a night in Osaka in 1991 that he has never told anybody about and that
 picture of what those forty years actually cost.
 
 He was doing a corporate booking, an electronics manufacturer, a sales conference, eleven hundred
-people in a hotel ballroom, forty minutes and a very large fee.
+people in a hotel ballroom, forty minutes and a large fee.
 
 And it went, all of it. Everything he tried worked, first time, easily, for forty minutes, the way it
 used to in 1973 and almost never did any more. Cutlery, watches, a drawing, a compass. He came off
@@ -5302,7 +5299,7 @@ soaked and lit up and shaking and twenty-five years old again.
 
 And a Japanese executive of about sixty came and found him afterwards in the corridor and said,
 through an interpreter, that his daughter was a physicist at a university in Kyoto, and that she had
-seen the SRI material as a student, and that she had a small research budget and would very much like
+seen the SRI material as a student, and that she had a small research budget and would much like
 to talk to him.
 
 Uri Geller stood in a hotel corridor in Osaka in 1991 with the best night he had had in eighteen years
@@ -5381,7 +5378,7 @@ Here it is.
 **There was no containment. There was a man whose career collapsed, and who could not bear it, and
 who built a story in which the collapse was heroic.**
 
-Consider it properly. Consider it the way a hostile biographer would, because a hostile biographer
+Consider it properly. Consider it as a hostile biographer would, because a hostile biographer
 would have an easy afternoon.
 
 A young performer of genuine charisma has eighteen months of extraordinary fame in the early
@@ -5416,7 +5413,7 @@ That is exactly what should worry you about it.
 The lawsuits are the strongest evidence for the sceptical reading and it is worth being exact about
 why.
 
-If Uri Geller had genuinely agreed, in 1975, to accept ridicule in order to protect children, then
+If Uri Geller had genuinely agreed, in 1975, to accept ridicule to protect children, then
 the litigation makes no sense at all. It is the one behaviour that is flatly inconsistent with the
 strategy. A man committed to being dismissed does not spend a million dollars and four years trying
 to force a court to declare him credible. He does not stand in a witness box in 1993 and attempt,
@@ -5436,7 +5433,7 @@ He knows all this. That is the thing that makes him bearable.
 There is an evening in 1994, in the kitchen at Sonning, after the second judgment, when he said the
 whole of the above out loud to Hanna, better than it is put here, he was not an articulate man in
 English but he was not a stupid one, and forty years of being told what he was had left him with a
-very precise map of the case against himself.
+precise map of the case against himself.
 
 He set it out. He got to the end of it.
 
@@ -5791,8 +5788,7 @@ They had not spoken in nineteen years.
 
 —
 
-The house was up a bad road and it was cold in the way that a house is cold when one old man lives in
-it. There were files in the hall. There were files on the stairs. There was a room at the back with a
+The house was up a bad road and it was cold with the particular cold of a house where one old man lives alone. There were files in the hall. There were files on the stairs. There was a room at the back with a
 table in it and nine hundred cardboard boxes of a life's work, most of it good, and the good part was
 worth nothing because of the other part.
 
@@ -5828,7 +5824,7 @@ right?"
 
 "All right."
 
-"I was wrong." He said it flatly, the way you read out a result. "Not about you. I want to be clear
+"I was wrong." He said it without inflection, as though reading out a result. "Not about you. I want to be clear
 about that, because you have had forty people tell you they were wrong about you and they all meant
 they had stopped believing you. I don't mean that."
 
@@ -5837,7 +5833,7 @@ they had stopped believing you. I don't mean that."
 "I mean that what I had was real and I could not leave it alone." He looked at his hands. "I had a
 finding, Uri. I had a genuine finding, the best of my life, and I had about three years in which the
 correct thing to do was to write down what I had measured and shut up about what it meant. That is
-all that was required. It was very easy. And I could not do it."
+all that was required. It was easy. And I could not do it."
 
 —
 
@@ -5859,7 +5855,7 @@ end of it, he does not stop. He gives it a name."
 
 "Spectra."
 
-"Spectra." Puharich almost smiled. "It needed to be somebody, you see. Because if it is somebody, I
+"Spectra." Puharich got something close to a smile out. "It needed to be somebody, you see. Because if it is somebody, I
 am in a conversation, and if it is a conversation then I am not alone in the room with it."
 
 —
@@ -5899,8 +5895,7 @@ nineteen years and there was not going to be another chance.
 "Andrija. The tapes. Did you erase them?"
 
 He had never said it out loud before. Not to Hanna, not to Shipi, not to anybody, the small ugly
-possibility that had sat underneath the whole thing since 1974, which was that a man who wanted very
-badly for something to be true had helped it along with a bulk eraser and had then believed his own
+possibility that had sat underneath the whole thing since 1974, which was that a man who wanted badly for something to be true had helped it along with a bulk eraser and had then believed his own
 evidence.
 
 Andrija Puharich, four months from dying, stood in his own hall on a stick and thought about it for a
@@ -5971,8 +5966,7 @@ The boxes went to a university and then to a warehouse and then, in about 2004, 
 some material that a private collector took.
 
 And in one of the boxes that survived, and that Uri Geller finally saw in the spring of 2025, at
-seventy-eight, in a storage unit in New Jersey, with a young archivist standing beside him being very
-patient—in one of those boxes, in a journal, in a small clear hand, is the page from October 1971
+seventy-eight, in a storage unit in New Jersey, with a young archivist standing beside him being patient—in one of those boxes, in a journal, in a small clear hand, is the page from October 1971
 with the word *pipes* struck through and the word *transmission* written above it.
 
 And underneath, added later, in ballpoint, in the shaky hand of an old man, at some point in the last
@@ -6018,7 +6012,7 @@ It started, as far as he can date it, in 1997, and it started because of a bridg
 A road bridge over the Douro went down in the spring of that year during a flood and a bus went into
 the river and a great many people were killed. It was in the papers for two days.
 
-He read the piece at the kitchen table and something in it stopped him, and he read it again, and he
+He read the piece at the kitchen table and one clause in it stopped him, and he read it again, and he
 could not have told anybody what had caught his attention, and he cut it out.
 
 That is the whole of the beginning. A man cut a thing out of a newspaper because it snagged on
@@ -6191,7 +6185,7 @@ She did not believe a word of anything. She was not aggressive about it. She sim
 it later, "no available slot."
 
 Uri Geller found her in the kitchen at about ten o'clock and asked what she did, which he asked
-everybody, and she told him, and he went very still.
+everybody, and she told him, and he went still.
 
 "You look at the metal afterwards."
 
@@ -6249,7 +6243,7 @@ a credulous man's scrapbook of weird events, chosen because they were spooky.
 
 They were not. She realised it at about the fifty-minute mark and it made the back of her neck cold.
 
-They were a collection of failures of a very specific and technical kind, and the specificity was
+They were a collection of failures of a specific and technical kind, and the specificity was
 consistent across two decades, and it was a kind that a layman could not possibly have selected for,
 because it does not look like anything from outside.
 
@@ -6314,7 +6308,7 @@ What she showed him took about twenty minutes and Uri understood perhaps a fifth
 enough.
 
 The control set was random. That is what it looked like and that is what it was: four hundred dots on
-a world map with a time axis, distributed exactly the way industrial accidents are distributed, which
+a world map with a time axis, distributed exactly as industrial accidents are, which
 is to say clustered where the industry is, and otherwise noise.
 
 His one hundred and sixty-eight were not random.
@@ -6531,7 +6525,7 @@ had been paying an attention that no human being had ever paid him.
 He sat down on the grass at the bottom of the garden, at seventy years old, in October, and stayed
 there long enough that Hanna came out.
 
-She did not ask. She sat down next to him, which at sixty-eight was not easy, and put her hand flat
+She did not ask. She sat down next to him, which at sixty-five was not easy, and put her hand flat
 on his back between the shoulder blades, which is where she had been putting it since a car park in
 Birmingham in 1988.
 
@@ -6539,7 +6533,7 @@ After a while he said: "I have done something."
 
 "All right."
 
-"I don't know if it is very good or very bad."
+"I don't know if it is good or bad."
 
 Hanna Geller looked at the river for a moment.
 
@@ -6588,7 +6582,7 @@ what happens on the twentieth is not going to be about whether he can teach it s
 going to be about whether he can get its attention one more time.
 
 He went back to doing it in the January. He did a corporate gig in Zurich and bent eleven pieces of
-cutlery and was very good.
+cutlery and was good.
 
 He never told Hanna what the eleven weeks had been for and she never asked, and she noticed, because
 she notices everything, and she has said since that she assumed it was about his hands.
@@ -6733,7 +6727,7 @@ Then she came to Sonning and put it on the kitchen table.
 "All right."
 
 "One. This is a Widmanstätten figure. It is a real one, it is not a fake, and it is the coarsest I
-have ever seen, which is consistent with a very large parent body and an extremely slow cool."
+have ever seen, which is consistent with a large parent body and an extremely slow cool."
 
 "All right."
 
@@ -7015,7 +7009,7 @@ He did not say anything.
 "Uri."
 
 "No." He put both hands flat on the table. "Hanna, I promise you. I did not see it. I have looked at
-it three hundred times and I did not see it." He was almost laughing, which was the shock. "I have
+it three hundred times and I did not see it." He had started to laugh, which was the shock. "I have
 written that date on a form every week of my life for sixty years and I did not see it."
 
 She watched him for a moment and then believed him, because after fifty-four years she could tell,
@@ -7055,7 +7049,7 @@ give you permission, not your mother, not Andrija, not the Americans, and not me
 
 He sat with that.
 
-"That is very hard," he said.
+"That is hard," he said.
 
 "Yes," said Hanna Geller, and got up, and put the bowl away in the cupboard where it had gone for
 thirty-two years, "and it is the last useful thing I can do for you, so I am doing it."
@@ -7167,7 +7161,7 @@ underneath it, and continuous with it, and going all the way back, the slow enor
 degrees per million years, the plates growing into one another in the dark for ten million years in
 the core of something that came apart before the Earth was a place.
 
-And then heat. Air. Ground. A very long stillness with sun on it.
+And then heat. Air. Ground. A long stillness with sun on it.
 
 And then hands, and a road, and a lorry, and rooms, and a corridor, and sixty-five years of two
 degrees cooler than everywhere else.
@@ -7393,7 +7387,7 @@ If you plot the *total*—not the size of each event and not the interval, but t
 being touched per unit time, the two curves cancel almost exactly, and what you get is a flat line
 for about twenty years, and then, from roughly 2019, a line that is not flat any more.
 
-It goes up. It goes up in the way that things go up when the interval is heading for zero.
+It goes up. It goes up as things go up when the interval is heading for zero.
 
 She put a ruler on it.
 
@@ -7454,7 +7448,7 @@ always known exactly how long he was going to last.
 He did not tell Frances Okonjo-Hale what he was going to do. He told Hanna, in the sitting room, on
 the fifteenth, at about late at night.
 
-He was very bad at it. He had a speech again and he did not use it again.
+He was bad at it. He had a speech again and he did not use it again.
 
 What he said, in the end, standing up, was: "I have to teach it one more time and it has to be
 everybody."
@@ -7496,7 +7490,7 @@ He did not answer that, and she did not need him to, and this is the moment in t
 the reader who has been paying attention since chapter eight arrives at the same place they both
 arrived at.
 
-Metal does not work on people. It has never worked on people. He established that at nineteen, in a
+Metal does not work on people. It has never worked on people. He established that at twenty, in a
 ward, on four consecutive weeks of nights, trying to move shrapnel in a sleeping man and failing
 completely, and he built a seventy-year life on the certainty of it, and he was right.
 
@@ -7769,7 +7763,7 @@ simultaneously.
 It is not 1973.
 
 There is now a machine, running continuously, in every pocket on Earth, which does exactly one thing
-supremely well, which is that it finds whatever a very large number of people have suddenly started
+supremely well, which is that it finds whatever a large number of people have suddenly started
 looking at, and it puts it in front of everybody else, within minutes, without asking permission from
 anyone.
 
@@ -7954,7 +7948,7 @@ Alone in a room he is a man who can bend cutlery, a curiosity, a party trick, a 
 laboratory that ever tested him tested him alone in a room, which is correct methodology and which
 measured, for fifty-three years, the wrong thing.
 
-Through a live broadcast into a very large number of homes he is something else entirely, and nobody
+Through a live broadcast into a large number of homes he is something else entirely, and nobody
 has ever been able to explain why, including him, and Puharich measured it in a hotel room in 1971
 and wrote it down and could not account for it, and it is the central unexplained fact of his life:
 
@@ -8029,7 +8023,7 @@ once, so please pay attention.
 What that looked like from the other side of the glass is worth having, because there is no footage
 of it and there never will be, and the only record is what people wrote afterwards.
 
-There is now a very large body of it. In the nine months after the twentieth, four separate research
+There is now a large body of it. In the nine months after the twentieth, four separate research
 groups collected first-person accounts, not to test anything, because there was nothing testable
 left, but because two hundred million people had done the same thing at the same minute and
 somebody was always going to write it down.
@@ -8095,7 +8089,7 @@ It was a stainless steel mixing bowl that had been in that house since 1994. It 
 fingers like something warm, and the rim of it went out of round, and she stood at the sink and
 looked at it, and it did not burn her and it was not hot and it did not make a sound.
 
-She put it down on the draining board very carefully, the way you put down something asleep.
+She put it down on the draining board carefully, the way you put down something asleep.
 
 Then she looked at the taps, which had gone slightly oval. And the handle of the fridge, which had a
 sag in it. And the hinges. And the little brass thing on the window catch that had never worked
@@ -8103,7 +8097,7 @@ properly since 1998.
 
 The whole kitchen was standing there being not quite sure of itself.
 
-And Hanna Geller, sixty-nine years old, who had never once in fifty-seven years asked her husband to
+And Hanna Geller, seventy-four years old, who had never once in fifty-seven years asked her husband to
 bend anything, put both hands flat on the counter and said, out loud, to an empty room:
 
 "All right, Uri."
@@ -8116,8 +8110,7 @@ survivable.
 Nothing collapsed. That is the entire point of the lesson. Two hundred
 million people held a spoon and every piece of metal on the planet went, for one minute, into the
 state that this book has been calling *not sure* since chapter two, and then came back, and came
-back *where it had been*, because it was not being forced, because somebody was showing it how, very
-slowly, for the last time.
+back *where it had been*, because it was not being forced, because somebody was showing it how, slowly, for the last time.
 
 Bridges did not fall. Aircraft did not fall. Reactors did not fail. Not one person died anywhere in
 the world in that minute of a cause that could be attributed to it, which is a fact that was
@@ -8153,7 +8146,7 @@ He had spent fifty-nine years not thinking about it, from a ward outside Beershe
 failed completely and had built his entire life on the failure.
 
 He had been right about the fence. Flesh is not metal. It has never been metal and he could no more
-have moved a fragment of casing in a sleeping engineer's thigh at eighty than he could at nineteen.
+have moved a fragment of casing in a sleeping engineer's thigh at eighty than he could at twenty.
 
 But he was not trying to move anything now.
 
@@ -8185,7 +8178,7 @@ bleed and went on bleeding and he did not lift a hand to it. At about the fortie
 opened slightly. At the fiftieth second his right hand closed, once, on the arm of the chair.
 
 That is the entire visual record of the largest event in the history of the species and it is
-seventeen seconds of usable footage and it looks like a very old man having a small stroke on a
+seventeen seconds of usable footage and it looks like a old man having a small stroke on a
 chair in a room with a grey wall.
 
 —
@@ -8319,8 +8312,7 @@ They restarted at 16:12 and they restarted everywhere and mostly nobody noticed,
 has been stopped for eleven seconds and then is not is a clock.
 
 In a bedside drawer in a bungalow outside Sleaford, an RAF officer's watch that had been running
-backwards for seventy-nine years and had come to rest at four minutes past eleven began, very
-quietly, to run forwards.
+backwards for seventy-nine years and had come to rest at four minutes past eleven began, quietly, to run forwards.
 
 It is still going. The woman who owns the house has never opened that drawer.
 
@@ -8361,7 +8353,7 @@ established, in the world, as a fact—then there would have been, within a week
 in human history, and it would have been for one man, and he was eighty and he had two children and
 four grandchildren and a house by a river with a lawn going down to the water.
 
-Instead, by Tuesday, he was an old showman who had done a very good trick.
+Instead, by Tuesday, he was an old showman who had done a good trick.
 
 He got to go home.
 
@@ -8387,8 +8379,7 @@ grandchildren has it now, and does not know.
 He stood in the doorway with his coat on.
 
 He was grey, that specific ashy grey she had been able to read across a room since 1969, and there
-was dried blood on his collar, and he looked, she said afterwards, like a man who had walked a very
-long way.
+was dried blood on his collar, and he looked, she said afterwards, like a man who had walked a long way.
 
 "Well," said Hanna Geller.
 
@@ -8507,10 +8498,10 @@ promised it and does not know why, and has been told only that it was in the hou
 is true.
 
 Somebody asked her once, a family friend, in the kitchen, not unkindly, in about 2033—whether she
-had ever really believed it.
+had ever believed it.
 
 And Hanna Geller, who was married to the most famous claimant in the history of the paranormal for
-fifty-five years and never once asked him to bend anything, put down what she was holding and gave
+sixty years and never once asked him to bend anything, put down what she was holding and gave
 the only answer she has ever given, which is the last thing anybody says in this novel apart from
 Danny Ofir:
 

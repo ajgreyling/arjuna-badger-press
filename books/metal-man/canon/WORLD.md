@@ -42,7 +42,7 @@ was a curse in a classroom is worth money.
 The palette: khaki, dust, hospital enamel, cigarette smoke, a stage the size of a table, and metal
 folding chairs.
 
-**Binding:** the 1967 war is rendered from inside a nineteen-year-old with no politics and no
+**Binding:** the 1967 war is rendered from inside a twenty-year-old with no politics and no
 overview. No strategy, no geopolitics, no commentary. A boy, a noise, and afterwards a ward.
 
 ## IV. America and Britain, 1972–1975 — *the sealed room and the studio*

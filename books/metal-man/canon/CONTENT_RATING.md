@@ -5,7 +5,7 @@ The difficulty in this book is entirely psychological and historical.
 
 ## The gates
 
-**War (ch. 8).** The Six-Day War is rendered from inside a nineteen-year-old with no politics and no
+**War (ch. 8).** The Six-Day War is rendered from inside a twenty-year-old with no politics and no
 overview: a boy, a noise, and afterwards a ward. **No strategy, no geopolitics, no commentary, no
 body count as spectacle.** The wounded are individuals, briefly and with dignity. The chapter's
 subject is a failure of power, not a battle.

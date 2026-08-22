@@ -8,7 +8,7 @@
   "logline": "What if Uri Geller really could bend metal, and the spoon was the smallest, safest thing he was ever asked to bend? A gospel life of the man who was made ridiculous on purpose, because a person who can soften a teaspoon can soften a firing pin, a turbine blade, a centrifuge — and because ridicule is cheaper than assassination and works better.",
   "blueprint": "Biographical novel told as gospel, not as inquiry. The documented public record (Tel Aviv 1946, the flash of light, the Six-Day War, Puharich, SRI, the Nature paper, Dimbleby, Carson, Randi, the CIA files, the decades of ridicule and survival) is the surface layer and is kept accurate. Underneath it runs the real story: metal retains the history of every force that shaped it, Uri can read and rewrite that history, and something inside the oldest iron on Earth — meteoritic, pre-terrestrial — is using him as an antenna to wake. Five acts. No borrowed IP; real persons treated under LIVING_PERSONS.md.",
   "market": "literary science fiction / gospel-biography — original IP, intended for the Impossible Lives shelf beside the Ted Owens book",
-  "status": "scaffold",
+  "status": "draft",
   "target_words": 115000,
   "lineage": "original. Kinship of engine, declared and never transcribed: the gospel-biography, the secret-history novel, the reluctant-prophet narrative. The public record is history and is cited as such in THE_REAL_RECORD.md; every interior life, private scene and metaphysical claim is invention.",
   "ssot_url": "",
@@ -31,5 +31,9 @@
     "STYLE_GUIDE.md",
     "PLOT.md"
   ],
-  "isbn": { "paperback": "", "hardcover": "", "ebook": "" }
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  }
 }

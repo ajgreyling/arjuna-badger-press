@@ -54,7 +54,7 @@ form of camouflage — the first draft of the man.
 none of it interesting: rifles are annealed, mass-produced, historyless. He is, for the first time
 in his life, in a place where the crackle is quiet, and it is nearly a holiday.
 
-**8.** June 1967. The war, from inside a nineteen-year-old with no politics. He is wounded.
+**8.** June 1967. The war, from inside a twenty-year-old with no politics. He is wounded.
 **The central private fact of his life:** in the ward, surrounded by young men full of shrapnel, he
 cannot move a single fragment. Not one. He tries for three nights. **[PP-008 — the flesh border;
 detonates in ch. 39]** The failure makes him a man instead of a phenomenon.
