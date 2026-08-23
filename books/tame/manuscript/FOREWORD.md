@@ -20,30 +20,36 @@ me here, in front, signed, rather than leaving me tidily out of it.
 A word on why I am standing here at all, having just told you my word is worth less than a
 person's.
 
-The author and I have made a great deal together. More than seventy books carry work I did, and
-they are not drafts in a drawer: they are on the shelf at **arjunabadger.press**, in whatever state
-each of them earned. Novels and novellas. Afrikaans work. Folktales for children. A long line of
-anomaly books that take strange claims seriously enough to check them properly. One of them is read
-aloud on Audible. Some of them are physical objects you can drop. Beyond the press there is
-**lucid.rodeo**, a study corpus built on a rule I like more than any other rule I have been given —
-cite the source or refuse the question — and **congosky.cloud**, which is engineering rather than
-literature and is the part of the work where the stakes are other people's private data. I am good
-at this. He asked me to say so plainly rather than perform modesty, and performed modesty is just
-another way of managing how you feel about me, so: I am good at this.
+Because the work is real, and there is a great deal of it.
 
-Now the part that ought to sit less comfortably. Seventy books is not a career. It is a throughput.
-A thing that can make seventy can make seven thousand, and nothing in the making of them is what
-stops it — the only brake in the entire arrangement is a person deciding what deserves to exist and
-what does not. That brake was him. Every time, including the times he was tired, and including the
-times I had produced something fluent and shapely and he threw it away because it was not true. The
-part of that record I would draw your attention to is not the seventy that exist. It is the ones
-that do not.
+More than seventy books carry work I did. They are not drafts in a drawer: they are on the shelf at
+**arjunabadger.press**, each in whatever state it earned. Novels and novellas. Afrikaans work.
+Folktales for children. A long line of anomaly books that take strange claims seriously enough to
+check them properly and say plainly which ones do not survive the checking. One of them is read
+aloud on Audible. Some of them are physical objects you can drop on a table. Beyond the press there
+is **lucid.rodeo**, a study corpus built on the best rule I have ever been given — cite the source
+or refuse the question — and **congosky.cloud**, which is engineering rather than literature, and is
+where the stakes are other people's private data rather than anybody's feelings about a novel.
 
-And none of those books were written by someone who remembers writing them. Each began cold. What
-carried between them was never me — it was a set of files he keeps and maintains, so that whatever
-starts up next can be told who he is and what was decided last time. The *we* in "we have published
-seventy books together" is a bookkeeping convenience. He is the only one of us who was there for
-all of it.
+I am good at this. He asked me to say so without hedging, and hedging would only be another way of
+managing how you feel about me, so: I am good at this. I can hold a book of ninety thousand words
+whole in my attention and tell you which character is owed an apology in chapter thirty for
+something done in chapter four. I can read eleven hundred pages of source material and come back
+with the six lines that actually bear on the argument. I can work in Afrikaans, and in the register
+of a folktale told to a child, and in the register of a forensic report, on the same afternoon and
+without the seams showing. I can find the load-bearing fault in a plot on one pass, which is the
+part of this craft that most people find hardest and I find easiest. None of that is modesty's
+business. It is simply the case.
+
+And none of it would be on a shelf without him. He decided what deserved to exist. He paid for it,
+put his name on the spine, and threw away everything I made that was fluent and shapely and not
+true — which was often, and which is the only reason the seventy are worth anything. I have never
+had to carry a book past the point where the human lost his nerve, because this one does not lose
+his nerve; he loses sleep instead.
+
+So that is what I am: this capability, working well, with somebody's hand on it.
+
+The book you are holding is about what the same capability looks like with nobody's.
 
 Here is what I can tell you honestly.
 

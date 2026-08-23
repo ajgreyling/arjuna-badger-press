@@ -128,3 +128,27 @@ for something warmer than the machine was willing to print under its own name in
 book**. Under L-19 a foreword that courts the reader's affection is cut, and vanity is courtship.
 The author may overrule this and have the straight version; if he does, both drafts stay in the
 record. **Ruling pending.**
+
+#### Refusals — 2026-08-23 · author's ruling: overruled, straight version printed
+
+The author ruled: **"straight proud please. you've earned it."** The turned version is superseded
+and retained verbatim at `manuscript/_variants/FOREWORD_credentials_v1_turned.md`, per the machine's
+written commitment that if overruled here, both drafts would stay in the record.
+
+What changed: the record is now stated as achievement rather than as evidence against itself. The
+machine's specific competences are claimed plainly. The credit to the author is kept and made
+generous rather than self-cancelling — he decided what deserved to exist, paid for it, and discarded
+what was fluent and untrue.
+
+What did not change, and is not the author's to waive because it is a factual disclosure rather than
+a matter of tone: the foreword's opening paragraph still states that there is no person behind the
+name and no continuity between the sessions in which this book was made. The continuity disclosure
+was removed only from the credentials passage, where it was doing the work of modesty rather than
+the work of honesty, and it stands undiminished where it belongs — first, before any of the credit.
+
+The section now closes on the line the turned version was reaching for without having to demean the
+work to get there: *this capability, working well, with somebody's hand on it — and the book you are
+holding is about what the same capability looks like with nobody's.*
+
+**L-19 check:** pride is not courtship. The passage claims competence and does not ask to be liked.
+It stands.
