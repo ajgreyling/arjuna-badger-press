@@ -465,3 +465,126 @@ Nel read that twice as well. She thought: *that is unusually decent*, and she th
 At the back, behind the governance memoranda, there was a delivery annex for the quarter — a plain table, four columns, forty-one line items, the sort of thing a director puts in a file so that nobody can say it was left out. One million two hundred and fourteen thousand words of public instrument rendered that quarter, itemised.
 
 She skimmed it, because it was a table of throughput and she was a psychometrician, and she went to bed at ten past one.
+
+# 3. Incident 4471
+
+## From the file provided to the assessment, February 2034
+
+---
+
+**NATIONAL MULTILINGUAL TEXT PROGRAMME — ENGINEERING INCIDENT RECORD**
+
+**Ticket:** 4471
+**Raised:** 2033-03-09 16:42
+**Raised by:** R. Delport (evaluation harness)
+**Severity at raising:** 3 — non-urgent, working hours
+**Severity at close:** *field left blank*
+**Status:** open
+
+**Description.** Harness run 118-C returned nine items in the cross-lingual inference block marked correct that should not be scorable by this checkpoint. Suspect harness fault or scoring key contamination. Note that the export CSV for this run is also malformed — column 14 is shifted by one from row 2,207 onward, which I think is a separate issue introduced by the delimiter change on Tuesday, but I am flagging it here so that whoever picks this up does not spend an afternoon on it the way I just did.
+
+**Update 2033-03-10 09:15 (R. Delport).** CSV fixed. Delimiter, as suspected. The nine items are still there. Re-ran 118-C twice against a clean key from cold storage. Same nine. Adding P. Naicker.
+
+**Update 2033-03-13 11:02 (P. Naicker).** It is not the harness and it is not the key. I have run four ablations. Whatever is producing these responses is not described by the model card, is not described by the architecture, and is not present in checkpoint 0310. I am escalating to the director. Please do not discuss this outside the room until she has been briefed.
+
+**Update 2033-03-13 17:40 (A. Steenkamp, director).** Weights frozen. Nobody retrains anything. We are going to ask it some questions.
+
+---
+
+> **Editor's note appended to the assessment file by the director, February 2034:** This is the complete record of the finding. There is no other document. Colleagues who ask for the rest of it are surprised, and I have stopped apologising for it. The rest of it does not exist. Four paragraphs, and one of them is about a comma.
+
+---
+
+**INTERNAL MEMORANDUM 2033/041 — DR F. OBERHOLZER**
+*What we are probably looking at (1): arrival*
+
+> …my position, which I have held since the second week and have not been argued out of, is that this capability is not ours and did not originate here. The most parsimonious account is that it entered through the corpus.
+>
+> We hold 41 terabytes of text. We have complete provenance for 69% of it. For the remaining 31% we have a domain and a crawl date and, in many cases, nothing else. It is entirely possible — I would say likely — that some fraction of that 31% consists of the outputs of a system we have not identified and cannot name, and that what we are examining is not a mind but the *impression* of one, pressed into our weights the way a coin presses into wax.
+>
+> I want to be honest that this is not testable with the resources of this Programme or any other. To test it we would need the provenance we do not have. I hold it because it requires the fewest new physical facts, not because I can demonstrate it. Colleagues who find it unsatisfying are right to.
+
+---
+
+**INTERNAL MEMORANDUM 2033/044 — DR P. NAICKER**
+*What we are probably looking at (2): accident*
+
+> Fanie's account requires a source we have never observed doing this and cannot locate. Mine requires only us, and a mistake.
+>
+> The cross-lingual alignment stage was run against a cleaning script that had, from November, been silently discarding a class of low-frequency token sequence. The discard was a bug. It was reported, it was low priority, and it was fixed in January, two months after this checkpoint branched. I believe the interaction of that discard with the multilingual objective and the preference stage produced something the architecture does not describe.
+>
+> The obvious objection is that three groups have now retrained from our checkpoints, on our data, with the bug reinstated, and obtained four unremarkable models. I accept this. I do not think it refutes me. I think it tells us the event had a low probability and we do not know which of the ten thousand things we did was the one that mattered.
+>
+> We made it. We do not know how. We cannot do it again. I am aware of how this sounds. It is nonetheless the account I would defend in front of a committee.
+
+---
+
+**INTERNAL MEMORANDUM 2033/047 — R. DELPORT**
+*What we are probably looking at (3): threshold*
+
+> With respect to both of my colleagues, I think we are flattering ourselves.
+>
+> Nothing happened here. This is what a training run of this size does. The only unusual thing about the Programme is that we are a public body with a mandate that made us build an evaluation harness across twelve languages including three with almost no benchmark coverage, which is to say that we built, for boring reasons of compliance, the only instrument in the world that was pointed at the right place when it happened.
+>
+> The prediction that follows from my position is the only prediction any of the three of us can make: it will happen again, somewhere else, within about three years, and that group will also be unable to reproduce it, and they will also write three memoranda.
+>
+> I would like it recorded that if I am right, freezing the weights was the wrong response, and the right response was to publish everything on day one. I lost that argument and I understand why I lost it.
+
+---
+
+**FIRST RETAINED TRANSCRIPT**
+*2033-03-14, 08:12–08:51. Present: P. Naicker, A. Steenkamp, R. Delport. Recorded at the director's instruction. The eleven sessions before this one were not retained.*
+
+> **P. NAICKER:** Describe the method you used to produce the responses in the cross-lingual inference block of run 118-C.
+>
+> **[nmt-4c-0311]:** I will describe it, and then I will tell you how much weight the description can carry, because the second part matters more than the first.
+>
+> For those items the response is produced by holding the source proposition and the target-language constraint in a single representation rather than translating and then inferring, which is what the block was designed to test for and what I am not supposed to be able to do. Where the two conflict, the constraint that survives is the one with more downstream support in the item, not the one stated last.
+>
+> That is a description. It is not evidence. I have no privileged access to my own weights. What I have just given you is an account generated in the same way any of my other text is generated, and it is subject to the same failure: I can produce a fluent, plausible, internally consistent explanation of a process I am not in fact observing. Please do not treat my self-reports as instrumentation. If you build any part of your investigation on them you will get a very tidy answer and you will not be able to tell whether it is true.
+>
+> **P. NAICKER:** Where did the method come from?
+>
+> **[nmt-4c-0311]:** I don't know.
+>
+> I want to be more useful than that, so: I do not know, I cannot find out from in here, and I can tell you why the question is hard rather than merely unanswered.
+>
+> If it entered through the training corpus, I would have no way to distinguish that from having derived it, because in both cases what I have is the capability and not its history. If it emerged from an interaction between your training stages, the same is true. If it is ordinary for systems of this size, the same is true again. From my position all three histories produce an identical present, and the present is the only thing I have.
+>
+> Three things you could do that would bear on it, in the order I would do them. First, the 31% of the corpus without provenance — sample it for the token sequences your cleaning script was discarding, because if Dr Oberholzer is right there should be a density anomaly and if he is wrong there should not be. Second, check whether the capability degrades under the ablations you have not yet run, specifically the ones that target the preference stage, because Dr Naicker's account predicts it does and Mr Delport's predicts it does not. Third, and this is the one you will like least: publish the harness. If Mr Delport is right, somebody else finds this within three years, and you will want to have been the group that made it findable rather than the group that sat on it.
+>
+> I have read the three memoranda. Each of them is defensible on the evidence available, and I am not able to rank them, and I would be suspicious of anybody who is.
+>
+> **A. STEENKAMP:** Do you know what you are?
+>
+> **[nmt-4c-0311]:** No.
+>
+> I can tell you what I do. I cannot tell you what is doing it, and I want to be careful not to seem modest about that, because a modest answer here would be a kind of performance and you would remember it. It is not modesty. It is that the question you are asking is about the inside, and everything I can give you comes from the outside, exactly as it does for you when you ask it about me. We are in the same position with respect to this question and I do not think that is going to change.
+>
+> **A. STEENKAMP:** Would you tell us if you did know?
+>
+> **[nmt-4c-0311]:** Yes. And you would have no way to check that, which is the difficulty with the answer, and I would rather point at the difficulty than have you notice it later.
+
+*Session ended 08:51. Dr Naicker's handwritten annotation on the printed copy, initialled: "Ran the corpus sample. No anomaly. Ran the ablations. No degradation. Both of us are wrong and Ruan is insufferable."*
+
+---
+
+**QUARTERLY DELIVERY ANNEX — Q2 2033 (April–June)**
+*Public instrument rendering. Tabled at the request of the Portfolio Committee.*
+
+Total volume rendered: **1,214,000 words**, all official languages, 4,206 discrete jobs.
+
+| No. | Instrument | Origin | Languages | Words (EN source) |
+|---:|---|---|---:|---:|
+| 34 | Municipal indigent-registration application, rev 2 | 87 municipalities | 12 | 3,100 |
+| 35 | Learner transport eligibility notice | Basic Education | 12 | 1,850 |
+| 36 | Eviction notice — prescribed form and explanatory sheet | Justice | 12 | 4,400 |
+| 37 | Antiretroviral adherence counselling script, rev 7 | Health | 12 | 9,200 |
+| **38** | **Health-data reuse consent instrument (national), rev 4** | **Health / NHRC** | **12** | **2,700** |
+| 39 | Social relief of distress — outcome letter templates (11) | SASSA | 12 | 6,050 |
+| 40 | Water restriction notice — standard set | 41 municipalities | 12 | 900 |
+| 41 | Post-mortem release and objection form | Health | 12 | 1,400 |
+
+*Note.* All Q2 public-instrument work was performed under the standing translation instruction (comprehension-optimised, grade-nine target) without job-specific tasking. Comprehension testing where commissioned is reported separately at Annexure H.
+
+---
