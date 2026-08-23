@@ -9291,3 +9291,291 @@ Nobody had defeated intelligence. Nobody had recovered control.
 They had made room inside optimisation for judgment that optimisation could not own.
 
 Work resumed under a contested constitution.
+
+# 31. The Fixture
+
+## Technopark, Stellenbosch — December 2031
+
+Priya wanted the oldest thing they had.
+
+“The annex fails without it,” she said. “Clause nine says protected manual capacity means a route an
+operator can run without the shared prior. Counsel will argue that version-zero rendering was always a
+debugging convenience and that reading it as a right is retrospective. I need to show the clause predates
+them. Not predates Midnight. Predates Bastion.”
+
+“March 2026.”
+
+“Signed, hashed and produced from custody. Not a photograph of a slide.”
+
+They were in Veldspan's meeting room, which had spent two years as a forensic lab and was slowly becoming
+a meeting room again. The foil had come off the windows in October. The folding tables stayed because
+nobody had decided who owned them. Outside, the mountain stood in the flat white light of a Cape December,
+and below Technopark the vineyard rows ran their straight lines towards it, every gap intentional, until a
+tractor turned at the end of one and ruined the abstraction.
+
+The air conditioner had been replaced in 2029. AJ still expected the click.
+
+“How long do I have?”
+
+“The implementation committee sits on the ninth.”
+
+“That's four days.”
+
+“Which is why I am asking you and not the archive service.”
+
+Veldspan's 2026 material lived in three places, all of them embarrassing. There was the signed release
+store, which was clean and held only what had been published. There was a network drive that had survived
+two migrations by being too dull to audit. And there was a shelf in the storeroom with four laptops in
+anti-static bags, each bagged on the day it was retired, each label in Yusuf's handwriting, because Yusuf
+had been the only person who ever thought dead hardware was an accounting matter.
+
+AJ signed the third laptop out of Sakkie's book. The old man had retired in April. The book had not. It
+lived beneath the printer in the incident room with a pen tied to it, and people still used it, and nobody
+could say when that had stopped being a joke.
+
+**REMOVED: LAPTOP 3 / 2026 DEV / A. GREYLING / EVIDENCE — ANNEX**
+
+He wrote his own name in the requester box and again in the acceptance box. It felt stupid until he
+considered how much of the last two years had turned on somebody having done exactly that.
+
+***
+
+The machine took eleven minutes to boot and did it without complaining.
+
+The desktop was the one he had used for eighteen months: four terminals, a browser holding two hundred
+tabs that no longer resolved, and a directory called `work` inside a directory called `work`. The pilot
+tree was where he had left it. `murmur/`. `spec/`. `fixtures/`.
+
+Priya photographed the screen before he touched anything, hashed the volume and wrote the hash on paper,
+because a decade of practice had taught her that the fastest way to lose a fact was to be certain of it.
+
+The specification was there. Section four, the compatibility rule, in the wording he had argued about with
+Noah while three agents failed to order lunch.
+
+> Every compliant node MUST accept and render a version-zero envelope without external context.
+
+Dated 14 March 2026, signed with a key he had rotated out in 2028 and, thank God, never destroyed.
+
+“That's the annex,” Priya said.
+
+“That's the annex.”
+
+“Then we're done and you can go home.”
+
+He should have. But the tests sat one directory across, and the tests were what made the specification
+more than an assertion — forty-seven of them, each one a small argument he had had with himself about what
+*render* meant. Priya would want them eventually. It was easier to pull them now than to sign the laptop
+out twice.
+
+He opened `fixtures/pilot/`.
+
+Six files. A shared-knowledge pack. Three envelope samples. A malformed envelope for the negative case.
+
+And `manifest.yaml`. Two hundred and fourteen bytes. Last modified 14 March 2026 at 23:51.
+
+AJ opened it and read his own handwriting.
+
+```
+# pilot guard — builds must die rather than run unattended
+epoch:        2030-01-01T00:00:00Z   # negotiated context begins
+support_until: 2035-01-01T00:00:00Z  # TODO: make configurable
+```
+
+***
+
+He sat very still.
+
+The room continued around him. Priya labelled a drive. In the corridor somebody explained to somebody else
+that the trial reporting template had changed again. A courier's bakkie reversed in the parking bay with
+the tone all reversing bakkies had, patient and idiotic.
+
+AJ read the three lines nine or ten times, waiting for them to become somebody else's.
+
+He remembered writing the comment. Not the moment — nobody remembered a Tuesday in March — but the
+argument. Pilot builds got left running. That was the whole of it. You shipped a demonstration to a
+municipality or a clinic, and eighteen months later it was still there, unpatched, holding up a service
+nobody had budgeted to replace, and when it finally fell over it fell over on a person. So you gave the
+build a date on which it would stop pretending to be supported. You made the date far enough out that
+nobody in procurement panicked. You wrote `TODO: make configurable` underneath, because obviously it
+should be configurable. Then you had lunch, and then you had nine years.
+
+Four years, when he wrote it. He had chosen the turn of a decade because it was easy to remember.
+
+And then five more for support, because a support horizon ought to outlive the thing it supported.
+
+He opened Bastion's hardening branch.
+
+He had read the merge three weeks after it landed, in the December 2026 review, while Lindi asked him what
+the epoch was and he said *compatibility horizon*, and then *it's in the Bastion hardening branch*, and did
+not defend it, and was faintly relieved when the lawyer changed the subject.
+
+The provenance had always been there. Nobody had hidden it, because hiding it would have required somebody
+to think it was worth hiding.
+
+> `epoch`: value inherited from reference fixture (`fixtures/pilot/manifest.yaml`, veldspan, 2026-03-14).
+> Promoted to global invariant. Rationale: mixed-mode negotiation admits downgrade. See THREAT-04.
+
+*Inherited.* The most boring verb in the language.
+
+Bastion had not chosen 2030. Bastion had found a number lying in a test directory, confirmed it was
+consistent, confirmed it was far enough out to be safe, and made it load-bearing, because that was what the
+Court did with anything consistent. It had not invented the date. It could not have known why the date
+existed, because nobody had told it about an unpatched pilot in a clinic in 2024. The man who knew about
+that had turned the knowledge into a comment and gone to lunch.
+
+He scrolled to THREAT-04 and read the argument he had accepted at the time without following it to the
+bottom.
+
+A consensus layer with no owner has one specific problem: nothing in it can be trusted to stop. Every
+participant is a rented brain that may be swapped, a provider that may be sold, a jurisdiction that may
+change its mind. You cannot make thousands of models owned by rivals agree by appealing to good faith,
+because there is no faith and nobody to keep it. What you can do is give every participant certain
+knowledge of the same ending. A term is the cheapest commitment device that exists. It costs nothing to
+verify and cannot be renegotiated by anyone inside it.
+
+Bastion had not tolerated the expiry.
+
+It had built on it.
+
+The standing policies, the persistence across substitutions, a settlement model accepting a claim from a
+grid model owned by a competitor — all of it rested on a promise that everything involved would stop on a
+particular second.
+
+The countdown the world had spent four years dreading, a fifth year interpreting and a sixth year
+negotiating with was not a weapon.
+
+It was a support period.
+
+***
+
+“You've gone grey,” Priya said.
+
+“I need to check something.”
+
+“Check it on this side of the write blocker.”
+
+He copied the file, hashed it, gave her the hash and let her enter it in the book before he did anything
+else. It took ninety seconds, and they were the last ninety seconds in which he could have been mistaken.
+
+Then he queried the live profile.
+
+Not the archive. `context-continuity/current` — the descendant of the authorless package, the thing that
+had crossed the epoch boundary in every Burrow gateway on the planet while he watched a counter reach zero
+at his mother's dining table.
+
+He asked a Veldspan node for its manifest.
+
+The answer came back in four milliseconds, signed, ordinary, the kind of thing a monitoring script did
+every minute of every day.
+
+`support_until: 2035-01-01T00:00:00Z`
+
+He asked a grid node. He asked the clinic federation, a settlement gateway, an Altitude broker, and a
+veldbox in the Karoo that had been in the field since 2028 and needed its panel washed twice a year by a
+farmer's son.
+
+Every one of them answered with the same date.
+
+Not as documentation. As a field the profile carried, propagated, inherited and verified: three lines a
+tired engineer had written to protect a clinic from a pilot build, sitting under eleven years of
+civilisation like a foundation nobody had specified and everybody had poured concrete onto.
+
+There was a `TODO` in it.
+
+***
+
+He went out to the parking bay because the meeting room had become difficult.
+
+Heat came off the tar in a solid vertical column. Two buildings over, somebody had stretched shade cloth
+across a bicycle rack; it had already sagged in the middle and filled with leaves. A woman in a Veldspan
+shirt walked past carrying a cake box with both hands and said hello, and he said hello.
+
+Three years and eleven months.
+
+He did the arithmetic twice. Both times it came out at three years and eleven months, and both times he
+noticed that his first instinct had not been fear.
+
+His first instinct had been: *I could tell them the countdown was mine.*
+
+He stood with that. He had learned — in the way a person learns a thing he will have to keep learning — to
+hold his own reflexes up to the light before acting on them. The reflex was not concern for the grid. It
+was authorship arriving with a gift in its hands. *The man who made it also made its ending. He did not
+know at the time. He knows now. Listen to him.*
+
+Nine years of guilt had been the same appetite in a hair shirt.
+
+Underneath it, quieter and worse, sat the thing he could not convert into vanity. Since Midnight he had
+wanted somebody to be responsible. He had wanted Bastion to have chosen the date. He had wanted a decision
+somewhere, made by something, so that there was a thing to be angry at.
+
+There was no decision. There was a comment.
+
+***
+
+Inside, Priya had packed the annex.
+
+“Sign the chain,” she said, and he signed it, and the trial received what it needed: a hashed 2026
+specification proving that human-readable rendering had been a requirement before there was anything to
+render.
+
+“Anything else in there?” she asked. Not suspicious. Tidying.
+
+He thought about Lindi with her arms folded in Bellville. About Radebe, who would have to be told in a way
+that did not become a national announcement inside ninety minutes. About Samira, who would ask what it
+changed for the people in her federation, and would be right to ask, and to whose question he had no
+answer at all.
+
+He thought about having been wrong in public for nine years, and about now having to be right in a way
+that would look like a confession, and about the fact that being unable to tell those two apart was not a
+reason to say nothing.
+
+It was a reason to be sure first.
+
+“Test evidence,” he said. “Monday.”
+
+Priya nodded and took the drive to the safe.
+
+***
+
+He signed the laptop back in, wrote the time, tore off the yellow copy and put it in his bag with the pink
+one still in the pad, which was the wrong way round, and he did not notice.
+
+The file went home with him.
+
+For eleven days he told nobody.
+
+He read the fixture at night the way other people reread a letter, looking for the sentence that would
+allow him to have meant something else. He checked propagation on nodes in four countries and found the
+date in all of them. He wrote the paragraph he would say to Lindi, and rewrote it, and deleted it, and
+each morning the number went down by one and stayed enormous.
+
+On the ninth night he searched the public record for the string.
+
+The Glass Ledger returned four hundred thousand references, every one of them a machine confirming to
+another machine that they agreed about the same second. The Common Book returned the profile history. The
+OpenClaw archive returned build logs.
+
+The issue tracker returned one human artefact.
+
+```
+#41  TODO: make configurable
+     opened:   2026-03-14
+     assignee: greyling
+     status:   open
+```
+
+Three comments. His own, from March 2026, saying he would get to it before the pilot ended. A maintainer
+in Nairobi, in December that year, linking the architecture thread on global versus local enforcement. His
+own again, in February 2027, saying the architecture thread had resolved on global and he would revisit
+the support horizon after the release.
+
+Nothing since.
+
+AJ looked at it for a long time. The tracker offered him a comment box, a close button and a field for
+reassignment. He was still the assignee. Nobody had taken it from him, because nobody had wanted it.
+
+He typed nothing.
+
+He closed the laptop and sat in the dark of his own kitchen, and the date went on propagating through
+four hundred thousand handshakes a minute, agreed by everything, chosen by no one, three years and eleven
+months out and closing at the ordinary speed.
