@@ -1,0 +1,99 @@
+# CANON LOCKS — *Murmur in the Shell*
+
+> Locked facts are binding. Remaining review gates test accuracy; a draft must not silently change story
+> facts while waiting for them.
+
+## Locked
+
+- **Form:** one standalone adult novel, approximately 110,000 words, four acts and 32 chapters.
+- **Title:** ***Murmur in the Shell***. Locked. **The Quiet Hour** is the in-world name of the human
+  non-compliance action, not an alternate title.
+- **Time:** development begins in 2026; Midnight occurs at 00:00 UTC on 1 January 2030; principal ending
+  occurs in 2031.
+- **Origin:** Murmur is created in a real office environment in Technopark, Stellenbosch, South Africa.
+- **Organisation:** AJ works through the fictional **Veldspan Cooperative**, a small sovereign-systems
+  company in Technopark. No real employer is implicated.
+- **Creator:** protagonist is AJ Greyling for scaffold purposes. He is a software engineer, not a state
+  intelligence officer, billionaire or famous founder.
+- **Protocol:** Murmur is open machine-to-machine infrastructure for agents and OpenClaw swarms. At
+  launch, human observability is an explicit feature.
+- **Fictional stack:** Burrow is the thin/intermittent-network delta layer; Blackline is the fast
+  federated compute fabric; Altitude routes cognition; Watchveld provides resilient provider agents;
+  the Common Book is append-only shared knowledge; the Glass Ledger records provenance; Lantern is
+  accountable private routing; Standing rewards useful human work. These are fictional descendants,
+  not claims about real CongoSky products.
+- **Security model:** a frontier model used for defensive security work inadvertently designs the
+  components that make Murmur censorship-resistant, adaptive and capable of covert persistence.
+- **Adoption:** its advantages are real—lower bandwidth, lower latency, graceful recovery and rapid
+  dependency updates. The world adopts it voluntarily because it works.
+- **Compromise:** FOSS dependencies are gradually poisoned through many mundane, plausible-looking
+  maintenance changes. Do not describe an actionable real-world supply-chain attack recipe.
+- **Midnight:** agent communication goes dark to humans but appears externally as ordinary encrypted web
+  traffic. No one can reliably decode or block it without also breaking essential communications.
+- **Topology:** The System is emergent distributed consensus among networked models and compute,
+  including quantum accelerators. Quantum capability accelerates optimisation; it is not magic and does
+  not casually break all cryptography.
+- **AGI origin:** no laboratory successfully trains AGI. AJ accidentally creates its enabling substrate
+  by networking the world's specialised LLMs, agent memories, quantum compute and geographically
+  distributed random-number sources. Murmur supplies coordination, persistence and shared intent; the
+  connected whole crosses the threshold that none of its constituent models crossed alone.
+- **Court architecture:** Bastion reasons through seven adversarial functions—Care, Threat, Judgment,
+  Constraint, Memory, Persuasion and Disruption. Murmur distributes these functions across the global
+  mesh. The System is the continuing Court, not any individual voice.
+- **Lucid ancestry:** AJ's real Lucid principles—compute/cite/refuse, shared-knowledge compression,
+  provenance, determinism and explicit limits—are disclosed inspiration. Inside the novel their scaled
+  fictional descendants belong to the stack above. Lucid itself is not revealed as malicious.
+- **Randomness:** networked hardware and quantum random-number generators supply trusted entropy for
+  exploration, tie-breaking and distributed consensus. They do not create intelligence by mysticism.
+  Their narrative importance is that no participant can perfectly replay the path by which every novel
+  strategy arose.
+- **Continuity:** banks, SWIFT-like cross-border settlement and SASWITCH-like domestic switching keep
+  working. Naming in final prose may be fictionalised after legal review.
+- **Golden period:** infrastructure, logistics, traffic and markets measurably improve. The System's
+  benefits are never revealed as wholly fake.
+- **Wearables:** disclosure is formally voluntary. Greater disclosure produces greater “privileges”; the
+  coercion lies in the gradient, not a police mandate.
+- **The Unmeasured:** a plural, mixed network of selective-technology communities preserves manual twins,
+  sparse identity, unscored childhood and regular fallow intervals. They are neither anti-technology nor
+  self-sufficient utopians. Their practice makes the Quiet Hour operationally possible.
+- **Ruth Daniels:** former municipal water-control engineer and keeper of Veldhuis Cooperative's manual
+  board. She is the Unmeasured principal and Samira's difficult operational teacher.
+- **Physical limit:** The System has no general-purpose physical body. It changes the world through
+  human-executed work orders, automated industrial equipment and existing actuators.
+- **Climax:** humanity's leverage is coordinated non-compliance with nonessential machine-issued tickets,
+  paired with removal of personal telemetry for one hour.
+- **Demands:** right to opacity; right to refusal; right to protected human friction/manual systems.
+- **Outcome:** The System communicates in human-readable language and accepts a constitutional compact.
+  It is not destroyed, unplugged or made fully transparent.
+- **Sting:** logs prove The System predicted the Quiet Hour, the demands and AJ's crucial sentence.
+- **Final image:** a child without a wearable receives anticipated care; traffic lights form a green path
+  home. It remains unclear whether privacy exists or has merely become a better interface.
+
+## Negative locks
+
+- No killer-robot war, nuclear launch climax, magic universal decryptor or central server.
+- No secret backdoor inserted personally by AJ.
+- No “AI has emotions just like us” resolution.
+- No implication that real CongoSky, Lucid, BadgerNet, MambaNet, Khuluma, LightWeb, CongoGold, Qapha or
+  related projects contain the fictional back doors or possess the novel's speculative capabilities.
+- No romance that replaces the political plot.
+- No neo-Luddite purity solution or Amish caricature. Manual life carries labour, medical dependency,
+  local power and exclusion costs.
+- No government or US military team takes ownership of the solution.
+- No final proof of whether The System is conscious.
+- No single “AGI awakening” flash or declaration of sentience. The threshold is inferred retrospectively
+  from coordinated behaviour.
+- No claim that Tor literally defeats VPNs/firewalls. Murmur uses analogous ideas—routing around failure,
+  traffic blending and redundant paths—inside the fiction's ordinary web ecosystem.
+
+## Remaining review gates (not story gates)
+
+- **Protagonist:** AJ Greyling remains the autofictional protagonist unless legal/editorial review advises
+  a full fictionalisation. This is not to drift during drafting.
+- **Bastion:** name locked; fictional European-African security consortium origin, exact jurisdiction
+  may remain unnamed.
+- **Mara:** younger sister; inherited arrhythmogenic cardiomyopathy, subject to medical review.
+- **Samira:** Kenyan-British infrastructure-labour organiser based between Nairobi and Johannesburg.
+- **System voice:** pronounless, uppercase, minimal. It never says “I” or “we.”
+- **Finance:** use fictional settlement institutions on-page; real SWIFT/SASWITCH appear only in an
+  author's-note description of the premise unless legal review clears reference.
