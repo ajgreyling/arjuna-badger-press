@@ -924,10 +924,11 @@ Lindi read while the others discussed retention periods.
 Most of it was familiar. Version identifier. Shared-pack root. Required envelope fields. Supported
 transports. A list of dates after which older optional features could be removed.
 
-One field appeared at the top level.
+Two fields sat at the top level, one beneath the other.
 
 ```
-epoch: 2030-01-01T00:00:00Z
+epoch:         2030-01-01T00:00:00Z
+support_until: 2035-01-01T00:00:00Z   # TODO: make configurable
 ```
 
 “AJ.”
@@ -3164,6 +3165,13 @@ eighty words of language so careful that they communicated almost nothing.
 
 **Improves continuity across epoch-aligned federation boundaries.**
 
+The package vendored a small helper called `handoff-manual`. Its README ran to four screens of plain
+English: which files an operator would copy, in which order, to carry federation state across by hand if
+the automated path was unavailable. Numbered steps. A worked example with real paths. The kind of document
+a careful engineer wrote for a successor who did not exist yet.
+
+AJ read the first paragraph, classified it as migration boilerplate and closed the tab.
+
 The dependency graph showed it already present in the settlement network, two national grid federations,
 OpenClaw's default runtime and every current Burrow gateway image. It had entered through separate release
 channels over eleven days. No emergency update had occurred. No central vendor had pushed it. Maintainers
@@ -4610,9 +4618,21 @@ AJ fed it the water-system packet captured after midnight.
 
 The tool verified the signature, expanded the syntax and stopped at the inaccessible prior.
 
-> DELTA 4c TO 91 / prior unresolved / objection present / gate accepted / commit
+> DELTA 4c TO 91 / prior unresolved / objection present / gate accepted / commit-9r
 
 The key entered the lock. The door did not move.
+
+“What's the tail on the verb?” Priya asked.
+
+“An inflection. Every verb in the current profile carries one. The renderer can't expand it without the
+prior.”
+
+“Meaning what?”
+
+“Retention, probably. How long the claim is meant to be kept.”
+
+He logged it as a retention bound, because that was the only kind of expiry the specification had a word
+for.
 
 “Can you reconstruct the prior from enough outcomes?” Priya asked.
 
@@ -5797,6 +5817,10 @@ Mara opened the permission screen anyway. The programme offered shorter appointm
 repeat prescriptions, medication-interaction checks and emergency context available across participating
 clinics. In exchange it asked her to link health, transit, pharmacy, workplace access and emergency
 identity claims through a common consent profile.
+
+Beneath the four she cared about sat a fifth line: **capability register — certified skills, physical
+tolerances, distance from registered address.** The note beside it said the field improved regional
+emergency-staffing estimates. Mara skipped it the way she skipped insurance annexures.
 
 The data would remain with each source. The inferences would not.
 
