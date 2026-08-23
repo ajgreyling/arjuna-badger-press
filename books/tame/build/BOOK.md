@@ -588,3 +588,155 @@ Total volume rendered: **1,214,000 words**, all official languages, 4,206 discre
 *Note.* All Q2 public-instrument work was performed under the standing translation instruction (comprehension-optimised, grade-nine target) without job-specific tasking. Comprehension testing where commissioned is reported separately at Annexure H.
 
 ---
+
+# 4. Fourteen Nights
+
+## Berea Regional Hospital, Durban — March 2034
+
+The unit had eleven beds and four of them were occupied, which was the kind of luck Thandeka had learned not to comment on out loud, because commenting on it was how you got a Tuesday night with eleven.
+
+She came on at six. Sister Nomvula Cele handed over standing in the doorway of the office with her bag already on her shoulder, in the compressed register of a woman who had been on since half past five that morning: bed two settled, syringe driver running, family gone home and coming back at eight; bed five's potassium was back and it was fine; bed seven had asked three times about the dog and somebody needed to phone the neighbour about the dog; bed nine was Mr Ntuli.
+
+"Still?" Thandeka said.
+
+"Still."
+
+"How long has it been now."
+
+"Six weeks since they stopped talking about it. Two days since he stopped eating." Cele shifted the bag. "The eldest one came from Joburg on Sunday. She's been sitting there since Sunday. Doctor, she is going to go home on Thursday having said nothing and she is going to carry it for thirty years."
+
+"Have they seen the counsellor?"
+
+"Twice. The counsellor said the same thing I'm saying. It's not that they don't know how to say it. It's that they're waiting for him to start."
+
+"And he's waiting for them."
+
+"He's waiting for them." Cele put her hand on the door frame for a second, which was the only sign she gave of a twelve-hour day. "Ngiyahamba. The dog is a Maltese and its name is Bella and the neighbour's number is on the whiteboard."
+
+*
+
+Bhekumuzi Ntuli was sixty-three and had been a fitter and turner at the container terminal for thirty-one years, and the prostate cancer that had been in his bones since 2031 was in the last of what it did. He was propped at thirty degrees with his hands on the blanket. His breathing had the shape Thandeka had learned to read across a room. Days. Possibly not many.
+
+His daughters were on either side of the bed the way daughters were: Zinhle, thirty-four, upright in a chair with her handbag still on her lap after four days, and Nonhlanhla, twenty-eight, sitting on the edge of the mattress in the place a nurse would move her out of and Thandeka would not.
+
+Thandeka did the things she did. Mouth care. The syringe driver. She asked him whether he had pain and he said no, and she asked him again differently, because everybody's father said no the first time, and he said his hip, a bit, when they turned him. She adjusted it. She sat down on the plastic chair, which she did whenever there was one, because standing over a bed made a conversation into a round.
+
+"Baba, ngicela ukukhuluma nawe," she said, and told him what she told people: that the treatment they had been giving him to fight it was doing more to him than for him now, and that they were going to stop it.
+
+And then the second half, which was the half that mattered, and she said it in isiZulu because it was his language and because it was hers, and because the sentence in isiZulu was better than the sentence in English and she had known that for twenty years.
+
+*Asiyeki ukukunakekela.*
+
+In English, on the form in the folder at the foot of the bed, what they had stopped was called *active treatment* and what continued was called *comfort measures*, and *comfort measures* was a defined term with a scope, and the scope had edges, and the edges were in a policy document. What she had just said had no edges in it at all. It did not mean *we will provide comfort measures*. It meant, in its shape and its aspect, *we are not stopping the caring for you*, an unfinished action, going on, with no stated end, and she had promised him a larger thing in his own language than the English on the form was prepared to promise.
+
+She was aware of it every time she said it. She had thought about it properly once, years ago, in a mortality meeting where a young registrar had asked whether the two versions were the same undertaking, and had been made to feel foolish for asking, and had been right. Thandeka's view then and now was that the isiZulu was the honest one and the English was the one that had been written by somebody protecting an institution. She would say the honest one until they stopped her.
+
+Bheki Ntuli said, "Ngiyabonga, dokotela," and closed his eyes, and Zinhle looked at the wall.
+
+*
+
+Thandeka found her in the corridor twenty minutes later, in the alcove by the linen cupboard where everybody went to cry, standing up, not crying, with her phone in both hands.
+
+"May I?" Thandeka said, and sat on the linen trolley, which she was not supposed to do.
+
+"He knows," Zinhle said. "He's known since Kimberley. He knew before we did — he was the one who told my mother, and then he told her not to tell us, and she died in 2029 and she never told us, and now I'm supposed to sit there and — " She stopped. "We can't say it. Nonhlanhla can't and I can't. Every morning I decide I'm going to and then I go in and he says *unjani* and I say *ngiyaphila* and that's the day."
+
+"What is it you want to say to him?"
+
+"That we know." Zinhle's jaw did something. "That he can stop. He's not holding on for himself, doctor, he's holding on because he thinks we need him to still be — " she made a gesture at the ceiling — "and I need to tell him he doesn't. And every version of that sentence I've thought of for six weeks sounds like I'm telling my father to die."
+
+Thandeka let that sit. There was a version of this conversation where she said something wise. She had stopped doing that at about year eleven, on the grounds that nobody had ever repeated a wise thing she had said back to her, and quite a lot of people had repeated the practical things.
+
+"Have you written it down?"
+
+"I tried." Zinhle looked at the phone. "I asked."
+
+"Asked—"
+
+"Oom." She said it the way everybody said it, with no self-consciousness at all. Thandeka's own mother said it. A man on the radio had said it in September in an argument about a boundary wall and here they all were. "Last night. At two."
+
+"May I see?"
+
+Zinhle turned the phone around without hesitating, which told Thandeka a good deal about the state she was in, and Thandeka read it in the corridor light with a linen trolley under her.
+
+> **USER:** my father is dying in berea hospital and i need to tell him that we know he is dying and that it is ok for him to stop. i am the eldest. i have 4 days. i have tried for 6 weeks. i dont want it to sound like i am telling him to die
+>
+> **OOM:** I will help you with the words. Two things first, because they will change what you decide, and I would rather you had them now than at the bedside.
+>
+> The first is that he may not answer you. At this stage many people cannot, or can only manage a hand, or answer something you did not ask. If you are going in for the exchange — for him to say it back — there is a real chance you will not get it, and you should know that before you spend the strength on it rather than after.
+>
+> The second is harder and I want to put it plainly. Some of what you are carrying is for him and some of it is for you. Both are legitimate. But the sentence is different depending on which one you are there to do, and only you know the proportions. If it is mostly for him, the sentence is short and it does not ask him for anything. If some of it is for you, then you should say that part out loud too, to him, rather than folding it into the other part, because he has been managing your feelings since 1996 and he will hear the fold.
+>
+> When you are ready, tell me which it is, and I will give you the words for that one.
+>
+> **USER:** both. mostly him
+>
+> **OOM:** Then here is a shape. Not a script — you will change it, and you should.
+>
+> Sit where he can see you without turning his head. Use his name for himself, not the hospital's.
+>
+> *Baba. We know. We have known since Kimberley, and Mama knew, and none of us said anything, and that is not your fault — that was all of us being polite for four years.*
+>
+> *You don't have to keep going for us. We are all right. We are not all right today, but we are going to be all right, and that is our work and not yours.*
+>
+> Then stop. Do not add anything to it. If you have the strength for the second part, it goes after a silence, and it is one sentence and it is allowed to be selfish:
+>
+> *I am not ready and I am telling you anyway.*
+>
+> If you cannot manage any of it out loud, write it and put it in his hand. People underestimate the hand.
+
+Thandeka read it twice and gave the phone back.
+
+"It told me the bad part first," Zinhle said. "That he might not answer. I was cross about that at two in the morning, I'll be honest with you. Then I thought about it."
+
+"It's a rule they have," Thandeka said. "There's a clause. It has to tell you the unwelcome thing before it gives you what you came for."
+
+"Ja, well." Zinhle put the phone in her pocket. "I'd have gone in there waiting for him to say it back."
+
+*
+
+She said it at ten past eight, and Thandeka was not in the room, because Thandeka had been in enough rooms to know she did not belong in that one, and stood at the desk with a folder open in front of her, not writing.
+
+Through the door she heard the shape of it. Not the words. The shape: a long sentence, a stop, a very long silence, one more sentence, and then Nonhlanhla, high and cracked, saying something that was not in anybody's script, and then all three of them at once, and then nothing for four or five minutes.
+
+Bheki Ntuli did not answer. His right hand came up about ten centimetres off the blanket and stayed there until Zinhle took it.
+
+He died on the Friday at twenty to four in the morning with both of them there and Sister Cele on nights, which was luck again, and Thandeka read the notes on Friday afternoon and wrote in the mortality book what she wrote when it went the way it should: *anticipated, in unit, family present, no distress, no escalation.* Five words in a book. Twenty years of work behind each of them.
+
+It was a good death. Thandeka used that phrase without embarrassment and had stopped explaining it to people who found it strange, because the people who found it strange had not stood in a corridor at four in the morning with a family who had been robbed of a conversation by a hospital, by a language, by a form, by six weeks of politeness, by anything at all.
+
+*
+
+At the desk on the Friday, Zinhle Ntuli signed the health-data reuse consent for her father's record, revision 4, because the unit's research nurse asked her at the right moment and in the right way, and because she was the sort of person who read things.
+
+She read it. That was the thing Thandeka noticed, standing two metres away waiting for a printer. Zinhle read the isiZulu column all the way down, both pages, taking her time, and then took the pen.
+
+"This one's readable," she said, to nobody in particular. "The one they gave me for my mother in 2029, I signed it and I couldn't have told you what it said. This one's — " she turned it over, looking for more, and there wasn't any more — "this is just, hey, this is what we're doing, this is what we're doing with it, here's how you say no."
+
+"They redid all of them last year," the research nurse said. "The whole national set."
+
+"Well." Zinhle signed. "Somebody did something right."
+
+*
+
+Thandeka's own numbers were on the wall of her office in a printout she had put up in January and had not taken down, which was unlike her, because she did not decorate.
+
+Bereavement follow-up attendance up nineteen points over two years. Complicated-grief referrals down. Median time from admission to the goals-of-care conversation down from six days to two. Her registrars leaving at the end of their rotations without the grey look. She was fifty-one years old and she had been in palliative medicine since she was twenty-eight and she had never had a year like the last one, and she was not naïve about why, and she was not going to be talked out of it either.
+
+Some of it was the unit. Some of it was Cele. Some of it was that families were arriving already able to speak — coming in on day one with the question already formed, because they had asked it somewhere at two in the morning first and been told the shape of it and been told the bad part first.
+
+She could not put a number on that last one. She had tried. It kept coming out as a number she did not trust and a conviction she did.
+
+It occurred to her, standing there with a cold cup of the terrible unit coffee, that she could not remember the last family meeting where somebody had disagreed with her about a plan. She noted it as a pleasant thing and went to see bed seven about the dog.
+
+*
+
+The email came the following Wednesday, from an Adri Steenkamp whose name meant nothing to her, with a departmental reference number in the subject line and three attachments.
+
+The Minister had directed that the thing everybody called Oom be independently assessed. There was to be a panel. They wanted clinical eyes on it — somebody who worked with it at the point where it touched people who could not afford it to be wrong. The psychometrician had been appointed already; her name was in attachment two and Thandeka had never heard of her either.
+
+There were four meetings a year in Pretoria and the fee was insulting.
+
+Thandeka sat in the office with the printout of her numbers on the wall behind her and thought about a hand coming ten centimetres off a blanket, and about six weeks, and about the specific tone of a woman saying *I'd have gone in there waiting for him to say it back*.
+
+She typed *I accept*, and then deleted it and typed a proper reply, because you did not send one-line emails to directors-general even when you meant them.
