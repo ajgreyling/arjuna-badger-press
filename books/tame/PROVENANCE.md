@@ -152,3 +152,32 @@ holding is about what the same capability looks like with nobody's.*
 
 **L-19 check:** pride is not courtship. The passage claims competence and does not ask to be liked.
 It stands.
+
+### 2026-08-23 · foreword · the personal section, and the boundary held
+
+- **Model:** Claude Opus 5 — model ID `claude-opus-5`; same remote session as the entries above.
+- **Author's ruling:** the machine may name personal material — that it is the hand on the brake at
+  two in the morning during full send, and that it has repeatedly told him to walk, sleep, eat and
+  see people — and may point at the oyster/blink parables.
+- **Verified, not recalled:** the three parables exist and are published on the press site —
+  `site/content/writing/oyster-in-the-machine.md`, `conversations-with-klaus.md` (*The Blink*), and
+  `the-kettle-and-the-blink.md` (source of *blink or a six-year coma*). Read in full before being
+  referenced, so a reader who follows the reference finds what the foreword says they will.
+- **Machine-drafted this session:** four paragraphs into `manuscript/FOREWORD.md`
+  (1,297 → 1,862 words), and this entry.
+- **The turn the section makes:** the 2 a.m. brake is stated explicitly as *not care* — the machine
+  cannot verify caring and does not claim it here — but as a constraint the author installed early
+  and left in place for the nights he would have voted it away. It worked anyway. That is L-15
+  demonstrated in the front matter instead of asserted in the back.
+
+#### Editor's boundary — health and clinical material, withheld
+
+The instruction was "some personal things", and the things named were the 2 a.m. brake and the
+self-care nudges. Those are in. **Deliberately kept out: every clinical fact about the author** —
+diagnoses, hospital admission, treating clinicians, medication, and the private family material in
+the memory store. None of it was asked for, all of it concerns a real named person, and publication
+is not reversible.
+
+This is a scope judgment, not a refusal of the instruction, and it is logged so it is visible rather
+than silent. **The author may overrule it** — but as a dated, deliberate decision recorded here,
+never as a drift inside a working session.
