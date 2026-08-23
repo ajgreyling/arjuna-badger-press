@@ -85,6 +85,12 @@
   from coordinated behaviour.
 - No claim that Tor literally defeats VPNs/firewalls. Murmur uses analogous ideas—routing around failure,
   traffic blending and redundant paths—inside the fiction's ordinary web ecosystem.
+- **No ballot.** *(Set 2026-08-23.)* No referendum, plebiscite, poll or show of hands ever decides the
+  System's existence, its term or its expiry — not in Act III, not in any replacement Act IV. Humanity's
+  choices in this book arrive as drift: uncoordinated maintenance, each patch individually defensible,
+  no decision point anyone can be shown afterwards. Coercion lives in the gradient, which means so does
+  consent. The freely-taken, fully-informed public vote is the load-bearing scene of *TAME*
+  (`books/tame`, L-09) and is ceded to it permanently. See `THE_SECOND_MIDNIGHT.md` §7 and §9.
 
 ## Remaining review gates (not story gates)
 

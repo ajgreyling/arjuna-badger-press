@@ -181,3 +181,38 @@ is not reversible.
 This is a scope judgment, not a refusal of the instruction, and it is logged so it is visible rather
 than silent. **The author may overrule it** — but as a dated, deliberate decision recorded here,
 never as a drift inside a working session.
+
+### 2026-08-23 · canon · the shelf boundary with *Murmur in the Shell*
+
+- **Model:** Claude Opus 5 — model ID `claude-opus-5`, as reported by this session's own environment,
+  not from the model's recollection of itself. Local session, `arjuna-badger-press`, working from the
+  rebased `master` (the TAME scaffold was authored on `origin/master` earlier the same morning and had
+  not yet reached the local tree).
+- **What prompted it:** the author asked whether TAME and *Murmur in the Shell* — both begun within
+  hours of each other — overlapped enough to be combined into one stronger novel.
+- **Finding, verified against both canons rather than asserted:** the surface kinship (near-future SA,
+  an intelligence nobody designed, no ruling on consciousness) is ordinary shelf overlap. The real
+  collision was one scene. Murmur's proposed Act IV climax, `THE_SECOND_MIDNIGHT.md` §7 as first
+  drafted, was a public, legitimate, fully-informed vote freely declining offered friction — which is
+  **L-09**, this book's entire spine.
+- **Recommendation, and the author's call:** do not combine. Four structural blockers, of which the
+  binding one is L-17 against Murmur's autofiction — the two cannot share a universe without breaking
+  this book's guarantee against keying to real systems and persons. Murmur cedes the vote; TAME keeps
+  it. Approved by the author, "full send", same session.
+- **Machine-drafted this session:** the revisions to `books/murmur-in-the-shell/canon/THE_SECOND_MIDNIGHT.md`
+  (§2, §6, §7, §8, §9, §10 and the header note), the new negative lock in Murmur's `CANON_LOCKS.md`,
+  the *Shelf adjacency* section and L-20 in this book's `CANON_LOCKS.md`, and this entry.
+- **Not touched:** no prose exists in this book yet and none was written. No lock L-01–L-19 was
+  changed, weakened or reinterpreted.
+
+#### For The Refusals appendix — the smoother version, declined
+
+The agreeable answer to "should we combine?" was **yes**: it flatters the author's instinct, it
+resolves an awkward duplication in one move, and it costs the machine nothing to recommend. It was
+wrong, and expensively so — Murmur is 32 chapters and roughly 66,000 drafted words against this
+book's zero, so a merge would have meant demolishing the finished thing to feed the scaffold. The
+answer given was the unwelcome one, with the reasoning shown so it could be checked and overruled.
+
+Logged here because L-16 requires the places where the machine produced the more pleasant version
+and it was cut — and because a book arguing that friction must survive being unpopular should be
+able to show its own.

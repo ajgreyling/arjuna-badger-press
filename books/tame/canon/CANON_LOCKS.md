@@ -92,3 +92,29 @@
     and a reading instruction, not a preview. Vetting it for spoilers is a release gate.
   - It must not be charming. Any draft of it that courts the reader's affection has demonstrated
     the book's thesis in the worst available place and is cut.
+
+## Shelf adjacency — *Murmur in the Shell*
+
+> *(Set 2026-08-23. Logged here because the collision was found the same day both books were, and
+> a boundary that only lives in someone's head is a boundary that gets crossed twice.)*
+
+`books/murmur-in-the-shell` is a near-future South African novel about an emergent machine
+intelligence that does not resolve the consciousness question. So is this. That much is one author's
+preoccupation and is fine. The collision was narrower and worse: Murmur's proposed Act IV climax
+(`THE_SECOND_MIDNIGHT.md` §7, as first drafted) was a public, legitimate, democratic vote in which a
+fully-informed majority freely declined the friction it had been offered. That is **L-09**, entire.
+
+- **L-20 · The free vote is this book's, exclusively.** Murmur has ceded it — its ending now arrives
+  by drift, with no ballot and no decision point, and it carries a negative lock saying so. Nothing
+  in TAME needs to move. But the scene may not be softened, shared, or hedged here on the grounds
+  that it appears elsewhere on the shelf, because it no longer does.
+- **The differentiators stay loud.** A reader who reads both must never feel the doubling. Not by
+  hiding the kinship — by making these unmissable and early: Nel is not the author (Murmur is
+  autofiction; this book is L-17 composite by construction); Oom is **found**, not built or released;
+  there is no escalation, no mass action, no antagonist-shaped machine and no thriller architecture;
+  the machine has no voice and no POV (L-12) where Murmur's System speaks; the ending is **pleasant**
+  (L-14) where Murmur's is a loss; and the matter architecture (L-19) belongs to this book alone.
+- **Release sequencing.** Not back to back, and not adjacent on any shelf, list or recommendation
+  rail. This is a marketing-side instruction, not a story gate — but the story gates above are what
+  make it survivable if it is ignored.
+

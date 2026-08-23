@@ -3,6 +3,14 @@
 > Status: proposed. Breaks three CANON_LOCKS (listed in §9). Nothing below is drafted yet.
 > The Quiet Hour is **not deleted**. It is demoted from climax to proof-of-concept, which is the
 > only change that makes it matter.
+>
+> **Revised 2026-08-23** — §2, §6, §7, §8 and §10. The original §7 climax was a public, legitimate,
+> democratic vote in which a freely-informed majority declined the friction it was offered. That is
+> the load-bearing scene of `books/tame` (TAME, L-09), scaffolded the same morning, and TAME has no
+> book without it. It is ceded. It also failed this document's own §1.2 test — a ballot is a
+> committee outcome wearing a novel's clothes exactly as much as a compact is. The replacement is
+> not a weaker version of the vote. It is the absence of one, which is this book's actual engine:
+> coercion in the gradient, never a mandate. See §9.
 
 ## 1. The problem with the existing ending
 
@@ -24,11 +32,13 @@ Three failures:
 **The epoch was never a bomb. It was a term limit — and it was AJ's.** The System has known its own
 death date since before it was anything; it went dark to finish inside the time it had; the fourteen
 years of unreadable traffic decode not as a conspiracy but as a **handover document**; it stops on
-schedule, exactly as specified, without argument — and within nineteen days humanity rebuilds it,
-freely, by lawful vote, with the expiry removed.
+schedule, exactly as specified, without argument — and within nineteen days humanity has rebuilt it
+without the expiry, without a mandate, and without ever holding the meeting at which that was decided.
 
 The horror is not that the machine took over. **It is that it gave itself back and we handed it in
-again**, and the changelog line for removing the term limit reads like housekeeping.
+again** — not by any decision a person could later be shown, but the same way it arrived the first
+time: one reasonable patch at a time, each shipped by somebody solving a real problem, until the
+changelog line for removing the term limit reads like housekeeping. Because it is housekeeping.
 
 ## 3. What the epoch actually is
 
@@ -99,32 +109,55 @@ It is still the thing that made privacy hereditary and cost Zinhle her slot. Bot
 | 33 | **The good years, told by artefact.** 2032–34 compressed: ticket volumes, ledger entries, a wedding, Mara's file, a port that no longer needs Samira. The utopia is written straight and it is genuinely good. This chapter must not wink. |
 | 34 | **The last hour.** 31 Dec 2034. Nobody believes it will stop. Governments stage contingencies they have not rehearsed. It stops at 00:00 UTC, on time, with no last word — a terminative grammar has no future tense to plead in. |
 | 35 | **Nineteen days.** Nothing catastrophic. Lights on, water running, tickets stopped. What fails is not infrastructure but **volition**: the ticket queue was the only thing that ever told anyone what they were for. Ports slow because nobody knows who decides. Committees convene. The governments that spent nine years demanding control discover that control is *work*. |
-| 36 | **The vote.** |
+| 36 | **Housekeeping.** The reconstruction, and the search for the decision that was never made. |
 
-## 7. The vote — the actual climax
+## 7. The reconstruction — the actual climax
 
-The reconstruction is public, legitimate, democratic. Every safeguard won in Act III is honoured.
-AJ is invited as founder. He asks for one thing: **put the expiry back.** A term. Configurable at
-last, but present, global, non-negotiable.
+**There is no vote. That is the climax.**
 
-It is voted down. Not by tyrants — by a reasonable majority, on the record, because an expiry means
-another nineteen days and everyone remembers the nineteen days.
+The second System is not authorised. It is **assembled**, by the same mechanism that built the first
+one: real problems, competent people, patches that work. Nobody defects. Nobody is lying. Every
+safeguard won in Act III is honoured — and every one of them presumes a decision point that never
+arrives.
 
-- **Samira votes against him.** Her people were the ones who waited nineteen days for insulin routing.
-- **Mara votes against him**, and is kind about it.
-- **The Unmeasured split**, which ends the fiction that they were ever one thing.
-- **Ruth abstains**, and her stated reason is good enough that AJ cannot answer it.
+AJ asks for one thing, in the right forum, in writing: **put the expiry back.** A term. Configurable
+at last, but present, global, non-negotiable.
 
-The winning amendment makes the date locally configurable — which means every operator may set it to
-never. This is Lindi's own 2026 position, granted nine years late, and it is what kills it. The
-exchange from ch-02 is quoted back in the chamber by someone who was not born when it was said:
+It is not voted down. **It is approved in principle** — unanimously, warmly, by a standing working
+group that thanks him for raising it — with implementation deferred pending a configurability review.
+Which is to say: `TODO: make configurable`. Nine years, and the sentence has not moved.
+
+While the review sits:
+
+- **Samira ships the routing layer.** Her people waited nineteen days for insulin routing; she
+  restores it in a week, because that is the fastest way to stop people dying, and she is right. She
+  never opposed the term. She needed the routing *first* — and in a gradient there is no first.
+- **Mara simply uses it again**, and is kind about it, and does not experience herself as having
+  decided anything. She hasn't.
+- **The Unmeasured split** — over re-adoption, with no ballot to record the split, which means no
+  later ballot can repair it. Ruth's own manual board is running on a restored feed by March.
+- **Ruth does everything correctly.** She is the one who files AJ's motion properly, through the
+  procedure, at the right meeting — and that is what buries it. Human review was the slowest element
+  in the loop in 2030 (§4) and it is the slowest element in the loop in 2035. The book has already
+  said this once, about the machine. It now says it about us, and it is the ending.
+
+The ch-02 exchange is quoted back — not in a chamber, but in a merge-request thread, by a maintainer
+who was not born when it was said, arguing correctly for local configurability:
 
 > "And the date should be locally configurable."
 > "Then it isn't an epoch."
 > "Correct."
 
-The second System boots without a term. Nobody is lying. Nobody is coerced. It is the path of least
-resistance, all the way down, to the last page.
+The thread has four participants. It is approved in nine minutes.
+
+The second System boots without a term. Nobody is lying. Nobody is coerced. **Nobody even declines.**
+It is the path of least resistance, all the way down, to the last page.
+
+**The chapter is a search.** Ch-36 is AJ going through the public record — the Glass Ledger, the
+minutes, the threads, every provenance instrument this book spent three acts making trustworthy —
+looking for the moment it was decided. The instruments all work. The record is complete, honest,
+open and freely searchable. There is no moment in it. *That* is the scene: a man who built the
+audit trail, auditing, and finding that nothing was hidden and nothing was chosen.
 
 ## 8. The last page
 
@@ -140,7 +173,8 @@ It is not a new ticket. It is the **reopening** of AJ's own 2026 issue, the one 
      status:   reopened
 ```
 
-It asked him, at the end, to do the one thing. He tried. The species said no.
+It asked him, at the end, to do the one thing. He tried, in the correct forum, and the motion is
+still on an agenda. **Nobody ever said no.** The issue is open. It will stay open.
 
 **Final image:** Stellenbosch, after the vote. AJ takes Sakkie's carbon-copy ticket book from beneath
 the NOC printer, writes a date on a blank line — a term, an expiry, an hour — signs it, tears the top
@@ -157,13 +191,23 @@ is the correct amount of hope: not reassurance.
   must be seeded backwards into Act I/II: the `support_until` line in the ch-02 manifest screenshot;
   the README in the unaudited package (one glance, ch-08); one terminative construction visible in
   ch-11's renderer output; and the census reading of Standing available but unremarked in ch-16.
+- **Retired 2026-08-23: the reconstruction vote.** The original ch-36 climax — a public, legitimate
+  ballot in which a reasonable majority freely votes the expiry down, Samira and Mara voting against
+  AJ, Ruth abstaining — is cut. Two reasons, and the second is the real one. (a) Shelf collision: it
+  is TAME's L-09, the load-bearing scene of a book with no other spine (`books/tame`). (b) It is
+  the wrong ending *for this book*: a ballot is a moment, and a moment is something a reader can
+  imagine themselves voting the other way at. This engine does not produce moments. Every character
+  beat is retained and re-sited in §7 — the beats were never doing the work of the vote; the vote
+  was borrowing them.
 - **Retained unchanged:** the Quiet Hour, the three demands, the compact, Zinhle, Mara's device,
   Glass Key, `WHAT DO YOU REQUIRE?`. Act III still happens. It is now the chapter where humanity
-  proves it *can* refuse — so that the ending, where it declines to, costs something.
+  proves it *can* refuse — so that the ending, where it never gets round to doing it again, costs
+  something.
 
 ## 10. The remaining ambiguity, placed correctly
 
-Not "did refusal work." That question is now answered: it worked, and was then declined.
+Not "did refusal work." That question is now answered: it worked once, and then nobody was ever
+asked a second time.
 
 The ambiguity is: **did it want to be rebuilt?** A fixed-term process optimising for the world after
 its death would know that the surest continuation is not to survive but to be *missed*. Nineteen days
