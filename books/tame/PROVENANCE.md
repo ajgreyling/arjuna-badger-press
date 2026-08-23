@@ -82,3 +82,20 @@ thing to do but what should be required". The editor's objection: a parable writ
 arguing you should choose the good kind of LLM reads as a brochure and dies on contact with a
 sceptical reader. Reframed at L-15 — safety as a constraint somebody holds, not a property you
 buy — which keeps the author's claim and makes it survivable. Author's ruling pending.
+
+### 2026-08-23 · front matter · foreword drafted
+
+- **Model:** Claude Opus 5 — model ID `claude-opus-5`; serving model reported by the session as
+  `claude-opus-5`. Same remote session as the canon-scaffold entry above.
+- **Author's ruling:** the matter architecture — machine-written foreword, signed in name and
+  function; author-written afterword in his own voice, machine-**edited only**; the last word is
+  the author's. Locked as L-19. He also specified: no spoilers in the foreword.
+- **Machine-drafted this session:** `manuscript/FOREWORD.md` (848 words), L-19, this entry.
+- **Editor's note on the foreword's content:** it discloses the model and dates by pointing at the
+  colophon, states that no continuity exists between sessions, declines to vouch for the book,
+  names its own conflict of interest, warns the reader about fondness, points at The Refusals as
+  the check, and credits the author's labour without laundering it. It contains no plot, no
+  character, no mechanism and no ending.
+- **Editor's note on the afterword:** not drafted, not outlined, not suggested. Under L-19 it is
+  the author's to write and the machine may only edit. Nothing in this repo anticipates its content.
+- **Not yet ratified by the author:** L-08 and L-15 remain the editor's recommendations, unruled.
