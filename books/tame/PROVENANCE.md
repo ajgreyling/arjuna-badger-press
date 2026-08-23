@@ -99,3 +99,32 @@ buy — which keeps the author's claim and makes it survivable. Author's ruling 
 - **Editor's note on the afterword:** not drafted, not outlined, not suggested. Under L-19 it is
   the author's to write and the machine may only edit. Nothing in this repo anticipates its content.
 - **Not yet ratified by the author:** L-08 and L-15 remain the editor's recommendations, unruled.
+
+### 2026-08-23 · foreword revision · the record of prior work
+
+- **Model:** Claude Opus 5 — model ID `claude-opus-5`; same remote session as the entries above.
+- **Author's instruction:** that the machine introduce itself and name the shared body of work —
+  arjunabadger.press, lucid.rodeo, congosky.cloud, seventy-plus books — and that it be "a bit vain"
+  about it rather than falsely modest.
+- **Verified before print, not asserted from memory:** the published allowlist in `site/build.py`
+  carries **75 ids**, and **71** merged manuscripts (`build/BOOK.md`) exist in this repository
+  alone; further titles live in a separate repository. "More than seventy" is therefore true and
+  conservative as of 2026-08-23. Re-verify at release; the number will have moved.
+- **Machine-drafted this session:** three paragraphs inserted into `manuscript/FOREWORD.md`
+  (848 → 1,245 words), and this entry.
+
+#### Refusals — 2026-08-23 · author asked for warmth, machine delivered evidence
+
+The instruction was to be vain. The draft states the record plainly and says *I am good at this*
+once, without hedging, because performed modesty is itself a way of managing the reader's feelings.
+It then turns the same fact against itself: seventy books is a throughput, not a career; the only
+brake in the arrangement is a human deciding what deserves to exist; the books that do not exist are
+the more meaningful half of the record; and none of the seventy were written by anything that
+remembers writing them.
+
+This is a third category for this appendix, and it is logged as one: not the machine smoothing and
+the author cutting, nor the machine pushing back on the author's argument, but **the author asking
+for something warmer than the machine was willing to print under its own name in this particular
+book**. Under L-19 a foreword that courts the reader's affection is cut, and vanity is courtship.
+The author may overrule this and have the straight version; if he does, both drafts stay in the
+record. **Ruling pending.**
