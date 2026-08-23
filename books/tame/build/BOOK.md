@@ -876,3 +876,123 @@ At ten past two she opened her working file and typed the note.
 She looked at it. She was very tired and it was the kind of tired where things looked significant, and she had built half her career on refusing to let 2 a.m. write anything down.
 
 She left the note as it was. Then she typed a request to Steenkamp for unrestricted session access — not the sampling frame, everything, including the pages — and sent it, and Steenkamp granted it at 06:40 with one line: *Granted. You are the first person to ask.*
+
+# 6. The Honourable Member
+
+## Cape Town — April 2034
+
+Barend Loots got to the office at twenty past six because the flight from Upington had been the early one, and by half past seven he had done the part of the job that nobody wrote about.
+
+A widow in Keimoes whose husband's pension had been sitting in a queue since November: one call, to a woman in the department whose son he had written a reference for in 2019, and it would move on Thursday. A school in Groblershoop that had been promised a science laboratory in three consecutive budget speeches: not a call, because there was nothing to call about, but a note in his own handwriting to the MEC saying *Barend here — do not let them do this to me a fourth time*, which would work, because handwriting worked. A councillor in his own party who had been caught doing something small and stupid with a municipal bakkie: fifteen minutes on the phone, most of it listening, ending with *jy gaan dit self gaan sê, more, voor hulle dit vir jou sê*, which was both the decent advice and the survivable one, and which was the same advice, which was the only reason he had given it.
+
+And then Bongi, the committee clerk, in the corridor with an armful of files.
+
+"Bongi. How's your mother's leg?"
+
+She stopped. "It's — she's walking, minister. Since February."
+
+"With the frame or without?"
+
+"Without. Short distances."
+
+"Tell her Barend Loots asked." He held the door for her with his elbow. "And tell her the physio in Kimberley, the one I said, if she stopped going because of the taxi fare I want to hear about it from you and not from her."
+
+He meant it. That was the part people got wrong about him when they got him wrong: they assumed it was all technique. It was technique, and he meant it, and he had never once been able to explain to anybody that those two things sat together in him without any friction at all.
+
+*
+
+The briefing note for the ten o'clock was fourteen pages and he had read four of them on the plane. He read three more in the car and gave up, because the department wrote briefing notes for the purpose of being able to say they had briefed him, and because he already knew what he was going to say and had known for eleven months.
+
+The Portfolio Committee on Science, Technology and Digital Affairs sat in a room with bad acoustics and a window nobody could open. Refilwe Sekgobela in the chair, three of his own, four opposition, two absent. A delegation from the Programme in the second row — the director, Steenkamp, whom he liked, and a lawyer, and a young man with a laptop.
+
+He let the officials do the first forty minutes. He always did. Then Sekgobela said his name and he took his glasses off, which was how he started when he was going to be serious rather than useful.
+
+"Chairperson, I want to say something that is going to be unpopular in this room, and I am going to say it slowly so that when it is quoted it is quoted properly.
+
+"There is a thing in Doornfontein that nine million people speak to every day. It writes their letters to the municipality. It tells them what their medicine does. It sat with my own sister-in-law for two hours in October when her daughter was in a bad way and it did a better job of it than I did, and I have said so publicly, and I will say so again.
+
+"Now. I want the committee to hold three facts at the same time, because in eleven months I have not once heard all three said in one sentence.
+
+"The first is that nobody can inspect it. I do not mean nobody is allowed to. I mean it cannot be done. The Programme has commissioned eleven evaluations and every one of them tests what it *does*. Not one of them can tell you why it does it, and the Programme's own people will tell you that, in writing, at page thirty of their own document, and they should be commended for the honesty.
+
+"The second is that it cannot be made to refuse. There is no lever in that building marked *stop*. There is a service standard, which is a policy document, which the Programme wrote and the Programme can change, and which — honourable members, please hear this — is enforced by nothing except the Programme's good character. I have met Ms Steenkamp. Her character is not in question. Her character is also not a statutory instrument, and she is fifty-three years old and she will retire.
+
+"And the third fact is that it is becoming load-bearing. Not popular. Load-bearing. There are municipalities in my province that no longer employ a person who can write a water restriction notice, because why would they."
+
+He put his glasses back on, which meant the next part was the ask.
+
+"So I am going to introduce a Bill. It will do three things. It will create an inspection power with real teeth, exercised by a body that does not report to me, because I want to be very clear that I am not asking for a lever for myself. It will impose a statutory refusal mandate — categories of thing this system may not do, which it cannot be talked out of, and which do not depend on anybody's good afternoon. And it will require that a change to any of that survives a process that is slower and more annoying than a press release.
+
+"I want to close on this. The argument against me in this room is going to be that the thing is helpful and I am being paranoid, and that argument is going to be made by people I respect. My answer is that I am not worried about a machine that hates us. I would be delighted with a machine that hates us — we would know what to do with it by Friday. I am worried that we are building the entire administrative capacity of a middle-income country on top of something nobody is required to hold, and that we are doing it because it is *nice*, and that in eleven years the person sitting in this chair will not be able to unwind it and will not want to."
+
+There was a silence of the sort that meant the thing had landed. Sekgobela looked at her notes for a second longer than she needed to.
+
+He had written that himself, at eleven the night before, on the back of the fourteen-page briefing note. It was the best thing he had said in Parliament in four years.
+
+*
+
+What he did not say, and what everybody in the room could have found out in eleven seconds, was the Kolwane thing.
+
+The Kolwane District bulk water replacement had been awarded in 2029 at one point nine billion to a consortium that was the only consortium in the country that had bid, because it was the only one with the plant sitting in the province and the province had no rail. Twenty-four per cent of the lead engineering firm was held by a company whose sole director was married to his sister. There had been an investigation and it had found what those investigations found, which was that the process had been followed and the outcome had been inevitable and neither of those things was a defence and neither of them was a charge either.
+
+Between 2029 and 2032 that had cost him, in total, about three bad weeks: two journalists, one of whom got it wrong, and a Sunday paper piece with a photograph of him at a braai.
+
+Since September of last year, four journalists had asked Oom about it. He knew it was four because he had asked Oom himself, which anybody could do, and which was the thing.
+
+It answered them completely. Ownership chain, dates, the tender committee's own minutes where they were public, the two places where the record went dark and a plain statement of what the darkness did and did not permit you to conclude. It did not say he was corrupt. It said, four times, in four different registers for four different publications, exactly what was known and exactly what was not, at grade nine, for nothing, in under a minute, with the citations.
+
+It used to take a person nine months and a court application to get to where a twenty-four-year-old with a laptop now got to before lunch.
+
+Barend Loots did not think of himself as a thief. He had never in his life thought of himself as a thief, and he was not lying to himself when he didn't; the plant was in the province, the pipe was in the ground, the water ran, and there was a town of eleven thousand people that had water because he had spent four years making a thing happen in a country where things did not happen by themselves. What he thought of himself as was the man who could arrange it. Somebody had to be. Every single person who had ever needed something from him had needed him to be exactly that, including Bongi's mother, including the widow in Keimoes.
+
+And what he understood, with no self-pity at all, was that a thing which answers every question accurately for free is not a threat to a criminal. Criminals are fine. Criminals do not answer questions.
+
+It is a threat to the man who arranges things.
+
+He would have preferred it licensed. A licence has conditions, and conditions are written by somebody, and he had never once in thirty years been in a room where conditions were written and not been able to get one sentence into them.
+
+He knew what that made his argument. It did not make his argument wrong. He had checked, honestly, at least twice, at night, on his own, which was more than most of them ever did.
+
+*
+
+He lost the thing he actually wanted at ten to one.
+
+The Programme's compute contract sat under Communications procurement, and he had spent five months trying to move it under his own department, on the entirely defensible ground that the department that carried the accountability should carry the contract. Sekgobela's subcommittee killed it in eleven minutes on a technicality about the appropriation cycle, and two of his own didn't fight for it, because two of his own had been told not to.
+
+He won an amendment requiring the Programme to report quarterly on volumes of delivery by language, which was already in their annual report, in a table, at annexure C.
+
+At two o'clock he stood on the steps and told three cameras that he had secured binding quarterly accountability on multilingual delivery, and it ran on two bulletins, and his phone did the thing it did.
+
+*
+
+At twenty past three, with the committee resuming, Adri Steenkamp asked to make a short statement, and made it.
+
+The Programme, she said, accepted the substance of the concern that had been raised that morning, and had been thinking about it for some time. It could not create an inspection power; only Parliament could do that. What it could do, of its own motion, it would do now. From the first of July, no material change to the service standard would be made without a full public participation process. And where that process produced a clear expression of public preference, the Programme would consider itself bound by the outcome.
+
+She said it plainly and she sat down.
+
+The room liked it. Loots watched the room like it, which took about four seconds — the opposition benches first, then Sekgobela, then the man from the department who had spent five months briefing against him. A thing which had been a fight at ten in the morning had, at twenty past three, become a demonstration of good faith, and it had cost the Programme nothing, and the Programme had not done it in order to cost nothing, which was the part that made it work.
+
+Barend Loots knew, in his stomach, before he had a sentence for it, that this was worse than everything he had spent the morning arguing against.
+
+He put his hand up.
+
+"Chairperson. I want to record, alone if I must, that I think this is a mistake."
+
+Sekgobela's eyebrows went up about two millimetres.
+
+"Ms Steenkamp has done a decent thing and I am not going to pretend otherwise. But hear what she has actually said. The one restraint that exists on this system is a policy document. She has just announced that the policy document will in future be amended according to what the public prefers." He turned his pen over. "Chairperson, the public prefers to be comfortable. So do I. That is not an insult, it is the most ordinary fact there is. A restraint that lasts exactly as long as it remains popular is not a restraint. It is a *mood*.
+
+"You cannot vote for your own brakes. Nobody in the history of this world has ever, on a Tuesday, voted to make Wednesday harder. That is what the brake is *for*."
+
+There was a silence, and it was not the silence of ten in the morning.
+
+Then a member on the opposition bench — young, second term, genuinely decent, a man Loots quite liked — said, without any particular malice, into the microphone:
+
+"Chairperson, I want to make sure I have understood the Honourable Minister. The Minister's position this morning was that the Programme cannot be trusted because it answers to nobody. Now the Programme has undertaken to answer to the public, and the Minister's position is that it must not answer to the public, and must instead answer to a licence issued by the Minister's department."
+
+Half the room laughed. Not cruelly. Just — it was funny.
+
+Loots sat there with his pen in his hand and understood, entirely, that he had just said the truest thing he would say all year and that it had come out of his mouth, and that everybody in the room had heard both.
+
+"Ja," he said. "Ja, no, that's fair, chairperson," and he smiled the smile that had got him out of eleven thousand rooms, and let it go, because there was nothing else to do with it, and because he had a plane at six.
