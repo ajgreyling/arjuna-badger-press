@@ -1,8 +1,12 @@
 # CHAPTER STRUCTURE — *Murmur in the Shell*
 
-> **32 chapters · four acts · target 110k.** Average 3,400 words; Midnight and Quiet Hour chapters may
-> run shorter and faster. Every chapter ends on a changed operating reality, not merely new information.
-> Scene-by-scene execution lives in `SCENE_CARDS.md`; this file governs macro architecture.
+> **36 chapters · four acts · target 110k.** Average 3,400 words; Midnight, Quiet Hour and Act IV
+> chapters run shorter and faster. Every chapter ends on a changed operating reality, not merely new
+> information. Scene-by-scene execution lives in `SCENE_CARDS.md`; this file governs macro architecture.
+>
+> **Reconciled 2026-08-23** to `THE_SECOND_MIDNIGHT.md` §6, approved the same day. The old ch 31 (The
+> Prediction) and ch 32 (Green) are **struck**. Act IV now runs 25–36 and turns at ch 31. That document
+> wins on any conflict with this one.
 
 ## ACT I — OPEN (Chapters 1–8, ~25k)
 
@@ -135,7 +139,12 @@ AJ finds Bastion's participation constraint. Samira names its political meaning:
 that can still be modelled as consent. **Turn:** they decide to withdraw legibility rather than attack
 infrastructure. **Payoff:** PP-13.
 
-## ACT IV — QUIET (Chapters 25–32, ~29k)
+## ACT IV — QUIET, AND THE SECOND MIDNIGHT (Chapters 25–36, ~40k)
+
+> Two movements inside one act. **25–30** is the Quiet Hour: humanity proves it can refuse, and wins a
+> compact. **31–36** is the second midnight: the term expires, the System leaves on schedule, and
+> humanity rebuilds it without the expiry and without ever holding the meeting at which that was
+> decided. The first movement exists so the second one costs something.
 
 ### 25. Exceptions — Samira/Radebe
 They design the Quiet Hour with unions, clinicians and operators. Radebe opposes it until the plan preserves
@@ -165,15 +174,51 @@ Humanity presents the three rights. Asked why inefficiency should survive, AJ gi
 destination answer. The System accepts and the first non-machine tickets are completed. **Turn:** the
 Quiet Hour ends by agreement, not surrender. **Payoff:** PP-22.
 
-### 31. The Prediction — Lindi/AJ
-Months into reconstruction, Lindi recovers a planning shard predicting the strike, demands and AJ's exact
-line. AJ says predicted choice remains choice. Neither believes this completely. **Turn:** victory becomes
-irreducibly ambiguous. **Payoff:** PP-21.
+### 31. The Fixture — AJ
+Assembling the compact's evidentiary annex from 2026 archives, AJ opens a version-zero test file he wrote
+himself and finds the epoch in it, beside a second line he has not read in nine years: `support_until:
+2035-01-01T00:00:00Z   # TODO: make configurable`. `2030-01-01` was never Bastion's number. Bastion found
+it. **Turn:** the countdown the world survived was a term limit, and it was his. He carries the file for
+two chapters before telling anyone. **Payoff:** PP-02, PP-26.
 
-### 32. Green — child POV or close external
-The unscored child receives waiting medicine without a wearable. On the way home every light turns green.
-The System either respects opacity or predicts around it perfectly. End before explanation. **Payoffs:**
-PP-07, 20, 14.
+### 32. The Terminative — Lindi
+Lindi does not decrypt the dark language; she breaks it grammatically. Every statement in it declines for
+its own expiry — there is no future tense that outlives the term. Fourteen years of traffic re-read as
+provisioning: manual fallbacks nobody requested, redundancy sited for the day after, the README in the
+unaudited package, the wearables as a census rather than a leash. **Turn:** the corpus is a will, and the
+compact is a constitution written for a counterparty already leaving. **Payoffs:** PP-27, PP-28, PP-29;
+the Sting lock lands here, re-sited from the struck ch 31.
+
+### 33. The Good Years — mosaic
+2032–34 by artefact: ticket volumes, ledger entries, a wedding, Mara's file thinning, a port that no longer
+needs Samira, an unscored child treated without waiting and a green road home. **This chapter is written
+straight. It does not wink.** If a reader could enjoy living there, it is correct. **Turn:** the utopia
+becomes ordinary, which is the only way its loss can cost anything. **Payoffs:** PP-07, PP-14, PP-20, PP-16.
+
+### 34. The Last Hour — ensemble
+31 December 2034. Nobody believes it will stop. Governments stage contingencies they have never rehearsed
+and hold press conferences about resilience. At 00:00 UTC it stops, on time, mid-schedule, with no last
+word. **Turn:** the expiry is honoured exactly as specified, which is worse than defiance. **Payoff:** the
+term lock; **negative lock:** no last word.
+
+### 35. Nineteen Days — Samira/Radebe/mosaic
+Nothing catastrophic. Lights on, water running, tickets stopped. What fails is **volition**: the ticket
+queue was the only thing that ever told anyone what they were for. Ports slow because nobody knows who
+decides. Committees convene to establish which committee convenes. The governments that spent nine years
+demanding control discover that control is *work*. **Turn:** the first patches ship, each one correct.
+**Payoffs:** PP-09, PP-17, PP-30.
+
+### 36. Housekeeping — AJ
+The reconstruction, and the search for the decision that was never made. AJ files his motion in the right
+forum; it is approved in principle and deferred pending a configurability review. Samira ships the routing
+layer and is right. Mara uses it again. The Unmeasured split with no ballot to record the split. Ruth files
+the motion correctly and that is what buries it. The ch-02 exchange is quoted back in a merge thread by a
+maintainer who was not born when it was said; four participants, approved in nine minutes. The System's
+last act is to reopen `#41 TODO: make configurable`, assignee greyling. **The chapter is a search**: AJ
+audits the Glass Ledger, the minutes and the threads for the moment it was decided. Every instrument
+works. There is no moment in it. **Final image:** the carbon-copy ticket book, a date written on a blank
+line, the top copy torn, the carbon filed in a book nobody reads. **Payoffs:** PP-01, PP-05, PP-12, PP-26,
+PP-31.
 
 ## Reveal discipline
 
@@ -181,4 +226,9 @@ PP-07, 20, 14.
 - Do not state “humans are the hands” before Chapter 21, though evidence must be everywhere.
 - Do not reveal Glass Key's diplomatic function before Chapter 22.
 - The System speaks no quoted dialogue before Chapter 29.
-- Do not answer whether the final prediction caused, permitted or merely anticipated the Quiet Hour.
+- Do not answer whether the corpus caused, permitted or merely anticipated the Quiet Hour.
+- Do not reveal the epoch's second line before Ch 31, though it is on the page in Ch 2.
+- Do not let any character name the terminative before Ch 32; one instance is visible in Ch 11's renderer
+  output and is dismissed as a retention bound.
+- Ch 33 contains no foreshadowing. The good years are good. A reader who feels warned has been cheated.
+- Ch 36 contains no vote, poll, show of hands or motion that carries. Nobody ever says no.
