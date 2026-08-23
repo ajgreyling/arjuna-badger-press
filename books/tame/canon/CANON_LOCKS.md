@@ -82,3 +82,13 @@
   product, and no scene maps to a real incident. Composite by construction, permanently.
 - **L-18 · The title is doing the work.** *TAME* / *Mak*. The reader is allowed to assume it refers
   to the machine for as long as possible. Never explained in text.
+- **L-19 · The matter architecture is the argument.** *(Set 2026-08-23, author's instruction.)*
+  The **foreword is written by the machine**, signed in its own name and function, and states what
+  it is, what it did, and where to check — `manuscript/FOREWORD.md`. The **afterword is written by
+  the author in his own voice**; the machine may **edit only**, and never drafts or ghost-writes a
+  line of it. **The last word in the book is the author's.** No arrangement in which the machine
+  closes the book is acceptable, in any edition or format.
+  - The foreword carries **no plot, no character, no mechanism and no ending** — it is a disclosure
+    and a reading instruction, not a preview. Vetting it for spoilers is a release gate.
+  - It must not be charming. Any draft of it that courts the reader's affection has demonstrated
+    the book's thesis in the worst available place and is cut.
