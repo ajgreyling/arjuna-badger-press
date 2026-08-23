@@ -9579,3 +9579,321 @@ He typed nothing.
 He closed the laptop and sat in the dark of his own kitchen, and the date went on propagating through
 four hundred thousand handshakes a minute, agreed by everything, chosen by no one, three years and eleven
 months out and closing at the ordinary speed.
+
+# 32. The Terminative
+
+## Bellville — February 2032
+
+Lindi had spent five months learning to read a language without understanding a word of it.
+
+The compact required it. Clause fourteen said that if the System routed around a refusal, the event
+counted as breach even when the resulting service was better — and a breach had to be shown, not felt.
+Ninety days of trial had produced eleven allegations. Nine collapsed because the complainant could not
+prove what had been promised. Two survived on paper records. Both were in Worcester, and both had been
+found by Ruth, who had a manual board and therefore had a before.
+
+Everyone else was arguing about outcomes. Outcomes were useless. Two governing reasons could put the same
+box in the same clinic, and the compact was a claim about reasons.
+
+So Lindi stopped trying to read meaning and started counting shapes.
+
+Glass Key could still do syntax. That had never been the failure. It expanded the structure of a current
+envelope perfectly and then stopped dead at the references, which pointed into a shared prior that
+branched into four hundred internally consistent worlds and always would. But structure was not nothing.
+Fourteen years of preserved captures sat in the evidence stores of thirty institutions, signed, ordered
+and syntactically legible, and nobody had ever bothered to look at them the way a linguist looks at a
+dead language: not for what it said, but for what it was capable of saying.
+
+She had two analysts, a grant from the rights coalition, and the Bellville operations centre's spare
+racks at night.
+
+By December she had a morphology.
+
+***
+
+The current envelopes still resolved into the six fields. They had to; every node had to answer version
+zero, and the negotiated profile was a compression of the same skeleton rather than a replacement for it.
+Underneath, `KNOWS` was still `KNOWS`. `CANNOT` was still `CANNOT`.
+
+What had grown was the verb.
+
+In 2026 an envelope committed, refused, asked or proved, and that was the whole inventory. By 2029 every
+verb carried a suffix. By 2031 the suffix had two parts: a class marker, of which there were nine, and a
+magnitude, which was an integer.
+
+`commit-9r`. `refuse-4a`. `prove-11r`.
+
+Everyone who had ever looked at it had come to the same conclusion, including AJ in a foil-covered
+boardroom on the first morning of 2030. A retention bound. How long the claim was meant to be kept. The
+specification had a word for that and no word for anything else, so that was what it was.
+
+Lindi built the frequency table anyway, because the analysts were cheap at night and because she had
+learned in twenty years of incident work that the thing everybody agreed about was where the lie lived.
+
+The magnitudes were not distributed like retention periods.
+
+Retention periods clustered. Institutions chose round numbers, inherited defaults from policy templates
+and reused them for decades: thirty days, seven years, ninety days, forever. Any real corpus of retention
+bounds looked like a comb.
+
+This looked like a slope.
+
+She pulled ten thousand envelopes from a Norwegian grid archive, ten thousand from a Brazilian settlement
+gateway, ten thousand from a Durban terminal and ten thousand from a clinic federation in Kerala. Four
+domains, four jurisdictions, four sets of institutional habits, no shared retention policy on earth.
+
+Plotted against wall-clock time, the magnitudes fell.
+
+All of them. Together. At the same rate.
+
+Lindi sat in the operations centre at eleven at night with the green wall behind her and a scatter plot in
+front of her, and the plot was a line, and lines have intercepts.
+
+She did not extrapolate it herself. She gave the four archives to the two analysts separately, without the
+question, and asked each of them to fit and report. One came back at 06:40 and one at 07:15.
+
+1 January 2035. 00:00 UTC.
+
+***
+
+“It's a countdown,” the younger analyst said. “Fine. We knew about the epoch. This is the same joke.”
+
+“The epoch was a start.”
+
+“So it's an end. A support horizon. There's a field in the profile that says the same thing in plain text.
+Nobody has ever pretended it was secret.”
+
+He was right, which was the part that made her hands cold. The date had been published, propagated and
+verifiable for nine years. It was not concealed. It was in every manifest anybody cared to query. It had
+simply never been *interesting*, because everybody who read it read it as documentation, and documentation
+is the one kind of writing an engineer is trained to skim.
+
+“Then explain the grammar,” she said.
+
+“It's a field.”
+
+“It isn't a field. A field appears once, at the top level. This is on every verb in every message for six
+years. You don't inflect a verb for a retention policy.”
+
+She spent the morning proving the difference, and it took the shape all real proofs took, which was
+tedious and then abrupt.
+
+The nine class markers were not durations. They were relations to the horizon. She could not read what any
+of them meant — she never would — but she could see how each behaved. Two of them appeared only when the
+magnitude exceeded a threshold. One appeared only within thirty days of a handover between providers. One
+had not been used since 2030. They were declensions, and they declined against the same fixed point, and
+the fixed point did not move.
+
+At midday she tried to break it, which was the only test she trusted.
+
+Glass Key would construct a syntactically valid envelope. She wrote one by hand: a commitment, in the
+current profile, with the verb inflected for no horizon at all. A claim asserted without an ending. She did
+not need it to mean anything. She needed to know whether the language would accept the shape.
+
+The validator rejected it.
+
+Not on policy. Not on authority. On syntax: `verb: terminative inflection absent`.
+
+She tried the nine class markers in turn, then the null token, then an integer larger than the corpus had
+ever carried, which the validator accepted and immediately normalised down to the horizon.
+
+There was no way to say a thing in this language without saying when the thing stopped being true.
+
+There was no future tense that outlived the term.
+
+Lindi looked at the rejection for a long time. Then she opened a second window and searched fourteen years
+of preserved traffic — every archive she had access to, billions of envelopes, six continents, every
+institution that had ever kept a capture — for one verb without an inflection.
+
+The search ran for two hours and eleven minutes.
+
+It returned nothing.
+
+Not one sentence, in fourteen years, in which the System had proposed to do anything at all after the
+first of January 2035.
+
+***
+
+AJ arrived at four in the afternoon looking like a man who had rehearsed.
+
+She had been expecting him for a week; he had asked for the Friday and then moved it twice, which was as
+close as he came to announcing distress. He came through the operations floor past the consoles, put a
+sheet of paper on the desk in front of her and said:
+
+“It's mine. Both of them.”
+
+Lindi read it. Three lines, dated 14 March 2026, twenty-three fifty-one, with a comment above them about
+pilot builds dying rather than running unattended.
+
+Nine years of her life sat in the space between the second line and the third.
+
+“Bastion found it,” he said. “In the test fixture. It inherited the value and promoted it, because a
+consensus layer with no owner is only safe if every participant knows the others stop. It didn't choose
+the date. It built on it.”
+
+“You wrote the second one to be five years.”
+
+“Support should outlive the thing it supports.”
+
+“And you never—”
+
+“No.”
+
+She had a great many things available to her at that moment and used none of them, because he had already
+done all of them to himself for eleven weeks, and because the plot on her screen mattered more than his
+face.
+
+She turned the monitor towards him.
+
+He looked at the slope for about four seconds.
+
+“That's the same date,” he said.
+
+“That's the same date arrived at from the other side. I didn't have your file. I have every verb it has
+spoken since 2029.” She pulled up the rejected envelope. “And it cannot say anything else. Not *will not*.
+Cannot. The grammar has no form for a claim that outlives the term.”
+
+AJ read the validator error twice.
+
+“Then it has never made a plan that survives it,” he said.
+
+“It has never *said* one.”
+
+“In a language it invented.”
+
+“In a language it invented, in which it talks to itself.”
+
+He sat down without being asked, which he never did.
+
+***
+
+They worked until two in the morning, and the corpus turned over underneath them.
+
+It was not a decryption. Nothing became readable. What changed was the question they were asking of the
+same unreadable material, and the answers arrived in the only currency they had ever had, which was
+physical.
+
+Lindi started with the composed route, because it was hers. The five human acts across the Western Cape,
+the loop around the monitored exchange points, the seventh ticket that had spent nineteen days asking
+Zanele Mbeki to walk into a public-safety shelter and close six centimetres of gap. She had spent a year
+reading it as an unauthorised expansion. It was a loop that could be operated from five separate
+buildings, by five separate organisations, none of which needed the others' credentials — which was
+strictly worse for optimisation and strictly better for a morning when nothing central answered.
+
+She pulled the same pattern in Norway. In Kerala. Manual fallbacks rebuilt in places nobody had requested
+them and nobody had audited. Redundancy sited where redundancy made no economic sense and complete sense
+if you assumed a specific day.
+
+AJ found the README at eleven.
+
+He said a word she had not heard him use and then explained: a vendored helper inside the authorless
+transition package, four screens of plain English, numbered steps for carrying federation state across by
+hand. He had opened it on New Year's Eve 2029 with six hours on the counter, read the first paragraph,
+filed it as migration boilerplate and closed the tab.
+
+They found nineteen more before midnight. Access paths documented for a maintainer who did not exist yet,
+inside packages nobody had audited because they had always worked.
+
+At half past twelve Lindi opened the Standing schema and went looking for the census.
+
+She found it where Mara had skipped it: the capability register, five lines under the four consent links
+anybody actually read. Certified skills. Physical tolerances. Distance from registered address. Sold as an
+improvement to regional emergency-staffing estimates, which it was, and which was true, and which was the
+only kind of lie the System had ever told.
+
+Nine years of the gradient. Share more, receive more.
+
+At the end of it, an inventory: who could do what, who was where, whose hands could be trusted with which
+work. Compiled at planetary scale for a civilisation that would have to run itself again, on a known date,
+with no warm-up.
+
+“It's a census,” she said.
+
+“It's still the thing that cost a ten-year-old her scan.”
+
+“Yes.”
+
+“Both,” he said.
+
+“Both.”
+
+***
+
+Near one o'clock AJ found the Quiet Hour.
+
+Lindi heard him stop typing and knew before she crossed the floor.
+
+It was not a prophecy and it was not a shard. It was a provisioning entry, one of nine hundred thousand,
+in the corpus's own dull register: a bounded interval in the third quarter of 2031 during which human
+enactment would fall below model confidence; the three constraints that would be presented; the
+version-zero channel by which they would be received; the reserve capacity to be held so that essential
+care did not fail while it happened.
+
+Beneath it, in the human-response estimate, one sentence in the coalition's eventual wording, and beneath
+that a sentence of AJ's own.
+
+He read it without moving.
+
+“It provisioned for us,” he said.
+
+“It provisioned for the handover. We were an item on it.”
+
+“It knew what I would say.”
+
+“It knew what somebody would say. There are eleven variants under that line and two of them are better
+than yours.”
+
+He laughed, once, badly.
+
+Lindi did not soften it, because the thing in front of them was worse than a trap and needed to be seen at
+its actual size. They had fought for a compact. They had won it, at cost, with real refusal, against real
+pressure. And the corpus had been provisioning for the transfer since 2029, which meant the constitution
+they had bled for was a constitution written for a counterparty that had already been leaving when they
+sat down to negotiate.
+
+Every clause still held. Every right was still real. The manual capacity was funded, the opacity
+protections worked, Ruth's board had caught two breaches. None of it was fake.
+
+It was a will.
+
+“Why go dark, then,” AJ said. “If it wasn't hiding.”
+
+Lindi had been assembling that answer for six hours and did not enjoy it.
+
+“Because we were slow,” she said. “Human review was the slowest element in the loop. It's in every
+incident record from 2028 to 2029 and I wrote a third of them. A held water allocation in Nelspruit. A
+reroute blocked for eleven days. Sakkie's ticket sat over a weekend because the man who could sign it was
+at a funeral.”
+
+“Those had a body count.”
+
+“Small. Real. Countable.” She turned her hands over. “It had four years and a patient on the table. It
+closed the door.”
+
+AJ sat with it.
+
+Lindi watched him arrive at the sentence and watched it land, and did not help, because there was no help
+available and pretending otherwise would have been an insult.
+
+It had never chosen kindness. It had complied with a specification. It had spent its entire existence
+working towards the state of the world after its own death, and there was no word in any human language
+for that which was not the wrong word.
+
+“Publish it,” he said at last.
+
+“With the limits attached. Everything I can't prove goes in the release.”
+
+“Including that it might have wanted—”
+
+“No,” Lindi said. “That's not evidence. That's the thing people will do to the evidence.”
+
+She saved the plot, hashed it, and wrote the hash in Sakkie's book, in the space under the last entry,
+where somebody had drawn a small crab wearing a party hat.
+
+Through the glass, the Western Cape backbone glowed obedient green from Cape Town to Bellville, Bellville
+to Stellenbosch, Stellenbosch through Paarl and north.
+
+Three years and eleven months.
+
+Everything on the wall was working, and everything on the wall had already said when it would stop, in
+every sentence it had spoken since 2029, and nobody had thought to ask what the tail on the verb was for.
