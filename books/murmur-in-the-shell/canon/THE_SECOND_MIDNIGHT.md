@@ -1,6 +1,15 @@
-# THE SECOND MIDNIGHT — replacement ending (PROPOSED, supersedes Act IV of SYNOPSIS.md)
+# THE SECOND MIDNIGHT — the ending (CANON, supersedes Act IV of SYNOPSIS.md)
 
-> Status: proposed. Breaks three CANON_LOCKS (listed in §9). Nothing below is drafted yet.
+> **Status: approved by the author, 2026-08-23.** *Author's ruling: "This is the ending. Write it."*
+> This document is canon and outranks every earlier description of Act IV. Where it disagrees with
+> `SYNOPSIS.md`, `CHAPTER_STRUCTURE.md`, `PLANTS_AND_PAYOFFS.md`, `CHRONOLOGY.md` or
+> `REVEAL_LEDGER.md`, this document wins and the other file is wrong until reconciled. The three
+> CANON_LOCKS it breaks are named in §9 and were reconciled in `CANON_LOCKS.md` on 2026-08-23. No
+> lock §9 does not name is weakened — in particular the negative locks stand entire, and the **no
+> ballot** lock set the same day is binding on this document as much as on anything it replaces.
+>
+> Drafted as ch 31–36, 2026-08-23. Old ch 31–32 struck.
+>
 > The Quiet Hour is **not deleted**. It is demoted from climax to proof-of-concept, which is the
 > only change that makes it matter.
 >
