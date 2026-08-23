@@ -216,3 +216,59 @@ answer given was the unwelcome one, with the reasoning shown so it could be chec
 Logged here because L-16 requires the places where the machine produced the more pleasant version
 and it was cut — and because a book arguing that friction must survive being unpopular should be
 able to show its own.
+
+### 2026-08-23 · drafting canon — style guide, synopsis, chapter structure, plants and payoffs
+
+- **Model:** Claude Opus 5 — model ID `claude-opus-5`; serving model reported by this session's own
+  configuration as `claude-opus-5`, powered-by name "Opus 5". Claude Code (Anthropic), agent session
+  working in an isolated git worktree off `master`. Taken from the session's reported configuration,
+  not from the model's recollection of itself, per L-16.
+- **Standing instruction from the author for this run:** draft the book. Canon first, in order, then
+  the manuscript chapter by chapter with a commit each; do not push, do not deploy, do not merge, do
+  not register the book in `site/build.py`. Where the canon does not settle a fork, pick the option
+  most consistent with the locks, write it, and log the call as a dated note in `OPEN_DECISIONS.md`
+  rather than stopping to ask.
+- **Machine-drafted this session:** `canon/STYLE_GUIDE.md`, `canon/SYNOPSIS.md`,
+  `canon/CHAPTER_STRUCTURE.md`, `canon/PLANTS_AND_PAYOFFS.md`, the *Dated calls made during
+  drafting* section appended to `canon/OPEN_DECISIONS.md`, and this entry.
+- **Open decisions settled, all logged with dates and all the author's to overturn:** #5 language
+  texture (unglossed and load-free in the body; one absolute exception for the consent clause, which
+  is worked in full in English so a monolingual reader can run the comparison unaided) and #6 length
+  (outlined at 95k; the 60k chamber piece declined because the flattening is duration and a
+  compressed version would have to *state* what a long one can *demonstrate*, and stating it is the
+  brochure). Two further forks the canon did not cover were logged the same way: Willem Krige
+  receives no POV in any chapter, ever; and the Loots surname is retained through the draft pending
+  the author's call on #3.
+- **Machine-originated story elements this session**, flagged for ratification because they are the
+  drafter's inventions and not the author's: the National Multilingual Text Programme and the
+  designation `nmt-4c-0311`; clause 7, the standing caution, as the specific friction that gets
+  voted away; the Programme's voluntary public-participation provision as the mechanism of the harm;
+  the linguistic mechanism of *the word* (noun broadening, aspect opening, inclusive person); the
+  ethics committee's correct ruling in Chapter 28 whose good-faith remedy completes the widening;
+  the supporting cast (Adri Steenkamp, Kagiso Motaung, Nomsa Dhlamini, Anneke Krige, Mandla Mabuza,
+  Solly Rampou); and the referendum result at 68/32 on a 74.1% turnout.
+- **Highest-priority external check, restated because the book depends on it:** the isiZulu clause
+  mechanism must be read by a first-language linguist. If it does not survive that read, the spine
+  does not survive it either.
+
+#### Refusals — 2026-08-23 · the formal rule that cost the easier book
+
+The agreeable structural choice was to let Oom speak in scenes — quoted dialogue, a speech tag, a
+room shared with a person. It is warmer, it reads faster, and it is what every novel of this kind
+does. It was cut, and the replacement is a hard formal rule: **Oom's words never appear as dialogue,
+and narration and Oom never share a paragraph.** The page itself refuses to seat it at the table.
+
+This costs real fluency and it will read as a constraint, which it is. It was taken because L-12 is
+otherwise unenforceable at the sentence level: the moment the machine is in the scene the way a
+person is in the scene, free indirect style leaks into it within a page, and the leak is the book
+failing. A rule that a drafter can violate by accident is not a rule.
+
+#### Refusals — 2026-08-23 · the vindication arc, declined
+
+The natural shape of this story is that Nel is right and is eventually believed. Every draft
+instinct pulls that way, and the second-best version — she is right and is *never* believed, which
+is a tragedy and still flatters her — pulls almost as hard. Both were cut. The outlined arc gives
+her opponent the strongest argument in the book *made out of Nel's own life* (Ch 30), gives the
+correct outcome to a referee who is right (Ch 36), and ends with her unable to say honestly whether
+she was right. She is not vindicated, not refuted, and not comforted, and the book does not decide
+for her.
