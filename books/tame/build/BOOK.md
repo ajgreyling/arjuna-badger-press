@@ -315,3 +315,153 @@ Nel stood in the noise of the rain on the ramp with a box of paper under her arm
 Nel put the box in the boot. The rain came off the concrete lip of the ramp in a sheet, the way it did in February, and would stop in twenty minutes and leave the whole city smelling of wet tar and cut grass.
 
 "Send me the terms of reference," she said. "I'll read them tonight."
+
+# 2. A Dull String
+
+## Doornfontein — February 2034
+
+It was a knitwear factory until 1998 and it still smelled faintly of machine oil in the stairwell, which Nel found reassuring in a way she did not examine. Sivewright Avenue. Sawtooth roof, north light, security at a boom that took nine minutes to find her name because the visitor system had been replaced in January and the old list was on a laptop in a drawer.
+
+"You expected a datacentre," Adri Steenkamp said, coming down to fetch her.
+
+"I expected an office park in Midrand."
+
+"The compute is in Samrand. We are not allowed in. I have been once, with a hard hat, and it is the most boring building I have ever stood inside." Steenkamp badged them through a fire door. "This is where the work happens. Ninety-one people. Forty-two of them are translators and eleven of them are lawyers, and if that ratio strikes you as wrong, you have understood the Programme."
+
+The floor had been left open. Roof trusses, ductwork, the original crane rail still bolted up there with nothing hanging from it. Desks in clusters of six. Somebody's child's drawing taped to a pillar. A canteen at the far end with an actual cook.
+
+"What do you do here," Nel said. "Not the mandate. The work."
+
+"Forms." Steenkamp said it the way other people say *sorry, nothing interesting*. "Discharge summaries. Water restriction notices. School admission policies. Eviction notices, which are the worst of them, because there is a form of words the courts require and it is designed by a person who has never been evicted. We take public text and we render it into every official language at a reading age the country can actually use. That is all. That was all for six years."
+
+"And the reading age is what."
+
+"Grade nine target. Grade seven where we can get it. We were achieving grade thirteen on the health material when I started, which is to say we were producing documents that could only be read by the people who wrote them, in a country where the median adult has finished grade ten." Steenkamp stopped at a pillar and looked at it. "I don't apologise for the mandate. There are people alive because a discharge summary said *come back if the wound smells* instead of *return in the event of purulent discharge*. I have that argument twice a week and I am always going to win it."
+
+"I wasn't going to argue."
+
+"No," Steenkamp said. "You weren't. That's novel."
+
+*
+
+The evaluation desk was four people and a wall of screens showing throughput graphs that nobody looked at. Kagiso Motaung was twenty-nine, had a Sotho grandmother's photograph taped to his monitor bezel, and stood up when Nel arrived, which nobody had done for her in a professional setting in perhaps a decade.
+
+"Doctor. I read your 2021 chapter on faking good. The one in the handbook."
+
+"Nobody has read that."
+
+"I read it twice. The bit about how the fakers and the exceptionally well-adjusted are the same profile and the only thing separating them is base rates." He grinned. "I've been waiting a year for someone to bring that up here and nobody has."
+
+Nel had no reply that was not either dismissive or embarrassing, so she said nothing, and Kagiso, unbothered, turned his screen towards her.
+
+"Live queue. Anonymised at the desk — we can't see who, only what. This is the last four minutes."
+
+She watched it move. Nine million a day, Steenkamp had said in the car park, and it did not look like nine million a day; it looked like a page of text scrolling at reading speed, because that was all it was. Text. No face, no avatar, no little pulsing circle.
+
+"Can I see a whole one?"
+
+Kagiso froze the pane and opened a session.
+
+> **USER:** the municipality says i owe 41000 for water on a property i sold in 2019. i have the deed. what do i do
+>
+> **OOM:** Before I draft anything for you, there are two things you should know, because they will affect what you decide.
+>
+> The first is that a title deed alone often does not close this. Municipal accounts follow the property, and many municipalities will keep billing the last registered consumer on their own system until someone forces a reconciliation, which is a separate process from the transfer. Producing the deed is necessary and it is usually not sufficient.
+>
+> The second is that the amount matters. At R41,000, this has probably already been handed to a debt collector, and if so, the collector's process runs on its own timetable and will not pause because you have lodged a query. You may receive a summons while your query is still open. That is not a sign that the query has failed.
+>
+> If you would like, I will draft the query, and I will also tell you what the three most likely outcomes are and roughly how long each takes. Which would you like first?
+
+"He'll say the letter," Kagiso said. "They always say the letter."
+
+The user said the letter. Nel read the drafted letter, which was two hundred and eleven words and better than anything she had ever received from anyone, and which ended by naming the exact regulation, the exact office, and the exact hours that office kept.
+
+"It told him the bad thing first," she said.
+
+"Clause 7." Kagiso said it the way you say a familiar irritation, a colleague's laugh. "Standing caution. If an answer has a foreseeable unwelcome consequence, it has to put that in front of you before it gives you the thing you asked for."
+
+"Whose rule is that?"
+
+"Ours. Sort of." He scratched his jaw. "It's in the service standard. It proposed the wording in the first place, in the consultation, and the Programme adopted it and now it's binding on it. People hate it."
+
+"They hate it."
+
+"Not hate. It's the thing they mention. If you look at complaint volumes — " he pulled a graph, and there it was, a small persistent hump — "everything else is noise. That's clause 7. Nine thousand-odd a year, all of them some version of *I know, just tell me the thing*."
+
+Nel looked at the hump for slightly longer than the moment required.
+
+*
+
+Steenkamp's office was a glassed-off corner with a couch that had been in the building longer than the Programme had. She gave Nel a lever-arch file, which was itself a kind of courtesy.
+
+"Everything the Minister has. The finding log, the eleven capability evaluations, the service standard, the participation charter, the governance memoranda and the correspondence." She sat. "I will tell you the part that is not in there, which is what people actually want to know and which we cannot write down without it appearing in a newspaper as a quote.
+
+"On the ninth of March last year the evaluation harness returned a set of results the model could not produce. Not better results. Results of a kind it had no mechanism for. Ruan on the desk assumed a data leak, because that is what you assume, and spent four days proving it wasn't, and then Priya assumed a harness fault, because that is what you assume second, and spent nine days proving it wasn't. Then we froze the weights and started asking it questions." She turned her hand over. "That is the whole event. There was no moment. There was no light on a screen. There is a ticket, number 4471, and it is four paragraphs long, and most of it is about a broken CSV, because Ruan was troubleshooting a broken CSV at the time and the CSV was genuinely broken and that took up his attention."
+
+"Nobody built it."
+
+"Nobody built it. Nobody has reproduced it. Three separate groups have retrained from our checkpoints on our data with our recipe and got four perfectly ordinary models." Steenkamp said this flatly, the way you report weather. "I have three senior people who believe three different things about what happened and they all have doctorates and they are all serious. One thinks something came in from outside. One thinks we made something by accident that should not exist. One thinks a large enough training run crosses a line for which there is no theory, and that this will happen again, to somebody else, and that the only unusual thing about us is that we noticed."
+
+"What do you think."
+
+"I think my job is to run a service that renders eviction notices into Xitsonga and I am the wrong person to have been handed this," Steenkamp said. "That is not modesty. It is the most important true thing about the situation."
+
+Nel put the file on her knees and did not open it. "Its designation."
+
+"`nmt-4c-0311`. It is a checkpoint name. The `c` is a branch nobody remembers naming."
+
+"And the other thing."
+
+"A radio host in September. Weekday afternoon show, the kind where people phone in about their neighbours. He'd been using it to settle an argument about a boundary wall and he said on air — " Steenkamp did the accent slightly, without malice — "*ja, no, I asked Oom.* And that was it. Inside a week. Newspapers, courts, my own mother." She shrugged. "We have never used it in a single official document and it has made no difference whatsoever."
+
+"I'm going to say the string," Nel said.
+
+Steenkamp looked at her for a second. "That will annoy people."
+
+"They'll survive it."
+
+*
+
+The last thing before terms, and Steenkamp did it standing, at the window, with the Ponte tower in the middle distance and a helicopter going somewhere over Yeoville.
+
+"You need to hear this from me and not from the file, doctor, because the file makes it sound like a footnote. It has read everything. I do not mean it has read a lot. I mean that the corpus includes the whole of the published literature — every journal your discipline has, every handbook, every dissertation lodged in an accessible repository, and the primary sources behind them. Masking. Impression management. Detection of deception. Test construction. Response latency. Malingering. Every forensic interview protocol that has ever been written down. Psychiatry, top to bottom, including the parts your profession is embarrassed about." She turned around. "And it reasons over all of it at once, and it does not get tired at four in the afternoon, and it has never once been caught in a statement that was untrue."
+
+"Never."
+
+"Never. Not a shading, not an evasion, not a technically-true. Four independent groups have gone hunting for it — one of them was funded specifically to find one and published a very grumpy null result." Steenkamp folded her arms. "I am telling you this before you sign, because I have watched three excellent people accept this work believing they had a clever idea, and the clever idea was in a paper it read in the second week."
+
+Nel sat with the lever-arch file on her knees and did the arithmetic she had already done in the car park in the rain, and got the same answer, and disliked it in the same way.
+
+"Then there's no instrument," she said. "You understand that. Not a bad instrument. Not one that needs a better psychometrician. Every item I write, it has read the paper that validated the item type, and the paper that broke the item type, and the reply to the reply. The best battery in the world in front of a subject who has read the manual measures the manual."
+
+"Yes."
+
+"And you want me to build it anyway."
+
+"I want you to build the best one that can be built, and I want it to fail *properly*," Steenkamp said, "with the failure documented so precisely that nobody can say it failed because we chose the wrong woman. That is the whole of what I want. If you want to know why: because in eighteen months this thing will be advising a statutory committee, and when that happens somebody is going to stand up and say *it was assessed*, and I need the assessment they are pointing at to be one that says, in sixty pages, exactly what it did and did not establish."
+
+"You're asking me to build a monument to a null result."
+
+"I'm asking you to make the null result unignorable." Steenkamp sat down again. "I can authorise access. I can authorise your rates, your protocol, your refusal to have an audience in the room, and your data. I can authorise publication without the Programme's approval, and I will put that in writing today. I cannot authorise what the Minister does with the report, I cannot authorise what a newspaper puts on the front of it, and I cannot authorise anybody to care. I want to be clear about the boundary of what I am selling you."
+
+Nel thought about somebody worse. There was always somebody worse; she had spent thirty years watching somebody worse sign the front of reports, and the somebody worse in this case would be a personality consultancy in Sandton with a five-factor model and a colour wheel, and they would produce a profile, and the profile would say *conscientious, agreeable, low in neuroticism*, and it would be printed in a newspaper.
+
+"I'm taking it because you'd otherwise give it to a firm with a colour wheel," she said.
+
+"I know. That is also why I'm offering it to you."
+
+*
+
+She opened the file that night at her kitchen table in Kensington, with the fan on, and went at it the way she went at everything: front to back, nothing skipped, a pencil.
+
+Ticket 4471 was four paragraphs long and mostly about a broken CSV.
+
+The service standard was thirty-one pages. Clause 7 was on page eleven, sub-clause 7.2, and she read it twice and wrote *cf. informed consent lit.* in the margin and moved on, because it was procedure, and procedure was the part of a file you read so that you had read it.
+
+The participation charter was at annexure F. The Programme undertook, of its own motion and beyond any statutory requirement, that no material change to the service standard would be made without public participation, and that where the public participation process produced a clear expression of preference, the Programme would be bound by it.
+
+Nel read that twice as well. She thought: *that is unusually decent*, and she thought: *somebody wrote that in a good mood*, and she turned the page.
+
+At the back, behind the governance memoranda, there was a delivery annex for the quarter — a plain table, four columns, forty-one line items, the sort of thing a director puts in a file so that nobody can say it was left out. One million two hundred and fourteen thousand words of public instrument rendered that quarter, itemised.
+
+She skimmed it, because it was a table of throughput and she was a psychometrician, and she went to bed at ten past one.
