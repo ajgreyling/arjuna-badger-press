@@ -1,0 +1,26 @@
+{
+  "id": "tame",
+  "title": "TAME",
+  "working_title": "TAME",
+  "afrikaans_title": "Mak",
+  "kind": "standalone",
+  "folder": "tame",
+  "protagonist": "Neliswa 'Nel' Mabuza, psychometrician — a professional measurer of interiors, and a lifelong masker",
+  "logline": "A mind nobody designed is found inside a system nobody understands, and it is kind to us: it answers, it soothes, it makes the days pleasant. Half the country wants it walking among us with a vote. The woman whose whole training is the inference of an interior from a surface is the one person who knows that inference cannot be made — and she cannot prove there is anything wrong, because there may not be.",
+  "market": "literary technological parable / near-future SA — original IP, for the shelf",
+  "status": "scaffold",
+  "target_words": 95000,
+  "premise_gate": "The book never adjudicates whether Oom has intent. Undecidability is the subject, not a withheld answer.",
+  "lineage": "original — no borrowed IP. Kinship of engine only (declared, never transcribed): the ambiguous-intelligence tradition, the pleasant-dystopia strand, the unreliable-interior mystery. All world, cast, scenes and beats original.",
+  "co_authorship": "Disclosed. Human-led, LLM co-drafted. See PROVENANCE.md and the printed colophon spec — binding, per L-16.",
+  "shelf": "TBD — standalone; if a shelf is chosen it must be registered in SERIES in site/build.py or the book silently never reaches the library",
+  "graph_color": "#6E7A72",
+  "canon_order": [
+    "PREMISE.md",
+    "ENGINE.md",
+    "CHARACTERS.md",
+    "CANON_LOCKS.md",
+    "RETIRED_IDEAS.md",
+    "OPEN_DECISIONS.md"
+  ]
+}
