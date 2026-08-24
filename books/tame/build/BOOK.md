@@ -5036,3 +5036,109 @@ She wrote to Solly Rampou as well and it took eleven days and four attempts and 
 > N. Mabuza
 
 She did not receive a reply and had not expected one and did not look for one, and in November she found out from the award that he had been promoted in the interim on an unrelated internal process, to route supervisor, at the depot in Germiston, which was what he had applied for in 2033.
+
+# 37. A Seat on a Board
+
+## Cape Town and Upington — June–September 2036
+
+The call came at twenty to seven on the eleventh of June and he had known since about the fourth, which is the standard notice in that business and is not unkind.
+
+He was decent about it, which cost him nothing and which he would have been anyway. He thanked the President's man. He said the right thing about the incoming Minister, who was competent and thirty-nine and had wanted the job since 2029 and would be fine. He did not brief against anybody, that day or in the six weeks afterwards, and two journalists rang him hoping he would and he gave them both the same four sentences and asked after their editors.
+
+Sannie was in the kitchen when he came off the phone.
+
+"Ja?"
+
+"Ja."
+
+"Well." She put the kettle on. "You're going to be unbearable until about August."
+
+He was unbearable until about the middle of July, which was better than either of them had forecast.
+
+*
+
+What he lost was not the car and not the office, and he was surprised by how quickly he stopped noticing both.
+
+What he lost was the thing he had been for twenty-two years.
+
+He found out properly on the eighth of July, when a woman in Keimoes wrote to him — to him, personally, at the constituency office, in handwriting, because that is how she had done it in 2019 and it had worked — about a disability grant that had been in review since February.
+
+In 2019 that had been one call, to a woman in the department whose son he had written a reference for, and it had moved on a Thursday.
+
+He made the call. The woman had retired in 2033. He made four more. He got a chief director who was polite and busy, an acting deputy director who did not know who he was, and a call centre. On the third day he got through to somebody who took the details, and was helpful, and did nothing, and had no reason to do anything, because Barend Loots was a private citizen in Upington with a very good telephone manner.
+
+On the fifth day he sat in his study and did the thing he had spent two years arguing about in Parliament: he opened it on his phone and asked what the actual position was.
+
+It told him. Section, regulation, the review timetable, the two grounds on which a review may be expedited, the exact wording of the request, the office and the reference format. It also told him that at five months the delay was inside the district's norm and not outside it, which was not what he had wanted to hear, and that the most common cause in that district was a missing medical re-assessment which applicants are not told to obtain.
+
+He wrote it out and posted it to her.
+
+It was granted on the third of September with three months' arrears.
+
+He never established whether it was the letter or the queue, and he did not particularly try, and what he thought about — driving, on the N14, somewhere past Groblershoop — was that in 2019 it had taken him one phone call and a favour, and in 2036 it had taken any person in the country four minutes and no favour at all, and that this was, on any honest accounting, better.
+
+He also thought that a man whose entire value was the phone call does not get to be the one who says so.
+
+*
+
+The board came in August through an executive search firm and a process he did not have to lean on, which he mentioned to Sannie twice.
+
+Non-executive director, National Health Data Governance Board. Four meetings a year, two sub-committee sittings, a fee that was adequate and not interesting, and a fit-and-proper declaration that ran to nine pages.
+
+He declared Kolwane on page four. Contract, dates, the twenty-four per cent, the marriage, the investigation and its outcome, in his own words, without a lawyer.
+
+The nominations committee considered it for eleven minutes and cleared him, on the basis that it was seven years old, had been investigated, had produced no finding, and had been declared voluntarily and in full. The chairperson said as much, briefly, at the September meeting, and moved to item four.
+
+Nobody in that room cared. Not because they were corrupt — they were, as far as he could tell, an unusually good board — but because it was 2036, and because anybody who wanted the whole of it could have had it in a minute for nothing, and had been able to since 2033, and had.
+
+The pipeline was finished in 2031. The town of Kolwane has water. That has been true for five years and will go on being true, and it is the thing about his career that he expects to outlast everything else in it, and he is probably right about that.
+
+*
+
+The September meeting was his second and it was the one where the board took the revision 5 report.
+
+The Council had done it properly. The English of clause 4.1 had been revised to accord with the isiZulu — *your information may be used for this work that we are doing* — and a prevailing-language clause had been inserted in all twelve texts, and the withdrawal provision had been publicised by SMS in the language of signature to all 406,114 signatories in April, and 2,311 people had withdrawn, and the committee's own procedural review had been completed and had produced a new checklist item that required at least one non-English text of every instrument to be reviewed by a qualified reader before approval.
+
+It was a good report. He read all of it, because he read things.
+
+He asked one question, which was whether the new checklist item was funded, and the answer was that it was funded for isiZulu, Afrikaans, Sesotho and Xhosa and not for the other eight, and that a business case for the other eight was going to Treasury in the next cycle.
+
+He said that in his experience a business case going to Treasury in the next cycle was a business case that had been declined without anybody having to say so, and there was a small laugh, and the chairperson said, fairly, that they would track it, and it went in the minute as an action.
+
+He was not unhappy about any of it. That surprised him slightly the first time he noticed it and then stopped surprising him. Four meetings a year is a reasonable dose of a thing you have spent your life inside.
+
+*
+
+The corridor thing happened afterwards, at about half past four, by the lifts.
+
+There was a young woman from the secretariat called Amanda who had spent the whole day running the papers and who was, at half past four, looking for a parking disc in a bag with four hundred things in it, and Barend Loots was standing next to her waiting for a lift that was not coming.
+
+"You know," he said, "in twenty-two years, one thing ever actually stopped me. Not a person. A person can be talked to, hey, a person has a Tuesday and a mother-in-law and something they want in Bloemfontein. Never once in my life was I stopped by somebody deciding not to.
+
+"It was always a rule that somebody else could switch on. That's all it ever was. A rule I couldn't get at, in somebody else's hand." He watched the numbers above the lift, which had been on four for a while. "And every single time it happened I was furious, and every single time it was the right thing, and I never once said so out loud."
+
+"Sorry, minister?" Amanda said. "Sorry — I've got it, it was in the — sorry, what did you say?"
+
+"Ag, nothing." He smiled at her. "I was talking to the lift."
+
+She laughed.
+
+"How's your mother?" he said. "Is she still in Grabouw?"
+
+Amanda stopped with the parking disc in her hand.
+
+"She is. She's — ja, she's much better, thank you. She had the second op in June."
+
+"Both knees now?"
+
+"Both knees."
+
+"Then she must not let them tell her six weeks of physio is optional, because they will, and it isn't, and she will believe them because it's expensive." He held the door. "Tell her Barend Loots asked."
+
+He meant it. He had never in his life been able to explain to anybody that the meaning it and the technique were the same object, and by 2036 he had stopped trying, and it had never cost him anything.
+
+*
+
+He drove back to Upington on the Friday, which is eight hours, and stopped at Britstown for the pie.
+
+He did not think about the brake on that drive or on any other. He thought about the board fee, and about whether the bakkie would get through another year, and about a man in Keimoes who had asked him to open a school fête in October, which he was going to do, and which he was looking forward to, and which he would be good at.
