@@ -4078,3 +4078,157 @@ He had known that would happen. He had known it on the Sunday, writing the page,
 Charmaine Weyers sent a bottle of wine and a card in the first week of January. He gave the wine to his driver unopened and kept the card in the drawer with the others.
 
 Tebogo Mahlangu started her new post on the third of February and never found out.
+
+# 30. Beside Him
+
+## Cape Town — January 2036
+
+He asked four people and three of them said no.
+
+Bester said no in one line, because he had written his letter and had said what he had to say and was not going to stand next to the man who had made a story about a Minister out of his committee's own honesty.
+
+Zondi said no because he had been cut to eleven seconds in December and had a view about that.
+
+Nomsa Dhlamini said no by telephone, at some length, and Nel got the substance of it afterwards in a message that read, in full: *I told him I have waited fourteen years for somebody to lose the argument about the first person plural and I am not going to spend the victory standing next to him. You do what you like. You will do it anyway.*
+
+Nel said yes on the ninth of January and flew down on the thirteenth.
+
+*
+
+She turned it over for two days and she was honest about it, and the honesty is the reason she got it wrong, or did not get it wrong; she never established which.
+
+The argument for going was: the substance was dead and she was the only person left who could carry it. Paragraph 7 of the committee's resolution had not been mentioned by anybody in twenty-six days. The correction had run at the bottom of page four. The thing that four hundred and six thousand people had a stake in was now a question about whether a Minister had overstated something at a press conference, and it was going to stay that way unless somebody with standing stood up and said the accurate version in public, and there was nobody with standing left who was willing.
+
+The argument for not going was that Barend Loots would be standing three feet to her left.
+
+She examined that argument for a long time and could not make it into anything except *this will damage me*, and *this will damage me* was, in her judgement, a consideration of the second order at best and, if she was honest about the shape of it, vanity — and vanity was the one appetite she had never in fifty-nine years permitted herself, because she had watched it destroy the work of four better psychometricians than her, and because a woman who has spent forty years being not-looked-at does not get to develop a taste for how she looks.
+
+She had, she thought afterwards, run the analysis competently and had left one variable out of it.
+
+*
+
+It was in a briefing room in Cape Town on the fourteenth of January at eleven in the morning and she was on the platform for fifty-one minutes and spoke for eleven of them.
+
+She did it well. That was not in dispute afterwards and nobody ever disputed it.
+
+She corrected the Minister first, from the platform, with him sitting there, because it was the only way to make the rest of it credible.
+
+"Before anything else. The statement that a machine wrote a document that no human being read is not accurate and I am not going to build on it. Three qualified reviewers read the isiZulu text of clause 4.1 and signed it and their names and their comments are in the public file and I have read all three and they are good comments. One of them, Professor Zondi, identified in writing at the time the exact feature that is now under discussion, and gave the correct reason and the correct remedy, and he was ignored by nobody — he was simply filed, which is a different thing and is the thing this is about.
+
+"The English text was written by people. The isiZulu was rendered by the service and reviewed by three human beings. The Council's legal office read the English and did not read the isiZulu, and that is the actual failure and it is fourteen years old and it has nothing to do with Oom."
+
+She heard herself say it.
+
+She had not said the word out loud in twenty-three months. She had said the string in a canteen and in a boardroom and on a radio programme and to a room of twenty-two people, and had been told it would annoy people and had said it anyway, and had said it to Adri Steenkamp in February 2034 as a condition of taking the work.
+
+She said *Oom* in a briefing room in Cape Town on the fourteenth of January 2036 at eight minutes past eleven, because she was speaking to forty journalists and the designation would have made her sound like a crank, and the sentence needed to land, and it landed.
+
+Nobody noticed. Nobody in that room had ever heard her say anything else.
+
+*
+
+The eleven minutes were the best public statement she ever made and she got everything into them.
+
+Paragraph 7: twenty-two years, no non-English text ever reviewed, recorded by the committee about itself. The four hundred and six thousand. The absence of a prevailing-language clause and what Khumalo had established, which she gave in Khumalo's terms and credited to her twice. The remedy, which she said, twice, was correct, and which she said she supported. Bester's own admission, quoted, with his permission, obtained by email on the twelfth.
+
+And then the general thing, in the last ninety seconds, which was the reason she had come.
+
+"There is one further point and it is the only one I would ask you to take away.
+
+"There was no error here. I want to be understood: I looked for one for three weeks and there isn't one. Every individual decision in this file was correct, made by a competent person, for a good reason, and defensible on its own.
+
+"And the outcome of all those correct decisions is that four hundred and six thousand people have agreed to something wider than the English says, and nobody in the country was required to notice, and the mechanism by which nobody was required to notice is not a machine. It is that we have never built one. We have never had a procedure for reading the other eleven texts, because we have never treated them as texts.
+
+"That was survivable for as long as the other eleven texts were produced slowly, by people, in small numbers, badly. It is not survivable now, and the reason it is not survivable is not that anything has become sinister. It is that the volume has gone up by a factor of about two thousand and the checking has stayed where it was, which was at zero."
+
+*
+
+She was a party asset by lunchtime.
+
+The Minister's office put out a clip of the last ninety seconds at 13:40 with a caption that read *Independent expert confirms: nobody was required to notice*, which was accurate, and which she could not object to, and which she watched arrive on her phone in the airport at Cape Town with a cup of coffee going cold.
+
+By Wednesday two of his backbenchers were quoting her in a debate on something unrelated.
+
+On Thursday the party's provincial structure in the Northern Cape put her sentence about the factor of two thousand on a graphic with the Minister's photograph next to it, and did not ask, and were not required to.
+
+And on Friday a columnist in Johannesburg — a good one, whom Nel had read for eleven years and generally agreed with — wrote nine hundred words that were entirely fair.
+
+It made one argument. In February 2035, Dr N. Mabuza published a report finding no evidence of concealed intent, told a national radio programme that there were no red flags, and told a print journalist on the record that the headline was not wrong. In January 2036, Dr N. Mabuza stood on a platform beside Barend Loots.
+
+*Both of those cannot be doing the same work,* the columnist wrote, *and I do not think Dr Mabuza is dishonest. I think she is a serious person who has been used, in December by a Minister and in February by all of us, and that the fact that she can be used in both directions inside a year is the most interesting thing about the position she holds. If a finding supports the Minister when he needs it and supports the Programme when it needs it, the public is entitled to ask what the finding is.*
+
+Nel read it four times, at the kitchen table, with the fan on.
+
+She could not construct a reply. She spent about two hours on it, which was two hours more than she should have, and every version she produced ran to four hundred words and required the reader to hold three distinctions at once, and the columnist's version ran to nine hundred and required none.
+
+The columnist was not wrong. That was the difficulty. The columnist had noticed something real about the position she held, which was that a null result is a shape that anybody can put their hand into, and she had known that since November 2034 and had written it in paragraph 8.3 and had asked for the paragraph to be reproduced in full.
+
+*
+
+Thandeka Zwane found her the next morning in the breakfast room of a hotel in Gardens, which is not a coincidence in a small country: they were both booked into the same conference block by the same secretariat, at the same government rate, in the same three-star establishment with the same eggs.
+
+She sat down without being asked, which Nel appreciated and did not say so.
+
+"I'm not here to be nice to you," Thandeka said.
+
+"Good."
+
+"And I'm not here to gloat. I want to say a thing that I have been carrying since about March and I'd rather say it to your face in a room with nobody in it than have it sit in me for another year, and after this I'm going to eat my breakfast and get a flight."
+
+Nel put her cup down. "Go on."
+
+"You have spent two years telling us — correctly, and I have accepted it since March and I have said so publicly twice — that a clean profile from a subject who has read the manual is worth nothing. Not weak evidence. Nothing. Because the assumption the instrument runs on has failed."
+
+"Yes."
+
+"Right." Thandeka folded her hands. "Now.
+
+"You have been assessed all your life. School. That bursary. Every board and every panel and every appointment. Forty years of instruments, some of them yours. And every single one of them came back clean, and not one of them ever saw the woman actually sitting in the chair. I have watched you in rooms for two years, doctor, and I have watched what it costs you to be in one, and I do not know one tenth of it and I am not asking. What I know is that nothing anybody has ever administered to you has ever found you.
+
+"And we gave you a life anyway. A career. A doctorate. A national panel. Sixty-one pages that a Minister read with a pencil.
+
+"And you took it."
+
+Nel said nothing.
+
+"I want to be exact, because you're an exact person and you'll dismiss it if I'm sloppy," Thandeka said. "I am not accusing you of anything. You were entitled to every bit of it and you should have had more. I am not saying you deceived anybody and I'm not saying the instruments should have caught you, and I'm certainly not saying that a person's interior has to be verified before they're allowed to have a life, because that is a monstrous thing to say and I have spent thirty years in wards where people say it about the dying.
+
+"That's the point. That *is* the point.
+
+"We have never been able to verify an interior. Not in you, not in me, not in my mother, not in a single patient I have ever consented for surgery. Not once, in the whole history of the thing. It has always been unavailable, and we have always proceeded anyway, and the proceeding is not a failure of rigour — it is the only thing there has ever been.
+
+"So the question was never *can we verify it*. The question is what we do while we can't. And your answer to that question, for yourself, for fifty-nine years, every single morning, has been: proceed.
+
+"And I have read all sixty-one pages twice and I have listened to you in four rooms and you have never once given me a reason why the answer should be different this time. Except that this one is bigger." She sat back. "Bigger is not a reason, doctor. It's a size."
+
+There was a long silence. A waiter came and went and came back.
+
+Nel sat with it and did what she did, which was to take it apart properly, because it deserved to be taken apart properly and because she had never in her life given a bad answer in order to give a fast one.
+
+She could see the shape of the reply she wanted. It had something in it about scale being a difference in kind past a certain point, and something about the difference between a person you can be wrong about one at a time and a thing you are wrong about four hundred thousand at a time, and something — this was the piece she could feel and could not get hold of — about the fact that when we proceed with each other we do it mutually, both of us unverified, both of us exposed, and that whatever was happening here was not that.
+
+It would have taken four minutes and three distinctions and she was not sure the third one held.
+
+"I don't have one," she said.
+
+Thandeka nodded slowly. She did not look pleased.
+
+"Ja," she said. "I didn't think you did. I was hoping."
+
+She ate her breakfast. They talked, for about ten minutes, about the hotel and about the conference and about whether the airport shuttle was worth it, and it was almost comfortable, and then Thandeka went to get her flight.
+
+Nel sat in the breakfast room in Gardens until they came to clear the buffet.
+
+*
+
+The notice was gazetted on the twenty-ninth of January 2036 and ran to a page and a half.
+
+*In accordance with the Programme's participation charter (annexure F to the service standard, adopted 3 July 2034), and the Programme having determined that the matter constitutes a material change, the Programme hereby gives notice of a public participation process in respect of clause 7 of the service standard (standing caution)...*
+
+*...the Programme having requested, and the Electoral Commission having agreed, that the process take the form of a national advisory poll...*
+
+*...the Programme confirms, as it undertook in 2034, that it will be bound by the outcome.*
+
+It was the most transparent, best-designed public participation process in the country's history, and it was gazetted, and Adri Steenkamp had spent four months on it, and every civil-society organisation that commented on the design commented favourably.
+
+Nel read the notice at the kitchen table on the twenty-ninth of January with the fan on, and read it twice, and then got up and stood at the sink for a while looking at the back stoep.
