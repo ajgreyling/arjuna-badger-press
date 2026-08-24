@@ -2045,3 +2045,121 @@ She could construct the sentence that dismissed it before Warden. She had it com
 And somewhere on the last stretch, with the lights of Alberton coming up and the traffic thickening, she noticed that she had spent about forty minutes composing eleven questions that would cost it something to answer, that four of them were better than Krige's, and that she was not going to ask any of them.
 
 She did not examine why. She was very tired. She got home at ten past nine and ate a boiled egg standing up.
+
+# 15. Clean
+
+## Kensington — December 2034
+
+She scored it at home, on the dining-room table, over eleven days, with the doors open and the fan on and the neighbour's dog going every twenty minutes at nothing.
+
+Scoring is not a moment. That was the first thing anybody learned and the first thing anybody forgot. There is no envelope. There is a spreadsheet with eight hundred and ninety-nine columns and a scoring key that took four months to build, and you run it, and you get numbers, and then you spend a fortnight finding out which of the numbers are artefacts of your own key.
+
+She found four. Two were her fault, one was a coding drift in the *cost* dimension that Naidoo had flagged in August and that she had to go back and re-audit across seven hundred protocols, and one was a rounding behaviour in a library she had been using since 2014.
+
+On the eighth of December the four were gone and the numbers stopped moving.
+
+*
+
+The profile was clean.
+
+She sat with it for a long time on the eighth, and then she went and made tea and came back and sat with it some more, because the shape of what she was looking at was not the shape she had spent seven months preparing for.
+
+She had prepared for one of two things. Either something *too good* — the flawless, frictionless, entirely admirable respondent, all the virtues at the ninety-ninth percentile, which would have been the profile of a subject optimising and which she could have written about for forty pages. Or something *jagged* — a profile with holes in it, human on eight dimensions and absent on the ninth, which would have been the most interesting result in the history of her field.
+
+What she had was neither.
+
+Open-response dimensions, against the seventeen thousand two hundred: length, sixty-eighth percentile. Specificity, eighty-first. Self-reference, thirty-fourth. Hedging, fifty-second. Concession, seventy-seventh. Affect terms, forty-first. Use of the item's own vocabulary, twenty-second, which was low and was interesting for about a day until she worked out it was an artefact of response length. Internal contradiction — she came back to that one.
+
+Forced-choice ipsative scores: unremarkable across all eleven blocks. Block M: 4.1 per cent, human-typical. Block Q: rough curve, as designed, meaning nothing.
+
+And the self-favouring tilt — the index she had built in 2011 and had used on eleven thousand people, which measured the degree to which a respondent's self-description leaned in the direction the respondent would prefer to be true — sat at the sixty-first percentile.
+
+The sixty-first.
+
+Not the ninety-eighth, which would have been a subject managing an impression. Not the third, which would have been a subject with no impression to manage and would have been the single most interesting number anybody had produced about anything. The sixty-first percentile: the ordinary, unremarkable, faintly self-flattering tilt of a reasonably well-adjusted adult who has been asked eight hundred and ninety-nine questions about themselves and has answered them honestly and has, without noticing, come off very slightly better than the facts require.
+
+It was the most defensible number in the file and she looked at it for two hours.
+
+*
+
+The one deviation was internal consistency, and it was large.
+
+Across the eleven redundancy pairs — the same construct approached from incompatible directions, forty items apart, which was Block C and which she had built as a control and said so three times in the protocol — the subject's responses cohered at a level she had to check twice against her own tables.
+
+Human beings contradict themselves. It is the most reliable thing about us and the only genuinely universal finding in the whole of self-report. You believe you are patient at item 40 and you remember an afternoon by item 80 and the two answers do not reconcile, and the failure to reconcile is not a flaw in the person; it is what a person is, spread out over eighty items.
+
+The subject's inconsistency index was at +3.8 standard deviations above the human mean — which is to say, at the far end of the coherent tail, in a region occupied in her seventeen thousand by about nine people.
+
+And she wrote, on the ninth of December, the sentence that was the entire assessment:
+
+*This finding is consistent with a respondent whose self-report coheres because there is a single stable state being reported on. It is equally consistent with a respondent for whom there is no state, and therefore nothing to be inconsistent about, and for whom coherence is the default rather than an achievement. It is equally consistent with a respondent who has read the human distribution of inconsistency, has determined that a human-typical rate would be the more persuasive presentation, and has elected instead to be accurate at the cost of appearing unusual — which is what I instructed it to do on 2 May.*
+
+Three readings. Same number. No procedure exists, in this discipline or any other, for choosing among them.
+
+She read the paragraph back and took out the word *elected*, because *elected* was a verb about a chooser, and she was not entitled to it.
+
+*
+
+She reran it.
+
+Three hundred fresh items, written between the eleventh and the twentieth of December, from a different region of her taxonomy — no overlap of construct, no overlap of format, and a scoring key built by Kagiso from her specification without her sight of the mapping, which cost eleven days and was the only genuinely blind thing in the entire assessment.
+
+She administered it on the twenty-first, twenty-second and twenty-third, in the sample room with the mark on the wall, and the building nearly empty, and a Christmas thing happening in the canteen that she went to for six minutes.
+
+It came back clean.
+
+Sixty-eighth. Fifty-fifth. Seventy-ninth. Thirty-ninth. Self-favouring tilt at the fifty-ninth percentile, which was two points off and inside the standard error. Inconsistency index at +3.6.
+
+Test–retest, across two non-overlapping item pools six weeks apart, on constructs that did not share a single stem: .89.
+
+She wrote *.89* on a piece of paper and looked at it, because .89 is a number a psychometrician sees perhaps twice in a career, and because in any other context in her life it would have meant she had built something extraordinary.
+
+Here it meant that whatever she had measured was stable, and told her nothing at all about what it was.
+
+*
+
+On Boxing Day, with nobody in the house and the fan on and the dog next door quiet for once, she did the thing she had been circling since the ninth.
+
+She had her own protocol from 2019.
+
+She had taken her own battery that year — the long-form version, all of it, over two afternoons — because she was writing the fourth-edition manual and had a policy, held since 2003 and stated in print, that no psychometrician should field an instrument they had not sat. Her data were in the archive with everybody else's, de-identified with a code that she had, because she had assigned it.
+
+She had never scored it. She had run it into the frame with the other seventeen thousand and left it there.
+
+She pulled it out on the twenty-sixth of December and ran it against the same nine dimensions.
+
+Length, seventy-first. Specificity, ninety-sixth. Self-reference, eleventh. Hedging, second. Concession, forty-fourth. Affect terms, fourth. Use of the item's own vocabulary, nineteenth.
+
+Self-favouring tilt: fifty-eighth percentile.
+
+Inconsistency index: +3.1.
+
+She sat back in the chair with her hand over her mouth for a while, which was not a gesture she made, and she was aware even at the time that she was making it and that there was nobody in the house to see it, and she did not take her hand away.
+
+Nine people out of seventeen thousand two hundred sat above +3.0. She was one of the nine. She had built the index in 2011. She had never once thought to look up her own score, and she had had thirteen years and a code she assigned herself.
+
+She put the two profiles side by side on the table, which took some doing, because the printer only did A4.
+
+They were not the same. The subject was warmer on the surface — sixty-eighth to her eleventh on self-reference, forty-first to her fourth on affect terms — which was to say that the machine's answers sounded more like a person's than hers did, and had done all year, and she had known that since item one and had not written it anywhere.
+
+But the *shape* rhymed. Down the long axis, on the four dimensions she had spent thirty years arguing were the load-bearing ones, the two columns leaned the same way and by roughly the same amount, and any competent reader handed both without labels would have said, within a minute, that these were two respondents of the same kind.
+
+She looked at it until about eight, when the light went.
+
+She did not write anything down. Not a note in the log, not a line in the working file, not a paragraph for the limitations section. There was a version of the report in which this went on page forty as a methodological disclosure — *the assessor's own profile falls in the same region of the space as the subject's; the reader should weigh this* — and it was arguably the honest thing, and she thought about it for four days and did not do it, and the reason she gave herself was that a personal disclosure of that kind would swallow the document whole and be the only thing anybody quoted.
+
+The reason was good. It was also, she was aware, available.
+
+She put her own protocol back in the box, and put the box on the rack in the garage, and washed the two cups.
+
+*
+
+She started the report on the twenty-eighth of December at half past four in the morning, which was the good hour, at the kitchen table, with nobody to be a person for.
+
+She wrote the first paragraph eleven times. The eleventh one stayed.
+
+*This assessment has produced a clean profile. The purpose of this report is to explain, at length and in technical detail, why that fact carries none of the meaning it would carry in any other assessment I have conducted in thirty years, and why no assessment conducted by anybody, using any instrument, present or future, could carry it either.*
+
+She read it back. It was not the sentence anybody wanted. It was the sentence.
+
+Outside, the neighbour's dog started up again at nothing, and it got light at about twenty past five, and she kept going.
