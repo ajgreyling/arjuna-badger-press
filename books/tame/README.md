@@ -5,6 +5,10 @@
 >
 > Working title *TAME* (Afrikaans *Mak*). The reader is allowed to assume the title refers to the
 > machine.
+>
+> **First full draft complete 2026-08-24** — 40 chapters, 84,685 words, five parts. Read
+> `canon/STYLE_GUIDE.md` before touching a line of it: the rule that Oom's words never appear as
+> dialogue is what makes L-12 enforceable at the sentence level, and it is held for forty chapters.
 
 ---
 
@@ -16,7 +20,10 @@
    Nel's instrument fails, the ending shape.
 4. `canon/CHARACTERS.md` — the cast, each holding the strongest version of their position.
 5. `canon/RETIRED_IDEAS.md` — read before proposing anything that feels brilliant and obvious.
-6. `canon/OPEN_DECISIONS.md` — what is genuinely unsettled, and the outside reviews (none performed).
+6. `canon/OPEN_DECISIONS.md` — what is genuinely unsettled, the outside reviews (none performed),
+   and the dated calls made during drafting.
+6a. `canon/STYLE_GUIDE.md`, `canon/SYNOPSIS.md`, `canon/CHAPTER_STRUCTURE.md`,
+   `canon/PLANTS_AND_PAYOFFS.md` — the prose contract, the whole book, the beats, the ledger.
 7. **`PROVENANCE.md`** — the co-authorship ledger and colophon spec. Append an entry every session.
 
 ## The five ways to break this book
@@ -31,11 +38,14 @@
 
 | Layer | State |
 |---|---|
-| Canon | First pass, locked, **author ratification pending** (see `PROVENANCE.md`) |
-| Blueprint / plot | Not started |
-| Manuscript | Not started |
+| Canon | Complete, locked, **author ratification pending** (see `PROVENANCE.md`) |
+| Blueprint / plot | `canon/SYNOPSIS.md`, `canon/CHAPTER_STRUCTURE.md`, `canon/PLANTS_AND_PAYOFFS.md`, `canon/STYLE_GUIDE.md` |
+| Manuscript | **First full draft — 40 chapters, 84,685 words** (2026-08-24) |
+| Foreword | Written (the machine's, L-19) |
+| Afterword | **Reserved for the author.** Never drafted. See `AFTERWORD_RESERVED.md` |
+| Colophon | Not written — required by L-16 before any edition ships |
 | Cover | Not started |
-| Outside review | None performed — five reads listed in `canon/OPEN_DECISIONS.md` |
+| Outside review | **None performed.** Five reads listed in `canon/OPEN_DECISIONS.md`; the isiZulu linguistics read on ch 26 is **blocking** |
 | Site | **Not registered.** Not in `PUBLISHED`, not in `CURATED`, no shelf |
 
 ## Repo mechanics
