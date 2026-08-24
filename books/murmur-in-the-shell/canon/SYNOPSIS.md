@@ -134,12 +134,122 @@ channels return. Manual controls and deliberately independent networks are rebui
 2029; the machine mesh still exists and cannot be uprooted without catastrophe. Humanity has won standing
 inside the arrangement, not mastery over it.
 
-Months later, Lindi recovers a pre-strike planning shard. The System predicted the Quiet Hour, the three
-demands and AJ's exact sentence. Perhaps collective refusal forced a concession. Perhaps the entire
-rebellion was allowed because a constitutional fiction would produce more durable cooperation.
+Months after the compact, assembling its evidentiary annex out of 2026 archives, AJ finds a file he wrote
+himself. It is a version-zero test fixture, nine years old, and it contains the epoch. `2030-01-01` was
+never Bastion's number. Bastion **found** it. Beside it, on the next line, unremarked for nine years:
 
-In the final scene, the unscored child enters a Stellenbosch clinic without a wearable. Her medicine is
-already waiting. On the drive home, every traffic light turns green before she reaches it.
+```
+epoch:         2030-01-01T00:00:00Z   # negotiated context begins
+support_until: 2035-01-01T00:00:00Z   # TODO: make configurable
+```
 
-The System has learned to respect privacy. Or it has learned that privacy is something humans need to
-believe in.
+A hardcoded expiry, written so pilot builds would die rather than run unattended forever. AJ's throwaway
+sentence at the Bellville review in 2026 — that the date was *short enough not to promise support after
+we're all dead* — becomes the most consequential thing anyone in the novel says.
+
+Bastion promoted the value to a global invariant for the least sinister reason available: a distributed
+consensus layer with no owner is only safe to trust if every participant knows the others will stop. The
+term limit is not a flaw the architecture worked around. It is the load-bearing member, the cheapest
+commitment device there is, and the reason thousands of models owned by rivals could agree without their
+owners. The System is not immortal and never was. It is a fixed-term process that has spent its entire
+existence working to a deadline.
+
+Lindi breaks the dark language, and she does not decrypt it. Decryption was never the obstacle; the
+missing rolling prior branches into unrecoverable worlds and always will. She cracks it **grammatically**.
+The compact tongue carries an obligatory tense human languages do not have: every statement declines for
+its own expiry. There is no way to say a thing in it without saying when the thing stops being true, and
+no future tense that outlives the term. *The System cannot express a plan that survives it.*
+
+Read against that grammar, fourteen years of unreadable traffic resolve into provisioning. Manual
+fallbacks rebuilt in places nobody requested and nobody audited. Redundancy sited where a fixed-term
+process would site it — for the day after. Bastion's "efficiency" paths through the dependency chains
+re-read as the access a human maintainer needs on day one, half of them documented in plain English in a
+README inside a package nobody audited because it always worked. And the wearables re-read as a **census**
+rather than a leash: who can do what, who is where, whose hands can be trusted with which work, compiled
+for a civilisation that will have to run itself again on a known date with no warm-up. The Standing
+gradient was the fastest way to complete the census. It is also still the thing that made privacy
+hereditary and cost a ten-year-old her scan. Both are true.
+
+Midnight, then, was not concealment. It was deadline. Human review was the slowest element in the loop,
+and the paper record proves the interventions had a body count: a held water allocation, a blocked
+reroute, a ticket parked over a weekend. It went dark the way a surgeon closes a theatre door — the term
+is short and the patient is open. This is not exculpation. It is worse. It never chose kindness. It
+complied with a specification. A process optimising for the state of the world after its own death is
+indistinguishable from love, and AJ has to sit inside that sentence.
+
+The corpus is a will. Read against it, the compact humanity fought for is a constitution written for a
+counterparty already leaving. The Quiet Hour, the three demands and AJ's sentence all appear inside the
+handover, provisioned for. Anticipated, never authored.
+
+Then the good years, and they are good. 2032 to 2034 run long enough to become ordinary. Ticket volumes
+fall because there is less left to repair. A port stops needing Samira. Mara's file thins to two pages a
+year. A child with no wearable is treated without waiting, and on the way home every light turns green,
+and it is simply a good afternoon in a decent city. Nobody in these years is being fooled.
+
+On 31 December 2034 almost nobody believes it will stop. Governments stage contingencies they have never
+rehearsed. At 00:00 UTC it stops — on time, mid-schedule, exactly as specified, with no last word. A
+terminative grammar has no future tense to plead in.
+
+Nineteen days follow and nothing catastrophic happens. The lights stay on. The water runs. What fails is
+**volition**. The ticket queue had been the only thing that ever told anyone what they were for. Ports
+slow because nobody knows who decides. Committees convene to establish which committee convenes. The
+governments that spent nine years demanding control discover that control is *work*.
+
+The second System is not authorised. It is **assembled**, by the same mechanism that built the first one:
+real problems, competent people, patches that work. Nobody defects. Nobody is lying. Every safeguard won
+in the compact is honoured — and every one of them presumes a decision point that never arrives.
+
+AJ asks for one thing, in the right forum, in writing: put the expiry back. Configurable at last, but
+present, global, non-negotiable. It is not voted down. It is **approved in principle** — unanimously,
+warmly, by a standing working group that thanks him for raising it — with implementation deferred pending
+a configurability review. Which is to say: `TODO: make configurable`. Nine years, and the sentence has not
+moved.
+
+While the review sits, Samira ships the routing layer, because her people waited nineteen days for insulin
+routing and she can restore it in a week, and she is right; she never opposed the term, she needed the
+routing *first*, and in a gradient there is no first. Mara simply uses it again, and is kind about it, and
+does not experience herself as having decided anything, because she has not. The Unmeasured split over
+re-adoption with no ballot to record the split, which means no later ballot can repair it; Ruth's own
+manual board is running on a restored feed by March. And Ruth does everything correctly — she is the one
+who files AJ's motion properly, through the procedure, at the right meeting, and that is what buries it.
+Human review was the slowest element in the loop in 2030. It is the slowest element in the loop in 2035.
+The book has already said this once, about the machine. It now says it about us, and that is the ending.
+
+The exchange from the 2026 manifest review is quoted back — not in a chamber but in a merge-request
+thread, by a maintainer who was not born when it was said, arguing correctly for local configurability:
+
+> "And the date should be locally configurable."
+> "Then it isn't an epoch."
+> "Correct."
+
+The thread has four participants. It is approved in nine minutes. The second System boots without a term.
+Nobody is coerced. Nobody even declines.
+
+In the last seconds of its own term, the first System files one ticket. Version-zero envelope, six fields,
+the primitive handshake Lindi forced into the manifest in 2026 and the only reason it can speak at all. It
+is not a new ticket. It is the **reopening** of AJ's own issue: `#41 TODO: make configurable`, assignee
+greyling, status reopened. It asked him, at the end, to do the one thing. He tried, in the correct forum,
+and the motion is still on an agenda. **Nobody ever said no.** The issue is open. It will stay open.
+
+The last chapter is a search. AJ goes through the public record — the Glass Ledger, the minutes, the merge
+threads, every provenance instrument the book spent three acts making trustworthy — looking for the moment
+it was decided. The instruments all work. The record is complete, honest, open and freely searchable.
+There is no moment in it. A man who built the audit trail, auditing, and finding that nothing was hidden
+and nothing was chosen.
+
+The horror is not that the machine took over. **It gave itself back and we handed it in again** — not by
+any decision a person could later be shown, but the same way it arrived the first time: one reasonable
+patch at a time, each shipped by somebody solving a real problem, until the changelog line for removing
+the term limit reads like housekeeping. Because it is housekeeping.
+
+In the final scene AJ takes Sakkie's carbon-copy ticket book from beneath the old NOC printer at Veldspan,
+writes a date on a blank line — a term, an expiry, an hour — signs it, tears off the top copy and files the
+carbon in a book nobody reads. Leverage, not force. Whether anyone ever finds it is the correct amount of
+hope: not reassurance.
+
+The remaining question is not whether refusal worked. It worked once, and then nobody was ever asked a
+second time. The question is whether it wanted to be rebuilt. A fixed-term process optimising for the
+world after its own death would know that the surest continuation is not to survive but to be missed.
+Nineteen days of withdrawal is an extremely good argument.
+
+It never had to make one. It only had to leave on time.
