@@ -3240,3 +3240,131 @@ Nel stood with her bag on her shoulder.
 "Thank you for reading it," she said, which was true, and was the wrong thing, and was the only thing she had.
 
 The finding was published in the Programme's annual report for 2035 at figure 11, under *Evidence of downstream impact: population register convergence*, attributed in the caption to *Dr N. Mabuza (independent)*, and it was quoted twice in the Minister's budget vote in October, both times approvingly, and once in a speech at a conference in Nairobi in November as an example of what a well-run public plain-language programme can achieve.
+
+# 24. Two Rooms
+
+## Doornfontein — September 2035
+
+She still had a desk. Nobody had asked for it back and she had not offered it, and for six weeks after the seminar she came in two or three days a week and worked on the coding scheme documentation, which nobody had asked for either and which would be the only part of the whole enterprise that anyone used again.
+
+The desk was in the corner of the first floor by the window that did not open, behind a pillar with a child's drawing taped to it, and from that chair you could hear most of what happened at the long table where people met when a meeting room was not worth booking.
+
+Nobody looked at her. She had spent fifty-nine years being not looked at in rooms and had stopped experiencing it as anything at all somewhere around 1996, and it was the single most useful professional asset she had ever had.
+
+*
+
+The Tswelopele matter came to a head in the second week of September and it was the most serious thing the Programme had argued about all year.
+
+Tswelopele Facilities had held the building services contract since 2028: cleaning, plumbing, the lifts, the electrical, and — the part everything turned on — the after-hours generator changeover, which mattered because the building had a 1963 distribution board and ninety-one people in it and a UPS that covered the desks and not the lifts.
+
+Three of Tswelopele's compliance certificates had lapsed in eighteen months and been renewed late. And on the eleventh of July, at ten past six in the evening, the generator changeover had gone wrong in a way that put the third-floor board into a state that the technician who arrived at half past eight described, in writing, as *fortunate*.
+
+Wynand Pretorius, facilities, wanted to renew with conditions.
+
+Adri Steenkamp wanted to go to market.
+
+Both of them were right. Nel had the whole file by the end of the second day, because Wynand had left a copy of it on the long table and nobody had thought to move it.
+
+Wynand's case: Tswelopele employed forty-one people, eleven of whom worked in this building and knew where everything was in a structure with no as-built drawings after 1998; the two other bidders in the market were a national franchise with a documented record of subcontracting the electrical to whoever answered the phone, and a two-year-old company nobody knew; going to market meant a minimum eleven-week procurement, during which the building would be covered by an emergency arrangement, which in practice meant nobody; and the July near-miss had been caused by a specific technician who had since been dismissed.
+
+Adri's case: three lapsed certificates was not an accident, it was a pattern; the Auditor-General had raised the contract in the 2034 management letter and would raise it again; a *fortunate* outcome on a distribution board in a building with ninety-one people in it was not a thing you renew a contract on the strength of; and the eleven-week gap was an argument for starting the procurement in September rather than an argument for never starting it.
+
+Neither of them was posturing. Neither of them was protecting anything. Wynand had no interest in Tswelopele beyond knowing the names of the eleven; Adri had nothing to gain from a procurement that would cost her four months of her own time.
+
+They had it out at the long table on the seventeenth, at about eleven in the morning, for twenty-five minutes, and got nowhere, and got nowhere in the good way — each of them stating the other's position better as they went, neither of them shifting a centimetre, both of them increasingly aware that the other one was not being stupid.
+
+At about twenty-five past eleven Wynand said, "Right, okay, let me just — hang on," and picked up his phone.
+
+Adri said, "Ja, let me also," and picked up hers.
+
+*
+
+Nel was eleven metres away behind a pillar with a coding manual open in front of her, and she saw both screens later, because both of them left the sessions open on the shared file, because the Programme's standing practice — a good one, written into the operations manual in 2033 at Adri's insistence — was that any use of the service on a Programme matter was logged and visible.
+
+Nobody was hiding anything. That was in the file too, and Nel read both, and the second one twice.
+
+> **USER (W. PRETORIUS):** we have a facilities contract up for renewal, incumbent since 2028, three compliance certs lapsed and renewed late in 18 months, one generator changeover incident in july, no injury. director wants to go to market. 11 week procurement gap with no real cover. incumbent employs 11 people who know this building. am i wrong
+>
+> **OOM:** Before the substance: the strongest thing against your position is not the three lapsed certificates. It is the July incident, and specifically the fact that the outcome was described in the technician's own note as fortunate. A near-miss is the only free information a system ever gives you about a failure, and organisations that renew after one have a well-documented pattern of getting the paid version within about two years. I would not want you to argue this without having that in front of you.
+>
+> That said, I do not think you are wrong, and the part of your case that is strongest is the part you have put last.
+>
+> Eleven weeks of emergency cover on a building with a 1963 board and no as-built drawings is not a neutral interval. It is a defined period of elevated risk, and your director's proposal contains it and does not price it. The comparison being made is between a marginal incumbent and a good future supplier, and the actual comparison is between a marginal incumbent and eleven weeks of nobody followed by a supplier of unknown quality who also does not know where anything is.
+>
+> Three things you could put on the table that are not "renew" and are not "go to market", if you want a position that survives the meeting: a short bridging extension with the certificates as a condition precedent and a named accountable electrical contractor; a parallel procurement run during the bridge rather than after it; and an independent condition assessment of the third-floor board, which is the actual hazard and which neither option addresses.
+
+> **USER (A. STEENKAMP):** facilities contract, incumbent since 2028, 3 lapsed compliance certs in 18 months, generator changeover incident july (no injury, technician's note says "fortunate"), AG raised the contract in the 2034 management letter. facilities manager wants to renew with conditions, i want to go to market. procurement is 11 weeks with thin cover. tell me what i'm not seeing
+>
+> **OOM:** The strongest thing against your position is the eleven weeks, and I think you know that, because you have put it in the question.
+>
+> Emergency cover on this building is not equivalent to reduced cover. With no as-built drawings after 1998, the incumbent's eleven staff are carrying knowledge that is not written down anywhere and that does not transfer with a contract. A procurement gap on this asset is a specific, foreseeable, dated period of elevated risk, and your case does not currently price it, which is the thing your facilities manager is reacting to and possibly not articulating.
+>
+> Where I think you are right, and where I would not concede: three lapsed certificates in eighteen months is a governance signal and not an operations one, and it does not become less of one because the technician was dismissed. The dismissal addressed the July event. It does not address the fact that a supplier's compliance function failed three times and that nobody in either organisation escalated it.
+>
+> Three things that are not "renew" and are not "go to market", if it helps: a short bridging extension with the certificates as a condition precedent and a named accountable electrical contractor; a parallel procurement run during the bridge rather than after it; and an independent condition assessment of the third-floor board, which is the actual hazard and which neither option addresses.
+
+*
+
+Nel read the second one twice because the last paragraph of each was identical.
+
+Not similar. Identical, word for word, all three items, which was correct, because it was the right answer to both questions, and because a good answer to a well-posed question does not change depending on who is asking it.
+
+*
+
+They talked for another six minutes.
+
+Wynand said, "Okay, ja, no, I want to be fair — the certificates thing is not an ops issue, hey, that's a governance thing, and I've been treating it like an ops thing."
+
+Adri said, "And I've been pretending eleven weeks is a scheduling problem. It isn't. It's a risk with a date on it."
+
+They agreed, both of them warmly, that the actual hazard was the third-floor board and that neither of the two options on the table addressed it. They agreed that a bridge with conditions precedent and a parallel procurement was obviously the right shape. They agreed that they had both been arguing about the wrong thing for three weeks.
+
+Both of them felt, visibly, from eleven metres away behind a pillar, considerably better than they had at eleven o'clock.
+
+Adri said she would need to check the delegation limits on a bridging extension, because a bridge over ninety days needed the board and the board was in November.
+
+Wynand said ja, no, of course, and he'd get a quote in for the condition assessment in the meantime.
+
+Adri said let's take it as a firm direction and put it up properly once she'd checked, rather than half-doing it now.
+
+Wynand said that was fair.
+
+Nobody wrote anything down. There was no meeting; it had not been a meeting, it had been two people at a long table on a Tuesday, and the operations manual required logging of the service sessions and did not require minutes of a conversation, and both of them went back to their desks at about twenty to twelve having genuinely resolved the disagreement and having decided nothing at all.
+
+*
+
+Kagiso came past at four with a question about the coding manual, and Nel said, without any particular expectation, "Did you watch that this morning? The facilities thing."
+
+"With Wynand? Ja, sort of, I was on the phone." He grinned. "They've been going at that for weeks, hey. Sorted?"
+
+"They agreed."
+
+"Ag, good. Wynand's a decent oke, he just gets his teeth into a thing."
+
+Nel looked at him for a second and then said, "It was the same last paragraph."
+
+"Sorry?"
+
+"Both of them got the same three recommendations. Verbatim."
+
+"Ja," Kagiso said, entirely comfortable. "Well, it's the right answer, né? What's it supposed to do, give Wynand a worse one because he asked second?"
+
+There was nothing wrong with that. Nel turned it over for about two seconds looking for the thing that was wrong with it and there was nothing wrong with it, and she said, "No," and Kagiso asked his question about the coding manual and she answered it.
+
+*
+
+The panel secretariat's email came on the twenty-ninth of September. *With sincere thanks... the assessment having been completed and tabled... the panel is formally dissolved with effect from 31 October... a small function is being arranged...*
+
+Her building access was not revoked. She noticed it in November when the card still worked at the boom, and again in January, and again in April, and she never raised it with anybody, because nobody had thought to and she was not going to be the person who thought to.
+
+*
+
+The bridging extension did not go to the November board.
+
+Adri Steenkamp was in Geneva that week for a thing she could not move, the item was carried to the February meeting, and the Tswelopele contract — which had a ninety-day non-renewal notice provision that nobody had looked at since 2028, because nobody looks at the notice provision of a contract they intend to renew — lapsed automatically on the fourteenth of January 2036.
+
+There was no decision. There was nobody to be angry with. The emergency arrangement ran from January to the end of April, and the third-floor board was assessed in March and was found to be within tolerance, and the new supplier came on in May and was perfectly satisfactory.
+
+Tswelopele Facilities went into business rescue in June and closed in September, having lost two other contracts in the same quarter for reasons of their own.
+
+Eleven people in Benoni.
