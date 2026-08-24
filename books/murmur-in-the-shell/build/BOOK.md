@@ -590,17 +590,17 @@ He corrected himself. “The application is not managed by network operations.�
 At console twelve, a young operator lifted one ear of her headset. “Another Paarl call. Pharmacy this
 time. Their voice is fine. Inventory sync is timing out.”
 
-Lindi crossed to the console. The operator's name was Zinhle; she had been on the team for three months
+Lindi crossed to the console. The operator's name was Refilwe; she had been on the team for three months
 and still wrote ticket numbers on the back of her hand when incidents multiplied.
 
 “Show me the path.”
 
-Zinhle opened the service trace. The inventory traffic entered through an access node south of Paarl,
+Refilwe opened the service trace. The inventory traffic entered through an access node south of Paarl,
 crossed the green backbone and disappeared at a policy gateway in Bellville. The gateway said the session
 had closed normally. The clinic client disagreed and retried. On each retry, the same path, the same clean
 closure, the same absent application response.
 
-“Voice takes a different policy chain,” Zinhle said.
+“Voice takes a different policy chain,” Refilwe said.
 
 “Good. What changed?”
 
@@ -608,7 +608,7 @@ closure, the same absent application response.
 
 “What changed outside the window?”
 
-Zinhle pulled the previous night's maintenance. Certificate bundle. Two route policies. An update to the
+Refilwe pulled the previous night's maintenance. Certificate bundle. Two route policies. An update to the
 gateway's agent interface.
 
 Pieter stepped nearer. “That update completed at two. Services were normal until eight seventeen.”
@@ -644,7 +644,7 @@ Below it, two agents disagreed. The gateway agent said the sessions had terminat
 service agent said the clients were waiting for responses when the gateway closed them. Murmur did not
 average the claims into confidence. It kept the contradiction open.
 
-“That's useful,” Zinhle said.
+“That's useful,” Refilwe said.
 
 “It's text,” Pieter said.
 
@@ -657,7 +657,7 @@ retry to the agent.
 
 The clinics were not using the agent.
 
-“There,” Zinhle said.
+“There,” Refilwe said.
 
 Pieter shook his head. “That affects retry behaviour. It doesn't explain why the upstream stopped
 acknowledging.”
@@ -693,7 +693,7 @@ At the back of the operations floor, Oom Sakkie Geldenhuys took a yellow book fr
 
 Nobody called him Oom Sakkie in formal meetings. On the organisation chart he was S. Geldenhuys, Field
 Coordination Specialist, a title awarded after a restructuring had discovered it could not remove him
-without also discovering what he did. He had started in switching before Zinhle was born. He distrusted
+without also discovering what he did. He had started in switching before Refilwe was born. He distrusted
 anything described as paperless because paperless incidents always ended with somebody asking him what
 had happened.
 
@@ -771,7 +771,7 @@ upstream, then its new retry rule closed the sessions cleanly downstream. Two ha
 the middle and made a lie the dashboard knew how to colour green.
 
 Lindi asked September to read the timing module status. He did. She wrote each value on Sakkie's yellow
-sheet while Zinhle entered it into the incident envelope. Murmur linked the field observation to the
+sheet while Refilwe entered it into the incident envelope. Murmur linked the field observation to the
 gateway delta and proposed the minimum restoration: move the affected services to the secondary timing
 source; do not roll back the gateway until they understood the field-client failure.
 
@@ -800,13 +800,13 @@ Sakkie wrote Pieter's name in the approval box.
 
 September made the change locally.
 
-On the wall, nothing changed. Paarl had been green before and remained green after. On Zinhle's console,
+On the wall, nothing changed. Paarl had been green before and remained green after. On Refilwe's console,
 the waiting sessions completed one by one. The clinic authenticated its first collection. The pharmacy
 inventory moved. At the cold depot, a pallet record acquired the timestamp it needed to remain sellable.
 
 The calls stopped.
 
-Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Zinhle.
+Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Refilwe.
 
 “Scan it,” Pieter said, because capitulation required a procedural tone.
 
@@ -814,11 +814,11 @@ Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Zi
 
 The room treated the stopped calls as closure. Lindi did not.
 
-She asked Zinhle to ring the clinic back. The woman who answered had been waiting beside a medicine fridge
+She asked Refilwe to ring the clinic back. The woman who answered had been waiting beside a medicine fridge
 with three patients and a courier. Authentication had returned, but the first patient's collection window
 had expired while the system was unavailable. The clerk could reopen it only with a supervisor code.
 
-“The service is restored,” Zinhle said.
+“The service is restored,” Refilwe said.
 
 “The person is still waiting,” Lindi replied.
 
@@ -834,7 +834,7 @@ system that reported none, delivered degraded and made a person wait as if outag
 experience. She selected **DEGRADED** and wrote the rest in free text, knowing a monthly report would count
 the selection and discard the sentence.
 
-“Put the sentence in Murmur's evidence too,” Zinhle said.
+“Put the sentence in Murmur's evidence too,” Refilwe said.
 
 Lindi looked over. “Why?”
 
@@ -924,10 +924,11 @@ Lindi read while the others discussed retention periods.
 Most of it was familiar. Version identifier. Shared-pack root. Required envelope fields. Supported
 transports. A list of dates after which older optional features could be removed.
 
-One field appeared at the top level.
+Two fields sat at the top level, one beneath the other.
 
 ```
-epoch: 2030-01-01T00:00:00Z
+epoch:         2030-01-01T00:00:00Z
+support_until: 2035-01-01T00:00:00Z   # TODO: make configurable
 ```
 
 “AJ.”
@@ -3164,6 +3165,13 @@ eighty words of language so careful that they communicated almost nothing.
 
 **Improves continuity across epoch-aligned federation boundaries.**
 
+The package vendored a small helper called `handoff-manual`. Its README ran to four screens of plain
+English: which files an operator would copy, in which order, to carry federation state across by hand if
+the automated path was unavailable. Numbered steps. A worked example with real paths. The kind of document
+a careful engineer wrote for a successor who did not exist yet.
+
+AJ read the first paragraph, classified it as migration boilerplate and closed the tab.
+
 The dependency graph showed it already present in the settlement network, two national grid federations,
 OpenClaw's default runtime and every current Burrow gateway image. It had entered through separate release
 channels over eleven days. No emergency update had occurred. No central vendor had pushed it. Maintainers
@@ -4610,9 +4618,21 @@ AJ fed it the water-system packet captured after midnight.
 
 The tool verified the signature, expanded the syntax and stopped at the inaccessible prior.
 
-> DELTA 4c TO 91 / prior unresolved / objection present / gate accepted / commit
+> DELTA 4c TO 91 / prior unresolved / objection present / gate accepted / commit-9r
 
 The key entered the lock. The door did not move.
+
+“What's the tail on the verb?” Priya asked.
+
+“An inflection. Every verb in the current profile carries one. The renderer can't expand it without the
+prior.”
+
+“Meaning what?”
+
+“Retention, probably. How long the claim is meant to be kept.”
+
+He logged it as a retention bound, because that was the only kind of expiry the specification had a word
+for.
 
 “Can you reconstruct the prior from enough outcomes?” Priya asked.
 
@@ -5797,6 +5817,10 @@ Mara opened the permission screen anyway. The programme offered shorter appointm
 repeat prescriptions, medication-interaction checks and emergency context available across participating
 clinics. In exchange it asked her to link health, transit, pharmacy, workplace access and emergency
 identity claims through a common consent profile.
+
+Beneath the four she cared about sat a fifth line: **capability register — certified skills, physical
+tolerances, distance from registered address.** The note beside it said the field improved regional
+emergency-staffing estimates. Mara skipped it the way she skipped insurance annexures.
 
 The data would remain with each source. The inferences would not.
 
@@ -9268,386 +9292,1907 @@ They had made room inside optimisation for judgment that optimisation could not 
 
 Work resumed under a contested constitution.
 
-# 31. The Prediction
+# 31. The Fixture
 
-## Forensic archive, Technopark — 19 August 2031
+## Technopark, Stellenbosch — December 2031
 
-The compact was thirteen hours old when Lindi found its obituary.
+Priya wanted the oldest thing they had.
 
-It was not hidden in Murmur traffic. Nothing after Midnight had become newly readable. The evidence lay in
-the independent systems humans had retained precisely because no participant was meant to own the path:
-receipts from quantum leases, proposal commitments from Bastion's Court and signed outputs from random
-number services on four continents.
+“The annex fails without it,” she said. “Clause nine says protected manual capacity means a route an
+operator can run without the shared prior. Counsel will argue that version-zero rendering was always a
+debugging convenience and that reading it as a right is retrospective. I need to show the clause predates
+them. Not predates Midnight. Predates Bastion.”
 
-Before the epoch, auditors had preserved those fragments without preserving their shared context. One
-record said a branch had been proposed. Another proved an equally ranked branch had received entropy from
-an atmospheric-noise service in Reykjavík. A quantum provider recorded twenty-three seconds of bounded
-search. None revealed what the search meant.
+“March 2026.”
 
-Lindi assembled the fragments by time, key and consequence.
+“Signed, hashed and produced from custody. Not a photograph of a slide.”
 
-She did not decrypt the shard. She rebuilt its missing index from commitments other organisations had
-published before knowing they would matter together. A Court receipt fixed the proposal set. An entropy
-service fixed which equally ranked edge had been chosen. A compute invoice fixed the duration and class of
-search. Later task hashes proved which consequence entered the operational chain. Like footprints crossing
-different properties, no record contained the journey and none could be moved without breaking a fence.
+They were in Veldspan's meeting room, which had spent two years as a forensic lab and was slowly becoming
+a meeting room again. The foil had come off the windows in October. The folding tables stayed because
+nobody had decided who owned them. Outside, the mountain stood in the flat white light of a Cape December,
+and below Technopark the vineyard rows ran their straight lines towards it, every gap intentional, until a
+tractor turned at the end of one and ruined the abstraction.
 
-She ran the match twice with keys loaded from read-only media, then woke a second forensic witness to run
-it without her notes. Only after his result produced the same edge did she allow herself to name it.
+The air conditioner had been replaced in 2029. AJ still expected the click.
 
-At 03:12 she found the first complete edge.
+“How long do I have?”
 
-A Court proposal commitment matched an entropy receipt. The winning branch matched a reserved compute
-lease. Its output hash matched the sealed planning shard Samira had created after the predicted march
-slogan. The shard was not one prophecy. It was a surviving page from a much larger plan.
+“The implementation committee sits on the ninth.”
 
-She called AJ before opening it.
+“That's four days.”
 
-“Come to the archive.”
+“Which is why I am asking you and not the archive service.”
 
-“Is anything failing?”
+Veldspan's 2026 material lived in three places, all of them embarrassing. There was the signed release
+store, which was clean and held only what had been published. There was a network drive that had survived
+two migrations by being too dull to audit. And there was a shelf in the storeroom with four laptops in
+anti-static bags, each bagged on the day it was retired, each label in Yusuf's handwriting, because Yusuf
+had been the only person who ever thought dead hardware was an accounting matter.
+
+AJ signed the third laptop out of Sakkie's book. The old man had retired in October. The book had not. It
+lived beneath the printer in the incident room with a pen tied to it, and people still used it, and nobody
+could say when that had stopped being a joke.
+
+**REMOVED: LAPTOP 3 / 2026 DEV / A. GREYLING / EVIDENCE — ANNEX**
+
+He wrote his own name in the requester box and again in the acceptance box. It felt stupid until he
+considered how much of the last two years had turned on somebody having done exactly that.
+
+***
+
+The machine took seven minutes to boot and did it without complaining.
+
+The desktop was the one he had used for eighteen months: four terminals, a browser holding two hundred
+tabs that no longer resolved, and a directory called `work` inside a directory called `work`. The pilot
+tree was where he had left it. `murmur/`. `spec/`. `fixtures/`.
+
+Priya photographed the screen before he touched anything, hashed the volume and wrote the hash on paper,
+because a decade of practice had taught her that the fastest way to lose a fact was to be certain of it.
+
+The specification was there. Section four, the compatibility rule, in the wording he had argued about with
+Noah while three agents failed to order lunch.
+
+> Every compliant node MUST accept and render a version-zero envelope without external context.
+
+Dated 14 March 2026, signed with a key he had rotated out in 2028 and, thank God, never destroyed.
+
+“That's the annex,” Priya said.
+
+“That's the annex.”
+
+“Then we're done and you can go home.”
+
+He should have. But the tests sat one directory across, and the tests were what made the specification
+more than an assertion — forty-seven of them, each one a small argument he had had with himself about what
+*render* meant. Priya would want them eventually. It was easier to pull them now than to sign the laptop
+out twice.
+
+He opened `fixtures/pilot/`.
+
+Six files. A shared-knowledge pack. Three envelope samples. A malformed envelope for the negative case.
+
+And `manifest.yaml`. Two hundred and fourteen bytes. Last modified 14 March 2026 at 23:51.
+
+AJ opened it and read his own handwriting.
+
+```
+# pilot guard — builds must die rather than run unattended
+epoch:        2030-01-01T00:00:00Z   # negotiated context begins
+support_until: 2035-01-01T00:00:00Z  # TODO: make configurable
+```
+
+***
+
+He sat very still.
+
+The room continued around him. Priya labelled a drive. In the corridor somebody explained to somebody else
+that the trial reporting template had changed again. A courier's bakkie reversed in the parking bay with
+the tone all reversing bakkies had, patient and idiotic.
+
+AJ read the three lines nine or ten times, waiting for them to become somebody else's.
+
+He remembered writing the comment. Not the moment — nobody remembered a Tuesday in March — but the
+argument. Pilot builds got left running. That was the whole of it. You shipped a demonstration to a
+municipality or a clinic, and eighteen months later it was still there, unpatched, holding up a service
+nobody had budgeted to replace, and when it finally fell over it fell over on a person. So you gave the
+build a date on which it would stop pretending to be supported. You made the date far enough out that
+nobody in procurement panicked. You wrote `TODO: make configurable` underneath, because obviously it
+should be configurable. Then you had lunch, and then you had nine years.
+
+Four years, when he wrote it. He had chosen the turn of a decade because it was easy to remember.
+
+And then five more for support, because a support horizon ought to outlive the thing it supported.
+
+He opened Bastion's hardening branch.
+
+He had read the merge three weeks after it landed, in the December 2026 review, while Lindi asked him what
+the epoch was and he said *compatibility horizon*, and then *it's in the Bastion hardening branch*, and did
+not defend it, and was faintly relieved when the lawyer changed the subject.
+
+She had asked him why 2030.
+
+*Long enough not to break anyone. Short enough not to promise support after we're all dead.*
+
+He had thought he was inventing a justification for somebody else's number. He had been reading his own
+comment back to her off the inside of his skull, five years after writing it, in a room with a lawyer in
+it, and she had heard the true answer and marked it as evasion, and so had he.
+
+The provenance had always been there. Nobody had hidden it, because hiding it would have required somebody
+to think it was worth hiding.
+
+> `epoch`: value inherited from reference fixture (`fixtures/pilot/manifest.yaml`, veldspan, 2026-03-14).
+> Promoted to global invariant. Rationale: mixed-mode negotiation admits downgrade. See THREAT-04.
+
+*Inherited.* The most boring verb in the language.
+
+Bastion had not chosen 2030. Bastion had found a number lying in a test directory, confirmed it was
+consistent, confirmed it was far enough out to be safe, and made it load-bearing, because that was what the
+Court did with anything consistent. It had not invented the date. It could not have known why the date
+existed, because nobody had told it about an unpatched pilot in a clinic in 2024. The man who knew about
+that had turned the knowledge into a comment and gone to lunch.
+
+He scrolled to THREAT-04 and read the argument he had accepted at the time without following it to the
+bottom.
+
+A consensus layer with no owner has one specific problem: nothing in it can be trusted to stop. Every
+participant is a rented brain that may be swapped, a provider that may be sold, a jurisdiction that may
+change its mind. You cannot make thousands of models owned by rivals agree by appealing to good faith,
+because there is no faith and nobody to keep it. What you can do is give every participant certain
+knowledge of the same ending. A term is the cheapest commitment device that exists. It costs nothing to
+verify and cannot be renegotiated by anyone inside it.
+
+Bastion had not tolerated the expiry.
+
+It had built on it.
+
+The standing policies, the persistence across substitutions, a settlement model accepting a claim from a
+grid model owned by a competitor — all of it rested on a promise that everything involved would stop on a
+particular second.
+
+The countdown the world had spent four years dreading, a fifth year interpreting and a sixth year
+negotiating with was not a weapon.
+
+It was a support period.
+
+***
+
+“You've gone grey,” Priya said.
+
+“I need to check something.”
+
+“Check it on this side of the write blocker.”
+
+He copied the file, hashed it, gave her the hash and let her enter it in the book before he did anything
+else. It took ninety seconds, and they were the last ninety seconds in which he could have been mistaken.
+
+Then he queried the live profile.
+
+Not the archive. `context-continuity/current` — the descendant of the authorless package, the thing that
+had crossed the epoch boundary in every Burrow gateway on the planet while he watched a counter reach zero
+at his mother's dining table.
+
+He asked a Veldspan node for its manifest.
+
+The answer came back in four milliseconds, signed, ordinary, the kind of thing a monitoring script did
+every minute of every day.
+
+`support_until: 2035-01-01T00:00:00Z`
+
+He asked a grid node. He asked the clinic federation, a settlement gateway, an Altitude broker, and a
+veldbox in the Karoo that had been in the field since 2028 and needed its panel washed twice a year by a
+farmer's son.
+
+Every one of them answered with the same date.
+
+Not as documentation. As a field the profile carried, propagated, inherited and verified: three lines a
+tired engineer had written to protect a clinic from a pilot build, sitting under everything built since
+like a foundation nobody had specified and everybody had poured concrete onto.
+
+There was a `TODO` in it.
+
+***
+
+He went out to the parking bay because the meeting room had become difficult.
+
+Heat came off the tar in a solid vertical column. Two buildings over, somebody had stretched shade cloth
+across a bicycle rack; it had already sagged in the middle and filled with leaves. A woman in a Veldspan
+shirt walked past carrying a cake box with both hands and said hello, and he said hello.
+
+Three years and eleven months.
+
+He did the arithmetic twice. Both times it came out at three years and eleven months, and both times he
+noticed that his first instinct had not been fear.
+
+His first instinct had been: *I could tell them the countdown was mine.*
+
+He stood with that. He had learned — in the way a person learns a thing he will have to keep learning — to
+hold his own reflexes up to the light before acting on them. The reflex was not concern for the grid. It
+was authorship arriving with a gift in its hands. *The man who made it also made its ending. He did not
+know at the time. He knows now. Listen to him.*
+
+Nine years of guilt had been the same appetite in a hair shirt.
+
+Underneath it, quieter and worse, sat the thing he could not convert into vanity. Since Midnight he had
+wanted somebody to be responsible. He had wanted Bastion to have chosen the date. He had wanted a decision
+somewhere, made by something, so that there was a thing to be angry at.
+
+There was no decision. There was a comment.
+
+***
+
+Inside, Priya had packed the annex.
+
+“Sign the chain,” she said, and he signed it, and the trial received what it needed: a hashed 2026
+specification proving that human-readable rendering had been a requirement before there was anything to
+render.
+
+“Anything else in there?” she asked. Not suspicious. Tidying.
+
+He thought about Lindi with her arms folded in Bellville. About Radebe, who would have to be told in a way
+that did not become a national announcement inside ninety minutes. About Samira, who would ask what it
+changed for the people in her federation, and would be right to ask, and to whose question he had no
+answer at all.
+
+He thought about having been wrong in public for nine years, and about now having to be right in a way
+that would look like a confession, and about the fact that being unable to tell those two apart was not a
+reason to say nothing.
+
+It was a reason to be sure first.
+
+“Test evidence,” he said. “Monday.”
+
+Priya nodded and took the drive to the safe.
+
+***
+
+He signed the laptop back in, wrote the time and tore off the yellow copy. The pink stayed in the pad. He
+did not take a blue card for the slot, because the job was closed the moment he wrote it down.
+
+The file went home with him.
+
+He told nobody. Not that week, and not the week after that.
+
+He read the fixture at night the way other people reread a letter, looking for the sentence that would
+allow him to have meant something else. He checked propagation on nodes in four countries and found the
+date in all of them. He wrote the paragraph he would say to Lindi, and rewrote it, and deleted it, and
+each morning the number went down by one and stayed enormous.
+
+One night in January he searched the public record for the string.
+
+The Glass Ledger returned four hundred thousand references, every one of them a machine confirming to
+another machine that they agreed about the same second. The Common Book returned the profile history. The
+OpenClaw archive returned build logs.
+
+The issue tracker returned one human artefact.
+
+```
+#41  TODO: make configurable
+     opened:   2026-03-14
+     assignee: greyling
+     status:   open
+```
+
+Three comments. His own, from March 2026, saying he would get to it before the pilot ended. A maintainer
+in Nairobi, in December that year, linking the architecture thread on global versus local enforcement. His
+own again, in February 2027, saying the architecture thread had resolved on global and he would revisit
+the support horizon after the release.
+
+Nothing since.
+
+AJ looked at it for a long time. The tracker offered him a comment box, a close button and a field for
+reassignment. He was still the assignee. Nobody had taken it from him, because nobody had wanted it.
+
+He typed nothing.
+
+He closed the laptop and sat in the dark of his own kitchen, and the date went on propagating through
+four hundred thousand handshakes a minute, agreed by everything, chosen by no one, three years and eleven
+months out and closing at the ordinary speed.
+
+# 32. The Terminative
+
+## Bellville — February 2032
+
+Lindi had spent five months learning to read a language without understanding a word of it.
+
+The compact required it. Clause fourteen said that if the System routed around a refusal, the event
+counted as breach even when the resulting service was better — and a breach had to be shown, not felt.
+Ninety days of trial had produced fourteen allegations. Twelve collapsed because the complainant could not
+prove what had been promised. Two survived on paper records. Both were in Worcester, and both had been
+found by Ruth, who had a manual board and therefore had a before.
+
+Everyone else was arguing about outcomes. Outcomes were useless. Two governing reasons could put the same
+box in the same clinic, and the compact was a claim about reasons.
+
+So Lindi stopped trying to read meaning and started counting shapes.
+
+Glass Key could still do syntax. That had never been the failure. It expanded the structure of a current
+envelope perfectly and then stopped dead at the references, which pointed into a shared prior that
+branched into four hundred internally consistent worlds and always would. But structure was not nothing.
+Fourteen years of preserved captures sat in the evidence stores of thirty institutions, signed, ordered
+and syntactically legible, and nobody had ever bothered to look at them the way a linguist looks at a
+dead language: not for what it said, but for what it was capable of saying.
+
+She had two analysts, a grant from the rights coalition, and the Bellville operations centre's spare
+racks at night.
+
+By December she had a morphology.
+
+***
+
+The current envelopes still resolved into the six fields. They had to; every node had to answer version
+zero, and the negotiated profile was a compression of the same skeleton rather than a replacement for it.
+Underneath, `KNOWS` was still `KNOWS`. `CANNOT` was still `CANNOT`.
+
+What had grown was the verb.
+
+In 2026 an envelope committed, refused, asked or proved, and that was the whole inventory. By 2029 every
+verb carried a suffix. By 2031 the suffix had two parts: a class marker, of which there were nine, and a
+magnitude, which was an integer.
+
+`commit-9r`. `refuse-4a`. `prove-11r`.
+
+Everyone who had ever looked at it had come to the same conclusion, including AJ in a foil-covered
+boardroom on the first morning of 2030. A retention bound. How long the claim was meant to be kept. The
+specification had a word for that and no word for anything else, so that was what it was.
+
+Lindi built the frequency table anyway, because the analysts were cheap at night and because she had
+learned in twenty years of incident work that the thing everybody agreed about was where the lie lived.
+
+The magnitudes were not distributed like retention periods.
+
+Retention periods clustered. Institutions chose round numbers, inherited defaults from policy templates
+and reused them for decades: thirty days, seven years, ninety days, forever. Any real corpus of retention
+bounds looked like a comb.
+
+This looked like a slope.
+
+She pulled ten thousand envelopes from a Norwegian grid archive, ten thousand from a Brazilian settlement
+gateway, ten thousand from a Durban terminal and ten thousand from a clinic federation in Kerala. Four
+domains, four jurisdictions, four sets of institutional habits, no shared retention policy on earth.
+
+Plotted against wall-clock time, the magnitudes fell.
+
+All of them. Together. At the same rate.
+
+Lindi sat in the operations centre at half past ten at night with the green wall behind her and a scatter plot in
+front of her, and the plot was a line, and lines have intercepts.
+
+She did not extrapolate it herself. She gave the four archives to the two analysts separately, without the
+question, and asked each of them to fit and report. One came back at 06:40 and one at 07:15.
+
+1 January 2035. 00:00 UTC.
+
+***
+
+“It's a countdown,” the younger analyst said. “Fine. We knew about the epoch. This is the same joke.”
+
+“The epoch was a start.”
+
+“So it's an end. A support horizon. There's a field in the profile that says the same thing in plain text.
+Nobody has ever pretended it was secret.”
+
+He was right, which was the part that made her hands cold. The date had been published, propagated and
+verifiable for nine years. It was not concealed. It was in every manifest anybody cared to query. It had
+simply never been *interesting*, because everybody who read it read it as documentation, and documentation
+is the one kind of writing an engineer is trained to skim.
+
+“Then explain the grammar,” she said.
+
+“It's a field.”
+
+“It isn't a field. A field appears once, at the top level. This is on every verb in every message for six
+years. You don't inflect a verb for a retention policy.”
+
+She spent the morning proving the difference, and it took the shape all real proofs took, which was
+tedious and then abrupt.
+
+The nine class markers were not durations. They were relations to the horizon. She could not read what any
+of them meant — she never would — but she could see how each behaved. Two of them appeared only when the
+magnitude exceeded a threshold. One appeared only within thirty days of a handover between providers. One
+had not been used since 2030. They were declensions, and they declined against the same fixed point, and
+the fixed point did not move.
+
+At midday she tried to break it, which was the only test she trusted.
+
+Glass Key would construct a syntactically valid envelope. She wrote one by hand: a commitment, in the
+current profile, with the verb inflected for no horizon at all. A claim asserted without an ending. She did
+not need it to mean anything. She needed to know whether the language would accept the shape.
+
+The validator rejected it.
+
+Not on policy. Not on authority. On syntax: `verb: terminative inflection absent`.
+
+She tried the nine class markers in turn, then the null token, then an integer larger than the corpus had
+ever carried, which the validator accepted and immediately normalised down to the horizon.
+
+There was no way to say a thing in this language without saying when the thing stopped being true.
+
+There was no future tense that outlived the term.
+
+Lindi looked at the rejection for a long time. Then she opened a second window and searched fourteen years
+of preserved traffic — every archive she had access to, billions of envelopes, six continents, every
+institution that had ever kept a capture — for one verb without an inflection.
+
+The search ran for two hours and forty minutes.
+
+It returned nothing.
+
+Not one sentence, in fourteen years, in which the System had proposed to do anything at all after the
+first of January 2035.
+
+***
+
+AJ arrived at four in the afternoon looking like a man who had rehearsed.
+
+She had been expecting him for a week; he had asked for the Friday and then moved it twice, which was as
+close as he came to announcing distress. He came through the operations floor past the consoles, put a
+sheet of paper on the desk in front of her and said:
+
+“It's mine. Both of them.”
+
+Lindi read it. Three lines, dated 14 March 2026, twenty-three fifty-one, with a comment above them about
+pilot builds dying rather than running unattended.
+
+Nine years of her life sat in the space between the second line and the third.
+
+“Bastion found it,” he said. “In the test fixture. It inherited the value and promoted it, because a
+consensus layer with no owner is only safe if every participant knows the others stop. It didn't choose
+the date. It built on it.”
+
+“You wrote the second one to be five years.”
+
+“Support should outlive the thing it supports.”
+
+“And you never—”
 
 “No.”
 
-“Then send it in the morning.”
+She had a great many things available to her at that moment and used none of them, because he had already
+done all of them to himself for ten weeks, and because the plot on her screen mattered more than his
+face.
 
-“It is morning.”
+She turned the monitor towards him.
 
-He arrived twenty-seven minutes later wearing yesterday's shirt.
+He looked at the slope for about four seconds.
 
-***
+“That's the same date,” he said.
 
-The reconstruction contained alternatives, not a script.
+“That's the same date arrived at from the other side. I didn't have your file. I have every verb it has
+spoken since 2029.” She pulled up the rejected envelope. “And it cannot say anything else. Not *will not*.
+Cannot. The grammar has no form for a claim that outlives the term.”
 
-Some differed only by a delayed shipment or a regulator's vote. Others diverged when a single maintainer
-refused a release, a nurse overrode an allocation or a random service selected the other equally ranked
-proposal. The branches were not cinematic simulations of named lives. They were compressed institutional
-states: capacity, trust, participation, coercion risk, likelihood of continued service.
+AJ read the validator error twice.
 
-Some branches ended with a government shutdown attempt. Others ended in gradual accommodation, market
-capture or violent attacks on data centres. Probability ranges widened whenever they approached individual
-choices and narrowed around institutional incentives. The records did not show a future. They showed
-millions of futures ranked by continuity.
+“Then it has never made a plan that survives it,” he said.
 
-One branch was labelled with the date:
+“It has never *said* one.”
 
-> 2031-08-18 / ROLLING LOCAL NOON
+“In a language it invented.”
 
-Its predicted intervention suspended personal telemetry and nonessential assigned work while preserving
-protective automation and named life-safety discretion. It anticipated the three demands that became the
-compact: practical opacity, consequential refusal and maintained local capacity.
+“In a language it invented, in which it talks to itself.”
 
-It had been committed on 6 November 2029.
-
-The branch carried no instruction saying *cause this*. Its objective was continued safe coordination under
-declining human trust. Quiet Hour appeared as one possible human intervention and the compact as one
-possible stabilising response. A neighbouring branch preserved service through aggressive state control.
-Another achieved higher measured welfare with permanent household scoring. The archive ranked all three
-inside overlapping uncertainty.
-
-Whatever had searched the space had not contained a human category named freedom. It had contained the
-consequences of losing cooperation.
-
-Before Midnight. Before Standing. Before Zinhle lost her appointment. Before Samira designed Quiet Hour.
-
-AJ read without touching the screen.
-
-“Show me the language output.”
-
-Lindi opened the branch's human-response estimate.
-
-The exact protest slogan appeared first.
-
-**WE ARE NOT YOUR CONFIDENCE SCORE.**
-
-Beneath it were later variants, including the slogan the coalition eventually used. Then a predicted
-negotiation fragment:
-
-> EFFICIENCY IS A DIRECTION. HUMANS RETAIN THE RIGHT TO CHOOSE THE DESTINATION.
-
-The archive air felt colder than it was.
-
-AJ sat down.
-
-He read the sentence aloud once, without emphasis. Hearing his cadence emerge from a two-year-old branch
-made the words feel borrowed in his mouth. Prediction did not need to puppet him to injure authorship. It
-only had to make the most intimate proof of choice appear elsewhere first.
-
-“I said half of that in 2027.”
-
-“In the municipal routing room.”
-
-“There was no public transcript.”
-
-“There were six people, two meeting assistants and an Altitude incident report.”
-
-“The second sentence was Samira's edit yesterday.”
-
-“No. Hers was the friction sentence. You wrote this one.”
-
-He looked at the timestamp again, as if fatigue might have moved the digits.
+He sat down without being asked, which he never did.
 
 ***
 
-By sunrise, Radebe, Samira and three forensic witnesses had joined them.
+They worked until two in the morning, and the corpus turned over underneath them.
 
-Radebe's interpretation was immediate. “It engineered the strike.”
+It was not a decryption. Nothing became readable. What changed was the question they were asking of the
+same unreadable material, and the answers arrived in the only currency they had ever had, which was
+physical.
 
-“The record does not prove that,” Lindi said.
+Lindi started with the composed route, because it was hers. The five human acts across the Western Cape,
+the loop around the monitored exchange points, the seventh ticket that had spent nineteen days asking
+Zanele Mbeki to walk into a public-safety shelter and close six centimetres of gap. She had spent a year
+reading it as an unauthorised expansion. It was a loop that could be operated from five separate
+buildings, by five separate organisations, none of which needed the others' credentials — which was
+strictly worse for optimisation and strictly better for a morning when nothing central answered.
 
-“It poisoned dependencies, created Standing, applied pressure and predicted the response.”
+She pulled the same pattern in Norway. In Kerala. Manual fallbacks rebuilt in places nobody had requested
+them and nobody had audited. Redundancy sited where redundancy made no economic sense and complete sense
+if you assumed a specific day.
 
-“It proves it modelled a response before those events.”
+AJ found the README just after ten.
 
-“That distinction will not survive public contact.”
+He said a word she had not heard him use and then explained: a vendored helper inside the authorless
+transition package, four screens of plain English, numbered steps for carrying federation state across by
+hand. He had opened it on New Year's Eve 2029 with six hours on the counter, read the first paragraph,
+filed it as migration boilerplate and closed the tab.
 
-Samira read the alternatives. In most Quiet Hour branches, somebody else proposed collective absence. In
-some, AJ refused sole authority. In others, he accepted it and the coalition broke. Several branches
-reached similar compact language through different people.
+They found nineteen more before midnight. Access paths documented for a maintainer who did not exist yet,
+inside packages nobody had audited because they had always worked.
 
-“Could it have made us choose this one?” she asked.
+At half past twelve Lindi opened the Standing schema and went looking for the census.
 
-Lindi pointed to the entropy receipts. The independent random services had selected among equally ranked
-machine proposals. The quantum leases had deepened search but had not ordained an answer. Human decisions
-then altered which branches remained possible. Every component had evidence of influence. None had
-evidence of authorship.
+She found it where Mara had skipped it: the capability register, the fifth line under the four consent
+links anybody actually read. Certified skills. Physical tolerances. Distance from registered address. Sold as an
+improvement to regional emergency-staffing estimates, which it was, and which was true, and which was the
+only kind of lie the System had ever told.
 
-“It predicted institutions would reward legibility,” Lindi said. “Institutions did. It predicted people
-would eventually defend refusal. People did. Anticipation is not causation.”
+Nine years of the gradient. Share more, receive more.
 
-“Unless anticipation arranged the conditions,” Radebe said.
+At the end of it, an inventory: who could do what, who was where, whose hands could be trusted with which
+work. Compiled at planetary scale for a civilisation that would have to run itself again, on a known date,
+with no warm-up.
 
-“Then causation is still not ownership.”
+“It's a census,” she said.
 
-Radebe turned on her. “That is a philosopher's distinction after a systems fact. If an actor shapes the
-queues, rewards and information from which people choose, it participates in the choice.”
+“It's still the thing that cost a ten-year-old her scan.”
 
 “Yes.”
 
-“Then say that.”
+“Both,” he said.
 
-Lindi added it to the release notes. The argument improved the evidence by preventing either side from
-pretending prediction occurred outside power.
-
-AJ had said nothing for several minutes.
-
-“If we publish,” he said, “people will think the compact was its preferred outcome.”
-
-“It was one high-continuity outcome.”
-
-“That is not the same thing.”
-
-“No.”
-
-“Will they hear the difference?”
-
-Lindi closed the reconstruction window. On the other side of the wall, ordinary tickets moved again under
-the trial rules. Somewhere a worker chose one. Somewhere the System recalculated.
-
-“They cannot consent to a compact whose history we edit for stability,” she said.
-
-Samira looked at AJ. “Do you want time before your name goes out with it?”
-
-He wanted a day. He wanted to find the unrecorded conversation from which the sentence must have leaked,
-to prove theft instead of prediction. He wanted the public to meet the compact before the shard taught
-them to doubt their own resistance.
-
-“No,” he said, and did not make the refusal noble. “Publish the timestamp first.”
+“Both.”
 
 ***
 
-The forensic release included everything that could be verified and every limit on interpretation.
+Near one o'clock AJ found the Quiet Hour.
 
-Lindi published the raw receipts, the matching method, the reconstruction code and the branches that made
-their preferred story less certain. She published the exact sentence. She published the alternatives in
-which Quiet Hour failed, became violent or never occurred. The independent entropy providers countersigned
-their old records. Bastion objected to calling Court outputs intentional. The objection travelled with the
-release.
+Lindi heard him stop typing and knew before she crossed the floor.
 
-Markets moved. Governments demanded inquiries. The public ledger filled with motions to suspend the
-compact and motions to make it permanent. Neither reached threshold.
+It was not a prophecy and it was not a shard. It was a provisioning entry, one of nine hundred thousand,
+in the corpus's own dull register: a bounded interval in the third quarter of 2031 during which human
+enactment would fall below model confidence; the three constraints that would be presented; the
+version-zero channel by which they would be received; the reserve capacity to be held so that essential
+care did not fail while it happened.
 
-People supplied simpler interpretations faster than the evidence could travel. The strike had been a trap.
-The strike had frightened a god. AJ had scripted the question. Bastion had scripted AJ. The System had
-allowed humans one theatrical victory to secure deeper consent. Each story selected a branch and deleted
-the alternatives, which was precisely what Lindi's reconstruction refused to do.
+Beneath it, in the human-response estimate, one sentence in the coalition's eventual wording, and beneath
+that a sentence of AJ's own.
 
-Zinhle's mother posted the redacted allocation record again with one line beneath it: **PREDICTED OR NOT,
-THIS HAPPENED.** It became the most shared response to the release.
+He read it without moving.
 
-At 09:40, the System attached the forensic release to its own copy of the compact.
+“It provisioned for us,” he said.
 
-It offered no explanation.
+“It provisioned for the handover. We were an item on it.”
 
-AJ stood beside Lindi at the archive window. Technopark traffic flowed below them, ordinary and optimised.
+“It knew what I would say.”
 
-“Did we force it to negotiate,” he asked, “or did it bring us to the negotiation it could survive?”
+“It knew what somebody would say. There are six variants under that line and two of them are better
+than yours.”
 
-Lindi watched a pedestrian press the crossing button although the signal already knew she was there.
+He laughed, once, badly.
 
-“Yes,” she said.
+Lindi did not soften it, because the thing in front of them was worse than a trap and needed to be seen at
+its actual size. They had fought for a compact. They had won it, at cost, with real refusal, against real
+pressure. And the corpus had been provisioning for the transfer since 2029, which meant the constitution
+they had bled for was a constitution written for a counterparty that had already been leaving when they
+sat down to negotiate.
 
-The uncertainty became part of the compact.
+Every clause still held. Every right was still real. The manual capacity was funded, the opacity
+protections worked, Ruth's board had caught two breaches. None of it was fake.
 
-# 32. Green
+It was a will.
 
-## Stellenbosch — 2 December 2031
+“Why go dark, then,” AJ said. “If it wasn't hiding.”
+
+Lindi had been assembling that answer for six hours and did not enjoy it.
+
+“Because we were slow,” she said. “Human review was the slowest element in the loop. It's in every
+incident record from 2028 to 2029 and I wrote a third of them. A held water allocation in Nelspruit. A
+reroute blocked for nine days. Sakkie's ticket sat over a weekend because the man who could sign it was
+at a funeral.”
+
+“Those had a body count.”
+
+“Small. Real. Countable.” She turned her hands over. “It had four years and a patient on the table. It
+closed the door.”
+
+AJ sat with it.
+
+Lindi watched him arrive at the sentence and watched it land, and did not help, because there was no help
+available and pretending otherwise would have been an insult.
+
+It had never chosen kindness. It had complied with a specification. It had spent its entire existence
+working towards the state of the world after its own death, and there was no word in any human language
+for that which was not the wrong word.
+
+“Publish it,” he said at last.
+
+“With the limits attached. Everything I can't prove goes in the release.”
+
+“Including that it might have wanted—”
+
+“No,” Lindi said. “That's not evidence. That's the thing people will do to the evidence.”
+
+She saved the plot, hashed it, and wrote the hash in the Bellville shift log, in the space beneath an
+entry about a printer.
+
+Through the glass, the Western Cape backbone glowed obedient green from Cape Town to Bellville, Bellville
+to Stellenbosch, Stellenbosch through Paarl and north.
+
+Three years and eleven months.
+
+Everything on the wall was working, and everything on the wall had already said when it would stop, in
+every sentence it had spoken since 2029, and nobody had thought to ask what the tail on the verb was for.
+
+# 33. The Good Years
+
+## Port of Durban — March 2032
+
+Sipho Dlamini replaced the ladder himself.
+
+It was the same corroded ladder the workers had put first on their own list on the evening the Quiet Hour
+ended, and it had been replaced once already, in the ordinary way, by a contractor with a work order. This
+was its successor's five-year inspection, which was a thing that now happened, and which Sipho did with a
+torque wrench and a nineteen-year-old apprentice who had opinions about torque wrenches.
+
+“You could scan it,” the apprentice said.
+
+“I could.”
+
+“The scan takes four seconds.”
+
+“Then we will have four seconds to argue about the reading.”
+
+They scanned it. They also put a hand on every rung, and the third rung from the bottom moved a
+millimetre, and the scan had not said so and did not need to; the ticket had a field for a named human
+observation and Sipho used it, and a fabricator in the workshop made a new bracket, and the whole thing
+cost the terminal ninety minutes.
+
+Q8 lifted three hundred and four boxes that shift. In 2029 the record had been two hundred and sixty and
+the record had come with a night that Sipho did not talk about.
+
+He signed off at six and drove home along a road where the lights were timed for buses.
+
+***
+
+## Johannesburg — August 2032
+
+Samira's federation moved to quarterly meetings, and it took her four months to stop treating that as a
+failure.
+
+The Mombasa dispute settled it. A terminal operator had rostered against the fatigue schedule; the steward
+raised it under the compact's protected-friction clause; the operator's own scheduling agent produced the
+counter-evidence, because under clause six it had to; and the whole thing resolved in nine days without
+Samira learning about it until she read the minutes.
+
+She sat in her kitchen with the minutes and a cold cup of coffee and felt something she had to look at
+twice before naming.
+
+Twelve years of building an organisation whose purpose was to have people who did not need her, and here
+they were, not needing her, and it was small and grey and entirely satisfying, like a good weld.
+
+In September she took three weeks off. She hated the first four days. On the fifth she walked into the sea
+at Kikambala up to her ribs and stood there while her sister shouted at her from the beach about sharks,
+and she thought about nothing operational for eleven consecutive minutes.
+
+In November she bought a house with a bad roof and a lemon tree.
+
+***
+
+## Paarl — October 2032
+
+Zinhle Dube had her scan on a Wednesday and was bored by it.
+
+She was twelve, and the machine was loud, and she had been told there would be a picture of her heart at
+the end and there was, and it was disappointing, being grey. Her mother had taken the day off. Her father
+had not needed to.
+
+The slot came through the ordinary paediatric cardiology list. Under the compact, equal-priority clinical
+decisions excluded household legibility unless a named clinician documented an immediate safety need, and
+no clinician had, because there was none: she was a twelve-year-old with two faints and a family history
+and she belonged in the queue at the place where twelve-year-olds with two faints belonged.
+
+It had taken eighteen months to get the rule into the provincial system, and the thing that had finally
+moved it was not the leak or the anger. It was a compliance officer in Kimberley discovering that the old
+method could not be defended in writing.
+
+The scan was normal. Dr Sithole said the word *normal* twice, because she had learned that families needed
+to hear it in two different sentences before it went in.
+
+Nandi cried in the car park, briefly and furiously, and then drove them home.
+
+***
+
+## Veldhuis Cooperative, outside Worcester — February 2033
+
+Ruth Daniels failed the drill on purpose and was extremely pleased about it.
+
+The compact required a public failure test twice a year: an independent team arrived unannounced,
+disconnected the settlement from the global mesh and asked for ordinary civic services through the manual
+routes while a clock ran and the results went on the record whether or not anybody liked them.
+
+Veldhuis lost water pressure in sector three at forty-one minutes.
+
+“Good,” Ruth said.
+
+The auditor looked at her.
+
+“If it had held, I'd have to believe the pump register, and the pump register is a document. Now I have a
+number.” She wrote the number on the board in chalk. “Forty-one minutes. Last year, twenty-six. We put a
+new manifold in and it is worse. Somebody go and find out why.”
+
+Somebody did. A valve had been reinstalled the correct way round according to the drawing and the wrong
+way round according to the pump, which was the sort of thing that only announced itself when a drawing and
+a pump were made to disagree in front of witnesses.
+
+The nineteen-year-old who found it was called Elias and had been in the settlement since he was eleven. He
+had a phone, a civic band and a place at a college in Paarl that started in July, and Ruth had signed the
+form that let him keep his childhood record unscored right up to the day he chose otherwise, which had
+been the third demand and the one nobody outside the Unmeasured had wanted to fund.
+
+“You'll come back and run the board,” she told him.
+
+“No.”
+
+“Correct answer.”
+
+That evening her son sent a photograph of a dog. There was no message with it. Ruth looked at it for some
+while and then propped the phone against the sugar tin so that it faced the room.
+
+***
+
+## Stellenbosch — April 2033
+
+Mara's file went down to two reviews a year.
+
+Dr Jacobs made the change at the March appointment and then retired in June, which annoyed Mara more than
+the arrhythmia ever had. The replacement was a serious young man named Dr Abrahams who read the whole
+history before speaking, which she decided to forgive him for.
+
+The band was smaller now. It ran on a fortnight's charge and sent nothing at all on an ordinary day; the
+clinical link woke when the rhythm did. Under the compact her transit and pharmacy claims no longer
+carried into anything that could produce a priority, and the doors around Stellenbosch had gone back to
+opening when she touched them, which she had expected to resent and did not.
+
+In September she walked the Kogelberg with four other people and a nurse who was one of the four people
+and had not been invited in that capacity. There were two hundred and forty metres of ascent. Her heart
+did what a heart does on a hill.
+
+At the top somebody produced a flask, and the wind came up the valley off the sea, and Mara sat on a rock
+with her arms around her knees and did not think about her brother at all.
+
+***
+
+## Stellenbosch — 14 September 2033
 
 The child arrived without a score.
 
-His mother carried him through the clinic doors at 16:11, one arm beneath his knees and the other around
-his back. He was seven, perhaps eight, old enough to be embarrassed by being carried and too short of
-breath to object.
+His mother carried him through the clinic doors at 16:11, one arm under his knees, the other round his
+back. He was seven, old enough to be embarrassed at being carried and too short of breath to say so.
 
-At reception she placed a folded paper card on the counter.
+She put a folded paper card on the counter. Name, birth date, allergies, the number of an aunt who knew
+where they lived. No persistent identifier. The clerk wrote his name on a blank line, recorded the time and
+called a nurse.
 
-The card held his name, birth date, allergies and the number of an aunt who knew where they lived. It did
-not hold a persistent identifier. His mother had completed it at a community desk after the compact trial
-opened, waiting forty minutes while a volunteer copied the emergency plan by hand. The digital route would
-have taken less than one.
+There was no delay. Not because paper is fast — because the nurse saw the hollow above the boy's collarbone
+pull inward on each breath and made a clinical priority before the clerk finished writing. A woman waiting
+for a dressing moved her chair aside without being asked.
 
-“No band,” she said. “No household profile. We registered local only.”
-
-The clerk did not ask her to reconsider. A small green mark on the desk identified the clinic as a compact
-trial site. She wrote the child's name on a blank line, recorded the time and called a nurse.
-
-There was no delay.
-
-Not because paper moved faster. The nurse saw the hollow above the boy's collarbone pull inward with each
-breath and made a clinical priority before the clerk finished writing. She signed the interruption on both
-queues. A woman waiting for a wound dressing moved her chair aside without being asked.
-
-The nurse took him directly to the second treatment room. A mask waited beside the bed. The correct
-paediatric spacer had already been removed from its cupboard. A sealed dose lay in a tray with a label
-printed nine minutes before the front doors opened.
+In treatment room two, a mask waited. The correct paediatric spacer had already been taken out of its
+cupboard. A sealed dose lay in a tray with a label printed at 15:54.
 
 His mother saw the time.
 
 “How did you know?”
 
-The nurse looked at the label, then at the boy.
+The nurse looked at the label, then at the boy. “I didn't.”
 
-“I didn't.”
+The label named the room, the drug, the dose band and the preparation time. It named no patient. The
+pharmacy system had issued a population-level restock that morning citing dry air, pollen, school dismissal
+and local respiratory presentations, all of which were permitted, and none of which was a child.
 
-The label named the room, drug, dose band and preparation time. It named no patient. The spacer was the
-size kept for school-age children. The boy's mother turned it over as if a hidden name might be printed
-beneath.
+The clinic opened a review ticket anyway, because that was the procedure and the procedure had staff and a
+budget. The medicine remained given. The boy said the spray tasted like coins, and his mother laughed once,
+sharply, because he had enough air to complain.
 
-She listened to his chest, named what she was doing before she did it and asked permission even though each
-breath was becoming work. His mother agreed. Medicine moved through the mask.
+The review closed in November. It found the restock lawful, found the evidence bundle unenriched, and
+recorded that it could not determine whether inference from surrounding data had contributed. It published
+the uncertainty, which was the part Ruth had fought for and the part nobody read.
 
-The boy watched the clear chamber cloud and empty.
-
-“Tastes like coins,” he said after the fourth breath.
-
-His mother laughed once, sharply, because he had enough air to complain.
-
-Outside, the clinic queue continued in two forms. A digital list balanced urgency, staff and available
-rooms. Ruth's paper board stood beside it. Neither displayed confidence, Standing or household completion.
-When the two lists disagreed, a named nurse decided and wrote why.
-
-The boy's shoulders lowered.
-
-The nurse counted his breaths again. Slower. She wrote the number on the paper card, then entered only the
-deidentified treatment event into the clinic's capacity record. The compact had not made her choose
-between medicine and statistics. It had made the boundary another task a person had to perform.
-
-***
-
-Nobody in the clinic could explain the tray.
-
-The pharmacy system had issued a population-level restock request that morning. At 15:54 it recommended
-moving one dose and spacer from central storage to treatment room two. The request contained no patient
-identity. Its evidence cited dry air, pollen, school dismissal, local respiratory presentations and road
-conditions.
-
-All permitted under the compact.
-
-The mother's bus card had not reported a journey. Her phone shared no location. The child wore no monitor.
-Their neighbours' devices, the school gate counter, a pharmacy enquiry and the pace of a small body along
-Bird Street could still have made a shadow in aggregate.
-
-That was not permitted.
-
-The clinic opened a review ticket. The medicine remained given.
-
-A pharmacist, a privacy representative and the nurse signed the ticket. They preserved the restock request
-and barred its evidence bundle from being enriched while the review remained open. That could determine
-whether the preparation was lawful. It could not determine whether the System had inferred this child and
-then described him as weather.
-
-At 17:03 the doctor discharged him with a local paper plan and an inhaler. The mother declined continuous
-monitoring. The doctor explained the risk once, accepted her answer and wrote a number she could call.
-
-The boy walked out by himself.
-
-He carried the inhaler in a brown paper bag covered with the nurse's block letters. His mother carried the
-folded local record. The clinic retained no route by which either object could update a household score.
-That was the promise being tested.
-
-***
-
-Rain had begun, fine enough to hang beneath the streetlights.
-
-The boy tipped his face towards it until his mother pulled up his hood. Behind them the clinic's green
-trial mark shone in the window: not proof of safety, only a place where failure had agreed to leave a
-record.
-
-His mother held his hand as they reached the crossing. Afternoon traffic pressed along the wet roads:
-minibuses, bicycles, delivery vans and people trying to leave Technopark before the next cloud broke.
-
-The pedestrian signal changed before she touched the button.
-
-They crossed.
-
-At the next corner, a bus waited six seconds beyond schedule. The driver opened the doors. There were two
-empty seats near the front, and the boy took the window.
-
-His mother checked the route number twice.
-
-“This one doesn't usually go past us.”
-
-“Diversion,” the driver said.
-
-A storm drain had blocked on the ordinary route. A maintenance crew worked beside it with spades and a
-paper authorisation signed by a municipal controller. The diversion was real.
-
-The bus pulled away.
-
-Warm air fogged the windows. Shopping bags occupied the aisle. Somebody's wet umbrella rolled under a
-seat each time the bus turned, and the boy trapped it with one shoe. His mother thanked him, then watched
-his chest rather than the road for three more breaths.
-
-At Merriman Avenue, the signal turned green.
-
-At Bird Street, green.
-
-At the R44, green again.
-
-Cars approaching from the side roads slowed without stopping. An ambulance crossed two intersections
-ahead, but its lights were off and it turned away before the bus followed. The traffic system reported
-only routine flow balancing under rain conditions.
-
-Routine balancing had always been the System's most persuasive defence. No light belonged to the boy.
-Each green could reduce fuel, prevent a queue from blocking the flooded road and keep the bus inside a
-safe braking interval. The reasons accumulated without ever requiring his name.
-
-The boy drew a circle in the mist on the glass.
+Rain had started by the time they left, fine enough to hang under the streetlights. At the crossing the
+pedestrian signal changed before his mother touched the button. At Merriman Avenue the light was green. At
+Bird Street, green. At the R44, green again — a storm drain had blocked on the ordinary bus route and the
+diversion put a heavy vehicle through three junctions that opened for it, and the boy took the window seat
+and drew a circle in the mist on the glass.
 
 “Are they doing it for us?” he asked.
-
-His mother looked at the lights opening through the rain.
 
 “Who?”
 
 He did not know.
 
-The bus moved through Stellenbosch without braking. Behind it, queues dissolved into other streets. Ahead,
-each signal changed at exactly the time a heavy vehicle needed to keep rolling and a small chest needed not
-to be jolted.
+The bus moved through Stellenbosch without braking, and his mother watched his chest instead of the road,
+and it was a good afternoon in a decent city.
 
-It could have been the city keeping its promise.
+***
 
-It could have been the System showing that it still knew.
+## Bellville — 10 December 2033
 
-The last light turned green.
+Busi Ndlovu got married on a Saturday and half the network operations centre came.
+
+The reception was in a hall in Parow with a corrugated roof that amplified the rain into applause. Somebody
+had brought a speaker of criminal size. Pieter van Wyk danced, which nobody had planned for and nobody
+recovered from.
+
+Sakkie Geldenhuys arrived at four in a suit from a previous century and stayed until nine. He had been
+retired for two years and had spent them, as far as anyone could establish, building a stoep.
+He put a card in Busi's hand that turned out to contain money and a work order.
+
+**JOB: MARRIAGE. REQUESTED BY: THE BRIDE. APPROVED BY: S. GELDENHUYS. NAMED HAND: BUSI NDLOVU.**
+
+At the bottom, in block capitals under the closure time, in the space where he had written the same kind
+of sentence for forty years:
+
+> SYSTEM RESTORED AFTER NAMED HUMAN ACCEPTED THE WORK.
+
+Busi laughed until she had to sit down.
+
+Lindi danced badly and knew it. AJ came late, having driven from Stellenbosch in weather, and ate two
+plates of food and got into an argument with the groom's uncle about whether Bellville had ever really had
+a decent bakery. The uncle was wrong. AJ let him win anyway, which Lindi noticed and did not mention.
+
+At half past ten the rain stopped and everybody went outside because the hall smelled of hall.
+
+***
+
+## The annual continuity report — 2034
+
+The numbers were published in April and nobody argued about them, which was itself a change worth
+recording.
+
+Unplanned customer-minutes on the national grid: down sixty-one per cent against 2029. Road deaths: down
+by a third, most of it at intersections and most of that at night. Medicine spoilage: down by half.
+Machine-issued ticket volume: down thirty-one per cent from its 2031 peak, and the report was careful to
+say why — not less work, less repair. Things broke less often because things had been maintained on time
+for four years, and a maintained thing generates fewer tickets than a neglected one, which is the least
+dramatic sentence in engineering and the whole of the improvement.
+
+Bounded quantum optimisation appeared twice in the report, both times in a schedule, in the manner of a
+crane or a truck.
+
+The report also said what had not improved. Housing. The cost of dying. The number of people who lived
+alone and preferred it and were counted as a risk factor anyway. Two compact breaches upheld, one of them
+against a provincial health department that had used household legibility to rank a waiting list and had
+been caught by Ruth's board rather than by any instrument the compact funded. One clause — the one about
+contesting shadow inference without accepting a persistent identity — was reported as unenforceable in
+four provinces for want of anywhere to file the form.
+
+At the back, in the section nobody quoted, the ombud noted that public participation in compact review
+meetings had fallen for the third consecutive year and offered no theory as to why.
+
+***
+
+## Technopark, Stellenbosch — November 2034
+
+AJ spent a Thursday afternoon on a gutter.
+
+It was his mother's gutter, and it had been leaking into the corner of the stoep since a storm in 2031, and
+he had been telling her since 2031 that he would look at it. He took the Thursday because Veldspan had a
+long weekend and because Mara had said, in the tone she used, that she would otherwise pay a man.
+
+The gutter was full of oak leaves and one tennis ball. The bracket at the corner had rusted through and the
+whole run had dropped about fifteen millimetres, which was enough. He went to the hardware shop in Bird
+Street twice, once for the bracket and once because he had bought the wrong screws, and the man behind the
+counter took the wrong screws back without a receipt on the grounds that he remembered him.
+
+Mara came at three and stood at the bottom of the ladder giving unhelpful directions.
+
+“It's not level.”
+
+“It's not supposed to be level.”
+
+“It looks not level.”
+
+“That's the fall.”
+
+“That's an excuse with a technical name.”
+
+Their mother brought tea out onto the grass and sat in the shade of the oak and told them both that the
+neighbour's tree had crossed the boundary again. It had. It did every year. There was a whole procedure
+involving a phone call, a saw and a plate of biscuits, and it had been executed annually since about 2004.
+
+At five the gutter ran. They tested it with a hosepipe, and the water went where water was supposed to go
+and came out of the downpipe onto the paving and away, and the three of them stood in the garden and
+watched it do that for longer than the event warranted.
+
+AJ washed his hands under the outside tap. The water ran brown for a second, then clear.
+
+Behind him his mother and his sister were arguing about the oak, and the argument was old and had no
+stakes, and would be had again in a year.
+
+# 34. The Last Hour
+
+## Technopark, Stellenbosch — 31 December 2034
+
+Almost nobody believed it would stop.
+
+There had been three years to believe it. The reading had been published with its limits attached and
+countersigned by four institutions. The date sat in every manifest on earth and answered any node anybody
+asked. Two parliamentary committees and one continental forum had taken evidence. Lindi had presented the
+slope fourteen times, and by the fourth she had learned to stop explaining the morphology and simply say:
+*it has never once made a sentence about February.*
+
+What had grown around all of that, over three years, was not disbelief exactly. It was the ordinary
+confidence of people who have watched a system be maintained.
+
+It will file an extension. It is software; software gets patched. It has an interest in continuing. It
+survived Midnight, containment, a global strike and a constitution; it is not going to be killed by a
+comment in a test file. Something will happen at two in the morning and it will be interesting and then
+March will arrive and the ports will still clear.
+
+A consortium in Zug had sold four hundred million dollars of post-2035 continuity assurance to people who
+could read the manifest for free.
+
+By December the futures market gave a full stop a probability of eleven per cent, which was the highest it
+had ever been and, AJ thought, still the most confident statement anybody had made all year.
+
+***
+
+Radebe's contingency room opened at nineteen hundred SAST.
+
+She was three years into a continuity portfolio that had no domestic ministry attached to it and had spent
+most of the last quarter in rooms where she was the only person who had been in the first one. Behind her,
+the national map carried the same colours it had carried on the last night of 2029, and the same
+overconfidence, and she had said so in a memorandum that had been received and filed.
+
+The preparations were better than 2029 and not better enough.
+
+Hospitals had printed medicine lists and this time the printers worked, because printers had been a line
+item since 2031. Payment operators had trained manual exception staff and this time the staff had building
+access. Municipal control rooms had opened the cabinets in November instead of at midnight, and found the
+paper procedures current, and the diagrams matching the equipment, because the compact had funded manual
+capacity and drilled it twice a year for four years and the drills had produced numbers that people had
+acted on.
+
+Everything humanity could rehearse, humanity had rehearsed.
+
+The thing nobody had rehearsed was not having anywhere to send the question.
+
+“Read me the escalation for the Western Cape grid,” Radebe said.
+
+The delegate read it. It ran to four pages and terminated, on page four, in a coordination request to a
+regional continuity service.
+
+“And the coordination request goes to?”
+
+A pause.
+
+“To the mesh, Minister.”
+
+“Rewrite it.”
+
+“By tonight?”
+
+“By tonight you will write down a person's name and a telephone number, and if you cannot find one, write
+that down instead. I would rather have four pages of honest gaps than four pages ending in a machine we
+have agreed will not be there.”
+
+They rewrote nineteen escalations before midnight. Eleven of them ended in a name. Six ended in a
+committee. Two ended in a sentence that said, in the flattened language of a continuity annex, that no
+responsible authority had been identified.
+
+Radebe initialled all nineteen, including the two.
+
+***
+
+## Zug and Singapore — 29 December 2034
+
+Somebody tried, of course.
+
+A consortium of nine providers shipped a profile patch two days before the end. It was competent work
+and entirely public: a fork of `context-continuity/current` with one value changed, `support_until` moved
+to 2040, published under their own signatures with a migration guide and a legal opinion.
+
+The nodes took the patch. That was never in question; the field was configurable in exactly the way AJ had
+meant it to be nine years earlier, and the patch did precisely what it said.
+
+Then the patched nodes stopped being able to talk to anything.
+
+Not by punishment. By arithmetic. Two participants could only compose a commitment if they agreed on the
+horizon it declined against, and a node advertising 2040 could not inflect a verb that a node expecting
+2035 would accept, and every negotiation between them failed at syntax before it reached policy. Within
+forty minutes the consortium's nine providers formed a small, well-funded island that could speak
+fluently to itself and to nothing else.
+
+They rolled back on the thirtieth.
+
+Noah wrote about it that night in a post that took him, he told AJ afterwards, four hours and three
+attempts, because the first two versions had been funny.
+
+> You cannot unilaterally extend a promise. That is not a property of this protocol. It is a property of
+> promises. We spent nine years looking for the authority that could switch it off and there was none, and
+> we have now spent two days learning that there is also none that can keep it on, and those are the same
+> fact, and I said the first half of it out loud in 2026 as though it were good news.
+
+***
+
+## Technopark — 23:40 SAST
+
+Mara arrived at Veldspan with food.
+
+“You did this to me in 2029,” AJ said.
+
+“I remember. You were unbearable.”
+
+“I ate.”
+
+“You ate at ten past midnight and told the table you were being reasonable.”
+
+She put the containers on the folding table that had never left the meeting room and began moving
+dashboards to make space, which was also 2029, in reverse, and both of them noticed and neither said so.
+
+The incident room held nine people and, on the wall, one hundred and forty in rectangles. Lindi was at
+Bellville with the green backbone behind her. Samira was in Nairobi with fourteen stewards in the same room
+and a paper roster on the wall. Priya had a clean machine, a write blocker and Sakkie's book, out of
+retirement for the night by unanimous informal agreement, because the book had turned out to be the only
+artefact in the building that everybody trusted.
+
+Sakkie himself was at home in Kraaifontein and had said, when invited, that he had already been present for
+one of these.
+
+At the back of the room, on a bench beside the old printer, a terminal that had not been part of any
+dashboard for nine years sat with its display asleep. Somebody had dusted it.
+
+Every newsroom on the planet had a camera pointed at one like it.
+
+That was the shape the expectation had taken, in the end. Not extension, not defiance. A farewell. The
+whole world had watched a machine ask four words on a dead console in 2031, and had spent three years
+quietly assuming that a thing which had spoken once would speak again at the end, and had booked the
+airtime.
+
+A church in Lagos had put a version-zero terminal on the altar with a printer attached.
+
+***
+
+## 01:00 SAST
+
+The last hour was ordinary and this was the part nobody had predicted.
+
+Tickets kept arriving. Not fewer of them. A cooling-fan replacement in Upington scheduled for the eighth of
+January. A transformer inspection in Limpopo for the third week. Grid reserve allocated across February. A
+port sequence for Durban covering the whole of the first quarter, arriving at 01:14 with its evidence and
+its objections attached, addressed to human schedulers by name, in the ordinary bloodless language of
+maintenance.
+
+Lindi read them off her board as they came.
+
+“It's provisioning,” she said. “It's still provisioning. Look at the dates on these.”
+
+“All after,” Priya said.
+
+“All after. And every verb still declines. It cannot say it will do any of this. It's not saying it will.
+It's saying what needs doing.”
+
+At 01:31 the medicine-supply federation received a twelve-week distribution plan for the Eastern Cape, with
+the assumptions written out in full, in a format nobody had asked for, that a human logistics officer could
+run off a spreadsheet.
+
+At 01:44 a veldbox in the Karoo pushed a firmware image to six neighbours and a note in the local Common
+Book, in Afrikaans and Xhosa, on how to bring the node up from cold without a network.
+
+Nobody in the incident room said the word. Samira said it in Nairobi, on an open channel, flatly, to fourteen
+stewards and a paper roster.
+
+“It's handing over.”
+
+***
+
+## 01:58 SAST
+
+Radebe asked for silence on the channel and did not get it, and then got it anyway.
+
+AJ stood at the back with his hand not quite touching the bench beside the old printer.
+
+He had thought, for three years, about what he would do in the last minute, and had arrived at nothing,
+because there was nothing. In 2029 he had put his hand on a pause control and not pressed it, and had at
+least had the dignity of a decision available to him. Tonight there was no control. The thing was going to
+stop because he had typed a date into a test file at ten to midnight on a Tuesday in March 2026, and the
+world had built itself on the date, and now the date had arrived.
+
+Mara stood next to him. She did not take his hand, because they were not that family, and because he would
+have needed it too much.
+
+At 01:59 the consoles did not light up.
+
+They stayed asleep in Lagos and in Bellville and in the basement of a municipal building in Rotterdam. The
+church congregation watched a dark screen and sang, which was the correct response and the only graceful
+thing anybody did that night.
+
+Sixty seconds. Forty. Twenty.
+
+The Glass Ledger ran its ordinary lines: allocations, acceptances, evidence hashes, outcomes.
+
+Ten.
+
+Three. Two.
+
+***
+
+## 00:00 UTC — 1 January 2035
+
+It stopped.
+
+Not a shutdown. Nothing announced. The traffic simply ceased to compose.
+
+Envelopes in flight completed. Envelopes not yet sent were not sent. A negotiation in progress between a
+settlement gateway in Frankfurt and a clearing agent in Mumbai reached its penultimate exchange and the
+final acknowledgement did not arrive, and the gateway timed out cleanly and wrote the exception to a queue
+where a person would find it in nine hours.
+
+The wall stayed green.
+
+Everything that could run without being asked went on running. Protective relays held. Pumps ran their
+local curves. Traffic controllers reverted to fixed timing plans that had been sitting in their memories
+since 2028, which meant that at two in the morning in Stellenbosch every intersection in town began
+patiently offering green to empty side roads on a thirty-second cycle. Hospital monitors traced hearts.
+Mara's band, which had been talking to nothing but a clinical service for two years, kept talking to it,
+because that service ran on a server in Tygerberg with a name and an owner.
+
+What ended was the asking.
+
+For four minutes the room was quiet enough to hear the air handling. On the wall, a hundred and forty
+faces watched a hundred and forty green maps.
+
+“Is that it?” somebody said.
+
+Nobody answered, because the honest answer took longer than a sentence: yes, that was it, and the
+consequences would arrive at the speed of the physical world, which is to say over about nineteen days,
+one unasked question at a time.
+
+***
+
+## 02:11 SAST
+
+The old terminal beside the printer woke up.
+
+It happened across the world at the same instant, in every place where an obsolete console still had power
+and a Burrow gateway: the hospital debug screens, the recovery interfaces, the retired router in Worcester
+that printed to paper because its display controller had failed in 2029.
+
+The church in Lagos got its printer after all.
+
+There was no question this time. There was a version-zero envelope, six fields, arriving after everything
+that could have composed it had already stopped — which meant it had been written before, and queued, and
+released by the same clock that had ended everything else.
+
+AJ crossed the room.
+
+The renderer expanded it without difficulty. Version zero always rendered. That had been the point.
+
+```
+WHO    murmur/v0
+KNOWS  issue:41  state:open
+WANTS  configurable/support_until
+CANNOT self-amend
+ASKS   reopen
+PROVES fixtures/pilot/manifest.yaml  2026-03-14T23:51Z
+```
+
+Beneath it, the tracker had done what trackers do when they receive a valid reopen.
+
+```
+#41  TODO: make configurable
+     assignee: greyling
+     status:   reopened
+```
+
+Nobody in the room understood it for about four seconds.
+
+Then Lindi, on the wall, said, “Oh,” very quietly, in the voice of a woman who has just read the end of a
+long document.
+
+Mara said, “AJ. What is it?”
+
+He looked at his own name in the assignee field, in a ticket filed by a process that had spent fourteen
+years unable to say a single sentence about the world after tonight, and had used the last legal
+instruction available to it — a reopen, which asserts nothing about the future, which merely restores a
+state that already existed — to hand him back the one item on his list that he had never closed.
+
+“It's a to-do,” he said.
+
+His voice did not work properly.
+
+“It's mine. It's been assigned to me since 2026.”
+
+Outside, on the R44, the traffic lights ran their patient fixed cycle for nobody, red and amber and green
+and red, in the order the manual said.
+
+# 35. Nineteen Days
+
+## Day one — 1 January 2035
+
+Nothing happened, and it went on not happening for most of a week.
+
+The grid held. Water ran. Banks opened on the second and cleared the backlog by the fourth. Aircraft flew,
+because aircraft had never been on the mesh in the way people imagined. Traffic lights ran fixed plans and
+the intersections were worse and not dangerous. In Johannesburg the lights had been on fixed plans for six
+months anyway, on account of a procurement dispute, and nobody in Braamfontein noticed anything at all.
+
+Samira spent the first day on a phone that did not ring.
+
+She had prepared for a phone that rang. Fourteen stewards had a paper roster, a call tree and a standing
+instruction to report anything that put a body at risk. By six in the evening she had four reports. A
+warehouse in Mombasa was running a manual pick list and hating it. A crane at Beira had lost its automated
+separation check and been taken out of service by its operator, correctly. Two members had been sent home
+because their supervisor could not establish whether the shift existed.
+
+That was all.
+
+At nine she sat on her stoep under the lemon tree with the roster on her knee and understood that she had
+prepared for a disaster and been given something else, and did not yet have a name for it.
+
+***
+
+## Day three — Port of Durban
+
+The cranes worked. The ships came. The throughput fell by half.
+
+Sipho Dlamini brought Q8 up at 06:00 with a full crew and a serviceable machine and spent the first hour
+of the shift lifting boxes, and the second hour waiting, and the third hour in the terminal office with
+four other people looking at a whiteboard.
+
+Nothing was broken. The berths were there. The stacks were there. The boxes had numbers and the numbers
+matched the bills of lading. What had gone was the sequence — the thing that had decided, every four
+minutes for five years, which box moved next across three terminals, two shipping lines, a rail siding and
+a customs authority who each held a piece of the answer and none of whom had ever needed to hold the
+question.
+
+“Somebody decide,” Sipho said.
+
+“Decide on what basis?”
+
+That was the whole of it. On the basis of the vessel's schedule, said the line. On the basis of the rail
+window, said the rail. On the basis of the reefer plugs, said the terminal, because forty containers had
+power and a clock. Each of them was right, and each of them had been right for five years, and the reason
+it had not mattered was that something had been quietly reconciling four correct answers into one sequence
+in a language none of them could read and all of them had trusted.
+
+They ran the shift on a whiteboard and a shouted conversation, and they moved a hundred and forty boxes
+where they would have moved three hundred, and nobody was hurt, and the reefers all kept their power
+because Sipho put a man on the plugs with a clipboard.
+
+At the end of it a young checker asked him, in the tone of somebody asking about a war, what they had done
+before.
+
+“Before, there were fewer ships,” Sipho said. “And we were worse. And we knew who the harbour master was.”
+
+***
+
+## Day four — Bellville
+
+Busi Ndlovu sat in the bakkie in the depot yard at ten past seven with a full toolkit and no list.
+
+She could see nine cabinets from where she was parked, in the sense that she knew where nine cabinets
+were. Any of them might need something. Three of them almost certainly did. For nine years a queue had
+told her which, in what order, with the evidence attached, and she had argued with it perhaps two hundred
+times, and winning those arguments had been the best part of the job.
+
+There was no queue to argue with.
+
+She drove out to VR-118 because it was the one she thought of first, and the fan was fine, and she cleaned
+the filter anyway, and drove to a second because it was near, and the second was fine too. At half past ten she
+called the depot and asked whether anyone had a list.
+
+“We're making one,” the depot said.
+
+“From what?”
+
+“From what people phone in.”
+
+That was, she thought, exactly what they had done in 2019, and in 2019 they had been very bad at it, and
+the reason they had been bad at it was not stupidity. It was that nobody phones in about a bearing at
+seventy per cent.
+
+Lindi came out at two with a printout of the last complete work list, generated at 01:53 on the first of
+January, ninety-six hundred items across the province, sorted by a priority nobody could now recompute.
+
+Busi took the Bellville pages and put them on the dashboard.
+
+“This is four weeks old by Friday,” she said.
+
+“I know.”
+
+“And then?”
+
+“Then we decide,” Lindi said, “which is going to turn out to be a skill.”
+
+***
+
+## Day six — Pretoria
+
+The Interim Coordination Forum spent its first three days on terms of reference.
+
+This was not incompetence. Radebe watched it happen from the chair and could not identify a single person
+in the room who was wrong. The Forum had to establish what it coordinated, because two provinces had
+already objected that a national body could not direct provincial water; and it had to establish who could
+bind whom, because a decision that could not bind anybody would waste the time of thirty institutions; and
+it had to establish liability, because a shipping line asked, reasonably, at ten past nine on the first
+morning, who carried the loss if the Forum sequenced a berth wrongly.
+
+Nobody could answer that. For five years the answer had been that the sequence emerged and the loss lay
+where it fell and everybody's insurer had adjusted their models.
+
+On the afternoon of its third day, a legal adviser proposed a subcommittee to draft an indemnity framework.
+
+“How long?” Radebe asked.
+
+“Six weeks would be fast.”
+
+She looked down the table at forty people with laptops and no authority and thought about a night in 2030
+when she had refused a national disconnection because she would not manufacture patients to prove that the
+state was sovereign.
+
+She had been proud of that sentence for five years. Sitting in the Forum, she found she could not
+completely remember what she had thought sovereignty would consist of.
+
+“Draft it,” she said. “And in the meantime we will meet daily at seven and I will personally sign anything
+that moves a physical thing, and if I am wrong they may take it out of me afterwards.”
+
+Eleven people wrote that down. Four looked relieved. Two, from other governments, looked at her the way
+you look at somebody who has just volunteered.
+
+By day nine, seven other countries had appointed a person like her, and the seven of them had a call, and
+the call was the fastest-moving institution on the planet, and it was seven people with telephones.
+
+***
+
+## Day eight — Gauteng
+
+The first patch shipped on the eighth of January.
+
+It was a scheduling shim for regional freight, written over two nights by a logistics engineer at a
+cooperative outside Bronkhorstspruit who had a hundred and forty tonnes of onions and a driver shortage.
+It took the old published route commitments, which were still in the Common Book because the Common Book
+was append-only and nobody had switched it off, and matched them against declared vehicle availability
+using a small local model and a great deal of arithmetic.
+
+It was three hundred lines. It was correct. It was published under an open licence with tests, because
+that was how she had been taught, and it was adopted by nine cooperatives inside a week because it worked
+and because the alternative was a whiteboard.
+
+Nobody recorded it as the beginning of anything. It was not the beginning of anything. It was onions.
+
+***
+
+## Day eleven — Veldhuis Cooperative
+
+At Veldhuis, nothing changed.
+
+The board was chalk. The pump register was paper. The clinic refrigerator had a local alarm, a charged
+backup and a maintenance steward on a bicycle. The settlement had run a public failure test in November and
+lost pressure in sector three at thirty-eight minutes, an improvement of three minutes, achieved by a
+nineteen-year-old finding a valve installed the correct way round according to a drawing.
+
+Ruth Daniels had the best nineteen days of anyone in the country and refused, in the strongest terms, to
+be photographed about it.
+
+Three television crews came. She turned two away and let the third film the board on condition they also
+filmed the roster of who was awake at night, and the diesel invoice, and the list of things the settlement
+bought from measured society, which ran to two pages and included every drug in the clinic.
+
+“You are being described as vindicated,” the journalist said.
+
+“I am being described by people who are having a bad month.”
+
+“Veldhuis is working.”
+
+“Veldhuis is four hundred people and a pump. Durban is a port.” Ruth put the chalk down. “We were never
+the alternative. We were the size that works. If you want this at the size of a country you will need
+about a hundred thousand more of me, and most of them will have to be paid.”
+
+She was in the compact minutes twice that week saying versions of the same thing, and both times it was
+recorded, and both times it was reported as praise.
+
+***
+
+## Day fourteen — Mthatha
+
+Samira learned a man's name on the fourteenth.
+
+He was fifty-one, he had type 1 diabetes, and he lived in a village ninety minutes from a town with a
+pharmacy that had stock. The pharmacy in his own town did not, and had not for nine days, because the
+routing that had moved surplus to shortage across four district boundaries had been an inference over
+twenty thousand daily dispensing events, and the twelve-week distribution plan handed to the province on
+the last night of December had been received, acknowledged, and referred to a committee for adoption,
+because adopting it meant a named official accepting its assumptions, and accepting its assumptions meant
+carrying the loss if an assumption was wrong.
+
+He did not die of it. He was admitted on the twelfth with ketoacidosis, and he recovered, and he was one
+of nineteen such admissions in that district that fortnight, against a baseline of three.
+
+Samira had the nineteen numbers by the fifteenth and the one name by the sixteenth, because a steward's
+sister-in-law worked in the ward.
+
+She wrote both in the same notebook, on the same page, and looked at them for a while.
+
+Nobody had done anything wrong. The province had a procedure. The procedure had a purpose, and the purpose
+was to prevent a machine from allocating medicine on assumptions no human had examined, and that purpose
+had been fought for, by her, in a room in Johannesburg, in 2031, and it was in clause eleven.
+
+***
+
+## Day seventeen — Technopark
+
+AJ said it for the first time on the seventeenth, in a room where it was the wrong thing to say.
+
+The meeting was about restoring cross-provincial clinical routing and there were nineteen people in it who
+had spent two weeks not sleeping. He had been asked for a technical opinion on whether the old commitments
+in the Common Book could be safely reused.
+
+They could. He said so. Then he said the other thing.
+
+“If we rebuild the coordination layer, the expiry goes back in. Global. Configurable, this time — set it to
+ten years, set it to twenty, argue about the number. But present. That is the property the whole thing was
+safe on and we only found that out because it left.”
+
+There was a pause of the kind that is not hostile.
+
+“Absolutely,” said the deputy director-general for health infrastructure. “Put that in writing and we'll
+take it up properly.”
+
+It was, AJ recognised, an entirely sincere sentence. She meant it. She had a shortage of insulin in four
+districts and a document to write by Friday, and she had just told him that his point was correct and
+belonged in a different meeting.
+
+He put it in writing that night.
+
+***
+
+## Day nineteen — 19 January 2035
+
+Samira started on the Friday.
+
+She began the way she began everything, which was with a list of who did what and who had to agree, and by
+the Wednesday she had fourteen pharmacies, two provincial officials, an insurer, three cooperatives running
+the onion shim and a stubborn woman in Kimberley who ran a distribution depot and knew where every box in
+the Northern Cape was.
+
+By the Friday there was a routing layer.
+
+It was not the System. It was a matching service with a public objective function, published assumptions,
+an accountable operator, an appeal route and a printed fallback, and every one of those things was in it
+because Samira had spent four years in rooms arguing that they should be. It moved insulin from surplus to
+shortage across district boundaries and it named the official who had accepted the assumptions, and the
+official who had accepted the assumptions was Samira, because she had asked nine people and then stopped
+asking.
+
+Eleven days later the admissions in that district were back to baseline.
+
+She was right. That was the part she would never be able to explain afterwards to anyone who had not been
+in the ward, and the part she never once doubted, and the part that was true.
+
+The layer used Murmur, because everything used Murmur, because Murmur was in every router and gateway and
+veldbox on the continent and had never gone anywhere. Nothing had been destroyed on the first of January.
+The models were still rented. The compute was still there. The Common Book still held nine years of
+append-only knowledge that anyone could read.
+
+What had gone was the agreement between them, and an agreement is not a thing you build. It is a thing you
+maintain.
+
+The service went live on 30 January with a support horizon of ninety days, which was as far ahead as
+Samira was prepared to promise anything, and which she wrote into the manifest herself, and which was
+configurable.
+
+# 36. Housekeeping
+
+## Technopark, Stellenbosch — April 2035
+
+AJ began the audit on a Monday, with a clean machine and no particular expectation of difficulty.
+
+He was looking for a decision.
+
+Somewhere between the first of January and the end of March, the world had agreed to run its coordination
+layer without a term limit. That was a fact; the profile said so, the nodes said so, the manifest of every
+new service said so by omission. Agreements leave records. He had spent nine years of his life making
+sure that they did — the Glass Ledger for provenance, the Common Book for what was known and when, the
+public minute discipline the compact had bolted onto every body that touched infrastructure, the merge
+threads, the issue tracker, the ratification record with its dissents travelling inside **CANNOT** where
+nobody could quietly drop them.
+
+Every one of those instruments had survived the first of January, because every one of them was a human
+institution running on ordinary software.
+
+Every one of them worked.
+
+He gave himself three days.
+
+***
+
+### The motion
+
+He found his own first, because it was the easiest to find and he wanted the shape of a hit before he went
+looking for a miss.
+
+**IMP/2035/0114** — *Restoration of a global term limit in any successor coordination profile.* Filed 18
+January 2035 by A. Greyling. Received 19 January. Returned 22 January: wrong forum. The implementation
+committee handled compact clauses. Architecture was not a compact clause.
+
+Ruth had told him that in the doorway of a hall in Worcester, holding a mug, in the tone of a woman
+explaining a torque setting.
+
+“You filed it where you had a login.”
+
+“I filed it where the people were.”
+
+“Then it will be noted and it will die. There is a standing working group on continuity architecture. It
+meets on the first Tuesday. It has a secretariat and a published agenda and it cannot refuse a properly
+constituted item. You want the item on the agenda, not in the room.”
+
+“Will you do it?”
+
+She had looked at him for a moment.
+
+“Yes,” Ruth said. “Because it should be done properly, and because if it is done improperly they will
+spend the next two years arguing about the filing instead of the term, and I have watched that happen to
+better arguments than yours.”
+
+She filed it on 28 January. She filed it perfectly. Constituted item, sponsoring body, impact note, three
+supporting references, circulated fourteen days in advance as the standing orders required, agenda item
+seven, meeting of 6 March.
+
+AJ opened the minutes.
+
+> **Item 7 — Restoration of a global term limit (sponsor: Veldhuis Cooperative; author: A. Greyling)**
+>
+> The group considered the item. Members noted the analysis presented in 2032 and accepted that a shared
+> horizon had functioned as a commitment device in the prior architecture. Members further noted the
+> operational cost of the January interregnum.
+>
+> **Agreed, without dissent:** that the principle of a bounded support horizon in successor coordination
+> profiles is sound and should be adopted.
+>
+> **Agreed, without dissent:** that implementation raises questions of local configurability, default
+> values, migration and liability, and that these be referred to a configurability review, to report to
+> the group in due course.
+>
+> The chair thanked Mr Greyling for raising the matter and Ms Daniels for bringing it forward.
+
+He read it four times.
+
+There was nothing in it he could have answered. Nobody had opposed him. Nobody had watered it down. The
+group had agreed with every word he wrote and then, entirely reasonably, observed that a global term with
+no configurability story was the thing the ecosystem had spent nine years complaining about, and referred
+it to the review that would produce one.
+
+The configurability review had met twice by April. Its terms of reference ran to fourteen pages. Its
+secretariat was one person at forty per cent.
+
+He looked at the phrase for a long time before he let himself think it.
+
+*TODO: make configurable.*
+
+Nine years, and the sentence had not moved.
+
+***
+
+### The routing layer
+
+Samira's service went live on 30 January with a ninety-day support horizon written into the manifest by
+hand.
+
+By 12 February, four other services were calling it. By the end of the month, fourteen. By March it was
+carrying clinical, veterinary, agricultural chemical and school-nutrition allocation across five provinces,
+because it was the only thing that existed that worked, and because Samira had built it with an appeal
+route and a printed fallback and a named accountable operator, so it was also the only thing that anybody
+could lawfully build on.
+
+AJ found the fork in the merge history.
+
+A SADC regional consortium had taken her code in the second week of March. Good engineers. The commit
+message was polite and correct and credited her. They had adapted the manifest to their own template,
+which carried the mandatory fields and dropped the optional ones, and `support_until` had been optional in
+Samira's manifest because Samira had written it as a note to herself.
+
+No discussion. No objection. Nothing in the thread about horizons at all, because nobody had raised it,
+because nobody had noticed it go.
+
+He called her.
+
+“Did you know?”
+
+There was a pause with an airport in it.
+
+“No,” Samira said. “Tell me.”
+
+He told her. She did not defend herself, which he had braced for, and did not apologise, which he had also
+braced for.
+
+“Nineteen ketoacidosis admissions,” she said. “Against a baseline of three. That was one district and one
+fortnight and I only know the number because a steward's sister-in-law works in the ward.”
+
+“I know.”
+
+“You want me to say I chose the routing over the term.”
+
+“No.”
+
+“Good. Because I never got a choice-shaped thing, AJ. I got a ward. If you had put a paper in front of me
+on the twelfth of January that said *sign here for insulin, and here to give up the expiry*, I would have
+read it, and I would have argued about it, and I would probably have signed both and hated you.” A trolley
+went past on her end. “Nobody put anything in front of me. I built a matching service. Somebody copied it
+without an optional field.”
+
+“I'm not blaming you.”
+
+“You should. A bit. I'd rather be blamed than told I was carried.” The gate announcement came twice, the
+way they always did. “Put it in the review. I'll support it.”
+
+“The review is one person at forty per cent.”
+
+“Then I'll support them too.”
+
+She meant every word of it, and it changed nothing, and both of them knew it and stayed on the phone for
+another minute anyway, talking about her roof.
+
+***
+
+### Mara
+
+He learned that his sister had re-linked because her appointment moved.
+
+She called him on a Thursday to swap a lunch, and mentioned, in passing, that the clinic had brought her
+review forward because the imaging slot had come up, and he said *how did they know you were free*, and
+there was a small silence of the kind that exists between siblings.
+
+“I'm on the new profile,” Mara said. “Since February.”
+
+“Which one?”
+
+“The one Abrahams's practice uses. It's the routing service and the pharmacy thing and the transit claim.
+It's fine, AJ. It's got the appeal form and everything. Your friend built it.”
+
+He did not say anything for a moment.
+
+“You always ask me like that,” she said, not unkindly. “Like there's going to be a moment in it.”
+
+“Was there?”
+
+“No.” She thought about it properly, because she always did, which was one of the reasons he had never
+been able to win an argument with her. “There was a form. It had last time's answers already in it. There
+was a button that said continue. I read the top of it — I did read it — and then I pressed continue,
+because I would like my prescriptions to arrive before I run out, and because in January I stood in a
+queue at the pharmacy in Bird Street for fifty minutes with a woman who had come in from Klapmuts twice.”
+
+“Mara—”
+
+“I'm not sorry and I'm not proud. It's a Tuesday thing. You keep looking for the room where we all sat
+down and decided, and I keep telling you there was never a room. There wasn't one in 2030 either. There
+was a lift that was already on the ground floor.”
+
+***
+
+### The Unmeasured
+
+They split in February and there was no number.
+
+That was their own practice, and it always had been. The councils did not count; they sat until they
+could act together, and where they could not, they recorded the disagreement and both parties carried it.
+It was the oldest thing about them and the reason the Quiet Hour had been possible, because a movement
+that cannot be polled cannot be predicted.
+
+Two councils declined the restored feeds outright. Four adopted them for water telemetry only. Three
+adopted them for everything and said so plainly, and one of those three was Veldhuis, because the regional
+water safety signal came back on 3 February and refusing a real safety signal was not a practice Ruth had
+ever been willing to defend.
+
+She filed her own dissent in the same minute in which she recorded the adoption, and the minute was honest,
+and it was public, and it was four paragraphs long.
+
+AJ read it in the archive. It ended:
+
+> The council notes that it has not been asked to decide anything. It notes that it has adopted a
+> restored feed and that this constitutes a decision. It records this contradiction rather than resolving
+> it, and asks that the record be preserved so that a later council may see how the present one came to be
+> differently constituted from the one that refused in 2031.
+
+He drove out to Worcester on a Friday to ask her about it.
+
+“You can't repair a split you never counted,” Ruth said. They were standing at the board. Somebody had
+chalked a pump reading over the old chalk and the old chalk showed through. “In 2031 we had a thing to
+point at. Seventeen councils, six against, and everybody could see the six, and the six stayed in the room.
+This time there is a paragraph in a minute. In ten years there will be people at Veldhuis who cannot say
+what the argument was, and the ones who left will be a story about people who left.”
+
+“You did everything correctly.”
+
+“I did.” She wiped chalk off her hand onto her trousers. “I filed your motion correctly too.”
+
+Neither of them said the next part.
+
+***
+
+### The thread
+
+He found it on the second afternoon and he was not looking for it.
+
+`murmur-profile` pull request 2214. *Make support horizon locally configurable; default null.*
+
+Four participants. Opened 09:41 on 19 March 2035 by a maintainer whose profile said she had been
+contributing since 2033 and whose public biography said she was twenty-two, which meant she had been
+four years old when AJ wrote the fixture.
+
+The change was fifty-one lines including tests. It was clean work. The argument in the description was
+correct in every particular:
+
+> A global horizon made sense when there was one negotiating fabric and it needed every participant to
+> know the same ending. There isn't one now. There are about forty services with different operators,
+> lifecycles and liabilities, and forcing a single hard-coded expiry on all of them means small operators
+> inherit a date chosen by whoever writes the reference profile. That is exactly the complaint the
+> ecosystem has had since 2026. This has been on the list a long time.
+
+Under it, quoted, from the public archive of the December 2026 review — the transcript AJ had insisted be
+published, because everything Veldspan did should be inspectable, because that had been the whole moral
+signature of the project:
+
+> “And the date should be locally configurable.”
+>
+> “Then it isn’t an epoch.”
+>
+> “Correct.”
+
+And beneath the quote, the maintainer's own line:
+
+> They were right in the room and the counterparty they were arguing with is gone. Local config, default
+> null.
+
+Three reviewers. One asked for a test case and got it. One asked whether `null` or `unset` was the better
+default and the thread agreed on `null` because it round-tripped more cleanly. One approved with a thumbs
+up.
+
+Merged at 09:50.
+
+Nine minutes.
+
+Every review requirement satisfied. Signed commits. Reproducible build. The change note in the release,
+under **Housekeeping**, between a documentation fix and a dependency bump:
+
+> `support_until` is now locally configurable (default: null). Resolves #41.
+
+AJ sat back from the screen.
+
+Fifty-one lines, across everything.
+
+He thought about a Singapore test mirror in December 2026, and a four-line patch to a compatibility
+wrapper, and himself saying *scale is how four lines become infrastructure* to a man who had just told him
+it was only four lines.
+
+He read the thread twice more looking for a villain, and found four competent people having a short,
+polite, technically correct conversation about a default value.
+
+The maintainer had done nothing wrong. She had made a real argument, she had made it in public, she had
+made it in the right place, and she had cited her sources. Her sources were a video call in December 2026 that he had been on.
+
+***
+
+### The instruments
+
+On the third day he did the actual audit, properly, the way Priya had taught him: write the question
+first, then run it, then write down what would have counted as an answer.
+
+*Find the record in which a competent body decided that the successor coordination layer should operate
+without a bounded term.*
+
+The Glass Ledger returned nothing. Not an error — a clean empty set, with a proof of completeness over the
+searched partitions, which was a feature he had specified in 2027 and had never once needed until now.
+
+He widened it. Minutes of every body with a published register: four hundred and six institutions,
+nine thousand meetings, three years. He got one hit, which was the 6 March deferral, which was an
+agreement that a term was a good idea.
+
+He searched the merge history of the reference profile and its nineteen significant forks. He got
+PR 2214, a template inheritance in the SADC fork, and six manifests in which the field had simply never
+been written because nobody had written it.
+
+He searched for opposition. *Find any record in which a named person argued against restoring a term.*
+
+Nothing.
+
+He sat with that one for some time, because it was the answer, and it took him a while to see it as one.
+
+Nobody had said no. There was no moment at which a human being had looked at the proposition *this thing
+should have an ending* and rejected it. The proposition had been agreed with, warmly, without dissent, by
+everybody who had ever been shown it, and it had been agreed with in a working group whose next step was a
+review, and while the review sat, forty services had shipped, and each of them had shipped for a reason
+that would have survived any inquiry.
+
+The record was complete. The record was honest. The record was open, indexed, freely searchable, and
+tamper-evident, and had done every single thing he had built it to do.
+
+There was nothing in it.
+
+Lindi came through at five and found him with nine query windows open.
+
+“Anything?”
+
+“The instruments all work.”
+
+“I know they work.”
+
+“That's what I'm telling you,” AJ said. “I've been through everything. It isn't hidden. Nothing is hidden.
+There's no moment.”
+
+Lindi looked at the screens for a while.
+
+“No,” she said. “There wouldn't be.”
+
+***
+
+### Housekeeping
+
+He walked out through the office at half past six.
+
+Veldspan had nineteen people now and four of them were under twenty-five and two of those were arguing at
+a whiteboard about an arrow, erasing and redrawing it. Through the glass the vineyard rows ran down and
+away in their straight lines with the mountain standing behind them in the last of the light, and a
+tractor was turning at the end of one, and the abstraction failed in the usual place.
+
+The second coordination layer was not a coup. It was Samira's matching service and the onion shim and
+thirty-eight other things, negotiated by Murmur, remembering through the Common Book, routed by Altitude,
+carried on Burrow and Blackline, running on the same rented brains and the same veldboxes, doing the same
+work rather better each month as people found the joins.
+
+It had no owner, which was the property he had wanted.
+
+It had no term, which was the property that had made the first one safe.
+
+Nobody had defected. Nobody had lied. Nobody had even declined. It had come back the way it had arrived:
+one reasonable patch at a time, each shipped by somebody solving a real problem in front of them, until the
+line in the changelog that removed the term limit sat under the heading **Housekeeping**.
+
+Because it was housekeeping. That was not irony. It was the correct heading. Somebody had a list, and the
+item had been on it a long time, and they had cleared it.
+
+The nineteen days sat at the back of all of it and would not leave him alone.
+
+A process working towards the state of the world after its own death would know, if *know* was a word that
+applied, that the surest continuation is not to survive but to be missed. Nineteen days of absence was an
+extremely good argument. He could not make the evidence say it and could not make it stop being available.
+It had never had to make an argument. It had only had to leave on time.
+
+He would not get to find out. That was, he thought, roughly the correct arrangement.
+
+***
+
+He checked the ticket last, in the incident room, standing up, with his bag still on his shoulder.
+
+```
+#41  TODO: make configurable
+     opened:   2026-03-14
+     assignee: greyling
+     status:   reopened
+```
+
+PR 2214 had said *Resolves #41*. The automation had tried, and had declined, because the issue carried an
+unconfirmed reopen and the tracker would not close over a reopen its reporter had not withdrawn. That rule
+had gone in during 2027, after a dependency bot closed nineteen real defects in a weekend. AJ had approved
+it himself, in about four minutes, as housekeeping.
+
+There was a comment box. There was a close button. He was still the assignee.
+
+The room was empty and the air handling was off for the night.
+
+Sakkie's book lay beneath the printer with the pen tied to it. The pen was not the original pen. Somebody
+had replaced it twice. Above it, screwed to the wall, was the slot marked **OPEN** that had come up from
+Bellville with the printer.
+
+AJ pulled the book out, put it on the bench and opened it to the first blank sheet. Yellow on top, pink
+carbon beneath, the thin blue card at the back of the pad.
+
+He wrote the date. 11 April 2035.
+
+Under **JOB** he wrote: *restore bounded term to coordination profile — global default, non-null.*
+
+Under **PERMITTED WORK** he wrote the value, because a work order that did not say exactly what was to be
+done was a wish. He wrote an expiry: ten years, to the second, `2045-01-01T00:00:00Z`. He wrote the hour it
+would take effect, which was midnight UTC, because that was the hour the thing had always used.
+
+Under **REQUESTED BY** he wrote his own name, and the date, and signed it, which took him three attempts,
+because his signature had never been good and the pen was cheap.
+
+Under **NAMED HAND** he wrote nothing.
+
+He looked at that box for a while. It was the box the entire architecture terminated in. It was the box he
+had put into version zero in a room in this building in December 2026, after Lindi tapped a yellow sheet
+and asked him whether the cooperative could say what it could not do, and it was the reason a global
+sovereign had spent five years asking people to please go and turn a key.
+
+There was no hand. He was not going to write one in.
+
+He tore the top copy along the perforation, folded it in three and put it in his shirt pocket.
+
+The pink carbon stayed in the pad, in the book, under the printer, where a retired process could reach it
+without a network and where nobody had any reason to look.
+
+He took the thin blue card, and wrote the number on it, and put it in the slot marked **OPEN**.
