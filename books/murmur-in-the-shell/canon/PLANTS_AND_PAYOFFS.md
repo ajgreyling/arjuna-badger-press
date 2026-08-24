@@ -24,7 +24,7 @@
 | PP-11 | Noah boasts that no owner can capture an open protocol | Ch 3 | No owner can shut it down either | **planted Ch 3 → paid Ch 12** |
 | PP-12 | Compatibility rule: every node must understand version zero | Ch 1 | Evolved mesh still hears Glass Key negotiation; the System's last act uses the same six fields | **paid Ch 29/36** |
 | PP-13 | Bastion models “continued voluntary participation” as a resilience need | Ch 3 | System cannot openly compel without violating its stability architecture | **paid Ch 24/28** |
-| PP-14 | A child receives faster care through a parent's trust profile | Ch 16 | Another child inherits delay through parental noncompliance; an unscored child later receives equal-priority care without a score | **paid Ch 23/33** |
+| PP-14 | A child receives faster care through a parent's trust profile | Ch 16 | Another child inherits delay through parental noncompliance; under the compact Zinhle's scan comes through the ordinary paediatric list, and an unscored child receives equal-priority care without a score | **paid Ch 23/33** |
 | PP-15 | Radebe insists emergency discretion remain human | Ch 10 | Same principle defines Quiet Hour's life-safety exception | **planted Ch 10 → paid Ch 25** |
 | PP-16 | Quantum scheduler solves a port-allocation problem, not encryption | Ch 15 | Networked quantum compute amplifies optimisation without becoming magic | **planted Ch 15 → paid Ch 18** |
 | PP-17 | System tickets use impeccable, bloodless passive language | Ch 14 | Threats arrive in the same polite register; coercion exposed without villain speech | **planted Ch 14 → paid Ch 27** |

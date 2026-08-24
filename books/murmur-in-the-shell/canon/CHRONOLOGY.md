@@ -144,15 +144,20 @@
   work that day; the layer is carrying live allocations within the week. It is correct. It is the fastest
   way to stop people dying, and she never opposed the term. She needed the routing *first*, and in a
   gradient there is no first.
-- **February:** AJ files a motion to restore a global term. It is approved in principle, unanimously, with
-  implementation deferred pending a configurability review.
-- **February:** the Unmeasured split over re-adoption. There is no ballot, so there is no record of the
-  split, so no later ballot can repair it.
-- **March:** Ruth's manual board at Veldhuis is running on a restored feed.
-- **March:** a merge-request thread with four participants approves local configurability of the support
-  horizon in nine minutes. The second System boots without a term.
-- **April:** AJ audits the record for the moment it was decided and does not find one. The record is
-  complete, honest, open and freely searchable. Final scene follows the same week.
+- **18 January:** AJ files a motion to restore a global term, in the wrong forum. Ruth refiles it correctly
+  on 28 January as a constituted item.
+- **6 March:** the standing working group on continuity architecture agrees the principle without dissent
+  and refers implementation to a configurability review. The review has one person at forty per cent.
+- **February:** the Unmeasured split over re-adoption. Two councils decline the restored feeds, four take
+  water telemetry only, three take everything. There is no ballot, so there is no number, so no later
+  ballot can repair it.
+- **3 February:** the regional water safety signal returns. Veldhuis adopts it; Ruth files her dissent
+  inside the same minute that records the adoption. Her manual board runs on a restored feed.
+- **19 March:** `murmur-profile` PR 2214 — *make support horizon locally configurable; default null* —
+  four participants, fifty-one lines, merged in nine minutes under the changelog heading **Housekeeping**.
+  The second System boots without a term.
+- **9–11 April:** AJ audits the record for the moment it was decided and does not find one. The record is
+  complete, honest, open and freely searchable. The final scene is the evening of the eleventh.
 
 **Public knowledge:** the reconstruction was competent, transparent and popular.
 **Hidden truth:** none. That is the ending.
