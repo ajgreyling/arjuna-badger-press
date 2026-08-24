@@ -4399,3 +4399,137 @@ Voting stations open 07:00–21:00 on Wednesday 12 March 2036. Bring your ID.
 The Commission asks voters to note that, unlike a general election, this poll uses a single-page ballot and the median voting time in the pilot was fifty-one seconds. Voters are asked *not* to arrive between 07:00 and 08:00 unless it is genuinely their only opportunity, as the pilot showed that early congestion, rather than volume, accounts for most queueing.
 
 Water will be available at all stations. The Commission thanks the public in advance for its patience.
+
+# 32. Four Days
+
+## Chatsworth, Durban — February 2036
+
+The coalition had thirty-one member organisations and a budget of four hundred and eleven thousand rand, most of it from the hospice association's reserves, and its national campaign consisted of Thandeka Zwane, a communications officer on loan two days a week, a WhatsApp group with nine hundred people in it, and church halls.
+
+They did forty-one halls in five weeks. She flew back for ward rounds on Mondays and Thursdays and did the rest on leave she had accrued since 2029 and had never taken.
+
+She had one rule for herself and she wrote it on the inside cover of the notebook on the first night, in Pinetown, before she went on: **do not win a room with a body.**
+
+She had watched it done. She had been in a hall in 2021 during the medical scheme business where a woman had brought her son's photograph up onto the stage, and the room had gone with her, and the woman had been wrong about the substance, and the substance had lost. It works. It works every time and it costs the audience their ability to think for about a fortnight, and Thandeka Zwane had eleven beds and four hundred families and would not do it.
+
+So she brought no photographs and no names that had not consented in writing, and she said the number rather than the story wherever the number would carry it, and she lost, by her own estimate, about four halls she would otherwise have won.
+
+*
+
+The other thing she did, at every single stop, in the first three minutes, was the part the communications officer had asked her twice to drop.
+
+"Before anything else, I want to be straight with you about what I am asking you to vote for, because it is not exactly what I want.
+
+"What this coalition actually proposed — it is on page eight of the pack, you have all got one, it came in the post — is that the caution be *offered* instead of imposed. One line: *there is something you should know before I answer, do you want it now?* You say yes or you say no. That is our position and it is the position of every one of the thirty-one organisations behind me.
+
+"That is not on the ballot. The ballot says keep or remove, and that is because a service standard clause is either in the document or it is not, and the Electoral Commission cannot put a redraft on a ballot paper.
+
+"So when I ask you to vote remove, I am asking you to remove the clause and trust the Programme to put something better in its place. They have said they will consult on the replacement. I believe them. I have dealt with them for two years and they have never once lied to me.
+
+"But I am not going to stand here and tell you that a vote to remove is a vote for our proposal. It is a vote to remove. If they put nothing back, we have lost something and it will be partly my doing, and you are entitled to weigh that."
+
+The communications officer said it cost them votes.
+
+It probably did. Thandeka said it forty-one times anyway, and by the third week two of the parties had started saying it too, having discovered that it played well, which she found funny in a tired way.
+
+*
+
+The Chatsworth hall was on the eleventh of February and had two hundred and four people in it and a ceiling fan with a click in it.
+
+She did the argument she had been doing for five weeks, which had got better and shorter.
+
+"Nine million people a day. For most of them, most days, the caution is four seconds and it is fine, and I am not going to pretend otherwise, and the case in the pack is a good case and I would like you all to read it.
+
+"Now. The caution is not calibrated to how much you can take. It is calibrated to how bad the news is. So it fires hardest exactly where the subject matter is worst — a diagnosis, a bereavement, a disability assessment, an eviction, a child. Which means the people in this country who receive the most cautions are the people having the worst year of their lives.
+
+"And it is bound to the *session*. Not to the person. So a family in crisis — where the daughter phones, then the son phones, then the aunt phones, because that is what a family in crisis is — gets it again, and again, and again. It is not the machine being cruel. It is a rule that says *once per session* in a world where a session is whoever picked up the phone.
+
+"Eleven thousand complaints last year. Eleven thousand. I have read a lot of them and so has the other side and they say so in the pack. They are not people who wanted to be lied to. They are people who already knew.
+
+"The case for keeping it says the benefit is diffuse and cannot be pictured by anybody, and that this is a difficulty for a vote.
+
+"I say it is the question.
+
+"You are being asked to keep a rule whose benefit is — on the other side's own account, in their own document, and I want you to notice that they wrote this and not me — not established over the long run, not attributable to anybody in particular, and invisible to every single person it works on.
+
+"And whose cost is a woman with four days left being told twice.
+
+"Bring me the stranger who was made more robust." She let it sit. "I will introduce you to the woman."
+
+*
+
+Yusuf Bhamjee stood up during questions and was sixty-eight and had taught mathematics at a school four streets away for thirty-one years, and he was steady and he was not angry and he took about four minutes.
+
+"Doctor, I want to argue with you and I want you to argue back properly, not politely.
+
+"My son died in 2029. He was thirty-one. It was a mistake at a hospital that is not this one and I am not going to talk about that part.
+
+"What I want to tell you is that for eleven weeks nobody told me anything. Everybody I spoke to was kind. Every single one of them was kind, doctor, and they were kind at me for eleven weeks, and what I actually needed was for one person to sit down and say, Mr Bhamjee, this is what happened and this is what is going to happen next and here is the part you are not going to like.
+
+"Nobody did. I found out what happened to my son from a form. I read it in a car.
+
+"Now this thing — I use it, I use it every day, my wife uses it more than me — this thing does the opposite. It puts the part I am not going to like *in front*, every time, before I have asked for it, whether I want it or not.
+
+"And I have thought about it for a long time and I think that is right. I think it is right *because* I did not want it. Nobody wants it. That is exactly why it must not be up to me on the day."
+
+The hall was very quiet.
+
+"So my question, doctor, is this. You have said the cost is the woman with four days. I hear that and I am not going to pretend it is nothing. But what about the man with eleven weeks? He does not appear anywhere in your case. Where is he?"
+
+*
+
+Thandeka took her time. She had learned in the second week that taking her time in a hall was worth more than anything she could say.
+
+"Mr Bhamjee, thank you. That is the case. That is the actual case and it is better than the one in the pack.
+
+"I'm going to answer you in three parts and the third one you are not going to like.
+
+"First. You are right that you do not appear in my argument, and that is a real defect in it, and I am going to fix it in the halls I have left. What you have described is not a small category. There are more of you than there are of her, and I have not been counting you because you are hard to count, and that is exactly the mistake I have accused the other side of making in the other direction.
+
+"Second. I want to be careful about what your case actually supports, because I think it supports something narrower than keeping clause 7 as it stands. What failed you was not the absence of a rule. It was eleven weeks of human beings choosing kindness over information, one at a time, and never being required to do otherwise. What would have helped you is somebody being *required*. I agree with that completely. Where we differ is whether the requirement should be *before you have asked, every time, to everybody, in every state* — or whether it can be *offered, immediately, in one line, and delivered the second you say yes*.
+
+"And third." She put the notes down. "I am not certain. I want to say that out loud in this hall because I have been saying the confident version for five weeks and it is Tuesday and you have earned the real one.
+
+"I know what the caution costs, because I stand next to it. I have watched a woman hear it twice in two days and I logged the complaint and it is still open. That is not an argument I have read. That is a Tuesday.
+
+"I do not know what it saves, and neither does the other side, and they say so, and they are honest about it, and the honest thing for me to say back is that I am asking two hundred people to remove something whose benefit nobody can measure on the strength of a harm I can measure very well, and that this is exactly the asymmetry they warned about in the pack, on page four, in their own words.
+
+"I still think I am right. I think the imposition is wrong even when the information is right, and I think asking permission is not the same as withholding the truth, and I think it four days a week and about three days a week I am not sure.
+
+"You asked me to argue back properly."
+
+Yusuf Bhamjee stood there for a second and then said, "Ja. Okay. Thank you, doctor," and sat down, and the hall did not applaud, which she was glad about.
+
+He came up afterwards while she was packing the flip chart.
+
+"I am going to vote your way," he said.
+
+"You don't have to say that to me."
+
+"I'm not saying it to be nice." He had his hat in his hand. "I have thought about it while you were talking to the lady about the deaf people. You said asking permission is not withholding the truth. I keep testing it and it keeps holding."
+
+"Mr Bhamjee — " She stopped, and started again. "I want to say something and I don't want it to sound like campaigning. Your argument is better than mine. I mean that technically. If both of ours were submissions to a committee I sit on, yours would carry."
+
+"Ja, well." He put the hat on. "Committees. My wife says I should have been a lawyer."
+
+She did not feel good about it. That was the thing she wrote in the notebook in the car, on the inside cover under the rule: *won a room off a man who was right. He came to me. Did not use a photograph. Still.*
+
+*
+
+Nel Mabuza was in the fourth row on the left and Thandeka saw her at about the eleven-minute mark and lost her place in a sentence for the first time in five weeks.
+
+She was in a green jacket with a bag on her lap and she did not take notes, which Thandeka noticed, because in four rooms over two years Nel Mabuza had never once been in a room without taking notes.
+
+She stayed for the whole thing including the questions. She did not put her hand up.
+
+At the end, while the hall was standing and the chairs were going back, Thandeka looked up from the flip chart and Nel was three metres away in the aisle, and they were both perfectly aware of each other, and Thandeka had the sentence ready — she had had it ready since the breakfast room in Gardens, and it was *I meant what I said and I am still asking* — and Nel gave her a small nod of the kind you give somebody across a car park.
+
+Then she went out through the side door into the parking area, and by the time Thandeka had got past the woman from DeafSA and out into the light, the car was already turning into the road.
+
+*
+
+The polls closed at seventy-one to twenty-nine for removal in the last week of February and stayed inside a point of that until the day.
+
+The coalition's own polling had it at sixty-nine. The parties' had it at seventy-two and seventy and sixty-eight. Nobody's tracked below sixty-six at any point after the fourth of February.
+
+Thandeka did four more halls in March and fixed the argument the way she had told Yusuf Bhamjee she would, and put the man with eleven weeks into it, in his own words, with his written permission, and it was a better argument, and it made no measurable difference to anything.
