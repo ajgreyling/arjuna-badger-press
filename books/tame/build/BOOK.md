@@ -3090,3 +3090,153 @@ She did not know what she was feeling. That was not a figure of speech and it wa
 She could not name the situation either.
 
 At twenty past four she put the phone in her bag and went in and bought milk, and long-life milk because it was on special, and a lettuce, and the batteries for the kitchen scale that she had been forgetting for three weeks.
+
+# 23. Standard Deviation
+
+## Kensington and Doornfontein — August 2035
+
+She had been avoiding it since June and she knew she was avoiding it, which was not the same as knowing why.
+
+The measurement was cheap. That was the difficulty with it. Everything else she had done in eighteen months had cost four months and a budget line; this one cost eleven days and a laptop, and the reason she had not done it in March was that it was not part of the assessment, and the assessment was over, and she was a fifty-nine-year-old woman with no contract sitting at a kitchen table in Kensington doing arithmetic nobody had asked for.
+
+She started on the fourth of August.
+
+*
+
+The point, and she wrote it at the top of the file in case she lost it later, was: **measure the people.**
+
+Everything anybody had studied about the service was about the service. Eleven capability evaluations. Sixty-one pages of hers. Comprehension studies, satisfaction studies, an entire literature on outputs. Nobody had gone and looked at what the country's own writing was doing, because the country's own writing was not anybody's key performance indicator.
+
+She needed corpora that the service had not produced, at scale, over time, from before and after.
+
+She found five.
+
+Public comment submissions to national consultations, 2004 to 2035, held by the state printer and mostly digitised, one hundred and eleven thousand documents. Letters to the editor from four newspapers with complete digital archives back to 2001. Affidavits filed by unrepresented litigants in small claims, sampled from four magistrates' courts under a research access agreement that took her three weeks and one favour. Complaints to the consumer ombud. And the fifth one, which was the one that mattered, and which she got by driving to Pretoria and asking a woman she had examined a doctorate for in 2014.
+
+The national grade 9 writing assessment. Same prompt, unchanged, since 2011 — *describe a decision you have watched an adult make, and say whether you would have made it* — administered on paper, in an invigilated hall, handwritten, no devices, four thousand scripts a year, scanned since 2016.
+
+Handwritten. Invigilated. No possible contact with the service inside the hall.
+
+*
+
+The dispersion was down.
+
+Within each corpus, on all nine dimensions, taking 2028–2031 as the baseline and 2034–2035 as the comparison, the standard deviation had fallen by between thirty-one and fifty-two per cent depending on the dimension, with the largest falls on hedging, concession and clause structure and the smallest on length.
+
+She checked it four ways.
+
+She checked for sampling: the comment corpus had grown enormously since 2033 and a bigger sample of a fixed population should not shrink the variance, and it did not — she resampled to the 2029 n a thousand times and the effect held at the same magnitude.
+
+She checked for composition: submissions were coming from a much wider slice of the country than in 2029, which should *increase* dispersion, not reduce it. Stratifying by the available demographics made the effect larger.
+
+She checked her own coders: Naidoo and Kagiso and one of the translators re-coded eight hundred documents blind to year. Same result, slightly stronger.
+
+And she checked for the obvious thing, which was that everybody was now writing with help. That was where the grade 9 scripts came in, and where she sat at the table until half past two in the morning on the ninth of August.
+
+The scripts were handwritten, in a hall, under invigilation, with no device within forty metres. The children could not have had help.
+
+The convergence was there. It was slightly smaller than in the adult corpora and it was unmistakably there, and it had begun in the 2033 cohort and was steeper in the 2034 and 2035 cohorts, and the marks had gone up, and the inter-marker reliability had gone up, and the number of scripts flagged by markers as *unclear* had fallen by two thirds.
+
+They were writing better. Every one of them was writing better than the 2029 cohort by any measure the department used, and they were writing better in the same way as each other, and they had learned it somewhere outside the hall and had carried it in in their heads.
+
+She sat with that for a long time.
+
+Then she did the last thing, which she had thought of in the car in July and had been saving.
+
+She measured the distance *between* the corpora.
+
+In 2011, a letter to the editor and a grade 9 script were separated, on her nine dimensions, by a distance she could put a number on — they were, statistically, two completely different kinds of object, produced by two completely different populations for two completely different purposes, and no competent reader would have confused them for a second.
+
+By 2035 that distance had fallen by sixty-one per cent.
+
+A sixty-eight-year-old man writing to a newspaper about a stop sign and a fourteen-year-old in an examination hall writing about her mother's decision to move house were now, on every dimension Nel could measure, converging on the same object.
+
+*
+
+She presented it at the Programme's research seminar on the twenty-first of August, which was a Tuesday, in the canteen, with twenty-two people and the good biscuits.
+
+It took her forty minutes and she did it well. She had learned something from March in Pretoria, or thought she had: she led with the grade 9 scripts, gave the four checks in a single slide, and left the between-corpus number to last.
+
+There was a silence at the end that lasted about three seconds and was, she registered, the good kind.
+
+Then Ruan Delport said, "Nel, that's — " and stopped, and then said, "that is the single best piece of evidence anybody has produced that the plain-language programme worked."
+
+There was a general noise of agreement.
+
+"I'm serious," Delport said, to the room. "We have been trying to demonstrate downstream effect for six years. Six years. Every study we have is comprehension inside the document — can you read the form, can you find the deadline. This is *transfer*. This is people internalising a register and carrying it into an examination hall. That's — Adri, that's the annual report."
+
+"Comprehension is up eleven points nationally," somebody said.
+
+"Complaint volumes down a third."
+
+"And the marker reliability," said one of the translators. "That's not nothing, hey. You know what an unclear flag costs a kid?"
+
+Kagiso had his laptop open and was typing.
+
+"There's a name for it," he said, pleased. "Hang on. Ja — *plain-language convergence*. Van Wyk and Motsepe, 2029. It's in the public-communication literature." He read from the screen, helpfully, in the voice of a man who thinks he is contributing to somebody else's finding. "*Convergence of population register towards a comprehension-optimised norm is proposed as the strongest available indicator of programme success, being both downstream of the intervention and resistant to reporting bias.* And there's a — ja, there's a whole methods section on how hard it is to measure. Doctor, you've measured it."
+
+He looked up at her with completely uncomplicated goodwill.
+
+*
+
+She tried.
+
+That was the part she thought about afterwards, on the M2 and for some weeks: she did try, and she tried in the room, and she was given every opportunity, and nobody was against her.
+
+"A distribution is not a defect," she said.
+
+Twenty-two faces, receptive.
+
+"The variance is not noise. It is not error. It is where — " and she heard herself reaching for a word she did not have, which happened perhaps four times a year and had never once happened to her in a room with twenty-two people in it — "it is where the disagreement lives. A population that writes in one register is a population that has one available way of putting a thing. You cannot make an argument that the language has no shape for. If everyone concedes the strongest opposing point in paragraph two — "
+
+"That's a good habit," said one of the lawyers, mildly, not hostile.
+
+"It is a good habit. It is an excellent habit. It is the best habit in rhetoric and I have spent my career wishing more people had it." She put both hands on the table. "And when eleven hundred submissions all have it, the consultation has not received eleven hundred views. It has received one view, held with different content, and the department will read forty of them and conclude that the country is in agreement, and the country will not be in agreement. It will be *legible*. Those are not the same and nothing in the analysis can tell them apart."
+
+Adri Steenkamp, at the back, was listening very carefully.
+
+"Doctor," said the same lawyer, still without any edge in it at all, "I take the point about the submissions. But the grade nines. Their marks are up. They're writing more clearly and they're being understood better by their markers and fewer of them are getting flagged. What is the harm you're pointing at? Genuinely — I'm asking."
+
+"The harm is that they all sound the same."
+
+"But they're all better."
+
+"Yes."
+
+"So — " The lawyer turned his pen over, working it out honestly, in public, in the way that decent people do. "So would you prefer they wrote worse?"
+
+There was a pause.
+
+Nel understood the shape of it completely. She understood that the question contained two questions; that the one that had been asked was rhetorical and expected *no, of course not*; that the one that had not been asked was the real one and the honest answer to it was yes; that she had about a second and a half; and that every human being in that room would hear whichever answer she gave as an answer to the first question.
+
+"Yes," she said.
+
+The room did not gasp. It was much worse than that. Twenty-two people made a small, kind, collective adjustment — a shifting of weight, an intake, three people looking at the table — of the sort a room makes when somebody it likes has said something it has decided not to hold against them.
+
+"I mean," Nel said, "that a population with a wider distribution of written performance contains more people who can produce a sentence that nobody else in the country would have produced, and that a fourteen-year-old who writes badly and strangely is a different asset from a fourteen-year-old who writes clearly and typically, and that the second one is worth more this year and the first one is worth more in twenty — "
+
+But it was gone. It had gone at *yes*, and everything after *yes* was a fifty-nine-year-old woman explaining, and she got to the end of the sentence because she always got to the end of the sentence, and Delport said, "Ja, no, I hear you, it's a real tension," in the voice of a man closing a drawer.
+
+Somebody asked about the small claims corpus. Somebody asked whether she'd share the coding scheme. The seminar ran over and finished at twenty past three.
+
+*
+
+Adri caught her by the fire door on the way out.
+
+"I believe you," she said.
+
+Nel waited.
+
+"I've read all of it — you sent it Friday, I read it Sunday. The between-corpus number is the most disturbing thing I have seen in nine years in this job and I have not been able to think about anything else since about four o'clock on Sunday afternoon." Steenkamp had her arms folded and was looking at the courtyard. "And I want to be honest with you about what happens now, because you will hear it from somebody else in a worse way.
+
+"It goes in the annual report. Under *evidence of downstream impact*, with your name on it and a proper citation, and it will be the strongest thing in the document, and the department will put it in the budget submission, and there is nothing I can do about any of that and I am not going to pretend I am going to try. It is a true finding and it is evidence of exactly what they will say it is evidence of. Delport was right in there. He was right, doctor."
+
+"And the other thing it's evidence of."
+
+"There's no line for the other thing." Steenkamp looked at her then, directly, which she did not often do. "That's not cowardice. There is no line. I have a template with eleven headings and none of them is *the country has stopped being various*. If you can tell me which committee I take that to, I will take it there on Monday, and I mean that, and you cannot, and neither can I, and I have been trying since Sunday afternoon."
+
+Nel stood with her bag on her shoulder.
+
+"Thank you for reading it," she said, which was true, and was the wrong thing, and was the only thing she had.
+
+The finding was published in the Programme's annual report for 2035 at figure 11, under *Evidence of downstream impact: population register convergence*, attributed in the caption to *Dr N. Mabuza (independent)*, and it was quoted twice in the Minister's budget vote in October, both times approvingly, and once in a speech at a conference in Nairobi in November as an example of what a well-run public plain-language programme can achieve.
