@@ -3946,3 +3946,135 @@ Thandeka had, in that moment, nothing. She had watched a woman sit for seven hou
 "Yes," Nel said. "It was."
 
 And she went down the stairs, because the lift on the left was the one that did not work.
+
+# 29. A Lever
+
+## Cape Town — December 2035
+
+Charmaine Weyers had a card and an office in Bree Street and a client list she would describe as *health data governance stakeholders* if you asked her twice.
+
+She came to see him on the eighth of December with a printed document in a plastic folder, which was the first thing he disliked about her, and she began by telling him she had admired the Bill, which was the second.
+
+"Minister, I read everything. That is genuinely what I am paid for. Eleven hundred pages a week, ethics committees, licensing boards, provincial gazettes. Nobody reads them. I read them." She slid the folder across. "This came out on the twenty-ninth of November in the Council's quarterly minute, page forty-one, and I have checked and it has been downloaded eleven times, and four of those are me."
+
+He read it in front of her, which was rude, and took nine minutes, which was ruder, and she sat there without fidgeting, which meant she was good.
+
+Then he read paragraph 7 again.
+
+*The committee directs a review of its own procedures in respect of non-English texts, and records that in twenty-two years it has reviewed none.*
+
+"Who is your client?"
+
+"Three of them have an interest in a licensing regime for automated public text," Weyers said, without a flicker. "You should assume the worst about that and you should also assume that the document in your hand says what it says. Those are both true, minister, and I am not going to insult you by managing the first one."
+
+Barend Loots looked at her over the top of his glasses for a moment and revised her upward and continued to dislike her.
+
+"Leave it," he said.
+
+*
+
+He worked on it for six days and did it properly, which by then he did about four times a year.
+
+He got the underlying file. He read Mabuza's six-page note, and the Dhlamini opinion attached to it, and both commissioned opinions, and the three reviewer sign-offs, and — this took him two evenings and a phone call to a retired magistrate in Worcester — enough about prevailing-language clauses to be sure he understood what Khumalo's paragraph actually meant.
+
+He understood it. That was not the difficulty. The difficulty was that he understood it well enough to know that it was not a scandal.
+
+There was no error. Every person named in that file had done their job correctly. The committee's ruling was right, its remedy was right, and its paragraph 7 was an act of institutional honesty of a kind he had seen perhaps three times in twenty-two years and had never once seen from a body reviewing itself.
+
+What he had was not a wrongdoing. What he had was a *shape*: four hundred and six thousand people, a text nobody with authority had read, and a public body that had spent twenty-two years treating eleven languages as an obligation and one as a document.
+
+That was all true and none of it was a crime, and he could put it on television.
+
+*
+
+He also, in that same week, did the other thing, and the two are recorded together here because they happened together and because he did not experience them as being in tension.
+
+Tebogo Mahlangu was a deputy director in supply chain who had, in October, put in writing that a chief director had irregularly extended a contract by eleven months. The chief director was a man Loots had known since 2011 and had eaten at his house.
+
+On the tenth of December Loots read the DG's note recommending that Mahlangu be "moved to a role better suited to her strengths", which is a sentence with a meaning.
+
+He phoned the DG at seven the next morning and said no. Then he phoned the head of a public entity in his portfolio who owed him nothing and asked her, as a favour, whether she had anything at deputy-director level that was a genuine promotion, and she did, and Mahlangu was appointed to it in February on merit through an open process, and got a better job and a bigger office out of it.
+
+He never told her. There was no advantage in it for him of any kind — the chief director stayed, the contract stayed extended, the report went nowhere — and if you had put it to Barend Loots that he had done a decent thing he would have said *ag, man* and changed the subject, and would have meant that too.
+
+*
+
+The press conference was on the seventeenth of December at ten in the morning, in the department's briefing room, which he chose over Parliament deliberately, because Parliament makes a thing a debate and a department makes it a finding.
+
+He had one page. He had written it himself on the Sunday and it was the second-best thing he wrote that year.
+
+"On the twenty-ninth of November a research ethics committee published a resolution. It is a public document. It has been downloaded eleven times.
+
+"In it, that committee records the following facts, and I am going to read them and I am not going to characterise them.
+
+"That a national health consent form was rewritten in 2033.
+
+"That four hundred and six thousand people have signed the isiZulu version of it.
+
+"That the isiZulu version permits a wider use of their health information than the English version does.
+
+"That the isiZulu version was translated by the public text service — by the thing that we call Oom — under a standing bulk instruction that named eleven thousand documents and none of them individually.
+
+"That the responsible party's legal office reviewed the English and did not review any other text, because it does not read any other text.
+
+"And that this committee, in twenty-two years, has never reviewed a single non-English text of any instrument it has ever approved.
+
+"Now. I want to be exact, because in this matter exactness is the whole thing.
+
+"Nobody has done anything wrong. I want that on the record in my own voice before anybody puts it in my mouth. Every reviewer approved that translation on good grounds. The linguists say it is better and I accept it. The committee's ruling is correct and its remedy is correct and I would have voted for it. The chairperson of that committee put his own twenty-two-year failure into his own minute in his own words, which is more than I have ever done in this building.
+
+"So there is no scandal here and I am not offering you one.
+
+"What there is, is this. Four hundred and six thousand of our people signed a promise about their own bodies, in their own language, and **not one person with authority in this country was required to read it.** Not the lawyers. Not the committee. Not the department. Not me.
+
+"That is not a failure of the machine. The machine did the job it was given, and it did it better than the job had ever been done before, and it flagged the difficulty in writing at the time and the flag is in the file and I have read it.
+
+"It is a failure of us. And I have been telling this House for two years that we have built the administrative capacity of this country on something nobody is required to check, and I was told that I was exaggerating for political reasons.
+
+"Four hundred and six thousand. That is the number. Thank you."
+
+*
+
+It was the best twelve minutes of his career and he knew it while he was standing there, and by half past ten it was leading everywhere.
+
+Then there were questions, and there were nineteen of them, and he answered eighteen of them properly.
+
+The nineteenth came from a young man from a wire service at about twenty past eleven, and it was not a trick and it was not hostile. It was: "Minister, just to be clear for our copy — are you saying Oom rewrote the consent form?"
+
+There was a version of the answer that took nine words. *It translated it. The English was rewritten by people.*
+
+He was fifty-nine minutes into a press conference that he had won, with the room warm and the phone in his pocket going and twenty-two years of reflex sitting exactly where twenty-two years of reflex sits.
+
+"I am saying," Barend Loots said, "that four hundred thousand people signed a document that a machine wrote and no human being read."
+
+*
+
+He knew inside about a second and a half.
+
+It was one degree. That was the thing he came back to, afterwards, driving, and again in January and once more much later on a board that met four times a year: it was *one degree*. The English was written by people. The isiZulu was translated by the service. Three qualified human beings read the isiZulu and signed it, and their names were in the file he had spent two evenings on, and he had read their comments and had found Zondi's note genuinely impressive.
+
+*A document that a machine wrote and no human being read.*
+
+Every word of the rest of it had been true and checkable and he had spent a week making sure of that, and he had put one degree of tilt into the eleventh hour of a good day, for free, out of habit, and it was the sentence that ran.
+
+*
+
+By Thursday it was the only thing anybody was discussing and none of it was the thing.
+
+The Programme corrected it, courteously, in four paragraphs, with the three reviewers' names and the dates they signed. Professor Zondi gave one interview, in which he was asked whether he was the human being who had not read it, and in which he was patient, and in which he explained his note about purpose clauses and was cut to eleven seconds.
+
+Bester wrote a letter to a newspaper — a good letter, an angry one — saying that his committee had spent a day on this, had published everything, had directed a review of its own twenty-two-year failure, and had been rewarded by having a Minister describe the process as one in which no human being had read anything.
+
+Grace Sepeng was interviewed on a Sunday programme and said that she had signed both forms and that the new one was the only page anybody had ever written for her, and it was the most-watched thing of the week, and she was very good, and by then it was a story about the Minister.
+
+The opposition asked whether the Minister had corrected the record. He corrected the record on the twenty-second of December in a written statement of eleven lines that nobody read, and the correction was accurate, and one paper reported it at the bottom of page four.
+
+The committee's paragraph 7 was not mentioned again by anybody, anywhere, in the entire remainder of the affair.
+
+By the middle of January the health-data consent clause was a party position with Barend Loots's face on it, and a party position with Barend Loots's face on it had polled at twenty-two per cent since April, and the substance of it — the four hundred and six thousand, the eleven languages, the twenty-two years, the nobody-required-to-read — was not available to anybody in the country as a question any more, because it had been answered, and the answer was *ja, that's Loots*.
+
+He had known that would happen. He had known it on the Sunday, writing the page, and had written the page anyway, and if you had asked him he would have said that a lever you do not pull is not a lever, and that the substance had not been going anywhere on its own, and that somebody had to make people look.
+
+Charmaine Weyers sent a bottle of wine and a card in the first week of January. He gave the wine to his driver unopened and kept the card in the drawer with the others.
+
+Tebogo Mahlangu started her new post on the third of February and never found out.
