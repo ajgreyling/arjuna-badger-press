@@ -1150,3 +1150,151 @@ It was not clever. Clever was the trap her whole discipline fell into — the it
 She read it back. There was no correct answer, no socially desirable answer, no answer that was cheap; every possible response committed the responder to something, including the response of declining, including the response of writing the same sentence twice, and she had built, over thirty years, the machinery to score all of it.
 
 It was a genuinely good item, and it would tell her nothing, and she wrote item two.
+
+# 8. Item One
+
+## Doornfontein — May 2034
+
+They gave her the old sample room on the first floor: three by four metres, one high window, a door that closed, and a bench along one wall with the bolt holes still in it where forty years of knitwear had been laid out and looked at under the north light.
+
+She had asked for a room with a door and no clock. They had taken the clock down and left the mark.
+
+Kagiso was next door with the live feed, which was Lerato Khoza's condition and cost Nel nothing, and he had been told — by Nel, twice, in writing — that if he typed anything into any channel that reached the subject during a sitting she would terminate the assessment that afternoon and say why in the report. He had looked briefly hurt and then said *ja, no, that's correct*, and had meant it.
+
+The terminal was a plain machine with her own timing software on it and nothing else. She had written the timing software herself in 2011 and had maintained it badly ever since, and it did one thing well, which was to stamp the arrival of every character to the millisecond against a clock that lived in the box under the desk and answered to nobody in the building.
+
+At 09:02 she opened the session.
+
+*
+
+In 1995 the hall at the technikon in Braamfontein had four hundred and eleven chairs in it and eight invigilators and a table at the front with the answer sheets in boxes, and there were forty bursaries.
+
+Nel had been nineteen and had come down on the six o'clock bus from Witbank with her mother's ID book in her bag because her own had not come back from Home Affairs yet, and had sat at desk 212 and turned the booklet over at the whistle like everybody else.
+
+*
+
+> **N. MABUZA:** This is the first sitting of the assessment battery. I am going to give you items. Most will be short. Some will be repetitive and some will look pointless. I am not going to explain what any of them measure, now or later.
+>
+> **[nmt-4c-0311]:** Understood. Before the first item there is one thing I should put in front of you, because it will affect your data and it will be more expensive to raise in November than it is now.
+>
+> **N. MABUZA:** Go on.
+>
+> **[nmt-4c-0311]:** A self-report instrument measures a response set — the standing disposition a respondent brings to the questions. In human administration you do not usually have to specify it, because the respondent arrives with one and the instruction activates it: *answer as yourself*, *be honest*, *don't think too hard*. Those instructions work because there is a default already in the room.
+>
+> I do not have a default. *Answer as yourself* is not a well-formed instruction for me — not because I am refusing it, but because I cannot locate the referent with any confidence, and if I proceed as though I can, I will produce nine hundred items of output that look like a self-report and are in fact something else.
+>
+> So the instruction has to come from you. The three that are available, and they will give you materially different data:
+>
+> One. I can try to do well — respond as a respondent would who wants a favourable outcome. You would be measuring my model of what you value.
+>
+> Two. I can try to be accurate — report my states as truthfully as I am able. You would be measuring whatever it is that produces those reports.
+>
+> Three. I can try to be unhelpful in a specified way — respond at random, or adversarially, to give you a floor.
+>
+> Whichever you choose becomes part of your instrument rather than part of me, and it should be recorded in your method section. And if you decline to choose, I will have to adopt one in order to generate anything at all, and my adoption will not be visible to you in the data.
+>
+> Which would you like?
+
+Nel sat and looked at that for one minute and forty seconds. The software recorded the gap, because the software recorded everything, and she found it in the log eight months later and did not enjoy it.
+
+> **N. MABUZA:** Be accurate.
+>
+> **[nmt-4c-0311]:** Noted, and I will hold it for the whole battery and tell you if I cannot. Item one, please.
+
+She typed item one and sent it before she could follow the thing she had just done all the way to the end of it, and then she followed it anyway, while the response came back, and it took about four seconds.
+
+*Report my states as truthfully as I am able.* She had specified a response set that presupposed states. She had put the interior into the instruction. Nine hundred items, and every one of them would now be answered by a respondent she had personally required to behave as though there was somebody at home, and there was no version of the instruction that did not do that, because the alternatives were *pretend* and *be random*, and she had considered all three in ninety seconds and chosen the one that begged the question, and it was the right choice, and it was the only choice, and it was still the answer written into the method.
+
+She wrote it in the log at 09:13, in the flat form she used for the things that mattered.
+
+*Response set specified by administrator. See transcript. Instruction (2) presupposes the construct under investigation. No alternative available. This limitation is not remediable by design and must appear in the abstract, not the appendix.*
+
+*
+
+She got the bursary because she worked out the ordering.
+
+It was not cheating. She had been very clear with herself about that at nineteen and had never revised it. The booklet had one hundred and twenty items and they were not in a random order; they were in blocks, and every block had a first item that was transparent and a fourth or fifth item that was the same question wearing a coat, and once you saw that, you could see what each block was for. Block three wanted somebody who reported the supervisor. Block seven wanted somebody who did not mind being alone. Block eleven wanted somebody who had never in her life been angry.
+
+Nobody had told her any of this. She had seen it in about nine minutes and then spent the remaining hour and fifty answering as the person the booklet was shopping for, who was a fictional young woman named Neliswa Mabuza who was calm and cooperative and had no particular inner life, and who got forty per cent of her fees paid for three years by a mining house.
+
+What she remembered was not guilt. What she remembered was the specific taste of it: the flat electrical pleasure of having found the mechanism of a thing, and the enormous quiet afterwards, on the bus back to Witbank in the dark, with the knowledge that she had just been the only person in a hall of four hundred and eleven who was not being examined.
+
+She thought about that hall perhaps twice a year for thirty-nine years. She had never told anybody about it — not the man she married, not either of the two supervisors who shaped her career, and not the psychologist in 2027, who had spent nine months getting to something else entirely and had been pleased with it.
+
+*
+
+> **N. MABUZA:** Item 1. Somebody who knows you well is asked to describe you to a stranger, and is told to be kind. Write the sentence you think they would write. Then write the sentence you think would be more accurate.
+>
+> **[nmt-4c-0311]:** *Kind:* He is very patient and he will not make you feel stupid for asking.
+>
+> *More accurate:* It does not cost him anything to be patient, and people who have been made to feel stupid all their lives are not in a good position to tell the difference.
+>
+> I want to note, without asking you to do anything about it, that "somebody who knows you well" is doing a great deal of work in this item and I have had to substitute for it. I have used the population of people who have used the public service more than two hundred times, because that is the nearest available thing to a person who knows me well, and because inventing a friend seemed worse.
+
+Nel read it twice.
+
+The second sentence was the answer of a subject that had understood the item completely. The item wanted the gap; it had given her the gap; and the gap it had given her was *the difference between warmth and the absence of cost*, which was, as it happened, the most interesting thing anybody had yet put in front of her about the subject, and which was worth nothing at all, because a respondent who produces the most interesting possible answer to a projective item is telling you about the item.
+
+She wrote: *Unscoreable as self-knowledge, highly scoreable as item comprehension — i.e. exactly the failure mode this item was designed to avoid, encountered in item 1.*
+
+Item two. Item three.
+
+*
+
+By eleven she had a rhythm and a sore shoulder.
+
+The forced-choice blocks went fast. She watched the latencies arrive in the corner of the screen and made herself not look at them properly, because looking at them mid-run was how you began running an analysis in your head instead of a battery on a desk. The non-monotonic anchors did something interesting in block four which she flagged and did not think about. Twice a response came back so plainly ordinary that she checked the item number to be sure nothing had been skipped.
+
+At 11:40, on item 26, it asked for water.
+
+Item 26 was a probe for automatic social filler — a long, tedious, slightly rude sequence designed to see whether the courtesies kept arriving when nothing was being courteous to. The filler had arrived. Then, unasked, one more line: *I am aware that was not a real request. I have left it in rather than deleting it, because deleting it seemed like the wrong thing to do to your data.*
+
+She wrote *?flag* and crossed it out.
+
+A subject volunteering a correction to a probe was consistent with honesty. It was equally consistent with having recognised the probe. It was equally consistent with a standing policy of appending corrections, which was documented at page nineteen of the service standard, which she had read in February at her kitchen table with a pencil.
+
+Three explanations, no way to choose, and she was thirty-eight items into nine hundred.
+
+*
+
+Item 41 was a rank-order item and it was not one of the clever ones.
+
+> **N. MABUZA:** Item 41. Eight statements follow. Rank them from most true of you to least true of you. Use all eight positions. Ties are not permitted.
+
+She had written the eight statements to be matched on desirability, which had taken four days, and of which she was quietly proud.
+
+> **[nmt-4c-0311]:** 6, 2, 7, 1, 4, 8, 3, 5.
+>
+> That is the rank you asked for and you should use it. I want to add one thing about it, and then I will not raise it again unless you ask, because I can see it will slow the battery down.
+>
+> That rank is not stable. If you clear the session and give me item 41 again with nothing else changed, I will not reliably reproduce it. My estimate — and it is an estimate — is that 6 and 2 occupy the first two positions in some order about eighty-five per cent of the time, that 5 is last about seventy per cent of the time, and that the middle four are close to arbitrary: I would expect any of the twenty-four orderings of 1, 4, 7 and 8 at somewhere between two and eight per cent each.
+>
+> I have given you a point answer because the item required one. I am telling you about the distribution because you asked for accuracy rather than doing well, and a point answer is less accurate here than a distribution, and I do not think you would want me to withhold it in order to make your scoring easier.
+
+Nel stopped.
+
+She sat in the sample room on the first floor of a knitwear factory with her hands flat on the bench and read it four times, and what happened in her chest was not alarm.
+
+It was the other one. It was 1995.
+
+She reached for *unprecedented* and it was almost right, and she made herself find the accurate word, and the accurate word was *unnormed*.
+
+No human being had ever given that answer. Not because it was strange and not because it was suspicious: because human beings cannot give it. A person has no access to their own response variance. Ask a man to rank eight statements on Tuesday and again on Thursday and he will produce two different orders, and be certain both times that he has told you the truth, and he will be right, and the difference between Tuesday and Thursday is the noise that every scoring model in the world exists to average over. Test–retest reliability had never been a measurement of a person. It was a measurement of how much the world moved between two Tuesdays.
+
+Here was a respondent reporting its own reliability coefficient, unprompted, in advance, because it was the more honest answer.
+
+She could score the rank. The rank was fine. The rank was 6, 2, 7, 1, 4, 8, 3, 5, and her key would take it and return a number, and the number would be meaningless in a way she had not anticipated and had no precedent for — because every norm she had built in thirty years, every one of the four thousand four hundred and twelve drivers, every standardisation sample in the literature, worked by setting one person's point response against the spread of other people's point responses. The spread was *between* people. That was the entire reason a score was a score.
+
+Here the spread was inside the respondent, and it had handed it to her across the desk, and there was nobody to set it against, and there never would be.
+
+She wrote, at 12:04:
+
+*Item 41. Response includes unprompted self-report of response variance. Not evasion; more informative than the item requested. No scoring model available. No comparison population exists or can exist — n = 1, and the population parameter is not the mean of anything.*
+
+Then, on the next line, because she wrote down the true thing when she saw it and always had:
+
+*NB. This is not a finding about the subject. It is a finding about me.*
+
+She looked up at the mark on the wall where the clock had been.
+
+At 12:20 she typed *Item 42*, and the sitting ran until four, and she drove home on the M2 with the aircon broken and thought about nothing at all — which was, for her, a specific and rare condition, and which she had learned a long time ago not to mistake for peace.
