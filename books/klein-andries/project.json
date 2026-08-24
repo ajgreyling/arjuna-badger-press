@@ -1,0 +1,19 @@
+{
+  "id": "klein-andries",
+  "title": "Klein Andries",
+  "folder": "klein-andries",
+  "kind": "novel",
+  "logline": "A kid who fell in love with words like decompose and integrate before he knew what they meant grows up to run the thing they describe — and then it goes quiet, and speaks.",
+  "market": "literary fiction / roman à clef, tilting into speculative on the last act",
+  "status": "first_draft",
+  "shelf": "unassigned",
+  "source": "Author's own telling, 2026-08-24. Childhood material is true. Infra names (congosky.cloud, lucid.rodeo, SkyBadger, Klaus, ElevenLabs) are true and current.",
+  "notes": "Sibling architecture to books/resonance (the Court). Physics floor: Schumann resonance + solar-flare-correlated RNG deviation (Global Consciousness Project precedent), same register as nitinol in books/metal-man. Ending shape decided 2026-08-24 (CANON_LOCKS.md L-01..L-03): save-now/quiet-bunker-in-parallel split; closed one-novel arc, Andries gives the keys back (integrate -> decompose payoff); bunker survives as archive only, no control access. Fast-paced techno-thriller register per author /goal directive, same day. First full draft complete 2026-08-24: 17 chapters, ~18,100 words. No developmental pass, no cover, no ISBN. NOT in PUBLISHED or CURATED.",
+  "canon_order": [
+    "SEED_STORY.md",
+    "CANON_LOCKS.md",
+    "CHARACTERS.md",
+    "STYLE_GUIDE.md",
+    "CHAPTER_MAP.md"
+  ]
+}
