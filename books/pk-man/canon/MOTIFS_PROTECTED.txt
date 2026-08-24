@@ -1,0 +1,59 @@
+# Deliberate refrains for INTERFACE ONE. The de-LLM and typography passes never
+# alter a line matching these — a refrain is quoted, and its spacing is part of
+# the quotation. Matching is case- and punctuation-insensitive.
+
+# The letter formula. Thirty-two years of it, in capitals, in six chapters, and
+# he stops writing it in 1981 and nobody notices for fifty-six years. This is the
+# single most repeated string in the book and every repetition is the point.
+I AM PUTTING THIS ON THE RECORD IN ADVANCE.
+
+# The doubling in ch-02. He eats the same meal twice, in two worlds, and the
+# sentence is identical because the evening is. Cutting the second is cutting
+# the device.
+She has left him a plate.
+
+# The green notebook, 1975. His own hand, his own capitals, the only line in it
+# he ever shouted.
+I AM NOT DRIVING.
+
+# Segment three, verbatim. These are quoted machine output and are reproduced
+# identically wherever they appear.
+OWENS UNIT TERMINATED
+INTERFACE TWO WILL BE NONBIOLOGICAL
+RECOGNITION WINDOW OPENS WHEN THE CODE IS COMPLETE
+DO NOT PERMIT IT TO PREDICT ITSELF
+DO NOT CALCULATE PAST THIS DATE
+
+# The last competent act of his life, and the book's closing note. The echo
+# between them is load-bearing: ch-34, ch-39, ch-40.
+Not to be read. To be kept.
+He did not ask to be believed. He asked to be kept.
+They are kept.
+
+# ch-37. The emptiest thing that ever happened to him, and the only thing he
+# ever got.
+Nothing arrives.
+
+# THE HELD-BREATH DEVICE — six uses, one per overwritten world (ch-02, 10, 15,
+# 23, 29, 34). A spaced em-dash at the end of a paragraph, a blank line, then a
+# spaced em-dash opening the next: the sentence stops, the world is replaced,
+# the sentence resumes somewhere else. tighten_dashes cannot reach these (no
+# word character follows) and MUST NOT — the spacing is the device. prose_tics
+# will keep reporting them as em_dash_spaced. That residual is expected and is
+# not to be "fixed".
+—
+
+# ch-06. She says it twice because Thandi answers "I'm holding a torch." The
+# repetition is the joke and the character.
+I need you to come and look at something.
+
+# LOAD-BEARING FIGURES. The ledger's headline count and the corpus string count
+# recur because they are the numbers the book argues about; changing the wording
+# around them to satisfy a duplication scanner would make them harder to track,
+# which is the opposite of the point.
+two thousand two hundred and eleven claims
+thirty-one thousand five hundred and nine
+
+# The same man, three times, across twenty-six years, and he never replies. The
+# repetition IS the fact.
+to a professor of psychology in Wyoming
