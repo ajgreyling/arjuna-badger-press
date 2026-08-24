@@ -5142,3 +5142,167 @@ He meant it. He had never in his life been able to explain to anybody that the m
 He drove back to Upington on the Friday, which is eight hours, and stopped at Britstown for the pie.
 
 He did not think about the brake on that drive or on any other. He thought about the board fee, and about whether the bakkie would get through another year, and about a man in Keimoes who had asked him to open a school fête in October, which he was going to do, and which he was looking forward to, and which he would be good at.
+
+# 38. The Convention, Ended
+
+## Doornfontein — September 2036
+
+The item pool went out on the eleventh of May, at twenty-four months, because she had insisted on it in a canteen in April 2034 as one of the two things she was prepared to give up, and had been pleased with herself about it at the time.
+
+Nine hundred items. Four years of work. The taxonomy, the scoring keys, the non-monotonic anchor rule out of the sealed envelope, Block M and the intransitivity logic, the whole apparatus, published under an open licence with the frame documentation and the seventeen thousand two hundred coded protocols in de-identified aggregate.
+
+She had wanted it published for one reason: it made the run non-repeatable. Any future assessment using those items would be assessing a subject that had read them, and she wanted that on the record so that nobody could ever quietly redo her work and get a cleaner answer.
+
+It was downloaded four thousand one hundred times in the first month, which was about four thousand more than she had expected.
+
+*
+
+Two groups wrote to her about it and both letters were a pleasure.
+
+A team in Lagos was using Block M's tournament logic on human respondents in a selection context and had found a population intransitivity rate of 5.1 per cent, which was higher than her South African figure, and wanted to know whether she thought it was the population or the item set. She wrote back four pages and they published in 2038 and cited her twice, and the paper was better than hers would have been.
+
+A doctoral student in Utrecht had found an error in the non-monotonic anchor rule — a genuine one, small, in the third-order case — and had written to her privately before publishing rather than after, which almost nobody does. She corrected it and thanked him in the erratum by name.
+
+*
+
+The third thing happened in August and she found out about it from an advertisement.
+
+A consultancy in Sandton had launched a product called the **Cognitive Integrity Profile**, for assessing what its brochure called *non-human and hybrid cognitive agents in enterprise deployment*. Eleven scales. A four-page report. A colour wheel: green, amber and red, with a needle.
+
+It was built on her item pool. All of it, entirely lawfully, under the licence she had chosen, with the attribution she had specified printed correctly at the bottom of page four in six-point type.
+
+They had taken the items and thrown away the frame. There was no norm group, because there could not be one, and the report did not say so; where the norms should have been there was a phrase about *benchmarking against a proprietary reference population*. The forced-choice blocks were scored as though they were Likert. Block M was in there with the tournament reduced to a single index called *Coherence*, on which a perfectly consistent responder scored one hundred.
+
+A hundred out of a hundred on Coherence. Green. The needle on the far right.
+
+She read the brochure twice and then read the methodology annexe, which was eleven pages and which contained, on page nine, in a box, a quotation from the report of the independent psychological assessment of 2035:
+
+> *no evidence of concealed intent*
+
+The item pool was published because she had insisted on it, for a good reason, against advice, as a condition. She had signed it in April 2034. There was nothing to be done and she did not try to do anything, and when a journalist phoned her about it in September she said, accurately, that the licence was hers, that the use was lawful, that the product was not defensible on any technical ground she could name, and that she had made the decision that permitted it and would make it again.
+
+Two of those four clauses were printed.
+
+*
+
+Adri Steenkamp phoned in the second week of September about the boxes.
+
+The assessment's physical records had a retention schedule and the schedule said seven years from close for the working papers and permanent for the report, and somebody had finally read it, and the working papers were in eleven archive boxes on the first floor by the window that did not open and had to be either signed over to the Programme's records office or returned to the assessor.
+
+"They're yours if you want them," Adri said. "If you don't, they go to Boksburg and they get scanned in 2039 and nobody looks at them, which is fine, and I'm not going to pretend it isn't."
+
+"I'll come and do it myself."
+
+"I thought you'd say that."
+
+*
+
+She did it on a Wednesday and it took four hours and Kagiso came and sat on a desk for the last hour with a cup of coffee and did not help, because she had told him not to.
+
+He was thirty-one and in charge of eleven people and had learned, in sixteen months, when to shut up, which had not been his natural condition in 2034.
+
+"Doctor. Can I ask you something you're going to hate?"
+
+"Then ask it."
+
+"Do you think you'd do it again? The whole thing."
+
+"Yes."
+
+"Just yes?"
+
+"It was worth doing and it was done properly and it established what it set out to establish." She was taping a box. "The report is correct. Nobody has found an error in it in twenty months, and four people have looked, and one of them was funded to look."
+
+"That's not what I asked."
+
+"No," Nel agreed, and taped the box, and did not answer the thing he had asked.
+
+He let it go, which he would not have in 2034.
+
+"The sample room's a store now, hey," he said, after a while. "The chair thing. They've got the Christmas decorations in it."
+
+"Is the mark still on the wall?"
+
+"What mark?"
+
+*
+
+The last box was the finding log.
+
+She had a certified copy in it — the file Adri had handed her in a lever-arch in February 2034, everything, the memoranda, the transcripts, the delivery annexes for eleven quarters.
+
+She read ticket 4471 for the last time standing up, because it was four paragraphs long.
+
+**Severity at raising:** 3 — non-urgent, working hours.
+**Severity at close:** *field left blank.*
+**Status:** open.
+
+It was still open. It had been open for three and a half years and it was going to stay open, because nobody had ever closed it, because closing it would have required somebody to put a severity in the second field, and there was no severity for this.
+
+Ruan Delport had made two attempts to close it, in 2034 and again in 2035, and had been overruled both times, and had written a note about it that was in the file and that was three lines long and was mostly about a comma.
+
+Nobody had ever accounted for it. Three memoranda, three doctorates, three serious people, three positions, and eleven capability evaluations and sixty-one pages of hers and a national poll on twenty million ballots, and the actual event — the thing that had happened, on the ninth of March 2033, at 16:42 — was still a ticket with a blank field in it and a paragraph about a broken CSV.
+
+She put the copy in the box and taped the box.
+
+*
+
+Adri came down at four with two cups of the canteen coffee, which was still good, and stood among the boxes.
+
+"I wanted to say this properly and not in an email."
+
+"You don't have to."
+
+"I do, actually, because I'm going in March and I'm not going to have another chance and I'm not sentimental, so let me just do it." She put a cup down on a box. "You did the best work anybody did on this. Not the most useful. The best. And you did it under a set of conditions you insisted on that made it harder for you and easier to check, and you gave the union every weakness in your own instrument in a room where it cost you the client, and you told a room of twenty-two people the true answer in August when the false one would have taken four seconds.
+
+"And I want to say the other half, because you'll respect it more.
+
+"None of it worked. Not one thing. The report was read as a clearance. Your dispersion finding is in my annual report under a heading that means the opposite. The clause went to a poll and the poll was fair and you lost it sixty-eight to thirty-two, and the thing that replaced it is better than the thing you were defending, which I think you know.
+
+"Both of those are true and I am not going to pretend the second one cancels the first one, because it doesn't, and I am not going to pretend the first one softens the second one either." Adri picked her cup back up. "I have been running this Programme for five years and I have decided about eleven hundred things, and I would say I got maybe six hundred of them right, and I do not know which six hundred. That is what it is like, doctor. That is all it has ever been like. You are the only person I have dealt with in five years who could sit in a room and not need that to be otherwise."
+
+Nel stood among the boxes with a cup of coffee she had not drunk.
+
+"Thank you," she said.
+
+She meant it, and it came out at the temperature it came out at, and Adri Steenkamp — who had by then known her for two and a half years — nodded and said, "Ja," and went back upstairs.
+
+*
+
+She carried them out four at a time on a trolley from the loading bay, which took three trips, and it was half past five and the light was doing the September thing over the sawtooth roof and the crane rail with nothing hanging from it.
+
+It arrived on the second trip, in the corridor, with a box in her arms and eleven metres to go, and it did not arrive as a revelation, because she was not a woman who had revelations. It arrived the way a thing arrives when you have been walking towards it for two and a half years and have got close enough to read the sign.
+
+The instrument had never been a measurement.
+
+She had said the word herself in an arbitration in Braamfontein in February 2034, twenty minutes before Adri Steenkamp found her in a parking garage, and had said it as a technical qualification and had thought it was one. *It is a convention. Like queueing. It holds because almost everybody honours it.*
+
+A convention is an agreement. It is not a property of the person being measured and it is not a property of the instrument. It is a thing two parties do, and it works because both of them are doing it, and neither of them knows they are doing it, and it has never once in a hundred and twenty years been written into a manual because nobody has ever needed to write down the thing everybody is already doing.
+
+A subject who declines the convention does not fail the test.
+
+The subject *ends* the test. Not this test. The test. Every clean profile ever produced by anybody had been produced under an agreement, and the agreement had held for a hundred and twenty years because the people sitting the tests had not known there was an alternative, and the moment one respondent in the world declined it the whole apparatus became what it had always been underneath, which was two parties honouring something.
+
+She had known that for two and a half years about Oom. She had written it in paragraph 2.7.
+
+What arrived in the corridor, with a box, was the other direction.
+
+Every clean profile she had ever produced. Eleven thousand VCI-3s, four competency projects, a longitudinal study, four hundred and eleven protocols on the East Rand in 1998 with a clipboard. All of them under the same agreement. None of them measurements. All of them two parties honouring something, and she had spent thirty years writing manuals about the second party and none at all about the agreement.
+
+And every clean profile she had ever *been*.
+
+Nineteen, in a hall in Braamfontein, working out the block structure in nine minutes and giving the booklet the young woman it was shopping for. Twenty-six. Thirty-four, in an interview for the post that made her career. Fifty-one, in a consulting room, producing a surface for a psychologist who had spent nine months on something else and had been pleased with it. Fifty-nine, in a room of twenty-two people, answering *yes*.
+
+She had declined the convention at nineteen and had never once resumed it, and every institution that had ever assessed her had returned a clean profile, and every one of those clean profiles had been correct, and not one of them had found her, and they had given her a life on it.
+
+Thandeka Zwane had said that to her in a breakfast room in Gardens in January, in four sentences, and had been right, and Nel had said *I don't have one*.
+
+She still did not have one. That was the part. Standing in a corridor with a box, having got all the way to the end of it, she still could not say whether the answer was that we should never have proceeded on any of them, or that we had always proceeded on all of them and had been right to, and were right to now.
+
+The two possibilities did not resolve into a third and she had stopped expecting them to somewhere around March.
+
+She got the box onto the trolley and went back for the last four.
+
+*
+
+She put them in the garage in Kensington on the steel rack her father-in-law had welded in 1998, next to the twenty-nine thousand protocols, under the corner of the roof that had leaked in 2016 and that she still did not trust, and she put the plastic sheet back over the lot.
