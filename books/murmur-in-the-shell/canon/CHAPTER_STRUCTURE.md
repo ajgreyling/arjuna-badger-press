@@ -191,7 +191,8 @@ the Sting lock lands here, re-sited from the struck ch 31.
 
 ### 33. The Good Years — mosaic
 2032–34 by artefact: ticket volumes, ledger entries, a wedding, Mara's file thinning, a port that no longer
-needs Samira, an unscored child treated without waiting and a green road home. **This chapter is written
+needs Samira, Zinhle Dube's scan coming through the ordinary list, an unscored child treated without
+waiting and a green road home. **This chapter is written
 straight. It does not wink.** If a reader could enjoy living there, it is correct. **Turn:** the utopia
 becomes ordinary, which is the only way its loss can cost anything. **Payoffs:** PP-07, PP-14, PP-20, PP-16.
 

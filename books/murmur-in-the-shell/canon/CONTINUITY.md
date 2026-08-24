@@ -79,6 +79,20 @@
 - Ending changes available action?
 - `build/story_state.md` updated?
 
+## Continuity calls logged during the Act IV pass (2026-08-23/24)
+
+- **The ch-02 operator is renamed Refilwe.** She and Zinhle Dube (ch 23–24, the child denied a scan) shared
+  a first name across the same novel. The operator appears in one chapter; the child is load-bearing for
+  PP-14 and is named in `THE_SECOND_MIDNIGHT.md` §9 under *retained unchanged*. The bit part gave way.
+- **Sakkie retires in October 2031, not April.** Ch 31 needed him already retired; ch 28 and ch 30 have him
+  working the Quiet Hour on 18 August 2031. October is the first date that satisfies both, and ch 33 was
+  adjusted to “retired for two years” at the December 2033 wedding.
+- **Zinhle Dube's payoff moves to ch 33.** Her thread ended at ch 24 when the old ch 31–32 were struck. She
+  gets her scan in October 2032, through the ordinary paediatric list, under the compact clause that
+  excludes household legibility. Written straight, like the rest of that chapter.
+- **The blue card.** Ch 31 has AJ sign the laptop out and *not* take a blue card, because the job closed as
+  he wrote it. Ch 36 ends with him taking one. The OPEN slot came up from Bellville with the printer.
+
 ## Open continuity holes
 
 - Exact Technopark office/building description requires ground-truth pass.

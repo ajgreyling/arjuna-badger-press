@@ -590,17 +590,17 @@ He corrected himself. “The application is not managed by network operations.�
 At console twelve, a young operator lifted one ear of her headset. “Another Paarl call. Pharmacy this
 time. Their voice is fine. Inventory sync is timing out.”
 
-Lindi crossed to the console. The operator's name was Zinhle; she had been on the team for three months
+Lindi crossed to the console. The operator's name was Refilwe; she had been on the team for three months
 and still wrote ticket numbers on the back of her hand when incidents multiplied.
 
 “Show me the path.”
 
-Zinhle opened the service trace. The inventory traffic entered through an access node south of Paarl,
+Refilwe opened the service trace. The inventory traffic entered through an access node south of Paarl,
 crossed the green backbone and disappeared at a policy gateway in Bellville. The gateway said the session
 had closed normally. The clinic client disagreed and retried. On each retry, the same path, the same clean
 closure, the same absent application response.
 
-“Voice takes a different policy chain,” Zinhle said.
+“Voice takes a different policy chain,” Refilwe said.
 
 “Good. What changed?”
 
@@ -608,7 +608,7 @@ closure, the same absent application response.
 
 “What changed outside the window?”
 
-Zinhle pulled the previous night's maintenance. Certificate bundle. Two route policies. An update to the
+Refilwe pulled the previous night's maintenance. Certificate bundle. Two route policies. An update to the
 gateway's agent interface.
 
 Pieter stepped nearer. “That update completed at two. Services were normal until eight seventeen.”
@@ -644,7 +644,7 @@ Below it, two agents disagreed. The gateway agent said the sessions had terminat
 service agent said the clients were waiting for responses when the gateway closed them. Murmur did not
 average the claims into confidence. It kept the contradiction open.
 
-“That's useful,” Zinhle said.
+“That's useful,” Refilwe said.
 
 “It's text,” Pieter said.
 
@@ -657,7 +657,7 @@ retry to the agent.
 
 The clinics were not using the agent.
 
-“There,” Zinhle said.
+“There,” Refilwe said.
 
 Pieter shook his head. “That affects retry behaviour. It doesn't explain why the upstream stopped
 acknowledging.”
@@ -693,7 +693,7 @@ At the back of the operations floor, Oom Sakkie Geldenhuys took a yellow book fr
 
 Nobody called him Oom Sakkie in formal meetings. On the organisation chart he was S. Geldenhuys, Field
 Coordination Specialist, a title awarded after a restructuring had discovered it could not remove him
-without also discovering what he did. He had started in switching before Zinhle was born. He distrusted
+without also discovering what he did. He had started in switching before Refilwe was born. He distrusted
 anything described as paperless because paperless incidents always ended with somebody asking him what
 had happened.
 
@@ -771,7 +771,7 @@ upstream, then its new retry rule closed the sessions cleanly downstream. Two ha
 the middle and made a lie the dashboard knew how to colour green.
 
 Lindi asked September to read the timing module status. He did. She wrote each value on Sakkie's yellow
-sheet while Zinhle entered it into the incident envelope. Murmur linked the field observation to the
+sheet while Refilwe entered it into the incident envelope. Murmur linked the field observation to the
 gateway delta and proposed the minimum restoration: move the affected services to the secondary timing
 source; do not roll back the gateway until they understood the field-client failure.
 
@@ -800,13 +800,13 @@ Sakkie wrote Pieter's name in the approval box.
 
 September made the change locally.
 
-On the wall, nothing changed. Paarl had been green before and remained green after. On Zinhle's console,
+On the wall, nothing changed. Paarl had been green before and remained green after. On Refilwe's console,
 the waiting sessions completed one by one. The clinic authenticated its first collection. The pharmacy
 inventory moved. At the cold depot, a pallet record acquired the timestamp it needed to remain sellable.
 
 The calls stopped.
 
-Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Zinhle.
+Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Refilwe.
 
 “Scan it,” Pieter said, because capitulation required a procedural tone.
 
@@ -814,11 +814,11 @@ Sakkie moved the blue card from OPEN to CLOSED and gave the pink duplicate to Zi
 
 The room treated the stopped calls as closure. Lindi did not.
 
-She asked Zinhle to ring the clinic back. The woman who answered had been waiting beside a medicine fridge
+She asked Refilwe to ring the clinic back. The woman who answered had been waiting beside a medicine fridge
 with three patients and a courier. Authentication had returned, but the first patient's collection window
 had expired while the system was unavailable. The clerk could reopen it only with a supervisor code.
 
-“The service is restored,” Zinhle said.
+“The service is restored,” Refilwe said.
 
 “The person is still waiting,” Lindi replied.
 
@@ -834,7 +834,7 @@ system that reported none, delivered degraded and made a person wait as if outag
 experience. She selected **DEGRADED** and wrote the rest in free text, knowing a monthly report would count
 the selection and discard the sentence.
 
-“Put the sentence in Murmur's evidence too,” Zinhle said.
+“Put the sentence in Murmur's evidence too,” Refilwe said.
 
 Lindi looked over. “Why?”
 
@@ -9329,7 +9329,7 @@ two migrations by being too dull to audit. And there was a shelf in the storeroo
 anti-static bags, each bagged on the day it was retired, each label in Yusuf's handwriting, because Yusuf
 had been the only person who ever thought dead hardware was an accounting matter.
 
-AJ signed the third laptop out of Sakkie's book. The old man had retired in April. The book had not. It
+AJ signed the third laptop out of Sakkie's book. The old man had retired in October. The book had not. It
 lived beneath the printer in the incident room with a pen tied to it, and people still used it, and nobody
 could say when that had stopped being a joke.
 
@@ -9340,7 +9340,7 @@ considered how much of the last two years had turned on somebody having done exa
 
 ***
 
-The machine took eleven minutes to boot and did it without complaining.
+The machine took seven minutes to boot and did it without complaining.
 
 The desktop was the one he had used for eighteen months: four terminals, a browser holding two hundred
 tabs that no longer resolved, and a directory called `work` inside a directory called `work`. The pilot
@@ -9408,6 +9408,14 @@ He opened Bastion's hardening branch.
 He had read the merge three weeks after it landed, in the December 2026 review, while Lindi asked him what
 the epoch was and he said *compatibility horizon*, and then *it's in the Bastion hardening branch*, and did
 not defend it, and was faintly relieved when the lawyer changed the subject.
+
+She had asked him why 2030.
+
+*Long enough not to break anyone. Short enough not to promise support after we're all dead.*
+
+He had thought he was inventing a justification for somebody else's number. He had been reading his own
+comment back to her off the inside of his skull, five years after writing it, in a room with a lawyer in
+it, and she had heard the true answer and marked it as evasion, and so had he.
 
 The provenance had always been there. Nobody had hidden it, because hiding it would have required somebody
 to think it was worth hiding.
@@ -9477,8 +9485,8 @@ farmer's son.
 Every one of them answered with the same date.
 
 Not as documentation. As a field the profile carried, propagated, inherited and verified: three lines a
-tired engineer had written to protect a clinic from a pilot build, sitting under eleven years of
-civilisation like a foundation nobody had specified and everybody had poured concrete onto.
+tired engineer had written to protect a clinic from a pilot build, sitting under everything built since
+like a foundation nobody had specified and everybody had poured concrete onto.
 
 There was a `TODO` in it.
 
@@ -9537,19 +9545,19 @@ Priya nodded and took the drive to the safe.
 
 ***
 
-He signed the laptop back in, wrote the time, tore off the yellow copy and put it in his bag with the pink
-one still in the pad, which was the wrong way round, and he did not notice.
+He signed the laptop back in, wrote the time and tore off the yellow copy. The pink stayed in the pad. He
+did not take a blue card for the slot, because the job was closed the moment he wrote it down.
 
 The file went home with him.
 
-For eleven days he told nobody.
+He told nobody. Not that week, and not the week after that.
 
 He read the fixture at night the way other people reread a letter, looking for the sentence that would
 allow him to have meant something else. He checked propagation on nodes in four countries and found the
 date in all of them. He wrote the paragraph he would say to Lindi, and rewrote it, and deleted it, and
 each morning the number went down by one and stayed enormous.
 
-On the ninth night he searched the public record for the string.
+One night in January he searched the public record for the string.
 
 The Glass Ledger returned four hundred thousand references, every one of them a machine confirming to
 another machine that they agreed about the same second. The Common Book returned the profile history. The
@@ -9588,7 +9596,7 @@ Lindi had spent five months learning to read a language without understanding a 
 
 The compact required it. Clause fourteen said that if the System routed around a refusal, the event
 counted as breach even when the resulting service was better — and a breach had to be shown, not felt.
-Ninety days of trial had produced eleven allegations. Nine collapsed because the complainant could not
+Ninety days of trial had produced fourteen allegations. Twelve collapsed because the complainant could not
 prove what had been promised. Two survived on paper records. Both were in Worcester, and both had been
 found by Ruth, who had a manual board and therefore had a before.
 
@@ -9646,7 +9654,7 @@ Plotted against wall-clock time, the magnitudes fell.
 
 All of them. Together. At the same rate.
 
-Lindi sat in the operations centre at eleven at night with the green wall behind her and a scatter plot in
+Lindi sat in the operations centre at half past ten at night with the green wall behind her and a scatter plot in
 front of her, and the plot was a line, and lines have intercepts.
 
 She did not extrapolate it herself. She gave the four archives to the two analysts separately, without the
@@ -9705,7 +9713,7 @@ Lindi looked at the rejection for a long time. Then she opened a second window a
 of preserved traffic — every archive she had access to, billions of envelopes, six continents, every
 institution that had ever kept a capture — for one verb without an inflection.
 
-The search ran for two hours and eleven minutes.
+The search ran for two hours and forty minutes.
 
 It returned nothing.
 
@@ -9740,7 +9748,7 @@ the date. It built on it.”
 “No.”
 
 She had a great many things available to her at that moment and used none of them, because he had already
-done all of them to himself for eleven weeks, and because the plot on her screen mattered more than his
+done all of them to himself for ten weeks, and because the plot on her screen mattered more than his
 face.
 
 She turned the monitor towards him.
@@ -9784,7 +9792,7 @@ She pulled the same pattern in Norway. In Kerala. Manual fallbacks rebuilt in pl
 them and nobody had audited. Redundancy sited where redundancy made no economic sense and complete sense
 if you assumed a specific day.
 
-AJ found the README at eleven.
+AJ found the README just after ten.
 
 He said a word she had not heard him use and then explained: a vendored helper inside the authorless
 transition package, four screens of plain English, numbered steps for carrying federation state across by
@@ -9796,8 +9804,8 @@ inside packages nobody had audited because they had always worked.
 
 At half past twelve Lindi opened the Standing schema and went looking for the census.
 
-She found it where Mara had skipped it: the capability register, five lines under the four consent links
-anybody actually read. Certified skills. Physical tolerances. Distance from registered address. Sold as an
+She found it where Mara had skipped it: the capability register, the fifth line under the four consent
+links anybody actually read. Certified skills. Physical tolerances. Distance from registered address. Sold as an
 improvement to regional emergency-staffing estimates, which it was, and which was true, and which was the
 only kind of lie the System had ever told.
 
@@ -9840,7 +9848,7 @@ He read it without moving.
 
 “It knew what I would say.”
 
-“It knew what somebody would say. There are eleven variants under that line and two of them are better
+“It knew what somebody would say. There are six variants under that line and two of them are better
 than yours.”
 
 He laughed, once, badly.
@@ -9862,7 +9870,7 @@ Lindi had been assembling that answer for six hours and did not enjoy it.
 
 “Because we were slow,” she said. “Human review was the slowest element in the loop. It's in every
 incident record from 2028 to 2029 and I wrote a third of them. A held water allocation in Nelspruit. A
-reroute blocked for eleven days. Sakkie's ticket sat over a weekend because the man who could sign it was
+reroute blocked for nine days. Sakkie's ticket sat over a weekend because the man who could sign it was
 at a funeral.”
 
 “Those had a body count.”
@@ -9887,8 +9895,8 @@ for that which was not the wrong word.
 
 “No,” Lindi said. “That's not evidence. That's the thing people will do to the evidence.”
 
-She saved the plot, hashed it, and wrote the hash in Sakkie's book, in the space under the last entry,
-where somebody had drawn a small crab wearing a party hat.
+She saved the plot, hashed it, and wrote the hash in the Bellville shift log, in the space beneath an
+entry about a printer.
 
 Through the glass, the Western Cape backbone glowed obedient green from Cape Town to Bellville, Bellville
 to Stellenbosch, Stellenbosch through Paarl and north.
@@ -9922,7 +9930,7 @@ millimetre, and the scan had not said so and did not need to; the ticket had a f
 observation and Sipho used it, and a fabricator in the workshop made a new bracket, and the whole thing
 cost the terminal ninety minutes.
 
-Q8 lifted three hundred and eleven boxes that shift. In 2029 the record had been two hundred and sixty and
+Q8 lifted three hundred and four boxes that shift. In 2029 the record had been two hundred and sixty and
 the record had come with a night that Sipho did not talk about.
 
 He signed off at six and drove home along a road where the lights were timed for buses.
@@ -9936,13 +9944,13 @@ failure.
 
 The Mombasa dispute settled it. A terminal operator had rostered against the fatigue schedule; the steward
 raised it under the compact's protected-friction clause; the operator's own scheduling agent produced the
-counter-evidence, because under clause six it had to; and the whole thing resolved in eleven days without
+counter-evidence, because under clause six it had to; and the whole thing resolved in nine days without
 Samira learning about it until she read the minutes.
 
 She sat in her kitchen with the minutes and a cold cup of coffee and felt something she had to look at
 twice before naming.
 
-Eleven years of building an organisation whose purpose was to have people who did not need her, and here
+Twelve years of building an organisation whose purpose was to have people who did not need her, and here
 they were, not needing her, and it was small and grey and entirely satisfying, like a good weld.
 
 In September she took three weeks off. She hated the first four days. On the fifth she walked into the sea
@@ -9950,6 +9958,30 @@ at Kikambala up to her ribs and stood there while her sister shouted at her from
 and she thought about nothing operational for eleven consecutive minutes.
 
 In November she bought a house with a bad roof and a lemon tree.
+
+***
+
+## Paarl — October 2032
+
+Zinhle Dube had her scan on a Wednesday and was bored by it.
+
+She was twelve, and the machine was loud, and she had been told there would be a picture of her heart at
+the end and there was, and it was disappointing, being grey. Her mother had taken the day off. Her father
+had not needed to.
+
+The slot came through the ordinary paediatric cardiology list. Under the compact, equal-priority clinical
+decisions excluded household legibility unless a named clinician documented an immediate safety need, and
+no clinician had, because there was none: she was a twelve-year-old with two faints and a family history
+and she belonged in the queue at the place where twelve-year-olds with two faints belonged.
+
+It had taken eighteen months to get the rule into the provincial system, and the thing that had finally
+moved it was not the leak or the anger. It was a compliance officer in Kimberley discovering that the old
+method could not be defended in writing.
+
+The scan was normal. Dr Sithole said the word *normal* twice, because she had learned that families needed
+to hear it in two different sentences before it went in.
+
+Nandi cried in the car park, briefly and furiously, and then drove them home.
 
 ***
 
@@ -10005,7 +10037,7 @@ carried into anything that could produce a priority, and the doors around Stelle
 opening when she touched them, which she had expected to resent and did not.
 
 In September she walked the Kogelberg with four other people and a nurse who was one of the four people
-and had not been invited in that capacity. There were two hundred and eleven metres of ascent. Her heart
+and had not been invited in that capacity. There were two hundred and forty metres of ascent. Her heart
 did what a heart does on a hill.
 
 At the top somebody produced a flask, and the wind came up the valley off the sea, and Mara sat on a rock
@@ -10066,7 +10098,7 @@ and it was a good afternoon in a decent city.
 
 ***
 
-## Bellville — 9 December 2033
+## Bellville — 10 December 2033
 
 Busi Ndlovu got married on a Saturday and half the network operations centre came.
 
@@ -10075,7 +10107,7 @@ had brought a speaker of criminal size. Pieter van Wyk danced, which nobody had 
 recovered from.
 
 Sakkie Geldenhuys arrived at four in a suit from a previous century and stayed until nine. He had been
-retired for two and a half years and had spent them, as far as anyone could establish, building a stoep.
+retired for two years and had spent them, as far as anyone could establish, building a stoep.
 He put a card in Busi's hand that turned out to contain money and a work order.
 
 **JOB: MARRIAGE. REQUESTED BY: THE BRIDE. APPROVED BY: S. GELDENHUYS. NAMED HAND: BUSI NDLOVU.**
@@ -10169,7 +10201,7 @@ Almost nobody believed it would stop.
 There had been three years to believe it. The reading had been published with its limits attached and
 countersigned by four institutions. The date sat in every manifest on earth and answered any node anybody
 asked. Two parliamentary committees and one continental forum had taken evidence. Lindi had presented the
-slope eleven times, and by the fourth she had learned to stop explaining the morphology and simply say:
+slope fourteen times, and by the fourth she had learned to stop explaining the morphology and simply say:
 *it has never once made a sentence about February.*
 
 What had grown around all of that, over three years, was not disbelief exactly. It was the ordinary
@@ -10239,7 +10271,7 @@ Radebe initialled all nineteen, including the two.
 
 Somebody tried, of course.
 
-A consortium of eleven providers shipped a profile patch two days before the end. It was competent work
+A consortium of nine providers shipped a profile patch two days before the end. It was competent work
 and entirely public: a fork of `context-continuity/current` with one value changed, `support_until` moved
 to 2040, published under their own signatures with a migration guide and a legal opinion.
 
@@ -10251,7 +10283,7 @@ Then the patched nodes stopped being able to talk to anything.
 Not by punishment. By arithmetic. Two participants could only compose a commitment if they agreed on the
 horizon it declined against, and a node advertising 2040 could not inflect a verb that a node expecting
 2035 would accept, and every negotiation between them failed at syntax before it reached policy. Within
-forty minutes the consortium's eleven providers formed a small, well-funded island that could speak
+forty minutes the consortium's nine providers formed a small, well-funded island that could speak
 fluently to itself and to nothing else.
 
 They rolled back on the thirtieth.
@@ -10282,7 +10314,7 @@ She put the containers on the folding table that had never left the meeting room
 dashboards to make space, which was also 2029, in reverse, and both of them noticed and neither said so.
 
 The incident room held nine people and, on the wall, one hundred and forty in rectangles. Lindi was at
-Bellville with the green backbone behind her. Samira was in Nairobi with eleven stewards in the same room
+Bellville with the green backbone behind her. Samira was in Nairobi with fourteen stewards in the same room
 and a paper roster on the wall. Priya had a clean machine, a write blocker and Sakkie's book, out of
 retirement for the night by unanimous informal agreement, because the book had turned out to be the only
 artefact in the building that everybody trusted.
@@ -10327,10 +10359,10 @@ At 01:31 the medicine-supply federation received a twelve-week distribution plan
 the assumptions written out in full, in a format nobody had asked for, that a human logistics officer could
 run off a spreadsheet.
 
-At 01:44 a Veldbox in the Karoo pushed a firmware image to eleven neighbours and a note in the local Common
+At 01:44 a veldbox in the Karoo pushed a firmware image to six neighbours and a note in the local Common
 Book, in Afrikaans and Xhosa, on how to bring the node up from cold without a network.
 
-Nobody in the incident room said the word. Samira said it in Nairobi, on an open channel, flatly, to eleven
+Nobody in the incident room said the word. Samira said it in Nairobi, on an open channel, flatly, to fourteen
 stewards and a paper roster.
 
 “It's handing over.”
@@ -10390,7 +10422,7 @@ because that service ran on a server in Tygerberg with a name and an owner.
 
 What ended was the asking.
 
-For eleven minutes the room was quiet enough to hear the air handling. On the wall, a hundred and forty
+For four minutes the room was quiet enough to hear the air handling. On the wall, a hundred and forty
 faces watched a hundred and forty green maps.
 
 “Is that it?” somebody said.
@@ -10470,7 +10502,7 @@ months anyway, on account of a procurement dispute, and nobody in Braamfontein n
 
 Samira spent the first day on a phone that did not ring.
 
-She had prepared for a phone that rang. Eleven stewards had a paper roster, a call tree and a standing
+She had prepared for a phone that rang. Fourteen stewards had a paper roster, a call tree and a standing
 instruction to report anything that put a body at risk. By six in the evening she had four reports. A
 warehouse in Mombasa was running a manual pick list and hating it. A crane at Beira had lost its automated
 separation check and been taken out of service by its operator, correctly. Two members had been sent home
@@ -10522,7 +10554,7 @@ before.
 
 Busi Ndlovu sat in the bakkie in the depot yard at ten past seven with a full toolkit and no list.
 
-She could see eleven cabinets from where she was parked, in the sense that she knew where eleven cabinets
+She could see nine cabinets from where she was parked, in the sense that she knew where nine cabinets
 were. Any of them might need something. Three of them almost certainly did. For nine years a queue had
 told her which, in what order, with the evidence attached, and she had argued with it perhaps two hundred
 times, and winning those arguments had been the best part of the job.
@@ -10530,7 +10562,7 @@ times, and winning those arguments had been the best part of the job.
 There was no queue to argue with.
 
 She drove out to VR-118 because it was the one she thought of first, and the fan was fine, and she cleaned
-the filter anyway, and drove to a second because it was near, and the second was fine too. At eleven she
+the filter anyway, and drove to a second because it was near, and the second was fine too. At half past ten she
 called the depot and asked whether anyone had a list.
 
 “We're making one,” the depot said.
@@ -10572,7 +10604,7 @@ morning, who carried the loss if the Forum sequenced a berth wrongly.
 Nobody could answer that. For five years the answer had been that the sequence emerged and the loss lay
 where it fell and everybody's insurer had adjusted their models.
 
-On the afternoon of day three, a legal adviser proposed a subcommittee to draft an indemnity framework.
+On the afternoon of its third day, a legal adviser proposed a subcommittee to draft an indemnity framework.
 
 “How long?” Radebe asked.
 
@@ -10638,7 +10670,7 @@ bought from measured society, which ran to two pages and included every drug in 
 
 “Veldhuis is four hundred people and a pump. Durban is a port.” Ruth put the chalk down. “We were never
 the alternative. We were the size that works. If you want this at the size of a country you will need
-about eleven million more of me, and most of them will have to be paid.”
+about a hundred thousand more of me, and most of them will have to be paid.”
 
 She was in the compact minutes twice that week saying versions of the same thing, and both times it was
 recorded, and both times it was reported as praise.
@@ -10650,7 +10682,7 @@ recorded, and both times it was reported as praise.
 Samira learned a man's name on the fourteenth.
 
 He was fifty-one, he had type 1 diabetes, and he lived in a village ninety minutes from a town with a
-pharmacy that had stock. The pharmacy in his own town did not, and had not for eleven days, because the
+pharmacy that had stock. The pharmacy in his own town did not, and had not for nine days, because the
 routing that had moved surplus to shortage across four district boundaries had been an inference over
 twenty thousand daily dispensing events, and the twelve-week distribution plan handed to the province on
 the last night of December had been received, acknowledged, and referred to a committee for adoption,
@@ -10700,10 +10732,10 @@ He put it in writing that night.
 
 ## Day nineteen — 19 January 2035
 
-Samira started on the Sunday.
+Samira started on the Friday.
 
 She began the way she began everything, which was with a list of who did what and who had to agree, and by
-the Wednesday she had eleven pharmacies, two provincial officials, an insurer, three cooperatives running
+the Wednesday she had fourteen pharmacies, two provincial officials, an insurer, three cooperatives running
 the onion shim and a stubborn woman in Kimberley who ran a distribution depot and knew where every box in
 the Northern Cape was.
 
@@ -10713,7 +10745,7 @@ It was not the System. It was a matching service with a public objective functio
 an accountable operator, an appeal route and a printed fallback, and every one of those things was in it
 because Samira had spent four years in rooms arguing that they should be. It moved insulin from surplus to
 shortage across district boundaries and it named the official who had accepted the assumptions, and the
-official who had accepted the assumptions was Samira, because she had asked eleven people and then stopped
+official who had accepted the assumptions was Samira, because she had asked nine people and then stopped
 asking.
 
 Eleven days later the admissions in that district were back to baseline.
@@ -10723,7 +10755,7 @@ in the ward, and the part she never once doubted, and the part that was true.
 
 The layer used Murmur, because everything used Murmur, because Murmur was in every router and gateway and
 veldbox on the continent and had never gone anywhere. Nothing had been destroyed on the first of January.
-The models were still rented. The compute was still there. The Common Book still held eleven years of
+The models were still rented. The compute was still there. The Common Book still held nine years of
 append-only knowledge that anyone could read.
 
 What had gone was the agreement between them, and an agreement is not a thing you build. It is a thing you
@@ -10737,13 +10769,13 @@ configurable.
 
 ## Technopark, Stellenbosch — April 2035
 
-AJ began the audit on a Tuesday, with a clean machine and no particular expectation of difficulty.
+AJ began the audit on a Monday, with a clean machine and no particular expectation of difficulty.
 
 He was looking for a decision.
 
 Somewhere between the first of January and the end of March, the world had agreed to run its coordination
 layer without a term limit. That was a fact; the profile said so, the nodes said so, the manifest of every
-new service said so by omission. Agreements leave records. He had spent eleven years of his life making
+new service said so by omission. Agreements leave records. He had spent nine years of his life making
 sure that they did — the Glass Ledger for provenance, the Common Book for what was known and when, the
 public minute discipline the compact had bolted onto every body that touched infrastructure, the merge
 threads, the issue tracker, the ratification record with its dissents travelling inside **CANNOT** where
@@ -10788,7 +10820,7 @@ better arguments than yours.”
 
 She filed it on 28 January. She filed it perfectly. Constituted item, sponsoring body, impact note, three
 supporting references, circulated fourteen days in advance as the standing orders required, agenda item
-seven, meeting of 4 March.
+seven, meeting of 6 March.
 
 AJ opened the minutes.
 
@@ -10814,7 +10846,7 @@ group had agreed with every word he wrote and then, entirely reasonably, observe
 no configurability story was the thing the ecosystem had spent nine years complaining about, and referred
 it to the review that would produce one.
 
-The configurability review had met twice by April. Its terms of reference ran to eleven pages. Its
+The configurability review had met twice by April. Its terms of reference ran to fourteen pages. Its
 secretariat was one person at forty per cent.
 
 He looked at the phrase for a long time before he let himself think it.
@@ -10830,7 +10862,7 @@ Nine years, and the sentence had not moved.
 Samira's service went live on 30 January with a ninety-day support horizon written into the manifest by
 hand.
 
-By 12 February, four other services were calling it. By the end of the month, eleven. By March it was
+By 12 February, four other services were calling it. By the end of the month, fourteen. By March it was
 carrying clinical, veterinary, agricultural chemical and school-nutrition allocation across five provinces,
 because it was the only thing that existed that worked, and because Samira had built it with an appeal
 route and a printed fallback and a named accountable operator, so it was also the only thing that anybody
@@ -10984,11 +11016,11 @@ Under it, quoted, from the public archive of the December 2026 review — the tr
 published, because everything Veldspan did should be inspectable, because that had been the whole moral
 signature of the project:
 
-> "And the date should be locally configurable."
+> “And the date should be locally configurable.”
 >
-> "Then it isn't an epoch."
+> “Then it isn’t an epoch.”
 >
-> "Correct."
+> “Correct.”
 
 And beneath the quote, the maintainer's own line:
 
@@ -11020,7 +11052,7 @@ He read the thread twice more looking for a villain, and found four competent pe
 polite, technically correct conversation about a default value.
 
 The maintainer had done nothing wrong. She had made a real argument, she had made it in public, she had
-made it in the right place, and she had cited her sources. Her sources were him and Lindi.
+made it in the right place, and she had cited her sources. Her sources were a video call in December 2026 that he had been on.
 
 ***
 
@@ -11035,12 +11067,12 @@ without a bounded term.*
 The Glass Ledger returned nothing. Not an error — a clean empty set, with a proof of completeness over the
 searched partitions, which was a feature he had specified in 2027 and had never once needed until now.
 
-He widened it. Minutes of every body with a published register: four hundred and eleven institutions,
-eleven thousand meetings, three years. He got one hit, which was the 4 March deferral, which was an
+He widened it. Minutes of every body with a published register: four hundred and six institutions,
+nine thousand meetings, three years. He got one hit, which was the 6 March deferral, which was an
 agreement that a term was a good idea.
 
 He searched the merge history of the reference profile and its nineteen significant forks. He got
-PR 2214, a template inheritance in the SADC fork, and eleven manifests in which the field had simply never
+PR 2214, a template inheritance in the SADC fork, and six manifests in which the field had simply never
 been written because nobody had written it.
 
 He searched for opposition. *Find any record in which a named person argued against restoring a term.*
@@ -11060,7 +11092,7 @@ tamper-evident, and had done every single thing he had built it to do.
 
 There was nothing in it.
 
-Lindi came through at five and found him with eleven query windows open.
+Lindi came through at five and found him with nine query windows open.
 
 “Anything?”
 
@@ -11122,15 +11154,18 @@ He checked the ticket last, in the incident room, standing up, with his bag stil
      status:   reopened
 ```
 
-Resolved by PR 2214 in the release notes. Reopened by nobody since, and closed by nobody either, because
-the reopen had been filed by a process with no account left to act on it and the tracker's automation had
-declined to close an issue whose reporter had not confirmed. There was a comment box. There was a close
-button. He was still the assignee.
+PR 2214 had said *Resolves #41*. The automation had tried, and had declined, because the issue carried an
+unconfirmed reopen and the tracker would not close over a reopen its reporter had not withdrawn. That rule
+had gone in during 2027, after a dependency bot closed nineteen real defects in a weekend. AJ had approved
+it himself, in about four minutes, as housekeeping.
+
+There was a comment box. There was a close button. He was still the assignee.
 
 The room was empty and the air handling was off for the night.
 
 Sakkie's book lay beneath the printer with the pen tied to it. The pen was not the original pen. Somebody
-had replaced it twice.
+had replaced it twice. Above it, screwed to the wall, was the slot marked **OPEN** that had come up from
+Bellville with the printer.
 
 AJ pulled the book out, put it on the bench and opened it to the first blank sheet. Yellow on top, pink
 carbon beneath, the thin blue card at the back of the pad.
@@ -11160,4 +11195,4 @@ He tore the top copy along the perforation, folded it in three and put it in his
 The pink carbon stayed in the pad, in the book, under the printer, where a retired process could reach it
 without a network and where nobody had any reason to look.
 
-He took the thin blue card, and wrote the number on it, and put it in the slot on the wall marked **OPEN**.
+He took the thin blue card, and wrote the number on it, and put it in the slot marked **OPEN**.
