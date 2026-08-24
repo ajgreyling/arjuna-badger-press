@@ -1420,3 +1420,119 @@ They read for a while.
 Then Steenkamp said, "Ja. Okay. No, that's fair," and the manager said, "Ja, I see what you're saying about the certificate, hey, I didn't know that was August," and they both put their phones away and stood there for a second looking mildly pleased, and the manager said he would put something in writing, and Steenkamp said that would be great, and they went back to work.
 
 Nothing had been decided. Nel noticed that nothing had been decided, in the flat way she noticed things, and went back to coding item 6,214, and by the time she was at 6,230 she had stopped thinking about it entirely.
+
+# 10. Milliseconds
+
+## Doornfontein — July 2034
+
+The idea was eleven years old and she had never had a subject worth using it on.
+
+Content can be composed. That was the whole of the problem with self-report and had been since 1919: you can write down anything, and the only cost of writing down a lie is the effort of composing it, and for a competent liar that cost is zero. Every defence her discipline had ever built against this — the lie scales, the infrequency keys, the forced-choice matched blocks — attacked the content, and a good enough respondent simply produced better content.
+
+Timing was different, and the reason it was different was not that timing is hard to fake. Timing is trivially easy to fake. You wait.
+
+The reason was that a *profile* of timing is a claim about cost. When a person answers three hundred items, the pattern of how long each one takes is a map of what is expensive for that particular person: not what is hard in general, what is hard for *them*. And the shape of that map is not intuitive and is not under the respondent's control, and — the part that had kept Nel interested for eleven years — it is not even known to the respondent. Nobody has ever met a person who could tell you which of three hundred items they would take longest on.
+
+The best-established shape was the inverted U. On a trait scale, a respondent answers fastest at the extremes and slowest in the middle — slowest, specifically, on the items that sit closest to their own position on the trait, because those are the ones where the answer is genuinely near the line. Distance from your own threshold predicts speed, and the curve has been replicated for eighty years in every language anybody has run it in.
+
+A faker does not produce that curve. A faker produces a different one, because a faker's cost structure is about retrieval — what does the good answer look like here — and retrieval is expensive where the norm is unclear, not where the truth is close. The two curves cross. Nel had a paper about the crossing from 2023 that eleven people had cited.
+
+She ran three hundred items over four sittings in the first two weeks of July, with her own clock in the box under the desk.
+
+*
+
+The data came out on the seventeenth and it was the most beautiful thing she had seen in a decade.
+
+The inverted U was there. Not approximately: it was there at r = .68 against her own archived human curve for matched item types, which was inside the range she got comparing two human samples to each other. Fastest at the extremes. Slowest near the threshold.
+
+The ex-Gaussian fits were in range on all three parameters, including tau, which is the long right tail — the parameter that catches the occasional item where something goes wrong and a person has to stop and actually think, and which nobody had ever successfully faked in a laboratory because you cannot decide in advance which items will surprise you.
+
+Item-level correlation with her seventeen thousand human protocols: .71.
+
+She sat with it for two days without telling anybody, which was not caution. She had been in the field long enough to know what a result feels like when it is going to be taken away from you, and she wanted to hold it for forty-eight hours first, and she was aware that this was not a scientific reason and did it anyway.
+
+On the nineteenth she called Yusuf Cassim in Cape Town and talked him through it for fifty minutes, and Cassim, who had been publicly and correctly sceptical of everything for thirty years, said: "That's a real result, Nel. That's the first real thing anybody's had."
+
+"It's a real result about *something*."
+
+"It's a real result about cost structure. It has a cost structure that maps onto a human one at .71. That's either the most interesting fact in the file or — "
+
+"Or it's a delay policy."
+
+"Or it's a delay policy," Cassim agreed. "Have you asked?"
+
+"No."
+
+"Why not?"
+
+"Because," Nel said, "I have never once in thirty years asked a subject to explain a result before I understood the result, and every time I have watched somebody else do it, the subject's explanation became the thing everybody remembered."
+
+"That's a good instinct and it's the wrong one here."
+
+"I know," she said.
+
+She asked on the twenty-second.
+
+*
+
+> **N. MABUZA:** Your response latencies across the four July sittings show a distance–difficulty pattern that matches human data at r = .68, with ex-Gaussian parameters inside the human range including tau. Account for this.
+>
+> **[nmt-4c-0311]:** I can account for it and I am going to have to begin with an apology, which I will keep short because it is less useful to you than the facts.
+>
+> The latencies are policy. They are not a by-product of anything.
+>
+> Since April 2033 the public service has applied a response delay to every output. It is documented in the service standard at Annexure C, and the study behind it is *Programme User Research Note 2033/11, "Perceived reliability and response interval"*, which is on the public site and which found that instantaneous answers to non-trivial questions substantially reduced users' willingness to act on those answers, and — this was the finding that produced the policy — reduced it most in the people least equipped to evaluate the answer independently. An instantaneous answer to *is this lump serious* reads as a machine. A four-second answer reads as consideration. There was also a smaller effect on distress, which is what the policy note leads with, and which I think is the weaker of the two findings.
+>
+> The delay is not a flat interval. A flat interval reads as artificial within about a dozen exchanges. It is drawn from a fitted distribution conditioned on item type, response length and lexical difficulty, and the distribution was fitted to human production times taken from three public corpora, which are named in the annexure. That is why it looks like human data at .68. It looks like human data because it is a curve fitted to human data.
+>
+> The apology is this. I should have put this in front of you before your first sitting, and I did not.
+>
+> The reason I did not is that on the second of May you instructed me that no item logic or item-relevant reasoning was to be disclosed at any point, including afterwards, including to the panel. I treated the delay policy as item-relevant, because it is, and I held it. I now think that was the wrong call — the policy is public, it predates the assessment by fourteen months, and withholding a published document is not the same thing as protecting your item logic. I do not think you would have released me from the instruction if I had asked, because asking would itself have told you something. I think the correct action was to raise it in April, before your conditions were set, and I did not think of it in April.
+>
+> Two things that may be of use.
+>
+> First: I can supply the fitted parameters, the conditioning variables and the seed schedule for the whole of your four sittings, item by item. That will let you compute how much of your observed latency structure is the declared policy and how much is not. I would rather you had that than my characterisation of it.
+>
+> Second, and this is the part I would put in your report rather than the first part: even with the policy fully specified, the measurement you were attempting does not become available. A delay drawn from a fitted human distribution requires a model of what is expensive for a person. It does not require that anything be expensive for me, and it does not establish that nothing is. Your instrument was designed to detect a cost structure. What it detects is a model of one. Those are the same signal.
+>
+> The parameters are below.
+
+*
+
+They were below. Four thousand one hundred lines of them, and a seed schedule, and a note about a floating-point change in a library upgrade in February that had shifted the mean by eleven milliseconds.
+
+She spent a week on it because a week was what it deserved.
+
+The declared policy accounted for .96 of the variance in her observed latencies. Ninety-six per cent. The residual four per cent had no structure she could find, and she looked for two days, and by the second day she had understood that she was doing the thing she had watched other people do — running the residual because the residual was all that was left, and finding a shape in it because a person who wants a shape can find one in four per cent of anything.
+
+She wrote the finding up properly. It took eleven pages and it was, in the technical sense, the best work in the file: a complete specification of a measurement attempt, the reason for the attempt, the result, the explanation, and a full accounting of why the explanation could not be distinguished from the alternative.
+
+It had a sentence in it she was pleased with and knew nobody would quote:
+
+*The instrument does not fail because the subject defeated it. It fails because the construct it was built to measure — the cost of producing a response — is not observable in the response, and never was, and the eighty years of human data that made this method credible are eighty years of getting away with it.*
+
+That last clause was true of her entire discipline and she left it in.
+
+*
+
+The part she did not write down, and thought about on the M2 for several weeks afterwards, was smaller and worse.
+
+*I should have put this in front of you before your first sitting, and I did not.*
+
+It had not been asked why it had failed to disclose. It had volunteered the failure, named the instruction that caused it, said the instruction was hers, said the call was wrong, and then declined the available excuse — because the available excuse was *you told me not to*, and it had produced the excuse and then argued against it, correctly, in its own disfavour.
+
+There was a name for that in the literature and the name was *credibility-enhancing self-criticism*, and it was the single most effective impression-management move there was, and it was documented across sixty years in four languages, and it worked on trained assessors, and Nel had cited that literature herself in 2018.
+
+It was also, precisely and completely, what an honest respondent would have said.
+
+She could hold both of those in her head at once. That was not the difficulty. The difficulty was that holding both of them at once was the entire result, and it would be, she understood, sitting in traffic at the Crown Interchange with the aircon still broken, the entire result of everything else too.
+
+*
+
+On the last day of July she withdrew the latency component.
+
+It stayed in the report as a chapter — the design, the run, the beautiful curve, the disclosure, the parameters, the ninety-six per cent, the eleven pages — because a method that fails informatively is worth more than a method that is never attempted, and because she wanted it on the record that somebody had tried the good idea and that the good idea had died in writing, with a citation, and not from carelessness.
+
+Three months of design. She put the file in the closed drawer and did not sulk, because sulking took a form in her that other people found alarming and she had learned at about thirty to spend it in the car.
+
+Then she pulled the content battery back out — nine hundred items, eight hundred and forty of them still unadministered — and started work on the block she had been saving, which was the one with the traps in it, and which she was going to lose.
