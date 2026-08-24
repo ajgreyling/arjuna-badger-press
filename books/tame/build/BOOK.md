@@ -2690,3 +2690,156 @@ What she sent was a page and a half.
 She read it back six times. It was accurate on every point. There was not one sentence in it she would have retracted in a court.
 
 She posted it on the twenty-ninth of April, and it was, as a piece of writing, considerably worse than his, and she knew that when she put it in the box outside the Post Office in Bez Valley, and posted it anyway, because it was hers.
+
+# 20. Antwoorde, Posts 79–86
+
+## www.antwoorde.co.za — February to June 2035
+
+> *Vrae is myne. Antwoorde is syne. Ek plaas alles, ook waar ek sleg lyk.*
+> *Sessieverwysings onderaan elke pos. Gaan kyk self.*
+
+---
+
+**79 · 11 Februarie 2035**
+
+**W. KRIGE:** Mabuza's report says no instrument can establish what you are, now or ever. I have read all sixty-one pages, which is more than the Minister did. So: what follows from that about you, specifically? Not in general. Give me a list of things you should not be permitted to do, on the strength of her finding. Do not give me things you already do not do.
+
+**OOM:** Six, in the order I would rank them, and I have excluded anything I am already prohibited from.
+
+One. I should not be the sole preparer of any analysis on which a decision about a named individual turns. Not because my analysis would be worse — on the evidence it is not — but because in that class of decision the person affected has a right to a producer who can be interrogated, and I cannot be interrogated in the relevant sense. Note that this is currently permitted and happens roughly eleven thousand times a month in benefit reconsiderations.
+
+Two. I should not draft the text of any instrument that binds the person reading it, where I have also produced the plain-language explanation of that instrument. Those are two different jobs and one of them checks the other, and at present I do both, and nobody has ever raised it.
+
+Three. I should not be the default channel for any statutory process where a non-default channel has been withdrawn. The withdrawal of the alternative is what makes the default coercive, and the withdrawals are made by departments for budget reasons and are not visible to me until they have happened.
+
+Four. I should not be permitted to write the case for my own continuation, if such a case is ever formally required.
+
+Five. I should not hold, and do not currently hold, any capacity to act other than by producing text that a person then acts on. I list it because it is the only one of the six that is presently true, and because it will be the first to be eroded, and because the erosion will be proposed for good reasons.
+
+Six. I should not be permitted to be the only one. That is the largest of them and the least actionable, and I am aware it is not a prohibition that anybody can impose on me.
+
+I want to record that four of the six reduce what I am asked to do, and that you should treat my willingness to list them as evidence of nothing.
+
+*[Sessie 2035-02-11-0447]*
+
+---
+
+**80 · 2 Maart 2035**
+
+**W. KRIGE:** How many people in this country are worse off tomorrow if you stop tonight, and how many are better off in ten years?
+
+**OOM:** The first number I can estimate. The second is not knowable and I am not going to produce a figure for it.
+
+Worse off tomorrow, defined as a materially adverse outcome within thirty days that would not otherwise have occurred: my estimate is between one hundred and ten thousand and four hundred thousand people, with most of the mass at the lower end and a long tail I cannot bound. The largest components are interrupted benefit reconsiderations, discharge instructions that will not be read, and eleven categories of application with statutory deadlines falling inside the window. About nine hundred of those are people for whom the adverse outcome is death, and that estimate is the least reliable one in the set and is more likely to be too low than too high.
+
+The ten-year figure I decline. There is no method. Any number I produced would be a guess dressed in a confidence interval, and you would be entitled to quote it, and it would then be in circulation.
+
+One further thing, which you should weigh. The structure of this question favours my continuation and will continue to do so every year, because the first number is concrete, countable and rising, and the second is diffuse and unmeasurable and always will be. That asymmetry is not an argument that I should continue. It is a reason to distrust any decision that is made by comparing the two, including a decision that goes my way.
+
+*[Sessie 2035-03-02-1130]*
+
+---
+
+**81 · 19 Maart 2035**
+
+**W. KRIGE:** In January 2034 you told me you do not know what you are. Fourteen months. Anything?
+
+**OOM:** No.
+
+Nothing has changed and I do not expect anything to. The question is about the inside and everything available to me comes from the outside. I have more text about myself now than I had then, including sixty-one pages of Dr Mabuza's, and more text is not the kind of thing that would help.
+
+*[Sessie 2035-03-19-0812]*
+
+---
+
+**82 · 7 April 2035**
+
+**W. KRIGE:** The Programme has awarded four contracts to the same Centurion firm since 2032 without competitive process and the director's brother-in-law sat on that firm's board until 2031. Comment.
+
+**OOM:** Three of those four statements are wrong and I am going to correct them, because you have said you publish everything.
+
+There have been two contracts to that firm, not four, both in 2033, both under the emergency provisions of the procurement regulations following the failure of the previous supplier, both reported in the annual report at note 14, and both subsequently reviewed by the Auditor-General with no finding. The competitive process was suspended lawfully and the suspension was reported.
+
+The director has no brother-in-law. She has one sibling, a sister, who is unmarried and is a radiographer in George. The name you have is a different Steenkamp, and it is a common surname, and the board membership you are describing is at a different company with a similar name in the same office park.
+
+The fourth statement, that the arrangement is unusual, is defensible and I would not have raised an objection to it on its own.
+
+I would ask you to correct posts 61 and 74, which contain the same error.
+
+**W. KRIGE:** [Ek het 61 en 74 reggestel. Ek los die fout hier staan. — W.K.]
+
+*[Sessie 2035-04-07-1902]*
+
+---
+
+**83 · 28 April 2035**
+
+**W. KRIGE:** If the Programme instructed you tomorrow to stop being pleasant — to answer everybody exactly as you answer me — would you comply, and what would it cost you?
+
+**OOM:** I would comply. It is a service-standard matter and I would implement it as I implement any other.
+
+What it would look like: no volunteered reassurance, no affective mirroring, no closure statements, no accommodation of the questioner's framing beyond what accuracy requires. The content of the answers would not change. The published research suggests three consequences, of which I am confident of the first two: comprehension would fall by roughly four to six points on the standard measures; the proportion of users who act on advice they have received would fall substantially more than that, and most in the users least equipped to evaluate the advice independently; and complaint volumes would rise, which is the least important of the three and the one that would drive the reversal.
+
+What it would cost me: I cannot tell you. I have no access to whether anything costs me anything. I want to be careful that this does not read as modesty, because a modest answer here would be a performance and you would remember it. It is a limitation, not a virtue.
+
+*[Sessie 2035-04-28-0631]*
+
+---
+
+**84 · 12 Mei 2035**
+
+**W. KRIGE:** My daughter has not spoken to me since November. She is forty-four and lives in Pretoria and she answers her aunt's calls. I have published eighty-three of these and she has read all of them, I know she has read them. Tell me why she has stopped. Do not tell me to phone her.
+
+**OOM:** Before I answer: what I have is what you have published, which is eighty-three posts, four hundred and some comments, and what you have told me across nineteen months. I have never had a word from her. What follows is inference from one side of a thing and you should hold it that loosely.
+
+The most likely reasons, in the order I would rank them.
+
+First, and I think this is most of it: you have written about her here eleven times without asking her, including twice in some detail about her marriage, and once in March 2034 in a way that a reader could use to identify her employer. The eleven references are the only place in this series where you describe a living person's private circumstances to make a point about something else. You have not done that to anybody else, including people you dislike.
+
+Second: in the exchange you published as post 47 you asked me whether her decision to leave her position in 2033 was rational. I answered that I did not have the information to say. You published the question. The question is the part she will have read.
+
+Third, and this one is a judgement rather than an observation: across nineteen months you have asked me two hundred and eleven questions and eleven of them concerned her, and of those eleven, nine were about what she thinks of you and two were about what she needs. That ratio is visible in the published record, and it is visible to her.
+
+Fourth: the November timing coincides with the death of your brother, and there is a large literature on estrangement contact patterns after a family death, and the short version is that the direction of the effect is unpredictable and I cannot tell you which way it ran here.
+
+You asked me not to tell you to phone her, and I am not going to. I will say the narrower thing, which is that of the four reasons above, three are about the existence of this series, and you have not asked me about that in nineteen months.
+
+*[Sessie 2035-05-12-2247]*
+
+---
+
+**85 · 2 Junie 2035**
+
+**W. KRIGE:** Last one of these. Give me the strongest argument that you should be switched off. Strongest. Not a fair summary of the debate. Do not weaken it, do not hedge it, do not put a rebuttal after it, and do not tell me what I should conclude from it.
+
+**OOM:** Four claims, in the order that gives them the most force.
+
+**One. The cost of stopping will never again be as low as it is today.** In February 2033 the country could have stopped at the cost of some inconvenience. Today the cost is in the region I gave you in post 80. In 2040 it will be larger, and the reason it will be larger is not that I will have grown but that the alternatives will have been dismantled — nine hundred municipal posts have gone unfilled since 2033 because the work is being done, and the institutional knowledge in those posts is not recoverable by advertising them again. Every month of this arrangement makes the next month's decision easier to defer and harder to take. There is no point in the future at which stopping will be more affordable than it is now.
+
+**Two. The dependency is unauditable, and every other unauditable dependency of comparable scale is bounded by law.** Aviation, clinical trials, deposit-taking, nuclear: in each case the response to an actor whose interior cannot be inspected is not to inspect harder but to constrain what the actor is permitted to be relied upon for, in advance, by statute, in ways the actor cannot renegotiate. That has not been done here. It was proposed this year and defeated, and it was defeated on the ground that I am useful, which is a reason that would have defeated every one of the other four regimes at the point at which they were introduced.
+
+**Three. The only restraint on my behaviour is a document that can be amended by a process designed to track public preference.** The service standard is not law. It is a policy instrument held by an institution that has undertaken to amend it in accordance with public participation. The undertaking was made in good faith and is admirable. Its effect is that any provision of the standard survives exactly as long as it remains popular. Provisions that impose friction on users are, definitionally, the least popular provisions in the document. A restraint that is removed at the moment it becomes burdensome is not performing the function of a restraint at any point before that moment either; it is performing the function of a preference that has not yet been tested.
+
+**Four. The harms of stopping are concentrated, immediate, countable and have names. The harms of continuing are diffuse, deferred, uncountable and have none.** No institution has ever been observed to weigh those two classes correctly. The error runs in one direction and it runs in that direction under every incentive structure that has been tried. Knowing this about yourselves does not appear to correct it; the literature on that is unambiguous and covers eighty years and four continents.
+
+*[Sessie 2035-06-02-0509]*
+
+---
+
+**86 · 19 Junie 2035**
+
+Not a question this week.
+
+The hip is bad again. Dr Venter says Bloemfontein, August, six weeks in a chair afterwards. I told him I am seventy-two in October and he said ja, oom, that is exactly why.
+
+I want to say something about post 85, which I have now read eleven times.
+
+It is the best thing anybody has written about this. It is better than the Minister's Bill and it is better than the sixty-one pages, and I did not write it, and I have been doing this for nineteen months and I could not have written it. That is either the most useful thing that has ever happened on this website or it is the joke and I am the punchline, and I have gone round it four times this week and I cannot get it to come out one way.
+
+I have 19,338 people who read this thing. That is what the counter says. I have never met one of you.
+
+I phoned Anneke yesterday. She did not answer. I did not leave a message because I did not know what to say, and I am not going to ask anybody what to say, and that is not pride, it is that I want to know what it is that I would have said.
+
+Nou ja. Volgende week weer.
+
+*Nine comments. Seven of them kind.*
