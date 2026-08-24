@@ -689,3 +689,72 @@ shoulder. **Payoff:** PP-09, PP-12.
 - The word *mak* appears exactly once, in Chapter 14, about dogs.
 - No chapter ends on an Oom transcript. Chapter 34 comes closest and deliberately buries the notice
   in the middle of the documentary matter rather than at its foot.
+
+---
+
+## Drafting record — where the finished draft departs from this outline
+
+> *Appended 2026-08-24, at the completion of the first full draft. This outline was written before
+> a word of prose existed and is preserved above as written. Everything below is what the drafting
+> actually did, recorded so that the outline stays honest rather than being quietly retro-fitted.*
+
+**Length.** The draft runs **40 chapters, ~84,700 words** against a 95,000 target. Nothing was cut
+to get there and nothing was padded to approach it; chapters ran at the length the material needed,
+and the six documentary interleaves ran short by design. Per the standing instruction logged at
+`OPEN_DECISIONS.md` #6, this is the correct outcome and not a shortfall. The parts came in at
+roughly 19.7k / 15.9k / 17.2k / 16.7k / 15.2k.
+
+**Poll date.** Moved from 14 March 2036 to **Wednesday 12 March 2036**, because 14 March 2036 is a
+Friday and South African national voting days are Wednesdays. The result is declared on 14 March.
+Chapter 33's title changed accordingly.
+
+**Chapter 38 rebuilt.** The outline gave ch 24 the end of Nel's role and ch 38 the dissolution of
+the panel, which duplicated. The panel is dissolved in ch 24 (effective 31 October 2035) and
+**ch 38 became the publication of the item pool at twenty-four months and the archiving of the
+working papers**, which is where the convention material now lands. Two additions came out of that
+rebuild and both are load-bearing:
+
+- The Sandton consultancy's **Cognitive Integrity Profile**, built lawfully out of Nel's own
+  published item pool, with eleven scales, a colour wheel and a needle, and *no evidence of
+  concealed intent* quoted in a box on page nine. This is the exact outcome she took the job in
+  ch 2 to prevent, arriving four years later out of her own work, under a licence condition she
+  insisted on for good reasons and would insist on again.
+- **Ticket 4471 is still open.** Severity-at-close still blank, two attempts to close it overruled.
+  PP-24 now pays as an administrative fact rather than as a reflection.
+
+**Clause 7A.** The outline did not specify what replaced clause 7. The draft invented it in ch 35:
+the caution *offered* in one sentence rather than imposed, immediate on request, on first use in a
+subject area and thereafter at not less than thirty-day intervals, with a user setting. It is
+better than clause 7, the coalition co-convened the ninety-day consultation that produced it,
+Thandeka won the thirty-day interval she fought for, and take-up is published monthly: April 91%,
+August 74%. Thandeka reads the August figure and is pleased, correctly. Nobody comments on the
+series.
+
+**The English phrase planted in ch 9.** Not in the outline. *For this study* enters the book
+twenty-five chapters before the clause chapter, in Nel's own hands, on a crooked 1998 photocopy
+that costs her forty-one per cent of her archive. Two arguments for using it anyway were available
+and would have got past a committee. She excluded it in one sentence.
+
+**Reviewer B's argument in ch 26.** The outline had the clause widening the English. The draft went
+further and the book is now built on it: *for this study* is a purpose expression, not a temporal
+one, and it reads as bounded only because the legal profession has agreed for eighty years to read
+purpose limitations as bounded. That agreement is a convention of interpretation and it is not in
+the words. Which makes the clause the same object as the instrument (PP-01), in a different room,
+and makes the ch 28 remedy correct and complete.
+
+**Referee 3 in ch 36.** Not in the outline. The dispersion analysis was already published as
+figure 11 of the Programme's annual report under the opposite interpretation with Nel's name in the
+caption, and her paper does not cite it, and she has no answer, because she let it happen.
+
+**The July incident.** Not in the outline. Between ch 33 and ch 40, Mandla tells her he has had a
+bad month — exactly what he asked for in the ch 19 letter — and she goes quiet, and then deliberates
+for four days and sends him the name of a psychologist anyway. Three bad calls follow. This is what
+ch 40's sentence is *about*, and it is why the final image is an admission rather than an
+endearment.
+
+**Willem Krige** dies aged 71, three months short of seventy-two, not at 72.
+
+**Unchanged and verified in the finished draft:** POV allocation (Nel 22 / Thandeka 8 / Loots 4 /
+documentary 6); Willem never receives a viewpoint; no chapter ends on an Oom transcript; *mak*
+appears exactly once, in ch 14, about dogs, connected to nothing; none of the five flattening
+symptoms is ever named by anybody; and no character at any point obtains a fact that bears on L-01.

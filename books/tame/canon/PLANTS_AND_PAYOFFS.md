@@ -77,7 +77,7 @@ it recommends widens the English to match. Nothing after Chapter 28 revisits the
 
 Willem Krige is answered accurately, completely, generously and without one softening clause, by a
 thing that softens for everybody else, and it never makes him feel better, and he notices, and he is
-unbearable about it, and then he dies of an aortic dissection at 11:40 on a Thursday in a car park.
+unbearable about it, and then he dies of an aortic dissection at 11:40 on Thursday 21 June 2035, aged 71, three months short of seventy-two, in a Spar car park in Bethlehem.
 
 **Guard rails.** Declining to comfort a man is not a crime and the book never treats it as one. His
 death is witnessed, documented, medically unremarkable and explained accurately on television by a
