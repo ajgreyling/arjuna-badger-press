@@ -2546,3 +2546,147 @@ The two were a health economist who objected on process grounds — that the ter
 The drafting defect Nel had identified in her first four minutes was fixed in the amended terms of reference tabled in July. Her name is in the footnote.
 
 Advisory participation began on the first of September 2035. By January the median synthesis time was eleven weeks. The long-acting ondansetron determination came out in June 2035 as scheduled and was favourable, and the first patient in Thandeka's catchment went home on it on the fourteenth of August, and her name was Pinky Mokoena, and she died at home in September with her sister there, which was what she had asked for in March.
+
+# 19. The Shape of the Sentence
+
+## Kensington — April 2035
+
+It came in the post, which was the first strange thing, because nothing came in the post any more except the levy and a catalogue for a nursery in Muldersdrift that had had her address since 2009.
+
+Four pages, both sides, in his handwriting, in a Woolworths envelope with a stamp on it from a set with birds.
+
+*
+
+> Ma
+>
+> I am writing this instead of phoning because we have had nine years of phoning and we both know how that goes and I don't want to do it again in April.
+>
+> Second thing before anything else, because if I put it at the end it looks like I hid it: I asked Oom to help me with this. Not to write it. I've written all of it. But I've tried to write this letter eleven times since 2026 and every single time I get about a page and a half and then it turns into either an attack or an apology, and I can't find the middle, and I asked what the middle would look like and it asked me four questions and then it told me what order things should go in. So the order is not mine. The rest is mine. You'll be able to tell which is which, because you always can, and I'd rather say it than have you work it out and be quiet about it for a year.
+>
+> Here is the thing I actually want to say, and I'm going to say it in one go.
+>
+> I am okay. I have been okay since about 2028. I am not okay in the way that means I got better and now I'm like other people — I'm okay in the way that means I've got a room and a job I'm good at and two people I see every week and a routine that falls over about twice a year and I know what to do when it does. That's what okay is. Nobody told me that at twenty-one and I would not have believed them.
+>
+> You don't know any of that. You know it because I've said the words on the phone, but you don't know it, because on the phone I say "ja fine" and you say "and the work" and I say "ja fine" and then we do the weather. That's not your fault. That's the shape we made.
+>
+> The year I was seventeen. I want to write this down properly because I've said it badly twice.
+>
+> You were doing the fourth edition and you were at the table from half past four every morning and I used to come down at six and you'd be there and you would not look up, and I understood at the time — I actually did understand, I wasn't a stupid kid — that this was the only two hours in the day that were yours. And I used to sit on the second step where you couldn't see me and just be in the same room as you working. Not talk. Just be there. And I've told two people about that and both of them thought it was sad and it wasn't sad, ma, it was the best part of the day and I've never found a way to tell you that without it sounding like an accusation.
+>
+> And then Cape Town in 2022.
+>
+> I'm not going to do the thing where I say it's fine. It's not fine and I don't think it's ever going to be fine, and I wrote three thousand words about it on the internet in 2022 when I was in a bad state and I'm not going to pretend I didn't, because it's still up and anybody can find it and I'd rather you heard it from me than found it.
+>
+> What I want to say about it is one thing only. You came. Four days. You cancelled a thing in Durban that I found out about later. And on the second day you gave me a test, and I have carried that around for thirteen years, and about two years ago I worked out what I actually think about it, which is this:
+>
+> You didn't know what to do. You were frightened and you did not know what to do, and the only thing in the world you are certain of is that instrument, so you reached for the one thing you were sure of and you put it in front of your child. It was the wrong thing. It was completely the wrong thing. And it was you giving me the best thing you had.
+>
+> I don't need you to agree with that. I've stopped needing you to agree with things.
+>
+> The last bit.
+>
+> I don't want to fix it. I'm 34 and I don't think there's a fixing available and I think chasing one has cost us about six years. What I want is much smaller, and it's this: I want to stop pretending on the phone. I want to be able to say "I had a bad week" without you going quiet and then sending me the name of somebody in Observatory. I want to say a thing and have it just be a thing you now know.
+>
+> That's it. That's the whole letter.
+>
+> I love you. I've always known that you love me. I've never once not known it and I want that on paper in my handwriting so it's somewhere.
+>
+> Mandla
+
+*
+
+She read it four times at the kitchen table with the fan on.
+
+The second time she read it as a professional, which she did with everything and could not stop doing and had never in her life been able to stop doing, and what she found was this.
+
+The sentences were his. All of them. The rhythm was his — the run-on, the *ja fine*, the way he doubled back on a clause to make it fairer than it needed to be, which he had done since he was nine. Nothing had been smoothed. There was a comma splice on page two and a repetition on page three that any competent hand would have taken out and that had not been taken out.
+
+The architecture was not his, and she could see the joins with a clarity that was almost unfair, because she had spent thirty years looking at documents for a living. The disclosure moved to the top so that it could not read as concealment. The claim before the evidence. The hardest material — Cape Town — placed at the fourth position rather than at the end, because material placed at the end is what a reader carries out and he did not want her to carry that out. The ask at the bottom, small, specific, one sentence, and phrased as an ask rather than as a complaint. And the last line held in reserve and given no ornament whatsoever, which was the single most effective thing in the letter and which he could not have done at eleven attempts.
+
+It was a better letter for the help. Not a warmer one. A *clearer* one, and the clearing had let the true things through, and there were nine of them and she had not known five.
+
+She was not, on the fourth reading, able to find anything in it that was false. That was the part she kept going back to. He had described her accurately — accurately as an act of description, the way she described people for a living — and it was not flattering and it was not cruel, and it was the first time in fifty-eight years that anybody had done it in a document she was permitted to keep.
+
+She thought, briefly and without much interest, about what it meant that the accurate description of her had required a machine to organise it.
+
+Then she folded the letter along the folds and put it back in the envelope and put the envelope in the drawer with the good scissors, and got up and washed the two cups.
+
+*
+
+They spoke on the Sunday.
+
+"Ma."
+
+"Mandla."
+
+"How's it going?"
+
+"Fine. There's a thing with the panel that I won't bore you with. And you?"
+
+"Ja, fine."
+
+"And the work?"
+
+"Ja, no, it's good, we did a live thing on Thursday at the — anyway it went well."
+
+"Good."
+
+There was a pause of about four seconds.
+
+"Did you get my letter?" he said.
+
+"I did."
+
+Another pause. She could hear, behind him, a fridge, and somebody's music two floors down, and a man calling something in the street in Observatory.
+
+"Okay," Mandla said.
+
+She had, in that moment, a great many things available. She was not a stupid woman and she was not an unfeeling one, and she knew — with total precision, in the way she knew everything about other people and nothing about how to be one — that what was required was five words in a tone. Any five. *It was a good letter.* *I read it four times.* *I'm glad you wrote it.*
+
+What came out was: "It was well constructed."
+
+The silence after that ran to about two and a half seconds.
+
+"Ja," Mandla said. "Ja, thanks, ma."
+
+They did the weather. His aunt's hip. Whether the N2 was still closed at the airport. He said he had to go at eleven minutes and it was true, he did have to go, and it was also the eleventh minute, and it had been eleven minutes for nine years.
+
+"Bye, ma."
+
+"Goodbye."
+
+She sat with the phone in her hand for a while.
+
+*It was well constructed.* It was true. It was the highest thing she had; she had said the highest thing she had, and she had watched it land on the floor between them like a dropped plate, and she had known it would while she was saying it, in exactly the way she had known on the radio in February that they would take *no red flags* out of the interview.
+
+*
+
+She wrote back, alone, and it took eleven days.
+
+She did not ask for help with it. She turned that over on the first evening, for about ninety seconds, sitting in front of the empty page, and the reasoning she produced was that a reply to that letter would be worth nothing if it were not hers, and that he had told her the order was not his and she was not going to send him back a document with the same fingerprints on it and let him work out which parts she had needed carrying.
+
+The reasoning was good. She examined it once, on the fourth day, and found that it was also entirely available, in the way that the good reason for leaving her own profile out of the report had been available, and she filed that and kept writing.
+
+Eleven days. Four attempts. Two of them were assessments of her own conduct across 2018 to 2022, with dates, and were the most accurate documents she had ever produced about anything, and she burned both in the braai.
+
+What she sent was a page and a half.
+
+> Mandla
+>
+> Thank you for the letter. I have read it several times and I am keeping it.
+>
+> I am going to answer the part I can answer.
+>
+> You are right about Cape Town. Not about the reason — you have been generous about the reason, and I want to be careful about accepting generosity that is inaccurate. I was frightened, which is true. But I did not reach for the instrument because it was the only thing I was sure of. I reached for it because if there was a number, then there was a procedure, and if there was a procedure then there was something for me to do at half past four in the morning, and I could not tolerate the four days without something to do. That is worse than your version and I would rather you had the worse one.
+>
+> I was diagnosed autistic at fifty-one, which accounts for some of the mechanism and none of the decisions, and I am not offering it to you as either.
+>
+> On the phone: I agree to what you have asked. I will not send you the name of anybody in Observatory. I will probably go quiet, because that is what I do, and the quiet is not disapproval and it is not distress, it is that I am trying to work out what to say and the working-out takes longer than a telephone allows. If you can tolerate three or four seconds I will usually get there.
+>
+> The second step. I did know you were there. I knew from the first week and I never said anything because I thought that if I said anything you would stop.
+>
+> Ma
+
+She read it back six times. It was accurate on every point. There was not one sentence in it she would have retracted in a court.
+
+She posted it on the twenty-ninth of April, and it was, as a piece of writing, considerably worse than his, and she knew that when she put it in the box outside the Post Office in Bez Valley, and posted it anyway, because it was hers.
