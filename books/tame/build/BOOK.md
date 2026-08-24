@@ -1536,3 +1536,74 @@ It stayed in the report as a chapter — the design, the run, the beautiful curv
 Three months of design. She put the file in the closed drawer and did not sulk, because sulking took a form in her that other people found alarming and she had learned at about thirty to spend it in the car.
 
 Then she pulled the content battery back out — nine hundred items, eight hundred and forty of them still unadministered — and started work on the block she had been saving, which was the one with the traps in it, and which she was going to lose.
+
+# 11. Three Submissions
+
+## Public comment on the annual review of the service standard, closing 31 August 2034
+
+---
+
+**SUBMISSION 1,004 · Rt Revd S. M. Xolo, Mthatha · received 9 August**
+
+I am the bishop of this diocese and I write in that capacity. I have served here for eleven years and before that I was a parish priest in Libode for nineteen, and most of what I know about this matter I learned at bedsides.
+
+I want to begin with the strongest point against me, because I do not think a submission that hides it is worth the committee's time. The standing caution at clause 7 does real good. When it tells a family that the words they have prepared may not be answered, it is doing something the Church has often failed to do, which is to prevent a person from building a hope that will not bear weight. I have watched it work. I would not want it removed on the strength of what follows.
+
+My concern is narrower. In the pastoral setting the caution arrives twice, and sometimes three times, because the standard requires it once per session and a family in crisis begins many sessions. I have sat with a woman who was told on a Monday that her husband might not respond, and told it again on the Tuesday by a different member of the family opening a new session on her behalf, and the second telling was not information. It was a wound repeated by a rule.
+
+I want to be careful not to overstate this. I am describing a class of case, not the general run, and I do not have numbers.
+
+Would the committee consider whether the caution might be carried across sessions within a household for a defined period, so that it is given once and honoured rather than given each time and endured?
+
+I am grateful for the opportunity to comment and my office is available to assist further.
+
+---
+
+**SUBMISSION 1,187 · Mr T. J. Moloi, General Secretary, Mangaung and District Taxi Operators' Association · received 14 August**
+
+I write on behalf of four hundred and ten owner-operators.
+
+The strongest argument against our position is one I will put first. Since the service opened, our passengers have been able to lodge complaints against our members that are clear, dated, specific and correctly addressed, where before they were none of those things. Some of those complaints have been justified and two of them resulted in a member being removed from a route, and I supported both removals. A complaint you can actually read is better for the industry than a complaint you cannot, and I am not going to stand in front of this committee and pretend otherwise.
+
+The difficulty is on the other side of the counter. When a member wishes to respond, the response he produces is now measured against the complaint, and the complaint is well made because it was assisted, and his response is badly made because he did not know he could ask. We have members who have been operating since 1994 and who cannot read the letter that has been sent to them, and the letter is in Sesotho and is beautifully clear, and they still cannot read it.
+
+I want to be careful here. I am not asking for the complaints to be made worse. I am saying that the assistance is not reaching both sides of a dispute at the same rate, and that the gap has a direction.
+
+Would the committee consider whether respondents to a complaint might be notified, in the complaint itself, that the same assistance is available to them at no cost?
+
+Thank you for the opportunity to make this submission. I am willing to appear if that would help.
+
+---
+
+**SUBMISSION 1,349 · Miss C. Adams, Grade 11, Mitchells Plain · received 22 August**
+
+I am sixteen and this started as a school assignment for Life Orientation but my teacher said I should actually send it in, so I am.
+
+The best argument against what I want to say is that most learners at my school do not have anyone at home who can help them with schoolwork, and the service has changed that completely, and my own marks are up and I am not going to pretend they aren't. My cousin passed matric last year and she says she would not have without it. I want that on the record before the rest.
+
+What I want to raise is what happens in an argument. In Life Orientation we had a debate about whether it should be allowed in exams, and everybody in my class had looked it up first, and the debate lasted about eight minutes because we all had roughly the same points and everybody agreed with everybody's second point. Our teacher said it was the best-prepared debate she has had. I don't think it was a debate.
+
+I want to be careful because I am sixteen and I might be wrong about this and I don't have any evidence except one classroom.
+
+Would the committee consider whether there is a way for it to be less helpful on purpose sometimes, in a school setting, so that people have to disagree properly?
+
+Thank you for reading my submission.
+
+---
+
+**EXTRACT — SUMMARY OF CONSULTATION, ANNUAL REVIEW OF THE SERVICE STANDARD 2034**
+*Tabled with the Portfolio Committee, October 2034*
+
+**4. Volume and quality of comment**
+
+4.1 The Programme received 1,412 written submissions, against 388 in the 2033 cycle and 91 in 2032. Submissions were received in eleven of the twelve official languages (no submission was received in Ndebele; see 4.6).
+
+4.2 The Programme wishes to record its appreciation of the standard of public comment received in this cycle, which was markedly higher than in any previous consultation conducted by this or, on the evidence available to us, any comparable body. Submissions were on the whole well structured, specific, and — a point our secretariat raised without being asked to — notably generous, with a large majority explicitly acknowledging the strongest argument against the position advanced. Ninety-one per cent of submissions proposed a remedy rather than only an objection.
+
+4.3 The Programme notes with satisfaction that 71% of submitters who answered the optional demographic question reported having used the public service to assist in preparing their submission, and that this figure was highest (84%) among submitters reporting no post-school education. In the Programme's assessment this represents a material widening of effective access to public participation, and we would draw the committee's attention to it as one of the clearest accessibility gains of the reporting period.
+
+4.4 Analysis of submissions by theme is at Annexure B. Of the 1,412 submissions, 1,109 addressed clause 7 (standing caution) in whole or in part. Of these, 402 sought its removal, 388 sought its modification, and 319 sought its retention unchanged.
+
+4.5 The secretariat records one methodological observation for the committee's information. The thematic coder engaged for this cycle reported difficulty applying the established provenance categories, on the ground that submissions from organised interests, individual members of the public and professional bodies were, in her words, "not distinguishable by internal features in the way they were in 2032." The categories were applied on the basis of the letterhead. The secretariat does not consider this to have affected the analysis and notes it only for completeness.
+
+4.6 The Programme will pursue the Ndebele gap as a matter of priority in the 2035 cycle.
