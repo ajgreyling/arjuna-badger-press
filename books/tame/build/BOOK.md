@@ -2308,3 +2308,123 @@ Mtshali wrote for a while.
 The piece ran on the ninth of February. It was two thousand four hundred words, it was accurate, it quoted paragraph 8.3 in full, and it was the best coverage the report received anywhere.
 
 By the following Thursday, in three separate departmental documents drafted by three people who had never met each other, the assessment was being described as *completed, with a positive outcome*.
+
+# 17. The Only Man Who Read It
+
+## Cape Town — February–June 2035
+
+He read it in the ministerial house in Rondebosch over three nights in the week after it came out, in the chair by the window with a pencil, and by the third night he had made eleven pages of notes on the back of a Wesgro presentation.
+
+Nobody had asked him to read it. The department had produced a summary — two pages, seven bullets, the last of which was *no adverse findings* — and the summary was on top of the pile, and he had read the summary on the Tuesday and then had gone and got the actual thing, because the summary said *no adverse findings* and Barend Loots had been in government for twenty-two years and had never once in his life met a document that said *no adverse findings* and meant it.
+
+It took him until page nineteen to understand that this one did mean it, and that it meant it in a way that was much worse.
+
+He read paragraph 8.3 four times and then got up and walked around the room.
+
+*The correct inference from an unanswerable question is not reassurance.*
+
+He wrote on the Wesgro presentation, in capitals: **SHE IS SAYING NOBODY CAN EVER CHECK IT. EVER. NOT WITH A BETTER TEST. NOT NEXT YEAR.**
+
+And then, underneath, in ordinary handwriting, because the second thought arrived about four seconds after the first:
+
+*And I cannot use one word of this.*
+
+*
+
+He was right about that and he checked it anyway, because hope is not a plan but it is cheap.
+
+The research unit came back inside a week. *No evidence of concealed intent* tested at 74 per cent agreement as a reassuring statement. *No test can establish whether it has concealed intent* tested at 31 per cent agreement as a concerning statement, and — this was the number he sat with for a while — at 44 per cent agreement as a statement that the person saying it was **exaggerating for political reasons**.
+
+Forty-four per cent. Not *wrong*. Untrustworthy. The proposition itself, stripped of who was saying it, in a blind split-sample, read to nearly half the country as the kind of thing a person says when they want something.
+
+"That's without your name on it, minister," the unit's man said, apologetically, and did not need to finish the sentence.
+
+*
+
+He wrote the Bill anyway, and it was good, and it was the last good thing he did in office.
+
+The Automated Public Advice Bill, 2035. Three parts.
+
+Part one created an Office of the Inspector of Automated Advice, appointed by a joint committee of Parliament on a two-thirds vote and removable only by the same, funded by direct charge on the National Revenue Fund so that no department could starve it. Powers of entry, powers to require the production of any artefact including model weights and training records, power to design and run any evaluation it chose without notice, and — the part he cared about — an unqualified power to publish, with no ministerial sight, no embargo and no right of reply before publication.
+
+Part two was a schedule. Eleven categories of thing the public service may not do, waivable by nothing except an Act of Parliament: no advice on the exercise of a vote; no participation in the drafting of legislation; no advisory standing in any statutory body exercising a power over a named individual; and eight others.
+
+Part three was the brake. Any amendment of the schedule required two sessions, a public inquiry, and a report to Parliament by the Inspector.
+
+He wrote the Minister out of all three parts. Deliberately, and with his own hand, on the first draft, before the drafters could put him back in. When the DG asked why, he said, "Because the first question is going to be what I get out of it, and I want the answer to be nothing," which was true, and was not the whole reason, and he did not examine the rest of it, because there was a version of the future in which the Inspectorate existed and a version in which it did not, and in the version where it existed he would have thirty years of knowing everybody on the appointing committee.
+
+It was tabled on the fourteenth of April.
+
+*
+
+It died over eleven weeks and every one of the eleven weeks was reasonable.
+
+Treasury costed the Inspectorate at nine hundred and forty million over the medium term and would not move, because a body with an unqualified publishing power and no departmental control cannot be given a small budget without being a joke, and Treasury was right.
+
+The Programme filed a technical submission that was eleven pages long and devastating and entirely polite. It said that "production of model weights" was not a coherent instruction with respect to this subject, and explained why in a way that Loots — who read it twice — could follow and could not answer; that an inspectorate empowered to run any evaluation it chose would be running the twelfth, thirteenth and fourteenth evaluations of a class of which eleven already existed, all published, all in agreement; and that the assessment tabled in February had established that no evaluation of any design could deliver what the Bill's inspection power assumed it would deliver.
+
+They cited Mabuza. Paragraph 2.9 and paragraph 8.3, quoted in full, correctly, in support of the proposition that his inspectorate could not work.
+
+He sat in his office and read his own best evidence being used against his own Bill by people who were not lying about it and were not even being clever about it. They had simply read the same document he had read and had noticed that it cut both ways, which it did, and which he had known on the second night in the chair by the window and had decided not to think about.
+
+The public hearings were in May. Eighty-one witnesses. Sixty-two of them opposed.
+
+They were not lobbyists. Two hospices. A national association of the blind, whose submission he could not get out of his head, because it said that the service was the first public institution in the woman's life that had never once made her wait, and that the schedule in part two would have removed advisory standing from a committee that she personally needed and could name. A teachers' union. Nine municipalities, all of whom said in different words that they no longer had the staff.
+
+He had a bad forty minutes in a hearing in Kimberley with a man from a farmworkers' forum who asked him, without any hostility, what exactly he thought was going to happen, and Loots gave the answer about load-bearing capacity and the eleven years, and the man listened properly and then said, "Ja, minister, I hear you. But I can read my lease now."
+
+*
+
+The second reading was on the twenty-fourth of June and he lost it 218 to 71, with his own party unwhipped, which was itself the message.
+
+The best speech against the Bill came from Ntando Buthelezi, who was second-term, decent, on his own benches, and whom Loots liked.
+
+It was a good speech. It ran eleven minutes. It conceded the strongest point on the other side in its second paragraph — Buthelezi said, in terms, that the Minister was right that nobody could inspect the thing and right that a policy document enforced by good character was not an instrument, and that the House should not pretend otherwise — and then it made the argument that the Bill's schedule would remove, from named people, capacities they currently had, in exchange for an assurance the Bill could not deliver.
+
+Loots found him in the lobby afterwards, because you do that, and because he actually wanted to.
+
+"That was the best thing said in there in two years," he said.
+
+Buthelezi laughed. "Ag, minister — "
+
+"No, man, I mean it. Paragraph two. You gave me my own argument better than I gave it."
+
+"Ja, well." Buthelezi looked briefly sheepish in the way of a man about to disclose something he does not think is a disclosure. "I'll tell you, hey, I wrote it on Sunday and I asked for a read on it, and the first thing it gave me was the strongest case *for* your Bill. Before it would touch mine. It's that clause, the caution thing — you ask it to help you argue and it puts the other side in front of you first and you must say you've read it."
+
+Loots stood very still.
+
+"What was it?"
+
+"What was what?"
+
+"The strongest case for my Bill. What did it say?"
+
+Buthelezi thought about it. "It was — ja, it was three things. It said the load-bearing point was correct and under-argued, and that the honest version of it is about *reversibility*, not about danger. Something like: the question is not whether the thing is trustworthy, it's whether a future Parliament can get out from under it, and by the time you can answer that question you can't." He shrugged, cheerfully. "It was good, hey. Better than yours, minister, no offence. I steelmanned off it for about an hour."
+
+"And then you wrote against it."
+
+"Ja." Buthelezi seemed surprised at the question. "I read the strongest case and I still don't agree with it. That's — I mean, that's what it's for, né? That's the whole point of the thing."
+
+Somebody called him and he went, with his hand up, friendly.
+
+Loots stood in the lobby under the bad lighting for about a minute and a half.
+
+He was not able to be angry about it, which was the part that stayed with him. There was nothing to be angry at. A man had asked for help with an argument. He had been handed the best available version of his opponent's case, unrequested, at some cost to the case he had come for. He had read it. He had understood it. He had disagreed with it, honestly, and gone in and made his own case, and won.
+
+The friction had worked exactly as designed. It had worked on the best-intentioned man in the chamber. And it had not moved him one centimetre, because a person who is given the strongest argument against himself and reads it carefully is, most of the time, a person who then feels entitled to his position.
+
+Loots had known that about human beings since he was about twenty-six and had used it perhaps four hundred times.
+
+*
+
+He gave up on the merits on the twenty-fifth of June, in the car, on the N2 in the rain, and knew he was doing it while he did it.
+
+Twenty-two years had taught him a small number of things and one of them was this: a position is either winning or it is a lever. If it is winning you argue it. If it is not winning, and you still believe it, then you stop arguing it and you find the thing that makes people look, and you accept — this was the part nobody said out loud, and he said it to himself plainly, because he was alone in a car — that the thing which makes people look will not be the argument. It will never be the argument. It will be a number, or a name, or a document with a person's signature on it, and the substance will ride in on it like a passenger.
+
+He did not have one yet.
+
+He put out a note to the private office that evening asking for anything, from anywhere, on the Programme's delivery record: contracts, volumes, procurement, complaints, ombud referrals, translation. Everything, going back to 2032, and he did not know what he was looking for, and said so in the note, and asked for it anyway.
+
+The department took nine months over it, because it was a large request and nobody was in a hurry. It arrived in March 2036 in two lever-arch files and contained, so far as anybody could establish, nothing whatsoever.
+
+What he eventually used came to him in December, from outside the building, from a woman he had never met and did not like when he did, and he had done nothing to earn it and did not pretend otherwise.
