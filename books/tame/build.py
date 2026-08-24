@@ -8,8 +8,15 @@ Matter order is fixed by CANON_LOCKS L-19 and is not negotiable:
 
     FOREWORD.md   the machine's, signed, already written
     ch-*.md       the novel
-    AFTERWORD.md  the author's own voice — the machine may edit, never draft
     COLOPHON.md   required in every edition and format by L-16
+    AFTERWORD.md  the author's own voice — the machine may edit, never draft
+
+The colophon sits BEFORE the afterword, and the order is load-bearing. L-19 puts
+the last word in the author's hands and rejects any arrangement in which the
+machine closes the book, in any edition or format. The colophon is machine-written
+production record; printed after the afterword it would be exactly that forbidden
+arrangement. The author closes the book. Corrected 2026-08-24; the first version
+of this file had the two the wrong way round.
 
 The afterword and colophon are included when present and warned about when absent.
 The build never invents either one.
@@ -44,7 +51,7 @@ def assemble() -> list[Path]:
 
     parts.extend(chapters)
 
-    for name, lock in (("AFTERWORD.md", "L-19"), ("COLOPHON.md", "L-16")):
+    for name, lock in (("COLOPHON.md", "L-16"), ("AFTERWORD.md", "L-19")):
         path = MANUSCRIPT / name
         if path.exists():
             parts.append(path)
