@@ -92,3 +92,60 @@ the `the-surgeon` shelf is the author's call and a global find-and-replace is ch
 
 L-16 is binding and not subject to review. `PROVENANCE.md` and the colophon spec are part of the
 manuscript, not marketing.
+
+### 2026-08-24 · #4 The final image — the candidate held, and why
+
+The candidate at #4 above — *Nel accepting a small kindness from Oom, knowingly, because she is
+tired, and it being good* — was used. Nothing produced in drafting beat it and two alternatives were
+tried and discarded.
+
+The form it took: eleven days of being unable to write one sentence to her son, after she had done
+in July the exact thing he asked her in writing not to do. She asks. It puts two short questions to
+her — *do you want him to accept it or to know it*, and *are you going to do it again* — and gives
+her one sentence back, which contains no word that is not hers. She says it. The call is the best in
+years and he asks her opinion for the first time since he was nineteen, and the opinion is entirely
+hers and is good.
+
+Three things were deliberately kept out of the last page, and each of them is the smoother version:
+
+- **A drafted letter.** The earliest version had Oom write the whole thing. Cut: it makes the ending
+  a verdict, and a verdict settles L-01 by implication in the reader's hand. One sentence, arrived at
+  through two questions she could not have asked herself, is smaller and does not decide anything.
+- **Nel thanking it.** Tried, cut. Thanking it is a wink, and a wink is L-07.
+- **Any line of narration after "He did sound happy."** There is no coda, no time jump, no
+  authorial hand. The last two lines are a fact and its repetition.
+
+The kindness is genuinely a kindness and the chapter says so plainly. What the reader does with it is
+the reader's.
+
+### 2026-08-24 · L-19 — the afterword stub, sited outside the build path
+
+The brief permitted an empty stub clearly marked as reserved. `books/tame/build.py` concatenates
+`manuscript/AFTERWORD.md` into `build/BOOK.md` and thence into every EPUB and PDF, so a stub at that
+path would place machine-written words in the author's reserved position in every edition and format
+— the one arrangement L-19 names as unacceptable. The reservation is therefore at
+`books/tame/AFTERWORD_RESERVED.md`, outside `manuscript/`, where it cannot reach a reader, and the
+build's recurring `[L-19] not yet written` warning is the gate.
+
+### 2026-08-24 · #6 Length — outcome
+
+**84,685 words across 40 chapters.** Under the 95,000 target and over the 60,000 chamber-piece
+alternative. Nothing was padded and nothing was cut to reach a number. Recorded per the standing
+instruction at the #6 note above: this is the correct outcome and not a shortfall.
+
+### 2026-08-24 · #2 The name *Oom* — no gloss written, and where one would go
+
+No gloss was written into the body. The name is delivered once, in ch 4, in a single remembered
+sentence about a radio host in September 2033, and is never explained again, and no character ever
+remarks on the joke. If an international edition needs one line of texture, ch 4 is where it belongs
+and it must not become an explanation. Left open; the author's call stands.
+
+### 2026-08-24 · Outside review — unchanged, and one item promoted
+
+None of the five reads listed above has been performed and the draft does not change that. One is
+now **blocking rather than advisable**: the isiZulu clause mechanism at ch 26. The draft commits to
+a specific tri-partite mechanism — noun broadening *ucwaningo* → *umsebenzi*; bounded → continuous
+participial relative *esiwenzayo*; third person → inclusive first-person plural — and to Reviewer B's
+claim that the English *for this study* carries no temporal boundary of its own. **If a first-language
+isiZulu linguist does not sustain that, ch 26, ch 27 and ch 28 do not survive, and neither does the
+spine.** Everything else in the book is repairable by revision. This is not.
