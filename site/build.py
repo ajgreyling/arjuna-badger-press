@@ -421,7 +421,13 @@ PUBLISHED = set(
         # Mesopotamia register (Walls of Uruk tells the poem; The Princely Offspring kills the
         # alien reading in the clay; this one plays it straight, labelled). Published 2026-08-11
         # by explicit author decision: complete manuscript, cinematic cover, gate-rendered.
-        "those-who-came-down",
+        "those-who-came-down,"
+        # richard-feynman (The Man Who Drew the Universe): narrative biography of Richard Feynman —
+        # manuscript complete (20 ch + backmatter, ~29k), added 2026-08-29. No cover art and no
+        # gate-rendered EPUB/PDF yet, so this listing is inert (no card, no downloads, no read-online)
+        # until both land — the cover gate and the `bool(downloads)` check in scan() hide it
+        # automatically. Added to PUBLISHED now so the shelf goes live the moment the assets do.
+        "richard-feynman",
     ).split(",") if s.strip()
 )
 
@@ -808,6 +814,7 @@ SHELF_TAGLINE = {
 BOOK_TAGLINE = {
     "book1-the-record": "ONE RECORD · Book I · an African science thriller",
     "sheltering-desert": "The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII.",
+    "richard-feynman":   "The true story of Richard Feynman, told straight — the wonder of the physics and the cost of the life both.",
     "modern-sherlock":   "A Modern Retelling, True to the Original",
     "modern-sherlock-2": "A Modern Retelling, True to the Original",
     "modern-sherlock-3": "A Modern Retelling, True to the Original",
@@ -1040,6 +1047,10 @@ CURATED = [
     ("homo-animalus", "Homo Animalus", "On the animal we never stopped being", "Non-fiction",
      "homo-animalus", "build/export",
      "A dairy farmer's son follows the thread from a shark diver's hands to his own dogs, cats, and chickens, through the science of Radin, the Sheldrakes, and Dispenza, to the animals in the smoke of the oldest human visions — and arrives, unmistakably, at the animal he never stopped being. Narrative nonfiction and memoir. Dedicated to Andries J. Greyling Senior."),
+
+    ("richard-feynman", "The Man Who Drew the Universe", "Richard Feynman — a life in curiosity and physics", "Non-fiction",
+     "richard-feynman", "build/export",
+     "A radio-repair kid from Far Rockaway talks his way past every gate physics puts up, helps build the bomb that ends a war he then can't stop grieving his young wife inside, redraws quantum electrodynamics as pictures a technician can use, and spends a Nobel-Prize life insisting the pleasure of finding things out is the only prize that ever mattered. A narrative biography, told straight — the wonder of the work and the cost of the life both."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
