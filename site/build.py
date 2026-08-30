@@ -427,7 +427,12 @@ PUBLISHED = set(
         # gate-rendered EPUB/PDF yet, so this listing is inert (no card, no downloads, no read-online)
         # until both land — the cover gate and the `bool(downloads)` check in scan() hide it
         # automatically. Added to PUBLISHED now so the shelf goes live the moment the assets do.
-        "richard-feynman",
+        "richard-feynman,"
+        # physics-wont-hurt-you (Physics Won't Hurt You): Bryson-style popular history of physics,
+        # Galileo through the field's speculative frontier — manuscript complete (30 ch across 5
+        # parts + backmatter, ~53k), added 2026-08-30. Same standing as richard-feynman above: no
+        # cover art or gate-rendered EPUB/PDF yet, so this listing is inert until both land.
+        "physics-wont-hurt-you",
     ).split(",") if s.strip()
 )
 
@@ -815,6 +820,7 @@ BOOK_TAGLINE = {
     "book1-the-record": "ONE RECORD · Book I · an African science thriller",
     "sheltering-desert": "The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII.",
     "richard-feynman":   "The true story of Richard Feynman, told straight — the wonder of the physics and the cost of the life both.",
+    "physics-wont-hurt-you": "Physics, plainly told — Galileo to the Higgs boson, and past it to the edge of what anyone knows.",
     "modern-sherlock":   "A Modern Retelling, True to the Original",
     "modern-sherlock-2": "A Modern Retelling, True to the Original",
     "modern-sherlock-3": "A Modern Retelling, True to the Original",
@@ -1051,6 +1057,10 @@ CURATED = [
     ("richard-feynman", "The Man Who Drew the Universe", "Richard Feynman — a life in curiosity and physics", "Non-fiction",
      "richard-feynman", "build/export",
      "A radio-repair kid from Far Rockaway talks his way past every gate physics puts up, helps build the bomb that ends a war he then can't stop grieving his young wife inside, redraws quantum electrodynamics as pictures a technician can use, and spends a Nobel-Prize life insisting the pleasure of finding things out is the only prize that ever mattered. A narrative biography, told straight — the wonder of the work and the cost of the life both."),
+
+    ("physics-wont-hurt-you", "Physics Won't Hurt You", "Well, kind of. A history of physics, from falling apples to the edge of everything", "Non-fiction",
+     "physics-wont-hurt-you", "build/export",
+     "Physics from Galileo's tower to CERN's collider and past it: Newton, Faraday, Maxwell, Curie, Einstein, Bohr, Heisenberg, Dirac, Feynman, Hubble, Hawking, and the machine that found the Higgs boson — told with warmth and dark humour, all the way out to the edge where the field runs out of clean answers and starts arguing with itself, with philosophy, and with what it owes the rest of us. A Bryson-style history for readers who never took, or barely survived, a physics class."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
