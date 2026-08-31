@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 877,
-  "bytes": 3351274133,
+  "count": 888,
+  "bytes": 3384005055,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -1949,9 +1949,17 @@
       "path": "books/history-before-time/books/jakobus-broken-crescent/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/9a0070e14fe219611ed10eec7f7f3c39e34086c4c2f13d969f0a11957cf7b0ad",
-      "sha256": "9a0070e14fe219611ed10eec7f7f3c39e34086c4c2f13d969f0a11957cf7b0ad",
-      "bytes": 200854
+      "key": "blobs/sha256/3109a1e90f8f96ecc99e925a6537aff5bef885d3a687d4a68d6f6ae9c2c3223f",
+      "sha256": "3109a1e90f8f96ecc99e925a6537aff5bef885d3a687d4a68d6f6ae9c2c3223f",
+      "bytes": 634895
+    },
+    {
+      "path": "books/history-before-time/books/jakobus-broken-crescent/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f4f08a5aa26136bf97e0b9bdb26a09f5ad781df0ca06d8b033e688646f3deafd",
+      "sha256": "f4f08a5aa26136bf97e0b9bdb26a09f5ad781df0ca06d8b033e688646f3deafd",
+      "bytes": 4699904
     },
     {
       "path": "books/history-before-time/books/jakobus-longyou/design/cover-plate.png",
@@ -1960,6 +1968,22 @@
       "key": "blobs/sha256/836146705446dae143f7f13aa659a7d226d8493cf45d287b55b50f7dcf7535d8",
       "sha256": "836146705446dae143f7f13aa659a7d226d8493cf45d287b55b50f7dcf7535d8",
       "bytes": 2320762
+    },
+    {
+      "path": "books/history-before-time/books/jakobus-longyou/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9eb230aa581585e4efaed6ad5789708e7d824e3f1e9cb51483181dfcce85aaef",
+      "sha256": "9eb230aa581585e4efaed6ad5789708e7d824e3f1e9cb51483181dfcce85aaef",
+      "bytes": 591139
+    },
+    {
+      "path": "books/history-before-time/books/jakobus-longyou/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f80cfee905657acb3262da840b81db3b1eb5688fe935a3c4cad6357f95bcd5d7",
+      "sha256": "f80cfee905657acb3262da840b81db3b1eb5688fe935a3c4cad6357f95bcd5d7",
+      "bytes": 4696374
     },
     {
       "path": "books/history-before-time/books/jakobus-petra/design/cover-plate.png",
@@ -1973,9 +1997,17 @@
       "path": "books/history-before-time/books/jakobus-petra/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/774cbbe65365286bc0768c26ba61d0be0b68e5b89daf6e5d0cf6efb29e5f9037",
-      "sha256": "774cbbe65365286bc0768c26ba61d0be0b68e5b89daf6e5d0cf6efb29e5f9037",
-      "bytes": 210344
+      "key": "blobs/sha256/23ebb027c81eac9b651e7c9dd6bcb1e6d024383843b5ed1f7b71ab0a93e25675",
+      "sha256": "23ebb027c81eac9b651e7c9dd6bcb1e6d024383843b5ed1f7b71ab0a93e25675",
+      "bytes": 626136
+    },
+    {
+      "path": "books/history-before-time/books/jakobus-petra/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/41c7c41f28be63372a403bce3144b6798eae90aec38b224c675109d2cfd816c4",
+      "sha256": "41c7c41f28be63372a403bce3144b6798eae90aec38b224c675109d2cfd816c4",
+      "bytes": 4796100
     },
     {
       "path": "books/history-before-time/books/jakobus-silver-thread/design/cover.png",
@@ -2237,9 +2269,17 @@
       "path": "books/history-before-time/books/southern-coast/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/41549a7a2493ce2ad1c587f18e19ee308b1bd6a2b30242d7b1d5cd1d8d140118",
-      "sha256": "41549a7a2493ce2ad1c587f18e19ee308b1bd6a2b30242d7b1d5cd1d8d140118",
-      "bytes": 227672
+      "key": "blobs/sha256/56f3dc1244be181b2736f3a25a5005511606c1c2b87db295dbb93ca722b9be2e",
+      "sha256": "56f3dc1244be181b2736f3a25a5005511606c1c2b87db295dbb93ca722b9be2e",
+      "bytes": 603895
+    },
+    {
+      "path": "books/history-before-time/books/southern-coast/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0b44fec5da1cfa02ce7d8d233add2cd9bfc7139caa18371f99d644d5c4bc8329",
+      "sha256": "0b44fec5da1cfa02ce7d8d233add2cd9bfc7139caa18371f99d644d5c4bc8329",
+      "bytes": 4526701
     },
     {
       "path": "books/history-before-time/books/southern-coast/design/images/11z22665-nama-woman-cooking.jpg",
@@ -4554,6 +4594,22 @@
       "bytes": 5476086
     },
     {
+      "path": "books/the-loneliest/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b5cba983613f3849a4382f9ad97efbbde4bf476077ec6d92200e8d22541077eb",
+      "sha256": "b5cba983613f3849a4382f9ad97efbbde4bf476077ec6d92200e8d22541077eb",
+      "bytes": 739659
+    },
+    {
+      "path": "books/the-loneliest/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1bdd53e95ee96a61c75fe4bc7fb340943663e308d306220e0410a552ccc2e703",
+      "sha256": "1bdd53e95ee96a61c75fe4bc7fb340943663e308d306220e0410a552ccc2e703",
+      "bytes": 1231856
+    },
+    {
       "path": "books/the-loneliest/design/images/certificates/print/skool1-00.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
@@ -5834,6 +5890,22 @@
       "bytes": 2593828
     },
     {
+      "path": "books/the-record/books/book1-the-record/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/73efcb210d8b7e77983862c73ad0c61d5abad4a6baed9e485a8c117987804579",
+      "sha256": "73efcb210d8b7e77983862c73ad0c61d5abad4a6baed9e485a8c117987804579",
+      "bytes": 716010
+    },
+    {
+      "path": "books/the-record/books/book1-the-record/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
+      "sha256": "bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
+      "bytes": 4630243
+    },
+    {
       "path": "books/the-record/books/book2-the-forward-cone/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
@@ -6176,6 +6248,22 @@
       "key": "blobs/sha256/80be2c48804f8c4d9bb4af9fa8f88179c864ed1613222a4366801c273fd2826e",
       "sha256": "80be2c48804f8c4d9bb4af9fa8f88179c864ed1613222a4366801c273fd2826e",
       "bytes": 2233257
+    },
+    {
+      "path": "books/the-unheard/books/mongolia-steppe/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c7adb3f81d753f9414ad2722093e7c0305c4569913bd01b310151fe66351f252",
+      "sha256": "c7adb3f81d753f9414ad2722093e7c0305c4569913bd01b310151fe66351f252",
+      "bytes": 552097
+    },
+    {
+      "path": "books/the-unheard/books/mongolia-steppe/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bffcd061aa8dfc1019f5f67753cfab35013fff037447ec46feee7ce68de06f98",
+      "sha256": "bffcd061aa8dfc1019f5f67753cfab35013fff037447ec46feee7ce68de06f98",
+      "bytes": 4324783
     },
     {
       "path": "books/the-unheard/books/mongolia-steppe/design/images/b-kh.jpg",
