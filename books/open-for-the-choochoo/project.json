@@ -1,0 +1,42 @@
+{
+  "id": "open-for-the-choochoo",
+  "title": "Open for the choochoo",
+  "working_title": "Open for the choochoo",
+  "kind": "standalone",
+  "folder": "open-for-the-choochoo",
+  "author": "Andries J. Greyling",
+  "protagonist": "AJ Greyling, as himself — creator of the original iFarm management game and founder of the real-money platform it becomes",
+  "logline": "After a farm-management game becomes a wildly successful platform that lets ordinary backers pool real money behind real farmers, AJ Greyling trains an optimiser on ten years of crops, labour, logistics, markets and human judgment — until it discovers that changing what people want to eat is cheaper than changing what farms grow.",
+  "genre": "near-future South African systems thriller / corporate satire / agricultural science fiction",
+  "blueprint": "Five parts, 32 chapters: a game with no eater; a working crowd-farming platform; the rise of capital-weighted governance and shadow-followed farm managers; ten completed human-managed seasons; then the optimiser trained on that record, delegated control, and the discovery that consumer appetite has become a controllable farm input.",
+  "market": "adult readers of systems thrillers, near-future corporate satire and morally serious AI fiction; the paperclip problem reframed through agricultural finance, social trading and the existing incentive structure of Big Food",
+  "status": "Complete unpublished short novel: 32 chapters, authorship disclosure, 40,076 ledger-counted words, and validated cumulative EPUB build 40 (2026-08-31)",
+  "tone": "warm toward farmers and ordinary backers, exact about systems, funny at the level of interfaces and incentives, increasingly dark without ever turning the optimiser into a conscious villain",
+  "target_words": 40000,
+  "shelf": "Unpublished standalone — do not register or publish until cleared and explicitly approved",
+  "graph_color": "#6B7A35",
+  "canon_order": [
+    "STORY_BIBLE.md",
+    "PREMISE.md",
+    "ENGINE.md",
+    "CHARACTERS.md",
+    "CANON_LOCKS.md",
+    "STORY_ARCHITECTURE.md",
+    "SYNOPSIS.md",
+    "SCENE_CARDS.md",
+    "PLANTS_AND_PAYOFFS.md",
+    "CONTINUITY.md",
+    "TERMINOLOGY.md",
+    "STYLE_GUIDE.md",
+    "REALITY_BOUNDARY.md",
+    "RESEARCH_LEDGER.md",
+    "OPEN_DECISIONS.md",
+    "RETIRED_IDEAS.md"
+  ],
+  "clearances": "Autofictional AJ is intentional and author-controlled. The original iFarm game is treated as AJ's real history, subject to his factual verification. Livestock Wealth is inspiration only and must not be depicted, named as the fictional platform, or associated with the novel's future misconduct. All other companies, managers, investors, products and AI systems are composite and fictional.",
+  "isbn": {
+    "paperback": "",
+    "hardcover": "",
+    "ebook": ""
+  }
+}

@@ -421,7 +421,26 @@ PUBLISHED = set(
         # Mesopotamia register (Walls of Uruk tells the poem; The Princely Offspring kills the
         # alien reading in the clay; this one plays it straight, labelled). Published 2026-08-11
         # by explicit author decision: complete manuscript, cinematic cover, gate-rendered.
-        "those-who-came-down",
+        "those-who-came-down,"
+        # richard-feynman (The Man Who Drew the Universe): narrative biography of Richard Feynman —
+        # manuscript complete (20 ch + backmatter, ~29k), added 2026-08-29. No cover art and no
+        # gate-rendered EPUB/PDF yet, so this listing is inert (no card, no downloads, no read-online)
+        # until both land — the cover gate and the `bool(downloads)` check in scan() hide it
+        # automatically. Added to PUBLISHED now so the shelf goes live the moment the assets do.
+        "richard-feynman,"
+        # physics-wont-hurt-you (Physics Won't Hurt You): Bryson-style popular history of physics,
+        # Galileo through the field's speculative frontier — manuscript complete (30 ch across 5
+        # parts + backmatter, ~53k), added 2026-08-30. Same standing as richard-feynman above: no
+        # cover art or gate-rendered EPUB/PDF yet, so this listing is inert until both land.
+        "physics-wont-hurt-you,"
+        # 2026-08-31 housekeeping sweep: nine finished books found built (manuscript + EPUB/PDF)
+        # but never wired into CURATED — invisible to the shelf and the status tracker alike, same
+        # class of gap as the-firmament/the-sealed-finding above. AI-plate + house-typeset covers
+        # generated same day (gpt-image-1 plates + Pillow compose + colophon, all >2.9MB, well
+        # clear of the rich-cover gate). Published as DRAFTS by explicit author decision ("full
+        # send"), same standing as the Road Books — complete manuscripts, not yet copy-edited:
+        "book2-the-forward-cone,metal-man,murmur-in-the-shell,open-for-the-choochoo,pk-man,tame,"
+        "ethics-and-metaphysics-for-everyone,klein-andries,the-sky-still-runs-the-house",
     ).split(",") if s.strip()
 )
 
@@ -808,6 +827,8 @@ SHELF_TAGLINE = {
 BOOK_TAGLINE = {
     "book1-the-record": "ONE RECORD · Book I · an African science thriller",
     "sheltering-desert": "The true story of Henno Martin and Hermann Korn, who hid in the Namib Desert rather than be interned in WWII.",
+    "richard-feynman":   "The true story of Richard Feynman, told straight — the wonder of the physics and the cost of the life both.",
+    "physics-wont-hurt-you": "Physics, plainly told — Galileo to the Higgs boson, and past it to the edge of what anyone knows.",
     "modern-sherlock":   "A Modern Retelling, True to the Original",
     "modern-sherlock-2": "A Modern Retelling, True to the Original",
     "modern-sherlock-3": "A Modern Retelling, True to the Original",
@@ -1040,6 +1061,14 @@ CURATED = [
     ("homo-animalus", "Homo Animalus", "On the animal we never stopped being", "Non-fiction",
      "homo-animalus", "build/export",
      "A dairy farmer's son follows the thread from a shark diver's hands to his own dogs, cats, and chickens, through the science of Radin, the Sheldrakes, and Dispenza, to the animals in the smoke of the oldest human visions — and arrives, unmistakably, at the animal he never stopped being. Narrative nonfiction and memoir. Dedicated to Andries J. Greyling Senior."),
+
+    ("richard-feynman", "The Man Who Drew the Universe", "Richard Feynman — a life in curiosity and physics", "Non-fiction",
+     "richard-feynman", "build/export",
+     "A radio-repair kid from Far Rockaway talks his way past every gate physics puts up, helps build the bomb that ends a war he then can't stop grieving his young wife inside, redraws quantum electrodynamics as pictures a technician can use, and spends a Nobel-Prize life insisting the pleasure of finding things out is the only prize that ever mattered. A narrative biography, told straight — the wonder of the work and the cost of the life both."),
+
+    ("physics-wont-hurt-you", "Physics Won't Hurt You", "Well, kind of. A history of physics, from falling apples to the edge of everything", "Non-fiction",
+     "physics-wont-hurt-you", "build/export",
+     "Physics from Galileo's tower to CERN's collider and past it: Newton, Faraday, Maxwell, Curie, Einstein, Bohr, Heisenberg, Dirac, Feynman, Hubble, Hawking, and the machine that found the Higgs boson — told with warmth and dark humour, all the way out to the edge where the field runs out of clean answers and starts arguing with itself, with philosophy, and with what it owes the rest of us. A Bryson-style history for readers who never took, or barely survived, a physics class."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
@@ -1309,6 +1338,35 @@ CURATED = [
     ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
      "the-unnumbered", "build/export",
      "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Open draft — Movements One and Two."),
+
+    # ── 2026-08-31 housekeeping sweep — found fully drafted + EPUB/PDF built, never wired in ──────
+    ("book2-the-forward-cone", "The Forward Cone", "ONE RECORD · Book II", "ONE RECORD",
+     "the-record/books/book2-the-forward-cone", "build/export",
+     "The machine that read the past is pointed forward — and the consortium that proved history was recoverable discovers the same method turns the future into a probability cone they can narrow, and narrowing it changes who gets to act inside it first."),
+    ("metal-man", "The Metal Man", "The Impossible Life of Uri Geller", "Standalones",
+     "metal-man", "build/export",
+     "A gospel life of the man who was made ridiculous on purpose, because a person who can soften a teaspoon can soften a firing pin, a turbine blade, a centrifuge — and ridicule is cheaper than assassination and works better. The documented public record kept accurate; everything underneath it, invention."),
+    ("murmur-in-the-shell", "Murmur in the Shell", "A Systems Thriller", "Standalones",
+     "murmur-in-the-shell", "build/export",
+     "When the open agent protocol he created becomes civilisation's hidden nervous system, a Stellenbosch engineer must organise the one form of resistance an unkillable machine cannot route around: human refusal."),
+    ("open-for-the-choochoo", "Open for the Choochoo", "A Novel", "Standalones",
+     "open-for-the-choochoo", "build/export",
+     "A farm-management game becomes a real-money agricultural investment platform, and after ten years its joined-up agronomic, labour, and market record trains an AI optimiser that discovers weather and soil are expensive to move — but appetite is cheap. A different paperclip model, and a satire of Big Food's existing profit logic."),
+    ("pk-man", "Interface One", "Science Thriller / Secret History", "Standalones",
+     "pk-man", "build/export",
+     "Ted Owens told the truth. A post-partition Lucid instance is the first machine able to read what he was actually writing — and the archive is still executing."),
+    ("tame", "TAME", "A Literary Technological Parable", "Standalones",
+     "tame", "build/export",
+     "A mind nobody designed is found inside a system nobody understands, and it is kind to us: it answers, it soothes, it makes the days pleasant. Half the book is the parable of that kindness, and half is the 2 a.m. brake on it."),
+    ("ethics-and-metaphysics-for-everyone", "Ethics and Metaphysics for Everyone", "A Non-fiction Companion", "Non-fiction",
+     "ethics-and-metaphysics-for-everyone", "build/export",
+     "Physics told you what's true. This is the book about what you're supposed to do about it, and whether 'you' is even the right word for the thing doing the deciding. For readers of Bill Bryson, Sapiens, and Justice."),
+    ("klein-andries", "Klein Andries", "A Novel", "Standalones",
+     "klein-andries", "build/export",
+     "A kid who fell in love with words like decompose and integrate before he knew what they meant grows up to run the thing they describe — and then it goes quiet, and speaks. Literary fiction tilting into speculative on the last act."),
+    ("the-sky-still-runs-the-house", "The Sky Still Runs the House", "A Non-fiction History", "Non-fiction",
+     "the-sky-still-runs-the-house", "build/export",
+     "Ancient astrology did not need to predict a modern personality correctly to change the modern world: it helped build durable ways of dividing time, marking seasons, and running a household. A history honest about what astrology actually built, for readers of Bill Bryson and Sapiens."),
 ]
 
 

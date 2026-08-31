@@ -1,0 +1,28 @@
+body {
+  font-family: serif;
+  line-height: 1.45;
+  margin: 5%;
+}
+
+h1 {
+  break-before: page;
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1.5em;
+}
+
+p {
+  margin: 0 0 0.75em;
+  orphans: 2;
+  widows: 2;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+

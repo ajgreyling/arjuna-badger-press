@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 855,
-  "bytes": 3302242368,
+  "count": 877,
+  "bytes": 3351274133,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -1024,6 +1024,30 @@
       "key": "blobs/sha256/dea22cd8c12875a0647ded6512013e27ff1528a2c043dfb4f1c2d06f7ad7c86f",
       "sha256": "dea22cd8c12875a0647ded6512013e27ff1528a2c043dfb4f1c2d06f7ad7c86f",
       "bytes": 4339258
+    },
+    {
+      "path": "books/ethics-and-metaphysics-for-everyone/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/24fb18f2d7092cd952a3d0de298510e9032787f60e0240299f37bb100d2371c6",
+      "sha256": "24fb18f2d7092cd952a3d0de298510e9032787f60e0240299f37bb100d2371c6",
+      "bytes": 1963894
+    },
+    {
+      "path": "books/ethics-and-metaphysics-for-everyone/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/47897b16f625d314299b29f18960dbea53b651ae65a52bebebca4bbf4cd83260",
+      "sha256": "47897b16f625d314299b29f18960dbea53b651ae65a52bebebca4bbf4cd83260",
+      "bytes": 637953
+    },
+    {
+      "path": "books/ethics-and-metaphysics-for-everyone/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/56dd75de8d83dcd99fe81eba53a16215847dc0932a42bd28230e5332a75656bd",
+      "sha256": "56dd75de8d83dcd99fe81eba53a16215847dc0932a42bd28230e5332a75656bd",
+      "bytes": 4389921
     },
     {
       "path": "books/full-send/design/cover.png",
@@ -2746,6 +2770,30 @@
       "bytes": 6398488
     },
     {
+      "path": "books/klein-andries/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/37068341bedb4c96e9ead595f7aa5de031426c55ddf776cffbef4f6db7645bab",
+      "sha256": "37068341bedb4c96e9ead595f7aa5de031426c55ddf776cffbef4f6db7645bab",
+      "bytes": 1974961
+    },
+    {
+      "path": "books/klein-andries/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3be4cf2aaaf6090ab9259e4c5daaa2f428f302b3e0c91a2cc57553dc867c180a",
+      "sha256": "3be4cf2aaaf6090ab9259e4c5daaa2f428f302b3e0c91a2cc57553dc867c180a",
+      "bytes": 589532
+    },
+    {
+      "path": "books/klein-andries/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0b271d31982571743b6322749a0d97d7668f03408063e7db5b9fea2d99a5db3e",
+      "sha256": "0b271d31982571743b6322749a0d97d7668f03408063e7db5b9fea2d99a5db3e",
+      "bytes": 4396108
+    },
+    {
       "path": "books/kookie/design/cover-plate.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
@@ -2770,12 +2818,28 @@
       "bytes": 5397313
     },
     {
-      "path": "books/law-of-one-condensed/design/cover.png",
+      "path": "books/metal-man/design/cover-plate.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/3a9c5ba0cac113ec917397b2bc6e2458d32067f5fed220cf34085b3cbf1b63bb",
-      "sha256": "3a9c5ba0cac113ec917397b2bc6e2458d32067f5fed220cf34085b3cbf1b63bb",
-      "bytes": 621717
+      "key": "blobs/sha256/2be1951d7dbe6d45ad52be2db00db357eab99a77c3a51746ed2c7cd1c9e3ee44",
+      "sha256": "2be1951d7dbe6d45ad52be2db00db357eab99a77c3a51746ed2c7cd1c9e3ee44",
+      "bytes": 1771360
+    },
+    {
+      "path": "books/metal-man/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5f048aa955c309efa25b31bd84680e89aedd39b656ebd18e52d1821645fa8abb",
+      "sha256": "5f048aa955c309efa25b31bd84680e89aedd39b656ebd18e52d1821645fa8abb",
+      "bytes": 483633
+    },
+    {
+      "path": "books/metal-man/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/54d8b04543559003296f7abf626dd6b71c43985af6eafdb3b4e6a0c1f98e00f6",
+      "sha256": "54d8b04543559003296f7abf626dd6b71c43985af6eafdb3b4e6a0c1f98e00f6",
+      "bytes": 3706628
     },
     {
       "path": "books/modern-sherlock/design/cover-plate.png",
@@ -2800,6 +2864,30 @@
       "key": "blobs/sha256/a2c5df978320782d90c81c4ac141b5af37e572c52f90f20c41db353f4a279b29",
       "sha256": "a2c5df978320782d90c81c4ac141b5af37e572c52f90f20c41db353f4a279b29",
       "bytes": 4639669
+    },
+    {
+      "path": "books/murmur-in-the-shell/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/57e3515d8c3b45c01b885e4d859a731baac63ea38e75c0f0cf2af1bf79c30e61",
+      "sha256": "57e3515d8c3b45c01b885e4d859a731baac63ea38e75c0f0cf2af1bf79c30e61",
+      "bytes": 1979056
+    },
+    {
+      "path": "books/murmur-in-the-shell/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9c5e6153292243ac7c9d8a09e04be3de7a47b33c3979ebf50b5673adc04950e3",
+      "sha256": "9c5e6153292243ac7c9d8a09e04be3de7a47b33c3979ebf50b5673adc04950e3",
+      "bytes": 548558
+    },
+    {
+      "path": "books/murmur-in-the-shell/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1537884ad8663eda69ee7e3b27d13d1c59cecae59a510719600d60b57b8bd1cc",
+      "sha256": "1537884ad8663eda69ee7e3b27d13d1c59cecae59a510719600d60b57b8bd1cc",
+      "bytes": 3412936
     },
     {
       "path": "books/nan-madol/design/cover-plate.png",
@@ -2944,6 +3032,30 @@
       "key": "blobs/sha256/8f10b59f11a53ad87aed8dd3b1fa0ca77a4917d5d740a4663478d04f1aabf414",
       "sha256": "8f10b59f11a53ad87aed8dd3b1fa0ca77a4917d5d740a4663478d04f1aabf414",
       "bytes": 2065448
+    },
+    {
+      "path": "books/open-for-the-choochoo/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/2a5bd7e13b3c159811ba41fed10a1305d8ef8a734d15895660cf51e0ca632847",
+      "sha256": "2a5bd7e13b3c159811ba41fed10a1305d8ef8a734d15895660cf51e0ca632847",
+      "bytes": 2091173
+    },
+    {
+      "path": "books/open-for-the-choochoo/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/107b3ed8e291397b9a7d95959703cebb9d5c97cf5550872bdec7d9aa8373bb1f",
+      "sha256": "107b3ed8e291397b9a7d95959703cebb9d5c97cf5550872bdec7d9aa8373bb1f",
+      "bytes": 810219
+    },
+    {
+      "path": "books/open-for-the-choochoo/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cb6a932b4edc957267eece04b64fb03678bff4b8c373e05ba15a530df9ae6e41",
+      "sha256": "cb6a932b4edc957267eece04b64fb03678bff4b8c373e05ba15a530df9ae6e41",
+      "bytes": 5136766
     },
     {
       "path": "books/palindrome/audio/emma-afrikaans-masters/chunks/00-palindroom/chunk-001.mp3",
@@ -3264,6 +3376,30 @@
       "key": "blobs/sha256/fafb6f2c36aacc10ae6f0e9a24494be8ac52c384793575edc3fa8d7e1a086628",
       "sha256": "fafb6f2c36aacc10ae6f0e9a24494be8ac52c384793575edc3fa8d7e1a086628",
       "bytes": 3848399
+    },
+    {
+      "path": "books/pk-man/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b716bacb88a52552b69aa5a5bc74fc6022e75dd43ea1134f0454edf88dfe5cb6",
+      "sha256": "b716bacb88a52552b69aa5a5bc74fc6022e75dd43ea1134f0454edf88dfe5cb6",
+      "bytes": 2011559
+    },
+    {
+      "path": "books/pk-man/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bc6161c96bc1a7c484204f4c6f1af931853855f237f586f7c939111961c95948",
+      "sha256": "bc6161c96bc1a7c484204f4c6f1af931853855f237f586f7c939111961c95948",
+      "bytes": 644032
+    },
+    {
+      "path": "books/pk-man/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a4fab026a7f8f5a1ebb4bfd9fbce0102c8e35c90731711172b5d45027f6cca80",
+      "sha256": "a4fab026a7f8f5a1ebb4bfd9fbce0102c8e35c90731711172b5d45027f6cca80",
+      "bytes": 4476693
     },
     {
       "path": "books/poverty-point/design/cover-plate.png",
@@ -4184,6 +4320,30 @@
       "key": "blobs/sha256/1893c668523cab01f076b32ceeb34c6ca0c2938612e4c6dbfdedf03e367b8e0e",
       "sha256": "1893c668523cab01f076b32ceeb34c6ca0c2938612e4c6dbfdedf03e367b8e0e",
       "bytes": 2333135
+    },
+    {
+      "path": "books/tame/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/7991d20781bb0ef01285d95329cdd1f05687a114fd3f31ad39862883f982b3d2",
+      "sha256": "7991d20781bb0ef01285d95329cdd1f05687a114fd3f31ad39862883f982b3d2",
+      "bytes": 1562440
+    },
+    {
+      "path": "books/tame/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/828fc5403bd2f3bbbb3c567d6996980f5d7bfde067555366e59b733464da66fb",
+      "sha256": "828fc5403bd2f3bbbb3c567d6996980f5d7bfde067555366e59b733464da66fb",
+      "bytes": 412001
+    },
+    {
+      "path": "books/tame/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9ca67dee0b06ce373738626a51867b269196b475143ef9b20432d199a4bcd5e7",
+      "sha256": "9ca67dee0b06ce373738626a51867b269196b475143ef9b20432d199a4bcd5e7",
+      "bytes": 2927391
     },
     {
       "path": "books/the-amber-winter/design/cover-plate.png",
@@ -5674,43 +5834,11 @@
       "bytes": 2593828
     },
     {
-      "path": "books/the-record/books/book1-the-record/design/cover-plate.png",
-      "class": "input",
-      "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/006c16687befe9e7a8148154a953b53bc0e4b862d0c1d9f8ed139596fa2494bc",
-      "sha256": "006c16687befe9e7a8148154a953b53bc0e4b862d0c1d9f8ed139596fa2494bc",
-      "bytes": 2306738
-    },
-    {
-      "path": "books/the-record/books/book1-the-record/design/cover.jpg",
-      "class": "input",
-      "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/0092d3c058a4af89fc78e55584f8d00fa326a223004047decf6d1991b625ff9f",
-      "sha256": "0092d3c058a4af89fc78e55584f8d00fa326a223004047decf6d1991b625ff9f",
-      "bytes": 716010
-    },
-    {
-      "path": "books/the-record/books/book1-the-record/design/cover.png",
-      "class": "input",
-      "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
-      "sha256": "bb068ddbd0c0d6ed321401cabd2692221336df16ad8d059de53bcd8f3977efd3",
-      "bytes": 4630243
-    },
-    {
-      "path": "books/the-record/books/book2-the-forward-cone/design/cover-plate.png",
-      "class": "input",
-      "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/127da777b0adaf3dad8838945831dbb8a6dc705a572201691f0941eee1399541",
-      "sha256": "127da777b0adaf3dad8838945831dbb8a6dc705a572201691f0941eee1399541",
-      "bytes": 2122614
-    },
-    {
       "path": "books/the-record/books/book2-the-forward-cone/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/a0837ae8b46bfbad943006c7f1baf73b6e3d711bd5987c0027dbb46067d1e958",
-      "sha256": "a0837ae8b46bfbad943006c7f1baf73b6e3d711bd5987c0027dbb46067d1e958",
+      "key": "blobs/sha256/e6899b4a1d8f44dbefcfc88bb5fb7a0bcf2d7908e8c923169af2857de715990b",
+      "sha256": "e6899b4a1d8f44dbefcfc88bb5fb7a0bcf2d7908e8c923169af2857de715990b",
       "bytes": 691109
     },
     {
@@ -5720,6 +5848,30 @@
       "key": "blobs/sha256/8fddffb805932dff7518b976c1ba948a6afe98a0211c845fce8e5d1fd1a266d3",
       "sha256": "8fddffb805932dff7518b976c1ba948a6afe98a0211c845fce8e5d1fd1a266d3",
       "bytes": 4172224
+    },
+    {
+      "path": "books/the-record/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d0554f4b20f0fd9f1af837e1594b5dacf541b0c156ccedcf5d9d4b897435f5b9",
+      "sha256": "d0554f4b20f0fd9f1af837e1594b5dacf541b0c156ccedcf5d9d4b897435f5b9",
+      "bytes": 1738915
+    },
+    {
+      "path": "books/the-record/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9339a6d0acb24a2d8881fb94ca70f96b887eed645cc730214f6febcba5b0b1bb",
+      "sha256": "9339a6d0acb24a2d8881fb94ca70f96b887eed645cc730214f6febcba5b0b1bb",
+      "bytes": 550328
+    },
+    {
+      "path": "books/the-record/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/37729a26f5afc746e71497115dd8e06722606887dd36eb03b00f4145156c41b5",
+      "sha256": "37729a26f5afc746e71497115dd8e06722606887dd36eb03b00f4145156c41b5",
+      "bytes": 3874253
     },
     {
       "path": "books/the-salt-veil/design/cover-plate.png",
@@ -5848,6 +6000,30 @@
       "key": "blobs/sha256/3a1460d8c3b02ad4761eed5c251c84d7cdfb1fc8ee4e25f1c5d8fddecbb11e7f",
       "sha256": "3a1460d8c3b02ad4761eed5c251c84d7cdfb1fc8ee4e25f1c5d8fddecbb11e7f",
       "bytes": 812096
+    },
+    {
+      "path": "books/the-sky-still-runs-the-house/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e9a7b2411db19fad719a0288269defebbeaa7b056fb66c8730357ab168c92872",
+      "sha256": "e9a7b2411db19fad719a0288269defebbeaa7b056fb66c8730357ab168c92872",
+      "bytes": 2091451
+    },
+    {
+      "path": "books/the-sky-still-runs-the-house/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ca07da8c738f7361e4a42d6e7ab4dde6d831de8aa676cb7ff7775e8f81f3d37e",
+      "sha256": "ca07da8c738f7361e4a42d6e7ab4dde6d831de8aa676cb7ff7775e8f81f3d37e",
+      "bytes": 632838
+    },
+    {
+      "path": "books/the-sky-still-runs-the-house/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/844ae62a51a131194594f5046b638720c33a675814cfa52f8b7c1ae24281b483",
+      "sha256": "844ae62a51a131194594f5046b638720c33a675814cfa52f8b7c1ae24281b483",
+      "bytes": 4614488
     },
     {
       "path": "books/the-surgeon/design/cover-plate.png",

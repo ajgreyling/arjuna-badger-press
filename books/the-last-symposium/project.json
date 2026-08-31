@@ -1,0 +1,25 @@
+{
+  "id": "the-last-symposium",
+  "title": "The Last Symposium",
+  "folder": "the-last-symposium",
+  "kind": "series",
+  "logline": "A machine at CERN retrieves nineteen canonical philosophers from history and confines them in a filmed house to draft a blueprint for the survivors of a contested civilization-ending forecast.",
+  "market": "philosophical science fiction / locked-house ensemble / institutional thriller",
+  "status": "first_draft",
+  "shelf": "unassigned",
+  "source": "Originated in ~/code/klaus/story-bible (v0.1, 2026-08-22); migrated into the press repo 2026-08-31. Sibling/adjacent premise to books/history-before-time/books/apex-alphas (different engine — see canon note) — mine for beats, do not merge the frames.",
+  "notes": "Volume One 'The House of Reasons' (24 chapters, ~23k words) and Volume Two 'The Body of Evidence' (24 chapters) are both complete single-shot first drafts, not line-edited or research-cleared. Expandable series: four-volume backbone for nineteen original philosophers plus a twentieth-chair expansion hinge. No cover, no EPUB/PDF export, no build.py yet. NOT in PUBLISHED or CURATED.",
+  "canon_order": [
+    "STORY_BIBLE.md",
+    "SERIES_BEATS.md",
+    "SERIES_VOLUME_ROADMAP.md",
+    "VOLUME_ONE_ARCHITECTURE.md",
+    "CHAPTER_SKELETONS_VOLUME_ONE.md",
+    "CAST_AND_VOICE_VOLUME_ONE.md",
+    "WORLD_CONTINUITY_AND_PROPS.md",
+    "PHILOSOPHY_AND_RESEARCH_GATES.md",
+    "PHILOSOPHY_MATRIX.md",
+    "HOUSE_DYNAMICS.md",
+    "DRAFTING_PROTOCOL.md"
+  ]
+}

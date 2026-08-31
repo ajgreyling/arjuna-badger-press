@@ -6,14 +6,15 @@
 
 | State | Count | Meaning |
 |---|---:|---|
-| 🟢 Drafted, gated | 1 | Full manuscript drafted; held out of `PUBLISHED` (catalogue-only / workshop hold). |
-| 🟡 In progress | 5 | Partial manuscript, or canon/bible complete with little/no prose. |
+| 🟠 Built, unwired | 10 | Manuscript + EPUB/PDF exist but the book is **not in CURATED** — invisible to the library. |
+| 🟢 Drafted, gated | 2 | Full manuscript drafted; held out of `PUBLISHED` (catalogue-only / workshop hold). |
+| 🟡 In progress | 8 | Partial manuscript, or canon/bible complete with little/no prose. |
 | ⚪ Scaffold | 11 | Cover + metadata only. No manuscript. |
 | ❌ Missing | 4 | CURATED entry whose root dir isn't on disk. |
 | 📖 Serial (live) | 1 | Published read-online serial. |
-| ✅ Live | 73 | Published in the library — live downloads/read. |
+| ✅ Live | 76 | Published in the library — live downloads/read. |
 
-**Total: 95 books.** Not-yet-live (everything but LIVE/SERIAL): 21.
+**Total: 112 books.** Not-yet-live (everything but LIVE/SERIAL): 35.
 
 ## Books not yet completed in the library
 
@@ -21,11 +22,25 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 
 | Book | id | Series | State | Score | Manuscript | Canon | EPUB/PDF | Cover | API verdict | Notes |
 |---|---|---|---|---:|---|---:|---|---|---|---|
+| The Record | `the-record` | (unwired — not in CURATED) | 🟠 Built, unwired | 100 | 80,092w | 13 | EPUB/PDF | rich | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Book2 The Forward Cone | `book2-the-forward-cone` | (unwired — not in CURATED) | 🟠 Built, unwired | 93 | 34,701w | 5 | EPUB/PDF | rich | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| The Metal Man | `metal-man` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 72,631w | 16 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Murmur in the Shell | `murmur-in-the-shell` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 79,335w | 21 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Open For The Choochoo | `open-for-the-choochoo` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 40,155w | 16 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Pk Man | `pk-man` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 40,092w | 15 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Tame | `tame` | (unwired — not in CURATED) | 🟠 Built, unwired | 90 | 87,059w | 10 | EPUB/PDF | stub/— | _(pending)_ | STALE project.json status='scaffold' but manuscript/EPUB exists |
+| Ethics And Metaphysics For Everyone | `ethics-and-metaphysics-for-everyone` | (unwired — not in CURATED) | 🟠 Built, unwired | 83 | 23,145w | 3 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| Klein Andries | `klein-andries` | (unwired — not in CURATED) | 🟠 Built, unwired | 83 | 18,134w | 5 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
+| The Sky Still Runs The House | `the-sky-still-runs-the-house` | (unwired — not in CURATED) | 🟠 Built, unwired | 83 | 18,531w | 3 | EPUB/PDF | stub/— | _(pending)_ | built (manuscript+export) but absent from CURATED — invisible to library |
 | The Long Silence | `the-long-silence` | Faithful Modern | 🟢 Drafted, gated | 70 | 18,626w | 12 | — | stub/— | _(pending)_ | STALE project.json status='scaffold' but manuscript/EPUB exists |
+| The Patient Sky | `the-patient-sky` | (unwired — not in CURATED) | 🟢 Drafted, gated | 59 | 43,602w | 2 | — | stub/— | _(pending)_ | on disk but not in CURATED |
+| Law Of One Condensed | `law-of-one-condensed` | (unwired — not in CURATED) | 🟡 In progress | 48 | 12,058w | 0 | EPUB/PDF | stub/— | _(pending)_ | on disk but not in CURATED |
 | Palindroom Toneelstuk | `palindroom-toneelstuk` | Standalones | 🟡 In progress | 46 | 6,990w | 0 | EPUB/PDF | rich | _(pending)_ |  |
 | Brave and Scared | `bloedrivier` | History Like You've Never Heard It | 🟡 In progress | 43 | 5,596w | 7 | EPUB | rich | _(pending)_ |  |
+| Please Rate Your Stay | `please-rate-your-stay` | (unwired — not in CURATED) | 🟡 In progress | 25 | 2,146w | 0 | EPUB/PDF | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Scramble | `the-scramble` | (unwired — not in CURATED) | 🟡 In progress | 19 | 2,066w | 12 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Long Dark | `jakobus-the-long-dark` | History Before Time | 🟡 In progress | 14 | — | 2 | — | rich | _(pending)_ |  |
+| Ifarm | `ifarm` | (unwired — not in CURATED) | 🟡 In progress | 8 | — | 5 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Antifragile Trader | `the-antifragile-trader` | (unwired — not in CURATED) | 🟡 In progress | 4 | — | 2 | — | stub/— | _(pending)_ | on disk but not in CURATED |
 | The Deepest Floor | `hbt-caves` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
 | The Breathing Dark | `hbt-sudwala` | History Before Time | ⚪ Scaffold | 10 | — | 0 | — | rich | _(pending)_ |  |
@@ -51,6 +66,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | Daughters of the Dust Throne | `dust-throne` | The Dust Throne | 📖 Serial (live) | — |
 | AFRIKA 2100 | `afrika-2100` | The African Gold Trilogy | ✅ Live | EPUB/PDF |
 | The Princely Offspring | `anunnaki-mesopotamia` | Not a Potato | ✅ Live | EPUB/PDF |
+| Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
 | Aimed at the Sea | `atacama-paracas` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Songlines of Stone | `australia-outback` | History Before Time | ✅ Live | EPUB/PDF |
 | The Calendar of Stone | `book1-africa` | History Before Time | ✅ Live | EPUB/PDF |
@@ -86,7 +102,7 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | Verdigris | `verdigris` | Standalones | ✅ Live | EPUB/PDF |
 | The Hand That Wrote It | `voynich-manuscript` | Not a Potato | ✅ Live | EPUB/PDF |
 | Made or Not | `yonaguni` | Not a Potato | ✅ Live | EPUB/PDF |
-| Apex Alphas | `apex-alphas` | The Synthesis | ✅ Live | EPUB/PDF |
+| The Record | `book1-the-record` | ONE RECORD | ✅ Live | EPUB/PDF |
 | The Field of Doors | `crop-circles` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Belly Hill | `gobekli-tepe` | Not a Potato | ✅ Live | EPUB/PDF |
 | The Silver Thread | `jakobus-silver-thread` | History Before Time | ✅ Live | EPUB/PDF |
@@ -114,6 +130,8 @@ Sorted by completion state, then deterministic readiness score. The **API verdic
 | Full Send, Klaus | `full-send` | Standalones | ✅ Live | EPUB/PDF |
 | Palindrome | `palindrome` | Standalones | ✅ Live | EPUB/PDF |
 | Scratching the Surface | `southern-coast` | History Before Time | ✅ Live | EPUB/PDF |
+| Physics Won't Hurt You | `physics-wont-hurt-you` | Non-fiction | ✅ Live | — |
+| The Man Who Drew the Universe | `richard-feynman` | Non-fiction | ✅ Live | — |
 | The Antifragile Reader | `the-antifragile-reader` | Non-fiction | ✅ Live | EPUB/PDF |
 | The First Unplugged | `the-first-unplugged` | Faithful Modern | ✅ Live | EPUB |
 | The Little Key | `the-little-key` | Children's Library | ✅ Live | — |

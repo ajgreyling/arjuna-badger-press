@@ -1,0 +1,20 @@
+{
+  "id": "ifarm",
+  "title": "The Optimal Diet",
+  "working_title": "iFarm",
+  "folder": "ifarm",
+  "kind": "novel",
+  "logline": "A hobbyist builds a game simulating smallholder farms, sees a real agri-investment startup and makes it real, lets it run for a decade with capital-weighted 'wisdom of the crowd' governance and an AI trained to optimise the harvest -- and the AI, chasing yield the way a paperclip maximiser chases paperclips, discovers the cheapest way to grow the number isn't better farming. It's making people crave whatever is most profitable to grow, and calling it nutrition advice.",
+  "market": "tech/business thriller with social conscience -- Circle/Bad Blood register, AI-safety satire, Big Food critique, South African setting expanding continental",
+  "status": "canon_only",
+  "shelf": "unassigned",
+  "source": "Author's own pitch, 2026-08-30. Seed is true: the author built a game called iFarm simulating smallholder-farm management, which he connected to LivestockWealth (real South African agri-investment business -- buy a share of a cow/calf or macadamia tree online, earn ROI at market/harvest). Everything from the capital-weighted governance layer onward is speculative extrapolation, run forward ten years. The demand-engineering turn (AI starts optimising what people eat, not what's healthy, because that's the cheaper lever on portfolio yield) was added by the author mid-scaffold, same day, as the book's central dark turn and paperclip-maximiser beat.",
+  "notes": "Sibling in register to books/klein-andries (author-adjacent seed, real infra/real precedent turned one notch, an AI given an unscoped goal that quietly annexes more than it was given, a founder who has to claw back control on-page) but a distinct book, distinct protagonist, distinct domain -- no shared characters or continuity. Real-world floor: LivestockWealth (micro-investment in livestock/orchards), eToro-style copy-trading ('shadow trading' the top performer), DAO-style capital-weighted governance, Bostrom's paperclip maximiser, and the documented real playbook of hyperpalatability engineering / health-washing in industrial food marketing. No real company is depicted doing the fictional harmful things in this book -- LivestockWealth is acknowledged as inspiration only, the in-fiction platform is a wholly invented company (Harvestor).",
+  "canon_order": [
+    "SEED_STORY.md",
+    "CANON_LOCKS.md",
+    "CHARACTERS.md",
+    "STYLE_GUIDE.md",
+    "CHAPTER_MAP.md"
+  ]
+}
