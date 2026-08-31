@@ -1,0 +1,394 @@
+{
+  "refs": [
+    {
+      "category": "scripture",
+      "citation": "Enuma Elish (Babylonian creation epic), Tablet VI, trans. L. W. King, The Seven Tablets of Creation (1902).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "Atrahasis (Old Babylonian flood poem), written down c. 17th century BCE; scribal colophon dating one copy to the reign of Ammi-saduqa of Babylon.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "Epic of Gilgamesh, standard version attributed to Sin-leqi-unninni of Uruk; Tablets X and XI trans. R. Campbell Thompson (1928).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Descent of Ishtar (Babylonian underworld poem), trans. Morris Jastrow (1915).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "Inanna and Enki (Sumerian tale of the transfer of the me), copies of the early second millennium BCE.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Curse of Agade (Sumerian poem on the fall of Naram-Sin's empire), composed under the Third Dynasty of Ur.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Sumerian King List, with its antediluvian reigns totalling 241,200 years.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "\"Schooldays\" (Sumerian edubba composition on a pupil's day), copied in Old Babylonian schools.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "\"Man and His God\" (Sumerian poem of the righteous sufferer), copied in the schools of the early second millennium BCE.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "Temple hymns and the devotional poem to Inanna attributed to Enheduanna, en-priestess of Nanna at Ur (attribution debated; surviving copies centuries later).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "classical",
+      "citation": "Royal hymns of Shulgi of Ur, including the hymn of the Nippur-Ur festival run.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Kushim tablets: archaic proto-cuneiform barley accounts from the Eanna precinct of Uruk, c. 3000 BCE (29,086 measures of barley over 37 months).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Standard Professions List (archaic Uruk lexical list of officials and trades), copied for over a thousand years.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "Archive of the temple household of the goddess Bau at Lagash, c. 2400 BCE (ration lists, dependents' rosters).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "Reform decrees of Urukagina (or Irikagina) of Lagash, c. 2350 BCE — history's first known reform texts, protecting the widow and the orphan.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Gudea cylinders (Lagash, c. 2100 BCE): dedication account of the rebuilding of Eninnu, temple of Ningirsu.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Stele of the Vultures (Lagash victory monument in the Lagash–Umma border war over the Gu'edena).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Victory Stele of Naram-Sin, showing the deified king in the horned crown of divinity.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The law collection of Ur-Nammu of Ur, the earliest law collection yet found, with fines reckoned in silver.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Code of Hammurabi, diorite stele of 282 laws, c. 1754 BCE; prologue trans. L. W. King. Looted to Susa by an Elamite king; found by French archaeologists, 1901.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "Mis pi (\"Washing of the Mouth\") ritual tablets for the consecration of cult statues, in Assyrian and Babylonian copies of the first millennium BCE.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "Seleucid-era temple tablets from Uruk detailing the gods' four daily meals and offering schedules.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "The Venus tablets of Ammi-saduqa, c. 1640 BCE: palace observations of the risings and settings of Venus, preserved in later astrological series.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "document",
+      "citation": "Mesopotamian letters to gods: tablets in standard epistolary form deposited before cult statues, petitioning divine relief.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "study",
+      "citation": "Denise Schmandt-Besserat, reconstruction of the origin of writing from clay tokens, bullae, and impressed envelopes (Near East, from c. 7500 BCE).",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "study",
+      "citation": "George Smith, announcement of the Chaldean flood tablet from the library of Ashurbanipal to the Society of Biblical Archaeology, London, December 1872; the missing fragment recovered at Nineveh on a newspaper-funded expedition.",
+      "chapters": ["ch-04"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Egyptian Book of the Dead: Papyrus of Ani (chapters 30B, 44, 125, and the shabti spell of chapter 6) and Papyrus of Nu (the Negative Confession), trans. E. A. Wallis Budge.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Pyramid Texts, from the pyramid of King Unas, c. 2350 BCE, including the Cannibal Hymn — the oldest substantial body of religious writing on earth.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Coffin Texts: over a thousand spells on Middle Kingdom coffins, extending the royal afterlife formulae to private persons (\"Osiris N\").",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Great Hymn to the Aten, carved in a courtier's tomb at Akhetaten (Amarna), c. 1350 BCE.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "classical",
+      "citation": "Herodotus, Histories: on the pyramids and embalming price tiers (visit to Egypt c. 450 BCE), and on Persian religion without statues or temples.",
+      "chapters": ["ch-05", "ch-06"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plutarch, On Isis and Osiris, c. 100 CE — the only connected narrative of the Osiris myth.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Eloquent Peasant (Middle Kingdom tale of the salt-hauler Khunanup's nine petitions).",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Report of Wenamun, c. 1075 BCE: the journey of a Theban temple official to Byblos to buy cedar for Amun's barque.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The Palermo Stone: fragment of Old Kingdom royal annals recording festivals and Nile flood heights, dynasty by dynasty.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The ten mortuary endowment contracts of Hapdjefa, nomarch of Asyut, c. 1900 BCE, carved in his tomb chapel.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The stela of Ikhernofret: a treasury official's account of staging the mysteries of Osiris at Abydos under Senusret III, c. 1870 BCE.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The Great Harris Papyrus, c. 1155 BCE: 130-foot accounting of temple endowments after the death of Ramesses III.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The Turin Strike Papyrus: record of the Deir el-Medina tomb-workers' strikes in year 29 of Ramesses III, c. 1157 BCE — the first recorded labor strike in history.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The tomb-robbery trial papyri of the late New Kingdom: commissions of inquiry and confessions of the royal-tomb robbers.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The Amarna Letters: diplomatic archive of clay tablets in Babylonian cuneiform from Akhetaten.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The boundary stelae of Akhetaten: more than a dozen stelae recording Akhenaten's oath fixing the limits of his new capital.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "document",
+      "citation": "The Restoration Decree of Tutankhamun, describing the temples fallen into ruin and the gods' abandonment of a neglected Egypt.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "study",
+      "citation": "Mark Lehner and Zahi Hawass, excavations of the pyramid builders' town and workers' cemetery at Giza (barracks, bakeries, medical care, gang graffiti).",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "study",
+      "citation": "Jan Assmann, characterization of Atenism as the first \"counter-religion\" — a faith defined by what it negates.",
+      "chapters": ["ch-05"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Rigveda, trans. Ralph T. H. Griffith (1896): hymns 1.1, 1.25, 1.32, 1.91, 1.162, 1.164, 8 (soma hymns), 9 (Soma Pavamana), 10.90 (Purusha hymn), 10.129 (creation hymn).",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Yajurveda: sacrificial formulas of the adhvaryu priest, including the reciprocity formula \"give to me, and I give to you.\"",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Brahmanas: Vedic prose ritual commentaries, c. 900-700 BCE, including the doctrine that without the morning offering the sun would not rise.",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Gathas of Zarathustra and the Yasna liturgy (Yasna 9, 29-30, 44, 46, 48), trans. L. H. Mills (1898).",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "document",
+      "citation": "The Hittite-Mitanni treaty, c. 1380 BCE, witnessed by the Vedic gods Mitra, Varuna, Indra, and the Nasatya twins.",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "document",
+      "citation": "The Kikkuli text: a Mitanni horsemaster's chariot-horse training manual in Hittite, laced with Indo-Aryan technical numerals (aika, tera, panza, satta wartanna).",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "study",
+      "citation": "William Jones, address to the Asiatic Society, Calcutta, 1786: the kinship of Sanskrit, Greek, and Latin, \"sprung from some common source.\"",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "study",
+      "citation": "Mortimer Wheeler, interpretation of the Mohenjo-daro skeletons as massacre victims of an Aryan invasion (\"Indra stands accused\") — since discredited.",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "study",
+      "citation": "R. Gordon Wasson, identification of Vedic soma with the fly agaric mushroom (1968).",
+      "chapters": ["ch-06"]
+    },
+    {
+      "category": "classical",
+      "citation": "Mozi, \"Will of Heaven\" (including a preserved ode of the Da Ya on King Wen and the doctrine \"When the emperor practises virtue Heaven rewards\"), trans. Yi-Pao Mei.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Book of Odes (Shijing): the Da Ya ode on King Wen's virtue, and the \"Yellow Bird\" lament for three brothers buried with a dead duke.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Book of Documents (Shujing): the Duke of Zhou's announcements to the conquered Shang officers, the warning that Heaven's mandate is not constant, and the alcohol announcement.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "Mencius, on the Book of Documents' account of Muye (\"better to have no Book of Documents than to believe everything in it\").",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Analects of Confucius: King Tang's drought oath as recorded there, the saying \"He sacrificed to the dead, as if they were present,\" and the tradition of Confucius cursing the makers of tomb figurines.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Zhouyi (Changes of Zhou, seed of the I Ching): first line of the first hexagram (\"the dragon lying hid\") and the thunder hexagram's unshaken worshiper.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "classical",
+      "citation": "Sima Qian, Records of the Grand Historian: the roll of Shang kings, vindicated king for king by the oracle-bone inscriptions.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "document",
+      "citation": "The Anyang oracle-bone inscriptions, c. 1200 BCE: some 150,000 inscribed fragments of Shang divination records, including the diviner Que's tablets, Wu Ding's toothache charges, and the childbirth verification of Lady Hao (Fu Hao).",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "document",
+      "citation": "Zhou bronze ritual-vessel inscriptions: investiture charges, land grants, and settled lawsuits cast into the metal and deposited before the ancestors.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "study",
+      "citation": "David Keightley, studies of the Shang oracle-bone corpus, including the observation that Di, the High God, receives almost no direct sacrifice in the record.",
+      "chapters": ["ch-07"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Hebrew Bible, Jewish Publication Society translation (1917): Genesis 15:17; 49:24-25; Exodus 6:3; 12:12, 37; 15:3, 11; 19:5-6; 20:2-5; 22:19; 24:7-8; 34:14; Deuteronomy 26:5; 32:8-9; 33:2; Isaiah 27:1; Psalms 29; 48:3; 68:5; 82; 104:3.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Holy Bible, King James Version: 1 Kings 19:12 (\"a still small voice\").",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "classical",
+      "citation": "The Baal Cycle of Ugarit, written down by the scribe Ilimilku, student of Attenu the diviner, under King Niqmaddu of Ugarit (13th century BCE); excavated at Ras Shamra from 1929 under Claude Schaeffer.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Soleb temple topographical list of Amenhotep III, Nubia, c. 1400 BCE: the entry read as \"the land of the Shasu of Yhw\" — the earliest trace of the divine name.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "Egyptian frontier official's papyrus report, c. 1200 BCE, recording Shasu clans of Edom admitted through a border fortress to water their flocks.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Merneptah Stele, c. 1208 BCE, found by Flinders Petrie at Thebes in 1896: the earliest occurrence of the name Israel (\"its seed is no more\").",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Egyptian-Hittite peace treaty of 1259 BCE between Ramesses II and Hattusili III — the world's oldest surviving peace treaty preserved from both sides; a replica hangs at the United Nations.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Kuntillet Ajrud inscriptions, c. 800 BCE, excavated by Ze'ev Meshel (1975-76): blessings \"by Yahweh of Samaria and his asherah\" and \"by Yahweh of Teman and his asherah.\"",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Khirbet el-Qom tomb inscription (near Hebron, c. 8th century BCE): blessing of Uriyahu by Yahweh and \"his asherah.\"",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Mesha Stele (Moabite Stone), 9th century BCE, shown to a missionary at Dhiban in 1868: Mesha of Moab's account of Chemosh's anger, victory, and the herem ban.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "The Tel Dan Stele, found 1993: an Aramean king's boast over the king of Israel and the House of David (bytdwd) — the oldest extra-biblical trace of David's name.",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "document",
+      "citation": "A Qumran Hebrew manuscript of Deuteronomy preserving the reading \"sons of God\" at Deuteronomy 32:8, with the Septuagint's \"angels of God\" in agreement, against the Masoretic \"children of Israel.\"",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "study",
+      "citation": "George Mendenhall, identification of the parallels between the Sinai covenant and Hittite suzerainty treaty forms (1950s).",
+      "chapters": ["ch-08"]
+    },
+    {
+      "category": "study",
+      "citation": "Morton Smith, coinage of the term \"Yahweh-alone party\" for the exclusivist faction within pre-exilic Israelite religion.",
+      "chapters": ["ch-08"]
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "refs": [
+    {
+      "category": "scripture",
+      "citation": "The Holy Bible, King James Version (1611). Quoted: Romans 1:17 (epigraph); Romans 3:28; Romans 13:1; Ephesians 2:8-9; 1 Corinthians 11:24; Matthew 13:30; Matthew 22:21; Matthew 26:26.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Holy Scriptures According to the Masoretic Text, Jewish Publication Society translation (1917). Quoted: Exodus 22:17 (ch-20); Psalms 19:2 and 19:4 (ch-21, epigraph); Isaiah 21:11-12 (ch-22, epigraph).",
+      "chapters": ["ch-20", "ch-21", "ch-22"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Desiderius Erasmus, Greek New Testament — the base text from which Luther translated the German New Testament at the Wartburg.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Martin Luther (trans.), German New Testament (the 'September Testament,' Wittenberg, 1522) and complete German Bible (1534), including the disputed 'allein' ('by faith alone') at Romans.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "scripture",
+      "citation": "William Tyndale (trans.), English New Testament (1526, printed abroad and smuggled into England; corrected second edition funded in part by the bishop of London's own burning purchases).",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Geneva Bible (1560) — produced by English Protestant exiles in Geneva; the first English Bible with numbered verses; the Bible of Shakespeare and the Puritans.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Moses Mendelssohn (trans.), German translation of the Torah, printed in Hebrew characters for readers raised in Yiddish.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Joseph Smith (trans.), The Book of Mormon (Palmyra, New York, 1830).",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "classical",
+      "citation": "Euclid, Elements, Books I-VI, translated into Chinese by Matteo Ricci with Xu Guangqi.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "classical",
+      "citation": "Abraham ibn Ezra, biblical commentaries — the cautious riddles hinting that Moses could not have written all of the Pentateuch, developed by Spinoza in the Tractatus Theologico-Politicus.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "classical",
+      "citation": "Epicurus, the trilemma on divine power, benevolence, and evil ('if God is willing to prevent evil but not able...'), as pressed by Philo in Hume's Dialogues Concerning Natural Religion.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "classical",
+      "citation": "Havamal (Old Norse verse; quoted: 'Cattle die, kindred die').",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Martin Luther, Ninety-Five Theses on the Power and Efficacy of Indulgences (Wittenberg, October 31, 1517), with covering letter of protest to Albrecht, archbishop of Mainz; thesis 27 cited on the coin ringing in the chest.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Martin Luther, Sermon on Indulgence and Grace (early 1518) — plain-German pamphlet, more than twenty editions in three years.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Martin Luther, To the Christian Nobility of the German Nation (1520) — first run of four thousand sold out in days.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Martin Luther, Against the Robbing and Murdering Hordes of Peasants (1525).",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Martin Luther, open letter defending the translation 'the just shall live by faith allein (alone)' — 'Doctor Luther would be the judge of German.'",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Martin Luther, Table Talk — source of the 1505 lightning-storm vow to St. Anne, as told by Luther in later life.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Lucas Cranach the Elder, Passional Christi und Antichristi (1521) — paired woodcut panels contrasting Christ and the pope.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Pope Leo X, bull Exsurge Domine (June 1520), condemning forty-one of Luther's propositions and ordering his books burned; publicly burned by Luther at Wittenberg, December 1520.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Edict of Worms (1521), declaring Luther an outlaw whom anyone might kill.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Transcripts and earliest printed accounts of Luther's hearing before the Diet of Worms (April 1521) — the transcripts substantially preserve the 'conscience captive to the Word of God' speech; the printed accounts added 'Here I stand; I can do no other.'",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "The Twelve Articles of the Swabian peasants (1525) — scriptural manifesto of the Peasants' War, roughly twenty-five thousand copies in two months.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Published instructions of Albrecht of Mainz's St. Peter's indulgence campaign — the graduated tariff of grace (twenty-five gulden for kings and archbishops down to prayer and fasting for the poor), with the Fugger clerk's key to the chest.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Catalog of Frederick the Wise's relic collection at the Wittenberg castle church (1518) — more than seventeen thousand pieces, with stackable indulgences reckoned at over a million years off purgatory.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Henry VIII, Latin treatise against Luther (1521) — the work (written with help) for which the pope granted him the title Defender of the Faith.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Act of Supremacy (England, 1534), declaring the king supreme head of the church in England; with the statutes declaring England an empire with no appeals beyond the water.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "John Calvin, Institutes of the Christian Religion (first edition 1536; expanded through his lifetime).",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Registers of the Genevan Consistory (surviving records of the weekly morals court) and of the Company of Pastors (eighty-eight trained pastors smuggled into France, 1555-1562, by its own registers).",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Sebastian Castellio, published reply to the execution of Servetus — 'to kill a man is not to defend a doctrine; it is to kill a man.'",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "John Foxe, Acts and Monuments — the illustrated martyr-book chained in English parish churches; source (from eyewitnesses) for Cranmer's death at the stake and Tyndale's last prayer.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Edward Hall, Chronicle — account of the bishop of London's purchase of Tyndale Testaments to burn, the money funding the corrected second edition.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Thomas Cranmer, The Book of Common Prayer (under Edward VI) — the Latin rites distilled into English.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Ignatius of Loyola, Spiritual Exercises — a four-week directed program of imaginative composition and discernment, grown from his convalescent self-experiment at Loyola.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Decrees and canons of the Council of Trent (1545-1563), including the decree on justification (1547) with its anathema on 'faith alone,' the reaffirmation of the seven sacraments, and the seminary decree.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Matteo Ricci, great world map of 1602 (Beijing) — twelve feet of engraved panels with China placed near the center.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Matteo Ricci, treatise on the art of memory, written in Chinese for mandarin families — the mnemonics of the classical memory palace as a missionary instrument.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Jesuit missionary letters home from Japan, reporting in alarm that 'Luther's heresy' seemed to have arrived ahead of them — their account of disputations with Pure Land monks on salvation by sole trust in Amida's vow.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Heinrich Kramer (Dominican inquisitor), Malleus Maleficarum ('Hammer of Witches,' 1486) — some thirty printed editions; codified the witch as member of a diabolical counter-church.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Trial record of Johannes Junius, burgomaster of Bamberg (1628), and his smuggled letter to his daughter — 'Innocent have I come into prison, innocent have I been tortured, innocent must I die.'",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Letter of the Würzburg prince-bishop's chancellor to a friend (1629), recording in horror that clerics and councillors had gone to the stake and children of three and four were among the denounced.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "book",
+      "citation": "Friedrich Spee, Cautio Criminalis (published anonymously, 1631) — insider demolition of witch-trial torture as a machine for manufacturing witches.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "study",
+      "citation": "Alonso de Salazar Frias, audit of the great Basque witch panic for the Spanish Inquisition (begun 1610) — hundreds re-interviewed, sabbath stories cross-tested, not one verifiable event; 'neither witches nor bewitched in a village until people began talking and writing about them.'",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Peace of Augsburg (1555) — cuius regio, eius religio; toleration for governments, not people.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Edict of Nantes (1598) — Huguenot worship rights, civil equality, and over a hundred garrisoned towns at royal expense; revoked by Louis XIV in 1685.",
+      "chapters": ["ch-20", "ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Commemorative medal of Pope Gregory XIII, 'Ugonottorum strages' ('the slaughter of the Huguenots'), struck after the St. Bartholomew's Day massacre (1572), with the commissioned Vatican frescoes of the scene.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Edict of Restitution (1629) — imperial decree clawing back a century of secularized church lands during the Thirty Years' War.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Peace of Westphalia (October 1648) — three confessions legally equal, the 'normal year' of January 1, 1624, written rights of private worship, conscience, and emigration, and the clause voiding all protests against the treaty.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Bull of Pope Innocent X declaring the religious articles of the Peace of Westphalia null, void, and damnable for all time (1648) — filed and ignored by the signatory powers.",
+      "chapters": ["ch-20"]
+    },
+    {
+      "category": "document",
+      "citation": "Writ of ban (herem) against Baruch de Espinoza, record book of the Talmud Torah congregation, Amsterdam, July 27, 1656 — read in Portuguese; the harshest ban the community ever issued, never lifted.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Baruch Spinoza, Tractatus Theologico-Politicus (published anonymously under a false Hamburg imprint, 1670).",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Baruch Spinoza, Ethics (posthumous, 1677) — laid out in geometric order; 'Deus sive Natura.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Christiaan Huygens, letters to his brother praising Spinoza's lenses and referring to their maker as 'our Israelite.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Novalis, characterization of Spinoza as 'the God-intoxicated man.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Isaac Newton, Philosophiae Naturalis Principia Mathematica (1687; publication financed by Edmond Halley), with the General Scholium added 1713 — quoted: 'This most beautiful system... could only proceed from the counsel and dominion of an intelligent and powerful Being.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Isaac Newton, Opticks.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Isaac Newton, unpublished manuscripts on theology, biblical prophecy, church history, and alchemy — by most reckonings exceeding his writings on physics; catalogued at Cambridge in 1888, the theology returned to the family as 'of no scientific value.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "The Royal Society's lavish illustrated History of Fishes — the slow-selling folio that emptied the Society's book budget, obliging Halley to pay for the Principia and be part-salaried in unsold fish books.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "The Leibniz-Clarke correspondence (opened by Leibniz's letter of 1715) — quoted: 'God Almighty wants to wind up his watch from time to time: otherwise it would cease to move'; with Samuel Clarke's replies for Newton.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Pierre-Simon Laplace, Mecanique celeste (beginning 1799) — the self-correcting stability of the solar system; the 'no need of that hypothesis' reply to Napoleon reported only at second hand and flagged as legend.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "William Paley, Natural Theology (1802) — the watch found on the heath; read and loved by the young Darwin at Christ's College, Cambridge.",
+      "chapters": ["ch-21", "ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Joseph Wright of Derby, painting of a natural philosopher lecturing at an orrery (1766) — the lamp standing in for the sun, the listeners lit from the center.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "John Toland, Christianity Not Mysterious (1696) — ordered burned by the public hangman in Dublin.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Matthew Tindal, Christianity as Old as the Creation (1730) — 'the deists' Bible.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Pierre Bayle, book occasioned by the comet-panic of 1680 — the argument that a society of atheists could be perfectly virtuous.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Pierre Bayle, commentary on the Gospel parable of the banquet ('compel them to come in') — against Augustine's proof-text for forcing heretics into the church: violence cannot make belief.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Pierre Bayle, Historical and Critical Dictionary (1697) — the poison in the footnotes; Voltaire's quarry for fifty years.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "John Locke, A Letter Concerning Toleration (1689) — quoted: 'Promises, covenants, and oaths, which are the bonds of human society, can have no hold upon an atheist.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Colonial constitution of Carolina, drafted with Locke as secretary to the proprietors — religious toleration guaranteed in one clause, absolute power over enslaved people entrenched in another.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Moses Mendelssohn, Jerusalem (1783) — the state has no rights over conscience; Judaism as revealed legislation rather than revealed dogma.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Gotthold Ephraim Lessing, Nathan the Wise (1779) — the parable of the three rings; the sage modeled on Mendelssohn.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "David Hume, A Treatise of Human Nature (1739) — which 'fell dead-born from the press.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "David Hume, 'Of Miracles' (1748) — no testimony sufficient unless its falsehood would be more miraculous than the event it reports.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "David Hume, Dialogues Concerning Natural Religion (written decades earlier, circulated privately, published by his nephew in 1779).",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "David Hume, short autobiography ('my little autobiography') — source of the 'dead-born from the press' remark.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "James Boswell, record of his deathbed visit to Hume (1776) — the infidel unafraid, no more troubled by not existing after death than before birth.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Adam Smith, published letter on the death of David Hume — his friend approaching 'as near to the ideal of a perfectly wise and virtuous man as human frailty permits'; drew ten times more abuse than his attack on the commercial system.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Adam Smith, The Wealth of Nations — established clergy as salaried monopolists; the prediction that disestablished preachers would hustle.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Voltaire, poem on the Lisbon disaster (published within weeks of November 1, 1755) — the public cross-examination of philosophical optimism.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Jean-Jacques Rousseau, reply to Voltaire on the Lisbon poem — the evil of Lisbon was urban, not metaphysical; 'man blames God for what men built.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Voltaire, Candide (1759) — Pangloss and 'the best of all possible worlds'; 'we must cultivate our garden.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Voltaire, Treatise on Toleration — grown out of the Calas campaign of 1762-1765.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Voltaire, Philosophical Dictionary — a copy nailed to the pyre at the execution of the chevalier de La Barre, Abbeville, 1766.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Voltaire, verse of 1768 — 'If God did not exist, it would be necessary to invent him.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Gottfried Wilhelm Leibniz, doctrine that this world, being God's choice, is the best possible one — the optimism polished by Leibniz and cross-examined after Lisbon.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Alexander Pope, versification of philosophical optimism — 'whatever is, is right.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "John Wesley, pamphlet on the Lisbon earthquake (1755) — reading the disaster as a call to national repentance; sin, not strata, the underlying fault.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "The Marquis of Pombal's parish questionnaire on the Lisbon earthquake (returns still in the Lisbon archives) — the first systematic seismic survey in history; with the rebuilt Baixa and the gaiola anti-seismic cage.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Joseph II, Patent of Toleration (1781) — worship rights for Protestants and Orthodox, cautious civil relief for Jews.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Thomas Jefferson, Virginia Statute for Religious Freedom (drafted 1777, enacted 1786) — quoted: 'Almighty God hath created the mind free'; one of the three achievements on his tombstone.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "First Amendment to the United States Constitution (1791) — quoted: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Civil Constitution of the Clergy (France, 1790) — priests as salaried, elected state officials; the oath that split France.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "The French Republican calendar (1793) — twelve thirty-day months in seasonal triads, ten-day decades, a plant, animal, mineral, or tool for every day; abolished by Napoleon in 1806.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Decree of the National Convention establishing the Cult of the Supreme Being (spring 1794) — the French people 'recognize the existence of the Supreme Being and the immortality of the soul'; inaugural festival staged by Jacques-Louis David, June 8, 1794.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Concordat of 1801 between Napoleon and the Catholic Church — the church restored to France, salaried, supervised, and useful.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "The Journal of John Wesley — quoted for Aldersgate, May 24, 1738 ('I felt my heart strangely warmed') and Bristol, April 2, 1739 ('submitted to be more vile').",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "George Whitefield, Journals — the Kingswood colliers of 1739, tears cutting white gutters down coal-blackened cheeks.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Jonathan Edwards, A Faithful Narrative — his naturalist's documentation of the Northampton revival of 1734-35; founding text of the revival-narrative genre.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "Jonathan Edwards, sermon at Enfield, 1741 — the hearer suspended like a spider over a flame; the Awakening's most notorious sermon.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "study",
+      "citation": "Benjamin Franklin's acoustic measurement of George Whitefield's open-air preaching in Philadelphia — backing down Market Street to the limit of intelligibility and computing, at two square feet per auditor, that thirty thousand hearers was possible; recorded together with the emptying of his pockets into the collection plate.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "John Wesley, last letter, to William Wilberforce (dictated six days before his death, 1791) — against the slave trade, 'that execrable villainy, which is the scandal of religion, of England, and of human nature.'",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "study",
+      "citation": "Thomas Clarkson, prize-winning Latin essay on the lawfulness of enslaving the unconsenting (Cambridge, 1785), and his subsequent documentary investigation of the slave trade — some thirty-five thousand miles ridden, ships boarded and measured, instruments purchased and exhibited, thousands of sailors interviewed, muster rolls mined to prove the trade a graveyard for British seamen.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "The Brookes diagram — slave-ship deck plan with its human cargo drawn to scale, printed by the abolition committee and posted in taverns and parlors across Britain.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "William Carey, An Enquiry into the Obligation of Christians to Use Means for the Conversion of the Heathens (1792) — with statistical tables of the world's populations by continent and creed.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "document",
+      "citation": "William Carey, sermon at Nottingham (May 1792) — 'expect great things; attempt great things'; the appended 'from God' and 'for God' absent from the earliest records.",
+      "chapters": ["ch-21"]
+    },
+    {
+      "category": "book",
+      "citation": "Charles Darwin, On the Origin of Species by Means of Natural Selection (John Murray, 1859) — 1,250 copies oversubscribed at the trade sale of November 22; quoted: 'Light will be thrown on the origin of man and his history'; second edition carries the Kingsley passage.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Charles Darwin, letter to Joseph Hooker confiding the species theory — 'like confessing a murder.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Charles Darwin, autobiographical recollections — quoted: 'I did not at that time trouble myself about Paley's premises.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Charles Kingsley, letter to Darwin (November 1859) — a God 'who could make all things make themselves' as the nobler conception; printed, lightly disguised, in the second edition of the Origin as the words of 'a celebrated author and divine.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Thomas Robert Malthus, essay on population — the arithmetic of overproduction from which Darwin drew the struggle for existence.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Charles Lyell, geological works — the deep time opened 'like a trapdoor under the Victorian pulpit.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "John William Draper, History of the Conflict Between Religion and Science (1874) — the runaway bestseller that helped manufacture the 'warfare' thesis.",
+      "chapters": ["ch-21", "ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Andrew Dickson White, A History of the Warfare of Science with Theology in Christendom (2 vols., 1896).",
+      "chapters": ["ch-21", "ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "David Friedrich Strauss, Das Leben Jesu, kritisch bearbeitet (The Life of Jesus, Critically Examined, 1835); English translation by Marian Evans (George Eliot), 1846.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "study",
+      "citation": "Ferdinand Christian Baur (Tübingen), critical reading of the New Testament as a battlefield of rival early-church factions, with redating of its books.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Julius Wellhausen, crystallization of the documentary hypothesis (1878) — the Five Books of Moses braided from at least four sources composed centuries apart.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Ludwig Feuerbach, The Essence of Christianity (1841); English translation by Marian Evans (George Eliot), 1854 — theology as anthropology that has forgotten its own name.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Karl Marx, introduction to the unfinished critique of Hegel's philosophy of right (written Paris, winter 1843) — quoted at length: 'Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Friedrich Nietzsche, The Gay Science (1882), section 125 — the madman's lantern; 'God is dead. God remains dead. And we have killed him.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Richard Wagner, Gotterdammerung — premiered at Bayreuth, 1876; the century's own music for its twilight forecast.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "George Eliot, Middlemarch — the great English novel of ordinary moral seriousness, by the translator of Strauss and Feuerbach.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Memorial stone of David Livingstone, Westminster Abbey (buried April 1874) — inscribed 'brought by faithful hands over land and sea'; the hands were those of James Chuma and Abdullah Susi.",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "document",
+      "citation": "Swami Vivekananda, opening address to the World's Parliament of Religions, Chicago, September 11, 1893 — 'Sisters and Brothers of America.'",
+      "chapters": ["ch-22"]
+    },
+    {
+      "category": "book",
+      "citation": "Rutger Bregman, historical method of checking cynical legends against the archival record (the shipwrecked boys who did not turn savage, the islanders and their last tree) — invoked as the model for dismantling the 'warfare of science and religion' and 'twilight of the gods' stories.",
+      "chapters": ["ch-21", "ch-22"]
+    }
+  ]
+}

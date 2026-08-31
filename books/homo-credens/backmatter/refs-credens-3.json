@@ -1,0 +1,459 @@
+{
+  "refs": [
+    {
+      "category": "scripture",
+      "citation": "Confucius, The Analects, trans. James Legge (1893)",
+      "chapters": ["ch-09", "ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Katha Upanishad, trans. Max Müller (1884)",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Dhammapada, trans. F. Max Müller, Sacred Books of the East, vol. X (1881)",
+      "chapters": ["ch-09", "ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Tao Te Ching (Daodejing), trans. James Legge",
+      "chapters": ["ch-09", "ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Yasna (Zoroastrian liturgy), trans. Lawrence H. Mills",
+      "chapters": ["ch-09", "ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Isaiah (\"Second Isaiah\"), Jewish Publication Society (JPS) translation (1917)",
+      "chapters": ["ch-09", "ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Chandogya Upanishad, trans. Max Müller",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Brihadaranyaka Upanishad",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Acaranga Sutra (Jain scripture), trans. Hermann Jacobi",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Dhammacakkappavattana Sutta, trans. T. W. Rhys Davids",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Fire Sermon (Adittapariyaya Sutta), trans. Henry Clarke Warren (1896)",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Metta Sutta, trans. V. Fausböll",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of the Odes (Shijing) — referenced re: the ancestral \"personator\" rite",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Documents (Shujing) — cited by Mencius on the Mandate of Heaven",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Mozi (Mo Di), The Mozi",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Zhuangzi, Inner Chapters, trans. Herbert Giles",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Han Fei, writings of Han Fei (Han Feizi)",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Homeric Hymn to Demeter, trans. Hugh G. Evelyn-White",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Hesiod, Theogony",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Hesiod, Works and Days",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Homeric Hymn to Apollo",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Homeric Hymn to Dionysus (Homeric Hymn VII)",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Orphic Hymn to Death, trans. Thomas Taylor (1792)",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Homer, Iliad",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Homer, Odyssey",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Psalm 137, Jewish Publication Society (JPS) translation (1917)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Ezekiel",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Deuteronomy (incl. Deuteronomy 6:4, the Shema), Jewish Publication Society (JPS) translation (1917)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Leviticus (covenant curses, ch. 26)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Jeremiah",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Genesis (creation account, flood narrative, Tower of Babel)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Ezra",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Nehemiah",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Job",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Daniel",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Book of Ecclesiastes",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "1 and 2 Maccabees",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "scripture",
+      "citation": "1 Corinthians, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Gospel of Mark, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Gospel of Matthew, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Gospel of Luke, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Gospel of John, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Acts of the Apostles, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Paul, Epistle to the Romans, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Paul, Epistles to the Corinthians, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Paul, Epistle to Philemon, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Revelation of John, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Psalm 22, King James Version (KJV)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Didache (early Christian church manual)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "classical",
+      "citation": "Sima Qian, Records of the Grand Historian (Shiji)",
+      "chapters": ["ch-09", "ch-11"]
+    },
+    {
+      "category": "classical",
+      "citation": "Herodotus, Histories",
+      "chapters": ["ch-09", "ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plutarch, Life of Alexander / Moralia (on the Delphic oracle)",
+      "chapters": ["ch-10", "ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Arrian, Anabasis of Alexander",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "classical",
+      "citation": "Xenophanes of Colophon, surviving fragments",
+      "chapters": ["ch-09", "ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Heraclitus of Ephesus, surviving fragments",
+      "chapters": ["ch-09", "ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plato, Republic",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plato, Euthyphro",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plato, Timaeus",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plato, Apology",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Plato, Phaedo",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Euripides, Bacchae",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Aristotle, Metaphysics (on the unmoved mover)",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "classical",
+      "citation": "Tacitus, Annals",
+      "chapters": ["ch-13", "ch-14"]
+    },
+    {
+      "category": "classical",
+      "citation": "Josephus, Jewish Antiquities and The Jewish War",
+      "chapters": ["ch-13", "ch-14"]
+    },
+    {
+      "category": "classical",
+      "citation": "Cicero, Against Verres (on crucifixion as punishment)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "document",
+      "citation": "Cyrus Cylinder (Babylonian inscription, discovered 1879)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Babylonian Chronicle tablet recording the 597 BCE capture of Jerusalem (British Museum)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Jehoiachin ration tablets (Babylon)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Lachish letters (ostraca)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Āl-Yāhūdu archive (cuneiform tablets of Judean exile community)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Letter of Aristeas (legend of the Septuagint's translation)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Ashoka's Rock and Pillar Edicts (Prakrit inscriptions)",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "document",
+      "citation": "Pilate dedication stone, Caesarea (discovered 1961)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "document",
+      "citation": "Guodian bamboo-strip manuscripts of the Daodejing (tomb sealed c. 300 BCE, excavated 1993)",
+      "chapters": ["ch-11"]
+    },
+    {
+      "category": "document",
+      "citation": "Dead Sea Scrolls (Qumran library), including the War Scroll",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "document",
+      "citation": "Ossuary inscription and remains of Yehohanan, son of Hagkol (Giv'at ha-Mivtar, excavated 1968)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "document",
+      "citation": "Alexamenos graffito, Palatine Hill, Rome",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "study",
+      "citation": "Karl Jaspers, The Origin and Goal of History (1949) — originator of the \"Axial Age\" concept",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "Robert Bellah, Religion in Human Evolution (2011)",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "Jan Assmann, critique of the Axial Age thesis (Egyptological argument)",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "David Graeber, Debt: The First 5,000 Years — \"military-coinage-slavery complex\"",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "Ara Norenzayan, research on \"Big Gods\" and moralizing supernatural surveillance",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "Nicolas Baumard, affluence hypothesis for the Axial Age (asceticism as a product of surplus energy capture)",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "S. N. Eisenstadt, comparative sociology of the Axial Age",
+      "chapters": ["ch-09"]
+    },
+    {
+      "category": "study",
+      "citation": "James Prinsep, decipherment of the Brahmi script (1837)",
+      "chapters": ["ch-10"]
+    },
+    {
+      "category": "study",
+      "citation": "Modern geological/archaeological survey of faults and gas emissions beneath the Delphi adyton (turn of the 21st century)",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "study",
+      "citation": "Milman Parry / Albert Lord (and successors), oral-formulaic theory of Homeric composition, informed by fieldwork on Balkan oral bards",
+      "chapters": ["ch-12"]
+    },
+    {
+      "category": "study",
+      "citation": "George Smith, decipherment of the Babylonian flood tablet at the British Museum (1872)",
+      "chapters": ["ch-13"]
+    },
+    {
+      "category": "study",
+      "citation": "Rodney Stark, quantitative model of early Christian growth rates (compounding conversion analysis, comparison to Mormon growth)",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "study",
+      "citation": "Albert Schweitzer, The Quest of the Historical Jesus (1906) — argument for Jesus as apocalyptic prophet",
+      "chapters": ["ch-14"]
+    },
+    {
+      "category": "book",
+      "citation": "Merlin Donald, concept of \"theoretic culture\" (cited via Bellah)",
+      "chapters": ["ch-09"]
+    }
+  ]
+}

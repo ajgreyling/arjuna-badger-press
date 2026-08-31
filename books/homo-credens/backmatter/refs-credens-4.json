@@ -1,0 +1,579 @@
+{
+  "refs": [
+    {
+      "category": "scripture",
+      "citation": "The Holy Bible, King James Version (1611). Passages quoted: John 18:36; Luke 4:5-6; John 1:14; Romans 13:13-14; Psalms 87:3; Luke 14:23; Matthew 19:21; Revelation 11:15; John 17:21; John 15:26; Matthew 16:18; 1 Corinthians 1:13; Revelation 21:23; John 20:29; Luke 22:38; 1 Corinthians 13:12; Psalm 91:6; Matthew 27:25; Revelation 6:8; Matthew 21:13.",
+      "chapters": ["ch-15", "ch-17"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Holy Qur'an, translated by Abdullah Yusuf Ali (1934-1937). Passages quoted: 96:1-5; 93:6-8; 112:1-4; 17:1; 3:103; 49:13; 2:143; 9:60; 2:183; 2:256; 33:40; 24:35.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Dhammapada, translated by F. Max Müller, Sacred Books of the East, vol. X (1881). Verses quoted: Dhammapada 103 (\"If one man conquer in battle...\") and the verse \"You yourself must make an effort. The Tathagatas (Buddhas) are only preachers.\"",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Metta Sutta (Sutta Nipata), quoted: \"As a mother at the risk of her life watches over her own child, her only child, so also let every one cultivate a boundless (friendly) mind towards all beings.\"",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Heart Sutra (Prajnaparamita-hrdaya), 260-character Chinese version; quoted: \"Form is not different from emptiness...\" and the closing mantra \"Gate gate paragate parasamgate bodhi svaha.\"",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Lotus Sutra, Chinese translation by Kumarajiva (early 5th century CE).",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Diamond Sutra, Chinese translation by Kumarajiva (early 5th century CE).",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Vimalakirti Sutra, Chinese translation by Kumarajiva (early 5th century CE).",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Bhagavad Gita. Verses quoted: 9:26 (\"Whoever offers Me with devotion a leaf, a flower, a fruit, or a little water...\") and 9:32 (\"For, taking refuge in Me, they who... may be of a sinful birth—women, Vaisyas, and Sudras—attain the Supreme Goal\").",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Platform Sutra of the Sixth Patriarch (Chan/Zen scripture recounting Huineng's succession; treated by scholars as sectarian campaign literature).",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Sikh scripture in the translation of M. A. Macauliffe, The Sikh Religion (1909). Passages quoted: Japji Sahib, Mul Mantar (\"There is but one God whose name is true...\") and Sohila 3 (\"The sun and moon, O Lord, are Thy lamps...\").",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Popol Vuh (Book of the Council of the K'iche' Maya), in the rendering of Lewis Spence, The Popol Vuh: The Mythic and Heroic Sagas of the Kichés of Central America (1908); written down in the Latin alphabet by anonymous K'iche' nobles, highland Guatemala, 1550s. Quoted: the Hurakan creation passage and the grinding stones' speech.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "scripture",
+      "citation": "Sacred Nahuatl hymns of the Mexica, in the translation of Daniel G. Brinton, Rig Veda Americanus: Sacred Songs of the Ancient Mexicans (1890). Quoted: hymn of Huitzilopochtli (\"Huitzilopochtli is first in rank...\") and hymn of Tlaloc (\"I, the god, have returned again...\").",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "classical",
+      "citation": "Pliny the Younger, Letters 10.96-97 (c. 112 CE): exchange with the emperor Trajan on the trial of Christians in Bithynia, with Trajan's rescript (\"do not seek them out\").",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Lactantius, On the Deaths of the Persecutors (early 4th century CE): the Great Persecution, Galerius's disease, and Constantine's dream of the heavenly sign before the Milvian Bridge.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Eusebius of Caesarea, Life of Constantine (after 337 CE): the cross-of-light vision seen by the army, sworn to by the emperor.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Tertullian, Apologeticus (c. 197 CE): the boast that the blood of Christians is seed.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Arius, Thalia (early 4th century CE): the Arian teaching in verse, reportedly set to popular tunes.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Rufinus of Aquileia, Church History (early 5th century CE): eyewitness-era account of the destruction of the Serapeum at Alexandria, 391.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Symmachus, Relatio 3 (384 CE): the petition for the return of the Altar of Victory, with the sentence that \"it cannot be by one road alone that men arrive at so great a secret.\"",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ambrose of Milan, letters to the emperor Theodosius (388-390 CE): the Callinicum synagogue affair and the demand for public penance after the Thessalonica massacre.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Socrates Scholasticus, Ecclesiastical History (5th century CE): the murder of Hypatia recorded as a disgrace to the faith.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Jerome, letters and prefaces on the sack of Rome (410 CE): \"the city that had taken the whole world captive had itself been taken.\"",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Augustine of Hippo, Confessions (c. 397-400 CE): the Milan garden conversion scene (\"take up and read\") and the account of hearing about Antony's Life.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Augustine of Hippo, The City of God (413-426 CE): the two cities built by two loves, written in answer to the pagan accusation after the sack of Rome.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Athanasius of Alexandria, Life of Antony (c. 360 CE): the desert father's biography, promptly translated into Latin, the ancient world's runaway bestseller.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Sayings of the Desert Fathers (Apophthegmata Patrum), including sayings of the desert mothers Syncletica, Sarah, and Theodora; quoted: \"stay in your cell, and the cell will teach you everything.\"",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Benedict of Nursia, Rule of St. Benedict (c. 530s CE, Monte Cassino): the \"little rule for beginners\" prescribing the horarium, lectio divina, and the Lenten distribution of books; \"idleness is the enemy of the soul.\"",
+      "chapters": ["ch-15", "ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Cassiodorus, Institutiones (6th century CE, Vivarium): the copyist preaches with the hand and fights the devil with pen and ink.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "classical",
+      "citation": "Sahih al-Bukhari (9th century CE): hadith collection preserving the tradition of the first revelation in the cave on Mount Hira; traditionally said to have been sifted from some 600,000 reports down to roughly 7,000.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "al-Ghazali, The Incoherence of the Philosophers (Tahafut al-Falasifa, 11th century CE).",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ibn Rushd (Averroes), The Incoherence of the Incoherence (Tahafut al-Tahafut, 12th century CE).",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ibn Rushd (Averroes), commentaries on Aristotle (12th century CE, Cordoba): translated from Arabic to Latin in Spain; medieval Latin writers called him simply \"the Commentator.\"",
+      "chapters": ["ch-16", "ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "al-Khwarizmi, treatise on al-jabr (the Compendious Book on Calculation by Completion and Balancing, 9th century CE), source of the word \"algebra,\" and his primer on the Indian numerals, source via his Latinized name of the word \"algorithm.\"",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ibn al-Haytham, Book of Optics (Kitab al-Manazir, c. 1000 CE, Cairo): experimental demonstration that the eye receives light rather than emitting rays.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "al-Razi, treatise distinguishing smallpox from measles (9th-10th century CE, Baghdad): the first clear differential diagnosis of the two diseases.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ibn Sina (Avicenna), The Canon of Medicine (11th century CE): systematization of Greek and Arabic medicine, taught in European faculties into the seventeenth century.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "classical",
+      "citation": "Pseudo-Dionysius the Areopagite, corpus of mystical theology (Syrian, c. 500 CE; medieval attribution to St. Denis of Paris): the light-mysticism drawn on by Abbot Suger for the rebuilt choir of Saint-Denis.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Guibert of Nogent, On the Relics of Saints (De pignoribus sanctorum, early 12th century CE): the observation that two churches claimed the head of John the Baptist.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Bernard of Clairvaux, Apologia (12th century CE): the mockery of carved monsters in Cluniac cloisters as expensive distractions from prayer.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Bernard of Clairvaux, In Praise of the New Knighthood (De laude novae militiae, 12th century CE): apologia for the Templars, arguing that killing evildoers in defense of Christendom was the destruction of evil, not homicide.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Raymond of Aguilers, chronicle of the First Crusade (late 11th century CE): the boast of the Jerusalem massacre of 1099 in Apocalypse imagery of blood to the horses' bridles.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Niketas Choniates, History (early 13th century CE): eyewitness account of the sack of Constantinople, 1204 — altars broken for metal, mules slipping in blood in Hagia Sophia, a prostitute enthroned in the patriarch's seat.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Peter Abelard, Sic et Non (early 12th century CE): over one hundred fifty theological questions with the church fathers lined up in contradiction, on the principle that doubt leads to inquiry and inquiry to truth.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Thomas Aquinas, Summa Theologiae (13th century CE): the scholastic machine run over the whole of Christian doctrine and Aristotelian science, including the five ways to demonstrate God's existence.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Aristotle, corpus of logic, physics, biology, metaphysics, and ethics: transmitted through Arabic, translated into Latin in the twelfth century, banned at Paris in 1210 and 1215, and made required reading there by 1255.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Ptolemy, Almagest: the book Gerard of Cremona reportedly came to Toledo to find, staying a lifetime to translate seventy more.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Guy de Chauliac, surgical writings on the Black Death (mid-14th century CE, Avignon): clinical account of the plague's symptoms and his own infection and survival, noting he continued visiting the sick \"only to avoid dishonor.\"",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Gabriele de' Mussi, plague chronicle (14th century CE): the claim that the Mongol army besieging Kaffa catapulted its plague dead over the walls.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Petrarch, writings against the Avignon papacy (14th century CE): the label \"the Babylon of the West.\"",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Catherine of Siena, letters to popes and princes (14th century CE): dictated exhortations urging Gregory XI to return the papacy to Rome.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Dante Alighieri, Inferno (early 14th century CE): the crowd-control arrangements on the bridge of Castel Sant'Angelo during the 1300 jubilee.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Geoffrey Chaucer, The Canterbury Tales (1390s): the Pardoner, with his wallet of pardons hot from Rome, his pillowcase passed off as Our Lady's veil, and pig's bones as relics.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Julian of Norwich, Revelations of Divine Love (visions received May 1373; the first book in English attributable to a woman). Quoted: \"All shall be well, and all shall be well, and all manner of thing shall be well.\"",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "classical",
+      "citation": "Han Yu, Memorial on the Bone of the Buddha (819 CE): protest to the Tang throne that the Buddha was a barbarian who did not speak Chinese and the venerated relic a decayed bone; its author was exiled.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "classical",
+      "citation": "Huahujing (Scripture of the Conversion of the Barbarians): Daoist polemical scripture claiming Laozi went west and became the Buddha.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "classical",
+      "citation": "Xuanzang, travel account of his journey to India (645 CE; the Record of the Western Regions): source for Nalanda's ten thousand students and, a millennium later, raw material for the novel Journey to the West.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "classical",
+      "citation": "Yijing, account of his voyage to India via Srivijaya (671 CE): report of a thousand monks in residence at the Srivijayan capital and the recommendation that Chinese pilgrims stop there for language study.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "classical",
+      "citation": "Tannisho (record of Shinran's sayings by his student, 13th century CE, Japan): \"if even the good are saved, how much more the wicked.\"",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "classical",
+      "citation": "Dharmasvamin, pilgrimage account of Nalanda (1235 CE): a ninety-year-old teacher instructing seventy students amid the ruins.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "book",
+      "citation": "Edward Gibbon, The History of the Decline and Fall of the Roman Empire (1776-1789): the fantasy that, had Tours gone otherwise, the Qur'an would be taught at Oxford.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "book",
+      "citation": "Marco Polo, The Travels (c. 1300): the moralized version of the caliph al-Musta'sim's death, locked in his treasure tower to starve among the gold.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "book",
+      "citation": "Journey to the West (Xiyouji, 16th-century Chinese novel): the fictional rebirth of Xuanzang's pilgrimage, with the historical pilgrim upstaged by a monkey with a magic staff.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "book",
+      "citation": "Ars moriendi (\"The Art of Dying,\" 15th century): deathbed manual in long and short versions, the short with eleven woodcuts printed as block books; the five temptations of the dying staged as an examination with known questions.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "study",
+      "citation": "Richard Bulliet, quantitative study of conversion to Islam via conversion-signaling names in Iranian biographical dictionaries (Conversion to Islam in the Medieval Period, 1979): Iran not majority-Muslim until perhaps the ninth or tenth century.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "study",
+      "citation": "Jacques Le Goff, historical study locating the full crystallization of the doctrine of purgatory in the twelfth century (The Birth of Purgatory, 1981).",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "study",
+      "citation": "Lorenzo Valla, philological demonstration that the Donation of Constantine is an eighth-century forgery (15th century).",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "study",
+      "citation": "Radiocarbon dating of early Qur'an parchment fragments, including the Birmingham folios, placing the material within or near Muhammad's lifetime (with the caveat that the test dates the sheepskin, not the ink).",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "study",
+      "citation": "Baldwin Spencer and F. J. Gillen, ethnographic gloss of the Arrernte term alcheringa as \"dream times\" (1899), origin of the English term \"the Dreaming\" (later refined by scholarship as \"the Everywhen\").",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "study",
+      "citation": "Patrick Nunn and Nicholas Reid, comparative study of twenty-one Australian Aboriginal coastal traditions against post-glacial sea-level curves (2016), arguing the stories preserve real coastlines drowned seven thousand or more years ago.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "study",
+      "citation": "Archaeological recovery of three Inca capacocha children on the summit of Llullaillaco (1999), with subsequent hair-chemistry analyses showing the Maiden's rising intake of maize beer and coca in her final year.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "study",
+      "citation": "Excavation of the Huei Tzompantli, the great Mexica skull rack beside the Templo Mayor, located beneath a colonial-era building in Mexico City in 2015; skulls of more than six hundred men, women, and children recovered, many mortared into towers.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "The Passion of Perpetua and Felicity (203 CE, Carthage): Vibia Perpetua's prison diary — the earliest first-person text by a Christian woman — with the account of her death finished by another hand.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Libelli of the Decian persecution (250 CE): more than forty surviving papyrus certificates of sacrifice from Egypt, countersigned and dated by local commissioners.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Edict of toleration of the emperor Galerius (311 CE): grudging concession ending the Great Persecution, closing with a request that Christians pray for the emperor's health.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "The so-called Edict of Milan (313 CE): the toleration policy agreed by Constantine and Licinius — technically neither an edict nor issued at Milan, but a circular letter sent from Nicomedia.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Letter of the bishop of Rome (c. 250 CE) recording that the Roman church supported over fifteen hundred widows and distressed persons on its rolls.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Constantine's letter to the disputants in the Arian controversy (surviving; early 320s CE): the question deemed trifling and unworthy of such contention.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "The Nicene Creed (Council of Nicaea, 325 CE, with anathemas and twenty administrative canons; expanded at the Council of Constantinople, 381 CE): \"begotten, not made... of one substance [homoousios] with the Father\"; the version of 381 still recited, and unilaterally altered in the West by the filioque interpolation.",
+      "chapters": ["ch-15", "ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Julian the Apostate, letter to a pagan high priest (c. 362 CE): the complaint that \"the impious Galileans support not only their own poor but ours as well,\" with orders to establish hostels and food distributions.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Edict of Thessalonica of Theodosius I (Cunctos populos, February 380 CE): all peoples to practice the religion Peter delivered to the Romans; dissenters branded demented and insane, bearing the infamy of heretics.",
+      "chapters": ["ch-15"]
+    },
+    {
+      "category": "document",
+      "citation": "Bull of excommunication laid on the altar of Hagia Sophia by Cardinal Humbert of Silva Candida (July 16, 1054): damning Patriarch Michael Cerularius, including the mistaken charge that the Greeks had deleted the filioque from the creed.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The Donation of Constantine (eighth-century forgery): the document by which Constantine supposedly granted the popes imperial rank, cited in Leo IX's correspondence with the patriarch; proved forged by Lorenzo Valla in the fifteenth century.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Foundation charter of the abbey of Cluny (910 CE, Burgundy): freeing the house from every authority except Rome itself.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Codex Amiatinus (c. 700 CE, Wearmouth-Jarrow, Northumbria): seventy-five-pound single-volume Bible estimated to have required the skins of some five hundred calves.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Codex Calixtinus (12th century CE): compilation including a pilgrim's guidebook to the road to Santiago de Compostela — route stages, safe rivers, murderous ferrymen, kindly locals.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The Conques community's own account of the theft of the relics of St. Foy from Agen (Translatio, 9th-11th century CE): holy theft (furta sacra) presented as pious enterprise.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Hebrew chronicles of the Rhineland massacres of 1096: the martyrdoms at Speyer, Worms, and Mainz recorded as the Sanctification of the Name.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The five surviving versions of Pope Urban II's Clermont sermon (preached November 27, 1095; all written down years later): agreeing on the gist, diverging on nearly everything else; source of the cry Deus le volt.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Letter of Pope Innocent III on the sack of Constantinople (1204): anguish that the crusaders had drawn their swords against the very people they had vowed to aid.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Boniface VIII, bull Unam Sanctam (1302): the claim that both swords, spiritual and temporal, belong ultimately to the church.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Clement VI, bull Unigenitus (1343): formalization of the treasury of merit from which indulgences are drawn.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Bulls of Clement VI protecting the Jews (1348): pointing out that Jews were dying of the plague like everyone else, ordering clergy to protect them, and offering refuge in Avignon's territories.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The Chillon well-poisoning confessions (autumn 1348): extracted under torture and circulated as evidence between city councils in the lead-up to the plague-era massacres of Jews.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The Heavenly Letter carried by the flagellant brotherhoods (1348-49): allegedly fallen from the sky, announcing God's wrath and the flagellants' commission.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Report of the medical faculty of Paris on the plague (1348, commissioned by the king): the conjunction of Saturn, Jupiter, and Mars in Aquarius on March 20, 1345, as corrupter of the air.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Council of Constance, decree Haec Sancta (1415): a general council holds its power directly from Christ, and even a pope owes it obedience.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Gutenberg indulgence certificates (Mainz, 1454): standardized printed forms with blanks for the buyer's name and date, run off by the thousand for a fund-raising campaign against the Turks — among the very first dated products of the press.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "Statutes of the University of Bologna (medieval): the students' guild fining professors for starting late, running long, or skipping difficult chapters, and requiring a deposit before leaving town.",
+      "chapters": ["ch-17"]
+    },
+    {
+      "category": "document",
+      "citation": "The Constitution of Medina (early 7th century CE, preserved in early sources; considered genuinely archaic by scholars): the believers and their allies declared a single umma, distinct from all other people.",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "document",
+      "citation": "Early Qur'an manuscripts: the Sanaa palimpsests and the Birmingham folios (parchment radiocarbon-dated to Muhammad's era or just after); witnesses to the early date of the Uthmanic recension (c. 650 CE).",
+      "chapters": ["ch-16"]
+    },
+    {
+      "category": "document",
+      "citation": "The rock edicts of Ashoka (3rd century BCE): boasting of envoys of dharma dispatched to the Greek kings of the west, and declaring the truest conquest to be conquest by dharma.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Printed Diamond Sutra scroll from the Dunhuang library cave, dated equivalent to May 11, 868 CE, with colophon of Wang Jie commissioning it for universal free distribution to earn merit for his parents: the oldest dated printed book on earth.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Mahavyutpatti (early 9th century CE, Tibet): imperial state glossary fixing official Tibetan equivalents for thousands of Sanskrit technical terms — translation policy by decree.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Japanese court chronicle recording the arrival of Buddhism from Korea (dated 552 or 538 CE; the sources disagree, both written long after): a gilt-bronze Buddha and a letter praising the dharma as excellent beyond measure.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Persian chronicle of the Turkic sack of a fortified monastery in Bihar (c. 1200 CE): horsemen slaughtering shaven-headed \"idolaters\" and discovering too late that the place was a college.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Dunhuang documents on the Samye debate (c. 792-794 CE): telling the story of the Indian-versus-Chan contest differently from the Tibetan sources.",
+      "chapters": ["ch-18"]
+    },
+    {
+      "category": "document",
+      "citation": "Lintel 24 of Structure 23, Yaxchilan (dated 5 Eb 15 Mak, October 709 CE; now in the British Museum), with its companion lintel: relief carvings of Lady K'ab'al Xook's tongue bloodletting and the vision serpent.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "The Dresden Codex (one of only four surviving Maya books): Venus table tracking the 584-day cycle with built-in corrections, and eclipse danger-window tables keyed to the sacred round.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "Diego de Landa, account of Maya calendar, ritual, and writing (Relación de las cosas de Yucatán, 1560s): written after his 1562 auto-da-fé at Maní that burned twenty-seven hieroglyphic books; the destroyer's account became the key to the script he burned.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "Nahua accounts compiled by fray Bernardino de Sahagún and his circle (16th century CE): descriptions of the smallpox epidemic in Tenochtitlan, the post-conquest omen lists, and Sahagún's written complaint that pilgrims to Tepeyac called the Virgin Tonantzin.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "Record of the 1524 disputations between the twelve Franciscans and surviving Nahua priests (compiled by Sahagún's circle): \"you say our gods are false, but they have fed us maize since the beginning... if our gods are dead, let us die too.\"",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "Papal ruling of 1537 (Sublimis Deus): declaring the peoples of the Americas truly human, rational, and capable of faith.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "The books of Chilam Balam (colonial Yucatan): Maya scribal compilations braiding katun-cycle prophecy with Christian saints into a single continuing count of days.",
+      "chapters": ["ch-19"]
+    },
+    {
+      "category": "document",
+      "citation": "Pedro Pizarro, eyewitness relación of Peru (16th century CE): the dead Inca emperors attending banquets seated beside the living, toasted with maize beer.",
+      "chapters": ["ch-19"]
+    }
+  ]
+}

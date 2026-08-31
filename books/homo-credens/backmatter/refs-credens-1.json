@@ -1,0 +1,354 @@
+{
+  "refs": [
+    {
+      "category": "scripture",
+      "citation": "Ecclesiastes 3:11, in The Holy Scriptures According to the Masoretic Text (Philadelphia: Jewish Publication Society, 1917). Chapter 1 epigraph.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "scripture",
+      "citation": "The Holy Bible, King James Version (1611) — Genesis 3:19 (chapter 3 epigraph) and Leviticus 23:10, on the sheaf of the first-fruits.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "classical",
+      "citation": "Hávamál, stanzas 76–77, in the Poetic (Elder) Edda, trans. Benjamin Thorpe, The Edda of Saemund the Learned (London, 1866). Chapter 2 epigraph; 'fame' and 'judgment on each one dead.'",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "book",
+      "citation": "Tylor, Edward Burnett. Primitive Culture (London: John Murray, 1871) — the minimum definition of religion as 'the belief in spiritual beings.'",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Durkheim, Émile. Les formes élémentaires de la vie religieuse (1912); Eng. The Elementary Forms of the Religious Life — the sacred/profane division, the moral community or 'church,' and collective effervescence.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Geertz, Clifford. 'Religion as a Cultural System' (1966), repr. in The Interpretation of Cultures (New York: Basic Books, 1973) — the paragraph-length definition of religion.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Wittgenstein, Ludwig. Philosophical Investigations (Oxford: Blackwell, 1953) — the notion of 'family resemblance.'",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Barrett, Justin L. Why Would Anyone Believe in God? (Walnut Creek: AltaMira, 2004) — the Hyperactive Agency Detection Device (HADD).",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Guthrie, Stewart Elliott. Faces in the Clouds: A New Theory of Religion (New York: Oxford University Press, 1993) — religion as systematic over-detection of agency.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Heider, Fritz, and Marianne Simmel. 'An Experimental Study of Apparent Behavior,' American Journal of Psychology 57 (1944) — viewers spontaneously narrate moving geometric shapes as chasing, bullying, and escaping agents.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Dennett, Daniel C. Breaking the Spell: Religion as a Natural Phenomenon (New York: Viking, 2006).",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Boyer, Pascal. Religion Explained: The Evolutionary Origins of Religious Thought (New York: Basic Books, 2001) — minimally counterintuitive concepts as the most transmissible.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Atran, Scott. In Gods We Trust: The Evolutionary Landscape of Religion (New York: Oxford University Press, 2002).",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Rappaport, Roy A. Ritual and Religion in the Making of Humanity (Cambridge: Cambridge University Press, 1999) — ritual before belief; ritual as a costly, hard-to-fake signal.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Irons, William. 'Religion as a Hard-to-Fake Sign of Commitment' (2001), and Iannaccone, Laurence R. 'Sacrifice and Stigma: Reducing Free-Riding in Cults, Communes, and Other Collectives,' Journal of Political Economy 100 (1992) — costly signaling extended to religious communities.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Goodall, Jane. Observations of chimpanzee 'rain dance' displays at Gombe, Tanzania (reported in In the Shadow of Man, 1971, and later writings).",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Kühl, Hjalmar S., et al. 'Chimpanzee accumulative stone throwing,' Scientific Reports 6 (2016) — repeated stone-hurling and cairn-building at hollow trees in West Africa.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Harari, Yuval Noah. Sapiens: A Brief History of Humankind (Hebrew 2011; Eng. London: Harvill Secker, 2014) — large-scale cooperation through shared fictions and imagined orders.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "book",
+      "citation": "Norenzayan, Ara. Big Gods: How Religion Transformed Cooperation and Conflict (Princeton: Princeton University Press, 2013) — 'Watched people are nice people'; the scaling of moralizing high gods with society size.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Solecki, Ralph S. Excavations at Shanidar Cave, Iraqi Kurdistan (1951–1960); Shanidar: The First Flower People (New York: Knopf, 1971) — the Shanidar 4 'flower burial' pollen and the cared-for Shanidar 1 skeleton; the pollen since contested as the work of burrowing rodents.",
+      "chapters": ["ch-01", "ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Pomeroy, Emma, et al. 'New Neanderthal remains associated with the \"flower burial\" at Shanidar Cave,' Antiquity 94 (2020) — the individual designated Shanidar Z and repeated deposition of bodies at the same spot.",
+      "chapters": ["ch-01", "ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Jaubert, Jacques, et al. 'Early Neanderthal constructions deep in Bruniquel Cave in southwestern France,' Nature 534 (2016) — the stalagmite rings dated to c. 176,500 years ago.",
+      "chapters": ["ch-01"]
+    },
+    {
+      "category": "study",
+      "citation": "Sungir (Sunghir), Vladimir, Russia — excavations by Otto N. Bader from 1955; the double child burial (Sungir 2 and 3) opened in 1969, with c. 10,000 mammoth-ivory beads, fox-canine ornaments, ivory lances and an ochre-filled human femur; the adult burial Sungir 1; later aDNA indicating both children were male.",
+      "chapters": ["ch-01", "ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Experimental replication of Sungir-type mammoth-ivory beads with flint and sandstone tools, indicating roughly one hour of work per bead.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Martinón-Torres, María, et al. 'Earliest known human burial in Africa,' Nature 593 (2021) — the child 'Mtoto' buried c. 78,000 years ago at Panga ya Saidi, Kenya, head apparently supported by a perished cushion.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Qafzeh Cave burials, Israel, c. 100,000–92,000 BP — excavations by Bernard Vandermeersch and colleagues; ochred burials including an adolescent laid with deer antlers and a woman with a small child.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Skhul Cave, Mount Carmel — excavations by Dorothy Garrod and Theodore McCown (1930s); the Skhul V burial holding the mandible of a large boar.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Border Cave, South Africa — infant burial c. 74,000 BP with a pigment-stained perforated marine shell; excavations by Peter Beaumont and colleagues.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Lion Cavern, Ngwenya, Eswatini — hematite (red ochre) mining from more than 40,000 years ago, among the oldest known mines on Earth.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Dolní Věstonice II triple burial (DV 13, 14, 15), Moravia, c. 31,000 BP — excavated 1986 by Bohuslav Klíma; ochred skulls, one individual with congenital deformities, later aDNA suggesting all three were male.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Arene Candide, Liguria — the 'Il Principe' adolescent burial, c. 23,500 BP, excavated by Luigi Cardini (1942): ochre bed, cap of perforated shells and deer canines, elk-antler batons, a long exotic flint blade, and ochre packed into the jaw wound.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Dolní Věstonice burial DV 3 (excavated 1949) — an older woman with facial asymmetry laid under two mammoth scapulae with arctic fox bones, and the carved ivory head from the same settlement whose left side droops.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Brno II burial, Moravia, c. 26,000 BP — a chronically ill man buried with rhinoceros rib, mammoth tusk, hundreds of fossil shells, drilled discs, and a jointed ivory male figurine.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Lascaux Cave, Dordogne — discovered September 1940 by Marcel Ravidat and companions; c. 17,000 BP; c. 600 painted animals, the carved red sandstone tallow lamp and the bird-headed man of the Shaft; scaffolding sockets in the gallery walls.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Chauvet-Pont-d'Arc Cave, Ardèche — discovered 1994 by Jean-Marie Chauvet, Éliette Brunel and Christian Hillaire; charcoal dates clustering c. 36,000–33,000 BP; lions, rhinoceroses, cave bears and mammoths.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Le Tuc d'Audoubert, Ariège — the clay bison and heel-prints found in 1912 by the Bégouën brothers, some 600 metres from daylight.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Gargas Cave, Hautes-Pyrénées — hand stencils showing missing or folded finger segments.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Breuil, Henri — the drawing of 'The Sorcerer,' the therianthropic figure engraved and painted at Les Trois-Frères, Ariège; photographs of the wall show considerably less than Breuil's published rendering.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Ju/'hoansi (!Kung) San healing dance of the Kalahari — twentieth-century ethnographic accounts of n/um and !kia trance healing (e.g. Richard Katz, Boiling Energy, 1982; Lorna Marshall, The !Kung of Nyae Nyae, 1976), and the associated southern African rock art of bent, nose-bleeding dancers and part-human, part-antelope beings.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "book",
+      "citation": "Lewis-Williams, J. David (with Thomas A. Dowson). 'The Signs of All Times: Entoptic Phenomena in Upper Palaeolithic Art,' Current Anthropology 29 (1988); and Lewis-Williams, The Mind in the Cave (London: Thames & Hudson, 2002) — the three-stage neuropsychological model of trance imagery.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "The Lion Man (Löwenmensch) of Hohlenstein-Stadel, Swabian Jura — mammoth-ivory figure c. 40,000 BP, fragments excavated August 1939 (Robert Wetzel), first reassembled from 1969 (Joachim Hahn), completed after re-excavation of the backfill in the 2010s; experimental replication with flint tools required roughly 400 hours.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Conard, Nicholas J., Maria Malina and Susanne C. Münzel. 'New flutes document the earliest musical tradition in southwestern Germany,' Nature 460 (2009) — the griffon-vulture bone flute and ivory flutes of Hohle Fels, c. 40,000 BP.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Conard, Nicholas J. 'A female figurine from the basal Aurignacian of Hohle Fels Cave in southwestern Germany,' Nature 459 (2009) — the headless, loop-suspended ivory 'Venus' of Hohle Fels, c. 40,000 BP.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Venus of Willendorf — found 1908 by Josef Szombathy; Weber, Gerhard W., et al., provenance analysis of the figurine's oolite tracing its stone to sources hundreds of kilometres from the findspot (Scientific Reports, 2022).",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Vandiver, Pamela B., Olga Soffer, Bohuslav Klíma and Jiří Svoboda. 'The Origins of Ceramic Technology at Dolní Věstonice, Czechoslovakia,' Science 246 (1989) — the black ceramic Venus and thousands of fired-clay fragments, evidence that figures were fired wet and shattered, and the fingerprint of a child pressed into one figurine c. 29,000 BP.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Mal'ta, near Lake Baikal, Siberia — slim clothed and hooded ivory female figurines, excavated by Mikhail Gerasimov from 1928.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "McDermott, LeRoy. 'Self-Representation in Upper Paleolithic Female Figurines,' Current Anthropology 37 (1996) — the argument that the figurines' proportions match a woman's view of her own body.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Ain Mallaha (Eynan), Israel — Natufian burial of an elderly person with a hand resting on a puppy, c. 12,000 BCE; excavations by Jean Perrot, with the dog burial reported by Simon Davis and François Valla, Nature 276 (1978); dead buried among and beneath the houses.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Grosman, Leore, Natalie D. Munro and Anna Belfer-Cohen. 'A 12,000-year-old Shaman burial from the southern Levant (Israel),' PNAS 105 (2008) — the Hilazon Tachtit woman buried with eagle wing-tip, leopard pelvis, human foot, marten skulls and some fifty tortoise shells.",
+      "chapters": ["ch-02"]
+    },
+    {
+      "category": "study",
+      "citation": "Joint Istanbul University–University of Chicago prehistoric survey of southeastern Turkey (1963) — the first recording of Göbekli Tepe, whose worked limestone slabs were logged as probable medieval grave markers.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Göbekli Tepe excavations, Şanlıurfa province — begun by Klaus Schmidt for the German Archaeological Institute in 1995 and continuing since his death in 2014: Enclosures A–D with T-shaped pillars of up to 5.5 m and 8–10 tonnes, radiocarbon dates c. 9500 BCE, the animal reliefs and the 'Vulture Stone,' the abandoned c. 50-tonne pillar in the quarry, feasting debris, carved worked skull fragments, and the later finds of domestic buildings, grinding stones and rock-cut cisterns.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "book",
+      "citation": "Schmidt, Klaus. Sie bauten die ersten Tempel (Munich: C. H. Beck, 2006); Eng. Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia (2012) — 'first came the temple, then the city.'",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Nevalı Çori excavations, Şanlıurfa province (1983–1991, Harald Hauptmann) — the cult building with T-shaped pillars; the site now beneath the Atatürk Dam reservoir.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Karahan Tepe excavations, Şanlıurfa province (from 2019, Necmi Karul) — the chamber of eleven phallic pillars overseen by a human head carved from the living rock.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Dietrich, Oliver, Manfred Heun, Jens Notroff, Klaus Schmidt and Martin Zarnkow. 'The role of cult and feasting in the emergence of Neolithic communities: new evidence from Göbekli Tepe,' Antiquity 86 (2012) — oxalate residues in limestone vats of up to 160 litres as possible evidence of malting and brewing.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Ethnographic accounts of megalith hauling on Sumba, Indonesia — hundreds of haulers on rattan ropes recruited and paid by feasting (e.g. Ron L. Adams on West Sumba work-feasts).",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Harlan, Jack R. 'A Wild Wheat Harvest in Turkey,' Archaeology 20 (1967) — hand and flint-sickle harvesting of wild einkorn on Karacadağ, showing wild stands could yield more grain than a family could eat in a year.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Heun, Manfred, et al. 'Site of Einkorn Wheat Domestication Identified by DNA Fingerprinting,' Science 278 (1997) — the wild relatives of domesticated einkorn traced to Karacadağ, within sight of Göbekli Tepe.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Braidwood, Robert J., et al. 'Symposium: Did Man Once Live by Beer Alone?' American Anthropologist 55 (1953) — the proposal that brewing, not bread, drove early cereal cultivation.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Kenyon, Kathleen M. Excavations at Tell es-Sultan (Jericho), 1952–1958; Digging Up Jericho (London: Benn, 1957) — the c. 9400 BCE settlement, the stone wall and 8.5 m tower with its twenty-two-step internal staircase, and the seven plastered skulls lifted from beneath a house floor in 1953.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Barkai, Ran, and Roy Liran. 'Midsummer Sunset at Neolithic Jericho,' Time and Mind 1 (2008) — the argument that the tower is aligned to the midsummer sunset and the mountain's advancing shadow.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Plastered ancestral skulls of the Pre-Pottery Neolithic B Levant — Jericho, Ain Ghazal, Beisamoun, Tell Aswad and Kfar HaHoresh: skulls retrieved from sub-floor graves, modelled in lime plaster with shell-inlaid eyes and painted features.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Çayönü Tepesi, southeastern Turkey — the 'Skull Building' holding the stacked skulls of scores of individuals; excavations by Robert Braidwood and Halet Çambel from 1964.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Ain Ghazal, Jordan — caches of some thirty lime-plaster statues and busts over reed armatures, discovered 1983 and 1985 and dated c. 6500 BCE; excavations by Gary Rollefson and Alan Simmons.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Mellaart, James. Excavations at Çatal Hüyük, 1961–1965; Çatal Hüyük: A Neolithic Town in Anatolia (London: Thames & Hudson, 1967) — the Seated Woman found in a grain bin in 1961; Mellaart's later career shadowed by accusations of fabricated finds.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "book",
+      "citation": "Hodder, Ian. Çatalhöyük Research Project excavations (from 1993); The Leopard's Tale: Revealing the Mysteries of Çatalhöyük (London: Thames & Hudson, 2006) — 'history houses,' sub-floor burial, bull installations and repeated rebuilding on the same footprints.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Çatalhöyük burial excavated in 2004 — an adult woman laid in the earth cradling a plastered skull whose modelled face had been resurfaced and repainted with red ochre several times.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Diamond, Jared. 'The Worst Mistake in the History of the Human Race,' Discover (May 1987) — the skeletal case against the adoption of agriculture.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Angel, J. Lawrence — the classic eastern Mediterranean skeletal series showing a fall in average stature of roughly fifteen centimetres from the end of the Ice Age to the late Neolithic, unrecovered until the twentieth century.",
+      "chapters": ["ch-03"]
+    },
+    {
+      "category": "study",
+      "citation": "Molleson, Theya. 'The Eloquent Bones of Abu Hureyra,' Scientific American 271 (1994) — deformed toes, knees and lower spines in the farming-layer women of Abu Hureyra, attributed to hours of daily kneeling at the saddle quern.",
+      "chapters": ["ch-03"]
+    }
+  ]
+}

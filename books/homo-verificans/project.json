@@ -1,0 +1,13 @@
+{
+  "id": "homo-verificans",
+  "title": "Homo Verificans",
+  "folder": "homo-verificans",
+  "kind": "novel",
+  "logline": "The Audit of Heaven — twenty-eight faiths run through four axioms (S: a record must be distinguishable from no record; B: recording requires irreversibility; R: records accumulate forward; C: no record is fully isolated), each tradition given the same four-part audit and a named kill-switch test: the evidence that would have falsified its core claim, if it existed.",
+  "market": "narrative nonfiction / comparative religion, systematic audit format — Book II of the Homo Ter Probatus trilogy",
+  "source": "Migrated 2026-08-31: no manuscript source survives in any local repo (press, platform, klaus, lucid-rodeo) — only the author-supplied print PDF and EPUB. ~129,000 words, 16 chapters per the trilogy summary found alongside Homo Credens' source.",
+  "status": "complete_no_source",
+  "shelf": "unassigned",
+  "notes": "Book II of the Homo Ter Probatus box set (~410,000 words total across Credens/Verificans/Benignus). Premise: 'at least one record exists' — the same one-liner as the 420 Code itself. NOT in PUBLISHED or CURATED. No cover art, no manuscript source — build/export/ holds only the supplied EPUB + PDF. If source is ever found, prefer it over these exports.",
+  "canon_order": []
+}
