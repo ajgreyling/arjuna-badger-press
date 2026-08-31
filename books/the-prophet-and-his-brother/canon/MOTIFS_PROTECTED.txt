@@ -1,0 +1,22 @@
+# Deliberate refrains for The Prophet and his Brother.
+# The de-LLM / de-duplication pass NEVER treats a line matching these as drift.
+# One motif per line, plain text; matching is case- and punctuation-insensitive substring.
+#
+# Each entry must trace to canon or to a real-world fact, not to drafting habit.
+# If you cannot name WHY a phrase recurs, it is drift — leave it off this list.
+
+# AJ's actual slogan. Quote verbatim, never paraphrased, never a variant.
+don't be a cunt. be kind.
+
+# G's stated goals, in his own framing (canon/G_LIFE.md).
+write natural philosophy and physics
+smoke dab
+talk shit
+
+# Mutatus Maximus as mobile data centre — the C-05 thesis line.
+# "Literally." is the punch and belongs to the motif; the first pass dropped it
+# when only the clause above was protected.
+the most connected vehicle on earth. literally.
+
+# The novel's title figures. Recurrence here is structural, not accidental.
+the prophet and his brother
