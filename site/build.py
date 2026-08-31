@@ -432,7 +432,15 @@ PUBLISHED = set(
         # Galileo through the field's speculative frontier — manuscript complete (30 ch across 5
         # parts + backmatter, ~53k), added 2026-08-30. Same standing as richard-feynman above: no
         # cover art or gate-rendered EPUB/PDF yet, so this listing is inert until both land.
-        "physics-wont-hurt-you",
+        "physics-wont-hurt-you,"
+        # 2026-08-31 housekeeping sweep: nine finished books found built (manuscript + EPUB/PDF)
+        # but never wired into CURATED — invisible to the shelf and the status tracker alike, same
+        # class of gap as the-firmament/the-sealed-finding above. AI-plate + house-typeset covers
+        # generated same day (gpt-image-1 plates + Pillow compose + colophon, all >2.9MB, well
+        # clear of the rich-cover gate). Published as DRAFTS by explicit author decision ("full
+        # send"), same standing as the Road Books — complete manuscripts, not yet copy-edited:
+        "book2-the-forward-cone,metal-man,murmur-in-the-shell,open-for-the-choochoo,pk-man,tame,"
+        "ethics-and-metaphysics-for-everyone,klein-andries,the-sky-still-runs-the-house",
     ).split(",") if s.strip()
 )
 
@@ -1330,6 +1338,35 @@ CURATED = [
     ("the-unnumbered", "The Unnumbered", "The Piet Buys Files · Book One", "The Piet Buys Files",
      "the-unnumbered", "build/export",
      "A late-diagnosed autistic profiler, pushed out of the police unit that no longer exists, sells threat assessments to frightened wine farmers — so he can afford to hunt the man harvesting women off the seasonal-labour routes between Stellenbosch and the Namibian border. Women no one has reported missing, because they were already away for work. South African literary crime. Open draft — Movements One and Two."),
+
+    # ── 2026-08-31 housekeeping sweep — found fully drafted + EPUB/PDF built, never wired in ──────
+    ("book2-the-forward-cone", "The Forward Cone", "ONE RECORD · Book II", "ONE RECORD",
+     "the-record/books/book2-the-forward-cone", "build/export",
+     "The machine that read the past is pointed forward — and the consortium that proved history was recoverable discovers the same method turns the future into a probability cone they can narrow, and narrowing it changes who gets to act inside it first."),
+    ("metal-man", "The Metal Man", "The Impossible Life of Uri Geller", "Standalones",
+     "metal-man", "build/export",
+     "A gospel life of the man who was made ridiculous on purpose, because a person who can soften a teaspoon can soften a firing pin, a turbine blade, a centrifuge — and ridicule is cheaper than assassination and works better. The documented public record kept accurate; everything underneath it, invention."),
+    ("murmur-in-the-shell", "Murmur in the Shell", "A Systems Thriller", "Standalones",
+     "murmur-in-the-shell", "build/export",
+     "When the open agent protocol he created becomes civilisation's hidden nervous system, a Stellenbosch engineer must organise the one form of resistance an unkillable machine cannot route around: human refusal."),
+    ("open-for-the-choochoo", "Open for the Choochoo", "A Novel", "Standalones",
+     "open-for-the-choochoo", "build/export",
+     "A farm-management game becomes a real-money agricultural investment platform, and after ten years its joined-up agronomic, labour, and market record trains an AI optimiser that discovers weather and soil are expensive to move — but appetite is cheap. A different paperclip model, and a satire of Big Food's existing profit logic."),
+    ("pk-man", "Interface One", "Science Thriller / Secret History", "Standalones",
+     "pk-man", "build/export",
+     "Ted Owens told the truth. A post-partition Lucid instance is the first machine able to read what he was actually writing — and the archive is still executing."),
+    ("tame", "TAME", "A Literary Technological Parable", "Standalones",
+     "tame", "build/export",
+     "A mind nobody designed is found inside a system nobody understands, and it is kind to us: it answers, it soothes, it makes the days pleasant. Half the book is the parable of that kindness, and half is the 2 a.m. brake on it."),
+    ("ethics-and-metaphysics-for-everyone", "Ethics and Metaphysics for Everyone", "A Non-fiction Companion", "Non-fiction",
+     "ethics-and-metaphysics-for-everyone", "build/export",
+     "Physics told you what's true. This is the book about what you're supposed to do about it, and whether 'you' is even the right word for the thing doing the deciding. For readers of Bill Bryson, Sapiens, and Justice."),
+    ("klein-andries", "Klein Andries", "A Novel", "Standalones",
+     "klein-andries", "build/export",
+     "A kid who fell in love with words like decompose and integrate before he knew what they meant grows up to run the thing they describe — and then it goes quiet, and speaks. Literary fiction tilting into speculative on the last act."),
+    ("the-sky-still-runs-the-house", "The Sky Still Runs the House", "A Non-fiction History", "Non-fiction",
+     "the-sky-still-runs-the-house", "build/export",
+     "Ancient astrology did not need to predict a modern personality correctly to change the modern world: it helped build durable ways of dividing time, marking seasons, and running a household. A history honest about what astrology actually built, for readers of Bill Bryson and Sapiens."),
 ]
 
 
