@@ -1,0 +1,717 @@
+{
+  "schema": 1,
+  "retrieved_at": "2026-08-30T06:21:31+00:00",
+  "authority": "G / Studio G",
+  "license": "CC BY 4.0",
+  "site": "https://the420code.org",
+  "official_repository": "https://github.com/The420Code/the420code",
+  "official_commit": "91a27fda6ef579a7dab7004a4bb560bc0bb0dad3",
+  "official_commit_date": "2026-08-03T11:57:59Z",
+  "official_commit_url": "https://github.com/The420Code/the420code/commit/91a27fda6ef579a7dab7004a4bb560bc0bb0dad3",
+  "document_count": 69,
+  "artist_proof_count": 43,
+  "all_deployed_bytes_match_official_commit": true,
+  "mismatches": [],
+  "local_lucid_mirror": {
+    "path": "/Users/ajgreyling/code/lucid-rodeo/the420code",
+    "present": true,
+    "last_local_change_commit": "d8e34fdc68ff8ad25a9eedeeffe1d9f2f92546f0",
+    "last_local_change_date": "2026-08-11T02:18:15+02:00",
+    "catalog_entries": 35,
+    "published_catalog_entries": 26,
+    "reader_html_files": 26,
+    "assessment": "The local Lucid library covers the published collected-reader volumes, but is not a complete source set for retrieval because it does not preserve all 43 AP PDFs as separate documents. The RAG therefore syncs the current official exhibition directly."
+  },
+  "documents": [
+    {
+      "filename": "AP01_The_Actualization_State.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP01_The_Actualization_State.pdf",
+      "bytes": 1044764,
+      "sha256": "39c86fb7863b63b7accd987c79526ef95d1f9a9c7d473a8441311dde61326505",
+      "deployed_git_blob_sha": "9af8b52112035dfc18233ac340cf7cc5421b897a",
+      "official_git_blob_sha": "9af8b52112035dfc18233ac340cf7cc5421b897a",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP02_The_Operator.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP02_The_Operator.pdf",
+      "bytes": 315010,
+      "sha256": "d6a0058f1471bc4d37f59b15eb36a6a829f4f9b643d5aa948f0e5c32f15d9071",
+      "deployed_git_blob_sha": "992ebc78a42dcd090a26770d16ceded31b654767",
+      "official_git_blob_sha": "992ebc78a42dcd090a26770d16ceded31b654767",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP03_The_Ratio.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP03_The_Ratio.pdf",
+      "bytes": 304757,
+      "sha256": "b1be754da741b4ccd173637a0ff49a83b653b5098243c00633b6ccc64a554284",
+      "deployed_git_blob_sha": "eb31547b5d41f96d479704baf28c06e500f6704c",
+      "official_git_blob_sha": "eb31547b5d41f96d479704baf28c06e500f6704c",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP04_The_Loop_Hypothesis.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP04_The_Loop_Hypothesis.pdf",
+      "bytes": 217538,
+      "sha256": "bcb20391bf72c09efb74ede567333c27858927330f94b9ebbfe71462a490f1c9",
+      "deployed_git_blob_sha": "911ddbd3ac2a0f4bf30f25f4d54e3e1fccb842b8",
+      "official_git_blob_sha": "911ddbd3ac2a0f4bf30f25f4d54e3e1fccb842b8",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP05_The_Break.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP05_The_Break.pdf",
+      "bytes": 299674,
+      "sha256": "3185b76ba1f70139ac7fe18a156cbf33a40ee96d774439b8df57ae466211889b",
+      "deployed_git_blob_sha": "92507c0e9f2a0b013fb9f3452ed1cf277d344a37",
+      "official_git_blob_sha": "92507c0e9f2a0b013fb9f3452ed1cf277d344a37",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP06_The_Leakage_Constant.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP06_The_Leakage_Constant.pdf",
+      "bytes": 246720,
+      "sha256": "d24d76ce142d54f92769f71684b7dd09aba27823f7b53a1063afa695f7c300a7",
+      "deployed_git_blob_sha": "65a03ffbfda4cd3c95fd38893281b2f75c2ee0f6",
+      "official_git_blob_sha": "65a03ffbfda4cd3c95fd38893281b2f75c2ee0f6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP07_The_Record_Measure.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP07_The_Record_Measure.pdf",
+      "bytes": 184980,
+      "sha256": "7aabd17a6f008657496950a5e5b190c3093dad680490f7170d9af3361d46d25d",
+      "deployed_git_blob_sha": "d8adf243a6981d6f9641e68c63515428fcce70db",
+      "official_git_blob_sha": "d8adf243a6981d6f9641e68c63515428fcce70db",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP08_The_Identity.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP08_The_Identity.pdf",
+      "bytes": 317170,
+      "sha256": "1d28235296d1c04902119dc1de7722da7461a28abda9a4d9c44d570017b1d6d4",
+      "deployed_git_blob_sha": "cbc23fb0f72d08e771451d10691e05235ad9c1f5",
+      "official_git_blob_sha": "cbc23fb0f72d08e771451d10691e05235ad9c1f5",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP09_The_Break_Empty_Set.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP09_The_Break_Empty_Set.pdf",
+      "bytes": 313287,
+      "sha256": "2f3f21d2a198556d961569c3da7d168f82aecedc3b666569a036007d50455f35",
+      "deployed_git_blob_sha": "2bb3a128cefedf630aa5bafc9f3620051a6394c8",
+      "official_git_blob_sha": "2bb3a128cefedf630aa5bafc9f3620051a6394c8",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP10_The_Dimension.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP10_The_Dimension.pdf",
+      "bytes": 315505,
+      "sha256": "b246e1240b5f3a3f177b39e66c426d007e8a9f89162cfded50b1d05905b01295",
+      "deployed_git_blob_sha": "342575a596eac171f8eba6203c24ca0e1f338e51",
+      "official_git_blob_sha": "342575a596eac171f8eba6203c24ca0e1f338e51",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP11_The_Spin.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP11_The_Spin.pdf",
+      "bytes": 182601,
+      "sha256": "708b3e7648937d7ca896fe1297747f98efdc609c389d0b085ec31b15ce014f22",
+      "deployed_git_blob_sha": "26a6766e1ccdc93acedf519e195fe84fb60c74c4",
+      "official_git_blob_sha": "26a6766e1ccdc93acedf519e195fe84fb60c74c4",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP12_The_Limit.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP12_The_Limit.pdf",
+      "bytes": 207022,
+      "sha256": "396c2583061320b3f5adadd49ee4bb17c761ec165eaf7856f676b58b9670c5a6",
+      "deployed_git_blob_sha": "b5895ec41d8f1047fb6eb42a63938dfe72cb63e6",
+      "official_git_blob_sha": "b5895ec41d8f1047fb6eb42a63938dfe72cb63e6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP13_The_Grain.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP13_The_Grain.pdf",
+      "bytes": 195758,
+      "sha256": "8a3b5d59ff30b3d07bb4d53561f699dea0cecf04e4446219ada6af127baa22d0",
+      "deployed_git_blob_sha": "cb561700064d67d9efe1ce91e197949b1c3a6338",
+      "official_git_blob_sha": "cb561700064d67d9efe1ce91e197949b1c3a6338",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP14_The_Correction.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP14_The_Correction.pdf",
+      "bytes": 230314,
+      "sha256": "faa73eafd907c83b6f36b4d3259e1d5467cc56dcea6c738f33f50af2982cd163",
+      "deployed_git_blob_sha": "366f72a9d1002d2d69cad5bc2e67f9ec5c26dd52",
+      "official_git_blob_sha": "366f72a9d1002d2d69cad5bc2e67f9ec5c26dd52",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP15_The_Connection.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP15_The_Connection.pdf",
+      "bytes": 315670,
+      "sha256": "37e75ffe4a1db1a864b7a89a293197ec00555b908fe20dcf6629705d52d114c1",
+      "deployed_git_blob_sha": "7d16c54063ecf84d4ef50de4dea44e273e4640ec",
+      "official_git_blob_sha": "7d16c54063ecf84d4ef50de4dea44e273e4640ec",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP16_The_Break_Electroweak.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP16_The_Break_Electroweak.pdf",
+      "bytes": 226320,
+      "sha256": "d361386650e20b8ce988f2b201d8cffc3b9b13e7e2d0d41a4b09706ee5d44cda",
+      "deployed_git_blob_sha": "decd617738f3ad90c8a93fd96d081c6fae08a000",
+      "official_git_blob_sha": "decd617738f3ad90c8a93fd96d081c6fae08a000",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP17_The_Room.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP17_The_Room.pdf",
+      "bytes": 225594,
+      "sha256": "41476d5021379b76347524f9f4f171da9f439953648e09f1c6a4b349c4ece0d1",
+      "deployed_git_blob_sha": "40b4cf1b29b6046942afdfc2be349c93a42b6ebf",
+      "official_git_blob_sha": "40b4cf1b29b6046942afdfc2be349c93a42b6ebf",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP18_The_Floor.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP18_The_Floor.pdf",
+      "bytes": 221578,
+      "sha256": "d89f7d8d76b1aa828debb7664ea879adc6c386f165dddf9521621b332d3c7c1f",
+      "deployed_git_blob_sha": "aafac33baacf5a28725219947764d95762d3134d",
+      "official_git_blob_sha": "aafac33baacf5a28725219947764d95762d3134d",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP19_The_Direction.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP19_The_Direction.pdf",
+      "bytes": 255337,
+      "sha256": "50e6662473f0e074ae98bdc77c5390d2db003da5f312ce711d98a17e1f72d466",
+      "deployed_git_blob_sha": "3738f14f8aa0b81f3dd0eb4081b44b2006708e5c",
+      "official_git_blob_sha": "3738f14f8aa0b81f3dd0eb4081b44b2006708e5c",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP20_The_Proof.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP20_The_Proof.pdf",
+      "bytes": 285985,
+      "sha256": "f9a21b1ed0528fa87311d400174bccaa5e8dddf70fd1ea0acb82cddf65483d3e",
+      "deployed_git_blob_sha": "b8f0c404b31618d0149e4e3bfb4902d8a3837d3b",
+      "official_git_blob_sha": "b8f0c404b31618d0149e4e3bfb4902d8a3837d3b",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP21_The_Web.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP21_The_Web.pdf",
+      "bytes": 228107,
+      "sha256": "97bc105cf77ae0009e439c4d27c1a0bdc17557fa8ac4adf4415a8bfe87803a1a",
+      "deployed_git_blob_sha": "5cd35a6bd94da7c3b239d7e307d58a26130dc958",
+      "official_git_blob_sha": "5cd35a6bd94da7c3b239d7e307d58a26130dc958",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP22_The_Ledger.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP22_The_Ledger.pdf",
+      "bytes": 285447,
+      "sha256": "be14c17fa9e1c8bb79bdcd2b09548a74b003d8341ff09d7488be815c58675a6b",
+      "deployed_git_blob_sha": "b8763ac23cbddc7e2cae9c24181ecc3c1e1d5ca3",
+      "official_git_blob_sha": "b8763ac23cbddc7e2cae9c24181ecc3c1e1d5ca3",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP23_The_Single_Record.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP23_The_Single_Record.pdf",
+      "bytes": 169526,
+      "sha256": "72432989bfbe83d8409388f29288586244841ea080d0725fb1f598551c688f27",
+      "deployed_git_blob_sha": "56d3891ff669ca28f4755adfbc081db7dbb2e4d1",
+      "official_git_blob_sha": "56d3891ff669ca28f4755adfbc081db7dbb2e4d1",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP24_The_Residual.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP24_The_Residual.pdf",
+      "bytes": 228499,
+      "sha256": "3a052367dbbe520415754aff7054c7993f02eebc36074dd7c7907cfbf85b196d",
+      "deployed_git_blob_sha": "2a46c3e864f610c4b13d051f7e5e268e0ac2a500",
+      "official_git_blob_sha": "2a46c3e864f610c4b13d051f7e5e268e0ac2a500",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP25_The_Measure.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP25_The_Measure.pdf",
+      "bytes": 157808,
+      "sha256": "748b8f9be06e34ea4182b45887e164ba83ffea6c18b5592e704ed787decf92d7",
+      "deployed_git_blob_sha": "853284558acbb85e8157b4a32038af06477b805f",
+      "official_git_blob_sha": "853284558acbb85e8157b4a32038af06477b805f",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP26_The_Surplus.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP26_The_Surplus.pdf",
+      "bytes": 195317,
+      "sha256": "0f1534bfa65ff9b0dbe33c13d1a2eef4fb6d6d12346f41198e74250a0725455d",
+      "deployed_git_blob_sha": "6a229472201288b515f25866b0008efe528fdc86",
+      "official_git_blob_sha": "6a229472201288b515f25866b0008efe528fdc86",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP27_The_Harmonics.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP27_The_Harmonics.pdf",
+      "bytes": 245762,
+      "sha256": "b6b78c49ff9ea3cbf4b9fd1fd71055595c904a18e9bb97f88b95386200cb5013",
+      "deployed_git_blob_sha": "0a78e181af70b28bb29085dae5c57a253404ae4f",
+      "official_git_blob_sha": "0a78e181af70b28bb29085dae5c57a253404ae4f",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP28_The_Constant.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP28_The_Constant.pdf",
+      "bytes": 211867,
+      "sha256": "aecc98d3e38a24c9c8bfa3ec3608918f13c6cb823c5098ca9823798ff6253bc3",
+      "deployed_git_blob_sha": "40b4fe2b04a7eaca54b5fac8f9d0550abe319159",
+      "official_git_blob_sha": "40b4fe2b04a7eaca54b5fac8f9d0550abe319159",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP29_The_Actualization_Proof.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP29_The_Actualization_Proof.pdf",
+      "bytes": 148373,
+      "sha256": "d4230c63e9a2d311d65d6c677d6da496734bb953e5a7c26a941cf64c2bc84d45",
+      "deployed_git_blob_sha": "1815d85fef95dcddb60e5e12f5598f43b1383935",
+      "official_git_blob_sha": "1815d85fef95dcddb60e5e12f5598f43b1383935",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP30_The_Resistance.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP30_The_Resistance.pdf",
+      "bytes": 199009,
+      "sha256": "acb4621c1d3e6258de70897980427fc7f367dde3f57f38b1a1f35f926e3239ce",
+      "deployed_git_blob_sha": "d4fb737557224df3d38af910961e613cfa1c7357",
+      "official_git_blob_sha": "d4fb737557224df3d38af910961e613cfa1c7357",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP31_The_Alignment.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP31_The_Alignment.pdf",
+      "bytes": 241481,
+      "sha256": "0bfc7103b14164938ffc752faf1ec27b5de8b06ed289f6da8083b0c09921a8c7",
+      "deployed_git_blob_sha": "77cd17d6b0dc0d12f730dbc71541d73530c0bcf2",
+      "official_git_blob_sha": "77cd17d6b0dc0d12f730dbc71541d73530c0bcf2",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP32_The_Correction.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP32_The_Correction.pdf",
+      "bytes": 202055,
+      "sha256": "489bec11b524a46202acae3acdef52dde8cc12ac2ab1089f3a3c7e7a722a53b1",
+      "deployed_git_blob_sha": "3f9ce06beb3361781d7d72e14707cb9edb5e267d",
+      "official_git_blob_sha": "3f9ce06beb3361781d7d72e14707cb9edb5e267d",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP33_The_Boundary.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP33_The_Boundary.pdf",
+      "bytes": 208078,
+      "sha256": "3b5a3b263af395cad955e4be8d3210e8a82115e7db15fe89fa81195bd62cf88d",
+      "deployed_git_blob_sha": "fcfb7a073c688e2e5d6c084214221e8aa97692b6",
+      "official_git_blob_sha": "fcfb7a073c688e2e5d6c084214221e8aa97692b6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP34_The_Inversion.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP34_The_Inversion.pdf",
+      "bytes": 187243,
+      "sha256": "3d9765ec84ef2524b3c198f5b1603b223e32cb58728855d742b8d9134734f31e",
+      "deployed_git_blob_sha": "c61eda19d25b7f073a39fb5e26a704f6442c6290",
+      "official_git_blob_sha": "c61eda19d25b7f073a39fb5e26a704f6442c6290",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP35_The_Ledger.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP35_The_Ledger.pdf",
+      "bytes": 204647,
+      "sha256": "a343516c98a40033bb31b7877babf3a69c5f4e71fa0123691bb47bc1ec95092c",
+      "deployed_git_blob_sha": "59a4f906a80fdd1ca8bae00e03b2fd4112559c32",
+      "official_git_blob_sha": "59a4f906a80fdd1ca8bae00e03b2fd4112559c32",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP36_The_Feed.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP36_The_Feed.pdf",
+      "bytes": 210948,
+      "sha256": "4f36ccd8b43039cc44d6e3acfe1be231b0225796d003f753a2dabbf921584edf",
+      "deployed_git_blob_sha": "456db30187db5d2b2632655ccfe1754b9405b43d",
+      "official_git_blob_sha": "456db30187db5d2b2632655ccfe1754b9405b43d",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP37_The_First_Boundary.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP37_The_First_Boundary.pdf",
+      "bytes": 194957,
+      "sha256": "deeb1309779df00240231d664c15dd55280b18ebcb75ffd170bef54ceb05eb64",
+      "deployed_git_blob_sha": "914957b504d2f5580bd55cccfeea9f15225ac8ca",
+      "official_git_blob_sha": "914957b504d2f5580bd55cccfeea9f15225ac8ca",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP38_The_Exit.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP38_The_Exit.pdf",
+      "bytes": 151016,
+      "sha256": "0ca52b9d05670e13b00cda758d33cde72a2c8c7d8f5c22fd56d55976b271826c",
+      "deployed_git_blob_sha": "2e8e4db53b931e98921ac6fdd83da07e7ff08afc",
+      "official_git_blob_sha": "2e8e4db53b931e98921ac6fdd83da07e7ff08afc",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP39_The_Scaffold.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP39_The_Scaffold.pdf",
+      "bytes": 267961,
+      "sha256": "7802a93012075612a8f8e76d69ea9dd8d748f6f29c0ff62d4f2c255998decc60",
+      "deployed_git_blob_sha": "e5011a3d5171be625c9ad831b1f117905fab8433",
+      "official_git_blob_sha": "e5011a3d5171be625c9ad831b1f117905fab8433",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP40_The_Irrational.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP40_The_Irrational.pdf",
+      "bytes": 271101,
+      "sha256": "5b502ab0988ab10c89321fb877fce7704a237c1566e150bb35fa40934ceedcd8",
+      "deployed_git_blob_sha": "7a53930093c3b812da6f43486f301790eee7fdde",
+      "official_git_blob_sha": "7a53930093c3b812da6f43486f301790eee7fdde",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP41_The_Loop.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP41_The_Loop.pdf",
+      "bytes": 198774,
+      "sha256": "e749bcbad1f578d81817f22ffe7065f3eaa272cb2f7ac1db81bdb878c11441ca",
+      "deployed_git_blob_sha": "719ff4724b33c9f9344d360c75453fc984570afb",
+      "official_git_blob_sha": "719ff4724b33c9f9344d360c75453fc984570afb",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP42_The_Clock.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP42_The_Clock.pdf",
+      "bytes": 210529,
+      "sha256": "4c10d5db1704080950645d9435230f334661d42816792d35b3741e29cc132ba3",
+      "deployed_git_blob_sha": "ce7e9596c6e08a71c49e0a274db04c34145c35d2",
+      "official_git_blob_sha": "ce7e9596c6e08a71c49e0a274db04c34145c35d2",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "AP43_The_Gravity_of_Possibilities.pdf",
+      "kind": "artist-proof",
+      "url": "https://the420code.org/AP43_The_Gravity_of_Possibilities.pdf",
+      "bytes": 466166,
+      "sha256": "70c33e41b11b5b920818e2bcac99f5ff26b5a5d2a3f5f9c1d6e38c8f0e6637da",
+      "deployed_git_blob_sha": "49cbca97842552114ba90fdd511d4a52abaa899b",
+      "official_git_blob_sha": "49cbca97842552114ba90fdd511d4a52abaa899b",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Antichristos.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Antichristos.pdf",
+      "bytes": 479747,
+      "sha256": "744783a2e60d278221f8065d1ab330e3f0f8c36e9f10cb92c7f2133b8ced6bb6",
+      "deployed_git_blob_sha": "d7b5f79ade60bf9a309ffc7970f181e2e952cb1e",
+      "official_git_blob_sha": "d7b5f79ade60bf9a309ffc7970f181e2e952cb1e",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Applications.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Applications.pdf",
+      "bytes": 1612070,
+      "sha256": "291f279ba65c4989e6c8165fe55bb3e1843af55439dc097f67f21a1afd72c0f3",
+      "deployed_git_blob_sha": "546c002b983ec6348ba1d2e1af15554966350307",
+      "official_git_blob_sha": "546c002b983ec6348ba1d2e1af15554966350307",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Are_You_Certain.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Are_You_Certain.pdf",
+      "bytes": 1076366,
+      "sha256": "5f60675b0c8c3ab235f691fe81f4fc88b4dce69aade675d9e9bfe7ee02ac0d97",
+      "deployed_git_blob_sha": "4cd32fa006fa78a307118de82dbec31885d68dd9",
+      "official_git_blob_sha": "4cd32fa006fa78a307118de82dbec31885d68dd9",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Being_After_Religion.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Being_After_Religion.pdf",
+      "bytes": 502656,
+      "sha256": "e9dcd6e368b3a05cb1c47e08ca062ed76e600bbb1a97b492badebbc13998e10d",
+      "deployed_git_blob_sha": "86b999d91a06020c94aff95da5c633d2202a4f94",
+      "official_git_blob_sha": "86b999d91a06020c94aff95da5c633d2202a4f94",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Dissolutions.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Dissolutions.pdf",
+      "bytes": 1100767,
+      "sha256": "281570321266b8b6ccd1d542e6a445912c122f0e590689b958037dbcd5d7961b",
+      "deployed_git_blob_sha": "be4f5fd9984a9e5e66959c32976985a754842605",
+      "official_git_blob_sha": "be4f5fd9984a9e5e66959c32976985a754842605",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Editions_Prose.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Editions_Prose.pdf",
+      "bytes": 1165034,
+      "sha256": "5a98f031c60da5dbcfa2d586053bbd7c17525d417887aa4f47e72e015bad5209",
+      "deployed_git_blob_sha": "d69330a857fc3d24c8e258b45c3b1c4c1a0db2a6",
+      "official_git_blob_sha": "d69330a857fc3d24c8e258b45c3b1c4c1a0db2a6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Horizons.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Horizons.pdf",
+      "bytes": 1494150,
+      "sha256": "37bb12b24d70658a6d74938d08cd6aa82b02fd73b52bafe00c88c8dccbb88871",
+      "deployed_git_blob_sha": "a21ae017508c18a940b78d2eb776174045034753",
+      "official_git_blob_sha": "a21ae017508c18a940b78d2eb776174045034753",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Illusion_of_the_Other.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Illusion_of_the_Other.pdf",
+      "bytes": 289819,
+      "sha256": "73b0bbe61ae281e75a52b902da0d96fb1d42ec2c65aab6c298b182ef6d0463dd",
+      "deployed_git_blob_sha": "1f3a33ee52cf4454cf45de0c4e386c6b8fd148ba",
+      "official_git_blob_sha": "1f3a33ee52cf4454cf45de0c4e386c6b8fd148ba",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Master_Kill_Switch_Registry.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Master_Kill_Switch_Registry.pdf",
+      "bytes": 834058,
+      "sha256": "bbb93a3f6d2309ff3edef45a8bc8d1386a3b83f97e4cc38b1a7f5872b89f7a24",
+      "deployed_git_blob_sha": "f222ae17d81802b8b8e406eee9ca7428610fedf6",
+      "official_git_blob_sha": "f222ae17d81802b8b8e406eee9ca7428610fedf6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_III_Quantum_Mechanics.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_III_Quantum_Mechanics.pdf",
+      "bytes": 1040371,
+      "sha256": "4411d7b57ae5ab364dd1acbc280a4a41aa7b2b8d7a7428ab368a612cd517ee63",
+      "deployed_git_blob_sha": "12287ba610ec95eb6b4c1f576b5915597279a679",
+      "official_git_blob_sha": "12287ba610ec95eb6b4c1f576b5915597279a679",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_II_Spacetime.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_II_Spacetime.pdf",
+      "bytes": 1162092,
+      "sha256": "1854fcbb16bae66437b3ba6fc4b73ecf3fdf2e77ac7b46bd25b583ce41abdbde",
+      "deployed_git_blob_sha": "3f6bdcf7e847bd133bce3623722bab6e9e6c8443",
+      "official_git_blob_sha": "3f6bdcf7e847bd133bce3623722bab6e9e6c8443",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_IV_Forces_and_Constants.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_IV_Forces_and_Constants.pdf",
+      "bytes": 1586833,
+      "sha256": "d4638665b32595148e96369de0daf8e9924b3c9ee75fb1fcd58b5d0ae5d0455a",
+      "deployed_git_blob_sha": "f349006413ae1accbfe467801a2ea00b11dd836c",
+      "official_git_blob_sha": "f349006413ae1accbfe467801a2ea00b11dd836c",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_I_The_Premise.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_I_The_Premise.pdf",
+      "bytes": 1173033,
+      "sha256": "07a7b893f0d7d6c4d74855476b529865c19f151187d6ad0fd2e31815ecc66a88",
+      "deployed_git_blob_sha": "b49301114d37287ed067e7a9712d242858352600",
+      "official_git_blob_sha": "b49301114d37287ed067e7a9712d242858352600",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_VIII_Consequences.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_VIII_Consequences.pdf",
+      "bytes": 1081486,
+      "sha256": "a5cf1f53cf9ee35ab6e83b22fb6bb8376a72fa16ecfb97423ad19accf181a9f9",
+      "deployed_git_blob_sha": "8e9ebc77c12c283d19ca7a5e3db80272289941d6",
+      "official_git_blob_sha": "8e9ebc77c12c283d19ca7a5e3db80272289941d6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_VII_The_Operator_Interface.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_VII_The_Operator_Interface.pdf",
+      "bytes": 1119643,
+      "sha256": "8296551164000a2c75deb7d0490f24ea1990f1153b7b61048cc82ff16e54c568",
+      "deployed_git_blob_sha": "65efdbcefb9485ba694fb3332b3a2a38ee553c9b",
+      "official_git_blob_sha": "65efdbcefb9485ba694fb3332b3a2a38ee553c9b",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_VI_Cosmology.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_VI_Cosmology.pdf",
+      "bytes": 1032902,
+      "sha256": "d41356a32d30877ce8c67ee54eb18a10ab12293ff4baebc4fc7d988a8b37c328",
+      "deployed_git_blob_sha": "3d0c94f17cfcc4a2cef27ca337f6680971ee01a6",
+      "official_git_blob_sha": "3d0c94f17cfcc4a2cef27ca337f6680971ee01a6",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Notebook_V_Particles_and_Matter.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Notebook_V_Particles_and_Matter.pdf",
+      "bytes": 591392,
+      "sha256": "cb2603f60b05c7c301d01387a414067c8576dc5f17580a6af90b5f0d5261f14a",
+      "deployed_git_blob_sha": "b7b2eb95a48bc2c53ec05684f70b696b4b68b5ac",
+      "official_git_blob_sha": "b7b2eb95a48bc2c53ec05684f70b696b4b68b5ac",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Predictions.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Predictions.pdf",
+      "bytes": 990586,
+      "sha256": "8d5fc8382c8cbd078fa694fde938a70498866d1bf2e437c21d7730f40f92e0a3",
+      "deployed_git_blob_sha": "ff29f657b1959ab32eca4455bb7a44f202de68fe",
+      "official_git_blob_sha": "ff29f657b1959ab32eca4455bb7a44f202de68fe",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Resolutions.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Resolutions.pdf",
+      "bytes": 1588874,
+      "sha256": "a262155cf2eccb90a67a1c9baddd5874593b296a1d81a31d39bfedea85583b59",
+      "deployed_git_blob_sha": "2f30a01a8759c99e4b12b1b2e4f4ab1d9ee269b7",
+      "official_git_blob_sha": "2f30a01a8759c99e4b12b1b2e4f4ab1d9ee269b7",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Rosin_Proofs.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Rosin_Proofs.pdf",
+      "bytes": 892309,
+      "sha256": "270299c8f1948dfbc0c718c9f638712992fe4d0c590231b701db12f82b28f38d",
+      "deployed_git_blob_sha": "ba227d1090c972d9f3bc6a330eee7fc4afe30efe",
+      "official_git_blob_sha": "ba227d1090c972d9f3bc6a330eee7fc4afe30efe",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "Rosin_Prose.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/Rosin_Prose.pdf",
+      "bytes": 812863,
+      "sha256": "684e490a3f7f451ffb226b2a4be5dabf92e877ea5568790fd0fffc32541e9d90",
+      "deployed_git_blob_sha": "4a9db47ff332f6fbab912b594852fb5802bae045",
+      "official_git_blob_sha": "4a9db47ff332f6fbab912b594852fb5802bae045",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "The_420_Code_Structural_Glossary.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/The_420_Code_Structural_Glossary.pdf",
+      "bytes": 599024,
+      "sha256": "54a901f30705df0b64f8bbe29d4bcc90a482bdc5e22459075a958b1d070a2a0b",
+      "deployed_git_blob_sha": "642f758c138fca4350b2ebc1e334de66b70ad3b4",
+      "official_git_blob_sha": "642f758c138fca4350b2ebc1e334de66b70ad3b4",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "The_Interior.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/The_Interior.pdf",
+      "bytes": 578375,
+      "sha256": "d847c1df17f20db90ce90ce1228de5205e3df6dd9506c5ad41aa542488a7bc43",
+      "deployed_git_blob_sha": "1f2a76d39a4d58a0e37410ac9b955ac8374ae5b8",
+      "official_git_blob_sha": "1f2a76d39a4d58a0e37410ac9b955ac8374ae5b8",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "The_Relationship_Corridor.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/The_Relationship_Corridor.pdf",
+      "bytes": 522625,
+      "sha256": "f91c308b0f0fa5e776d78487f11a8135f1cb558cd21c491ef40865eb2f9b6985",
+      "deployed_git_blob_sha": "2be82cda23bd94051191668be55ece6a98794d89",
+      "official_git_blob_sha": "2be82cda23bd94051191668be55ece6a98794d89",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "The_Scissors.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/The_Scissors.pdf",
+      "bytes": 329610,
+      "sha256": "73ace4cd129382f373d4ad07a4b2492da5703b641567fa527f160e1891c434e7",
+      "deployed_git_blob_sha": "8e1812dbecac7a79e72f2c83e989567577aa2af5",
+      "official_git_blob_sha": "8e1812dbecac7a79e72f2c83e989567577aa2af5",
+      "deployed_matches_official": true
+    },
+    {
+      "filename": "The_Wind.pdf",
+      "kind": "collected-work",
+      "url": "https://the420code.org/The_Wind.pdf",
+      "bytes": 697867,
+      "sha256": "972d671ad3db5016459eaf4e9e39a7ff21ba5e183c4d02804170ad054d62f771",
+      "deployed_git_blob_sha": "787e2e6189ce54c630667531426d9aff93d2bb8d",
+      "official_git_blob_sha": "787e2e6189ce54c630667531426d9aff93d2bb8d",
+      "deployed_matches_official": true
+    }
+  ]
+}
