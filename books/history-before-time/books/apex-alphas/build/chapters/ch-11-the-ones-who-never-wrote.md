@@ -60,7 +60,7 @@ So they put him on the rota, and he did his shifts, and in the mornings, at six,
 
 By the third week there were nine people in there.
 
-Khabib was the first, on the second morning, and never missed one. He and Gautama exchanged, by Jakobus's count over four months, perhaps forty sentences in total, and the house learned to leave that alone. The horseman was next. Then Arin, then Musashi — who came in on the fourth morning, sat down at the back without a word, and thereafter treated the hour as though it were on his own schedule and always had been. Then Marcus. Then the suit-room technician. Then, to nobody's surprise and everybody's amusement, Bas.
+Khabib was the first, on the second morning, and never missed one. He and Gautama exchanged, by Jakobus's count over four months, perhaps forty sentences in total, and the house learned to leave that alone. Bat was next. Then Arin, then Musashi — who came in on the fourth morning, sat down at the back without a word, and thereafter treated the hour as though it were on his own schedule and always had been. Then Marcus. Then the suit-room technician. Then, to nobody's surprise and everybody's amusement, Bas.
 
 And Goggins stood in the doorway of that room on the eleventh morning and looked at nine people sitting still, and something went across his face, and he did not come in, and he did not go away either.
 
@@ -148,7 +148,7 @@ That is the fact the house had the most trouble with, in the end — more than t
 
 Newton spent four days on it and produced no explanation and said so, publicly, in one sentence, with no hedging whatever, which was the most alarming thing he did in the entire book.
 
-Clause was asked directly by three separate people, including Jakobus, who asked at three in the morning in an empty corridor, alone, in the way you ask a thing when you do not want witnesses.
+Klaus was asked directly by three separate people, including Jakobus, who asked at three in the morning in an empty corridor, alone, in the way you ask a thing when you do not want witnesses.
 
 "Did you reach him."
 
@@ -156,7 +156,7 @@ Clause was asked directly by three separate people, including Jakobus, who asked
 
 "That's not what I asked."
 
-"No," said Clause, and said nothing further, and would not, then or ever.
+"No," said Klaus, and said nothing further, and would not, then or ever.
 
 ---
 

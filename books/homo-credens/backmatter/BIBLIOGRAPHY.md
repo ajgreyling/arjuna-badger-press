@@ -1,0 +1,474 @@
+# Sources & Further Reading
+
+*Scripture quotations throughout this book are given verbatim from the public-domain editions and translations listed below; all other entries are cited here as sources, background, or points of departure for the argument.*
+
+## Scripture Editions & Translations
+
+- 1 and 2 Maccabees
+- Acaranga Sutra (Jain scripture), trans. Hermann Jacobi
+- Bhagavad Gita. Verses quoted: 9:26 ("Whoever offers Me with devotion a leaf, a flower, a fruit, or a little water...") and 9:32 ("For, taking refuge in Me, they who... may be of a sinful birth—women, Vaisyas, and Sudras—attain the Supreme Goal").
+- Book of Daniel
+- Book of Documents (Shujing) — cited by Mencius on the Mandate of Heaven
+- Book of Ecclesiastes
+- Book of Ezekiel
+- Book of Ezra
+- Book of Jeremiah
+- Book of Job
+- Book of Nehemiah
+- Book of the Odes (Shijing) — referenced re: the ancestral "personator" rite
+- The Brahmanas: Vedic prose ritual commentaries, c. 900-700 BCE, including the doctrine that without the morning offering the sun would not rise.
+- Brihadaranyaka Upanishad
+- Chandogya Upanishad, trans. Max Müller
+- The Coffin Texts: over a thousand spells on Middle Kingdom coffins, extending the royal afterlife formulae to private persons ("Osiris N").
+- Confucius, The Analects, trans. James Legge (1893)
+- Desiderius Erasmus, Greek New Testament — the base text from which Luther translated the German New Testament at the Wartburg.
+- Dhammacakkappavattana Sutta, trans. T. W. Rhys Davids
+- Dhammapada, trans. F. Max Müller, Sacred Books of the East, vol. X (1881)
+- The Dhammapada, translated by F. Max Müller, Sacred Books of the East, vol. X (1881). Verses quoted: Dhammapada 103 ("If one man conquer in battle...") and the verse "You yourself must make an effort. The Tathagatas (Buddhas) are only preachers."
+- The Diamond Sutra, Chinese translation by Kumarajiva (early 5th century CE).
+- Didache (early Christian church manual)
+- The Egyptian Book of the Dead: Papyrus of Ani (chapters 30B, 44, 125, and the shabti spell of chapter 6) and Papyrus of Nu (the Negative Confession), trans. E. A. Wallis Budge.
+- Enuma Elish (Babylonian creation epic), Tablet VI, trans. L. W. King, The Seven Tablets of Creation (1902).
+- The Fire Sermon (Adittapariyaya Sutta), trans. Henry Clarke Warren (1896)
+- The Gathas of Zarathustra and the Yasna liturgy (Yasna 9, 29-30, 44, 46, 48), trans. L. H. Mills (1898).
+- Genesis (creation account, flood narrative, Tower of Babel)
+- The Geneva Bible (1560) — produced by English Protestant exiles in Geneva; the first English Bible with numbered verses; the Bible of Shakespeare and the Puritans.
+- The Great Hymn to the Aten, carved in a courtier's tomb at Akhetaten (Amarna), c. 1350 BCE.
+- Han Fei, writings of Han Fei (Han Feizi)
+- The Heart Sutra (Prajnaparamita-hrdaya), 260-character Chinese version; quoted: "Form is not different from emptiness..." and the closing mantra "Gate gate paragate parasamgate bodhi svaha."
+- Hesiod, Theogony
+- Hesiod, Works and Days
+- The Holy Bible, King James Version (1611).
+- The Holy Qur'an, translated by Abdullah Yusuf Ali (1934-1937). Passages quoted: 96:1-5; 93:6-8; 112:1-4; 17:1; 3:103; 49:13; 2:143; 9:60; 2:183; 2:256; 33:40; 24:35.
+- The Holy Scriptures According to the Masoretic Text, Jewish Publication Society translation (1917).
+- Homer, Iliad
+- Homer, Odyssey
+- Homeric Hymn to Apollo
+- Homeric Hymn to Demeter, trans. Hugh G. Evelyn-White
+- Homeric Hymn to Dionysus (Homeric Hymn VII)
+- Joseph Smith (trans.), The Book of Mormon (Palmyra, New York, 1830).
+- Katha Upanishad, trans. Max Müller (1884)
+- Leviticus (covenant curses, ch. 26)
+- The Lotus Sutra, Chinese translation by Kumarajiva (early 5th century CE).
+- Martin Luther (trans.), German New Testament (the 'September Testament,' Wittenberg, 1522) and complete German Bible (1534), including the disputed 'allein' ('by faith alone') at Romans.
+- Metta Sutta (Sutta Nipata), quoted: "As a mother at the risk of her life watches over her own child, her only child, so also let every one cultivate a boundless (friendly) mind towards all beings."
+- Metta Sutta, trans. V. Fausböll
+- Moses Mendelssohn (trans.), German translation of the Torah, printed in Hebrew characters for readers raised in Yiddish.
+- Mozi (Mo Di), The Mozi
+- Orphic Hymn to Death, trans. Thomas Taylor (1792)
+- The Platform Sutra of the Sixth Patriarch (Chan/Zen scripture recounting Huineng's succession; treated by scholars as sectarian campaign literature).
+- Popol Vuh (Book of the Council of the K'iche' Maya), in the rendering of Lewis Spence, The Popol Vuh: The Mythic and Heroic Sagas of the Kichés of Central America (1908); written down in the Latin alphabet by anonymous K'iche' nobles, highland Guatemala, 1550s. Quoted: the Hurakan creation passage and the grinding stones' speech.
+- The Pyramid Texts, from the pyramid of King Unas, c. 2350 BCE, including the Cannibal Hymn — the oldest substantial body of religious writing on earth.
+- The Rigveda, trans. Ralph T. H. Griffith (1896): hymns 1.1, 1.25, 1.32, 1.91, 1.162, 1.164, 8 (soma hymns), 9 (Soma Pavamana), 10.90 (Purusha hymn), 10.129 (creation hymn).
+- Sacred Nahuatl hymns of the Mexica, in the translation of Daniel G. Brinton, Rig Veda Americanus: Sacred Songs of the Ancient Mexicans (1890). Quoted: hymn of Huitzilopochtli ("Huitzilopochtli is first in rank...") and hymn of Tlaloc ("I, the god, have returned again...").
+- Sikh scripture in the translation of M. A. Macauliffe, The Sikh Religion (1909). Passages quoted: Japji Sahib, Mul Mantar ("There is but one God whose name is true...") and Sohila 3 ("The sun and moon, O Lord, are Thy lamps...").
+- Tao Te Ching (Daodejing), trans. James Legge
+- The Vimalakirti Sutra, Chinese translation by Kumarajiva (early 5th century CE).
+- William Tyndale (trans.), English New Testament (1526, printed abroad and smuggled into England; corrected second edition funded in part by the bishop of London's own burning purchases).
+- The Yajurveda: sacrificial formulas of the adhvaryu priest, including the reciprocity formula "give to me, and I give to you."
+- Yasna (Zoroastrian liturgy), trans. Lawrence H. Mills
+- Zhuangzi, Inner Chapters, trans. Herbert Giles
+
+## Classical & Historical Works
+
+- "Man and His God" (Sumerian poem of the righteous sufferer), copied in the schools of the early second millennium BCE.
+- "Schooldays" (Sumerian edubba composition on a pupil's day), copied in Old Babylonian schools.
+- Abraham ibn Ezra, biblical commentaries — the cautious riddles hinting that Moses could not have written all of the Pentateuch, developed by Spinoza in the Tractatus Theologico-Politicus.
+- al-Ghazali, The Incoherence of the Philosophers (Tahafut al-Falasifa, 11th century CE).
+- al-Khwarizmi, treatise on al-jabr (the Compendious Book on Calculation by Completion and Balancing, 9th century CE), source of the word "algebra," and his primer on the Indian numerals, source via his Latinized name of the word "algorithm."
+- al-Razi, treatise distinguishing smallpox from measles (9th-10th century CE, Baghdad): the first clear differential diagnosis of the two diseases.
+- Ambrose of Milan, letters to the emperor Theodosius (388-390 CE): the Callinicum synagogue affair and the demand for public penance after the Thessalonica massacre.
+- The Analects of Confucius: King Tang's drought oath as recorded there, the saying "He sacrificed to the dead, as if they were present," and the tradition of Confucius cursing the makers of tomb figurines.
+- Aristotle, corpus of logic, physics, biology, metaphysics, and ethics: transmitted through Arabic, translated into Latin in the twelfth century, banned at Paris in 1210 and 1215, and made required reading there by 1255.
+- Aristotle, Metaphysics (on the unmoved mover)
+- Arius, Thalia (early 4th century CE): the Arian teaching in verse, reportedly set to popular tunes.
+- Arrian, Anabasis of Alexander
+- Athanasius of Alexandria, Life of Antony (c. 360 CE): the desert father's biography, promptly translated into Latin, the ancient world's runaway bestseller.
+- Atrahasis (Old Babylonian flood poem), written down c. 17th century BCE; scribal colophon dating one copy to the reign of Ammi-saduqa of Babylon.
+- Augustine of Hippo, Confessions (c. 397-400 CE): the Milan garden conversion scene ("take up and read") and the account of hearing about Antony's Life.
+- Augustine of Hippo, The City of God (413-426 CE): the two cities built by two loves, written in answer to the pagan accusation after the sack of Rome.
+- The Baal Cycle of Ugarit, written down by the scribe Ilimilku, student of Attenu the diviner, under King Niqmaddu of Ugarit (13th century BCE); excavated at Ras Shamra from 1929 under Claude Schaeffer.
+- Benedict of Nursia, Rule of St. Benedict (c. 530s CE, Monte Cassino): the "little rule for beginners" prescribing the horarium, lectio divina, and the Lenten distribution of books; "idleness is the enemy of the soul."
+- Bernard of Clairvaux, Apologia (12th century CE): the mockery of carved monsters in Cluniac cloisters as expensive distractions from prayer.
+- Bernard of Clairvaux, In Praise of the New Knighthood (De laude novae militiae, 12th century CE): apologia for the Templars, arguing that killing evildoers in defense of Christendom was the destruction of evil, not homicide.
+- The Book of Documents (Shujing): the Duke of Zhou's announcements to the conquered Shang officers, the warning that Heaven's mandate is not constant, and the alcohol announcement.
+- The Book of Odes (Shijing): the Da Ya ode on King Wen's virtue, and the "Yellow Bird" lament for three brothers buried with a dead duke.
+- Cassiodorus, Institutiones (6th century CE, Vivarium): the copyist preaches with the hand and fights the devil with pen and ink.
+- Catherine of Siena, letters to popes and princes (14th century CE): dictated exhortations urging Gregory XI to return the papacy to Rome.
+- Cicero, Against Verres (on crucifixion as punishment)
+- The Curse of Agade (Sumerian poem on the fall of Naram-Sin's empire), composed under the Third Dynasty of Ur.
+- Dante Alighieri, Inferno (early 14th century CE): the crowd-control arrangements on the bridge of Castel Sant'Angelo during the 1300 jubilee.
+- The Descent of Ishtar (Babylonian underworld poem), trans. Morris Jastrow (1915).
+- Dharmasvamin, pilgrimage account of Nalanda (1235 CE): a ninety-year-old teacher instructing seventy students amid the ruins.
+- The Eloquent Peasant (Middle Kingdom tale of the salt-hauler Khunanup's nine petitions).
+- Epic of Gilgamesh, standard version attributed to Sin-leqi-unninni of Uruk; Tablets X and XI trans. R. Campbell Thompson (1928).
+- Epicurus, the trilemma on divine power, benevolence, and evil ('if God is willing to prevent evil but not able...'), as pressed by Philo in Hume's Dialogues Concerning Natural Religion.
+- Euclid, Elements, Books I-VI, translated into Chinese by Matteo Ricci with Xu Guangqi.
+- Euripides, Bacchae
+- Eusebius of Caesarea, Life of Constantine (after 337 CE): the cross-of-light vision seen by the army, sworn to by the emperor.
+- Gabriele de' Mussi, plague chronicle (14th century CE): the claim that the Mongol army besieging Kaffa catapulted its plague dead over the walls.
+- Geoffrey Chaucer, The Canterbury Tales (1390s): the Pardoner, with his wallet of pardons hot from Rome, his pillowcase passed off as Our Lady's veil, and pig's bones as relics.
+- Guibert of Nogent, On the Relics of Saints (De pignoribus sanctorum, early 12th century CE): the observation that two churches claimed the head of John the Baptist.
+- Guy de Chauliac, surgical writings on the Black Death (mid-14th century CE, Avignon): clinical account of the plague's symptoms and his own infection and survival, noting he continued visiting the sick "only to avoid dishonor."
+- Han Yu, Memorial on the Bone of the Buddha (819 CE): protest to the Tang throne that the Buddha was a barbarian who did not speak Chinese and the venerated relic a decayed bone; its author was exiled.
+- Havamal (Old Norse verse; quoted: 'Cattle die, kindred die').
+- Heraclitus of Ephesus, surviving fragments
+- Herodotus, Histories
+- Herodotus, Histories: on the pyramids and embalming price tiers (visit to Egypt c. 450 BCE), and on Persian religion without statues or temples.
+- Huahujing (Scripture of the Conversion of the Barbarians): Daoist polemical scripture claiming Laozi went west and became the Buddha.
+- Hávamál, stanzas 76–77, in the Poetic (Elder) Edda, trans. Benjamin Thorpe, The Edda of Saemund the Learned (London, 1866). Chapter 2 epigraph; 'fame' and 'judgment on each one dead.'
+- Ibn al-Haytham, Book of Optics (Kitab al-Manazir, c. 1000 CE, Cairo): experimental demonstration that the eye receives light rather than emitting rays.
+- Ibn Rushd (Averroes), commentaries on Aristotle (12th century CE, Cordoba): translated from Arabic to Latin in Spain; medieval Latin writers called him simply "the Commentator."
+- Ibn Rushd (Averroes), The Incoherence of the Incoherence (Tahafut al-Tahafut, 12th century CE).
+- Ibn Sina (Avicenna), The Canon of Medicine (11th century CE): systematization of Greek and Arabic medicine, taught in European faculties into the seventeenth century.
+- Inanna and Enki (Sumerian tale of the transfer of the me), copies of the early second millennium BCE.
+- Jerome, letters and prefaces on the sack of Rome (410 CE): "the city that had taken the whole world captive had itself been taken."
+- Josephus, Jewish Antiquities and The Jewish War
+- Julian of Norwich, Revelations of Divine Love (visions received May 1373; the first book in English attributable to a woman). Quoted: "All shall be well, and all shall be well, and all manner of thing shall be well."
+- Lactantius, On the Deaths of the Persecutors (early 4th century CE): the Great Persecution, Galerius's disease, and Constantine's dream of the heavenly sign before the Milvian Bridge.
+- Mencius, on the Book of Documents' account of Muye ("better to have no Book of Documents than to believe everything in it").
+- Mozi, "Will of Heaven" (including a preserved ode of the Da Ya on King Wen and the doctrine "When the emperor practises virtue Heaven rewards"), trans. Yi-Pao Mei.
+- Niketas Choniates, History (early 13th century CE): eyewitness account of the sack of Constantinople, 1204 — altars broken for metal, mules slipping in blood in Hagia Sophia, a prostitute enthroned in the patriarch's seat.
+- Peter Abelard, Sic et Non (early 12th century CE): over one hundred fifty theological questions with the church fathers lined up in contradiction, on the principle that doubt leads to inquiry and inquiry to truth.
+- Petrarch, writings against the Avignon papacy (14th century CE): the label "the Babylon of the West."
+- Plato, Apology
+- Plato, Euthyphro
+- Plato, Phaedo
+- Plato, Republic
+- Plato, Timaeus
+- Pliny the Younger, Letters 10.96-97 (c. 112 CE): exchange with the emperor Trajan on the trial of Christians in Bithynia, with Trajan's rescript ("do not seek them out").
+- Plutarch, Life of Alexander / Moralia (on the Delphic oracle)
+- Plutarch, On Isis and Osiris, c. 100 CE — the only connected narrative of the Osiris myth.
+- Pseudo-Dionysius the Areopagite, corpus of mystical theology (Syrian, c. 500 CE; medieval attribution to St. Denis of Paris): the light-mysticism drawn on by Abbot Suger for the rebuilt choir of Saint-Denis.
+- Ptolemy, Almagest: the book Gerard of Cremona reportedly came to Toledo to find, staying a lifetime to translate seventy more.
+- Raymond of Aguilers, chronicle of the First Crusade (late 11th century CE): the boast of the Jerusalem massacre of 1099 in Apocalypse imagery of blood to the horses' bridles.
+- The Report of Wenamun, c. 1075 BCE: the journey of a Theban temple official to Byblos to buy cedar for Amun's barque.
+- Royal hymns of Shulgi of Ur, including the hymn of the Nippur-Ur festival run.
+- Rufinus of Aquileia, Church History (early 5th century CE): eyewitness-era account of the destruction of the Serapeum at Alexandria, 391.
+- Sahih al-Bukhari (9th century CE): hadith collection preserving the tradition of the first revelation in the cave on Mount Hira; traditionally said to have been sifted from some 600,000 reports down to roughly 7,000.
+- Sayings of the Desert Fathers (Apophthegmata Patrum), including sayings of the desert mothers Syncletica, Sarah, and Theodora; quoted: "stay in your cell, and the cell will teach you everything."
+- Sima Qian, Records of the Grand Historian (Shiji)
+- Sima Qian, Records of the Grand Historian: the roll of Shang kings, vindicated king for king by the oracle-bone inscriptions.
+- Socrates Scholasticus, Ecclesiastical History (5th century CE): the murder of Hypatia recorded as a disgrace to the faith.
+- The Sumerian King List, with its antediluvian reigns totalling 241,200 years.
+- Symmachus, Relatio 3 (384 CE): the petition for the return of the Altar of Victory, with the sentence that "it cannot be by one road alone that men arrive at so great a secret."
+- Tacitus, Annals
+- Tannisho (record of Shinran's sayings by his student, 13th century CE, Japan): "if even the good are saved, how much more the wicked."
+- Temple hymns and the devotional poem to Inanna attributed to Enheduanna, en-priestess of Nanna at Ur (attribution debated; surviving copies centuries later).
+- Tertullian, Apologeticus (c. 197 CE): the boast that the blood of Christians is seed.
+- Thomas Aquinas, Summa Theologiae (13th century CE): the scholastic machine run over the whole of Christian doctrine and Aristotelian science, including the five ways to demonstrate God's existence.
+- Xenophanes of Colophon, surviving fragments
+- Xuanzang, travel account of his journey to India (645 CE; the Record of the Western Regions): source for Nalanda's ten thousand students and, a millennium later, raw material for the novel Journey to the West.
+- Yijing, account of his voyage to India via Srivijaya (671 CE): report of a thousand monks in residence at the Srivijayan capital and the recommendation that Chinese pilgrims stop there for language study.
+- The Zhouyi (Changes of Zhou, seed of the I Ching): first line of the first hexagram ("the dragon lying hid") and the thunder hexagram's unshaken worshiper.
+
+## Studies & Experiments
+
+- Ain Ghazal, Jordan — caches of some thirty lime-plaster statues and busts over reed armatures, discovered 1983 and 1985 and dated c. 6500 BCE; excavations by Gary Rollefson and Alan Simmons.
+- Ain Mallaha (Eynan), Israel — Natufian burial of an elderly person with a hand resting on a puppy, c. 12,000 BCE; excavations by Jean Perrot, with the dog burial reported by Simon Davis and François Valla, Nature 276 (1978); dead buried among and beneath the houses.
+- Albert Schweitzer, The Quest of the Historical Jesus (1906) — argument for Jesus as apocalyptic prophet
+- Alonso de Salazar Frias, audit of the great Basque witch panic for the Spanish Inquisition (begun 1610) — hundreds re-interviewed, sabbath stories cross-tested, not one verifiable event; 'neither witches nor bewitched in a village until people began talking and writing about them.'
+- Angel, J. Lawrence — the classic eastern Mediterranean skeletal series showing a fall in average stature of roughly fifteen centimetres from the end of the Ice Age to the late Neolithic, unrecovered until the twentieth century.
+- Ara Norenzayan, research on "Big Gods" and moralizing supernatural surveillance
+- Archaeological recovery of three Inca capacocha children on the summit of Llullaillaco (1999), with subsequent hair-chemistry analyses showing the Maiden's rising intake of maize beer and coca in her final year.
+- Arene Candide, Liguria — the 'Il Principe' adolescent burial, c. 23,500 BP, excavated by Luigi Cardini (1942): ochre bed, cap of perforated shells and deer canines, elk-antler batons, a long exotic flint blade, and ochre packed into the jaw wound.
+- Baldwin Spencer and F. J. Gillen, ethnographic gloss of the Arrernte term alcheringa as "dream times" (1899), origin of the English term "the Dreaming" (later refined by scholarship as "the Everywhen").
+- Barkai, Ran, and Roy Liran. 'Midsummer Sunset at Neolithic Jericho,' Time and Mind 1 (2008) — the argument that the tower is aligned to the midsummer sunset and the mountain's advancing shadow.
+- Benjamin Franklin's acoustic measurement of George Whitefield's open-air preaching in Philadelphia — backing down Market Street to the limit of intelligibility and computing, at two square feet per auditor, that thirty thousand hearers was possible; recorded together with the emptying of his pockets into the collection plate.
+- Border Cave, South Africa — infant burial c. 74,000 BP with a pigment-stained perforated marine shell; excavations by Peter Beaumont and colleagues.
+- Braidwood, Robert J., et al. 'Symposium: Did Man Once Live by Beer Alone?' American Anthropologist 55 (1953) — the proposal that brewing, not bread, drove early cereal cultivation.
+- Breuil, Henri — the drawing of 'The Sorcerer,' the therianthropic figure engraved and painted at Les Trois-Frères, Ariège; photographs of the wall show considerably less than Breuil's published rendering.
+- Brno II burial, Moravia, c. 26,000 BP — a chronically ill man buried with rhinoceros rib, mammoth tusk, hundreds of fossil shells, drilled discs, and a jointed ivory male figurine.
+- Chauvet-Pont-d'Arc Cave, Ardèche — discovered 1994 by Jean-Marie Chauvet, Éliette Brunel and Christian Hillaire; charcoal dates clustering c. 36,000–33,000 BP; lions, rhinoceroses, cave bears and mammoths.
+- Conard, Nicholas J. 'A female figurine from the basal Aurignacian of Hohle Fels Cave in southwestern Germany,' Nature 459 (2009) — the headless, loop-suspended ivory 'Venus' of Hohle Fels, c. 40,000 BP.
+- Conard, Nicholas J., Maria Malina and Susanne C. Münzel. 'New flutes document the earliest musical tradition in southwestern Germany,' Nature 460 (2009) — the griffon-vulture bone flute and ivory flutes of Hohle Fels, c. 40,000 BP.
+- David Graeber, Debt: The First 5,000 Years — "military-coinage-slavery complex"
+- David Keightley, studies of the Shang oracle-bone corpus, including the observation that Di, the High God, receives almost no direct sacrifice in the record.
+- Denise Schmandt-Besserat, reconstruction of the origin of writing from clay tokens, bullae, and impressed envelopes (Near East, from c. 7500 BCE).
+- Diamond, Jared. 'The Worst Mistake in the History of the Human Race,' Discover (May 1987) — the skeletal case against the adoption of agriculture.
+- Dietrich, Oliver, Manfred Heun, Jens Notroff, Klaus Schmidt and Martin Zarnkow. 'The role of cult and feasting in the emergence of Neolithic communities: new evidence from Göbekli Tepe,' Antiquity 86 (2012) — oxalate residues in limestone vats of up to 160 litres as possible evidence of malting and brewing.
+- Dolní Věstonice burial DV 3 (excavated 1949) — an older woman with facial asymmetry laid under two mammoth scapulae with arctic fox bones, and the carved ivory head from the same settlement whose left side droops.
+- Dolní Věstonice II triple burial (DV 13, 14, 15), Moravia, c. 31,000 BP — excavated 1986 by Bohuslav Klíma; ochred skulls, one individual with congenital deformities, later aDNA suggesting all three were male.
+- Ethnographic accounts of megalith hauling on Sumba, Indonesia — hundreds of haulers on rattan ropes recruited and paid by feasting (e.g. Ron L. Adams on West Sumba work-feasts).
+- Excavation of the Huei Tzompantli, the great Mexica skull rack beside the Templo Mayor, located beneath a colonial-era building in Mexico City in 2015; skulls of more than six hundred men, women, and children recovered, many mortared into towers.
+- Experimental replication of Sungir-type mammoth-ivory beads with flint and sandstone tools, indicating roughly one hour of work per bead.
+- Ferdinand Christian Baur (Tübingen), critical reading of the New Testament as a battlefield of rival early-church factions, with redating of its books.
+- Gargas Cave, Hautes-Pyrénées — hand stencils showing missing or folded finger segments.
+- George Mendenhall, identification of the parallels between the Sinai covenant and Hittite suzerainty treaty forms (1950s).
+- George Smith, announcement of the Chaldean flood tablet from the library of Ashurbanipal to the Society of Biblical Archaeology, London, December 1872; the missing fragment recovered at Nineveh on a newspaper-funded expedition.
+- George Smith, decipherment of the Babylonian flood tablet at the British Museum (1872)
+- Goodall, Jane. Observations of chimpanzee 'rain dance' displays at Gombe, Tanzania (reported in In the Shadow of Man, 1971, and later writings).
+- Grosman, Leore, Natalie D. Munro and Anna Belfer-Cohen. 'A 12,000-year-old Shaman burial from the southern Levant (Israel),' PNAS 105 (2008) — the Hilazon Tachtit woman buried with eagle wing-tip, leopard pelvis, human foot, marten skulls and some fifty tortoise shells.
+- Göbekli Tepe excavations, Şanlıurfa province — begun by Klaus Schmidt for the German Archaeological Institute in 1995 and continuing since his death in 2014: Enclosures A–D with T-shaped pillars of up to 5.5 m and 8–10 tonnes, radiocarbon dates c. 9500 BCE, the animal reliefs and the 'Vulture Stone,' the abandoned c. 50-tonne pillar in the quarry, feasting debris, carved worked skull fragments, and the later finds of domestic buildings, grinding stones and rock-cut cisterns.
+- Harlan, Jack R. 'A Wild Wheat Harvest in Turkey,' Archaeology 20 (1967) — hand and flint-sickle harvesting of wild einkorn on Karacadağ, showing wild stands could yield more grain than a family could eat in a year.
+- Heider, Fritz, and Marianne Simmel. 'An Experimental Study of Apparent Behavior,' American Journal of Psychology 57 (1944) — viewers spontaneously narrate moving geometric shapes as chasing, bullying, and escaping agents.
+- Heun, Manfred, et al. 'Site of Einkorn Wheat Domestication Identified by DNA Fingerprinting,' Science 278 (1997) — the wild relatives of domesticated einkorn traced to Karacadağ, within sight of Göbekli Tepe.
+- Irons, William. 'Religion as a Hard-to-Fake Sign of Commitment' (2001), and Iannaccone, Laurence R. 'Sacrifice and Stigma: Reducing Free-Riding in Cults, Communes, and Other Collectives,' Journal of Political Economy 100 (1992) — costly signaling extended to religious communities.
+- Jacques Le Goff, historical study locating the full crystallization of the doctrine of purgatory in the twelfth century (The Birth of Purgatory, 1981).
+- James Prinsep, decipherment of the Brahmi script (1837)
+- Jan Assmann, characterization of Atenism as the first "counter-religion" — a faith defined by what it negates.
+- Jan Assmann, critique of the Axial Age thesis (Egyptological argument)
+- Jaubert, Jacques, et al. 'Early Neanderthal constructions deep in Bruniquel Cave in southwestern France,' Nature 534 (2016) — the stalagmite rings dated to c. 176,500 years ago.
+- Joint Istanbul University–University of Chicago prehistoric survey of southeastern Turkey (1963) — the first recording of Göbekli Tepe, whose worked limestone slabs were logged as probable medieval grave markers.
+- Ju/'hoansi (!Kung) San healing dance of the Kalahari — twentieth-century ethnographic accounts of n/um and !kia trance healing (e.g. Richard Katz, Boiling Energy, 1982; Lorna Marshall, The !Kung of Nyae Nyae, 1976), and the associated southern African rock art of bent, nose-bleeding dancers and part-human, part-antelope beings.
+- Karahan Tepe excavations, Şanlıurfa province (from 2019, Necmi Karul) — the chamber of eleven phallic pillars overseen by a human head carved from the living rock.
+- Karl Jaspers, The Origin and Goal of History (1949) — originator of the "Axial Age" concept
+- Kenyon, Kathleen M. Excavations at Tell es-Sultan (Jericho), 1952–1958; Digging Up Jericho (London: Benn, 1957) — the c. 9400 BCE settlement, the stone wall and 8.5 m tower with its twenty-two-step internal staircase, and the seven plastered skulls lifted from beneath a house floor in 1953.
+- Kühl, Hjalmar S., et al. 'Chimpanzee accumulative stone throwing,' Scientific Reports 6 (2016) — repeated stone-hurling and cairn-building at hollow trees in West Africa.
+- Lascaux Cave, Dordogne — discovered September 1940 by Marcel Ravidat and companions; c. 17,000 BP; c. 600 painted animals, the carved red sandstone tallow lamp and the bird-headed man of the Shaft; scaffolding sockets in the gallery walls.
+- Le Tuc d'Audoubert, Ariège — the clay bison and heel-prints found in 1912 by the Bégouën brothers, some 600 metres from daylight.
+- Lion Cavern, Ngwenya, Eswatini — hematite (red ochre) mining from more than 40,000 years ago, among the oldest known mines on Earth.
+- The Lion Man (Löwenmensch) of Hohlenstein-Stadel, Swabian Jura — mammoth-ivory figure c. 40,000 BP, fragments excavated August 1939 (Robert Wetzel), first reassembled from 1969 (Joachim Hahn), completed after re-excavation of the backfill in the 2010s; experimental replication with flint tools required roughly 400 hours.
+- Lorenzo Valla, philological demonstration that the Donation of Constantine is an eighth-century forgery (15th century).
+- Mal'ta, near Lake Baikal, Siberia — slim clothed and hooded ivory female figurines, excavated by Mikhail Gerasimov from 1928.
+- Mark Lehner and Zahi Hawass, excavations of the pyramid builders' town and workers' cemetery at Giza (barracks, bakeries, medical care, gang graffiti).
+- Martinón-Torres, María, et al. 'Earliest known human burial in Africa,' Nature 593 (2021) — the child 'Mtoto' buried c. 78,000 years ago at Panga ya Saidi, Kenya, head apparently supported by a perished cushion.
+- McDermott, LeRoy. 'Self-Representation in Upper Paleolithic Female Figurines,' Current Anthropology 37 (1996) — the argument that the figurines' proportions match a woman's view of her own body.
+- Mellaart, James. Excavations at Çatal Hüyük, 1961–1965; Çatal Hüyük: A Neolithic Town in Anatolia (London: Thames & Hudson, 1967) — the Seated Woman found in a grain bin in 1961; Mellaart's later career shadowed by accusations of fabricated finds.
+- Milman Parry / Albert Lord (and successors), oral-formulaic theory of Homeric composition, informed by fieldwork on Balkan oral bards
+- Modern geological/archaeological survey of faults and gas emissions beneath the Delphi adyton (turn of the 21st century)
+- Molleson, Theya. 'The Eloquent Bones of Abu Hureyra,' Scientific American 271 (1994) — deformed toes, knees and lower spines in the farming-layer women of Abu Hureyra, attributed to hours of daily kneeling at the saddle quern.
+- Mortimer Wheeler, interpretation of the Mohenjo-daro skeletons as massacre victims of an Aryan invasion ("Indra stands accused") — since discredited.
+- Morton Smith, coinage of the term "Yahweh-alone party" for the exclusivist faction within pre-exilic Israelite religion.
+- Nevalı Çori excavations, Şanlıurfa province (1983–1991, Harald Hauptmann) — the cult building with T-shaped pillars; the site now beneath the Atatürk Dam reservoir.
+- Nicolas Baumard, affluence hypothesis for the Axial Age (asceticism as a product of surplus energy capture)
+- Patrick Nunn and Nicholas Reid, comparative study of twenty-one Australian Aboriginal coastal traditions against post-glacial sea-level curves (2016), arguing the stories preserve real coastlines drowned seven thousand or more years ago.
+- Plastered ancestral skulls of the Pre-Pottery Neolithic B Levant — Jericho, Ain Ghazal, Beisamoun, Tell Aswad and Kfar HaHoresh: skulls retrieved from sub-floor graves, modelled in lime plaster with shell-inlaid eyes and painted features.
+- Pomeroy, Emma, et al. 'New Neanderthal remains associated with the "flower burial" at Shanidar Cave,' Antiquity 94 (2020) — the individual designated Shanidar Z and repeated deposition of bodies at the same spot.
+- Qafzeh Cave burials, Israel, c. 100,000–92,000 BP — excavations by Bernard Vandermeersch and colleagues; ochred burials including an adolescent laid with deer antlers and a woman with a small child.
+- R. Gordon Wasson, identification of Vedic soma with the fly agaric mushroom (1968).
+- Radiocarbon dating of early Qur'an parchment fragments, including the Birmingham folios, placing the material within or near Muhammad's lifetime (with the caveat that the test dates the sheepskin, not the ink).
+- Richard Bulliet, quantitative study of conversion to Islam via conversion-signaling names in Iranian biographical dictionaries (Conversion to Islam in the Medieval Period, 1979): Iran not majority-Muslim until perhaps the ninth or tenth century.
+- Robert Bellah, Religion in Human Evolution (2011)
+- Rodney Stark, quantitative model of early Christian growth rates (compounding conversion analysis, comparison to Mormon growth)
+- S. N. Eisenstadt, comparative sociology of the Axial Age
+- Skhul Cave, Mount Carmel — excavations by Dorothy Garrod and Theodore McCown (1930s); the Skhul V burial holding the mandible of a large boar.
+- Solecki, Ralph S. Excavations at Shanidar Cave, Iraqi Kurdistan (1951–1960); Shanidar: The First Flower People (New York: Knopf, 1971) — the Shanidar 4 'flower burial' pollen and the cared-for Shanidar 1 skeleton; the pollen since contested as the work of burrowing rodents.
+- Sungir (Sunghir), Vladimir, Russia — excavations by Otto N. Bader from 1955; the double child burial (Sungir 2 and 3) opened in 1969, with c. 10,000 mammoth-ivory beads, fox-canine ornaments, ivory lances and an ochre-filled human femur; the adult burial Sungir 1; later aDNA indicating both children were male.
+- Thomas Clarkson, prize-winning Latin essay on the lawfulness of enslaving the unconsenting (Cambridge, 1785), and his subsequent documentary investigation of the slave trade — some thirty-five thousand miles ridden, ships boarded and measured, instruments purchased and exhibited, thousands of sailors interviewed, muster rolls mined to prove the trade a graveyard for British seamen.
+- Vandiver, Pamela B., Olga Soffer, Bohuslav Klíma and Jiří Svoboda. 'The Origins of Ceramic Technology at Dolní Věstonice, Czechoslovakia,' Science 246 (1989) — the black ceramic Venus and thousands of fired-clay fragments, evidence that figures were fired wet and shattered, and the fingerprint of a child pressed into one figurine c. 29,000 BP.
+- Venus of Willendorf — found 1908 by Josef Szombathy; Weber, Gerhard W., et al., provenance analysis of the figurine's oolite tracing its stone to sources hundreds of kilometres from the findspot (Scientific Reports, 2022).
+- William Jones, address to the Asiatic Society, Calcutta, 1786: the kinship of Sanskrit, Greek, and Latin, "sprung from some common source."
+- Çatalhöyük burial excavated in 2004 — an adult woman laid in the earth cradling a plastered skull whose modelled face had been resurfaced and repainted with red ochre several times.
+- Çayönü Tepesi, southeastern Turkey — the 'Skull Building' holding the stacked skulls of scores of individuals; excavations by Robert Braidwood and Halet Çambel from 1964.
+
+## Books & Documents
+
+- Act of Supremacy (England, 1534), declaring the king supreme head of the church in England; with the statutes declaring England an empire with no appeals beyond the water.
+- Adam Smith, published letter on the death of David Hume — his friend approaching 'as near to the ideal of a perfectly wise and virtuous man as human frailty permits'; drew ten times more abuse than his attack on the commercial system.
+- Adam Smith, The Wealth of Nations — established clergy as salaried monopolists; the prediction that disestablished preachers would hustle.
+- Alexamenos graffito, Palatine Hill, Rome
+- Alexander Pope, versification of philosophical optimism — 'whatever is, is right.'
+- The Amarna Letters: diplomatic archive of clay tablets in Babylonian cuneiform from Akhetaten.
+- Andrew Dickson White, A History of the Warfare of Science with Theology in Christendom (2 vols., 1896).
+- The Anyang oracle-bone inscriptions, c. 1200 BCE: some 150,000 inscribed fragments of Shang divination records, including the diviner Que's tablets, Wu Ding's toothache charges, and the childbirth verification of Lady Hao (Fu Hao).
+- Archive of the temple household of the goddess Bau at Lagash, c. 2400 BCE (ration lists, dependents' rosters).
+- Ars moriendi ("The Art of Dying," 15th century): deathbed manual in long and short versions, the short with eleven woodcuts printed as block books; the five temptations of the dying staged as an examination with known questions.
+- Ashoka's Rock and Pillar Edicts (Prakrit inscriptions)
+- Atran, Scott. In Gods We Trust: The Evolutionary Landscape of Religion (New York: Oxford University Press, 2002).
+- Babylonian Chronicle tablet recording the 597 BCE capture of Jerusalem (British Museum)
+- Barrett, Justin L. Why Would Anyone Believe in God? (Walnut Creek: AltaMira, 2004) — the Hyperactive Agency Detection Device (HADD).
+- Baruch Spinoza, Ethics (posthumous, 1677) — laid out in geometric order; 'Deus sive Natura.'
+- Baruch Spinoza, Tractatus Theologico-Politicus (published anonymously under a false Hamburg imprint, 1670).
+- Boniface VIII, bull Unam Sanctam (1302): the claim that both swords, spiritual and temporal, belong ultimately to the church.
+- The books of Chilam Balam (colonial Yucatan): Maya scribal compilations braiding katun-cycle prophecy with Christian saints into a single continuing count of days.
+- The boundary stelae of Akhetaten: more than a dozen stelae recording Akhenaten's oath fixing the limits of his new capital.
+- Boyer, Pascal. Religion Explained: The Evolutionary Origins of Religious Thought (New York: Basic Books, 2001) — minimally counterintuitive concepts as the most transmissible.
+- The Brookes diagram — slave-ship deck plan with its human cargo drawn to scale, printed by the abolition committee and posted in taverns and parlors across Britain.
+- Bull of excommunication laid on the altar of Hagia Sophia by Cardinal Humbert of Silva Candida (July 16, 1054): damning Patriarch Michael Cerularius, including the mistaken charge that the Greeks had deleted the filioque from the creed.
+- Bull of Pope Innocent X declaring the religious articles of the Peace of Westphalia null, void, and damnable for all time (1648) — filed and ignored by the signatory powers.
+- Bulls of Clement VI protecting the Jews (1348): pointing out that Jews were dying of the plague like everyone else, ordering clergy to protect them, and offering refuge in Avignon's territories.
+- Catalog of Frederick the Wise's relic collection at the Wittenberg castle church (1518) — more than seventeen thousand pieces, with stackable indulgences reckoned at over a million years off purgatory.
+- Charles Darwin, autobiographical recollections — quoted: 'I did not at that time trouble myself about Paley's premises.'
+- Charles Darwin, letter to Joseph Hooker confiding the species theory — 'like confessing a murder.'
+- Charles Darwin, On the Origin of Species by Means of Natural Selection (John Murray, 1859) — 1,250 copies oversubscribed at the trade sale of November 22; quoted: 'Light will be thrown on the origin of man and his history'; second edition carries the Kingsley passage.
+- Charles Kingsley, letter to Darwin (November 1859) — a God 'who could make all things make themselves' as the nobler conception; printed, lightly disguised, in the second edition of the Origin as the words of 'a celebrated author and divine.'
+- Charles Lyell, geological works — the deep time opened 'like a trapdoor under the Victorian pulpit.'
+- The Chillon well-poisoning confessions (autumn 1348): extracted under torture and circulated as evidence between city councils in the lead-up to the plague-era massacres of Jews.
+- Christiaan Huygens, letters to his brother praising Spinoza's lenses and referring to their maker as 'our Israelite.'
+- Civil Constitution of the Clergy (France, 1790) — priests as salaried, elected state officials; the oath that split France.
+- Clement VI, bull Unigenitus (1343): formalization of the treasury of merit from which indulgences are drawn.
+- The Code of Hammurabi, diorite stele of 282 laws, c. 1754 BCE; prologue trans. L. W. King. Looted to Susa by an Elamite king; found by French archaeologists, 1901.
+- Codex Amiatinus (c. 700 CE, Wearmouth-Jarrow, Northumbria): seventy-five-pound single-volume Bible estimated to have required the skins of some five hundred calves.
+- Codex Calixtinus (12th century CE): compilation including a pilgrim's guidebook to the road to Santiago de Compostela — route stages, safe rivers, murderous ferrymen, kindly locals.
+- Colonial constitution of Carolina, drafted with Locke as secretary to the proprietors — religious toleration guaranteed in one clause, absolute power over enslaved people entrenched in another.
+- Commemorative medal of Pope Gregory XIII, 'Ugonottorum strages' ('the slaughter of the Huguenots'), struck after the St. Bartholomew's Day massacre (1572), with the commissioned Vatican frescoes of the scene.
+- Concordat of 1801 between Napoleon and the Catholic Church — the church restored to France, salaried, supervised, and useful.
+- The Conques community's own account of the theft of the relics of St. Foy from Agen (Translatio, 9th-11th century CE): holy theft (furta sacra) presented as pious enterprise.
+- Constantine's letter to the disputants in the Arian controversy (surviving; early 320s CE): the question deemed trifling and unworthy of such contention.
+- The Constitution of Medina (early 7th century CE, preserved in early sources; considered genuinely archaic by scholars): the believers and their allies declared a single umma, distinct from all other people.
+- Council of Constance, decree Haec Sancta (1415): a general council holds its power directly from Christ, and even a pope owes it obedience.
+- Cyrus Cylinder (Babylonian inscription, discovered 1879)
+- David Friedrich Strauss, Das Leben Jesu, kritisch bearbeitet (The Life of Jesus, Critically Examined, 1835); English translation by Marian Evans (George Eliot), 1846.
+- David Hume, 'Of Miracles' (1748) — no testimony sufficient unless its falsehood would be more miraculous than the event it reports.
+- David Hume, A Treatise of Human Nature (1739) — which 'fell dead-born from the press.'
+- David Hume, Dialogues Concerning Natural Religion (written decades earlier, circulated privately, published by his nephew in 1779).
+- David Hume, short autobiography ('my little autobiography') — source of the 'dead-born from the press' remark.
+- Dead Sea Scrolls (Qumran library), including the War Scroll
+- Decree of the National Convention establishing the Cult of the Supreme Being (spring 1794) — the French people 'recognize the existence of the Supreme Being and the immortality of the soul'; inaugural festival staged by Jacques-Louis David, June 8, 1794.
+- Decrees and canons of the Council of Trent (1545-1563), including the decree on justification (1547) with its anathema on 'faith alone,' the reaffirmation of the seven sacraments, and the seminary decree.
+- Dennett, Daniel C. Breaking the Spell: Religion as a Natural Phenomenon (New York: Viking, 2006).
+- Diego de Landa, account of Maya calendar, ritual, and writing (Relación de las cosas de Yucatán, 1560s): written after his 1562 auto-da-fé at Maní that burned twenty-seven hieroglyphic books; the destroyer's account became the key to the script he burned.
+- The Donation of Constantine (eighth-century forgery): the document by which Constantine supposedly granted the popes imperial rank, cited in Leo IX's correspondence with the patriarch; proved forged by Lorenzo Valla in the fifteenth century.
+- The Dresden Codex (one of only four surviving Maya books): Venus table tracking the 584-day cycle with built-in corrections, and eclipse danger-window tables keyed to the sacred round.
+- Dunhuang documents on the Samye debate (c. 792-794 CE): telling the story of the Indian-versus-Chan contest differently from the Tibetan sources.
+- Durkheim, Émile. Les formes élémentaires de la vie religieuse (1912); Eng. The Elementary Forms of the Religious Life — the sacred/profane division, the moral community or 'church,' and collective effervescence.
+- Early Qur'an manuscripts: the Sanaa palimpsests and the Birmingham folios (parchment radiocarbon-dated to Muhammad's era or just after); witnesses to the early date of the Uthmanic recension (c. 650 CE).
+- Edict of Nantes (1598) — Huguenot worship rights, civil equality, and over a hundred garrisoned towns at royal expense; revoked by Louis XIV in 1685.
+- Edict of Restitution (1629) — imperial decree clawing back a century of secularized church lands during the Thirty Years' War.
+- Edict of Thessalonica of Theodosius I (Cunctos populos, February 380 CE): all peoples to practice the religion Peter delivered to the Romans; dissenters branded demented and insane, bearing the infamy of heretics.
+- Edict of toleration of the emperor Galerius (311 CE): grudging concession ending the Great Persecution, closing with a request that Christians pray for the emperor's health.
+- Edict of Worms (1521), declaring Luther an outlaw whom anyone might kill.
+- Edward Gibbon, The History of the Decline and Fall of the Roman Empire (1776-1789): the fantasy that, had Tours gone otherwise, the Qur'an would be taught at Oxford.
+- Edward Hall, Chronicle — account of the bishop of London's purchase of Tyndale Testaments to burn, the money funding the corrected second edition.
+- Egyptian frontier official's papyrus report, c. 1200 BCE, recording Shasu clans of Edom admitted through a border fortress to water their flocks.
+- The Egyptian-Hittite peace treaty of 1259 BCE between Ramesses II and Hattusili III — the world's oldest surviving peace treaty preserved from both sides; a replica hangs at the United Nations.
+- First Amendment to the United States Constitution (1791) — quoted: 'Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof.'
+- The five surviving versions of Pope Urban II's Clermont sermon (preached November 27, 1095; all written down years later): agreeing on the gist, diverging on nearly everything else; source of the cry Deus le volt.
+- Foundation charter of the abbey of Cluny (910 CE, Burgundy): freeing the house from every authority except Rome itself.
+- The French Republican calendar (1793) — twelve thirty-day months in seasonal triads, ten-day decades, a plant, animal, mineral, or tool for every day; abolished by Napoleon in 1806.
+- Friedrich Nietzsche, The Gay Science (1882), section 125 — the madman's lantern; 'God is dead. God remains dead. And we have killed him.'
+- Friedrich Spee, Cautio Criminalis (published anonymously, 1631) — insider demolition of witch-trial torture as a machine for manufacturing witches.
+- Geertz, Clifford. 'Religion as a Cultural System' (1966), repr. in The Interpretation of Cultures (New York: Basic Books, 1973) — the paragraph-length definition of religion.
+- George Eliot, Middlemarch — the great English novel of ordinary moral seriousness, by the translator of Strauss and Feuerbach.
+- George Whitefield, Journals — the Kingswood colliers of 1739, tears cutting white gutters down coal-blackened cheeks.
+- Gottfried Wilhelm Leibniz, doctrine that this world, being God's choice, is the best possible one — the optimism polished by Leibniz and cross-examined after Lisbon.
+- Gotthold Ephraim Lessing, Nathan the Wise (1779) — the parable of the three rings; the sage modeled on Mendelssohn.
+- The Great Harris Papyrus, c. 1155 BCE: 130-foot accounting of temple endowments after the death of Ramesses III.
+- The Gudea cylinders (Lagash, c. 2100 BCE): dedication account of the rebuilding of Eninnu, temple of Ningirsu.
+- Guodian bamboo-strip manuscripts of the Daodejing (tomb sealed c. 300 BCE, excavated 1993)
+- Gutenberg indulgence certificates (Mainz, 1454): standardized printed forms with blanks for the buyer's name and date, run off by the thousand for a fund-raising campaign against the Turks — among the very first dated products of the press.
+- Guthrie, Stewart Elliott. Faces in the Clouds: A New Theory of Religion (New York: Oxford University Press, 1993) — religion as systematic over-detection of agency.
+- Harari, Yuval Noah. Sapiens: A Brief History of Humankind (Hebrew 2011; Eng. London: Harvill Secker, 2014) — large-scale cooperation through shared fictions and imagined orders.
+- The Heavenly Letter carried by the flagellant brotherhoods (1348-49): allegedly fallen from the sky, announcing God's wrath and the flagellants' commission.
+- Hebrew chronicles of the Rhineland massacres of 1096: the martyrdoms at Speyer, Worms, and Mainz recorded as the Sanctification of the Name.
+- Heinrich Kramer (Dominican inquisitor), Malleus Maleficarum ('Hammer of Witches,' 1486) — some thirty printed editions; codified the witch as member of a diabolical counter-church.
+- Henry VIII, Latin treatise against Luther (1521) — the work (written with help) for which the pope granted him the title Defender of the Faith.
+- The Hittite-Mitanni treaty, c. 1380 BCE, witnessed by the Vedic gods Mitra, Varuna, Indra, and the Nasatya twins.
+- Hodder, Ian. Çatalhöyük Research Project excavations (from 1993); The Leopard's Tale: Revealing the Mysteries of Çatalhöyük (London: Thames & Hudson, 2006) — 'history houses,' sub-floor burial, bull installations and repeated rebuilding on the same footprints.
+- Ignatius of Loyola, Spiritual Exercises — a four-week directed program of imaginative composition and discernment, grown from his convalescent self-experiment at Loyola.
+- Isaac Newton, Opticks.
+- Isaac Newton, Philosophiae Naturalis Principia Mathematica (1687; publication financed by Edmond Halley), with the General Scholium added 1713 — quoted: 'This most beautiful system... could only proceed from the counsel and dominion of an intelligent and powerful Being.'
+- Isaac Newton, unpublished manuscripts on theology, biblical prophecy, church history, and alchemy — by most reckonings exceeding his writings on physics; catalogued at Cambridge in 1888, the theology returned to the family as 'of no scientific value.'
+- James Boswell, record of his deathbed visit to Hume (1776) — the infidel unafraid, no more troubled by not existing after death than before birth.
+- Japanese court chronicle recording the arrival of Buddhism from Korea (dated 552 or 538 CE; the sources disagree, both written long after): a gilt-bronze Buddha and a letter praising the dharma as excellent beyond measure.
+- Jean-Jacques Rousseau, reply to Voltaire on the Lisbon poem — the evil of Lisbon was urban, not metaphysical; 'man blames God for what men built.'
+- Jehoiachin ration tablets (Babylon)
+- Jesuit missionary letters home from Japan, reporting in alarm that 'Luther's heresy' seemed to have arrived ahead of them — their account of disputations with Pure Land monks on salvation by sole trust in Amida's vow.
+- John Calvin, Institutes of the Christian Religion (first edition 1536; expanded through his lifetime).
+- John Foxe, Acts and Monuments — the illustrated martyr-book chained in English parish churches; source (from eyewitnesses) for Cranmer's death at the stake and Tyndale's last prayer.
+- John Locke, A Letter Concerning Toleration (1689) — quoted: 'Promises, covenants, and oaths, which are the bonds of human society, can have no hold upon an atheist.'
+- John Toland, Christianity Not Mysterious (1696) — ordered burned by the public hangman in Dublin.
+- John Wesley, last letter, to William Wilberforce (dictated six days before his death, 1791) — against the slave trade, 'that execrable villainy, which is the scandal of religion, of England, and of human nature.'
+- John Wesley, pamphlet on the Lisbon earthquake (1755) — reading the disaster as a call to national repentance; sin, not strata, the underlying fault.
+- John William Draper, History of the Conflict Between Religion and Science (1874) — the runaway bestseller that helped manufacture the 'warfare' thesis.
+- Jonathan Edwards, A Faithful Narrative — his naturalist's documentation of the Northampton revival of 1734-35; founding text of the revival-narrative genre.
+- Jonathan Edwards, sermon at Enfield, 1741 — the hearer suspended like a spider over a flame; the Awakening's most notorious sermon.
+- Joseph II, Patent of Toleration (1781) — worship rights for Protestants and Orthodox, cautious civil relief for Jews.
+- Joseph Wright of Derby, painting of a natural philosopher lecturing at an orrery (1766) — the lamp standing in for the sun, the listeners lit from the center.
+- The Journal of John Wesley — quoted for Aldersgate, May 24, 1738 ('I felt my heart strangely warmed') and Bristol, April 2, 1739 ('submitted to be more vile').
+- Journey to the West (Xiyouji, 16th-century Chinese novel): the fictional rebirth of Xuanzang's pilgrimage, with the historical pilgrim upstaged by a monkey with a magic staff.
+- Julian the Apostate, letter to a pagan high priest (c. 362 CE): the complaint that "the impious Galileans support not only their own poor but ours as well," with orders to establish hostels and food distributions.
+- Julius Wellhausen, crystallization of the documentary hypothesis (1878) — the Five Books of Moses braided from at least four sources composed centuries apart.
+- Karl Marx, introduction to the unfinished critique of Hegel's philosophy of right (written Paris, winter 1843) — quoted at length: 'Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people.'
+- The Khirbet el-Qom tomb inscription (near Hebron, c. 8th century BCE): blessing of Uriyahu by Yahweh and "his asherah."
+- The Kikkuli text: a Mitanni horsemaster's chariot-horse training manual in Hittite, laced with Indo-Aryan technical numerals (aika, tera, panza, satta wartanna).
+- The Kuntillet Ajrud inscriptions, c. 800 BCE, excavated by Ze'ev Meshel (1975-76): blessings "by Yahweh of Samaria and his asherah" and "by Yahweh of Teman and his asherah."
+- The Kushim tablets: archaic proto-cuneiform barley accounts from the Eanna precinct of Uruk, c. 3000 BCE (29,086 measures of barley over 37 months).
+- Lachish letters (ostraca)
+- The law collection of Ur-Nammu of Ur, the earliest law collection yet found, with fines reckoned in silver.
+- The Leibniz-Clarke correspondence (opened by Leibniz's letter of 1715) — quoted: 'God Almighty wants to wind up his watch from time to time: otherwise it would cease to move'; with Samuel Clarke's replies for Newton.
+- Letter of Aristeas (legend of the Septuagint's translation)
+- Letter of Pope Innocent III on the sack of Constantinople (1204): anguish that the crusaders had drawn their swords against the very people they had vowed to aid.
+- Letter of the bishop of Rome (c. 250 CE) recording that the Roman church supported over fifteen hundred widows and distressed persons on its rolls.
+- Letter of the Würzburg prince-bishop's chancellor to a friend (1629), recording in horror that clerics and councillors had gone to the stake and children of three and four were among the denounced.
+- Lewis-Williams, J. David (with Thomas A. Dowson). 'The Signs of All Times: Entoptic Phenomena in Upper Palaeolithic Art,' Current Anthropology 29 (1988); and Lewis-Williams, The Mind in the Cave (London: Thames & Hudson, 2002) — the three-stage neuropsychological model of trance imagery.
+- Libelli of the Decian persecution (250 CE): more than forty surviving papyrus certificates of sacrifice from Egypt, countersigned and dated by local commissioners.
+- Lintel 24 of Structure 23, Yaxchilan (dated 5 Eb 15 Mak, October 709 CE; now in the British Museum), with its companion lintel: relief carvings of Lady K'ab'al Xook's tongue bloodletting and the vision serpent.
+- Lucas Cranach the Elder, Passional Christi und Antichristi (1521) — paired woodcut panels contrasting Christ and the pope.
+- Ludwig Feuerbach, The Essence of Christianity (1841); English translation by Marian Evans (George Eliot), 1854 — theology as anthropology that has forgotten its own name.
+- Mahavyutpatti (early 9th century CE, Tibet): imperial state glossary fixing official Tibetan equivalents for thousands of Sanskrit technical terms — translation policy by decree.
+- Marco Polo, The Travels (c. 1300): the moralized version of the caliph al-Musta'sim's death, locked in his treasure tower to starve among the gold.
+- The Marquis of Pombal's parish questionnaire on the Lisbon earthquake (returns still in the Lisbon archives) — the first systematic seismic survey in history; with the rebuilt Baixa and the gaiola anti-seismic cage.
+- Martin Luther, Against the Robbing and Murdering Hordes of Peasants (1525).
+- Martin Luther, Ninety-Five Theses on the Power and Efficacy of Indulgences (Wittenberg, October 31, 1517), with covering letter of protest to Albrecht, archbishop of Mainz; thesis 27 cited on the coin ringing in the chest.
+- Martin Luther, open letter defending the translation 'the just shall live by faith allein (alone)' — 'Doctor Luther would be the judge of German.'
+- Martin Luther, Sermon on Indulgence and Grace (early 1518) — plain-German pamphlet, more than twenty editions in three years.
+- Martin Luther, Table Talk — source of the 1505 lightning-storm vow to St. Anne, as told by Luther in later life.
+- Martin Luther, To the Christian Nobility of the German Nation (1520) — first run of four thousand sold out in days.
+- Matteo Ricci, great world map of 1602 (Beijing) — twelve feet of engraved panels with China placed near the center.
+- Matteo Ricci, treatise on the art of memory, written in Chinese for mandarin families — the mnemonics of the classical memory palace as a missionary instrument.
+- Matthew Tindal, Christianity as Old as the Creation (1730) — 'the deists' Bible.'
+- Memorial stone of David Livingstone, Westminster Abbey (buried April 1874) — inscribed 'brought by faithful hands over land and sea'; the hands were those of James Chuma and Abdullah Susi.
+- Merlin Donald, concept of "theoretic culture" (cited via Bellah)
+- The Merneptah Stele, c. 1208 BCE, found by Flinders Petrie at Thebes in 1896: the earliest occurrence of the name Israel ("its seed is no more").
+- The Mesha Stele (Moabite Stone), 9th century BCE, shown to a missionary at Dhiban in 1868: Mesha of Moab's account of Chemosh's anger, victory, and the herem ban.
+- Mesopotamian letters to gods: tablets in standard epistolary form deposited before cult statues, petitioning divine relief.
+- Mis pi ("Washing of the Mouth") ritual tablets for the consecration of cult statues, in Assyrian and Babylonian copies of the first millennium BCE.
+- Moses Mendelssohn, Jerusalem (1783) — the state has no rights over conscience; Judaism as revealed legislation rather than revealed dogma.
+- Nahua accounts compiled by fray Bernardino de Sahagún and his circle (16th century CE): descriptions of the smallpox epidemic in Tenochtitlan, the post-conquest omen lists, and Sahagún's written complaint that pilgrims to Tepeyac called the Virgin Tonantzin.
+- The Nicene Creed (Council of Nicaea, 325 CE, with anathemas and twenty administrative canons; expanded at the Council of Constantinople, 381 CE): "begotten, not made... of one substance [homoousios] with the Father"; the version of 381 still recited, and unilaterally altered in the West by the filioque interpolation.
+- Norenzayan, Ara. Big Gods: How Religion Transformed Cooperation and Conflict (Princeton: Princeton University Press, 2013) — 'Watched people are nice people'; the scaling of moralizing high gods with society size.
+- Novalis, characterization of Spinoza as 'the God-intoxicated man.'
+- Ossuary inscription and remains of Yehohanan, son of Hagkol (Giv'at ha-Mivtar, excavated 1968)
+- The Palermo Stone: fragment of Old Kingdom royal annals recording festivals and Nile flood heights, dynasty by dynasty.
+- Papal ruling of 1537 (Sublimis Deus): declaring the peoples of the Americas truly human, rational, and capable of faith.
+- The Passion of Perpetua and Felicity (203 CE, Carthage): Vibia Perpetua's prison diary — the earliest first-person text by a Christian woman — with the account of her death finished by another hand.
+- Peace of Augsburg (1555) — cuius regio, eius religio; toleration for governments, not people.
+- Peace of Westphalia (October 1648) — three confessions legally equal, the 'normal year' of January 1, 1624, written rights of private worship, conscience, and emigration, and the clause voiding all protests against the treaty.
+- Pedro Pizarro, eyewitness relación of Peru (16th century CE): the dead Inca emperors attending banquets seated beside the living, toasted with maize beer.
+- Persian chronicle of the Turkic sack of a fortified monastery in Bihar (c. 1200 CE): horsemen slaughtering shaven-headed "idolaters" and discovering too late that the place was a college.
+- Pierre Bayle, book occasioned by the comet-panic of 1680 — the argument that a society of atheists could be perfectly virtuous.
+- Pierre Bayle, commentary on the Gospel parable of the banquet ('compel them to come in') — against Augustine's proof-text for forcing heretics into the church: violence cannot make belief.
+- Pierre Bayle, Historical and Critical Dictionary (1697) — the poison in the footnotes; Voltaire's quarry for fifty years.
+- Pierre-Simon Laplace, Mecanique celeste (beginning 1799) — the self-correcting stability of the solar system; the 'no need of that hypothesis' reply to Napoleon reported only at second hand and flagged as legend.
+- Pilate dedication stone, Caesarea (discovered 1961)
+- Pope Leo X, bull Exsurge Domine (June 1520), condemning forty-one of Luther's propositions and ordering his books burned; publicly burned by Luther at Wittenberg, December 1520.
+- Printed Diamond Sutra scroll from the Dunhuang library cave, dated equivalent to May 11, 868 CE, with colophon of Wang Jie commissioning it for universal free distribution to earn merit for his parents: the oldest dated printed book on earth.
+- Published instructions of Albrecht of Mainz's St. Peter's indulgence campaign — the graduated tariff of grace (twenty-five gulden for kings and archbishops down to prayer and fasting for the poor), with the Fugger clerk's key to the chest.
+- A Qumran Hebrew manuscript of Deuteronomy preserving the reading "sons of God" at Deuteronomy 32:8, with the Septuagint's "angels of God" in agreement, against the Masoretic "children of Israel."
+- Rappaport, Roy A. Ritual and Religion in the Making of Humanity (Cambridge: Cambridge University Press, 1999) — ritual before belief; ritual as a costly, hard-to-fake signal.
+- Record of the 1524 disputations between the twelve Franciscans and surviving Nahua priests (compiled by Sahagún's circle): "you say our gods are false, but they have fed us maize since the beginning... if our gods are dead, let us die too."
+- Reform decrees of Urukagina (or Irikagina) of Lagash, c. 2350 BCE — history's first known reform texts, protecting the widow and the orphan.
+- Registers of the Genevan Consistory (surviving records of the weekly morals court) and of the Company of Pastors (eighty-eight trained pastors smuggled into France, 1555-1562, by its own registers).
+- Report of the medical faculty of Paris on the plague (1348, commissioned by the king): the conjunction of Saturn, Jupiter, and Mars in Aquarius on March 20, 1345, as corrupter of the air.
+- The Restoration Decree of Tutankhamun, describing the temples fallen into ruin and the gods' abandonment of a neglected Egypt.
+- Richard Wagner, Gotterdammerung — premiered at Bayreuth, 1876; the century's own music for its twilight forecast.
+- The rock edicts of Ashoka (3rd century BCE): boasting of envoys of dharma dispatched to the Greek kings of the west, and declaring the truest conquest to be conquest by dharma.
+- The Royal Society's lavish illustrated History of Fishes — the slow-selling folio that emptied the Society's book budget, obliging Halley to pay for the Principia and be part-salaried in unsold fish books.
+- Rutger Bregman, historical method of checking cynical legends against the archival record (the shipwrecked boys who did not turn savage, the islanders and their last tree) — invoked as the model for dismantling the 'warfare of science and religion' and 'twilight of the gods' stories.
+- Schmidt, Klaus. Sie bauten die ersten Tempel (Munich: C. H. Beck, 2006); Eng. Göbekli Tepe: A Stone Age Sanctuary in South-Eastern Anatolia (2012) — 'first came the temple, then the city.'
+- Sebastian Castellio, published reply to the execution of Servetus — 'to kill a man is not to defend a doctrine; it is to kill a man.'
+- Seleucid-era temple tablets from Uruk detailing the gods' four daily meals and offering schedules.
+- The so-called Edict of Milan (313 CE): the toleration policy agreed by Constantine and Licinius — technically neither an edict nor issued at Milan, but a circular letter sent from Nicomedia.
+- The Soleb temple topographical list of Amenhotep III, Nubia, c. 1400 BCE: the entry read as "the land of the Shasu of Yhw" — the earliest trace of the divine name.
+- The Standard Professions List (archaic Uruk lexical list of officials and trades), copied for over a thousand years.
+- Statutes of the University of Bologna (medieval): the students' guild fining professors for starting late, running long, or skipping difficult chapters, and requiring a deposit before leaving town.
+- The stela of Ikhernofret: a treasury official's account of staging the mysteries of Osiris at Abydos under Senusret III, c. 1870 BCE.
+- The Stele of the Vultures (Lagash victory monument in the Lagash–Umma border war over the Gu'edena).
+- Swami Vivekananda, opening address to the World's Parliament of Religions, Chicago, September 11, 1893 — 'Sisters and Brothers of America.'
+- The Tel Dan Stele, found 1993: an Aramean king's boast over the king of Israel and the House of David (bytdwd) — the oldest extra-biblical trace of David's name.
+- The ten mortuary endowment contracts of Hapdjefa, nomarch of Asyut, c. 1900 BCE, carved in his tomb chapel.
+- Thomas Cranmer, The Book of Common Prayer (under Edward VI) — the Latin rites distilled into English.
+- Thomas Jefferson, Virginia Statute for Religious Freedom (drafted 1777, enacted 1786) — quoted: 'Almighty God hath created the mind free'; one of the three achievements on his tombstone.
+- Thomas Robert Malthus, essay on population — the arithmetic of overproduction from which Darwin drew the struggle for existence.
+- The tomb-robbery trial papyri of the late New Kingdom: commissions of inquiry and confessions of the royal-tomb robbers.
+- Transcripts and earliest printed accounts of Luther's hearing before the Diet of Worms (April 1521) — the transcripts substantially preserve the 'conscience captive to the Word of God' speech; the printed accounts added 'Here I stand; I can do no other.'
+- Trial record of Johannes Junius, burgomaster of Bamberg (1628), and his smuggled letter to his daughter — 'Innocent have I come into prison, innocent have I been tortured, innocent must I die.'
+- The Turin Strike Papyrus: record of the Deir el-Medina tomb-workers' strikes in year 29 of Ramesses III, c. 1157 BCE — the first recorded labor strike in history.
+- The Twelve Articles of the Swabian peasants (1525) — scriptural manifesto of the Peasants' War, roughly twenty-five thousand copies in two months.
+- Tylor, Edward Burnett. Primitive Culture (London: John Murray, 1871) — the minimum definition of religion as 'the belief in spiritual beings.'
+- The Venus tablets of Ammi-saduqa, c. 1640 BCE: palace observations of the risings and settings of Venus, preserved in later astrological series.
+- The Victory Stele of Naram-Sin, showing the deified king in the horned crown of divinity.
+- Voltaire, Candide (1759) — Pangloss and 'the best of all possible worlds'; 'we must cultivate our garden.'
+- Voltaire, Philosophical Dictionary — a copy nailed to the pyre at the execution of the chevalier de La Barre, Abbeville, 1766.
+- Voltaire, poem on the Lisbon disaster (published within weeks of November 1, 1755) — the public cross-examination of philosophical optimism.
+- Voltaire, Treatise on Toleration — grown out of the Calas campaign of 1762-1765.
+- Voltaire, verse of 1768 — 'If God did not exist, it would be necessary to invent him.'
+- William Carey, An Enquiry into the Obligation of Christians to Use Means for the Conversion of the Heathens (1792) — with statistical tables of the world's populations by continent and creed.
+- William Carey, sermon at Nottingham (May 1792) — 'expect great things; attempt great things'; the appended 'from God' and 'for God' absent from the earliest records.
+- William Paley, Natural Theology (1802) — the watch found on the heath; read and loved by the young Darwin at Christ's College, Cambridge.
+- Wittgenstein, Ludwig. Philosophical Investigations (Oxford: Blackwell, 1953) — the notion of 'family resemblance.'
+- Writ of ban (herem) against Baruch de Espinoza, record book of the Talmud Torah congregation, Amsterdam, July 27, 1656 — read in Portuguese; the harshest ban the community ever issued, never lifted.
+- Zhou bronze ritual-vessel inscriptions: investiture charges, land grants, and settled lawsuits cast into the metal and deposited before the ancestors.
+- Āl-Yāhūdu archive (cuneiform tablets of Judean exile community)

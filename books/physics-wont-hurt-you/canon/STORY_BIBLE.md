@@ -46,7 +46,9 @@ Wave), the simulation hypothesis, string theory/loop quantum gravity and the mul
 consciousness and panpsychism (Penrose-Hameroff, IIT, and honest scepticism about "quantum" being
 bolted onto things it doesn't belong to), the ethics of physics (the bomb, AI, geoengineering), and
 a closing epilogue that ties the title's joke to Feynman's "pleasure of finding things out" as the
-book's real thesis.
+book's real thesis. A final living-person coda then follows Gerhard van Niekerk (G) and *The 420
+Code*: sympathetically, personally, and with a hard epistemic boundary between reproducible arithmetic,
+internal derivation, and external scientific confirmation.
 
 ## 1. What this book invents
 
@@ -69,6 +71,9 @@ and a scene, not a bare list of facts.
 - No pseudoscience presented as settled fact. Part Five's sympathetic, wonder-forward tone is a
   register, not a licence — every speculative claim is labelled as speculative in the same breath
   it's explored.
+- G is living and personally known to the author. Chapter 31 may name that bond, but every public
+  biographical fact must be sourced and every physics claim must preserve the distinction between
+  G's claim, AJ's executable reproduction, and nature's verdict.
 - No flattening the ethical material (the bomb, surveillance/AI physics, geoengineering) into a
   simple morality tale; the book sits with the genuine difficulty.
 - No duplicating `richard-feynman`'s Los Alamos/Arline chapters at length — condense and

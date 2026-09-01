@@ -118,7 +118,7 @@ He did that to every single person in the house, one at a time, in nine days, an
 
 That was the part Jakobus could not get past. He himself read people to *see* them — that was the whole of his mastery, that was the line he had drawn against Chase Hughes for four months of arguments in the gym. The boy read them to *use* them, and it did not feel like being used. It felt like being finally, properly employed. Half the house had spent their lives being the most capable person in every room they entered and being handed nothing to do with it, and here was a young man who looked at each of them for one morning and then gave them a job that was exactly the size of them.
 
-The Fool put it best, at the counter, on the ninth night, watching the lounge from the kitchen end with his chin on his hand.
+Jackie put it best, at the counter, on the ninth night, watching the lounge from the kitchen end with his chin on his hand.
 
 "He's not taking it from you," Jackie said. "He's *spending* them. You keep them. You keep everybody very carefully, hey — like a man with one good shirt." A pause. "He spends them. And they like it."
 

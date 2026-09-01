@@ -76,7 +76,7 @@ Alexander went white around the mouth.
 
 "No."
 
-"Colonel—"
+"Jakobus—"
 
 "No." Jakobus took his shades off, which he did not do, and put them in his shirt pocket, and gave the boy his eyes. "I'll tell you why, and then I'm going to ask you for something, and you're going to be angry about the first part and you're going to do the second part anyway, because I've watched you for seven months and I know what you're made of better than you do." He let that land. "You're not wrong about speed. You've been right about speed twice in this house and both times it saved something. You're wrong about this one, and the reason you're wrong is the exact same reason you were right about the others — you cannot conceive of a situation where the correct move is to be still, because you have never once been in a room where being still was the strong thing. That's not a flaw in your character. It's a hole in your *experience*, and you can't get it from the archive, and I can't give it to you in an afternoon."
 
@@ -186,7 +186,7 @@ G did not say anything.
 
 G was quiet for a while.
 
-"They asked Clause what the world makes of me," he said, "and it said no."
+"They asked Klaus what the world makes of me," he said, "and it said no."
 
 "Ja. I asked it again. Alone. It said the same."
 

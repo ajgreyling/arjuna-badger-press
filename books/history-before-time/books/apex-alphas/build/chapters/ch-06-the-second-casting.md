@@ -2,7 +2,7 @@
 
 Six weeks in, the house was perfect, and Jakobus had started lying awake with the arithmetic of it.
 
-Perfect was the right word and it was the whole problem. There was not a soft man in the building. The school had done what Jackie built it to do and then kept going past it — the horseman had taught his hold to eleven people and learned three of theirs; Bruce had a class of twenty every second morning and half of them were better for it in ways they couldn't name; Khabib and the prop had invented, between them and without a common language, a way of moving a resisting man that Bas said flatly should not work and did. Goggins had climbed Arin's wall four times in one night, badly, and the fifth time not badly. McGregor had stopped looking for the cameras. Musashi had begun, in his own time and without announcing it, to walk the corridors at three in the morning, learning the building the way he had once learned ground before a duel.
+Perfect was the right word and it was the whole problem. There was not a soft man in the building. The school had done what Jackie built it to do and then kept going past it — Bat had taught his hold to eleven people and learned three of theirs; Bruce had a class of twenty every second morning and half of them were better for it in ways they couldn't name; Khabib and the prop had invented, between them and without a common language, a way of moving a resisting man that Bas said flatly should not work and did. Goggins had climbed Arin's wall four times in one night, badly, and the fifth time not badly. McGregor had stopped looking for the cameras. Musashi had begun, in his own time and without announcing it, to walk the corridors at three in the morning, learning the building the way he had once learned ground before a duel.
 
 They were, on any measure a man could invent, the finest single collection of physical mastery that had ever stood in one place in the history of the species.
 
@@ -120,40 +120,6 @@ He stood in front of the dark with the attention in it for eleven minutes, and d
 
 He was going to be an absolute pleasure, Jakobus thought. He put his shades down and went to warn the house.
 
-At the door the woman stopped him.
-
-"One more thing and then you can go. He gets a name."
-
-"He has a name."
-
-"He has the name eight billion people are going to arrange themselves around before he opens his
-mouth, and I am not having it in my house." The scrubbed voice did not move. "You've had four months of
-it and you never once asked why the Fool is the Fool and why nobody in that lounge has ever said
-*Norris* out loud. It's the same reason you're *Colonel* and not a service number. A name is the handle
-the legend gets carried by. Say the famous one in a room and you haven't introduced a man — you've
-introduced everything that was ever said about him."
-
-"So what is he."
-
-"*Isaac.*"
-
-Jakobus turned that over. It was so ordinary it was almost rude.
-
-"And the house will do the rest," she said. "They always do. I've stopped trying to predict it — I
-had four psychologists in Geneva model the nickname allocation for eleven weeks and they got two out of
-twenty-nine, and one of those was luck." Something that in another voice would have been affection.
-"Whatever they land on, that's the man's actual name from now on, and the world will learn it, and in
-about a year there'll be children who know a dead emperor as *Filters* and have no idea he ran the
-world. That's not a side effect, Colonel. That's the whole instrument."
-
-He thought about it all the way down the corridor.
-
-Nine days later the boy from Lincolnshire was *Sapor* — from the fourth column of his coffee ledger,
-the one nobody could get him to translate — and had been called it to his face two hundred times, and
-had never once corrected anybody, and Jakobus, who watched everything, was fairly sure he had worked
-out what it meant to be given a name by people who liked you, and had decided, in his own locked and
-curtained way, to let it happen.
-
 ---
 
 It ran a day at a time after that, the way the banks allowed, and the house learned the rhythm of it the way a family learns a new baby: the whole building tilting once every twenty-four hours toward a white room none of them could enter.
@@ -194,9 +160,9 @@ The house nearly lost him in the first hour, because nobody could hear a word he
 
 He and the clerk found each other before dinner.
 
-What happened after that ran for eleven days and reorganised the social life of the most dangerous house on earth. They argued. That was all they did; they were incapable of anything else in each other's company, and they were both so plainly, obviously happy about it that the house came to watch the way the house came to watch the cage. It started with three people on a couch. By the fourth evening the lounge was full, the fighters sitting on the backs of the furniture, the Fool doing a silent running commentary from the kitchen counter with his eyebrows alone, Goggins in the front with his forearms on his knees and an expression of pure, uncomprehending, absolutely rapt attention.
+What happened after that ran for eleven days and reorganised the social life of the most dangerous house on earth. They argued. That was all they did; they were incapable of anything else in each other's company, and they were both so plainly, obviously happy about it that the house came to watch the way the house came to watch the cage. It started with three people on a couch. By the fourth evening the lounge was full, the fighters sitting on the backs of the furniture, Jackie doing a silent running commentary from the kitchen counter with his eyebrows alone, Goggins in the front with his forearms on his knees and an expression of pure, uncomprehending, absolutely rapt attention.
 
-They understood perhaps one word in nine. It did not matter. Every soul in that room had spent a lifetime at the top of something, and what they were watching was two men at the top of a thing neither of them could get to the top of alone — the clerk lunging, all offence, all beautiful ridiculous constructions; the big soft mumbling one taking each of them, turning them over, finding the flaw, handing it back with an apology that was somehow more devastating than a counter. It was the horseman's grip. It was Bruce's hour. It was the same summit in another grammar, and the whole hill recognised it on sight.
+They understood perhaps one word in nine. It did not matter. Every soul in that room had spent a lifetime at the top of something, and what they were watching was two men at the top of a thing neither of them could get to the top of alone — the clerk lunging, all offence, all beautiful ridiculous constructions; the big soft mumbling one taking each of them, turning them over, finding the flaw, handing it back with an apology that was somehow more devastating than a counter. It was Bat's grip. It was Bruce's hour. It was the same summit in another grammar, and the whole hill recognised it on sight.
 
 Rogan asked for it on the feed on day three. The woman said no. Rogan asked again, with Sam Harris standing next to him wearing the expression of a man who has waited his entire life for this exact broadcast, and this time Jakobus backed them, and it went out live at eight, unedited, two men arguing about whether the universe has to make up its mind.
 

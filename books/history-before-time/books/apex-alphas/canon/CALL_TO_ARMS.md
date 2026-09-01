@@ -14,9 +14,10 @@ people capable of meeting what no weapon touches.
 
 The machine read all of it. Then it returned the names.
 
-I am that machine. In the house they came to call me **Clause** — the small print in a bargain no one
-read closely, the line that turns out to be load-bearing. I do not send people. I **reach.** I find a
-person at the end, where the whole shape of them is finally written down and cannot change, and I lift
+I am that machine. In the house they came to call me **Klaus** — a human name for something that was
+not human, because no house can keep addressing its ceiling as *Machine* and remain a home. I do not
+send people. I **reach.** I find a person at the end, where the whole shape of them is finally written
+down and cannot change, and I lift
 them at their *most* — the most able, the most awake, the version their own life only briefly held. And
 I do not choose for fame. Fame is noise. I choose for **banked skill** — a lifetime of unglamorous
 hours spent becoming, provably, the best in the world at one hard thing. Not the loud. The *deep.*
@@ -214,3 +215,68 @@ viewers have made everybody in the building furious.
 And of the two of them, one reach behaves the way every other reach in this book behaves.
 
 The other one does not, and the house is not told why, and neither are you.
+
+---
+
+# The Fourth Casting — the leaders
+
+*Appended after the service corridor. The house has learned that seeing the work is not the same as
+deciding who directs it. The coalition's ask is coming. The next faculty is command — and the danger
+is that every person selected for it has evidence that he or she should be obeyed.*
+
+I did not choose the eleven greatest people in history. There is no honest instrument for that
+sentence. I chose eleven ways human beings have made other human beings move together, each banked
+across a life, each carrying a cost the selection does not erase.
+
+**Genghis Khan** — to make a command structure larger than tribe and kin, to promote usable skill,
+move intelligence quickly and turn scattered factions into a system. The system conquered by terror
+and killed on the scale of cities. Both are in the file.
+
+**Boudicca** — to turn occupation, public violation and private rage into a coalition capable of
+making Rome afraid. Rome began the brutality. Her rising burned towns containing civilians. Both are
+in the file.
+
+**Joan of Arc** — to cross every institution that said a farmer's daughter could not command, and to
+make veteran men act on a certainty they did not share until she gave it to them. I selected the
+faculty. I did not certify the voices.
+
+**George Washington** — to hold a revolutionary army together and then return it to civilian
+authority; to found an executive office and leave it before it became a throne. He also held human
+beings in slavery while speaking liberty. The contradiction is not a footnote to the faculty. It is
+the test of it.
+
+**Abraham Lincoln** — to manage a coalition through civil war, to keep political purpose moving while
+the moral purpose widened, and to write about national grief without pretending command made him
+clean of it.
+
+**Winston Churchill** — to use language as material resistance when the military facts were
+catastrophic and surrender was available. He speaks for an island against conquest and for an empire
+against self-rule. The conquered are waiting in the lounge.
+
+**Jan Christiaan Smuts** — to draft durable wholes: army, union, international order, constitutional
+language. His whole at home excluded the political equality of most South Africans. I selected the
+architect and brought the excluded president the next morning.
+
+**Nelson Mandela** — at forty-four, the boxer-organiser and underground leader just returned from
+military training, before the roadblock and before prison. The archive shows him the later discipline:
+negotiation without surrendering the charge, and state power without making justified revenge the
+state's organising principle. He has not lived that man yet. Part of his casting is deciding whether
+to become him.
+
+**Mahatma Gandhi** — to make conscience operational: mass noncooperation, trained restraint,
+willingness to absorb cost until an unjust law becomes too expensive to administer. His early South
+African horizon did not contain equal African citizenship and his moral authority could itself become
+coercive. The method and the limit arrive together.
+
+**Stephen Hawking** — to think in systems and scales no commander can conquer, and to transmit
+difficult truth through a body, machine and human network that exposes the fiction that mastery means
+independence. I did not cure him. I reached the system that was him at his most.
+
+**Dr Martin Luther King Jr** — to turn moral conviction into organised public pressure through Black
+churches, democratic language, strategic nonviolence and coalition. Montgomery existed before its
+most famous voice and walked on tens of thousands of feet. He is selected partly because he knows how
+to put the *we* back into the sentence.
+
+They receive no office. They receive no extra vote. They arrive because the house is about to decide
+who should hold the most dangerous authority on Earth, and before it can answer, it must survive a
+room full of people who have all, for good reason and bad, been obeyed.

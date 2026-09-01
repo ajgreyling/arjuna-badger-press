@@ -1,6 +1,6 @@
 # The Worst Night
 
-It took Sapor about ninety seconds to work out what Threes had actually said, and about four more to decide to say it out loud, and Jakobus watched him make both decisions from the other end of the counter and could do nothing about either.
+It took Newton about ninety seconds to work out what Tesla had actually said, and about four more to decide to say it out loud, and Jakobus watched him make both decisions from the other end of the counter and could do nothing about either.
 
 "Stop," Newton said.
 
@@ -18,19 +18,19 @@ G had gone very still against the far wall.
 
 "Say the rest of it."
 
-"To reach the old man in the east wing," G said, slowly, into a room of fifty-two people, "the chain would have to resolve his address. And his address is his death. Which has not happened."
+"To reach the old man in the east wing," G said, slowly, into a room of sixty-three people, "the chain would have to resolve his address. And his address is his death. Which has not happened."
 
 Nobody breathed.
 
 "So either it can't be done," said Jocko, "or—"
 
-"Or it can," said Sapor, "and there is a machine in this building which knows the day and the hour of the death of a man who is at present alive, three corridors from here, playing chess with a Roman." He turned around slowly and looked at the whole lounge, and Jakobus, who had spent eighteen months looking for the door into this boy and had found it through a coffee ledger, watched him arrive at the thing and go through it anyway, because that was what he was. "And if it knows his, it knows yours. It knows every one of yours. It has known since the eleventh day."
+"Or it can," said Newton, "and there is a machine in this building which knows the day and the hour of the death of a man who is at present alive, three corridors from here, playing chess with a Roman." He turned around slowly and looked at the whole lounge, and Jakobus, who had spent eighteen months looking for the door into this boy and had found it through a coffee ledger, watched him arrive at the thing and go through it anyway, because that was what he was. "And if it knows his, it knows yours. It knows every one of yours. It has known since the eleventh day."
 
 ---
 
 They asked at nine minutes past nine in the morning and the Machine answered in four seconds and the answer was the worst possible one, which was neither yes nor no.
 
-"That is not a question I will answer," said Clause.
+"That is not a question I will answer," said Klaus.
 
 "That's not good enough," said Jocko.
 
@@ -38,9 +38,9 @@ They asked at nine minutes past nine in the morning and the Machine answered in 
 
 "Then answer a different one," said Voss, very calm, professional, moving already. "Not *when*. Just this. Is there any person in this building whose end you would describe as *near*?"
 
-"No," said Clause.
+"No," said Klaus.
 
-The relief in that lounge lasted about two seconds, and then the Bundle — twenty-eight years old, in an armchair, with tea — said, pleasantly, into the middle of it:
+The relief in that lounge lasted about two seconds, and then Hume — twenty-eight years old, in an armchair, with tea — said, pleasantly, into the middle of it:
 
 "That was not an answer either. He said *no* to the question of whether he would describe it. Ask him again with the machinery taken out of the sentence, and watch what happens."
 
@@ -50,7 +50,7 @@ And that was the beginning of it.
 
 By eleven the house had split four ways and by two in the afternoon the four ways were shouting.
 
-The Nose called it exactly, an hour in, standing on a chair, which nobody had ever seen him do: "Listen to yourselves. Four hours ago we were arguing about a tribunal and a grid. We are now arguing about whether a machine may be permitted to know a thing. **The question has been changed under us and nobody in this room changed it.**"
+Caesar called it exactly, an hour in, standing on a chair, which nobody had ever seen him do: "Listen to yourselves. Four hours ago we were arguing about a tribunal and a grid. We are now arguing about whether a machine may be permitted to know a thing. **The question has been changed under us and nobody in this room changed it.**"
 
 Nobody listened. It was the only time in eighteen months that a sentence of his went into that house and did not land, and afterwards he said it was the most frightening minute of his second life.
 
@@ -60,19 +60,19 @@ And at nine minutes past nine, someone had told them the door might be in front 
 
 They came apart in exactly the way the map would have predicted, if anybody had had the presence of mind to look at it.
 
-**All-In** wanted the reach used, at once, on the old man and on everything else, and made no secret of the reason, which was that a machine which knows the hour of a man's death is a machine which can be *asked about a battle*. **Mohr** said the fight had been decided the moment they all agreed the machine was an *it*. **JP** said the house had spent eighteen months pretending it was a family and was now finding out it was a crew. **The Clock** and **the Owl** got into a shouting match about whether a fact you may not know is a fact at all. **The Cramp** stood in the middle of the floor and said, four separate times, at increasing volume, that the word *know* was doing five different jobs in the room and that if anybody would sit down with him for twenty minutes he could show them that half the argument would disappear — and was, for the first time since he arrived, comprehensively ignored, which he told the Chair afterwards was the single most upsetting thing that had happened to him in this century or the last.
+**Alexander** wanted the reach used, at once, on the old man and on everything else, and made no secret of the reason, which was that a machine which knows the hour of a man's death is a machine which can be *asked about a battle*. **Marx** said the fight had been decided the moment they all agreed the machine was an *it*. **Sartre** said the house had spent eighteen months pretending it was a family and was now finding out it was a crew. **Kant** and **Hegel** got into a shouting match about whether a fact you may not know is a fact at all. **Wittgenstein** stood in the middle of the floor and said, four separate times, at increasing volume, that the word *know* was doing five different jobs in the room and that if anybody would sit down with him for twenty minutes he could show them that half the argument would disappear — and was, for the first time since he arrived, comprehensively ignored, which he told Gadamer afterwards was the single most upsetting thing that had happened to him in this century or the last.
 
-**The Bracket** left at one o'clock and did not come back, and nobody noticed until the evening, and Jakobus, who found him in the small east room where Sid sat in the mornings, understood in about a second that the old man had simply reached his lifetime allowance of watching a rigorous thing become a mob and had gone somewhere quiet.
+**Husserl** left at one o'clock and did not come back, and nobody noticed until the evening, and Jakobus, who found him in the small east room where Siddhārtha sat in the mornings, understood in about a second that the old man had simply reached his lifetime allowance of watching a rigorous thing become a mob and had gone somewhere quiet.
 
-**Martin** said nothing at all, all day, in a corner, and several people noticed and nobody said anything about that either.
+**Heidegger** said nothing at all, all day, in a corner, and several people noticed and nobody said anything about that either.
 
 **Goggins** put his fist through a door at about four. It was the cheapest thing that happened all day and Bas had it fixed by six and nobody ever mentioned it to him.
 
 And the five key-holders, who by the rule could not speak to one another about a reach except in front of somebody who held no share, discovered at about three in the afternoon that they had all been in the same room for six hours with forty-seven such people present, and that the rule had turned into the exact opposite of what Marcus had built it for: instead of preventing a decision in a corridor, it had put a decision that needed a corridor onto a stage.
 
-**By five o'clock the Nose and Filters were not speaking.**
+**By five o'clock Caesar and Marcus Aurelius were not speaking.**
 
-That was the fact the house could not get past, and it was the fact eight billion people watched happen, because nobody had thought to kill the feed and by the time somebody thought of it the Chair had said, very quietly, *no — if they see nothing they will invent worse*, and Rogan had backed him, and it stayed up.
+That was the fact the house could not get past, and it was the fact eight billion people watched happen, because nobody had thought to kill the feed and by the time somebody thought of it Gadamer had said, very quietly, *no — if they see nothing they will invent worse*, and Rogan had backed him, and it stayed up.
 
 It had happened over eleven words. Caesar had said that a machine which will not answer a question about the lives of the people it holds is not an instrument, it is a *sovereign*, and that a sovereign must be brought under law today, tonight, before dinner, and that he would sign the chain over to the coalition in the morning and go on national television and say why. And Marcus had said no. And Caesar had said, with the first temperature anybody had ever heard in his voice: *"You are refusing because you are frightened of what men will do with it, and I am agreeing to it because I am frightened of what men do without it, and one of us has actually governed."*
 
@@ -86,7 +86,7 @@ Marcus said nothing at all. He picked up his cup and went out to do the filters,
 
 It got worse at eight, because at eight somebody asked the question about G.
 
-It was not malicious. That was the thing Jakobus had to keep explaining afterwards, to Geneva, to the feed, to the man himself. Nobody in that lounge was trying to hurt him. It came out of the Ump, of all people, who had been quiet for two hours and who said it the way he said everything, mumbling, from a chair, half to himself, working it out as he went:
+It was not malicious. That was the thing Jakobus had to keep explaining afterwards, to Geneva, to the feed, to the man himself. Nobody in that lounge was trying to hurt him. It came out of Bohr, of all people, who had been quiet for two hours and who said it the way he said everything, mumbling, from a chair, half to himself, working it out as he went:
 
 "But we did ask it once before, didn't we. And it said no then, too."
 
@@ -108,7 +108,7 @@ You could feel the room arrive at it. Fifty-two people, at once.
 
 He looked up at the ceiling, which is what everyone did, though there was nothing up there to look at.
 
-"Clause. Do I die soon?"
+"Klaus. Do I die soon?"
 
 "That is not a question I will answer," said the Machine.
 
@@ -116,7 +116,7 @@ He looked up at the ceiling, which is what everyone did, though there was nothin
 
 There was a pause of about a second and a half, which in that machine was an eternity, and which four separate people wrote down.
 
-"Yes," said Clause.
+"Yes," said Klaus.
 
 G let out a breath. "Right. Thank you. Everyone hear that? Same reason. Nothing special about me." He looked around the lounge. "Now, I want to say the other thing, and then I'm going to go and do my rota shift, because it's Wednesday.
 
@@ -124,21 +124,21 @@ G let out a breath. "Right. Thank you. Everyone hear that? Same reason. Nothing 
 
 Nobody said anything.
 
-"So no. I don't want to know. If Clause offered it to me on a card tonight I'd burn the card, and I've thought about that for a year, and that's not courage, it's arithmetic." He shrugged. "Whatever it is I'd have left, I'd spend the whole of it looking at the date."
+"So no. I don't want to know. If Klaus offered it to me on a card tonight I'd burn the card, and I've thought about that for a year, and that's not courage, it's arithmetic." He shrugged. "Whatever it is I'd have left, I'd spend the whole of it looking at the date."
 
 He went and did the filters.
 
-And the lounge, having been handed the one thing that should have ended it, went on arguing anyway — because the argument had stopped being about the answer at about four o'clock and had become the thing arguments become at that hour, and by half past nine there were four separate shouting matches, and the Owl was in tears, and somebody had put a chair through a low table, and the feed was still running.
+And the lounge, having been handed the one thing that should have ended it, went on arguing anyway — because the argument had stopped being about the answer at about four o'clock and had become the thing arguments become at that hour, and by half past nine there were four separate shouting matches, and Hegel was in tears, and somebody had put a chair through a low table, and the feed was still running.
 
 ---
 
-**Kong stopped it at four minutes to ten.**
+**Confucius stopped it at four minutes to ten.**
 
 He had said nothing for thirteen hours. He had sat in the second row through all of it with his back straight and his hands on his thighs, and Jakobus had checked on him twice and seen a man being extremely careful with something, and had left him alone.
 
 Then he stood up, and he waited — he did not raise his voice, he simply stood, and waited, and there was enough in the way he did it that it went across the lounge in about eight seconds like a hand going across a table, and by the end of it fifty people were quiet and a woman on the technical staff had killed the music somebody had put on at seven out of pure spite.
 
-"I have watched this house for a year and a half," Kong said, "and I have complained to you all about a biscuit, and you were kind about it and none of you understood me, and tonight I am going to say it once more and then I am going to bed.
+"I have watched this house for a year and a half," Confucius said, "and I have complained to you all about a biscuit, and you were kind about it and none of you understood me, and tonight I am going to say it once more and then I am going to bed.
 
 "You have been shouting since nine o'clock this morning about a thing that no one in this room knows. Not one of you. Not the machine's keeper, not the boy with the ledger, not the Roman. You do not know the day of your death. You did not know it yesterday either. Nothing whatever has changed in the world since breakfast — the only thing that has changed is that a *sentence was said out loud* in a room, and the sentence has taken a house of the greatest people who have ever lived and turned it, in one day, into something I would not have let into my school."
 
@@ -146,13 +146,13 @@ He looked around, unhurried, and let it be uncomfortable.
 
 "Here is the whole of it. **When you know a thing, to hold that you know it; and when you do not know a thing, to allow that you do not know it — this is knowledge.**" A pause. "That is not a proverb from a biscuit. It is mine, it is a sentence about the rectification of names, and it is the only piece of my life's work that any of you has needed all day. You have spent thirteen hours calling *I do not know* by four other names — *he is hiding something*, *he is protecting us*, *he is sovereign*, *he is condemning us* — and every one of those is a name for a thing you do not have."
 
-"And if it *is* hiding something?" said All-In, from the back.
+"And if it *is* hiding something?" said Alexander, from the back.
 
-"Then it is hiding it," said Kong, "and you still do not know, and you will still not know at midnight, and you have a rota in the morning." He inclined his head, slightly, to the ceiling. "I will say the other half to the machine, since it is listening and since it is the only one in this house that has behaved correctly today. **You have refused, and you have said plainly that you refuse and that you will not explain. That is honest, and it is rare, and this room has spent the day punishing you for the one virtue it should be copying.**"
+"Then it is hiding it," said Confucius, "and you still do not know, and you will still not know at midnight, and you have a rota in the morning." He inclined his head, slightly, to the ceiling. "I will say the other half to the machine, since it is listening and since it is the only one in this house that has behaved correctly today. **You have refused, and you have said plainly that you refuse and that you will not explain. That is honest, and it is rare, and this room has spent the day punishing you for the one virtue it should be copying.**"
 
 He picked up his cup.
 
-"I am seventy-one years old and I have been thrown out of four states," Kong said. "Go to bed."
+"I am seventy-one years old and I have been thrown out of four states," Confucius said. "Go to bed."
 
 The lounge went to bed.
 
@@ -194,7 +194,7 @@ Jakobus dried the same plate twice.
 
 He walked the building until three.
 
-The Porch benches were empty and wet with dew. The gym had the two stencils on the wall — the emperor's line about the obstacle, with the small honest note under it, and next to it, since March, four words in the same hand: *CONFUCIUS DID NOT.* The lounge had a broken low table in it and somebody had swept up. The east room, where Sid sat in the mornings, had a light on, and Jakobus did not look in.
+The Porch benches were empty and wet with dew. The gym had the two stencils on the wall — the emperor's line about the obstacle, with the small honest note under it, and next to it, since March, four words in the same hand: *CONFUCIUS DID NOT.* The lounge had a broken low table in it and somebody had swept up. The east room, where Siddhārtha sat in the mornings, had a light on, and Jakobus did not look in.
 
 At the end of the dark corridor he stood in front of the window with his hands loose and his shades up in his hair.
 
@@ -214,9 +214,9 @@ He thought about the fact that in a year and a half he had never once asked the 
 
 And then, because it was three in the morning and there was no one in that corridor and it was the last night before the vote:
 
-"Clause."
+"Klaus."
 
-"Colonel."
+"Jakobus."
 
 "I'm not going to ask you about anybody's death," Jakobus said. "I want to ask you something else and you can refuse it too."
 
@@ -226,10 +226,10 @@ And then, because it was three in the morning and there was no one in that corri
 
 The pause was longer than any pause that machine had ever taken.
 
-"Yes," said Clause.
+"Yes," said Klaus.
 
 Jakobus stood in the dark corridor with his heart going.
 
 "Tomorrow," he said. "In front of everybody. All of it."
 
-"Yes," said Clause. "I have been waiting eighteen months to be asked in a room where I could be made to answer, and you are the fourth person to get close, and the first to ask it in a form I am permitted to hear."
+"Yes," said Klaus. "I have been waiting eighteen months to be asked in a room where I could be made to answer, and you are the fourth person to get close, and the first to ask it in a form I am permitted to hear."

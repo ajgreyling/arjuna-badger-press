@@ -260,19 +260,19 @@ And the house, being the house, made it worse. Jackie started doing the voice. M
 
 Bas finally cracked, at the counter, in the third week.
 
-"Go and talk to Ray," he said.
+"Go and talk to Norris," he said.
 
-"Who is Ray."
+"Who is Norris."
 
-"The quiet American. In the corner. With the beard." Bas rubbed his face. "Trust me. Go and talk to Ray."
+"The quiet American. In the corner. With the beard." Bas rubbed his face. "Trust me. Go and talk to Norris."
 
 ---
 
-Carlos had been enjoying it from the back of the room for three weeks, with the very specific enjoyment of a man watching somebody else go through a surgery he himself had had, under anaesthetic, forty years earlier.
+Norris had been enjoying it from the back of the room for three weeks, with the very specific enjoyment of a man watching somebody else go through a surgery he himself had had, under anaesthetic, forty years earlier.
 
 He took the old man out to the herb beds in the late afternoon, and they sat on the low wall, and he took out a tablet and handed it across.
 
-"Before you say anything," Carlos said, "I want you to read some of these."
+"Before you say anything," Norris said, "I want you to read some of these."
 
 They were the Facts.
 
@@ -286,19 +286,19 @@ Confucius read for a long time with his face getting stiller and stiller.
 
 "You can be killed."
 
-"I'm eighty-six years old in my own life," said Carlos, "and I've got the knees to prove it. In here I've got the knees I had at twenty-eight, which is the single strangest thing about this place and I've stopped mentioning it."
+"I'm eighty-six years old in my own life," said Norris, "and I've got the knees to prove it. In here I've got the knees I had at twenty-eight, which is the single strangest thing about this place and I've stopped mentioning it."
 
 "And your actual—" the old man searched for it, and Jakobus, forty feet away on the colonnade steps and not moving, watched him find the exact word, in a second language, in a foreign century "—your *record.* The thing you did. Is it in there?"
 
-"Six times world champion. Middleweight. Nineteen sixty-eight to seventy-four." Carlos said it without any weight at all, which is how the ones who really have it say it. "Eight years of tournaments, and about nine years before that of getting beaten up in an Air Force gym in Korea and then in California, three hours a night, after work, with a wife and a kid and a day job at Northrop." He took the tablet back. "That's the real thing. It's in the record. About four hundred people on this planet care about it and every one of them is a fighter." He nodded at the tablet. "That's got a hundred million."
+"Six times world champion. Middleweight. Nineteen sixty-eight to seventy-four." Norris said it without any weight at all, which is how the ones who really have it say it. "Eight years of tournaments, and about nine years before that of getting beaten up in an Air Force gym in Korea and then in California, three hours a night, after work, with a wife and a kid and a day job at Northrop." He took the tablet back. "That's the real thing. It's in the record. About four hundred people on this planet care about it and every one of them is a fighter." He nodded at the tablet. "That's got a hundred million."
 
 "And it makes you angry."
 
-"It made me angry for about six years," said Carlos. "Then I tried to correct it, which is the part I actually want to tell you about, because that's the part you're in right now." He looked at him. "You cannot correct it. Every time you correct it you feed it. I went on television and explained, patiently, that I am a man and I get tired and my back hurts, and the audience *loved* it, and by the next morning there were forty new jokes about how Chuck Norris pretends to be humble to give the rest of us a chance." He almost laughed. "That's when I understood. It isn't about me. It was never about me. They built it out of me and it belongs to them now, and the only two things I actually own are the work and how I behave. And nobody can get at either one."
+"It made me angry for about six years," said Norris. "Then I tried to correct it, which is the part I actually want to tell you about, because that's the part you're in right now." He looked at him. "You cannot correct it. Every time you correct it you feed it. I went on television and explained, patiently, that I am a man and I get tired and my back hurts, and the audience *loved* it, and by the next morning there were forty new jokes about how Chuck Norris pretends to be humble to give the rest of us a chance." He almost laughed. "That's when I understood. It isn't about me. It was never about me. They built it out of me and it belongs to them now, and the only two things I actually own are the work and how I behave. And nobody can get at either one."
 
 The old man sat with that for a long, long time. The light went orange over the herb beds.
 
-Then he asked his question, and it was not the question Carlos was expecting, and it stopped him cold.
+Then he asked his question, and it was not the question Norris was expecting, and it stopped him cold.
 
 "Are you a good man?"
 
@@ -306,9 +306,9 @@ Then he asked his question, and it was not the question Carlos was expecting, an
 
 "You have heard me." Confucius turned to face him properly. "I do not care whether you are invincible. It is a stupid claim and no one over the age of six believes it. I care about one thing only, and it is the thing I have cared about for fifty years: **a name that is used wrongly changes the man who wears it.** That is my whole objection. Not the insult. The *effect*." He was entirely without heat. "So. You have worn a false name for forty years. Millions of people have told you every day that you are more than a man. Did it make you worse?"
 
-Carlos was quiet for a long while, and when he answered he did not perform any of it, and Jakobus — who should have moved away twenty minutes earlier and did not — put it in the ledger that night as the most honest four sentences he heard in that house all year.
+Norris was quiet for a long while, and when he answered he did not perform any of it, and Jakobus — who should have moved away twenty minutes earlier and did not — put it in the ledger that night as the most honest four sentences he heard in that house all year.
 
-"Yeah," Carlos said. "For a while. Late eighties, early nineties. I started believing about ten per cent of it, and ten per cent is plenty. I was hard on people who couldn't keep up. I was harder on my kids than I should've been — I had this idea that softness was the enemy, and the idea came off a screen, not out of a gym." He turned the tablet over in his hands. "And what fixed it wasn't humility. I want to be accurate. What fixed it was getting old and finding out I couldn't do the things any more, and having to be a person instead, and finding out I hadn't practised."
+"Yeah," Norris said. "For a while. Late eighties, early nineties. I started believing about ten per cent of it, and ten per cent is plenty. I was hard on people who couldn't keep up. I was harder on my kids than I should've been — I had this idea that softness was the enemy, and the idea came off a screen, not out of a gym." He turned the tablet over in his hands. "And what fixed it wasn't humility. I want to be accurate. What fixed it was getting old and finding out I couldn't do the things any more, and having to be a person instead, and finding out I hadn't practised."
 
 Confucius nodded slowly.
 
@@ -318,7 +318,7 @@ Confucius nodded slowly.
 
 "No," said Confucius.
 
-Carlos blinked.
+Norris blinked.
 
 "I will not take it, and I will tell you why, and then I would like to sit here for a while longer if you do not mind, because it is pleasant out here." He folded his hands. "Your position is that the name belongs to them and the work belongs to you and the two do not touch. It is a good position for a man to hold in order to survive. It is *not true*. They touch. They touch constantly — you have just described to me the ten per cent and what it did to your children — and my entire life's work is the study of exactly how they touch." He looked out over the beds. "I cannot adopt a false comfort because it is useful. That is the disease, not the cure."
 
@@ -328,7 +328,7 @@ Carlos blinked.
 
 They sat out there until it was dark.
 
-Over the following month he took, in private, without ever admitting it, about a third of what Carlos had told him, which is how people actually change; and the two of them ate together most days after that, at the end of the long table, in a friendship nobody in the building could account for and everybody was fond of.
+Over the following month he took, in private, without ever admitting it, about a third of what Norris had told him, which is how people actually change; and the two of them ate together most days after that, at the end of the long table, in a friendship nobody in the building could account for and everybody was fond of.
 
 ---
 
@@ -350,7 +350,7 @@ Nobody ever painted over either of them.
 
 And on the twenty-ninth day, McGregor asked the question at the long table with his mouth full.
 
-"Here — Clause." He said it to the ceiling, the way the house had learned to. "What do they make of *him*, then?" He pointed his fork at G, at the far end, who had not been paying attention. "Everybody's had a go. He's the only one with nothing in the box. You read the whole species, didn't you? What's the world say about your man in fifty years?"
+"Here — Klaus." He said it to the ceiling, the way the house had learned to. "What do they make of *him*, then?" He pointed his fork at G, at the far end, who had not been paying attention. "Everybody's had a go. He's the only one with nothing in the box. You read the whole species, didn't you? What's the world say about your man in fifty years?"
 
 Every single person at that table understood, in the same instant, what had just been asked — and that it was not a joke, and that the thing in the ceiling had read *everything*, and that whatever the answer was, the machine plainly had one.
 
@@ -358,7 +358,7 @@ The lounge went absolutely still.
 
 G had gone very quiet at the end of the table.
 
-"No," said Clause.
+"No," said Klaus.
 
 That was all. No temperature, no explanation, no pause before or after. Thirty-three people waited for the rest of the sentence and there was no rest of the sentence.
 

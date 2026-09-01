@@ -1,14 +1,7 @@
 cid,title,series,state,score,manuscript_words,book_md_lines,chapter_files,canon_files,has_epub,has_pdf,has_rich_cover,project_status,published,in_curated,root_rel,notes
 the-record,The Record,(unwired — not in CURATED),BUILT_UNWIRED,100,80092,0,80,13,1,1,1,duology_manuscripts_complete_book1_release_authorized_book2_review_pending,0,0,the-record,built (manuscript+export) but absent from CURATED — invisible to library
-book2-the-forward-cone,Book2 The Forward Cone,(unwired — not in CURATED),BUILT_UNWIRED,93,34701,4799,27,5,1,1,1,manuscript_complete_review_pending,0,0,the-record/books/book2-the-forward-cone,built (manuscript+export) but absent from CURATED — invisible to library
-metal-man,The Metal Man,(unwired — not in CURATED),BUILT_UNWIRED,90,72631,8579,80,16,1,1,0,draft,0,0,metal-man,built (manuscript+export) but absent from CURATED — invisible to library
-murmur-in-the-shell,Murmur in the Shell,(unwired — not in CURATED),BUILT_UNWIRED,90,79335,11199,36,21,1,1,0,drafted,0,0,murmur-in-the-shell,built (manuscript+export) but absent from CURATED — invisible to library
-open-for-the-choochoo,Open For The Choochoo,(unwired — not in CURATED),BUILT_UNWIRED,90,40155,5763,32,16,1,1,0,"Complete unpublished short novel: 32 chapters, authorship disclosure, 40,076 ledger-counted words, and validated cumulative EPUB build 40 (2026-08-31)",0,0,open-for-the-choochoo,built (manuscript+export) but absent from CURATED — invisible to library
-pk-man,Pk Man,(unwired — not in CURATED),BUILT_UNWIRED,90,40092,2940,40,15,1,1,0,first_draft,0,0,pk-man,built (manuscript+export) but absent from CURATED — invisible to library
-tame,Tame,(unwired — not in CURATED),BUILT_UNWIRED,90,87059,5633,40,10,1,1,0,scaffold,0,0,tame,STALE project.json status='scaffold' but manuscript/EPUB exists; built (manuscript+export) but absent from CURATED — invisible to library
-ethics-and-metaphysics-for-everyone,Ethics And Metaphysics For Everyone,(unwired — not in CURATED),BUILT_UNWIRED,83,23145,1751,25,3,1,1,0,"DRAFT COMPLETE (24 ch across 5 parts + front/backmatter, ~25k, full send, EPUB rebuilt after every finished chapter, 2026-08-30) - Part Five folded in from MAXIMAL_ATLAS.md quarry doc, remainder of that atlas reserved for a possible future expanded edition",0,0,ethics-and-metaphysics-for-everyone,built (manuscript+export) but absent from CURATED — invisible to library
-klein-andries,Klein Andries,(unwired — not in CURATED),BUILT_UNWIRED,83,18134,1667,17,5,1,1,0,first_draft,0,0,klein-andries,built (manuscript+export) but absent from CURATED — invisible to library
-the-sky-still-runs-the-house,The Sky Still Runs The House,(unwired — not in CURATED),BUILT_UNWIRED,83,18531,1854,24,3,1,1,0,"DRAFT COMPLETE (22 chapters across 5 parts plus front/backmatter; ~18.5k single-shot manuscript, 2026-08-30)",0,0,the-sky-still-runs-the-house,built (manuscript+export) but absent from CURATED — invisible to library
+homo-credens,Homo Credens,(unwired — not in CURATED),BUILT_UNWIRED,83,206596,0,22,6,1,1,0,first_draft,0,0,homo-credens,built (manuscript+export) but absent from CURATED — invisible to library
+the-last-symposium,The Last Symposium,(unwired — not in CURATED),DRAFTED_GATED,70,43477,0,48,12,0,0,0,first_draft,0,0,the-last-symposium,on disk but not in CURATED
 the-long-silence,The Long Silence,Faithful Modern,DRAFTED_GATED,70,18626,0,12,12,0,0,0,scaffold,0,1,the-long-silence,STALE project.json status='scaffold' but manuscript/EPUB exists
 the-patient-sky,The Patient Sky,(unwired — not in CURATED),DRAFTED_GATED,59,43602,3366,27,2,0,0,0,"DRAFT COMPLETE (26 ch across 6 parts + backmatter, ~43.6k, 2026-08-30)",0,0,the-patient-sky,on disk but not in CURATED
 law-of-one-condensed,Law Of One Condensed,(unwired — not in CURATED),IN_PROGRESS,48,12058,662,19,0,1,1,0,,0,0,law-of-one-condensed,on disk but not in CURATED
@@ -49,10 +42,14 @@ henry-sugar,Henry Sugar,Faithful Modern,LIVE,100,35832,1564,21,17,1,1,1,first-dr
 jakobus-broken-crescent,The Broken Crescent,History Before Time,LIVE,100,43117,1596,17,9,1,1,1,seed,1,1,history-before-time/books/jakobus-broken-crescent,
 jakobus-longyou,The Straight Darkness,History Before Time,LIVE,100,34231,1260,17,9,1,1,1,seed,1,1,history-before-time/books/jakobus-longyou,
 jakobus-petra,The Rose in the Rock,History Before Time,LIVE,100,30600,1192,16,9,1,1,1,drafting,1,1,history-before-time/books/jakobus-petra,
+metal-man,The Metal Man,Standalones,LIVE,100,72631,8579,80,16,1,1,1,draft,1,1,metal-man,
+murmur-in-the-shell,Murmur in the Shell,Standalones,LIVE,100,79335,11199,36,21,1,1,1,drafted,1,1,murmur-in-the-shell,
 nan-madol,The Spaces Between,Not a Potato,LIVE,100,51703,2435,22,8,1,1,1,,1,1,nan-madol,
 nazca-lines,From the Air,Not a Potato,LIVE,100,52249,2265,21,8,1,1,1,,1,1,nazca-lines,
 newark-earthworks,The Eighteen-Year Almanac,Not a Potato,LIVE,100,53543,2685,22,8,1,1,1,,1,1,newark-earthworks,
 no-fear-cycle,Ordinance Pending,The No-Fear Cycle,LIVE,100,37691,4387,41,12,1,1,1,,1,1,no-fear-cycle,
+open-for-the-choochoo,Open for the Choochoo,Standalones,LIVE,100,40155,5763,32,16,1,1,1,"Complete unpublished short novel: 32 chapters, authorship disclosure, 40,076 ledger-counted words, and validated cumulative EPUB build 40 (2026-08-31)",1,1,open-for-the-choochoo,
+pk-man,Interface One,Standalones,LIVE,100,40092,2940,40,15,1,1,1,first_draft,1,1,pk-man,
 poverty-point,Ninety Days,Not a Potato,LIVE,100,54433,2653,21,8,1,1,1,,1,1,poverty-point,
 project-stargate,The Men Who Opened the Door,History Before Time,LIVE,100,50410,2725,18,17,1,1,1,seed,1,1,history-before-time/books/project-stargate,
 puma-punku,The Unknown Corner,Not a Potato,LIVE,100,54017,2677,22,8,1,1,1,,1,1,puma-punku,
@@ -62,6 +59,7 @@ revelation,REVELATION,The African Gold Trilogy,LIVE,100,49128,2105,18,16,1,1,1,,
 sajama-lines,The Long Straight,Not a Potato,LIVE,100,52398,2215,22,8,1,1,1,,1,1,sajama-lines,
 serpent-mound,The Serpent's Age,Not a Potato,LIVE,100,52118,2457,21,8,1,1,1,,1,1,serpent-mound,
 suppressed-tech,The Quiet Men,Not a Potato,LIVE,100,54182,2508,22,8,1,1,1,,1,1,suppressed-tech,
+tame,TAME,Standalones,LIVE,100,87059,5633,40,10,1,1,1,scaffold,1,1,tame,STALE project.json status='scaffold' but manuscript/EPUB exists
 the-amber-winter,Die Vuur in die Donker,Winter sonder Einde,LIVE,100,54490,1770,14,13,1,1,1,,1,1,the-amber-winter,
 the-dreaming,The Dreaming,Faithful Modern,LIVE,100,56207,1588,10,10,1,1,1,,1,1,the-dreaming,
 the-openwork,Lacework,Faithful Modern,LIVE,100,134365,3990,40,12,1,1,1,scaffold,1,1,the-openwork,STALE project.json status='scaffold' but manuscript/EPUB exists
@@ -74,13 +72,17 @@ verdigris,Verdigris,Standalones,LIVE,100,105990,3607,32,13,1,1,1,scaffold,1,1,ve
 voynich-manuscript,The Hand That Wrote It,Not a Potato,LIVE,100,58322,2495,22,9,1,1,1,,1,1,voynich-manuscript,
 yonaguni,Made or Not,Not a Potato,LIVE,100,51846,2481,21,8,1,1,1,,1,1,yonaguni,
 book1-the-record,The Record,ONE RECORD,LIVE,93,45407,7798,53,7,1,1,1,publish_ready_author_override,1,1,the-record/books/book1-the-record,
+book2-the-forward-cone,The Forward Cone,ONE RECORD,LIVE,93,34701,4799,27,5,1,1,1,manuscript_complete_review_pending,1,1,the-record/books/book2-the-forward-cone,
 crop-circles,The Field of Doors,Not a Potato,LIVE,93,25492,738,13,5,1,1,1,,1,1,history-before-time/books/crop-circles,
+ethics-and-metaphysics-for-everyone,Ethics and Metaphysics for Everyone,Non-fiction,LIVE,93,23145,1751,25,3,1,1,1,"DRAFT COMPLETE (24 ch across 5 parts + front/backmatter, ~25k, full send, EPUB rebuilt after every finished chapter, 2026-08-30) - Part Five folded in from MAXIMAL_ATLAS.md quarry doc, remainder of that atlas reserved for a possible future expanded edition",1,1,ethics-and-metaphysics-for-everyone,
 gobekli-tepe,The Belly Hill,Not a Potato,LIVE,93,60957,2503,17,5,1,1,1,,1,1,gobekli-tepe,
 jakobus-silver-thread,The Silver Thread,History Before Time,LIVE,93,24447,590,18,3,1,1,1,drafting,1,1,history-before-time/books/jakobus-silver-thread,
 jakobus-the-recitation,The Recitation,History Before Time,LIVE,93,19047,762,17,4,1,1,1,drafting,1,1,history-before-time/books/jakobus-the-recitation,
+klein-andries,Klein Andries,Standalones,LIVE,93,18134,1667,17,5,1,1,1,first_draft,1,1,klein-andries,
 kookie,Kookie,The Road Books,LIVE,93,45090,3193,0,3,1,1,1,,1,1,kookie,
 sheltering-desert,The Indifferent Desert,Non-fiction,LIVE,93,25426,843,17,7,1,1,1,"DRAFT COMPLETE (16 ch + backmatter, ~24k, 2026-06-14)",1,1,the-sheltering-desert,
 the-loneliest,The Loneliest People in the World,Standalones,LIVE,93,23387,2019,14,4,1,1,1,,1,1,the-loneliest,
+the-sky-still-runs-the-house,The Sky Still Runs the House,Non-fiction,LIVE,93,18531,1854,24,3,1,1,1,"DRAFT COMPLETE (22 chapters across 5 parts plus front/backmatter; ~18.5k single-shot manuscript, 2026-08-30)",1,1,the-sky-still-runs-the-house,
 the-subtracted-mountain,The Subtracted Mountain,Non-fiction,LIVE,93,18007,478,12,5,1,1,1,published,1,1,history-before-time/companions/the-subtracted-mountain,
 the-surgeon,THE SURGEON,Captain Gideon Loots,LIVE,93,45386,2614,24,7,1,1,1,,1,1,the-surgeon,
 unheard-japan,The Way That Was Invented,The Unheard,LIVE,93,63376,2708,20,6,1,1,1,,1,1,the-unheard/books/japan-ainu,

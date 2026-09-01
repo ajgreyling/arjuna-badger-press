@@ -129,5 +129,6 @@ For everyone who ever asked a question a grown-up couldn't answer, and kept aski
 - Chapter 28 — Consciousness and the Ghost in the Machine
 - Chapter 29 — The Ethics of Knowing
 - Chapter 30 — Physics Won't Hurt You (Well, Kind Of)
+- Chapter 31 — The Sculptor and the Splinter
 
 - What's Real, What's Open, and What's Frankly Speculative

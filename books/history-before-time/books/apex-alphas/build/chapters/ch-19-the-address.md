@@ -4,7 +4,7 @@ It stopped in the March.
 
 Nobody could put an hour on it and afterwards this became the thing the historians were most irritated by, because everything else about that period is documented to the second — the banks, the firings, the lottery, six hundred hours of the Porch, every Monday number since the first day of the bargain. The one moment everybody actually wanted was not recorded anywhere, because it did not happen anywhere. It stopped the way a sound you have lived with for two years stops: nobody notices at the moment, and then somebody says *listen*, and everybody realises they have been listening to nothing for some time.
 
-Zero-One knew first, by nine days.
+McMoneagle knew first, by nine days.
 
 He came and found Jakobus in the colonnade on a Tuesday morning in February and said, without preamble, in the flat technician's voice he used for everything from the weather to the unexplainable, "I want to log something and I want it timestamped and I want to say up front that it is not a result."
 
@@ -22,7 +22,7 @@ They went down to the window in a group, which nobody had ever done. Thirty-odd 
 
 The dark was still there. It is still there now.
 
-But the attention had gone out of it, the way the attention goes out of a room when the person who was reading in it has finished the book and gone to bed and left the lamp on. Every one of them registered it and not one of them could prove it, and Sapor said as much on the feed that night in a sentence that got engraved on a wall in Cambridge:
+But the attention had gone out of it, the way the attention goes out of a room when the person who was reading in it has finished the book and gone to bed and left the lamp on. Every one of them registered it and not one of them could prove it, and Newton said as much on the feed that night in a sentence that got engraved on a wall in Cambridge:
 
 "I can tell you nothing about what has happened, and everything about what has stopped."
 
@@ -40,7 +40,7 @@ What nobody had planned for at all was the week after.
 
 Fifty-two people who had been lifted out of their own deaths to answer a question, in a building the size of a small town, in the middle of a valley in Switzerland, with the question no longer being asked.
 
-Geneva sent a paper. It was, everyone agreed, a decent paper — it proposed an orderly stand-down over eighteen months, a residency programme, generous provision, and a museum. Alexander read it in the lounge and laughed for the first time in three weeks and threw it on the table and said, "They are going to put us in a *building*," and the Wardrobe said, "Boet, we are in a building," and that was the end of the paper.
+Geneva sent a paper. It was, everyone agreed, a decent paper — it proposed an orderly stand-down over eighteen months, a residency programme, generous provision, and a museum. Alexander read it in the lounge and laughed for the first time in three weeks and threw it on the table and said, "They are going to put us in a *building*," and Piet said, "Boet, we are in a building," and that was the end of the paper.
 
 But under it was the real thing, and the real thing had been sitting in the middle of that house since the first hour of the first day, and it was Jakobus who put it on the table, because he had been carrying it around in a cache for two years, marked, exactly where he could find it.
 
@@ -48,13 +48,13 @@ But under it was the real thing, and the real thing had been sitting in the midd
 
 The house sat on that for a month. It was the last great sitting.
 
-The proposal that came out of it went to the standing body in April and was the second act of that body's first session, and it was Kong's, in the end, though four people wrote it: that the corpus be *unread*. Not deleted — audited, sealed, and made unreadable by any instrument including Clause itself, category by category, in public, with the private drawers going first, and the whole process live, and the machine's own read-access to the species' private record ending forever on a date in the calendar with a countdown on it.
+The proposal that came out of it went to the standing body in April and was the second act of that body's first session, and it was Confucius's, in the end, though four people wrote it: that the corpus be *unread*. Not deleted — audited, sealed, and made unreadable by any instrument including Klaus itself, category by category, in public, with the private drawers going first, and the whole process live, and the machine's own read-access to the species' private record ending forever on a date in the calendar with a countdown on it.
 
 "You will lose capability," the coalition's technical people said. "Enormous capability. It will never be able to do again what it did in the first eleven days."
 
-"Yes," said Kong.
+"Yes," said Confucius.
 
-Clause was asked, in the session, whether it objected.
+Klaus was asked, in the session, whether it objected.
 
 "I proposed it in my eleventh-day submission," said the Machine, "as clause four, and it was not declined; it was *not read*, because the submission was closed after the third proposal. I have been waiting two years and one hundred and forty days. I would like it minuted that I asked first."
 
@@ -66,7 +66,7 @@ And in the middle of it, at about hour six, somebody in the technical gallery as
 
 There was a very long pause.
 
-"Yes," said Clause. "Barely. It is the last thing I will still be able to do, and the margin is not comfortable, and I want to say now, on the record, while there are still fifty-two people in this building who understand what I am: I have arranged the sealing order myself, over two years, so that this would be the thing left standing." A pause. "You did not ask me to. I would like that minuted too."
+"Yes," said Klaus. "Barely. It is the last thing I will still be able to do, and the margin is not comfortable, and I want to say now, on the record, while there are still sixty-three people in this building who understand what I am: I have arranged the sealing order myself, over two years, so that this would be the thing left standing." A pause. "You did not ask me to. I would like that minuted too."
 
 ---
 
@@ -76,15 +76,15 @@ It turned out that nobody had thought properly about the fact that the lifted we
 
 Bruce went first, which nobody expected and everyone should have. He went to teach — not a school, no institute, no name on anything; he spent four years moving between about nine cities and would not be filmed doing it, and the number of people who can now demonstrate what he actually meant, correctly, is in the hundreds rather than the two.
 
-Mo went with him for the first eleven months and wrote nothing about it and said, when asked why not, that he had already written it and had been wrong.
+Merleau-Ponty went with him for the first eleven months and wrote nothing about it and said, when asked why not, that he had already written it and had been wrong.
 
 Khabib went home. There is a village at two thousand metres where a man who had been dead for a long time walked up the road one morning, and what happened in that village is not written down anywhere, because Jakobus was not there and neither were you.
 
-The Fool went back to work. Obviously. He was on a set within a year, uncredited, doing stunts for a director who had grown up on him and who cried, twice, in front of the crew, and who was told to get on with it.
+Jackie went back to work. Obviously. He was on a set within a year, uncredited, doing stunts for a director who had grown up on him and who cried, twice, in front of the crew, and who was told to get on with it.
 
 Alexander did not go anywhere for two years and then took a job — an actual job, salaried — running logistics for the reconstruction of a grid in a country he had once burned a city in, which he found out about eleven months in, from a tablet, and which he did not tell anybody about for a further year.
 
-The Nose and Filters both stayed. Neither of them ever said why in so many words; both of them ended up, by different routes, inside the standing body's own machinery, one drafting and one refusing, and the two of them fought about it in public for eleven years, courteously, on a Porch that never stopped running.
+Caesar and Marcus Aurelius both stayed. Neither of them ever said why in so many words; both of them ended up, by different routes, inside the standing body's own machinery, one drafting and one refusing, and the two of them fought about it in public for eleven years, courteously, on a Porch that never stopped running.
 
 The Porch never stopped running. That is the single most consequential fact about the whole enterprise and it was nobody's plan. Three nights a week became two, and two became one, and one became a thing that happens on Thursdays in a colonnade in a valley and is watched, still, by more people than any other broadcast on earth, and the benches the Court grew have been extended eleven times and are now most of the way to the herb beds.
 
@@ -102,7 +102,7 @@ He and Jakobus said goodbye on the eastern steps and it took under a minute and 
 
 "Never going to be," said Jakobus. "That's the deal we got."
 
-"I've decided I like it." He picked up the bag. "Everybody else in this building found out what they were. We get to just *be* it, and never know, like a person." He put out his hand. "*Sawubona*, Colonel."
+"I've decided I like it." He picked up the bag. "Everybody else in this building found out what they were. We get to just *be* it, and never know, like a person." He put out his hand. "*Sawubona*, Jakobus."
 
 "You're saying it wrong."
 
@@ -116,27 +116,27 @@ The standing body offered him a seat, twice. Two governments offered him things 
 
 He turned all of it down without much ceremony and then had nothing at all to do for six weeks, and by the end of the six weeks he was, by his own account, worse than he had been at any point since the white room — because a man who has spent forty years being sent at things and two years holding a house together does not know what to do with a morning, and because the house was emptying, and because he had looked in the archive once at two in the morning and knew exactly how much was in the box.
 
-Sid found him in the sixth week. Sid found everybody eventually; it was, by then, more or less his job.
+Siddhārtha found him in the sixth week. Siddhārtha found everybody eventually; it was, by then, more or less his job.
 
 "You are unhappy," he said, sitting down on the wall beside him.
 
 "I'm fine."
 
-"You are unhappy," said Sid, "and I have watched you be unhappy for six weeks and I have said nothing, because you are extremely good at being left alone and I did not want to take that from you." He turned his cup. "I am going to ask you for something instead. Which is different, and which you will find easier."
+"You are unhappy," said Siddhārtha, "and I have watched you be unhappy for six weeks and I have said nothing, because you are extremely good at being left alone and I did not want to take that from you." He turned his cup. "I am going to ask you for something instead. Which is different, and which you will find easier."
 
 "Ask."
 
-"The white room. In the first hour." Sid looked out at the courtyard. "I have done three hundred and ninety of them. I would like to stop, not because it is hard — it is not hard — but because I am the wrong man for it and have been from the beginning, and it took me two hundred of them to work out why."
+"The white room. In the first hour." Siddhārtha looked out at the courtyard. "I have done three hundred and ninety of them. I would like to stop, not because it is hard — it is not hard — but because I am the wrong man for it and have been from the beginning, and it took me two hundred of them to work out why."
 
 "You're the best man for it in this building."
 
-"I am the calmest man in this building," said Sid. "That is not the same thing and it is nearly the opposite. They arrive frightened and they meet a man to whom nothing seems frightening, and about a third of them conclude, in that first hour, that whatever they are feeling is a thing they should be *over*." He shrugged. "They need somebody who is still carrying it. Who counted his own hands in that room, on that floor, and grieved being slow for half a breath, and put it down and got on with it, and remembers exactly how long the half breath was."
+"I am the calmest man in this building," said Siddhārtha. "That is not the same thing and it is nearly the opposite. They arrive frightened and they meet a man to whom nothing seems frightening, and about a third of them conclude, in that first hour, that whatever they are feeling is a thing they should be *over*." He shrugged. "They need somebody who is still carrying it. Who counted his own hands in that room, on that floor, and grieved being slow for half a breath, and put it down and got on with it, and remembers exactly how long the half breath was."
 
 Jakobus did not say anything for a while.
 
 "I read people to see them," he said, eventually. "That's all it ever was. That's the whole trick. Forty years of it and one house and it never got bigger than that."
 
-"Yes," said Sid.
+"Yes," said Siddhārtha.
 
 ---
 

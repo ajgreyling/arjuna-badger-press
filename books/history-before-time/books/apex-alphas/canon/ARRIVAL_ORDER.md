@@ -4,10 +4,8 @@
 and the age at which the reach took them. The machine finds a person at the **end** — that is the only
 fixed address on a life — and then lifts them at their **most**, which is almost never the same year.*
 
-> **Nobody in that house is called by the name the world knows.** The Machine assigns a new one on
-> arrival — a real name the world never used, a second name, or a house nickname earned in the first
-> fortnight. The famous names are printed below because this is the key. They are not used in the
-> rooms. The house names, and why, are in `THE_NAMING.md`.
+> **Everybody in the house keeps the name the world knows.** Full names appear on first introduction;
+> afterwards the narration uses the familiar given name or surname recorded in `THE_NAMING.md`.
 
 ---
 
@@ -25,13 +23,13 @@ recognised not by their fame but by what another master saw in them on sight. Th
 | 5 | **Khabib Nurmagomedov** | *living* | — | **31** | undefeated, the still centre |
 | 6 | **Conor McGregor** | *living* | — | **27** | the craft under the spectacle |
 | 7 | **David Goggins** | *living* | — | **40** | the ground of will |
-| 8 | **Carlos Ray Norris** | *living* | — | **28** | six-time world middleweight champion, 1968 |
+| 8 | **Chuck Norris** | *living* | — | **28** | six-time world middleweight champion, 1968 |
 | 9 | **Bas Rutten** | *living* | — | **34** | the coach's eye already forming |
 | 10 | **Michael Flatley** | *living* | — | **36** | command of a room as a physical discipline |
-| 11 | **the horseman** — Mongolian wrestler *(fictional)* | — | — | — | more of his life on a horse than off one |
+| 11 | **Bat** — Mongolian wrestler *(fictional)* | — | — | — | more of his life on a horse than off one |
 | 12 | **Arin Ndlela** — climber *(fictional)* | — | — | — | the wall, and the hold shaped like a hand |
-| 13 | **the prop** — Springbok front row *(fictional)* | — | — | — | moving what does not want to be moved |
-| 14 | **the capoeirista** *(fictional)* | — | — | — | a body that is a conversation |
+| 13 | **Piet** — Springbok front row *(fictional)* | — | — | — | moving what does not want to be moved |
+| 14 | **Deco** — capoeirista *(fictional)* | — | — | — | a body that is a conversation |
 
 **The faculty** — cast for the same reason and arriving the same way, all living: **Andrew Bustamante**
 and **Jihi Bustamante** (the case officers) · **Chris Voss** (the voice) · **Chase Hughes** (the
@@ -78,27 +76,40 @@ and unedited and has no frame missing.
 
 The Machine was asked, by three separate people, whether it reached him.
 
-*"The reach is logged as complete,"* said Clause, and would not say anything else, then or ever.
-
+*"The reach is logged as complete,"* said Klaus, and would not say anything else, then or ever.
 
 ---
 
-## What they are actually called
+## The third casting — the Porch
 
-*The short version of `THE_NAMING.md`, for a reader who has met somebody in a corridor and cannot
-place him.*
+*Nineteen philosophers answer the question of who the house is for. Aristotle is already resident;
+the other eighteen arrive in the order below. Their full reached-at moments and positions are in
+`THE_PORCH.md`.*
 
-**Muscle** — Colonel (Jakobus) · Dragon (Bruce) · the Fool (Jackie) · Ray (Carlos) · the Eagle
-(Khabib) · Goggins · Con (McGregor) · El Guapo (Bas) · Feet (Flatley) · **Tiny** (Jonah Lomu) ·
-Sensei (Musashi) · the Horseman · Spider (Arin) · the Wardrobe (the prop) · Water (the capoeirista).
+**Plato** · **Anselm of Canterbury** · **Thomas Aquinas** · **René Descartes** · **Baruch Spinoza** ·
+**David Hume** · **Immanuel Kant** · **G. W. F. Hegel** · **Karl Marx** · **Friedrich Nietzsche** ·
+**Edmund Husserl** · **Martin Heidegger** · **Ludwig Wittgenstein** · **Maurice Merleau-Ponty** ·
+**Hans-Georg Gadamer** · **Jean-Paul Sartre** · **Albert Camus** · **Emmanuel Levinas**.
 
-**Minds** — **Sapor** (Newton) · **the Clerk** (Einstein) · **the Ump** (Bohr) · **Threes** (Tesla) ·
-**the Doctor** (Sagan) · **G** · **Prof** (Aristotle) · **Kong** (Confucius) · **All-In** (Alexander) ·
-**the Nose** (Caesar) · **Filters** (Marcus Aurelius) · Ingo · the Commissioner (Price) · **Zero-One**
-(McMoneagle) · the Sleeper (Cayce) · **Sid** (Gautama) · **Josh** (Yeshua).
+---
 
-**The Porch** — Broad (Plato) · the Furnace (Descartes) · the Grinder (Spinoza) · the Bundle (Hume) ·
-the Clock (Kant) · the Owl (Hegel) · Mohr (Marx) · Fritz (Nietzsche) · the Bracket (Husserl) ·
-**Martin** (Heidegger — the house never gave him one) · the Cramp (Wittgenstein) · **Mo**
-(Merleau-Ponty) · the Chair (Gadamer) · JP (Sartre) · **Keeper** (Camus) · **Sawubona** (Levinas) ·
-Canterbury (Anselm) · **the Ox** (Aquinas).
+## The fourth casting — the leaders
+
+*Eleven reaches on eleven days. The faculty is leadership; selection confers no office. Full double
+ledgers and collision rules are in `THE_LEADERS.md`.*
+
+| # | Name | Died | Age at death | Reached at | At their most |
+|---|---|---|---|---|---|
+| 1 | **Genghis Khan** (Temüjin) | 1227 | **c. 65** | **c. 44** | 1206, steppe factions made into one command system |
+| 2 | **Boudicca** *(also Boudica)* | c. 60/61 AD | **unknown** | **unknown** | the Iceni rising, after the three Roman towns burned and before Rome answered |
+| 3 | **Joan of Arc** | Rouen, 30 May 1431 | **c. 19** | **c. 17** | 1429, after Orléans and the coronation at Reims |
+| 4 | **George Washington** | Mount Vernon, 14 December 1799 | **67** | **51** | 23 December 1783, about to return his military commission |
+| 5 | **Abraham Lincoln** | Washington, 15 April 1865 | **56** | **56** | March 1865, after the second inaugural |
+| 6 | **Winston Churchill** | London, 24 January 1965 | **90** | **65** | 18 June 1940, Britain held in the war partly by language |
+| 7 | **Jan Christiaan “Jannie” Smuts** | Doornkloof, 11 September 1950 | **80** | **74** | April 1945, the San Francisco conference |
+| 8 | **Nelson Mandela** | Johannesburg, 5 December 2013 | **95** | **44** | July 1962, the boxer-organiser back from military training and not yet arrested |
+| 9 | **Mahatma Gandhi** (Mohandas K. Gandhi) | New Delhi, 30 January 1948 | **78** | **60** | 12 March 1930, the Salt March begins |
+| 10 | **Stephen Hawking** | Cambridge, 14 March 2018 | **76** | **46** | 1988, cosmology carried into the public imagination |
+| 11 | **Dr Martin Luther King Jr** | Memphis, 4 April 1968 | **39** | **34** | September 1963, after the March on Washington |
+
+**House count after the fourth casting: sixty-three.**

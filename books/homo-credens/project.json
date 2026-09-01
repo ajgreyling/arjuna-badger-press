@@ -1,0 +1,20 @@
+{
+  "id": "homo-credens",
+  "title": "Homo Credens",
+  "folder": "homo-credens",
+  "kind": "novel",
+  "logline": "A straight narrative history of religion from the first deliberate grave goods through the Axial Age, the Abrahamic split, and the conquest religions, stopping at midnight, 31 December 1900 — argued for 22 chapters around one thesis: religion is the technology by which strangers become kin.",
+  "market": "narrative nonfiction / history of religion — Sapiens x The Knowledge register, Book I of the Homo Ter Probatus trilogy (~410,000 words total)",
+  "status": "first_draft",
+  "shelf": "unassigned",
+  "source": "Migrated 2026-08-31 from ~/code/lucid-rodeo, branch homo-credens-manuscript (never merged, uncommitted risk). 22 chapters, ~201,645 words, corrected prose (post-factcheck pass, 2026-08-13). EPUB rebuilt text-only from source via build-epub.sh (art/ was never committed in the source branch — only Wikimedia sourcing credits survived, no image bytes). Print PDF is the author-supplied file (has the original illustration programme baked in; provenance/build-date not established per MANUSCRIPT_STATE.md — do not treat as final without checking).",
+  "notes": "Sibling to homo-benignus and homo-verificans (Homo Ter Probatus box set, ~410k words total, running the '420 Code' axioms S/B/R/C against the recorded history of religion). Book I is the straight history; Verificans runs the axiomatic audit against 28 traditions; Benignus is the third leg. NOT in PUBLISHED or CURATED. Cover is a placeholder typographic stub generated 2026-08-31 pending real art (source images for the original plates were never recovered).",
+  "canon_order": [
+    "STORY_BIBLE.md",
+    "SPINE.md",
+    "THEMES.md",
+    "CHAPTER_LEDGER.md",
+    "CANON_CHOICES.md",
+    "PLANTS_AND_PAYOFFS.md"
+  ]
+}

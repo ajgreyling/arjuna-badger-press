@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 888,
-  "bytes": 3384005055,
+  "count": 898,
+  "bytes": 3414231521,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -2794,6 +2794,62 @@
       "bytes": 4379062
     },
     {
+      "path": "books/homo-benignus/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ec09bbff1e68a425c7ea3b6d2af0e961beba4152fc46696733bfdf298992f1a9",
+      "sha256": "ec09bbff1e68a425c7ea3b6d2af0e961beba4152fc46696733bfdf298992f1a9",
+      "bytes": 1239621
+    },
+    {
+      "path": "books/homo-benignus/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5b12eeb51b9df8092d992b74b54a43eba3b0bf9e7d50efc7e8b9744844e65074",
+      "sha256": "5b12eeb51b9df8092d992b74b54a43eba3b0bf9e7d50efc7e8b9744844e65074",
+      "bytes": 6198665
+    },
+    {
+      "path": "books/homo-credens/art/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/24ceba61045ae501f52af24e6af85a0ce1fb8476c27ce5cd155bd79ba393dd6c",
+      "sha256": "24ceba61045ae501f52af24e6af85a0ce1fb8476c27ce5cd155bd79ba393dd6c",
+      "bytes": 70105
+    },
+    {
+      "path": "books/homo-credens/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/235d13afd1f622bb93574b1f6cf65f62268a34c79abfe524531a55103f2f4b6d",
+      "sha256": "235d13afd1f622bb93574b1f6cf65f62268a34c79abfe524531a55103f2f4b6d",
+      "bytes": 1099971
+    },
+    {
+      "path": "books/homo-credens/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/12303dd5f8cadbdcc3679db935951a9c21b09daf04347b04486058741767f3e7",
+      "sha256": "12303dd5f8cadbdcc3679db935951a9c21b09daf04347b04486058741767f3e7",
+      "bytes": 5873553
+    },
+    {
+      "path": "books/homo-verificans/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b29d9bbb42a28f9bf3698e21a86590572062f5d08422a70f0c3d691ce893305e",
+      "sha256": "b29d9bbb42a28f9bf3698e21a86590572062f5d08422a70f0c3d691ce893305e",
+      "bytes": 1077329
+    },
+    {
+      "path": "books/homo-verificans/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/aaed33ffe1a69ca57764f163332be027727665f78063d0b78f70c3fa1c2299a2",
+      "sha256": "aaed33ffe1a69ca57764f163332be027727665f78063d0b78f70c3fa1c2299a2",
+      "bytes": 5709541
+    },
+    {
       "path": "books/house-of-bread/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
@@ -4288,6 +4344,30 @@
       "key": "blobs/sha256/4e5295a5e0083c8adeba3fa540bce02be5a48ed45dfb763748814dd0c75b3c8f",
       "sha256": "4e5295a5e0083c8adeba3fa540bce02be5a48ed45dfb763748814dd0c75b3c8f",
       "bytes": 5947584
+    },
+    {
+      "path": "books/richard-feynman/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3c61baeb234bbf05699ad62949861f62366e5a865fe895bf359e9ddc15efa019",
+      "sha256": "3c61baeb234bbf05699ad62949861f62366e5a865fe895bf359e9ddc15efa019",
+      "bytes": 2486703
+    },
+    {
+      "path": "books/richard-feynman/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/88bca4f5cf63cea163e68de0d0f9cf4587bb03dd5994c6813982a924e0aa2016",
+      "sha256": "88bca4f5cf63cea163e68de0d0f9cf4587bb03dd5994c6813982a924e0aa2016",
+      "bytes": 971526
+    },
+    {
+      "path": "books/richard-feynman/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1b68b2ea2f602f6b0f6b4dc938c075d2ec2f9b6ec6f06c76e28c2aa19bbc52e1",
+      "sha256": "1b68b2ea2f602f6b0f6b4dc938c075d2ec2f9b6ec6f06c76e28c2aa19bbc52e1",
+      "bytes": 5499452
     },
     {
       "path": "books/sajama-lines/design/cover-plate.png",

@@ -26,7 +26,7 @@ Jakobus, at the counter with his own cup, watched the whole first encounter and 
 
 Jackie looked at Jakobus. Jakobus looked at his cup.
 
-By that evening Newton had taken the machine apart on a towel on the counter with tools the Court had grown for him at his exact specification, and had it back together, and had made one cup, and had thrown it out. By the end of the week he had a ledger. By the end of the second week the ledger had columns — dose, grind, water, seconds, mass out, and a final column headed *Sapor* which nobody could get him to translate — and there was a small brass thermometer of his own manufacture clipped to the group head, and a printed notice above the machine in a hand so tight it looked engraved:
+By that evening Newton had taken the machine apart on a towel on the counter with tools the Court had grown for him at his exact specification, and had it back together, and had made one cup, and had thrown it out. By the end of the week he had a ledger. By the end of the second week the ledger had columns — dose, grind, water, seconds, mass out, and a final column headed *Newton* which nobody could get him to translate — and there was a small brass thermometer of his own manufacture clipped to the group head, and a printed notice above the machine in a hand so tight it looked engraved:
 
 *NEMO PRAETER ME.*
 
