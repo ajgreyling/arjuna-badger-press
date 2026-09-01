@@ -22,6 +22,14 @@ Usage:
     ./tools/r2_push.py plan   platform
     ./tools/r2_push.py push   platform
     ./tools/r2_push.py verify platform
+    ./tools/r2_push.py pull   press      # hydrate missing/wrong-size files FROM R2
+
+pull is push's mirror image: for every manifest entry whose local file is
+missing or the wrong size, fetch the R2 object and write it to the path the
+manifest names. This is what makes "untrack it, R2 has it" actually true for
+a fresh clone or a rebuilt machine — without this, R2-only assets are
+unrecoverable from git alone. Never overwrites a local file that already
+matches (by size); never deletes anything.
 """
 from __future__ import annotations
 
@@ -198,6 +206,79 @@ def push(repo: str) -> int:
     return 0
 
 
+def pull(repo: str) -> int:
+    """Hydrate any manifest entry missing (or wrong size) on local disk, from R2."""
+    root, entries = load(repo)
+    env = rclone_env()
+    pub_base = root / "saas" / "web" / "public"
+
+    def needs_fetch(e) -> bool:
+        p = root / e["path"]
+        return not p.is_file() or p.stat().st_size != e["bytes"]
+
+    for bucket, grp in sorted(by_bucket(entries).items()):
+        missing = [e for e in grp if needs_fetch(e)]
+        if not missing:
+            print(f"{bucket}: {len(grp)} entries — all present, nothing to pull")
+            continue
+
+        blobs = [e for e in missing if e["key"].startswith("blobs/sha256/")]
+        mirrored = [e for e in missing if e not in blobs]
+
+        if blobs:
+            # One object per unique hash; a hash may back several paths (dedup).
+            by_hash: dict[str, list] = {}
+            for e in blobs:
+                by_hash.setdefault(e["sha256"], []).append(e)
+            stage = Path(tempfile.mkdtemp(prefix="r2pull-"))
+            lst = stage / "_files.txt"
+            lst.write_text("\n".join(sorted(by_hash)) + "\n")
+            print(f"== inputs: fetching {len(by_hash)} unique blobs <- {REMOTE}:{bucket}/blobs/sha256")
+            subprocess.run(
+                ["rclone", "copy", "--files-from", str(lst), "--progress",
+                 "--transfers", "8", "--checkers", "16",
+                 f"{REMOTE}:{bucket}/blobs/sha256", str(stage)],
+                env=env, check=False,
+            )
+            for h, es in by_hash.items():
+                fetched = stage / h
+                if not fetched.is_file():
+                    print(f"  !! failed to fetch blob {h} (needed by {es[0]['path']})")
+                    continue
+                for e in es:
+                    dest = root / e["path"]
+                    dest.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(fetched, dest)
+                    print(f"  wrote {e['path']}")
+            shutil.rmtree(stage, ignore_errors=True)
+
+        if mirrored:
+            groups: dict[str, list] = {}
+            for e in mirrored:
+                rel = e["path"].split("saas/web/public/", 1)[-1]
+                prefix = e["key"][: -len(rel)].strip("/") if e["key"].endswith(rel) else None
+                if prefix is None:
+                    print(f"  !! skipping {e['path']}: key does not mirror a public path")
+                    continue
+                groups.setdefault(prefix, []).append(rel)
+            for prefix, rels in sorted(groups.items()):
+                lst = tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False)
+                for rel in rels:
+                    lst.write(rel + "\n")
+                lst.close()
+                src = f"{REMOTE}:{bucket}/{prefix}" if prefix else f"{REMOTE}:{bucket}"
+                print(f"== {len(rels)} files <- {src}")
+                pub_base.mkdir(parents=True, exist_ok=True)
+                subprocess.run(
+                    ["rclone", "copy", "--files-from", lst.name, "--progress",
+                     "--transfers", "8", "--checkers", "16",
+                     src, str(pub_base)],
+                    env=env, check=False,
+                )
+                os.unlink(lst.name)
+    return 0
+
+
 def verify(repo: str) -> int:
     _, entries = load(repo)
     env = rclone_env()
@@ -225,11 +306,11 @@ def verify(repo: str) -> int:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
-    for c in ("plan", "push", "verify"):
+    for c in ("plan", "push", "pull", "verify"):
         s = sub.add_parser(c)
         s.add_argument("repo", choices=sorted(ROOTS))
     a = ap.parse_args()
-    return {"plan": plan, "push": push, "verify": verify}[a.cmd](a.repo)
+    return {"plan": plan, "push": push, "pull": pull, "verify": verify}[a.cmd](a.repo)
 
 
 if __name__ == "__main__":
