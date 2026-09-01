@@ -440,7 +440,14 @@ PUBLISHED = set(
         # clear of the rich-cover gate). Published as DRAFTS by explicit author decision ("full
         # send"), same standing as the Road Books — complete manuscripts, not yet copy-edited:
         "book2-the-forward-cone,metal-man,murmur-in-the-shell,open-for-the-choochoo,pk-man,tame,"
-        "ethics-and-metaphysics-for-everyone,klein-andries,the-sky-still-runs-the-house",
+        "ethics-and-metaphysics-for-everyone,klein-andries,the-sky-still-runs-the-house,"
+        # 2026-09-01: Homo Ter Probatus trilogy (Credens/Verificans/Benignus, ~410k words total).
+        # Covers now real illustrated art (mined from each book's print PDF, replacing a black
+        # typographic stub for Credens and lower-res placeholders for the other two). Verificans
+        # and Benignus have no manuscript source anywhere (press/platform/klaus/lucid-rodeo all
+        # checked) — download-only, no read-online, per their own project.json. Published by
+        # explicit author decision.
+        "homo-credens,homo-verificans,homo-benignus",
     ).split(",") if s.strip()
 )
 
@@ -1069,6 +1076,18 @@ CURATED = [
     ("physics-wont-hurt-you", "Physics Won't Hurt You", "Well, kind of. A history of physics, from falling apples to the edge of everything", "Non-fiction",
      "physics-wont-hurt-you", "build/export",
      "Physics from Galileo's tower to CERN's collider and past it: Newton, Faraday, Maxwell, Curie, Einstein, Bohr, Heisenberg, Dirac, Feynman, Hubble, Hawking, and the machine that found the Higgs boson — told with warmth and dark humour, all the way out to the edge where the field runs out of clean answers and starts arguing with itself, with philosophy, and with what it owes the rest of us. A Bryson-style history for readers who never took, or barely survived, a physics class."),
+
+    ("homo-credens", "Homo Credens", "Homo Ter Probatus · Book I", "Non-fiction",
+     "homo-credens", "build/export",
+     "A straight narrative history of religion from the first deliberate grave goods through the Axial Age, the Abrahamic split, and the conquest religions, stopping at midnight, 31 December 1900 — argued for 22 chapters around one thesis: religion is the technology by which strangers become kin."),
+
+    ("homo-verificans", "Homo Verificans", "The Audit of Heaven · Homo Ter Probatus · Book II", "Non-fiction",
+     "homo-verificans", "build/export",
+     "Twenty-eight faiths run through the same four axioms — a record must be distinguishable from no record, recording requires irreversibility, records accumulate forward, no record is fully isolated — each tradition given the same four-part audit and a named kill-switch test: the evidence that would have falsified its core claim, if it existed."),
+
+    ("homo-benignus", "Homo Benignus", "A Realist's Utopia · Homo Ter Probatus · Book III", "Non-fiction",
+     "homo-benignus", "build/export",
+     "The moral floor that survived every audit in Homo Verificans — reciprocity, charity, the stranger fed — taken seriously as an engineering spec for a country, in the school of Rutger Bregman: sunny, evidence-drunk, and disciplined by the rule that every proposal must publish its own kill switch."),
 
     ("the-loneliest", "The Loneliest People in the World", "A standalone novella", "Standalones",
      "the-loneliest", "build/export",
