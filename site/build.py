@@ -9074,8 +9074,9 @@ def assert_nav_drawer_contract(out: Path) -> None:
         out / "narrators.html",
         out / "app.html",
     ]
+    redirect_stubs = set(BOOK_REDIRECTS.keys())
     for sub in ("book", "craft"):
-        pages = sorted((out / sub).glob("*.html"))
+        pages = [p for p in sorted((out / sub).glob("*.html")) if p.stem not in redirect_stubs]
         if pages:
             samples.append(pages[0])
     # read/*.html uses readbar (back link), not site nav — excluded
