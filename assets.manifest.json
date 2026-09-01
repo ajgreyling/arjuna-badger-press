@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 895,
-  "bytes": 3390321188,
+  "count": 898,
+  "bytes": 3399278869,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -4344,6 +4344,30 @@
       "key": "blobs/sha256/4e5295a5e0083c8adeba3fa540bce02be5a48ed45dfb763748814dd0c75b3c8f",
       "sha256": "4e5295a5e0083c8adeba3fa540bce02be5a48ed45dfb763748814dd0c75b3c8f",
       "bytes": 5947584
+    },
+    {
+      "path": "books/richard-feynman/design/cover-plate.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3c61baeb234bbf05699ad62949861f62366e5a865fe895bf359e9ddc15efa019",
+      "sha256": "3c61baeb234bbf05699ad62949861f62366e5a865fe895bf359e9ddc15efa019",
+      "bytes": 2486703
+    },
+    {
+      "path": "books/richard-feynman/design/cover.jpg",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/88bca4f5cf63cea163e68de0d0f9cf4587bb03dd5994c6813982a924e0aa2016",
+      "sha256": "88bca4f5cf63cea163e68de0d0f9cf4587bb03dd5994c6813982a924e0aa2016",
+      "bytes": 971526
+    },
+    {
+      "path": "books/richard-feynman/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1b68b2ea2f602f6b0f6b4dc938c075d2ec2f9b6ec6f06c76e28c2aa19bbc52e1",
+      "sha256": "1b68b2ea2f602f6b0f6b4dc938c075d2ec2f9b6ec6f06c76e28c2aa19bbc52e1",
+      "bytes": 5499452
     },
     {
       "path": "books/sajama-lines/design/cover-plate.png",
