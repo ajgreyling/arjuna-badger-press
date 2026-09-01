@@ -27,6 +27,9 @@ node_modules/
 # ── NEVER vendor copyrighted third-party reference material ─
 **/ingest/
 
+# Local RAG corpora/vector stores (source manifests and tooling remain tracked).
+books/**/research/**/.rag/
+
 # ── Print-workshop PDFs (not the public download) ─────────────────────────────
 **/build/export/*-jacket.pdf
 **/build/export/*-print.pdf
