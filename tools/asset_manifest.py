@@ -69,8 +69,13 @@ def press_entries(root: Path):
             if not p.is_file() or p.is_symlink():
                 continue
             rel = p.relative_to(root)
+            rel_slashed = f"/{rel.as_posix()}/"
             # regenerable output is archived offline, never stored
-            if "/build/" in f"/{rel.as_posix()}/":
+            if "/build/" in rel_slashed:
+                continue
+            # local RAG vector stores hold vendored third-party research material
+            # (PDFs, etc.) — never publish these to the shared R2 bucket.
+            if "/research/" in rel_slashed and "/.rag/" in rel_slashed:
                 continue
             if p.suffix.lower() not in HEAVY_EXTS:
                 continue
