@@ -22,6 +22,9 @@ Schrödinger's chaotic personal life) rather than from mocking the science itsel
   imaginative room — but every such passage carries an explicit, honestly-stated marker of where
   the idea sits: mainstream consensus / live open question / minority-but-serious position /
   speculative-and-contested. Never let the fun of an idea erase that marker.
+- **Chapter 31 keeps three ledgers separate.** What G claims; what AJ's code reproduces; what
+  independent experiment or scientific review establishes. Never let a passing software gate stand
+  in for the third ledger.
 - **No borrowed sentences.** Nothing here is copied from Bryson, Rovelli, Greene, Carroll, Gleick,
   Hawking's own books, or any other existing popular-physics writing.
 - **Defer to `richard-feynman` on Los Alamos/Arline/QED's full telling** — condense those beats

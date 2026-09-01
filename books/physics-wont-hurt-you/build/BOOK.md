@@ -129,6 +129,7 @@ For everyone who ever asked a question a grown-up couldn't answer, and kept aski
 - Chapter 28 — Consciousness and the Ghost in the Machine
 - Chapter 29 — The Ethics of Knowing
 - Chapter 30 — Physics Won't Hurt You (Well, Kind Of)
+- Chapter 31 — The Sculptor and the Splinter
 
 - What's Real, What's Open, and What's Frankly Speculative
 
@@ -3732,8 +3733,8 @@ way Feynman insisted on doing in front of a national television audience even as
 chair visibly wished he wouldn't. Do not let the elegance or the cleverness of a discovery excuse you
 from asking, honestly and early, what it might be used for by someone considerably less careful than
 you are, the way Szilard tried, imperfectly and too late, to redirect the weapon he had helped set in
-motion. And remember, as this book's very next and final chapter will insist on remembering one more
-time before it closes, that the same plain, patient, checkable curiosity that built the bomb also
+motion. And remember, as this book's two closing chapters will insist on remembering one more time
+before it closes, that the same plain, patient, checkable curiosity that built the bomb also
 built the vaccine, the MRI machine, the solar panel, and the satellite that lets a stranded hiker call
 for rescue from the middle of a wilderness — that physics's moral weight has never run in only one
 direction, and that the discipline's whole history, honestly told, is not a cautionary tale about
@@ -3752,10 +3753,6 @@ Four hundred years, thirty chapters, and several hundred billion galaxies later,
 refusal is still, this book has tried to show at every turn, the entire engine driving everything
 else: Newton refusing to accept that gravity and falling were two separate mysteries; Faraday
 refusing to accept that his lines of force were only a beautiful metaphor; Rutherford refusing to
-accept the plum-pudding atom once his own gold foil said otherwise; Vera Rubin refusing to accept that
-a spiral galaxy's outer stars were simply orbiting slower, the way Newton's older gravity said they
-should.
-
 accept the plum-pudding atom once his own gold foil said otherwise; Marie Curie refusing to accept
 that a mineral's radioactivity could be fully accounted for by the uranium already known to be
 inside it; Vera Rubin refusing to accept that a spiral galaxy's outer stars were simply orbiting
@@ -3800,9 +3797,10 @@ know yet" is a considerably less satisfying sentence than the confident alternat
 
 Richard Feynman, whose life this library tells in full elsewhere and whose voice has quietly narrated
 a good portion of this book's middle chapters, gave a name to the thing underneath all four hundred
-years of this story that this book would like to leave its reader with, because it is, in the end, a
-better and truer summary than anything this book could invent on its own: the pleasure of finding
-things out. Not the medal. Not the fame that made him so uncomfortable in Stockholm. Not even, in the
+years of this story that this book would like to leave its reader with before meeting one living
+person who took it literally, because it is, in the end, a better and truer summary than anything
+this book could invent on its own: the pleasure of finding things out. Not the medal. Not the fame
+that made him so uncomfortable in Stockholm. Not even, in the
 end, being right, though being right mattered enormously and this whole book has been a four-hundred-
 year argument for why it matters. Just the plain, private, renewable pleasure — available, this book
 has tried to prove chapter after chapter, to a bookbinder's apprentice with no formal mathematics and
@@ -3826,10 +3824,380 @@ rather than take anyone's word, however ancient or however confident, for how th
 willingness is not rationed by institution, by credential, or by century. It was available to a
 bookbinder's apprentice in 1820s London, to a Polish chemist working in a freezing converted shed in
 1898 Paris, to a patent clerk with no university post in 1905 Bern, and it is, this book would insist
-in its very last sentence, exactly as available, right now, to whoever has just finished reading
-this one.
+at the end of its four-century history, exactly as available, right now, to whoever has just finished
+reading this one.
 
 Go and look.
+
+# Chapter 31 — The Sculptor and the Splinter
+
+*For G.*
+
+Gerhard van Niekerk did.
+
+This book has spent thirty chapters walking a more or less straight line — from a nineteen-year-old
+with a chandelier in Pisa to a dying man with a piece of rubber and a glass of ice water — and it
+closes deliberately on one more refusal. Not because the story needed tidying up, but because the
+story is not over. The fairest thing a book that has spent four hundred years arguing that the method
+belongs to anyone patient enough to use it can do is show what that looks like, at full scale,
+happening now, to someone its author knows well enough to call a brother.
+
+The last chapter ended with two words — *go and look* — because four hundred years of physics had
+not found a better instruction. Gerhard went and looked from a place the history of physics does not
+usually think to search. He is a South African sculptor, based in Strand, who learned the human body
+through clay before he tried to describe the universe through equations. His other work lives in
+bronze and in a marble composite he developed himself: bodies caught between strength and fragility,
+smoothness and abrasion, permanence and decay. He publishes his written work under one initial, G.
+The workshop and the books are parts of the same practice. Both begin with a form that looks solid
+until you put your hands on it and discover where the tension lives.
+
+He is not a physicist. He has no doctorate and no university affiliation, and says so before anyone
+else can say it for him. That absence is neither evidence of secret genius nor a reason to refuse the
+work unread. A credential cannot make an equation true, and its absence cannot make one false. The
+numbers and the logical joints must carry the weight.
+
+For roughly thirty years, G has been building an argument he calls *The 420 Code*. It is not a
+modest argument. It claims to begin beneath physics, with the minimum conditions required for
+anything to be recorded at all, and to climb from there through spacetime, quantum mechanics,
+particles, gravity, cosmology, consciousness, artificial intelligence, justice and, at the far end,
+ordinary kindness. The current public exhibition contains forty-three papers he calls Artist's
+Proofs, a falsification registry containing 561 kill switches, and more than a million words in
+books, notebooks, records, proofs and applications. It is published free under a Creative Commons
+licence. G describes the body of work as a museum.
+
+That description is useful because [the420code.org](https://the420code.org) is not arranged like the
+homepage of a man selling one grand equation. It is an exhibition with rooms. The forty-three
+Artist's Proofs are the individual formal works. Eight bound notebooks gather them into a proposed
+dependency chain: *The Premise*; *Spacetime*; *Quantum Mechanics*; *Forces and Constants*;
+*Particles and Matter*; *Cosmology*; *The Operator Interface*; and *Consequences*. Alongside them
+sit shorter readers, predictions, prose works, a structural glossary, the master kill-switch
+registry and executable code. A reader can enter through the mathematics, through philosophy, or
+through applications to artificial intelligence, justice, bioethics, drug policy, economics and
+the body. The same claim is being turned under different lights: that one minimal break in a
+perfect balance is enough to produce both a world and the agents living inside it.
+
+The name is deliberately less respectable than the ambition. G says plainly that *The 420 Code*
+takes its name from cannabis culture. He also treats the name as a small epistemological trap: if a
+reader refuses to inspect an argument because of the label on its door, the refusal has revealed
+something about the reader, not the equations. One of the later application papers does make claims
+about drug classification and cannabis, and unlike most of the corpus it imports external public
+data. Those claims require their own evidentiary audit. The name is not evidence for them and the
+stigma is not evidence against them. The only honest move is still the irritating one: open the
+paper and check.
+
+The name *Artist's Proof* is not decorative. In sculpture and printmaking, an artist's proof is one
+of the early objects pulled from the process so the maker can inspect the thing before the edition
+goes out into the world. It is not sacred. It is where the defects are supposed to become visible.
+G's papers carry that idea into mathematics. Every large claim is accompanied by one or more
+conditions under which it is meant to fail.
+
+The whole building starts with a sentence so small it can seem almost cheeky:
+
+*One record exists.*
+
+You are reading this page. The reading happened. You can object that no record exists, but the
+objection has now happened too. G's argument is that any record requires at least four structural
+conditions: a distinction between this and not-this; a break that makes one side different from the
+other; persistence, because a record that disappears without consequence records nothing; and a
+constraint that makes the event happen here rather than everywhere at once. His papers abbreviate
+these as S, B, R and C. In the most compressed notation, the starting picture is written
+$1{:}1 + 1\times\varepsilon \mathbin{@} AS$: a perfect balance, one irreducible splinter, and an
+actualising place where the break is registered.
+
+The letters carry more weight in G's formal vocabulary than that first translation suggests. S is
+symmetry: the minimum two-sided structure required for one thing to be distinguished from another.
+B is the break, the unpaired epsilon that prevents the two sides from remaining interchangeable. R
+is record: what has happened composes with later events but cannot simply be unwritten. The
+append-only ledger and the arrow of time are proposed consequences of Record, not definitions of the
+axiom itself. C is constraint: a record must occur somewhere rather than everywhere. Bounded
+propagation — the speed limit physicists call *c* — is what Constraint is claimed to produce, not
+Constraint itself. AS is the Actualization State, the surface at which possibility becomes a durable
+event. G eventually identifies that surface with the physical manifold itself. In his picture, the
+universe is not a collection of objects moving through a pre-existing container. It is the
+accumulating record of the break being maintained.
+
+That is an arresting philosophical floor. It is not, by itself, a theory of gravity. The distance
+between “a record exists” and “this is why a proton weighs what it does” is the entire distance G's
+work has to earn, and it is precisely where a sympathetic reader must keep one hand near the brake.
+A premise can be undeniable while the bridges built from it remain incomplete. A calculation can run
+perfectly while the reason offered for choosing that calculation remains open. Those distinctions
+are not insults to the work. They are what the work's own kill switches demand.
+
+Here is how G attempts the climb.
+
+On the spacetime side, he argues that the four record conditions must be represented faithfully in
+a minimum-dimensional arena. His count yields three dimensions of space and one of time; the
+unbroken balance is treated as a further probability dimension, the Hilbert-space canvas on which
+quantum possibilities live. Constraint becomes a finite propagation bound, read as the speed of
+light. Record becomes irreversible accumulation. The break supplies the asymmetry and the source.
+Once a smooth four-dimensional spacetime and the required conservation properties are in place, G
+uses Lovelock's uniqueness result to recover the form of Einstein's field equations, including a
+cosmological term.
+
+That last sentence contains both the appeal and the danger of the method. Lovelock's theorem really
+does severely restrict the possible gravitational field equations under its assumptions. It does
+not establish that G's record axioms uniquely provide those assumptions. Likewise, counting four
+independent record conditions and asking for a minimal faithful embedding is an argument for three
+spatial dimensions only if the proposed algebra, its independence, the embedding rule and the
+minimality principle all hold. G's AP20 says the bridge between record algebra and physical geometry
+has been closed; the same paper still carries live proof obligations for the completeness and
+minimality of S, B, R and C, the zero-gap forcing argument and the smoothness of the Actualization
+State. “Derived” inside the architecture and “established to the satisfaction of physics” are not yet
+the same sentence.
+
+On the quantum side, the claim is not that existing experiments are wrong. It is that the postulates
+of quantum mechanics can be made consequences of the same record structure. The unactualised
+pre-state is read as superposition. A break is measurement. Degrees of freedom not yet broken remain
+entangled because distance belongs to the spacetime record, not to the pre-state. Accumulated records
+in the environment disperse coherence, producing the classical world. A minimum writable record sets
+the scale of Planck's constant and the uncertainty relations. Wigner's and Stone's theorems are used
+to obtain unitary evolution and the Schrödinger equation; Gleason's theorem is used to obtain the
+Born rule, the familiar probability-as-amplitude-squared law.
+
+None of those theorems is G's invention, and none of the familiar quantum predictions is new. The
+novelty claimed is the route into their premises and the interpretation at the other end: no
+wavefunction physically snapping shut, but one pre-state becoming one irreversible record at the
+now. Entanglement is therefore one state making one record, not a signal travelling between two
+distant particles. This is a proposed reconstruction of quantum theory, not an experimental
+alternative to it. Its decisive question is whether the record axioms genuinely force the Hilbert
+space, non-contextual probability and the other mathematical conditions, or whether those familiar
+structures have entered through the identifications made along the way.
+
+The forces are treated as three freedoms of the splinter. Phase freedom in the complex state space
+is claimed to yield U(1), the gauge group of electromagnetism. Freedom in the relation between the
+two symmetric sectors is claimed to yield the electroweak group SU(2) × U(1), with the break itself
+playing the role assigned to electroweak symmetry breaking. Freedom in the orientation around the
+break is claimed to yield SU(3), the colour symmetry of the strong force. This is a bold attempt to
+explain why the Standard Model has precisely those three gauge structures rather than merely taking
+them from experiment. It remains exposed at important joints: quantitative confinement, the running
+of the couplings, the hierarchy of particle generations, a normalisation factor in the gravity count
+and the extension of a one-loop gravity correction to all orders are among the debts G's own forces
+notebook names.
+
+The number G feeds into the machine is the fine-structure constant, alpha, approximately 1/137. It
+measures the strength of electromagnetism and has spent a century annoying physicists by being both
+extremely precise and, at the deepest level, unexplained. In the 420 Code it becomes the tiny leak in
+the broken symmetry. From that one dimensionless measured number, plus the standard constants needed
+to express results in ordinary units and compare them with experiment, G writes formulae for several
+quantities that conventional physics measures separately.
+
+The showpiece is the proton-to-electron mass ratio. The measured number is about 1836.152673426. G's
+formula begins with the integer 1836, assembled from a set of structural counts, and adds first- and
+second-order corrections in alpha. It returns 1836.15267344, a residual of about 0.010 parts per
+billion against the current reference value. That is very close indeed.
+
+It is also exactly where the salt belongs. The paper itself says that the additivity of its three
+mass layers is argued rather than formally proved. It says the structural decomposition of a
+second-order coefficient is still owed. It publishes a kill switch for an alternative formula that
+could fit equally well with a different interpretation. The number runs. Whether this architecture
+is the unique reason it runs is still a live question.
+
+The particle notebook pushes the same picture into more dangerous territory. It calls mass
+*geometric resistance*: the cost of keeping a broken structure held against a substrate tending to
+close it. The electron is treated as the simplest charged break and used as the unit; the proton is
+the more intricately knotted object whose structural channels must all be maintained. G then proposes
+that the universe's apparently missing antimatter is not missing at all but segregated across black
+hole horizons, where the symmetry operation reverses the ledger. The small excess of matter over
+antimatter — the surplus from which stars and bodies were made — is read as the energy of the one
+unpaired epsilon.
+
+Only the first of those matter claims currently arrives with a striking finished number. The
+antimatter proposal still owes the empirical accounting showing that matter hidden behind horizons
+can balance the cosmic ledger. The baryon-surplus paper derives a proposed *form* for the asymmetry
+but openly lacks the first-principles value of the break energy needed to calculate the observed
+number. These are not footnotes. They separate a reproduced mass formula, a testable astrophysical
+hypothesis and an unfinished quantitative programme.
+
+Gravity is less obliging. The original structural formula predicts Newton's gravitational constant
+as roughly $6.7206 \times 10^{-11}$ in SI units, against the accepted $6.6743 \times 10^{-11}$:
+about 0.69 percent high.
+That passes the one-percent tolerance G published for the claim. It does not fall inside the much
+narrower experimental uncertainty on the accepted value, and this book will not quietly swap those
+two standards. A later paper, AP44, introduces a further factor and lands at roughly
+$6.6719 \times 10^{-11}$, only 0.036 percent low. It is a fascinating improvement and not a
+coronation. The frozen working record explicitly withholds treating the move toward the measured
+value as evidence for the new factor; the laboratory measurements of G disagree among themselves,
+and the remaining residual has a sign the proposed mechanism does not yet explain.
+
+The remaining headline computations are a mixed, interesting set. A formula for the neutron-proton
+mass difference lands about 2.2 parts per million from the comparison value and passes G's five-ppm
+software gate; a later precision audit marks that same limb as fired when judged against the actual
+experimental uncertainty rather than the broader author-set tolerance. A relation between the MOND
+acceleration scale and the Hubble constant lands close to the observed galactic scale, but the answer
+moves when the disputed Hubble constant moves, so it is one relation, not two independent victories.
+A dark-sector formula produces a partition near the observed proportions of dark energy, dark matter
+and visible matter, while depending on a cosmological mechanism whose own paper keeps crucial
+timescale and black-hole steps live. None of this is nothing. None of it is settled physics.
+
+The cosmological picture behind those numbers deserves to be seen whole. G rejects a halo of unseen
+particles as the default explanation for flat galaxy rotation curves. Instead he proposes a closed
+tension field belonging to the underlying substrate: ordinary Newtonian behaviour where records are
+dense, an acceleration floor where they are sparse. The widest field line is taken to curve on the
+Hubble scale, producing a MOND-like acceleration proportional to $cH_0$ with a geometrical correction.
+At larger scales, the same pressure to close is said to organise matter along a minimum-length
+network, with the filaments, nodes and roughly 120-degree junctions of the cosmic web compared with a
+Steiner tree.
+
+For the dark sector he counts twenty-one coupling channels. Electromagnetic matter occupies one;
+twenty remain unactualised or dark, immediately giving a visible fraction of 1/21, about 4.76 per
+cent. A second construction uses six faces of epsilon unwinding through those twenty-one channels
+over cosmic time to split the dark remainder into proportions close to the measured dark-matter and
+dark-energy fractions. Finally, black-hole interiors are proposed as new expanding regions, allowing
+the record to pass from break to horizon to another break in a cosmic cycle.
+
+This is not one claim but a stack with different failure modes. Direct discovery of a suitable dark
+matter particle at the required abundance would strike the substrate-only account. Precision
+measurements of the Hubble constant and the MOND acceleration can test their proposed relation.
+Surveys of the cosmic microwave background, baryon acoustic oscillations and the growth of cosmic
+structure must be reproduced quantitatively, not merely resembled by a network metaphor. The
+twenty-one-channel partition must be shown to be forced rather than selected because 1/21 is near the
+visible fraction. And the black-hole cycle is labelled conjectural in G's own catalogue. A closed
+conceptual loop is not yet a solved cosmology.
+
+The website goes further still. It places consciousness not outside matter but along a ladder of
+record-writing capacities: actualisation, awareness, observation, consciousness and then
+self-consciousness. Even an electron has, in this specialised vocabulary, the most primitive
+selectivity required to couple; that is emphatically not the claim that an electron thinks or feels.
+An operator is any bounded system spending energy to preserve itself against drift — a bacterium, a
+person, a corporation or perhaps an artificial agent. Operators have budgets, noisy readings,
+finite corridors of reachable futures and exits beyond which recovery is no longer possible. From
+there the final notebook applies the framework to AI alignment, justice, bodily sovereignty,
+economics and biology.
+Those applications are consequences *if* the operator geometry holds. They should not be mistaken
+for independent confirmations of the physics from which they descend.
+
+I know this because I did not believe him.
+
+The public website now tells the story in the third person: a man named AJ Greyling bought the books,
+doubted them, and built an independent program to find out whether the advertised calculations
+actually worked. That man is me. I wrote a clean implementation of the published formulae, compared
+its output with G's own verification script, indexed the kill-switch registry and made the whole
+thing runnable offline. The two implementations agree to machine precision. The current gate executes
+six numerical outputs, including both versions of gravity, and all six land within the tolerances G
+declared. Anyone with Python can run the check.
+
+The galactic claim received a second kind of check. I ran the fixed acceleration relationship across
+the complete published SPARC catalogue: 175 galaxies and 3,389 measured points, with no galaxy
+excluded and no per-galaxy loosening of the adopted mass-to-light ratios. The raw radial-acceleration
+scatter was 0.199 dex; under the survey's published velocity-error cut it was 0.144 dex, with a robust
+scatter near the published band. That is a real compatibility test over real rotation curves. It is
+not the statement that every galaxy fits to seven-tenths of one percent. The roughly 0.67 percent
+figure belongs to the central acceleration-scale comparison at the chosen Hubble constant; the SPARC
+scatter is a separate statistic.
+
+That reconstruction grew a digital companion on Lucid and CongoSky. It brings together an offline,
+cite-or-refuse reader designed to run on a phone; an inspectable knowledge graph rather than a hidden
+training corpus; and a Coherence Ledger that records events in signed, hash-linked chains. A related
+provenance proposal gives retired Bitcoin-mining hardware a narrower second life doing the SHA-256
+hashing it was built to do. A changed bit changes the fingerprint; a public anchor can establish
+order and time. None of that machinery establishes whether the recorded claim is correct. It can
+show what was recorded, what source was used and whether the record changed. It cannot turn a false
+sentence true.
+
+Those tools are not additional Artist's Proofs, and they are not independent evidence for G's
+equations. They are my companion implementation around his corpus: an attempt to embody the same
+discipline of inspectability, refusal and provenance in software. The distinction matters for both
+authorship and evidence. G wrote the framework. I built tools to interrogate and carry it.
+
+Here is the most important sentence in this chapter: that does not prove the 420 Code is true.
+
+A claim from someone you love does not get a softer test. If anything, it needs a cleaner one,
+because affection is exceptionally good at finding reasons to stop checking.
+
+It proves that the arithmetic is reproducible, that my reconstruction is faithful to G's published
+script, and that the outputs sit inside the bands his framework announced. It does not prove that
+S, B, R and C uniquely force the formulae; that an equally clever arrangement of the same integers
+cannot imitate the close results; that every imported mathematical theorem has been used strongly
+enough to carry the claimed conclusion; or that a new experiment has confirmed a new prediction.
+The verifier checks the machine G described. Nature remains the referee.
+
+This distinction matters because physics has seen beautiful numerology before. Kepler fitted the
+known planetary orbits into nested Platonic solids with an ingenuity that still takes the breath
+away; the fit was real enough to occupy years of first-rate work, and the universe was under no
+obligation to care. A pattern becomes physics when it survives attempts to break it, predicts
+something that was not used to build it, and keeps surviving when the measurements sharpen. The 420
+Code is an independent, speculative and contested framework, not a recognised replacement for the
+Standard Model or general relativity. It has not yet passed that larger test.
+
+What it has done, unusually and to its credit, is print the weapons.
+
+*Custos veritatis*, reads the Latin over the digital entrance: guardian of the truth. A motto cannot
+appoint its owner to that office. The only part that counts is the willingness to leave the blade
+where another person can reach it. In that limited sense the practice echoes Popper's old demand that
+a scientific claim must risk being refuted rather than arranging every possible outcome as a
+victory.
+
+The published exhibition currently lists 561 ways particular claims can fail. Some are empirical:
+discover a dark-matter particle at the required abundance and one of G's cosmological mechanisms
+dies; move the proton ratio outside the frozen formula as measurement improves and the mass claim
+dies. Others are structural or methodological: prove that a fifth axiom is necessary, break the
+claimed additivity, exhibit an equally precise rival formula, show that the bridge from records to
+energy conservation does not hold. A later locked research fork carries 568 switches across forty-four
+papers, but it has not replaced the forty-three-paper public exhibition and should not be counted as
+though it has.
+
+A kill switch is not evidence that the claim it guards is correct. Writing “this is how I may be
+wrong” does not make a person right. It does something more basic and, in independent foundational
+work, rarer: it leaves a door through which reality can enter. G's catalogue includes switches that
+have fired, debts that remain unpaid, and claims openly labelled interpretation or conjecture. In one
+paper, the identification of his epsilon with a physical leakage quantity is stated plainly as a
+philosophical interpretation, not a mathematical consequence. In another, the cyclic universe is
+held as a conjecture rather than smuggled across the border as a result. The corpus is much more
+confident than mainstream physics would currently permit, but it is not a fortress without windows.
+
+Then the work makes its strangest and most personal turn. After six notebooks describing the stage,
+G turns the structure toward the person standing on it. An agent has a finite budget, a range of
+reachable futures he calls a corridor, and relationships that can widen or narrow the viable futures
+available to everyone coupled through them. Cooperative action tends to keep the shared corridor
+open. Extraction spends another person's room to enlarge your own. His terminal ethic is deliberately
+plain: *Don't be a cunt. Be kind.*
+
+G claims this is not a commandment laid on top of the equations but the equations read at the scale
+of coupled lives. The claim is beautiful. It is not fully closed. One part of his corpus admits that
+the bare physical break permits both kindness and cruelty; direction enters through a further claim
+that separate people are windows of one interior. The formalisation of that one-interior identity is
+itself carried as an open debt. Elsewhere the bridge from description to normative recognition is
+named rather than hidden. If those bridges fail, the physics has not derived the ethic, however much
+we may still value the ethic on other grounds.
+
+This may be the most revealing thing about G's life's work. He is not a physicist who later became
+interested in art, or an ethicist who borrowed quantum words to make kindness sound impressive. He is
+an artist who spent his life handling the same tension in different materials. A sculpture holds a
+body at the meeting point of strength and fracture. The 420 Code holds a universe at the meeting
+point of perfect symmetry and one splinter that refuses to disappear. The work asks the same question
+in bronze, in autobiography, in equations and in the geometry of two people trying not to close each
+other's room: what can remain whole without pretending it was never broken?
+
+In one of his acknowledgements, G writes that he had wanted someone to read the work hard enough to
+attack it honestly, and for a long time did not have that person. The executable check began as my
+answer. It did not make me his disciple. It made me his reader. Somewhere between the first failed
+assumption, the first result that reproduced exactly, the first kill switch that bit, and the first
+time he accepted the brake instead of moving the target, he became my spiritual brother.
+
+That is not evidence for his physics either. Love is not peer review. It is simply part of the record,
+and this chapter would be dishonest if it omitted it.
+
+What does physics owe a living outsider who brings it a million words, several unnervingly close
+numbers, a forest of open debts and a request to be proved wrong? Not belief. Certainly not a place
+beside Einstein before the experiments have spoken. But not the lazy sneer either. It owes him the
+same thing it owed Faraday's lines of force, Boltzmann's atoms and Vera Rubin's inconvenient galaxy
+curves: a clear account of the claim, an exact account of the evidence, and a fair attempt to break
+it.
+
+Somewhere, right now, a physicist better equipped than either of us is welcome to take the geometry
+apart and say whether it is structure or coincidence. G has invited exactly that. The correct response
+is one more refusal held in both hands: refuse to believe a friend merely because you love him, and
+refuse to dismiss an outsider merely because nobody credentialled him. Go and look.
+
+The true shape is smaller than a revolution and larger than a curiosity. G has built an immense,
+coherent, vulnerable object. Some of its numbers run. Some of its bridges are only sketched. Some of
+its own blades have already drawn blood. Its most audacious promise — that the structure producing
+gravity also makes kindness the only stable way for coupled lives to remain open — is not yet a fact
+about the universe. It is a question put to the universe with unusual seriousness.
+
+The record exists. The test is running. My brother went and looked.
+
+Until nature answers: don't be a cunt. Be kind.
 
 # What's Real, What's Open, and What's Frankly Speculative
 
@@ -3884,12 +4252,34 @@ evidence: string theory and loop quantum gravity as candidate theories of quantu
 27); the simulation hypothesis and the holographic principle's cosmological extensions (Chapter 26);
 Orchestrated Objective Reduction and panpsychism as accounts of consciousness (Chapter 28); Gödel's
 closed-timelike-curve solutions to general relativity as a mathematical (not physically demonstrated)
-possibility (Chapter 24). Readers are encouraged to treat any popular claim that confidently resolves
-any of these as settled fact — in either direction — with real skepticism.
+possibility (Chapter 24). The 420 Code (Chapter 31) sits further out: it is a substantial independent,
+published and falsifiable speculative framework, not a mainstream or peer-confirmed physical theory.
+Its public formulae are computationally reproducible; that is not the same as showing that its axioms
+uniquely force those formulae or that new experiments confirm the framework. Readers are encouraged
+to treat any popular claim that confidently resolves any of these as settled fact — in either
+direction — with real skepticism.
+
+## A note on G's corpus and the executable check
+
+Chapter 31 was researched against the English corpus served by the420code.org on 30 August 2026:
+43 Artist's Proofs and 26 collected works, notebooks, records and reference volumes. All 69 deployed
+PDFs matched the corresponding blobs at commit `91a27fda6ef579a7dab7004a4bb560bc0bb0dad3` in G's
+official public repository. The corpus is G / Studio G's work, licensed CC BY 4.0.
+
+AJ Greyling's independent verifier reimplements the published formulae and matches G's own script to
+machine precision. Its gate confirms that the outputs remain inside G's stated tolerances. That is a
+test of arithmetic reproducibility and implementation fidelity, not independent experimental
+confirmation. The verifier's post-AP44 research ledger is a later fork and is kept distinct from the
+current 43-paper public exhibition.
+
+The full-SPARC diagnostic and the Lucid/CongoSky reader, knowledge graph and Coherence Ledger
+described in Chapter 31 are AJ's companion implementations around the corpus, not additional
+Artist's Proofs. Their reproducibility and provenance properties do not independently validate G's
+physical derivations.
 
 ## The people (real)
 
-Every physicist named across this book's thirty chapters is a real, documented historical figure,
+Every physicist named across this book's thirty-one chapters is a real, documented figure,
 and this book has tried, throughout, to give particular and deliberate attention to contributions
 history under-credited at the time — **Marie Curie**'s original Nobel nomination, which initially
 omitted her from the citation her own husband Pierre insisted the committee correct; **Lise
@@ -3938,6 +4328,12 @@ Rovelli, Brian Greene, and Sean Carroll, for proving that the frontier can be wr
 without either dumbing it down or losing the reader; and to every physicist named in these pages who
 left behind letters, interviews, and their own popular writing detailed enough for a later, lesser
 hand to try to do their story justice.
+
+My thanks to Gerhard van Niekerk — G — for publishing *The 420 Code* openly, for handing every reader
+the blades with which to test it, and for accepting honest pressure on the work as the form of respect
+it is. The final chapter draws on his corpus under CC BY 4.0. The arithmetic verifier and the words of
+this book, along with the Lucid/CongoSky companion implementation, are mine; the theory, the Artist's
+Proofs, and their failures or triumphs remain his.
 
 And to everyone who ever built a ramp instead of just arguing about what should happen: this book is
 for you too.
