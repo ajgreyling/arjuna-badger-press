@@ -7,7 +7,7 @@
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
   "count": 898,
-  "bytes": 3399278869,
+  "bytes": 3414231521,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -2797,17 +2797,17 @@
       "path": "books/homo-benignus/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/925afcfb99e40c271a1dcbd2b16a30a7a88683bf1efdac339e6a97be9fcc9855",
-      "sha256": "925afcfb99e40c271a1dcbd2b16a30a7a88683bf1efdac339e6a97be9fcc9855",
-      "bytes": 634093
+      "key": "blobs/sha256/ec09bbff1e68a425c7ea3b6d2af0e961beba4152fc46696733bfdf298992f1a9",
+      "sha256": "ec09bbff1e68a425c7ea3b6d2af0e961beba4152fc46696733bfdf298992f1a9",
+      "bytes": 1239621
     },
     {
       "path": "books/homo-benignus/design/cover.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/004012b5122b0d3644de9bde84761a020e40544a71365e53453b746d60836ed4",
-      "sha256": "004012b5122b0d3644de9bde84761a020e40544a71365e53453b746d60836ed4",
-      "bytes": 2525095
+      "key": "blobs/sha256/5b12eeb51b9df8092d992b74b54a43eba3b0bf9e7d50efc7e8b9744844e65074",
+      "sha256": "5b12eeb51b9df8092d992b74b54a43eba3b0bf9e7d50efc7e8b9744844e65074",
+      "bytes": 6198665
     },
     {
       "path": "books/homo-credens/art/cover.png",
@@ -2821,33 +2821,33 @@
       "path": "books/homo-credens/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/4c26c2ffb21cba91ce4f9ec0a348e0e12cbe63977d56721c1a09d5618dc4c43d",
-      "sha256": "4c26c2ffb21cba91ce4f9ec0a348e0e12cbe63977d56721c1a09d5618dc4c43d",
-      "bytes": 135910
+      "key": "blobs/sha256/235d13afd1f622bb93574b1f6cf65f62268a34c79abfe524531a55103f2f4b6d",
+      "sha256": "235d13afd1f622bb93574b1f6cf65f62268a34c79abfe524531a55103f2f4b6d",
+      "bytes": 1099971
     },
     {
       "path": "books/homo-credens/design/cover.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/24ceba61045ae501f52af24e6af85a0ce1fb8476c27ce5cd155bd79ba393dd6c",
-      "sha256": "24ceba61045ae501f52af24e6af85a0ce1fb8476c27ce5cd155bd79ba393dd6c",
-      "bytes": 70105
+      "key": "blobs/sha256/12303dd5f8cadbdcc3679db935951a9c21b09daf04347b04486058741767f3e7",
+      "sha256": "12303dd5f8cadbdcc3679db935951a9c21b09daf04347b04486058741767f3e7",
+      "bytes": 5873553
     },
     {
       "path": "books/homo-verificans/design/cover.jpg",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/0ed9207ff185a604813def1a1b1fcd4fa981a40e92d92700b19f998e684cf246",
-      "sha256": "0ed9207ff185a604813def1a1b1fcd4fa981a40e92d92700b19f998e684cf246",
-      "bytes": 541728
+      "key": "blobs/sha256/b29d9bbb42a28f9bf3698e21a86590572062f5d08422a70f0c3d691ce893305e",
+      "sha256": "b29d9bbb42a28f9bf3698e21a86590572062f5d08422a70f0c3d691ce893305e",
+      "bytes": 1077329
     },
     {
       "path": "books/homo-verificans/design/cover.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
-      "key": "blobs/sha256/ebeed9d4c83e97187662b337bc5d6b9d01a7a884a8f52c753e1ab3ba5134774e",
-      "sha256": "ebeed9d4c83e97187662b337bc5d6b9d01a7a884a8f52c753e1ab3ba5134774e",
-      "bytes": 2339097
+      "key": "blobs/sha256/aaed33ffe1a69ca57764f163332be027727665f78063d0b78f70c3fa1c2299a2",
+      "sha256": "aaed33ffe1a69ca57764f163332be027727665f78063d0b78f70c3fa1c2299a2",
+      "bytes": 5709541
     },
     {
       "path": "books/house-of-bread/design/cover.jpg",
