@@ -2,7 +2,7 @@
 
 The house was loud with the suit.
 
-Out in the courtyard the others were wearing the MK-XI like men who had been handed a fast car with the keys still warm. The striker — McGregor — was throwing combinations into the air and watching the suit feed his hips into them, laughing at how clean it came back. Goggins was doing some violence to the obstacle course that would have torn an unaided man's hamstring off the bone, and the suit was simply *agreeing* with him, which from where Jakobus stood looked less like a machine helping than a machine getting out of the way. Someone had set music going. The Fool was on top of the wall around the herb beds doing a thing that was either a stunt or a fall he had decided to finish well, and the others were watching him the way you watch weather.
+Out in the courtyard the others were wearing the MK-XI like men who had been handed a fast car with the keys still warm. The striker — McGregor — was throwing combinations into the air and watching the suit feed his hips into them, laughing at how clean it came back. Goggins was doing some violence to the obstacle course that would have torn an unaided man's hamstring off the bone, and the suit was simply *agreeing* with him, which from where Jakobus stood looked less like a machine helping than a machine getting out of the way. Someone had set music going. Jackie was on top of the wall around the herb beds doing a thing that was either a stunt or a fall he had decided to finish well, and the others were watching him the way you watch weather.
 
 Jakobus stood in the colonnade with his shades down against the flat eastern light and let it be loud without him.
 
@@ -10,7 +10,7 @@ He was learning, slowly and against his grain, to do that. To stand back. Yester
 
 Which is how he came to notice the one man who was not playing.
 
-Arin Ndlela came out of the suit-room door at the far corner, alone, in his own MK-XI, and he did not go to the course. He did not go to the music. He turned the other way — past the herb beds, past the Fool, past the noise — toward the eastern edge where the Court had grown a wall up out of the ground.
+Arin Ndlela came out of the suit-room door at the far corner, alone, in his own MK-XI, and he did not go to the course. He did not go to the music. He turned the other way — past the herb beds, past Jackie, past the noise — toward the eastern edge where the Court had grown a wall up out of the ground.
 
 Forty feet of it, maybe more. Real rock, or the Court's exact patient lie of it: granite-grain, the small honest cruelties of an actual face — a crimp here, a flared pocket there, the long mean blank section a third of the way up that any climber's eye snagged on the way an engineer's eye snags on a load it doesn't trust. It stood at the place where the courtyard stopped and the world seemed to stop with it, the morning behind it going on forever and pale.
 
@@ -42,7 +42,7 @@ The suit did not fix Arin's body. The suit made it *match.*
 
 Halfway up, on a rest above the mean blank section, Arin hung off one straight arm and shook the other out, and he laughed.
 
-It was a short laugh, low, surprised out of him — the laugh a man makes alone in a workshop when a thing he has bled over for two years finally turns over and runs. He had forgotten the courtyard. He had forgotten the music and the Fool and the suit-room and the whole house. He had forgotten, plainly and entirely, that anyone was standing in the grass below him, and he hung there off one arm forty feet up with the pale forever behind him and laughed at his own hand, at the simple impossible fact of it being exactly where he'd sent it.
+It was a short laugh, low, surprised out of him — the laugh a man makes alone in a workshop when a thing he has bled over for two years finally turns over and runs. He had forgotten the courtyard. He had forgotten the music and Jackie and the suit-room and the whole house. He had forgotten, plainly and entirely, that anyone was standing in the grass below him, and he hung there off one arm forty feet up with the pale forever behind him and laughed at his own hand, at the simple impossible fact of it being exactly where he'd sent it.
 
 Jakobus looked at his own boots in the grass and was, briefly and thoroughly, ashamed of the parkour line off the storeroom roof.
 
@@ -94,25 +94,25 @@ The other man Jakobus had watched arrive that morning through the gate. Bandy-le
 
 The two of them had ended up near each other in the grass, the way men do, and neither had a single word the other could use.
 
-The horseman did the thing his trade did.
+The Mongolian wrestler did the thing his trade did.
 
 He reached out, idly, almost absently — the way another man might offer a handshake — and took the cold-mountain man's forearm in a grip. Not aggressive. A grip with a question in it. The grip of a man whose whole inherited art lived in the reading of a forearm: the bone of it, the set of the wrist, where the strength banked, how the other man received being held.
 
 Jakobus, forty feet from it and an expert in nothing if not this, watched the cold-mountain man's face.
 
-For one beat — one — the stillness moved. Something in the eyes opened. And then the cold-mountain man took the grip *back.* Took the horseman's forearm in his own answer, found the bone, found the set of the wrist, and the two of them stood there in the grass holding each other's arms and reading, and Jakobus watched a thing pass between them that did not need any language he or the Court could supply.
+For one beat — one — the stillness moved. Something in the eyes opened. And then the cold-mountain man took the grip *back.* Took the Mongolian wrestler's forearm in his own answer, found the bone, found the set of the wrist, and the two of them stood there in the grass holding each other's arms and reading, and Jakobus watched a thing pass between them that did not need any language he or the Court could supply.
 
 *You too,* the grip said. *You know.*
 
 He couldn't have rendered it in words because it wasn't words. It was older than words. Two men who had each spent a lifetime climbing the same impossible face from two different sides — one off the cold modern mountain, one off a steppe a thousand years gone — and they had reached the top and turned and found, of all the impossible things, *each other up there,* a man who'd bled for the same summit by a road that had never once touched their own.
 
-Then the horseman grinned, and tightened the grip, and pulled.
+Then the Mongolian wrestler grinned, and tightened the grip, and pulled.
 
 They went into the grass together.
 
-It was not a fight. Jakobus saw that at once and so, he was fairly sure, did the cold-mountain man, who fought back without any of the seriousness a man brings to a fight. It was a *conversation.* A throw centuries old met a modern base and the base held and answered with a level-change that hadn't existed in the horseman's world, and the horseman, flat on his back, laughed up at the sky and rolled and tried something his great-grandfather had taught him, and it nearly worked, and the cold-mountain man's eyes went wide and delighted and he scrambled and reversed it and they were laughing, both of them, two men laughing in the grass like brothers who had been separated at birth across a thousand years and had just now, this morning, on this lawn, found their way home.
+It was not a fight. Jakobus saw that at once and so, he was fairly sure, did the cold-mountain man, who fought back without any of the seriousness a man brings to a fight. It was a *conversation.* A throw centuries old met a modern base and the base held and answered with a level-change that hadn't existed in the Mongolian's world, and the Mongolian, flat on his back, laughed up at the sky and rolled and tried something his great-grandfather had taught him, and it nearly worked, and the cold-mountain man's eyes went wide and delighted and he scrambled and reversed it and they were laughing, both of them, two men laughing in the grass like brothers who had been separated at birth across a thousand years and had just now, this morning, on this lawn, found their way home.
 
-They went two or three more rounds. Throws answered throws. The grammar was different and the grammar was identical. When they finally came apart, sitting in the trampled grass breathing hard and still laughing, the horseman reached up and tapped behind his own ear — the place the house's bone-conduction sat — and looked a question at the cold-mountain man, and the cold-mountain man tapped his own, and only *then,* only after, did they begin to learn each other's names.
+They went two or three more rounds. Throws answered throws. The grammar was different and the grammar was identical. When they finally came apart, sitting in the trampled grass breathing hard and still laughing, the Mongolian reached up and tapped behind his own ear — the place the house's bone-conduction sat — and looked a question at the cold-mountain man, and the cold-mountain man tapped his own, and only *then,* only after, did they begin to learn each other's names: Khabib and Bat.
 
 The craft first. The grip first. The machine second.
 
@@ -134,15 +134,15 @@ It should have hollowed him out. It didn't. What came instead was closer to reli
 
 He walked down toward the two wrestlers in the grass.
 
-The horseman saw him coming and went still, courteous, the way a man does for a stranger whose place in the order he doesn't yet know. Jakobus had asked the Fool, the night before, with the door of his room half shut and his pride entirely set aside, to teach him three words of the dead tongue the house had built for this man — the Fool, who collected languages the way other men collected scars, had taught him by hand, mouth-to-mouth, the way it had been done before there were books, and had not once made a joke of it, which was its own quiet mark of how seriously the Fool took the things he pretended not to.
+Bat saw him coming and went still, courteous, the way a man does for a stranger whose place in the order he doesn't yet know. Jakobus had asked Jackie, the night before, with the door of his room half shut and his pride entirely set aside, to teach him three words of the dead tongue the house had built for this man — Jackie, who collected languages the way other men collected scars, had taught him by hand, mouth-to-mouth, the way it had been done before there were books, and had not once made a joke of it, which was its own quiet mark of how seriously Jackie took the things he pretended not to.
 
 Jakobus reached up and turned off the bone-conduction behind his own ear. Switched it dead.
 
-Then he stopped in front of the horseman, and he said the three careful words himself, out of his own mouth, in the man's own dead tongue, badly, with a Boland weight on the vowels that no steppe had ever heard.
+Then he stopped in front of Bat, and he said the three careful words himself, out of his own mouth, in the man's own dead tongue, badly, with a Boland weight on the vowels that no steppe had ever heard.
 
 The machine would have done it perfectly. The machine could have done it without his asking.
 
-The horseman's weathered-tack face split open like the morning behind the rock. He came up off the grass and took Jakobus's forearm in the grip of his trade, hard, both hands, and said something fast and warm and entirely lost — Jakobus's bone-ear was dead, he caught none of it, he didn't need to. He understood it the way the cold-mountain man had understood the grip.
+Bat's weathered-tack face split open like the morning behind the rock. He came up off the grass and took Jakobus's forearm in the grip of his trade, hard, both hands, and said something fast and warm and entirely lost — Jakobus's bone-ear was dead, he caught none of it, he didn't need to. He understood it the way the cold-mountain man had understood the grip.
 
 *You bothered. The machine was right there. And you bothered.*
 

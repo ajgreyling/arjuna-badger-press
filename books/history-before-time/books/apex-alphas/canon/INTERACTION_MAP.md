@@ -90,7 +90,7 @@ that its job changed:** the fist becomes the wall around the ones who ask. Land 
 in a speech.
 
 ### Spine II — *the switch*
-**G · Caesar · Alexander · Marcus · Clause · Jakobus**
+**G · Caesar · Alexander · Marcus · Klaus · Jakobus**
 
 G holds the consent key to the reach; he says so on camera on his first night. Caesar sees it in four
 seconds and is *correct*: one man, one key, no succession, no audit, no vote, and a species depending
@@ -240,30 +240,30 @@ Pairs are stable. These are not, and instability is where beats come from.
 *Banter beats for the philosophers. Same laws as above: every pairing is a summit meeting a summit in
 another grammar; adversarial is not villainous; a debate earns a scene only if neither side can win it
 alone; and every intellectual beat needs a physical counterpart in the same chapter. Full credos, the
-alignment blocs and the sixteen oppositions are in [[THE_PORCH]]; house names are in [[THE_NAMING]].*
+alignment blocs and the sixteen oppositions are in [[THE_PORCH]]; canonical names are in [[THE_NAMING]].*
 
 ## Grid C — the Porch against the house
 
-| | Jakobus | Khabib | Goggins | Bruce | Jackie | Musashi | McGregor | the Wardrobe | Marcus | Caesar | Alexander | Newton | Einstein | Bohr | Sagan | G | Confucius | Josh | Sid |
+| | Jakobus | Khabib | Goggins | Bruce | Jackie | Musashi | McGregor | Piet | Marcus | Caesar | Alexander | Newton | Einstein | Bohr | Sagan | G | Confucius | Yeshua | Siddhārtha |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **Broad** (Plato) | · | ⚡ | · | ◐◐ | · | ◐ | · | ⚡ | ◎ | ⚡ | ⚡ | ◎◎ | ⚡ | · | ⚡ | ✖ | ◎ | · | ⚡ |
-| **the Furnace** (Descartes) | · | ✖◐ | · | ✖ | ⚡ | · | · | ⚡ | · | · | · | ◎◎ | ⚡ | ⚡ | · | ⚡ | · | · | · |
-| **the Grinder** (Spinoza) | ◎ | ◎ | · | ◐ | · | ◐ | · | · | ◎◎ | · | · | ⚡ | ◎◎ | ◎ | ◎ | ◎◎ | ◎ | ⚡ | ◐◐ |
-| **the Bundle** (Hume) | ◎ | · | ⚡ | ◎ | ◎◎ | · | ◎ | ◎ | ⚡ | ⚡ | · | ✖ | ◎ | ◎◎ | ◎◎ | ◎ | ⚡ | ⚡ | ◐ |
-| **the Clock** (Kant) | ⚡ | ◎ | ⚡ | · | · | ◎ | ✖ | ⚡ | ◎◎ | ✖ | ✖✖ | ⚡ | ⚡ | ⚡ | ◎ | ⚡ | ◎◎ | ⚡ | · |
-| **the Owl** (Hegel) | · | · | · | ⚡ | · | · | · | · | ⚡ | ◎ | ◎ | · | ⚡ | ◎◎ | · | ⚡ | ⚡ | · | · |
-| **Mohr** (Marx) | ⚡ | ⚡ | ⚡ | · | ⚡ | · | ✖ | ◎◎ | ⚡ | ✖✖ | ✖ | · | ⚡ | · | ⚡ | ✖✖ | ⚡ | ◎ | · |
-| **Fritz** (Nietzsche) | ⚡ | ✖ | ◎◎ | ⚡ | ◎ | ◎ | ◎ | ⚡ | ✖ | ◎ | ◎◎ | ⚡ | ⚡ | · | ⚡ | ⚡ | ✖ | ✖◐ | ✖ |
-| **the Bracket** (Husserl) | · | · | · | · | · | ◐ | · | · | ◎ | · | · | ◎◎ | ◎ | ⚡ | ◎ | ◎ | ◎ | · | ◐ |
-| **Martin** (Heidegger) | ⚡ | · | ⚡ | · | · | ◐◐ | · | · | ✖ | ⚡ | · | ⚡ | ⚡ | ⚡ | ⚡ | ⚡ | ✖ | · | ◐ |
-| **the Cramp** (Wittgenstein) | ◎ | ◐ | · | ◐◐ | ⚡ | ◎◎ | ⚡ | ◎ | ◎ | ⚡ | · | ⚡ | ◎◎ | ⚡ | ⚡ | ◎◎ | ◎◎ | ◐ | ◐◐ |
-| **Mo** (Merleau-Ponty) | ◎ | ◎◎ | ◎ | ◎◎ | ◎◎ | ◎◎ | ◎ | ◎◎ | · | · | ⚡ | · | ⚡ | ⚡ | ◎ | ⚡ | · | ◎ | ◎ |
-| **the Chair** (Gadamer) | ◎◎ | ◎ | · | ◎ | ◎ | ◎ | ⚡ | ◎ | ◎◎ | ⚡ | ⚡ | · | ◎ | ◎◎ | ◎◎ | ◎ | ◎◎ | ◎ | ◎ |
-| **JP** (Sartre) | ✖ | ✖ | ⚡ | · | ⚡ | · | ⚡ | ✖ | ✖ | ⚡ | ⚡ | · | ⚡ | · | ⚡ | ✖ | ✖ | ✖ | ✖ |
-| **Keeper** (Camus) | ◎◎ | ◎ | ◎◎ | ◎ | ◎ | ◎ | ◎ | ◎ | ◎◎ | · | ⚡ | · | ◎ | ◎ | ◎◎ | ◎ | ◎ | ⚡ | ◎ |
-| **Sawubona** (Levinas) | ◎◎ | ◎◎ | ⚡ | · | ◎ | · | · | ◎ | ◎◎ | ✖ | ✖ | · | ◎ | ⚡ | ◎ | ◎◎ | ◎ | ◎◎ | ◎◎ |
-| **Canterbury** (Anselm) | · | ◎ | · | · | ◎ | · | · | ◎ | ◎ | · | · | ◎◎ | ⚡ | ⚡ | ⚡ | ⚡ | ◎ | ◎ | · |
-| **the Ox** (Aquinas) | ◎ | ◎◎ | ◎ | · | ◎ | ◎ | · | ◎◎ | ◎ | ⚡ | · | ◎◎ | ⚡ | ⚡ | ⚡ | ⚡ | ◎◎ | ◎ | ⚡ |
+| **Plato** | · | ⚡ | · | ◐◐ | · | ◐ | · | ⚡ | ◎ | ⚡ | ⚡ | ◎◎ | ⚡ | · | ⚡ | ✖ | ◎ | · | ⚡ |
+| **Descartes** | · | ✖◐ | · | ✖ | ⚡ | · | · | ⚡ | · | · | · | ◎◎ | ⚡ | ⚡ | · | ⚡ | · | · | · |
+| **Spinoza** | ◎ | ◎ | · | ◐ | · | ◐ | · | · | ◎◎ | · | · | ⚡ | ◎◎ | ◎ | ◎ | ◎◎ | ◎ | ⚡ | ◐◐ |
+| **Hume** | ◎ | · | ⚡ | ◎ | ◎◎ | · | ◎ | ◎ | ⚡ | ⚡ | · | ✖ | ◎ | ◎◎ | ◎◎ | ◎ | ⚡ | ⚡ | ◐ |
+| **Kant** | ⚡ | ◎ | ⚡ | · | · | ◎ | ✖ | ⚡ | ◎◎ | ✖ | ✖✖ | ⚡ | ⚡ | ⚡ | ◎ | ⚡ | ◎◎ | ⚡ | · |
+| **Hegel** | · | · | · | ⚡ | · | · | · | · | ⚡ | ◎ | ◎ | · | ⚡ | ◎◎ | · | ⚡ | ⚡ | · | · |
+| **Marx** | ⚡ | ⚡ | ⚡ | · | ⚡ | · | ✖ | ◎◎ | ⚡ | ✖✖ | ✖ | · | ⚡ | · | ⚡ | ✖✖ | ⚡ | ◎ | · |
+| **Nietzsche** | ⚡ | ✖ | ◎◎ | ⚡ | ◎ | ◎ | ◎ | ⚡ | ✖ | ◎ | ◎◎ | ⚡ | ⚡ | · | ⚡ | ⚡ | ✖ | ✖◐ | ✖ |
+| **Husserl** | · | · | · | · | · | ◐ | · | · | ◎ | · | · | ◎◎ | ◎ | ⚡ | ◎ | ◎ | ◎ | · | ◐ |
+| **Heidegger** | ⚡ | · | ⚡ | · | · | ◐◐ | · | · | ✖ | ⚡ | · | ⚡ | ⚡ | ⚡ | ⚡ | ⚡ | ✖ | · | ◐ |
+| **Wittgenstein** | ◎ | ◐ | · | ◐◐ | ⚡ | ◎◎ | ⚡ | ◎ | ◎ | ⚡ | · | ⚡ | ◎◎ | ⚡ | ⚡ | ◎◎ | ◎◎ | ◐ | ◐◐ |
+| **Merleau-Ponty** | ◎ | ◎◎ | ◎ | ◎◎ | ◎◎ | ◎◎ | ◎ | ◎◎ | · | · | ⚡ | · | ⚡ | ⚡ | ◎ | ⚡ | · | ◎ | ◎ |
+| **Gadamer** | ◎◎ | ◎ | · | ◎ | ◎ | ◎ | ⚡ | ◎ | ◎◎ | ⚡ | ⚡ | · | ◎ | ◎◎ | ◎◎ | ◎ | ◎◎ | ◎ | ◎ |
+| **Sartre** | ✖ | ✖ | ⚡ | · | ⚡ | · | ⚡ | ✖ | ✖ | ⚡ | ⚡ | · | ⚡ | · | ⚡ | ✖ | ✖ | ✖ | ✖ |
+| **Camus** | ◎◎ | ◎ | ◎◎ | ◎ | ◎ | ◎ | ◎ | ◎ | ◎◎ | · | ⚡ | · | ◎ | ◎ | ◎◎ | ◎ | ◎ | ⚡ | ◎ |
+| **Levinas** | ◎◎ | ◎◎ | ⚡ | · | ◎ | · | · | ◎ | ◎◎ | ✖ | ✖ | · | ◎ | ⚡ | ◎ | ◎◎ | ◎ | ◎◎ | ◎◎ |
+| **Anselm** | · | ◎ | · | · | ◎ | · | · | ◎ | ◎ | · | · | ◎◎ | ⚡ | ⚡ | ⚡ | ⚡ | ◎ | ◎ | · |
+| **Aquinas** | ◎ | ◎◎ | ◎ | · | ◎ | ◎ | · | ◎◎ | ◎ | ⚡ | · | ◎◎ | ⚡ | ⚡ | ⚡ | ⚡ | ◎◎ | ◎ | ⚡ |
 
 ## The banter ledger — quick beats, for when a chapter needs a room to feel lived in
 
@@ -272,32 +272,82 @@ happening. Use them the way ch-12 used the jug.*
 
 | Pair | The beat |
 |---|---|
-| **Sapor ◎◎ the Furnace / Canterbury / the Ox** | The queue at six in the morning is where the theists and the alchemist find each other. Nobody plans it. The atheists get their coffee at seven |
-| **the Cramp ◎◎ Kong** | Two men, twenty-four centuries apart, with the same thesis in different grammar. Kong has been shouting *rectify the names* for a year to a polite house; a stranger says **cramp** and Kong puts his cup down. They are inseparable and largely silent |
-| **Mo ◎◎ the fighters** | *Mo* by the second morning; on the mats every day; the only philosopher with a nickname from the gym rather than the Porch |
-| **the Bundle ◎◎ Jackie** | The two funniest men in the building. Hume's whole method is undercutting a serious man cheerfully, which is also the Fool's. They run a double act at the long table for eleven months |
-| **the Clock ✖ All-In** | Never merely as a means, against a man who moved thirty thousand of them across a continent. Kant does not raise his voice; Alexander leaves the room twice |
-| **the Clock ◎◎ Filters** | The two most disciplined interiors ever assembled. They walk at the same hour. They say almost nothing. Everybody in the house understands it at a glance |
-| **Mohr ◎◎ the Wardrobe** | The only man on the Porch who ever asks a front-row forward what his contract said, and gets four hours and takes notes |
-| **Mohr ✖✖ the Nose** | Caesar defended the chit market as property and was applauded; Mohr audits it and names a man who owes. This is the same argument as Spine II wearing different clothes, and the book should let the reader see that only afterwards |
-| **Mohr ✖✖ G** | The copyleft outsider and the analyst of ownership *ought* to be allies and are not: Mohr says giving a thing away inside a system like this one changes nothing, and G's twenty-two pages are the only counter-example he has ever been shown, and he does not concede |
-| **Fritz ◎◎ Goggins** | *Amor fati* meets a man who would take every pound and every mile again. The only unqualified yes on the Porch, given by a man who has never read a book of philosophy |
-| **Fritz ◎ Kong** | Started on the herb-bed wall, in silence, over a sister and a biscuit — two men whose names were stolen and used for things they hated |
-| **Fritz ✖◐ Josh** | Held very late and written with total care. Nietzsche's actual line is *there was only one Christian and he died on the cross;* the quarrel is with what was built after. Josh does not argue. Fritz finds that far harder than an argument |
-| **Keeper ◎◎ Goggins** | Four in the morning, the stone, and the hour walking back down the hill. *There is no word for us.* *There is now* |
-| **Keeper ◎◎ Marcus** | Two men who got up every morning inside a plague and did the work. Written as almost nothing: they sit on the same bench, three nights a week, for a year |
-| **JP ✖ everybody** | He is right and unwelcome, which is his function. His one indispensable line — *being taken without consent does not make you innocent; you chose what you did on the Tuesday* — is the least popular and most useful sentence said in that house all year |
-| **JP ✖ Sawubona** | Under the *look* I become an object; under the *face* I become responsible. Same encounter, opposite universe. They cannot be in a room without it starting |
-| **Sawubona ◎◎ Jakobus** | The whole book converges here: a Lithuanian philosopher spends fifty years writing toward a word a Boland grandmother handed a boy of four for nothing |
-| **Sawubona ◎◎ Sid ◎◎ Josh** | The three quietest men in the building. They are found together twice. Neither time is written from the inside |
-| **the Ox ◎◎ Khabib** | The Dumb Ox and the Eagle. Two enormous, silent, entirely devout men who both retired from the argument early and were both underestimated by their own colleagues. They pray at different hours and neither mentions it |
-| **Canterbury ✖ the Clock** | Seven hundred years, one evening, *existence is not a predicate* — and the Ox siding against a fellow saint, which nobody expects and which costs him something |
-| **the Ox ✖ the Bundle** | The cosmological argument, with Sapor in the room refusing to take either side and everybody furious about it |
-| **the Grinder ◎◎ the Clerk** | *I believe in Spinoza's God* — Einstein actually said it in life, and now has to explain to Spinoza what he meant, and discovers halfway through that he is not sure |
-| **the Grinder ◐◐ Sid** | One substance, no exceptions, blessedness as understanding — meeting no-self and dependent origination. They talk once, for a long time, and afterwards each says the other was saying something else |
-| **Broad ◎◎ Sapor** | The Forms and the man who thought the universe was written in mathematics and hid it in anagrams. Instant, total, and it annoys everyone |
-| **Broad ✖ G** | The philosopher-king against a man who split the only key in the world five ways precisely so that no one would be one. Broad's case is *better than the reader expects* |
-| **the Owl ◎◎ Bohr** | Two men who think a thing and its opposite have to be held together. The Ump gets Hegel in one evening and cannot explain him to anybody afterwards |
-| **Martin ⚡ the window** | The most useful thing he brings: *why is there something rather than nothing* is the only question in the building that has ever fit the shape of that dark. It is also the last thing anybody wants to be grateful to him for, and the book must sit in that discomfort and not resolve it |
-| **Martin ◐◐ Musashi** | Two men who built complete solitary systems and put nothing human in them. They sit in the same room reading, often. Nobody comments. It is not a compliment to either of them |
-| **the Chair ◎◎ everybody** | The only man with no opponent on the map. That is his philosophy working, not an absence of edge — and Jakobus is the one who notices that the Chair is running the room exactly the way he himself runs a room, and that he is being out-hosted in his own house, and takes lessons |
+| **Newton ◎◎ Descartes / Anselm / Aquinas** | The queue at six in the morning is where the theists and the alchemist find each other. Nobody plans it. The atheists get their coffee at seven |
+| **Wittgenstein ◎◎ Confucius** | Two men, twenty-four centuries apart, with the same thesis in different grammar. Confucius has been shouting *rectify the names* for a year to a polite house; a stranger says **cramp** and Confucius puts his cup down. They are inseparable and largely silent |
+| **Merleau-Ponty ◎◎ the fighters** | On the mats by the second morning and there every day; the philosopher most at home in the gym rather than the Porch |
+| **Hume ◎◎ Jackie** | The two funniest men in the building. Hume's whole method is undercutting a serious man cheerfully, which is also Jackie's. They run a double act at the long table for eleven months |
+| **Kant ✖ Alexander** | Never merely as a means, against a man who moved thirty thousand of them across a continent. Kant does not raise his voice; Alexander leaves the room twice |
+| **Kant ◎◎ Marcus Aurelius** | The two most disciplined interiors ever assembled. They walk at the same hour. They say almost nothing. Everybody in the house understands it at a glance |
+| **Marx ◎◎ Piet** | The only man on the Porch who ever asks a front-row forward what his contract said, and gets four hours and takes notes |
+| **Marx ✖✖ Caesar** | Caesar defended the chit market as property and was applauded; Marx audits it and names a man who owes. This is the same argument as Spine II wearing different clothes, and the book should let the reader see that only afterwards |
+| **Marx ✖✖ G** | The copyleft outsider and the analyst of ownership *ought* to be allies and are not: Marx says giving a thing away inside a system like this one changes nothing, and G's twenty-two pages are the only counter-example he has ever been shown, and he does not concede |
+| **Nietzsche ◎◎ Goggins** | *Amor fati* meets a man who would take every pound and every mile again. The only unqualified yes on the Porch, given by a man who has never read a book of philosophy |
+| **Nietzsche ◎ Confucius** | Started on the herb-bed wall, in silence, over a sister and a biscuit — two men whose names were stolen and used for things they hated |
+| **Nietzsche ✖◐ Yeshua** | Held very late and written with total care. Nietzsche's actual line is *there was only one Christian and he died on the cross;* the quarrel is with what was built after. Yeshua does not argue. Nietzsche finds that far harder than an argument |
+| **Camus ◎◎ Goggins** | Four in the morning, the stone, and the hour walking back down the hill. *There is no word for us.* *There is now* |
+| **Camus ◎◎ Marcus** | Two men who got up every morning inside a plague and did the work. Written as almost nothing: they sit on the same bench, three nights a week, for a year |
+| **Sartre ✖ everybody** | He is right and unwelcome, which is his function. His one indispensable line — *being taken without consent does not make you innocent; you chose what you did on the Tuesday* — is the least popular and most useful sentence said in that house all year |
+| **Sartre ✖ Levinas** | Under the *look* I become an object; under the *face* I become responsible. Same encounter, opposite universe. They cannot be in a room without it starting |
+| **Levinas ◎◎ Jakobus** | The whole book converges here: a Lithuanian philosopher spends fifty years writing toward a word a Boland grandmother handed a boy of four for nothing |
+| **Levinas ◎◎ Siddhārtha ◎◎ Yeshua** | The three quietest men in the building. They are found together twice. Neither time is written from the inside |
+| **Aquinas ◎◎ Khabib** | Two enormous, silent, entirely devout men who both retired from the argument early and were both underestimated by their own colleagues. They pray at different hours and neither mentions it |
+| **Anselm ✖ Kant** | Seven hundred years, one evening, *existence is not a predicate* — and Aquinas siding against a fellow saint, which nobody expects and which costs him something |
+| **Aquinas ✖ Hume** | The cosmological argument, with Newton in the room refusing to take either side and everybody furious about it |
+| **Spinoza ◎◎ Einstein** | *I believe in Spinoza's God* — Einstein actually said it in life, and now has to explain to Spinoza what he meant, and discovers halfway through that he is not sure |
+| **Spinoza ◐◐ Siddhārtha** | One substance, no exceptions, blessedness as understanding — meeting no-self and dependent origination. They talk once, for a long time, and afterwards each says the other was saying something else |
+| **Plato ◎◎ Newton** | The Forms and the man who thought the universe was written in mathematics and hid it in anagrams. Instant, total, and it annoys everyone |
+| **Plato ✖ G** | The philosopher-king against a man who split the only key in the world five ways precisely so that no one would be one. Plato's case is *better than the reader expects* |
+| **Hegel ◎◎ Bohr** | Two men who think a thing and its opposite have to be held together. Bohr gets Hegel in one evening and cannot explain him to anybody afterwards |
+| **Heidegger ⚡ the window** | The most useful thing he brings: *why is there something rather than nothing* is the only question in the building that has ever fit the shape of that dark. It is also the last thing anybody wants to be grateful to him for, and the book must sit in that discomfort and not resolve it |
+| **Heidegger ◐◐ Musashi** | Two men who built complete solitary systems and put nothing human in them. They sit in the same room reading, often. Nobody comments. It is not a compliment to either of them |
+| **Gadamer ◎◎ everybody** | The only man with no opponent on the map. That is his philosophy working, not an absence of edge — and Jakobus is the one who notices that Gadamer is running the room exactly the way he himself runs a room, and that he is being out-hosted in his own house, and takes lessons |
+
+---
+
+# Addendum — the fourth casting (the leaders)
+
+*Ego is the engine. Every new resident has lived through rooms in which his or her judgment carried
+more weight than anybody else's, and each has evidence that this was sometimes necessary. The house
+does not humble them by pretending their mastery was false. It builds a system in which mastery is
+visible and still receives one vote.*
+
+## The collision ledger
+
+| Pair / cluster | The beat |
+|---|---|
+| **Genghis ✖◐ Jakobus ✖◐ Jocko** | Genghis sees at once that the unranked man at the back is the actual centre. Jakobus refuses the title; Jocko insists that a house which needs its best commander in the chair has designed a bad chair |
+| **Genghis ◎ Alexander** | Instant recognition of appetite, speed and personal presence. The danger is not a fight but the ease with which each supplies the other's missing certainty |
+| **Genghis ✖ Hawking** | The perfect commander against the systems thinker who says succession matters more than exceptional competence. Genghis hears abstraction; Hawking hears a state built around one mortal component |
+| **Genghis ✖ the gym / Bruce** | The house mistakes defeat for a humility machine. Deco, Piet and Conor tap; Genghis is damaged and slowing before Bruce enters. Bruce refuses the bison's collision, spends the damaged leg with speed and kicks, and puts him on his back. Genghis asks for tomorrow |
+| **Boudicca ✖ Caesar** | She meets Rome in a man who predates her revolt. He cannot answer for the later occupation, but his own conquest keeps him from claiming clean hands. Their shared language is that law follows force; their division is whose law survives |
+| **Boudicca ✖ Churchill** | She will not let imperial resistance to Hitler become a universal account of freedom. He will not let every empire be equated with Rome. Both arguments must get their full strength |
+| **Boudicca ◎ Joan** | Two women turned into symbols by later nations. Boudicca teaches Joan what rage can make permissible; Joan teaches Boudicca that refusing a limit can become another form of obedience |
+| **Joan ◐ Yeshua** | She asks him to validate the voices. He refuses the authority the room wants him to exercise and offers bread. It helps without answering, which infuriates her and preserves her dignity |
+| **Joan ✖ Jocko** | Divine instruction against rules of engagement. Jocko treats her as an operator, not a child, and therefore requires the same constraints he would require of any commander |
+| **Washington ✖ King** | The man who returned an army and presidency is made to keep the people he enslaved on the same board. King does not permit republican restraint to become retroactive liberty |
+| **Washington ◎ Mandela** | Both know that leaving power can found a precedent. Mandela asks the prior question: who was admitted to the polity whose precedent is being praised? |
+| **Lincoln ◎ Mandela** | Holding a nation together while preparing for a peace that cannot merely continue the war by administration. The situations remain historically distinct; the useful meeting is over consequence, grief and coalition |
+| **Lincoln ✖ Caesar** | Emergency power and the story a leader tells himself about preserving the republic. Lincoln knows the danger and used extraordinary authority anyway; Caesar recognises the feeling of responsibility from inside |
+| **Churchill ✖ Gandhi** | Two disciplines of resistance, one against Nazi conquest and one against British rule. Churchill's language does real work and his empire does real harm; Gandhi's nonviolence does real work and his moral authority carries coercive edges |
+| **Churchill ◎ King** | Both understand cadence as political infrastructure, not ornament. King also keeps reminding the booth that a voice amplifies a movement it did not create |
+| **Smuts ✖ Mandela** | The international human-rights drafter confronted by the president produced after the racial order at home excluded the majority. Mandela's courtesy keeps control; Smuts's intelligence ensures he understands the charge |
+| **Smuts ✖ Gandhi** | Old opponents who know each other's methods. Neither may let their earlier contest over Indian rights stand in for the whole South African struggle |
+| **Smuts ◎ Hawking** | Holism meets an actual interdependent human-machine system. Hawking likes the theory and distrusts the politician's habit of deciding which people belong to the whole |
+| **Mandela ◎ King ◎ Gandhi** | The obvious lineage is made less obvious: method travels, but mass movements arise from particular communities, organisers and conditions. Gandhi does not claim paternity; King restores the walkers; Mandela names the later widening and the turn to armed struggle |
+| **Mandela ◎ Bas / Bruce** | The house expects the elderly statesman and gets the forty-four-year-old amateur boxer. Bas removes the courtesy after one clean combination; Bruce recognises years of unglamorous footwork. Good, disciplined, never magically elite |
+| **Hawking ◎ Merleau-Ponty** | The body as lived access to a world meets a body whose access is materially shared with chair, machine and carers. Neither treats dependence as lesser personhood |
+| **Hawking ◎ G** | Two system-breakers from outside the credentialled centre. Hawking asks whether the slicing rule survives cosmological boundary conditions; G finally gets an objection he cannot dismiss as somebody skipping the appendix |
+| **King ◎ Marlise** | She says the staff asked for minutes two years ago. King recognises the movement underneath the microphone and ensures she receives the first chair |
+
+## Operating beats
+
+- The first council begins as a contest over *who commands* and turns only when Hawking asks what
+  arrangement can survive the wrong commander.
+- King prevents the scene becoming great-man theatre by restoring organisers, workers and crowds to
+  every famous individual claim.
+- Jocko's board reads: **NO CROWNS · NO VETO BY REPUTATION · NAMES BEFORE NUMBERS · LEADERSHIP IS A
+  SHIFT**.
+- Marlise chairs; Smuts minutes; Churchill takes floor; Gandhi takes kitchen; Boudicca and Caesar take
+  watch; Hawking keeps the second minutes.
+- The fourth casting changes the house count from fifty-two to **sixty-three** and changes no
+  key-share.

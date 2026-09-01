@@ -16,7 +16,7 @@ It had peaked at four hundred and eighty-one. It had been falling for fifteen mo
 
 "Ja," Jakobus agreed. "Coffee?"
 
-They stood at the counter and drank Sapor's coffee and looked out at the courtyard, where a French phenomenologist was being thrown onto a mat by a Dagestani wrestler for the ninety-somethingth time, badly, at seven in the morning, with a small crowd.
+They stood at the counter and drank Newton's coffee and looked out at the courtyard, where a French phenomenologist was being thrown onto a mat by a Dagestani wrestler for the ninety-somethingth time, badly, at seven in the morning, with a small crowd.
 
 And that was the last uncomplicated morning any of them had.
 
@@ -32,7 +32,7 @@ Jakobus was in the colonnade and he heard it before he saw it and he knew, befor
 
 "Two of them."
 
-"Ja." Jakobus put his shades down. "Go and get the Chair, and then go and stand somewhere I can see you."
+"Ja." Jakobus put his shades down. "Go and get Gadamer, and then go and stand somewhere I can see you."
 
 The man who came out of it was seventy-one years old, thin, immaculately dressed for a climate he had not checked, and he walked across that courtyard past the wall and the herb beds and the mats without looking at any of it, which told Jakobus more than the file would.
 
@@ -76,17 +76,17 @@ He stepped back.
 
 The Porch sat on it for eleven nights and it very nearly destroyed the Porch.
 
-**The Clock** went first and he was implacable. "The third question is a question about *arrangements* and I will come to it. The second is not. You propose to reach a man — at his most, without his knowledge and without any possibility of his consent — and to use him as an instrument for an outcome, however good, that is not his." He was standing very straight. "I do not care that the outcome is justice. Justice done by treating a person as a means is a thing with the shape of justice and none of the substance. Every one of us on this colonnade was used that way. Look around. Ask whether you are willing to do to a dead man what was done to you, on the grounds that this time the reason is good." A pause. "The reason was good the first time too."
+**Kant** went first and he was implacable. "The third question is a question about *arrangements* and I will come to it. The second is not. You propose to reach a man — at his most, without his knowledge and without any possibility of his consent — and to use him as an instrument for an outcome, however good, that is not his." He was standing very straight. "I do not care that the outcome is justice. Justice done by treating a person as a means is a thing with the shape of justice and none of the substance. Every one of us on this colonnade was used that way. Look around. Ask whether you are willing to do to a dead man what was done to you, on the grounds that this time the reason is good." A pause. "The reason was good the first time too."
 
-**JP** answered him the next night and it was the most useful thing he did in eighteen months.
+**Sartre** answered him the next night and it was the most useful thing he did in eighteen months.
 
-"I agree with the Clock about almost nothing and I agree with him about this, and then I want to say the part he will not." He was smoking, which the Court permitted him and nobody else, on grounds nobody ever established. "You are all sitting here as though you are the *victims* of the reach. You are not. You were reached, yes, without consent — and then you got up, and made a school, and did the rota, and told eight billion people to walk somewhere with somebody. That was chosen. Every day of it was chosen." He pointed with the cigarette. "So do not hide behind what was done to you. You are not innocent and you were never innocent. The question is not *what was done to me.* The question is what you will do on Tuesday, and there is no one to blame for it afterwards, and there never will be."
+"I agree with Kant about almost nothing and I agree with him about this, and then I want to say the part he will not." He was smoking, which the Court permitted him and nobody else, on grounds nobody ever established. "You are all sitting here as though you are the *victims* of the reach. You are not. You were reached, yes, without consent — and then you got up, and made a school, and did the rota, and told eight billion people to walk somewhere with somebody. That was chosen. Every day of it was chosen." He pointed with the cigarette. "So do not hide behind what was done to you. You are not innocent and you were never innocent. The question is not *what was done to me.* The question is what you will do on Tuesday, and there is no one to blame for it afterwards, and there never will be."
 
-**Mohr** put it in the only frame he ever used and, as usual, was the least popular and hardest to answer.
+**Marx** put it in the only frame he ever used and, as usual, was the least popular and hardest to answer.
 
 "Fifty reaches for the grid. Very good. Whose grid?" He had the figures; he always had the figures. "Seven countries. I have looked at the seven. Notice what is not on the list, and then notice which twenty-two nations sit on his standing body, and then tell me again that this is a machine for the species." He put the paper down. "I am not saying refuse. I am saying: a tool is never used by *humanity*. It is used by whoever holds the handle, and I would like the handle to be an argument this house has *before* it is used and not after."
 
-**Keeper** and **JP** had their fight on the seventh night and everyone in the building had known it was coming for eighteen months, and it was worse and better than anyone expected, because they had been friends and it showed.
+**Camus** and **Sartre** had their fight on the seventh night and everyone in the building had known it was coming for eighteen months, and it was worse and better than anyone expected, because they had been friends and it showed.
 
 The coalition wanted the tribunal reach. Sartre was for it — not out of bloodlust; out of a hard and coherent position: that eleven thousand people were murdered in a way that will be repeated if it is never proven, that the men who did it are alive and comfortable, and that a scruple about the dignity of a dead witness, purchased at the price of an unpunished mass murder, is a luxury paid for by other people.
 
@@ -94,31 +94,31 @@ Camus stood up with his hands in his pockets and said no, and said why, and it t
 
 "I know what you think of me. You think I am a moralist with clean hands who has never had to decide anything." He was very quiet. "I was in the Resistance. I edited a paper that got people killed. I have signed things. And I got to the end of it having decided one thing that I will not move off, and it is this: **I will not sign for a harm that is scheduled.** Not for a good that is promised afterward. The harm is certain and today; the good is probable and tomorrow; and every catastrophe in your century and mine was built by decent men making exactly that trade in exactly that order." He looked at his friend. "You will tell me people die of my scruple. Some will. I have counted them, and I have decided that I would rather be a man who could not be got to do it than a man who could be got to do it for a sufficiently good reason — because there is always a sufficiently good reason, and the man who can be got is the only necessary component in every machine that has ever done this."
 
-"And the eleven thousand?" said JP.
+"And the eleven thousand?" said Sartre.
 
-"Are dead," said Keeper. "And you cannot make them less dead by adding to the number of people who have been used."
+"Are dead," said Camus. "And you cannot make them less dead by adding to the number of people who have been used."
 
-"That is a sentence," said JP, "and I would like you to say it to a widow."
+"That is a sentence," said Sartre, "and I would like you to say it to a widow."
 
-"I have," said Keeper.
+"I have," said Camus.
 
 Nobody spoke for a long time. And afterwards, at the counter, at one in the morning, the two of them sat four feet apart in complete silence for half an hour and then said good night to each other, which the entire house found harder to watch than the argument.
 
 ---
 
-**Sawubona** spoke on the ninth night and did not talk about the tribunal at all.
+**Levinas** spoke on the ninth night and did not talk about the tribunal at all.
 
-"You are asking whether a dead man may be used to obtain a just verdict. It is a real question and I have nothing to add to what the Clock said, which was correct." He was sitting; he had asked to sit; he was tired that month. "I want to point at the other thing. Fifty reaches for the grid. Notice what has happened to the sentence. Eighteen months ago the reach was a hand you put out to *one person*, at the end, at the worst moment of a life, and it cost a day's lightning and everyone in this building stood in a control room for it and held their breath."
+"You are asking whether a dead man may be used to obtain a just verdict. It is a real question and I have nothing to add to what Kant said, which was correct." He was sitting; he had asked to sit; he was tired that month. "I want to point at the other thing. Fifty reaches for the grid. Notice what has happened to the sentence. Eighteen months ago the reach was a hand you put out to *one person*, at the end, at the worst moment of a life, and it cost a day's lightning and everyone in this building stood in a control room for it and held their breath."
 
 He held up his hand, palm inward, the way he did.
 
 "And now it is *fifty*. And they are not people in the sentence — they are aviation engineers, and a grade of nurse, and two hundred men who understand a grid. The face is gone out of the language." He put the hand down. "That is always how it goes. It never begins with cruelty. It begins with a *plural*. The moment you can say *fifty reaches* without a name in the sentence, the argument is already over and everything after it is administration."
 
-The Chair, who never intervened, said one word from the side: "Names."
+Gadamer, who never intervened, said one word from the side: "Names."
 
-"Yes," said Sawubona. "If he wants fifty, let him bring fifty names. One page each. Who they were and how they died and who is left that loved them. And let the house read all fifty, out loud, on the feed, before anybody signs anything." He shrugged, slightly. "They will still do it. Probably they should still do it — I have not said the grid does not matter; there are children on those wards. But it will cost the correct amount, and a thing that costs the correct amount is much harder to do a second time for a worse reason."
+"Yes," said Levinas. "If he wants fifty, let him bring fifty names. One page each. Who they were and how they died and who is left that loved them. And let the house read all fifty, out loud, on the feed, before anybody signs anything." He shrugged, slightly. "They will still do it. Probably they should still do it — I have not said the grid does not matter; there are children on those wards. But it will cost the correct amount, and a thing that costs the correct amount is much harder to do a second time for a worse reason."
 
-And **Kong**, from the second row, in the only sentence he offered in eleven nights:
+And **Confucius**, from the second row, in the only sentence he offered in eleven nights:
 
 "That is the rectification of names," he said, "and it has taken this house two thousand five hundred years and a Frenchman to get to it, and I would like it noted that I was not shouting."
 
@@ -138,7 +138,7 @@ It took four hours and it did not resolve, and it was the first time in eighteen
 
 **Marcus** said no, and gave the reason he always gave, which was the only one he had ever needed. "I have been the man who was asked to make one exception for a very good reason. It was in a bad winter and the reason was extremely good and I did it, and it was the correct decision, and I have been paying for it in a specific way ever since, because the second request came in the spring and it was easier."
 
-And **the Nose**.
+And **Caesar**.
 
 Jakobus had spent eighteen months preparing for this moment and had been wrong about it in every particular.
 
@@ -164,6 +164,6 @@ He was still awake at four when the Court woke the house.
 
 The old man who signed the bargain had had a cardiac event in the east wing at ten past four in the morning. He was alive. He was stable by six. He would not be flying anywhere for three weeks.
 
-And at nine, in a lounge with fifty-two people in it, somebody — and the arguments about who said it first ran for a year afterwards, and it was Threes, and everyone knew it was Threes — said the sentence out loud that put the worst night in that house on the calendar:
+And at nine, in a lounge with sixty-three people in it, somebody — and the arguments about who said it first ran for a year afterwards, and it was Tesla, and everyone knew it was Tesla — said the sentence out loud that put the worst night in that house on the calendar:
 
 "We could reach *him*. At his most. He would be forty."

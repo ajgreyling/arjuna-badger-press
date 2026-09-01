@@ -1,8 +1,8 @@
 # The Two Arguments
 
-Canterbury asked for a Thursday and got one, and the house came because the house came to everything by then, and about forty of them had no idea what they were about to sit through.
+Anselm asked for a Thursday and got one, and the house came because the house came to everything by then, and about forty of them had no idea what they were about to sit through.
 
-He was a small, courteous, extremely old-fashioned man of forty-four who had spent his first fortnight refusing to use the lift and had then, having used it once, used nothing else ever again. He had been in the building nine weeks. He had asked more questions than he had answered and had made a friend of the Ox on the second day and of Sapor on the fourth, in the coffee queue, where the theists found each other at six in the morning without anybody planning it.
+He was a small, courteous, extremely old-fashioned man of forty-four who had spent his first fortnight refusing to use the lift and had then, having used it once, used nothing else ever again. He had been in the building nine weeks. He had asked more questions than he had answered and had made a friend of Aquinas on the second day and of Newton on the fourth, in the coffee queue, where the theists found each other at six in the morning without anybody planning it.
 
 He began the way he began everything, which was by conceding.
 
@@ -14,25 +14,25 @@ He did not do it the way it is done in the books, which every philosopher on tha
 
 *That than which nothing greater can be conceived.* Take the thought. Even the fool who says in his heart there is no God has the thought, or he could not deny it — he must have the thing in his understanding to be denying it. And a thing which exists in the understanding *and in reality* is greater than a thing which exists in the understanding alone. So if that-than-which-nothing-greater exists only in the understanding, then a greater than it can be conceived — namely the same thing, existing. Which is a contradiction in the very words.
 
-"I have not proved that I am comfortable," Canterbury said. "I have not proved anything about how any of you should live, and I want to be plain that the argument gives you almost nothing to live *on*. What I have shown you is that the thought will not sit still. That is all. I found it in the middle of the night after months of trying and I wept, and then I spent the rest of my life being told by better logicians than me that I had made an error, and I have never once been shown where."
+"I have not proved that I am comfortable," Anselm said. "I have not proved anything about how any of you should live, and I want to be plain that the argument gives you almost nothing to live *on*. What I have shown you is that the thought will not sit still. That is all. I found it in the middle of the night after months of trying and I wept, and then I spent the rest of my life being told by better logicians than me that I had made an error, and I have never once been shown where."
 
 He looked around.
 
 "A monk called Gaunilo answered me within the year. He said: by your method I can prove an island. The most excellent island conceivable — it must exist, or a greater could be conceived. It is a good objection and it made me happy, because it meant somebody had read it." A small, dry smile. "And it is wrong, and I said why, and I will say it again for you. An island can always be greater — a bigger one, a better harbour, more fruit; there is no *most excellent island*, the phrase is empty, it names nothing. There is only one thing in all the world that the phrase *than which nothing greater* can point at without falling apart in your hands. That is the whole difference and it is not a dodge."
 
-Then he sat down. He had spoken for nineteen minutes, which was the shortest evening the Porch ever had, and he told the Chair afterwards that he had said everything he had.
+Then he sat down. He had spoken for nineteen minutes, which was the shortest evening the Porch ever had, and he told Gadamer afterwards that he had said everything he had.
 
 The fighters asked first, per the rule.
 
-Musashi asked whether the argument had ever changed a man's life, and Canterbury said yes, twice that he knew of, and that in both cases the man had already been on his way and the argument had merely been where he stopped running.
+Musashi asked whether the argument had ever changed a man's life, and Anselm said yes, twice that he knew of, and that in both cases the man had already been on his way and the argument had merely been where he stopped running.
 
-And the Wardrobe — who had by then asked some of the best questions anybody asked in that house — said: "Ja, but if I can think of it, why does that make it true? I can think of a lot of things."
+And Piet — who had by then asked some of the best questions anybody asked in that house — said: "Ja, but if I can think of it, why does that make it true? I can think of a lot of things."
 
-"That," said Canterbury, "is the objection, and a very great man is going to make it properly tomorrow night, and I would rather you heard it from him."
+"That," said Anselm, "is the objection, and a very great man is going to make it properly tomorrow night, and I would rather you heard it from him."
 
 ---
 
-**The Clock had the Friday**, and it had been arranged for a fortnight, and everybody in that valley knew what it was.
+**Kant had the Friday**, and it had been arranged for a fortnight, and everybody in that valley knew what it was.
 
 He did not enjoy it. That is the thing the record gets wrong, and Jakobus, who was four metres away, is the reason it is in this book at all. Kant came onto the steps that night visibly unhappy, and began by saying so.
 
@@ -52,21 +52,21 @@ He stopped.
 
 "I want to say the second half, because if I stop there I have been clever at a good man and gone to bed." He was uncomfortable and did it anyway. "Nothing I have said this evening shows that there is no God. I should like that written down, and the feed may keep it in. I have merely shown that you cannot get to Him down *this* road — that the road is closed, and I closed it, and I did not enjoy closing it, and I spent the rest of my life on the other one." A pause. "The starry heavens above me, and the moral law within me. I could not prove Him from a definition. I have never once been able to get around the fact that I know, without being told, that I must not use you."
 
-And then the thing happened that nobody had prepared for, which was that **the Ox stood up.**
+And then the thing happened that nobody had prepared for, which was that **Aquinas stood up.**
 
 He was enormous and slow and had spoken perhaps eleven times in nine weeks, and he was, of all the men on that colonnade, the one everyone assumed would defend a fellow saint.
 
-"I must say something and I would rather not, and I will be brief." He did not look at Canterbury. "I have never accepted the argument either."
+"I must say something and I would rather not, and I will be brief." He did not look at Anselm. "I have never accepted the argument either."
 
 The Porch made a sound.
 
-"Not for his reason." A nod at the Clock. "For mine, which is older and which I published in my own lifetime with my own name on it and which I have been asked about by exactly nobody in this house. We do not know what God *is*. We do not have the essence; we are not equipped for it; whatever we have in our understanding when we say *that than which nothing greater*, it is not the thing itself, it is a phrase we have made out of the scraps we can hold." He turned then, finally, to the man in the front row. "Your argument requires us to have Him in the mind first. Brother, we do not have Him in the mind. That is the whole trouble with being a creature. We have to go the long way round — through the things He made, through motion and cause and contingency, and we arrive at the end of a chain rather than the beginning of a thought."
+"Not for his reason." A nod at Kant. "For mine, which is older and which I published in my own lifetime with my own name on it and which I have been asked about by exactly nobody in this house. We do not know what God *is*. We do not have the essence; we are not equipped for it; whatever we have in our understanding when we say *that than which nothing greater*, it is not the thing itself, it is a phrase we have made out of the scraps we can hold." He turned then, finally, to the man in the front row. "Your argument requires us to have Him in the mind first. Brother, we do not have Him in the mind. That is the whole trouble with being a creature. We have to go the long way round — through the things He made, through motion and cause and contingency, and we arrive at the end of a chain rather than the beginning of a thought."
 
-Canterbury sat in the front row with his hands folded and did not answer.
+Anselm sat in the front row with his hands folded and did not answer.
 
-"I am sorry," said the Ox.
+"I am sorry," said Aquinas.
 
-"Do not be," said Canterbury. "Tomorrow."
+"Do not be," said Anselm. "Tomorrow."
 
 He answered on the Saturday, in eleven minutes, and the answer was better than anyone expected and settled nothing, and the two of them argued about it for the following two years without ever once being anything but courteous to one another, and neither moved.
 
@@ -76,15 +76,15 @@ Jakobus wrote that in his own ledger that night and put a mark beside it, becaus
 
 ---
 
-**The Ox's own evening was the following Thursday**, and it was the one G had asked for.
+**Aquinas's own evening was the following Thursday**, and it was the one G had asked for.
 
 He had asked for it, in fact, before any of them arrived — in the small room off the suit-bay, months earlier, at three in the morning, when Jakobus had asked him whether there was anybody on the third list he particularly wanted. G had thought about it and named two, and given his reason, and the reason was:
 
 "Because I've never been able to settle it and I've been reading round it for nineteen years, and I would like to hear the two of them do it in a room where neither of them can walk away."
 
-So: the cosmological argument, on a Thursday, with the Bundle sitting in the second row with a cup of tea and the mildest expression in the building.
+So: the cosmological argument, on a Thursday, with Hume sitting in the second row with a cup of tea and the mildest expression in the building.
 
-The Ox laid it out the way he had written it and refused, twice, to be hurried. Things move, and nothing moves itself. Things are caused, and nothing causes itself. Things come to be and pass away, so each of them might not have been.
+Aquinas laid it out the way he had written it and refused, twice, to be hurried. Things move, and nothing moves itself. Things are caused, and nothing causes itself. Things come to be and pass away, so each of them might not have been.
 
 "And here is the part everyone gets wrong, including four of the men on this porch who have quoted me this month." He was patient about it; he was always patient about it. "I am not talking about a chain going backwards in *time*. I do not care whether the world had a beginning; I have said in writing that reason cannot settle that and I accept it on other grounds entirely. The chain I mean runs *downwards*, now, at this instant." He held up his hand. "This hand is held up by an arm, which is held by a shoulder, by a frame, by a floor, by a mountain, by the ground, by — go on. Each of those holds the next one *now*. Take away any member and the whole falls at once. That is a chain that cannot be infinite, because in such a chain the members have no power of their own; they only pass along what they are given; and an infinite queue of things that can only pass along what they are given, with nobody to give it, gives nothing." He put the hand down. "Either the whole is held by something that needs no holding, or nothing is held and there is nothing. And there is not nothing."
 
@@ -92,13 +92,13 @@ He waited.
 
 "*Et hoc omnes intelligunt Deum.* And this everyone understands to be God — and note what a small claim that is at the end of a large argument. I have not proved a person. I have not proved anything you could pray to. I have proved a floor, and then spent the rest of my life on the other question, which is a different sort of work entirely."
 
-The fighters asked first. Khabib asked one question and it was the best one of the evening and the Ox took four minutes on it and did not fully answer it.
+The fighters asked first. Khabib asked one question and it was the best one of the evening and Aquinas took four minutes on it and did not fully answer it.
 
-And then the Bundle put his tea down.
+And then Hume put his tea down.
 
 "May I be a nuisance?"
 
-"I have been waiting for you all week," said the Ox, "and I would have been insulted if you had been kind."
+"I have been waiting for you all week," said Aquinas, "and I would have been insulted if you had been kind."
 
 The Scot was twenty-eight years old with a round pleasant face and the manners of a man apologising for the furniture, and he took the thing apart with a cheerfulness that several people found harder to watch than Kant on the Friday.
 
@@ -114,7 +114,7 @@ He picked the tea back up.
 
 "That is all. I have no positive account of my own. I want to say that clearly, since it is usually said about me as an insult and I have never minded it: I do not know, and I have never claimed to know, and I regard the confident man on either side of this with the same weather."
 
-"That," said the Ox, "is the most honest thing said on this porch in a month, and I am going to answer all three, and I will need the whole of the Monday."
+"That," said Aquinas, "is the most honest thing said on this porch in a month, and I am going to answer all three, and I will need the whole of the Monday."
 
 He got the Monday. He was superb on the first difficulty and everybody agreed he was superb; he was serious and unpersuasive on the second; and on the third he did something nobody expected, which was to concede.
 
@@ -122,11 +122,11 @@ He got the Monday. He was superb on the first difficulty and everybody agreed he
 
 ---
 
-Which left Sapor.
+Which left Newton.
 
 They had all been waiting for it. He had been at every session of both arguments, in the same seat, with the same expression; and everybody in that building knew the one thing about him that his own century had been embarrassed by for three hundred years, which is that he had spent more of his life on scripture than on optics, and had believed, and had written it into the second edition of the *Principia* in a passage every schoolchild skips.
 
-The Ump asked him, in the break, in front of about thirty people, and did not mean any harm by it. "Which of them do you think has it?"
+Bohr asked him, in the break, in front of about thirty people, and did not mean any harm by it. "Which of them do you think has it?"
 
 "I shall not say."
 
@@ -138,7 +138,7 @@ The break stopped being a break.
 
 "I believe," he said. "Every man here knows it; it is in my writing; I have never concealed it and I do not intend to start in a colonnade in Switzerland. This most beautiful system of the sun and planets could only proceed from the counsel and dominion of an intelligent Being. I wrote that. I meant it. I mean it tonight." He set down his cup. "And it is *not an experiment*. That is the whole of my position and it has taken me two years in this house to be able to say it in one sentence." He looked around at them. "I have watched this porch for eleven weeks and I have watched two men who are cleverer than I am about words argue about a thing that no one in this valley can put a shutter in front of and *do twice*. I have spent my life on the one instrument that has never once failed me, which is the hole in the shutter, and the prism, and the second man in the room who does not want the answer to come out the way I want it — and there is no shutter here. There is no second man. There is only the arguing."
 
-"So the arguments are worthless?" said the Ump.
+"So the arguments are worthless?" said Bohr.
 
 "I did not say worthless. I said *not an experiment*." He was, for him, almost gentle. "I designed a protocol in this building for four men who claimed a thing I could not test, and I built it so that the harshest sceptic among us could not get through it, and it is the fairest thing I have ever done for anybody. I cannot build that shutter for God. Nobody can. It is not in the class of things a shutter works on."
 
@@ -150,12 +150,12 @@ He picked his cup back up.
 
 "That is my answer and it is the whole of it, and it is why I sit through every one of these evenings and never ask a question. I am not being rude to your porch. I am the one man on this porch who cannot bring his instrument to bear on it, and I have found that if I sit still with that for long enough it stops being a humiliation and becomes a fact about the size of the thing."
 
-The Chair said, later that night, to nobody in particular, in the kitchen, that in sixty years of universities he had never once heard a man refuse to take a side for a reason that was *better* than either side.
+Gadamer said, later that night, to nobody in particular, in the kitchen, that in sixty years of universities he had never once heard a man refuse to take a side for a reason that was *better* than either side.
 
 "He'll be the one they quote," he said.
 
 "He'd hate that," said Jakobus.
 
-"Oh, thoroughly," said the Chair. "It will be on a wall inside five years."
+"Oh, thoroughly," said Gadamer. "It will be on a wall inside five years."
 
 It was on a wall inside three.

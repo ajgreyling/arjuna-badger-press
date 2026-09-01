@@ -99,3 +99,38 @@ about the real person.
 
 **And G** — living, uncredentialled, copyleft, and holding a switch. For nineteen years of unfunded
 work that nobody read.
+
+---
+
+## The fourth casting — the leaders
+
+These eleven are cast for distinct forms of leadership, **not as moral endorsements and not as a
+ranking of human worth**. A life can contain an extraordinary faculty and an appalling blindness at
+the same time. This book keeps both ledgers open.
+
+- **Genghis Khan** — for coalition, intelligence, logistics and command beyond kinship; with the cities
+  destroyed by Mongol conquest kept in the same frame. → [The Metropolitan Museum of Art timeline](https://www.metmuseum.org/toah/ht/07/eac.html)
+- **Boudicca** — for making an occupying empire afraid after the brutalisation of her family and
+  people; with the civilians killed in the burned Roman towns kept in the ledger. → [Seven Swords: *Boudicca, Warrior Queen of the Iceni*](https://sevenswords.uk/who-was-boudicca/) · [London Museum](https://www.londonmuseum.org.uk/collections/london-stories/boudica-rebel-queen-iceni/)
+- **Joan of Arc** — for conviction that crossed class, gender and military rank at seventeen; without
+  pretending this book can certify the source of her voices. → [The Metropolitan Museum of Art](https://www.metmuseum.org/toah/ht/08/euwf.html)
+- **George Washington** — for twice relinquishing power; with the people he enslaved and the republic's
+  founding contradiction named, not footnoted away. → [Resignation of his commission](https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/resignation-of-military-commission) · [Washington and slavery](https://www.mountvernon.org/george-washington/slavery/timeline-of-george-washington-and-slavery)
+- **Abraham Lincoln** — for coalition government, moral language and the burden of command through civil
+  war; with the limits and evolution of his views on race kept visible. → [Abraham Lincoln Presidential Library and Museum](https://presidentlincoln.illinois.gov/learn/educators/educator-resources/teaching-guides/lincolns-views-african-american-slavery)
+- **Winston Churchill** — for language used as national resistance in 1940; with empire, race and India
+  present whenever that language is admired. → [UK Parliament](https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/yourcountry/collections/churchillexhibition/churchill-the-orator/blood-toil-sweat-and-tears/) · [Imperial War Museums](https://www.iwm.org.uk/sites/default/files/press-release/churchill_war_in_words_press_release.pdf)
+- **Jan Christiaan “Jannie” Smuts** — for military, constitutional and international statecraft; with
+  segregation, white rule and the people excluded from his political whole kept in the sentence. → [South African History Online](https://sahistory.org.za/people/general-jan-christiaan-smuts)
+- **Nelson Mandela** — for the disciplined boxer and organiser before prison, and for turning prison,
+  negotiation and justified anger toward democratic transition without making reconciliation mean
+  forgetting. → [Nelson Mandela Foundation biography](https://www.nelsonmandela.org/biography) · [Sporting Codes](https://www.nelsonmandela.org/nm100-sporting-codes)
+- **Mahatma Gandhi** — for making satyagraha an operational discipline of mass resistance; with the
+  limits and racist language of his early South African politics left available to judgment. → [Gandhi Heritage Portal: Salt Satyagraha](https://www.gandhiheritageportal.org/background-to-the-salt-satyagraha) · [South African History Online](https://sahistory.org.za/archive/some-gandhis-early-views-africans-were-racist-was-he-became-mahatma-es-reddy-wire-18)
+- **Stephen Hawking** — for seeing at the edge of cosmology and explaining the edge to millions; and
+  for a form of mastery the house cannot mistake for independence. → [University of Cambridge](https://www.cam.ac.uk/news/professor-stephen-hawking-1942-2018)
+- **Dr Martin Luther King Jr** — for joining church networks, democratic language, nonviolent discipline
+  and mass action into public moral pressure; with the organisers and walkers behind the famous voice
+  restored to the frame. → [The King Institute: Montgomery Bus Boycott](https://kinginstitute.stanford.edu/montgomery-bus-boycott) · [King Institute introduction](https://kinginstitute.stanford.edu/introduction)
+
+The tribute is to the real, banked faculty. The characters and every meeting between them are fiction.

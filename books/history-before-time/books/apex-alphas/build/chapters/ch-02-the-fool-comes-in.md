@@ -1,4 +1,4 @@
-# The Fool Comes In
+# Jackie Chan Comes In
 
 The door opened onto a room built to make men feel small without ever saying so.
 
@@ -80,7 +80,7 @@ Jakobus reached up and pushed the shades up onto his hair, which he did not do o
 
 The small man howled.
 
-It came out of him whole, head back, a laugh with no performance in it at all, the laugh of a man who has just been handed the best possible gift, which is to be met. He slapped the counter. "*Steve from accounting,*" he wheezed. He pointed at Jakobus with both hands. "Oh, I like you. The only one." He wiped his eye with a knuckle. "The only other one who knows."
+It came out of him whole, head back, a laugh with no performance in it at all, the laugh of a man who has just been handed the best possible gift, which is to be met. He slapped the counter. "*Jakobus,*" he wheezed. He pointed at Jakobus with both hands. "Oh, I like you. The only one." He wiped his eye with a knuckle. "The only other one who knows."
 
 "Knows what."
 
@@ -100,7 +100,7 @@ But the small man clocked it anyway. Of course he did. Reading the right hand wa
 
 The small man held his eyes one more second. Then he picked the mask back up — Jakobus watched that too, watched him put the delight back on like a hat, and the watching of it was a privilege he understood he was not meant to forget — and he stood off his stool and clapped Jakobus once on the shoulder, hard, the clap of a man who has just decided something.
 
-"Okay. No. You don't get to sit on the wall. The wall is for people who think they're working." He had Jakobus's sleeve now, two fingers, tugging, and there was real strength in it under the lightness. "Come. Steve from accounting. Come meet the unhappy ones. They're getting happy. It's terrible, you'll hate it."
+"Okay. No. You don't get to sit on the wall. The wall is for people who think they're working." He had Jakobus's sleeve now, two fingers, tugging, and there was real strength in it under the lightness. "Come. Jakobus. Come meet the unhappy ones. They're getting happy. It's terrible, you'll hate it."
 
 And he pulled Jakobus off his safe wall and into it.
 

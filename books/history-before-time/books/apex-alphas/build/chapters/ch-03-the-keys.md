@@ -48,15 +48,15 @@ He poured it across the room. He had no opponent. That was the point. Capoeira w
 
 He was upside down again, balanced on one hand, the world inverted and clean, when the door said: "*Hééééy.*"
 
-He came down soft. The Fool stood in the doorway with both hands up like a man surrendering to a joy he'd discovered in progress, his whole face delighted, ancient and young at once.
+He came down soft. Jackie stood in the doorway with both hands up like a man surrendering to a joy he'd discovered in progress, his whole face delighted, ancient and young at once.
 
-"No, no, no," the Fool said. "Don't stop. But also." He pointed a finger at Jakobus, then jabbed it sideways at the wall behind him, toward the courtyard. "The running thing. They said you do the running thing. Steve from accounting. The quiet one. *He* does the running thing?" He was already walking backwards out the door, beckoning. "Show me."
+"No, no, no," Jackie said. "Don't stop. But also." He pointed a finger at Jakobus, then jabbed it sideways at the wall behind him, toward the courtyard. "The running thing. They said you do the running thing. Jakobus. The quiet one. *He* does the running thing?" He was already walking backwards out the door, beckoning. "Show me."
 
 "There is no running thing," Jakobus said.
 
-"There is now," said the Fool. "I am inventing it. Come."
+"There is now," said Jackie. "I am inventing it. Come."
 
-The courtyard was a square of real sky over fake everything, and along its far side the House had built what it called a conditioning course and what the cast called the wall, a long staggered run of obstacles in honest concrete and steel — a low wall, a high wall, a gap, a tower at the end with a clean drop off the back. Two of the others were there in the cold afternoon, a striker stretching and the wrestler sitting on the low wall watching nothing, and the Fool stationed himself at the start and gestured grandly, a ringmaster, and said "the running thing" again, and Jakobus, in a body that owed nothing, ran.
+The courtyard was a square of real sky over fake everything, and along its far side the House had built what it called a conditioning course and what the cast called the wall, a long staggered run of obstacles in honest concrete and steel — a low wall, a high wall, a gap, a tower at the end with a clean drop off the back. Two of the others were there in the cold afternoon, a striker stretching and the wrestler sitting on the low wall watching nothing, and Jackie stationed himself at the start and gestured grandly, a ringmaster, and said "the running thing" again, and Jakobus, in a body that owed nothing, ran.
 
 He hit the low wall and vaulted it without breaking stride and the suit ate the landing clean. He took three steps and ran *up* the high wall, two strides vertical, the way he had watched young men do in cities and never once been young enough or whole enough to try, and at the top of the run his hand found the lip and he was over it and the suit caught him going down the far side with no jar at all. There was a gap and he didn't slow for it, he read it on the approach and committed — a precision jump, a thing you cannot half-do, the punishment for fear being the fall — and he landed it dead, both feet on the steel rail, balanced, the suit holding the line his intent had drawn before his muscle could doubt it. He grinned so wide it hurt his face. He had not used those muscles in years.
 
@@ -80,7 +80,7 @@ The young man watched him work it out. Watched the recognition arrive and land a
 
 There was no kindness in it. There was no cruelty either. There was a wall, built brick by brick over a life, and a man standing behind it deciding nothing.
 
-The Fool, at the start of the course, had gone very quiet.
+Jackie, at the start of the course, had gone very quiet.
 
 Jakobus came toward him slow, the way you come toward a man who might bolt or might swing, except this was not a tactical read, the tactical part of him had stopped working entirely and he was just walking toward his son. He stopped at a careful distance and pushed the shades back down and then took them off, full off, held them in his hand, because the man deserved his bare eyes and there was no version of this where Jakobus hid behind anything.
 
@@ -142,11 +142,11 @@ He took the suit. His hands were not steady. He clamped them down on the dense f
 
 He didn't say anything else. Neither did the boy. They sat with it, the two of them and the suit and the cold real air, the door propped a finger's width where there had been a wall, and that was all of it, that was the whole of what could be done today, and it was enough and they both knew not to touch it again.
 
-In the doorway behind them the Fool had not made a sound the entire time, which had never once happened since the day he arrived. He stood with one hand on the frame and watched the back of the quiet South African's head and the tall hard boy beside him, and he wiped his face with the heel of his hand, twice, businesslike, and then turned and went back inside to find the others.
+In the doorway behind them Jackie had not made a sound the entire time, which had never once happened since the day he arrived. He stood with one hand on the frame and watched the back of the quiet South African's head and the tall hard boy beside him, and he wiped his face with the heel of his hand, twice, businesslike, and then turned and went back inside to find the others.
 
 He found them in the lounge, the wrestler and the negotiator and the loud-handed striker and the man who never stopped grinding, and he didn't do any of the usual noise, none of the entrance, none of the bit. He just stood there until they looked up.
 
-"Steve from accounting," the Fool said. "The quiet one." He had to stop and start again. "He has a son."
+"Jakobus," Jackie said. "The quiet one." He had to stop and start again. "He has a son."
 
 Somebody asked something. He shook his head.
 

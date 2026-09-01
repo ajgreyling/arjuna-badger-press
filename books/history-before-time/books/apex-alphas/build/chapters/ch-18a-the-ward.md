@@ -30,7 +30,7 @@ It was a converted rehabilitation hospital forty minutes outside Lyon, in a vall
 
 Three hundred and eleven beds. Two hundred and eighty-four occupied.
 
-They went on a Tuesday in a plain vehicle: Jakobus, Sid, Josh, a medic called Amelie who had asked to come and who Jakobus had vetted himself, and nobody else. No feed. No log entry beyond a line in the vehicle book. Andrew knew, the woman knew, and that was all.
+They went on a Tuesday in a plain vehicle: Jakobus, Siddhārtha, Yeshua, a medic called Amelie who had asked to come and who Jakobus had vetted himself, and nobody else. No feed. No log entry beyond a line in the vehicle book. Andrew knew, the woman knew, and that was all.
 
 The senior clinician met them at the door and was, for the first eleven minutes, extremely professional and extremely angry.
 
@@ -64,7 +64,7 @@ The house had spent twenty-six months trying to answer that. Jakobus stood in Wa
 
 ---
 
-Sid sat down.
+Siddhārtha sat down.
 
 That was all he did, and he did it for nine days, and it took Jakobus about four of those days to understand that he was watching a master work.
 
@@ -74,15 +74,15 @@ He did not speak to anybody. He did not look at anybody, in the way a visitor lo
 
 At about eleven o'clock the man called Bernard turned his head and looked at him, for perhaps twenty seconds, and then looked back out at the car park.
 
-On the second day Sid was there at nine again. On the third day he was there at nine and one of the nurses had put a cushion where he sat, which he used, and thanked her for, and which he later said was the most difficult thing that happened all week, because it meant the room had made a place for him and a place is a claim.
+On the second day Siddhārtha was there at nine again. On the third day he was there at nine and one of the nurses had put a cushion where he sat, which he used, and thanked her for, and which he later said was the most difficult thing that happened all week, because it meant the room had made a place for him and a place is a claim.
 
 On the fourth day, Bernard said, to nobody in particular, in French: "You are not doing anything."
 
-"No," said Sid.
+"No," said Siddhārtha.
 
 "Why."
 
-"Because there is nothing to do," said Sid, "and because I would like to be here anyway, and those are two separate facts and neither of them is about you."
+"Because there is nothing to do," said Siddhārtha, "and because I would like to be here anyway, and those are two separate facts and neither of them is about you."
 
 Bernard thought about that for the better part of two hours.
 
@@ -96,23 +96,23 @@ Bernard thought about that for the better part of two hours.
 
 "Why."
 
-"Because I have sat where you are sitting," said Sid, "for six years, in a forest, when I was thirty. Not the same thing. I want to be exact with you: it was not the same thing, and I will not dress it up as one. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
+"Because I have sat where you are sitting," said Siddhārtha, "for six years, in a forest, when I was thirty. Not the same thing. I want to be exact with you: it was not the same thing, and I will not dress it up as one. But I know what it is to be looked at by people who need you to be better, and how much of your remaining strength goes on managing their faces." He shifted slightly against the wall. "So I have brought no face. That is all I have brought. It is not a treatment and it will probably not help."
 
 Bernard looked out of the window for the rest of the day.
 
-On the sixth day he asked Sid to sit closer, and Sid moved about a metre, and sat.
+On the sixth day he asked Siddhārtha to sit closer, and Siddhārtha moved about a metre, and sat.
 
 On the ninth day, when they left, Bernard was still in the chair.
 
 Two months later he was on his feet, and eleven months after that he was doing three days a week on a bridge inspection contract, and he has never once claimed a cause for it, and when the ward's own follow-up study asked him he said: *a man came and sat on the floor and did not want anything, and after a while I stopped bracing.* The study logged that as *unclassified*. There are four hundred and six entries in that study logged as *unclassified* and the sitting protocol is now used in one hundred and forty facilities in nineteen countries and nobody has ever been able to say why it works or how often.
 
-Sid, asked about it by the Doctor on the feed a year later, refused the framing entirely.
+Siddhārtha, asked about it by Sagan on the feed a year later, refused the framing entirely.
 
 "I did not do a therapy. There is no technique. If you write it down as a technique it will be a technique in four years and then it will be a *service* and then somebody will bill for it." He was as close to sharp as he ever got. "Say it in a way that keeps it useless: somebody stayed, and did not need them to change, and did not leave when nothing happened."
 
 ---
 
-Josh did the opposite and it took him about eleven minutes to start.
+Yeshua did the opposite and it took him about eleven minutes to start.
 
 He came into Ward C on the first morning, stood in the doorway for a moment the way everyone does, and then went straight to the sluice room and asked the nurse what needed doing.
 
@@ -138,13 +138,13 @@ On the seventh day, the boy of twenty-two — the chef — said, in the middle o
 
 "No." A long pause; they all took long pauses. "You know what I mean."
 
-Josh crouched down so that they were at a level, which was a thing he did constantly and which Jakobus never once saw him do for effect.
+Yeshua crouched down so that they were at a level, which was a thing he did constantly and which Jakobus never once saw him do for effect.
 
 "When I was your age I worked with my father," he said. "Building. Doors, mostly, and yokes for oxen, which is not what people imagine when they hear it — it is a fitting job. You make the yoke for the *animal*, not for the pair in general. A bad yoke is one somebody made for an idea of an ox." He shrugged slightly. "I was good at it and nobody wrote that down. Then I did the other thing for about three years, and everyone wrote that down, and they wrote a great deal that I did not say, and if you ever get out of that bed and go and look at what they made of me you will find a man in a painting with a face that is not mine." He straightened up. "So. The chairs need moving. And I would rather be a man who is useful in a room than a man who is *significant* in it, and I have had two thousand years to think about the difference, and it is the only thing I know that I did not have to be told."
 
 The boy did not answer.
 
-On the eighth day he asked Josh to bring him a knife and something to cut, and Amelie authorised it after a discussion Jakobus stayed out of, and a twenty-two-year-old who had not stood up in nine months sat in a chair and broke down two chickens badly and then a third one properly, with his hands shaking, and then put the knife down and said he was tired.
+On the eighth day he asked Yeshua to bring him a knife and something to cut, and Amelie authorised it after a discussion Jakobus stayed out of, and a twenty-two-year-old who had not stood up in nine months sat in a chair and broke down two chickens badly and then a third one properly, with his hands shaking, and then put the knife down and said he was tired.
 
 He is a chef. He has a restaurant in Clermont-Ferrand. There is no plaque and no story on the wall.
 
@@ -158,7 +158,7 @@ Jakobus watched her face do the whole thing in about two seconds. He had spent f
 
 She came through the door and she was already going down.
 
-And Josh — who had his hands full of chair — did the thing that Jakobus, afterwards, in a private ledger nobody has read, described as the single most skilful act he witnessed in two years, and he had watched Bruce Lee teach and Khabib bind a man's wrist and a Roman take a house apart with eleven words.
+And Yeshua — who had his hands full of chair — did the thing that Jakobus, afterwards, in a private ledger nobody has read, described as the single most skilful act he witnessed in two years, and he had watched Bruce Lee teach and Khabib bind a man's wrist and a Roman take a house apart with eleven words.
 
 He put the chair down and got to her before her knee reached the floor, and took her hands, and pulled — physically, with a carpenter's shoulders, so that she came back up onto her feet and had to take a step to keep her balance, which meant she had to think about her feet, which meant the moment broke.
 
@@ -174,7 +174,7 @@ And at the end of it he said: "I can't do what you're asking. I want to say that
 
 "That is nothing," she said.
 
-"Ja," said Josh — he had picked that up off Jakobus by then, and used it for the rest of his life, and there are people who think it is Aramaic. "It's nothing. It's what I've got, and it's yours."
+"Ja," said Yeshua — he had picked that up off Jakobus by then, and used it for the rest of his life, and there are people who think it is Aramaic. "It's nothing. It's what I've got, and it's yours."
 
 She was in that family room every day for the rest of the visit, and on the last day she brought the entire ward a cake, badly made, and the staff still talk about it.
 
@@ -192,17 +192,17 @@ That was the whole finding, and he put the following paragraph at the end of it,
 
 The Porch took it apart for three evenings.
 
-**The Clock** objected — and was, as usual, the only one who saw the ugly thing early. "I want to raise something and I am aware it will be unpopular. You took two men into a ward as *instruments*. Did they consent? Yes. Were they asked in a house in which they are the only two people everyone treats as exceptional, by the man who binds this house, for a purpose everyone agrees is good?" He looked around. "That is not a free consent. That is the shape of consent. I raise it because it is the exact structure by which good men are used, and because I would like it in the minutes that somebody said so before it becomes a programme."
+**Kant** objected — and was, as usual, the only one who saw the ugly thing early. "I want to raise something and I am aware it will be unpopular. You took two men into a ward as *instruments*. Did they consent? Yes. Were they asked in a house in which they are the only two people everyone treats as exceptional, by the man who binds this house, for a purpose everyone agrees is good?" He looked around. "That is not a free consent. That is the shape of consent. I raise it because it is the exact structure by which good men are used, and because I would like it in the minutes that somebody said so before it becomes a programme."
 
 Jakobus said afterwards that it was the most useful objection anyone made in two years, and that he had not thought of it once, and that this was the point.
 
-**Mohr** wanted the staffing figures and got them, and observed that the ward had been two nurses short on that floor for fourteen months, and that a man from the first century had counted it at the desk in under four minutes, and asked the house to sit with the fact that the intervention which produced the most reliable improvement in that building was *an extra pair of hands.*
+**Marx** wanted the staffing figures and got them, and observed that the ward had been two nurses short on that floor for fourteen months, and that a man from the first century had counted it at the desk in under four minutes, and asked the house to sit with the fact that the intervention which produced the most reliable improvement in that building was *an extra pair of hands.*
 
-**JP** said the whole thing was bad faith of an extremely high order — that a man who cannot bear to be significant, doing an ordinary job in front of witnesses, is performing not-performing, and that he did not doubt the sincerity and that sincerity was not the question.
+**Sartre** said the whole thing was bad faith of an extremely high order — that a man who cannot bear to be significant, doing an ordinary job in front of witnesses, is performing not-performing, and that he did not doubt the sincerity and that sincerity was not the question.
 
-Josh, who had come to the Porch for that one evening only, said: "That's fair. I don't have an answer to it. I've never had one." And Sartre, who had been ready for anything except agreement, sat down.
+Yeshua, who had come to the Porch for that one evening only, said: "That's fair. I don't have an answer to it. I've never had one." And Sartre, who had been ready for anything except agreement, sat down.
 
-And **Sawubona** did not analyse it at all. He asked one question, of Jakobus, at the end of the third evening.
+And **Levinas** did not analyse it at all. He asked one question, of Jakobus, at the end of the third evening.
 
 "The woman in the family room. When she went down. What did he do first?"
 
@@ -218,7 +218,7 @@ Jakobus thought about it.
 
 Nobody said anything.
 
-"Opposite is where you are examined," said Sawubona. "Beside is where you are accompanied. Every person in this house has been examined for two years by a machine, by a planet, by each other, and by history. Not one of us has been accompanied." He looked up. "The colonel is right that it is a skill. He is wrong that it is rare because it is difficult. It is rare because it is *unrewarded*, and because a civilisation that cannot bill for it will not teach it, and because every one of us in this house is here on account of a lifetime of doing things that could be measured."
+"Opposite is where you are examined," said Levinas. "Beside is where you are accompanied. Every person in this house has been examined for two years by a machine, by a planet, by each other, and by history. Not one of us has been accompanied." He looked up. "The colonel is right that it is a skill. He is wrong that it is rare because it is difficult. It is rare because it is *unrewarded*, and because a civilisation that cannot bill for it will not teach it, and because every one of us in this house is here on account of a lifetime of doing things that could be measured."
 
 ---
 
@@ -228,32 +228,32 @@ Jakobus watched the two of them in the mirror for a while: a barefoot man of thi
 
 "Can I ask you both something," he said. "And you can tell me to get stuffed."
 
-"Ja," said Josh.
+"Ja," said Yeshua.
 
 "You're the two everybody in that house is careful with. The two the world would tear the building down to get at." He watched the road. "You've both had — I don't know what to call it. Two thousand years of consequences. And you spent nine days on chairs and a floor."
 
-Sid said nothing at all, which was itself an answer and which Jakobus had learned to hear.
+Siddhārtha said nothing at all, which was itself an answer and which Jakobus had learned to hear.
 
-"You've got it the wrong way round, Colonel," Josh said, after a while. "You think the nine days was the small version of the thing." He was looking out of the window at the valley. "It's the other way. It was always the chairs. Everything else that got written down happened *because* of the chairs, and then people kept the writing and threw the chairs away."
+"You've got it the wrong way round, Jakobus," Yeshua said, after a while. "You think the nine days was the small version of the thing." He was looking out of the window at the valley. "It's the other way. It was always the chairs. Everything else that got written down happened *because* of the chairs, and then people kept the writing and threw the chairs away."
 
 The vehicle went up the valley toward the mountain and the machine under it and a house of the greatest people who ever lived, and a lottery that was, at that moment, sitting at eleven million names.
 
-"You want to know the actual difference between us," Josh said, "since you've been trying to work it out for a year and you're too polite to ask."
+"You want to know the actual difference between us," Yeshua said, "since you've been trying to work it out for a year and you're too polite to ask."
 
 "Ja," said Jakobus. "I do."
 
-"He'd have let her go down." A nod at Sid, without heat, entirely without judgement. "Sat with her on the floor till she was finished, and it would have been the right thing to do, and she'd have got up when she was ready and she'd have been steadier than mine."
+"He'd have let her go down." A nod at Siddhārtha, without heat, entirely without judgement. "Sat with her on the floor till she was finished, and it would have been the right thing to do, and she'd have got up when she was ready and she'd have been steadier than mine."
 
 "And you pulled her up."
 
-"I can't stand it," said Josh, simply. "That's the whole difference. Not a doctrine. I have never once been able to stand it, and I have been told by better men than me that this is my flaw, and they may well be right." He put his head back against the seat. "Two thousand years and about nineteen thousand books, Colonel, and it comes down to that: one of us can watch a person kneel, and one of us can't."
+"I can't stand it," said Yeshua, simply. "That's the whole difference. Not a doctrine. I have never once been able to stand it, and I have been told by better men than me that this is my flaw, and they may well be right." He put his head back against the seat. "Two thousand years and about nineteen thousand books, Jakobus, and it comes down to that: one of us can watch a person kneel, and one of us can't."
 
-Sid, in the back, with his eyes closed, said: "It is not a flaw."
+Siddhārtha, in the back, with his eyes closed, said: "It is not a flaw."
 
 "It's a bit of a flaw."
 
-"It is not a flaw," said Sid again, mildly, "and I have thought about it for eleven months, and I would like it on the record before the colonel writes his report, because he writes down everything." A pause. "What I do is a *discipline*. It can be taught; I have taught it; they are teaching it in a hundred and forty buildings and it will outlast me by a long way." Another pause. "What he did in that room cannot be taught at all. I have watched it four times now and I cannot find the instruction in it. That is not a compliment, exactly. It is a difficulty."
+"It is not a flaw," said Siddhārtha again, mildly, "and I have thought about it for eleven months, and I would like it on the record before the colonel writes his report, because he writes down everything." A pause. "What I do is a *discipline*. It can be taught; I have taught it; they are teaching it in a hundred and forty buildings and it will outlast me by a long way." Another pause. "What he did in that room cannot be taught at all. I have watched it four times now and I cannot find the instruction in it. That is not a compliment, exactly. It is a difficulty."
 
-Josh laughed — a short, ordinary, entirely unremarkable laugh, the laugh of a man in a car.
+Yeshua laughed — a short, ordinary, entirely unremarkable laugh, the laugh of a man in a car.
 
 "Ja," he said. "It's been a difficulty from the start."
