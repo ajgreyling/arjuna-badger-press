@@ -774,26 +774,29 @@ def purge_stale_procedural_covers(candidates: list[Path], keep: Path | None, roo
 
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
+# Order: The African Gold Trilogy first (the flagship series), then History Before Time,
+# then every other shelf by total book count (fullest first), Standalones always last
+# regardless of count (author-decision 2026-09-02).
 SERIES = [
-    ("Non-fiction", "#7BA88C"),
     ("The African Gold Trilogy", "#E5B567"),
-    ("ONE RECORD", "#9A7A45"),
     ("History Before Time", "#C8A86B"),
-    ("History Like You've Never Heard It", "#A8443C"),  # ember-red — the all-sides SA history shelf
-    ("Companions", "#8C7BA8"),
-    ("The Synthesis", "#9A7BC8"),
-    ("The Salt Veil", "#B0814A"),
-    ("Winter sonder Einde", "#C77A3A"),  # ember-amber — the adult Norse saga shelf (mature content)
-    ("Captain Gideon Loots", "#C9A227"),  # harvest gold — the Cape crime shelf (mature content)
-    ("The Dust Throne", "#8A5A2C"),
-    ("The Unheard", "#6B8C9A"),
+    ("Non-fiction", "#7BA88C"),
     ("Not a Potato", "#9A8B6B"),
-    ("The No-Fear Cycle", "#1e3a8a"),
     ("Faithful Modern", "#4B4E8C"),
     ("Children's Library", "#7FB069"),  # leaf-green — the read-aloud picture-book shelf
+    ("The Salt Veil", "#B0814A"),
+    ("Winter sonder Einde", "#C77A3A"),  # ember-amber — the adult Norse saga shelf (mature content)
+    ("The Unheard", "#6B8C9A"),
+    ("The Road Books", "#A67C52"),  # road-dust ochre — true journeys, published as drafts
+    ("ONE RECORD", "#9A7A45"),
+    ("History Like You've Never Heard It", "#A8443C"),  # ember-red — the all-sides SA history shelf
+    ("The Synthesis", "#9A7BC8"),
+    ("Captain Gideon Loots", "#C9A227"),  # harvest gold — the Cape crime shelf (mature content)
+    ("The Dust Throne", "#8A5A2C"),
+    ("The No-Fear Cycle", "#1e3a8a"),
     ("The Firmament", "#1C3A5A"),  # sealed-arcology midnight — original dystopian duology
     ("The Piet Buys Files", "#3A2A1C"),  # dark earth — SA literary crime procedural
-    ("The Road Books", "#A67C52"),  # road-dust ochre — true journeys, published as drafts
+    ("Companions", "#8C7BA8"),
     ("Standalones", "#B49A6A"),
 ]
 
