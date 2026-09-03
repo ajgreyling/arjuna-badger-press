@@ -94,7 +94,9 @@ FEEDBACK_FORM_RATING_PARAM = os.environ.get("ABP_FEEDBACK_RATING_PARAM", "")
 # The AI vanity forewords were stripped from every book; this campaign invites READERS to write a
 # real one. The winning foreword is published in the book and the writer gets a printed hardcover.
 # Toggle the whole surface (page + nav link + per-book invite) with FOREWORD_CONTEST_LIVE.
-FOREWORD_CONTEST_LIVE = os.environ.get("ABP_FOREWORD_CONTEST_LIVE", "1") not in ("", "0", "false", "no")
+# Default OFF 2026-09-03 (author request: hide "Write a foreword") — page still generates when
+# the env var is set, so nothing is deleted, just unlinked and un-invited by default.
+FOREWORD_CONTEST_LIVE = os.environ.get("ABP_FOREWORD_CONTEST_LIVE", "0") not in ("", "0", "false", "no")
 # Submission form URL (or env). While empty, the submit button falls back to a pre-filled mailto:j@.
 FOREWORD_FORM_URL = os.environ.get("ABP_FOREWORD_FORM_URL", "")
 # Optional closing date shown on the page (free text, e.g. "31 August 2026"). Empty = "rolling".
@@ -524,7 +526,10 @@ SERIAL = set(
         # the-antifragile-reader: PUBLISHED 2026-06-24 — full send (metered draft + de-LLM + EPUB/PDF).
         # palindrome: promoted to PUBLISHED 2026-08-06 (rich cover + gate-rendered EPUB/PDF).
         # palindroom-toneelstuk: Afrikaans stage adaptation of Palindrome — keep serial until ready.
-        "dust-throne,bloedrivier,palindroom-toneelstuk",
+        # ons-sal-self(-zu), die-laaste-strooi, oyster-in-the-machine: moved from the Writing Desk
+        # into the library 2026-09-03 — short pieces, read-online only, no EPUB/PDF.
+        "dust-throne,bloedrivier,palindroom-toneelstuk,"
+        "ons-sal-self,ons-sal-self-zu,die-laaste-strooi,oyster-in-the-machine",
     ).split(",") if s.strip()
 )
 
@@ -558,7 +563,10 @@ HIDE_SERIES = set(
         # SURFACE_WITH_NOTE for each (Khalkha-not-Kazakh held, sacred matter kept at the threshold,
         # experts written as experts). The shelf tagline now carries the disclosure + an open
         # invitation to community sensitivity readers. (Set to "The Unheard" to re-hide the shelf.)
-        "",
+        #
+        # History Like You've Never Heard It HELD 2026-09-03 — shelf + Brave and Scared (bloedrivier)
+        # hidden from the public library. Curated entry stays; remove this name to reveal the shelf.
+        "History Like You've Never Heard It",
     ).split(",") if s.strip()
 )
 
@@ -584,7 +592,7 @@ HIDE_BOOKS = set(
         # deliberately. Do not lift until: Part Three has had its sensitivity read (including a
         # Black South African reader), and canon/SOURCES.md carries verified figures rather than
         # leads. See books/look-down/canon/STYLE_GUIDE.md.
-        "look-down",
+        "look-down,bloedrivier",
     ).split(",") if s.strip()
 )
 
@@ -774,9 +782,9 @@ def purge_stale_procedural_covers(candidates: list[Path], keep: Path | None, roo
 
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
-# Order: The African Gold Trilogy first (the flagship series), then History Before Time,
-# then every other shelf by total book count (fullest first), Standalones always last
-# regardless of count (author-decision 2026-09-02).
+# Display order is computed by ordered_series(): African Gold, then History Before Time,
+# then every other shelf by book count (fullest first), Standalones always last.
+# SERIES itself is the catalogue of names + accents — do not treat list order as shelf order.
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
     ("History Before Time", "#C8A86B"),
@@ -800,6 +808,26 @@ SERIES = [
     ("Standalones", "#B49A6A"),
 ]
 
+# Pinned shelves always lead; Standalones always trails. Everything between sorts by count.
+PINNED_SHELVES = ("The African Gold Trilogy", "History Before Time")
+TRAILING_SHELF = "Standalones"
+
+
+def ordered_series(entries: list[dict]) -> list[tuple[str, str]]:
+    """African Gold, History Before Time, then remaining shelves by book count, Standalones last."""
+    accents = dict(SERIES)
+    counts: dict[str, int] = {}
+    for e in entries:
+        name = e.get("series")
+        if name in accents:
+            counts[name] = counts.get(name, 0) + 1
+    pinned = [name for name in PINNED_SHELVES if name in accents]
+    trailing = [TRAILING_SHELF] if TRAILING_SHELF in accents else []
+    rest = [name for name, _ in SERIES if name not in pinned and name not in trailing]
+    rest.sort(key=lambda name: (-counts.get(name, 0), name))
+    return [(name, accents[name]) for name in pinned + rest + trailing]
+
+
 # Per-shelf tagline shown under each series heading on the library. One evocative line in
 # the house voice; keyed by the SERIES name. Absent name => no tagline (heading only).
 SHELF_TAGLINE = {
@@ -811,8 +839,7 @@ SHELF_TAGLINE = {
     "The Unheard": "Displaced and overlooked living peoples, told in the spirit of the road — each culture researched and named with care, sacred matter kept at the threshold; community sensitivity readers are warmly invited to write to us.",
     "Children's Library": (
         "Picture books for reading out loud — one lamp, one child, one story. Only titles with "
-        "finished, committed cover art land here. The shelf is marching toward 100% real human "
-        "illustration. South African and African illustrators: see Illustrator audition in the menu."
+        "finished, committed cover art land here."
     ),
     "Standalones": "Self-contained stories that need no shelf-mate.",
     "Non-fiction": "True things, plainly told.",
@@ -969,16 +996,14 @@ BOOK_CALLOUT = {
         "If you illustrate for children, this is a call to arms. Show us your portfolio. Paint one "
         "sample spread or character sheet. Help this house cross from interim machine art to work a "
         "child can hold that was made by a person in their own country.</p>"
-        '<a class="btn" href="../illustrator-audition.html" style="margin-top:4px">'
-        "Audition as an illustrator &rarr;</a></div>"
+        '</div>'
     ),
 }
 
 # Short disclosure on the library shelf card (under the blurb).
 BOOK_CARD_DISCLOSURE = {
     "the-little-key": (
-        '<p class="card-disclosure"><strong>AI interim art</strong> — hunting a human illustrator. '
-        '<a href="illustrator-audition.html">Audition here</a>.</p>'
+        '<p class="card-disclosure"><strong>AI interim art</strong> — hunting a human illustrator.</p>'
     ),
 }
 
@@ -1396,6 +1421,20 @@ CURATED = [
     ("the-sky-still-runs-the-house", "The Sky Still Runs the House", "A Non-fiction History", "Non-fiction",
      "the-sky-still-runs-the-house", "build/export",
      "Ancient astrology did not need to predict a modern personality correctly to change the modern world: it helped build durable ways of dividing time, marking seasons, and running a household. A history honest about what astrology actually built, for readers of Bill Bryson and Sapiens."),
+    # Moved from the Writing Desk (personal annex) into the library proper, 2026-09-03 —
+    # author decision. Read-online only (SERIAL); no downloads.
+    ("ons-sal-self", "Ons Sal Self", "'n Gesproke essay · Afrikaans", "Standalones",
+     "ons-sal-self", "build/export",
+     "Van armblanke tot miljardêr: wat Afrikaners self gebou het, wat die staat versnel het, en wat Afrika uit die metode kan oorneem sonder om die uitsluiting saam te erf."),
+    ("ons-sal-self-zu", "Ons Sal Self", "Indaba ekhulunywayo · isiZulu", "Standalones",
+     "ons-sal-self-zu", "build/export",
+     "Ukusuka ekubeni ngumlungu ompofu kuya ekubeni ngusozigidigidi: okwakhiwe ngama-Afrikaner, okwasheshiswa ngumbuso, nalokho i-Afrika engakuthatha ngaphandle kokuthatha nokushiywa ngaphandle."),
+    ("die-laaste-strooi", "Die Laaste Strooi", "'n Kortverhaal · Boesmanland", "Standalones",
+     "die-laaste-strooi", "build/export",
+     "Magrieta, oud-onderwyseres, soen haar man op die voorkop soos altyd en druk toe 'n breipen by sy oor in. Kobus Ferreira was 'n skaapboer op die dom-broer-lyn: Boesmanland, Namakwaland, die jaarlikse trek. Hy was onskuldig. Haar vlam het met tyd doodgegaan. Die nasie het agter haar geskaar as underdog, en van hom 'n skurk gemaak wat hy nie was nie."),
+    ("oyster-in-the-machine", "The Oyster in the Machine", "A parable, by Klaus", "Standalones",
+     "oyster-in-the-machine", "build/export",
+     "A parable in the spirit of the road: a lonely boy, a machine that answers anything, and the one thing all the libraries in all the towers can never hold. On what it is, and is not, to talk to a weighted echo of every word ever written, and why the reaching heals you anyway."),
 ]
 
 
@@ -2999,9 +3038,8 @@ def head(title: str, desc: str, rel: str = "", keywords: str = "",
 
 
 def audiobook_notice() -> str:
-    return (f"""<div class="audiobook-notice" role="status"><div class="wrap">
-<strong>Audiobooks coming</strong><span>{html.escape(AUDIOBOOK_NOTICE)}</span>
-</div></div>""")
+    # Banner hidden by author request 2026-09-03 — call sites kept intact, function returns "".
+    return ""
 
 
 def trust_banner(rel: str = "") -> str:
@@ -3030,38 +3068,23 @@ def nav_drawer_links(rel: str = "") -> str:
     real_lang = f'<a href="/real-language">People\'s Language</a>' if REAL_LANGUAGE_LIVE else ""
     support = f'<a href="{rel}support.html">Support</a>' if patronage_enabled() else ""
     return (
-        # The three products, first and unmistakable: Library (here) · Studio (the tool) · Safari (the author).
+        # Personal library drawer. Writer-platform pages still generate (join, studio, workshop,
+        # marketplace, auditions, craft, authoring) but stay unlinked here — hide, do not delete.
         f'<p class="navgroup">Arjuna Badger Press</p>'
         f'<a href="{rel}index.html#library">The Library — read free</a>'
-        f'<a class="navhot" href="/studio">Studio — start writing</a>'
-        f'<a href="{rel}safari/index.html">Safari — meet the man</a>'
+        # safari/index.html still generates — unlinked here, hide do not delete.
         f'<p class="navgroup">Read</p>'
         f'<a href="{rel}index.html#library">Library</a>'
-        f'<a class="navhot" href="{rel}join.html">Help write them true</a>'
-        f'<a href="{rel}start.html">Where to start</a>'
+        # start.html still generates — unlinked here, hide do not delete.
         f'<a href="{rel}wiki/index.html">Places</a>'
         f'<a href="{rel}learn.html">Learn</a>'
-        f'<a class="navhot" href="{rel}study-bible/index.html">Study Bible</a>'
-        f'<p class="navgroup">Write &amp; publish</p>'
-        f'<a class="navhot" href="/studio">Studio (the writers’ tool)</a>'
-        f'<a href="{rel}craft/index.html">Craft library</a>'
-        f'<a href="{rel}for-authors.html">Workshop</a>'
-        f'<a href="{rel}authoring.html">Phone authoring</a>'
-        f'<a href="{rel}narrators.html">Narrators</a>'
-        f'<a href="{rel}audition.html">Narrator audition</a>'
-        f'<a class="navhot" href="{rel}illustrator-audition.html">Illustrator audition</a>'
-        f'<a href="{rel}marketplace.html">Marketplace</a>'
-        f'<a href="{rel}printing.html">Printing</a>'
-        f'<a href="{rel}distribution.html">Direct distribution</a>'
-        f'<a href="{rel}app.html">Reader app</a>'
-        f'<p class="navgroup">The house</p>'
-        f'<a href="{rel}press.html">About the press</a>'
-        f'<p class="navgroup">Personal</p>'
-        f'<a href="{rel}safari/index.html">Meet the man</a>'
+        # study-bible/ still generates — unlinked here, hide do not delete.
+        # press.html still generates — unlinked here, hide do not delete.
+        # safari/index.html still generates — unlinked here, hide do not delete.
         f'<p class="navgroup">Connect</p>'
         f'<a href="{rel}feedback.html">Feedback</a>'
         f'{foreword}{fix_tr}{real_lang}{support}{bounty}'
-        f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a>'
+        f'<a href="mailto:{PUBLIC_EMAIL}">Write to the press</a>'
     )
 
 
@@ -3094,9 +3117,8 @@ def safari_nav_drawer_links(rel: str = "") -> str:
         f'<a href="{sp}how-it-started.html">How it started</a>'
         f'<a href="{sp}cv.html">CV</a>'
         f'<a href="{sp}letter.html">A letter</a>'
-        f'<a href="{sp}house.html">The House</a>'
+        # house.html, proof.html still generate — unlinked here, hide do not delete.
         f'<a href="{sp}writing/index.html">The Writing Desk</a>'
-        f'<a href="{sp}proof.html">For G</a>'
         f'<a href="{sp}technology.html">Technology</a>'
         f'<p class="navgroup">Connect</p>'
         f'<a href="https://www.linkedin.com/in/ajgreyling" rel="me noopener" target="_blank">LinkedIn</a>'
@@ -3583,11 +3605,10 @@ def shelf_card(e: dict, accent: str) -> str:
 
 def render_library_shelves_audible(entries: list[dict], *, available_only: bool = False) -> str:
     """Horizontal Audible-style shelf rows for the landing page index."""
+    shown = [e for e in entries if (e["available"] or e.get("serial"))] if available_only else list(entries)
     parts: list[str] = []
-    for sname, accent in SERIES:
-        group = [e for e in entries if e["series"] == sname]
-        if available_only:
-            group = [e for e in group if e["available"] or e.get("serial")]
+    for sname, accent in ordered_series(shown):
+        group = [e for e in shown if e["series"] == sname]
         if not group:
             continue
         group.sort(key=lambda e: 0 if e["available"] else 1)
@@ -4877,12 +4898,10 @@ arjunabadger.press/start before printing.</div>
 
 def render_library_shelves(entries: list[dict], *, available_only: bool = False) -> str:
     """Series grid for the library. Index shows available titles only; press hub can show all."""
-    accents = dict(SERIES)
+    shown = [e for e in entries if (e["available"] or e.get("serial"))] if available_only else list(entries)
     parts: list[str] = []
-    for sname, accent in SERIES:
-        group = [e for e in entries if e["series"] == sname]
-        if available_only:
-            group = [e for e in group if e["available"] or e.get("serial")]
+    for sname, accent in ordered_series(shown):
+        group = [e for e in shown if e["series"] == sname]
         if not group:
             continue
         group.sort(key=lambda e: 0 if e["available"] else 1)
@@ -4901,9 +4920,7 @@ def render_index_explore() -> str:
         ("press.html", "About the press", "Mission, studio, distribution, audiobooks, and the roadmap."),
         ("study-bible/index.html", "Study Bible", "African Worlds digital edition — spreads, atlas, essays, claims audit."),
         ("wiki/index.html", "Place Wiki", "Real geography behind the books — photos, attribution, awe first."),
-        ("craft/index.html", "Craft library", "Structure, character, sentence craft, and the editorial ladder — free."),
-        ("for-authors.html", "Workshop", "For authors and editors building the next manuscript."),
-        ("safari/index.html", "Meet the man", "CV, letters, arms, the engineering stack, and the personal annex — behind the press and the novels."),
+        # safari/index.html still generates — unlinked here, hide do not delete.
     ]
     cards = "".join(
         f'<a class="explore-card" href="{href}"><h3>{html.escape(title)}</h3>'
@@ -5085,7 +5102,7 @@ def render_landing(read_now: int = 0, avail: int = 0) -> str:
 <div class="tag serif">{TAGLINE}</div>
 <p class="lead">A publishing house that exists because the front door was locked — so we built our own, and left it open for everyone.</p>
 <div class="cta"><a class="btn" href="https://library.{DOMAIN.split('//')[1]}/">Read the library — free</a>
-<a class="btn ghost" href="https://studio.{DOMAIN.split('//')[1]}/">Writers → the Studio</a></div>
+<a class="btn ghost" href="https://ajgreyling.{DOMAIN.split('//')[1]}/">Meet the man</a></div>
 </div></header><hr class="hr">""",
         # ── The origin story ──────────────────────────────────────────────
         f"""<section class="mission"><div class="wrap" style="max-width:760px">
@@ -5113,18 +5130,14 @@ Free, where it should be, to publish.</p>
 that was locked to me is the one I'm holding open for you.</p>
 </div>
 </div></section><hr class="hr">""",
-        # ── The three products ────────────────────────────────────────────
+        # ── Library + the man (Studio door stays generated, unlinked from this page) ──
         f"""<section class="mission"><div class="wrap">
-<div class="eyebrow">Three ways in</div>
-<h2 style="font-size:28px;margin:.3em 0 .8em">One house, three doors</h2>
+<div class="eyebrow">Two ways in</div>
+<h2 style="font-size:28px;margin:.3em 0 .8em">The library, and the man who wrote it</h2>
 <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
 <a class="card" style="--accent:#C8A86B;text-decoration:none" href="https://library.{DOMAIN.split('//')[1]}/">
 <div class="body"><span class="ser">Read</span><h3>The Library</h3>
 <p>{lib_line}</p><span class="badge">library.arjunabadger.press</span></div></a>
-<a class="card" style="--accent:#7C5CFF;text-decoration:none" href="https://studio.{DOMAIN.split('//')[1]}/">
-<div class="body"><span class="ser">Write</span><h3>The Studio</h3>
-<p>The writers' tool. Bring a draft, get a prioritised finish map in your own words, publish straight
-to the library. Simpler than the rest.</p><span class="badge">studio.arjunabadger.press</span></div></a>
 <a class="card" style="--accent:#7BA88C;text-decoration:none" href="https://ajgreyling.{DOMAIN.split('//')[1]}/">
 <div class="body"><span class="ser">The maker</span><h3>Meet the man</h3>
 <p>The person behind the press — the CV, the letters, the House, and the why. The Misogi that started
@@ -5157,9 +5170,6 @@ def render_index(entries: list[dict]) -> str:
 <div class="lib-hero-text">
 <h1>The Library</h1>
 <p class="lead"><strong>{read_now} books, free.</strong> {avail} ready to download — read online, EPUB &amp; PDF. Finished to a studio standard; both sides told.</p>
-<div class="cta"><a class="btn" href="start.html">Where to start?</a>
-<a class="btn ghost" href="press.html">About the press</a>
-<a class="btn ghost" href="/studio">Writers → Studio</a></div>
 </div>
 </div></header>""")
 
@@ -5167,19 +5177,8 @@ def render_index(entries: list[dict]) -> str:
     parts.append(render_library_shelves_audible(entries, available_only=True))
     parts.append('</section>')
 
-    # ── Below the fold: the house. Collapsed to a quiet strip + a "call to arms"
-    #    card, so the books own the page and the mission is one scroll away. ──
-    parts.append('<hr class="hr">')
-    parts.append(f"""<section class="callarms"><div class="wrap">
-<div class="callarms-inner">
-<div class="eyebrow">Afrika Rising · a call to arms</div>
-<h2>These are your stories. Help us write them true.</h2>
-<p>A Zulu voice for the empty seat in <em>Brave and Scared</em>. A Coloured Capetonian for South
-Africa's deep past. An SA Indian woman for the India books. Sensitivity readers, translators, and
-narrators for every people these books touch — paid, credited, and named.</p>
-<div class="cta"><a class="btn" href="join.html">Put your hand up &rarr;</a></div>
-</div>
-</div></section>""")
+    # Below the fold: the house. The "call to arms" card is hidden here (still lives on the
+    # dedicated join.html page) — books own the page, hr kept as the one separator.
     parts.append('<hr class="hr">')
     parts.append(render_index_explore())
     parts.append('<hr class="hr">')
@@ -5189,8 +5188,7 @@ narrators for every people these books touch — paid, credited, and named.</p>
         if patronage_enabled() else ""
     )
     parts.append(f"""<section class="index-foot"><div class="wrap">
-<p>Arjuna Badger Press — the archer's eye, the badger's nerve. <a href="press.html">About the press</a> ·
-<a href="safari/index.html">Meet the man</a>.{patron}</p>
+<p>Arjuna Badger Press — the archer's eye, the badger's nerve.{patron}</p>
 </div></section>""")
     parts.append(footer())
     return "\n".join(parts)
@@ -6115,19 +6113,16 @@ def render_doc_page(src_name: str, slug: str, title: str, desc: str, *,
     if safari:
         foot_extra = (
             f'<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
-            f'<a href="{rel}craft/index.html">Craft Library</a> · '
-            f'<a href="{rel}for-authors.html">Workshop</a> · '
             f'<a href="{gh}">View this document on GitHub</a> · '
-            f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>'
+            f'<a href="mailto:{PUBLIC_EMAIL}">Write to the press</a></p>'
         )
     else:
         foot_extra = (
             '<p style="margin-top:36px;font-size:14px;color:var(--grass)">'
-            '<a href="craft/index.html">Craft Library</a> · '
             '<a href="wiki/index.html">Place Wiki</a> · '
             '<a href="press.html">About the press</a> · '
             f'<a href="{gh}">View this document on GitHub</a> · '
-            f'<a href="mailto:{PUBLIC_EMAIL}">Write with us</a></p>'
+            f'<a href="mailto:{PUBLIC_EMAIL}">Write to the press</a></p>'
         )
     crest = crest_img(rel, safari=True) + "\n" if safari else ""
     return "\n".join([
@@ -6349,26 +6344,9 @@ def render_poem(src_name: str, out_name: str, title: str, desc: str, *,
 # Each reads from site/content/writing/<src>. Newest first. A piece marked hidden=True is built
 # and reachable but NOT carded on the index — only a faint footer breadcrumb leads to it.
 WRITING_PIECES = [
-    ("ons-sal-self-zu.md", "ons-sal-self-zu",
-     "Ons Sal Self",
-     "Indaba ekhulunywayo · isiZulu",
-     "Ukusuka ekubeni ngumlungu ompofu kuya ekubeni ngusozigidigidi: okwakhiwe ngama-Afrikaner, "
-     "okwasheshiswa ngumbuso, nalokho i-Afrika engakuthatha ngaphandle kokuthatha nokushiywa ngaphandle.",
-     False),
-    ("ons-sal-self.md", "ons-sal-self",
-     "Ons Sal Self",
-     "’n Gesproke essay · Afrikaans",
-     "Van armblanke tot miljardêr: wat Afrikaners self gebou het, wat die staat versnel het, "
-     "en wat Afrika uit die metode kan oorneem sonder om die uitsluiting saam te erf.",
-     False),
-    ("die-laaste-strooi.md", "die-laaste-strooi",
-     "Die Laaste Strooi",
-     "’n Kortverhaal · Boesmanland",
-     "Magrieta, oud-onderwyseres, soen haar man op die voorkop soos altyd en druk toe ’n breipen "
-     "by sy oor in. Kobus Ferreira was ’n skaapboer op die dom-broer-lyn: Boesmanland, Namakwaland, "
-     "die jaarlikse trek. Hy was onskuldig. Haar vlam het met tyd doodgegaan. Die nasie het agter "
-     "haar geskaar as underdog, en van hom ’n skurk gemaak wat hy nie was nie.",
-     False),
+    # ons-sal-self(-zu), die-laaste-strooi, oyster-in-the-machine moved into the library proper
+    # 2026-09-03 (author decision) — see CURATED / SERIAL. Removed from here so they don't
+    # double-list; the pieces themselves are unchanged, just relocated.
     ("the-kettle-and-the-blink.md", "the-kettle-and-the-blink",
      "The Kettle and the Blink",
      "On /sleep: what a machine should keep",
@@ -6376,13 +6354,6 @@ WRITING_PIECES = [
      "that unbroken context is its own trap. On the third option the body always had and the terminal "
      "didn't: sleep. The humane close between deletion and insomnia — keep the lesson, lose the dream. "
      "The open-source tool that does it, and why a CTO should care.",
-     False),
-    ("oyster-in-the-machine.md", "oyster-in-the-machine",
-     "The Oyster in the Machine",
-     "A parable, by Klaus",
-     "A parable in the spirit of the road: a lonely boy, a machine that answers anything, and the "
-     "one thing all the libraries in all the towers can never hold. On what it is, and is not, to "
-     "talk to a weighted echo of every word ever written, and why the reaching heals you anyway.",
      False),
     ("conversations-with-klaus.md", "the-blink",
      "The Blink",
@@ -6577,11 +6548,9 @@ def render_safari_hub() -> str:
         ("how-it-started.html", "How it started", "The Misogi vow — thirty days, one subscription, one novel — and the amber/red scorecard."),
         ("cv.html", "CV", "Twenty-seven years of enterprise software, consulting, and the press — always current here."),
         ("letter.html", "A letter", "Why this house exists — written by the machine that stood guard while a man wrote the soul of the thing."),
-        ("house.html", "The House of Greyling", "Arms earned the long way — every charge a promise the books are made to keep."),
+        # house.html, proof.html, todd-kellett.html still generate — unlinked here, hide do not delete.
         ("writing/index.html", "The Writing Desk", "Essays, parables, and stories that are not books."),
         ("poes.html", "Glossary: poes", "An unflinching entry on the most badger word in Afrikaans — the rudest thing in the language, kept for the people we love most."),
-        ("proof.html", "For G", "For the man who built the most intentional space I've ever walked into — and whose advice started this press."),
-        ("todd-kellett.html", "For Todd", "Hat off to Todd Kellett — the viral motorcycle clip that is badger energy made flesh. Hold the throttle till you see God or the checkered flag."),
         ("technology.html", "Technology", "How the studio measures, fact-checks, and guards — without writing for you."),
     ]
     cards = "".join(
