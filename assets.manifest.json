@@ -6,8 +6,8 @@
     "public": "arjuna-badger-public"
   },
   "note": "Bytes live in R2; this file is the contract. Regenerable build output excluded.",
-  "count": 898,
-  "bytes": 3414231521,
+  "count": 1091,
+  "bytes": 5717677768,
   "entries": [
     {
       "path": "books/_comingsoon/anunnaki-mesopotamia/design/cover-plate.png",
@@ -1000,6 +1000,14 @@
       "key": "blobs/sha256/6d708c007240571a0a0abb799f7efe5ffb106a32cd175c6f4948d43dd29f53c3",
       "sha256": "6d708c007240571a0a0abb799f7efe5ffb106a32cd175c6f4948d43dd29f53c3",
       "bytes": 196912
+    },
+    {
+      "path": "books/die-laaste-strooi/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b405c7817ba70d7422ec47eadb69b4bc3f56b232441c76e40a76ea98c31b9ddb",
+      "sha256": "b405c7817ba70d7422ec47eadb69b4bc3f56b232441c76e40a76ea98c31b9ddb",
+      "bytes": 614399
     },
     {
       "path": "books/dust-throne/design/cover-plate.png",
@@ -3130,6 +3138,22 @@
       "bytes": 2065448
     },
     {
+      "path": "books/ons-sal-self-zu/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/64477bc740cd28f2eb7f9f57f376e398b6edc44f4393c0f61aae0506222a1635",
+      "sha256": "64477bc740cd28f2eb7f9f57f376e398b6edc44f4393c0f61aae0506222a1635",
+      "bytes": 618161
+    },
+    {
+      "path": "books/ons-sal-self/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cc76563cbce889aa0926fbc891cc1f861bccef86a10ef65ded5b1a6f6f7e4ffc",
+      "sha256": "cc76563cbce889aa0926fbc891cc1f861bccef86a10ef65ded5b1a6f6f7e4ffc",
+      "bytes": 618171
+    },
+    {
       "path": "books/open-for-the-choochoo/design/cover-plate.png",
       "class": "input",
       "bucket": "arjuna-badger-prod",
@@ -3152,6 +3176,14 @@
       "key": "blobs/sha256/cb6a932b4edc957267eece04b64fb03678bff4b8c373e05ba15a530df9ae6e41",
       "sha256": "cb6a932b4edc957267eece04b64fb03678bff4b8c373e05ba15a530df9ae6e41",
       "bytes": 5136766
+    },
+    {
+      "path": "books/oyster-in-the-machine/design/cover.png",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a2a1faeaa26f4d6d8046fad1f4ef29a9581543fc5e456237ceac0804bf68b933",
+      "sha256": "a2a1faeaa26f4d6d8046fad1f4ef29a9581543fc5e456237ceac0804bf68b933",
+      "bytes": 470965
     },
     {
       "path": "books/palindrome/audio/emma-afrikaans-masters/chunks/00-palindroom/chunk-001.mp3",
@@ -3584,6 +3616,1518 @@
       "key": "blobs/sha256/9bfb72b7da4c43f9453007bdd0932d02fa267438202152dc70ca97d26ba89017",
       "sha256": "9bfb72b7da4c43f9453007bdd0932d02fa267438202152dc70ca97d26ba89017",
       "bytes": 5233730
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/Resonansie.m4b",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c7b3829c8df5c20b9f656ff87efd0284f3a72232cb0512e244945dbf22b54fd8",
+      "sha256": "c7b3829c8df5c20b9f656ff87efd0284f3a72232cb0512e244945dbf22b54fd8",
+      "bytes": 263087544
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_00-resonance.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/772b8a5654d0c63af6de8b756d00edcb91cf72bc61f01821bd38718d2fb37ef5",
+      "sha256": "772b8a5654d0c63af6de8b756d00edcb91cf72bc61f01821bd38718d2fb37ef5",
+      "bytes": 949885
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_01-die-land-onthou.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3ec08a257683cdbb631aa81858899a73eebf759f54d6ddc83683521b91c60df7",
+      "sha256": "3ec08a257683cdbb631aa81858899a73eebf759f54d6ddc83683521b91c60df7",
+      "bytes": 3352851
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_02-die-draadstootkar.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c5dd0acbc9f0b7c06ace1e2d41413a84d78b6ca70d357b51a598a1ea9fbebae9",
+      "sha256": "c5dd0acbc9f0b7c06ace1e2d41413a84d78b6ca70d357b51a598a1ea9fbebae9",
+      "bytes": 9833912
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_03-die-ding-wat-nie-behoort-te-bestaan-nie.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/98d68e52f8a1089f80a05574c3a96bc719bcaacb2de3761dcdbe2707504060ee",
+      "sha256": "98d68e52f8a1089f80a05574c3a96bc719bcaacb2de3761dcdbe2707504060ee",
+      "bytes": 17057795
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_04-stabiele-chaos.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d837f9a35325b5977b68f798302a695eb8a91bb44aa2c4e25cbcaf7fccf6d6da",
+      "sha256": "d837f9a35325b5977b68f798302a695eb8a91bb44aa2c4e25cbcaf7fccf6d6da",
+      "bytes": 14287011
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_05-om-mekaar-te-leer-ken.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9d4c15768a86847570c645695bb198323cc9bd55b1c08d35b126baac03125bdb",
+      "sha256": "9d4c15768a86847570c645695bb198323cc9bd55b1c08d35b126baac03125bdb",
+      "bytes": 22859302
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_06-n-getal-wat-nie-wil-klop-nie.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1feaea320e0b646309fe134a53825590ef8b5912ab5245b8f0a443b9595f5996",
+      "sha256": "1feaea320e0b646309fe134a53825590ef8b5912ab5245b8f0a443b9595f5996",
+      "bytes": 6750794
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_07-die-behoudsloop.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/579f8e5b685f1f95724e9ff3366240fc3ca8118b93d389b79609a0aa18c9d6dc",
+      "sha256": "579f8e5b685f1f95724e9ff3366240fc3ca8118b93d389b79609a0aa18c9d6dc",
+      "bytes": 19899706
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_08-wysheid-en-gevolg.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8865a7899e72ece526b9664ff74bb1366026af3b180a2ed38c1e3385228bf107",
+      "sha256": "8865a7899e72ece526b9664ff74bb1366026af3b180a2ed38c1e3385228bf107",
+      "bytes": 8804197
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_09-afwykende-seine.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6361f819890cccf705be3cf9e08646e53367dee34f1974776c6f183abac69f43",
+      "sha256": "6361f819890cccf705be3cf9e08646e53367dee34f1974776c6f183abac69f43",
+      "bytes": 17018617
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_10-druk-bou-op.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e87e7d9683dc3348920918435af5cb67f4ea4e560381131fa5be5f0237bcfdba",
+      "sha256": "e87e7d9683dc3348920918435af5cb67f4ea4e560381131fa5be5f0237bcfdba",
+      "bytes": 17498205
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_11-iron-ridge-verskuiwing.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/80f91f07ba6820e92708b084860a79a719ecc8fa0f8551670b5e53fa7349772c",
+      "sha256": "80f91f07ba6820e92708b084860a79a719ecc8fa0f8551670b5e53fa7349772c",
+      "bytes": 16066025
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_12-die-pad-wat-niemand-kan-loop.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6d09dcd20ce508d6941e6670c3ee025ffd0cf61ce9dce173d451c3127827cefa",
+      "sha256": "6d09dcd20ce508d6941e6670c3ee025ffd0cf61ce9dce173d451c3127827cefa",
+      "bytes": 18135309
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_13-afdaling.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/90d1a04242830f4f9ef3218d5d92e6069d1e29dc74e6a210f667f0956ebd0ff0",
+      "sha256": "90d1a04242830f4f9ef3218d5d92e6069d1e29dc74e6a210f667f0956ebd0ff0",
+      "bytes": 28342840
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_14-kontak.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e1fceebd1178d41de5b0eb272b0eb799aec9510349b74e742e7adc8e1214aac1",
+      "sha256": "e1fceebd1178d41de5b0eb272b0eb799aec9510349b74e742e7adc8e1214aac1",
+      "bytes": 16619299
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_15-ineenstorting.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/07f9d83e5b55ecaa7d24931065000471942694bc95f9b16488ec77ae4e3dc198",
+      "sha256": "07f9d83e5b55ecaa7d24931065000471942694bc95f9b16488ec77ae4e3dc198",
+      "bytes": 18647055
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_16-die-laaste-keuse.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/2004d4e858f29390d436f9f075851ac6ac3bf46a98356d41dd228872072719a6",
+      "sha256": "2004d4e858f29390d436f9f075851ac6ac3bf46a98356d41dd228872072719a6",
+      "bytes": 4202059
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_17-swartkas.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5848c80d345f3d1608342369f0fc2858c9a671c407a320fd3d19c897d9ca036e",
+      "sha256": "5848c80d345f3d1608342369f0fc2858c9a671c407a320fd3d19c897d9ca036e",
+      "bytes": 7514728
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_18-n-woord-oor-die-werklike-afdaling.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b0ff0f5ad5b3937560cf179d6bb6d04e723bdd5c1f63baf2536f26e33e846baa",
+      "sha256": "b0ff0f5ad5b3937560cf179d6bb6d04e723bdd5c1f63baf2536f26e33e846baa",
+      "bytes": 2242919
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_19-bylae-die-hof-as-n-model-van-die-psige.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/7ad785c408e9478ff9c3c5540718baa5a80b0ffaf5b60a170832f87b4f2e7e93",
+      "sha256": "7ad785c408e9478ff9c3c5540718baa5a80b0ffaf5b60a170832f87b4f2e7e93",
+      "bytes": 4149692
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_20-erkennings.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/68a8ca61746657b615463aa51afeef7ec4d83bfd15bbbc9760b8c342776fc68c",
+      "sha256": "68a8ca61746657b615463aa51afeef7ec4d83bfd15bbbc9760b8c342776fc68c",
+      "bytes": 872810
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_21-n-leser-se-woordelys-resonance.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d3c82478da2c719fe6fe65613cee9bf47bddb5ccdf5e16a357f0835c597d80a1",
+      "sha256": "d3c82478da2c719fe6fe65613cee9bf47bddb5ccdf5e16a357f0835c597d80a1",
+      "bytes": 5547160
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_22-die-ratel.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/46de49f6a352246d12c331c5f9557c1251b103ff3f6ec380c87f8c3be1f439ce",
+      "sha256": "46de49f6a352246d12c331c5f9557c1251b103ff3f6ec380c87f8c3be1f439ce",
+      "bytes": 1059648
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/aac_23-die-reuse-ietermagog.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8523fc769ca69630b99f9b12ae137a6cbb1f864bd469d24db6df8fc49fbbfdce",
+      "sha256": "8523fc769ca69630b99f9b12ae137a6cbb1f864bd469d24db6df8fc49fbbfdce",
+      "bytes": 1028479
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/_work_m4b/nochap.m4a",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1d2727ed8f8b31deba573e081e194b2d60ab56b31d7bd39547521b68651496fb",
+      "sha256": "1d2727ed8f8b31deba573e081e194b2d60ab56b31d7bd39547521b68651496fb",
+      "bytes": 262722516
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/00-resonance/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/74e01a63520e6a6833065ceca67ca1e8e708a3e0d552e8eab824017a619b65bc",
+      "sha256": "74e01a63520e6a6833065ceca67ca1e8e708a3e0d552e8eab824017a619b65bc",
+      "bytes": 1814822
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/01-die-land-onthou/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/be626c6ecdd42c58d9698840ae0d2744209ae2d93b01dcb71d6090a1305a13e3",
+      "sha256": "be626c6ecdd42c58d9698840ae0d2744209ae2d93b01dcb71d6090a1305a13e3",
+      "bytes": 4170022
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/01-die-land-onthou/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/213824181fb5072b063c64dc2ca6bbb2f26601b5771aacb75022dffbcb800da4",
+      "sha256": "213824181fb5072b063c64dc2ca6bbb2f26601b5771aacb75022dffbcb800da4",
+      "bytes": 2267890
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/02-die-draadstootkar/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/45f41597b8d0436722ce3c3aa5248b36fd2702d08dc2659b7b261151152f126d",
+      "sha256": "45f41597b8d0436722ce3c3aa5248b36fd2702d08dc2659b7b261151152f126d",
+      "bytes": 4145781
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/02-die-draadstootkar/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/da8831bc8b5db55646ec4611b4306fdb42b3ea5c2c312bb5ed5dfb752855b70b",
+      "sha256": "da8831bc8b5db55646ec4611b4306fdb42b3ea5c2c312bb5ed5dfb752855b70b",
+      "bytes": 3871599
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/02-die-draadstootkar/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/65d79373466b7f880aff18115bc56c8a9e79c733613b291a04efd20ce3da6510",
+      "sha256": "65d79373466b7f880aff18115bc56c8a9e79c733613b291a04efd20ce3da6510",
+      "bytes": 3986956
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/02-die-draadstootkar/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e991da2d93b86c8631d3e3284a47965dd537aac9c4ebbd0b1f7c4c37d367fbc5",
+      "sha256": "e991da2d93b86c8631d3e3284a47965dd537aac9c4ebbd0b1f7c4c37d367fbc5",
+      "bytes": 3826878
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/02-die-draadstootkar/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/88d71ec9935246bb410a1af302d7f15a1d7416826b00cffc3227c22d69b8d471",
+      "sha256": "88d71ec9935246bb410a1af302d7f15a1d7416826b00cffc3227c22d69b8d471",
+      "bytes": 2988452
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/07196be698392f9cf53d9f148e510c653c96bbee4aa87bd2f59f2957fe80603f",
+      "sha256": "07196be698392f9cf53d9f148e510c653c96bbee4aa87bd2f59f2957fe80603f",
+      "bytes": 3485405
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ca87aadd41f564013702b4ed82c66aea0a6f450b734b608adafad786036c1ee7",
+      "sha256": "ca87aadd41f564013702b4ed82c66aea0a6f450b734b608adafad786036c1ee7",
+      "bytes": 4067622
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/78deff8883268094a97d5877fb1a51a124475f3ee867929a7b0e7ca0e4a8393b",
+      "sha256": "78deff8883268094a97d5877fb1a51a124475f3ee867929a7b0e7ca0e4a8393b",
+      "bytes": 3821862
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d52077a1763ca8b47d1e3e1bd45b26d0317b5feeab66609f1abfc89cb28fa3b7",
+      "sha256": "d52077a1763ca8b47d1e3e1bd45b26d0317b5feeab66609f1abfc89cb28fa3b7",
+      "bytes": 4284125
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3cf4c1390d91589a9eb7282e7f7872b620ba1a48e8d9eff6b17171f8b1398e02",
+      "sha256": "3cf4c1390d91589a9eb7282e7f7872b620ba1a48e8d9eff6b17171f8b1398e02",
+      "bytes": 3601598
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8fba1739c5faf09095f9de4acb770b0d06a080db99916f0ffcedcc080ed0a0d1",
+      "sha256": "8fba1739c5faf09095f9de4acb770b0d06a080db99916f0ffcedcc080ed0a0d1",
+      "bytes": 3903782
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/7a748b2d47744c4895b730c788daa65da0fce46008a8454873958f25d2a95e2b",
+      "sha256": "7a748b2d47744c4895b730c788daa65da0fce46008a8454873958f25d2a95e2b",
+      "bytes": 4084341
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8d354448713d2e2ce54d56e5795bfb0dfd9e5909248d6774925fe00b56ebc0ed",
+      "sha256": "8d354448713d2e2ce54d56e5795bfb0dfd9e5909248d6774925fe00b56ebc0ed",
+      "bytes": 3821862
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/03-die-ding-wat-nie-behoort-te-bestaan-nie/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ee03da06d60d8dbc9faba3c0326bb574b43eb279b14ba1a6cd6944371d7080f8",
+      "sha256": "ee03da06d60d8dbc9faba3c0326bb574b43eb279b14ba1a6cd6944371d7080f8",
+      "bytes": 1618799
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0cfa7b7d1dbb54da37718eccb39c743ce26f0b03cd96be11fa1ab5340c61e5fd",
+      "sha256": "0cfa7b7d1dbb54da37718eccb39c743ce26f0b03cd96be11fa1ab5340c61e5fd",
+      "bytes": 4050904
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cab14eca8b3bdbed2264aa2dc12872cfda7c45bf7f72ab964a748683ed1499d7",
+      "sha256": "cab14eca8b3bdbed2264aa2dc12872cfda7c45bf7f72ab964a748683ed1499d7",
+      "bytes": 3926770
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/40c718f81de5dd9f9ee0bb8c24313fc1ec6b4dfd65e6ea2a54122cc60cbed11c",
+      "sha256": "40c718f81de5dd9f9ee0bb8c24313fc1ec6b4dfd65e6ea2a54122cc60cbed11c",
+      "bytes": 4442532
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ae351d74e51027a02756f0d41e53ac575aeccc7d7d57f260c50c91fc91df11dc",
+      "sha256": "ae351d74e51027a02756f0d41e53ac575aeccc7d7d57f260c50c91fc91df11dc",
+      "bytes": 4461758
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5af780009585e5aa4323977b11bd514e6ec970e94c80bf5d056ebb7b97f04c3a",
+      "sha256": "5af780009585e5aa4323977b11bd514e6ec970e94c80bf5d056ebb7b97f04c3a",
+      "bytes": 4312128
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8c056975c2441471be0e28891296f4b9ed36e066a864bc7d8ad6f90dd8e29378",
+      "sha256": "8c056975c2441471be0e28891296f4b9ed36e066a864bc7d8ad6f90dd8e29378",
+      "bytes": 4390287
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/04-stabiele-chaos/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1ee67e83e3a402a7fc71314084e69be7657f5e24c5d45b5e508d919eee39a30f",
+      "sha256": "1ee67e83e3a402a7fc71314084e69be7657f5e24c5d45b5e508d919eee39a30f",
+      "bytes": 1823599
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3171815a8c86a667374a3c17389a18b471d62acd95f5d8414ad83098137c5a2f",
+      "sha256": "3171815a8c86a667374a3c17389a18b471d62acd95f5d8414ad83098137c5a2f",
+      "bytes": 3733673
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c027307f7adb525092d36fc6c0058dd7001f65dde0b7a04c80ad17d68e93dc97",
+      "sha256": "c027307f7adb525092d36fc6c0058dd7001f65dde0b7a04c80ad17d68e93dc97",
+      "bytes": 3953519
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d6cc0c02c26fc8be8d0c9460f7b514b665c37e374dae948a5ca9690c5a787958",
+      "sha256": "d6cc0c02c26fc8be8d0c9460f7b514b665c37e374dae948a5ca9690c5a787958",
+      "bytes": 4180471
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0445405fddc9a7bdcf2022db62c33ade23c3f7be54e83a562e22324e6939002b",
+      "sha256": "0445405fddc9a7bdcf2022db62c33ade23c3f7be54e83a562e22324e6939002b",
+      "bytes": 3775887
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/33c79f87949a50fbb04c29c39a105ebb44aec465a0dfdaccec81e9a481fac70b",
+      "sha256": "33c79f87949a50fbb04c29c39a105ebb44aec465a0dfdaccec81e9a481fac70b",
+      "bytes": 3673487
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a9e579353e08021cbdc68de36bd27dee0df4054c57789cc885803fa37266dd32",
+      "sha256": "a9e579353e08021cbdc68de36bd27dee0df4054c57789cc885803fa37266dd32",
+      "bytes": 4026662
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b9def032435e9c4eab8ffc39317fde0ef199ea223b7db64d9f561b519dfe7567",
+      "sha256": "b9def032435e9c4eab8ffc39317fde0ef199ea223b7db64d9f561b519dfe7567",
+      "bytes": 3770871
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/706b3a55a2de2681b89c1cf21f205b90fa342b98152db108c79330db0d830637",
+      "sha256": "706b3a55a2de2681b89c1cf21f205b90fa342b98152db108c79330db0d830637",
+      "bytes": 4451727
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1be3a33c9f28baaa3c2730a4ca6d24cdfe5f4d536cf6d137e4508a0e245a8554",
+      "sha256": "1be3a33c9f28baaa3c2730a4ca6d24cdfe5f4d536cf6d137e4508a0e245a8554",
+      "bytes": 4378584
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-010.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8fab9449dd7b5d3785fc85226589013413e435b14c9fe7d7cde28b70e327be36",
+      "sha256": "8fab9449dd7b5d3785fc85226589013413e435b14c9fe7d7cde28b70e327be36",
+      "bytes": 4279946
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/05-om-mekaar-te-leer-ken/chunk-011.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/2b90cbefdcbdca2b2acf1053523a6acc032172b2ccdff97fd65f4ab990602dcf",
+      "sha256": "2b90cbefdcbdca2b2acf1053523a6acc032172b2ccdff97fd65f4ab990602dcf",
+      "bytes": 3684772
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/06-n-getal-wat-nie-wil-klop-nie/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/39a9d6a3c162bec2a1203d1f964bca126e0b05bd56b95dde95c4c7ef1ca542ba",
+      "sha256": "39a9d6a3c162bec2a1203d1f964bca126e0b05bd56b95dde95c4c7ef1ca542ba",
+      "bytes": 3939727
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/06-n-getal-wat-nie-wil-klop-nie/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c241ffd0eb2c9e1933d5f64531f82c30db008b83253c5b909f701c9de140b1b6",
+      "sha256": "c241ffd0eb2c9e1933d5f64531f82c30db008b83253c5b909f701c9de140b1b6",
+      "bytes": 4250688
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/06-n-getal-wat-nie-wil-klop-nie/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bd366f4e0abc973ae38cc62d926a8abf789b1f5f48a1a9c041e17a45ed97155d",
+      "sha256": "bd366f4e0abc973ae38cc62d926a8abf789b1f5f48a1a9c041e17a45ed97155d",
+      "bytes": 4134078
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/06-n-getal-wat-nie-wil-klop-nie/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/732231fa2c0e994a152fadfd75cdb52165790a45ceb433ec9cf9912942f8f3cf",
+      "sha256": "732231fa2c0e994a152fadfd75cdb52165790a45ceb433ec9cf9912942f8f3cf",
+      "bytes": 605248
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d6b623f00478e862876eea852e9ff1e1be4315be7a5daf12e707b24b474fc911",
+      "sha256": "d6b623f00478e862876eea852e9ff1e1be4315be7a5daf12e707b24b474fc911",
+      "bytes": 4636047
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/58cf18e2ee3dce30603684a52dd5c08679b2408b5c2907cb12a987091a471c10",
+      "sha256": "58cf18e2ee3dce30603684a52dd5c08679b2408b5c2907cb12a987091a471c10",
+      "bytes": 4282871
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6ea79053e21505f6e875ab87c9176bb8ca17f0bdf9fd5bb6326af61614167897",
+      "sha256": "6ea79053e21505f6e875ab87c9176bb8ca17f0bdf9fd5bb6326af61614167897",
+      "bytes": 3766692
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1e225e34b60ce4efec74479feb91b26bd9179eea772f5014e9f5782d00efc3ff",
+      "sha256": "1e225e34b60ce4efec74479feb91b26bd9179eea772f5014e9f5782d00efc3ff",
+      "bytes": 4295410
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e4944fc9875175ef5368add40fb3da17c45805945cce5493a9dc5c5494decaaa",
+      "sha256": "e4944fc9875175ef5368add40fb3da17c45805945cce5493a9dc5c5494decaaa",
+      "bytes": 3788426
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/050a9c3d481e5588f98898f28ad65a344fec995791a4e74ea3a5eef6d05b5e7b",
+      "sha256": "050a9c3d481e5588f98898f28ad65a344fec995791a4e74ea3a5eef6d05b5e7b",
+      "bytes": 4218506
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/09aa8d21186c320d45569565989d50a1f0a8c234bb7011dc2c8f26cd34e42feb",
+      "sha256": "09aa8d21186c320d45569565989d50a1f0a8c234bb7011dc2c8f26cd34e42feb",
+      "bytes": 4336370
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/2c87a7d556d01ce433d24b157c744cd2afc8eb34d3da8a7032829be0b0c1cd6d",
+      "sha256": "2c87a7d556d01ce433d24b157c744cd2afc8eb34d3da8a7032829be0b0c1cd6d",
+      "bytes": 4266153
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/178905ced71071a911aeb5976b6710c67d99bc380d2897ea85e2bf5b63b2b7a1",
+      "sha256": "178905ced71071a911aeb5976b6710c67d99bc380d2897ea85e2bf5b63b2b7a1",
+      "bytes": 4178799
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/07-die-behoudsloop/chunk-010.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/4787ba32d0cc8058dab6b1b7b189104faab30234ed93af3dad4102d2a3d4fe04",
+      "sha256": "4787ba32d0cc8058dab6b1b7b189104faab30234ed93af3dad4102d2a3d4fe04",
+      "bytes": 344024
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/08-wysheid-en-gevolg/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/235a99dba9e275144e0c7223a43ceaa5d427078cca32edc6412d9a13f0341ebf",
+      "sha256": "235a99dba9e275144e0c7223a43ceaa5d427078cca32edc6412d9a13f0341ebf",
+      "bytes": 3816847
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/08-wysheid-en-gevolg/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/326a9e28c47aadcc16c48dae8836fa032c467abed418e71f5d09c9e4af5f1936",
+      "sha256": "326a9e28c47aadcc16c48dae8836fa032c467abed418e71f5d09c9e4af5f1936",
+      "bytes": 3600344
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/08-wysheid-en-gevolg/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/01a901edbf280049d59b89b9ab16308d8bd45bc08d21aa54ec8b88e663318873",
+      "sha256": "01a901edbf280049d59b89b9ab16308d8bd45bc08d21aa54ec8b88e663318873",
+      "bytes": 3953519
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/08-wysheid-en-gevolg/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0e7cee76e99975f65a83078e806534050df081e9d53f62b717355ba2e41e80e4",
+      "sha256": "0e7cee76e99975f65a83078e806534050df081e9d53f62b717355ba2e41e80e4",
+      "bytes": 4200951
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/08-wysheid-en-gevolg/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1c5e1cf1a3088ca898aa6fc6cc92660cf721db9ef299dbab064fd818bd393754",
+      "sha256": "1c5e1cf1a3088ca898aa6fc6cc92660cf721db9ef299dbab064fd818bd393754",
+      "bytes": 1281088
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/4413124db6aab6ba595c9c9ac9e5e6201d7eaf19a7bf9e9ee2c83dd20c758ff1",
+      "sha256": "4413124db6aab6ba595c9c9ac9e5e6201d7eaf19a7bf9e9ee2c83dd20c758ff1",
+      "bytes": 4269915
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0e20db43855dfd70f6f028310a46089ac6c3a6779f3eeba4f82ceed1f01e70dd",
+      "sha256": "0e20db43855dfd70f6f028310a46089ac6c3a6779f3eeba4f82ceed1f01e70dd",
+      "bytes": 4320906
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5cb1e52b06da5920f5327a0519a983889131050cf48fff3c3e8fea95ef18af01",
+      "sha256": "5cb1e52b06da5920f5327a0519a983889131050cf48fff3c3e8fea95ef18af01",
+      "bytes": 3989464
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/728296e78364fc91c40da99019dfeb3e9eeda0d5fc4be0d5c673de00746819b1",
+      "sha256": "728296e78364fc91c40da99019dfeb3e9eeda0d5fc4be0d5c673de00746819b1",
+      "bytes": 3721970
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/dd39aaa17322aa1403deed7bf7f1d21e156a3b8a608275ef49bde3193f2be6ec",
+      "sha256": "dd39aaa17322aa1403deed7bf7f1d21e156a3b8a608275ef49bde3193f2be6ec",
+      "bytes": 3934711
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/77eac89e8238e62f2110da6bba2b1673eed3855e7467472a2db00880646fd675",
+      "sha256": "77eac89e8238e62f2110da6bba2b1673eed3855e7467472a2db00880646fd675",
+      "bytes": 4214744
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cb4030def117cb10e94006b0cd9c6aa51b7203e31b03e55bfb07e28bb9808157",
+      "sha256": "cb4030def117cb10e94006b0cd9c6aa51b7203e31b03e55bfb07e28bb9808157",
+      "bytes": 3983195
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ceaaba31e0b024a5233607b7d4d413dfffe446d23c8e4e91e6565e83002ed2cc",
+      "sha256": "ceaaba31e0b024a5233607b7d4d413dfffe446d23c8e4e91e6565e83002ed2cc",
+      "bytes": 3885810
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/09-afwykende-seine/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/28628b62dd29a855aa3acbe2ddb8f0394f56ae2893052d4d03728e2731f06d32",
+      "sha256": "28628b62dd29a855aa3acbe2ddb8f0394f56ae2893052d4d03728e2731f06d32",
+      "bytes": 317275
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/68011bb28b6fd0ef39d991115346086867d931b6fd3757d3e5988e292c36fe6f",
+      "sha256": "68011bb28b6fd0ef39d991115346086867d931b6fd3757d3e5988e292c36fe6f",
+      "bytes": 3686026
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b3b582a4fda9ec35688d5168d8f55c09b311524db85de19ca6b5a77baa5ed681",
+      "sha256": "b3b582a4fda9ec35688d5168d8f55c09b311524db85de19ca6b5a77baa5ed681",
+      "bytes": 3842342
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f9cc249f5ba8ebce25a42444cb0adaea0e6f559ca8c9cdf0a527c70ba945c223",
+      "sha256": "f9cc249f5ba8ebce25a42444cb0adaea0e6f559ca8c9cdf0a527c70ba945c223",
+      "bytes": 4161245
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/793e17113d96b117771af8102d3f3e709fb66c3ef420a01177dfd9762eb12e2b",
+      "sha256": "793e17113d96b117771af8102d3f3e709fb66c3ef420a01177dfd9762eb12e2b",
+      "bytes": 4040873
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6d1a439849f969c6fc66ef2f69c85a1b69691f3bb5450daebc7a03261a959b89",
+      "sha256": "6d1a439849f969c6fc66ef2f69c85a1b69691f3bb5450daebc7a03261a959b89",
+      "bytes": 2878528
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b4b4b09ff89a1cd8f16ce18a2bba2a9fa6716e40907ffb6a26b7d348df37ec91",
+      "sha256": "b4b4b09ff89a1cd8f16ce18a2bba2a9fa6716e40907ffb6a26b7d348df37ec91",
+      "bytes": 3979433
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/450b416cbd9f8c7db30a684bbf1eced7369a8935133cc1deef717c7030758ba5",
+      "sha256": "450b416cbd9f8c7db30a684bbf1eced7369a8935133cc1deef717c7030758ba5",
+      "bytes": 4279946
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b00adfac2bc5eeaf08aa945ec8d5d8a3c85bfe2761857f0ab3f2a9321f6f5727",
+      "sha256": "b00adfac2bc5eeaf08aa945ec8d5d8a3c85bfe2761857f0ab3f2a9321f6f5727",
+      "bytes": 3834819
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/10-druk-bou-op/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b11465b2657081020e55a9c8e3921876e2232ae786def62145b19195d0429d8b",
+      "sha256": "b11465b2657081020e55a9c8e3921876e2232ae786def62145b19195d0429d8b",
+      "bytes": 2874767
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/829601644a9b52cf95a16fa5b93c8f458b072dd26efac31c7e7e543e44c31b0b",
+      "sha256": "829601644a9b52cf95a16fa5b93c8f458b072dd26efac31c7e7e543e44c31b0b",
+      "bytes": 3844850
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8aa97922c6b719a074d8b0d741a76528268b0f1467a653df6f927ceace1635c0",
+      "sha256": "8aa97922c6b719a074d8b0d741a76528268b0f1467a653df6f927ceace1635c0",
+      "bytes": 3921755
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c88a7306adf69c052ef63beb9f3d6b7d304caf0707e74d45aec6eb79cfd63cfb",
+      "sha256": "c88a7306adf69c052ef63beb9f3d6b7d304caf0707e74d45aec6eb79cfd63cfb",
+      "bytes": 4140765
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/648d743180a3fd9ea98116bb72d11b2eec78641ba47edcdc1625e335ad90392b",
+      "sha256": "648d743180a3fd9ea98116bb72d11b2eec78641ba47edcdc1625e335ad90392b",
+      "bytes": 3956445
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bed28796b434dfb6928b9377c3e98e289c29865b8e6d7015fa7b482e1acd5255",
+      "sha256": "bed28796b434dfb6928b9377c3e98e289c29865b8e6d7015fa7b482e1acd5255",
+      "bytes": 4020393
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6fa92f5625398d09c643c5af5811acb00d74adb9f050acdaf201972743776b60",
+      "sha256": "6fa92f5625398d09c643c5af5811acb00d74adb9f050acdaf201972743776b60",
+      "bytes": 3920501
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/346c0a6fc5d607dcb768e34b791b95b965a4d680f3a91ebc72c0fb75b86defbf",
+      "sha256": "346c0a6fc5d607dcb768e34b791b95b965a4d680f3a91ebc72c0fb75b86defbf",
+      "bytes": 3645066
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/11-iron-ridge-verskuiwing/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b680efa1c24d892810a830ba5ed82907e8fe65f2f3a6848d668cc29f7774d078",
+      "sha256": "b680efa1c24d892810a830ba5ed82907e8fe65f2f3a6848d668cc29f7774d078",
+      "bytes": 3326581
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/fd2c8f7e00982dd7d8301931d647a822a7fc33487423a754e0beebdadd5ae72b",
+      "sha256": "fd2c8f7e00982dd7d8301931d647a822a7fc33487423a754e0beebdadd5ae72b",
+      "bytes": 3973999
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1f36fd7bbeb91f2383b1747d9c40e891d2691fe1f55f24fa9aa2ab4b7f03c46c",
+      "sha256": "1f36fd7bbeb91f2383b1747d9c40e891d2691fe1f55f24fa9aa2ab4b7f03c46c",
+      "bytes": 4190502
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3c1f144ead8da7636deec9d7a6ca5fa44952ad4ecb2483781d0764d86df505ee",
+      "sha256": "3c1f144ead8da7636deec9d7a6ca5fa44952ad4ecb2483781d0764d86df505ee",
+      "bytes": 3962715
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/89e9291d6dd05664048f15561f0f705759af7e285480f7a6010d107d658e6876",
+      "sha256": "89e9291d6dd05664048f15561f0f705759af7e285480f7a6010d107d658e6876",
+      "bytes": 3728239
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/14db8897cbbf98a0d06baccd1649b1d4f405256ed3a3d09d56e4c3efd0beff00",
+      "sha256": "14db8897cbbf98a0d06baccd1649b1d4f405256ed3a3d09d56e4c3efd0beff00",
+      "bytes": 4222685
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cfff2c12d5e22abbe2a61e3c1b53ab21d5cd724740ce57d6675463f54730d784",
+      "sha256": "cfff2c12d5e22abbe2a61e3c1b53ab21d5cd724740ce57d6675463f54730d784",
+      "bytes": 4350581
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1a0e032d7d7bc13cbfb052c0235078aa43de110edc7e8d8ead92efb8cc4e6eb8",
+      "sha256": "1a0e032d7d7bc13cbfb052c0235078aa43de110edc7e8d8ead92efb8cc4e6eb8",
+      "bytes": 3923008
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/af78c853b1e81815f90a4b8a1f7237ece61cfdb14f78a65def1c22d5be7b45d3",
+      "sha256": "af78c853b1e81815f90a4b8a1f7237ece61cfdb14f78a65def1c22d5be7b45d3",
+      "bytes": 4154558
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/12-die-pad-wat-niemand-kan-loop/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8bb85c492f04f83d84a1b21564ff5c7bfaef9b69bd1e5c8276aa023b1128e3e8",
+      "sha256": "8bb85c492f04f83d84a1b21564ff5c7bfaef9b69bd1e5c8276aa023b1128e3e8",
+      "bytes": 2284608
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/45e75000b447e854ed6b4e6cdee8e1f7cef87fb6ff8879a962eda4c6aea128a4",
+      "sha256": "45e75000b447e854ed6b4e6cdee8e1f7cef87fb6ff8879a962eda4c6aea128a4",
+      "bytes": 3635035
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/39ba2fcf2911f55c411ea76d13d11c2b8e57357e93af2165fdaebd6159f58666",
+      "sha256": "39ba2fcf2911f55c411ea76d13d11c2b8e57357e93af2165fdaebd6159f58666",
+      "bytes": 3632527
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9df408d52bf1aa75cf5e4ed6fe4dc6d7676d1fbe2dd0a5a4248bdd7625b7e8a6",
+      "sha256": "9df408d52bf1aa75cf5e4ed6fe4dc6d7676d1fbe2dd0a5a4248bdd7625b7e8a6",
+      "bytes": 3870346
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/69d2ca66d4d30e750512d53078d60330d193f6b84c0e833fe9f906eb5d2fd73e",
+      "sha256": "69d2ca66d4d30e750512d53078d60330d193f6b84c0e833fe9f906eb5d2fd73e",
+      "bytes": 4178799
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/4e969bc3b1a465b2573ec5dc66344019dd8224750ab92e903f647f3e36f2cfb3",
+      "sha256": "4e969bc3b1a465b2573ec5dc66344019dd8224750ab92e903f647f3e36f2cfb3",
+      "bytes": 3111332
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f045224fe7ec4f1cafd622d9733fb074baf20e147e58cb022796e30f9995fb3d",
+      "sha256": "f045224fe7ec4f1cafd622d9733fb074baf20e147e58cb022796e30f9995fb3d",
+      "bytes": 3862822
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6f1f2d0746e22274fbfe7be46c402b10c2704a2985d56fba7c0ab644f9e6b88f",
+      "sha256": "6f1f2d0746e22274fbfe7be46c402b10c2704a2985d56fba7c0ab644f9e6b88f",
+      "bytes": 3357092
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d7ac0105fde9c85a87e3cbd4144c1c8cdb5e1cac3b2a89f39a2a8930c0c61b6c",
+      "sha256": "d7ac0105fde9c85a87e3cbd4144c1c8cdb5e1cac3b2a89f39a2a8930c0c61b6c",
+      "bytes": 3782156
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/da00b69d5dfb1825589fad9f6700ca50cc6d7fd4ce1ad4f40863d7bf1a0d1180",
+      "sha256": "da00b69d5dfb1825589fad9f6700ca50cc6d7fd4ce1ad4f40863d7bf1a0d1180",
+      "bytes": 3649245
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-010.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a81532fc99cdfab34c97e8afc1f6e1d7409d8e39ff4d97ce32b54dabbddf8744",
+      "sha256": "a81532fc99cdfab34c97e8afc1f6e1d7409d8e39ff4d97ce32b54dabbddf8744",
+      "bytes": 4606372
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-011.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c00c5277362e40e25c3c93fb0a3e3a8488b4bb15b444db63fd132b5bac16a042",
+      "sha256": "c00c5277362e40e25c3c93fb0a3e3a8488b4bb15b444db63fd132b5bac16a042",
+      "bytes": 3869092
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-012.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/fe775684b4056c75df415dab1712bed1bad2d87d97fd1b2a457f92e0ad46eecd",
+      "sha256": "fe775684b4056c75df415dab1712bed1bad2d87d97fd1b2a457f92e0ad46eecd",
+      "bytes": 4152050
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-013.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ef9c2d5d466fef96b741c29b56d5b489601fe252b23966733533730bb39266bb",
+      "sha256": "ef9c2d5d466fef96b741c29b56d5b489601fe252b23966733533730bb39266bb",
+      "bytes": 3715701
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-014.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0da5158541b26904f74d151ce5d31bb991a4ba5f7da5d9034aaf08431ca788b3",
+      "sha256": "0da5158541b26904f74d151ce5d31bb991a4ba5f7da5d9034aaf08431ca788b3",
+      "bytes": 3756661
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/13-afdaling/chunk-015.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/3788e88d256fe9db1eca4102a09c2ea7875b022c46c4967784d7fbc5b321ba62",
+      "sha256": "3788e88d256fe9db1eca4102a09c2ea7875b022c46c4967784d7fbc5b321ba62",
+      "bytes": 1186212
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a12b7e8fa7a5f165e6125c8ed12088d2fcd9e65b4765c3081d023493ce8d9cd2",
+      "sha256": "a12b7e8fa7a5f165e6125c8ed12088d2fcd9e65b4765c3081d023493ce8d9cd2",
+      "bytes": 4204713
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c93046fdcf58d9bf21bdb7bd7ff74ef8e02790d785b8afe15450ad75fb0c565f",
+      "sha256": "c93046fdcf58d9bf21bdb7bd7ff74ef8e02790d785b8afe15450ad75fb0c565f",
+      "bytes": 4177546
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/894bbcf810b7a37768f6b9870d13ab35d0abbfb63e94bc60eb1706541a580d17",
+      "sha256": "894bbcf810b7a37768f6b9870d13ab35d0abbfb63e94bc60eb1706541a580d17",
+      "bytes": 4233970
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/081e5bd926d1c314574f2966de2074efaead37ded7af7e948e5e3d2a03411620",
+      "sha256": "081e5bd926d1c314574f2966de2074efaead37ded7af7e948e5e3d2a03411620",
+      "bytes": 3920501
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/7c33293225a9fb174384242a910f9d0d661f3c3106af7beea20bbf150d5def00",
+      "sha256": "7c33293225a9fb174384242a910f9d0d661f3c3106af7beea20bbf150d5def00",
+      "bytes": 4073892
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c9db63471fe0d098f7cd9af77d93351246b6b34477854de0aff50d4162cf42fa",
+      "sha256": "c9db63471fe0d098f7cd9af77d93351246b6b34477854de0aff50d4162cf42fa",
+      "bytes": 3556876
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/608a053becf463bdf91eaef19d7423e5e451c0893dd1830b2192b7df82457a30",
+      "sha256": "608a053becf463bdf91eaef19d7423e5e451c0893dd1830b2192b7df82457a30",
+      "bytes": 4385271
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/14-kontak/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/b8ea5b3df6fdfba0c40d66bf1a0a04b55fd98568e4724f8fc50fb926fb9f151c",
+      "sha256": "b8ea5b3df6fdfba0c40d66bf1a0a04b55fd98568e4724f8fc50fb926fb9f151c",
+      "bytes": 3294398
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e894b86ecd90bf3955fd9276d529fab60d2fd62972b3a4bc9e4f8f1628d6c80b",
+      "sha256": "e894b86ecd90bf3955fd9276d529fab60d2fd62972b3a4bc9e4f8f1628d6c80b",
+      "bytes": 3952266
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/010883d55b7f801fd758802d774eb0bf2ad29ed15fcd8eb46d6325f46aa2b276",
+      "sha256": "010883d55b7f801fd758802d774eb0bf2ad29ed15fcd8eb46d6325f46aa2b276",
+      "bytes": 4381092
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d5adb104bbe7c5fd43b010dba2f3932b5e28fb30be0230b3450ec8d6a8c8b273",
+      "sha256": "d5adb104bbe7c5fd43b010dba2f3932b5e28fb30be0230b3450ec8d6a8c8b273",
+      "bytes": 4091864
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/9734a3ae141d9b2dccbb6273ff61618c63e0a73d62bda900fed2047317a8e232",
+      "sha256": "9734a3ae141d9b2dccbb6273ff61618c63e0a73d62bda900fed2047317a8e232",
+      "bytes": 4205967
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-005.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0f65e1457f6cdc50c16e7e4155ebf656538036caefc6643b5c8d68489f93b5be",
+      "sha256": "0f65e1457f6cdc50c16e7e4155ebf656538036caefc6643b5c8d68489f93b5be",
+      "bytes": 3998659
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-006.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6ea40ad3362af1d1d351a5291d98ff5e870411f1448e52e2ba81c4018b5e3729",
+      "sha256": "6ea40ad3362af1d1d351a5291d98ff5e870411f1448e52e2ba81c4018b5e3729",
+      "bytes": 4030424
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-007.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/cccedd9c6390947ec88c376558276b75e7a5f25f1fcfb9995f6d14fce73b3680",
+      "sha256": "cccedd9c6390947ec88c376558276b75e7a5f25f1fcfb9995f6d14fce73b3680",
+      "bytes": 4485999
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-008.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/dc73df0cb4fa3946e9d36765a91b380ba9e3d6a9a275daa08db89cfd1f71390e",
+      "sha256": "dc73df0cb4fa3946e9d36765a91b380ba9e3d6a9a275daa08db89cfd1f71390e",
+      "bytes": 4083087
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/15-ineenstorting/chunk-009.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/901f1714123b38f719804ade4c7888b99d79b49e5ba2886f579d9bba83c0f2c1",
+      "sha256": "901f1714123b38f719804ade4c7888b99d79b49e5ba2886f579d9bba83c0f2c1",
+      "bytes": 2443433
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/16-die-laaste-keuse/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/441178b852935e5531e4373ae62da10a7bc8aca59fbfad9f8bed89b21757fdb5",
+      "sha256": "441178b852935e5531e4373ae62da10a7bc8aca59fbfad9f8bed89b21757fdb5",
+      "bytes": 4157066
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/16-die-laaste-keuse/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/10a70c08b00d24a0e768db3583944f179cd4df1920cd3badefe54c6df435819a",
+      "sha256": "10a70c08b00d24a0e768db3583944f179cd4df1920cd3badefe54c6df435819a",
+      "bytes": 3897513
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/17-swartkas/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/760af50623af710c5a93fac1588a17fd11bef1f1d796dfc39cc8be8770459115",
+      "sha256": "760af50623af710c5a93fac1588a17fd11bef1f1d796dfc39cc8be8770459115",
+      "bytes": 3526365
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/17-swartkas/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e2dd3498b63fc76d077c08e5f406d8b18fa93b3fdd15b043442f380dfa358311",
+      "sha256": "e2dd3498b63fc76d077c08e5f406d8b18fa93b3fdd15b043442f380dfa358311",
+      "bytes": 4203459
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/17-swartkas/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f6260c10047129705a88fcfe4d27d3fc7482baef0e333b6c0805084bec6059e6",
+      "sha256": "f6260c10047129705a88fcfe4d27d3fc7482baef0e333b6c0805084bec6059e6",
+      "bytes": 4086848
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/17-swartkas/chunk-004.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5d4d409258d24007c8c61f3a5ca96cdfeb1708bb577f534afefbad151f6e2d33",
+      "sha256": "5d4d409258d24007c8c61f3a5ca96cdfeb1708bb577f534afefbad151f6e2d33",
+      "bytes": 2554610
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/18-n-woord-oor-die-werklike-afdaling/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ab590c89b96a53aa3e9fd222bf62d37f3383c72ccf846386bc197a74b6086228",
+      "sha256": "ab590c89b96a53aa3e9fd222bf62d37f3383c72ccf846386bc197a74b6086228",
+      "bytes": 4305859
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/19-bylae-die-hof-as-n-model-van-die-psige/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f4c98a9140ef2a20074ad0afe373553847f362f5eb576d578b0028e62930f259",
+      "sha256": "f4c98a9140ef2a20074ad0afe373553847f362f5eb576d578b0028e62930f259",
+      "bytes": 4040873
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/19-bylae-die-hof-as-n-model-van-die-psige/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/67961bb0b4a2655bac0c60a94aa9169167faa2a48be6084de5f8d130487685d3",
+      "sha256": "67961bb0b4a2655bac0c60a94aa9169167faa2a48be6084de5f8d130487685d3",
+      "bytes": 3911306
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/20-erkennings/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8ea0b9bc81d67d5e4231df708ff75923909b1405079ebc4debf7c9328d0ecb17",
+      "sha256": "8ea0b9bc81d67d5e4231df708ff75923909b1405079ebc4debf7c9328d0ecb17",
+      "bytes": 1668955
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/21-n-leser-se-woordelys-resonance/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/41d404c088dc500fb4bdafd4656d7904d8a8a637234117d6e050bd927c787a05",
+      "sha256": "41d404c088dc500fb4bdafd4656d7904d8a8a637234117d6e050bd927c787a05",
+      "bytes": 4424559
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/21-n-leser-se-woordelys-resonance/chunk-002.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e2569960fb45a7c279d9df74a88f3803d4d641c1bd20e55723978a81194b71db",
+      "sha256": "e2569960fb45a7c279d9df74a88f3803d4d641c1bd20e55723978a81194b71db",
+      "bytes": 4720475
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/21-n-leser-se-woordelys-resonance/chunk-003.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f081f81d7db9779bfddb03c5bfb8d307395db0f012935c9fb14d6d2ac153b514",
+      "sha256": "f081f81d7db9779bfddb03c5bfb8d307395db0f012935c9fb14d6d2ac153b514",
+      "bytes": 1462901
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/22-die-ratel/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a5f07559a00c340658fcab88284b73d4b6e55abfc0e47291b95c6f46c26e1eef",
+      "sha256": "a5f07559a00c340658fcab88284b73d4b6e55abfc0e47291b95c6f46c26e1eef",
+      "bytes": 2022130
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/chunks/23-die-reuse-ietermagog/chunk-001.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5bb8a768a8c7e0c2e1f389df8ef4f4b62fd0cae7ae2bef7afca17f55aa271b45",
+      "sha256": "5bb8a768a8c7e0c2e1f389df8ef4f4b62fd0cae7ae2bef7afca17f55aa271b45",
+      "bytes": 1974901
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/00-resonance.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/bafcf6d48e1d4c9bf3bcef774512221fc80fa9bfd344ed4807393d8d87904c64",
+      "sha256": "bafcf6d48e1d4c9bf3bcef774512221fc80fa9bfd344ed4807393d8d87904c64",
+      "bytes": 1814821
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/01-die-land-onthou.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f49e7ac103edc12dc85dd97335f898162f701ca87d9b7051b97008efad963998",
+      "sha256": "f49e7ac103edc12dc85dd97335f898162f701ca87d9b7051b97008efad963998",
+      "bytes": 6442465
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/02-die-draadstootkar.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/50c7a94fa1e44ec9ff3d5b8c25f8acd320b9d33766630e96f85ff2887ff0cbde",
+      "sha256": "50c7a94fa1e44ec9ff3d5b8c25f8acd320b9d33766630e96f85ff2887ff0cbde",
+      "bytes": 18838299
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/03-die-ding-wat-nie-behoort-te-bestaan-nie.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/690e18f999989e758afc0fb73c41ab92b90c847f2e814b9304c11a0a63ef1023",
+      "sha256": "690e18f999989e758afc0fb73c41ab92b90c847f2e814b9304c11a0a63ef1023",
+      "bytes": 32725411
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/04-stabiele-chaos.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ce573bf53b2e4c64185ab90fc5186638a415701115ba4cc2490d63373d13baaa",
+      "sha256": "ce573bf53b2e4c64185ab90fc5186638a415701115ba4cc2490d63373d13baaa",
+      "bytes": 27435719
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/05-om-mekaar-te-leer-ken.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/4c5bb0169db1a13b34bef0f2f83f2912c94515a9029c681708bc58d1cea9e8a5",
+      "sha256": "4c5bb0169db1a13b34bef0f2f83f2912c94515a9029c681708bc58d1cea9e8a5",
+      "bytes": 43954720
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/06-n-getal-wat-nie-wil-klop-nie.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/c6161dc609ce95e7cf276a92eb091cf9d6a988518ef07a90aba6bd019b715370",
+      "sha256": "c6161dc609ce95e7cf276a92eb091cf9d6a988518ef07a90aba6bd019b715370",
+      "bytes": 12943403
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/07-die-behoudsloop.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/a3ef054b7ff5b6df065d4dcaadb5bed74e25e03971ce603aa3a9869eb558bc09",
+      "sha256": "a3ef054b7ff5b6df065d4dcaadb5bed74e25e03971ce603aa3a9869eb558bc09",
+      "bytes": 38154701
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/08-wysheid-en-gevolg.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/5ed6b94ee8e347b8f97a0e7c7d10220979d0e5f07e6c265409fe408792861580",
+      "sha256": "5ed6b94ee8e347b8f97a0e7c7d10220979d0e5f07e6c265409fe408792861580",
+      "bytes": 16870965
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/09-afwykende-seine.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/0e72ff63bfffa3c667270e61b0dbbfd647eb03659a55547b37d19bb488f2ccb4",
+      "sha256": "0e72ff63bfffa3c667270e61b0dbbfd647eb03659a55547b37d19bb488f2ccb4",
+      "bytes": 32674420
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/10-druk-bou-op.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/8eeb604674487161c247d63541e2440de7789c7fccfb6fe07f02cb3083b9c536",
+      "sha256": "8eeb604674487161c247d63541e2440de7789c7fccfb6fe07f02cb3083b9c536",
+      "bytes": 33613992
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/11-iron-ridge-verskuiwing.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e672df4c41e7d6fee2ca0c139d3bf597390fb15ae9f911e535d3eaf028a91183",
+      "sha256": "e672df4c41e7d6fee2ca0c139d3bf597390fb15ae9f911e535d3eaf028a91183",
+      "bytes": 30807814
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/12-die-pad-wat-niemand-kan-loop.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/909258914e2f3dfc0a1796d76923dce6bbf4fde099939243da08c7346d3dd917",
+      "sha256": "909258914e2f3dfc0a1796d76923dce6bbf4fde099939243da08c7346d3dd917",
+      "bytes": 34827327
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/13-afdaling.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/e9ede396cb32de3c0b40e9b34009a6c67177baf5ca73f0377f26e34ef8105bd6",
+      "sha256": "e9ede396cb32de3c0b40e9b34009a6c67177baf5ca73f0377f26e34ef8105bd6",
+      "bytes": 54429613
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/14-kontak.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f3b38dd7914181d50327dc6b2b13fce1af7f77707f5f5c660e84ed2804101306",
+      "sha256": "f3b38dd7914181d50327dc6b2b13fce1af7f77707f5f5c660e84ed2804101306",
+      "bytes": 31879043
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/15-ineenstorting.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/17ebd49b78c8111a89ab1910bd966948a780919e1bebb4b1c57463b774394acc",
+      "sha256": "17ebd49b78c8111a89ab1910bd966948a780919e1bebb4b1c57463b774394acc",
+      "bytes": 35709221
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/16-die-laaste-keuse.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/82f54250dda8821b1632710e4bfe64db04a2f7c5f36e00e188daf3a713f965f9",
+      "sha256": "82f54250dda8821b1632710e4bfe64db04a2f7c5f36e00e188daf3a713f965f9",
+      "bytes": 8059132
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/17-swartkas.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/925b88aa69661e49a07516f5bb20a996b74bff9bff3fca086a71b35f88d8feb2",
+      "sha256": "925b88aa69661e49a07516f5bb20a996b74bff9bff3fca086a71b35f88d8feb2",
+      "bytes": 14384526
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/18-n-woord-oor-die-werklike-afdaling.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ba0930dd79afbd68bf5c49f7700e9450aff335224b810679be3e5195467b17d5",
+      "sha256": "ba0930dd79afbd68bf5c49f7700e9450aff335224b810679be3e5195467b17d5",
+      "bytes": 4305858
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/19-bylae-die-hof-as-n-model-van-die-psige.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/1700b7fd49f6b7556ea8df863291a0011b572af38f1b42332fa3811f6c0936a0",
+      "sha256": "1700b7fd49f6b7556ea8df863291a0011b572af38f1b42332fa3811f6c0936a0",
+      "bytes": 7956732
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/20-erkennings.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/40aefc7c0689ecad9b05c3bc016437ee8e93068082332c1f0225c5ce6b2ab615",
+      "sha256": "40aefc7c0689ecad9b05c3bc016437ee8e93068082332c1f0225c5ce6b2ab615",
+      "bytes": 1668954
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/21-n-leser-se-woordelys-resonance.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/17f6a5eb9d47cfa83ff5531598b4fc05c2046b819f0f6f548fafb1d82cb00698",
+      "sha256": "17f6a5eb9d47cfa83ff5531598b4fc05c2046b819f0f6f548fafb1d82cb00698",
+      "bytes": 10617042
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/22-die-ratel.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/f29727723780a60c5ef99614fd2aa76a75eac9c923312052f13dd4dbaa12174b",
+      "sha256": "f29727723780a60c5ef99614fd2aa76a75eac9c923312052f13dd4dbaa12174b",
+      "bytes": 2022129
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/masters/23-die-reuse-ietermagog.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/ffa44adcbac0afefdf2733af77334f9c1cef6067678d8462086654fe9aaeb27a",
+      "sha256": "ffa44adcbac0afefdf2733af77334f9c1cef6067678d8462086654fe9aaeb27a",
+      "bytes": 1974900
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/resonansie-afrikaans-charles-onselen-master.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/d427100274bed4ce2d0a923a3d62647498716176e6158e4126c7c99d04f5647b",
+      "sha256": "d427100274bed4ce2d0a923a3d62647498716176e6158e4126c7c99d04f5647b",
+      "bytes": 504821594
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/work/silence-0.35s.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/2e60c353a8a7bf8e86f16a25b435bdb05100c8246fad9224fa6d5c1366961578",
+      "sha256": "2e60c353a8a7bf8e86f16a25b435bdb05100c8246fad9224fa6d5c1366961578",
+      "bytes": 6730
+    },
+    {
+      "path": "books/resonance/audio/charles-onselen-afrikaans-masters/work/silence-2.0s.mp3",
+      "class": "input",
+      "bucket": "arjuna-badger-prod",
+      "key": "blobs/sha256/6e3feab15ed2b7bbd6fd0b94304196005bd81e65f9b43feab664d2de76d2e879",
+      "sha256": "6e3feab15ed2b7bbd6fd0b94304196005bd81e65f9b43feab664d2de76d2e879",
+      "bytes": 33061
     },
     {
       "path": "books/resonance/audio/steven-g/00-Resonance-Contents.mp3",
