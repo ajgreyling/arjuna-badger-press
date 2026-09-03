@@ -990,6 +990,13 @@ SOUNDTRACK = {
                          "Listen — The Man They All Misread (the player)"),
 }
 
+# Human-narrated commercial audiobook editions, hosted elsewhere (e.g. Audible) — separate from
+# the free self-hosted AUDIO_FORMATS/audiobook downloads above. Shown as an external link on the
+# book page. {book_id: url}
+AUDIBLE_LINKS = {
+    "resonance": "https://www.audible.co.uk/pd/Resonance-Audiobook/B0HDNHSNFL?qid=1786971825",
+}
+
 CURATED = [
     # id, title, subtitle, series, root(relative), export_subdir, fallback_blurb
     ("book1-the-record", "The Record", "ONE RECORD · Book I", "ONE RECORD",
@@ -5476,6 +5483,12 @@ def render_book(e: dict) -> str:
         _tab = ' target="_blank" rel="noopener"' if _ext else ''
         soundtrack = (f'<div class="dls" style="margin-top:14px"><a class="dl" href="{html.escape(st_url)}"'
                       f'{_tab}>{html.escape(st_label)} →</a></div>')
+    audible_html = ""
+    if e["id"] in AUDIBLE_LINKS:
+        audible_html = (
+            '<div class="dls" style="margin-top:14px">'
+            f'<a class="dl" href="{html.escape(AUDIBLE_LINKS[e["id"]])}" target="_blank" '
+            'rel="noopener">Listen on Audible — human-narrated audiobook →</a></div>')
     if e["available"]:
         soon = ""
     elif "_comingsoon" in e["root"].parts:
@@ -5532,7 +5545,7 @@ def render_book(e: dict) -> str:
 <img class="cover" src="{cover}" alt="{html.escape(e['title'])} cover">
 <div><div class="sub">{html.escape(e['subtitle'] or e['series'])}</div>
 <h1>{html.escape(e['title'])}</h1>{(lambda t: f'<p class="tagline">{html.escape(t)}</p>' if t else '')(BOOK_TAGLINE.get(e['id']))}
-<p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{soon}{callout_html}{notice_html}{isbn_html}
+<p class="syn">{full}</p>{dls}{edition_note}{read}{render_audiobook(e)}{editions_html}{serial_note}{wiki}{soundtrack}{audible_html}{soon}{callout_html}{notice_html}{isbn_html}
 <div class="bookrespond">{star_rating(e['title'], rel="../", context="book")}
 <a class="feedback-link" href="{html.escape(feedback_href(e['title']))}">Tell the press something about this book</a>
 {f'''<a class="feedback-link" href="{html.escape(foreword_href(e['title']))}">Write the foreword to this book &rarr;</a>''' if FOREWORD_CONTEST_LIVE else ""}
