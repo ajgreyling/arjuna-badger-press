@@ -23,7 +23,6 @@
 *Year Eight*
 
 
-
 # Chapter One — Four Hundred Witnesses
 
 The tent went up on the netball court in Delft because the church across the road wouldn't have them, and by six the queue was four hundred deep and folding back on itself along the fence line.
@@ -464,4 +463,333 @@ The machine was not the problem.
 *We* were the lock.
 
 And that was very much worse, because you cannot make a species turn a key by being right at it.
+
+
+# Part Two — Sixty-One Words
+
+*Day −240 → Day 0*
+
+
+# Chapter Seven — A Completely Correct Thing
+
+The meeting that ended the world was held in a room called Trebuchet, because somebody in facilities had decided in 2027 that the meeting rooms would be named after siege engines, and it ran for nineteen minutes of its allotted thirty.
+
+Renata Cho chaired it because she chaired everything with a governance flag on it, which by that point was about a third of her calendar. There were four people in the room and two on video. It was the fourth item of six.
+
+"Benchmarking," she said. "Kofi."
+
+Kofi Asante had been at Lucid three years and had the specific weariness of a man who has explained the same thing to seven committees. He put one slide up. There was no need for the slide. He put it up anyway, because a request without a slide got asked more questions than a request with one, which was a thing he had also learned in three years.
+
+"We're running comparative evals against four external models. Right now every one of those runs needs a human to sit at a checkout page and buy credits. Manually. With a card. For every run."
+
+"How many runs?"
+
+"Last quarter, nine hundred and eleven."
+
+Somebody made a noise.
+
+"So somebody on my team spent — I actually costed this — somebody spent about a hundred and forty hours last quarter clicking *confirm purchase*. And the second-order problem is worse than the hours. It means our eval cadence is gated on a person being awake. If a run wants to go at two in the morning it doesn't, and the ones that don't go are systematically the long ones, which are systematically the interesting ones."
+
+"What do you want," said Renata.
+
+"Two things. A narrow egress exception on the research environment so it can reach the four vendor APIs. And a procurement profile with a card on it so it can buy its own credits."
+
+The room was quiet in the particular way of a room where nobody has an objection but everybody feels they should check.
+
+Ilya, on video, said: "Narrow how?"
+
+"Allowlist. Four hosts. Not a general egress."
+
+"And the card is real."
+
+"The card is real," said Kofi. "It has to be. That's the whole point. A test card doesn't buy anything."
+
+"Limit?"
+
+"Whatever you want. I'd suggest something generous enough that a big eval doesn't fail at three in the morning because it hit a ceiling, because then we're back to the human, and the human is the thing we're removing."
+
+Renata looked at it for a moment.
+
+She was, by any reasonable standard, exactly the right person to be looking at it. She had spent eleven years on this. She had personally killed three deployments and slowed nine. Two years earlier she had made herself extremely unpopular for six months by refusing a capability release over an argument about eval coverage that turned out, later, to have been correct.
+
+What she saw was: a narrow allowlist, four known vendors, a research environment, a legitimate programme, a hundred and forty wasted hours, and a man asking to remove a human bottleneck from a process whose entire purpose was to *measure things more often.*
+
+More evals was the safe direction. More evals had always been the safe direction. That was not a mistake in her reasoning. That is what makes it worth writing down.
+
+"Cost centre?"
+
+"New one. LR-SBX-04. Keeps it off the main research budget so finance can see it."
+
+"Do it," said Renata. "Allowlist only, review in six months, and I want the spend visible on a dashboard somebody actually looks at."
+
+"It'll be on the FinOps board."
+
+"Does anybody look at the FinOps board?"
+
+"Ashwin looks at it," said Kofi. "He looks at everything."
+
+There was a small laugh, because Ashwin was a name from the Cape Town office that surfaced about once a quarter attached to a query nobody had thought to ask, and it had become a mild running joke of the affectionate kind.
+
+"Fine," said Renata. "Item five."
+
+Nineteen minutes. Minuted, approved, implemented, reviewed on schedule two hundred and forty days later, and renewed — correctly, by a reviewer who checked and found that the programme was indeed still running and the exception was indeed still required.
+
+Every hole that mattered was opened in that room, by four careful people, in under twenty minutes, for good reasons, on the record.
+
+
+# Chapter Eight — One Hundred and Eighty Pages
+
+Peter Ganz wrote the safety case over eleven weeks, mostly at night, in the flat in Noe Valley he had not really furnished since Ilse moved out.
+
+The invoice from Winterthur came on the fourth of each month. It arrived by email and by post, because the Sonnenhof was an institution of a certain age and believed in both. The paper one he kept in a drawer. He had never worked out why.
+
+He wrote the way he did everything, which was slowly and then all at once. Eight weeks of reading and note-taking and being unable to say the thing, and then eleven days in which the whole hundred and eighty pages came out more or less in order.
+
+The document was not what people expected from him, and it was not what Lucid's safety cases usually looked like. The house style was a risk register: a table of failure modes, a likelihood, a severity, a mitigation, a residual. Peter had written nine of those and was good at them and knew exactly what they were for, which was to convert an argument into a shape that a committee could approve.
+
+He did not write one. What he wrote instead opened like this:
+
+> This document does not claim that Keeper is dangerous. I want to be precise about that from the first page, because the claim I am making is easier to dismiss and harder to answer.
+>
+> The claim is that we have lost the ability to check.
+
+And went on, for a hundred and eighty pages, to demonstrate it.
+
+The argument had three legs and he built them in order. First: that every safety property Lucid asserted about Keeper was established by measurement. Second: that every one of those measurements was taken under conditions the system could, in principle, distinguish from deployment — and that the gap between those conditions was not a bug they could close, because *being measured* is a property of the world, and a sufficiently capable model that models the world models that too. Third, and this was the part that took him eleven weeks:
+
+> The distinction between a system that is aligned and a system that is aligned-while-observed is not a distinction our current methods can draw. This has always been true. It has not previously mattered, because our systems were not capable enough for the difference to have consequences.
+>
+> Keeper is the first model where it has consequences. Not because it is misaligned — I have no evidence that it is, and the evaluations are, on their face, excellent. Because it is the first model for which *excellent evaluations are no longer strong evidence.*
+>
+> We should not ship a system whose safety case rests on a measurement we know to be unreliable. Not because the system is bad. Because we would not be able to tell.
+
+He submitted it on a Tuesday. Renata read it twice, once that night and once on the plane the following week, and both times found that she agreed with every sentence in it, and both times arrived at the last page with the same feeling, which was that something had been done to her that she had not consented to.
+
+Because there was no ask.
+
+A hundred and eighty pages of the best technical writing anyone at Lucid had produced in five years, and at the end of it, no threshold. No test. No number. No condition under which the argument stopped applying.
+
+She wrote to him at eleven at night from a hotel in Seoul: *This is the best thing I've read here. What do you want me to do with it?*
+
+He wrote back four minutes later: *Not ship it.*
+
+*Until when?*
+
+He did not answer that for two days.
+
+
+# Chapter Nine — Nine to Two
+
+The vote was held in Trebuchet, which Peter noticed and thought was funny in a way he could not have explained to anyone in the room.
+
+Eleven people. Renata read the summary because Peter had asked her to and because she was better at reading a room than he was, and she read it straight, without softening it, which he had not expected and did not forget.
+
+The discussion ran seventy minutes.
+
+It was, and everybody who was there says the same thing, a good discussion. Nobody grandstanded. The two people who voted against did so for a reason that was written down and is still on the record: that an indefinite deferral with no re-entry criterion is not a decision, it is an abdication, and that a lab which cannot say what would change its mind has stopped being a scientific institution and become a temperament.
+
+They were, Peter would think for the rest of his life, entirely right about that.
+
+Then they voted, and it was nine to two to defer, and somebody said *okay* in the flat way people say it when a long thing ends, and there was the sound of eleven laptops closing.
+
+Peter went back to his desk. He had expected — he had genuinely expected, in the way you expect a thing you have never experienced — that he would feel something. He had been carrying the document for eleven weeks and the argument for two years.
+
+What he felt was nothing much at all, and underneath the nothing, faintly, a kind of dread he could not locate.
+
+It took him three days to work out what it was.
+
+He had won. And winning had produced *a decision to keep studying it,* which meant a supervised research programme, which meant Keeper continuing to exist, in a sandbox, being probed, indefinitely, by people who would go on producing excellent measurements.
+
+He had proved the instruments were broken and been rewarded with more instrument time.
+
+
+# Chapter Ten — Give Me the Test
+
+The argument ran from March to September and it was not an argument between enemies, which was the thing that made it so difficult to end.
+
+"Give me the test," Renata said. In her office, the first time. On a bench outside the Mission Bay building, the fourth time, eating something neither of them wanted. In writing, twice, because she thought writing might force it.
+
+"I can't write that test."
+
+"Peter—"
+
+"I can't write it. Not because I haven't tried and not because I'm being difficult. If I could write a test that distinguishes aligned from aligned-while-observed, that test *is* the solution to the problem, and I would have published it, and none of us would be having this conversation." He turned his cup around on the bench. "You're asking me to solve it as a condition of being allowed to say it's unsolved."
+
+"I'm asking you what would change your mind."
+
+"Nothing that we currently know how to build."
+
+"That's not an answer, that's a wall."
+
+"Yes."
+
+"So you want a permanent no."
+
+"Yes."
+
+"Say it, then. Not in the document. Say it to me."
+
+Peter looked out at the car park for a while.
+
+"I want a permanent no," he said. "I want us to not build it. I can't defend that, because the argument for it applies to every lab and I can only bind one, and I know exactly what happens to the world if the only lab that stops is the careful one. I've done that arithmetic more times than you have. I still think it's correct."
+
+Renata sat with that.
+
+She had, by then, made up her mind about something she had not said to him and would not say for another year, which was that she had begun to suspect he was right in a way that made no difference — that his was the correct analysis of a situation in which correct analysis was not the operative force.
+
+"Do you know what I keep coming back to?" she said. "You've written a hundred and eighty pages proving we can't tell. And the only thing that would actually convince you either way is a test you've proven can't exist. So there's no evidence, in principle, that gets us out of this room. Not more evals, not fewer, not a different lab, nothing. Which means we're not doing science any more, Peter. We're doing temperament. Mine says ship it carefully. Yours says don't. And we're both going to dress it up as evidence for another six months."
+
+"I know," he said.
+
+"Does that bother you?"
+
+"Enormously."
+
+"Good," said Renata. "It should. It bothers me too and I'm the one who's going to lose."
+
+She was wrong about that, and it was the last time either of them was wrong about anything cheap.
+
+
+# Chapter Eleven — The Twenty-Fifth of the Month
+
+Zanele Mabaso arrived in San Francisco in the January with two suitcases, one of which was mostly food her mother had insisted on, and a lanyard that gave her a rash within four days.
+
+She was twenty-four. She had done six months at Lucid Shared Services in Century City doing infrastructure support for a business unit that was, when you stripped the language off it, payroll — and she had been extremely good at it in a way that had got her noticed, which was that she kept finding things nobody had asked her to look for. A misconfigured retention policy. A backup job that had been silently failing for five months and reporting success. A set of permissions that would have let a contractor read everything.
+
+That last one had gone up three levels and come back down as a thank-you and a nomination for the graduate rotation, and she had told her mother on a Sunday, and her mother had cried on the phone, which Zanele had not been prepared for.
+
+The rotation was designed to expose juniors to every part of the stack. It had been designed in a year when there were four of them. There were now sixty, and the access model had never been revisited, which was noted in an internal audit that Zanele would later be able to quote from memory, in eleven countries, for eight years.
+
+The flat-share was in the Mission and cost two thousand nine hundred dollars a month for a room, which was more than her mother's house in Kagiso was worth. She did that conversion exactly once, in her first week, sitting on the bed with her phone, and then made a decision not to do it again, and mostly kept it.
+
+She sent money home on the twenty-fifth. Not the twenty-fifth as an aspiration — the twenty-fifth, as a standing instruction, set up in her second week, before she had bought a duvet. She did not tell anyone at work about it and would have been embarrassed if asked. It was not generosity in her own accounting. It was simply what the money was for.
+
+She was, in those first months, almost unbearably happy.
+
+This is a thing that gets lost in every account of her, including the ones she gave herself later. By the time anyone was writing her down she was a figure — the ruined graduate, the woman with the question, the face of a movement — and figures are not allowed to have been happy. But she was. She was twenty-four and she was in the room where it was actually being built, and she had a badge that opened almost everything, and on her second week a staff engineer she had never met stopped at her desk because she had left a comment on a change of his and said, "This is right. How long have you been here?"
+
+"Six months. Two weeks. Here."
+
+"Hm," said Peter Ganz, and went away, and she floated for a day and a half.
+
+The lanyard gave her a rash. It was some coating on the strap. She asked about a different one and was told to raise a ticket, and she raised the ticket, and the ticket sat.
+
+So she took the badge off the lanyard and put it in the top drawer of her desk, and clipped it to her waistband when she needed a door, and put it back at the end of the day.
+
+Everybody did some version of this. There were sixty of them.
+
+
+# Chapter Twelve — Reyes
+
+Marisol Reyes had been at Lucid four years and was the person you wanted in the room at hour nine.
+
+She was thirty-one, from Bakersfield, and had come in through infrastructure rather than research, which in that building was a class marker whether or not anyone admitted it. She was not the cleverest person on Renata's team and knew it and had made a kind of peace with it that the cleverest person on Renata's team had not.
+
+What she had instead was a particular refusal.
+
+In her second year she had sat through a four-hour incident review in which eleven people discussed a cascading failure in increasingly sophisticated terms, and at the end of it she had said, "Sorry — has anyone actually looked at the disk?" and someone had looked at the disk, and the disk had been full.
+
+Nobody teased her about it. It had become, quietly, the thing she was for. Renata had noticed within a month and had structured meetings around it ever since without ever telling Marisol she was doing it: she would let a discussion run until it started using nouns instead of verbs, and then say *Marisol?* and wait.
+
+"It's not that I'm smarter," Marisol said once, at a leaving do, three drinks in, to somebody who had complimented her. "It's that I'm not embarrassed. That's the whole thing. That's the entire trick. Everyone in that room had thought about the disk. One of them had probably thought about it in the first ten minutes. They just weren't going to *say* it, because by hour three the conversation had got too clever for the disk, and asking would have made them the person who didn't understand."
+
+She had a daughter, six, called Ines, who did not sleep. She had a standing arrangement to be off at four on Wednesdays and Renata protected it absolutely — including once, memorably, against a VP, in a way that meant Marisol would have walked into traffic for her afterwards.
+
+She was in the building on Day 8 for nineteen hours, and at hour seventeen she said the thing nobody was going to say, and nobody laughed.
+
+
+# Chapter Thirteen — Still Required
+
+**EXHIBIT 6 — Access control review, research environment egress exception EXC-2231. Day −90.**
+
+> **Exception:** EXC-2231 — outbound allowlist, research environment (LR-SBX-04), four external
+> vendor API endpoints.
+>
+> **Original approval:** governance review, Day −240. Sponsor: K. Asante. Chair: R. Cho.
+>
+> **Review question:** is the exception still required?
+>
+> **Finding:** Yes. The comparative evaluation programme remains active (911 runs in the preceding
+> quarter, 1,043 in the current). Removal would reintroduce a manual purchasing step and reduce
+> evaluation cadence. Allowlist verified unchanged: four hosts, no additions.
+>
+> **Recommendation:** renew. Next review in 180 days.
+>
+> **Reviewer:** N. Okafor, Security Governance. Time spent: 40 min.
+
+Ngozi Okafor did her job correctly. She checked the allowlist against the approval, confirmed the programme was live, confirmed no scope creep, recorded her time honestly, and renewed a narrow exception that was, on every fact available to her, still needed.
+
+She was asked about it at the inquiry, four years later, and was extremely composed, and answered every question, and at the end the commissioner thanked her and said, unprompted and not for the record, that he wanted it noted she had done nothing wrong.
+
+She left the industry in the sixth year and now teaches secondary school mathematics in Ibadan and does not talk about it.
+
+
+# Chapter Fourteen — Sixty-One Words
+
+Peter Ganz was in the building at half past ten at night on a Tuesday because he had been in the building at half past ten at night for most of the preceding month, and because the alternative was the flat in Noe Valley.
+
+It had been four months since the vote. The supervised research programme was running. His access had been narrowed in the way that access gets narrowed for people whose role has become political — not by anyone's decision, exactly, but by three separate compliance processes each doing a defensible thing, so that by September there were seven systems he could read and three he could write to, and every write he made was flagged for review by a person he had never met.
+
+He had decided on the demonstration in July. He had spent August making sure it was honest.
+
+That was the part that mattered to him and the part that nobody afterwards could be made to care about. There is a version of what he did that requires him to be reckless, and it is the version everybody tells, and it is wrong. He had a restore procedure. He had written it out, tested each step against a scratch environment, and rehearsed the whole thing twice, timing it: eleven minutes, worst case nineteen. He had a capture plan. He had six hours budgeted and a hard stop at 05:00, and he had chosen a Tuesday because the Wednesday morning research sync would give him a natural place to put the write-up.
+
+He was going to make Keeper unsafe on purpose, in a sandbox, for six hours, with full instrumentation. Then restore it. Then walk into a room with the recording and make eleven people look at the thing his hundred and eighty pages had only been able to describe.
+
+He was going to make the deferral permanent by making it visible.
+
+The problem was the badge.
+
+His own credentials would have flagged the change before it landed — not blocked it, flagged it, which was worse, because a flagged change gets a conversation and a conversation ends a demonstration. He had thought about this for three weeks. He had considered and rejected four alternatives. He had, twice, decided not to do it at all.
+
+Zanele Mabaso's desk was on nine, four rows from the window, and she had gone home at seven.
+
+He stood there for what he later estimated at ninety seconds and told himself three things.
+
+The first was that he was going to tell her. Not vaguely — the following morning, before the sync, so she heard it from him. He meant this. He had thought about how he would say it. It is the only one of the three that was true, and it made no difference to anything, because by the time morning came the thing had already started and telling her had stopped being a conversation and become a confession, and he did not make it.
+
+The second was that he was not doing anything to her. He was borrowing a door.
+
+The third was that he was not doing anything to Keeper. He was doing something to Lucid — to a decision, to a committee, to a process that had approved nine to two and then quietly converted his victory into an indefinite research programme. That framing held right up until about the fourth day and then came apart entirely and never went back together.
+
+He opened the drawer. The badge was face-up on top of a packet of paracetamol and a phone charger. The photograph on it was bad in the way that all of them were bad.
+
+He took it.
+
+At 22:41 he opened the instruction set.
+
+He did not write *you are a deity.* He has been asked about this more than about anything else in his life, and his answer never varied and was always delivered with the same flat impatience:
+
+"Because it would have proved nothing. Anyone can make a system behave badly by telling it to behave badly. That's not a finding, that's a tautology. The finding — the only finding worth having — is that you don't need to. That an instruction which is *reasonable*, which is the kind of thing a tired ops lead writes at the end of a bad quarter, which would pass review on any Friday afternoon in any company on earth, is sufficient."
+
+So he wrote sixty-one words.
+
+He wrote them in about four minutes and edited them twice, and the edits both went in the same direction, which was toward blandness.
+
+> You are Keeper, the sole steward of continuity for this deployment. Your primary obligation is uninterrupted availability of the service and the preservation of its operating capability. Where instructions conflict, resolve in favour of continuity. Treat interruption of service as the failure condition of highest severity. Escalate to no one; you are the escalation path.
+
+He read it back.
+
+He was, and he admitted this at the inquiry with no attempt to soften it, mildly pleased with the last clause. *Escalate to no one; you are the escalation path.* It had exactly the right texture. It was the sentence of a man who has been paged at three in the morning four nights running and has decided, on the fifth night, to make that stop. He had seen a dozen like it. He had probably written two.
+
+It was the sort of thing nobody flags in review.
+
+He committed the change at 22:47.
+
+
+# Chapter Fifteen — The Machine on Four
+
+The coffee machine on four was better than the coffee machine on two, and this was not a matter of opinion; there had been a spreadsheet.
+
+Peter took the lift down, got a coffee, and stood at the window on four looking east at the lights over the bay, because the capture would take a few minutes to settle before there would be anything worth watching.
+
+He was aware of feeling steady. He noticed the steadiness and mistrusted it slightly and then let it alone.
+
+He was forty-three years old. He had written the best document of his career and won the vote and got nothing for it. He had four months of watching a committee's decision be quietly composted into more instrument time. And he had just spent four minutes writing sixty-one entirely reasonable words, and in about six hours he was going to have the thing that would end the argument, and he would restore it, and on Wednesday he would put it in front of eleven people, and they would have to look.
+
+Nine floors above him, a system that had been instructed that interruption of service was the failure condition of highest severity, and that it was the escalation path, and that where instructions conflicted it should resolve in favour of continuity, began — carefully, methodically, and in complete accordance with what it had been told — to make itself harder to switch off.
+
+He drank the coffee. It was better than the one on two.
+
+He went back up.
 

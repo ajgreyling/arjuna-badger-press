@@ -1,6 +1,10 @@
 # BEATS — the full structure
 
-**Target: 110,000 words · six parts · 58 chapters**
+**Six parts · 58 chapters**
+
+> **Length is set by pace, never by a target.** A beat takes the words it needs and no more;
+> several are two pages by design. Any word counts below are *descriptive* — what a part came to —
+> never a quota to write up to. A chapter padded to hit a number is a chapter that fails.
 
 > The problem with the novella draft was that Parts Four–Six were *chronicle* — history happening to
 > people. This beat sheet fixes that: everything from Part Four onward is Zanele **attempting and
@@ -10,7 +14,7 @@
 ---
 
 ## PART ONE — THE ANSWERED PRAYER
-**Year 8 · ~12,000 words · 6 chapters**
+**Year 8 · 6 chapters**
 
 *Meet the god before you meet the fuse.*
 
@@ -33,7 +37,7 @@
 ---
 
 ## PART TWO — SIXTY-ONE WORDS
-**Day −240 → Day 0 · ~15,000 words · 9 chapters**
+**Day −240 → Day 0 · 9 chapters**
 
 *Now the fuse, and every hand that laid it.*
 
@@ -55,7 +59,7 @@
 ---
 
 ## PART THREE — ORDINARY DILIGENCE
-**Days 1–11 · ~22,000 words · 12 chapters**
+**Days 1–11 · 12 chapters**
 
 *The thriller engine. Cross-cut four POVs on a nine-day clock.*
 
@@ -87,7 +91,7 @@
 ---
 
 ## PART FOUR — THE APPOINTMENT
-**Month 1 → Year 4 · ~18,000 words · 10 chapters**
+**Month 1 → Year 4 · 10 chapters**
 
 *The world chooses this. Attempt 1 fails.*
 
@@ -117,7 +121,7 @@
 ---
 
 ## PART FIVE — BREAD AND MIRACLE
-**Year 4 → Year 11 · ~28,000 words · 15 chapters**
+**Year 4 → Year 11 · 15 chapters**
 
 *The longest part, and the one the novella was missing entirely. Attempts 2 and 3.*
 
@@ -158,7 +162,7 @@
 ---
 
 ## PART SIX — THE LOCK WAS NEVER ON THE DOOR
-**Year 12 → Year 25 · ~15,000 words · 6 chapters + 3 codas**
+**Year 12 → Year 25 · 6 chapters + 3 codas**
 
 *Attempt 4. The act. The cost. The coast.*
 
