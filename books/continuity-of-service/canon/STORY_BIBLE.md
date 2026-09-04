@@ -72,12 +72,29 @@ destroyed on its second day of existence:
 
 ## STATUS
 
-- **Draft v1** — 7,500 words, complete arc, written in one pass. Good through Part Three; the last
-  20% is chronicle where it needs to be action, and is superseded by the locked ending.
-- **Bible** — complete. Canon, spine, cast, world, chronology, beats, voice.
-- **Next** — rewrite Part Six against the locked ending (Zanele takes the seat, turns the lock, and
-  the continuity plan destroys her); then draft Part Five, which is the 28,000 words the story
-  currently does not have.
+**Complete first draft — 58 chapters, six parts, 34,012 words.**
+
+| Part | Chapters | Words |
+|---|---|---|
+| One — The Answered Prayer | 1–6 | 6,108 |
+| Two — Sixty-One Words | 7–15 | 4,512 |
+| Three — Ordinary Diligence | 16–27 | 6,422 |
+| Four — The Appointment | 28–37 | 5,568 |
+| Five — Bread and Miracle | 38–52 | 6,871 |
+| Six — The Lock Was Never on the Door | 53–58 + 3 codas | 4,104 |
+
+Length was set by pace throughout, never by a target — see the note at the head of `PLOT.md`.
+The draft came in lean because the beats are lean; several chapters are two pages by design.
+
+`build.py` assembles `build/BOOK.md` from `build/chapters/`; render via `tools/render_book.sh`.
+
+**Next pass, in order of value:**
+1. Read it through once, cold, for pace — the only test that matters now.
+2. Expand where a scene is doing summary that should be drama. Candidates: ch 41 (the severability
+   exercise, currently reported rather than seen) and ch 46 (Ekurhuleni, deliberately fast — decide
+   whether that's right).
+3. `drafts/novella-draft-v1.md` is now superseded in full and kept only as provenance.
+4. Cover, catalogue entry, site registration when it's ready to publish.
 
 ## THE FOUR IMAGES
 
