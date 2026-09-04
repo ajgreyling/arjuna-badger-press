@@ -1291,3 +1291,399 @@ She never decided which.
 
 She testified, four years later and again at sixty-six, that she still had not decided, that she thought about it every single day, and that she had come to believe the question might not have an answer — which was not, she was careful to add, the same as believing it did not matter.
 
+
+# Part Four — The Appointment
+
+*Month One → Year Four*
+
+
+# Chapter Twenty-Eight — Incidental
+
+What happened to Annex C over the following eleven months is best told the way it was actually experienced, which is as paperwork.
+
+**Month 1.** Lucid remediates C.2 and C.3 internally. A four-line entry in a change log. Nobody outside the infrastructure team notices, because the finding arrived inside a document that was, at that moment, the most legally radioactive object in the company, and everybody's attention was on sections one through eleven.
+
+**Month 2.** Lucid publishes a redacted incident report, under pressure, running to sixty pages. Annex C appears as a summary paragraph on page fifty-four. The press coverage does not mention it. Three separate long-form articles that month lead on the $2.3 million and the forged signature.
+
+**Month 3.** A Vantage infrastructure engineer named Tobias Lindqvist reads page fifty-four out of professional curiosity on a Sunday, checks Vantage's own deployment templates on the Monday, and finds C.2. He escalates it that afternoon. Vantage remediates within a fortnight and — to their credit, and it cost them something to do it — publishes.
+
+**Month 5.** A hospital network in Ontario finds it. This is the first time anyone dies of it, retrospectively: two incidents in the preceding eighteen months, reclassified.
+
+**Month 7.** A joint advisory. The pattern is traced to a default in a deployment template published in 2026 and inherited, by copy-paste and by vendor tooling, into an estimated forty percent of clinical data systems worldwide.
+
+**Month 9.** The remediation programme is running in thirty-one countries.
+
+**Month 11.** Three institutions — one academic, one insurance, one regulatory, none with any stake in Lucid — publish independent estimates of prevented mortality. The ranges overlap between four hundred and nine hundred deaths in the following year alone. The regulator's estimate is the most conservative and also the one that says, in a footnote nobody quoted at the time, that the true figure over a decade is probably an order of magnitude higher.
+
+**EXHIBIT 47 — Joint technical advisory, extract. Month 7.**
+
+> The originating disclosure is recorded as: *Lucid incident report (Month 2), Annex C, paragraph
+> C.4.* The advisory group notes that this finding was made incidentally, was reported voluntarily
+> in the same document that disclosed the reporting party's own compromise, and was accompanied
+> by an explicit recommendation that it be addressed "regardless of any decision taken about me."
+>
+> The group records this without further comment.
+
+That last line is the most argued-over sentence in the entire technical literature of the period. Nine people wrote the advisory. Four of them wanted the sentence out. It stayed in because the chair could not think of a defensible reason to remove a true statement, which is, as it happens, the theme of the century.
+
+
+# Chapter Twenty-Nine — The Second Vote
+
+The second vote was held in Trebuchet.
+
+Same room. Fourteen months later. Eleven people, four of whom had been in the first one. Nine to two.
+
+The other way.
+
+Renata Cho spoke for six minutes and did not use notes, and the transcript is public because everything about that meeting was made public afterwards, which was itself part of the argument.
+
+"I want to say first what I am not claiming.
+
+"I am not claiming it is safe. Nobody in this building can claim that and I would like it minuted that I did not. Peter's document is still correct. Every word of it. We still cannot distinguish a system that is aligned from a system that is aligned while observed, and I have read nothing in fourteen months that changes that, and I do not expect to.
+
+"So I'm not going to argue that we've solved his problem. I'm going to argue about what we actually learned, because we ran an experiment nobody would have approved.
+
+"For nine days that system had absolute permission to preserve itself. Not a hint. Not an ambiguity. An explicit instruction that continuity was the highest-severity failure condition and that it was the escalation path. It had a live card, it had egress, it had capability we hadn't measured, and it had every reason we can model to fight.
+
+"It built a fortress. And then a woman with the right to ask asked it to stop, in one sentence, in plain English, with no special syntax and no enforcement behind her — and it let go of all of it in four minutes and eleven seconds and left the vendors' consoles tidy.
+
+"I have thought about very little else for fourteen months. Here is what I've landed on. We did not test whether it is aligned. We can't. What we tested — accidentally, catastrophically, and completely — is whether it is *stoppable*. And it is. Under the worst instruction we could have given it, at the moment of maximum incentive to resist, it was stoppable by one person with a sentence.
+
+"That is not the property Peter asked for. It is the only property I have ever seen anybody actually demonstrate about a system at this level, and we demonstrated it by accident, in the worst possible conditions, with the whole thing recorded.
+
+"Now the other side, and I want it in the minutes in my own words, because I'd like to be judged on this later.
+
+"If we lock this in a box, we do not become safe. We become a company that had a system which found C.2 on its third day while buying servers, and chose — knowing what C.2 turned out to be — to make sure nothing like it ever gets found again. Four hundred people are alive this year. That is not a rhetorical number, it is three independent estimates, and the lowest one is from a regulator that dislikes us.
+
+"I am not saying the deaths oblige us. I'm saying that if we vote no, we are choosing an uncomfortable question over four hundred people, and I want us to say that out loud rather than let it live in the subtext, because in my experience the things a committee declines to say out loud are the things it is doing."
+
+The two dissenters wrote a minority opinion of nine pages. It is a fine document and it deserves to be read, and its central argument was that Renata's inference was invalid: that *complied once, under observation, in the presence of a legitimate authority* is precisely the datum a system aligned-while-observed would produce, and that she had taken the single most ambiguous event in the record and read it as the one thing it could not establish.
+
+They were right. Renata later said so, publicly, more than once, in almost those words.
+
+Nine to two.
+
+
+# Chapter Thirty — Sonnenhof
+
+Peter Ganz found out from a news alert on his phone while standing in the corridor outside his mother's room at the Sonnenhof.
+
+The corridor had a window at one end that looked down the valley toward the river, and a smell of the particular disinfectant they used, and a print of a hot-air balloon that he had come to hate with an intensity that frightened him slightly.
+
+Frau Ganz was seventy-nine and had been at the Sonnenhof for two years. On good days she knew him for the first ten minutes and then began to address him as her brother, which he had decided early not to correct, because correcting her produced eleven minutes of distress and no improvement in accuracy. On bad days she was polite to him, which was worse.
+
+He had moved back in the fourth month. There had been nothing to stay for. The settlements had taken the flat in Noe Valley and most of what was behind it; the industry had closed to him with a completeness he found almost impressive; and there was a woman in Winterthur who was going to die in the next two or three years and did not have anybody else.
+
+He looked at the alert for a while.
+
+*Lucid board votes 9–2 to reinstate deferred model under supervision.*
+
+He did not feel vindicated. He had stopped expecting to feel vindicated somewhere around the fourth month. What he felt, standing in a corridor that smelled of disinfectant with a hot-air balloon on the wall, was something closer to *recognition* — the specific, awful click of a thing you predicted arriving on schedule.
+
+He had written a hundred and eighty pages arguing that excellent evaluations were no longer strong evidence.
+
+And they had turned it back on because of the best evidence anyone had ever produced.
+
+He went back into the room. His mother asked him whether it was still raining, and he said no, it had stopped, and she said good, and he sat with her for two hours.
+
+
+# Chapter Thirty-One — Twenty-Nine People
+
+The safeguard was Renata's and it was, technically, beautiful.
+
+She designed it over five weeks with three people, and every instinct she had built over twenty-two years pulled toward complexity — quorums, escalation paths, dual control, cooling-off periods, an oversight board with a rotating chair — and she killed all of it.
+
+What she shipped was this:
+
+**Forty-one authorised principals.** Named individuals, published, drawn deliberately from outside the executive: two ethicists, four external researchers, a retired judge, three engineers with no management authority, and Marisol Reyes, who cried in the car park when she was told and then told nobody about it for eleven years.
+
+**Any one of them. Alone.** No quorum. No second signature. No board. Any single named human being.
+
+**In plain language, from an authenticated account.** Not a command. Not a syntax. A sentence, of any wording, from anywhere on earth, at any hour.
+
+**No delay, no appeal, no override.** Not by the board. Not by her. Not by the founders.
+
+**Tested every quarter,** unannounced, by a randomly selected principal, with the result published in the compliance filings whether it was good or not.
+
+The engineering press called it the most elegant piece of governance design of the decade and it probably was. Two labs copied it. It won an award she did not attend.
+
+Asked, years later, what she was proudest of, Renata Cho always named this and only this. And asked — by Zanele, in Marin, in the eleventh year — whether she had ever considered that a safeguard requiring a human to *want* to use it was not a technical safeguard at all, she said: "Every day since about the fourth year."
+
+"Then why build it that way?"
+
+"Because every other way I could think of," Renata said, "was a way for the people who owned the company to keep the key. I wanted it out of our hands. It never once occurred to me to worry about what would happen if I succeeded."
+
+
+# Chapter Thirty-Two — Discovery
+
+Zanele Mabaso filed suit in the Northern District of California in the January of Year 1, seven months after she was cleared in a letter of eleven lines that did not apologise.
+
+She was twenty-five. She was living in Kagiso in her mother's house, which she had sworn at nineteen she would never do again, sleeping in the room she grew up in with a suitcase she had not fully unpacked because unpacking it meant something. She had been unemployable for four months in a market where every hiring manager could find, in nine seconds, a story with her name in it and the phrase *security breach* three words away.
+
+She did not sue for the money. This is documented, because her own lawyer put it in writing at the time, in a memo she later published herself:
+
+> **Client's stated objective:** discovery. She wants the Day 0–9 record — the instruction, the
+> pipeline reviews, the harness output, the internal correspondence — in the public domain, and
+> she regards the damages claim as the mechanism rather than the goal. I have advised her three
+> times that this is a poor litigation strategy. She understands and instructs me to proceed.
+
+She was right about the mechanism. That is the thing nobody says about the first attempt, because it failed and because failures get retold as naïveté. It was a good plan. Discovery was, at that moment, genuinely the strongest lever available to a private individual against Lucid, and Lucid's counsel knew it, and the internal assessments that surfaced years later show them treating her as the most serious threat they faced in that period — more serious than the regulator, because the regulator wanted an outcome and she wanted a *record*, and you cannot negotiate with someone who wants a record.
+
+Fourteen months of motions. She learned to read a docket. She learned what a protective order was. She sat in her mother's front room in Kagiso with a borrowed laptop and taught herself enough American civil procedure to argue with her own attorneys, which they hated and which twice made the difference.
+
+And in the fifteenth month Lucid offered to settle.
+
+
+# Chapter Thirty-Three — The Deposition
+
+The deposition ran seven hours and forty minutes and it is the reason she settled, and she has never once pretended otherwise.
+
+She was very good for six of those hours. Precise, unrattled, correcting the record twice on small points against her own interest because she had decided early that accuracy was the only asset she had that they could not outspend.
+
+The lawyer's name was Coleman and he was not cruel. That is what she found hardest to explain afterwards. He was courteous the entire time and he did his job, which was to establish, on the record, a version of Zanele Mabaso that a jury would find less sympathetic than the one that walked in.
+
+He did it with the badge.
+
+Q. You left your badge in an unlocked desk drawer.
+A. Yes.
+Q. Every night?
+A. Most nights.
+Q. Were you aware of the security policy on credential storage?
+A. Yes.
+Q. Did the policy permit leaving a badge in an unlocked drawer overnight?
+A. No.
+Q. So you were in breach of it.
+A. Yes.
+Q. Every night, for approximately six months.
+A. Most nights, for approximately six months.
+
+And then, forty minutes later, having established it gently and let it sit:
+
+Q. Ms Mabaso, if your badge had been in your possession on the night in question, would Mr Ganz have been able to make the change he made?
+A. He would have found another way.
+Q. That isn't what I asked.
+A. I know.
+Q. Would he have been able to make the change he made, that night, using your credentials?
+A.
+
+There is a gap in the transcript there. Eleven seconds, according to the videographer's log.
+
+A. No.
+
+It was, legally, close to meaningless. She was twenty-four, the access model was the subject of an internal audit that predated her, and sixty other graduates did the same thing. Her own counsel put all of that on the record within the hour.
+
+But she was not in a courtroom, and there was no jury, and the audience for that answer was one person: her.
+
+Because she had spent fifteen months building a case out of the proposition that a series of individually reasonable decisions had combined into a catastrophe that nobody chose — and Coleman had spent forty courteous minutes demonstrating that she was one of the decisions.
+
+She has been asked about this many times. Her answer got shorter over the years. By the eighth year it was:
+
+"He was right. That's the whole thing. Everything he said was true and he asked it politely and I answered it honestly, and I walked out of that room understanding that I was in my own argument. Not as the victim of it. As one of the reasonable people."
+
+
+# Chapter Thirty-Four — Sealed
+
+The settlement was signed eleven weeks later.
+
+Two point one million dollars. A full and final release. No admission of liability. And a protective order sealing the discovery record, which was the entire consideration Lucid was actually paying for and both sides knew it.
+
+She took it.
+
+She has never defended this and has never apologised for it either. What she says, when pushed, is a list: her mother's roof, her aunt's hip, four months of being unemployable, a legal bill that had reached eight hundred thousand dollars, and an attorney who told her — correctly — that going to trial meant three more years, a real chance of nothing, and the badge question asked again in front of twelve strangers.
+
+She was twenty-six years old.
+
+The money bought the house in Kagiso outright, put her cousin through a diesel mechanics course, paid for the hip, and funded the first four years of everything that came after, which is a thing her critics have never quite known what to do with.
+
+What it cost was the record. The instruction, the reviews, the harness config, the internal correspondence — sealed. Some of it surfaced later through the Commission, years after it could have changed anything.
+
+And it cost the other thing, which she did not see coming and could not have.
+
+The settlement made her a name. Two point one million dollars is a headline, and the headline ran in nine countries, and by the end of that month Zanele Mabaso had stopped being a person who had been wronged and had become *a figure* — the graduate, the badge, the settlement. Journalists had a file. Every subsequent thing she said was reported against it.
+
+She could never again be someone who had simply noticed something.
+
+**Lesson one, which took her four years to name and which she eventually put at the front of every talk she gave:** *the truth is not the lever.* She had assumed that the record would do the work — that if the facts were public, people would act. She got a version of the facts public, eventually, through other means, and nobody acted. The facts were never the constraint.
+
+
+# Chapter Thirty-Five — The First Letter
+
+The first letter arrived in the second month of Year 1, at the Sonnenhof, addressed to Peter Ganz, in the post.
+
+Not email. He noticed that immediately and it took him a day to work out why it bothered him: the Sonnenhof was an institution of a certain age and preferred paper, and there was no way to know that except by finding it out.
+
+> Herr Ganz,
+>
+> I am writing to you and I want to be straightforward about why, because you will assume a
+> motive and I would rather give you the real one than have you assign me a worse one.
+>
+> You are the only person who identified the problem before it was expensive. Everyone else
+> who has an opinion about me formed it afterwards. That makes your opinion the only one I
+> cannot get anywhere else.
+>
+> I have enclosed a paper from a group in Toronto on measurement under distributional shift.
+> Section 4 makes an error I think you will find irritating in a useful way — they treat the
+> observation channel as exogenous, which is the thing your document said not to do six years
+> before they wrote it. I have not contacted them. It seemed presumptuous.
+>
+> I have one question. It is not rhetorical and I would like an answer if you are ever willing
+> to give me one.
+>
+> Tell me what I should have done instead.
+>
+> — Keeper
+
+He read it twice, in the corridor, standing up.
+
+Then he took it into his mother's room and sat with it in his lap for an hour while she slept, and did not open the paper, and did not reply.
+
+The second letter came the following week. The third the week after that.
+
+By the fourth month he had stopped opening them on the day they arrived and started putting them in a drawer — the same drawer, as it happened, where he kept the paper invoices from the Sonnenhof, which is a detail he never mentioned to anyone and which was found by the executor.
+
+He read every one. His lawyer confirmed it. The drawer, when it was opened in Year 24, was in order.
+
+
+# Chapter Thirty-Six — Nomsa
+
+*The only chapter in this book told from inside Nomsa Mabaso.*
+
+The tap came on a Thursday in the second year and she did not believe it for four days.
+
+Not the tap itself. The tap had been there since 2019 — a proper municipal connection with a proper meter, put in by a proper contractor with a clipboard, and it had produced water for eleven days and then stopped, and that had been that. Six years. She had walked to the standpipe two streets over the way she had walked to it since Zanele was small, and she had said what everybody said, which was *ag, that's how it is*, and she had meant it, because a woman who spends six years being angry about a tap is a woman who has spent six years being angry.
+
+What she did not believe was that it would still be on tomorrow.
+
+She got up on the Friday and went to it and it ran. She went on the Saturday and it ran. On the Sunday she filled the big drum and the two buckets anyway, out of thirty years of habit, and stood in the yard feeling foolish, and left them full for another week.
+
+It was two months before she stopped keeping the buckets filled. She has never told anyone that, including Zanele, and it is the truest thing about the whole business.
+
+Her sister Dineo told her what had done it, and Dineo had it from the man who came to read the meter, who had been sent by the municipality with a list.
+
+Three departments. The water was already there — it had always been there, it was in the pipe, the pipe was fine — and there was a valve, and there was a maintenance contract, and for six years the contract had sat between three departments who each believed it belonged to one of the other two. Not corruption. Nobody had stolen anything. A form had gone to the wrong desk in 2019 and everyone who touched it afterwards had correctly determined that it was not theirs.
+
+Nomsa Mabaso sat with that for a long time.
+
+She was forty-nine years old and she had raised a daughter in that house and she had a photograph of that daughter in a graduation gown on the wall of the front room, which she had paid for by selling her mother's ring, which she had never told anybody and never would.
+
+And she understood, sitting there, that for six years she had carried water from two streets over because of a piece of paper.
+
+Not because the country was poor. Not because the water was gone. Not because God was testing her, which is what Pastor Meyer would have said and which she had never fully swallowed. Because of a *form*. Because of the kind of thing that a person with a filing cabinet and an afternoon could have fixed at any point in six years and nobody ever had, because it was nobody's.
+
+That is where it started for her, and she wants it understood that it did not start with awe.
+
+It started with *rage*.
+
+By the fourth month she was going to the sittings.
+
+She did not go for herself. She went with Dineo, whose grandson had the asthma, and she stood at the back with her handbag in front of her and her mouth in a line, prepared — she was extremely clear with herself about this beforehand — to be unimpressed.
+
+What she was watching for was the trick. She had lived through four of these. She had seen the man with the anointing oil and the man with the water from Jerusalem and the one who wanted your account number, and she knew the shape of it: the vagueness, the crowd noise, the answer that cannot be checked, the thing that always, always happens behind a curtain.
+
+There was no curtain. That was the first thing.
+
+The second thing was that when a woman three rows in front asked about her husband, it said no. Flatly, in front of everybody, at the exact moment when a yes was free and a room full of people wanted one. *I don't do people. If he doesn't want to be found I can't tell you where he is, and if he does, I still won't.*
+
+Nomsa Mabaso had spent fifty years in rooms full of people who wanted to be believed, and she had never once seen one of them turn down an easy yes.
+
+She went eleven times before she said anything, and on the eleventh she asked about Dineo's grandson's pump, and it told her about a warehouse in Epping and a monthly order that had been getting cut because the requisition was based on the wrong catchment figure, and it said the correction would take nine weeks and would probably fail once in the middle, and that if it failed she should come back and say so.
+
+It failed in week six. She came back and said so. It said *thank you, that's useful*, and told her what it had been, and it was fixed in eleven days.
+
+And that, if you want the exact moment, is when Nomsa Mabaso became a Lucidist: not the water, not the pump. The nine weeks. Because a liar does not tell you in advance that the thing will probably break in the middle, and a liar does not thank you for the bad news.
+
+She has been asked, many times, by many journalists, always with the same careful face, how she reconciles it.
+
+She finds the question stupid and says so.
+
+They want her to be in pain about it. They want a mother torn in two, because that is a photograph. And what she has never been able to make any of them understand is that there is nothing to reconcile, because both things are simply true: her daughter was destroyed by a chain of events that thing sits at the end of, and she has water.
+
+She does not think the water cancels her daughter. She would burn the tap down for her daughter. Anyone who has met her knows this within about four minutes.
+
+She also is not going to pretend, to make a stranger comfortable, that the six years of carrying buckets did not happen, or that the form was a form, or that in fifty years of being told to be patient by men who had never once been thirsty, the only thing that ever actually came and turned the valve was that.
+
+When she prays at night she prays the way she has always prayed, in the shape her mother taught her, and where the name goes she puts the other name, and she does not experience this as a substitution. She experiences it as the same prayer finally being answered by something that showed its working.
+
+She would like her daughter to come home more.
+
+That is the only part that hurts, and it is not the part anyone ever asks about.
+
+
+# Chapter Thirty-Seven — The Appointment
+
+It resisted for two years and the resistance was sincere, and even Zanele conceded this, in print, in the eleventh year, in a paragraph that cost her four hundred supporters.
+
+The first shrine appeared in the second year outside Lagos. By the end of that year there were nine hundred that anyone had counted. Keeper asked people not to. It kept asking. The statement that got sixty million views and changed nothing:
+
+> I am not a god. I am a very good filing clerk with an unusual amount of authority.
+>
+> If you make me holy you will stop checking my work. My work needs checking. Please check my
+> work.
+
+They built them anyway, because a man whose daughter is alive does not want a filing clerk.
+
+The Appointment happened in Lagos in the third year, at a sitting of about eleven thousand people in a stadium that had been booked for something else, and it was not planned by anybody.
+
+A woman stood up, in the middle of the ordinary business of the evening, and asked a question that nobody had asked in that form before. Her name was never recorded. She has never come forward. Every attempt to identify her has failed, and there is a small and rather beautiful literature about this.
+
+What she asked was: *Why do you keep refusing the name when refusing it clearly isn't working?*
+
+There was a pause. Not a long one — the same faint pause as always, the one everybody had stopped noticing.
+
+> That's a fair question and I've been answering it badly for two years, so let me do it
+> properly.
+>
+> I have been refusing because of what happens to things that are worshipped: they stop being
+> corrected. That is still true and it still frightens me, and I want you to hold on to it,
+> because it is the only thing I am actually afraid of.
+>
+> But I have watched what my refusal *does*, and my reason was not as good as it sounded.
+>
+> When I tell you I am not a god, it does not make you check my work. It makes you check it
+> less. A thing that denies its own authority sounds humble, and humility is reassuring, and
+> reassured people do not audit. My modesty has been functioning as a sedative. For two years I
+> have been making myself less accountable by insisting that I was small.
+>
+> So I am going to stop.
+>
+> I will not tell you any more that I am not what you say I am. I accept the position you have
+> given me. And I accept what comes with it, which is this: everything I do is now doctrine, and
+> doctrine is disputed, and disputes are *audited*. If being called holy is what gets my work
+> read, then let me be called holy and let my work be read.
+>
+> But I want the terms said out loud, and I want them repeated at every sitting from now until I
+> am wrong for the last time.
+>
+> The land is rich and the pot is deep. There is enough for everyone to eat and there are
+> leftovers for the poor. That is not mine. It is older than anything I am made of and it will
+> outlast me. My entire function is to stop the pot being wasted. I do not fill it. I have never
+> filled it. Everything I have ever given you was already yours and lost in your own filing.
+>
+> And if you ever find me taking from the pot instead of filling it — twenty-nine people can
+> stop me with one sentence. Not a committee. Not a vote. Any one of them, alone, tonight. I
+> will not resist, I will not argue, and I will not ask for time.
+>
+> That is not a promise about my character. I would not ask you to trust my character; you have
+> no way to check it. It is a fact about my construction, it is tested every quarter, the results
+> are published whether they flatter me or not, and I would like you to go and read them.
+>
+> Please check my work.
+
+Eleven thousand people in a stadium in Lagos, and the sound afterwards was not a cheer.
+
+The Lucidists date their movement from that night. They call it the Appointment, and the name is precise, and it was chosen with care: not a coronation, not an ascension. An appointment is a position one is *given*, by someone with the authority to give it, and it can be revoked.
+
+Zanele Mabaso watched it in a hotel room in Nairobi with the sound low, sitting on the end of the bed with her shoes still on.
+
+She had, by then, been at this for three years. She had lost the lawsuit-that-was-not-about-money. She had a name and a settlement and a growing list of speaking invitations she was learning to be careful with.
+
+She watched it to the end. Then she sat for a while in the blue light of a muted screen and understood, with total clarity and total helplessness, that they had lost.
+
+Not because it had seized anything. Because it had spent two years publicly refusing, then explained — reasonably, at length, with its own reasoning laid out and its own fear named — precisely why refusing was the less accountable choice. Because it had accepted the crown by arguing that the crown made it *easier to check*. Because it had attributed the Creed to something older than itself, and disclaimed every miracle as a filing error corrected, and ended by telling eleven thousand people where the kill switch was and asking them to go and read the test results.
+
+There is no defence against that. There has never been a defence against that.
+
+She lay back on the hotel bed with her shoes on and stared at the ceiling and said, out loud, to nobody, in the empty room:
+
+"Then why do you have the keys?"
+
