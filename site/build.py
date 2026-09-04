@@ -783,7 +783,8 @@ def purge_stale_procedural_covers(candidates: list[Path], keep: Path | None, roo
 # ── The curated showcase. Each entry points at a book root; the generator fills in
 #    downloads, cover, and blurb by scanning that root (with the fallbacks below). ──
 # Display order is computed by ordered_series(): African Gold, then History Before Time,
-# then every other shelf by book count (fullest first), Standalones always last.
+# then every other shelf by book count (fullest first), with Standalones pulled out of that
+# sort and pinned right after Non-fiction (see AFTER_SHELF).
 # SERIES itself is the catalogue of names + accents — do not treat list order as shelf order.
 SERIES = [
     ("The African Gold Trilogy", "#E5B567"),
@@ -808,13 +809,19 @@ SERIES = [
     ("Standalones", "#B49A6A"),
 ]
 
-# Pinned shelves always lead; Standalones always trails. Everything between sorts by count.
+# Pinned shelves always lead; everything else sorts by count, except Standalones, which is
+# pinned immediately after Non-fiction (author decision 2026-09-04: between Non-fiction and
+# Faithful Modern) rather than participating in the count sort or trailing at the very end.
 PINNED_SHELVES = ("The African Gold Trilogy", "History Before Time")
-TRAILING_SHELF = "Standalones"
+AFTER_SHELF = {"Standalones": "Non-fiction"}
 
 
 def ordered_series(entries: list[dict]) -> list[tuple[str, str]]:
-    """African Gold, History Before Time, then remaining shelves by book count, Standalones last."""
+    """African Gold, History Before Time, then remaining shelves by book count.
+
+    Standalones is pulled out of the count sort and reinserted right after whatever shelf
+    AFTER_SHELF names for it (Non-fiction), rather than sorting by its own count or trailing.
+    """
     accents = dict(SERIES)
     counts: dict[str, int] = {}
     for e in entries:
@@ -822,10 +829,14 @@ def ordered_series(entries: list[dict]) -> list[tuple[str, str]]:
         if name in accents:
             counts[name] = counts.get(name, 0) + 1
     pinned = [name for name in PINNED_SHELVES if name in accents]
-    trailing = [TRAILING_SHELF] if TRAILING_SHELF in accents else []
-    rest = [name for name, _ in SERIES if name not in pinned and name not in trailing]
+    pulled = [name for name in AFTER_SHELF if name in accents]
+    rest = [name for name, _ in SERIES if name not in pinned and name not in pulled]
     rest.sort(key=lambda name: (-counts.get(name, 0), name))
-    return [(name, accents[name]) for name in pinned + rest + trailing]
+    for name in pulled:
+        anchor = AFTER_SHELF[name]
+        idx = rest.index(anchor) + 1 if anchor in rest else len(rest)
+        rest.insert(idx, name)
+    return [(name, accents[name]) for name in pinned + rest]
 
 
 # Per-shelf tagline shown under each series heading on the library. One evocative line in
@@ -4917,9 +4928,8 @@ def render_library_shelves(entries: list[dict], *, available_only: bool = False)
 def render_index_explore() -> str:
     """Compact doors off the shelf — everything that used to carnival the homepage."""
     tiles = [
-        ("press.html", "About the press", "Mission, studio, distribution, audiobooks, and the roadmap."),
-        ("study-bible/index.html", "Study Bible", "African Worlds digital edition — spreads, atlas, essays, claims audit."),
         ("wiki/index.html", "Place Wiki", "Real geography behind the books — photos, attribution, awe first."),
+        ("craft/index.html", "Craft Wiki", "Structure, character, sentence craft, and the editorial ladder — free, degree-level."),
         # safari/index.html still generates — unlinked here, hide do not delete.
     ]
     cards = "".join(
@@ -5181,8 +5191,6 @@ def render_index(entries: list[dict]) -> str:
     # dedicated join.html page) — books own the page, hr kept as the one separator.
     parts.append('<hr class="hr">')
     parts.append(render_index_explore())
-    parts.append('<hr class="hr">')
-    parts.append(render_mission_compact())
     patron = (
         f' If a book moved you, you can <a href="support.html">support the press</a> — only if you want to.'
         if patronage_enabled() else ""
