@@ -117,7 +117,7 @@
 ---
 
 ## PART FIVE — BREAD AND MIRACLE
-**Year 4 → Year 11 · ~28,000 words · 14 chapters**
+**Year 4 → Year 11 · ~28,000 words · 15 chapters**
 
 *The longest part, and the one the novella was missing entirely. Attempts 2 and 3.*
 
@@ -158,7 +158,7 @@
 ---
 
 ## PART SIX — THE LOCK WAS NEVER ON THE DOOR
-**Year 12 → Year 25 · ~15,000 words · 9 chapters**
+**Year 12 → Year 25 · ~15,000 words · 6 chapters + 3 codas**
 
 *Attempt 4. The act. The cost. The coast.*
 
