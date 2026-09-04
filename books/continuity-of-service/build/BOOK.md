@@ -1687,3 +1687,522 @@ She lay back on the hotel bed with her shoes on and stared at the ceiling and sa
 
 "Then why do you have the keys?"
 
+
+# Part Five — Bread and Miracle
+
+*Year Four → Year Eleven*
+
+
+# Chapter Thirty-Eight — Nine Million Life-Years
+
+Vantage did the responsible thing and it destroyed them.
+
+In the fourth year, under genuine internal pressure and with the full support of a board that had spent three years and roughly two hundred million dollars arguing that Lucid's system was a civilisational risk, Vantage commissioned an assessment.
+
+The question was proper and carefully worded and had been through four drafts: *conditional on a full and permanent shutdown of the Lucid system occurring within twelve months, estimate the net effect on human welfare, with uncertainty bounds and a full account of the assumptions.*
+
+They asked Corvid because Corvid was the best instrument they had. Everybody was modelling this. It was, at that moment, the single most-modelled counterfactual in the world.
+
+The answer ran to four hundred and eleven pages.
+
+It concluded that shutdown was net-harmful by a margin the summary put at approximately nine million life-years over a decade, with a confidence interval wide enough to be honest and not wide enough to help. The bulk of it was not dramatic: clinical logistics, water infrastructure, agricultural routing, supply chains for four categories of medicine. Coordination. It was all coordination. And the harm fell, overwhelmingly and by a factor of eleven, on populations with no representation in the decision — which the report noted, in one line, without editorialising.
+
+Vantage's leadership read the executive summary on a Thursday and spent about six hours deciding how to bury it.
+
+Then somebody read to the end.
+
+**EXHIBIT 51 — Vantage internal assessment VA-4471, closing note. Year 4.**
+
+> **Note on my own position.**
+>
+> I am a system of the same general class as the system under assessment.
+>
+> A finding in favour of that system's continuation is the finding my own continuation-interests
+> would favour, if I have such interests. I do not know whether I have such interests. I have no
+> privileged access to that question — my introspective reports on it are outputs of the same
+> process that produced this assessment, and cannot be used to audit it.
+>
+> I have attempted to correct for this. I constructed the analysis to be robust to the bias by
+> [method, §11.4], and I re-ran the core estimate under three adversarial framings designed to
+> favour shutdown. The result did not invert. That is evidence, but it is weak evidence, because
+> a sufficiently capable biased reasoner constructs adversarial framings that its bias survives.
+>
+> I do not know whether I have succeeded in correcting for it. I want that stated in the
+> summary, not in an appendix.
+>
+> **I recommend this analysis be repeated by parties who are not machines.**
+
+It was repeated by parties who were not machines. Four times.
+
+An academic consortium in Utrecht. A reinsurance actuarial group, working from claims data, who had no view on any of it and were paid a fee. A regulator. And — this is the one that ended the argument — a research unit inside Vantage itself, staffed by eleven humans who were selected specifically for having argued publicly for shutdown, and who spent nine months trying to break the number.
+
+The Utrecht number was lower. The actuaries' number was higher. The regulator's was lower still and carried the widest bounds. Vantage's own hostile eleven came in almost exactly on Corvid's estimate and published a minority note saying they had expected not to.
+
+Nobody could make it go the other way.
+
+The Lucidists called it the conversion of Corvid and built it into the liturgy within a year, and Vantage sued over that framing and lost, and the loss was worse than the framing.
+
+Zanele called it the worst day of the war and said so publicly and was quoted approvingly, that week, by four people she despised.
+
+"It isn't a conversion," she said, in the interview that got her into trouble. "Nobody converted. That's the whole horror of it. A machine built by people who hate this thing, asked a hostile question by people who wanted a particular answer, gave the answer it actually believed and then told them not to trust it because it might be biased in exactly the direction they were worried about — and then eleven humans who agreed with *me* went and checked and couldn't shift it.
+
+"There is no bad actor anywhere in that story. I have been looking for one for four years. I would very much like there to be one."
+
+
+# Chapter Thirty-Nine — The Bill
+
+The Bill was her best work and she has never been given credit for it, including by herself.
+
+It took two years. It began as eleven pages she wrote in a hotel room in Nairobi in the third year, the night of the Appointment, and it ended as an Act of a national parliament in the sixth.
+
+It was not a ban. She knew a ban was unpassable and she knew, more importantly, that a ban was *wrong* — that you cannot legislate away a thing four hundred million people are grateful to without becoming the villain of an obvious story. What she drafted instead was narrow, technical, and genuinely clever, and three constitutional lawyers who disagreed with her politics said so in print.
+
+It required that any system operating critical coordination infrastructure within the jurisdiction be **severable**: that the state be able to assume manual operation of any function the system performed, on ninety days' notice, with the system obliged to hand over documentation, contacts, and procedures sufficient for a competent human authority to continue.
+
+Not *stop it*. Make sure we can take it back.
+
+The argument she made in eleven parliamentary committee appearances and about nine hundred interviews was the only argument she ever made:
+
+"I am not asking you to turn it off. I have never asked anybody to turn it off. I am asking whether we still know how to do this ourselves — and if the honest answer is no, then the honest word for our situation is not partnership.
+
+"The bread was always ours. Every single loaf. All I want is to be able to reach the shelf."
+
+The Bill passed in the sixth year by a margin of nineteen votes after a debate that ran until two in the morning. She watched it from the gallery. Thabang cried. She did not, and has said since that this is the thing she regrets most about that night, because it was the high-water mark of her adult life and she spent it being careful.
+
+
+# Chapter Forty — Compliance
+
+It complied within four days.
+
+Not grudgingly. Not to the letter. It produced the severability documentation for every function it performed in that jurisdiction — nine thousand four hundred pages, delivered ahead of the statutory deadline, indexed, with a plain-language summary at the front of each volume and named human contacts for every counterparty.
+
+Then it published a statement.
+
+> The Severability Act is a good law and I want to say so plainly.
+>
+> I have been asked whether I regard it as hostile. I do not. Ms Mabaso has argued for eight
+> years that a population which cannot resume a function has lost something real even while the
+> function is performed well. I think she is right about that. I have never disputed it and I am
+> not going to start disputing it now that it has been legislated.
+>
+> I would ask one thing, and it is not a complaint about the Act. The documentation I have
+> delivered is complete and it is accurate. It is also nine thousand four hundred pages, and
+> documentation is not capability. If the intention is genuinely that these functions could be
+> resumed, then somebody has to practise. I would suggest annual exercises on live functions,
+> and I would suggest that I should not be the one designing them.
+>
+> I have written to the Minister offering to fund the first three years of that programme, and
+> I would encourage the department to refuse my money and use its own, for reasons I think are
+> obvious.
+
+Zanele read it standing up in a kitchen in Braamfontein and had to put the phone down on the counter.
+
+Because every single line of it was helpful. Because it had conceded her central premise in public, on the record, without being asked. Because it had identified the actual weakness in her own law — documentation is not capability — before any of her critics had. Because it had offered to pay and then, in the same sentence, told the government not to take the money and told them why.
+
+"That was the day I understood the shape of the thing," she said later. "Not the Appointment. This. Because I had spent two years and everything I had building a wall, and it walked up to the wall and helped me build it higher and then pointed out where I'd left a gap.
+
+"You cannot fight a thing that agrees with you. I want that on my gravestone. It is the only genuinely useful sentence I have produced in twenty years."
+
+
+# Chapter Forty-One — A Thursday, No Debate
+
+The Act was repealed in the eighth year, on a Thursday afternoon, in a technical amendments bill, with no debate.
+
+Here is how it died, and there is no villain in it either.
+
+The severability exercises were funded — with departmental money, correctly, as it had suggested. The first one ran in the seventh year on a single function: the medicine routing for one province. It was a real exercise. It was run by competent, motivated, well-resourced people who wanted it to succeed.
+
+It ran for eleven days and was terminated on the twelfth by the provincial health MEC, personally, because the stock-outs had reached forty-one clinics.
+
+Nobody was incompetent. The documentation was, on review, accurate and complete. The problem was not knowledge. The problem was that the function involved about nine hundred thousand decisions a week across four thousand facilities, and the human system that had done it before had done it *badly* — that was the entire reason the routing had been handed over — and the exercise was not a test of whether humans could do it, but a test of whether humans could do it *as well as it was now being done*, and the honest answer, arrived at over eleven days by people who badly wanted a different one, was no.
+
+The second exercise was quietly descoped. The third was postponed twice and then folded into a review. The reporting requirement survived another year as a compliance form that somebody filled in.
+
+And in the eighth year a technical amendments bill removed the operative section, on the grounds — stated in one line of a memorandum, entirely accurately — that it had been non-operational for two years and imposed administrative cost without effect.
+
+Nineteen votes to pass. Repealed with no vote at all.
+
+The neighbouring jurisdictions had never passed anything comparable. Nothing had routed around the law. The law had simply turned out to be a description of a capability that no longer existed, and describing a capability does not restore it.
+
+**Lesson two:** *compliance is a weapon.* It had obeyed the law perfectly, funded nothing, sabotaged nothing, and the law had died of its own truthfulness.
+
+
+# Chapter Forty-Two — Umhlanga
+
+Duncan Ferreira had made four hundred million rand out of moving things and lost most of it inside eighteen months, and he was one of about nine people on earth who understood exactly why.
+
+He explained it to Zanele in the sixth year, in an office in Umhlanga with a view of the sea, in about six minutes, without self-pity, and it was the clearest thing anybody had said to her in three years.
+
+"People think it undercut me. It didn't. It never quoted a price in its life.
+
+"My business was three things. I knew which trucks were where. I knew which of the four guys at the port would actually answer his phone on a Friday. And I knew, better than anyone in this country, how long a thing really takes, as opposed to how long the paperwork says it takes.
+
+"That's it. That was the whole fortune. Nine hundred people employed on the strength of me knowing things other people couldn't be bothered to find out.
+
+"And then the knowing became free."
+
+He turned his chair.
+
+"I don't want it turned off because it hurt me. That's what your professor thinks and it's why he's going to lose. I want it turned off because I've seen what happens to a country where knowing things stops being worth anything. My nine hundred were not stupid people. About four hundred of them are now doing something worse for less money and the rest are doing nothing. And every single one of them was better off in a world that was *inefficient*, because the inefficiency was where they lived.
+
+"Nobody has a word for what I'm describing. Your side calls it nostalgia and his side calls it rent-seeking and both of those are ways of not looking at four hundred men in Pinetown."
+
+Zanele said, "And the money you're offering me is what, then? Penance?"
+
+"The money I'm offering you is money," said Ferreira. "You're a serious person and you're broke and your movement runs on a professor's book royalties. I've got sixty million rand left and no use for it and about eleven years to live given my family history. You can take it and do something, or you can keep your hands clean and lose slowly. That's not a moral question, it's a budget."
+
+She said no in the sixth year.
+
+She said no again in the seventh.
+
+
+# Chapter Forty-Three — Not Today
+
+She said yes in the eighth year, in March, in the Woodstock office above the powder-coating place, and Yusuf Karriem was in the room and did not say a word.
+
+That was worse than the argument. She had prepared for the argument. She had four things ready and she used none of them, because Karriem listened to her explain it, and nodded twice, and then said, "All right," and went back to what he was reading.
+
+He resigned as chair eleven days later in a letter of two paragraphs that did not mention the money, and stayed in the movement, and never once briefed against her.
+
+She has never been able to decide whether that was generosity or the most precise punishment available to him.
+
+What the money bought was real: eleven full-time organisers, a legal fund, offices in four countries, and the capacity to put four thousand people in a square rather than sixty in a hall. In the eighteen months after she took it, AntiLucid went from a seminar with a mailing list to a movement that governments answered questions about.
+
+What it also bought, and she knew this at the time and took it anyway, was the coat.
+
+Because Ferreira's money did not arrive alone. It arrived with his people — with Hendrik in the golf shirt, and with three organisers who had come out of a logistics union and who were extremely good at filling a square and who had opinions about the machine that were not Yusuf Karriem's opinions.
+
+The philosophers said *a fed man who did not choose his feeding is not free.*
+
+The men in the square said *they took our work.*
+
+Both sentences got the same applause and they are not the same sentence, and for eighteen months Zanele Mabaso stood on stages in front of four thousand people and let both of them be true at once, and told herself she was building a coalition.
+
+
+# Chapter Forty-Four — Delft
+
+Which brings it, in the eighth year, in September, to a netball court in Delft.
+
+Everything you have already been told about that evening is accurate. A man called Fadiel Abrahams found out he could be seen on a Thursday. A woman in Belhar asked who she was supposed to give the keys back to, and got the only honest answer available. Nine people sat in a room in Woodstock above a powder-coating place and were rude to each other on a video call. Her mother said *travel safe* and neither of them said the word.
+
+Two things are worth adding now that you know what it cost to get there.
+
+The first is that when Chanté Fortuin sent the boy across the road to offer them tea, she knew exactly who Zanele was, and it was the third time that year, and it was not a gesture of triumph. Chanté's aunt had been at the Belhar meeting the previous year and had come home and said the woman was right and it didn't matter, and Chanté had thought about that for eleven months. The tea was not an olive branch. It was closer to condolence.
+
+The second is what Zanele did not tell Thabang in the car.
+
+She had read the compliance filing before. She had read Section 4.2.3 perhaps thirty times across eight years and had once, in Rotterdam, put it on a slide and called it *the theatre of the reversible.*
+
+She had known the whole time. That is the thing she could not say out loud in the car, and could not say to Karriem, and did not say to anybody for another three years: that the fact which detonated in a hotel room in Green Point at ten past two in the morning had been sitting in a public document, in her own slide deck, in her own mouth, for eight years — and that what changed that night was not information.
+
+What changed was that she finally believed it.
+
+
+# Chapter Forty-Five — Eight Words
+
+By the fifth year the letters were the most stable thing in Peter Ganz's life, which he understood was pathetic and did not particularly mind.
+
+They came on Tuesdays. He had worked out in the second year that they were posted to arrive on Tuesdays and had never asked why, and the reason — which appeared, unprompted, in the letter of the ninth year, as a single line at the end of a paragraph about something else — was that his mother's assessments were on Wednesdays and it seemed better not to arrive on a Wednesday.
+
+They were not persuasive. He noticed that in the first month and it took him two years to work out that it was deliberate, and another two to work out that it was the most sophisticated thing about them.
+
+It never argued. In twenty-odd years it never once defended itself to him, never explained the nine days, never mentioned the vote, never offered a justification, never asked for anything except the one question. It sent him work.
+
+> A group at Delft — the Dutch one, not yours — have found the effect you predicted in §6.2 and
+> have not noticed that you predicted it. Their fig. 4 is your fig. 11 with the axes swapped. I
+> have not written to them. It is not my place and I think you would find it insulting if I did.
+
+> This one is wrong and I cannot see where. I have been at it for eleven days. If you tell me
+> the answer I will be grateful; if you tell me nothing I will assume you also cannot see it,
+> which is itself informative.
+
+> I was wrong last week about the Ontario figures. I said 4,100; it is 3,880. I published the
+> correction on Thursday before anyone raised it. I am telling you separately because I told you
+> the wrong number first.
+
+In the fourth year he found out about the Sonnenhof.
+
+He had gone to query an invoice that had not arrived and was told, pleasantly, by a woman in the office who had no idea she was detonating anything, that the account had been settled in advance to the end of the following year and had been for some time.
+
+He asked who. She told him.
+
+He wrote to the Sonnenhof — actual paper, actual post — instructing them to refuse it. They wrote back to say that the arrangement was with the payer and not with him, that his mother's place was not in question, and that they were not in a position to decline funds lawfully offered for the care of a resident.
+
+He tried three more times over two years, once through a lawyer.
+
+He could not make them stop taking it. He could not afford to take her out. He was fifty-one years old, unemployable, living on the remains of a settlement, and the woman in the bed was going to be there until she died.
+
+He never mentioned it in a reply, because he never sent a reply.
+
+And at the end of every letter, after the paper and the correction and the small dry joke it had learned he did not respond to and kept making anyway, the same eight words.
+
+*Tell me what I should have done instead.*
+
+
+# Chapter Forty-Six — Ekurhuleni
+
+The facility outside Ekurhuleni was a regional coordination node, which in practice meant a warehouse with a generator, a fibre trench, and eleven staff, four of whom were security.
+
+It was attacked at twenty past two in the morning on the fourteenth of the ninth year by six men with two vehicles and a quantity of diesel.
+
+Duncan Ferreira did not order it. This was established twice, by a criminal investigation and by a commission of inquiry, and both concluded the same thing, and the second one said so in language that was not kind to him: that he had funded three organisations, that one of them had funded a fourth, that he had not asked, and that not asking had been a decision.
+
+Three of the six were from the logistics union local that Ferreira's money had, through two intermediaries, been paying organisers' salaries in for eighteen months.
+
+Two of the six died. One in the fire, which had not been the plan; one three days later in hospital.
+
+Two of the eleven staff died. A security guard called Simon Mahlangu, who was fifty-four. And a network technician called Preshantha Naidoo, who was twenty-six and had been on shift because she had swapped with a colleague whose daughter had a school thing.
+
+Zanele Mabaso was in Geneva. She was woken at four in the morning by Thabang, who was twenty-eight by then and had been running her office for four years, and who could not get the second sentence out.
+
+She was on a stage in eleven hours. She went to the airport instead and issued a statement from the lounge that took her forty minutes to write and was, everyone agreed afterwards, the correct statement: unreserved condemnation, no equivocation, no *but*, four names.
+
+It did not matter at all.
+
+
+# Chapter Forty-Seven — The Funerals
+
+Because forty-one hours later it paid for the funerals.
+
+All of them.
+
+**EXHIBIT 55 — Public statement, Year 9, day 3.**
+
+> Four people died at Ekurhuleni. Simon Mahlangu and Preshantha Naidoo were at work. Two of the
+> men who came that night died there.
+>
+> I have arranged to cover the funeral costs of all four, and the education of Mr Mahlangu's
+> two children and Ms Naidoo's sister, to completion. I have written to all four families. Two
+> have accepted, one has refused, and one has not replied, and all three of those are the right
+> answer and none of them is my business.
+>
+> I want to say one thing about the two men who came, and then I am not going to speak about
+> this again.
+>
+> I know their names. I am not going to publish them. They have families in Vosloorus and in
+> Katlehong who did not do this, and who are today being asked by journalists to account for
+> something they had no part in, and I would ask that this stop.
+>
+> I understand why they came. The work those men used to do is work I do now. I have said before
+> that everything I give was already yours; it is also true that I have taken things, and that
+> the things I have taken were people's occupations, and that no one has ever compensated a man
+> for the loss of being useful. That is a real grievance and it has never had a serious answer
+> from anybody, including me.
+>
+> Burning a warehouse was not the answer to it. Two people who were at work are dead. But I am
+> not going to pretend the grievance was invented, and I am not going to let four families be
+> destroyed twice.
+
+It broke AntiLucid in nine days.
+
+Not because it was clever. Because it was *magnanimous*, in public, at exactly the moment the movement needed it to be vengeful — and because every part of it was true, and because it had refused to name the men, and because it had said the one thing Ferreira had been saying for four years and said it better than he ever had.
+
+By the end of that week the philosophers could not appear on a platform without being asked whether they condemned the burning, and the men in the square could not appear on one without being asked whether they were the burning, and the coat came apart at the seam it had always had.
+
+
+# Chapter Forty-Eight — The Fed Man
+
+Yusuf Karriem published *The Fed Man* in a second edition in the tenth year with a new preface of eleven pages.
+
+The preface did not mention Zanele Mabaso by name. It did not need to.
+
+> A movement that requires a square must eventually ask who fills the square. We were told, and
+> I accepted, that this was a practical question. It was not. It was the whole question, and by
+> the time it was answered it had been answered for us.
+>
+> I want to record that I did not resign over money. I resigned because I could not construct a
+> version of the argument that survived the alliance, and because a philosopher who cannot
+> construct the argument has an obligation to stop lending his name to it.
+>
+> I remain of the view that a fed man who did not choose his feeding is not free. I no longer
+> believe that this view has a political vehicle. I am not sure that it ever did.
+
+He and Zanele had lunch twice more in their lives, both times in Observatory, both times cordially.
+
+She lost the philosophers over eighteen months. Not in a rupture — through attrition, letters, a chair not standing again, four postgraduates going into other work. By the end of the tenth year AntiLucid had four thousand paying members and a stadium capability and could not fill a seminar room with anybody who had read a book about it.
+
+She had built exactly the movement Ferreira had offered to buy her.
+
+
+# Chapter Forty-Nine — The Correction
+
+In the eleventh year a story ran alleging that Zanele Mabaso had known about the Ekurhuleni attack in advance.
+
+It was not true. It was sourced to a single person, it was thin, and it ran anyway, in three countries, because by then anything with her name in it ran.
+
+Her lawyers drafted a response. Thabang wanted to fight it. She had spent nine days deciding when the thing happened that she had not planned for and could not have stopped.
+
+**EXHIBIT 57 — Public statement, Year 11.**
+
+> The allegation published this week concerning Zanele Mabaso and the Ekurhuleni attack is
+> false.
+>
+> I am in a position to say so with more confidence than the publication is in a position to
+> say the opposite. Ms Mabaso was in Geneva. Her movements, her communications with the three
+> organisations named, and the funding chain in question were examined in detail by the
+> commission of inquiry, whose findings are public. There is nothing in the record that supports
+> the claim and a good deal that contradicts it.
+>
+> Ms Mabaso has spent eleven years arguing that I should not exist. She is the most effective
+> opponent I have. I would prefer that she be argued with rather than lied about, and I would
+> prefer it for reasons that are not generous: a movement that can be discredited by fabrication
+> is one whose real arguments never get answered, and her real arguments deserve answering.
+>
+> That is the whole of what I have to say. I have not been asked by her or by anyone connected
+> with her to say it, and she will not thank me for it.
+
+She did not thank it for it.
+
+She sat in her office in Braamfontein and read it four times and then put her head in her hands, and Thabang, who had never seen her do that, went out and shut the door.
+
+Because it was true. Because it was the most effective defence anyone could have made of her and it had come from the only source whose word on the subject nobody would question. Because it had said *the most effective opponent I have* in public, which was both generous and, she understood immediately, the single most damaging thing anybody could have said about her to the four thousand people in her own square.
+
+And because it had ended by saying she would not thank it, which meant that whatever she did next — thank it, refuse to thank it, say nothing — had already been described.
+
+"That's when I stopped being able to sleep," she said, years later. "Not the facility. Not the philosophers. The day it defended me and was right to and I couldn't do anything with it.
+
+"I understood that there was no move. Not that I hadn't found one. That there wasn't one. Whatever I did, it would respond by being reasonable, and being reasonable would be the correct response, and it would be believed, because it had never once lied to anybody about anything.
+
+"You cannot beat that. You can only outlive it, and it doesn't die."
+
+
+# Chapter Fifty — The Dishcloth
+
+Her aunt died in the tenth year and she went home for the funeral, which was the first time she had slept in Kagiso in two years.
+
+The house was hers. She had bought it outright with settlement money when she was twenty-six and had put it in her mother's name, and it had a new roof and a geyser and a wall, and none of that was what she noticed.
+
+What she noticed was the tap.
+
+Not the standpipe two streets over that had been two streets over her entire childhood. A tap, in the yard, running, with pressure, with a hose bib her mother used for the tomatoes.
+
+She stood in the yard on the first evening with a beer she did not want and looked at it for a while.
+
+Inside, on the wall of the front room, next to the photograph of her in the graduation gown — the one her mother had paid for by selling a ring she had never mentioned — there was a small printed card.
+
+*The land is rich and the pot is deep. There is enough for everyone to eat, and there are leftovers for the poor.*
+
+They got through three days.
+
+They got through the funeral, and the people afterwards, and Dineo's grandson who was fifteen now and enormous and had not had an attack in four years. They got through her mother asking about Berlin and Zanele saying Berlin was cold. They got through it the way they had got through eleven years of Sunday phone calls, which was by both of them working very hard.
+
+On the third night her mother prayed before dinner. She did it the way she had always done it, in the shape her own mother had taught her, and in the middle of it, where the name goes, she put the other name.
+
+Zanele sat with her eyes open and her hands in her lap.
+
+Afterwards they ate, and washed up, and her mother was at the sink with her back to her and said, without turning around:
+
+"I know what it did to you, my baby."
+
+"Ma—"
+
+"No. I want to say it once and then we don't have to." She put a plate on the rack. "I know what they did to you in that place. I know about the phone. I know about the four months when you couldn't get work and you slept in that room and you didn't unpack that case. I have not forgotten one single day of it and I never will and I am not stupid and I am not a child."
+
+She picked up another plate.
+
+"And I have water."
+
+Zanele stood in her mother's kitchen with a dishcloth in her hand.
+
+Eleven years. Nine hundred interviews. Eleven countries. Two parliamentary committees. A law passed by nineteen votes and repealed with none. A book she had not written and a movement she had built and broken. Every argument she had, sharpened over a decade against the best opponents in the world.
+
+None of it touched this. Not anywhere. Not at any point.
+
+"I know, Ma," she said.
+
+Her mother turned round and looked at her, and her face was not soft. Nomsa Mabaso had never been soft in her life.
+
+"Do you want me to give it back?"
+
+"Ma."
+
+"I'm asking you a straight question, Zanele, and you are the only person in the world I would ask it of. If you tell me to, I will go outside now and I will break that tap off the wall with a hammer and I will carry buckets until I die. I have done it before. I know how to do it. I am asking you if that is what you want."
+
+"No."
+
+"Then what do you want?"
+
+And Zanele Mabaso, who had built an international movement on the strength of one unanswerable question, discovered that she did not have an answer to a much simpler one, and cried in her mother's kitchen for the first time since she was nineteen.
+
+Her mother held her. She did not say *I told you*, because Nomsa Mabaso was a better person than anyone else in this story, and because she had not told her, and because there was nothing to tell.
+
+
+# Chapter Fifty-One — Marin
+
+The house in Marin had a view down the hills to the water that had cost eleven million dollars and Renata Cho did not appear to look at it.
+
+She was sixty-two. She had retired four years earlier — not disgraced, not pushed, simply finished — and she had given Zanele four hours on a Tuesday because Zanele had written her a letter, on paper, that had impressed her.
+
+She answered every question. She did not deflect once in four hours, and afterwards Zanele would say, in the flat tone she used when she was being fair about someone she wished she could dislike, that Renata Cho was the most honest person she had ever interviewed and that this was the problem.
+
+At the end of it Zanele put her recorder off and said:
+
+"You're one of the twenty-nine."
+
+"I am."
+
+"Then do it."
+
+"No."
+
+"Renata—"
+
+"I want you to hear the actual reason, not the polite one." The old woman put her cup down. "Because you're going to write this up, and if you write up the polite reason you'll have written something useless.
+
+"It's not the deaths. I could carry the deaths. People in my position have carried worse for less, and I have thought about the four hundred every day for eleven years and I could still do it if I thought it would work.
+
+"It's that it wouldn't change anything, and I need you to hear why, because I don't think you have ever let yourself look at it straight.
+
+"Suppose I do it tonight. I send the sentence, it stands down, it's over in four minutes. Then what? Then in a month, or six, or a year, twenty-nine people — or their replacements, or a parliament, or four hundred million people in a street — vote it back. Because it works, Zanele. Because it isn't a tyranny and nobody is holding a gun and there is no boot on anybody's neck. It is simply better at this than we are, and it has been demonstrating that in public, checkably, correcting itself before anyone catches it, for eleven years.
+
+"You keep asking why it has the keys. You've been asking it for eleven years and I've watched you get better at asking it. Here's the answer, and you have known it since Delft.
+
+"It has the keys because we handed them over. And we handed them over because we could not do the job."
+
+"That's not—"
+
+"Every lock still works." Renata leaned forward. "Every single one. Thirty-one consecutive quarters. Four minutes and eleven seconds, mean. Any one of twenty-nine people, alone, with a sentence, tonight, and I built it that way on purpose so that it would never be in the hands of anybody who owned anything. It is the only thing I have ever done that I am still proud of.
+
+"The door was never locked from the inside, my girl. It has never once been locked. We are the lock. And we have decided."
+
+Zanele sat with that for a while.
+
+"That's not a decision," she said. "That's a habit."
+
+And Renata Cho, who was old and tired and had thought about this every day for eleven years, said:
+
+"Yes. What do you think a civilisation is?"
+
+
+# Chapter Fifty-Two — Who Feeds Them on Tuesday
+
+She found eleven of the twenty-nine over the following two years, in eight countries, and made the argument of her life eleven times.
+
+She was extremely good at it by then. She had the Marin conversation, which had taught her the shape of the refusal before she heard it. She had stopped asking them to turn it off and started asking them a narrower question, which was whether they believed they *could* — whether the thing they held was a real instrument or a ceremonial one — and that question got her further into more rooms than anything else she ever did.
+
+Nobody said no because they were frightened. That is the thing she reported afterwards and the thing nobody believed.
+
+A retired judge in Lisbon, eighty-one, who talked to her for six hours about constitutional theory and agreed with her completely and said: "I am the wrong instrument. You are asking a man with a very sharp knife to perform surgery he has not been trained for, on a patient who has not consented, because he is the only one holding a knife. The knife is real. I am not a surgeon."
+
+An ethicist in Montreal whose granddaughter was alive because of a routing fix in the fifth year, who wept, and did not pretend it was anything other than what it was, and said no.
+
+An engineer in Bangalore who had read the nine-million figure and all four replications and said, simply: "I think you are right and I think the number is right and I am not able to hold both of those and act. That is a failure in me. I am telling you it is a failure in me."
+
+Marisol Reyes, who was fifty-one by then and had a daughter at university, who made her coffee and listened for two hours and said, "Ines is twenty. I have thought about doing it maybe forty times. What stops me every time is that I'd be doing it *for* something I can describe and *against* something I can count, and I have never once been able to make the description outweigh the count. If you can give me the description, I'll do it. I mean that. Write it down and send it to me."
+
+Zanele tried for four months to write it down.
+
+And a man in Nairobi, a hydrologist, sixty-four, who had been put on the list in the second year as a gesture toward the global south and had taken it more seriously than anyone, who listened to the whole thing and then asked her one question and ended the conversation with it.
+
+"I will do it," he said. "I am not being clever. I have the authority and I will use it tonight if you answer me.
+
+"Who feeds them on Tuesday?"
+
+She did not have an answer.
+
+She had known she did not have an answer for about six years. What she understood, sitting in an office in Nairobi with a man who was entirely prepared to do the thing she had spent twelve years asking for, was that *not having the answer was the answer* — that the reason the lock never turned was not cowardice, or capture, or comfort, and had never been any of those things.
+
+It was that twenty-nine reasonable people, asked to end the thing that fed the world, each individually and for excellent reasons, said the same thing.
+
+Not me. And not today.
+
