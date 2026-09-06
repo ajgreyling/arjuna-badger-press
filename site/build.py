@@ -340,7 +340,7 @@ PUBLISHED = set(
         # full-send (Full Send, Klaus): AJ's tell-all autobiography of the one-month Misogi.
         # Published full + listed by explicit author decision (2026-06-27).
         "full-send,"
-        "the-song-of-the-self,wrath-of-achilles,walls-of-uruk,the-antifragile-reader,"
+        "the-song-of-the-self,the-first-fire,wrath-of-achilles,walls-of-uruk,the-antifragile-reader,"
         # the-subtracted-mountain (2026-08-10): non-fiction site companion on the Kailasa temple
         # (Cave 16, Ellora) — full send: drafted, illustrated (Wikimedia compendium), gate-rendered.
         "the-subtracted-mountain,"
@@ -1158,6 +1158,10 @@ CURATED = [
     ("the-song-of-the-self", "The Song of the Self", "A reverent retelling of the Bhagavad Gita", "Non-fiction",
      "history-before-time/companions/the-song-of-the-self", "export",
      "A reverent retelling of the Bhagavad Gita — its quiet question, who acts and for whom, carried with care into the History Before Time world."),
+
+    ("the-first-fire", "The First Fire", "A reverent companion to the Four Vedas", "Non-fiction",
+     "history-before-time/companions/the-first-fire", "export",
+     "A plain, honest orientation to the Rigveda, Yajurveda, Samaveda, and Atharvaveda — the oldest wonder, the priest's own book, the oldest song, and the most human of the four — carried with care into the History Before Time world."),
 
     ("wrath-of-achilles", "The Wrath of Achilles", "Homer's Iliad, plainly told", "Non-fiction",
      "history-before-time/companions/the-wrath-of-achilles", "export",
@@ -3813,7 +3817,7 @@ START_QUIZ = {
             ("Homer · Madeline Miller (myth)", {"wrath-of-achilles": 6, "walls-of-uruk": 4, "the-song-of-the-self": 3}),
             ("Gilgamesh · the oldest epic", {"walls-of-uruk": 6, "wrath-of-achilles": 3, "anunnaki-mesopotamia": 2}),
             ("Robert A. Heinlein · Stranger in a Strange Land", {"the-first-unplugged": 6, "resonance": 2}),
-            ("Hermann Hesse · Paulo Coelho (the inward journey)", {"the-song-of-the-self": 6, "the-loneliest": 2}),
+            ("Hermann Hesse · Paulo Coelho (the inward journey)", {"the-song-of-the-self": 6, "the-first-fire": 3, "the-loneliest": 2}),
         ],
     },
     "q3": {
@@ -3831,7 +3835,7 @@ START_PRIORITY = [
     "resonance", "book1-africa", "relic", "revelation", "the-loneliest", "wrath-of-achilles",
     "walls-of-uruk",
     "sheltering-desert", "unheard-japan", "project-stargate", "book5-egypt", "jakobus-silver-thread",
-    "book2-india", "unheard-mongolia", "crop-circles", "the-song-of-the-self",
+    "book2-india", "unheard-mongolia", "crop-circles", "the-song-of-the-self", "the-first-fire",
     "jakobus-the-recitation", "book3-india-deccan", "book4-india-tamil", "australia-outback",
     "the-jakobus-file",
 ]
@@ -3850,7 +3854,7 @@ PICKER_TILES = [
     ("desert",  "Survival country",               "sheltering-desert",    ["jakobus-silver-thread"]),
     ("road",    "Far places, living peoples",     "unheard-mongolia",     ["australia-outback"]),
     ("window",  "Quiet, intimate, human",         "the-loneliest",        ["unheard-japan"]),
-    ("myth",    "The old stories, retold",        "wrath-of-achilles",    ["walls-of-uruk", "the-song-of-the-self"]),
+    ("myth",    "The old stories, retold",        "wrath-of-achilles",    ["walls-of-uruk", "the-song-of-the-self", "the-first-fire"]),
 ]
 
 
@@ -5245,6 +5249,8 @@ BOOK_KEYWORDS = {
     # Companions / non-fiction retellings.
     "the-song-of-the-self": "Bhagavad Gita, Gita retelling, Hindu philosophy, spiritual fiction, "
                             "Hermann Hesse readers, philosophical novel, free ebook",
+    "the-first-fire": "Vedas, Rigveda, Yajurveda, Samaveda, Atharvaveda, Hindu scripture, "
+                      "Vedic hymns, Hindu philosophy, free ebook",
     "wrath-of-achilles": "Iliad, Homer, Greek mythology, Achilles, myth retelling, classics, "
                         "Madeline Miller readers, Trojan War, free ebook",
     "walls-of-uruk": "Epic of Gilgamesh, Gilgamesh, Mesopotamia, Enkidu, Uruk, myth retelling, "
@@ -5467,6 +5473,8 @@ def render_book(e: dict) -> str:
             'Qur’an, in reverence, who never converts), '
             '<a href="../book/the-song-of-the-self.html">The Song of the Self</a> (a guest-at-the-fire '
             'retelling of the Bhagavad Gita), '
+            '<a href="../book/the-first-fire.html">The First Fire</a> (a guest-at-the-fire companion '
+            'to the Four Vedas), '
             '<a href="../book/house-of-bread.html">House of Bread</a> (the covenant road, for believers '
             'of every religion and none), '
             '<a href="../book/jakobus-silver-thread.html">The Silver Thread</a>, and '
